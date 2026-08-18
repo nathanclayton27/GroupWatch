@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Everything Dies — a Hickman Secret Wars reading tracker</title>
+<meta name="description" content="A 250-issue reading tracker for Jonathan Hickman's Marvel run, from Fantastic Four #570 to Secret Wars #9.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#E6E7E2; --card:#F2F2EE; --ink:#15171A; --ink-2:#5C6066; --ink-3:#8E9298;
+  --rule:#C9CAC4; --rule-2:#B0B2AB;
+  --signal:#C1352A; --steel:#2E4A6B; --done:#4A6B4E;
+  --radius:2px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#131518; --card:#1B1E22; --ink:#E8E9E4; --ink-2:#9BA0A6; --ink-3:#6C7178;
+    --rule:#2C3035; --rule-2:#3D424A;
+    --signal:#E4584A; --steel:#7BA3D0; --done:#7FA986;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Space Grotesk",system-ui,sans-serif;font-size:15px;line-height:1.5}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px 100px}
+.lbl{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);font-weight:500}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+
+header{padding:56px 0 28px;border-bottom:1px solid var(--rule)}
+h1{font-size:clamp(30px,7vw,52px);line-height:.98;margin:10px 0 6px;font-weight:700;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--signal)}
+.tagline{color:var(--ink-2);max-width:60ch;margin:0}
+.strip{display:flex;gap:1px;height:34px;margin:26px 0 10px;align-items:flex-end}
+.tick{flex:1 1 0;min-width:0;background:var(--rule);height:40%;transition:height .18s,background .18s}
+.tick.t1{height:70%}
+.tick.on{background:var(--signal);height:100%}
+.tick.sep{background:transparent;flex:0 0 3px}
+
+.bar{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:26px}
+.bar-in{max-width:900px;margin:0 auto;padding:0 20px;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.stat{display:flex;flex-direction:column;gap:1px}
+.stat b{font-family:"IBM Plex Mono",monospace;font-size:17px;font-weight:500;font-variant-numeric:tabular-nums}
+.spacer{flex:1}
+.acct{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--ink-3);flex:none}
+.dot.ok{background:var(--done)} .dot.busy{background:var(--signal)}
+
+button{font-family:inherit;font-size:13px;color:var(--ink);background:transparent;
+  border:1px solid var(--rule-2);border-radius:var(--radius);padding:7px 13px;cursor:pointer}
+button:hover{border-color:var(--ink-2)}
+button:disabled{opacity:.5;cursor:default}
+button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+input[type=text],input[type=email]{font-family:inherit;font-size:13px;background:var(--card);color:var(--ink);
+  border:1px solid var(--rule-2);border-radius:var(--radius);padding:7px 10px;width:170px}
+
+details{border:1px solid var(--rule);border-radius:var(--radius);background:var(--card);margin-bottom:10px}
+summary{list-style:none;cursor:pointer;padding:15px 18px;display:flex;gap:14px;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+.tier{flex:none;width:20px;color:var(--ink-3);font-weight:500}
+.tier.a{color:var(--signal)}
+.st{flex:1;min-width:0}
+.st h2{font-size:16px;margin:0;font-weight:500;letter-spacing:-.01em}
+.st p{margin:2px 0 0;font-size:13px;color:var(--ink-2)}
+.cnt{flex:none;font-size:12px;color:var(--ink-2)}
+.cnt.full{color:var(--done)}
+details[open] summary{border-bottom:1px solid var(--rule)}
+
+ol{list-style:none;margin:0;padding:6px 0}
+li{display:flex;align-items:baseline;gap:12px;padding:5px 18px}
+li:hover{background:rgba(128,128,128,.06)}
+li input{flex:none;width:15px;height:15px;accent-color:var(--signal);margin:0;position:relative;top:2px;cursor:pointer}
+.ttl{flex:1;min-width:0;font-size:14px}
+.num{color:var(--ink-2);font-size:13px}
+.nb{display:block;font-size:12px;color:var(--ink-3);margin-top:1px}
+li.done .ttl,li.done .num{color:var(--ink-3);text-decoration:line-through;text-decoration-thickness:1px}
+.star{color:var(--signal);font-size:11px;letter-spacing:-1px}
+.opt{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);border:1px solid var(--rule-2);padding:1px 5px;border-radius:var(--radius)}
+a.iss{color:var(--steel);text-decoration:none;border-bottom:1px solid transparent}
+a.iss:hover{border-bottom-color:var(--steel)}
+.sl{font-size:11px;color:var(--steel);text-decoration:none;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+
+.panel{border:1px solid var(--rule);border-radius:var(--radius);background:var(--card);padding:18px;margin:26px 0}
+.panel h3{margin:0 0 6px;font-size:15px;font-weight:500}
+.panel p{margin:0 0 12px;font-size:13px;color:var(--ink-2);max-width:66ch}
+textarea{width:100%;font-family:"IBM Plex Mono",monospace;font-size:11px;background:var(--paper);
+  color:var(--ink);border:1px solid var(--rule-2);border-radius:var(--radius);padding:9px;min-height:70px;resize:vertical}
+footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--rule);font-size:12px;color:var(--ink-3);max-width:70ch}
+footer a{color:var(--steel)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.hide{display:none!important}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:560px){
+  li{padding:6px 14px}.wrap{padding:0 14px 80px}.bar-in{padding:0 14px;gap:16px}
+  summary{padding:13px 14px}input[type=text],input[type=email]{width:130px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="lbl">Jonathan Hickman · 2009–2015 · 250 issues</div>
+  <h1>Everything<br><em>dies.</em></h1>
+  <p class="tagline">A reading tracker for the whole Secret Wars saga — Fantastic Four #570 through Secret Wars #9, in the order it's meant to be read.</p>
+  <div class="strip" id="strip" role="img" aria-label="Progress across all issues"></div>
+  <div class="lbl">Each mark is one issue, in reading order</div>
+</header>
+</div>
+
+<div class="bar">
+  <div class="bar-in">
+    <div class="stat"><span class="lbl">Read</span><b id="s-all">0 / 250</b></div>
+    <div class="stat"><span class="lbl">Tier 1</span><b id="s-t1">0 / 122</b></div>
+    <div class="stat"><span class="lbl">Tier 2</span><b id="s-t2">0 / 61</b></div>
+    <div class="stat"><span class="lbl">Tier 3</span><b id="s-t3">0 / 67</b></div>
+    <div class="spacer"></div>
+    <div class="acct">
+      <span class="dot" id="dot"></span>
+      <span class="lbl" id="state">Starting up</span>
+      <button id="b-signin" class="hide">Sign in</button>
+      <button id="b-signout" class="hide">Sign out</button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="panel hide" id="signin">
+    <h3>Sign in to sync across devices</h3>
+    <p>Enter your email and you'll get a sign-in link — no password to make up or remember. Anything you've already ticked on this device gets folded into your account the first time you sign in.</p>
+    <div class="row">
+      <input type="email" id="email" placeholder="you@example.com" autocomplete="email" style="width:240px">
+      <button id="b-link">Email me a link</button>
+      <button id="b-gh" class="hide">Continue with GitHub</button>
+      <button id="b-cancel">Cancel</button>
+    </div>
+    <p id="authmsg" style="margin:12px 0 0;color:var(--signal)"></p>
+  </div>
+
+  <main id="list"></main>
+
+  <div class="panel">
+    <h3>Move progress by hand</h3>
+    <p>Copy this code to carry progress to another browser without signing in. Loading a code replaces what's currently ticked.</p>
+    <textarea id="code" spellcheck="false" aria-label="Progress code"></textarea>
+    <div class="row" style="margin-top:10px">
+      <button id="b-export">Copy my code</button>
+      <button id="b-import">Load a code</button>
+      <button id="b-reset">Clear progress</button>
+    </div>
+    <p id="msg" style="margin:10px 0 0;color:var(--signal)"></p>
+  </div>
+
+  <footer>
+    <p><strong>Tiers.</strong> 1 is essential, 2 is strongly recommended (the Fantastic Four run — it's what makes the ending land), 3 is genuinely optional. The minimum viable path is Tier 1 alone.</p>
+    <p><strong>Reading in Marvel Unlimited?</strong> Most issues link to their series page rather than the issue, because Marvel only exposes the 20 most recent issues of any series to the outside world. The issue numbers tell you when to switch titles, which is the real difficulty with an interleaved run.</p>
+    <p>Reading order compiled from Comic Book Herald, Crushing Krisis and How To Love Comics; the Fantastic Four/FF weave follows the order Hickman specified for the omnibus.</p>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script>
+const SUPABASE_URL      = '';
+const SUPABASE_ANON_KEY = '';
+const ENABLE_GITHUB_LOGIN = false;
+
+const DATA = [{"id": "shield", "tier": 3, "title": "S.H.I.E.L.D.", "sub": "2010\u20132011 \u00b7 skip on a first read", "items": [{"t": "S.H.I.E.L.D. (2010)", "n": "#1", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2010-1", "url": ""}, {"t": "S.H.I.E.L.D. (2010)", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2010-2", "url": ""}, {"t": "S.H.I.E.L.D. (2010)", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2010-3", "url": ""}, {"t": "S.H.I.E.L.D. (2010)", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2010-4", "url": ""}, {"t": "S.H.I.E.L.D. (2010)", "n": "#5", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2010-5", "url": ""}, {"t": "S.H.I.E.L.D. (2010)", "n": "#6", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2010-6", "url": ""}, {"t": "S.H.I.E.L.D.: Infinity", "n": "#1", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-infinity-1", "url": ""}, {"t": "S.H.I.E.L.D. (2011)", "n": "#1", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2011-1", "url": ""}, {"t": "S.H.I.E.L.D. (2011)", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2011-2", "url": ""}, {"t": "S.H.I.E.L.D. (2011)", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2011-3", "url": ""}, {"t": "S.H.I.E.L.D. (2011)", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2011-4", "url": ""}, {"t": "S.H.I.E.L.D. (2011)", "n": "#5", "note": "", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2011-5", "url": ""}, {"t": "S.H.I.E.L.D. (2011)", "n": "#6", "note": "the back half was heavily delayed", "star": 0, "opt": 0, "id": "s-h-i-e-l-d-2011-6", "url": ""}]}, {"id": "warriors", "tier": 3, "title": "Secret Warriors", "sub": "2009\u20132011 \u00b7 good comic, contributes almost nothing", "items": [{"t": "Secret Warriors", "n": "#1", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-1", "url": ""}, {"t": "Secret Warriors", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-2", "url": ""}, {"t": "Secret Warriors", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-3", "url": ""}, {"t": "Secret Warriors", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-4", "url": ""}, {"t": "Secret Warriors", "n": "#5", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-5", "url": ""}, {"t": "Secret Warriors", "n": "#6", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-6", "url": ""}, {"t": "Secret Warriors", "n": "#7", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-7", "url": ""}, {"t": "Secret Warriors", "n": "#8", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-8", "url": ""}, {"t": "Secret Warriors", "n": "#9", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-9", "url": ""}, {"t": "Secret Warriors", "n": "#10", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-10", "url": ""}, {"t": "Secret Warriors", "n": "#11", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-11", "url": ""}, {"t": "Secret Warriors", "n": "#12", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-12", "url": ""}, {"t": "Secret Warriors", "n": "#13", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-13", "url": ""}, {"t": "Secret Warriors", "n": "#14", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-14", "url": ""}, {"t": "Secret Warriors", "n": "#15", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-15", "url": ""}, {"t": "Secret Warriors", "n": "#16", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-16", "url": ""}, {"t": "Secret Warriors", "n": "#17", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-17", "url": ""}, {"t": "Secret Warriors", "n": "#18", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-18", "url": ""}, {"t": "Secret Warriors", "n": "#19", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-19", "url": ""}, {"t": "Secret Warriors", "n": "#20", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-20", "url": ""}, {"t": "Secret Warriors", "n": "#21", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-21", "url": ""}, {"t": "Secret Warriors", "n": "#22", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-22", "url": ""}, {"t": "Secret Warriors", "n": "#23", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-23", "url": ""}, {"t": "Secret Warriors", "n": "#24", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-24", "url": ""}, {"t": "Secret Warriors", "n": "#25", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-25", "url": ""}, {"t": "Secret Warriors", "n": "#26", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-26", "url": ""}, {"t": "Secret Warriors", "n": "#27", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-27", "url": ""}, {"t": "Secret Warriors", "n": "#28", "note": "", "star": 0, "opt": 0, "id": "secret-warriors-28", "url": ""}]}, {"id": "darkreign", "tier": 2, "title": "Prelude \u2014 Dark Reign", "sub": "where the Fantastic Four run starts", "items": [{"t": "Dark Reign: Fantastic Four", "n": "#1", "note": "", "star": 0, "opt": 0, "id": "dark-reign-fantastic-four-1", "url": ""}, {"t": "Dark Reign: Fantastic Four", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "dark-reign-fantastic-four-2", "url": ""}, {"t": "Dark Reign: Fantastic Four", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "dark-reign-fantastic-four-3", "url": ""}, {"t": "Dark Reign: Fantastic Four", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "dark-reign-fantastic-four-4", "url": ""}, {"t": "Dark Reign: Fantastic Four", "n": "#5", "note": "", "star": 0, "opt": 0, "id": "dark-reign-fantastic-four-5", "url": ""}, {"t": "Dark Reign: The Cabal", "n": "", "note": "Hickman\u2019s story only", "star": 0, "opt": 0, "id": "dark-reign-the-cabal-0", "url": ""}]}, {"id": "ff570", "tier": 2, "title": "Fantastic Four #570\u2013588", "sub": "the run proper", "items": [{"t": "Fantastic Four", "n": "#570", "note": "\u201cSolve everything\u201d \u2014 the thesis statement for the whole saga", "star": 2, "opt": 0, "id": "fantastic-four-570", "url": ""}, {"t": "Fantastic Four", "n": "#571", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-571", "url": ""}, {"t": "Fantastic Four", "n": "#572", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-572", "url": ""}, {"t": "Fantastic Four", "n": "#573", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-573", "url": ""}, {"t": "Fantastic Four", "n": "#574", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-574", "url": ""}, {"t": "Fantastic Four", "n": "#575", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-575", "url": ""}, {"t": "Fantastic Four", "n": "#576", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-576", "url": ""}, {"t": "Fantastic Four", "n": "#577", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-577", "url": ""}, {"t": "Fantastic Four", "n": "#578", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-578", "url": ""}, {"t": "Fantastic Four", "n": "#579", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-579", "url": ""}, {"t": "Fantastic Four", "n": "#580", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-580", "url": ""}, {"t": "Fantastic Four", "n": "#581", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-581", "url": ""}, {"t": "Fantastic Four", "n": "#582", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-582", "url": ""}, {"t": "Fantastic Four", "n": "#583", "note": "\u201cPrime elements\u201d begins", "star": 1, "opt": 0, "id": "fantastic-four-583", "url": ""}, {"t": "Fantastic Four", "n": "#584", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-584", "url": ""}, {"t": "Fantastic Four", "n": "#585", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-585", "url": ""}, {"t": "Fantastic Four", "n": "#586", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-586", "url": ""}, {"t": "Fantastic Four", "n": "#587", "note": "\u201cThree,\u201d part 4 \u2014 the most talked-about issue of the run", "star": 2, "opt": 0, "id": "fantastic-four-587", "url": ""}, {"t": "Fantastic Four", "n": "#588", "note": "The silent issue \u2014 no dialogue at all", "star": 1, "opt": 0, "id": "fantastic-four-588", "url": ""}]}, {"id": "ff1", "tier": 2, "title": "FF #1\u201311", "sub": "these are #589\u2013599 in legacy numbering \u2014 not a separate story", "items": [{"t": "FF", "n": "#1", "note": "the Future Foundation forms", "star": 1, "opt": 0, "id": "ff-1", "url": ""}, {"t": "FF", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "ff-2", "url": ""}, {"t": "FF", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "ff-3", "url": ""}, {"t": "FF", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "ff-4", "url": ""}, {"t": "FF", "n": "#5", "note": "", "star": 0, "opt": 0, "id": "ff-5", "url": ""}, {"t": "FF", "n": "#6", "note": "", "star": 0, "opt": 0, "id": "ff-6", "url": ""}, {"t": "FF", "n": "#7", "note": "", "star": 0, "opt": 0, "id": "ff-7", "url": ""}, {"t": "FF", "n": "#8", "note": "", "star": 0, "opt": 0, "id": "ff-8", "url": ""}, {"t": "FF", "n": "#9", "note": "", "star": 0, "opt": 0, "id": "ff-9", "url": ""}, {"t": "FF", "n": "#10", "note": "", "star": 0, "opt": 0, "id": "ff-10", "url": ""}, {"t": "FF", "n": "#11", "note": "", "star": 0, "opt": 0, "id": "ff-11", "url": ""}]}, {"id": "weave", "tier": 2, "title": "The alternating weave", "sub": "F4 #600\u2013611 \u00d7 FF #12\u201323 \u00b7 order specified by Hickman", "items": [{"t": "Fantastic Four", "n": "#600", "note": "oversized anniversary \u2014 read all the backups", "star": 1, "opt": 0, "id": "fantastic-four-600", "url": ""}, {"t": "FF", "n": "#12", "note": "", "star": 0, "opt": 0, "id": "ff-12", "url": ""}, {"t": "Fantastic Four", "n": "#601", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-601", "url": ""}, {"t": "FF", "n": "#13", "note": "", "star": 0, "opt": 0, "id": "ff-13", "url": ""}, {"t": "Fantastic Four", "n": "#602", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-602", "url": ""}, {"t": "FF", "n": "#14", "note": "", "star": 0, "opt": 0, "id": "ff-14", "url": ""}, {"t": "Fantastic Four", "n": "#603", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-603", "url": ""}, {"t": "FF", "n": "#15", "note": "ends partway inside #604", "star": 0, "opt": 0, "id": "ff-15", "url": ""}, {"t": "Fantastic Four", "n": "#604", "note": "the climax of the arc that began at #600", "star": 1, "opt": 0, "id": "fantastic-four-604", "url": ""}, {"t": "FF", "n": "#16", "note": "direct sequel to #604", "star": 0, "opt": 0, "id": "ff-16", "url": ""}, {"t": "Fantastic Four", "n": "#605", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-605", "url": ""}, {"t": "Fantastic Four", "n": "#605.1", "note": "alternate-universe side story", "star": 0, "opt": 1, "id": "fantastic-four-605.1", "url": ""}, {"t": "Fantastic Four", "n": "#606", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-606", "url": ""}, {"t": "FF", "n": "#17", "note": "", "star": 0, "opt": 0, "id": "ff-17", "url": ""}, {"t": "FF", "n": "#18", "note": "", "star": 0, "opt": 0, "id": "ff-18", "url": ""}, {"t": "Fantastic Four", "n": "#607", "note": "Wakanda, part 1", "star": 0, "opt": 0, "id": "fantastic-four-607", "url": ""}, {"t": "Fantastic Four", "n": "#608", "note": "Wakanda, part 2", "star": 0, "opt": 0, "id": "fantastic-four-608", "url": ""}, {"t": "FF", "n": "#19", "note": "", "star": 0, "opt": 0, "id": "ff-19", "url": ""}, {"t": "FF", "n": "#20", "note": "", "star": 0, "opt": 0, "id": "ff-20", "url": ""}, {"t": "FF", "n": "#21", "note": "concurrent with the Wakanda two-parter", "star": 0, "opt": 0, "id": "ff-21", "url": ""}, {"t": "Fantastic Four", "n": "#609", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-609", "url": ""}, {"t": "Fantastic Four", "n": "#610", "note": "", "star": 0, "opt": 0, "id": "fantastic-four-610", "url": ""}, {"t": "FF", "n": "#22", "note": "retells part of #610 from another angle", "star": 0, "opt": 0, "id": "ff-22", "url": ""}, {"t": "Fantastic Four", "n": "#611", "note": "the finale", "star": 2, "opt": 0, "id": "fantastic-four-611", "url": ""}, {"t": "FF", "n": "#23", "note": "Hickman\u2019s last word on this family", "star": 2, "opt": 0, "id": "ff-23", "url": ""}]}, {"id": "ultopt", "tier": 3, "title": "Ultimate lead-in", "sub": "Hickman, but disconnected \u2014 optional", "items": [{"t": "Ultimate Comics: Thor", "n": "#1", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-thor-1", "url": ""}, {"t": "Ultimate Comics: Thor", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-thor-2", "url": ""}, {"t": "Ultimate Comics: Thor", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-thor-3", "url": ""}, {"t": "Ultimate Comics: Thor", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-thor-4", "url": ""}, {"t": "Ultimate Comics: Fallout", "n": "#2", "note": "Hickman\u2019s chapters only", "star": 0, "opt": 0, "id": "ultimate-comics-fallout-2", "url": ""}, {"t": "Ultimate Comics: Fallout", "n": "#3", "note": "Hickman\u2019s chapters only", "star": 0, "opt": 0, "id": "ultimate-comics-fallout-3", "url": ""}, {"t": "Ultimate Comics: Fallout", "n": "#4", "note": "Hickman\u2019s chapters only", "star": 0, "opt": 0, "id": "ultimate-comics-fallout-4", "url": ""}, {"t": "Ultimate Comics: Fallout", "n": "#5", "note": "Hickman\u2019s chapters only", "star": 0, "opt": 0, "id": "ultimate-comics-fallout-5", "url": ""}, {"t": "Ultimate Comics: Fallout", "n": "#6", "note": "Hickman\u2019s chapters only", "star": 0, "opt": 0, "id": "ultimate-comics-fallout-6", "url": ""}, {"t": "Ultimate Comics: Hawkeye", "n": "#1", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-hawkeye-1", "url": ""}, {"t": "Ultimate Comics: Hawkeye", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-hawkeye-2", "url": ""}, {"t": "Ultimate Comics: Hawkeye", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-hawkeye-3", "url": ""}, {"t": "Ultimate Comics: Hawkeye", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-hawkeye-4", "url": ""}]}, {"id": "ultimates", "tier": 1, "title": "Ultimate Comics: The Ultimates", "sub": "establishes the Maker \u2014 pays off much later", "series": "https://www.marvel.com/comics/series/13936/ultimate_comics_ultimates_2011_2013", "items": [{"t": "Ultimate Comics: Ultimates", "n": "#1", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-1", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-2", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-3", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-4", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#5", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-5", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#6", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-6", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#7", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-7", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#8", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-8", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#9", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-9", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#10", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-10", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#11", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-11", "url": ""}, {"t": "Ultimate Comics: Ultimates", "n": "#12", "note": "", "star": 0, "opt": 0, "id": "ultimate-comics-ultimates-12", "url": ""}]}, {"id": "part1", "tier": 1, "title": "Avengers \u00d7 New Avengers, part one", "sub": "two books, one story \u00b7 2012\u20132013", "series": "https://www.marvel.com/comics/series/16452/avengers_2012_2015", "items": [{"t": "New Avengers", "n": "#1", "note": "\u201cEverything dies\u201d \u2014 the best opening issue of the saga", "star": 2, "id": "new-avengers-1", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#2", "note": "", "star": 0, "id": "new-avengers-2", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#3", "note": "", "star": 0, "id": "new-avengers-3", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#1", "note": "\u201cWe need to get bigger\u201d", "star": 1, "url": "", "id": "avengers-1", "opt": 0}, {"t": "Avengers", "n": "#2", "note": "", "star": 0, "url": "", "id": "avengers-2", "opt": 0}, {"t": "Avengers", "n": "#3", "note": "", "star": 0, "url": "", "id": "avengers-3", "opt": 0}, {"t": "Avengers", "n": "#4", "note": "", "star": 0, "url": "", "id": "avengers-4", "opt": 0}, {"t": "New Avengers", "n": "#4", "note": "", "star": 0, "id": "new-avengers-4", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#5", "note": "", "star": 0, "url": "", "id": "avengers-5", "opt": 0}, {"t": "New Avengers", "n": "#5", "note": "", "star": 0, "id": "new-avengers-5", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#6", "note": "where the book\u2019s central moral problem grows teeth", "star": 1, "id": "new-avengers-6", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#6", "note": "", "star": 0, "url": "", "id": "avengers-6", "opt": 0}, {"t": "Avengers", "n": "#7", "note": "", "star": 0, "url": "", "id": "avengers-7", "opt": 0}, {"t": "Avengers", "n": "#8", "note": "", "star": 0, "url": "", "id": "avengers-8", "opt": 0}, {"t": "Avengers", "n": "#9", "note": "", "star": 0, "url": "", "id": "avengers-9", "opt": 0}, {"t": "Avengers", "n": "#10", "note": "", "star": 0, "url": "", "id": "avengers-10", "opt": 0}, {"t": "Avengers", "n": "#11", "note": "", "star": 0, "url": "", "id": "avengers-11", "opt": 0}, {"t": "Avengers", "n": "#12", "note": "", "star": 0, "url": "", "id": "avengers-12", "opt": 0}, {"t": "Avengers", "n": "#13", "note": "", "star": 0, "url": "", "id": "avengers-13", "opt": 0}, {"t": "New Avengers", "n": "#7", "note": "", "star": 0, "id": "new-avengers-7", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#14", "note": "prelude to Infinity begins", "star": 1, "url": "", "id": "avengers-14", "opt": 0}, {"t": "Avengers", "n": "#15", "note": "", "star": 0, "url": "", "id": "avengers-15", "opt": 0}, {"t": "Avengers", "n": "#16", "note": "", "star": 0, "url": "", "id": "avengers-16", "opt": 0}, {"t": "Avengers", "n": "#17", "note": "", "star": 0, "url": "", "id": "avengers-17", "opt": 0}, {"t": "New Avengers", "n": "#8", "note": "", "star": 0, "id": "new-avengers-8", "opt": 0, "url": ""}]}, {"id": "infinity", "tier": 1, "title": "The Infinity weave", "sub": "read strictly in this order \u2014 the cuts are deliberate", "items": [{"t": "Infinity", "n": "#1", "note": "", "star": 2, "opt": 0, "id": "infinity-1", "url": ""}, {"t": "Avengers", "n": "#18", "note": "", "star": 0, "url": "", "id": "avengers-18", "opt": 0}, {"t": "New Avengers", "n": "#9", "note": "", "star": 0, "id": "new-avengers-9", "opt": 0, "url": ""}, {"t": "Infinity", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "infinity-2", "url": ""}, {"t": "Avengers", "n": "#19", "note": "", "star": 0, "url": "", "id": "avengers-19", "opt": 0}, {"t": "New Avengers", "n": "#10", "note": "", "star": 0, "id": "new-avengers-10", "opt": 0, "url": ""}, {"t": "Infinity", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "infinity-3", "url": ""}, {"t": "Avengers", "n": "#20", "note": "", "star": 0, "url": "", "id": "avengers-20", "opt": 0}, {"t": "Infinity", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "infinity-4", "url": ""}, {"t": "Avengers", "n": "#21", "note": "", "star": 0, "url": "", "id": "avengers-21", "opt": 0}, {"t": "New Avengers", "n": "#11", "note": "", "star": 0, "id": "new-avengers-11", "opt": 0, "url": ""}, {"t": "Infinity", "n": "#5", "note": "", "star": 1, "opt": 0, "id": "infinity-5", "url": ""}, {"t": "Avengers", "n": "#22", "note": "", "star": 0, "url": "", "id": "avengers-22", "opt": 0}, {"t": "Avengers", "n": "#23", "note": "", "star": 0, "url": "", "id": "avengers-23", "opt": 0}, {"t": "Infinity", "n": "#6", "note": "the event concludes", "star": 2, "opt": 0, "id": "infinity-6", "url": ""}]}, {"id": "incursions", "tier": 1, "title": "The Incursions", "sub": "2014 \u00b7 the cosmic scale recedes and the rot takes over", "series": "https://www.marvel.com/comics/series/16451/new_avengers_2013_2015", "items": [{"t": "New Avengers", "n": "#12", "note": "", "star": 0, "id": "new-avengers-12", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#24", "note": "a.k.a. #24.NOW", "star": 0, "url": "", "id": "avengers-24", "opt": 0}, {"t": "Avengers World", "n": "#1", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-1", "url": ""}, {"t": "Avengers World", "n": "#2", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-2", "url": ""}, {"t": "Avengers World", "n": "#3", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-3", "url": ""}, {"t": "Avengers World", "n": "#4", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-4", "url": ""}, {"t": "Avengers World", "n": "#5", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-5", "url": ""}, {"t": "Avengers World", "n": "#6", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-6", "url": ""}, {"t": "Avengers World", "n": "#7", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-7", "url": ""}, {"t": "Avengers World", "n": "#8", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-8", "url": ""}, {"t": "Avengers World", "n": "#9", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-9", "url": ""}, {"t": "Avengers World", "n": "#10", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-10", "url": ""}, {"t": "Avengers World", "n": "#11", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-11", "url": ""}, {"t": "Avengers World", "n": "#12", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-12", "url": ""}, {"t": "Avengers World", "n": "#13", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-13", "url": ""}, {"t": "Avengers World", "n": "#14", "note": "co-plotted by Hickman \u2014 optional", "star": 0, "opt": 1, "id": "avengers-world-14", "url": ""}, {"t": "New Avengers", "n": "#13", "note": "", "star": 0, "id": "new-avengers-13", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#14", "note": "", "star": 0, "id": "new-avengers-14", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#15", "note": "", "star": 0, "id": "new-avengers-15", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#25", "note": "", "star": 0, "url": "", "id": "avengers-25", "opt": 0}, {"t": "Avengers", "n": "#26", "note": "", "star": 0, "url": "", "id": "avengers-26", "opt": 0}, {"t": "Avengers", "n": "#27", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48381/avengers_2012_27", "id": "avengers-27", "opt": 0}, {"t": "Avengers", "n": "#28", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48382/avengers_2012_28", "id": "avengers-28", "opt": 0}, {"t": "New Avengers", "n": "#16", "note": "#16.NOW", "star": 0, "id": "new-avengers-16", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#17", "note": "", "star": 0, "id": "new-avengers-17", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#29", "note": "\u201cInfinite Avengers\u201d", "star": 1, "url": "https://www.marvel.com/comics/issue/48383/avengers_2012_29", "id": "avengers-29", "opt": 0}, {"t": "Avengers", "n": "#30", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48384/avengers_2012_30", "id": "avengers-30", "opt": 0}, {"t": "Avengers", "n": "#31", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48385/avengers_2012_31", "id": "avengers-31", "opt": 0}, {"t": "Avengers", "n": "#32", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48386/avengers_2012_32", "id": "avengers-32", "opt": 0}, {"t": "Avengers", "n": "#33", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48387/avengers_2012_33", "id": "avengers-33", "opt": 0}, {"t": "Avengers", "n": "#34", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48388/avengers_2012_34", "id": "avengers-34", "opt": 0}, {"t": "New Avengers", "n": "#18", "note": "a major new arc opens", "star": 1, "id": "new-avengers-18", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#19", "note": "", "star": 0, "id": "new-avengers-19", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#20", "note": "", "star": 0, "id": "new-avengers-20", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#21", "note": "", "star": 0, "id": "new-avengers-21", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#22", "note": "", "star": 0, "id": "new-avengers-22", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#23", "note": "", "star": 0, "id": "new-avengers-23", "opt": 0, "url": ""}, {"t": "New Avengers Annual", "n": "#1", "note": "", "star": 0, "opt": 1, "id": "new-avengers-annual-1", "url": ""}, {"t": "Avengers", "n": "#34.1", "note": "", "star": 0, "opt": 1, "id": "avengers-34.1", "url": ""}, {"t": "Avengers", "n": "#34.2", "note": "", "star": 0, "opt": 1, "id": "avengers-34.2", "url": ""}]}, {"id": "tro", "tier": 1, "title": "Time Runs Out", "sub": "an eight-month jump \u00b7 the strongest sustained stretch", "series": "https://www.marvel.com/comics/series/16452/avengers_2012_2015", "items": [{"t": "Avengers", "n": "#35", "note": "eight months later", "star": 1, "url": "https://www.marvel.com/comics/issue/48389/avengers_2012_35", "id": "avengers-35", "opt": 0}, {"t": "New Avengers", "n": "#24", "note": "", "star": 0, "id": "new-avengers-24", "opt": 0, "url": ""}, {"t": "New Avengers", "n": "#25", "note": "", "star": 0, "id": "new-avengers-25", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#36", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48390/avengers_2012_36", "id": "avengers-36", "opt": 0}, {"t": "Avengers", "n": "#37", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48391/avengers_2012_37", "id": "avengers-37", "opt": 0}, {"t": "New Avengers", "n": "#26", "note": "", "star": 0, "id": "new-avengers-26", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#38", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48392/avengers_2012_38", "id": "avengers-38", "opt": 0}, {"t": "New Avengers", "n": "#27", "note": "", "star": 0, "id": "new-avengers-27", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#39", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48393/avengers_2012_39", "id": "avengers-39", "opt": 0}, {"t": "New Avengers", "n": "#28", "note": "", "star": 0, "id": "new-avengers-28", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#40", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48394/avengers_2012_40", "id": "avengers-40", "opt": 0}, {"t": "New Avengers", "n": "#29", "note": "a pivotal issue", "star": 1, "id": "new-avengers-29", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#41", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48395/avengers_2012_41", "id": "avengers-41", "opt": 0}, {"t": "New Avengers", "n": "#30", "note": "", "star": 0, "id": "new-avengers-30", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#42", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48396/avengers_2012_42", "id": "avengers-42", "opt": 0}, {"t": "New Avengers", "n": "#31", "note": "", "star": 0, "id": "new-avengers-31", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#43", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/48397/avengers_2012_43", "id": "avengers-43", "opt": 0}, {"t": "New Avengers", "n": "#32", "note": "", "star": 0, "id": "new-avengers-32", "opt": 0, "url": ""}, {"t": "Avengers", "n": "#44", "note": "", "star": 2, "url": "https://www.marvel.com/comics/issue/48398/avengers_2012_44", "id": "avengers-44", "opt": 0}, {"t": "New Avengers", "n": "#33", "note": "the end of the run", "star": 2, "id": "new-avengers-33", "opt": 0, "url": ""}]}, {"id": "secretwars", "tier": 1, "title": "Secret Wars", "sub": "2015", "series": "https://www.marvel.com/comics/series/19648/secret_wars_(2015_-_2016)", "items": [{"t": "FCBD 2015: Secret Wars", "n": "#0", "note": "optional primer", "star": 0, "opt": 1, "id": "fcbd-2015-secret-wars-0", "url": ""}, {"t": "Secret Wars", "n": "#1", "note": "", "star": 2, "url": "https://www.marvel.com/comics/issue/52447/secret_wars_2015_1", "id": "secret-wars-1", "opt": 0}, {"t": "Secret Wars", "n": "#2", "note": "Battleworld", "star": 1, "url": "https://www.marvel.com/comics/issue/52450/secret_wars_2015_2", "id": "secret-wars-2", "opt": 0}, {"t": "Secret Wars", "n": "#3", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/52451/secret_wars_2015_3", "id": "secret-wars-3", "opt": 0}, {"t": "Secret Wars", "n": "#4", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/52452/secret_wars_2015_4", "id": "secret-wars-4", "opt": 0}, {"t": "Secret Wars", "n": "#5", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/52453/secret_wars_2015_5", "id": "secret-wars-5", "opt": 0}, {"t": "Secret Wars", "n": "#6", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/52454/secret_wars_2015_6", "id": "secret-wars-6", "opt": 0}, {"t": "Secret Wars", "n": "#7", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/52455/secret_wars_2015_7", "id": "secret-wars-7", "opt": 0}, {"t": "Secret Wars", "n": "#8", "note": "", "star": 0, "url": "https://www.marvel.com/comics/issue/52456/secret_wars_2015_8", "id": "secret-wars-8", "opt": 0}, {"t": "Secret Wars", "n": "#9", "note": "the payoff for everything above", "star": 2, "url": "https://www.marvel.com/comics/issue/57620/secret_wars_2015_9", "id": "secret-wars-9", "opt": 0}]}, {"id": "tieins", "tier": 3, "title": "Tie-ins", "sub": "almost all are skippable \u2014 these are the exceptions", "items": [{"t": "Secret Wars: Siege", "n": "#1", "note": "the best-written tie-in of the event", "star": 1, "opt": 0, "id": "secret-wars-siege-1", "url": ""}, {"t": "Secret Wars: Siege", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "secret-wars-siege-2", "url": ""}, {"t": "Secret Wars: Siege", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "secret-wars-siege-3", "url": ""}, {"t": "Secret Wars: Siege", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "secret-wars-siege-4", "url": ""}, {"t": "Thors", "n": "#1", "note": "Battleworld police procedural", "star": 1, "opt": 0, "id": "thors-1", "url": ""}, {"t": "Thors", "n": "#2", "note": "", "star": 0, "opt": 0, "id": "thors-2", "url": ""}, {"t": "Thors", "n": "#3", "note": "", "star": 0, "opt": 0, "id": "thors-3", "url": ""}, {"t": "Thors", "n": "#4", "note": "", "star": 0, "opt": 0, "id": "thors-4", "url": ""}, {"t": "Ultimate End", "n": "#1", "note": "widely considered a disappointment", "star": 0, "opt": 1, "id": "ultimate-end-1", "url": ""}, {"t": "Ultimate End", "n": "#2", "note": "", "star": 0, "opt": 1, "id": "ultimate-end-2", "url": ""}, {"t": "Ultimate End", "n": "#3", "note": "", "star": 0, "opt": 1, "id": "ultimate-end-3", "url": ""}, {"t": "Ultimate End", "n": "#4", "note": "", "star": 0, "opt": 1, "id": "ultimate-end-4", "url": ""}, {"t": "Ultimate End", "n": "#5", "note": "", "star": 0, "opt": 1, "id": "ultimate-end-5", "url": ""}]}];
+const TOTAL = DATA.reduce((a,s)=>a+s.items.length,0);
+const TIERTOT = {1:0,2:0,3:0};
+DATA.forEach(s=>TIERTOT[s.tier]+=s.items.length);
+
+const ORDER = DATA.flatMap(s=>s.items.map(x=>x.id));
+const VALID = new Set(ORDER);
+
+const CLOUD = !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase);
+const sb = CLOUD ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
+
+let done = new Set();
+let user = null;
+let saveTimer = null;
+
+const LKEY = 'hsw:v2:local';
+const OLDKEY = 'hsw:v1:local';
+
+function migrate(){
+  if(localStorage.getItem(LKEY) || !localStorage.getItem(OLDKEY)) return;
+  try{
+    const old = JSON.parse(localStorage.getItem(OLDKEY));
+    if(!Array.isArray(old)) return;
+    const keys = old.filter(n=>Number.isInteger(n) && n>=0 && n<ORDER.length).map(n=>ORDER[n]);
+    localStorage.setItem(LKEY, JSON.stringify(keys));
+  }catch(e){}
+}
+const $ = id => document.getElementById(id);
+function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function flash(t,el){ const m=$(el||'msg'); m.textContent=t; setTimeout(()=>{if(m.textContent===t)m.textContent=''},5000); }
+function state(text,cls){ $('state').textContent=text; $('dot').className='dot'+(cls?' '+cls:''); }
+
+function clean(arr){
+  return new Set((Array.isArray(arr)?arr:[]).filter(k=>VALID.has(k)));
+}
+function readLocal(){
+  try{ return clean(JSON.parse(localStorage.getItem(LKEY)||'[]')); }catch(e){ return new Set(); }
+}
+function writeLocal(){
+  try{ localStorage.setItem(LKEY, JSON.stringify([...done])); }catch(e){}
+}
+async function pushCloud(){
+  if(!user) return;
+  const { error } = await sb.from('progress')
+    .upsert({ user_id:user.id, read_ids:[...done], updated_at:new Date().toISOString() });
+  state(error ? 'Offline — saved on this device' : 'Synced', error ? '' : 'ok');
+}
+function persist(){
+  writeLocal();
+  if(!user) return;
+  clearTimeout(saveTimer);
+  state('Saving','busy');
+  saveTimer = setTimeout(pushCloud, 700);
+}
+
+async function adopt(){
+  const { data, error } = await sb.from('progress')
+    .select('read_ids').eq('user_id', user.id).maybeSingle();
+  if(error){ state('Offline — saved on this device',''); done = readLocal(); return; }
+  const server = clean(data ? data.read_ids : []);
+  const local  = readLocal();
+  const flag = 'hsw:merged:'+user.id;
+  if(!localStorage.getItem(flag) && local.size){
+    done = new Set([...server, ...local]);
+    localStorage.setItem(flag,'1');
+    await pushCloud();
+    flash('Folded '+local.size+' issues from this device into your account.');
+  }else{
+    done = server;
+    state('Synced','ok');
+  }
+  writeLocal();
+}
+async function onSession(session){
+  user = session ? session.user : null;
+  if(user){
+    $('b-signin').classList.add('hide');
+    $('b-signout').classList.remove('hide');
+    $('signin').classList.add('hide');
+    state(user.email || 'Signed in','ok');
+    await adopt();
+  }else{
+    $('b-signout').classList.add('hide');
+    if(CLOUD) $('b-signin').classList.remove('hide');
+    done = readLocal();
+    state(CLOUD ? 'Not signed in' : 'Saved on this device','');
+  }
+  paint();
+}
+
+function build(){
+  $('list').innerHTML = DATA.map(s=>{
+    const rows = s.items.map(x=>{
+      const t = x.url ? '<a class="iss" href="'+x.url+'" target="_blank" rel="noopener">'+esc(x.t)+'</a>' : esc(x.t);
+      return '<li data-id="'+x.id+'"><input type="checkbox" aria-labelledby="l'+x.id+'">'
+        +'<span class="ttl" id="l'+x.id+'">'+t+' <span class="num mono">'+esc(x.n)+'</span> '
+        +(x.star?'<span class="star">'+'\u2605'.repeat(x.star)+'</span> ':'')
+        +(x.opt?'<span class="opt">optional</span>':'')
+        +(x.note?'<span class="nb">'+esc(x.note)+'</span>':'')+'</span></li>';
+    }).join('');
+    return '<details id="d-'+s.id+'"><summary>'
+      +'<span class="tier mono'+(s.tier===1?' a':'')+'">T'+s.tier+'</span>'
+      +'<span class="st"><h2>'+esc(s.title)+'</h2><p>'+esc(s.sub)+'</p></span>'
+      +(s.series?'<a class="sl" href="'+s.series+'" target="_blank" rel="noopener">series &#8599;</a>':'')
+      +'<span class="cnt mono" id="n-'+s.id+'"></span></summary><ol>'+rows+'</ol></details>';
+  }).join('');
+
+  let h='';
+  DATA.forEach((s,i)=>{
+    if(i) h += '<span class="tick sep"></span>';
+    s.items.forEach(x=> h += '<span class="tick'+(s.tier===1?' t1':'')+'" data-t="'+x.id+'"></span>');
+  });
+  $('strip').innerHTML = h;
+
+  $('list').addEventListener('change', e=>{
+    if(e.target.type!=='checkbox') return;
+    const id = e.target.closest('li').dataset.id;
+    e.target.checked ? done.add(id) : done.delete(id);
+    persist(); paint();
+  });
+}
+function paint(){
+  document.querySelectorAll('#list li').forEach(li=>{
+    const on = done.has(li.dataset.id);
+    li.classList.toggle('done', on);
+    li.querySelector('input').checked = on;
+  });
+  document.querySelectorAll('.tick[data-t]').forEach(t=> t.classList.toggle('on', done.has(t.dataset.t)));
+  const per={1:0,2:0,3:0};
+  DATA.forEach(s=>{
+    const n = s.items.filter(x=>done.has(x.id)).length;
+    per[s.tier]+=n;
+    const el=$('n-'+s.id);
+    el.textContent = n+' / '+s.items.length;
+    el.classList.toggle('full', n===s.items.length);
+  });
+  $('s-all').textContent = done.size+' / '+TOTAL;
+  [1,2,3].forEach(t=> $('s-t'+t).textContent = per[t]+' / '+TIERTOT[t]);
+  $('code').value = btoa(JSON.stringify([...done]));
+}
+
+$('b-signin').onclick = ()=>{ $('signin').classList.remove('hide'); $('email').focus(); };
+$('b-cancel').onclick = ()=> $('signin').classList.add('hide');
+$('b-signout').onclick = async ()=>{ await sb.auth.signOut(); location.reload(); };
+$('b-link').onclick = async ()=>{
+  const email = $('email').value.trim();
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ flash('Enter a valid email address.','authmsg'); return; }
+  $('b-link').disabled = true;
+  const { error } = await sb.auth.signInWithOtp({ email, options:{ emailRedirectTo: location.href.split('#')[0] } });
+  $('b-link').disabled = false;
+  flash(error ? error.message : 'Link sent. Check your email.', 'authmsg');
+};
+$('b-gh').onclick = ()=> sb.auth.signInWithOAuth({ provider:'github', options:{ redirectTo: location.href.split('#')[0] } });
+$('b-export').onclick = async ()=>{
+  try{ await navigator.clipboard.writeText($('code').value); flash('Code copied.'); }
+  catch(e){ $('code').select(); flash('Press Ctrl/Cmd+C to copy.'); }
+};
+$('b-import').onclick = ()=>{
+  const v = $('code').value.trim();
+  if(!v){ flash('Paste a code into the box first.'); return; }
+  try{
+    const arr = JSON.parse(atob(v));
+    if(!Array.isArray(arr)) throw 0;
+    const asKeys = arr.every(n=>Number.isInteger(n))
+      ? arr.filter(n=>n>=0&&n<ORDER.length).map(n=>ORDER[n])
+      : arr;
+    done = clean(asKeys);
+    if(!done.size && arr.length) throw 0;
+    persist(); paint(); flash('Loaded '+done.size+' issues.');
+  }catch(e){ flash('That code isn\u2019t valid.'); }
+};
+$('b-reset').onclick = ()=>{
+  if(!confirm('Clear all progress?')) return;
+  done = new Set(); persist(); paint(); flash('Progress cleared.');
+};
+
+migrate();
+build();
+if(ENABLE_GITHUB_LOGIN && CLOUD) $('b-gh').classList.remove('hide');
+if(CLOUD){
+  sb.auth.onAuthStateChange((_e, session)=> onSession(session));
+  sb.auth.getSession().then(({data})=> onSession(data.session));
+}else{
+  done = readLocal();
+  state('Saved on this device','');
+  paint();
+}
+const t2 = DATA.find(s=>s.tier===2);
+if(t2) $('d-'+t2.id).open = true;
+</script>
+</body>
+</html>
