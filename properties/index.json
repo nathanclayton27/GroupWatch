@@ -133,5 +133,20 @@
       "many": "episodes"
     },
     "total": 8
+  },
+  {
+    "slug": "evangelion",
+    "title": "Evangelion",
+    "subtitle": "series, endings and Rebuild",
+    "kind": "anime",
+    "year": "1995–2021",
+    "blurb": "36 pieces in the order they work best, with the recap marked skippable.",
+    "accent": "#6B3FA0",
+    "accentDark": "#A98AE0",
+    "unit": {
+      "one": "part",
+      "many": "parts"
+    },
+    "total": 36
   }
 ]

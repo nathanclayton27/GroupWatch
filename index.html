@@ -491,6 +491,21 @@ let MANIFEST = [
       "many": "episodes"
     },
     "total": 8
+  },
+  {
+    "slug": "evangelion",
+    "title": "Evangelion",
+    "subtitle": "series, endings and Rebuild",
+    "kind": "anime",
+    "year": "1995–2021",
+    "blurb": "36 pieces in the order they work best, with the recap marked skippable.",
+    "accent": "#6B3FA0",
+    "accentDark": "#A98AE0",
+    "unit": {
+      "one": "part",
+      "many": "parts"
+    },
+    "total": 36
   }
 ];
 
@@ -498,7 +513,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '0c48e832ee36';
+const BUILD = '350212845548';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});
@@ -984,25 +999,28 @@ function paintStack(){
 function resched(){
   if(!isOwner()) return '';
   const ws = windows();
+  const field = (id, label, value)=>
+      '<span class="lbl">'+label+'</span>'
+    + '<input type="date" id="'+id+'" value="'+esc(value || '')+'">';
 
   if(ws){
     const shifted = (group.schedule_shift_days || 0) !== 0;
     return '<div class="row" style="margin:0 0 12px">'
-      + '<span class="lbl">Finish by</span>'
-      + '<input type="date" id="g-end" value="'+esc(ws[ws.length-1].end)+'">'
+      + field('g-start', 'Start', ws[0].start)
+      + field('g-end', 'Finish by', ws[ws.length-1].end)
       + '<button id="b-gshift">Move schedule</button>'
       + (shifted ? '<button id="b-greset">Back to the original dates</button>' : '')
-      + '<span class="lbl">every arc shifts by the same amount</span></div>';
+      + '<span class="lbl">move either end; the whole run shifts with it</span></div>';
   }
 
   const has = !!group.target_date;
   return '<div class="row" style="margin:0 0 12px">'
-    + '<span class="lbl">Finish by</span>'
-    + '<input type="date" id="g-end" value="'+esc(group.target_date || '')+'">'
-    + '<button id="b-gdate">'+(has ? 'Change date' : 'Set a finish date')+'</button>'
-    + (has ? '<button id="b-gclear">Remove date</button>' : '')
+    + field('g-start', 'Start', group.start_date)
+    + field('g-end', 'Finish by', group.target_date)
+    + '<button id="b-gdate">Save dates</button>'
+    + (has ? '<button id="b-gclear">Remove finish date</button>' : '')
     + '<span class="lbl">'
-    + (has ? 'pace is measured against this' : 'without one, nobody is behind')
+    + (has ? 'pace runs between these two' : 'without a finish date, nobody is behind')
     + '</span></div>';
 }
 
@@ -1016,19 +1034,25 @@ async function saveGroup(patch, msg){
 }
 
 function wireResched(){
+  const days = (a, b)=> Math.round((new Date(a+'T00:00:00') - new Date(b+'T00:00:00'))/DAY);
+
+  // A windowed schedule can only move as a block, so whichever end you drag
+  // decides the shift. Dragging both is ambiguous, and start wins.
   const shift = $('b-gshift');
   if(shift) shift.onclick = async ()=>{
     const ws = windows();
-    const want = $('g-end').value;
-    if(!want){ flash('Pick a date first.','gmsg2'); return; }
-    const cur = ws[ws.length-1].end;
-    const delta = Math.round((new Date(want+'T00:00:00') - new Date(cur+'T00:00:00'))/DAY);
-    if(!delta){ flash('That is already the finish date.','gmsg2'); return; }
+    const wantS = $('g-start').value, wantE = $('g-end').value;
+    let delta = 0, from = '';
+    if(wantS && wantS !== ws[0].start){ delta = days(wantS, ws[0].start); from = 'start'; }
+    else if(wantE && wantE !== ws[ws.length-1].end){ delta = days(wantE, ws[ws.length-1].end); }
+    if(!delta){ flash('Those are already the dates.','gmsg2'); return; }
     shift.disabled = true;
     const total = (group.schedule_shift_days||0) + delta;
     const ok = await saveGroup({ schedule_shift_days: total },
       (delta>0?'Pushed back ':'Pulled forward ')+Math.abs(delta)
-      +' day'+(Math.abs(delta)===1?'':'s')+'.');
+      +' day'+(Math.abs(delta)===1?'':'s')
+      +(from === 'start' && wantE && wantE !== ws[ws.length-1].end
+          ? ' from the start date; the finish moved with it.' : '.'));
     if(!ok) shift.disabled = false;
   };
 
@@ -1038,15 +1062,15 @@ function wireResched(){
 
   const set = $('b-gdate');
   if(set) set.onclick = async ()=>{
-    const want = $('g-end').value;
-    if(!want){ flash('Pick a date first.','gmsg2'); return; }
-    if(want === group.target_date){ flash('That is already the finish date.','gmsg2'); return; }
-    if(want <= group.start_date){
-      flash('Pick a date after the group started ('+group.start_date+').','gmsg2');
-      return;
-    }
+    const start = $('g-start').value, end = $('g-end').value;
+    if(!start){ flash('A group needs a start date.','gmsg2'); return; }
+    if(end && end <= start){ flash('The finish date has to be after the start.','gmsg2'); return; }
+    const patch = {};
+    if(start !== group.start_date) patch.start_date = start;
+    if((end || null) !== (group.target_date || null)) patch.target_date = end || null;
+    if(!Object.keys(patch).length){ flash('Those are already the dates.','gmsg2'); return; }
     set.disabled = true;
-    const ok = await saveGroup({ target_date: want }, 'Finish date set to '+want+'.');
+    const ok = await saveGroup(patch, 'Dates saved.');
     if(!ok) set.disabled = false;
   };
 
@@ -1055,8 +1079,6 @@ function wireResched(){
     'Finish date removed — nobody is behind now.');
 }
 
-// Any member can rename themselves — the "rename self" policy already allows it,
-// and the only way to do it before was to leave the group and rejoin.
 function nameRow(){
   const mine = gmembers.find(m=> user && m.id === user.id);
   if(!mine) return '';

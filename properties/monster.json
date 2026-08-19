@@ -6,6 +6,47 @@
   "order": 6,
   "year": "2004–2005",
   "blurb": "74 episodes, no filler, watch it in order.",
+  "schedule": {
+    "kind": "windows",
+    "windows": [
+      {
+        "start": "2026-08-24",
+        "end": "2026-08-30",
+        "through": 13,
+        "label": "Part 1 · first half"
+      },
+      {
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "through": 25,
+        "label": "Part 1 · second half"
+      },
+      {
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "through": 38,
+        "label": "Part 2 · first half"
+      },
+      {
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "through": 50,
+        "label": "Part 2 · second half"
+      },
+      {
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "through": 62,
+        "label": "Part 3 · first half"
+      },
+      {
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "through": 74,
+        "label": "Part 3 · second half"
+      }
+    ]
+  },
   "unit": {
     "one": "episode",
     "many": "episodes"
@@ -20,13 +61,17 @@
   "accentDark": "#A8ADB8",
   "tiers": false,
   "notes": [
+    [
+      "The schedule.",
+      "Six weeks, half a broadcast cour each. It is a suggestion rather than a rule — a group's owner can slide the whole thing from the group panel without changing anything here."
+    ],
     "Episode titles from the Wikipedia episode list."
   ],
   "sections": [
     {
-      "id": "p1",
-      "title": "Part 1",
-      "sub": "episodes 1–25",
+      "id": "p1a",
+      "title": "Part 1 · first half",
+      "sub": "episodes 1–13 · 24 August – 30 August",
       "items": [
         {
           "id": "monster-1",
@@ -92,7 +137,14 @@
           "id": "monster-13",
           "t": "Petra and Schumann",
           "n": "13"
-        },
+        }
+      ]
+    },
+    {
+      "id": "p1b",
+      "title": "Part 1 · second half",
+      "sub": "episodes 14–25 · 31 August – 6 September",
+      "items": [
         {
           "id": "monster-14",
           "t": "The Abandoned Man, The Abandoned Woman",
@@ -156,9 +208,9 @@
       ]
     },
     {
-      "id": "p2",
-      "title": "Part 2",
-      "sub": "episodes 26–50",
+      "id": "p2a",
+      "title": "Part 2 · first half",
+      "sub": "episodes 26–38 · 7 September – 13 September",
       "items": [
         {
           "id": "monster-26",
@@ -224,7 +276,14 @@
           "id": "monster-38",
           "t": "The Demon in Our Eyes",
           "n": "38"
-        },
+        }
+      ]
+    },
+    {
+      "id": "p2b",
+      "title": "Part 2 · second half",
+      "sub": "episodes 39–50 · 14 September – 20 September",
+      "items": [
         {
           "id": "monster-39",
           "t": "The Hell in His Eyes",
@@ -288,9 +347,9 @@
       ]
     },
     {
-      "id": "p3",
-      "title": "Part 3",
-      "sub": "episodes 51–74",
+      "id": "p3a",
+      "title": "Part 3 · first half",
+      "sub": "episodes 51–62 · 21 September – 27 September",
       "items": [
         {
           "id": "monster-51",
@@ -351,7 +410,14 @@
           "id": "monster-62",
           "t": "A Fun Dining Table",
           "n": "62"
-        },
+        }
+      ]
+    },
+    {
+      "id": "p3b",
+      "title": "Part 3 · second half",
+      "sub": "episodes 63–74 · 28 September – 4 October",
+      "items": [
         {
           "id": "monster-63",
           "t": "An Unrelated Murder",
