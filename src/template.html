@@ -200,7 +200,9 @@ footer a{color:var(--steel)}
 .pm-t{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:500}
 .pm-m{font-size:11px;color:var(--ink-3);margin-top:3px;display:flex;gap:8px;flex-wrap:wrap}
 .pm-b{font-size:12px;color:var(--ink-2);margin-top:4px;line-height:1.45}
-.pmenu .lbl{padding:8px 11px 5px}
+.psearch{padding:5px 5px 7px;border-bottom:1px solid var(--rule);margin-bottom:5px}
+.psearch input{width:100%}
+.pnone{padding:14px 11px;font-size:12px;color:var(--ink-3)}
 .win{display:flex;gap:8px 14px;flex-wrap:wrap;align-items:baseline;margin:0 0 10px;font-size:13px;color:var(--ink-2)}
 .win b{color:var(--ink);font-weight:500}
 .pacer.due{background:var(--signal);width:2px}
@@ -1134,36 +1136,57 @@ const ROW_MAX = 65;
 const ROW_LIMIT = 8;
 function rowsFor(){
   const sizes = DATA.map(s=> s.items.length);
-  if(!sizes.length) return [[0, 0]];
+  const n = sizes.length;
+  if(!n) return [[0, 0]];
+  const pre = [0];
+  sizes.forEach(v=> pre.push(pre[pre.length-1] + v));
 
-  const fits = (cap, k)=>{
-    let g = 1, cur = 0;
-    for(const n of sizes){
-      if(cur + n > cap){ g++; cur = n; } else cur += n;
-      if(g > k) return false;
+  // Exactly k contiguous groups, chosen to minimise squared deviation from an
+  // even split. Filling each row to a cap instead front-loads and leaves a short
+  // last row, which is very visible once the rows are stretched to full width.
+  function partition(k){
+    if(k > n) return null;
+    const target = TOTAL / k, INF = Infinity;
+    const cost = [], back = [];
+    for(let i=0;i<=n;i++){
+      cost.push(new Array(k+1).fill(INF));
+      back.push(new Array(k+1).fill(0));
     }
-    return true;
-  };
-  // smallest row length that packs every section into k rows
-  const bestFor = k =>{
-    let lo = Math.max.apply(null, sizes), hi = TOTAL;
-    while(lo < hi){ const mid = (lo+hi)>>1; fits(mid, k) ? hi = mid : lo = mid+1; }
-    return lo;
-  };
+    cost[0][0] = 0;
+    for(let i=1;i<=n;i++){
+      for(let j=1;j<=Math.min(k,i);j++){
+        for(let m=j-1;m<i;m++){
+          if(cost[m][j-1] === INF) continue;
+          const d = pre[i] - pre[m] - target;
+          const c = cost[m][j-1] + d*d;
+          if(c < cost[i][j]){ cost[i][j] = c; back[i][j] = m; }
+        }
+      }
+    }
+    if(cost[n][k] === INF) return null;
+    const cuts = [];
+    let i = n, j = k;
+    while(j > 0){ const m = back[i][j]; cuts.push([m, i]); i = m; j--; }
+    cuts.reverse();
+    return cuts.map(c=> [pre[c[0]], pre[c[1]]]);
+  }
 
-  let k = Math.min(ROW_LIMIT, Math.max(1, Math.ceil(TOTAL / ROW_MAX)));
-  let len = bestFor(k);
-  // balancing into k rows can still overshoot the cap, so add rows until it fits
-  while(len > ROW_MAX && k < Math.min(ROW_LIMIT, sizes.length)){ k++; len = bestFor(k); }
-
-  const rows = [];
-  let start = 0, at = 0, sum = 0;
-  sizes.forEach(n=>{
-    if(sum && sum + n > len){ rows.push([start, at]); start = at; sum = 0; }
-    sum += n; at += n;
-  });
-  rows.push([start, at]);
-  return rows;
+  // fewest rows that stay under the cap, then the evenest, then fewer rows
+  let best = null;
+  for(let k = Math.min(Math.max(1, Math.ceil(TOTAL/ROW_MAX)), ROW_LIMIT);
+      k <= ROW_LIMIT; k++){
+    const parts = partition(k);
+    if(!parts) continue;
+    const lens = parts.map(r=> r[1] - r[0]);
+    const hi = Math.max.apply(null, lens), lo = Math.min.apply(null, lens);
+    const key = [hi > ROW_MAX ? 1 : 0, Math.round(hi/lo*1000), k];
+    if(!best || key[0] < best.key[0]
+             || (key[0] === best.key[0] && key[1] < best.key[1])
+             || (key[0] === best.key[0] && key[1] === best.key[1] && key[2] < best.key[2])){
+      best = { key: key, parts: parts };
+    }
+  }
+  return best ? best.parts : [[0, TOTAL]];
 }
 
 const PEEK_PX = 25;
@@ -1376,7 +1399,32 @@ function renderHeader(){
 }
 
 function renderMenu(){
-  $('pmenu').innerHTML = '<div class="lbl">Tracking</div>' + MANIFEST.map(m=>{
+  $('pmenu').innerHTML =
+      '<div class="psearch"><input type="text" id="pfind" placeholder="Search"'
+    + ' autocomplete="off" spellcheck="false" aria-label="Search what you track"></div>'
+    + '<div id="phits"></div>';
+  filterMenu('');
+  const find = $('pfind');
+  find.oninput = ()=> filterMenu(find.value);
+  find.onkeydown = e=>{
+    if(e.key === 'Escape'){ e.stopPropagation(); find.value=''; filterMenu(''); return; }
+    if(e.key === 'Enter'){
+      const first = $('phits').querySelector('button[data-slug]');
+      if(first) first.click();
+    }
+  };
+}
+
+// Alphabetical, because the menu is for finding a title you already have in
+// mind — the picker on the splash is where curated order belongs.
+function filterMenu(q){
+  const needle = q.trim().toLowerCase();
+  const list = MANIFEST.slice().sort((a,b)=> a.title.localeCompare(b.title));
+  const hits = !needle ? list : list.filter(m=>
+    (m.title+' '+(m.subtitle||'')+' '+(m.kind||'')+' '+(m.year||'')).toLowerCase()
+      .indexOf(needle) >= 0);
+
+  $('phits').innerHTML = hits.length ? hits.map(m=>{
     const n = localCount(m.slug);
     const meta = [m.kind, m.year, n + ' / ' + m.total + ' ' + m.unit.many].filter(Boolean);
     return '<button role="option" data-slug="'+esc(m.slug)+'"'
@@ -1384,43 +1432,19 @@ function renderMenu(){
       + '<span class="pm-t"><span class="pdot" style="background:'
       + esc(accentOf(m))+'"></span>'+esc(m.title)+'</span>'
       + '<span class="pm-m">'+meta.map(esc).join(' · ')+'</span>'
-      + (m.blurb ? '<span class="pm-b">'+esc(m.blurb)+'</span>' : '')
       + '</button>';
-  }).join('');
-  $('pmenu').querySelectorAll('button[data-slug]').forEach(b=>{
-    // full navigation, so the URL stays shareable and back works
+  }).join('') : '<div class="pnone">Nothing matches “'+esc(q.trim())+'”</div>';
+
+  $('phits').querySelectorAll('button[data-slug]').forEach(b=>{
     b.onclick = ()=> b.dataset.slug === SLUG ? closeMenu() : go(b.dataset.slug);
   });
 }
 
-function showSplash(){
-  $('splash').classList.remove('hide');
-  $('switcher').classList.add('hide');
-  document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
-  document.title = 'GroupWatch';
-
-  const TICKS = 46;
-  $('cards').innerHTML = MANIFEST.map(m=>{
-    const n = localCount(m.slug);
-    const on = Math.round(TICKS * Math.min(1, n/m.total));
-    const meta = [m.kind, m.year, m.total + ' ' + m.unit.many].filter(Boolean);
-    let bar = '';
-    for(let i=0;i<TICKS;i++)
-      bar += '<span'+(i<on?' class="on" style="background:'+esc(accentOf(m))+'"':'')+'></span>';
-    return '<button class="card" data-slug="'+esc(m.slug)+'">'
-      + '<h2><span class="pdot" style="background:'+esc(accentOf(m))+'"></span>'
-      + esc(m.title)+'</h2>'
-      + '<div class="pm-m">'+meta.map(esc).join(' · ')+(n?' · '+n+' done':'')+'</div>'
-      + (m.blurb ? '<div class="pm-b">'+esc(m.blurb)+'</div>' : '')
-      + '<div class="cbar">'+bar+'</div></button>';
-  }).join('');
-  $('cards').querySelectorAll('button[data-slug]').forEach(b=>{
-    b.onclick = ()=> go(b.dataset.slug);
-  });
-}
 function openMenu(){
   $('pmenu').classList.remove('hide');
   $('b-prop').setAttribute('aria-expanded','true');
+  const f = $('pfind');
+  if(f){ f.value=''; filterMenu(''); f.focus(); }
 }
 function closeMenu(){
   $('pmenu').classList.add('hide');
