@@ -513,7 +513,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '1de50fb73aa6';
+const BUILD = 'c9529b1d1e52';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});
@@ -849,6 +849,11 @@ function windows(){
 }
 
 // true when the property has a pace to offer but the group has not started it
+function scheduleSpan(){
+  const ws = (PROP && PROP.schedule && PROP.schedule.windows) || [];
+  return ws.reduce((m,w)=> Math.max(m, (w.offset||0) + (w.days||0)), 0);
+}
+
 function scheduleWaiting(){
   const sched = PROP && PROP.schedule;
   if(!sched || sched.kind !== 'windows' || !(sched.windows||[]).length) return false;
@@ -1044,13 +1049,15 @@ function resched(){
                 && (sched.windows||[]).length && sched.windows[0].start === undefined;
   if(relative){
     const ws = windows();
+    const running = !!ws;
     return '<div class="row" style="margin:0 0 12px">'
       + field('g-anchor', 'Start on', group.schedule_start)
-      + '<button id="b-ganchor">'+(ws ? 'Move start' : 'Start the schedule')+'</button>'
-      + (ws ? '<button id="b-gstop">Stop using it</button>' : '')
+      + field('g-anchor-end', 'Ends', running ? ws[ws.length-1].end : '')
+      + '<button id="b-ganchor">'+(running ? 'Move schedule' : 'Start the schedule')+'</button>'
+      + (running ? '<button id="b-gstop">Stop using it</button>' : '')
       + '<span class="lbl">'
-      + (ws ? 'finishes ' + niceDate(ws[ws.length-1].end)
-            : 'until then there is no pace and nobody is behind')
+      + (running ? 'set either end; it runs ' + scheduleSpan() + ' days'
+                 : 'set either end; until then nobody is behind')
       + '</span></div>';
   }
 
@@ -1088,12 +1095,22 @@ async function saveGroup(patch, msg){
 function wireResched(){
   const anchor = $('b-ganchor');
   if(anchor) anchor.onclick = async ()=>{
-    const want = $('g-anchor').value;
-    if(!want){ flash('Pick the day the group starts.','gmsg2'); return; }
-    if(want === group.schedule_start){ flash('That is already the start.','gmsg2'); return; }
+    const span = scheduleSpan();
+    const ws = windows();
+    const wantS = $('g-anchor').value;
+    const wantE = $('g-anchor-end').value;
+
+    // either end sets it; the run is a fixed length, so the other follows
+    let start = '';
+    if(wantS && wantS !== (group.schedule_start || '')) start = wantS;
+    else if(wantE && (!ws || wantE !== ws[ws.length-1].end)) start = shiftISO(wantE, -(span - 1));
+    else start = wantS || (wantE ? shiftISO(wantE, -(span - 1)) : '');
+
+    if(!start){ flash('Set either the start or the end.','gmsg2'); return; }
+    if(start === (group.schedule_start || '')){ flash('That is already the schedule.','gmsg2'); return; }
     anchor.disabled = true;
-    const ok = await saveGroup({ schedule_start: want, schedule_shift_days: 0 },
-      'Schedule running from '+want+'.');
+    const ok = await saveGroup({ schedule_start: start, schedule_shift_days: 0 },
+      'Running '+start+' to '+shiftISO(start, span - 1)+'.');
     if(!ok) anchor.disabled = false;
   };
   const stop = $('b-gstop');
