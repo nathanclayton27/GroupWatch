@@ -134,6 +134,25 @@ summary::-webkit-details-marker{display:none}
 .st p{margin:2px 0 0;font-size:13px;color:var(--ink-2)}
 .cnt{flex:none;font-size:12px;color:var(--ink-2)}
 .cnt.full{color:var(--done)}
+/* bulk controls */
+.bulk{flex:none;font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-3);border:1px solid var(--rule-2);border-radius:var(--radius);
+  padding:3px 9px;background:transparent;cursor:pointer;white-space:nowrap;
+  transition:opacity .12s,border-color .12s,color .12s}
+.bulk:hover{border-color:var(--ink);color:var(--ink)}
+/* clearing a finished section is destructive, so it stays hidden until you
+   deliberately point at the header */
+.bulk.clear{opacity:0;pointer-events:none}
+summary:hover .bulk.clear,summary:focus-within .bulk.clear{opacity:1;pointer-events:auto}
+.bulk.clear:hover{border-color:var(--signal);color:var(--signal)}
+.catch{position:absolute;right:16px;top:50%;transform:translateY(-50%);
+  font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);
+  background:var(--card);border:1px solid var(--rule-2);border-radius:var(--radius);
+  padding:2px 8px;cursor:pointer;opacity:0;transition:opacity .12s}
+li{position:relative}
+li:hover .catch,.catch:focus-visible{opacity:1}
+.catch:hover{border-color:var(--signal);color:var(--signal)}
+@media (hover:none){.bulk.clear{opacity:1;pointer-events:auto} .catch{opacity:1}}
 details[open] summary{border-bottom:1px solid var(--rule)}
 
 ol{list-style:none;margin:0;padding:6px 0}
@@ -425,6 +444,21 @@ let MANIFEST = [
       "many": "episodes"
     },
     "total": 74
+  },
+  {
+    "slug": "one-pace",
+    "title": "One Pace",
+    "subtitle": "One Piece at the manga's pacing",
+    "kind": "anime",
+    "year": "fan recut",
+    "blurb": "435 episodes, 36 arcs, no filler and no padding.",
+    "accent": "#2E7A6B",
+    "accentDark": "#5FBFA8",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 435
   }
 ];
 
@@ -432,7 +466,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '751bbc12f6a3';
+const BUILD = 'a6a751f217f8';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});
@@ -1516,6 +1550,8 @@ function build(){
       // One" reads right for episodes
       const head = NUMFIRST ? num+' '+t : t+' '+num;
       return '<li data-id="'+x.id+'"><input type="checkbox" aria-labelledby="l'+x.id+'">'
+        +'<button class="catch" data-id="'+x.id+'" title="Mark everything up to and including this">'
+        +'catch up to here</button>'
         +'<span class="ttl" id="l'+x.id+'">'+head+' '
         +(x.star?'<span class="star">'+'\u2605'.repeat(x.star)+'</span> ':'')
         +(x.opt?'<span class="opt">optional</span>':'')
@@ -1526,6 +1562,7 @@ function build(){
       +(TIERED?'<span class="tier mono'+(s.tier===1?' a':'')+'">T'+s.tier+'</span>':'')
       +'<span class="st"><h2>'+esc(s.title)+'</h2><p>'+esc(s.sub||'')+'</p></span>'
       +links.map(x=>'<a class="sl" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.label)+' &#8599;</a>').join('')
+      +'<button class="bulk" data-sec="'+s.id+'"></button>'
       +'<span class="cnt mono" id="n-'+s.id+'"></span></summary>'
       +(s.intro?'<div class="intro">'+s.intro.split('\n\n').map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>':'')
       +'<ol>'+rows+'</ol></details>';
@@ -1541,6 +1578,32 @@ function build(){
     return '<div class="striprow">'+r+'</div>';
   }).join('');
   $('strip').querySelectorAll('.striprow').forEach(r=> wireStrip(r, false, LIFT_SOLO));
+
+  // Bulk controls. The header button fills the section; once the section is
+  // complete it turns into a clear, which only appears on hover — the same
+  // target doing both means a stray click on a finished section would otherwise
+  // wipe it.
+  $('list').addEventListener('click', e=>{
+    const bulk = e.target.closest('.bulk');
+    if(bulk){
+      e.preventDefault(); e.stopPropagation();          // don't toggle <details>
+      const sec = DATA.find(s=> s.id === bulk.dataset.sec);
+      if(!sec) return;
+      const full = sec.items.every(x=> done.has(x.id));
+      sec.items.forEach(x=> full ? done.delete(x.id) : done.add(x.id));
+      persist(); paint();
+      return;
+    }
+    const catchUp = e.target.closest('.catch');
+    if(catchUp){
+      e.preventDefault(); e.stopPropagation();
+      const upTo = ORDER.indexOf(catchUp.dataset.id);
+      if(upTo < 0) return;
+      for(let i = 0; i <= upTo; i++) done.add(ORDER[i]);
+      persist(); paint();
+      flash('Marked everything up to '+FLAT[upTo].t+' '+FLAT[upTo].n+'.');
+    }
+  });
 
   $('list').addEventListener('change', e=>{
     if(e.target.type!=='checkbox') return;
@@ -1586,6 +1649,12 @@ function paint(){
     const el=$('n-'+s.id);
     el.textContent = n+' / '+s.items.length;
     el.classList.toggle('full', n===s.items.length);
+    const b = document.querySelector('.bulk[data-sec="'+s.id+'"]');
+    if(b){
+      const full = n === s.items.length;
+      b.textContent = (full ? 'Clear all ' : 'Mark all ') + s.items.length;
+      b.classList.toggle('clear', full);
+    }
   });
   $('s-all').textContent = done.size+' / '+TOTAL;
   if(TIERED) [1,2,3].forEach(t=> $('s-t'+t).textContent = per[t]+' / '+TIERTOT[t]);
