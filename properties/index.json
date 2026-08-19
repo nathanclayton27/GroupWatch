@@ -118,5 +118,20 @@
       "many": "chapters"
     },
     "total": 1190
+  },
+  {
+    "slug": "lanterns",
+    "title": "Lanterns",
+    "subtitle": "Hal Jordan and John Stewart",
+    "kind": "tv",
+    "year": "2026",
+    "blurb": "8 episodes, weekly, still airing.",
+    "accent": "#2E7A45",
+    "accentDark": "#5FC47E",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 8
   }
 ]
