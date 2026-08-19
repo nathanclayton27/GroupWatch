@@ -18,17 +18,35 @@ import pathlib
 
 SLUG = "cates-venom"
 
-# Marvel series pages, series-level rather than per-issue. Only ids that were
-# actually looked up are here — several of the one-shots and event minis could
-# not be verified, and those sections carry no link rather than a wrong one.
+# Marvel series pages, series-level rather than per-issue. Every id below was
+# looked up against marvel.com rather than constructed — the numeric id is what
+# resolves, so a wrong one lands on somebody else's comic.
 M = "https://www.marvel.com/comics/series/"
 S_VENOM = M + "24310/venom_2018_-_2021"
 S_AC    = M + "27272/absolute_carnage_2019"
 S_KIB   = M + "30150/king_in_black_2020_-_2021"
 S_SSB   = M + "26930/silver_surfer_black_2019"
-S_BORN  = M + "25943/web_of_venom:_carnage_born_(2018)"
-S_CULT  = M + "25945/web_of_venom:_cult_of_carnage_(2019)"
-S_GWEN  = M + "31400/king_in_black_gwenom_vs_carnage_2021"
+
+# Web of Venom one-shots
+S_VENAM   = M + "25942/web_of_venom_venam_2018"
+S_BORN    = M + "25943/web_of_venom_carnage_born_2018"
+S_UNLEASH = M + "25944/web_of_venom_venom_unleashed_2019"
+S_CULT    = M + "25945/web_of_venom_cult_of_carnage_2019"
+S_PYRE    = M + "27245/web_of_venom_funeral_pyre_2019"
+S_GOODSON = M + "27666/web_of_venom_the_good_son_2020"
+S_WRAITH  = M + "27667/web_of_venom_wraith_2020"
+S_EMPYRE  = M + "27668/web_of_venom_empyres_end_2020"
+
+# Absolute Carnage tie-ins
+S_AC_HULK   = M + "27632/absolute_carnage_immortal_hulk_2019"
+S_AC_LETHAL = M + "27633/absolute_carnage_lethal_protectors_2019"
+S_AC_MILES  = M + "27634/absolute_carnage_miles_morales_2019"
+S_AC_SCREAM = M + "27635/absolute_carnage_scream_2019"
+
+# King in Black tie-ins
+S_KIB_NAMOR  = M + "31379/king_in_black_namor_2020_2021"
+S_KIB_PLANET = M + "31384/king_in_black_planet_of_the_symbiotes_2021"
+S_GWEN       = M + "31400/king_in_black_gwenom_vs_carnage_2021"
 
 
 def L(*pairs):
@@ -66,7 +84,7 @@ def rng(title, a, b, note_first=""):
 SECTIONS = [
     {
         "id": "rex", "tier": 1, "title": "Rex",
-        "links": L(("Venom", S_VENOM)),
+        "links": L(("Venom", S_VENOM), ("Ve'Nam", S_VENAM)),
         "sub": "Venom #1–6 · the run's opening statement",
         "intro":
             "Eddie Brock is a disgraced journalist. The symbiote is an alien that "
@@ -96,7 +114,7 @@ SECTIONS = [
     },
     {
         "id": "wotr", "tier": 3, "title": "War of the Realms",
-        "links": L(("Venom", S_VENOM)),
+        "links": L(("Venom", S_VENOM), ("Venom Unleashed", S_UNLEASH)),
         "sub": "Venom #13–15 · a detour, and not Cates'",
         "intro":
             "War of the Realms was a line-wide 2019 event: Malekith the Accursed "
@@ -105,7 +123,10 @@ SECTIONS = [
             "it, written by Cullen Bunn rather than Cates.\n\n"
             "Nothing in the main run depends on them. They are here for "
             "completeness — skip to the next section without consequence.",
-        "items": [it("Venom", n, "", 0, 1) for n in range(13, 16)],
+        "items": [it("Venom", n, "", 0, 1) for n in range(13, 16)]
+                 + [it("Web of Venom: Venom Unleashed", 1,
+                       "collected with this arc; also not Cates", 0, 1,
+                       key="wov-unleashed")],
     },
     {
         "id": "road-ac", "tier": 2, "title": "Road to Absolute Carnage",
@@ -130,7 +151,7 @@ SECTIONS = [
     },
     {
         "id": "absolute-carnage", "tier": 1, "title": "Absolute Carnage",
-        "links": L(("Absolute Carnage", S_AC), ("Venom", S_VENOM)),
+        "links": L(("Absolute Carnage", S_AC), ("Venom", S_VENOM), ("Funeral Pyre", S_PYRE)),
         "sub": "the event, cut into the run · Cates wrote both halves",
         "intro":
             "The main series and the Venom tie-in were written by the same person "
@@ -151,6 +172,7 @@ SECTIONS = [
     },
     {
         "id": "ac-tie-ins", "tier": 3, "title": "Absolute Carnage tie-ins",
+        "links": L(("Scream", S_AC_SCREAM), ("Miles Morales", S_AC_MILES), ("Lethal Protectors", S_AC_LETHAL), ("Immortal Hulk", S_AC_HULK)),
         "sub": "the ones worth it, of about a dozen",
         "intro":
             "Cates' own advice was that the main series plus the Venom tie-in is "
@@ -166,7 +188,7 @@ SECTIONS = [
     },
     {
         "id": "aftermath", "tier": 2, "title": "After the carnage",
-        "links": L(("Cult of Carnage", S_CULT)),
+        "links": L(("Cult of Carnage", S_CULT), ("The Good Son", S_GOODSON)),
         "sub": "two one-shots that carry weight later",
         "items": [
             it("Web of Venom: Cult of Carnage", 1, "", 0, key="wov-cult"),
@@ -202,6 +224,7 @@ SECTIONS = [
     },
     {
         "id": "road-kib", "tier": 2, "title": "Road to King in Black",
+        "links": L(("Wraith", S_WRAITH), ("Empyre's End", S_EMPYRE)),
         "sub": "the last breath before the sky goes dark",
         "intro":
             "One piece of outside context: Empyre was a 2020 event in which the "
@@ -234,7 +257,7 @@ SECTIONS = [
     },
     {
         "id": "kib-tie-ins", "tier": 3, "title": "King in Black tie-ins",
-        "links": L(("Gwenom vs. Carnage", S_GWEN)),
+        "links": L(("Namor", S_KIB_NAMOR), ("Planet of the Symbiotes", S_KIB_PLANET), ("Gwenom vs. Carnage", S_GWEN)),
         "sub": "three of many",
         "items":
             [it("King in Black: Namor", n, "the strongest tie-in" if n == 1 else "", 1 if n == 1 else 0, 1, key="kib-namor-%d" % n) for n in range(1, 6)]
@@ -288,10 +311,10 @@ def main():
             "Herald and comicbookreadingorders.com. Where sources disagree on how the "
             "events interleave, the tie-in issues are cut into the main run at chapter "
             "boundaries, which is how the omnibus reads.",
-            ["Links.", "Sections link to their Marvel series page rather than to each "
-                       "issue. A few of the one-shots and event minis have no link — "
-                       "their series ids could not be confirmed, and a wrong link is "
-                       "worse than none."],
+            ["Links.", "Sections link to their Marvel series pages rather than to each "
+                       "issue, because Marvel only exposes the 20 most recent issues of "
+                       "a series to the outside world. Every id was looked up rather "
+                       "than guessed."],
         ],
         "sections": SECTIONS,
     }
