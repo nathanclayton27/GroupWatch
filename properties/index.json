@@ -1,5 +1,20 @@
 [
   {
+    "slug": "fma-brotherhood",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "subtitle": "",
+    "kind": "anime",
+    "year": "2009–2010",
+    "blurb": "64 episodes across six arcs.",
+    "accent": "#B0472E",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 64,
+    "scheduled": true
+  },
+  {
     "slug": "hickman-secret-wars",
     "title": "Everything Dies",
     "subtitle": "Jonathan Hickman's Marvel run",
@@ -15,18 +30,18 @@
     "scheduled": false
   },
   {
-    "slug": "fma-brotherhood",
-    "title": "Fullmetal Alchemist: Brotherhood",
-    "subtitle": "",
-    "kind": "anime",
-    "year": "2009–2010",
-    "blurb": "64 episodes across six arcs.",
-    "accent": "#B0472E",
+    "slug": "cates-venom",
+    "title": "Venom",
+    "subtitle": "Donny Cates & Ryan Stegman",
+    "kind": "comics",
+    "year": "2018–2021",
+    "blurb": "The whole Cates run, with the supplements worth reading and enough backstory to start cold.",
+    "accent": "#7A4FB5",
     "unit": {
-      "one": "episode",
-      "many": "episodes"
+      "one": "issue",
+      "many": "issues"
     },
-    "total": 64,
-    "scheduled": true
+    "total": 81,
+    "scheduled": false
   }
 ]
