@@ -312,10 +312,10 @@ footer a{color:var(--steel)}
       </div>
       <div class="row" style="margin-top:14px">
         <input type="text" id="gtitle" placeholder="Group name" maxlength="40" style="width:190px">
-        <span class="lbl">Starts</span>
-        <input type="date" id="gstart" aria-label="Starts">
-        <span class="lbl" id="gdate-l">Finishes</span>
-        <input type="date" id="gdate" aria-label="Finishes">
+        <span id="gstart-w"><span class="lbl">Starts</span>
+        <input type="date" id="gstart" aria-label="Starts"></span>
+        <span class="lbl" id="gdate-l">Finish by</span>
+        <input type="date" id="gdate" aria-label="Finish by">
         <button id="b-gcreate">Create a group</button>
       </div>
       <div class="row" style="margin-top:10px">
@@ -516,7 +516,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '9a16c85b1490';
+const BUILD = '7670cebd34b0';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});
@@ -852,6 +852,15 @@ function windows(){
 }
 
 // true when the property has a pace to offer but the group has not started it
+function isPaced(){
+  const sch = PROP && PROP.schedule;
+  return !!(sch && sch.kind === 'windows' && (sch.windows||[]).length);
+}
+function isRelative(){
+  const sch = PROP && PROP.schedule;
+  return isPaced() && sch.windows[0].start === undefined;
+}
+
 function scheduleSpan(){
   const ws = (PROP && PROP.schedule && PROP.schedule.windows) || [];
   return ws.reduce((m,w)=> Math.max(m, (w.offset||0) + (w.days||0)), 0);
@@ -1046,11 +1055,7 @@ function resched(){
       '<span class="lbl">'+label+'</span>'
     + '<input type="date" id="'+id+'" value="'+esc(value || '')+'">';
 
-  // a relative schedule: one date starts it, and everything else follows
-  const sched = PROP && PROP.schedule;
-  const relative = sched && sched.kind === 'windows'
-                && (sched.windows||[]).length && sched.windows[0].start === undefined;
-  if(relative){
+  if(isRelative()){
     const ws = windows();
     const running = !!ws;
     return '<div class="row" style="margin:0 0 12px">'
@@ -1077,12 +1082,12 @@ function resched(){
 
   const has = !!group.target_date;
   return '<div class="row" style="margin:0 0 12px">'
-    + field('g-start', 'Start', group.start_date)
     + field('g-end', 'Finish by', group.target_date)
-    + '<button id="b-gdate">Save dates</button>'
-    + (has ? '<button id="b-gclear">Remove finish date</button>' : '')
+    + '<button id="b-gdate">'+(has ? 'Change date' : 'Set a finish date')+'</button>'
+    + (has ? '<button id="b-gclear">Remove it</button>' : '')
     + '<span class="lbl">'
-    + (has ? 'pace runs between these two' : 'without a finish date, nobody is behind')
+    + (has ? 'this one has no schedule, so pace is a straight line to here'
+           : 'this one has no schedule; without a finish date nobody is behind')
     + '</span></div>';
 }
 
@@ -1148,15 +1153,15 @@ function wireResched(){
 
   const set = $('b-gdate');
   if(set) set.onclick = async ()=>{
-    const start = $('g-start').value, end = $('g-end').value;
-    if(!start){ flash('A group needs a start date.','gmsg2'); return; }
-    if(end && end <= start){ flash('The finish date has to be after the start.','gmsg2'); return; }
-    const patch = {};
-    if(start !== group.start_date) patch.start_date = start;
-    if((end || null) !== (group.target_date || null)) patch.target_date = end || null;
-    if(!Object.keys(patch).length){ flash('Those are already the dates.','gmsg2'); return; }
+    const end = $('g-end').value;
+    if(!end){ flash('Pick a date, or use Remove it.','gmsg2'); return; }
+    if(end <= group.start_date){
+      flash('That is on or before the group started ('+group.start_date+').','gmsg2');
+      return;
+    }
+    if(end === group.target_date){ flash('That is already the finish date.','gmsg2'); return; }
     set.disabled = true;
-    const ok = await saveGroup(patch, 'Dates saved.');
+    const ok = await saveGroup({ target_date: end }, 'Finish date set to '+end+'.');
     if(!ok) set.disabled = false;
   };
 
@@ -1280,12 +1285,10 @@ function renderGroupPanel(){
       $('b-gretry').onclick = ()=> refreshGroup(true);
       return;
     }
-    // a property with a shape rather than a calendar only needs the start
-    const sch = PROP && PROP.schedule;
-    const rel = sch && sch.kind === 'windows' && (sch.windows||[]).length
-             && sch.windows[0].start === undefined;
-    $('gdate-l').textContent = rel ? 'Finishes (from the start)' : 'Finishes';
-    $('gdate').disabled = !!rel;
+    // paced properties take either end; unpaced ones only have a finish
+    $('gstart-w').classList.toggle('hide', !isPaced());
+    $('gdate-l').textContent = isPaced() ? 'or finishes' : 'Finish by';
+    $('gdate').disabled = false;
     $('gsetup-p').textContent = VERB.base
       ? cap(VERB.base)+' '+PROP.title+' alongside other people. Everyone’s progress '
         + 'stacks onto one strip at the top of the page, and if the group has a finish '
@@ -1901,13 +1904,19 @@ $('b-gcreate').onclick = async ()=>{
 
   // create_group only takes a finish date, so anything else is a follow-up
   // write — the creator owns the row, so the update policy allows it
-  if(made && start){
-    const sch = PROP && PROP.schedule;
-    const rel = sch && sch.kind === 'windows' && (sch.windows||[]).length
-             && sch.windows[0].start === undefined;
-    const patch = { start_date: start };
-    if(rel) patch.schedule_start = start;
-    const { error: e2 } = await sb.from('groups').update(patch).eq('id', made.id);
+  if(made && isPaced()){
+    // either end anchors a relative run, since its length is fixed
+    let anchor = start;
+    if(!anchor && end && isRelative()) anchor = shiftISO(end, -(scheduleSpan() - 1));
+    if(anchor){
+      const patch = { start_date: anchor };
+      if(isRelative()) patch.schedule_start = anchor;
+      const { error: e2 } = await sb.from('groups').update(patch).eq('id', made.id);
+      if(e2) console.error('[tracker] could not set the start date', e2);
+    }
+  }else if(made && start){
+    const { error: e2 } = await sb.from('groups')
+      .update({ start_date: start }).eq('id', made.id);
     if(e2) console.error('[tracker] could not set the start date', e2);
   }
 
