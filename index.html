@@ -516,7 +516,19 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '01d1be2a2e29';
+async function refreshManifest(){
+  try{
+    const r = await fetch('properties/index.json', {cache:'no-cache'});
+    if(!r.ok) return;
+    const fresh = await r.json();
+    if(!Array.isArray(fresh) || !fresh.length) return;
+    if(JSON.stringify(fresh) === JSON.stringify(MANIFEST)) return;
+    MANIFEST = fresh;
+    SLUG ? renderMenu() : showSplash();
+  }catch(e){ console.error('[tracker] manifest refresh failed', e); }
+}
+
+const BUILD = '29199f51f02f';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
