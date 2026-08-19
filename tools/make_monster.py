@@ -9,7 +9,6 @@ division the show actually has — it is one story and nothing here is skippable
 """
 import json
 import pathlib
-from datetime import date, timedelta
 
 SLUG = "monster"
 
@@ -53,32 +52,24 @@ PARTS = [
     ("p3b", "Part 3 · second half", 63, 74),
 ]
 
-# One week per section. Change this and rerun to move the whole run; a group can
-# also slide it from the app without touching the property.
-START = date(2026, 8, 24)          # Monday
-
-
-def nice(d):
-    return "%d %s" % (d.day, d.strftime("%B"))
+# One week per section, with no dates of its own — a group says when it starts.
 
 
 def main():
     sections, windows = [], []
     for i, (pid, title, first, last) in enumerate(PARTS):
-        opens = START + timedelta(weeks=i)
-        closes = opens + timedelta(days=6)
         sections.append({
             "id": pid,
             "title": title,
-            "sub": "episodes %d–%d · %s – %s" % (first, last, nice(opens), nice(closes)),
+            "sub": "episodes %d–%d · week %d" % (first, last, i + 1),
             "items": [
                 {"id": "monster-%d" % n, "t": TITLES[n - 1], "n": str(n)}
                 for n in range(first, last + 1)
             ],
         })
         windows.append({
-            "start": opens.isoformat(),
-            "end": closes.isoformat(),
+            "offset": i * 7,          # days from whenever the group starts
+            "days": 7,
             "through": last,          # cumulative episodes due by the end of the week
             "label": title,
         })
@@ -106,10 +97,9 @@ def main():
         "accentDark": "#A8ADB8",
         "tiers": False,
         "notes": [
-            ["The schedule.", "Six weeks, half a broadcast cour each. It is a "
-                              "suggestion rather than a rule — a group's owner can "
-                              "slide the whole thing from the group panel without "
-                              "changing anything here."],
+            ["The schedule.", "Six weeks, half a broadcast cour each. It has no "
+                              "dates until a group sets a start; until then nobody "
+                              "is behind."],
             "Episode titles from the Wikipedia episode list.",
         ],
         "sections": sections,
@@ -123,8 +113,8 @@ def main():
     print("wrote %s.json" % SLUG)
     print("  %d parts, %d episodes" % (len(sections), total))
     for s, w in zip(sections, windows):
-        print("   %-22s %2d  through E%-2d by %s"
-              % (s["title"], len(s["items"]), w["through"], w["end"]))
+        print("   %-22s %2d  through E%-2d by day %d"
+              % (s["title"], len(s["items"]), w["through"], w["offset"] + w["days"]))
 
 
 if __name__ == "__main__":
