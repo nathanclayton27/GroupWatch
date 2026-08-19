@@ -91,8 +91,7 @@ def main():
         "title": "Fullmetal Alchemist: Brotherhood",
         "kind": "anime",
         "year": "2009–2010",
-        "blurb": "64 episodes across six arcs, on a fixed schedule from "
-                 "15 July to 25 August 2026.",
+        "blurb": "64 episodes across six arcs.",
         # Shown only to people in the matching group. This is presentation, not
         # secrecy — this file is served publicly, so anyone who opens it can
         # read what is below. Move it to the database if it ever needs hiding.

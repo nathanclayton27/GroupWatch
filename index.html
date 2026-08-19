@@ -316,7 +316,7 @@ const MANIFEST = [
     "subtitle": "",
     "kind": "anime",
     "year": "2009–2010",
-    "blurb": "64 episodes across six arcs, on a fixed schedule from 15 July to 25 August 2026.",
+    "blurb": "64 episodes across six arcs.",
     "accent": "#B0472E",
     "unit": {
       "one": "episode",
@@ -1034,6 +1034,29 @@ function build(){
     persist(); paint();
   });
 }
+// Which section to expand on arrival. Before you've marked anything that's the
+// property's own default; after that it's wherever you actually are — the
+// furthest section you've touched, or the next unfinished one if you've
+// cleared it. Runs once per load so it never fights you mid-session.
+let opened = false;
+function sectionComplete(s){ return s.items.every(x=>done.has(x.id)); }
+function pickOpenSection(){
+  let last = -1;
+  DATA.forEach((s,i)=>{ if(s.items.some(x=>done.has(x.id))) last = i; });
+  if(last < 0) return DATA.find(s=>s.start) || DATA.find(s=>s.links||s.series) || DATA[0];
+  if(!sectionComplete(DATA[last])) return DATA[last];
+  for(let i=last+1; i<DATA.length; i++) if(!sectionComplete(DATA[i])) return DATA[i];
+  // everything ahead is finished, so fall back to the earliest remaining gap
+  return DATA.find(s=>!sectionComplete(s)) || DATA[DATA.length-1];
+}
+function openInitialSection(){
+  if(opened) return;
+  opened = true;
+  const s = pickOpenSection();
+  const el = s && $('d-'+s.id);
+  if(el) el.open = true;
+}
+
 function paint(){
   document.querySelectorAll('#list li').forEach(li=>{
     const on = done.has(li.dataset.id);
@@ -1054,6 +1077,7 @@ function paint(){
   $('code').value = btoa(JSON.stringify([...done]));
   paintWindow();
   if(group) paintStack();
+  openInitialSection();
 }
 
 $('b-signin').onclick = ()=>{ $('signin').classList.remove('hide'); $('email').focus(); };
@@ -1169,9 +1193,6 @@ loadProperty().then(()=>{
     renderGroupPanel();
     paint();
   }
-
-  const first = DATA.find(s=>s.start) || DATA.find(s=>s.links||s.series) || DATA[0];
-  if(first) $('d-'+first.id).open = true;
 }).catch(e=>{
   console.error('[tracker] property load failed', e);
   state('Could not load '+SLUG,'');
