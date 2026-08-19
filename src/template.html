@@ -758,12 +758,11 @@ function paintStack(){
       const at = Math.min(TOTAL-1, Math.max(0, Math.round(frac*TOTAL)));
       const row = rows.findIndex(([a,b])=> at >= a && at < b);
       if(row < 0) return;
-      const [a,b] = rows[row];
       const el = host.children[row];
       if(!el) return;
       const d = document.createElement('div');
       d.className = cls;
-      d.style.left = (((at - a) / (b - a)) * 100).toFixed(2) + '%';
+      d.dataset.at = at;
       d.title = title;
       el.appendChild(d);
     };
@@ -773,7 +772,7 @@ function paintStack(){
       mark(p.dueFrac, 'pacer due', 'Overdue line: '+p.due);
   }
 
-  host.querySelectorAll('.stackrow').forEach(r=> wireStrip(r, true, LIFT_STACK));
+  host.querySelectorAll('.stackrow').forEach(r=>{ wireStrip(r, true, LIFT_STACK); placePacers(r); });
 
   $('glegend').innerHTML = list.map((m,i)=>{
     const n = reads[i].size;
@@ -1102,6 +1101,7 @@ function indexStrip(host){
   host._cols = centers; host._by = by; host._idx = -1; host._hot = [];
   const w = host.getBoundingClientRect().width;
   host._fish = centers.length && w ? fishFor(centers.length, w) : [7,3.4,2.1,1.4];
+  placePacers(host);
 }
 
 function columnAt(host, clientX){
@@ -1136,6 +1136,17 @@ function columnAt(host, clientX){
   return lo;
 }
 
+function placePacers(host){
+  const layer = host.querySelector('.layer');
+  if(!layer) return;
+  const base = layer.getBoundingClientRect().left;
+  host.querySelectorAll('.pacer[data-at]').forEach(d=>{
+    const els = host._by && host._by.get(+d.dataset.at);
+    if(!els || !els.length) return;
+    d.style.left = (els[0].getBoundingClientRect().left - base).toFixed(1) + 'px';
+  });
+}
+
 function magnify(host, idx){
   if(host._idx === idx) return;
   (host._hot||[]).forEach(t=>{
@@ -1162,6 +1173,7 @@ function magnify(host, idx){
   }
   host._hot = hot; host._idx = idx;
   host.dataset.dim = idx>=0 ? '1' : '0';
+  placePacers(host);
 }
 
 function showPeek(idx, x, top, grouped){
