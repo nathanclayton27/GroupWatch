@@ -22,6 +22,7 @@
   },
   "itemOrder": "number-first",
   "accent": "#B0472E",
+  "accentDark": "#E8874F",
   "tiers": false,
   "rules": [
     "Pace yourself — don't watch a whole arc in one day. The windows are for flexibility, not permission to binge.",
