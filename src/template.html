@@ -39,12 +39,13 @@ h1{font-size:clamp(30px,7vw,52px);line-height:.98;margin:10px 0 6px;font-weight:
 h1 em{font-style:normal;color:var(--signal)}
 .tagline{color:var(--ink-2);max-width:60ch;margin:0}
 .strip{display:flex;gap:1px;height:34px;margin:72px 0 10px;align-items:flex-end;
-  transition:margin .16s ease-out}
+  transition:margin .28s ease-out}
 /* flex-grow must NOT be transitioned: while it tweens, hit-testing reads a
    layout that is neither the old one nor the new one and the selection walks */
 .tick{flex:1 1 0;min-width:0;background:var(--rule);height:40%;
   transform-origin:bottom center;
-  transition:height .18s,background .18s,opacity .13s,margin .13s ease-out}
+  transition:height .3s ease-out,transform .3s ease-out,background .28s,
+             opacity .28s,margin .3s ease-out}
 .tick.t1{height:70%}
 .tick.on{background:var(--signal);height:100%}
 .tick.sep{background:transparent;flex:0 0 3px}
@@ -967,9 +968,23 @@ function startGroupPoll(){
 /* ------------------------------------------------------------- strip hover */
 
 // Magnification is flex-grow, so neighbours genuinely yield space rather than
-// being overlapped, plus a vertical scale on the same falloff so it reads as
-// one magnifier passing over the strip.
-const FISH = [7.0, 3.4, 2.1, 1.4];
+// being overlapped, plus a vertical lift so it reads as one magnifier passing
+// over the strip.
+//
+// The width curve has to be derived from the item count. flex-grow is a RATIO,
+// so a fixed curve magnifies to a fixed multiple of a bar — which is 24px on a
+// 250-issue strip and 90px on a 64-episode one. Solving for a constant target
+// width instead keeps every property feeling the same.
+const PEEK_PX = 25;
+function fishFor(n, width){
+  const peak = Math.max(1.5, Math.min(9, PEEK_PX / (width / n)));
+  const k = peak - 1;
+  return [peak, 1 + k*0.40, 1 + k*0.18, 1 + k*0.07];
+}
+
+// Height is absolute rather than a ratio, so it stays fixed per strip.
+const LIFT_SOLO  = [2.60, 1.72, 1.30, 1.10];
+const LIFT_STACK = [1.75, 1.38, 1.16, 1.05];
 
 function indexStrip(host){
   const layer = host.querySelector('.layer') || host;
@@ -985,6 +1000,8 @@ function indexStrip(host){
     centers[+t.dataset.i] = r.left + r.width/2 - base;
   });
   host._cols = centers; host._by = by; host._idx = -1; host._hot = [];
+  const w = host.getBoundingClientRect().width;
+  host._fish = centers.length && w ? fishFor(centers.length, w) : [7,3.4,2.1,1.4];
 }
 
 function columnAt(host, clientX){
@@ -1027,14 +1044,14 @@ function magnify(host, idx){
     t.classList.remove('peeked');
   });
   const hot = [];
+  const fish = host._fish || [7,3.4,2.1,1.4];
   if(idx >= 0 && host._by){
-    for(let d=-(FISH.length-1); d<=FISH.length-1; d++){
-      const g = FISH[Math.abs(d)], els = host._by.get(idx+d);
+    for(let d=-(fish.length-1); d<=fish.length-1; d++){
+      const g = fish[Math.abs(d)], els = host._by.get(idx+d);
       if(!g || !els) continue;
       els.forEach(t=>{
         t.style.flexGrow = g;
-        const lift = 1 + (g-1)*host._lift;
-        t.style.transform = 'scaleY('+Math.min(lift, host._liftMax)+')';
+        t.style.transform = 'scaleY('+host._lifts[Math.abs(d)]+')';
         if(!d){
           t.style.marginLeft='3px'; t.style.marginRight='3px';
           t.classList.add('peeked');
@@ -1081,8 +1098,8 @@ function showPeek(idx, x, top, grouped){
   peek.style.top  = Math.max(peek.offsetHeight+pad, top-14)+'px';
 }
 
-function wireStrip(host, grouped, lift, liftMax){
-  host._grouped = grouped; host._lift = lift; host._liftMax = liftMax;
+function wireStrip(host, grouped, lifts){
+  host._grouped = grouped; host._lifts = lifts;
   let frame = null, last = null;
   host.addEventListener('mousemove', e=>{
     last = e;
@@ -1379,8 +1396,8 @@ loadProperty().then(()=>{
   renderMenu();
   migrate();
   build();
-  wireStrip($('strip'), false, 0.26, 4.2);
-  wireStrip($('stack'), true,  0.11, 2.1);
+  wireStrip($('strip'), false, LIFT_SOLO);
+  wireStrip($('stack'), true,  LIFT_STACK);
   addEventListener('resize', ()=>{ indexStrip($('strip')); indexStrip($('stack')); });
   if(ENABLE_GITHUB_LOGIN && CLOUD) $('b-gh').classList.remove('hide');
 
