@@ -50,6 +50,7 @@ h1 em{font-style:normal;color:var(--signal)}
 .stack{position:relative;margin:26px 0 10px}
 .stack .layer{position:absolute;left:0;right:0;display:flex;gap:1px;height:34px;align-items:flex-end;margin:0}
 .stack .tick.on.full{align-self:flex-start;height:var(--fillH)}
+.stack .tick.veil{background:transparent}
 .pacer{position:absolute;top:-5px;bottom:-5px;width:1px;background:var(--ink-3);z-index:60;pointer-events:none}
 .pacer::before{content:"";position:absolute;top:0;left:-2px;width:5px;height:5px;background:var(--ink-3)}
 .glegend{display:flex;gap:7px 18px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
@@ -2951,7 +2952,11 @@ function paintStack(){
       s.items.forEach(x=>{
         const on = reads[i].has(x.id);
         const full = on && deepest[idx] === i;
-        const cls = 'tick'+(s.tier===1?' t1':'')+(on?' on':'')+(full?' full':'');
+        // This layer sits in front. Its unread nub would paint a grey hole
+        // through the stretched mark of a reader behind it, so drop the nub
+        // wherever someone deeper in the stack is still showing.
+        const veil = !on && deepest[idx] > i;
+        const cls = 'tick'+(s.tier===1?' t1':'')+(on?' on':'')+(full?' full':'')+(veil?' veil':'');
         ticks += '<span class="'+cls+'"'+(on?' style="background:'+color+'"':'')+'></span>';
         idx++;
       });
@@ -2971,17 +2976,21 @@ function paintStack(){
   host.innerHTML = html;
 
   $('glegend').innerHTML = list.map((m,i)=>{
-    const pct = Math.round(reads[i].size/TOTAL*100);
+    const n = reads[i].size;
+    const pct = n/TOTAL*100;
+    // one issue out of 250 rounds to 0%, which reads as "hasn't started"
+    const shown = (pct > 0 && pct < 1) ? '&lt;1%' : Math.round(pct)+'%';
     let tag = '';
     if(p){
-      const behind = p.expected - reads[i].size;
+      const behind = p.expected - n;
       tag = behind > 0
         ? '<span class="pace behind">'+behind+' behind</span>'
         : '<span class="pace ok">on pace</span>';
     }
     return '<span class="gitem"><span class="gsw" style="background:var(--m'+(m.ci+1)+')"></span>'
       +'<span'+(m.id===user.id?' class="gme"':'')+'>'+esc(m.name)+(m.id===user.id?' (you)':'')+'</span>'
-      +'<span class="gpct mono">'+pct+'%</span>'+tag+'</span>';
+      +'<span class="gpct mono">'+shown+'</span>'
+      +'<span class="gpct mono">('+n+')</span>'+tag+'</span>';
   }).join('');
 }
 
