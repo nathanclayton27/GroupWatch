@@ -513,7 +513,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = 'da312e8a4fe8';
+const BUILD = '45d2b05f78b4';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});

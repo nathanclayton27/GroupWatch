@@ -56,8 +56,8 @@ def film(key, title, year, note="", star=0):
 SECTIONS = [
     {
         "id": "tv", "tier": 1, "title": "Neon Genesis Evangelion",
-        "sub": "1995 · episodes 1–24 · start here",
-        "items": [ep(n) for n in range(1, 25)],
+        "sub": "1995 · episodes 1–26 · start here",
+        "items": [ep(n) for n in range(1, 27)],
     },
     {
         "id": "dc", "tier": 2, "title": "Director's Cut, episodes 21–24",
@@ -68,13 +68,8 @@ SECTIONS = [
         ],
     },
     {
-        "id": "tvend", "tier": 2, "title": "The television ending",
-        "sub": "1996 · episodes 25–26 · optional",
-        "items": [ep(25), ep(26)],
-    },
-    {
         "id": "eoe", "tier": 1, "title": "The End of Evangelion",
-        "sub": "1997 · watch after episode 24",
+        "sub": "1997 · watch after the series",
         "items": [film("eoe", "The End of Evangelion", "1997", "", 2)],
     },
     {
@@ -122,12 +117,11 @@ def main():
         "tiers": True,
         "notes": [
             ["Tiers.", "1 is the spine — the series, The End of Evangelion, and the "
-                       "four Rebuild films. 2 is worth the time: the television "
-                       "ending and the extended episodes. 3 is Death & Rebirth, "
-                       "which is a recap and genuinely skippable."],
-            ["The short version.", "Episodes 1–24, then 25–26, then The End of "
-                                   "Evangelion, then Rebuild 1.0 through 3.0+1.0. "
-                                   "Skip Death & Rebirth."],
+                       "four Rebuild films. 2 is the extended versions of episodes "
+                       "21–24. 3 is Death & Rebirth, which is a recap and genuinely "
+                       "skippable."],
+            ["The short version.", "Episodes 1–26, then The End of Evangelion, then "
+                                   "Rebuild 1.0 through 3.0+1.0. Skip Death & Rebirth."],
             ["Not included.", "EVANGELION 3.0 (-120 min.) is a prequel manga rather "
                               "than a film, and (-46h) is a disc extra. Neither "
                               "belongs in a watch order."],
