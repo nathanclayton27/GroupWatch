@@ -587,6 +587,7 @@ let groups   = [];    // every group this user belongs to
 let group    = null;  // the one being shown
 let gmembers = [];    // [{id, name, ci, read:Set}]
 let gPoll    = null;
+let groupError = '';
 
 function gstate(){
   const on = !!(group && gmembers.length);
@@ -607,7 +608,7 @@ async function loadGroups(){
 
   // groups belong to one property; only show the ones for what's on screen
   const { data:gs, error:e2 } = await sb.from('groups')
-    .select('id, code, name, start_date, target_date, property_id, created_by, schedule_shift_days, schedule_start')
+    .select('*')
     .in('id', mine.map(r=>r.group_id))
     .eq('property_id', SLUG);
   if(e2) throw e2;
@@ -1099,6 +1100,15 @@ function renderGroupPanel(){
   }
   if(!group){
     $('ghead').textContent = groupNoun();
+    if(groupError){
+      setup.classList.add('hide'); joined.classList.remove('hide');
+      joined.innerHTML = '<p>Groups aren’t loading: <code>'+esc(groupError)+'</code></p>'
+        + '<p>If that mentions a column, the database is a migration behind the '
+        + 'site — the SQL files in the repo say which.</p>'
+        + '<div class="row"><button id="b-gretry">Try again</button></div>';
+      $('b-gretry').onclick = ()=> refreshGroup(true);
+      return;
+    }
     $('gsetup-p').textContent = VERB.base
       ? cap(VERB.base)+' '+PROP.title+' alongside other people. Everyone’s progress '
         + 'stacks onto one strip at the top of the page, and if the group has a finish '
@@ -1157,6 +1167,7 @@ function renderGroupPanel(){
 
 async function refreshGroup(loud){
   if(!CLOUD || !user){ gstate(); renderGroupPanel(); return; }
+  groupError = '';
   try{
     await loadGroups();
     if(group) localStorage.setItem(GKEY, group.id);
@@ -1165,8 +1176,9 @@ async function refreshGroup(loud){
   }catch(e){
     console.error('[tracker] group load failed', e);
     group = null; gmembers = [];
+    groupError = e.message || String(e);
     gstate(); renderGroupPanel();
-    if(loud) flash('Could not reach the group: '+(e.message||e),'gmsg2');
+    if(loud) flash('Could not reach the group: '+groupError,'gmsg2');
   }
 }
 
