@@ -335,6 +335,25 @@ const ENABLE_GITHUB_LOGIN = true;
 // re-fetched at boot and the menu redrawn if it moved.
 let MANIFEST = __MANIFEST__;
 
+// Content hash of this build. GitHub Pages serves index.html with a cache
+// lifetime, so after a deploy a browser can keep running the old page — new
+// property data loads fine, but the code that draws it does not. Comparing
+// against build.json and reloading once is what removes the manual hard refresh.
+const BUILD = '__BUILD__';
+async function checkBuild(){
+  try{
+    const r = await fetch('build.json', {cache:'no-store'});
+    if(!r.ok) return;
+    const v = await r.json();
+    if(!v.build || v.build === BUILD) return;
+    // one reload per deployed build, or a stale CDN edge would loop us
+    if(sessionStorage.getItem('gw:reloaded') === v.build) return;
+    sessionStorage.setItem('gw:reloaded', v.build);
+    console.warn('[tracker] stale page ('+BUILD+' -> '+v.build+'), reloading');
+    location.reload();
+  }catch(e){}
+}
+
 async function refreshManifest(){
   try{
     const r = await fetch('properties/index.json', {cache:'no-cache'});
@@ -1474,6 +1493,7 @@ document.addEventListener('visibilitychange', ()=>{
 
 // Nothing can render until the property is in hand, so the whole boot hangs off
 // one fetch. A failure here is fatal in a way a sync failure never is.
+checkBuild();
 refreshManifest();
 if(!SLUG){ showSplash(); } else {
 loadProperty().then(()=>{
