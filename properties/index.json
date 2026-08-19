@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "hickman-secret-wars",
+    "title": "Everything Dies",
+    "subtitle": "Jonathan Hickman's Marvel run",
+    "kind": "comics",
+    "year": "2009–2015",
+    "blurb": "250 issues from Fantastic Four #570 through Secret Wars #9, in the order they're meant to be read.",
+    "accent": "#C1352A",
+    "unit": {
+      "one": "issue",
+      "many": "issues"
+    },
+    "total": 250,
+    "scheduled": false
+  },
+  {
+    "slug": "fma-brotherhood",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "subtitle": "",
+    "kind": "anime",
+    "year": "2009–2010",
+    "blurb": "HD DVD Anime Club, Round 4. 64 episodes across six arcs, on a fixed club schedule from 15 July to 25 August 2026.",
+    "accent": "#B0472E",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 64,
+    "scheduled": true
+  }
+]

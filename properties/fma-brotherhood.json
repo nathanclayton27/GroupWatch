@@ -1,0 +1,431 @@
+{
+  "slug": "fma-brotherhood",
+  "title": "Fullmetal Alchemist: Brotherhood",
+  "kind": "anime",
+  "year": "2009–2010",
+  "blurb": "HD DVD Anime Club, Round 4. 64 episodes across six arcs, on a fixed club schedule from 15 July to 25 August 2026.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "accent": "#B0472E",
+  "tiers": false,
+  "rules": [
+    "Pace yourself — don't watch a whole arc in one day. The windows are for flexibility, not permission to binge.",
+    "Remember to discuss.",
+    "Finish an arc before its window is up and the remaining days are yours off until the next arc begins.",
+    "Don't transmute your mom."
+  ],
+  "schedule": {
+    "kind": "windows",
+    "windows": [
+      {
+        "start": "2026-07-15",
+        "end": "2026-07-28",
+        "through": 20,
+        "label": "Chapters 1–2: Hunt for the Stone & Shadow of the Homunculi"
+      },
+      {
+        "start": "2026-07-29",
+        "end": "2026-08-04",
+        "through": 30,
+        "label": "Chapter 3: Sins of the Father"
+      },
+      {
+        "start": "2026-08-05",
+        "end": "2026-08-11",
+        "through": 43,
+        "label": "Chapter 4: The Wall of Briggs"
+      },
+      {
+        "start": "2026-08-12",
+        "end": "2026-08-18",
+        "through": 53,
+        "label": "Chapter 5: The Uprising"
+      },
+      {
+        "start": "2026-08-19",
+        "end": "2026-08-25",
+        "through": 64,
+        "label": "Chapter 6: The Promised Day"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "ch1-2",
+      "title": "Chapters 1–2: Hunt for the Stone & Shadow of the Homunculi",
+      "sub": "episodes 1–20 · July 15 – July 28",
+      "window": {
+        "start": "2026-07-15",
+        "end": "2026-07-28"
+      },
+      "items": [
+        {
+          "id": "fmab-1",
+          "t": "Episode",
+          "n": "1"
+        },
+        {
+          "id": "fmab-2",
+          "t": "Episode",
+          "n": "2"
+        },
+        {
+          "id": "fmab-3",
+          "t": "Episode",
+          "n": "3"
+        },
+        {
+          "id": "fmab-4",
+          "t": "Episode",
+          "n": "4"
+        },
+        {
+          "id": "fmab-5",
+          "t": "Episode",
+          "n": "5"
+        },
+        {
+          "id": "fmab-6",
+          "t": "Episode",
+          "n": "6"
+        },
+        {
+          "id": "fmab-7",
+          "t": "Episode",
+          "n": "7"
+        },
+        {
+          "id": "fmab-8",
+          "t": "Episode",
+          "n": "8"
+        },
+        {
+          "id": "fmab-9",
+          "t": "Episode",
+          "n": "9"
+        },
+        {
+          "id": "fmab-10",
+          "t": "Episode",
+          "n": "10"
+        },
+        {
+          "id": "fmab-11",
+          "t": "Episode",
+          "n": "11"
+        },
+        {
+          "id": "fmab-12",
+          "t": "Episode",
+          "n": "12"
+        },
+        {
+          "id": "fmab-13",
+          "t": "Episode",
+          "n": "13"
+        },
+        {
+          "id": "fmab-14",
+          "t": "Episode",
+          "n": "14"
+        },
+        {
+          "id": "fmab-15",
+          "t": "Episode",
+          "n": "15"
+        },
+        {
+          "id": "fmab-16",
+          "t": "Episode",
+          "n": "16"
+        },
+        {
+          "id": "fmab-17",
+          "t": "Episode",
+          "n": "17"
+        },
+        {
+          "id": "fmab-18",
+          "t": "Episode",
+          "n": "18"
+        },
+        {
+          "id": "fmab-19",
+          "t": "Episode",
+          "n": "19"
+        },
+        {
+          "id": "fmab-20",
+          "t": "Episode",
+          "n": "20"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "Chapter 3: Sins of the Father",
+      "sub": "episodes 21–30 · July 29 – August 4",
+      "window": {
+        "start": "2026-07-29",
+        "end": "2026-08-04"
+      },
+      "items": [
+        {
+          "id": "fmab-21",
+          "t": "Episode",
+          "n": "21"
+        },
+        {
+          "id": "fmab-22",
+          "t": "Episode",
+          "n": "22"
+        },
+        {
+          "id": "fmab-23",
+          "t": "Episode",
+          "n": "23"
+        },
+        {
+          "id": "fmab-24",
+          "t": "Episode",
+          "n": "24"
+        },
+        {
+          "id": "fmab-25",
+          "t": "Episode",
+          "n": "25"
+        },
+        {
+          "id": "fmab-26",
+          "t": "Episode",
+          "n": "26"
+        },
+        {
+          "id": "fmab-27",
+          "t": "Episode",
+          "n": "27"
+        },
+        {
+          "id": "fmab-28",
+          "t": "Episode",
+          "n": "28"
+        },
+        {
+          "id": "fmab-29",
+          "t": "Episode",
+          "n": "29"
+        },
+        {
+          "id": "fmab-30",
+          "t": "Episode",
+          "n": "30"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Chapter 4: The Wall of Briggs",
+      "sub": "episodes 31–43 · August 5 – August 11",
+      "window": {
+        "start": "2026-08-05",
+        "end": "2026-08-11"
+      },
+      "items": [
+        {
+          "id": "fmab-31",
+          "t": "Episode",
+          "n": "31"
+        },
+        {
+          "id": "fmab-32",
+          "t": "Episode",
+          "n": "32"
+        },
+        {
+          "id": "fmab-33",
+          "t": "Episode",
+          "n": "33"
+        },
+        {
+          "id": "fmab-34",
+          "t": "Episode",
+          "n": "34"
+        },
+        {
+          "id": "fmab-35",
+          "t": "Episode",
+          "n": "35"
+        },
+        {
+          "id": "fmab-36",
+          "t": "Episode",
+          "n": "36"
+        },
+        {
+          "id": "fmab-37",
+          "t": "Episode",
+          "n": "37"
+        },
+        {
+          "id": "fmab-38",
+          "t": "Episode",
+          "n": "38"
+        },
+        {
+          "id": "fmab-39",
+          "t": "Episode",
+          "n": "39"
+        },
+        {
+          "id": "fmab-40",
+          "t": "Episode",
+          "n": "40"
+        },
+        {
+          "id": "fmab-41",
+          "t": "Episode",
+          "n": "41"
+        },
+        {
+          "id": "fmab-42",
+          "t": "Episode",
+          "n": "42"
+        },
+        {
+          "id": "fmab-43",
+          "t": "Episode",
+          "n": "43"
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Chapter 5: The Uprising",
+      "sub": "episodes 44–53 · August 12 – August 18",
+      "window": {
+        "start": "2026-08-12",
+        "end": "2026-08-18"
+      },
+      "items": [
+        {
+          "id": "fmab-44",
+          "t": "Episode",
+          "n": "44"
+        },
+        {
+          "id": "fmab-45",
+          "t": "Episode",
+          "n": "45"
+        },
+        {
+          "id": "fmab-46",
+          "t": "Episode",
+          "n": "46"
+        },
+        {
+          "id": "fmab-47",
+          "t": "Episode",
+          "n": "47"
+        },
+        {
+          "id": "fmab-48",
+          "t": "Episode",
+          "n": "48"
+        },
+        {
+          "id": "fmab-49",
+          "t": "Episode",
+          "n": "49"
+        },
+        {
+          "id": "fmab-50",
+          "t": "Episode",
+          "n": "50"
+        },
+        {
+          "id": "fmab-51",
+          "t": "Episode",
+          "n": "51"
+        },
+        {
+          "id": "fmab-52",
+          "t": "Episode",
+          "n": "52"
+        },
+        {
+          "id": "fmab-53",
+          "t": "Episode",
+          "n": "53"
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Chapter 6: The Promised Day",
+      "sub": "episodes 54–64 · August 19 – August 25",
+      "window": {
+        "start": "2026-08-19",
+        "end": "2026-08-25"
+      },
+      "items": [
+        {
+          "id": "fmab-54",
+          "t": "Episode",
+          "n": "54"
+        },
+        {
+          "id": "fmab-55",
+          "t": "Episode",
+          "n": "55"
+        },
+        {
+          "id": "fmab-56",
+          "t": "Episode",
+          "n": "56"
+        },
+        {
+          "id": "fmab-57",
+          "t": "Episode",
+          "n": "57"
+        },
+        {
+          "id": "fmab-58",
+          "t": "Episode",
+          "n": "58"
+        },
+        {
+          "id": "fmab-59",
+          "t": "Episode",
+          "n": "59"
+        },
+        {
+          "id": "fmab-60",
+          "t": "Episode",
+          "n": "60"
+        },
+        {
+          "id": "fmab-61",
+          "t": "Episode",
+          "n": "61"
+        },
+        {
+          "id": "fmab-62",
+          "t": "Episode",
+          "n": "62"
+        },
+        {
+          "id": "fmab-63",
+          "t": "Episode",
+          "n": "63"
+        },
+        {
+          "id": "fmab-64",
+          "t": "Episode",
+          "n": "64"
+        }
+      ]
+    }
+  ]
+}
