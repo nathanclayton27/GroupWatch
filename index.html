@@ -529,7 +529,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '88dfeabd5093';
+const BUILD = 'baa90611b256';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -768,6 +768,9 @@ async function onSession(session){
 }
 
 /* ------------------------------------------------------------------ groups */
+
+// one layer's own height, and how far each layer behind peeks out below it
+const LAYER_H = 35, LAYER_OFFSET = 16;
 
 const MCOLORS = 8;
 const GKEY = 'gw:group:' + SLUG;   // which group is on screen, per property
