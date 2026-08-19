@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate properties/fma-brotherhood.json from the HD DVD Anime Club schedule.
+"""Generate properties/fma-brotherhood.json.
 
 One-off. Kept so the arc boundaries and dates can be corrected in one place and
 regenerated, rather than hand-edited across 64 items.
@@ -9,27 +9,23 @@ regenerated, rather than hand-edited across 64 items.
 import json
 import pathlib
 
-# (section id, title, first episode, last episode, window start, window end)
+# (section id, title, first episode, last episode, week)
 #
-# The club calendar gives chapters 1 and 2 a single fortnight, but the split is
-# really 1–12 and 13–20. Splitting the window into two weeks keeps chapter 2
-# ending on 28 July, so every later window — and the finish date — is untouched.
+# The schedule has no dates of its own — it is a shape, one week per chapter,
+# and a group anchors it to whatever day they start. The club's own run began on
+# 15 July 2026; any group can reproduce that by starting there.
+#
+# The calendar gives chapters 1 and 2 a single fortnight, but the real split is
+# 1–12 and 13–20, so they get a week each.
 ARCS = [
-    ("ch1", "Chapter 1: Hunt for the Stone",
-     1, 12, "2026-07-15", "2026-07-21"),
-    ("ch2", "Chapter 2: Shadow of the Homunculi",
-     13, 20, "2026-07-22", "2026-07-28"),
-    ("ch3", "Chapter 3: Sins of the Father",
-     21, 30, "2026-07-29", "2026-08-04"),
-    ("ch4", "Chapter 4: The Wall of Briggs",
-     31, 43, "2026-08-05", "2026-08-11"),
-    ("ch5", "Chapter 5: The Uprising",
-     44, 53, "2026-08-12", "2026-08-18"),
-    ("ch6", "Chapter 6: The Promised Day",
-     54, 64, "2026-08-19", "2026-08-25"),
+    ("ch1", "Chapter 1: Hunt for the Stone",       1, 12, 0),
+    ("ch2", "Chapter 2: Shadow of the Homunculi", 13, 20, 1),
+    ("ch3", "Chapter 3: Sins of the Father",      21, 30, 2),
+    ("ch4", "Chapter 4: The Wall of Briggs",      31, 43, 3),
+    ("ch5", "Chapter 5: The Uprising",            44, 53, 4),
+    ("ch6", "Chapter 6: The Promised Day",        54, 64, 5),
 ]
 
-MONTH = {"07": "July", "08": "August"}
 
 # English episode titles, 1-64. Cross-checked between the Wikipedia episode
 # list (1-58) and epguides (55-64); the overlap agrees.
@@ -60,29 +56,24 @@ TITLES = [
 assert len(TITLES) == 64, "expected 64 titles, have %d" % len(TITLES)
 
 
-def pretty(d):
-    y, m, day = d.split("-")
-    return "%s %d" % (MONTH[m], int(day))
-
 
 def main():
     sections = []
     windows = []
 
-    for sid, title, first, last, start, end in ARCS:
+    for sid, title, first, last, week in ARCS:
         sections.append({
             "id": sid,
             "title": title,
-            "sub": "episodes %d–%d · %s – %s" % (first, last, pretty(start), pretty(end)),
-            "window": {"start": start, "end": end},
+            "sub": "episodes %d–%d · week %d" % (first, last, week + 1),
             "items": [
                 {"id": "fmab-%d" % n, "t": TITLES[n - 1], "n": str(n)}
                 for n in range(first, last + 1)
             ],
         })
         windows.append({
-            "start": start,
-            "end": end,
+            "offset": week * 7,       # days from whenever the group starts
+            "days": 7,
             "through": last,          # cumulative episodes due by end of window
             "label": title,
         })
@@ -139,7 +130,7 @@ def main():
     print("wrote %s" % out.name)
     print("  %d episodes, %d arcs" % (total, len(sections)))
     for w in windows:
-        print("  through E%-2d by %s  %s" % (w["through"], w["end"], w["label"]))
+        print("  through E%-2d by day %-2d  %s" % (w["through"], w["offset"] + w["days"], w["label"]))
 
 
 if __name__ == "__main__":

@@ -513,7 +513,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '86f686823357';
+const BUILD = 'da312e8a4fe8';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});
@@ -758,7 +758,7 @@ async function loadGroups(){
 
   // groups belong to one property; only show the ones for what's on screen
   const { data:gs, error:e2 } = await sb.from('groups')
-    .select('id, code, name, start_date, target_date, property_id, created_by, schedule_shift_days')
+    .select('id, code, name, start_date, target_date, property_id, created_by, schedule_shift_days, schedule_start')
     .in('id', mine.map(r=>r.group_id))
     .eq('property_id', SLUG);
   if(e2) throw e2;
@@ -817,15 +817,42 @@ function shiftISO(iso, days){
   return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')
         +'-'+String(d.getDate()).padStart(2,'0');
 }
-// The property ships a schedule; a group may slide the whole thing by N days.
-// Every window moves together, so the pace is unchanged and only dates differ.
+// A schedule comes in two shapes.
+//
+// Absolute windows carry real dates — a broadcast run like Lanterns, where the
+// dates are facts about the world and apply whether you are in a group or not.
+//
+// Relative windows carry only offsets: "20 episodes in week one". They describe
+// a pace, not a calendar, so they mean nothing until a group says when it
+// started. Until then there is no schedule and nobody is behind.
 function windows(){
   const sched = PROP && PROP.schedule;
   if(!sched || sched.kind !== 'windows' || !(sched.windows||[]).length) return null;
+  const ws = sched.windows;
   const shift = (group && group.schedule_shift_days) || 0;
-  return shift
-    ? sched.windows.map(w=>({...w, start:shiftISO(w.start,shift), end:shiftISO(w.end,shift)}))
-    : sched.windows;
+
+  if(ws[0].start !== undefined){
+    return shift
+      ? ws.map(w=>({...w, start:shiftISO(w.start,shift), end:shiftISO(w.end,shift)}))
+      : ws;
+  }
+
+  const anchor = group && group.schedule_start;
+  if(!anchor) return null;
+  return ws.map(w=>({
+    label: w.label,
+    through: w.through,
+    start: shiftISO(anchor, w.offset + shift),
+    end:   shiftISO(anchor, w.offset + w.days - 1 + shift)
+  }));
+}
+
+// true when the property has a pace to offer but the group has not started it
+function scheduleWaiting(){
+  const sched = PROP && PROP.schedule;
+  if(!sched || sched.kind !== 'windows' || !(sched.windows||[]).length) return false;
+  if(sched.windows[0].start !== undefined) return false;
+  return !(group && group.schedule_start);
 }
 
 function paceInfo(){
@@ -885,6 +912,14 @@ function niceDate(iso){
 
 function paintWindow(){
   const el = $('winline');
+  if(scheduleWaiting()){
+    el.classList.remove('hide');
+    el.innerHTML = '<span>This has a suggested pace — '
+      + (group ? (isOwner() ? 'set a start date below to run it.'
+                            : 'the group owner can start it.')
+               : 'join or create a group to use it.') + '</span>';
+    return;
+  }
   const p = paceInfo();
   if(!p || p.kind !== 'windows'){ el.classList.add('hide'); return; }
   el.classList.remove('hide');
@@ -998,11 +1033,27 @@ function paintStack(){
 // single finish date, which can be set, changed or taken away entirely.
 function resched(){
   if(!isOwner()) return '';
-  const ws = windows();
   const field = (id, label, value)=>
       '<span class="lbl">'+label+'</span>'
     + '<input type="date" id="'+id+'" value="'+esc(value || '')+'">';
 
+  // a relative schedule: one date starts it, and everything else follows
+  const sched = PROP && PROP.schedule;
+  const relative = sched && sched.kind === 'windows'
+                && (sched.windows||[]).length && sched.windows[0].start === undefined;
+  if(relative){
+    const ws = windows();
+    return '<div class="row" style="margin:0 0 12px">'
+      + field('g-anchor', 'Start on', group.schedule_start)
+      + '<button id="b-ganchor">'+(ws ? 'Move start' : 'Start the schedule')+'</button>'
+      + (ws ? '<button id="b-gstop">Stop using it</button>' : '')
+      + '<span class="lbl">'
+      + (ws ? 'finishes ' + niceDate(ws[ws.length-1].end)
+            : 'until then there is no pace and nobody is behind')
+      + '</span></div>';
+  }
+
+  const ws = windows();
   if(ws){
     const shifted = (group.schedule_shift_days || 0) !== 0;
     return '<div class="row" style="margin:0 0 12px">'
@@ -1034,6 +1085,20 @@ async function saveGroup(patch, msg){
 }
 
 function wireResched(){
+  const anchor = $('b-ganchor');
+  if(anchor) anchor.onclick = async ()=>{
+    const want = $('g-anchor').value;
+    if(!want){ flash('Pick the day the group starts.','gmsg2'); return; }
+    if(want === group.schedule_start){ flash('That is already the start.','gmsg2'); return; }
+    anchor.disabled = true;
+    const ok = await saveGroup({ schedule_start: want, schedule_shift_days: 0 },
+      'Schedule running from '+want+'.');
+    if(!ok) anchor.disabled = false;
+  };
+  const stop = $('b-gstop');
+  if(stop) stop.onclick = ()=> saveGroup({ schedule_start: null, schedule_shift_days: 0 },
+    'Schedule stopped — nobody is behind now.');
+
   const days = (a, b)=> Math.round((new Date(a+'T00:00:00') - new Date(b+'T00:00:00'))/DAY);
 
   // A windowed schedule can only move as a block, so whichever end you drag

@@ -41,6 +41,9 @@ create table if not exists groups (
   target_date         date,
   -- slide a property's whole schedule by N days; every window moves together
   schedule_shift_days integer not null default 0,
+  -- a relative schedule has no dates of its own; this is when the group started
+  -- it. Null means it is not running yet and nobody is behind.
+  schedule_start      date,
   created_by          uuid references auth.users on delete set null,
   created_at          timestamptz default now()
 );

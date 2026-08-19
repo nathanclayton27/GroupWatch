@@ -10,38 +10,38 @@
     "kind": "windows",
     "windows": [
       {
-        "start": "2026-08-24",
-        "end": "2026-08-30",
+        "offset": 0,
+        "days": 7,
         "through": 13,
         "label": "Part 1 · first half"
       },
       {
-        "start": "2026-08-31",
-        "end": "2026-09-06",
+        "offset": 7,
+        "days": 7,
         "through": 25,
         "label": "Part 1 · second half"
       },
       {
-        "start": "2026-09-07",
-        "end": "2026-09-13",
+        "offset": 14,
+        "days": 7,
         "through": 38,
         "label": "Part 2 · first half"
       },
       {
-        "start": "2026-09-14",
-        "end": "2026-09-20",
+        "offset": 21,
+        "days": 7,
         "through": 50,
         "label": "Part 2 · second half"
       },
       {
-        "start": "2026-09-21",
-        "end": "2026-09-27",
+        "offset": 28,
+        "days": 7,
         "through": 62,
         "label": "Part 3 · first half"
       },
       {
-        "start": "2026-09-28",
-        "end": "2026-10-04",
+        "offset": 35,
+        "days": 7,
         "through": 74,
         "label": "Part 3 · second half"
       }
@@ -63,7 +63,7 @@
   "notes": [
     [
       "The schedule.",
-      "Six weeks, half a broadcast cour each. It is a suggestion rather than a rule — a group's owner can slide the whole thing from the group panel without changing anything here."
+      "Six weeks, half a broadcast cour each. It has no dates until a group sets a start; until then nobody is behind."
     ],
     "Episode titles from the Wikipedia episode list."
   ],
@@ -71,7 +71,7 @@
     {
       "id": "p1a",
       "title": "Part 1 · first half",
-      "sub": "episodes 1–13 · 24 August – 30 August",
+      "sub": "episodes 1–13 · week 1",
       "items": [
         {
           "id": "monster-1",
@@ -143,7 +143,7 @@
     {
       "id": "p1b",
       "title": "Part 1 · second half",
-      "sub": "episodes 14–25 · 31 August – 6 September",
+      "sub": "episodes 14–25 · week 2",
       "items": [
         {
           "id": "monster-14",
@@ -210,7 +210,7 @@
     {
       "id": "p2a",
       "title": "Part 2 · first half",
-      "sub": "episodes 26–38 · 7 September – 13 September",
+      "sub": "episodes 26–38 · week 3",
       "items": [
         {
           "id": "monster-26",
@@ -282,7 +282,7 @@
     {
       "id": "p2b",
       "title": "Part 2 · second half",
-      "sub": "episodes 39–50 · 14 September – 20 September",
+      "sub": "episodes 39–50 · week 4",
       "items": [
         {
           "id": "monster-39",
@@ -349,7 +349,7 @@
     {
       "id": "p3a",
       "title": "Part 3 · first half",
-      "sub": "episodes 51–62 · 21 September – 27 September",
+      "sub": "episodes 51–62 · week 5",
       "items": [
         {
           "id": "monster-51",
@@ -416,7 +416,7 @@
     {
       "id": "p3b",
       "title": "Part 3 · second half",
-      "sub": "episodes 63–74 · 28 September – 4 October",
+      "sub": "episodes 63–74 · week 6",
       "items": [
         {
           "id": "monster-63",
