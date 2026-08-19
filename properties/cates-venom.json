@@ -27,13 +27,22 @@
       "Sections that need prior context have a short explainer at the top. They are written to save you thirty years of reading, and kept as spoiler-light as that allows."
     ],
     "Order compiled from How To Love Comics, Comic Book Treasury, Comic Book Herald and comicbookreadingorders.com. Where sources disagree on how the events interleave, the tie-in issues are cut into the main run at chapter boundaries, which is how the omnibus reads.",
-    "No Marvel links on this one yet — the series ids would have to be looked up per title, and a wrong link is worse than none."
+    [
+      "Links.",
+      "Sections link to their Marvel series page rather than to each issue. A few of the one-shots and event minis have no link — their series ids could not be confirmed, and a wrong link is worse than none."
+    ]
   ],
   "sections": [
     {
       "id": "rex",
       "tier": 1,
       "title": "Rex",
+      "links": [
+        {
+          "label": "Venom",
+          "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        }
+      ],
       "sub": "Venom #1–6 · the run's opening statement",
       "intro": "Eddie Brock is a disgraced journalist. The symbiote is an alien that bonded to Spider-Man in the eighties, was rejected, and found Eddie instead — they shared a grudge, and that grudge became Venom. In the thirty years since, the character has been a villain, an antihero and a self-declared lethal protector, and Eddie has been separated from and rebonded to the symbiote more times than is worth counting.\n\nYou need none of it. Cates reintroduces Eddie in the first few pages and treats the symbiote's history as something nobody has told the truth about — including the symbiote. Starting cold is close to the intended experience.",
       "items": [
@@ -83,6 +92,12 @@
       "id": "abyss",
       "tier": 1,
       "title": "The Abyss",
+      "links": [
+        {
+          "label": "Venom",
+          "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        }
+      ],
       "sub": "Venom #7–12 · the fallout, and what Eddie is carrying",
       "items": [
         {
@@ -128,6 +143,12 @@
       "id": "wotr",
       "tier": 3,
       "title": "War of the Realms",
+      "links": [
+        {
+          "label": "Venom",
+          "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        }
+      ],
       "sub": "Venom #13–15 · a detour, and not Cates'",
       "intro": "War of the Realms was a line-wide 2019 event: Malekith the Accursed invades Earth with the armies of the ten realms and every hero fights a war on a different front. These three issues are Venom's corner of it, written by Cullen Bunn rather than Cates.\n\nNothing in the main run depends on them. They are here for completeness — skip to the next section without consequence.",
       "items": [
@@ -155,6 +176,16 @@
       "id": "road-ac",
       "tier": 2,
       "title": "Road to Absolute Carnage",
+      "links": [
+        {
+          "label": "Carnage Born",
+          "url": "https://www.marvel.com/comics/series/25943/web_of_venom:_carnage_born_(2018)"
+        },
+        {
+          "label": "Venom",
+          "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        }
+      ],
       "sub": "the setup · read before the event",
       "intro": "Cletus Kasady is a serial killer who bonded with the symbiote's offspring and became Carnage — stronger than Venom, without any of the parts of Eddie that pull him back. His 1993 rampage through New York is the story people mean when they call him Marvel's worst. He has died more than once, and he is dead when this run opens.\n\nThat is the whole briefing. What matters going in is that he is a murderer with a symbiote, and that every symbiote leaves a trace in a host it has bonded with — which is about to be a problem for everyone who has ever worn one.",
       "items": [
@@ -184,6 +215,16 @@
       "id": "absolute-carnage",
       "tier": 1,
       "title": "Absolute Carnage",
+      "links": [
+        {
+          "label": "Absolute Carnage",
+          "url": "https://www.marvel.com/comics/series/27272/absolute_carnage_2019"
+        },
+        {
+          "label": "Venom",
+          "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        }
+      ],
       "sub": "the event, cut into the run · Cates wrote both halves",
       "intro": "The main series and the Venom tie-in were written by the same person at the same time, and they interleave chapter for chapter. Read them cut together as below rather than one after the other.",
       "items": [
@@ -316,6 +357,12 @@
       "id": "aftermath",
       "tier": 2,
       "title": "After the carnage",
+      "links": [
+        {
+          "label": "Cult of Carnage",
+          "url": "https://www.marvel.com/comics/series/25945/web_of_venom:_cult_of_carnage_(2019)"
+        }
+      ],
       "sub": "two one-shots that carry weight later",
       "items": [
         {
@@ -336,6 +383,12 @@
       "id": "island",
       "tier": 1,
       "title": "Venom Island",
+      "links": [
+        {
+          "label": "Venom",
+          "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        }
+      ],
       "sub": "Venom #21–25 · Eddie alone, at his worst",
       "items": [
         {
@@ -369,6 +422,12 @@
       "id": "beyond",
       "tier": 1,
       "title": "Venom Beyond",
+      "links": [
+        {
+          "label": "Venom",
+          "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        }
+      ],
       "sub": "Venom #26–30",
       "items": [
         {
@@ -395,6 +454,48 @@
           "id": "venom-venom-30",
           "t": "Venom",
           "n": "#30"
+        }
+      ]
+    },
+    {
+      "id": "orbit",
+      "tier": 2,
+      "title": "Silver Surfer: Black",
+      "links": [
+        {
+          "label": "Silver Surfer: Black",
+          "url": "https://www.marvel.com/comics/series/26930/silver_surfer_black_2019"
+        }
+      ],
+      "sub": "five issues · read this before King in Black",
+      "intro": "Cates wrote this alongside Venom, and it reaches the same mythology from the far end — the Surfer thrown back toward the beginning of everything. The common advice is to read it here rather than afterwards, because King in Black assumes a history it never stops to lay out, and this is where that history is.\n\nIt is also a better comic than it needs to be.",
+      "items": [
+        {
+          "id": "venom-ssb-1",
+          "t": "Silver Surfer: Black",
+          "n": "#1",
+          "note": "gorgeous",
+          "star": 1
+        },
+        {
+          "id": "venom-ssb-2",
+          "t": "Silver Surfer: Black",
+          "n": "#2"
+        },
+        {
+          "id": "venom-ssb-3",
+          "t": "Silver Surfer: Black",
+          "n": "#3"
+        },
+        {
+          "id": "venom-ssb-4",
+          "t": "Silver Surfer: Black",
+          "n": "#4"
+        },
+        {
+          "id": "venom-ssb-5",
+          "t": "Silver Surfer: Black",
+          "n": "#5"
         }
       ]
     },
@@ -429,6 +530,16 @@
       "id": "king-in-black",
       "tier": 1,
       "title": "King in Black",
+      "links": [
+        {
+          "label": "King in Black",
+          "url": "https://www.marvel.com/comics/series/30150/king_in_black_2020_-_2021"
+        },
+        {
+          "label": "Venom",
+          "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        }
+      ],
       "sub": "the payoff · main series cut with Venom #31–34",
       "items": [
         {
@@ -484,6 +595,12 @@
       "id": "kib-tie-ins",
       "tier": 3,
       "title": "King in Black tie-ins",
+      "links": [
+        {
+          "label": "Gwenom vs. Carnage",
+          "url": "https://www.marvel.com/comics/series/31400/king_in_black_gwenom_vs_carnage_2021"
+        }
+      ],
       "sub": "three of many",
       "items": [
         {
@@ -560,6 +677,12 @@
       "id": "finale",
       "tier": 1,
       "title": "The 200th issue",
+      "links": [
+        {
+          "label": "Venom",
+          "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        }
+      ],
       "sub": "Venom #35 · the end of the run",
       "items": [
         {
@@ -568,47 +691,6 @@
           "n": "#35",
           "note": "legacy #200 — Cates and Stegman sign off",
           "star": 2
-        }
-      ]
-    },
-    {
-      "id": "orbit",
-      "tier": 3,
-      "title": "Elsewhere in the same cosmology",
-      "sub": "Cates was writing this alongside Venom",
-      "intro": "Silver Surfer Black ran during this period, by the same writer, and reaches the same mythology from the far end — the Surfer thrown back toward the beginning of everything. It answers a question the Venom run spends years circling.\n\nRead it after King in Black if you would rather the main run explain itself in its own time. It is a better comic than it needs to be.",
-      "items": [
-        {
-          "id": "venom-ssb-1",
-          "t": "Silver Surfer Black",
-          "n": "#1",
-          "note": "gorgeous",
-          "star": 1,
-          "opt": 1
-        },
-        {
-          "id": "venom-ssb-2",
-          "t": "Silver Surfer Black",
-          "n": "#2",
-          "opt": 1
-        },
-        {
-          "id": "venom-ssb-3",
-          "t": "Silver Surfer Black",
-          "n": "#3",
-          "opt": 1
-        },
-        {
-          "id": "venom-ssb-4",
-          "t": "Silver Surfer Black",
-          "n": "#4",
-          "opt": 1
-        },
-        {
-          "id": "venom-ssb-5",
-          "t": "Silver Surfer Black",
-          "n": "#5",
-          "opt": 1
         }
       ]
     }

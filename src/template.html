@@ -685,40 +685,84 @@ function paintStack(){
   }).join('');
 }
 
-// Only the group's creator gets the reschedule control, matching the
+// Only the group's creator gets the date controls, matching the
 // "creator updates group" policy — the server enforces it either way.
+//
+// Two shapes. A property with its own schedule (FMA:B) slides as a block, so
+// the control moves every arc window together. A property without one has a
+// single finish date, which can be set, changed or taken away entirely.
 function resched(){
+  if(!isOwner()) return '';
   const ws = windows();
-  if(!ws || !isOwner()) return '';
-  const last = ws[ws.length-1].end;
+
+  if(ws){
+    const shifted = (group.schedule_shift_days || 0) !== 0;
+    return '<div class="row" style="margin:0 0 12px">'
+      + '<span class="lbl">Finish by</span>'
+      + '<input type="date" id="g-end" value="'+esc(ws[ws.length-1].end)+'">'
+      + '<button id="b-gshift">Move schedule</button>'
+      + (shifted ? '<button id="b-greset">Back to the original dates</button>' : '')
+      + '<span class="lbl">every arc shifts by the same amount</span></div>';
+  }
+
+  const has = !!group.target_date;
   return '<div class="row" style="margin:0 0 12px">'
     + '<span class="lbl">Finish by</span>'
-    + '<input type="date" id="g-end" value="'+esc(last)+'">'
-    + '<button id="b-gshift">Move schedule</button>'
-    + '<span class="lbl">every arc shifts by the same amount</span></div>';
+    + '<input type="date" id="g-end" value="'+esc(group.target_date || '')+'">'
+    + '<button id="b-gdate">'+(has ? 'Change date' : 'Set a finish date')+'</button>'
+    + (has ? '<button id="b-gclear">Remove date</button>' : '')
+    + '<span class="lbl">'
+    + (has ? 'pace is measured against this' : 'without one, nobody is behind')
+    + '</span></div>';
+}
+
+async function saveGroup(patch, msg){
+  const { error } = await sb.from('groups').update(patch).eq('id', group.id);
+  if(error){ flash('Could not save that: '+error.message, 'gmsg2'); return false; }
+  Object.assign(group, patch);
+  paint(); renderGroupPanel();
+  flash(msg, 'gmsg2');
+  return true;
 }
 
 function wireResched(){
-  const btn = $('b-gshift');
-  if(!btn) return;
-  btn.onclick = async ()=>{
+  const shift = $('b-gshift');
+  if(shift) shift.onclick = async ()=>{
     const ws = windows();
     const want = $('g-end').value;
     if(!want){ flash('Pick a date first.','gmsg2'); return; }
     const cur = ws[ws.length-1].end;
     const delta = Math.round((new Date(want+'T00:00:00') - new Date(cur+'T00:00:00'))/DAY);
     if(!delta){ flash('That is already the finish date.','gmsg2'); return; }
-    btn.disabled = true;
-    const shift = (group.schedule_shift_days||0) + delta;
-    const { error } = await sb.from('groups')
-      .update({ schedule_shift_days: shift }).eq('id', group.id);
-    btn.disabled = false;
-    if(error){ flash('Could not move the schedule: '+error.message,'gmsg2'); return; }
-    group.schedule_shift_days = shift;
-    paint(); renderGroupPanel();
-    flash((delta>0?'Pushed back ':'Pulled forward ')+Math.abs(delta)
-          +' day'+(Math.abs(delta)===1?'':'s')+'.','gmsg2');
+    shift.disabled = true;
+    const total = (group.schedule_shift_days||0) + delta;
+    const ok = await saveGroup({ schedule_shift_days: total },
+      (delta>0?'Pushed back ':'Pulled forward ')+Math.abs(delta)
+      +' day'+(Math.abs(delta)===1?'':'s')+'.');
+    if(!ok) shift.disabled = false;
   };
+
+  const reset = $('b-greset');
+  if(reset) reset.onclick = ()=> saveGroup({ schedule_shift_days: 0 },
+    'Back to the schedule as published.');
+
+  const set = $('b-gdate');
+  if(set) set.onclick = async ()=>{
+    const want = $('g-end').value;
+    if(!want){ flash('Pick a date first.','gmsg2'); return; }
+    if(want === group.target_date){ flash('That is already the finish date.','gmsg2'); return; }
+    if(want <= group.start_date){
+      flash('Pick a date after the group started ('+group.start_date+').','gmsg2');
+      return;
+    }
+    set.disabled = true;
+    const ok = await saveGroup({ target_date: want }, 'Finish date set to '+want+'.');
+    if(!ok) set.disabled = false;
+  };
+
+  const clear = $('b-gclear');
+  if(clear) clear.onclick = ()=> saveGroup({ target_date: null },
+    'Finish date removed — nobody is behind now.');
 }
 
 function isOwner(){ return !!(user && group && group.created_by === user.id); }
