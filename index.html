@@ -516,35 +516,50 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '7670cebd34b0';
+const BUILD = '01d1be2a2e29';
+
+// A tab that is already open never re-runs its own boot, so checking once was
+// only ever going to help people who reloaded anyway. This polls, and reloads
+// through a one-off URL so the request cannot be answered from cache — a plain
+// reload can be served the same stale index.html that made it stale.
+let wantBuild = null;
+
 async function checkBuild(){
   try{
-    const r = await fetch('build.json', {cache:'no-store'});
+    const r = await fetch('build.json?_=' + Date.now(), {cache:'no-store'});
     if(!r.ok) return;
     const v = await r.json();
     if(!v.build || v.build === BUILD) return;
-    // one reload per deployed build, or a stale CDN edge would loop us
-    if(sessionStorage.getItem('gw:reloaded') === v.build) return;
-    sessionStorage.setItem('gw:reloaded', v.build);
-    console.warn('[tracker] stale page ('+BUILD+' -> '+v.build+'), reloading');
-    location.reload();
+    wantBuild = v.build;
+    applyReload();
   }catch(e){}
 }
 
-async function refreshManifest(){
-  try{
-    const r = await fetch('properties/index.json', {cache:'no-cache'});
-    if(!r.ok) return;
-    const fresh = await r.json();
-    if(!Array.isArray(fresh) || !fresh.length) return;
-    if(JSON.stringify(fresh) === JSON.stringify(MANIFEST)) return;
-    MANIFEST = fresh;
-    SLUG ? renderMenu() : showSplash();
-  }catch(e){ console.error('[tracker] manifest refresh failed', e); }
+function applyReload(){
+  if(!wantBuild) return;
+  // a cloud write is debounced and in flight; localStorage already has it, but
+  // reloading now would drop the sync. Next check picks it up.
+  if(saveTimer) return;
+  if(sessionStorage.getItem('gw:reloaded') === wantBuild) return;
+  sessionStorage.setItem('gw:reloaded', wantBuild);
+  console.warn('[tracker] new build ' + wantBuild + ' (was ' + BUILD + '), reloading');
+  const u = new URL(location.href);
+  u.searchParams.set('_b', wantBuild);
+  location.replace(u.toString());
 }
 
-// null means "nothing chosen and nothing remembered" — first visit gets the
-// splash picker rather than an arbitrary default.
+// the cache-buster has done its job by the time the page runs; take it back out
+// of the address bar so links people copy stay clean
+(function stripBuster(){
+  const u = new URL(location.href);
+  if(!u.searchParams.has('_b')) return;
+  u.searchParams.delete('_b');
+  history.replaceState(null, '', u.pathname + (u.search || '') + u.hash);
+})();
+
+setInterval(checkBuild, 5 * 60 * 1000);
+document.addEventListener('visibilitychange', ()=>{ if(!document.hidden) checkBuild(); });
+
 function pickSlug(){
   const want = new URLSearchParams(location.search).get('p');
   if(want && MANIFEST.some(m=>m.slug===want)) return want;
@@ -678,7 +693,13 @@ function persist(){
   if(!user) return;
   clearTimeout(saveTimer);
   state('Saving','busy');
-  saveTimer = setTimeout(pushCloud, 700);
+  // clearing the handle matters beyond tidiness: applyReload() treats a live
+  // saveTimer as "a sync is in flight, do not reload yet", and a handle that is
+  // never cleared would defer every reload forever
+  saveTimer = setTimeout(()=>{
+    saveTimer = null;
+    pushCloud().then(applyReload, applyReload);
+  }, 700);
 }
 
 async function adopt(){
