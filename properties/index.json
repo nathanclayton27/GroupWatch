@@ -43,5 +43,20 @@
       "many": "issues"
     },
     "total": 82
+  },
+  {
+    "slug": "friday-night-lights",
+    "title": "Friday Night Lights",
+    "subtitle": "Dillon, Texas",
+    "kind": "tv",
+    "year": "2006–2011",
+    "blurb": "Five seasons, 76 episodes. Small-town Texas football, and everything around it.",
+    "accent": "#2E5C8A",
+    "accentDark": "#6FAEDC",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 76
   }
 ]
