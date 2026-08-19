@@ -5,7 +5,7 @@
   "kind": "tv",
   "order": 4,
   "year": "2006–2011",
-  "blurb": "Five seasons, 76 episodes. Small-town Texas football, and everything around it.",
+  "blurb": "76 episodes, 5 seasons, the book and movie are optional.",
   "unit": {
     "one": "episode",
     "many": "episodes"
@@ -20,14 +20,6 @@
   "accentDark": "#6FAEDC",
   "tiers": false,
   "notes": [
-    [
-      "Season two.",
-      "Fifteen episodes rather than twenty-two, cut short by the writers' strike, and the weakest of the five. Season three recovers completely — the season intro says more."
-    ],
-    [
-      "The book and the film.",
-      "Both are called Friday Night Lights and both are about a real 1988 team in Odessa. The series borrows the setting and invents its own town, team and people. Neither is required reading or viewing."
-    ],
     "Episode titles from the Wikipedia episode list."
   ],
   "sections": [
@@ -35,7 +27,6 @@
       "id": "s1",
       "title": "Season 1",
       "sub": "22 episodes · 2006",
-      "intro": "A high-school football team in a small Texas town where football is the only thing the town agrees on, and the coach who has just inherited it. That is the whole premise, and the show explains itself in its first ten minutes.\n\nThere is a 1990 book and a 2004 film of the same name, about a real team in Odessa. The series takes the setting and invents everything else. You do not need either one.",
       "items": [
         {
           "id": "fnl-s1e1",
@@ -153,7 +144,6 @@
       "id": "s2",
       "title": "Season 2",
       "sub": "15 episodes · 2007",
-      "intro": "Season two was cut short by the 2007–08 writers' strike — fifteen episodes instead of the planned twenty-two, and the season ends without resolving everything it set up.\n\nIt has the roughest reputation of the five, and one early subplot is widely regarded as the low point of the series. Season three is a return to form. Worth knowing going in so you do not give up on the show here.",
       "items": [
         {
           "id": "fnl-s2e1",

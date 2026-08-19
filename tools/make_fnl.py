@@ -4,8 +4,8 @@
     python3 tools/make_fnl.py
 
 Episode titles from the Wikipedia episode list. No schedule — a group sets its
-own finish date. No tiers either: it is one show watched straight through, and
-the only thing worth flagging about the running order belongs in prose.
+own finish date — and no tiers or section prose: it is one show watched straight
+through, and the season sub-lines carry everything worth saying.
 """
 import json
 import pathlib
@@ -50,23 +50,6 @@ SEASONS = [
     ]),
 ]
 
-INTROS = {
-    1: "A high-school football team in a small Texas town where football is the "
-       "only thing the town agrees on, and the coach who has just inherited it. "
-       "That is the whole premise, and the show explains itself in its first ten "
-       "minutes.\n\n"
-       "There is a 1990 book and a 2004 film of the same name, about a real team "
-       "in Odessa. The series takes the setting and invents everything else. You "
-       "do not need either one.",
-
-    2: "Season two was cut short by the 2007–08 writers' strike — fifteen "
-       "episodes instead of the planned twenty-two, and the season ends without "
-       "resolving everything it set up.\n\n"
-       "It has the roughest reputation of the five, and one early subplot is "
-       "widely regarded as the low point of the series. Season three is a return "
-       "to form. Worth knowing going in so you do not give up on the show here.",
-}
-
 
 def main():
     sections = []
@@ -76,7 +59,6 @@ def main():
             "title": "Season %d" % num,
             "sub": "%d episode%s · %d" % (len(titles),
                                           "" if len(titles) == 1 else "s", year),
-            **({"intro": INTROS[num]} if num in INTROS else {}),
             "items": [
                 {"id": "fnl-s%de%d" % (num, i + 1), "t": t, "n": str(i + 1)}
                 for i, t in enumerate(titles)
@@ -95,8 +77,7 @@ def main():
         "kind": "tv",
         "order": 4,
         "year": "2006–2011",
-        "blurb": "Five seasons, 76 episodes. Small-town Texas football, and "
-                 "everything around it.",
+        "blurb": "76 episodes, 5 seasons, the book and movie are optional.",
         "unit": {"one": "episode", "many": "episodes"},
         "verb": {"base": "watch", "past": "watched", "ing": "watching"},
         "itemOrder": "number-first",
@@ -104,15 +85,6 @@ def main():
         "accentDark": "#6FAEDC",
         "tiers": False,
         "notes": [
-            ["Season two.", "Fifteen episodes rather than twenty-two, cut short "
-                            "by the writers' strike, and the weakest of the five. "
-                            "Season three recovers completely — the season intro "
-                            "says more."],
-            ["The book and the film.", "Both are called Friday Night Lights and "
-                                       "both are about a real 1988 team in Odessa. "
-                                       "The series borrows the setting and invents "
-                                       "its own town, team and people. Neither is "
-                                       "required reading or viewing."],
             "Episode titles from the Wikipedia episode list.",
         ],
         "sections": sections,
@@ -126,8 +98,7 @@ def main():
     print("wrote %s.json" % SLUG)
     print("  %d seasons, %d episodes" % (len(sections), total))
     for s in sections:
-        print("   %-10s %2d%s" % (s["title"], len(s["items"]),
-                                  "  (intro)" if s.get("intro") else ""))
+        print("   %-10s %2d  %s" % (s["title"], len(s["items"]), s["sub"]))
 
 
 if __name__ == "__main__":
