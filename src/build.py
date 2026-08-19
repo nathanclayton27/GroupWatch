@@ -98,9 +98,9 @@ def main():
             "year": p.get("year", ""),
             "blurb": p.get("blurb", ""),
             "accent": p.get("accent", ""),
+            "accentDark": p.get("accentDark", ""),
             "unit": p["unit"],
             "total": p["_total"],
-            "scheduled": bool(p.get("schedule")),
         }
         for p in props
     ]

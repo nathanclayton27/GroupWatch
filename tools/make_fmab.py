@@ -109,6 +109,7 @@ def main():
         # shows read better as "12  One is All, All is One" than the other way
         "itemOrder": "number-first",
         "accent": "#B0472E",
+        "accentDark": "#E8874F",
         "tiers": False,
         "rules": [
             "Pace yourself — don't watch a whole arc in one day. The windows are "

@@ -79,12 +79,8 @@ def main():
         "unit": {"one": "issue", "many": "issues"},
         "verb": {"base": "read", "past": "read", "ing": "reading"},
         "accent": "#C1352A",
+        "accentDark": "#E4584A",
         "tiers": True,
-        "tierNotes": {
-            "1": "essential",
-            "2": "strongly recommended — the Fantastic Four run",
-            "3": "genuinely optional",
-        },
         "notes": [
             ["Tiers.", "1 is essential, 2 is strongly recommended (the Fantastic "
                        "Four run — it's what makes the ending land), 3 is genuinely "

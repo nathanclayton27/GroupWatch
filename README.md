@@ -11,11 +11,14 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-**Fullmetal Alchemist: Brotherhood** — HD DVD Anime Club Round 4. 64 episodes
-across six arcs on the club schedule, 15 July to 25 August 2026.
+**Fullmetal Alchemist: Brotherhood** — 64 episodes across six arcs, on a fixed
+schedule with a deadline per arc.
 
 **Everything Dies** — Jonathan Hickman's Marvel run. 250 issues from *Fantastic
 Four* #570 through *Secret Wars* #9, in the order they're meant to be read.
+
+**Venom** — Donny Cates and Ryan Stegman's run. 82 issues, tiered, with
+spoiler-light explainers so you can start cold.
 
 The button in the top left switches between them. First visit shows a picker;
 after that it opens whatever you had last.
@@ -60,6 +63,7 @@ Drop a JSON file in `properties/` and rebuild.
   "blurb": "One sentence for the picker.",
   "unit": { "one": "episode", "many": "episodes" },
   "accent": "#B0472E",
+  "accentDark": "#E8874F",
   "tiers": false,
   "sections": [
     { "id": "s1", "title": "Season 1", "sub": "episodes 1–12",
@@ -68,9 +72,10 @@ Drop a JSON file in `properties/` and rebuild.
 }
 ```
 
-Optional: `schedule` (dated windows), `rules` (house rules panel), `notes`
-(footer prose), `order` (menu position), per-section `intro` and `links`,
-per-item `note`, `star`, `opt`, `url`.
+Optional: `verb` (drives “watching” vs “reading”), `itemOrder`, `schedule`
+(dated windows), `rules`, `notes` (footer prose), `order` (menu position),
+`forGroup` (per-group copy), per-section `intro` and `links`, per-item `note`,
+`star`, `opt`, `url`. Full reference in [HOW-IT-WORKS.md](HOW-IT-WORKS.md).
 
 **Item ids are load-bearing.** Progress is stored as a list of them, so
 reordering is safe but renaming silently destroys saved ticks. Prefix them with
@@ -115,6 +120,9 @@ Herald](https://www.comicbookherald.com/), [Crushing
 Krisis](https://crushingkrisis.com/) and [How To Love
 Comics](https://www.howtolovecomics.com/); the *Fantastic Four*/*FF* weave
 follows the order Hickman specified for the omnibus.
+
+Venom order compiled from How To Love Comics, Comic Book Treasury, Comic Book
+Herald and comicbookreadingorders.com.
 
 This is an index of issue and episode numbers, not a reader or a player.
 

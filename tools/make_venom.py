@@ -298,6 +298,7 @@ def main():
         "unit": {"one": "issue", "many": "issues"},
         "verb": {"base": "read", "past": "read", "ing": "reading"},
         "accent": "#7A4FB5",
+        "accentDark": "#9C8AE0",
         "tiers": True,
         "notes": [
             ["Tiers.", "1 is the spine Cates wrote and the run does not work "

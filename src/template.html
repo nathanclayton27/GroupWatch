@@ -306,7 +306,6 @@ function pickSlug(){
   return null;
 }
 const SLUG = pickSlug();
-const META = SLUG ? MANIFEST.find(m=>m.slug===SLUG) : null;
 
 function localCount(slug){
   try{
@@ -315,6 +314,10 @@ function localCount(slug){
   }catch(e){ return 0; }
 }
 function go(slug){ location.href = location.pathname + '?p=' + encodeURIComponent(slug); }
+// manifest entries carry both tones too, for the picker and the menu
+function accentOf(m){
+  return ((DARKQ && DARKQ.matches && m.accentDark) || m.accent) || 'var(--signal)';
+}
 
 let PROP = null;
 let DATA = [];
@@ -366,8 +369,18 @@ async function loadProperty(){
   ORDER = DATA.flatMap(s=>s.items.map(x=>x.id));
   VALID = new Set(ORDER);
   localStorage.setItem('gw:last', SLUG);
-  if(PROP.accent) document.documentElement.style.setProperty('--signal', PROP.accent);
+  applyAccent();
 }
+
+// The palette carries a light and a dark value for every colour, so setting one
+// accent for both flattens that and leaves dark mode wearing the light tone.
+const DARKQ = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+function applyAccent(){
+  if(!PROP) return;
+  const c = (DARKQ && DARKQ.matches && PROP.accentDark) || PROP.accent;
+  if(c) document.documentElement.style.setProperty('--signal', c);
+}
+if(DARKQ && DARKQ.addEventListener) DARKQ.addEventListener('change', applyAccent);
 
 function plural(n){ return n === 1 ? UNIT.one : UNIT.many; }
 function cap(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
@@ -956,7 +969,7 @@ function renderMenu(){
     return '<button role="option" data-slug="'+esc(m.slug)+'"'
       + ' aria-selected="'+(m.slug===SLUG)+'">'
       + '<span class="pm-t"><span class="pdot" style="background:'
-      + esc(m.accent||'var(--signal)')+'"></span>'+esc(m.title)+'</span>'
+      + esc(accentOf(m))+'"></span>'+esc(m.title)+'</span>'
       + '<span class="pm-m">'+meta.map(esc).join(' · ')+'</span>'
       + (m.blurb ? '<span class="pm-b">'+esc(m.blurb)+'</span>' : '')
       + '</button>';
@@ -980,9 +993,9 @@ function showSplash(){
     const meta = [m.kind, m.year, m.total + ' ' + m.unit.many].filter(Boolean);
     let bar = '';
     for(let i=0;i<TICKS;i++)
-      bar += '<span'+(i<on?' class="on" style="background:'+esc(m.accent||'var(--signal)')+'"':'')+'></span>';
+      bar += '<span'+(i<on?' class="on" style="background:'+esc(accentOf(m))+'"':'')+'></span>';
     return '<button class="card" data-slug="'+esc(m.slug)+'">'
-      + '<h2><span class="pdot" style="background:'+esc(m.accent||'var(--signal)')+'"></span>'
+      + '<h2><span class="pdot" style="background:'+esc(accentOf(m))+'"></span>'
       + esc(m.title)+'</h2>'
       + '<div class="pm-m">'+meta.map(esc).join(' · ')+(n?' · '+n+' done':'')+'</div>'
       + (m.blurb ? '<div class="pm-b">'+esc(m.blurb)+'</div>' : '')

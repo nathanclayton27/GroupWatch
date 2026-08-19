@@ -7,12 +7,12 @@
     "year": "2009–2010",
     "blurb": "64 episodes across six arcs.",
     "accent": "#B0472E",
+    "accentDark": "#E8874F",
     "unit": {
       "one": "episode",
       "many": "episodes"
     },
-    "total": 64,
-    "scheduled": true
+    "total": 64
   },
   {
     "slug": "hickman-secret-wars",
@@ -22,12 +22,12 @@
     "year": "2009–2015",
     "blurb": "250 issues from Fantastic Four #570 through Secret Wars #9, in the order they're meant to be read.",
     "accent": "#C1352A",
+    "accentDark": "#E4584A",
     "unit": {
       "one": "issue",
       "many": "issues"
     },
-    "total": 250,
-    "scheduled": false
+    "total": 250
   },
   {
     "slug": "cates-venom",
@@ -37,11 +37,11 @@
     "year": "2018–2021",
     "blurb": "The whole Cates run, with the supplements worth reading and enough backstory to start cold.",
     "accent": "#7A4FB5",
+    "accentDark": "#9C8AE0",
     "unit": {
       "one": "issue",
       "many": "issues"
     },
-    "total": 82,
-    "scheduled": false
+    "total": 82
   }
 ]
