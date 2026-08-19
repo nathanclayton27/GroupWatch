@@ -614,6 +614,7 @@ function paintWindow(){
 
 function paintStack(){
   gstate();
+  applyOverrides();
   if(!group || !gmembers.length) return;
 
   const list = gmembers.slice()
@@ -868,12 +869,25 @@ function startGroupPoll(){
 
 /* ------------------------------------------------------- property switcher */
 
+// A property can carry copy meant only for one group — the club framing on
+// FMA:B, say. Presentation only: the property file is public, so this hides it
+// from the page, not from anyone who opens the JSON.
+function overrides(){
+  return (PROP.forGroup && group && PROP.forGroup[group.code]) || {};
+}
+function applyOverrides(){
+  const ov = overrides();
+  $('pblurb').textContent = ov.blurb || PROP.blurb || '';
+  const rt = ov.rulesTitle || PROP.rulesTitle;
+  if(rt) $('ruleshead').textContent = rt;
+}
+
 function renderHeader(){
   const bits = [PROP.subtitle || PROP.kind, PROP.year, TOTAL + ' ' + plural(TOTAL)]
     .filter(Boolean);
   $('eyebrow').textContent = bits.join(' · ');
   $('ptitle').textContent = PROP.title;
-  $('pblurb').textContent = PROP.blurb || '';
+  applyOverrides();
   $('b-prop-t').textContent = PROP.title;
   if(PROP.accent) $('pdot').style.background = PROP.accent;
   document.title = PROP.title + ' — GroupWatch';
@@ -883,7 +897,6 @@ function renderHeader(){
 
   if((PROP.rules||[]).length){
     $('rules').classList.remove('hide');
-    if(PROP.rulesTitle) $('ruleshead').textContent = PROP.rulesTitle;
     $('ruleslist').innerHTML = PROP.rules.map(r=>'<li>'+esc(r)+'</li>').join('');
   }
   // notes are [heading, body] pairs; a bare string is a body with no heading
