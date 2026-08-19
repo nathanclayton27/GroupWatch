@@ -67,6 +67,8 @@ h1 em{font-style:normal;color:var(--signal)}
 .peek-s{font-size:11px;color:var(--ink-3);margin-top:3px;letter-spacing:.06em;
   text-transform:uppercase}
 .peek-n{font-size:12px;color:var(--ink-2);margin-top:6px;line-height:1.4}
+.peek-d{font-size:11px;margin-top:6px;color:var(--done);letter-spacing:.04em}
+.peek-d.late{color:var(--signal)}
 .peek-w{display:flex;flex-direction:column;gap:4px;margin-top:9px;
   border-top:1px solid var(--rule);padding-top:8px}
 .peek-r{display:flex;align-items:center;gap:8px;font-size:12px}
@@ -400,7 +402,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '591503c8aed2';
+const BUILD = '11efd338cb99';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});
@@ -747,6 +749,29 @@ function paceInfo(){
 
 // The schedule belongs to the property, so show where the club is even when
 // you're reading alone.
+// The date a single item is due. With a window schedule that is the end of the
+// first window whose cumulative target reaches it; with a plain finish date it
+// is the straight-line share of the run between start and target.
+function dueFor(idx){
+  const need = idx + 1;
+  const ws = windows();
+  if(ws){
+    const w = ws.find(w=> w.through >= need);
+    return w ? w.end : null;
+  }
+  if(!group || !group.target_date) return null;
+  const start = new Date(group.start_date + 'T00:00:00').getTime();
+  const end   = new Date(group.target_date + 'T00:00:00').getTime();
+  if(!(end > start)) return null;
+  const d = new Date(start + (end - start) * (need / TOTAL));
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')
+        +'-'+String(d.getDate()).padStart(2,'0');
+}
+function niceDate(iso){
+  return new Date(iso + 'T00:00:00')
+    .toLocaleDateString(undefined, {month:'short', day:'numeric'});
+}
+
 function paintWindow(){
   const el = $('winline');
   const p = paceInfo();
@@ -974,6 +999,28 @@ function wireRoster(){
   });
 }
 
+function updateGroupLine(){
+  const el = $('gline');
+  if(!el || !group) return;
+  const p = paceInfo();
+  const mine = gmembers.find(m=> user && m.id === user.id);
+  const n = mine ? readsOf(mine).size : done.size;
+  let line;
+  if(p){
+    const behind = p.expected - n;
+    const days = p.daysLeft + ' day' + (p.daysLeft === 1 ? '' : 's') + ' left.';
+    line = behind > 0
+      ? 'You’re '+behind+' '+plural(behind)+' behind pace, with '+days
+      : 'You’re on pace, with '+days;
+  }else if(group.target_date){
+    line = 'Finish date is set to '+group.target_date+'.';
+  }else{
+    line = 'No finish date set, so nobody is behind.';
+  }
+  el.textContent = line + ' ' + gmembers.length
+    + (gmembers.length === 1 ? ' person' : ' people') + ' in this group.';
+}
+
 function renderGroupPanel(){
   const setup = $('gsetup'), joined = $('gjoined');
   if(!CLOUD){ $('gpanel').classList.add('hide'); return; }
@@ -1000,19 +1047,6 @@ function renderGroupPanel(){
 
   setup.classList.add('hide'); joined.classList.remove('hide');
   $('ghead').textContent = group.name;
-  const p = paceInfo();
-  const mine = gmembers.find(m=>m.id===user.id);
-  let line = '';
-  if(p){
-    const behind = p.expected - (mine ? readsOf(mine).size : 0);
-    line = behind > 0
-      ? 'You’re '+behind+' '+plural(behind)+' behind pace, with '+p.daysLeft+' day'+(p.daysLeft===1?'':'s')+' left.'
-      : 'You’re on pace, with '+p.daysLeft+' day'+(p.daysLeft===1?'':'s')+' left.';
-  }else if(group.target_date){
-    line = 'Finish date is set to '+esc(group.target_date)+'.';
-  }else{
-    line = 'No finish date set, so nobody is behind.';
-  }
 
   joined.innerHTML =
     '<div class="gbar"><span class="lbl">Join code</span>'
@@ -1024,8 +1058,7 @@ function renderGroupPanel(){
           + '</select>'
         : '')
     + '</div>'
-    + '<p>'+line+' '+gmembers.length
-      +(gmembers.length===1?' person':' people')+' in this group.</p>'
+    + '<p id="gline"></p>'
     + resched()
     + roster()
     + '<div class="row" style="margin-top:14px"><button id="b-grefresh">Refresh</button><button id="b-gleave">Leave group</button></div>'
@@ -1035,6 +1068,7 @@ function renderGroupPanel(){
     try{ await navigator.clipboard.writeText(group.code); flash('Code copied — send it to whoever’s joining.','gmsg2'); }
     catch(e){ flash('Copy failed. The code is '+group.code+'.','gmsg2'); }
   };
+  updateGroupLine();
   wireResched();
   wireRoster();
   $('b-grefresh').onclick = ()=> refreshGroup(true);
@@ -1243,8 +1277,15 @@ function showPeek(idx, x, top, grouped){
   const num = '<span class="num mono">'+esc(it.n)+'</span>';
   const head = NUMFIRST ? num+' '+esc(it.t) : esc(it.t)+' '+num;
   let h = '<div class="peek-t">'+head+'</div>'
-        + '<div class="peek-s">'+esc(it.sec)+'</div>'
-        + (it.note ? '<div class="peek-n">'+esc(it.note)+'</div>' : '');
+        + '<div class="peek-s">'+esc(it.sec)+'</div>';
+
+  const due = dueFor(idx);
+  if(due){
+    const late = due < todayISO();
+    h += '<div class="peek-d'+(late?' late':'')+'">'
+       + (late ? 'was due ' : 'on pace by ') + niceDate(due) + '</div>';
+  }
+  h += (it.note ? '<div class="peek-n">'+esc(it.note)+'</div>' : '');
 
   const row = (colour, name, has)=>
     '<div class="peek-r'+(has?' has':'')+'">'
@@ -1481,7 +1522,7 @@ function paint(){
   if(TIERED) [1,2,3].forEach(t=> $('s-t'+t).textContent = per[t]+' / '+TIERTOT[t]);
   $('code').value = btoa(JSON.stringify([...done]));
   paintWindow();
-  if(group) paintStack();
+  if(group){ paintStack(); updateGroupLine(); }
   openInitialSection();
 }
 
