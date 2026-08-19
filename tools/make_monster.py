@@ -9,6 +9,7 @@ division the show actually has — it is one story and nothing here is skippable
 """
 import json
 import pathlib
+from datetime import date, timedelta
 
 SLUG = "monster"
 
@@ -41,31 +42,53 @@ TITLES = [
 ]
 assert len(TITLES) == 74, "expected 74 titles, have %d" % len(TITLES)
 
-# (section id, title, first, last) — the broadcast cours
+# The three broadcast cours, each split in half, so a section is about a week's
+# watching rather than a month's.
 PARTS = [
-    ("p1", "Part 1", 1, 25),
-    ("p2", "Part 2", 26, 50),
-    ("p3", "Part 3", 51, 74),
+    ("p1a", "Part 1 · first half",   1, 13),
+    ("p1b", "Part 1 · second half", 14, 25),
+    ("p2a", "Part 2 · first half",  26, 38),
+    ("p2b", "Part 2 · second half", 39, 50),
+    ("p3a", "Part 3 · first half",  51, 62),
+    ("p3b", "Part 3 · second half", 63, 74),
 ]
+
+# One week per section. Change this and rerun to move the whole run; a group can
+# also slide it from the app without touching the property.
+START = date(2026, 8, 24)          # Monday
+
+
+def nice(d):
+    return "%d %s" % (d.day, d.strftime("%B"))
 
 
 def main():
-    sections = []
-    for pid, title, first, last in PARTS:
+    sections, windows = [], []
+    for i, (pid, title, first, last) in enumerate(PARTS):
+        opens = START + timedelta(weeks=i)
+        closes = opens + timedelta(days=6)
         sections.append({
             "id": pid,
             "title": title,
-            "sub": "episodes %d–%d" % (first, last),
+            "sub": "episodes %d–%d · %s – %s" % (first, last, nice(opens), nice(closes)),
             "items": [
                 {"id": "monster-%d" % n, "t": TITLES[n - 1], "n": str(n)}
                 for n in range(first, last + 1)
             ],
+        })
+        windows.append({
+            "start": opens.isoformat(),
+            "end": closes.isoformat(),
+            "through": last,          # cumulative episodes due by the end of the week
+            "label": title,
         })
 
     ids = [x["id"] for s in sections for x in s["items"]]
     total = len(ids)
     assert len(ids) == len(set(ids)), "duplicate item ids"
     assert total == 74, "expected 74 episodes, built %d" % total
+    thr = [w["through"] for w in windows]
+    assert thr == sorted(thr) and thr[-1] == 74, "window targets are wrong"
 
     prop = {
         "slug": SLUG,
@@ -75,6 +98,7 @@ def main():
         "order": 6,
         "year": "2004–2005",
         "blurb": "74 episodes, no filler, watch it in order.",
+        "schedule": {"kind": "windows", "windows": windows},
         "unit": {"one": "episode", "many": "episodes"},
         "verb": {"base": "watch", "past": "watched", "ing": "watching"},
         "itemOrder": "number-first",
@@ -82,6 +106,10 @@ def main():
         "accentDark": "#A8ADB8",
         "tiers": False,
         "notes": [
+            ["The schedule.", "Six weeks, half a broadcast cour each. It is a "
+                              "suggestion rather than a rule — a group's owner can "
+                              "slide the whole thing from the group panel without "
+                              "changing anything here."],
             "Episode titles from the Wikipedia episode list.",
         ],
         "sections": sections,
@@ -94,8 +122,9 @@ def main():
 
     print("wrote %s.json" % SLUG)
     print("  %d parts, %d episodes" % (len(sections), total))
-    for s in sections:
-        print("   %-8s %2d  %s" % (s["title"], len(s["items"]), s["sub"]))
+    for s, w in zip(sections, windows):
+        print("   %-22s %2d  through E%-2d by %s"
+              % (s["title"], len(s["items"]), w["through"], w["end"]))
 
 
 if __name__ == "__main__":
