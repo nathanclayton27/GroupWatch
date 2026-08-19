@@ -8,6 +8,12 @@
     "one": "episode",
     "many": "episodes"
   },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
   "accent": "#B0472E",
   "tiers": false,
   "rules": [
@@ -63,102 +69,102 @@
       "items": [
         {
           "id": "fmab-1",
-          "t": "Episode",
+          "t": "Fullmetal Alchemist",
           "n": "1"
         },
         {
           "id": "fmab-2",
-          "t": "Episode",
+          "t": "The First Day",
           "n": "2"
         },
         {
           "id": "fmab-3",
-          "t": "Episode",
+          "t": "City of Heresy",
           "n": "3"
         },
         {
           "id": "fmab-4",
-          "t": "Episode",
+          "t": "An Alchemist's Anguish",
           "n": "4"
         },
         {
           "id": "fmab-5",
-          "t": "Episode",
+          "t": "Rain of Sorrows",
           "n": "5"
         },
         {
           "id": "fmab-6",
-          "t": "Episode",
+          "t": "Road of Hope",
           "n": "6"
         },
         {
           "id": "fmab-7",
-          "t": "Episode",
+          "t": "Hidden Truths",
           "n": "7"
         },
         {
           "id": "fmab-8",
-          "t": "Episode",
+          "t": "The Fifth Laboratory",
           "n": "8"
         },
         {
           "id": "fmab-9",
-          "t": "Episode",
+          "t": "Created Feelings",
           "n": "9"
         },
         {
           "id": "fmab-10",
-          "t": "Episode",
+          "t": "Separate Destinations",
           "n": "10"
         },
         {
           "id": "fmab-11",
-          "t": "Episode",
+          "t": "Miracle at Rush Valley",
           "n": "11"
         },
         {
           "id": "fmab-12",
-          "t": "Episode",
+          "t": "One is All, All is One",
           "n": "12"
         },
         {
           "id": "fmab-13",
-          "t": "Episode",
+          "t": "Beasts of Dublith",
           "n": "13"
         },
         {
           "id": "fmab-14",
-          "t": "Episode",
+          "t": "Those Who Lurk Underground",
           "n": "14"
         },
         {
           "id": "fmab-15",
-          "t": "Episode",
+          "t": "Envoy from the East",
           "n": "15"
         },
         {
           "id": "fmab-16",
-          "t": "Episode",
+          "t": "Footsteps of a Comrade-in-Arms",
           "n": "16"
         },
         {
           "id": "fmab-17",
-          "t": "Episode",
+          "t": "Cold Flame",
           "n": "17"
         },
         {
           "id": "fmab-18",
-          "t": "Episode",
+          "t": "The Arrogant Palm of a Small Human",
           "n": "18"
         },
         {
           "id": "fmab-19",
-          "t": "Episode",
+          "t": "Death of the Undying",
           "n": "19"
         },
         {
           "id": "fmab-20",
-          "t": "Episode",
+          "t": "Father Before the Grave",
           "n": "20"
         }
       ]
@@ -174,52 +180,52 @@
       "items": [
         {
           "id": "fmab-21",
-          "t": "Episode",
+          "t": "Advance of the Fool",
           "n": "21"
         },
         {
           "id": "fmab-22",
-          "t": "Episode",
+          "t": "Backs in the Distance",
           "n": "22"
         },
         {
           "id": "fmab-23",
-          "t": "Episode",
+          "t": "Girl on the Battlefield",
           "n": "23"
         },
         {
           "id": "fmab-24",
-          "t": "Episode",
+          "t": "Inside the Belly",
           "n": "24"
         },
         {
           "id": "fmab-25",
-          "t": "Episode",
+          "t": "Doorway of Darkness",
           "n": "25"
         },
         {
           "id": "fmab-26",
-          "t": "Episode",
+          "t": "Reunion",
           "n": "26"
         },
         {
           "id": "fmab-27",
-          "t": "Episode",
+          "t": "Interlude Party",
           "n": "27"
         },
         {
           "id": "fmab-28",
-          "t": "Episode",
+          "t": "Father",
           "n": "28"
         },
         {
           "id": "fmab-29",
-          "t": "Episode",
+          "t": "Struggle of the Fool",
           "n": "29"
         },
         {
           "id": "fmab-30",
-          "t": "Episode",
+          "t": "The Ishvalan War of Extermination",
           "n": "30"
         }
       ]
@@ -235,67 +241,67 @@
       "items": [
         {
           "id": "fmab-31",
-          "t": "Episode",
+          "t": "The 520 Cens Promise",
           "n": "31"
         },
         {
           "id": "fmab-32",
-          "t": "Episode",
+          "t": "The Führer's Son",
           "n": "32"
         },
         {
           "id": "fmab-33",
-          "t": "Episode",
+          "t": "The Northern Wall of Briggs",
           "n": "33"
         },
         {
           "id": "fmab-34",
-          "t": "Episode",
+          "t": "Ice Queen",
           "n": "34"
         },
         {
           "id": "fmab-35",
-          "t": "Episode",
+          "t": "The Shape of This Country",
           "n": "35"
         },
         {
           "id": "fmab-36",
-          "t": "Episode",
+          "t": "Family Portrait",
           "n": "36"
         },
         {
           "id": "fmab-37",
-          "t": "Episode",
+          "t": "The First Homunculus",
           "n": "37"
         },
         {
           "id": "fmab-38",
-          "t": "Episode",
+          "t": "Conflict at Baschool",
           "n": "38"
         },
         {
           "id": "fmab-39",
-          "t": "Episode",
+          "t": "Daydream",
           "n": "39"
         },
         {
           "id": "fmab-40",
-          "t": "Episode",
+          "t": "Homunculus (The Dwarf in the Flask)",
           "n": "40"
         },
         {
           "id": "fmab-41",
-          "t": "Episode",
+          "t": "The Abyss",
           "n": "41"
         },
         {
           "id": "fmab-42",
-          "t": "Episode",
+          "t": "Signs of a Counteroffensive",
           "n": "42"
         },
         {
           "id": "fmab-43",
-          "t": "Episode",
+          "t": "Bite of the Ant",
           "n": "43"
         }
       ]
@@ -311,52 +317,52 @@
       "items": [
         {
           "id": "fmab-44",
-          "t": "Episode",
+          "t": "Revving at Full Throttle",
           "n": "44"
         },
         {
           "id": "fmab-45",
-          "t": "Episode",
+          "t": "The Promised Day",
           "n": "45"
         },
         {
           "id": "fmab-46",
-          "t": "Episode",
+          "t": "Looming Shadows",
           "n": "46"
         },
         {
           "id": "fmab-47",
-          "t": "Episode",
+          "t": "Emissary of Darkness",
           "n": "47"
         },
         {
           "id": "fmab-48",
-          "t": "Episode",
+          "t": "The Oath in the Tunnel",
           "n": "48"
         },
         {
           "id": "fmab-49",
-          "t": "Episode",
+          "t": "Filial Affection",
           "n": "49"
         },
         {
           "id": "fmab-50",
-          "t": "Episode",
+          "t": "Upheaval in Central",
           "n": "50"
         },
         {
           "id": "fmab-51",
-          "t": "Episode",
+          "t": "The Immortal Legion",
           "n": "51"
         },
         {
           "id": "fmab-52",
-          "t": "Episode",
+          "t": "Combined Strength",
           "n": "52"
         },
         {
           "id": "fmab-53",
-          "t": "Episode",
+          "t": "Flame of Vengeance",
           "n": "53"
         }
       ]
@@ -372,57 +378,57 @@
       "items": [
         {
           "id": "fmab-54",
-          "t": "Episode",
+          "t": "Beyond the Inferno",
           "n": "54"
         },
         {
           "id": "fmab-55",
-          "t": "Episode",
+          "t": "The Adults' Way of Life",
           "n": "55"
         },
         {
           "id": "fmab-56",
-          "t": "Episode",
+          "t": "The Return of the Führer",
           "n": "56"
         },
         {
           "id": "fmab-57",
-          "t": "Episode",
+          "t": "Eternal Leave",
           "n": "57"
         },
         {
           "id": "fmab-58",
-          "t": "Episode",
+          "t": "Sacrifices",
           "n": "58"
         },
         {
           "id": "fmab-59",
-          "t": "Episode",
+          "t": "Lost Light",
           "n": "59"
         },
         {
           "id": "fmab-60",
-          "t": "Episode",
+          "t": "Eye of Heaven, Gateway of Earth",
           "n": "60"
         },
         {
           "id": "fmab-61",
-          "t": "Episode",
+          "t": "He Who Would Swallow God",
           "n": "61"
         },
         {
           "id": "fmab-62",
-          "t": "Episode",
+          "t": "A Fierce Counterattack",
           "n": "62"
         },
         {
           "id": "fmab-63",
-          "t": "Episode",
+          "t": "The Other Side of the Gateway",
           "n": "63"
         },
         {
           "id": "fmab-64",
-          "t": "Episode",
+          "t": "Journey's End",
           "n": "64"
         }
       ]
