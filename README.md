@@ -14,7 +14,7 @@ glance who's ahead and who's fallen behind.
 **Fullmetal Alchemist: Brotherhood** — 64 episodes across six arcs, on a fixed
 schedule with a deadline per arc.
 
-**Everything Dies** — Jonathan Hickman's Marvel run. 250 issues from *Fantastic
+**Everything Dies: Secret Wars** — Jonathan Hickman's Marvel run. 250 issues from *Fantastic
 Four* #570 through *Secret Wars* #9, in the order they're meant to be read.
 
 **Venom** — Donny Cates and Ryan Stegman's run. 82 issues, tiered, with

@@ -69,7 +69,7 @@ def main():
 
     prop = {
         "slug": SLUG,
-        "title": "Everything Dies",
+        "title": "Everything Dies: Secret Wars",
         "subtitle": "Jonathan Hickman's Marvel run",
         "kind": "comics",
         "order": 2,
