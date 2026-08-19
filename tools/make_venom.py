@@ -18,6 +18,22 @@ import pathlib
 
 SLUG = "cates-venom"
 
+# Marvel series pages, series-level rather than per-issue. Only ids that were
+# actually looked up are here — several of the one-shots and event minis could
+# not be verified, and those sections carry no link rather than a wrong one.
+M = "https://www.marvel.com/comics/series/"
+S_VENOM = M + "24310/venom_2018_-_2021"
+S_AC    = M + "27272/absolute_carnage_2019"
+S_KIB   = M + "30150/king_in_black_2020_-_2021"
+S_SSB   = M + "26930/silver_surfer_black_2019"
+S_BORN  = M + "25943/web_of_venom:_carnage_born_(2018)"
+S_CULT  = M + "25945/web_of_venom:_cult_of_carnage_(2019)"
+S_GWEN  = M + "31400/king_in_black_gwenom_vs_carnage_2021"
+
+
+def L(*pairs):
+    return [{"label": a, "url": b} for a, b in pairs]
+
 
 def it(title, num, note="", star=0, opt=0, key=None):
     slug = key or (
@@ -50,6 +66,7 @@ def rng(title, a, b, note_first=""):
 SECTIONS = [
     {
         "id": "rex", "tier": 1, "title": "Rex",
+        "links": L(("Venom", S_VENOM)),
         "sub": "Venom #1–6 · the run's opening statement",
         "intro":
             "Eddie Brock is a disgraced journalist. The symbiote is an alien that "
@@ -71,6 +88,7 @@ SECTIONS = [
     },
     {
         "id": "abyss", "tier": 1, "title": "The Abyss",
+        "links": L(("Venom", S_VENOM)),
         "sub": "Venom #7–12 · the fallout, and what Eddie is carrying",
         "items": rng("Venom", 7, 12)
                  + [it("Venom Annual", 1, "anthology; the Cates story is the reason",
@@ -78,6 +96,7 @@ SECTIONS = [
     },
     {
         "id": "wotr", "tier": 3, "title": "War of the Realms",
+        "links": L(("Venom", S_VENOM)),
         "sub": "Venom #13–15 · a detour, and not Cates'",
         "intro":
             "War of the Realms was a line-wide 2019 event: Malekith the Accursed "
@@ -90,6 +109,7 @@ SECTIONS = [
     },
     {
         "id": "road-ac", "tier": 2, "title": "Road to Absolute Carnage",
+        "links": L(("Carnage Born", S_BORN), ("Venom", S_VENOM)),
         "sub": "the setup · read before the event",
         "intro":
             "Cletus Kasady is a serial killer who bonded with the symbiote's "
@@ -110,6 +130,7 @@ SECTIONS = [
     },
     {
         "id": "absolute-carnage", "tier": 1, "title": "Absolute Carnage",
+        "links": L(("Absolute Carnage", S_AC), ("Venom", S_VENOM)),
         "sub": "the event, cut into the run · Cates wrote both halves",
         "intro":
             "The main series and the Venom tie-in were written by the same person "
@@ -145,6 +166,7 @@ SECTIONS = [
     },
     {
         "id": "aftermath", "tier": 2, "title": "After the carnage",
+        "links": L(("Cult of Carnage", S_CULT)),
         "sub": "two one-shots that carry weight later",
         "items": [
             it("Web of Venom: Cult of Carnage", 1, "", 0, key="wov-cult"),
@@ -154,13 +176,29 @@ SECTIONS = [
     },
     {
         "id": "island", "tier": 1, "title": "Venom Island",
+        "links": L(("Venom", S_VENOM)),
         "sub": "Venom #21–25 · Eddie alone, at his worst",
         "items": rng("Venom", 21, 25),
     },
     {
         "id": "beyond", "tier": 1, "title": "Venom Beyond",
+        "links": L(("Venom", S_VENOM)),
         "sub": "Venom #26–30",
         "items": rng("Venom", 26, 30),
+    },
+    {
+        "id": "orbit", "tier": 2, "title": "Silver Surfer: Black",
+        "links": L(("Silver Surfer: Black", S_SSB)),
+        "sub": "five issues · read this before King in Black",
+        "intro":
+            "Cates wrote this alongside Venom, and it reaches the same mythology "
+            "from the far end — the Surfer thrown back toward the beginning of "
+            "everything. The common advice is to read it here rather than "
+            "afterwards, because King in Black assumes a history it never stops "
+            "to lay out, and this is where that history is.\n\n"
+            "It is also a better comic than it needs to be.",
+        "items": [it("Silver Surfer: Black", n, "gorgeous" if n == 1 else "",
+                     1 if n == 1 else 0, 0, key="ssb-%d" % n) for n in range(1, 6)],
     },
     {
         "id": "road-kib", "tier": 2, "title": "Road to King in Black",
@@ -180,6 +218,7 @@ SECTIONS = [
     },
     {
         "id": "king-in-black", "tier": 1, "title": "King in Black",
+        "links": L(("King in Black", S_KIB), ("Venom", S_VENOM)),
         "sub": "the payoff · main series cut with Venom #31–34",
         "items": [
             it("King in Black", 1, "", 2, key="kib-1"),
@@ -195,6 +234,7 @@ SECTIONS = [
     },
     {
         "id": "kib-tie-ins", "tier": 3, "title": "King in Black tie-ins",
+        "links": L(("Gwenom vs. Carnage", S_GWEN)),
         "sub": "three of many",
         "items":
             [it("King in Black: Namor", n, "the strongest tie-in" if n == 1 else "", 1 if n == 1 else 0, 1, key="kib-namor-%d" % n) for n in range(1, 6)]
@@ -203,21 +243,9 @@ SECTIONS = [
     },
     {
         "id": "finale", "tier": 1, "title": "The 200th issue",
+        "links": L(("Venom", S_VENOM)),
         "sub": "Venom #35 · the end of the run",
         "items": [vn(35, "legacy #200 — Cates and Stegman sign off", 2)],
-    },
-    {
-        "id": "orbit", "tier": 3, "title": "Elsewhere in the same cosmology",
-        "sub": "Cates was writing this alongside Venom",
-        "intro":
-            "Silver Surfer Black ran during this period, by the same writer, and "
-            "reaches the same mythology from the far end — the Surfer thrown back "
-            "toward the beginning of everything. It answers a question the Venom "
-            "run spends years circling.\n\n"
-            "Read it after King in Black if you would rather the main run explain "
-            "itself in its own time. It is a better comic than it needs to be.",
-        "items": [it("Silver Surfer Black", n, "" if n > 1 else "gorgeous", 1 if n == 1 else 0, 1,
-                     key="ssb-%d" % n) for n in range(1, 6)],
     },
 ]
 
@@ -260,8 +288,10 @@ def main():
             "Herald and comicbookreadingorders.com. Where sources disagree on how the "
             "events interleave, the tie-in issues are cut into the main run at chapter "
             "boundaries, which is how the omnibus reads.",
-            "No Marvel links on this one yet — the series ids would have to be looked "
-            "up per title, and a wrong link is worse than none.",
+            ["Links.", "Sections link to their Marvel series page rather than to each "
+                       "issue. A few of the one-shots and event minis have no link — "
+                       "their series ids could not be confirmed, and a wrong link is "
+                       "worse than none."],
         ],
         "sections": SECTIONS,
     }
