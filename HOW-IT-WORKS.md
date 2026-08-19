@@ -15,7 +15,7 @@ groupwatch/
 │   ├── index.json          generated manifest — do not hand-edit
 │   ├── fma-brotherhood.json
 │   ├── hickman-secret-wars.json
-│   └── cates-venom.json
+│   └── …                   one file per property
 ├── src/
 │   ├── build.py            validates properties, writes the manifest
 │   ├── template.html       markup, CSS, JS — the thing you edit

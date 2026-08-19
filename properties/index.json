@@ -148,5 +148,20 @@
       "many": "parts"
     },
     "total": 36
+  },
+  {
+    "slug": "kingdom-hearts",
+    "title": "Kingdom Hearts",
+    "subtitle": "every game, in release order",
+    "kind": "games",
+    "year": "2002–2027",
+    "blurb": "31 entries in release order, tiered by what the story actually needs.",
+    "accent": "#3B4CA8",
+    "accentDark": "#8A98E8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 31
   }
 ]
