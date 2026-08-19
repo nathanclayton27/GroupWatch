@@ -1074,6 +1074,11 @@ function startGroupPoll(){
 // A section longer than the cap becomes its own oversized row; the cap is a
 // target and section integrity wins.
 const ROW_MAX = 65;
+// ...but a very long property would otherwise stack up a wall of rows — 1174
+// episodes at 65 apiece is eighteen of them. Past this many rows the cap gives
+// way and the rows simply get longer, which is fine: a 250-mark row was legible
+// as a single strip before any of this existed.
+const ROW_LIMIT = 8;
 function rowsFor(){
   const sizes = DATA.map(s=> s.items.length);
   if(!sizes.length) return [[0, 0]];
@@ -1093,10 +1098,10 @@ function rowsFor(){
     return lo;
   };
 
-  let k = Math.max(1, Math.ceil(TOTAL / ROW_MAX));
+  let k = Math.min(ROW_LIMIT, Math.max(1, Math.ceil(TOTAL / ROW_MAX)));
   let len = bestFor(k);
   // balancing into k rows can still overshoot the cap, so add rows until it fits
-  while(len > ROW_MAX && k < sizes.length){ k++; len = bestFor(k); }
+  while(len > ROW_MAX && k < Math.min(ROW_LIMIT, sizes.length)){ k++; len = bestFor(k); }
 
   const rows = [];
   let start = 0, at = 0, sum = 0;

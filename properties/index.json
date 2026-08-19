@@ -58,5 +58,20 @@
       "many": "episodes"
     },
     "total": 76
+  },
+  {
+    "slug": "one-piece",
+    "title": "One Piece",
+    "subtitle": "",
+    "kind": "anime",
+    "year": "1999–",
+    "blurb": "1174 episodes, 49 arcs, the filler is optional.",
+    "accent": "#B8531F",
+    "accentDark": "#E8904A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 1174
   }
 ]
