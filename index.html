@@ -410,6 +410,21 @@ let MANIFEST = [
       "many": "episodes"
     },
     "total": 1174
+  },
+  {
+    "slug": "monster",
+    "title": "Monster",
+    "subtitle": "Naoki Urasawa",
+    "kind": "anime",
+    "year": "2004–2005",
+    "blurb": "74 episodes, no filler, watch it in order.",
+    "accent": "#6B6F7A",
+    "accentDark": "#A8ADB8",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 74
   }
 ];
 
@@ -417,7 +432,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '1bb47273e0a7';
+const BUILD = '751bbc12f6a3';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});
@@ -974,6 +989,38 @@ function wireResched(){
     'Finish date removed — nobody is behind now.');
 }
 
+// Any member can rename themselves — the "rename self" policy already allows it,
+// and the only way to do it before was to leave the group and rejoin.
+function nameRow(){
+  const mine = gmembers.find(m=> user && m.id === user.id);
+  if(!mine) return '';
+  return '<div class="row" style="margin:0 0 12px">'
+    + '<span class="lbl">Your name</span>'
+    + '<input type="text" id="g-name" maxlength="24" value="'+esc(mine.name)+'">'
+    + '<button id="b-gname">Save</button>'
+    + '<span class="lbl">how the group sees you</span></div>';
+}
+
+function wireName(){
+  const b = $('b-gname');
+  if(!b) return;
+  b.onclick = async ()=>{
+    const v = $('g-name').value.trim();
+    const mine = gmembers.find(m=> m.id === user.id);
+    if(!v){ flash('Your name can’t be blank.','gmsg2'); return; }
+    if(mine && v === mine.name){ flash('That’s already your name.','gmsg2'); return; }
+    b.disabled = true;
+    const { error } = await sb.from('group_members')
+      .update({ display_name: v })
+      .eq('group_id', group.id).eq('user_id', user.id);
+    b.disabled = false;
+    if(error){ flash('Could not rename: '+error.message,'gmsg2'); return; }
+    if(mine) mine.name = v;
+    paintStack(); renderGroupPanel();
+    flash('The group sees you as '+v+' now.','gmsg2');
+  };
+}
+
 function isOwner(){ return !!(user && group && group.created_by === user.id); }
 
 // The roster is only worth showing to the owner, who is the only person who can
@@ -1074,6 +1121,7 @@ function renderGroupPanel(){
         : '')
     + '</div>'
     + '<p id="gline"></p>'
+    + nameRow()
     + resched()
     + roster()
     + '<div class="row" style="margin-top:14px"><button id="b-grefresh">Refresh</button><button id="b-gleave">Leave group</button></div>'
@@ -1084,6 +1132,7 @@ function renderGroupPanel(){
     catch(e){ flash('Copy failed. The code is '+group.code+'.','gmsg2'); }
   };
   updateGroupLine();
+  wireName();
   wireResched();
   wireRoster();
   $('b-grefresh').onclick = ()=> refreshGroup(true);

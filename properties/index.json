@@ -73,5 +73,20 @@
       "many": "episodes"
     },
     "total": 1174
+  },
+  {
+    "slug": "monster",
+    "title": "Monster",
+    "subtitle": "Naoki Urasawa",
+    "kind": "anime",
+    "year": "2004–2005",
+    "blurb": "74 episodes, no filler, watch it in order.",
+    "accent": "#6B6F7A",
+    "accentDark": "#A8ADB8",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 74
   }
 ]
