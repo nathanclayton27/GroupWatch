@@ -124,6 +124,58 @@ There's no conflict resolution beyond that. Two devices ticking simultaneously i
 
 The column is `text[]`, matching the string IDs above. It was `int[]` when IDs were positional — if you see `400` responses on `/rest/v1/progress`, that mismatch is the first thing to check.
 
+---
+
+## Groups
+
+Two tables, both keyed to `auth.users`, so membership travels with the account
+rather than the browser: `groups` (code, name, start and target date) and
+`group_members` (`group_id` + `user_id` primary key, display name, color index).
+The only thing kept in `localStorage` is `hsw:group`, which remembers *which* of
+your groups is on screen when you're in more than one.
+
+### The recursion trap
+
+The obvious policy on `group_members` — "you may read rows of groups you belong
+to" — has to query `group_members` to answer, which re-triggers the policy, and
+Postgres errors out. Both membership tests are therefore `security definer`
+functions (`is_group_member`, `shares_group_with`) that run as the owner and skip
+RLS on the inner read.
+
+### Joining without exposing the table
+
+There's deliberately no select policy that matches a group by code. If there
+were, anyone could enumerate `groups` by guessing six characters. Instead
+`join_group(code, name)` is a `security definer` function: it resolves the code,
+inserts your membership row, and returns the group. The only way to see a group
+is to already be in it.
+
+Codes come from a 32-character alphabet with `0`, `O`, `1` and `I` removed, and
+`new_group_code()` re-rolls on collision.
+
+### Drawing the stack
+
+`paintStack()` sorts members by issues read, then computes `deepest[]` — for each
+of the 250 columns, the index of the furthest-back layer that still has that
+issue ticked. A layer's mark stretches to the bottom of the stack only where
+`deepest[idx] === i`, which is exactly "nobody behind me is still showing here."
+That's what keeps the leader's bar from painting over everyone else.
+
+Your own layer reads from the live `done` set through `readsOf()` rather than a
+copy taken at load. `done` is *reassigned* by reset, import and the first-sign-in
+merge, so a cached reference would quietly go stale.
+
+### Freshness
+
+No realtime channel. Members are re-fetched every 45 seconds while the tab is
+visible, on `visibilitychange`, and on demand from the Refresh button. Your own
+layer updates instantly because it's reading `done` directly.
+
+The stack rebuilds all 250 × *n* marks on every tick. At four readers that's a
+thousand spans per click, still comfortably under a frame; if groups ever got
+large enough to matter, the fix is to redraw only the layers whose `deepest[]`
+entries changed.
+
 ### What the security actually is
 
 The anon key in the source is public by design. It identifies the project, not a user, and Supabase expects it in client code.

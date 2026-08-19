@@ -14,12 +14,16 @@
   --rule:#C9CAC4; --rule-2:#B0B2AB;
   --signal:#C1352A; --steel:#2E4A6B; --done:#4A6B4E;
   --radius:2px;
+  --m1:#C1352A; --m2:#2E6B8A; --m3:#B08A2E; --m4:#5B4A9E;
+  --m5:#3F7A55; --m6:#C4632A; --m7:#8A4A70; --m8:#4A5F6B;
 }
 @media (prefers-color-scheme:dark){
   :root{
     --paper:#131518; --card:#1B1E22; --ink:#E8E9E4; --ink-2:#9BA0A6; --ink-3:#6C7178;
     --rule:#2C3035; --rule-2:#3D424A;
     --signal:#E4584A; --steel:#7BA3D0; --done:#7FA986;
+    --m1:#E4584A; --m2:#6FB3D9; --m3:#D9AE4E; --m4:#9C8AE0;
+    --m5:#6FB585; --m6:#E8874F; --m7:#D07BAE; --m8:#8FA6B5;
   }
 }
 *{box-sizing:border-box}
@@ -39,6 +43,31 @@ h1 em{font-style:normal;color:var(--signal)}
 .tick.t1{height:70%}
 .tick.on{background:var(--signal);height:100%}
 .tick.sep{background:transparent;flex:0 0 3px}
+
+/* One strip layer per reader, stacked with a small vertical offset. A layer's
+   read mark drops to the bottom of the whole stack only where nobody ranked
+   behind it still has something to show in that column — see paintStack(). */
+.stack{position:relative;margin:26px 0 10px}
+.stack .layer{position:absolute;left:0;right:0;display:flex;gap:1px;height:34px;align-items:flex-end;margin:0}
+.stack .tick.on.full{align-self:flex-start;height:var(--fillH)}
+.pacer{position:absolute;top:-5px;bottom:-5px;width:1px;background:var(--ink-3);z-index:60;pointer-events:none}
+.pacer::before{content:"";position:absolute;top:0;left:-2px;width:5px;height:5px;background:var(--ink-3)}
+.glegend{display:flex;gap:7px 18px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.gitem{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--ink-2)}
+.gsw{width:9px;height:9px;border-radius:1px;flex:none}
+.gme{color:var(--ink);font-weight:500}
+.gpct{color:var(--ink-3)}
+.pace{font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:1px 6px;
+  border:1px solid var(--rule-2);border-radius:var(--radius);color:var(--ink-3)}
+.pace.ok{color:var(--done);border-color:var(--done)}
+.pace.behind{color:var(--signal);border-color:var(--signal)}
+.gbar{display:flex;gap:10px 16px;flex-wrap:wrap;align-items:baseline;margin:0 0 14px}
+.gcode{font-family:"IBM Plex Mono",monospace;font-size:15px;letter-spacing:.16em;
+  border:1px solid var(--rule-2);border-radius:var(--radius);padding:3px 9px;background:var(--paper)}
+input[type=date]{font-family:inherit;font-size:13px;background:var(--card);color:var(--ink);
+  border:1px solid var(--rule-2);border-radius:var(--radius);padding:6px 9px}
+select{font-family:inherit;font-size:13px;background:var(--card);color:var(--ink);
+  border:1px solid var(--rule-2);border-radius:var(--radius);padding:6px 9px}
 
 .bar{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:26px}
 .bar-in{max-width:900px;margin:0 auto;padding:0 20px;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
@@ -111,7 +140,9 @@ footer a{color:var(--steel)}
   <h1>Everything<br><em>dies.</em></h1>
   <p class="tagline">A reading tracker for the whole Secret Wars saga — Fantastic Four #570 through Secret Wars #9, in the order it's meant to be read.</p>
   <div class="strip" id="strip" role="img" aria-label="Progress across all __TOTAL__ issues"></div>
-  <div class="lbl">Each mark is one issue, in reading order</div>
+  <div class="stack hide" id="stack" role="img" aria-label="Everyone's progress across all __TOTAL__ issues"></div>
+  <div class="glegend hide" id="glegend"></div>
+  <div class="lbl" id="striplbl">Each mark is one issue, in reading order</div>
 </header>
 </div>
 
@@ -142,6 +173,29 @@ footer a{color:var(--steel)}
       <button id="b-cancel">Cancel</button>
     </div>
     <p id="authmsg" style="margin:12px 0 0;color:var(--signal)"></p>
+  </div>
+
+  <div class="panel hide" id="gpanel">
+    <h3 id="ghead">Reading with others</h3>
+    <div id="gjoined" class="hide"></div>
+    <div id="gsetup">
+      <p>Read the same order alongside other people. Everyone's progress stacks onto one strip at the top of the page, and if the group sets a finish date you can see who's keeping up.</p>
+      <div class="row">
+        <input type="text" id="gname" placeholder="Your name" maxlength="24" autocomplete="nickname">
+        <span class="lbl">shown to the rest of the group</span>
+      </div>
+      <div class="row" style="margin-top:14px">
+        <input type="text" id="gtitle" placeholder="Group name" maxlength="40" style="width:190px">
+        <input type="date" id="gdate" aria-label="Finish by">
+        <button id="b-gcreate">Create a group</button>
+      </div>
+      <div class="row" style="margin-top:10px">
+        <input type="text" id="gcode" placeholder="Join code" maxlength="6" spellcheck="false"
+               style="width:120px;text-transform:uppercase;letter-spacing:.12em">
+        <button id="b-gjoin">Join a group</button>
+      </div>
+      <p id="gmsg" style="margin:12px 0 0;color:var(--signal)"></p>
+    </div>
   </div>
 
   <main id="list"></main>
@@ -200,7 +254,13 @@ function migrate(){
 }
 const $ = id => document.getElementById(id);
 function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
-function flash(t,el){ const m=$(el||'msg'); m.textContent=t; setTimeout(()=>{if(m.textContent===t)m.textContent=''},5000); }
+function flash(t,el){
+  // group panels come and go, so the target may not be on the page right now
+  const m=$(el||'msg') || $('msg');
+  if(!m) return;
+  m.textContent=t;
+  setTimeout(()=>{if(m.textContent===t)m.textContent=''},5000);
+}
 function state(text,cls){ $('state').textContent=text; $('dot').className='dot'+(cls?' '+cls:''); }
 
 function clean(arr){
@@ -270,13 +330,251 @@ async function onSession(session){
       flash('Sync error: '+(e.message||e)+' (progress is safe on this device)');
       console.error('[tracker] adopt threw', e);
     }
+    await refreshGroup(false);
+    startGroupPoll();
   }else{
     $('b-signout').classList.add('hide');
     if(CLOUD) $('b-signin').classList.remove('hide');
     done = readLocal();
     state(CLOUD ? 'Not signed in' : 'Saved on this device','');
+    clearInterval(gPoll);
+    groups = []; group = null; gmembers = [];
+    gstate(); renderGroupPanel();
   }
   paint();
+}
+
+/* ------------------------------------------------------------------ groups */
+
+const MCOLORS = 8;
+const GKEY = 'hsw:group';
+let groups   = [];    // every group this user belongs to
+let group    = null;  // the one being shown
+let gmembers = [];    // [{id, name, ci, read:Set}]
+let gPoll    = null;
+
+function gstate(){
+  const on = !!(group && gmembers.length);
+  $('stack').classList.toggle('hide', !on);
+  $('glegend').classList.toggle('hide', !on);
+  $('strip').classList.toggle('hide', on);
+  $('striplbl').textContent = on
+    ? 'Each mark is one issue · one layer per reader, furthest along on top'
+    : 'Each mark is one issue, in reading order';
+}
+
+async function loadGroups(){
+  if(!user){ groups=[]; group=null; gmembers=[]; return; }
+  const { data:mine, error } = await sb.from('group_members')
+    .select('group_id').eq('user_id', user.id);
+  if(error) throw error;
+  if(!mine.length){ groups=[]; group=null; gmembers=[]; return; }
+
+  const { data:gs, error:e2 } = await sb.from('groups')
+    .select('id, code, name, start_date, target_date')
+    .in('id', mine.map(r=>r.group_id));
+  if(e2) throw e2;
+
+  groups = gs || [];
+  const saved = localStorage.getItem(GKEY);
+  group = groups.find(g=>g.id===saved) || groups[0] || null;
+  await loadMembers();
+}
+
+async function loadMembers(){
+  if(!group){ gmembers=[]; return; }
+  const { data:roster, error } = await sb.from('group_members')
+    .select('user_id, display_name, color_index').eq('group_id', group.id);
+  if(error) throw error;
+
+  const ids = roster.map(r=>r.user_id);
+  const { data:rows, error:e2 } = await sb.from('progress')
+    .select('user_id, read_ids').in('user_id', ids);
+  if(e2) throw e2;
+
+  const byUser = {};
+  (rows||[]).forEach(r=> byUser[r.user_id] = clean(r.read_ids));
+  gmembers = roster.map(r=>({
+    id: r.user_id,
+    name: r.display_name,
+    ci: ((r.color_index % MCOLORS) + MCOLORS) % MCOLORS,
+    read: byUser[r.user_id] || new Set()
+  }));
+}
+
+// `done` is reassigned wholesale by reset, import and the first-sign-in merge, so
+// your own layer has to read it live rather than hold a reference from load time.
+function readsOf(m){ return (user && m.id === user.id) ? done : m.read; }
+
+// Where the group should be today if it finishes every issue by the target date.
+function paceInfo(){
+  if(!group || !group.target_date) return null;
+  const day = 86400000;
+  const start = new Date(group.start_date + 'T00:00:00');
+  const end   = new Date(group.target_date + 'T00:00:00');
+  const span  = end - start;
+  if(!(span > 0)) return null;
+  const frac = Math.min(1, Math.max(0, (Date.now() - start) / span));
+  return {
+    frac,
+    expected: Math.round(TOTAL * frac),
+    daysLeft: Math.max(0, Math.ceil((end - Date.now()) / day))
+  };
+}
+
+function paintStack(){
+  gstate();
+  if(!group || !gmembers.length) return;
+
+  const list = gmembers.slice()
+    .sort((a,b)=> readsOf(b).size - readsOf(a).size || a.name.localeCompare(b.name));
+  const offset = list.length <= 4 ? 14 : Math.max(6, Math.round(56/(list.length-1)));
+  const stackH = 34 + (list.length-1)*offset;
+  const reads = list.map(readsOf);
+
+  // for each column, the furthest-back layer still showing something there
+  const deepest = ORDER.map(id=>{
+    for(let i=reads.length-1; i>=0; i--) if(reads[i].has(id)) return i;
+    return -1;
+  });
+
+  let html = '';
+  list.forEach((m,i)=>{
+    const color = 'var(--m'+(m.ci+1)+')';
+    let ticks = '', idx = 0;
+    DATA.forEach((s,si)=>{
+      if(si) ticks += '<span class="tick sep"></span>';
+      s.items.forEach(x=>{
+        const on = reads[i].has(x.id);
+        const full = on && deepest[idx] === i;
+        const cls = 'tick'+(s.tier===1?' t1':'')+(on?' on':'')+(full?' full':'');
+        ticks += '<span class="'+cls+'"'+(on?' style="background:'+color+'"':'')+'></span>';
+        idx++;
+      });
+    });
+    html += '<div class="layer" style="top:'+(i*offset)+'px;z-index:'+(list.length-i)
+          + ';--fillH:'+(stackH - i*offset)+'px">'+ticks+'</div>';
+  });
+
+  const p = paceInfo();
+  if(p && p.frac > 0 && p.frac < 1){
+    html += '<div class="pacer" style="left:'+(p.frac*100).toFixed(2)+'%" title="On-pace mark for '
+          + esc(group.target_date)+'"></div>';
+  }
+
+  const host = $('stack');
+  host.style.height = stackH + 'px';
+  host.innerHTML = html;
+
+  $('glegend').innerHTML = list.map((m,i)=>{
+    const pct = Math.round(reads[i].size/TOTAL*100);
+    let tag = '';
+    if(p){
+      const behind = p.expected - reads[i].size;
+      tag = behind > 0
+        ? '<span class="pace behind">'+behind+' behind</span>'
+        : '<span class="pace ok">on pace</span>';
+    }
+    return '<span class="gitem"><span class="gsw" style="background:var(--m'+(m.ci+1)+')"></span>'
+      +'<span'+(m.id===user.id?' class="gme"':'')+'>'+esc(m.name)+(m.id===user.id?' (you)':'')+'</span>'
+      +'<span class="gpct mono">'+pct+'%</span>'+tag+'</span>';
+  }).join('');
+}
+
+function renderGroupPanel(){
+  const setup = $('gsetup'), joined = $('gjoined');
+  if(!CLOUD){ $('gpanel').classList.add('hide'); return; }
+  $('gpanel').classList.remove('hide');
+
+  if(!user){
+    $('ghead').textContent = 'Reading with others';
+    setup.classList.add('hide'); joined.classList.remove('hide');
+    joined.innerHTML = '<p>Groups need an account, so everyone’s progress has somewhere to live. '
+      + 'Sign in above and this turns into a group.</p>';
+    return;
+  }
+  if(!group){
+    $('ghead').textContent = 'Reading with others';
+    joined.classList.add('hide'); setup.classList.remove('hide');
+    if(!$('gname').value) $('gname').value = (user.email||'').split('@')[0].slice(0,24);
+    return;
+  }
+
+  setup.classList.add('hide'); joined.classList.remove('hide');
+  $('ghead').textContent = group.name;
+  const p = paceInfo();
+  const mine = gmembers.find(m=>m.id===user.id);
+  let line = '';
+  if(p){
+    const behind = p.expected - (mine ? readsOf(mine).size : 0);
+    line = behind > 0
+      ? 'You’re '+behind+' issues behind pace, with '+p.daysLeft+' day'+(p.daysLeft===1?'':'s')+' left.'
+      : 'You’re on pace, with '+p.daysLeft+' day'+(p.daysLeft===1?'':'s')+' left.';
+  }else if(group.target_date){
+    line = 'Finish date is set to '+esc(group.target_date)+'.';
+  }else{
+    line = 'No finish date set, so nobody is behind.';
+  }
+
+  joined.innerHTML =
+    '<div class="gbar"><span class="lbl">Join code</span>'
+    + '<span class="gcode">'+esc(group.code)+'</span>'
+    + '<button id="b-gcopy">Copy code</button>'
+    + (groups.length>1
+        ? '<select id="g-switch" aria-label="Switch group">'
+          + groups.map(g=>'<option value="'+esc(g.id)+'"'+(g.id===group.id?' selected':'')+'>'+esc(g.name)+'</option>').join('')
+          + '</select>'
+        : '')
+    + '</div>'
+    + '<p>'+line+' '+gmembers.length+' reader'+(gmembers.length===1?'':'s')+' in this group.</p>'
+    + '<div class="row"><button id="b-grefresh">Refresh</button><button id="b-gleave">Leave group</button></div>'
+    + '<p id="gmsg2" style="margin:12px 0 0;color:var(--signal)"></p>';
+
+  $('b-gcopy').onclick = async ()=>{
+    try{ await navigator.clipboard.writeText(group.code); flash('Code copied — send it to whoever’s reading.','gmsg2'); }
+    catch(e){ flash('Copy failed. The code is '+group.code+'.','gmsg2'); }
+  };
+  $('b-grefresh').onclick = ()=> refreshGroup(true);
+  $('b-gleave').onclick = async ()=>{
+    if(!confirm('Leave '+group.name+'? Your own progress is untouched.')) return;
+    const { error } = await sb.from('group_members')
+      .delete().eq('group_id', group.id).eq('user_id', user.id);
+    if(error){ flash('Could not leave: '+error.message,'gmsg2'); return; }
+    localStorage.removeItem(GKEY);
+    await refreshGroup(false);
+  };
+  const sw = $('g-switch');
+  if(sw) sw.onchange = async ()=>{
+    localStorage.setItem(GKEY, sw.value);
+    group = groups.find(g=>g.id===sw.value) || group;
+    try{ await loadMembers(); }catch(e){ console.error('[tracker] group switch failed', e); }
+    paintStack(); renderGroupPanel();
+  };
+}
+
+async function refreshGroup(loud){
+  if(!CLOUD || !user){ gstate(); renderGroupPanel(); return; }
+  try{
+    await loadGroups();
+    if(group) localStorage.setItem(GKEY, group.id);
+    paintStack(); renderGroupPanel();
+    if(loud) flash('Up to date.','gmsg2');
+  }catch(e){
+    console.error('[tracker] group load failed', e);
+    group = null; gmembers = [];
+    gstate(); renderGroupPanel();
+    if(loud) flash('Could not reach the group: '+(e.message||e),'gmsg2');
+  }
+}
+
+function startGroupPoll(){
+  clearInterval(gPoll);
+  // no realtime channel; a slow poll is enough to watch other people read
+  gPoll = setInterval(()=>{
+    if(document.hidden || !group) return;
+    loadMembers().then(()=>{ paintStack(); renderGroupPanel(); })
+                 .catch(e=> console.error('[tracker] group poll failed', e));
+  }, 45000);
 }
 
 function build(){
@@ -330,6 +628,7 @@ function paint(){
   $('s-all').textContent = done.size+' / '+TOTAL;
   [1,2,3].forEach(t=> $('s-t'+t).textContent = per[t]+' / '+TIERTOT[t]);
   $('code').value = btoa(JSON.stringify([...done]));
+  if(group) paintStack();
 }
 
 $('b-signin').onclick = ()=>{ $('signin').classList.remove('hide'); $('email').focus(); };
@@ -367,6 +666,42 @@ $('b-reset').onclick = ()=>{
   done = new Set(); persist(); paint(); flash('Progress cleared.');
 };
 
+$('b-gcreate').onclick = async ()=>{
+  if(!user){ flash('Sign in first — a group needs an account.','gmsg'); return; }
+  const title = $('gtitle').value.trim();
+  if(!title){ flash('Give the group a name.','gmsg'); return; }
+  $('b-gcreate').disabled = true;
+  const { data, error } = await sb.rpc('create_group', {
+    p_name: title,
+    p_target: $('gdate').value || null,
+    p_display_name: $('gname').value.trim() || 'Reader'
+  });
+  $('b-gcreate').disabled = false;
+  if(error){ flash('Could not create the group: '+error.message,'gmsg'); return; }
+  const made = Array.isArray(data) ? data[0] : data;
+  if(made) localStorage.setItem(GKEY, made.id);
+  await refreshGroup(false);
+  startGroupPoll();
+  if(made) flash('Group created. Send the code '+made.code+' to whoever’s reading.','gmsg2');
+};
+
+$('b-gjoin').onclick = async ()=>{
+  if(!user){ flash('Sign in first — a group needs an account.','gmsg'); return; }
+  const code = $('gcode').value.trim().toUpperCase();
+  if(code.length !== 6){ flash('A join code is six characters.','gmsg'); return; }
+  $('b-gjoin').disabled = true;
+  const { data, error } = await sb.rpc('join_group', {
+    p_code: code,
+    p_display_name: $('gname').value.trim() || 'Reader'
+  });
+  $('b-gjoin').disabled = false;
+  if(error){ flash(/no group/i.test(error.message) ? 'No group has that code.' : error.message, 'gmsg'); return; }
+  const joined = Array.isArray(data) ? data[0] : data;
+  if(joined) localStorage.setItem(GKEY, joined.id);
+  await refreshGroup(false);
+  startGroupPoll();
+};
+
 migrate();
 build();
 if(ENABLE_GITHUB_LOGIN && CLOUD) $('b-gh').classList.remove('hide');
@@ -391,8 +726,15 @@ if(CLOUD){
 }else{
   done = readLocal();
   state('Saved on this device','');
+  renderGroupPanel();
   paint();
 }
+// coming back to the tab is the most likely moment for someone else to have read something
+document.addEventListener('visibilitychange', ()=>{
+  if(document.hidden || !group) return;
+  loadMembers().then(()=>{ paintStack(); renderGroupPanel(); })
+               .catch(e=> console.error('[tracker] group refresh failed', e));
+});
 const start = DATA.find(s=>s.start) || DATA.find(s=>s.series) || DATA[0];
 if(start) $('d-'+start.id).open = true;
 </script>
