@@ -1,21 +1,24 @@
--- Everything Dies — database schema
+-- GroupWatch — database schema, for a FRESH project
 --
--- Run this in the Supabase SQL editor. It is safe to run on a project that
--- already has the original single-reader `progress` table: the first block is
--- skipped if that table exists, and everything after it is additive.
+-- If this project already runs the single-property Secret Wars tracker, do NOT
+-- start here — run migrate-to-multiproperty.sql instead. It preserves existing
+-- progress and groups; this file assumes empty tables.
 --
--- Groups let several people read the same order and see each other's progress
--- stacked on one strip. That means a group member can read your `progress` row.
--- Nobody outside your groups can, and joining is opt-in per group.
+-- Progress is one row per (person, property). Groups let several people track
+-- the same property and see each other's progress stacked on one strip, which
+-- means a group member can read your `progress` row for that property — and
+-- only that property. Nobody outside your groups can, and joining is opt-in.
 
 create extension if not exists pgcrypto;
 
 -- ---------------------------------------------------------------- progress --
 
 create table if not exists progress (
-  user_id    uuid primary key references auth.users on delete cascade,
-  read_ids   text[] not null default '{}',
-  updated_at timestamptz default now()
+  user_id     uuid not null references auth.users on delete cascade,
+  property_id text not null,
+  read_ids    text[] not null default '{}',
+  updated_at  timestamptz default now(),
+  primary key (user_id, property_id)
 );
 
 alter table progress enable row level security;
@@ -30,14 +33,19 @@ exception when duplicate_object then null; end $$;
 -- ------------------------------------------------------------------ groups --
 
 create table if not exists groups (
-  id          uuid primary key default gen_random_uuid(),
-  code        text unique not null,
-  name        text not null,
-  start_date  date not null default current_date,
-  target_date date,
-  created_by  uuid references auth.users on delete set null,
-  created_at  timestamptz default now()
+  id                  uuid primary key default gen_random_uuid(),
+  code                text unique not null,
+  name                text not null,
+  property_id         text not null,
+  start_date          date not null default current_date,
+  target_date         date,
+  -- slide a property's whole schedule by N days; every window moves together
+  schedule_shift_days integer not null default 0,
+  created_by          uuid references auth.users on delete set null,
+  created_at          timestamptz default now()
 );
+
+create index if not exists groups_property_idx on groups (property_id);
 
 create table if not exists group_members (
   group_id     uuid not null references groups on delete cascade,
@@ -65,13 +73,18 @@ returns boolean language sql security definer stable set search_path = public as
   );
 $$;
 
-create or replace function shares_group_with(other uuid)
+-- Scoped to one property on purpose. Without the join to groups, someone in
+-- your Fullmetal Alchemist group could read your Secret Wars progress.
+create or replace function shares_group_with(other uuid, prop text)
 returns boolean language sql security definer stable set search_path = public as $$
   select exists (
     select 1
     from group_members a
     join group_members b using (group_id)
-    where a.user_id = auth.uid() and b.user_id = other
+    join groups g on g.id = a.group_id
+    where a.user_id = auth.uid()
+      and b.user_id = other
+      and g.property_id = prop
   );
 $$;
 
@@ -100,9 +113,10 @@ do $$ begin
   create policy "leave group" on group_members
     for delete using (auth.uid() = user_id);
 
-  -- the one privacy change: co-members can read each other's ticks
+  -- the one privacy change: co-members can read each other's ticks, and only
+  -- for the property that group is about
   create policy "read group progress" on progress
-    for select using (shares_group_with(user_id));
+    for select using (shares_group_with(user_id, property_id));
 exception when duplicate_object then null; end $$;
 
 -- ------------------------------------------------------------------- rpcs --
@@ -126,20 +140,24 @@ begin
 end $$;
 
 create or replace function create_group(
-  p_name text, p_target date, p_display_name text
+  p_name text, p_target date, p_display_name text, p_property_id text
 ) returns groups language plpgsql security definer set search_path = public as $$
 declare g groups;
 begin
   if auth.uid() is null then
     raise exception 'must be signed in to create a group';
   end if;
+  if coalesce(btrim(p_property_id), '') = '' then
+    raise exception 'a group needs a property';
+  end if;
 
-  insert into groups (code, name, target_date, created_by)
+  insert into groups (code, name, target_date, created_by, property_id)
   values (
     new_group_code(),
     coalesce(nullif(btrim(p_name), ''), 'Reading group'),
     p_target,
-    auth.uid()
+    auth.uid(),
+    p_property_id
   )
   returning * into g;
 
@@ -177,7 +195,7 @@ begin
   return g;
 end $$;
 
-revoke all on function create_group(text, date, text) from anon;
+revoke all on function create_group(text, date, text, text) from anon;
 revoke all on function join_group(text, text)         from anon;
-grant execute on function create_group(text, date, text) to authenticated;
+grant execute on function create_group(text, date, text, text) to authenticated;
 grant execute on function join_group(text, text)         to authenticated;

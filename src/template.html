@@ -127,6 +127,48 @@ footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--rule);font-si
 footer a{color:var(--steel)}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .hide{display:none!important}
+
+/* property switcher, pinned top left */
+.switcher{position:fixed;top:14px;left:14px;z-index:80}
+.switcher > button{display:flex;align-items:center;gap:9px;background:var(--card);
+  border:1px solid var(--rule-2);padding:8px 12px;font-size:13px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.pdot{width:8px;height:8px;border-radius:2px;background:var(--signal);flex:none}
+.chev{color:var(--ink-3);font-size:10px}
+.pmenu{position:absolute;top:calc(100% + 6px);left:0;min-width:290px;max-width:min(92vw,380px);
+  background:var(--card);border:1px solid var(--rule-2);border-radius:var(--radius);
+  box-shadow:0 8px 24px -8px rgba(0,0,0,.35);padding:5px;max-height:70vh;overflow-y:auto}
+.pmenu button{display:block;width:100%;text-align:left;border:0;background:transparent;padding:10px 11px;
+  border-radius:var(--radius);cursor:pointer}
+.pmenu button:hover{background:rgba(128,128,128,.1)}
+.pmenu button[aria-selected=true]{background:rgba(128,128,128,.14)}
+.pm-t{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:500}
+.pm-m{font-size:11px;color:var(--ink-3);margin-top:3px;display:flex;gap:8px;flex-wrap:wrap}
+.pm-b{font-size:12px;color:var(--ink-2);margin-top:4px;line-height:1.45}
+.pmenu .lbl{padding:8px 11px 5px}
+.win{display:flex;gap:8px 14px;flex-wrap:wrap;align-items:baseline;margin:0 0 10px;font-size:13px;color:var(--ink-2)}
+.win b{color:var(--ink);font-weight:500}
+.pacer.due{background:var(--signal);width:2px}
+.rules{margin:0;padding-left:18px}
+.rules li{display:list-item;padding:0;font-size:13px;color:var(--ink-2);margin-bottom:5px}
+.rules li:hover{background:transparent}
+@media (max-width:560px){ .switcher{position:static;padding:12px 14px 0} }
+
+/* first-visit picker — shown only when no property is chosen or remembered */
+.splash{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:56px 20px}
+.splash-in{max-width:820px;width:100%}
+.splash-h{font-size:clamp(28px,6vw,44px);line-height:1.02;margin:10px 0 8px;
+  font-weight:700;letter-spacing:-.02em;text-wrap:balance}
+.splash-p{color:var(--ink-2);max-width:56ch;margin:0 0 34px}
+.cards{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--rule);
+  border-radius:var(--radius);padding:20px;cursor:pointer;transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--ink-3);transform:translateY(-2px)}
+.card h2{font-size:19px;font-weight:500;margin:0;letter-spacing:-.01em;display:flex;align-items:center;gap:9px}
+.card .pm-m{margin-top:6px}
+.card .pm-b{margin-top:9px}
+.cbar{display:flex;gap:1px;height:8px;margin-top:16px;align-items:flex-end}
+.cbar span{flex:1 1 0;min-width:0;background:var(--rule);height:55%;border-radius:1px}
+.cbar span.on{height:100%}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 @media (max-width:560px){
   li{padding:6px 14px}.wrap{padding:0 14px 80px}.bar-in{padding:0 14px;gap:16px}
@@ -135,24 +177,41 @@ footer a{color:var(--steel)}
 </style>
 </head>
 <body>
+<div class="splash hide" id="splash">
+  <div class="splash-in">
+    <div class="lbl">GroupWatch</div>
+    <h1 class="splash-h">What are you tracking?</h1>
+    <p class="splash-p">Pick one to start. Whichever you choose is what opens next time — the button in the top left switches between them.</p>
+    <div class="cards" id="cards"></div>
+  </div>
+</div>
+
+<div class="switcher" id="switcher">
+  <button id="b-prop" aria-haspopup="listbox" aria-expanded="false">
+    <span class="pdot" id="pdot"></span><span id="b-prop-t">GroupWatch</span><span class="chev">▾</span>
+  </button>
+  <div class="pmenu hide" id="pmenu" role="listbox" aria-label="Choose what to track"></div>
+</div>
+
 <div class="wrap">
 <header>
-  <div class="lbl">Jonathan Hickman · 2009–2015 · __TOTAL__ issues</div>
-  <h1>Everything<br><em>dies.</em></h1>
-  <p class="tagline">A reading tracker for the whole Secret Wars saga — Fantastic Four #570 through Secret Wars #9, in the order it's meant to be read.</p>
-  <div class="strip" id="strip" role="img" aria-label="Progress across all __TOTAL__ issues"></div>
-  <div class="stack hide" id="stack" role="img" aria-label="Everyone's progress across all __TOTAL__ issues"></div>
+  <div class="lbl" id="eyebrow"></div>
+  <h1 id="ptitle"></h1>
+  <p class="tagline" id="pblurb"></p>
+  <div class="strip" id="strip" role="img" aria-label="Your progress"></div>
+  <div class="stack hide" id="stack" role="img" aria-label="Everyone's progress"></div>
   <div class="glegend hide" id="glegend"></div>
-  <div class="lbl" id="striplbl">Each mark is one issue, in reading order</div>
+  <div class="lbl" id="striplbl"></div>
+  <div class="win hide" id="winline"></div>
 </header>
 </div>
 
 <div class="bar">
   <div class="bar-in">
-    <div class="stat"><span class="lbl">Read</span><b id="s-all">0 / __TOTAL__</b></div>
-    <div class="stat"><span class="lbl">Tier 1</span><b id="s-t1">0 / __T1__</b></div>
-    <div class="stat"><span class="lbl">Tier 2</span><b id="s-t2">0 / __T2__</b></div>
-    <div class="stat"><span class="lbl">Tier 3</span><b id="s-t3">0 / __T3__</b></div>
+    <div class="stat"><span class="lbl" id="s-all-l">Done</span><b id="s-all">0 / 0</b></div>
+    <div class="stat tierstat"><span class="lbl">Tier 1</span><b id="s-t1">0 / 0</b></div>
+    <div class="stat tierstat"><span class="lbl">Tier 2</span><b id="s-t2">0 / 0</b></div>
+    <div class="stat tierstat"><span class="lbl">Tier 3</span><b id="s-t3">0 / 0</b></div>
     <div class="spacer"></div>
     <div class="acct">
       <span class="dot" id="dot"></span>
@@ -199,6 +258,11 @@ footer a{color:var(--steel)}
     </div>
   </div>
 
+  <div class="panel hide" id="rules">
+    <h3 id="ruleshead">House rules</h3>
+    <ul class="rules" id="ruleslist"></ul>
+  </div>
+
   <main id="list"></main>
 
   <div class="panel">
@@ -213,11 +277,7 @@ footer a{color:var(--steel)}
     <p id="msg" style="margin:10px 0 0;color:var(--signal)"></p>
   </div>
 
-  <footer>
-    <p><strong>Tiers.</strong> 1 is essential, 2 is strongly recommended (the Fantastic Four run — it's what makes the ending land), 3 is genuinely optional. The minimum viable path is Tier 1 alone.</p>
-    <p><strong>Reading in Marvel Unlimited?</strong> Most issues link to their series page rather than the issue, because Marvel only exposes the 20 most recent issues of any series to the outside world. The issue numbers tell you when to switch titles, which is the real difficulty with an interleaved run.</p>
-    <p>Reading order compiled from Comic Book Herald, Crushing Krisis and How To Love Comics; the Fantastic Four/FF weave follows the order Hickman specified for the omnibus.</p>
-  </footer>
+  <footer id="notes"></footer>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
@@ -226,13 +286,38 @@ const SUPABASE_URL      = 'https://sqyhyocrwqzlfbfvgisb.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_jdNPUTPEwpw1P0KXF4TehA_-ZdHcEmS';
 const ENABLE_GITHUB_LOGIN = true;
 
-const DATA = __DATA__;
-const TOTAL = DATA.reduce((a,s)=>a+s.items.length,0);
-const TIERTOT = {1:0,2:0,3:0};
-DATA.forEach(s=>TIERTOT[s.tier]+=s.items.length);
+// The manifest is small and needed before first paint, so it's inlined. The
+// property bodies are fetched — see loadProperty().
+const MANIFEST = __MANIFEST__;
 
-const ORDER = DATA.flatMap(s=>s.items.map(x=>x.id));
-const VALID = new Set(ORDER);
+// null means "nothing chosen and nothing remembered" — first visit gets the
+// splash picker rather than an arbitrary default.
+function pickSlug(){
+  const want = new URLSearchParams(location.search).get('p');
+  if(want && MANIFEST.some(m=>m.slug===want)) return want;
+  const last = localStorage.getItem('gw:last');
+  if(last && MANIFEST.some(m=>m.slug===last)) return last;
+  return null;
+}
+const SLUG = pickSlug();
+const META = SLUG ? MANIFEST.find(m=>m.slug===SLUG) : null;
+
+function localCount(slug){
+  try{
+    const raw = JSON.parse(localStorage.getItem('gw:v1:'+slug) || '[]');
+    return Array.isArray(raw) ? raw.length : 0;
+  }catch(e){ return 0; }
+}
+function go(slug){ location.href = location.pathname + '?p=' + encodeURIComponent(slug); }
+
+let PROP = null;
+let DATA = [];
+let TOTAL = 0;
+let TIERTOT = {1:0,2:0,3:0};
+let ORDER = [];
+let VALID = new Set();
+let UNIT = {one:'item', many:'items'};
+let TIERED = false;
 
 const CLOUD = !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase);
 const sb = CLOUD ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
@@ -241,18 +326,40 @@ let done = new Set();
 let user = null;
 let saveTimer = null;
 
-const LKEY = 'hsw:v2:local';
-const OLDKEY = 'hsw:v1:local';
+const LKEY = 'gw:v1:' + SLUG;
 
+// Two old key formats predate the multi-property rewrite, both from when this
+// was a single Secret Wars tracker. Walk them forward rather than stranding
+// anyone's ticks: positional ints -> slug ids -> per-property key.
 function migrate(){
-  if(localStorage.getItem(LKEY) || !localStorage.getItem(OLDKEY)) return;
+  if(SLUG !== 'hickman-secret-wars' || localStorage.getItem(LKEY)) return;
   try{
-    const old = JSON.parse(localStorage.getItem(OLDKEY));
-    if(!Array.isArray(old)) return;
-    const keys = old.filter(n=>Number.isInteger(n) && n>=0 && n<ORDER.length).map(n=>ORDER[n]);
+    const v2 = localStorage.getItem('hsw:v2:local');
+    if(v2){ localStorage.setItem(LKEY, v2); return; }
+    const v1 = JSON.parse(localStorage.getItem('hsw:v1:local') || 'null');
+    if(!Array.isArray(v1)) return;
+    const keys = v1.filter(n=>Number.isInteger(n) && n>=0 && n<ORDER.length).map(n=>ORDER[n]);
     localStorage.setItem(LKEY, JSON.stringify(keys));
   }catch(e){}
 }
+
+async function loadProperty(){
+  const res = await fetch('properties/' + SLUG + '.json', {cache:'no-cache'});
+  if(!res.ok) throw new Error('could not load ' + SLUG + ' (' + res.status + ')');
+  PROP = await res.json();
+  DATA = PROP.sections || [];
+  TOTAL = DATA.reduce((a,s)=>a+s.items.length,0);
+  TIERED = !!PROP.tiers;
+  UNIT = PROP.unit || UNIT;
+  TIERTOT = {1:0,2:0,3:0};
+  DATA.forEach(s=> TIERTOT[s.tier||1] += s.items.length);
+  ORDER = DATA.flatMap(s=>s.items.map(x=>x.id));
+  VALID = new Set(ORDER);
+  localStorage.setItem('gw:last', SLUG);
+  if(PROP.accent) document.documentElement.style.setProperty('--signal', PROP.accent);
+}
+
+function plural(n){ return n === 1 ? UNIT.one : UNIT.many; }
 const $ = id => document.getElementById(id);
 function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function flash(t,el){
@@ -276,7 +383,9 @@ function writeLocal(){
 async function pushCloud(){
   if(!user) return;
   const { error } = await sb.from('progress')
-    .upsert({ user_id:user.id, read_ids:[...done], updated_at:new Date().toISOString() });
+    .upsert({ user_id:user.id, property_id:SLUG, read_ids:[...done],
+              updated_at:new Date().toISOString() },
+            { onConflict:'user_id,property_id' });
   if(error){
     state('Sync failed — saved on this device','');
     flash('Supabase: '+(error.message||'unknown error')+' (progress is safe on this device)');
@@ -295,7 +404,7 @@ function persist(){
 
 async function adopt(){
   const { data, error } = await sb.from('progress')
-    .select('read_ids').eq('user_id', user.id).maybeSingle();
+    .select('read_ids').eq('user_id', user.id).eq('property_id', SLUG).maybeSingle();
   if(error){
     done = readLocal();
     state('Sync failed — saved on this device','');
@@ -305,7 +414,7 @@ async function adopt(){
   }
   const server = clean(data ? data.read_ids : []);
   const local  = readLocal();
-  const flag = 'hsw:merged:'+user.id;
+  const flag = 'gw:merged:'+user.id+':'+SLUG;
   if(!localStorage.getItem(flag) && local.size){
     done = new Set([...server, ...local]);
     localStorage.setItem(flag,'1');
@@ -348,7 +457,7 @@ async function onSession(session){
 /* ------------------------------------------------------------------ groups */
 
 const MCOLORS = 8;
-const GKEY = 'hsw:group';
+const GKEY = 'gw:group:' + SLUG;   // which group is on screen, per property
 let groups   = [];    // every group this user belongs to
 let group    = null;  // the one being shown
 let gmembers = [];    // [{id, name, ci, read:Set}]
@@ -371,9 +480,11 @@ async function loadGroups(){
   if(error) throw error;
   if(!mine.length){ groups=[]; group=null; gmembers=[]; return; }
 
+  // groups belong to one property; only show the ones for what's on screen
   const { data:gs, error:e2 } = await sb.from('groups')
-    .select('id, code, name, start_date, target_date')
-    .in('id', mine.map(r=>r.group_id));
+    .select('id, code, name, start_date, target_date, property_id, created_by, schedule_shift_days')
+    .in('id', mine.map(r=>r.group_id))
+    .eq('property_id', SLUG);
   if(e2) throw e2;
 
   groups = gs || [];
@@ -390,7 +501,7 @@ async function loadMembers(){
 
   const ids = roster.map(r=>r.user_id);
   const { data:rows, error:e2 } = await sb.from('progress')
-    .select('user_id, read_ids').in('user_id', ids);
+    .select('user_id, read_ids').in('user_id', ids).eq('property_id', SLUG);
   if(e2) throw e2;
 
   const byUser = {};
@@ -407,20 +518,86 @@ async function loadMembers(){
 // your own layer has to read it live rather than hold a reference from load time.
 function readsOf(m){ return (user && m.id === user.id) ? done : m.read; }
 
-// Where the group should be today if it finishes every issue by the target date.
+const DAY = 86400000;
+function todayISO(){
+  const d = new Date();
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')
+        +'-'+String(d.getDate()).padStart(2,'0');
+}
+function daysUntil(iso){
+  return Math.max(0, Math.ceil((new Date(iso+'T00:00:00') - Date.now())/DAY));
+}
+
+// Two models. A property can carry a real schedule of dated windows, each with
+// a cumulative target; otherwise a group's own finish date gives a straight line.
+//
+// With windows, "behind" is measured against the last window that has CLOSED,
+// not interpolated inside the open one — you have until a window's end date, and
+// finishing early is supposed to buy you off days.
+function shiftISO(iso, days){
+  if(!days) return iso;
+  const d = new Date(iso + 'T00:00:00');
+  d.setDate(d.getDate() + days);
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')
+        +'-'+String(d.getDate()).padStart(2,'0');
+}
+// The property ships a schedule; a group may slide the whole thing by N days.
+// Every window moves together, so the pace is unchanged and only dates differ.
+function windows(){
+  const sched = PROP && PROP.schedule;
+  if(!sched || sched.kind !== 'windows' || !(sched.windows||[]).length) return null;
+  const shift = (group && group.schedule_shift_days) || 0;
+  return shift
+    ? sched.windows.map(w=>({...w, start:shiftISO(w.start,shift), end:shiftISO(w.end,shift)}))
+    : sched.windows;
+}
+
 function paceInfo(){
+  const ws = windows();
+  if(ws){
+    const today = todayISO();
+    const closed = ws.filter(w=> w.end < today);
+    const due = closed.length ? closed[closed.length-1].through : 0;
+    const current = ws.find(w=> w.start <= today && today <= w.end);
+    const before = today < ws[0].start;
+    const target = current ? current.through : (before ? 0 : TOTAL);
+    const endIso = current ? current.end : (before ? ws[0].start : ws[ws.length-1].end);
+    return {
+      kind:'windows', expected:due, due, target,
+      dueFrac: due/TOTAL, targetFrac: target/TOTAL,
+      label: current ? current.label : (before ? 'Starts '+ws[0].start : 'Schedule complete'),
+      endIso, daysLeft: daysUntil(endIso), before
+    };
+  }
   if(!group || !group.target_date) return null;
-  const day = 86400000;
   const start = new Date(group.start_date + 'T00:00:00');
   const end   = new Date(group.target_date + 'T00:00:00');
-  const span  = end - start;
-  if(!(span > 0)) return null;
-  const frac = Math.min(1, Math.max(0, (Date.now() - start) / span));
+  if(!(end - start > 0)) return null;
+  const frac = Math.min(1, Math.max(0, (Date.now() - start) / (end - start)));
+  const expected = Math.round(TOTAL * frac);
   return {
-    frac,
-    expected: Math.round(TOTAL * frac),
-    daysLeft: Math.max(0, Math.ceil((end - Date.now()) / day))
+    kind:'linear', expected, due:expected, target:expected,
+    dueFrac:frac, targetFrac:frac,
+    label:'', endIso:group.target_date, daysLeft:daysUntil(group.target_date)
   };
+}
+
+// The schedule belongs to the property, so show where the club is even when
+// you're reading alone.
+function paintWindow(){
+  const el = $('winline');
+  const p = paceInfo();
+  if(!p || p.kind !== 'windows'){ el.classList.add('hide'); return; }
+  el.classList.remove('hide');
+  const n = done.size;
+  const short = new Date(p.endIso+'T00:00:00')
+    .toLocaleDateString(undefined,{month:'long',day:'numeric'});
+  el.innerHTML = '<span><b>'+esc(p.label)+'</b></span>'
+    + (p.before ? '' : '<span>through '+UNIT.one+' '+p.target+' by '+esc(short)
+        +' · '+p.daysLeft+' day'+(p.daysLeft===1?'':'s')+' left</span>')
+    + (n < p.due
+        ? '<span class="pace behind">'+(p.due-n)+' overdue</span>'
+        : '<span class="pace ok">up to date</span>');
 }
 
 function paintStack(){
@@ -461,10 +638,15 @@ function paintStack(){
           + ';--fillH:'+(stackH - i*offset)+'px">'+ticks+'</div>';
   });
 
+  // solid rule = overdue line, light rule = what this window is heading for
   const p = paceInfo();
-  if(p && p.frac > 0 && p.frac < 1){
-    html += '<div class="pacer" style="left:'+(p.frac*100).toFixed(2)+'%" title="On-pace mark for '
-          + esc(group.target_date)+'"></div>';
+  if(p){
+    if(p.targetFrac > 0 && p.targetFrac < 1)
+      html += '<div class="pacer" style="left:'+(p.targetFrac*100).toFixed(2)
+            + '%" title="Target: '+p.target+' by '+esc(p.endIso)+'"></div>';
+    if(p.dueFrac > 0 && p.dueFrac < 1 && p.dueFrac !== p.targetFrac)
+      html += '<div class="pacer due" style="left:'+(p.dueFrac*100).toFixed(2)
+            + '%" title="Overdue line: '+p.due+'"></div>';
   }
 
   const host = $('stack');
@@ -488,6 +670,42 @@ function paintStack(){
       +'<span class="gpct mono">'+shown+'</span>'
       +'<span class="gpct mono">('+n+')</span>'+tag+'</span>';
   }).join('');
+}
+
+// Only the group's creator gets the reschedule control, matching the
+// "creator updates group" policy — the server enforces it either way.
+function resched(){
+  const ws = windows();
+  if(!ws || !user || group.created_by !== user.id) return '';
+  const last = ws[ws.length-1].end;
+  return '<div class="row" style="margin:0 0 12px">'
+    + '<span class="lbl">Finish by</span>'
+    + '<input type="date" id="g-end" value="'+esc(last)+'">'
+    + '<button id="b-gshift">Move schedule</button>'
+    + '<span class="lbl">every arc shifts by the same amount</span></div>';
+}
+
+function wireResched(){
+  const btn = $('b-gshift');
+  if(!btn) return;
+  btn.onclick = async ()=>{
+    const ws = windows();
+    const want = $('g-end').value;
+    if(!want){ flash('Pick a date first.','gmsg2'); return; }
+    const cur = ws[ws.length-1].end;
+    const delta = Math.round((new Date(want+'T00:00:00') - new Date(cur+'T00:00:00'))/DAY);
+    if(!delta){ flash('That is already the finish date.','gmsg2'); return; }
+    btn.disabled = true;
+    const shift = (group.schedule_shift_days||0) + delta;
+    const { error } = await sb.from('groups')
+      .update({ schedule_shift_days: shift }).eq('id', group.id);
+    btn.disabled = false;
+    if(error){ flash('Could not move the schedule: '+error.message,'gmsg2'); return; }
+    group.schedule_shift_days = shift;
+    paint(); renderGroupPanel();
+    flash((delta>0?'Pushed back ':'Pulled forward ')+Math.abs(delta)
+          +' day'+(Math.abs(delta)===1?'':'s')+'.','gmsg2');
+  };
 }
 
 function renderGroupPanel(){
@@ -535,7 +753,9 @@ function renderGroupPanel(){
           + '</select>'
         : '')
     + '</div>'
-    + '<p>'+line+' '+gmembers.length+' reader'+(gmembers.length===1?'':'s')+' in this group.</p>'
+    + '<p>'+line+' '+gmembers.length
+      +(gmembers.length===1?' person':' people')+' in this group.</p>'
+    + resched()
     + '<div class="row"><button id="b-grefresh">Refresh</button><button id="b-gleave">Leave group</button></div>'
     + '<p id="gmsg2" style="margin:12px 0 0;color:var(--signal)"></p>';
 
@@ -543,6 +763,7 @@ function renderGroupPanel(){
     try{ await navigator.clipboard.writeText(group.code); flash('Code copied — send it to whoever’s reading.','gmsg2'); }
     catch(e){ flash('Copy failed. The code is '+group.code+'.','gmsg2'); }
   };
+  wireResched();
   $('b-grefresh').onclick = ()=> refreshGroup(true);
   $('b-gleave').onclick = async ()=>{
     if(!confirm('Leave '+group.name+'? Your own progress is untouched.')) return;
@@ -586,6 +807,92 @@ function startGroupPoll(){
   }, 45000);
 }
 
+/* ------------------------------------------------------- property switcher */
+
+function renderHeader(){
+  const bits = [PROP.subtitle || PROP.kind, PROP.year, TOTAL + ' ' + plural(TOTAL)]
+    .filter(Boolean);
+  $('eyebrow').textContent = bits.join(' · ');
+  $('ptitle').textContent = PROP.title;
+  $('pblurb').textContent = PROP.blurb || '';
+  $('b-prop-t').textContent = PROP.title;
+  if(PROP.accent) $('pdot').style.background = PROP.accent;
+  document.title = PROP.title + ' — GroupWatch';
+  $('s-all-l').textContent = TIERED ? 'Read' : 'Done';
+  document.querySelectorAll('.tierstat').forEach(el=> el.classList.toggle('hide', !TIERED));
+  $('striplbl').textContent = 'Each mark is one ' + UNIT.one + ', in order';
+
+  if((PROP.rules||[]).length){
+    $('rules').classList.remove('hide');
+    if(PROP.rulesTitle) $('ruleshead').textContent = PROP.rulesTitle;
+    $('ruleslist').innerHTML = PROP.rules.map(r=>'<li>'+esc(r)+'</li>').join('');
+  }
+  // notes are [heading, body] pairs; a bare string is a body with no heading
+  $('notes').innerHTML = (PROP.notes||[]).map(nt=> Array.isArray(nt)
+    ? '<p><strong>'+esc(nt[0])+'</strong> '+esc(nt[1])+'</p>'
+    : '<p>'+esc(nt)+'</p>').join('');
+}
+
+function renderMenu(){
+  $('pmenu').innerHTML = '<div class="lbl">Tracking</div>' + MANIFEST.map(m=>{
+    const n = localCount(m.slug);
+    const meta = [m.kind, m.year, n + ' / ' + m.total + ' ' + m.unit.many].filter(Boolean);
+    return '<button role="option" data-slug="'+esc(m.slug)+'"'
+      + ' aria-selected="'+(m.slug===SLUG)+'">'
+      + '<span class="pm-t"><span class="pdot" style="background:'
+      + esc(m.accent||'var(--signal)')+'"></span>'+esc(m.title)+'</span>'
+      + '<span class="pm-m">'+meta.map(esc).join(' · ')+'</span>'
+      + (m.blurb ? '<span class="pm-b">'+esc(m.blurb)+'</span>' : '')
+      + '</button>';
+  }).join('');
+  $('pmenu').querySelectorAll('button[data-slug]').forEach(b=>{
+    // full navigation, so the URL stays shareable and back works
+    b.onclick = ()=> b.dataset.slug === SLUG ? closeMenu() : go(b.dataset.slug);
+  });
+}
+
+function showSplash(){
+  $('splash').classList.remove('hide');
+  $('switcher').classList.add('hide');
+  document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
+  document.title = 'GroupWatch';
+
+  const TICKS = 46;
+  $('cards').innerHTML = MANIFEST.map(m=>{
+    const n = localCount(m.slug);
+    const on = Math.round(TICKS * Math.min(1, n/m.total));
+    const meta = [m.kind, m.year, m.total + ' ' + m.unit.many].filter(Boolean);
+    let bar = '';
+    for(let i=0;i<TICKS;i++)
+      bar += '<span'+(i<on?' class="on" style="background:'+esc(m.accent||'var(--signal)')+'"':'')+'></span>';
+    return '<button class="card" data-slug="'+esc(m.slug)+'">'
+      + '<h2><span class="pdot" style="background:'+esc(m.accent||'var(--signal)')+'"></span>'
+      + esc(m.title)+'</h2>'
+      + '<div class="pm-m">'+meta.map(esc).join(' · ')+(n?' · '+n+' done':'')+'</div>'
+      + (m.blurb ? '<div class="pm-b">'+esc(m.blurb)+'</div>' : '')
+      + '<div class="cbar">'+bar+'</div></button>';
+  }).join('');
+  $('cards').querySelectorAll('button[data-slug]').forEach(b=>{
+    b.onclick = ()=> go(b.dataset.slug);
+  });
+}
+function openMenu(){
+  $('pmenu').classList.remove('hide');
+  $('b-prop').setAttribute('aria-expanded','true');
+}
+function closeMenu(){
+  $('pmenu').classList.add('hide');
+  $('b-prop').setAttribute('aria-expanded','false');
+}
+$('b-prop').onclick = e=>{
+  e.stopPropagation();
+  $('pmenu').classList.contains('hide') ? openMenu() : closeMenu();
+};
+document.addEventListener('click', e=>{
+  if(!$('pmenu').classList.contains('hide') && !e.target.closest('.switcher')) closeMenu();
+});
+document.addEventListener('keydown', e=>{ if(e.key === 'Escape') closeMenu(); });
+
 function build(){
   $('list').innerHTML = DATA.map(s=>{
     const rows = s.items.map(x=>{
@@ -596,10 +903,11 @@ function build(){
         +(x.opt?'<span class="opt">optional</span>':'')
         +(x.note?'<span class="nb">'+esc(x.note)+'</span>':'')+'</span></li>';
     }).join('');
+    const links = s.links || s.series || [];
     return '<details id="d-'+s.id+'"><summary>'
-      +'<span class="tier mono'+(s.tier===1?' a':'')+'">T'+s.tier+'</span>'
-      +'<span class="st"><h2>'+esc(s.title)+'</h2><p>'+esc(s.sub)+'</p></span>'
-      +(s.series?s.series.map(x=>'<a class="sl" href="'+x.url+'" target="_blank" rel="noopener">'+esc(x.label)+' &#8599;</a>').join(''):'')
+      +(TIERED?'<span class="tier mono'+(s.tier===1?' a':'')+'">T'+s.tier+'</span>':'')
+      +'<span class="st"><h2>'+esc(s.title)+'</h2><p>'+esc(s.sub||'')+'</p></span>'
+      +links.map(x=>'<a class="sl" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.label)+' &#8599;</a>').join('')
       +'<span class="cnt mono" id="n-'+s.id+'"></span></summary>'
       +(s.intro?'<div class="intro">'+s.intro.split('\n\n').map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>':'')
       +'<ol>'+rows+'</ol></details>';
@@ -608,7 +916,7 @@ function build(){
   let h='';
   DATA.forEach((s,i)=>{
     if(i) h += '<span class="tick sep"></span>';
-    s.items.forEach(x=> h += '<span class="tick'+(s.tier===1?' t1':'')+'" data-t="'+x.id+'"></span>');
+    s.items.forEach(x=> h += '<span class="tick'+(TIERED&&s.tier===1?' t1':'')+'" data-t="'+x.id+'"></span>');
   });
   $('strip').innerHTML = h;
 
@@ -629,14 +937,15 @@ function paint(){
   const per={1:0,2:0,3:0};
   DATA.forEach(s=>{
     const n = s.items.filter(x=>done.has(x.id)).length;
-    per[s.tier]+=n;
+    per[s.tier||1]+=n;
     const el=$('n-'+s.id);
     el.textContent = n+' / '+s.items.length;
     el.classList.toggle('full', n===s.items.length);
   });
   $('s-all').textContent = done.size+' / '+TOTAL;
-  [1,2,3].forEach(t=> $('s-t'+t).textContent = per[t]+' / '+TIERTOT[t]);
+  if(TIERED) [1,2,3].forEach(t=> $('s-t'+t).textContent = per[t]+' / '+TIERTOT[t]);
   $('code').value = btoa(JSON.stringify([...done]));
+  paintWindow();
   if(group) paintStack();
 }
 
@@ -683,7 +992,8 @@ $('b-gcreate').onclick = async ()=>{
   const { data, error } = await sb.rpc('create_group', {
     p_name: title,
     p_target: $('gdate').value || null,
-    p_display_name: $('gname').value.trim() || 'Reader'
+    p_display_name: $('gname').value.trim() || 'Reader',
+    p_property_id: SLUG
   });
   $('b-gcreate').disabled = false;
   if(error){ flash('Could not create the group: '+error.message,'gmsg'); return; }
@@ -711,41 +1021,59 @@ $('b-gjoin').onclick = async ()=>{
   startGroupPoll();
 };
 
-migrate();
-build();
-if(ENABLE_GITHUB_LOGIN && CLOUD) $('b-gh').classList.remove('hide');
-if(CLOUD){
-  sb.auth.onAuthStateChange((_e, session)=> onSession(session));
-  sb.auth.getSession()
-    .then(({data})=> onSession(data.session))
-    .catch(e=>{
-      console.error('[tracker] getSession failed', e);
-      done = readLocal();
-      state('Sync unavailable — saved on this device','');
-      flash('Could not reach Supabase: '+(e.message||e));
-      paint();
-    });
-  setTimeout(()=>{
-    if($('state').textContent === 'Starting up'){
-      done = readLocal();
-      state('Sync timed out — saved on this device','');
-      paint();
-    }
-  }, 8000);
-}else{
-  done = readLocal();
-  state('Saved on this device','');
-  renderGroupPanel();
-  paint();
-}
 // coming back to the tab is the most likely moment for someone else to have read something
 document.addEventListener('visibilitychange', ()=>{
   if(document.hidden || !group) return;
   loadMembers().then(()=>{ paintStack(); renderGroupPanel(); })
                .catch(e=> console.error('[tracker] group refresh failed', e));
 });
-const start = DATA.find(s=>s.start) || DATA.find(s=>s.series) || DATA[0];
-if(start) $('d-'+start.id).open = true;
+
+// Nothing can render until the property is in hand, so the whole boot hangs off
+// one fetch. A failure here is fatal in a way a sync failure never is.
+if(!SLUG){ showSplash(); } else {
+loadProperty().then(()=>{
+  renderHeader();
+  renderMenu();
+  migrate();
+  build();
+  if(ENABLE_GITHUB_LOGIN && CLOUD) $('b-gh').classList.remove('hide');
+
+  if(CLOUD){
+    sb.auth.onAuthStateChange((_e, session)=> onSession(session));
+    sb.auth.getSession()
+      .then(({data})=> onSession(data.session))
+      .catch(e=>{
+        console.error('[tracker] getSession failed', e);
+        done = readLocal();
+        state('Sync unavailable — saved on this device','');
+        flash('Could not reach Supabase: '+(e.message||e));
+        paint();
+      });
+    setTimeout(()=>{
+      if($('state').textContent === 'Starting up'){
+        done = readLocal();
+        state('Sync timed out — saved on this device','');
+        paint();
+      }
+    }, 8000);
+  }else{
+    done = readLocal();
+    state('Saved on this device','');
+    renderGroupPanel();
+    paint();
+  }
+
+  const first = DATA.find(s=>s.start) || DATA.find(s=>s.links||s.series) || DATA[0];
+  if(first) $('d-'+first.id).open = true;
+}).catch(e=>{
+  console.error('[tracker] property load failed', e);
+  state('Could not load '+SLUG,'');
+  $('ptitle').textContent = 'Nothing loaded';
+  $('pblurb').textContent = 'Could not load this tracker: ' + (e.message||e)
+    + '. If you opened the file directly, serve it over http instead — fetch is blocked on file:// URLs.';
+  renderMenu();
+});
+}
 </script>
 </body>
 </html>

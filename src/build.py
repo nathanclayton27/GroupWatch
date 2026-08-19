@@ -1,59 +1,130 @@
 #!/usr/bin/env python3
-"""Build index.html from template.html + reading_order.py.
+"""Build index.html and the property manifest.
 
     python3 src/build.py
 
-Writes index.html at the repo root. Safe to run repeatedly.
+Property data is no longer inlined. The page boots, reads ?p=<slug>, and fetches
+that property's JSON at runtime, so adding a show is dropping a file into
+properties/ and rebuilding. This script's job is to validate those files and
+write the manifest the property switcher reads.
+
+Because the data is fetched, the page must be served over http — file:// blocks
+fetch. Use `python3 -m http.server 8000`.
 """
 import json
 import pathlib
+import re
 import sys
-
-sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from reading_order import build_sections  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TEMPLATE = ROOT / "src" / "template.html"
+PROPS = ROOT / "properties"
 OUTPUT = ROOT / "index.html"
+MANIFEST = PROPS / "index.json"
+
+ID_OK = re.compile(r"^[A-Za-z][A-Za-z0-9_-]*$")
+
+
+def fail(msg):
+    raise SystemExit("build failed: %s" % msg)
+
+
+def load_property(path):
+    try:
+        prop = json.loads(path.read_text(encoding="utf-8"))
+    except ValueError as e:
+        fail("%s is not valid JSON — %s" % (path.name, e))
+
+    slug = prop.get("slug")
+    if not slug:
+        fail("%s has no slug" % path.name)
+    if slug != path.stem:
+        fail("%s declares slug %r — slug and filename must match" % (path.name, slug))
+    if not ID_OK.match(slug):
+        fail("%s: slug %r must be a valid html id" % (path.name, slug))
+
+    for field in ("title", "unit", "sections"):
+        if not prop.get(field):
+            fail("%s has no %s" % (path.name, field))
+    if not prop["unit"].get("one") or not prop["unit"].get("many"):
+        fail("%s: unit needs both 'one' and 'many'" % path.name)
+
+    seen = set()
+    total = 0
+    for s in prop["sections"]:
+        if not s.get("id"):
+            fail("%s: a section has no id" % path.name)
+        if not ID_OK.match(s["id"]):
+            fail("%s: section id %r must be a valid html id" % (path.name, s["id"]))
+        if not s.get("items"):
+            fail("%s: section %r has no items" % (path.name, s["id"]))
+        for x in s["items"]:
+            if not x.get("id"):
+                fail("%s: an item in %r has no id" % (path.name, s["id"]))
+            # duplicate ids make two checkboxes move together, silently
+            if x["id"] in seen:
+                fail("%s: duplicate item id %r" % (path.name, x["id"]))
+            seen.add(x["id"])
+            total += 1
+
+    prop["_total"] = total
+    return prop
 
 
 def main():
-    sections = build_sections()
+    if not PROPS.is_dir():
+        fail("no properties/ directory")
 
-    tiers = {1: 0, 2: 0, 3: 0}
-    for s in sections:
-        tiers[s["tier"]] += len(s["items"])
-    total = sum(tiers.values())
+    files = sorted(p for p in PROPS.glob("*.json") if p.name != "index.json")
+    if not files:
+        fail("properties/ has no property files")
+
+    props = [load_property(p) for p in files]
+
+    slugs = [p["slug"] for p in props]
+    if len(slugs) != len(set(slugs)):
+        fail("two properties share a slug")
+
+    # Menu and splash order. There is no "default property" — a first-time
+    # visitor gets the splash picker — so this is presentation only.
+    props.sort(key=lambda p: (p.get("order", 100), p["title"]))
+
+    manifest = [
+        {
+            "slug": p["slug"],
+            "title": p["title"],
+            "subtitle": p.get("subtitle", ""),
+            "kind": p.get("kind", ""),
+            "year": p.get("year", ""),
+            "blurb": p.get("blurb", ""),
+            "accent": p.get("accent", ""),
+            "unit": p["unit"],
+            "total": p["_total"],
+            "scheduled": bool(p.get("schedule")),
+        }
+        for p in props
+    ]
+
+    with MANIFEST.open("w", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
 
     html = TEMPLATE.read_text(encoding="utf-8")
-    if "__DATA__" not in html:
-        raise SystemExit("template.html is missing the __DATA__ placeholder")
+    if "__MANIFEST__" not in html:
+        fail("template.html is missing the __MANIFEST__ placeholder")
+    # the manifest is small and needed before first paint, so it is inlined;
+    # the property bodies are not
+    html = html.replace("__MANIFEST__", json.dumps(manifest, indent=2, ensure_ascii=False))
+    if "__MANIFEST__" in html:
+        fail("__MANIFEST__ was not replaced")
 
-    # indent=2 keeps index.html diffable in git — without it the whole reading
-    # order lands on one line and every rebuild looks like a total rewrite.
-    data = json.dumps(sections, indent=2, ensure_ascii=False)
-
-    html = html.replace("__DATA__", data)
-    html = html.replace("__TOTAL__", str(total))
-    for t in (1, 2, 3):
-        html = html.replace("__T%d__" % t, str(tiers[t]))
-
-    for leftover in ("__DATA__", "__TOTAL__", "__T1__", "__T2__", "__T3__"):
-        if leftover in html:
-            raise SystemExit("placeholder %s was not replaced" % leftover)
-
-    # newline="\n" so a rebuild on Windows doesn't rewrite every line as CRLF
-    # and turn the diff into a whole-file change.
     with OUTPUT.open("w", encoding="utf-8", newline="\n") as f:
         f.write(html)
 
-    print("wrote %s" % OUTPUT.relative_to(ROOT))
-    print("  %d sections, %d issues" % (len(sections), total))
-    print("  tier 1: %d   tier 2: %d   tier 3: %d" % (tiers[1], tiers[2], tiers[3]))
-    linked = sum(1 for s in sections if s.get("series"))
-    issue_links = sum(1 for s in sections for x in s["items"] if x["url"])
-    print("  %d/%d sections have series links, %d direct issue links"
-          % (linked, len(sections), issue_links))
+    print("wrote index.html and properties/index.json")
+    for p in props:
+        print("  %-22s %4d %-9s %s"
+              % (p["slug"], p["_total"], p["unit"]["many"],
+                 "scheduled" if p.get("schedule") else ""))
 
 
 if __name__ == "__main__":
