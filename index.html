@@ -395,6 +395,21 @@ let MANIFEST = [
       "many": "episodes"
     },
     "total": 76
+  },
+  {
+    "slug": "one-piece",
+    "title": "One Piece",
+    "subtitle": "",
+    "kind": "anime",
+    "year": "1999–",
+    "blurb": "1174 episodes, 49 arcs, the filler is optional.",
+    "accent": "#B8531F",
+    "accentDark": "#E8904A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 1174
   }
 ];
 
@@ -402,7 +417,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '4447357d661c';
+const BUILD = '1bb47273e0a7';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});
@@ -1135,6 +1150,11 @@ function startGroupPoll(){
 // A section longer than the cap becomes its own oversized row; the cap is a
 // target and section integrity wins.
 const ROW_MAX = 65;
+// ...but a very long property would otherwise stack up a wall of rows — 1174
+// episodes at 65 apiece is eighteen of them. Past this many rows the cap gives
+// way and the rows simply get longer, which is fine: a 250-mark row was legible
+// as a single strip before any of this existed.
+const ROW_LIMIT = 8;
 function rowsFor(){
   const sizes = DATA.map(s=> s.items.length);
   if(!sizes.length) return [[0, 0]];
@@ -1154,10 +1174,10 @@ function rowsFor(){
     return lo;
   };
 
-  let k = Math.max(1, Math.ceil(TOTAL / ROW_MAX));
+  let k = Math.min(ROW_LIMIT, Math.max(1, Math.ceil(TOTAL / ROW_MAX)));
   let len = bestFor(k);
   // balancing into k rows can still overshoot the cap, so add rows until it fits
-  while(len > ROW_MAX && k < sizes.length){ k++; len = bestFor(k); }
+  while(len > ROW_MAX && k < Math.min(ROW_LIMIT, sizes.length)){ k++; len = bestFor(k); }
 
   const rows = [];
   let start = 0, at = 0, sum = 0;
