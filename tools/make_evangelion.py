@@ -56,28 +56,12 @@ def film(key, title, year, note="", star=0):
 SECTIONS = [
     {
         "id": "tv", "tier": 1, "title": "Neon Genesis Evangelion",
-        "sub": "1995 · episodes 1–24",
-        "intro":
-            "Start here, and start cold. A teenager is called to a city under "
-            "attack and told to pilot something nobody will explain to him. The "
-            "series spends twenty-four episodes on the consequences.\n\n"
-            "It gets stranger and more interior as it goes, and that is the point "
-            "rather than a production accident. Episodes 25 and 26 are held back "
-            "into their own section below because there is a decision to make "
-            "about them.",
+        "sub": "1995 · episodes 1–24 · start here",
         "items": [ep(n) for n in range(1, 25)],
     },
     {
         "id": "dc", "tier": 2, "title": "Director's Cut, episodes 21–24",
-        "sub": "1997 · extended versions of four episodes you have just watched",
-        "intro":
-            "These four were later reissued with substantial new footage — around "
-            "six minutes added to 21, five to 22, two to 23, three to 24. Most "
-            "modern releases, including the Netflix run, give you these by "
-            "default, in which case you have already seen them and can tick this "
-            "section off.\n\n"
-            "Worth seeking out if your copy is the broadcast version. Not worth "
-            "rewatching the whole run for.",
+        "sub": "extended versions of 21–24 · skip if your copy already has them",
         "items": [
             {"id": "eva-dc-%d" % n, "t": NGE[n - 1] + " (Director's Cut)",
              "n": str(n), "opt": 1} for n in range(21, 25)
@@ -85,56 +69,27 @@ SECTIONS = [
     },
     {
         "id": "tvend", "tier": 2, "title": "The television ending",
-        "sub": "1996 · episodes 25–26",
-        "intro":
-            "The original ending, made with the budget and the schedule gone. It "
-            "abandons the plot almost entirely for something interior and abstract, "
-            "and it divided everyone at the time.\n\n"
-            "The End of Evangelion covers the same ground very differently. You do "
-            "not need both, and plenty of people watch only the film — but these "
-            "two are what the film is answering, and it lands harder if you have "
-            "seen them.",
+        "sub": "1996 · episodes 25–26 · optional",
         "items": [ep(25), ep(26)],
     },
     {
         "id": "eoe", "tier": 1, "title": "The End of Evangelion",
-        "sub": "1997 · the ending most people mean",
-        "intro":
-            "A theatrical retelling of the same final events, made after the fact "
-            "and with the resources the series never had. Treat it as the "
-            "conclusion.\n\n"
-            "Watch it after episode 24 at the earliest. Watching it before the "
-            "series is finished spoils everything and makes very little sense.",
+        "sub": "1997 · watch after episode 24",
         "items": [film("eoe", "The End of Evangelion", "1997", "", 2)],
     },
     {
         "id": "dr", "tier": 3, "title": "Death & Rebirth",
-        "sub": "1997 · recap · skippable",
-        "intro":
-            "Two halves: Death is a compilation of the series, Rebirth is the first "
-            "twenty-odd minutes of The End of Evangelion. If you have watched the "
-            "series and the film, you have seen all of it already.\n\n"
-            "Here for completeness. Every guide says skip it and they are right.",
-        "items": [film("dr", "Death & Rebirth", "1997", "recap of the series, then "
-                       "the opening of End of Evangelion", 0)],
+        "sub": "1997 · recap · skip it",
+        "items": [film("dr", "Death & Rebirth", "1997")],
     },
     {
         "id": "rebuild", "tier": 1, "title": "Rebuild of Evangelion",
-        "sub": "2007–2021 · four films",
-        "intro":
-            "A retelling that starts close to the series and diverges further with "
-            "each film, ending somewhere the original never went. It is its own "
-            "continuity and its own ending.\n\n"
-            "Watch it after the original, not instead of it — the first film "
-            "assumes very little, but the later ones are in conversation with "
-            "material you would not otherwise have seen. The final film is the "
-            "conclusion; there is nothing after it.",
+        "sub": "2007–2021 · four films · watch after the original, in order",
         "items": [
             film("r1", "Evangelion: 1.0 You Are (Not) Alone", "2007"),
             film("r2", "Evangelion: 2.0 You Can (Not) Advance", "2009"),
             film("r3", "Evangelion: 3.0 You Can (Not) Redo", "2012"),
-            film("r4", "Evangelion: 3.0+1.0 Thrice Upon a Time", "2021",
-                 "released as 3.0+1.01; the revision is the one to watch", 2),
+            film("r4", "Evangelion: 3.0+1.0 Thrice Upon a Time", "2021", "", 2),
         ],
     },
 ]
