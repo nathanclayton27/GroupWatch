@@ -85,7 +85,8 @@ h1 em{font-style:normal;color:var(--signal)}
    behind it still has something to show in that column — see paintStack(). */
 .stack{display:flex;flex-direction:column;gap:22px;margin:60px 0 10px}
 .stackrow{position:relative;transition:margin .28s ease-out}
-.stackrow .layer{position:absolute;left:0;right:0;display:flex;gap:1px;height:34px;align-items:flex-end;margin:0}
+.stackrow .layer{position:absolute;left:0;right:0;display:flex;gap:1px;
+  height:var(--layerH,35px);align-items:flex-end;margin:0}
 .stackrow .tick.on.full{align-self:flex-start;height:var(--fillH)}
 .stackrow .tick.veil{background:transparent}
 .pacer{position:absolute;top:-5px;bottom:-5px;width:1px;background:var(--ink-3);z-index:60;pointer-events:none}
@@ -528,7 +529,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '214d15f0aeb6';
+const BUILD = '88dfeabd5093';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -998,8 +999,11 @@ function paintStack(){
 
   const list = gmembers.slice()
     .sort((a,b)=> readsOf(b).size - readsOf(a).size || a.name.localeCompare(b.name));
-  const offset = list.length <= 4 ? 14 : Math.max(6, Math.round(56/(list.length-1)));
-  const stackH = 34 + (list.length-1)*offset;
+  // Flat, deliberately. Shrinking the offset as the group grew kept the stack
+  // short but made the front reader's band pull further ahead of everyone
+  // else's the more people joined — at six it was three times a rear band.
+  const offset = LAYER_OFFSET;
+  const stackH = LAYER_H + (list.length-1)*offset;
   const reads = list.map(readsOf);
 
   // for each column, the furthest-back layer still showing something there
@@ -1031,7 +1035,7 @@ function paintStack(){
       layers += '<div class="layer" style="top:'+(i*offset)+'px;z-index:'+(list.length-i)
               + ';--fillH:'+(stackH - i*offset)+'px">'+ticks+'</div>';
     });
-    html += '<div class="stackrow" style="height:'+stackH+'px" '
+    html += '<div class="stackrow" style="height:'+stackH+'px;--layerH:'+LAYER_H+'px" '
           + 'data-a="'+a+'" data-b="'+b+'">'+layers+'</div>';
   });
 
