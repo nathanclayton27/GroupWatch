@@ -72,6 +72,7 @@ def main():
         "title": "Everything Dies",
         "subtitle": "Jonathan Hickman's Marvel run",
         "kind": "comics",
+        "order": 2,
         "year": "2009–2015",
         "blurb": "250 issues from Fantastic Four #570 through Secret Wars #9, "
                  "in the order they're meant to be read.",
