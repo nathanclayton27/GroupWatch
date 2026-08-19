@@ -11,6 +11,7 @@ write the manifest the property switcher reads.
 Because the data is fetched, the page must be served over http — file:// blocks
 fetch. Use `python3 -m http.server 8000`.
 """
+import hashlib
 import json
 import pathlib
 import re
@@ -21,6 +22,7 @@ TEMPLATE = ROOT / "src" / "template.html"
 PROPS = ROOT / "properties"
 OUTPUT = ROOT / "index.html"
 MANIFEST = PROPS / "index.json"
+BUILDFILE = ROOT / "build.json"
 
 ID_OK = re.compile(r"^[A-Za-z][A-Za-z0-9_-]*$")
 
@@ -109,18 +111,35 @@ def main():
         f.write(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
 
     html = TEMPLATE.read_text(encoding="utf-8")
-    if "__MANIFEST__" not in html:
-        fail("template.html is missing the __MANIFEST__ placeholder")
+    for ph in ("__MANIFEST__", "__BUILD__"):
+        if ph not in html:
+            fail("template.html is missing the %s placeholder" % ph)
+
     # the manifest is small and needed before first paint, so it is inlined;
     # the property bodies are not
     html = html.replace("__MANIFEST__", json.dumps(manifest, indent=2, ensure_ascii=False))
-    if "__MANIFEST__" in html:
-        fail("__MANIFEST__ was not replaced")
+
+    # A content hash of everything that ends up in the page. GitHub Pages serves
+    # index.html with a cache lifetime, so a browser can go on running an old
+    # copy after a deploy. The page checks this against build.json and reloads
+    # itself once if they differ, which is what saves anyone hard-refreshing.
+    stamp = hashlib.sha1(html.encode("utf-8"))
+    for f in files:
+        stamp.update(f.read_bytes())
+    build = stamp.hexdigest()[:12]
+
+    html = html.replace("__BUILD__", build)
+    for ph in ("__MANIFEST__", "__BUILD__"):
+        if ph in html:
+            fail("%s was not replaced" % ph)
 
     with OUTPUT.open("w", encoding="utf-8", newline="\n") as f:
         f.write(html)
+    with BUILDFILE.open("w", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps({"build": build}) + "\n")
 
-    print("wrote index.html and properties/index.json")
+    print("wrote index.html, properties/index.json and build.json")
+    print("  build %s" % build)
     for p in props:
         print("  %-22s %4d %-9s %s"
               % (p["slug"], p["_total"], p["unit"]["many"],
