@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Everything Dies — a Hickman Secret Wars reading tracker</title>
-<meta name="description" content="A 250-issue reading tracker for Jonathan Hickman's Marvel run, from Fantastic Four #570 to Secret Wars #9.">
+<title>GroupWatch</title>
+<meta name="description" content="Track a comic run, an anime or a show alongside other people, with everyone's progress stacked on one strip.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -151,6 +151,12 @@ footer a{color:var(--steel)}
 .rules{margin:0;padding-left:18px}
 .rules li{display:list-item;padding:0;font-size:13px;color:var(--ink-2);margin-bottom:5px}
 .rules li:hover{background:transparent}
+.mlist{list-style:none;margin:0;padding:0;max-width:420px}
+.mrow{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--rule)}
+.mrow:last-child{border-bottom:0}
+.mname{flex:1;min-width:0;font-size:13px}
+.rm{font-size:11px;padding:3px 9px;color:var(--ink-2)}
+.rm:hover{border-color:var(--signal);color:var(--signal)}
 @media (max-width:560px){ .switcher{position:static;padding:12px 14px 0} }
 
 /* first-visit picker — shown only when no property is chosen or remembered */
@@ -236,10 +242,10 @@ footer a{color:var(--steel)}
   </div>
 
   <div class="panel hide" id="gpanel">
-    <h3 id="ghead">Reading with others</h3>
+    <h3 id="ghead">With other people</h3>
     <div id="gjoined" class="hide"></div>
     <div id="gsetup">
-      <p>Read the same order alongside other people. Everyone's progress stacks onto one strip at the top of the page, and if the group sets a finish date you can see who's keeping up.</p>
+      <p id="gsetup-p"></p>
       <div class="row">
         <input type="text" id="gname" placeholder="Your name" maxlength="24" autocomplete="nickname">
         <span class="lbl">shown to the rest of the group</span>
@@ -348,7 +354,9 @@ let TIERTOT = {1:0,2:0,3:0};
 let ORDER = [];
 let VALID = new Set();
 let UNIT = {one:'item', many:'items'};
+let VERB = {past:'done', ing:'tracking'};
 let TIERED = false;
+let NUMFIRST = false;
 
 const CLOUD = !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase);
 const sb = CLOUD ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
@@ -382,6 +390,8 @@ async function loadProperty(){
   TOTAL = DATA.reduce((a,s)=>a+s.items.length,0);
   TIERED = !!PROP.tiers;
   UNIT = PROP.unit || UNIT;
+  VERB = PROP.verb || VERB;
+  NUMFIRST = PROP.itemOrder === 'number-first';
   TIERTOT = {1:0,2:0,3:0};
   DATA.forEach(s=> TIERTOT[s.tier||1] += s.items.length);
   ORDER = DATA.flatMap(s=>s.items.map(x=>x.id));
@@ -391,6 +401,8 @@ async function loadProperty(){
 }
 
 function plural(n){ return n === 1 ? UNIT.one : UNIT.many; }
+function cap(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
+function groupNoun(){ return cap(VERB.ing) + ' with other people'; }
 const $ = id => document.getElementById(id);
 function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function flash(t,el){
@@ -450,7 +462,7 @@ async function adopt(){
     done = new Set([...server, ...local]);
     localStorage.setItem(flag,'1');
     await pushCloud();
-    flash('Folded '+local.size+' issues from this device into your account.');
+    flash('Folded '+local.size+' '+plural(local.size)+' from this device into your account.');
   }else{
     done = server;
     state('Synced','ok');
@@ -500,8 +512,8 @@ function gstate(){
   $('glegend').classList.toggle('hide', !on);
   $('strip').classList.toggle('hide', on);
   $('striplbl').textContent = on
-    ? 'Each mark is one issue · one layer per reader, furthest along on top'
-    : 'Each mark is one issue, in reading order';
+    ? 'Each mark is one '+UNIT.one+' · one layer per person, furthest along on top'
+    : 'Each mark is one '+UNIT.one+', in order';
 }
 
 async function loadGroups(){
@@ -707,7 +719,7 @@ function paintStack(){
 // "creator updates group" policy — the server enforces it either way.
 function resched(){
   const ws = windows();
-  if(!ws || !user || group.created_by !== user.id) return '';
+  if(!ws || !isOwner()) return '';
   const last = ws[ws.length-1].end;
   return '<div class="row" style="margin:0 0 12px">'
     + '<span class="lbl">Finish by</span>'
@@ -739,20 +751,65 @@ function wireResched(){
   };
 }
 
+function isOwner(){ return !!(user && group && group.created_by === user.id); }
+
+// The roster is only worth showing to the owner, who is the only person who can
+// act on it. Everyone else already sees the names in the strip legend.
+function roster(){
+  if(!isOwner() || gmembers.length < 2) return '';
+  const rows = gmembers.slice()
+    .sort((a,b)=> a.name.localeCompare(b.name))
+    .map(m=>{
+      const me = m.id === user.id;
+      return '<li class="mrow"><span class="gsw" style="background:var(--m'+(m.ci+1)+')"></span>'
+        + '<span class="mname">'+esc(m.name)+(me?' (you)':'')+'</span>'
+        + '<span class="gpct mono">'+readsOf(m).size+'</span>'
+        + (me ? '' : '<button class="rm" data-uid="'+esc(m.id)+'" data-name="'+esc(m.name)
+                   + '" title="Remove from group">Remove</button>')
+        + '</li>';
+    }).join('');
+  return '<div class="lbl" style="margin:16px 0 6px">Members</div><ul class="mlist">'+rows+'</ul>';
+}
+
+function wireRoster(){
+  document.querySelectorAll('.rm').forEach(b=>{
+    b.onclick = async ()=>{
+      const name = b.dataset.name;
+      if(!confirm('Remove '+name+' from '+group.name+"? Their own progress is untouched, and they can rejoin with the code.")) return;
+      b.disabled = true;
+      const { error } = await sb.from('group_members')
+        .delete().eq('group_id', group.id).eq('user_id', b.dataset.uid);
+      if(error){
+        b.disabled = false;
+        flash('Could not remove '+name+': '+error.message, 'gmsg2');
+        return;
+      }
+      await loadMembers();
+      paintStack(); renderGroupPanel();
+      flash('Removed '+name+'.', 'gmsg2');
+    };
+  });
+}
+
 function renderGroupPanel(){
   const setup = $('gsetup'), joined = $('gjoined');
   if(!CLOUD){ $('gpanel').classList.add('hide'); return; }
   $('gpanel').classList.remove('hide');
 
   if(!user){
-    $('ghead').textContent = 'Reading with others';
+    $('ghead').textContent = groupNoun();
     setup.classList.add('hide'); joined.classList.remove('hide');
     joined.innerHTML = '<p>Groups need an account, so everyone’s progress has somewhere to live. '
       + 'Sign in above and this turns into a group.</p>';
     return;
   }
   if(!group){
-    $('ghead').textContent = 'Reading with others';
+    $('ghead').textContent = groupNoun();
+    $('gsetup-p').textContent = VERB.base
+      ? cap(VERB.base)+' '+PROP.title+' alongside other people. Everyone’s progress '
+        + 'stacks onto one strip at the top of the page, and if the group has a finish '
+        + 'date you can see who’s keeping up.'
+      : 'Follow along with other people.';
     joined.classList.add('hide'); setup.classList.remove('hide');
     if(!$('gname').value) $('gname').value = (user.email||'').split('@')[0].slice(0,24);
     return;
@@ -766,7 +823,7 @@ function renderGroupPanel(){
   if(p){
     const behind = p.expected - (mine ? readsOf(mine).size : 0);
     line = behind > 0
-      ? 'You’re '+behind+' issues behind pace, with '+p.daysLeft+' day'+(p.daysLeft===1?'':'s')+' left.'
+      ? 'You’re '+behind+' '+plural(behind)+' behind pace, with '+p.daysLeft+' day'+(p.daysLeft===1?'':'s')+' left.'
       : 'You’re on pace, with '+p.daysLeft+' day'+(p.daysLeft===1?'':'s')+' left.';
   }else if(group.target_date){
     line = 'Finish date is set to '+esc(group.target_date)+'.';
@@ -787,14 +844,16 @@ function renderGroupPanel(){
     + '<p>'+line+' '+gmembers.length
       +(gmembers.length===1?' person':' people')+' in this group.</p>'
     + resched()
-    + '<div class="row"><button id="b-grefresh">Refresh</button><button id="b-gleave">Leave group</button></div>'
+    + roster()
+    + '<div class="row" style="margin-top:14px"><button id="b-grefresh">Refresh</button><button id="b-gleave">Leave group</button></div>'
     + '<p id="gmsg2" style="margin:12px 0 0;color:var(--signal)"></p>';
 
   $('b-gcopy').onclick = async ()=>{
-    try{ await navigator.clipboard.writeText(group.code); flash('Code copied — send it to whoever’s reading.','gmsg2'); }
+    try{ await navigator.clipboard.writeText(group.code); flash('Code copied — send it to whoever’s joining.','gmsg2'); }
     catch(e){ flash('Copy failed. The code is '+group.code+'.','gmsg2'); }
   };
   wireResched();
+  wireRoster();
   $('b-grefresh').onclick = ()=> refreshGroup(true);
   $('b-gleave').onclick = async ()=>{
     if(!confirm('Leave '+group.name+'? Your own progress is untouched.')) return;
@@ -849,7 +908,7 @@ function renderHeader(){
   $('b-prop-t').textContent = PROP.title;
   if(PROP.accent) $('pdot').style.background = PROP.accent;
   document.title = PROP.title + ' — GroupWatch';
-  $('s-all-l').textContent = TIERED ? 'Read' : 'Done';
+  $('s-all-l').textContent = 'Done';
   document.querySelectorAll('.tierstat').forEach(el=> el.classList.toggle('hide', !TIERED));
   $('striplbl').textContent = 'Each mark is one ' + UNIT.one + ', in order';
 
@@ -927,9 +986,13 @@ document.addEventListener('keydown', e=>{ if(e.key === 'Escape') closeMenu(); })
 function build(){
   $('list').innerHTML = DATA.map(s=>{
     const rows = s.items.map(x=>{
-      const t = x.url ? '<a class="iss" href="'+x.url+'" target="_blank" rel="noopener">'+esc(x.t)+'</a>' : esc(x.t);
+      const t = x.url ? '<a class="iss" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.t)+'</a>' : esc(x.t);
+      const num = '<span class="num mono">'+esc(x.n)+'</span>';
+      // "Fantastic Four #570" reads right for comics; "12  One is All, All is
+      // One" reads right for episodes
+      const head = NUMFIRST ? num+' '+t : t+' '+num;
       return '<li data-id="'+x.id+'"><input type="checkbox" aria-labelledby="l'+x.id+'">'
-        +'<span class="ttl" id="l'+x.id+'">'+t+' <span class="num mono">'+esc(x.n)+'</span> '
+        +'<span class="ttl" id="l'+x.id+'">'+head+' '
         +(x.star?'<span class="star">'+'\u2605'.repeat(x.star)+'</span> ':'')
         +(x.opt?'<span class="opt">optional</span>':'')
         +(x.note?'<span class="nb">'+esc(x.note)+'</span>':'')+'</span></li>';
@@ -1007,7 +1070,7 @@ $('b-import').onclick = ()=>{
       : arr;
     done = clean(asKeys);
     if(!done.size && arr.length) throw 0;
-    persist(); paint(); flash('Loaded '+done.size+' issues.');
+    persist(); paint(); flash('Loaded '+done.size+' '+plural(done.size)+'.');
   }catch(e){ flash('That code isn\u2019t valid.'); }
 };
 $('b-reset').onclick = ()=>{
@@ -1032,7 +1095,7 @@ $('b-gcreate').onclick = async ()=>{
   if(made) localStorage.setItem(GKEY, made.id);
   await refreshGroup(false);
   startGroupPoll();
-  if(made) flash('Group created. Send the code '+made.code+' to whoever’s reading.','gmsg2');
+  if(made) flash('Group created. Send the code '+made.code+' to whoever’s joining.','gmsg2');
 };
 
 $('b-gjoin').onclick = async ()=>{

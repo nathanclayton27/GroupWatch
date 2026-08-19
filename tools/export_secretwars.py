@@ -76,6 +76,7 @@ def main():
         "blurb": "250 issues from Fantastic Four #570 through Secret Wars #9, "
                  "in the order they're meant to be read.",
         "unit": {"one": "issue", "many": "issues"},
+        "verb": {"base": "read", "past": "read", "ing": "reading"},
         "accent": "#C1352A",
         "tiers": True,
         "tierNotes": {

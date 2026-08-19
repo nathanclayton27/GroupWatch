@@ -73,6 +73,14 @@ returns boolean language sql security definer stable set search_path = public as
   );
 $$;
 
+create or replace function is_group_owner(gid uuid)
+returns boolean language sql security definer stable set search_path = public as $$
+  select exists (
+    select 1 from groups
+    where id = gid and created_by = auth.uid()
+  );
+$$;
+
 -- Scoped to one property on purpose. Without the join to groups, someone in
 -- your Fullmetal Alchemist group could read your Secret Wars progress.
 create or replace function shares_group_with(other uuid, prop text)
@@ -112,6 +120,9 @@ do $$ begin
 
   create policy "leave group" on group_members
     for delete using (auth.uid() = user_id);
+
+  create policy "owner removes member" on group_members
+    for delete using (is_group_owner(group_id));
 
   -- the one privacy change: co-members can read each other's ticks, and only
   -- for the property that group is about

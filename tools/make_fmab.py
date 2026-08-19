@@ -25,6 +25,34 @@ ARCS = [
 
 MONTH = {"07": "July", "08": "August"}
 
+# English episode titles, 1-64. Cross-checked between the Wikipedia episode
+# list (1-58) and epguides (55-64); the overlap agrees.
+TITLES = [
+    "Fullmetal Alchemist", "The First Day", "City of Heresy",
+    "An Alchemist's Anguish", "Rain of Sorrows", "Road of Hope",
+    "Hidden Truths", "The Fifth Laboratory", "Created Feelings",
+    "Separate Destinations", "Miracle at Rush Valley", "One is All, All is One",
+    "Beasts of Dublith", "Those Who Lurk Underground", "Envoy from the East",
+    "Footsteps of a Comrade-in-Arms", "Cold Flame",
+    "The Arrogant Palm of a Small Human", "Death of the Undying",
+    "Father Before the Grave", "Advance of the Fool", "Backs in the Distance",
+    "Girl on the Battlefield", "Inside the Belly", "Doorway of Darkness",
+    "Reunion", "Interlude Party", "Father", "Struggle of the Fool",
+    "The Ishvalan War of Extermination", "The 520 Cens Promise",
+    "The Führer's Son", "The Northern Wall of Briggs", "Ice Queen",
+    "The Shape of This Country", "Family Portrait", "The First Homunculus",
+    "Conflict at Baschool", "Daydream", "Homunculus (The Dwarf in the Flask)",
+    "The Abyss", "Signs of a Counteroffensive", "Bite of the Ant",
+    "Revving at Full Throttle", "The Promised Day", "Looming Shadows",
+    "Emissary of Darkness", "The Oath in the Tunnel", "Filial Affection",
+    "Upheaval in Central", "The Immortal Legion", "Combined Strength",
+    "Flame of Vengeance", "Beyond the Inferno", "The Adults' Way of Life",
+    "The Return of the Führer", "Eternal Leave", "Sacrifices", "Lost Light",
+    "Eye of Heaven, Gateway of Earth", "He Who Would Swallow God",
+    "A Fierce Counterattack", "The Other Side of the Gateway", "Journey's End",
+]
+assert len(TITLES) == 64, "expected 64 titles, have %d" % len(TITLES)
+
 
 def pretty(d):
     y, m, day = d.split("-")
@@ -42,7 +70,7 @@ def main():
             "sub": "episodes %d–%d · %s – %s" % (first, last, pretty(start), pretty(end)),
             "window": {"start": start, "end": end},
             "items": [
-                {"id": "fmab-%d" % n, "t": "Episode", "n": str(n)}
+                {"id": "fmab-%d" % n, "t": TITLES[n - 1], "n": str(n)}
                 for n in range(first, last + 1)
             ],
         })
@@ -66,6 +94,9 @@ def main():
         "blurb": "HD DVD Anime Club, Round 4. 64 episodes across six arcs, on a "
                  "fixed club schedule from 15 July to 25 August 2026.",
         "unit": {"one": "episode", "many": "episodes"},
+        "verb": {"base": "watch", "past": "watched", "ing": "watching"},
+        # shows read better as "12  One is All, All is One" than the other way
+        "itemOrder": "number-first",
         "accent": "#B0472E",
         "tiers": False,
         "rules": [
