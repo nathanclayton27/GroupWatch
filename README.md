@@ -37,7 +37,7 @@ Optional. Without it the tracker works fine; progress just doesn't sync across d
 ```sql
 create table progress (
   user_id    uuid primary key references auth.users on delete cascade,
-  read_ids   int[] not null default '{}',
+  read_ids   text[] not null default '{}',
   updated_at timestamptz default now()
 );
 

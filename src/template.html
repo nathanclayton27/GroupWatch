@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Everything Dies — a Hickman Secret Wars reading tracker</title>
+<meta name="description" content="A 250-issue reading tracker for Jonathan Hickman's Marvel run, from Fantastic Four #570 to Secret Wars #9.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#E6E7E2; --card:#F2F2EE; --ink:#15171A; --ink-2:#5C6066; --ink-3:#8E9298;
+  --rule:#C9CAC4; --rule-2:#B0B2AB;
+  --signal:#C1352A; --steel:#2E4A6B; --done:#4A6B4E;
+  --radius:2px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#131518; --card:#1B1E22; --ink:#E8E9E4; --ink-2:#9BA0A6; --ink-3:#6C7178;
+    --rule:#2C3035; --rule-2:#3D424A;
+    --signal:#E4584A; --steel:#7BA3D0; --done:#7FA986;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Space Grotesk",system-ui,sans-serif;font-size:15px;line-height:1.5}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px 100px}
+.lbl{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);font-weight:500}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+
+header{padding:56px 0 28px;border-bottom:1px solid var(--rule)}
+h1{font-size:clamp(30px,7vw,52px);line-height:.98;margin:10px 0 6px;font-weight:700;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--signal)}
+.tagline{color:var(--ink-2);max-width:60ch;margin:0}
+.strip{display:flex;gap:1px;height:34px;margin:26px 0 10px;align-items:flex-end}
+.tick{flex:1 1 0;min-width:0;background:var(--rule);height:40%;transition:height .18s,background .18s}
+.tick.t1{height:70%}
+.tick.on{background:var(--signal);height:100%}
+.tick.sep{background:transparent;flex:0 0 3px}
+
+.bar{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:26px}
+.bar-in{max-width:900px;margin:0 auto;padding:0 20px;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.stat{display:flex;flex-direction:column;gap:1px}
+.stat b{font-family:"IBM Plex Mono",monospace;font-size:17px;font-weight:500;font-variant-numeric:tabular-nums}
+.spacer{flex:1}
+.acct{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--ink-3);flex:none}
+.dot.ok{background:var(--done)} .dot.busy{background:var(--signal)}
+
+button{font-family:inherit;font-size:13px;color:var(--ink);background:transparent;
+  border:1px solid var(--rule-2);border-radius:var(--radius);padding:7px 13px;cursor:pointer}
+button:hover{border-color:var(--ink-2)}
+button:disabled{opacity:.5;cursor:default}
+button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+input[type=text],input[type=email]{font-family:inherit;font-size:13px;background:var(--card);color:var(--ink);
+  border:1px solid var(--rule-2);border-radius:var(--radius);padding:7px 10px;width:170px}
+
+details{border:1px solid var(--rule);border-radius:var(--radius);background:var(--card);margin-bottom:10px}
+summary{list-style:none;cursor:pointer;padding:15px 18px;display:flex;gap:14px;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+.tier{flex:none;width:20px;color:var(--ink-3);font-weight:500}
+.tier.a{color:var(--signal)}
+.st{flex:1;min-width:0}
+.st h2{font-size:16px;margin:0;font-weight:500;letter-spacing:-.01em}
+.st p{margin:2px 0 0;font-size:13px;color:var(--ink-2)}
+.cnt{flex:none;font-size:12px;color:var(--ink-2)}
+.cnt.full{color:var(--done)}
+details[open] summary{border-bottom:1px solid var(--rule)}
+
+ol{list-style:none;margin:0;padding:6px 0}
+li{display:flex;align-items:baseline;gap:12px;padding:5px 18px}
+li:hover{background:rgba(128,128,128,.06)}
+li input{flex:none;width:15px;height:15px;accent-color:var(--signal);margin:0;position:relative;top:2px;cursor:pointer}
+.ttl{flex:1;min-width:0;font-size:14px}
+.num{color:var(--ink-2);font-size:13px}
+.nb{display:block;font-size:12px;color:var(--ink-3);margin-top:1px}
+li.done .ttl,li.done .num{color:var(--ink-3);text-decoration:line-through;text-decoration-thickness:1px}
+.star{color:var(--signal);font-size:11px;letter-spacing:-1px}
+.opt{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);border:1px solid var(--rule-2);padding:1px 5px;border-radius:var(--radius)}
+a.iss{color:var(--steel);text-decoration:none;border-bottom:1px solid transparent}
+a.iss:hover{border-bottom-color:var(--steel)}
+.sl{font-size:11px;color:var(--steel);text-decoration:none;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;margin-left:10px}
+.sl:hover{text-decoration:underline}
+
+.intro{padding:16px 18px 4px;border-bottom:1px solid var(--rule)}
+.intro p{margin:0 0 12px;font-size:14px;line-height:1.65;color:var(--ink-2);max-width:64ch}
+.intro p:first-child{color:var(--ink)}
+.intro p:last-child{color:var(--ink);font-size:15px}
+.panel{border:1px solid var(--rule);border-radius:var(--radius);background:var(--card);padding:18px;margin:26px 0}
+.panel h3{margin:0 0 6px;font-size:15px;font-weight:500}
+.panel p{margin:0 0 12px;font-size:13px;color:var(--ink-2);max-width:66ch}
+textarea{width:100%;font-family:"IBM Plex Mono",monospace;font-size:11px;background:var(--paper);
+  color:var(--ink);border:1px solid var(--rule-2);border-radius:var(--radius);padding:9px;min-height:70px;resize:vertical}
+footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--rule);font-size:12px;color:var(--ink-3);max-width:70ch}
+footer a{color:var(--steel)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.hide{display:none!important}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:560px){
+  li{padding:6px 14px}.wrap{padding:0 14px 80px}.bar-in{padding:0 14px;gap:16px}
+  summary{padding:13px 14px}input[type=text],input[type=email]{width:130px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="lbl">Jonathan Hickman · 2009–2015 · __TOTAL__ issues</div>
+  <h1>Everything<br><em>dies.</em></h1>
+  <p class="tagline">A reading tracker for the whole Secret Wars saga — Fantastic Four #570 through Secret Wars #9, in the order it's meant to be read.</p>
+  <div class="strip" id="strip" role="img" aria-label="Progress across all __TOTAL__ issues"></div>
+  <div class="lbl">Each mark is one issue, in reading order</div>
+</header>
+</div>
+
+<div class="bar">
+  <div class="bar-in">
+    <div class="stat"><span class="lbl">Read</span><b id="s-all">0 / __TOTAL__</b></div>
+    <div class="stat"><span class="lbl">Tier 1</span><b id="s-t1">0 / __T1__</b></div>
+    <div class="stat"><span class="lbl">Tier 2</span><b id="s-t2">0 / __T2__</b></div>
+    <div class="stat"><span class="lbl">Tier 3</span><b id="s-t3">0 / __T3__</b></div>
+    <div class="spacer"></div>
+    <div class="acct">
+      <span class="dot" id="dot"></span>
+      <span class="lbl" id="state">Starting up</span>
+      <button id="b-signin" class="hide">Sign in</button>
+      <button id="b-signout" class="hide">Sign out</button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="panel hide" id="signin">
+    <h3>Sign in to sync across devices</h3>
+    <p>Enter your email and you'll get a sign-in link — no password to make up or remember. Anything you've already ticked on this device gets folded into your account the first time you sign in.</p>
+    <div class="row">
+      <input type="email" id="email" placeholder="you@example.com" autocomplete="email" style="width:240px">
+      <button id="b-link">Email me a link</button>
+      <button id="b-gh" class="hide">Continue with GitHub</button>
+      <button id="b-cancel">Cancel</button>
+    </div>
+    <p id="authmsg" style="margin:12px 0 0;color:var(--signal)"></p>
+  </div>
+
+  <main id="list"></main>
+
+  <div class="panel">
+    <h3>Move progress by hand</h3>
+    <p>Copy this code to carry progress to another browser without signing in. Loading a code replaces what's currently ticked.</p>
+    <textarea id="code" spellcheck="false" aria-label="Progress code"></textarea>
+    <div class="row" style="margin-top:10px">
+      <button id="b-export">Copy my code</button>
+      <button id="b-import">Load a code</button>
+      <button id="b-reset">Clear progress</button>
+    </div>
+    <p id="msg" style="margin:10px 0 0;color:var(--signal)"></p>
+  </div>
+
+  <footer>
+    <p><strong>Tiers.</strong> 1 is essential, 2 is strongly recommended (the Fantastic Four run — it's what makes the ending land), 3 is genuinely optional. The minimum viable path is Tier 1 alone.</p>
+    <p><strong>Reading in Marvel Unlimited?</strong> Most issues link to their series page rather than the issue, because Marvel only exposes the 20 most recent issues of any series to the outside world. The issue numbers tell you when to switch titles, which is the real difficulty with an interleaved run.</p>
+    <p>Reading order compiled from Comic Book Herald, Crushing Krisis and How To Love Comics; the Fantastic Four/FF weave follows the order Hickman specified for the omnibus.</p>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script>
+const SUPABASE_URL      = 'https://sqyhyocrwqzlfbfvgisb.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_jdNPUTPEwpw1P0KXF4TehA_-ZdHcEmS';
+const ENABLE_GITHUB_LOGIN = false;
+
+const DATA = __DATA__;
+const TOTAL = DATA.reduce((a,s)=>a+s.items.length,0);
+const TIERTOT = {1:0,2:0,3:0};
+DATA.forEach(s=>TIERTOT[s.tier]+=s.items.length);
+
+const ORDER = DATA.flatMap(s=>s.items.map(x=>x.id));
+const VALID = new Set(ORDER);
+
+const CLOUD = !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase);
+const sb = CLOUD ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
+
+let done = new Set();
+let user = null;
+let saveTimer = null;
+
+const LKEY = 'hsw:v2:local';
+const OLDKEY = 'hsw:v1:local';
+
+function migrate(){
+  if(localStorage.getItem(LKEY) || !localStorage.getItem(OLDKEY)) return;
+  try{
+    const old = JSON.parse(localStorage.getItem(OLDKEY));
+    if(!Array.isArray(old)) return;
+    const keys = old.filter(n=>Number.isInteger(n) && n>=0 && n<ORDER.length).map(n=>ORDER[n]);
+    localStorage.setItem(LKEY, JSON.stringify(keys));
+  }catch(e){}
+}
+const $ = id => document.getElementById(id);
+function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function flash(t,el){ const m=$(el||'msg'); m.textContent=t; setTimeout(()=>{if(m.textContent===t)m.textContent=''},5000); }
+function state(text,cls){ $('state').textContent=text; $('dot').className='dot'+(cls?' '+cls:''); }
+
+function clean(arr){
+  return new Set((Array.isArray(arr)?arr:[]).filter(k=>VALID.has(k)));
+}
+function readLocal(){
+  try{ return clean(JSON.parse(localStorage.getItem(LKEY)||'[]')); }catch(e){ return new Set(); }
+}
+function writeLocal(){
+  try{ localStorage.setItem(LKEY, JSON.stringify([...done])); }catch(e){}
+}
+async function pushCloud(){
+  if(!user) return;
+  const { error } = await sb.from('progress')
+    .upsert({ user_id:user.id, read_ids:[...done], updated_at:new Date().toISOString() });
+  if(error){
+    state('Sync failed — saved on this device','');
+    flash('Supabase: '+(error.message||'unknown error')+' (progress is safe on this device)');
+    console.error('[tracker] write failed', error);
+  }else{
+    state('Synced','ok');
+  }
+}
+function persist(){
+  writeLocal();
+  if(!user) return;
+  clearTimeout(saveTimer);
+  state('Saving','busy');
+  saveTimer = setTimeout(pushCloud, 700);
+}
+
+async function adopt(){
+  const { data, error } = await sb.from('progress')
+    .select('read_ids').eq('user_id', user.id).maybeSingle();
+  if(error){
+    done = readLocal();
+    state('Sync failed — saved on this device','');
+    flash('Supabase: '+(error.message||'unknown error')+' (progress is safe on this device)');
+    console.error('[tracker] read failed', error);
+    return;
+  }
+  const server = clean(data ? data.read_ids : []);
+  const local  = readLocal();
+  const flag = 'hsw:merged:'+user.id;
+  if(!localStorage.getItem(flag) && local.size){
+    done = new Set([...server, ...local]);
+    localStorage.setItem(flag,'1');
+    await pushCloud();
+    flash('Folded '+local.size+' issues from this device into your account.');
+  }else{
+    done = server;
+    state('Synced','ok');
+  }
+  writeLocal();
+}
+async function onSession(session){
+  user = session ? session.user : null;
+  if(user){
+    $('b-signin').classList.add('hide');
+    $('b-signout').classList.remove('hide');
+    $('signin').classList.add('hide');
+    state(user.email || 'Signed in','ok');
+    try{ await adopt(); }
+    catch(e){
+      done = readLocal();
+      state('Sync failed — saved on this device','');
+      flash('Sync error: '+(e.message||e)+' (progress is safe on this device)');
+      console.error('[tracker] adopt threw', e);
+    }
+  }else{
+    $('b-signout').classList.add('hide');
+    if(CLOUD) $('b-signin').classList.remove('hide');
+    done = readLocal();
+    state(CLOUD ? 'Not signed in' : 'Saved on this device','');
+  }
+  paint();
+}
+
+function build(){
+  $('list').innerHTML = DATA.map(s=>{
+    const rows = s.items.map(x=>{
+      const t = x.url ? '<a class="iss" href="'+x.url+'" target="_blank" rel="noopener">'+esc(x.t)+'</a>' : esc(x.t);
+      return '<li data-id="'+x.id+'"><input type="checkbox" aria-labelledby="l'+x.id+'">'
+        +'<span class="ttl" id="l'+x.id+'">'+t+' <span class="num mono">'+esc(x.n)+'</span> '
+        +(x.star?'<span class="star">'+'\u2605'.repeat(x.star)+'</span> ':'')
+        +(x.opt?'<span class="opt">optional</span>':'')
+        +(x.note?'<span class="nb">'+esc(x.note)+'</span>':'')+'</span></li>';
+    }).join('');
+    return '<details id="d-'+s.id+'"><summary>'
+      +'<span class="tier mono'+(s.tier===1?' a':'')+'">T'+s.tier+'</span>'
+      +'<span class="st"><h2>'+esc(s.title)+'</h2><p>'+esc(s.sub)+'</p></span>'
+      +(s.series?s.series.map(x=>'<a class="sl" href="'+x.url+'" target="_blank" rel="noopener">'+esc(x.label)+' &#8599;</a>').join(''):'')
+      +'<span class="cnt mono" id="n-'+s.id+'"></span></summary>'
+      +(s.intro?'<div class="intro">'+s.intro.split('\n\n').map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>':'')
+      +'<ol>'+rows+'</ol></details>';
+  }).join('');
+
+  let h='';
+  DATA.forEach((s,i)=>{
+    if(i) h += '<span class="tick sep"></span>';
+    s.items.forEach(x=> h += '<span class="tick'+(s.tier===1?' t1':'')+'" data-t="'+x.id+'"></span>');
+  });
+  $('strip').innerHTML = h;
+
+  $('list').addEventListener('change', e=>{
+    if(e.target.type!=='checkbox') return;
+    const id = e.target.closest('li').dataset.id;
+    e.target.checked ? done.add(id) : done.delete(id);
+    persist(); paint();
+  });
+}
+function paint(){
+  document.querySelectorAll('#list li').forEach(li=>{
+    const on = done.has(li.dataset.id);
+    li.classList.toggle('done', on);
+    li.querySelector('input').checked = on;
+  });
+  document.querySelectorAll('.tick[data-t]').forEach(t=> t.classList.toggle('on', done.has(t.dataset.t)));
+  const per={1:0,2:0,3:0};
+  DATA.forEach(s=>{
+    const n = s.items.filter(x=>done.has(x.id)).length;
+    per[s.tier]+=n;
+    const el=$('n-'+s.id);
+    el.textContent = n+' / '+s.items.length;
+    el.classList.toggle('full', n===s.items.length);
+  });
+  $('s-all').textContent = done.size+' / '+TOTAL;
+  [1,2,3].forEach(t=> $('s-t'+t).textContent = per[t]+' / '+TIERTOT[t]);
+  $('code').value = btoa(JSON.stringify([...done]));
+}
+
+$('b-signin').onclick = ()=>{ $('signin').classList.remove('hide'); $('email').focus(); };
+$('b-cancel').onclick = ()=> $('signin').classList.add('hide');
+$('b-signout').onclick = async ()=>{ await sb.auth.signOut(); location.reload(); };
+$('b-link').onclick = async ()=>{
+  const email = $('email').value.trim();
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ flash('Enter a valid email address.','authmsg'); return; }
+  $('b-link').disabled = true;
+  const { error } = await sb.auth.signInWithOtp({ email, options:{ emailRedirectTo: location.href.split('#')[0] } });
+  $('b-link').disabled = false;
+  flash(error ? error.message : 'Link sent. Check your email.', 'authmsg');
+};
+$('b-gh').onclick = ()=> sb.auth.signInWithOAuth({ provider:'github', options:{ redirectTo: location.href.split('#')[0] } });
+$('b-export').onclick = async ()=>{
+  try{ await navigator.clipboard.writeText($('code').value); flash('Code copied.'); }
+  catch(e){ $('code').select(); flash('Press Ctrl/Cmd+C to copy.'); }
+};
+$('b-import').onclick = ()=>{
+  const v = $('code').value.trim();
+  if(!v){ flash('Paste a code into the box first.'); return; }
+  try{
+    const arr = JSON.parse(atob(v));
+    if(!Array.isArray(arr)) throw 0;
+    const asKeys = arr.every(n=>Number.isInteger(n))
+      ? arr.filter(n=>n>=0&&n<ORDER.length).map(n=>ORDER[n])
+      : arr;
+    done = clean(asKeys);
+    if(!done.size && arr.length) throw 0;
+    persist(); paint(); flash('Loaded '+done.size+' issues.');
+  }catch(e){ flash('That code isn\u2019t valid.'); }
+};
+$('b-reset').onclick = ()=>{
+  if(!confirm('Clear all progress?')) return;
+  done = new Set(); persist(); paint(); flash('Progress cleared.');
+};
+
+migrate();
+build();
+if(ENABLE_GITHUB_LOGIN && CLOUD) $('b-gh').classList.remove('hide');
+if(CLOUD){
+  sb.auth.onAuthStateChange((_e, session)=> onSession(session));
+  sb.auth.getSession()
+    .then(({data})=> onSession(data.session))
+    .catch(e=>{
+      console.error('[tracker] getSession failed', e);
+      done = readLocal();
+      state('Sync unavailable — saved on this device','');
+      flash('Could not reach Supabase: '+(e.message||e));
+      paint();
+    });
+  setTimeout(()=>{
+    if($('state').textContent === 'Starting up'){
+      done = readLocal();
+      state('Sync timed out — saved on this device','');
+      paint();
+    }
+  }, 8000);
+}else{
+  done = readLocal();
+  state('Saved on this device','');
+  paint();
+}
+const start = DATA.find(s=>s.start) || DATA.find(s=>s.series) || DATA[0];
+if(start) $('d-'+start.id).open = true;
+</script>
+</body>
+</html>
