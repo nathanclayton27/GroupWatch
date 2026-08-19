@@ -35,9 +35,15 @@
     "windows": [
       {
         "start": "2026-07-15",
+        "end": "2026-07-21",
+        "through": 12,
+        "label": "Chapter 1: Hunt for the Stone"
+      },
+      {
+        "start": "2026-07-22",
         "end": "2026-07-28",
         "through": 20,
-        "label": "Chapters 1–2: Hunt for the Stone & Shadow of the Homunculi"
+        "label": "Chapter 2: Shadow of the Homunculi"
       },
       {
         "start": "2026-07-29",
@@ -67,12 +73,12 @@
   },
   "sections": [
     {
-      "id": "ch1-2",
-      "title": "Chapters 1–2: Hunt for the Stone & Shadow of the Homunculi",
-      "sub": "episodes 1–20 · July 15 – July 28",
+      "id": "ch1",
+      "title": "Chapter 1: Hunt for the Stone",
+      "sub": "episodes 1–12 · July 15 – July 21",
       "window": {
         "start": "2026-07-15",
-        "end": "2026-07-28"
+        "end": "2026-07-21"
       },
       "items": [
         {
@@ -134,7 +140,18 @@
           "id": "fmab-12",
           "t": "One is All, All is One",
           "n": "12"
-        },
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "Chapter 2: Shadow of the Homunculi",
+      "sub": "episodes 13–20 · July 22 – July 28",
+      "window": {
+        "start": "2026-07-22",
+        "end": "2026-07-28"
+      },
+      "items": [
         {
           "id": "fmab-13",
           "t": "Beasts of Dublith",

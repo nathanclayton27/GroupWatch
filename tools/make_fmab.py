@@ -10,9 +10,15 @@ import json
 import pathlib
 
 # (section id, title, first episode, last episode, window start, window end)
+#
+# The club calendar gives chapters 1 and 2 a single fortnight, but the split is
+# really 1–12 and 13–20. Splitting the window into two weeks keeps chapter 2
+# ending on 28 July, so every later window — and the finish date — is untouched.
 ARCS = [
-    ("ch1-2", "Chapters 1–2: Hunt for the Stone & Shadow of the Homunculi",
-     1, 20, "2026-07-15", "2026-07-28"),
+    ("ch1", "Chapter 1: Hunt for the Stone",
+     1, 12, "2026-07-15", "2026-07-21"),
+    ("ch2", "Chapter 2: Shadow of the Homunculi",
+     13, 20, "2026-07-22", "2026-07-28"),
     ("ch3", "Chapter 3: Sins of the Father",
      21, 30, "2026-07-29", "2026-08-04"),
     ("ch4", "Chapter 4: The Wall of Briggs",
