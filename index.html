@@ -459,6 +459,21 @@ let MANIFEST = [
       "many": "episodes"
     },
     "total": 435
+  },
+  {
+    "slug": "one-piece-manga",
+    "title": "One Piece (manga)",
+    "subtitle": "Eiichiro Oda",
+    "kind": "manga",
+    "year": "1997–",
+    "blurb": "1190 chapters, 33 arcs, still running.",
+    "accent": "#A8721F",
+    "accentDark": "#E0AE55",
+    "unit": {
+      "one": "chapter",
+      "many": "chapters"
+    },
+    "total": 1190
   }
 ];
 
@@ -466,7 +481,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '810997c292d0';
+const BUILD = 'f46665f3c6ab';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});

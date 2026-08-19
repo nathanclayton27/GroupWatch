@@ -103,5 +103,20 @@
       "many": "episodes"
     },
     "total": 435
+  },
+  {
+    "slug": "one-piece-manga",
+    "title": "One Piece (manga)",
+    "subtitle": "Eiichiro Oda",
+    "kind": "manga",
+    "year": "1997–",
+    "blurb": "1190 chapters, 33 arcs, still running.",
+    "accent": "#A8721F",
+    "accentDark": "#E0AE55",
+    "unit": {
+      "one": "chapter",
+      "many": "chapters"
+    },
+    "total": 1190
   }
 ]
