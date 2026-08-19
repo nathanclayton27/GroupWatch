@@ -88,5 +88,20 @@
       "many": "episodes"
     },
     "total": 74
+  },
+  {
+    "slug": "one-pace",
+    "title": "One Pace",
+    "subtitle": "One Piece at the manga's pacing",
+    "kind": "anime",
+    "year": "fan recut",
+    "blurb": "435 episodes, 36 arcs, no filler and no padding.",
+    "accent": "#2E7A6B",
+    "accentDark": "#5FBFA8",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 435
   }
 ]
