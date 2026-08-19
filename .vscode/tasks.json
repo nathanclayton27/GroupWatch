@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build index.html",
+      "type": "shell",
+      "command": "python3 src/build.py",
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Serve on localhost:8000",
+      "type": "shell",
+      "command": "python3 -m http.server 8000",
+      "isBackground": true,
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build and serve",
+      "dependsOrder": "sequence",
+      "dependsOn": ["Build index.html", "Serve on localhost:8000"],
+      "problemMatcher": []
+    }
+  ]
+}
