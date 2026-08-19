@@ -757,6 +757,11 @@ function scheduleWaiting(){
 
 function paceInfo(){
   const ws = windows();
+  // A paced property's pace IS its schedule. Falling back to a straight line to
+  // whatever finish date the group happens to carry produces a completely
+  // different — and wrong — set of dates, while the header correctly says the
+  // schedule has not started.
+  if(!ws && isPaced()) return null;
   if(ws){
     const today = todayISO();
     const closed = ws.filter(w=> w.end < today);
@@ -797,6 +802,7 @@ function dueFor(idx){
     const w = ws.find(w=> w.through >= need);
     return w ? w.end : null;
   }
+  if(isPaced()) return null;      // schedule not running: no item is due yet
   if(!group || !group.target_date) return null;
   const start = new Date(group.start_date + 'T00:00:00').getTime();
   const end   = new Date(group.target_date + 'T00:00:00').getTime();
