@@ -29,7 +29,7 @@
     "Order compiled from How To Love Comics, Comic Book Treasury, Comic Book Herald and comicbookreadingorders.com. Where sources disagree on how the events interleave, the tie-in issues are cut into the main run at chapter boundaries, which is how the omnibus reads.",
     [
       "Links.",
-      "Sections link to their Marvel series page rather than to each issue. A few of the one-shots and event minis have no link — their series ids could not be confirmed, and a wrong link is worse than none."
+      "Sections link to their Marvel series pages rather than to each issue, because Marvel only exposes the 20 most recent issues of a series to the outside world. Every id was looked up rather than guessed."
     ]
   ],
   "sections": [
@@ -41,6 +41,10 @@
         {
           "label": "Venom",
           "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        },
+        {
+          "label": "Ve'Nam",
+          "url": "https://www.marvel.com/comics/series/25942/web_of_venom_venam_2018"
         }
       ],
       "sub": "Venom #1–6 · the run's opening statement",
@@ -147,6 +151,10 @@
         {
           "label": "Venom",
           "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        },
+        {
+          "label": "Venom Unleashed",
+          "url": "https://www.marvel.com/comics/series/25944/web_of_venom_venom_unleashed_2019"
         }
       ],
       "sub": "Venom #13–15 · a detour, and not Cates'",
@@ -169,6 +177,13 @@
           "t": "Venom",
           "n": "#15",
           "opt": 1
+        },
+        {
+          "id": "venom-wov-unleashed",
+          "t": "Web of Venom: Venom Unleashed",
+          "n": "#1",
+          "note": "collected with this arc; also not Cates",
+          "opt": 1
         }
       ]
     },
@@ -179,7 +194,7 @@
       "links": [
         {
           "label": "Carnage Born",
-          "url": "https://www.marvel.com/comics/series/25943/web_of_venom:_carnage_born_(2018)"
+          "url": "https://www.marvel.com/comics/series/25943/web_of_venom_carnage_born_2018"
         },
         {
           "label": "Venom",
@@ -223,6 +238,10 @@
         {
           "label": "Venom",
           "url": "https://www.marvel.com/comics/series/24310/venom_2018_-_2021"
+        },
+        {
+          "label": "Funeral Pyre",
+          "url": "https://www.marvel.com/comics/series/27245/web_of_venom_funeral_pyre_2019"
         }
       ],
       "sub": "the event, cut into the run · Cates wrote both halves",
@@ -286,6 +305,24 @@
       "id": "ac-tie-ins",
       "tier": 3,
       "title": "Absolute Carnage tie-ins",
+      "links": [
+        {
+          "label": "Scream",
+          "url": "https://www.marvel.com/comics/series/27635/absolute_carnage_scream_2019"
+        },
+        {
+          "label": "Miles Morales",
+          "url": "https://www.marvel.com/comics/series/27634/absolute_carnage_miles_morales_2019"
+        },
+        {
+          "label": "Lethal Protectors",
+          "url": "https://www.marvel.com/comics/series/27633/absolute_carnage_lethal_protectors_2019"
+        },
+        {
+          "label": "Immortal Hulk",
+          "url": "https://www.marvel.com/comics/series/27632/absolute_carnage_immortal_hulk_2019"
+        }
+      ],
       "sub": "the ones worth it, of about a dozen",
       "intro": "Cates' own advice was that the main series plus the Venom tie-in is enough. These four are the ones that earn their place anyway. The other tie-ins — Deadpool, Avengers, Captain Marvel, Weapon Plus, Symbiote Spider-Man, Separation Anxiety, Symbiote of Vengeance — are fine and entirely skippable.",
       "items": [
@@ -360,7 +397,11 @@
       "links": [
         {
           "label": "Cult of Carnage",
-          "url": "https://www.marvel.com/comics/series/25945/web_of_venom:_cult_of_carnage_(2019)"
+          "url": "https://www.marvel.com/comics/series/25945/web_of_venom_cult_of_carnage_2019"
+        },
+        {
+          "label": "The Good Son",
+          "url": "https://www.marvel.com/comics/series/27666/web_of_venom_the_good_son_2020"
         }
       ],
       "sub": "two one-shots that carry weight later",
@@ -503,6 +544,16 @@
       "id": "road-kib",
       "tier": 2,
       "title": "Road to King in Black",
+      "links": [
+        {
+          "label": "Wraith",
+          "url": "https://www.marvel.com/comics/series/27667/web_of_venom_wraith_2020"
+        },
+        {
+          "label": "Empyre's End",
+          "url": "https://www.marvel.com/comics/series/27668/web_of_venom_empyres_end_2020"
+        }
+      ],
       "sub": "the last breath before the sky goes dark",
       "intro": "One piece of outside context: Empyre was a 2020 event in which the Kree and the Skrulls united under one emperor and turned on Earth. Venom's connection is glancing — a single one-shot tidying an aftermath thread. Knowing it happened is enough; you do not need to have read it.",
       "items": [
@@ -596,6 +647,14 @@
       "tier": 3,
       "title": "King in Black tie-ins",
       "links": [
+        {
+          "label": "Namor",
+          "url": "https://www.marvel.com/comics/series/31379/king_in_black_namor_2020_2021"
+        },
+        {
+          "label": "Planet of the Symbiotes",
+          "url": "https://www.marvel.com/comics/series/31384/king_in_black_planet_of_the_symbiotes_2021"
+        },
         {
           "label": "Gwenom vs. Carnage",
           "url": "https://www.marvel.com/comics/series/31400/king_in_black_gwenom_vs_carnage_2021"
