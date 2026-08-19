@@ -312,7 +312,10 @@ footer a{color:var(--steel)}
       </div>
       <div class="row" style="margin-top:14px">
         <input type="text" id="gtitle" placeholder="Group name" maxlength="40" style="width:190px">
-        <input type="date" id="gdate" aria-label="Finish by">
+        <span class="lbl">Starts</span>
+        <input type="date" id="gstart" aria-label="Starts">
+        <span class="lbl" id="gdate-l">Finishes</span>
+        <input type="date" id="gdate" aria-label="Finishes">
         <button id="b-gcreate">Create a group</button>
       </div>
       <div class="row" style="margin-top:10px">
@@ -1126,6 +1129,12 @@ function renderGroupPanel(){
       $('b-gretry').onclick = ()=> refreshGroup(true);
       return;
     }
+    // a property with a shape rather than a calendar only needs the start
+    const sch = PROP && PROP.schedule;
+    const rel = sch && sch.kind === 'windows' && (sch.windows||[]).length
+             && sch.windows[0].start === undefined;
+    $('gdate-l').textContent = rel ? 'Finishes (from the start)' : 'Finishes';
+    $('gdate').disabled = !!rel;
     $('gsetup-p').textContent = VERB.base
       ? cap(VERB.base)+' '+PROP.title+' alongside other people. Everyone’s progress '
         + 'stacks onto one strip at the top of the page, and if the group has a finish '
@@ -1722,16 +1731,36 @@ $('b-gcreate').onclick = async ()=>{
   if(!user){ flash('Sign in first — a group needs an account.','gmsg'); return; }
   const title = $('gtitle').value.trim();
   if(!title){ flash('Give the group a name.','gmsg'); return; }
+  const start = $('gstart').value, end = $('gdate').value;
+  if(start && end && end <= start){
+    flash('The finish date has to be after the start.','gmsg'); return;
+  }
   $('b-gcreate').disabled = true;
   const { data, error } = await sb.rpc('create_group', {
     p_name: title,
-    p_target: $('gdate').value || null,
+    p_target: end || null,
     p_display_name: $('gname').value.trim() || 'Reader',
     p_property_id: SLUG
   });
-  $('b-gcreate').disabled = false;
-  if(error){ flash('Could not create the group: '+error.message,'gmsg'); return; }
+  if(error){
+    $('b-gcreate').disabled = false;
+    flash('Could not create the group: '+error.message,'gmsg'); return;
+  }
   const made = Array.isArray(data) ? data[0] : data;
+
+  // create_group only takes a finish date, so anything else is a follow-up
+  // write — the creator owns the row, so the update policy allows it
+  if(made && start){
+    const sch = PROP && PROP.schedule;
+    const rel = sch && sch.kind === 'windows' && (sch.windows||[]).length
+             && sch.windows[0].start === undefined;
+    const patch = { start_date: start };
+    if(rel) patch.schedule_start = start;
+    const { error: e2 } = await sb.from('groups').update(patch).eq('id', made.id);
+    if(e2) console.error('[tracker] could not set the start date', e2);
+  }
+
+  $('b-gcreate').disabled = false;
   if(made) localStorage.setItem(GKEY, made.id);
   await refreshGroup(false);
   startGroupPoll();
