@@ -510,6 +510,21 @@ let MANIFEST = [
       "many": "parts"
     },
     "total": 36
+  },
+  {
+    "slug": "kingdom-hearts",
+    "title": "Kingdom Hearts",
+    "subtitle": "every game, in release order",
+    "kind": "games",
+    "year": "2002–2027",
+    "blurb": "31 entries in release order, tiered by what the story actually needs.",
+    "accent": "#3B4CA8",
+    "accentDark": "#8A98E8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 31
   }
 ];
 
@@ -529,7 +544,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'baa90611b256';
+const BUILD = 'cec4e4bcbb9d';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
