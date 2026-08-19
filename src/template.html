@@ -1586,6 +1586,32 @@ function filterMenu(q){
   });
 }
 
+function showSplash(){
+  $('splash').classList.remove('hide');
+  $('switcher').classList.add('hide');
+  document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
+  document.title = 'GroupWatch';
+
+  const TICKS = 46;
+  $('cards').innerHTML = MANIFEST.map(m=>{
+    const n = localCount(m.slug);
+    const on = Math.round(TICKS * Math.min(1, n/m.total));
+    const meta = [m.kind, m.year, m.total + ' ' + m.unit.many].filter(Boolean);
+    let bar = '';
+    for(let i=0;i<TICKS;i++)
+      bar += '<span'+(i<on?' class="on" style="background:'+esc(accentOf(m))+'"':'')+'></span>';
+    return '<button class="card" data-slug="'+esc(m.slug)+'">'
+      + '<h2><span class="pdot" style="background:'+esc(accentOf(m))+'"></span>'
+      + esc(m.title)+'</h2>'
+      + '<div class="pm-m">'+meta.map(esc).join(' · ')+(n?' · '+n+' done':'')+'</div>'
+      + (m.blurb ? '<div class="pm-b">'+esc(m.blurb)+'</div>' : '')
+      + '<div class="cbar">'+bar+'</div></button>';
+  }).join('');
+  $('cards').querySelectorAll('button[data-slug]').forEach(b=>{
+    b.onclick = ()=> go(b.dataset.slug);
+  });
+}
+
 function openMenu(){
   $('pmenu').classList.remove('hide');
   $('b-prop').setAttribute('aria-expanded','true');
