@@ -140,10 +140,10 @@ summary::-webkit-details-marker{display:none}
   padding:3px 9px;background:transparent;cursor:pointer;white-space:nowrap;
   transition:opacity .12s,border-color .12s,color .12s}
 .bulk:hover{border-color:var(--ink);color:var(--ink)}
-/* clearing a finished section is destructive, so it stays hidden until you
-   deliberately point at the header */
-.bulk.clear{opacity:0;pointer-events:none}
-summary:hover .bulk.clear,summary:focus-within .bulk.clear{opacity:1;pointer-events:auto}
+/* the header is a title and a count, not a control panel — the button only
+   appears when you point at the row it belongs to */
+.bulk{opacity:0;pointer-events:none}
+summary:hover .bulk,summary:focus-within .bulk{opacity:1;pointer-events:auto}
 .bulk.clear:hover{border-color:var(--signal);color:var(--signal)}
 .catch{position:absolute;right:16px;top:50%;transform:translateY(-50%);
   font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);
@@ -152,7 +152,7 @@ summary:hover .bulk.clear,summary:focus-within .bulk.clear{opacity:1;pointer-eve
 li{position:relative}
 li:hover .catch,.catch:focus-visible{opacity:1}
 .catch:hover{border-color:var(--signal);color:var(--signal)}
-@media (hover:none){.bulk.clear{opacity:1;pointer-events:auto} .catch{opacity:1}}
+@media (hover:none){.bulk{opacity:1;pointer-events:auto} .catch{opacity:1}}
 details[open] summary{border-bottom:1px solid var(--rule)}
 
 ol{list-style:none;margin:0;padding:6px 0}
