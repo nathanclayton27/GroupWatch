@@ -23,6 +23,8 @@ import pathlib
 SLUG = "one-piece-manga"
 LAST = 1190          # released 9 August 2026
 
+# Volumes are the sections; the arc table below only labels them, so you can see
+# which story an unfamiliar volume number belongs to.
 # saga, arc, first chapter — each arc runs to the chapter before the next starts
 ARCS = [
     ("East Blue",       "Romance Dawn",           1),
@@ -64,10 +66,123 @@ ARCS = [
     ("Whole Cake",      "Whole Cake Island",    823),
     ("Whole Cake",      "Reverie",              903),
 
-    ("Wano Country",    "Wano",                 909),
+    # 149 chapters is too long to be one section. The arc is published in three
+    # acts, so it splits on those rather than on an invented boundary.
+    ("Wano Country",    "Wano: Act 1",          909),
+    ("Wano Country",    "Wano: Act 2",          925),
+    ("Wano Country",    "Wano: Act 3",          958),
 
     ("Final",           "Egghead",             1058),
     ("Final",           "Elbaf",               1126),
+]
+
+VOLUMES = [
+    (1, 1, 8),
+    (2, 9, 17),
+    (3, 18, 26),
+    (4, 27, 35),
+    (5, 36, 44),
+    (6, 45, 53),
+    (7, 54, 62),
+    (8, 63, 71),
+    (9, 72, 81),
+    (10, 82, 90),
+    (11, 91, 99),
+    (12, 100, 108),
+    (13, 109, 117),
+    (14, 118, 126),
+    (15, 127, 136),
+    (16, 137, 145),
+    (17, 146, 155),
+    (18, 156, 166),
+    (19, 167, 176),
+    (20, 177, 186),
+    (21, 187, 195),
+    (22, 196, 205),
+    (23, 206, 216),
+    (24, 217, 226),
+    (25, 227, 236),
+    (26, 237, 246),
+    (27, 247, 255),
+    (28, 256, 264),
+    (29, 265, 275),
+    (30, 276, 285),
+    (31, 286, 295),
+    (32, 296, 305),
+    (33, 306, 316),
+    (34, 317, 327),
+    (35, 328, 336),
+    (36, 337, 346),
+    (37, 347, 357),
+    (38, 358, 367),
+    (39, 368, 377),
+    (40, 378, 388),
+    (41, 389, 399),
+    (42, 400, 409),
+    (43, 410, 419),
+    (44, 420, 430),
+    (45, 431, 440),
+    (46, 441, 449),
+    (47, 450, 459),
+    (48, 460, 470),
+    (49, 471, 481),
+    (50, 482, 491),
+    (51, 492, 502),
+    (52, 503, 512),
+    (53, 513, 522),
+    (54, 523, 532),
+    (55, 533, 541),
+    (56, 542, 551),
+    (57, 552, 562),
+    (58, 563, 573),
+    (59, 574, 584),
+    (60, 585, 594),
+    (61, 595, 603),
+    (62, 604, 614),
+    (63, 615, 626),
+    (64, 627, 636),
+    (65, 637, 646),
+    (66, 647, 656),
+    (67, 657, 667),
+    (68, 668, 678),
+    (69, 679, 690),
+    (70, 691, 700),
+    (71, 701, 711),
+    (72, 712, 721),
+    (73, 722, 731),
+    (74, 732, 742),
+    (75, 743, 752),
+    (76, 753, 763),
+    (77, 764, 775),
+    (78, 776, 785),
+    (79, 786, 795),
+    (80, 796, 806),
+    (81, 807, 816),
+    (82, 817, 827),
+    (83, 828, 838),
+    (84, 839, 848),
+    (85, 849, 858),
+    (86, 859, 869),
+    (87, 870, 879),
+    (88, 880, 889),
+    (89, 890, 900),
+    (90, 901, 910),
+    (91, 911, 921),
+    (92, 922, 931),
+    (93, 932, 942),
+    (94, 943, 953),
+    (95, 954, 964),
+    (96, 965, 974),
+    (97, 975, 984),
+    (98, 985, 994),
+    (99, 995, 1004),
+    (100, 1005, 1015),
+    (101, 1016, 1025),
+    (102, 1026, 1035),
+    (103, 1036, 1046),
+    (104, 1047, 1055),
+    (105, 1056, 1065),
+    (106, 1066, 1076),
 ]
 
 MOVING = {"Elbaf"}
@@ -84,21 +199,45 @@ def slugify(name):
 
 
 def main():
-    sections = []
+    # chapter -> arc, for labelling
+    arc_of = {}
     for i, (saga, arc, first) in enumerate(ARCS):
         last = ARCS[i + 1][2] - 1 if i + 1 < len(ARCS) else LAST
-        n = last - first + 1
-        if n < 1:
-            raise SystemExit("arc %r has no chapters" % arc)
+        for c in range(first, last + 1):
+            arc_of[c] = arc
+
+    def arcs_in(a, b):
+        seen = []
+        for c in range(a, b + 1):
+            name = arc_of.get(c)
+            if name and name not in seen:
+                seen.append(name)
+        return seen
+
+    sections = []
+    for num, first, last in VOLUMES:
+        names = arcs_in(first, last)
         sections.append({
-            "id": "c-" + slugify(arc),
-            "title": arc,
-            "sub": "%s · chapter%s %d–%d%s"
-                   % (saga, "" if n == 1 else "s", first, last,
-                      " · still running" if arc in MOVING else ""),
+            "id": "v-%d" % num,
+            "title": "Volume %d" % num,
+            "sub": "chapters %d–%d · %s" % (first, last, ", ".join(names)),
             "items": [
                 {"id": "opm-%d" % c, "t": "Chapter", "n": str(c)}
                 for c in range(first, last + 1)
+            ],
+        })
+
+    collected = VOLUMES[-1][2]
+    if collected < LAST:
+        names = arcs_in(collected + 1, LAST)
+        sections.append({
+            "id": "v-uncollected",
+            "title": "Not yet collected",
+            "sub": "chapters %d–%d · %s · no volume yet"
+                   % (collected + 1, LAST, ", ".join(names)),
+            "items": [
+                {"id": "opm-%d" % c, "t": "Chapter", "n": str(c)}
+                for c in range(collected + 1, LAST + 1)
             ],
         })
 
@@ -108,10 +247,10 @@ def main():
         raise SystemExit("duplicate item ids")
     if total != LAST:
         raise SystemExit("expected %d chapters, built %d" % (LAST, total))
-
-    by = {s["title"]: len(s["items"]) for s in sections}
-    if by["Egghead"] != 68:
-        raise SystemExit("Egghead is %d chapters, expected 68" % by["Egghead"])
+    # volumes must tile the chapters with no gap or overlap
+    for i in range(1, len(VOLUMES)):
+        if VOLUMES[i][1] != VOLUMES[i - 1][2] + 1:
+            raise SystemExit("volume %d does not follow %d" % (VOLUMES[i][0], VOLUMES[i-1][0]))
 
     prop = {
         "slug": SLUG,
@@ -120,7 +259,7 @@ def main():
         "kind": "manga",
         "order": 7,
         "year": "1997–",
-        "blurb": "%d chapters, %d arcs, still running." % (total, len(sections)),
+        "blurb": "%d chapters across %d volumes, still running." % (total, len(VOLUMES)),
         "unit": {"one": "chapter", "many": "chapters"},
         "verb": {"base": "read", "past": "read", "ing": "reading"},
         "tiers": False,
@@ -130,10 +269,10 @@ def main():
             ["Ahead of the anime.", "The manga is well past where the anime is. "
                                     "Chapter %d here is roughly a hundred chapters "
                                     "beyond what has been animated." % LAST],
-            ["Arc boundaries.", "From the One Pace timeline data, which lists the "
-                                "manga chapters each arc covers — the same source the "
-                                "One Pace tracker here uses. Made contiguous so every "
-                                "chapter belongs to exactly one arc."],
+            ["Volumes.", "Sections are the collected volumes, with the arc each one "
+                         "covers named alongside. Volume boundaries are parsed from the "
+                         "Wikipedia chapter lists and checked to tile the chapters with "
+                         "no gap or overlap."],
             "Still running. This goes up to chapter %d; rerun the generator to "
             "extend it." % LAST,
         ],
@@ -146,9 +285,8 @@ def main():
         f.write(json.dumps(prop, indent=2, ensure_ascii=False) + "\n")
 
     print("wrote %s.json" % SLUG)
-    print("  %d arcs, %d chapters" % (len(sections), total))
-    print("  longest: %s (%d)" % max(((s["title"], len(s["items"])) for s in sections),
-                                     key=lambda x: x[1])[::1])
+    print("  %d volumes, %d sections, %d chapters" % (len(VOLUMES), len(sections), total))
+    print("  longest section: %d chapters" % max(len(s["items"]) for s in sections))
 
 
 if __name__ == "__main__":
