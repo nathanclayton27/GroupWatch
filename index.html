@@ -476,6 +476,21 @@ let MANIFEST = [
       "many": "chapters"
     },
     "total": 1190
+  },
+  {
+    "slug": "lanterns",
+    "title": "Lanterns",
+    "subtitle": "Hal Jordan and John Stewart",
+    "kind": "tv",
+    "year": "2026",
+    "blurb": "8 episodes, weekly, still airing.",
+    "accent": "#2E7A45",
+    "accentDark": "#5FC47E",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 8
   }
 ];
 
@@ -483,7 +498,7 @@ let MANIFEST = [
 // lifetime, so after a deploy a browser can keep running the old page — new
 // property data loads fine, but the code that draws it does not. Comparing
 // against build.json and reloading once is what removes the manual hard refresh.
-const BUILD = '8540770fffb5';
+const BUILD = '08b6860ae169';
 async function checkBuild(){
   try{
     const r = await fetch('build.json', {cache:'no-store'});

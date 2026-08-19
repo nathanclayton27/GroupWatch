@@ -1,0 +1,142 @@
+{
+  "slug": "lanterns",
+  "title": "Lanterns",
+  "subtitle": "Hal Jordan and John Stewart",
+  "kind": "tv",
+  "order": 8,
+  "year": "2026",
+  "blurb": "8 episodes, weekly, still airing.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#2E7A45",
+  "accentDark": "#5FC47E",
+  "tiers": false,
+  "schedule": {
+    "kind": "windows",
+    "windows": [
+      {
+        "start": "2026-08-16",
+        "end": "2026-08-22",
+        "through": 1,
+        "label": "Episode 1"
+      },
+      {
+        "start": "2026-08-23",
+        "end": "2026-08-29",
+        "through": 2,
+        "label": "Episode 2"
+      },
+      {
+        "start": "2026-08-30",
+        "end": "2026-09-05",
+        "through": 3,
+        "label": "Episode 3"
+      },
+      {
+        "start": "2026-09-06",
+        "end": "2026-09-12",
+        "through": 4,
+        "label": "Episode 4"
+      },
+      {
+        "start": "2026-09-13",
+        "end": "2026-09-19",
+        "through": 5,
+        "label": "Episode 5"
+      },
+      {
+        "start": "2026-09-20",
+        "end": "2026-09-26",
+        "through": 6,
+        "label": "Episode 6"
+      },
+      {
+        "start": "2026-09-27",
+        "end": "2026-10-03",
+        "through": 7,
+        "label": "Episode 7"
+      },
+      {
+        "start": "2026-10-04",
+        "end": "2026-10-10",
+        "through": 8,
+        "label": "Episode 8"
+      }
+    ]
+  },
+  "notes": [
+    [
+      "Airing now.",
+      "One window per episode, so the pace line tells you whether you are caught up with the broadcast rather than on track for some distant finish. The last episode lands on 4 October 2026."
+    ],
+    [
+      "Titles.",
+      "Only the first two have been announced. The rest are numbered until HBO says otherwise."
+    ]
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "8 episodes · weekly from 16 August 2026",
+      "items": [
+        {
+          "id": "lanterns-1",
+          "t": "Pilot",
+          "n": "1",
+          "note": "airs 16 August"
+        },
+        {
+          "id": "lanterns-2",
+          "t": "Trust Fall",
+          "n": "2",
+          "note": "airs 23 August"
+        },
+        {
+          "id": "lanterns-3",
+          "t": "Episode 3",
+          "n": "3",
+          "note": "airs 30 August"
+        },
+        {
+          "id": "lanterns-4",
+          "t": "Episode 4",
+          "n": "4",
+          "note": "airs 6 September"
+        },
+        {
+          "id": "lanterns-5",
+          "t": "Episode 5",
+          "n": "5",
+          "note": "airs 13 September"
+        },
+        {
+          "id": "lanterns-6",
+          "t": "Episode 6",
+          "n": "6",
+          "note": "airs 20 September"
+        },
+        {
+          "id": "lanterns-7",
+          "t": "Episode 7",
+          "n": "7",
+          "note": "airs 27 September"
+        },
+        {
+          "id": "lanterns-8",
+          "t": "Episode 8",
+          "n": "8",
+          "note": "airs 4 October"
+        }
+      ]
+    }
+  ]
+}
