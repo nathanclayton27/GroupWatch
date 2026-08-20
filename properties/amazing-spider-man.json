@@ -1,11 +1,11 @@
 {
   "slug": "amazing-spider-man",
-  "title": "The Amazing Spider-Man",
-  "subtitle": "Amazing Fantasy #15 to now",
+  "title": "Amazing Spider-Man",
+  "subtitle": "Amazing Fantasy #15 to Civil War",
   "kind": "comics",
   "order": 11,
-  "year": "1962–",
-  "blurb": "Part One is the complete run, every issue, 600 of them. Part Two is what's worth your time since.",
+  "year": "1962–2006",
+  "blurb": "The complete run from the origin to the edge of Civil War — 579 issues, nothing filtered out.",
   "unit": {
     "one": "entry",
     "many": "entries"
@@ -21,45 +21,33 @@
   },
   "accent": "#B01E32",
   "accentDark": "#EC6B7B",
-  "tiers": true,
-  "paceTiers": [
-    1,
-    2
-  ],
-  "paceLabel": "the optional modern runs",
+  "tiers": false,
   "notes": [
     [
-      "Part One is meant to be read whole.",
-      "Every issue from Amazing Fantasy #15 to One More Day is listed, in order, nothing filtered out. The notes are annotations, not selections: an issue with no note is a solid done-in-one with no lasting consequence, and reading those is a large part of what makes the runs feel like runs."
+      "This one is meant to be read whole.",
+      "Every issue from Amazing Fantasy #15 to #528 is listed, in order, nothing filtered out. The notes are annotations, not selections: an issue with no note is a solid done-in-one with no lasting consequence, and reading those is a large part of what makes the runs feel like runs."
     ],
     [
-      "Tiers.",
-      "1 is Part One, the complete read. 2 is Superior Spider-Man — the one thing to read after One More Day if you read only one. 3 is the rest of Part Two, which is explicitly a set of recommendations rather than a list to finish."
+      "No spoilers.",
+      "The notes say what an entry is — a debut, a creator's first issue, which villain turns up — and never what happens in it. Where an issue matters more than its note suggests, the stars say so instead."
     ],
     [
-      "The finish date only covers Part One and Superior.",
-      "Part One is 600 issues; Superior Spider-Man is one more decision on top. Everything in the optional modern runs sits outside the timeline and never makes anyone late, and there is a checkbox under the bar if you want them counted."
-    ],
-    [
-      "Bar widths.",
-      "Most marks are a single issue, so most are the same width. The wide ones are entries that genuinely bundle several — Secret Wars #1–12, the Maximum Carnage legs, the chapters of The Other — and the pace line moves through issues rather than entries so those count for what they are."
-    ],
-    [
-      "Part Two entries count as one each.",
-      "They are single decisions — whether you read that run — rather than a queue to be paced through, so Ultimate Spider-Man's 160 issues don't swallow the bar. The real lengths are in the issue numbers beside each one."
+      "Where it goes next.",
+      "This list ends at #528. The Road to Civil War starts at #529, and both it and the event are in the Civil War list; Spider-Man picks back up in Spider-Man After Civil War."
     ],
     [
       "◆ marks a chapter published outside ASM.",
-      "From 1976 to 1998 Spider-Man ran across three or four concurrent monthlies. ASM tells a complete story alone, but stories occasionally begin or end elsewhere; everything cross-title that genuinely matters is here as its own entry."
+      "From 1976 to 1998 Spider-Man ran across three or four concurrent monthlies. ASM tells a complete story alone, but stories occasionally begin or end elsewhere; everything cross-title that genuinely matters is here as its own entry, sized by how many issues it is."
     ],
     [
       "Links.",
-      "Marvel gives issues arbitrary database ids with no pattern, and its series pages load their back catalogue through JavaScript that can't be paged from outside, so per-issue URLs can't be generated in bulk. The 30 direct issue links are the ones that could be confirmed; everything else links at series level, which is how you'd navigate Marvel Unlimited anyway."
+      "Marvel gives issues arbitrary database ids with no pattern, and its series pages load their back catalogue through JavaScript that can't be paged from outside, so per-issue URLs can't be generated in bulk. The 30 direct links are the ones that could be confirmed; everything else links at series level, which is how you'd navigate Marvel Unlimited anyway."
     ],
     [
       "A shorter path, if you want one.",
-      "The spine is roughly 200 issues: Ditko #1–38, Conway #101–149, Stern #224–252, the black-suit years #252–300, then jump to JMS at vol. 2 #30 and read to #545. You lose surprisingly little."
-    ]
+      "The spine is roughly 200 issues: Ditko #1–38, Conway #101–149, Stern #224–252, the black-suit years #252–300, then jump to JMS at vol. 2 #30. You lose surprisingly little."
+    ],
+    "Order, era boundaries and star ratings from the checklist written for the group; the annotations are rewritten from it rather than copied, because that document spoils freely."
   ],
   "sections": [
     {
@@ -74,7 +62,7 @@
           "t": "Amazing Fantasy",
           "n": "#15",
           "w": 1,
-          "note": "The origin. Eleven pages.",
+          "note": "Eleven pages.",
           "star": 2
         }
       ]
@@ -143,7 +131,7 @@
           "t": "Amazing Spider-Man",
           "n": "#7",
           "w": 1,
-          "note": "Vulture returns"
+          "note": "Vulture"
         },
         {
           "id": "asm-8",
@@ -178,7 +166,7 @@
           "t": "Amazing Spider-Man",
           "n": "#12",
           "w": 1,
-          "note": "Doc Ock unmasks him — and nobody believes it"
+          "note": "Doc Ock"
         },
         {
           "id": "asm-13",
@@ -216,14 +204,14 @@
           "t": "Amazing Spider-Man",
           "n": "#17",
           "w": 1,
-          "note": "Green Goblin returns"
+          "note": "Green Goblin"
         },
         {
           "id": "asm-18",
           "t": "Amazing Spider-Man",
           "n": "#18",
           "w": 1,
-          "note": "“The End of Spider-Man” — Peter quits. Ditko's character work at its sharpest."
+          "note": "“The End of Spider-Man” — Ditko's character work at its sharpest"
         },
         {
           "id": "asm-19",
@@ -266,7 +254,7 @@
           "t": "Amazing Spider-Man",
           "n": "#24",
           "w": 1,
-          "note": "Mysterio — Peter thinks he's losing his mind"
+          "note": "Mysterio"
         },
         {
           "id": "asm-25",
@@ -280,14 +268,14 @@
           "t": "Amazing Spider-Man",
           "n": "#26",
           "w": 1,
-          "note": "Green Goblin vs. the Crime-Master"
+          "note": "Green Goblin and the Crime-Master"
         },
         {
           "id": "asm-27",
           "t": "Amazing Spider-Man",
           "n": "#27",
           "w": 1,
-          "note": "Goblin/Crime-Master concludes"
+          "note": "Goblin and Crime-Master, part 2"
         },
         {
           "id": "asm-28",
@@ -405,7 +393,7 @@
           "t": "Amazing Spider-Man",
           "n": "#39",
           "w": 1,
-          "note": "“How Green Was My Goblin” — the Goblin unmasks. Romita's first issue.",
+          "note": "“How Green Was My Goblin” — Romita's first issue",
           "star": 1,
           "url": "https://www.marvel.com/comics/issue/6804/amazing_spider-man_1963_39"
         },
@@ -429,7 +417,7 @@
           "t": "Amazing Spider-Man",
           "n": "#42",
           "w": 1,
-          "note": "Mary Jane's face is finally revealed",
+          "note": "Mary Jane's face is finally on the page",
           "star": 1
         },
         {
@@ -437,7 +425,7 @@
           "t": "Amazing Spider-Man",
           "n": "#43",
           "w": 1,
-          "note": "Rhino; Osborn's amnesia"
+          "note": "Rhino"
         },
         {
           "id": "asm-44",
@@ -522,7 +510,7 @@
           "t": "Amazing Spider-Man",
           "n": "#55",
           "w": 1,
-          "note": "Doc Ock — who is now boarding with Aunt May"
+          "note": "Doc Ock"
         },
         {
           "id": "asm-56",
@@ -664,7 +652,7 @@
           "t": "Amazing Spider-Man",
           "n": "#75",
           "w": 1,
-          "note": "Silvermane's fate"
+          "note": "Silvermane"
         },
         {
           "id": "asm-76",
@@ -734,7 +722,7 @@
           "t": "Amazing Spider-Man",
           "n": "#85",
           "w": 1,
-          "note": "Schemer's identity"
+          "note": "The Schemer"
         },
         {
           "id": "asm-86",
@@ -748,7 +736,7 @@
           "t": "Amazing Spider-Man",
           "n": "#87",
           "w": 1,
-          "note": "Peter reveals his identity — or does he"
+          "note": "Peter and the secret identity"
         },
         {
           "id": "asm-88",
@@ -769,7 +757,7 @@
           "t": "Amazing Spider-Man",
           "n": "#90",
           "w": 1,
-          "note": "Captain Stacy dies",
+          "note": "One of the run's turning points",
           "star": 2
         },
         {
@@ -843,7 +831,7 @@
           "t": "Amazing Spider-Man",
           "n": "#100",
           "w": 1,
-          "note": "Peter grows six arms",
+          "note": "The 100th issue",
           "star": 1
         },
         {
@@ -956,7 +944,7 @@
           "t": "Amazing Spider-Man",
           "n": "#112",
           "w": 1,
-          "note": "Doc Ock — Aunt May goes missing"
+          "note": "Doc Ock"
         },
         {
           "id": "asm-113",
@@ -1029,7 +1017,7 @@
           "t": "Amazing Spider-Man",
           "n": "#122",
           "w": 1,
-          "note": "“The Goblin's Last Stand” — Norman Osborn dies",
+          "note": "“The Goblin's Last Stand”",
           "star": 2
         },
         {
@@ -1094,7 +1082,7 @@
           "t": "Amazing Spider-Man",
           "n": "#131",
           "w": 1,
-          "note": "Doc Ock nearly marries Aunt May"
+          "note": "Doc Ock and Aunt May"
         },
         {
           "id": "asm-132",
@@ -1129,7 +1117,7 @@
           "t": "Amazing Spider-Man",
           "n": "#136",
           "w": 1,
-          "note": "Harry Osborn becomes the Green Goblin",
+          "note": "A new Green Goblin",
           "star": 2
         },
         {
@@ -1137,7 +1125,7 @@
           "t": "Amazing Spider-Man",
           "n": "#137",
           "w": 1,
-          "note": "Harry as the Goblin, part 2",
+          "note": "The new Goblin, part 2",
           "star": 1
         },
         {
@@ -1180,7 +1168,7 @@
           "t": "Amazing Spider-Man",
           "n": "#143",
           "w": 1,
-          "note": "Cyclone; Peter and MJ's first kiss",
+          "note": "Cyclone",
           "star": 1
         },
         {
@@ -1188,14 +1176,13 @@
           "t": "Amazing Spider-Man",
           "n": "#144",
           "w": 1,
-          "note": "Cyclone; “Gwen” reappears"
+          "note": "Cyclone"
         },
         {
           "id": "asm-145",
           "t": "Amazing Spider-Man",
           "n": "#145",
-          "w": 1,
-          "note": "The Gwen mystery deepens"
+          "w": 1
         },
         {
           "id": "asm-146",
@@ -1216,7 +1203,7 @@
           "t": "Amazing Spider-Man",
           "n": "#148",
           "w": 1,
-          "note": "The Jackal unmasked",
+          "note": "The Jackal",
           "star": 1
         },
         {
@@ -1241,15 +1228,14 @@
           "t": "Amazing Spider-Man",
           "n": "#150",
           "w": 1,
-          "note": "“Spider-Man or Spider-Clone?” — the question is settled",
+          "note": "“Spider-Man or Spider-Clone?”",
           "star": 1
         },
         {
           "id": "asm-151",
           "t": "Amazing Spider-Man",
           "n": "#151",
-          "w": 1,
-          "note": "Peter disposes of the body"
+          "w": 1
         },
         {
           "id": "asm-152",
@@ -1445,7 +1431,7 @@
           "t": "Amazing Spider-Man",
           "n": "#180",
           "w": 1,
-          "note": "The third Goblin unmasked",
+          "note": "Green Goblin III",
           "star": 1
         },
         {
@@ -1460,7 +1446,7 @@
           "t": "Amazing Spider-Man",
           "n": "#182",
           "w": 1,
-          "note": "Rocket Racer; Peter proposes to MJ",
+          "note": "Rocket Racer",
           "star": 1
         },
         {
@@ -1468,7 +1454,6 @@
           "t": "Amazing Spider-Man",
           "n": "#183",
           "w": 1,
-          "note": "She turns him down",
           "star": 1
         },
         {
@@ -1483,7 +1468,7 @@
           "t": "Amazing Spider-Man",
           "n": "#185",
           "w": 1,
-          "note": "Peter's graduation goes wrong"
+          "note": "Peter's graduation"
         },
         {
           "id": "asm-186",
@@ -1582,7 +1567,7 @@
           "t": "Amazing Spider-Man",
           "n": "#200",
           "w": 1,
-          "note": "The burglar returns — Peter finally confronts Uncle Ben's killer",
+          "note": "The burglar returns",
           "star": 1
         }
       ]
@@ -1699,7 +1684,7 @@
           "t": "Amazing Spider-Man",
           "n": "#217",
           "w": 1,
-          "note": "Hydro-Man and Sandman merge"
+          "note": "Hydro-Man and Sandman"
         },
         {
           "id": "asm-218",
@@ -1758,7 +1743,7 @@
           "t": "Amazing Spider-Man",
           "n": "#226",
           "w": 1,
-          "note": "Black Cat returns"
+          "note": "Black Cat"
         },
         {
           "id": "asm-227",
@@ -1829,7 +1814,7 @@
           "t": "Amazing Spider-Man",
           "n": "#236",
           "w": 1,
-          "note": "Tarantula's end"
+          "note": "Tarantula"
         },
         {
           "id": "asm-237",
@@ -1998,14 +1983,14 @@
           "t": "Amazing Spider-Man",
           "n": "#257",
           "w": 1,
-          "note": "Hobgoblin; MJ reveals she's known all along"
+          "note": "Hobgoblin"
         },
         {
           "id": "asm-258",
           "t": "Amazing Spider-Man",
           "n": "#258",
           "w": 1,
-          "note": "The costume is alive",
+          "note": "A turn for the black costume",
           "star": 2
         },
         {
@@ -2013,7 +1998,7 @@
           "t": "Amazing Spider-Man",
           "n": "#259",
           "w": 1,
-          "note": "MJ's backstory; back to red-and-blue",
+          "note": "MJ's backstory",
           "star": 1
         },
         {
@@ -2115,7 +2100,7 @@
           "t": "Amazing Spider-Man",
           "n": "#275",
           "w": 1,
-          "note": "Hobgoblin/Kingpin; Peter retells his origin to MJ",
+          "note": "Hobgoblin and Kingpin",
           "star": 1
         },
         {
@@ -2123,7 +2108,7 @@
           "t": "Amazing Spider-Man",
           "n": "#276",
           "w": 1,
-          "note": "Hobgoblin; Flash Thompson framed"
+          "note": "Hobgoblin; Flash Thompson"
         },
         {
           "id": "asm-277",
@@ -2200,14 +2185,14 @@
           "t": "Amazing Spider-Man",
           "n": "#288",
           "w": 1,
-          "note": "Gang War concludes"
+          "note": "Gang War, part 5"
         },
         {
           "id": "asm-289",
           "t": "Amazing Spider-Man",
           "n": "#289",
           "w": 1,
-          "note": "The Hobgoblin's identity revealed; Macendale takes the name",
+          "note": "The Hobgoblin's identity",
           "star": 1
         },
         {
@@ -2269,7 +2254,7 @@
           "t": "Amazing Spider-Man",
           "n": "#298",
           "w": 1,
-          "note": "McFarlane's first issue; Eddie Brock cameo",
+          "note": "McFarlane's first issue",
           "star": 1
         },
         {
@@ -2277,14 +2262,14 @@
           "t": "Amazing Spider-Man",
           "n": "#299",
           "w": 1,
-          "note": "Venom — a glimpse"
+          "note": "Venom"
         },
         {
           "id": "asm-300",
           "t": "Amazing Spider-Man",
           "n": "#300",
           "w": 1,
-          "note": "Venom's first full appearance; back to red-and-blue",
+          "note": "Venom's first full appearance",
           "star": 2,
           "url": "https://www.marvel.com/comics/issue/6706/the_amazing_spider-man_1963_300"
         },
@@ -2422,7 +2407,7 @@
           "t": "Amazing Spider-Man",
           "n": "#312",
           "w": 1,
-          "note": "Green Goblin vs. Hobgoblin",
+          "note": "Green Goblin and Hobgoblin",
           "star": 1
         },
         {
@@ -2442,7 +2427,7 @@
           "t": "Amazing Spider-Man",
           "n": "#315",
           "w": 1,
-          "note": "Venom returns",
+          "note": "Venom",
           "star": 1
         },
         {
@@ -2514,7 +2499,7 @@
           "t": "Amazing Spider-Man",
           "n": "#325",
           "w": 1,
-          "note": "Assassin Nation concludes"
+          "note": "Assassin Nation, part 5"
         },
         {
           "id": "asm-326",
@@ -2646,7 +2631,7 @@
           "t": "Amazing Spider-Man",
           "n": "#345",
           "w": 1,
-          "note": "The Carnage symbiote finds Kasady",
+          "note": "Carnage's origin",
           "star": 1
         },
         {
@@ -2774,7 +2759,7 @@
           "t": "Amazing Spider-Man",
           "n": "#363",
           "w": 1,
-          "note": "Carnage concludes",
+          "note": "Carnage, part 3",
           "star": 1
         },
         {
@@ -2788,7 +2773,7 @@
           "t": "Amazing Spider-Man",
           "n": "#365",
           "w": 1,
-          "note": "30th anniversary — Peter's “parents” return, and Spider-Man 2099 previews",
+          "note": "30th anniversary; Spider-Man 2099 previews",
           "star": 1
         },
         {
@@ -2850,7 +2835,7 @@
           "t": "Amazing Spider-Man",
           "n": "#375",
           "w": 1,
-          "note": "Venom; Peter confronts his “parents”",
+          "note": "Venom",
           "star": 1
         },
         {
@@ -3011,7 +2996,7 @@
           "t": "Amazing Spider-Man",
           "n": "#394",
           "w": 1,
-          "note": "“Power and Responsibility” — Ben Reilly returns",
+          "note": "“Power and Responsibility”",
           "star": 1
         },
         {
@@ -3019,7 +3004,6 @@
           "t": "Amazing Spider-Man",
           "n": "#395",
           "w": 1,
-          "note": "Ben Reilly",
           "star": 1
         },
         {
@@ -3027,7 +3011,7 @@
           "t": "Amazing Spider-Man",
           "n": "#396",
           "w": 1,
-          "note": "The Jackal returns"
+          "note": "The Jackal"
         },
         {
           "id": "asm-397",
@@ -3045,15 +3029,14 @@
           "id": "asm-399",
           "t": "Amazing Spider-Man",
           "n": "#399",
-          "w": 1,
-          "note": "Aunt May's decline"
+          "w": 1
         },
         {
           "id": "asm-400",
           "t": "Amazing Spider-Man",
           "n": "#400",
           "w": 1,
-          "note": "“The Gift” — the death of Aunt May. Later undone; still beautiful.",
+          "note": "“The Gift” — the 400th issue",
           "star": 2
         },
         {
@@ -3171,7 +3154,7 @@
           "t": "Amazing Spider-Man",
           "n": "#418",
           "w": 1,
-          "note": "A chapter of “Revelations” — the Clone Saga's real ending",
+          "note": "A chapter of “Revelations”",
           "star": 1
         },
         {
@@ -3270,7 +3253,7 @@
           "t": "Amazing Spider-Man",
           "n": "#430",
           "w": 1,
-          "note": "Carnage vs. the Silver Surfer, as unhinged as it sounds",
+          "note": "Carnage and the Silver Surfer, as unhinged as it sounds",
           "url": "https://www.marvel.com/comics/issue/6850/the_amazing_spider-man_1963_430"
         },
         {
@@ -3307,7 +3290,7 @@
           "t": "Amazing Spider-Man",
           "n": "#435",
           "w": 1,
-          "note": "Norman Osborn tightens his grip",
+          "note": "Norman Osborn",
           "url": "https://www.marvel.com/comics/issue/6855/the_amazing_spider-man_1963_435"
         },
         {
@@ -3376,7 +3359,7 @@
           "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
         }
       ],
-      "intro": "The soft reboot, and the weakest sustained stretch in the title's history — MJ is written out and the Osborn plots spin in place. If you're going to abridge anything, abridge here.",
+      "intro": "The soft reboot, and the weakest sustained stretch in the title's history. If you're going to abridge anything, abridge here.",
       "items": [
         {
           "id": "asm-v2-1",
@@ -3489,7 +3472,7 @@
           "t": "Amazing Spider-Man vol. 2",
           "n": "#18",
           "w": 1,
-          "note": "Mary Jane's apparent death",
+          "note": "A major turn for Mary Jane",
           "star": 1
         },
         {
@@ -3613,7 +3596,7 @@
           "t": "Amazing Spider-Man vol. 2",
           "n": "#35",
           "w": 1,
-          "note": "Coming Home concludes",
+          "note": "Coming Home, part 6",
           "star": 1
         },
         {
@@ -3629,7 +3612,7 @@
           "t": "Amazing Spider-Man vol. 2",
           "n": "#37",
           "w": 1,
-          "note": "Aunt May finds the costume",
+          "note": "Peter and Aunt May",
           "star": 1
         },
         {
@@ -3637,7 +3620,7 @@
           "t": "Amazing Spider-Man vol. 2",
           "n": "#38",
           "w": 1,
-          "note": "Aunt May and Peter talk. Superb.",
+          "note": "The best issue of the run",
           "star": 2
         },
         {
@@ -3753,7 +3736,7 @@
           "t": "Amazing Spider-Man vol. 2",
           "n": "#55",
           "w": 1,
-          "note": "Ezekiel's endgame"
+          "note": "Ezekiel"
         },
         {
           "id": "asm-v2-56",
@@ -3782,15 +3765,15 @@
       "id": "renumbered",
       "tier": 1,
       "title": "Renumbered to #500",
-      "sub": "#500–543 · 2003–07",
-      "intro": "Volume 2 #58 was followed by #500, resuming the original count.",
+      "sub": "#500–528 · 2003–06 · up to the edge of Civil War",
+      "intro": "Volume 2 #58 was followed by #500, resuming the original count.\n\nThis list stops at #528. What comes next is the Road to Civil War, and Spider-Man is close enough to the middle of that event that it gets its own list.",
       "items": [
         {
           "id": "asm-500",
           "t": "Amazing Spider-Man",
           "n": "#500",
           "w": 1,
-          "note": "Anniversary issue — Peter's whole life, seen at once",
+          "note": "Anniversary issue",
           "star": 1
         },
         {
@@ -3849,7 +3832,7 @@
           "t": "Amazing Spider-Man",
           "n": "#509",
           "w": 1,
-          "note": "“Sins Past” begins. Notorious — a Gwen Stacy retcon many readers reject outright. Needed for continuity; you don't have to like it."
+          "note": "“Sins Past” begins. Notorious — a retcon many readers reject outright. Needed for continuity; you don't have to like it."
         },
         {
           "id": "asm-510",
@@ -3884,7 +3867,7 @@
           "t": "Amazing Spider-Man",
           "n": "#514",
           "w": 1,
-          "note": "Sins Past concludes"
+          "note": "Sins Past, part 6"
         },
         {
           "id": "asm-515",
@@ -3953,7 +3936,7 @@
           "t": "Amazing Spider-Man",
           "n": "#525",
           "w": 1,
-          "note": "“The Other” begins — the interleaved order is listed at the end of this section",
+          "note": "“The Other” begins — the chapters outside ASM are listed at the end of this section",
           "star": 1
         },
         {
@@ -3977,121 +3960,7 @@
           "t": "Amazing Spider-Man",
           "n": "#528",
           "w": 1,
-          "note": "The Other concludes",
-          "star": 1
-        },
-        {
-          "id": "asm-529",
-          "t": "Amazing Spider-Man",
-          "n": "#529",
-          "w": 1,
-          "note": "The Iron Spider suit",
-          "star": 1
-        },
-        {
-          "id": "asm-530",
-          "t": "Amazing Spider-Man",
-          "n": "#530",
-          "w": 1,
-          "note": "Civil War builds"
-        },
-        {
-          "id": "asm-531",
-          "t": "Amazing Spider-Man",
-          "n": "#531",
-          "w": 1,
-          "note": "Civil War builds"
-        },
-        {
-          "id": "asm-532",
-          "t": "Amazing Spider-Man",
-          "n": "#532",
-          "w": 1,
-          "note": "Civil War — Peter unmasks publicly",
-          "star": 1
-        },
-        {
-          "id": "asm-533",
-          "t": "Amazing Spider-Man",
-          "n": "#533",
-          "w": 1,
-          "note": "The fallout",
-          "star": 1
-        },
-        {
-          "id": "asm-534",
-          "t": "Amazing Spider-Man",
-          "n": "#534",
-          "w": 1,
-          "note": "Civil War"
-        },
-        {
-          "id": "asm-535",
-          "t": "Amazing Spider-Man",
-          "n": "#535",
-          "w": 1,
-          "note": "Civil War"
-        },
-        {
-          "id": "asm-536",
-          "t": "Amazing Spider-Man",
-          "n": "#536",
-          "w": 1,
-          "note": "Civil War — Peter turns on Stark"
-        },
-        {
-          "id": "asm-537",
-          "t": "Amazing Spider-Man",
-          "n": "#537",
-          "w": 1,
-          "note": "Civil War"
-        },
-        {
-          "id": "asm-538",
-          "t": "Amazing Spider-Man",
-          "n": "#538",
-          "w": 1,
-          "note": "Civil War ends badly",
-          "star": 1
-        },
-        {
-          "id": "asm-539",
-          "t": "Amazing Spider-Man",
-          "n": "#539",
-          "w": 1,
-          "note": "“Back in Black” — Aunt May is shot",
-          "star": 1
-        },
-        {
-          "id": "asm-540",
-          "t": "Amazing Spider-Man",
-          "n": "#540",
-          "w": 1,
-          "note": "Back in Black",
-          "star": 1
-        },
-        {
-          "id": "asm-541",
-          "t": "Amazing Spider-Man",
-          "n": "#541",
-          "w": 1,
-          "note": "Back in Black",
-          "star": 1
-        },
-        {
-          "id": "asm-542",
-          "t": "Amazing Spider-Man",
-          "n": "#542",
-          "w": 1,
-          "note": "Back in Black",
-          "star": 1
-        },
-        {
-          "id": "asm-543",
-          "t": "Amazing Spider-Man",
-          "n": "#543",
-          "w": 1,
-          "note": "Back in Black concludes",
+          "note": "The Other, part 4",
           "star": 1
         },
         {
@@ -4101,265 +3970,6 @@
           "w": 8,
           "note": "Friendly Neighborhood Spider-Man #1–4 and Marvel Knights Spider-Man #19–22, interleaved with ASM #525–528",
           "star": 1
-        },
-        {
-          "id": "asm-civilwar",
-          "t": "Civil War",
-          "n": "#1–2",
-          "w": 2,
-          "note": "The public unmasking happens in #2"
-        }
-      ]
-    },
-    {
-      "id": "omd",
-      "tier": 1,
-      "title": "One More Day",
-      "sub": "2007 · four issues, in exactly this order",
-      "intro": "Peter and MJ's marriage is traded to Mephisto in exchange for Aunt May's life, and roughly twenty years of continuity are quietly rewritten. This is where Part One ends, and where plenty of readers stop on purpose.",
-      "items": [
-        {
-          "id": "asm-544",
-          "t": "Amazing Spider-Man",
-          "n": "#544",
-          "w": 1,
-          "note": "One More Day, part 1"
-        },
-        {
-          "id": "asm-omd-2",
-          "t": "Friendly Neighborhood Spider-Man",
-          "n": "#24",
-          "w": 1,
-          "note": "One More Day, part 2"
-        },
-        {
-          "id": "asm-omd-3",
-          "t": "Sensational Spider-Man",
-          "n": "#41",
-          "w": 1,
-          "note": "One More Day, part 3"
-        },
-        {
-          "id": "asm-545",
-          "t": "Amazing Spider-Man",
-          "n": "#545",
-          "w": 1,
-          "note": "One More Day, part 4 — the marriage is traded to Mephisto",
-          "star": 2
-        }
-      ]
-    },
-    {
-      "id": "bnd",
-      "tier": 3,
-      "title": "Brand New Day",
-      "sub": "#546–647 · 2008–10 · selected arcs",
-      "links": [
-        {
-          "label": "The series",
-          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
-        }
-      ],
-      "intro": "Part Two is selective — recommendations, not a complete read. Three issues a month, rotating writers. Peter is single, broke and back in Queens. Better than its reputation; the arcs are often sharp even if the premise is the thing people object to.",
-      "items": [
-        {
-          "id": "asm-bnd-546",
-          "t": "The new status quo",
-          "n": "#546–548",
-          "w": 1,
-          "note": "Slott and McNiven"
-        },
-        {
-          "id": "asm-bnd-568",
-          "t": "“New Ways to Die”",
-          "n": "#568–573",
-          "w": 1,
-          "note": "Slott and John Romita Jr. Anti-Venom, Thunderbolts. The best Brand New Day arc.",
-          "star": 1
-        },
-        {
-          "id": "asm-bnd-595",
-          "t": "“American Son”",
-          "n": "#595–599",
-          "w": 1
-        },
-        {
-          "id": "asm-bnd-600",
-          "t": "Anniversary issue",
-          "n": "#600",
-          "w": 1,
-          "note": "Doc Ock, and a wedding"
-        },
-        {
-          "id": "asm-bnd-612",
-          "t": "“The Gauntlet”",
-          "n": "#612–623",
-          "w": 1,
-          "note": "A systematic reintroduction of the rogues gallery"
-        },
-        {
-          "id": "asm-bnd-630",
-          "t": "“Shed”",
-          "n": "#630–633",
-          "w": 1,
-          "note": "Zeb Wells and Chris Bachalo on the Lizard. Genuinely disturbing, genuinely great.",
-          "star": 1
-        },
-        {
-          "id": "asm-bnd-634",
-          "t": "“Grim Hunt”",
-          "n": "#634–637",
-          "w": 1,
-          "note": "The sequel to Kraven's Last Hunt, 23 years later",
-          "star": 1
-        },
-        {
-          "id": "asm-bnd-642",
-          "t": "“Origin of the Species”",
-          "n": "#642–647",
-          "w": 1
-        }
-      ]
-    },
-    {
-      "id": "bigtime",
-      "tier": 3,
-      "title": "Dan Slott solo: Big Time",
-      "sub": "#648–700 · 2010–13 · selected arcs",
-      "intro": "Peter takes a job at Horizon Labs. Brighter, gadget-heavy, more optimistic.",
-      "items": [
-        {
-          "id": "asm-bt-666",
-          "t": "“Spider-Island”",
-          "n": "#666–673",
-          "w": 1,
-          "note": "All of Manhattan gets spider-powers. Big, fun, well-built.",
-          "star": 1
-        },
-        {
-          "id": "asm-bt-682",
-          "t": "“Ends of the Earth”",
-          "n": "#682–687",
-          "w": 1,
-          "note": "Doc Ock's endgame"
-        },
-        {
-          "id": "asm-bt-698",
-          "t": "“Dying Wish”",
-          "n": "#698–700",
-          "w": 1,
-          "note": "Otto swaps minds with Peter, and Peter dies in Otto's body",
-          "star": 2
-        }
-      ]
-    },
-    {
-      "id": "superior",
-      "tier": 2,
-      "title": "Superior Spider-Man",
-      "sub": "#1–33 · 2013–14 · if you read one thing after One More Day",
-      "links": [
-        {
-          "label": "The series",
-          "url": "https://www.marvel.com/comics/series/17554/superior_spiderman_2013_2014"
-        }
-      ],
-      "intro": "Doctor Octopus, in Peter's body, sets out to be a better Spider-Man than Peter ever was — and in measurable ways succeeds. Greeted with fury on announcement, now widely considered the best Spider-Man run of the century.",
-      "items": [
-        {
-          "id": "asm-superior",
-          "t": "Superior Spider-Man",
-          "n": "#1–33",
-          "w": 1,
-          "star": 2,
-          "url": "https://www.marvel.com/comics/series/17554/superior_spiderman_2013_2014"
-        }
-      ]
-    },
-    {
-      "id": "modern",
-      "tier": 3,
-      "title": "The modern volumes",
-      "sub": "2014 to now · Marvel Unlimited finds each by exact title and year",
-      "items": [
-        {
-          "id": "asm-m-2014",
-          "t": "Amazing Spider-Man (2014)",
-          "n": "#1–18",
-          "w": 1,
-          "note": "Peter returns. Contains “Spider-Verse” (#9–15), the crossover the animated films drew from.",
-          "star": 1
-        },
-        {
-          "id": "asm-m-2015",
-          "t": "Amazing Spider-Man (2015–17)",
-          "n": "#1–32, #789–801",
-          "w": 1,
-          "note": "Parker Industries; Peter as globe-trotting CEO. Divisive, but Slott's finale in #801 is genuinely lovely."
-        },
-        {
-          "id": "asm-m-2018",
-          "t": "Amazing Spider-Man (2018–22)",
-          "n": "#1–74",
-          "w": 1,
-          "note": "Nick Spencer. The best-regarded post-One More Day run on the main title, building across its full length toward an answer to it. Highlights: “Hunted” (#16–23) and “Last Remains” (#50–55).",
-          "star": 1
-        },
-        {
-          "id": "asm-m-2022",
-          "t": "Amazing Spider-Man (2022–25)",
-          "n": "#1–70",
-          "w": 1,
-          "note": "Zeb Wells. The run that broke a lot of people's patience — the source wouldn't send you here.",
-          "url": "https://www.marvel.com/comics/series/32866/the_amazing_spiderman_2022_2025"
-        },
-        {
-          "id": "asm-m-2025",
-          "t": "Amazing Spider-Man (2025– )",
-          "n": "#1–34",
-          "w": 1,
-          "note": "Joe Kelly and Pepe Larraz, twice monthly and well received, building to ASM #1000 in September 2026. Marvel Unlimited adds issues about three months after print.",
-          "url": "https://www.marvel.com/comics/series/41731/the_amazing_spiderman_2025_present"
-        }
-      ]
-    },
-    {
-      "id": "outside",
-      "tier": 3,
-      "title": "Outside continuity",
-      "sub": "where a lot of the best modern Spider-Man actually lives",
-      "items": [
-        {
-          "id": "asm-lifestory",
-          "t": "Spider-Man: Life Story",
-          "n": "#1–6",
-          "w": 1,
-          "note": "Zdarsky and Bagley. Six issues, one per decade, Peter ageing in real time from 1962. Self-contained, and arguably the finest Spider-Man comic of the last twenty years.",
-          "star": 2
-        },
-        {
-          "id": "asm-ult2024",
-          "t": "Ultimate Spider-Man (2024–26)",
-          "n": "#1–24",
-          "w": 1,
-          "note": "Hickman and Checchetto. A complete, finished run. Peter becomes Spider-Man in his mid-thirties, already married with two kids. Openly the anti-One More Day.",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/series/38809/ultimate_spider-man_2024_-_present"
-        },
-        {
-          "id": "asm-ult2000",
-          "t": "Ultimate Spider-Man (2000–11)",
-          "n": "#1–160",
-          "w": 1,
-          "note": "Bendis and Bagley. Separate continuity, retells the origin, runs eleven years. One of the great long runs in Marvel history.",
-          "star": 1
-        },
-        {
-          "id": "asm-blue",
-          "t": "Spider-Man: Blue",
-          "n": "#1–6",
-          "w": 1,
-          "note": "Loeb and Sale. Peter looking back on Gwen — a good decompression read after Part One."
         }
       ]
     }
