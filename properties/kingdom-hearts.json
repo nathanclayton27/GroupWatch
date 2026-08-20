@@ -16,6 +16,11 @@
     "ing": "playing"
   },
   "itemOrder": "number-first",
+  "paceTiers": [
+    1,
+    2
+  ],
+  "paceLabel": "supplemental",
   "accent": "#3B4CA8",
   "accentDark": "#8A98E8",
   "tiers": true,
@@ -39,6 +44,10 @@
     [
       "Why the bars are different sizes.",
       "Each mark is as wide as the thing takes, so a forty-hour game is not one tick next to a four-minute trailer. A finish-by date paces you through the hours rather than the entries, which is the only way the line means anything here. The spine alone is about 198 hours; everything on this page is about 272."
+    ],
+    [
+      "Supplemental does not count toward a finish date.",
+      "The timeline covers tiers 1 and 2 — about 211 hours. The supplemental tier is optional, so it never makes anyone late, and ticking any of it is pure credit. If you would rather be paced through the whole 272 hours, there is a checkbox under the bar."
     ],
     [
       "The hours.",

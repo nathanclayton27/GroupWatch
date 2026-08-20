@@ -209,6 +209,10 @@ footer a{color:var(--steel)}
 .psearch input{width:100%}
 .pnone{padding:14px 11px;font-size:12px;color:var(--ink-3)}
 .win{display:flex;gap:8px 14px;flex-wrap:wrap;align-items:baseline;margin:0 0 10px;font-size:13px;color:var(--ink-2)}
+.pscope{display:inline-flex;align-items:center;gap:7px;margin:6px 0 0;
+  font-size:12px;color:var(--ink-3);cursor:pointer;user-select:none}
+.pscope:hover{color:var(--ink-2)}
+.pscope input{accent-color:var(--signal);margin:0;cursor:pointer}
 .win b{color:var(--ink);font-weight:500}
 .pacer.due{background:var(--signal);width:2px}
 .rules{margin:0;padding-left:18px}
@@ -274,6 +278,7 @@ footer a{color:var(--steel)}
   <div class="glegend hide" id="glegend"></div>
   <div class="lbl" id="striplbl"></div>
   <div class="win hide" id="winline"></div>
+  <label class="pscope hide" id="pscope"><input type="checkbox" id="pscope-cb"><span id="pscope-t"></span></label>
 </header>
 </div>
 
@@ -461,6 +466,11 @@ let NUMFIRST = false;
 // Optional per-item weight, in hours. A property that declares none gets all
 // ones, TOTALW === TOTAL, and every figure below reduces to an item count.
 let WEIGHT = [], CUMW = [], TOTALW = 0, WEIGHTED = false, IDX = new Map();
+// The timeline need not cover everything on the page. PACETIERS names the
+// tiers a finish date paces you through; PW/PCUM/PTOTAL are the weights
+// restricted to those, and are identical to WEIGHT/CUMW/TOTALW without it.
+let PACETIERS = null, PACELABEL = 'optional extras', PACEALL = false;
+let PACED = [], PW = [], PCUM = [], PTOTAL = 0;
 
 const CLOUD = !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase);
 const sb = CLOUD ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
@@ -470,6 +480,7 @@ let user = null;
 let saveTimer = null;
 
 const LKEY = 'gw:v1:' + SLUG;
+const PKEY = 'gw:pace:' + SLUG;
 
 // Two old key formats predate the multi-property rewrite, both from when this
 // was a single Secret Wars tracker. Walk them forward rather than stranding
@@ -517,6 +528,12 @@ async function loadProperty(){
     WEIGHTED = false; WEIGHT = ORDER.map(()=>1);
     CUMW = ORDER.map((_,i)=>i+1); TOTALW = TOTAL;
   }
+  PACETIERS = Array.isArray(PROP.paceTiers) && PROP.paceTiers.length
+            ? PROP.paceTiers : null;
+  PACELABEL = PROP.paceLabel || PACELABEL;
+  PACEALL = false;
+  try{ PACEALL = localStorage.getItem(PKEY) === '1'; }catch(e){}
+  computePace();
   localStorage.setItem('gw:last', SLUG);
   applyAccent();
 }
@@ -534,15 +551,37 @@ if(DARKQ && DARKQ.addEventListener) DARKQ.addEventListener('change', applyAccent
 function plural(n){ return n === 1 ? UNIT.one : UNIT.many; }
 // How many items are fully covered by a share of the total weight. This is
 // what replaces `round(frac * TOTAL)` once marks stop being interchangeable.
+// Which items the finish date actually paces you through. Items outside the
+// scope weigh nothing here, so the pace line sweeps past them for free and
+// they never make anyone late.
+function computePace(){
+  const inScope = t=> !PACETIERS || PACEALL || PACETIERS.indexOf(t) >= 0;
+  PACED = SECOF.map(sec=> inScope(sec.tier||1));
+  PW = WEIGHT.map((w,i)=> PACED[i] ? w : 0);
+  PCUM = []; PTOTAL = 0;
+  PW.forEach(w=>{ PTOTAL += w; PCUM.push(PTOTAL); });
+  // excluding everything would divide by zero; fall back to the whole list
+  if(!(PTOTAL > 0)){
+    PACED = WEIGHT.map(()=>true); PW = WEIGHT.slice();
+    PCUM = CUMW.slice(); PTOTAL = TOTALW;
+  }
+}
 function itemsAtWeight(target){
   let i = 0;
-  while(i < TOTAL && CUMW[i] <= target + 1e-9) i++;
+  while(i < TOTAL && PCUM[i] <= target + 1e-9) i++;
   return i;
 }
 function weightOf(set){
   if(!WEIGHTED) return set.size;
   let t = 0;
   set.forEach(id=>{ const i = IDX.get(id); if(i !== undefined) t += WEIGHT[i]; });
+  return t;
+}
+// progress counts everything you can tick; the timeline counts only what is
+// in scope, so the two answer different questions on purpose
+function pacedWeightOf(set){
+  let t = 0;
+  set.forEach(id=>{ const i = IDX.get(id); if(i !== undefined) t += PW[i]; });
   return t;
 }
 // "31h" reads better than "31.4 hours", and under an hour wants minutes
@@ -814,7 +853,7 @@ function paceInfo(){
     return {
       kind:'windows', expected:due, due, target,
       dueFrac: due/TOTAL, targetFrac: target/TOTAL,
-      wDue: due > 0 ? CUMW[due-1] : 0,
+      wDue: due > 0 ? PCUM[due-1] : 0,
       label: current ? current.label : (before ? 'Starts '+ws[0].start : 'Schedule complete'),
       endIso, daysLeft: daysUntil(endIso), before
     };
@@ -827,11 +866,11 @@ function paceInfo(){
   // With weights the elapsed share of the calendar buys an elapsed share of
   // the *hours*, not of the item count: a week does not get you through one
   // thirty-hour game and one four-minute video at the same rate.
-  const expected = WEIGHTED ? itemsAtWeight(TOTALW * frac)
-                            : Math.round(TOTAL * frac);
+  const expected = (WEIGHTED || PACETIERS) ? itemsAtWeight(PTOTAL * frac)
+                                           : Math.round(TOTAL * frac);
   return {
     kind:'linear', expected, due:expected, target:expected,
-    dueFrac:frac, targetFrac:frac, wDue: TOTALW * frac,
+    dueFrac:frac, targetFrac:frac, wDue: PTOTAL * frac,
     label:'', endIso:group.target_date, daysLeft:daysUntil(group.target_date)
   };
 }
@@ -854,7 +893,8 @@ function dueFor(idx){
   const end   = new Date(group.target_date + 'T00:00:00').getTime();
   if(!(end > start)) return null;
   if(!(idx >= 0 && idx < TOTAL)) return null;
-  const d = new Date(start + (end - start) * (CUMW[idx] / TOTALW));
+  if(!PACED[idx]) return null;   // outside the timeline, so never due
+  const d = new Date(start + (end - start) * (PCUM[idx] / PTOTAL));
   return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')
         +'-'+String(d.getDate()).padStart(2,'0');
 }
@@ -863,6 +903,13 @@ function niceDate(iso){
     .toLocaleDateString(undefined, {month:'short', day:'numeric'});
 }
 
+function paintPaceToggle(){
+  const box = $('pscope');
+  if(!PACETIERS){ box.classList.add('hide'); return; }
+  box.classList.remove('hide');
+  $('pscope-cb').checked = PACEALL;
+  $('pscope-t').textContent = 'Count ' + PACELABEL + ' toward the finish date';
+}
 function paintWindow(){
   const el = $('winline');
   if(scheduleWaiting()){
@@ -976,7 +1023,7 @@ function paintStack(){
     let tag = '';
     if(p){
       // "3 behind" is meaningless when one of the three is a forty hour game
-      const behind = WEIGHTED ? (p.wDue||0) - weightOf(reads[i])
+      const behind = WEIGHTED ? (p.wDue||0) - pacedWeightOf(reads[i])
                               : p.expected - n;
       tag = behind > (WEIGHTED ? 0.5 : 0)
         ? '<span class="pace behind">'+(WEIGHTED?hrs(behind):behind)+' behind</span>'
@@ -1197,7 +1244,7 @@ function updateGroupLine(){
     const days = p.daysLeft + ' day' + (p.daysLeft === 1 ? '' : 's') + ' left.';
     const mySet = mine ? readsOf(mine) : done;
     if(WEIGHTED){
-      const short = (p.wDue||0) - weightOf(mySet);
+      const short = (p.wDue||0) - pacedWeightOf(mySet);
       line = short > 0.5
         ? 'You’re about '+hrs(short)+' behind pace, with '+days
         : 'You’re on pace, with '+days;
@@ -1832,10 +1879,17 @@ function paint(){
   if(TIERED) [1,2,3].forEach(t=> $('s-t'+t).textContent = per[t]+' / '+TIERTOT[t]);
   $('code').value = btoa(JSON.stringify([...done]));
   paintWindow();
+  paintPaceToggle();
   if(group){ paintStack(); updateGroupLine(); }
   openInitialSection();
 }
 
+$('pscope-cb').onchange = e=>{
+  PACEALL = e.target.checked;
+  try{ localStorage.setItem(PKEY, PACEALL ? '1' : '0'); }catch(err){}
+  computePace();
+  paint();
+};
 $('b-signin').onclick = ()=>{ $('signin').classList.remove('hide'); $('email').focus(); };
 $('b-cancel').onclick = ()=> $('signin').classList.add('hide');
 $('b-signout').onclick = async ()=>{ await sb.auth.signOut(); location.reload(); };

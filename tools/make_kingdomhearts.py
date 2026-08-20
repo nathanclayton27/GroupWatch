@@ -37,6 +37,10 @@ import pathlib
 
 SLUG = "kingdom-hearts"
 
+# Tiers a finish date paces you through — the story spine and the two entries
+# you can watch instead of play. Tier 3 is optional and stays out of it.
+PACE_TIERS = [1, 2]
+
 # Query strings stripped from the links in the source rundown: the YouTube
 # ones carried autoplay-radio parameters and the Drive folder carried a /u/0/
 # account index that only resolves for whoever copied it.
@@ -277,6 +281,8 @@ def main():
     assert used == set(HOURS), (used ^ set(HOURS))
     hours = sum(x["w"] for s in SECTIONS for x in s["items"])
     spine = sum(x["w"] for s in SECTIONS if s["tier"] == 1 for x in s["items"])
+    paced = sum(x["w"] for s in SECTIONS if s["tier"] in PACE_TIERS
+                for x in s["items"])
 
     prop = {
         "slug": SLUG,
@@ -290,6 +296,11 @@ def main():
         "unit": {"one": "entry", "many": "entries"},
         "verb": {"base": "play", "past": "played", "ing": "playing"},
         "itemOrder": "number-first",
+        # The finish date paces you through tiers 1 and 2 only. Nobody should be
+        # told they are late because they have not read the coffee table books.
+        # A checkbox on the page puts tier 3 back for anyone who wants it.
+        "paceTiers": PACE_TIERS,
+        "paceLabel": "supplemental",
         "accent": "#3B4CA8",
         "accentDark": "#8A98E8",
         "tiers": True,
@@ -318,6 +329,11 @@ def main():
              "rather than the entries, which is the only way the line means "
              "anything here. The spine alone is about %d hours; everything on "
              "this page is about %d." % (round(spine), round(hours))],
+            ["Supplemental does not count toward a finish date.", "The timeline "
+             "covers tiers 1 and 2 — about %d hours. The supplemental tier is "
+             "optional, so it never makes anyone late, and ticking any of it is "
+             "pure credit. If you would rather be paced through the whole %d "
+             "hours, there is a checkbox under the bar." % (round(paced), round(hours))],
             ["The hours.", "Games use HowLongToBeat's main-story figures. Where "
              "the rundown says to watch something instead of playing it, the "
              "number is how long that takes — Re:coded is its three-hour "
