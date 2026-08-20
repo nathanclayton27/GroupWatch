@@ -166,17 +166,47 @@
   },
   {
     "slug": "amazing-spider-man",
-    "title": "The Amazing Spider-Man",
-    "subtitle": "Amazing Fantasy #15 to now",
+    "title": "Amazing Spider-Man",
+    "subtitle": "Amazing Fantasy #15 to Civil War",
     "kind": "comics",
-    "year": "1962–",
-    "blurb": "Part One is the complete run, every issue, 600 of them. Part Two is what's worth your time since.",
+    "year": "1962–2006",
+    "blurb": "The complete run from the origin to the edge of Civil War — 579 issues, nothing filtered out.",
     "accent": "#B01E32",
     "accentDark": "#EC6B7B",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 589
+    "total": 548
+  },
+  {
+    "slug": "civil-war",
+    "title": "Civil War",
+    "subtitle": "the 2006 event, in reading order",
+    "kind": "comics",
+    "year": "2006–07",
+    "blurb": "Seven issues of main series and forty-odd tie-ins, interleaved in the order they're meant to be read.",
+    "accent": "#4A6B8A",
+    "accentDark": "#8FB6D6",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 105
+  },
+  {
+    "slug": "spider-man-after-civil-war",
+    "title": "Spider-Man After Civil War",
+    "subtitle": "Back in Black to now",
+    "kind": "comics",
+    "year": "2007–",
+    "blurb": "The end of the classic run, then eighteen years of recommendations rather than a list to finish.",
+    "accent": "#7A3B5E",
+    "accentDark": "#D98BB4",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 30
   }
 ]
