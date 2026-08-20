@@ -40,7 +40,7 @@ h1 em{font-style:normal;color:var(--signal)}
 .tagline{color:var(--ink-2);max-width:60ch;margin:0}
 .strip{display:flex;flex-direction:column;gap:20px;margin:72px 0 10px}
 .striprow{display:flex;gap:1px;height:34px;align-items:flex-end;
-  transition:margin .28s ease-out}
+  touch-action:pan-y;transition:margin .28s ease-out}
 /* flex-grow must NOT be transitioned: while it tweens, hit-testing reads a
    layout that is neither the old one nor the new one and the selection walks */
 .tick{flex:1 1 0;flex-grow:var(--w,1);min-width:0;background:var(--rule);height:40%;
@@ -82,13 +82,15 @@ h1 em{font-style:normal;color:var(--signal)}
 .peek-r.has .who{color:var(--ink)}
 .peek-r .mk{font-size:11px;color:var(--ink-3);font-family:"IBM Plex Mono",monospace}
 .peek-r.has .mk{color:var(--done)}
-@media (hover:none){.peek{display:none}}
+/* The readout is the only way to find out what a mark is, so it matters more
+   on a phone than anywhere else. It follows a finger and lingers after the
+   lift; see the touch handlers in wireStrip. */
 
 /* One strip layer per reader, stacked with a small vertical offset. A layer's
    read mark drops to the bottom of the whole stack only where nobody ranked
    behind it still has something to show in that column — see paintStack(). */
 .stack{display:flex;flex-direction:column;gap:22px;margin:60px 0 10px}
-.stackrow{position:relative;transition:margin .28s ease-out}
+.stackrow{position:relative;touch-action:pan-y;transition:margin .28s ease-out}
 .stackrow .layer{position:absolute;left:0;right:0;display:flex;gap:1px;
   height:var(--layerH,35px);align-items:flex-end;margin:0}
 .stackrow .tick.on.full{align-self:flex-start;height:var(--fillH)}
@@ -157,7 +159,19 @@ summary:hover .bulk,summary:focus-within .bulk{opacity:1;pointer-events:auto}
 li{position:relative}
 li:hover .catch,.catch:focus-visible{opacity:1}
 .catch:hover{border-color:var(--signal);color:var(--signal)}
-@media (hover:none){.bulk{opacity:1;pointer-events:auto} .catch{opacity:1}}
+/* Nothing to hover, so the section button simply stays out — there is one per
+   section and it earns the room. The per-row catch-up does not: every row
+   showing one at once buries the titles under buttons. It arms on a tap of
+   the row instead, so only ever one is on screen. */
+@media (hover:none){
+  .bulk{opacity:1;pointer-events:auto;padding:7px 11px;font-size:11px}
+  .catch{opacity:0;pointer-events:none;padding:6px 10px;font-size:11px}
+  #list li.act .catch{opacity:1;pointer-events:auto}
+  #list li{padding:9px 14px;min-height:44px;align-items:center}
+  #list li input{width:20px;height:20px;top:0}
+  #list li:hover{background:transparent}
+  .ttl{padding-right:6px}
+}
 details[open] summary{border-bottom:1px solid var(--rule)}
 
 ol{list-style:none;margin:0;padding:6px 0}
@@ -224,7 +238,14 @@ footer a{color:var(--steel)}
 .mname{flex:1;min-width:0;font-size:13px}
 .rm{font-size:11px;padding:3px 9px;color:var(--ink-2)}
 .rm:hover{border-color:var(--signal);color:var(--signal)}
-@media (max-width:560px){ .switcher{position:static;padding:12px 14px 0} }
+/* `static` left .pmenu — which is absolute — with no positioned ancestor, so
+   its top:calc(100% + 6px) resolved against the page box and the menu opened
+   hundreds of pixels down it. `relative` keeps the button in the flow, which
+   is what the rule wanted, and restores the anchor. */
+@media (max-width:560px){
+  .switcher{position:relative;padding:12px 14px 0}
+  .switcher .pmenu{left:14px;right:14px;min-width:0;max-width:none}
+}
 
 /* first-visit picker — shown only when no property is chosen or remembered */
 .splash{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:56px 20px}
@@ -246,6 +267,16 @@ footer a{color:var(--steel)}
 @media (max-width:560px){
   li{padding:6px 14px}.wrap{padding:0 14px 80px}.bar-in{padding:0 14px;gap:16px}
   summary{padding:13px 14px}input[type=text],input[type=email]{width:130px}
+  /* Safari zooms the page in on focus for anything under 16px, which shoves
+     the layout sideways and leaves it there. */
+  input[type=text],input[type=email],input[type=date],select,.psearch input{font-size:16px}
+  /* four stat blocks plus the account row wrap to three lines, pinned */
+  .bar{padding:8px 0;margin-bottom:18px}
+  .bar-in{gap:8px 14px}
+  .stat b{font-size:15px}
+  .bar .lbl{font-size:9px;letter-spacing:.12em}
+  header{padding:34px 0 22px}
+  .strip{margin:44px 0 10px}
 }
 </style>
 </head>
@@ -472,6 +503,8 @@ let WEIGHT = [], CUMW = [], TOTALW = 0, WEIGHTED = false, IDX = new Map();
 let PACETIERS = null, PACELABEL = 'optional extras', PACEALL = false;
 let PACED = [], PW = [], PCUM = [], PTOTAL = 0;
 
+// A phone has no hover and no keyboard worth pulling focus into.
+const COARSE = !!(window.matchMedia && window.matchMedia('(hover:none)').matches);
 const CLOUD = !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase);
 const sb = CLOUD ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
@@ -1613,6 +1646,9 @@ function wireStrip(host, grouped, lifts){
   indexStrip(host);
   let frame = null, last = null;
   host.addEventListener('mousemove', e=>{
+    // touch devices fire synthetic mouse events after a tap; letting them
+    // through means a synthetic mouseleave tears the readout down instantly
+    if(host._touchAt && Date.now() - host._touchAt < 900) return;
     last = e;
     if(frame) return;
     frame = requestAnimationFrame(()=>{
@@ -1629,9 +1665,39 @@ function wireStrip(host, grouped, lifts){
     });
   });
   host.addEventListener('mouseleave', ()=>{
+    if(host._touchAt && Date.now() - host._touchAt < 900) return;
     magnify(host, -1);
     $('peek').classList.add('hide');
   });
+
+  // A finger drags along the strip. Deliberately no step smoothing: the mouse
+  // path clamps two-to-four column jumps because those are reflow noise, but a
+  // real swipe crosses many marks at once and clamping makes the selection
+  // crawl behind the finger. touch-action:pan-y on the row leaves vertical
+  // scrolling to the browser, so only sideways drags reach this.
+  let linger = null;
+  const onTouch = e=>{
+    const t = e.touches && e.touches[0];
+    if(!t) return;
+    host._touchAt = Date.now();
+    clearTimeout(linger);
+    const i = columnAt(host, t.clientX);
+    magnify(host, i);
+    showPeek(i, t.clientX, host.getBoundingClientRect().top, host._grouped);
+  };
+  const endTouch = ()=>{
+    host._touchAt = Date.now();
+    clearTimeout(linger);
+    // hold it, so you can lift your finger and actually read the thing
+    linger = setTimeout(()=>{
+      magnify(host, -1);
+      $('peek').classList.add('hide');
+    }, 2200);
+  };
+  host.addEventListener('touchstart', onTouch, {passive:true});
+  host.addEventListener('touchmove',  onTouch, {passive:true});
+  host.addEventListener('touchend',   endTouch, {passive:true});
+  host.addEventListener('touchcancel', endTouch, {passive:true});
 }
 
 /* ------------------------------------------------------- property switcher */
@@ -1744,7 +1810,8 @@ function openMenu(){
   $('pmenu').classList.remove('hide');
   $('b-prop').setAttribute('aria-expanded','true');
   const f = $('pfind');
-  if(f){ f.value=''; filterMenu(''); f.focus(); }
+  // focusing this on a phone raises the soft keyboard straight over the list
+  if(f){ f.value=''; filterMenu(''); if(!COARSE) f.focus(); }
 }
 function closeMenu(){
   $('pmenu').classList.add('hide');
@@ -1756,6 +1823,9 @@ $('b-prop').onclick = e=>{
 };
 document.addEventListener('click', e=>{
   if(!$('pmenu').classList.contains('hide') && !e.target.closest('.switcher')) closeMenu();
+  // tapping away from the list disarms whichever row was armed
+  if(!e.target.closest('#list'))
+    document.querySelectorAll('#list li.act').forEach(el=> el.classList.remove('act'));
 });
 document.addEventListener('keydown', e=>{ if(e.key === 'Escape') closeMenu(); });
 
@@ -1821,7 +1891,14 @@ function build(){
       for(let i = 0; i <= upTo; i++) done.add(ORDER[i]);
       persist(); paint();
       flash('Marked everything up to '+FLAT[upTo].t+' '+FLAT[upTo].n+'.');
+      return;
     }
+    // With no hover to reveal it, the row's catch-up button arms on a tap of
+    // the title. Nothing was bound to the title before, so this costs no
+    // existing behaviour, and only one button is ever showing.
+    const row = e.target.closest('li');
+    $('list').querySelectorAll('li.act').forEach(el=> el.classList.remove('act'));
+    if(row && e.target.closest('.ttl')) row.classList.add('act');
   });
 
   $('list').addEventListener('change', e=>{
