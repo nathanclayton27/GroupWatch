@@ -499,6 +499,10 @@ SECTIONS = [
     {
         "id": "prologue", "tier": 1, "title": "Prologue",
         "sub": "1962 · where it starts",
+        # Without this a newcomer lands on Lee & Ditko, because the fallback
+        # looks for the first section carrying series links and the Prologue
+        # has none.
+        "open": True,
         "items": [item("af15", "Amazing Fantasy", "#15",
                        "The origin. Eleven pages.", 2)],
     },
