@@ -1957,7 +1957,12 @@ function sectionComplete(s){ return s.items.every(x=>done.has(x.id)); }
 function pickOpenSection(){
   let last = -1;
   DATA.forEach((s,i)=>{ if(s.items.some(x=>done.has(x.id))) last = i; });
-  if(last < 0) return DATA.find(s=>s.start) || DATA.find(s=>s.links||s.series) || DATA[0];
+  // Nothing ticked yet, so pick where a newcomer should land. A section may say
+  // so outright with `open`; otherwise fall back to the first scheduled section,
+  // then the first one with series links — which is what keeps Secret Wars
+  // opening on its "start here" prelude rather than the side series above it.
+  if(last < 0) return DATA.find(s=>s.open) || DATA.find(s=>s.start)
+                   || DATA.find(s=>s.links||s.series) || DATA[0];
   if(!sectionComplete(DATA[last])) return DATA[last];
   for(let i=last+1; i<DATA.length; i++) if(!sectionComplete(DATA[i])) return DATA[i];
   // everything ahead is finished, so fall back to the earliest remaining gap

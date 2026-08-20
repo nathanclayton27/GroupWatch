@@ -67,6 +67,7 @@
       "tier": 1,
       "title": "Prologue",
       "sub": "1962 · where it starts",
+      "open": true,
       "items": [
         {
           "id": "asm-af15",
