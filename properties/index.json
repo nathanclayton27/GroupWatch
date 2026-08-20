@@ -163,5 +163,20 @@
       "many": "entries"
     },
     "total": 31
+  },
+  {
+    "slug": "amazing-spider-man",
+    "title": "The Amazing Spider-Man",
+    "subtitle": "Amazing Fantasy #15 to now",
+    "kind": "comics",
+    "year": "1962–",
+    "blurb": "Part One is the complete run, every issue, 600 of them. Part Two is what's worth your time since.",
+    "accent": "#B01E32",
+    "accentDark": "#EC6B7B",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 589
   }
 ]

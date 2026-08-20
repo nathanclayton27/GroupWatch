@@ -582,6 +582,21 @@ let MANIFEST = [
       "many": "entries"
     },
     "total": 31
+  },
+  {
+    "slug": "amazing-spider-man",
+    "title": "The Amazing Spider-Man",
+    "subtitle": "Amazing Fantasy #15 to now",
+    "kind": "comics",
+    "year": "1962–",
+    "blurb": "Part One is the complete run, every issue, 600 of them. Part Two is what's worth your time since.",
+    "accent": "#B01E32",
+    "accentDark": "#EC6B7B",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 589
   }
 ];
 
@@ -601,7 +616,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '473ce29cdec5';
+const BUILD = '982d7b7b0b47';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -684,6 +699,9 @@ let WEIGHT = [], CUMW = [], TOTALW = 0, WEIGHTED = false, IDX = new Map();
 // tiers a finish date paces you through; PW/PCUM/PTOTAL are the weights
 // restricted to those, and are identical to WEIGHT/CUMW/TOTALW without it.
 let PACETIERS = null, PACELABEL = 'optional extras', PACEALL = false;
+// Weights are hours unless a property names its own unit. Comics weigh in
+// issues: calling a 33-issue run "33h" would be wrong by a factor of three.
+let WUNIT = null;
 let PACED = [], PW = [], PCUM = [], PTOTAL = 0;
 
 // A phone has no hover and no keyboard worth pulling focus into.
@@ -747,6 +765,8 @@ async function loadProperty(){
   PACETIERS = Array.isArray(PROP.paceTiers) && PROP.paceTiers.length
             ? PROP.paceTiers : null;
   PACELABEL = PROP.paceLabel || PACELABEL;
+  WUNIT = (PROP.weightUnit && PROP.weightUnit.one && PROP.weightUnit.many)
+        ? PROP.weightUnit : null;
   PACEALL = false;
   try{ PACEALL = localStorage.getItem(PKEY) === '1'; }catch(e){}
   computePace();
@@ -800,8 +820,13 @@ function pacedWeightOf(set){
   set.forEach(id=>{ const i = IDX.get(id); if(i !== undefined) t += PW[i]; });
   return t;
 }
-// "31h" reads better than "31.4 hours", and under an hour wants minutes
+// "31h" reads better than "31.4 hours", and under an hour wants minutes.
+// A property weighing in its own unit gets counted rather than clocked.
 function hrs(h){
+  if(WUNIT){
+    const n = h >= 10 ? Math.round(h) : Math.round(h*10)/10;
+    return n + ' ' + (n === 1 ? WUNIT.one : WUNIT.many);
+  }
   if(h >= 10) return Math.round(h) + 'h';
   if(h >= 1) return (Math.round(h*10)/10) + 'h';
   return Math.max(1, Math.round(h*60)) + 'm';
