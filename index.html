@@ -83,8 +83,8 @@ h1 em{font-style:normal;color:var(--signal)}
 .peek-r .mk{font-size:11px;color:var(--ink-3);font-family:"IBM Plex Mono",monospace}
 .peek-r.has .mk{color:var(--done)}
 /* The readout is the only way to find out what a mark is, so it matters more
-   on a phone than anywhere else. It follows a finger and lingers after the
-   lift; see the touch handlers in wireStrip. */
+   on a phone than anywhere else. It follows a finger and stays up until you
+   touch elsewhere or scroll; see the touch handlers in wireStrip. */
 
 /* One strip layer per reader, stacked with a small vertical offset. A layer's
    read mark drops to the bottom of the whole stack only where nobody ranked
@@ -601,7 +601,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'fc3ae2e3480f';
+const BUILD = '473ce29cdec5';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -1779,6 +1779,26 @@ function magnify(host, idx){
   placePacers(host);
 }
 
+// A touch readout has no natural end, so the next thing you do ends it:
+// touching the page away from a strip, or scrolling. Scrolling counts because
+// the readout is position:fixed and would otherwise hang in the middle of the
+// screen, detached from the mark it describes.
+let touchHost = null;
+function clearTouchPeek(){
+  if(!touchHost) return;
+  magnify(touchHost, -1);
+  $('peek').classList.add('hide');
+  touchHost = null;
+}
+document.addEventListener('touchstart', e=>{
+  // a strip's own handler runs first and re-arms touchHost, so touching a
+  // strip never reaches this clear
+  if(touchHost && !(e.target.closest && e.target.closest('.striprow,.stackrow')))
+    clearTouchPeek();
+}, {passive:true});
+window.addEventListener('scroll', ()=>{ if(touchHost) clearTouchPeek(); },
+  {passive:true});
+
 function showPeek(idx, x, top, grouped){
   const it = FLAT[idx];
   if(!it){ $('peek').classList.add('hide'); return; }
@@ -1858,25 +1878,18 @@ function wireStrip(host, grouped, lifts){
   // real swipe crosses many marks at once and clamping makes the selection
   // crawl behind the finger. touch-action:pan-y on the row leaves vertical
   // scrolling to the browser, so only sideways drags reach this.
-  let linger = null;
   const onTouch = e=>{
     const t = e.touches && e.touches[0];
     if(!t) return;
     host._touchAt = Date.now();
-    clearTimeout(linger);
+    touchHost = host;
     const i = columnAt(host, t.clientX);
     magnify(host, i);
     showPeek(i, t.clientX, host.getBoundingClientRect().top, host._grouped);
   };
-  const endTouch = ()=>{
-    host._touchAt = Date.now();
-    clearTimeout(linger);
-    // hold it, so you can lift your finger and actually read the thing
-    linger = setTimeout(()=>{
-      magnify(host, -1);
-      $('peek').classList.add('hide');
-    }, 2200);
-  };
+  // Lifting a finger is not a mouse leaving: you have stopped dragging, not
+  // stopped reading. The readout's lifetime is clearTouchPeek's job.
+  const endTouch = ()=>{ host._touchAt = Date.now(); };
   host.addEventListener('touchstart', onTouch, {passive:true});
   host.addEventListener('touchmove',  onTouch, {passive:true});
   host.addEventListener('touchend',   endTouch, {passive:true});
