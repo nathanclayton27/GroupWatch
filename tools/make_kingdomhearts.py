@@ -52,8 +52,64 @@ OSAKA = ("https://www.kh13.com/news/exclusive-canon-back-story-for-kingdom-heart
          "-shown-at-kingdom-hearts-orchestra-world-tour-in-japan")
 
 
+# Hours per entry, used to size the bars and drive the pace line. The point is
+# proportion, not precision: a group with a finish date needs the strip to know
+# that Kingdom Hearts II is not the same size as a four-minute trailer.
+#
+# These are the hours for the *recommended* path, which is the whole trick.
+# Re:coded is the three-hour cutscene film, because that is what the rundown
+# says to do with it, not the sixteen-hour DS game. The two delisted mobile
+# games are recap-watching time. 358/2 Days is the full DS game, because there
+# the rundown explicitly says to play the original rather than watch the film.
+#
+# Games are HowLongToBeat "main story" figures, taken from two aggregations
+# that cite them and agree closely; where they differ the midpoint is used.
+#   https://gamerant.com/how-long-to-beat-every-kingdom-hearts-game/
+#   https://www.thegamer.com/kingdom-hearts-longest-shortest-games/
+# Values marked EXACT were read from the source's own metadata rather than
+# estimated. Everything else is an estimate and the property says so.
+HOURS = {
+    # tier 1 — the spine
+    "kh1":          28,     # HLTB main: 29 / 28.5
+    "com":          20,     # HLTB main: 18 / 18.5, 23 for the Re: remake
+    "kh2":          30,     # HLTB main: 32 / 32, 29 for Final Mix
+    "days":         26,     # HLTB main: 27 / 26.5 — the DS game, as recommended
+    "bbs":          28,     # HLTB main: 28 / 29, 26 for Final Mix
+    "ddd":          23,     # HLTB main: 23 / 23
+    "ux1":           2,     # recap; Back Cover covers this material in 80 min
+    "fragmentary":   3,     # HLTB main: 3 / 2.5
+    "kh3":          29,     # HLTB main: 29 / 29
+    "remind":        4,     # HLTB main: 4
+    "ux2":           3,     # recap, estimated — no film exists for the second half
+    "darkroad":      2,     # recap, estimated
+    "kh4":           0,     # unreleased: weightless until it exists, so it can
+                            # not drag a group's pace line for a year
+    # tier 2 — watchable instead
+    "recoded":       3,     # EXACT: the HD cutscene film runs 2h58m
+    "mom":          10,     # HLTB main: 10 / 9.5
+    # tier 3 — supplemental
+    "firstbreath":   0.5,   # transcription, estimated read time
+    "osaka":         0.25,  # short article, estimated read time
+    "orch-tour":     1.2,   # EXACT: 4340s
+    "orch-tres":     1.85,  # EXACT: 6658s
+    "tweewy":       25,     # HLTB main for the DS original
+    "missinglink":   0.08,  # EXACT: 279s
+    "vr":            0.75,  # short PSVR piece, estimated
+    "manga":        10,     # 16 volumes (4 + 2 + 10), estimated at ~35 min each
+    "days-manga":    3,     # 5 volumes
+    "novels":       13,     # the first three games' novels, estimated
+    "ultimania":     2,     # coffee table book, estimated browse
+    "charfiles":     1.5,   # coffee table book, estimated browse
+    "versus":        0.5,   # EXACT: 1839s
+    "versus-doc":    0.42,  # EXACT: 1503s
+    "presskit":      0.5,   # estimated browse
+    "pilot":         0.19,  # EXACT: 679s
+}
+
+
 def it(key, title, fmt, note="", url="", star=0):
-    x = {"id": "kh-" + key, "t": title, "n": fmt}
+    assert key in HOURS, "no weight for %r" % key
+    x = {"id": "kh-" + key, "t": title, "n": fmt, "w": HOURS[key]}
     if note:
         x["note"] = note
     if url:
@@ -216,6 +272,12 @@ def main():
     assert tiers[2] == 2, tiers[2]
     assert total == 31, total
 
+    # a weight declared but never attached to an item is a silent typo
+    used = {x["id"][3:] for s in SECTIONS for x in s["items"]}
+    assert used == set(HOURS), (used ^ set(HOURS))
+    hours = sum(x["w"] for s in SECTIONS for x in s["items"])
+    spine = sum(x["w"] for s in SECTIONS if s["tier"] == 1 for x in s["items"])
+
     prop = {
         "slug": SLUG,
         "title": "Kingdom Hearts",
@@ -223,8 +285,8 @@ def main():
         "kind": "games",
         "order": 10,
         "year": "2002–2027",
-        "blurb": "%d entries in release order, tiered by what the story actually "
-                 "needs." % total,
+        "blurb": "%d entries in release order, about %d hours if you do the lot. "
+                 "Tiered by what the story actually needs." % (total, round(hours)),
         "unit": {"one": "entry", "many": "entries"},
         "verb": {"base": "play", "past": "played", "ing": "playing"},
         "itemOrder": "number-first",
@@ -250,6 +312,18 @@ def main():
              "stores and cannot be played any more, so watch a cutscene compilation "
              "or a detailed recap. Back Cover, in the 2.8 collection, covers the "
              "first half of Union Cross; the second half is on YouTube only."],
+            ["Why the bars are different sizes.", "Each mark is as wide as the "
+             "thing takes, so a forty-hour game is not one tick next to a "
+             "four-minute trailer. A finish-by date paces you through the hours "
+             "rather than the entries, which is the only way the line means "
+             "anything here. The spine alone is about %d hours; everything on "
+             "this page is about %d." % (round(spine), round(hours))],
+            ["The hours.", "Games use HowLongToBeat's main-story figures. Where "
+             "the rundown says to watch something instead of playing it, the "
+             "number is how long that takes — Re:coded is its three-hour "
+             "cutscene film, not the sixteen-hour DS game. Video lengths are "
+             "exact; books, manga and recaps are estimates. Kingdom Hearts IV "
+             "weighs nothing until it exists."],
             "Order and priorities from a rundown written by a friend of the group who "
             "has played all of it. Platform, version and availability details "
             "cross-checked against the Kingdom Hearts Wiki and Square Enix's "
@@ -264,10 +338,13 @@ def main():
         f.write(json.dumps(prop, indent=2, ensure_ascii=False) + "\n")
 
     print("wrote %s.json" % SLUG)
-    print("  %d sections, %d entries" % (len(SECTIONS), total))
+    print("  %d sections, %d entries, %.1f hours" % (len(SECTIONS), total, hours))
+    print("  tier 1 spine: %.1f hours" % spine)
     print("  tier 1: %d   tier 2: %d   tier 3: %d" % (tiers[1], tiers[2], tiers[3]))
     for s in SECTIONS:
-        print("   T%d  %-34s %2d" % (s["tier"], s["title"][:34], len(s["items"])))
+        print("   T%d  %-34s %2d  %6.1fh"
+              % (s["tier"], s["title"][:34], len(s["items"]),
+                 sum(x["w"] for x in s["items"])))
 
 
 if __name__ == "__main__":

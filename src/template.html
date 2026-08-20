@@ -43,13 +43,17 @@ h1 em{font-style:normal;color:var(--signal)}
   transition:margin .28s ease-out}
 /* flex-grow must NOT be transitioned: while it tweens, hit-testing reads a
    layout that is neither the old one nor the new one and the selection walks */
-.tick{flex:1 1 0;min-width:0;background:var(--rule);height:40%;
+.tick{flex:1 1 0;flex-grow:var(--w,1);min-width:0;background:var(--rule);height:40%;
   transform-origin:bottom center;
   transition:height .3s ease-out,transform .3s ease-out,background .28s,
              opacity .28s,margin .3s ease-out}
 .tick.t1{height:70%}
 .tick.on{background:var(--signal);height:100%}
 .tick.sep{background:transparent;flex:0 0 3px}
+/* Weighted properties size each mark by how long the thing takes. A four
+   minute video against a thirty hour game rounds to well under a pixel, so
+   every mark gets a floor and the rest share out what is left. */
+.wtd .tick:not(.sep){min-width:7px}
 
 /* fisheye */
 .striprow:hover,.stackrow:hover{margin-left:-14px;margin-right:-14px}
@@ -454,6 +458,9 @@ let VERB = {past:'done', ing:'tracking'};
 let TIERED = false;
 let FLAT = [], SECOF = [], SECSTART = new Set();
 let NUMFIRST = false;
+// Optional per-item weight, in hours. A property that declares none gets all
+// ones, TOTALW === TOTAL, and every figure below reduces to an item count.
+let WEIGHT = [], CUMW = [], TOTALW = 0, WEIGHTED = false, IDX = new Map();
 
 const CLOUD = !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.supabase);
 const sb = CLOUD ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
@@ -499,6 +506,17 @@ async function loadProperty(){
   }));
   ORDER = DATA.flatMap(s=>s.items.map(x=>x.id));
   VALID = new Set(ORDER);
+  IDX = new Map(ORDER.map((id,i)=>[id,i]));
+  WEIGHTED = DATA.some(s=> s.items.some(x=> typeof x.w === 'number'));
+  WEIGHT = DATA.flatMap(s=> s.items.map(
+    x=> typeof x.w === 'number' && x.w >= 0 ? x.w : 1));
+  CUMW = []; TOTALW = 0;
+  WEIGHT.forEach(w=>{ TOTALW += w; CUMW.push(TOTALW); });
+  // an all-zero weight set would divide by zero everywhere downstream
+  if(!(TOTALW > 0)){
+    WEIGHTED = false; WEIGHT = ORDER.map(()=>1);
+    CUMW = ORDER.map((_,i)=>i+1); TOTALW = TOTAL;
+  }
   localStorage.setItem('gw:last', SLUG);
   applyAccent();
 }
@@ -514,6 +532,25 @@ function applyAccent(){
 if(DARKQ && DARKQ.addEventListener) DARKQ.addEventListener('change', applyAccent);
 
 function plural(n){ return n === 1 ? UNIT.one : UNIT.many; }
+// How many items are fully covered by a share of the total weight. This is
+// what replaces `round(frac * TOTAL)` once marks stop being interchangeable.
+function itemsAtWeight(target){
+  let i = 0;
+  while(i < TOTAL && CUMW[i] <= target + 1e-9) i++;
+  return i;
+}
+function weightOf(set){
+  if(!WEIGHTED) return set.size;
+  let t = 0;
+  set.forEach(id=>{ const i = IDX.get(id); if(i !== undefined) t += WEIGHT[i]; });
+  return t;
+}
+// "31h" reads better than "31.4 hours", and under an hour wants minutes
+function hrs(h){
+  if(h >= 10) return Math.round(h) + 'h';
+  if(h >= 1) return (Math.round(h*10)/10) + 'h';
+  return Math.max(1, Math.round(h*60)) + 'm';
+}
 function cap(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
 function groupNoun(){ return cap(VERB.ing) + ' with other people'; }
 const $ = id => document.getElementById(id);
@@ -777,6 +814,7 @@ function paceInfo(){
     return {
       kind:'windows', expected:due, due, target,
       dueFrac: due/TOTAL, targetFrac: target/TOTAL,
+      wDue: due > 0 ? CUMW[due-1] : 0,
       label: current ? current.label : (before ? 'Starts '+ws[0].start : 'Schedule complete'),
       endIso, daysLeft: daysUntil(endIso), before
     };
@@ -786,10 +824,14 @@ function paceInfo(){
   const end   = new Date(group.target_date + 'T00:00:00');
   if(!(end - start > 0)) return null;
   const frac = Math.min(1, Math.max(0, (Date.now() - start) / (end - start)));
-  const expected = Math.round(TOTAL * frac);
+  // With weights the elapsed share of the calendar buys an elapsed share of
+  // the *hours*, not of the item count: a week does not get you through one
+  // thirty-hour game and one four-minute video at the same rate.
+  const expected = WEIGHTED ? itemsAtWeight(TOTALW * frac)
+                            : Math.round(TOTAL * frac);
   return {
     kind:'linear', expected, due:expected, target:expected,
-    dueFrac:frac, targetFrac:frac,
+    dueFrac:frac, targetFrac:frac, wDue: TOTALW * frac,
     label:'', endIso:group.target_date, daysLeft:daysUntil(group.target_date)
   };
 }
@@ -811,7 +853,8 @@ function dueFor(idx){
   const start = new Date(group.start_date + 'T00:00:00').getTime();
   const end   = new Date(group.target_date + 'T00:00:00').getTime();
   if(!(end > start)) return null;
-  const d = new Date(start + (end - start) * (need / TOTAL));
+  if(!(idx >= 0 && idx < TOTAL)) return null;
+  const d = new Date(start + (end - start) * (CUMW[idx] / TOTALW));
   return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')
         +'-'+String(d.getDate()).padStart(2,'0');
 }
@@ -881,13 +924,16 @@ function paintStack(){
         const veil = !on && deepest[idx] > i;
         const cls = 'tick'+(TIERED&&SECOF[idx].tier===1?' t1':'')+(on?' on':'')
                   + (full?' full':'')+(veil?' veil':'');
+        const sty = (WEIGHTED ? '--w:'+WEIGHT[idx]+';' : '')
+                  + (on ? 'background:'+color : '');
         ticks += '<span class="'+cls+'" data-i="'+idx+'"'
-              + (on?' style="background:'+color+'"':'')+'></span>';
+              + (sty?' style="'+sty+'"':'')+'></span>';
       }
       layers += '<div class="layer" style="top:'+(i*offset)+'px;z-index:'+(list.length-i)
               + ';--fillH:'+(stackH - i*offset)+'px">'+ticks+'</div>';
     });
-    html += '<div class="stackrow" style="height:'+stackH+'px;--layerH:'+LAYER_H+'px" '
+    html += '<div class="stackrow'+(WEIGHTED?' wtd':'')
+          + '" style="height:'+stackH+'px;--layerH:'+LAYER_H+'px" '
           + 'data-a="'+a+'" data-b="'+b+'">'+layers+'</div>';
   });
 
@@ -899,8 +945,11 @@ function paintStack(){
   // With wrapped rows a marker belongs to one row, at a position within it.
   const p = paceInfo();
   if(p){
-    const mark = (frac, cls, title)=>{
-      const at = Math.min(TOTAL-1, Math.max(0, Math.round(frac*TOTAL)));
+    // an item index, not a fraction of the row's width: once marks differ in
+    // width the marker has to sit on a real boundary, and placePacers reads
+    // that mark's own rect to place it
+    const mark = (at0, cls, title)=>{
+      const at = Math.min(TOTAL-1, Math.max(0, at0));
       const row = rows.findIndex(([a,b])=> at >= a && at < b);
       if(row < 0) return;
       const el = host.children[row];
@@ -911,24 +960,26 @@ function paintStack(){
       d.title = title;
       el.appendChild(d);
     };
-    if(p.targetFrac > 0 && p.targetFrac < 1)
-      mark(p.targetFrac, 'pacer', 'Target: '+p.target+' by '+p.endIso);
-    if(p.dueFrac > 0 && p.dueFrac < 1 && p.dueFrac !== p.targetFrac)
-      mark(p.dueFrac, 'pacer due', 'Overdue line: '+p.due);
+    if(p.target > 0 && p.target < TOTAL)
+      mark(p.target, 'pacer', 'Target: '+p.target+' by '+p.endIso);
+    if(p.due > 0 && p.due < TOTAL && p.due !== p.target)
+      mark(p.due, 'pacer due', 'Overdue line: '+p.due);
   }
 
   host.querySelectorAll('.stackrow').forEach(r=>{ wireStrip(r, true, LIFT_STACK); placePacers(r); });
 
   $('glegend').innerHTML = list.map((m,i)=>{
     const n = reads[i].size;
-    const pct = n/TOTAL*100;
+    const pct = weightOf(reads[i])/TOTALW*100;
     // one issue out of 250 rounds to 0%, which reads as "hasn't started"
     const shown = (pct > 0 && pct < 1) ? '&lt;1%' : Math.round(pct)+'%';
     let tag = '';
     if(p){
-      const behind = p.expected - n;
-      tag = behind > 0
-        ? '<span class="pace behind">'+behind+' behind</span>'
+      // "3 behind" is meaningless when one of the three is a forty hour game
+      const behind = WEIGHTED ? (p.wDue||0) - weightOf(reads[i])
+                              : p.expected - n;
+      tag = behind > (WEIGHTED ? 0.5 : 0)
+        ? '<span class="pace behind">'+(WEIGHTED?hrs(behind):behind)+' behind</span>'
         : '<span class="pace ok">on pace</span>';
     }
     return '<span class="gitem"><span class="gsw" style="background:var(--m'+(m.ci+1)+')"></span>'
@@ -1143,11 +1194,19 @@ function updateGroupLine(){
   const n = mine ? readsOf(mine).size : done.size;
   let line;
   if(p){
-    const behind = p.expected - n;
     const days = p.daysLeft + ' day' + (p.daysLeft === 1 ? '' : 's') + ' left.';
-    line = behind > 0
-      ? 'You’re '+behind+' '+plural(behind)+' behind pace, with '+days
-      : 'You’re on pace, with '+days;
+    const mySet = mine ? readsOf(mine) : done;
+    if(WEIGHTED){
+      const short = (p.wDue||0) - weightOf(mySet);
+      line = short > 0.5
+        ? 'You’re about '+hrs(short)+' behind pace, with '+days
+        : 'You’re on pace, with '+days;
+    }else{
+      const behind = p.expected - n;
+      line = behind > 0
+        ? 'You’re '+behind+' '+plural(behind)+' behind pace, with '+days
+        : 'You’re on pace, with '+days;
+    }
   }else if(group.target_date){
     line = 'Finish date is set to '+group.target_date+'.';
   }else{
@@ -1374,7 +1433,11 @@ function indexStrip(host){
   });
   host._cols = centers; host._by = by; host._idx = -1; host._hot = [];
   const w = host.getBoundingClientRect().width;
-  host._fish = centers.length && w ? fishFor(centers.length, w) : [7,3.4,2.1,1.4];
+  const fish = centers.length && w ? fishFor(centers.length, w) : [7,3.4,2.1,1.4];
+  // fishFor works in "average mark" units. Unweighted that is one grow unit;
+  // weighted it is TOTALW/TOTAL, so the peak still lands near PEEK_PX wide.
+  const avg = WEIGHTED && TOTAL ? TOTALW/TOTAL : 1;
+  host._fish = avg === 1 ? fish : fish.map(g=> g*avg);
   placePacers(host);
 }
 
@@ -1434,8 +1497,11 @@ function magnify(host, idx){
     for(let d=-(fish.length-1); d<=fish.length-1; d++){
       const g = fish[Math.abs(d)], els = host._by.get(idx+d);
       if(!g || !els) continue;
+      // never below the mark's own width: the magnifier only ever enlarges,
+      // and a heavy neighbour must not shrink when something near it is hovered
+      const base = WEIGHTED ? (WEIGHT[idx+d] || 0) : 1;
       els.forEach(t=>{
-        t.style.flexGrow = g;
+        t.style.flexGrow = Math.max(g, base);
         t.style.transform = 'scaleY('+host._lifts[Math.abs(d)]+')';
         if(!d){
           t.style.marginLeft='3px'; t.style.marginRight='3px';
@@ -1456,7 +1522,9 @@ function showPeek(idx, x, top, grouped){
   const num = '<span class="num mono">'+esc(it.n)+'</span>';
   const head = NUMFIRST ? num+' '+esc(it.t) : esc(it.t)+' '+num;
   let h = '<div class="peek-t">'+head+'</div>'
-        + '<div class="peek-s">'+esc(it.sec)+'</div>';
+        + '<div class="peek-s">'+esc(it.sec)
+        + (WEIGHTED && WEIGHT[idx] > 0 ? ' · about '+hrs(WEIGHT[idx]) : '')
+        + '</div>';
 
   const due = dueFor(idx);
   if(due){
@@ -1676,9 +1744,10 @@ function build(){
     for(let i=a;i<b;i++){
       if(i>a && SECSTART.has(i)) r += '<span class="tick sep"></span>';
       r += '<span class="tick'+(TIERED&&SECOF[i].tier===1?' t1':'')
-         + '" data-t="'+ORDER[i]+'" data-i="'+i+'"></span>';
+         + '" data-t="'+ORDER[i]+'" data-i="'+i+'"'
+         + (WEIGHTED?' style="--w:'+WEIGHT[i]+'"':'')+'></span>';
     }
-    return '<div class="striprow">'+r+'</div>';
+    return '<div class="striprow'+(WEIGHTED?' wtd':'')+'">'+r+'</div>';
   }).join('');
   $('strip').querySelectorAll('.striprow').forEach(r=> wireStrip(r, false, LIFT_SOLO));
 
