@@ -267,6 +267,23 @@ footer a{color:var(--steel)}
 @media (max-width:560px){
   li{padding:6px 14px}.wrap{padding:0 14px 80px}.bar-in{padding:0 14px;gap:16px}
   summary{padding:13px 14px}input[type=text],input[type=email]{width:130px}
+  /* A tier badge, a title, a series link, a button and a count will not
+     share one line on a phone. The link and the button are nowrap, so they
+     keep their full width; the title block was the only item that could
+     give, so it was crushed to nothing, its words spilled over the link
+     beside it, and the row still ran off the screen. Title gets its own
+     line, controls get the next. The zero-height full-basis ::after is what
+     forces the break, and works with or without the tier badge. */
+  summary{flex-wrap:wrap;gap:6px 10px}
+  summary::after{content:"";flex-basis:100%;height:0;order:1}
+  .st{min-width:0}
+  .st h2{overflow-wrap:anywhere}
+  .cnt{order:2}
+  .sl{order:3;margin-left:0;white-space:normal;overflow-wrap:anywhere}
+  .bulk{order:4;margin-left:auto}
+  /* three inline width:NNNpx attributes in the markup beat any width rule
+     here, but max-width still clamps them */
+  input[type=text],input[type=email],textarea{max-width:100%}
   /* Safari zooms the page in on focus for anything under 16px, which shoves
      the layout sideways and leaves it there. */
   input[type=text],input[type=email],input[type=date],select,.psearch input{font-size:16px}
@@ -584,7 +601,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '7a5d2f371106';
+const BUILD = 'fc3ae2e3480f';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
