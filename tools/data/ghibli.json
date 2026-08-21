@@ -1,0 +1,340 @@
+[
+ {
+  "title": "The Castle of Cagliostro",
+  "page": "The Castle of Cagliostro",
+  "year": 1979,
+  "ghibli": false,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 110,
+  "released": "1979-12-15",
+  "miyazaki": true
+ },
+ {
+  "title": "Nausicaä of the Valley of the Wind",
+  "page": "Nausicaä of the Valley of the Wind (film)",
+  "year": 1984,
+  "ghibli": false,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 117,
+  "released": "1984-03-11",
+  "miyazaki": true
+ },
+ {
+  "title": "Castle in the Sky",
+  "page": "Castle in the Sky",
+  "year": 1986,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 124,
+  "released": "1986-08-02",
+  "miyazaki": true
+ },
+ {
+  "title": "Grave of the Fireflies",
+  "page": "Grave of the Fireflies",
+  "year": 1988,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Isao Takahata"
+  ],
+  "runtime": 93,
+  "released": "1988-04-16",
+  "miyazaki": false
+ },
+ {
+  "title": "My Neighbor Totoro",
+  "page": "My Neighbor Totoro",
+  "year": 1988,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 86,
+  "released": "1988-04-16",
+  "miyazaki": true
+ },
+ {
+  "title": "Kiki's Delivery Service",
+  "page": "Kiki's Delivery Service",
+  "year": 1989,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 103,
+  "released": "1989-07-29",
+  "miyazaki": true
+ },
+ {
+  "title": "Only Yesterday",
+  "page": "Only Yesterday (1991 film)",
+  "year": 1991,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Isao Takahata"
+  ],
+  "runtime": 118,
+  "released": "1991-07-20",
+  "miyazaki": false
+ },
+ {
+  "title": "Porco Rosso",
+  "page": "Porco Rosso",
+  "year": 1992,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 92,
+  "released": "1992-07-18",
+  "miyazaki": true
+ },
+ {
+  "title": "Ocean Waves",
+  "page": "Ocean Waves",
+  "year": 1993,
+  "ghibli": true,
+  "tv": true,
+  "directors": [
+   "Tomomi Mochizuki"
+  ],
+  "runtime": 72,
+  "released": "1993-05-05",
+  "miyazaki": false
+ },
+ {
+  "title": "Pom Poko",
+  "page": "Pom Poko",
+  "year": 1994,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Isao Takahata"
+  ],
+  "runtime": 118,
+  "released": "1994-07-16",
+  "miyazaki": false
+ },
+ {
+  "title": "Whisper of the Heart",
+  "page": "Whisper of the Heart",
+  "year": 1995,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Yoshifumi Kondō"
+  ],
+  "runtime": 111,
+  "released": "1995-02-05",
+  "miyazaki": false
+ },
+ {
+  "title": "Princess Mononoke",
+  "page": "Princess Mononoke",
+  "year": 1997,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 128,
+  "released": "1997-07-12",
+  "miyazaki": true
+ },
+ {
+  "title": "My Neighbors the Yamadas",
+  "page": "My Neighbors the Yamadas",
+  "year": 1999,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Isao Takahata"
+  ],
+  "runtime": 104,
+  "released": "1999-07-17",
+  "miyazaki": false
+ },
+ {
+  "title": "Spirited Away",
+  "page": "Spirited Away",
+  "year": 2001,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 125,
+  "released": "2001-07-20",
+  "miyazaki": true
+ },
+ {
+  "title": "The Cat Returns",
+  "page": "The Cat Returns",
+  "year": 2002,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hiroyuki Morita"
+  ],
+  "runtime": 75,
+  "released": "2002-07-19",
+  "miyazaki": false
+ },
+ {
+  "title": "Howl's Moving Castle",
+  "page": "Howl's Moving Castle (film)",
+  "year": 2004,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 119,
+  "released": "2004-09-05",
+  "miyazaki": true
+ },
+ {
+  "title": "Tales from Earthsea",
+  "page": "Tales from Earthsea (film)",
+  "year": 2006,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Gorō Miyazaki"
+  ],
+  "runtime": 115,
+  "released": "2006-07-29",
+  "miyazaki": false
+ },
+ {
+  "title": "Ponyo",
+  "page": "Ponyo",
+  "year": 2008,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 101,
+  "released": "2008-07-19",
+  "miyazaki": true
+ },
+ {
+  "title": "Arrietty",
+  "page": "Arrietty",
+  "year": 2010,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hiromasa Yonebayashi"
+  ],
+  "runtime": 94,
+  "released": "2010-07-17",
+  "miyazaki": false
+ },
+ {
+  "title": "From Up on Poppy Hill",
+  "page": "From Up on Poppy Hill",
+  "year": 2011,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Gorō Miyazaki"
+  ],
+  "runtime": 91,
+  "released": "2011-07-16",
+  "miyazaki": false
+ },
+ {
+  "title": "The Tale of the Princess Kaguya",
+  "page": "The Tale of the Princess Kaguya (film)",
+  "year": 2013,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Isao Takahata"
+  ],
+  "runtime": 137,
+  "released": "2013-11-23",
+  "miyazaki": false
+ },
+ {
+  "title": "The Wind Rises",
+  "page": "The Wind Rises",
+  "year": 2013,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 126,
+  "released": "2013-07-20",
+  "miyazaki": true
+ },
+ {
+  "title": "When Marnie Was There",
+  "page": "When Marnie Was There (film)",
+  "year": 2014,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hiromasa Yonebayashi"
+  ],
+  "runtime": 103,
+  "released": "2014-07-19",
+  "miyazaki": false
+ },
+ {
+  "title": "The Red Turtle",
+  "page": "The Red Turtle",
+  "year": 2016,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Michaël Dudok de Wit"
+  ],
+  "runtime": 80,
+  "released": "2016-05-18",
+  "miyazaki": false
+ },
+ {
+  "title": "Earwig and the Witch",
+  "page": "Earwig and the Witch",
+  "year": 2020,
+  "ghibli": true,
+  "tv": true,
+  "directors": [
+   "Gorō Miyazaki"
+  ],
+  "runtime": 82,
+  "released": "2020-10-18",
+  "miyazaki": false
+ },
+ {
+  "title": "The Boy and the Heron",
+  "page": "The Boy and the Heron",
+  "year": 2023,
+  "ghibli": true,
+  "tv": false,
+  "directors": [
+   "Hayao Miyazaki"
+  ],
+  "runtime": 124,
+  "released": "2023-07-14",
+  "miyazaki": true
+ }
+]
