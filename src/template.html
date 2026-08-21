@@ -268,6 +268,19 @@ footer a{color:var(--steel)}
 .psearch{padding:5px 5px 7px;border-bottom:1px solid var(--rule);margin-bottom:5px}
 .psearch input{width:100%}
 .pnone{padding:14px 11px;font-size:12px;color:var(--ink-3)}
+/* a row is a flex pair so the star is its own button — nesting one inside the
+   row button would be invalid and unreachable by keyboard */
+.prow{display:flex;align-items:stretch;border-radius:var(--radius)}
+.prow:hover{background:rgba(128,128,128,.1)}
+.prow button[data-slug]{flex:1 1 auto;min-width:0}
+.prow:hover button[data-slug],.prow button[data-slug]:hover{background:transparent}
+.pstar{flex:none!important;width:38px;display:flex!important;align-items:center;
+  justify-content:center;color:var(--ink-3);font-size:14px;line-height:1;
+  padding:0!important}
+.pstar:hover{color:var(--signal);background:transparent!important}
+.pstar.on{color:var(--signal)}
+.pgroup{padding:9px 11px 3px;font-family:"IBM Plex Mono",monospace;font-size:10px;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
 .win{display:flex;gap:8px 14px;flex-wrap:wrap;align-items:baseline;margin:0 0 10px;font-size:13px;color:var(--ink-2)}
 .pscope{display:inline-flex;align-items:center;gap:7px;margin:6px 0 0;
   font-size:12px;color:var(--ink-3);cursor:pointer;user-select:none}
@@ -2045,28 +2058,76 @@ function renderMenu(){
   };
 }
 
+// Starred properties are pinned to the top of the menu. The list is one key for
+// the whole app rather than one per property, because it answers "which of
+// these do I actually follow", which is not a question about any one of them.
+const STARKEY = 'gw:stars';
+function stars(){
+  try{
+    const v = JSON.parse(localStorage.getItem(STARKEY) || '[]');
+    return new Set(Array.isArray(v) ? v : []);
+  }catch(e){ return new Set(); }
+}
+function toggleStar(slug){
+  const s = stars();
+  s.has(slug) ? s.delete(slug) : s.add(slug);
+  try{ localStorage.setItem(STARKEY, JSON.stringify([...s])); }catch(e){}
+  return s;
+}
+
 // Alphabetical, because the menu is for finding a title you already have in
-// mind — the picker on the splash is where curated order belongs.
+// mind — the picker on the splash is where curated order belongs. Starred ones
+// break that on purpose: they are the ones you came here for.
 function filterMenu(q){
   const needle = q.trim().toLowerCase();
+  const st = stars();
   const list = MANIFEST.slice().sort((a,b)=> a.title.localeCompare(b.title));
   const hits = !needle ? list : list.filter(m=>
     (m.title+' '+(m.subtitle||'')+' '+(m.kind||'')+' '+(m.year||'')).toLowerCase()
       .indexOf(needle) >= 0);
 
-  $('phits').innerHTML = hits.length ? hits.map(m=>{
+  const row = m=>{
     const n = localCount(m.slug);
     const meta = [m.kind, m.year, n + ' / ' + m.total + ' ' + m.unit.many].filter(Boolean);
-    return '<button role="option" data-slug="'+esc(m.slug)+'"'
+    const on = st.has(m.slug);
+    return '<div class="prow">'
+      + '<button role="option" data-slug="'+esc(m.slug)+'"'
       + ' aria-selected="'+(m.slug===SLUG)+'">'
       + '<span class="pm-t"><span class="pdot" style="background:'
       + esc(accentOf(m))+'"></span>'+esc(m.title)+'</span>'
       + '<span class="pm-m">'+meta.map(esc).join(' · ')+'</span>'
-      + '</button>';
-  }).join('') : '<div class="pnone">Nothing matches “'+esc(q.trim())+'”</div>';
+      + '</button>'
+      + '<button class="pstar'+(on?' on':'')+'" data-star="'+esc(m.slug)+'"'
+      + ' aria-pressed="'+on+'" title="'+(on?'Remove from favourites':'Keep at the top')
+      + '">'+(on ? '★' : '☆')+'</button>'
+      + '</div>';
+  };
+
+  let html;
+  if(!hits.length){
+    html = '<div class="pnone">Nothing matches “'+esc(q.trim())+'”</div>';
+  }else{
+    const fav = hits.filter(m=> st.has(m.slug));
+    const rest = hits.filter(m=> !st.has(m.slug));
+    // a heading is only worth its space once the split actually splits
+    html = (fav.length && rest.length)
+      ? '<div class="pgroup">Favourites</div>' + fav.map(row).join('')
+        + '<div class="pgroup">Everything else</div>' + rest.map(row).join('')
+      : fav.concat(rest).map(row).join('');
+  }
+  $('phits').innerHTML = html;
 
   $('phits').querySelectorAll('button[data-slug]').forEach(b=>{
     b.onclick = ()=> b.dataset.slug === SLUG ? closeMenu() : go(b.dataset.slug);
+  });
+  $('phits').querySelectorAll('button[data-star]').forEach(b=>{
+    b.onclick = e=>{
+      e.stopPropagation();          // starring is not picking
+      toggleStar(b.dataset.star);
+      filterMenu(q);                // re-sort under the same search
+      const find = $('pfind');
+      if(find) find.focus();
+    };
   });
 }
 
