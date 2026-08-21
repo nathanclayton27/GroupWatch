@@ -215,14 +215,14 @@
     "subtitle": "every Marvel film in release order, MCU or not",
     "kind": "films & shows",
     "year": "1998–2026",
-    "blurb": "76 films and 53 seasons in the order they came out — about 571 hours, tiered by how much the story needs each one.",
+    "blurb": "79 films and 53 seasons in the order they came out — about 575 hours, tiered by how much the story needs each one.",
     "accent": "#B3282D",
     "accentDark": "#F0666B",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 129
+    "total": 132
   },
   {
     "slug": "ultimate-marvel",
@@ -253,5 +253,20 @@
       "many": "works"
     },
     "total": 47
+  },
+  {
+    "slug": "dc-anthology",
+    "title": "DC Anthology",
+    "subtitle": "every live-action DC film and series, in release order",
+    "kind": "films & shows",
+    "year": "1951–",
+    "blurb": "55 films and 139 seasons of television, about 1754 hours, in the order they came out.",
+    "accent": "#1F5FA8",
+    "accentDark": "#6FA8E8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 194
   }
 ]
