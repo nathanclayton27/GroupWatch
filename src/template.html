@@ -53,7 +53,7 @@ h1 em{font-style:normal;color:var(--signal)}
 /* Weighted properties size each mark by how long the thing takes. A four
    minute video against a thirty hour game rounds to well under a pixel, so
    every mark gets a floor and the rest share out what is left. */
-.wtd .tick:not(.sep){min-width:7px}
+.wtd .tick:not(.sep){min-width:var(--floor,7px)}
 
 /* fisheye */
 .striprow:hover,.stackrow:hover{margin-left:-14px;margin-right:-14px}
@@ -135,6 +135,12 @@ details{border:1px solid var(--rule);border-radius:var(--radius);background:var(
 summary{list-style:none;cursor:pointer;padding:15px 18px;display:flex;gap:14px;align-items:baseline}
 summary::-webkit-details-marker{display:none}
 .tier{flex:none;width:20px;color:var(--ink-3);font-weight:500}
+/* the per-row version, for lists whose sections are not tier-homogeneous */
+.itier{flex:none;font-size:10px;letter-spacing:.06em;color:var(--ink-3);
+  border:1px solid var(--rule-2);border-radius:var(--radius);padding:0 5px;
+  position:relative;top:-1px}
+.itier.a{color:var(--signal);border-color:var(--signal)}
+li.done .itier{opacity:.45}
 .tier.a{color:var(--signal)}
 .st{flex:1;min-width:0}
 .st h2{font-size:16px;margin:0;font-weight:500;letter-spacing:-.01em}
@@ -512,6 +518,9 @@ let PROP = null;
 let DATA = [];
 let TOTAL = 0;
 let TIERTOT = {1:0,2:0,3:0};
+// An item's tier, falling back to its section's. Sections are homogeneous
+// in every property that predates this, so TIEROF just restates SECOF there.
+let TIEROF = [], ITEMTIERS = false;
 let ORDER = [];
 let VALID = new Set();
 let UNIT = {one:'item', many:'items'};
@@ -568,8 +577,10 @@ async function loadProperty(){
   UNIT = PROP.unit || UNIT;
   VERB = PROP.verb || VERB;
   NUMFIRST = PROP.itemOrder === 'number-first';
+  ITEMTIERS = !!PROP.itemTiers;
+  TIEROF = DATA.flatMap(s=> s.items.map(x=> x.tier || s.tier || 1));
   TIERTOT = {1:0,2:0,3:0};
-  DATA.forEach(s=> TIERTOT[s.tier||1] += s.items.length);
+  TIEROF.forEach(t=> TIERTOT[t] += 1);
   FLAT = []; SECOF = []; SECSTART = new Set();
   DATA.forEach(sec=> sec.items.forEach((x,i)=>{
     if(i === 0 && FLAT.length) SECSTART.add(FLAT.length);
@@ -1037,7 +1048,7 @@ function paintStack(){
         // through the stretched mark of a reader behind it, so drop the nub
         // wherever someone deeper in the stack is still showing.
         const veil = !on && deepest[idx] > i;
-        const cls = 'tick'+(TIERED&&SECOF[idx].tier===1?' t1':'')+(on?' on':'')
+        const cls = 'tick'+(TIERED&&TIEROF[idx]===1?' t1':'')+(on?' on':'')
                   + (full?' full':'')+(veil?' veil':'');
         const sty = (WEIGHTED ? '--w:'+WEIGHT[idx]+';' : '')
                   + (on ? 'background:'+color : '');
@@ -1548,6 +1559,16 @@ function indexStrip(host){
   });
   host._cols = centers; host._by = by; host._idx = -1; host._hot = [];
   const w = host.getBoundingClientRect().width;
+  // A per-mark floor is a claim on the row's total width: 69 marks at 7px
+  // need 483px before gaps, so on a phone the row could not shrink and took
+  // the page sideways with it. Cap the floor at an even share of what is
+  // actually there — 7px still wins on a desktop, where there is room.
+  const marks = centers.filter(c=> c !== undefined).length;
+  if(marks && w){
+    const share = (w - (marks - 1)) / marks;   // 1px gaps between marks
+    host.style.setProperty('--floor',
+      Math.max(1, Math.min(7, share * 0.6)).toFixed(2) + 'px');
+  }
   const fish = centers.length && w ? fishFor(centers.length, w) : [7,3.4,2.1,1.4];
   // fishFor works in "average mark" units. Unweighted that is one grow unit;
   // weighted it is TOTALW/TOTAL, so the peak still lands near PEEK_PX wide.
@@ -1893,9 +1914,11 @@ function build(){
       // "Fantastic Four #570" reads right for comics; "12  One is All, All is
       // One" reads right for episodes
       const head = NUMFIRST ? num+' '+t : t+' '+num;
+      const tr = x.tier || s.tier || 1;
       return '<li data-id="'+x.id+'"><input type="checkbox" aria-labelledby="l'+x.id+'">'
         +'<button class="catch" data-id="'+x.id+'" title="Mark everything up to and including this">'
         +'catch up to here</button>'
+        +(ITEMTIERS ? '<span class="itier mono'+(tr===1?' a':'')+'">T'+tr+'</span>' : '')
         +'<span class="ttl" id="l'+x.id+'">'+head+' '
         +(x.star?'<span class="star">'+'\u2605'.repeat(x.star)+'</span> ':'')
         +(x.opt?'<span class="opt">optional</span>':'')
@@ -1903,7 +1926,9 @@ function build(){
     }).join('');
     const links = s.links || s.series || [];
     return '<details id="d-'+s.id+'"><summary>'
-      +(TIERED?'<span class="tier mono'+(s.tier===1?' a':'')+'">T'+s.tier+'</span>':'')
+      // with per-row tiers the section badge would be a lie: these sections
+      // hold all three at once
+      +(TIERED && !ITEMTIERS ? '<span class="tier mono'+(s.tier===1?' a':'')+'">T'+s.tier+'</span>' : '')
       +'<span class="st"><h2>'+esc(s.title)+'</h2><p>'+esc(s.sub||'')+'</p></span>'
       +links.map(x=>'<a class="sl" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.label)+' &#8599;</a>').join('')
       +'<button class="bulk" data-sec="'+s.id+'"></button>'
@@ -1916,7 +1941,7 @@ function build(){
     let r = '';
     for(let i=a;i<b;i++){
       if(i>a && SECSTART.has(i)) r += '<span class="tick sep"></span>';
-      r += '<span class="tick'+(TIERED&&SECOF[i].tier===1?' t1':'')
+      r += '<span class="tick'+(TIERED&&TIEROF[i]===1?' t1':'')
          + '" data-t="'+ORDER[i]+'" data-i="'+i+'"'
          + (WEIGHTED?' style="--w:'+WEIGHT[i]+'"':'')+'></span>';
     }
@@ -2000,9 +2025,11 @@ function paint(){
   });
   document.querySelectorAll('.tick[data-t]').forEach(t=> t.classList.toggle('on', done.has(t.dataset.t)));
   const per={1:0,2:0,3:0};
+  let flatAt = 0;
   DATA.forEach(s=>{
     const n = s.items.filter(x=>done.has(x.id)).length;
-    per[s.tier||1]+=n;
+    s.items.forEach((x,i)=>{ if(done.has(x.id)) per[TIEROF[flatAt+i]] += 1; });
+    flatAt += s.items.length;
     const el=$('n-'+s.id);
     el.textContent = n+' / '+s.items.length;
     el.classList.toggle('full', n===s.items.length);
