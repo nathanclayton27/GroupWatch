@@ -826,6 +826,21 @@ let MANIFEST = [
     "total": 1418
   },
   {
+    "slug": "star-wars",
+    "title": "Star Wars",
+    "subtitle": "films, television and the Disney-era games, in release order",
+    "kind": "films, shows & games",
+    "year": "1977–",
+    "blurb": "16 films, 39 television seasons and 29 games in the order they came out — about 256 hours of screen time.",
+    "accent": "#8A6D1F",
+    "accentDark": "#E8C450",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 84
+  },
+  {
     "slug": "secret",
     "title": "Secret",
     "subtitle": "",
@@ -861,7 +876,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'd3c91cfe8121';
+const BUILD = '9b781c8ef36b';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

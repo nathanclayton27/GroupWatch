@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Nineteen lists, from an eight-episode show to a 1,190-chapter manga.
+Twenty-one lists, from an eight-episode show to a 1,337-spine film collection.
 
 **Comics.** *Amazing Spider-Man* (Amazing Fantasy #15 to Civil War), *Civil
 War* (the 2006 event interleaved), *Spider-Man After Civil War*, *Ultimate
@@ -29,6 +29,10 @@ Alchemist: Brotherhood*, *Monster*, *Evangelion*, *One Piece*, *One Pace*,
 **Games.** *Kingdom Hearts*, in release order, weighted by how long each
 entry takes, and *Nasuverse* — Fate, Tsukihime, Melty Blood and the rest,
 organised by medium.
+
+**Everything at once.** *The Criterion Collection*, all 1,337 spine numbers in
+order with the formats each was released on, and *Star Wars* — films,
+television season by season, and the Disney-era games interleaved by date.
 
 The button in the top left switches between them, with a search box. First
 visit shows a picker; after that it opens whatever you had last.
@@ -154,7 +158,13 @@ MCU Anthology built from Wikipedia's live-action Marvel features table, and DC
 Anthology from the equivalent DC film and television tables including the
 imprints, with runtimes, release dates and episode counts read from Wikidata.
 Studio Ghibli from Wikipedia's List of Studio Ghibli works, with directors,
-runtimes and release dates from Wikidata.
+runtimes and release dates from Wikidata. Star Wars from the film and
+television list articles, with per-season dates and episode counts read from
+each show's own series-overview table.
+
+The Criterion Collection from criterion.com — the catalogue and each film's
+editions and runtime — with LaserDisc history from Wikipedia, which is the only
+place it survives.
 
 Kingdom Hearts order and priorities from a rundown by a longtime player; hours
 from HowLongToBeat. Nasuverse assembled from the Type-Moon release history.
