@@ -311,9 +311,11 @@ footer a{color:var(--steel)}
   summary .st{flex:1 1 calc(100% - 34px);min-width:0}
   summary::after{content:"";flex:0 0 100%;height:0;order:1}
   .st h2{overflow-wrap:anywhere}
-  .cnt{order:2}
+  /* line two, in the same order as the desktop row: button, links, count */
+  .bulk{order:2;white-space:normal}
   .sl{order:3;margin-left:0;white-space:normal;overflow-wrap:anywhere}
-  .bulk{order:4;margin-left:auto;white-space:normal}
+  .slwrap{order:3}
+  .cnt{order:4;margin-left:auto}
   /* nothing in the header may be wider than the header */
   summary > *{max-width:100%}
   /* three inline width:NNNpx attributes in the markup beat any width rule
@@ -1970,8 +1972,9 @@ function build(){
       // hold all three at once
       +(TIERED && !ITEMTIERS ? '<span class="tier mono'+(s.tier===1?' a':'')+'">T'+s.tier+'</span>' : '')
       +'<span class="st"><h2>'+esc(s.title)+'</h2><p>'+esc(s.sub||'')+'</p></span>'
-      +linkHtml
+      // mark-all sits left of the series links
       +'<button class="bulk" data-sec="'+s.id+'"></button>'
+      +linkHtml
       +'<span class="cnt mono" id="n-'+s.id+'"></span></summary>'
       +(s.intro?'<div class="intro">'+s.intro.split('\n\n').map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>':'')
       +'<ol>'+rows+'</ol></details>';

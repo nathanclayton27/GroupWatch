@@ -311,9 +311,11 @@ footer a{color:var(--steel)}
   summary .st{flex:1 1 calc(100% - 34px);min-width:0}
   summary::after{content:"";flex:0 0 100%;height:0;order:1}
   .st h2{overflow-wrap:anywhere}
-  .cnt{order:2}
+  /* line two, in the same order as the desktop row: button, links, count */
+  .bulk{order:2;white-space:normal}
   .sl{order:3;margin-left:0;white-space:normal;overflow-wrap:anywhere}
-  .bulk{order:4;margin-left:auto;white-space:normal}
+  .slwrap{order:3}
+  .cnt{order:4;margin-left:auto}
   /* nothing in the header may be wider than the header */
   summary > *{max-width:100%}
   /* three inline width:NNNpx attributes in the markup beat any width rule
@@ -692,6 +694,21 @@ let MANIFEST = [
       "many": "issues"
     },
     "total": 693
+  },
+  {
+    "slug": "nasuverse",
+    "title": "Nasuverse",
+    "subtitle": "Type-Moon's shared universe, by media type",
+    "kind": "mixed",
+    "year": "1998–",
+    "blurb": "47 works across six media, in release order within each.",
+    "accent": "#8A2E4A",
+    "accentDark": "#E884A6",
+    "unit": {
+      "one": "work",
+      "many": "works"
+    },
+    "total": 47
   }
 ];
 
@@ -711,7 +728,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '2f5bc97bf2e3';
+const BUILD = 'a2f220c6c108';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -2211,8 +2228,9 @@ function build(){
       // hold all three at once
       +(TIERED && !ITEMTIERS ? '<span class="tier mono'+(s.tier===1?' a':'')+'">T'+s.tier+'</span>' : '')
       +'<span class="st"><h2>'+esc(s.title)+'</h2><p>'+esc(s.sub||'')+'</p></span>'
-      +linkHtml
+      // mark-all sits left of the series links
       +'<button class="bulk" data-sec="'+s.id+'"></button>'
+      +linkHtml
       +'<span class="cnt mono" id="n-'+s.id+'"></span></summary>'
       +(s.intro?'<div class="intro">'+s.intro.split('\n\n').map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>':'')
       +'<ol>'+rows+'</ol></details>';
