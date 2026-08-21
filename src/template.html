@@ -108,6 +108,11 @@ h1 em{font-style:normal;color:var(--signal)}
 .pace.ok{color:var(--done);border-color:var(--done)}
 .pace.behind{color:var(--signal);border-color:var(--signal)}
 .gbar{display:flex;gap:10px 16px;flex-wrap:wrap;align-items:baseline;margin:0 0 14px}
+.gall{cursor:pointer;font-size:13px;color:var(--ink-2)}
+.gall input{margin:0}
+.exp{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--m3);border:1px solid var(--m3);
+  border-radius:var(--radius);padding:1px 5px}
 .gcode{font-family:"IBM Plex Mono",monospace;font-size:15px;letter-spacing:.16em;
   border:1px solid var(--rule-2);border-radius:var(--radius);padding:3px 9px;background:var(--paper)}
 input[type=date]{font-family:inherit;font-size:13px;background:var(--card);color:var(--ink);
@@ -802,11 +807,21 @@ const LAYER_H = 35, LAYER_OFFSET = 16;
 
 const MCOLORS = 8;
 const GKEY = 'gw:group:' + SLUG;   // which group is on screen, per property
-let groups   = [];    // every group this user belongs to
+let groups   = [];    // every group this user belongs to, for this property
 let group    = null;  // the one being shown
 let gmembers = [];    // [{id, name, ci, read:Set}]
 let gPoll    = null;
 let groupError = '';
+// You can be in several groups for one property — a group of friends and a
+// group from somewhere else, both reading the same run. The strip shows one at
+// a time, chosen by the switcher; this opens the create/join form while you are
+// already in one, which is otherwise the only way in and is hidden by then.
+let addingGroup = false;
+// Experimental: stack everyone from every group you are in on this list, rather
+// than one group at a time. Deduplicated by person, so someone in two of your
+// groups is one layer, not two.
+const AKEY = 'gw:groupall:' + SLUG;
+let allGroups = localStorage.getItem(AKEY) === '1';
 
 function gstate(){
   const on = !!(group && gmembers.length);
@@ -815,6 +830,7 @@ function gstate(){
   $('strip').classList.toggle('hide', on);
   $('striplbl').textContent = on
     ? 'Each mark is one '+UNIT.one+' · one layer per person, furthest along on top'
+      + (combined() ? ' · everyone from all '+groups.length+' of your groups' : '')
     : 'Each mark is one '+UNIT.one+', in order';
 }
 
@@ -838,25 +854,52 @@ async function loadGroups(){
   await loadMembers();
 }
 
+function combined(){ return allGroups && groups.length > 1; }
+
 async function loadMembers(){
   if(!group){ gmembers=[]; return; }
+  const gids = combined() ? groups.map(g=>g.id) : [group.id];
   const { data:roster, error } = await sb.from('group_members')
-    .select('user_id, display_name, color_index').eq('group_id', group.id);
+    .select('group_id, user_id, display_name, color_index').in('group_id', gids);
   if(error) throw error;
 
-  const ids = roster.map(r=>r.user_id);
+  const ids = [...new Set(roster.map(r=>r.user_id))];
   const { data:rows, error:e2 } = await sb.from('progress')
     .select('user_id, read_ids').in('user_id', ids).eq('property_id', SLUG);
   if(e2) throw e2;
 
   const byUser = {};
   (rows||[]).forEach(r=> byUser[r.user_id] = clean(r.read_ids));
-  gmembers = roster.map(r=>({
-    id: r.user_id,
-    name: r.display_name,
-    ci: ((r.color_index % MCOLORS) + MCOLORS) % MCOLORS,
-    read: byUser[r.user_id] || new Set()
-  }));
+  const gname = {};
+  groups.forEach(g=> gname[g.id] = g.name);
+
+  // Colour is stored per group, so two people in different groups can hold the
+  // same index. The group on screen keeps the colours it already has and
+  // everyone else takes the next free one — toggling the combined view then
+  // does not reshuffle a stack you have learnt to read.
+  const order = roster.slice().sort((a,b)=>
+      (a.group_id === group.id ? 0 : 1) - (b.group_id === group.id ? 0 : 1)
+      || String(a.user_id).localeCompare(String(b.user_id)));
+  const seen = new Map(), used = new Set();
+  order.forEach(r=>{
+    const had = seen.get(r.user_id);
+    if(had){
+      had.gids.push(r.group_id);
+      if(gname[r.group_id] && had.from.indexOf(gname[r.group_id]) < 0)
+        had.from.push(gname[r.group_id]);
+      return;
+    }
+    let ci = ((r.color_index % MCOLORS) + MCOLORS) % MCOLORS;
+    if(r.group_id !== group.id)
+      for(let n = 0; n < MCOLORS && used.has(ci); n++) ci = (ci + 1) % MCOLORS;
+    used.add(ci);
+    seen.set(r.user_id, {
+      id: r.user_id, name: r.display_name, ci, gids: [r.group_id],
+      from: gname[r.group_id] ? [gname[r.group_id]] : [],
+      read: byUser[r.user_id] || new Set()
+    });
+  });
+  gmembers = [...seen.values()];
 }
 
 // `done` is reassigned wholesale by reset, import and the first-sign-in merge, so
@@ -1132,7 +1175,11 @@ function paintStack(){
         ? '<span class="pace behind">'+(WEIGHTED?hrs(behind):behind)+' behind</span>'
         : '<span class="pace ok">on pace</span>';
     }
-    return '<span class="gitem"><span class="gsw" style="background:var(--m'+(m.ci+1)+')"></span>'
+    // in the combined view the legend can hold people from three different
+    // groups, so say which on hover rather than crowding the line
+    const from = combined() && m.from && m.from.length
+      ? ' title="'+esc(m.from.join(', '))+'"' : '';
+    return '<span class="gitem"'+from+'><span class="gsw" style="background:var(--m'+(m.ci+1)+')"></span>'
       +'<span'+(m.id===user.id?' class="gme"':'')+'>'+esc(m.name)+(m.id===user.id?' (you)':'')+'</span>'
       +'<span class="gpct mono">'+shown+'</span>'
       +'<span class="gpct mono">('+n+')</span>'+tag+'</span>';
@@ -1298,11 +1345,82 @@ function wireName(){
 
 function isOwner(){ return !!(user && group && group.created_by === user.id); }
 
+// Which of your groups the strip is drawing. Only worth a control once there
+// is more than one; below that the header already says which group you are in.
+function groupSwitcher(){
+  if(groups.length < 2) return '';
+  const opts = groups.slice()
+    .sort((a,b)=> a.name.localeCompare(b.name))
+    .map(g=>'<option value="'+esc(g.id)+'"'+(g.id===group.id?' selected':'')
+            +'>'+esc(g.name)+'</option>').join('');
+  return '<div class="row" style="margin:0 0 10px">'
+    + '<span class="lbl">Showing</span>'
+    + '<select id="g-switch" aria-label="Which group to show"'
+    + (combined() ? ' disabled' : '') + '>'+opts+'</select>'
+    + '<span class="lbl">'
+    + (combined() ? 'dates and the roster still follow this one'
+                  : 'one of your '+groups.length+' groups on this list')
+    + '</span></div>'
+    + '<label class="row gall" style="margin:0 0 14px">'
+    + '<input type="checkbox" id="g-all"'+(allGroups?' checked':'')+'>'
+    + '<span>Stack everyone from all '+groups.length+' groups</span>'
+    + '<span class="exp">Experimental</span></label>';
+}
+
+// Renaming is the owner's alone — the same policy that lets them move the
+// schedule. Everyone else sees the name and nothing to edit.
+function renameRow(){
+  if(!isOwner()) return '';
+  return '<div class="row" style="margin:0 0 14px">'
+    + '<span class="lbl">Group name</span>'
+    + '<input type="text" id="g-gname" maxlength="40" style="width:190px" '
+    + 'aria-label="Group name" value="'+esc(group.name)+'">'
+    + '<button id="b-grename">Rename</button></div>';
+}
+
+function wireRename(){
+  const b = $('b-grename');
+  if(!b) return;
+  b.onclick = async ()=>{
+    const v = $('g-gname').value.trim();
+    if(!v){ flash('A group needs a name.','gmsg2'); return; }
+    if(v === group.name){ flash('That is already the name.','gmsg2'); return; }
+    b.disabled = true;
+    const ok = await saveGroup({ name: v }, 'Everyone sees this group as ' + v + ' now.');
+    if(!ok) b.disabled = false;
+  };
+}
+
+// The create/join form is shared between "you are in no groups" and "you are in
+// one and want another", so its copy is set in one place.
+function prepSetup(another){
+  $('gstart-w').classList.toggle('hide', !isPaced());
+  $('gdate-l').textContent = isPaced() ? 'or finishes' : 'Finish by';
+  $('gdate').disabled = false;
+  $('gsetup-p').textContent = another
+    ? 'Start another group for ' + PROP.title + ', or join one with a code. You '
+      + 'stay in ' + group.name + ' — the switcher above picks which one the '
+      + 'strip is showing.'
+    : (VERB.base
+        ? cap(VERB.base)+' '+PROP.title+' alongside other people. Everyone’s progress '
+          + 'stacks onto one strip at the top of the page, and if the group has a finish '
+          + 'date you can see who’s keeping up.'
+        : 'Follow along with other people.');
+  if(!$('gname').value){
+    const mine = gmembers.find(m=> user && m.id === user.id);
+    $('gname').value = (mine && mine.name)
+      || (user.email||'').split('@')[0].slice(0,24);
+  }
+}
+
 // The roster is only worth showing to the owner, who is the only person who can
 // act on it. Everyone else already sees the names in the strip legend.
 function roster(){
-  if(!isOwner() || gmembers.length < 2) return '';
-  const rows = gmembers.slice()
+  // in the combined view gmembers spans every group, but you can only remove
+  // someone from the group you own, so the roster stays scoped to that one
+  const mine = gmembers.filter(m=> !m.gids || m.gids.indexOf(group.id) >= 0);
+  if(!isOwner() || mine.length < 2) return '';
+  const rows = mine.slice()
     .sort((a,b)=> a.name.localeCompare(b.name))
     .map(m=>{
       const me = m.id === user.id;
@@ -1362,8 +1480,11 @@ function updateGroupLine(){
   }else{
     line = 'No finish date set, so nobody is behind.';
   }
-  el.textContent = line + ' ' + gmembers.length
-    + (gmembers.length === 1 ? ' person' : ' people') + ' in this group.';
+  const who = gmembers.length + (gmembers.length === 1 ? ' person' : ' people');
+  el.textContent = combined()
+    ? line + ' ' + who + ' across all ' + groups.length + ' of your groups; the '
+      + 'dates come from ' + group.name + '.'
+    : line + ' ' + who + ' in this group.';
 }
 
 function renderGroupPanel(){
@@ -1390,32 +1511,26 @@ function renderGroupPanel(){
       return;
     }
     // paced properties take either end; unpaced ones only have a finish
-    $('gstart-w').classList.toggle('hide', !isPaced());
-    $('gdate-l').textContent = isPaced() ? 'or finishes' : 'Finish by';
-    $('gdate').disabled = false;
-    $('gsetup-p').textContent = VERB.base
-      ? cap(VERB.base)+' '+PROP.title+' alongside other people. Everyone’s progress '
-        + 'stacks onto one strip at the top of the page, and if the group has a finish '
-        + 'date you can see who’s keeping up.'
-      : 'Follow along with other people.';
     joined.classList.add('hide'); setup.classList.remove('hide');
-    if(!$('gname').value) $('gname').value = (user.email||'').split('@')[0].slice(0,24);
+    prepSetup(false);
     return;
   }
 
-  setup.classList.add('hide'); joined.classList.remove('hide');
+  // the form stays reachable from inside a group, so you can be in more than one
+  setup.classList.toggle('hide', !addingGroup);
+  joined.classList.remove('hide');
+  if(addingGroup) prepSetup(true);
   $('ghead').textContent = group.name;
 
   joined.innerHTML =
-    '<div class="gbar"><span class="lbl">Join code</span>'
+    groupSwitcher()
+    + '<div class="gbar"><span class="lbl">Join code</span>'
     + '<span class="gcode">'+esc(group.code)+'</span>'
     + '<button id="b-gcopy">Copy code</button>'
-    + (groups.length>1
-        ? '<select id="g-switch" aria-label="Switch group">'
-          + groups.map(g=>'<option value="'+esc(g.id)+'"'+(g.id===group.id?' selected':'')+'>'+esc(g.name)+'</option>').join('')
-          + '</select>'
-        : '')
+    + '<button id="b-gadd">'
+    + (addingGroup ? 'Never mind' : 'Join or start another') + '</button>'
     + '</div>'
+    + renameRow()
     + '<p id="gline"></p>'
     + nameRow()
     + resched()
@@ -1427,8 +1542,14 @@ function renderGroupPanel(){
     try{ await navigator.clipboard.writeText(group.code); flash('Code copied — send it to whoever’s joining.','gmsg2'); }
     catch(e){ flash('Copy failed. The code is '+group.code+'.','gmsg2'); }
   };
+  $('b-gadd').onclick = ()=>{
+    addingGroup = !addingGroup;
+    renderGroupPanel();
+    if(addingGroup) $('gsetup').scrollIntoView({block:'nearest', behavior:'smooth'});
+  };
   updateGroupLine();
   wireName();
+  wireRename();
   wireResched();
   wireRoster();
   $('b-grefresh').onclick = ()=> refreshGroup(true);
@@ -1438,7 +1559,20 @@ function renderGroupPanel(){
       .delete().eq('group_id', group.id).eq('user_id', user.id);
     if(error){ flash('Could not leave: '+error.message,'gmsg2'); return; }
     localStorage.removeItem(GKEY);
+    addingGroup = false;
     await refreshGroup(false);
+  };
+  const all = $('g-all');
+  if(all) all.onchange = async ()=>{
+    allGroups = all.checked;
+    localStorage.setItem(AKEY, allGroups ? '1' : '0');
+    try{ await loadMembers(); }
+    catch(e){ console.error('[tracker] combined view failed', e); }
+    paintStack(); renderGroupPanel();
+    flash(allGroups
+      ? 'Showing everyone from all '+groups.length+' of your groups. Someone in '
+        + 'two of them appears once. Dates still come from '+group.name+'.'
+      : 'Back to '+group.name+' on its own.', 'gmsg2');
   };
   const sw = $('g-switch');
   if(sw) sw.onchange = async ()=>{
@@ -1471,7 +1605,12 @@ function startGroupPoll(){
   // no realtime channel; a slow poll is enough to watch other people read
   gPoll = setInterval(()=>{
     if(document.hidden || !group) return;
-    loadMembers().then(()=>{ paintStack(); renderGroupPanel(); })
+    // re-rendering the panel replaces its inputs, so a poll landing mid-edit
+    // would wipe what someone had half-typed into the rename or name box
+    const typing = document.activeElement;
+    const inPanel = typing && $('gpanel') && $('gpanel').contains(typing)
+                    && /^(INPUT|SELECT)$/.test(typing.tagName);
+    loadMembers().then(()=>{ paintStack(); if(!inPanel) renderGroupPanel(); })
                  .catch(e=> console.error('[tracker] group poll failed', e));
   }, 45000);
 }
@@ -2198,6 +2337,8 @@ $('b-gcreate').onclick = async ()=>{
 
   $('b-gcreate').disabled = false;
   if(made) localStorage.setItem(GKEY, made.id);
+  addingGroup = false;
+  $('gtitle').value = ''; $('gcode').value = '';
   await refreshGroup(false);
   startGroupPoll();
   if(made) flash('Group created. Send the code '+made.code+' to whoever’s joining.','gmsg2');
@@ -2215,7 +2356,19 @@ $('b-gjoin').onclick = async ()=>{
   $('b-gjoin').disabled = false;
   if(error){ flash(/no group/i.test(error.message) ? 'No group has that code.' : error.message, 'gmsg'); return; }
   const joined = Array.isArray(data) ? data[0] : data;
+
+  // A code is for one property. Joining one for a different list works, but it
+  // will not appear here — say which list it is rather than look broken.
+  if(joined && joined.property_id !== SLUG){
+    const other = (MANIFEST||[]).find(p=> p.slug === joined.property_id);
+    flash('Joined ' + joined.name + ', but that group is for '
+          + (other ? other.title : joined.property_id)
+          + '. Switch to it from the menu top left to see them.', 'gmsg');
+    return;
+  }
   if(joined) localStorage.setItem(GKEY, joined.id);
+  addingGroup = false;
+  $('gcode').value = ''; $('gtitle').value = '';
   await refreshGroup(false);
   startGroupPoll();
 };

@@ -241,8 +241,44 @@ Two tables, both keyed to `auth.users`, so membership follows the account
 rather than the browser: `groups` (code, name, property, dates, shift) and
 `group_members` (`group_id` + `user_id`, display name, colour index).
 
-`localStorage` holds only `gw:group:<slug>` — which of your groups is on
-screen, per property, when you are in more than one.
+`localStorage` holds `gw:group:<slug>` — which of your groups is on screen,
+per property — and `gw:groupall:<slug>`, the experimental combined view.
+
+### More than one group per property
+
+Nothing in the schema ever limited you to one: `group_members` is keyed on
+(group, user) with no per-property constraint, and `groups.property_id` scopes
+what `loadGroups()` returns. What was missing was a way in — the create/join
+form was hidden the moment you were in a group, so a second one was
+unreachable. `addingGroup` reopens it from inside a group, and a `Showing`
+select picks which group the strip draws.
+
+Renaming needs no new policy either. "creator updates group" already covers
+`name`, the same policy that lets an owner move the schedule, so the rename row
+is owner-only for the same reason the date controls are.
+
+A join code belongs to one property. Joining one from the wrong page succeeds
+in the database and then shows nothing, because the panel only loads groups
+whose `property_id` matches. The client compares the returned `property_id`
+against `SLUG` and names the property instead of leaving a silent no-op.
+
+### The combined view
+
+`allGroups` stacks everyone from every group you are in on this property.
+It is off by default and deliberately marked experimental.
+
+**Deduplicate by person.** `loadMembers()` merges rosters into a `Map` keyed on
+`user_id`, so someone in two of your groups is one layer. Without that,
+`deepest[]` would rank a reader against their own second layer.
+
+**Colours are per group, so they collide.** The group on screen keeps the
+`color_index` values it already has; everyone else takes the next free index,
+bounded by a `MCOLORS` counter so a full palette cannot spin. Toggling the view
+therefore does not reshuffle a stack someone has learnt to read.
+
+**One group still owns the dates.** `paceInfo()` reads `group`, not the union —
+a finish date belongs to one group. The roster stays scoped to `group.id` as
+well, since you can only remove someone from a group you own.
 
 ### The recursion trap
 
