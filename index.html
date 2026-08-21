@@ -861,7 +861,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '8c092e97fd9e';
+const BUILD = 'd3c91cfe8121';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -2685,21 +2685,34 @@ async function joinSecretGroup(){
     return;
   }
   if(groups.some(x=> x.code === g.code)) return;      // already in it
-  try{
-    const name = (user.email || '').split('@')[0].slice(0, 24) || 'Reader';
-    const { error } = await sb.rpc('join_or_create_group', {
-      p_code: g.code, p_name: g.name, p_property_id: SLUG, p_display_name: name
-    });
-    if(error) throw error;
-    await refreshGroup(false);
-    startGroupPoll();
-    flash('You are in ' + g.name + ' with everyone else who knows it.', 'gmsg2');
-  }catch(e){
-    // the usual cause is the site being a migration ahead of the database
-    console.error('[tracker] could not join the secret group', e);
-    flash('Could not join ' + g.name + ' automatically — the join code is '
-          + g.code + '.', 'gmsg2');
+  const name = (user.email || '').split('@')[0].slice(0, 24) || 'Reader';
+
+  // Try the function every install already has first. join_group resolves a
+  // code that exists, which is the case for everyone after the first person
+  // through, and needs no migration. join_or_create_group is only reached when
+  // the group has not been made yet, so a database that is a migration behind
+  // still works for everybody but the very first arrival.
+  const attempts = [
+    ['join_group', {p_code: g.code, p_display_name: name}],
+    ['join_or_create_group',
+     {p_code: g.code, p_name: g.name, p_property_id: SLUG, p_display_name: name}]
+  ];
+  let last = null;
+  for(const [fn, args] of attempts){
+    const { error } = await sb.rpc(fn, args);
+    if(!error){
+      await refreshGroup(false);
+      startGroupPoll();
+      flash('You are in ' + g.name + ' with everyone else who knows it.', 'gmsg2');
+      return;
+    }
+    last = error;
+    console.warn('[tracker] ' + fn + ' did not take:', error.message || error);
   }
+  console.error('[tracker] could not join the secret group', last);
+  flash('Could not join automatically (' + ((last && last.message) || 'unknown')
+        + '). The join code is ' + g.code + ' — the group panel below takes it.',
+        'gmsg2');
 }
 
 function paintStar(){
