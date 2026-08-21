@@ -724,6 +724,21 @@ let MANIFEST = [
       "many": "entries"
     },
     "total": 194
+  },
+  {
+    "slug": "ghibli",
+    "title": "Studio Ghibli",
+    "subtitle": "every Ghibli film in release order, built around Miyazaki's",
+    "kind": "films",
+    "year": "1979–",
+    "blurb": "26 films in release order. The 12 Miyazaki directed are the spine; the rest are marked with who made them.",
+    "accent": "#3F7A55",
+    "accentDark": "#7FC79A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 26
   }
 ];
 
@@ -743,7 +758,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '40988eba23c6';
+const BUILD = '0f961f906031';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -2100,7 +2115,9 @@ function renderHeader(){
   if(PROP.accent) $('pdot').style.background = PROP.accent;
   document.title = PROP.title + ' — GroupWatch';
   $('s-all-l').textContent = 'Done';
-  document.querySelectorAll('.tierstat').forEach(el=> el.classList.toggle('hide', !TIERED));
+  // a property may use fewer than three tiers — an empty one reads as 0 / 0
+  document.querySelectorAll('.tierstat').forEach((el,i)=>
+    el.classList.toggle('hide', !TIERED || !TIERTOT[i+1]));
   $('striplbl').textContent = 'Each mark is one ' + UNIT.one + ', in order';
 
   if((PROP.rules||[]).length){

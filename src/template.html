@@ -1829,7 +1829,9 @@ function renderHeader(){
   if(PROP.accent) $('pdot').style.background = PROP.accent;
   document.title = PROP.title + ' — GroupWatch';
   $('s-all-l').textContent = 'Done';
-  document.querySelectorAll('.tierstat').forEach(el=> el.classList.toggle('hide', !TIERED));
+  // a property may use fewer than three tiers — an empty one reads as 0 / 0
+  document.querySelectorAll('.tierstat').forEach((el,i)=>
+    el.classList.toggle('hide', !TIERED || !TIERTOT[i+1]));
   $('striplbl').textContent = 'Each mark is one ' + UNIT.one + ', in order';
 
   if((PROP.rules||[]).length){
