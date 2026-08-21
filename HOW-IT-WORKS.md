@@ -76,14 +76,20 @@ Drop a JSON file into `properties/` and rebuild. Nothing else.
 | `accent` / `accentDark` | one per theme; see *Accents* below |
 | `itemOrder` | `number-first` renders `12  One is All, All is One`; the default renders `Fantastic Four #570` |
 | `tiers` | `false` hides the tier columns entirely |
+| `itemTiers` | tiers live on each row rather than the section — see *Tiers* |
+| `weightUnit` | `{one,many}`; weights read as this instead of hours |
+| `paceTiers` | which tiers the finish date covers, e.g. `[1, 2]` |
+| `paceLabel` | what to call the tiers it leaves out, for the checkbox |
 | `order` | menu and picker position; ties break on title |
 | `rules` | renders a house-rules panel |
 | `notes` | footer prose. `["Heading.", "body"]` pairs, or a bare string |
 | `forGroup` | per-group copy overrides, keyed by join code |
 | `schedule` | dated windows — see *Pace* |
 
-Sections take `id`, `title`, `sub`, optional `tier`, `intro`, `links`, `start`.
-Items take `id`, `t`, `n`, and optional `note`, `star`, `opt`, `url`.
+Sections take `id`, `title`, `sub`, optional `tier`, `intro`, `links`,
+`start`, `open`.
+Items take `id`, `t`, `n`, and optional `note`, `star`, `opt`, `url`, `w`,
+`tier`.
 
 ### The ID rule
 
@@ -118,20 +124,66 @@ display names are supplied by other people now, not just by you.
 
 ### The strip
 
-Marks are `flex: 1 1 0; min-width: 0`, so they divide the width evenly at any
-count. Tier-1 marks are drawn taller where a property has tiers. Three-pixel
-transparent spacers separate sections.
+Marks are `flex-grow: var(--w, 1); flex-basis: 0`, so by default they divide
+the width evenly at any count, and a property that declares weights gets marks
+as wide as the thing takes. Tier-1 marks are drawn taller where a property has
+tiers. Three-pixel transparent spacers separate sections.
+
+`rowsFor()` splits the sections into at most eight contiguous rows with a DP
+that minimises squared deviation from an even split. It partitions on **item
+count, not weight** — partitioning on weight was tried and is worse, because it
+produces rows of four enormous marks next to rows where everything is at the
+minimum width.
 
 ### Which section opens
 
 Before you have marked anything, the property's own default — a section with
-`start`, else the first with links, else the first section. After that, the
-furthest section you have touched, or the next unfinished one if you have
-cleared it.
+`open`, else one with `start`, else the first with links, else the first
+section. After that, the furthest section you have touched, or the next
+unfinished one if you have cleared it.
+
+`open` exists because the links heuristic gets it wrong in both directions.
+Amazing Spider-Man's prologue carries no links, so a newcomer landed past
+*Amazing Fantasy* #15; Secret Wars depends on the heuristic, because its first
+section is a tier-3 side series and the links are what land you on the tier-2
+"start here" prelude instead. So the rule stayed and a property can now
+override it outright.
 
 This runs on the first `paint()`, not at boot, because at boot the session has
 not resolved and no progress exists yet. A once-per-load guard stops it
 fighting you when you collapse something mid-session.
+
+### Weights
+
+An item may carry `w`. Absent everywhere, every item weighs 1, `TOTALW ===
+TOTAL`, and every figure reduces to the item count it was before — which is
+what keeps the unweighted properties untouched.
+
+Weights change three things: mark width, the pace line, and how far behind you
+are. They do **not** change the counters — "14 / 31" stays an item count,
+because "how much have I done" and "am I on schedule" are different
+questions.
+
+Weights are hours unless the property names its own unit. A comic run weighs in
+issues, and rendering a twelve-issue bundle as `12h` would be wrong by a factor
+of three, so `weightUnit` swaps the formatting in `hrs()`.
+
+**The mark floor is computed per row, not fixed.** A weighted strip gives every
+mark a minimum width so a four-minute video does not round to a third of a
+pixel. That minimum is a claim on the row's total width — sixty-nine marks at
+seven pixels demand 483px before gaps — so a flat value made rows that could
+not shrink and dragged the whole page sideways on a phone. `indexStrip()` now
+sets `--floor` per row from the width actually available, capped at 7px and at
+60% of an even share, so there is always room left for the weighting to show.
+
+### Tiers
+
+A tier normally belongs to a section. `itemTiers` moves the badge onto each
+row, for lists whose sections are not tier-homogeneous — a release-order watch
+list has years holding a film the whole saga turns on next to a spin-off nobody
+needs, and they belong beside each other because that is the order they came
+out in. An item's `tier` falls back to its section's, so nothing that omits it
+changes.
 
 ### Accents
 
@@ -230,6 +282,13 @@ interpolated inside the open one — you have until a window's end date, and
 finishing early is meant to buy you off days. Interpolating would nag people who
 are exactly on schedule. Two markers appear on the strip: a solid rule at what
 is overdue, a lighter one at the current window's goal.
+
+**The timeline need not cover everything on the page.** `paceTiers` names the
+tiers a finish date paces you through; anything outside weighs nothing in the
+pace maths, so the line sweeps past it for free and it carries no due date. A
+checkbox under the strip widens the scope back to everything, stored per
+property in `localStorage` under `gw:pace:<slug>` — it is a view preference,
+and a column would have meant a migration.
 
 A group's owner can slide the whole schedule with `schedule_shift_days`. Every
 window moves together, so the pace is unchanged and only the dates differ. On a

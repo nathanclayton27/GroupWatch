@@ -31,7 +31,7 @@
     ],
     [
       "Links.",
-      "Ultimate Spider-Man links to its series page. The other 64 series each have an arbitrary Marvel database id that has to be looked up one at a time; Marvel Unlimited finds any of them by exact title."
+      "Nine of the 65 series link to their Marvel page — the long-running ones, which is 409 of the 693 issues here. The rest are minis and annuals, and Marvel gives each an arbitrary database id that has to be looked up one at a time; Marvel Unlimited finds any of them by exact title."
     ],
     "Order transcribed from the Comic Book Herald Ultimate Marvel reading order. Its commentary is kept as notes on the entry it belongs to."
   ],
@@ -239,72 +239,86 @@
         {
           "id": "u-ultimate-marvel-team-up-1",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#1"
+          "n": "#1",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-2",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#2"
+          "n": "#2",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-3",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#3"
+          "n": "#3",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-4",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#4"
+          "n": "#4",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-5",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#5"
+          "n": "#5",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-6",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#6"
+          "n": "#6",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-7",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#7"
+          "n": "#7",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-8",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#8"
+          "n": "#8",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-x-men-1",
           "t": "Ultimate X-Men",
-          "n": "#1"
+          "n": "#1",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-2",
           "t": "Ultimate X-Men",
-          "n": "#2"
+          "n": "#2",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-3",
           "t": "Ultimate X-Men",
-          "n": "#3"
+          "n": "#3",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-4",
           "t": "Ultimate X-Men",
-          "n": "#4"
+          "n": "#4",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-5",
           "t": "Ultimate X-Men",
-          "n": "#5"
+          "n": "#5",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-6",
           "t": "Ultimate X-Men",
-          "n": "#6"
+          "n": "#6",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-spider-man-14",
@@ -357,77 +371,92 @@
         {
           "id": "u-ultimate-marvel-team-up-10",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#10"
+          "n": "#10",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-11",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#11"
+          "n": "#11",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-12",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#12"
+          "n": "#12",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-13",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#13"
+          "n": "#13",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-14",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#14"
+          "n": "#14",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-15",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#15"
+          "n": "#15",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-marvel-team-up-16",
           "t": "Ultimate Marvel Team-Up",
-          "n": "#16"
+          "n": "#16",
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-x-men-7",
           "t": "Ultimate X-Men",
-          "n": "#7"
+          "n": "#7",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-8",
           "t": "Ultimate X-Men",
-          "n": "#8"
+          "n": "#8",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-9",
           "t": "Ultimate X-Men",
-          "n": "#9"
+          "n": "#9",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-10",
           "t": "Ultimate X-Men",
-          "n": "#10"
+          "n": "#10",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-11",
           "t": "Ultimate X-Men",
-          "n": "#11"
+          "n": "#11",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-12",
           "t": "Ultimate X-Men",
-          "n": "#12"
+          "n": "#12",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-13",
           "t": "Ultimate X-Men",
-          "n": "#13"
+          "n": "#13",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-14",
           "t": "Ultimate X-Men",
-          "n": "#14"
+          "n": "#14",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-spider-man-22",
@@ -468,47 +497,56 @@
         {
           "id": "u-ultimates-1",
           "t": "Ultimates",
-          "n": "#1"
+          "n": "#1",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-2",
           "t": "Ultimates",
-          "n": "#2"
+          "n": "#2",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-3",
           "t": "Ultimates",
-          "n": "#3"
+          "n": "#3",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimate-x-men-15",
           "t": "Ultimate X-Men",
-          "n": "#15"
+          "n": "#15",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-16",
           "t": "Ultimate X-Men",
-          "n": "#16"
+          "n": "#16",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-17",
           "t": "Ultimate X-Men",
-          "n": "#17"
+          "n": "#17",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-18",
           "t": "Ultimate X-Men",
-          "n": "#18"
+          "n": "#18",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-19",
           "t": "Ultimate X-Men",
-          "n": "#19"
+          "n": "#19",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-20",
           "t": "Ultimate X-Men",
-          "n": "#20"
+          "n": "#20",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-spider-man-28",
@@ -543,90 +581,107 @@
         {
           "id": "u-ultimates-4",
           "t": "Ultimates",
-          "n": "#4"
+          "n": "#4",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-5",
           "t": "Ultimates",
-          "n": "#5"
+          "n": "#5",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-6",
           "t": "Ultimates",
-          "n": "#6"
+          "n": "#6",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-7",
           "t": "Ultimates",
-          "n": "#7"
+          "n": "#7",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-8",
           "t": "Ultimates",
-          "n": "#8"
+          "n": "#8",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-9",
           "t": "Ultimates",
-          "n": "#9"
+          "n": "#9",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-10",
           "t": "Ultimates",
-          "n": "#10"
+          "n": "#10",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-11",
           "t": "Ultimates",
-          "n": "#11"
+          "n": "#11",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-12",
           "t": "Ultimates",
-          "n": "#12"
+          "n": "#12",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimates-13",
           "t": "Ultimates",
-          "n": "#13"
+          "n": "#13",
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
         },
         {
           "id": "u-ultimate-fantastic-four-1",
           "t": "Ultimate Fantastic Four",
           "n": "#1",
-          "note": "Did not launch until 2003, well after The Ultimates — the team is mentioned in passing in Ultimates #2 — but the source prefers their origin here."
+          "note": "Did not launch until 2003, well after The Ultimates — the team is mentioned in passing in Ultimates #2 — but the source prefers their origin here.",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-2",
           "t": "Ultimate Fantastic Four",
-          "n": "#2"
+          "n": "#2",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-3",
           "t": "Ultimate Fantastic Four",
-          "n": "#3"
+          "n": "#3",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-4",
           "t": "Ultimate Fantastic Four",
-          "n": "#4"
+          "n": "#4",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-5",
           "t": "Ultimate Fantastic Four",
-          "n": "#5"
+          "n": "#5",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-6",
           "t": "Ultimate Fantastic Four",
-          "n": "#6"
+          "n": "#6",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-marvel-team-up-9",
           "t": "Ultimate Marvel Team-Up",
           "n": "#9",
           "note": "Out of continuity. A Fantastic Four story that never lines up with the Ultimate Fantastic Four that followed.",
-          "opt": 1
+          "opt": 1,
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
         },
         {
           "id": "u-ultimate-spider-man-33",
@@ -673,27 +728,32 @@
         {
           "id": "u-ultimate-x-men-21",
           "t": "Ultimate X-Men",
-          "n": "#21"
+          "n": "#21",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-22",
           "t": "Ultimate X-Men",
-          "n": "#22"
+          "n": "#22",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-23",
           "t": "Ultimate X-Men",
-          "n": "#23"
+          "n": "#23",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-24",
           "t": "Ultimate X-Men",
-          "n": "#24"
+          "n": "#24",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-25",
           "t": "Ultimate X-Men",
-          "n": "#25"
+          "n": "#25",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-war-1",
@@ -721,6 +781,10 @@
         {
           "label": "Ultimate Spider-Man",
           "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+        },
+        {
+          "label": "Ultimate X-Men",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         }
       ]
     },
@@ -732,42 +796,50 @@
         {
           "id": "u-ultimate-x-men-26",
           "t": "Ultimate X-Men",
-          "n": "#26"
+          "n": "#26",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-27",
           "t": "Ultimate X-Men",
-          "n": "#27"
+          "n": "#27",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-28",
           "t": "Ultimate X-Men",
-          "n": "#28"
+          "n": "#28",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-29",
           "t": "Ultimate X-Men",
-          "n": "#29"
+          "n": "#29",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-30",
           "t": "Ultimate X-Men",
-          "n": "#30"
+          "n": "#30",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-31",
           "t": "Ultimate X-Men",
-          "n": "#31"
+          "n": "#31",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-32",
           "t": "Ultimate X-Men",
-          "n": "#32"
+          "n": "#32",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-33",
           "t": "Ultimate X-Men",
-          "n": "#33"
+          "n": "#33",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-spider-man-40",
@@ -808,32 +880,38 @@
         {
           "id": "u-ultimate-x-men-34",
           "t": "Ultimate X-Men",
-          "n": "#34"
+          "n": "#34",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-35",
           "t": "Ultimate X-Men",
-          "n": "#35"
+          "n": "#35",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-36",
           "t": "Ultimate X-Men",
-          "n": "#36"
+          "n": "#36",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-37",
           "t": "Ultimate X-Men",
-          "n": "#37"
+          "n": "#37",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-38",
           "t": "Ultimate X-Men",
-          "n": "#38"
+          "n": "#38",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-39",
           "t": "Ultimate X-Men",
-          "n": "#39"
+          "n": "#39",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-spider-man-46",
@@ -897,72 +975,86 @@
         {
           "id": "u-ultimate-x-men-40",
           "t": "Ultimate X-Men",
-          "n": "#40"
+          "n": "#40",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-41",
           "t": "Ultimate X-Men",
-          "n": "#41"
+          "n": "#41",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-42",
           "t": "Ultimate X-Men",
-          "n": "#42"
+          "n": "#42",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-43",
           "t": "Ultimate X-Men",
-          "n": "#43"
+          "n": "#43",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-44",
           "t": "Ultimate X-Men",
-          "n": "#44"
+          "n": "#44",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-45",
           "t": "Ultimate X-Men",
-          "n": "#45"
+          "n": "#45",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-46",
           "t": "Ultimate X-Men",
-          "n": "#46"
+          "n": "#46",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-47",
           "t": "Ultimate X-Men",
-          "n": "#47"
+          "n": "#47",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-48",
           "t": "Ultimate X-Men",
-          "n": "#48"
+          "n": "#48",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-49",
           "t": "Ultimate X-Men",
-          "n": "#49"
+          "n": "#49",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-50",
           "t": "Ultimate X-Men",
-          "n": "#50"
+          "n": "#50",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-51",
           "t": "Ultimate X-Men",
-          "n": "#51"
+          "n": "#51",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-52",
           "t": "Ultimate X-Men",
-          "n": "#52"
+          "n": "#52",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-53",
           "t": "Ultimate X-Men",
-          "n": "#53"
+          "n": "#53",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-spider-man-50",
@@ -1027,62 +1119,74 @@
         {
           "id": "u-ultimate-fantastic-four-7",
           "t": "Ultimate Fantastic Four",
-          "n": "#7"
+          "n": "#7",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-8",
           "t": "Ultimate Fantastic Four",
-          "n": "#8"
+          "n": "#8",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-9",
           "t": "Ultimate Fantastic Four",
-          "n": "#9"
+          "n": "#9",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-10",
           "t": "Ultimate Fantastic Four",
-          "n": "#10"
+          "n": "#10",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-11",
           "t": "Ultimate Fantastic Four",
-          "n": "#11"
+          "n": "#11",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-12",
           "t": "Ultimate Fantastic Four",
-          "n": "#12"
+          "n": "#12",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-13",
           "t": "Ultimate Fantastic Four",
-          "n": "#13"
+          "n": "#13",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-14",
           "t": "Ultimate Fantastic Four",
-          "n": "#14"
+          "n": "#14",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-15",
           "t": "Ultimate Fantastic Four",
-          "n": "#15"
+          "n": "#15",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-16",
           "t": "Ultimate Fantastic Four",
-          "n": "#16"
+          "n": "#16",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-17",
           "t": "Ultimate Fantastic Four",
-          "n": "#17"
+          "n": "#17",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-18",
           "t": "Ultimate Fantastic Four",
-          "n": "#18"
+          "n": "#18",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-spider-man-60",
@@ -1149,6 +1253,10 @@
         {
           "label": "Ultimate Spider-Man",
           "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+        },
+        {
+          "label": "Ultimate X-Men",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         }
       ]
     },
@@ -1185,37 +1293,44 @@
         {
           "id": "u-ultimate-x-men-54",
           "t": "Ultimate X-Men",
-          "n": "#54"
+          "n": "#54",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-55",
           "t": "Ultimate X-Men",
-          "n": "#55"
+          "n": "#55",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-56",
           "t": "Ultimate X-Men",
-          "n": "#56"
+          "n": "#56",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-57",
           "t": "Ultimate X-Men",
-          "n": "#57"
+          "n": "#57",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-58",
           "t": "Ultimate X-Men",
-          "n": "#58"
+          "n": "#58",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-59",
           "t": "Ultimate X-Men",
-          "n": "#59"
+          "n": "#59",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-60",
           "t": "Ultimate X-Men",
-          "n": "#60"
+          "n": "#60",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-annual-1",
@@ -1304,92 +1419,110 @@
         {
           "id": "u-ultimates-v2-1",
           "t": "Ultimates (v2)",
-          "n": "#1"
+          "n": "#1",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-2",
           "t": "Ultimates (v2)",
-          "n": "#2"
+          "n": "#2",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-3",
           "t": "Ultimates (v2)",
-          "n": "#3"
+          "n": "#3",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-4",
           "t": "Ultimates (v2)",
-          "n": "#4"
+          "n": "#4",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-5",
           "t": "Ultimates (v2)",
-          "n": "#5"
+          "n": "#5",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimate-x-men-61",
           "t": "Ultimate X-Men",
-          "n": "#61"
+          "n": "#61",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-62",
           "t": "Ultimate X-Men",
-          "n": "#62"
+          "n": "#62",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-63",
           "t": "Ultimate X-Men",
-          "n": "#63"
+          "n": "#63",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-64",
           "t": "Ultimate X-Men",
-          "n": "#64"
+          "n": "#64",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-65",
           "t": "Ultimate X-Men",
-          "n": "#65"
+          "n": "#65",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-19",
           "t": "Ultimate Fantastic Four",
-          "n": "#19"
+          "n": "#19",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-20",
           "t": "Ultimate Fantastic Four",
-          "n": "#20"
+          "n": "#20",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-21",
           "t": "Ultimate Fantastic Four",
-          "n": "#21"
+          "n": "#21",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-22",
           "t": "Ultimate Fantastic Four",
-          "n": "#22"
+          "n": "#22",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-23",
           "t": "Ultimate Fantastic Four",
-          "n": "#23"
+          "n": "#23",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-24",
           "t": "Ultimate Fantastic Four",
-          "n": "#24"
+          "n": "#24",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-25",
           "t": "Ultimate Fantastic Four",
-          "n": "#25"
+          "n": "#25",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-26",
           "t": "Ultimate Fantastic Four",
-          "n": "#26"
+          "n": "#26",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-annual-1",
@@ -1455,42 +1588,50 @@
         {
           "id": "u-ultimates-v2-6",
           "t": "Ultimates (v2)",
-          "n": "#6"
+          "n": "#6",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-7",
           "t": "Ultimates (v2)",
-          "n": "#7"
+          "n": "#7",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-8",
           "t": "Ultimates (v2)",
-          "n": "#8"
+          "n": "#8",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-9",
           "t": "Ultimates (v2)",
-          "n": "#9"
+          "n": "#9",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-10",
           "t": "Ultimates (v2)",
-          "n": "#10"
+          "n": "#10",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-11",
           "t": "Ultimates (v2)",
-          "n": "#11"
+          "n": "#11",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-12",
           "t": "Ultimates (v2)",
-          "n": "#12"
+          "n": "#12",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimates-v2-13",
           "t": "Ultimates (v2)",
-          "n": "#13"
+          "n": "#13",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         },
         {
           "id": "u-ultimate-spider-man-78",
@@ -1580,6 +1721,10 @@
         {
           "label": "Ultimate Spider-Man",
           "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+        },
+        {
+          "label": "Ultimates (v2)",
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
         }
       ]
     },
@@ -1591,47 +1736,56 @@
         {
           "id": "u-ultimate-x-men-66",
           "t": "Ultimate X-Men",
-          "n": "#66"
+          "n": "#66",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-67",
           "t": "Ultimate X-Men",
-          "n": "#67"
+          "n": "#67",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-68",
           "t": "Ultimate X-Men",
-          "n": "#68"
+          "n": "#68",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-69",
           "t": "Ultimate X-Men",
-          "n": "#69"
+          "n": "#69",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-70",
           "t": "Ultimate X-Men",
-          "n": "#70"
+          "n": "#70",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-71",
           "t": "Ultimate X-Men",
-          "n": "#71"
+          "n": "#71",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-72",
           "t": "Ultimate X-Men",
-          "n": "#72"
+          "n": "#72",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-73",
           "t": "Ultimate X-Men",
-          "n": "#73"
+          "n": "#73",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-74",
           "t": "Ultimate X-Men",
-          "n": "#74"
+          "n": "#74",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-annual-2",
@@ -1653,32 +1807,38 @@
         {
           "id": "u-ultimate-fantastic-four-27",
           "t": "Ultimate Fantastic Four",
-          "n": "#27"
+          "n": "#27",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-28",
           "t": "Ultimate Fantastic Four",
-          "n": "#28"
+          "n": "#28",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-29",
           "t": "Ultimate Fantastic Four",
-          "n": "#29"
+          "n": "#29",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-30",
           "t": "Ultimate Fantastic Four",
-          "n": "#30"
+          "n": "#30",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-31",
           "t": "Ultimate Fantastic Four",
-          "n": "#31"
+          "n": "#31",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-32",
           "t": "Ultimate Fantastic Four",
-          "n": "#32"
+          "n": "#32",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-annual-2",
@@ -1833,38 +1993,48 @@
         {
           "id": "u-ultimate-x-men-75",
           "t": "Ultimate X-Men",
-          "n": "#75"
+          "n": "#75",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-76",
           "t": "Ultimate X-Men",
-          "n": "#76"
+          "n": "#76",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-77",
           "t": "Ultimate X-Men",
-          "n": "#77"
+          "n": "#77",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-78",
           "t": "Ultimate X-Men",
-          "n": "#78"
+          "n": "#78",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-79",
           "t": "Ultimate X-Men",
-          "n": "#79"
+          "n": "#79",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-80",
           "t": "Ultimate X-Men",
-          "n": "#80"
+          "n": "#80",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         }
       ],
       "links": [
         {
           "label": "Ultimate Spider-Man",
           "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+        },
+        {
+          "label": "Ultimate X-Men",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         }
       ]
     },
@@ -1876,72 +2046,86 @@
         {
           "id": "u-ultimate-fantastic-four-33",
           "t": "Ultimate Fantastic Four",
-          "n": "#33"
+          "n": "#33",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-34",
           "t": "Ultimate Fantastic Four",
-          "n": "#34"
+          "n": "#34",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-35",
           "t": "Ultimate Fantastic Four",
-          "n": "#35"
+          "n": "#35",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-36",
           "t": "Ultimate Fantastic Four",
-          "n": "#36"
+          "n": "#36",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-37",
           "t": "Ultimate Fantastic Four",
-          "n": "#37"
+          "n": "#37",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-38",
           "t": "Ultimate Fantastic Four",
-          "n": "#38"
+          "n": "#38",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-39",
           "t": "Ultimate Fantastic Four",
-          "n": "#39"
+          "n": "#39",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-40",
           "t": "Ultimate Fantastic Four",
-          "n": "#40"
+          "n": "#40",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-41",
           "t": "Ultimate Fantastic Four",
-          "n": "#41"
+          "n": "#41",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-42",
           "t": "Ultimate Fantastic Four",
-          "n": "#42"
+          "n": "#42",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-43",
           "t": "Ultimate Fantastic Four",
-          "n": "#43"
+          "n": "#43",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-44",
           "t": "Ultimate Fantastic Four",
-          "n": "#44"
+          "n": "#44",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-45",
           "t": "Ultimate Fantastic Four",
-          "n": "#45"
+          "n": "#45",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-46",
           "t": "Ultimate Fantastic Four",
-          "n": "#46"
+          "n": "#46",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-vision-1",
@@ -2043,82 +2227,98 @@
         {
           "id": "u-ultimate-x-men-81",
           "t": "Ultimate X-Men",
-          "n": "#81"
+          "n": "#81",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-82",
           "t": "Ultimate X-Men",
-          "n": "#82"
+          "n": "#82",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-83",
           "t": "Ultimate X-Men",
-          "n": "#83"
+          "n": "#83",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-84",
           "t": "Ultimate X-Men",
-          "n": "#84"
+          "n": "#84",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-85",
           "t": "Ultimate X-Men",
-          "n": "#85"
+          "n": "#85",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-86",
           "t": "Ultimate X-Men",
-          "n": "#86"
+          "n": "#86",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-87",
           "t": "Ultimate X-Men",
-          "n": "#87"
+          "n": "#87",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-88",
           "t": "Ultimate X-Men",
-          "n": "#88"
+          "n": "#88",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-89",
           "t": "Ultimate X-Men",
-          "n": "#89"
+          "n": "#89",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-47",
           "t": "Ultimate Fantastic Four",
-          "n": "#47"
+          "n": "#47",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-48",
           "t": "Ultimate Fantastic Four",
-          "n": "#48"
+          "n": "#48",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-49",
           "t": "Ultimate Fantastic Four",
-          "n": "#49"
+          "n": "#49",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-50",
           "t": "Ultimate Fantastic Four",
-          "n": "#50"
+          "n": "#50",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-51",
           "t": "Ultimate Fantastic Four",
-          "n": "#51"
+          "n": "#51",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-52",
           "t": "Ultimate Fantastic Four",
-          "n": "#52"
+          "n": "#52",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-53",
           "t": "Ultimate Fantastic Four",
-          "n": "#53"
+          "n": "#53",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-spider-man-118",
@@ -2158,22 +2358,26 @@
         {
           "id": "u-ultimate-fantastic-four-54",
           "t": "Ultimate Fantastic Four",
-          "n": "#54"
+          "n": "#54",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-55",
           "t": "Ultimate Fantastic Four",
-          "n": "#55"
+          "n": "#55",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-56",
           "t": "Ultimate Fantastic Four",
-          "n": "#56"
+          "n": "#56",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-fantastic-four-57",
           "t": "Ultimate Fantastic Four",
-          "n": "#57"
+          "n": "#57",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-human-1",
@@ -2197,6 +2401,10 @@
         }
       ],
       "links": [
+        {
+          "label": "Ultimate Fantastic Four",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
+        },
         {
           "label": "Ultimate Spider-Man",
           "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
@@ -2302,42 +2510,50 @@
         {
           "id": "u-ultimate-x-men-90",
           "t": "Ultimate X-Men",
-          "n": "#90"
+          "n": "#90",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-91",
           "t": "Ultimate X-Men",
-          "n": "#91"
+          "n": "#91",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-92",
           "t": "Ultimate X-Men",
-          "n": "#92"
+          "n": "#92",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-93",
           "t": "Ultimate X-Men",
-          "n": "#93"
+          "n": "#93",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-94",
           "t": "Ultimate X-Men",
-          "n": "#94"
+          "n": "#94",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-95",
           "t": "Ultimate X-Men",
-          "n": "#95"
+          "n": "#95",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-96",
           "t": "Ultimate X-Men",
-          "n": "#96"
+          "n": "#96",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-x-men-97",
           "t": "Ultimate X-Men",
-          "n": "#97"
+          "n": "#97",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimate-origins-1",
@@ -2382,6 +2598,10 @@
       ],
       "links": [
         {
+          "label": "Ultimate X-Men",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
+        },
+        {
           "label": "Ultimate Spider-Man",
           "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
         }
@@ -2412,7 +2632,8 @@
         {
           "id": "u-ultimate-x-men-98",
           "t": "Ultimate X-Men",
-          "n": "#98"
+          "n": "#98",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimatum-2",
@@ -2422,7 +2643,8 @@
         {
           "id": "u-ultimate-fantastic-four-58",
           "t": "Ultimate Fantastic Four",
-          "n": "#58"
+          "n": "#58",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-spider-man-131",
@@ -2433,12 +2655,14 @@
         {
           "id": "u-ultimate-fantastic-four-59",
           "t": "Ultimate Fantastic Four",
-          "n": "#59"
+          "n": "#59",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-x-men-99",
           "t": "Ultimate X-Men",
-          "n": "#99"
+          "n": "#99",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimatum-3",
@@ -2454,12 +2678,14 @@
         {
           "id": "u-ultimate-fantastic-four-60",
           "t": "Ultimate Fantastic Four",
-          "n": "#60"
+          "n": "#60",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
           "id": "u-ultimate-x-men-100",
           "t": "Ultimate X-Men",
-          "n": "#100"
+          "n": "#100",
+          "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
           "id": "u-ultimatum-4",
@@ -2502,6 +2728,10 @@
         {
           "label": "Ultimate Spider-Man",
           "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+        },
+        {
+          "label": "Ultimate Fantastic Four",
+          "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         }
       ]
     },
@@ -2690,12 +2920,6 @@
           "t": "Ultimate Comics Avengers 2",
           "n": "#6"
         }
-      ],
-      "links": [
-        {
-          "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
-        }
       ]
     },
     {
@@ -2858,12 +3082,6 @@
           "t": "Ultimate Comics Avengers 3",
           "n": "#6"
         }
-      ],
-      "links": [
-        {
-          "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
-        }
       ]
     },
     {
@@ -2990,58 +3208,69 @@
         {
           "id": "u-ultimate-comics-spider-man-2011-1",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#1"
+          "n": "#1",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-2",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#2"
+          "n": "#2",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-3",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#3"
+          "n": "#3",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-4",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#4"
+          "n": "#4",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-5",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#5"
+          "n": "#5",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-7",
           "t": "Ultimate Comics Spider-Man (2011)",
           "n": "#7",
-          "note": "The source skips #6 here; it is not listed anywhere in the order."
+          "note": "The source skips #6 here; it is not listed anywhere in the order.",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-8",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#8"
+          "n": "#8",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-9",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#9"
+          "n": "#9",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-10",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#10"
+          "n": "#10",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-11",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#11"
+          "n": "#11",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-12",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#12"
+          "n": "#12",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-spider-men-1",
@@ -3071,8 +3300,8 @@
       ],
       "links": [
         {
-          "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "label": "Ultimate Comics Spider-Man (2011)",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         }
       ]
     },
@@ -3134,67 +3363,80 @@
         {
           "id": "u-ultimate-comics-x-men-1",
           "t": "Ultimate Comics X-Men",
-          "n": "#1"
+          "n": "#1",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-2",
           "t": "Ultimate Comics X-Men",
-          "n": "#2"
+          "n": "#2",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-3",
           "t": "Ultimate Comics X-Men",
-          "n": "#3"
+          "n": "#3",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-4",
           "t": "Ultimate Comics X-Men",
-          "n": "#4"
+          "n": "#4",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-5",
           "t": "Ultimate Comics X-Men",
-          "n": "#5"
+          "n": "#5",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-6",
           "t": "Ultimate Comics X-Men",
-          "n": "#6"
+          "n": "#6",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-7",
           "t": "Ultimate Comics X-Men",
-          "n": "#7"
+          "n": "#7",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-8",
           "t": "Ultimate Comics X-Men",
-          "n": "#8"
+          "n": "#8",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-9",
           "t": "Ultimate Comics X-Men",
-          "n": "#9"
+          "n": "#9",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-10",
           "t": "Ultimate Comics X-Men",
-          "n": "#10"
+          "n": "#10",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-11",
           "t": "Ultimate Comics X-Men",
-          "n": "#11"
+          "n": "#11",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-12",
           "t": "Ultimate Comics X-Men",
-          "n": "#12"
+          "n": "#12",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-13",
           "t": "Ultimate Comics X-Men",
-          "n": "#13"
+          "n": "#13",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-ultimates-7",
@@ -3229,8 +3471,8 @@
       ],
       "links": [
         {
-          "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "label": "Ultimate Comics X-Men",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         }
       ]
     },
@@ -3242,7 +3484,8 @@
         {
           "id": "u-ultimate-comics-x-men-14",
           "t": "Ultimate Comics X-Men",
-          "n": "#14"
+          "n": "#14",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-ultimates-13",
@@ -3257,17 +3500,20 @@
         {
           "id": "u-ultimate-comics-spider-man-2011-13",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#13"
+          "n": "#13",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-14",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#14"
+          "n": "#14",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-15",
           "t": "Ultimate Comics X-Men",
-          "n": "#15"
+          "n": "#15",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-ultimates-15",
@@ -3277,12 +3523,14 @@
         {
           "id": "u-ultimate-comics-spider-man-2011-15",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#15"
+          "n": "#15",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-16",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#16"
+          "n": "#16",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-ultimates-16",
@@ -3292,17 +3540,20 @@
         {
           "id": "u-ultimate-comics-x-men-16",
           "t": "Ultimate Comics X-Men",
-          "n": "#16"
+          "n": "#16",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-17",
           "t": "Ultimate Comics X-Men",
-          "n": "#17"
+          "n": "#17",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-17",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#17"
+          "n": "#17",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-ultimates-17",
@@ -3317,17 +3568,20 @@
         {
           "id": "u-ultimate-comics-x-men-18",
           "t": "Ultimate Comics X-Men",
-          "n": "#18"
+          "n": "#18",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-18.1",
           "t": "Ultimate Comics X-Men",
-          "n": "#18.1"
+          "n": "#18.1",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-18",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#18"
+          "n": "#18",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-ultimates-18.1",
@@ -3337,8 +3591,12 @@
       ],
       "links": [
         {
-          "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "label": "Ultimate Comics Spider-Man (2011)",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
+        },
+        {
+          "label": "Ultimate Comics X-Men",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         }
       ]
     },
@@ -3350,47 +3608,56 @@
         {
           "id": "u-ultimate-comics-spider-man-2011-16.1",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#16.1"
+          "n": "#16.1",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-19",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#19"
+          "n": "#19",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-20",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#20"
+          "n": "#20",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-21",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#21"
+          "n": "#21",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-22",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#22"
+          "n": "#22",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-19",
           "t": "Ultimate Comics X-Men",
-          "n": "#19"
+          "n": "#19",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-20",
           "t": "Ultimate Comics X-Men",
-          "n": "#20"
+          "n": "#20",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-21",
           "t": "Ultimate Comics X-Men",
-          "n": "#21"
+          "n": "#21",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-22",
           "t": "Ultimate Comics X-Men",
-          "n": "#22"
+          "n": "#22",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-ultimates-19",
@@ -3445,57 +3712,68 @@
         {
           "id": "u-ultimate-comics-x-men-23",
           "t": "Ultimate Comics X-Men",
-          "n": "#23"
+          "n": "#23",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-24",
           "t": "Ultimate Comics X-Men",
-          "n": "#24"
+          "n": "#24",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-25",
           "t": "Ultimate Comics X-Men",
-          "n": "#25"
+          "n": "#25",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-26",
           "t": "Ultimate Comics X-Men",
-          "n": "#26"
+          "n": "#26",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-27",
           "t": "Ultimate Comics X-Men",
-          "n": "#27"
+          "n": "#27",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-28",
           "t": "Ultimate Comics X-Men",
-          "n": "#28"
+          "n": "#28",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-29",
           "t": "Ultimate Comics X-Men",
-          "n": "#29"
+          "n": "#29",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-30",
           "t": "Ultimate Comics X-Men",
-          "n": "#30"
+          "n": "#30",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-31",
           "t": "Ultimate Comics X-Men",
-          "n": "#31"
+          "n": "#31",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-32",
           "t": "Ultimate Comics X-Men",
-          "n": "#32"
+          "n": "#32",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-x-men-33",
           "t": "Ultimate Comics X-Men",
-          "n": "#33"
+          "n": "#33",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
         },
         {
           "id": "u-ultimate-comics-iron-man-1",
@@ -3550,38 +3828,48 @@
         {
           "id": "u-ultimate-comics-spider-man-2011-23",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#23"
+          "n": "#23",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-24",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#24"
+          "n": "#24",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-25",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#25"
+          "n": "#25",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-26",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#26"
+          "n": "#26",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-27",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#27"
+          "n": "#27",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         },
         {
           "id": "u-ultimate-comics-spider-man-2011-28",
           "t": "Ultimate Comics Spider-Man (2011)",
-          "n": "#28"
+          "n": "#28",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         }
       ],
       "links": [
         {
-          "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "label": "Ultimate Comics X-Men",
+          "url": "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013"
+        },
+        {
+          "label": "Ultimate Comics Spider-Man (2011)",
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
         }
       ]
     },
@@ -3690,12 +3978,6 @@
           "t": "Survive",
           "n": "#1"
         }
-      ],
-      "links": [
-        {
-          "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
-        }
       ]
     },
     {
@@ -3736,62 +4018,74 @@
         {
           "id": "u-all-new-ultimates-1",
           "t": "All-New Ultimates",
-          "n": "#1"
+          "n": "#1",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-2",
           "t": "All-New Ultimates",
-          "n": "#2"
+          "n": "#2",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-3",
           "t": "All-New Ultimates",
-          "n": "#3"
+          "n": "#3",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-4",
           "t": "All-New Ultimates",
-          "n": "#4"
+          "n": "#4",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-5",
           "t": "All-New Ultimates",
-          "n": "#5"
+          "n": "#5",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-6",
           "t": "All-New Ultimates",
-          "n": "#6"
+          "n": "#6",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-7",
           "t": "All-New Ultimates",
-          "n": "#7"
+          "n": "#7",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-8",
           "t": "All-New Ultimates",
-          "n": "#8"
+          "n": "#8",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-9",
           "t": "All-New Ultimates",
-          "n": "#9"
+          "n": "#9",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-10",
           "t": "All-New Ultimates",
-          "n": "#10"
+          "n": "#10",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-11",
           "t": "All-New Ultimates",
-          "n": "#11"
+          "n": "#11",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-all-new-ultimates-12",
           "t": "All-New Ultimates",
-          "n": "#12"
+          "n": "#12",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         },
         {
           "id": "u-miles-morales-ultimate-spider-man-1",
@@ -3856,8 +4150,8 @@
       ],
       "links": [
         {
-          "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "label": "All-New Ultimates",
+          "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
         }
       ]
     }
