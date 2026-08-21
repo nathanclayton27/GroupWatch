@@ -656,6 +656,21 @@ let MANIFEST = [
       "many": "entries"
     },
     "total": 129
+  },
+  {
+    "slug": "ultimate-marvel",
+    "title": "Ultimate Marvel",
+    "subtitle": "the whole Ultimate universe, in order",
+    "kind": "comics",
+    "year": "2000–2015",
+    "blurb": "693 issues across 65 series, interleaved the way the line was meant to be read.",
+    "accent": "",
+    "accentDark": "",
+    "unit": {
+      "one": "issue",
+      "many": "issues"
+    },
+    "total": 693
   }
 ];
 
@@ -675,7 +690,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '85d7fe4b37f8';
+const BUILD = 'bc8825cae27f';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
