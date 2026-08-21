@@ -11,17 +11,24 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-**Fullmetal Alchemist: Brotherhood** — 64 episodes across six arcs, on a fixed
-schedule with a deadline per arc.
+Sixteen lists, from an eight-episode show to a 1,190-chapter manga.
 
-**Everything Dies: Secret Wars** — Jonathan Hickman's Marvel run. 250 issues from *Fantastic
-Four* #570 through *Secret Wars* #9, in the order they're meant to be read.
+**Comics.** *Amazing Spider-Man* (Amazing Fantasy #15 to Civil War), *Civil
+War* (the 2006 event interleaved), *Spider-Man After Civil War*, *Ultimate
+Marvel* (the whole line, 693 issues), *Everything Dies: Secret Wars*
+(Hickman's Marvel run), *Venom* (Cates and Stegman), and *One Piece* in
+manga form.
 
-**Venom** — Donny Cates and Ryan Stegman's run. 82 issues, tiered, with
-spoiler-light explainers so you can start cold.
+**Screen.** *MCU Anthology* — every Marvel film from *Blade* to *Avengers:
+Doomsday* in release order with the shows slotted in — plus *Fullmetal
+Alchemist: Brotherhood*, *Monster*, *Evangelion*, *One Piece*, *One Pace*,
+*Friday Night Lights* and *Lanterns*.
 
-The button in the top left switches between them. First visit shows a picker;
-after that it opens whatever you had last.
+**Games.** *Kingdom Hearts*, in release order, weighted by how long each
+entry takes.
+
+The button in the top left switches between them, with a search box. First
+visit shows a picker; after that it opens whatever you had last.
 
 ## Reading groups
 
@@ -74,8 +81,11 @@ Drop a JSON file in `properties/` and rebuild.
 
 Optional: `verb` (drives “watching” vs “reading”), `itemOrder`, `schedule`
 (dated windows), `rules`, `notes` (footer prose), `order` (menu position),
-`forGroup` (per-group copy), per-section `intro` and `links`, per-item `note`,
-`star`, `opt`, `url`. Full reference in [HOW-IT-WORKS.md](HOW-IT-WORKS.md).
+`forGroup` (per-group copy), `paceTiers` and `paceLabel` (which tiers the
+finish date covers), `weightUnit`, `itemTiers`; per-section `intro`, `links`
+and `open`; per-item `note`, `star`, `opt`, `url`, `w` (how long it takes —
+the bars are sized by it) and `tier`. Full reference in
+[HOW-IT-WORKS.md](HOW-IT-WORKS.md).
 
 **Item ids are load-bearing.** Progress is stored as a list of them, so
 reordering is safe but renaming silently destroys saved ticks. Prefix them with
@@ -123,6 +133,16 @@ follows the order Hickman specified for the omnibus.
 
 Venom order compiled from How To Love Comics, Comic Book Treasury, Comic Book
 Herald and comicbookreadingorders.com.
+
+Spider-Man order, era boundaries and star ratings from a checklist written for
+the group; its annotations were rewritten rather than copied, because it spoils
+freely. Civil War order from How To Love Comics, cross-checked against
+comicbookreadingorders.com. Ultimate Marvel order from Comic Book Herald.
+
+MCU Anthology built from Wikipedia's live-action Marvel features table, with
+runtimes, release dates and episode counts read from Wikidata. Kingdom Hearts
+order and priorities from a rundown by a longtime player; hours from
+HowLongToBeat.
 
 This is an index of issue and episode numbers, not a reader or a player.
 

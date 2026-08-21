@@ -24,7 +24,30 @@ import re
 
 SLUG = "ultimate-marvel"
 
-USM = "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+# Marvel series pages, all checked. Nine of the sixty-five series, but they are
+# the long-running ones and cover most of the issues here; the rest are minis
+# and annuals whose ids would each need a separate lookup, and Marvel Unlimited
+# finds any of them by exact title.
+SERIES_URL = {
+    "Ultimate Spider-Man":
+        "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)",
+    "Ultimate X-Men":
+        "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009",
+    "Ultimate Fantastic Four":
+        "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009",
+    "Ultimates":
+        "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003",
+    "Ultimates (v2)":
+        "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)",
+    "Ultimate Marvel Team-Up":
+        "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)",
+    "Ultimate Comics Spider-Man (2011)":
+        "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013",
+    "Ultimate Comics X-Men":
+        "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013",
+    "All-New Ultimates":
+        "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015",
+}
 
 
 def r(a, b):
@@ -266,18 +289,28 @@ def main():
                     x["note"] = note
                 if opt:
                     x["opt"] = 1
-                if series == "Ultimate Spider-Man":
-                    x["url"] = USM
+                if series in SERIES_URL:
+                    x["url"] = SERIES_URL[series]
                 items.append(x)
+        # A section spans several series, so its header links to the two that
+        # make up most of it rather than to one arbitrary book. Every issue also
+        # links to its own series where that page is known.
+        count = {}
+        for x in items:
+            if x["t"] in SERIES_URL:
+                count[x["t"]] = count.get(x["t"], 0) + 1
+        top = sorted(count, key=lambda t: (-count[t], t))[:2]
         sections.append({"id": sid, "title": title, "sub": sub, "items": items,
                          **({"open": True} if sid == "intro" else {}),
-                         "links": [{"label": "Ultimate Spider-Man", "url": USM}]})
+                         **({"links": [{"label": t, "url": SERIES_URL[t]} for t in top]}
+                            if top else {})})
 
     ids = [x["id"] for s in sections for x in s["items"]]
     assert len(ids) == len(set(ids)), "duplicate ids"
     total = len(ids)
     opt = sum(1 for s in sections for x in s["items"] if x.get("opt"))
     series = sorted({x["t"] for s in sections for x in s["items"]})
+    linked = sum(1 for s in sections for x in s["items"] if x.get("url"))
 
     prop = {
         "slug": SLUG,
@@ -304,10 +337,11 @@ def main():
             ["Where it ends.", "The line finishes here and its ending is Secret "
              "Wars, which is its own list. The 2024 Ultimate Spider-Man is a "
              "different universe again and is not part of this."],
-            ["Links.", "Ultimate Spider-Man links to its series page. The other "
-             "%d series each have an arbitrary Marvel database id that has to be "
-             "looked up one at a time; Marvel Unlimited finds any of them by "
-             "exact title." % (len(series) - 1)],
+            ["Links.", "Nine of the %d series link to their Marvel page — the "
+             "long-running ones, which is %d of the %d issues here. The rest are "
+             "minis and annuals, and Marvel gives each an arbitrary database id "
+             "that has to be looked up one at a time; Marvel Unlimited finds any "
+             "of them by exact title." % (len(series), linked, total)],
             "Order transcribed from the Comic Book Herald Ultimate Marvel "
             "reading order. Its commentary is kept as notes on the entry it "
             "belongs to.",
