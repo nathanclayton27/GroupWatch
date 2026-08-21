@@ -61,12 +61,17 @@ SAGA = {
     "Star Wars", "The Empire Strikes Back", "Return of the Jedi",
     "The Phantom Menace", "Attack of the Clones", "Revenge of the Sith",
     "The Force Awakens", "The Last Jedi", "The Rise of Skywalker",
+    # not numbered, but it runs straight into the opening of the first film
+    # and Andor runs straight into it
+    "Rogue One",
 }
 MAIN_SHOWS = {
     "The Clone Wars", "Rebels", "The Bad Batch", "The Mandalorian",
-    "The Book of Boba Fett", "Obi-Wan Kenobi", "Andor", "Ahsoka",
+    "The Book of Boba Fett", "Obi-Wan Kenobi", "Ahsoka",
     "The Acolyte", "Skeleton Crew", "Resistance",
 }
+# The one series held to the same standard as the films.
+SAGA_SHOWS = {"Andor"}
 
 
 def slug(t):
@@ -145,7 +150,8 @@ def main():
                 # came out in August 2008 and the series that October
                 "date": iso or ("%d-06-15" % sy),
                 "year": sy, "kind": "show", "sortkey": (s["t"], k),
-                "tier": 2 if s["t"] in MAIN_SHOWS else 3,
+                "tier": 1 if s["t"] in SAGA_SHOWS
+                        else (2 if s["t"] in MAIN_SHOWS else 3),
             })
 
     for g in d["games"]:
@@ -223,8 +229,9 @@ def main():
         "notes": [
             ["Tiers are on each row, not each section.",
              "These sections are eras, and an era holds all three at once. "
-             "1 is the spine — the nine numbered films, the story everything "
-             "else is arranged around. 2 is the rest of the main line: the "
+             "1 is the spine — the nine numbered films, plus Rogue One and "
+             "Andor, which run into the opening of the first film and into "
+             "each other. 2 is the rest of the main line: the "
              "other theatrical films and the series carrying real plot. 3 is "
              "everything you can take or leave without changing what 1 means — "
              "the Holiday Special, the Ewok films, the eighties cartoons, the "

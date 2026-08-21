@@ -305,14 +305,14 @@
     "subtitle": "films, television and the Disney-era games, in release order",
     "kind": "films, shows & games",
     "year": "1977–",
-    "blurb": "16 films, 39 television seasons and 29 games in the order they came out — about 256 hours of screen time.",
+    "blurb": "16 films, 39 television seasons and 24 games in the order they came out — about 256 hours of screen time.",
     "accent": "#8A6D1F",
     "accentDark": "#E8C450",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 84
+    "total": 79
   },
   {
     "slug": "secret",

@@ -5,7 +5,7 @@
   "kind": "films, shows & games",
   "order": 21,
   "year": "1977–",
-  "blurb": "16 films, 39 television seasons and 29 games in the order they came out — about 256 hours of screen time.",
+  "blurb": "16 films, 39 television seasons and 24 games in the order they came out — about 256 hours of screen time.",
   "unit": {
     "one": "entry",
     "many": "entries"
@@ -28,7 +28,7 @@
   "notes": [
     [
       "Tiers are on each row, not each section.",
-      "These sections are eras, and an era holds all three at once. 1 is the spine — the nine numbered films, the story everything else is arranged around. 2 is the rest of the main line: the other theatrical films and the series carrying real plot. 3 is everything you can take or leave without changing what 1 means — the Holiday Special, the Ewok films, the eighties cartoons, the anthologies and the games. A finish date covers 1 and 2; the checkbox under the bar adds the rest."
+      "These sections are eras, and an era holds all three at once. 1 is the spine — the nine numbered films, plus Rogue One and Andor, which run into the opening of the first film and into each other. 2 is the rest of the main line: the other theatrical films and the series carrying real plot. 3 is everything you can take or leave without changing what 1 means — the Holiday Special, the Ewok films, the eighties cartoons, the anthologies and the games. A finish date covers 1 and 2; the checkbox under the bar adds the rest."
     ],
     [
       "Release order, not chronological.",
@@ -175,7 +175,7 @@
     {
       "id": "clonewars",
       "title": "The Clone Wars era",
-      "sub": "2008–2014 · 1 film, 6 seasons, 7 games · 47 hours",
+      "sub": "2008–2014 · 1 film, 6 seasons, 5 games · 47 hours",
       "intro": "One film and one series that outgrew it. This is where the animation became the main event rather than a spin-off.",
       "items": [
         {
@@ -250,22 +250,6 @@
           "tier": 3
         },
         {
-          "id": "sw-g-2014-star-wars-journeys-beginnings",
-          "t": "Star Wars Journeys: Beginnings",
-          "n": "2014",
-          "w": 0,
-          "note": "Game",
-          "tier": 3
-        },
-        {
-          "id": "sw-g-2014-star-wars-journeys-the-phantom-menace",
-          "t": "Star Wars Journeys: The Phantom Menace",
-          "n": "2014",
-          "w": 0,
-          "note": "Game",
-          "tier": 3
-        },
-        {
           "id": "sw-g-2014-star-wars-assault-team",
           "t": "Star Wars: Assault Team",
           "n": "2014",
@@ -294,7 +278,7 @@
     {
       "id": "disney",
       "title": "Disney: the sequels and the anthologies",
-      "sub": "2015–2018 · 4 films, 5 seasons, 10 games · 44 hours",
+      "sub": "2015–2018 · 4 films, 5 seasons, 7 games · 44 hours",
       "intro": "A trilogy, two standalone films, and the games that came with the new canon.",
       "items": [
         {
@@ -321,14 +305,6 @@
           "tier": 3
         },
         {
-          "id": "sw-g-2015-star-wars-rebels-recon-missions",
-          "t": "Star Wars Rebels: Recon Missions",
-          "n": "2015",
-          "w": 0,
-          "note": "Game",
-          "tier": 3
-        },
-        {
           "id": "sw-g-2015-star-wars-card-trader",
           "t": "Star Wars: Card Trader",
           "n": "2015",
@@ -339,14 +315,6 @@
         {
           "id": "sw-g-2015-star-wars-galaxy-of-heroes",
           "t": "Star Wars: Galaxy of Heroes",
-          "n": "2015",
-          "w": 0,
-          "note": "Game",
-          "tier": 3
-        },
-        {
-          "id": "sw-g-2015-star-wars-heroes-path",
-          "t": "Star Wars: Heroes Path",
           "n": "2015",
           "w": 0,
           "note": "Game",
@@ -373,7 +341,7 @@
           "t": "Rogue One",
           "n": "2016",
           "w": 2.22,
-          "tier": 2
+          "tier": 1
         },
         {
           "id": "sw-t-2014-rebels-s4",
@@ -409,14 +377,6 @@
         {
           "id": "sw-g-2017-star-wars-jedi-challenges",
           "t": "Star Wars: Jedi Challenges",
-          "n": "2017",
-          "w": 0,
-          "note": "Game",
-          "tier": 3
-        },
-        {
-          "id": "sw-g-2017-star-wars-puzzle-droids",
-          "t": "Star Wars: Puzzle Droids",
           "n": "2017",
           "w": 0,
           "note": "Game",
@@ -570,7 +530,7 @@
           "n": "2022",
           "w": 8.4,
           "note": "2022–2025 · 2 seasons, 24 episodes · Live action · 12 episodes",
-          "tier": 2
+          "tier": 1
         },
         {
           "id": "sw-t-2022-tales-of-the-jedi-s1",
@@ -690,7 +650,7 @@
           "n": "2025",
           "w": 8.4,
           "note": "12 episodes",
-          "tier": 2
+          "tier": 1
         },
         {
           "id": "sw-t-2025-tales-of-the-underworld-s1",

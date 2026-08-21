@@ -148,6 +148,7 @@
    "end": "2020-05-04",
    "seasons": 7,
    "episodes": 133,
+   "overview_from": "List of Star Wars: The Clone Wars episodes",
    "season_dates": {
     "1": "2008-10-03",
     "2": "2009-10-02",
@@ -163,8 +164,7 @@
     "4": 22,
     "5": 20,
     "7": 12
-   },
-   "overview_from": "List of Star Wars: The Clone Wars episodes"
+   }
   },
   {
    "t": "Rebels",
@@ -174,6 +174,7 @@
    "end": "2018-03-05",
    "seasons": 4,
    "episodes": 75,
+   "overview_from": "List of Star Wars Rebels episodes",
    "season_dates": {
     "1": "2014-10-03",
     "2": "2015-06-20",
@@ -185,8 +186,7 @@
     "2": 22,
     "3": 22,
     "4": 16
-   },
-   "overview_from": "List of Star Wars Rebels episodes"
+   }
   },
   {
    "t": "Resistance",
@@ -196,6 +196,7 @@
    "end": "2020-01-26",
    "seasons": 2,
    "episodes": 40,
+   "overview_from": "Star Wars Resistance",
    "season_dates": {
     "1": "2018-10-07",
     "2": "2019-10-06"
@@ -203,8 +204,7 @@
    "season_eps": {
     "1": 21,
     "2": 19
-   },
-   "overview_from": "Star Wars Resistance"
+   }
   },
   {
    "t": "The Mandalorian",
@@ -214,6 +214,7 @@
    "end": null,
    "seasons": 3,
    "episodes": 24,
+   "overview_from": "The Mandalorian",
    "season_dates": {
     "1": "2019-11-12",
     "2": "2020-10-30",
@@ -223,8 +224,7 @@
     "1": 8,
     "2": 8,
     "3": 8
-   },
-   "overview_from": "The Mandalorian"
+   }
   },
   {
    "t": "The Bad Batch",
@@ -234,6 +234,7 @@
    "end": "2024-05-01",
    "seasons": 3,
    "episodes": 47,
+   "overview_from": "Star Wars: The Bad Batch",
    "season_dates": {
     "1": "2021-05-04",
     "2": "2023-01-04",
@@ -243,8 +244,7 @@
     "1": 16,
     "2": 16,
     "3": 15
-   },
-   "overview_from": "Star Wars: The Bad Batch"
+   }
   },
   {
    "t": "Visions",
@@ -295,6 +295,7 @@
    "end": "2025-05-13",
    "seasons": 2,
    "episodes": 24,
+   "overview_from": "Andor (TV series)",
    "season_dates": {
     "1": "2022-09-21",
     "2": "2025-04-22"
@@ -302,8 +303,7 @@
    "season_eps": {
     "1": 12,
     "2": 12
-   },
-   "overview_from": "Andor (TV series)"
+   }
   },
   {
    "t": "Tales of the Jedi",
@@ -444,16 +444,6 @@
    "group": "2010s"
   },
   {
-   "t": "Star Wars Journeys: Beginnings",
-   "year": 2014,
-   "group": "Mobile and smartphones"
-  },
-  {
-   "t": "Star Wars Journeys: The Phantom Menace",
-   "year": 2014,
-   "group": "Mobile and smartphones"
-  },
-  {
    "t": "Star Wars: Assault Team",
    "year": 2014,
    "group": "Mobile and smartphones"
@@ -474,22 +464,12 @@
    "group": "Battlefront"
   },
   {
-   "t": "Star Wars Rebels: Recon Missions",
-   "year": 2015,
-   "group": "Mobile and smartphones"
-  },
-  {
    "t": "Star Wars: Card Trader",
    "year": 2015,
    "group": "Mobile and smartphones"
   },
   {
    "t": "Star Wars: Galaxy of Heroes",
-   "year": 2015,
-   "group": "Mobile and smartphones"
-  },
-  {
-   "t": "Star Wars: Heroes Path",
    "year": 2015,
    "group": "Mobile and smartphones"
   },
@@ -510,11 +490,6 @@
   },
   {
    "t": "Star Wars: Jedi Challenges",
-   "year": 2017,
-   "group": "Mobile and smartphones"
-  },
-  {
-   "t": "Star Wars: Puzzle Droids",
    "year": 2017,
    "group": "Mobile and smartphones"
   },
