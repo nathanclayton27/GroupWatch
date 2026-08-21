@@ -47,6 +47,22 @@ SERIES_URL = {
         "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013",
     "All-New Ultimates":
         "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015",
+    "Ultimate Comics Ultimates":
+        "https://www.marvel.com/comics/series/13936/ultimate_comics_ultimates__(2011_-_present)",
+    "Ultimate Comics Spider-Man":
+        "https://www.marvel.com/comics/series/8509/ultimate_spiderman_2009_2012",
+    "Ultimate Fallout":
+        "https://www.marvel.com/comics/series/14807/ultimate_fallout_2011",
+    "Ultimate Six":
+        "https://www.marvel.com/comics/series/419/ultimate_six_2003_2004",
+    "Ultimate Nightmare":
+        "https://www.marvel.com/comics/series/760/ultimate_nightmare_(2004_-_2005)",
+    "Ultimate Secret":
+        "https://www.marvel.com/comics/series/838/ultimate_secret_2005",
+    "Ultimate Power":
+        "https://www.marvel.com/comics/series/1124/ultimate_power_(2006_-_2008)",
+    "Ultimate Vision":
+        "https://www.marvel.com/comics/series/3255/ultimate_vision_2006_-_2007",
 }
 
 
@@ -289,28 +305,25 @@ def main():
                     x["note"] = note
                 if opt:
                     x["opt"] = 1
-                if series in SERIES_URL:
-                    x["url"] = SERIES_URL[series]
                 items.append(x)
-        # A section spans several series, so its header links to the two that
-        # make up most of it rather than to one arbitrary book. Every issue also
-        # links to its own series where that page is known.
-        count = {}
-        for x in items:
-            if x["t"] in SERIES_URL:
-                count[x["t"]] = count.get(x["t"], 0) + 1
-        top = sorted(count, key=lambda t: (-count[t], t))[:2]
+        # The header carries every series in *this* section that has a known
+        # page, in the order they first appear. Picking only the biggest put
+        # "Ultimate Spider-Man" on seven of the fifteen headers, which is noise
+        # rather than navigation.
+        links, seen_here = [], set()
+        for series, _, _, _ in blocks:
+            if series in SERIES_URL and series not in seen_here:
+                seen_here.add(series)
+                links.append({"label": series, "url": SERIES_URL[series]})
         sections.append({"id": sid, "title": title, "sub": sub, "items": items,
                          **({"open": True} if sid == "intro" else {}),
-                         **({"links": [{"label": t, "url": SERIES_URL[t]} for t in top]}
-                            if top else {})})
+                         **({"links": links} if links else {})})
 
     ids = [x["id"] for s in sections for x in s["items"]]
     assert len(ids) == len(set(ids)), "duplicate ids"
     total = len(ids)
     opt = sum(1 for s in sections for x in s["items"] if x.get("opt"))
     series = sorted({x["t"] for s in sections for x in s["items"]})
-    linked = sum(1 for s in sections for x in s["items"] if x.get("url"))
 
     prop = {
         "slug": SLUG,
@@ -337,11 +350,12 @@ def main():
             ["Where it ends.", "The line finishes here and its ending is Secret "
              "Wars, which is its own list. The 2024 Ultimate Spider-Man is a "
              "different universe again and is not part of this."],
-            ["Links.", "Nine of the %d series link to their Marvel page — the "
-             "long-running ones, which is %d of the %d issues here. The rest are "
-             "minis and annuals, and Marvel gives each an arbitrary database id "
-             "that has to be looked up one at a time; Marvel Unlimited finds any "
-             "of them by exact title." % (len(series), linked, total)],
+            ["Links.", "Each section header links to the series it actually "
+             "contains, so the links change as you move down the page. %d of the "
+             "%d series have a known page; the rest are minis and annuals, and "
+             "Marvel gives every series an arbitrary database id that has to be "
+             "looked up one at a time. Marvel Unlimited finds any of them by "
+             "exact title." % (len(SERIES_URL), len(series))],
             "Order transcribed from the Comic Book Herald Ultimate Marvel "
             "reading order. Its commentary is kept as notes on the entry it "
             "belongs to.",
