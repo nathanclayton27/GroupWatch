@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Generate properties/marvel-movies.json.
+"""Generate properties/mcu-anthology.json.
 
-    python3 tools/make_marvel_movies.py
+    python3 tools/make_mcu_anthology.py
 
 Every live-action Marvel film from Blade (1998) to Avengers: Doomsday (2026) in
 release order, with the Marvel Studios series slotted in by premiere date, and a
@@ -29,7 +29,7 @@ because that is the order they came out in.
 import json
 import pathlib
 
-SLUG = "marvel-movies"
+SLUG = "mcu-anthology"
 
 # T1 — the through-line. Skip it and something later stops making sense.
 T1 = {
@@ -68,15 +68,69 @@ NOTE = {
     "The Avengers": "The first crossover, and the reason the model exists",
     "Captain America: The Winter Soldier": "The one that changed what these could be",
     "Avengers: Endgame": "The end of the Infinity Saga",
-    "Deadpool & Wolverine": "Where the Fox films formally join the MCU",
+    "Deadpool & Wolverine": "Marvel Studios' first R-rated film",
     "Logan": "Outside the MCU, and the best of the Fox films",
-    "Spider-Man: No Way Home": "Pulls in both earlier Spider-Man film series",
     "Avengers: Doomsday": "Not out yet — 18 December 2026",
 }
 SHOW_NOTE = {
     ("Loki", "2021-06-09"): "Sets up the premise the whole Multiverse Saga runs on",
     ("VisionQuest", "2026-10-14"): "Not out yet — October 2026",
 }
+
+
+# The films Marvel Studios made. Everything else on this list shares a release
+# window with a phase without being in one, and says so — a section called
+# "Phase Two" should not quietly imply that The Wolverine was part of it.
+MCU = {
+    "Iron Man", "The Incredible Hulk", "Iron Man 2", "Thor",
+    "Captain America: The First Avenger", "The Avengers", "Iron Man 3",
+    "Thor: The Dark World", "Captain America: The Winter Soldier",
+    "Guardians of the Galaxy", "Avengers: Age of Ultron", "Ant-Man",
+    "Captain America: Civil War", "Doctor Strange",
+    "Guardians of the Galaxy Vol. 2", "Spider-Man: Homecoming",
+    "Thor: Ragnarok", "Black Panther", "Avengers: Infinity War",
+    "Ant-Man and the Wasp", "Captain Marvel", "Avengers: Endgame",
+    "Spider-Man: Far From Home", "Black Widow",
+    "Shang-Chi and the Legend of the Ten Rings", "Eternals",
+    "Spider-Man: No Way Home", "Doctor Strange in the Multiverse of Madness",
+    "Thor: Love and Thunder", "Black Panther: Wakanda Forever",
+    "Ant-Man and the Wasp: Quantumania", "Guardians of the Galaxy Vol. 3",
+    "The Marvels", "Deadpool & Wolverine", "Captain America: Brave New World",
+    "Thunderbolts*", "The Fantastic Four: First Steps",
+    "Spider-Man: Brand New Day", "Avengers: Doomsday",
+}
+
+
+# Which phase each Marvel Studios film belongs to. Placing them by release date
+# does not work: Iron Man's earliest Wikidata date is two days before the US
+# opening, which pushed it out of Phase One, and The Avengers — the film Phase
+# One ends with — landed in Phase Two. Everything that is not a Marvel Studios
+# release has no phase at all and is placed by date, inside whichever era window
+# these assignments produce.
+PHASE = {
+    "p1": ["Iron Man", "The Incredible Hulk", "Iron Man 2", "Thor",
+           "Captain America: The First Avenger", "The Avengers"],
+    "p2": ["Iron Man 3", "Thor: The Dark World",
+           "Captain America: The Winter Soldier", "Guardians of the Galaxy",
+           "Avengers: Age of Ultron", "Ant-Man"],
+    "p3": ["Captain America: Civil War", "Doctor Strange",
+           "Guardians of the Galaxy Vol. 2", "Spider-Man: Homecoming",
+           "Thor: Ragnarok", "Black Panther", "Avengers: Infinity War",
+           "Ant-Man and the Wasp", "Captain Marvel", "Avengers: Endgame",
+           "Spider-Man: Far From Home"],
+    "p4": ["Black Widow", "Shang-Chi and the Legend of the Ten Rings",
+           "Eternals", "Spider-Man: No Way Home",
+           "Doctor Strange in the Multiverse of Madness",
+           "Thor: Love and Thunder", "Black Panther: Wakanda Forever"],
+    "p5": ["Ant-Man and the Wasp: Quantumania", "Guardians of the Galaxy Vol. 3",
+           "The Marvels", "Deadpool & Wolverine",
+           "Captain America: Brave New World", "Thunderbolts*"],
+    "p6": ["The Fantastic Four: First Steps", "Spider-Man: Brand New Day",
+           "Avengers: Doomsday"],
+}
+FILM_PHASE = {t: k for k, v in PHASE.items() for t in v}
+assert set(FILM_PHASE) == MCU, sorted(set(FILM_PHASE) ^ MCU)
+SHOW_PHASE = {"Four": "p4", "Five": "p5", "Six": "p6"}
 
 ANIMATED = {"What If...?", "Eyes of Wakanda", "Marvel Zombies",
             "Your Friendly Neighborhood Spider-Man"}
@@ -91,10 +145,12 @@ ERAS = [
      "Blade, the Fox X-Men films and Sam Raimi's Spider-Man. None of it connects "
      "to what follows, and none of it is required — but it is where Marvel films "
      "start working."),
-    ("p1", "Phase One", "2008–2012", "2008-05-02", "2012-05-04",
+    # Phase One ends *with* The Avengers, whose Wikidata date is a few days
+    # past the US opening, so the boundary sits after it and before the next film
+    ("p1", "Phase One", "2008–2012", "2008-05-02", "2012-06-01",
      "Six films building to one crossover, plus everything else Marvel released "
      "alongside them."),
-    ("p2", "Phase Two", "2012–2015", "2012-05-05", "2015-07-17", ""),
+    ("p2", "Phase Two", "2012–2015", "2012-06-02", "2015-07-17", ""),
     ("p3", "Phase Three", "2015–2019", "2015-07-18", "2019-07-02",
      "The stretch the whole thing was built for, and the densest run of tier-1 "
      "entries on the list."),
@@ -124,7 +180,9 @@ def film_date(f):
     if f["title"] in DATE_FIX:
         return DATE_FIX[f["title"]]
     d = f.get("released") or ""
-    if d[:4] == str(f["year"]):
+    # a bare January 1st is Wikidata recording year precision, not a release
+    # date — it put Punisher: War Zone, a December film, ahead of Iron Man
+    if d[:4] == str(f["year"]) and not d.endswith("-01-01"):
         return d
     return "%d-07-01" % f["year"]      # mid-year, so it sorts inside its own year
 
@@ -136,6 +194,7 @@ def main():
     data = pathlib.Path(__file__).resolve().parent / "data"
     films = json.loads((data / "films.json").read_text(encoding="utf-8"))
     shows = json.loads((data / "shows.json").read_text(encoding="utf-8"))
+    netflix = json.loads((data / "netflix.json").read_text(encoding="utf-8"))
 
     entries = []
     for f in films:
@@ -148,7 +207,8 @@ def main():
             "tier": 1 if key in T1 else (2 if key in T2 else 3),
             "note": NOTE.get(key, ""),
             "date": film_date(f),
-            "kind": "film", "mins": mins,
+            "kind": "film", "mins": mins, "mcu": title in MCU,
+            "phase": FILM_PHASE.get(title),
         })
 
     for s in shows:
@@ -167,18 +227,63 @@ def main():
             "w": round(mins / 60.0, 2),
             "tier": 1 if key in SHOW_T1 else (2 if key in SHOW_T2 else 3),
             "note": SHOW_NOTE.get(key, "%d episodes" % eps if eps else ""),
-            "date": s["released"], "kind": "show", "mins": mins,
+            "date": s["released"], "kind": "show", "mins": mins, "mcu": True,
+            "phase": SHOW_PHASE.get(s["phase"]),
+        })
+
+    for r in netflix:
+        eps = r["episodes"] or 0
+        mins = eps * (r["ep_minutes"] or 50)   # Marvel's Netflix hours run long
+        n = sum(1 for x in netflix if x["title"] == r["title"])
+        season = ""
+        if n > 1:
+            season = " season %d" % (sorted(x["released"] for x in netflix
+                                            if x["title"] == r["title"]).index(r["released"]) + 1)
+        entries.append({
+            "id": "mv-n-%s" % slug(r["page"]),
+            "t": r["title"] + season, "n": r["released"][:4],
+            "w": round(mins / 60.0, 2),
+            # Daredevil is the one Born Again reads on from; the rest are optional
+            "tier": 2 if r["title"] == "Daredevil" else 3,
+            "note": "%d episodes" % eps,
+            "date": r["released"], "kind": "show", "mins": mins, "mcu": False,
+            "phase": None,
         })
 
     entries.sort(key=lambda e: (e["date"], e["kind"] == "show", e["t"]))
 
+    # An era's window is whatever its declared members span, so the unphased
+    # entries fall between them without any hand-tuned cut-off dates.
+    window = {}
+    for sid, *_ in ERAS:
+        dates = [e["date"] for e in entries if e["phase"] == sid]
+        if dates:
+            window[sid] = (min(dates), max(dates))
+    order = [sid for sid, *_ in ERAS if sid in window]
+    for e in entries:
+        if e["phase"]:
+            continue
+        placed = "premcu"
+        for sid in order:
+            if e["date"] >= window[sid][0]:
+                placed = sid
+        e["phase"] = placed
+
     sections = []
     for sid, title, years, lo, hi, intro in ERAS:
-        got = [e for e in entries if lo <= e["date"] <= hi]
+        got = [e for e in entries if e["phase"] == sid]
         if not got:
             continue
         films_n = sum(1 for e in got if e["kind"] == "film")
         shows_n = len(got) - films_n
+        if sid != "premcu":
+            for e in got:
+                if e["mcu"]:
+                    continue
+                mark = ("Marvel Television — not part of %s" % title
+                        if e["kind"] == "show"
+                        else "Not an MCU film — it just came out during %s" % title)
+                e["note"] = mark + (" · " + e["note"] if e["note"] else "")
         sec = {
             "id": sid, "tier": 1, "title": title,
             "sub": "%s · %d film%s%s · %.0f hours"
@@ -248,11 +353,11 @@ def main():
              "measured figure for five of them and a stated assumption for the "
              "rest — 45 minutes live action, 32 animated. Avengers: Doomsday and "
              "VisionQuest are not out yet and weigh nothing."],
-            ["What is not here.", "The Marvel Television era — the Netflix shows, "
-             "Agents of S.H.I.E.L.D., Agent Carter — and X-Men '97, which "
-             "continues the 1992 cartoon rather than the MCU. The 2022 Special "
-             "Presentations are also absent from the source table this was built "
-             "from."],
+            ["What is not here.", "Agents of S.H.I.E.L.D., Agent Carter and the "
+             "other ABC and Hulu series; X-Men '97, which continues the 1992 "
+             "cartoon rather than the MCU; and the 2022 Special Presentations, "
+             "which the source table this was built from does not list. The "
+             "Netflix run is in — Born Again reads on from it."],
             "Film list from Wikipedia's live-action Marvel features table; "
             "runtimes and release dates from Wikidata; show premieres from the "
             "MCU phase articles and episode counts from Wikidata. The tier "
