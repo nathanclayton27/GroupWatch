@@ -1,0 +1,366 @@
+{
+  "slug": "nasuverse",
+  "title": "Nasuverse",
+  "subtitle": "Type-Moon's shared universe, by media type",
+  "kind": "mixed",
+  "order": 17,
+  "year": "1998–",
+  "blurb": "47 works across six media, in release order within each.",
+  "unit": {
+    "one": "work",
+    "many": "works"
+  },
+  "verb": {
+    "base": "read",
+    "past": "done",
+    "ing": "working through"
+  },
+  "accent": "#8A2E4A",
+  "accentDark": "#E884A6",
+  "tiers": false,
+  "notes": [
+    [
+      "Where to start.",
+      "Fate/stay night or Tsukihime, both visual novels. If you would rather watch than read: Fate/Zero, then Unlimited Blade Works, then the three Heaven's Feel films. Witch on the Holy Night and Kara no Kyoukai are standalone and need nothing else first."
+    ],
+    [
+      "Organised by medium, not by story.",
+      "There is no single reading order for this universe — the works branch rather than continue — so this lists what exists in each medium, oldest first. The notes say where something sits when it matters."
+    ],
+    [
+      "Dates.",
+      "Read from Wikipedia's Type-Moon release list and the individual work articles rather than typed from memory. Where only a year could be confirmed, only the year is shown."
+    ],
+    [
+      "Not here.",
+      "The Fate/Grand Order Camelot and Solomon films, whose release dates could not be confirmed from a source, and the many drama CDs, art books and short stories that exist mostly in Japanese. Grand Order itself is one entry, which undersells it by several hundred hours."
+    ]
+  ],
+  "sections": [
+    {
+      "id": "vn",
+      "title": "Visual novels",
+      "sub": "2000–2021 · where almost all of it starts · 6 entries",
+      "items": [
+        {
+          "id": "nasu-vn-tsukihime",
+          "t": "Tsukihime",
+          "n": "2000",
+          "note": "The doujin visual novel everything else grew out of"
+        },
+        {
+          "id": "nasu-vn-kagetsu-tohya",
+          "t": "Kagetsu Tohya",
+          "n": "2001",
+          "note": "Tsukihime fan disc"
+        },
+        {
+          "id": "nasu-vn-fate-stay-night",
+          "t": "Fate/stay night",
+          "n": "2004",
+          "note": "Three routes — Fate, Unlimited Blade Works, Heaven's Feel — read in that order"
+        },
+        {
+          "id": "nasu-vn-fate-hollow-ataraxia",
+          "t": "Fate/hollow ataraxia",
+          "n": "2005",
+          "note": "Sequel to Fate/stay night"
+        },
+        {
+          "id": "nasu-vn-witch-on-the-holy-night",
+          "t": "Witch on the Holy Night",
+          "n": "2012",
+          "note": "Mahoutsukai no Yoru. Standalone, and needs nothing else read first."
+        },
+        {
+          "id": "nasu-vn-tsukihime-a-piece-of-blue-glass-moon",
+          "t": "Tsukihime -A piece of blue glass moon-",
+          "n": "2021",
+          "note": "The remake, retelling the first half of Tsukihime"
+        }
+      ],
+      "intro": "Nasu's own works, and the primary text for everything else. Fate/stay night and Tsukihime are the two entry points; Witch on the Holy Night stands completely alone and needs nothing read first.",
+      "open": true
+    },
+    {
+      "id": "tv",
+      "title": "Anime series",
+      "sub": "2003–2023 · 13 entries",
+      "items": [
+        {
+          "id": "nasu-tv-lunar-legend-tsukihime",
+          "t": "Lunar Legend Tsukihime",
+          "n": "2003",
+          "note": "J.C.Staff's Tsukihime adaptation"
+        },
+        {
+          "id": "nasu-tv-fate-stay-night",
+          "t": "Fate/stay night",
+          "n": "2006",
+          "note": "Studio Deen. 24 episodes, following the Fate route."
+        },
+        {
+          "id": "nasu-tv-carnival-phantasm",
+          "t": "Carnival Phantasm",
+          "n": "2011",
+          "note": "Comedy OVA crossing Fate and Tsukihime, from the Take Moon parody manga"
+        },
+        {
+          "id": "nasu-tv-fate-zero",
+          "t": "Fate/Zero",
+          "n": "2011",
+          "note": "ufotable. 25 episodes across two cours."
+        },
+        {
+          "id": "nasu-tv-fate-kaleid-liner-prisma-illya",
+          "t": "Fate/kaleid liner Prisma Illya",
+          "n": "2013",
+          "note": "Magical-girl spin-off, four seasons from here"
+        },
+        {
+          "id": "nasu-tv-fate-stay-night-unlimited-blade-works",
+          "t": "Fate/stay night: Unlimited Blade Works",
+          "n": "2014",
+          "note": "ufotable. 26 episodes plus an OVA, adapting the second route."
+        },
+        {
+          "id": "nasu-tv-fate-apocrypha",
+          "t": "Fate/Apocrypha",
+          "n": "2017"
+        },
+        {
+          "id": "nasu-tv-fate-extra-last-encore",
+          "t": "Fate/Extra Last Encore",
+          "n": "2018",
+          "note": "Shaft's take on Fate/Extra"
+        },
+        {
+          "id": "nasu-tv-today-s-menu-for-the-emiya-family",
+          "t": "Today's Menu for the Emiya Family",
+          "n": "2018",
+          "note": "Cooking spin-off"
+        },
+        {
+          "id": "nasu-tv-the-case-files-of-lord-el-melloi-ii",
+          "t": "The Case Files of Lord El-Melloi II",
+          "n": "2019"
+        },
+        {
+          "id": "nasu-tv-fate-grand-order-absolute-demonic-front-babylonia",
+          "t": "Fate/Grand Order: Absolute Demonic Front Babylonia",
+          "n": "2019",
+          "note": "The Babylonia singularity, animated by CloverWorks"
+        },
+        {
+          "id": "nasu-tv-fate-grand-carnival",
+          "t": "Fate/Grand Carnival",
+          "n": "2020",
+          "note": "Successor to Carnival Phantasm, using the Grand Order cast"
+        },
+        {
+          "id": "nasu-tv-fate-strange-fake-whispers-of-dawn",
+          "t": "Fate/strange Fake: Whispers of Dawn",
+          "n": "2023",
+          "note": "One-off special",
+          "w": 0.92
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "title": "Films",
+      "sub": "2007–2020 · 10 entries",
+      "items": [
+        {
+          "id": "nasu-film-the-garden-of-sinners",
+          "t": "The Garden of Sinners",
+          "n": "2007",
+          "note": "Seven films, released 2007–2009, adapting the novels out of chronological order"
+        },
+        {
+          "id": "nasu-film-the-garden-of-sinners-a-study-in-murder-part-2",
+          "t": "The Garden of Sinners: A Study in Murder, Part 2",
+          "n": "2009"
+        },
+        {
+          "id": "nasu-film-fate-stay-night-unlimited-blade-works",
+          "t": "Fate/stay night: Unlimited Blade Works",
+          "n": "2010",
+          "note": "Studio Deen's film of the second route",
+          "w": 1.75
+        },
+        {
+          "id": "nasu-film-the-garden-of-sinners-epilogue",
+          "t": "The Garden of Sinners: Epilogue",
+          "n": "2011",
+          "w": 0.55
+        },
+        {
+          "id": "nasu-film-the-garden-of-sinners-mirai-fukuin",
+          "t": "The Garden of Sinners: Mirai Fukuin",
+          "n": "2013",
+          "note": "The Garden of Sinners: The Future Gospel",
+          "w": 1.02
+        },
+        {
+          "id": "nasu-film-prisma-illya-vow-in-the-snow",
+          "t": "Prisma Illya: Vow in the Snow",
+          "n": "2017",
+          "w": 1.03
+        },
+        {
+          "id": "nasu-film-fate-stay-night-heaven-s-feel-i-presage-flower",
+          "t": "Fate/stay night: Heaven's Feel I. presage flower",
+          "n": "2017",
+          "note": "ufotable. The third route, over three films.",
+          "w": 2.0
+        },
+        {
+          "id": "nasu-film-fate-stay-night-heaven-s-feel-ii-lost-butterfly",
+          "t": "Fate/stay night: Heaven's Feel II. lost butterfly",
+          "n": "2019",
+          "w": 1.95
+        },
+        {
+          "id": "nasu-film-prisma-illya-oath-under-snow",
+          "t": "Prisma Illya: Oath Under Snow",
+          "n": "2019",
+          "w": 1.58
+        },
+        {
+          "id": "nasu-film-fate-stay-night-heaven-s-feel-iii-spring-song",
+          "t": "Fate/stay night: Heaven's Feel III. spring song",
+          "n": "2020",
+          "w": 2.03
+        }
+      ]
+    },
+    {
+      "id": "game",
+      "title": "Games",
+      "sub": "2002–2023 · 11 entries",
+      "items": [
+        {
+          "id": "nasu-game-melty-blood",
+          "t": "Melty Blood",
+          "n": "2002",
+          "note": "Fighting game with French-Bread, and a direct Tsukihime sequel in story"
+        },
+        {
+          "id": "nasu-game-melty-blood-act-cadenza",
+          "t": "Melty Blood: Act Cadenza",
+          "n": "2005",
+          "note": "Arcade port"
+        },
+        {
+          "id": "nasu-game-fate-tiger-colosseum",
+          "t": "Fate/tiger colosseum",
+          "n": "2007",
+          "note": "PSP fighting game"
+        },
+        {
+          "id": "nasu-game-fate-unlimited-codes",
+          "t": "Fate/unlimited codes",
+          "n": "2008",
+          "note": "Arcade, PS2 and PSP fighting game"
+        },
+        {
+          "id": "nasu-game-fate-extra",
+          "t": "Fate/Extra",
+          "n": "2010",
+          "note": "PSP dungeon-crawling RPG"
+        },
+        {
+          "id": "nasu-game-fate-extra-ccc",
+          "t": "Fate/Extra CCC",
+          "n": "2013",
+          "note": "Side story to Fate/Extra"
+        },
+        {
+          "id": "nasu-game-fate-grand-order",
+          "t": "Fate/Grand Order",
+          "n": "2015",
+          "note": "The mobile RPG, still running, and the largest single body of story in the universe"
+        },
+        {
+          "id": "nasu-game-fate-extella-the-umbral-star",
+          "t": "Fate/Extella: The Umbral Star",
+          "n": "2016",
+          "note": "Action RPG"
+        },
+        {
+          "id": "nasu-game-fate-extella-link",
+          "t": "Fate/Extella Link",
+          "n": "2018"
+        },
+        {
+          "id": "nasu-game-melty-blood-type-lumina",
+          "t": "Melty Blood: Type Lumina",
+          "n": "2021",
+          "note": "Reboot of the fighting game, following the Tsukihime remake"
+        },
+        {
+          "id": "nasu-game-fate-samurai-remnant",
+          "t": "Fate/Samurai Remnant",
+          "n": "2023",
+          "note": "Action RPG set during a Holy Grail War in Edo-period Japan"
+        }
+      ],
+      "intro": "Melty Blood carries real Tsukihime story rather than being a spin-off, and Fate/Grand Order is by volume the largest body of story Type-Moon has written."
+    },
+    {
+      "id": "novel",
+      "title": "Novels",
+      "sub": "1998–2015 · light novels and Nasu's early prose · 5 entries",
+      "items": [
+        {
+          "id": "nasu-novel-the-garden-of-sinners",
+          "t": "The Garden of Sinners",
+          "n": "1998",
+          "note": "Kara no Kyoukai. Nasu's first work, serialised before Type-Moon existed."
+        },
+        {
+          "id": "nasu-novel-fate-zero",
+          "t": "Fate/Zero",
+          "n": "2006",
+          "note": "Urobuchi's prequel to Fate/stay night, in four volumes"
+        },
+        {
+          "id": "nasu-novel-fate-apocrypha",
+          "t": "Fate/Apocrypha",
+          "n": "2012"
+        },
+        {
+          "id": "nasu-novel-the-case-files-of-lord-el-melloi-ii",
+          "t": "The Case Files of Lord El-Melloi II",
+          "n": "2014",
+          "note": "Detective stories set between Fate/Zero and Fate/stay night"
+        },
+        {
+          "id": "nasu-novel-fate-strange-fake",
+          "t": "Fate/strange Fake",
+          "n": "2015",
+          "note": "Ryohgo Narita"
+        }
+      ]
+    },
+    {
+      "id": "manga",
+      "title": "Manga",
+      "sub": "2007–2016 · 2 entries",
+      "items": [
+        {
+          "id": "nasu-manga-fate-kaleid-liner-prisma-illya",
+          "t": "Fate/kaleid liner Prisma Illya",
+          "n": "2007",
+          "note": "Long-running spin-off, and the source of the anime seasons"
+        },
+        {
+          "id": "nasu-manga-today-s-menu-for-the-emiya-family",
+          "t": "Today's Menu for the Emiya Family",
+          "n": "2016"
+        }
+      ]
+    }
+  ]
+}
