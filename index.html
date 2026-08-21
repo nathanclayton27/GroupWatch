@@ -48,6 +48,9 @@ h1 em{font-style:normal;color:var(--signal)}
 /* in the menu the star is a mark, not a control — it only ever appears on
    something already starred */
 .pm-t .mstar{color:var(--signal);font-size:.85em;line-height:1;flex:none}
+.pm-t .msec{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-3);border:1px solid var(--rule-2);
+  border-radius:var(--radius);padding:1px 5px;flex:none;font-weight:400}
 .tagline{color:var(--ink-2);max-width:60ch;margin:0}
 .strip{display:flex;flex-direction:column;gap:20px;margin:72px 0 10px}
 .striprow{display:flex;gap:1px;height:34px;align-items:flex-end;
@@ -404,7 +407,7 @@ footer a{color:var(--steel)}
 <div class="gate hide" id="gate">
   <form class="gatebox" id="gateform" autocomplete="off">
     <div class="gate-lock" aria-hidden="true">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</div>
-    <h2 id="gate-t">Locked</h2>
+    <h2 id="gate-t">Secret</h2>
     <p id="gate-h"></p>
     <input type="password" id="gate-in" aria-label="Password"
            autocomplete="off" spellcheck="false" autocapitalize="none">
@@ -858,7 +861,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '506e99b08bf5';
+const BUILD = 'fad87dad1c29';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -2414,7 +2417,7 @@ function renderMenu(){
   };
 }
 
-// ---------------------------------------------------------- locked lists
+// ---------------------------------------------------------- secret lists
 //
 // A password here hides a property from the menu. It is not security and the
 // property's own notes say so: this is a bag of static files with no server,
@@ -2434,10 +2437,11 @@ function markUnlocked(slug){
   const u = unlockedSet(); u.add(slug);
   try{ localStorage.setItem(UNLKEY, JSON.stringify([...u])); }catch(e){}
 }
-// what the switcher and the splash are allowed to list
-function listable(){
-  return MANIFEST.filter(m=> !m.secret || isUnlocked(m.slug));
-}
+// The switcher lists secret properties and marks them, because a name in a
+// menu gives nothing away and a list nobody can find is a list nobody uses.
+// The splash is the first thing a stranger sees, so it stays to what is open.
+function menuList(){ return MANIFEST.slice(); }
+function splashList(){ return MANIFEST.filter(m=> !m.secret || isUnlocked(m.slug)); }
 
 // A manifest total is written at build time, which a daily list cannot have —
 // only the reader's own clock knows how many days have passed.
@@ -2529,7 +2533,7 @@ function filterMenu(q){
   // sort on the title alone. The star is decoration on the row, never part of
   // the string being compared, so starring something cannot move it out of
   // alphabetical order within its group.
-  const list = listable().sort((a,b)=> a.title.localeCompare(b.title));
+  const list = menuList().sort((a,b)=> a.title.localeCompare(b.title));
   const hits = !needle ? list : list.filter(m=>
     (m.title+' '+(m.subtitle||'')+' '+(m.kind||'')+' '+(m.year||'')).toLowerCase()
       .indexOf(needle) >= 0);
@@ -2537,12 +2541,17 @@ function filterMenu(q){
   // No control here — starring happens on the property's own title. A row only
   // shows a star when it has one, so an unstarred menu carries no marks at all.
   const row = m=>{
+    const locked = m.secret && !isUnlocked(m.slug);
     const n = localCount(m.slug);
-    const meta = [m.kind, m.year, n + ' / ' + totalOf(m) + ' ' + m.unit.many].filter(Boolean);
+    // a locked row gives its name and nothing else: its size is part of it
+    const meta = locked
+      ? [m.kind, 'password needed'].filter(Boolean)
+      : [m.kind, m.year, n + ' / ' + totalOf(m) + ' ' + m.unit.many].filter(Boolean);
     return '<button role="option" data-slug="'+esc(m.slug)+'"'
       + ' aria-selected="'+(m.slug===SLUG)+'">'
       + '<span class="pm-t"><span class="pdot" style="background:'
       + esc(accentOf(m))+'"></span>'+esc(m.title)
+      + (m.secret ? '<span class="msec">Secret</span>' : '')
       + (st.has(m.slug) ? '<span class="mstar" aria-label="Favourite">★</span>' : '')
       + '</span>'
       + '<span class="pm-m">'+meta.map(esc).join(' · ')+'</span>'
@@ -2573,9 +2582,9 @@ function showGate(){
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
   $('switcher').classList.add('hide');
   $('gate').classList.remove('hide');
-  $('gate-t').textContent = sec.title || 'Locked';
+  $('gate-t').textContent = sec.title || 'Secret';
   $('gate-h').textContent = sec.hint || 'This one needs a password.';
-  document.title = (sec.title || 'Locked') + ' — GroupWatch';
+  document.title = (sec.title || 'Secret') + ' — GroupWatch';
   setTimeout(()=> $('gate-in').focus(), 60);
 
   $('gate-back').onclick = ()=>{ location.href = location.pathname; };
@@ -2625,7 +2634,7 @@ function showSplash(){
   document.title = 'GroupWatch';
 
   const TICKS = 46;
-  $('cards').innerHTML = listable().map(m=>{
+  $('cards').innerHTML = splashList().map(m=>{
     const n = localCount(m.slug);
     const tot = totalOf(m);
     const on = Math.round(TICKS * Math.min(1, tot ? n/tot : 0));
@@ -3052,7 +3061,7 @@ loadProperty().then(()=>{
   renderHeader();
   renderMenu();
   migrate();
-  // A locked property renders nothing until the password lands. The list is
+  // A secret property renders nothing until the password lands. The list is
   // already fetched by this point and always will be — the gate is about not
   // surfacing it, not about withholding it from someone reading the network
   // tab, which no static site can do.
