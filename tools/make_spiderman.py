@@ -19,7 +19,7 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from spiderman_data import (S_V1, S_V2, S_ANN, S_AF, S_WEB, S_SPEC, S_PPSM,
-                            URLS, asm, v2, item, rng, check)
+                            asm, v2, item, rng, weave, check)
 
 SLUG = "amazing-spider-man"
 
@@ -31,19 +31,18 @@ SECTIONS = [
         # whichever comes first; say outright that it should be this one
         "open": True,
         "links": [{"label": "Amazing Fantasy", "url": S_AF}],
-        "items": [item("af15", "Amazing Fantasy", "#15", "Eleven pages.", 2,
-                       url=S_AF)],
+        "items": [item("af15", "Amazing Fantasy", "#15", "Eleven pages.", 2)],
     },
     {
         "id": "ditko", "tier": 1, "title": "Lee & Ditko", "sub": "#1–38 · 1963–66",
-        "links": [{"label": "The series", "url": S_V1}],
+        "links": [{"label": "The series", "url": S_V1},
+                  {"label": "Annual", "url": S_ANN}],
         "intro": "Nearly every major villain in the mythology debuts inside "
                  "these 38 issues. Ditko's Peter is anxious, prickly and broke — "
                  "closer to the character's core than the friendlier version "
                  "that follows.",
         "items": rng(1, 38) + [
-            item("ann-1", "Amazing Spider-Man Annual", "#1", "The Sinister Six", 1,
-                 url=S_ANN),
+            item("ann-1", "Amazing Spider-Man Annual", "#1", "The Sinister Six", 1),
             item("ann-2", "Amazing Spider-Man Annual", "#2", "Doctor Strange"),
             item("ann-3", "Amazing Spider-Man Annual", "#3", "The Avengers"),
         ],
@@ -52,10 +51,10 @@ SECTIONS = [
         "id": "romita", "tier": 1, "title": "Lee & Romita Sr.", "sub": "#39–102 · 1966–71",
         "intro": "The art turns glossy, Peter goes to college, and the soap "
                  "opera takes over the book.",
-        "links": [{"label": "The series", "url": S_V1}],
+        "links": [{"label": "The series", "url": S_V1},
+                  {"label": "Annual", "url": S_ANN}],
         "items": rng(39, 102) + [
-            item("ann-5", "Amazing Spider-Man Annual", "#5", "Peter's parents", 1,
-                 url=S_ANN),
+            item("ann-5", "Amazing Spider-Man Annual", "#5", "Peter's parents", 1),
             item("ann-6", "Amazing Spider-Man Annual", "#6",
                  "Mostly reprints; skippable without loss", opt=1),
         ],
@@ -89,27 +88,27 @@ SECTIONS = [
     {
         "id": "black", "tier": 1, "title": "The Black Costume & Venom",
         "sub": "#252–300 · 1984–88 · with the cross-title chapters that matter",
-        "links": [{"label": "Spectacular", "url": S_SPEC}, {"label": "Web", "url": S_WEB}],
-        "items": (
+        "links": [{"label": "The series", "url": S_V1},
+                  {"label": "Spectacular", "url": S_SPEC},
+                  {"label": "Web", "url": S_WEB},
+                  {"label": "Annual", "url": S_ANN}],
+        "items": weave(
             [item("secretwars", "Secret Wars", "#1–12",
                   "Optional, but it's where the suit is acquired", w=12, opt=1)]
-            + rng(252, 300) + [
-                item("jeandewolff", "Spectacular Spider-Man", "#107–110",
-                     "“The Death of Jean DeWolff” — not ASM, but one of the finest "
-                     "Spider-Man stories of the decade", 2, w=4, url=S_SPEC),
-                item("ann-21", "Amazing Spider-Man Annual", "#21",
-                     "Peter and MJ's wedding", 1, url=S_ANN),
-                item("klh-1", "Web of Spider-Man", "#31",
-                     "Kraven's Last Hunt, part 1 — read before ASM #293", 2, url=S_WEB),
-                item("klh-3", "Spectacular Spider-Man", "#131",
-                     "Kraven's Last Hunt, part 3 — between ASM #293 and #294", 2,
-                     url=S_SPEC),
-                item("klh-4", "Web of Spider-Man", "#32",
-                     "Kraven's Last Hunt, part 4 — between ASM #293 and #294", 2,
-                     url=S_WEB),
-                item("klh-6", "Spectacular Spider-Man", "#132",
-                     "Kraven's Last Hunt, part 6 — read after ASM #294", 2, url=S_SPEC),
-            ]
+            + rng(252, 300),
+            ("asm-271", item("jeandewolff", "Spectacular Spider-Man", "#107–110",
+                             "“The Death of Jean DeWolff” — not ASM, but one of "
+                             "the finest Spider-Man stories of the decade", 2, w=4)),
+            ("asm-292", item("ann-21", "Amazing Spider-Man Annual", "#21",
+                             "Peter and MJ's wedding", 1)),
+            ("asm-292", item("klh-1", "Web of Spider-Man", "#31",
+                             "Kraven's Last Hunt, part 1", 2)),
+            ("asm-293", item("klh-3", "Spectacular Spider-Man", "#131",
+                             "Kraven's Last Hunt, part 3", 2)),
+            ("asm-293", item("klh-4", "Web of Spider-Man", "#32",
+                             "Kraven's Last Hunt, part 4", 2)),
+            ("asm-294", item("klh-6", "Spectacular Spider-Man", "#132",
+                             "Kraven's Last Hunt, part 6", 2)),
         ),
     },
     {
@@ -124,17 +123,20 @@ SECTIONS = [
         "id": "carnage", "tier": 1, "title": "Carnage & Nineties Excess",
         "sub": "#351–393 · 1991–94 · plus the Maximum Carnage chapters",
         "links": [{"label": "The series", "url": S_V1}],
-        "items": rng(351, 393) + [
-            item("maxcarn-1", "Maximum Carnage, chapters 1–3", "◆",
-                 "Spider-Man Unlimited #1 → Web #101 → Spectacular #201, then ASM #378",
-                 1, w=3),
-            item("maxcarn-2", "Maximum Carnage, chapters 5–7", "◆",
-                 "Spider-Man #35 → Web #102 → Spectacular #202, then ASM #379", w=3),
-            item("maxcarn-3", "Maximum Carnage, chapters 9–11", "◆",
-                 "Spider-Man #36 → Web #103 → Spectacular #203, then ASM #380", w=3),
-            item("maxcarn-4", "Maximum Carnage, chapters 13–14", "◆",
-                 "Spider-Man #37 → Spider-Man Unlimited #2", w=2),
-        ],
+        "items": weave(
+            rng(351, 393),
+            ("asm-377", item("maxcarn-1", "Maximum Carnage, chapters 1–3", "◆",
+                             "Spider-Man Unlimited #1 → Web #101 → Spectacular "
+                             "#201, then ASM #378", 1, w=3)),
+            ("asm-378", item("maxcarn-2", "Maximum Carnage, chapters 5–7", "◆",
+                             "Spider-Man #35 → Web #102 → Spectacular #202, "
+                             "then ASM #379", w=3)),
+            ("asm-379", item("maxcarn-3", "Maximum Carnage, chapters 9–11", "◆",
+                             "Spider-Man #36 → Web #103 → Spectacular #203, "
+                             "then ASM #380", w=3)),
+            ("asm-380", item("maxcarn-4", "Maximum Carnage, chapters 13–14", "◆",
+                             "Spider-Man #37 → Spider-Man Unlimited #2", w=2)),
+        ),
     },
     {
         "id": "clone", "tier": 1, "title": "The Clone Saga",
@@ -146,21 +148,26 @@ SECTIONS = [
                  "These are the ASM issues plus the Revelations bookend, which is "
                  "the recommended path and follows the plot fine. The completist "
                  "alternative is the six Complete Clone Saga Epic volumes.",
-        "links": [{"label": "The series", "url": S_V1}],
-        "items": rng(394, 418) + [
-            item("revelations", "“Revelations”, the other three chapters", "◆",
-                 "Spectacular #240, Sensational #11 and Peter Parker: Spider-Man #75",
-                 1, w=3, url=S_PPSM),
-        ],
+        "links": [{"label": "The series", "url": S_V1},
+                  {"label": "Peter Parker: Spider-Man", "url": S_PPSM}],
+        "items": weave(
+            rng(394, 418),
+            ("asm-418", item("revelations", "“Revelations”, the other three "
+                             "chapters", "◆", "Spectacular #240, Sensational #11 "
+                             "and Peter Parker: Spider-Man #75 — read after "
+                             "ASM #418", 1, w=3)),
+        ),
     },
     {
         "id": "endvol1", "tier": 1, "title": "The End of Volume One",
         "sub": "#419–441 · 1996–98",
         "links": [{"label": "The series", "url": S_V1}],
-        "items": rng(419, 441) + [
-            item("finalchapter", "“The Final Chapter” continues", "◆",
-                 "Spectacular #263 and Spider-Man #98", w=2),
-        ],
+        "items": weave(
+            rng(419, 441),
+            ("asm-441", item("finalchapter", "“The Final Chapter” continues", "◆",
+                             "Spectacular #263 and Spider-Man #98 — read after "
+                             "ASM #441", w=2)),
+        ),
     },
     {
         "id": "mackie", "tier": 1, "title": "Volume Two: Mackie & Byrne",
@@ -185,11 +192,14 @@ SECTIONS = [
                  "War, and Spider-Man is close enough to the middle of that event "
                  "that it gets its own list.",
         "links": [{"label": "The series", "url": S_V2}],
-        "items": rng(500, 528) + [
-            item("theother", "“The Other”, the chapters outside ASM", "◆",
-                 "Friendly Neighborhood Spider-Man #1–4 and Marvel Knights "
-                 "Spider-Man #19–22, interleaved with ASM #525–528", 1, w=8),
-        ],
+        "items": weave(
+            rng(500, 528),
+            # The Other opens with Friendly Neighborhood #1, before ASM #525
+            ("asm-524", item("theother", "“The Other”, the chapters outside ASM",
+                             "◆", "Friendly Neighborhood Spider-Man #1–4 and "
+                             "Marvel Knights Spider-Man #19–22, interleaved with "
+                             "ASM #525–528", 1, w=8)),
+        ),
     },
 ]
 
@@ -237,13 +247,14 @@ def main():
              "Spider-Man ran across three or four concurrent monthlies. ASM tells "
              "a complete story alone, but stories occasionally begin or end "
              "elsewhere; everything cross-title that genuinely matters is here as "
-             "its own entry, sized by how many issues it is."],
-            ["Links.", "Marvel gives issues arbitrary database ids with no "
-             "pattern, and its series pages load their back catalogue through "
-             "JavaScript that can't be paged from outside, so per-issue URLs "
-             "can't be generated in bulk. The %d direct links are the ones that "
-             "could be confirmed; everything else links at series level, which is "
-             "how you'd navigate Marvel Unlimited anyway." % len(URLS)],
+             "its own entry, sized by how many issues it is, and placed at the "
+             "point in the run where you read it rather than at the end of its "
+             "section."],
+            ["Links sit on the section headers.", "Every series this list draws "
+             "from is linked from the header of each section that uses it, so a "
+             "row never carries its own link. Marvel gives individual issues "
+             "arbitrary database ids with no pattern, and series level is how "
+             "you would navigate Marvel Unlimited anyway."],
             ["A shorter path, if you want one.", "The spine is roughly 200 "
              "issues: Ditko #1–38, Conway #101–149, Stern #224–252, the "
              "black-suit years #252–300, then jump to JMS at vol. 2 #30. You lose "

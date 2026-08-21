@@ -148,6 +148,33 @@ gets the behaviour without opting in and changing it is one edit. Anything new
 inherits it. A link inside an open panel stops its click bubbling, or opening a
 series would also collapse the section it sits on.
 
+**Comic rows never carry their own link.** Links belong on the section header
+and nowhere else. An item's `url` on a comic list only ever repeated the series
+link already sitting above it, and having both meant two places to keep
+correct. If a section contains an entry from a series its header does not link
+— a Spectacular chapter inside an Amazing Spider-Man section, an Annual, a
+crossover tie-in — **add the link to the header**, do not attach it to the row.
+
+The one exception is a list where the row *is* the link and there is no series
+to link instead: Kingdom Hearts has rows that are a YouTube video, an orchestra
+transcript, a press kit. Stripping those would destroy the entry rather than
+de-duplicate it. Nothing in a comic list qualifies.
+
+### Cross-title chapters sit where you read them
+
+A comic section built from a range — `rng(252, 300)` — plus a handful of
+entries from other books must **splice those entries into the range at the
+point they are read**, not append them after it. Appending is what a list
+comprehension does by default and it is silently wrong: a Spectacular chapter
+that belongs between two issues ends up fifty issues later, under a heading
+that has already moved on.
+
+`weave()` in `tools/spiderman_data.py` does this. Each placement is
+`(anchor_id, entry)` and the entry lands directly after that anchor; several
+sharing an anchor keep the order given. A missing anchor raises rather than
+appending, so a renumbered section fails the build instead of quietly
+scattering its chapters.
+
 ### Which section opens
 
 Before you have marked anything, the property's own default — a section with

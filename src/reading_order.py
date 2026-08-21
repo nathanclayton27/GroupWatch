@@ -39,14 +39,16 @@ FIRST = {
 }
 def L(*pairs): return [{"label":a,"url":b} for a,b in pairs]
 
+# Links live on section headers, never on rows: a row's link only ever repeated
+# the series link already sitting above it. AVID, SWID and FIRST are kept
+# because they were confirmed by hand against Marvel's database and are tedious
+# to rebuild, but nothing emits them any more.
 def av(n, note="", star=0):
-    u = "https://www.marvel.com/comics/issue/%s/avengers_2012_%d" % (AVID[n], n) if n in AVID else ""
-    return {"t": "Avengers", "n": "#%d" % n, "note": note, "star": star, "url": u}
+    return {"t": "Avengers", "n": "#%d" % n, "note": note, "star": star}
 def na(n, note="", star=0):
     return {"t": "New Avengers", "n": "#%d" % n, "note": note, "star": star}
 def sw(n, note="", star=0):
-    u = "https://www.marvel.com/comics/issue/%s/secret_wars_2015_%d" % (SWID[n], n) if n in SWID else ""
-    return {"t": "Secret Wars", "n": "#%d" % n, "note": note, "star": star, "url": u}
+    return {"t": "Secret Wars", "n": "#%d" % n, "note": note, "star": star}
 def it(t, n, note="", star=0, opt=0):
     return {"t": t, "n": n, "note": note, "star": star, "opt": opt}
 
@@ -66,8 +68,10 @@ SECTIONS = [
   "items":[it("Secret Warriors","#%d"%n) for n in range(1,29)]},
 
  {"id":"darkreign","tier":2,"title":"Prelude \u2014 Dark Reign","sub":"start here \u00b7 where the Fantastic Four run begins","series":L(("Dark Reign: FF",S_DRF)),"start":1,"intro":'You don’t need to have read anything before this — but two things have just happened.\n\nA superhuman registration law tore the hero community in half, and Reed Richards was one of its architects. By any reasonable measure, he was wrong. It cost him friendships, and for a while it cost him his marriage.\n\nThen an alien infiltration of Earth ended with Norman Osborn shooting the invading queen on live television. He was rewarded with control of the country’s entire security apparatus — which he has spent the months since dismantling and rebuilding in his own image, with his own Avengers.\n\nSo: Osborn runs national security, and has opinions about who else should be allowed to. And Reed Richards is privately certain he made the worst call of his life. Rather than sit with that, he starts building a machine to ask every other version of himself how they would have handled it.\n\nSix years of story come out of that one decision.',
-  "items":[it("Dark Reign: Fantastic Four","#%d"%n) for n in range(1,6)]
-        + [it("Dark Reign: The Cabal","",'Hickman\u2019s story only')]},
+  # The Cabal one-shot came out before Dark Reign: FF #1 and is the earliest
+  # thing Hickman wrote here, so it opens the section rather than trailing it
+  "items":[it("Dark Reign: The Cabal","",'Hickman\u2019s story only \u2014 the earliest chapter here')]
+        + [it("Dark Reign: Fantastic Four","#%d"%n) for n in range(1,6)]},
 
  {"id":"ff570","tier":2,"title":"Fantastic Four #570\u2013588","sub":"the run proper","series":L(("Fantastic Four",S_F4)),
   "items":[it("Fantastic Four","#%d"%n, F4N.get(n,("",0))[0], F4N.get(n,("",0))[1]) for n in range(570,589)]},
@@ -181,8 +185,6 @@ def build_sections():
             if k in seen:
                 raise ValueError("duplicate id %r (%s %s)" % (k, x["t"], x["n"]))
             seen[k] = 1
-            if not x.get("url"):
-                x["url"] = FIRST.get((x["t"], x["n"]), "")
             x["id"] = k
             x.setdefault("note", "")
             x.setdefault("star", 0)

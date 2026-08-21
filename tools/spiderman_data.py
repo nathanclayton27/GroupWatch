@@ -13,6 +13,12 @@ star rating carries the "this one matters" signal instead. Real issue titles
 stay even where they give something away, because they are printed on the
 cover regardless.
 
+**Links live on section headers, never on rows.** A row's link only ever
+repeated the series link already sitting on its section, so the series URLs
+below are used to build `links` on the section and nowhere else. If a section
+contains an entry from a series its header does not link, add the link to the
+header rather than to the row.
+
 Order, era boundaries and star ratings come from the checklist written for the
 group. The annotations are rewritten from it rather than transcribed, because
 that document is heavily spoiler-annotated throughout.
@@ -439,8 +445,6 @@ def asm(n):
         x["note"] = NOTES[n]
     if n in STARS:
         x["star"] = STARS[n]
-    if n in URLS:
-        x["url"] = "https://www.marvel.com/comics/issue/" + URLS[n]
     return x
 
 
@@ -454,14 +458,12 @@ def v2(n):
     return x
 
 
-def item(key, title, num, note="", star=0, w=1, url="", opt=0):
+def item(key, title, num, note="", star=0, w=1, opt=0):
     x = {"id": "asm-" + key, "t": title, "n": num, "w": w}
     if note:
         x["note"] = note
     if star:
         x["star"] = star
-    if url:
-        x["url"] = url
     if opt:
         x["opt"] = 1
     return x
@@ -469,6 +471,27 @@ def item(key, title, num, note="", star=0, w=1, url="", opt=0):
 
 def rng(a, b):
     return [asm(n) for n in range(a, b + 1)]
+
+
+def weave(items, *placements):
+    """Splice cross-title entries into the run at the point they are read.
+
+    Each placement is (anchor_id, entry); the entry lands directly after the
+    anchor, and several sharing one anchor keep the order they are given in.
+    A missing anchor raises rather than appending, because an entry silently
+    dropped at the end of its section — a Spectacular chapter that belongs
+    between two ASM issues, sitting fifty issues later — is the exact bug this
+    exists to prevent.
+    """
+    out, after = list(items), {}
+    for anchor, x in placements:
+        idx = next((i for i, y in enumerate(out) if y["id"] == anchor), None)
+        if idx is None:
+            raise SystemExit("weave: no anchor %r for %r" % (anchor, x["id"]))
+        off = after.get(anchor, 0)
+        out.insert(idx + 1 + off, x)
+        after[anchor] = off + 1
+    return out
 
 
 def check(sections, expect_total=None):

@@ -64,7 +64,8 @@ h1 em{font-style:normal;color:var(--signal)}
 .striprow .tick.peeked{height:100%}
 .peek{position:fixed;z-index:95;pointer-events:none;background:var(--card);
   border:1px solid var(--rule-2);border-radius:var(--radius);padding:9px 12px;
-  box-shadow:0 8px 24px -8px rgba(0,0,0,.45);max-width:300px;
+  box-shadow:0 8px 24px -8px rgba(0,0,0,.45);
+  max-width:min(300px,calc(100vw - 20px));
   transform:translate(-50%,-100%)}
 .peek-t{font-size:13px;font-weight:500;line-height:1.3}
 .peek-t .num{font-weight:400;color:var(--ink-2)}
@@ -1741,7 +1742,16 @@ function showPeek(idx, x, top, grouped){
   // clamping made it stop following near the right-hand side and sit half
   // under the cursor. Flipping keeps the same relationship to the pointer
   // that it has on the way in from the left.
-  const w = peek.offsetWidth, pad = 10;
+  // Measure with the box parked at the left edge. A fixed-position box has the
+  // viewport as its containing block, so shrink-to-fit gives it only the room
+  // between `left` and the right edge — near the right that collapsed it into a
+  // column of single letters, and the flip then moved an already-squashed box.
+  // Measure free of that, then pin the width so placing it cannot squash it.
+  const pad = 10;
+  peek.style.width = '';
+  peek.style.left = '0px';
+  const w = peek.offsetWidth;
+  peek.style.width = w + 'px';
   let shift = -50;
   if(x + w/2 + pad > innerWidth) shift = -100;   // hang it to the left
   else if(x - w/2 - pad < 0)     shift = 0;      // hang it to the right

@@ -37,11 +37,11 @@
     ],
     [
       "◆ marks a chapter published outside ASM.",
-      "From 1976 to 1998 Spider-Man ran across three or four concurrent monthlies. ASM tells a complete story alone, but stories occasionally begin or end elsewhere; everything cross-title that genuinely matters is here as its own entry, sized by how many issues it is."
+      "From 1976 to 1998 Spider-Man ran across three or four concurrent monthlies. ASM tells a complete story alone, but stories occasionally begin or end elsewhere; everything cross-title that genuinely matters is here as its own entry, sized by how many issues it is, and placed at the point in the run where you read it rather than at the end of its section."
     ],
     [
-      "Links.",
-      "Marvel gives issues arbitrary database ids with no pattern, and its series pages load their back catalogue through JavaScript that can't be paged from outside, so per-issue URLs can't be generated in bulk. The 30 direct links are the ones that could be confirmed; everything else links at series level, which is how you'd navigate Marvel Unlimited anyway."
+      "Links sit on the section headers.",
+      "Every series this list draws from is linked from the header of each section that uses it, so a row never carries its own link. Marvel gives individual issues arbitrary database ids with no pattern, and series level is how you would navigate Marvel Unlimited anyway."
     ],
     [
       "A shorter path, if you want one.",
@@ -69,8 +69,7 @@
           "n": "#15",
           "w": 1,
           "note": "Eleven pages.",
-          "star": 2,
-          "url": "https://www.marvel.com/comics/series/2987/amazing_fantasy_1962"
+          "star": 2
         }
       ]
     },
@@ -83,6 +82,10 @@
         {
           "label": "The series",
           "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        },
+        {
+          "label": "Annual",
+          "url": "https://www.marvel.com/comics/series/2984/amazing_spiderman_annual_1964_2018"
         }
       ],
       "intro": "Nearly every major villain in the mythology debuts inside these 38 issues. Ditko's Peter is anxious, prickly and broke — closer to the character's core than the friendlier version that follows.",
@@ -92,16 +95,14 @@
           "t": "Amazing Spider-Man",
           "n": "#1",
           "w": 1,
-          "note": "Chameleon; the Fantastic Four cameo",
-          "url": "https://www.marvel.com/comics/issue/6482/the_amazing_spider-man_1963_1"
+          "note": "Chameleon; the Fantastic Four cameo"
         },
         {
           "id": "asm-2",
           "t": "Amazing Spider-Man",
           "n": "#2",
           "w": 1,
-          "note": "Vulture and the Tinkerer debut",
-          "url": "https://www.marvel.com/comics/issue/6593/the_amazing_spider-man_1963_2"
+          "note": "Vulture and the Tinkerer debut"
         },
         {
           "id": "asm-3",
@@ -109,8 +110,7 @@
           "n": "#3",
           "w": 1,
           "note": "Doctor Octopus debuts",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/issue/6704/the_amazing_spider-man_1963_3"
+          "star": 1
         },
         {
           "id": "asm-4",
@@ -180,8 +180,7 @@
           "t": "Amazing Spider-Man",
           "n": "#13",
           "w": 1,
-          "note": "Mysterio debuts",
-          "url": "https://www.marvel.com/comics/issue/6516/the_amazing_spider-man_1963_13"
+          "note": "Mysterio debuts"
         },
         {
           "id": "asm-14",
@@ -203,8 +202,7 @@
           "t": "Amazing Spider-Man",
           "n": "#16",
           "w": 1,
-          "note": "Daredevil",
-          "url": "https://www.marvel.com/comics/issue/6549/the_amazing_spider-man_1963_16"
+          "note": "Daredevil"
         },
         {
           "id": "asm-17",
@@ -232,8 +230,7 @@
           "t": "Amazing Spider-Man",
           "n": "#20",
           "w": 1,
-          "note": "The Scorpion debuts",
-          "url": "https://www.marvel.com/comics/issue/6594/the_amazing_spider-man_1963_20"
+          "note": "The Scorpion debuts"
         },
         {
           "id": "asm-21",
@@ -369,8 +366,7 @@
           "n": "#1",
           "w": 1,
           "note": "The Sinister Six",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/series/2984/amazing_spiderman_annual_1964_2018"
+          "star": 1
         },
         {
           "id": "asm-ann-2",
@@ -398,6 +394,10 @@
         {
           "label": "The series",
           "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        },
+        {
+          "label": "Annual",
+          "url": "https://www.marvel.com/comics/series/2984/amazing_spiderman_annual_1964_2018"
         }
       ],
       "items": [
@@ -407,8 +407,7 @@
           "n": "#39",
           "w": 1,
           "note": "“How Green Was My Goblin” — Romita's first issue",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/issue/6804/amazing_spider-man_1963_39"
+          "star": 1
         },
         {
           "id": "asm-40",
@@ -579,8 +578,7 @@
           "t": "Amazing Spider-Man",
           "n": "#63",
           "w": 1,
-          "note": "Vulture vs. Vulture",
-          "url": "https://www.marvel.com/comics/issue/6883/the_amazing_spider-man_1963_63"
+          "note": "Vulture vs. Vulture"
         },
         {
           "id": "asm-64",
@@ -853,8 +851,7 @@
           "n": "#101",
           "w": 1,
           "note": "Morbius debuts",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/issue/6485/the_amazing_spider-man_1963_101"
+          "star": 1
         },
         {
           "id": "asm-102",
@@ -869,8 +866,7 @@
           "n": "#5",
           "w": 1,
           "note": "Peter's parents",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/series/2984/amazing_spiderman_annual_1964_2018"
+          "star": 1
         },
         {
           "id": "asm-ann-6",
@@ -1958,12 +1954,20 @@
       "sub": "#252–300 · 1984–88 · with the cross-title chapters that matter",
       "links": [
         {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        },
+        {
           "label": "Spectacular",
           "url": "https://www.marvel.com/comics/series/43439/spectacular_spiderman_1976_1998"
         },
         {
           "label": "Web",
           "url": "https://www.marvel.com/comics/series/2092/web_of_spiderman_1985_1995"
+        },
+        {
+          "label": "Annual",
+          "url": "https://www.marvel.com/comics/series/2984/amazing_spiderman_annual_1964_2018"
         }
       ],
       "items": [
@@ -2109,6 +2113,14 @@
           "w": 1
         },
         {
+          "id": "asm-jeandewolff",
+          "t": "Spectacular Spider-Man",
+          "n": "#107–110",
+          "w": 4,
+          "note": "“The Death of Jean DeWolff” — not ASM, but one of the finest Spider-Man stories of the decade",
+          "star": 2
+        },
+        {
           "id": "asm-272",
           "t": "Amazing Spider-Man",
           "n": "#272",
@@ -2245,6 +2257,22 @@
           "w": 1
         },
         {
+          "id": "asm-ann-21",
+          "t": "Amazing Spider-Man Annual",
+          "n": "#21",
+          "w": 1,
+          "note": "Peter and MJ's wedding",
+          "star": 1
+        },
+        {
+          "id": "asm-klh-1",
+          "t": "Web of Spider-Man",
+          "n": "#31",
+          "w": 1,
+          "note": "Kraven's Last Hunt, part 1",
+          "star": 2
+        },
+        {
           "id": "asm-293",
           "t": "Amazing Spider-Man",
           "n": "#293",
@@ -2253,11 +2281,35 @@
           "star": 2
         },
         {
+          "id": "asm-klh-3",
+          "t": "Spectacular Spider-Man",
+          "n": "#131",
+          "w": 1,
+          "note": "Kraven's Last Hunt, part 3",
+          "star": 2
+        },
+        {
+          "id": "asm-klh-4",
+          "t": "Web of Spider-Man",
+          "n": "#32",
+          "w": 1,
+          "note": "Kraven's Last Hunt, part 4",
+          "star": 2
+        },
+        {
           "id": "asm-294",
           "t": "Amazing Spider-Man",
           "n": "#294",
           "w": 1,
           "note": "Kraven's Last Hunt, part 5",
+          "star": 2
+        },
+        {
+          "id": "asm-klh-6",
+          "t": "Spectacular Spider-Man",
+          "n": "#132",
+          "w": 1,
+          "note": "Kraven's Last Hunt, part 6",
           "star": 2
         },
         {
@@ -2301,62 +2353,7 @@
           "n": "#300",
           "w": 1,
           "note": "Venom's first full appearance",
-          "star": 2,
-          "url": "https://www.marvel.com/comics/issue/6706/the_amazing_spider-man_1963_300"
-        },
-        {
-          "id": "asm-jeandewolff",
-          "t": "Spectacular Spider-Man",
-          "n": "#107–110",
-          "w": 4,
-          "note": "“The Death of Jean DeWolff” — not ASM, but one of the finest Spider-Man stories of the decade",
-          "star": 2,
-          "url": "https://www.marvel.com/comics/series/43439/spectacular_spiderman_1976_1998"
-        },
-        {
-          "id": "asm-ann-21",
-          "t": "Amazing Spider-Man Annual",
-          "n": "#21",
-          "w": 1,
-          "note": "Peter and MJ's wedding",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/series/2984/amazing_spiderman_annual_1964_2018"
-        },
-        {
-          "id": "asm-klh-1",
-          "t": "Web of Spider-Man",
-          "n": "#31",
-          "w": 1,
-          "note": "Kraven's Last Hunt, part 1 — read before ASM #293",
-          "star": 2,
-          "url": "https://www.marvel.com/comics/series/2092/web_of_spiderman_1985_1995"
-        },
-        {
-          "id": "asm-klh-3",
-          "t": "Spectacular Spider-Man",
-          "n": "#131",
-          "w": 1,
-          "note": "Kraven's Last Hunt, part 3 — between ASM #293 and #294",
-          "star": 2,
-          "url": "https://www.marvel.com/comics/series/43439/spectacular_spiderman_1976_1998"
-        },
-        {
-          "id": "asm-klh-4",
-          "t": "Web of Spider-Man",
-          "n": "#32",
-          "w": 1,
-          "note": "Kraven's Last Hunt, part 4 — between ASM #293 and #294",
-          "star": 2,
-          "url": "https://www.marvel.com/comics/series/2092/web_of_spiderman_1985_1995"
-        },
-        {
-          "id": "asm-klh-6",
-          "t": "Spectacular Spider-Man",
-          "n": "#132",
-          "w": 1,
-          "note": "Kraven's Last Hunt, part 6 — read after ASM #294",
-          "star": 2,
-          "url": "https://www.marvel.com/comics/series/43439/spectacular_spiderman_1976_1998"
+          "star": 2
         }
       ]
     },
@@ -2894,12 +2891,27 @@
           "w": 1
         },
         {
+          "id": "asm-maxcarn-1",
+          "t": "Maximum Carnage, chapters 1–3",
+          "n": "◆",
+          "w": 3,
+          "note": "Spider-Man Unlimited #1 → Web #101 → Spectacular #201, then ASM #378",
+          "star": 1
+        },
+        {
           "id": "asm-378",
           "t": "Amazing Spider-Man",
           "n": "#378",
           "w": 1,
           "note": "Maximum Carnage, part 4",
           "star": 1
+        },
+        {
+          "id": "asm-maxcarn-2",
+          "t": "Maximum Carnage, chapters 5–7",
+          "n": "◆",
+          "w": 3,
+          "note": "Spider-Man #35 → Web #102 → Spectacular #202, then ASM #379"
         },
         {
           "id": "asm-379",
@@ -2910,12 +2922,26 @@
           "star": 1
         },
         {
+          "id": "asm-maxcarn-3",
+          "t": "Maximum Carnage, chapters 9–11",
+          "n": "◆",
+          "w": 3,
+          "note": "Spider-Man #36 → Web #103 → Spectacular #203, then ASM #380"
+        },
+        {
           "id": "asm-380",
           "t": "Amazing Spider-Man",
           "n": "#380",
           "w": 1,
           "note": "Maximum Carnage, part 12",
           "star": 1
+        },
+        {
+          "id": "asm-maxcarn-4",
+          "t": "Maximum Carnage, chapters 13–14",
+          "n": "◆",
+          "w": 2,
+          "note": "Spider-Man #37 → Spider-Man Unlimited #2"
         },
         {
           "id": "asm-381",
@@ -2995,35 +3021,6 @@
           "t": "Amazing Spider-Man",
           "n": "#393",
           "w": 1
-        },
-        {
-          "id": "asm-maxcarn-1",
-          "t": "Maximum Carnage, chapters 1–3",
-          "n": "◆",
-          "w": 3,
-          "note": "Spider-Man Unlimited #1 → Web #101 → Spectacular #201, then ASM #378",
-          "star": 1
-        },
-        {
-          "id": "asm-maxcarn-2",
-          "t": "Maximum Carnage, chapters 5–7",
-          "n": "◆",
-          "w": 3,
-          "note": "Spider-Man #35 → Web #102 → Spectacular #202, then ASM #379"
-        },
-        {
-          "id": "asm-maxcarn-3",
-          "t": "Maximum Carnage, chapters 9–11",
-          "n": "◆",
-          "w": 3,
-          "note": "Spider-Man #36 → Web #103 → Spectacular #203, then ASM #380"
-        },
-        {
-          "id": "asm-maxcarn-4",
-          "t": "Maximum Carnage, chapters 13–14",
-          "n": "◆",
-          "w": 2,
-          "note": "Spider-Man #37 → Spider-Man Unlimited #2"
         }
       ]
     },
@@ -3037,6 +3034,10 @@
         {
           "label": "The series",
           "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        },
+        {
+          "label": "Peter Parker: Spider-Man",
+          "url": "https://www.marvel.com/comics/series/2060/peter_parker_spiderman_1999_2003"
         }
       ],
       "items": [
@@ -3211,9 +3212,8 @@
           "t": "“Revelations”, the other three chapters",
           "n": "◆",
           "w": 3,
-          "note": "Spectacular #240, Sensational #11 and Peter Parker: Spider-Man #75",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/series/2060/peter_parker_spiderman_1999_2003"
+          "note": "Spectacular #240, Sensational #11 and Peter Parker: Spider-Man #75 — read after ASM #418",
+          "star": 1
         }
       ]
     },
@@ -3251,130 +3251,112 @@
           "id": "asm-422",
           "t": "Amazing Spider-Man",
           "n": "#422",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6841/the_amazing_spider-man_1963_422"
+          "w": 1
         },
         {
           "id": "asm-423",
           "t": "Amazing Spider-Man",
           "n": "#423",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6842/the_amazing_spider-man_1963_423"
+          "w": 1
         },
         {
           "id": "asm-424",
           "t": "Amazing Spider-Man",
           "n": "#424",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6843/the_amazing_spider-man_1963_424"
+          "w": 1
         },
         {
           "id": "asm-425",
           "t": "Amazing Spider-Man",
           "n": "#425",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6844/the_amazing_spider-man_1963_425"
+          "w": 1
         },
         {
           "id": "asm-426",
           "t": "Amazing Spider-Man",
           "n": "#426",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6845/the_amazing_spider-man_1963_426"
+          "w": 1
         },
         {
           "id": "asm-427",
           "t": "Amazing Spider-Man",
           "n": "#427",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6846/the_amazing_spider-man_1963_427"
+          "w": 1
         },
         {
           "id": "asm-428",
           "t": "Amazing Spider-Man",
           "n": "#428",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6847/the_amazing_spider-man_1963_428"
+          "w": 1
         },
         {
           "id": "asm-429",
           "t": "Amazing Spider-Man",
           "n": "#429",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6848/the_amazing_spider-man_1963_429"
+          "w": 1
         },
         {
           "id": "asm-430",
           "t": "Amazing Spider-Man",
           "n": "#430",
           "w": 1,
-          "note": "Carnage and the Silver Surfer, as unhinged as it sounds",
-          "url": "https://www.marvel.com/comics/issue/6850/the_amazing_spider-man_1963_430"
+          "note": "Carnage and the Silver Surfer, as unhinged as it sounds"
         },
         {
           "id": "asm-431",
           "t": "Amazing Spider-Man",
           "n": "#431",
           "w": 1,
-          "note": "Carnage; Silver Surfer",
-          "url": "https://www.marvel.com/comics/issue/6851/the_amazing_spider-man_1963_431"
+          "note": "Carnage; Silver Surfer"
         },
         {
           "id": "asm-432",
           "t": "Amazing Spider-Man",
           "n": "#432",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6852/the_amazing_spider-man_1963_432"
+          "w": 1
         },
         {
           "id": "asm-433",
           "t": "Amazing Spider-Man",
           "n": "#433",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6853/the_amazing_spider-man_1963_433"
+          "w": 1
         },
         {
           "id": "asm-434",
           "t": "Amazing Spider-Man",
           "n": "#434",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6854/the_amazing_spider-man_1963_434"
+          "w": 1
         },
         {
           "id": "asm-435",
           "t": "Amazing Spider-Man",
           "n": "#435",
           "w": 1,
-          "note": "Norman Osborn",
-          "url": "https://www.marvel.com/comics/issue/6855/the_amazing_spider-man_1963_435"
+          "note": "Norman Osborn"
         },
         {
           "id": "asm-436",
           "t": "Amazing Spider-Man",
           "n": "#436",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6856/the_amazing_spider-man_1963_436"
+          "w": 1
         },
         {
           "id": "asm-437",
           "t": "Amazing Spider-Man",
           "n": "#437",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6857/the_amazing_spider-man_1963_437"
+          "w": 1
         },
         {
           "id": "asm-438",
           "t": "Amazing Spider-Man",
           "n": "#438",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6858/the_amazing_spider-man_1963_438"
+          "w": 1
         },
         {
           "id": "asm-439",
           "t": "Amazing Spider-Man",
           "n": "#439",
-          "w": 1,
-          "url": "https://www.marvel.com/comics/issue/6859/the_amazing_spider-man_1963_439"
+          "w": 1
         },
         {
           "id": "asm-440",
@@ -3382,8 +3364,7 @@
           "n": "#440",
           "w": 1,
           "note": "“The Gathering of Five”",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/issue/6861/the_amazing_spider-man_1963_440"
+          "star": 1
         },
         {
           "id": "asm-441",
@@ -3391,15 +3372,14 @@
           "n": "#441",
           "w": 1,
           "note": "“The Final Chapter” — the last issue of volume 1",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/issue/6862/the_amazing_spider-man_1963_441"
+          "star": 1
         },
         {
           "id": "asm-finalchapter",
           "t": "“The Final Chapter” continues",
           "n": "◆",
           "w": 2,
-          "note": "Spectacular #263 and Spider-Man #98"
+          "note": "Spectacular #263 and Spider-Man #98 — read after ASM #441"
         }
       ]
     },
@@ -3999,6 +3979,14 @@
           "note": "Before The Other"
         },
         {
+          "id": "asm-theother",
+          "t": "“The Other”, the chapters outside ASM",
+          "n": "◆",
+          "w": 8,
+          "note": "Friendly Neighborhood Spider-Man #1–4 and Marvel Knights Spider-Man #19–22, interleaved with ASM #525–528",
+          "star": 1
+        },
+        {
           "id": "asm-525",
           "t": "Amazing Spider-Man",
           "n": "#525",
@@ -4028,14 +4016,6 @@
           "n": "#528",
           "w": 1,
           "note": "The Other, part 4",
-          "star": 1
-        },
-        {
-          "id": "asm-theother",
-          "t": "“The Other”, the chapters outside ASM",
-          "n": "◆",
-          "w": 8,
-          "note": "Friendly Neighborhood Spider-Man #1–4 and Marvel Knights Spider-Man #19–22, interleaved with ASM #525–528",
           "star": 1
         }
       ]
