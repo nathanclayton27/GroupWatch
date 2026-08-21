@@ -586,6 +586,10 @@
           "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
         },
         {
+          "label": "Fantastic Four",
+          "url": "https://www.marvel.com/comics/series/421/fantastic_four_1998_2012"
+        },
+        {
           "label": "Ms. Marvel",
           "url": "https://www.marvel.com/comics/series/987/ms_marvel_2006_2010"
         },
@@ -596,6 +600,10 @@
         {
           "label": "Heroes for Hire",
           "url": "https://www.marvel.com/comics/series/1121/heroes_for_hire_2006_2007"
+        },
+        {
+          "label": "Captain America",
+          "url": "https://www.marvel.com/comics/series/832/captain_america_2004_2011"
         }
       ]
     },
@@ -744,6 +752,10 @@
         {
           "label": "Civil War: War Crimes",
           "url": "https://www.marvel.com/comics/series/1150/civil_war_war_crimes_1_2006"
+        },
+        {
+          "label": "Fantastic Four",
+          "url": "https://www.marvel.com/comics/series/421/fantastic_four_1998_2012"
         }
       ]
     },
@@ -916,12 +928,20 @@
           "url": "https://www.marvel.com/comics/series/784/black_panther_2005_2008"
         },
         {
+          "label": "Blade",
+          "url": "https://www.marvel.com/comics/series/1123/blade_2006_2007"
+        },
+        {
           "label": "Ghost Rider",
           "url": "https://www.marvel.com/comics/series/1104/ghost_rider_2006_2009"
         },
         {
           "label": "Moon Knight",
           "url": "https://www.marvel.com/comics/series/947/moon_knight_2006_2009"
+        },
+        {
+          "label": "Winter Soldier: Winter Kills",
+          "url": "https://www.marvel.com/comics/series/1145/winter_soldier_winter_kills_1_2006"
         }
       ]
     },
