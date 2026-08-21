@@ -115,6 +115,7 @@ def main():
             "note": " · ".join(bits), "date": f["released"],
             "year": year, "kind": "film",
             "tier": 1 if f["t"] in SAGA else (3 if f["kind"] == "tv" else 2),
+            "tags": ["Films"],
         })
 
     for s in d["shows"]:
@@ -152,6 +153,7 @@ def main():
                 "year": sy, "kind": "show", "sortkey": (s["t"], k),
                 "tier": 1 if s["t"] in SAGA_SHOWS
                         else (2 if s["t"] in MAIN_SHOWS else 3),
+                "tags": ["Television"],
             })
 
     for g in d["games"]:
@@ -167,6 +169,7 @@ def main():
             "t": g["t"], "n": str(g["year"]), "w": 0,
             "note": " · ".join(bits), "date": "%d-12-31" % g["year"],
             "year": g["year"], "kind": "game", "tier": 3,
+            "tags": ["Games"],
         })
 
     entries.sort(key=lambda e: (e["date"], {"film": 0, "show": 1, "game": 2}[e["kind"]],
@@ -190,7 +193,8 @@ def main():
                          round(sum(e["w"] for e in got))),
                "intro": intro,
                "items": [{k: v for k, v in e.items()
-                          if k in ("id", "t", "n", "w", "tier") or (k == "note" and v)}
+                          if k in ("id", "t", "n", "w", "tier", "tags")
+                          or (k == "note" and v)}
                          for e in got]}
         if key == "original":
             sec["open"] = True
@@ -224,6 +228,10 @@ def main():
         "accentDark": "#E8C450",
         "tiers": True,
         "itemTiers": True,
+        "filter": {
+            "key": "kind", "label": "Show", "mode": "exclude",
+            "values": ["Films", "Television", "Games"]
+        },
         "paceTiers": [1, 2],
         "paceLabel": "the games, the specials and the anthologies",
         "notes": [
@@ -254,6 +262,13 @@ def main():
              "Legends until April 2014, so a 2013 game is no more canon than a 1998 "
              "one. Left out: things that never shipped, browser and Roblox toys, "
              "board games, and crossovers into other studios' games."],
+            ["Turning parts of it off.",
+             "The chips at the top drop a whole category. Films, television and "
+             "games each toggle independently, so “everything except the "
+             "games” is one click rather than a decision about every row. "
+             "It hides rows and nothing else — ticks are untouched, and "
+             "the strip still shows the whole list, because a mark's position "
+             "is what a tick means."],
             ["Games weigh nothing, on purpose.", "No source for how long a Star Wars "
              "game takes was confirmed, and a made-up number would go straight into "
              "everyone's pace. They sit in the list at zero rather than at a guess, "

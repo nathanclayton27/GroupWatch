@@ -876,7 +876,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'c49f6884a721';
+const BUILD = '4ad0aa521e74';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -2807,18 +2807,44 @@ function filterCounts(){
   return n;
 }
 
+// Two shapes of the same control, because two properties want opposite things.
+//
+//   include (Criterion)  chips start off; picking some narrows to those. "Show
+//                        me the 4K ones" is a search, and starting from
+//                        everything-selected would make it a chore.
+//   exclude (Star Wars)  chips start on; clicking one drops that category.
+//                        "Without the games" is a subtraction, and expressing
+//                        it as "pick films and television" makes you name two
+//                        things to remove one.
+//
+// FILTERON always means "the values the reader has clicked", so the stored
+// shape does not change with the mode; only what a click means does.
+function excluding(){ return FILTER && FILTER.mode === 'exclude'; }
+function shownBy(x){
+  if(!FILTER || !FILTERON.size) return true;
+  const tags = tagsOf(x);
+  return excluding() ? !tags.some(t=> FILTERON.has(t))
+                     : tags.some(t=> FILTERON.has(t));
+}
+
 function renderFilter(){
   const bar = $('fbar');
   if(!FILTER){ bar.classList.add('hide'); return; }
   bar.classList.remove('hide');
   const n = filterCounts();
+  const ex = excluding();
   bar.innerHTML =
       '<span class="lbl">'+esc(FILTER.label || 'Filter')+'</span>'
-    + FILTER.values.map(v=>
-        '<button class="fchip'+(FILTERON.has(v)?' on':'')+'" data-v="'+esc(v)+'"'
-        + ' aria-pressed="'+FILTERON.has(v)+'">'+esc(v)
-        + '<span class="fn">'+n[v]+'</span></button>').join('')
-    + (FILTERON.size ? '<button class="fclear" id="f-clear">Clear</button>' : '')
+    + FILTER.values.map(v=>{
+        const clicked = FILTERON.has(v);
+        const lit = ex ? !clicked : clicked;   // is this category showing?
+        return '<button class="fchip'+(lit?' on':'')+'" data-v="'+esc(v)+'"'
+          + ' aria-pressed="'+lit+'" title="'
+          + (lit ? 'Hide ' : 'Show ') + esc(v) + '">'+esc(v)
+          + '<span class="fn">'+n[v]+'</span></button>';
+      }).join('')
+    + (FILTERON.size ? '<button class="fclear" id="f-clear">'
+        + (ex ? 'Show everything' : 'Clear') + '</button>' : '')
     + '<span class="fsum" id="f-sum"></span>';
 
   bar.querySelectorAll('.fchip').forEach(b=> b.onclick = ()=>{
@@ -2845,7 +2871,7 @@ function applyFilter(){
     s.items.forEach(x=>{
       const li = document.querySelector('#list li[data-id="'+cssEsc(x.id)+'"]');
       if(!li) return;
-      const keep = !on || tagsOf(x).some(t=> FILTERON.has(t));
+      const keep = shownBy(x);
       li.classList.toggle('hide', !keep);
       if(keep) vis += 1;
     });
@@ -2855,10 +2881,13 @@ function applyFilter(){
     if(d) d.classList.toggle('hide', on && vis === 0);
   });
   const sum = $('f-sum');
-  if(sum) sum.textContent = on
-    ? shown + ' of ' + TOTAL + ' ' + UNIT.many + ' on '
-      + FILTER.values.filter(v=> FILTERON.has(v)).join(' or ')
-    : 'All ' + TOTAL + ' ' + UNIT.many;
+  const picked = FILTER.values.filter(v=> FILTERON.has(v));
+  if(sum) sum.textContent = !on
+    ? 'All ' + TOTAL + ' ' + UNIT.many
+    : excluding()
+      ? shown + ' of ' + TOTAL + ' ' + UNIT.many + ' · without '
+        + picked.join(' or ')
+      : shown + ' of ' + TOTAL + ' ' + UNIT.many + ' on ' + picked.join(' or ');
 }
 
 // ids are author-supplied, so they can carry a quote or a bracket
@@ -2941,9 +2970,7 @@ function build(){
       if(!sec) return;
       // With a filter on, "mark all" means all of what you can see. Ticking
       // rows the filter is hiding is the opposite of what the button says.
-      const hit = FILTER && FILTERON.size
-        ? sec.items.filter(x=> tagsOf(x).some(t=> FILTERON.has(t)))
-        : sec.items;
+      const hit = sec.items.filter(shownBy);
       if(!hit.length) return;
       const full = hit.every(x=> done.has(x.id));
       hit.forEach(x=> full ? done.delete(x.id) : done.add(x.id));
@@ -3023,9 +3050,7 @@ function paint(){
     if(b){
       // the button counts what it will actually act on, which under a filter
       // is the visible rows rather than the section
-      const hit = FILTER && FILTERON.size
-        ? s.items.filter(x=> tagsOf(x).some(t=> FILTERON.has(t)))
-        : s.items;
+      const hit = s.items.filter(shownBy);
       const full = hit.length > 0 && hit.every(x=> done.has(x.id));
       b.textContent = (full ? 'Clear all ' : 'Mark all ') + hit.length;
       b.classList.toggle('clear', full);

@@ -20,6 +20,16 @@
   "accentDark": "#E8C450",
   "tiers": true,
   "itemTiers": true,
+  "filter": {
+    "key": "kind",
+    "label": "Show",
+    "mode": "exclude",
+    "values": [
+      "Films",
+      "Television",
+      "Games"
+    ]
+  },
   "paceTiers": [
     1,
     2
@@ -43,6 +53,10 @@
       "The ones made under Disney, plus Knights of the Old Republic I and II and The Old Republic, which are Legends and are in by request. The canon line is not the takeover: Disney bought Lucasfilm in October 2012, but the Expanded Universe was not declared Legends until April 2014, so a 2013 game is no more canon than a 1998 one. Left out: things that never shipped, browser and Roblox toys, board games, and crossovers into other studios' games."
     ],
     [
+      "Turning parts of it off.",
+      "The chips at the top drop a whole category. Films, television and games each toggle independently, so “everything except the games” is one click rather than a decision about every row. It hides rows and nothing else — ticks are untouched, and the strip still shows the whole list, because a mark's position is what a tick means."
+    ],
+    [
       "Games weigh nothing, on purpose.",
       "No source for how long a Star Wars game takes was confirmed, and a made-up number would go straight into everyone's pace. They sit in the list at zero rather than at a guess, so they cannot make anyone late. Say the word and they can be weighted properly."
     ],
@@ -60,7 +74,10 @@
           "t": "Star Wars",
           "n": "1977",
           "w": 2.02,
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-f-1978-the-star-wars-holiday-special",
@@ -68,21 +85,30 @@
           "n": "1978",
           "w": 1.62,
           "note": "Made for television",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-f-1980-the-empire-strikes-back",
           "t": "The Empire Strikes Back",
           "n": "1980",
           "w": 2.07,
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-f-1983-return-of-the-jedi",
           "t": "Return of the Jedi",
           "n": "1983",
           "w": 2.23,
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-f-1984-the-ewok-adventure",
@@ -90,7 +116,10 @@
           "n": "1984",
           "w": 1.6,
           "note": "Made for television",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-t-1985-ewoks-s1",
@@ -98,7 +127,10 @@
           "n": "1985",
           "w": 4.77,
           "note": "1985–1986 · 2 seasons, 26 episodes · Animated · 13 episodes",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-1985-droids-s1",
@@ -106,7 +138,10 @@
           "n": "1985",
           "w": 4.77,
           "note": "1985– · 1 season, 13 episodes · Animated",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-f-1985-ewoks-the-battle-for-endor",
@@ -114,7 +149,10 @@
           "n": "1985",
           "w": 1.63,
           "note": "Made for television",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-t-1985-ewoks-s2",
@@ -122,7 +160,10 @@
           "n": "1986",
           "w": 4.77,
           "note": "13 episodes",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         }
       ],
       "open": true
@@ -138,14 +179,20 @@
           "t": "The Phantom Menace",
           "n": "1999",
           "w": 2.22,
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-f-2002-attack-of-the-clones",
           "t": "Attack of the Clones",
           "n": "2002",
           "w": 2.37,
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-g-2003-star-wars-knights-of-the-old-republic",
@@ -153,7 +200,10 @@
           "n": "2003",
           "w": 0,
           "note": "Game · Legends, not canon — here by request",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2004-star-wars-knights-of-the-old-republic-ii-the-sith-lords",
@@ -161,14 +211,20 @@
           "n": "2004",
           "w": 0,
           "note": "Game · Legends, not canon — here by request",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-f-2005-revenge-of-the-sith",
           "t": "Revenge of the Sith",
           "n": "2005",
           "w": 2.33,
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Films"
+          ]
         }
       ]
     },
@@ -183,7 +239,10 @@
           "t": "The Clone Wars",
           "n": "2008",
           "w": 1.63,
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-t-2008-the-clone-wars-s1",
@@ -191,7 +250,10 @@
           "n": "2008",
           "w": 8.07,
           "note": "2008–2020 · 7 seasons, 133 episodes · Animated · 22 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2008-the-clone-wars-s2",
@@ -199,7 +261,10 @@
           "n": "2009",
           "w": 8.07,
           "note": "22 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2008-the-clone-wars-s3",
@@ -207,7 +272,10 @@
           "n": "2010",
           "w": 8.07,
           "note": "22 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2008-the-clone-wars-s4",
@@ -215,7 +283,10 @@
           "n": "2011",
           "w": 8.07,
           "note": "22 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-g-2011-star-wars-the-old-republic",
@@ -223,7 +294,10 @@
           "n": "2011",
           "w": 0,
           "note": "Game · Legends, not canon — here by request",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-t-2008-the-clone-wars-s5",
@@ -231,7 +305,10 @@
           "n": "2012",
           "w": 7.33,
           "note": "20 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2014-rebels-s1",
@@ -239,7 +316,10 @@
           "n": "2014",
           "w": 5.5,
           "note": "2014–2018 · 4 seasons, 75 episodes · Animated · 15 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-g-2014-star-wars-battle-pod",
@@ -247,7 +327,10 @@
           "n": "2014",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2014-star-wars-assault-team",
@@ -255,7 +338,10 @@
           "n": "2014",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2014-star-wars-commander",
@@ -263,7 +349,10 @@
           "n": "2014",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2014-star-wars-galactic-defense",
@@ -271,7 +360,10 @@
           "n": "2014",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         }
       ]
     },
@@ -287,14 +379,20 @@
           "n": "2015",
           "w": 8.07,
           "note": "22 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-f-2015-the-force-awakens",
           "t": "The Force Awakens",
           "n": "2015",
           "w": 2.3,
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-g-2015-star-wars-battlefront",
@@ -302,7 +400,10 @@
           "n": "2015",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2015-star-wars-card-trader",
@@ -310,7 +411,10 @@
           "n": "2015",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2015-star-wars-galaxy-of-heroes",
@@ -318,7 +422,10 @@
           "n": "2015",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2015-star-wars-uprising",
@@ -326,7 +433,10 @@
           "n": "2015",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-t-2014-rebels-s3",
@@ -334,14 +444,20 @@
           "n": "2016",
           "w": 8.07,
           "note": "22 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-f-2016-rogue-one",
           "t": "Rogue One",
           "n": "2016",
           "w": 2.22,
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-t-2014-rebels-s4",
@@ -349,14 +465,20 @@
           "n": "2017",
           "w": 5.87,
           "note": "16 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-f-2017-the-last-jedi",
           "t": "The Last Jedi",
           "n": "2017",
           "w": 2.53,
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-g-2017-star-wars-battlefront-ii",
@@ -364,7 +486,10 @@
           "n": "2017",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2017-star-wars-force-arena",
@@ -372,7 +497,10 @@
           "n": "2017",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2017-star-wars-jedi-challenges",
@@ -380,14 +508,20 @@
           "n": "2017",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-f-2018-solo",
           "t": "Solo",
           "n": "2018",
           "w": 2.25,
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-t-2008-the-clone-wars-s6",
@@ -395,7 +529,10 @@
           "n": "2018",
           "w": 4.77,
           "note": "13 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2018-resistance-s1",
@@ -403,7 +540,10 @@
           "n": "2018",
           "w": 7.7,
           "note": "2018–2020 · 2 seasons, 40 episodes · Animated · 21 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         }
       ]
     },
@@ -419,7 +559,10 @@
           "n": "2019",
           "w": 6.97,
           "note": "19 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2019-the-mandalorian-s1",
@@ -427,14 +570,20 @@
           "n": "2019",
           "w": 5.6,
           "note": "2019– · 3 seasons, 24 episodes · Live action · 8 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-f-2019-the-rise-of-skywalker",
           "t": "The Rise of Skywalker",
           "n": "2019",
           "w": 2.37,
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-g-2019-star-wars-jedi-fallen-order",
@@ -442,7 +591,10 @@
           "n": "2019",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2019-vader-immortal",
@@ -450,7 +602,10 @@
           "n": "2019",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-t-2008-the-clone-wars-s7",
@@ -458,7 +613,10 @@
           "n": "2020",
           "w": 4.4,
           "note": "12 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2019-the-mandalorian-s2",
@@ -466,7 +624,10 @@
           "n": "2020",
           "w": 5.6,
           "note": "8 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-g-2020-star-wars-squadrons",
@@ -474,7 +635,10 @@
           "n": "2020",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2020-star-wars-tales-from-the-galaxy-s-edge",
@@ -482,7 +646,10 @@
           "n": "2020",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-t-2021-the-bad-batch-s1",
@@ -490,7 +657,10 @@
           "n": "2021",
           "w": 5.87,
           "note": "2021–2024 · 3 seasons, 47 episodes · Animated · 16 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2021-visions-s1",
@@ -498,7 +668,10 @@
           "n": "2021",
           "w": 3.3,
           "note": "2021–2023 · 3 seasons, 27 episodes · Animated · 9 episodes",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2021-the-book-of-boba-fett-s1",
@@ -506,7 +679,10 @@
           "n": "2021",
           "w": 4.9,
           "note": "2021–2022 · 1 season, 7 episodes · Live action",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2022-obi-wan-kenobi-s1",
@@ -514,7 +690,10 @@
           "n": "2022",
           "w": 4.2,
           "note": "2022–2022 · 1 season, 6 episodes · Live action",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2021-visions-s2",
@@ -522,7 +701,10 @@
           "n": "2022",
           "w": 3.3,
           "note": "9 episodes",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2022-andor-s1",
@@ -530,7 +712,10 @@
           "n": "2022",
           "w": 8.4,
           "note": "2022–2025 · 2 seasons, 24 episodes · Live action · 12 episodes",
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2022-tales-of-the-jedi-s1",
@@ -538,7 +723,10 @@
           "n": "2022",
           "w": 2.2,
           "note": "2022– · 1 season, 6 episodes · Animated",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2021-the-bad-batch-s2",
@@ -546,7 +734,10 @@
           "n": "2023",
           "w": 5.87,
           "note": "16 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2019-the-mandalorian-s3",
@@ -554,7 +745,10 @@
           "n": "2023",
           "w": 5.6,
           "note": "8 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2021-visions-s3",
@@ -562,7 +756,10 @@
           "n": "2023",
           "w": 3.3,
           "note": "9 episodes",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2023-young-jedi-adventures-s1",
@@ -570,7 +767,10 @@
           "n": "2023",
           "w": 6.72,
           "note": "2023–2025 · 3 seasons, 55 episodes · Animated · 18 episodes",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2023-ahsoka-s1",
@@ -578,7 +778,10 @@
           "n": "2023",
           "w": 5.6,
           "note": "2023– · 1 season, 8 episodes · Live action",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-g-2023-star-wars-jedi-survivor",
@@ -586,7 +789,10 @@
           "n": "2023",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-t-2021-the-bad-batch-s3",
@@ -594,7 +800,10 @@
           "n": "2024",
           "w": 5.5,
           "note": "15 episodes",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2024-tales-of-the-empire-s1",
@@ -602,7 +811,10 @@
           "n": "2024",
           "w": 2.2,
           "note": "2024– · 1 season, 6 episodes · Animated",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2024-the-acolyte-s1",
@@ -610,7 +822,10 @@
           "n": "2024",
           "w": 5.6,
           "note": "2024– · 1 season, 8 episodes · Live action",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2023-young-jedi-adventures-s2",
@@ -618,7 +833,10 @@
           "n": "2024",
           "w": 6.72,
           "note": "18 episodes",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2024-skeleton-crew-s1",
@@ -626,7 +844,10 @@
           "n": "2024",
           "w": 5.6,
           "note": "2024– · 1 season, 8 episodes · Live action",
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-g-2024-star-wars-outlaws",
@@ -634,7 +855,10 @@
           "n": "2024",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2024-star-wars-hunters",
@@ -642,7 +866,10 @@
           "n": "2024",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-t-2022-andor-s2",
@@ -650,7 +877,10 @@
           "n": "2025",
           "w": 8.4,
           "note": "12 episodes",
-          "tier": 1
+          "tier": 1,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2025-tales-of-the-underworld-s1",
@@ -658,7 +888,10 @@
           "n": "2025",
           "w": 2.2,
           "note": "2025– · 1 season, 6 episodes · Animated",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-t-2023-young-jedi-adventures-s3",
@@ -666,7 +899,10 @@
           "n": "2025",
           "w": 6.72,
           "note": "18 episodes",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-g-2025-star-wars-beyond-victory",
@@ -674,7 +910,10 @@
           "n": "2025",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-t-2026-maul-shadow-lord-s1",
@@ -682,14 +921,20 @@
           "n": "2026",
           "w": 3.67,
           "note": "2026– · 1 season, 10 episodes · Animated",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
         },
         {
           "id": "sw-f-2026-the-mandalorian-and-grogu",
           "t": "The Mandalorian and Grogu",
           "n": "2026",
           "w": 2.2,
-          "tier": 2
+          "tier": 2,
+          "tags": [
+            "Films"
+          ]
         },
         {
           "id": "sw-g-2026-star-wars-zero-company",
@@ -697,7 +942,10 @@
           "n": "2026",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         },
         {
           "id": "sw-g-2026-star-wars-galactic-racer",
@@ -705,7 +953,10 @@
           "n": "2026",
           "w": 0,
           "note": "Game",
-          "tier": 3
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
         }
       ]
     }
