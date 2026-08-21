@@ -5,7 +5,7 @@
   "kind": "films & shows",
   "order": 15,
   "year": "1998–2026",
-  "blurb": "76 films and 34 seasons in the order they came out — about 387 hours, tiered by how much the story needs each one.",
+  "blurb": "76 films and 53 seasons in the order they came out — about 571 hours, tiered by how much the story needs each one.",
   "unit": {
     "one": "entry",
     "many": "entries"
@@ -36,15 +36,15 @@
     ],
     [
       "Tier 1 alone is 41 hours.",
-      "Tiers 1 and 2 together are 143 hours across 43 entries. Everything on the page is 387 hours. The finish date only counts tiers 1 and 2 — there is a checkbox under the bar if you want the rest included."
+      "Tiers 1 and 2 together are 143 hours across 43 entries. Everything on the page is 571 hours. The finish date only counts tiers 1 and 2 — there is a checkbox under the bar if you want the rest included."
     ],
     [
       "Bar widths are runtimes.",
       "Films use their real runtime from Wikidata. A season uses episodes times episode length, which is a measured figure for five of them and a stated assumption for the rest — 45 minutes live action, 32 animated. Avengers: Doomsday and VisionQuest are not out yet and weigh nothing."
     ],
     [
-      "What is not here.",
-      "Agents of S.H.I.E.L.D., Agent Carter and the other ABC and Hulu series; X-Men '97, which continues the 1992 cartoon rather than the MCU; and the 2022 Special Presentations, which the source table this was built from does not list. The Netflix run is in — Born Again reads on from it."
+      "Everything is here.",
+      "The films, the Disney+ series, the Netflix run, the ABC and Hulu shows, the Special Presentations and X-Men '97 — which is on the page despite continuing the 1992 cartoon rather than the MCU, and says so on its row. Runaways is one entry rather than three: its article gives per-season episode counts but only season one's date."
     ],
     "Film list from Wikipedia's live-action Marvel features table; runtimes and release dates from Wikidata; show premieres from the MCU phase articles and episode counts from Wikidata. The tier assignments are a judgement call, not a source."
   ],
@@ -270,7 +270,7 @@
       "id": "p2",
       "tier": 1,
       "title": "Phase Two",
-      "sub": "2012–2015 · 11 films and 3 seasons · 55 hours",
+      "sub": "2012–2015 · 11 films and 8 seasons · 118 hours",
       "items": [
         {
           "id": "mv-f-2013-iron-man-3",
@@ -286,6 +286,14 @@
           "w": 2.3,
           "tier": 3,
           "note": "Not an MCU film — it just came out during Phase Two"
+        },
+        {
+          "id": "mv-o-agents-of-s-h-i-e-l-d-season-1",
+          "t": "Agents of S.H.I.E.L.D. season 1",
+          "n": "2013",
+          "w": 16.5,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Two · 22 episodes"
         },
         {
           "id": "mv-f-2013-thor-the-dark-world",
@@ -326,6 +334,22 @@
           "tier": 1
         },
         {
+          "id": "mv-o-agents-of-s-h-i-e-l-d-season-2",
+          "t": "Agents of S.H.I.E.L.D. season 2",
+          "n": "2014",
+          "w": 16.5,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Two · 22 episodes"
+        },
+        {
+          "id": "mv-o-agent-carter-season-1",
+          "t": "Agent Carter season 1",
+          "n": "2015",
+          "w": 6.0,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Two · 8 episodes"
+        },
+        {
           "id": "mv-n-daredevil-season-1",
           "t": "Daredevil season 1",
           "n": "2015",
@@ -356,12 +380,28 @@
           "tier": 2
         },
         {
+          "id": "mv-o-agents-of-s-h-i-e-l-d-season-3",
+          "t": "Agents of S.H.I.E.L.D. season 3",
+          "n": "2015",
+          "w": 16.5,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Two · 22 episodes"
+        },
+        {
           "id": "mv-n-jessica-jones-season-1",
           "t": "Jessica Jones season 1",
           "n": "2015",
           "w": 10.83,
           "tier": 3,
           "note": "Marvel Television — not part of Phase Two · 13 episodes"
+        },
+        {
+          "id": "mv-o-agent-carter-season-2",
+          "t": "Agent Carter season 2",
+          "n": "2016",
+          "w": 7.5,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Two · 10 episodes"
         },
         {
           "id": "mv-f-2016-deadpool",
@@ -385,7 +425,7 @@
       "id": "p3",
       "tier": 1,
       "title": "Phase Three",
-      "sub": "2015–2019 · 18 films and 10 seasons · 140 hours",
+      "sub": "2015–2019 · 18 films and 19 seasons · 249 hours",
       "items": [
         {
           "id": "mv-f-2016-captain-america-civil-war",
@@ -408,6 +448,14 @@
           "n": "2016",
           "w": 1.92,
           "tier": 2
+        },
+        {
+          "id": "mv-o-agents-of-s-h-i-e-l-d-season-4",
+          "t": "Agents of S.H.I.E.L.D. season 4",
+          "n": "2016",
+          "w": 16.5,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 22 episodes"
         },
         {
           "id": "mv-n-luke-cage-season-1",
@@ -463,12 +511,36 @@
           "note": "Marvel Television — not part of Phase Three · 8 episodes"
         },
         {
+          "id": "mv-o-inhumans-tv-series",
+          "t": "Inhumans",
+          "n": "2017",
+          "w": 6.0,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 8 episodes"
+        },
+        {
           "id": "mv-n-the-punisher-season-1",
           "t": "The Punisher season 1",
           "n": "2017",
           "w": 10.83,
           "tier": 3,
           "note": "Marvel Television — not part of Phase Three · 13 episodes"
+        },
+        {
+          "id": "mv-o-runaways-tv-series",
+          "t": "Runaways",
+          "n": "2017",
+          "w": 27.5,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 33 episodes"
+        },
+        {
+          "id": "mv-o-agents-of-s-h-i-e-l-d-season-5",
+          "t": "Agents of S.H.I.E.L.D. season 5",
+          "n": "2017",
+          "w": 16.5,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 22 episodes"
         },
         {
           "id": "mv-f-2018-black-panther",
@@ -499,6 +571,14 @@
           "w": 1.98,
           "tier": 3,
           "note": "Not an MCU film — it just came out during Phase Three"
+        },
+        {
+          "id": "mv-o-cloak-dagger-season-1",
+          "t": "Cloak & Dagger season 1",
+          "n": "2018",
+          "w": 7.5,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 10 episodes"
         },
         {
           "id": "mv-n-luke-cage-season-2",
@@ -563,12 +643,28 @@
           "tier": 2
         },
         {
+          "id": "mv-o-cloak-dagger-season-2",
+          "t": "Cloak & Dagger season 2",
+          "n": "2019",
+          "w": 7.5,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 10 episodes"
+        },
+        {
           "id": "mv-f-2019-avengers-endgame",
           "t": "Avengers: Endgame",
           "n": "2019",
           "w": 3.02,
           "tier": 1,
           "note": "The end of the Infinity Saga"
+        },
+        {
+          "id": "mv-o-agents-of-s-h-i-e-l-d-season-6",
+          "t": "Agents of S.H.I.E.L.D. season 6",
+          "n": "2019",
+          "w": 9.75,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 13 episodes"
         },
         {
           "id": "mv-n-jessica-jones-season-3",
@@ -586,12 +682,28 @@
           "tier": 2
         },
         {
+          "id": "mv-o-agents-of-s-h-i-e-l-d-season-7",
+          "t": "Agents of S.H.I.E.L.D. season 7",
+          "n": "2020",
+          "w": 9.75,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 13 episodes"
+        },
+        {
           "id": "mv-f-2020-the-new-mutants",
           "t": "The New Mutants",
           "n": "2020",
           "w": 1.57,
           "tier": 3,
           "note": "Not an MCU film — it just came out during Phase Three"
+        },
+        {
+          "id": "mv-o-helstrom-tv-series",
+          "t": "Helstrom",
+          "n": "2020",
+          "w": 7.5,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 10 episodes"
         },
         {
           "id": "mv-f-2021-venom-let-there-be-carnage",
@@ -608,7 +720,7 @@
       "id": "p4",
       "tier": 1,
       "title": "Phase Four",
-      "sub": "2019–2022 · 8 films and 8 seasons · 59 hours",
+      "sub": "2019–2022 · 8 films and 10 seasons · 60 hours",
       "items": [
         {
           "id": "mv-t-2021-wandavision",
@@ -725,11 +837,27 @@
           "note": "9 episodes"
         },
         {
+          "id": "mv-o-werewolf-by-night-film",
+          "t": "Werewolf by Night",
+          "n": "2022",
+          "w": 0.88,
+          "tier": 3,
+          "note": "A 53-minute special"
+        },
+        {
           "id": "mv-f-2022-black-panther-wakanda-forever",
           "t": "Black Panther: Wakanda Forever",
           "n": "2022",
           "w": 2.68,
           "tier": 2
+        },
+        {
+          "id": "mv-o-the-guardians-of-the-galaxy-holiday-special",
+          "t": "The Guardians of the Galaxy Holiday Special",
+          "n": "2022",
+          "w": 0.7,
+          "tier": 3,
+          "note": "A 42-minute special"
         }
       ],
       "intro": "Where the Disney+ series start, and where the films stop assuming you have seen everything."
@@ -738,7 +866,7 @@
       "id": "p5",
       "tier": 1,
       "title": "Phase Five",
-      "sub": "2022–2025 · 9 films and 8 seasons · 59 hours",
+      "sub": "2022–2025 · 9 films and 9 seasons · 65 hours",
       "items": [
         {
           "id": "mv-f-2023-ant-man-and-the-wasp-quantumania",
@@ -810,6 +938,14 @@
           "note": "Not an MCU film — it just came out during Phase Five"
         },
         {
+          "id": "mv-o-x-men-97-season-1",
+          "t": "X-Men '97 season 1",
+          "n": "2024",
+          "w": 5.33,
+          "tier": 3,
+          "note": "Continues the 1992 cartoon, not the MCU · 10 episodes"
+        },
+        {
           "id": "mv-f-2024-deadpool-wolverine",
           "t": "Deadpool & Wolverine",
           "n": "2024",
@@ -877,7 +1013,7 @@
       "id": "p6",
       "tier": 1,
       "title": "Phase Six",
-      "sub": "2025– · 3 films and 5 seasons · 21 hours",
+      "sub": "2025– · 3 films and 7 seasons · 26 hours",
       "items": [
         {
           "id": "mv-f-2025-the-fantastic-four-first-steps",
@@ -917,6 +1053,22 @@
           "w": 6.0,
           "tier": 2,
           "note": "8 episodes"
+        },
+        {
+          "id": "mv-o-the-punisher-one-last-kill",
+          "t": "The Punisher: One Last Kill",
+          "n": "2026",
+          "w": 0.85,
+          "tier": 3,
+          "note": "A 51-minute special"
+        },
+        {
+          "id": "mv-o-x-men-97-season-2",
+          "t": "X-Men '97 season 2",
+          "n": "2026",
+          "w": 4.8,
+          "tier": 3,
+          "note": "Continues the 1992 cartoon, not the MCU · 9 episodes"
         },
         {
           "id": "mv-f-2026-spider-man-brand-new-day",
