@@ -112,6 +112,13 @@ devices.
 2. In the SQL editor, run [`schema.sql`](schema.sql). *Migrating an existing
    single-property install instead? Run
    [`migrate-to-multiproperty.sql`](migrate-to-multiproperty.sql).*
+   Then run any `migrate-*.sql` newer than your install, in any order — each is
+   safe to run twice. The current set is
+   [`migrate-add-owner-removal.sql`](migrate-add-owner-removal.sql),
+   [`migrate-add-schedule-start.sql`](migrate-add-schedule-start.sql) and
+   [`migrate-add-join-or-create.sql`](migrate-add-join-or-create.sql), the last
+   of which is what lets a password-gated list drop everyone who opens it into
+   one shared group.
 3. Authentication → URL Configuration: set **Site URL** to your Pages URL and
    add it under **Redirect URLs**. Add `http://localhost:8000/**` too, or local
    sign-in bounces to production.
