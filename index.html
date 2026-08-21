@@ -711,7 +711,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'fd4d824e9f21';
+const BUILD = '2f5bc97bf2e3';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -1735,8 +1735,9 @@ function startGroupPoll(){
 // A section longer than the cap becomes its own oversized row; the cap is a
 // target and section integrity wins.
 // Section links sit inline up to this many; past it they collapse into a
-// dropdown, because a dozen uppercase links shout over the section title.
-const LINKS_INLINE = 3;
+// dropdown, because a row of uppercase links shouts over the section title.
+// Two: three was tried and three links is already a wall.
+const LINKS_INLINE = 2;
 const ROW_MAX = 65;
 // ...but a very long property would otherwise stack up a wall of rows — 1174
 // episodes at 65 apiece is eighteen of them. Past this many rows the cap gives
