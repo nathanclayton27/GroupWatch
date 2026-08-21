@@ -24,47 +24,94 @@ import re
 
 SLUG = "ultimate-marvel"
 
-# Marvel series pages, all checked. Nine of the sixty-five series, but they are
-# the long-running ones and cover most of the issues here; the rest are minis
-# and annuals whose ids would each need a separate lookup, and Marvel Unlimited
-# finds any of them by exact title.
-SERIES_URL = {
-    "Ultimate Spider-Man":
-        "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)",
-    "Ultimate X-Men":
-        "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009",
-    "Ultimate Fantastic Four":
-        "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009",
-    "Ultimates":
-        "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003",
-    "Ultimates (v2)":
-        "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)",
-    "Ultimate Marvel Team-Up":
-        "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)",
-    "Ultimate Comics Spider-Man (2011)":
-        "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013",
-    "Ultimate Comics X-Men":
-        "https://www.marvel.com/comics/series/13108/ultimate_comics_xmen_2011_2013",
-    "All-New Ultimates":
-        "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015",
-    "Ultimate Comics Ultimates":
-        "https://www.marvel.com/comics/series/13936/ultimate_comics_ultimates__(2011_-_present)",
-    "Ultimate Comics Spider-Man":
-        "https://www.marvel.com/comics/series/8509/ultimate_spiderman_2009_2012",
-    "Ultimate Fallout":
-        "https://www.marvel.com/comics/series/14807/ultimate_fallout_2011",
-    "Ultimate Six":
-        "https://www.marvel.com/comics/series/419/ultimate_six_2003_2004",
-    "Ultimate Nightmare":
-        "https://www.marvel.com/comics/series/760/ultimate_nightmare_(2004_-_2005)",
-    "Ultimate Secret":
-        "https://www.marvel.com/comics/series/838/ultimate_secret_2005",
-    "Ultimate Power":
-        "https://www.marvel.com/comics/series/1124/ultimate_power_(2006_-_2008)",
-    "Ultimate Vision":
-        "https://www.marvel.com/comics/series/3255/ultimate_vision_2006_-_2007",
+# Every series that has a page on marvel.com, by its slug there. Slugs are
+# irregular — "Ultimate Comics Avengers" is filed as `ultimate_avengers`, the
+# 2009 Ultimate Comics Spider-Man as `ultimate_spiderman_2009_2011` — so these
+# are matched by hand rather than derived from the title.
+#
+# The numeric ids come from tools/data/marvel_series_index.json, which is the
+# Ultimate slice of Marvel's own A–Z series index. That page is rendered
+# server-side and lists all 5,500-odd series, which is the only practical way to
+# get these: Marvel's search is JavaScript-only and its sitemap covers articles.
+SERIES_SLUG = {
+    "Ultimate Spider-Man": "ultimate_spiderman_2000_2009",
+    "Ultimate X-Men": "ultimate_xmen_2001_2009",
+    "Ultimate Fantastic Four": "ultimate_fantastic_four_2003_2009",
+    "Ultimates": "ultimates_2002_2004",
+    "Ultimates (v2)": "ultimates_2_2004_2007",
+    "The Ultimates (v3)": "ultimates_3_2007_2008",
+    "Ultimate Marvel Team-Up": "ultimate_marvel_teamup_2001_2002",
+    "Ultimate Daredevil & Elektra": "ultimate_daredevil_and_elektra_2002_2003",
+    "Ultimate Elektra": "ultimate_elektra_2004",
+    "Ultimate Iron Man": "ultimate_iron_man_2005",
+    "Ultimate Iron Man II": "ultimate_iron_man_ii_2007_2008",
+    "Ultimate War": "ultimate_war_2002_2003",
+    "Ultimate Six": "ultimate_six_2003_2004",
+    "Ultimate Nightmare": "ultimate_nightmare_2004_2005",
+    "Ultimate Secret": "ultimate_secret_2005",
+    "Ultimate Extinction": "ultimate_extinction_2006",
+    "Ultimate Vision": "ultimate_vision_2007",
+    "Ultimate Wolverine vs. Hulk": "ultimate_wolverine_vs_hulk_2005_2009",
+    "Ultimate Power": "ultimate_power_2006_2007",
+    "Ultimate Human": "ultimate_human_2008",
+    "Ultimate Origins": "ultimate_origins_2007_2008",
+    "Squadron Supreme": "squadron_supreme_2006",
+    "Ultimate Spider-Man Annual": "ultimate_spiderman_annual_2005_2008",
+    "Ultimate X-Men Annual": "ultimate_xmen_annual_2005_2006",
+    "Ultimates Annual": "ultimates_annual_2005_2006",
+    "Ultimate Fantastic Four Annual": "ultimate_fantastic_four_annual_2005_2006",
+    "Ultimate Hulk Annual": "ultimate_hulk_annual_1_2008",
+    "Ultimate X-Men / Fantastic Four": "ultimate_xmenfantastic_four_2005",
+    "Ultimate X-Men/Fantastic Four Annual":
+        "ultimate_xmenultimate_fantastic_four_annual_1_2008",
+    "Ultimate Fantastic Four/X-Men Annual":
+        "ultimate_fantastic_fourultimate_xmen_annual_2008",
+    "Ultimatum": "ultimatum_2008_2009",
+    "Ultimatum: Fantastic Four Requiem": "ultimatum_fantastic_four_requiem_oneshot_2009",
+    "Ultimatum: X-Men Requiem": "ultimatum_xmen_requiem_2009",
+    "Ultimatum: Spider-Man Requiem": "ultimatum_spiderman_requiem_2009",
+    "Ultimate Comics X": "ultimate_comics_x_2010_2011",
+    "Ultimate Comics Armor Wars": "ultimate_armor_wars_2009_2010",
+    "Ultimate Comics Spider-Man": "ultimate_spiderman_2009_2011",
+    "Ultimate Comics Spider-Man (2011)": "ultimate_spiderman_2011_2014",
+    "Ultimate Comics Avengers": "ultimate_avengers_2009_2010",
+    "Ultimate Comics Avengers 2": "ultimate_avengers_2_2010",
+    "Ultimate Comics Avengers 3": "ultimate_avengers_3_2010_2011",
+    "Ultimate Comics Avengers vs. New Ultimates":
+        "ultimate_avengers_vs_new_ultimates_2011",
+    "Ultimate Comics New Ultimates": "ultimate_new_ultimates_2010_2011",
+    "Ultimate Comics Captain America": "ultimate_captain_america_2011",
+    "Ultimate Comics Thor": "ultimate_thor_2010_2011",
+    "Ultimate Comics Hawkeye": "ultimate_comics_hawkeye_2011",
+    "Ultimate Comics Iron Man": "ultimate_comics_iron_man_2012_2013",
+    "Ultimate Comics Wolverine": "ultimate_comics_wolverine_2013",
+    "Ultimate Comics Ultimates": "ultimate_comics_ultimates_2011_2013",
+    "Ultimate Comics X-Men": "ultimate_comics_xmen_2011_2013",
+    "Ultimate Enemy": "ultimate_enemy_2010",
+    "Ultimate Mystery": "ultimate_mystery_2010",
+    "Ultimate Doom": "ultimate_doom_2010_2011",
+    "Ultimate Fallout": "ultimate_fallout_2011",
+    "Spider-Men": "spidermen_2012",
+    "Hunger": "hunger_2013",
+    "Cataclysm: Ultimate Comics Spider-Man": "cataclysm_ultimate_spiderman_2013_2014",
+    "Cataclysm: Ultimate X-Men": "cataclysm_ultimate_xmen_2013_2014",
+    "Cataclysm: Ultimates": "cataclysm_ultimates_2013_2014",
+    "Cataclysm: The Ultimates' Last Stand":
+        "cataclysm_the_ultimates_last_stand_2013_2014",
+    "Survive": "survive_2014",
+    "Ultimate FF": "ultimate_ff_2014",
+    "All-New Ultimates": "allnew_ultimates_2014_2015",
+    "Miles Morales: Ultimate Spider-Man": "miles_morales_ultimate_spiderman_2014_2015",
+    # Cataclysm Point One #0.1 has no series page of its own on marvel.com.
 }
 
+_INDEX = json.loads(
+    (pathlib.Path(__file__).resolve().parent / "data" / "marvel_series_index.json")
+    .read_text(encoding="utf-8"))
+SERIES_URL = {}
+for _name, _slug in SERIES_SLUG.items():
+    assert _slug in _INDEX, "%r: %s is not in the saved Marvel index" % (_name, _slug)
+    SERIES_URL[_name] = "https://www.marvel.com/comics/series/%s/%s" % (_INDEX[_slug], _slug)
 
 def r(a, b):
     return [str(n) for n in range(a, b + 1)]
@@ -350,12 +397,11 @@ def main():
             ["Where it ends.", "The line finishes here and its ending is Secret "
              "Wars, which is its own list. The 2024 Ultimate Spider-Man is a "
              "different universe again and is not part of this."],
-            ["Links.", "Each section header links to the series it actually "
-             "contains, so the links change as you move down the page. %d of the "
-             "%d series have a known page; the rest are minis and annuals, and "
-             "Marvel gives every series an arbitrary database id that has to be "
-             "looked up one at a time. Marvel Unlimited finds any of them by "
-             "exact title." % (len(SERIES_URL), len(series))],
+            ["Links.", "Each section header links to every series that section "
+             "contains, in reading order, so the links change as you move down "
+             "the page. %d of the %d series here have a page on marvel.com, "
+             "covering all but one issue — only Cataclysm Point One has no series "
+             "page of its own." % (len(SERIES_URL), len(series))],
             "Order transcribed from the Comic Book Herald Ultimate Marvel "
             "reading order. Its commentary is kept as notes on the entry it "
             "belongs to.",
