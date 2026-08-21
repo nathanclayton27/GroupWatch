@@ -700,7 +700,7 @@ async function loadProperty(){
   DATA.forEach(sec=> sec.items.forEach((x,i)=>{
     if(i === 0 && FLAT.length) SECSTART.add(FLAT.length);
     SECOF.push(sec);
-    FLAT.push({t:x.t, n:x.n, note:x.note||'', sec:sec.title});
+    FLAT.push({t:x.t, n:x.n, note:x.note||'', sec:sec.title, tags:x.tags||[]});
   }));
   ORDER = DATA.flatMap(s=>s.items.map(x=>x.id));
   VALID = new Set(ORDER);
@@ -1210,9 +1210,11 @@ function paintStack(){
     let layers = '';
     list.forEach((m,i)=>{
       const color = 'var(--m'+(m.ci+1)+')';
-      let ticks = '';
+      let ticks = '', lead = true;
       for(let idx=a; idx<b; idx++){
-        if(idx>a && SECSTART.has(idx)) ticks += '<span class="tick sep"></span>';
+        if(!visibleAt(idx)) continue;
+        if(!lead && SECSTART.has(idx)) ticks += '<span class="tick sep"></span>';
+        lead = false;
         const on = reads[i].has(ORDER[idx]);
         const full = on && deepest[idx] === i;
         // This layer sits in front. Its unread nub would paint a grey hole
@@ -1750,18 +1752,24 @@ const ROW_MAX = 65;
 // as a single strip before any of this existed.
 const ROW_LIMIT = 8;
 function rowsFor(){
-  const sizes = DATA.map(s=> s.items.length);
+  // Two index spaces, and mixing them draws nonsense. The rows are BALANCED on
+  // what is actually on screen (`pre`, cumulative visible counts) but they are
+  // RETURNED as flat index ranges (`bound`), because that is what the render
+  // loops walk. When no filter is on the two are identical.
+  const sizes = DATA.map(s=> s.items.filter(shownBy).length);
   const n = sizes.length;
   if(!n) return [[0, 0]];
-  const pre = [0];
+  const pre = [0], bound = [0];
   sizes.forEach(v=> pre.push(pre[pre.length-1] + v));
+  DATA.forEach(s=> bound.push(bound[bound.length-1] + s.items.length));
+  const SHOWN = pre[n];
 
   // Exactly k contiguous groups, chosen to minimise squared deviation from an
   // even split. Filling each row to a cap instead front-loads and leaves a short
   // last row, which is very visible once the rows are stretched to full width.
   function partition(k){
     if(k > n) return null;
-    const target = TOTAL / k, INF = Infinity;
+    const target = SHOWN / k, INF = Infinity;
     const cost = [], back = [];
     for(let i=0;i<=n;i++){
       cost.push(new Array(k+1).fill(INF));
@@ -1783,16 +1791,22 @@ function rowsFor(){
     let i = n, j = k;
     while(j > 0){ const m = back[i][j]; cuts.push([m, i]); i = m; j--; }
     cuts.reverse();
-    return cuts.map(c=> [pre[c[0]], pre[c[1]]]);
+    return cuts.map(c=> [bound[c[0]], bound[c[1]]]);
   }
 
   // fewest rows that stay under the cap, then the evenest, then fewer rows
   let best = null;
-  for(let k = Math.min(Math.max(1, Math.ceil(TOTAL/ROW_MAX)), ROW_LIMIT);
+  for(let k = Math.min(Math.max(1, Math.ceil(SHOWN/ROW_MAX)), ROW_LIMIT);
       k <= ROW_LIMIT; k++){
     const parts = partition(k);
     if(!parts) continue;
-    const lens = parts.map(r=> r[1] - r[0]);
+    // measure the rows by what they will draw, not by how much flat index
+    // they span, or a row of hidden games would look full
+    const lens = parts.map(r=>{
+      let c = 0;
+      for(let i = r[0]; i < r[1]; i++) if(visibleAt(i)) c++;
+      return Math.max(1, c);
+    });
     const hi = Math.max.apply(null, lens), lo = Math.min.apply(null, lens);
     const key = [hi > ROW_MAX ? 1 : 0, Math.round(hi/lo*1000), k];
     if(!best || key[0] < best.key[0]
@@ -2463,6 +2477,10 @@ document.addEventListener('keydown', e=>{
 });
 
 function tagsOf(x){ return Array.isArray(x.tags) ? x.tags : []; }
+// The strip answers the same question the list does, by flat index. Hiding a
+// category from the rows and leaving its marks on the bar would make the bar
+// describe a list nobody is looking at.
+function visibleAt(i){ return !FILTER || !FILTERON.size || shownBy(FLAT[i]); }
 
 // How many rows carry each value, so a chip can say what picking it costs you.
 function filterCounts(){
@@ -2601,9 +2619,11 @@ function build(){
   }).join('');
 
   $('strip').innerHTML = rowsFor().map(([a,b])=>{
-    let r = '';
+    let r = '', first = true;
     for(let i=a;i<b;i++){
-      if(i>a && SECSTART.has(i)) r += '<span class="tick sep"></span>';
+      if(!visibleAt(i)) continue;
+      if(!first && SECSTART.has(i)) r += '<span class="tick sep"></span>';
+      first = false;
       r += '<span class="tick'+(TIERED&&TIEROF[i]===1?' t1':'')
          + '" data-t="'+ORDER[i]+'" data-i="'+i+'"'
          + (WEIGHTED?' style="--w:'+WEIGHT[i]+'"':'')+'></span>';

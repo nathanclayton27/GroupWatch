@@ -5,7 +5,7 @@
   "kind": "films, shows & games",
   "order": 21,
   "year": "1977–",
-  "blurb": "16 films, 39 television seasons and 24 games in the order they came out — about 256 hours of screen time.",
+  "blurb": "16 films, 39 television seasons and 68 games in the order they came out — about 256 hours of screen time.",
   "unit": {
     "one": "entry",
     "many": "entries"
@@ -50,7 +50,7 @@
     ],
     [
       "Which games are here.",
-      "The ones made under Disney, plus Knights of the Old Republic I and II and The Old Republic, which are Legends and are in by request. The canon line is not the takeover: Disney bought Lucasfilm in October 2012, but the Expanded Universe was not declared Legends until April 2014, so a 2013 game is no more canon than a 1998 one. Left out: things that never shipped, browser and Roblox toys, board games, and crossovers into other studios' games."
+      "The ones made under Disney, plus a long list of the older ones asked for by name — the Super Star Wars trilogy, the flight sims, Dark Forces and Jedi Knight, Rogue Squadron, the Battlefronts, Knights of the Old Republic, and the Lego games. Anything from before 25 April 2014 is marked Legends, because that is the day the Expanded Universe stopped being canon; the 2012 takeover is not the line, so a 2013 game is no more canon than a 1998 one. Left out: things that never shipped, browser and Roblox toys, board games, crossovers into other studios' games, and five aimed at small children — Galaxy of Heroes is mobile but is not one of those, and stays."
     ],
     [
       "Turning parts of it off.",
@@ -171,7 +171,7 @@
     {
       "id": "prequels",
       "title": "The prequels",
-      "sub": "1999–2005 · 3 films, 2 games · 7 hours",
+      "sub": "1999–2005 · 3 films · 7 hours",
       "intro": "Sixteen years later, and a different kind of film — political, digital, and building the war the cartoons would spend a decade fighting.",
       "items": [
         {
@@ -195,28 +195,6 @@
           ]
         },
         {
-          "id": "sw-g-2003-star-wars-knights-of-the-old-republic",
-          "t": "Star Wars: Knights of the Old Republic",
-          "n": "2003",
-          "w": 0,
-          "note": "Game · Legends, not canon — here by request",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2004-star-wars-knights-of-the-old-republic-ii-the-sith-lords",
-          "t": "Star Wars: Knights of the Old Republic II: The Sith Lords",
-          "n": "2004",
-          "w": 0,
-          "note": "Game · Legends, not canon — here by request",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
           "id": "sw-f-2005-revenge-of-the-sith",
           "t": "Revenge of the Sith",
           "n": "2005",
@@ -231,7 +209,7 @@
     {
       "id": "clonewars",
       "title": "The Clone Wars era",
-      "sub": "2008–2014 · 1 film, 6 seasons, 5 games · 47 hours",
+      "sub": "2008–2014 · 1 film, 6 seasons · 47 hours",
       "intro": "One film and one series that outgrew it. This is where the animation became the main event rather than a spin-off.",
       "items": [
         {
@@ -289,17 +267,6 @@
           ]
         },
         {
-          "id": "sw-g-2011-star-wars-the-old-republic",
-          "t": "Star Wars: The Old Republic",
-          "n": "2011",
-          "w": 0,
-          "note": "Game · Legends, not canon — here by request",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
           "id": "sw-t-2008-the-clone-wars-s5",
           "t": "The Clone Wars season 5",
           "n": "2012",
@@ -320,57 +287,13 @@
           "tags": [
             "Television"
           ]
-        },
-        {
-          "id": "sw-g-2014-star-wars-battle-pod",
-          "t": "Star Wars Battle Pod",
-          "n": "2014",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2014-star-wars-assault-team",
-          "t": "Star Wars: Assault Team",
-          "n": "2014",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2014-star-wars-commander",
-          "t": "Star Wars: Commander",
-          "n": "2014",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2014-star-wars-galactic-defense",
-          "t": "Star Wars: Galactic Defense",
-          "n": "2014",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
         }
       ]
     },
     {
       "id": "disney",
       "title": "Disney: the sequels and the anthologies",
-      "sub": "2015–2018 · 4 films, 5 seasons, 7 games · 44 hours",
+      "sub": "2015–2018 · 4 films, 5 seasons · 44 hours",
       "intro": "A trilogy, two standalone films, and the games that came with the new canon.",
       "items": [
         {
@@ -392,50 +315,6 @@
           "tier": 1,
           "tags": [
             "Films"
-          ]
-        },
-        {
-          "id": "sw-g-2015-star-wars-battlefront",
-          "t": "Star Wars Battlefront",
-          "n": "2015",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2015-star-wars-card-trader",
-          "t": "Star Wars: Card Trader",
-          "n": "2015",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2015-star-wars-galaxy-of-heroes",
-          "t": "Star Wars: Galaxy of Heroes",
-          "n": "2015",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2015-star-wars-uprising",
-          "t": "Star Wars: Uprising",
-          "n": "2015",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
           ]
         },
         {
@@ -481,39 +360,6 @@
           ]
         },
         {
-          "id": "sw-g-2017-star-wars-battlefront-ii",
-          "t": "Star Wars Battlefront II",
-          "n": "2017",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2017-star-wars-force-arena",
-          "t": "Star Wars: Force Arena",
-          "n": "2017",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2017-star-wars-jedi-challenges",
-          "t": "Star Wars: Jedi Challenges",
-          "n": "2017",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
           "id": "sw-f-2018-solo",
           "t": "Solo",
           "n": "2018",
@@ -550,7 +396,7 @@
     {
       "id": "plus",
       "title": "The Disney+ era",
-      "sub": "2019–2026 · 2 films, 25 seasons, 10 games · 133 hours",
+      "sub": "2019–2026 · 2 films, 25 seasons · 133 hours",
       "intro": "Television becomes the centre of gravity, and the films slow to a stop.",
       "items": [
         {
@@ -586,28 +432,6 @@
           ]
         },
         {
-          "id": "sw-g-2019-star-wars-jedi-fallen-order",
-          "t": "Star Wars Jedi: Fallen Order",
-          "n": "2019",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2019-vader-immortal",
-          "t": "Vader Immortal",
-          "n": "2019",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
           "id": "sw-t-2008-the-clone-wars-s7",
           "t": "The Clone Wars season 7",
           "n": "2020",
@@ -627,28 +451,6 @@
           "tier": 2,
           "tags": [
             "Television"
-          ]
-        },
-        {
-          "id": "sw-g-2020-star-wars-squadrons",
-          "t": "Star Wars: Squadrons",
-          "n": "2020",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2020-star-wars-tales-from-the-galaxy-s-edge",
-          "t": "Star Wars: Tales from the Galaxy's Edge",
-          "n": "2020",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
           ]
         },
         {
@@ -784,17 +586,6 @@
           ]
         },
         {
-          "id": "sw-g-2023-star-wars-jedi-survivor",
-          "t": "Star Wars Jedi: Survivor",
-          "n": "2023",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
           "id": "sw-t-2021-the-bad-batch-s3",
           "t": "The Bad Batch season 3",
           "n": "2024",
@@ -850,28 +641,6 @@
           ]
         },
         {
-          "id": "sw-g-2024-star-wars-outlaws",
-          "t": "Star Wars Outlaws",
-          "n": "2024",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
-          "id": "sw-g-2024-star-wars-hunters",
-          "t": "Star Wars: Hunters",
-          "n": "2024",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
           "id": "sw-t-2022-andor-s2",
           "t": "Andor season 2",
           "n": "2025",
@@ -905,17 +674,6 @@
           ]
         },
         {
-          "id": "sw-g-2025-star-wars-beyond-victory",
-          "t": "Star Wars: Beyond Victory",
-          "n": "2025",
-          "w": 0,
-          "note": "Game",
-          "tier": 3,
-          "tags": [
-            "Games"
-          ]
-        },
-        {
           "id": "sw-t-2026-maul-shadow-lord-s1",
           "t": "Maul: Shadow Lord",
           "n": "2026",
@@ -934,6 +692,740 @@
           "tier": 2,
           "tags": [
             "Films"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "games",
+      "title": "The games",
+      "sub": "1992–2026 · 68 games",
+      "intro": "In release order. Anything before 25 April 2014 is marked Legends — that is the day the Expanded Universe stopped being canon, which is not the same as the 2012 takeover.",
+      "items": [
+        {
+          "id": "sw-g-1992-super-star-wars",
+          "t": "Super Star Wars",
+          "n": "1992",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1993-star-wars-x-wing",
+          "t": "Star Wars: X-Wing",
+          "n": "1993",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1993-super-star-wars-the-empire-strikes-back",
+          "t": "Super Star Wars: The Empire Strikes Back",
+          "n": "1993",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1994-star-wars-tie-fighter",
+          "t": "Star Wars: TIE Fighter",
+          "n": "1994",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1994-super-star-wars-return-of-the-jedi",
+          "t": "Super Star Wars: Return of the Jedi",
+          "n": "1994",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1995-star-wars-dark-forces",
+          "t": "Star Wars: Dark Forces",
+          "n": "1995",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1996-star-wars-shadows-of-the-empire",
+          "t": "Star Wars: Shadows of the Empire",
+          "n": "1996",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1997-star-wars-jedi-knight-dark-forces-ii",
+          "t": "Star Wars Jedi Knight: Dark Forces II",
+          "n": "1997",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1997-star-wars-masters-of-teräs-käsi",
+          "t": "Star Wars: Masters of Teräs Käsi",
+          "n": "1997",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1997-star-wars-x-wing-vs-tie-fighter",
+          "t": "Star Wars: X-Wing vs. TIE Fighter",
+          "n": "1997",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1998-star-wars-jedi-knight-mysteries-of-the-sith",
+          "t": "Star Wars Jedi Knight: Mysteries of the Sith",
+          "n": "1998",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1998-star-wars-rogue-squadron",
+          "t": "Star Wars: Rogue Squadron",
+          "n": "1998",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1999-star-wars-episode-i-racer",
+          "t": "Star Wars Episode I: Racer",
+          "n": "1999",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1999-star-wars-episode-i-the-phantom-menace",
+          "t": "Star Wars: Episode I – The Phantom Menace",
+          "n": "1999",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-1999-star-wars-x-wing-alliance",
+          "t": "Star Wars: X-Wing Alliance",
+          "n": "1999",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2000-star-wars-episode-i-battle-for-naboo",
+          "t": "Star Wars Episode I: Battle for Naboo",
+          "n": "2000",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2000-star-wars-episode-i-jedi-power-battles",
+          "t": "Star Wars Episode I: Jedi Power Battles",
+          "n": "2000",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2000-star-wars-demolition",
+          "t": "Star Wars: Demolition",
+          "n": "2000",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2001-star-wars-rogue-squadron-ii-rogue-leader",
+          "t": "Star Wars Rogue Squadron II: Rogue Leader",
+          "n": "2001",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2001-star-wars-obi-wan",
+          "t": "Star Wars: Obi-Wan",
+          "n": "2001",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2001-star-wars-starfighter",
+          "t": "Star Wars: Starfighter",
+          "n": "2001",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2001-star-wars-super-bombad-racing",
+          "t": "Star Wars: Super Bombad Racing",
+          "n": "2001",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2002-star-wars-jedi-knight-ii-jedi-outcast",
+          "t": "Star Wars Jedi Knight II: Jedi Outcast",
+          "n": "2002",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2002-star-wars-racer-revenge",
+          "t": "Star Wars Racer Revenge",
+          "n": "2002",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2002-star-wars-bounty-hunter",
+          "t": "Star Wars: Bounty Hunter",
+          "n": "2002",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2002-star-wars-episode-ii-attack-of-the-clones",
+          "t": "Star Wars: Episode II – Attack of the Clones",
+          "n": "2002",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2002-star-wars-jedi-starfighter",
+          "t": "Star Wars: Jedi Starfighter",
+          "n": "2002",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2002-star-wars-the-clone-wars",
+          "t": "Star Wars: The Clone Wars",
+          "n": "2002",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2003-star-wars-jedi-knight-jedi-academy",
+          "t": "Star Wars Jedi Knight: Jedi Academy",
+          "n": "2003",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2003-star-wars-rogue-squadron-iii-rebel-strike",
+          "t": "Star Wars Rogue Squadron III: Rebel Strike",
+          "n": "2003",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2003-star-wars-knights-of-the-old-republic",
+          "t": "Star Wars: Knights of the Old Republic",
+          "n": "2003",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2004-star-wars-battlefront",
+          "t": "Star Wars: Battlefront",
+          "n": "2004",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2004-star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+          "t": "Star Wars: Knights of the Old Republic II: The Sith Lords",
+          "n": "2004",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2005-star-wars-battlefront-ii",
+          "t": "Star Wars: Battlefront II",
+          "n": "2005",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2005-star-wars-episode-iii-revenge-of-the-sith",
+          "t": "Star Wars: Episode III – Revenge of the Sith",
+          "n": "2005",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2005-star-wars-republic-commando",
+          "t": "Star Wars: Republic Commando",
+          "n": "2005",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2006-star-wars-empire-at-war",
+          "t": "Star Wars: Empire at War",
+          "n": "2006",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2007-lego-star-wars-the-complete-saga",
+          "t": "Lego Star Wars: The Complete Saga",
+          "n": "2007",
+          "w": 0,
+          "note": "Game · Lego — its own joke, outside any continuity",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2007-star-wars-battlefront-renegade-squadron",
+          "t": "Star Wars Battlefront: Renegade Squadron",
+          "n": "2007",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2008-star-wars-the-force-unleashed",
+          "t": "Star Wars: The Force Unleashed",
+          "n": "2008",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2009-star-wars-battlefront-elite-squadron",
+          "t": "Star Wars Battlefront: Elite Squadron",
+          "n": "2009",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2010-star-wars-the-force-unleashed-ii",
+          "t": "Star Wars: The Force Unleashed II",
+          "n": "2010",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2011-lego-star-wars-iii-the-clone-wars",
+          "t": "Lego Star Wars III: The Clone Wars",
+          "n": "2011",
+          "w": 0,
+          "note": "Game · Lego — its own joke, outside any continuity",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2011-star-wars-the-old-republic",
+          "t": "Star Wars: The Old Republic",
+          "n": "2011",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2012-kinect-star-wars",
+          "t": "Kinect Star Wars",
+          "n": "2012",
+          "w": 0,
+          "note": "Game · Legends",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2014-star-wars-battle-pod",
+          "t": "Star Wars Battle Pod",
+          "n": "2014",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2014-star-wars-assault-team",
+          "t": "Star Wars: Assault Team",
+          "n": "2014",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2014-star-wars-commander",
+          "t": "Star Wars: Commander",
+          "n": "2014",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2014-star-wars-galactic-defense",
+          "t": "Star Wars: Galactic Defense",
+          "n": "2014",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2015-star-wars-battlefront",
+          "t": "Star Wars Battlefront",
+          "n": "2015",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2015-star-wars-card-trader",
+          "t": "Star Wars: Card Trader",
+          "n": "2015",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2015-star-wars-galaxy-of-heroes",
+          "t": "Star Wars: Galaxy of Heroes",
+          "n": "2015",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2015-star-wars-uprising",
+          "t": "Star Wars: Uprising",
+          "n": "2015",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2016-lego-star-wars-the-force-awakens",
+          "t": "Lego Star Wars: The Force Awakens",
+          "n": "2016",
+          "w": 0,
+          "note": "Game · Lego — its own joke, outside any continuity",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2017-star-wars-battlefront-ii",
+          "t": "Star Wars Battlefront II",
+          "n": "2017",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2017-star-wars-force-arena",
+          "t": "Star Wars: Force Arena",
+          "n": "2017",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2017-star-wars-jedi-challenges",
+          "t": "Star Wars: Jedi Challenges",
+          "n": "2017",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2019-star-wars-jedi-fallen-order",
+          "t": "Star Wars Jedi: Fallen Order",
+          "n": "2019",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2019-vader-immortal",
+          "t": "Vader Immortal",
+          "n": "2019",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2020-star-wars-squadrons",
+          "t": "Star Wars: Squadrons",
+          "n": "2020",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2020-star-wars-tales-from-the-galaxy-s-edge",
+          "t": "Star Wars: Tales from the Galaxy's Edge",
+          "n": "2020",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2022-lego-star-wars-the-skywalker-saga",
+          "t": "Lego Star Wars: The Skywalker Saga",
+          "n": "2022",
+          "w": 0,
+          "note": "Game · Lego — its own joke, outside any continuity",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2023-star-wars-jedi-survivor",
+          "t": "Star Wars Jedi: Survivor",
+          "n": "2023",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2024-star-wars-outlaws",
+          "t": "Star Wars Outlaws",
+          "n": "2024",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2024-star-wars-hunters",
+          "t": "Star Wars: Hunters",
+          "n": "2024",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
+          ]
+        },
+        {
+          "id": "sw-g-2025-star-wars-beyond-victory",
+          "t": "Star Wars: Beyond Victory",
+          "n": "2025",
+          "w": 0,
+          "note": "Game",
+          "tier": 3,
+          "tags": [
+            "Games"
           ]
         },
         {

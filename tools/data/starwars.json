@@ -424,9 +424,164 @@
  ],
  "games": [
   {
+   "t": "Super Star Wars",
+   "year": 1992,
+   "group": "Episode IV: A New Hope"
+  },
+  {
+   "t": "Star Wars: X-Wing",
+   "year": 1993,
+   "group": "X-Wing"
+  },
+  {
+   "t": "Super Star Wars: The Empire Strikes Back",
+   "year": 1993,
+   "group": "Episode V: The Empire Strikes Back"
+  },
+  {
+   "t": "Star Wars: TIE Fighter",
+   "year": 1994,
+   "group": "X-Wing"
+  },
+  {
+   "t": "Super Star Wars: Return of the Jedi",
+   "year": 1994,
+   "group": "Episode VI: Return of the Jedi"
+  },
+  {
+   "t": "Star Wars: Dark Forces",
+   "year": 1995,
+   "group": "Jedi Knight"
+  },
+  {
+   "t": "Star Wars: Shadows of the Empire",
+   "year": 1996,
+   "group": "1990s"
+  },
+  {
+   "t": "Star Wars Jedi Knight: Dark Forces II",
+   "year": 1997,
+   "group": "Jedi Knight"
+  },
+  {
+   "t": "Star Wars: Masters of Teräs Käsi",
+   "year": 1997,
+   "group": "1990s"
+  },
+  {
+   "t": "Star Wars: X-Wing vs. TIE Fighter",
+   "year": 1997,
+   "group": "X-Wing"
+  },
+  {
+   "t": "Star Wars Jedi Knight: Mysteries of the Sith",
+   "year": 1998,
+   "group": "Jedi Knight"
+  },
+  {
+   "t": "Star Wars: Rogue Squadron",
+   "year": 1998,
+   "group": "Rogue Squadron"
+  },
+  {
+   "t": "Star Wars Episode I: Racer",
+   "year": 1999,
+   "group": "Racer"
+  },
+  {
+   "t": "Star Wars: Episode I – The Phantom Menace",
+   "year": 1999,
+   "group": "Episode I: The Phantom Menace"
+  },
+  {
+   "t": "Star Wars: X-Wing Alliance",
+   "year": 1999,
+   "group": "X-Wing"
+  },
+  {
+   "t": "Star Wars Episode I: Battle for Naboo",
+   "year": 2000,
+   "group": "Episode I: The Phantom Menace"
+  },
+  {
+   "t": "Star Wars Episode I: Jedi Power Battles",
+   "year": 2000,
+   "group": "Episode I: The Phantom Menace"
+  },
+  {
+   "t": "Star Wars: Demolition",
+   "year": 2000,
+   "group": "2000s"
+  },
+  {
+   "t": "Star Wars Rogue Squadron II: Rogue Leader",
+   "year": 2001,
+   "group": "Rogue Squadron"
+  },
+  {
+   "t": "Star Wars: Obi-Wan",
+   "year": 2001,
+   "group": "Episode I: The Phantom Menace"
+  },
+  {
+   "t": "Star Wars: Starfighter",
+   "year": 2001,
+   "group": "Starfighter"
+  },
+  {
+   "t": "Star Wars: Super Bombad Racing",
+   "year": 2001,
+   "group": "2000s"
+  },
+  {
+   "t": "Star Wars Jedi Knight II: Jedi Outcast",
+   "year": 2002,
+   "group": "Jedi Knight"
+  },
+  {
+   "t": "Star Wars Racer Revenge",
+   "year": 2002,
+   "group": "Racer"
+  },
+  {
+   "t": "Star Wars: Bounty Hunter",
+   "year": 2002,
+   "group": "2000s"
+  },
+  {
+   "t": "Star Wars: Episode II – Attack of the Clones",
+   "year": 2002,
+   "group": "Episode II: Attack of the Clones"
+  },
+  {
+   "t": "Star Wars: Jedi Starfighter",
+   "year": 2002,
+   "group": "Starfighter"
+  },
+  {
+   "t": "Star Wars: The Clone Wars",
+   "year": 2002,
+   "group": "Episode II: Attack of the Clones"
+  },
+  {
+   "t": "Star Wars Jedi Knight: Jedi Academy",
+   "year": 2003,
+   "group": "Jedi Knight"
+  },
+  {
+   "t": "Star Wars Rogue Squadron III: Rebel Strike",
+   "year": 2003,
+   "group": "Rogue Squadron"
+  },
+  {
    "t": "Star Wars: Knights of the Old Republic",
    "year": 2003,
    "group": "Knights of the Old Republic"
+  },
+  {
+   "t": "Star Wars: Battlefront",
+   "year": 2004,
+   "group": "Battlefront"
   },
   {
    "t": "Star Wars: Knights of the Old Republic II: The Sith Lords",
@@ -434,9 +589,64 @@
    "group": "Knights of the Old Republic"
   },
   {
+   "t": "Star Wars: Battlefront II",
+   "year": 2005,
+   "group": "Battlefront"
+  },
+  {
+   "t": "Star Wars: Episode III – Revenge of the Sith",
+   "year": 2005,
+   "group": "Episode III: Revenge of the Sith"
+  },
+  {
+   "t": "Star Wars: Republic Commando",
+   "year": 2005,
+   "group": "2000s"
+  },
+  {
+   "t": "Star Wars: Empire at War",
+   "year": 2006,
+   "group": "Empire at War"
+  },
+  {
+   "t": "Lego Star Wars: The Complete Saga",
+   "year": 2007,
+   "group": "Lego Star Wars"
+  },
+  {
+   "t": "Star Wars Battlefront: Renegade Squadron",
+   "year": 2007,
+   "group": "Battlefront"
+  },
+  {
+   "t": "Star Wars: The Force Unleashed",
+   "year": 2008,
+   "group": "The Force Unleashed"
+  },
+  {
+   "t": "Star Wars Battlefront: Elite Squadron",
+   "year": 2009,
+   "group": "Battlefront"
+  },
+  {
+   "t": "Star Wars: The Force Unleashed II",
+   "year": 2010,
+   "group": "The Force Unleashed"
+  },
+  {
+   "t": "Lego Star Wars III: The Clone Wars",
+   "year": 2011,
+   "group": "Lego Star Wars"
+  },
+  {
    "t": "Star Wars: The Old Republic",
    "year": 2011,
    "group": "Knights of the Old Republic"
+  },
+  {
+   "t": "Kinect Star Wars",
+   "year": 2012,
+   "group": "Kinect Motion Sensor"
   },
   {
    "t": "Star Wars Battle Pod",
@@ -479,6 +689,11 @@
    "group": "Mobile and smartphones"
   },
   {
+   "t": "Lego Star Wars: The Force Awakens",
+   "year": 2016,
+   "group": "Lego Star Wars"
+  },
+  {
    "t": "Star Wars Battlefront II",
    "year": 2017,
    "group": "Battlefront"
@@ -512,6 +727,11 @@
    "t": "Star Wars: Tales from the Galaxy's Edge",
    "year": 2020,
    "group": "Virtual reality"
+  },
+  {
+   "t": "Lego Star Wars: The Skywalker Saga",
+   "year": 2022,
+   "group": "Lego Star Wars"
   },
   {
    "t": "Star Wars Jedi: Survivor",

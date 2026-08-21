@@ -16,10 +16,10 @@ Sources, machine-read rather than typed:
     which gave The Bad Batch 18 episodes for a run of 47
   - the games from Wikipedia's "List of Star Wars video games"
 
-Games: the canon line is not the takeover. Disney bought Lucasfilm in October
-2012 but the Expanded Universe was not declared Legends until April 2014, so
-2014 is the cut. Knights of the Old Republic I and II and The Old Republic are
-Legends and are in anyway, by request.
+Games: everything made under Disney, plus a long list of older titles asked for
+by name. Anything before 25 April 2014 is marked Legends — that is the day the
+Expanded Universe stopped being canon, and it is not the same as the October
+2012 takeover.
 
 Weights are runtimes. Games carry none — no source for how long a game takes
 was confirmed, and inventing one would put a made-up number into everyone's
@@ -157,13 +157,14 @@ def main():
             })
 
     for g in d["games"]:
-        legends = g["t"] in (
-            "Star Wars: Knights of the Old Republic",
-            "Star Wars: Knights of the Old Republic II: The Sith Lords",
-            "Star Wars: The Old Republic")
+        # The Expanded Universe was declared Legends on 25 April 2014, so a
+        # game that shipped before then is Legends whatever it says on the box.
+        legends = g["year"] < 2014
         bits = ["Game"]
         if legends:
-            bits.append("Legends, not canon — here by request")
+            bits.append("Legends")
+        if g["t"].lower().startswith("lego"):
+            bits = ["Game", "Lego — its own joke, outside any continuity"]
         entries.append({
             "id": "sw-g-%d-%s" % (g["year"], slug(g["t"])),
             "t": g["t"], "n": str(g["year"]), "w": 0,
@@ -177,7 +178,8 @@ def main():
 
     sections = []
     for key, title, lo, hi, intro in ERAS:
-        got = [e for e in entries if era_of(e["year"]) == key]
+        got = [e for e in entries
+               if e["kind"] != "game" and era_of(e["year"]) == key]
         if not got:
             continue
         nf = sum(1 for e in got if e["kind"] == "film")
@@ -201,6 +203,22 @@ def main():
         assert all(a["n"] <= b["n"] for a, b in zip(sec["items"], sec["items"][1:])), \
             "%s is out of year order" % title
         sections.append(sec)
+
+    # Interleaving 68 games with the films and television buried both. They are
+    # a parallel thing rather than a step in the same sequence, so they get
+    # their own run, still in release order.
+    games = [e for e in entries if e["kind"] == "game"]
+    sections.append({
+        "id": "games", "title": "The games",
+        "sub": "%d–%d · %d games" % (games[0]["year"], games[-1]["year"], len(games)),
+        "intro": "In release order. Anything before 25 April 2014 is marked "
+                 "Legends — that is the day the Expanded Universe stopped being "
+                 "canon, which is not the same as the 2012 takeover.",
+        "items": [{k: v for k, v in e.items()
+                   if k in ("id", "t", "n", "w", "tier", "tags")
+                   or (k == "note" and v)}
+                  for e in games],
+    })
 
     ids = [x["id"] for s in sections for x in s["items"]]
     assert len(ids) == len(set(ids)), \
@@ -255,13 +273,16 @@ def main():
              "the years the show ran rather than parked at its first, so The Clone "
              "Wars sits across the decade it actually occupied."
              % (EP_MINUTES["animated"], EP_MINUTES["live"])],
-            ["Which games are here.", "The ones made under Disney, plus Knights of "
-             "the Old Republic I and II and The Old Republic, which are Legends and "
-             "are in by request. The canon line is not the takeover: Disney bought "
-             "Lucasfilm in October 2012, but the Expanded Universe was not declared "
-             "Legends until April 2014, so a 2013 game is no more canon than a 1998 "
-             "one. Left out: things that never shipped, browser and Roblox toys, "
-             "board games, and crossovers into other studios' games."],
+            ["Which games are here.", "The ones made under Disney, plus a long list "
+             "of the older ones asked for by name — the Super Star Wars trilogy, the "
+             "flight sims, Dark Forces and Jedi Knight, Rogue Squadron, the "
+             "Battlefronts, Knights of the Old Republic, and the Lego games. Anything "
+             "from before 25 April 2014 is marked Legends, because that is the day "
+             "the Expanded Universe stopped being canon; the 2012 takeover is not the "
+             "line, so a 2013 game is no more canon than a 1998 one. Left out: things "
+             "that never shipped, browser and Roblox toys, board games, crossovers "
+             "into other studios' games, and five aimed at small children — Galaxy of "
+             "Heroes is mobile but is not one of those, and stays."],
             ["Turning parts of it off.",
              "The chips at the top drop a whole category. Films, television and "
              "games each toggle independently, so “everything except the "
