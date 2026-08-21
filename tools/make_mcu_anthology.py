@@ -195,6 +195,7 @@ def main():
     films = json.loads((data / "films.json").read_text(encoding="utf-8"))
     shows = json.loads((data / "shows.json").read_text(encoding="utf-8"))
     netflix = json.loads((data / "netflix.json").read_text(encoding="utf-8"))
+    othertv = json.loads((data / "marveltv.json").read_text(encoding="utf-8"))
 
     entries = []
     for f in films:
@@ -250,6 +251,29 @@ def main():
             "phase": None,
         })
 
+    for r in othertv:
+        eps = r["episodes"]
+        mins = eps * (r["ep_minutes"] or 45)
+        # the page name already carries the season where there is more than one
+        tail = r["page"].rsplit(" season ", 1)
+        name = r["title"] + (" season " + tail[1] if len(tail) == 2 else "")
+        if eps == 1:
+            note = "A %d-minute special" % (r["ep_minutes"] or 45)
+        else:
+            note = "%d episodes" % eps
+        if r["title"] == "X-Men '97":
+            note = "Continues the 1992 cartoon, not the MCU · " + note
+        entries.append({
+            "id": "mv-o-%s" % slug(r["page"]),
+            "t": name, "n": r["released"][:4],
+            "w": round(mins / 60.0, 2),
+            "tier": 3,
+            "note": note,
+            "date": r["released"], "kind": "show", "mins": mins,
+            "mcu": r["studios"],
+            "phase": SHOW_PHASE.get(r["phase"]) if r["studios"] else None,
+        })
+
     entries.sort(key=lambda e: (e["date"], e["kind"] == "show", e["t"]))
 
     # An era's window is whatever its declared members span, so the unphased
@@ -279,6 +303,8 @@ def main():
         if sid != "premcu":
             for e in got:
                 if e["mcu"]:
+                    continue
+                if e["note"].startswith("Continues the 1992"):
                     continue
                 mark = ("Marvel Television — not part of %s" % title
                         if e["kind"] == "show"
@@ -353,11 +379,12 @@ def main():
              "measured figure for five of them and a stated assumption for the "
              "rest — 45 minutes live action, 32 animated. Avengers: Doomsday and "
              "VisionQuest are not out yet and weigh nothing."],
-            ["What is not here.", "Agents of S.H.I.E.L.D., Agent Carter and the "
-             "other ABC and Hulu series; X-Men '97, which continues the 1992 "
-             "cartoon rather than the MCU; and the 2022 Special Presentations, "
-             "which the source table this was built from does not list. The "
-             "Netflix run is in — Born Again reads on from it."],
+            ["Everything is here.", "The films, the Disney+ series, the Netflix "
+             "run, the ABC and Hulu shows, the Special Presentations and "
+             "X-Men '97 — which is on the page despite continuing the 1992 "
+             "cartoon rather than the MCU, and says so on its row. Runaways is "
+             "one entry rather than three: its article gives per-season episode "
+             "counts but only season one's date."],
             "Film list from Wikipedia's live-action Marvel features table; "
             "runtimes and release dates from Wikidata; show premieres from the "
             "MCU phase articles and episode counts from Wikidata. The tier "
