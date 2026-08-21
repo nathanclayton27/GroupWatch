@@ -135,6 +135,19 @@ count, not weight** — partitioning on weight was tried and is worse, because i
 produces rows of four enormous marks next to rows where everything is at the
 minimum width.
 
+### Section links
+
+`links` is a list of `{label, url}`. One or two render inline in the header.
+**Three or more collapse into a dropdown** — a single "N series" button that
+opens a panel — because a row of uppercase links shouts over the section title
+it belongs to, and a dozen of them used to break the header outright.
+
+This is an engine rule, not a per-property one: `LINKS_INLINE` in
+`src/template.html` is the only place the threshold exists, so every property
+gets the behaviour without opting in and changing it is one edit. Anything new
+inherits it. A link inside an open panel stops its click bubbling, or opening a
+series would also collapse the section it sits on.
+
 ### Which section opens
 
 Before you have marked anything, the property's own default — a section with
