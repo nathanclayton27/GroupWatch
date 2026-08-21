@@ -47,10 +47,12 @@ h1 em{font-style:normal;color:var(--signal)}
 .tstar.on{opacity:1;color:var(--signal)}
 /* in the menu the star is a mark, not a control — it only ever appears on
    something already starred */
-.pm-t .mstar{color:var(--signal);font-size:.85em;line-height:1;flex:none}
+.pm-t .mstar{color:var(--signal);font-size:.85em;line-height:1;flex:none;
+  margin-top:.3em}
 .pm-t .msec{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.12em;
   text-transform:uppercase;color:var(--ink-3);border:1px solid var(--rule-2);
-  border-radius:var(--radius);padding:1px 5px;flex:none;font-weight:400}
+  border-radius:var(--radius);padding:1px 5px;flex:none;font-weight:400;
+  margin-top:.3em}
 .tagline{color:var(--ink-2);max-width:60ch;margin:0}
 .strip{display:flex;flex-direction:column;gap:20px;margin:72px 0 10px}
 .striprow{display:flex;gap:1px;height:34px;align-items:flex-end;
@@ -122,7 +124,7 @@ h1 em{font-style:normal;color:var(--signal)}
 .pace.ok{color:var(--done);border-color:var(--done)}
 .pace.behind{color:var(--signal);border-color:var(--signal)}
 .gbar{display:flex;gap:10px 16px;flex-wrap:wrap;align-items:baseline;margin:0 0 14px}
-.gate{position:fixed;inset:0;z-index:200;background:var(--paper);
+.gate{position:fixed;inset:0;z-index:60;background:var(--paper);
   display:flex;align-items:center;justify-content:center;padding:24px}
 .gatebox{display:flex;flex-direction:column;align-items:center;gap:12px;
   width:min(100%,340px);text-align:center}
@@ -292,7 +294,9 @@ footer a{color:var(--steel)}
   border-radius:var(--radius);cursor:pointer}
 .pmenu button:hover{background:rgba(128,128,128,.1)}
 .pmenu button[aria-selected=true]{background:rgba(128,128,128,.14)}
-.pm-t{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:500}
+.pm-t{display:flex;align-items:flex-start;gap:8px;font-size:14px;font-weight:500}
+.pm-t .pdot{margin-top:.42em}
+.pm-n{min-width:0}
 .pm-m{font-size:11px;color:var(--ink-3);margin-top:3px;display:flex;gap:8px;flex-wrap:wrap}
 .pm-b{font-size:12px;color:var(--ink-2);margin-top:4px;line-height:1.45}
 .psearch{padding:5px 5px 7px;border-bottom:1px solid var(--rule);margin-bottom:5px}
@@ -720,7 +724,11 @@ async function loadProperty(){
   PACEALL = false;
   try{ PACEALL = localStorage.getItem(PKEY) === '1'; }catch(e){}
   computePace();
-  localStorage.setItem('gw:last', SLUG);
+  // Never make a still-locked list the one the site reopens on. It did, and
+  // because the gate also hid the switcher there was no way back out: every
+  // visit landed on a password box with no navigation. Both halves of that are
+  // fixed — this line, and the switcher staying put in showGate().
+  if(!(PROP.secret && !isUnlocked(SLUG))) localStorage.setItem('gw:last', SLUG);
   applyAccent();
 }
 
@@ -871,6 +879,9 @@ async function onSession(session){
     }
     await refreshGroup(false);
     startGroupPoll();
+    // someone can unlock while signed out and sign in afterwards; the group
+    // they were promised should still be waiting for them
+    if(PROP && PROP.secret && isUnlocked(SLUG)) await joinSecretGroup();
   }else{
     $('b-signout').classList.add('hide');
     if(CLOUD) $('b-signin').classList.remove('hide');
@@ -2169,9 +2180,12 @@ function generateSections(g, one){
     }
     sec.days += 1;
     const iso = ymd(cur), label = DOW[cur.getDay()] + ' ' + cur.getDate();
-    for(let k = 1; k <= (g.slots || 1); k++)
+    const slots = g.slots || 1;
+    for(let k = 1; k <= slots; k++)
       sec.items.push({id: g.idPrefix + '-' + iso + '-' + k,
-                      t: one + ' ' + k, n: label, w: 1});
+                      // "entry 1" of one is a number nobody needed
+                      t: slots === 1 ? one : one + ' ' + k,
+                      n: label, w: 1});
     cur.setDate(cur.getDate() + 1);
   }
   out.forEach((x, i)=>{
@@ -2227,9 +2241,13 @@ function filterMenu(q){
     return '<button role="option" data-slug="'+esc(m.slug)+'"'
       + ' aria-selected="'+(m.slug===SLUG)+'">'
       + '<span class="pm-t"><span class="pdot" style="background:'
-      + esc(accentOf(m))+'"></span>'+esc(m.title)
-      + (m.secret ? '<span class="msec">Secret</span>' : '')
+      + esc(accentOf(m))+'"></span>'
+      // markers lead the title. Every row in a group carries the same ones, so
+      // the titles still line up: a trailing star drifted to the right-hand
+      // edge whenever a title wrapped, which looked like a different control.
       + (st.has(m.slug) ? '<span class="mstar" aria-label="Favourite">★</span>' : '')
+      + (locked ? '<span class="msec">Secret</span>' : '')
+      + '<span class="pm-n">'+esc(locked ? (m.secret.title || 'Secret') : m.title)+'</span>'
       + '</span>'
       + '<span class="pm-m">'+meta.map(esc).join(' · ')+'</span>'
       + '</button>';
@@ -2257,7 +2275,6 @@ function filterMenu(q){
 function showGate(){
   const sec = PROP.secret || {};
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
-  $('switcher').classList.add('hide');
   $('gate').classList.remove('hide');
   $('gate-t').textContent = sec.title || 'Secret';
   $('gate-h').textContent = sec.hint || 'This one needs a password.';
@@ -2288,10 +2305,40 @@ function showGate(){
     msg.textContent = 'In.';
     $('gate').classList.add('hide');
     document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.remove('hide'));
-    $('switcher').classList.remove('hide');
     document.title = PROP.title + ' — GroupWatch';
+    localStorage.setItem('gw:last', SLUG);
     renderMenu();
+    joinSecretGroup();
   };
+}
+
+// Everyone who types the password joins the same group, so the strip is a
+// leaderboard of people who know it. This is best-effort on purpose: it needs
+// an account and a database, and neither is a reason to refuse someone entry to
+// a list they just proved they were told about.
+async function joinSecretGroup(){
+  const g = PROP.secret && PROP.secret.group;
+  if(!g || !g.code) return;
+  if(!CLOUD || !user){
+    flash('Sign in and you will be added to ' + g.name + ' automatically.', 'gmsg2');
+    return;
+  }
+  if(groups.some(x=> x.code === g.code)) return;      // already in it
+  try{
+    const name = (user.email || '').split('@')[0].slice(0, 24) || 'Reader';
+    const { error } = await sb.rpc('join_or_create_group', {
+      p_code: g.code, p_name: g.name, p_property_id: SLUG, p_display_name: name
+    });
+    if(error) throw error;
+    await refreshGroup(false);
+    startGroupPoll();
+    flash('You are in ' + g.name + ' with everyone else who knows it.', 'gmsg2');
+  }catch(e){
+    // the usual cause is the site being a migration ahead of the database
+    console.error('[tracker] could not join the secret group', e);
+    flash('Could not join ' + g.name + ' automatically — the join code is '
+          + g.code + '.', 'gmsg2');
+  }
 }
 
 function paintStar(){

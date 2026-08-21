@@ -300,7 +300,7 @@
     "total": 1418
   },
   {
-    "slug": "entry",
+    "slug": "secret",
     "title": "A secret list",
     "subtitle": "competitive daily consumption",
     "kind": "consumption",
@@ -313,11 +313,13 @@
       "many": "entries"
     },
     "total": 0,
-    "secret": true,
+    "secret": {
+      "title": "Secret"
+    },
     "generate": {
       "kind": "daily",
       "start": "2026-08-21",
-      "slots": 6,
+      "slots": 1,
       "idPrefix": "mcm"
     }
   }

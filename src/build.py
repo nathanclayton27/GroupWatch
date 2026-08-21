@@ -129,7 +129,9 @@ def main():
             "total": p["_total"],
             # the page needs these before first paint: one to know not to list
             # a locked property, the other to size a generated one
-            **({"secret": True} if p.get("secret") else {}),
+            # the switcher names a locked list by its cover title, not its own
+            **({"secret": {"title": p["secret"].get("title", "Secret")}}
+               if p.get("secret") else {}),
             **({"generate": p["generate"]} if p.get("generate") else {}),
         }
         for p in props
