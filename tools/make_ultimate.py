@@ -330,6 +330,10 @@ ORDER = [
 ]
 
 
+# ten keeps every linked series reachable; nine starts dropping them
+HEADER_LINKS = 10
+
+
 def slug(t):
     s = re.sub(r"[^a-z0-9]+", "-", t.lower())
     return s.strip("-")
@@ -353,15 +357,20 @@ def main():
                 if opt:
                     x["opt"] = 1
                 items.append(x)
-        # The header carries every series in *this* section that has a known
-        # page, in the order they first appear. Picking only the biggest put
-        # "Ultimate Spider-Man" on seven of the fifteen headers, which is noise
-        # rather than navigation.
-        links, seen_here = [], set()
-        for series, _, _, _ in blocks:
-            if series in SERIES_URL and series not in seen_here:
-                seen_here.add(series)
-                links.append({"label": series, "url": SERIES_URL[series]})
+        # The header carries the series in *this* section, in reading order.
+        # Picking only the biggest put "Ultimate Spider-Man" on seven of the
+        # fifteen headers, which is noise rather than navigation; carrying every
+        # one put thirteen links on a single header. Ten is the smallest cap
+        # under which every linked series still appears somewhere on the page.
+        weight, order = {}, []
+        for series, nums, _, _ in blocks:
+            if series not in SERIES_URL:
+                continue
+            if series not in weight:
+                order.append(series)
+            weight[series] = weight.get(series, 0) + len(nums)
+        keep = set(sorted(weight, key=lambda t: -weight[t])[:HEADER_LINKS])
+        links = [{"label": t, "url": SERIES_URL[t]} for t in order if t in keep]
         sections.append({"id": sid, "title": title, "sub": sub, "items": items,
                          **({"open": True} if sid == "intro" else {}),
                          **({"links": links} if links else {})})
