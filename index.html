@@ -921,7 +921,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'e10a42aadee6';
+const BUILD = 'e9f4f860d912';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -2194,7 +2194,26 @@ function rowsFor(){
       best = { key: key, parts: parts };
     }
   }
-  return best ? best.parts : [[0, TOTAL]];
+  if(best) return best.parts;
+
+  // No section-aligned answer. The DP can only cut at section boundaries, so
+  // a property with a few fat sections and many items — Disney is 654 films
+  // in six eras — has no valid partition once it needs more rows than it has
+  // sections, and the old fallback drew everything as one impossibly dense
+  // row. Give up on section alignment and cut the flat list evenly by what is
+  // visible; the render loops don't care where a row starts.
+  const k = Math.min(Math.max(1, Math.ceil(SHOWN / ROW_MAX)), ROW_LIMIT);
+  if(k <= 1 || !(SHOWN > 0)) return [[0, TOTAL]];
+  const parts = [];
+  let a = 0, seen = 0, cut = 1;
+  for(let i = 0; i < TOTAL && cut < k; i++){
+    if(visibleAt(i)) seen++;
+    if(seen >= Math.round(SHOWN * cut / k)){
+      parts.push([a, i + 1]); a = i + 1; cut++;
+    }
+  }
+  parts.push([a, TOTAL]);
+  return parts;
 }
 
 const PEEK_PX = 25;
