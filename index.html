@@ -643,19 +643,19 @@ let MANIFEST = [
     "total": 353
   },
   {
-    "slug": "marvel-movies",
+    "slug": "mcu-anthology",
     "title": "MCU Anthology",
     "subtitle": "every Marvel film in release order, MCU or not",
     "kind": "films & shows",
     "year": "1998–2026",
-    "blurb": "76 films and 21 seasons in the order they came out — about 252 hours, tiered by how much the story needs each one.",
+    "blurb": "76 films and 34 seasons in the order they came out — about 387 hours, tiered by how much the story needs each one.",
     "accent": "#B3282D",
     "accentDark": "#F0666B",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 97
+    "total": 110
   }
 ];
 
@@ -675,7 +675,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '0731643388b1';
+const BUILD = 'e2d71ab4d4b4';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

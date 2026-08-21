@@ -1,11 +1,11 @@
 {
-  "slug": "marvel-movies",
+  "slug": "mcu-anthology",
   "title": "MCU Anthology",
   "subtitle": "every Marvel film in release order, MCU or not",
   "kind": "films & shows",
   "order": 15,
   "year": "1998–2026",
-  "blurb": "76 films and 21 seasons in the order they came out — about 252 hours, tiered by how much the story needs each one.",
+  "blurb": "76 films and 34 seasons in the order they came out — about 387 hours, tiered by how much the story needs each one.",
   "unit": {
     "one": "entry",
     "many": "entries"
@@ -36,7 +36,7 @@
     ],
     [
       "Tier 1 alone is 41 hours.",
-      "Tiers 1 and 2 together are 110 hours across 40 entries. Everything on the page is 252 hours. The finish date only counts tiers 1 and 2 — there is a checkbox under the bar if you want the rest included."
+      "Tiers 1 and 2 together are 143 hours across 43 entries. Everything on the page is 387 hours. The finish date only counts tiers 1 and 2 — there is a checkbox under the bar if you want the rest included."
     ],
     [
       "Bar widths are runtimes.",
@@ -44,7 +44,7 @@
     ],
     [
       "What is not here.",
-      "The Marvel Television era — the Netflix shows, Agents of S.H.I.E.L.D., Agent Carter — and X-Men '97, which continues the 1992 cartoon rather than the MCU. The 2022 Special Presentations are also absent from the source table this was built from."
+      "Agents of S.H.I.E.L.D., Agent Carter and the other ABC and Hulu series; X-Men '97, which continues the 1992 cartoon rather than the MCU; and the 2022 Special Presentations, which the source table this was built from does not list. The Netflix run is in — Born Again reads on from it."
     ],
     "Film list from Wikipedia's live-action Marvel features table; runtimes and release dates from Wikidata; show premieres from the MCU phase articles and episode counts from Wikidata. The tier assignments are a judgement call, not a source."
   ],
@@ -53,7 +53,7 @@
       "id": "premcu",
       "tier": 1,
       "title": "Before the MCU",
-      "sub": "1998–2008 · 18 films · 34 hours",
+      "sub": "1998–2008 · 16 films · 31 hours",
       "items": [
         {
           "id": "mv-f-1998-blade",
@@ -106,6 +106,13 @@
           "tier": 3
         },
         {
+          "id": "mv-f-2004-spider-man-2",
+          "t": "Spider-Man 2",
+          "n": "2004",
+          "w": 2.03,
+          "tier": 3
+        },
+        {
           "id": "mv-f-2004-blade-trinity",
           "t": "Blade: Trinity",
           "n": "2004",
@@ -117,13 +124,6 @@
           "t": "The Punisher",
           "n": "2004",
           "w": 2.07,
-          "tier": 3
-        },
-        {
-          "id": "mv-f-2004-spider-man-2",
-          "t": "Spider-Man 2",
-          "n": "2004",
-          "w": 2.03,
           "tier": 3
         },
         {
@@ -167,21 +167,6 @@
           "n": "2007",
           "w": 1.53,
           "tier": 3
-        },
-        {
-          "id": "mv-f-2008-punisher-war-zone",
-          "t": "Punisher: War Zone",
-          "n": "2008",
-          "w": 1.72,
-          "tier": 3
-        },
-        {
-          "id": "mv-f-2008-iron-man",
-          "t": "Iron Man",
-          "n": "2008",
-          "w": 2.1,
-          "tier": 1,
-          "note": "Where the MCU starts"
         }
       ],
       "intro": "Blade, the Fox X-Men films and Sam Raimi's Spider-Man. None of it connects to what follows, and none of it is required — but it is where Marvel films start working.",
@@ -191,8 +176,16 @@
       "id": "p1",
       "tier": 1,
       "title": "Phase One",
-      "sub": "2008–2012 · 7 films · 13 hours",
+      "sub": "2008–2012 · 11 films · 22 hours",
       "items": [
+        {
+          "id": "mv-f-2008-iron-man",
+          "t": "Iron Man",
+          "n": "2008",
+          "w": 2.1,
+          "tier": 1,
+          "note": "Where the MCU starts"
+        },
         {
           "id": "mv-f-2008-the-incredible-hulk",
           "t": "The Incredible Hulk",
@@ -202,11 +195,20 @@
           "note": "MCU canon, and almost never referred to again"
         },
         {
+          "id": "mv-f-2008-punisher-war-zone",
+          "t": "Punisher: War Zone",
+          "n": "2008",
+          "w": 1.72,
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase One"
+        },
+        {
           "id": "mv-f-2009-x-men-origins-wolverine",
           "t": "X-Men Origins: Wolverine",
           "n": "2009",
           "w": 1.78,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase One"
         },
         {
           "id": "mv-f-2010-iron-man-2",
@@ -227,14 +229,16 @@
           "t": "X-Men: First Class",
           "n": "2011",
           "w": 2.18,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase One"
         },
         {
           "id": "mv-f-2011-ghost-rider-spirit-of-vengeance",
           "t": "Ghost Rider: Spirit of Vengeance",
           "n": "2011",
           "w": 1.58,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase One"
         },
         {
           "id": "mv-f-2011-captain-america-the-first-avenger",
@@ -242,22 +246,14 @@
           "n": "2011",
           "w": 2.07,
           "tier": 2
-        }
-      ],
-      "intro": "Six films building to one crossover, plus everything else Marvel released alongside them."
-    },
-    {
-      "id": "p2",
-      "tier": 1,
-      "title": "Phase Two",
-      "sub": "2012–2015 · 12 films · 26 hours",
-      "items": [
+        },
         {
           "id": "mv-f-2012-the-amazing-spider-man",
           "t": "The Amazing Spider-Man",
           "n": "2012",
           "w": 2.27,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase One"
         },
         {
           "id": "mv-f-2012-the-avengers",
@@ -266,7 +262,16 @@
           "w": 2.37,
           "tier": 1,
           "note": "The first crossover, and the reason the model exists"
-        },
+        }
+      ],
+      "intro": "Six films building to one crossover, plus everything else Marvel released alongside them."
+    },
+    {
+      "id": "p2",
+      "tier": 1,
+      "title": "Phase Two",
+      "sub": "2012–2015 · 11 films and 3 seasons · 55 hours",
+      "items": [
         {
           "id": "mv-f-2013-iron-man-3",
           "t": "Iron Man 3",
@@ -279,7 +284,8 @@
           "t": "The Wolverine",
           "n": "2013",
           "w": 2.3,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Two"
         },
         {
           "id": "mv-f-2013-thor-the-dark-world",
@@ -301,14 +307,16 @@
           "t": "The Amazing Spider-Man 2",
           "n": "2014",
           "w": 2.37,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Two"
         },
         {
           "id": "mv-f-2014-x-men-days-of-future-past",
           "t": "X-Men: Days of Future Past",
           "n": "2014",
           "w": 2.18,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Two"
         },
         {
           "id": "mv-f-2014-guardians-of-the-galaxy",
@@ -318,11 +326,12 @@
           "tier": 1
         },
         {
-          "id": "mv-f-2015-fantastic-four",
-          "t": "Fantastic Four",
+          "id": "mv-n-daredevil-season-1",
+          "t": "Daredevil season 1",
           "n": "2015",
-          "w": 1.67,
-          "tier": 3
+          "w": 10.83,
+          "tier": 2,
+          "note": "Marvel Television — not part of Phase Two · 13 episodes"
         },
         {
           "id": "mv-f-2015-avengers-age-of-ultron",
@@ -332,11 +341,43 @@
           "tier": 1
         },
         {
+          "id": "mv-f-2015-fantastic-four",
+          "t": "Fantastic Four",
+          "n": "2015",
+          "w": 1.67,
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Two"
+        },
+        {
           "id": "mv-f-2015-ant-man",
           "t": "Ant-Man",
           "n": "2015",
           "w": 1.95,
           "tier": 2
+        },
+        {
+          "id": "mv-n-jessica-jones-season-1",
+          "t": "Jessica Jones season 1",
+          "n": "2015",
+          "w": 10.83,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Two · 13 episodes"
+        },
+        {
+          "id": "mv-f-2016-deadpool",
+          "t": "Deadpool",
+          "n": "2016",
+          "w": 1.8,
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Two"
+        },
+        {
+          "id": "mv-n-daredevil-season-2",
+          "t": "Daredevil season 2",
+          "n": "2016",
+          "w": 10.83,
+          "tier": 2,
+          "note": "Marvel Television — not part of Phase Two · 13 episodes"
         }
       ]
     },
@@ -344,15 +385,8 @@
       "id": "p3",
       "tier": 1,
       "title": "Phase Three",
-      "sub": "2015–2019 · 17 films · 37 hours",
+      "sub": "2015–2019 · 18 films and 10 seasons · 140 hours",
       "items": [
-        {
-          "id": "mv-f-2016-deadpool",
-          "t": "Deadpool",
-          "n": "2016",
-          "w": 1.8,
-          "tier": 3
-        },
         {
           "id": "mv-f-2016-captain-america-civil-war",
           "t": "Captain America: Civil War",
@@ -365,7 +399,8 @@
           "t": "X-Men: Apocalypse",
           "n": "2016",
           "w": 2.18,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Three"
         },
         {
           "id": "mv-f-2016-doctor-strange",
@@ -373,6 +408,14 @@
           "n": "2016",
           "w": 1.92,
           "tier": 2
+        },
+        {
+          "id": "mv-n-luke-cage-season-1",
+          "t": "Luke Cage season 1",
+          "n": "2016",
+          "w": 10.83,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 13 episodes"
         },
         {
           "id": "mv-f-2017-thor-ragnarok",
@@ -387,7 +430,15 @@
           "n": "2017",
           "w": 2.28,
           "tier": 3,
-          "note": "Outside the MCU, and the best of the Fox films"
+          "note": "Not an MCU film — it just came out during Phase Three · Outside the MCU, and the best of the Fox films"
+        },
+        {
+          "id": "mv-n-iron-fist-season-1",
+          "t": "Iron Fist season 1",
+          "n": "2017",
+          "w": 10.83,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 13 episodes"
         },
         {
           "id": "mv-f-2017-guardians-of-the-galaxy-vol-2",
@@ -404,11 +455,35 @@
           "tier": 2
         },
         {
+          "id": "mv-n-the-defenders-miniseries",
+          "t": "The Defenders",
+          "n": "2017",
+          "w": 6.67,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 8 episodes"
+        },
+        {
+          "id": "mv-n-the-punisher-season-1",
+          "t": "The Punisher season 1",
+          "n": "2017",
+          "w": 10.83,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 13 episodes"
+        },
+        {
           "id": "mv-f-2018-black-panther",
           "t": "Black Panther",
           "n": "2018",
           "w": 2.23,
           "tier": 1
+        },
+        {
+          "id": "mv-n-jessica-jones-season-2",
+          "t": "Jessica Jones season 2",
+          "n": "2018",
+          "w": 10.83,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 13 episodes"
         },
         {
           "id": "mv-f-2018-avengers-infinity-war",
@@ -422,7 +497,16 @@
           "t": "Deadpool 2",
           "n": "2018",
           "w": 1.98,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Three"
+        },
+        {
+          "id": "mv-n-luke-cage-season-2",
+          "t": "Luke Cage season 2",
+          "n": "2018",
+          "w": 10.83,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 13 episodes"
         },
         {
           "id": "mv-f-2018-ant-man-and-the-wasp",
@@ -432,18 +516,44 @@
           "tier": 2
         },
         {
+          "id": "mv-n-iron-fist-season-2",
+          "t": "Iron Fist season 2",
+          "n": "2018",
+          "w": 8.33,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 10 episodes"
+        },
+        {
           "id": "mv-f-2018-venom",
           "t": "Venom",
           "n": "2018",
           "w": 1.87,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Three"
+        },
+        {
+          "id": "mv-n-daredevil-season-3",
+          "t": "Daredevil season 3",
+          "n": "2018",
+          "w": 10.83,
+          "tier": 2,
+          "note": "Marvel Television — not part of Phase Three · 13 episodes"
+        },
+        {
+          "id": "mv-n-the-punisher-season-2",
+          "t": "The Punisher season 2",
+          "n": "2019",
+          "w": 10.83,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 13 episodes"
         },
         {
           "id": "mv-f-2019-dark-phoenix",
           "t": "Dark Phoenix",
           "n": "2019",
           "w": 1.9,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Three"
         },
         {
           "id": "mv-f-2019-captain-marvel",
@@ -461,11 +571,35 @@
           "note": "The end of the Infinity Saga"
         },
         {
+          "id": "mv-n-jessica-jones-season-3",
+          "t": "Jessica Jones season 3",
+          "n": "2019",
+          "w": 10.83,
+          "tier": 3,
+          "note": "Marvel Television — not part of Phase Three · 13 episodes"
+        },
+        {
           "id": "mv-f-2019-spider-man-far-from-home",
           "t": "Spider-Man: Far From Home",
           "n": "2019",
           "w": 2.17,
           "tier": 2
+        },
+        {
+          "id": "mv-f-2020-the-new-mutants",
+          "t": "The New Mutants",
+          "n": "2020",
+          "w": 1.57,
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Three"
+        },
+        {
+          "id": "mv-f-2021-venom-let-there-be-carnage",
+          "t": "Venom: Let There Be Carnage",
+          "n": "2021",
+          "w": 1.62,
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Three"
         }
       ],
       "intro": "The stretch the whole thing was built for, and the densest run of tier-1 entries on the list."
@@ -474,22 +608,8 @@
       "id": "p4",
       "tier": 1,
       "title": "Phase Four",
-      "sub": "2019–2022 · 10 films and 8 seasons · 62 hours",
+      "sub": "2019–2022 · 8 films and 8 seasons · 59 hours",
       "items": [
-        {
-          "id": "mv-f-2020-the-new-mutants",
-          "t": "The New Mutants",
-          "n": "2020",
-          "w": 1.57,
-          "tier": 3
-        },
-        {
-          "id": "mv-f-2021-venom-let-there-be-carnage",
-          "t": "Venom: Let There Be Carnage",
-          "n": "2021",
-          "w": 1.62,
-          "tier": 3
-        },
         {
           "id": "mv-t-2021-wandavision",
           "t": "WandaVision",
@@ -526,8 +646,7 @@
           "t": "Spider-Man: No Way Home",
           "n": "2021",
           "w": 2.47,
-          "tier": 1,
-          "note": "Pulls in both earlier Spider-Man film series"
+          "tier": 1
         },
         {
           "id": "mv-t-2021-what-if-season-1",
@@ -564,7 +683,8 @@
           "t": "Morbius",
           "n": "2022",
           "w": 2.07,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Four"
         },
         {
           "id": "mv-t-2022-moon-knight",
@@ -618,7 +738,7 @@
       "id": "p5",
       "tier": 1,
       "title": "Phase Five",
-      "sub": "2022–2025 · 9 films and 7 seasons · 55 hours",
+      "sub": "2022–2025 · 9 films and 8 seasons · 59 hours",
       "items": [
         {
           "id": "mv-f-2023-ant-man-and-the-wasp-quantumania",
@@ -670,7 +790,8 @@
           "t": "Kraven the Hunter",
           "n": "2024",
           "w": 2.12,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Five"
         },
         {
           "id": "mv-t-2024-echo",
@@ -685,7 +806,8 @@
           "t": "Madame Web",
           "n": "2024",
           "w": 1.93,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Five"
         },
         {
           "id": "mv-f-2024-deadpool-wolverine",
@@ -693,7 +815,7 @@
           "n": "2024",
           "w": 2.13,
           "tier": 2,
-          "note": "Where the Fox films formally join the MCU"
+          "note": "Marvel Studios' first R-rated film"
         },
         {
           "id": "mv-t-2024-agatha-all-along",
@@ -708,7 +830,8 @@
           "t": "Venom: The Last Dance",
           "n": "2024",
           "w": 1.82,
-          "tier": 3
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Five"
         },
         {
           "id": "mv-t-2025-your-friendly-neighborhood-spider-man",
@@ -739,15 +862,7 @@
           "n": "2025",
           "w": 2.1,
           "tier": 1
-        }
-      ]
-    },
-    {
-      "id": "p6",
-      "tier": 1,
-      "title": "Phase Six",
-      "sub": "2025– · 3 films and 6 seasons · 25 hours",
-      "items": [
+        },
         {
           "id": "mv-t-2025-ironheart",
           "t": "Ironheart",
@@ -755,7 +870,15 @@
           "w": 4.5,
           "tier": 3,
           "note": "6 episodes"
-        },
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "tier": 1,
+      "title": "Phase Six",
+      "sub": "2025– · 3 films and 5 seasons · 21 hours",
+      "items": [
         {
           "id": "mv-f-2025-the-fantastic-four-first-steps",
           "t": "The Fantastic Four: First Steps",
