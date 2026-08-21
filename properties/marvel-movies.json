@@ -1,8 +1,8 @@
 {
   "slug": "marvel-movies",
-  "title": "Marvel Movies",
-  "subtitle": "every film in release order, with the shows",
-  "kind": "films",
+  "title": "MCU Anthology",
+  "subtitle": "every Marvel film in release order, MCU or not",
+  "kind": "films & shows",
   "order": 15,
   "year": "1998–2026",
   "blurb": "76 films and 21 seasons in the order they came out — about 252 hours, tiered by how much the story needs each one.",

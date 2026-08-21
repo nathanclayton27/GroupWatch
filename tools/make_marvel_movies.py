@@ -207,9 +207,12 @@ def main():
 
     prop = {
         "slug": SLUG,
-        "title": "Marvel Movies",
-        "subtitle": "every film in release order, with the shows",
-        "kind": "films",
+        "title": "MCU Anthology",
+        # the list is wider than the MCU — Blade, the Fox X-Men films and the
+        # Sony ones are all in it — so the subtitle carries that rather than
+        # letting the name imply the list is MCU-only
+        "subtitle": "every Marvel film in release order, MCU or not",
+        "kind": "films & shows",
         "order": 15,
         "year": "1998–2026",
         "blurb": "%d films and %d seasons in the order they came out — about %d "
