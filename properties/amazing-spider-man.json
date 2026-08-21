@@ -56,6 +56,12 @@
       "title": "Prologue",
       "sub": "1962 · where it starts",
       "open": true,
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        }
+      ],
       "items": [
         {
           "id": "asm-af15",
@@ -387,6 +393,12 @@
       "title": "Lee & Romita Sr.",
       "sub": "#39–102 · 1966–71",
       "intro": "The art turns glossy, Peter goes to college, and the soap opera takes over the book.",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        }
+      ],
       "items": [
         {
           "id": "asm-39",
@@ -875,6 +887,12 @@
       "title": "Conway & Kane",
       "sub": "#103–149 · 1971–75",
       "intro": "The tonal hinge of the whole character. Read this stretch straight through — it's the densest run of consequence in the title's history.",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        }
+      ],
       "items": [
         {
           "id": "asm-103",
@@ -1222,6 +1240,12 @@
       "title": "Wolfman, Wein & the Late Seventies",
       "sub": "#150–200 · 1975–80",
       "intro": "Quieter and more procedural. This is the stretch where the unannotated issues outnumber the annotated ones by the widest margin — that's the era, not an omission.",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        }
+      ],
       "items": [
         {
           "id": "asm-150",
@@ -1578,6 +1602,12 @@
       "title": "Stern, Mantlo & the Hobgoblin",
       "sub": "#201–251 · 1980–84",
       "intro": "Roger Stern's run, roughly #224 onward, is one of the two or three best in the title's history: tight, character-driven, brilliantly plotted.",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        }
+      ],
       "items": [
         {
           "id": "asm-201",
@@ -2335,6 +2365,12 @@
       "title": "McFarlane, Larsen & the Early Nineties",
       "sub": "#301–350 · 1988–91",
       "intro": "Art-driven. Thinner storytelling than Stern, but these are the issues that fixed how a generation pictures the character.",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        }
+      ],
       "items": [
         {
           "id": "asm-301",
@@ -2677,6 +2713,12 @@
       "tier": 1,
       "title": "Carnage & Nineties Excess",
       "sub": "#351–393 · 1991–94 · plus the Maximum Carnage chapters",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        }
+      ],
       "items": [
         {
           "id": "asm-351",
@@ -2990,6 +3032,12 @@
       "title": "The Clone Saga",
       "sub": "#394–418 · 1994–96 · the ASM path, not the complete 200 issues",
       "intro": "The Clone Saga ran two years across five monthly titles and is genuinely enormous — roughly 200 issues read complete. It was also being rewritten in real time by editorial, so it contradicts itself.\n\nThese are the ASM issues plus the Revelations bookend, which is the recommended path and follows the plot fine. The completist alternative is the six Complete Clone Saga Epic volumes.",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        }
+      ],
       "items": [
         {
           "id": "asm-394",
@@ -3173,6 +3221,12 @@
       "tier": 1,
       "title": "The End of Volume One",
       "sub": "#419–441 · 1996–98",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+        }
+      ],
       "items": [
         {
           "id": "asm-419",
@@ -3550,6 +3604,12 @@
       "title": "J. Michael Straczynski begins",
       "sub": "vol. 2 #30–58 · 2001–03",
       "intro": "The last great sustained run before the reset.",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
+        }
+      ],
       "items": [
         {
           "id": "asm-v2-30",
@@ -3767,6 +3827,12 @@
       "title": "Renumbered to #500",
       "sub": "#500–528 · 2003–06 · up to the edge of Civil War",
       "intro": "Volume 2 #58 was followed by #500, resuming the original count.\n\nThis list stops at #528. What comes next is the Road to Civil War, and Spider-Man is close enough to the middle of that event that it gets its own list.",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
+        }
+      ],
       "items": [
         {
           "id": "asm-500",

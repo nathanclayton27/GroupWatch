@@ -20,6 +20,12 @@ LAST is the newest released chapter. Bump it and rerun.
 import json
 import pathlib
 
+# Viz publishes it in English and its reader is the one place every chapter
+# is legitimately available, so every volume points at the same series page —
+# there is no stable per-volume URL to point at instead.
+VIZ = "https://www.viz.com/shonenjump/chapters/one-piece"
+SERIES_LINK = [{"label": "Read on Viz", "url": VIZ}]
+
 SLUG = "one-piece-manga"
 LAST = 1190          # released 9 August 2026
 
@@ -221,6 +227,7 @@ def main():
             "id": "v-%d" % num,
             "title": "Volume %d" % num,
             "sub": "chapters %d–%d · %s" % (first, last, ", ".join(names)),
+            "links": SERIES_LINK,
             "items": [
                 {"id": "opm-%d" % c, "t": "Chapter", "n": str(c)}
                 for c in range(first, last + 1)
@@ -235,6 +242,7 @@ def main():
             "title": "Not yet collected",
             "sub": "chapters %d–%d · %s · no volume yet"
                    % (collected + 1, LAST, ", ".join(names)),
+            "links": SERIES_LINK,
             "items": [
                 {"id": "opm-%d" % c, "t": "Chapter", "n": str(c)}
                 for c in range(collected + 1, LAST + 1)

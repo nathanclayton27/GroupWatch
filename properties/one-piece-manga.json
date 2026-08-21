@@ -34,6 +34,12 @@
       "id": "v-1",
       "title": "Volume 1",
       "sub": "chapters 1–8 · Romance Dawn, Orange Town",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-1",
@@ -81,6 +87,12 @@
       "id": "v-2",
       "title": "Volume 2",
       "sub": "chapters 9–17 · Orange Town",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-9",
@@ -133,6 +145,12 @@
       "id": "v-3",
       "title": "Volume 3",
       "sub": "chapters 18–26 · Orange Town, Syrup Village",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-18",
@@ -185,6 +203,12 @@
       "id": "v-4",
       "title": "Volume 4",
       "sub": "chapters 27–35 · Syrup Village",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-27",
@@ -237,6 +261,12 @@
       "id": "v-5",
       "title": "Volume 5",
       "sub": "chapters 36–44 · Syrup Village, Baratie",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-36",
@@ -289,6 +319,12 @@
       "id": "v-6",
       "title": "Volume 6",
       "sub": "chapters 45–53 · Baratie",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-45",
@@ -341,6 +377,12 @@
       "id": "v-7",
       "title": "Volume 7",
       "sub": "chapters 54–62 · Baratie",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-54",
@@ -393,6 +435,12 @@
       "id": "v-8",
       "title": "Volume 8",
       "sub": "chapters 63–71 · Baratie, Arlong Park",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-63",
@@ -445,6 +493,12 @@
       "id": "v-9",
       "title": "Volume 9",
       "sub": "chapters 72–81 · Arlong Park",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-72",
@@ -502,6 +556,12 @@
       "id": "v-10",
       "title": "Volume 10",
       "sub": "chapters 82–90 · Arlong Park",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-82",
@@ -554,6 +614,12 @@
       "id": "v-11",
       "title": "Volume 11",
       "sub": "chapters 91–99 · Arlong Park, Loguetown",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-91",
@@ -606,6 +672,12 @@
       "id": "v-12",
       "title": "Volume 12",
       "sub": "chapters 100–108 · Loguetown, Reverse Mountain, Whisky Peak",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-100",
@@ -658,6 +730,12 @@
       "id": "v-13",
       "title": "Volume 13",
       "sub": "chapters 109–117 · Whisky Peak, Little Garden",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-109",
@@ -710,6 +788,12 @@
       "id": "v-14",
       "title": "Volume 14",
       "sub": "chapters 118–126 · Little Garden",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-118",
@@ -762,6 +846,12 @@
       "id": "v-15",
       "title": "Volume 15",
       "sub": "chapters 127–136 · Little Garden, Drum Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-127",
@@ -819,6 +909,12 @@
       "id": "v-16",
       "title": "Volume 16",
       "sub": "chapters 137–145 · Drum Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-137",
@@ -871,6 +967,12 @@
       "id": "v-17",
       "title": "Volume 17",
       "sub": "chapters 146–155 · Drum Island, Alabasta",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-146",
@@ -928,6 +1030,12 @@
       "id": "v-18",
       "title": "Volume 18",
       "sub": "chapters 156–166 · Alabasta",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-156",
@@ -990,6 +1098,12 @@
       "id": "v-19",
       "title": "Volume 19",
       "sub": "chapters 167–176 · Alabasta",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-167",
@@ -1047,6 +1161,12 @@
       "id": "v-20",
       "title": "Volume 20",
       "sub": "chapters 177–186 · Alabasta",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-177",
@@ -1104,6 +1224,12 @@
       "id": "v-21",
       "title": "Volume 21",
       "sub": "chapters 187–195 · Alabasta",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-187",
@@ -1156,6 +1282,12 @@
       "id": "v-22",
       "title": "Volume 22",
       "sub": "chapters 196–205 · Alabasta",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-196",
@@ -1213,6 +1345,12 @@
       "id": "v-23",
       "title": "Volume 23",
       "sub": "chapters 206–216 · Alabasta",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-206",
@@ -1275,6 +1413,12 @@
       "id": "v-24",
       "title": "Volume 24",
       "sub": "chapters 217–226 · Alabasta, Jaya",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-217",
@@ -1332,6 +1476,12 @@
       "id": "v-25",
       "title": "Volume 25",
       "sub": "chapters 227–236 · Jaya",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-227",
@@ -1389,6 +1539,12 @@
       "id": "v-26",
       "title": "Volume 26",
       "sub": "chapters 237–246 · Skypiea",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-237",
@@ -1446,6 +1602,12 @@
       "id": "v-27",
       "title": "Volume 27",
       "sub": "chapters 247–255 · Skypiea",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-247",
@@ -1498,6 +1660,12 @@
       "id": "v-28",
       "title": "Volume 28",
       "sub": "chapters 256–264 · Skypiea",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-256",
@@ -1550,6 +1718,12 @@
       "id": "v-29",
       "title": "Volume 29",
       "sub": "chapters 265–275 · Skypiea",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-265",
@@ -1612,6 +1786,12 @@
       "id": "v-30",
       "title": "Volume 30",
       "sub": "chapters 276–285 · Skypiea",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-276",
@@ -1669,6 +1849,12 @@
       "id": "v-31",
       "title": "Volume 31",
       "sub": "chapters 286–295 · Skypiea",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-286",
@@ -1726,6 +1912,12 @@
       "id": "v-32",
       "title": "Volume 32",
       "sub": "chapters 296–305 · Skypiea, Long Ring Long Land",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-296",
@@ -1783,6 +1975,12 @@
       "id": "v-33",
       "title": "Volume 33",
       "sub": "chapters 306–316 · Long Ring Long Land",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-306",
@@ -1845,6 +2043,12 @@
       "id": "v-34",
       "title": "Volume 34",
       "sub": "chapters 317–327 · Long Ring Long Land, Water Seven",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-317",
@@ -1907,6 +2111,12 @@
       "id": "v-35",
       "title": "Volume 35",
       "sub": "chapters 328–336 · Water Seven",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-328",
@@ -1959,6 +2169,12 @@
       "id": "v-36",
       "title": "Volume 36",
       "sub": "chapters 337–346 · Water Seven",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-337",
@@ -2016,6 +2232,12 @@
       "id": "v-37",
       "title": "Volume 37",
       "sub": "chapters 347–357 · Water Seven",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-347",
@@ -2078,6 +2300,12 @@
       "id": "v-38",
       "title": "Volume 38",
       "sub": "chapters 358–367 · Water Seven",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-358",
@@ -2135,6 +2363,12 @@
       "id": "v-39",
       "title": "Volume 39",
       "sub": "chapters 368–377 · Water Seven, Enies Lobby",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-368",
@@ -2192,6 +2426,12 @@
       "id": "v-40",
       "title": "Volume 40",
       "sub": "chapters 378–388 · Enies Lobby",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-378",
@@ -2254,6 +2494,12 @@
       "id": "v-41",
       "title": "Volume 41",
       "sub": "chapters 389–399 · Enies Lobby",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-389",
@@ -2316,6 +2562,12 @@
       "id": "v-42",
       "title": "Volume 42",
       "sub": "chapters 400–409 · Enies Lobby",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-400",
@@ -2373,6 +2625,12 @@
       "id": "v-43",
       "title": "Volume 43",
       "sub": "chapters 410–419 · Enies Lobby",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-410",
@@ -2430,6 +2688,12 @@
       "id": "v-44",
       "title": "Volume 44",
       "sub": "chapters 420–430 · Enies Lobby",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-420",
@@ -2492,6 +2756,12 @@
       "id": "v-45",
       "title": "Volume 45",
       "sub": "chapters 431–440 · Post-Enies Lobby",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-431",
@@ -2549,6 +2819,12 @@
       "id": "v-46",
       "title": "Volume 46",
       "sub": "chapters 441–449 · Post-Enies Lobby, Thriller Bark",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-441",
@@ -2601,6 +2877,12 @@
       "id": "v-47",
       "title": "Volume 47",
       "sub": "chapters 450–459 · Thriller Bark",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-450",
@@ -2658,6 +2940,12 @@
       "id": "v-48",
       "title": "Volume 48",
       "sub": "chapters 460–470 · Thriller Bark",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-460",
@@ -2720,6 +3008,12 @@
       "id": "v-49",
       "title": "Volume 49",
       "sub": "chapters 471–481 · Thriller Bark",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-471",
@@ -2782,6 +3076,12 @@
       "id": "v-50",
       "title": "Volume 50",
       "sub": "chapters 482–491 · Thriller Bark, Sabaody Archipelago",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-482",
@@ -2839,6 +3139,12 @@
       "id": "v-51",
       "title": "Volume 51",
       "sub": "chapters 492–502 · Sabaody Archipelago",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-492",
@@ -2901,6 +3207,12 @@
       "id": "v-52",
       "title": "Volume 52",
       "sub": "chapters 503–512 · Sabaody Archipelago",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-503",
@@ -2958,6 +3270,12 @@
       "id": "v-53",
       "title": "Volume 53",
       "sub": "chapters 513–522 · Sabaody Archipelago, Amazon Lily",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-513",
@@ -3015,6 +3333,12 @@
       "id": "v-54",
       "title": "Volume 54",
       "sub": "chapters 523–532 · Amazon Lily, Impel Down",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-523",
@@ -3072,6 +3396,12 @@
       "id": "v-55",
       "title": "Volume 55",
       "sub": "chapters 533–541 · Impel Down",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-533",
@@ -3124,6 +3454,12 @@
       "id": "v-56",
       "title": "Volume 56",
       "sub": "chapters 542–551 · Impel Down, Marineford",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-542",
@@ -3181,6 +3517,12 @@
       "id": "v-57",
       "title": "Volume 57",
       "sub": "chapters 552–562 · Marineford",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-552",
@@ -3243,6 +3585,12 @@
       "id": "v-58",
       "title": "Volume 58",
       "sub": "chapters 563–573 · Marineford",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-563",
@@ -3305,6 +3653,12 @@
       "id": "v-59",
       "title": "Volume 59",
       "sub": "chapters 574–584 · Marineford, Post-War",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-574",
@@ -3367,6 +3721,12 @@
       "id": "v-60",
       "title": "Volume 60",
       "sub": "chapters 585–594 · Post-War",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-585",
@@ -3424,6 +3784,12 @@
       "id": "v-61",
       "title": "Volume 61",
       "sub": "chapters 595–603 · Post-War, Return to Sabaody, Fish-Man Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-595",
@@ -3476,6 +3842,12 @@
       "id": "v-62",
       "title": "Volume 62",
       "sub": "chapters 604–614 · Fish-Man Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-604",
@@ -3538,6 +3910,12 @@
       "id": "v-63",
       "title": "Volume 63",
       "sub": "chapters 615–626 · Fish-Man Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-615",
@@ -3605,6 +3983,12 @@
       "id": "v-64",
       "title": "Volume 64",
       "sub": "chapters 627–636 · Fish-Man Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-627",
@@ -3662,6 +4046,12 @@
       "id": "v-65",
       "title": "Volume 65",
       "sub": "chapters 637–646 · Fish-Man Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-637",
@@ -3719,6 +4109,12 @@
       "id": "v-66",
       "title": "Volume 66",
       "sub": "chapters 647–656 · Fish-Man Island, Punk Hazard",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-647",
@@ -3776,6 +4172,12 @@
       "id": "v-67",
       "title": "Volume 67",
       "sub": "chapters 657–667 · Punk Hazard",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-657",
@@ -3838,6 +4240,12 @@
       "id": "v-68",
       "title": "Volume 68",
       "sub": "chapters 668–678 · Punk Hazard",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-668",
@@ -3900,6 +4308,12 @@
       "id": "v-69",
       "title": "Volume 69",
       "sub": "chapters 679–690 · Punk Hazard",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-679",
@@ -3967,6 +4381,12 @@
       "id": "v-70",
       "title": "Volume 70",
       "sub": "chapters 691–700 · Punk Hazard, Dressrosa",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-691",
@@ -4024,6 +4444,12 @@
       "id": "v-71",
       "title": "Volume 71",
       "sub": "chapters 701–711 · Dressrosa",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-701",
@@ -4086,6 +4512,12 @@
       "id": "v-72",
       "title": "Volume 72",
       "sub": "chapters 712–721 · Dressrosa",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-712",
@@ -4143,6 +4575,12 @@
       "id": "v-73",
       "title": "Volume 73",
       "sub": "chapters 722–731 · Dressrosa",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-722",
@@ -4200,6 +4638,12 @@
       "id": "v-74",
       "title": "Volume 74",
       "sub": "chapters 732–742 · Dressrosa",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-732",
@@ -4262,6 +4706,12 @@
       "id": "v-75",
       "title": "Volume 75",
       "sub": "chapters 743–752 · Dressrosa",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-743",
@@ -4319,6 +4769,12 @@
       "id": "v-76",
       "title": "Volume 76",
       "sub": "chapters 753–763 · Dressrosa",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-753",
@@ -4381,6 +4837,12 @@
       "id": "v-77",
       "title": "Volume 77",
       "sub": "chapters 764–775 · Dressrosa",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-764",
@@ -4448,6 +4910,12 @@
       "id": "v-78",
       "title": "Volume 78",
       "sub": "chapters 776–785 · Dressrosa",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-776",
@@ -4505,6 +4973,12 @@
       "id": "v-79",
       "title": "Volume 79",
       "sub": "chapters 786–795 · Dressrosa",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-786",
@@ -4562,6 +5036,12 @@
       "id": "v-80",
       "title": "Volume 80",
       "sub": "chapters 796–806 · Dressrosa, Zou",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-796",
@@ -4624,6 +5104,12 @@
       "id": "v-81",
       "title": "Volume 81",
       "sub": "chapters 807–816 · Zou",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-807",
@@ -4681,6 +5167,12 @@
       "id": "v-82",
       "title": "Volume 82",
       "sub": "chapters 817–827 · Zou, Whole Cake Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-817",
@@ -4743,6 +5235,12 @@
       "id": "v-83",
       "title": "Volume 83",
       "sub": "chapters 828–838 · Whole Cake Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-828",
@@ -4805,6 +5303,12 @@
       "id": "v-84",
       "title": "Volume 84",
       "sub": "chapters 839–848 · Whole Cake Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-839",
@@ -4862,6 +5366,12 @@
       "id": "v-85",
       "title": "Volume 85",
       "sub": "chapters 849–858 · Whole Cake Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-849",
@@ -4919,6 +5429,12 @@
       "id": "v-86",
       "title": "Volume 86",
       "sub": "chapters 859–869 · Whole Cake Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-859",
@@ -4981,6 +5497,12 @@
       "id": "v-87",
       "title": "Volume 87",
       "sub": "chapters 870–879 · Whole Cake Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-870",
@@ -5038,6 +5560,12 @@
       "id": "v-88",
       "title": "Volume 88",
       "sub": "chapters 880–889 · Whole Cake Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-880",
@@ -5095,6 +5623,12 @@
       "id": "v-89",
       "title": "Volume 89",
       "sub": "chapters 890–900 · Whole Cake Island",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-890",
@@ -5157,6 +5691,12 @@
       "id": "v-90",
       "title": "Volume 90",
       "sub": "chapters 901–910 · Whole Cake Island, Reverie, Wano: Act 1",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-901",
@@ -5214,6 +5754,12 @@
       "id": "v-91",
       "title": "Volume 91",
       "sub": "chapters 911–921 · Wano: Act 1",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-911",
@@ -5276,6 +5822,12 @@
       "id": "v-92",
       "title": "Volume 92",
       "sub": "chapters 922–931 · Wano: Act 1, Wano: Act 2",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-922",
@@ -5333,6 +5885,12 @@
       "id": "v-93",
       "title": "Volume 93",
       "sub": "chapters 932–942 · Wano: Act 2",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-932",
@@ -5395,6 +5953,12 @@
       "id": "v-94",
       "title": "Volume 94",
       "sub": "chapters 943–953 · Wano: Act 2",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-943",
@@ -5457,6 +6021,12 @@
       "id": "v-95",
       "title": "Volume 95",
       "sub": "chapters 954–964 · Wano: Act 2, Wano: Act 3",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-954",
@@ -5519,6 +6089,12 @@
       "id": "v-96",
       "title": "Volume 96",
       "sub": "chapters 965–974 · Wano: Act 3",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-965",
@@ -5576,6 +6152,12 @@
       "id": "v-97",
       "title": "Volume 97",
       "sub": "chapters 975–984 · Wano: Act 3",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-975",
@@ -5633,6 +6215,12 @@
       "id": "v-98",
       "title": "Volume 98",
       "sub": "chapters 985–994 · Wano: Act 3",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-985",
@@ -5690,6 +6278,12 @@
       "id": "v-99",
       "title": "Volume 99",
       "sub": "chapters 995–1004 · Wano: Act 3",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-995",
@@ -5747,6 +6341,12 @@
       "id": "v-100",
       "title": "Volume 100",
       "sub": "chapters 1005–1015 · Wano: Act 3",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-1005",
@@ -5809,6 +6409,12 @@
       "id": "v-101",
       "title": "Volume 101",
       "sub": "chapters 1016–1025 · Wano: Act 3",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-1016",
@@ -5866,6 +6472,12 @@
       "id": "v-102",
       "title": "Volume 102",
       "sub": "chapters 1026–1035 · Wano: Act 3",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-1026",
@@ -5923,6 +6535,12 @@
       "id": "v-103",
       "title": "Volume 103",
       "sub": "chapters 1036–1046 · Wano: Act 3",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-1036",
@@ -5985,6 +6603,12 @@
       "id": "v-104",
       "title": "Volume 104",
       "sub": "chapters 1047–1055 · Wano: Act 3",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-1047",
@@ -6037,6 +6661,12 @@
       "id": "v-105",
       "title": "Volume 105",
       "sub": "chapters 1056–1065 · Wano: Act 3, Egghead",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-1056",
@@ -6094,6 +6724,12 @@
       "id": "v-106",
       "title": "Volume 106",
       "sub": "chapters 1066–1076 · Egghead",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-1066",
@@ -6156,6 +6792,12 @@
       "id": "v-uncollected",
       "title": "Not yet collected",
       "sub": "chapters 1077–1190 · Egghead, Elbaf · no volume yet",
+      "links": [
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/one-piece"
+        }
+      ],
       "items": [
         {
           "id": "opm-1077",

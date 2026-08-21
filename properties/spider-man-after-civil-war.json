@@ -5,12 +5,8 @@
   "kind": "comics",
   "order": 13,
   "year": "2007–",
-  "blurb": "The end of the classic run, then eighteen years of recommendations rather than a list to finish.",
+  "blurb": "The end of the classic run, then eighteen years of recommendations — 353 issues, tracked one by one.",
   "unit": {
-    "one": "entry",
-    "many": "entries"
-  },
-  "weightUnit": {
     "one": "issue",
     "many": "issues"
   },
@@ -34,15 +30,15 @@
     ],
     [
       "Tiers.",
-      "1 is Back in Black and One More Day, every issue, finishing the story the earlier lists were telling. 2 is Superior Spider-Man, the one run every guide singles out. 3 is the rest — recommendations, not a list to complete, and outside the finish date."
+      "1 is Back in Black and One More Day, finishing the story the earlier lists were telling. 2 is Superior Spider-Man, the one run every guide singles out. 3 is the rest — recommendations, not a list to complete, and outside the finish date."
+    ],
+    [
+      "Brand New Day and Big Time are selective.",
+      "Those two sections list the arcs worth reading rather than every issue of a hundred-issue stretch, which is how the source frames them. Every other section is complete."
     ],
     [
       "No spoilers.",
       "The notes say what an entry is, never what happens in it. The eighteen years covered here are the most contested period in the character's history and the arguments are easy to find; none of them are here."
-    ],
-    [
-      "Part Two entries count as one each.",
-      "They are single decisions — whether you read that run — rather than a queue to be paced through, so Ultimate Spider-Man's 160 issues don't swallow the bar. The real lengths are in the issue numbers beside each one."
     ],
     "Selections from the checklist written for the group; the annotations are rewritten from it rather than copied, because that document spoils freely."
   ],
@@ -65,7 +61,6 @@
           "id": "asm-539",
           "t": "Amazing Spider-Man",
           "n": "#539",
-          "w": 1,
           "note": "“Back in Black” begins",
           "star": 1
         },
@@ -73,7 +68,6 @@
           "id": "asm-540",
           "t": "Amazing Spider-Man",
           "n": "#540",
-          "w": 1,
           "note": "Back in Black",
           "star": 1
         },
@@ -81,7 +75,6 @@
           "id": "asm-541",
           "t": "Amazing Spider-Man",
           "n": "#541",
-          "w": 1,
           "note": "Back in Black",
           "star": 1
         },
@@ -89,7 +82,6 @@
           "id": "asm-542",
           "t": "Amazing Spider-Man",
           "n": "#542",
-          "w": 1,
           "note": "Back in Black",
           "star": 1
         },
@@ -97,7 +89,6 @@
           "id": "asm-543",
           "t": "Amazing Spider-Man",
           "n": "#543",
-          "w": 1,
           "note": "Back in Black, part 5",
           "star": 1
         }
@@ -108,34 +99,36 @@
       "tier": 1,
       "title": "One More Day",
       "sub": "2007 · four issues, in exactly this order",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
+        }
+      ],
       "intro": "The most argued-about editorial decision in the character's history, and the line the classic run ends on. Best read in one sitting — and plenty of readers stop here on purpose.",
       "items": [
         {
           "id": "asm-544",
           "t": "Amazing Spider-Man",
           "n": "#544",
-          "w": 1,
           "note": "One More Day, part 1"
         },
         {
           "id": "asm-omd-2",
           "t": "Friendly Neighborhood Spider-Man",
           "n": "#24",
-          "w": 1,
           "note": "One More Day, part 2"
         },
         {
           "id": "asm-omd-3",
           "t": "Sensational Spider-Man",
           "n": "#41",
-          "w": 1,
           "note": "One More Day, part 3"
         },
         {
           "id": "asm-545",
           "t": "Amazing Spider-Man",
           "n": "#545",
-          "w": 1,
           "note": "One More Day, part 4",
           "star": 2
         }
@@ -145,70 +138,230 @@
       "id": "bnd",
       "tier": 3,
       "title": "Brand New Day",
-      "sub": "#546–647 · 2008–10 · selected arcs",
+      "sub": "2008–10 · the arcs worth reading, issue by issue",
       "links": [
         {
           "label": "The series",
           "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
         }
       ],
-      "intro": "From here on this is a set of recommendations, not a list to finish. Three issues a month, rotating writers. Peter is single, broke and back in Queens. Better than its reputation; the arcs are often sharp even if the premise is the thing people object to.",
+      "intro": "From here on this is a set of recommendations rather than a list to finish, so these are the arcs the source picks out of a hundred-issue stretch — not every issue of it. Three issues a month, rotating writers, Peter single and broke and back in Queens. Better than its reputation.",
       "items": [
         {
-          "id": "asm-bnd-546",
-          "t": "The new status quo",
-          "n": "#546–548",
-          "w": 1,
-          "note": "Slott and McNiven"
+          "id": "asm-546",
+          "t": "Amazing Spider-Man",
+          "n": "#546",
+          "note": "The new status quo — Slott and McNiven"
         },
         {
-          "id": "asm-bnd-568",
-          "t": "“New Ways to Die”",
-          "n": "#568–573",
-          "w": 1,
-          "note": "Slott and John Romita Jr. The best Brand New Day arc.",
+          "id": "asm-547",
+          "t": "Amazing Spider-Man",
+          "n": "#547"
+        },
+        {
+          "id": "asm-548",
+          "t": "Amazing Spider-Man",
+          "n": "#548"
+        },
+        {
+          "id": "asm-568",
+          "t": "Amazing Spider-Man",
+          "n": "#568",
+          "note": "“New Ways to Die” begins — Slott and John Romita Jr.",
           "star": 1
         },
         {
-          "id": "asm-bnd-595",
-          "t": "“American Son”",
-          "n": "#595–599",
-          "w": 1
+          "id": "asm-569",
+          "t": "Amazing Spider-Man",
+          "n": "#569"
         },
         {
-          "id": "asm-bnd-600",
-          "t": "Anniversary issue",
+          "id": "asm-570",
+          "t": "Amazing Spider-Man",
+          "n": "#570"
+        },
+        {
+          "id": "asm-571",
+          "t": "Amazing Spider-Man",
+          "n": "#571"
+        },
+        {
+          "id": "asm-572",
+          "t": "Amazing Spider-Man",
+          "n": "#572"
+        },
+        {
+          "id": "asm-573",
+          "t": "Amazing Spider-Man",
+          "n": "#573"
+        },
+        {
+          "id": "asm-595",
+          "t": "Amazing Spider-Man",
+          "n": "#595",
+          "note": "“American Son” begins"
+        },
+        {
+          "id": "asm-596",
+          "t": "Amazing Spider-Man",
+          "n": "#596"
+        },
+        {
+          "id": "asm-597",
+          "t": "Amazing Spider-Man",
+          "n": "#597"
+        },
+        {
+          "id": "asm-598",
+          "t": "Amazing Spider-Man",
+          "n": "#598"
+        },
+        {
+          "id": "asm-599",
+          "t": "Amazing Spider-Man",
+          "n": "#599"
+        },
+        {
+          "id": "asm-600",
+          "t": "Amazing Spider-Man",
           "n": "#600",
-          "w": 1
+          "note": "Anniversary issue"
         },
         {
-          "id": "asm-bnd-612",
-          "t": "“The Gauntlet”",
-          "n": "#612–623",
-          "w": 1,
-          "note": "A systematic reintroduction of the rogues gallery"
+          "id": "asm-612",
+          "t": "Amazing Spider-Man",
+          "n": "#612",
+          "note": "“The Gauntlet” begins — a systematic reintroduction of the rogues"
         },
         {
-          "id": "asm-bnd-630",
-          "t": "“Shed”",
-          "n": "#630–633",
-          "w": 1,
-          "note": "Zeb Wells and Chris Bachalo on the Lizard. Genuinely disturbing, genuinely great.",
+          "id": "asm-613",
+          "t": "Amazing Spider-Man",
+          "n": "#613"
+        },
+        {
+          "id": "asm-614",
+          "t": "Amazing Spider-Man",
+          "n": "#614"
+        },
+        {
+          "id": "asm-615",
+          "t": "Amazing Spider-Man",
+          "n": "#615"
+        },
+        {
+          "id": "asm-616",
+          "t": "Amazing Spider-Man",
+          "n": "#616"
+        },
+        {
+          "id": "asm-617",
+          "t": "Amazing Spider-Man",
+          "n": "#617"
+        },
+        {
+          "id": "asm-618",
+          "t": "Amazing Spider-Man",
+          "n": "#618"
+        },
+        {
+          "id": "asm-619",
+          "t": "Amazing Spider-Man",
+          "n": "#619"
+        },
+        {
+          "id": "asm-620",
+          "t": "Amazing Spider-Man",
+          "n": "#620"
+        },
+        {
+          "id": "asm-621",
+          "t": "Amazing Spider-Man",
+          "n": "#621"
+        },
+        {
+          "id": "asm-622",
+          "t": "Amazing Spider-Man",
+          "n": "#622"
+        },
+        {
+          "id": "asm-623",
+          "t": "Amazing Spider-Man",
+          "n": "#623"
+        },
+        {
+          "id": "asm-630",
+          "t": "Amazing Spider-Man",
+          "n": "#630",
+          "note": "“Shed” begins — Zeb Wells and Chris Bachalo on the Lizard",
           "star": 1
         },
         {
-          "id": "asm-bnd-634",
-          "t": "“Grim Hunt”",
-          "n": "#634–637",
-          "w": 1,
-          "note": "The sequel to Kraven's Last Hunt, 23 years later",
+          "id": "asm-631",
+          "t": "Amazing Spider-Man",
+          "n": "#631"
+        },
+        {
+          "id": "asm-632",
+          "t": "Amazing Spider-Man",
+          "n": "#632"
+        },
+        {
+          "id": "asm-633",
+          "t": "Amazing Spider-Man",
+          "n": "#633"
+        },
+        {
+          "id": "asm-634",
+          "t": "Amazing Spider-Man",
+          "n": "#634",
+          "note": "“Grim Hunt” begins — the sequel to Kraven's Last Hunt, 23 years on",
           "star": 1
         },
         {
-          "id": "asm-bnd-642",
-          "t": "“Origin of the Species”",
-          "n": "#642–647",
-          "w": 1
+          "id": "asm-635",
+          "t": "Amazing Spider-Man",
+          "n": "#635"
+        },
+        {
+          "id": "asm-636",
+          "t": "Amazing Spider-Man",
+          "n": "#636"
+        },
+        {
+          "id": "asm-637",
+          "t": "Amazing Spider-Man",
+          "n": "#637"
+        },
+        {
+          "id": "asm-642",
+          "t": "Amazing Spider-Man",
+          "n": "#642",
+          "note": "“Origin of the Species” begins"
+        },
+        {
+          "id": "asm-643",
+          "t": "Amazing Spider-Man",
+          "n": "#643"
+        },
+        {
+          "id": "asm-644",
+          "t": "Amazing Spider-Man",
+          "n": "#644"
+        },
+        {
+          "id": "asm-645",
+          "t": "Amazing Spider-Man",
+          "n": "#645"
+        },
+        {
+          "id": "asm-646",
+          "t": "Amazing Spider-Man",
+          "n": "#646"
+        },
+        {
+          "id": "asm-647",
+          "t": "Amazing Spider-Man",
+          "n": "#647"
         }
       ]
     },
@@ -216,31 +369,104 @@
       "id": "bigtime",
       "tier": 3,
       "title": "Dan Slott solo: Big Time",
-      "sub": "#648–700 · 2010–13 · selected arcs",
+      "sub": "2010–13 · the arcs worth reading, issue by issue",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
+        }
+      ],
       "intro": "Peter takes a job at Horizon Labs. Brighter, gadget-heavy, more optimistic.",
       "items": [
         {
-          "id": "asm-bt-666",
-          "t": "“Spider-Island”",
-          "n": "#666–673",
-          "w": 1,
-          "note": "All of Manhattan gets spider-powers. Big, fun, well-built.",
+          "id": "asm-666",
+          "t": "Amazing Spider-Man",
+          "n": "#666",
+          "note": "“Spider-Island” begins — all of Manhattan gets spider-powers",
           "star": 1
         },
         {
-          "id": "asm-bt-682",
-          "t": "“Ends of the Earth”",
-          "n": "#682–687",
-          "w": 1,
-          "note": "Doc Ock"
+          "id": "asm-667",
+          "t": "Amazing Spider-Man",
+          "n": "#667"
         },
         {
-          "id": "asm-bt-698",
-          "t": "“Dying Wish”",
-          "n": "#698–700",
-          "w": 1,
-          "note": "The end of Slott's first era, and the run that leads into Superior",
+          "id": "asm-668",
+          "t": "Amazing Spider-Man",
+          "n": "#668"
+        },
+        {
+          "id": "asm-669",
+          "t": "Amazing Spider-Man",
+          "n": "#669"
+        },
+        {
+          "id": "asm-670",
+          "t": "Amazing Spider-Man",
+          "n": "#670"
+        },
+        {
+          "id": "asm-671",
+          "t": "Amazing Spider-Man",
+          "n": "#671"
+        },
+        {
+          "id": "asm-672",
+          "t": "Amazing Spider-Man",
+          "n": "#672"
+        },
+        {
+          "id": "asm-673",
+          "t": "Amazing Spider-Man",
+          "n": "#673"
+        },
+        {
+          "id": "asm-682",
+          "t": "Amazing Spider-Man",
+          "n": "#682",
+          "note": "“Ends of the Earth” begins — Doc Ock"
+        },
+        {
+          "id": "asm-683",
+          "t": "Amazing Spider-Man",
+          "n": "#683"
+        },
+        {
+          "id": "asm-684",
+          "t": "Amazing Spider-Man",
+          "n": "#684"
+        },
+        {
+          "id": "asm-685",
+          "t": "Amazing Spider-Man",
+          "n": "#685"
+        },
+        {
+          "id": "asm-686",
+          "t": "Amazing Spider-Man",
+          "n": "#686"
+        },
+        {
+          "id": "asm-687",
+          "t": "Amazing Spider-Man",
+          "n": "#687"
+        },
+        {
+          "id": "asm-698",
+          "t": "Amazing Spider-Man",
+          "n": "#698",
+          "note": "“Dying Wish” begins — the end of Slott's first era",
           "star": 2
+        },
+        {
+          "id": "asm-699",
+          "t": "Amazing Spider-Man",
+          "n": "#699"
+        },
+        {
+          "id": "asm-700",
+          "t": "Amazing Spider-Man",
+          "n": "#700"
         }
       ]
     },
@@ -258,99 +484,1551 @@
       "intro": "The most contentious relaunch in the character's history — greeted with fury on announcement, and now widely considered the best Spider-Man run of the century. Thirty-three issues, finished, and it goes somewhere the main title never could.",
       "items": [
         {
-          "id": "asm-superior",
+          "id": "sup-1",
           "t": "Superior Spider-Man",
-          "n": "#1–33",
-          "w": 1,
-          "star": 2,
-          "url": "https://www.marvel.com/comics/series/17554/superior_spiderman_2013_2014"
-        }
-      ]
-    },
-    {
-      "id": "modern",
-      "tier": 3,
-      "title": "The modern volumes",
-      "sub": "2014 to now · Marvel Unlimited finds each by exact title and year",
-      "items": [
-        {
-          "id": "asm-m-2014",
-          "t": "Amazing Spider-Man (2014)",
-          "n": "#1–18",
-          "w": 1,
-          "note": "Contains “Spider-Verse” (#9–15), the crossover the animated films drew from.",
-          "star": 1
-        },
-        {
-          "id": "asm-m-2015",
-          "t": "Amazing Spider-Man (2015–17)",
-          "n": "#1–32, #789–801",
-          "w": 1,
-          "note": "Parker Industries; Peter as globe-trotting CEO. Divisive, but Slott's finale in #801 is genuinely lovely."
-        },
-        {
-          "id": "asm-m-2018",
-          "t": "Amazing Spider-Man (2018–22)",
-          "n": "#1–74",
-          "w": 1,
-          "note": "Nick Spencer, and the best-regarded modern run on the main title. Highlights: “Hunted” (#16–23) and “Last Remains” (#50–55).",
-          "star": 1
-        },
-        {
-          "id": "asm-m-2022",
-          "t": "Amazing Spider-Man (2022–25)",
-          "n": "#1–70",
-          "w": 1,
-          "note": "Zeb Wells. The run that broke a lot of people's patience.",
-          "url": "https://www.marvel.com/comics/series/32866/the_amazing_spiderman_2022_2025"
-        },
-        {
-          "id": "asm-m-2025",
-          "t": "Amazing Spider-Man (2025– )",
-          "n": "#1–34",
-          "w": 1,
-          "note": "Joe Kelly and Pepe Larraz, twice monthly and well received, building to ASM #1000 in September 2026. Marvel Unlimited adds issues about three months after print.",
-          "url": "https://www.marvel.com/comics/series/41731/the_amazing_spiderman_2025_present"
-        }
-      ]
-    },
-    {
-      "id": "outside",
-      "tier": 3,
-      "title": "Outside continuity",
-      "sub": "where a lot of the best modern Spider-Man actually lives",
-      "items": [
-        {
-          "id": "asm-lifestory",
-          "t": "Spider-Man: Life Story",
-          "n": "#1–6",
-          "w": 1,
-          "note": "Zdarsky and Bagley. One issue per decade, Peter ageing in real time from 1962. Self-contained, and arguably the finest Spider-Man comic of the last twenty years.",
+          "n": "#1",
           "star": 2
         },
         {
-          "id": "asm-ult2024",
-          "t": "Ultimate Spider-Man (2024–26)",
-          "n": "#1–24",
-          "w": 1,
-          "note": "Hickman and Checchetto. A complete, finished run — Peter becomes Spider-Man in his mid-thirties, already married with two kids.",
-          "star": 1,
-          "url": "https://www.marvel.com/comics/series/38809/ultimate_spider-man_2024_-_present"
+          "id": "sup-2",
+          "t": "Superior Spider-Man",
+          "n": "#2"
         },
         {
-          "id": "asm-ult2000",
-          "t": "Ultimate Spider-Man (2000–11)",
-          "n": "#1–160",
-          "w": 1,
-          "note": "Bendis and Bagley. Separate continuity, retells the origin, runs eleven years. One of the great long runs in Marvel history.",
+          "id": "sup-3",
+          "t": "Superior Spider-Man",
+          "n": "#3"
+        },
+        {
+          "id": "sup-4",
+          "t": "Superior Spider-Man",
+          "n": "#4"
+        },
+        {
+          "id": "sup-5",
+          "t": "Superior Spider-Man",
+          "n": "#5"
+        },
+        {
+          "id": "sup-6",
+          "t": "Superior Spider-Man",
+          "n": "#6"
+        },
+        {
+          "id": "sup-7",
+          "t": "Superior Spider-Man",
+          "n": "#7"
+        },
+        {
+          "id": "sup-8",
+          "t": "Superior Spider-Man",
+          "n": "#8"
+        },
+        {
+          "id": "sup-9",
+          "t": "Superior Spider-Man",
+          "n": "#9"
+        },
+        {
+          "id": "sup-10",
+          "t": "Superior Spider-Man",
+          "n": "#10"
+        },
+        {
+          "id": "sup-11",
+          "t": "Superior Spider-Man",
+          "n": "#11"
+        },
+        {
+          "id": "sup-12",
+          "t": "Superior Spider-Man",
+          "n": "#12"
+        },
+        {
+          "id": "sup-13",
+          "t": "Superior Spider-Man",
+          "n": "#13"
+        },
+        {
+          "id": "sup-14",
+          "t": "Superior Spider-Man",
+          "n": "#14"
+        },
+        {
+          "id": "sup-15",
+          "t": "Superior Spider-Man",
+          "n": "#15"
+        },
+        {
+          "id": "sup-16",
+          "t": "Superior Spider-Man",
+          "n": "#16"
+        },
+        {
+          "id": "sup-17",
+          "t": "Superior Spider-Man",
+          "n": "#17"
+        },
+        {
+          "id": "sup-18",
+          "t": "Superior Spider-Man",
+          "n": "#18"
+        },
+        {
+          "id": "sup-19",
+          "t": "Superior Spider-Man",
+          "n": "#19"
+        },
+        {
+          "id": "sup-20",
+          "t": "Superior Spider-Man",
+          "n": "#20"
+        },
+        {
+          "id": "sup-21",
+          "t": "Superior Spider-Man",
+          "n": "#21"
+        },
+        {
+          "id": "sup-22",
+          "t": "Superior Spider-Man",
+          "n": "#22"
+        },
+        {
+          "id": "sup-23",
+          "t": "Superior Spider-Man",
+          "n": "#23"
+        },
+        {
+          "id": "sup-24",
+          "t": "Superior Spider-Man",
+          "n": "#24"
+        },
+        {
+          "id": "sup-25",
+          "t": "Superior Spider-Man",
+          "n": "#25"
+        },
+        {
+          "id": "sup-26",
+          "t": "Superior Spider-Man",
+          "n": "#26"
+        },
+        {
+          "id": "sup-27",
+          "t": "Superior Spider-Man",
+          "n": "#27"
+        },
+        {
+          "id": "sup-28",
+          "t": "Superior Spider-Man",
+          "n": "#28"
+        },
+        {
+          "id": "sup-29",
+          "t": "Superior Spider-Man",
+          "n": "#29"
+        },
+        {
+          "id": "sup-30",
+          "t": "Superior Spider-Man",
+          "n": "#30"
+        },
+        {
+          "id": "sup-31",
+          "t": "Superior Spider-Man",
+          "n": "#31"
+        },
+        {
+          "id": "sup-32",
+          "t": "Superior Spider-Man",
+          "n": "#32"
+        },
+        {
+          "id": "sup-33",
+          "t": "Superior Spider-Man",
+          "n": "#33"
+        }
+      ]
+    },
+    {
+      "id": "asm2014",
+      "tier": 3,
+      "title": "Amazing Spider-Man (2014)",
+      "sub": "#1–18 · Peter returns",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/17285/the_amazing_spiderman_2014_2015"
+        }
+      ],
+      "items": [
+        {
+          "id": "asm14-1",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#1"
+        },
+        {
+          "id": "asm14-2",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#2"
+        },
+        {
+          "id": "asm14-3",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#3"
+        },
+        {
+          "id": "asm14-4",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#4"
+        },
+        {
+          "id": "asm14-5",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#5"
+        },
+        {
+          "id": "asm14-6",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#6"
+        },
+        {
+          "id": "asm14-7",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#7"
+        },
+        {
+          "id": "asm14-8",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#8"
+        },
+        {
+          "id": "asm14-9",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#9",
+          "note": "“Spider-Verse” begins — the crossover the animated films drew from",
           "star": 1
         },
         {
-          "id": "asm-blue",
+          "id": "asm14-10",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#10"
+        },
+        {
+          "id": "asm14-11",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#11"
+        },
+        {
+          "id": "asm14-12",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#12"
+        },
+        {
+          "id": "asm14-13",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#13"
+        },
+        {
+          "id": "asm14-14",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#14"
+        },
+        {
+          "id": "asm14-15",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#15"
+        },
+        {
+          "id": "asm14-16",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#16"
+        },
+        {
+          "id": "asm14-17",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#17"
+        },
+        {
+          "id": "asm14-18",
+          "t": "Amazing Spider-Man (2014)",
+          "n": "#18"
+        }
+      ]
+    },
+    {
+      "id": "asm2015",
+      "tier": 3,
+      "title": "Amazing Spider-Man (2015–18)",
+      "sub": "#1–32, then #789–801 · Parker Industries",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/20432/the_amazing_spiderman_2017_2018"
+        }
+      ],
+      "intro": "Peter as globe-trotting CEO. Divisive, and the numbering changes partway when the title returns to its legacy count.",
+      "items": [
+        {
+          "id": "asm15-1",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#1"
+        },
+        {
+          "id": "asm15-2",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#2"
+        },
+        {
+          "id": "asm15-3",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#3"
+        },
+        {
+          "id": "asm15-4",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#4"
+        },
+        {
+          "id": "asm15-5",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#5"
+        },
+        {
+          "id": "asm15-6",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#6"
+        },
+        {
+          "id": "asm15-7",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#7"
+        },
+        {
+          "id": "asm15-8",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#8"
+        },
+        {
+          "id": "asm15-9",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#9"
+        },
+        {
+          "id": "asm15-10",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#10"
+        },
+        {
+          "id": "asm15-11",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#11"
+        },
+        {
+          "id": "asm15-12",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#12"
+        },
+        {
+          "id": "asm15-13",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#13"
+        },
+        {
+          "id": "asm15-14",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#14"
+        },
+        {
+          "id": "asm15-15",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#15"
+        },
+        {
+          "id": "asm15-16",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#16"
+        },
+        {
+          "id": "asm15-17",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#17"
+        },
+        {
+          "id": "asm15-18",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#18"
+        },
+        {
+          "id": "asm15-19",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#19"
+        },
+        {
+          "id": "asm15-20",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#20"
+        },
+        {
+          "id": "asm15-21",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#21"
+        },
+        {
+          "id": "asm15-22",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#22"
+        },
+        {
+          "id": "asm15-23",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#23"
+        },
+        {
+          "id": "asm15-24",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#24"
+        },
+        {
+          "id": "asm15-25",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#25"
+        },
+        {
+          "id": "asm15-26",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#26"
+        },
+        {
+          "id": "asm15-27",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#27"
+        },
+        {
+          "id": "asm15-28",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#28"
+        },
+        {
+          "id": "asm15-29",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#29"
+        },
+        {
+          "id": "asm15-30",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#30"
+        },
+        {
+          "id": "asm15-31",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#31"
+        },
+        {
+          "id": "asm15-32",
+          "t": "Amazing Spider-Man (2015)",
+          "n": "#32"
+        },
+        {
+          "id": "asm15-789",
+          "t": "Amazing Spider-Man",
+          "n": "#789",
+          "note": "Legacy numbering resumes"
+        },
+        {
+          "id": "asm15-790",
+          "t": "Amazing Spider-Man",
+          "n": "#790"
+        },
+        {
+          "id": "asm15-791",
+          "t": "Amazing Spider-Man",
+          "n": "#791"
+        },
+        {
+          "id": "asm15-792",
+          "t": "Amazing Spider-Man",
+          "n": "#792"
+        },
+        {
+          "id": "asm15-793",
+          "t": "Amazing Spider-Man",
+          "n": "#793"
+        },
+        {
+          "id": "asm15-794",
+          "t": "Amazing Spider-Man",
+          "n": "#794"
+        },
+        {
+          "id": "asm15-795",
+          "t": "Amazing Spider-Man",
+          "n": "#795"
+        },
+        {
+          "id": "asm15-796",
+          "t": "Amazing Spider-Man",
+          "n": "#796"
+        },
+        {
+          "id": "asm15-797",
+          "t": "Amazing Spider-Man",
+          "n": "#797"
+        },
+        {
+          "id": "asm15-798",
+          "t": "Amazing Spider-Man",
+          "n": "#798"
+        },
+        {
+          "id": "asm15-799",
+          "t": "Amazing Spider-Man",
+          "n": "#799"
+        },
+        {
+          "id": "asm15-800",
+          "t": "Amazing Spider-Man",
+          "n": "#800"
+        },
+        {
+          "id": "asm15-801",
+          "t": "Amazing Spider-Man",
+          "n": "#801",
+          "note": "Slott's finale, and genuinely lovely",
+          "star": 1
+        }
+      ]
+    },
+    {
+      "id": "asm2018",
+      "tier": 3,
+      "title": "Amazing Spider-Man (2018–22)",
+      "sub": "#1–74 · Nick Spencer",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/24396/the_amazing_spider-man_2018_-_2022"
+        }
+      ],
+      "intro": "The best-regarded modern run on the main title, and it spends its full length building toward something.",
+      "items": [
+        {
+          "id": "asm18-1",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#1",
+          "star": 1
+        },
+        {
+          "id": "asm18-2",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#2"
+        },
+        {
+          "id": "asm18-3",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#3"
+        },
+        {
+          "id": "asm18-4",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#4"
+        },
+        {
+          "id": "asm18-5",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#5"
+        },
+        {
+          "id": "asm18-6",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#6"
+        },
+        {
+          "id": "asm18-7",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#7"
+        },
+        {
+          "id": "asm18-8",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#8"
+        },
+        {
+          "id": "asm18-9",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#9"
+        },
+        {
+          "id": "asm18-10",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#10"
+        },
+        {
+          "id": "asm18-11",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#11"
+        },
+        {
+          "id": "asm18-12",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#12"
+        },
+        {
+          "id": "asm18-13",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#13"
+        },
+        {
+          "id": "asm18-14",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#14"
+        },
+        {
+          "id": "asm18-15",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#15"
+        },
+        {
+          "id": "asm18-16",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#16",
+          "note": "“Hunted” begins",
+          "star": 1
+        },
+        {
+          "id": "asm18-17",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#17"
+        },
+        {
+          "id": "asm18-18",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#18"
+        },
+        {
+          "id": "asm18-19",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#19"
+        },
+        {
+          "id": "asm18-20",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#20"
+        },
+        {
+          "id": "asm18-21",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#21"
+        },
+        {
+          "id": "asm18-22",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#22"
+        },
+        {
+          "id": "asm18-23",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#23"
+        },
+        {
+          "id": "asm18-24",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#24"
+        },
+        {
+          "id": "asm18-25",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#25"
+        },
+        {
+          "id": "asm18-26",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#26"
+        },
+        {
+          "id": "asm18-27",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#27"
+        },
+        {
+          "id": "asm18-28",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#28"
+        },
+        {
+          "id": "asm18-29",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#29"
+        },
+        {
+          "id": "asm18-30",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#30"
+        },
+        {
+          "id": "asm18-31",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#31"
+        },
+        {
+          "id": "asm18-32",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#32"
+        },
+        {
+          "id": "asm18-33",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#33"
+        },
+        {
+          "id": "asm18-34",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#34"
+        },
+        {
+          "id": "asm18-35",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#35"
+        },
+        {
+          "id": "asm18-36",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#36"
+        },
+        {
+          "id": "asm18-37",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#37"
+        },
+        {
+          "id": "asm18-38",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#38"
+        },
+        {
+          "id": "asm18-39",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#39"
+        },
+        {
+          "id": "asm18-40",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#40"
+        },
+        {
+          "id": "asm18-41",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#41"
+        },
+        {
+          "id": "asm18-42",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#42"
+        },
+        {
+          "id": "asm18-43",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#43"
+        },
+        {
+          "id": "asm18-44",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#44"
+        },
+        {
+          "id": "asm18-45",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#45"
+        },
+        {
+          "id": "asm18-46",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#46"
+        },
+        {
+          "id": "asm18-47",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#47"
+        },
+        {
+          "id": "asm18-48",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#48"
+        },
+        {
+          "id": "asm18-49",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#49"
+        },
+        {
+          "id": "asm18-50",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#50",
+          "note": "“Last Remains” begins",
+          "star": 1
+        },
+        {
+          "id": "asm18-51",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#51"
+        },
+        {
+          "id": "asm18-52",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#52"
+        },
+        {
+          "id": "asm18-53",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#53"
+        },
+        {
+          "id": "asm18-54",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#54"
+        },
+        {
+          "id": "asm18-55",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#55"
+        },
+        {
+          "id": "asm18-56",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#56"
+        },
+        {
+          "id": "asm18-57",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#57"
+        },
+        {
+          "id": "asm18-58",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#58"
+        },
+        {
+          "id": "asm18-59",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#59"
+        },
+        {
+          "id": "asm18-60",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#60"
+        },
+        {
+          "id": "asm18-61",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#61"
+        },
+        {
+          "id": "asm18-62",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#62"
+        },
+        {
+          "id": "asm18-63",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#63"
+        },
+        {
+          "id": "asm18-64",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#64"
+        },
+        {
+          "id": "asm18-65",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#65"
+        },
+        {
+          "id": "asm18-66",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#66"
+        },
+        {
+          "id": "asm18-67",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#67"
+        },
+        {
+          "id": "asm18-68",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#68"
+        },
+        {
+          "id": "asm18-69",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#69"
+        },
+        {
+          "id": "asm18-70",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#70"
+        },
+        {
+          "id": "asm18-71",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#71"
+        },
+        {
+          "id": "asm18-72",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#72"
+        },
+        {
+          "id": "asm18-73",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#73"
+        },
+        {
+          "id": "asm18-74",
+          "t": "Amazing Spider-Man (2018)",
+          "n": "#74"
+        }
+      ]
+    },
+    {
+      "id": "asm2022",
+      "tier": 3,
+      "title": "Amazing Spider-Man (2022–25)",
+      "sub": "#1–70 · Zeb Wells",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/32866/the_amazing_spiderman_2022_2025"
+        }
+      ],
+      "intro": "The run that broke a lot of people's patience.",
+      "items": [
+        {
+          "id": "asm22-1",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#1"
+        },
+        {
+          "id": "asm22-2",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#2"
+        },
+        {
+          "id": "asm22-3",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#3"
+        },
+        {
+          "id": "asm22-4",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#4"
+        },
+        {
+          "id": "asm22-5",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#5"
+        },
+        {
+          "id": "asm22-6",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#6"
+        },
+        {
+          "id": "asm22-7",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#7"
+        },
+        {
+          "id": "asm22-8",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#8"
+        },
+        {
+          "id": "asm22-9",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#9"
+        },
+        {
+          "id": "asm22-10",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#10"
+        },
+        {
+          "id": "asm22-11",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#11"
+        },
+        {
+          "id": "asm22-12",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#12"
+        },
+        {
+          "id": "asm22-13",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#13"
+        },
+        {
+          "id": "asm22-14",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#14"
+        },
+        {
+          "id": "asm22-15",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#15"
+        },
+        {
+          "id": "asm22-16",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#16"
+        },
+        {
+          "id": "asm22-17",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#17"
+        },
+        {
+          "id": "asm22-18",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#18"
+        },
+        {
+          "id": "asm22-19",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#19"
+        },
+        {
+          "id": "asm22-20",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#20"
+        },
+        {
+          "id": "asm22-21",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#21"
+        },
+        {
+          "id": "asm22-22",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#22"
+        },
+        {
+          "id": "asm22-23",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#23"
+        },
+        {
+          "id": "asm22-24",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#24"
+        },
+        {
+          "id": "asm22-25",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#25"
+        },
+        {
+          "id": "asm22-26",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#26"
+        },
+        {
+          "id": "asm22-27",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#27"
+        },
+        {
+          "id": "asm22-28",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#28"
+        },
+        {
+          "id": "asm22-29",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#29"
+        },
+        {
+          "id": "asm22-30",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#30"
+        },
+        {
+          "id": "asm22-31",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#31"
+        },
+        {
+          "id": "asm22-32",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#32"
+        },
+        {
+          "id": "asm22-33",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#33"
+        },
+        {
+          "id": "asm22-34",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#34"
+        },
+        {
+          "id": "asm22-35",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#35"
+        },
+        {
+          "id": "asm22-36",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#36"
+        },
+        {
+          "id": "asm22-37",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#37"
+        },
+        {
+          "id": "asm22-38",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#38"
+        },
+        {
+          "id": "asm22-39",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#39"
+        },
+        {
+          "id": "asm22-40",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#40"
+        },
+        {
+          "id": "asm22-41",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#41"
+        },
+        {
+          "id": "asm22-42",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#42"
+        },
+        {
+          "id": "asm22-43",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#43"
+        },
+        {
+          "id": "asm22-44",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#44"
+        },
+        {
+          "id": "asm22-45",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#45"
+        },
+        {
+          "id": "asm22-46",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#46"
+        },
+        {
+          "id": "asm22-47",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#47"
+        },
+        {
+          "id": "asm22-48",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#48"
+        },
+        {
+          "id": "asm22-49",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#49"
+        },
+        {
+          "id": "asm22-50",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#50"
+        },
+        {
+          "id": "asm22-51",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#51"
+        },
+        {
+          "id": "asm22-52",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#52"
+        },
+        {
+          "id": "asm22-53",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#53"
+        },
+        {
+          "id": "asm22-54",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#54"
+        },
+        {
+          "id": "asm22-55",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#55"
+        },
+        {
+          "id": "asm22-56",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#56"
+        },
+        {
+          "id": "asm22-57",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#57"
+        },
+        {
+          "id": "asm22-58",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#58"
+        },
+        {
+          "id": "asm22-59",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#59"
+        },
+        {
+          "id": "asm22-60",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#60"
+        },
+        {
+          "id": "asm22-61",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#61"
+        },
+        {
+          "id": "asm22-62",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#62"
+        },
+        {
+          "id": "asm22-63",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#63"
+        },
+        {
+          "id": "asm22-64",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#64"
+        },
+        {
+          "id": "asm22-65",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#65"
+        },
+        {
+          "id": "asm22-66",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#66"
+        },
+        {
+          "id": "asm22-67",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#67"
+        },
+        {
+          "id": "asm22-68",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#68"
+        },
+        {
+          "id": "asm22-69",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#69"
+        },
+        {
+          "id": "asm22-70",
+          "t": "Amazing Spider-Man (2022)",
+          "n": "#70"
+        }
+      ]
+    },
+    {
+      "id": "asm2025",
+      "tier": 3,
+      "title": "Amazing Spider-Man (2025– )",
+      "sub": "#1–34 · Joe Kelly and Pepe Larraz · still running",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/41731/the_amazing_spiderman_2025_present"
+        }
+      ],
+      "intro": "Twice monthly and well received, building to ASM #1000 in September 2026. Marvel Unlimited adds issues about three months after print, so the last few are not readable there yet.",
+      "items": [
+        {
+          "id": "asm25-1",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#1",
+          "star": 1
+        },
+        {
+          "id": "asm25-2",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#2"
+        },
+        {
+          "id": "asm25-3",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#3"
+        },
+        {
+          "id": "asm25-4",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#4"
+        },
+        {
+          "id": "asm25-5",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#5"
+        },
+        {
+          "id": "asm25-6",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#6"
+        },
+        {
+          "id": "asm25-7",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#7"
+        },
+        {
+          "id": "asm25-8",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#8"
+        },
+        {
+          "id": "asm25-9",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#9"
+        },
+        {
+          "id": "asm25-10",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#10"
+        },
+        {
+          "id": "asm25-11",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#11"
+        },
+        {
+          "id": "asm25-12",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#12"
+        },
+        {
+          "id": "asm25-13",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#13"
+        },
+        {
+          "id": "asm25-14",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#14"
+        },
+        {
+          "id": "asm25-15",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#15"
+        },
+        {
+          "id": "asm25-16",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#16"
+        },
+        {
+          "id": "asm25-17",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#17"
+        },
+        {
+          "id": "asm25-18",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#18"
+        },
+        {
+          "id": "asm25-19",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#19"
+        },
+        {
+          "id": "asm25-20",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#20"
+        },
+        {
+          "id": "asm25-21",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#21"
+        },
+        {
+          "id": "asm25-22",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#22"
+        },
+        {
+          "id": "asm25-23",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#23"
+        },
+        {
+          "id": "asm25-24",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#24"
+        },
+        {
+          "id": "asm25-25",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#25"
+        },
+        {
+          "id": "asm25-26",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#26"
+        },
+        {
+          "id": "asm25-27",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#27"
+        },
+        {
+          "id": "asm25-28",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#28"
+        },
+        {
+          "id": "asm25-29",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#29"
+        },
+        {
+          "id": "asm25-30",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#30"
+        },
+        {
+          "id": "asm25-31",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#31"
+        },
+        {
+          "id": "asm25-32",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#32"
+        },
+        {
+          "id": "asm25-33",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#33"
+        },
+        {
+          "id": "asm25-34",
+          "t": "Amazing Spider-Man (2025)",
+          "n": "#34"
+        }
+      ]
+    },
+    {
+      "id": "lifestory",
+      "tier": 3,
+      "title": "Spider-Man: Life Story",
+      "sub": "#1–6 · 2019 · outside continuity",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/26911/spiderman_life_story_2019"
+        }
+      ],
+      "intro": "Zdarsky and Bagley. One issue per decade, Peter ageing in real time from 1962. Self-contained, and arguably the finest Spider-Man comic of the last twenty years.",
+      "items": [
+        {
+          "id": "ls-1",
+          "t": "Spider-Man: Life Story",
+          "n": "#1",
+          "star": 2
+        },
+        {
+          "id": "ls-2",
+          "t": "Spider-Man: Life Story",
+          "n": "#2"
+        },
+        {
+          "id": "ls-3",
+          "t": "Spider-Man: Life Story",
+          "n": "#3"
+        },
+        {
+          "id": "ls-4",
+          "t": "Spider-Man: Life Story",
+          "n": "#4"
+        },
+        {
+          "id": "ls-5",
+          "t": "Spider-Man: Life Story",
+          "n": "#5"
+        },
+        {
+          "id": "ls-6",
+          "t": "Spider-Man: Life Story",
+          "n": "#6"
+        }
+      ]
+    },
+    {
+      "id": "blue",
+      "tier": 3,
+      "title": "Spider-Man: Blue",
+      "sub": "#1–6 · 2002 · outside continuity",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/2072/spider-man_blue_2002_-_2003"
+        }
+      ],
+      "intro": "Loeb and Sale. A good decompression read after the classic run.",
+      "items": [
+        {
+          "id": "blue-1",
           "t": "Spider-Man: Blue",
-          "n": "#1–6",
-          "w": 1,
-          "note": "Loeb and Sale. A good decompression read after the classic run."
+          "n": "#1"
+        },
+        {
+          "id": "blue-2",
+          "t": "Spider-Man: Blue",
+          "n": "#2"
+        },
+        {
+          "id": "blue-3",
+          "t": "Spider-Man: Blue",
+          "n": "#3"
+        },
+        {
+          "id": "blue-4",
+          "t": "Spider-Man: Blue",
+          "n": "#4"
+        },
+        {
+          "id": "blue-5",
+          "t": "Spider-Man: Blue",
+          "n": "#5"
+        },
+        {
+          "id": "blue-6",
+          "t": "Spider-Man: Blue",
+          "n": "#6"
         }
       ]
     }
