@@ -360,6 +360,36 @@
     "total": 654
   },
   {
+    "slug": "david-lynch",
+    "title": "David Lynch",
+    "subtitle": "the features, in release order",
+    "kind": "films",
+    "year": "1977–2006",
+    "blurb": "Nine features and all of Twin Peaks as one row — about 63 hours, most of it one town in Washington.",
+    "accent": "#4A3A6B",
+    "accentDark": "#A38FD9",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 10
+  },
+  {
+    "slug": "twin-peaks",
+    "title": "Twin Peaks",
+    "subtitle": "both seasons, the film, The Return, and the books",
+    "kind": "tv, film & books",
+    "year": "1990–2017",
+    "blurb": "The whole thing: 30 episodes, Fire Walk with Me, the 18 parts of The Return, and the four books woven in where you read them.",
+    "accent": "#7A1E2E",
+    "accentDark": "#E86A7E",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 54
+  },
+  {
     "slug": "secret",
     "title": "Secret",
     "subtitle": "",

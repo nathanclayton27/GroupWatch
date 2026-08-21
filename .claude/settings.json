@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PYTHONIOENCODING=utf-8 python -)",
+      "Bash(PYTHONIOENCODING=utf-8 python scratch/lynch/runtimes.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python tools/make_twinpeaks.py)"
+    ]
+  }
+}

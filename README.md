@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Twenty-one lists, from an eight-episode show to a 1,337-spine film collection.
+Twenty-six lists, from a ten-episode anime to a 1,337-spine film collection.
 
 **Comics.** *Amazing Spider-Man* (Amazing Fantasy #15 to Civil War), *Civil
 War* (the 2006 event interleaved), *Spider-Man After Civil War*, *Ultimate
