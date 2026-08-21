@@ -45,11 +45,35 @@ def load_property(path):
     if not ID_OK.match(slug):
         fail("%s: slug %r must be a valid html id" % (path.name, slug))
 
-    for field in ("title", "unit", "sections"):
+    for field in ("title", "unit"):
         if not prop.get(field):
             fail("%s has no %s" % (path.name, field))
     if not prop["unit"].get("one") or not prop["unit"].get("many"):
         fail("%s: unit needs both 'one' and 'many'" % path.name)
+
+    # A generated property has no sections on disk: the page builds them from
+    # the calendar when it loads, so the list grows by itself as days pass and
+    # a static file would be stale the morning after it shipped. Everything
+    # about it that can be checked ahead of time is checked here instead.
+    gen = prop.get("generate")
+    if gen:
+        if prop.get("sections"):
+            fail("%s: a generated property must not also carry sections" % path.name)
+        if gen.get("kind") != "daily":
+            fail("%s: generate.kind %r is not one this build knows"
+                 % (path.name, gen.get("kind")))
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", gen.get("start", "")):
+            fail("%s: generate.start must be a YYYY-MM-DD date" % path.name)
+        if not isinstance(gen.get("slots"), int) or not 1 <= gen["slots"] <= 24:
+            fail("%s: generate.slots must be a whole number from 1 to 24" % path.name)
+        if not gen.get("idPrefix"):
+            fail("%s: generate needs an idPrefix, since item ids are permanent"
+                 % path.name)
+        prop["_total"] = 0        # only today knows, and today is the reader's
+        return prop
+
+    if not prop.get("sections"):
+        fail("%s has no sections" % path.name)
 
     seen = set()
     total = 0
@@ -103,6 +127,10 @@ def main():
             "accentDark": p.get("accentDark", ""),
             "unit": p["unit"],
             "total": p["_total"],
+            # the page needs these before first paint: one to know not to list
+            # a locked property, the other to size a generated one
+            **({"secret": True} if p.get("secret") else {}),
+            **({"generate": p["generate"]} if p.get("generate") else {}),
         }
         for p in props
     ]

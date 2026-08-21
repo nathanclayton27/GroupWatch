@@ -298,5 +298,27 @@
       "many": "films"
     },
     "total": 1418
+  },
+  {
+    "slug": "entry",
+    "title": "A secret list",
+    "subtitle": "competitive daily consumption",
+    "kind": "consumption",
+    "year": "2026–",
+    "blurb": "One row per entry per day. Whoever's layer sits on top of the strip is winning.",
+    "accent": "#B06E10",
+    "accentDark": "#F0B33C",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 0,
+    "secret": true,
+    "generate": {
+      "kind": "daily",
+      "start": "2026-08-21",
+      "slots": 6,
+      "idPrefix": "mcm"
+    }
   }
 ]

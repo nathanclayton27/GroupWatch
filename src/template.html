@@ -119,6 +119,22 @@ h1 em{font-style:normal;color:var(--signal)}
 .pace.ok{color:var(--done);border-color:var(--done)}
 .pace.behind{color:var(--signal);border-color:var(--signal)}
 .gbar{display:flex;gap:10px 16px;flex-wrap:wrap;align-items:baseline;margin:0 0 14px}
+.gate{position:fixed;inset:0;z-index:200;background:var(--paper);
+  display:flex;align-items:center;justify-content:center;padding:24px}
+.gatebox{display:flex;flex-direction:column;align-items:center;gap:12px;
+  width:min(100%,340px);text-align:center}
+.gate-lock{font-family:"IBM Plex Mono",monospace;font-size:13px;
+  letter-spacing:.42em;color:var(--ink-3);margin-right:-.42em}
+.gatebox h2{font-size:22px;margin:0;font-weight:600;letter-spacing:-.01em}
+.gatebox p{margin:0;color:var(--ink-2);font-size:13.5px}
+.gatebox input{width:100%;text-align:center;font-family:"IBM Plex Mono",monospace;
+  letter-spacing:.22em;padding:11px 12px;margin-top:4px}
+.gatebox #gate-go{width:100%;padding:10px}
+.gate-msg{min-height:1.2em;color:var(--signal);font-size:12.5px}
+.gate-msg.ok{color:var(--done)}
+.gate-back{background:none;border:0;color:var(--ink-3);font-size:12px;
+  text-decoration:underline;cursor:pointer;padding:4px}
+.gate-back:hover{color:var(--ink)}
 .fbar{display:flex;gap:8px 10px;flex-wrap:wrap;align-items:center;
   margin:0 0 14px;padding:11px 14px;border:1px solid var(--rule);
   border-radius:var(--radius);background:var(--card)}
@@ -385,6 +401,19 @@ footer a{color:var(--steel)}
   <div class="pmenu hide" id="pmenu" role="listbox" aria-label="Choose what to track"></div>
 </div>
 
+<div class="gate hide" id="gate">
+  <form class="gatebox" id="gateform" autocomplete="off">
+    <div class="gate-lock" aria-hidden="true">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</div>
+    <h2 id="gate-t">Locked</h2>
+    <p id="gate-h"></p>
+    <input type="password" id="gate-in" aria-label="Password"
+           autocomplete="off" spellcheck="false" autocapitalize="none">
+    <button type="submit" id="gate-go">Unlock</button>
+    <p class="gate-msg" id="gate-msg" role="status"></p>
+    <button type="button" class="gate-back" id="gate-back">Back to everything else</button>
+  </form>
+</div>
+
 <div class="wrap">
 <header>
   <div class="lbl" id="eyebrow"></div>
@@ -639,10 +668,12 @@ async function loadProperty(){
   const res = await fetch('properties/' + SLUG + '.json', {cache:'no-cache'});
   if(!res.ok) throw new Error('could not load ' + SLUG + ' (' + res.status + ')');
   PROP = await res.json();
-  DATA = PROP.sections || [];
+  UNIT = PROP.unit || UNIT;
+  // a daily list is built here rather than shipped, so it reaches today
+  DATA = PROP.generate ? generateSections(PROP.generate, UNIT.one)
+                       : (PROP.sections || []);
   TOTAL = DATA.reduce((a,s)=>a+s.items.length,0);
   TIERED = !!PROP.tiers;
-  UNIT = PROP.unit || UNIT;
   VERB = PROP.verb || VERB;
   NUMFIRST = PROP.itemOrder === 'number-first';
   ITEMTIERS = !!PROP.itemTiers;
@@ -2060,6 +2091,95 @@ function renderMenu(){
   };
 }
 
+// ---------------------------------------------------------- locked lists
+//
+// A password here hides a property from the menu. It is not security and the
+// property's own notes say so: this is a bag of static files with no server,
+// so anyone who fetches properties/<slug>.json reads the lot. What it buys is
+// that a list does not turn up in the switcher for someone who was never told
+// about it. The password is stored as a SHA-256 digest rather than in the
+// clear, which stops it being read straight out of the page source.
+const UNLKEY = 'gw:unlocked';
+function unlockedSet(){
+  try{
+    const v = JSON.parse(localStorage.getItem(UNLKEY) || '[]');
+    return new Set(Array.isArray(v) ? v : []);
+  }catch(e){ return new Set(); }
+}
+function isUnlocked(slug){ return unlockedSet().has(slug); }
+function markUnlocked(slug){
+  const u = unlockedSet(); u.add(slug);
+  try{ localStorage.setItem(UNLKEY, JSON.stringify([...u])); }catch(e){}
+}
+// what the switcher and the splash are allowed to list
+function listable(){
+  return MANIFEST.filter(m=> !m.secret || isUnlocked(m.slug));
+}
+
+// A manifest total is written at build time, which a daily list cannot have —
+// only the reader's own clock knows how many days have passed.
+function totalOf(m){ return m.generate ? generatedTotal(m.generate) : m.total; }
+
+async function sha256hex(str){
+  if(!(crypto && crypto.subtle)) return null;
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return [...new Uint8Array(buf)].map(b=> b.toString(16).padStart(2,'0')).join('');
+}
+
+// ------------------------------------------------------- generated lists
+//
+// A daily list has no sections on disk. It runs from a fixed start date to
+// whatever today is on the reader's own device, so it grows by itself and a
+// file written once would be stale the next morning. The start is fixed rather
+// than "your first visit" so that everyone in a group is looking at the same
+// list; someone a day ahead in their own timezone simply sees one more row.
+//
+// Item ids are the date and the slot, so they are stable forever — a tick made
+// today still means the same thing next year.
+const MONTHS = ['January','February','March','April','May','June','July',
+                'August','September','October','November','December'];
+const DOW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+function ymd(d){
+  return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0')
+       + '-' + String(d.getDate()).padStart(2,'0');
+}
+function daysCovered(g){
+  const start = new Date(g.start + 'T00:00:00');
+  const today = new Date(); today.setHours(0,0,0,0);
+  if(isNaN(start) || today < start) return 0;
+  return Math.floor((today - start) / 86400000) + 1;
+}
+function generatedTotal(g){ return daysCovered(g) * (g.slots || 1); }
+
+function generateSections(g, one){
+  const days = daysCovered(g);
+  const cur = new Date(g.start + 'T00:00:00');
+  const out = [];
+  let sec = null;
+  for(let d = 0; d < days; d++){
+    const id = 'm' + cur.getFullYear() + String(cur.getMonth()+1).padStart(2,'0');
+    if(!sec || sec.id !== id){
+      sec = {id: id, title: MONTHS[cur.getMonth()] + ' ' + cur.getFullYear(),
+             days: 0, items: []};
+      out.push(sec);
+    }
+    sec.days += 1;
+    const iso = ymd(cur), label = DOW[cur.getDay()] + ' ' + cur.getDate();
+    for(let k = 1; k <= (g.slots || 1); k++)
+      sec.items.push({id: g.idPrefix + '-' + iso + '-' + k,
+                      t: one + ' ' + k, n: label, w: 1});
+    cur.setDate(cur.getDate() + 1);
+  }
+  out.forEach((x, i)=>{
+    x.sub = x.days + (x.days === 1 ? ' day' : ' days') + ' · up to '
+          + (x.days * (g.slots || 1)) + ' ' + (g.slots === 1 ? one : one + 's');
+    delete x.days;
+    // today is the row you came for, so the newest month is the one that opens
+    if(i === out.length - 1) x.open = true;
+  });
+  return out;
+}
+
 // Starred properties are pinned to the top of the menu. The list is one key for
 // the whole app rather than one per property, because it answers "which of
 // these do I actually follow", which is not a question about any one of them.
@@ -2086,7 +2206,7 @@ function filterMenu(q){
   // sort on the title alone. The star is decoration on the row, never part of
   // the string being compared, so starring something cannot move it out of
   // alphabetical order within its group.
-  const list = MANIFEST.slice().sort((a,b)=> a.title.localeCompare(b.title));
+  const list = listable().sort((a,b)=> a.title.localeCompare(b.title));
   const hits = !needle ? list : list.filter(m=>
     (m.title+' '+(m.subtitle||'')+' '+(m.kind||'')+' '+(m.year||'')).toLowerCase()
       .indexOf(needle) >= 0);
@@ -2095,7 +2215,7 @@ function filterMenu(q){
   // shows a star when it has one, so an unstarred menu carries no marks at all.
   const row = m=>{
     const n = localCount(m.slug);
-    const meta = [m.kind, m.year, n + ' / ' + m.total + ' ' + m.unit.many].filter(Boolean);
+    const meta = [m.kind, m.year, n + ' / ' + totalOf(m) + ' ' + m.unit.many].filter(Boolean);
     return '<button role="option" data-slug="'+esc(m.slug)+'"'
       + ' aria-selected="'+(m.slug===SLUG)+'">'
       + '<span class="pm-t"><span class="pdot" style="background:'
@@ -2125,6 +2245,46 @@ function filterMenu(q){
   });
 }
 
+function showGate(){
+  const sec = PROP.secret || {};
+  document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
+  $('switcher').classList.add('hide');
+  $('gate').classList.remove('hide');
+  $('gate-t').textContent = sec.title || 'Locked';
+  $('gate-h').textContent = sec.hint || 'This one needs a password.';
+  document.title = (sec.title || 'Locked') + ' — GroupWatch';
+  setTimeout(()=> $('gate-in').focus(), 60);
+
+  $('gate-back').onclick = ()=>{ location.href = location.pathname; };
+  $('gateform').onsubmit = async e=>{
+    e.preventDefault();
+    const msg = $('gate-msg');
+    const tried = $('gate-in').value;
+    if(!tried){ msg.className = 'gate-msg'; msg.textContent = 'Needs a password.'; return; }
+    let hex = null;
+    try{ hex = await sha256hex(tried); }catch(err){ hex = null; }
+    if(hex === null){
+      msg.className = 'gate-msg';
+      msg.textContent = 'This browser will not hash, so the password cannot be checked.';
+      return;
+    }
+    if(hex !== sec.sha256){
+      msg.className = 'gate-msg';
+      msg.textContent = 'Not it.';
+      $('gate-in').select();
+      return;
+    }
+    markUnlocked(SLUG);
+    msg.className = 'gate-msg ok';
+    msg.textContent = 'In.';
+    $('gate').classList.add('hide');
+    document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.remove('hide'));
+    $('switcher').classList.remove('hide');
+    document.title = PROP.title + ' — GroupWatch';
+    renderMenu();
+  };
+}
+
 function paintStar(){
   const b = $('b-star');
   if(!b || !SLUG) return;
@@ -2142,10 +2302,11 @@ function showSplash(){
   document.title = 'GroupWatch';
 
   const TICKS = 46;
-  $('cards').innerHTML = MANIFEST.map(m=>{
+  $('cards').innerHTML = listable().map(m=>{
     const n = localCount(m.slug);
-    const on = Math.round(TICKS * Math.min(1, n/m.total));
-    const meta = [m.kind, m.year, m.total + ' ' + m.unit.many].filter(Boolean);
+    const tot = totalOf(m);
+    const on = Math.round(TICKS * Math.min(1, tot ? n/tot : 0));
+    const meta = [m.kind, m.year, tot + ' ' + m.unit.many].filter(Boolean);
     let bar = '';
     for(let i=0;i<TICKS;i++)
       bar += '<span'+(i<on?' class="on" style="background:'+esc(accentOf(m))+'"':'')+'></span>';
@@ -2568,6 +2729,11 @@ loadProperty().then(()=>{
   renderHeader();
   renderMenu();
   migrate();
+  // A locked property renders nothing until the password lands. The list is
+  // already fetched by this point and always will be — the gate is about not
+  // surfacing it, not about withholding it from someone reading the network
+  // tab, which no static site can do.
+  if(PROP.secret && !isUnlocked(SLUG)) showGate();
   build();
   $('b-star').onclick = ()=>{
     toggleStar(SLUG);
