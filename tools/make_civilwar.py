@@ -92,9 +92,11 @@ for _name, _slug in SERIES_SLUG.items():
     assert _slug in _INDEX, "%r: %s is not in the Marvel index" % (_name, _slug)
     SERIES_URL[_name] = "https://www.marvel.com/comics/series/%s/%s" % (_INDEX[_slug], _slug)
 
-# a header carries the series in its own section, biggest first, capped so it
-# stays a header rather than a directory
-HEADER_LINKS = 10
+# A header carries the series in its own section, biggest first, capped so it
+# stays a header rather than a directory. Twelve is the smallest cap under
+# which every mapped series still appears somewhere: at ten, Blade and
+# Winter Soldier: Winter Kills are never reachable from any header.
+HEADER_LINKS = 12
 
 
 def it(key, title, num, note="", star=0, w=1, opt=0, url=""):
