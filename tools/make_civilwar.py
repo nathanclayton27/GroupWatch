@@ -40,6 +40,63 @@ EVENT_LINKS = [{"label": "Civil War", "url": S_CW},
                {"label": "Front Line", "url": S_FL}]
 
 
+# Every series this list touches, by its slug on marvel.com. Resolved against
+# tools/data/marvel_series_index.json — Marvel's whole A-Z series index, saved
+# locally — so a wrong slug fails the build rather than shipping a dead link.
+SERIES_SLUG = {
+    "Civil War": "civil_war_2006_2007",
+    "Civil War: Front Line": "civil_war_front_line_2006_2007",
+    "Amazing Spider-Man": "the_amazing_spiderman_1999_2013",
+    "New Warriors": "new_warriors_2005",
+    "New Avengers: Illuminati": "new_avengers_illuminati_2006_2007",
+    "Fantastic Four": "fantastic_four_1998_2012",
+    "She-Hulk": "shehulk_2005_2009",
+    "Wolverine": "wolverine_2003_2009",
+    "Thunderbolts": "thunderbolts_2006_2012",
+    "X-Factor": "xfactor_2005_2013",
+    "New Avengers": "new_avengers_2004_2010",
+    "Civil War: X-Men": "civil_war_xmen_2006",
+    "Cable & Deadpool": "cable_and_deadpool_2004_2008",
+    "Civil War: Young Avengers & Runaways": "civil_war_young_avengers_and_runaways_2006",
+    "Black Panther": "black_panther_2005_2008",
+    "Ms. Marvel": "ms_marvel_2006_2010",
+    "Heroes for Hire": "heroes_for_hire_2006_2007",
+    "Captain America": "captain_america_2004_2011",
+    "Iron Man": "the_invincible_iron_man_2004_2008",
+    "Punisher War Journal": "punisher_war_journal_2006_2008",
+    "Civil War: War Crimes": "civil_war_war_crimes_1_2006",
+    "Iron Man/Captain America: Casualties of War":
+        "iron_mancaptain_america_casualties_of_war_2006",
+    "Civil War: The Return": "civil_war_the_return_1_2007",
+    "Blade": "blade_2006_2007",
+    "Ghost Rider": "ghost_rider_2006_2009",
+    "Moon Knight": "moon_knight_2006_2009",
+    "Winter Soldier: Winter Kills": "winter_soldier_winter_kills_1_2006",
+    "Civil War: The Initiative": "civil_war_the_initiative_1_2007",
+    "Civil War: The Confession": "civil_war_the_confession_1_2007",
+    "Civil War: Fallen Son": "fallen_son_the_death_of_captain_america_2007",
+    "Civil War: Battle Damage Report": "civil_war_battle_damage_report_2007",
+    "Mighty Avengers": "the_mighty_avengers_2007_2010",
+    "Avengers: The Initiative": "avengers_the_initiative_2007_2010",
+    "Iron Man: Director of S.H.I.E.L.D.": "iron_man_director_of_shield_2008",
+    "Omega Flight": "omega_flight_2007",
+    "The Order": "the_order_2007_2008",
+    "Sub-Mariner": "submariner_2007",
+}
+
+_INDEX = json.loads(
+    (pathlib.Path(__file__).resolve().parent / "data" / "marvel_series_index.json")
+    .read_text(encoding="utf-8"))
+SERIES_URL = {}
+for _name, _slug in SERIES_SLUG.items():
+    assert _slug in _INDEX, "%r: %s is not in the Marvel index" % (_name, _slug)
+    SERIES_URL[_name] = "https://www.marvel.com/comics/series/%s/%s" % (_INDEX[_slug], _slug)
+
+# a header carries the series in its own section, biggest first, capped so it
+# stays a header rather than a directory
+HEADER_LINKS = 10
+
+
 def it(key, title, num, note="", star=0, w=1, opt=0, url=""):
     x = {"id": "cw-" + key, "t": title, "n": num, "w": w}
     if note:
@@ -70,8 +127,6 @@ SECTIONS = [
         "id": "road", "tier": 1, "title": "The Road to Civil War",
         "sub": "the six issues that set it up · 2006",
         "open": True,
-        "links": [{"label": "Amazing Spider-Man", "url": S_ASM},
-                  {"label": "Civil War", "url": S_CW}],
         "intro": "Collected as Civil War: The Road to Civil War, minus the New "
                  "Warriors issues. Skipping the prelude and starting at Civil "
                  "War #1 works, but these are where the positions are staked out.",
@@ -96,7 +151,6 @@ SECTIONS = [
                  "characters you follow, and treat the rest as optional. The "
                  "sources agree on two exceptions worth reading whoever you "
                  "are — Front Line and the Spider-Man issues.",
-        "links": EVENT_LINKS,
         "items": [
             war(1),
             it("shehulk-8", "She-Hulk", "#8", "", opt=1),
@@ -120,7 +174,6 @@ SECTIONS = [
     {
         "id": "war34", "tier": 1, "title": "Civil War #3–4",
         "sub": "the middle, where the tie-ins are thickest",
-        "links": EVENT_LINKS,
         "items": [
             war(3),
             it("cd-30", "Cable & Deadpool", "#30", "", opt=1),
@@ -165,7 +218,6 @@ SECTIONS = [
     {
         "id": "war5", "tier": 1, "title": "Civil War #5",
         "sub": "the turn",
-        "links": EVENT_LINKS,
         "items": [
             war(5),
             it("yar-4", "Civil War: Young Avengers & Runaways", "#4", "", opt=1),
@@ -187,7 +239,6 @@ SECTIONS = [
     {
         "id": "war67", "tier": 1, "title": "Civil War #6–7",
         "sub": "the end",
-        "links": EVENT_LINKS,
         "items": [
             war(6),
             it("casualties", "Iron Man/Captain America: Casualties of War", "#1",
@@ -217,7 +268,6 @@ SECTIONS = [
         "intro": "These are the epilogue, and they are where the event's "
                  "consequences get stated rather than implied. Read them before "
                  "moving on to anything that follows.",
-        "links": [{"label": "Civil War", "url": S_CW}],
         "items": [
             it("initiative", "Civil War: The Initiative", "#1",
                "Sets up the status quo the whole line ran on next", 1),
@@ -235,7 +285,6 @@ SECTIONS = [
         "sub": "the runs that came directly out of it",
         "intro": "Not part of the event, and not a list to finish — this is "
                  "where to go if a particular thread interested you.",
-        "links": [{"label": "Civil War", "url": S_CW}],
         "items": [
             it("f-mighty", "Mighty Avengers", "#1–6", "Bendis, the licensed team",
                w=6),
@@ -256,6 +305,21 @@ SECTIONS = [
 
 
 def main():
+    for sec in SECTIONS:
+        weight, order = {}, []
+        for x in sec["items"]:
+            if x["t"] not in SERIES_URL:
+                continue
+            if x["t"] not in weight:
+                order.append(x["t"])
+            weight[x["t"]] = weight.get(x["t"], 0) + x["w"]
+        keep = set(sorted(weight, key=lambda t: -weight[t])[:HEADER_LINKS])
+        links = [{"label": t, "url": SERIES_URL[t]} for t in order if t in keep]
+        if links:
+            sec["links"] = links
+        missing = {x["t"] for x in sec["items"]} - set(SERIES_URL)
+        assert not missing, "no slug for %s" % sorted(missing)
+
     ids = [x["id"] for s in SECTIONS for x in s["items"]]
     if len(ids) != len(set(ids)):
         dupes = sorted({i for i in ids if ids.count(i) > 1})

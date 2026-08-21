@@ -19,6 +19,8 @@ that document is heavily spoiler-annotated throughout.
 """
 
 S_V1    = "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+# the prologue is one issue of a different book entirely
+S_AF    = "https://www.marvel.com/comics/series/2987/amazing_fantasy_1962"
 S_V2    = "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
 S_ANN   = "https://www.marvel.com/comics/series/2984/amazing_spiderman_annual_1964_2018"
 S_WEB   = "https://www.marvel.com/comics/series/2092/web_of_spiderman_1985_1995"

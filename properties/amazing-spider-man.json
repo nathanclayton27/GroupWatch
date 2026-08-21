@@ -58,8 +58,8 @@
       "open": true,
       "links": [
         {
-          "label": "The series",
-          "url": "https://www.marvel.com/comics/series/1987/the_amazing_spiderman_1963_1998"
+          "label": "Amazing Fantasy",
+          "url": "https://www.marvel.com/comics/series/2987/amazing_fantasy_1962"
         }
       ],
       "items": [
@@ -69,7 +69,8 @@
           "n": "#15",
           "w": 1,
           "note": "Eleven pages.",
-          "star": 2
+          "star": 2,
+          "url": "https://www.marvel.com/comics/series/2987/amazing_fantasy_1962"
         }
       ]
     },

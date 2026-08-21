@@ -18,7 +18,7 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from spiderman_data import (S_V1, S_V2, S_ANN, S_WEB, S_SPEC, S_PPSM,
+from spiderman_data import (S_V1, S_V2, S_ANN, S_AF, S_WEB, S_SPEC, S_PPSM,
                             URLS, asm, v2, item, rng, check)
 
 SLUG = "amazing-spider-man"
@@ -30,8 +30,9 @@ SECTIONS = [
         # every section carries a series link now, so the fallback would open
         # whichever comes first; say outright that it should be this one
         "open": True,
-        "links": [{"label": "The series", "url": S_V1}],
-        "items": [item("af15", "Amazing Fantasy", "#15", "Eleven pages.", 2)],
+        "links": [{"label": "Amazing Fantasy", "url": S_AF}],
+        "items": [item("af15", "Amazing Fantasy", "#15", "Eleven pages.", 2,
+                       url=S_AF)],
     },
     {
         "id": "ditko", "tier": 1, "title": "Lee & Ditko", "sub": "#1–38 · 1963–66",

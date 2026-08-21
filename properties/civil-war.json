@@ -57,16 +57,6 @@
       "title": "The Road to Civil War",
       "sub": "the six issues that set it up · 2006",
       "open": true,
-      "links": [
-        {
-          "label": "Amazing Spider-Man",
-          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
-        },
-        {
-          "label": "Civil War",
-          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_-_2007"
-        }
-      ],
       "intro": "Collected as Civil War: The Road to Civil War, minus the New Warriors issues. Skipping the prelude and starting at Civil War #1 works, but these are where the positions are staked out.",
       "items": [
         {
@@ -121,6 +111,24 @@
           "w": 1,
           "note": "Road to Civil War"
         }
+      ],
+      "links": [
+        {
+          "label": "New Warriors",
+          "url": "https://www.marvel.com/comics/series/839/new_warriors_2005"
+        },
+        {
+          "label": "Amazing Spider-Man",
+          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
+        },
+        {
+          "label": "New Avengers: Illuminati",
+          "url": "https://www.marvel.com/comics/series/1137/new_avengers_illuminati_2006_2007"
+        },
+        {
+          "label": "Fantastic Four",
+          "url": "https://www.marvel.com/comics/series/421/fantastic_four_1998_2012"
+        }
       ]
     },
     {
@@ -129,16 +137,6 @@
       "title": "Civil War #1–2",
       "sub": "the opening, with what reads between",
       "intro": "Civil War #1–7 carries the entire plot on its own. Everything between the numbered issues is a tie-in: read the ones whose characters you follow, and treat the rest as optional. The sources agree on two exceptions worth reading whoever you are — Front Line and the Spider-Man issues.",
-      "links": [
-        {
-          "label": "Civil War",
-          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_-_2007"
-        },
-        {
-          "label": "Front Line",
-          "url": "https://www.marvel.com/comics/series/1109/civil_war_front_line_2006_2007"
-        }
-      ],
       "items": [
         {
           "id": "cw-war-1",
@@ -252,6 +250,48 @@
           "note": "More to do with the aftermath of House of M than with this",
           "opt": 1
         }
+      ],
+      "links": [
+        {
+          "label": "Civil War",
+          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_2007"
+        },
+        {
+          "label": "She-Hulk",
+          "url": "https://www.marvel.com/comics/series/886/shehulk_2005_2009"
+        },
+        {
+          "label": "Wolverine",
+          "url": "https://www.marvel.com/comics/series/632/wolverine_2003_2009"
+        },
+        {
+          "label": "Amazing Spider-Man",
+          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
+        },
+        {
+          "label": "Civil War: Front Line",
+          "url": "https://www.marvel.com/comics/series/1109/civil_war_front_line_2006_2007"
+        },
+        {
+          "label": "Thunderbolts",
+          "url": "https://www.marvel.com/comics/series/18527/thunderbolts_2006_2012"
+        },
+        {
+          "label": "X-Factor",
+          "url": "https://www.marvel.com/comics/series/1035/xfactor_2005_2013"
+        },
+        {
+          "label": "New Avengers",
+          "url": "https://www.marvel.com/comics/series/753/new_avengers_2004_2010"
+        },
+        {
+          "label": "Fantastic Four",
+          "url": "https://www.marvel.com/comics/series/421/fantastic_four_1998_2012"
+        },
+        {
+          "label": "Civil War: X-Men",
+          "url": "https://www.marvel.com/comics/series/1110/civil_war_xmen_2006"
+        }
       ]
     },
     {
@@ -259,16 +299,6 @@
       "tier": 1,
       "title": "Civil War #3–4",
       "sub": "the middle, where the tie-ins are thickest",
-      "links": [
-        {
-          "label": "Civil War",
-          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_-_2007"
-        },
-        {
-          "label": "Front Line",
-          "url": "https://www.marvel.com/comics/series/1109/civil_war_front_line_2006_2007"
-        }
-      ],
       "items": [
         {
           "id": "cw-war-3",
@@ -525,6 +555,48 @@
           "n": "#24",
           "w": 1
         }
+      ],
+      "links": [
+        {
+          "label": "Civil War",
+          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_2007"
+        },
+        {
+          "label": "Cable & Deadpool",
+          "url": "https://www.marvel.com/comics/series/693/cable_and_deadpool_2004_2008"
+        },
+        {
+          "label": "Civil War: Young Avengers & Runaways",
+          "url": "https://www.marvel.com/comics/series/1114/civil_war_young_avengers_and_runaways_2006"
+        },
+        {
+          "label": "Civil War: Front Line",
+          "url": "https://www.marvel.com/comics/series/1109/civil_war_front_line_2006_2007"
+        },
+        {
+          "label": "New Avengers",
+          "url": "https://www.marvel.com/comics/series/753/new_avengers_2004_2010"
+        },
+        {
+          "label": "Wolverine",
+          "url": "https://www.marvel.com/comics/series/632/wolverine_2003_2009"
+        },
+        {
+          "label": "Amazing Spider-Man",
+          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
+        },
+        {
+          "label": "Ms. Marvel",
+          "url": "https://www.marvel.com/comics/series/987/ms_marvel_2006_2010"
+        },
+        {
+          "label": "Civil War: X-Men",
+          "url": "https://www.marvel.com/comics/series/1110/civil_war_xmen_2006"
+        },
+        {
+          "label": "Heroes for Hire",
+          "url": "https://www.marvel.com/comics/series/1121/heroes_for_hire_2006_2007"
+        }
       ]
     },
     {
@@ -532,16 +604,6 @@
       "tier": 1,
       "title": "Civil War #5",
       "sub": "the turn",
-      "links": [
-        {
-          "label": "Civil War",
-          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_-_2007"
-        },
-        {
-          "label": "Front Line",
-          "url": "https://www.marvel.com/comics/series/1109/civil_war_front_line_2006_2007"
-        }
-      ],
       "items": [
         {
           "id": "cw-war-5",
@@ -641,6 +703,48 @@
           "w": 1,
           "star": 1
         }
+      ],
+      "links": [
+        {
+          "label": "Civil War",
+          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_2007"
+        },
+        {
+          "label": "Civil War: Young Avengers & Runaways",
+          "url": "https://www.marvel.com/comics/series/1114/civil_war_young_avengers_and_runaways_2006"
+        },
+        {
+          "label": "Iron Man",
+          "url": "https://www.marvel.com/comics/series/835/the_invincible_iron_man_2004_2008"
+        },
+        {
+          "label": "New Avengers",
+          "url": "https://www.marvel.com/comics/series/753/new_avengers_2004_2010"
+        },
+        {
+          "label": "Punisher War Journal",
+          "url": "https://www.marvel.com/comics/series/1112/punisher_war_journal_2006_2008"
+        },
+        {
+          "label": "Civil War: Front Line",
+          "url": "https://www.marvel.com/comics/series/1109/civil_war_front_line_2006_2007"
+        },
+        {
+          "label": "Amazing Spider-Man",
+          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
+        },
+        {
+          "label": "Black Panther",
+          "url": "https://www.marvel.com/comics/series/784/black_panther_2005_2008"
+        },
+        {
+          "label": "Captain America",
+          "url": "https://www.marvel.com/comics/series/832/captain_america_2004_2011"
+        },
+        {
+          "label": "Civil War: War Crimes",
+          "url": "https://www.marvel.com/comics/series/1150/civil_war_war_crimes_1_2006"
+        }
       ]
     },
     {
@@ -648,16 +752,6 @@
       "tier": 1,
       "title": "Civil War #6–7",
       "sub": "the end",
-      "links": [
-        {
-          "label": "Civil War",
-          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_-_2007"
-        },
-        {
-          "label": "Front Line",
-          "url": "https://www.marvel.com/comics/series/1109/civil_war_front_line_2006_2007"
-        }
-      ],
       "items": [
         {
           "id": "cw-war-6",
@@ -787,6 +881,48 @@
           "w": 1,
           "opt": 1
         }
+      ],
+      "links": [
+        {
+          "label": "Civil War",
+          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_2007"
+        },
+        {
+          "label": "Iron Man/Captain America: Casualties of War",
+          "url": "https://www.marvel.com/comics/series/1144/iron_mancaptain_america_casualties_of_war_2006"
+        },
+        {
+          "label": "Civil War: Front Line",
+          "url": "https://www.marvel.com/comics/series/1109/civil_war_front_line_2006_2007"
+        },
+        {
+          "label": "Amazing Spider-Man",
+          "url": "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
+        },
+        {
+          "label": "Fantastic Four",
+          "url": "https://www.marvel.com/comics/series/421/fantastic_four_1998_2012"
+        },
+        {
+          "label": "Civil War: The Return",
+          "url": "https://www.marvel.com/comics/series/1158/civil_war_the_return_1_2007"
+        },
+        {
+          "label": "Punisher War Journal",
+          "url": "https://www.marvel.com/comics/series/1112/punisher_war_journal_2006_2008"
+        },
+        {
+          "label": "Black Panther",
+          "url": "https://www.marvel.com/comics/series/784/black_panther_2005_2008"
+        },
+        {
+          "label": "Ghost Rider",
+          "url": "https://www.marvel.com/comics/series/1104/ghost_rider_2006_2009"
+        },
+        {
+          "label": "Moon Knight",
+          "url": "https://www.marvel.com/comics/series/947/moon_knight_2006_2009"
+        }
       ]
     },
     {
@@ -795,12 +931,6 @@
       "title": "Straight after",
       "sub": "the four that close it out",
       "intro": "These are the epilogue, and they are where the event's consequences get stated rather than implied. Read them before moving on to anything that follows.",
-      "links": [
-        {
-          "label": "Civil War",
-          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_-_2007"
-        }
-      ],
       "items": [
         {
           "id": "cw-initiative",
@@ -833,6 +963,24 @@
           "note": "A file-format summary of where everyone ended up",
           "opt": 1
         }
+      ],
+      "links": [
+        {
+          "label": "Civil War: The Initiative",
+          "url": "https://www.marvel.com/comics/series/1867/civil_war_the_initiative_1_2007"
+        },
+        {
+          "label": "Civil War: The Confession",
+          "url": "https://www.marvel.com/comics/series/3904/civil_war_the_confession_1_2007"
+        },
+        {
+          "label": "Civil War: Fallen Son",
+          "url": "https://www.marvel.com/comics/series/2214/fallen_son_the_death_of_captain_america_2007"
+        },
+        {
+          "label": "Civil War: Battle Damage Report",
+          "url": "https://www.marvel.com/comics/series/1871/civil_war_battle_damage_report_2007"
+        }
       ]
     },
     {
@@ -841,12 +989,6 @@
       "title": "What it turned into",
       "sub": "the runs that came directly out of it",
       "intro": "Not part of the event, and not a list to finish — this is where to go if a particular thread interested you.",
-      "links": [
-        {
-          "label": "Civil War",
-          "url": "https://www.marvel.com/comics/series/1067/civil_war_2006_-_2007"
-        }
-      ],
       "items": [
         {
           "id": "cw-f-mighty",
@@ -907,6 +1049,44 @@
           "w": 6,
           "note": "Warren Ellis takes over, and it's the best of these",
           "star": 1
+        }
+      ],
+      "links": [
+        {
+          "label": "Mighty Avengers",
+          "url": "https://www.marvel.com/comics/series/1866/the_mighty_avengers_2007_2010"
+        },
+        {
+          "label": "Avengers: The Initiative",
+          "url": "https://www.marvel.com/comics/series/1945/avengers_the_initiative_2007_2010"
+        },
+        {
+          "label": "Captain America",
+          "url": "https://www.marvel.com/comics/series/832/captain_america_2004_2011"
+        },
+        {
+          "label": "Iron Man: Director of S.H.I.E.L.D.",
+          "url": "https://www.marvel.com/comics/series/5267/iron_man_director_of_shield_2008"
+        },
+        {
+          "label": "Fantastic Four",
+          "url": "https://www.marvel.com/comics/series/421/fantastic_four_1998_2012"
+        },
+        {
+          "label": "Omega Flight",
+          "url": "https://www.marvel.com/comics/series/1941/omega_flight_2007"
+        },
+        {
+          "label": "The Order",
+          "url": "https://www.marvel.com/comics/series/2537/the_order_2007_2008"
+        },
+        {
+          "label": "Sub-Mariner",
+          "url": "https://www.marvel.com/comics/series/2415/submariner_2007"
+        },
+        {
+          "label": "Thunderbolts",
+          "url": "https://www.marvel.com/comics/series/18527/thunderbolts_2006_2012"
         }
       ]
     }
