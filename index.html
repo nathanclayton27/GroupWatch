@@ -199,6 +199,22 @@ a.iss{color:var(--steel);text-decoration:none;border-bottom:1px solid transparen
 a.iss:hover{border-bottom-color:var(--steel)}
 .sl{font-size:11px;color:var(--steel);text-decoration:none;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;margin-left:10px}
 .sl:hover{text-decoration:underline}
+/* past a few links the header needs a door, not a list */
+.slwrap{position:relative;flex:none}
+.slbtn{font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--steel);background:transparent;border:1px solid var(--rule-2);
+  border-radius:var(--radius);padding:3px 9px;cursor:pointer;
+  font-family:inherit;white-space:nowrap}
+.slbtn:hover{border-color:var(--steel)}
+.sldrop{position:absolute;top:calc(100% + 5px);right:0;z-index:70;
+  min-width:220px;max-width:min(88vw,320px);background:var(--card);
+  border:1px solid var(--rule-2);border-radius:var(--radius);
+  box-shadow:0 8px 24px -8px rgba(0,0,0,.45);padding:4px;
+  max-height:60vh;overflow-y:auto;text-align:left}
+.sldrop a{display:block;padding:8px 9px;font-size:12px;color:var(--steel);
+  text-decoration:none;border-radius:var(--radius);white-space:normal;
+  letter-spacing:.04em}
+.sldrop a:hover{background:rgba(128,128,128,.12)}
 
 .intro{padding:16px 18px 4px;border-bottom:1px solid var(--rule)}
 .intro p{margin:0 0 12px;font-size:14px;line-height:1.65;color:var(--ink-2);max-width:64ch}
@@ -695,7 +711,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'e07eea7e412a';
+const BUILD = 'fd4d824e9f21';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -1718,6 +1734,9 @@ function startGroupPoll(){
 //
 // A section longer than the cap becomes its own oversized row; the cap is a
 // target and section integrity wins.
+// Section links sit inline up to this many; past it they collapse into a
+// dropdown, because a dozen uppercase links shout over the section title.
+const LINKS_INLINE = 3;
 const ROW_MAX = 65;
 // ...but a very long property would otherwise stack up a wall of rows — 1174
 // episodes at 65 apiece is eighteen of them. Past this many rows the cap gives
@@ -2146,11 +2165,17 @@ $('b-prop').onclick = e=>{
 };
 document.addEventListener('click', e=>{
   if(!$('pmenu').classList.contains('hide') && !e.target.closest('.switcher')) closeMenu();
+  if(!e.target.closest('.slwrap'))
+    document.querySelectorAll('.sldrop').forEach(d=> d.classList.add('hide'));
   // tapping away from the list disarms whichever row was armed
   if(!e.target.closest('#list'))
     document.querySelectorAll('#list li.act').forEach(el=> el.classList.remove('act'));
 });
-document.addEventListener('keydown', e=>{ if(e.key === 'Escape') closeMenu(); });
+document.addEventListener('keydown', e=>{
+  if(e.key !== 'Escape') return;
+  closeMenu();
+  document.querySelectorAll('.sldrop').forEach(d=> d.classList.add('hide'));
+});
 
 function build(){
   $('list').innerHTML = DATA.map(s=>{
@@ -2171,12 +2196,21 @@ function build(){
         +(x.note?'<span class="nb">'+esc(x.note)+'</span>':'')+'</span></li>';
     }).join('');
     const links = s.links || s.series || [];
+    const linkHtml = links.length <= LINKS_INLINE
+      ? links.map(x=>'<a class="sl" href="'+esc(x.url)+'" target="_blank" '
+          + 'rel="noopener">'+esc(x.label)+' &#8599;</a>').join('')
+      : '<span class="slwrap"><button class="slbtn" data-drop="'+s.id+'">'
+          + links.length + ' series &#9662;</button>'
+          + '<div class="sldrop hide" id="drop-'+s.id+'">'
+          + links.map(x=>'<a href="'+esc(x.url)+'" target="_blank" '
+              + 'rel="noopener">'+esc(x.label)+' &#8599;</a>').join('')
+          + '</div></span>';
     return '<details id="d-'+s.id+'"><summary>'
       // with per-row tiers the section badge would be a lie: these sections
       // hold all three at once
       +(TIERED && !ITEMTIERS ? '<span class="tier mono'+(s.tier===1?' a':'')+'">T'+s.tier+'</span>' : '')
       +'<span class="st"><h2>'+esc(s.title)+'</h2><p>'+esc(s.sub||'')+'</p></span>'
-      +links.map(x=>'<a class="sl" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.label)+' &#8599;</a>').join('')
+      +linkHtml
       +'<button class="bulk" data-sec="'+s.id+'"></button>'
       +'<span class="cnt mono" id="n-'+s.id+'"></span></summary>'
       +(s.intro?'<div class="intro">'+s.intro.split('\n\n').map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>':'')
@@ -2200,6 +2234,18 @@ function build(){
   // target doing both means a stray click on a finished section would otherwise
   // wipe it.
   $('list').addEventListener('click', e=>{
+    // a link inside an open dropdown opens in a new tab; it must not also
+    // collapse the section it is sitting on
+    if(e.target.closest('.sldrop')){ e.stopPropagation(); return; }
+    const drop = e.target.closest('.slbtn');
+    if(drop){
+      e.preventDefault(); e.stopPropagation();
+      const el = $('drop-'+drop.dataset.drop);
+      const open = el && !el.classList.contains('hide');
+      $('list').querySelectorAll('.sldrop').forEach(d=> d.classList.add('hide'));
+      if(el && !open) el.classList.remove('hide');
+      return;
+    }
     const bulk = e.target.closest('.bulk');
     if(bulk){
       e.preventDefault(); e.stopPropagation();          // don't toggle <details>
