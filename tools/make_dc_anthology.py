@@ -142,7 +142,14 @@ def main():
         if year is None:
             continue
         run = SHOW_RUN.get((s["title"], year))
+        last = int(s["end"]) if s["end"] else year + seasons - 1
         for k in range(1, seasons + 1):
+            # Each season gets its own year, spread evenly across the run. A
+            # ten-season show parked entirely at its first year sorts ahead of
+            # everything that came out while it was still airing, and lands in
+            # whichever era it started in — Smallville ran 2001 to 2011 and was
+            # sitting in a section that ends in 2001.
+            sy = year if seasons == 1 else                 year + round((k - 1) * (last - year) / (seasons - 1))
             bits = []
             if k == 1:
                 span = s["start"] + ("–" + s["end"] if s["end"] else "–")
@@ -155,14 +162,18 @@ def main():
             entries.append({
                 # DC reuses titles freely — The Flash, Swamp Thing and
                 # Human Target are each two different series — so the id
-                # needs the year to stay unique
+                # needs the first year to stay unique
                 "id": "dc-t-%d-%s-s%d" % (year, slug(s["title"]), k),
                 "t": "%s season %d" % (s["title"], k),
-                "n": str(year), "w": per, "note": " · ".join(bits),
-                "date": "%d-06-15" % year, "year": year, "kind": "show",
+                "n": str(sy), "w": per, "note": " · ".join(bits),
+                "date": "%d-06-15" % sy, "year": sy, "kind": "show",
+                "sortkey": (s["title"], k),
             })
 
-    entries.sort(key=lambda e: (e["date"], e["kind"] == "show", e["t"]))
+    # sort seasons by number, not by title: "season 10" sorts before
+    # "season 2" alphabetically
+    entries.sort(key=lambda e: (e["date"], e["kind"] == "show",
+                                e.get("sortkey", (e["t"], 0))))
 
     sections = []
     for key, title, years, intro in ERAS:
@@ -180,6 +191,7 @@ def main():
                "items": [{k: v for k, v in e.items()
                           if k in ("id", "t", "n", "w") or (k == "note" and v)}
                          for e in got]}
+        assert all(a["n"] <= b["n"] for a, b in zip(sec["items"], sec["items"][1:])),             "%s is out of year order" % title
         if key == "early":
             sec["open"] = True
         sections.append(sec)
@@ -217,9 +229,7 @@ def main():
             ["Television is tracked season by season.", "A season's length is the "
              "series' episode count split evenly across its seasons at %d minutes "
              "each — the source gives a total rather than a per-season breakdown. "
-             "Seasons sit together at the year their series began, because there "
-             "are no per-season dates to place them by and inventing them would "
-             "be worse." % EP_MINUTES],
+             "Each season is placed by spreading them evenly between the years the series started and ended, which is exact for anything that ran annually and close for anything that did not." % EP_MINUTES],
             ["Bar widths are runtimes.", "Films use their real runtime from "
              "Wikidata. Batgirl was shelved before release and the 2026–28 films "
              "are not out, so those weigh nothing and cannot drag a group's pace."],

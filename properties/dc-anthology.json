@@ -30,7 +30,7 @@
     ],
     [
       "Television is tracked season by season.",
-      "A season's length is the series' episode count split evenly across its seasons at 43 minutes each — the source gives a total rather than a per-season breakdown. Seasons sit together at the year their series began, because there are no per-season dates to place them by and inventing them would be worse."
+      "A season's length is the series' episode count split evenly across its seasons at 43 minutes each — the source gives a total rather than a per-season breakdown. Each season is placed by spreading them evenly between the years the series started and ended, which is exact for anything that ran annually and close for anything that did not."
     ],
     [
       "Bar widths are runtimes.",
@@ -42,7 +42,7 @@
     {
       "id": "early",
       "title": "Before Burton",
-      "sub": "1951–1988 · 8 films and 21 seasons · 325 hours",
+      "sub": "1951–1988 · 8 films and 18 seasons · 272 hours",
       "intro": "Serial-era Superman, the 1966 Batman, and the Donner films that showed a comic-book movie could be played straight.",
       "items": [
         {
@@ -61,31 +61,31 @@
         {
           "id": "dc-t-1952-adventures-of-superman-s2",
           "t": "Adventures of Superman season 2",
-          "n": "1952",
+          "n": "1953",
           "w": 12.42
         },
         {
           "id": "dc-t-1952-adventures-of-superman-s3",
           "t": "Adventures of Superman season 3",
-          "n": "1952",
+          "n": "1954",
           "w": 12.42
         },
         {
           "id": "dc-t-1952-adventures-of-superman-s4",
           "t": "Adventures of Superman season 4",
-          "n": "1952",
+          "n": "1956",
           "w": 12.42
         },
         {
           "id": "dc-t-1952-adventures-of-superman-s5",
           "t": "Adventures of Superman season 5",
-          "n": "1952",
+          "n": "1957",
           "w": 12.42
         },
         {
           "id": "dc-t-1952-adventures-of-superman-s6",
           "t": "Adventures of Superman season 6",
-          "n": "1952",
+          "n": "1958",
           "w": 12.42
         },
         {
@@ -96,22 +96,22 @@
           "note": "1966–1968 · 3 seasons, 120 episodes"
         },
         {
+          "id": "dc-f-1966-batman",
+          "t": "Batman",
+          "n": "1966",
+          "w": 1.75
+        },
+        {
           "id": "dc-t-1966-batman-s2",
           "t": "Batman season 2",
-          "n": "1966",
+          "n": "1967",
           "w": 28.67
         },
         {
           "id": "dc-t-1966-batman-s3",
           "t": "Batman season 3",
-          "n": "1966",
+          "n": "1968",
           "w": 28.67
-        },
-        {
-          "id": "dc-f-1966-batman",
-          "t": "Batman",
-          "n": "1966",
-          "w": 1.75
         },
         {
           "id": "dc-t-1974-shazam-s1",
@@ -123,13 +123,7 @@
         {
           "id": "dc-t-1974-shazam-s2",
           "t": "Shazam! season 2",
-          "n": "1974",
-          "w": 6.69
-        },
-        {
-          "id": "dc-t-1974-shazam-s3",
-          "t": "Shazam! season 3",
-          "n": "1974",
+          "n": "1975",
           "w": 6.69
         },
         {
@@ -140,12 +134,6 @@
           "note": "1975–1976 · 2 seasons, 22 episodes"
         },
         {
-          "id": "dc-t-1975-the-secrets-of-isis-s2",
-          "t": "The Secrets of Isis season 2",
-          "n": "1975",
-          "w": 7.88
-        },
-        {
           "id": "dc-t-1975-wonder-woman-s1",
           "t": "Wonder Woman season 1",
           "n": "1975",
@@ -153,15 +141,21 @@
           "note": "1975–1979 · 3 seasons, 60 episodes"
         },
         {
-          "id": "dc-t-1975-wonder-woman-s2",
-          "t": "Wonder Woman season 2",
-          "n": "1975",
-          "w": 14.33
+          "id": "dc-t-1974-shazam-s3",
+          "t": "Shazam! season 3",
+          "n": "1976",
+          "w": 6.69
         },
         {
-          "id": "dc-t-1975-wonder-woman-s3",
-          "t": "Wonder Woman season 3",
-          "n": "1975",
+          "id": "dc-t-1975-the-secrets-of-isis-s2",
+          "t": "The Secrets of Isis season 2",
+          "n": "1976",
+          "w": 7.88
+        },
+        {
+          "id": "dc-t-1975-wonder-woman-s2",
+          "t": "Wonder Woman season 2",
+          "n": "1977",
           "w": 14.33
         },
         {
@@ -170,6 +164,12 @@
           "n": "1978",
           "w": 2.38,
           "note": "DCU"
+        },
+        {
+          "id": "dc-t-1975-wonder-woman-s3",
+          "t": "Wonder Woman season 3",
+          "n": "1979",
+          "w": 14.33
         },
         {
           "id": "dc-f-1980-superman-ii",
@@ -208,24 +208,6 @@
           "n": "1988",
           "w": 17.92,
           "note": "1988–1992 · 4 seasons, 100 episodes"
-        },
-        {
-          "id": "dc-t-1988-superboy-s2",
-          "t": "Superboy season 2",
-          "n": "1988",
-          "w": 17.92
-        },
-        {
-          "id": "dc-t-1988-superboy-s3",
-          "t": "Superboy season 3",
-          "n": "1988",
-          "w": 17.92
-        },
-        {
-          "id": "dc-t-1988-superboy-s4",
-          "t": "Superboy season 4",
-          "n": "1988",
-          "w": 17.92
         }
       ],
       "open": true
@@ -233,9 +215,15 @@
     {
       "id": "burton",
       "title": "Burton to Schumacher",
-      "sub": "1989–2001 · 6 films and 19 seasons · 302 hours",
+      "sub": "1989–2001 · 6 films and 13 seasons · 216 hours",
       "intro": "Four Batman films that get progressively louder, and the first modern run of DC television.",
       "items": [
+        {
+          "id": "dc-t-1988-superboy-s2",
+          "t": "Superboy season 2",
+          "n": "1989",
+          "w": 17.92
+        },
         {
           "id": "dc-f-1989-batman",
           "t": "Batman",
@@ -256,18 +244,6 @@
           "note": "1990–1993 · 3 seasons, 72 episodes"
         },
         {
-          "id": "dc-t-1990-swamp-thing-s2",
-          "t": "Swamp Thing season 2",
-          "n": "1990",
-          "w": 17.2
-        },
-        {
-          "id": "dc-t-1990-swamp-thing-s3",
-          "t": "Swamp Thing season 3",
-          "n": "1990",
-          "w": 17.2
-        },
-        {
           "id": "dc-t-1990-the-flash-s1",
           "t": "The Flash season 1",
           "n": "1990",
@@ -275,11 +251,29 @@
           "note": "1990–1991 · 1 season, 22 episodes"
         },
         {
+          "id": "dc-t-1988-superboy-s3",
+          "t": "Superboy season 3",
+          "n": "1991",
+          "w": 17.92
+        },
+        {
           "id": "dc-t-1992-human-target-s1",
           "t": "Human Target season 1",
           "n": "1992",
           "w": 5.02,
           "note": "1992– · 1 season, 7 episodes"
+        },
+        {
+          "id": "dc-t-1988-superboy-s4",
+          "t": "Superboy season 4",
+          "n": "1992",
+          "w": 17.92
+        },
+        {
+          "id": "dc-t-1990-swamp-thing-s2",
+          "t": "Swamp Thing season 2",
+          "n": "1992",
+          "w": 17.2
         },
         {
           "id": "dc-f-1992-batman-returns",
@@ -295,21 +289,15 @@
           "note": "1993–1997 · 4 seasons, 88 episodes"
         },
         {
+          "id": "dc-t-1990-swamp-thing-s3",
+          "t": "Swamp Thing season 3",
+          "n": "1993",
+          "w": 17.2
+        },
+        {
           "id": "dc-t-1993-lois-clark-the-new-adventures-of-superman-s2",
           "t": "Lois & Clark: The New Adventures of Superman season 2",
-          "n": "1993",
-          "w": 15.77
-        },
-        {
-          "id": "dc-t-1993-lois-clark-the-new-adventures-of-superman-s3",
-          "t": "Lois & Clark: The New Adventures of Superman season 3",
-          "n": "1993",
-          "w": 15.77
-        },
-        {
-          "id": "dc-t-1993-lois-clark-the-new-adventures-of-superman-s4",
-          "t": "Lois & Clark: The New Adventures of Superman season 4",
-          "n": "1993",
+          "n": "1994",
           "w": 15.77
         },
         {
@@ -317,6 +305,18 @@
           "t": "Batman Forever",
           "n": "1995",
           "w": 1.95
+        },
+        {
+          "id": "dc-t-1993-lois-clark-the-new-adventures-of-superman-s3",
+          "t": "Lois & Clark: The New Adventures of Superman season 3",
+          "n": "1996",
+          "w": 15.77
+        },
+        {
+          "id": "dc-t-1993-lois-clark-the-new-adventures-of-superman-s4",
+          "t": "Lois & Clark: The New Adventures of Superman season 4",
+          "n": "1997",
+          "w": 15.77
         },
         {
           "id": "dc-f-1997-batman-robin",
@@ -336,67 +336,13 @@
           "n": "2001",
           "w": 15.55,
           "note": "2001–2011 · 10 seasons, 217 episodes"
-        },
-        {
-          "id": "dc-t-2001-smallville-s10",
-          "t": "Smallville season 10",
-          "n": "2001",
-          "w": 15.55
-        },
-        {
-          "id": "dc-t-2001-smallville-s2",
-          "t": "Smallville season 2",
-          "n": "2001",
-          "w": 15.55
-        },
-        {
-          "id": "dc-t-2001-smallville-s3",
-          "t": "Smallville season 3",
-          "n": "2001",
-          "w": 15.55
-        },
-        {
-          "id": "dc-t-2001-smallville-s4",
-          "t": "Smallville season 4",
-          "n": "2001",
-          "w": 15.55
-        },
-        {
-          "id": "dc-t-2001-smallville-s5",
-          "t": "Smallville season 5",
-          "n": "2001",
-          "w": 15.55
-        },
-        {
-          "id": "dc-t-2001-smallville-s6",
-          "t": "Smallville season 6",
-          "n": "2001",
-          "w": 15.55
-        },
-        {
-          "id": "dc-t-2001-smallville-s7",
-          "t": "Smallville season 7",
-          "n": "2001",
-          "w": 15.55
-        },
-        {
-          "id": "dc-t-2001-smallville-s8",
-          "t": "Smallville season 8",
-          "n": "2001",
-          "w": 15.55
-        },
-        {
-          "id": "dc-t-2001-smallville-s9",
-          "t": "Smallville season 9",
-          "n": "2001",
-          "w": 15.55
         }
       ]
     },
     {
       "id": "nolan",
       "title": "Nolan and the wilderness",
-      "sub": "2002–2012 · 15 films and 11 seasons · 180 hours",
+      "sub": "2002–2012 · 15 films and 13 seasons · 214 hours",
       "intro": "One trilogy that reset what the genre could be, surrounded by films that did not connect to anything.",
       "items": [
         {
@@ -407,6 +353,12 @@
           "note": "2002–2003 · 1 season, 13 episodes"
         },
         {
+          "id": "dc-t-2001-smallville-s2",
+          "t": "Smallville season 2",
+          "n": "2002",
+          "w": 15.55
+        },
+        {
           "id": "dc-f-2002-road-to-perdition",
           "t": "Road to Perdition",
           "n": "2002",
@@ -414,11 +366,23 @@
           "note": "A DC imprint, not the main line"
         },
         {
+          "id": "dc-t-2001-smallville-s3",
+          "t": "Smallville season 3",
+          "n": "2003",
+          "w": 15.55
+        },
+        {
           "id": "dc-f-2003-the-league-of-extraordinary-gentlemen",
           "t": "The League of Extraordinary Gentlemen",
           "n": "2003",
           "w": 1.83,
           "note": "A DC imprint, not the main line"
+        },
+        {
+          "id": "dc-t-2001-smallville-s4",
+          "t": "Smallville season 4",
+          "n": "2004",
+          "w": 15.55
         },
         {
           "id": "dc-f-2004-catwoman",
@@ -447,6 +411,12 @@
           "note": "The Dark Knight trilogy"
         },
         {
+          "id": "dc-t-2001-smallville-s5",
+          "t": "Smallville season 5",
+          "n": "2005",
+          "w": 15.55
+        },
+        {
           "id": "dc-f-2006-v-for-vendetta",
           "t": "V for Vendetta",
           "n": "2006",
@@ -454,11 +424,23 @@
           "note": "A DC imprint, not the main line"
         },
         {
+          "id": "dc-t-2001-smallville-s6",
+          "t": "Smallville season 6",
+          "n": "2007",
+          "w": 15.55
+        },
+        {
           "id": "dc-f-2007-stardust",
           "t": "Stardust",
           "n": "2007",
           "w": 2.12,
           "note": "A DC imprint, not the main line"
+        },
+        {
+          "id": "dc-t-2001-smallville-s7",
+          "t": "Smallville season 7",
+          "n": "2008",
+          "w": 15.55
         },
         {
           "id": "dc-f-2008-the-dark-knight",
@@ -472,6 +454,12 @@
           "t": "Watchmen",
           "n": "2009",
           "w": 3.6
+        },
+        {
+          "id": "dc-t-2001-smallville-s8",
+          "t": "Smallville season 8",
+          "n": "2009",
+          "w": 15.55
         },
         {
           "id": "dc-f-2010-the-losers",
@@ -488,10 +476,10 @@
           "note": "2010–2011 · 2 seasons, 25 episodes"
         },
         {
-          "id": "dc-t-2010-human-target-s2",
-          "t": "Human Target season 2",
+          "id": "dc-t-2001-smallville-s9",
+          "t": "Smallville season 9",
           "n": "2010",
-          "w": 8.96
+          "w": 15.55
         },
         {
           "id": "dc-f-2010-jonah-hex",
@@ -513,53 +501,23 @@
           "w": 1.9
         },
         {
+          "id": "dc-t-2010-human-target-s2",
+          "t": "Human Target season 2",
+          "n": "2011",
+          "w": 8.96
+        },
+        {
+          "id": "dc-t-2001-smallville-s10",
+          "t": "Smallville season 10",
+          "n": "2011",
+          "w": 15.55
+        },
+        {
           "id": "dc-t-2012-arrow-s1",
           "t": "Arrow season 1",
           "n": "2012",
           "w": 15.23,
           "note": "2012–2020 · 8 seasons, 170 episodes · Arrowverse"
-        },
-        {
-          "id": "dc-t-2012-arrow-s2",
-          "t": "Arrow season 2",
-          "n": "2012",
-          "w": 15.23
-        },
-        {
-          "id": "dc-t-2012-arrow-s3",
-          "t": "Arrow season 3",
-          "n": "2012",
-          "w": 15.23
-        },
-        {
-          "id": "dc-t-2012-arrow-s4",
-          "t": "Arrow season 4",
-          "n": "2012",
-          "w": 15.23
-        },
-        {
-          "id": "dc-t-2012-arrow-s5",
-          "t": "Arrow season 5",
-          "n": "2012",
-          "w": 15.23
-        },
-        {
-          "id": "dc-t-2012-arrow-s6",
-          "t": "Arrow season 6",
-          "n": "2012",
-          "w": 15.23
-        },
-        {
-          "id": "dc-t-2012-arrow-s7",
-          "t": "Arrow season 7",
-          "n": "2012",
-          "w": 15.23
-        },
-        {
-          "id": "dc-t-2012-arrow-s8",
-          "t": "Arrow season 8",
-          "n": "2012",
-          "w": 15.23
         },
         {
           "id": "dc-f-2012-the-dark-knight-rises",
@@ -573,7 +531,7 @@
     {
       "id": "dceu",
       "title": "The DCEU and the Arrowverse",
-      "sub": "2013–2023 · 20 films and 85 seasons · 922 hours",
+      "sub": "2013–2023 · 20 films and 88 seasons · 1000 hours",
       "intro": "The shared universe on film and a separate, larger one on television, running alongside each other for a decade.",
       "items": [
         {
@@ -584,11 +542,23 @@
           "note": "DCEU"
         },
         {
+          "id": "dc-t-2012-arrow-s2",
+          "t": "Arrow season 2",
+          "n": "2013",
+          "w": 15.23
+        },
+        {
           "id": "dc-f-2013-red-2",
           "t": "Red 2",
           "n": "2013",
           "w": 1.93,
           "note": "A DC imprint, not the main line"
+        },
+        {
+          "id": "dc-t-2012-arrow-s3",
+          "t": "Arrow season 3",
+          "n": "2014",
+          "w": 15.23
         },
         {
           "id": "dc-t-2014-constantine-s1",
@@ -605,30 +575,6 @@
           "note": "2014–2019 · 5 seasons, 100 episodes"
         },
         {
-          "id": "dc-t-2014-gotham-s2",
-          "t": "Gotham season 2",
-          "n": "2014",
-          "w": 14.33
-        },
-        {
-          "id": "dc-t-2014-gotham-s3",
-          "t": "Gotham season 3",
-          "n": "2014",
-          "w": 14.33
-        },
-        {
-          "id": "dc-t-2014-gotham-s4",
-          "t": "Gotham season 4",
-          "n": "2014",
-          "w": 14.33
-        },
-        {
-          "id": "dc-t-2014-gotham-s5",
-          "t": "Gotham season 5",
-          "n": "2014",
-          "w": 14.33
-        },
-        {
           "id": "dc-t-2014-the-flash-s1",
           "t": "The Flash season 1",
           "n": "2014",
@@ -636,52 +582,16 @@
           "note": "2014–2023 · 9 seasons, 184 episodes · Arrowverse"
         },
         {
-          "id": "dc-t-2014-the-flash-s2",
-          "t": "The Flash season 2",
-          "n": "2014",
-          "w": 14.65
+          "id": "dc-t-2012-arrow-s4",
+          "t": "Arrow season 4",
+          "n": "2015",
+          "w": 15.23
         },
         {
-          "id": "dc-t-2014-the-flash-s3",
-          "t": "The Flash season 3",
-          "n": "2014",
-          "w": 14.65
-        },
-        {
-          "id": "dc-t-2014-the-flash-s4",
-          "t": "The Flash season 4",
-          "n": "2014",
-          "w": 14.65
-        },
-        {
-          "id": "dc-t-2014-the-flash-s5",
-          "t": "The Flash season 5",
-          "n": "2014",
-          "w": 14.65
-        },
-        {
-          "id": "dc-t-2014-the-flash-s6",
-          "t": "The Flash season 6",
-          "n": "2014",
-          "w": 14.65
-        },
-        {
-          "id": "dc-t-2014-the-flash-s7",
-          "t": "The Flash season 7",
-          "n": "2014",
-          "w": 14.65
-        },
-        {
-          "id": "dc-t-2014-the-flash-s8",
-          "t": "The Flash season 8",
-          "n": "2014",
-          "w": 14.65
-        },
-        {
-          "id": "dc-t-2014-the-flash-s9",
-          "t": "The Flash season 9",
-          "n": "2014",
-          "w": 14.65
+          "id": "dc-t-2014-gotham-s2",
+          "t": "Gotham season 2",
+          "n": "2015",
+          "w": 14.33
         },
         {
           "id": "dc-t-2015-supergirl-s1",
@@ -691,34 +601,10 @@
           "note": "2015–2021 · 6 seasons, 126 episodes · Arrowverse"
         },
         {
-          "id": "dc-t-2015-supergirl-s2",
-          "t": "Supergirl season 2",
+          "id": "dc-t-2014-the-flash-s2",
+          "t": "The Flash season 2",
           "n": "2015",
-          "w": 15.05
-        },
-        {
-          "id": "dc-t-2015-supergirl-s3",
-          "t": "Supergirl season 3",
-          "n": "2015",
-          "w": 15.05
-        },
-        {
-          "id": "dc-t-2015-supergirl-s4",
-          "t": "Supergirl season 4",
-          "n": "2015",
-          "w": 15.05
-        },
-        {
-          "id": "dc-t-2015-supergirl-s5",
-          "t": "Supergirl season 5",
-          "n": "2015",
-          "w": 15.05
-        },
-        {
-          "id": "dc-t-2015-supergirl-s6",
-          "t": "Supergirl season 6",
-          "n": "2015",
-          "w": 15.05
+          "w": 14.65
         },
         {
           "id": "dc-t-2015-izombie-s1",
@@ -728,35 +614,17 @@
           "note": "2015–2019 · 5 seasons, 71 episodes · A DC imprint, not the main line"
         },
         {
-          "id": "dc-t-2015-izombie-s2",
-          "t": "iZombie season 2",
-          "n": "2015",
-          "w": 10.18
-        },
-        {
-          "id": "dc-t-2015-izombie-s3",
-          "t": "iZombie season 3",
-          "n": "2015",
-          "w": 10.18
-        },
-        {
-          "id": "dc-t-2015-izombie-s4",
-          "t": "iZombie season 4",
-          "n": "2015",
-          "w": 10.18
-        },
-        {
-          "id": "dc-t-2015-izombie-s5",
-          "t": "iZombie season 5",
-          "n": "2015",
-          "w": 10.18
-        },
-        {
           "id": "dc-f-2016-batman-v-superman-dawn-of-justice",
           "t": "Batman v Superman: Dawn of Justice",
           "n": "2016",
           "w": 3.03,
           "note": "DCEU"
+        },
+        {
+          "id": "dc-t-2014-gotham-s3",
+          "t": "Gotham season 3",
+          "n": "2016",
+          "w": 14.33
         },
         {
           "id": "dc-t-2016-legends-of-tomorrow-s1",
@@ -766,77 +634,11 @@
           "note": "2016–2022 · 7 seasons, 110 episodes · Arrowverse"
         },
         {
-          "id": "dc-t-2016-legends-of-tomorrow-s2",
-          "t": "Legends of Tomorrow season 2",
-          "n": "2016",
-          "w": 11.26
-        },
-        {
-          "id": "dc-t-2016-legends-of-tomorrow-s3",
-          "t": "Legends of Tomorrow season 3",
-          "n": "2016",
-          "w": 11.26
-        },
-        {
-          "id": "dc-t-2016-legends-of-tomorrow-s4",
-          "t": "Legends of Tomorrow season 4",
-          "n": "2016",
-          "w": 11.26
-        },
-        {
-          "id": "dc-t-2016-legends-of-tomorrow-s5",
-          "t": "Legends of Tomorrow season 5",
-          "n": "2016",
-          "w": 11.26
-        },
-        {
-          "id": "dc-t-2016-legends-of-tomorrow-s6",
-          "t": "Legends of Tomorrow season 6",
-          "n": "2016",
-          "w": 11.26
-        },
-        {
-          "id": "dc-t-2016-legends-of-tomorrow-s7",
-          "t": "Legends of Tomorrow season 7",
-          "n": "2016",
-          "w": 11.26
-        },
-        {
           "id": "dc-t-2016-lucifer-s1",
           "t": "Lucifer season 1",
           "n": "2016",
           "w": 11.11,
           "note": "2016–2021 · 6 seasons, 93 episodes · A DC imprint, not the main line"
-        },
-        {
-          "id": "dc-t-2016-lucifer-s2",
-          "t": "Lucifer season 2",
-          "n": "2016",
-          "w": 11.11
-        },
-        {
-          "id": "dc-t-2016-lucifer-s3",
-          "t": "Lucifer season 3",
-          "n": "2016",
-          "w": 11.11
-        },
-        {
-          "id": "dc-t-2016-lucifer-s4",
-          "t": "Lucifer season 4",
-          "n": "2016",
-          "w": 11.11
-        },
-        {
-          "id": "dc-t-2016-lucifer-s5",
-          "t": "Lucifer season 5",
-          "n": "2016",
-          "w": 11.11
-        },
-        {
-          "id": "dc-t-2016-lucifer-s6",
-          "t": "Lucifer season 6",
-          "n": "2016",
-          "w": 11.11
         },
         {
           "id": "dc-t-2016-preacher-s1",
@@ -846,22 +648,22 @@
           "note": "2016–2019 · 4 seasons, 43 episodes · A DC imprint, not the main line"
         },
         {
-          "id": "dc-t-2016-preacher-s2",
-          "t": "Preacher season 2",
+          "id": "dc-t-2015-supergirl-s2",
+          "t": "Supergirl season 2",
           "n": "2016",
-          "w": 7.7
+          "w": 15.05
         },
         {
-          "id": "dc-t-2016-preacher-s3",
-          "t": "Preacher season 3",
+          "id": "dc-t-2014-the-flash-s3",
+          "t": "The Flash season 3",
           "n": "2016",
-          "w": 7.7
+          "w": 14.65
         },
         {
-          "id": "dc-t-2016-preacher-s4",
-          "t": "Preacher season 4",
+          "id": "dc-t-2015-izombie-s2",
+          "t": "iZombie season 2",
           "n": "2016",
-          "w": 7.7
+          "w": 10.18
         },
         {
           "id": "dc-f-2016-suicide-squad",
@@ -878,11 +680,53 @@
           "note": "DCEU"
         },
         {
+          "id": "dc-t-2012-arrow-s5",
+          "t": "Arrow season 5",
+          "n": "2017",
+          "w": 15.23
+        },
+        {
+          "id": "dc-t-2016-legends-of-tomorrow-s2",
+          "t": "Legends of Tomorrow season 2",
+          "n": "2017",
+          "w": 11.26
+        },
+        {
+          "id": "dc-t-2016-lucifer-s2",
+          "t": "Lucifer season 2",
+          "n": "2017",
+          "w": 11.11
+        },
+        {
           "id": "dc-t-2017-powerless-s1",
           "t": "Powerless season 1",
           "n": "2017",
           "w": 8.6,
           "note": "2017– · 1 season, 12 episodes"
+        },
+        {
+          "id": "dc-t-2016-preacher-s2",
+          "t": "Preacher season 2",
+          "n": "2017",
+          "w": 7.7
+        },
+        {
+          "id": "dc-t-2015-supergirl-s3",
+          "t": "Supergirl season 3",
+          "n": "2017",
+          "w": 15.05
+        },
+        {
+          "id": "dc-t-2014-the-flash-s4",
+          "t": "The Flash season 4",
+          "n": "2017",
+          "w": 14.65
+        },
+        {
+          "id": "dc-t-2015-izombie-s3",
+          "t": "iZombie season 3",
+          "n": "2017",
+          "w": 10.18
         },
         {
           "id": "dc-f-2017-justice-league",
@@ -892,6 +736,12 @@
           "note": "DCEU"
         },
         {
+          "id": "dc-t-2012-arrow-s6",
+          "t": "Arrow season 6",
+          "n": "2018",
+          "w": 15.23
+        },
+        {
           "id": "dc-t-2018-black-lightning-s1",
           "t": "Black Lightning season 1",
           "n": "2018",
@@ -899,22 +749,10 @@
           "note": "2018–2021 · 4 seasons, 58 episodes · Arrowverse"
         },
         {
-          "id": "dc-t-2018-black-lightning-s2",
-          "t": "Black Lightning season 2",
+          "id": "dc-t-2014-gotham-s4",
+          "t": "Gotham season 4",
           "n": "2018",
-          "w": 10.39
-        },
-        {
-          "id": "dc-t-2018-black-lightning-s3",
-          "t": "Black Lightning season 3",
-          "n": "2018",
-          "w": 10.39
-        },
-        {
-          "id": "dc-t-2018-black-lightning-s4",
-          "t": "Black Lightning season 4",
-          "n": "2018",
-          "w": 10.39
+          "w": 14.33
         },
         {
           "id": "dc-t-2018-krypton-s1",
@@ -924,10 +762,28 @@
           "note": "2018–2019 · 2 seasons, 20 episodes"
         },
         {
-          "id": "dc-t-2018-krypton-s2",
-          "t": "Krypton season 2",
+          "id": "dc-t-2016-legends-of-tomorrow-s3",
+          "t": "Legends of Tomorrow season 3",
           "n": "2018",
-          "w": 7.17
+          "w": 11.26
+        },
+        {
+          "id": "dc-t-2016-lucifer-s3",
+          "t": "Lucifer season 3",
+          "n": "2018",
+          "w": 11.11
+        },
+        {
+          "id": "dc-t-2016-preacher-s3",
+          "t": "Preacher season 3",
+          "n": "2018",
+          "w": 7.7
+        },
+        {
+          "id": "dc-t-2014-the-flash-s5",
+          "t": "The Flash season 5",
+          "n": "2018",
+          "w": 14.65
         },
         {
           "id": "dc-t-2018-titans-s1",
@@ -937,22 +793,10 @@
           "note": "2018–2023 · 4 seasons, 49 episodes"
         },
         {
-          "id": "dc-t-2018-titans-s2",
-          "t": "Titans season 2",
+          "id": "dc-t-2015-izombie-s4",
+          "t": "iZombie season 4",
           "n": "2018",
-          "w": 8.78
-        },
-        {
-          "id": "dc-t-2018-titans-s3",
-          "t": "Titans season 3",
-          "n": "2018",
-          "w": 8.78
-        },
-        {
-          "id": "dc-t-2018-titans-s4",
-          "t": "Titans season 4",
-          "n": "2018",
-          "w": 8.78
+          "w": 10.18
         },
         {
           "id": "dc-f-2018-aquaman",
@@ -969,6 +813,12 @@
           "note": "DCEU"
         },
         {
+          "id": "dc-t-2012-arrow-s7",
+          "t": "Arrow season 7",
+          "n": "2019",
+          "w": 15.23
+        },
+        {
           "id": "dc-t-2019-batwoman-s1",
           "t": "Batwoman season 1",
           "n": "2019",
@@ -976,16 +826,10 @@
           "note": "2019–2022 · 3 seasons, 51 episodes · Arrowverse"
         },
         {
-          "id": "dc-t-2019-batwoman-s2",
-          "t": "Batwoman season 2",
+          "id": "dc-t-2018-black-lightning-s2",
+          "t": "Black Lightning season 2",
           "n": "2019",
-          "w": 12.18
-        },
-        {
-          "id": "dc-t-2019-batwoman-s3",
-          "t": "Batwoman season 3",
-          "n": "2019",
-          "w": 12.18
+          "w": 10.39
         },
         {
           "id": "dc-t-2019-doom-patrol-s1",
@@ -995,22 +839,28 @@
           "note": "2019–2023 · 4 seasons, 46 episodes"
         },
         {
-          "id": "dc-t-2019-doom-patrol-s2",
-          "t": "Doom Patrol season 2",
+          "id": "dc-t-2014-gotham-s5",
+          "t": "Gotham season 5",
           "n": "2019",
-          "w": 8.24
+          "w": 14.33
         },
         {
-          "id": "dc-t-2019-doom-patrol-s3",
-          "t": "Doom Patrol season 3",
+          "id": "dc-t-2018-krypton-s2",
+          "t": "Krypton season 2",
           "n": "2019",
-          "w": 8.24
+          "w": 7.17
         },
         {
-          "id": "dc-t-2019-doom-patrol-s4",
-          "t": "Doom Patrol season 4",
+          "id": "dc-t-2016-legends-of-tomorrow-s4",
+          "t": "Legends of Tomorrow season 4",
           "n": "2019",
-          "w": 8.24
+          "w": 11.26
+        },
+        {
+          "id": "dc-t-2016-lucifer-s4",
+          "t": "Lucifer season 4",
+          "n": "2019",
+          "w": 11.11
         },
         {
           "id": "dc-t-2019-pennyworth-s1",
@@ -1020,16 +870,16 @@
           "note": "2019–2022 · 3 seasons, 30 episodes"
         },
         {
-          "id": "dc-t-2019-pennyworth-s2",
-          "t": "Pennyworth season 2",
+          "id": "dc-t-2016-preacher-s4",
+          "t": "Preacher season 4",
           "n": "2019",
-          "w": 7.17
+          "w": 7.7
         },
         {
-          "id": "dc-t-2019-pennyworth-s3",
-          "t": "Pennyworth season 3",
+          "id": "dc-t-2015-supergirl-s4",
+          "t": "Supergirl season 4",
           "n": "2019",
-          "w": 7.17
+          "w": 15.05
         },
         {
           "id": "dc-t-2019-swamp-thing-s1",
@@ -1044,6 +894,12 @@
           "n": "2019",
           "w": 6.45,
           "note": "2019– · 1 season, 9 episodes"
+        },
+        {
+          "id": "dc-t-2015-izombie-s5",
+          "t": "iZombie season 5",
+          "n": "2019",
+          "w": 10.18
         },
         {
           "id": "dc-f-2019-the-kitchen",
@@ -1067,6 +923,36 @@
           "note": "DCEU"
         },
         {
+          "id": "dc-t-2012-arrow-s8",
+          "t": "Arrow season 8",
+          "n": "2020",
+          "w": 15.23
+        },
+        {
+          "id": "dc-t-2018-black-lightning-s3",
+          "t": "Black Lightning season 3",
+          "n": "2020",
+          "w": 10.39
+        },
+        {
+          "id": "dc-t-2019-doom-patrol-s2",
+          "t": "Doom Patrol season 2",
+          "n": "2020",
+          "w": 8.24
+        },
+        {
+          "id": "dc-t-2016-legends-of-tomorrow-s5",
+          "t": "Legends of Tomorrow season 5",
+          "n": "2020",
+          "w": 11.26
+        },
+        {
+          "id": "dc-t-2016-lucifer-s5",
+          "t": "Lucifer season 5",
+          "n": "2020",
+          "w": 11.11
+        },
+        {
           "id": "dc-t-2020-stargirl-s1",
           "t": "Stargirl season 1",
           "n": "2020",
@@ -1074,16 +960,22 @@
           "note": "2020–2022 · 3 seasons, 39 episodes"
         },
         {
-          "id": "dc-t-2020-stargirl-s2",
-          "t": "Stargirl season 2",
+          "id": "dc-t-2015-supergirl-s5",
+          "t": "Supergirl season 5",
           "n": "2020",
-          "w": 9.32
+          "w": 15.05
         },
         {
-          "id": "dc-t-2020-stargirl-s3",
-          "t": "Stargirl season 3",
+          "id": "dc-t-2014-the-flash-s6",
+          "t": "The Flash season 6",
           "n": "2020",
-          "w": 9.32
+          "w": 14.65
+        },
+        {
+          "id": "dc-t-2018-titans-s2",
+          "t": "Titans season 2",
+          "n": "2020",
+          "w": 8.78
         },
         {
           "id": "dc-f-2020-wonder-woman-1984",
@@ -1093,29 +985,53 @@
           "note": "DCEU"
         },
         {
+          "id": "dc-t-2019-batwoman-s2",
+          "t": "Batwoman season 2",
+          "n": "2021",
+          "w": 12.18
+        },
+        {
+          "id": "dc-t-2018-black-lightning-s4",
+          "t": "Black Lightning season 4",
+          "n": "2021",
+          "w": 10.39
+        },
+        {
+          "id": "dc-t-2016-legends-of-tomorrow-s6",
+          "t": "Legends of Tomorrow season 6",
+          "n": "2021",
+          "w": 11.26
+        },
+        {
+          "id": "dc-t-2016-lucifer-s6",
+          "t": "Lucifer season 6",
+          "n": "2021",
+          "w": 11.11
+        },
+        {
+          "id": "dc-t-2019-pennyworth-s2",
+          "t": "Pennyworth season 2",
+          "n": "2021",
+          "w": 7.17
+        },
+        {
+          "id": "dc-t-2020-stargirl-s2",
+          "t": "Stargirl season 2",
+          "n": "2021",
+          "w": 9.32
+        },
+        {
+          "id": "dc-t-2015-supergirl-s6",
+          "t": "Supergirl season 6",
+          "n": "2021",
+          "w": 15.05
+        },
+        {
           "id": "dc-t-2021-superman-lois-s1",
           "t": "Superman & Lois season 1",
           "n": "2021",
           "w": 9.5,
           "note": "2021–2024 · 4 seasons, 53 episodes"
-        },
-        {
-          "id": "dc-t-2021-superman-lois-s2",
-          "t": "Superman & Lois season 2",
-          "n": "2021",
-          "w": 9.5
-        },
-        {
-          "id": "dc-t-2021-superman-lois-s3",
-          "t": "Superman & Lois season 3",
-          "n": "2021",
-          "w": 9.5
-        },
-        {
-          "id": "dc-t-2021-superman-lois-s4",
-          "t": "Superman & Lois season 4",
-          "n": "2021",
-          "w": 9.5
         },
         {
           "id": "dc-t-2021-sweet-tooth-s1",
@@ -1125,16 +1041,16 @@
           "note": "2021–2024 · 3 seasons, 24 episodes · A DC imprint, not the main line"
         },
         {
-          "id": "dc-t-2021-sweet-tooth-s2",
-          "t": "Sweet Tooth season 2",
+          "id": "dc-t-2014-the-flash-s7",
+          "t": "The Flash season 7",
           "n": "2021",
-          "w": 5.73
+          "w": 14.65
         },
         {
-          "id": "dc-t-2021-sweet-tooth-s3",
-          "t": "Sweet Tooth season 3",
+          "id": "dc-t-2018-titans-s3",
+          "t": "Titans season 3",
           "n": "2021",
-          "w": 5.73
+          "w": 8.78
         },
         {
           "id": "dc-t-2021-y-the-last-man-s1",
@@ -1158,11 +1074,29 @@
           "note": "Matt Reeves' continuity"
         },
         {
+          "id": "dc-t-2019-batwoman-s3",
+          "t": "Batwoman season 3",
+          "n": "2022",
+          "w": 12.18
+        },
+        {
           "id": "dc-t-2022-dmz-s1",
           "t": "DMZ season 1",
           "n": "2022",
           "w": 2.87,
           "note": "2022– · 1 season, 4 episodes · A DC imprint, not the main line"
+        },
+        {
+          "id": "dc-t-2019-doom-patrol-s3",
+          "t": "Doom Patrol season 3",
+          "n": "2022",
+          "w": 8.24
+        },
+        {
+          "id": "dc-t-2016-legends-of-tomorrow-s7",
+          "t": "Legends of Tomorrow season 7",
+          "n": "2022",
+          "w": 11.26
         },
         {
           "id": "dc-t-2022-naomi-s1",
@@ -1179,10 +1113,28 @@
           "note": "2022–2025 · 2 seasons, 16 episodes · DCU"
         },
         {
-          "id": "dc-t-2022-peacemaker-s2",
-          "t": "Peacemaker season 2",
+          "id": "dc-t-2019-pennyworth-s3",
+          "t": "Pennyworth season 3",
           "n": "2022",
-          "w": 5.73
+          "w": 7.17
+        },
+        {
+          "id": "dc-t-2020-stargirl-s3",
+          "t": "Stargirl season 3",
+          "n": "2022",
+          "w": 9.32
+        },
+        {
+          "id": "dc-t-2021-superman-lois-s2",
+          "t": "Superman & Lois season 2",
+          "n": "2022",
+          "w": 9.5
+        },
+        {
+          "id": "dc-t-2014-the-flash-s8",
+          "t": "The Flash season 8",
+          "n": "2022",
+          "w": 14.65
         },
         {
           "id": "dc-t-2022-the-sandman-s1",
@@ -1190,12 +1142,6 @@
           "n": "2022",
           "w": 8.24,
           "note": "2022–2025 · 2 seasons, 23 episodes · A DC imprint, not the main line"
-        },
-        {
-          "id": "dc-t-2022-the-sandman-s2",
-          "t": "The Sandman season 2",
-          "n": "2022",
-          "w": 8.24
         },
         {
           "id": "dc-f-2022-batgirl",
@@ -1233,11 +1179,41 @@
           "note": "2023– · 1 season, 8 episodes · A DC imprint, not the main line"
         },
         {
+          "id": "dc-t-2019-doom-patrol-s4",
+          "t": "Doom Patrol season 4",
+          "n": "2023",
+          "w": 8.24
+        },
+        {
           "id": "dc-t-2023-gotham-knights-s1",
           "t": "Gotham Knights season 1",
           "n": "2023",
           "w": 9.32,
           "note": "2023– · 1 season, 13 episodes"
+        },
+        {
+          "id": "dc-t-2021-superman-lois-s3",
+          "t": "Superman & Lois season 3",
+          "n": "2023",
+          "w": 9.5
+        },
+        {
+          "id": "dc-t-2021-sweet-tooth-s2",
+          "t": "Sweet Tooth season 2",
+          "n": "2023",
+          "w": 5.73
+        },
+        {
+          "id": "dc-t-2014-the-flash-s9",
+          "t": "The Flash season 9",
+          "n": "2023",
+          "w": 14.65
+        },
+        {
+          "id": "dc-t-2018-titans-s4",
+          "t": "Titans season 4",
+          "n": "2023",
+          "w": 8.78
         },
         {
           "id": "dc-f-2023-blue-beetle",
@@ -1258,7 +1234,7 @@
     {
       "id": "dcu",
       "title": "Elseworlds and the DCU",
-      "sub": "2024– · 6 films and 3 seasons · 23 hours",
+      "sub": "2024– · 6 films and 7 seasons · 53 hours",
       "intro": "The reboot, plus the standalone films that were never part of any continuity to begin with.",
       "items": [
         {
@@ -1267,6 +1243,18 @@
           "n": "2024",
           "w": 5.73,
           "note": "2024– · 1 season, 8 episodes · A DC imprint, not the main line"
+        },
+        {
+          "id": "dc-t-2021-superman-lois-s4",
+          "t": "Superman & Lois season 4",
+          "n": "2024",
+          "w": 9.5
+        },
+        {
+          "id": "dc-t-2021-sweet-tooth-s3",
+          "t": "Sweet Tooth season 3",
+          "n": "2024",
+          "w": 5.73
         },
         {
           "id": "dc-t-2024-the-penguin-s1",
@@ -1281,6 +1269,18 @@
           "n": "2024",
           "w": 2.3,
           "note": "Standalone"
+        },
+        {
+          "id": "dc-t-2022-peacemaker-s2",
+          "t": "Peacemaker season 2",
+          "n": "2025",
+          "w": 5.73
+        },
+        {
+          "id": "dc-t-2022-the-sandman-s2",
+          "t": "The Sandman season 2",
+          "n": "2025",
+          "w": 8.24
         },
         {
           "id": "dc-f-2025-superman",
