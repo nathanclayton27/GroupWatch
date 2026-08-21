@@ -79,6 +79,7 @@ def main():
             "id": "crit-%d-%s" % (r["spine"], slug(r["t"])),
             "t": r["t"], "n": "#%d" % r["spine"],
             "w": round((r["runtime"] or 0) / 60.0, 2),
+            **({"tags": r["formats"]} if r["formats"] else {}),
             **({"note": note_for(r)} if note_for(r) else {}),
         } for r in got]
         sec = {"id": "s%d" % lo, "title": band_title(lo, hi),
@@ -102,7 +103,7 @@ def main():
                  "under the bar.",
         "items": [{
             "id": "crit-ld-%d-%s" % (r["spine"], slug(r["t"])),
-            "t": r["t"], "n": "LD #%d" % r["spine"], "w": 0,
+            "t": r["t"], "n": "LD #%d" % r["spine"], "w": 0, "tags": ["LaserDisc"],
             **({"note": note_for(r)} if note_for(r) else {}),
         } for r in laser],
     })
@@ -139,6 +140,10 @@ def main():
         "accent": "#8A6D2F",
         "accentDark": "#D6B36A",
         "tiers": False,
+        "filter": {
+            "key": "format", "label": "Format",
+            "values": ["4K", "Blu-ray", "DVD", "LaserDisc"]
+        },
         "paceTiers": [1],
         "paceLabel": "the LaserDisc-only releases",
         "notes": [

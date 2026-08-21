@@ -108,6 +108,19 @@ h1 em{font-style:normal;color:var(--signal)}
 .pace.ok{color:var(--done);border-color:var(--done)}
 .pace.behind{color:var(--signal);border-color:var(--signal)}
 .gbar{display:flex;gap:10px 16px;flex-wrap:wrap;align-items:baseline;margin:0 0 14px}
+.fbar{display:flex;gap:8px 10px;flex-wrap:wrap;align-items:center;
+  margin:0 0 14px;padding:11px 14px;border:1px solid var(--rule);
+  border-radius:var(--radius);background:var(--card)}
+.fbar .lbl{margin-right:2px}
+.fchip{font-family:inherit;font-size:12.5px;background:transparent;color:var(--ink-2);
+  border:1px solid var(--rule-2);border-radius:var(--radius);padding:4px 11px;
+  cursor:pointer;letter-spacing:.02em}
+.fchip:hover{color:var(--ink);border-color:var(--ink-3)}
+.fchip.on{background:var(--signal);border-color:var(--signal);color:var(--paper)}
+.fchip .fn{font-family:"IBM Plex Mono",monospace;font-size:11px;opacity:.7;
+  margin-left:6px}
+.fclear{font-size:12.5px}
+.fsum{font-size:12.5px;color:var(--ink-3);margin-left:auto}
 .gall{cursor:pointer;font-size:13px;color:var(--ink-2)}
 .gall input{margin:0}
 .exp{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;
@@ -433,6 +446,7 @@ footer a{color:var(--steel)}
     <ul class="rules" id="ruleslist"></ul>
   </div>
 
+  <div class="fbar hide" id="fbar"></div>
   <main id="list"></main>
 
   <div class="panel">
@@ -564,6 +578,17 @@ let WEIGHT = [], CUMW = [], TOTALW = 0, WEIGHTED = false, IDX = new Map();
 // tiers a finish date paces you through; PW/PCUM/PTOTAL are the weights
 // restricted to those, and are identical to WEIGHT/CUMW/TOTALW without it.
 let PACETIERS = null, PACELABEL = 'optional extras', PACEALL = false;
+
+// A property can declare one set of tags its rows can be filtered by — the
+// Criterion formats are the first. Picking more than one is a union, not an
+// intersection: "Blu-ray or 4K" is what someone asking for both means, where
+// "on Blu-ray AND on 4K" would answer a question nobody asked.
+//
+// This filters the list only. The strip stays whole, because a mark's position
+// is what a tick means and hiding marks would move everyone's progress.
+let FILTER = null;              // {key, label, values:[...], hint}
+let FILTERON = new Set();       // which values are picked
+const FKEY = 'gw:filter:' + SLUG;
 // Weights are hours unless a property names its own unit. Comics weigh in
 // issues: calling a 33-issue run "33h" would be wrong by a factor of three.
 let WUNIT = null;
@@ -634,6 +659,16 @@ async function loadProperty(){
   PACELABEL = PROP.paceLabel || PACELABEL;
   WUNIT = (PROP.weightUnit && PROP.weightUnit.one && PROP.weightUnit.many)
         ? PROP.weightUnit : null;
+  FILTER = (PROP.filter && Array.isArray(PROP.filter.values)
+            && PROP.filter.values.length) ? PROP.filter : null;
+  FILTERON = new Set();
+  if(FILTER){
+    try{
+      const saved = JSON.parse(localStorage.getItem(FKEY) || '[]');
+      if(Array.isArray(saved))
+        saved.filter(v=> FILTER.values.indexOf(v) >= 0).forEach(v=> FILTERON.add(v));
+    }catch(e){}
+  }
   PACEALL = false;
   try{ PACEALL = localStorage.getItem(PKEY) === '1'; }catch(e){}
   computePace();
@@ -2090,6 +2125,74 @@ document.addEventListener('keydown', e=>{
   document.querySelectorAll('.sldrop').forEach(d=> d.classList.add('hide'));
 });
 
+function tagsOf(x){ return Array.isArray(x.tags) ? x.tags : []; }
+
+// How many rows carry each value, so a chip can say what picking it costs you.
+function filterCounts(){
+  const n = {};
+  (FILTER ? FILTER.values : []).forEach(v=> n[v] = 0);
+  DATA.forEach(s=> s.items.forEach(x=>
+    tagsOf(x).forEach(t=>{ if(t in n) n[t] += 1; })));
+  return n;
+}
+
+function renderFilter(){
+  const bar = $('fbar');
+  if(!FILTER){ bar.classList.add('hide'); return; }
+  bar.classList.remove('hide');
+  const n = filterCounts();
+  bar.innerHTML =
+      '<span class="lbl">'+esc(FILTER.label || 'Filter')+'</span>'
+    + FILTER.values.map(v=>
+        '<button class="fchip'+(FILTERON.has(v)?' on':'')+'" data-v="'+esc(v)+'"'
+        + ' aria-pressed="'+FILTERON.has(v)+'">'+esc(v)
+        + '<span class="fn">'+n[v]+'</span></button>').join('')
+    + (FILTERON.size ? '<button class="fclear" id="f-clear">Clear</button>' : '')
+    + '<span class="fsum" id="f-sum"></span>';
+
+  bar.querySelectorAll('.fchip').forEach(b=> b.onclick = ()=>{
+    const v = b.dataset.v;
+    FILTERON.has(v) ? FILTERON.delete(v) : FILTERON.add(v);
+    try{ localStorage.setItem(FKEY, JSON.stringify([...FILTERON])); }catch(e){}
+    renderFilter(); applyFilter();
+  });
+  const c = $('f-clear');
+  if(c) c.onclick = ()=>{
+    FILTERON.clear();
+    try{ localStorage.setItem(FKEY, '[]'); }catch(e){}
+    renderFilter(); applyFilter();
+  };
+}
+
+// View-only: rows are hidden, never removed, and nothing here touches `done`.
+function applyFilter(){
+  if(!FILTER) return;
+  const on = FILTERON.size > 0;
+  let shown = 0;
+  DATA.forEach(s=>{
+    let vis = 0;
+    s.items.forEach(x=>{
+      const li = document.querySelector('#list li[data-id="'+cssEsc(x.id)+'"]');
+      if(!li) return;
+      const keep = !on || tagsOf(x).some(t=> FILTERON.has(t));
+      li.classList.toggle('hide', !keep);
+      if(keep) vis += 1;
+    });
+    shown += vis;
+    const d = $('d-'+s.id);
+    // a section with nothing left to show is noise, not an empty result
+    if(d) d.classList.toggle('hide', on && vis === 0);
+  });
+  const sum = $('f-sum');
+  if(sum) sum.textContent = on
+    ? shown + ' of ' + TOTAL + ' ' + UNIT.many + ' on '
+      + FILTER.values.filter(v=> FILTERON.has(v)).join(' or ')
+    : 'All ' + TOTAL + ' ' + UNIT.many;
+}
+
+// ids are author-supplied, so they can carry a quote or a bracket
+function cssEsc(s){ return String(s).replace(/["\\]/g, '\\$&'); }
+
 function build(){
   $('list').innerHTML = DATA.map(s=>{
     const rows = s.items.map(x=>{
@@ -2165,8 +2268,14 @@ function build(){
       e.preventDefault(); e.stopPropagation();          // don't toggle <details>
       const sec = DATA.find(s=> s.id === bulk.dataset.sec);
       if(!sec) return;
-      const full = sec.items.every(x=> done.has(x.id));
-      sec.items.forEach(x=> full ? done.delete(x.id) : done.add(x.id));
+      // With a filter on, "mark all" means all of what you can see. Ticking
+      // rows the filter is hiding is the opposite of what the button says.
+      const hit = FILTER && FILTERON.size
+        ? sec.items.filter(x=> tagsOf(x).some(t=> FILTERON.has(t)))
+        : sec.items;
+      if(!hit.length) return;
+      const full = hit.every(x=> done.has(x.id));
+      hit.forEach(x=> full ? done.delete(x.id) : done.add(x.id));
       persist(); paint();
       return;
     }
@@ -2241,8 +2350,13 @@ function paint(){
     el.classList.toggle('full', n===s.items.length);
     const b = document.querySelector('.bulk[data-sec="'+s.id+'"]');
     if(b){
-      const full = n === s.items.length;
-      b.textContent = (full ? 'Clear all ' : 'Mark all ') + s.items.length;
+      // the button counts what it will actually act on, which under a filter
+      // is the visible rows rather than the section
+      const hit = FILTER && FILTERON.size
+        ? s.items.filter(x=> tagsOf(x).some(t=> FILTERON.has(t)))
+        : s.items;
+      const full = hit.length > 0 && hit.every(x=> done.has(x.id));
+      b.textContent = (full ? 'Clear all ' : 'Mark all ') + hit.length;
       b.classList.toggle('clear', full);
     }
   });
@@ -2390,6 +2504,8 @@ loadProperty().then(()=>{
   renderMenu();
   migrate();
   build();
+  renderFilter();
+  applyFilter();
   addEventListener('resize', ()=>
     document.querySelectorAll('.striprow,.stackrow').forEach(indexStrip));
   if(ENABLE_GITHUB_LOGIN && CLOUD) $('b-gh').classList.remove('hide');

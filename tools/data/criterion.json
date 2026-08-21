@@ -262,10 +262,12 @@
    "url": "https://www.criterion.com/films/533-the-naked-kiss",
    "director": "Samuel Fuller",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 90,
    "year": 1964,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 77
   },
@@ -304,10 +306,11 @@
    "url": "https://www.criterion.com/films/541-dead-ringers",
    "director": "David Cronenberg",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 115,
    "year": 1988,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "DVD"
    ],
    "ld_spine": 305
   },
@@ -636,10 +639,13 @@
    "url": "https://www.criterion.com/films/233-the-red-shoes",
    "director": "Michael Powell and Emeric Pressburger",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 133,
    "year": 1948,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "4K",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 249
   },
@@ -792,10 +798,11 @@
    "url": "https://www.criterion.com/films/600-the-unbearable-lightness-of-being",
    "director": "Philip Kaufman",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 172,
    "year": 1988,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "DVD"
    ],
    "ld_spine": 357
   },
@@ -805,10 +812,12 @@
    "url": "https://www.criterion.com/films/234-the-39-steps",
    "director": "Alfred Hitchcock",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 86,
    "year": 1935,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 3
   },
@@ -833,10 +842,12 @@
    "url": "https://www.criterion.com/films/235-peeping-tom",
    "director": "Michael Powell",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 101,
    "year": 1960,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "4K",
+    "Blu-ray"
    ],
    "ld_spine": 156
   },
@@ -914,10 +925,12 @@
    "url": "https://www.criterion.com/films/236-the-third-man",
    "director": "Carol Reed",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 104,
    "year": 1949,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 5
   },
@@ -1049,10 +1062,12 @@
    "url": "https://www.criterion.com/films/245-vagabond",
    "director": "Agnès Varda",
    "country": "France ",
-   "runtime": null,
+   "runtime": 105,
    "year": 1985,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 363
   },
@@ -1076,10 +1091,12 @@
    "url": "https://www.criterion.com/films/345-brief-encounter",
    "director": "David Lean",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 86,
    "year": 1945,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 248
   },
@@ -1225,9 +1242,11 @@
    "url": "https://www.criterion.com/films/341-alexander-nevsky",
    "director": "Sergei Eisenstein",
    "country": "Soviet Union ",
-   "runtime": null,
+   "runtime": 112,
    "year": 1938,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -1385,10 +1404,12 @@
    "url": "https://www.criterion.com/films/209-l-avventura",
    "director": "Michelangelo Antonioni",
    "country": "Italy ",
-   "runtime": null,
+   "runtime": 143,
    "year": 1960,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 62
   },
@@ -1576,9 +1597,13 @@
    "url": "https://www.criterion.com/films/651-playtime",
    "director": "Jacques Tati",
    "country": "France ",
-   "runtime": null,
+   "runtime": 123,
    "year": 1967,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -1615,9 +1640,12 @@
    "url": "https://www.criterion.com/films/654-rififi",
    "director": "Jules Dassin",
    "country": "France ",
-   "runtime": null,
+   "runtime": 118,
    "year": 1955,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -1683,10 +1711,11 @@
    "url": "https://www.criterion.com/films/660-how-to-get-ahead-in-advertising",
    "director": "Bruce Robinson",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 94,
    "year": 1989,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray"
    ],
    "ld_spine": 340
   },
@@ -1738,7 +1767,9 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -1921,10 +1952,12 @@
    "url": "https://www.criterion.com/films/307-rashomon",
    "director": "Akira Kurosawa",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 88,
    "year": 1950,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 49
   },
@@ -1934,10 +1967,12 @@
    "url": "https://www.criterion.com/films/175-wild-strawberries",
    "director": "Ingmar Bergman",
    "country": "Sweden ",
-   "runtime": null,
+   "runtime": 92,
    "year": 1957,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 85
   },
@@ -2093,9 +2128,12 @@
    "url": "https://www.criterion.com/films/381-traffic",
    "director": "Steven Soderbergh",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 147,
    "year": 2000,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -2104,9 +2142,12 @@
    "url": "https://www.criterion.com/films/691-george-washington",
    "director": "David Gordon Green",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 90,
    "year": 2000,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -2199,10 +2240,11 @@
    "url": "https://www.criterion.com/films/713-red-beard",
    "director": "Akira Kurosawa",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 185,
    "year": 1965,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "DVD"
    ],
    "ld_spine": 82
   },
@@ -2335,9 +2377,11 @@
    "url": "https://www.criterion.com/films/722-jimi-plays-monterey-shake-otis-at-monterey",
    "director": "D. A. Pennebaker and Chris Hegedus",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 63,
    "year": 1986,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -2361,9 +2405,11 @@
    "url": "https://www.criterion.com/films/239-contempt",
    "director": "Jean-Luc Godard",
    "country": "France ",
-   "runtime": null,
+   "runtime": 103,
    "year": 1963,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -2414,9 +2460,13 @@
    "url": "https://www.criterion.com/films/215-fear-and-loathing-in-las-vegas",
    "director": "Terry Gilliam",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 118,
    "year": 1998,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -2439,9 +2489,12 @@
    "url": "https://www.criterion.com/films/726-the-lost-honor-of-katharina-blum",
    "director": "Volker Schlöndorff and Margarethe von Trotta",
    "country": "Germany ",
-   "runtime": null,
+   "runtime": 106,
    "year": 1975,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -2517,9 +2570,11 @@
    "url": "https://www.criterion.com/films/451-les-dames-du-bois-de-boulogne",
    "director": "Robert Bresson",
    "country": "France ",
-   "runtime": null,
+   "runtime": 84,
    "year": 1945,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -2757,10 +2812,12 @@
    "url": "https://www.criterion.com/films/371-umberto-d",
    "director": "Vittorio De Sica",
    "country": "Italy ",
-   "runtime": null,
+   "runtime": 88,
    "year": 1952,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 107
   },
@@ -2835,9 +2892,11 @@
    "url": "https://www.criterion.com/films/602-the-pornographers",
    "director": "Shohei Imamura",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 127,
    "year": 1966,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -2873,10 +2932,11 @@
    "url": "https://www.criterion.com/films/569-winter-light",
    "director": "Ingmar Bergman",
    "country": "Sweden ",
-   "runtime": null,
+   "runtime": 81,
    "year": 1963,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray"
    ],
    "ld_spine": null
   },
@@ -2930,10 +2990,11 @@
    "url": "https://www.criterion.com/films/219-knife-in-the-water",
    "director": "Roman Polanski",
    "country": "Poland ",
-   "runtime": null,
+   "runtime": 94,
    "year": 1962,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "DVD"
    ],
    "ld_spine": 134
   },
@@ -2959,9 +3020,12 @@
    "url": "https://www.criterion.com/films/284-tokyo-story",
    "director": "Yasujiro Ozu",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 137,
    "year": 1953,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -2984,10 +3048,12 @@
    "url": "https://www.criterion.com/films/185-la-strada",
    "director": "Federico Fellini",
    "country": "Italy ",
-   "runtime": null,
+   "runtime": 108,
    "year": 1954,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 29
   },
@@ -3026,9 +3092,11 @@
    "url": "https://www.criterion.com/films/452-diary-of-a-country-priest",
    "director": "Robert Bresson",
    "country": "France ",
-   "runtime": null,
+   "runtime": 115,
    "year": 1951,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -3037,9 +3105,11 @@
    "url": "https://www.criterion.com/films/554-maitresse",
    "director": "Barbet Schroeder",
    "country": "France ",
-   "runtime": null,
+   "runtime": 112,
    "year": 1976,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -3074,10 +3144,11 @@
    "url": "https://www.criterion.com/films/665-onibaba",
    "director": "Kaneto Shindo",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 102,
    "year": 1964,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray"
    ],
    "ld_spine": 369
   },
@@ -3168,10 +3239,13 @@
    "url": "https://www.criterion.com/films/788-stray-dog",
    "director": "Akira Kurosawa",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 122,
    "year": 1949,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "4K",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 370
   },
@@ -3262,10 +3336,11 @@
    "url": "https://www.criterion.com/films/875-early-summer",
    "director": "Yasujiro Ozu",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 125,
    "year": 1951,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "DVD"
    ],
    "ld_spine": 332
   },
@@ -3277,7 +3352,9 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -3286,10 +3363,11 @@
    "url": "https://www.criterion.com/films/889-the-golden-coach",
    "director": "Jean Renoir",
    "country": "France ",
-   "runtime": null,
+   "runtime": 103,
    "year": 1953,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "DVD"
    ],
    "ld_spine": null
   },
@@ -3299,10 +3377,11 @@
    "url": "https://www.criterion.com/films/891-french-cancan",
    "director": "Jean Renoir",
    "country": "France ",
-   "runtime": null,
+   "runtime": 105,
    "year": 1955,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "DVD"
    ],
    "ld_spine": null
   },
@@ -3325,9 +3404,11 @@
    "url": "https://www.criterion.com/films/947-port-of-shadows",
    "director": "Marcel Carné",
    "country": "France ",
-   "runtime": null,
+   "runtime": 90,
    "year": 1938,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -3363,9 +3444,13 @@
    "url": "https://www.criterion.com/films/240-videodrome",
    "director": "David Cronenberg",
    "country": "Canada ",
-   "runtime": null,
+   "runtime": 89,
    "year": 1983,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -3456,9 +3541,11 @@
    "url": "https://www.criterion.com/films/957-opening-night",
    "director": "John Cassavetes",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 144,
    "year": 1977,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -3480,10 +3567,11 @@
    "url": "https://www.criterion.com/films/955-secret-honor",
    "director": "Robert Altman",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 90,
    "year": 1984,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "DVD"
    ],
    "ld_spine": 161
   },
@@ -3506,9 +3594,12 @@
    "url": "https://www.criterion.com/films/548-fat-girl",
    "director": "Catherine Breillat",
    "country": "France ",
-   "runtime": null,
+   "runtime": 86,
    "year": 2001,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -3639,9 +3730,11 @@
    "url": "https://www.criterion.com/films/945-fighting-elegy",
    "director": "Seijun Suzuki",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 86,
    "year": 1966,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -3782,10 +3875,11 @@
    "url": "https://www.criterion.com/films/925-the-sword-of-doom",
    "director": "Kihachi Okamoto",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 121,
    "year": 1966,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray"
    ],
    "ld_spine": 294
   },
@@ -3795,10 +3889,12 @@
    "url": "https://www.criterion.com/films/218-jules-and-jim",
    "director": "François Truffaut",
    "country": "France ",
-   "runtime": null,
+   "runtime": 106,
    "year": 1962,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 165
   },
@@ -3998,9 +4094,11 @@
    "url": "https://www.criterion.com/films/868-le-notti-bianche",
    "director": "Luchino Visconti",
    "country": "Italy ",
-   "runtime": null,
+   "runtime": 101,
    "year": 1957,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -4172,10 +4270,13 @@
    "url": "https://www.criterion.com/films/369-ugetsu",
    "director": "Kenji Mizoguchi",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 96,
    "year": 1953,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "4K",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 174
   },
@@ -4222,7 +4323,7 @@
    "url": "https://www.criterion.com/films/763-kill",
    "director": "Kihachi Okamoto",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 114,
    "year": 1968,
    "formats": [],
    "ld_spine": null
@@ -4383,9 +4484,11 @@
    "url": "https://www.criterion.com/films/357-kind-hearts-and-coronets",
    "director": "Robert Hamer",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 106,
    "year": 1949,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -4421,9 +4524,11 @@
    "url": "https://www.criterion.com/films/775-murmur-of-the-heart",
    "director": "Louis Malle",
    "country": "France ",
-   "runtime": null,
+   "runtime": 118,
    "year": 1971,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -4557,9 +4662,11 @@
    "url": "https://www.criterion.com/films/780-equinox",
    "director": "Jack Woods",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 82,
    "year": 1970,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -4646,9 +4753,11 @@
    "url": "https://www.criterion.com/films/791-my-night-at-maud-s",
    "director": "Eric Rohmer",
    "country": "France ",
-   "runtime": null,
+   "runtime": 111,
    "year": 1969,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -4709,9 +4818,11 @@
    "url": "https://www.criterion.com/films/796-seduced-and-abandoned",
    "director": "Pietro Germi",
    "country": "Italy ",
-   "runtime": null,
+   "runtime": 117,
    "year": 1964,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -4796,10 +4907,11 @@
    "url": "https://www.criterion.com/films/346-the-fallen-idol",
    "director": "Carol Reed",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 95,
    "year": 1948,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "DVD"
    ],
    "ld_spine": null
   },
@@ -4892,7 +5004,9 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -4927,9 +5041,11 @@
    "url": "https://www.criterion.com/films/805-the-haunted-strangler",
    "director": "Robert Day",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 79,
    "year": 1958,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -5102,9 +5218,12 @@
    "url": "https://www.criterion.com/films/818-the-naked-city",
    "director": "Jules Dassin",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 96,
    "year": 1948,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -5165,9 +5284,12 @@
    "url": "https://www.criterion.com/films/153-army-of-shadows",
    "director": "Jean-Pierre Melville",
    "country": "France ",
-   "runtime": null,
+   "runtime": 145,
    "year": 1969,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -5281,9 +5403,12 @@
    "url": "https://www.criterion.com/films/826-woman-in-the-dunes",
    "director": "Hiroshi Teshigahara",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 147,
    "year": 1964,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -5292,9 +5417,11 @@
    "url": "https://www.criterion.com/films/828-the-face-of-another",
    "director": "Hiroshi Teshigahara",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 124,
    "year": 1966,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -5372,9 +5499,12 @@
    "url": "https://www.criterion.com/films/227-night-on-earth",
    "director": "Jim Jarmusch",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 128,
    "year": 1991,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -5450,9 +5580,11 @@
    "url": "https://www.criterion.com/films/253-mala-noche",
    "director": "Gus Van Sant",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 78,
    "year": 1985,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -5695,9 +5827,12 @@
    "url": "https://www.criterion.com/films/536-antonio-gaudi",
    "director": "Hiroshi Teshigahara",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 72,
    "year": 1984,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -5771,9 +5906,11 @@
    "url": "https://www.criterion.com/films/544-the-thief-of-bagdad",
    "director": "Ludwig Berger, Michael Powell, and Tim Whelan",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 106,
    "year": 1940,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -5860,9 +5997,11 @@
    "url": "https://www.criterion.com/films/590-mon-oncle-antoine",
    "director": "Claude Jutra",
    "country": "Canada ",
-   "runtime": null,
+   "runtime": 104,
    "year": 1971,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -5938,9 +6077,11 @@
    "url": "https://www.criterion.com/films/572-le-plaisir",
    "director": "Max Ophuls",
    "country": "France ",
-   "runtime": null,
+   "runtime": 97,
    "year": 1952,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -6074,9 +6215,11 @@
    "url": "https://www.criterion.com/films/768-europa",
    "director": "Lars von Trier",
    "country": "Denmark ",
-   "runtime": null,
+   "runtime": 112,
    "year": 1991,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -6152,9 +6295,11 @@
    "url": "https://www.criterion.com/films/1077-simon-of-the-desert",
    "director": "Luis Buñuel",
    "country": "Mexico ",
-   "runtime": null,
+   "runtime": 45,
    "year": 1965,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -6336,9 +6481,11 @@
    "url": "https://www.criterion.com/films/1431-intentions-of-murder",
    "director": "Shohei Imamura",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 150,
    "year": 1964,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -6496,9 +6643,11 @@
    "url": "https://www.criterion.com/films/3558-homicide",
    "director": "David Mamet",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 101,
    "year": 1991,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -6534,9 +6683,12 @@
    "url": "https://www.criterion.com/films/2364-monsoon-wedding",
    "director": "Mira Nair",
    "country": "India ",
-   "runtime": null,
+   "runtime": 114,
    "year": 2001,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -6719,10 +6871,12 @@
    "url": "https://www.criterion.com/films/938-lola-montes",
    "director": "Max Ophuls",
    "country": "Germany ",
-   "runtime": null,
+   "runtime": 115,
    "year": 1955,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 12
   },
@@ -6732,9 +6886,12 @@
    "url": "https://www.criterion.com/films/477-hunger",
    "director": "Steve McQueen",
    "country": "Ireland ",
-   "runtime": null,
+   "runtime": 96,
    "year": 2008,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -6770,9 +6927,12 @@
    "url": "https://www.criterion.com/films/1929-bigger-than-life",
    "director": "Nicholas Ray",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 95,
    "year": 1956,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -6820,9 +6980,11 @@
    "url": "https://www.criterion.com/films/439-colossal-youth",
    "director": "Pedro Costa",
    "country": "Portugal ",
-   "runtime": null,
+   "runtime": 156,
    "year": 2006,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -6845,9 +7007,12 @@
    "url": "https://www.criterion.com/films/473-summer-hours",
    "director": "Olivier Assayas",
    "country": "France ",
-   "runtime": null,
+   "runtime": 99,
    "year": 2008,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -6898,9 +7063,11 @@
    "url": "https://www.criterion.com/films/23953-by-brakhage-an-anthology-volume-two",
    "director": "Stan Brakhage",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 454,
    "year": null,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -6992,7 +7159,9 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -7260,9 +7429,11 @@
    "url": "https://www.criterion.com/films/27527-head",
    "director": "Bob Rafelson",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 85,
    "year": 1968,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -7643,9 +7814,12 @@
    "url": "https://www.criterion.com/films/27657-the-music-room",
    "director": "Satyajit Ray",
    "country": "India ",
-   "runtime": null,
+   "runtime": 99,
    "year": 1958,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -7751,9 +7925,12 @@
    "url": "https://www.criterion.com/films/27816-les-cousins",
    "director": "Claude Chabrol",
    "country": "France ",
-   "runtime": null,
+   "runtime": 109,
    "year": 1959,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -8029,9 +8206,11 @@
    "url": "https://www.criterion.com/films/27673-letter-never-sent",
    "director": "Mikhail Kalatozov",
    "country": "Soviet Union ",
-   "runtime": null,
+   "runtime": 96,
    "year": 1959,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -8083,9 +8262,12 @@
    "url": "https://www.criterion.com/films/28144-this-happy-breed",
    "director": "David Lean",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 111,
    "year": 1944,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -8108,9 +8290,12 @@
    "url": "https://www.criterion.com/films/27945-a-hollis-frampton-odyssey",
    "director": "Hollis Frampton",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 266,
    "year": null,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -8189,9 +8374,12 @@
    "url": "https://www.criterion.com/films/27782-summer-interlude",
    "director": "Ingmar Bergman",
    "country": "Sweden ",
-   "runtime": null,
+   "runtime": 96,
    "year": 1951,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -8319,9 +8507,12 @@
    "url": "https://www.criterion.com/films/28212-lonesome",
    "director": "Paul Fejos",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 69,
    "year": 1928,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -8526,9 +8717,11 @@
    "url": "https://www.criterion.com/films/28030-following",
    "director": "Christopher Nolan",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 70,
    "year": 1999,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -8633,9 +8826,12 @@
    "url": "https://www.criterion.com/films/28405-the-kid-with-a-bike",
    "director": "Jean-Pierre Dardenne and Luc Dardenne",
    "country": "Belgium ",
-   "runtime": null,
+   "runtime": 87,
    "year": 2011,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -8756,7 +8952,10 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -8790,9 +8989,12 @@
    "url": "https://www.criterion.com/films/28426-medium-cool",
    "director": "Haskell Wexler",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 110,
    "year": 1969,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -8829,9 +9031,12 @@
    "url": "https://www.criterion.com/films/27876-marketa-lazarova",
    "director": "František Vláčil",
    "country": "Czechoslovakia ",
-   "runtime": null,
+   "runtime": 165,
    "year": 1967,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -8944,9 +9149,11 @@
    "url": "https://www.criterion.com/films/27690-to-be-or-not-to-be",
    "director": "Ernst Lubitsch",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 99,
    "year": 1942,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -9053,9 +9260,12 @@
    "url": "https://www.criterion.com/films/28111-la-notte",
    "director": "Michelangelo Antonioni",
    "country": "Italy ",
-   "runtime": null,
+   "runtime": 122,
    "year": 1961,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -9066,7 +9276,9 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -9585,9 +9797,11 @@
    "url": "https://www.criterion.com/films/28605-donkey-skin",
    "director": "Jacques Demy",
    "country": "France ",
-   "runtime": null,
+   "runtime": 90,
    "year": 1970,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -9596,9 +9810,11 @@
    "url": "https://www.criterion.com/films/27936-une-chambre-en-ville",
    "director": "Jacques Demy",
    "country": "France ",
-   "runtime": null,
+   "runtime": 93,
    "year": 1982,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -9607,10 +9823,12 @@
    "url": "https://www.criterion.com/films/28610-the-big-chill",
    "director": "Lawrence Kasdan",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 105,
    "year": 1983,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 123
   },
@@ -9686,9 +9904,12 @@
    "url": "https://www.criterion.com/films/28020-macbeth",
    "director": "Roman Polanski",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 140,
    "year": 1971,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -9708,9 +9929,12 @@
    "url": "https://www.criterion.com/films/27912-sundays-and-cybele",
    "director": "Serge Bourguignon",
    "country": "France ",
-   "runtime": null,
+   "runtime": 111,
    "year": 1962,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -9926,9 +10150,12 @@
    "url": "https://www.criterion.com/films/28549-every-man-for-himself",
    "director": "Jean-Luc Godard",
    "country": "France ",
-   "runtime": null,
+   "runtime": 88,
    "year": 1980,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -9965,10 +10192,12 @@
    "url": "https://www.criterion.com/films/28038-fellini-satyricon",
    "director": "Federico Fellini",
    "country": "Italy ",
-   "runtime": null,
+   "runtime": 129,
    "year": 1969,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 35
   },
@@ -10217,9 +10446,12 @@
    "url": "https://www.criterion.com/films/28685-the-black-stallion",
    "director": "Carroll Ballard",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 117,
    "year": 1979,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10228,9 +10460,12 @@
    "url": "https://www.criterion.com/films/28552-here-is-your-life",
    "director": "Jan Troell",
    "country": "Sweden ",
-   "runtime": null,
+   "runtime": 168,
    "year": 1966,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10239,9 +10474,12 @@
    "url": "https://www.criterion.com/films/28044-my-beautiful-laundrette",
    "director": "Stephen Frears",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 98,
    "year": 1985,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10347,9 +10585,12 @@
    "url": "https://www.criterion.com/films/28597-a-room-with-a-view",
    "director": "James Ivory",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 117,
    "year": 1986,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10539,9 +10780,12 @@
    "url": "https://www.criterion.com/films/28657-burroughs-the-movie",
    "director": "Howard Brookner",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 90,
    "year": 1983,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10618,9 +10862,13 @@
    "url": "https://www.criterion.com/films/27909-gilda",
    "director": "Charles Vidor",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 110,
    "year": 1946,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10643,9 +10891,12 @@
    "url": "https://www.criterion.com/films/28702-the-new-land",
    "director": "Jan Troell",
    "country": "Sweden ",
-   "runtime": null,
+   "runtime": 202,
    "year": 1972,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10682,10 +10933,12 @@
    "url": "https://www.criterion.com/films/28578-the-graduate",
    "director": "Mike Nichols",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 106,
    "year": 1967,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 17
   },
@@ -10709,9 +10962,12 @@
    "url": "https://www.criterion.com/films/27724-paris-belongs-to-us",
    "director": "Jacques Rivette",
    "country": "France ",
-   "runtime": null,
+   "runtime": 141,
    "year": 1961,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10789,9 +11045,12 @@
    "url": "https://www.criterion.com/films/28907-the-kennedy-films-of-robert-drew-associates",
    "director": "Robert Drew",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 170,
    "year": null,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10893,9 +11152,12 @@
    "url": "https://www.criterion.com/films/28762-kings-of-the-road",
    "director": "Wim Wenders",
    "country": "Germany ",
-   "runtime": null,
+   "runtime": 176,
    "year": 1976,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10904,9 +11166,12 @@
    "url": "https://www.criterion.com/films/28632-le-amiche",
    "director": "Michelangelo Antonioni",
    "country": "Italy ",
-   "runtime": null,
+   "runtime": 106,
    "year": 1955,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -10915,9 +11180,12 @@
    "url": "https://www.criterion.com/films/28393-la-chienne",
    "director": "Jean Renoir",
    "country": "France ",
-   "runtime": null,
+   "runtime": 96,
    "year": 1931,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11013,9 +11281,12 @@
    "url": "https://www.criterion.com/films/28791-a-touch-of-zen",
    "director": "King Hu",
    "country": "Taiwan ",
-   "runtime": null,
+   "runtime": 180,
    "year": 1971,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11120,10 +11391,12 @@
    "url": "https://www.criterion.com/films/28696-cat-people",
    "director": "Jacques Tourneur",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 73,
    "year": 1942,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 233
   },
@@ -11169,9 +11442,12 @@
    "url": "https://www.criterion.com/films/28661-dekalog",
    "director": "Krzysztof Kieślowski",
    "country": "Poland ",
-   "runtime": null,
+   "runtime": 583,
    "year": 1988,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11194,9 +11470,12 @@
    "url": "https://www.criterion.com/films/28820-boyhood",
    "director": "Richard Linklater",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 165,
    "year": 2014,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11233,9 +11512,13 @@
    "url": "https://www.criterion.com/films/28700-akira-kurosawa-s-dreams",
    "director": "Akira Kurosawa",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 120,
    "year": 1990,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11259,9 +11542,12 @@
    "url": "https://www.criterion.com/films/28979-one-eyed-jacks",
    "director": "Marlon Brando",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 141,
    "year": 1961,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11638,9 +11924,12 @@
    "url": "https://www.criterion.com/films/29103-dheepan",
    "director": "Jacques Audiard",
    "country": "France ",
-   "runtime": null,
+   "runtime": 114,
    "year": 2015,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11665,7 +11954,10 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11758,9 +12050,12 @@
    "url": "https://www.criterion.com/films/28717-they-live-by-night",
    "director": "Nicholas Ray",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 95,
    "year": 1948,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11825,9 +12120,12 @@
    "url": "https://www.criterion.com/films/28001-the-lodger-a-story-of-the-london-fog",
    "director": "Alfred Hitchcock",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 91,
    "year": 1927,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11948,9 +12246,12 @@
    "url": "https://www.criterion.com/films/28739-the-piano-teacher",
    "director": "Michael Haneke",
    "country": "France ",
-   "runtime": null,
+   "runtime": 130,
    "year": 2001,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -11987,9 +12288,12 @@
    "url": "https://www.criterion.com/films/29008-barry-lyndon",
    "director": "Stanley Kubrick",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 185,
    "year": 1975,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -12012,9 +12316,12 @@
    "url": "https://www.criterion.com/films/29252-personal-shopper",
    "director": "Olivier Assayas",
    "country": "France ",
-   "runtime": null,
+   "runtime": 105,
    "year": 2016,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -12037,9 +12344,12 @@
    "url": "https://www.criterion.com/films/29029-the-philadelphia-story",
    "director": "George Cukor",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 112,
    "year": 1940,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -12090,9 +12400,12 @@
    "url": "https://www.criterion.com/films/29272-the-breakfast-club",
    "director": "John Hughes",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 97,
    "year": 1985,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -12101,9 +12414,12 @@
    "url": "https://www.criterion.com/films/29357-i-daniel-blake",
    "director": "Ken Loach",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 100,
    "year": 2016,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -12140,9 +12456,13 @@
    "url": "https://www.criterion.com/films/29331-night-of-the-living-dead",
    "director": "George A. Romero",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 96,
    "year": 1968,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -12151,9 +12471,12 @@
    "url": "https://www.criterion.com/films/28736-tom-jones",
    "director": "Tony Richardson",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 128,
    "year": 1963,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -12203,9 +12526,12 @@
    "url": "https://www.criterion.com/films/29060-baal",
    "director": "Volker Schlöndorff",
    "country": "West Germany ",
-   "runtime": null,
+   "runtime": 84,
    "year": 1970,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -12279,9 +12605,13 @@
    "url": "https://www.criterion.com/films/29336-the-virgin-suicides",
    "director": "Sofia Coppola",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 97,
    "year": 1999,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -12558,9 +12888,12 @@
    "url": "https://www.criterion.com/films/29142-the-ballad-of-gregorio-cortez",
    "director": "Robert M. Young",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 106,
    "year": 1982,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -12625,9 +12958,12 @@
    "url": "https://www.criterion.com/films/28826-a-raisin-in-the-sun",
    "director": "Daniel Petrie",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 128,
    "year": 1961,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -12650,10 +12986,12 @@
    "url": "https://www.criterion.com/films/28821-shampoo",
    "director": "Hal Ashby",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 110,
    "year": 1975,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 79
   },
@@ -12960,9 +13298,12 @@
    "url": "https://www.criterion.com/films/29375-diamonds-of-the-night",
    "director": "Jan Němec",
    "country": "Czechoslovakia ",
-   "runtime": null,
+   "runtime": 67,
    "year": 1964,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -12971,9 +13312,12 @@
    "url": "https://www.criterion.com/films/28703-a-face-in-the-crowd",
    "director": "Elia Kazan",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 126,
    "year": 1957,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13177,9 +13521,12 @@
    "url": "https://www.criterion.com/films/28040-europa-europa",
    "director": "Agnieszka Holland",
    "country": "Poland ",
-   "runtime": null,
+   "runtime": 112,
    "year": 1990,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13215,9 +13562,12 @@
    "url": "https://www.criterion.com/films/28747-the-inland-sea",
    "director": "Lucille Carra",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 56,
    "year": 1991,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13254,9 +13604,12 @@
    "url": "https://www.criterion.com/films/28639-and-life-goes-on",
    "director": "Abbas Kiarostami",
    "country": "Iran ",
-   "runtime": null,
+   "runtime": 95,
    "year": 1992,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13307,10 +13660,12 @@
    "url": "https://www.criterion.com/films/28714-polyester",
    "director": "John Waters",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 86,
    "year": 1981,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 210
   },
@@ -13345,9 +13700,12 @@
    "url": "https://www.criterion.com/films/30086-when-we-were-kings",
    "director": "Leon Gast",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 87,
    "year": 1996,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13505,9 +13863,12 @@
    "url": "https://www.criterion.com/films/28093-le-petit-soldat",
    "director": "Jean-Luc Godard",
    "country": "France ",
-   "runtime": null,
+   "runtime": 88,
    "year": 1963,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13586,9 +13947,12 @@
    "url": "https://www.criterion.com/films/29654-invention-for-destruction",
    "director": "Karel Zeman",
    "country": "Czechoslovakia ",
-   "runtime": null,
+   "runtime": 81,
    "year": 1958,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13611,9 +13975,12 @@
    "url": "https://www.criterion.com/films/29647-paris-is-burning",
    "director": "Jennie Livingston",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 76,
    "year": 1990,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13737,10 +14104,12 @@
    "url": "https://www.criterion.com/films/29149-the-great-escape",
    "director": "John Sturges",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 172,
    "year": 1963,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "Blu-ray",
+    "DVD"
    ],
    "ld_spine": 95
   },
@@ -13764,9 +14133,12 @@
    "url": "https://www.criterion.com/films/28827-husbands",
    "director": "John Cassavetes",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 142,
    "year": 1970,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13830,9 +14202,12 @@
    "url": "https://www.criterion.com/films/30469-portrait-of-a-lady-on-fire",
    "director": "Céline Sciamma",
    "country": "France ",
-   "runtime": null,
+   "runtime": 121,
    "year": 2019,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13896,9 +14271,12 @@
    "url": "https://www.criterion.com/films/30213-town-bloody-hall",
    "director": "Chris Hegedus and D. A. Pennebaker",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 85,
    "year": 1979,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13918,9 +14296,12 @@
    "url": "https://www.criterion.com/films/29638-the-comfort-of-strangers",
    "director": "Paul Schrader",
    "country": "Italy ",
-   "runtime": null,
+   "runtime": 104,
    "year": 1990,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13956,7 +14337,10 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13965,9 +14349,12 @@
    "url": "https://www.criterion.com/films/30298-lucia",
    "director": "Humberto Solás",
    "country": "Cuba ",
-   "runtime": null,
+   "runtime": 160,
    "year": 1968,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -13987,9 +14374,12 @@
    "url": "https://www.criterion.com/films/30307-pixote",
    "director": "Héctor Babenco",
    "country": "Brazil ",
-   "runtime": null,
+   "runtime": 126,
    "year": 1980,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -14065,9 +14455,12 @@
    "url": "https://www.criterion.com/films/28568-the-gunfighter",
    "director": "Henry King",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 84,
    "year": 1950,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -14087,9 +14480,12 @@
    "url": "https://www.criterion.com/films/29635-girlfriends",
    "director": "Claudia Weill",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 88,
    "year": 1978,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -14126,9 +14522,12 @@
    "url": "https://www.criterion.com/films/30553-the-irishman",
    "director": "Martin Scorsese",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 209,
    "year": 2019,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -14236,9 +14635,12 @@
    "url": "https://www.criterion.com/films/30367-man-push-cart",
    "director": "Ramin Bahrani",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 87,
    "year": 2005,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -14247,9 +14649,12 @@
    "url": "https://www.criterion.com/films/30288-chop-shop",
    "director": "Ramin Bahrani",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 84,
    "year": 2007,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -14314,9 +14719,12 @@
    "url": "https://www.criterion.com/films/27770-history-is-made-at-night",
    "director": "Frank Borzage",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 97,
    "year": 1937,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -14339,9 +14747,12 @@
    "url": "https://www.criterion.com/films/29197-irma-vep",
    "director": "Olivier Assayas",
    "country": "France ",
-   "runtime": null,
+   "runtime": 99,
    "year": 1996,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -14431,9 +14842,12 @@
    "url": "https://www.criterion.com/films/29305-visions-of-eight",
    "director": "Juri Ozerov, Mai Zetterling, Arthur Penn, Michael Pfleghar, Kon Ichikawa, Miloš Forman, Claude Lelouch, and John Schlesinger",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 108,
    "year": 1973,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -14632,9 +15046,11 @@
    "url": "https://www.criterion.com/films/32013-don-t-play-us-cheap",
    "director": "Melvin Van Peebles",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 102,
    "year": 1972,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -14737,10 +15153,12 @@
    "url": "https://www.criterion.com/films/32250-citizen-kane",
    "director": "Orson Welles",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 119,
    "year": 1941,
    "formats": [
-    "LaserDisc"
+    "LaserDisc",
+    "4K",
+    "Blu-ray"
    ],
    "ld_spine": 1
   },
@@ -15320,9 +15738,12 @@
    "url": "https://www.criterion.com/films/33102-kalpana",
    "director": "Uday Shankar",
    "country": "India ",
-   "runtime": null,
+   "runtime": 152,
    "year": 1948,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -15344,9 +15765,12 @@
    "url": "https://www.criterion.com/films/29270-exotica",
    "director": "Atom Egoyan",
    "country": "Canada ",
-   "runtime": null,
+   "runtime": 103,
    "year": 1994,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -15516,7 +15940,9 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -15715,9 +16141,13 @@
    "url": "https://www.criterion.com/films/33532-triangle-of-sadness",
    "director": "Ruben Östlund",
    "country": "Sweden ",
-   "runtime": null,
+   "runtime": 147,
    "year": 2022,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -15754,9 +16184,12 @@
    "url": "https://www.criterion.com/films/33467-petite-maman",
    "director": "Céline Sciamma",
    "country": "France ",
-   "runtime": null,
+   "runtime": 73,
    "year": 2021,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -15820,7 +16253,10 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -15939,9 +16375,12 @@
    "url": "https://www.criterion.com/films/33636-the-others",
    "director": "Alejandro Amenábar",
    "country": "Spain ",
-   "runtime": null,
+   "runtime": 104,
    "year": 2001,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -16007,7 +16446,10 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -16043,7 +16485,9 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -16165,9 +16609,12 @@
    "url": "https://www.criterion.com/films/34051-saint-omer",
    "director": "Alice Diop",
    "country": "France ",
-   "runtime": null,
+   "runtime": 123,
    "year": 2022,
-   "formats": [],
+   "formats": [
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -16176,9 +16623,12 @@
    "url": "https://www.criterion.com/films/32358-to-die-for",
    "director": "Gus Van Sant",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 106,
    "year": 1995,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -16384,9 +16834,12 @@
    "url": "https://www.criterion.com/films/34098-farewell-my-concubine",
    "director": "Chen Kaige",
    "country": "China ",
-   "runtime": null,
+   "runtime": 171,
    "year": 1993,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -16420,9 +16873,12 @@
    "url": "https://www.criterion.com/films/30974-real-life",
    "director": "Albert Brooks",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 99,
    "year": 1979,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -16431,9 +16887,12 @@
    "url": "https://www.criterion.com/films/29661-mother",
    "director": "Albert Brooks",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 104,
    "year": 1996,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -16515,9 +16974,12 @@
    "url": "https://www.criterion.com/films/29016-gummo",
    "director": "Harmony Korine",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 89,
    "year": 1997,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -16747,9 +17209,12 @@
    "url": "https://www.criterion.com/films/29466-night-moves",
    "director": "Arthur Penn",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 100,
    "year": 1975,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -16758,9 +17223,12 @@
    "url": "https://www.criterion.com/films/29146-choose-me",
    "director": "Alan Rudolph",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 106,
    "year": 1984,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -16796,9 +17264,13 @@
    "url": "https://www.criterion.com/films/34891-anora",
    "director": "Sean Baker",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 139,
    "year": 2024,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -16886,9 +17358,11 @@
    "url": "https://www.criterion.com/films/28989-midnight",
    "director": "Mitchell Leisen",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 94,
    "year": 1939,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -16968,9 +17442,13 @@
    "url": "https://www.criterion.com/films/34329-shoeshine",
    "director": "Vittorio De Sica",
    "country": "Italy ",
-   "runtime": null,
+   "runtime": 92,
    "year": 1946,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -17046,9 +17524,13 @@
    "url": "https://www.criterion.com/films/34685-flow",
    "director": "Gints Zilbalodis",
    "country": "Latvia ",
-   "runtime": null,
+   "runtime": 85,
    "year": 2024,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -17071,9 +17553,11 @@
    "url": "https://www.criterion.com/films/32256-the-beat-that-my-heart-skipped",
    "director": "Jacques Audiard",
    "country": "France ",
-   "runtime": null,
+   "runtime": 107,
    "year": 2005,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -17110,9 +17594,12 @@
    "url": "https://www.criterion.com/films/33805-a-history-of-violence",
    "director": "David Cronenberg",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 96,
    "year": 2005,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -17393,9 +17880,11 @@
    "url": "https://www.criterion.com/films/34966-a-man-and-a-woman",
    "director": "Claude Lelouch",
    "country": "France ",
-   "runtime": null,
+   "runtime": 103,
    "year": 1966,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -17513,9 +18002,11 @@
    "url": "https://www.criterion.com/films/33846-west-indies-the-fugitive-slaves-of-liberty",
    "director": "Med Hondo",
    "country": "France ",
-   "runtime": null,
+   "runtime": 116,
    "year": 1979,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -17620,9 +18111,12 @@
    "url": "https://www.criterion.com/films/27608-cruel-story-of-youth",
    "director": "Nagisa Oshima",
    "country": "Japan ",
-   "runtime": null,
+   "runtime": 97,
    "year": 1960,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -17633,7 +18127,10 @@
    "country": "",
    "runtime": null,
    "year": null,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -17653,9 +18150,11 @@
    "url": "https://www.criterion.com/films/31114-american-dream",
    "director": "Barbara Kopple",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 98,
    "year": 1990,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -17724,9 +18223,11 @@
    "url": "https://www.criterion.com/films/31102-welcome-ii-the-terrordome",
    "director": "Ngozi Onwurah",
    "country": "United Kingdom ",
-   "runtime": null,
+   "runtime": 94,
    "year": 1995,
-   "formats": [],
+   "formats": [
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -17777,9 +18278,13 @@
    "url": "https://www.criterion.com/films/36058-kpop-demon-hunters",
    "director": "Maggie Kang and Chris Appelhans",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 96,
    "year": 2025,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray",
+    "DVD"
+   ],
    "ld_spine": null
   },
   {
@@ -17788,9 +18293,12 @@
    "url": "https://www.criterion.com/films/35257-wild-at-heart",
    "director": "David Lynch",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 125,
    "year": 1990,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
@@ -17799,9 +18307,12 @@
    "url": "https://www.criterion.com/films/35306-marie-antoinette",
    "director": "Sofia Coppola",
    "country": "United States ",
-   "runtime": null,
+   "runtime": 123,
    "year": 2006,
-   "formats": [],
+   "formats": [
+    "4K",
+    "Blu-ray"
+   ],
    "ld_spine": null
   },
   {
