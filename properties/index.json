@@ -245,14 +245,14 @@
     "subtitle": "Type-Moon's shared universe, by media type",
     "kind": "mixed",
     "year": "1998–",
-    "blurb": "47 works across six media, in release order within each.",
+    "blurb": "61 works across six media, in release order within each.",
     "accent": "#8A2E4A",
     "accentDark": "#E884A6",
     "unit": {
       "one": "work",
       "many": "works"
     },
-    "total": 47
+    "total": 61
   },
   {
     "slug": "dc-anthology",
