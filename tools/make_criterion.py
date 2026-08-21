@@ -17,8 +17,13 @@ Sources, machine-read rather than typed:
 Criterion restarted its numbering at 1 when it moved from LaserDisc to DVD, so
 a LaserDisc-only release can share a number with a completely unrelated DVD.
 Rather than interleave two numbering systems, the LaserDisc-only releases sit
-in their own section, keyed by their own spine numbers, and are tier 2 so a
-finish date skips them — they have been out of print since the nineties.
+in their own section, keyed by their own spine numbers, and are scoped out of
+the finish date — they have been out of print since the nineties.
+
+There are no tiers on the rows. Criterion does not rank its own collection and
+neither does this; the only thing tier does here is carry that pace scope, via
+the LaserDisc section, since computePace() reads a section's tier rather than
+an item's.
 
 Spine 88 is the only number covering two films, Ivan the Terrible Parts I and
 II, and is the one place the list shows two entries under one number.
@@ -74,7 +79,6 @@ def main():
             "id": "crit-%d-%s" % (r["spine"], slug(r["t"])),
             "t": r["t"], "n": "#%d" % r["spine"],
             "w": round((r["runtime"] or 0) / 60.0, 2),
-            "tier": 1,
             **({"note": note_for(r)} if note_for(r) else {}),
         } for r in got]
         sec = {"id": "s%d" % lo, "title": band_title(lo, hi),
@@ -87,7 +91,7 @@ def main():
 
     laser.sort(key=lambda r: (r["spine"], r["t"]))
     sections.append({
-        "id": "laserdisc", "title": "LaserDisc only",
+        "id": "laserdisc", "tier": 2, "title": "LaserDisc only",
         "sub": "%d releases · a separate numbering, out of print since the "
                "nineties" % len(laser),
         "intro": "Criterion's LaserDisc line ran from 1984 to 1998 and had its "
@@ -98,7 +102,7 @@ def main():
                  "under the bar.",
         "items": [{
             "id": "crit-ld-%d-%s" % (r["spine"], slug(r["t"])),
-            "t": r["t"], "n": "LD #%d" % r["spine"], "w": 0, "tier": 2,
+            "t": r["t"], "n": "LD #%d" % r["spine"], "w": 0,
             **({"note": note_for(r)} if note_for(r) else {}),
         } for r in laser],
     })
@@ -134,8 +138,7 @@ def main():
         "itemOrder": "number-first",
         "accent": "#8A6D2F",
         "accentDark": "#D6B36A",
-        "tiers": True,
-        "itemTiers": True,
+        "tiers": False,
         "paceTiers": [1],
         "paceLabel": "the LaserDisc-only releases",
         "notes": [
@@ -161,7 +164,8 @@ def main():
              "%d films Criterion put out on LaserDisc and never reissued. They "
              "carry the old numbering, which collides with the DVD numbering "
              "above, so mixing them into one sequence would produce two #2s and "
-             "two #4s. They are tier 2 and sit outside a finish date."
+             "two #4s. They sit outside a finish date unless you tick the box "
+             "under the bar."
              % len(laser)],
             ["Spine #88 is two films.", "Ivan the Terrible, Part I and Part II "
              "share one number. Every other spine in the list is one entry."],
