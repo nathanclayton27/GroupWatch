@@ -196,6 +196,7 @@ def main():
     shows = json.loads((data / "shows.json").read_text(encoding="utf-8"))
     netflix = json.loads((data / "netflix.json").read_text(encoding="utf-8"))
     othertv = json.loads((data / "marveltv.json").read_text(encoding="utf-8"))
+    spiderverse = json.loads((data / "spiderverse.json").read_text(encoding="utf-8"))
 
     entries = []
     for f in films:
@@ -272,6 +273,23 @@ def main():
             "date": r["released"], "kind": "show", "mins": mins,
             "mcu": r["studios"],
             "phase": SHOW_PHASE.get(r["phase"]) if r["studios"] else None,
+        })
+
+    # The Spider-Verse films are Sony and animated, so they are not in the
+    # live-action feature table the rest of the films came from, and they are
+    # not MCU — they carry the same marker as the other non-MCU entries.
+    for r in spiderverse:
+        mins = r["runtime"] or 0
+        entries.append({
+            "id": "mv-f-%s-%s" % (r["released"][:4], slug(r["title"])),
+            "t": r["title"], "n": r["released"][:4],
+            "w": round(mins / 60.0, 2),
+            "tier": 3,
+            "note": "Animated, and the best-reviewed Spider-Man films there are"
+                    if "Into" in r["title"] else
+                    ("Not out yet — June 2027" if not mins else ""),
+            "date": r["released"], "kind": "film", "mins": mins,
+            "mcu": False, "phase": None,
         })
 
     entries.sort(key=lambda e: (e["date"], e["kind"] == "show", e["t"]))

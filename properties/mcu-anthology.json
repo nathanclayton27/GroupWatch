@@ -5,7 +5,7 @@
   "kind": "films & shows",
   "order": 15,
   "year": "1998–2026",
-  "blurb": "76 films and 53 seasons in the order they came out — about 571 hours, tiered by how much the story needs each one.",
+  "blurb": "79 films and 53 seasons in the order they came out — about 575 hours, tiered by how much the story needs each one.",
   "unit": {
     "one": "entry",
     "many": "entries"
@@ -36,7 +36,7 @@
     ],
     [
       "Tier 1 alone is 41 hours.",
-      "Tiers 1 and 2 together are 143 hours across 43 entries. Everything on the page is 571 hours. The finish date only counts tiers 1 and 2 — there is a checkbox under the bar if you want the rest included."
+      "Tiers 1 and 2 together are 143 hours across 43 entries. Everything on the page is 575 hours. The finish date only counts tiers 1 and 2 — there is a checkbox under the bar if you want the rest included."
     ],
     [
       "Bar widths are runtimes.",
@@ -425,7 +425,7 @@
       "id": "p3",
       "tier": 1,
       "title": "Phase Three",
-      "sub": "2015–2019 · 18 films and 19 seasons · 249 hours",
+      "sub": "2015–2019 · 19 films and 19 seasons · 250 hours",
       "items": [
         {
           "id": "mv-f-2016-captain-america-civil-war",
@@ -618,6 +618,14 @@
           "w": 10.83,
           "tier": 2,
           "note": "Marvel Television — not part of Phase Three · 13 episodes"
+        },
+        {
+          "id": "mv-f-2018-spider-man-into-the-spider-verse",
+          "t": "Spider-Man: Into the Spider-Verse",
+          "n": "2018",
+          "w": 1.95,
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Three · Animated, and the best-reviewed Spider-Man films there are"
         },
         {
           "id": "mv-n-the-punisher-season-2",
@@ -866,7 +874,7 @@
       "id": "p5",
       "tier": 1,
       "title": "Phase Five",
-      "sub": "2022–2025 · 9 films and 9 seasons · 65 hours",
+      "sub": "2022–2025 · 10 films and 9 seasons · 67 hours",
       "items": [
         {
           "id": "mv-f-2023-ant-man-and-the-wasp-quantumania",
@@ -888,6 +896,14 @@
           "n": "2023",
           "w": 2.5,
           "tier": 2
+        },
+        {
+          "id": "mv-f-2023-spider-man-across-the-spider-verse",
+          "t": "Spider-Man: Across the Spider-Verse",
+          "n": "2023",
+          "w": 2.33,
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Five"
         },
         {
           "id": "mv-t-2023-secret-invasion",
@@ -1013,7 +1029,7 @@
       "id": "p6",
       "tier": 1,
       "title": "Phase Six",
-      "sub": "2025– · 3 films and 7 seasons · 26 hours",
+      "sub": "2025– · 4 films and 7 seasons · 26 hours",
       "items": [
         {
           "id": "mv-f-2025-the-fantastic-four-first-steps",
@@ -1092,6 +1108,14 @@
           "w": 0.0,
           "tier": 1,
           "note": "Not out yet — 18 December 2026"
+        },
+        {
+          "id": "mv-f-2027-spider-man-beyond-the-spider-verse",
+          "t": "Spider-Man: Beyond the Spider-Verse",
+          "n": "2027",
+          "w": 0.0,
+          "tier": 3,
+          "note": "Not an MCU film — it just came out during Phase Six · Not out yet — June 2027"
         }
       ],
       "intro": "Still going. Two entries here are not out yet and weigh nothing, so they cannot make anyone late."
