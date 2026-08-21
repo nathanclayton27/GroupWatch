@@ -5,7 +5,7 @@
   "kind": "mixed",
   "order": 17,
   "year": "1998–",
-  "blurb": "47 works across six media, in release order within each.",
+  "blurb": "49 works across six media, in release order within each.",
   "unit": {
     "one": "work",
     "many": "works"
@@ -33,50 +33,44 @@
     ],
     [
       "Not here.",
-      "The Fate/Grand Order Camelot and Solomon films, whose release dates could not be confirmed from a source, and the many drama CDs, art books and short stories that exist mostly in Japanese. Grand Order itself is one entry, which undersells it by several hundred hours."
+      "The many drama CDs, art books and short stories that exist mostly in Japanese. Grand Order itself is one entry, which undersells it by several hundred hours."
     ]
   ],
   "sections": [
     {
       "id": "vn",
       "title": "Visual novels",
-      "sub": "2000–2021 · where almost all of it starts · 6 entries",
+      "sub": "2000–Present · where everything started, but all have been remade · 5 entries",
       "items": [
-        {
-          "id": "nasu-vn-tsukihime",
-          "t": "Tsukihime",
-          "n": "2000",
-          "note": "The doujin visual novel everything else grew out of"
-        },
-        {
-          "id": "nasu-vn-kagetsu-tohya",
-          "t": "Kagetsu Tohya",
-          "n": "2001",
-          "note": "Tsukihime fan disc"
-        },
-        {
-          "id": "nasu-vn-fate-stay-night",
-          "t": "Fate/stay night",
-          "n": "2004",
-          "note": "Three routes — Fate, Unlimited Blade Works, Heaven's Feel — read in that order"
-        },
-        {
-          "id": "nasu-vn-fate-hollow-ataraxia",
-          "t": "Fate/hollow ataraxia",
-          "n": "2005",
-          "note": "Sequel to Fate/stay night"
-        },
-        {
-          "id": "nasu-vn-witch-on-the-holy-night",
-          "t": "Witch on the Holy Night",
-          "n": "2012",
-          "note": "Mahoutsukai no Yoru. Standalone, and needs nothing else read first."
-        },
-        {
+       {
           "id": "nasu-vn-tsukihime-a-piece-of-blue-glass-moon",
           "t": "Tsukihime -A piece of blue glass moon-",
           "n": "2021",
-          "note": "The remake, retelling the first half of Tsukihime"
+          "note": "The remake, retelling the first half of 2001's Tsukihime"
+        }
+        {
+          "id": "nasu-vn-witch-on-the-holy-night",
+          "t": "Witch on the Holy Night",
+          "n": "2022",
+          "note": "Standalone, and needs nothing else read first."
+        },
+        {
+          "id": "nasu-vn-fate-stay-night-remastered",
+          "t": "Fate/Stay Night Remastered",
+          "n": "2024",
+          "note": "Remake of the original 2004 VN and the only version worth reading"
+        }
+        {
+          "id": "nasu-vn-fate-stay-night-remastered",
+          "t": "Fate/Hollow Ataraxia Remastered",
+          "n": "2025",
+          "note": "Optional, slice-of-life sequel to Fate/Stay Night Remastered"
+        }
+        {
+          "id": "nasu-vn-tsukihime-the-other-side-of-red-garden",
+          "t": "Tsukihime -The other side of red garden-",
+          "n": "TBD",
+          "note": "Remake of the second half of 2001's Tsukihime; in development"
         }
       ],
       "intro": "Nasu's own works, and the primary text for everything else. Fate/stay night and Tsukihime are the two entry points; Witch on the Holy Night stands completely alone and needs nothing read first.",
@@ -85,7 +79,7 @@
     {
       "id": "tv",
       "title": "Anime series",
-      "sub": "2003–2023 · 13 entries",
+      "sub": "2003–2026 · 17 entries",
       "items": [
         {
           "id": "nasu-tv-lunar-legend-tsukihime",
@@ -97,7 +91,7 @@
           "id": "nasu-tv-fate-stay-night",
           "t": "Fate/stay night",
           "n": "2006",
-          "note": "Studio Deen. 24 episodes, following the Fate route."
+          "note": "Studio Deen. 24 episodes, following the original Fate/stay night route. Not good"
         },
         {
           "id": "nasu-tv-carnival-phantasm",
@@ -109,47 +103,73 @@
           "id": "nasu-tv-fate-zero",
           "t": "Fate/Zero",
           "n": "2011",
-          "note": "ufotable. 25 episodes across two cours."
+          "note": "25 episodes across two seasons. Amazing show!"
         },
         {
           "id": "nasu-tv-fate-kaleid-liner-prisma-illya",
           "t": "Fate/kaleid liner Prisma Illya",
           "n": "2013",
-          "note": "Magical-girl spin-off, four seasons from here"
+          "note": "Magical girl spin-off - incest and bad animation warning"
         },
         {
           "id": "nasu-tv-fate-stay-night-unlimited-blade-works",
           "t": "Fate/stay night: Unlimited Blade Works",
           "n": "2014",
-          "note": "ufotable. 26 episodes plus an OVA, adapting the second route."
+          "note": "ufotable. 26 episodes plus an OVA, adapting the second Fate/stay night route. Watch AFTER Fate/Zero"
         },
         {
           "id": "nasu-tv-fate-apocrypha",
           "t": "Fate/Apocrypha",
-          "n": "2017"
+          "n": "2017",
+          "note": "No relation to Fate/stay night - alternate universe"
+        },
+         {
+          "id": "nasu-tv-fate-apocrypha",
+          "t": "Fate/Grand Order: First Order",
+          "n": "2016",
+          "note": "Movie-length special introducing the world of the Grand Order mobile game"
+        },
+        {
+          "id": "nasu-tv-fate-apocrypha",
+          "t": "Fate/Grand Order -MOONLIGHT/LOSTROOM-",
+          "n": "2017",
+          "note": "One-off special related to Grand Order mobile game"
         },
         {
           "id": "nasu-tv-fate-extra-last-encore",
           "t": "Fate/Extra Last Encore",
           "n": "2018",
-          "note": "Shaft's take on Fate/Extra"
+          "note": "Sequel to 2010's PSP dungeon crawler, Fate/Extra"
         },
         {
           "id": "nasu-tv-today-s-menu-for-the-emiya-family",
           "t": "Today's Menu for the Emiya Family",
           "n": "2018",
-          "note": "Cooking spin-off"
+          "note": "Comedy cooking spin-off"
         },
         {
-          "id": "nasu-tv-the-case-files-of-lord-el-melloi-ii",
-          "t": "The Case Files of Lord El-Melloi II",
+          "id": "nasu-tv-the-case-files-of-lord-el-melloi-ii-rail-zeppelin-grace-note",
+          "t": "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note",
           "n": "2019"
+          "note": "13 episode spin-off, set 10 years after Fate/Stay Night"
+        },
+        {
+          "id": "nasu-tv-the-case-files-of-lord-el-melloi-ii-rail-zeppelin-grace-note-special",
+          "t": "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note -Special Episode-",
+          "n": "2019"
+          "note": "Special episode set after the Lord El-Melloi II series"
+        },
+        {
+          "id": "nasu-tv-the-case-files-of-lord-el-melloi-ii-rail-zeppelin-grace-note-special-2",
+          "t": "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note - A Grave Keeper, a Cat, and a Mage",
+          "n": "2019"
+          "note": "Special episode set after the Lord El-Melloi II series"
         },
         {
           "id": "nasu-tv-fate-grand-order-absolute-demonic-front-babylonia",
           "t": "Fate/Grand Order: Absolute Demonic Front Babylonia",
           "n": "2019",
-          "note": "The Babylonia singularity, animated by CloverWorks"
+          "note": "The Babylonia singularity from the Grand Order mobile game, animated by CloverWorks"
         },
         {
           "id": "nasu-tv-fate-grand-carnival",
@@ -161,7 +181,7 @@
           "id": "nasu-tv-fate-strange-fake-whispers-of-dawn",
           "t": "Fate/strange Fake: Whispers of Dawn",
           "n": "2023",
-          "note": "One-off special",
+          "note": "One-off miniseries with GREAT animation",
           "w": 0.92
         }
       ]
@@ -169,68 +189,82 @@
     {
       "id": "film",
       "title": "Films",
-      "sub": "2007–2020 · 10 entries",
+      "sub": "2007–2026 · 11 entries",
       "items": [
         {
           "id": "nasu-film-the-garden-of-sinners",
           "t": "The Garden of Sinners",
           "n": "2007",
-          "note": "Seven films, released 2007–2009, adapting the novels out of chronological order"
-        },
-        {
-          "id": "nasu-film-the-garden-of-sinners-a-study-in-murder-part-2",
-          "t": "The Garden of Sinners: A Study in Murder, Part 2",
-          "n": "2009"
+          "note": "Eight film series, released 2007–2009, adapting the Kara no Kyoukai novels out of chronological order"
         },
         {
           "id": "nasu-film-fate-stay-night-unlimited-blade-works",
           "t": "Fate/stay night: Unlimited Blade Works",
           "n": "2010",
-          "note": "Studio Deen's film of the second route",
+          "note": "Studio Deen's film adaptation of the second route; watch the series instead",
           "w": 1.75
         },
         {
-          "id": "nasu-film-the-garden-of-sinners-epilogue",
-          "t": "The Garden of Sinners: Epilogue",
-          "n": "2011",
-          "w": 0.55
-        },
-        {
-          "id": "nasu-film-the-garden-of-sinners-mirai-fukuin",
-          "t": "The Garden of Sinners: Mirai Fukuin",
-          "n": "2013",
-          "note": "The Garden of Sinners: The Future Gospel",
-          "w": 1.02
-        },
-        {
           "id": "nasu-film-prisma-illya-vow-in-the-snow",
-          "t": "Prisma Illya: Vow in the Snow",
+          "t": "Fate/Kaleid Liner Prisma Illya: Vow in the Snow",
           "n": "2017",
+          "note": "Sequel to Fate/Kaleid Liner Prisma Illya series" 
           "w": 1.03
         },
         {
           "id": "nasu-film-fate-stay-night-heaven-s-feel-i-presage-flower",
           "t": "Fate/stay night: Heaven's Feel I. presage flower",
           "n": "2017",
-          "note": "ufotable. The third route, over three films.",
+          "note": "The third Fate/stay night route, over three films. Watch after Unlimited Blade Works series.",
           "w": 2.0
         },
         {
           "id": "nasu-film-fate-stay-night-heaven-s-feel-ii-lost-butterfly",
           "t": "Fate/stay night: Heaven's Feel II. lost butterfly",
           "n": "2019",
+          "note": "Second film in third Fate/stay night route",
           "w": 1.95
         },
         {
           "id": "nasu-film-prisma-illya-oath-under-snow",
-          "t": "Prisma Illya: Oath Under Snow",
+          "t": "Fate/Kaleid Liner Prisma Illya: Oath Under Snow",
           "n": "2019",
+          "note": "Sequel to Prisma Illya: Vow in the Snow" 
           "w": 1.58
         },
         {
           "id": "nasu-film-fate-stay-night-heaven-s-feel-iii-spring-song",
           "t": "Fate/stay night: Heaven's Feel III. spring song",
           "n": "2020",
+          "note": "Finale of third Fate/stay night route",
+          "w": 2.03
+        }
+        {
+          "id": "nasu-film-fate-grand-order-camelot-1",
+          "t": "Fate/Grand Order - Divine Realm of the Round Table, Camelot - Wandering; Agateram",
+          "n": "2020",
+          "note": "First of two-part film adaptation of Camelot event from Grand Order mobile game",
+          "w": 2.03
+        }
+         {
+          "id": "nasu-film-fate-grand-order-camelot-1",
+          "t": "Fate/Grand Order - Divine Realm of the Round Table, Camelot - Paladin; Agateram",
+          "n": "2021",
+          "note": "Second of two-part film adaptation of Camelot event from Grand Order mobile game",
+          "w": 2.03
+        }
+        {
+          "id": "nasu-film-fate-grand-order-camelot-1",
+          "t": "Fate/Grand Order: Final Singularity - Grand Temple of Time -Solomon-",
+          "n": "2021",
+          "note": "Adaptation of Final Singularity event from Grand Order mobile game",
+          "w": 2.03
+        }
+        {
+          "id": "nasu-film-witch-on-the-holy-night",
+          "t": "Witch on the Holy Night",
+          "n": "2026",
+          "note": "Upcoming film adaptation of Witch on the Holy Night VN",
           "w": 2.03
         }
       ]
@@ -238,7 +272,7 @@
     {
       "id": "game",
       "title": "Games",
-      "sub": "2002–2023 · 11 entries",
+      "sub": "2002–Present · 14 entries",
       "items": [
         {
           "id": "nasu-game-melty-blood",
@@ -246,11 +280,17 @@
           "n": "2002",
           "note": "Fighting game with French-Bread, and a direct Tsukihime sequel in story"
         },
+          {
+          "id": "nasu-game-melty-blood-re-act",
+          "t": "Melty Blood Re-Act",
+          "n": "2002",
+          "note": "Expansion/sequel to the original Melty Blood"
+        },
         {
           "id": "nasu-game-melty-blood-act-cadenza",
           "t": "Melty Blood: Act Cadenza",
           "n": "2005",
-          "note": "Arcade port"
+          "note": "Direct sequel to Melty Blood Re-Act"
         },
         {
           "id": "nasu-game-fate-tiger-colosseum",
@@ -265,39 +305,52 @@
           "note": "Arcade, PS2 and PSP fighting game"
         },
         {
+          "id": "nasu-game-fate-tiger-colosseum",
+          "t": "Fate/tiger colosseum Upper",
+          "n": "2008",
+          "note": "Sequel to Fate/tiger colosseum with extra characters"
+        },
+          {
+          "id": "nasu-game-melty-blood-actress-again",
+          "t": "Melty Blood: Actress Again",
+          "n": "2008",
+          "note": "Direct sequel to Melty Blood: Act Cadenza"
+        },
+        {
           "id": "nasu-game-fate-extra",
           "t": "Fate/Extra",
           "n": "2010",
-          "note": "PSP dungeon-crawling RPG"
+          "note": "One of the alternate universe story branches of the Fate series. Leads into the Fate/EXTRA Last Encore series. A remake is in development"
         },
         {
           "id": "nasu-game-fate-extra-ccc",
           "t": "Fate/Extra CCC",
           "n": "2013",
-          "note": "Side story to Fate/Extra"
+          "note": "Sequel to Fate/Extra"
         },
         {
           "id": "nasu-game-fate-grand-order",
           "t": "Fate/Grand Order",
           "n": "2015",
-          "note": "The mobile RPG, still running, and the largest single body of story in the universe"
+          "note": "The mobile RPG, still running, and the largest single body of story in the universe. Hundreds of hours long."
         },
         {
           "id": "nasu-game-fate-extella-the-umbral-star",
           "t": "Fate/Extella: The Umbral Star",
           "n": "2016",
-          "note": "Action RPG"
+          "note": "Action RPG, original story"
         },
         {
           "id": "nasu-game-fate-extella-link",
           "t": "Fate/Extella Link",
           "n": "2018"
+          "note": "Sequel to Fate/Extella: The Umbral Star"
         },
         {
           "id": "nasu-game-melty-blood-type-lumina",
           "t": "Melty Blood: Type Lumina",
           "n": "2021",
-          "note": "Reboot of the fighting game, following the Tsukihime remake"
+          "note": "Reboot of the fighting game, following the Tsukihime VN remake"
         },
         {
           "id": "nasu-game-fate-samurai-remnant",
@@ -306,7 +359,7 @@
           "note": "Action RPG set during a Holy Grail War in Edo-period Japan"
         }
       ],
-      "intro": "Melty Blood carries real Tsukihime story rather than being a spin-off, and Fate/Grand Order is by volume the largest body of story Type-Moon has written."
+      "intro": "Melty Blood closely ties into the story of Tsukihime, and Fate/Grand Order is by volume the largest body of story Type-Moon has written."
     },
     {
       "id": "novel",
