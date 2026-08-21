@@ -31,7 +31,7 @@
     ],
     [
       "Links.",
-      "Each section header links to the series it actually contains, so the links change as you move down the page. 17 of the 65 series have a known page; the rest are minis and annuals, and Marvel gives every series an arbitrary database id that has to be looked up one at a time. Marvel Unlimited finds any of them by exact title."
+      "Each section header links to every series that section contains, in reading order, so the links change as you move down the page. 64 of the 65 series here have a page on marvel.com, covering all but one issue — only Cataclysm Point One has no series page of its own."
     ],
     "Order transcribed from the Comic Book Herald Ultimate Marvel reading order. Its commentary is kept as notes on the entry it belongs to."
   ],
@@ -681,11 +681,27 @@
       "links": [
         {
           "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "url": "https://www.marvel.com/comics/series/466/ultimate_spiderman_2000_2009"
+        },
+        {
+          "label": "Ultimate Daredevil & Elektra",
+          "url": "https://www.marvel.com/comics/series/2298/ultimate_daredevil_and_elektra_2002_2003"
+        },
+        {
+          "label": "Ultimate Elektra",
+          "url": "https://www.marvel.com/comics/series/767/ultimate_elektra_2004"
+        },
+        {
+          "label": "Ultimate Iron Man",
+          "url": "https://www.marvel.com/comics/series/761/ultimate_iron_man_2005"
+        },
+        {
+          "label": "Ultimate Iron Man II",
+          "url": "https://www.marvel.com/comics/series/3179/ultimate_iron_man_ii_2007_2008"
         },
         {
           "label": "Ultimate Marvel Team-Up",
-          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_team-up_(2001_-_2002)"
+          "url": "https://www.marvel.com/comics/series/2311/ultimate_marvel_teamup_2001_2002"
         },
         {
           "label": "Ultimate X-Men",
@@ -693,11 +709,15 @@
         },
         {
           "label": "Ultimates",
-          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_-_2003"
+          "url": "https://www.marvel.com/comics/series/664/ultimates_2002_2004"
         },
         {
           "label": "Ultimate Fantastic Four",
           "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
+        },
+        {
+          "label": "Ultimate War",
+          "url": "https://www.marvel.com/comics/series/3659/ultimate_war_2002_2003"
         }
       ]
     },
@@ -1099,7 +1119,7 @@
         },
         {
           "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "url": "https://www.marvel.com/comics/series/466/ultimate_spiderman_2000_2009"
         },
         {
           "label": "Ultimate Six",
@@ -1517,15 +1537,23 @@
       "links": [
         {
           "label": "Ultimate Nightmare",
-          "url": "https://www.marvel.com/comics/series/760/ultimate_nightmare_(2004_-_2005)"
+          "url": "https://www.marvel.com/comics/series/760/ultimate_nightmare_2004_2005"
         },
         {
           "label": "Ultimate X-Men",
           "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
+          "label": "Ultimate X-Men Annual",
+          "url": "https://www.marvel.com/comics/series/1055/ultimate_xmen_annual_2005_2006"
+        },
+        {
           "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "url": "https://www.marvel.com/comics/series/466/ultimate_spiderman_2000_2009"
+        },
+        {
+          "label": "Ultimates Annual",
+          "url": "https://www.marvel.com/comics/series/1057/ultimates_annual_2005_2006"
         },
         {
           "label": "Ultimate Secret",
@@ -1533,15 +1561,31 @@
         },
         {
           "label": "Ultimate Vision",
-          "url": "https://www.marvel.com/comics/series/3255/ultimate_vision_2006_-_2007"
+          "url": "https://www.marvel.com/comics/series/1053/ultimate_vision_2007"
         },
         {
           "label": "Ultimates (v2)",
-          "url": "https://www.marvel.com/comics/series/709/ultimates_2_(2004_-_2006)"
+          "url": "https://www.marvel.com/comics/series/709/ultimates_2_2004_2007"
         },
         {
           "label": "Ultimate Fantastic Four",
           "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
+        },
+        {
+          "label": "Ultimate Fantastic Four Annual",
+          "url": "https://www.marvel.com/comics/series/1056/ultimate_fantastic_four_annual_2005_2006"
+        },
+        {
+          "label": "Ultimate Extinction",
+          "url": "https://www.marvel.com/comics/series/759/ultimate_extinction_2006"
+        },
+        {
+          "label": "Ultimate Wolverine vs. Hulk",
+          "url": "https://www.marvel.com/comics/series/1022/ultimate_wolverine_vs_hulk_2005_2009"
+        },
+        {
+          "label": "Ultimate Spider-Man Annual",
+          "url": "https://www.marvel.com/comics/series/1054/ultimate_spiderman_annual_2005_2008"
         }
       ]
     },
@@ -1814,16 +1858,36 @@
           "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
         },
         {
+          "label": "Ultimate X-Men Annual",
+          "url": "https://www.marvel.com/comics/series/1055/ultimate_xmen_annual_2005_2006"
+        },
+        {
+          "label": "Ultimate X-Men / Fantastic Four",
+          "url": "https://www.marvel.com/comics/series/353/ultimate_xmenfantastic_four_2005"
+        },
+        {
           "label": "Ultimate Fantastic Four",
           "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
         },
         {
+          "label": "Ultimate Fantastic Four Annual",
+          "url": "https://www.marvel.com/comics/series/1056/ultimate_fantastic_four_annual_2005_2006"
+        },
+        {
           "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "url": "https://www.marvel.com/comics/series/466/ultimate_spiderman_2000_2009"
+        },
+        {
+          "label": "Ultimate Spider-Man Annual",
+          "url": "https://www.marvel.com/comics/series/1054/ultimate_spiderman_annual_2005_2008"
+        },
+        {
+          "label": "Ultimates Annual",
+          "url": "https://www.marvel.com/comics/series/1057/ultimates_annual_2005_2006"
         },
         {
           "label": "Ultimate Power",
-          "url": "https://www.marvel.com/comics/series/1124/ultimate_power_(2006_-_2008)"
+          "url": "https://www.marvel.com/comics/series/1124/ultimate_power_2006_2007"
         }
       ]
     },
@@ -2145,15 +2209,23 @@
         },
         {
           "label": "Ultimate Vision",
-          "url": "https://www.marvel.com/comics/series/3255/ultimate_vision_2006_-_2007"
+          "url": "https://www.marvel.com/comics/series/1053/ultimate_vision_2007"
         },
         {
           "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "url": "https://www.marvel.com/comics/series/466/ultimate_spiderman_2000_2009"
         },
         {
           "label": "Ultimate X-Men",
           "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
+        },
+        {
+          "label": "Ultimate Spider-Man Annual",
+          "url": "https://www.marvel.com/comics/series/1054/ultimate_spiderman_annual_2005_2008"
+        },
+        {
+          "label": "Ultimate Human",
+          "url": "https://www.marvel.com/comics/series/3421/ultimate_human_2008"
         }
       ]
     },
@@ -2331,11 +2403,35 @@
       "links": [
         {
           "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "url": "https://www.marvel.com/comics/series/466/ultimate_spiderman_2000_2009"
+        },
+        {
+          "label": "The Ultimates (v3)",
+          "url": "https://www.marvel.com/comics/series/3188/ultimates_3_2007_2008"
+        },
+        {
+          "label": "Squadron Supreme",
+          "url": "https://www.marvel.com/comics/series/944/squadron_supreme_2006"
         },
         {
           "label": "Ultimate X-Men",
           "url": "https://www.marvel.com/comics/series/474/ultimate_xmen_2001_2009"
+        },
+        {
+          "label": "Ultimate Origins",
+          "url": "https://www.marvel.com/comics/series/5017/ultimate_origins_2007_2008"
+        },
+        {
+          "label": "Ultimate Hulk Annual",
+          "url": "https://www.marvel.com/comics/series/5989/ultimate_hulk_annual_1_2008"
+        },
+        {
+          "label": "Ultimate X-Men/Fantastic Four Annual",
+          "url": "https://www.marvel.com/comics/series/5744/ultimate_xmenultimate_fantastic_four_annual_1_2008"
+        },
+        {
+          "label": "Ultimate Fantastic Four/X-Men Annual",
+          "url": "https://www.marvel.com/comics/series/5743/ultimate_fantastic_fourultimate_xmen_annual_2008"
         }
       ]
     },
@@ -2448,7 +2544,11 @@
       "links": [
         {
           "label": "Ultimate Spider-Man",
-          "url": "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+          "url": "https://www.marvel.com/comics/series/466/ultimate_spiderman_2000_2009"
+        },
+        {
+          "label": "Ultimatum",
+          "url": "https://www.marvel.com/comics/series/6182/ultimatum_2008_2009"
         },
         {
           "label": "Ultimate X-Men",
@@ -2457,6 +2557,18 @@
         {
           "label": "Ultimate Fantastic Four",
           "url": "https://www.marvel.com/comics/series/702/ultimate_fantastic_four_2003_2009"
+        },
+        {
+          "label": "Ultimatum: Fantastic Four Requiem",
+          "url": "https://www.marvel.com/comics/series/8543/ultimatum_fantastic_four_requiem_oneshot_2009"
+        },
+        {
+          "label": "Ultimatum: X-Men Requiem",
+          "url": "https://www.marvel.com/comics/series/8549/ultimatum_xmen_requiem_2009"
+        },
+        {
+          "label": "Ultimatum: Spider-Man Requiem",
+          "url": "https://www.marvel.com/comics/series/8548/ultimatum_spiderman_requiem_2009"
         }
       ]
     },
@@ -2648,8 +2760,24 @@
       ],
       "links": [
         {
+          "label": "Ultimate Comics X",
+          "url": "https://www.marvel.com/comics/series/8512/ultimate_comics_x_2010_2011"
+        },
+        {
+          "label": "Ultimate Comics Armor Wars",
+          "url": "https://www.marvel.com/comics/series/8845/ultimate_armor_wars_2009_2010"
+        },
+        {
           "label": "Ultimate Comics Spider-Man",
-          "url": "https://www.marvel.com/comics/series/8509/ultimate_spiderman_2009_2012"
+          "url": "https://www.marvel.com/comics/series/8509/ultimate_spiderman_2009_2011"
+        },
+        {
+          "label": "Ultimate Comics Avengers",
+          "url": "https://www.marvel.com/comics/series/8498/ultimate_avengers_2009_2010"
+        },
+        {
+          "label": "Ultimate Comics Avengers 2",
+          "url": "https://www.marvel.com/comics/series/8499/ultimate_avengers_2_2010"
         }
       ]
     },
@@ -2812,6 +2940,36 @@
           "id": "u-ultimate-comics-avengers-3-6",
           "t": "Ultimate Comics Avengers 3",
           "n": "#6"
+        }
+      ],
+      "links": [
+        {
+          "label": "Ultimate Enemy",
+          "url": "https://www.marvel.com/comics/series/9196/ultimate_enemy_2010"
+        },
+        {
+          "label": "Ultimate Mystery",
+          "url": "https://www.marvel.com/comics/series/9957/ultimate_mystery_2010"
+        },
+        {
+          "label": "Ultimate Doom",
+          "url": "https://www.marvel.com/comics/series/9958/ultimate_doom_2010_2011"
+        },
+        {
+          "label": "Ultimate Comics Captain America",
+          "url": "https://www.marvel.com/comics/series/13181/ultimate_captain_america_2011"
+        },
+        {
+          "label": "Ultimate Comics New Ultimates",
+          "url": "https://www.marvel.com/comics/series/28705/ultimate_new_ultimates_2010_2011"
+        },
+        {
+          "label": "Ultimate Comics Thor",
+          "url": "https://www.marvel.com/comics/series/11272/ultimate_thor_2010_2011"
+        },
+        {
+          "label": "Ultimate Comics Avengers 3",
+          "url": "https://www.marvel.com/comics/series/9867/ultimate_avengers_3_2010_2011"
         }
       ]
     },
@@ -3021,7 +3179,11 @@
       "links": [
         {
           "label": "Ultimate Comics Spider-Man",
-          "url": "https://www.marvel.com/comics/series/8509/ultimate_spiderman_2009_2012"
+          "url": "https://www.marvel.com/comics/series/8509/ultimate_spiderman_2009_2011"
+        },
+        {
+          "label": "Ultimate Comics Avengers vs. New Ultimates",
+          "url": "https://www.marvel.com/comics/series/12615/ultimate_avengers_vs_new_ultimates_2011"
         },
         {
           "label": "Ultimate Fallout",
@@ -3029,7 +3191,11 @@
         },
         {
           "label": "Ultimate Comics Spider-Man (2011)",
-          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_spiderman_2011_2014"
+        },
+        {
+          "label": "Spider-Men",
+          "url": "https://www.marvel.com/comics/series/16264/spidermen_2012"
         }
       ]
     },
@@ -3186,8 +3352,12 @@
       ],
       "links": [
         {
+          "label": "Ultimate Comics Hawkeye",
+          "url": "https://www.marvel.com/comics/series/14068/ultimate_comics_hawkeye_2011"
+        },
+        {
           "label": "Ultimate Comics Ultimates",
-          "url": "https://www.marvel.com/comics/series/13936/ultimate_comics_ultimates__(2011_-_present)"
+          "url": "https://www.marvel.com/comics/series/13936/ultimate_comics_ultimates_2011_2013"
         },
         {
           "label": "Ultimate Comics X-Men",
@@ -3303,11 +3473,11 @@
         },
         {
           "label": "Ultimate Comics Ultimates",
-          "url": "https://www.marvel.com/comics/series/13936/ultimate_comics_ultimates__(2011_-_present)"
+          "url": "https://www.marvel.com/comics/series/13936/ultimate_comics_ultimates_2011_2013"
         },
         {
           "label": "Ultimate Comics Spider-Man (2011)",
-          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_spiderman_2011_2014"
         }
       ]
     },
@@ -3550,7 +3720,7 @@
       "links": [
         {
           "label": "Ultimate Comics Spider-Man (2011)",
-          "url": "https://www.marvel.com/comics/series/13831/ultimate_comics_spider-man_2011_-_2013"
+          "url": "https://www.marvel.com/comics/series/13831/ultimate_spiderman_2011_2014"
         },
         {
           "label": "Ultimate Comics X-Men",
@@ -3558,7 +3728,15 @@
         },
         {
           "label": "Ultimate Comics Ultimates",
-          "url": "https://www.marvel.com/comics/series/13936/ultimate_comics_ultimates__(2011_-_present)"
+          "url": "https://www.marvel.com/comics/series/13936/ultimate_comics_ultimates_2011_2013"
+        },
+        {
+          "label": "Ultimate Comics Wolverine",
+          "url": "https://www.marvel.com/comics/series/17739/ultimate_comics_wolverine_2013"
+        },
+        {
+          "label": "Ultimate Comics Iron Man",
+          "url": "https://www.marvel.com/comics/series/16739/ultimate_comics_iron_man_2012_2013"
         }
       ]
     },
@@ -3666,6 +3844,32 @@
           "id": "u-survive-1",
           "t": "Survive",
           "n": "#1"
+        }
+      ],
+      "links": [
+        {
+          "label": "Hunger",
+          "url": "https://www.marvel.com/comics/series/18248/hunger_2013"
+        },
+        {
+          "label": "Cataclysm: Ultimate Comics Spider-Man",
+          "url": "https://www.marvel.com/comics/series/18325/cataclysm_ultimate_spiderman_2013_2014"
+        },
+        {
+          "label": "Cataclysm: Ultimate X-Men",
+          "url": "https://www.marvel.com/comics/series/18326/cataclysm_ultimate_xmen_2013_2014"
+        },
+        {
+          "label": "Cataclysm: The Ultimates' Last Stand",
+          "url": "https://www.marvel.com/comics/series/18322/cataclysm_the_ultimates_last_stand_2013_2014"
+        },
+        {
+          "label": "Cataclysm: Ultimates",
+          "url": "https://www.marvel.com/comics/series/18327/cataclysm_ultimates_2013_2014"
+        },
+        {
+          "label": "Survive",
+          "url": "https://www.marvel.com/comics/series/18896/survive_2014"
         }
       ]
     },
@@ -3827,8 +4031,16 @@
       ],
       "links": [
         {
+          "label": "Ultimate FF",
+          "url": "https://www.marvel.com/comics/series/18474/ultimate_ff_2014"
+        },
+        {
           "label": "All-New Ultimates",
           "url": "https://www.marvel.com/comics/series/18524/allnew_ultimates_2014_2015"
+        },
+        {
+          "label": "Miles Morales: Ultimate Spider-Man",
+          "url": "https://www.marvel.com/comics/series/18508/miles_morales_ultimate_spiderman_2014_2015"
         }
       ]
     }
