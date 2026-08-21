@@ -3,8 +3,8 @@
 
     python3 tools/make_starwars.py
 
-Every Star Wars film and television season, plus the games made under Disney,
-in the order they came out.
+Every Star Wars film and television season, in the order they came out. The
+games are their own property — see tools/make_starwars_games.py.
 
 Sources, machine-read rather than typed:
   - the title sets come from the section headings of Wikipedia's "List of Star
@@ -16,14 +16,12 @@ Sources, machine-read rather than typed:
     which gave The Bad Batch 18 episodes for a run of 47
   - the games from Wikipedia's "List of Star Wars video games"
 
-Games: everything made under Disney, plus a long list of older titles asked for
-by name. Anything before 25 April 2014 is marked Legends — that is the day the
-Expanded Universe stopped being canon, and it is not the same as the October
-2012 takeover.
+Young Jedi Adventures is left out: it is a Disney Junior preschool show rather
+than something an audience works through. Droids and Ewoks stay — Saturday
+morning cartoons aimed at children are a different thing, and they were the
+only Star Wars television that existed for twenty years.
 
-Weights are runtimes. Games carry none — no source for how long a game takes
-was confirmed, and inventing one would put a made-up number into everyone's
-pace. They weigh nothing rather than weighing a guess, and the notes say so.
+Weights are runtimes throughout.
 """
 import json
 import pathlib
@@ -73,6 +71,12 @@ MAIN_SHOWS = {
 # The one series held to the same standard as the films.
 SAGA_SHOWS = {"Andor"}
 
+# Made for preschoolers rather than for an audience working through Star Wars.
+# Droids and Ewoks are not in here: Saturday morning cartoons aimed at children
+# are a different thing, and they were the only Star Wars television that
+# existed for twenty years.
+FOR_PRESCHOOL = {"Young Jedi Adventures"}
+
 
 def slug(t):
     keep = "".join(c.lower() if c.isalnum() else "-" for c in t)
@@ -119,6 +123,8 @@ def main():
         })
 
     for s in d["shows"]:
+        if s["t"] in FOR_PRESCHOOL:
+            continue
         start = int(s["start"][:4])
         end = int(s["end"][:4]) if s["end"] else None
         n, eps = s["seasons"], s["episodes"]
@@ -156,38 +162,19 @@ def main():
                 "tags": ["Television"],
             })
 
-    for g in d["games"]:
-        # The Expanded Universe was declared Legends on 25 April 2014, so a
-        # game that shipped before then is Legends whatever it says on the box.
-        legends = g["year"] < 2014
-        bits = ["Game"]
-        if legends:
-            bits.append("Legends")
-        if g["t"].lower().startswith("lego"):
-            bits = ["Game", "Lego — its own joke, outside any continuity"]
-        entries.append({
-            "id": "sw-g-%d-%s" % (g["year"], slug(g["t"])),
-            "t": g["t"], "n": str(g["year"]), "w": 0,
-            "note": " · ".join(bits), "date": "%d-12-31" % g["year"],
-            "year": g["year"], "kind": "game", "tier": 3,
-            "tags": ["Games"],
-        })
-
-    entries.sort(key=lambda e: (e["date"], {"film": 0, "show": 1, "game": 2}[e["kind"]],
+    entries.sort(key=lambda e: (e["date"], {"film": 0, "show": 1}[e["kind"]],
                                 e.get("sortkey", (e["t"], 0))))
 
     sections = []
     for key, title, lo, hi, intro in ERAS:
-        got = [e for e in entries
-               if e["kind"] != "game" and era_of(e["year"]) == key]
+        got = [e for e in entries if era_of(e["year"]) == key]
         if not got:
             continue
         nf = sum(1 for e in got if e["kind"] == "film")
         ns = sum(1 for e in got if e["kind"] == "show")
-        ng = sum(1 for e in got if e["kind"] == "game")
         parts = ["%d film%s" % (nf, "" if nf == 1 else "s") if nf else "",
                  "%d season%s" % (ns, "" if ns == 1 else "s") if ns else "",
-                 "%d game%s" % (ng, "" if ng == 1 else "s") if ng else ""]
+                 ]
         sec = {"id": key, "title": title,
                "sub": "%d–%d · %s · %d hours"
                       % (got[0]["year"], got[-1]["year"],
@@ -203,22 +190,6 @@ def main():
         assert all(a["n"] <= b["n"] for a, b in zip(sec["items"], sec["items"][1:])), \
             "%s is out of year order" % title
         sections.append(sec)
-
-    # Interleaving 68 games with the films and television buried both. They are
-    # a parallel thing rather than a step in the same sequence, so they get
-    # their own run, still in release order.
-    games = [e for e in entries if e["kind"] == "game"]
-    sections.append({
-        "id": "games", "title": "The games",
-        "sub": "%d–%d · %d games" % (games[0]["year"], games[-1]["year"], len(games)),
-        "intro": "In release order. Anything before 25 April 2014 is marked "
-                 "Legends — that is the day the Expanded Universe stopped being "
-                 "canon, which is not the same as the 2012 takeover.",
-        "items": [{k: v for k, v in e.items()
-                   if k in ("id", "t", "n", "w", "tier", "tags")
-                   or (k == "note" and v)}
-                  for e in games],
-    })
 
     ids = [x["id"] for s in sections for x in s["items"]]
     assert len(ids) == len(set(ids)), \
@@ -248,7 +219,7 @@ def main():
         "itemTiers": True,
         "filter": {
             "key": "kind", "label": "Show", "mode": "exclude",
-            "values": ["Films", "Television", "Games"]
+            "values": ["Films", "Television"]
         },
         "paceTiers": [1, 2],
         "paceLabel": "the games, the specials and the anthologies",
@@ -290,11 +261,12 @@ def main():
              "It hides rows and nothing else — ticks are untouched, and "
              "the strip still shows the whole list, because a mark's position "
              "is what a tick means."],
-            ["Games weigh nothing, on purpose.", "No source for how long a Star Wars "
-             "game takes was confirmed, and a made-up number would go straight into "
-             "everyone's pace. They sit in the list at zero rather than at a guess, "
-             "so they cannot make anyone late. Say the word and they can be weighted "
-             "properly."],
+            ["What is not here.", "The games, which are their own page — sixty-eight "
+             "of them buried whatever they sat next to. And Young Jedi Adventures, "
+             "which is a Disney Junior preschool show rather than something anyone "
+             "else is working through. Droids and Ewoks stay: they are Saturday "
+             "morning cartoons for children, which is not the same thing, and they "
+             "are the only Star Wars television there was for twenty years."],
             "Film runtimes and dates from Wikidata; season and episode counts from "
             "each show's own infobox; the games from Wikipedia's list of Star Wars "
             "video games.",

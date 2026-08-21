@@ -305,14 +305,29 @@
     "subtitle": "films, television and the Disney-era games, in release order",
     "kind": "films, shows & games",
     "year": "1977–",
-    "blurb": "16 films, 39 television seasons and 68 games in the order they came out — about 256 hours of screen time.",
+    "blurb": "16 films, 36 television seasons and 0 games in the order they came out — about 236 hours of screen time.",
     "accent": "#8A6D1F",
     "accentDark": "#E8C450",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 123
+    "total": 52
+  },
+  {
+    "slug": "star-wars-games",
+    "title": "Star Wars Games",
+    "subtitle": "the whole catalogue, in release order",
+    "kind": "games",
+    "year": "1992–",
+    "blurb": "68 games in the order they came out — 43 Legends, 21 canon, 4 Lego.",
+    "accent": "#7A5A1E",
+    "accentDark": "#D9B45C",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 68
   },
   {
     "slug": "secret",
