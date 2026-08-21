@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Sixteen lists, from an eight-episode show to a 1,190-chapter manga.
+Nineteen lists, from an eight-episode show to a 1,190-chapter manga.
 
 **Comics.** *Amazing Spider-Man* (Amazing Fantasy #15 to Civil War), *Civil
 War* (the 2006 event interleaved), *Spider-Man After Civil War*, *Ultimate
@@ -20,12 +20,15 @@ Marvel* (the whole line, 693 issues), *Everything Dies: Secret Wars*
 manga form.
 
 **Screen.** *MCU Anthology* — every Marvel film from *Blade* to *Avengers:
-Doomsday* in release order with the shows slotted in — plus *Fullmetal
+Doomsday* in release order with the shows slotted in — *DC Anthology*, the
+live-action equivalent, tracked season by season, and *Studio Ghibli*, every
+feature in release order with Miyazaki's as the spine. Plus *Fullmetal
 Alchemist: Brotherhood*, *Monster*, *Evangelion*, *One Piece*, *One Pace*,
 *Friday Night Lights* and *Lanterns*.
 
 **Games.** *Kingdom Hearts*, in release order, weighted by how long each
-entry takes.
+entry takes, and *Nasuverse* — Fate, Tsukihime, Melty Blood and the rest,
+organised by medium.
 
 The button in the top left switches between them, with a search box. First
 visit shows a picker; after that it opens whatever you had last.
@@ -140,10 +143,14 @@ the group; its annotations were rewritten rather than copied, because it spoils
 freely. Civil War order from How To Love Comics, cross-checked against
 comicbookreadingorders.com. Ultimate Marvel order from Comic Book Herald.
 
-MCU Anthology built from Wikipedia's live-action Marvel features table, with
-runtimes, release dates and episode counts read from Wikidata. Kingdom Hearts
-order and priorities from a rundown by a longtime player; hours from
-HowLongToBeat.
+MCU Anthology built from Wikipedia's live-action Marvel features table, and DC
+Anthology from the equivalent DC film and television tables including the
+imprints, with runtimes, release dates and episode counts read from Wikidata.
+Studio Ghibli from Wikipedia's List of Studio Ghibli works, with directors,
+runtimes and release dates from Wikidata.
+
+Kingdom Hearts order and priorities from a rundown by a longtime player; hours
+from HowLongToBeat. Nasuverse assembled from the Type-Moon release history.
 
 This is an index of issue and episode numbers, not a reader or a player.
 
