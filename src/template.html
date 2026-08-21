@@ -675,6 +675,15 @@ async function loadProperty(){
   const res = await fetch('properties/' + SLUG + '.json', {cache:'no-cache'});
   if(!res.ok) throw new Error('could not load ' + SLUG + ' (' + res.status + ')');
   PROP = await res.json();
+  // an encrypted body stays sealed until the password is in hand; everything
+  // downstream then sees an ordinary property
+  if(PROP.secret && PROP.secret.blob){
+    const held = savedKeys()[SLUG];
+    if(held){
+      try{ Object.assign(PROP, await decryptSecret(PROP.secret, held)); }
+      catch(e){ console.error('[tracker] stored key no longer opens this'); }
+    }
+  }
   UNIT = PROP.unit || UNIT;
   // a daily list is built here rather than shipped, so it reaches today
   DATA = PROP.generate ? generateSections(PROP.generate, UNIT.one)
@@ -728,7 +737,8 @@ async function loadProperty(){
   // because the gate also hid the switcher there was no way back out: every
   // visit landed on a password box with no navigation. Both halves of that are
   // fixed — this line, and the switcher staying put in showGate().
-  if(!(PROP.secret && !isUnlocked(SLUG))) localStorage.setItem('gw:last', SLUG);
+  if(!(PROP.secret && PROP.secret.blob && !PROP.generate && !PROP.sections))
+    localStorage.setItem('gw:last', SLUG);
   applyAccent();
 }
 
@@ -881,7 +891,7 @@ async function onSession(session){
     startGroupPoll();
     // someone can unlock while signed out and sign in afterwards; the group
     // they were promised should still be waiting for them
-    if(PROP && PROP.secret && isUnlocked(SLUG)) await joinSecretGroup();
+    if(PROP && PROP.group) await joinSecretGroup();
   }else{
     $('b-signout').classList.add('hide');
     if(CLOUD) $('b-signin').classList.remove('hide');
@@ -2125,20 +2135,54 @@ function markUnlocked(slug){
   const u = unlockedSet(); u.add(slug);
   try{ localStorage.setItem(UNLKEY, JSON.stringify([...u])); }catch(e){}
 }
+// a secret list is listed once you have an account to attach it to; before
+// that it is a door with nothing behind it, since the group needs signing in
+function secretVisible(m){
+  return !m.secret || !!user || isUnlocked(m.slug);
+}
 // The switcher lists secret properties and marks them, because a name in a
 // menu gives nothing away and a list nobody can find is a list nobody uses.
 // The splash is the first thing a stranger sees, so it stays to what is open.
-function menuList(){ return MANIFEST.slice(); }
+function menuList(){ return MANIFEST.filter(secretVisible); }
 function splashList(){ return MANIFEST.filter(m=> !m.secret || isUnlocked(m.slug)); }
 
 // A manifest total is written at build time, which a daily list cannot have —
 // only the reader's own clock knows how many days have passed.
 function totalOf(m){ return m.generate ? generatedTotal(m.generate) : m.total; }
 
-async function sha256hex(str){
-  if(!(crypto && crypto.subtle)) return null;
-  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
-  return [...new Uint8Array(buf)].map(b=> b.toString(16).padStart(2,'0')).join('');
+// The gate would be theatre if the list it guards sat in the repository in
+// plain text, so the property body is shipped encrypted and the password is the
+// key. AES-GCM authenticates as well as encrypts: a wrong password fails to
+// decrypt rather than yielding plausible rubbish, so there is no separate
+// password check to get wrong.
+function b64bytes(s){
+  const bin = atob(s);
+  const out = new Uint8Array(bin.length);
+  for(let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+async function decryptSecret(sec, password){
+  if(!(crypto && crypto.subtle)) throw new Error('no WebCrypto in this browser');
+  const base = await crypto.subtle.importKey(
+    'raw', new TextEncoder().encode(password), 'PBKDF2', false, ['deriveKey']);
+  const key = await crypto.subtle.deriveKey(
+    {name:'PBKDF2', salt:b64bytes(sec.salt), iterations:sec.iter||210000, hash:'SHA-256'},
+    base, {name:'AES-GCM', length:256}, false, ['decrypt']);
+  const clear = await crypto.subtle.decrypt(
+    {name:'AES-GCM', iv:b64bytes(sec.iv)}, key, b64bytes(sec.blob));
+  return JSON.parse(new TextDecoder().decode(clear));
+}
+
+// The password is kept per device so the gate is a once-per-browser thing
+// rather than a toll. It is the key to a list, not a credential to anything.
+const KEYSKEY = 'gw:keys';
+function savedKeys(){
+  try{ return JSON.parse(localStorage.getItem(KEYSKEY) || '{}') || {}; }
+  catch(e){ return {}; }
+}
+function rememberKey(slug, password){
+  const k = savedKeys(); k[slug] = password;
+  try{ localStorage.setItem(KEYSKEY, JSON.stringify(k)); }catch(e){}
 }
 
 // ------------------------------------------------------- generated lists
@@ -2183,7 +2227,7 @@ function generateSections(g, one){
     const slots = g.slots || 1;
     for(let k = 1; k <= slots; k++)
       sec.items.push({id: g.idPrefix + '-' + iso + '-' + k,
-                      // "entry 1" of one is a number nobody needed
+                      // a numbered slot of one is a number nobody needed
                       t: slots === 1 ? one : one + ' ' + k,
                       n: label, w: 1});
     cur.setDate(cur.getDate() + 1);
@@ -2287,28 +2331,26 @@ function showGate(){
     const msg = $('gate-msg');
     const tried = $('gate-in').value;
     if(!tried){ msg.className = 'gate-msg'; msg.textContent = 'Needs a password.'; return; }
-    let hex = null;
-    try{ hex = await sha256hex(tried); }catch(err){ hex = null; }
-    if(hex === null){
-      msg.className = 'gate-msg';
-      msg.textContent = 'This browser will not hash, so the password cannot be checked.';
-      return;
-    }
-    if(hex !== sec.sha256){
-      msg.className = 'gate-msg';
-      msg.textContent = 'Not it.';
+    $('gate-go').disabled = true;
+    msg.className = 'gate-msg';
+    msg.textContent = 'Trying…';
+    try{
+      await decryptSecret(sec, tried);
+    }catch(err){
+      $('gate-go').disabled = false;
+      msg.textContent = /WebCrypto/.test(err.message || '')
+        ? 'This browser cannot open it.' : 'Not it.';
       $('gate-in').select();
       return;
     }
+    // Reload rather than re-initialise. Half the page is already built against
+    // an empty property, and a fresh boot with the key in hand is one code path
+    // instead of two.
+    rememberKey(SLUG, tried);
     markUnlocked(SLUG);
     msg.className = 'gate-msg ok';
     msg.textContent = 'In.';
-    $('gate').classList.add('hide');
-    document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.remove('hide'));
-    document.title = PROP.title + ' — GroupWatch';
-    localStorage.setItem('gw:last', SLUG);
-    renderMenu();
-    joinSecretGroup();
+    location.reload();
   };
 }
 
@@ -2317,7 +2359,7 @@ function showGate(){
 // an account and a database, and neither is a reason to refuse someone entry to
 // a list they just proved they were told about.
 async function joinSecretGroup(){
-  const g = PROP.secret && PROP.secret.group;
+  const g = PROP.group;
   if(!g || !g.code) return;
   if(!CLOUD || !user){
     flash('Sign in and you will be added to ' + g.name + ' automatically.', 'gmsg2');
@@ -2789,7 +2831,8 @@ loadProperty().then(()=>{
   // already fetched by this point and always will be — the gate is about not
   // surfacing it, not about withholding it from someone reading the network
   // tab, which no static site can do.
-  if(PROP.secret && !isUnlocked(SLUG)) showGate();
+  if(PROP.secret && PROP.secret.blob && !PROP.generate && !PROP.sections) showGate();
+  else if(PROP.secret) joinSecretGroup();
   build();
   $('b-star').onclick = ()=>{
     toggleStar(SLUG);

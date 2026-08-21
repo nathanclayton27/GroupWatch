@@ -301,13 +301,13 @@
   },
   {
     "slug": "secret",
-    "title": "A secret list",
-    "subtitle": "competitive daily consumption",
-    "kind": "consumption",
-    "year": "2026–",
-    "blurb": "One row per entry per day. Whoever's layer sits on top of the strip is winning.",
-    "accent": "#B06E10",
-    "accentDark": "#F0B33C",
+    "title": "Secret",
+    "subtitle": "",
+    "kind": "",
+    "year": "",
+    "blurb": "",
+    "accent": "#6C7178",
+    "accentDark": "#8E9298",
     "unit": {
       "one": "entry",
       "many": "entries"
@@ -315,12 +315,6 @@
     "total": 0,
     "secret": {
       "title": "Secret"
-    },
-    "generate": {
-      "kind": "daily",
-      "start": "2026-08-21",
-      "slots": 1,
-      "idPrefix": "mcm"
     }
   }
 ]

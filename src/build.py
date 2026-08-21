@@ -55,6 +55,20 @@ def load_property(path):
     # the calendar when it loads, so the list grows by itself as days pass and
     # a static file would be stale the morning after it shipped. Everything
     # about it that can be checked ahead of time is checked here instead.
+    # An encrypted property carries nothing to validate: its sections, its
+    # generate block and its real title are all inside the ciphertext, and the
+    # build has no key. Check the envelope and stop there.
+    sec = prop.get("secret") or {}
+    if sec.get("blob"):
+        for field in ("salt", "iv", "iter"):
+            if not sec.get(field):
+                fail("%s: an encrypted property needs secret.%s" % (path.name, field))
+        if prop.get("sections") or prop.get("generate"):
+            fail("%s: an encrypted property must not also ship its contents"
+                 % path.name)
+        prop["_total"] = 0
+        return prop
+
     gen = prop.get("generate")
     if gen:
         if prop.get("sections"):
