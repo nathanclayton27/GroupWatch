@@ -83,7 +83,8 @@ Optional: `verb` (drives “watching” vs “reading”), `itemOrder`, `schedul
 (dated windows), `rules`, `notes` (footer prose), `order` (menu position),
 `forGroup` (per-group copy), `paceTiers` and `paceLabel` (which tiers the
 finish date covers), `weightUnit`, `itemTiers`; per-section `intro`, `links`
-and `open`; per-item `note`, `star`, `opt`, `url`, `w` (how long it takes —
+and `open` (per-section links render inline up to two, then collapse into a
+dropdown); per-item `note`, `star`, `opt`, `url`, `w` (how long it takes —
 the bars are sized by it) and `tier`. Full reference in
 [HOW-IT-WORKS.md](HOW-IT-WORKS.md).
 
