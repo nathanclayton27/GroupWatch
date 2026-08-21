@@ -27,9 +27,10 @@ SECTIONS = [
     {
         "id": "prologue", "tier": 1, "title": "Prologue",
         "sub": "1962 · where it starts",
-        # without this a newcomer lands on Lee & Ditko, because the fallback
-        # opens the first section carrying series links and this one has none
+        # every section carries a series link now, so the fallback would open
+        # whichever comes first; say outright that it should be this one
         "open": True,
+        "links": [{"label": "The series", "url": S_V1}],
         "items": [item("af15", "Amazing Fantasy", "#15", "Eleven pages.", 2)],
     },
     {
@@ -50,6 +51,7 @@ SECTIONS = [
         "id": "romita", "tier": 1, "title": "Lee & Romita Sr.", "sub": "#39–102 · 1966–71",
         "intro": "The art turns glossy, Peter goes to college, and the soap "
                  "opera takes over the book.",
+        "links": [{"label": "The series", "url": S_V1}],
         "items": rng(39, 102) + [
             item("ann-5", "Amazing Spider-Man Annual", "#5", "Peter's parents", 1,
                  url=S_ANN),
@@ -62,6 +64,7 @@ SECTIONS = [
         "intro": "The tonal hinge of the whole character. Read this stretch "
                  "straight through — it's the densest run of consequence in the "
                  "title's history.",
+        "links": [{"label": "The series", "url": S_V1}],
         "items": rng(103, 149),
     },
     {
@@ -70,6 +73,7 @@ SECTIONS = [
         "intro": "Quieter and more procedural. This is the stretch where the "
                  "unannotated issues outnumber the annotated ones by the widest "
                  "margin — that's the era, not an omission.",
+        "links": [{"label": "The series", "url": S_V1}],
         "items": rng(150, 200),
     },
     {
@@ -78,6 +82,7 @@ SECTIONS = [
         "intro": "Roger Stern's run, roughly #224 onward, is one of the two or "
                  "three best in the title's history: tight, character-driven, "
                  "brilliantly plotted.",
+        "links": [{"label": "The series", "url": S_V1}],
         "items": rng(201, 251),
     },
     {
@@ -111,11 +116,13 @@ SECTIONS = [
         "sub": "#301–350 · 1988–91",
         "intro": "Art-driven. Thinner storytelling than Stern, but these are the "
                  "issues that fixed how a generation pictures the character.",
+        "links": [{"label": "The series", "url": S_V1}],
         "items": rng(301, 350),
     },
     {
         "id": "carnage", "tier": 1, "title": "Carnage & Nineties Excess",
         "sub": "#351–393 · 1991–94 · plus the Maximum Carnage chapters",
+        "links": [{"label": "The series", "url": S_V1}],
         "items": rng(351, 393) + [
             item("maxcarn-1", "Maximum Carnage, chapters 1–3", "◆",
                  "Spider-Man Unlimited #1 → Web #101 → Spectacular #201, then ASM #378",
@@ -138,6 +145,7 @@ SECTIONS = [
                  "These are the ASM issues plus the Revelations bookend, which is "
                  "the recommended path and follows the plot fine. The completist "
                  "alternative is the six Complete Clone Saga Epic volumes.",
+        "links": [{"label": "The series", "url": S_V1}],
         "items": rng(394, 418) + [
             item("revelations", "“Revelations”, the other three chapters", "◆",
                  "Spectacular #240, Sensational #11 and Peter Parker: Spider-Man #75",
@@ -147,6 +155,7 @@ SECTIONS = [
     {
         "id": "endvol1", "tier": 1, "title": "The End of Volume One",
         "sub": "#419–441 · 1996–98",
+        "links": [{"label": "The series", "url": S_V1}],
         "items": rng(419, 441) + [
             item("finalchapter", "“The Final Chapter” continues", "◆",
                  "Spectacular #263 and Spider-Man #98", w=2),
@@ -164,6 +173,7 @@ SECTIONS = [
         "id": "jms", "tier": 1, "title": "J. Michael Straczynski begins",
         "sub": "vol. 2 #30–58 · 2001–03",
         "intro": "The last great sustained run before the reset.",
+        "links": [{"label": "The series", "url": S_V2}],
         "items": [v2(n) for n in range(30, 59)],
     },
     {
@@ -173,6 +183,7 @@ SECTIONS = [
                  "This list stops at #528. What comes next is the Road to Civil "
                  "War, and Spider-Man is close enough to the middle of that event "
                  "that it gets its own list.",
+        "links": [{"label": "The series", "url": S_V2}],
         "items": rng(500, 528) + [
             item("theother", "“The Other”, the chapters outside ASM", "◆",
                  "Friendly Neighborhood Spider-Man #1–4 and Marvel Knights "

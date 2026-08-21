@@ -29,6 +29,15 @@ import pathlib
 SLUG = "civil-war"
 
 S_ASM = "https://www.marvel.com/comics/series/454/the_amazing_spiderman_1999_2013"
+S_CW  = "https://www.marvel.com/comics/series/1067/civil_war_2006_-_2007"
+S_FL  = "https://www.marvel.com/comics/series/1109/civil_war_front_line_2006_2007"
+
+# Every section of the event proper points at the two series that run its whole
+# length. The tie-ins are two dozen different books and Marvel gives each an
+# arbitrary id, so those are found by title and year in Marvel Unlimited — the
+# notes say so.
+EVENT_LINKS = [{"label": "Civil War", "url": S_CW},
+               {"label": "Front Line", "url": S_FL}]
 
 
 def it(key, title, num, note="", star=0, w=1, opt=0, url=""):
@@ -61,7 +70,8 @@ SECTIONS = [
         "id": "road", "tier": 1, "title": "The Road to Civil War",
         "sub": "the six issues that set it up · 2006",
         "open": True,
-        "links": [{"label": "Amazing Spider-Man", "url": S_ASM}],
+        "links": [{"label": "Amazing Spider-Man", "url": S_ASM},
+                  {"label": "Civil War", "url": S_CW}],
         "intro": "Collected as Civil War: The Road to Civil War, minus the New "
                  "Warriors issues. Skipping the prelude and starting at Civil "
                  "War #1 works, but these are where the positions are staked out.",
@@ -86,6 +96,7 @@ SECTIONS = [
                  "characters you follow, and treat the rest as optional. The "
                  "sources agree on two exceptions worth reading whoever you "
                  "are — Front Line and the Spider-Man issues.",
+        "links": EVENT_LINKS,
         "items": [
             war(1),
             it("shehulk-8", "She-Hulk", "#8", "", opt=1),
@@ -109,6 +120,7 @@ SECTIONS = [
     {
         "id": "war34", "tier": 1, "title": "Civil War #3–4",
         "sub": "the middle, where the tie-ins are thickest",
+        "links": EVENT_LINKS,
         "items": [
             war(3),
             it("cd-30", "Cable & Deadpool", "#30", "", opt=1),
@@ -153,6 +165,7 @@ SECTIONS = [
     {
         "id": "war5", "tier": 1, "title": "Civil War #5",
         "sub": "the turn",
+        "links": EVENT_LINKS,
         "items": [
             war(5),
             it("yar-4", "Civil War: Young Avengers & Runaways", "#4", "", opt=1),
@@ -174,6 +187,7 @@ SECTIONS = [
     {
         "id": "war67", "tier": 1, "title": "Civil War #6–7",
         "sub": "the end",
+        "links": EVENT_LINKS,
         "items": [
             war(6),
             it("casualties", "Iron Man/Captain America: Casualties of War", "#1",
@@ -203,6 +217,7 @@ SECTIONS = [
         "intro": "These are the epilogue, and they are where the event's "
                  "consequences get stated rather than implied. Read them before "
                  "moving on to anything that follows.",
+        "links": [{"label": "Civil War", "url": S_CW}],
         "items": [
             it("initiative", "Civil War: The Initiative", "#1",
                "Sets up the status quo the whole line ran on next", 1),
@@ -220,6 +235,7 @@ SECTIONS = [
         "sub": "the runs that came directly out of it",
         "intro": "Not part of the event, and not a list to finish — this is "
                  "where to go if a particular thread interested you.",
+        "links": [{"label": "Civil War", "url": S_CW}],
         "items": [
             it("f-mighty", "Mighty Avengers", "#1–6", "Bendis, the licensed team",
                w=6),

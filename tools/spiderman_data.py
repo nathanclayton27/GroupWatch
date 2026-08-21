@@ -28,6 +28,12 @@ S_SUP   = "https://www.marvel.com/comics/series/17554/superior_spiderman_2013_20
 S_ULT24 = "https://www.marvel.com/comics/series/38809/ultimate_spider-man_2024_-_present"
 S_2022  = "https://www.marvel.com/comics/series/32866/the_amazing_spiderman_2022_2025"
 S_2025  = "https://www.marvel.com/comics/series/41731/the_amazing_spiderman_2025_present"
+S_2014  = "https://www.marvel.com/comics/series/17285/the_amazing_spiderman_2014_2015"
+S_2015  = "https://www.marvel.com/comics/series/20432/the_amazing_spiderman_2017_2018"
+S_2018  = "https://www.marvel.com/comics/series/24396/the_amazing_spider-man_2018_-_2022"
+S_ULT00 = "https://www.marvel.com/comics/series/466/ultimate_spider-man_(2000_-_2009)"
+S_LIFE  = "https://www.marvel.com/comics/series/26911/spiderman_life_story_2019"
+S_BLUE  = "https://www.marvel.com/comics/series/2072/spider-man_blue_2002_-_2003"
 
 # Marvel gives issues arbitrary database ids with no derivable pattern, and its
 # series pages page their back catalogue through JavaScript, so these cannot be
