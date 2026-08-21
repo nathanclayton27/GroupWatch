@@ -1,0 +1,57 @@
+{
+  "slug": "cyberpunk-edgerunners",
+  "title": "Cyberpunk: Edgerunners",
+  "kind": "anime",
+  "order": 8,
+  "year": "2022",
+  "blurb": "Season one — ten episodes across two weeks, five a week.",
+  "unit": { "one": "episode", "many": "episodes" },
+  "verb": { "base": "watch", "past": "watched", "ing": "watching" },
+  "itemOrder": "number-first",
+  "accent": "#A8B820",
+  "accentDark": "#D4E338",
+  "tiers": false,
+  "schedule": {
+    "kind": "windows",
+    "windows": [
+      { "offset": 0, "days": 7, "through": 5, "label": "Week 1" },
+      { "offset": 7, "days": 7, "through": 10, "label": "Week 2" }
+    ]
+  },
+  "rules": [
+    "Five episodes a week. The windows are for flexibility, not permission to binge.",
+    "Remember to discuss.",
+    "Finish a week early and the remaining days are yours off until the next window opens."
+  ],
+  "notes": [
+    ["Season one only, for now.", "Ten episodes, Studio Trigger, 2022. A second season is coming and will be added when it does."],
+    ["The schedule is relative.", "Two windows of a week each, five episodes per window. It starts when a group's owner sets the start date, so any group can run it whenever they like — the same shape as the Fullmetal Alchemist club schedule."],
+    "Episode titles from Wikipedia. Each is named after a song, which is the show being the show."
+  ],
+  "sections": [
+    {
+      "id": "week1",
+      "title": "Week 1",
+      "sub": "episodes 1–5",
+      "items": [
+        { "id": "edge-1", "t": "Let You Down", "n": "1" },
+        { "id": "edge-2", "t": "Like a Boy", "n": "2" },
+        { "id": "edge-3", "t": "Smooth Criminal", "n": "3" },
+        { "id": "edge-4", "t": "Lucky You", "n": "4" },
+        { "id": "edge-5", "t": "All Eyez on Me", "n": "5" }
+      ]
+    },
+    {
+      "id": "week2",
+      "title": "Week 2",
+      "sub": "episodes 6–10",
+      "items": [
+        { "id": "edge-6", "t": "Girl on Fire", "n": "6" },
+        { "id": "edge-7", "t": "Stronger", "n": "7" },
+        { "id": "edge-8", "t": "Stay", "n": "8" },
+        { "id": "edge-9", "t": "Humanity", "n": "9" },
+        { "id": "edge-10", "t": "My Moon My Man", "n": "10" }
+      ]
+    }
+  ]
+}

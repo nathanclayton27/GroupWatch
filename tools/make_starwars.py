@@ -43,8 +43,8 @@ ERAS = [
      "One film and one series that outgrew it. This is where the animation "
      "became the main event rather than a spin-off."),
     ("disney", "Disney: the sequels and the anthologies", 2015, 2018,
-     "A trilogy, two standalone films, and the games that came with the new "
-     "canon."),
+     "A trilogy and two standalone films, made to a schedule that turned out "
+     "to be faster than the story could take."),
     ("plus", "The Disney+ era", 2019, 9999,
      "Television becomes the centre of gravity, and the films slow to a stop."),
 ]
@@ -199,17 +199,16 @@ def main():
     hours = sum(e["w"] for e in entries)
     nf = sum(1 for e in entries if e["kind"] == "film")
     ns = sum(1 for e in entries if e["kind"] == "show")
-    ng = sum(1 for e in entries if e["kind"] == "game")
 
     prop = {
         "slug": SLUG,
         "title": "Star Wars",
-        "subtitle": "films, television and the Disney-era games, in release order",
-        "kind": "films, shows & games",
+        "subtitle": "every film and television season, in release order",
+        "kind": "films & shows",
         "order": 21,
         "year": "1977–",
-        "blurb": "%d films, %d television seasons and %d games in the order they "
-                 "came out — about %d hours of screen time." % (nf, ns, ng, round(hours)),
+        "blurb": "%d films and %d television seasons in the order they came out "
+                 "— about %d hours." % (nf, ns, round(hours)),
         "unit": {"one": "entry", "many": "entries"},
         "verb": {"base": "watch", "past": "watched", "ing": "watching"},
         "itemOrder": "number-first",
@@ -222,7 +221,7 @@ def main():
             "values": ["Films", "Television"]
         },
         "paceTiers": [1, 2],
-        "paceLabel": "the games, the specials and the anthologies",
+        "paceLabel": "the specials and the anthologies",
         "notes": [
             ["Tiers are on each row, not each section.",
              "These sections are eras, and an era holds all three at once. "
@@ -231,9 +230,9 @@ def main():
              "each other. 2 is the rest of the main line: the "
              "other theatrical films and the series carrying real plot. 3 is "
              "everything you can take or leave without changing what 1 means — "
-             "the Holiday Special, the Ewok films, the eighties cartoons, the "
-             "anthologies and the games. A finish date covers 1 and 2; the "
-             "checkbox under the bar adds the rest."],
+             "the Holiday Special, the Ewok films, the eighties cartoons and "
+             "the anthologies. A finish date covers 1 and 2; the checkbox "
+             "under the bar adds the rest."],
             ["Release order, not chronological.", "This is the order it came out, "
              "which is the order it was written to be met in. Every in-universe "
              "ordering spoils the one reveal the films are built around."],
@@ -244,25 +243,15 @@ def main():
              "the years the show ran rather than parked at its first, so The Clone "
              "Wars sits across the decade it actually occupied."
              % (EP_MINUTES["animated"], EP_MINUTES["live"])],
-            ["Which games are here.", "The ones made under Disney, plus a long list "
-             "of the older ones asked for by name — the Super Star Wars trilogy, the "
-             "flight sims, Dark Forces and Jedi Knight, Rogue Squadron, the "
-             "Battlefronts, Knights of the Old Republic, and the Lego games. Anything "
-             "from before 25 April 2014 is marked Legends, because that is the day "
-             "the Expanded Universe stopped being canon; the 2012 takeover is not the "
-             "line, so a 2013 game is no more canon than a 1998 one. Left out: things "
-             "that never shipped, browser and Roblox toys, board games, crossovers "
-             "into other studios' games, and five aimed at small children — Galaxy of "
-             "Heroes is mobile but is not one of those, and stays."],
             ["Turning parts of it off.",
-             "The chips at the top drop a whole category. Films, television and "
-             "games each toggle independently, so “everything except the "
-             "games” is one click rather than a decision about every row. "
-             "It hides rows and nothing else — ticks are untouched, and "
-             "the strip still shows the whole list, because a mark's position "
-             "is what a tick means."],
-            ["What is not here.", "The games, which are their own page — sixty-eight "
-             "of them buried whatever they sat next to. And Young Jedi Adventures, "
+             "The chips at the top drop a whole category, so “just the films” "
+             "is one click rather than a decision about every row. It hides "
+             "rows and redraws the bar to match; it never unticks anything."],
+            ["What is not here.", "The games, which are their own page — "
+             "sixty-eight of them buried whatever they sat beside, and they are a "
+             "parallel thing rather than a step in the same sequence. Star Wars "
+             "Games is in the switcher, with its own Legends and canon filters. "
+             "And Young Jedi Adventures, "
              "which is a Disney Junior preschool show rather than something anyone "
              "else is working through. Droids and Ewoks stay: they are Saturday "
              "morning cartoons for children, which is not the same thing, and they "
@@ -279,8 +268,8 @@ def main():
         f.write(json.dumps(prop, indent=2, ensure_ascii=False) + "\n")
 
     print("wrote %s.json" % SLUG)
-    print("  %d sections, %d entries (%d films, %d seasons, %d games), %d hours"
-          % (len(sections), len(ids), nf, ns, ng, round(hours)))
+    print("  %d sections, %d entries (%d films, %d seasons), %d hours"
+          % (len(sections), len(ids), nf, ns, round(hours)))
     for s in sections:
         print("   %-38s %3d  %s" % (s["title"][:38], len(s["items"]), s["sub"][:48]))
 

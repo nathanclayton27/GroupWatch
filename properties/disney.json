@@ -1,0 +1,6843 @@
+{
+  "slug": "disney",
+  "title": "Disney",
+  "subtitle": "the studio's own films, in release order",
+  "kind": "films",
+  "order": 23,
+  "year": "1937–",
+  "blurb": "654 films from Snow White on — 465 theatrical, 163 television, 26 direct-to-video — about 911 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#1F4FA8",
+  "accentDark": "#6F9BE8",
+  "tiers": true,
+  "itemTiers": true,
+  "paceTiers": [
+    1
+  ],
+  "paceLabel": "the TV movies and direct-to-video sequels",
+  "filter": {
+    "key": "channel",
+    "label": "Show",
+    "mode": "exclude",
+    "values": [
+      "Theatrical",
+      "Television",
+      "Direct-to-video"
+    ]
+  },
+  "notes": [
+    [
+      "Tiers are release channels, not rankings.",
+      "1 is theatrical, 2 is television, 3 is direct-to-video. A finish date paces you through the theatrical line — 465 films — and the checkbox under the bar adds the other two. The chips at the top hide a channel entirely."
+    ],
+    [
+      "No acquired properties.",
+      "No Star Wars, no Marvel, no Pixar, no 20th Century, no Muppets. Those are their own lists or their own studios; this is what Disney itself made — Walt Disney Pictures, Disney Channel and Disneytoon."
+    ],
+    [
+      "Where a film sits on two lists, the studio that made it wins.",
+      "Several direct-to-video sequels had cinema releases outside North America and appear on the theatrical list because of it. Bambi II and Tarzan II are direct-to-video here because Disneytoon says so, and it made them."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata, for 578 of the 654. The 76 without one — mostly sixties and seventies live-action — weigh nothing rather than a guess."
+    ],
+    "Film lists from Wikipedia: Walt Disney Pictures films, Disney Channel original films, and Disneytoon Studios productions."
+  ],
+  "sections": [
+    {
+      "id": "walt",
+      "title": "Walt's era",
+      "sub": "1937–1966 · 81 theatrical · 121 hours",
+      "intro": "Snow White to The Jungle Book — the films made while Walt Disney was alive, which is the canon the studio still measures itself against.",
+      "items": [
+        {
+          "id": "dis-1937-snow-white-and-the-seven-dwarfs",
+          "t": "Snow White and the Seven Dwarfs",
+          "n": "1937",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1940-pinocchio",
+          "t": "Pinocchio",
+          "n": "1940",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1940-fantasia",
+          "t": "Fantasia",
+          "n": "1940",
+          "w": 2.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1941-the-reluctant-dragon",
+          "t": "The Reluctant Dragon",
+          "n": "1941",
+          "w": 1.2,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1941-dumbo",
+          "t": "Dumbo",
+          "n": "1941",
+          "w": 1.07,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1942-bambi",
+          "t": "Bambi",
+          "n": "1942",
+          "w": 1.15,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1943-saludos-amigos",
+          "t": "Saludos Amigos",
+          "n": "1943",
+          "w": 0.72,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1943-victory-through-air-power",
+          "t": "Victory Through Air Power",
+          "n": "1943",
+          "w": 1.08,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1945-the-three-caballeros",
+          "t": "The Three Caballeros",
+          "n": "1945",
+          "w": 1.17,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1946-make-mine-music",
+          "t": "Make Mine Music",
+          "n": "1946",
+          "w": 1.23,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1946-song-of-the-south",
+          "t": "Song of the South",
+          "n": "1946",
+          "w": 1.57,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1947-fun-and-fancy-free",
+          "t": "Fun and Fancy Free",
+          "n": "1947",
+          "w": 1.22,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1948-melody-time",
+          "t": "Melody Time",
+          "n": "1948",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1948-so-dear-to-my-heart",
+          "t": "So Dear to My Heart",
+          "n": "1948",
+          "w": 1.4,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1949-the-adventures-of-ichabod-and-mr-toad",
+          "t": "The Adventures of Ichabod and Mr. Toad",
+          "n": "1949",
+          "w": 1.13,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1950-cinderella",
+          "t": "Cinderella",
+          "n": "1950",
+          "w": 1.23,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1950-treasure-island",
+          "t": "Treasure Island",
+          "n": "1950",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1951-alice-in-wonderland",
+          "t": "Alice in Wonderland",
+          "n": "1951",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1952-the-story-of-robin-hood",
+          "t": "The Story of Robin Hood",
+          "n": "1952",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1953-peter-pan",
+          "t": "Peter Pan",
+          "n": "1953",
+          "w": 1.27,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1953-the-sword-and-the-rose",
+          "t": "The Sword and the Rose",
+          "n": "1953",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1953-the-living-desert",
+          "t": "The Living Desert",
+          "n": "1953",
+          "w": 1.15,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1954-rob-roy-the-highland-rogue",
+          "t": "Rob Roy: The Highland Rogue",
+          "n": "1954",
+          "w": 1.42,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1954-the-vanishing-prairie",
+          "t": "The Vanishing Prairie",
+          "n": "1954",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1954-20-000-leagues-under-the-sea",
+          "t": "20,000 Leagues Under the Sea",
+          "n": "1954",
+          "w": 2.12,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1955-davy-crockett-king-of-the-wild-frontier",
+          "t": "Davy Crockett: King of the Wild Frontier",
+          "n": "1955",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1955-lady-and-the-tramp",
+          "t": "Lady and the Tramp",
+          "n": "1955",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1955-the-african-lion",
+          "t": "The African Lion",
+          "n": "1955",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1955-the-littlest-outlaw",
+          "t": "The Littlest Outlaw",
+          "n": "1955",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1956-the-great-locomotive-chase",
+          "t": "The Great Locomotive Chase",
+          "n": "1956",
+          "w": 1.42,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1956-davy-crockett-and-the-river-pirates",
+          "t": "Davy Crockett and the River Pirates",
+          "n": "1956",
+          "w": 1.35,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1956-secrets-of-life",
+          "t": "Secrets of Life",
+          "n": "1956",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1956-westward-ho-the-wagons",
+          "t": "Westward Ho the Wagons!",
+          "n": "1956",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1957-johnny-tremain",
+          "t": "Johnny Tremain",
+          "n": "1957",
+          "w": 1.33,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1957-perri",
+          "t": "Perri",
+          "n": "1957",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1957-old-yeller",
+          "t": "Old Yeller",
+          "n": "1957",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1958-the-light-in-the-forest",
+          "t": "The Light in the Forest",
+          "n": "1958",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1958-white-wilderness",
+          "t": "White Wilderness",
+          "n": "1958",
+          "w": 1.22,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1958-tonka",
+          "t": "Tonka",
+          "n": "1958",
+          "w": 1.62,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1959-sleeping-beauty",
+          "t": "Sleeping Beauty",
+          "n": "1959",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1959-the-shaggy-dog",
+          "t": "The Shaggy Dog",
+          "n": "1959",
+          "w": 1.73,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1959-darby-o-gill-and-the-little-people",
+          "t": "Darby O'Gill and the Little People",
+          "n": "1959",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1959-third-man-on-the-mountain",
+          "t": "Third Man on the Mountain",
+          "n": "1959",
+          "w": 1.75,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1960-toby-tyler-or-10-weeks-with-a-circus",
+          "t": "Toby Tyler or 10 Weeks with a Circus",
+          "n": "1960",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1960-kidnapped",
+          "t": "Kidnapped",
+          "n": "1960",
+          "w": 1.62,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1960-pollyanna",
+          "t": "Pollyanna",
+          "n": "1960",
+          "w": 2.23,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1960-the-sign-of-zorro",
+          "t": "The Sign of Zorro",
+          "n": "1960",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1960-jungle-cat",
+          "t": "Jungle Cat",
+          "n": "1960",
+          "w": 1.17,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1960-ten-who-dared",
+          "t": "Ten Who Dared",
+          "n": "1960",
+          "w": 1.53,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1960-swiss-family-robinson",
+          "t": "Swiss Family Robinson",
+          "n": "1960",
+          "w": 2.13,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1961-one-hundred-and-one-dalmatians",
+          "t": "One Hundred and One Dalmatians",
+          "n": "1961",
+          "w": 1.32,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1961-the-absent-minded-professor",
+          "t": "The Absent-Minded Professor",
+          "n": "1961",
+          "w": 1.62,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1961-the-parent-trap",
+          "t": "The Parent Trap",
+          "n": "1961",
+          "w": 2.07,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1961-nikki-wild-dog-of-the-north",
+          "t": "Nikki: Wild Dog of the North",
+          "n": "1961",
+          "w": 1.23,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1961-greyfriars-bobby",
+          "t": "Greyfriars Bobby",
+          "n": "1961",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1961-babes-in-toyland",
+          "t": "Babes in Toyland",
+          "n": "1961",
+          "w": 1.75,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1962-moon-pilot",
+          "t": "Moon Pilot",
+          "n": "1962",
+          "w": 1.63,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1962-bon-voyage",
+          "t": "Bon Voyage!",
+          "n": "1962",
+          "w": 2.17,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1962-big-red",
+          "t": "Big Red",
+          "n": "1962",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1962-almost-angels",
+          "t": "Almost Angels",
+          "n": "1962",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1962-the-legend-of-lobo",
+          "t": "The Legend of Lobo",
+          "n": "1962",
+          "w": 1.12,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1962-in-search-of-the-castaways",
+          "t": "In Search of the Castaways",
+          "n": "1962",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1963-son-of-flubber",
+          "t": "Son of Flubber",
+          "n": "1963",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1963-miracle-of-the-white-stallions",
+          "t": "Miracle of the White Stallions",
+          "n": "1963",
+          "w": 1.95,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1963-savage-sam",
+          "t": "Savage Sam",
+          "n": "1963",
+          "w": 1.72,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1963-summer-magic",
+          "t": "Summer Magic",
+          "n": "1963",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1963-the-incredible-journey",
+          "t": "The Incredible Journey",
+          "n": "1963",
+          "w": 1.33,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1963-the-sword-in-the-stone",
+          "t": "The Sword in the Stone",
+          "n": "1963",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1964-a-tiger-walks",
+          "t": "A Tiger Walks",
+          "n": "1964",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1964-the-misadventures-of-merlin-jones",
+          "t": "The Misadventures of Merlin Jones",
+          "n": "1964",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1964-the-three-lives-of-thomasina",
+          "t": "The Three Lives of Thomasina",
+          "n": "1964",
+          "w": 1.62,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1964-the-moon-spinners",
+          "t": "The Moon-Spinners",
+          "n": "1964",
+          "w": 1.97,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1964-mary-poppins",
+          "t": "Mary Poppins",
+          "n": "1964",
+          "w": 2.33,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1964-those-calloways",
+          "t": "Those Calloways",
+          "n": "1964",
+          "w": 2.18,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1964-emil-and-the-detectives",
+          "t": "Emil and the Detectives",
+          "n": "1964",
+          "w": 1.65,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1965-the-monkey-s-uncle",
+          "t": "The Monkey's Uncle",
+          "n": "1965",
+          "w": 1.45,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1965-that-darn-cat",
+          "t": "That Darn Cat!",
+          "n": "1965",
+          "w": 1.93,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1966-the-ugly-dachshund",
+          "t": "The Ugly Dachshund",
+          "n": "1966",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1966-lt-robin-crusoe-u-s-n",
+          "t": "Lt. Robin Crusoe, U.S.N.",
+          "n": "1966",
+          "w": 1.83,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1966-the-fighting-prince-of-donegal",
+          "t": "The Fighting Prince of Donegal",
+          "n": "1966",
+          "w": 1.87,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1966-follow-me-boys",
+          "t": "Follow Me, Boys!",
+          "n": "1966",
+          "w": 2.18,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "after",
+      "title": "After Walt",
+      "sub": "1967–1988 · 81 theatrical, 20 TV · 138 hours",
+      "intro": "The studio wobbles for twenty years: live-action comedies, the scruffy seventies animation, and the beginnings of the Disney Channel.",
+      "items": [
+        {
+          "id": "dis-1967-monkeys-go-home",
+          "t": "Monkeys, Go Home!",
+          "n": "1967",
+          "w": 1.68,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1967-the-adventures-of-bullwhip-griffin",
+          "t": "The Adventures of Bullwhip Griffin",
+          "n": "1967",
+          "w": 1.83,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1967-the-gnome-mobile",
+          "t": "The Gnome-Mobile",
+          "n": "1967",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1967-the-jungle-book",
+          "t": "The Jungle Book",
+          "n": "1967",
+          "w": 1.3,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1967-the-happiest-millionaire",
+          "t": "The Happiest Millionaire",
+          "n": "1967",
+          "w": 2.73,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1968-blackbeard-s-ghost",
+          "t": "Blackbeard's Ghost",
+          "n": "1968",
+          "w": 1.72,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1968-the-one-and-only-genuine-original-family-band",
+          "t": "The One and Only, Genuine, Original Family Band",
+          "n": "1968",
+          "w": 1.83,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1968-never-a-dull-moment",
+          "t": "Never a Dull Moment",
+          "n": "1968",
+          "w": 1.68,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1968-the-horse-in-the-gray-flannel-suit",
+          "t": "The Horse in the Gray Flannel Suit",
+          "n": "1968",
+          "w": 1.93,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1969-the-love-bug",
+          "t": "The Love Bug",
+          "n": "1969",
+          "w": 1.78,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1969-smith",
+          "t": "Smith!",
+          "n": "1969",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1969-rascal",
+          "t": "Rascal",
+          "n": "1969",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1969-the-computer-wore-tennis-shoes",
+          "t": "The Computer Wore Tennis Shoes",
+          "n": "1969",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1970-king-of-the-grizzlies",
+          "t": "King of the Grizzlies",
+          "n": "1970",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1970-the-boatniks",
+          "t": "The Boatniks",
+          "n": "1970",
+          "w": 1.65,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1970-the-wild-country",
+          "t": "The Wild Country",
+          "n": "1970",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1970-the-aristocats",
+          "t": "The Aristocats",
+          "n": "1970",
+          "w": 1.3,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1971-the-barefoot-executive",
+          "t": "The Barefoot Executive",
+          "n": "1971",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1971-scandalous-john",
+          "t": "Scandalous John",
+          "n": "1971",
+          "w": 1.88,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1971-the-million-dollar-duck",
+          "t": "The Million Dollar Duck",
+          "n": "1971",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1971-bedknobs-and-broomsticks",
+          "t": "Bedknobs and Broomsticks",
+          "n": "1971",
+          "w": 1.98,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1972-the-biscuit-eater",
+          "t": "The Biscuit Eater",
+          "n": "1972",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1972-now-you-see-him-now-you-don-t",
+          "t": "Now You See Him, Now You Don't",
+          "n": "1972",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1972-napoleon-and-samantha",
+          "t": "Napoleon and Samantha",
+          "n": "1972",
+          "w": 1.53,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1972-run-cougar-run",
+          "t": "Run, Cougar, Run",
+          "n": "1972",
+          "w": 1.45,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1972-snowball-express",
+          "t": "Snowball Express",
+          "n": "1972",
+          "w": 1.65,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1973-the-world-s-greatest-athlete",
+          "t": "The World's Greatest Athlete",
+          "n": "1973",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1973-charley-and-the-angel",
+          "t": "Charley and the Angel",
+          "n": "1973",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1973-one-little-indian",
+          "t": "One Little Indian",
+          "n": "1973",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1973-robin-hood",
+          "t": "Robin Hood",
+          "n": "1973",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1973-superdad",
+          "t": "Superdad",
+          "n": "1973",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1974-herbie-rides-again",
+          "t": "Herbie Rides Again",
+          "n": "1974",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1974-the-bears-and-i",
+          "t": "The Bears and I",
+          "n": "1974",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1974-the-castaway-cowboy",
+          "t": "The Castaway Cowboy",
+          "n": "1974",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1974-the-island-at-the-top-of-the-world",
+          "t": "The Island at the Top of the World",
+          "n": "1974",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1975-the-strongest-man-in-the-world",
+          "t": "The Strongest Man in the World",
+          "n": "1975",
+          "w": 1.53,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1975-escape-to-witch-mountain",
+          "t": "Escape to Witch Mountain",
+          "n": "1975",
+          "w": 1.62,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1975-the-apple-dumpling-gang",
+          "t": "The Apple Dumpling Gang",
+          "n": "1975",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1975-one-of-our-dinosaurs-is-missing",
+          "t": "One of Our Dinosaurs Is Missing",
+          "n": "1975",
+          "w": 1.57,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1975-the-best-of-walt-disney-s-true-life-adventures",
+          "t": "The Best of Walt Disney's True-Life Adventures",
+          "n": "1975",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1975-ride-a-wild-pony",
+          "t": "Ride a Wild Pony",
+          "n": "1975",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1976-no-deposit-no-return",
+          "t": "No Deposit, No Return",
+          "n": "1976",
+          "w": 1.87,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1976-treasure-of-matecumbe",
+          "t": "Treasure of Matecumbe",
+          "n": "1976",
+          "w": 1.95,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1976-gus",
+          "t": "Gus",
+          "n": "1976",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1976-the-shaggy-d-a",
+          "t": "The Shaggy D.A.",
+          "n": "1976",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1977-the-littlest-horse-thieves",
+          "t": "The Littlest Horse Thieves",
+          "n": "1977",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1977-the-rescuers",
+          "t": "The Rescuers",
+          "n": "1977",
+          "w": 1.27,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1977-herbie-goes-to-monte-carlo",
+          "t": "Herbie Goes to Monte Carlo",
+          "n": "1977",
+          "w": 1.75,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1977-pete-s-dragon",
+          "t": "Pete's Dragon",
+          "n": "1977",
+          "w": 2.23,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1977-candleshoe",
+          "t": "Candleshoe",
+          "n": "1977",
+          "w": 1.68,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1978-return-from-witch-mountain",
+          "t": "Return from Witch Mountain",
+          "n": "1978",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1978-the-cat-from-outer-space",
+          "t": "The Cat from Outer Space",
+          "n": "1978",
+          "w": 1.73,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1978-hot-lead-and-cold-feet",
+          "t": "Hot Lead and Cold Feet",
+          "n": "1978",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1979-the-north-avenue-irregulars",
+          "t": "The North Avenue Irregulars",
+          "n": "1979",
+          "w": 1.83,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1979-the-apple-dumpling-gang-rides-again",
+          "t": "The Apple Dumpling Gang Rides Again",
+          "n": "1979",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1979-unidentified-flying-oddball",
+          "t": "Unidentified Flying Oddball",
+          "n": "1979",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1979-the-black-hole",
+          "t": "The Black Hole",
+          "n": "1979",
+          "w": 1.63,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1980-midnight-madness",
+          "t": "Midnight Madness",
+          "n": "1980",
+          "w": 1.87,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1980-the-watcher-in-the-woods",
+          "t": "The Watcher in the Woods",
+          "n": "1980",
+          "w": 1.33,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1980-herbie-goes-bananas",
+          "t": "Herbie Goes Bananas",
+          "n": "1980",
+          "w": 1.53,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1980-popeye",
+          "t": "Popeye",
+          "n": "1980",
+          "w": 1.9,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1981-the-devil-and-max-devlin",
+          "t": "The Devil and Max Devlin",
+          "n": "1981",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1981-amy",
+          "t": "Amy",
+          "n": "1981",
+          "w": 1.65,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1981-dragonslayer",
+          "t": "Dragonslayer",
+          "n": "1981",
+          "w": 1.8,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1981-the-fox-and-the-hound",
+          "t": "The Fox and the Hound",
+          "n": "1981",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1981-condorman",
+          "t": "Condorman",
+          "n": "1981",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1982-night-crossing",
+          "t": "Night Crossing",
+          "n": "1982",
+          "w": 1.78,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1982-tron",
+          "t": "Tron",
+          "n": "1982",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1982-tex",
+          "t": "Tex",
+          "n": "1982",
+          "w": 1.72,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1983-trenchcoat",
+          "t": "Trenchcoat",
+          "n": "1983",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1983-something-wicked-this-way-comes",
+          "t": "Something Wicked This Way Comes",
+          "n": "1983",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1983-never-cry-wolf",
+          "t": "Never Cry Wolf",
+          "n": "1983",
+          "w": 1.75,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1983-tiger-town",
+          "t": "Tiger Town",
+          "n": "1983",
+          "w": 1.75,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1984-gone-are-the-dayes",
+          "t": "Gone Are the Dayes",
+          "n": "1984",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1984-love-leads-the-way",
+          "t": "Love Leads the Way",
+          "n": "1984",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1985-black-arrow",
+          "t": "Black Arrow",
+          "n": "1985",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1985-lots-of-luck",
+          "t": "Lots of Luck",
+          "n": "1985",
+          "w": 1.47,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1985-the-undergrads",
+          "t": "The Undergrads",
+          "n": "1985",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1985-return-to-oz",
+          "t": "Return to Oz",
+          "n": "1985",
+          "w": 1.88,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1985-the-black-cauldron",
+          "t": "The Black Cauldron",
+          "n": "1985",
+          "w": 1.28,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1985-the-journey-of-natty-gann",
+          "t": "The Journey of Natty Gann",
+          "n": "1985",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1985-the-blue-yonder",
+          "t": "The Blue Yonder",
+          "n": "1985",
+          "w": 1.43,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1985-one-magic-christmas",
+          "t": "One Magic Christmas",
+          "n": "1985",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1986-the-great-mouse-detective",
+          "t": "The Great Mouse Detective",
+          "n": "1986",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1986-the-parent-trap-ii",
+          "t": "The Parent Trap II",
+          "n": "1986",
+          "w": 1.35,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1986-flight-of-the-navigator",
+          "t": "Flight of the Navigator",
+          "n": "1986",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1986-spot-marks-the-x",
+          "t": "Spot Marks the X",
+          "n": "1986",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1986-down-the-long-hills",
+          "t": "Down the Long Hills",
+          "n": "1986",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1987-strange-companions",
+          "t": "Strange Companions",
+          "n": "1987",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1987-anne-of-avonlea-the-continuing-story-of-anne-of-green-gables",
+          "t": "Anne of Avonlea: The Continuing Story of Anne of Green Gables",
+          "n": "1987",
+          "w": 3.83,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1987-benji-the-hunted",
+          "t": "Benji the Hunted",
+          "n": "1987",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1987-not-quite-human",
+          "t": "Not Quite Human",
+          "n": "1987",
+          "w": 1.62,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1987-bushfire-moon",
+          "t": "Bushfire Moon",
+          "n": "1987",
+          "w": 1.63,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1988-save-the-dog",
+          "t": "Save the Dog",
+          "n": "1988",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1988-return-to-snowy-river",
+          "t": "Return to Snowy River",
+          "n": "1988",
+          "w": 1.83,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1988-the-night-train-to-kathmandu",
+          "t": "The Night Train to Kathmandu",
+          "n": "1988",
+          "w": 1.7,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1988-ollie-hopnoodle-s-haven-of-bliss",
+          "t": "Ollie Hopnoodle's Haven of Bliss",
+          "n": "1988",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1988-a-friendship-in-vienna",
+          "t": "A Friendship in Vienna",
+          "n": "1988",
+          "w": 1.67,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1988-good-old-boy",
+          "t": "Good Old Boy",
+          "n": "1988",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1988-oliver-company",
+          "t": "Oliver & Company",
+          "n": "1988",
+          "w": 1.2,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1988-goodbye-miss-4th-of-july",
+          "t": "Goodbye, Miss 4th of July",
+          "n": "1988",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        }
+      ]
+    },
+    {
+      "id": "renaissance",
+      "title": "The Renaissance",
+      "sub": "1989–1999 · 67 theatrical, 36 TV, 7 direct-to-video · 144 hours",
+      "intro": "The Little Mermaid through Tarzan, and alongside it the first wave of direct-to-video sequels and Disney Channel movies.",
+      "items": [
+        {
+          "id": "dis-1989-honey-i-shrunk-the-kids",
+          "t": "Honey, I Shrunk the Kids",
+          "n": "1989",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1989-cheetah",
+          "t": "Cheetah",
+          "n": "1989",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1989-not-quite-human-2",
+          "t": "Not Quite Human 2",
+          "n": "1989",
+          "w": 1.52,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1989-the-little-mermaid",
+          "t": "The Little Mermaid",
+          "n": "1989",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1990-lantern-hill",
+          "t": "Lantern Hill",
+          "n": "1990",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1990-chips-the-war-dog",
+          "t": "Chips, the War Dog",
+          "n": "1990",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1990-mother-goose-rock-n-rhyme",
+          "t": "Mother Goose Rock 'n' Rhyme",
+          "n": "1990",
+          "w": 1.6,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1990-back-home",
+          "t": "Back Home",
+          "n": "1990",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1990-ducktales-the-movie-treasure-of-the-lost-lamp",
+          "t": "DuckTales the Movie: Treasure of the Lost Lamp",
+          "n": "1990",
+          "w": 1.23,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1990-the-little-kidnappers",
+          "t": "The Little Kidnappers",
+          "n": "1990",
+          "w": 1.67,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1990-back-to-hannibal-the-return-of-tom-sawyer-and-huckleberry-finn",
+          "t": "Back to Hannibal: The Return of Tom Sawyer and Huckleberry Finn",
+          "n": "1990",
+          "w": 1.47,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1990-the-rescuers-down-under",
+          "t": "The Rescuers Down Under",
+          "n": "1990",
+          "w": 1.28,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1991-white-fang",
+          "t": "White Fang",
+          "n": "1991",
+          "w": 1.73,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1991-bejewelled",
+          "t": "Bejewelled",
+          "n": "1991",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1991-shipwrecked",
+          "t": "Shipwrecked",
+          "n": "1991",
+          "w": 1.53,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1991-perfect-harmony",
+          "t": "Perfect Harmony",
+          "n": "1991",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1991-wild-hearts-can-t-be-broken",
+          "t": "Wild Hearts Can't Be Broken",
+          "n": "1991",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1991-the-rocketeer",
+          "t": "The Rocketeer",
+          "n": "1991",
+          "w": 1.8,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1991-beauty-and-the-beast",
+          "t": "Beauty and the Beast",
+          "n": "1991",
+          "w": 1.4,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1991-mark-twain-and-me",
+          "t": "Mark Twain and Me",
+          "n": "1991",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1992-newsies",
+          "t": "Newsies",
+          "n": "1992",
+          "w": 2.02,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1992-still-not-quite-human",
+          "t": "Still Not Quite Human",
+          "n": "1992",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1992-the-mighty-ducks",
+          "t": "The Mighty Ducks",
+          "n": "1992",
+          "w": 1.72,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1992-aladdin",
+          "t": "Aladdin",
+          "n": "1992",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1993-the-ernest-green-story",
+          "t": "The Ernest Green Story",
+          "n": "1993",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1993-homeward-bound-the-incredible-journey",
+          "t": "Homeward Bound: The Incredible Journey",
+          "n": "1993",
+          "w": 1.4,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1993-spies",
+          "t": "Spies",
+          "n": "1993",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1993-a-far-off-place",
+          "t": "A Far Off Place",
+          "n": "1993",
+          "w": 1.78,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1993-the-adventures-of-huck-finn",
+          "t": "The Adventures of Huck Finn",
+          "n": "1993",
+          "w": 1.8,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1993-hocus-pocus",
+          "t": "Hocus Pocus",
+          "n": "1993",
+          "w": 1.53,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1993-heidi",
+          "t": "Heidi",
+          "n": "1993",
+          "w": 3.22,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1993-cool-runnings",
+          "t": "Cool Runnings",
+          "n": "1993",
+          "w": 1.63,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1993-the-three-musketeers",
+          "t": "The Three Musketeers",
+          "n": "1993",
+          "w": 1.75,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1994-iron-will",
+          "t": "Iron Will",
+          "n": "1994",
+          "w": 1.73,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1994-blank-check",
+          "t": "Blank Check",
+          "n": "1994",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1994-d2-the-mighty-ducks",
+          "t": "D2: The Mighty Ducks",
+          "n": "1994",
+          "w": 1.78,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1994-white-fang-2-myth-of-the-white-wolf",
+          "t": "White Fang 2: Myth of the White Wolf",
+          "n": "1994",
+          "w": 1.77,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1994-on-promised-land",
+          "t": "On Promised Land",
+          "n": "1994",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1994-the-return-of-jafar",
+          "t": "The Return of Jafar",
+          "n": "1994",
+          "w": 1.1,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-1994-the-lion-king",
+          "t": "The Lion King",
+          "n": "1994",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1994-angels-in-the-outfield",
+          "t": "Angels in the Outfield",
+          "n": "1994",
+          "w": 1.72,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1994-the-whipping-boy",
+          "t": "The Whipping Boy",
+          "n": "1994",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1994-squanto-a-warrior-s-tale",
+          "t": "Squanto: A Warrior's Tale",
+          "n": "1994",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1994-the-santa-clause",
+          "t": "The Santa Clause",
+          "n": "1994",
+          "w": 1.62,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1994-rudyard-kipling-s-the-jungle-book",
+          "t": "Rudyard Kipling's The Jungle Book",
+          "n": "1994",
+          "w": 1.85,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1995-heavyweights",
+          "t": "Heavyweights",
+          "n": "1995",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1995-man-of-the-house",
+          "t": "Man of the House",
+          "n": "1995",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1995-the-old-curiosity-shop",
+          "t": "The Old Curiosity Shop",
+          "n": "1995",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1995-tall-tale",
+          "t": "Tall Tale",
+          "n": "1995",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1995-a-goofy-movie",
+          "t": "A Goofy Movie",
+          "n": "1995",
+          "w": 1.3,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1995-pocahontas",
+          "t": "Pocahontas",
+          "n": "1995",
+          "w": 1.35,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1995-operation-dumbo-drop",
+          "t": "Operation Dumbo Drop",
+          "n": "1995",
+          "w": 1.8,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1995-a-kid-in-king-arthur-s-court",
+          "t": "A Kid in King Arthur's Court",
+          "n": "1995",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1995-the-four-diamonds",
+          "t": "The Four Diamonds",
+          "n": "1995",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1995-the-big-green",
+          "t": "The Big Green",
+          "n": "1995",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1995-frank-and-ollie",
+          "t": "Frank and Ollie",
+          "n": "1995",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1995-tom-and-huck",
+          "t": "Tom and Huck",
+          "n": "1995",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1996-homeward-bound-ii-lost-in-san-francisco",
+          "t": "Homeward Bound II: Lost in San Francisco",
+          "n": "1996",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1996-the-little-riders",
+          "t": "The Little Riders",
+          "n": "1996",
+          "w": 1.53,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1996-james-and-the-giant-peach",
+          "t": "James and the Giant Peach",
+          "n": "1996",
+          "w": 1.32,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1996-nightjohn",
+          "t": "Nightjohn",
+          "n": "1996",
+          "w": 1.72,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1996-the-hunchback-of-notre-dame",
+          "t": "The Hunchback of Notre Dame",
+          "n": "1996",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1996-aladdin-and-the-king-of-thieves",
+          "t": "Aladdin and the King of Thieves",
+          "n": "1996",
+          "w": 1.18,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-1996-first-kid",
+          "t": "First Kid",
+          "n": "1996",
+          "w": 1.62,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1996-susie-q",
+          "t": "Susie Q",
+          "n": "1996",
+          "w": 2.17,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1996-d3-the-mighty-ducks",
+          "t": "D3: The Mighty Ducks",
+          "n": "1996",
+          "w": 1.73,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1996-wish-upon-a-star",
+          "t": "Wish Upon a Star",
+          "n": "1996",
+          "w": 1.43,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1996-101-dalmatians",
+          "t": "101 Dalmatians",
+          "n": "1996",
+          "w": 1.72,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1997-that-darn-cat",
+          "t": "That Darn Cat",
+          "n": "1997",
+          "w": 1.43,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1997-the-paper-brigade",
+          "t": "The Paper Brigade",
+          "n": "1997",
+          "w": 1.6,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1997-jungle-2-jungle",
+          "t": "Jungle 2 Jungle",
+          "n": "1997",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1997-honey-we-shrunk-ourselves",
+          "t": "Honey, We Shrunk Ourselves",
+          "n": "1997",
+          "w": 1.2,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1997-hercules",
+          "t": "Hercules",
+          "n": "1997",
+          "w": 1.53,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1997-agbo",
+          "t": "AGBO",
+          "n": "1997",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1997-george-of-the-jungle",
+          "t": "George of the Jungle",
+          "n": "1997",
+          "w": 1.53,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1997-air-bud",
+          "t": "Air Bud",
+          "n": "1997",
+          "w": 1.63,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1997-pooh-s-grand-adventure-the-search-for-christopher-robin",
+          "t": "Pooh's Grand Adventure: The Search for Christopher Robin",
+          "n": "1997",
+          "w": 1.22,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-1997-northern-lights",
+          "t": "Northern Lights",
+          "n": "1997",
+          "w": 1.85,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1997-rocketman",
+          "t": "RocketMan",
+          "n": "1997",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1997-under-wraps",
+          "t": "Under Wraps",
+          "n": "1997",
+          "w": 1.58,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1997-beauty-and-the-beast-the-enchanted-christmas",
+          "t": "Beauty and the Beast: The Enchanted Christmas",
+          "n": "1997",
+          "w": 1.2,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-1997-flubber",
+          "t": "Flubber",
+          "n": "1997",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1997-mr-magoo",
+          "t": "Mr. Magoo",
+          "n": "1997",
+          "w": 1.4,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1998-meet-the-deedles",
+          "t": "Meet the Deedles",
+          "n": "1998",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1998-mulan",
+          "t": "Mulan",
+          "n": "1998",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1998-you-lucky-dog",
+          "t": "You Lucky Dog",
+          "n": "1998",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1998-pocahontas-ii-journey-to-a-new-world",
+          "t": "Pocahontas II: Journey to a New World",
+          "n": "1998",
+          "w": 1.2,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-1998-brink",
+          "t": "Brink!",
+          "n": "1998",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1998-the-jungle-book-mowgli-s-story",
+          "t": "The Jungle Book: Mowgli's Story",
+          "n": "1998",
+          "w": 1.28,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1998-serengeti-symphony",
+          "t": "Serengeti Symphony",
+          "n": "1998",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1998-halloweentown",
+          "t": "Halloweentown",
+          "n": "1998",
+          "w": 1.4,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1998-the-lion-king-ii-simba-s-pride",
+          "t": "The Lion King II: Simba's Pride",
+          "n": "1998",
+          "w": 1.35,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-1998-i-ll-be-home-for-christmas",
+          "t": "I'll Be Home for Christmas",
+          "n": "1998",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1998-mighty-joe-young",
+          "t": "Mighty Joe Young",
+          "n": "1998",
+          "w": 1.9,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1999-zenon-girl-of-the-21st-century",
+          "t": "Zenon: Girl of the 21st Century",
+          "n": "1999",
+          "w": 1.62,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1999-my-favorite-martian",
+          "t": "My Favorite Martian",
+          "n": "1999",
+          "w": 1.55,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1999-doug-s-1st-movie",
+          "t": "Doug's 1st Movie",
+          "n": "1999",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1999-can-of-worms",
+          "t": "Can of Worms",
+          "n": "1999",
+          "w": 1.42,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1999-endurance",
+          "t": "Endurance",
+          "n": "1999",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1999-the-thirteenth-year",
+          "t": "The Thirteenth Year",
+          "n": "1999",
+          "w": 1.58,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1999-tarzan",
+          "t": "Tarzan",
+          "n": "1999",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1999-smart-house",
+          "t": "Smart House",
+          "n": "1999",
+          "w": 1.3,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1999-inspector-gadget",
+          "t": "Inspector Gadget",
+          "n": "1999",
+          "w": 1.3,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1999-johnny-tsunami",
+          "t": "Johnny Tsunami",
+          "n": "1999",
+          "w": 1.47,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1999-genius",
+          "t": "Genius",
+          "n": "1999",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1999-don-t-look-under-the-bed",
+          "t": "Don't Look Under the Bed",
+          "n": "1999",
+          "w": 1.48,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1999-the-straight-story",
+          "t": "The Straight Story",
+          "n": "1999",
+          "w": 1.8,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-1999-seasons-of-giving",
+          "t": "Seasons of Giving",
+          "n": "1999",
+          "w": 1.02,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-1999-horse-sense",
+          "t": "Horse Sense",
+          "n": "1999",
+          "w": 1.53,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-1999-fantasia-2000",
+          "t": "Fantasia 2000",
+          "n": "1999",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aughts",
+      "title": "The two thousands",
+      "sub": "2000–2009 · 101 theatrical, 63 TV, 18 direct-to-video · 258 hours",
+      "intro": "The sequel factory at full tilt, the DCOM golden age, and the slow slide of hand-drawn animation.",
+      "items": [
+        {
+          "id": "dis-2000-the-color-of-friendship",
+          "t": "The Color of Friendship",
+          "n": "2000",
+          "w": 1.45,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-the-tigger-movie",
+          "t": "The Tigger Movie",
+          "n": "2000",
+          "w": 1.23,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2000-an-extremely-goofy-movie",
+          "t": "An Extremely Goofy Movie",
+          "n": "2000",
+          "w": 1.27,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2000-whispers-an-elephant-s-tale",
+          "t": "Whispers: An Elephant's Tale",
+          "n": "2000",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2000-alley-cats-strike",
+          "t": "Alley Cats Strike",
+          "n": "2000",
+          "w": 1.4,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-rip-girls",
+          "t": "Rip Girls",
+          "n": "2000",
+          "w": 1.45,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-miracle-in-lane-2",
+          "t": "Miracle in Lane 2",
+          "n": "2000",
+          "w": 2.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-dinosaur",
+          "t": "Dinosaur",
+          "n": "2000",
+          "w": 1.37,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2000-stepsister-from-planet-weird",
+          "t": "Stepsister from Planet Weird",
+          "n": "2000",
+          "w": 1.42,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-the-kid",
+          "t": "The Kid",
+          "n": "2000",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2000-ready-to-run",
+          "t": "Ready to Run",
+          "n": "2000",
+          "w": 1.6,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-quints",
+          "t": "Quints",
+          "n": "2000",
+          "w": 1.38,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-the-other-me",
+          "t": "The Other Me",
+          "n": "2000",
+          "w": 1.42,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-the-little-mermaid-ii-return-to-the-sea",
+          "t": "The Little Mermaid II: Return to the Sea",
+          "n": "2000",
+          "w": 1.25,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2000-remember-the-titans",
+          "t": "Remember the Titans",
+          "n": "2000",
+          "w": 1.88,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2000-mom-s-got-a-date-with-a-vampire",
+          "t": "Mom's Got a Date with a Vampire",
+          "n": "2000",
+          "w": 1.33,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-phantom-of-the-megaplex",
+          "t": "Phantom of the Megaplex",
+          "n": "2000",
+          "w": 1.48,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-102-dalmatians",
+          "t": "102 Dalmatians",
+          "n": "2000",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2000-the-ultimate-christmas-present",
+          "t": "The Ultimate Christmas Present",
+          "n": "2000",
+          "w": 1.42,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2000-the-emperor-s-new-groove",
+          "t": "The Emperor's New Groove",
+          "n": "2000",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2001-zenon-the-zequel",
+          "t": "Zenon: The Zequel",
+          "n": "2001",
+          "w": 1.67,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2001-motocrossed",
+          "t": "Motocrossed",
+          "n": "2001",
+          "w": 1.53,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2001-recess-school-s-out",
+          "t": "Recess: School's Out",
+          "n": "2001",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2001-lady-and-the-tramp-ii-scamp-s-adventure",
+          "t": "Lady and the Tramp II: Scamp's Adventure",
+          "n": "2001",
+          "w": 1.15,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2001-the-luck-of-the-irish",
+          "t": "The Luck of the Irish",
+          "n": "2001",
+          "w": 1.43,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2001-hounded",
+          "t": "Hounded",
+          "n": "2001",
+          "w": 1.53,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2001-jett-jackson-the-movie",
+          "t": "Jett Jackson: The Movie",
+          "n": "2001",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2001-atlantis-the-lost-empire",
+          "t": "Atlantis: The Lost Empire",
+          "n": "2001",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2001-the-jennie-project",
+          "t": "The Jennie Project",
+          "n": "2001",
+          "w": 1.27,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2001-the-princess-diaries",
+          "t": "The Princess Diaries",
+          "n": "2001",
+          "w": 1.92,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2001-jumping-ship",
+          "t": "Jumping Ship",
+          "n": "2001",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2001-the-poof-point",
+          "t": "The Poof Point",
+          "n": "2001",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2001-max-keeble-s-big-move",
+          "t": "Max Keeble's Big Move",
+          "n": "2001",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2001-halloweentown-ii-kalabar-s-revenge",
+          "t": "Halloweentown II: Kalabar's Revenge",
+          "n": "2001",
+          "w": 1.3,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2001-mickey-s-magical-christmas-snowed-in-at-the-house-of-mouse",
+          "t": "Mickey's Magical Christmas: Snowed in at the House of Mouse",
+          "n": "2001",
+          "w": 1.08,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2001-twas-the-night",
+          "t": "'Twas the Night",
+          "n": "2001",
+          "w": 1.45,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2002-double-teamed",
+          "t": "Double Teamed",
+          "n": "2002",
+          "w": 2.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2002-snow-dogs",
+          "t": "Snow Dogs",
+          "n": "2002",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2002-return-to-never-land",
+          "t": "Return to Never Land",
+          "n": "2002",
+          "w": 1.2,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2002-cinderella-ii-dreams-come-true",
+          "t": "Cinderella II: Dreams Come True",
+          "n": "2002",
+          "w": 1.22,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2002-cadet-kelly",
+          "t": "Cadet Kelly",
+          "n": "2002",
+          "w": 1.67,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2002-the-hunchback-of-notre-dame-ii",
+          "t": "The Hunchback of Notre Dame II",
+          "n": "2002",
+          "w": 1.07,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2002-the-rookie",
+          "t": "The Rookie",
+          "n": "2002",
+          "w": 2.05,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2002-tru-confessions",
+          "t": "Tru Confessions",
+          "n": "2002",
+          "w": 1.35,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2002-lilo-stitch",
+          "t": "Lilo & Stitch",
+          "n": "2002",
+          "w": 1.42,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2002-get-a-clue",
+          "t": "Get a Clue",
+          "n": "2002",
+          "w": 1.38,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2002-the-country-bears",
+          "t": "The Country Bears",
+          "n": "2002",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2002-a-ring-of-endless-light",
+          "t": "A Ring of Endless Light",
+          "n": "2002",
+          "w": 1.47,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2002-the-scream-team",
+          "t": "The Scream Team",
+          "n": "2002",
+          "w": 1.67,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2002-tuck-everlasting",
+          "t": "Tuck Everlasting",
+          "n": "2002",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2002-the-santa-clause-2",
+          "t": "The Santa Clause 2",
+          "n": "2002",
+          "w": 1.75,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2002-a-very-merry-pooh-year",
+          "t": "A Very Merry Pooh Year",
+          "n": "2002",
+          "w": 1.02,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2002-treasure-planet",
+          "t": "Treasure Planet",
+          "n": "2002",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-you-wish",
+          "t": "You Wish!",
+          "n": "2003",
+          "w": 1.67,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2003-101-dalmatians-ii-patch-s-london-adventure",
+          "t": "101 Dalmatians II: Patch's London Adventure",
+          "n": "2003",
+          "w": 1.17,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-the-jungle-book-2",
+          "t": "The Jungle Book 2",
+          "n": "2003",
+          "w": 1.2,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-inspector-gadget-2",
+          "t": "Inspector Gadget 2",
+          "n": "2003",
+          "w": 1.42,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-piglet-s-big-movie",
+          "t": "Piglet's Big Movie",
+          "n": "2003",
+          "w": 1.25,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2003-right-on-track",
+          "t": "Right on Track",
+          "n": "2003",
+          "w": 1.48,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2003-ghosts-of-the-abyss",
+          "t": "Ghosts of the Abyss",
+          "n": "2003",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-holes",
+          "t": "Holes",
+          "n": "2003",
+          "w": 1.95,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-the-lizzie-mcguire-movie",
+          "t": "The Lizzie McGuire Movie",
+          "n": "2003",
+          "w": 1.57,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-atlantis-milo-s-return",
+          "t": "Atlantis: Milo's Return",
+          "n": "2003",
+          "w": 1.28,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2003-the-even-stevens-movie",
+          "t": "The Even Stevens Movie",
+          "n": "2003",
+          "w": 1.53,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2003-pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+          "t": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "n": "2003",
+          "w": 2.28,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-eddie-s-million-dollar-cook-off",
+          "t": "Eddie's Million Dollar Cook-Off",
+          "n": "2003",
+          "w": 1.83,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2003-freaky-friday",
+          "t": "Freaky Friday",
+          "n": "2003",
+          "w": 1.62,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-the-cheetah-girls",
+          "t": "The Cheetah Girls",
+          "n": "2003",
+          "w": 1.67,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2003-stitch-the-movie",
+          "t": "Stitch! The Movie",
+          "n": "2003",
+          "w": 1.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-george-of-the-jungle-2",
+          "t": "George of the Jungle 2",
+          "n": "2003",
+          "w": 1.45,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-brother-bear",
+          "t": "Brother Bear",
+          "n": "2003",
+          "w": 1.42,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-full-court-miracle",
+          "t": "Full-Court Miracle",
+          "n": "2003",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2003-the-haunted-mansion",
+          "t": "The Haunted Mansion",
+          "n": "2003",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2003-the-young-black-stallion",
+          "t": "The Young Black Stallion",
+          "n": "2003",
+          "w": 0.82,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2004-pixel-perfect",
+          "t": "Pixel Perfect",
+          "n": "2004",
+          "w": 1.42,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2004-teacher-s-pet",
+          "t": "Teacher's Pet",
+          "n": "2004",
+          "w": 1.23,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2004-miracle",
+          "t": "Miracle",
+          "n": "2004",
+          "w": 2.27,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2004-the-lion-king-1½",
+          "t": "The Lion King 1½",
+          "n": "2004",
+          "w": 1.28,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2004-confessions-of-a-teenage-drama-queen",
+          "t": "Confessions of a Teenage Drama Queen",
+          "n": "2004",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2004-springtime-with-roo",
+          "t": "Springtime with Roo",
+          "n": "2004",
+          "w": 1.08,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2004-going-to-the-mat",
+          "t": "Going to the Mat",
+          "n": "2004",
+          "w": 2.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2004-home-on-the-range",
+          "t": "Home on the Range",
+          "n": "2004",
+          "w": 1.22,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2004-sacred-planet",
+          "t": "Sacred Planet",
+          "n": "2004",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2004-zenon-z3",
+          "t": "Zenon: Z3",
+          "n": "2004",
+          "w": 1.35,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2004-around-the-world-in-80-days",
+          "t": "Around the World in 80 Days",
+          "n": "2004",
+          "w": 2.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2004-stuck-in-the-suburbs",
+          "t": "Stuck in the Suburbs",
+          "n": "2004",
+          "w": 1.37,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2004-tiger-cruise",
+          "t": "Tiger Cruise",
+          "n": "2004",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2004-the-princess-diaries-2-royal-engagement",
+          "t": "The Princess Diaries 2: Royal Engagement",
+          "n": "2004",
+          "w": 1.88,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2004-mickey-donald-goofy-the-three-musketeers",
+          "t": "Mickey, Donald, Goofy: The Three Musketeers",
+          "n": "2004",
+          "w": 1.13,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2004-halloweentown-high",
+          "t": "Halloweentown High",
+          "n": "2004",
+          "w": 1.28,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2004-mickey-s-twice-upon-a-christmas",
+          "t": "Mickey's Twice Upon a Christmas",
+          "n": "2004",
+          "w": 1.13,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2004-national-treasure",
+          "t": "National Treasure",
+          "n": "2004",
+          "w": 2.1,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-now-you-see-it",
+          "t": "Now You See It...",
+          "n": "2005",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2005-aliens-of-the-deep",
+          "t": "Aliens of the Deep",
+          "n": "2005",
+          "w": 0.78,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-mulan-ii",
+          "t": "Mulan II",
+          "n": "2005",
+          "w": 1.3,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2005-pooh-s-heffalump-movie",
+          "t": "Pooh's Heffalump Movie",
+          "n": "2005",
+          "w": 1.13,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-the-pacifier",
+          "t": "The Pacifier",
+          "n": "2005",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-buffalo-dreams",
+          "t": "Buffalo Dreams",
+          "n": "2005",
+          "w": 1.48,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2005-ice-princess",
+          "t": "Ice Princess",
+          "n": "2005",
+          "w": 1.57,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-kim-possible-movie-so-the-drama",
+          "t": "Kim Possible Movie: So the Drama",
+          "n": "2005",
+          "w": 1.18,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2005-go-figure",
+          "t": "Go Figure",
+          "n": "2005",
+          "w": 1.68,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2005-tarzan-ii",
+          "t": "Tarzan II",
+          "n": "2005",
+          "w": 1.18,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2005-herbie-fully-loaded",
+          "t": "Herbie: Fully Loaded",
+          "n": "2005",
+          "w": 1.68,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-life-is-ruff",
+          "t": "Life Is Ruff",
+          "n": "2005",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2005-sky-high",
+          "t": "Sky High",
+          "n": "2005",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-the-proud-family-movie",
+          "t": "The Proud Family Movie",
+          "n": "2005",
+          "w": 1.52,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2005-valiant",
+          "t": "Valiant",
+          "n": "2005",
+          "w": 1.27,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-lilo-stitch-2-stitch-has-a-glitch",
+          "t": "Lilo & Stitch 2: Stitch Has a Glitch",
+          "n": "2005",
+          "w": 1.13,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2005-pooh-s-heffalump-halloween-movie",
+          "t": "Pooh's Heffalump Halloween Movie",
+          "n": "2005",
+          "w": 1.08,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2005-the-greatest-game-ever-played",
+          "t": "The Greatest Game Ever Played",
+          "n": "2005",
+          "w": 2.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-twitches",
+          "t": "Twitches",
+          "n": "2005",
+          "w": 1.43,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2005-chicken-little",
+          "t": "Chicken Little",
+          "n": "2005",
+          "w": 1.35,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-the-chronicles-of-narnia-the-lion-the-witch-and-the-wardrobe",
+          "t": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+          "n": "2005",
+          "w": 2.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2005-kronk-s-new-groove",
+          "t": "Kronk's New Groove",
+          "n": "2005",
+          "w": 1.25,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2006-glory-road",
+          "t": "Glory Road",
+          "n": "2006",
+          "w": 1.97,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2006-high-school-musical",
+          "t": "High School Musical",
+          "n": "2006",
+          "w": 1.63,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2006-roving-mars",
+          "t": "Roving Mars",
+          "n": "2006",
+          "w": 0.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2006-bambi-ii",
+          "t": "Bambi II",
+          "n": "2006",
+          "w": 1.2,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2006-eight-below",
+          "t": "Eight Below",
+          "n": "2006",
+          "w": 2.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2006-cow-belles",
+          "t": "Cow Belles",
+          "n": "2006",
+          "w": 1.47,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2006-the-wild",
+          "t": "The Wild",
+          "n": "2006",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2006-wendy-wu-homecoming-warrior",
+          "t": "Wendy Wu: Homecoming Warrior",
+          "n": "2006",
+          "w": 1.62,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2006-leroy-stitch",
+          "t": "Leroy & Stitch",
+          "n": "2006",
+          "w": 1.2,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2006-pirates-of-the-caribbean-dead-man-s-chest",
+          "t": "Pirates of the Caribbean: Dead Man's Chest",
+          "n": "2006",
+          "w": 2.42,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2006-read-it-and-weep",
+          "t": "Read It and Weep",
+          "n": "2006",
+          "w": 1.4,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2006-invincible",
+          "t": "Invincible",
+          "n": "2006",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2006-the-cheetah-girls-2",
+          "t": "The Cheetah Girls 2",
+          "n": "2006",
+          "w": 1.55,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2006-brother-bear-2",
+          "t": "Brother Bear 2",
+          "n": "2006",
+          "w": 1.23,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2006-return-to-halloweentown",
+          "t": "Return to Halloweentown",
+          "n": "2006",
+          "w": 1.38,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2006-the-nightmare-before-christmas-3d",
+          "t": "The Nightmare Before Christmas 3D",
+          "n": "2006",
+          "w": 1.22,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2006-the-santa-clause-3-the-escape-clause",
+          "t": "The Santa Clause 3: The Escape Clause",
+          "n": "2006",
+          "w": 1.63,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2006-the-fox-and-the-hound-2",
+          "t": "The Fox and the Hound 2",
+          "n": "2006",
+          "w": 1.12,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2007-jump-in",
+          "t": "Jump In!",
+          "n": "2007",
+          "w": 1.35,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2007-cinderella-iii-a-twist-in-time",
+          "t": "Cinderella III: A Twist in Time",
+          "n": "2007",
+          "w": 1.23,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2007-bridge-to-terabithia",
+          "t": "Bridge to Terabithia",
+          "n": "2007",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2007-meet-the-robinsons",
+          "t": "Meet the Robinsons",
+          "n": "2007",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2007-pirates-of-the-caribbean-at-world-s-end",
+          "t": "Pirates of the Caribbean: At World's End",
+          "n": "2007",
+          "w": 2.7,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2007-johnny-kapahala-back-on-board",
+          "t": "Johnny Kapahala: Back on Board",
+          "n": "2007",
+          "w": 1.52,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2007-centro-digital-pictures-limited",
+          "t": "Centro Digital Pictures Limited",
+          "n": "2007",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2007-underdog",
+          "t": "Underdog",
+          "n": "2007",
+          "w": 1.4,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2007-high-school-musical-2",
+          "t": "High School Musical 2",
+          "n": "2007",
+          "w": 1.77,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2007-disney-princess-enchanted-tales-follow-your-dreams",
+          "t": "Disney Princess Enchanted Tales: Follow Your Dreams",
+          "n": "2007",
+          "w": 1.0,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2007-the-game-plan",
+          "t": "The Game Plan",
+          "n": "2007",
+          "w": 1.83,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2007-twitches-too",
+          "t": "Twitches Too",
+          "n": "2007",
+          "w": 1.38,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2007-enchanted",
+          "t": "Enchanted",
+          "n": "2007",
+          "w": 1.72,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2007-national-treasure-book-of-secrets",
+          "t": "National Treasure: Book of Secrets",
+          "n": "2007",
+          "w": 2.07,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-minutemen",
+          "t": "Minutemen",
+          "n": "2008",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2008-hannah-montana-and-miley-cyrus-best-of-both-worlds-concert",
+          "t": "Hannah Montana and Miley Cyrus: Best of Both Worlds Concert",
+          "n": "2008",
+          "w": 1.28,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-snow-buddies",
+          "t": "Snow Buddies",
+          "n": "2008",
+          "w": 1.45,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-college-road-trip",
+          "t": "College Road Trip",
+          "n": "2008",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-the-chronicles-of-narnia-prince-caspian",
+          "t": "The Chronicles of Narnia: Prince Caspian",
+          "n": "2008",
+          "w": 2.33,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-camp-rock",
+          "t": "Camp Rock",
+          "n": "2008",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2008-high-school-musical-el-desafío",
+          "t": "High School Musical: el desafío",
+          "n": "2008",
+          "w": 1.53,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-the-cheetah-girls-one-world",
+          "t": "The Cheetah Girls: One World",
+          "n": "2008",
+          "w": 1.37,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2008-the-little-mermaid-ariel-s-beginning",
+          "t": "The Little Mermaid: Ariel's Beginning",
+          "n": "2008",
+          "w": 1.28,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2008-beverly-hills-chihuahua",
+          "t": "Beverly Hills Chihuahua",
+          "n": "2008",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-morning-light",
+          "t": "Morning Light",
+          "n": "2008",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-high-school-musical-3-senior-year",
+          "t": "High School Musical 3: Senior Year",
+          "n": "2008",
+          "w": 1.87,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-tinker-bell",
+          "t": "Tinker Bell",
+          "n": "2008",
+          "w": 1.3,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-bolt",
+          "t": "Bolt",
+          "n": "2008",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2008-bedtime-stories",
+          "t": "Bedtime Stories",
+          "n": "2008",
+          "w": 1.65,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-space-buddies",
+          "t": "Space Buddies",
+          "n": "2009",
+          "w": 1.4,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-dadnapped",
+          "t": "Dadnapped",
+          "n": "2009",
+          "w": 1.35,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2009-jonas-brothers-the-3d-concert-experience",
+          "t": "Jonas Brothers: The 3D Concert Experience",
+          "n": "2009",
+          "w": 1.27,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-race-to-witch-mountain",
+          "t": "Race to Witch Mountain",
+          "n": "2009",
+          "w": 1.63,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-hannah-montana-the-movie",
+          "t": "Hannah Montana: The Movie",
+          "n": "2009",
+          "w": 1.7,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-earth",
+          "t": "Earth",
+          "n": "2009",
+          "w": 1.65,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-hatching-pete",
+          "t": "Hatching Pete",
+          "n": "2009",
+          "w": 1.48,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2009-trail-of-the-panda",
+          "t": "Trail of the Panda",
+          "n": "2009",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-the-boys-the-sherman-brothers-story",
+          "t": "The Boys: The Sherman Brothers' Story",
+          "n": "2009",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-lilly-the-witch-the-dragon-and-the-magic-book",
+          "t": "Lilly the Witch: The Dragon and the Magic Book",
+          "n": "2009",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-princess-protection-program",
+          "t": "Princess Protection Program",
+          "n": "2009",
+          "w": 1.48,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2009-g-force",
+          "t": "G-Force",
+          "n": "2009",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-ponyo",
+          "t": "Ponyo",
+          "n": "2009",
+          "w": 1.68,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-wizards-of-waverly-place-the-movie",
+          "t": "Wizards of Waverly Place: The Movie",
+          "n": "2009",
+          "w": 1.63,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2009-spangas-op-survival",
+          "t": "SpangaS op Survival",
+          "n": "2009",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-tinker-bell-and-the-lost-treasure",
+          "t": "Tinker Bell and the Lost Treasure",
+          "n": "2009",
+          "w": 1.35,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-the-book-of-masters",
+          "t": "The Book of Masters",
+          "n": "2009",
+          "w": 1.68,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-disney-s-a-christmas-carol",
+          "t": "Disney's A Christmas Carol",
+          "n": "2009",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-santa-buddies",
+          "t": "Santa Buddies",
+          "n": "2009",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-old-dogs",
+          "t": "Old Dogs",
+          "n": "2009",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2009-the-princess-and-the-frog",
+          "t": "The Princess and the Frog",
+          "n": "2009",
+          "w": 1.52,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revival",
+      "title": "The Revival",
+      "sub": "2010–2019 · 73 theatrical, 29 TV, 1 direct-to-video · 165 hours",
+      "intro": "Tangled, Frozen, Moana — and the live-action remakes begin.",
+      "items": [
+        {
+          "id": "dis-2010-high-school-musical-o-desafio",
+          "t": "High School Musical: O Desafio",
+          "n": "2010",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2010-starstruck",
+          "t": "Starstruck",
+          "n": "2010",
+          "w": 1.3,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2010-oceans",
+          "t": "Oceans",
+          "n": "2010",
+          "w": 1.65,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2010-prince-of-persia-the-sands-of-time",
+          "t": "Prince of Persia: The Sands of Time",
+          "n": "2010",
+          "w": 1.93,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2010-the-sorcerer-s-apprentice",
+          "t": "The Sorcerer's Apprentice",
+          "n": "2010",
+          "w": 1.82,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2010-den-brother",
+          "t": "Den Brother",
+          "n": "2010",
+          "w": 1.47,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2010-camp-rock-2-the-final-jam",
+          "t": "Camp Rock 2: The Final Jam",
+          "n": "2010",
+          "w": 1.73,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2010-the-crimson-wing-mystery-of-the-flamingos",
+          "t": "The Crimson Wing: Mystery of the Flamingos",
+          "n": "2010",
+          "w": 1.3,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2010-tinker-bell-and-the-great-fairy-rescue",
+          "t": "Tinker Bell and the Great Fairy Rescue",
+          "n": "2010",
+          "w": 1.27,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2010-fuchsia-the-mini-witch",
+          "t": "Fuchsia the Mini-Witch",
+          "n": "2010",
+          "w": 1.42,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2010-secretariat",
+          "t": "Secretariat",
+          "n": "2010",
+          "w": 2.05,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2010-avalon-high",
+          "t": "Avalon High",
+          "n": "2010",
+          "w": 1.45,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2010-the-search-for-santa-paws",
+          "t": "The Search for Santa Paws",
+          "n": "2010",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2010-tangled",
+          "t": "Tangled",
+          "n": "2010",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2010-tron-legacy",
+          "t": "Tron: Legacy",
+          "n": "2010",
+          "w": 2.12,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2011-once-upon-a-warrior",
+          "t": "Once Upon A Warrior",
+          "n": "2011",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2011-beverly-hills-chihuahua-2",
+          "t": "Beverly Hills Chihuahua 2",
+          "n": "2011",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2011-mars-needs-moms",
+          "t": "Mars Needs Moms",
+          "n": "2011",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2011-the-suite-life-movie",
+          "t": "The Suite Life Movie",
+          "n": "2011",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2011-lemonade-mouth",
+          "t": "Lemonade Mouth",
+          "n": "2011",
+          "w": 1.78,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2011-zokkomon",
+          "t": "Zokkomon",
+          "n": "2011",
+          "w": 1.82,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2011-prom",
+          "t": "Prom",
+          "n": "2011",
+          "w": 1.73,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2011-pirates-of-the-caribbean-on-stranger-tides",
+          "t": "Pirates of the Caribbean: On Stranger Tides",
+          "n": "2011",
+          "w": 2.27,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2011-sharpay-s-fabulous-adventure",
+          "t": "Sharpay's Fabulous Adventure",
+          "n": "2011",
+          "w": 1.48,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2011-winnie-the-pooh",
+          "t": "Winnie the Pooh",
+          "n": "2011",
+          "w": 1.07,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2011-phineas-and-ferb-the-movie-across-the-2nd-dimension",
+          "t": "Phineas and Ferb the Movie: Across the 2nd Dimension",
+          "n": "2011",
+          "w": 1.23,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2011-spooky-buddies",
+          "t": "Spooky Buddies",
+          "n": "2011",
+          "w": 1.47,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2011-geek-charming",
+          "t": "Geek Charming",
+          "n": "2011",
+          "w": 1.62,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2011-good-luck-charlie-it-s-christmas",
+          "t": "Good Luck Charlie, It's Christmas!",
+          "n": "2011",
+          "w": 1.42,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2012-frenemies",
+          "t": "Frenemies",
+          "n": "2012",
+          "w": 1.62,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2012-treasure-buddies",
+          "t": "Treasure Buddies",
+          "n": "2012",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2012-radio-rebel",
+          "t": "Radio Rebel",
+          "n": "2012",
+          "w": 1.53,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2012-the-secret-world-of-arrietty",
+          "t": "The Secret World of Arrietty",
+          "n": "2012",
+          "w": 1.57,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2012-john-carter",
+          "t": "John Carter",
+          "n": "2012",
+          "w": 2.2,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2012-chimpanzee",
+          "t": "Chimpanzee",
+          "n": "2012",
+          "w": 1.3,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2012-arjun-the-warrior-prince",
+          "t": "Arjun: The Warrior Prince",
+          "n": "2012",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2012-let-it-shine",
+          "t": "Let It Shine",
+          "n": "2012",
+          "w": 1.73,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2012-the-odd-life-of-timothy-green",
+          "t": "The Odd Life of Timothy Green",
+          "n": "2012",
+          "w": 1.75,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2012-beverly-hills-chihuahua-3-viva-la-fiesta",
+          "t": "Beverly Hills Chihuahua 3: Viva la Fiesta!",
+          "n": "2012",
+          "w": 1.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2012-frankenweenie",
+          "t": "Frankenweenie",
+          "n": "2012",
+          "w": 1.45,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2012-girl-vs-monster",
+          "t": "Girl vs. Monster",
+          "n": "2012",
+          "w": 1.48,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2012-secret-of-the-wings",
+          "t": "Secret of the Wings",
+          "n": "2012",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2012-wreck-it-ralph",
+          "t": "Wreck-It Ralph",
+          "n": "2012",
+          "w": 1.68,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2013-oz-the-great-and-powerful",
+          "t": "Oz the Great and Powerful",
+          "n": "2013",
+          "w": 2.12,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2013-wings-of-life",
+          "t": "Wings of Life",
+          "n": "2013",
+          "w": 1.28,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2013-the-lone-ranger",
+          "t": "The Lone Ranger",
+          "n": "2013",
+          "w": 2.48,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2013-teen-beach-movie",
+          "t": "Teen Beach Movie",
+          "n": "2013",
+          "w": 1.58,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2013-planes",
+          "t": "Planes",
+          "n": "2013",
+          "w": 1.53,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2013-super-buddies",
+          "t": "Super Buddies",
+          "n": "2013",
+          "w": 1.35,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2013-frozen",
+          "t": "Frozen",
+          "n": "2013",
+          "w": 1.68,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2013-saving-mr-banks",
+          "t": "Saving Mr. Banks",
+          "n": "2013",
+          "w": 2.08,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2014-cloud-9",
+          "t": "Cloud 9",
+          "n": "2014",
+          "w": 1.35,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2014-the-pirate-fairy",
+          "t": "The Pirate Fairy",
+          "n": "2014",
+          "w": 1.3,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2014-bears",
+          "t": "Bears",
+          "n": "2014",
+          "w": 1.28,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2014-million-dollar-arm",
+          "t": "Million Dollar Arm",
+          "n": "2014",
+          "w": 2.07,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2014-maleficent",
+          "t": "Maleficent",
+          "n": "2014",
+          "w": 1.62,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2014-zapped",
+          "t": "Zapped",
+          "n": "2014",
+          "w": 1.7,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2014-planes-fire-rescue",
+          "t": "Planes: Fire & Rescue",
+          "n": "2014",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2014-how-to-build-a-better-boy",
+          "t": "How to Build a Better Boy",
+          "n": "2014",
+          "w": 1.82,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2014-khoobsurat",
+          "t": "Khoobsurat",
+          "n": "2014",
+          "w": 2.17,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2014-alexander-and-the-terrible-horrible-no-good-very-bad-day",
+          "t": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+          "n": "2014",
+          "w": 1.35,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2014-big-hero-6",
+          "t": "Big Hero 6",
+          "n": "2014",
+          "w": 1.7,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2014-into-the-woods",
+          "t": "Into the Woods",
+          "n": "2014",
+          "w": 2.08,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2015-bad-hair-day",
+          "t": "Bad Hair Day",
+          "n": "2015",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2015-mcfarland-usa",
+          "t": "McFarland, USA",
+          "n": "2015",
+          "w": 2.15,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2015-tinker-bell-and-the-legend-of-the-neverbeast",
+          "t": "Tinker Bell and the Legend of the NeverBeast",
+          "n": "2015",
+          "w": 1.27,
+          "tier": 3,
+          "tags": [
+            "Direct-to-video"
+          ],
+          "note": "Direct-to-video"
+        },
+        {
+          "id": "dis-2015-monkey-kingdom",
+          "t": "Monkey Kingdom",
+          "n": "2015",
+          "w": 1.37,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2015-tomorrowland",
+          "t": "Tomorrowland",
+          "n": "2015",
+          "w": 2.17,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2015-teen-beach-2",
+          "t": "Teen Beach 2",
+          "n": "2015",
+          "w": 1.75,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2015-descendants",
+          "t": "Descendants",
+          "n": "2015",
+          "w": 1.87,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2015-invisible-sister",
+          "t": "Invisible Sister",
+          "n": "2015",
+          "w": 1.3,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2016-the-finest-hours",
+          "t": "The Finest Hours",
+          "n": "2016",
+          "w": 1.97,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2016-zootopia",
+          "t": "Zootopia",
+          "n": "2016",
+          "w": 1.8,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2016-tini-the-movie",
+          "t": "Tini: The Movie",
+          "n": "2016",
+          "w": 1.63,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2016-alice-through-the-looking-glass",
+          "t": "Alice Through the Looking Glass",
+          "n": "2016",
+          "w": 1.88,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2016-adventures-in-babysitting",
+          "t": "Adventures in Babysitting",
+          "n": "2016",
+          "w": 1.55,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2016-the-bfg",
+          "t": "The BFG",
+          "n": "2016",
+          "w": 1.92,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2016-queen-of-katwe",
+          "t": "Queen of Katwe",
+          "n": "2016",
+          "w": 2.07,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2016-the-swap",
+          "t": "The Swap",
+          "n": "2016",
+          "w": 1.48,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2016-moana",
+          "t": "Moana",
+          "n": "2016",
+          "w": 1.78,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2016-dangal",
+          "t": "Dangal",
+          "n": "2016",
+          "w": 2.68,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2017-march-of-the-penguins-2-the-next-step",
+          "t": "March of the Penguins 2: The Next Step",
+          "n": "2017",
+          "w": 1.4,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2017-tangled-before-ever-after",
+          "t": "Tangled: Before Ever After",
+          "n": "2017",
+          "w": 0.9,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2017-born-in-china",
+          "t": "Born in China",
+          "n": "2017",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2017-pirates-of-the-caribbean-dead-men-tell-no-tales",
+          "t": "Pirates of the Caribbean: Dead Men Tell No Tales",
+          "n": "2017",
+          "w": 2.15,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2017-ghost-of-the-mountains",
+          "t": "Ghost of the Mountains",
+          "n": "2017",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2017-jagga-jasoos",
+          "t": "Jagga Jasoos",
+          "n": "2017",
+          "w": 2.68,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2017-descendants-2",
+          "t": "Descendants 2",
+          "n": "2017",
+          "w": 1.85,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2017-the-last-warrior",
+          "t": "The Last Warrior",
+          "n": "2017",
+          "w": 1.9,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2017-expedition-china",
+          "t": "Expedition China",
+          "n": "2017",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2018-zombies",
+          "t": "Zombies",
+          "n": "2018",
+          "w": 1.57,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2018-a-wrinkle-in-time",
+          "t": "A Wrinkle in Time",
+          "n": "2018",
+          "w": 1.82,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2018-christopher-robin",
+          "t": "Christopher Robin",
+          "n": "2018",
+          "w": 1.73,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2018-the-nutcracker-and-the-four-realms",
+          "t": "The Nutcracker and the Four Realms",
+          "n": "2018",
+          "w": 1.65,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2018-ralph-breaks-the-internet",
+          "t": "Ralph Breaks the Internet",
+          "n": "2018",
+          "w": 1.87,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2018-mary-poppins-returns",
+          "t": "Mary Poppins Returns",
+          "n": "2018",
+          "w": 2.17,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2019-kim-possible",
+          "t": "Kim Possible",
+          "n": "2019",
+          "w": 1.43,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2019-penguins",
+          "t": "Penguins",
+          "n": "2019",
+          "w": 1.27,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2019-disney",
+          "t": "Disney+",
+          "n": "2019",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2019-descendants-3",
+          "t": "Descendants 3",
+          "n": "2019",
+          "w": 1.8,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2019-maleficent-mistress-of-evil",
+          "t": "Maleficent: Mistress of Evil",
+          "n": "2019",
+          "w": 1.98,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2019-frozen-2",
+          "t": "Frozen 2",
+          "n": "2019",
+          "w": 1.72,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2019-togo",
+          "t": "Togo",
+          "n": "2019",
+          "w": 1.88,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plus",
+      "title": "The Disney+ era",
+      "sub": "2020–2028 · 62 theatrical, 15 TV · 86 hours",
+      "intro": "Streaming first, cinemas second, and the remakes keep coming.",
+      "items": [
+        {
+          "id": "dis-2020-timmy-failure-mistakes-were-made",
+          "t": "Timmy Failure: Mistakes Were Made",
+          "n": "2020",
+          "w": 1.65,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2020-zombies-2",
+          "t": "Zombies 2",
+          "n": "2020",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2020-stargirl",
+          "t": "Stargirl",
+          "n": "2020",
+          "w": 1.78,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2020-dolphin-reef",
+          "t": "Dolphin Reef",
+          "n": "2020",
+          "w": 1.3,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2020-artemis-fowl",
+          "t": "Artemis Fowl",
+          "n": "2020",
+          "w": 1.57,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2020-hamilton",
+          "t": "Hamilton",
+          "n": "2020",
+          "w": 2.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2020-black-is-king",
+          "t": "Black Is King",
+          "n": "2020",
+          "w": 1.42,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2020-upside-down-magic",
+          "t": "Upside-Down Magic",
+          "n": "2020",
+          "w": 1.6,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2020-magic-camp",
+          "t": "Magic Camp",
+          "n": "2020",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2020-the-one-and-only-ivan",
+          "t": "The One and Only Ivan",
+          "n": "2020",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2020-godmothered",
+          "t": "Godmothered",
+          "n": "2020",
+          "w": 1.88,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2020-safety",
+          "t": "Safety",
+          "n": "2020",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2021-the-last-warrior-root-of-evil",
+          "t": "The Last Warrior: Root of Evil",
+          "n": "2021",
+          "w": 2.02,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2021-flora-ulysses",
+          "t": "Flora & Ulysses",
+          "n": "2021",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2021-raya-and-the-last-dragon",
+          "t": "Raya and the Last Dragon",
+          "n": "2021",
+          "w": 1.9,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2021-cruella",
+          "t": "Cruella",
+          "n": "2021",
+          "w": 2.23,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2021-jungle-cruise",
+          "t": "Jungle Cruise",
+          "n": "2021",
+          "w": 2.12,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2021-spin",
+          "t": "Spin",
+          "n": "2021",
+          "w": 1.55,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2021-encanto",
+          "t": "Encanto",
+          "n": "2021",
+          "w": 1.82,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2021-christmas-again",
+          "t": "Christmas...Again?!",
+          "n": "2021",
+          "w": 1.58,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2021-diary-of-a-wimpy-kid",
+          "t": "Diary of a Wimpy Kid",
+          "n": "2021",
+          "w": 0.97,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2021-the-last-warrior-a-messenger-of-darkness",
+          "t": "The Last Warrior: A Messenger of Darkness",
+          "n": "2021",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-the-ice-age-adventures-of-buck-wild",
+          "t": "The Ice Age Adventures of Buck Wild",
+          "n": "2022",
+          "w": 1.37,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-the-beatles-get-back-the-rooftop-concert",
+          "t": "The Beatles: Get Back – The Rooftop Concert",
+          "n": "2022",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-cheaper-by-the-dozen",
+          "t": "Cheaper by the Dozen",
+          "n": "2022",
+          "w": 1.78,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-better-nate-than-ever",
+          "t": "Better Nate Than Ever",
+          "n": "2022",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-polar-bear",
+          "t": "Polar Bear",
+          "n": "2022",
+          "w": 1.4,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-chip-n-dale-rescue-rangers",
+          "t": "Chip 'n Dale: Rescue Rangers",
+          "n": "2022",
+          "w": 1.6,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-hollywood-stargirl",
+          "t": "Hollywood Stargirl",
+          "n": "2022",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-rise",
+          "t": "Rise",
+          "n": "2022",
+          "w": 1.85,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-zombies-3",
+          "t": "Zombies 3",
+          "n": "2022",
+          "w": 1.5,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2022-under-wraps-2",
+          "t": "Under Wraps 2",
+          "n": "2022",
+          "w": 1.38,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2022-hocus-pocus-2",
+          "t": "Hocus Pocus 2",
+          "n": "2022",
+          "w": 1.78,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-disenchanted",
+          "t": "Disenchanted",
+          "n": "2022",
+          "w": 1.97,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-strange-world",
+          "t": "Strange World",
+          "n": "2022",
+          "w": 1.7,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-diary-of-a-wimpy-kid-rodrick-rules",
+          "t": "Diary of a Wimpy Kid: Rodrick Rules",
+          "n": "2022",
+          "w": 1.25,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2022-night-at-the-museum-kahmunrah-rises-again",
+          "t": "Night at the Museum: Kahmunrah Rises Again",
+          "n": "2022",
+          "w": 1.28,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2023-chang-can-dunk",
+          "t": "Chang Can Dunk",
+          "n": "2023",
+          "w": 1.82,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2023-prom-pact",
+          "t": "Prom Pact",
+          "n": "2023",
+          "w": 1.63,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2023-peter-pan-wendy",
+          "t": "Peter Pan & Wendy",
+          "n": "2023",
+          "w": 1.77,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2023-crater",
+          "t": "Crater",
+          "n": "2023",
+          "w": 1.75,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2023-world-s-best",
+          "t": "World's Best",
+          "n": "2023",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2023-the-slumber-party",
+          "t": "The Slumber Party",
+          "n": "2023",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2023-haunted-mansion",
+          "t": "Haunted Mansion",
+          "n": "2023",
+          "w": 2.05,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2023-dashing-through-the-snow",
+          "t": "Dashing Through the Snow",
+          "n": "2023",
+          "w": 1.5,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2023-the-naughty-nine",
+          "t": "The Naughty Nine",
+          "n": "2023",
+          "w": 1.38,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2023-wish",
+          "t": "Wish",
+          "n": "2023",
+          "w": 1.58,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2023-diary-of-a-wimpy-kid-christmas-cabin-fever",
+          "t": "Diary of a Wimpy Kid Christmas: Cabin Fever",
+          "n": "2023",
+          "w": 1.03,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2024-tiger",
+          "t": "Tiger",
+          "n": "2024",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2024-the-beach-boys",
+          "t": "The Beach Boys",
+          "n": "2024",
+          "w": 1.88,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2024-young-woman-and-the-sea",
+          "t": "Young Woman and the Sea",
+          "n": "2024",
+          "w": 2.15,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2024-big-city-greens-the-movie-spacecation",
+          "t": "Big City Greens the Movie: Spacecation",
+          "n": "2024",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2024-descendants-the-rise-of-red",
+          "t": "Descendants: The Rise of Red",
+          "n": "2024",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2024-blink",
+          "t": "Blink",
+          "n": "2024",
+          "w": 1.4,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2024-moana-2",
+          "t": "Moana 2",
+          "n": "2024",
+          "w": 1.67,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2024-mufasa-the-lion-king",
+          "t": "Mufasa: The Lion King",
+          "n": "2024",
+          "w": 1.97,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2025-snow-white",
+          "t": "Snow White",
+          "n": "2025",
+          "w": 1.82,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2025-alexander-and-the-terrible-horrible-no-good-very-bad-road-trip",
+          "t": "Alexander and the Terrible, Horrible, No Good, Very Bad Road Trip",
+          "n": "2025",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2025-sea-lions-of-the-galapagos",
+          "t": "Sea Lions of the Galapagos",
+          "n": "2025",
+          "w": 1.38,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2025-elio",
+          "t": "Elio",
+          "n": "2025",
+          "w": 1.65,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2025-zombies-4-dawn-of-the-vampires",
+          "t": "Zombies 4: Dawn of the Vampires",
+          "n": "2025",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie"
+        },
+        {
+          "id": "dis-2025-freakier-friday",
+          "t": "Freakier Friday",
+          "n": "2025",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2025-tron-ares",
+          "t": "Tron: Ares",
+          "n": "2025",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2025-zootopia-2",
+          "t": "Zootopia 2",
+          "n": "2025",
+          "w": 1.8,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2025-diary-of-a-wimpy-kid-the-last-straw",
+          "t": "Diary of a Wimpy Kid: The Last Straw",
+          "n": "2025",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2026-hoppers",
+          "t": "Hoppers",
+          "n": "2026",
+          "w": 1.75,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2026-orangutan",
+          "t": "Orangutan",
+          "n": "2026",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ],
+          "note": "Not out yet"
+        },
+        {
+          "id": "dis-2026-descendants-wicked-wonderland",
+          "t": "Descendants: Wicked Wonderland",
+          "n": "2026",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie · Not out yet"
+        },
+        {
+          "id": "dis-2026-camp-rock-3",
+          "t": "Camp Rock 3",
+          "n": "2026",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie · Not out yet"
+        },
+        {
+          "id": "dis-2026-hexed",
+          "t": "Hexed",
+          "n": "2026",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ],
+          "note": "Not out yet"
+        },
+        {
+          "id": "dis-2027-gatto",
+          "t": "Gatto",
+          "n": "2027",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ],
+          "note": "Not out yet"
+        },
+        {
+          "id": "dis-2027-the-cheetah-girls-next-gen",
+          "t": "The Cheetah Girls: Next Gen",
+          "n": "2027",
+          "w": 0.0,
+          "tier": 2,
+          "tags": [
+            "Television"
+          ],
+          "note": "TV movie · Not out yet"
+        },
+        {
+          "id": "dis-2027-the-bluey-movie",
+          "t": "The Bluey Movie",
+          "n": "2027",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ],
+          "note": "Not out yet"
+        },
+        {
+          "id": "dis-2027-frozen-3",
+          "t": "Frozen 3",
+          "n": "2027",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ],
+          "note": "Not out yet"
+        },
+        {
+          "id": "dis-2028-ghost-market",
+          "t": "Ghost Market",
+          "n": "2028",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ],
+          "note": "Not out yet"
+        },
+        {
+          "id": "dis-2028-lilo-stitch-2",
+          "t": "Lilo & Stitch 2",
+          "n": "2028",
+          "w": 1.8,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ]
+        },
+        {
+          "id": "dis-2028-clay",
+          "t": "Clay",
+          "n": "2028",
+          "w": 0.0,
+          "tier": 1,
+          "tags": [
+            "Theatrical"
+          ],
+          "note": "Not out yet"
+        }
+      ]
+    }
+  ]
+}

@@ -120,6 +120,21 @@
     "total": 1190
   },
   {
+    "slug": "cyberpunk-edgerunners",
+    "title": "Cyberpunk: Edgerunners",
+    "subtitle": "",
+    "kind": "anime",
+    "year": "2022",
+    "blurb": "Season one — ten episodes across two weeks, five a week.",
+    "accent": "#A8B820",
+    "accentDark": "#D4E338",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 10
+  },
+  {
     "slug": "lanterns",
     "title": "Lanterns",
     "subtitle": "Hal Jordan and John Stewart",
@@ -302,10 +317,10 @@
   {
     "slug": "star-wars",
     "title": "Star Wars",
-    "subtitle": "films, television and the Disney-era games, in release order",
-    "kind": "films, shows & games",
+    "subtitle": "every film and television season, in release order",
+    "kind": "films & shows",
     "year": "1977–",
-    "blurb": "16 films, 36 television seasons and 0 games in the order they came out — about 236 hours of screen time.",
+    "blurb": "16 films and 36 television seasons in the order they came out — about 236 hours.",
     "accent": "#8A6D1F",
     "accentDark": "#E8C450",
     "unit": {
@@ -328,6 +343,21 @@
       "many": "games"
     },
     "total": 68
+  },
+  {
+    "slug": "disney",
+    "title": "Disney",
+    "subtitle": "the studio's own films, in release order",
+    "kind": "films",
+    "year": "1937–",
+    "blurb": "654 films from Snow White on — 465 theatrical, 163 television, 26 direct-to-video — about 911 hours.",
+    "accent": "#1F4FA8",
+    "accentDark": "#6F9BE8",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 654
   },
   {
     "slug": "secret",
