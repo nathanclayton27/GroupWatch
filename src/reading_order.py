@@ -56,7 +56,8 @@ F4N = {570:("\u201cSolve everything\u201d \u2014 the thesis statement for the wh
        588:("The silent issue \u2014 no dialogue at all",1)}
 
 SECTIONS = [
- {"id":"shield","tier":3,"title":"S.H.I.E.L.D.","sub":"2010\u20132011 \u00b7 skip on a first read","series":L(("Vol. 1",S_SH1),("Vol. 2",S_SH2)),
+ {"id":"shield","tier":3,"title":"S.H.I.E.L.D.","sub":"2010\u20132011 \u00b7 come back to it later, but it rules","series":L(("Vol. 1",S_SH1),("Vol. 2",S_SH2)),
+  "intro":'This one rules. It is dense, it is complicated, and it sits off to one side of everything else here \u2014 so leaving it until later costs you nothing, and picking it up cold is genuinely hard going.\n\nCome back for it though. It is one of the coolest comic series anyone has made.',
   "items":[it("S.H.I.E.L.D. (2010)","#%d"%n) for n in range(1,7)]
         + [it("S.H.I.E.L.D.: Infinity","#1")]
         + [it("S.H.I.E.L.D. (2011)","#%d"%n, "the back half was heavily delayed" if n==6 else "") for n in range(1,7)]},
