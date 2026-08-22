@@ -420,6 +420,66 @@
     "total": 54
   },
   {
+    "slug": "x-files",
+    "title": "The X-Files",
+    "subtitle": "eleven seasons and both films, in release order",
+    "kind": "tv & films",
+    "year": "1993–2018",
+    "blurb": "218 episodes across 11 seasons, with the two films where they landed — about 167 hours.",
+    "accent": "#275E6B",
+    "accentDark": "#6FC0D0",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 13
+  },
+  {
+    "slug": "kubrick",
+    "title": "Stanley Kubrick",
+    "subtitle": "the thirteen features, plus A.I.",
+    "kind": "films",
+    "year": "1953–2001",
+    "blurb": "The thirteen features in release order, the early shorts as optional rows, and Spielberg's A.I. as a coda — about 31 hours.",
+    "accent": "#202830",
+    "accentDark": "#B8C4CE",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 17
+  },
+  {
+    "slug": "tom-cruise",
+    "title": "Tom Cruise",
+    "subtitle": "the acting filmography, in release order",
+    "kind": "films",
+    "year": "1981–2025",
+    "blurb": "45 films in release order, 1981 to 2025 — about 94 hours, 8 of them as Ethan Hunt.",
+    "accent": "#1F6F63",
+    "accentDark": "#6FD0B8",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 45
+  },
+  {
+    "slug": "spielberg",
+    "title": "Steven Spielberg",
+    "subtitle": "the films he directed, in release order",
+    "kind": "films",
+    "year": "1971–",
+    "blurb": "Every feature he directed, Duel through Disclosure Day — 35 films, about 78 hours.",
+    "accent": "#7A4A1E",
+    "accentDark": "#E0A265",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 35
+  },
+  {
     "slug": "secret",
     "title": "Secret",
     "subtitle": "",

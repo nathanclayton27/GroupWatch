@@ -1,0 +1,170 @@
+{
+  "slug": "x-files",
+  "title": "The X-Files",
+  "subtitle": "eleven seasons and both films, in release order",
+  "kind": "tv & films",
+  "order": 26,
+  "year": "1993–2018",
+  "blurb": "218 episodes across 11 seasons, with the two films where they landed — about 167 hours.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#275E6B",
+  "accentDark": "#6FC0D0",
+  "tiers": false,
+  "notes": [
+    [
+      "Mythology and monster-of-the-week both live here.",
+      "The show famously splits into an ongoing mythology and standalone episodes, but a season row holds both — this list tracks whole seasons and does not filter the distinction."
+    ],
+    [
+      "Season bars are episode count × 45 minutes.",
+      "A declared convention, not a measured runtime — network hours varied. The films weigh their real runtimes, from Wikidata."
+    ],
+    "Episode counts and air dates from the series-overview table on Wikipedia's List of The X-Files episodes; film runtimes from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "original",
+      "title": "The original run",
+      "sub": "1993–98 · seasons 1–5 · 117 episodes",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_The_X-Files_episodes"
+        }
+      ],
+      "open": true,
+      "items": [
+        {
+          "id": "xf-s1",
+          "t": "Season 1",
+          "n": "1993–94",
+          "note": "24 episodes",
+          "w": 18.0
+        },
+        {
+          "id": "xf-s2",
+          "t": "Season 2",
+          "n": "1994–95",
+          "note": "25 episodes",
+          "w": 18.75
+        },
+        {
+          "id": "xf-s3",
+          "t": "Season 3",
+          "n": "1995–96",
+          "note": "24 episodes",
+          "w": 18.0
+        },
+        {
+          "id": "xf-s4",
+          "t": "Season 4",
+          "n": "1996–97",
+          "note": "24 episodes",
+          "w": 18.0
+        },
+        {
+          "id": "xf-s5",
+          "t": "Season 5",
+          "n": "1997–98",
+          "note": "20 episodes",
+          "w": 15.0
+        }
+      ]
+    },
+    {
+      "id": "films-and-later",
+      "title": "The films and seasons 6–9",
+      "sub": "1998–2008 · both films around 85 more episodes",
+      "links": [
+        {
+          "label": "Fight the Future",
+          "url": "https://en.wikipedia.org/wiki/The_X-Files_(film)"
+        },
+        {
+          "label": "I Want to Believe",
+          "url": "https://en.wikipedia.org/wiki/The_X-Files:_I_Want_to_Believe"
+        }
+      ],
+      "items": [
+        {
+          "id": "xf-film-1998",
+          "t": "The X-Files: Fight the Future",
+          "n": "1998",
+          "note": "The first film · 121 minutes · released between seasons 5 and 6",
+          "w": 2.02
+        },
+        {
+          "id": "xf-s6",
+          "t": "Season 6",
+          "n": "1998–99",
+          "note": "22 episodes",
+          "w": 16.5
+        },
+        {
+          "id": "xf-s7",
+          "t": "Season 7",
+          "n": "1999–2000",
+          "note": "22 episodes",
+          "w": 16.5
+        },
+        {
+          "id": "xf-s8",
+          "t": "Season 8",
+          "n": "2000–01",
+          "note": "21 episodes",
+          "w": 15.75
+        },
+        {
+          "id": "xf-s9",
+          "t": "Season 9",
+          "n": "2001–02",
+          "note": "20 episodes",
+          "w": 15.0
+        },
+        {
+          "id": "xf-film-2008",
+          "t": "The X-Files: I Want to Believe",
+          "n": "2008",
+          "note": "The second film · 104 minutes · released six years after the series ended",
+          "w": 1.73
+        }
+      ]
+    },
+    {
+      "id": "revival",
+      "title": "The revival",
+      "sub": "2016–18 · seasons 10 and 11 · 16 episodes",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_The_X-Files_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "xf-s10",
+          "t": "Season 10",
+          "n": "2016",
+          "note": "6 episodes",
+          "w": 4.5
+        },
+        {
+          "id": "xf-s11",
+          "t": "Season 11",
+          "n": "2018",
+          "note": "10 episodes",
+          "w": 7.5
+        }
+      ]
+    }
+  ]
+}
