@@ -27,6 +27,1168 @@
       "Nominees"
     ]
   },
+  "altSections": {
+    "when": [
+      "Winners"
+    ],
+    "sections": [
+      {
+        "id": "d1920",
+        "title": "The 1920s",
+        "sub": "2 winners · 4 hours",
+        "items": [
+          {
+            "id": "bp-1928-wings",
+            "t": "Wings",
+            "n": "1927/28",
+            "w": 2.35,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1929-the-broadway-melody",
+            "t": "The Broadway Melody",
+            "n": "1928/29",
+            "w": 1.83,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d1930",
+        "title": "The 1930s",
+        "sub": "10 winners · 23 hours",
+        "items": [
+          {
+            "id": "bp-1930-all-quiet-on-the-western-front",
+            "t": "All Quiet on the Western Front",
+            "n": "1929/30",
+            "w": 2.27,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1931-cimarron",
+            "t": "Cimarron",
+            "n": "1930/31",
+            "w": 2.18,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1932-grand-hotel",
+            "t": "Grand Hotel",
+            "n": "1931/32",
+            "w": 1.88,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1933-cavalcade",
+            "t": "Cavalcade",
+            "n": "1932/33",
+            "w": 1.83,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1934-it-happened-one-night",
+            "t": "It Happened One Night",
+            "n": "1934",
+            "w": 1.75,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1935-mutiny-on-the-bounty",
+            "t": "Mutiny on the Bounty",
+            "n": "1935",
+            "w": 2.2,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1936-the-great-ziegfeld",
+            "t": "The Great Ziegfeld",
+            "n": "1936",
+            "w": 2.93,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1937-the-life-of-emile-zola",
+            "t": "The Life of Emile Zola",
+            "n": "1937",
+            "w": 1.93,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1938-you-can-t-take-it-with-you",
+            "t": "You Can't Take It with You",
+            "n": "1938",
+            "w": 2.1,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1939-gone-with-the-wind",
+            "t": "Gone with the Wind",
+            "n": "1939",
+            "w": 3.97,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d1940",
+        "title": "The 1940s",
+        "sub": "10 winners · 21 hours",
+        "items": [
+          {
+            "id": "bp-1940-rebecca",
+            "t": "Rebecca",
+            "n": "1940",
+            "w": 2.1,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1941-how-green-was-my-valley",
+            "t": "How Green Was My Valley",
+            "n": "1941",
+            "w": 1.97,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1942-mrs-miniver",
+            "t": "Mrs. Miniver",
+            "n": "1942",
+            "w": 2.23,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1943-casablanca",
+            "t": "Casablanca",
+            "n": "1943",
+            "w": 1.7,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1944-going-my-way",
+            "t": "Going My Way",
+            "n": "1944",
+            "w": 2.17,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1945-the-lost-weekend",
+            "t": "The Lost Weekend",
+            "n": "1945",
+            "w": 1.68,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1946-the-best-years-of-our-lives",
+            "t": "The Best Years of Our Lives",
+            "n": "1946",
+            "w": 2.87,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1947-gentleman-s-agreement",
+            "t": "Gentleman's Agreement",
+            "n": "1947",
+            "w": 1.97,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1948-hamlet",
+            "t": "Hamlet",
+            "n": "1948",
+            "w": 2.5,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1949-all-the-king-s-men",
+            "t": "All the King's Men",
+            "n": "1949",
+            "w": 1.82,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d1950",
+        "title": "The 1950s",
+        "sub": "10 winners · 23 hours",
+        "items": [
+          {
+            "id": "bp-1950-all-about-eve",
+            "t": "All About Eve",
+            "n": "1950",
+            "w": 2.3,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1951-an-american-in-paris",
+            "t": "An American in Paris",
+            "n": "1951",
+            "w": 1.8,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1952-the-greatest-show-on-earth",
+            "t": "The Greatest Show on Earth",
+            "n": "1952",
+            "w": 2.53,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1953-from-here-to-eternity",
+            "t": "From Here to Eternity",
+            "n": "1953",
+            "w": 1.97,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1954-on-the-waterfront",
+            "t": "On the Waterfront",
+            "n": "1954",
+            "w": 1.8,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1955-marty",
+            "t": "Marty",
+            "n": "1955",
+            "w": 1.52,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1956-around-the-world-in-80-days",
+            "t": "Around the World in 80 Days",
+            "n": "1956",
+            "w": 3.07,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1957-the-bridge-on-the-river-kwai",
+            "t": "The Bridge on the River Kwai",
+            "n": "1957",
+            "w": 2.6,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1958-gigi",
+            "t": "Gigi",
+            "n": "1958",
+            "w": 1.98,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1959-ben-hur",
+            "t": "Ben-Hur",
+            "n": "1959",
+            "w": 3.7,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d1960",
+        "title": "The 1960s",
+        "sub": "10 winners · 24 hours",
+        "items": [
+          {
+            "id": "bp-1960-the-apartment",
+            "t": "The Apartment",
+            "n": "1960",
+            "w": 2.08,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1961-west-side-story",
+            "t": "West Side Story",
+            "n": "1961",
+            "w": 2.5,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1962-lawrence-of-arabia",
+            "t": "Lawrence of Arabia",
+            "n": "1962",
+            "w": 3.6,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1963-tom-jones",
+            "t": "Tom Jones",
+            "n": "1963",
+            "w": 2.13,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1964-my-fair-lady",
+            "t": "My Fair Lady",
+            "n": "1964",
+            "w": 2.85,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1965-the-sound-of-music",
+            "t": "The Sound of Music",
+            "n": "1965",
+            "w": 2.9,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1966-a-man-for-all-seasons",
+            "t": "A Man for All Seasons",
+            "n": "1966",
+            "w": 1.97,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1967-in-the-heat-of-the-night",
+            "t": "In the Heat of the Night",
+            "n": "1967",
+            "w": 1.82,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1968-oliver",
+            "t": "Oliver!",
+            "n": "1968",
+            "w": 2.43,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1969-midnight-cowboy",
+            "t": "Midnight Cowboy",
+            "n": "1969",
+            "w": 1.8,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d1970",
+        "title": "The 1970s",
+        "sub": "10 winners · 23 hours",
+        "items": [
+          {
+            "id": "bp-1970-patton",
+            "t": "Patton",
+            "n": "1970",
+            "w": 2.83,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1971-the-french-connection",
+            "t": "The French Connection",
+            "n": "1971",
+            "w": 1.73,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1972-the-godfather",
+            "t": "The Godfather",
+            "n": "1972",
+            "w": 2.92,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1973-the-sting",
+            "t": "The Sting",
+            "n": "1973",
+            "w": 2.15,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1974-the-godfather-part-ii",
+            "t": "The Godfather Part II",
+            "n": "1974",
+            "w": 3.37,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1975-one-flew-over-the-cuckoo-s-nest",
+            "t": "One Flew Over the Cuckoo's Nest",
+            "n": "1975",
+            "w": 2.22,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1976-rocky",
+            "t": "Rocky",
+            "n": "1976",
+            "w": 1.98,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1977-annie-hall",
+            "t": "Annie Hall",
+            "n": "1977",
+            "w": 1.55,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1978-the-deer-hunter",
+            "t": "The Deer Hunter",
+            "n": "1978",
+            "w": 3.03,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1979-kramer-vs-kramer",
+            "t": "Kramer vs. Kramer",
+            "n": "1979",
+            "w": 1.67,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d1980",
+        "title": "The 1980s",
+        "sub": "10 winners · 23 hours",
+        "items": [
+          {
+            "id": "bp-1980-ordinary-people",
+            "t": "Ordinary People",
+            "n": "1980",
+            "w": 2.07,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1981-chariots-of-fire",
+            "t": "Chariots of Fire",
+            "n": "1981",
+            "w": 1.97,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1982-gandhi",
+            "t": "Gandhi",
+            "n": "1982",
+            "w": 3.02,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1983-terms-of-endearment",
+            "t": "Terms of Endearment",
+            "n": "1983",
+            "w": 2.2,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1984-amadeus",
+            "t": "Amadeus",
+            "n": "1984",
+            "w": 2.68,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1985-out-of-africa",
+            "t": "Out of Africa",
+            "n": "1985",
+            "w": 2.67,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1986-platoon",
+            "t": "Platoon",
+            "n": "1986",
+            "w": 1.92,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1987-the-last-emperor",
+            "t": "The Last Emperor",
+            "n": "1987",
+            "w": 2.75,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1988-rain-man",
+            "t": "Rain Man",
+            "n": "1988",
+            "w": 2.13,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1989-driving-miss-daisy",
+            "t": "Driving Miss Daisy",
+            "n": "1989",
+            "w": 1.65,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d1990",
+        "title": "The 1990s",
+        "sub": "10 winners · 26 hours",
+        "items": [
+          {
+            "id": "bp-1990-dances-with-wolves",
+            "t": "Dances With Wolves",
+            "n": "1990",
+            "w": 3.02,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1991-the-silence-of-the-lambs",
+            "t": "The Silence of the Lambs",
+            "n": "1991",
+            "w": 1.97,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1992-unforgiven",
+            "t": "Unforgiven",
+            "n": "1992",
+            "w": 2.18,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1993-schindler-s-list",
+            "t": "Schindler's List",
+            "n": "1993",
+            "w": 3.25,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1994-forrest-gump",
+            "t": "Forrest Gump",
+            "n": "1994",
+            "w": 2.37,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1995-braveheart",
+            "t": "Braveheart",
+            "n": "1995",
+            "w": 2.97,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1996-the-english-patient",
+            "t": "The English Patient",
+            "n": "1996",
+            "w": 2.7,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1997-titanic",
+            "t": "Titanic",
+            "n": "1997",
+            "w": 3.25,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1998-shakespeare-in-love",
+            "t": "Shakespeare in Love",
+            "n": "1998",
+            "w": 2.05,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-1999-american-beauty",
+            "t": "American Beauty",
+            "n": "1999",
+            "w": 2.02,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d2000",
+        "title": "The 2000s",
+        "sub": "10 winners · 23 hours",
+        "items": [
+          {
+            "id": "bp-2000-gladiator",
+            "t": "Gladiator",
+            "n": "2000",
+            "w": 2.58,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2001-a-beautiful-mind",
+            "t": "A Beautiful Mind",
+            "n": "2001",
+            "w": 2.25,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2002-chicago",
+            "t": "Chicago",
+            "n": "2002",
+            "w": 1.88,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2003-the-lord-of-the-rings-the-return-of-the-king",
+            "t": "The Lord of the Rings: The Return of the King",
+            "n": "2003",
+            "w": 3.33,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2004-million-dollar-baby",
+            "t": "Million Dollar Baby",
+            "n": "2004",
+            "w": 2.2,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2005-crash",
+            "t": "Crash",
+            "n": "2005",
+            "w": 1.87,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2006-the-departed",
+            "t": "The Departed",
+            "n": "2006",
+            "w": 2.52,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2007-no-country-for-old-men",
+            "t": "No Country for Old Men",
+            "n": "2007",
+            "w": 2.03,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2008-slumdog-millionaire",
+            "t": "Slumdog Millionaire",
+            "n": "2008",
+            "w": 2.0,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2009-the-hurt-locker",
+            "t": "The Hurt Locker",
+            "n": "2009",
+            "w": 2.18,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d2010",
+        "title": "The 2010s",
+        "sub": "10 winners · 20 hours",
+        "items": [
+          {
+            "id": "bp-2010-the-king-s-speech",
+            "t": "The King's Speech",
+            "n": "2010",
+            "w": 1.97,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2011-the-artist",
+            "t": "The Artist",
+            "n": "2011",
+            "w": 1.67,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2012-argo",
+            "t": "Argo",
+            "n": "2012",
+            "w": 2.0,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2013-12-years-a-slave",
+            "t": "12 Years a Slave",
+            "n": "2013",
+            "w": 2.22,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2014-birdman-or-the-unexpected-virtue-of-ignorance",
+            "t": "Birdman or (The Unexpected Virtue of Ignorance)",
+            "n": "2014",
+            "w": 1.98,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2015-spotlight",
+            "t": "Spotlight",
+            "n": "2015",
+            "w": 2.12,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2016-moonlight",
+            "t": "Moonlight",
+            "n": "2016",
+            "w": 1.85,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2017-the-shape-of-water",
+            "t": "The Shape of Water",
+            "n": "2017",
+            "w": 2.05,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2018-green-book",
+            "t": "Green Book",
+            "n": "2018",
+            "w": 2.17,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2019-parasite",
+            "t": "Parasite",
+            "n": "2019",
+            "w": 2.2,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d2020",
+        "title": "The 2020s",
+        "sub": "6 winners · 14 hours",
+        "items": [
+          {
+            "id": "bp-2020-nomadland",
+            "t": "Nomadland",
+            "n": "2020/21",
+            "w": 1.78,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2021-coda",
+            "t": "CODA",
+            "n": "2021",
+            "w": 1.85,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2022-everything-everywhere-all-at-once",
+            "t": "Everything Everywhere All at Once",
+            "n": "2022",
+            "w": 2.32,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2023-oppenheimer",
+            "t": "Oppenheimer",
+            "n": "2023",
+            "w": 3.0,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2024-anora",
+            "t": "Anora",
+            "n": "2024",
+            "w": 2.32,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          },
+          {
+            "id": "bp-2025-one-battle-after-another",
+            "t": "One Battle After Another",
+            "n": "2025",
+            "w": 2.69,
+            "note": "Won Best Picture",
+            "star": 2,
+            "tags": [
+              "Winners"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "notes": [
     [
       "Each year's winner sits first, starred.",

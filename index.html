@@ -1131,7 +1131,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'a5cef833dd70';
+const BUILD = '40a1e91133d8';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -1274,36 +1274,10 @@ async function loadProperty(){
     }
   }
   UNIT = PROP.unit || UNIT;
-  // a daily list is built here rather than shipped, so it reaches today
-  DATA = PROP.generate ? generateSections(PROP.generate, UNIT.one)
-                       : (PROP.sections || []);
-  TOTAL = DATA.reduce((a,s)=>a+s.items.length,0);
   TIERED = !!PROP.tiers;
   VERB = PROP.verb || VERB;
   NUMFIRST = PROP.itemOrder === 'number-first';
   ITEMTIERS = !!PROP.itemTiers;
-  TIEROF = DATA.flatMap(s=> s.items.map(x=> x.tier || s.tier || 1));
-  TIERTOT = {1:0,2:0,3:0};
-  TIEROF.forEach(t=> TIERTOT[t] += 1);
-  FLAT = []; SECOF = []; SECSTART = new Set();
-  DATA.forEach(sec=> sec.items.forEach((x,i)=>{
-    if(i === 0 && FLAT.length) SECSTART.add(FLAT.length);
-    SECOF.push(sec);
-    FLAT.push({t:x.t, n:x.n, note:x.note||'', sec:sec.title, tags:x.tags||[]});
-  }));
-  ORDER = DATA.flatMap(s=>s.items.map(x=>x.id));
-  VALID = new Set(ORDER);
-  IDX = new Map(ORDER.map((id,i)=>[id,i]));
-  WEIGHTED = DATA.some(s=> s.items.some(x=> typeof x.w === 'number'));
-  WEIGHT = DATA.flatMap(s=> s.items.map(
-    x=> typeof x.w === 'number' && x.w >= 0 ? x.w : 1));
-  CUMW = []; TOTALW = 0;
-  WEIGHT.forEach(w=>{ TOTALW += w; CUMW.push(TOTALW); });
-  // an all-zero weight set would divide by zero everywhere downstream
-  if(!(TOTALW > 0)){
-    WEIGHTED = false; WEIGHT = ORDER.map(()=>1);
-    CUMW = ORDER.map((_,i)=>i+1); TOTALW = TOTAL;
-  }
   PACETIERS = Array.isArray(PROP.paceTiers) && PROP.paceTiers.length
             ? PROP.paceTiers : null;
   PACELABEL = PROP.paceLabel || PACELABEL;
@@ -1321,7 +1295,10 @@ async function loadProperty(){
   }
   PACEALL = false;
   try{ PACEALL = localStorage.getItem(PKEY) === '1'; }catch(e){}
-  computePace();
+  // a daily list is built here rather than shipped, so it reaches today
+  BASESECS = PROP.generate ? generateSections(PROP.generate, UNIT.one)
+                           : (PROP.sections || []);
+  adoptSections(altWanted() ? PROP.altSections.sections : BASESECS);
   // Never make a still-locked list the one the site reopens on. It did, and
   // because the gate also hid the switcher there was no way back out: every
   // visit landed on a password box with no navigation. Both halves of that are
@@ -3084,6 +3061,49 @@ document.addEventListener('keydown', e=>{
   document.querySelectorAll('.sldrop').forEach(d=> d.classList.add('hide'));
 });
 
+// Everything the page derives from the section list, in one place — because
+// the section list can now change at runtime. A property may declare
+// altSections: {when: [...], sections: [...]}, an alternate grouping of (a
+// subset of) the same items used while the filter selection is exactly `when`.
+// Best Picture uses it: winners-only regroups 98 one-film ceremony sections
+// into decades. Item ids are identical between views, so ticks carry over.
+let BASESECS = [];
+
+function altWanted(){
+  const alt = PROP && PROP.altSections;
+  if(!alt || !Array.isArray(alt.sections) || !FILTER) return false;
+  const want = (alt.when || []).slice().sort().join(" ");
+  return want === [...FILTERON].sort().join(" ");
+}
+
+function adoptSections(secs){
+  DATA = secs;
+  TOTAL = DATA.reduce((a,s)=>a+s.items.length,0);
+  TIEROF = DATA.flatMap(s=> s.items.map(x=> x.tier || s.tier || 1));
+  TIERTOT = {1:0,2:0,3:0};
+  TIEROF.forEach(t=> TIERTOT[t] += 1);
+  FLAT = []; SECOF = []; SECSTART = new Set();
+  DATA.forEach(sec=> sec.items.forEach((x,i)=>{
+    if(i === 0 && FLAT.length) SECSTART.add(FLAT.length);
+    SECOF.push(sec);
+    FLAT.push({t:x.t, n:x.n, note:x.note||'', sec:sec.title, tags:x.tags||[]});
+  }));
+  ORDER = DATA.flatMap(s=>s.items.map(x=>x.id));
+  VALID = new Set(ORDER);
+  IDX = new Map(ORDER.map((id,i)=>[id,i]));
+  WEIGHTED = DATA.some(s=> s.items.some(x=> typeof x.w === 'number'));
+  WEIGHT = DATA.flatMap(s=> s.items.map(
+    x=> typeof x.w === 'number' && x.w >= 0 ? x.w : 1));
+  CUMW = []; TOTALW = 0;
+  WEIGHT.forEach(w=>{ TOTALW += w; CUMW.push(TOTALW); });
+  // an all-zero weight set would divide by zero everywhere downstream
+  if(!(TOTALW > 0)){
+    WEIGHTED = false; WEIGHT = ORDER.map(()=>1);
+    CUMW = ORDER.map((_,i)=>i+1); TOTALW = TOTAL;
+  }
+  computePace();
+}
+
 function tagsOf(x){ return Array.isArray(x.tags) ? x.tags : []; }
 // The strip answers the same question the list does, by flat index. Hiding a
 // category from the rows and leaving its marks on the bar would make the bar
@@ -3143,13 +3163,13 @@ function renderFilter(){
     const v = b.dataset.v;
     FILTERON.has(v) ? FILTERON.delete(v) : FILTERON.add(v);
     try{ localStorage.setItem(FKEY, JSON.stringify([...FILTERON])); }catch(e){}
-    renderFilter(); applyFilter();
+    refreshView();
   });
   const c = $('f-clear');
   if(c) c.onclick = ()=>{
     FILTERON.clear();
     try{ localStorage.setItem(FKEY, '[]'); }catch(e){}
-    renderFilter(); applyFilter();
+    refreshView();
   };
 }
 
@@ -3184,6 +3204,41 @@ function applyFilter(){
 
 // ids are author-supplied, so they can carry a quote or a bracket
 function cssEsc(s){ return String(s).replace(/["\\]/g, '\\$&'); }
+
+// The solo strip, separately from build() so a filter toggle can redraw the
+// bar without rebuilding the list. This was the bug: the strip honoured the
+// filter at load and never on click, so the list narrowed and the bar did not.
+function renderStrip(){
+  $('strip').innerHTML = rowsFor().map(([a,b])=>{
+    let r = '', first = true;
+    for(let i=a;i<b;i++){
+      if(!visibleAt(i)) continue;
+      if(!first && SECSTART.has(i)) r += '<span class="tick sep"></span>';
+      first = false;
+      r += '<span class="tick'+(TIERED&&TIEROF[i]===1?' t1':'')
+         + '" data-t="'+ORDER[i]+'" data-i="'+i+'"'
+         + (WEIGHTED?' style="--w:'+WEIGHT[i]+'"':'')+'></span>';
+    }
+    return '<div class="striprow'+(WEIGHTED?' wtd':'')+'">'+r+'</div>';
+  }).join('');
+  $('strip').querySelectorAll('.striprow').forEach(r=> wireStrip(r, false, LIFT_SOLO));
+}
+
+// What a filter change has to refresh: the list (rebuilt only when the
+// selection swaps the section grouping), the bar, the states, and the stack.
+function refreshView(){
+  const want = altWanted() ? PROP.altSections.sections : BASESECS;
+  if(DATA !== want){
+    adoptSections(want);
+    build();
+  }else{
+    renderStrip();
+  }
+  renderFilter();
+  applyFilter();
+  paint();
+  paintStack();
+}
 
 function build(){
   $('list').innerHTML = DATA.map(s=>{
@@ -3226,19 +3281,12 @@ function build(){
       +'<ol>'+rows+'</ol></details>';
   }).join('');
 
-  $('strip').innerHTML = rowsFor().map(([a,b])=>{
-    let r = '', first = true;
-    for(let i=a;i<b;i++){
-      if(!visibleAt(i)) continue;
-      if(!first && SECSTART.has(i)) r += '<span class="tick sep"></span>';
-      first = false;
-      r += '<span class="tick'+(TIERED&&TIEROF[i]===1?' t1':'')
-         + '" data-t="'+ORDER[i]+'" data-i="'+i+'"'
-         + (WEIGHTED?' style="--w:'+WEIGHT[i]+'"':'')+'></span>';
-    }
-    return '<div class="striprow'+(WEIGHTED?' wtd':'')+'">'+r+'</div>';
-  }).join('');
-  $('strip').querySelectorAll('.striprow').forEach(r=> wireStrip(r, false, LIFT_SOLO));
+  renderStrip();
+
+  // Delegated listeners are wired once: build() re-runs when the filter swaps
+  // the section grouping, and re-adding them would double every click.
+  if(build.wired) return;
+  build.wired = true;
 
   // Bulk controls. The header button fills the section; once the section is
   // complete it turns into a clear, which only appears on hover — the same

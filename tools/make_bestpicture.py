@@ -298,6 +298,35 @@ def main():
             sec["open"] = True
         sections.append(sec)
 
+    # The winners-only view. When the filter selection is exactly {Winners}
+    # the page swaps to this grouping: the same 98 winner rows (identical ids,
+    # so ticks carry over), one section per decade instead of 98 sections of
+    # one film each. The n stays the ceremony label, which is what dates it.
+    decades = {}
+    for g in groups:
+        w = g["films"][0]
+        r = runt[w["target"]]["min"]
+        row = {"id": "bp-%d-%s" % (g["year"], slug(w["t"])),
+               "t": w["t"], "n": g["label"],
+               "w": round(r / 60.0, 2) if r else 0,
+               "note": "Won Best Picture", "star": 2, "tags": ["Winners"]}
+        dec = (g["year"] // 10) * 10
+        decades.setdefault(dec, []).append(row)
+    alt = []
+    for dec in sorted(decades):
+        rows = decades[dec]
+        alt.append({
+            "id": "d%d" % dec, "title": "The %ds" % dec,
+            "sub": "%d winner%s · %d hours"
+                   % (len(rows), "" if len(rows) == 1 else "s",
+                      round(sum(x["w"] for x in rows))),
+            "items": rows,
+        })
+    alt_ids = [x["id"] for s in alt for x in s["items"]]
+    base_ids = {x["id"] for s in sections for x in s["items"]}
+    assert len(alt_ids) == 98 and len(set(alt_ids)) == 98
+    assert set(alt_ids) <= base_ids, "alt view invented an id"
+
     ids = [x["id"] for s in sections for x in s["items"]]
     assert len(ids) == len(set(ids)), \
         "duplicate ids: %s" % sorted({i for i in ids if ids.count(i) > 1})[:6]
@@ -328,6 +357,7 @@ def main():
             "key": "result", "label": "Show", "mode": "include",
             "values": ["Winners", "Nominees"]
         },
+        "altSections": {"when": ["Winners"], "sections": alt},
         "notes": [
             ["Each year's winner sits first, starred.",
              "The tables on Wikipedia open every ceremony with the winner on a "
