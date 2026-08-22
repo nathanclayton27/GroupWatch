@@ -1,0 +1,1696 @@
+{
+ "films": [
+  {
+   "year": 1993,
+   "title": "Batman: Mask of the Phantasm",
+   "page": "Batman: Mask of the Phantasm",
+   "theatrical": true,
+   "runs": [
+    "DCAU"
+   ],
+   "runtime": 77,
+   "released": "1993-12-25"
+  },
+  {
+   "year": 2017,
+   "title": "The Lego Batman Movie",
+   "page": "The Lego Batman Movie",
+   "theatrical": true,
+   "runs": [],
+   "runtime": 105,
+   "released": "2017-02-09"
+  },
+  {
+   "year": 2018,
+   "title": "Teen Titans Go! To the Movies",
+   "page": "Teen Titans Go! To the Movies",
+   "theatrical": true,
+   "runs": [],
+   "runtime": 84,
+   "released": "2018-07-22"
+  },
+  {
+   "year": 2022,
+   "title": "DC League of Super-Pets",
+   "page": "DC League of Super-Pets",
+   "theatrical": true,
+   "runs": [],
+   "runtime": 105,
+   "released": "2022-07-27"
+  },
+  {
+   "year": 2025,
+   "title": "Aztec Batman: Clash of Empires",
+   "page": "Aztec Batman: Clash of Empires",
+   "theatrical": true,
+   "runs": [],
+   "runtime": 89,
+   "released": "2025-09-18"
+  },
+  {
+   "year": 2028,
+   "title": "Dynamic Duo",
+   "page": "Dynamic Duo (film)",
+   "theatrical": true,
+   "runs": [],
+   "runtime": null,
+   "released": "2028-07-01"
+  },
+  {
+   "year": 1998,
+   "title": "Batman & Mr. Freeze: SubZero",
+   "page": "Batman & Mr. Freeze: SubZero",
+   "theatrical": false,
+   "runs": [
+    "DCAU"
+   ],
+   "runtime": 70,
+   "released": "1998-03-17"
+  },
+  {
+   "year": 2000,
+   "title": "Batman Beyond: Return of the Joker",
+   "page": "Batman Beyond: Return of the Joker",
+   "theatrical": false,
+   "runs": [
+    "DCAU"
+   ],
+   "runtime": 74,
+   "released": "2000-07-01"
+  },
+  {
+   "year": 2003,
+   "title": "Batman: Mystery of the Batwoman",
+   "page": "Batman: Mystery of the Batwoman",
+   "theatrical": false,
+   "runs": [
+    "DCAU"
+   ],
+   "runtime": 72,
+   "released": "2003-07-01"
+  },
+  {
+   "year": 2005,
+   "title": "The Batman vs. Dracula",
+   "page": "The Batman vs. Dracula",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 85,
+   "released": "2005-10-18"
+  },
+  {
+   "year": 2006,
+   "title": "Superman: Brainiac Attacks",
+   "page": "Superman: Brainiac Attacks",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 75,
+   "released": "2006-07-01"
+  },
+  {
+   "year": 2006,
+   "title": "Teen Titans: Trouble in Tokyo",
+   "page": "Teen Titans: Trouble in Tokyo",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 75,
+   "released": "2006-09-15"
+  },
+  {
+   "year": 2007,
+   "title": "Superman: Doomsday",
+   "page": "Superman: Doomsday",
+   "theatrical": false,
+   "dcuaom": "2007-09-21",
+   "runs": [],
+   "runtime": 78,
+   "released": "2007-09-21"
+  },
+  {
+   "year": 2008,
+   "title": "Justice League: The New Frontier",
+   "page": "Justice League: The New Frontier",
+   "theatrical": false,
+   "dcuaom": "2008-02-26",
+   "runs": [],
+   "runtime": 75,
+   "released": "2008-02-26"
+  },
+  {
+   "year": 2008,
+   "title": "Batman: Gotham Knight",
+   "page": "Batman: Gotham Knight",
+   "theatrical": false,
+   "dcuaom": "2008-07-08",
+   "runs": [
+    "The Dark Knight trilogy"
+   ],
+   "runtime": 75,
+   "released": "2008-07-08"
+  },
+  {
+   "year": 2009,
+   "title": "Wonder Woman",
+   "page": "Wonder Woman (2009 film)",
+   "theatrical": false,
+   "dcuaom": "2009-03-03",
+   "runs": [],
+   "runtime": 70,
+   "released": "2009-03-03"
+  },
+  {
+   "year": 2009,
+   "title": "Green Lantern: First Flight",
+   "page": "Green Lantern: First Flight",
+   "theatrical": false,
+   "dcuaom": "2009-07-28",
+   "runs": [],
+   "runtime": 75,
+   "released": "2009-07-28"
+  },
+  {
+   "year": 2009,
+   "title": "Superman/Batman: Public Enemies",
+   "page": "Superman/Batman: Public Enemies",
+   "theatrical": false,
+   "dcuaom": "2009-09-29",
+   "runs": [],
+   "runtime": 67,
+   "released": "2009-09-29"
+  },
+  {
+   "year": 2010,
+   "title": "Justice League: Crisis on Two Earths",
+   "page": "Justice League: Crisis on Two Earths",
+   "theatrical": false,
+   "dcuaom": "2010-02-23",
+   "runs": [],
+   "runtime": 75,
+   "released": "2010-02-23"
+  },
+  {
+   "year": 2010,
+   "title": "Batman: Under the Red Hood",
+   "page": "Batman: Under the Red Hood",
+   "theatrical": false,
+   "dcuaom": "2010-07-07",
+   "runs": [],
+   "runtime": 75,
+   "released": "2010-07-07"
+  },
+  {
+   "year": 2010,
+   "title": "Superman/Batman: Apocalypse",
+   "page": "Superman/Batman: Apocalypse",
+   "theatrical": false,
+   "dcuaom": "2010-09-28",
+   "runs": [],
+   "runtime": 78,
+   "released": "2010-09-28"
+  },
+  {
+   "year": 2011,
+   "title": "All-Star Superman",
+   "page": "All-Star Superman (film)",
+   "theatrical": false,
+   "dcuaom": "2011-02-22",
+   "runs": [],
+   "runtime": 76,
+   "released": "2011-02-22"
+  },
+  {
+   "year": 2011,
+   "title": "Green Lantern: Emerald Knights",
+   "page": "Green Lantern: Emerald Knights",
+   "theatrical": false,
+   "dcuaom": "2011-07-07",
+   "runs": [],
+   "runtime": 84,
+   "released": "2011-07-07"
+  },
+  {
+   "year": 2011,
+   "title": "Batman: Year One",
+   "page": "Batman: Year One (film)",
+   "theatrical": false,
+   "dcuaom": "2011-10-18",
+   "runs": [],
+   "runtime": 64,
+   "released": "2011-10-18"
+  },
+  {
+   "year": 2012,
+   "title": "Justice League: Doom",
+   "page": "Justice League: Doom",
+   "theatrical": false,
+   "dcuaom": "2012-02-28",
+   "runs": [],
+   "runtime": 77,
+   "released": "2012-02-28"
+  },
+  {
+   "year": 2012,
+   "title": "Superman vs. The Elite",
+   "page": "Superman vs. The Elite",
+   "theatrical": false,
+   "dcuaom": "2012-06-12",
+   "runs": [],
+   "runtime": 76,
+   "released": "2012-06-12"
+  },
+  {
+   "year": 2012,
+   "title": "The Dark Knight Returns – Part 1",
+   "page": "Batman: The Dark Knight Returns (film)",
+   "theatrical": false,
+   "dcuaom": "2012-09-25",
+   "runs": [],
+   "runtime": 76,
+   "released": "2012-09-25"
+  },
+  {
+   "year": 2013,
+   "title": "The Dark Knight Returns – Part 2",
+   "page": "Batman: The Dark Knight Returns (film)",
+   "theatrical": false,
+   "dcuaom": "2013-01-29",
+   "runs": [],
+   "runtime": 76,
+   "released": "2013-01-29"
+  },
+  {
+   "year": 2013,
+   "title": "Superman: Unbound",
+   "page": "Superman: Unbound",
+   "theatrical": false,
+   "dcuaom": "2013-05-07",
+   "runs": [],
+   "runtime": 75,
+   "released": "2013-05-07"
+  },
+  {
+   "year": 2013,
+   "title": "Lego Batman: The Movie – DC Super Heroes Unite",
+   "page": "Lego Batman: The Movie – DC Super Heroes Unite",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 67,
+   "released": "2013-05-21"
+  },
+  {
+   "year": 2013,
+   "title": "Justice League: The Flashpoint Paradox",
+   "page": "Justice League: The Flashpoint Paradox",
+   "theatrical": false,
+   "dcuaom": "2013-07-30",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 81,
+   "released": "2013-07-30"
+  },
+  {
+   "year": 2014,
+   "title": "JLA Adventures: Trapped in Time",
+   "page": "JLA Adventures: Trapped in Time",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 52,
+   "released": "2014-01-21"
+  },
+  {
+   "year": 2014,
+   "title": "Justice League: War",
+   "page": "Justice League: War",
+   "theatrical": false,
+   "dcuaom": "2014-02-04",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 79,
+   "released": "2014-02-04"
+  },
+  {
+   "year": 2014,
+   "title": "Son of Batman",
+   "page": "Son of Batman",
+   "theatrical": false,
+   "dcuaom": "2014-05-06",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 74,
+   "released": "2014-05-06"
+  },
+  {
+   "year": 2014,
+   "title": "Batman: Assault on Arkham",
+   "page": "Batman: Assault on Arkham",
+   "theatrical": false,
+   "dcuaom": "2014-07-29",
+   "runs": [],
+   "runtime": 76,
+   "released": "2014-07-29"
+  },
+  {
+   "year": 2015,
+   "title": "Justice League: Throne of Atlantis",
+   "page": "Justice League: Throne of Atlantis",
+   "theatrical": false,
+   "dcuaom": "2015-01-13",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 72,
+   "released": "2015-01-13"
+  },
+  {
+   "year": 2015,
+   "title": "Lego DC Comics Super Heroes: Justice League vs. Bizarro League",
+   "page": "Lego DC Comics Super Heroes: Justice League vs. Bizarro League",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 49,
+   "released": "2015-07-01"
+  },
+  {
+   "year": 2015,
+   "title": "Batman vs. Robin",
+   "page": "Batman vs. Robin",
+   "theatrical": false,
+   "dcuaom": "2015-04-07",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 76,
+   "released": "2015-04-07"
+  },
+  {
+   "year": 2015,
+   "title": "Batman Unlimited: Animal Instincts",
+   "page": "Batman Unlimited: Animal Instincts",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 77,
+   "released": "2015-07-01"
+  },
+  {
+   "year": 2015,
+   "title": "Justice League: Gods and Monsters",
+   "page": "Justice League: Gods and Monsters",
+   "theatrical": false,
+   "dcuaom": "2015-07-28",
+   "runs": [],
+   "runtime": 76,
+   "released": "2015-07-28"
+  },
+  {
+   "year": 2015,
+   "title": "Batman Unlimited: Monster Mayhem",
+   "page": "Batman Unlimited: Monster Mayhem",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 81,
+   "released": "2015-07-01"
+  },
+  {
+   "year": 2015,
+   "title": "Lego DC Comics Super Heroes: Justice League – Attack of the Legion of Doom",
+   "page": "Lego DC Comics Super Heroes: Justice League – Attack of the Legion of Doom",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 72,
+   "released": "2015-07-01"
+  },
+  {
+   "year": 2016,
+   "title": "Batman: Bad Blood",
+   "page": "Batman: Bad Blood",
+   "theatrical": false,
+   "dcuaom": "2016-01-20",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 72,
+   "released": "2016-01-20"
+  },
+  {
+   "year": 2016,
+   "title": "Lego DC Comics Super Heroes: Justice League – Cosmic Clash",
+   "page": "Lego DC Comics Super Heroes: Justice League – Cosmic Clash",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 78,
+   "released": "2016-07-01"
+  },
+  {
+   "year": 2016,
+   "title": "DC Super Hero Girls: Super Hero High",
+   "page": "DC Super Hero Girls: Super Hero High",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 44,
+   "released": "2016-03-19"
+  },
+  {
+   "year": 2016,
+   "title": "Justice League vs. Teen Titans",
+   "page": "Justice League vs. Teen Titans",
+   "theatrical": false,
+   "dcuaom": "2016-03-29",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 79,
+   "released": "2016-03-29"
+  },
+  {
+   "year": 2016,
+   "title": "Lego DC Comics Super Heroes: Justice League – Gotham City Breakout",
+   "page": "Lego DC Comics Super Heroes: Justice League – Gotham City Breakout",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 78,
+   "released": "2016-07-01"
+  },
+  {
+   "year": 2016,
+   "title": "Batman: The Killing Joke",
+   "page": "Batman: The Killing Joke (film)",
+   "theatrical": false,
+   "dcuaom": "2016-07-22",
+   "runs": [],
+   "runtime": 72,
+   "released": "2016-07-22"
+  },
+  {
+   "year": 2016,
+   "title": "DC Super Hero Girls: Hero of the Year",
+   "page": "DC Super Hero Girls: Hero of the Year",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 76,
+   "released": "2016-07-24"
+  },
+  {
+   "year": 2016,
+   "title": "Batman Unlimited: Mechs vs. Mutants",
+   "page": "Batman Unlimited: Mechs vs. Mutants",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 72,
+   "released": "2016-07-24"
+  },
+  {
+   "year": 2016,
+   "title": "Batman: Return of the Caped Crusaders",
+   "page": "Batman: Return of the Caped Crusaders",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 78,
+   "released": "2016-10-11"
+  },
+  {
+   "year": 2017,
+   "title": "Justice League Dark",
+   "page": "Justice League Dark (film)",
+   "theatrical": false,
+   "dcuaom": "2017-01-24",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 75,
+   "released": "2017-01-24"
+  },
+  {
+   "year": 2017,
+   "title": "Teen Titans: The Judas Contract",
+   "page": "Teen Titans: The Judas Contract",
+   "theatrical": false,
+   "dcuaom": "2017-03-31",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 84,
+   "released": "2017-03-31"
+  },
+  {
+   "year": 2017,
+   "title": "DC Super Hero Girls: Intergalactic Games",
+   "page": "DC Super Hero Girls: Intergalactic Games",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 77,
+   "released": "2017-05-09"
+  },
+  {
+   "year": 2017,
+   "title": "Batman and Harley Quinn",
+   "page": "Batman and Harley Quinn",
+   "theatrical": false,
+   "dcuaom": "2017-08-15",
+   "runs": [],
+   "runtime": 74,
+   "released": "2017-08-15"
+  },
+  {
+   "year": 2017,
+   "title": "Lego DC Super Hero Girls: Brain Drain",
+   "page": "Lego DC Super Hero Girls: Brain Drain",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 75,
+   "released": "2017-07-25"
+  },
+  {
+   "year": 2017,
+   "title": "Batman vs. Two-Face",
+   "page": "Batman vs. Two-Face",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 72,
+   "released": "2017-10-10"
+  },
+  {
+   "year": 2018,
+   "title": "Scooby-Doo! & Batman: The Brave and the Bold",
+   "page": "Scooby-Doo! & Batman: The Brave and the Bold",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 75,
+   "released": "2018-01-06"
+  },
+  {
+   "year": 2018,
+   "title": "Batman: Gotham by Gaslight",
+   "page": "Batman: Gotham by Gaslight",
+   "theatrical": false,
+   "dcuaom": "2018-01-23",
+   "runs": [],
+   "runtime": 78,
+   "released": "2018-01-23"
+  },
+  {
+   "year": 2018,
+   "title": "Lego DC Comics Super Heroes: The Flash",
+   "page": "Lego DC Comics Super Heroes: The Flash",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 78,
+   "released": "2018-02-13"
+  },
+  {
+   "year": 2018,
+   "title": "Suicide Squad: Hell to Pay",
+   "page": "Suicide Squad: Hell to Pay",
+   "theatrical": false,
+   "dcuaom": "2018-03-27",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 86,
+   "released": "2018-03-27"
+  },
+  {
+   "year": 2018,
+   "title": "Batman Ninja",
+   "page": "Batman Ninja",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 85,
+   "released": "2018-07-01"
+  },
+  {
+   "year": 2018,
+   "title": "Lego DC Super Hero Girls: Super-Villain High",
+   "page": "Lego DC Super Hero Girls: Super-Villain High",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 78,
+   "released": "2018-07-01"
+  },
+  {
+   "year": 2018,
+   "title": "The Death of Superman",
+   "page": "The Death of Superman (film)",
+   "theatrical": false,
+   "dcuaom": "2018-07-24",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 81,
+   "released": "2018-07-24"
+  },
+  {
+   "year": 2018,
+   "title": "Lego DC Comics Super Heroes: Aquaman – Rage of Atlantis",
+   "page": "Lego DC Comics Super Heroes: Aquaman – Rage of Atlantis",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 77,
+   "released": "2018-07-01"
+  },
+  {
+   "year": 2018,
+   "title": "DC Super Hero Girls: Legends of Atlantis",
+   "page": "DC Super Hero Girls: Legends of Atlantis",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 72,
+   "released": "2018-07-22"
+  },
+  {
+   "year": 2019,
+   "title": "Reign of the Supermen",
+   "page": "Reign of the Supermen (film)",
+   "theatrical": false,
+   "dcuaom": "2019-01-15",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 87,
+   "released": "2019-01-15"
+  },
+  {
+   "year": 2019,
+   "title": "Justice League vs. the Fatal Five",
+   "page": "Justice League vs. the Fatal Five",
+   "theatrical": false,
+   "dcuaom": "2019-03-30",
+   "runs": [],
+   "runtime": 77,
+   "released": "2019-03-30"
+  },
+  {
+   "year": 2019,
+   "title": "Batman vs. Teenage Mutant Ninja Turtles",
+   "page": "Batman vs. Teenage Mutant Ninja Turtles",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 84,
+   "released": "2019-03-31"
+  },
+  {
+   "year": 2019,
+   "title": "Batman: Hush",
+   "page": "Batman: Hush (film)",
+   "theatrical": false,
+   "dcuaom": "2019-07-20",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 82,
+   "released": "2019-07-20"
+  },
+  {
+   "year": 2019,
+   "title": "Lego DC: Batman - Family Matters",
+   "page": "Lego DC Batman: Family Matters",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 72,
+   "released": "2019-07-01"
+  },
+  {
+   "year": 2019,
+   "title": "Teen Titans Go! vs. Teen Titans",
+   "page": "Teen Titans Go! vs. Teen Titans",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 77,
+   "released": "2019-07-01"
+  },
+  {
+   "year": 2019,
+   "title": "Wonder Woman: Bloodlines",
+   "page": "Wonder Woman: Bloodlines",
+   "theatrical": false,
+   "dcuaom": "2019-10-05",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 88,
+   "released": "2019-10-05"
+  },
+  {
+   "year": 2020,
+   "title": "Superman: Red Son",
+   "page": "Superman: Red Son (film)",
+   "theatrical": false,
+   "dcuaom": "2020-02-25",
+   "runs": [],
+   "runtime": 84,
+   "released": "2020-02-25"
+  },
+  {
+   "year": 2020,
+   "title": "Lego DC Shazam! Magic and Monsters",
+   "page": "Lego DC Shazam! Magic and Monsters",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 81,
+   "released": "2020-04-28"
+  },
+  {
+   "year": 2020,
+   "title": "Justice League Dark: Apokolips War",
+   "page": "Justice League Dark: Apokolips War",
+   "theatrical": false,
+   "dcuaom": "2020-05-05",
+   "runs": [
+    "DC Animated Movie Universe"
+   ],
+   "runtime": 90,
+   "released": "2020-05-05"
+  },
+  {
+   "year": 2020,
+   "title": "Superman: Man of Tomorrow",
+   "page": "Superman: Man of Tomorrow",
+   "theatrical": false,
+   "dcuaom": "2020-08-23",
+   "runs": [
+    "Tomorrowverse"
+   ],
+   "runtime": 86,
+   "released": "2020-08-23"
+  },
+  {
+   "year": 2020,
+   "title": "Happy Halloween, Scooby-Doo!",
+   "page": "Happy Halloween, Scooby-Doo!",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 76,
+   "released": "2020-10-06"
+  },
+  {
+   "year": 2021,
+   "title": "Batman: Soul of the Dragon",
+   "page": "Batman: Soul of the Dragon",
+   "theatrical": false,
+   "dcuaom": "2021-01-12",
+   "runs": [],
+   "runtime": 83,
+   "released": "2021-01-12"
+  },
+  {
+   "year": 2021,
+   "title": "Justice Society: World War II",
+   "page": "Justice Society: World War II",
+   "theatrical": false,
+   "dcuaom": "2021-04-27",
+   "runs": [
+    "Tomorrowverse"
+   ],
+   "runtime": 84,
+   "released": "2021-04-27"
+  },
+  {
+   "year": 2021,
+   "title": "Batman: The Long Halloween, Part One",
+   "page": "Batman: The Long Halloween (film)",
+   "theatrical": false,
+   "dcuaom": "2021-06-22",
+   "runs": [
+    "Tomorrowverse"
+   ],
+   "runtime": 85,
+   "released": "2021-06-22"
+  },
+  {
+   "year": 2021,
+   "title": "Batman: The Long Halloween, Part Two",
+   "page": "Batman: The Long Halloween (film)",
+   "theatrical": false,
+   "dcuaom": "2021-07-27",
+   "runs": [
+    "Tomorrowverse"
+   ],
+   "runtime": 87,
+   "released": "2021-07-27"
+  },
+  {
+   "year": 2021,
+   "title": "Injustice",
+   "page": "Injustice (2021 film)",
+   "theatrical": false,
+   "dcuaom": "2021-10-19",
+   "runs": [],
+   "runtime": 78,
+   "released": "2021-10-19"
+  },
+  {
+   "year": 2022,
+   "title": "Catwoman: Hunted",
+   "page": "Catwoman: Hunted",
+   "theatrical": false,
+   "dcuaom": "2022-02-08",
+   "runs": [],
+   "runtime": 78,
+   "released": "2022-02-08"
+  },
+  {
+   "year": 2022,
+   "title": "Teen Titans Go! & DC Super Hero Girls: Mayhem in the Multiverse",
+   "page": "Teen Titans Go! & DC Super Hero Girls: Mayhem in the Multiverse",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 79,
+   "released": "2022-05-24"
+  },
+  {
+   "year": 2022,
+   "title": "Green Lantern: Beware My Power",
+   "page": "Green Lantern: Beware My Power",
+   "theatrical": false,
+   "dcuaom": "2022-07-26",
+   "runs": [
+    "Tomorrowverse"
+   ],
+   "runtime": 84,
+   "released": "2022-07-26"
+  },
+  {
+   "year": 2022,
+   "title": "Batman and Superman: Battle of the Super Sons",
+   "page": "Batman and Superman: Battle of the Super Sons",
+   "theatrical": false,
+   "dcuaom": "2022-10-18",
+   "runs": [],
+   "runtime": 79,
+   "released": "2022-10-18"
+  },
+  {
+   "year": 2023,
+   "title": "Legion of Super-Heroes",
+   "page": "Legion of Super-Heroes (film)",
+   "theatrical": false,
+   "dcuaom": "2023-02-07",
+   "runs": [
+    "Tomorrowverse"
+   ],
+   "runtime": 83,
+   "released": "2023-02-07"
+  },
+  {
+   "year": 2023,
+   "title": "Batman: The Doom That Came to Gotham",
+   "page": "Batman: The Doom That Came to Gotham (film)",
+   "theatrical": false,
+   "dcuaom": "2023-03-28",
+   "runs": [],
+   "runtime": 86,
+   "released": "2023-03-28"
+  },
+  {
+   "year": 2023,
+   "title": "Justice League x RWBY: Super Heroes & Huntsmen, Part One",
+   "page": "Justice League x RWBY: Super Heroes & Huntsmen",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 83,
+   "released": "2023-07-01"
+  },
+  {
+   "year": 2023,
+   "title": "Justice League: Warworld",
+   "page": "Justice League: Warworld",
+   "theatrical": false,
+   "dcuaom": "2023-07-25",
+   "runs": [
+    "Tomorrowverse"
+   ],
+   "runtime": 89,
+   "released": "2023-07-25"
+  },
+  {
+   "year": 2023,
+   "title": "Scooby-Doo! and Krypto, Too!",
+   "page": "Scooby-Doo! and Krypto, Too!",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 76,
+   "released": "2023-09-26"
+  },
+  {
+   "year": 2023,
+   "title": "Justice League x RWBY: Super Heroes & Huntsmen, Part Two",
+   "page": "Justice League x RWBY: Super Heroes & Huntsmen",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 75,
+   "released": "2023-07-01"
+  },
+  {
+   "year": 2023,
+   "title": "Merry Little Batman",
+   "page": "Merry Little Batman",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 92,
+   "released": "2023-12-08"
+  },
+  {
+   "year": 2024,
+   "title": "Justice League: Crisis on Infinite Earths – Part One",
+   "page": "Justice League: Crisis on Infinite Earths",
+   "theatrical": false,
+   "dcuaom": "2024-01-09",
+   "runs": [
+    "Tomorrowverse"
+   ],
+   "runtime": 93,
+   "released": "2024-01-09"
+  },
+  {
+   "year": 2024,
+   "title": "Justice League: Crisis on Infinite Earths – Part Two",
+   "page": "Justice League: Crisis on Infinite Earths",
+   "theatrical": false,
+   "dcuaom": "2024-04-23",
+   "runs": [
+    "Tomorrowverse"
+   ],
+   "runtime": 95,
+   "released": "2024-04-23"
+  },
+  {
+   "year": 2024,
+   "title": "Justice League: Crisis on Infinite Earths – Part Three",
+   "page": "Justice League: Crisis on Infinite Earths",
+   "theatrical": false,
+   "dcuaom": "2024-07-16",
+   "runs": [
+    "Tomorrowverse"
+   ],
+   "runtime": 98,
+   "released": "2024-07-16"
+  },
+  {
+   "year": 2024,
+   "title": "Watchmen Chapter I",
+   "page": "Watchmen Chapter I",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 83,
+   "released": "2024-08-13"
+  },
+  {
+   "year": 2024,
+   "title": "Watchmen Chapter II",
+   "page": "Watchmen Chapter II",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 83,
+   "released": "2024-08-13"
+  },
+  {
+   "year": 2025,
+   "title": "Batman Ninja vs. Yakuza League",
+   "page": "Batman Ninja vs. Yakuza League",
+   "theatrical": false,
+   "runs": [],
+   "runtime": 89,
+   "released": "2025-03-18"
+  },
+  {
+   "year": 2026,
+   "title": "Batman: Knightfall Part 1",
+   "page": "Batman: Knightfall (film)",
+   "theatrical": false,
+   "dcuaom": "2026-08-25",
+   "runs": [],
+   "runtime": 78,
+   "released": "2026-08-25"
+  },
+  {
+   "year": 2026,
+   "title": "Batman: Knightfall Part 2",
+   "page": "Batman: Knightfall (film)",
+   "theatrical": false,
+   "runs": [],
+   "runtime": null,
+   "released": "2026-07-01"
+  },
+  {
+   "year": 2027,
+   "title": "Batman: Knightfall Part 3",
+   "page": "Batman: Knightfall (film)",
+   "theatrical": false,
+   "runs": [],
+   "runtime": null,
+   "released": "2027-07-01"
+  }
+ ],
+ "shows": [
+  {
+   "title": "The New Adventures of Superman",
+   "page": "The New Adventures of Superman (TV series)",
+   "imprint": false,
+   "seasons": 4,
+   "episodes": 68,
+   "start": "1966",
+   "end": "1970",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "The Adventures of Superboy",
+   "page": "The Adventures of Superboy (TV series)",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 34,
+   "start": "1966",
+   "end": "1969",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Aquaman",
+   "page": "Aquaman (TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 36,
+   "start": "1968",
+   "end": "1970",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "The Adventures of Batman",
+   "page": "The Adventures of Batman",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 17,
+   "start": "1968",
+   "end": "1969",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Super Friends",
+   "page": "Super Friends (1973 TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 16,
+   "start": "1973",
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "The New Adventures of Batman",
+   "page": "The New Adventures of Batman",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 16,
+   "start": "1977",
+   "end": "1978",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "The All-New Super Friends Hour",
+   "page": "The All-New Super Friends Hour",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 15,
+   "start": "1977",
+   "end": "1978",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Challenge of the Superfriends",
+   "page": "Challenge of the Superfriends",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 16,
+   "start": "1978",
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "The Plastic Man Comedy/Adventure Show",
+   "page": "The Plastic Man Comedy/Adventure Show",
+   "imprint": false,
+   "seasons": 5,
+   "episodes": 112,
+   "start": "1979",
+   "end": "1981",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "The World's Greatest Super Friends",
+   "page": "The World's Greatest Super Friends",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 8,
+   "start": "1979",
+   "end": "1980",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Super Friends",
+   "page": "Super Friends (1980 TV series)",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 22,
+   "start": "1980",
+   "end": "1983",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "The Kid Super Power Hour with Shazam!",
+   "page": "The Kid Super Power Hour with Shazam!",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 38,
+   "start": "1981",
+   "end": "1982",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Super Friends: The Legendary Super Powers Show",
+   "page": "Super Friends: The Legendary Super Powers Show",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 8,
+   "start": "1984",
+   "end": "1985",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "The Super Powers Team: Galactic Guardians",
+   "page": "The Super Powers Team: Galactic Guardians",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 8,
+   "start": "1985",
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Superman",
+   "page": "Superman (TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "1988",
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Swamp Thing",
+   "page": "Swamp Thing (1991 TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 5,
+   "start": "1990",
+   "end": "1991",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Batman: The Animated Series",
+   "page": "Batman: The Animated Series",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 85,
+   "start": "1992",
+   "end": "1995",
+   "present": false,
+   "dcau": true,
+   "dcu": false
+  },
+  {
+   "title": "Superman: The Animated Series",
+   "page": "Superman: The Animated Series",
+   "imprint": false,
+   "seasons": 4,
+   "episodes": 54,
+   "start": "1996",
+   "end": "2000",
+   "present": false,
+   "dcau": true,
+   "dcu": false
+  },
+  {
+   "title": "The New Batman Adventures",
+   "page": "The New Batman Adventures",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 24,
+   "start": "1997",
+   "end": "1999",
+   "present": false,
+   "dcau": true,
+   "dcu": false
+  },
+  {
+   "title": "Batman Beyond",
+   "page": "Batman Beyond",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 52,
+   "start": "1999",
+   "end": "2001",
+   "present": false,
+   "dcau": true,
+   "dcu": false
+  },
+  {
+   "title": "The Zeta Project",
+   "page": "The Zeta Project",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 26,
+   "start": "2001",
+   "end": "2002",
+   "present": false,
+   "dcau": true,
+   "dcu": false
+  },
+  {
+   "title": "Justice League",
+   "page": "Justice League (TV series)",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 52,
+   "start": "2001",
+   "end": "2004",
+   "present": false,
+   "dcau": true,
+   "dcu": false
+  },
+  {
+   "title": "Teen Titans",
+   "page": "Teen Titans (TV series)",
+   "imprint": false,
+   "seasons": 5,
+   "episodes": 65,
+   "start": "2003",
+   "end": "2006",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Justice League Unlimited",
+   "page": "Justice League Unlimited",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 39,
+   "start": "2004",
+   "end": "2006",
+   "present": false,
+   "dcau": true,
+   "dcu": false
+  },
+  {
+   "title": "The Batman",
+   "page": "The Batman (TV series)",
+   "imprint": false,
+   "seasons": 5,
+   "episodes": 65,
+   "start": "2004",
+   "end": "2008",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Krypto the Superdog",
+   "page": "Krypto the Superdog (TV series)",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 39,
+   "start": "2005",
+   "end": "2006",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Legion of Super Heroes",
+   "page": "Legion of Super Heroes (TV series)",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 26,
+   "start": "2006",
+   "end": "2008",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Batman: The Brave and the Bold",
+   "page": "Batman: The Brave and the Bold",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 65,
+   "start": "2008",
+   "end": "2011",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Young Justice",
+   "page": "Young Justice (TV series)",
+   "imprint": false,
+   "seasons": 4,
+   "episodes": 98,
+   "start": "2010",
+   "end": "2022",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Green Lantern: The Animated Series",
+   "page": "Green Lantern: The Animated Series",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 26,
+   "start": "2011",
+   "end": "2013",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Beware the Batman",
+   "page": "Beware the Batman",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 26,
+   "start": "2013",
+   "end": "2014",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Justice League Action",
+   "page": "Justice League Action",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 52,
+   "start": "2016",
+   "end": "2018",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "DC Super Hero Girls",
+   "page": "DC Super Hero Girls (TV series)",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 78,
+   "start": "2019",
+   "end": "2021",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Harley Quinn",
+   "page": "Harley Quinn (TV series)",
+   "imprint": false,
+   "seasons": 5,
+   "episodes": 57,
+   "start": "2019",
+   "end": "2025",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Aquaman: King of Atlantis",
+   "page": "Aquaman: King of Atlantis",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 3,
+   "start": "2021",
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Suicide Squad Isekai",
+   "page": "Suicide Squad Isekai",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 10,
+   "start": "2024",
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Kite Man: Hell Yeah!",
+   "page": "Kite Man: Hell Yeah!",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 10,
+   "start": "2024",
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Bat-Fam",
+   "page": "Bat-Fam",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 10,
+   "start": "2025",
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Teen Titans Go!",
+   "page": "Teen Titans Go!",
+   "imprint": false,
+   "seasons": 9,
+   "episodes": 449,
+   "start": "2013",
+   "end": null,
+   "present": true,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Batwheels",
+   "page": "Batwheels",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 93,
+   "start": "2022",
+   "end": null,
+   "present": true,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "My Adventures with Superman",
+   "page": "My Adventures with Superman",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 30,
+   "start": "2023",
+   "end": null,
+   "present": true,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Batman: Caped Crusader",
+   "page": "Batman: Caped Crusader",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 20,
+   "start": "2024",
+   "end": null,
+   "present": true,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Creature Commandos",
+   "page": "Creature Commandos (TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 7,
+   "start": "2024",
+   "end": null,
+   "present": true,
+   "dcau": false,
+   "dcu": true
+  },
+  {
+   "title": "My Adventures with Green Lantern",
+   "page": null,
+   "imprint": false,
+   "seasons": null,
+   "episodes": null,
+   "start": null,
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "DC Super Powers",
+   "page": null,
+   "imprint": false,
+   "seasons": null,
+   "episodes": null,
+   "start": null,
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Starfire",
+   "page": null,
+   "imprint": false,
+   "seasons": null,
+   "episodes": null,
+   "start": null,
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Mister Miracle",
+   "page": null,
+   "imprint": false,
+   "seasons": null,
+   "episodes": null,
+   "start": null,
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Absolute Batman",
+   "page": null,
+   "imprint": false,
+   "seasons": null,
+   "episodes": null,
+   "start": null,
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Krypto",
+   "page": null,
+   "imprint": false,
+   "seasons": null,
+   "episodes": null,
+   "start": null,
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Joker: Laugh Riot",
+   "page": null,
+   "imprint": false,
+   "seasons": null,
+   "episodes": null,
+   "start": null,
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Wild C.A.T.s",
+   "page": "Wild C.A.T.s",
+   "imprint": true,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "1994",
+   "end": "1995",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Static Shock",
+   "page": "Static Shock",
+   "imprint": true,
+   "seasons": 4,
+   "episodes": 13,
+   "start": "2000",
+   "end": "2004",
+   "present": false,
+   "dcau": true,
+   "dcu": false
+  },
+  {
+   "title": "MAD",
+   "page": "Mad (TV series)",
+   "imprint": true,
+   "seasons": 4,
+   "episodes": 103,
+   "start": "2010",
+   "end": "2013",
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  },
+  {
+   "title": "Get Jiro!",
+   "page": null,
+   "imprint": true,
+   "seasons": 1,
+   "episodes": null,
+   "start": null,
+   "end": null,
+   "present": false,
+   "dcau": false,
+   "dcu": false
+  }
+ ]
+}
