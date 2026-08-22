@@ -1,0 +1,422 @@
+{
+  "slug": "gundam",
+  "title": "Gundam",
+  "subtitle": "the Universal Century and every alternate universe",
+  "kind": "anime & manga",
+  "order": 27,
+  "year": "1979–",
+  "blurb": "46 entries across every Gundam continuity: the Universal Century in release order, the alternate universes, and the major manga.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#3F4E9E",
+  "accentDark": "#8E9BE8",
+  "tiers": false,
+  "notes": [
+    [
+      "One timeline, out of order.",
+      "The Universal Century is a single continuity released out of sequence, so the section runs in release order and every row's note carries its in-universe year — UC 0079 and so on. Watch by release or by calendar; the notes support either."
+    ],
+    [
+      "Alternate universes stand alone.",
+      "Every other calendar — Future Century, After Colony, After War, Correct Century, Cosmic Era, Anno Domini, Advanced Generation, Regild Century, Post Disaster, Ad Stella — starts fresh, and the notes say which entry opens each line. GQuuuuuuX is the exception: a branch of the Universal Century rather than a calendar of its own."
+    ],
+    [
+      "No games.",
+      "Excluded by request."
+    ],
+    [
+      "Also left out.",
+      "Live-action (G-Saviour, Gundam Build Real, the announced film), the SD comedy spinoffs, promotional shorts (Evolve, Twilight AXIS, the Battlogues and their like), Build Metaverse, compilation re-cuts of series already listed, and anything unreleased."
+    ],
+    [
+      "Where the numbers come from.",
+      "Episode counts, dates and calendars are from Wikipedia's franchise media list; film runtimes from each film's article. Series weigh episodes × 24 minutes, so Unicorn and The Origin — hour-long episodes — count light. The second Hathaway film has no published runtime yet and weighs nothing. Manga weigh zero by design."
+    ]
+  ],
+  "sections": [
+    {
+      "id": "uc",
+      "title": "Universal Century",
+      "sub": "1979– · 20 entries · about 112 hours",
+      "intro": "One timeline told out of order. Rows run in release order; each note carries the in-universe year, so UC 0079 sits next to entries made forty years apart.",
+      "links": [
+        {
+          "label": "The media list",
+          "url": "https://en.wikipedia.org/wiki/Gundam#Media"
+        },
+        {
+          "label": "Gundam.info",
+          "url": "https://en.gundam.info/"
+        }
+      ],
+      "items": [
+        {
+          "id": "gdm-1979-mobile-suit-gundam",
+          "t": "Mobile Suit Gundam",
+          "n": "1979",
+          "w": 17.2,
+          "note": "TV series, 43 episodes · UC 0079 · where the Universal Century starts; also compiled as three films (1981–82)"
+        },
+        {
+          "id": "gdm-1985-mobile-suit-zeta-gundam",
+          "t": "Mobile Suit Zeta Gundam",
+          "n": "1985",
+          "w": 20.0,
+          "note": "TV series, 50 episodes · UC 0087 · also compiled as three films (2005–06)"
+        },
+        {
+          "id": "gdm-1986-mobile-suit-gundam-zz",
+          "t": "Mobile Suit Gundam ZZ",
+          "n": "1986",
+          "w": 18.8,
+          "note": "TV series, 47 episodes · UC 0088"
+        },
+        {
+          "id": "gdm-1988-mobile-suit-gundam-char-s-counterattack",
+          "t": "Mobile Suit Gundam: Char's Counterattack",
+          "n": "1988",
+          "w": 1.98,
+          "note": "Film, 119 min · UC 0093"
+        },
+        {
+          "id": "gdm-1989-mobile-suit-gundam-0080-war-in-the-pocket",
+          "t": "Mobile Suit Gundam 0080: War in the Pocket",
+          "n": "1989",
+          "w": 2.4,
+          "note": "OVA, 6 episodes · UC 0079–80 · side story"
+        },
+        {
+          "id": "gdm-1991-mobile-suit-gundam-f91",
+          "t": "Mobile Suit Gundam F91",
+          "n": "1991",
+          "w": 1.92,
+          "note": "Film, 115 min · UC 0123 · standalone, a generation on"
+        },
+        {
+          "id": "gdm-1991-mobile-suit-gundam-0083-stardust-memory",
+          "t": "Mobile Suit Gundam 0083: Stardust Memory",
+          "n": "1991",
+          "w": 5.2,
+          "note": "OVA, 13 episodes · UC 0083 · side story bridging toward Zeta"
+        },
+        {
+          "id": "gdm-1993-mobile-suit-victory-gundam",
+          "t": "Mobile Suit Victory Gundam",
+          "n": "1993",
+          "w": 20.4,
+          "note": "TV series, 51 episodes · UC 0153"
+        },
+        {
+          "id": "gdm-1996-mobile-suit-gundam-the-08th-ms-team",
+          "t": "Mobile Suit Gundam: The 08th MS Team",
+          "n": "1996",
+          "w": 4.8,
+          "note": "OVA, 12 episodes · UC 0079 · ground-war side story"
+        },
+        {
+          "id": "gdm-2004-mobile-suit-gundam-ms-igloo-the-hidden-one-year-war",
+          "t": "Mobile Suit Gundam MS IGLOO: The Hidden One Year War",
+          "n": "2004",
+          "w": 1.2,
+          "note": "CG OVA, 3 episodes · UC 0079 · side story, from the Zeon side"
+        },
+        {
+          "id": "gdm-2006-mobile-suit-gundam-ms-igloo-apocalypse-0079",
+          "t": "Mobile Suit Gundam MS IGLOO: Apocalypse 0079",
+          "n": "2006",
+          "w": 1.2,
+          "note": "CG OVA, 3 episodes · UC 0079 · MS IGLOO's second act"
+        },
+        {
+          "id": "gdm-2008-mobile-suit-gundam-ms-igloo-2-gravity-front",
+          "t": "Mobile Suit Gundam MS IGLOO 2: Gravity Front",
+          "n": "2008",
+          "w": 1.2,
+          "note": "CG OVA, 3 episodes · UC 0079"
+        },
+        {
+          "id": "gdm-2010-mobile-suit-gundam-unicorn",
+          "t": "Mobile Suit Gundam Unicorn",
+          "n": "2010",
+          "w": 2.8,
+          "note": "OVA, 7 episodes · UC 0096 · hour-long episodes, so the 24-minute formula undercounts it; also recut as a 22-episode TV series (2016)"
+        },
+        {
+          "id": "gdm-2015-mobile-suit-gundam-the-origin",
+          "t": "Mobile Suit Gundam: The Origin",
+          "n": "2015",
+          "w": 2.4,
+          "note": "OVA, 6 episodes · UC 0068–79 · prequel from Yasuhiko's manga (below), long episodes; also recut as a 13-episode TV series (2019)"
+        },
+        {
+          "id": "gdm-2015-mobile-suit-gundam-thunderbolt",
+          "t": "Mobile Suit Gundam Thunderbolt",
+          "n": "2015",
+          "w": 3.2,
+          "note": "ONA, 8 episodes · UC 0079 · adapts the Thunderbolt manga (below); also compiled as two films"
+        },
+        {
+          "id": "gdm-2018-mobile-suit-gundam-narrative",
+          "t": "Mobile Suit Gundam Narrative",
+          "n": "2018",
+          "w": 1.48,
+          "note": "Film, 89 min · UC 0097"
+        },
+        {
+          "id": "gdm-2021-mobile-suit-gundam-hathaway",
+          "t": "Mobile Suit Gundam: Hathaway",
+          "n": "2021",
+          "w": 1.58,
+          "note": "Film, 95 min · UC 0105 · first of a trilogy, from Tomino's novels"
+        },
+        {
+          "id": "gdm-2022-mobile-suit-gundam-cucuruz-doan-s-island",
+          "t": "Mobile Suit Gundam: Cucuruz Doan's Island",
+          "n": "2022",
+          "w": 1.8,
+          "note": "Film, 108 min · UC 0079 · standalone, revisiting a 1979 episode"
+        },
+        {
+          "id": "gdm-2024-gundam-requiem-for-vengeance",
+          "t": "Gundam: Requiem for Vengeance",
+          "n": "2024",
+          "w": 2.4,
+          "note": "CG ONA, 6 episodes · UC 0079 · from the Zeon side"
+        },
+        {
+          "id": "gdm-2026-mobile-suit-gundam-hathaway-the-sorcery-of-nymph-circe",
+          "t": "Mobile Suit Gundam: Hathaway – The Sorcery of Nymph Circe",
+          "n": "2026",
+          "w": 0,
+          "note": "Film · UC 0105 · second of the Hathaway trilogy — no runtime in the lists yet, so it weighs nothing here"
+        }
+      ]
+    },
+    {
+      "id": "au",
+      "title": "Alternate universes",
+      "sub": "1994– · 20 entries · about 246 hours",
+      "intro": "Each universe stands alone and needs nothing from the Universal Century. The notes say which entry starts each line. Build entries are hobby spin-offs, marked optional.",
+      "links": [
+        {
+          "label": "The media list",
+          "url": "https://en.wikipedia.org/wiki/Gundam#Media"
+        },
+        {
+          "label": "Gundam.info",
+          "url": "https://en.gundam.info/"
+        }
+      ],
+      "items": [
+        {
+          "id": "gdm-1994-mobile-fighter-g-gundam",
+          "t": "Mobile Fighter G Gundam",
+          "n": "1994",
+          "w": 19.6,
+          "note": "TV series, 49 episodes · Future Century 60 · starts and ends the Future Century line"
+        },
+        {
+          "id": "gdm-1995-mobile-suit-gundam-wing",
+          "t": "Mobile Suit Gundam Wing",
+          "n": "1995",
+          "w": 19.6,
+          "note": "TV series, 49 episodes · After Colony 195 · starts the After Colony line"
+        },
+        {
+          "id": "gdm-1996-after-war-gundam-x",
+          "t": "After War Gundam X",
+          "n": "1996",
+          "w": 15.6,
+          "note": "TV series, 39 episodes · After War 15 · starts and ends the After War line"
+        },
+        {
+          "id": "gdm-1997-gundam-wing-endless-waltz",
+          "t": "Gundam Wing: Endless Waltz",
+          "n": "1997",
+          "w": 1.2,
+          "note": "OVA, 3 episodes · After Colony 196 · Wing's conclusion; also cut as a film (1998)"
+        },
+        {
+          "id": "gdm-1999-turn-a-gundam",
+          "t": "Turn A Gundam",
+          "n": "1999",
+          "w": 20.0,
+          "note": "TV series, 50 episodes · Correct Century 2343–45 · starts and ends the Correct Century line"
+        },
+        {
+          "id": "gdm-2002-mobile-suit-gundam-seed",
+          "t": "Mobile Suit Gundam SEED",
+          "n": "2002",
+          "w": 20.0,
+          "note": "TV series, 50 episodes · Cosmic Era 71–72 · starts the Cosmic Era line"
+        },
+        {
+          "id": "gdm-2004-mobile-suit-gundam-seed-destiny",
+          "t": "Mobile Suit Gundam SEED Destiny",
+          "n": "2004",
+          "w": 20.0,
+          "note": "TV series, 50 episodes · Cosmic Era 73–74 · SEED's sequel"
+        },
+        {
+          "id": "gdm-2006-mobile-suit-gundam-seed-c-e-73-stargazer",
+          "t": "Mobile Suit Gundam SEED C.E. 73: Stargazer",
+          "n": "2006",
+          "w": 1.2,
+          "note": "ONA, 3 episodes · Cosmic Era 73 · side story"
+        },
+        {
+          "id": "gdm-2007-mobile-suit-gundam-00",
+          "t": "Mobile Suit Gundam 00",
+          "n": "2007",
+          "w": 20.0,
+          "note": "TV series, 50 episodes · Anno Domini 2307–12 · starts the Anno Domini line"
+        },
+        {
+          "id": "gdm-2010-mobile-suit-gundam-00-a-wakening-of-the-trailblazer",
+          "t": "Mobile Suit Gundam 00: A Wakening of the Trailblazer",
+          "n": "2010",
+          "w": 2.0,
+          "note": "Film, 120 min · Anno Domini 2314 · 00's finale"
+        },
+        {
+          "id": "gdm-2011-mobile-suit-gundam-age",
+          "t": "Mobile Suit Gundam AGE",
+          "n": "2011",
+          "w": 19.6,
+          "note": "TV series, 49 episodes · Advanced Generation 115–164 · starts and ends the Advanced Generation line"
+        },
+        {
+          "id": "gdm-2013-gundam-build-fighters",
+          "t": "Gundam Build Fighters",
+          "n": "2013",
+          "w": 10.0,
+          "note": "TV series, 25 episodes · Build series — hobby spin-off set where the other shows are fiction",
+          "opt": 1
+        },
+        {
+          "id": "gdm-2014-gundam-reconguista-in-g",
+          "t": "Gundam Reconguista in G",
+          "n": "2014",
+          "w": 10.4,
+          "note": "TV series, 26 episodes · Regild Century 1014 · starts and ends the Regild Century line"
+        },
+        {
+          "id": "gdm-2014-gundam-build-fighters-try",
+          "t": "Gundam Build Fighters Try",
+          "n": "2014",
+          "w": 10.0,
+          "note": "TV series, 25 episodes · Build series — Build Fighters' sequel",
+          "opt": 1
+        },
+        {
+          "id": "gdm-2015-mobile-suit-gundam-iron-blooded-orphans",
+          "t": "Mobile Suit Gundam: Iron-Blooded Orphans",
+          "n": "2015",
+          "w": 20.0,
+          "note": "TV series, 50 episodes · Post Disaster 323–25 · starts and ends the Post Disaster line"
+        },
+        {
+          "id": "gdm-2018-gundam-build-divers",
+          "t": "Gundam Build Divers",
+          "n": "2018",
+          "w": 10.0,
+          "note": "TV series, 25 episodes · Build series",
+          "opt": 1
+        },
+        {
+          "id": "gdm-2019-gundam-build-divers-re-rise",
+          "t": "Gundam Build Divers Re:Rise",
+          "n": "2019",
+          "w": 10.4,
+          "note": "ONA, 26 episodes · Build series — Build Divers' sequel",
+          "opt": 1
+        },
+        {
+          "id": "gdm-2022-mobile-suit-gundam-the-witch-from-mercury",
+          "t": "Mobile Suit Gundam: The Witch from Mercury",
+          "n": "2022",
+          "w": 9.6,
+          "note": "TV series, 24 episodes · Ad Stella 122 · starts the Ad Stella line; a prologue ONA aired ahead of it"
+        },
+        {
+          "id": "gdm-2024-mobile-suit-gundam-seed-freedom",
+          "t": "Mobile Suit Gundam SEED Freedom",
+          "n": "2024",
+          "w": 2.07,
+          "note": "Film, 124 min · Cosmic Era 75 · the SEED line's film sequel"
+        },
+        {
+          "id": "gdm-2025-mobile-suit-gundam-gquuuuuux",
+          "t": "Mobile Suit Gundam GQuuuuuuX",
+          "n": "2025",
+          "w": 4.8,
+          "note": "TV series, 12 episodes · a branch of the Universal Century rather than its own calendar; a compilation film preceded broadcast"
+        }
+      ]
+    },
+    {
+      "id": "manga",
+      "title": "Manga",
+      "sub": "1994–2025 · 6 series · unweighted",
+      "intro": "The major ones only. They weigh nothing, so they sit outside the hour counts.",
+      "links": [
+        {
+          "label": "The manga list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Gundam_manga_and_novels"
+        }
+      ],
+      "items": [
+        {
+          "id": "gdm-1994-mobile-suit-crossbone-gundam",
+          "t": "Mobile Suit Crossbone Gundam",
+          "n": "1994",
+          "w": 0,
+          "note": "Manga, 6 volumes (1994–97) · UC 0133 · F91's sequel, by Yuichi Hasegawa with Tomino"
+        },
+        {
+          "id": "gdm-1997-mobile-suit-gundam-wing-episode-zero",
+          "t": "Mobile Suit Gundam Wing: Episode Zero",
+          "n": "1997",
+          "w": 0,
+          "note": "Manga, 1 volumes (1997) · After Colony · Wing backstories by the series' own writer"
+        },
+        {
+          "id": "gdm-2001-mobile-suit-gundam-the-origin",
+          "t": "Mobile Suit Gundam: The Origin",
+          "n": "2001",
+          "w": 0,
+          "note": "Manga, 24 volumes (2001–11) · Yasuhiko's retelling of the One Year War — the Origin OVA above draws on it"
+        },
+        {
+          "id": "gdm-2002-mobile-suit-gundam-ecole-du-ciel",
+          "t": "Mobile Suit Gundam: École du Ciel",
+          "n": "2002",
+          "w": 0,
+          "note": "Manga (2002–) · Universal Century academy story by Haruhiko Mikimoto, unfinished"
+        },
+        {
+          "id": "gdm-2002-mobile-suit-gundam-seed-astray",
+          "t": "Mobile Suit Gundam SEED Astray",
+          "n": "2002",
+          "w": 0,
+          "note": "Manga (2002–04) · Cosmic Era side story running alongside SEED"
+        },
+        {
+          "id": "gdm-2012-mobile-suit-gundam-thunderbolt",
+          "t": "Mobile Suit Gundam Thunderbolt",
+          "n": "2012",
+          "w": 0,
+          "note": "Manga, 27 volumes (2012–25) · the ONA above adapts it; Ohtagaki calls it its own worldline"
+        }
+      ]
+    }
+  ]
+}
