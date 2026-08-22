@@ -1,0 +1,283 @@
+{
+  "slug": "bond",
+  "title": "James Bond",
+  "subtitle": "every Bond film in release order, in sections per actor",
+  "kind": "films",
+  "order": 44,
+  "year": "1962–2021",
+  "blurb": "All 25 Eon films in release order, grouped by Bond actor, plus the two oddities made outside Eon. The Craig arc is the serialized spine.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#1F1F2E",
+  "accentDark": "#C9B458",
+  "tiers": true,
+  "itemTiers": true,
+  "paceTiers": [
+    1,
+    2
+  ],
+  "paceLabel": "the non-Eon oddities",
+  "notes": [
+    [
+      "Tier 1 is the continuity.",
+      "The five Craig films are genuinely serialized — one continuous story — and On Her Majesty's Secret Service is tier 1 with them because its ending echoes forward. Every other Eon film stands alone as tier 2, watchable in any gaps you like. The two films made outside Eon are tier 3."
+    ],
+    [
+      "Two of the 27 are not Eon films.",
+      "A rights tangle kept Casino Royale out of Eon's hands for decades — the 1967 film is a spoof with David Niven, and Never Say Never Again is a rival remake of Thunderball with Connery back in the role. Both are marked, sit in the era their year falls in, and stay outside the timeline unless you tick the box under the bar."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "Every one of the 27 has a real runtime from Wikidata — the generator refuses to build without them."
+    ],
+    "Titles, years and Bond actors from Wikipedia's List of James Bond films; runtimes and release dates from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "connery",
+      "title": "Sean Connery",
+      "sub": "1962–1971 · 6 films + 1 not Eon · 14 hours",
+      "items": [
+        {
+          "id": "bond-1962-dr-no",
+          "t": "Dr. No",
+          "n": "1962",
+          "w": 1.75,
+          "tier": 2
+        },
+        {
+          "id": "bond-1963-from-russia-with-love",
+          "t": "From Russia with Love",
+          "n": "1963",
+          "w": 1.92,
+          "tier": 2
+        },
+        {
+          "id": "bond-1964-goldfinger",
+          "t": "Goldfinger",
+          "n": "1964",
+          "w": 1.82,
+          "tier": 2
+        },
+        {
+          "id": "bond-1965-thunderball",
+          "t": "Thunderball",
+          "n": "1965",
+          "w": 2.17,
+          "tier": 2
+        },
+        {
+          "id": "bond-1967-casino-royale",
+          "t": "Casino Royale",
+          "n": "1967",
+          "w": 2.18,
+          "tier": 3,
+          "note": "Not Eon — the 1967 spoof, with David Niven as Bond"
+        },
+        {
+          "id": "bond-1967-you-only-live-twice",
+          "t": "You Only Live Twice",
+          "n": "1967",
+          "w": 1.95,
+          "tier": 2
+        },
+        {
+          "id": "bond-1971-diamonds-are-forever",
+          "t": "Diamonds Are Forever",
+          "n": "1971",
+          "w": 2.0,
+          "tier": 2
+        }
+      ],
+      "intro": "Where it starts. Six Connery films — and, in the middle of them, the 1967 spoof made outside Eon.",
+      "open": true
+    },
+    {
+      "id": "lazenby",
+      "title": "George Lazenby",
+      "sub": "1969 · 1 film · 2 hours",
+      "items": [
+        {
+          "id": "bond-1969-on-her-majesty-s-secret-service",
+          "t": "On Her Majesty's Secret Service",
+          "n": "1969",
+          "w": 2.37,
+          "tier": 1,
+          "note": "Lazenby's only outing — its ending echoes forward"
+        }
+      ],
+      "intro": "One film. It carries more continuity weight than any other pre-Craig entry — the only one of them in tier 1."
+    },
+    {
+      "id": "moore",
+      "title": "Roger Moore",
+      "sub": "1973–1985 · 7 films + 1 not Eon · 17 hours",
+      "items": [
+        {
+          "id": "bond-1973-live-and-let-die",
+          "t": "Live and Let Die",
+          "n": "1973",
+          "w": 2.02,
+          "tier": 2
+        },
+        {
+          "id": "bond-1974-the-man-with-the-golden-gun",
+          "t": "The Man with the Golden Gun",
+          "n": "1974",
+          "w": 2.08,
+          "tier": 2
+        },
+        {
+          "id": "bond-1977-the-spy-who-loved-me",
+          "t": "The Spy Who Loved Me",
+          "n": "1977",
+          "w": 2.08,
+          "tier": 2
+        },
+        {
+          "id": "bond-1979-moonraker",
+          "t": "Moonraker",
+          "n": "1979",
+          "w": 2.1,
+          "tier": 2
+        },
+        {
+          "id": "bond-1981-for-your-eyes-only",
+          "t": "For Your Eyes Only",
+          "n": "1981",
+          "w": 2.12,
+          "tier": 2
+        },
+        {
+          "id": "bond-1983-octopussy",
+          "t": "Octopussy",
+          "n": "1983",
+          "w": 2.18,
+          "tier": 2
+        },
+        {
+          "id": "bond-1983-never-say-never-again",
+          "t": "Never Say Never Again",
+          "n": "1983",
+          "w": 2.23,
+          "tier": 3,
+          "note": "Not Eon — Connery's return, in a rival remake of Thunderball"
+        },
+        {
+          "id": "bond-1985-a-view-to-a-kill",
+          "t": "A View to a Kill",
+          "n": "1985",
+          "w": 2.18,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "dalton",
+      "title": "Timothy Dalton",
+      "sub": "1987–1989 · 2 films · 4 hours",
+      "items": [
+        {
+          "id": "bond-1987-the-living-daylights",
+          "t": "The Living Daylights",
+          "n": "1987",
+          "w": 2.17,
+          "tier": 2
+        },
+        {
+          "id": "bond-1989-licence-to-kill",
+          "t": "Licence to Kill",
+          "n": "1989",
+          "w": 2.22,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "brosnan",
+      "title": "Pierce Brosnan",
+      "sub": "1995–2002 · 4 films · 8 hours",
+      "items": [
+        {
+          "id": "bond-1995-goldeneye",
+          "t": "GoldenEye",
+          "n": "1995",
+          "w": 2.17,
+          "tier": 2
+        },
+        {
+          "id": "bond-1997-tomorrow-never-dies",
+          "t": "Tomorrow Never Dies",
+          "n": "1997",
+          "w": 1.98,
+          "tier": 2
+        },
+        {
+          "id": "bond-1999-the-world-is-not-enough",
+          "t": "The World Is Not Enough",
+          "n": "1999",
+          "w": 2.13,
+          "tier": 2
+        },
+        {
+          "id": "bond-2002-die-another-day",
+          "t": "Die Another Day",
+          "n": "2002",
+          "w": 2.22,
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "id": "craig",
+      "title": "Daniel Craig",
+      "sub": "2006–2021 · 5 films · 12 hours",
+      "items": [
+        {
+          "id": "bond-2006-casino-royale",
+          "t": "Casino Royale",
+          "n": "2006",
+          "w": 2.4,
+          "tier": 1
+        },
+        {
+          "id": "bond-2008-quantum-of-solace",
+          "t": "Quantum of Solace",
+          "n": "2008",
+          "w": 1.77,
+          "tier": 1
+        },
+        {
+          "id": "bond-2012-skyfall",
+          "t": "Skyfall",
+          "n": "2012",
+          "w": 2.38,
+          "tier": 1
+        },
+        {
+          "id": "bond-2015-spectre",
+          "t": "Spectre",
+          "n": "2015",
+          "w": 2.47,
+          "tier": 1
+        },
+        {
+          "id": "bond-2021-no-time-to-die",
+          "t": "No Time to Die",
+          "n": "2021",
+          "w": 2.72,
+          "tier": 1
+        }
+      ],
+      "intro": "The serialized era: five films telling one continuous story. The only stretch where the order is not optional."
+    }
+  ]
+}

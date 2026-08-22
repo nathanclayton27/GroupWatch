@@ -585,6 +585,36 @@
     "total": 27
   },
   {
+    "slug": "breaking-bad",
+    "title": "Breaking Bad",
+    "subtitle": "the whole universe in release order — with El Camino and Better Call Saul",
+    "kind": "tv & film",
+    "year": "2008–2022",
+    "blurb": "All 62 episodes, El Camino, and Better Call Saul's 63 — one universe, 126 entries, in the order it arrived.",
+    "accent": "#2E5F2E",
+    "accentDark": "#7FC97F",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 126
+  },
+  {
+    "slug": "bond",
+    "title": "James Bond",
+    "subtitle": "every Bond film in release order, in sections per actor",
+    "kind": "films",
+    "year": "1962–2021",
+    "blurb": "All 25 Eon films in release order, grouped by Bond actor, plus the two oddities made outside Eon. The Craig arc is the serialized spine.",
+    "accent": "#1F1F2E",
+    "accentDark": "#C9B458",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 27
+  },
+  {
     "slug": "secret",
     "title": "Secret",
     "subtitle": "",
