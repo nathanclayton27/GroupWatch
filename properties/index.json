@@ -435,6 +435,21 @@
     "total": 13
   },
   {
+    "slug": "best-picture",
+    "title": "Best Picture",
+    "subtitle": "every nominee, winners marked",
+    "kind": "films",
+    "year": "1927–2025",
+    "blurb": "All 621 Best Picture nominees across 98 ceremonies, about 1302 hours, each year's winner marked.",
+    "accent": "#9A7B1C",
+    "accentDark": "#E0C25A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 621
+  },
+  {
     "slug": "kubrick",
     "title": "Stanley Kubrick",
     "subtitle": "the thirteen features, plus A.I.",
@@ -478,6 +493,21 @@
       "many": "films"
     },
     "total": 35
+  },
+  {
+    "slug": "lego-games",
+    "title": "Lego Games",
+    "subtitle": "the bricks first, then every licence",
+    "kind": "games",
+    "year": "1995–",
+    "blurb": "119 games — the unlicensed catalogue in one run, then the tie-ins by franchise from Lego Star Wars on.",
+    "accent": "#C4372A",
+    "accentDark": "#F0837A",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 119
   },
   {
     "slug": "secret",

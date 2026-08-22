@@ -1,0 +1,350 @@
+{
+  "slug": "tom-cruise",
+  "title": "Tom Cruise",
+  "subtitle": "the acting filmography, in release order",
+  "kind": "films",
+  "order": 32,
+  "year": "1981–2025",
+  "blurb": "45 films in release order, 1981 to 2025 — about 94 hours, 8 of them as Ethan Hunt.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#1F6F63",
+  "accentDark": "#6FD0B8",
+  "tiers": false,
+  "notes": [
+    [
+      "What is skipped.",
+      "Six rows of Wikipedia's table are not here: two cameos — an uncredited walk-on in Young Guns and a turn as himself in Austin Powers in Goldmember — narration on two documentaries, an archive-footage appearance in The Queen, and Digger, still in post-production. This is the acted feature films, released."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata, in hours — every one of the 45 has one. About 94 hours end to end, 18 of them as Ethan Hunt."
+    ],
+    "Filmography from Wikipedia's Tom Cruise filmography; runtimes and release dates from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "rise",
+      "title": "The eighties",
+      "sub": "1981–1989 · 12 films · 22 hours",
+      "intro": "Nine years from a minor debut to an Oscar-nominated lead in Born on the Fourth of July — Risky Business, Top Gun and Rain Man all sit inside this stretch.",
+      "items": [
+        {
+          "id": "tc-1981-endless-love",
+          "t": "Endless Love",
+          "n": "1981",
+          "w": 1.93,
+          "note": "The debut — a minor role"
+        },
+        {
+          "id": "tc-1981-taps",
+          "t": "Taps",
+          "n": "1981",
+          "w": 2.08
+        },
+        {
+          "id": "tc-1982-losin-it",
+          "t": "Losin' It",
+          "n": "1982",
+          "w": 1.67
+        },
+        {
+          "id": "tc-1983-the-outsiders",
+          "t": "The Outsiders",
+          "n": "1983",
+          "w": 1.45
+        },
+        {
+          "id": "tc-1983-risky-business",
+          "t": "Risky Business",
+          "n": "1983",
+          "w": 1.65,
+          "note": "The breakthrough"
+        },
+        {
+          "id": "tc-1983-all-the-right-moves",
+          "t": "All the Right Moves",
+          "n": "1983",
+          "w": 1.52
+        },
+        {
+          "id": "tc-1985-legend",
+          "t": "Legend",
+          "n": "1985",
+          "w": 2.08
+        },
+        {
+          "id": "tc-1986-top-gun",
+          "t": "Top Gun",
+          "n": "1986",
+          "w": 1.83,
+          "note": "1986's highest-grossing film"
+        },
+        {
+          "id": "tc-1986-the-color-of-money",
+          "t": "The Color of Money",
+          "n": "1986",
+          "w": 2.0
+        },
+        {
+          "id": "tc-1988-cocktail",
+          "t": "Cocktail",
+          "n": "1988",
+          "w": 1.65
+        },
+        {
+          "id": "tc-1988-rain-man",
+          "t": "Rain Man",
+          "n": "1988",
+          "w": 2.13
+        },
+        {
+          "id": "tc-1989-born-on-the-fourth-of-july",
+          "t": "Born on the Fourth of July",
+          "n": "1989",
+          "w": 2.3,
+          "note": "As Ron Kovic"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "nineties",
+      "title": "The nineties",
+      "sub": "1990–1999 · 9 films · 21 hours",
+      "intro": "The leading-man decade: the Sorkin courtroom, the Grisham thriller, the first Mission: Impossible, and a 1999 spent with Kubrick and Paul Thomas Anderson.",
+      "items": [
+        {
+          "id": "tc-1990-days-of-thunder",
+          "t": "Days of Thunder",
+          "n": "1990",
+          "w": 1.78
+        },
+        {
+          "id": "tc-1992-far-and-away",
+          "t": "Far and Away",
+          "n": "1992",
+          "w": 2.23
+        },
+        {
+          "id": "tc-1992-a-few-good-men",
+          "t": "A Few Good Men",
+          "n": "1992",
+          "w": 2.3
+        },
+        {
+          "id": "tc-1993-the-firm",
+          "t": "The Firm",
+          "n": "1993",
+          "w": 2.47
+        },
+        {
+          "id": "tc-1994-interview-with-the-vampire",
+          "t": "Interview with the Vampire",
+          "n": "1994",
+          "w": 2.05
+        },
+        {
+          "id": "tc-1996-mission-impossible",
+          "t": "Mission: Impossible",
+          "n": "1996",
+          "w": 1.83,
+          "note": "First Mission: Impossible"
+        },
+        {
+          "id": "tc-1996-jerry-maguire",
+          "t": "Jerry Maguire",
+          "n": "1996",
+          "w": 2.32
+        },
+        {
+          "id": "tc-1999-eyes-wide-shut",
+          "t": "Eyes Wide Shut",
+          "n": "1999",
+          "w": 2.65,
+          "note": "The Kubrick one"
+        },
+        {
+          "id": "tc-1999-magnolia",
+          "t": "Magnolia",
+          "n": "1999",
+          "w": 3.13,
+          "note": "Oscar-nominated supporting turn"
+        }
+      ]
+    },
+    {
+      "id": "blockbuster",
+      "title": "The blockbuster years",
+      "sub": "2000–2014 · 16 films · 33 hours",
+      "intro": "Mission sequels every few years with directors between them — Crowe, Spielberg twice, Michael Mann — and a run of science fiction to close it out.",
+      "items": [
+        {
+          "id": "tc-2000-mission-impossible-2",
+          "t": "Mission: Impossible 2",
+          "n": "2000",
+          "w": 2.07
+        },
+        {
+          "id": "tc-2001-vanilla-sky",
+          "t": "Vanilla Sky",
+          "n": "2001",
+          "w": 2.27
+        },
+        {
+          "id": "tc-2002-minority-report",
+          "t": "Minority Report",
+          "n": "2002",
+          "w": 2.42,
+          "note": "The first of two with Spielberg"
+        },
+        {
+          "id": "tc-2003-the-last-samurai",
+          "t": "The Last Samurai",
+          "n": "2003",
+          "w": 2.57
+        },
+        {
+          "id": "tc-2004-collateral",
+          "t": "Collateral",
+          "n": "2004",
+          "w": 2.0
+        },
+        {
+          "id": "tc-2005-war-of-the-worlds",
+          "t": "War of the Worlds",
+          "n": "2005",
+          "w": 1.95,
+          "note": "Spielberg again"
+        },
+        {
+          "id": "tc-2006-mission-impossible-iii",
+          "t": "Mission: Impossible III",
+          "n": "2006",
+          "w": 2.1
+        },
+        {
+          "id": "tc-2007-lions-for-lambs",
+          "t": "Lions for Lambs",
+          "n": "2007",
+          "w": 1.47
+        },
+        {
+          "id": "tc-2008-tropic-thunder",
+          "t": "Tropic Thunder",
+          "n": "2008",
+          "w": 1.78,
+          "note": "As Les Grossman"
+        },
+        {
+          "id": "tc-2008-valkyrie",
+          "t": "Valkyrie",
+          "n": "2008",
+          "w": 2.0,
+          "note": "As Claus von Stauffenberg"
+        },
+        {
+          "id": "tc-2010-knight-and-day",
+          "t": "Knight and Day",
+          "n": "2010",
+          "w": 1.82
+        },
+        {
+          "id": "tc-2011-mission-impossible-ghost-protocol",
+          "t": "Mission: Impossible – Ghost Protocol",
+          "n": "2011",
+          "w": 2.2
+        },
+        {
+          "id": "tc-2012-rock-of-ages",
+          "t": "Rock of Ages",
+          "n": "2012",
+          "w": 2.05
+        },
+        {
+          "id": "tc-2012-jack-reacher",
+          "t": "Jack Reacher",
+          "n": "2012",
+          "w": 2.17
+        },
+        {
+          "id": "tc-2013-oblivion",
+          "t": "Oblivion",
+          "n": "2013",
+          "w": 2.08
+        },
+        {
+          "id": "tc-2014-edge-of-tomorrow",
+          "t": "Edge of Tomorrow",
+          "n": "2014",
+          "w": 1.88
+        }
+      ]
+    },
+    {
+      "id": "mission",
+      "title": "The Mission years",
+      "sub": "2015–2025 · 8 films · 18 hours",
+      "intro": "From Rogue Nation on the output narrows: mostly Ethan Hunt, plus the Top Gun sequel that became his biggest film.",
+      "items": [
+        {
+          "id": "tc-2015-mission-impossible-rogue-nation",
+          "t": "Mission: Impossible – Rogue Nation",
+          "n": "2015",
+          "w": 2.18
+        },
+        {
+          "id": "tc-2016-jack-reacher-never-go-back",
+          "t": "Jack Reacher: Never Go Back",
+          "n": "2016",
+          "w": 1.97
+        },
+        {
+          "id": "tc-2017-the-mummy",
+          "t": "The Mummy",
+          "n": "2017",
+          "w": 1.83
+        },
+        {
+          "id": "tc-2017-american-made",
+          "t": "American Made",
+          "n": "2017",
+          "w": 1.92
+        },
+        {
+          "id": "tc-2018-mission-impossible-fallout",
+          "t": "Mission: Impossible – Fallout",
+          "n": "2018",
+          "w": 2.45
+        },
+        {
+          "id": "tc-2022-top-gun-maverick",
+          "t": "Top Gun: Maverick",
+          "n": "2022",
+          "w": 2.18,
+          "note": "His highest-grossing film"
+        },
+        {
+          "id": "tc-2023-mission-impossible-dead-reckoning-part-one",
+          "t": "Mission: Impossible – Dead Reckoning Part One",
+          "n": "2023",
+          "w": 2.72
+        },
+        {
+          "id": "tc-2025-mission-impossible-the-final-reckoning",
+          "t": "Mission: Impossible – The Final Reckoning",
+          "n": "2025",
+          "w": 2.82,
+          "note": "The eighth Mission: Impossible"
+        }
+      ]
+    }
+  ]
+}
