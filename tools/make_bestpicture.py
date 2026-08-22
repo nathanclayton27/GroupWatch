@@ -281,12 +281,12 @@ def main():
                   "w": round(r / 60.0, 2) if r else 0}
             # tags feed the Winners/Nominees toggle; the strip follows the
             # filter, so "just the winners" narrows the bar to 98 marks too
+            # only winners carry a tag: the single Winners chip is the whole
+            # control, so a nominee needs nothing to be filtered out by it
             if f["winner"]:
                 it["note"] = "Won Best Picture"
                 it["star"] = 2
                 it["tags"] = ["Winners"]
-            else:
-                it["tags"] = ["Nominees"]
             items.append(it)
         sec = {"id": "y%d" % g["year"],
                "title": "%s (%s)" % (g["label"], g["ord"]),
@@ -355,7 +355,7 @@ def main():
         "tiers": False,
         "filter": {
             "key": "result", "label": "Show", "mode": "include",
-            "values": ["Winners", "Nominees"]
+            "values": ["Winners"]
         },
         "altSections": {"when": ["Winners"], "sections": alt},
         "notes": [

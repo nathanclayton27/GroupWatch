@@ -23,8 +23,7 @@
     "label": "Show",
     "mode": "include",
     "values": [
-      "Winners",
-      "Nominees"
+      "Winners"
     ]
   },
   "altSections": {
@@ -1225,19 +1224,13 @@
           "id": "bp-1928-7th-heaven",
           "t": "7th Heaven",
           "n": "1927/28",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         },
         {
           "id": "bp-1928-the-racket",
           "t": "The Racket",
           "n": "1927/28",
-          "w": 1.4,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.4
         }
       ],
       "open": true
@@ -1262,37 +1255,25 @@
           "id": "bp-1929-alibi",
           "t": "Alibi",
           "n": "1928/29",
-          "w": 1.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.5
         },
         {
           "id": "bp-1929-the-hollywood-revue",
           "t": "The Hollywood Revue",
           "n": "1928/29",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         },
         {
           "id": "bp-1929-in-old-arizona",
           "t": "In Old Arizona",
           "n": "1928/29",
-          "w": 1.58,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.58
         },
         {
           "id": "bp-1929-the-patriot",
           "t": "The Patriot",
           "n": "1928/29",
-          "w": 1.88,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.88
         }
       ]
     },
@@ -1316,37 +1297,25 @@
           "id": "bp-1930-the-big-house",
           "t": "The Big House",
           "n": "1929/30",
-          "w": 1.47,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.47
         },
         {
           "id": "bp-1930-disraeli",
           "t": "Disraeli",
           "n": "1929/30",
-          "w": 1.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.48
         },
         {
           "id": "bp-1930-the-divorcee",
           "t": "The Divorcee",
           "n": "1929/30",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         },
         {
           "id": "bp-1930-the-love-parade",
           "t": "The Love Parade",
           "n": "1929/30",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         }
       ]
     },
@@ -1370,37 +1339,25 @@
           "id": "bp-1931-east-lynne",
           "t": "East Lynne",
           "n": "1930/31",
-          "w": 1.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.7
         },
         {
           "id": "bp-1931-the-front-page",
           "t": "The Front Page",
           "n": "1930/31",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         },
         {
           "id": "bp-1931-skippy",
           "t": "Skippy",
           "n": "1930/31",
-          "w": 1.42,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.42
         },
         {
           "id": "bp-1931-trader-horn",
           "t": "Trader Horn",
           "n": "1930/31",
-          "w": 2.03,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.03
         }
       ]
     },
@@ -1424,64 +1381,43 @@
           "id": "bp-1932-arrowsmith",
           "t": "Arrowsmith",
           "n": "1931/32",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         },
         {
           "id": "bp-1932-bad-girl",
           "t": "Bad Girl",
           "n": "1931/32",
-          "w": 1.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.5
         },
         {
           "id": "bp-1932-the-champ",
           "t": "The Champ",
           "n": "1931/32",
-          "w": 1.43,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.43
         },
         {
           "id": "bp-1932-five-star-final",
           "t": "Five Star Final",
           "n": "1931/32",
-          "w": 1.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.48
         },
         {
           "id": "bp-1932-one-hour-with-you",
           "t": "One Hour with You",
           "n": "1931/32",
-          "w": 1.37,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.37
         },
         {
           "id": "bp-1932-shanghai-express",
           "t": "Shanghai Express",
           "n": "1931/32",
-          "w": 1.33,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.33
         },
         {
           "id": "bp-1932-the-smiling-lieutenant",
           "t": "The Smiling Lieutenant",
           "n": "1931/32",
-          "w": 1.53,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.53
         }
       ]
     },
@@ -1505,82 +1441,55 @@
           "id": "bp-1933-42nd-street",
           "t": "42nd Street",
           "n": "1932/33",
-          "w": 1.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.48
         },
         {
           "id": "bp-1933-a-farewell-to-arms",
           "t": "A Farewell to Arms",
           "n": "1932/33",
-          "w": 1.47,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.47
         },
         {
           "id": "bp-1933-i-am-a-fugitive-from-a-chain-gang",
           "t": "I Am a Fugitive from a Chain Gang",
           "n": "1932/33",
-          "w": 1.55,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.55
         },
         {
           "id": "bp-1933-lady-for-a-day",
           "t": "Lady for a Day",
           "n": "1932/33",
-          "w": 1.53,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.53
         },
         {
           "id": "bp-1933-little-women",
           "t": "Little Women",
           "n": "1932/33",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-1933-the-private-life-of-henry-viii",
           "t": "The Private Life of Henry VIII",
           "n": "1932/33",
-          "w": 1.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.62
         },
         {
           "id": "bp-1933-she-done-him-wrong",
           "t": "She Done Him Wrong",
           "n": "1932/33",
-          "w": 1.13,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.13
         },
         {
           "id": "bp-1933-smilin-through",
           "t": "Smilin' Through",
           "n": "1932/33",
-          "w": 1.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.63
         },
         {
           "id": "bp-1933-state-fair",
           "t": "State Fair",
           "n": "1932/33",
-          "w": 1.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.62
         }
       ]
     },
@@ -1604,100 +1513,67 @@
           "id": "bp-1934-the-barretts-of-wimpole-street",
           "t": "The Barretts of Wimpole Street",
           "n": "1934",
-          "w": 1.82,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.82
         },
         {
           "id": "bp-1934-cleopatra",
           "t": "Cleopatra",
           "n": "1934",
-          "w": 1.67,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.67
         },
         {
           "id": "bp-1934-flirtation-walk",
           "t": "Flirtation Walk",
           "n": "1934",
-          "w": 1.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.62
         },
         {
           "id": "bp-1934-the-gay-divorcee",
           "t": "The Gay Divorcee",
           "n": "1934",
-          "w": 1.78,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.78
         },
         {
           "id": "bp-1934-here-comes-the-navy",
           "t": "Here Comes the Navy",
           "n": "1934",
-          "w": 1.45,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.45
         },
         {
           "id": "bp-1934-the-house-of-rothschild",
           "t": "The House of Rothschild",
           "n": "1934",
-          "w": 1.47,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.47
         },
         {
           "id": "bp-1934-imitation-of-life",
           "t": "Imitation of Life",
           "n": "1934",
-          "w": 1.85,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.85
         },
         {
           "id": "bp-1934-one-night-of-love",
           "t": "One Night of Love",
           "n": "1934",
-          "w": 1.38,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.38
         },
         {
           "id": "bp-1934-the-thin-man",
           "t": "The Thin Man",
           "n": "1934",
-          "w": 1.52,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.52
         },
         {
           "id": "bp-1934-viva-villa",
           "t": "Viva Villa!",
           "n": "1934",
-          "w": 1.82,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.82
         },
         {
           "id": "bp-1934-the-white-parade",
           "t": "The White Parade",
           "n": "1934",
-          "w": 1.33,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.33
         }
       ]
     },
@@ -1721,100 +1597,67 @@
           "id": "bp-1935-alice-adams",
           "t": "Alice Adams",
           "n": "1935",
-          "w": 1.67,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.67
         },
         {
           "id": "bp-1935-broadway-melody-of-1936",
           "t": "Broadway Melody of 1936",
           "n": "1935",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         },
         {
           "id": "bp-1935-captain-blood",
           "t": "Captain Blood",
           "n": "1935",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         },
         {
           "id": "bp-1935-david-copperfield",
           "t": "David Copperfield",
           "n": "1935",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-1935-the-informer",
           "t": "The Informer",
           "n": "1935",
-          "w": 1.52,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.52
         },
         {
           "id": "bp-1935-the-lives-of-a-bengal-lancer",
           "t": "The Lives of a Bengal Lancer",
           "n": "1935",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         },
         {
           "id": "bp-1935-a-midsummer-night-s-dream",
           "t": "A Midsummer Night's Dream",
           "n": "1935",
-          "w": 2.2,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.2
         },
         {
           "id": "bp-1935-les-misérables",
           "t": "Les Misérables",
           "n": "1935",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         },
         {
           "id": "bp-1935-naughty-marietta",
           "t": "Naughty Marietta",
           "n": "1935",
-          "w": 1.75,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.75
         },
         {
           "id": "bp-1935-ruggles-of-red-gap",
           "t": "Ruggles of Red Gap",
           "n": "1935",
-          "w": 1.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.5
         },
         {
           "id": "bp-1935-top-hat",
           "t": "Top Hat",
           "n": "1935",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         }
       ]
     },
@@ -1838,82 +1681,55 @@
           "id": "bp-1936-anthony-adverse",
           "t": "Anthony Adverse",
           "n": "1936",
-          "w": 2.35,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.35
         },
         {
           "id": "bp-1936-dodsworth",
           "t": "Dodsworth",
           "n": "1936",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         },
         {
           "id": "bp-1936-libeled-lady",
           "t": "Libeled Lady",
           "n": "1936",
-          "w": 1.65,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.65
         },
         {
           "id": "bp-1936-mr-deeds-goes-to-town",
           "t": "Mr. Deeds Goes to Town",
           "n": "1936",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-1936-romeo-and-juliet",
           "t": "Romeo and Juliet",
           "n": "1936",
-          "w": 2.08,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.08
         },
         {
           "id": "bp-1936-san-francisco",
           "t": "San Francisco",
           "n": "1936",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-1936-the-story-of-louis-pasteur",
           "t": "The Story of Louis Pasteur",
           "n": "1936",
-          "w": 1.42,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.42
         },
         {
           "id": "bp-1936-a-tale-of-two-cities",
           "t": "A Tale of Two Cities",
           "n": "1936",
-          "w": 2.0,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.0
         },
         {
           "id": "bp-1936-three-smart-girls",
           "t": "Three Smart Girls",
           "n": "1936",
-          "w": 1.4,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.4
         }
       ]
     },
@@ -1937,82 +1753,55 @@
           "id": "bp-1937-the-awful-truth",
           "t": "The Awful Truth",
           "n": "1937",
-          "w": 1.45,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.45
         },
         {
           "id": "bp-1937-captains-courageous",
           "t": "Captains Courageous",
           "n": "1937",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-1937-dead-end",
           "t": "Dead End",
           "n": "1937",
-          "w": 1.55,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.55
         },
         {
           "id": "bp-1937-the-good-earth",
           "t": "The Good Earth",
           "n": "1937",
-          "w": 2.3,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.3
         },
         {
           "id": "bp-1937-in-old-chicago",
           "t": "In Old Chicago",
           "n": "1937",
-          "w": 1.58,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.58
         },
         {
           "id": "bp-1937-lost-horizon",
           "t": "Lost Horizon",
           "n": "1937",
-          "w": 1.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.62
         },
         {
           "id": "bp-1937-one-hundred-men-and-a-girl",
           "t": "One Hundred Men and a Girl",
           "n": "1937",
-          "w": 1.4,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.4
         },
         {
           "id": "bp-1937-stage-door",
           "t": "Stage Door",
           "n": "1937",
-          "w": 1.53,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.53
         },
         {
           "id": "bp-1937-a-star-is-born",
           "t": "A Star Is Born",
           "n": "1937",
-          "w": 1.85,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.85
         }
       ]
     },
@@ -2036,82 +1825,55 @@
           "id": "bp-1938-the-adventures-of-robin-hood",
           "t": "The Adventures of Robin Hood",
           "n": "1938",
-          "w": 1.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.7
         },
         {
           "id": "bp-1938-alexander-s-ragtime-band",
           "t": "Alexander's Ragtime Band",
           "n": "1938",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         },
         {
           "id": "bp-1938-boys-town",
           "t": "Boys Town",
           "n": "1938",
-          "w": 1.55,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.55
         },
         {
           "id": "bp-1938-the-citadel",
           "t": "The Citadel",
           "n": "1938",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         },
         {
           "id": "bp-1938-four-daughters",
           "t": "Four Daughters",
           "n": "1938",
-          "w": 1.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.5
         },
         {
           "id": "bp-1938-grand-illusion",
           "t": "Grand Illusion",
           "n": "1938",
-          "w": 2.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.07
         },
         {
           "id": "bp-1938-jezebel",
           "t": "Jezebel",
           "n": "1938",
-          "w": 1.72,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.72
         },
         {
           "id": "bp-1938-pygmalion",
           "t": "Pygmalion",
           "n": "1938",
-          "w": 1.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.5
         },
         {
           "id": "bp-1938-test-pilot",
           "t": "Test Pilot",
           "n": "1938",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         }
       ]
     },
@@ -2135,82 +1897,55 @@
           "id": "bp-1939-dark-victory",
           "t": "Dark Victory",
           "n": "1939",
-          "w": 1.65,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.65
         },
         {
           "id": "bp-1939-goodbye-mr-chips",
           "t": "Goodbye, Mr. Chips",
           "n": "1939",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         },
         {
           "id": "bp-1939-love-affair",
           "t": "Love Affair",
           "n": "1939",
-          "w": 1.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.48
         },
         {
           "id": "bp-1939-mr-smith-goes-to-washington",
           "t": "Mr. Smith Goes to Washington",
           "n": "1939",
-          "w": 2.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.15
         },
         {
           "id": "bp-1939-ninotchka",
           "t": "Ninotchka",
           "n": "1939",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         },
         {
           "id": "bp-1939-of-mice-and-men",
           "t": "Of Mice and Men",
           "n": "1939",
-          "w": 1.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.77
         },
         {
           "id": "bp-1939-stagecoach",
           "t": "Stagecoach",
           "n": "1939",
-          "w": 1.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.62
         },
         {
           "id": "bp-1939-the-wizard-of-oz",
           "t": "The Wizard of Oz",
           "n": "1939",
-          "w": 1.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.63
         },
         {
           "id": "bp-1939-wuthering-heights",
           "t": "Wuthering Heights",
           "n": "1939",
-          "w": 1.65,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.65
         }
       ]
     },
@@ -2234,82 +1969,55 @@
           "id": "bp-1940-all-this-and-heaven-too",
           "t": "All This, and Heaven Too",
           "n": "1940",
-          "w": 2.38,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.38
         },
         {
           "id": "bp-1940-foreign-correspondent",
           "t": "Foreign Correspondent",
           "n": "1940",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-1940-the-grapes-of-wrath",
           "t": "The Grapes of Wrath",
           "n": "1940",
-          "w": 2.13,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.13
         },
         {
           "id": "bp-1940-the-great-dictator",
           "t": "The Great Dictator",
           "n": "1940",
-          "w": 2.08,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.08
         },
         {
           "id": "bp-1940-kitty-foyle",
           "t": "Kitty Foyle",
           "n": "1940",
-          "w": 1.75,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.75
         },
         {
           "id": "bp-1940-the-letter",
           "t": "The Letter",
           "n": "1940",
-          "w": 1.58,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.58
         },
         {
           "id": "bp-1940-the-long-voyage-home",
           "t": "The Long Voyage Home",
           "n": "1940",
-          "w": 1.75,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.75
         },
         {
           "id": "bp-1940-our-town",
           "t": "Our Town",
           "n": "1940",
-          "w": 1.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.5
         },
         {
           "id": "bp-1940-the-philadelphia-story",
           "t": "The Philadelphia Story",
           "n": "1940",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         }
       ]
     },
@@ -2333,82 +2041,55 @@
           "id": "bp-1941-blossoms-in-the-dust",
           "t": "Blossoms in the Dust",
           "n": "1941",
-          "w": 1.65,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.65
         },
         {
           "id": "bp-1941-citizen-kane",
           "t": "Citizen Kane",
           "n": "1941",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         },
         {
           "id": "bp-1941-here-comes-mr-jordan",
           "t": "Here Comes Mr. Jordan",
           "n": "1941",
-          "w": 1.52,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.52
         },
         {
           "id": "bp-1941-hold-back-the-dawn",
           "t": "Hold Back the Dawn",
           "n": "1941",
-          "w": 1.93,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.93
         },
         {
           "id": "bp-1941-the-little-foxes",
           "t": "The Little Foxes",
           "n": "1941",
-          "w": 1.93,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.93
         },
         {
           "id": "bp-1941-the-maltese-falcon",
           "t": "The Maltese Falcon",
           "n": "1941",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         },
         {
           "id": "bp-1941-one-foot-in-heaven",
           "t": "One Foot in Heaven",
           "n": "1941",
-          "w": 1.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.77
         },
         {
           "id": "bp-1941-sergeant-york",
           "t": "Sergeant York",
           "n": "1941",
-          "w": 2.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.23
         },
         {
           "id": "bp-1941-suspicion",
           "t": "Suspicion",
           "n": "1941",
-          "w": 1.65,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.65
         }
       ]
     },
@@ -2432,82 +2113,55 @@
           "id": "bp-1942-49th-parallel",
           "t": "49th Parallel",
           "n": "1942",
-          "w": 2.05,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.05
         },
         {
           "id": "bp-1942-kings-row",
           "t": "Kings Row",
           "n": "1942",
-          "w": 2.17,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.17
         },
         {
           "id": "bp-1942-the-magnificent-ambersons",
           "t": "The Magnificent Ambersons",
           "n": "1942",
-          "w": 1.47,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.47
         },
         {
           "id": "bp-1942-the-pied-piper",
           "t": "The Pied Piper",
           "n": "1942",
-          "w": 1.43,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.43
         },
         {
           "id": "bp-1942-the-pride-of-the-yankees",
           "t": "The Pride of the Yankees",
           "n": "1942",
-          "w": 2.13,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.13
         },
         {
           "id": "bp-1942-random-harvest",
           "t": "Random Harvest",
           "n": "1942",
-          "w": 2.08,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.08
         },
         {
           "id": "bp-1942-the-talk-of-the-town",
           "t": "The Talk of the Town",
           "n": "1942",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         },
         {
           "id": "bp-1942-wake-island",
           "t": "Wake Island",
           "n": "1942",
-          "w": 1.45,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.45
         },
         {
           "id": "bp-1942-yankee-doodle-dandy",
           "t": "Yankee Doodle Dandy",
           "n": "1942",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         }
       ]
     },
@@ -2531,82 +2185,55 @@
           "id": "bp-1943-for-whom-the-bell-tolls",
           "t": "For Whom the Bell Tolls",
           "n": "1943",
-          "w": 2.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.83
         },
         {
           "id": "bp-1943-heaven-can-wait",
           "t": "Heaven Can Wait",
           "n": "1943",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         },
         {
           "id": "bp-1943-the-human-comedy",
           "t": "The Human Comedy",
           "n": "1943",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         },
         {
           "id": "bp-1943-in-which-we-serve",
           "t": "In Which We Serve",
           "n": "1943",
-          "w": 1.9,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.9
         },
         {
           "id": "bp-1943-madame-curie",
           "t": "Madame Curie",
           "n": "1943",
-          "w": 2.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.07
         },
         {
           "id": "bp-1943-the-more-the-merrier",
           "t": "The More the Merrier",
           "n": "1943",
-          "w": 1.73,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.73
         },
         {
           "id": "bp-1943-the-ox-bow-incident",
           "t": "The Ox-Bow Incident",
           "n": "1943",
-          "w": 1.28,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.28
         },
         {
           "id": "bp-1943-the-song-of-bernadette",
           "t": "The Song of Bernadette",
           "n": "1943",
-          "w": 2.58,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.58
         },
         {
           "id": "bp-1943-watch-on-the-rhine",
           "t": "Watch on the Rhine",
           "n": "1943",
-          "w": 1.9,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.9
         }
       ]
     },
@@ -2630,37 +2257,25 @@
           "id": "bp-1944-double-indemnity",
           "t": "Double Indemnity",
           "n": "1944",
-          "w": 1.78,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.78
         },
         {
           "id": "bp-1944-gaslight",
           "t": "Gaslight",
           "n": "1944",
-          "w": 1.9,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.9
         },
         {
           "id": "bp-1944-since-you-went-away",
           "t": "Since You Went Away",
           "n": "1944",
-          "w": 2.0,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.0
         },
         {
           "id": "bp-1944-wilson",
           "t": "Wilson",
           "n": "1944",
-          "w": 2.57,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.57
         }
       ]
     },
@@ -2684,37 +2299,25 @@
           "id": "bp-1945-anchors-aweigh",
           "t": "Anchors Aweigh",
           "n": "1945",
-          "w": 2.38,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.38
         },
         {
           "id": "bp-1945-the-bells-of-st-mary-s",
           "t": "The Bells of St. Mary's",
           "n": "1945",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         },
         {
           "id": "bp-1945-mildred-pierce",
           "t": "Mildred Pierce",
           "n": "1945",
-          "w": 1.85,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.85
         },
         {
           "id": "bp-1945-spellbound",
           "t": "Spellbound",
           "n": "1945",
-          "w": 1.85,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.85
         }
       ]
     },
@@ -2738,37 +2341,25 @@
           "id": "bp-1946-henry-v",
           "t": "Henry V",
           "n": "1946",
-          "w": 2.38,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.38
         },
         {
           "id": "bp-1946-it-s-a-wonderful-life",
           "t": "It's a Wonderful Life",
           "n": "1946",
-          "w": 2.08,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.08
         },
         {
           "id": "bp-1946-the-razor-s-edge",
           "t": "The Razor's Edge",
           "n": "1946",
-          "w": 2.42,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.42
         },
         {
           "id": "bp-1946-the-yearling",
           "t": "The Yearling",
           "n": "1946",
-          "w": 2.13,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.13
         }
       ]
     },
@@ -2792,37 +2383,25 @@
           "id": "bp-1947-the-bishop-s-wife",
           "t": "The Bishop's Wife",
           "n": "1947",
-          "w": 1.82,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.82
         },
         {
           "id": "bp-1947-crossfire",
           "t": "Crossfire",
           "n": "1947",
-          "w": 1.47,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.47
         },
         {
           "id": "bp-1947-great-expectations",
           "t": "Great Expectations",
           "n": "1947",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         },
         {
           "id": "bp-1947-miracle-on-34th-street",
           "t": "Miracle on 34th Street",
           "n": "1947",
-          "w": 1.6,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.6
         }
       ]
     },
@@ -2846,37 +2425,25 @@
           "id": "bp-1948-johnny-belinda",
           "t": "Johnny Belinda",
           "n": "1948",
-          "w": 1.58,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.58
         },
         {
           "id": "bp-1948-the-red-shoes",
           "t": "The Red Shoes",
           "n": "1948",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-1948-the-snake-pit",
           "t": "The Snake Pit",
           "n": "1948",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         },
         {
           "id": "bp-1948-the-treasure-of-the-sierra-madre",
           "t": "The Treasure of the Sierra Madre",
           "n": "1948",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         }
       ]
     },
@@ -2900,37 +2467,25 @@
           "id": "bp-1949-battleground",
           "t": "Battleground",
           "n": "1949",
-          "w": 1.88,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.88
         },
         {
           "id": "bp-1949-the-heiress",
           "t": "The Heiress",
           "n": "1949",
-          "w": 1.9,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.9
         },
         {
           "id": "bp-1949-a-letter-to-three-wives",
           "t": "A Letter to Three Wives",
           "n": "1949",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         },
         {
           "id": "bp-1949-twelve-o-clock-high",
           "t": "Twelve O'Clock High",
           "n": "1949",
-          "w": 2.12,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.12
         }
       ]
     },
@@ -2954,37 +2509,25 @@
           "id": "bp-1950-born-yesterday",
           "t": "Born Yesterday",
           "n": "1950",
-          "w": 1.72,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.72
         },
         {
           "id": "bp-1950-father-of-the-bride",
           "t": "Father of the Bride",
           "n": "1950",
-          "w": 1.53,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.53
         },
         {
           "id": "bp-1950-king-solomon-s-mines",
           "t": "King Solomon's Mines",
           "n": "1950",
-          "w": 1.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.63
         },
         {
           "id": "bp-1950-sunset-boulevard",
           "t": "Sunset Boulevard",
           "n": "1950",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         }
       ]
     },
@@ -3008,37 +2551,25 @@
           "id": "bp-1951-decision-before-dawn",
           "t": "Decision Before Dawn",
           "n": "1951",
-          "w": 1.85,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.85
         },
         {
           "id": "bp-1951-a-place-in-the-sun",
           "t": "A Place in the Sun",
           "n": "1951",
-          "w": 1.95,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.95
         },
         {
           "id": "bp-1951-quo-vadis",
           "t": "Quo Vadis",
           "n": "1951",
-          "w": 2.85,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.85
         },
         {
           "id": "bp-1951-a-streetcar-named-desire",
           "t": "A Streetcar Named Desire",
           "n": "1951",
-          "w": 2.0,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.0
         }
       ]
     },
@@ -3062,37 +2593,25 @@
           "id": "bp-1952-high-noon",
           "t": "High Noon",
           "n": "1952",
-          "w": 1.42,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.42
         },
         {
           "id": "bp-1952-ivanhoe",
           "t": "Ivanhoe",
           "n": "1952",
-          "w": 1.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.77
         },
         {
           "id": "bp-1952-moulin-rouge",
           "t": "Moulin Rouge",
           "n": "1952",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         },
         {
           "id": "bp-1952-the-quiet-man",
           "t": "The Quiet Man",
           "n": "1952",
-          "w": 2.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.15
         }
       ]
     },
@@ -3116,37 +2635,25 @@
           "id": "bp-1953-julius-caesar",
           "t": "Julius Caesar",
           "n": "1953",
-          "w": 2.0,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.0
         },
         {
           "id": "bp-1953-the-robe",
           "t": "The Robe",
           "n": "1953",
-          "w": 2.25,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.25
         },
         {
           "id": "bp-1953-roman-holiday",
           "t": "Roman Holiday",
           "n": "1953",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         },
         {
           "id": "bp-1953-shane",
           "t": "Shane",
           "n": "1953",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         }
       ]
     },
@@ -3170,37 +2677,25 @@
           "id": "bp-1954-the-caine-mutiny",
           "t": "The Caine Mutiny",
           "n": "1954",
-          "w": 2.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.07
         },
         {
           "id": "bp-1954-the-country-girl",
           "t": "The Country Girl",
           "n": "1954",
-          "w": 1.73,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.73
         },
         {
           "id": "bp-1954-seven-brides-for-seven-brothers",
           "t": "Seven Brides for Seven Brothers",
           "n": "1954",
-          "w": 1.73,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.73
         },
         {
           "id": "bp-1954-three-coins-in-the-fountain",
           "t": "Three Coins in the Fountain",
           "n": "1954",
-          "w": 1.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.7
         }
       ]
     },
@@ -3224,37 +2719,25 @@
           "id": "bp-1955-love-is-a-many-splendored-thing",
           "t": "Love Is a Many-Splendored Thing",
           "n": "1955",
-          "w": 1.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.7
         },
         {
           "id": "bp-1955-mister-roberts",
           "t": "Mister Roberts",
           "n": "1955",
-          "w": 2.05,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.05
         },
         {
           "id": "bp-1955-picnic",
           "t": "Picnic",
           "n": "1955",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-1955-the-rose-tattoo",
           "t": "The Rose Tattoo",
           "n": "1955",
-          "w": 1.95,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.95
         }
       ]
     },
@@ -3278,37 +2761,25 @@
           "id": "bp-1956-friendly-persuasion",
           "t": "Friendly Persuasion",
           "n": "1956",
-          "w": 2.28,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.28
         },
         {
           "id": "bp-1956-giant",
           "t": "Giant",
           "n": "1956",
-          "w": 3.27,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.27
         },
         {
           "id": "bp-1956-the-king-and-i",
           "t": "The King and I",
           "n": "1956",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-1956-the-ten-commandments",
           "t": "The Ten Commandments",
           "n": "1956",
-          "w": 3.67,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.67
         }
       ]
     },
@@ -3332,37 +2803,25 @@
           "id": "bp-1957-12-angry-men",
           "t": "12 Angry Men",
           "n": "1957",
-          "w": 1.58,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.58
         },
         {
           "id": "bp-1957-peyton-place",
           "t": "Peyton Place",
           "n": "1957",
-          "w": 2.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.62
         },
         {
           "id": "bp-1957-sayonara",
           "t": "Sayonara",
           "n": "1957",
-          "w": 2.45,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.45
         },
         {
           "id": "bp-1957-witness-for-the-prosecution",
           "t": "Witness for the Prosecution",
           "n": "1957",
-          "w": 1.93,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.93
         }
       ]
     },
@@ -3386,37 +2845,25 @@
           "id": "bp-1958-auntie-mame",
           "t": "Auntie Mame",
           "n": "1958",
-          "w": 2.38,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.38
         },
         {
           "id": "bp-1958-cat-on-a-hot-tin-roof",
           "t": "Cat on a Hot Tin Roof",
           "n": "1958",
-          "w": 1.73,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.73
         },
         {
           "id": "bp-1958-the-defiant-ones",
           "t": "The Defiant Ones",
           "n": "1958",
-          "w": 1.6,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.6
         },
         {
           "id": "bp-1958-separate-tables",
           "t": "Separate Tables",
           "n": "1958",
-          "w": 1.67,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.67
         }
       ]
     },
@@ -3440,37 +2887,25 @@
           "id": "bp-1959-anatomy-of-a-murder",
           "t": "Anatomy of a Murder",
           "n": "1959",
-          "w": 2.67,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.67
         },
         {
           "id": "bp-1959-the-diary-of-anne-frank",
           "t": "The Diary of Anne Frank",
           "n": "1959",
-          "w": 2.53,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.53
         },
         {
           "id": "bp-1959-the-nun-s-story",
           "t": "The Nun's Story",
           "n": "1959",
-          "w": 2.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.48
         },
         {
           "id": "bp-1959-room-at-the-top",
           "t": "Room at the Top",
           "n": "1959",
-          "w": 1.95,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.95
         }
       ]
     },
@@ -3494,37 +2929,25 @@
           "id": "bp-1960-the-alamo",
           "t": "The Alamo",
           "n": "1960",
-          "w": 3.2,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.2
         },
         {
           "id": "bp-1960-elmer-gantry",
           "t": "Elmer Gantry",
           "n": "1960",
-          "w": 2.33,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.33
         },
         {
           "id": "bp-1960-sons-and-lovers",
           "t": "Sons and Lovers",
           "n": "1960",
-          "w": 1.73,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.73
         },
         {
           "id": "bp-1960-the-sundowners",
           "t": "The Sundowners",
           "n": "1960",
-          "w": 2.35,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.35
         }
       ]
     },
@@ -3548,37 +2971,25 @@
           "id": "bp-1961-fanny",
           "t": "Fanny",
           "n": "1961",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-1961-the-guns-of-navarone",
           "t": "The Guns of Navarone",
           "n": "1961",
-          "w": 2.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.63
         },
         {
           "id": "bp-1961-the-hustler",
           "t": "The Hustler",
           "n": "1961",
-          "w": 2.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.23
         },
         {
           "id": "bp-1961-judgment-at-nuremberg",
           "t": "Judgment at Nuremberg",
           "n": "1961",
-          "w": 3.13,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.13
         }
       ]
     },
@@ -3602,37 +3013,25 @@
           "id": "bp-1962-the-longest-day",
           "t": "The Longest Day",
           "n": "1962",
-          "w": 3.0,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.0
         },
         {
           "id": "bp-1962-the-music-man",
           "t": "The Music Man",
           "n": "1962",
-          "w": 2.52,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.52
         },
         {
           "id": "bp-1962-mutiny-on-the-bounty",
           "t": "Mutiny on the Bounty",
           "n": "1962",
-          "w": 2.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.97
         },
         {
           "id": "bp-1962-to-kill-a-mockingbird",
           "t": "To Kill a Mockingbird",
           "n": "1962",
-          "w": 2.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.15
         }
       ]
     },
@@ -3656,37 +3055,25 @@
           "id": "bp-1963-america-america",
           "t": "America America",
           "n": "1963",
-          "w": 2.95,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.95
         },
         {
           "id": "bp-1963-cleopatra",
           "t": "Cleopatra",
           "n": "1963",
-          "w": 4.02,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 4.02
         },
         {
           "id": "bp-1963-how-the-west-was-won",
           "t": "How the West Was Won",
           "n": "1963",
-          "w": 2.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.7
         },
         {
           "id": "bp-1963-lilies-of-the-field",
           "t": "Lilies of the Field",
           "n": "1963",
-          "w": 1.57,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.57
         }
       ]
     },
@@ -3710,37 +3097,25 @@
           "id": "bp-1964-becket",
           "t": "Becket",
           "n": "1964",
-          "w": 2.47,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.47
         },
         {
           "id": "bp-1964-dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb",
           "t": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
           "n": "1964",
-          "w": 1.55,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.55
         },
         {
           "id": "bp-1964-mary-poppins",
           "t": "Mary Poppins",
           "n": "1964",
-          "w": 2.33,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.33
         },
         {
           "id": "bp-1964-zorba-the-greek",
           "t": "Zorba the Greek",
           "n": "1964",
-          "w": 2.37,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.37
         }
       ]
     },
@@ -3764,37 +3139,25 @@
           "id": "bp-1965-darling",
           "t": "Darling",
           "n": "1965",
-          "w": 2.13,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.13
         },
         {
           "id": "bp-1965-doctor-zhivago",
           "t": "Doctor Zhivago",
           "n": "1965",
-          "w": 3.28,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.28
         },
         {
           "id": "bp-1965-ship-of-fools",
           "t": "Ship of Fools",
           "n": "1965",
-          "w": 2.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.48
         },
         {
           "id": "bp-1965-a-thousand-clowns",
           "t": "A Thousand Clowns",
           "n": "1965",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         }
       ]
     },
@@ -3818,37 +3181,25 @@
           "id": "bp-1966-alfie",
           "t": "Alfie",
           "n": "1966",
-          "w": 1.9,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.9
         },
         {
           "id": "bp-1966-the-russians-are-coming-the-russians-are-coming",
           "t": "The Russians Are Coming, the Russians Are Coming",
           "n": "1966",
-          "w": 2.08,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.08
         },
         {
           "id": "bp-1966-the-sand-pebbles",
           "t": "The Sand Pebbles",
           "n": "1966",
-          "w": 2.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.98
         },
         {
           "id": "bp-1966-who-s-afraid-of-virginia-woolf",
           "t": "Who's Afraid of Virginia Woolf?",
           "n": "1966",
-          "w": 2.18,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.18
         }
       ]
     },
@@ -3872,37 +3223,25 @@
           "id": "bp-1967-bonnie-and-clyde",
           "t": "Bonnie and Clyde",
           "n": "1967",
-          "w": 1.78,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.78
         },
         {
           "id": "bp-1967-doctor-dolittle",
           "t": "Doctor Dolittle",
           "n": "1967",
-          "w": 2.53,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.53
         },
         {
           "id": "bp-1967-the-graduate",
           "t": "The Graduate",
           "n": "1967",
-          "w": 1.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.7
         },
         {
           "id": "bp-1967-guess-who-s-coming-to-dinner",
           "t": "Guess Who's Coming to Dinner",
           "n": "1967",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         }
       ]
     },
@@ -3926,37 +3265,25 @@
           "id": "bp-1968-funny-girl",
           "t": "Funny Girl",
           "n": "1968",
-          "w": 2.52,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.52
         },
         {
           "id": "bp-1968-the-lion-in-winter",
           "t": "The Lion in Winter",
           "n": "1968",
-          "w": 2.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.15
         },
         {
           "id": "bp-1968-rachel-rachel",
           "t": "Rachel, Rachel",
           "n": "1968",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         },
         {
           "id": "bp-1968-romeo-and-juliet",
           "t": "Romeo and Juliet",
           "n": "1968",
-          "w": 2.3,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.3
         }
       ]
     },
@@ -3980,37 +3307,25 @@
           "id": "bp-1969-anne-of-the-thousand-days",
           "t": "Anne of the Thousand Days",
           "n": "1969",
-          "w": 2.42,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.42
         },
         {
           "id": "bp-1969-butch-cassidy-and-the-sundance-kid",
           "t": "Butch Cassidy and the Sundance Kid",
           "n": "1969",
-          "w": 1.75,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.75
         },
         {
           "id": "bp-1969-hello-dolly",
           "t": "Hello, Dolly!",
           "n": "1969",
-          "w": 2.43,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.43
         },
         {
           "id": "bp-1969-z",
           "t": "Z",
           "n": "1969",
-          "w": 2.12,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.12
         }
       ]
     },
@@ -4034,37 +3349,25 @@
           "id": "bp-1970-airport",
           "t": "Airport",
           "n": "1970",
-          "w": 2.28,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.28
         },
         {
           "id": "bp-1970-five-easy-pieces",
           "t": "Five Easy Pieces",
           "n": "1970",
-          "w": 1.6,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.6
         },
         {
           "id": "bp-1970-love-story",
           "t": "Love Story",
           "n": "1970",
-          "w": 1.6,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.6
         },
         {
           "id": "bp-1970-m-a-s-h",
           "t": "M*A*S*H",
           "n": "1970",
-          "w": 1.93,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.93
         }
       ]
     },
@@ -4088,37 +3391,25 @@
           "id": "bp-1971-a-clockwork-orange",
           "t": "A Clockwork Orange",
           "n": "1971",
-          "w": 2.27,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.27
         },
         {
           "id": "bp-1971-fiddler-on-the-roof",
           "t": "Fiddler on the Roof",
           "n": "1971",
-          "w": 3.02,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.02
         },
         {
           "id": "bp-1971-the-last-picture-show",
           "t": "The Last Picture Show",
           "n": "1971",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         },
         {
           "id": "bp-1971-nicholas-and-alexandra",
           "t": "Nicholas and Alexandra",
           "n": "1971",
-          "w": 2.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.8
         }
       ]
     },
@@ -4142,37 +3433,25 @@
           "id": "bp-1972-cabaret",
           "t": "Cabaret",
           "n": "1972",
-          "w": 2.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.07
         },
         {
           "id": "bp-1972-deliverance",
           "t": "Deliverance",
           "n": "1972",
-          "w": 1.82,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.82
         },
         {
           "id": "bp-1972-the-emigrants",
           "t": "The Emigrants",
           "n": "1972",
-          "w": 2.52,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.52
         },
         {
           "id": "bp-1972-sounder",
           "t": "Sounder",
           "n": "1972",
-          "w": 1.75,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.75
         }
       ]
     },
@@ -4196,37 +3475,25 @@
           "id": "bp-1973-american-graffiti",
           "t": "American Graffiti",
           "n": "1973",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         },
         {
           "id": "bp-1973-cries-and-whispers",
           "t": "Cries and Whispers",
           "n": "1973",
-          "w": 1.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.5
         },
         {
           "id": "bp-1973-the-exorcist",
           "t": "The Exorcist",
           "n": "1973",
-          "w": 2.03,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.03
         },
         {
           "id": "bp-1973-a-touch-of-class",
           "t": "A Touch of Class",
           "n": "1973",
-          "w": 1.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.77
         }
       ]
     },
@@ -4250,37 +3517,25 @@
           "id": "bp-1974-chinatown",
           "t": "Chinatown",
           "n": "1974",
-          "w": 2.18,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.18
         },
         {
           "id": "bp-1974-the-conversation",
           "t": "The Conversation",
           "n": "1974",
-          "w": 1.82,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.82
         },
         {
           "id": "bp-1974-lenny",
           "t": "Lenny",
           "n": "1974",
-          "w": 1.85,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.85
         },
         {
           "id": "bp-1974-the-towering-inferno",
           "t": "The Towering Inferno",
           "n": "1974",
-          "w": 2.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.63
         }
       ]
     },
@@ -4304,37 +3559,25 @@
           "id": "bp-1975-barry-lyndon",
           "t": "Barry Lyndon",
           "n": "1975",
-          "w": 3.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.07
         },
         {
           "id": "bp-1975-dog-day-afternoon",
           "t": "Dog Day Afternoon",
           "n": "1975",
-          "w": 2.08,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.08
         },
         {
           "id": "bp-1975-jaws",
           "t": "Jaws",
           "n": "1975",
-          "w": 2.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.07
         },
         {
           "id": "bp-1975-nashville",
           "t": "Nashville",
           "n": "1975",
-          "w": 2.65,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.65
         }
       ]
     },
@@ -4358,37 +3601,25 @@
           "id": "bp-1976-all-the-president-s-men",
           "t": "All the President's Men",
           "n": "1976",
-          "w": 2.3,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.3
         },
         {
           "id": "bp-1976-bound-for-glory",
           "t": "Bound for Glory",
           "n": "1976",
-          "w": 2.47,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.47
         },
         {
           "id": "bp-1976-network",
           "t": "Network",
           "n": "1976",
-          "w": 2.02,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.02
         },
         {
           "id": "bp-1976-taxi-driver",
           "t": "Taxi Driver",
           "n": "1976",
-          "w": 1.9,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.9
         }
       ]
     },
@@ -4412,37 +3643,25 @@
           "id": "bp-1977-the-goodbye-girl",
           "t": "The Goodbye Girl",
           "n": "1977",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         },
         {
           "id": "bp-1977-julia",
           "t": "Julia",
           "n": "1977",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         },
         {
           "id": "bp-1977-star-wars",
           "t": "Star Wars",
           "n": "1977",
-          "w": 2.02,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.02
         },
         {
           "id": "bp-1977-the-turning-point",
           "t": "The Turning Point",
           "n": "1977",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         }
       ]
     },
@@ -4466,37 +3685,25 @@
           "id": "bp-1978-coming-home",
           "t": "Coming Home",
           "n": "1978",
-          "w": 2.13,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.13
         },
         {
           "id": "bp-1978-heaven-can-wait",
           "t": "Heaven Can Wait",
           "n": "1978",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         },
         {
           "id": "bp-1978-midnight-express",
           "t": "Midnight Express",
           "n": "1978",
-          "w": 2.02,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.02
         },
         {
           "id": "bp-1978-an-unmarried-woman",
           "t": "An Unmarried Woman",
           "n": "1978",
-          "w": 2.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.07
         }
       ]
     },
@@ -4520,37 +3727,25 @@
           "id": "bp-1979-all-that-jazz",
           "t": "All That Jazz",
           "n": "1979",
-          "w": 2.05,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.05
         },
         {
           "id": "bp-1979-apocalypse-now",
           "t": "Apocalypse Now",
           "n": "1979",
-          "w": 2.45,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.45
         },
         {
           "id": "bp-1979-breaking-away",
           "t": "Breaking Away",
           "n": "1979",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         },
         {
           "id": "bp-1979-norma-rae",
           "t": "Norma Rae",
           "n": "1979",
-          "w": 1.73,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.73
         }
       ]
     },
@@ -4574,37 +3769,25 @@
           "id": "bp-1980-coal-miner-s-daughter",
           "t": "Coal Miner's Daughter",
           "n": "1980",
-          "w": 2.08,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.08
         },
         {
           "id": "bp-1980-the-elephant-man",
           "t": "The Elephant Man",
           "n": "1980",
-          "w": 2.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.07
         },
         {
           "id": "bp-1980-raging-bull",
           "t": "Raging Bull",
           "n": "1980",
-          "w": 2.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.15
         },
         {
           "id": "bp-1980-tess",
           "t": "Tess",
           "n": "1980",
-          "w": 2.73,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.73
         }
       ]
     },
@@ -4628,37 +3811,25 @@
           "id": "bp-1981-atlantic-city",
           "t": "Atlantic City",
           "n": "1981",
-          "w": 1.73,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.73
         },
         {
           "id": "bp-1981-on-golden-pond",
           "t": "On Golden Pond",
           "n": "1981",
-          "w": 1.82,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.82
         },
         {
           "id": "bp-1981-raiders-of-the-lost-ark",
           "t": "Raiders of the Lost Ark",
           "n": "1981",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-1981-reds",
           "t": "Reds",
           "n": "1981",
-          "w": 3.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.23
         }
       ]
     },
@@ -4682,37 +3853,25 @@
           "id": "bp-1982-e-t-the-extra-terrestrial",
           "t": "E.T. the Extra-Terrestrial",
           "n": "1982",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-1982-missing",
           "t": "Missing",
           "n": "1982",
-          "w": 2.03,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.03
         },
         {
           "id": "bp-1982-tootsie",
           "t": "Tootsie",
           "n": "1982",
-          "w": 1.87,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.87
         },
         {
           "id": "bp-1982-the-verdict",
           "t": "The Verdict",
           "n": "1982",
-          "w": 2.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.15
         }
       ]
     },
@@ -4736,37 +3895,25 @@
           "id": "bp-1983-the-big-chill",
           "t": "The Big Chill",
           "n": "1983",
-          "w": 1.75,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.75
         },
         {
           "id": "bp-1983-the-dresser",
           "t": "The Dresser",
           "n": "1983",
-          "w": 1.87,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.87
         },
         {
           "id": "bp-1983-the-right-stuff",
           "t": "The Right Stuff",
           "n": "1983",
-          "w": 3.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.07
         },
         {
           "id": "bp-1983-tender-mercies",
           "t": "Tender Mercies",
           "n": "1983",
-          "w": 1.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.48
         }
       ]
     },
@@ -4790,37 +3937,25 @@
           "id": "bp-1984-the-killing-fields",
           "t": "The Killing Fields",
           "n": "1984",
-          "w": 2.32,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.32
         },
         {
           "id": "bp-1984-a-passage-to-india",
           "t": "A Passage to India",
           "n": "1984",
-          "w": 2.72,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.72
         },
         {
           "id": "bp-1984-places-in-the-heart",
           "t": "Places in the Heart",
           "n": "1984",
-          "w": 1.87,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.87
         },
         {
           "id": "bp-1984-a-soldier-s-story",
           "t": "A Soldier's Story",
           "n": "1984",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         }
       ]
     },
@@ -4844,37 +3979,25 @@
           "id": "bp-1985-the-color-purple",
           "t": "The Color Purple",
           "n": "1985",
-          "w": 2.57,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.57
         },
         {
           "id": "bp-1985-kiss-of-the-spider-woman",
           "t": "Kiss of the Spider Woman",
           "n": "1985",
-          "w": 2.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.07
         },
         {
           "id": "bp-1985-prizzi-s-honor",
           "t": "Prizzi's Honor",
           "n": "1985",
-          "w": 2.17,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.17
         },
         {
           "id": "bp-1985-witness",
           "t": "Witness",
           "n": "1985",
-          "w": 1.87,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.87
         }
       ]
     },
@@ -4898,37 +4021,25 @@
           "id": "bp-1986-children-of-a-lesser-god",
           "t": "Children of a Lesser God",
           "n": "1986",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         },
         {
           "id": "bp-1986-hannah-and-her-sisters",
           "t": "Hannah and Her Sisters",
           "n": "1986",
-          "w": 1.72,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.72
         },
         {
           "id": "bp-1986-the-mission",
           "t": "The Mission",
           "n": "1986",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         },
         {
           "id": "bp-1986-a-room-with-a-view",
           "t": "A Room with a View",
           "n": "1986",
-          "w": 1.93,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.93
         }
       ]
     },
@@ -4952,37 +4063,25 @@
           "id": "bp-1987-broadcast-news",
           "t": "Broadcast News",
           "n": "1987",
-          "w": 2.12,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.12
         },
         {
           "id": "bp-1987-fatal-attraction",
           "t": "Fatal Attraction",
           "n": "1987",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         },
         {
           "id": "bp-1987-hope-and-glory",
           "t": "Hope and Glory",
           "n": "1987",
-          "w": 1.87,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.87
         },
         {
           "id": "bp-1987-moonstruck",
           "t": "Moonstruck",
           "n": "1987",
-          "w": 1.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.7
         }
       ]
     },
@@ -5006,37 +4105,25 @@
           "id": "bp-1988-the-accidental-tourist",
           "t": "The Accidental Tourist",
           "n": "1988",
-          "w": 2.02,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.02
         },
         {
           "id": "bp-1988-dangerous-liaisons",
           "t": "Dangerous Liaisons",
           "n": "1988",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         },
         {
           "id": "bp-1988-mississippi-burning",
           "t": "Mississippi Burning",
           "n": "1988",
-          "w": 2.12,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.12
         },
         {
           "id": "bp-1988-working-girl",
           "t": "Working Girl",
           "n": "1988",
-          "w": 1.82,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.82
         }
       ]
     },
@@ -5060,37 +4147,25 @@
           "id": "bp-1989-born-on-the-fourth-of-july",
           "t": "Born on the Fourth of July",
           "n": "1989",
-          "w": 2.3,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.3
         },
         {
           "id": "bp-1989-dead-poets-society",
           "t": "Dead Poets Society",
           "n": "1989",
-          "w": 2.05,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.05
         },
         {
           "id": "bp-1989-field-of-dreams",
           "t": "Field of Dreams",
           "n": "1989",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         },
         {
           "id": "bp-1989-my-left-foot",
           "t": "My Left Foot",
           "n": "1989",
-          "w": 1.72,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.72
         }
       ]
     },
@@ -5114,37 +4189,25 @@
           "id": "bp-1990-awakenings",
           "t": "Awakenings",
           "n": "1990",
-          "w": 1.93,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.93
         },
         {
           "id": "bp-1990-ghost",
           "t": "Ghost",
           "n": "1990",
-          "w": 2.03,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.03
         },
         {
           "id": "bp-1990-the-godfather-part-iii",
           "t": "The Godfather Part III",
           "n": "1990",
-          "w": 2.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.7
         },
         {
           "id": "bp-1990-goodfellas",
           "t": "Goodfellas",
           "n": "1990",
-          "w": 2.43,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.43
         }
       ]
     },
@@ -5168,37 +4231,25 @@
           "id": "bp-1991-beauty-and-the-beast",
           "t": "Beauty and the Beast",
           "n": "1991",
-          "w": 1.4,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.4
         },
         {
           "id": "bp-1991-bugsy",
           "t": "Bugsy",
           "n": "1991",
-          "w": 2.17,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.17
         },
         {
           "id": "bp-1991-jfk",
           "t": "JFK",
           "n": "1991",
-          "w": 3.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.15
         },
         {
           "id": "bp-1991-the-prince-of-tides",
           "t": "The Prince of Tides",
           "n": "1991",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         }
       ]
     },
@@ -5222,37 +4273,25 @@
           "id": "bp-1992-the-crying-game",
           "t": "The Crying Game",
           "n": "1992",
-          "w": 1.78,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.78
         },
         {
           "id": "bp-1992-a-few-good-men",
           "t": "A Few Good Men",
           "n": "1992",
-          "w": 2.3,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.3
         },
         {
           "id": "bp-1992-howards-end",
           "t": "Howards End",
           "n": "1992",
-          "w": 2.33,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.33
         },
         {
           "id": "bp-1992-scent-of-a-woman",
           "t": "Scent of a Woman",
           "n": "1992",
-          "w": 2.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.5
         }
       ]
     },
@@ -5276,37 +4315,25 @@
           "id": "bp-1993-the-fugitive",
           "t": "The Fugitive",
           "n": "1993",
-          "w": 2.17,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.17
         },
         {
           "id": "bp-1993-in-the-name-of-the-father",
           "t": "In the Name of the Father",
           "n": "1993",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-1993-the-piano",
           "t": "The Piano",
           "n": "1993",
-          "w": 2.02,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.02
         },
         {
           "id": "bp-1993-the-remains-of-the-day",
           "t": "The Remains of the Day",
           "n": "1993",
-          "w": 2.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.23
         }
       ]
     },
@@ -5330,37 +4357,25 @@
           "id": "bp-1994-four-weddings-and-a-funeral",
           "t": "Four Weddings and a Funeral",
           "n": "1994",
-          "w": 1.88,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.88
         },
         {
           "id": "bp-1994-pulp-fiction",
           "t": "Pulp Fiction",
           "n": "1994",
-          "w": 2.57,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.57
         },
         {
           "id": "bp-1994-quiz-show",
           "t": "Quiz Show",
           "n": "1994",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-1994-the-shawshank-redemption",
           "t": "The Shawshank Redemption",
           "n": "1994",
-          "w": 2.37,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.37
         }
       ]
     },
@@ -5384,37 +4399,25 @@
           "id": "bp-1995-apollo-13",
           "t": "Apollo 13",
           "n": "1995",
-          "w": 2.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.23
         },
         {
           "id": "bp-1995-babe",
           "t": "Babe",
           "n": "1995",
-          "w": 1.53,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.53
         },
         {
           "id": "bp-1995-il-postino-the-postman",
           "t": "Il Postino: The Postman",
           "n": "1995",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         },
         {
           "id": "bp-1995-sense-and-sensibility",
           "t": "Sense and Sensibility",
           "n": "1995",
-          "w": 2.27,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.27
         }
       ]
     },
@@ -5438,37 +4441,25 @@
           "id": "bp-1996-fargo",
           "t": "Fargo",
           "n": "1996",
-          "w": 1.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.63
         },
         {
           "id": "bp-1996-jerry-maguire",
           "t": "Jerry Maguire",
           "n": "1996",
-          "w": 2.32,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.32
         },
         {
           "id": "bp-1996-secrets-lies",
           "t": "Secrets & Lies",
           "n": "1996",
-          "w": 2.37,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.37
         },
         {
           "id": "bp-1996-shine",
           "t": "Shine",
           "n": "1996",
-          "w": 1.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.68
         }
       ]
     },
@@ -5492,37 +4483,25 @@
           "id": "bp-1997-as-good-as-it-gets",
           "t": "As Good as It Gets",
           "n": "1997",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-1997-the-full-monty",
           "t": "The Full Monty",
           "n": "1997",
-          "w": 1.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.5
         },
         {
           "id": "bp-1997-good-will-hunting",
           "t": "Good Will Hunting",
           "n": "1997",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         },
         {
           "id": "bp-1997-l-a-confidential",
           "t": "L.A. Confidential",
           "n": "1997",
-          "w": 2.2,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.2
         }
       ]
     },
@@ -5546,37 +4525,25 @@
           "id": "bp-1998-elizabeth",
           "t": "Elizabeth",
           "n": "1998",
-          "w": 2.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.07
         },
         {
           "id": "bp-1998-life-is-beautiful",
           "t": "Life Is Beautiful",
           "n": "1998",
-          "w": 1.93,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.93
         },
         {
           "id": "bp-1998-saving-private-ryan",
           "t": "Saving Private Ryan",
           "n": "1998",
-          "w": 2.82,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.82
         },
         {
           "id": "bp-1998-the-thin-red-line",
           "t": "The Thin Red Line",
           "n": "1998",
-          "w": 2.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.77
         }
       ]
     },
@@ -5600,37 +4567,25 @@
           "id": "bp-1999-the-cider-house-rules",
           "t": "The Cider House Rules",
           "n": "1999",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         },
         {
           "id": "bp-1999-the-green-mile",
           "t": "The Green Mile",
           "n": "1999",
-          "w": 3.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.15
         },
         {
           "id": "bp-1999-the-insider",
           "t": "The Insider",
           "n": "1999",
-          "w": 2.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.62
         },
         {
           "id": "bp-1999-the-sixth-sense",
           "t": "The Sixth Sense",
           "n": "1999",
-          "w": 1.78,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.78
         }
       ]
     },
@@ -5654,37 +4609,25 @@
           "id": "bp-2000-chocolat",
           "t": "Chocolat",
           "n": "2000",
-          "w": 2.02,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.02
         },
         {
           "id": "bp-2000-crouching-tiger-hidden-dragon",
           "t": "Crouching Tiger, Hidden Dragon",
           "n": "2000",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-2000-erin-brockovich",
           "t": "Erin Brockovich",
           "n": "2000",
-          "w": 2.17,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.17
         },
         {
           "id": "bp-2000-traffic",
           "t": "Traffic",
           "n": "2000",
-          "w": 2.35,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.35
         }
       ]
     },
@@ -5708,37 +4651,25 @@
           "id": "bp-2001-gosford-park",
           "t": "Gosford Park",
           "n": "2001",
-          "w": 2.28,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.28
         },
         {
           "id": "bp-2001-in-the-bedroom",
           "t": "In the Bedroom",
           "n": "2001",
-          "w": 2.18,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.18
         },
         {
           "id": "bp-2001-the-lord-of-the-rings-the-fellowship-of-the-ring",
           "t": "The Lord of the Rings: The Fellowship of the Ring",
           "n": "2001",
-          "w": 2.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.97
         },
         {
           "id": "bp-2001-moulin-rouge",
           "t": "Moulin Rouge!",
           "n": "2001",
-          "w": 2.05,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.05
         }
       ]
     },
@@ -5762,37 +4693,25 @@
           "id": "bp-2002-gangs-of-new-york",
           "t": "Gangs of New York",
           "n": "2002",
-          "w": 2.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.8
         },
         {
           "id": "bp-2002-the-hours",
           "t": "The Hours",
           "n": "2002",
-          "w": 1.9,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.9
         },
         {
           "id": "bp-2002-the-lord-of-the-rings-the-two-towers",
           "t": "The Lord of the Rings: The Two Towers",
           "n": "2002",
-          "w": 2.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.98
         },
         {
           "id": "bp-2002-the-pianist",
           "t": "The Pianist",
           "n": "2002",
-          "w": 2.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.48
         }
       ]
     },
@@ -5816,37 +4735,25 @@
           "id": "bp-2003-lost-in-translation",
           "t": "Lost in Translation",
           "n": "2003",
-          "w": 1.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.62
         },
         {
           "id": "bp-2003-master-and-commander-the-far-side-of-the-world",
           "t": "Master and Commander: The Far Side of the World",
           "n": "2003",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-2003-mystic-river",
           "t": "Mystic River",
           "n": "2003",
-          "w": 2.3,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.3
         },
         {
           "id": "bp-2003-seabiscuit",
           "t": "Seabiscuit",
           "n": "2003",
-          "w": 2.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.23
         }
       ]
     },
@@ -5870,37 +4777,25 @@
           "id": "bp-2004-the-aviator",
           "t": "The Aviator",
           "n": "2004",
-          "w": 2.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.83
         },
         {
           "id": "bp-2004-finding-neverland",
           "t": "Finding Neverland",
           "n": "2004",
-          "w": 1.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.62
         },
         {
           "id": "bp-2004-ray",
           "t": "Ray",
           "n": "2004",
-          "w": 2.53,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.53
         },
         {
           "id": "bp-2004-sideways",
           "t": "Sideways",
           "n": "2004",
-          "w": 2.12,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.12
         }
       ]
     },
@@ -5924,37 +4819,25 @@
           "id": "bp-2005-brokeback-mountain",
           "t": "Brokeback Mountain",
           "n": "2005",
-          "w": 2.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.23
         },
         {
           "id": "bp-2005-capote",
           "t": "Capote",
           "n": "2005",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         },
         {
           "id": "bp-2005-good-night-and-good-luck",
           "t": "Good Night, and Good Luck",
           "n": "2005",
-          "w": 1.55,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.55
         },
         {
           "id": "bp-2005-munich",
           "t": "Munich",
           "n": "2005",
-          "w": 2.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.62
         }
       ]
     },
@@ -5978,37 +4861,25 @@
           "id": "bp-2006-babel",
           "t": "Babel",
           "n": "2006",
-          "w": 2.37,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.37
         },
         {
           "id": "bp-2006-letters-from-iwo-jima",
           "t": "Letters from Iwo Jima",
           "n": "2006",
-          "w": 2.35,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.35
         },
         {
           "id": "bp-2006-little-miss-sunshine",
           "t": "Little Miss Sunshine",
           "n": "2006",
-          "w": 1.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.63
         },
         {
           "id": "bp-2006-the-queen",
           "t": "The Queen",
           "n": "2006",
-          "w": 1.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.62
         }
       ]
     },
@@ -6032,37 +4903,25 @@
           "id": "bp-2007-atonement",
           "t": "Atonement",
           "n": "2007",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         },
         {
           "id": "bp-2007-juno",
           "t": "Juno",
           "n": "2007",
-          "w": 1.6,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.6
         },
         {
           "id": "bp-2007-michael-clayton",
           "t": "Michael Clayton",
           "n": "2007",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         },
         {
           "id": "bp-2007-there-will-be-blood",
           "t": "There Will Be Blood",
           "n": "2007",
-          "w": 2.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.63
         }
       ]
     },
@@ -6086,37 +4945,25 @@
           "id": "bp-2008-the-curious-case-of-benjamin-button",
           "t": "The Curious Case of Benjamin Button",
           "n": "2008",
-          "w": 2.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.77
         },
         {
           "id": "bp-2008-frost-nixon",
           "t": "Frost/Nixon",
           "n": "2008",
-          "w": 2.03,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.03
         },
         {
           "id": "bp-2008-milk",
           "t": "Milk",
           "n": "2008",
-          "w": 2.13,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.13
         },
         {
           "id": "bp-2008-the-reader",
           "t": "The Reader",
           "n": "2008",
-          "w": 2.07,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.07
         }
       ]
     },
@@ -6140,82 +4987,55 @@
           "id": "bp-2009-avatar",
           "t": "Avatar",
           "n": "2009",
-          "w": 2.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.7
         },
         {
           "id": "bp-2009-the-blind-side",
           "t": "The Blind Side",
           "n": "2009",
-          "w": 2.45,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.45
         },
         {
           "id": "bp-2009-district-9",
           "t": "District 9",
           "n": "2009",
-          "w": 1.87,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.87
         },
         {
           "id": "bp-2009-an-education",
           "t": "An Education",
           "n": "2009",
-          "w": 1.58,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.58
         },
         {
           "id": "bp-2009-inglourious-basterds",
           "t": "Inglourious Basterds",
           "n": "2009",
-          "w": 2.55,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.55
         },
         {
           "id": "bp-2009-precious-based-on-the-novel-push-by-sapphire",
           "t": "Precious: Based on the Novel \"Push\" by Sapphire",
           "n": "2009",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         },
         {
           "id": "bp-2009-a-serious-man",
           "t": "A Serious Man",
           "n": "2009",
-          "w": 1.75,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.75
         },
         {
           "id": "bp-2009-up",
           "t": "Up",
           "n": "2009",
-          "w": 1.6,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.6
         },
         {
           "id": "bp-2009-up-in-the-air",
           "t": "Up in the Air",
           "n": "2009",
-          "w": 1.82,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.82
         }
       ]
     },
@@ -6239,82 +5059,55 @@
           "id": "bp-2010-black-swan",
           "t": "Black Swan",
           "n": "2010",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         },
         {
           "id": "bp-2010-the-fighter",
           "t": "The Fighter",
           "n": "2010",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-2010-inception",
           "t": "Inception",
           "n": "2010",
-          "w": 2.47,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.47
         },
         {
           "id": "bp-2010-the-kids-are-all-right",
           "t": "The Kids Are All Right",
           "n": "2010",
-          "w": 1.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.77
         },
         {
           "id": "bp-2010-127-hours",
           "t": "127 Hours",
           "n": "2010",
-          "w": 1.57,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.57
         },
         {
           "id": "bp-2010-the-social-network",
           "t": "The Social Network",
           "n": "2010",
-          "w": 2.02,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.02
         },
         {
           "id": "bp-2010-toy-story-3",
           "t": "Toy Story 3",
           "n": "2010",
-          "w": 1.72,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.72
         },
         {
           "id": "bp-2010-true-grit",
           "t": "True Grit",
           "n": "2010",
-          "w": 1.83,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.83
         },
         {
           "id": "bp-2010-winter-s-bone",
           "t": "Winter's Bone",
           "n": "2010",
-          "w": 1.72,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.72
         }
       ]
     },
@@ -6338,73 +5131,49 @@
           "id": "bp-2011-the-descendants",
           "t": "The Descendants",
           "n": "2011",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-2011-extremely-loud-incredibly-close",
           "t": "Extremely Loud & Incredibly Close",
           "n": "2011",
-          "w": 2.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.15
         },
         {
           "id": "bp-2011-the-help",
           "t": "The Help",
           "n": "2011",
-          "w": 2.43,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.43
         },
         {
           "id": "bp-2011-hugo",
           "t": "Hugo",
           "n": "2011",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         },
         {
           "id": "bp-2011-midnight-in-paris",
           "t": "Midnight in Paris",
           "n": "2011",
-          "w": 1.57,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.57
         },
         {
           "id": "bp-2011-moneyball",
           "t": "Moneyball",
           "n": "2011",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-2011-the-tree-of-life",
           "t": "The Tree of Life",
           "n": "2011",
-          "w": 2.3,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.3
         },
         {
           "id": "bp-2011-war-horse",
           "t": "War Horse",
           "n": "2011",
-          "w": 2.43,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.43
         }
       ]
     },
@@ -6428,73 +5197,49 @@
           "id": "bp-2012-amour",
           "t": "Amour",
           "n": "2012",
-          "w": 2.12,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.12
         },
         {
           "id": "bp-2012-beasts-of-the-southern-wild",
           "t": "Beasts of the Southern Wild",
           "n": "2012",
-          "w": 1.55,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.55
         },
         {
           "id": "bp-2012-django-unchained",
           "t": "Django Unchained",
           "n": "2012",
-          "w": 2.75,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.75
         },
         {
           "id": "bp-2012-life-of-pi",
           "t": "Life of Pi",
           "n": "2012",
-          "w": 2.12,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.12
         },
         {
           "id": "bp-2012-lincoln",
           "t": "Lincoln",
           "n": "2012",
-          "w": 2.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.5
         },
         {
           "id": "bp-2012-les-misérables",
           "t": "Les Misérables",
           "n": "2012",
-          "w": 2.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.63
         },
         {
           "id": "bp-2012-silver-linings-playbook",
           "t": "Silver Linings Playbook",
           "n": "2012",
-          "w": 2.03,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.03
         },
         {
           "id": "bp-2012-zero-dark-thirty",
           "t": "Zero Dark Thirty",
           "n": "2012",
-          "w": 2.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.62
         }
       ]
     },
@@ -6518,73 +5263,49 @@
           "id": "bp-2013-american-hustle",
           "t": "American Hustle",
           "n": "2013",
-          "w": 2.3,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.3
         },
         {
           "id": "bp-2013-captain-phillips",
           "t": "Captain Phillips",
           "n": "2013",
-          "w": 2.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.23
         },
         {
           "id": "bp-2013-dallas-buyers-club",
           "t": "Dallas Buyers Club",
           "n": "2013",
-          "w": 1.95,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.95
         },
         {
           "id": "bp-2013-gravity",
           "t": "Gravity",
           "n": "2013",
-          "w": 1.52,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.52
         },
         {
           "id": "bp-2013-her",
           "t": "Her",
           "n": "2013",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         },
         {
           "id": "bp-2013-nebraska",
           "t": "Nebraska",
           "n": "2013",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-2013-philomena",
           "t": "Philomena",
           "n": "2013",
-          "w": 1.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.63
         },
         {
           "id": "bp-2013-the-wolf-of-wall-street",
           "t": "The Wolf of Wall Street",
           "n": "2013",
-          "w": 3.0,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.0
         }
       ]
     },
@@ -6608,64 +5329,43 @@
           "id": "bp-2014-american-sniper",
           "t": "American Sniper",
           "n": "2014",
-          "w": 2.2,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.2
         },
         {
           "id": "bp-2014-boyhood",
           "t": "Boyhood",
           "n": "2014",
-          "w": 2.72,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.72
         },
         {
           "id": "bp-2014-the-grand-budapest-hotel",
           "t": "The Grand Budapest Hotel",
           "n": "2014",
-          "w": 1.65,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.65
         },
         {
           "id": "bp-2014-the-imitation-game",
           "t": "The Imitation Game",
           "n": "2014",
-          "w": 1.9,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.9
         },
         {
           "id": "bp-2014-selma",
           "t": "Selma",
           "n": "2014",
-          "w": 2.12,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.12
         },
         {
           "id": "bp-2014-the-theory-of-everything",
           "t": "The Theory of Everything",
           "n": "2014",
-          "w": 2.05,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.05
         },
         {
           "id": "bp-2014-whiplash",
           "t": "Whiplash",
           "n": "2014",
-          "w": 1.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.77
         }
       ]
     },
@@ -6689,64 +5389,43 @@
           "id": "bp-2015-the-big-short",
           "t": "The Big Short",
           "n": "2015",
-          "w": 2.17,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.17
         },
         {
           "id": "bp-2015-bridge-of-spies",
           "t": "Bridge of Spies",
           "n": "2015",
-          "w": 2.37,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.37
         },
         {
           "id": "bp-2015-brooklyn",
           "t": "Brooklyn",
           "n": "2015",
-          "w": 1.87,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.87
         },
         {
           "id": "bp-2015-mad-max-fury-road",
           "t": "Mad Max: Fury Road",
           "n": "2015",
-          "w": 2.0,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.0
         },
         {
           "id": "bp-2015-the-martian",
           "t": "The Martian",
           "n": "2015",
-          "w": 2.35,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.35
         },
         {
           "id": "bp-2015-the-revenant",
           "t": "The Revenant",
           "n": "2015",
-          "w": 2.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.62
         },
         {
           "id": "bp-2015-room",
           "t": "Room",
           "n": "2015",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         }
       ]
     },
@@ -6770,73 +5449,49 @@
           "id": "bp-2016-arrival",
           "t": "Arrival",
           "n": "2016",
-          "w": 1.93,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.93
         },
         {
           "id": "bp-2016-fences",
           "t": "Fences",
           "n": "2016",
-          "w": 2.32,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.32
         },
         {
           "id": "bp-2016-hacksaw-ridge",
           "t": "Hacksaw Ridge",
           "n": "2016",
-          "w": 2.18,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.18
         },
         {
           "id": "bp-2016-hell-or-high-water",
           "t": "Hell or High Water",
           "n": "2016",
-          "w": 1.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.7
         },
         {
           "id": "bp-2016-hidden-figures",
           "t": "Hidden Figures",
           "n": "2016",
-          "w": 2.12,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.12
         },
         {
           "id": "bp-2016-la-la-land",
           "t": "La La Land",
           "n": "2016",
-          "w": 2.13,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.13
         },
         {
           "id": "bp-2016-lion",
           "t": "Lion",
           "n": "2016",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         },
         {
           "id": "bp-2016-manchester-by-the-sea",
           "t": "Manchester by the Sea",
           "n": "2016",
-          "w": 2.25,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.25
         }
       ]
     },
@@ -6860,73 +5515,49 @@
           "id": "bp-2017-call-me-by-your-name",
           "t": "Call Me by Your Name",
           "n": "2017",
-          "w": 2.2,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.2
         },
         {
           "id": "bp-2017-darkest-hour",
           "t": "Darkest Hour",
           "n": "2017",
-          "w": 2.08,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.08
         },
         {
           "id": "bp-2017-dunkirk",
           "t": "Dunkirk",
           "n": "2017",
-          "w": 1.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.77
         },
         {
           "id": "bp-2017-get-out",
           "t": "Get Out",
           "n": "2017",
-          "w": 1.73,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.73
         },
         {
           "id": "bp-2017-lady-bird",
           "t": "Lady Bird",
           "n": "2017",
-          "w": 1.55,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.55
         },
         {
           "id": "bp-2017-phantom-thread",
           "t": "Phantom Thread",
           "n": "2017",
-          "w": 2.17,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.17
         },
         {
           "id": "bp-2017-the-post",
           "t": "The Post",
           "n": "2017",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-2017-three-billboards-outside-ebbing-missouri",
           "t": "Three Billboards Outside Ebbing, Missouri",
           "n": "2017",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         }
       ]
     },
@@ -6950,64 +5581,43 @@
           "id": "bp-2018-black-panther",
           "t": "Black Panther",
           "n": "2018",
-          "w": 2.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.23
         },
         {
           "id": "bp-2018-blackkklansman",
           "t": "BlacKkKlansman",
           "n": "2018",
-          "w": 2.25,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.25
         },
         {
           "id": "bp-2018-bohemian-rhapsody",
           "t": "Bohemian Rhapsody",
           "n": "2018",
-          "w": 2.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.23
         },
         {
           "id": "bp-2018-the-favourite",
           "t": "The Favourite",
           "n": "2018",
-          "w": 2.0,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.0
         },
         {
           "id": "bp-2018-roma",
           "t": "Roma",
           "n": "2018",
-          "w": 2.25,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.25
         },
         {
           "id": "bp-2018-a-star-is-born",
           "t": "A Star Is Born",
           "n": "2018",
-          "w": 2.25,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.25
         },
         {
           "id": "bp-2018-vice",
           "t": "Vice",
           "n": "2018",
-          "w": 2.2,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.2
         }
       ]
     },
@@ -7031,73 +5641,49 @@
           "id": "bp-2019-ford-v-ferrari",
           "t": "Ford v Ferrari",
           "n": "2019",
-          "w": 2.53,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.53
         },
         {
           "id": "bp-2019-the-irishman",
           "t": "The Irishman",
           "n": "2019",
-          "w": 3.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.48
         },
         {
           "id": "bp-2019-jojo-rabbit",
           "t": "Jojo Rabbit",
           "n": "2019",
-          "w": 1.8,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.8
         },
         {
           "id": "bp-2019-joker",
           "t": "Joker",
           "n": "2019",
-          "w": 2.03,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.03
         },
         {
           "id": "bp-2019-little-women",
           "t": "Little Women",
           "n": "2019",
-          "w": 2.23,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.23
         },
         {
           "id": "bp-2019-marriage-story",
           "t": "Marriage Story",
           "n": "2019",
-          "w": 2.27,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.27
         },
         {
           "id": "bp-2019-1917",
           "t": "1917",
           "n": "2019",
-          "w": 1.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.98
         },
         {
           "id": "bp-2019-once-upon-a-time-in-hollywood",
           "t": "Once Upon a Time in Hollywood",
           "n": "2019",
-          "w": 2.68,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.68
         }
       ]
     },
@@ -7121,64 +5707,43 @@
           "id": "bp-2020-the-father",
           "t": "The Father",
           "n": "2020/21",
-          "w": 1.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.62
         },
         {
           "id": "bp-2020-judas-and-the-black-messiah",
           "t": "Judas and the Black Messiah",
           "n": "2020/21",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         },
         {
           "id": "bp-2020-mank",
           "t": "Mank",
           "n": "2020/21",
-          "w": 2.18,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.18
         },
         {
           "id": "bp-2020-minari",
           "t": "Minari",
           "n": "2020/21",
-          "w": 1.92,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.92
         },
         {
           "id": "bp-2020-promising-young-woman",
           "t": "Promising Young Woman",
           "n": "2020/21",
-          "w": 1.88,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.88
         },
         {
           "id": "bp-2020-sound-of-metal",
           "t": "Sound of Metal",
           "n": "2020/21",
-          "w": 2.0,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.0
         },
         {
           "id": "bp-2020-the-trial-of-the-chicago-7",
           "t": "The Trial of the Chicago 7",
           "n": "2020/21",
-          "w": 2.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.15
         }
       ]
     },
@@ -7202,82 +5767,55 @@
           "id": "bp-2021-belfast",
           "t": "Belfast",
           "n": "2021",
-          "w": 1.62,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.62
         },
         {
           "id": "bp-2021-don-t-look-up",
           "t": "Don't Look Up",
           "n": "2021",
-          "w": 2.3,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.3
         },
         {
           "id": "bp-2021-drive-my-car",
           "t": "Drive My Car",
           "n": "2021",
-          "w": 2.98,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.98
         },
         {
           "id": "bp-2021-dune",
           "t": "Dune",
           "n": "2021",
-          "w": 2.58,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.58
         },
         {
           "id": "bp-2021-king-richard",
           "t": "King Richard",
           "n": "2021",
-          "w": 2.4,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.4
         },
         {
           "id": "bp-2021-licorice-pizza",
           "t": "Licorice Pizza",
           "n": "2021",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-2021-nightmare-alley",
           "t": "Nightmare Alley",
           "n": "2021",
-          "w": 2.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.5
         },
         {
           "id": "bp-2021-the-power-of-the-dog",
           "t": "The Power of the Dog",
           "n": "2021",
-          "w": 2.1,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.1
         },
         {
           "id": "bp-2021-west-side-story",
           "t": "West Side Story",
           "n": "2021",
-          "w": 2.6,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.6
         }
       ]
     },
@@ -7301,82 +5839,55 @@
           "id": "bp-2022-all-quiet-on-the-western-front",
           "t": "All Quiet on the Western Front",
           "n": "2022",
-          "w": 2.45,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.45
         },
         {
           "id": "bp-2022-avatar-the-way-of-water",
           "t": "Avatar: The Way of Water",
           "n": "2022",
-          "w": 3.2,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.2
         },
         {
           "id": "bp-2022-the-banshees-of-inisherin",
           "t": "The Banshees of Inisherin",
           "n": "2022",
-          "w": 1.9,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.9
         },
         {
           "id": "bp-2022-elvis",
           "t": "Elvis",
           "n": "2022",
-          "w": 2.65,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.65
         },
         {
           "id": "bp-2022-the-fabelmans",
           "t": "The Fabelmans",
           "n": "2022",
-          "w": 2.52,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.52
         },
         {
           "id": "bp-2022-tár",
           "t": "Tár",
           "n": "2022",
-          "w": 2.63,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.63
         },
         {
           "id": "bp-2022-top-gun-maverick",
           "t": "Top Gun: Maverick",
           "n": "2022",
-          "w": 2.17,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.17
         },
         {
           "id": "bp-2022-triangle-of-sadness",
           "t": "Triangle of Sadness",
           "n": "2022",
-          "w": 2.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.48
         },
         {
           "id": "bp-2022-women-talking",
           "t": "Women Talking",
           "n": "2022",
-          "w": 1.73,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.73
         }
       ]
     },
@@ -7400,82 +5911,55 @@
           "id": "bp-2023-american-fiction",
           "t": "American Fiction",
           "n": "2023",
-          "w": 1.95,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.95
         },
         {
           "id": "bp-2023-anatomy-of-a-fall",
           "t": "Anatomy of a Fall",
           "n": "2023",
-          "w": 2.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.5
         },
         {
           "id": "bp-2023-barbie",
           "t": "Barbie",
           "n": "2023",
-          "w": 1.9,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.9
         },
         {
           "id": "bp-2023-the-holdovers",
           "t": "The Holdovers",
           "n": "2023",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-2023-killers-of-the-flower-moon",
           "t": "Killers of the Flower Moon",
           "n": "2023",
-          "w": 3.43,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.43
         },
         {
           "id": "bp-2023-maestro",
           "t": "Maestro",
           "n": "2023",
-          "w": 2.15,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.15
         },
         {
           "id": "bp-2023-past-lives",
           "t": "Past Lives",
           "n": "2023",
-          "w": 1.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.77
         },
         {
           "id": "bp-2023-poor-things",
           "t": "Poor Things",
           "n": "2023",
-          "w": 2.35,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.35
         },
         {
           "id": "bp-2023-the-zone-of-interest",
           "t": "The Zone of Interest",
           "n": "2023",
-          "w": 1.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.77
         }
       ]
     },
@@ -7499,82 +5983,55 @@
           "id": "bp-2024-the-brutalist",
           "t": "The Brutalist",
           "n": "2024",
-          "w": 3.58,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 3.58
         },
         {
           "id": "bp-2024-a-complete-unknown",
           "t": "A Complete Unknown",
           "n": "2024",
-          "w": 2.35,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.35
         },
         {
           "id": "bp-2024-conclave",
           "t": "Conclave",
           "n": "2024",
-          "w": 2.02,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.02
         },
         {
           "id": "bp-2024-dune-part-two",
           "t": "Dune: Part Two",
           "n": "2024",
-          "w": 2.77,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.77
         },
         {
           "id": "bp-2024-emilia-pérez",
           "t": "Emilia Pérez",
           "n": "2024",
-          "w": 2.2,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.2
         },
         {
           "id": "bp-2024-i-m-still-here",
           "t": "I'm Still Here",
           "n": "2024",
-          "w": 2.25,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.25
         },
         {
           "id": "bp-2024-nickel-boys",
           "t": "Nickel Boys",
           "n": "2024",
-          "w": 2.33,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.33
         },
         {
           "id": "bp-2024-the-substance",
           "t": "The Substance",
           "n": "2024",
-          "w": 2.35,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.35
         },
         {
           "id": "bp-2024-wicked",
           "t": "Wicked",
           "n": "2024",
-          "w": 2.67,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.67
         }
       ]
     },
@@ -7598,82 +6055,55 @@
           "id": "bp-2025-bugonia",
           "t": "Bugonia",
           "n": "2025",
-          "w": 1.97,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.97
         },
         {
           "id": "bp-2025-f1",
           "t": "F1",
           "n": "2025",
-          "w": 2.58,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.58
         },
         {
           "id": "bp-2025-frankenstein",
           "t": "Frankenstein",
           "n": "2025",
-          "w": 2.48,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.48
         },
         {
           "id": "bp-2025-hamnet",
           "t": "Hamnet",
           "n": "2025",
-          "w": 2.08,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.08
         },
         {
           "id": "bp-2025-marty-supreme",
           "t": "Marty Supreme",
           "n": "2025",
-          "w": 2.5,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.5
         },
         {
           "id": "bp-2025-the-secret-agent",
           "t": "The Secret Agent",
           "n": "2025",
-          "w": 2.67,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.67
         },
         {
           "id": "bp-2025-sentimental-value",
           "t": "Sentimental Value",
           "n": "2025",
-          "w": 2.22,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.22
         },
         {
           "id": "bp-2025-sinners",
           "t": "Sinners",
           "n": "2025",
-          "w": 2.28,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 2.28
         },
         {
           "id": "bp-2025-train-dreams",
           "t": "Train Dreams",
           "n": "2025",
-          "w": 1.7,
-          "tags": [
-            "Nominees"
-          ]
+          "w": 1.7
         }
       ]
     }
