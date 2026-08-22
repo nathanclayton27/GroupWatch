@@ -11,7 +11,8 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Twenty-six lists, from a ten-episode anime to a 1,337-spine film collection.
+Thirty-eight lists, from a ten-episode anime to a 1,337-spine film
+collection and a 971-entry comics run.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
 Krakoa), *Amazing Spider-Man* (Amazing Fantasy #15 to Civil War), *Civil
@@ -19,6 +20,18 @@ War* (the 2006 event interleaved), *Spider-Man After Civil War*, *Ultimate
 Marvel* (the whole line, 693 issues), *Everything Dies: Secret Wars*
 (Hickman's Marvel run), *Venom* (Cates and Stegman), and *One Piece* in
 manga form.
+
+**Franchises.** *Star Wars* (films and television, with the games on their
+own page), *Metal Gear* (story-only hours, tiers, and a recap link for the
+MSX games), *Gundam* by continuity, *Godzilla* down to the Fest shorts,
+*Twin Peaks* with the books woven in, and *The X-Files* episode by episode.
+
+**Filmographies.** *Stanley Kubrick* (with A.I.), *Steven Spielberg*,
+*David Lynch* (all of Twin Peaks as one row), *Tom Cruise*, and *Studio
+Ghibli* with Miyazaki as the spine.
+
+**Animation.** *Marvel Animation* and *DC Animation*, season by season with
+the films slotted in — the DCAU and the direct-to-video lines marked.
 
 **Screen.** *MCU Anthology* — every Marvel film from *Blade* to *Avengers:
 Doomsday* in release order with the shows slotted in — *DC Anthology*, the
@@ -31,9 +44,11 @@ Alchemist: Brotherhood*, *Monster*, *Evangelion*, *One Piece*, *One Pace*,
 entry takes, and *Nasuverse* — Fate, Tsukihime, Melty Blood and the rest,
 organised by medium.
 
-**Everything at once.** *The Criterion Collection*, all 1,337 spine numbers in
-order with the formats each was released on, and *Star Wars* — films,
-television season by season, and the Disney-era games interleaved by date.
+**Everything at once.** *The Criterion Collection*, all 1,337 spine numbers
+in order with the formats each was released on; *Best Picture*, every nominee
+from every ceremony with the winners marked and a winners-by-decade view;
+*Disney*, the studio's own 654 films with release channels as tiers; and
+*Lego Games*, the originals lumped and the tie-ins by franchise.
 
 The button in the top left switches between them, with a search box. First
 visit shows a picker; after that it opens whatever you had last.
@@ -167,8 +182,18 @@ The Criterion Collection from criterion.com — the catalogue and each film's
 editions and runtime — with LaserDisc history from Wikipedia, which is the only
 place it survives.
 
-Kingdom Hearts order and priorities from a rundown by a longtime player; hours
-from HowLongToBeat. Nasuverse assembled from the Type-Moon release history.
+Kingdom Hearts order and priorities from a rundown by a longtime player;
+its hours and Metal Gear's story-only figures from HowLongToBeat. Nasuverse
+assembled from the Type-Moon release history, with additions from a
+contributor's pull request.
+
+X-Men structured from the standard reading orders with issue ranges verified
+against Marvel's series listings; every comic section links Marvel's own
+series pages. Best Picture read from the Academy Award article's own winner
+markings. The filmographies, the animation lists, Gundam, Godzilla and The
+X-Files are machine-read from their Wikipedia list articles with runtimes and
+dates from Wikidata; where the two disagreed, the article's own infobox won
+and both values were kept.
 
 This is an index of issue and episode numbers, not a reader or a player.
 
