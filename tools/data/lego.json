@@ -1,0 +1,1326 @@
+{
+ "original": [
+  {
+   "t": "Lego Fun to Build",
+   "year": 1995,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "[[Sega Pico]]",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Island",
+   "year": 1997,
+   "mobileOnly": false,
+   "platforms": [
+    "[[Microsoft Windows]]",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Loco",
+   "year": 1998,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Chess",
+   "year": 1998,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Creator",
+   "year": 1998,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Friends",
+   "year": 1999,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Racers",
+   "year": 1999,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "[[Nintendo 64]], [[PlayStation (console)|PlayStation]]",
+    "[[Game Boy Color]]",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Rock Raiders",
+   "year": 1999,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "PlayStation",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Legoland",
+   "year": 2000,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego My Style: Preschool",
+   "year": 2000,
+   "mobileOnly": false,
+   "platforms": [
+    "[[Classic Mac OS|Mac OS]], Microsoft Windows",
+    "PlayStation",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego My Style: Kindergarten",
+   "year": 2000,
+   "mobileOnly": false,
+   "platforms": [
+    "Mac OS, Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Alpha Team",
+   "year": 2000,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "Game Boy Color",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Stunt Rally",
+   "year": 2000,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "Game Boy Color",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Creator: Knights' Kingdom",
+   "year": 2000,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Island 2: The Brickster's Revenge",
+   "year": 2001,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "PlayStation",
+    "[[Game Boy Advance]], Game Boy Color",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Racers 2",
+   "year": 2001,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "[[PlayStation 2]]",
+    "Game Boy Advance",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Bionicle: Quest for the Toa",
+   "year": 2001,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Game Boy Advance",
+    "—"
+   ]
+  },
+  {
+   "t": "Football Mania",
+   "year": 2002,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "PlayStation 2",
+    "Game Boy Advance",
+    "—"
+   ]
+  },
+  {
+   "t": "Island Xtreme Stunts",
+   "year": 2002,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "PlayStation 2",
+    "Game Boy Advance",
+    "—"
+   ]
+  },
+  {
+   "t": "Drome Racers",
+   "year": 2002,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "[[GameCube]], PlayStation 2",
+    "Game Boy Advance",
+    "—"
+   ]
+  },
+  {
+   "t": "Bionicle: Matoran Adventures",
+   "year": 2002,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Game Boy Advance",
+    "—"
+   ]
+  },
+  {
+   "t": "Galidor: Defenders of the Outer Dimension",
+   "year": 2002,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "Game Boy Advance",
+    "—"
+   ]
+  },
+  {
+   "t": "Bionicle",
+   "year": 2003,
+   "mobileOnly": false,
+   "platforms": [
+    "[[macOS]], Microsoft Windows",
+    "GameCube, PlayStation 2, [[Xbox (console)|Xbox]]",
+    "Game Boy Advance",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Knights' Kingdom",
+   "year": 2004,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Game Boy Advance",
+    "—"
+   ]
+  },
+  {
+   "t": "Bionicle: Maze of Shadows",
+   "year": 2005,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Game Boy Advance",
+    "—"
+   ]
+  },
+  {
+   "t": "Bionicle Heroes",
+   "year": 2006,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "GameCube, PlayStation 2, [[Wii]], [[Xbox 360]]",
+    "Game Boy Advance, [[Nintendo DS]]",
+    "[[J2ME]]"
+   ]
+  },
+  {
+   "t": "Lego Fever",
+   "year": 2006,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Chic Boutique",
+   "year": 2006,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Bricktopia",
+   "year": 2006,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Builder Bots",
+   "year": 2006,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Bricks",
+   "year": 2006,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "J2ME"
+   ]
+  },
+  {
+   "t": "Lego World Soccer",
+   "year": 2006,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "J2ME"
+   ]
+  },
+  {
+   "t": "Bionicle Challenge",
+   "year": 2007,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "J2ME"
+   ]
+  },
+  {
+   "t": "Lego Brick Breaker",
+   "year": 2007,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "J2ME"
+   ]
+  },
+  {
+   "t": "Lego Escape",
+   "year": 2007,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "J2ME"
+   ]
+  },
+  {
+   "t": "Lego Racers",
+   "year": 2007,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "J2ME"
+   ]
+  },
+  {
+   "t": "Bionicle Defenders",
+   "year": 2008,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "J2ME"
+   ]
+  },
+  {
+   "t": "Lego Battles",
+   "year": 2009,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Nintendo DS",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Universe",
+   "year": 2010,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Battles: Ninjago",
+   "year": 2011,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Nintendo DS",
+    "—"
+   ]
+  },
+  {
+   "t": "Life of George",
+   "year": 2011,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "[[Android (operating system)|Android]], [[iOS]]"
+   ]
+  },
+  {
+   "t": "Lego Duplo Minispiele 2",
+   "year": 2011,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Friends Dress Up",
+   "year": 2012,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Ninjago: Rise of the Snakes",
+   "year": 2012,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "iOS"
+   ]
+  },
+  {
+   "t": "Lego Juniors Create & Cruise",
+   "year": 2012,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Duplo Zoo",
+   "year": 2012,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego City Team Up",
+   "year": 2012,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Monster Fighters Race",
+   "year": 2012,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "iOS"
+   ]
+  },
+  {
+   "t": "Lego City Undercover",
+   "year": 2013,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "[[Wii U]], [[PlayStation 4]],  [[Xbox One]], [[Nintendo Switch]]",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego City Undercover: The Chase Begins",
+   "year": 2013,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "[[Nintendo 3DS]]",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Friends",
+   "year": 2013,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Nintendo 3DS, Nintendo DS",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Legends of Chima Online",
+   "year": 2013,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "iOS"
+   ]
+  },
+  {
+   "t": "Lego Legends of Chima: Laval's Journey",
+   "year": 2013,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Nintendo 3DS, Nintendo DS, [[PlayStation Vita]]",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Legends of Chima: Speedorz",
+   "year": 2013,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Hero Factory Brain Attack",
+   "year": 2013,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Galaxy Squad Bug Battle",
+   "year": 2013,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "iOS"
+   ]
+  },
+  {
+   "t": "Lego Minifigures Online",
+   "year": 2014,
+   "mobileOnly": false,
+   "platforms": [
+    "[[Linux]], macOS, Microsoft Windows",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Ninjago: Nindroids",
+   "year": 2014,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Nintendo 3DS, PlayStation Vita",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego City My City",
+   "year": 2014,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Fusion Town Master",
+   "year": 2014,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Fusion Battle Towers",
+   "year": 2014,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Fusion Create & Race",
+   "year": 2014,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Fusion Resort Designer",
+   "year": 2014,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Bionicle: Mask of Creation",
+   "year": 2015,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Legends of Chima: Tribe Fighters",
+   "year": 2015,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Nexo Knights: Merlok 2.0",
+   "year": 2015,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Ninjago: Shadow of Ronin",
+   "year": 2015,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Nintendo 3DS, PlayStation Vita",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Bionicle: Mask of Control",
+   "year": 2016,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego City My City 2",
+   "year": 2016,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Quest & Collect",
+   "year": 2017,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Worlds",
+   "year": 2017,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, Xbox One",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Cube",
+   "year": 2018,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Builder's Journey",
+   "year": 2019,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS ([[Apple Arcade]]), Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, [[PlayStation 5]], Xbox One, [[Xbox Series X and Series S|Xbox Series X/S]]",
+    "—",
+    "iOS (Apple Arcade)"
+   ]
+  },
+  {
+   "t": "Lego Brawls",
+   "year": 2019,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS (Apple Arcade), Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
+    "—",
+    "iOS (Apple Arcade)"
+   ]
+  },
+  {
+   "t": "Lego Tower",
+   "year": 2019,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Legacy: Heroes Unboxed",
+   "year": 2020,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Bricktales",
+   "year": 2022,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego 2K Drive",
+   "year": 2023,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Party",
+   "year": 2025,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Voyagers",
+   "year": 2025,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, PlayStation 5, Xbox Series X/S",
+    "—",
+    "—"
+   ]
+  }
+ ],
+ "licensed": [
+  {
+   "t": "Lego Creator: Harry Potter",
+   "year": 2001,
+   "mobileOnly": false,
+   "platforms": [
+    "[[Microsoft Windows]]",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Creator: Harry Potter and the Chamber of Secrets",
+   "year": 2002,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "—",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Star Wars: The Video Game",
+   "year": 2005,
+   "mobileOnly": false,
+   "platforms": [
+    "[[macOS]], Microsoft Windows",
+    "[[GameCube]], [[PlayStation 2]], [[Xbox (console)|Xbox]]",
+    "[[Game Boy Advance]]",
+    "[[J2ME]]"
+   ]
+  },
+  {
+   "t": "Lego Star Wars II: The Original Trilogy",
+   "year": 2006,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "GameCube, PlayStation 2, Xbox, [[Xbox 360]]",
+    "Game Boy Advance, [[Nintendo DS]], [[PlayStation Portable]]",
+    "J2ME"
+   ]
+  },
+  {
+   "t": "Lego Star Wars: The Complete Saga",
+   "year": 2007,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "[[PlayStation 3]], [[Wii]], Xbox 360",
+    "Nintendo DS",
+    "[[Android (operating system)|Android]], [[iOS]]"
+   ]
+  },
+  {
+   "t": "Lego Indiana Jones: The Original Adventures",
+   "year": 2008,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 2, PlayStation 3, Wii, Xbox 360",
+    "Nintendo DS, PlayStation Portable",
+    "J2ME"
+   ]
+  },
+  {
+   "t": "Lego Batman: The Videogame",
+   "year": 2008,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 2, PlayStation 3, Wii, Xbox 360",
+    "Nintendo DS, PlayStation Portable",
+    "J2ME"
+   ]
+  },
+  {
+   "t": "Lego Rock Band",
+   "year": 2009,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "PlayStation 3, Wii, Xbox 360",
+    "Nintendo DS",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Indiana Jones 2: The Adventure Continues",
+   "year": 2009,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 3, Wii, Xbox 360",
+    "Nintendo DS, PlayStation Portable",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Harry Potter: Years 1–4",
+   "year": 2010,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "[[Nintendo Switch]], PlayStation 3, [[PlayStation 4]], Wii, Xbox 360, [[Xbox One]]",
+    "Nintendo DS, PlayStation Portable",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Star Wars III: The Clone Wars",
+   "year": 2011,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 3, Wii, Xbox 360",
+    "[[Nintendo 3DS]], Nintendo DS, PlayStation Portable",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Pirates of the Caribbean: The Video Game",
+   "year": 2011,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 3, Wii, Xbox 360",
+    "Nintendo 3DS, Nintendo DS, PlayStation Portable",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Harry Potter: Years 5–7",
+   "year": 2011,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "Nintendo Switch, PlayStation 3, PlayStation 4, Wii, Xbox 360, Xbox One",
+    "Nintendo 3DS, Nintendo DS, PlayStation Portable, [[PlayStation Vita]]",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Batman 2: DC Super Heroes",
+   "year": 2012,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 3, Wii, [[Wii U]], Xbox 360",
+    "Nintendo 3DS, Nintendo DS, PlayStation Vita",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego The Lord of the Rings",
+   "year": 2012,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 3, Wii, Xbox 360",
+    "Nintendo 3DS, Nintendo DS, PlayStation Vita",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Marvel Super Heroes",
+   "year": 2013,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "Nintendo Switch, PlayStation 3, PlayStation 4, Wii U, Xbox 360, Xbox One",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Marvel Super Heroes: Universe in Peril",
+   "year": 2014,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "—",
+    "Nintendo 3DS, Nintendo DS, PlayStation Vita",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "The Lego Movie Videogame",
+   "year": 2014,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 3, PlayStation 4, Wii U, Xbox 360, Xbox One",
+    "Nintendo 3DS, PlayStation Vita",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego The Hobbit",
+   "year": 2014,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 3, PlayStation 4, Wii U, Xbox 360, Xbox One",
+    "Nintendo 3DS, PlayStation Vita",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Batman 3: Beyond Gotham",
+   "year": 2014,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 3, PlayStation 4, Wii U, Xbox 360, Xbox One",
+    "Nintendo 3DS, PlayStation Vita",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Star Wars: Microfighters",
+   "year": 2014,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Jurassic World",
+   "year": 2015,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "Nintendo Switch, PlayStation 3, PlayStation 4, Wii U, Xbox 360, Xbox One",
+    "Nintendo 3DS, PlayStation Vita",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Dimensions",
+   "year": 2015,
+   "mobileOnly": false,
+   "platforms": [
+    "—",
+    "PlayStation 3, PlayStation 4, Wii U, Xbox 360, Xbox One",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Marvel's Avengers",
+   "year": 2016,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 3, PlayStation 4, Wii U, Xbox 360, Xbox One",
+    "Nintendo 3DS, PlayStation Vita",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Star Wars: The Force Awakens",
+   "year": 2016,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 3, PlayStation 4, Wii U, Xbox 360, Xbox One",
+    "Nintendo 3DS, PlayStation Vita",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Harry Potter Collection",
+   "year": 2016,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, [[PlayStation 5]], Xbox One, [[Xbox Series X/S]]",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "The Lego Batman Movie Game",
+   "year": 2017,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "The Lego Ninjago Movie Video Game",
+   "year": 2017,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, Xbox One",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Marvel Super Heroes 2",
+   "year": 2017,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, Xbox One",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego The Incredibles",
+   "year": 2018,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, Xbox One",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego DC Super-Villains",
+   "year": 2018,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, Xbox One",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "The Lego Movie 2 Videogame",
+   "year": 2019,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, Xbox One",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Marvel Collection",
+   "year": 2019,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS, Microsoft Windows",
+    "PlayStation 4, Xbox One",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Star Wars Battles",
+   "year": 2019,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS ([[Apple Arcade]])",
+    "—",
+    "—",
+    "Android, iOS (Apple Arcade)"
+   ]
+  },
+  {
+   "t": "Lego Star Wars: Castaways",
+   "year": 2021,
+   "mobileOnly": false,
+   "platforms": [
+    "macOS (Apple Arcade)",
+    "—",
+    "—",
+    "iOS (Apple Arcade)"
+   ]
+  },
+  {
+   "t": "Lego Star Wars: The Skywalker Saga",
+   "year": 2022,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Fortnite",
+   "year": 2023,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Hill Climb Adventures",
+   "year": 2024,
+   "mobileOnly": true,
+   "platforms": [
+    "—",
+    "—",
+    "—",
+    "Android, iOS"
+   ]
+  },
+  {
+   "t": "Lego Horizon Adventures",
+   "year": 2024,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo Switch, PlayStation 5",
+    "—",
+    "—"
+   ]
+  },
+  {
+   "t": "Lego Batman: Legacy of the Dark Knight",
+   "year": 2026,
+   "mobileOnly": false,
+   "platforms": [
+    "Microsoft Windows",
+    "[[Nintendo Switch 2]], PlayStation 5, Xbox Series X/S",
+    "—",
+    "—"
+   ]
+  }
+ ]
+}
