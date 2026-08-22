@@ -1,0 +1,297 @@
+{
+  "slug": "spielberg",
+  "title": "Steven Spielberg",
+  "subtitle": "the films he directed, in release order",
+  "kind": "films",
+  "order": 33,
+  "year": "1971–",
+  "blurb": "Every feature he directed, Duel through Disclosure Day — 35 films, about 78 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#7A4A1E",
+  "accentDark": "#E0A265",
+  "tiers": false,
+  "notes": [
+    [
+      "Directed features only.",
+      "If he only produced it — Poltergeist, The Goonies, Back to the Future — it is not here. Duel counts: shot for television, then extended and released to cinemas. Twilight Zone: The Movie does not — he directed one of its four segments, not the film. Nor does Firelight, the 1964 amateur feature, which is partially lost and cannot be watched."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata, in hours — about 78 in all. Every one of the 35 films has a real runtime; the generator refuses to build without them."
+    ],
+    "Filmography from Wikipedia; runtimes and release dates from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "television",
+      "title": "Out of television",
+      "sub": "1971–1979 · 5 films · 10 hours",
+      "items": [
+        {
+          "id": "sp-1971-duel",
+          "t": "Duel",
+          "n": "1971",
+          "w": 1.5,
+          "note": "A television movie, extended and released to cinemas abroad — that theatrical cut is why it counts"
+        },
+        {
+          "id": "sp-1974-the-sugarland-express",
+          "t": "The Sugarland Express",
+          "n": "1974",
+          "w": 1.82,
+          "note": "His theatrical directing debut"
+        },
+        {
+          "id": "sp-1975-jaws",
+          "t": "Jaws",
+          "n": "1975",
+          "w": 2.07
+        },
+        {
+          "id": "sp-1977-close-encounters-of-the-third-kind",
+          "t": "Close Encounters of the Third Kind",
+          "n": "1977",
+          "w": 2.23
+        },
+        {
+          "id": "sp-1979-1941",
+          "t": "1941",
+          "n": "1979",
+          "w": 1.88
+        }
+      ],
+      "intro": "A Universal television contract, a TV movie good enough for cinemas, and then Jaws — the film the summer blockbuster is named after. 1941 is the closest thing here to a flop.",
+      "open": true
+    },
+    {
+      "id": "eighties",
+      "title": "The Amblin years",
+      "sub": "1981–1989 · 7 films · 15 hours",
+      "items": [
+        {
+          "id": "sp-1981-raiders-of-the-lost-ark",
+          "t": "Raiders of the Lost Ark",
+          "n": "1981",
+          "w": 1.92
+        },
+        {
+          "id": "sp-1982-e-t-the-extra-terrestrial",
+          "t": "E.T. the Extra-Terrestrial",
+          "n": "1982",
+          "w": 1.92
+        },
+        {
+          "id": "sp-1984-indiana-jones-and-the-temple-of-doom",
+          "t": "Indiana Jones and the Temple of Doom",
+          "n": "1984",
+          "w": 1.93
+        },
+        {
+          "id": "sp-1985-the-color-purple",
+          "t": "The Color Purple",
+          "n": "1985",
+          "w": 2.57
+        },
+        {
+          "id": "sp-1987-empire-of-the-sun",
+          "t": "Empire of the Sun",
+          "n": "1987",
+          "w": 2.57
+        },
+        {
+          "id": "sp-1989-indiana-jones-and-the-last-crusade",
+          "t": "Indiana Jones and the Last Crusade",
+          "n": "1989",
+          "w": 2.03
+        },
+        {
+          "id": "sp-1989-always",
+          "t": "Always",
+          "n": "1989",
+          "w": 1.95
+        }
+      ],
+      "intro": "Indiana Jones and E.T. at the box office, and — with The Color Purple and Empire of the Sun — the first films made to prove he could do something else."
+    },
+    {
+      "id": "nineties",
+      "title": "The nineties",
+      "sub": "1991–1998 · 6 films · 15 hours",
+      "items": [
+        {
+          "id": "sp-1991-hook",
+          "t": "Hook",
+          "n": "1991",
+          "w": 2.27
+        },
+        {
+          "id": "sp-1993-jurassic-park",
+          "t": "Jurassic Park",
+          "n": "1993",
+          "w": 2.12
+        },
+        {
+          "id": "sp-1993-schindler-s-list",
+          "t": "Schindler's List",
+          "n": "1993",
+          "w": 3.25
+        },
+        {
+          "id": "sp-1997-the-lost-world-jurassic-park",
+          "t": "The Lost World: Jurassic Park",
+          "n": "1997",
+          "w": 2.15
+        },
+        {
+          "id": "sp-1997-amistad",
+          "t": "Amistad",
+          "n": "1997",
+          "w": 2.53
+        },
+        {
+          "id": "sp-1998-saving-private-ryan",
+          "t": "Saving Private Ryan",
+          "n": "1998",
+          "w": 2.82
+        }
+      ],
+      "intro": "Jurassic Park and Schindler's List opened six months apart. Both of his Best Director Oscars come from this stretch."
+    },
+    {
+      "id": "aughts",
+      "title": "Two a year",
+      "sub": "2001–2008 · 7 films · 16 hours",
+      "items": [
+        {
+          "id": "sp-2001-a-i-artificial-intelligence",
+          "t": "A.I. Artificial Intelligence",
+          "n": "2001",
+          "w": 2.43,
+          "note": "Also sits on the Stanley Kubrick list — Kubrick developed it for years before handing it to Spielberg"
+        },
+        {
+          "id": "sp-2002-minority-report",
+          "t": "Minority Report",
+          "n": "2002",
+          "w": 2.42
+        },
+        {
+          "id": "sp-2002-catch-me-if-you-can",
+          "t": "Catch Me If You Can",
+          "n": "2002",
+          "w": 2.25
+        },
+        {
+          "id": "sp-2004-the-terminal",
+          "t": "The Terminal",
+          "n": "2004",
+          "w": 2.13
+        },
+        {
+          "id": "sp-2005-war-of-the-worlds",
+          "t": "War of the Worlds",
+          "n": "2005",
+          "w": 1.95
+        },
+        {
+          "id": "sp-2005-munich",
+          "t": "Munich",
+          "n": "2005",
+          "w": 2.62
+        },
+        {
+          "id": "sp-2008-indiana-jones-and-the-kingdom-of-the-crystal-skull",
+          "t": "Indiana Jones and the Kingdom of the Crystal Skull",
+          "n": "2008",
+          "w": 2.05
+        }
+      ],
+      "intro": "Twice in this run — 2002 and 2005 — a summer science-fiction picture and a December drama in the same year."
+    },
+    {
+      "id": "teens",
+      "title": "The history plays",
+      "sub": "2011–2018 · 7 films · 15 hours",
+      "items": [
+        {
+          "id": "sp-2011-the-adventures-of-tintin",
+          "t": "The Adventures of Tintin",
+          "n": "2011",
+          "w": 1.78,
+          "note": "Animated — the only one"
+        },
+        {
+          "id": "sp-2011-war-horse",
+          "t": "War Horse",
+          "n": "2011",
+          "w": 2.43
+        },
+        {
+          "id": "sp-2012-lincoln",
+          "t": "Lincoln",
+          "n": "2012",
+          "w": 2.5
+        },
+        {
+          "id": "sp-2015-bridge-of-spies",
+          "t": "Bridge of Spies",
+          "n": "2015",
+          "w": 2.37
+        },
+        {
+          "id": "sp-2016-the-bfg",
+          "t": "The BFG",
+          "n": "2016",
+          "w": 1.92
+        },
+        {
+          "id": "sp-2017-the-post",
+          "t": "The Post",
+          "n": "2017",
+          "w": 1.92
+        },
+        {
+          "id": "sp-2018-ready-player-one",
+          "t": "Ready Player One",
+          "n": "2018",
+          "w": 2.33
+        }
+      ],
+      "intro": "Lincoln, Bridge of Spies and The Post in the middle, the animated Tintin at one end and Ready Player One at the other."
+    },
+    {
+      "id": "late",
+      "title": "Late Spielberg",
+      "sub": "2021–2026 · 3 films · 8 hours",
+      "items": [
+        {
+          "id": "sp-2021-west-side-story",
+          "t": "West Side Story",
+          "n": "2021",
+          "w": 2.6
+        },
+        {
+          "id": "sp-2022-the-fabelmans",
+          "t": "The Fabelmans",
+          "n": "2022",
+          "w": 2.52
+        },
+        {
+          "id": "sp-2026-disclosure-day",
+          "t": "Disclosure Day",
+          "n": "2026",
+          "w": 2.42
+        }
+      ],
+      "intro": "His first musical, then the closest thing to a memoir he has made — and, fifty-five years after Duel, film thirty-five."
+    }
+  ]
+}
