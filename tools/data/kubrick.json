@@ -1,0 +1,183 @@
+[
+ {
+  "title": "Fear and Desire",
+  "page": "Fear and Desire",
+  "table_year": 1952,
+  "kind": "feature",
+  "qid": "Q929157",
+  "runtime": 68,
+  "released": "1953-01-01",
+  "year": 1953
+ },
+ {
+  "title": "Killer's Kiss",
+  "page": "Killer's Kiss",
+  "table_year": 1955,
+  "kind": "feature",
+  "qid": "Q936477",
+  "runtime": 67,
+  "released": "1955-01-01",
+  "year": 1955
+ },
+ {
+  "title": "The Killing",
+  "page": "The Killing (film)",
+  "table_year": 1956,
+  "kind": "feature",
+  "qid": "Q592072",
+  "runtime": 85,
+  "released": "1956-06-06",
+  "year": 1956
+ },
+ {
+  "title": "Paths of Glory",
+  "page": "Paths of Glory",
+  "table_year": 1957,
+  "kind": "feature",
+  "qid": "Q747936",
+  "runtime": 88,
+  "released": "1957-10-25",
+  "year": 1957
+ },
+ {
+  "title": "Spartacus",
+  "page": "Spartacus (film)",
+  "table_year": 1960,
+  "kind": "feature",
+  "qid": "Q108297",
+  "runtime": 198,
+  "released": "1960-10-08",
+  "year": 1960
+ },
+ {
+  "title": "Lolita",
+  "page": "Lolita (1962 film)",
+  "table_year": 1962,
+  "kind": "feature",
+  "qid": "Q536560",
+  "runtime": 152,
+  "released": "1962-06-12",
+  "year": 1962
+ },
+ {
+  "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+  "page": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+  "table_year": 1964,
+  "kind": "feature",
+  "qid": "Q105702",
+  "runtime": 102,
+  "released": "1964-01-29",
+  "year": 1964
+ },
+ {
+  "title": "2001: A Space Odyssey",
+  "page": "2001: A Space Odyssey (film)",
+  "table_year": 1968,
+  "kind": "feature",
+  "qid": "Q103474",
+  "runtime": 143,
+  "released": "1968-04-02",
+  "year": 1968
+ },
+ {
+  "title": "A Clockwork Orange",
+  "page": "A Clockwork Orange (film)",
+  "table_year": 1971,
+  "kind": "feature",
+  "qid": "Q181086",
+  "runtime": 136,
+  "released": "1971-12-19",
+  "year": 1971
+ },
+ {
+  "title": "Barry Lyndon",
+  "page": "Barry Lyndon",
+  "table_year": 1975,
+  "kind": "feature",
+  "qid": "Q471716",
+  "runtime": 184,
+  "released": "1975-12-11",
+  "year": 1975
+ },
+ {
+  "title": "The Shining",
+  "page": "The Shining (film)",
+  "table_year": 1980,
+  "kind": "feature",
+  "qid": "Q186341",
+  "runtime": 144,
+  "released": "1980-05-23",
+  "year": 1980
+ },
+ {
+  "title": "Full Metal Jacket",
+  "page": "Full Metal Jacket",
+  "table_year": 1987,
+  "kind": "feature",
+  "qid": "Q243439",
+  "runtime": 116,
+  "released": "1987-06-17",
+  "year": 1987
+ },
+ {
+  "title": "Eyes Wide Shut",
+  "page": "Eyes Wide Shut",
+  "table_year": 1999,
+  "kind": "feature",
+  "qid": "Q209481",
+  "runtime": 159,
+  "released": "1999-07-13",
+  "year": 1999
+ },
+ {
+  "title": "Day of the Fight",
+  "page": "Day of the Fight",
+  "table_year": 1951,
+  "kind": "short",
+  "qid": "Q426628",
+  "runtime": 16,
+  "released": "1951-01-01",
+  "year": 1951
+ },
+ {
+  "title": "Flying Padre",
+  "page": "Flying Padre",
+  "table_year": 1951,
+  "kind": "short",
+  "qid": "Q1434632",
+  "runtime": 9,
+  "released": "1951-01-01",
+  "year": 1951
+ },
+ {
+  "title": "World Assembly of Youth",
+  "page": "World Assembly of Youth (film)",
+  "table_year": 1952,
+  "kind": "short",
+  "director_uncertain": true,
+  "qid": "Q17122931",
+  "runtime": null,
+  "released": "1952-00-00",
+  "year": 1952
+ },
+ {
+  "title": "The Seafarers",
+  "page": "The Seafarers",
+  "table_year": 1953,
+  "kind": "short",
+  "qid": "Q2164458",
+  "runtime": 30,
+  "released": "1953-01-01",
+  "year": 1953
+ },
+ {
+  "title": "A.I. Artificial Intelligence",
+  "page": "A.I. Artificial Intelligence",
+  "table_year": 2001,
+  "kind": "ai",
+  "qid": "Q221113",
+  "runtime": 146,
+  "released": "2001-06-29",
+  "year": 2001
+ }
+]
