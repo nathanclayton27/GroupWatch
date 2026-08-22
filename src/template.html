@@ -2821,8 +2821,16 @@ function paint(){
   const showW = WEIGHTED;
   $('s-wleft-w').classList.toggle('hide', !showW);
   if(showW){
-    $('s-wleft-l').textContent = WUNIT ? cap(WUNIT.many)+' left' : 'Time left';
-    $('s-wleft').textContent = hrs(Math.max(0, TOTALW - weightOf(done)));
+    const raw = Math.max(0, TOTALW - weightOf(done));
+    if(WUNIT){
+      // the label already names the unit; "Issues left · 579 issues" said it twice
+      const n = raw >= 10 ? Math.round(raw) : Math.round(raw * 10) / 10;
+      $('s-wleft-l').textContent = cap(WUNIT.many) + ' left';
+      $('s-wleft').textContent = String(n);
+    }else{
+      $('s-wleft-l').textContent = 'Time left';
+      $('s-wleft').textContent = hrs(raw);
+    }
   }
   if(TIERED) [1,2,3].forEach(t=> $('s-t'+t).textContent = per[t]+' / '+TIERTOT[t]);
   $('code').value = btoa(JSON.stringify([...done]));
