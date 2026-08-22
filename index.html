@@ -439,6 +439,8 @@ footer a{color:var(--steel)}
 <div class="bar">
   <div class="bar-in">
     <div class="stat"><span class="lbl" id="s-all-l">Done</span><b id="s-all">0 / 0</b></div>
+    <div class="stat"><span class="lbl">Left</span><b id="s-left">0</b></div>
+    <div class="stat hide" id="s-wleft-w"><span class="lbl" id="s-wleft-l">Time left</span><b id="s-wleft">0</b></div>
     <div class="stat tierstat"><span class="lbl">Tier 1</span><b id="s-t1">0 / 0</b></div>
     <div class="stat tierstat"><span class="lbl">Tier 2</span><b id="s-t2">0 / 0</b></div>
     <div class="stat tierstat"><span class="lbl">Tier 3</span><b id="s-t3">0 / 0</b></div>
@@ -1131,7 +1133,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '2e013496663b';
+const BUILD = '7ad58cca42a9';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -3399,6 +3401,18 @@ function paint(){
     }
   });
   $('s-all').textContent = done.size+' / '+TOTAL;
+  // What is still ahead of you: entries always, and time where the marks have
+  // real sizes. On an unweighted list the two are the same number, so the
+  // second stat hides rather than repeating it; on lists weighed in issues or
+  // McMuffins the label follows the unit.
+  const doneHere = [...done].filter(id=> VALID.has(id)).length;
+  $('s-left').textContent = String(Math.max(0, TOTAL - doneHere));
+  const showW = WEIGHTED;
+  $('s-wleft-w').classList.toggle('hide', !showW);
+  if(showW){
+    $('s-wleft-l').textContent = WUNIT ? cap(WUNIT.many)+' left' : 'Time left';
+    $('s-wleft').textContent = hrs(Math.max(0, TOTALW - weightOf(done)));
+  }
   if(TIERED) [1,2,3].forEach(t=> $('s-t'+t).textContent = per[t]+' / '+TIERTOT[t]);
   $('code').value = btoa(JSON.stringify([...done]));
   paintWindow();
