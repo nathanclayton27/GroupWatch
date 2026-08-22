@@ -422,17 +422,32 @@
   {
     "slug": "x-files",
     "title": "The X-Files",
-    "subtitle": "eleven seasons and both films, in release order",
+    "subtitle": "every episode, with the films where they belong",
     "kind": "tv & films",
     "year": "1993–2018",
-    "blurb": "218 episodes across 11 seasons, with the two films where they landed — about 167 hours.",
+    "blurb": "All 218 episodes and both films in broadcast order — eleven seasons, two eras, one basement office.",
     "accent": "#275E6B",
     "accentDark": "#6FC0D0",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 13
+    "total": 219
+  },
+  {
+    "slug": "gundam",
+    "title": "Gundam",
+    "subtitle": "the Universal Century and every alternate universe",
+    "kind": "anime & manga",
+    "year": "1979–",
+    "blurb": "46 entries across every Gundam continuity: the Universal Century in release order, the alternate universes, and the major manga.",
+    "accent": "#3F4E9E",
+    "accentDark": "#8E9BE8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 46
   },
   {
     "slug": "best-picture",
@@ -448,6 +463,21 @@
       "many": "films"
     },
     "total": 621
+  },
+  {
+    "slug": "marvel-animation",
+    "title": "Marvel Animation",
+    "subtitle": "every animated Marvel series and film, in release order",
+    "kind": "shows & films",
+    "year": "1966–",
+    "blurb": "18 films and 100 seasons of television, about 670 hours, in the order they came out.",
+    "accent": "#A03035",
+    "accentDark": "#EF7A80",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 118
   },
   {
     "slug": "kubrick",
