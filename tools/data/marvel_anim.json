@@ -1,0 +1,678 @@
+{
+ "films": [
+  {
+   "year": 1980,
+   "title": "Dracula: Sovereign of the Damned",
+   "page": "The Tomb of Dracula#TV movie",
+   "cat": "dtv",
+   "qid": "Q11856317",
+   "runtime": 94,
+   "released": "1980-07-01"
+  },
+  {
+   "year": 1981,
+   "title": "Kyoufu Densetsu Kaiki! Frankenstein",
+   "page": "Kyoufu Densetsu Kaiki! Frankenstein",
+   "cat": "dtv",
+   "qid": "Q3751976",
+   "runtime": 98,
+   "released": "1981-07-01"
+  },
+  {
+   "year": 2006,
+   "title": "Ultimate Avengers",
+   "page": "Ultimate Avengers",
+   "cat": "dtv",
+   "qid": "Q1051702",
+   "runtime": 72,
+   "released": "2006-02-21"
+  },
+  {
+   "year": 2006,
+   "title": "Ultimate Avengers 2",
+   "page": "Marvel Animated Features#Ultimate Avengers 2: Rise of the Panther",
+   "cat": "dtv",
+   "qid": "Q590098",
+   "runtime": 73,
+   "released": "2006-07-01"
+  },
+  {
+   "year": 2007,
+   "title": "Doctor Strange: The Sorcerer Supreme",
+   "page": "Marvel Animated Features#Doctor Strange: The Sorcerer Supreme",
+   "cat": "dtv",
+   "qid": "Q2320247",
+   "runtime": 76,
+   "released": "2007-07-01"
+  },
+  {
+   "year": 2007,
+   "title": "The Invincible Iron Man",
+   "page": "Marvel Animated Features#The Invincible Iron Man",
+   "cat": "dtv",
+   "qid": "Q1782442",
+   "runtime": 80,
+   "released": "2007-07-01"
+  },
+  {
+   "year": 2008,
+   "title": "Next Avengers: Heroes of Tomorrow",
+   "page": "Next Avengers: Heroes of Tomorrow",
+   "cat": "dtv",
+   "qid": "Q2565008",
+   "runtime": 78,
+   "released": "2008-07-01"
+  },
+  {
+   "year": 2009,
+   "title": "Hulk Versus",
+   "page": "Marvel Animated Features#Hulk vs.",
+   "cat": "dtv",
+   "qid": "Q2564665",
+   "runtime": 78,
+   "released": "2009-07-01"
+  },
+  {
+   "year": 2010,
+   "title": "Planet Hulk",
+   "page": "Marvel Animated Features#Planet Hulk",
+   "cat": "dtv",
+   "qid": "Q2662947",
+   "runtime": 81,
+   "released": "2010-02-02"
+  },
+  {
+   "year": 2011,
+   "title": "Thor: Tales of Asgard",
+   "page": "Marvel Animated Features#Thor: Tales of Asgard",
+   "cat": "dtv",
+   "qid": "Q2634377",
+   "runtime": 77,
+   "released": "2011-09-19"
+  },
+  {
+   "year": 2013,
+   "title": "Iron Man: Rise of Technovore",
+   "page": "Iron Man: Rise of Technovore",
+   "cat": "dtv",
+   "qid": "Q15971587",
+   "runtime": 88,
+   "released": "2013-07-01"
+  },
+  {
+   "year": 2013,
+   "title": "Iron Man & Hulk: Heroes United",
+   "page": "Heroes United#Iron Man and Hulk",
+   "cat": "dtv",
+   "qid": "Q18150641",
+   "runtime": 71,
+   "released": "2013-12-03"
+  },
+  {
+   "year": 2014,
+   "title": "Avengers Confidential: Black Widow & Punisher",
+   "page": "Avengers Confidential: Black Widow & Punisher",
+   "cat": "dtv",
+   "qid": "Q16153372",
+   "runtime": 83,
+   "released": "2014-03-25"
+  },
+  {
+   "year": 2014,
+   "title": "Iron Man & Captain America: Heroes United",
+   "page": "Heroes United#Iron Man and Captain America",
+   "cat": "dtv",
+   "qid": "Q28677944",
+   "runtime": 71,
+   "released": "2014-07-01"
+  },
+  {
+   "year": 2014,
+   "title": "Big Hero 6",
+   "page": "Big Hero 6 (film)",
+   "cat": "theatrical",
+   "qid": "Q13091172",
+   "runtime": 102,
+   "released": "2014-11-07"
+  },
+  {
+   "year": 2015,
+   "title": "Marvel Super Hero Adventures: Frost Fight!",
+   "page": "Marvel Super Hero Adventures: Frost Fight!",
+   "cat": "dtv",
+   "qid": "Q22350781",
+   "runtime": 73,
+   "released": "2015-07-01"
+  },
+  {
+   "year": 2016,
+   "title": "Hulk: Where Monsters Dwell",
+   "page": "Hulk: Where Monsters Dwell",
+   "cat": "dtv",
+   "qid": "Q27536714",
+   "runtime": 75,
+   "released": "2016-07-01"
+  },
+  {
+   "year": 2018,
+   "title": "Marvel Rising: Secret Warriors",
+   "page": "Marvel Rising: Secret Warriors",
+   "cat": "dtv",
+   "qid": "Q45040781",
+   "runtime": 80,
+   "released": "2018-07-01"
+  }
+ ],
+ "shows": [
+  {
+   "title": "The Marvel Super Heroes",
+   "page": "The Marvel Super Heroes",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 65,
+   "start": "1966",
+   "end": null,
+   "ongoing": false
+  },
+  {
+   "title": "The Fantastic Four",
+   "page": "The Fantastic Four (1967 TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 20,
+   "start": "1967",
+   "end": "1968",
+   "ongoing": false
+  },
+  {
+   "title": "Spider-Man",
+   "page": "Spider-Man (1967 TV series)",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 52,
+   "start": "1967",
+   "end": "1970",
+   "ongoing": false
+  },
+  {
+   "title": "The New Fantastic Four",
+   "page": "The New Fantastic Four",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "1978",
+   "end": null,
+   "ongoing": false
+  },
+  {
+   "title": "Fred and Barney Meet the Thing",
+   "page": "Fred and Barney Meet the Thing",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "1979",
+   "end": null,
+   "ongoing": false
+  },
+  {
+   "title": "Spider-Woman",
+   "page": "Spider-Woman (TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 16,
+   "start": "1979",
+   "end": "1980",
+   "ongoing": false
+  },
+  {
+   "title": "Spider-Man",
+   "page": "Spider-Man (1981 TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 26,
+   "start": "1981",
+   "end": "1982",
+   "ongoing": false
+  },
+  {
+   "title": "Spider-Man and His Amazing Friends",
+   "page": "Spider-Man and His Amazing Friends",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 24,
+   "start": "1981",
+   "end": "1983",
+   "ongoing": false
+  },
+  {
+   "title": "The Incredible Hulk",
+   "page": "The Incredible Hulk (1982 TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "1982",
+   "end": "1983",
+   "ongoing": false
+  },
+  {
+   "title": "X-Men: The Animated Series",
+   "page": "X-Men: The Animated Series",
+   "imprint": false,
+   "seasons": 5,
+   "episodes": 76,
+   "start": "1992",
+   "end": "1997",
+   "ongoing": false
+  },
+  {
+   "title": "Iron Man",
+   "page": "Iron Man (TV series)",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 26,
+   "start": "1994",
+   "end": "1996",
+   "ongoing": false
+  },
+  {
+   "title": "Fantastic Four",
+   "page": "Fantastic Four (1994 TV series)",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 26,
+   "start": "1994",
+   "end": "1996",
+   "ongoing": false
+  },
+  {
+   "title": "Spider-Man: The Animated Series",
+   "page": "Spider-Man: The Animated Series",
+   "imprint": false,
+   "seasons": 5,
+   "episodes": 65,
+   "start": "1994",
+   "end": "1998",
+   "ongoing": false
+  },
+  {
+   "title": "The Incredible Hulk",
+   "page": "The Incredible Hulk (1996 TV series)",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 21,
+   "start": "1996",
+   "end": "1997",
+   "ongoing": false
+  },
+  {
+   "title": "Silver Surfer",
+   "page": "Silver Surfer (TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "1998",
+   "end": null,
+   "ongoing": false
+  },
+  {
+   "title": "Spider-Man Unlimited",
+   "page": "Spider-Man Unlimited",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "1999",
+   "end": "2001",
+   "ongoing": false
+  },
+  {
+   "title": "The Avengers: United They Stand",
+   "page": "The Avengers: United They Stand",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "1999",
+   "end": "2000",
+   "ongoing": false
+  },
+  {
+   "title": "X-Men: Evolution",
+   "page": "X-Men: Evolution",
+   "imprint": false,
+   "seasons": 4,
+   "episodes": 52,
+   "start": "2000",
+   "end": "2003",
+   "ongoing": false
+  },
+  {
+   "title": "Spider-Man: The New Animated Series",
+   "page": "Spider-Man: The New Animated Series",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "2003",
+   "end": null,
+   "ongoing": false
+  },
+  {
+   "title": "Fantastic Four: World's Greatest Heroes",
+   "page": "Fantastic Four: World's Greatest Heroes",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 26,
+   "start": "2006",
+   "end": "2007",
+   "ongoing": false
+  },
+  {
+   "title": "The Spectacular Spider-Man",
+   "page": "The Spectacular Spider-Man (TV series)",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 26,
+   "start": "2008",
+   "end": "2009",
+   "ongoing": false
+  },
+  {
+   "title": "Wolverine and the X-Men",
+   "page": "Wolverine and the X-Men (TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 26,
+   "start": "2009",
+   "end": null,
+   "ongoing": false
+  },
+  {
+   "title": "Iron Man: Armored Adventures",
+   "page": "Iron Man: Armored Adventures",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 52,
+   "start": "2009",
+   "end": "2012",
+   "ongoing": false
+  },
+  {
+   "title": "The Super Hero Squad Show",
+   "page": "The Super Hero Squad Show",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 52,
+   "start": "2009",
+   "end": "2011",
+   "ongoing": false
+  },
+  {
+   "title": "The Avengers: Earth's Mightiest Heroes",
+   "page": "The Avengers: Earth's Mightiest Heroes",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 52,
+   "start": "2010",
+   "end": "2012",
+   "ongoing": false
+  },
+  {
+   "title": "Marvel Anime: Iron Man",
+   "page": "Marvel Anime#Iron Man",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 12,
+   "start": "2010",
+   "end": "2011",
+   "ongoing": false
+  },
+  {
+   "title": "Marvel Anime: Wolverine",
+   "page": "Marvel Anime#Wolverine",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 12,
+   "start": "2010",
+   "end": "2011",
+   "ongoing": false
+  },
+  {
+   "title": "Marvel Anime: X-Men",
+   "page": "Marvel Anime#X-Men",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 12,
+   "start": "2010",
+   "end": "2011",
+   "ongoing": false
+  },
+  {
+   "title": "Marvel Anime: Blade",
+   "page": "Marvel Anime#Blade",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 12,
+   "start": "2010",
+   "end": "2011",
+   "ongoing": false
+  },
+  {
+   "title": "Ultimate Spider-Man",
+   "page": "Ultimate Spider-Man (TV series)",
+   "imprint": false,
+   "seasons": 4,
+   "episodes": 104,
+   "start": "2012",
+   "end": "2017",
+   "ongoing": false
+  },
+  {
+   "title": "Avengers Assemble",
+   "page": "Avengers Assemble (TV series)",
+   "imprint": false,
+   "seasons": 5,
+   "episodes": 127,
+   "start": "2013",
+   "end": "2019",
+   "ongoing": false
+  },
+  {
+   "title": "Hulk and the Agents of S.M.A.S.H.",
+   "page": "Hulk and the Agents of S.M.A.S.H.",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 52,
+   "start": "2013",
+   "end": "2015",
+   "ongoing": false
+  },
+  {
+   "title": "Marvel Disk Wars: The Avengers",
+   "page": "Marvel Disk Wars: The Avengers",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 51,
+   "start": "2014",
+   "end": "2015",
+   "ongoing": false
+  },
+  {
+   "title": "Guardians of the Galaxy",
+   "page": "Guardians of the Galaxy (TV series)",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 79,
+   "start": "2015",
+   "end": "2019",
+   "ongoing": false
+  },
+  {
+   "title": "Marvel Future Avengers",
+   "page": "Marvel Future Avengers",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 39,
+   "start": "2017",
+   "end": "2018",
+   "ongoing": false
+  },
+  {
+   "title": "Marvel's Spider-Man",
+   "page": "Spider-Man (2017 TV series)",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 58,
+   "start": "2017",
+   "end": "2020",
+   "ongoing": false
+  },
+  {
+   "title": "Big Hero 6: The Series",
+   "page": "Big Hero 6: The Series",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 56,
+   "start": "2017",
+   "end": "2021",
+   "ongoing": false
+  },
+  {
+   "title": "M.O.D.O.K.",
+   "page": "M.O.D.O.K. (TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 10,
+   "start": "2021",
+   "end": null,
+   "ongoing": false
+  },
+  {
+   "title": "What If...?",
+   "page": "What If...? (TV series)",
+   "imprint": false,
+   "seasons": 3,
+   "episodes": 26,
+   "start": "2021",
+   "end": "2024",
+   "ongoing": false
+  },
+  {
+   "title": "Hit-Monkey",
+   "page": "Hit-Monkey (TV series)",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 20,
+   "start": "2021",
+   "end": "2024",
+   "ongoing": false
+  },
+  {
+   "title": "Moon Girl and Devil Dinosaur",
+   "page": "Moon Girl and Devil Dinosaur",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 41,
+   "start": "2023",
+   "end": "2025",
+   "ongoing": false
+  },
+  {
+   "title": "Eyes of Wakanda",
+   "page": "Eyes of Wakanda",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 4,
+   "start": "2025",
+   "end": null,
+   "ongoing": false
+  },
+  {
+   "title": "Spidey and His Amazing Friends",
+   "page": "Spidey and His Amazing Friends",
+   "imprint": false,
+   "seasons": 5,
+   "episodes": 110,
+   "start": "2021",
+   "end": null,
+   "ongoing": true
+  },
+  {
+   "title": "X-Men '97",
+   "page": "X-Men '97",
+   "imprint": false,
+   "seasons": 2,
+   "episodes": 19,
+   "start": "2024",
+   "end": null,
+   "ongoing": true
+  },
+  {
+   "title": "Your Friendly Neighborhood Spider-Man",
+   "page": "Your Friendly Neighborhood Spider-Man",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 10,
+   "start": "2025",
+   "end": null,
+   "ongoing": true
+  },
+  {
+   "title": "Iron Man and His Awesome Friends",
+   "page": "Iron Man and His Awesome Friends",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 30,
+   "start": "2025",
+   "end": null,
+   "ongoing": true
+  },
+  {
+   "title": "Marvel Zombies",
+   "page": "Marvel Zombies (TV series)",
+   "imprint": false,
+   "seasons": 1,
+   "episodes": 4,
+   "start": "2025",
+   "end": null,
+   "ongoing": true
+  },
+  {
+   "title": "Avengers: Mightiest Friends",
+   "page": null,
+   "imprint": false,
+   "seasons": 1,
+   "episodes": null,
+   "start": "2027",
+   "end": null,
+   "ongoing": false
+  },
+  {
+   "title": "Ultraforce",
+   "page": "Ultraforce#Animated series",
+   "imprint": true,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "1994",
+   "end": "1995",
+   "ongoing": false
+  },
+  {
+   "title": "Men in Black: The Series",
+   "page": "Men in Black: The Series",
+   "imprint": true,
+   "seasons": 4,
+   "episodes": 53,
+   "start": "1997",
+   "end": "2001",
+   "ongoing": false
+  },
+  {
+   "title": "Super Crooks",
+   "page": "Super Crooks",
+   "imprint": true,
+   "seasons": 1,
+   "episodes": 13,
+   "start": "2021",
+   "end": null,
+   "ongoing": false
+  }
+ ]
+}
