@@ -1,0 +1,6457 @@
+{
+  "slug": "x-men",
+  "title": "X-Men",
+  "subtitle": "the comprehensive reading list — both flagships, complete",
+  "kind": "comics",
+  "order": 14,
+  "year": "1963–",
+  "blurb": "Every issue of the two flagship lineages from 1963 to the fall of Krakoa — about 1645 issues — with the crossovers spliced in where you read them.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "weightUnit": {
+    "one": "issue",
+    "many": "issues"
+  },
+  "verb": {
+    "base": "read",
+    "past": "read",
+    "ing": "reading"
+  },
+  "accent": "#B08A2E",
+  "accentDark": "#E8C45C",
+  "tiers": false,
+  "notes": [
+    [
+      "Two spines, read in pairs.",
+      "From 1991 the line has two flagships that ran in lockstep — Uncanny #281–393 against X-Men #1–113, ending together — so they are rowed in pairs: each month's Uncanny, then its X-Men. The same pairing carries 2004–08 and 2008–11. Everything else is one title at a time."
+    ],
+    [
+      "◆ marks chapters published outside the flagships.",
+      "Crossovers are spliced in at the point you read them, sized by how many issues they are, never dumped at the end of a section."
+    ],
+    [
+      "The wilderness years are one row per run.",
+      "After Schism the line fragments into a dozen books and nobody reads 2011–19 straight through. Each run is one row weighted by its issue count; say the word and any of them gets per-issue rows."
+    ],
+    [
+      "No spoilers.",
+      "Notes say what an issue is — a debut, a creator boundary, an arc name — never what happens in it. The stars carry the “this one matters” signal."
+    ],
+    [
+      "From the Ashes is ongoing.",
+      "The current era gets placeholder rows weighing nothing; per-issue rows arrive when runs complete, so the list never carries invented issue counts."
+    ],
+    "Series links resolve against Marvel's own database ids. Order and era boundaries assembled from the standard reading orders; issue ranges verified against Marvel's series listings."
+  ],
+  "sections": [
+    {
+      "id": "silver",
+      "title": "The Silver Age",
+      "sub": "#1–66 · 1963–70",
+      "open": true,
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        }
+      ],
+      "intro": "Lee and Kirby for nineteen issues, then a rotating bench until Roy Thomas and Neal Adams close it out. Historically essential, famously skippable — the star ratings are honest about which is which.",
+      "items": [
+        {
+          "id": "xm-u1",
+          "t": "X-Men",
+          "n": "#1",
+          "w": 1,
+          "note": "The X-Men and Magneto debut"
+        },
+        {
+          "id": "xm-u2",
+          "t": "X-Men",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-u3",
+          "t": "X-Men",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-u4",
+          "t": "X-Men",
+          "n": "#4",
+          "w": 1,
+          "note": "The Brotherhood debuts"
+        },
+        {
+          "id": "xm-u5",
+          "t": "X-Men",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-u6",
+          "t": "X-Men",
+          "n": "#6",
+          "w": 1
+        },
+        {
+          "id": "xm-u7",
+          "t": "X-Men",
+          "n": "#7",
+          "w": 1
+        },
+        {
+          "id": "xm-u8",
+          "t": "X-Men",
+          "n": "#8",
+          "w": 1
+        },
+        {
+          "id": "xm-u9",
+          "t": "X-Men",
+          "n": "#9",
+          "w": 1
+        },
+        {
+          "id": "xm-u10",
+          "t": "X-Men",
+          "n": "#10",
+          "w": 1
+        },
+        {
+          "id": "xm-u11",
+          "t": "X-Men",
+          "n": "#11",
+          "w": 1
+        },
+        {
+          "id": "xm-u12",
+          "t": "X-Men",
+          "n": "#12",
+          "w": 1,
+          "note": "Juggernaut debuts"
+        },
+        {
+          "id": "xm-u13",
+          "t": "X-Men",
+          "n": "#13",
+          "w": 1
+        },
+        {
+          "id": "xm-u14",
+          "t": "X-Men",
+          "n": "#14",
+          "w": 1,
+          "note": "The Sentinels debut"
+        },
+        {
+          "id": "xm-u15",
+          "t": "X-Men",
+          "n": "#15",
+          "w": 1
+        },
+        {
+          "id": "xm-u16",
+          "t": "X-Men",
+          "n": "#16",
+          "w": 1
+        },
+        {
+          "id": "xm-u17",
+          "t": "X-Men",
+          "n": "#17",
+          "w": 1
+        },
+        {
+          "id": "xm-u18",
+          "t": "X-Men",
+          "n": "#18",
+          "w": 1
+        },
+        {
+          "id": "xm-u19",
+          "t": "X-Men",
+          "n": "#19",
+          "w": 1
+        },
+        {
+          "id": "xm-u20",
+          "t": "X-Men",
+          "n": "#20",
+          "w": 1
+        },
+        {
+          "id": "xm-u21",
+          "t": "X-Men",
+          "n": "#21",
+          "w": 1
+        },
+        {
+          "id": "xm-u22",
+          "t": "X-Men",
+          "n": "#22",
+          "w": 1
+        },
+        {
+          "id": "xm-u23",
+          "t": "X-Men",
+          "n": "#23",
+          "w": 1
+        },
+        {
+          "id": "xm-u24",
+          "t": "X-Men",
+          "n": "#24",
+          "w": 1
+        },
+        {
+          "id": "xm-u25",
+          "t": "X-Men",
+          "n": "#25",
+          "w": 1
+        },
+        {
+          "id": "xm-u26",
+          "t": "X-Men",
+          "n": "#26",
+          "w": 1
+        },
+        {
+          "id": "xm-u27",
+          "t": "X-Men",
+          "n": "#27",
+          "w": 1
+        },
+        {
+          "id": "xm-u28",
+          "t": "X-Men",
+          "n": "#28",
+          "w": 1,
+          "note": "Banshee debuts"
+        },
+        {
+          "id": "xm-u29",
+          "t": "X-Men",
+          "n": "#29",
+          "w": 1
+        },
+        {
+          "id": "xm-u30",
+          "t": "X-Men",
+          "n": "#30",
+          "w": 1
+        },
+        {
+          "id": "xm-u31",
+          "t": "X-Men",
+          "n": "#31",
+          "w": 1
+        },
+        {
+          "id": "xm-u32",
+          "t": "X-Men",
+          "n": "#32",
+          "w": 1
+        },
+        {
+          "id": "xm-u33",
+          "t": "X-Men",
+          "n": "#33",
+          "w": 1
+        },
+        {
+          "id": "xm-u34",
+          "t": "X-Men",
+          "n": "#34",
+          "w": 1
+        },
+        {
+          "id": "xm-u35",
+          "t": "X-Men",
+          "n": "#35",
+          "w": 1
+        },
+        {
+          "id": "xm-u36",
+          "t": "X-Men",
+          "n": "#36",
+          "w": 1
+        },
+        {
+          "id": "xm-u37",
+          "t": "X-Men",
+          "n": "#37",
+          "w": 1
+        },
+        {
+          "id": "xm-u38",
+          "t": "X-Men",
+          "n": "#38",
+          "w": 1
+        },
+        {
+          "id": "xm-u39",
+          "t": "X-Men",
+          "n": "#39",
+          "w": 1
+        },
+        {
+          "id": "xm-u40",
+          "t": "X-Men",
+          "n": "#40",
+          "w": 1
+        },
+        {
+          "id": "xm-u41",
+          "t": "X-Men",
+          "n": "#41",
+          "w": 1
+        },
+        {
+          "id": "xm-u42",
+          "t": "X-Men",
+          "n": "#42",
+          "w": 1
+        },
+        {
+          "id": "xm-u43",
+          "t": "X-Men",
+          "n": "#43",
+          "w": 1
+        },
+        {
+          "id": "xm-u44",
+          "t": "X-Men",
+          "n": "#44",
+          "w": 1
+        },
+        {
+          "id": "xm-u45",
+          "t": "X-Men",
+          "n": "#45",
+          "w": 1
+        },
+        {
+          "id": "xm-u46",
+          "t": "X-Men",
+          "n": "#46",
+          "w": 1
+        },
+        {
+          "id": "xm-u47",
+          "t": "X-Men",
+          "n": "#47",
+          "w": 1
+        },
+        {
+          "id": "xm-u48",
+          "t": "X-Men",
+          "n": "#48",
+          "w": 1
+        },
+        {
+          "id": "xm-u49",
+          "t": "X-Men",
+          "n": "#49",
+          "w": 1
+        },
+        {
+          "id": "xm-u50",
+          "t": "X-Men",
+          "n": "#50",
+          "w": 1
+        },
+        {
+          "id": "xm-u51",
+          "t": "X-Men",
+          "n": "#51",
+          "w": 1
+        },
+        {
+          "id": "xm-u52",
+          "t": "X-Men",
+          "n": "#52",
+          "w": 1
+        },
+        {
+          "id": "xm-u53",
+          "t": "X-Men",
+          "n": "#53",
+          "w": 1
+        },
+        {
+          "id": "xm-u54",
+          "t": "X-Men",
+          "n": "#54",
+          "w": 1
+        },
+        {
+          "id": "xm-u55",
+          "t": "X-Men",
+          "n": "#55",
+          "w": 1
+        },
+        {
+          "id": "xm-u56",
+          "t": "X-Men",
+          "n": "#56",
+          "w": 1,
+          "note": "Neal Adams arrives"
+        },
+        {
+          "id": "xm-u57",
+          "t": "X-Men",
+          "n": "#57",
+          "w": 1
+        },
+        {
+          "id": "xm-u58",
+          "t": "X-Men",
+          "n": "#58",
+          "w": 1
+        },
+        {
+          "id": "xm-u59",
+          "t": "X-Men",
+          "n": "#59",
+          "w": 1
+        },
+        {
+          "id": "xm-u60",
+          "t": "X-Men",
+          "n": "#60",
+          "w": 1
+        },
+        {
+          "id": "xm-u61",
+          "t": "X-Men",
+          "n": "#61",
+          "w": 1
+        },
+        {
+          "id": "xm-u62",
+          "t": "X-Men",
+          "n": "#62",
+          "w": 1
+        },
+        {
+          "id": "xm-u63",
+          "t": "X-Men",
+          "n": "#63",
+          "w": 1
+        },
+        {
+          "id": "xm-u64",
+          "t": "X-Men",
+          "n": "#64",
+          "w": 1
+        },
+        {
+          "id": "xm-u65",
+          "t": "X-Men",
+          "n": "#65",
+          "w": 1
+        },
+        {
+          "id": "xm-u66",
+          "t": "X-Men",
+          "n": "#66",
+          "w": 1,
+          "note": "The last new issue before the reprint years"
+        }
+      ]
+    },
+    {
+      "id": "reprints",
+      "title": "The reprint years",
+      "sub": "#67–93 · 1970–75",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-reprints",
+          "t": "X-Men #67–93",
+          "n": "◆",
+          "w": 27,
+          "note": "Twenty-seven issues of reprints while the book was on life support. Nothing new inside; counted so the run is complete, skipped by everyone.",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "allnew",
+      "title": "Giant-Size and the All-New team",
+      "sub": "1975–80 · #94–128",
+      "links": [
+        {
+          "label": "Giant-Size X-Men",
+          "url": "https://www.marvel.com/comics/series/922/giantsize_xmen_1975_2005"
+        },
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        }
+      ],
+      "intro": "Wein and Cockrum build the new team in one Giant-Size issue, Claremont takes the book the issue after, and does not let go for sixteen years.",
+      "items": [
+        {
+          "id": "xm-gsx1",
+          "t": "Giant-Size X-Men",
+          "n": "#1",
+          "w": 1,
+          "note": "The All-New, All-Different team debuts",
+          "star": 2
+        },
+        {
+          "id": "xm-u94",
+          "t": "X-Men",
+          "n": "#94",
+          "w": 1,
+          "note": "The All-New team's monthlies begin — Claremont from here",
+          "star": 2
+        },
+        {
+          "id": "xm-u95",
+          "t": "X-Men",
+          "n": "#95",
+          "w": 1
+        },
+        {
+          "id": "xm-u96",
+          "t": "X-Men",
+          "n": "#96",
+          "w": 1
+        },
+        {
+          "id": "xm-u97",
+          "t": "X-Men",
+          "n": "#97",
+          "w": 1
+        },
+        {
+          "id": "xm-u98",
+          "t": "X-Men",
+          "n": "#98",
+          "w": 1
+        },
+        {
+          "id": "xm-u99",
+          "t": "X-Men",
+          "n": "#99",
+          "w": 1
+        },
+        {
+          "id": "xm-u100",
+          "t": "X-Men",
+          "n": "#100",
+          "w": 1
+        },
+        {
+          "id": "xm-u101",
+          "t": "X-Men",
+          "n": "#101",
+          "w": 1,
+          "note": "The Phoenix",
+          "star": 1
+        },
+        {
+          "id": "xm-u102",
+          "t": "X-Men",
+          "n": "#102",
+          "w": 1
+        },
+        {
+          "id": "xm-u103",
+          "t": "X-Men",
+          "n": "#103",
+          "w": 1
+        },
+        {
+          "id": "xm-u104",
+          "t": "X-Men",
+          "n": "#104",
+          "w": 1
+        },
+        {
+          "id": "xm-u105",
+          "t": "X-Men",
+          "n": "#105",
+          "w": 1
+        },
+        {
+          "id": "xm-u106",
+          "t": "X-Men",
+          "n": "#106",
+          "w": 1
+        },
+        {
+          "id": "xm-u107",
+          "t": "X-Men",
+          "n": "#107",
+          "w": 1
+        },
+        {
+          "id": "xm-u108",
+          "t": "X-Men",
+          "n": "#108",
+          "w": 1,
+          "note": "Byrne arrives"
+        },
+        {
+          "id": "xm-u109",
+          "t": "X-Men",
+          "n": "#109",
+          "w": 1
+        },
+        {
+          "id": "xm-u110",
+          "t": "X-Men",
+          "n": "#110",
+          "w": 1
+        },
+        {
+          "id": "xm-u111",
+          "t": "X-Men",
+          "n": "#111",
+          "w": 1
+        },
+        {
+          "id": "xm-u112",
+          "t": "X-Men",
+          "n": "#112",
+          "w": 1
+        },
+        {
+          "id": "xm-u113",
+          "t": "X-Men",
+          "n": "#113",
+          "w": 1
+        },
+        {
+          "id": "xm-u114",
+          "t": "X-Men",
+          "n": "#114",
+          "w": 1
+        },
+        {
+          "id": "xm-u115",
+          "t": "X-Men",
+          "n": "#115",
+          "w": 1
+        },
+        {
+          "id": "xm-u116",
+          "t": "X-Men",
+          "n": "#116",
+          "w": 1
+        },
+        {
+          "id": "xm-u117",
+          "t": "X-Men",
+          "n": "#117",
+          "w": 1
+        },
+        {
+          "id": "xm-u118",
+          "t": "X-Men",
+          "n": "#118",
+          "w": 1
+        },
+        {
+          "id": "xm-u119",
+          "t": "X-Men",
+          "n": "#119",
+          "w": 1
+        },
+        {
+          "id": "xm-u120",
+          "t": "X-Men",
+          "n": "#120",
+          "w": 1,
+          "note": "Alpha Flight debuts"
+        },
+        {
+          "id": "xm-u121",
+          "t": "X-Men",
+          "n": "#121",
+          "w": 1
+        },
+        {
+          "id": "xm-u122",
+          "t": "X-Men",
+          "n": "#122",
+          "w": 1
+        },
+        {
+          "id": "xm-u123",
+          "t": "X-Men",
+          "n": "#123",
+          "w": 1
+        },
+        {
+          "id": "xm-u124",
+          "t": "X-Men",
+          "n": "#124",
+          "w": 1
+        },
+        {
+          "id": "xm-u125",
+          "t": "X-Men",
+          "n": "#125",
+          "w": 1
+        },
+        {
+          "id": "xm-u126",
+          "t": "X-Men",
+          "n": "#126",
+          "w": 1
+        },
+        {
+          "id": "xm-u127",
+          "t": "X-Men",
+          "n": "#127",
+          "w": 1
+        },
+        {
+          "id": "xm-u128",
+          "t": "X-Men",
+          "n": "#128",
+          "w": 1
+        }
+      ]
+    },
+    {
+      "id": "phoenix",
+      "title": "Dark Phoenix and Days of Future Past",
+      "sub": "#129–143 · 1980–81 · Claremont and Byrne at full power",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-u129",
+          "t": "X-Men",
+          "n": "#129",
+          "w": 1,
+          "note": "Kitty Pryde and Emma Frost debut",
+          "star": 1
+        },
+        {
+          "id": "xm-u130",
+          "t": "X-Men",
+          "n": "#130",
+          "w": 1,
+          "note": "Dazzler debuts"
+        },
+        {
+          "id": "xm-u131",
+          "t": "X-Men",
+          "n": "#131",
+          "w": 1
+        },
+        {
+          "id": "xm-u132",
+          "t": "X-Men",
+          "n": "#132",
+          "w": 1
+        },
+        {
+          "id": "xm-u133",
+          "t": "X-Men",
+          "n": "#133",
+          "w": 1
+        },
+        {
+          "id": "xm-u134",
+          "t": "X-Men",
+          "n": "#134",
+          "w": 1,
+          "note": "The Dark Phoenix Saga in full swing"
+        },
+        {
+          "id": "xm-u135",
+          "t": "X-Men",
+          "n": "#135",
+          "w": 1
+        },
+        {
+          "id": "xm-u136",
+          "t": "X-Men",
+          "n": "#136",
+          "w": 1
+        },
+        {
+          "id": "xm-u137",
+          "t": "X-Men",
+          "n": "#137",
+          "w": 1,
+          "note": "The Phoenix saga concludes",
+          "star": 2
+        },
+        {
+          "id": "xm-u138",
+          "t": "X-Men",
+          "n": "#138",
+          "w": 1,
+          "note": "An era ends; Cyclops steps away"
+        },
+        {
+          "id": "xm-u139",
+          "t": "X-Men",
+          "n": "#139",
+          "w": 1,
+          "note": "Kitty joins"
+        },
+        {
+          "id": "xm-u140",
+          "t": "X-Men",
+          "n": "#140",
+          "w": 1
+        },
+        {
+          "id": "xm-u141",
+          "t": "X-Men",
+          "n": "#141",
+          "w": 1,
+          "note": "Days of Future Past, part 1",
+          "star": 2
+        },
+        {
+          "id": "xm-u142",
+          "t": "Uncanny X-Men",
+          "n": "#142",
+          "w": 1,
+          "note": "Days of Future Past, part 2 — and the indicia says Uncanny now",
+          "star": 2
+        },
+        {
+          "id": "xm-u143",
+          "t": "Uncanny X-Men",
+          "n": "#143",
+          "w": 1
+        }
+      ]
+    },
+    {
+      "id": "eighties",
+      "title": "Paul Smith to the Trial of Magneto",
+      "sub": "#144–200 · 1981–85 · with the graphic novel and the Wolverine series",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        },
+        {
+          "label": "God Loves, Man Kills",
+          "url": "https://www.marvel.com/comics/series/30459/xmen_god_loves_man_kills_extended_cut_2020"
+        },
+        {
+          "label": "Wolverine (1982)",
+          "url": "https://www.marvel.com/comics/series/2096/wolverine_1982"
+        },
+        {
+          "label": "Kitty Pryde & Wolverine",
+          "url": "https://www.marvel.com/comics/series/5264/kitty_pryde_and_wolverine_1984_1985"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-u144",
+          "t": "Uncanny X-Men",
+          "n": "#144",
+          "w": 1
+        },
+        {
+          "id": "xm-u145",
+          "t": "Uncanny X-Men",
+          "n": "#145",
+          "w": 1
+        },
+        {
+          "id": "xm-u146",
+          "t": "Uncanny X-Men",
+          "n": "#146",
+          "w": 1
+        },
+        {
+          "id": "xm-u147",
+          "t": "Uncanny X-Men",
+          "n": "#147",
+          "w": 1
+        },
+        {
+          "id": "xm-u148",
+          "t": "Uncanny X-Men",
+          "n": "#148",
+          "w": 1,
+          "note": "Caliban debuts"
+        },
+        {
+          "id": "xm-u149",
+          "t": "Uncanny X-Men",
+          "n": "#149",
+          "w": 1
+        },
+        {
+          "id": "xm-u150",
+          "t": "Uncanny X-Men",
+          "n": "#150",
+          "w": 1
+        },
+        {
+          "id": "xm-u151",
+          "t": "Uncanny X-Men",
+          "n": "#151",
+          "w": 1
+        },
+        {
+          "id": "xm-u152",
+          "t": "Uncanny X-Men",
+          "n": "#152",
+          "w": 1
+        },
+        {
+          "id": "xm-u153",
+          "t": "Uncanny X-Men",
+          "n": "#153",
+          "w": 1
+        },
+        {
+          "id": "xm-u154",
+          "t": "Uncanny X-Men",
+          "n": "#154",
+          "w": 1
+        },
+        {
+          "id": "xm-u155",
+          "t": "Uncanny X-Men",
+          "n": "#155",
+          "w": 1
+        },
+        {
+          "id": "xm-u156",
+          "t": "Uncanny X-Men",
+          "n": "#156",
+          "w": 1
+        },
+        {
+          "id": "xm-u157",
+          "t": "Uncanny X-Men",
+          "n": "#157",
+          "w": 1
+        },
+        {
+          "id": "xm-u158",
+          "t": "Uncanny X-Men",
+          "n": "#158",
+          "w": 1,
+          "note": "Rogue's first issue here"
+        },
+        {
+          "id": "xm-u159",
+          "t": "Uncanny X-Men",
+          "n": "#159",
+          "w": 1
+        },
+        {
+          "id": "xm-u160",
+          "t": "Uncanny X-Men",
+          "n": "#160",
+          "w": 1
+        },
+        {
+          "id": "xm-u161",
+          "t": "Uncanny X-Men",
+          "n": "#161",
+          "w": 1,
+          "note": "Magneto's backstory"
+        },
+        {
+          "id": "xm-u162",
+          "t": "Uncanny X-Men",
+          "n": "#162",
+          "w": 1
+        },
+        {
+          "id": "xm-u163",
+          "t": "Uncanny X-Men",
+          "n": "#163",
+          "w": 1
+        },
+        {
+          "id": "xm-u164",
+          "t": "Uncanny X-Men",
+          "n": "#164",
+          "w": 1
+        },
+        {
+          "id": "xm-u165",
+          "t": "Uncanny X-Men",
+          "n": "#165",
+          "w": 1
+        },
+        {
+          "id": "xm-u166",
+          "t": "Uncanny X-Men",
+          "n": "#166",
+          "w": 1
+        },
+        {
+          "id": "xm-u167",
+          "t": "Uncanny X-Men",
+          "n": "#167",
+          "w": 1
+        },
+        {
+          "id": "xm-glmk",
+          "t": "God Loves, Man Kills",
+          "n": "◆",
+          "w": 1,
+          "note": "Marvel Graphic Novel #5 — outside continuity, and one of the two or three best X-Men stories ever told",
+          "star": 2
+        },
+        {
+          "id": "xm-u168",
+          "t": "Uncanny X-Men",
+          "n": "#168",
+          "w": 1
+        },
+        {
+          "id": "xm-u169",
+          "t": "Uncanny X-Men",
+          "n": "#169",
+          "w": 1
+        },
+        {
+          "id": "xm-u170",
+          "t": "Uncanny X-Men",
+          "n": "#170",
+          "w": 1
+        },
+        {
+          "id": "xm-u171",
+          "t": "Uncanny X-Men",
+          "n": "#171",
+          "w": 1,
+          "note": "Rogue joins the team",
+          "star": 1
+        },
+        {
+          "id": "xm-wolv82",
+          "t": "Wolverine",
+          "n": "#1–4",
+          "w": 4,
+          "note": "The Claremont/Miller series — read before the Japan issues that follow",
+          "star": 2
+        },
+        {
+          "id": "xm-u172",
+          "t": "Uncanny X-Men",
+          "n": "#172",
+          "w": 1
+        },
+        {
+          "id": "xm-u173",
+          "t": "Uncanny X-Men",
+          "n": "#173",
+          "w": 1
+        },
+        {
+          "id": "xm-u174",
+          "t": "Uncanny X-Men",
+          "n": "#174",
+          "w": 1
+        },
+        {
+          "id": "xm-u175",
+          "t": "Uncanny X-Men",
+          "n": "#175",
+          "w": 1
+        },
+        {
+          "id": "xm-u176",
+          "t": "Uncanny X-Men",
+          "n": "#176",
+          "w": 1
+        },
+        {
+          "id": "xm-u177",
+          "t": "Uncanny X-Men",
+          "n": "#177",
+          "w": 1
+        },
+        {
+          "id": "xm-u178",
+          "t": "Uncanny X-Men",
+          "n": "#178",
+          "w": 1
+        },
+        {
+          "id": "xm-u179",
+          "t": "Uncanny X-Men",
+          "n": "#179",
+          "w": 1
+        },
+        {
+          "id": "xm-u180",
+          "t": "Uncanny X-Men",
+          "n": "#180",
+          "w": 1
+        },
+        {
+          "id": "xm-u181",
+          "t": "Uncanny X-Men",
+          "n": "#181",
+          "w": 1
+        },
+        {
+          "id": "xm-u182",
+          "t": "Uncanny X-Men",
+          "n": "#182",
+          "w": 1
+        },
+        {
+          "id": "xm-u183",
+          "t": "Uncanny X-Men",
+          "n": "#183",
+          "w": 1
+        },
+        {
+          "id": "xm-u184",
+          "t": "Uncanny X-Men",
+          "n": "#184",
+          "w": 1
+        },
+        {
+          "id": "xm-u185",
+          "t": "Uncanny X-Men",
+          "n": "#185",
+          "w": 1
+        },
+        {
+          "id": "xm-u186",
+          "t": "Uncanny X-Men",
+          "n": "#186",
+          "w": 1,
+          "note": "“Lifedeath” — Barry Windsor-Smith",
+          "star": 1
+        },
+        {
+          "id": "xm-u187",
+          "t": "Uncanny X-Men",
+          "n": "#187",
+          "w": 1
+        },
+        {
+          "id": "xm-u188",
+          "t": "Uncanny X-Men",
+          "n": "#188",
+          "w": 1
+        },
+        {
+          "id": "xm-u189",
+          "t": "Uncanny X-Men",
+          "n": "#189",
+          "w": 1
+        },
+        {
+          "id": "xm-u190",
+          "t": "Uncanny X-Men",
+          "n": "#190",
+          "w": 1
+        },
+        {
+          "id": "xm-u191",
+          "t": "Uncanny X-Men",
+          "n": "#191",
+          "w": 1
+        },
+        {
+          "id": "xm-u192",
+          "t": "Uncanny X-Men",
+          "n": "#192",
+          "w": 1
+        },
+        {
+          "id": "xm-kpw",
+          "t": "Kitty Pryde and Wolverine",
+          "n": "#1–6",
+          "w": 6,
+          "opt": 1
+        },
+        {
+          "id": "xm-u193",
+          "t": "Uncanny X-Men",
+          "n": "#193",
+          "w": 1,
+          "note": "Twentieth-anniversary issue"
+        },
+        {
+          "id": "xm-u194",
+          "t": "Uncanny X-Men",
+          "n": "#194",
+          "w": 1
+        },
+        {
+          "id": "xm-u195",
+          "t": "Uncanny X-Men",
+          "n": "#195",
+          "w": 1
+        },
+        {
+          "id": "xm-u196",
+          "t": "Uncanny X-Men",
+          "n": "#196",
+          "w": 1
+        },
+        {
+          "id": "xm-u197",
+          "t": "Uncanny X-Men",
+          "n": "#197",
+          "w": 1
+        },
+        {
+          "id": "xm-u198",
+          "t": "Uncanny X-Men",
+          "n": "#198",
+          "w": 1
+        },
+        {
+          "id": "xm-u199",
+          "t": "Uncanny X-Men",
+          "n": "#199",
+          "w": 1
+        },
+        {
+          "id": "xm-u200",
+          "t": "Uncanny X-Men",
+          "n": "#200",
+          "w": 1,
+          "note": "The Trial of Magneto",
+          "star": 1
+        }
+      ]
+    },
+    {
+      "id": "massacre",
+      "title": "The Massacre to Inferno",
+      "sub": "#201–243 · 1986–89 · the crossover era begins",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        },
+        {
+          "label": "X-Factor",
+          "url": "https://www.marvel.com/comics/series/2098/xfactor_1986_1998"
+        },
+        {
+          "label": "New Mutants",
+          "url": "https://www.marvel.com/comics/series/2055/new_mutants_1983_1991"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-u201",
+          "t": "Uncanny X-Men",
+          "n": "#201",
+          "w": 1,
+          "note": "Baby Nathan — and Whilce Portacio later"
+        },
+        {
+          "id": "xm-u202",
+          "t": "Uncanny X-Men",
+          "n": "#202",
+          "w": 1
+        },
+        {
+          "id": "xm-u203",
+          "t": "Uncanny X-Men",
+          "n": "#203",
+          "w": 1
+        },
+        {
+          "id": "xm-u204",
+          "t": "Uncanny X-Men",
+          "n": "#204",
+          "w": 1
+        },
+        {
+          "id": "xm-u205",
+          "t": "Uncanny X-Men",
+          "n": "#205",
+          "w": 1,
+          "note": "“Wounded Wolf” — Windsor-Smith again"
+        },
+        {
+          "id": "xm-u206",
+          "t": "Uncanny X-Men",
+          "n": "#206",
+          "w": 1
+        },
+        {
+          "id": "xm-u207",
+          "t": "Uncanny X-Men",
+          "n": "#207",
+          "w": 1
+        },
+        {
+          "id": "xm-u208",
+          "t": "Uncanny X-Men",
+          "n": "#208",
+          "w": 1
+        },
+        {
+          "id": "xm-u209",
+          "t": "Uncanny X-Men",
+          "n": "#209",
+          "w": 1
+        },
+        {
+          "id": "xm-u210",
+          "t": "Uncanny X-Men",
+          "n": "#210",
+          "w": 1,
+          "note": "The Mutant Massacre begins",
+          "star": 1
+        },
+        {
+          "id": "xm-u211",
+          "t": "Uncanny X-Men",
+          "n": "#211",
+          "w": 1
+        },
+        {
+          "id": "xm-massacre",
+          "t": "Mutant Massacre, the other chapters",
+          "n": "◆",
+          "w": 8,
+          "note": "X-Factor #9–11, New Mutants #46, Thor #373–374, Power Pack #27, Daredevil #238 — around Uncanny #210–213",
+          "star": 1
+        },
+        {
+          "id": "xm-u212",
+          "t": "Uncanny X-Men",
+          "n": "#212",
+          "w": 1,
+          "note": "Massacre: Wolverine vs Sabretooth"
+        },
+        {
+          "id": "xm-u213",
+          "t": "Uncanny X-Men",
+          "n": "#213",
+          "w": 1
+        },
+        {
+          "id": "xm-u214",
+          "t": "Uncanny X-Men",
+          "n": "#214",
+          "w": 1
+        },
+        {
+          "id": "xm-u215",
+          "t": "Uncanny X-Men",
+          "n": "#215",
+          "w": 1
+        },
+        {
+          "id": "xm-u216",
+          "t": "Uncanny X-Men",
+          "n": "#216",
+          "w": 1
+        },
+        {
+          "id": "xm-u217",
+          "t": "Uncanny X-Men",
+          "n": "#217",
+          "w": 1
+        },
+        {
+          "id": "xm-u218",
+          "t": "Uncanny X-Men",
+          "n": "#218",
+          "w": 1
+        },
+        {
+          "id": "xm-u219",
+          "t": "Uncanny X-Men",
+          "n": "#219",
+          "w": 1
+        },
+        {
+          "id": "xm-u220",
+          "t": "Uncanny X-Men",
+          "n": "#220",
+          "w": 1
+        },
+        {
+          "id": "xm-u221",
+          "t": "Uncanny X-Men",
+          "n": "#221",
+          "w": 1,
+          "note": "Mister Sinister debuts"
+        },
+        {
+          "id": "xm-u222",
+          "t": "Uncanny X-Men",
+          "n": "#222",
+          "w": 1
+        },
+        {
+          "id": "xm-u223",
+          "t": "Uncanny X-Men",
+          "n": "#223",
+          "w": 1
+        },
+        {
+          "id": "xm-u224",
+          "t": "Uncanny X-Men",
+          "n": "#224",
+          "w": 1
+        },
+        {
+          "id": "xm-u225",
+          "t": "Uncanny X-Men",
+          "n": "#225",
+          "w": 1
+        },
+        {
+          "id": "xm-u226",
+          "t": "Uncanny X-Men",
+          "n": "#226",
+          "w": 1
+        },
+        {
+          "id": "xm-u227",
+          "t": "Uncanny X-Men",
+          "n": "#227",
+          "w": 1
+        },
+        {
+          "id": "xm-fotm",
+          "t": "Fall of the Mutants, the other chapters",
+          "n": "◆",
+          "w": 6,
+          "note": "X-Factor #24–26 and New Mutants #59–61 — parallel stories, no interleave needed",
+          "opt": 1
+        },
+        {
+          "id": "xm-u228",
+          "t": "Uncanny X-Men",
+          "n": "#228",
+          "w": 1
+        },
+        {
+          "id": "xm-u229",
+          "t": "Uncanny X-Men",
+          "n": "#229",
+          "w": 1
+        },
+        {
+          "id": "xm-u230",
+          "t": "Uncanny X-Men",
+          "n": "#230",
+          "w": 1
+        },
+        {
+          "id": "xm-u231",
+          "t": "Uncanny X-Men",
+          "n": "#231",
+          "w": 1
+        },
+        {
+          "id": "xm-u232",
+          "t": "Uncanny X-Men",
+          "n": "#232",
+          "w": 1
+        },
+        {
+          "id": "xm-u233",
+          "t": "Uncanny X-Men",
+          "n": "#233",
+          "w": 1
+        },
+        {
+          "id": "xm-u234",
+          "t": "Uncanny X-Men",
+          "n": "#234",
+          "w": 1
+        },
+        {
+          "id": "xm-u235",
+          "t": "Uncanny X-Men",
+          "n": "#235",
+          "w": 1
+        },
+        {
+          "id": "xm-u236",
+          "t": "Uncanny X-Men",
+          "n": "#236",
+          "w": 1
+        },
+        {
+          "id": "xm-u237",
+          "t": "Uncanny X-Men",
+          "n": "#237",
+          "w": 1
+        },
+        {
+          "id": "xm-u238",
+          "t": "Uncanny X-Men",
+          "n": "#238",
+          "w": 1
+        },
+        {
+          "id": "xm-u239",
+          "t": "Uncanny X-Men",
+          "n": "#239",
+          "w": 1
+        },
+        {
+          "id": "xm-u240",
+          "t": "Uncanny X-Men",
+          "n": "#240",
+          "w": 1
+        },
+        {
+          "id": "xm-u241",
+          "t": "Uncanny X-Men",
+          "n": "#241",
+          "w": 1
+        },
+        {
+          "id": "xm-u242",
+          "t": "Uncanny X-Men",
+          "n": "#242",
+          "w": 1
+        },
+        {
+          "id": "xm-inferno",
+          "t": "Inferno, the other chapters",
+          "n": "◆",
+          "w": 7,
+          "note": "X-Factor #36–39 and New Mutants #71–73, interleaved with Uncanny #240–243",
+          "star": 1
+        },
+        {
+          "id": "xm-u243",
+          "t": "Uncanny X-Men",
+          "n": "#243",
+          "w": 1
+        }
+      ]
+    },
+    {
+      "id": "outback",
+      "title": "The Outback and X-Tinction",
+      "sub": "#244–280 · 1989–91",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        },
+        {
+          "label": "X-Factor",
+          "url": "https://www.marvel.com/comics/series/2098/xfactor_1986_1998"
+        },
+        {
+          "label": "New Mutants",
+          "url": "https://www.marvel.com/comics/series/2055/new_mutants_1983_1991"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-u244",
+          "t": "Uncanny X-Men",
+          "n": "#244",
+          "w": 1,
+          "note": "Jubilee debuts"
+        },
+        {
+          "id": "xm-u245",
+          "t": "Uncanny X-Men",
+          "n": "#245",
+          "w": 1
+        },
+        {
+          "id": "xm-u246",
+          "t": "Uncanny X-Men",
+          "n": "#246",
+          "w": 1
+        },
+        {
+          "id": "xm-u247",
+          "t": "Uncanny X-Men",
+          "n": "#247",
+          "w": 1
+        },
+        {
+          "id": "xm-u248",
+          "t": "Uncanny X-Men",
+          "n": "#248",
+          "w": 1,
+          "note": "Jim Lee's first issue"
+        },
+        {
+          "id": "xm-u249",
+          "t": "Uncanny X-Men",
+          "n": "#249",
+          "w": 1
+        },
+        {
+          "id": "xm-u250",
+          "t": "Uncanny X-Men",
+          "n": "#250",
+          "w": 1
+        },
+        {
+          "id": "xm-u251",
+          "t": "Uncanny X-Men",
+          "n": "#251",
+          "w": 1
+        },
+        {
+          "id": "xm-u252",
+          "t": "Uncanny X-Men",
+          "n": "#252",
+          "w": 1
+        },
+        {
+          "id": "xm-u253",
+          "t": "Uncanny X-Men",
+          "n": "#253",
+          "w": 1
+        },
+        {
+          "id": "xm-u254",
+          "t": "Uncanny X-Men",
+          "n": "#254",
+          "w": 1
+        },
+        {
+          "id": "xm-u255",
+          "t": "Uncanny X-Men",
+          "n": "#255",
+          "w": 1
+        },
+        {
+          "id": "xm-u256",
+          "t": "Uncanny X-Men",
+          "n": "#256",
+          "w": 1
+        },
+        {
+          "id": "xm-u257",
+          "t": "Uncanny X-Men",
+          "n": "#257",
+          "w": 1
+        },
+        {
+          "id": "xm-u258",
+          "t": "Uncanny X-Men",
+          "n": "#258",
+          "w": 1
+        },
+        {
+          "id": "xm-u259",
+          "t": "Uncanny X-Men",
+          "n": "#259",
+          "w": 1
+        },
+        {
+          "id": "xm-u260",
+          "t": "Uncanny X-Men",
+          "n": "#260",
+          "w": 1
+        },
+        {
+          "id": "xm-u261",
+          "t": "Uncanny X-Men",
+          "n": "#261",
+          "w": 1
+        },
+        {
+          "id": "xm-u262",
+          "t": "Uncanny X-Men",
+          "n": "#262",
+          "w": 1
+        },
+        {
+          "id": "xm-u263",
+          "t": "Uncanny X-Men",
+          "n": "#263",
+          "w": 1
+        },
+        {
+          "id": "xm-u264",
+          "t": "Uncanny X-Men",
+          "n": "#264",
+          "w": 1
+        },
+        {
+          "id": "xm-u265",
+          "t": "Uncanny X-Men",
+          "n": "#265",
+          "w": 1
+        },
+        {
+          "id": "xm-u266",
+          "t": "Uncanny X-Men",
+          "n": "#266",
+          "w": 1,
+          "note": "Gambit debuts",
+          "star": 1
+        },
+        {
+          "id": "xm-u267",
+          "t": "Uncanny X-Men",
+          "n": "#267",
+          "w": 1
+        },
+        {
+          "id": "xm-u268",
+          "t": "Uncanny X-Men",
+          "n": "#268",
+          "w": 1
+        },
+        {
+          "id": "xm-u269",
+          "t": "Uncanny X-Men",
+          "n": "#269",
+          "w": 1
+        },
+        {
+          "id": "xm-u270",
+          "t": "Uncanny X-Men",
+          "n": "#270",
+          "w": 1
+        },
+        {
+          "id": "xm-xtinction",
+          "t": "X-Tinction Agenda, the other chapters",
+          "n": "◆",
+          "w": 6,
+          "note": "New Mutants #95–97 and X-Factor #60–62 — the order runs Uncanny, New Mutants, X-Factor each round",
+          "star": 1
+        },
+        {
+          "id": "xm-u271",
+          "t": "Uncanny X-Men",
+          "n": "#271",
+          "w": 1
+        },
+        {
+          "id": "xm-u272",
+          "t": "Uncanny X-Men",
+          "n": "#272",
+          "w": 1
+        },
+        {
+          "id": "xm-u273",
+          "t": "Uncanny X-Men",
+          "n": "#273",
+          "w": 1
+        },
+        {
+          "id": "xm-u274",
+          "t": "Uncanny X-Men",
+          "n": "#274",
+          "w": 1
+        },
+        {
+          "id": "xm-u275",
+          "t": "Uncanny X-Men",
+          "n": "#275",
+          "w": 1
+        },
+        {
+          "id": "xm-u276",
+          "t": "Uncanny X-Men",
+          "n": "#276",
+          "w": 1
+        },
+        {
+          "id": "xm-u277",
+          "t": "Uncanny X-Men",
+          "n": "#277",
+          "w": 1
+        },
+        {
+          "id": "xm-u278",
+          "t": "Uncanny X-Men",
+          "n": "#278",
+          "w": 1
+        },
+        {
+          "id": "xm-u279",
+          "t": "Uncanny X-Men",
+          "n": "#279",
+          "w": 1
+        },
+        {
+          "id": "xm-u280",
+          "t": "Uncanny X-Men",
+          "n": "#280",
+          "w": 1
+        },
+        {
+          "id": "xm-muir",
+          "t": "The Muir Island Saga concludes",
+          "n": "◆",
+          "w": 2,
+          "note": "X-Factor #69–70, straight after Uncanny #280"
+        }
+      ]
+    },
+    {
+      "id": "bluegold",
+      "title": "Blue and Gold",
+      "sub": "1991–95 · Uncanny #281–321 in pairs with X-Men #1–41",
+      "links": [
+        {
+          "label": "Uncanny",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        },
+        {
+          "label": "X-Men (1991)",
+          "url": "https://www.marvel.com/comics/series/2265/xmen_1991_2001"
+        },
+        {
+          "label": "X-Factor",
+          "url": "https://www.marvel.com/comics/series/2098/xfactor_1986_1998"
+        },
+        {
+          "label": "X-Force",
+          "url": "https://www.marvel.com/comics/series/3633/xforce_1991_2002"
+        }
+      ],
+      "intro": "Two flagships from here: Jim Lee's X-Men #1 launches beside Uncanny and the two run in lockstep for a decade. Read in pairs — each month's Uncanny, then its X-Men.",
+      "items": [
+        {
+          "id": "xm-u281",
+          "t": "Uncanny X-Men",
+          "n": "#281",
+          "w": 1,
+          "note": "The new era — Whilce Portacio, and the Gold team",
+          "star": 1
+        },
+        {
+          "id": "xm-x1",
+          "t": "X-Men vol. 2",
+          "n": "#1",
+          "w": 1,
+          "note": "The best-selling comic issue of all time — Claremont and Jim Lee",
+          "star": 2
+        },
+        {
+          "id": "xm-u282",
+          "t": "Uncanny X-Men",
+          "n": "#282",
+          "w": 1
+        },
+        {
+          "id": "xm-x2",
+          "t": "X-Men vol. 2",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-u283",
+          "t": "Uncanny X-Men",
+          "n": "#283",
+          "w": 1
+        },
+        {
+          "id": "xm-x3",
+          "t": "X-Men vol. 2",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-u284",
+          "t": "Uncanny X-Men",
+          "n": "#284",
+          "w": 1
+        },
+        {
+          "id": "xm-x4",
+          "t": "X-Men vol. 2",
+          "n": "#4",
+          "w": 1,
+          "note": "Omega Red debuts"
+        },
+        {
+          "id": "xm-u285",
+          "t": "Uncanny X-Men",
+          "n": "#285",
+          "w": 1
+        },
+        {
+          "id": "xm-x5",
+          "t": "X-Men vol. 2",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-u286",
+          "t": "Uncanny X-Men",
+          "n": "#286",
+          "w": 1
+        },
+        {
+          "id": "xm-x6",
+          "t": "X-Men vol. 2",
+          "n": "#6",
+          "w": 1
+        },
+        {
+          "id": "xm-u287",
+          "t": "Uncanny X-Men",
+          "n": "#287",
+          "w": 1
+        },
+        {
+          "id": "xm-x7",
+          "t": "X-Men vol. 2",
+          "n": "#7",
+          "w": 1
+        },
+        {
+          "id": "xm-u288",
+          "t": "Uncanny X-Men",
+          "n": "#288",
+          "w": 1
+        },
+        {
+          "id": "xm-x8",
+          "t": "X-Men vol. 2",
+          "n": "#8",
+          "w": 1
+        },
+        {
+          "id": "xm-u289",
+          "t": "Uncanny X-Men",
+          "n": "#289",
+          "w": 1
+        },
+        {
+          "id": "xm-x9",
+          "t": "X-Men vol. 2",
+          "n": "#9",
+          "w": 1
+        },
+        {
+          "id": "xm-u290",
+          "t": "Uncanny X-Men",
+          "n": "#290",
+          "w": 1
+        },
+        {
+          "id": "xm-x10",
+          "t": "X-Men vol. 2",
+          "n": "#10",
+          "w": 1
+        },
+        {
+          "id": "xm-u291",
+          "t": "Uncanny X-Men",
+          "n": "#291",
+          "w": 1
+        },
+        {
+          "id": "xm-x11",
+          "t": "X-Men vol. 2",
+          "n": "#11",
+          "w": 1
+        },
+        {
+          "id": "xm-u292",
+          "t": "Uncanny X-Men",
+          "n": "#292",
+          "w": 1
+        },
+        {
+          "id": "xm-x12",
+          "t": "X-Men vol. 2",
+          "n": "#12",
+          "w": 1
+        },
+        {
+          "id": "xm-u293",
+          "t": "Uncanny X-Men",
+          "n": "#293",
+          "w": 1
+        },
+        {
+          "id": "xm-x13",
+          "t": "X-Men vol. 2",
+          "n": "#13",
+          "w": 1
+        },
+        {
+          "id": "xm-u294",
+          "t": "Uncanny X-Men",
+          "n": "#294",
+          "w": 1
+        },
+        {
+          "id": "xm-x14",
+          "t": "X-Men vol. 2",
+          "n": "#14",
+          "w": 1,
+          "note": "X-Cutioner's Song, chapters here"
+        },
+        {
+          "id": "xm-u295",
+          "t": "Uncanny X-Men",
+          "n": "#295",
+          "w": 1
+        },
+        {
+          "id": "xm-x15",
+          "t": "X-Men vol. 2",
+          "n": "#15",
+          "w": 1
+        },
+        {
+          "id": "xm-u296",
+          "t": "Uncanny X-Men",
+          "n": "#296",
+          "w": 1
+        },
+        {
+          "id": "xm-x16",
+          "t": "X-Men vol. 2",
+          "n": "#16",
+          "w": 1
+        },
+        {
+          "id": "xm-xcs",
+          "t": "X-Cutioner's Song, the other chapters",
+          "n": "◆",
+          "w": 6,
+          "note": "X-Factor #84–86 and X-Force #16–18 — twelve parts in all, cycling Uncanny, X-Factor, X-Men, X-Force",
+          "star": 1
+        },
+        {
+          "id": "xm-u297",
+          "t": "Uncanny X-Men",
+          "n": "#297",
+          "w": 1
+        },
+        {
+          "id": "xm-x17",
+          "t": "X-Men vol. 2",
+          "n": "#17",
+          "w": 1
+        },
+        {
+          "id": "xm-u298",
+          "t": "Uncanny X-Men",
+          "n": "#298",
+          "w": 1
+        },
+        {
+          "id": "xm-x18",
+          "t": "X-Men vol. 2",
+          "n": "#18",
+          "w": 1
+        },
+        {
+          "id": "xm-u299",
+          "t": "Uncanny X-Men",
+          "n": "#299",
+          "w": 1
+        },
+        {
+          "id": "xm-x19",
+          "t": "X-Men vol. 2",
+          "n": "#19",
+          "w": 1
+        },
+        {
+          "id": "xm-u300",
+          "t": "Uncanny X-Men",
+          "n": "#300",
+          "w": 1
+        },
+        {
+          "id": "xm-x20",
+          "t": "X-Men vol. 2",
+          "n": "#20",
+          "w": 1
+        },
+        {
+          "id": "xm-u301",
+          "t": "Uncanny X-Men",
+          "n": "#301",
+          "w": 1
+        },
+        {
+          "id": "xm-x21",
+          "t": "X-Men vol. 2",
+          "n": "#21",
+          "w": 1
+        },
+        {
+          "id": "xm-u302",
+          "t": "Uncanny X-Men",
+          "n": "#302",
+          "w": 1
+        },
+        {
+          "id": "xm-x22",
+          "t": "X-Men vol. 2",
+          "n": "#22",
+          "w": 1
+        },
+        {
+          "id": "xm-u303",
+          "t": "Uncanny X-Men",
+          "n": "#303",
+          "w": 1
+        },
+        {
+          "id": "xm-x23",
+          "t": "X-Men vol. 2",
+          "n": "#23",
+          "w": 1
+        },
+        {
+          "id": "xm-u304",
+          "t": "Uncanny X-Men",
+          "n": "#304",
+          "w": 1
+        },
+        {
+          "id": "xm-x24",
+          "t": "X-Men vol. 2",
+          "n": "#24",
+          "w": 1
+        },
+        {
+          "id": "xm-u305",
+          "t": "Uncanny X-Men",
+          "n": "#305",
+          "w": 1
+        },
+        {
+          "id": "xm-x25",
+          "t": "X-Men vol. 2",
+          "n": "#25",
+          "w": 1,
+          "note": "Fatal Attractions — the famous one",
+          "star": 2
+        },
+        {
+          "id": "xm-fatal",
+          "t": "Fatal Attractions, the other chapters",
+          "n": "◆",
+          "w": 4,
+          "note": "X-Factor #92, X-Force #25, Wolverine #75, Excalibur #71 — around Uncanny #304 and X-Men #25",
+          "star": 1
+        },
+        {
+          "id": "xm-u306",
+          "t": "Uncanny X-Men",
+          "n": "#306",
+          "w": 1
+        },
+        {
+          "id": "xm-x26",
+          "t": "X-Men vol. 2",
+          "n": "#26",
+          "w": 1
+        },
+        {
+          "id": "xm-u307",
+          "t": "Uncanny X-Men",
+          "n": "#307",
+          "w": 1
+        },
+        {
+          "id": "xm-x27",
+          "t": "X-Men vol. 2",
+          "n": "#27",
+          "w": 1
+        },
+        {
+          "id": "xm-u308",
+          "t": "Uncanny X-Men",
+          "n": "#308",
+          "w": 1
+        },
+        {
+          "id": "xm-x28",
+          "t": "X-Men vol. 2",
+          "n": "#28",
+          "w": 1
+        },
+        {
+          "id": "xm-u309",
+          "t": "Uncanny X-Men",
+          "n": "#309",
+          "w": 1
+        },
+        {
+          "id": "xm-x29",
+          "t": "X-Men vol. 2",
+          "n": "#29",
+          "w": 1
+        },
+        {
+          "id": "xm-u310",
+          "t": "Uncanny X-Men",
+          "n": "#310",
+          "w": 1
+        },
+        {
+          "id": "xm-x30",
+          "t": "X-Men vol. 2",
+          "n": "#30",
+          "w": 1,
+          "note": "The wedding issue"
+        },
+        {
+          "id": "xm-u311",
+          "t": "Uncanny X-Men",
+          "n": "#311",
+          "w": 1
+        },
+        {
+          "id": "xm-x31",
+          "t": "X-Men vol. 2",
+          "n": "#31",
+          "w": 1
+        },
+        {
+          "id": "xm-u312",
+          "t": "Uncanny X-Men",
+          "n": "#312",
+          "w": 1
+        },
+        {
+          "id": "xm-x32",
+          "t": "X-Men vol. 2",
+          "n": "#32",
+          "w": 1
+        },
+        {
+          "id": "xm-u313",
+          "t": "Uncanny X-Men",
+          "n": "#313",
+          "w": 1
+        },
+        {
+          "id": "xm-x33",
+          "t": "X-Men vol. 2",
+          "n": "#33",
+          "w": 1
+        },
+        {
+          "id": "xm-u314",
+          "t": "Uncanny X-Men",
+          "n": "#314",
+          "w": 1
+        },
+        {
+          "id": "xm-x34",
+          "t": "X-Men vol. 2",
+          "n": "#34",
+          "w": 1
+        },
+        {
+          "id": "xm-u315",
+          "t": "Uncanny X-Men",
+          "n": "#315",
+          "w": 1
+        },
+        {
+          "id": "xm-x35",
+          "t": "X-Men vol. 2",
+          "n": "#35",
+          "w": 1
+        },
+        {
+          "id": "xm-u316",
+          "t": "Uncanny X-Men",
+          "n": "#316",
+          "w": 1
+        },
+        {
+          "id": "xm-x36",
+          "t": "X-Men vol. 2",
+          "n": "#36",
+          "w": 1
+        },
+        {
+          "id": "xm-u317",
+          "t": "Uncanny X-Men",
+          "n": "#317",
+          "w": 1
+        },
+        {
+          "id": "xm-x37",
+          "t": "X-Men vol. 2",
+          "n": "#37",
+          "w": 1
+        },
+        {
+          "id": "xm-u318",
+          "t": "Uncanny X-Men",
+          "n": "#318",
+          "w": 1
+        },
+        {
+          "id": "xm-x38",
+          "t": "X-Men vol. 2",
+          "n": "#38",
+          "w": 1
+        },
+        {
+          "id": "xm-u319",
+          "t": "Uncanny X-Men",
+          "n": "#319",
+          "w": 1
+        },
+        {
+          "id": "xm-x39",
+          "t": "X-Men vol. 2",
+          "n": "#39",
+          "w": 1
+        },
+        {
+          "id": "xm-u320",
+          "t": "Uncanny X-Men",
+          "n": "#320",
+          "w": 1
+        },
+        {
+          "id": "xm-x40",
+          "t": "X-Men vol. 2",
+          "n": "#40",
+          "w": 1
+        },
+        {
+          "id": "xm-u321",
+          "t": "Uncanny X-Men",
+          "n": "#321",
+          "w": 1
+        },
+        {
+          "id": "xm-x41",
+          "t": "X-Men vol. 2",
+          "n": "#41",
+          "w": 1,
+          "note": "Legion Quest concludes; everything stops",
+          "star": 1
+        }
+      ]
+    },
+    {
+      "id": "aoa",
+      "title": "The Age of Apocalypse",
+      "sub": "1995 · four months where every book became something else",
+      "links": [
+        {
+          "label": "X-Men: Alpha",
+          "url": "https://www.marvel.com/comics/series/2104/xmen_alpha_1995"
+        },
+        {
+          "label": "X-Men: Omega",
+          "url": "https://www.marvel.com/comics/series/2101/xmen_omega_1_1995"
+        },
+        {
+          "label": "The Chosen",
+          "url": "https://www.marvel.com/comics/series/3614/age_of_apocalypse_the_chosen_1995"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-aoa-alpha",
+          "t": "X-Men: Alpha",
+          "n": "#1",
+          "w": 1,
+          "note": "The world ends; the event begins",
+          "star": 2
+        },
+        {
+          "id": "xm-aoa-line",
+          "t": "The Age of Apocalypse titles",
+          "n": "◆",
+          "w": 36,
+          "note": "Every X-book replaced for four issues each — Astonishing, Amazing, Weapon X, Generation Next, Factor X, Gambit and the X-Ternals, X-Calibre, X-Man, X-Universe",
+          "star": 1
+        },
+        {
+          "id": "xm-aoa-omega",
+          "t": "X-Men: Omega",
+          "n": "#1",
+          "w": 1,
+          "note": "The event concludes",
+          "star": 2
+        }
+      ]
+    },
+    {
+      "id": "nineties",
+      "title": "Onslaught to Eve of Destruction",
+      "sub": "1995–2001 · Uncanny #322–393 in pairs with X-Men #42–113",
+      "links": [
+        {
+          "label": "Uncanny",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        },
+        {
+          "label": "X-Men (1991)",
+          "url": "https://www.marvel.com/comics/series/2265/xmen_1991_2001"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-u322",
+          "t": "Uncanny X-Men",
+          "n": "#322",
+          "w": 1
+        },
+        {
+          "id": "xm-x42",
+          "t": "X-Men vol. 2",
+          "n": "#42",
+          "w": 1
+        },
+        {
+          "id": "xm-u323",
+          "t": "Uncanny X-Men",
+          "n": "#323",
+          "w": 1
+        },
+        {
+          "id": "xm-x43",
+          "t": "X-Men vol. 2",
+          "n": "#43",
+          "w": 1
+        },
+        {
+          "id": "xm-u324",
+          "t": "Uncanny X-Men",
+          "n": "#324",
+          "w": 1
+        },
+        {
+          "id": "xm-x44",
+          "t": "X-Men vol. 2",
+          "n": "#44",
+          "w": 1
+        },
+        {
+          "id": "xm-u325",
+          "t": "Uncanny X-Men",
+          "n": "#325",
+          "w": 1
+        },
+        {
+          "id": "xm-x45",
+          "t": "X-Men vol. 2",
+          "n": "#45",
+          "w": 1
+        },
+        {
+          "id": "xm-u326",
+          "t": "Uncanny X-Men",
+          "n": "#326",
+          "w": 1
+        },
+        {
+          "id": "xm-x46",
+          "t": "X-Men vol. 2",
+          "n": "#46",
+          "w": 1
+        },
+        {
+          "id": "xm-u327",
+          "t": "Uncanny X-Men",
+          "n": "#327",
+          "w": 1
+        },
+        {
+          "id": "xm-x47",
+          "t": "X-Men vol. 2",
+          "n": "#47",
+          "w": 1
+        },
+        {
+          "id": "xm-u328",
+          "t": "Uncanny X-Men",
+          "n": "#328",
+          "w": 1
+        },
+        {
+          "id": "xm-x48",
+          "t": "X-Men vol. 2",
+          "n": "#48",
+          "w": 1
+        },
+        {
+          "id": "xm-u329",
+          "t": "Uncanny X-Men",
+          "n": "#329",
+          "w": 1
+        },
+        {
+          "id": "xm-x49",
+          "t": "X-Men vol. 2",
+          "n": "#49",
+          "w": 1
+        },
+        {
+          "id": "xm-u330",
+          "t": "Uncanny X-Men",
+          "n": "#330",
+          "w": 1
+        },
+        {
+          "id": "xm-x50",
+          "t": "X-Men vol. 2",
+          "n": "#50",
+          "w": 1,
+          "note": "Genesis revealed"
+        },
+        {
+          "id": "xm-u331",
+          "t": "Uncanny X-Men",
+          "n": "#331",
+          "w": 1
+        },
+        {
+          "id": "xm-x51",
+          "t": "X-Men vol. 2",
+          "n": "#51",
+          "w": 1
+        },
+        {
+          "id": "xm-u332",
+          "t": "Uncanny X-Men",
+          "n": "#332",
+          "w": 1
+        },
+        {
+          "id": "xm-x52",
+          "t": "X-Men vol. 2",
+          "n": "#52",
+          "w": 1
+        },
+        {
+          "id": "xm-u333",
+          "t": "Uncanny X-Men",
+          "n": "#333",
+          "w": 1
+        },
+        {
+          "id": "xm-x53",
+          "t": "X-Men vol. 2",
+          "n": "#53",
+          "w": 1,
+          "note": "Onslaught teased"
+        },
+        {
+          "id": "xm-u334",
+          "t": "Uncanny X-Men",
+          "n": "#334",
+          "w": 1
+        },
+        {
+          "id": "xm-x54",
+          "t": "X-Men vol. 2",
+          "n": "#54",
+          "w": 1
+        },
+        {
+          "id": "xm-u335",
+          "t": "Uncanny X-Men",
+          "n": "#335",
+          "w": 1
+        },
+        {
+          "id": "xm-x55",
+          "t": "X-Men vol. 2",
+          "n": "#55",
+          "w": 1
+        },
+        {
+          "id": "xm-onslaught",
+          "t": "Onslaught, the core chapters",
+          "n": "◆",
+          "w": 3,
+          "note": "Onslaught: X-Men, Onslaught: Marvel Universe, Onslaught: Epilogue — around X-Men #55–56",
+          "star": 1
+        },
+        {
+          "id": "xm-u336",
+          "t": "Uncanny X-Men",
+          "n": "#336",
+          "w": 1
+        },
+        {
+          "id": "xm-x56",
+          "t": "X-Men vol. 2",
+          "n": "#56",
+          "w": 1
+        },
+        {
+          "id": "xm-u337",
+          "t": "Uncanny X-Men",
+          "n": "#337",
+          "w": 1
+        },
+        {
+          "id": "xm-x57",
+          "t": "X-Men vol. 2",
+          "n": "#57",
+          "w": 1
+        },
+        {
+          "id": "xm-u338",
+          "t": "Uncanny X-Men",
+          "n": "#338",
+          "w": 1
+        },
+        {
+          "id": "xm-x58",
+          "t": "X-Men vol. 2",
+          "n": "#58",
+          "w": 1
+        },
+        {
+          "id": "xm-u339",
+          "t": "Uncanny X-Men",
+          "n": "#339",
+          "w": 1
+        },
+        {
+          "id": "xm-x59",
+          "t": "X-Men vol. 2",
+          "n": "#59",
+          "w": 1
+        },
+        {
+          "id": "xm-u340",
+          "t": "Uncanny X-Men",
+          "n": "#340",
+          "w": 1
+        },
+        {
+          "id": "xm-x60",
+          "t": "X-Men vol. 2",
+          "n": "#60",
+          "w": 1
+        },
+        {
+          "id": "xm-u341",
+          "t": "Uncanny X-Men",
+          "n": "#341",
+          "w": 1
+        },
+        {
+          "id": "xm-x61",
+          "t": "X-Men vol. 2",
+          "n": "#61",
+          "w": 1
+        },
+        {
+          "id": "xm-u342",
+          "t": "Uncanny X-Men",
+          "n": "#342",
+          "w": 1
+        },
+        {
+          "id": "xm-x62",
+          "t": "X-Men vol. 2",
+          "n": "#62",
+          "w": 1
+        },
+        {
+          "id": "xm-u343",
+          "t": "Uncanny X-Men",
+          "n": "#343",
+          "w": 1
+        },
+        {
+          "id": "xm-x63",
+          "t": "X-Men vol. 2",
+          "n": "#63",
+          "w": 1
+        },
+        {
+          "id": "xm-u344",
+          "t": "Uncanny X-Men",
+          "n": "#344",
+          "w": 1
+        },
+        {
+          "id": "xm-x64",
+          "t": "X-Men vol. 2",
+          "n": "#64",
+          "w": 1
+        },
+        {
+          "id": "xm-u345",
+          "t": "Uncanny X-Men",
+          "n": "#345",
+          "w": 1
+        },
+        {
+          "id": "xm-x65",
+          "t": "X-Men vol. 2",
+          "n": "#65",
+          "w": 1
+        },
+        {
+          "id": "xm-u346",
+          "t": "Uncanny X-Men",
+          "n": "#346",
+          "w": 1
+        },
+        {
+          "id": "xm-ozt",
+          "t": "Operation: Zero Tolerance, the other chapters",
+          "n": "◆",
+          "w": 8,
+          "note": "X-Force, Generation X, Wolverine and Cable chapters — parallel, dip in as curiosity demands",
+          "opt": 1
+        },
+        {
+          "id": "xm-x66",
+          "t": "X-Men vol. 2",
+          "n": "#66",
+          "w": 1
+        },
+        {
+          "id": "xm-u347",
+          "t": "Uncanny X-Men",
+          "n": "#347",
+          "w": 1
+        },
+        {
+          "id": "xm-x67",
+          "t": "X-Men vol. 2",
+          "n": "#67",
+          "w": 1
+        },
+        {
+          "id": "xm-u348",
+          "t": "Uncanny X-Men",
+          "n": "#348",
+          "w": 1
+        },
+        {
+          "id": "xm-x68",
+          "t": "X-Men vol. 2",
+          "n": "#68",
+          "w": 1
+        },
+        {
+          "id": "xm-u349",
+          "t": "Uncanny X-Men",
+          "n": "#349",
+          "w": 1
+        },
+        {
+          "id": "xm-x69",
+          "t": "X-Men vol. 2",
+          "n": "#69",
+          "w": 1
+        },
+        {
+          "id": "xm-u350",
+          "t": "Uncanny X-Men",
+          "n": "#350",
+          "w": 1,
+          "note": "“Trial of Gambit” — a big one",
+          "star": 1
+        },
+        {
+          "id": "xm-x70",
+          "t": "X-Men vol. 2",
+          "n": "#70",
+          "w": 1
+        },
+        {
+          "id": "xm-u351",
+          "t": "Uncanny X-Men",
+          "n": "#351",
+          "w": 1
+        },
+        {
+          "id": "xm-x71",
+          "t": "X-Men vol. 2",
+          "n": "#71",
+          "w": 1
+        },
+        {
+          "id": "xm-u352",
+          "t": "Uncanny X-Men",
+          "n": "#352",
+          "w": 1
+        },
+        {
+          "id": "xm-x72",
+          "t": "X-Men vol. 2",
+          "n": "#72",
+          "w": 1
+        },
+        {
+          "id": "xm-u353",
+          "t": "Uncanny X-Men",
+          "n": "#353",
+          "w": 1
+        },
+        {
+          "id": "xm-x73",
+          "t": "X-Men vol. 2",
+          "n": "#73",
+          "w": 1
+        },
+        {
+          "id": "xm-u354",
+          "t": "Uncanny X-Men",
+          "n": "#354",
+          "w": 1
+        },
+        {
+          "id": "xm-x74",
+          "t": "X-Men vol. 2",
+          "n": "#74",
+          "w": 1
+        },
+        {
+          "id": "xm-u355",
+          "t": "Uncanny X-Men",
+          "n": "#355",
+          "w": 1
+        },
+        {
+          "id": "xm-x75",
+          "t": "X-Men vol. 2",
+          "n": "#75",
+          "w": 1
+        },
+        {
+          "id": "xm-u356",
+          "t": "Uncanny X-Men",
+          "n": "#356",
+          "w": 1
+        },
+        {
+          "id": "xm-x76",
+          "t": "X-Men vol. 2",
+          "n": "#76",
+          "w": 1
+        },
+        {
+          "id": "xm-u357",
+          "t": "Uncanny X-Men",
+          "n": "#357",
+          "w": 1
+        },
+        {
+          "id": "xm-x77",
+          "t": "X-Men vol. 2",
+          "n": "#77",
+          "w": 1
+        },
+        {
+          "id": "xm-u358",
+          "t": "Uncanny X-Men",
+          "n": "#358",
+          "w": 1
+        },
+        {
+          "id": "xm-x78",
+          "t": "X-Men vol. 2",
+          "n": "#78",
+          "w": 1
+        },
+        {
+          "id": "xm-u359",
+          "t": "Uncanny X-Men",
+          "n": "#359",
+          "w": 1
+        },
+        {
+          "id": "xm-x79",
+          "t": "X-Men vol. 2",
+          "n": "#79",
+          "w": 1
+        },
+        {
+          "id": "xm-u360",
+          "t": "Uncanny X-Men",
+          "n": "#360",
+          "w": 1
+        },
+        {
+          "id": "xm-x80",
+          "t": "X-Men vol. 2",
+          "n": "#80",
+          "w": 1
+        },
+        {
+          "id": "xm-u361",
+          "t": "Uncanny X-Men",
+          "n": "#361",
+          "w": 1
+        },
+        {
+          "id": "xm-x81",
+          "t": "X-Men vol. 2",
+          "n": "#81",
+          "w": 1
+        },
+        {
+          "id": "xm-u362",
+          "t": "Uncanny X-Men",
+          "n": "#362",
+          "w": 1
+        },
+        {
+          "id": "xm-x82",
+          "t": "X-Men vol. 2",
+          "n": "#82",
+          "w": 1
+        },
+        {
+          "id": "xm-u363",
+          "t": "Uncanny X-Men",
+          "n": "#363",
+          "w": 1
+        },
+        {
+          "id": "xm-x83",
+          "t": "X-Men vol. 2",
+          "n": "#83",
+          "w": 1
+        },
+        {
+          "id": "xm-u364",
+          "t": "Uncanny X-Men",
+          "n": "#364",
+          "w": 1
+        },
+        {
+          "id": "xm-x84",
+          "t": "X-Men vol. 2",
+          "n": "#84",
+          "w": 1
+        },
+        {
+          "id": "xm-u365",
+          "t": "Uncanny X-Men",
+          "n": "#365",
+          "w": 1
+        },
+        {
+          "id": "xm-x85",
+          "t": "X-Men vol. 2",
+          "n": "#85",
+          "w": 1
+        },
+        {
+          "id": "xm-u366",
+          "t": "Uncanny X-Men",
+          "n": "#366",
+          "w": 1
+        },
+        {
+          "id": "xm-x86",
+          "t": "X-Men vol. 2",
+          "n": "#86",
+          "w": 1
+        },
+        {
+          "id": "xm-u367",
+          "t": "Uncanny X-Men",
+          "n": "#367",
+          "w": 1
+        },
+        {
+          "id": "xm-x87",
+          "t": "X-Men vol. 2",
+          "n": "#87",
+          "w": 1
+        },
+        {
+          "id": "xm-u368",
+          "t": "Uncanny X-Men",
+          "n": "#368",
+          "w": 1
+        },
+        {
+          "id": "xm-x88",
+          "t": "X-Men vol. 2",
+          "n": "#88",
+          "w": 1
+        },
+        {
+          "id": "xm-u369",
+          "t": "Uncanny X-Men",
+          "n": "#369",
+          "w": 1
+        },
+        {
+          "id": "xm-x89",
+          "t": "X-Men vol. 2",
+          "n": "#89",
+          "w": 1
+        },
+        {
+          "id": "xm-u370",
+          "t": "Uncanny X-Men",
+          "n": "#370",
+          "w": 1
+        },
+        {
+          "id": "xm-x90",
+          "t": "X-Men vol. 2",
+          "n": "#90",
+          "w": 1
+        },
+        {
+          "id": "xm-u371",
+          "t": "Uncanny X-Men",
+          "n": "#371",
+          "w": 1
+        },
+        {
+          "id": "xm-x91",
+          "t": "X-Men vol. 2",
+          "n": "#91",
+          "w": 1
+        },
+        {
+          "id": "xm-u372",
+          "t": "Uncanny X-Men",
+          "n": "#372",
+          "w": 1
+        },
+        {
+          "id": "xm-x92",
+          "t": "X-Men vol. 2",
+          "n": "#92",
+          "w": 1
+        },
+        {
+          "id": "xm-u373",
+          "t": "Uncanny X-Men",
+          "n": "#373",
+          "w": 1
+        },
+        {
+          "id": "xm-x93",
+          "t": "X-Men vol. 2",
+          "n": "#93",
+          "w": 1
+        },
+        {
+          "id": "xm-u374",
+          "t": "Uncanny X-Men",
+          "n": "#374",
+          "w": 1
+        },
+        {
+          "id": "xm-x94",
+          "t": "X-Men vol. 2",
+          "n": "#94",
+          "w": 1
+        },
+        {
+          "id": "xm-u375",
+          "t": "Uncanny X-Men",
+          "n": "#375",
+          "w": 1
+        },
+        {
+          "id": "xm-x95",
+          "t": "X-Men vol. 2",
+          "n": "#95",
+          "w": 1
+        },
+        {
+          "id": "xm-u376",
+          "t": "Uncanny X-Men",
+          "n": "#376",
+          "w": 1
+        },
+        {
+          "id": "xm-x96",
+          "t": "X-Men vol. 2",
+          "n": "#96",
+          "w": 1
+        },
+        {
+          "id": "xm-u377",
+          "t": "Uncanny X-Men",
+          "n": "#377",
+          "w": 1
+        },
+        {
+          "id": "xm-x97",
+          "t": "X-Men vol. 2",
+          "n": "#97",
+          "w": 1
+        },
+        {
+          "id": "xm-u378",
+          "t": "Uncanny X-Men",
+          "n": "#378",
+          "w": 1
+        },
+        {
+          "id": "xm-x98",
+          "t": "X-Men vol. 2",
+          "n": "#98",
+          "w": 1
+        },
+        {
+          "id": "xm-u379",
+          "t": "Uncanny X-Men",
+          "n": "#379",
+          "w": 1
+        },
+        {
+          "id": "xm-x99",
+          "t": "X-Men vol. 2",
+          "n": "#99",
+          "w": 1
+        },
+        {
+          "id": "xm-u380",
+          "t": "Uncanny X-Men",
+          "n": "#380",
+          "w": 1
+        },
+        {
+          "id": "xm-x100",
+          "t": "X-Men vol. 2",
+          "n": "#100",
+          "w": 1
+        },
+        {
+          "id": "xm-u381",
+          "t": "Uncanny X-Men",
+          "n": "#381",
+          "w": 1
+        },
+        {
+          "id": "xm-x101",
+          "t": "X-Men vol. 2",
+          "n": "#101",
+          "w": 1
+        },
+        {
+          "id": "xm-u382",
+          "t": "Uncanny X-Men",
+          "n": "#382",
+          "w": 1
+        },
+        {
+          "id": "xm-x102",
+          "t": "X-Men vol. 2",
+          "n": "#102",
+          "w": 1
+        },
+        {
+          "id": "xm-u383",
+          "t": "Uncanny X-Men",
+          "n": "#383",
+          "w": 1
+        },
+        {
+          "id": "xm-x103",
+          "t": "X-Men vol. 2",
+          "n": "#103",
+          "w": 1
+        },
+        {
+          "id": "xm-u384",
+          "t": "Uncanny X-Men",
+          "n": "#384",
+          "w": 1
+        },
+        {
+          "id": "xm-x104",
+          "t": "X-Men vol. 2",
+          "n": "#104",
+          "w": 1
+        },
+        {
+          "id": "xm-u385",
+          "t": "Uncanny X-Men",
+          "n": "#385",
+          "w": 1
+        },
+        {
+          "id": "xm-x105",
+          "t": "X-Men vol. 2",
+          "n": "#105",
+          "w": 1
+        },
+        {
+          "id": "xm-u386",
+          "t": "Uncanny X-Men",
+          "n": "#386",
+          "w": 1
+        },
+        {
+          "id": "xm-x106",
+          "t": "X-Men vol. 2",
+          "n": "#106",
+          "w": 1
+        },
+        {
+          "id": "xm-u387",
+          "t": "Uncanny X-Men",
+          "n": "#387",
+          "w": 1
+        },
+        {
+          "id": "xm-x107",
+          "t": "X-Men vol. 2",
+          "n": "#107",
+          "w": 1
+        },
+        {
+          "id": "xm-u388",
+          "t": "Uncanny X-Men",
+          "n": "#388",
+          "w": 1
+        },
+        {
+          "id": "xm-x108",
+          "t": "X-Men vol. 2",
+          "n": "#108",
+          "w": 1
+        },
+        {
+          "id": "xm-u389",
+          "t": "Uncanny X-Men",
+          "n": "#389",
+          "w": 1
+        },
+        {
+          "id": "xm-x109",
+          "t": "X-Men vol. 2",
+          "n": "#109",
+          "w": 1
+        },
+        {
+          "id": "xm-u390",
+          "t": "Uncanny X-Men",
+          "n": "#390",
+          "w": 1,
+          "note": "“The Cure”"
+        },
+        {
+          "id": "xm-x110",
+          "t": "X-Men vol. 2",
+          "n": "#110",
+          "w": 1
+        },
+        {
+          "id": "xm-u391",
+          "t": "Uncanny X-Men",
+          "n": "#391",
+          "w": 1
+        },
+        {
+          "id": "xm-x111",
+          "t": "X-Men vol. 2",
+          "n": "#111",
+          "w": 1
+        },
+        {
+          "id": "xm-u392",
+          "t": "Uncanny X-Men",
+          "n": "#392",
+          "w": 1
+        },
+        {
+          "id": "xm-x112",
+          "t": "X-Men vol. 2",
+          "n": "#112",
+          "w": 1
+        },
+        {
+          "id": "xm-u393",
+          "t": "Uncanny X-Men",
+          "n": "#393",
+          "w": 1,
+          "note": "Eve of Destruction ends the volume's long march"
+        },
+        {
+          "id": "xm-x113",
+          "t": "X-Men vol. 2",
+          "n": "#113",
+          "w": 1
+        }
+      ]
+    },
+    {
+      "id": "morrison",
+      "title": "Morrison's New X-Men",
+      "sub": "#114–156 · 2001–04 · read it straight",
+      "links": [
+        {
+          "label": "New X-Men",
+          "url": "https://www.marvel.com/comics/series/2281/new_xmen_2001_2004"
+        }
+      ],
+      "intro": "The same series, renamed. Morrison runs #114–154 as one long novel and it reads best with nothing interleaved; #155–156 close the volume out.",
+      "items": [
+        {
+          "id": "xm-x114",
+          "t": "New X-Men",
+          "n": "#114",
+          "w": 1,
+          "note": "Morrison begins — “E Is for Extinction”",
+          "star": 2
+        },
+        {
+          "id": "xm-x115",
+          "t": "New X-Men",
+          "n": "#115",
+          "w": 1,
+          "note": "Cassandra Nova"
+        },
+        {
+          "id": "xm-x116",
+          "t": "New X-Men",
+          "n": "#116",
+          "w": 1
+        },
+        {
+          "id": "xm-x117",
+          "t": "New X-Men",
+          "n": "#117",
+          "w": 1
+        },
+        {
+          "id": "xm-x118",
+          "t": "New X-Men",
+          "n": "#118",
+          "w": 1
+        },
+        {
+          "id": "xm-x119",
+          "t": "New X-Men",
+          "n": "#119",
+          "w": 1
+        },
+        {
+          "id": "xm-x120",
+          "t": "New X-Men",
+          "n": "#120",
+          "w": 1
+        },
+        {
+          "id": "xm-x121",
+          "t": "New X-Men",
+          "n": "#121",
+          "w": 1
+        },
+        {
+          "id": "xm-x122",
+          "t": "New X-Men",
+          "n": "#122",
+          "w": 1
+        },
+        {
+          "id": "xm-x123",
+          "t": "New X-Men",
+          "n": "#123",
+          "w": 1
+        },
+        {
+          "id": "xm-x124",
+          "t": "New X-Men",
+          "n": "#124",
+          "w": 1
+        },
+        {
+          "id": "xm-x125",
+          "t": "New X-Men",
+          "n": "#125",
+          "w": 1
+        },
+        {
+          "id": "xm-x126",
+          "t": "New X-Men",
+          "n": "#126",
+          "w": 1
+        },
+        {
+          "id": "xm-x127",
+          "t": "New X-Men",
+          "n": "#127",
+          "w": 1
+        },
+        {
+          "id": "xm-x128",
+          "t": "New X-Men",
+          "n": "#128",
+          "w": 1
+        },
+        {
+          "id": "xm-x129",
+          "t": "New X-Men",
+          "n": "#129",
+          "w": 1
+        },
+        {
+          "id": "xm-x130",
+          "t": "New X-Men",
+          "n": "#130",
+          "w": 1
+        },
+        {
+          "id": "xm-x131",
+          "t": "New X-Men",
+          "n": "#131",
+          "w": 1
+        },
+        {
+          "id": "xm-x132",
+          "t": "New X-Men",
+          "n": "#132",
+          "w": 1,
+          "note": "“Ambient magnetic fields” — the quiet one"
+        },
+        {
+          "id": "xm-x133",
+          "t": "New X-Men",
+          "n": "#133",
+          "w": 1
+        },
+        {
+          "id": "xm-x134",
+          "t": "New X-Men",
+          "n": "#134",
+          "w": 1
+        },
+        {
+          "id": "xm-x135",
+          "t": "New X-Men",
+          "n": "#135",
+          "w": 1
+        },
+        {
+          "id": "xm-x136",
+          "t": "New X-Men",
+          "n": "#136",
+          "w": 1
+        },
+        {
+          "id": "xm-x137",
+          "t": "New X-Men",
+          "n": "#137",
+          "w": 1
+        },
+        {
+          "id": "xm-x138",
+          "t": "New X-Men",
+          "n": "#138",
+          "w": 1
+        },
+        {
+          "id": "xm-x139",
+          "t": "New X-Men",
+          "n": "#139",
+          "w": 1
+        },
+        {
+          "id": "xm-x140",
+          "t": "New X-Men",
+          "n": "#140",
+          "w": 1
+        },
+        {
+          "id": "xm-x141",
+          "t": "New X-Men",
+          "n": "#141",
+          "w": 1,
+          "note": "“Planet X” begins"
+        },
+        {
+          "id": "xm-x142",
+          "t": "New X-Men",
+          "n": "#142",
+          "w": 1
+        },
+        {
+          "id": "xm-x143",
+          "t": "New X-Men",
+          "n": "#143",
+          "w": 1
+        },
+        {
+          "id": "xm-x144",
+          "t": "New X-Men",
+          "n": "#144",
+          "w": 1
+        },
+        {
+          "id": "xm-x145",
+          "t": "New X-Men",
+          "n": "#145",
+          "w": 1
+        },
+        {
+          "id": "xm-x146",
+          "t": "New X-Men",
+          "n": "#146",
+          "w": 1
+        },
+        {
+          "id": "xm-x147",
+          "t": "New X-Men",
+          "n": "#147",
+          "w": 1
+        },
+        {
+          "id": "xm-x148",
+          "t": "New X-Men",
+          "n": "#148",
+          "w": 1
+        },
+        {
+          "id": "xm-x149",
+          "t": "New X-Men",
+          "n": "#149",
+          "w": 1
+        },
+        {
+          "id": "xm-x150",
+          "t": "New X-Men",
+          "n": "#150",
+          "w": 1,
+          "note": "Planet X concludes",
+          "star": 1
+        },
+        {
+          "id": "xm-x151",
+          "t": "New X-Men",
+          "n": "#151",
+          "w": 1
+        },
+        {
+          "id": "xm-x152",
+          "t": "New X-Men",
+          "n": "#152",
+          "w": 1
+        },
+        {
+          "id": "xm-x153",
+          "t": "New X-Men",
+          "n": "#153",
+          "w": 1
+        },
+        {
+          "id": "xm-x154",
+          "t": "New X-Men",
+          "n": "#154",
+          "w": 1,
+          "note": "Morrison's last — “Here Comes Tomorrow” ends",
+          "star": 2
+        },
+        {
+          "id": "xm-x155",
+          "t": "New X-Men",
+          "n": "#155",
+          "w": 1
+        },
+        {
+          "id": "xm-x156",
+          "t": "New X-Men",
+          "n": "#156",
+          "w": 1
+        }
+      ]
+    },
+    {
+      "id": "meanwhile",
+      "title": "Uncanny in the meantime",
+      "sub": "#394–443 · 2001–04 · runs alongside Morrison, largely separate",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        }
+      ],
+      "intro": "Casey then Austen. If you abridge anywhere in the whole list, abridge here.",
+      "items": [
+        {
+          "id": "xm-u394",
+          "t": "Uncanny X-Men",
+          "n": "#394",
+          "w": 1
+        },
+        {
+          "id": "xm-u395",
+          "t": "Uncanny X-Men",
+          "n": "#395",
+          "w": 1
+        },
+        {
+          "id": "xm-u396",
+          "t": "Uncanny X-Men",
+          "n": "#396",
+          "w": 1
+        },
+        {
+          "id": "xm-u397",
+          "t": "Uncanny X-Men",
+          "n": "#397",
+          "w": 1
+        },
+        {
+          "id": "xm-u398",
+          "t": "Uncanny X-Men",
+          "n": "#398",
+          "w": 1
+        },
+        {
+          "id": "xm-u399",
+          "t": "Uncanny X-Men",
+          "n": "#399",
+          "w": 1
+        },
+        {
+          "id": "xm-u400",
+          "t": "Uncanny X-Men",
+          "n": "#400",
+          "w": 1
+        },
+        {
+          "id": "xm-u401",
+          "t": "Uncanny X-Men",
+          "n": "#401",
+          "w": 1
+        },
+        {
+          "id": "xm-u402",
+          "t": "Uncanny X-Men",
+          "n": "#402",
+          "w": 1
+        },
+        {
+          "id": "xm-u403",
+          "t": "Uncanny X-Men",
+          "n": "#403",
+          "w": 1
+        },
+        {
+          "id": "xm-u404",
+          "t": "Uncanny X-Men",
+          "n": "#404",
+          "w": 1
+        },
+        {
+          "id": "xm-u405",
+          "t": "Uncanny X-Men",
+          "n": "#405",
+          "w": 1
+        },
+        {
+          "id": "xm-u406",
+          "t": "Uncanny X-Men",
+          "n": "#406",
+          "w": 1
+        },
+        {
+          "id": "xm-u407",
+          "t": "Uncanny X-Men",
+          "n": "#407",
+          "w": 1
+        },
+        {
+          "id": "xm-u408",
+          "t": "Uncanny X-Men",
+          "n": "#408",
+          "w": 1
+        },
+        {
+          "id": "xm-u409",
+          "t": "Uncanny X-Men",
+          "n": "#409",
+          "w": 1
+        },
+        {
+          "id": "xm-u410",
+          "t": "Uncanny X-Men",
+          "n": "#410",
+          "w": 1
+        },
+        {
+          "id": "xm-u411",
+          "t": "Uncanny X-Men",
+          "n": "#411",
+          "w": 1
+        },
+        {
+          "id": "xm-u412",
+          "t": "Uncanny X-Men",
+          "n": "#412",
+          "w": 1
+        },
+        {
+          "id": "xm-u413",
+          "t": "Uncanny X-Men",
+          "n": "#413",
+          "w": 1
+        },
+        {
+          "id": "xm-u414",
+          "t": "Uncanny X-Men",
+          "n": "#414",
+          "w": 1
+        },
+        {
+          "id": "xm-u415",
+          "t": "Uncanny X-Men",
+          "n": "#415",
+          "w": 1
+        },
+        {
+          "id": "xm-u416",
+          "t": "Uncanny X-Men",
+          "n": "#416",
+          "w": 1
+        },
+        {
+          "id": "xm-u417",
+          "t": "Uncanny X-Men",
+          "n": "#417",
+          "w": 1
+        },
+        {
+          "id": "xm-u418",
+          "t": "Uncanny X-Men",
+          "n": "#418",
+          "w": 1
+        },
+        {
+          "id": "xm-u419",
+          "t": "Uncanny X-Men",
+          "n": "#419",
+          "w": 1
+        },
+        {
+          "id": "xm-u420",
+          "t": "Uncanny X-Men",
+          "n": "#420",
+          "w": 1
+        },
+        {
+          "id": "xm-u421",
+          "t": "Uncanny X-Men",
+          "n": "#421",
+          "w": 1
+        },
+        {
+          "id": "xm-u422",
+          "t": "Uncanny X-Men",
+          "n": "#422",
+          "w": 1
+        },
+        {
+          "id": "xm-u423",
+          "t": "Uncanny X-Men",
+          "n": "#423",
+          "w": 1
+        },
+        {
+          "id": "xm-u424",
+          "t": "Uncanny X-Men",
+          "n": "#424",
+          "w": 1
+        },
+        {
+          "id": "xm-u425",
+          "t": "Uncanny X-Men",
+          "n": "#425",
+          "w": 1
+        },
+        {
+          "id": "xm-u426",
+          "t": "Uncanny X-Men",
+          "n": "#426",
+          "w": 1
+        },
+        {
+          "id": "xm-u427",
+          "t": "Uncanny X-Men",
+          "n": "#427",
+          "w": 1
+        },
+        {
+          "id": "xm-u428",
+          "t": "Uncanny X-Men",
+          "n": "#428",
+          "w": 1
+        },
+        {
+          "id": "xm-u429",
+          "t": "Uncanny X-Men",
+          "n": "#429",
+          "w": 1
+        },
+        {
+          "id": "xm-u430",
+          "t": "Uncanny X-Men",
+          "n": "#430",
+          "w": 1
+        },
+        {
+          "id": "xm-u431",
+          "t": "Uncanny X-Men",
+          "n": "#431",
+          "w": 1
+        },
+        {
+          "id": "xm-u432",
+          "t": "Uncanny X-Men",
+          "n": "#432",
+          "w": 1
+        },
+        {
+          "id": "xm-u433",
+          "t": "Uncanny X-Men",
+          "n": "#433",
+          "w": 1
+        },
+        {
+          "id": "xm-u434",
+          "t": "Uncanny X-Men",
+          "n": "#434",
+          "w": 1
+        },
+        {
+          "id": "xm-u435",
+          "t": "Uncanny X-Men",
+          "n": "#435",
+          "w": 1
+        },
+        {
+          "id": "xm-u436",
+          "t": "Uncanny X-Men",
+          "n": "#436",
+          "w": 1
+        },
+        {
+          "id": "xm-u437",
+          "t": "Uncanny X-Men",
+          "n": "#437",
+          "w": 1
+        },
+        {
+          "id": "xm-u438",
+          "t": "Uncanny X-Men",
+          "n": "#438",
+          "w": 1
+        },
+        {
+          "id": "xm-u439",
+          "t": "Uncanny X-Men",
+          "n": "#439",
+          "w": 1
+        },
+        {
+          "id": "xm-u440",
+          "t": "Uncanny X-Men",
+          "n": "#440",
+          "w": 1
+        },
+        {
+          "id": "xm-u441",
+          "t": "Uncanny X-Men",
+          "n": "#441",
+          "w": 1
+        },
+        {
+          "id": "xm-u442",
+          "t": "Uncanny X-Men",
+          "n": "#442",
+          "w": 1
+        },
+        {
+          "id": "xm-u443",
+          "t": "Uncanny X-Men",
+          "n": "#443",
+          "w": 1
+        }
+      ]
+    },
+    {
+      "id": "astonishing",
+      "title": "Whedon's Astonishing X-Men",
+      "sub": "#1–24 · 2004–08 · plus the Giant-Size finale",
+      "links": [
+        {
+          "label": "Astonishing",
+          "url": "https://www.marvel.com/comics/series/744/astonishing_xmen_2004_2013"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-ast1",
+          "t": "Astonishing X-Men",
+          "n": "#1",
+          "w": 1,
+          "note": "“Gifted” begins — Whedon and Cassaday",
+          "star": 2
+        },
+        {
+          "id": "xm-ast2",
+          "t": "Astonishing X-Men",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-ast3",
+          "t": "Astonishing X-Men",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-ast4",
+          "t": "Astonishing X-Men",
+          "n": "#4",
+          "w": 1
+        },
+        {
+          "id": "xm-ast5",
+          "t": "Astonishing X-Men",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-ast6",
+          "t": "Astonishing X-Men",
+          "n": "#6",
+          "w": 1
+        },
+        {
+          "id": "xm-ast7",
+          "t": "Astonishing X-Men",
+          "n": "#7",
+          "w": 1
+        },
+        {
+          "id": "xm-ast8",
+          "t": "Astonishing X-Men",
+          "n": "#8",
+          "w": 1
+        },
+        {
+          "id": "xm-ast9",
+          "t": "Astonishing X-Men",
+          "n": "#9",
+          "w": 1
+        },
+        {
+          "id": "xm-ast10",
+          "t": "Astonishing X-Men",
+          "n": "#10",
+          "w": 1
+        },
+        {
+          "id": "xm-ast11",
+          "t": "Astonishing X-Men",
+          "n": "#11",
+          "w": 1
+        },
+        {
+          "id": "xm-ast12",
+          "t": "Astonishing X-Men",
+          "n": "#12",
+          "w": 1
+        },
+        {
+          "id": "xm-ast13",
+          "t": "Astonishing X-Men",
+          "n": "#13",
+          "w": 1
+        },
+        {
+          "id": "xm-ast14",
+          "t": "Astonishing X-Men",
+          "n": "#14",
+          "w": 1
+        },
+        {
+          "id": "xm-ast15",
+          "t": "Astonishing X-Men",
+          "n": "#15",
+          "w": 1
+        },
+        {
+          "id": "xm-ast16",
+          "t": "Astonishing X-Men",
+          "n": "#16",
+          "w": 1
+        },
+        {
+          "id": "xm-ast17",
+          "t": "Astonishing X-Men",
+          "n": "#17",
+          "w": 1
+        },
+        {
+          "id": "xm-ast18",
+          "t": "Astonishing X-Men",
+          "n": "#18",
+          "w": 1
+        },
+        {
+          "id": "xm-ast19",
+          "t": "Astonishing X-Men",
+          "n": "#19",
+          "w": 1
+        },
+        {
+          "id": "xm-ast20",
+          "t": "Astonishing X-Men",
+          "n": "#20",
+          "w": 1
+        },
+        {
+          "id": "xm-ast21",
+          "t": "Astonishing X-Men",
+          "n": "#21",
+          "w": 1
+        },
+        {
+          "id": "xm-ast22",
+          "t": "Astonishing X-Men",
+          "n": "#22",
+          "w": 1
+        },
+        {
+          "id": "xm-ast23",
+          "t": "Astonishing X-Men",
+          "n": "#23",
+          "w": 1
+        },
+        {
+          "id": "xm-ast24",
+          "t": "Astonishing X-Men",
+          "n": "#24",
+          "w": 1
+        },
+        {
+          "id": "xm-gsax",
+          "t": "Giant-Size Astonishing X-Men",
+          "n": "#1",
+          "w": 1,
+          "note": "The run's finale",
+          "star": 1
+        }
+      ]
+    },
+    {
+      "id": "reload",
+      "title": "Reload to Messiah Complex",
+      "sub": "2004–08 · Uncanny #444–494 in pairs with X-Men #157–207",
+      "links": [
+        {
+          "label": "Uncanny",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        },
+        {
+          "label": "X-Men vol. 2",
+          "url": "https://www.marvel.com/comics/series/403/xmen_2004_2008"
+        },
+        {
+          "label": "House of M",
+          "url": "https://www.marvel.com/comics/series/855/house_of_m_2005"
+        },
+        {
+          "label": "Deadly Genesis",
+          "url": "https://www.marvel.com/comics/series/345/xmen_deadly_genesis_2005_2006"
+        },
+        {
+          "label": "Messiah Complex",
+          "url": "https://www.marvel.com/comics/series/2901/xmen_messiah_complex_2007_2008"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-u444",
+          "t": "Uncanny X-Men",
+          "n": "#444",
+          "w": 1
+        },
+        {
+          "id": "xm-x157",
+          "t": "X-Men vol. 2",
+          "n": "#157",
+          "w": 1,
+          "note": "Austen's Reload — the title is X-Men again"
+        },
+        {
+          "id": "xm-u445",
+          "t": "Uncanny X-Men",
+          "n": "#445",
+          "w": 1
+        },
+        {
+          "id": "xm-x158",
+          "t": "X-Men vol. 2",
+          "n": "#158",
+          "w": 1
+        },
+        {
+          "id": "xm-u446",
+          "t": "Uncanny X-Men",
+          "n": "#446",
+          "w": 1
+        },
+        {
+          "id": "xm-x159",
+          "t": "X-Men vol. 2",
+          "n": "#159",
+          "w": 1
+        },
+        {
+          "id": "xm-u447",
+          "t": "Uncanny X-Men",
+          "n": "#447",
+          "w": 1
+        },
+        {
+          "id": "xm-x160",
+          "t": "X-Men vol. 2",
+          "n": "#160",
+          "w": 1
+        },
+        {
+          "id": "xm-u448",
+          "t": "Uncanny X-Men",
+          "n": "#448",
+          "w": 1
+        },
+        {
+          "id": "xm-x161",
+          "t": "X-Men vol. 2",
+          "n": "#161",
+          "w": 1
+        },
+        {
+          "id": "xm-u449",
+          "t": "Uncanny X-Men",
+          "n": "#449",
+          "w": 1
+        },
+        {
+          "id": "xm-x162",
+          "t": "X-Men vol. 2",
+          "n": "#162",
+          "w": 1
+        },
+        {
+          "id": "xm-u450",
+          "t": "Uncanny X-Men",
+          "n": "#450",
+          "w": 1
+        },
+        {
+          "id": "xm-x163",
+          "t": "X-Men vol. 2",
+          "n": "#163",
+          "w": 1
+        },
+        {
+          "id": "xm-u451",
+          "t": "Uncanny X-Men",
+          "n": "#451",
+          "w": 1
+        },
+        {
+          "id": "xm-x164",
+          "t": "X-Men vol. 2",
+          "n": "#164",
+          "w": 1
+        },
+        {
+          "id": "xm-u452",
+          "t": "Uncanny X-Men",
+          "n": "#452",
+          "w": 1
+        },
+        {
+          "id": "xm-x165",
+          "t": "X-Men vol. 2",
+          "n": "#165",
+          "w": 1
+        },
+        {
+          "id": "xm-u453",
+          "t": "Uncanny X-Men",
+          "n": "#453",
+          "w": 1
+        },
+        {
+          "id": "xm-x166",
+          "t": "X-Men vol. 2",
+          "n": "#166",
+          "w": 1,
+          "note": "Milligan begins"
+        },
+        {
+          "id": "xm-u454",
+          "t": "Uncanny X-Men",
+          "n": "#454",
+          "w": 1
+        },
+        {
+          "id": "xm-x167",
+          "t": "X-Men vol. 2",
+          "n": "#167",
+          "w": 1
+        },
+        {
+          "id": "xm-u455",
+          "t": "Uncanny X-Men",
+          "n": "#455",
+          "w": 1
+        },
+        {
+          "id": "xm-x168",
+          "t": "X-Men vol. 2",
+          "n": "#168",
+          "w": 1
+        },
+        {
+          "id": "xm-u456",
+          "t": "Uncanny X-Men",
+          "n": "#456",
+          "w": 1
+        },
+        {
+          "id": "xm-x169",
+          "t": "X-Men vol. 2",
+          "n": "#169",
+          "w": 1
+        },
+        {
+          "id": "xm-u457",
+          "t": "Uncanny X-Men",
+          "n": "#457",
+          "w": 1
+        },
+        {
+          "id": "xm-x170",
+          "t": "X-Men vol. 2",
+          "n": "#170",
+          "w": 1
+        },
+        {
+          "id": "xm-u458",
+          "t": "Uncanny X-Men",
+          "n": "#458",
+          "w": 1
+        },
+        {
+          "id": "xm-x171",
+          "t": "X-Men vol. 2",
+          "n": "#171",
+          "w": 1
+        },
+        {
+          "id": "xm-u459",
+          "t": "Uncanny X-Men",
+          "n": "#459",
+          "w": 1
+        },
+        {
+          "id": "xm-x172",
+          "t": "X-Men vol. 2",
+          "n": "#172",
+          "w": 1
+        },
+        {
+          "id": "xm-u460",
+          "t": "Uncanny X-Men",
+          "n": "#460",
+          "w": 1
+        },
+        {
+          "id": "xm-x173",
+          "t": "X-Men vol. 2",
+          "n": "#173",
+          "w": 1
+        },
+        {
+          "id": "xm-u461",
+          "t": "Uncanny X-Men",
+          "n": "#461",
+          "w": 1
+        },
+        {
+          "id": "xm-x174",
+          "t": "X-Men vol. 2",
+          "n": "#174",
+          "w": 1
+        },
+        {
+          "id": "xm-hom",
+          "t": "House of M",
+          "n": "#1–8",
+          "w": 8,
+          "note": "The 2005 event — the line pivots on it",
+          "star": 2
+        },
+        {
+          "id": "xm-u462",
+          "t": "Uncanny X-Men",
+          "n": "#462",
+          "w": 1
+        },
+        {
+          "id": "xm-x175",
+          "t": "X-Men vol. 2",
+          "n": "#175",
+          "w": 1
+        },
+        {
+          "id": "xm-u463",
+          "t": "Uncanny X-Men",
+          "n": "#463",
+          "w": 1
+        },
+        {
+          "id": "xm-x176",
+          "t": "X-Men vol. 2",
+          "n": "#176",
+          "w": 1
+        },
+        {
+          "id": "xm-u464",
+          "t": "Uncanny X-Men",
+          "n": "#464",
+          "w": 1
+        },
+        {
+          "id": "xm-x177",
+          "t": "X-Men vol. 2",
+          "n": "#177",
+          "w": 1
+        },
+        {
+          "id": "xm-u465",
+          "t": "Uncanny X-Men",
+          "n": "#465",
+          "w": 1
+        },
+        {
+          "id": "xm-x178",
+          "t": "X-Men vol. 2",
+          "n": "#178",
+          "w": 1
+        },
+        {
+          "id": "xm-u466",
+          "t": "Uncanny X-Men",
+          "n": "#466",
+          "w": 1
+        },
+        {
+          "id": "xm-x179",
+          "t": "X-Men vol. 2",
+          "n": "#179",
+          "w": 1
+        },
+        {
+          "id": "xm-u467",
+          "t": "Uncanny X-Men",
+          "n": "#467",
+          "w": 1
+        },
+        {
+          "id": "xm-x180",
+          "t": "X-Men vol. 2",
+          "n": "#180",
+          "w": 1
+        },
+        {
+          "id": "xm-u468",
+          "t": "Uncanny X-Men",
+          "n": "#468",
+          "w": 1
+        },
+        {
+          "id": "xm-x181",
+          "t": "X-Men vol. 2",
+          "n": "#181",
+          "w": 1
+        },
+        {
+          "id": "xm-u469",
+          "t": "Uncanny X-Men",
+          "n": "#469",
+          "w": 1
+        },
+        {
+          "id": "xm-x182",
+          "t": "X-Men vol. 2",
+          "n": "#182",
+          "w": 1
+        },
+        {
+          "id": "xm-u470",
+          "t": "Uncanny X-Men",
+          "n": "#470",
+          "w": 1
+        },
+        {
+          "id": "xm-x183",
+          "t": "X-Men vol. 2",
+          "n": "#183",
+          "w": 1
+        },
+        {
+          "id": "xm-u471",
+          "t": "Uncanny X-Men",
+          "n": "#471",
+          "w": 1
+        },
+        {
+          "id": "xm-x184",
+          "t": "X-Men vol. 2",
+          "n": "#184",
+          "w": 1
+        },
+        {
+          "id": "xm-u472",
+          "t": "Uncanny X-Men",
+          "n": "#472",
+          "w": 1
+        },
+        {
+          "id": "xm-x185",
+          "t": "X-Men vol. 2",
+          "n": "#185",
+          "w": 1
+        },
+        {
+          "id": "xm-u473",
+          "t": "Uncanny X-Men",
+          "n": "#473",
+          "w": 1
+        },
+        {
+          "id": "xm-x186",
+          "t": "X-Men vol. 2",
+          "n": "#186",
+          "w": 1
+        },
+        {
+          "id": "xm-u474",
+          "t": "Uncanny X-Men",
+          "n": "#474",
+          "w": 1
+        },
+        {
+          "id": "xm-genesis",
+          "t": "X-Men: Deadly Genesis",
+          "n": "#1–6",
+          "w": 6,
+          "note": "Leads straight into Uncanny #475",
+          "star": 1
+        },
+        {
+          "id": "xm-x187",
+          "t": "X-Men vol. 2",
+          "n": "#187",
+          "w": 1
+        },
+        {
+          "id": "xm-u475",
+          "t": "Uncanny X-Men",
+          "n": "#475",
+          "w": 1
+        },
+        {
+          "id": "xm-x188",
+          "t": "X-Men vol. 2",
+          "n": "#188",
+          "w": 1,
+          "note": "Carey begins — “Supernovas”",
+          "star": 1
+        },
+        {
+          "id": "xm-u476",
+          "t": "Uncanny X-Men",
+          "n": "#476",
+          "w": 1
+        },
+        {
+          "id": "xm-x189",
+          "t": "X-Men vol. 2",
+          "n": "#189",
+          "w": 1
+        },
+        {
+          "id": "xm-u477",
+          "t": "Uncanny X-Men",
+          "n": "#477",
+          "w": 1
+        },
+        {
+          "id": "xm-x190",
+          "t": "X-Men vol. 2",
+          "n": "#190",
+          "w": 1
+        },
+        {
+          "id": "xm-u478",
+          "t": "Uncanny X-Men",
+          "n": "#478",
+          "w": 1
+        },
+        {
+          "id": "xm-x191",
+          "t": "X-Men vol. 2",
+          "n": "#191",
+          "w": 1
+        },
+        {
+          "id": "xm-u479",
+          "t": "Uncanny X-Men",
+          "n": "#479",
+          "w": 1
+        },
+        {
+          "id": "xm-x192",
+          "t": "X-Men vol. 2",
+          "n": "#192",
+          "w": 1
+        },
+        {
+          "id": "xm-u480",
+          "t": "Uncanny X-Men",
+          "n": "#480",
+          "w": 1
+        },
+        {
+          "id": "xm-x193",
+          "t": "X-Men vol. 2",
+          "n": "#193",
+          "w": 1
+        },
+        {
+          "id": "xm-u481",
+          "t": "Uncanny X-Men",
+          "n": "#481",
+          "w": 1
+        },
+        {
+          "id": "xm-x194",
+          "t": "X-Men vol. 2",
+          "n": "#194",
+          "w": 1
+        },
+        {
+          "id": "xm-u482",
+          "t": "Uncanny X-Men",
+          "n": "#482",
+          "w": 1
+        },
+        {
+          "id": "xm-x195",
+          "t": "X-Men vol. 2",
+          "n": "#195",
+          "w": 1
+        },
+        {
+          "id": "xm-u483",
+          "t": "Uncanny X-Men",
+          "n": "#483",
+          "w": 1
+        },
+        {
+          "id": "xm-x196",
+          "t": "X-Men vol. 2",
+          "n": "#196",
+          "w": 1
+        },
+        {
+          "id": "xm-u484",
+          "t": "Uncanny X-Men",
+          "n": "#484",
+          "w": 1
+        },
+        {
+          "id": "xm-x197",
+          "t": "X-Men vol. 2",
+          "n": "#197",
+          "w": 1
+        },
+        {
+          "id": "xm-u485",
+          "t": "Uncanny X-Men",
+          "n": "#485",
+          "w": 1
+        },
+        {
+          "id": "xm-x198",
+          "t": "X-Men vol. 2",
+          "n": "#198",
+          "w": 1
+        },
+        {
+          "id": "xm-u486",
+          "t": "Uncanny X-Men",
+          "n": "#486",
+          "w": 1
+        },
+        {
+          "id": "xm-x199",
+          "t": "X-Men vol. 2",
+          "n": "#199",
+          "w": 1
+        },
+        {
+          "id": "xm-u487",
+          "t": "Uncanny X-Men",
+          "n": "#487",
+          "w": 1
+        },
+        {
+          "id": "xm-x200",
+          "t": "X-Men vol. 2",
+          "n": "#200",
+          "w": 1
+        },
+        {
+          "id": "xm-u488",
+          "t": "Uncanny X-Men",
+          "n": "#488",
+          "w": 1
+        },
+        {
+          "id": "xm-x201",
+          "t": "X-Men vol. 2",
+          "n": "#201",
+          "w": 1
+        },
+        {
+          "id": "xm-u489",
+          "t": "Uncanny X-Men",
+          "n": "#489",
+          "w": 1
+        },
+        {
+          "id": "xm-x202",
+          "t": "X-Men vol. 2",
+          "n": "#202",
+          "w": 1
+        },
+        {
+          "id": "xm-u490",
+          "t": "Uncanny X-Men",
+          "n": "#490",
+          "w": 1
+        },
+        {
+          "id": "xm-x203",
+          "t": "X-Men vol. 2",
+          "n": "#203",
+          "w": 1
+        },
+        {
+          "id": "xm-u491",
+          "t": "Uncanny X-Men",
+          "n": "#491",
+          "w": 1
+        },
+        {
+          "id": "xm-mc",
+          "t": "Messiah Complex, the other chapters",
+          "n": "◆",
+          "w": 8,
+          "note": "The one-shot, New X-Men #44–46 and X-Factor #25–27, interleaved with Uncanny #492–494 and X-Men #205–207",
+          "star": 2
+        },
+        {
+          "id": "xm-x204",
+          "t": "X-Men vol. 2",
+          "n": "#204",
+          "w": 1
+        },
+        {
+          "id": "xm-u492",
+          "t": "Uncanny X-Men",
+          "n": "#492",
+          "w": 1
+        },
+        {
+          "id": "xm-x205",
+          "t": "X-Men vol. 2",
+          "n": "#205",
+          "w": 1,
+          "note": "Messiah Complex, chapters here"
+        },
+        {
+          "id": "xm-u493",
+          "t": "Uncanny X-Men",
+          "n": "#493",
+          "w": 1
+        },
+        {
+          "id": "xm-x206",
+          "t": "X-Men vol. 2",
+          "n": "#206",
+          "w": 1
+        },
+        {
+          "id": "xm-u494",
+          "t": "Uncanny X-Men",
+          "n": "#494",
+          "w": 1
+        },
+        {
+          "id": "xm-x207",
+          "t": "X-Men vol. 2",
+          "n": "#207",
+          "w": 1
+        },
+        {
+          "id": "xm-u495",
+          "t": "Uncanny X-Men",
+          "n": "#495",
+          "w": 1
+        },
+        {
+          "id": "xm-u496",
+          "t": "Uncanny X-Men",
+          "n": "#496",
+          "w": 1
+        },
+        {
+          "id": "xm-u497",
+          "t": "Uncanny X-Men",
+          "n": "#497",
+          "w": 1
+        },
+        {
+          "id": "xm-u498",
+          "t": "Uncanny X-Men",
+          "n": "#498",
+          "w": 1
+        },
+        {
+          "id": "xm-u499",
+          "t": "Uncanny X-Men",
+          "n": "#499",
+          "w": 1
+        }
+      ]
+    },
+    {
+      "id": "utopia",
+      "title": "San Francisco to Schism",
+      "sub": "2008–11 · Uncanny #500–544 in pairs with Legacy #208–275",
+      "links": [
+        {
+          "label": "Uncanny",
+          "url": "https://www.marvel.com/comics/series/2258/xmen_1963_2011"
+        },
+        {
+          "label": "X-Men: Legacy",
+          "url": "https://www.marvel.com/comics/series/3754/xmen_legacy_2008_2012"
+        },
+        {
+          "label": "Second Coming",
+          "url": "https://www.marvel.com/comics/series/9359/xmen_second_coming_2010"
+        },
+        {
+          "label": "Schism",
+          "url": "https://www.marvel.com/comics/series/13880/xmen_schism_2011"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-u500",
+          "t": "Uncanny X-Men",
+          "n": "#500",
+          "w": 1,
+          "note": "Fraction and Brubaker take it to San Francisco",
+          "star": 1
+        },
+        {
+          "id": "xm-x208",
+          "t": "X-Men: Legacy",
+          "n": "#208",
+          "w": 1,
+          "note": "The title becomes X-Men: Legacy — Professor X's book",
+          "star": 1
+        },
+        {
+          "id": "xm-u501",
+          "t": "Uncanny X-Men",
+          "n": "#501",
+          "w": 1
+        },
+        {
+          "id": "xm-x209",
+          "t": "X-Men: Legacy",
+          "n": "#209",
+          "w": 1
+        },
+        {
+          "id": "xm-u502",
+          "t": "Uncanny X-Men",
+          "n": "#502",
+          "w": 1
+        },
+        {
+          "id": "xm-x210",
+          "t": "X-Men: Legacy",
+          "n": "#210",
+          "w": 1
+        },
+        {
+          "id": "xm-u503",
+          "t": "Uncanny X-Men",
+          "n": "#503",
+          "w": 1
+        },
+        {
+          "id": "xm-x211",
+          "t": "X-Men: Legacy",
+          "n": "#211",
+          "w": 1
+        },
+        {
+          "id": "xm-u504",
+          "t": "Uncanny X-Men",
+          "n": "#504",
+          "w": 1
+        },
+        {
+          "id": "xm-x212",
+          "t": "X-Men: Legacy",
+          "n": "#212",
+          "w": 1
+        },
+        {
+          "id": "xm-u505",
+          "t": "Uncanny X-Men",
+          "n": "#505",
+          "w": 1
+        },
+        {
+          "id": "xm-x213",
+          "t": "X-Men: Legacy",
+          "n": "#213",
+          "w": 1
+        },
+        {
+          "id": "xm-u506",
+          "t": "Uncanny X-Men",
+          "n": "#506",
+          "w": 1
+        },
+        {
+          "id": "xm-x214",
+          "t": "X-Men: Legacy",
+          "n": "#214",
+          "w": 1
+        },
+        {
+          "id": "xm-u507",
+          "t": "Uncanny X-Men",
+          "n": "#507",
+          "w": 1
+        },
+        {
+          "id": "xm-x215",
+          "t": "X-Men: Legacy",
+          "n": "#215",
+          "w": 1
+        },
+        {
+          "id": "xm-u508",
+          "t": "Uncanny X-Men",
+          "n": "#508",
+          "w": 1
+        },
+        {
+          "id": "xm-x216",
+          "t": "X-Men: Legacy",
+          "n": "#216",
+          "w": 1
+        },
+        {
+          "id": "xm-u509",
+          "t": "Uncanny X-Men",
+          "n": "#509",
+          "w": 1
+        },
+        {
+          "id": "xm-x217",
+          "t": "X-Men: Legacy",
+          "n": "#217",
+          "w": 1
+        },
+        {
+          "id": "xm-u510",
+          "t": "Uncanny X-Men",
+          "n": "#510",
+          "w": 1,
+          "note": "Greg Land, Sisterhood"
+        },
+        {
+          "id": "xm-x218",
+          "t": "X-Men: Legacy",
+          "n": "#218",
+          "w": 1
+        },
+        {
+          "id": "xm-u511",
+          "t": "Uncanny X-Men",
+          "n": "#511",
+          "w": 1
+        },
+        {
+          "id": "xm-x219",
+          "t": "X-Men: Legacy",
+          "n": "#219",
+          "w": 1
+        },
+        {
+          "id": "xm-u512",
+          "t": "Uncanny X-Men",
+          "n": "#512",
+          "w": 1
+        },
+        {
+          "id": "xm-x220",
+          "t": "X-Men: Legacy",
+          "n": "#220",
+          "w": 1
+        },
+        {
+          "id": "xm-u513",
+          "t": "Uncanny X-Men",
+          "n": "#513",
+          "w": 1
+        },
+        {
+          "id": "xm-utopia-x",
+          "t": "Utopia, the crossover chapters",
+          "n": "◆",
+          "w": 4,
+          "note": "Dark Avengers/Uncanny X-Men: Utopia and Exodus, around Uncanny #513–514",
+          "opt": 1
+        },
+        {
+          "id": "xm-x221",
+          "t": "X-Men: Legacy",
+          "n": "#221",
+          "w": 1
+        },
+        {
+          "id": "xm-u514",
+          "t": "Uncanny X-Men",
+          "n": "#514",
+          "w": 1
+        },
+        {
+          "id": "xm-x222",
+          "t": "X-Men: Legacy",
+          "n": "#222",
+          "w": 1
+        },
+        {
+          "id": "xm-u515",
+          "t": "Uncanny X-Men",
+          "n": "#515",
+          "w": 1
+        },
+        {
+          "id": "xm-x223",
+          "t": "X-Men: Legacy",
+          "n": "#223",
+          "w": 1
+        },
+        {
+          "id": "xm-u516",
+          "t": "Uncanny X-Men",
+          "n": "#516",
+          "w": 1
+        },
+        {
+          "id": "xm-x224",
+          "t": "X-Men: Legacy",
+          "n": "#224",
+          "w": 1
+        },
+        {
+          "id": "xm-u517",
+          "t": "Uncanny X-Men",
+          "n": "#517",
+          "w": 1
+        },
+        {
+          "id": "xm-x225",
+          "t": "X-Men: Legacy",
+          "n": "#225",
+          "w": 1
+        },
+        {
+          "id": "xm-u518",
+          "t": "Uncanny X-Men",
+          "n": "#518",
+          "w": 1
+        },
+        {
+          "id": "xm-x226",
+          "t": "X-Men: Legacy",
+          "n": "#226",
+          "w": 1
+        },
+        {
+          "id": "xm-u519",
+          "t": "Uncanny X-Men",
+          "n": "#519",
+          "w": 1
+        },
+        {
+          "id": "xm-x227",
+          "t": "X-Men: Legacy",
+          "n": "#227",
+          "w": 1
+        },
+        {
+          "id": "xm-u520",
+          "t": "Uncanny X-Men",
+          "n": "#520",
+          "w": 1
+        },
+        {
+          "id": "xm-x228",
+          "t": "X-Men: Legacy",
+          "n": "#228",
+          "w": 1
+        },
+        {
+          "id": "xm-u521",
+          "t": "Uncanny X-Men",
+          "n": "#521",
+          "w": 1
+        },
+        {
+          "id": "xm-x229",
+          "t": "X-Men: Legacy",
+          "n": "#229",
+          "w": 1
+        },
+        {
+          "id": "xm-u522",
+          "t": "Uncanny X-Men",
+          "n": "#522",
+          "w": 1,
+          "note": "A long-awaited return"
+        },
+        {
+          "id": "xm-x230",
+          "t": "X-Men: Legacy",
+          "n": "#230",
+          "w": 1
+        },
+        {
+          "id": "xm-u523",
+          "t": "Uncanny X-Men",
+          "n": "#523",
+          "w": 1
+        },
+        {
+          "id": "xm-x231",
+          "t": "X-Men: Legacy",
+          "n": "#231",
+          "w": 1
+        },
+        {
+          "id": "xm-u524",
+          "t": "Uncanny X-Men",
+          "n": "#524",
+          "w": 1
+        },
+        {
+          "id": "xm-x232",
+          "t": "X-Men: Legacy",
+          "n": "#232",
+          "w": 1
+        },
+        {
+          "id": "xm-u525",
+          "t": "Uncanny X-Men",
+          "n": "#525",
+          "w": 1
+        },
+        {
+          "id": "xm-second",
+          "t": "Second Coming, the other chapters",
+          "n": "◆",
+          "w": 10,
+          "note": "The one-shots and the X-Force, New Mutants and X-Men chapters, interleaved with Uncanny #523–525 and Legacy #235–237",
+          "star": 2
+        },
+        {
+          "id": "xm-x233",
+          "t": "X-Men: Legacy",
+          "n": "#233",
+          "w": 1
+        },
+        {
+          "id": "xm-u526",
+          "t": "Uncanny X-Men",
+          "n": "#526",
+          "w": 1
+        },
+        {
+          "id": "xm-x234",
+          "t": "X-Men: Legacy",
+          "n": "#234",
+          "w": 1
+        },
+        {
+          "id": "xm-u527",
+          "t": "Uncanny X-Men",
+          "n": "#527",
+          "w": 1
+        },
+        {
+          "id": "xm-x235",
+          "t": "X-Men: Legacy",
+          "n": "#235",
+          "w": 1,
+          "note": "Second Coming, chapters here"
+        },
+        {
+          "id": "xm-u528",
+          "t": "Uncanny X-Men",
+          "n": "#528",
+          "w": 1
+        },
+        {
+          "id": "xm-x236",
+          "t": "X-Men: Legacy",
+          "n": "#236",
+          "w": 1
+        },
+        {
+          "id": "xm-u529",
+          "t": "Uncanny X-Men",
+          "n": "#529",
+          "w": 1
+        },
+        {
+          "id": "xm-x237",
+          "t": "X-Men: Legacy",
+          "n": "#237",
+          "w": 1
+        },
+        {
+          "id": "xm-u530",
+          "t": "Uncanny X-Men",
+          "n": "#530",
+          "w": 1
+        },
+        {
+          "id": "xm-x238",
+          "t": "X-Men: Legacy",
+          "n": "#238",
+          "w": 1
+        },
+        {
+          "id": "xm-u531",
+          "t": "Uncanny X-Men",
+          "n": "#531",
+          "w": 1
+        },
+        {
+          "id": "xm-x239",
+          "t": "X-Men: Legacy",
+          "n": "#239",
+          "w": 1
+        },
+        {
+          "id": "xm-u532",
+          "t": "Uncanny X-Men",
+          "n": "#532",
+          "w": 1
+        },
+        {
+          "id": "xm-x240",
+          "t": "X-Men: Legacy",
+          "n": "#240",
+          "w": 1
+        },
+        {
+          "id": "xm-u533",
+          "t": "Uncanny X-Men",
+          "n": "#533",
+          "w": 1
+        },
+        {
+          "id": "xm-x241",
+          "t": "X-Men: Legacy",
+          "n": "#241",
+          "w": 1
+        },
+        {
+          "id": "xm-u534",
+          "t": "Uncanny X-Men",
+          "n": "#534",
+          "w": 1
+        },
+        {
+          "id": "xm-x242",
+          "t": "X-Men: Legacy",
+          "n": "#242",
+          "w": 1
+        },
+        {
+          "id": "xm-u535",
+          "t": "Uncanny X-Men",
+          "n": "#535",
+          "w": 1
+        },
+        {
+          "id": "xm-x243",
+          "t": "X-Men: Legacy",
+          "n": "#243",
+          "w": 1
+        },
+        {
+          "id": "xm-u536",
+          "t": "Uncanny X-Men",
+          "n": "#536",
+          "w": 1
+        },
+        {
+          "id": "xm-x244",
+          "t": "X-Men: Legacy",
+          "n": "#244",
+          "w": 1
+        },
+        {
+          "id": "xm-u537",
+          "t": "Uncanny X-Men",
+          "n": "#537",
+          "w": 1
+        },
+        {
+          "id": "xm-x245",
+          "t": "X-Men: Legacy",
+          "n": "#245",
+          "w": 1
+        },
+        {
+          "id": "xm-u538",
+          "t": "Uncanny X-Men",
+          "n": "#538",
+          "w": 1
+        },
+        {
+          "id": "xm-x246",
+          "t": "X-Men: Legacy",
+          "n": "#246",
+          "w": 1
+        },
+        {
+          "id": "xm-u539",
+          "t": "Uncanny X-Men",
+          "n": "#539",
+          "w": 1
+        },
+        {
+          "id": "xm-x247",
+          "t": "X-Men: Legacy",
+          "n": "#247",
+          "w": 1
+        },
+        {
+          "id": "xm-u540",
+          "t": "Uncanny X-Men",
+          "n": "#540",
+          "w": 1
+        },
+        {
+          "id": "xm-x248",
+          "t": "X-Men: Legacy",
+          "n": "#248",
+          "w": 1
+        },
+        {
+          "id": "xm-u541",
+          "t": "Uncanny X-Men",
+          "n": "#541",
+          "w": 1
+        },
+        {
+          "id": "xm-x249",
+          "t": "X-Men: Legacy",
+          "n": "#249",
+          "w": 1
+        },
+        {
+          "id": "xm-u542",
+          "t": "Uncanny X-Men",
+          "n": "#542",
+          "w": 1
+        },
+        {
+          "id": "xm-x250",
+          "t": "X-Men: Legacy",
+          "n": "#250",
+          "w": 1
+        },
+        {
+          "id": "xm-u543",
+          "t": "Uncanny X-Men",
+          "n": "#543",
+          "w": 1
+        },
+        {
+          "id": "xm-x251",
+          "t": "X-Men: Legacy",
+          "n": "#251",
+          "w": 1
+        },
+        {
+          "id": "xm-schism1",
+          "t": "X-Men: Schism",
+          "n": "#1",
+          "w": 1,
+          "note": "The split that defines the next decade",
+          "star": 1
+        },
+        {
+          "id": "xm-schism2",
+          "t": "X-Men: Schism",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-schism3",
+          "t": "X-Men: Schism",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-schism4",
+          "t": "X-Men: Schism",
+          "n": "#4",
+          "w": 1
+        },
+        {
+          "id": "xm-schism5",
+          "t": "X-Men: Schism",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-u544",
+          "t": "Uncanny X-Men",
+          "n": "#544",
+          "w": 1,
+          "note": "The final issue of the 1963 series",
+          "star": 1
+        },
+        {
+          "id": "xm-x252",
+          "t": "X-Men: Legacy",
+          "n": "#252",
+          "w": 1
+        },
+        {
+          "id": "xm-x253",
+          "t": "X-Men: Legacy",
+          "n": "#253",
+          "w": 1
+        },
+        {
+          "id": "xm-x254",
+          "t": "X-Men: Legacy",
+          "n": "#254",
+          "w": 1
+        },
+        {
+          "id": "xm-x255",
+          "t": "X-Men: Legacy",
+          "n": "#255",
+          "w": 1
+        },
+        {
+          "id": "xm-x256",
+          "t": "X-Men: Legacy",
+          "n": "#256",
+          "w": 1
+        },
+        {
+          "id": "xm-x257",
+          "t": "X-Men: Legacy",
+          "n": "#257",
+          "w": 1
+        },
+        {
+          "id": "xm-x258",
+          "t": "X-Men: Legacy",
+          "n": "#258",
+          "w": 1
+        },
+        {
+          "id": "xm-x259",
+          "t": "X-Men: Legacy",
+          "n": "#259",
+          "w": 1
+        },
+        {
+          "id": "xm-x260",
+          "t": "X-Men: Legacy",
+          "n": "#260",
+          "w": 1
+        },
+        {
+          "id": "xm-x261",
+          "t": "X-Men: Legacy",
+          "n": "#261",
+          "w": 1
+        },
+        {
+          "id": "xm-x262",
+          "t": "X-Men: Legacy",
+          "n": "#262",
+          "w": 1
+        },
+        {
+          "id": "xm-x263",
+          "t": "X-Men: Legacy",
+          "n": "#263",
+          "w": 1
+        },
+        {
+          "id": "xm-x264",
+          "t": "X-Men: Legacy",
+          "n": "#264",
+          "w": 1
+        },
+        {
+          "id": "xm-x265",
+          "t": "X-Men: Legacy",
+          "n": "#265",
+          "w": 1
+        },
+        {
+          "id": "xm-x266",
+          "t": "X-Men: Legacy",
+          "n": "#266",
+          "w": 1
+        },
+        {
+          "id": "xm-x267",
+          "t": "X-Men: Legacy",
+          "n": "#267",
+          "w": 1
+        },
+        {
+          "id": "xm-x268",
+          "t": "X-Men: Legacy",
+          "n": "#268",
+          "w": 1
+        },
+        {
+          "id": "xm-x269",
+          "t": "X-Men: Legacy",
+          "n": "#269",
+          "w": 1
+        },
+        {
+          "id": "xm-x270",
+          "t": "X-Men: Legacy",
+          "n": "#270",
+          "w": 1
+        },
+        {
+          "id": "xm-x271",
+          "t": "X-Men: Legacy",
+          "n": "#271",
+          "w": 1
+        },
+        {
+          "id": "xm-x272",
+          "t": "X-Men: Legacy",
+          "n": "#272",
+          "w": 1
+        },
+        {
+          "id": "xm-x273",
+          "t": "X-Men: Legacy",
+          "n": "#273",
+          "w": 1
+        },
+        {
+          "id": "xm-x274",
+          "t": "X-Men: Legacy",
+          "n": "#274",
+          "w": 1
+        },
+        {
+          "id": "xm-x275",
+          "t": "X-Men: Legacy",
+          "n": "#275",
+          "w": 1
+        }
+      ]
+    },
+    {
+      "id": "wilderness",
+      "title": "The wilderness years",
+      "sub": "2011–19 · one row per run — the line fragments",
+      "links": [
+        {
+          "label": "Uncanny (2011)",
+          "url": "https://www.marvel.com/comics/series/14914/uncanny_xmen_2011_2012"
+        },
+        {
+          "label": "Wolverine & the X-Men",
+          "url": "https://www.marvel.com/comics/series/13910/wolverine_and_the_xmen_2011_2014"
+        },
+        {
+          "label": "AvX",
+          "url": "https://www.marvel.com/comics/series/15305/avengers_vs_xmen_2012"
+        },
+        {
+          "label": "All-New X-Men",
+          "url": "https://www.marvel.com/comics/series/16449/allnew_xmen_2012_2015"
+        },
+        {
+          "label": "Uncanny (2013)",
+          "url": "https://www.marvel.com/comics/series/17602/uncanny_xmen_2013_2015"
+        },
+        {
+          "label": "X-Men (2013)",
+          "url": "https://www.marvel.com/comics/series/17635/xmen_2013_2015"
+        },
+        {
+          "label": "Extraordinary",
+          "url": "https://www.marvel.com/comics/series/20460/extraordinary_xmen_2015_2017"
+        },
+        {
+          "label": "Gold",
+          "url": "https://www.marvel.com/comics/series/23016/xmen_gold_2017_2018"
+        },
+        {
+          "label": "Blue",
+          "url": "https://www.marvel.com/comics/series/23018/xmen_blue_2017_2018"
+        },
+        {
+          "label": "Uncanny (2018)",
+          "url": "https://www.marvel.com/comics/series/26038/uncanny_xmen_2018_2019"
+        }
+      ],
+      "intro": "After Schism the line splits into a dozen books and no one reads it straight through, so this era is one row per run rather than per issue. Say the word and any of these gets the per-issue treatment.",
+      "items": [
+        {
+          "id": "xm-w-unc2011",
+          "t": "Uncanny X-Men (2011)",
+          "n": "#1–20",
+          "w": 20,
+          "note": "Gillen — Cyclops's Utopia side"
+        },
+        {
+          "id": "xm-w-watx",
+          "t": "Wolverine & the X-Men",
+          "n": "#1–42",
+          "w": 42,
+          "note": "Aaron — the school side, and the era's best book"
+        },
+        {
+          "id": "xm-w-avx",
+          "t": "Avengers vs. X-Men",
+          "n": "#0–12",
+          "w": 13,
+          "note": "The 2012 event the era bends around"
+        },
+        {
+          "id": "xm-w-anxm",
+          "t": "All-New X-Men",
+          "n": "#1–41",
+          "w": 41,
+          "note": "Bendis begins — the original five, displaced"
+        },
+        {
+          "id": "xm-w-unc2013",
+          "t": "Uncanny X-Men (2013)",
+          "n": "#1–35",
+          "w": 35,
+          "note": "Bendis — the revolution side",
+          "opt": 1
+        },
+        {
+          "id": "xm-w-bota",
+          "t": "Battle of the Atom",
+          "n": "#1–2",
+          "w": 2,
+          "note": "Bookends of the 2013 crossover; the chapters run through the Bendis books",
+          "opt": 1
+        },
+        {
+          "id": "xm-w-x2013",
+          "t": "X-Men (2013)",
+          "n": "#1–26",
+          "w": 26,
+          "note": "Brian Wood's team book",
+          "opt": 1
+        },
+        {
+          "id": "xm-w-extra",
+          "t": "Extraordinary X-Men",
+          "n": "#1–20",
+          "w": 20,
+          "note": "Lemire, after Secret Wars",
+          "opt": 1
+        },
+        {
+          "id": "xm-w-anxm2",
+          "t": "All-New X-Men (2015)",
+          "n": "#1–19",
+          "w": 19,
+          "opt": 1
+        },
+        {
+          "id": "xm-w-unc2016",
+          "t": "Uncanny X-Men (2016)",
+          "n": "#1–19",
+          "w": 19,
+          "opt": 1
+        },
+        {
+          "id": "xm-w-gold",
+          "t": "X-Men Gold",
+          "n": "#1–36",
+          "w": 36,
+          "note": "ResurrXion, the Kitty side",
+          "opt": 1
+        },
+        {
+          "id": "xm-w-blue",
+          "t": "X-Men Blue",
+          "n": "#1–36",
+          "w": 36,
+          "note": "ResurrXion, the original five",
+          "opt": 1
+        },
+        {
+          "id": "xm-w-ast17",
+          "t": "Astonishing X-Men (2017)",
+          "n": "#1–17",
+          "w": 17,
+          "opt": 1
+        },
+        {
+          "id": "xm-w-unc2018",
+          "t": "Uncanny X-Men (2018)",
+          "n": "#1–22",
+          "w": 22,
+          "note": "Disassembled, then the road to the ending"
+        },
+        {
+          "id": "xm-w-red18",
+          "t": "X-Men Red (2018)",
+          "n": "#1–11",
+          "w": 11,
+          "note": "Taylor's Jean book",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "krakoa",
+      "title": "Krakoa",
+      "sub": "2019–24 · House of X to the fall",
+      "links": [
+        {
+          "label": "House of X",
+          "url": "https://www.marvel.com/comics/series/26338/house_of_x_2019"
+        },
+        {
+          "label": "Powers of X",
+          "url": "https://www.marvel.com/comics/series/26340/powers_of_x_2019_2020"
+        },
+        {
+          "label": "X-Men (2019)",
+          "url": "https://www.marvel.com/comics/series/27567/xmen_2019_2021"
+        },
+        {
+          "label": "Inferno",
+          "url": "https://www.marvel.com/comics/series/32954/inferno_2021_2022"
+        },
+        {
+          "label": "X-Men (2021)",
+          "url": "https://www.marvel.com/comics/series/31324/xmen_2021_2024"
+        },
+        {
+          "label": "Immortal X-Men",
+          "url": "https://www.marvel.com/comics/series/31375/immortal_xmen_2022_2023"
+        },
+        {
+          "label": "Fall of the House of X",
+          "url": "https://www.marvel.com/comics/series/38458/fall_of_the_house_of_x_2024"
+        },
+        {
+          "label": "Rise of the Powers of X",
+          "url": "https://www.marvel.com/comics/series/38472/rise_of_the_powers_of_x_2024"
+        }
+      ],
+      "intro": "Hickman resets everything in twelve issues, read in the published interleave. The spine after that is X-Men, Inferno, Immortal, and the two closing minis; the wider line is optional rows at the end.",
+      "items": [
+        {
+          "id": "xm-hoxpox1",
+          "t": "House of X",
+          "n": "#1",
+          "w": 1,
+          "note": "Read in this order — the two series interleave",
+          "star": 2
+        },
+        {
+          "id": "xm-hoxpox2",
+          "t": "Powers of X",
+          "n": "#1",
+          "w": 1
+        },
+        {
+          "id": "xm-hoxpox3",
+          "t": "Powers of X",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-hoxpox4",
+          "t": "House of X",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-hoxpox5",
+          "t": "House of X",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-hoxpox6",
+          "t": "Powers of X",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-hoxpox7",
+          "t": "House of X",
+          "n": "#4",
+          "w": 1
+        },
+        {
+          "id": "xm-hoxpox8",
+          "t": "Powers of X",
+          "n": "#4",
+          "w": 1
+        },
+        {
+          "id": "xm-hoxpox9",
+          "t": "House of X",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-hoxpox10",
+          "t": "Powers of X",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-hoxpox11",
+          "t": "House of X",
+          "n": "#6",
+          "w": 1
+        },
+        {
+          "id": "xm-hoxpox12",
+          "t": "Powers of X",
+          "n": "#6",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-1",
+          "t": "X-Men (2019)",
+          "n": "#1",
+          "w": 1,
+          "note": "Hickman's flagship",
+          "star": 1
+        },
+        {
+          "id": "xm-x19-2",
+          "t": "X-Men (2019)",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-3",
+          "t": "X-Men (2019)",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-4",
+          "t": "X-Men (2019)",
+          "n": "#4",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-5",
+          "t": "X-Men (2019)",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-6",
+          "t": "X-Men (2019)",
+          "n": "#6",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-7",
+          "t": "X-Men (2019)",
+          "n": "#7",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-8",
+          "t": "X-Men (2019)",
+          "n": "#8",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-9",
+          "t": "X-Men (2019)",
+          "n": "#9",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-10",
+          "t": "X-Men (2019)",
+          "n": "#10",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-11",
+          "t": "X-Men (2019)",
+          "n": "#11",
+          "w": 1
+        },
+        {
+          "id": "xm-xos",
+          "t": "X of Swords",
+          "n": "◆",
+          "w": 18,
+          "note": "Creation, the chapters across the line, Destruction — 22 parts; X-Men #12–15 fall inside it",
+          "star": 1
+        },
+        {
+          "id": "xm-x19-12",
+          "t": "X-Men (2019)",
+          "n": "#12",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-13",
+          "t": "X-Men (2019)",
+          "n": "#13",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-14",
+          "t": "X-Men (2019)",
+          "n": "#14",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-15",
+          "t": "X-Men (2019)",
+          "n": "#15",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-16",
+          "t": "X-Men (2019)",
+          "n": "#16",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-17",
+          "t": "X-Men (2019)",
+          "n": "#17",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-18",
+          "t": "X-Men (2019)",
+          "n": "#18",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-19",
+          "t": "X-Men (2019)",
+          "n": "#19",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-20",
+          "t": "X-Men (2019)",
+          "n": "#20",
+          "w": 1
+        },
+        {
+          "id": "xm-x19-21",
+          "t": "X-Men (2019)",
+          "n": "#21",
+          "w": 1
+        },
+        {
+          "id": "xm-hg21",
+          "t": "The Hellfire Gala, first night",
+          "n": "◆",
+          "w": 1,
+          "note": "Planet-Size X-Men #1 is the one that matters",
+          "star": 1
+        },
+        {
+          "id": "xm-inf-1",
+          "t": "Inferno",
+          "n": "#1",
+          "w": 1,
+          "note": "Hickman closes his ledger",
+          "star": 1
+        },
+        {
+          "id": "xm-inf-2",
+          "t": "Inferno",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-inf-3",
+          "t": "Inferno",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-inf-4",
+          "t": "Inferno",
+          "n": "#4",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-1",
+          "t": "X-Men (2021)",
+          "n": "#1",
+          "w": 1,
+          "note": "Duggan's team, after the Gala"
+        },
+        {
+          "id": "xm-x21-2",
+          "t": "X-Men (2021)",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-3",
+          "t": "X-Men (2021)",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-4",
+          "t": "X-Men (2021)",
+          "n": "#4",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-5",
+          "t": "X-Men (2021)",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-6",
+          "t": "X-Men (2021)",
+          "n": "#6",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-7",
+          "t": "X-Men (2021)",
+          "n": "#7",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-8",
+          "t": "X-Men (2021)",
+          "n": "#8",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-9",
+          "t": "X-Men (2021)",
+          "n": "#9",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-10",
+          "t": "X-Men (2021)",
+          "n": "#10",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-11",
+          "t": "X-Men (2021)",
+          "n": "#11",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-12",
+          "t": "X-Men (2021)",
+          "n": "#12",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-13",
+          "t": "X-Men (2021)",
+          "n": "#13",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-14",
+          "t": "X-Men (2021)",
+          "n": "#14",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-15",
+          "t": "X-Men (2021)",
+          "n": "#15",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-16",
+          "t": "X-Men (2021)",
+          "n": "#16",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-17",
+          "t": "X-Men (2021)",
+          "n": "#17",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-18",
+          "t": "X-Men (2021)",
+          "n": "#18",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-19",
+          "t": "X-Men (2021)",
+          "n": "#19",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-20",
+          "t": "X-Men (2021)",
+          "n": "#20",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-21",
+          "t": "X-Men (2021)",
+          "n": "#21",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-22",
+          "t": "X-Men (2021)",
+          "n": "#22",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-23",
+          "t": "X-Men (2021)",
+          "n": "#23",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-24",
+          "t": "X-Men (2021)",
+          "n": "#24",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-25",
+          "t": "X-Men (2021)",
+          "n": "#25",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-26",
+          "t": "X-Men (2021)",
+          "n": "#26",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-27",
+          "t": "X-Men (2021)",
+          "n": "#27",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-28",
+          "t": "X-Men (2021)",
+          "n": "#28",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-29",
+          "t": "X-Men (2021)",
+          "n": "#29",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-30",
+          "t": "X-Men (2021)",
+          "n": "#30",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-31",
+          "t": "X-Men (2021)",
+          "n": "#31",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-32",
+          "t": "X-Men (2021)",
+          "n": "#32",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-33",
+          "t": "X-Men (2021)",
+          "n": "#33",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-34",
+          "t": "X-Men (2021)",
+          "n": "#34",
+          "w": 1
+        },
+        {
+          "id": "xm-x21-35",
+          "t": "X-Men (2021)",
+          "n": "#35",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-1",
+          "t": "Immortal X-Men",
+          "n": "#1",
+          "w": 1,
+          "note": "Gillen — the Quiet Council, and the era's spine from here",
+          "star": 1
+        },
+        {
+          "id": "xm-imm-2",
+          "t": "Immortal X-Men",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-3",
+          "t": "Immortal X-Men",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-4",
+          "t": "Immortal X-Men",
+          "n": "#4",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-5",
+          "t": "Immortal X-Men",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-6",
+          "t": "Immortal X-Men",
+          "n": "#6",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-7",
+          "t": "Immortal X-Men",
+          "n": "#7",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-8",
+          "t": "Immortal X-Men",
+          "n": "#8",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-9",
+          "t": "Immortal X-Men",
+          "n": "#9",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-10",
+          "t": "Immortal X-Men",
+          "n": "#10",
+          "w": 1
+        },
+        {
+          "id": "xm-sos",
+          "t": "Sins of Sinister",
+          "n": "◆",
+          "w": 11,
+          "note": "The one-shot, three three-issue minis and Dominion — a ten-part detour the line takes together",
+          "star": 1
+        },
+        {
+          "id": "xm-imm-11",
+          "t": "Immortal X-Men",
+          "n": "#11",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-12",
+          "t": "Immortal X-Men",
+          "n": "#12",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-13",
+          "t": "Immortal X-Men",
+          "n": "#13",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-14",
+          "t": "Immortal X-Men",
+          "n": "#14",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-15",
+          "t": "Immortal X-Men",
+          "n": "#15",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-16",
+          "t": "Immortal X-Men",
+          "n": "#16",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-17",
+          "t": "Immortal X-Men",
+          "n": "#17",
+          "w": 1
+        },
+        {
+          "id": "xm-imm-18",
+          "t": "Immortal X-Men",
+          "n": "#18",
+          "w": 1
+        },
+        {
+          "id": "xm-fohx-1",
+          "t": "Fall of the House of X",
+          "n": "#1",
+          "w": 1,
+          "note": "The era ends in pairs — Fall, then Rise, each month",
+          "star": 1
+        },
+        {
+          "id": "xm-ropx-1",
+          "t": "Rise of the Powers of X",
+          "n": "#1",
+          "w": 1
+        },
+        {
+          "id": "xm-fohx-2",
+          "t": "Fall of the House of X",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-ropx-2",
+          "t": "Rise of the Powers of X",
+          "n": "#2",
+          "w": 1
+        },
+        {
+          "id": "xm-fohx-3",
+          "t": "Fall of the House of X",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-ropx-3",
+          "t": "Rise of the Powers of X",
+          "n": "#3",
+          "w": 1
+        },
+        {
+          "id": "xm-fohx-4",
+          "t": "Fall of the House of X",
+          "n": "#4",
+          "w": 1
+        },
+        {
+          "id": "xm-ropx-4",
+          "t": "Rise of the Powers of X",
+          "n": "#4",
+          "w": 1
+        },
+        {
+          "id": "xm-fohx-5",
+          "t": "Fall of the House of X",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-ropx-5",
+          "t": "Rise of the Powers of X",
+          "n": "#5",
+          "w": 1
+        },
+        {
+          "id": "xm-k-marauders",
+          "t": "Marauders",
+          "n": "#1–27",
+          "w": 27,
+          "note": "The wider line, if you want it",
+          "opt": 1
+        },
+        {
+          "id": "xm-k-excalibur",
+          "t": "Excalibur",
+          "n": "#1–26",
+          "w": 26,
+          "opt": 1
+        },
+        {
+          "id": "xm-k-xforce",
+          "t": "X-Force",
+          "n": "#1–49",
+          "w": 49,
+          "opt": 1
+        },
+        {
+          "id": "xm-k-hellions",
+          "t": "Hellions",
+          "n": "#1–18",
+          "w": 18,
+          "opt": 1
+        },
+        {
+          "id": "xm-k-newmutants",
+          "t": "New Mutants",
+          "n": "#1–33",
+          "w": 33,
+          "opt": 1
+        },
+        {
+          "id": "xm-k-red",
+          "t": "X-Men Red (2022)",
+          "n": "#1–18",
+          "w": 18,
+          "note": "Ewing's Arakko book — the best of the satellites",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "ashes",
+      "title": "From the Ashes",
+      "sub": "2024– · the current era, still being written",
+      "links": [
+        {
+          "label": "X-Men (2024)",
+          "url": "https://www.marvel.com/comics/series/39439/xmen_2024_present"
+        },
+        {
+          "label": "Uncanny (2024)",
+          "url": "https://www.marvel.com/comics/series/39425/uncanny_xmen_2024_present"
+        },
+        {
+          "label": "Exceptional",
+          "url": "https://www.marvel.com/comics/series/39416/exceptional_xmen_2024_2025"
+        }
+      ],
+      "items": [
+        {
+          "id": "xm-ash-xmen",
+          "t": "X-Men (2024)",
+          "n": "ongoing",
+          "w": 0,
+          "note": "MacKay's flagship — per-issue rows when the era completes"
+        },
+        {
+          "id": "xm-ash-uncanny",
+          "t": "Uncanny X-Men (2024)",
+          "n": "ongoing",
+          "w": 0,
+          "note": "Simone's book"
+        },
+        {
+          "id": "xm-ash-exceptional",
+          "t": "Exceptional X-Men",
+          "n": "2024–25",
+          "w": 0,
+          "note": "Ewing's Chicago book"
+        }
+      ]
+    }
+  ]
+}

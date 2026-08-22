@@ -225,6 +225,21 @@
     "total": 353
   },
   {
+    "slug": "x-men",
+    "title": "X-Men",
+    "subtitle": "the comprehensive reading list — both flagships, complete",
+    "kind": "comics",
+    "year": "1963–",
+    "blurb": "Every issue of the two flagship lineages from 1963 to the fall of Krakoa — about 1645 issues — with the crossovers spliced in where you read them.",
+    "accent": "#B08A2E",
+    "accentDark": "#E8C45C",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 971
+  },
+  {
     "slug": "mcu-anthology",
     "title": "MCU Anthology",
     "subtitle": "every Marvel film in release order, MCU or not",

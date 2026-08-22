@@ -751,6 +751,21 @@ let MANIFEST = [
     "total": 353
   },
   {
+    "slug": "x-men",
+    "title": "X-Men",
+    "subtitle": "the comprehensive reading list — both flagships, complete",
+    "kind": "comics",
+    "year": "1963–",
+    "blurb": "Every issue of the two flagship lineages from 1963 to the fall of Krakoa — about 1645 issues — with the crossovers spliced in where you read them.",
+    "accent": "#B08A2E",
+    "accentDark": "#E8C45C",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 971
+  },
+  {
     "slug": "mcu-anthology",
     "title": "MCU Anthology",
     "subtitle": "every Marvel film in release order, MCU or not",
@@ -951,7 +966,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '2fc971cd4d86';
+const BUILD = '373d19e2ee57';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
