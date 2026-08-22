@@ -736,6 +736,21 @@ let MANIFEST = [
     "total": 105
   },
   {
+    "slug": "metal-gear",
+    "title": "Metal Gear",
+    "subtitle": "the whole saga in release order, sides and remakes included",
+    "kind": "games",
+    "year": "1987–",
+    "blurb": "26 games and 4 extras — about 400 hours of story, 134 of it the saga spine.",
+    "accent": "#4A5D23",
+    "accentDark": "#9DBB61",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 30
+  },
+  {
     "slug": "spider-man-after-civil-war",
     "title": "Spider-Man After Civil War",
     "subtitle": "Back in Black to now",
@@ -966,7 +981,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '373d19e2ee57';
+const BUILD = 'eb6cf6364a00';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
