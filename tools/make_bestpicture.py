@@ -279,9 +279,14 @@ def main():
             it = {"id": "bp-%d-%s" % (g["year"], slug(f["t"])),
                   "t": f["t"], "n": g["label"],
                   "w": round(r / 60.0, 2) if r else 0}
+            # tags feed the Winners/Nominees toggle; the strip follows the
+            # filter, so "just the winners" narrows the bar to 98 marks too
             if f["winner"]:
                 it["note"] = "Won Best Picture"
                 it["star"] = 2
+                it["tags"] = ["Winners"]
+            else:
+                it["tags"] = ["Nominees"]
             items.append(it)
         sec = {"id": "y%d" % g["year"],
                "title": "%s (%s)" % (g["label"], g["ord"]),
@@ -319,6 +324,10 @@ def main():
         "accent": "#9A7B1C",
         "accentDark": "#E0C25A",
         "tiers": False,
+        "filter": {
+            "key": "result", "label": "Show", "mode": "include",
+            "values": ["Winners", "Nominees"]
+        },
         "notes": [
             ["Each year's winner sits first, starred.",
              "The tables on Wikipedia open every ceremony with the winner on a "

@@ -2590,7 +2590,7 @@ function applyFilter(){
     : excluding()
       ? shown + ' of ' + TOTAL + ' ' + UNIT.many + ' · without '
         + picked.join(' or ')
-      : shown + ' of ' + TOTAL + ' ' + UNIT.many + ' on ' + picked.join(' or ');
+      : shown + ' of ' + TOTAL + ' ' + UNIT.many + ' · ' + picked.join(' or ');
 }
 
 // ids are author-supplied, so they can carry a quote or a bracket
