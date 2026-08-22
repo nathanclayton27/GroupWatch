@@ -1,0 +1,388 @@
+{
+  "slug": "godzilla",
+  "title": "Godzilla",
+  "subtitle": "every film era by era, Godzilla Fest shorts included",
+  "kind": "films",
+  "order": 35,
+  "year": "1954–",
+  "blurb": "38 films from 1954 to 2024, the Monarch series, and all 8 Godzilla Fest shorts.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#2E6B3F",
+  "accentDark": "#7FD096",
+  "tiers": false,
+  "notes": [
+    [
+      "Eras.",
+      "Toho counts its films in four eras — Shōwa, Heisei, Millennium and Reiwa — split by the years the series went dark. The American branches sit apart: TriStar's 1998 one-off and Legendary's MonsterVerse, which includes the Monarch series as one row."
+    ],
+    [
+      "The Godzilla Fest shorts.",
+      "Free online premieres for Toho's annual fan festival: the suitmation Fest Godzilla series — Godzilla Appears at Godzilla Fest, G vs. Hedorah, Gigan Attacks, Operation Jet Jaguar, All Monsters Showdown — and the 3DCG shorts G vs. G, Godzilla vs. Gigan Rex and Godzilla vs. Megalon. The two vs. shorts share their titles with the 1971 and 1973 films; the year tells them apart."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "Weights are hours from Wikidata, cross-checked against each film's Wikipedia infobox — where the two disagreed by more than five minutes the infobox won. The shorts and Monarch have no runtime confirmed on Wikipedia or Wikidata, so they weigh nothing."
+    ],
+    [
+      "Not included.",
+      "Godzilla Minus Zero and Godzilla x Kong: Supernova were still unreleased when this list was built. Kong: Skull Island belongs to the MonsterVerse but is a Kong film, and Wikipedia's Godzilla filmography does not count it."
+    ],
+    "Titles, years and release order from the filmography of Wikipedia's Godzilla (franchise) article; the Fest shorts from the Wikipedia pages that document them; runtimes and release dates from Wikidata (P2047, P577)."
+  ],
+  "sections": [
+    {
+      "id": "showa",
+      "title": "Shōwa era",
+      "sub": "1954–1975 · 15 films · 22 hours",
+      "items": [
+        {
+          "id": "gz-1954-godzilla",
+          "t": "Godzilla",
+          "n": "1954",
+          "w": 1.67
+        },
+        {
+          "id": "gz-1955-godzilla-raids-again",
+          "t": "Godzilla Raids Again",
+          "n": "1955",
+          "w": 1.37
+        },
+        {
+          "id": "gz-1962-king-kong-vs-godzilla",
+          "t": "King Kong vs. Godzilla",
+          "n": "1962",
+          "w": 1.63
+        },
+        {
+          "id": "gz-1964-mothra-vs-godzilla",
+          "t": "Mothra vs. Godzilla",
+          "n": "1964",
+          "w": 1.48
+        },
+        {
+          "id": "gz-1964-ghidorah-the-three-headed-monster",
+          "t": "Ghidorah, the Three-Headed Monster",
+          "n": "1964",
+          "w": 1.55
+        },
+        {
+          "id": "gz-1965-invasion-of-astro-monster",
+          "t": "Invasion of Astro-Monster",
+          "n": "1965",
+          "w": 1.57
+        },
+        {
+          "id": "gz-1966-ebirah-horror-of-the-deep",
+          "t": "Ebirah, Horror of the Deep",
+          "n": "1966",
+          "w": 1.45
+        },
+        {
+          "id": "gz-1967-son-of-godzilla",
+          "t": "Son of Godzilla",
+          "n": "1967",
+          "w": 1.43
+        },
+        {
+          "id": "gz-1968-destroy-all-monsters",
+          "t": "Destroy All Monsters",
+          "n": "1968",
+          "w": 1.48
+        },
+        {
+          "id": "gz-1969-all-monsters-attack",
+          "t": "All Monsters Attack",
+          "n": "1969",
+          "w": 1.15
+        },
+        {
+          "id": "gz-1971-godzilla-vs-hedorah",
+          "t": "Godzilla vs. Hedorah",
+          "n": "1971",
+          "w": 1.42
+        },
+        {
+          "id": "gz-1972-godzilla-vs-gigan",
+          "t": "Godzilla vs. Gigan",
+          "n": "1972",
+          "w": 1.48
+        },
+        {
+          "id": "gz-1973-godzilla-vs-megalon",
+          "t": "Godzilla vs. Megalon",
+          "n": "1973",
+          "w": 1.37
+        },
+        {
+          "id": "gz-1974-godzilla-vs-mechagodzilla",
+          "t": "Godzilla vs. Mechagodzilla",
+          "n": "1974",
+          "w": 1.4
+        },
+        {
+          "id": "gz-1975-terror-of-mechagodzilla",
+          "t": "Terror of Mechagodzilla",
+          "n": "1975",
+          "w": 1.38
+        }
+      ]
+    },
+    {
+      "id": "heisei",
+      "title": "Heisei era",
+      "sub": "1984–1995 · 7 films · 12 hours",
+      "items": [
+        {
+          "id": "gz-1984-the-return-of-godzilla",
+          "t": "The Return of Godzilla",
+          "n": "1984",
+          "w": 1.72
+        },
+        {
+          "id": "gz-1989-godzilla-vs-biollante",
+          "t": "Godzilla vs. Biollante",
+          "n": "1989",
+          "w": 1.75
+        },
+        {
+          "id": "gz-1991-godzilla-vs-king-ghidorah",
+          "t": "Godzilla vs. King Ghidorah",
+          "n": "1991",
+          "w": 1.72
+        },
+        {
+          "id": "gz-1992-godzilla-vs-mothra",
+          "t": "Godzilla vs. Mothra",
+          "n": "1992",
+          "w": 1.7
+        },
+        {
+          "id": "gz-1993-godzilla-vs-mechagodzilla-ii",
+          "t": "Godzilla vs. Mechagodzilla II",
+          "n": "1993",
+          "w": 1.8
+        },
+        {
+          "id": "gz-1994-godzilla-vs-spacegodzilla",
+          "t": "Godzilla vs. SpaceGodzilla",
+          "n": "1994",
+          "w": 1.82
+        },
+        {
+          "id": "gz-1995-godzilla-vs-destoroyah",
+          "t": "Godzilla vs. Destoroyah",
+          "n": "1995",
+          "w": 1.72
+        }
+      ]
+    },
+    {
+      "id": "tristar",
+      "title": "TriStar (1998)",
+      "sub": "1998 · one film · 2 hours",
+      "items": [
+        {
+          "id": "gz-1998-godzilla",
+          "t": "Godzilla",
+          "n": "1998",
+          "w": 2.32,
+          "note": "Roland Emmerich's American reimagining for TriStar — its monster returns in Godzilla: Final Wars as Zilla"
+        }
+      ]
+    },
+    {
+      "id": "millennium",
+      "title": "Millennium era",
+      "sub": "1999–2004 · 6 films · 10 hours",
+      "items": [
+        {
+          "id": "gz-1999-godzilla-2000-millennium",
+          "t": "Godzilla 2000: Millennium",
+          "n": "1999",
+          "w": 1.78
+        },
+        {
+          "id": "gz-2000-godzilla-vs-megaguirus",
+          "t": "Godzilla vs. Megaguirus",
+          "n": "2000",
+          "w": 1.68
+        },
+        {
+          "id": "gz-2001-godzilla-mothra-and-king-ghidorah-giant-monsters-all-out-attack",
+          "t": "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack",
+          "n": "2001",
+          "w": 1.68
+        },
+        {
+          "id": "gz-2002-godzilla-against-mechagodzilla",
+          "t": "Godzilla Against Mechagodzilla",
+          "n": "2002",
+          "w": 1.42
+        },
+        {
+          "id": "gz-2003-godzilla-tokyo-s-o-s",
+          "t": "Godzilla: Tokyo S.O.S.",
+          "n": "2003",
+          "w": 1.52
+        },
+        {
+          "id": "gz-2004-godzilla-final-wars",
+          "t": "Godzilla: Final Wars",
+          "n": "2004",
+          "w": 2.0
+        }
+      ]
+    },
+    {
+      "id": "reiwa",
+      "title": "Reiwa era",
+      "sub": "2016–2023 · 5 films · 9 hours",
+      "items": [
+        {
+          "id": "gz-2016-shin-godzilla",
+          "t": "Shin Godzilla",
+          "n": "2016",
+          "w": 1.97
+        },
+        {
+          "id": "gz-2017-godzilla-planet-of-the-monsters",
+          "t": "Godzilla: Planet of the Monsters",
+          "n": "2017",
+          "w": 1.48,
+          "note": "Animated — first of the anime trilogy"
+        },
+        {
+          "id": "gz-2018-godzilla-city-on-the-edge-of-battle",
+          "t": "Godzilla: City on the Edge of Battle",
+          "n": "2018",
+          "w": 1.67,
+          "note": "Animated — second of the anime trilogy"
+        },
+        {
+          "id": "gz-2018-godzilla-the-planet-eater",
+          "t": "Godzilla: The Planet Eater",
+          "n": "2018",
+          "w": 1.5,
+          "note": "Animated — third of the anime trilogy"
+        },
+        {
+          "id": "gz-2023-godzilla-minus-one",
+          "t": "Godzilla Minus One",
+          "n": "2023",
+          "w": 2.08
+        }
+      ]
+    },
+    {
+      "id": "fest",
+      "title": "Godzilla Fest shorts",
+      "sub": "2019–2024 · 8 shorts · premiered free online",
+      "items": [
+        {
+          "id": "gz-2019-g-vs-g",
+          "t": "G vs. G",
+          "n": "2019",
+          "w": 0.0,
+          "note": "3DCG short — the prequel to Godzilla vs. Gigan Rex · runtime unconfirmed"
+        },
+        {
+          "id": "gz-2020-godzilla-appears-at-godzilla-fest",
+          "t": "Godzilla Appears at Godzilla Fest",
+          "n": "2020",
+          "w": 0.0,
+          "note": "The first Godzilla Fest suitmation short · runtime unconfirmed"
+        },
+        {
+          "id": "gz-2021-godzilla-vs-hedorah",
+          "t": "Godzilla vs. Hedorah",
+          "n": "2021",
+          "w": 0.0,
+          "note": "Suitmation short for Hedorah's 50th anniversary, in the Final Wars suits — not the 1971 film · runtime unconfirmed"
+        },
+        {
+          "id": "gz-2022-godzilla-vs-gigan-rex",
+          "t": "Godzilla vs. Gigan Rex",
+          "n": "2022",
+          "w": 0.0,
+          "note": "3DCG short, sequel to G vs. G, premiered on YouTube for Godzilla Fest · runtime unconfirmed"
+        },
+        {
+          "id": "gz-2022-fest-godzilla-3-gigan-attacks",
+          "t": "Fest Godzilla 3: Gigan Attacks",
+          "n": "2022",
+          "w": 0.0,
+          "note": "Suitmation short for Godzilla vs. Gigan's 50th anniversary · runtime unconfirmed"
+        },
+        {
+          "id": "gz-2023-godzilla-vs-megalon",
+          "t": "Godzilla vs. Megalon",
+          "n": "2023",
+          "w": 0.0,
+          "note": "3DCG short for Megalon's 50th anniversary, following Godzilla vs. Gigan Rex — not the 1973 film · runtime unconfirmed"
+        },
+        {
+          "id": "gz-2023-fest-godzilla-4-operation-jet-jaguar",
+          "t": "Fest Godzilla 4: Operation Jet Jaguar",
+          "n": "2023",
+          "w": 0.0,
+          "note": "Suitmation short — the King Ghidorah suit from Giant Monsters All-Out Attack returns · runtime unconfirmed"
+        },
+        {
+          "id": "gz-2024-fest-godzilla-5-all-monsters-showdown",
+          "t": "Fest Godzilla 5: All Monsters Showdown",
+          "n": "2024",
+          "w": 0.0,
+          "note": "Suitmation short — the King Ghidorah suit from Giant Monsters All-Out Attack returns · runtime unconfirmed"
+        }
+      ],
+      "intro": "Toho premieres official shorts free online for Godzilla Fest, its annual fan event held around Godzilla Day, November 3 — suitmation Fest Godzilla episodes alongside the 3DCG line that began with G vs. G. None of the eight has a published runtime, so they carry no width on the bar."
+    },
+    {
+      "id": "monsterverse",
+      "title": "MonsterVerse",
+      "sub": "2014– · 4 films and one series · 8 hours",
+      "items": [
+        {
+          "id": "gz-2014-godzilla",
+          "t": "Godzilla",
+          "n": "2014",
+          "w": 2.05
+        },
+        {
+          "id": "gz-2019-godzilla-king-of-the-monsters",
+          "t": "Godzilla: King of the Monsters",
+          "n": "2019",
+          "w": 2.2
+        },
+        {
+          "id": "gz-2021-godzilla-vs-kong",
+          "t": "Godzilla vs. Kong",
+          "n": "2021",
+          "w": 1.88
+        },
+        {
+          "id": "gz-2023-monarch-legacy-of-monsters",
+          "t": "Monarch: Legacy of Monsters",
+          "n": "2023",
+          "w": 0.0,
+          "note": "Apple TV+ series — season one, ten episodes as one row · runtime unconfirmed"
+        },
+        {
+          "id": "gz-2024-godzilla-x-kong-the-new-empire",
+          "t": "Godzilla x Kong: The New Empire",
+          "n": "2024",
+          "w": 1.92
+        }
+      ]
+    }
+  ]
+}

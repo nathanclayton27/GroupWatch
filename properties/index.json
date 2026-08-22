@@ -480,6 +480,21 @@
     "total": 118
   },
   {
+    "slug": "dc-animation",
+    "title": "DC Animation",
+    "subtitle": "every animated DC film and series, in release order",
+    "kind": "shows & films",
+    "year": "1966–",
+    "blurb": "103 films and 108 seasons of television, about 923 hours, in the order they came out.",
+    "accent": "#2A5F9E",
+    "accentDark": "#7FB0E8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 211
+  },
+  {
     "slug": "kubrick",
     "title": "Stanley Kubrick",
     "subtitle": "the thirteen features, plus A.I.",
@@ -538,6 +553,21 @@
       "many": "games"
     },
     "total": 119
+  },
+  {
+    "slug": "godzilla",
+    "title": "Godzilla",
+    "subtitle": "every film era by era, Godzilla Fest shorts included",
+    "kind": "films",
+    "year": "1954–",
+    "blurb": "38 films from 1954 to 2024, the Monarch series, and all 8 Godzilla Fest shorts.",
+    "accent": "#2E6B3F",
+    "accentDark": "#7FD096",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 47
   },
   {
     "slug": "secret",

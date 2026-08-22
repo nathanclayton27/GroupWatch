@@ -1006,6 +1006,21 @@ let MANIFEST = [
     "total": 118
   },
   {
+    "slug": "dc-animation",
+    "title": "DC Animation",
+    "subtitle": "every animated DC film and series, in release order",
+    "kind": "shows & films",
+    "year": "1966–",
+    "blurb": "103 films and 108 seasons of television, about 923 hours, in the order they came out.",
+    "accent": "#2A5F9E",
+    "accentDark": "#7FB0E8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 211
+  },
+  {
     "slug": "kubrick",
     "title": "Stanley Kubrick",
     "subtitle": "the thirteen features, plus A.I.",
@@ -1066,6 +1081,21 @@ let MANIFEST = [
     "total": 119
   },
   {
+    "slug": "godzilla",
+    "title": "Godzilla",
+    "subtitle": "every film era by era, Godzilla Fest shorts included",
+    "kind": "films",
+    "year": "1954–",
+    "blurb": "38 films from 1954 to 2024, the Monarch series, and all 8 Godzilla Fest shorts.",
+    "accent": "#2E6B3F",
+    "accentDark": "#7FD096",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 47
+  },
+  {
     "slug": "secret",
     "title": "Secret",
     "subtitle": "",
@@ -1101,7 +1131,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '3eef9c636940';
+const BUILD = 'a5cef833dd70';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -3149,7 +3179,7 @@ function applyFilter(){
     : excluding()
       ? shown + ' of ' + TOTAL + ' ' + UNIT.many + ' · without '
         + picked.join(' or ')
-      : shown + ' of ' + TOTAL + ' ' + UNIT.many + ' on ' + picked.join(' or ');
+      : shown + ' of ' + TOTAL + ' ' + UNIT.many + ' · ' + picked.join(' or ');
 }
 
 // ids are author-supplied, so they can carry a quote or a bracket
