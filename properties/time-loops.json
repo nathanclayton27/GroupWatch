@@ -1,0 +1,216 @@
+{
+  "slug": "time-loops",
+  "title": "Time Loops",
+  "subtitle": "the same day, again — films and single episodes",
+  "kind": "films & episodes",
+  "order": 36,
+  "year": "1992–",
+  "blurb": "15 films, 11 single episodes and one whole series where the day repeats. Assembled by the group; watch in any order.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#6B2E7A",
+  "accentDark": "#C08FE0",
+  "tiers": false,
+  "notes": [
+    [
+      "No order.",
+      "Nothing here leads to anything else — pick whatever tonight feels like. Nothing is weighted either: a 32-minute short and a two-hour film count one each, because this is a grab bag, not a schedule."
+    ],
+    [
+      "Single episodes stand alone.",
+      "Each row names its show, season and episode; the loop episodes were built to work cold, which is most of why people love them."
+    ],
+    [
+      "House additions are marked.",
+      "7 entries were added beyond the group's thread and say so on the row — veto freely."
+    ],
+    "Assembled by the group in Discord. Every entry was verified against Wikipedia before it got a row — including which Tales of the Walking Dead episode the loop one actually is."
+  ],
+  "sections": [
+    {
+      "id": "films",
+      "title": "The films",
+      "sub": "1993–2021 · 15 films, one of them a short",
+      "open": true,
+      "items": [
+        {
+          "id": "loop-f-1993-12-01",
+          "t": "12:01",
+          "n": "1993",
+          "note": "The TV movie that aired the same year — its short-film ancestor predates Groundhog Day · 92 min · Added here — shout if it doesn't belong"
+        },
+        {
+          "id": "loop-f-1993-groundhog-day",
+          "t": "Groundhog Day",
+          "n": "1993",
+          "note": "Where the name comes from · 101 min"
+        },
+        {
+          "id": "loop-f-1998-run-lola-run",
+          "t": "Run Lola Run",
+          "n": "1998",
+          "note": "Three runs at twenty minutes · 81 min"
+        },
+        {
+          "id": "loop-f-2009-triangle",
+          "t": "Triangle",
+          "n": "2009",
+          "note": "The horror one people argue about · 99 min · Added here — shout if it doesn't belong"
+        },
+        {
+          "id": "loop-f-2011-source-code",
+          "t": "Source Code",
+          "n": "2011",
+          "note": "Eight minutes at a time · 93 min"
+        },
+        {
+          "id": "loop-f-2014-edge-of-tomorrow",
+          "t": "Edge of Tomorrow",
+          "n": "2014",
+          "note": "113 min"
+        },
+        {
+          "id": "loop-f-2016-arq",
+          "t": "ARQ",
+          "n": "2016",
+          "note": "98 min"
+        },
+        {
+          "id": "loop-f-2017-before-i-fall",
+          "t": "Before I Fall",
+          "n": "2017",
+          "note": "99 min · Added here — shout if it doesn't belong"
+        },
+        {
+          "id": "loop-f-2017-happy-death-day",
+          "t": "Happy Death Day",
+          "n": "2017",
+          "note": "The loop as a slasher · 96 min"
+        },
+        {
+          "id": "loop-f-2017-the-endless",
+          "t": "The Endless",
+          "n": "2017",
+          "note": "Loops inside loops, on a cult compound · 111 min · Added here — shout if it doesn't belong"
+        },
+        {
+          "id": "loop-f-2019-happy-death-day-2u",
+          "t": "Happy Death Day 2U",
+          "n": "2019",
+          "note": "100 min"
+        },
+        {
+          "id": "loop-f-2020-boss-level",
+          "t": "Boss Level",
+          "n": "2020",
+          "note": "104 min"
+        },
+        {
+          "id": "loop-f-2020-palm-springs",
+          "t": "Palm Springs",
+          "n": "2020",
+          "note": "90 min"
+        },
+        {
+          "id": "loop-f-2020-two-distant-strangers",
+          "t": "Two Distant Strangers",
+          "n": "2020",
+          "note": "The Oscar-winning short · 32 min"
+        },
+        {
+          "id": "loop-f-2021-a-map-of-tiny-perfect-things",
+          "t": "A Map of Tiny Perfect Things",
+          "n": "2021",
+          "note": "99 min"
+        }
+      ]
+    },
+    {
+      "id": "episodes",
+      "title": "Single episodes",
+      "sub": "1992–2022 · 11 shows, one loop each",
+      "intro": "One episode per show — the season and number are on the row, so nobody has to watch anything else to get there.",
+      "items": [
+        {
+          "id": "loop-e-1992-star-trek-the-next-generation-cause-and-effect",
+          "t": "Star Trek: The Next Generation — “Cause and Effect”",
+          "n": "S5E18"
+        },
+        {
+          "id": "loop-e-1997-xena-warrior-princess-been-there-done-that",
+          "t": "Xena: Warrior Princess — “Been There, Done That”",
+          "n": "S3E2",
+          "note": "Added here — shout if it doesn't belong"
+        },
+        {
+          "id": "loop-e-1999-the-x-files-monday",
+          "t": "The X-Files — “Monday”",
+          "n": "S6E14"
+        },
+        {
+          "id": "loop-e-2000-stargate-sg-1-window-of-opportunity",
+          "t": "Stargate SG-1 — “Window of Opportunity”",
+          "n": "S4E6"
+        },
+        {
+          "id": "loop-e-2001-buffy-the-vampire-slayer-life-serial",
+          "t": "Buffy the Vampire Slayer — “Life Serial”",
+          "n": "S6E5",
+          "note": "Added here — shout if it doesn't belong"
+        },
+        {
+          "id": "loop-e-2008-supernatural-mystery-spot",
+          "t": "Supernatural — “Mystery Spot”",
+          "n": "S3E11"
+        },
+        {
+          "id": "loop-e-2010-fringe-white-tulip",
+          "t": "Fringe — “White Tulip”",
+          "n": "S2E18",
+          "note": "Added here — shout if it doesn't belong"
+        },
+        {
+          "id": "loop-e-2015-doctor-who-heaven-sent",
+          "t": "Doctor Who — “Heaven Sent”",
+          "n": "S9E11"
+        },
+        {
+          "id": "loop-e-2018-legends-of-tomorrow-here-i-go-again",
+          "t": "Legends of Tomorrow — “Here I Go Again”",
+          "n": "S3E11"
+        },
+        {
+          "id": "loop-e-2020-agents-of-s-h-i-e-l-d-as-i-have-always-been",
+          "t": "Agents of S.H.I.E.L.D. — “As I Have Always Been”",
+          "n": "S7E9"
+        },
+        {
+          "id": "loop-e-2022-tales-of-the-walking-dead-blair-gina",
+          "t": "Tales of the Walking Dead — “Blair / Gina”",
+          "n": "S1E2",
+          "note": "The series' time-loop episode"
+        }
+      ]
+    },
+    {
+      "id": "series",
+      "title": "A whole series about it",
+      "sub": "when one episode was never going to be enough",
+      "items": [
+        {
+          "id": "loop-s-2019-russian-doll",
+          "t": "Russian Doll",
+          "n": "2019–22",
+          "note": "Two seasons; the first is the loop"
+        }
+      ]
+    }
+  ]
+}

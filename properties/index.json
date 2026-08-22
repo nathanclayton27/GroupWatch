@@ -570,6 +570,21 @@
     "total": 47
   },
   {
+    "slug": "time-loops",
+    "title": "Time Loops",
+    "subtitle": "the same day, again — films and single episodes",
+    "kind": "films & episodes",
+    "year": "1992–",
+    "blurb": "15 films, 11 single episodes and one whole series where the day repeats. Assembled by the group; watch in any order.",
+    "accent": "#6B2E7A",
+    "accentDark": "#C08FE0",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 27
+  },
+  {
     "slug": "secret",
     "title": "Secret",
     "subtitle": "",

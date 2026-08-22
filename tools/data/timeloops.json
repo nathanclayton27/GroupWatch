@@ -1,0 +1,168 @@
+{
+ "films": [
+  {
+   "t": "Groundhog Day",
+   "page": "Groundhog Day (film)",
+   "year": 1993,
+   "runtime": 101
+  },
+  {
+   "t": "Run Lola Run",
+   "page": "Run Lola Run",
+   "year": 1998,
+   "runtime": 81
+  },
+  {
+   "t": "12:01",
+   "page": "12:01 (1993 film)",
+   "year": 1993,
+   "runtime": 92
+  },
+  {
+   "t": "Source Code",
+   "page": "Source Code",
+   "year": 2011,
+   "runtime": 93
+  },
+  {
+   "t": "Triangle",
+   "page": "Triangle (2009 British film)",
+   "year": 2009,
+   "runtime": 99
+  },
+  {
+   "t": "Edge of Tomorrow",
+   "page": "Edge of Tomorrow",
+   "year": 2014,
+   "runtime": 113
+  },
+  {
+   "t": "ARQ",
+   "page": "ARQ (film)",
+   "year": 2016,
+   "runtime": 98
+  },
+  {
+   "t": "Before I Fall",
+   "page": "Before I Fall (film)",
+   "year": 2017,
+   "runtime": 99
+  },
+  {
+   "t": "Happy Death Day",
+   "page": "Happy Death Day",
+   "year": 2017,
+   "runtime": 96
+  },
+  {
+   "t": "Happy Death Day 2U",
+   "page": "Happy Death Day 2U",
+   "year": 2019,
+   "runtime": 100
+  },
+  {
+   "t": "The Endless",
+   "page": "The Endless (film)",
+   "year": 2017,
+   "runtime": null
+  },
+  {
+   "t": "Palm Springs",
+   "page": "Palm Springs (2020 film)",
+   "year": 2020,
+   "runtime": 90
+  },
+  {
+   "t": "Boss Level",
+   "page": "Boss Level",
+   "year": 2020,
+   "runtime": 104
+  },
+  {
+   "t": "A Map of Tiny Perfect Things",
+   "page": "The Map of Tiny Perfect Things",
+   "year": 2021,
+   "runtime": 99
+  },
+  {
+   "t": "Two Distant Strangers",
+   "page": "Two Distant Strangers",
+   "year": 2020,
+   "runtime": 32
+  }
+ ],
+ "episodes": [
+  {
+   "show": "Star Trek: The Next Generation",
+   "t": "Cause and Effect",
+   "season": 5,
+   "episode": 18,
+   "year": 1992,
+   "page": "Cause and Effect (Star Trek: The Next Generation)"
+  },
+  {
+   "show": "Stargate SG-1",
+   "t": "Window of Opportunity",
+   "season": 4,
+   "episode": 6,
+   "year": 2000,
+   "page": "Window of Opportunity (Stargate SG-1)"
+  },
+  {
+   "show": "Buffy the Vampire Slayer",
+   "t": "Life Serial",
+   "season": 6,
+   "episode": 5,
+   "year": 2001,
+   "page": "Life Serial"
+  },
+  {
+   "show": "Supernatural",
+   "t": "Mystery Spot",
+   "season": 5,
+   "episode": null,
+   "year": 2007,
+   "page": "Supernatural season 3"
+  },
+  {
+   "show": "The X-Files",
+   "t": "Monday",
+   "season": 6,
+   "episode": 14,
+   "year": 1999,
+   "page": "Monday (The X-Files)"
+  },
+  {
+   "show": "Fringe",
+   "t": "White Tulip",
+   "season": 2,
+   "episode": 18,
+   "year": 2010,
+   "page": "White Tulip"
+  },
+  {
+   "show": "Doctor Who",
+   "t": "Heaven Sent",
+   "season": null,
+   "episode": null,
+   "year": null,
+   "page": "Heaven Sent (Doctor Who)"
+  },
+  {
+   "show": "Legends of Tomorrow",
+   "t": "Here I Go Again",
+   "season": 3,
+   "episode": 11,
+   "year": 2018,
+   "page": "Here I Go Again (Legends of Tomorrow)"
+  },
+  {
+   "show": "Agents of S.H.I.E.L.D.",
+   "t": "As I Have Always Been",
+   "season": 7,
+   "episode": 9,
+   "year": 2020,
+   "page": "As I Have Always Been"
+  }
+ ]
+}
