@@ -1414,6 +1414,96 @@ let MANIFEST = [
     "total": 74
   },
   {
+    "slug": "twilight-zone",
+    "title": "The Twilight Zone",
+    "subtitle": "the original series — five seasons, 1959–1964",
+    "kind": "tv",
+    "year": "1959–64",
+    "blurb": "All 156 episodes of the 1959 original — standalone doors into the fifth dimension, built for the random picker.",
+    "accent": "#443E63",
+    "accentDark": "#B4ABDE",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 156
+  },
+  {
+    "slug": "the-simpsons",
+    "title": "The Simpsons",
+    "subtitle": "the golden age — seasons 1–8",
+    "kind": "tv",
+    "year": "1989–97",
+    "blurb": "Seasons 1 through 8, one row per episode — 178 episodes of the golden age, and nothing after.",
+    "accent": "#C2477E",
+    "accentDark": "#F2C744",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 178
+  },
+  {
+    "slug": "buffy-angel",
+    "title": "Buffy & Angel",
+    "subtitle": "two shows woven into one broadcast order",
+    "kind": "tv",
+    "year": "1997–2004",
+    "blurb": "All 144 Buffy and 110 Angel episodes in one air-order list — four overlap years interleaved night by night.",
+    "accent": "#6E4530",
+    "accentDark": "#FF7EB6",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 254
+  },
+  {
+    "slug": "lost",
+    "title": "Lost",
+    "subtitle": "every numbered episode, six seasons",
+    "kind": "tv",
+    "year": "2004–10",
+    "blurb": "All 121 episodes in broadcast order — six seasons, one island, counted the way the season tables count them.",
+    "accent": "#1B2D20",
+    "accentDark": "#96E8A9",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 121
+  },
+  {
+    "slug": "mad-men",
+    "title": "Mad Men",
+    "subtitle": "every episode across seven seasons",
+    "kind": "tv",
+    "year": "2007–15",
+    "blurb": "All 92 episodes in broadcast order — seven seasons of Sterling Cooper and what it becomes.",
+    "accent": "#A63A31",
+    "accentDark": "#C98B4B",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 92
+  },
+  {
+    "slug": "deadwood",
+    "title": "Deadwood",
+    "subtitle": "three seasons and the film that ends it",
+    "kind": "tv & film",
+    "year": "2004–19",
+    "blurb": "All 36 episodes and the 2019 film in broadcast order — three seasons of the camp, then the goodbye.",
+    "accent": "#4C3B26",
+    "accentDark": "#C9A227",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 37
+  },
+  {
     "slug": "mario",
     "title": "Super Mario",
     "subtitle": "the mainline platformers in release order, 2D and 3D",
@@ -1554,7 +1644,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '20f87f6ad959';
+const BUILD = 'af14dfba8f05';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

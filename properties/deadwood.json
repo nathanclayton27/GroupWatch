@@ -1,0 +1,249 @@
+{
+  "slug": "deadwood",
+  "title": "Deadwood",
+  "subtitle": "three seasons and the film that ends it",
+  "kind": "tv & film",
+  "order": 83,
+  "year": "2004–19",
+  "blurb": "All 36 episodes and the 2019 film in broadcast order — three seasons of the camp, then the goodbye.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#4C3B26",
+  "accentDark": "#C9A227",
+  "tiers": false,
+  "notes": [
+    [
+      "The film closes it.",
+      "HBO ended the series after season 3 in 2006; Deadwood: The Movie arrived in 2019 and is the final row."
+    ],
+    [
+      "Nothing is weighted.",
+      "An episode and the film count one each — 37 even marks."
+    ],
+    "Episode titles and airdates machine-read from Wikipedia's List of Deadwood episodes; the page's own stated total (36 episodes over three 12-episode seasons) and the film's premiere date are asserted before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "2004 · 12 episodes",
+      "items": [
+        {
+          "id": "dw-s1-1",
+          "t": "Deadwood",
+          "n": "1"
+        },
+        {
+          "id": "dw-s1-2",
+          "t": "Deep Water",
+          "n": "2"
+        },
+        {
+          "id": "dw-s1-3",
+          "t": "Reconnoitering the Rim",
+          "n": "3"
+        },
+        {
+          "id": "dw-s1-4",
+          "t": "Here Was a Man",
+          "n": "4"
+        },
+        {
+          "id": "dw-s1-5",
+          "t": "The Trial of Jack McCall",
+          "n": "5"
+        },
+        {
+          "id": "dw-s1-6",
+          "t": "Plague",
+          "n": "6"
+        },
+        {
+          "id": "dw-s1-7",
+          "t": "Bullock Returns to the Camp",
+          "n": "7"
+        },
+        {
+          "id": "dw-s1-8",
+          "t": "Suffer the Little Children",
+          "n": "8"
+        },
+        {
+          "id": "dw-s1-9",
+          "t": "No Other Sons or Daughters",
+          "n": "9"
+        },
+        {
+          "id": "dw-s1-10",
+          "t": "Mister Wu",
+          "n": "10"
+        },
+        {
+          "id": "dw-s1-11",
+          "t": "Jewel's Boot Is Made for Walking",
+          "n": "11"
+        },
+        {
+          "id": "dw-s1-12",
+          "t": "Sold Under Sin",
+          "n": "12"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "2005 · 12 episodes",
+      "items": [
+        {
+          "id": "dw-s2-1",
+          "t": "A Lie Agreed Upon (Part I)",
+          "n": "1"
+        },
+        {
+          "id": "dw-s2-2",
+          "t": "A Lie Agreed Upon (Part II)",
+          "n": "2"
+        },
+        {
+          "id": "dw-s2-3",
+          "t": "New Money",
+          "n": "3"
+        },
+        {
+          "id": "dw-s2-4",
+          "t": "Requiem for a Gleet",
+          "n": "4"
+        },
+        {
+          "id": "dw-s2-5",
+          "t": "Complications",
+          "n": "5"
+        },
+        {
+          "id": "dw-s2-6",
+          "t": "Something Very Expensive",
+          "n": "6"
+        },
+        {
+          "id": "dw-s2-7",
+          "t": "E.B. Was Left Out",
+          "n": "7"
+        },
+        {
+          "id": "dw-s2-8",
+          "t": "Childish Things",
+          "n": "8"
+        },
+        {
+          "id": "dw-s2-9",
+          "t": "Amalgamation and Capital",
+          "n": "9"
+        },
+        {
+          "id": "dw-s2-10",
+          "t": "Advances, None Miraculous",
+          "n": "10"
+        },
+        {
+          "id": "dw-s2-11",
+          "t": "The Whores Can Come",
+          "n": "11"
+        },
+        {
+          "id": "dw-s2-12",
+          "t": "Boy-the-Earth-Talks-To",
+          "n": "12"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "2006 · 12 episodes",
+      "items": [
+        {
+          "id": "dw-s3-1",
+          "t": "Tell Your God to Ready for Blood",
+          "n": "1"
+        },
+        {
+          "id": "dw-s3-2",
+          "t": "I Am Not the Fine Man You Take Me For",
+          "n": "2"
+        },
+        {
+          "id": "dw-s3-3",
+          "t": "True Colors",
+          "n": "3"
+        },
+        {
+          "id": "dw-s3-4",
+          "t": "Full Faith and Credit",
+          "n": "4"
+        },
+        {
+          "id": "dw-s3-5",
+          "t": "A Two-Headed Beast",
+          "n": "5"
+        },
+        {
+          "id": "dw-s3-6",
+          "t": "A Rich Find",
+          "n": "6"
+        },
+        {
+          "id": "dw-s3-7",
+          "t": "Unauthorized Cinnamon",
+          "n": "7"
+        },
+        {
+          "id": "dw-s3-8",
+          "t": "Leviathan Smiles",
+          "n": "8"
+        },
+        {
+          "id": "dw-s3-9",
+          "t": "Amateur Night",
+          "n": "9"
+        },
+        {
+          "id": "dw-s3-10",
+          "t": "A Constant Throb",
+          "n": "10"
+        },
+        {
+          "id": "dw-s3-11",
+          "t": "The Catbird Seat",
+          "n": "11"
+        },
+        {
+          "id": "dw-s3-12",
+          "t": "Tell Him Something Pretty",
+          "n": "12"
+        }
+      ]
+    },
+    {
+      "id": "movie",
+      "title": "The Movie",
+      "sub": "2019 · the finale, thirteen years on",
+      "items": [
+        {
+          "id": "dw-movie-2019",
+          "t": "Deadwood: The Movie",
+          "n": "2019"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1373 @@
+{
+  "slug": "buffy-angel",
+  "title": "Buffy & Angel",
+  "subtitle": "two shows woven into one broadcast order",
+  "kind": "tv",
+  "order": 80,
+  "year": "1997–2004",
+  "blurb": "All 144 Buffy and 110 Angel episodes in one air-order list — four overlap years interleaved night by night.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#6E4530",
+  "accentDark": "#FF7EB6",
+  "tiers": false,
+  "notes": [
+    [
+      "One list, two shows.",
+      "From October 1999 to May 2003 the shows ran side by side; those years are interleaved strictly by original air date, read from the season tables."
+    ],
+    [
+      "Same night, Buffy first.",
+      "Where both shows aired on the same date, the Buffy episode is listed first — The WB ran them back-to-back with Buffy in the earlier slot."
+    ],
+    [
+      "Crossovers are noted, not moved.",
+      "The two stories that continue directly into the other show the same night carry a one-line note on each half."
+    ],
+    "Episode titles and air dates machine-read from the twelve Wikipedia season articles (Buffy the Vampire Slayer seasons 1–7, Angel seasons 1–5); both series totals (144, 110) and every season's numbering are asserted before this builds."
+  ],
+  "sections": [
+    {
+      "id": "b1",
+      "title": "Buffy Season 1",
+      "sub": "1997 · 12 episodes",
+      "items": [
+        {
+          "id": "bf-s1-1",
+          "t": "Buffy — Welcome to the Hellmouth",
+          "n": "1x01"
+        },
+        {
+          "id": "bf-s1-2",
+          "t": "Buffy — The Harvest",
+          "n": "1x02"
+        },
+        {
+          "id": "bf-s1-3",
+          "t": "Buffy — Witch",
+          "n": "1x03"
+        },
+        {
+          "id": "bf-s1-4",
+          "t": "Buffy — Teacher's Pet",
+          "n": "1x04"
+        },
+        {
+          "id": "bf-s1-5",
+          "t": "Buffy — Never Kill a Boy on the First Date",
+          "n": "1x05"
+        },
+        {
+          "id": "bf-s1-6",
+          "t": "Buffy — The Pack",
+          "n": "1x06"
+        },
+        {
+          "id": "bf-s1-7",
+          "t": "Buffy — Angel",
+          "n": "1x07"
+        },
+        {
+          "id": "bf-s1-8",
+          "t": "Buffy — I, Robot... You, Jane",
+          "n": "1x08"
+        },
+        {
+          "id": "bf-s1-9",
+          "t": "Buffy — The Puppet Show",
+          "n": "1x09"
+        },
+        {
+          "id": "bf-s1-10",
+          "t": "Buffy — Nightmares",
+          "n": "1x10"
+        },
+        {
+          "id": "bf-s1-11",
+          "t": "Buffy — Out of Mind, Out of Sight",
+          "n": "1x11"
+        },
+        {
+          "id": "bf-s1-12",
+          "t": "Buffy — Prophecy Girl",
+          "n": "1x12"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "b2",
+      "title": "Buffy Season 2",
+      "sub": "1997–98 · 22 episodes",
+      "items": [
+        {
+          "id": "bf-s2-1",
+          "t": "Buffy — When She Was Bad",
+          "n": "2x01"
+        },
+        {
+          "id": "bf-s2-2",
+          "t": "Buffy — Some Assembly Required",
+          "n": "2x02"
+        },
+        {
+          "id": "bf-s2-3",
+          "t": "Buffy — School Hard",
+          "n": "2x03"
+        },
+        {
+          "id": "bf-s2-4",
+          "t": "Buffy — Inca Mummy Girl",
+          "n": "2x04"
+        },
+        {
+          "id": "bf-s2-5",
+          "t": "Buffy — Reptile Boy",
+          "n": "2x05"
+        },
+        {
+          "id": "bf-s2-6",
+          "t": "Buffy — Halloween",
+          "n": "2x06"
+        },
+        {
+          "id": "bf-s2-7",
+          "t": "Buffy — Lie to Me",
+          "n": "2x07"
+        },
+        {
+          "id": "bf-s2-8",
+          "t": "Buffy — The Dark Age",
+          "n": "2x08"
+        },
+        {
+          "id": "bf-s2-9",
+          "t": "Buffy — What's My Line? (Part 1)",
+          "n": "2x09"
+        },
+        {
+          "id": "bf-s2-10",
+          "t": "Buffy — What's My Line? (Part 2)",
+          "n": "2x10"
+        },
+        {
+          "id": "bf-s2-11",
+          "t": "Buffy — Ted",
+          "n": "2x11"
+        },
+        {
+          "id": "bf-s2-12",
+          "t": "Buffy — Bad Eggs",
+          "n": "2x12"
+        },
+        {
+          "id": "bf-s2-13",
+          "t": "Buffy — Surprise",
+          "n": "2x13"
+        },
+        {
+          "id": "bf-s2-14",
+          "t": "Buffy — Innocence",
+          "n": "2x14"
+        },
+        {
+          "id": "bf-s2-15",
+          "t": "Buffy — Phases",
+          "n": "2x15"
+        },
+        {
+          "id": "bf-s2-16",
+          "t": "Buffy — Bewitched, Bothered and Bewildered",
+          "n": "2x16"
+        },
+        {
+          "id": "bf-s2-17",
+          "t": "Buffy — Passion",
+          "n": "2x17"
+        },
+        {
+          "id": "bf-s2-18",
+          "t": "Buffy — Killed by Death",
+          "n": "2x18"
+        },
+        {
+          "id": "bf-s2-19",
+          "t": "Buffy — I Only Have Eyes for You",
+          "n": "2x19"
+        },
+        {
+          "id": "bf-s2-20",
+          "t": "Buffy — Go Fish",
+          "n": "2x20"
+        },
+        {
+          "id": "bf-s2-21",
+          "t": "Buffy — Becoming (Part 1)",
+          "n": "2x21"
+        },
+        {
+          "id": "bf-s2-22",
+          "t": "Buffy — Becoming (Part 2)",
+          "n": "2x22"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "title": "Buffy Season 3",
+      "sub": "1998–99 · 22 episodes",
+      "items": [
+        {
+          "id": "bf-s3-1",
+          "t": "Buffy — Anne",
+          "n": "3x01"
+        },
+        {
+          "id": "bf-s3-2",
+          "t": "Buffy — Dead Man's Party",
+          "n": "3x02"
+        },
+        {
+          "id": "bf-s3-3",
+          "t": "Buffy — Faith, Hope & Trick",
+          "n": "3x03"
+        },
+        {
+          "id": "bf-s3-4",
+          "t": "Buffy — Beauty and the Beasts",
+          "n": "3x04"
+        },
+        {
+          "id": "bf-s3-5",
+          "t": "Buffy — Homecoming",
+          "n": "3x05"
+        },
+        {
+          "id": "bf-s3-6",
+          "t": "Buffy — Band Candy",
+          "n": "3x06"
+        },
+        {
+          "id": "bf-s3-7",
+          "t": "Buffy — Revelations",
+          "n": "3x07"
+        },
+        {
+          "id": "bf-s3-8",
+          "t": "Buffy — Lovers Walk",
+          "n": "3x08"
+        },
+        {
+          "id": "bf-s3-9",
+          "t": "Buffy — The Wish",
+          "n": "3x09"
+        },
+        {
+          "id": "bf-s3-10",
+          "t": "Buffy — Amends",
+          "n": "3x10"
+        },
+        {
+          "id": "bf-s3-11",
+          "t": "Buffy — Gingerbread",
+          "n": "3x11"
+        },
+        {
+          "id": "bf-s3-12",
+          "t": "Buffy — Helpless",
+          "n": "3x12"
+        },
+        {
+          "id": "bf-s3-13",
+          "t": "Buffy — The Zeppo",
+          "n": "3x13"
+        },
+        {
+          "id": "bf-s3-14",
+          "t": "Buffy — Bad Girls",
+          "n": "3x14"
+        },
+        {
+          "id": "bf-s3-15",
+          "t": "Buffy — Consequences",
+          "n": "3x15"
+        },
+        {
+          "id": "bf-s3-16",
+          "t": "Buffy — Doppelgangland",
+          "n": "3x16"
+        },
+        {
+          "id": "bf-s3-17",
+          "t": "Buffy — Enemies",
+          "n": "3x17"
+        },
+        {
+          "id": "bf-s3-18",
+          "t": "Buffy — Earshot",
+          "n": "3x18",
+          "note": "Broadcast postponed to September 1999; listed in its season position, as the table files it"
+        },
+        {
+          "id": "bf-s3-19",
+          "t": "Buffy — Choices",
+          "n": "3x19"
+        },
+        {
+          "id": "bf-s3-20",
+          "t": "Buffy — The Prom",
+          "n": "3x20"
+        },
+        {
+          "id": "bf-s3-21",
+          "t": "Buffy — Graduation Day (Part 1)",
+          "n": "3x21"
+        },
+        {
+          "id": "bf-s3-22",
+          "t": "Buffy — Graduation Day (Part 2)",
+          "n": "3x22",
+          "note": "Broadcast postponed to July 1999"
+        }
+      ]
+    },
+    {
+      "id": "w4",
+      "title": "Buffy S4 + Angel S1",
+      "sub": "1999–2000 · 44 episodes, woven by air date",
+      "items": [
+        {
+          "id": "bf-s4-1",
+          "t": "Buffy — The Freshman",
+          "n": "4x01"
+        },
+        {
+          "id": "an-s1-1",
+          "t": "Angel — City Of",
+          "n": "1x01"
+        },
+        {
+          "id": "bf-s4-2",
+          "t": "Buffy — Living Conditions",
+          "n": "4x02"
+        },
+        {
+          "id": "an-s1-2",
+          "t": "Angel — Lonely Heart",
+          "n": "1x02"
+        },
+        {
+          "id": "bf-s4-3",
+          "t": "Buffy — The Harsh Light of Day",
+          "n": "4x03"
+        },
+        {
+          "id": "an-s1-3",
+          "t": "Angel — In the Dark",
+          "n": "1x03"
+        },
+        {
+          "id": "bf-s4-4",
+          "t": "Buffy — Fear, Itself",
+          "n": "4x04"
+        },
+        {
+          "id": "an-s1-4",
+          "t": "Angel — I Fall to Pieces",
+          "n": "1x04"
+        },
+        {
+          "id": "bf-s4-5",
+          "t": "Buffy — Beer Bad",
+          "n": "4x05"
+        },
+        {
+          "id": "an-s1-5",
+          "t": "Angel — Rm w/a Vu",
+          "n": "1x05"
+        },
+        {
+          "id": "bf-s4-6",
+          "t": "Buffy — Wild at Heart",
+          "n": "4x06"
+        },
+        {
+          "id": "an-s1-6",
+          "t": "Angel — Sense & Sensitivity",
+          "n": "1x06"
+        },
+        {
+          "id": "bf-s4-7",
+          "t": "Buffy — The Initiative",
+          "n": "4x07"
+        },
+        {
+          "id": "an-s1-7",
+          "t": "Angel — The Bachelor Party",
+          "n": "1x07"
+        },
+        {
+          "id": "bf-s4-8",
+          "t": "Buffy — Pangs",
+          "n": "4x08",
+          "note": "Continues directly into Angel's \"I Will Remember You\", aired the same night"
+        },
+        {
+          "id": "an-s1-8",
+          "t": "Angel — I Will Remember You",
+          "n": "1x08",
+          "note": "Picks up directly from Buffy's \"Pangs\", aired the same night"
+        },
+        {
+          "id": "bf-s4-9",
+          "t": "Buffy — Something Blue",
+          "n": "4x09"
+        },
+        {
+          "id": "an-s1-9",
+          "t": "Angel — Hero",
+          "n": "1x09"
+        },
+        {
+          "id": "bf-s4-10",
+          "t": "Buffy — Hush",
+          "n": "4x10"
+        },
+        {
+          "id": "an-s1-10",
+          "t": "Angel — Parting Gifts",
+          "n": "1x10"
+        },
+        {
+          "id": "bf-s4-11",
+          "t": "Buffy — Doomed",
+          "n": "4x11"
+        },
+        {
+          "id": "an-s1-11",
+          "t": "Angel — Somnambulist",
+          "n": "1x11"
+        },
+        {
+          "id": "bf-s4-12",
+          "t": "Buffy — A New Man",
+          "n": "4x12"
+        },
+        {
+          "id": "an-s1-12",
+          "t": "Angel — Expecting",
+          "n": "1x12"
+        },
+        {
+          "id": "bf-s4-13",
+          "t": "Buffy — The I in Team",
+          "n": "4x13"
+        },
+        {
+          "id": "an-s1-13",
+          "t": "Angel — She",
+          "n": "1x13"
+        },
+        {
+          "id": "bf-s4-14",
+          "t": "Buffy — Goodbye Iowa",
+          "n": "4x14"
+        },
+        {
+          "id": "an-s1-14",
+          "t": "Angel — I've Got You Under My Skin",
+          "n": "1x14"
+        },
+        {
+          "id": "bf-s4-15",
+          "t": "Buffy — This Year's Girl",
+          "n": "4x15"
+        },
+        {
+          "id": "an-s1-15",
+          "t": "Angel — The Prodigal",
+          "n": "1x15"
+        },
+        {
+          "id": "bf-s4-16",
+          "t": "Buffy — Who Are You?",
+          "n": "4x16"
+        },
+        {
+          "id": "an-s1-16",
+          "t": "Angel — The Ring",
+          "n": "1x16"
+        },
+        {
+          "id": "bf-s4-17",
+          "t": "Buffy — Superstar",
+          "n": "4x17"
+        },
+        {
+          "id": "an-s1-17",
+          "t": "Angel — Eternity",
+          "n": "1x17"
+        },
+        {
+          "id": "bf-s4-18",
+          "t": "Buffy — Where the Wild Things Are",
+          "n": "4x18"
+        },
+        {
+          "id": "an-s1-18",
+          "t": "Angel — Five by Five",
+          "n": "1x18"
+        },
+        {
+          "id": "bf-s4-19",
+          "t": "Buffy — New Moon Rising",
+          "n": "4x19"
+        },
+        {
+          "id": "an-s1-19",
+          "t": "Angel — Sanctuary",
+          "n": "1x19"
+        },
+        {
+          "id": "bf-s4-20",
+          "t": "Buffy — The Yoko Factor",
+          "n": "4x20"
+        },
+        {
+          "id": "an-s1-20",
+          "t": "Angel — War Zone",
+          "n": "1x20"
+        },
+        {
+          "id": "bf-s4-21",
+          "t": "Buffy — Primeval",
+          "n": "4x21"
+        },
+        {
+          "id": "an-s1-21",
+          "t": "Angel — Blind Date",
+          "n": "1x21"
+        },
+        {
+          "id": "bf-s4-22",
+          "t": "Buffy — Restless",
+          "n": "4x22"
+        },
+        {
+          "id": "an-s1-22",
+          "t": "Angel — To Shanshu in L.A.",
+          "n": "1x22"
+        }
+      ],
+      "intro": "Angel begins. From here to May 2003 the two shows ran side by side and the rows follow the original air dates, whichever show is next."
+    },
+    {
+      "id": "w5",
+      "title": "Buffy S5 + Angel S2",
+      "sub": "2000–01 · 44 episodes, woven by air date",
+      "items": [
+        {
+          "id": "bf-s5-1",
+          "t": "Buffy — Buffy vs. Dracula",
+          "n": "5x01"
+        },
+        {
+          "id": "an-s2-1",
+          "t": "Angel — Judgment",
+          "n": "2x01"
+        },
+        {
+          "id": "bf-s5-2",
+          "t": "Buffy — Real Me",
+          "n": "5x02"
+        },
+        {
+          "id": "an-s2-2",
+          "t": "Angel — Are You Now or Have You Ever Been",
+          "n": "2x02"
+        },
+        {
+          "id": "bf-s5-3",
+          "t": "Buffy — The Replacement",
+          "n": "5x03"
+        },
+        {
+          "id": "an-s2-3",
+          "t": "Angel — First ImpressionsFirst Impressions",
+          "n": "2x03"
+        },
+        {
+          "id": "bf-s5-4",
+          "t": "Buffy — Out of My Mind",
+          "n": "5x04"
+        },
+        {
+          "id": "an-s2-4",
+          "t": "Angel — Untouched",
+          "n": "2x04"
+        },
+        {
+          "id": "bf-s5-5",
+          "t": "Buffy — No Place Like Home",
+          "n": "5x05"
+        },
+        {
+          "id": "an-s2-5",
+          "t": "Angel — Dear Boy",
+          "n": "2x05"
+        },
+        {
+          "id": "bf-s5-6",
+          "t": "Buffy — Family",
+          "n": "5x06"
+        },
+        {
+          "id": "an-s2-6",
+          "t": "Angel — Guise Will Be Guise",
+          "n": "2x06"
+        },
+        {
+          "id": "bf-s5-7",
+          "t": "Buffy — Fool for Love",
+          "n": "5x07",
+          "note": "Companion half of a two-show flashback story — Angel's \"Darla\" aired the same night"
+        },
+        {
+          "id": "an-s2-7",
+          "t": "Angel — Darla",
+          "n": "2x07",
+          "note": "Companion half of a two-show flashback story — Buffy's \"Fool for Love\" aired the same night"
+        },
+        {
+          "id": "bf-s5-8",
+          "t": "Buffy — Shadow",
+          "n": "5x08"
+        },
+        {
+          "id": "an-s2-8",
+          "t": "Angel — The Shroud of Rahmon",
+          "n": "2x08"
+        },
+        {
+          "id": "bf-s5-9",
+          "t": "Buffy — Listening to Fear",
+          "n": "5x09"
+        },
+        {
+          "id": "an-s2-9",
+          "t": "Angel — The Trial",
+          "n": "2x09"
+        },
+        {
+          "id": "bf-s5-10",
+          "t": "Buffy — Into the Woods",
+          "n": "5x10"
+        },
+        {
+          "id": "an-s2-10",
+          "t": "Angel — Reunion",
+          "n": "2x10"
+        },
+        {
+          "id": "bf-s5-11",
+          "t": "Buffy — Triangle",
+          "n": "5x11"
+        },
+        {
+          "id": "an-s2-11",
+          "t": "Angel — Redefinition",
+          "n": "2x11"
+        },
+        {
+          "id": "bf-s5-12",
+          "t": "Buffy — Checkpoint",
+          "n": "5x12"
+        },
+        {
+          "id": "an-s2-12",
+          "t": "Angel — Blood Money",
+          "n": "2x12"
+        },
+        {
+          "id": "bf-s5-13",
+          "t": "Buffy — Blood Ties",
+          "n": "5x13"
+        },
+        {
+          "id": "an-s2-13",
+          "t": "Angel — Happy Anniversary",
+          "n": "2x13"
+        },
+        {
+          "id": "bf-s5-14",
+          "t": "Buffy — Crush",
+          "n": "5x14"
+        },
+        {
+          "id": "an-s2-14",
+          "t": "Angel — The Thin Dead Line",
+          "n": "2x14"
+        },
+        {
+          "id": "bf-s5-15",
+          "t": "Buffy — I Was Made to Love You",
+          "n": "5x15"
+        },
+        {
+          "id": "an-s2-15",
+          "t": "Angel — Reprise",
+          "n": "2x15"
+        },
+        {
+          "id": "bf-s5-16",
+          "t": "Buffy — The Body",
+          "n": "5x16"
+        },
+        {
+          "id": "an-s2-16",
+          "t": "Angel — Epiphany",
+          "n": "2x16"
+        },
+        {
+          "id": "bf-s5-17",
+          "t": "Buffy — Forever",
+          "n": "5x17"
+        },
+        {
+          "id": "an-s2-17",
+          "t": "Angel — Disharmony",
+          "n": "2x17"
+        },
+        {
+          "id": "bf-s5-18",
+          "t": "Buffy — Intervention",
+          "n": "5x18"
+        },
+        {
+          "id": "an-s2-18",
+          "t": "Angel — Dead End",
+          "n": "2x18"
+        },
+        {
+          "id": "bf-s5-19",
+          "t": "Buffy — Tough Love",
+          "n": "5x19"
+        },
+        {
+          "id": "an-s2-19",
+          "t": "Angel — Belonging",
+          "n": "2x19"
+        },
+        {
+          "id": "bf-s5-20",
+          "t": "Buffy — Spiral",
+          "n": "5x20"
+        },
+        {
+          "id": "an-s2-20",
+          "t": "Angel — Over the Rainbow",
+          "n": "2x20"
+        },
+        {
+          "id": "bf-s5-21",
+          "t": "Buffy — The Weight of the World",
+          "n": "5x21"
+        },
+        {
+          "id": "an-s2-21",
+          "t": "Angel — Through the Looking Glass",
+          "n": "2x21"
+        },
+        {
+          "id": "bf-s5-22",
+          "t": "Buffy — The Gift",
+          "n": "5x22"
+        },
+        {
+          "id": "an-s2-22",
+          "t": "Angel — There's No Place Like Plrtz Glrb",
+          "n": "2x22"
+        }
+      ]
+    },
+    {
+      "id": "w6",
+      "title": "Buffy S6 + Angel S3",
+      "sub": "2001–02 · 44 episodes, woven by air date",
+      "items": [
+        {
+          "id": "an-s3-1",
+          "t": "Angel — Heartthrob",
+          "n": "3x01"
+        },
+        {
+          "id": "an-s3-2",
+          "t": "Angel — That Vision Thing",
+          "n": "3x02"
+        },
+        {
+          "id": "bf-s6-1",
+          "t": "Buffy — Bargaining (Part 1)",
+          "n": "6x01"
+        },
+        {
+          "id": "bf-s6-2",
+          "t": "Buffy — Bargaining (Part 2)",
+          "n": "6x02"
+        },
+        {
+          "id": "an-s3-3",
+          "t": "Angel — That Old Gang of Mine",
+          "n": "3x03"
+        },
+        {
+          "id": "bf-s6-3",
+          "t": "Buffy — After Life",
+          "n": "6x03"
+        },
+        {
+          "id": "an-s3-4",
+          "t": "Angel — Carpe Noctem",
+          "n": "3x04"
+        },
+        {
+          "id": "bf-s6-4",
+          "t": "Buffy — Flooded",
+          "n": "6x04"
+        },
+        {
+          "id": "an-s3-5",
+          "t": "Angel — Fredless",
+          "n": "3x05"
+        },
+        {
+          "id": "bf-s6-5",
+          "t": "Buffy — Life Serial",
+          "n": "6x05"
+        },
+        {
+          "id": "an-s3-6",
+          "t": "Angel — Billy",
+          "n": "3x06"
+        },
+        {
+          "id": "bf-s6-6",
+          "t": "Buffy — All the Way",
+          "n": "6x06"
+        },
+        {
+          "id": "an-s3-7",
+          "t": "Angel — Offspring",
+          "n": "3x07"
+        },
+        {
+          "id": "bf-s6-7",
+          "t": "Buffy — Once More, with Feeling",
+          "n": "6x07"
+        },
+        {
+          "id": "an-s3-8",
+          "t": "Angel — Quickening",
+          "n": "3x08"
+        },
+        {
+          "id": "bf-s6-8",
+          "t": "Buffy — Tabula Rasa",
+          "n": "6x08"
+        },
+        {
+          "id": "an-s3-9",
+          "t": "Angel — Lullaby",
+          "n": "3x09"
+        },
+        {
+          "id": "bf-s6-9",
+          "t": "Buffy — Smashed",
+          "n": "6x09"
+        },
+        {
+          "id": "bf-s6-10",
+          "t": "Buffy — Wrecked",
+          "n": "6x10"
+        },
+        {
+          "id": "an-s3-10",
+          "t": "Angel — Dad",
+          "n": "3x10"
+        },
+        {
+          "id": "bf-s6-11",
+          "t": "Buffy — Gone",
+          "n": "6x11"
+        },
+        {
+          "id": "an-s3-11",
+          "t": "Angel — Birthday",
+          "n": "3x11"
+        },
+        {
+          "id": "an-s3-12",
+          "t": "Angel — Provider",
+          "n": "3x12"
+        },
+        {
+          "id": "bf-s6-12",
+          "t": "Buffy — Doublemeat Palace",
+          "n": "6x12"
+        },
+        {
+          "id": "an-s3-13",
+          "t": "Angel — Waiting in the Wings",
+          "n": "3x13"
+        },
+        {
+          "id": "bf-s6-13",
+          "t": "Buffy — Dead Things",
+          "n": "6x13"
+        },
+        {
+          "id": "bf-s6-14",
+          "t": "Buffy — Older and Far Away",
+          "n": "6x14"
+        },
+        {
+          "id": "an-s3-14",
+          "t": "Angel — Couplet",
+          "n": "3x14"
+        },
+        {
+          "id": "an-s3-15",
+          "t": "Angel — Loyalty",
+          "n": "3x15"
+        },
+        {
+          "id": "bf-s6-15",
+          "t": "Buffy — As You Were",
+          "n": "6x15"
+        },
+        {
+          "id": "an-s3-16",
+          "t": "Angel — Sleep Tight",
+          "n": "3x16"
+        },
+        {
+          "id": "bf-s6-16",
+          "t": "Buffy — Hell's Bells",
+          "n": "6x16"
+        },
+        {
+          "id": "bf-s6-17",
+          "t": "Buffy — Normal Again",
+          "n": "6x17"
+        },
+        {
+          "id": "an-s3-17",
+          "t": "Angel — Forgiving",
+          "n": "3x17"
+        },
+        {
+          "id": "an-s3-18",
+          "t": "Angel — Double or Nothing",
+          "n": "3x18"
+        },
+        {
+          "id": "an-s3-19",
+          "t": "Angel — The Price",
+          "n": "3x19"
+        },
+        {
+          "id": "bf-s6-18",
+          "t": "Buffy — Entropy",
+          "n": "6x18"
+        },
+        {
+          "id": "an-s3-20",
+          "t": "Angel — A New World",
+          "n": "3x20"
+        },
+        {
+          "id": "bf-s6-19",
+          "t": "Buffy — Seeing Red",
+          "n": "6x19"
+        },
+        {
+          "id": "an-s3-21",
+          "t": "Angel — Benediction",
+          "n": "3x21"
+        },
+        {
+          "id": "bf-s6-20",
+          "t": "Buffy — Villains",
+          "n": "6x20"
+        },
+        {
+          "id": "an-s3-22",
+          "t": "Angel — Tomorrow",
+          "n": "3x22"
+        },
+        {
+          "id": "bf-s6-21",
+          "t": "Buffy — Two to Go",
+          "n": "6x21"
+        },
+        {
+          "id": "bf-s6-22",
+          "t": "Buffy — Grave",
+          "n": "6x22"
+        }
+      ]
+    },
+    {
+      "id": "w7",
+      "title": "Buffy S7 + Angel S4",
+      "sub": "2002–03 · 44 episodes, woven by air date",
+      "items": [
+        {
+          "id": "bf-s7-1",
+          "t": "Buffy — Lessons",
+          "n": "7x01"
+        },
+        {
+          "id": "bf-s7-2",
+          "t": "Buffy — Beneath You",
+          "n": "7x02"
+        },
+        {
+          "id": "an-s4-1",
+          "t": "Angel — Deep Down",
+          "n": "4x01"
+        },
+        {
+          "id": "bf-s7-3",
+          "t": "Buffy — Same Time, Same Place",
+          "n": "7x03"
+        },
+        {
+          "id": "an-s4-2",
+          "t": "Angel — Ground State",
+          "n": "4x02"
+        },
+        {
+          "id": "bf-s7-4",
+          "t": "Buffy — Help",
+          "n": "7x04"
+        },
+        {
+          "id": "an-s4-3",
+          "t": "Angel — The House Always Wins",
+          "n": "4x03"
+        },
+        {
+          "id": "bf-s7-5",
+          "t": "Buffy — Selfless",
+          "n": "7x05"
+        },
+        {
+          "id": "an-s4-4",
+          "t": "Angel — Slouching Toward Bethlehem",
+          "n": "4x04"
+        },
+        {
+          "id": "an-s4-5",
+          "t": "Angel — Supersymmetry",
+          "n": "4x05"
+        },
+        {
+          "id": "bf-s7-6",
+          "t": "Buffy — Him",
+          "n": "7x06"
+        },
+        {
+          "id": "an-s4-6",
+          "t": "Angel — Spin the Bottle",
+          "n": "4x06"
+        },
+        {
+          "id": "bf-s7-7",
+          "t": "Buffy — Conversations with Dead People",
+          "n": "7x07"
+        },
+        {
+          "id": "an-s4-7",
+          "t": "Angel — Apocalypse, Nowish",
+          "n": "4x07"
+        },
+        {
+          "id": "bf-s7-8",
+          "t": "Buffy — Sleeper",
+          "n": "7x08"
+        },
+        {
+          "id": "bf-s7-9",
+          "t": "Buffy — Never Leave Me",
+          "n": "7x09"
+        },
+        {
+          "id": "bf-s7-10",
+          "t": "Buffy — Bring on the Night",
+          "n": "7x10"
+        },
+        {
+          "id": "bf-s7-11",
+          "t": "Buffy — Showtime",
+          "n": "7x11"
+        },
+        {
+          "id": "an-s4-8",
+          "t": "Angel — Habeas Corpses",
+          "n": "4x08"
+        },
+        {
+          "id": "bf-s7-12",
+          "t": "Buffy — Potential",
+          "n": "7x12"
+        },
+        {
+          "id": "an-s4-9",
+          "t": "Angel — Long Day's Journey",
+          "n": "4x09"
+        },
+        {
+          "id": "an-s4-10",
+          "t": "Angel — Awakening",
+          "n": "4x10"
+        },
+        {
+          "id": "bf-s7-13",
+          "t": "Buffy — The Killer in Me",
+          "n": "7x13"
+        },
+        {
+          "id": "an-s4-11",
+          "t": "Angel — Soulless",
+          "n": "4x11"
+        },
+        {
+          "id": "bf-s7-14",
+          "t": "Buffy — First Date",
+          "n": "7x14"
+        },
+        {
+          "id": "an-s4-12",
+          "t": "Angel — Calvary",
+          "n": "4x12"
+        },
+        {
+          "id": "bf-s7-15",
+          "t": "Buffy — Get It Done",
+          "n": "7x15"
+        },
+        {
+          "id": "bf-s7-16",
+          "t": "Buffy — Storyteller",
+          "n": "7x16"
+        },
+        {
+          "id": "an-s4-13",
+          "t": "Angel — Salvage",
+          "n": "4x13"
+        },
+        {
+          "id": "an-s4-14",
+          "t": "Angel — Release",
+          "n": "4x14"
+        },
+        {
+          "id": "an-s4-15",
+          "t": "Angel — Orpheus",
+          "n": "4x15"
+        },
+        {
+          "id": "bf-s7-17",
+          "t": "Buffy — Lies My Parents Told Me",
+          "n": "7x17"
+        },
+        {
+          "id": "an-s4-16",
+          "t": "Angel — Players",
+          "n": "4x16"
+        },
+        {
+          "id": "an-s4-17",
+          "t": "Angel — Inside Out",
+          "n": "4x17"
+        },
+        {
+          "id": "an-s4-18",
+          "t": "Angel — Shiny Happy People",
+          "n": "4x18"
+        },
+        {
+          "id": "bf-s7-18",
+          "t": "Buffy — Dirty Girls",
+          "n": "7x18"
+        },
+        {
+          "id": "an-s4-19",
+          "t": "Angel — The Magic Bullet",
+          "n": "4x19"
+        },
+        {
+          "id": "an-s4-20",
+          "t": "Angel — Sacrifice",
+          "n": "4x20"
+        },
+        {
+          "id": "bf-s7-19",
+          "t": "Buffy — Empty Places",
+          "n": "7x19"
+        },
+        {
+          "id": "an-s4-21",
+          "t": "Angel — Peace Out",
+          "n": "4x21"
+        },
+        {
+          "id": "bf-s7-20",
+          "t": "Buffy — Touched",
+          "n": "7x20"
+        },
+        {
+          "id": "an-s4-22",
+          "t": "Angel — Home",
+          "n": "4x22"
+        },
+        {
+          "id": "bf-s7-21",
+          "t": "Buffy — End of Days",
+          "n": "7x21"
+        },
+        {
+          "id": "bf-s7-22",
+          "t": "Buffy — Chosen",
+          "n": "7x22"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "title": "Angel Season 5",
+      "sub": "2003–04 · 22 episodes",
+      "items": [
+        {
+          "id": "an-s5-1",
+          "t": "Angel — Conviction",
+          "n": "5x01"
+        },
+        {
+          "id": "an-s5-2",
+          "t": "Angel — Just Rewards",
+          "n": "5x02"
+        },
+        {
+          "id": "an-s5-3",
+          "t": "Angel — Unleashed",
+          "n": "5x03"
+        },
+        {
+          "id": "an-s5-4",
+          "t": "Angel — Hell Bound",
+          "n": "5x04"
+        },
+        {
+          "id": "an-s5-5",
+          "t": "Angel — Life of the Party",
+          "n": "5x05"
+        },
+        {
+          "id": "an-s5-6",
+          "t": "Angel — The Cautionary Tale of Numero Cinco",
+          "n": "5x06"
+        },
+        {
+          "id": "an-s5-7",
+          "t": "Angel — Lineage",
+          "n": "5x07"
+        },
+        {
+          "id": "an-s5-8",
+          "t": "Angel — Destiny",
+          "n": "5x08"
+        },
+        {
+          "id": "an-s5-9",
+          "t": "Angel — Harm's Way",
+          "n": "5x09"
+        },
+        {
+          "id": "an-s5-10",
+          "t": "Angel — Soul Purpose",
+          "n": "5x10"
+        },
+        {
+          "id": "an-s5-11",
+          "t": "Angel — Damage",
+          "n": "5x11"
+        },
+        {
+          "id": "an-s5-12",
+          "t": "Angel — You're Welcome",
+          "n": "5x12"
+        },
+        {
+          "id": "an-s5-13",
+          "t": "Angel — Why We Fight",
+          "n": "5x13"
+        },
+        {
+          "id": "an-s5-14",
+          "t": "Angel — Smile Time",
+          "n": "5x14"
+        },
+        {
+          "id": "an-s5-15",
+          "t": "Angel — A Hole in the World",
+          "n": "5x15"
+        },
+        {
+          "id": "an-s5-16",
+          "t": "Angel — Shells",
+          "n": "5x16"
+        },
+        {
+          "id": "an-s5-17",
+          "t": "Angel — Underneath",
+          "n": "5x17"
+        },
+        {
+          "id": "an-s5-18",
+          "t": "Angel — Origin",
+          "n": "5x18"
+        },
+        {
+          "id": "an-s5-19",
+          "t": "Angel — Time Bomb",
+          "n": "5x19"
+        },
+        {
+          "id": "an-s5-20",
+          "t": "Angel — The Girl in Question",
+          "n": "5x20"
+        },
+        {
+          "id": "an-s5-21",
+          "t": "Angel — Power Play",
+          "n": "5x21"
+        },
+        {
+          "id": "an-s5-22",
+          "t": "Angel — Not Fade Away",
+          "n": "5x22"
+        }
+      ]
+    }
+  ]
+}

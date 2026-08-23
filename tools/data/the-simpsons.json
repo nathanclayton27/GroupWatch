@@ -1,0 +1,908 @@
+{
+ "1": [
+  {
+   "e": 1,
+   "t": "Simpsons Roasting on an Open Fire",
+   "air": "1989-12-17"
+  },
+  {
+   "e": 2,
+   "t": "Bart the Genius",
+   "air": "1990-01-14"
+  },
+  {
+   "e": 3,
+   "t": "Homer's Odyssey",
+   "air": "1990-01-21"
+  },
+  {
+   "e": 4,
+   "t": "There's No Disgrace Like Home",
+   "air": "1990-01-28"
+  },
+  {
+   "e": 5,
+   "t": "Bart the General",
+   "air": "1990-02-04"
+  },
+  {
+   "e": 6,
+   "t": "Moaning Lisa",
+   "air": "1990-02-11"
+  },
+  {
+   "e": 7,
+   "t": "The Call of the Simpsons",
+   "air": "1990-02-18"
+  },
+  {
+   "e": 8,
+   "t": "The Telltale Head",
+   "air": "1990-02-25"
+  },
+  {
+   "e": 9,
+   "t": "Life on the Fast Lane",
+   "air": "1990-03-18"
+  },
+  {
+   "e": 10,
+   "t": "Homer's Night Out",
+   "air": "1990-03-25"
+  },
+  {
+   "e": 11,
+   "t": "The Crepes of Wrath",
+   "air": "1990-04-15"
+  },
+  {
+   "e": 12,
+   "t": "Krusty Gets Busted",
+   "air": "1990-04-29"
+  },
+  {
+   "e": 13,
+   "t": "Some Enchanted Evening",
+   "air": "1990-05-13"
+  }
+ ],
+ "2": [
+  {
+   "e": 1,
+   "t": "Bart Gets an 'F'",
+   "air": "1990-10-11"
+  },
+  {
+   "e": 2,
+   "t": "Simpson and Delilah",
+   "air": "1990-10-18"
+  },
+  {
+   "e": 3,
+   "t": "Treehouse of Horror",
+   "air": "1990-10-25"
+  },
+  {
+   "e": 4,
+   "t": "Two Cars in Every Garage and Three Eyes on Every Fish",
+   "air": "1990-11-01"
+  },
+  {
+   "e": 5,
+   "t": "Dancin' Homer",
+   "air": "1990-11-08"
+  },
+  {
+   "e": 6,
+   "t": "Dead Putting Society",
+   "air": "1990-11-15"
+  },
+  {
+   "e": 7,
+   "t": "Bart vs. Thanksgiving",
+   "air": "1990-11-22"
+  },
+  {
+   "e": 8,
+   "t": "Bart the Daredevil",
+   "air": "1990-12-06"
+  },
+  {
+   "e": 9,
+   "t": "Itchy & Scratchy & Marge",
+   "air": "1990-12-20"
+  },
+  {
+   "e": 10,
+   "t": "Bart Gets Hit by a Car",
+   "air": "1991-01-10"
+  },
+  {
+   "e": 11,
+   "t": "One Fish, Two Fish, Blowfish, Blue Fish",
+   "air": "1991-01-24"
+  },
+  {
+   "e": 12,
+   "t": "The Way We Was",
+   "air": "1991-01-31"
+  },
+  {
+   "e": 13,
+   "t": "Homer vs. Lisa and the 8th Commandment",
+   "air": "1991-02-07"
+  },
+  {
+   "e": 14,
+   "t": "Principal Charming",
+   "air": "1991-02-14"
+  },
+  {
+   "e": 15,
+   "t": "Oh Brother, Where Art Thou?",
+   "air": "1991-02-21"
+  },
+  {
+   "e": 16,
+   "t": "Bart's Dog Gets an 'F'",
+   "air": "1991-03-07"
+  },
+  {
+   "e": 17,
+   "t": "Old Money",
+   "air": "1991-03-28"
+  },
+  {
+   "e": 18,
+   "t": "Brush with Greatness",
+   "air": "1991-04-11"
+  },
+  {
+   "e": 19,
+   "t": "Lisa's Substitute",
+   "air": "1991-04-25"
+  },
+  {
+   "e": 20,
+   "t": "The War of the Simpsons",
+   "air": "1991-05-02"
+  },
+  {
+   "e": 21,
+   "t": "Three Men and a Comic Book",
+   "air": "1991-05-09"
+  },
+  {
+   "e": 22,
+   "t": "Blood Feud",
+   "air": "1991-07-11"
+  }
+ ],
+ "3": [
+  {
+   "e": 1,
+   "t": "Stark Raving Dad",
+   "air": "1991-09-19"
+  },
+  {
+   "e": 2,
+   "t": "Mr. Lisa Goes to Washington",
+   "air": "1991-09-26"
+  },
+  {
+   "e": 3,
+   "t": "When Flanders Failed",
+   "air": "1991-10-03"
+  },
+  {
+   "e": 4,
+   "t": "Bart the Murderer",
+   "air": "1991-10-10"
+  },
+  {
+   "e": 5,
+   "t": "Homer Defined",
+   "air": "1991-10-17"
+  },
+  {
+   "e": 6,
+   "t": "Like Father, Like Clown",
+   "air": "1991-10-24"
+  },
+  {
+   "e": 7,
+   "t": "Treehouse of Horror II",
+   "air": "1991-10-31"
+  },
+  {
+   "e": 8,
+   "t": "Lisa's Pony",
+   "air": "1991-11-07"
+  },
+  {
+   "e": 9,
+   "t": "Saturdays of Thunder",
+   "air": "1991-11-14"
+  },
+  {
+   "e": 10,
+   "t": "Flaming Moe's",
+   "air": "1991-11-21"
+  },
+  {
+   "e": 11,
+   "t": "Burns Verkaufen der Kraftwerk",
+   "air": "1991-12-05"
+  },
+  {
+   "e": 12,
+   "t": "I Married Marge",
+   "air": "1991-12-26"
+  },
+  {
+   "e": 13,
+   "t": "Radio Bart",
+   "air": "1992-01-09"
+  },
+  {
+   "e": 14,
+   "t": "Lisa the Greek",
+   "air": "1992-01-23"
+  },
+  {
+   "e": 15,
+   "t": "Homer Alone",
+   "air": "1992-02-06"
+  },
+  {
+   "e": 16,
+   "t": "Bart the Lover",
+   "air": "1992-02-13"
+  },
+  {
+   "e": 17,
+   "t": "Homer at the Bat",
+   "air": "1992-02-20"
+  },
+  {
+   "e": 18,
+   "t": "Separate Vocations",
+   "air": "1992-02-27"
+  },
+  {
+   "e": 19,
+   "t": "Dog of Death",
+   "air": "1992-03-12"
+  },
+  {
+   "e": 20,
+   "t": "Colonel Homer",
+   "air": "1992-03-26"
+  },
+  {
+   "e": 21,
+   "t": "Black Widower",
+   "air": "1992-04-09"
+  },
+  {
+   "e": 22,
+   "t": "The Otto Show",
+   "air": "1992-04-23"
+  },
+  {
+   "e": 23,
+   "t": "Bart's Friend Falls in Love",
+   "air": "1992-05-07"
+  },
+  {
+   "e": 24,
+   "t": "Brother, Can You Spare Two Dimes?",
+   "air": "1992-08-27"
+  }
+ ],
+ "4": [
+  {
+   "e": 1,
+   "t": "Kamp Krusty",
+   "air": "1992-09-24"
+  },
+  {
+   "e": 2,
+   "t": "A Streetcar Named Marge",
+   "air": "1992-10-01"
+  },
+  {
+   "e": 3,
+   "t": "Homer the Heretic",
+   "air": "1992-10-08"
+  },
+  {
+   "e": 4,
+   "t": "Lisa the Beauty Queen",
+   "air": "1992-10-15"
+  },
+  {
+   "e": 5,
+   "t": "Treehouse of Horror III",
+   "air": "1992-10-29"
+  },
+  {
+   "e": 6,
+   "t": "Itchy & Scratchy: The Movie",
+   "air": "1992-11-03"
+  },
+  {
+   "e": 7,
+   "t": "Marge Gets a Job",
+   "air": "1992-11-05"
+  },
+  {
+   "e": 8,
+   "t": "New Kid on the Block",
+   "air": "1992-11-12"
+  },
+  {
+   "e": 9,
+   "t": "Mr. Plow",
+   "air": "1992-11-19"
+  },
+  {
+   "e": 10,
+   "t": "Lisa's First Word",
+   "air": "1992-12-03"
+  },
+  {
+   "e": 11,
+   "t": "Homer's Triple Bypass",
+   "air": "1992-12-17"
+  },
+  {
+   "e": 12,
+   "t": "Marge vs. the Monorail",
+   "air": "1993-01-14"
+  },
+  {
+   "e": 13,
+   "t": "Selma's Choice",
+   "air": "1993-01-21"
+  },
+  {
+   "e": 14,
+   "t": "Brother from the Same Planet",
+   "air": "1993-02-04"
+  },
+  {
+   "e": 15,
+   "t": "I Love Lisa",
+   "air": "1993-02-11"
+  },
+  {
+   "e": 16,
+   "t": "Duffless",
+   "air": "1993-02-18"
+  },
+  {
+   "e": 17,
+   "t": "Last Exit to Springfield",
+   "air": "1993-03-11"
+  },
+  {
+   "e": 18,
+   "t": "So It's Come to This: A Simpsons Clip Show",
+   "air": "1993-04-01"
+  },
+  {
+   "e": 19,
+   "t": "The Front",
+   "air": "1993-04-15"
+  },
+  {
+   "e": 20,
+   "t": "Whacking Day",
+   "air": "1993-04-29"
+  },
+  {
+   "e": 21,
+   "t": "Marge in Chains",
+   "air": "1993-05-06"
+  },
+  {
+   "e": 22,
+   "t": "Krusty Gets Kancelled",
+   "air": "1993-05-13"
+  }
+ ],
+ "5": [
+  {
+   "e": 1,
+   "t": "Homer's Barbershop Quartet",
+   "air": "1993-09-30"
+  },
+  {
+   "e": 2,
+   "t": "Cape Feare",
+   "air": "1993-10-07"
+  },
+  {
+   "e": 3,
+   "t": "Homer Goes to College",
+   "air": "1993-10-14"
+  },
+  {
+   "e": 4,
+   "t": "Rosebud",
+   "air": "1993-10-21"
+  },
+  {
+   "e": 5,
+   "t": "Treehouse of Horror IV",
+   "air": "1993-10-28"
+  },
+  {
+   "e": 6,
+   "t": "Marge on the Lam",
+   "air": "1993-11-04"
+  },
+  {
+   "e": 7,
+   "t": "Bart's Inner Child",
+   "air": "1993-11-11"
+  },
+  {
+   "e": 8,
+   "t": "Boy-Scoutz 'n the Hood",
+   "air": "1993-11-18"
+  },
+  {
+   "e": 9,
+   "t": "The Last Temptation of Homer",
+   "air": "1993-12-09"
+  },
+  {
+   "e": 10,
+   "t": "$pringfield (or, How I Learned to Stop Worrying and Love Legalized Gambling)",
+   "air": "1993-12-16"
+  },
+  {
+   "e": 11,
+   "t": "Homer the Vigilante",
+   "air": "1994-01-06"
+  },
+  {
+   "e": 12,
+   "t": "Bart Gets Famous",
+   "air": "1994-02-03"
+  },
+  {
+   "e": 13,
+   "t": "Homer and Apu",
+   "air": "1994-02-10"
+  },
+  {
+   "e": 14,
+   "t": "Lisa vs. Malibu Stacy",
+   "air": "1994-02-17"
+  },
+  {
+   "e": 15,
+   "t": "Deep Space Homer",
+   "air": "1994-02-24"
+  },
+  {
+   "e": 16,
+   "t": "Homer Loves Flanders",
+   "air": "1994-03-17"
+  },
+  {
+   "e": 17,
+   "t": "Bart Gets an Elephant",
+   "air": "1994-03-31"
+  },
+  {
+   "e": 18,
+   "t": "Burns' Heir",
+   "air": "1994-04-14"
+  },
+  {
+   "e": 19,
+   "t": "Sweet Seymour Skinner's Baadasssss Song",
+   "air": "1994-04-28"
+  },
+  {
+   "e": 20,
+   "t": "The Boy Who Knew Too Much",
+   "air": "1994-05-05"
+  },
+  {
+   "e": 21,
+   "t": "Lady Bouvier's Lover",
+   "air": "1994-05-12"
+  },
+  {
+   "e": 22,
+   "t": "Secrets of a Successful Marriage",
+   "air": "1994-05-19"
+  }
+ ],
+ "6": [
+  {
+   "e": 1,
+   "t": "Bart of Darkness",
+   "air": "1994-09-04"
+  },
+  {
+   "e": 2,
+   "t": "Lisa's Rival",
+   "air": "1994-09-11"
+  },
+  {
+   "e": 3,
+   "t": "Another Simpsons Clip Show",
+   "air": "1994-09-25"
+  },
+  {
+   "e": 4,
+   "t": "Itchy & Scratchy Land",
+   "air": "1994-10-02"
+  },
+  {
+   "e": 5,
+   "t": "Sideshow Bob Roberts",
+   "air": "1994-10-09"
+  },
+  {
+   "e": 6,
+   "t": "Treehouse of Horror V",
+   "air": "1994-10-30"
+  },
+  {
+   "e": 7,
+   "t": "Bart's Girlfriend",
+   "air": "1994-11-06"
+  },
+  {
+   "e": 8,
+   "t": "Lisa on Ice",
+   "air": "1994-11-13"
+  },
+  {
+   "e": 9,
+   "t": "Homer Badman",
+   "air": "1994-11-27"
+  },
+  {
+   "e": 10,
+   "t": "Grampa vs. Sexual Inadequacy",
+   "air": "1994-12-04"
+  },
+  {
+   "e": 11,
+   "t": "Fear of Flying",
+   "air": "1994-12-18"
+  },
+  {
+   "e": 12,
+   "t": "Homer the Great",
+   "air": "1995-01-08"
+  },
+  {
+   "e": 13,
+   "t": "And Maggie Makes Three",
+   "air": "1995-01-22"
+  },
+  {
+   "e": 14,
+   "t": "Bart's Comet",
+   "air": "1995-02-05"
+  },
+  {
+   "e": 15,
+   "t": "Homie the Clown",
+   "air": "1995-02-12"
+  },
+  {
+   "e": 16,
+   "t": "Bart vs. Australia",
+   "air": "1995-02-19"
+  },
+  {
+   "e": 17,
+   "t": "Homer vs. Patty and Selma",
+   "air": "1995-02-26"
+  },
+  {
+   "e": 18,
+   "t": "A Star Is Burns",
+   "air": "1995-03-05"
+  },
+  {
+   "e": 19,
+   "t": "Lisa's Wedding",
+   "air": "1995-03-19"
+  },
+  {
+   "e": 20,
+   "t": "Two Dozen and One Greyhounds",
+   "air": "1995-04-09"
+  },
+  {
+   "e": 21,
+   "t": "The PTA Disbands",
+   "air": "1995-04-16"
+  },
+  {
+   "e": 22,
+   "t": "'Round Springfield",
+   "air": "1995-04-30"
+  },
+  {
+   "e": 23,
+   "t": "The Springfield Connection",
+   "air": "1995-05-07"
+  },
+  {
+   "e": 24,
+   "t": "Lemon of Troy",
+   "air": "1995-05-14"
+  },
+  {
+   "e": 25,
+   "t": "Who Shot Mr. Burns? (Part One)",
+   "air": "1995-05-21"
+  }
+ ],
+ "7": [
+  {
+   "e": 1,
+   "t": "Who Shot Mr. Burns? (Part Two)",
+   "air": "1995-09-17"
+  },
+  {
+   "e": 2,
+   "t": "Radioactive Man",
+   "air": "1995-09-24"
+  },
+  {
+   "e": 3,
+   "t": "Home Sweet Homediddly-Dum-Doodily",
+   "air": "1995-10-01"
+  },
+  {
+   "e": 4,
+   "t": "Bart Sells His Soul",
+   "air": "1995-10-08"
+  },
+  {
+   "e": 5,
+   "t": "Lisa the Vegetarian",
+   "air": "1995-10-15"
+  },
+  {
+   "e": 6,
+   "t": "Treehouse of Horror VI",
+   "air": "1995-10-29"
+  },
+  {
+   "e": 7,
+   "t": "King-Size Homer",
+   "air": "1995-11-05"
+  },
+  {
+   "e": 8,
+   "t": "Mother Simpson",
+   "air": "1995-11-19"
+  },
+  {
+   "e": 9,
+   "t": "Sideshow Bob's Last Gleaming",
+   "air": "1995-11-26"
+  },
+  {
+   "e": 10,
+   "t": "The Simpsons 138th Episode Spectacular",
+   "air": "1995-12-03"
+  },
+  {
+   "e": 11,
+   "t": "Marge Be Not Proud",
+   "air": "1995-12-17"
+  },
+  {
+   "e": 12,
+   "t": "Team Homer",
+   "air": "1996-01-07"
+  },
+  {
+   "e": 13,
+   "t": "Two Bad Neighbors",
+   "air": "1996-01-14"
+  },
+  {
+   "e": 14,
+   "t": "Scenes from the Class Struggle in Springfield",
+   "air": "1996-02-04"
+  },
+  {
+   "e": 15,
+   "t": "Bart the Fink",
+   "air": "1996-02-11"
+  },
+  {
+   "e": 16,
+   "t": "Lisa the Iconoclast",
+   "air": "1996-02-18"
+  },
+  {
+   "e": 17,
+   "t": "Homer the Smithers",
+   "air": "1996-02-25"
+  },
+  {
+   "e": 18,
+   "t": "The Day the Violence Died",
+   "air": "1996-03-17"
+  },
+  {
+   "e": 19,
+   "t": "A Fish Called Selma",
+   "air": "1996-03-24"
+  },
+  {
+   "e": 20,
+   "t": "Bart on the Road",
+   "air": "1996-03-31"
+  },
+  {
+   "e": 21,
+   "t": "22 Short Films About Springfield",
+   "air": "1996-04-14"
+  },
+  {
+   "e": 22,
+   "t": "Raging Abe Simpson and His Grumbling Grandson in 'The Curse of the Flying Hellfish'",
+   "air": "1996-04-28"
+  },
+  {
+   "e": 23,
+   "t": "Much Apu About Nothing",
+   "air": "1996-05-05"
+  },
+  {
+   "e": 24,
+   "t": "Homerpalooza",
+   "air": "1996-05-19"
+  },
+  {
+   "e": 25,
+   "t": "Summer of 4 Ft. 2",
+   "air": "1996-05-19"
+  }
+ ],
+ "8": [
+  {
+   "e": 1,
+   "t": "Treehouse of Horror VII",
+   "air": "1996-10-27"
+  },
+  {
+   "e": 2,
+   "t": "You Only Move Twice",
+   "air": "1996-11-03"
+  },
+  {
+   "e": 3,
+   "t": "The Homer They Fall",
+   "air": "1996-11-10"
+  },
+  {
+   "e": 4,
+   "t": "Burns, Baby Burns",
+   "air": "1996-11-17"
+  },
+  {
+   "e": 5,
+   "t": "Bart After Dark",
+   "air": "1996-11-24"
+  },
+  {
+   "e": 6,
+   "t": "A Milhouse Divided",
+   "air": "1996-12-01"
+  },
+  {
+   "e": 7,
+   "t": "Lisa's Date with Density",
+   "air": "1996-12-15"
+  },
+  {
+   "e": 8,
+   "t": "Hurricane Neddy",
+   "air": "1996-12-29"
+  },
+  {
+   "e": 9,
+   "t": "El Viaje Misterioso de Nuestro Jomer (The Mysterious Voyage of Homer)",
+   "air": "1997-01-05"
+  },
+  {
+   "e": 10,
+   "t": "The Springfield Files",
+   "air": "1997-01-12"
+  },
+  {
+   "e": 11,
+   "t": "The Twisted World of Marge Simpson",
+   "air": "1997-01-19"
+  },
+  {
+   "e": 12,
+   "t": "Mountain of Madness",
+   "air": "1997-02-02"
+  },
+  {
+   "e": 13,
+   "t": "Simpsoncalifragilisticexpiala(Annoyed Grunt)cious",
+   "air": "1997-02-07"
+  },
+  {
+   "e": 14,
+   "t": "The Itchy & Scratchy & Poochie Show",
+   "air": "1997-02-09"
+  },
+  {
+   "e": 15,
+   "t": "Homer's Phobia",
+   "air": "1997-02-16"
+  },
+  {
+   "e": 16,
+   "t": "Brother from Another Series",
+   "air": "1997-02-23"
+  },
+  {
+   "e": 17,
+   "t": "My Sister, My Sitter",
+   "air": "1997-03-02"
+  },
+  {
+   "e": 18,
+   "t": "Homer vs. the Eighteenth Amendment",
+   "air": "1997-03-16"
+  },
+  {
+   "e": 19,
+   "t": "Grade School Confidential",
+   "air": "1997-04-06"
+  },
+  {
+   "e": 20,
+   "t": "The Canine Mutiny",
+   "air": "1997-04-13"
+  },
+  {
+   "e": 21,
+   "t": "The Old Man and the Lisa",
+   "air": "1997-04-20"
+  },
+  {
+   "e": 22,
+   "t": "In Marge We Trust",
+   "air": "1997-04-27"
+  },
+  {
+   "e": 23,
+   "t": "Homer's Enemy",
+   "air": "1997-05-04"
+  },
+  {
+   "e": 24,
+   "t": "The Simpsons Spin-Off Showcase",
+   "air": "1997-05-11"
+  },
+  {
+   "e": 25,
+   "t": "The Secret War of Lisa Simpson",
+   "air": "1997-05-18"
+  }
+ ]
+}

@@ -1,0 +1,498 @@
+{
+ "1": [
+  {
+   "e": 1,
+   "t": "Smoke Gets in Your Eyes",
+   "air": "2007-07-19"
+  },
+  {
+   "e": 2,
+   "t": "Ladies Room",
+   "air": "2007-07-26"
+  },
+  {
+   "e": 3,
+   "t": "Marriage of Figaro",
+   "air": "2007-08-02"
+  },
+  {
+   "e": 4,
+   "t": "New Amsterdam",
+   "air": "2007-08-09"
+  },
+  {
+   "e": 5,
+   "t": "5G",
+   "air": "2007-08-16"
+  },
+  {
+   "e": 6,
+   "t": "Babylon",
+   "air": "2007-08-23"
+  },
+  {
+   "e": 7,
+   "t": "Red in the Face",
+   "air": "2007-08-30"
+  },
+  {
+   "e": 8,
+   "t": "The Hobo Code",
+   "air": "2007-09-06"
+  },
+  {
+   "e": 9,
+   "t": "Shoot",
+   "air": "2007-09-13"
+  },
+  {
+   "e": 10,
+   "t": "Long Weekend",
+   "air": "2007-09-27"
+  },
+  {
+   "e": 11,
+   "t": "Indian Summer",
+   "air": "2007-10-04"
+  },
+  {
+   "e": 12,
+   "t": "Nixon vs. Kennedy",
+   "air": "2007-10-11"
+  },
+  {
+   "e": 13,
+   "t": "The Wheel",
+   "air": "2007-10-18"
+  }
+ ],
+ "2": [
+  {
+   "e": 1,
+   "t": "For Those Who Think Young",
+   "air": "2008-07-27"
+  },
+  {
+   "e": 2,
+   "t": "Flight 1",
+   "air": "2008-08-03"
+  },
+  {
+   "e": 3,
+   "t": "The Benefactor",
+   "air": "2008-08-10"
+  },
+  {
+   "e": 4,
+   "t": "Three Sundays",
+   "air": "2008-08-17"
+  },
+  {
+   "e": 5,
+   "t": "The New Girl",
+   "air": "2008-08-24"
+  },
+  {
+   "e": 6,
+   "t": "Maidenform",
+   "air": "2008-08-31"
+  },
+  {
+   "e": 7,
+   "t": "The Gold Violin",
+   "air": "2008-09-07"
+  },
+  {
+   "e": 8,
+   "t": "A Night to Remember",
+   "air": "2008-09-14"
+  },
+  {
+   "e": 9,
+   "t": "Six Month Leave",
+   "air": "2008-09-28"
+  },
+  {
+   "e": 10,
+   "t": "The Inheritance",
+   "air": "2008-10-05"
+  },
+  {
+   "e": 11,
+   "t": "The Jet Set",
+   "air": "2008-10-12"
+  },
+  {
+   "e": 12,
+   "t": "The Mountain King",
+   "air": "2008-10-19"
+  },
+  {
+   "e": 13,
+   "t": "Meditations in an Emergency",
+   "air": "2008-10-26"
+  }
+ ],
+ "3": [
+  {
+   "e": 1,
+   "t": "Out of Town",
+   "air": "2009-08-16"
+  },
+  {
+   "e": 2,
+   "t": "Love Among the Ruins",
+   "air": "2009-08-23"
+  },
+  {
+   "e": 3,
+   "t": "My Old Kentucky Home",
+   "air": "2009-08-30"
+  },
+  {
+   "e": 4,
+   "t": "The Arrangements",
+   "air": "2009-09-06"
+  },
+  {
+   "e": 5,
+   "t": "The Fog",
+   "air": "2009-09-13"
+  },
+  {
+   "e": 6,
+   "t": "Guy Walks Into an Advertising Agency",
+   "air": "2009-09-20"
+  },
+  {
+   "e": 7,
+   "t": "Seven Twenty Three",
+   "air": "2009-09-27"
+  },
+  {
+   "e": 8,
+   "t": "Souvenir",
+   "air": "2009-10-04"
+  },
+  {
+   "e": 9,
+   "t": "Wee Small Hours",
+   "air": "2009-10-11"
+  },
+  {
+   "e": 10,
+   "t": "The Color Blue",
+   "air": "2009-10-18"
+  },
+  {
+   "e": 11,
+   "t": "The Gypsy and the Hobo",
+   "air": "2009-10-25"
+  },
+  {
+   "e": 12,
+   "t": "The Grown-Ups",
+   "air": "2009-11-01"
+  },
+  {
+   "e": 13,
+   "t": "Shut the Door. Have a Seat.",
+   "air": "2009-11-08"
+  }
+ ],
+ "4": [
+  {
+   "e": 1,
+   "t": "Public Relations",
+   "air": "2010-07-25"
+  },
+  {
+   "e": 2,
+   "t": "Christmas Comes But Once a Year",
+   "air": "2010-08-01"
+  },
+  {
+   "e": 3,
+   "t": "The Good News",
+   "air": "2010-08-08"
+  },
+  {
+   "e": 4,
+   "t": "The Rejected",
+   "air": "2010-08-15"
+  },
+  {
+   "e": 5,
+   "t": "The Chrysanthemum and the Sword",
+   "air": "2010-08-22"
+  },
+  {
+   "e": 6,
+   "t": "Waldorf Stories",
+   "air": "2010-08-29"
+  },
+  {
+   "e": 7,
+   "t": "The Suitcase",
+   "air": "2010-09-05"
+  },
+  {
+   "e": 8,
+   "t": "The Summer Man",
+   "air": "2010-09-12"
+  },
+  {
+   "e": 9,
+   "t": "The Beautiful Girls",
+   "air": "2010-09-19"
+  },
+  {
+   "e": 10,
+   "t": "Hands and Knees",
+   "air": "2010-09-26"
+  },
+  {
+   "e": 11,
+   "t": "Chinese Wall",
+   "air": "2010-10-03"
+  },
+  {
+   "e": 12,
+   "t": "Blowing Smoke",
+   "air": "2010-10-10"
+  },
+  {
+   "e": 13,
+   "t": "Tomorrowland",
+   "air": "2010-10-17"
+  }
+ ],
+ "5": [
+  {
+   "e": 1,
+   "t": "A Little Kiss",
+   "air": "2012-03-25",
+   "np": 2,
+   "pi": 1
+  },
+  {
+   "e": 2,
+   "t": "A Little Kiss",
+   "air": "2012-03-25",
+   "np": 2,
+   "pi": 2
+  },
+  {
+   "e": 3,
+   "t": "Tea Leaves",
+   "air": "2012-04-01"
+  },
+  {
+   "e": 4,
+   "t": "Mystery Date",
+   "air": "2012-04-08"
+  },
+  {
+   "e": 5,
+   "t": "Signal 30",
+   "air": "2012-04-15"
+  },
+  {
+   "e": 6,
+   "t": "Far Away Places",
+   "air": "2012-04-22"
+  },
+  {
+   "e": 7,
+   "t": "At the Codfish Ball",
+   "air": "2012-04-29"
+  },
+  {
+   "e": 8,
+   "t": "Lady Lazarus",
+   "air": "2012-05-06"
+  },
+  {
+   "e": 9,
+   "t": "Dark Shadows",
+   "air": "2012-05-13"
+  },
+  {
+   "e": 10,
+   "t": "Christmas Waltz",
+   "air": "2012-05-20"
+  },
+  {
+   "e": 11,
+   "t": "The Other Woman",
+   "air": "2012-05-27"
+  },
+  {
+   "e": 12,
+   "t": "Commissions and Fees",
+   "air": "2012-06-03"
+  },
+  {
+   "e": 13,
+   "t": "The Phantom",
+   "air": "2012-06-10"
+  }
+ ],
+ "6": [
+  {
+   "e": 1,
+   "t": "The Doorway",
+   "air": "2013-04-07",
+   "np": 2,
+   "pi": 1
+  },
+  {
+   "e": 2,
+   "t": "The Doorway",
+   "air": "2013-04-07",
+   "np": 2,
+   "pi": 2
+  },
+  {
+   "e": 3,
+   "t": "Collaborators",
+   "air": "2013-04-14"
+  },
+  {
+   "e": 4,
+   "t": "To Have and to Hold",
+   "air": "2013-04-21"
+  },
+  {
+   "e": 5,
+   "t": "The Flood",
+   "air": "2013-04-28"
+  },
+  {
+   "e": 6,
+   "t": "For Immediate Release",
+   "air": "2013-05-05"
+  },
+  {
+   "e": 7,
+   "t": "Man with a Plan",
+   "air": "2013-05-12"
+  },
+  {
+   "e": 8,
+   "t": "The Crash",
+   "air": "2013-05-19"
+  },
+  {
+   "e": 9,
+   "t": "The Better Half",
+   "air": "2013-05-26"
+  },
+  {
+   "e": 10,
+   "t": "A Tale of Two Cities",
+   "air": "2013-06-02"
+  },
+  {
+   "e": 11,
+   "t": "Favors",
+   "air": "2013-06-09"
+  },
+  {
+   "e": 12,
+   "t": "The Quality of Mercy",
+   "air": "2013-06-16"
+  },
+  {
+   "e": 13,
+   "t": "In Care Of",
+   "air": "2013-06-23"
+  }
+ ],
+ "7": [
+  {
+   "e": 1,
+   "t": "Time Zones",
+   "air": "2014-04-13",
+   "part": 1
+  },
+  {
+   "e": 2,
+   "t": "A Day's Work",
+   "air": "2014-04-20",
+   "part": 1
+  },
+  {
+   "e": 3,
+   "t": "Field Trip",
+   "air": "2014-04-27",
+   "part": 1
+  },
+  {
+   "e": 4,
+   "t": "The Monolith",
+   "air": "2014-05-04",
+   "part": 1
+  },
+  {
+   "e": 5,
+   "t": "The Runaways",
+   "air": "2014-05-11",
+   "part": 1
+  },
+  {
+   "e": 6,
+   "t": "The Strategy",
+   "air": "2014-05-18",
+   "part": 1
+  },
+  {
+   "e": 7,
+   "t": "Waterloo",
+   "air": "2014-05-25",
+   "part": 1
+  },
+  {
+   "e": 8,
+   "t": "Severance",
+   "air": "2015-04-05",
+   "part": 2
+  },
+  {
+   "e": 9,
+   "t": "New Business",
+   "air": "2015-04-12",
+   "part": 2
+  },
+  {
+   "e": 10,
+   "t": "The Forecast",
+   "air": "2015-04-19",
+   "part": 2
+  },
+  {
+   "e": 11,
+   "t": "Time & Life",
+   "air": "2015-04-26",
+   "part": 2
+  },
+  {
+   "e": 12,
+   "t": "Lost Horizon",
+   "air": "2015-05-03",
+   "part": 2
+  },
+  {
+   "e": 13,
+   "t": "The Milk and Honey Route",
+   "air": "2015-05-10",
+   "part": 2
+  },
+  {
+   "e": 14,
+   "t": "Person to Person",
+   "air": "2015-05-17",
+   "part": 2
+  }
+ ]
+}

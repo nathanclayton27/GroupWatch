@@ -1,0 +1,792 @@
+{
+ "1": [
+  {
+   "e": 1,
+   "t": "Where Is Everybody?",
+   "air": "1959-10-02"
+  },
+  {
+   "e": 2,
+   "t": "One for the Angels",
+   "air": "1959-10-09"
+  },
+  {
+   "e": 3,
+   "t": "Mr. Denton on Doomsday",
+   "air": "1959-10-16"
+  },
+  {
+   "e": 4,
+   "t": "The Sixteen-Millimeter Shrine",
+   "air": "1959-10-23"
+  },
+  {
+   "e": 5,
+   "t": "Walking Distance",
+   "air": "1959-10-30"
+  },
+  {
+   "e": 6,
+   "t": "Escape Clause",
+   "air": "1959-11-06"
+  },
+  {
+   "e": 7,
+   "t": "The Lonely",
+   "air": "1959-11-13"
+  },
+  {
+   "e": 8,
+   "t": "Time Enough at Last",
+   "air": "1959-11-20"
+  },
+  {
+   "e": 9,
+   "t": "Perchance to Dream",
+   "air": "1959-11-27"
+  },
+  {
+   "e": 10,
+   "t": "Judgment Night",
+   "air": "1959-12-04"
+  },
+  {
+   "e": 11,
+   "t": "And When the Sky Was Opened",
+   "air": "1959-12-11"
+  },
+  {
+   "e": 12,
+   "t": "What You Need",
+   "air": "1959-12-25"
+  },
+  {
+   "e": 13,
+   "t": "The Four of Us Are Dying",
+   "air": "1960-01-01"
+  },
+  {
+   "e": 14,
+   "t": "Third from the Sun",
+   "air": "1960-01-08"
+  },
+  {
+   "e": 15,
+   "t": "I Shot an Arrow into the Air",
+   "air": "1960-01-15"
+  },
+  {
+   "e": 16,
+   "t": "The Hitch-Hiker",
+   "air": "1960-01-22"
+  },
+  {
+   "e": 17,
+   "t": "The Fever",
+   "air": "1960-01-29"
+  },
+  {
+   "e": 18,
+   "t": "The Last Flight",
+   "air": "1960-02-05"
+  },
+  {
+   "e": 19,
+   "t": "The Purple Testament",
+   "air": "1960-02-12"
+  },
+  {
+   "e": 20,
+   "t": "Elegy",
+   "air": "1960-02-19"
+  },
+  {
+   "e": 21,
+   "t": "Mirror Image",
+   "air": "1960-02-26"
+  },
+  {
+   "e": 22,
+   "t": "The Monsters Are Due on Maple Street",
+   "air": "1960-03-04"
+  },
+  {
+   "e": 23,
+   "t": "A World of Difference",
+   "air": "1960-03-11"
+  },
+  {
+   "e": 24,
+   "t": "Long Live Walter Jameson",
+   "air": "1960-03-18"
+  },
+  {
+   "e": 25,
+   "t": "People Are Alike All Over",
+   "air": "1960-03-25"
+  },
+  {
+   "e": 26,
+   "t": "Execution",
+   "air": "1960-04-01"
+  },
+  {
+   "e": 27,
+   "t": "The Big Tall Wish",
+   "air": "1960-04-08"
+  },
+  {
+   "e": 28,
+   "t": "A Nice Place to Visit",
+   "air": "1960-04-15"
+  },
+  {
+   "e": 29,
+   "t": "Nightmare as a Child",
+   "air": "1960-04-29"
+  },
+  {
+   "e": 30,
+   "t": "A Stop at Willoughby",
+   "air": "1960-05-06"
+  },
+  {
+   "e": 31,
+   "t": "The Chaser",
+   "air": "1960-05-13"
+  },
+  {
+   "e": 32,
+   "t": "A Passage for Trumpet",
+   "air": "1960-05-20"
+  },
+  {
+   "e": 33,
+   "t": "Mr. Bevis",
+   "air": "1960-06-03"
+  },
+  {
+   "e": 34,
+   "t": "The After Hours",
+   "air": "1960-06-10"
+  },
+  {
+   "e": 35,
+   "t": "The Mighty Casey",
+   "air": "1960-06-17"
+  },
+  {
+   "e": 36,
+   "t": "A World of His Own",
+   "air": "1960-07-01"
+  }
+ ],
+ "2": [
+  {
+   "e": 1,
+   "t": "King Nine Will Not Return",
+   "air": "1960-09-30"
+  },
+  {
+   "e": 2,
+   "t": "The Man in the Bottle",
+   "air": "1960-10-07"
+  },
+  {
+   "e": 3,
+   "t": "Nervous Man in a Four Dollar Room",
+   "air": "1960-10-14"
+  },
+  {
+   "e": 4,
+   "t": "A Thing About Machines",
+   "air": "1960-10-28"
+  },
+  {
+   "e": 5,
+   "t": "The Howling Man",
+   "air": "1960-11-04"
+  },
+  {
+   "e": 6,
+   "t": "Eye of the Beholder",
+   "air": "1960-11-11"
+  },
+  {
+   "e": 7,
+   "t": "Nick of Time",
+   "air": "1960-11-18"
+  },
+  {
+   "e": 8,
+   "t": "The Lateness of the Hour",
+   "air": "1960-12-02"
+  },
+  {
+   "e": 9,
+   "t": "The Trouble with Templeton",
+   "air": "1960-12-09"
+  },
+  {
+   "e": 10,
+   "t": "A Most Unusual Camera",
+   "air": "1960-12-16"
+  },
+  {
+   "e": 11,
+   "t": "The Night of the Meek",
+   "air": "1960-12-23"
+  },
+  {
+   "e": 12,
+   "t": "Dust",
+   "air": "1961-01-06"
+  },
+  {
+   "e": 13,
+   "t": "Back There",
+   "air": "1961-01-13"
+  },
+  {
+   "e": 14,
+   "t": "The Whole Truth",
+   "air": "1961-01-20"
+  },
+  {
+   "e": 15,
+   "t": "The Invaders",
+   "air": "1961-01-27"
+  },
+  {
+   "e": 16,
+   "t": "A Penny for Your Thoughts",
+   "air": "1961-02-03"
+  },
+  {
+   "e": 17,
+   "t": "Twenty Two",
+   "air": "1961-02-10"
+  },
+  {
+   "e": 18,
+   "t": "The Odyssey of Flight 33",
+   "air": "1961-02-24"
+  },
+  {
+   "e": 19,
+   "t": "Mr. Dingle, the Strong",
+   "air": "1961-03-03"
+  },
+  {
+   "e": 20,
+   "t": "Static",
+   "air": "1961-03-10"
+  },
+  {
+   "e": 21,
+   "t": "The Prime Mover",
+   "air": "1961-03-24"
+  },
+  {
+   "e": 22,
+   "t": "Long Distance Call",
+   "air": "1961-03-31"
+  },
+  {
+   "e": 23,
+   "t": "A Hundred Yards Over the Rim",
+   "air": "1961-04-07"
+  },
+  {
+   "e": 24,
+   "t": "The Rip Van Winkle Caper",
+   "air": "1961-04-21"
+  },
+  {
+   "e": 25,
+   "t": "The Silence",
+   "air": "1961-04-28"
+  },
+  {
+   "e": 26,
+   "t": "Shadow Play",
+   "air": "1961-05-05"
+  },
+  {
+   "e": 27,
+   "t": "The Mind and the Matter",
+   "air": "1961-05-12"
+  },
+  {
+   "e": 28,
+   "t": "Will the Real Martian Please Stand Up?",
+   "air": "1961-05-26"
+  },
+  {
+   "e": 29,
+   "t": "The Obsolete Man",
+   "air": "1961-06-02"
+  }
+ ],
+ "3": [
+  {
+   "e": 1,
+   "t": "Two",
+   "air": "1961-09-15"
+  },
+  {
+   "e": 2,
+   "t": "The Arrival",
+   "air": "1961-09-22"
+  },
+  {
+   "e": 3,
+   "t": "The Shelter",
+   "air": "1961-09-29"
+  },
+  {
+   "e": 4,
+   "t": "The Passersby",
+   "air": "1961-10-06"
+  },
+  {
+   "e": 5,
+   "t": "A Game of Pool",
+   "air": "1961-10-13"
+  },
+  {
+   "e": 6,
+   "t": "The Mirror",
+   "air": "1961-10-20"
+  },
+  {
+   "e": 7,
+   "t": "The Grave",
+   "air": "1961-10-27"
+  },
+  {
+   "e": 8,
+   "t": "It's a Good Life",
+   "air": "1961-11-03"
+  },
+  {
+   "e": 9,
+   "t": "Deaths-Head Revisited",
+   "air": "1961-11-10"
+  },
+  {
+   "e": 10,
+   "t": "The Midnight Sun",
+   "air": "1961-11-17"
+  },
+  {
+   "e": 11,
+   "t": "Still Valley",
+   "air": "1961-11-24"
+  },
+  {
+   "e": 12,
+   "t": "The Jungle",
+   "air": "1961-12-01"
+  },
+  {
+   "e": 13,
+   "t": "Once Upon a Time",
+   "air": "1961-12-15"
+  },
+  {
+   "e": 14,
+   "t": "Five Characters in Search of an Exit",
+   "air": "1961-12-22"
+  },
+  {
+   "e": 15,
+   "t": "A Quality of Mercy",
+   "air": "1961-12-29"
+  },
+  {
+   "e": 16,
+   "t": "Nothing in the Dark",
+   "air": "1962-01-05"
+  },
+  {
+   "e": 17,
+   "t": "One More Pallbearer",
+   "air": "1962-01-12"
+  },
+  {
+   "e": 18,
+   "t": "Dead Man's Shoes",
+   "air": "1962-01-19"
+  },
+  {
+   "e": 19,
+   "t": "The Hunt",
+   "air": "1962-01-26"
+  },
+  {
+   "e": 20,
+   "t": "Showdown with Rance McGrew",
+   "air": "1962-02-02"
+  },
+  {
+   "e": 21,
+   "t": "Kick the Can",
+   "air": "1962-02-09"
+  },
+  {
+   "e": 22,
+   "t": "A Piano in the House",
+   "air": "1962-02-16"
+  },
+  {
+   "e": 23,
+   "t": "The Last Rites of Jeff Myrtlebank",
+   "air": "1962-02-23"
+  },
+  {
+   "e": 24,
+   "t": "To Serve Man",
+   "air": "1962-03-02"
+  },
+  {
+   "e": 25,
+   "t": "The Fugitive",
+   "air": "1962-03-09"
+  },
+  {
+   "e": 26,
+   "t": "Little Girl Lost",
+   "air": "1962-03-16"
+  },
+  {
+   "e": 27,
+   "t": "Person or Persons Unknown",
+   "air": "1962-03-23"
+  },
+  {
+   "e": 28,
+   "t": "The Little People",
+   "air": "1962-03-30"
+  },
+  {
+   "e": 29,
+   "t": "Four O'Clock",
+   "air": "1962-04-06"
+  },
+  {
+   "e": 30,
+   "t": "Hocus-Pocus and Frisby",
+   "air": "1962-04-13"
+  },
+  {
+   "e": 31,
+   "t": "The Trade-Ins",
+   "air": "1962-04-20"
+  },
+  {
+   "e": 32,
+   "t": "The Gift",
+   "air": "1962-04-27"
+  },
+  {
+   "e": 33,
+   "t": "The Dummy",
+   "air": "1962-05-04"
+  },
+  {
+   "e": 34,
+   "t": "Young Man's Fancy",
+   "air": "1962-05-11"
+  },
+  {
+   "e": 35,
+   "t": "I Sing the Body Electric",
+   "air": "1962-05-18"
+  },
+  {
+   "e": 36,
+   "t": "Cavender Is Coming",
+   "air": "1962-05-25"
+  },
+  {
+   "e": 37,
+   "t": "The Changing of the Guard",
+   "air": "1962-06-01"
+  }
+ ],
+ "4": [
+  {
+   "e": 1,
+   "t": "In His Image",
+   "air": "1963-01-03"
+  },
+  {
+   "e": 2,
+   "t": "The Thirty Fathom Grave",
+   "air": "1963-01-10"
+  },
+  {
+   "e": 3,
+   "t": "Valley of the Shadow",
+   "air": "1963-01-17"
+  },
+  {
+   "e": 4,
+   "t": "He's Alive",
+   "air": "1963-01-24"
+  },
+  {
+   "e": 5,
+   "t": "Mute",
+   "air": "1963-01-31"
+  },
+  {
+   "e": 6,
+   "t": "Death Ship",
+   "air": "1963-02-07"
+  },
+  {
+   "e": 7,
+   "t": "Jess-Belle",
+   "air": "1963-02-14"
+  },
+  {
+   "e": 8,
+   "t": "Miniature",
+   "air": "1963-02-21"
+  },
+  {
+   "e": 9,
+   "t": "Printer's Devil",
+   "air": "1963-02-28"
+  },
+  {
+   "e": 10,
+   "t": "No Time Like the Past",
+   "air": "1963-03-07"
+  },
+  {
+   "e": 11,
+   "t": "The Parallel",
+   "air": "1963-03-14"
+  },
+  {
+   "e": 12,
+   "t": "I Dream of Genie",
+   "air": "1963-03-21"
+  },
+  {
+   "e": 13,
+   "t": "The New Exhibit",
+   "air": "1963-04-04"
+  },
+  {
+   "e": 14,
+   "t": "Of Late I Think of Cliffordville",
+   "air": "1963-04-11"
+  },
+  {
+   "e": 15,
+   "t": "The Incredible World of Horace Ford",
+   "air": "1963-04-18"
+  },
+  {
+   "e": 16,
+   "t": "On Thursday We Leave for Home",
+   "air": "1963-05-02"
+  },
+  {
+   "e": 17,
+   "t": "Passage on the Lady Anne",
+   "air": "1963-05-09"
+  },
+  {
+   "e": 18,
+   "t": "The Bard",
+   "air": "1963-05-23"
+  }
+ ],
+ "5": [
+  {
+   "e": 1,
+   "t": "In Praise of Pip",
+   "air": "1963-09-27"
+  },
+  {
+   "e": 2,
+   "t": "Steel",
+   "air": "1963-10-04"
+  },
+  {
+   "e": 3,
+   "t": "Nightmare at 20,000 Feet",
+   "air": "1963-10-11"
+  },
+  {
+   "e": 4,
+   "t": "A Kind of a Stopwatch",
+   "air": "1963-10-18"
+  },
+  {
+   "e": 5,
+   "t": "The Last Night of a Jockey",
+   "air": "1963-10-25"
+  },
+  {
+   "e": 6,
+   "t": "Living Doll",
+   "air": "1963-11-01"
+  },
+  {
+   "e": 7,
+   "t": "The Old Man in the Cave",
+   "air": "1963-11-08"
+  },
+  {
+   "e": 8,
+   "t": "Uncle Simon",
+   "air": "1963-11-15"
+  },
+  {
+   "e": 9,
+   "t": "Probe 7, Over and Out",
+   "air": "1963-11-29"
+  },
+  {
+   "e": 10,
+   "t": "The 7th Is Made Up of Phantoms",
+   "air": "1963-12-06"
+  },
+  {
+   "e": 11,
+   "t": "A Short Drink from a Certain Fountain",
+   "air": "1963-12-13"
+  },
+  {
+   "e": 12,
+   "t": "Ninety Years Without Slumbering",
+   "air": "1963-12-20"
+  },
+  {
+   "e": 13,
+   "t": "Ring-a-Ding Girl",
+   "air": "1963-12-27"
+  },
+  {
+   "e": 14,
+   "t": "You Drive",
+   "air": "1964-01-03"
+  },
+  {
+   "e": 15,
+   "t": "The Long Morrow",
+   "air": "1964-01-10"
+  },
+  {
+   "e": 16,
+   "t": "The Self-Improvement of Salvadore Ross",
+   "air": "1964-01-17"
+  },
+  {
+   "e": 17,
+   "t": "Number 12 Looks Just Like You",
+   "air": "1964-01-24"
+  },
+  {
+   "e": 18,
+   "t": "Black Leather Jackets",
+   "air": "1964-01-31"
+  },
+  {
+   "e": 19,
+   "t": "Night Call",
+   "air": "1964-02-07"
+  },
+  {
+   "e": 20,
+   "t": "From Agnes—With Love",
+   "air": "1964-02-14"
+  },
+  {
+   "e": 21,
+   "t": "Spur of the Moment",
+   "air": "1964-02-21"
+  },
+  {
+   "e": 22,
+   "t": "An Occurrence at Owl Creek Bridge",
+   "air": "1964-02-28"
+  },
+  {
+   "e": 23,
+   "t": "Queen of the Nile",
+   "air": "1964-03-06"
+  },
+  {
+   "e": 24,
+   "t": "What's in the Box",
+   "air": "1964-03-13"
+  },
+  {
+   "e": 25,
+   "t": "The Masks",
+   "air": "1964-03-20"
+  },
+  {
+   "e": 26,
+   "t": "I Am the Night—Color Me Black",
+   "air": "1964-03-27"
+  },
+  {
+   "e": 27,
+   "t": "Sounds and Silences",
+   "air": "1964-04-03"
+  },
+  {
+   "e": 28,
+   "t": "Caesar and Me",
+   "air": "1964-04-10"
+  },
+  {
+   "e": 29,
+   "t": "The Jeopardy Room",
+   "air": "1964-04-17"
+  },
+  {
+   "e": 30,
+   "t": "Stopover in a Quiet Town",
+   "air": "1964-04-24"
+  },
+  {
+   "e": 31,
+   "t": "The Encounter",
+   "air": "1964-05-01"
+  },
+  {
+   "e": 32,
+   "t": "Mr. Garrity and the Graves",
+   "air": "1964-05-08"
+  },
+  {
+   "e": 33,
+   "t": "The Brain Center at Whipple's",
+   "air": "1964-05-15"
+  },
+  {
+   "e": 34,
+   "t": "Come Wander with Me",
+   "air": "1964-05-22"
+  },
+  {
+   "e": 35,
+   "t": "The Fear",
+   "air": "1964-05-29"
+  },
+  {
+   "e": 36,
+   "t": "The Bewitchin' Pool",
+   "air": "1964-06-19"
+  }
+ ]
+}

@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Sixty-five lists, from a ten-episode anime to a 1,337-spine film
+Seventy-one lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -25,7 +25,10 @@ manga form.
 own page), *Metal Gear* (story-only hours, tiers, and a recap link for the
 MSX games), *Gundam* by continuity, *Godzilla* down to the Fest shorts,
 *Twin Peaks* with the books woven in, *The X-Files*, *The Sopranos*, *The
-Wire* and the whole *Breaking Bad* universe episode by episode, *Columbo*
+Wire* and the whole *Breaking Bad* universe episode by episode, *The
+Twilight Zone* (1959, picker-ready), the Simpsons golden age, *Lost*, *Mad
+Men*, *Deadwood* (movie included), *Buffy and Angel* woven into one
+air-order list with the crossover nights marked, *Columbo*
 with real per-movie runtimes, *James Bond* by actor, *Alien & Predator* on
 one timeline, *JoJo's* and *Dragon Ball* (anime and manga as separate
 pages), and *Time Loops* — the group's own Groundhog Day collection, grown
