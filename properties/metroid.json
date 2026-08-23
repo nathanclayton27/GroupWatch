@@ -1,0 +1,183 @@
+{
+  "slug": "metroid",
+  "title": "Metroid",
+  "subtitle": "the 2D saga and the Prime line, remakes included",
+  "kind": "games",
+  "order": 90,
+  "year": "1986–",
+  "blurb": "14 games across two lines — about 133 hours of story, 115 of it mainline.",
+  "unit": {
+    "one": "game",
+    "many": "games"
+  },
+  "verb": {
+    "base": "play",
+    "past": "played",
+    "ing": "playing"
+  },
+  "itemOrder": "number-first",
+  "accent": "#B34A0C",
+  "accentDark": "#45D6E8",
+  "tiers": true,
+  "itemTiers": true,
+  "paceTiers": [
+    1
+  ],
+  "paceLabel": "the side games",
+  "notes": [
+    [
+      "Release order, two lines.",
+      "The 2D saga and Prime run as their own sections because they are different games telling different stretches of the same story. Release order within each; nothing requires jumping between them."
+    ],
+    [
+      "Remakes are rows.",
+      "Zero Mission rebuilds the 1986 original and Samus Returns rebuilds Metroid II — each remake is the friendlier door, and ticking either version counts."
+    ],
+    [
+      "Tiers, kept simple.",
+      "1 is the mainline saga, both lines. 2 is the opt rows — Hunters and Federation Force; a finish date covers tier 1 and the checkbox adds the rest."
+    ],
+    [
+      "Hours are story only.",
+      "HowLongToBeat main-story figures — no 100% item hunts."
+    ],
+    [
+      "Not rows.",
+      "Prime Remastered (2023) rides as a note on the Prime row — HowLongToBeat counts remaster and original as one game, and so does this list. Metroid Prime Pinball and the Prime Trilogy compilation are on Wikipedia's list but aren't campaigns — Pinball is a spin-off, Trilogy a box of three games already here."
+    ],
+    "Game list and years from Wikipedia's List of Metroid media; hours from HowLongToBeat main-story figures, verified by name."
+  ],
+  "sections": [
+    {
+      "id": "saga",
+      "title": "The 2D saga",
+      "sub": "1986–2021 · 8 games · 58 hours story",
+      "intro": "Samus's own story, told mostly side-on — the 1986 original to Dread, remakes beside their originals.",
+      "items": [
+        {
+          "id": "met-metroid",
+          "t": "Metroid",
+          "n": "1986",
+          "w": 6.07,
+          "tier": 1,
+          "note": "NES. Zebes the first time; Zero Mission below rebuilds it."
+        },
+        {
+          "id": "met-metroid2",
+          "t": "Metroid II: Return of Samus",
+          "n": "1991",
+          "w": 4.77,
+          "tier": 1,
+          "note": "Game Boy. The Metroid hunt; Samus Returns rebuilds it."
+        },
+        {
+          "id": "met-super",
+          "t": "Super Metroid",
+          "n": "1994",
+          "w": 7.64,
+          "tier": 1,
+          "note": "SNES. The map, the sequence breaks, the template half a genre is named for."
+        },
+        {
+          "id": "met-fusion",
+          "t": "Metroid Fusion",
+          "n": "2002",
+          "w": 5.1,
+          "tier": 1,
+          "note": "GBA. The X parasite and the SA-X — the saga's tightest, tensest chapter."
+        },
+        {
+          "id": "met-zero-mission",
+          "t": "Metroid: Zero Mission",
+          "n": "2004",
+          "w": 4.49,
+          "tier": 1,
+          "note": "Remake — the GBA rebuild of the 1986 original, and the friendly way into it. Ticking either version counts."
+        },
+        {
+          "id": "met-other-m",
+          "t": "Metroid: Other M",
+          "n": "2010",
+          "w": 9.38,
+          "tier": 1,
+          "note": "The 3D outlier in the saga line, set between Super and Fusion — divisive, and canon"
+        },
+        {
+          "id": "met-samus-returns",
+          "t": "Metroid: Samus Returns",
+          "n": "2017",
+          "w": 11.07,
+          "tier": 1,
+          "note": "Remake — the 3DS rebuild of Metroid II. Ticking either version counts."
+        },
+        {
+          "id": "met-dread",
+          "t": "Metroid Dread",
+          "n": "2021",
+          "w": 9.28,
+          "tier": 1,
+          "note": "Switch. The saga's long-promised close — the E.M.M.I. and the end of the Fusion thread."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "prime",
+      "title": "Prime",
+      "sub": "2002–2025 · 6 games · 75 hours story",
+      "intro": "The first-person line, a story of its own set between the original and Metroid II.",
+      "items": [
+        {
+          "id": "met-prime",
+          "t": "Metroid Prime",
+          "n": "2002",
+          "w": 13.81,
+          "tier": 1,
+          "note": "GameCube. First person, same loneliness. The 2023 Switch Remastered is the modern door — ticking either version counts."
+        },
+        {
+          "id": "met-prime2",
+          "t": "Metroid Prime 2: Echoes",
+          "n": "2004",
+          "w": 16.64,
+          "tier": 1,
+          "note": "The dark-world one — harder and stranger"
+        },
+        {
+          "id": "met-hunters",
+          "t": "Metroid Prime Hunters",
+          "n": "2006",
+          "w": 8.04,
+          "tier": 2,
+          "note": "DS side story built around multiplayer; thin as a campaign",
+          "opt": 1
+        },
+        {
+          "id": "met-prime3",
+          "t": "Metroid Prime 3: Corruption",
+          "n": "2007",
+          "w": 13.08,
+          "tier": 1,
+          "note": "Wii. The trilogy's close."
+        },
+        {
+          "id": "met-fed-force",
+          "t": "Metroid Prime: Federation Force",
+          "n": "2016",
+          "w": 10.33,
+          "tier": 2,
+          "note": "3DS co-op spin-off — the one without Samus",
+          "opt": 1
+        },
+        {
+          "id": "met-prime4",
+          "t": "Metroid Prime 4: Beyond",
+          "n": "2025",
+          "w": 13.3,
+          "tier": 1,
+          "note": "Eighteen years after Corruption — the Prime line resumes"
+        }
+      ]
+    }
+  ]
+}

@@ -1414,6 +1414,111 @@ let MANIFEST = [
     "total": 74
   },
   {
+    "slug": "mario",
+    "title": "Super Mario",
+    "subtitle": "the mainline platformers in release order, 2D and 3D",
+    "kind": "games",
+    "year": "1985–",
+    "blurb": "All 19 mainline platformers, Super Mario Bros. to Wonder — about 145 hours of story.",
+    "accent": "#C7231E",
+    "accentDark": "#5C94FC",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 19
+  },
+  {
+    "slug": "metroid",
+    "title": "Metroid",
+    "subtitle": "the 2D saga and the Prime line, remakes included",
+    "kind": "games",
+    "year": "1986–",
+    "blurb": "14 games across two lines — about 133 hours of story, 115 of it mainline.",
+    "accent": "#B34A0C",
+    "accentDark": "#45D6E8",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 14
+  },
+  {
+    "slug": "castlevania",
+    "title": "Castlevania",
+    "subtitle": "the whip canon: classic, Metroidvania, and the reboot",
+    "kind": "games",
+    "year": "1986–",
+    "blurb": "17 games — the classics, Symphony and the handheld six, and Lords of Shadow; about 126 hours of story.",
+    "accent": "#4E3220",
+    "accentDark": "#F2A83B",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 17
+  },
+  {
+    "slug": "half-life-portal",
+    "title": "Half-Life & Portal",
+    "subtitle": "Valve's story canon in release order",
+    "kind": "games",
+    "year": "1998–",
+    "blurb": "9 games in one universe — about 66 hours of story, cliffhanger included.",
+    "accent": "#CC6A00",
+    "accentDark": "#3D9BE8",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 9
+  },
+  {
+    "slug": "silent-hill",
+    "title": "Silent Hill",
+    "subtitle": "the mainline series in release order",
+    "kind": "games",
+    "year": "1999–",
+    "blurb": "10 games — about 80 hours of story, 47 of it the essential path.",
+    "accent": "#6B655E",
+    "accentDark": "#C97455",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 10
+  },
+  {
+    "slug": "halo",
+    "title": "Halo",
+    "subtitle": "the campaigns in release order, Wars included",
+    "kind": "games",
+    "year": "2001–",
+    "blurb": "10 campaigns — about 84 hours of story, 67 of it the shooter line.",
+    "accent": "#4A7040",
+    "accentDark": "#7AC8F5",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 10
+  },
+  {
+    "slug": "ace-attorney",
+    "title": "Ace Attorney",
+    "subtitle": "mainline, Investigations, and the Great duology",
+    "kind": "games",
+    "year": "2001–",
+    "blurb": "10 games of courtroom drama — about 263 hours of story, which is the appeal.",
+    "accent": "#263C6B",
+    "accentDark": "#F4764B",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 10
+  },
+  {
     "slug": "secret",
     "title": "Secret",
     "subtitle": "",
@@ -1449,7 +1554,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '12a5f1cea775';
+const BUILD = '20f87f6ad959';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

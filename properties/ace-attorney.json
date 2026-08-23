@@ -1,0 +1,146 @@
+{
+  "slug": "ace-attorney",
+  "title": "Ace Attorney",
+  "subtitle": "mainline, Investigations, and the Great duology",
+  "kind": "games",
+  "order": 95,
+  "year": "2001–",
+  "blurb": "10 games of courtroom drama — about 263 hours of story, which is the appeal.",
+  "unit": {
+    "one": "game",
+    "many": "games"
+  },
+  "verb": {
+    "base": "play",
+    "past": "played",
+    "ing": "playing"
+  },
+  "itemOrder": "number-first",
+  "accent": "#263C6B",
+  "accentDark": "#F4764B",
+  "tiers": false,
+  "notes": [
+    [
+      "Long is the point.",
+      "These are visual novels in a courtroom; thirty-hour games are normal here and the hours are all story. The count is honest — pace accordingly."
+    ],
+    [
+      "Four boxes, one order.",
+      "The sections mirror the collections Capcom sells: the Phoenix Wright trilogy, the Apollo Justice trilogy, the Investigations Collection and the Great Ace Attorney Chronicles. Years shown are the original Japanese releases. Start with the first trilogy; the Great duology stands alone if you want a second door."
+    ],
+    [
+      "Prosecutor's Gambit, factually.",
+      "Investigations 2 shipped in Japan in 2011 and reached the west only in the 2024 Investigations Collection, retitled Prosecutor's Gambit — that official English name is the one on the row."
+    ],
+    [
+      "Not a row.",
+      "Professor Layton vs. Phoenix Wright is a crossover with its own fandom and no bearing on the series' story."
+    ],
+    "Game list and years from Wikipedia's Ace Attorney article; hours from HowLongToBeat main-story figures, verified by name."
+  ],
+  "sections": [
+    {
+      "id": "wright",
+      "title": "The Phoenix Wright trilogy",
+      "sub": "2001–2004 · 3 games · 58 hours story",
+      "intro": "The original three, sold together as Phoenix Wright: Ace Attorney Trilogy.",
+      "items": [
+        {
+          "id": "aa-aa1",
+          "t": "Phoenix Wright: Ace Attorney",
+          "n": "2001",
+          "w": 18.18,
+          "note": "GBA in Japan, DS in the west — the turnabouts start here"
+        },
+        {
+          "id": "aa-aa2",
+          "t": "Phoenix Wright: Ace Attorney – Justice for All",
+          "n": "2002",
+          "w": 18.76,
+          "note": "The rough middle child, redeemed by its final case"
+        },
+        {
+          "id": "aa-aa3",
+          "t": "Phoenix Wright: Ace Attorney – Trials and Tribulations",
+          "n": "2004",
+          "w": 21.44,
+          "note": "The trilogy's payoff — every thread lands"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "apollo",
+      "title": "The Apollo Justice trilogy",
+      "sub": "2007–2016 · 3 games · 82 hours story",
+      "intro": "Games four to six, collected in 2024 as Apollo Justice: Ace Attorney Trilogy.",
+      "items": [
+        {
+          "id": "aa-apollo",
+          "t": "Apollo Justice: Ace Attorney",
+          "n": "2007",
+          "w": 20.59,
+          "note": "New lead, new courtroom, and a very different Phoenix"
+        },
+        {
+          "id": "aa-dual-destinies",
+          "t": "Phoenix Wright: Ace Attorney – Dual Destinies",
+          "n": "2013",
+          "w": 26.9,
+          "note": "The 3DS return; Athena joins the office"
+        },
+        {
+          "id": "aa-spirit",
+          "t": "Phoenix Wright: Ace Attorney – Spirit of Justice",
+          "n": "2016",
+          "w": 34.73,
+          "note": "Split between Khura'in and home — séance trials included"
+        }
+      ]
+    },
+    {
+      "id": "investigations",
+      "title": "The Investigations duology",
+      "sub": "2009–2011 · 2 games · 57 hours story",
+      "intro": "Edgeworth's spin-off pair, collected in 2024 as Ace Attorney Investigations Collection.",
+      "items": [
+        {
+          "id": "aa-aai",
+          "t": "Ace Attorney Investigations: Miles Edgeworth",
+          "n": "2009",
+          "w": 23.18,
+          "note": "Edgeworth investigates the scenes himself — logic, not cross-examination"
+        },
+        {
+          "id": "aa-aai2",
+          "t": "Ace Attorney Investigations 2: Prosecutor's Gambit",
+          "n": "2011",
+          "w": 34.01,
+          "note": "Japan-only for thirteen years and widely called the series' best writing; the 2024 Collection finally brought it west"
+        }
+      ]
+    },
+    {
+      "id": "great",
+      "title": "The Great Ace Attorney",
+      "sub": "2015–2017 · 2 games · 66 hours story",
+      "intro": "The period duology, west since 2021 as The Great Ace Attorney Chronicles.",
+      "items": [
+        {
+          "id": "aa-gaa1",
+          "t": "The Great Ace Attorney: Adventures",
+          "n": "2015",
+          "w": 30.65,
+          "note": "Meiji-era Japan and Victorian London; Ryunosuke, ancestor of Phoenix"
+        },
+        {
+          "id": "aa-gaa2",
+          "t": "The Great Ace Attorney 2: Resolve",
+          "n": "2017",
+          "w": 34.97,
+          "note": "The direct conclusion — the duology is one long story"
+        }
+      ]
+    }
+  ]
+}

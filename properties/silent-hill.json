@@ -1,0 +1,158 @@
+{
+  "slug": "silent-hill",
+  "title": "Silent Hill",
+  "subtitle": "the mainline series in release order",
+  "kind": "games",
+  "order": 93,
+  "year": "1999–",
+  "blurb": "10 games — about 80 hours of story, 47 of it the essential path.",
+  "unit": {
+    "one": "game",
+    "many": "games"
+  },
+  "verb": {
+    "base": "play",
+    "past": "played",
+    "ing": "playing"
+  },
+  "itemOrder": "number-first",
+  "accent": "#6B655E",
+  "accentDark": "#C97455",
+  "tiers": true,
+  "itemTiers": true,
+  "paceTiers": [
+    1
+  ],
+  "paceLabel": "the later games and the free side story",
+  "notes": [
+    [
+      "Tiers.",
+      "1 is the essential path — Silent Hill 1 through 4 plus the 2024 remake, about 47 hours; 2 is the post-Team Silent years and the free Short Message. A finish date covers tier 1 and the checkbox adds the rest."
+    ],
+    [
+      "Mostly standalone.",
+      "Only Silent Hill 3 is a direct sequel (to the first game); everything else is its own story in the same town. Release order is the natural order all the same."
+    ],
+    [
+      "Getting the old games, honestly.",
+      "Konami has delisted or never re-released most of the pre-2024 catalogue — the Team Silent games have no modern storefront release apart from Silent Hill 4 on GOG, and Origins, Shattered Memories and Downpour remain on their original platforms. Budget for original hardware or the remake."
+    ],
+    [
+      "Scope.",
+      "Mainline only. Wikipedia classes Silent Hill f (2025) as a spin-off — its producer's word — and the arcade, mobile and Book of Memories side games sit outside this list with it."
+    ],
+    [
+      "Hours are story only.",
+      "HowLongToBeat main-story figures — one ending, no UFO runs."
+    ],
+    "Game list and years from Wikipedia's Silent Hill article; hours from HowLongToBeat main-story figures, verified by name."
+  ],
+  "sections": [
+    {
+      "id": "team-silent",
+      "title": "Team Silent",
+      "sub": "1999–2004 · 4 games · 31 hours story",
+      "intro": "Four games in six years from the studio the series is measured against.",
+      "items": [
+        {
+          "id": "sh-sh1",
+          "t": "Silent Hill",
+          "n": "1999",
+          "w": 7.1,
+          "tier": 1,
+          "note": "PS1. Harry Mason, the fog, the school — where the town starts."
+        },
+        {
+          "id": "sh-sh2",
+          "t": "Silent Hill 2",
+          "n": "2001",
+          "w": 8.17,
+          "tier": 1,
+          "note": "James Sunderland and the letter. The series' peak, and its own story — the 2024 row rebuilds it."
+        },
+        {
+          "id": "sh-sh3",
+          "t": "Silent Hill 3",
+          "n": "2003",
+          "w": 6.2,
+          "tier": 1,
+          "note": "Heather's story — the one direct sequel, continuing the first game"
+        },
+        {
+          "id": "sh-sh4",
+          "t": "Silent Hill 4: The Room",
+          "n": "2004",
+          "w": 9.18,
+          "tier": 1,
+          "note": "Room 302 and the hole in the bathroom wall; Team Silent's last"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "after",
+      "title": "After Team Silent",
+      "sub": "2007–2012 · 4 games · 31 hours story",
+      "intro": "Outside studios carry the town, 2007–2012 — worthwhile side trips, none required.",
+      "items": [
+        {
+          "id": "sh-origins",
+          "t": "Silent Hill: Origins",
+          "n": "2007",
+          "w": 6.04,
+          "tier": 2,
+          "note": "PSP prequel to the first game"
+        },
+        {
+          "id": "sh-homecoming",
+          "t": "Silent Hill: Homecoming",
+          "n": "2008",
+          "w": 9.41,
+          "tier": 2,
+          "note": "The first western-built entry"
+        },
+        {
+          "id": "sh-shattered",
+          "t": "Silent Hill: Shattered Memories",
+          "n": "2009",
+          "w": 6.73,
+          "tier": 2,
+          "note": "A reimagining of the first game — the therapy-session one, and the best of this stretch"
+        },
+        {
+          "id": "sh-downpour",
+          "t": "Silent Hill: Downpour",
+          "n": "2012",
+          "w": 9.1,
+          "tier": 2,
+          "note": "Murphy Pendleton, rain, and the last of the old line"
+        }
+      ]
+    },
+    {
+      "id": "revival",
+      "title": "The revival",
+      "sub": "2024 · 2 games · 18 hours story",
+      "intro": "Konami returns to the town in 2024.",
+      "items": [
+        {
+          "id": "sh-short-message",
+          "t": "Silent Hill: The Short Message",
+          "n": "2024",
+          "w": 2.04,
+          "tier": 2,
+          "note": "Free on PS5 — a short standalone story, and the series waking back up",
+          "opt": 1
+        },
+        {
+          "id": "sh-sh2-remake",
+          "t": "Silent Hill 2 (2024)",
+          "n": "2024",
+          "w": 16.06,
+          "tier": 1,
+          "note": "Bloober Team's remake — the modern door into the story; ticking either version counts"
+        }
+      ]
+    }
+  ]
+}

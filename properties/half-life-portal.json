@@ -1,0 +1,125 @@
+{
+  "slug": "half-life-portal",
+  "title": "Half-Life & Portal",
+  "subtitle": "Valve's story canon in release order",
+  "kind": "games",
+  "order": 92,
+  "year": "1998–",
+  "blurb": "9 games in one universe — about 66 hours of story, cliffhanger included.",
+  "unit": {
+    "one": "game",
+    "many": "games"
+  },
+  "verb": {
+    "base": "play",
+    "past": "played",
+    "ing": "playing"
+  },
+  "itemOrder": "number-first",
+  "accent": "#CC6A00",
+  "accentDark": "#3D9BE8",
+  "tiers": false,
+  "notes": [
+    [
+      "One universe, two doors.",
+      "Portal happens in the same world as Half-Life — Aperture Science to Black Mesa's east — and either section works as a way in. Playing Portal 2 before the Half-Life games spoils nothing; the nods only land harder the other way around."
+    ],
+    [
+      "The expansions are optional.",
+      "Opposing Force and Blue Shift replay the Black Mesa incident from other posts — worthwhile, skippable, and marked as such."
+    ],
+    [
+      "Alyx is VR, full stop.",
+      "It requires a VR headset; there is no flat-screen version from Valve. It sits last in release order and earns the spot — its ending rewrites the cliffhanger Episode Two left."
+    ],
+    [
+      "Hours are story only.",
+      "HowLongToBeat main-story figures. Not rows: Uplink and Lost Coast are demos, Decay was a PS2-only co-op extra, and the Portal fan campaigns are other people's games."
+    ],
+    "Game lists and years from Wikipedia's Half-Life (series) and Portal (series) articles; hours from HowLongToBeat main-story figures, verified by name."
+  ],
+  "sections": [
+    {
+      "id": "half-life",
+      "title": "Half-Life",
+      "sub": "1998–2020 · 7 games · 54 hours story",
+      "intro": "Gordon Freeman's war in release order — the expansions are other eyes on the same incident, optional.",
+      "items": [
+        {
+          "id": "hlp-hl1",
+          "t": "Half-Life",
+          "n": "1998",
+          "w": 11.94,
+          "note": "Black Mesa, the crowbar, and the silent physicist. The fan-built Black Mesa remake is a fine modern substitute — ticking it counts."
+        },
+        {
+          "id": "hlp-opposing-force",
+          "t": "Half-Life: Opposing Force",
+          "n": "1999",
+          "w": 5.22,
+          "note": "Gearbox's expansion — the incident again, as a soldier sent to clean it up",
+          "opt": 1
+        },
+        {
+          "id": "hlp-blue-shift",
+          "t": "Half-Life: Blue Shift",
+          "n": "2001",
+          "w": 3.06,
+          "note": "The second expansion — the incident a third time, as a security guard",
+          "opt": 1
+        },
+        {
+          "id": "hlp-hl2",
+          "t": "Half-Life 2",
+          "n": "2004",
+          "w": 12.88,
+          "note": "City 17, the gravity gun, and the Combine."
+        },
+        {
+          "id": "hlp-episode-one",
+          "t": "Half-Life 2: Episode One",
+          "n": "2006",
+          "w": 3.6,
+          "note": "Short, and straight out of the citadel"
+        },
+        {
+          "id": "hlp-episode-two",
+          "t": "Half-Life 2: Episode Two",
+          "n": "2007",
+          "w": 5.09,
+          "note": "The one that ends mid-sentence — and stayed there thirteen years"
+        },
+        {
+          "id": "hlp-alyx",
+          "t": "Half-Life: Alyx",
+          "n": "2020",
+          "w": 12.21,
+          "note": "VR only, as a matter of fact — it requires a headset. Set five years before Half-Life 2; its ending re-opens Episode Two's."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "portal",
+      "title": "Portal",
+      "sub": "2007–2011 · 2 games · 12 hours story",
+      "intro": "Aperture Science, elsewhere in the same universe — two games, no homework required.",
+      "items": [
+        {
+          "id": "hlp-portal",
+          "t": "Portal",
+          "n": "2007",
+          "w": 3.12,
+          "note": "Three hours of GLaDOS, shipped in the same Orange Box as Episode Two"
+        },
+        {
+          "id": "hlp-portal2",
+          "t": "Portal 2",
+          "n": "2011",
+          "w": 8.54,
+          "note": "Longer, funnier, and the fuller story of Aperture"
+        }
+      ]
+    }
+  ]
+}

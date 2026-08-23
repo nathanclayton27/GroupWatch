@@ -1,0 +1,62 @@
+{
+ "sh1": {
+  "id": "8522",
+  "name": "Silent Hill",
+  "main_h": 7.1,
+  "year": 1999
+ },
+ "sh2": {
+  "id": "8523",
+  "name": "Silent Hill 2",
+  "main_h": 8.17,
+  "year": 2001
+ },
+ "sh3": {
+  "id": "8526",
+  "name": "Silent Hill 3",
+  "main_h": 6.2,
+  "year": 2003
+ },
+ "sh4": {
+  "id": "8527",
+  "name": "Silent Hill 4: The Room",
+  "main_h": 9.18,
+  "year": 2004
+ },
+ "origins": {
+  "id": "8532",
+  "name": "Silent Hill: Origins",
+  "main_h": 6.04,
+  "year": 2007
+ },
+ "homecoming": {
+  "id": "8528",
+  "name": "Silent Hill: Homecoming",
+  "main_h": 9.41,
+  "year": 2008
+ },
+ "shattered": {
+  "id": "8535",
+  "name": "Silent Hill: Shattered Memories",
+  "main_h": 6.73,
+  "year": 2009
+ },
+ "downpour": {
+  "id": "8530",
+  "name": "Silent Hill: Downpour",
+  "main_h": 9.1,
+  "year": 2012
+ },
+ "sh2-remake": {
+  "id": "114905",
+  "name": "Silent Hill 2",
+  "main_h": 16.06,
+  "year": 2024
+ },
+ "short-message": {
+  "id": "145005",
+  "name": "Silent Hill: The Short Message",
+  "main_h": 2.04,
+  "year": 2024
+ }
+}

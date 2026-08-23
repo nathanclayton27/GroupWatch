@@ -1,0 +1,62 @@
+{
+ "ce": {
+  "id": "4269",
+  "name": "Halo: Combat Evolved",
+  "main_h": 9.96,
+  "year": 2001
+ },
+ "halo2": {
+  "id": "4262",
+  "name": "Halo 2",
+  "main_h": 9.18,
+  "year": 2004
+ },
+ "halo3": {
+  "id": "4263",
+  "name": "Halo 3",
+  "main_h": 7.77,
+  "year": 2007
+ },
+ "wars": {
+  "id": "4267",
+  "name": "Halo Wars",
+  "main_h": 9.02,
+  "year": 2009
+ },
+ "odst": {
+  "id": "4264",
+  "name": "Halo 3: ODST",
+  "main_h": 5.98,
+  "year": 2009
+ },
+ "reach": {
+  "id": "4271",
+  "name": "Halo: Reach",
+  "main_h": 7.69,
+  "year": 2010
+ },
+ "halo4": {
+  "id": "4265",
+  "name": "Halo 4",
+  "main_h": 7.21,
+  "year": 2012
+ },
+ "halo5": {
+  "id": "19267",
+  "name": "Halo 5: Guardians",
+  "main_h": 8.05,
+  "year": 2015
+ },
+ "wars2": {
+  "id": "37985",
+  "name": "Halo Wars 2",
+  "main_h": 8.1,
+  "year": 2017
+ },
+ "infinite": {
+  "id": "57454",
+  "name": "Halo Infinite",
+  "main_h": 11.32,
+  "year": 2021
+ }
+}
