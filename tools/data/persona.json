@@ -1,0 +1,44 @@
+{
+ "p1": {
+  "id": "7773",
+  "name": "Revelations: Persona",
+  "main_h": 31.66,
+  "year": 1996
+ },
+ "p2is": {
+  "id": "6972",
+  "name": "Persona 2: Innocent Sin",
+  "main_h": 35.76,
+  "year": 1999
+ },
+ "p2ep": {
+  "id": "6971",
+  "name": "Persona 2: Eternal Punishment",
+  "main_h": 46.87,
+  "year": 2000
+ },
+ "p3": {
+  "id": "8440",
+  "name": "Shin Megami Tensei: Persona 3",
+  "main_h": 82.05,
+  "year": 2006
+ },
+ "p4": {
+  "id": "8443",
+  "name": "Shin Megami Tensei: Persona 4",
+  "main_h": 72.55,
+  "year": 2008
+ },
+ "p5": {
+  "id": "15221",
+  "name": "Persona 5",
+  "main_h": 97.55,
+  "year": 2016
+ },
+ "p3r": {
+  "id": "129805",
+  "name": "Persona 3 Reload",
+  "main_h": 64.79,
+  "year": 2024
+ }
+}

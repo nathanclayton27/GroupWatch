@@ -1,0 +1,38 @@
+{
+ "origins": {
+  "id": "2760",
+  "name": "Dragon Age: Origins",
+  "main_h": 40.32,
+  "year": 2009
+ },
+ "awakening": {
+  "id": "2761",
+  "name": "Dragon Age: Origins - Awakening",
+  "main_h": 12.93,
+  "year": 2010
+ },
+ "da2": {
+  "id": "2756",
+  "name": "Dragon Age II",
+  "main_h": 26.68,
+  "year": 2011
+ },
+ "inquisition": {
+  "id": "11627",
+  "name": "Dragon Age: Inquisition",
+  "main_h": 46.7,
+  "year": 2014
+ },
+ "trespasser": {
+  "id": "30012",
+  "name": "Dragon Age: Inquisition - Trespasser DLC",
+  "main_h": 5.48,
+  "year": 2015
+ },
+ "veilguard": {
+  "id": "82090",
+  "name": "Dragon Age: The Veilguard",
+  "main_h": 28.74,
+  "year": 2024
+ }
+}

@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Seventy-one lists, from a ten-episode anime to a 1,337-spine film
+Seventy-eight lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -38,9 +38,11 @@ compilations, every episode verified against the episode tables.
 **Games with story-only hours.** *Kingdom Hearts*, *Metal Gear*, *Zelda*,
 *Yakuza / Like a Dragon*, the *FromSoftware* Souls line, *Final Fantasy*,
 *Resident Evil*, mainline *Mario* and *Metroid*, *Castlevania* (with style
-chips), *Half-Life & Portal*, *Silent Hill*, *Halo*, and the whole *Ace
-Attorney* docket — all weighted by HowLongToBeat main-story figures,
-verified by name.
+chips), *Half-Life & Portal*, *Silent Hill*, *Halo*, the whole *Ace
+Attorney* docket, *Fallout* and *The Elder Scrolls* with their story DLC as
+optional rows, *Persona* (431 hours, stated plainly), *Dragon Quest*,
+*Mass Effect*, *Dragon Age*, and a house-picked indie essentials shelf —
+all weighted by HowLongToBeat main-story figures, verified by name.
 
 **Filmographies.** *Stanley Kubrick* (with A.I.), *Steven Spielberg*,
 *David Lynch* (all of Twin Peaks as one row), *Tom Cruise*, *Akira

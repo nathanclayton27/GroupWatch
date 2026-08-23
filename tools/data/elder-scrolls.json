@@ -1,0 +1,80 @@
+{
+ "arena": {
+  "id": "9862",
+  "name": "The Elder Scrolls: Arena",
+  "main_h": 26.51,
+  "year": 1994
+ },
+ "daggerfall": {
+  "id": "9848",
+  "name": "The Elder Scrolls II: Daggerfall",
+  "main_h": 30.39,
+  "year": 1996
+ },
+ "battlespire": {
+  "id": "447",
+  "name": "An Elder Scrolls Legend: Battlespire",
+  "main_h": 15.67,
+  "year": 1997
+ },
+ "redguard": {
+  "id": "9847",
+  "name": "The Elder Scrolls Adventures: Redguard",
+  "main_h": 16.99,
+  "year": 1998
+ },
+ "morrowind": {
+  "id": "9850",
+  "name": "The Elder Scrolls III: Morrowind",
+  "main_h": 44.02,
+  "year": 2002
+ },
+ "tribunal": {
+  "id": "9852",
+  "name": "The Elder Scrolls III: Tribunal",
+  "main_h": 7.51,
+  "year": 2002
+ },
+ "bloodmoon": {
+  "id": "9849",
+  "name": "The Elder Scrolls III: Bloodmoon",
+  "main_h": 9.72,
+  "year": 2003
+ },
+ "oblivion": {
+  "id": "9854",
+  "name": "The Elder Scrolls IV: Oblivion",
+  "main_h": 27.46,
+  "year": 2006
+ },
+ "shivering-isles": {
+  "id": "9857",
+  "name": "The Elder Scrolls IV: Shivering Isles",
+  "main_h": 10.46,
+  "year": 2007
+ },
+ "skyrim": {
+  "id": "9859",
+  "name": "The Elder Scrolls V: Skyrim",
+  "main_h": 34.85,
+  "year": 2011
+ },
+ "dawnguard": {
+  "id": "9860",
+  "name": "The Elder Scrolls V: Skyrim - Dawnguard",
+  "main_h": 7.34,
+  "year": 2012
+ },
+ "dragonborn": {
+  "id": "9861",
+  "name": "The Elder Scrolls V: Skyrim - Dragonborn",
+  "main_h": 6.64,
+  "year": 2012
+ },
+ "eso": {
+  "id": "17596",
+  "name": "The Elder Scrolls Online",
+  "main_h": 48.34,
+  "year": 2014
+ }
+}

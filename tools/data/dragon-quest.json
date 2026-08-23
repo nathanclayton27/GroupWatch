@@ -1,0 +1,68 @@
+{
+ "dq1": {
+  "id": "2833",
+  "name": "Dragon Quest",
+  "main_h": 9.12,
+  "year": 1986
+ },
+ "dq2": {
+  "id": "2837",
+  "name": "Dragon Quest II: Luminaries of the Legendary Line",
+  "main_h": 16.37,
+  "year": 1987
+ },
+ "dq3": {
+  "id": "2838",
+  "name": "Dragon Quest III: The Seeds of Salvation",
+  "main_h": 28.11,
+  "year": 1988
+ },
+ "dq4": {
+  "id": "2839",
+  "name": "Dragon Quest IV: Chapters of the Chosen",
+  "main_h": 27.19,
+  "year": 1990
+ },
+ "dq5": {
+  "id": "2822",
+  "name": "Dragon Quest V: Hand of the Heavenly Bride",
+  "main_h": 30.55,
+  "year": 1992
+ },
+ "dq6": {
+  "id": "42137",
+  "name": "Dragon Quest VI: Realms of Revelation",
+  "main_h": 40.31,
+  "year": 1995
+ },
+ "dq7": {
+  "id": "2843",
+  "name": "Dragon Quest VII: Fragments of the Forgotten Past",
+  "main_h": 77.88,
+  "year": 2000
+ },
+ "dq8": {
+  "id": "2824",
+  "name": "Dragon Quest VIII: Journey of the Cursed King",
+  "main_h": 60.96,
+  "year": 2004
+ },
+ "dq9": {
+  "id": "2817",
+  "name": "Dragon Quest IX: Sentinels of the Starry Skies",
+  "main_h": 47.44,
+  "year": 2010
+ },
+ "dq10": {
+  "id": "22370",
+  "name": "Dragon Quest X: Rise of the Five Tribes",
+  "main_h": 40.27,
+  "year": 2012
+ },
+ "dq11": {
+  "id": "39508",
+  "name": "Dragon Quest XI: Echoes of an Elusive Age",
+  "main_h": 57.07,
+  "year": 2017
+ }
+}

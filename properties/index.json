@@ -1065,6 +1065,51 @@
     "total": 10
   },
   {
+    "slug": "fallout",
+    "title": "Fallout",
+    "subtitle": "the mainline games in release order, story DLC included",
+    "kind": "games",
+    "year": "1997–",
+    "blurb": "5 mainline games, 12 story DLC and 3 asides — about 250 hours of story, 124 of it the mainline.",
+    "accent": "#23538F",
+    "accentDark": "#D9A045",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 20
+  },
+  {
+    "slug": "elder-scrolls",
+    "title": "The Elder Scrolls",
+    "subtitle": "Arena to Skyrim in release order, expansions included",
+    "kind": "games",
+    "year": "1994–",
+    "blurb": "5 mainline games, 5 expansions and 3 asides — about 286 hours of story, 163 of it the mainline.",
+    "accent": "#8A6A28",
+    "accentDark": "#E3C46B",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 13
+  },
+  {
+    "slug": "persona",
+    "title": "Persona",
+    "subtitle": "the mainline RPGs in release order, spin-offs cut",
+    "kind": "games",
+    "year": "1996–",
+    "blurb": "7 games and about 431 hours of story — these are 60-to-100-hour RPGs, and that total is not a typo. The modern trilogy alone is 252.",
+    "accent": "#2D3C93",
+    "accentDark": "#EF4B5E",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 7
+  },
+  {
     "slug": "secret",
     "title": "Secret",
     "subtitle": "",
@@ -1081,5 +1126,65 @@
     "secret": {
       "title": "Secret"
     }
+  },
+  {
+    "slug": "dragon-quest",
+    "title": "Dragon Quest",
+    "subtitle": "the mainline eleven in release order",
+    "kind": "games",
+    "year": "1986–",
+    "blurb": "Mainline I through XI — about 395 hours of story, from one-evening NES quests to the hundred-hour XI.",
+    "accent": "#1D5FB8",
+    "accentDark": "#F0953F",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 11
+  },
+  {
+    "slug": "mass-effect",
+    "title": "Mass Effect",
+    "subtitle": "the Shepard trilogy and its DLC, then Andromeda",
+    "kind": "games",
+    "year": "2007–",
+    "blurb": "The trilogy, 7 story DLC and Andromeda — about 101 hours of story, 66 of it the trilogy itself.",
+    "accent": "#B3282E",
+    "accentDark": "#F2A03D",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 11
+  },
+  {
+    "slug": "dragon-age",
+    "title": "Dragon Age",
+    "subtitle": "all four games in release order, expansions included",
+    "kind": "games",
+    "year": "2009–",
+    "blurb": "4 games and 2 expansions — about 161 hours of story, 142 of it the games themselves.",
+    "accent": "#33567E",
+    "accentDark": "#E15A5A",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 6
+  },
+  {
+    "slug": "indie-essentials",
+    "title": "Indie Essentials",
+    "subtitle": "a house canon of the modern indies, Braid to Balatro",
+    "kind": "games",
+    "year": "2008–",
+    "blurb": "24 essentials in any order — about 197 hours of story where a story clock exists, and three games that never end.",
+    "accent": "#D94F45",
+    "accentDark": "#4FC4AE",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 24
   }
 ]

@@ -1,0 +1,146 @@
+{
+ "braid": {
+  "id": "1290",
+  "name": "Braid",
+  "main_h": 5.07,
+  "year": 2008
+ },
+ "limbo": {
+  "id": "5304",
+  "name": "Limbo",
+  "main_h": 3.58,
+  "year": 2010
+ },
+ "super-meat-boy": {
+  "id": "9389",
+  "name": "Super Meat Boy",
+  "main_h": 9.19,
+  "year": 2010
+ },
+ "fez": {
+  "id": "3435",
+  "name": "Fez",
+  "main_h": 5.96,
+  "year": 2012
+ },
+ "journey": {
+  "id": "4867",
+  "name": "Journey",
+  "main_h": 2.0,
+  "year": 2012
+ },
+ "papers-please": {
+  "id": "6916",
+  "name": "Papers, Please",
+  "main_h": 5.02,
+  "year": 2013
+ },
+ "shovel-knight": {
+  "id": "19512",
+  "name": "Shovel Knight",
+  "main_h": 6.66,
+  "year": 2014
+ },
+ "undertale": {
+  "id": "30385",
+  "name": "Undertale",
+  "main_h": 7.03,
+  "year": 2015
+ },
+ "ori": {
+  "id": "19265",
+  "name": "Ori and the Blind Forest",
+  "main_h": 8.22,
+  "year": 2015
+ },
+ "inside": {
+  "id": "21694",
+  "name": "Inside",
+  "main_h": 3.56,
+  "year": 2016
+ },
+ "firewatch": {
+  "id": "26806",
+  "name": "Firewatch",
+  "main_h": 4.07,
+  "year": 2016
+ },
+ "oxenfree": {
+  "id": "33620",
+  "name": "Oxenfree",
+  "main_h": 4.45,
+  "year": 2016
+ },
+ "stardew": {
+  "id": "34716",
+  "name": "Stardew Valley",
+  "main_h": 53.44,
+  "year": 2016
+ },
+ "hollow-knight": {
+  "id": "26286",
+  "name": "Hollow Knight",
+  "main_h": 27.0,
+  "year": 2017
+ },
+ "cuphead": {
+  "id": "21680",
+  "name": "Cuphead",
+  "main_h": 10.52,
+  "year": 2017
+ },
+ "celeste": {
+  "id": "42818",
+  "name": "Celeste",
+  "main_h": 8.32,
+  "year": 2018
+ },
+ "obra-dinn": {
+  "id": "61882",
+  "name": "Return of the Obra Dinn",
+  "main_h": 8.22,
+  "year": 2018
+ },
+ "outer-wilds": {
+  "id": "57527",
+  "name": "Outer Wilds",
+  "main_h": 17.09,
+  "year": 2019
+ },
+ "disco-elysium": {
+  "id": "57335",
+  "name": "Disco Elysium",
+  "main_h": 23.72,
+  "year": 2019
+ },
+ "slay-the-spire": {
+  "id": "51390",
+  "name": "Slay the Spire",
+  "main_h": 12.31,
+  "year": 2019
+ },
+ "a-short-hike": {
+  "id": "66152",
+  "name": "A Short Hike",
+  "main_h": 1.52,
+  "year": 2019
+ },
+ "hades": {
+  "id": "62941",
+  "name": "Hades",
+  "main_h": 23.47,
+  "year": 2020
+ },
+ "tunic": {
+  "id": "52546",
+  "name": "Tunic",
+  "main_h": 12.31,
+  "year": 2022
+ },
+ "balatro": {
+  "id": "132112",
+  "name": "Balatro",
+  "main_h": 7.69,
+  "year": 2024
+ }
+}
