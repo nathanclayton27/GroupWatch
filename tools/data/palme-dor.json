@@ -1,0 +1,1195 @@
+{
+ "source": "en.wikipedia Palme d'Or winners tables; runtimes wikidata P2047",
+ "years": [
+  {
+   "year": 1946,
+   "rowspan": 11,
+   "films": [
+    {
+     "t": "Brief Encounter",
+     "target": "Brief Encounter",
+     "by": "David Lean",
+     "unanimous": false,
+     "runtime": 85
+    },
+    {
+     "t": "The Last Chance",
+     "target": "The Last Chance (1945 film)",
+     "by": "Leopold Lindtberg",
+     "unanimous": false,
+     "runtime": 104
+    },
+    {
+     "t": "The Lost Weekend",
+     "target": "The Lost Weekend",
+     "by": "Billy Wilder",
+     "unanimous": false,
+     "runtime": 101
+    },
+    {
+     "t": "María Candelaria",
+     "target": "María Candelaria",
+     "by": "Emilio Fernández",
+     "unanimous": false,
+     "runtime": 101
+    },
+    {
+     "t": "Men Without Wings",
+     "target": "Men Without Wings",
+     "by": "František Čáp",
+     "unanimous": false,
+     "runtime": 76
+    },
+    {
+     "t": "Neecha Nagar",
+     "target": "Neecha Nagar",
+     "by": "Chetan Anand",
+     "unanimous": false,
+     "runtime": 122
+    },
+    {
+     "t": "Pastoral Symphony",
+     "target": "Pastoral Symphony (film)",
+     "by": "Jean Delannoy",
+     "unanimous": false,
+     "runtime": 110
+    },
+    {
+     "t": "The Red Meadows",
+     "target": "The Red Meadows",
+     "by": "Bodil Ipsen and Lau Lauritzen Jr.",
+     "unanimous": false,
+     "runtime": 85
+    },
+    {
+     "t": "Rome, Open City",
+     "target": "Rome, Open City",
+     "by": "Roberto Rossellini",
+     "unanimous": false,
+     "runtime": 100
+    },
+    {
+     "t": "Torment",
+     "target": "Torment (1944 film)",
+     "by": "Alf Sjöberg",
+     "unanimous": false,
+     "runtime": 101
+    },
+    {
+     "t": "The Turning Point",
+     "target": "The Turning Point (1945 film)",
+     "by": "Fridrikh Ermler",
+     "unanimous": false,
+     "runtime": 108
+    }
+   ]
+  },
+  {
+   "year": 1947,
+   "rowspan": 5,
+   "films": [
+    {
+     "t": "Antoine and Antoinette",
+     "target": "Antoine and Antoinette",
+     "by": "Jacques Becker",
+     "unanimous": false,
+     "runtime": 78
+    },
+    {
+     "t": "Crossfire",
+     "target": "Crossfire (film)",
+     "by": "Edward Dmytryk",
+     "unanimous": false,
+     "runtime": 88
+    },
+    {
+     "t": "Dumbo",
+     "target": "Dumbo",
+     "by": "Ben Sharpsteen",
+     "unanimous": false,
+     "runtime": 64
+    },
+    {
+     "t": "The Damned",
+     "target": "The Damned (1947 film)",
+     "by": "René Clément",
+     "unanimous": false,
+     "runtime": 95
+    },
+    {
+     "t": "Ziegfeld Follies",
+     "target": "Ziegfeld Follies (film)",
+     "by": "Vincente Minnelli",
+     "unanimous": false,
+     "runtime": 110
+    }
+   ]
+  },
+  {
+   "year": 1949,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Third Man",
+     "target": "The Third Man",
+     "by": "Carol Reed",
+     "unanimous": false,
+     "runtime": 104
+    }
+   ]
+  },
+  {
+   "year": 1951,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "Miracle in Milan",
+     "target": "Miracle in Milan",
+     "by": "Vittorio De Sica",
+     "unanimous": false,
+     "runtime": 100
+    },
+    {
+     "t": "Miss Julie",
+     "target": "Miss Julie (1951 film)",
+     "by": "Alf Sjöberg",
+     "unanimous": false,
+     "runtime": 89
+    }
+   ]
+  },
+  {
+   "year": 1952,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "Othello",
+     "target": "Othello (1951 film)",
+     "by": "Orson Welles",
+     "unanimous": false,
+     "runtime": 91
+    },
+    {
+     "t": "Two Cents Worth of Hope",
+     "target": "Two Cents Worth of Hope",
+     "by": "Renato Castellani",
+     "unanimous": false,
+     "runtime": 110
+    }
+   ]
+  },
+  {
+   "year": 1953,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Wages of Fear",
+     "target": "The Wages of Fear",
+     "by": "Henri-Georges Clouzot",
+     "unanimous": false,
+     "runtime": 148
+    }
+   ]
+  },
+  {
+   "year": 1954,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Gate of Hell",
+     "target": "Gate of Hell (film)",
+     "by": "Teinosuke Kinugasa",
+     "unanimous": false,
+     "runtime": 88
+    }
+   ]
+  },
+  {
+   "year": 1955,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Marty",
+     "target": "Marty (film)",
+     "by": "Delbert Mann",
+     "unanimous": true,
+     "runtime": 91
+    }
+   ]
+  },
+  {
+   "year": 1956,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Silent World",
+     "target": "The Silent World",
+     "by": "Jacques Cousteau and Louis Malle",
+     "unanimous": false,
+     "runtime": 85
+    }
+   ]
+  },
+  {
+   "year": 1957,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Friendly Persuasion",
+     "target": "Friendly Persuasion (1956 film)",
+     "by": "William Wyler",
+     "unanimous": false,
+     "runtime": 137
+    }
+   ]
+  },
+  {
+   "year": 1958,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Cranes Are Flying",
+     "target": "The Cranes Are Flying",
+     "by": "Mikhail Kalatozov",
+     "unanimous": false,
+     "runtime": 97
+    }
+   ]
+  },
+  {
+   "year": 1959,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Black Orpheus",
+     "target": "Black Orpheus",
+     "by": "Marcel Camus",
+     "unanimous": true,
+     "runtime": 107
+    }
+   ]
+  },
+  {
+   "year": 1960,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "La dolce vita",
+     "target": "La dolce vita",
+     "by": "Federico Fellini",
+     "unanimous": true,
+     "runtime": 174
+    }
+   ]
+  },
+  {
+   "year": 1961,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "The Long Absence",
+     "target": "The Long Absence",
+     "by": "Henri Colpi",
+     "unanimous": true,
+     "runtime": 85
+    },
+    {
+     "t": "Viridiana",
+     "target": "Viridiana",
+     "by": "Luis Buñuel",
+     "unanimous": true,
+     "runtime": 90
+    }
+   ]
+  },
+  {
+   "year": 1962,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "O Pagador de Promessas",
+     "target": "O Pagador de Promessas",
+     "by": "Anselmo Duarte",
+     "unanimous": true,
+     "runtime": 92
+    }
+   ]
+  },
+  {
+   "year": 1963,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Leopard",
+     "target": "The Leopard (1963 film)",
+     "by": "Luchino Visconti",
+     "unanimous": true,
+     "runtime": 183
+    }
+   ]
+  },
+  {
+   "year": 1964,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Umbrellas of Cherbourg",
+     "target": "The Umbrellas of Cherbourg",
+     "by": "Jacques Demy",
+     "unanimous": false,
+     "runtime": 91
+    }
+   ]
+  },
+  {
+   "year": 1965,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Knack ...and How to Get It",
+     "target": "The Knack ...and How to Get It",
+     "by": "Richard Lester",
+     "unanimous": false,
+     "runtime": 85
+    }
+   ]
+  },
+  {
+   "year": 1966,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "The Birds, the Bees and the Italians",
+     "target": "The Birds, the Bees and the Italians",
+     "by": "Pietro Germi",
+     "unanimous": false,
+     "runtime": 115
+    },
+    {
+     "t": "A Man and a Woman",
+     "target": "A Man and a Woman",
+     "by": "Claude Lelouch",
+     "unanimous": false,
+     "runtime": 102
+    }
+   ]
+  },
+  {
+   "year": 1967,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Blowup",
+     "target": "Blowup",
+     "by": "Michelangelo Antonioni",
+     "unanimous": false,
+     "runtime": 111
+    }
+   ]
+  },
+  {
+   "year": 1969,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "If....",
+     "target": "If....",
+     "by": "Lindsay Anderson",
+     "unanimous": false,
+     "runtime": 111
+    }
+   ]
+  },
+  {
+   "year": 1970,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "M*A*S*H",
+     "target": "M*A*S*H (film)",
+     "by": "Robert Altman",
+     "unanimous": false,
+     "runtime": 116
+    }
+   ]
+  },
+  {
+   "year": 1971,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Go-Between",
+     "target": "The Go-Between (1971 film)",
+     "by": "Joseph Losey",
+     "unanimous": false,
+     "runtime": 118
+    }
+   ]
+  },
+  {
+   "year": 1972,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "The Mattei Affair",
+     "target": "The Mattei Affair",
+     "by": "Francesco Rosi",
+     "unanimous": true,
+     "runtime": 110
+    },
+    {
+     "t": "The Working Class Goes to Heaven",
+     "target": "The Working Class Goes to Heaven",
+     "by": "Elio Petri",
+     "unanimous": true,
+     "runtime": 120
+    }
+   ]
+  },
+  {
+   "year": 1973,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "The Hireling",
+     "target": "The Hireling",
+     "by": "Alan Bridges",
+     "unanimous": false,
+     "runtime": 95
+    },
+    {
+     "t": "Scarecrow",
+     "target": "Scarecrow (1973 film)",
+     "by": "Jerry Schatzberg",
+     "unanimous": false,
+     "runtime": 112
+    }
+   ]
+  },
+  {
+   "year": 1974,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Conversation",
+     "target": "The Conversation",
+     "by": "Francis Ford Coppola",
+     "unanimous": false,
+     "runtime": 109
+    }
+   ]
+  },
+  {
+   "year": 1975,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Chronicle of the Years of Fire",
+     "target": "Chronicle of the Years of Fire",
+     "by": "Mohammed Lakhdar-Hamina",
+     "unanimous": false,
+     "runtime": 177
+    }
+   ]
+  },
+  {
+   "year": 1976,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Taxi Driver",
+     "target": "Taxi Driver",
+     "by": "Martin Scorsese",
+     "unanimous": false,
+     "runtime": 114
+    }
+   ]
+  },
+  {
+   "year": 1977,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Padre Padrone",
+     "target": "Padre Padrone",
+     "by": "Paolo and Vittorio Taviani",
+     "unanimous": false,
+     "runtime": 113
+    }
+   ]
+  },
+  {
+   "year": 1978,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Tree of Wooden Clogs",
+     "target": "The Tree of Wooden Clogs",
+     "by": "Ermanno Olmi",
+     "unanimous": true,
+     "runtime": 186
+    }
+   ]
+  },
+  {
+   "year": 1979,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "Apocalypse Now",
+     "target": "Apocalypse Now",
+     "by": "Francis Ford Coppola",
+     "unanimous": false,
+     "runtime": 147
+    },
+    {
+     "t": "The Tin Drum",
+     "target": "The Tin Drum (film)",
+     "by": "Volker Schlöndorff",
+     "unanimous": false,
+     "runtime": 142
+    }
+   ]
+  },
+  {
+   "year": 1980,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "All That Jazz",
+     "target": "All That Jazz (film)",
+     "by": "Bob Fosse",
+     "unanimous": false,
+     "runtime": 123
+    },
+    {
+     "t": "Kagemusha",
+     "target": "Kagemusha",
+     "by": "Akira Kurosawa",
+     "unanimous": false,
+     "runtime": 179
+    }
+   ]
+  },
+  {
+   "year": 1981,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Man of Iron",
+     "target": "Man of Iron",
+     "by": "Andrzej Wajda",
+     "unanimous": false,
+     "runtime": 147
+    }
+   ]
+  },
+  {
+   "year": 1982,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "Missing",
+     "target": "Missing (1982 film)",
+     "by": "Costa-Gavras",
+     "unanimous": true,
+     "runtime": 122
+    },
+    {
+     "t": "Yol",
+     "target": "Yol (film)",
+     "by": "Yılmaz Güney and Şerif Gören",
+     "unanimous": true,
+     "runtime": 114
+    }
+   ]
+  },
+  {
+   "year": 1983,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Ballad of Narayama",
+     "target": "The Ballad of Narayama (1983 film)",
+     "by": "Shōhei Imamura",
+     "unanimous": false,
+     "runtime": 130
+    }
+   ]
+  },
+  {
+   "year": 1984,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Paris, Texas",
+     "target": "Paris, Texas (film)",
+     "by": "Wim Wenders",
+     "unanimous": true,
+     "runtime": 147
+    }
+   ]
+  },
+  {
+   "year": 1985,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "When Father Was Away on Business",
+     "target": "When Father Was Away on Business",
+     "by": "Emir Kusturica",
+     "unanimous": true,
+     "runtime": 136
+    }
+   ]
+  },
+  {
+   "year": 1986,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Mission",
+     "target": "The Mission (1986 film)",
+     "by": "Roland Joffé",
+     "unanimous": false,
+     "runtime": 126
+    }
+   ]
+  },
+  {
+   "year": 1987,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Under the Sun of Satan",
+     "target": "Under the Sun of Satan (film)",
+     "by": "Maurice Pialat",
+     "unanimous": true,
+     "runtime": 93
+    }
+   ]
+  },
+  {
+   "year": 1988,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Pelle the Conqueror",
+     "target": "Pelle the Conqueror",
+     "by": "Bille August",
+     "unanimous": false,
+     "runtime": 157
+    }
+   ]
+  },
+  {
+   "year": 1989,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Sex, Lies, and Videotape",
+     "target": "Sex, Lies, and Videotape",
+     "by": "Steven Soderbergh",
+     "unanimous": false,
+     "runtime": 101
+    }
+   ]
+  },
+  {
+   "year": 1990,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Wild at Heart",
+     "target": "Wild at Heart (film)",
+     "by": "David Lynch",
+     "unanimous": false,
+     "runtime": 120
+    }
+   ]
+  },
+  {
+   "year": 1991,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Barton Fink",
+     "target": "Barton Fink",
+     "by": "Joel Coen",
+     "unanimous": true,
+     "runtime": 116
+    }
+   ]
+  },
+  {
+   "year": 1992,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Best Intentions",
+     "target": "The Best Intentions",
+     "by": "Bille August",
+     "unanimous": false,
+     "runtime": 180
+    }
+   ]
+  },
+  {
+   "year": 1993,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "Farewell My Concubine",
+     "target": "Farewell My Concubine (film)",
+     "by": "Chen Kaige",
+     "unanimous": false,
+     "runtime": 171
+    },
+    {
+     "t": "The Piano",
+     "target": "The Piano",
+     "by": "Jane Campion",
+     "unanimous": false,
+     "runtime": 121
+    }
+   ]
+  },
+  {
+   "year": 1994,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Pulp Fiction",
+     "target": "Pulp Fiction",
+     "by": "Quentin Tarantino",
+     "unanimous": false,
+     "runtime": 154
+    }
+   ]
+  },
+  {
+   "year": 1995,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Underground",
+     "target": "Underground (1995 film)",
+     "by": "Emir Kusturica",
+     "unanimous": false,
+     "runtime": 163
+    }
+   ]
+  },
+  {
+   "year": 1996,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Secrets & Lies",
+     "target": "Secrets & Lies (film)",
+     "by": "Mike Leigh",
+     "unanimous": false,
+     "runtime": 142
+    }
+   ]
+  },
+  {
+   "year": 1997,
+   "rowspan": 2,
+   "films": [
+    {
+     "t": "The Eel",
+     "target": "The Eel (film)",
+     "by": "Shōhei Imamura",
+     "unanimous": false,
+     "runtime": 110
+    },
+    {
+     "t": "Taste of Cherry",
+     "target": "Taste of Cherry",
+     "by": "Abbas Kiarostami",
+     "unanimous": false,
+     "runtime": 95
+    }
+   ]
+  },
+  {
+   "year": 1998,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Eternity and a Day",
+     "target": "Eternity and a Day",
+     "by": "Theo Angelopoulos",
+     "unanimous": true,
+     "runtime": 137
+    }
+   ]
+  },
+  {
+   "year": 1999,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Rosetta",
+     "target": "Rosetta (film)",
+     "by": "Jean-Pierre and Luc Dardenne",
+     "unanimous": true,
+     "runtime": 90
+    }
+   ]
+  },
+  {
+   "year": 2000,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Dancer in the Dark",
+     "target": "Dancer in the Dark",
+     "by": "Lars von Trier",
+     "unanimous": false,
+     "runtime": 140
+    }
+   ]
+  },
+  {
+   "year": 2001,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Son's Room",
+     "target": "The Son's Room",
+     "by": "Nanni Moretti",
+     "unanimous": false,
+     "runtime": 99
+    }
+   ]
+  },
+  {
+   "year": 2002,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Pianist",
+     "target": "The Pianist (2002 film)",
+     "by": "Roman Polanski",
+     "unanimous": false,
+     "runtime": 149
+    }
+   ]
+  },
+  {
+   "year": 2003,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Elephant",
+     "target": "Elephant (2003 film)",
+     "by": "Gus Van Sant",
+     "unanimous": false,
+     "runtime": 81
+    }
+   ]
+  },
+  {
+   "year": 2004,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Fahrenheit 9/11",
+     "target": "Fahrenheit 9/11",
+     "by": "Michael Moore",
+     "unanimous": false,
+     "runtime": 122
+    }
+   ]
+  },
+  {
+   "year": 2005,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "L'Enfant",
+     "target": "L'Enfant (film)",
+     "by": "Jean-Pierre and Luc Dardenne",
+     "unanimous": false,
+     "runtime": 95
+    }
+   ]
+  },
+  {
+   "year": 2006,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Wind That Shakes the Barley",
+     "target": "The Wind That Shakes the Barley (film)",
+     "by": "Ken Loach",
+     "unanimous": true,
+     "runtime": 127
+    }
+   ]
+  },
+  {
+   "year": 2007,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "4 Months, 3 Weeks and 2 Days",
+     "target": "4 Months, 3 Weeks and 2 Days",
+     "by": "Cristian Mungiu",
+     "unanimous": false,
+     "runtime": 113
+    }
+   ]
+  },
+  {
+   "year": 2008,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Class",
+     "target": "The Class (2008 film)",
+     "by": "Laurent Cantet",
+     "unanimous": true,
+     "runtime": 128
+    }
+   ]
+  },
+  {
+   "year": 2009,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The White Ribbon",
+     "target": "The White Ribbon",
+     "by": "Michael Haneke",
+     "unanimous": false,
+     "runtime": 144
+    }
+   ]
+  },
+  {
+   "year": 2010,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Uncle Boonmee Who Can Recall His Past Lives",
+     "target": "Uncle Boonmee Who Can Recall His Past Lives",
+     "by": "Apichatpong Weerasethakul",
+     "unanimous": false,
+     "runtime": 113
+    }
+   ]
+  },
+  {
+   "year": 2011,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Tree of Life",
+     "target": "The Tree of Life (film)",
+     "by": "Terrence Malick",
+     "unanimous": false,
+     "runtime": 138
+    }
+   ]
+  },
+  {
+   "year": 2012,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Amour",
+     "target": "Amour (2012 film)",
+     "by": "Michael Haneke",
+     "unanimous": false,
+     "runtime": 127
+    }
+   ]
+  },
+  {
+   "year": 2013,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Blue Is the Warmest Colour",
+     "target": "Blue Is the Warmest Colour",
+     "by": "Léa Seydoux, Adèle Exarchopoulos",
+     "unanimous": true,
+     "runtime": 179
+    }
+   ]
+  },
+  {
+   "year": 2014,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Winter Sleep",
+     "target": "Winter Sleep (film)",
+     "by": "Nuri Bilge Ceylan",
+     "unanimous": false,
+     "runtime": 196
+    }
+   ]
+  },
+  {
+   "year": 2015,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Dheepan",
+     "target": "Dheepan",
+     "by": "Jacques Audiard",
+     "unanimous": false,
+     "runtime": 109
+    }
+   ]
+  },
+  {
+   "year": 2016,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "I, Daniel Blake",
+     "target": "I, Daniel Blake",
+     "by": "Ken Loach",
+     "unanimous": false,
+     "runtime": 100
+    }
+   ]
+  },
+  {
+   "year": 2017,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "The Square",
+     "target": "The Square (2017 film)",
+     "by": "Ruben Östlund",
+     "unanimous": false,
+     "runtime": 152
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Shoplifters",
+     "target": "Shoplifters (film)",
+     "by": "Hirokazu Kore-eda",
+     "unanimous": false,
+     "runtime": 121
+    }
+   ]
+  },
+  {
+   "year": 2019,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Parasite",
+     "target": "Parasite (2019 film)",
+     "by": "Bong Joon Ho",
+     "unanimous": true,
+     "runtime": 132
+    }
+   ]
+  },
+  {
+   "year": 2021,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Titane",
+     "target": "Titane",
+     "by": "Julia Ducournau",
+     "unanimous": false,
+     "runtime": 108
+    }
+   ]
+  },
+  {
+   "year": 2022,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Triangle of Sadness",
+     "target": "Triangle of Sadness",
+     "by": "Ruben Östlund",
+     "unanimous": false,
+     "runtime": 149
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Anatomy of a Fall",
+     "target": "Anatomy of a Fall",
+     "by": "Justine Triet",
+     "unanimous": false,
+     "runtime": 150
+    }
+   ]
+  },
+  {
+   "year": 2024,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Anora",
+     "target": "Anora",
+     "by": "Sean Baker",
+     "unanimous": false,
+     "runtime": 139
+    }
+   ]
+  },
+  {
+   "year": 2025,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "It Was Just an Accident",
+     "target": "It Was Just an Accident",
+     "by": "Jafar Panahi",
+     "unanimous": false,
+     "runtime": 105
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "rowspan": 1,
+   "films": [
+    {
+     "t": "Fjord",
+     "target": "Fjord (film)",
+     "by": "Cristian Mungiu",
+     "unanimous": false,
+     "runtime": 146
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  {
+   "year": 1939,
+   "note": "1939 retrospective"
+  },
+  {
+   "year": 1968,
+   "note": "The festival was cancelled midway through to show solidarity with the students and workers who were demonstrating in what became known as the May 68 movement."
+  },
+  {
+   "year": 2020,
+   "note": "Festival cancelled due to the COVID-19 pandemic. 56 films were announced as official selections by the festival, but no awards were presented."
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+  "slug": "one-location-films",
+  "title": "One Location",
+  "subtitle": "films that never leave the room",
+  "kind": "films",
+  "order": 72,
+  "year": "1944–2021",
+  "blurb": "25 films set (almost) entirely in one place — a jury room, a lifeboat, a coffin, a car. Any order; every note names the room.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#46586B",
+  "accentDark": "#D9A94E",
+  "tiers": false,
+  "random": true,
+  "notes": [
+    [
+      "Added here — shout if it doesn't belong.",
+      "\"One location\" is a judgment call (Devil has a lobby, Dogville paints its town on the floor), so the picks are the house's own — veto freely, nominate more. The facts are not judgment calls: every title, year and runtime is read from the film's own Wikipedia article."
+    ],
+    [
+      "No order, no weights.",
+      "A grab bag — hit Random. Runtimes ride on the notes; most of these are lean by design."
+    ],
+    "Facts from each film's Wikipedia article infobox; the conceit lines are ours."
+  ],
+  "sections": [
+    {
+      "id": "classics",
+      "title": "The classics",
+      "sub": "1944–1972 · 6 films",
+      "intro": "Hitchcock keeps proving a single set is enough; Lumet and Buñuel agree.",
+      "items": [
+        {
+          "id": "olf-1944-lifeboat",
+          "t": "Lifeboat",
+          "n": "1944",
+          "note": "One lifeboat in the North Atlantic · 97 min"
+        },
+        {
+          "id": "olf-1948-rope",
+          "t": "Rope",
+          "n": "1948",
+          "note": "One Manhattan apartment, cut to look like one take · 81 min"
+        },
+        {
+          "id": "olf-1954-rear-window",
+          "t": "Rear Window",
+          "n": "1954",
+          "note": "One apartment and the courtyard seen from its window · 112 min"
+        },
+        {
+          "id": "olf-1957-12-angry-men",
+          "t": "12 Angry Men",
+          "n": "1957",
+          "note": "One jury room · 96 min"
+        },
+        {
+          "id": "olf-1962-the-exterminating-angel",
+          "t": "The Exterminating Angel",
+          "n": "1962",
+          "note": "One dinner party nobody can leave · 93 min"
+        },
+        {
+          "id": "olf-1972-sleuth",
+          "t": "Sleuth",
+          "n": "1972",
+          "note": "One country house, two actors · 138 min"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "slow",
+      "title": "Word of mouth",
+      "sub": "1981–2009 · 7 films",
+      "intro": "A quarter century where the one-room film survives on dares and dinner conversation.",
+      "items": [
+        {
+          "id": "olf-1981-my-dinner-with-andre",
+          "t": "My Dinner with Andre",
+          "n": "1981",
+          "note": "One restaurant table · 111 min"
+        },
+        {
+          "id": "olf-1997-cube",
+          "t": "Cube",
+          "n": "1997",
+          "note": "One shifting maze of identical cube rooms · 90 min"
+        },
+        {
+          "id": "olf-2001-tape",
+          "t": "Tape",
+          "n": "2001",
+          "note": "One motel room · 86 min"
+        },
+        {
+          "id": "olf-2002-phone-booth",
+          "t": "Phone Booth",
+          "n": "2002",
+          "note": "One phone booth · 81 min"
+        },
+        {
+          "id": "olf-2003-dogville",
+          "t": "Dogville",
+          "n": "2003",
+          "note": "One town drawn in chalk on one soundstage · 178 min"
+        },
+        {
+          "id": "olf-2007-the-man-from-earth",
+          "t": "The Man from Earth",
+          "n": "2007",
+          "note": "One cabin living room · 89 min"
+        },
+        {
+          "id": "olf-2009-exam",
+          "t": "Exam",
+          "n": "2009",
+          "note": "One exam room, one question · 97 min"
+        }
+      ]
+    },
+    {
+      "id": "boom",
+      "title": "The boom",
+      "sub": "2010–2021 · 12 films",
+      "intro": "Cheap cameras and festival slots make the single location a genre of its own.",
+      "items": [
+        {
+          "id": "olf-2010-buried",
+          "t": "Buried",
+          "n": "2010",
+          "note": "One coffin · 95 min"
+        },
+        {
+          "id": "olf-2010-devil",
+          "t": "Devil",
+          "n": "2010",
+          "note": "One elevator, mostly · 80 min"
+        },
+        {
+          "id": "olf-2010-frozen",
+          "t": "Frozen",
+          "n": "2010",
+          "note": "One stuck chairlift · 93 min"
+        },
+        {
+          "id": "olf-2011-carnage",
+          "t": "Carnage",
+          "n": "2011",
+          "note": "One apartment, two couples, ninety minutes · 80 min"
+        },
+        {
+          "id": "olf-2013-coherence",
+          "t": "Coherence",
+          "n": "2013",
+          "note": "One dinner party as reality splits · 89 min"
+        },
+        {
+          "id": "olf-2013-locke",
+          "t": "Locke",
+          "n": "2013",
+          "note": "One car on the M6 · 85 min"
+        },
+        {
+          "id": "olf-2015-circle",
+          "t": "Circle",
+          "n": "2015",
+          "note": "One dark room, fifty strangers · 87 min"
+        },
+        {
+          "id": "olf-2015-the-invitation",
+          "t": "The Invitation",
+          "n": "2015",
+          "note": "One dinner party in the hills · 100 min"
+        },
+        {
+          "id": "olf-2016-10-cloverfield-lane",
+          "t": "10 Cloverfield Lane",
+          "n": "2016",
+          "note": "One bunker · 104 min"
+        },
+        {
+          "id": "olf-2016-free-fire",
+          "t": "Free Fire",
+          "n": "2016",
+          "note": "One warehouse shootout · 90 min"
+        },
+        {
+          "id": "olf-2018-the-guilty",
+          "t": "The Guilty",
+          "n": "2018",
+          "note": "One emergency dispatch desk · 85 min"
+        },
+        {
+          "id": "olf-2021-oxygen",
+          "t": "Oxygen",
+          "n": "2021",
+          "note": "One cryogenic pod · 101 min"
+        }
+      ]
+    }
+  ]
+}

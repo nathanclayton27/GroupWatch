@@ -1,0 +1,791 @@
+{
+ "source": "en.wikipedia Real time (media) — film/TV/radio list; series screened out by annotation and wikidata P31; runtimes P2047 with infobox fallback",
+ "films": [
+  {
+   "t": "The Passion of Joan of Arc",
+   "target": "The Passion of Joan of Arc",
+   "year": 1928,
+   "marker": "",
+   "qid": "Q51520",
+   "tvfilm": false,
+   "runtime": 82
+  },
+  {
+   "t": "Blackmail",
+   "target": "Blackmail (1929 film)",
+   "year": 1929,
+   "marker": "",
+   "qid": "Q916078",
+   "tvfilm": false,
+   "runtime": 81
+  },
+  {
+   "t": "Night Flight",
+   "target": "Night Flight (1933 film)",
+   "year": 1933,
+   "marker": "",
+   "qid": "Q2112932",
+   "tvfilm": false,
+   "runtime": 84
+  },
+  {
+   "t": "Craig's Wife",
+   "target": "Craig's Wife (1936 film)",
+   "year": 1936,
+   "marker": "",
+   "qid": "Q3696432",
+   "tvfilm": false,
+   "runtime": 73
+  },
+  {
+   "t": "The Petrified Forest",
+   "target": "The Petrified Forest",
+   "year": 1936,
+   "marker": "",
+   "qid": "Q953939",
+   "tvfilm": false,
+   "runtime": 79
+  },
+  {
+   "t": "Odd Man Out",
+   "target": "Odd Man Out",
+   "year": 1947,
+   "marker": "",
+   "qid": "Q778772",
+   "tvfilm": false,
+   "runtime": 111
+  },
+  {
+   "t": "Rope",
+   "target": "Rope (film)",
+   "year": 1948,
+   "marker": "",
+   "qid": "Q109564",
+   "tvfilm": false,
+   "runtime": 80
+  },
+  {
+   "t": "Sorry, Wrong Number",
+   "target": "Sorry, Wrong Number",
+   "year": 1948,
+   "marker": "",
+   "qid": "Q1262450",
+   "tvfilm": false,
+   "runtime": 88
+  },
+  {
+   "t": "The Set-Up",
+   "target": "The Set-Up (1949 film)",
+   "year": 1949,
+   "marker": "",
+   "qid": "Q1570221",
+   "tvfilm": false,
+   "runtime": 72
+  },
+  {
+   "t": "Harriet Craig",
+   "target": "Harriet Craig",
+   "year": 1950,
+   "marker": "",
+   "qid": "Q838103",
+   "tvfilm": false,
+   "runtime": 94
+  },
+  {
+   "t": "Detective Story",
+   "target": "Detective Story (1951 film)",
+   "year": 1951,
+   "marker": "",
+   "qid": "Q605867",
+   "tvfilm": false,
+   "runtime": 105
+  },
+  {
+   "t": "High Noon",
+   "target": "High Noon",
+   "year": 1952,
+   "marker": "",
+   "qid": "Q245208",
+   "tvfilm": false,
+   "runtime": 85
+  },
+  {
+   "t": "12 Angry Men",
+   "target": "12 Angry Men (1957 film)",
+   "year": 1957,
+   "marker": "",
+   "qid": "Q2345",
+   "tvfilm": false,
+   "runtime": 95
+  },
+  {
+   "t": "Touch of Evil",
+   "target": "Touch of Evil",
+   "year": 1958,
+   "marker": "",
+   "qid": "Q778161",
+   "tvfilm": false,
+   "runtime": 93
+  },
+  {
+   "t": "Cléo from 5 to 7",
+   "target": "Cléo from 5 to 7",
+   "year": 1962,
+   "marker": "",
+   "qid": "Q1199628",
+   "tvfilm": false,
+   "runtime": 90
+  },
+  {
+   "t": "It's a Mad, Mad, Mad, Mad World",
+   "target": "It's a Mad, Mad, Mad, Mad World",
+   "year": 1963,
+   "marker": "",
+   "qid": "Q1306890",
+   "tvfilm": false,
+   "runtime": 161
+  },
+  {
+   "t": "The Sadist",
+   "target": "The Sadist (1963 film)",
+   "year": 1963,
+   "marker": "",
+   "qid": "Q2687461",
+   "tvfilm": false,
+   "runtime": 95,
+   "min_src": "infobox"
+  },
+  {
+   "t": "Fail Safe",
+   "target": "Fail Safe (1964 film)",
+   "year": 1964,
+   "marker": "",
+   "qid": "Q543505",
+   "tvfilm": false,
+   "runtime": 112
+  },
+  {
+   "t": "Rabid Dogs",
+   "target": "Rabid Dogs",
+   "year": 1974,
+   "marker": "",
+   "qid": "Q2570328",
+   "tvfilm": false,
+   "runtime": 93
+  },
+  {
+   "t": "Inserts",
+   "target": "Inserts (film)",
+   "year": 1975,
+   "marker": "",
+   "qid": "Q15643035",
+   "tvfilm": false,
+   "runtime": 117
+  },
+  {
+   "t": "My Dinner with Andre",
+   "target": "My Dinner with Andre",
+   "year": 1981,
+   "marker": "",
+   "qid": "Q1344940",
+   "tvfilm": false,
+   "runtime": 111
+  },
+  {
+   "t": "Clue",
+   "target": "Clue (film)",
+   "year": 1985,
+   "marker": "",
+   "qid": "Q558795",
+   "tvfilm": false,
+   "runtime": 94
+  },
+  {
+   "t": "Judgment Night",
+   "target": "Judgment Night (film)",
+   "year": 1993,
+   "marker": "",
+   "qid": "Q1710973",
+   "tvfilm": false,
+   "runtime": 110
+  },
+  {
+   "t": "Nick of Time",
+   "target": "Nick of Time (film)",
+   "year": 1995,
+   "marker": "",
+   "qid": "Q909394",
+   "tvfilm": false,
+   "runtime": 90
+  },
+  {
+   "t": "12 Angry Men",
+   "target": "12 Angry Men (1997 film)",
+   "year": 1997,
+   "marker": "",
+   "qid": "Q386042",
+   "tvfilm": true,
+   "runtime": 113
+  },
+  {
+   "t": "Running Time",
+   "target": "Running Time (film)",
+   "year": 1997,
+   "marker": "",
+   "qid": "Q2176438",
+   "tvfilm": false,
+   "runtime": 70
+  },
+  {
+   "t": "Rear Window",
+   "target": "Rear Window (1998 film)",
+   "year": 1998,
+   "marker": "",
+   "qid": "Q579068",
+   "tvfilm": true,
+   "runtime": 85
+  },
+  {
+   "t": "Run Lola Run",
+   "target": "Run Lola Run",
+   "year": 1998,
+   "marker": "",
+   "qid": "Q468697",
+   "tvfilm": false,
+   "runtime": 81
+  },
+  {
+   "t": "Timecode",
+   "target": "Timecode (film)",
+   "year": 2000,
+   "marker": "",
+   "qid": "Q643771",
+   "tvfilm": false,
+   "runtime": 93
+  },
+  {
+   "t": "Tape",
+   "target": "Tape (2001 film)",
+   "year": 2001,
+   "marker": "",
+   "qid": "Q193981",
+   "tvfilm": false,
+   "runtime": 86
+  },
+  {
+   "t": "Russian Ark",
+   "target": "Russian Ark",
+   "year": 2002,
+   "marker": "",
+   "qid": "Q59721",
+   "tvfilm": false,
+   "runtime": 99
+  },
+  {
+   "t": "11:14",
+   "target": "11:14",
+   "year": 2003,
+   "marker": "",
+   "qid": "Q171582",
+   "tvfilm": false,
+   "runtime": 86
+  },
+  {
+   "t": "Phone Booth",
+   "target": "Phone Booth (film)",
+   "year": 2003,
+   "marker": "",
+   "qid": "Q465910",
+   "tvfilm": false,
+   "runtime": 81
+  },
+  {
+   "t": "Before Sunset",
+   "target": "Before Sunset",
+   "year": 2004,
+   "marker": "",
+   "qid": "Q652186",
+   "tvfilm": false,
+   "runtime": 77
+  },
+  {
+   "t": "Nine Lives",
+   "target": "Nine Lives (2005 film)",
+   "year": 2005,
+   "marker": "",
+   "qid": "Q1992938",
+   "tvfilm": false,
+   "runtime": 115
+  },
+  {
+   "t": "The Death of Mr. Lazarescu",
+   "target": "The Death of Mr. Lazarescu",
+   "year": 2005,
+   "marker": "",
+   "qid": "Q1197442",
+   "tvfilm": false,
+   "runtime": 153
+  },
+  {
+   "t": "The President's Last Bang",
+   "target": "The President's Last Bang",
+   "year": 2005,
+   "marker": "",
+   "qid": "Q625010",
+   "tvfilm": false,
+   "runtime": 102
+  },
+  {
+   "t": "16 Blocks",
+   "target": "16 Blocks",
+   "year": 2006,
+   "marker": "",
+   "qid": "Q169000",
+   "tvfilm": false,
+   "runtime": 102
+  },
+  {
+   "t": "Crank",
+   "target": "Crank (film)",
+   "year": 2006,
+   "marker": "",
+   "qid": "Q150047",
+   "tvfilm": false,
+   "runtime": 88
+  },
+  {
+   "t": "United 93",
+   "target": "United 93 (film)",
+   "year": 2006,
+   "marker": "",
+   "qid": "Q282804",
+   "tvfilm": false,
+   "runtime": 110
+  },
+  {
+   "t": "24: Redemption",
+   "target": "24: Redemption",
+   "year": 2008,
+   "marker": "Movie",
+   "qid": "Q217232",
+   "tvfilm": true,
+   "runtime": 89
+  },
+  {
+   "t": "88 Minutes",
+   "target": "88 Minutes",
+   "year": 2008,
+   "marker": "",
+   "qid": "Q274400",
+   "tvfilm": false,
+   "runtime": 95
+  },
+  {
+   "t": "Real Time",
+   "target": "Real Time (film)",
+   "year": 2008,
+   "marker": "",
+   "qid": "Q7301083",
+   "tvfilm": false,
+   "runtime": 90
+  },
+  {
+   "t": "Still Walking",
+   "target": "Still Walking (film)",
+   "year": 2008,
+   "marker": "",
+   "qid": "Q874074",
+   "tvfilm": false,
+   "runtime": 114
+  },
+  {
+   "t": "Exam",
+   "target": "Exam (2009 film)",
+   "year": 2009,
+   "marker": "",
+   "qid": "Q2173967",
+   "tvfilm": false,
+   "runtime": 101
+  },
+  {
+   "t": "Buried",
+   "target": "Buried (film)",
+   "year": 2010,
+   "marker": "",
+   "qid": "Q16782",
+   "tvfilm": false,
+   "runtime": 91
+  },
+  {
+   "t": "Cherry Tree Lane",
+   "target": "Cherry Tree Lane",
+   "year": 2010,
+   "marker": "",
+   "qid": "Q4112899",
+   "tvfilm": false,
+   "runtime": 77
+  },
+  {
+   "t": "Carnage",
+   "target": "Carnage (2011 film)",
+   "year": 2011,
+   "marker": "",
+   "qid": "Q169564",
+   "tvfilm": false,
+   "runtime": 80
+  },
+  {
+   "t": "Silent House",
+   "target": "Silent House (2011 film)",
+   "year": 2011,
+   "marker": "",
+   "qid": "Q3483832",
+   "tvfilm": false,
+   "runtime": 87
+  },
+  {
+   "t": "Logistics",
+   "target": "Logistics (film)",
+   "year": 2012,
+   "marker": "",
+   "qid": "Q23044707",
+   "tvfilm": false,
+   "runtime": 420,
+   "min_src": "infobox"
+  },
+  {
+   "t": "Gravity",
+   "target": "Gravity (2013 film)",
+   "year": 2013,
+   "marker": "",
+   "qid": "Q2579784",
+   "tvfilm": false,
+   "runtime": 91
+  },
+  {
+   "t": "Locke",
+   "target": "Locke (film)",
+   "year": 2013,
+   "marker": "",
+   "qid": "Q14339915",
+   "tvfilm": false,
+   "runtime": 85
+  },
+  {
+   "t": "Cyberbully",
+   "target": "Cyberbully (2015 film)",
+   "year": 2015,
+   "marker": "",
+   "qid": "Q18786420",
+   "tvfilm": true,
+   "runtime": 62
+  },
+  {
+   "t": "Unfriended",
+   "target": "Unfriended",
+   "year": 2015,
+   "marker": "",
+   "qid": "Q18086860",
+   "tvfilm": false,
+   "runtime": 83
+  },
+  {
+   "t": "Victoria",
+   "target": "Victoria (2015 film)",
+   "year": 2015,
+   "marker": "",
+   "qid": "Q18786433",
+   "tvfilm": false,
+   "runtime": 140
+  },
+  {
+   "t": "Money Monster",
+   "target": "Money Monster",
+   "year": 2016,
+   "marker": "",
+   "qid": "Q19363691",
+   "tvfilm": false,
+   "runtime": 99
+  },
+  {
+   "t": "Paris 05:59: Théo & Hugo",
+   "target": "Paris 05:59: Théo & Hugo",
+   "year": 2016,
+   "marker": "",
+   "qid": "Q21998244",
+   "tvfilm": false,
+   "runtime": 97
+  },
+  {
+   "t": "The Guilty",
+   "target": "The Guilty (2018 film)",
+   "year": 2018,
+   "marker": "",
+   "qid": "Q30126665",
+   "tvfilm": false,
+   "runtime": 85
+  },
+  {
+   "t": "U – July 22",
+   "target": "U – July 22",
+   "year": 2018,
+   "marker": "",
+   "qid": "Q48550528",
+   "tvfilm": false,
+   "runtime": 90
+  },
+  {
+   "t": "The Vast of Night",
+   "target": "The Vast of Night",
+   "year": 2019,
+   "marker": "",
+   "qid": "Q68220947",
+   "tvfilm": false,
+   "runtime": 91
+  },
+  {
+   "t": "Shiva Baby",
+   "target": "Shiva Baby",
+   "year": 2020,
+   "marker": "",
+   "qid": "Q98078759",
+   "tvfilm": false,
+   "runtime": 78
+  },
+  {
+   "t": "Boiling Point",
+   "target": "Boiling Point (2021 film)",
+   "year": 2021,
+   "marker": "",
+   "qid": "Q109284828",
+   "tvfilm": false,
+   "runtime": 92
+  },
+  {
+   "t": "Mass",
+   "target": "Mass (2021 film)",
+   "year": 2021,
+   "marker": "",
+   "qid": "Q104213702",
+   "tvfilm": false,
+   "runtime": 110
+  },
+  {
+   "t": "Brooklyn 45",
+   "target": "Brooklyn 45",
+   "year": 2023,
+   "marker": "",
+   "qid": "Q117303955",
+   "tvfilm": false,
+   "runtime": 92
+  },
+  {
+   "t": "Daddio",
+   "target": "Daddio (film)",
+   "year": 2023,
+   "marker": "",
+   "qid": "Q120200710",
+   "tvfilm": false,
+   "runtime": 101
+  },
+  {
+   "t": "Soft & Quiet",
+   "target": "Soft & Quiet",
+   "year": 2023,
+   "marker": "",
+   "qid": "Q111914580",
+   "tvfilm": false,
+   "runtime": 91
+  },
+  {
+   "t": "Saturday Night",
+   "target": "Saturday Night (2024 film)",
+   "year": 2024,
+   "marker": "",
+   "qid": "Q124785550",
+   "tvfilm": false,
+   "runtime": 109
+  },
+  {
+   "t": "The Invite",
+   "target": "The Invite",
+   "year": 2026,
+   "marker": "",
+   "qid": "Q134083296",
+   "tvfilm": false,
+   "runtime": 107
+  }
+ ],
+ "excluded": [
+  {
+   "t": "The Archers",
+   "year": 1951,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "''M*A*S*H''",
+   "year": 1979,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Seinfeld",
+   "year": 1991,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Frasier",
+   "year": 1999,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Mad About You",
+   "year": 1997,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Friends",
+   "year": 1996,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "The X-Files",
+   "year": 1998,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "The Royle Family",
+   "year": 1998,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Space Ghost Coast to Coast",
+   "year": 1998,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "24",
+   "year": 2001,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "24: Live Another Day",
+   "year": 2014,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "24: Legacy",
+   "year": 2017,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "30 Minute Meals",
+   "year": 2001,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "South Park",
+   "year": 2002,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Buffy the Vampire Slayer",
+   "year": 2002,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Watching Ellie",
+   "year": 2002,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Justice League",
+   "year": 2003,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Blue Heelers",
+   "year": null,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Stargate Atlantis",
+   "year": 2004,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Numb3rs",
+   "year": 2007,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "The Simpsons",
+   "year": 2007,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Doctor Who",
+   "year": 2007,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Cabin Pressure",
+   "year": 2009,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Roger & Val Have Just Got In",
+   "year": 2010,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Him and Her",
+   "year": 2010,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Neighbours",
+   "year": 2011,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Archer",
+   "year": 2015,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Modern Family",
+   "year": 2015,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Brooklyn Nine-Nine",
+   "year": 2019,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Bluey",
+   "year": 2020,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "The Bear",
+   "year": 2022,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Adolescence",
+   "year": 2025,
+   "why": "episode/series/radio, not a film"
+  },
+  {
+   "t": "Nightsleeper",
+   "year": 2024,
+   "why": "wikidata classifies it as a series"
+  },
+  {
+   "t": "The Pitt",
+   "year": 2025,
+   "why": "wikidata classifies it as a series"
+  }
+ ]
+}

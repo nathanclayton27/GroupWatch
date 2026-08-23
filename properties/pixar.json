@@ -1,0 +1,419 @@
+{
+  "slug": "pixar",
+  "title": "Pixar",
+  "subtitle": "every feature, in release order",
+  "kind": "films",
+  "order": 63,
+  "year": "1995–2026",
+  "blurb": "All 31 Pixar features in release order — about 52 hours — plus the 20 classic theatrical shorts as optional extras.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#1E5FA8",
+  "accentDark": "#F0C24B",
+  "tiers": false,
+  "notes": [
+    [
+      "Release order, nothing skipped.",
+      "Every feature the studio has released, sequels and all, in the order they hit theaters. The shorts section at the end is optional — tick them as you meet them."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata (duration, P2047) for every feature and short."
+    ],
+    "Features from Wikipedia's List of Pixar films; shorts from List of Pixar shorts; runtimes from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "nineties",
+      "title": "The '90s",
+      "sub": "#1–3 · 3 films · 4 hours",
+      "items": [
+        {
+          "id": "px-1995-toy-story",
+          "t": "Toy Story",
+          "n": "1995",
+          "w": 1.35
+        },
+        {
+          "id": "px-1998-a-bug-s-life",
+          "t": "A Bug's Life",
+          "n": "1998",
+          "w": 1.6
+        },
+        {
+          "id": "px-1999-toy-story-2",
+          "t": "Toy Story 2",
+          "n": "1999",
+          "w": 1.53
+        }
+      ],
+      "intro": "Toy Story invents the studio; two more prove it was no fluke.",
+      "open": true
+    },
+    {
+      "id": "aughts",
+      "title": "The 2000s",
+      "sub": "#4–10 · 7 films · 12 hours",
+      "items": [
+        {
+          "id": "px-2001-monsters-inc",
+          "t": "Monsters, Inc.",
+          "n": "2001",
+          "w": 1.53
+        },
+        {
+          "id": "px-2003-finding-nemo",
+          "t": "Finding Nemo",
+          "n": "2003",
+          "w": 1.67
+        },
+        {
+          "id": "px-2004-the-incredibles",
+          "t": "The Incredibles",
+          "n": "2004",
+          "w": 1.85
+        },
+        {
+          "id": "px-2006-cars",
+          "t": "Cars",
+          "n": "2006",
+          "w": 1.93
+        },
+        {
+          "id": "px-2007-ratatouille",
+          "t": "Ratatouille",
+          "n": "2007",
+          "w": 1.85
+        },
+        {
+          "id": "px-2008-wall-e",
+          "t": "WALL-E",
+          "n": "2008",
+          "w": 1.63
+        },
+        {
+          "id": "px-2009-up",
+          "t": "Up",
+          "n": "2009",
+          "w": 1.6
+        }
+      ],
+      "intro": "Monsters, Nemo, the Incredibles, a rat, a robot and a balloon house — the run people mean when they say Pixar."
+    },
+    {
+      "id": "tens",
+      "title": "The 2010s",
+      "sub": "#11–21 · 11 films · 19 hours",
+      "items": [
+        {
+          "id": "px-2010-toy-story-3",
+          "t": "Toy Story 3",
+          "n": "2010",
+          "w": 1.72
+        },
+        {
+          "id": "px-2011-cars-2",
+          "t": "Cars 2",
+          "n": "2011",
+          "w": 1.78
+        },
+        {
+          "id": "px-2012-brave",
+          "t": "Brave",
+          "n": "2012",
+          "w": 1.57
+        },
+        {
+          "id": "px-2013-monsters-university",
+          "t": "Monsters University",
+          "n": "2013",
+          "w": 1.73
+        },
+        {
+          "id": "px-2015-inside-out",
+          "t": "Inside Out",
+          "n": "2015",
+          "w": 1.57
+        },
+        {
+          "id": "px-2015-the-good-dinosaur",
+          "t": "The Good Dinosaur",
+          "n": "2015",
+          "w": 1.57
+        },
+        {
+          "id": "px-2016-finding-dory",
+          "t": "Finding Dory",
+          "n": "2016",
+          "w": 1.62
+        },
+        {
+          "id": "px-2017-cars-3",
+          "t": "Cars 3",
+          "n": "2017",
+          "w": 1.82
+        },
+        {
+          "id": "px-2017-coco",
+          "t": "Coco",
+          "n": "2017",
+          "w": 1.82
+        },
+        {
+          "id": "px-2018-incredibles-2",
+          "t": "Incredibles 2",
+          "n": "2018",
+          "w": 1.97
+        },
+        {
+          "id": "px-2019-toy-story-4",
+          "t": "Toy Story 4",
+          "n": "2019",
+          "w": 1.67
+        }
+      ]
+    },
+    {
+      "id": "twenties",
+      "title": "The 2020s",
+      "sub": "#22–31 · 10 films · 17 hours",
+      "items": [
+        {
+          "id": "px-2020-onward",
+          "t": "Onward",
+          "n": "2020",
+          "w": 1.72
+        },
+        {
+          "id": "px-2020-soul",
+          "t": "Soul",
+          "n": "2020",
+          "w": 1.68
+        },
+        {
+          "id": "px-2021-luca",
+          "t": "Luca",
+          "n": "2021",
+          "w": 1.58
+        },
+        {
+          "id": "px-2022-turning-red",
+          "t": "Turning Red",
+          "n": "2022",
+          "w": 1.67
+        },
+        {
+          "id": "px-2022-lightyear",
+          "t": "Lightyear",
+          "n": "2022",
+          "w": 1.67
+        },
+        {
+          "id": "px-2023-elemental",
+          "t": "Elemental",
+          "n": "2023",
+          "w": 1.7
+        },
+        {
+          "id": "px-2024-inside-out-2",
+          "t": "Inside Out 2",
+          "n": "2024",
+          "w": 1.6
+        },
+        {
+          "id": "px-2025-elio",
+          "t": "Elio",
+          "n": "2025",
+          "w": 1.65
+        },
+        {
+          "id": "px-2026-hoppers",
+          "t": "Hoppers",
+          "n": "2026",
+          "w": 1.75
+        },
+        {
+          "id": "px-2026-toy-story-5",
+          "t": "Toy Story 5",
+          "n": "2026",
+          "w": 1.7
+        }
+      ]
+    },
+    {
+      "id": "shorts",
+      "title": "The theatrical shorts",
+      "sub": "20 shorts · optional, a couple of hours in all",
+      "intro": "The classic shorts program — the ones that ran before the features, Andre & Wally B. through Bao. All optional; each row names the feature it was first attached to.",
+      "items": [
+        {
+          "id": "px-s-1984-the-adventures-of-andre-wally-b",
+          "t": "The Adventures of André & Wally B.",
+          "n": "1984",
+          "opt": true,
+          "w": 0.03,
+          "note": "First released with Toy Story · 2 min"
+        },
+        {
+          "id": "px-s-1986-luxo-jr",
+          "t": "Luxo Jr.",
+          "n": "1986",
+          "opt": true,
+          "w": 0.03,
+          "note": "First released with Toy Story 2 · 2 min"
+        },
+        {
+          "id": "px-s-1987-red-s-dream",
+          "t": "Red's Dream",
+          "n": "1987",
+          "opt": true,
+          "w": 0.07,
+          "note": "4 min"
+        },
+        {
+          "id": "px-s-1988-tin-toy",
+          "t": "Tin Toy",
+          "n": "1988",
+          "opt": true,
+          "w": 0.08,
+          "note": "First released with Toy Story · 5 min"
+        },
+        {
+          "id": "px-s-1989-knick-knack",
+          "t": "Knick Knack",
+          "n": "1989",
+          "opt": true,
+          "w": 0.07,
+          "note": "First released with Finding Nemo · 4 min"
+        },
+        {
+          "id": "px-s-1997-geri-s-game",
+          "t": "Geri's Game",
+          "n": "1997",
+          "opt": true,
+          "w": 0.08,
+          "note": "First released with A Bug's Life · 5 min"
+        },
+        {
+          "id": "px-s-2000-for-the-birds",
+          "t": "For the Birds",
+          "n": "2000",
+          "opt": true,
+          "w": 0.05,
+          "note": "First released with Monsters, Inc. · 3 min"
+        },
+        {
+          "id": "px-s-2003-boundin",
+          "t": "Boundin'",
+          "n": "2003",
+          "opt": true,
+          "w": 0.08,
+          "note": "First released with The Incredibles · 5 min"
+        },
+        {
+          "id": "px-s-2005-one-man-band",
+          "t": "One Man Band",
+          "n": "2005",
+          "opt": true,
+          "w": 0.12,
+          "note": "First released with Cars · 7 min"
+        },
+        {
+          "id": "px-s-2006-lifted",
+          "t": "Lifted",
+          "n": "2006",
+          "opt": true,
+          "w": 0.08,
+          "note": "First released with Ratatouille · 5 min"
+        },
+        {
+          "id": "px-s-2008-presto",
+          "t": "Presto",
+          "n": "2008",
+          "opt": true,
+          "w": 0.08,
+          "note": "First released with WALL-E · 5 min"
+        },
+        {
+          "id": "px-s-2009-partly-cloudy",
+          "t": "Partly Cloudy",
+          "n": "2009",
+          "opt": true,
+          "w": 0.1,
+          "note": "First released with Up · 6 min"
+        },
+        {
+          "id": "px-s-2010-day-night",
+          "t": "Day & Night",
+          "n": "2010",
+          "opt": true,
+          "w": 0.1,
+          "note": "First released with Toy Story 3 · 6 min"
+        },
+        {
+          "id": "px-s-2011-la-luna",
+          "t": "La Luna",
+          "n": "2011",
+          "opt": true,
+          "w": 0.12,
+          "note": "First released with Brave · 7 min"
+        },
+        {
+          "id": "px-s-2013-the-blue-umbrella",
+          "t": "The Blue Umbrella",
+          "n": "2013",
+          "opt": true,
+          "w": 0.12,
+          "note": "First released with Monsters University · 7 min"
+        },
+        {
+          "id": "px-s-2014-lava",
+          "t": "Lava",
+          "n": "2014",
+          "opt": true,
+          "w": 0.12,
+          "note": "First released with Inside Out · 7 min"
+        },
+        {
+          "id": "px-s-2015-sanjay-s-super-team",
+          "t": "Sanjay's Super Team",
+          "n": "2015",
+          "opt": true,
+          "w": 0.12,
+          "note": "First released with The Good Dinosaur · 7 min"
+        },
+        {
+          "id": "px-s-2016-piper",
+          "t": "Piper",
+          "n": "2016",
+          "opt": true,
+          "w": 0.1,
+          "note": "First released with Finding Dory · 6 min"
+        },
+        {
+          "id": "px-s-2017-lou",
+          "t": "Lou",
+          "n": "2017",
+          "opt": true,
+          "w": 0.1,
+          "note": "First released with Cars 3 · 6 min"
+        },
+        {
+          "id": "px-s-2018-bao",
+          "t": "Bao",
+          "n": "2018",
+          "opt": true,
+          "w": 0.13,
+          "note": "First released with Incredibles 2 · 8 min"
+        }
+      ]
+    }
+  ]
+}

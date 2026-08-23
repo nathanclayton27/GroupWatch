@@ -1,0 +1,177 @@
+{
+  "slug": "muppets",
+  "title": "The Muppets",
+  "subtitle": "the films in release order, plus the shows",
+  "kind": "films & series",
+  "order": 64,
+  "year": "1955–2023",
+  "blurb": "All 8 theatrical Muppet films — about 13 hours — plus one row per television series, The Muppet Show included.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#3E7A33",
+  "accentDark": "#7FC95E",
+  "tiers": false,
+  "notes": [
+    [
+      "Films are hours, shows are rows.",
+      "The eight features carry runtime weights straight from Wikipedia's own table. A series row is one tick for the whole series and weighs nothing, so the finish line stays about the films."
+    ],
+    [
+      "Made-for-TV movies are not here.",
+      "It's a Very Merry Muppet Christmas Movie, The Muppets' Wizard of Oz and the other television films are their own shelf; this list keeps to the theatrical eight and the series."
+    ],
+    "Films and series from Wikipedia's List of The Muppets productions; episode counts from each series' own article."
+  ],
+  "sections": [
+    {
+      "id": "films",
+      "title": "The theatrical films",
+      "sub": "1979–2014 · 8 films · 13 hours",
+      "intro": "Every Muppet feature that played in theaters, in release order — from The Muppet Movie to the 2010s revival.",
+      "open": true,
+      "items": [
+        {
+          "id": "mup-1979-the-muppet-movie",
+          "t": "The Muppet Movie",
+          "n": "1979",
+          "w": 1.58
+        },
+        {
+          "id": "mup-1981-the-great-muppet-caper",
+          "t": "The Great Muppet Caper",
+          "n": "1981",
+          "w": 1.63
+        },
+        {
+          "id": "mup-1984-the-muppets-take-manhattan",
+          "t": "The Muppets Take Manhattan",
+          "n": "1984",
+          "w": 1.57
+        },
+        {
+          "id": "mup-1992-the-muppet-christmas-carol",
+          "t": "The Muppet Christmas Carol",
+          "n": "1992",
+          "w": 1.43
+        },
+        {
+          "id": "mup-1996-muppet-treasure-island",
+          "t": "Muppet Treasure Island",
+          "n": "1996",
+          "w": 1.65
+        },
+        {
+          "id": "mup-1999-muppets-from-space",
+          "t": "Muppets from Space",
+          "n": "1999",
+          "w": 1.47
+        },
+        {
+          "id": "mup-2011-the-muppets",
+          "t": "The Muppets",
+          "n": "2011",
+          "w": 1.72
+        },
+        {
+          "id": "mup-2014-muppets-most-wanted",
+          "t": "Muppets Most Wanted",
+          "n": "2014",
+          "w": 1.78
+        }
+      ]
+    },
+    {
+      "id": "television",
+      "title": "The shows",
+      "sub": "1955–2023 · 13 series, one row each",
+      "intro": "One tick per series, from Sam and Friends to The Muppets Mayhem. A row here means the show, however much of it you choose to watch — episode counts ride on the notes. These weigh nothing on the bar.",
+      "items": [
+        {
+          "id": "mup-tv-1955-sam-and-friends",
+          "t": "Sam and Friends",
+          "n": "1955–1961",
+          "note": "NBC / WRC-TV · 400+ episodes"
+        },
+        {
+          "id": "mup-tv-1976-the-muppet-show",
+          "t": "The Muppet Show",
+          "n": "1976–1981",
+          "note": "ITV / Syndication · 120 episodes"
+        },
+        {
+          "id": "mup-tv-1984-muppet-babies",
+          "t": "Muppet Babies",
+          "n": "1984–1991",
+          "note": "CBS · 107 episodes · animated"
+        },
+        {
+          "id": "mup-tv-1985-little-muppet-monsters",
+          "t": "Little Muppet Monsters",
+          "n": "1985",
+          "note": "CBS · 3 episodes"
+        },
+        {
+          "id": "mup-tv-1989-the-jim-henson-hour",
+          "t": "The Jim Henson Hour",
+          "n": "1989",
+          "note": "NBC · 12 episodes"
+        },
+        {
+          "id": "mup-tv-1992-dog-city",
+          "t": "Dog City",
+          "n": "1992–1994",
+          "note": "Fox Kids · 31 episodes · animated"
+        },
+        {
+          "id": "mup-tv-1996-muppets-tonight",
+          "t": "Muppets Tonight",
+          "n": "1996–1998",
+          "note": "ABC / Disney Channel · 22 episodes"
+        },
+        {
+          "id": "mup-tv-2006-muppets-tv",
+          "t": "Muppets TV",
+          "n": "2006",
+          "note": "TF1 · 10 episodes"
+        },
+        {
+          "id": "mup-tv-2015-muppet-moments",
+          "t": "Muppet Moments",
+          "n": "2015",
+          "note": "Disney Junior / Disney Channel"
+        },
+        {
+          "id": "mup-tv-2015-the-muppets",
+          "t": "The Muppets",
+          "n": "2015–2016",
+          "note": "ABC · 16 episodes"
+        },
+        {
+          "id": "mup-tv-2018-muppet-babies",
+          "t": "Muppet Babies",
+          "n": "2018–2022",
+          "note": "Disney Junior · 71 episodes · animated"
+        },
+        {
+          "id": "mup-tv-2020-muppets-now",
+          "t": "Muppets Now",
+          "n": "2020",
+          "note": "Disney+ · 6 episodes"
+        },
+        {
+          "id": "mup-tv-2023-the-muppets-mayhem",
+          "t": "The Muppets Mayhem",
+          "n": "2023",
+          "note": "Disney+ · 10 episodes"
+        }
+      ]
+    }
+  ]
+}

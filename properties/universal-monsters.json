@@ -1,0 +1,308 @@
+{
+  "slug": "universal-monsters",
+  "title": "Universal Monsters",
+  "subtitle": "the classic cycle, by monster",
+  "kind": "films",
+  "order": 67,
+  "year": "1923–1956",
+  "blurb": "All 34 films of the classic cycle, grouped by monster — about 44 hours from the Hunchback to the last Creature.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#4A6357",
+  "accentDark": "#8FB09E",
+  "tiers": false,
+  "random": true,
+  "notes": [
+    [
+      "Grouped by monster, not by date.",
+      "Each family runs in release order inside its section, so you can take one lineage at a time; the crossovers and the Abbott & Costello films sit apart, where the timelines tangle."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata (duration, P2047)."
+    ],
+    [
+      "One row older than the cycle is left out.",
+      "Wikipedia's classic-era table opens with a 1913 Dr. Jekyll and Mr. Hyde short from the studio's earliest days; it predates the 1923–1956 cycle this list covers."
+    ],
+    "Filmography from Wikipedia's Universal Monsters article; runtimes from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "silents",
+      "title": "Hunchback & Phantom",
+      "sub": "1923–1943 · 3 films · 6 hours · the silents, and the Technicolor Phantom remake",
+      "items": [
+        {
+          "id": "um-1923-the-hunchback-of-notre-dame",
+          "t": "The Hunchback of Notre Dame",
+          "n": "1923",
+          "w": 2.22
+        },
+        {
+          "id": "um-1925-the-phantom-of-the-opera",
+          "t": "The Phantom of the Opera",
+          "n": "1925",
+          "w": 1.77
+        },
+        {
+          "id": "um-1943-phantom-of-the-opera",
+          "t": "Phantom of the Opera",
+          "n": "1943",
+          "w": 1.53
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "dracula",
+      "title": "Dracula",
+      "sub": "1931–1943 · 4 films · 5 hours · including the Spanish-language production shot on the same sets",
+      "items": [
+        {
+          "id": "um-1931-dracula",
+          "t": "Dracula",
+          "n": "1931",
+          "w": 1.25
+        },
+        {
+          "id": "um-1931-dracula-spanish",
+          "t": "Drácula",
+          "n": "1931",
+          "w": 1.73,
+          "note": "The Spanish-language version, shot nights on the same sets"
+        },
+        {
+          "id": "um-1936-dracula-s-daughter",
+          "t": "Dracula's Daughter",
+          "n": "1936",
+          "w": 1.18
+        },
+        {
+          "id": "um-1943-son-of-dracula",
+          "t": "Son of Dracula",
+          "n": "1943",
+          "w": 1.33
+        }
+      ]
+    },
+    {
+      "id": "frankenstein",
+      "title": "Frankenstein",
+      "sub": "1931–1942 · 4 films · 5 hours",
+      "items": [
+        {
+          "id": "um-1931-frankenstein",
+          "t": "Frankenstein",
+          "n": "1931",
+          "w": 1.18
+        },
+        {
+          "id": "um-1935-bride-of-frankenstein",
+          "t": "Bride of Frankenstein",
+          "n": "1935",
+          "w": 1.3
+        },
+        {
+          "id": "um-1939-son-of-frankenstein",
+          "t": "Son of Frankenstein",
+          "n": "1939",
+          "w": 1.65
+        },
+        {
+          "id": "um-1942-the-ghost-of-frankenstein",
+          "t": "The Ghost of Frankenstein",
+          "n": "1942",
+          "w": 1.12
+        }
+      ]
+    },
+    {
+      "id": "mummy",
+      "title": "The Mummy",
+      "sub": "1932–1944 · 5 films · 5 hours",
+      "items": [
+        {
+          "id": "um-1932-the-mummy",
+          "t": "The Mummy",
+          "n": "1932",
+          "w": 1.22
+        },
+        {
+          "id": "um-1940-the-mummy-s-hand",
+          "t": "The Mummy's Hand",
+          "n": "1940",
+          "w": 1.12
+        },
+        {
+          "id": "um-1942-the-mummy-s-tomb",
+          "t": "The Mummy's Tomb",
+          "n": "1942",
+          "w": 1.02
+        },
+        {
+          "id": "um-1944-the-mummy-s-ghost",
+          "t": "The Mummy's Ghost",
+          "n": "1944",
+          "w": 1.02
+        },
+        {
+          "id": "um-1944-the-mummy-s-curse",
+          "t": "The Mummy's Curse",
+          "n": "1944",
+          "w": 1.02
+        }
+      ]
+    },
+    {
+      "id": "invisible",
+      "title": "The Invisible Man",
+      "sub": "1933–1944 · 5 films · 6 hours",
+      "items": [
+        {
+          "id": "um-1933-the-invisible-man",
+          "t": "The Invisible Man",
+          "n": "1933",
+          "w": 1.18
+        },
+        {
+          "id": "um-1940-the-invisible-man-returns",
+          "t": "The Invisible Man Returns",
+          "n": "1940",
+          "w": 1.35
+        },
+        {
+          "id": "um-1940-the-invisible-woman",
+          "t": "The Invisible Woman",
+          "n": "1940",
+          "w": 1.17
+        },
+        {
+          "id": "um-1942-invisible-agent",
+          "t": "Invisible Agent",
+          "n": "1942",
+          "w": 1.32
+        },
+        {
+          "id": "um-1944-the-invisible-man-s-revenge",
+          "t": "The Invisible Man's Revenge",
+          "n": "1944",
+          "w": 1.25
+        }
+      ]
+    },
+    {
+      "id": "wolves",
+      "title": "The wolves",
+      "sub": "1935–1946 · 3 films · 3 hours · Werewolf of London predates Talbot by six years",
+      "items": [
+        {
+          "id": "um-1935-werewolf-of-london",
+          "t": "Werewolf of London",
+          "n": "1935",
+          "w": 1.25
+        },
+        {
+          "id": "um-1941-the-wolf-man",
+          "t": "The Wolf Man",
+          "n": "1941",
+          "w": 1.17
+        },
+        {
+          "id": "um-1946-she-wolf-of-london",
+          "t": "She-Wolf of London",
+          "n": "1946",
+          "w": 1.02
+        }
+      ]
+    },
+    {
+      "id": "house",
+      "title": "The monster rallies",
+      "sub": "1943–1945 · 3 films · 4 hours · the crossovers and house films",
+      "items": [
+        {
+          "id": "um-1943-frankenstein-meets-the-wolf-man",
+          "t": "Frankenstein Meets the Wolf Man",
+          "n": "1943",
+          "w": 1.23
+        },
+        {
+          "id": "um-1944-house-of-frankenstein",
+          "t": "House of Frankenstein",
+          "n": "1944",
+          "w": 1.18
+        },
+        {
+          "id": "um-1945-house-of-dracula",
+          "t": "House of Dracula",
+          "n": "1945",
+          "w": 1.12
+        }
+      ]
+    },
+    {
+      "id": "abbott",
+      "title": "Abbott & Costello meet…",
+      "sub": "1948–1955 · 4 films · 5 hours · the cycle winds down laughing",
+      "items": [
+        {
+          "id": "um-1948-abbott-and-costello-meet-frankenstein",
+          "t": "Abbott and Costello Meet Frankenstein",
+          "n": "1948",
+          "w": 1.38
+        },
+        {
+          "id": "um-1951-abbott-and-costello-meet-the-invisible-man",
+          "t": "Abbott and Costello Meet the Invisible Man",
+          "n": "1951",
+          "w": 1.32
+        },
+        {
+          "id": "um-1953-abbott-and-costello-meet-dr-jekyll-and-mr-hyde",
+          "t": "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde",
+          "n": "1953",
+          "w": 1.22
+        },
+        {
+          "id": "um-1955-abbott-and-costello-meet-the-mummy",
+          "t": "Abbott and Costello Meet the Mummy",
+          "n": "1955",
+          "w": 1.3
+        }
+      ]
+    },
+    {
+      "id": "creature",
+      "title": "The Creature",
+      "sub": "1954–1956 · 3 films · 4 hours · the Gill-man trilogy closes the era",
+      "items": [
+        {
+          "id": "um-1954-creature-from-the-black-lagoon",
+          "t": "Creature from the Black Lagoon",
+          "n": "1954",
+          "w": 1.32
+        },
+        {
+          "id": "um-1955-revenge-of-the-creature",
+          "t": "Revenge of the Creature",
+          "n": "1955",
+          "w": 1.37
+        },
+        {
+          "id": "um-1956-the-creature-walks-among-us",
+          "t": "The Creature Walks Among Us",
+          "n": "1956",
+          "w": 1.3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+ "source": "en.wikipedia List of The Muppets productions (films table incl. its own runtimes); episode counts from each series' article infobox",
+ "films": [
+  {
+   "t": "The Muppet Movie",
+   "target": "The Muppet Movie",
+   "year": 1979,
+   "runtime": 95,
+   "date": "June 22, 1979"
+  },
+  {
+   "t": "The Great Muppet Caper",
+   "target": "The Great Muppet Caper",
+   "year": 1981,
+   "runtime": 98,
+   "date": "June 26, 1981"
+  },
+  {
+   "t": "The Muppets Take Manhattan",
+   "target": "The Muppets Take Manhattan",
+   "year": 1984,
+   "runtime": 94,
+   "date": "July 13, 1984"
+  },
+  {
+   "t": "The Muppet Christmas Carol",
+   "target": "The Muppet Christmas Carol",
+   "year": 1992,
+   "runtime": 86,
+   "date": "December 11, 1992"
+  },
+  {
+   "t": "Muppet Treasure Island",
+   "target": "Muppet Treasure Island",
+   "year": 1996,
+   "runtime": 99,
+   "date": "February 16, 1996"
+  },
+  {
+   "t": "Muppets from Space",
+   "target": "Muppets from Space",
+   "year": 1999,
+   "runtime": 88,
+   "date": "July 14, 1999"
+  },
+  {
+   "t": "The Muppets",
+   "target": "The Muppets (2011 film)",
+   "year": 2011,
+   "runtime": 103,
+   "date": "November 23, 2011"
+  },
+  {
+   "t": "Muppets Most Wanted",
+   "target": "Muppets Most Wanted",
+   "year": 2014,
+   "runtime": 107,
+   "date": "March 21, 2014"
+  }
+ ],
+ "series": [
+  {
+   "t": "Sam and Friends",
+   "target": "Sam and Friends",
+   "start": 1955,
+   "end": 1961,
+   "network": "NBC / WRC-TV",
+   "episodes": "400+",
+   "seasons": null
+  },
+  {
+   "t": "The Muppet Show",
+   "target": "The Muppet Show",
+   "start": 1976,
+   "end": 1981,
+   "network": "ITV / Syndication",
+   "episodes": "120",
+   "seasons": 5
+  },
+  {
+   "t": "Little Muppet Monsters",
+   "target": "Little Muppet Monsters",
+   "start": 1985,
+   "end": 1985,
+   "network": "CBS",
+   "episodes": "3",
+   "seasons": null
+  },
+  {
+   "t": "The Jim Henson Hour",
+   "target": "The Jim Henson Hour",
+   "start": 1989,
+   "end": 1989,
+   "network": "NBC",
+   "episodes": "12",
+   "seasons": 1
+  },
+  {
+   "t": "Muppets Tonight",
+   "target": "Muppets Tonight",
+   "start": 1996,
+   "end": 1998,
+   "network": "ABC / Disney Channel",
+   "episodes": "22",
+   "seasons": 2
+  },
+  {
+   "t": "Muppets TV",
+   "target": "Muppets TV",
+   "start": 2006,
+   "end": 2006,
+   "network": "TF1",
+   "episodes": "10",
+   "seasons": null
+  },
+  {
+   "t": "Muppet Moments",
+   "target": null,
+   "start": 2015,
+   "end": 2015,
+   "network": "Disney Junior / Disney Channel",
+   "episodes": null,
+   "seasons": null
+  },
+  {
+   "t": "The Muppets",
+   "target": "The Muppets (TV series)",
+   "start": 2015,
+   "end": 2016,
+   "network": "ABC",
+   "episodes": "16",
+   "seasons": 1
+  },
+  {
+   "t": "Muppets Now",
+   "target": "Muppets Now",
+   "start": 2020,
+   "end": 2020,
+   "network": "Disney+",
+   "episodes": "6",
+   "seasons": 1
+  },
+  {
+   "t": "The Muppets Mayhem",
+   "target": "The Muppets Mayhem",
+   "start": 2023,
+   "end": 2023,
+   "network": "Disney+",
+   "episodes": "10",
+   "seasons": 1
+  }
+ ],
+ "animated": [
+  {
+   "t": "Muppet Babies",
+   "target": "Muppet Babies (1984 TV series)",
+   "start": 1984,
+   "end": 1991,
+   "network": "CBS",
+   "episodes": "107",
+   "seasons": 8
+  },
+  {
+   "t": "Dog City",
+   "target": "Dog City",
+   "start": 1992,
+   "end": 1994,
+   "network": "Fox Kids",
+   "episodes": "31",
+   "seasons": 3
+  },
+  {
+   "t": "Muppet Babies",
+   "target": "Muppet Babies (2018 TV series)",
+   "start": 2018,
+   "end": 2022,
+   "network": "Disney Junior",
+   "episodes": "71",
+   "seasons": 3
+  }
+ ]
+}

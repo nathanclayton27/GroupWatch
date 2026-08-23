@@ -1,0 +1,410 @@
+{
+ "4 Months, 3 Weeks and 2 Days": {
+  "qid": "Q238245",
+  "min": 113.0
+ },
+ "A Man and a Woman": {
+  "qid": "Q261403",
+  "min": 102.0
+ },
+ "All That Jazz (film)": {
+  "qid": "Q1353441",
+  "min": 123.0
+ },
+ "Amour (2012 film)": {
+  "qid": "Q637820",
+  "min": 127.0
+ },
+ "Anatomy of a Fall": {
+  "qid": "Q117037697",
+  "min": 150.0
+ },
+ "Anora": {
+  "qid": "Q123185887",
+  "min": 139.0
+ },
+ "Antoine and Antoinette": {
+  "qid": "Q2279661",
+  "min": 78.0
+ },
+ "Apocalypse Now": {
+  "qid": "Q182692",
+  "min": 147.0
+ },
+ "Barton Fink": {
+  "qid": "Q237215",
+  "min": 116.0
+ },
+ "Black Orpheus": {
+  "qid": "Q538266",
+  "min": 107.0
+ },
+ "Blowup": {
+  "qid": "Q658204",
+  "min": 111.0
+ },
+ "Blue Is the Warmest Colour": {
+  "qid": "Q11648811",
+  "min": 179.0
+ },
+ "Brief Encounter": {
+  "qid": "Q814296",
+  "min": 85.0
+ },
+ "Chronicle of the Years of Fire": {
+  "qid": "Q2713929",
+  "min": 177.0
+ },
+ "Crossfire (film)": {
+  "qid": "Q632718",
+  "min": 88.0
+ },
+ "Dancer in the Dark": {
+  "qid": "Q110365",
+  "min": 140.0
+ },
+ "Dheepan": {
+  "qid": "Q19816574",
+  "min": 109.0
+ },
+ "Dumbo": {
+  "qid": "Q40895",
+  "min": 64.0
+ },
+ "Elephant (2003 film)": {
+  "qid": "Q1163943",
+  "min": 81.0
+ },
+ "Eternity and a Day": {
+  "qid": "Q697770",
+  "min": 137.0
+ },
+ "Fahrenheit 9/11": {
+  "qid": "Q221852",
+  "min": 122.0
+ },
+ "Farewell My Concubine (film)": {
+  "qid": "Q696413",
+  "min": 171.0
+ },
+ "Fjord (film)": {
+  "qid": "Q137652478",
+  "min": 146.0
+ },
+ "Friendly Persuasion (1956 film)": {
+  "qid": "Q1621402",
+  "min": 137.0
+ },
+ "Gate of Hell (film)": {
+  "qid": "Q862708",
+  "min": 88.0
+ },
+ "I, Daniel Blake": {
+  "qid": "Q23823458",
+  "min": 100.0
+ },
+ "If....": {
+  "qid": "Q1346745",
+  "min": 111.0
+ },
+ "It Was Just an Accident": {
+  "qid": "Q133866932",
+  "min": 105.0
+ },
+ "Kagemusha": {
+  "qid": "Q854990",
+  "min": 179.0
+ },
+ "L'Enfant (film)": {
+  "qid": "Q466024",
+  "min": 95.0
+ },
+ "La dolce vita": {
+  "qid": "Q18407",
+  "min": 174.0
+ },
+ "M*A*S*H (film)": {
+  "qid": "Q494085",
+  "min": 116.0
+ },
+ "Man of Iron": {
+  "qid": "Q959682",
+  "min": 147.0
+ },
+ "Marty (film)": {
+  "qid": "Q237116",
+  "min": 91.0
+ },
+ "María Candelaria": {
+  "qid": "Q2578176",
+  "min": 101.0
+ },
+ "Men Without Wings": {
+  "qid": "Q2280650",
+  "min": 76.0
+ },
+ "Miracle in Milan": {
+  "qid": "Q1170844",
+  "min": 100.0
+ },
+ "Miss Julie (1951 film)": {
+  "qid": "Q1471325",
+  "min": 89.0
+ },
+ "Missing (1982 film)": {
+  "qid": "Q400985",
+  "min": 122.0
+ },
+ "Neecha Nagar": {
+  "qid": "Q427915",
+  "min": 122.0
+ },
+ "O Pagador de Promessas": {
+  "qid": "Q1482269",
+  "min": 92.0
+ },
+ "Othello (1951 film)": {
+  "qid": "Q2704454",
+  "min": 91.0
+ },
+ "Padre Padrone": {
+  "qid": "Q527598",
+  "min": 113.0
+ },
+ "Parasite (2019 film)": {
+  "qid": "Q61448040",
+  "min": 132.0
+ },
+ "Paris, Texas (film)": {
+  "qid": "Q160946",
+  "min": 147.0
+ },
+ "Pastoral Symphony (film)": {
+  "qid": "Q2553634",
+  "min": 110.0
+ },
+ "Pelle the Conqueror": {
+  "qid": "Q370707",
+  "min": 157.0
+ },
+ "Pulp Fiction": {
+  "qid": "Q104123",
+  "min": 154.0
+ },
+ "Rome, Open City": {
+  "qid": "Q721146",
+  "min": 100.0
+ },
+ "Rosetta (film)": {
+  "qid": "Q1907380",
+  "min": 90.0
+ },
+ "Scarecrow (1973 film)": {
+  "qid": "Q1344329",
+  "min": 112.0
+ },
+ "Secrets & Lies (film)": {
+  "qid": "Q391172",
+  "min": 142.0
+ },
+ "Sex, Lies, and Videotape": {
+  "qid": "Q1367548",
+  "min": 101.0
+ },
+ "Shoplifters (film)": {
+  "qid": "Q48765577",
+  "min": 121.0
+ },
+ "Taste of Cherry": {
+  "qid": "Q794178",
+  "min": 95.0
+ },
+ "Taxi Driver": {
+  "qid": "Q47221",
+  "min": 114.0
+ },
+ "The Ballad of Narayama (1983 film)": {
+  "qid": "Q1140513",
+  "min": 130.0
+ },
+ "The Best Intentions": {
+  "qid": "Q1217937",
+  "min": 180.0
+ },
+ "The Birds, the Bees and the Italians": {
+  "qid": "Q319275",
+  "min": 115.0
+ },
+ "The Class (2008 film)": {
+  "qid": "Q1139259",
+  "min": 128.0
+ },
+ "The Conversation": {
+  "qid": "Q1009788",
+  "min": 109.0
+ },
+ "The Cranes Are Flying": {
+  "qid": "Q714524",
+  "min": 97.0
+ },
+ "The Damned (1947 film)": {
+  "qid": "Q3233764",
+  "min": 95.0
+ },
+ "The Eel (film)": {
+  "qid": "Q1156892",
+  "min": 110.0
+ },
+ "The Go-Between (1971 film)": {
+  "qid": "Q664020",
+  "min": 118.0
+ },
+ "The Hireling": {
+  "qid": "Q1118527",
+  "min": 95.0
+ },
+ "The Knack ...and How to Get It": {
+  "qid": "Q1198726",
+  "min": 85.0
+ },
+ "The Last Chance (1945 film)": {
+  "qid": "Q671940",
+  "min": 104.0
+ },
+ "The Leopard (1963 film)": {
+  "qid": "Q596623",
+  "min": 183.0
+ },
+ "The Long Absence": {
+  "qid": "Q2661411",
+  "min": 85.0
+ },
+ "The Lost Weekend": {
+  "qid": "Q237134",
+  "min": 101.0
+ },
+ "The Mattei Affair": {
+  "qid": "Q2755251",
+  "min": 110.0
+ },
+ "The Mission (1986 film)": {
+  "qid": "Q302490",
+  "min": 126.0
+ },
+ "The Pianist (2002 film)": {
+  "qid": "Q150804",
+  "min": 149.0
+ },
+ "The Piano": {
+  "qid": "Q117315",
+  "min": 121.0
+ },
+ "The Red Meadows": {
+  "qid": "Q1757020",
+  "min": 85.0
+ },
+ "The Silent World": {
+  "qid": "Q289648",
+  "min": 85.0
+ },
+ "The Son's Room": {
+  "qid": "Q530812",
+  "min": 99.0
+ },
+ "The Square (2017 film)": {
+  "qid": "Q27237522",
+  "min": 152.0
+ },
+ "The Third Man": {
+  "qid": "Q271830",
+  "min": 104.0
+ },
+ "The Tin Drum (film)": {
+  "qid": "Q313764",
+  "min": 142.0
+ },
+ "The Tree of Life (film)": {
+  "qid": "Q244257",
+  "min": 138.0
+ },
+ "The Tree of Wooden Clogs": {
+  "qid": "Q1194413",
+  "min": 186.0
+ },
+ "The Turning Point (1945 film)": {
+  "qid": "Q945852",
+  "min": 108.0
+ },
+ "The Umbrellas of Cherbourg": {
+  "qid": "Q163868",
+  "min": 91.0
+ },
+ "The Wages of Fear": {
+  "qid": "Q465773",
+  "min": 148.0
+ },
+ "The White Ribbon": {
+  "qid": "Q158023",
+  "min": 144.0
+ },
+ "The Wind That Shakes the Barley (film)": {
+  "qid": "Q827106",
+  "min": 127.0
+ },
+ "The Working Class Goes to Heaven": {
+  "qid": "Q1197936",
+  "min": 120.0
+ },
+ "Titane": {
+  "qid": "Q105393862",
+  "min": 108.0
+ },
+ "Torment (1944 film)": {
+  "qid": "Q2290980",
+  "min": 101.0
+ },
+ "Triangle of Sadness": {
+  "qid": "Q97304180",
+  "min": 149.0
+ },
+ "Two Cents Worth of Hope": {
+  "qid": "Q2459872",
+  "min": 110.0
+ },
+ "Uncle Boonmee Who Can Recall His Past Lives": {
+  "qid": "Q553901",
+  "min": 113.0
+ },
+ "Under the Sun of Satan (film)": {
+  "qid": "Q389971",
+  "min": 93.0
+ },
+ "Underground (1995 film)": {
+  "qid": "Q156516",
+  "min": 163.0
+ },
+ "Viridiana": {
+  "qid": "Q852841",
+  "min": 90.0
+ },
+ "When Father Was Away on Business": {
+  "qid": "Q433000",
+  "min": 136.0
+ },
+ "Wild at Heart (film)": {
+  "qid": "Q751382",
+  "min": 120.0
+ },
+ "Winter Sleep (film)": {
+  "qid": "Q15921329",
+  "min": 196.0
+ },
+ "Yol (film)": {
+  "qid": "Q683020",
+  "min": 114.0
+ },
+ "Ziegfeld Follies (film)": {
+  "qid": "Q2186004",
+  "min": 110.0
+ }
+}
