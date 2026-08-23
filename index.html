@@ -2297,7 +2297,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '74e6c8c91bd8';
+const BUILD = 'bddada419a7c';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -2567,6 +2567,32 @@ async function pushCloud(){
     state('Synced','ok');
   }
 }
+// Every tick's when and kind, captured from day one so the stats that read
+// them later have real history. The progress set stays the truth for WHAT is
+// ticked; this log only records WHEN and whether it was live watching or
+// catching up. Local log is append-only (capped); the cloud flush rides the
+// same debounce as progress and is just as non-fatal.
+const EVCAP = 5000;
+function evlog(){ try{ return JSON.parse(localStorage.getItem('gw:evlog:'+SLUG)) || []; }catch(e){ return []; } }
+function recordEvents(ids, action, kind){
+  const log = evlog(), at = new Date().toISOString();
+  ids.forEach(i=> log.push({i, a:action, k:kind, at}));
+  try{ localStorage.setItem('gw:evlog:'+SLUG, JSON.stringify(log.slice(-EVCAP))); }catch(e){}
+}
+let evBroken = false;
+async function flushEvents(){
+  if(!user || !sb || evBroken) return;
+  const log = evlog();
+  const from = parseInt(localStorage.getItem('gw:evflushed:'+SLUG) || '0', 10) || 0;
+  const batch = log.slice(from);
+  if(!batch.length) return;
+  const rows = batch.map(e=> ({user_id: user.id, property_id: SLUG,
+    item_id: e.i, action: e.a, kind: e.k, at: e.at}));
+  const { error } = await sb.from('tick_events').insert(rows);
+  if(error){ evBroken = true; return; }   // table may not exist yet; retry next load
+  try{ localStorage.setItem('gw:evflushed:'+SLUG, String(log.length)); }catch(e){}
+}
+
 function persist(){
   writeLocal();
   if(!user) return;
@@ -2577,6 +2603,7 @@ function persist(){
   // never cleared would defer every reload forever
   saveTimer = setTimeout(()=>{
     saveTimer = null;
+    flushEvents();
     pushCloud().then(applyReload, applyReload);
   }, 700);
 }
@@ -4604,6 +4631,8 @@ function build(){
       if(!hit.length) return;
       const full = hit.every(x=> done.has(x.id));
       hit.forEach(x=> full ? done.delete(x.id) : done.add(x.id));
+      // nobody watches a section in one click: mark-all is catching up
+      recordEvents(hit.map(x=> x.id), full ? 'untick' : 'tick', 'backfill');
       persist(); paint();
       return;
     }
@@ -4612,7 +4641,13 @@ function build(){
       e.preventDefault(); e.stopPropagation();
       const upTo = ORDER.indexOf(catchUp.dataset.id);
       if(upTo < 0) return;
-      for(let i = 0; i <= upTo; i++) done.add(ORDER[i]);
+      const added = [];
+      for(let i = 0; i <= upTo; i++){
+        if(!done.has(ORDER[i])) added.push(ORDER[i]);
+        done.add(ORDER[i]);
+      }
+      // the button literally says catch up — backfill by definition
+      recordEvents(added, 'tick', 'backfill');
       persist(); paint();
       flash('Marked everything up to '+FLAT[upTo].t+' '+FLAT[upTo].n+'.');
       return;
@@ -4629,6 +4664,9 @@ function build(){
     if(e.target.type!=='checkbox') return;
     const id = e.target.closest('li').dataset.id;
     e.target.checked ? done.add(id) : done.delete(id);
+    // single ticks default to live; the activity page reclassifies later,
+    // which the timestamped log makes possible
+    recordEvents([id], e.target.checked ? 'tick' : 'untick', 'live');
     persist(); paint();
   });
 }
