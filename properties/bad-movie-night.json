@@ -5,7 +5,7 @@
   "kind": "films",
   "order": 68,
   "year": "1953–2019",
-  "blurb": "29 famously terrible films worth watching with people you like — Plan 9 to Cats, best served loud. Any order.",
+  "blurb": "33 famously terrible films worth watching with people you like — Plan 9 to Cats, best served loud. Any order.",
   "unit": {
     "one": "film",
     "many": "films"
@@ -85,7 +85,7 @@
     {
       "id": "vhs",
       "title": "The video-store era",
-      "sub": "1977–1991 · 8 films",
+      "sub": "1977–1991 · 11 films",
       "intro": "Too strange to die: rescued by late-night cable, rental shelves and riffing.",
       "items": [
         {
@@ -107,6 +107,18 @@
           "note": "Frank Perry · 129 min"
         },
         {
+          "id": "bmn-1984-the-toxic-avenger",
+          "t": "The Toxic Avenger",
+          "n": "1984",
+          "note": "Michael Herz · 82 min"
+        },
+        {
+          "id": "bmn-1986-class-of-nuke-em-high",
+          "t": "Class of Nuke 'Em High",
+          "n": "1986",
+          "note": "Richard W. Haines · 83 min"
+        },
+        {
           "id": "bmn-1986-howard-the-duck",
           "t": "Howard the Duck",
           "n": "1986",
@@ -116,7 +128,7 @@
           "id": "bmn-1987-miami-connection",
           "t": "Miami Connection",
           "n": "1987",
-          "note": "84 min"
+          "note": "Richard Park (Park Woo-Sang) · 84 min"
         },
         {
           "id": "bmn-1988-mac-and-me",
@@ -125,10 +137,16 @@
           "note": "Stewart Raffill · 99 min"
         },
         {
+          "id": "bmn-1988-troma-s-war",
+          "t": "Troma's War",
+          "n": "1988",
+          "note": "Michael Herz · 104 min"
+        },
+        {
           "id": "bmn-1990-troll-2",
           "t": "Troll 2",
           "n": "1990",
-          "note": "Claudio Fragassoefn|name=Fragasso|Fragasso was credited under the pseudonym Drake Floyd. · 94 min"
+          "note": "Claudio Fragasso · 94 min"
         },
         {
           "id": "bmn-1991-samurai-cop",
@@ -141,7 +159,7 @@
     {
       "id": "multiplex",
       "title": "Multiplex disasters",
-      "sub": "1995–2006 · 9 films",
+      "sub": "1995–2007 · 10 films",
       "intro": "Real budgets, real stars, unreal results — The Room arrives in 2003.",
       "items": [
         {
@@ -197,6 +215,12 @@
           "t": "The Wicker Man",
           "n": "2006",
           "note": "Neil LaBute · 102 min"
+        },
+        {
+          "id": "bmn-2007-poultrygeist-night-of-the-chicken-dead",
+          "t": "Poultrygeist: Night of the Chicken Dead",
+          "n": "2007",
+          "note": "Lloyd Kaufman · 103 min"
         }
       ]
     },
