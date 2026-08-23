@@ -1,0 +1,662 @@
+{
+  "slug": "ghost-in-the-shell",
+  "title": "Ghost in the Shell",
+  "subtitle": "everything animated, by continuity",
+  "kind": "anime",
+  "order": 84,
+  "year": "1995–2022",
+  "blurb": "Three animated continuities — the Oshii films, Stand Alone Complex through SAC_2045, and Arise — 86 entries, about 41 hours.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#186A66",
+  "accentDark": "#F5933E",
+  "tiers": false,
+  "notes": [
+    [
+      "Sections are continuities.",
+      "Three separate animated tellings share these characters: Oshii's two films; the Stand Alone Complex television line (seasons 1 and 2, Solid State Society, and — set eleven years later — SAC_2045); and Arise, whose five borders the 2015 New Movie concludes. Watch a continuity together; nothing carries between them."
+    ],
+    [
+      "Weights.",
+      "Episodes weigh 0.4 hours, films their runtimes, and the Arise borders the 50 minutes each their article gives. Sustainable War has no runtime on record anywhere machine-readable and weighs nothing rather than a guess."
+    ],
+    [
+      "Animation only.",
+      "The 2017 live-action remake is out. So are the recuts and rebroadcasts — Arise: Alternative Architecture (the borders re-aired for TV) and The Last Human (the season-two compilation film). Sustainable War, the season-one compilation, keeps its row so the Netflix run is complete; its row says what it is."
+    ],
+    [
+      "The Tachikomatic Days shorts are not rows.",
+      "Comedy omake attached to the Stand Alone Complex broadcasts; they are on the episode-list page and nothing here depends on them."
+    ],
+    "Episode lists, film years and runtimes machine-read from the Wikipedia articles; every season's numbering asserted complete before this builds."
+  ],
+  "sections": [
+    {
+      "id": "oshii",
+      "title": "The Oshii films",
+      "sub": "1995 & 2004 · the film continuity",
+      "intro": "Mamoru Oshii's continuity: the 1995 film and its sequel Innocence. Separate from every series below.",
+      "links": [
+        {
+          "label": "The 1995 film",
+          "url": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)"
+        }
+      ],
+      "open": true,
+      "items": [
+        {
+          "id": "gits-film-1995",
+          "t": "Ghost in the Shell",
+          "n": "1995",
+          "w": 1.37,
+          "note": "82 min"
+        },
+        {
+          "id": "gits-film-2004",
+          "t": "Ghost in the Shell 2: Innocence",
+          "n": "2004",
+          "w": 1.63,
+          "note": "98 min"
+        }
+      ]
+    },
+    {
+      "id": "sac1",
+      "title": "Stand Alone Complex",
+      "sub": "2002–03 · 26 episodes",
+      "intro": "A second continuity, restarted for television: Section 9 from scratch, unconnected to the films.",
+      "links": [
+        {
+          "label": "The episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Ghost_in_the_Shell:_Stand_Alone_Complex_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "gits-s1e1",
+          "t": "SA: Public Security Section 9 – SECTION-9",
+          "n": "1",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e2",
+          "t": "SA: Runaway Evidence – TESTATION",
+          "n": "2",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e3",
+          "t": "SA: A Modest Rebellion – ANDROID AND I",
+          "n": "3",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e4",
+          "t": "C: The Visual Device will Laugh – INTERCEPTER",
+          "n": "4",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e5",
+          "t": "C: The Inviting Bird will Chant – DECOY",
+          "n": "5",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e6",
+          "t": "C: The Copycat will Dance – MEME",
+          "n": "6",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e7",
+          "t": "SA: Idolatry – IDOLATOR",
+          "n": "7",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e8",
+          "t": "SA: The Fortunate Ones – MISSING HEARTS",
+          "n": "8",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e9",
+          "t": "C: The Man Who Dwells in the Shadows of the Net – CHAT! CHAT! CHAT!",
+          "n": "9",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e10",
+          "t": "SA: A Perfect Day for a Jungle Cruise – JUNGLE CRUISE",
+          "n": "10",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e11",
+          "t": "C: In The Forest of the Imagoes – PORTRAITZ",
+          "n": "11",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e12",
+          "t": "SA: Tachikoma Runs Away; The Movie Director's Dream – ESCAPE FROM",
+          "n": "12",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e13",
+          "t": "SA: Unequal Terrorist – NOT EQUAL",
+          "n": "13",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e14",
+          "t": "SA: Automated Capitalism – ¥€$",
+          "n": "14",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e15",
+          "t": "SA: Time of the Machines – MACHINES DÉSIRANTES",
+          "n": "15",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e16",
+          "t": "SA: Chinks in the Armor of the Heart – Ag<sub>2</sub>O",
+          "n": "16",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e17",
+          "t": "SA: The True Reason For The Unfinished Love Affair – ANGELS' SHARE",
+          "n": "17",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e18",
+          "t": "SA: Assassination Duet – LOST HERITAGE",
+          "n": "18",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e19",
+          "t": "SA: Embraced by a Disguised Net – CAPTIVATED",
+          "n": "19",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e20",
+          "t": "C: Vanished Medication – RE-VIEW",
+          "n": "20",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e21",
+          "t": "C: Left-Behind Trace – ERASER",
+          "n": "21",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e22",
+          "t": "C: Corporate Graft – SCANDAL",
+          "n": "22",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e23",
+          "t": "C: The Other Side of Good and Evil – EQUINOX",
+          "n": "23",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e24",
+          "t": "C: Sunset in the Lonely City – ANNIHILATION",
+          "n": "24",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e25",
+          "t": "C: Smoke of Gunpowder, Hail of Bullets – BARRAGE",
+          "n": "25",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s1e26",
+          "t": "C: Public Security Section 9, Once Again – STAND ALONE COMPLEX",
+          "n": "26",
+          "w": 0.4
+        }
+      ]
+    },
+    {
+      "id": "sac2",
+      "title": "S.A.C. 2nd GIG",
+      "sub": "2004–05 · 26 episodes",
+      "intro": "Season two of the Stand Alone Complex continuity.",
+      "items": [
+        {
+          "id": "gits-s2e1",
+          "t": "DI: Reactivation – REEMBODY",
+          "n": "1",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e2",
+          "t": "DI: Well-Fed Me – NIGHT CRUISE",
+          "n": "2",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e3",
+          "t": "DI: Saturday Night and Sunday Morning – CASH EYE",
+          "n": "3",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e4",
+          "t": "DU: Natural Enemy – NATURAL ENEMY",
+          "n": "4",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e5",
+          "t": "IN: Those Who Have the Motive – INDUCTANCE",
+          "n": "5",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e6",
+          "t": "DI: Latent Heat Source – EXCAVATION",
+          "n": "6",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e7",
+          "t": "DU: The Rhapsodic Melody of a Bygone Nation – <sup>239</sup>Pu",
+          "n": "7",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e8",
+          "t": "DI: Vegetarian Dinner – FAKE FOOD",
+          "n": "8",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e9",
+          "t": "DU: The Hope Named Despair – AMBIVALENCE",
+          "n": "9",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e10",
+          "t": "DI: One Angry Man – TRIAL",
+          "n": "10",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e11",
+          "t": "IN: Grass Labyrinth – AFFECTION",
+          "n": "11",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e12",
+          "t": "IN: To Those Without Even a Name... – SELECON",
+          "n": "12",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e13",
+          "t": "DI: Face – MAKE UP",
+          "n": "13",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e14",
+          "t": "DI: Beware the Left Eye – POKER FACE",
+          "n": "14",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e15",
+          "t": "DI: Afternoon of the Machines – PAT.",
+          "n": "15",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e16",
+          "t": "IN: The Fact of Being There – ANOTHER CHANCE",
+          "n": "16",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e17",
+          "t": "DI: Mother and Child – RED DATA",
+          "n": "17",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e18",
+          "t": "DI: Angel's Poem – TRANS PARENT",
+          "n": "18",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e19",
+          "t": "IN: Chain Reaction of Symmetry – CHAIN REACTION",
+          "n": "19",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e20",
+          "t": "IN: Confusion at the North End – FABRICATE FOG",
+          "n": "20",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e21",
+          "t": "IN: Escape in Defeat – EMBARRASSMENT",
+          "n": "21",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e22",
+          "t": "DU: Abandoned City – REVERSAL PROCESS",
+          "n": "22",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e23",
+          "t": "IN: The Day the Bridge Falls – MARTIAL LAW",
+          "n": "23",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e24",
+          "t": "IN: Aerial Bombing of Dejima – NUCLEAR POWER",
+          "n": "24",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e25",
+          "t": "IN: To the Other Side of Paradise – THIS SIDE OF JUSTICE",
+          "n": "25",
+          "w": 0.4
+        },
+        {
+          "id": "gits-s2e26",
+          "t": "IN: Return to Patriotism – ENDLESS∞GIG",
+          "n": "26",
+          "w": 0.4
+        }
+      ]
+    },
+    {
+      "id": "sss",
+      "title": "Solid State Society",
+      "sub": "2006 · the Stand Alone Complex TV film",
+      "items": [
+        {
+          "id": "gits-film-2006",
+          "t": "Solid State Society",
+          "n": "2006",
+          "w": 1.75,
+          "note": "TV film, two years after 2nd GIG · 105 min"
+        }
+      ]
+    },
+    {
+      "id": "arise",
+      "title": "Arise",
+      "sub": "2013–15 · five borders",
+      "intro": "A third continuity: a younger Section 9, told in five feature-length OVAs called borders, released to cinemas first.",
+      "links": [
+        {
+          "label": "Arise",
+          "url": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell:_Arise"
+        }
+      ],
+      "items": [
+        {
+          "id": "gits-arise-b1",
+          "t": "Border 1: Ghost Pain",
+          "n": "1",
+          "w": 0.83,
+          "note": "50 min"
+        },
+        {
+          "id": "gits-arise-b2",
+          "t": "Border 2: Ghost Whispers",
+          "n": "2",
+          "w": 0.83,
+          "note": "50 min"
+        },
+        {
+          "id": "gits-arise-b3",
+          "t": "Border 3: Ghost Tears",
+          "n": "3",
+          "w": 0.83,
+          "note": "50 min"
+        },
+        {
+          "id": "gits-arise-b4",
+          "t": "Border 4: Ghost Stands Alone",
+          "n": "4",
+          "w": 0.83,
+          "note": "50 min"
+        },
+        {
+          "id": "gits-arise-b5",
+          "t": "Border 5: Pyrophoric Cult",
+          "n": "5",
+          "w": 0.83,
+          "note": "50 min"
+        }
+      ]
+    },
+    {
+      "id": "newmovie",
+      "title": "The New Movie",
+      "sub": "2015 · the film that closes Arise",
+      "items": [
+        {
+          "id": "gits-film-2015",
+          "t": "Ghost in the Shell: The New Movie",
+          "n": "2015",
+          "w": 1.67,
+          "note": "Follows the Arise borders · 100 min"
+        }
+      ]
+    },
+    {
+      "id": "s2045a",
+      "title": "SAC_2045 season 1",
+      "sub": "2020 · 12 episodes",
+      "intro": "Back to the Stand Alone Complex continuity, set in 2045 — eleven years after Solid State Society. 3DCG, on Netflix.",
+      "links": [
+        {
+          "label": "The episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Ghost_in_the_Shell:_SAC_2045_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "gits-2045-s1e1",
+          "t": "NO NOISE NO LIFE - Sustainable War",
+          "n": "1",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e2",
+          "t": "AT YOUR OWN RISK - Divided by a Wall",
+          "n": "2",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e3",
+          "t": "MAVERICK - Missing In Action",
+          "n": "3",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e4",
+          "t": "SACRIFICIAL PAWN - Emissary from the Divide",
+          "n": "4",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e5",
+          "t": "PATRICK HUGE - Gift from God",
+          "n": "5",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e6",
+          "t": "DISCLOSURE - Quantized Gospel",
+          "n": "6",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e7",
+          "t": "PIE IN THE SKY - First Bank Robbery",
+          "n": "7",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e8",
+          "t": "ASSEMBLE - What Came About as a Result of Togusa's Death",
+          "n": "8",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e9",
+          "t": "IDENTITY THEFT - The Lonely Struggle",
+          "n": "9",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e10",
+          "t": "NET PEOPLE - What Led to the Hate Mob",
+          "n": "10",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e11",
+          "t": "EDGELORD - Revolution of the 14-Year-Olds",
+          "n": "11",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s1e12",
+          "t": "NOSTALGIA - All Will Become N.",
+          "n": "12",
+          "w": 0.4
+        }
+      ]
+    },
+    {
+      "id": "suswar",
+      "title": "Sustainable War",
+      "sub": "2021 · the season-one compilation film",
+      "items": [
+        {
+          "id": "gits-film-2021",
+          "t": "Ghost in the Shell: SAC_2045 Sustainable War",
+          "n": "2021",
+          "w": 0,
+          "note": "Recompiles season 1 · No runtime on record — weighs nothing"
+        }
+      ]
+    },
+    {
+      "id": "s2045b",
+      "title": "SAC_2045 season 2",
+      "sub": "2022 · 12 episodes",
+      "items": [
+        {
+          "id": "gits-2045-s2e1",
+          "t": "DOMINO EFFECT / Silly Kukushkin",
+          "n": "1",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e2",
+          "t": "CLOSE CALL / I've Awoken",
+          "n": "2",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e3",
+          "t": "FACTOR / 1A84",
+          "n": "3",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e4",
+          "t": "MEMORIES / Born in Heaven",
+          "n": "4",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e5",
+          "t": "ROOM 101 / Man's Search for Meaning",
+          "n": "5",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e6",
+          "t": "N-POWER / How to Build an Independent Nation",
+          "n": "6",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e7",
+          "t": "TRUTH POINT OF CONTACT / Bridge of Promise",
+          "n": "7",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e8",
+          "t": "DEMI DEUS / Those Who Evolve Toward Divinity",
+          "n": "8",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e9",
+          "t": "LAST RESORT / A Long Slumber",
+          "n": "9",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e10",
+          "t": "OPERATION STANDOFF / The Battle Begins",
+          "n": "10",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e11",
+          "t": "DOOMSDAY / The Moon over the Ruined Castle",
+          "n": "11",
+          "w": 0.4
+        },
+        {
+          "id": "gits-2045-s2e12",
+          "t": "DOUBLE THINK / Event Boundary",
+          "n": "12",
+          "w": 0.4
+        }
+      ]
+    }
+  ]
+}

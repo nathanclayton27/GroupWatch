@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Eighty-six lists, from a ten-episode anime to a 1,337-spine film
+Ninety-eight lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -55,12 +55,22 @@ optional rows.
 
 **Filmographies.** *Stanley Kubrick* (with A.I.), *Steven Spielberg*,
 *David Lynch* (all of Twin Peaks as one row), *Tom Cruise*, *Akira
-Kurosawa*, *Alfred Hitchcock*, *Robin Williams*, *A24* front to back, and
-*Studio Ghibli* with Miyazaki as the spine. Plus *Stephen King*, novel by
-novel.
+Kurosawa*, *Alfred Hitchcock*, *Robin Williams*, *Martin Scorsese* (with
+the documentaries optional), *Quentin Tarantino*, *the Coen brothers*
+(solo work sectioned and credited), *David Fincher*, *John Carpenter*,
+*Nicolas Cage* (113 films, all eras), *Satoshi Kon* (films plus Paranoia
+Agent), *A24* front to back, and *Studio Ghibli* with Miyazaki as the
+spine. Plus *Stephen King*, novel by novel.
 
 **Animation.** *Marvel Animation* and *DC Animation*, season by season with
 the films slotted in — the DCAU and the direct-to-video lines marked.
+
+**Anime.** *Ghost in the Shell* by continuity (Oshii, Stand Alone
+Complex, Arise, SAC_2045), *Cowboy Bebop* sessions plus the film, *Urusei
+Yatsura* (1981 run, films, OVAs and the remake — Beautiful Dreamer
+cross-listed with Time Loops), *Berserk* by volume and arc, and a *Junji
+Ito* reading list, every year machine-verified down to the Japanese
+sources.
 
 **Screen.** *MCU Anthology* — every Marvel film from *Blade* to *Avengers:
 Doomsday* in release order with the shows slotted in — *DC Anthology*, the

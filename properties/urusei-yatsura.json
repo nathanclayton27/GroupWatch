@@ -1,0 +1,1695 @@
+{
+  "slug": "urusei-yatsura",
+  "title": "Urusei Yatsura",
+  "subtitle": "the 1981 series, the films, the OVAs, the remake",
+  "kind": "anime",
+  "order": 86,
+  "year": "1981–2024",
+  "blurb": "All 194 episodes of the original run, six films, ten OVAs and the 2022 remake — about 109 hours of Lum.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#4C7A1D",
+  "accentDark": "#FFD447",
+  "tiers": false,
+  "notes": [
+    [
+      "Eras in order.",
+      "The 1981–86 series (the four season tables Wikipedia uses are kept), the six theatrical films, the OVAs as one block, then the 2022 remake's two seasons."
+    ],
+    [
+      "Weights.",
+      "Episodes and OVAs weigh 0.4 hours; films weigh their runtimes. Beautiful Dreamer's runtime comes from its own article (98 min), which beats the franchise page's 96."
+    ],
+    [
+      "What is out.",
+      "The three specials the 1981 tables carry outside the episode numbering — All-Star Bash, Ryoko's September Tea Party and Memorial Album, the latter two mixing new footage with clips — and the Lum the Forever making-of featurette."
+    ],
+    "Episode tables, film years and runtimes machine-read from the Wikipedia episode lists, the film-series article and the films' own articles; season counts and the 1–194 numbering asserted before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "1981–82 · 54 episodes",
+      "links": [
+        {
+          "label": "The episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Urusei_Yatsura_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "uy-e1",
+          "t": "I'm Lum-chan the Notorious! / It's Raining Oil All Over Town",
+          "n": "1",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e2",
+          "t": "Mail from Space - Ten-chan Arrives! / Mrs. Swallow and Mrs. Penguin",
+          "n": "2",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e3",
+          "t": "The Coming of Rei the Handsome Shapechanger! / Die Dreamy-Man!",
+          "n": "3",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e4",
+          "t": "Kintaro from the Autumn Sky! / Gonna Live Like a Man!",
+          "n": "4",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e5",
+          "t": "Sakura - Raving Beauty of Mystery / Virus in Distress",
+          "n": "5",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e6",
+          "t": "Black Hole Love Triangle / It's a Lovesick Little Demon!",
+          "n": "6",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e7",
+          "t": "Electric Shocks Scare Me! / Voodoo Dolls of Vengeance",
+          "n": "7",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e8",
+          "t": "Neptune is Beyond My Closet / That Crazy Age of the Dinosaurs",
+          "n": "8",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e9",
+          "t": "Princess Kurama, Sleeping Beauty / Athletics in Women's Hell!",
+          "n": "9",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e10",
+          "t": "Pitter Patter Christmas Eve",
+          "n": "10",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e11",
+          "t": "Ataru Genji Goes to the Heian Capital",
+          "n": "11",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e12",
+          "t": "Battle Royal of Love / Father You Were Strong",
+          "n": "12",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e13",
+          "t": "Hawaiian Swimsuit Thief / Full Course From Hell",
+          "n": "13",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e14",
+          "t": "Mendo Brings Trouble! / Constellation is Spinning",
+          "n": "14",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e15",
+          "t": "The Great Spring War / The Benten Gang's Return Match",
+          "n": "15",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e16",
+          "t": "Ah Lone Teacher! / Terrifying Visiting Day",
+          "n": "16",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e17",
+          "t": "The Fourth Dimension Camera / Demonic Running",
+          "n": "17",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e18",
+          "t": "Girls' Day! Introducing Ran-chan / Ran-chan's Invitation",
+          "n": "18",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e19",
+          "t": "The Tearful Diary of Tomorrow / Whose Kid Is This?",
+          "n": "19",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e20",
+          "t": "Sleepy Serene Springtime Classroom / Peach Blossom Song Contest",
+          "n": "20",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e21",
+          "t": "Duel! Ataru vs Ataru / Wake up to a Nightmare",
+          "n": "21",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e22",
+          "t": "Great Space Matchmaking Operation",
+          "n": "22",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e23",
+          "t": "Big Springtime Picnic Uproar!",
+          "n": "23",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e24",
+          "t": "Beware of Earmuffs!",
+          "n": "24",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e25",
+          "t": "Fly Imo-chan!",
+          "n": "25",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e26",
+          "t": "Ten-chan's Love",
+          "n": "26",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e27",
+          "t": "What a Dracula",
+          "n": "27",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e28",
+          "t": "Lum's Education Lecture Course for Boys",
+          "n": "28",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e29",
+          "t": "From the Gardenia with Love",
+          "n": "29",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e30",
+          "t": "A Beautiful Girl Brings Rain",
+          "n": "30",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e31",
+          "t": "Gimme Back My Horn!",
+          "n": "31",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e32",
+          "t": "Shock Library - Quiet Please!",
+          "n": "32",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e33",
+          "t": "Teacher Hanawa Arrives! It's the Youth",
+          "n": "33",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e34",
+          "t": "Goblin in Distress - Wonderful People",
+          "n": "34",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e35",
+          "t": "Darling Had It This Time!",
+          "n": "35",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e36",
+          "t": "Rei Returns! The Big Study Hall Uproar!!",
+          "n": "36",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e37",
+          "t": "The Coming of The Phantom Red Mantle!",
+          "n": "37",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e38",
+          "t": "Steal Darling! Copy Operation!!",
+          "n": "38",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e39",
+          "t": "Thrilling Summer Date",
+          "n": "39",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e40",
+          "t": "So long Byebye Summer Days",
+          "n": "40",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e41",
+          "t": "Panic in Typhoon!",
+          "n": "41",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e42",
+          "t": "Drunkard's Boogie",
+          "n": "42",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e43",
+          "t": "The Terror of Meow",
+          "n": "43",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e44",
+          "t": "After You've Gone",
+          "n": "44",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e45",
+          "t": "Lum-chan's Class Reunion",
+          "n": "45",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e46",
+          "t": "Those Buy-Eaters Gather Round!",
+          "n": "46",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e47",
+          "t": "Terror! The Deserted Fossil Grounds Mystery",
+          "n": "47",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e48",
+          "t": "Princess Kurama - A New Challenge!",
+          "n": "48",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e49",
+          "t": "The Terrifying Cavity Wars!",
+          "n": "49",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e50",
+          "t": "The Mendo Siblings!",
+          "n": "50",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e51",
+          "t": "A Cat with a Grudge on the Stairs",
+          "n": "51",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e52",
+          "t": "Can a Raccoon Repay a Favor!?",
+          "n": "52",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e53",
+          "t": "The Suicide Subspace Parttime Job",
+          "n": "53",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e54",
+          "t": "The Big Year-End Party that Lum-chan Organized!",
+          "n": "54",
+          "w": 0.4
+        }
+      ],
+      "open": true,
+      "intro": "Rumiko Takahashi's alien-girl farce, adapted while the manga ran. Most early episodes aired as two shorter segments — those rows join both titles."
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "1983–84 · 52 episodes",
+      "links": [
+        {
+          "label": "The episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Urusei_Yatsura_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "uy-e55",
+          "t": "Badboy Musashi - A Success Story",
+          "n": "55",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e56",
+          "t": "We'll Risk Our Lives During Classtime!",
+          "n": "56",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e57",
+          "t": "Domestic Quarrel – To Eat or Be Eaten?!",
+          "n": "57",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e58",
+          "t": "Steal the Kiss of Miss Snow Queen!",
+          "n": "58",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e59",
+          "t": "St. Valentine Day Horror",
+          "n": "59",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e60",
+          "t": "Love Love Catchball!",
+          "n": "60",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e61",
+          "t": "The Mendo Family... Masquerade War",
+          "n": "61",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e62",
+          "t": "Space Cold Panic!",
+          "n": "62",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e63",
+          "t": "Ryunosuke Arrives! I Love the Sea!",
+          "n": "63",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e64",
+          "t": "Goodbye Season",
+          "n": "64",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e65",
+          "t": "Ran-chan's Great Date Plan!",
+          "n": "65",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e66",
+          "t": "Happy Birthday My Darling",
+          "n": "66",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e67",
+          "t": "Seeing Togenkyo as a Hell Camp!",
+          "n": "67",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e68",
+          "t": "The Muco Flower's Name is Ryunosuke",
+          "n": "68",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e69",
+          "t": "Bottled Letter Seashore Mystery!",
+          "n": "69",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e70",
+          "t": "Dramatic Appearance! Mizunokoji Ton-chan!!",
+          "n": "70",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e71",
+          "t": "Shinobu's Cinderella Story",
+          "n": "71",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e72",
+          "t": "Lum-chan the Ruthless Rebel",
+          "n": "72",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e73",
+          "t": "Big Showdown! Sakura vs Sakuranbo!!",
+          "n": "73",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e74",
+          "t": "Ghost Story! Old Man Willow!!",
+          "n": "74",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e75",
+          "t": "And Then There was Nobody!?",
+          "n": "75",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e76",
+          "t": "Firefighter Mama Visits!",
+          "n": "76",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e77",
+          "t": "Darling's Dying!?",
+          "n": "77",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e78",
+          "t": "Pitiful! Mother of Love and Banishment!?",
+          "n": "78",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e79",
+          "t": "Mendo Family - Summer Christmas",
+          "n": "79",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e80",
+          "t": "Panic in the Haunted Inn",
+          "n": "80",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e81",
+          "t": "Ah The Eyelid of Mother",
+          "n": "81",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e82",
+          "t": "Full of Sunshine - Full of Amours",
+          "n": "82",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e83",
+          "t": "Big Clash! Ten VS Ataru",
+          "n": "83",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e84",
+          "t": "Terror! Tororo has Come to Attack!!",
+          "n": "84",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e85",
+          "t": "Galactic Teacher CAO-2's Revenge",
+          "n": "85",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e86",
+          "t": "Outraged! Piteous Kid Shutaro!!",
+          "n": "86",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e87",
+          "t": "Grand! The Mysterious Matsutake Pot!!",
+          "n": "87",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e88",
+          "t": "Enraged Lum-chan!",
+          "n": "88",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e89",
+          "t": "Lum and Ataru – A Night only for Two",
+          "n": "89",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e90",
+          "t": "Lady Ryunosuke!",
+          "n": "90",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e91",
+          "t": "Document - Who Will Be Miss Tomobiki!?",
+          "n": "91",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e92",
+          "t": "Bizarre! The Medicine of Selflessness!!",
+          "n": "92",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e93",
+          "t": "Shutaro - Jinxed Morning",
+          "n": "93",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e94",
+          "t": "The Story of a Traveling Snow Dharma",
+          "n": "94",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e95",
+          "t": "Lum-chan's Ancient Japanese Fairytales",
+          "n": "95",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e96",
+          "t": "Shine! The Blessed Bra!!",
+          "n": "96",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e97",
+          "t": "Duel! Benten VS the Three Daughters",
+          "n": "97",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e98",
+          "t": "Lum-chan is Full!",
+          "n": "98",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e99",
+          "t": "Deadly! Standup Eating Wars!!",
+          "n": "99",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e100",
+          "t": "Great Vault! Courageous Survival!!",
+          "n": "100",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e101",
+          "t": "Operation - Peek in the Woman's Bath",
+          "n": "101",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e102",
+          "t": "Sakura - Melancholy of a Youth Time",
+          "n": "102",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e103",
+          "t": "Burning Ran's Emotional Video Mail",
+          "n": "103",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e104",
+          "t": "Sakura-san is My Youth!",
+          "n": "104",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e105",
+          "t": "Scramble! Recapture Lum!!",
+          "n": "105",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e106",
+          "t": "Deathmatch! Ataru VS Mendo Brigade!!",
+          "n": "106",
+          "w": 0.4
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "1984–85 · 43 episodes",
+      "links": [
+        {
+          "label": "The episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Urusei_Yatsura_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "uy-e107",
+          "t": "Different Dimension Switch - Where is Darling!?",
+          "n": "107",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e108",
+          "t": "Clash!! Queen Majesty and Ragaman's Love",
+          "n": "108",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e109",
+          "t": "Ran-chan - First Kiss Tastes Tears of Love",
+          "n": "109",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e110",
+          "t": "Un-re-mov-ab-le Rouge Magic",
+          "n": "110",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e111",
+          "t": "Deathmatch!! The Mendo Family Flower Display Death Match",
+          "n": "111",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e112",
+          "t": "Benten & Ryunosuke - Run Toward Tomorrow!",
+          "n": "112",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e113",
+          "t": "Great Horrors! Oyuki is Finally Angered!!",
+          "n": "113",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e114",
+          "t": "Ten-chan's Strange Love Story",
+          "n": "114",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e115",
+          "t": "Haunted Special! Search for Mendo Mansion's Treasure!!",
+          "n": "115",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e116",
+          "t": "Love and War! Battle of Glove VS Pants!!",
+          "n": "116",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e117",
+          "t": "Lum-chan's Becoming a Cow?",
+          "n": "117",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e118",
+          "t": "Great Achievement! This is Lum-chan's Youth Film",
+          "n": "118",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e119",
+          "t": "Scaring Ghosts! Pretty Sakura's Oharai!!",
+          "n": "119",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e120",
+          "t": "Counterattack of the Primeval Animals! Panic at the Poolside",
+          "n": "120",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e121",
+          "t": "Appeared Again! Hunter of Love Princess Kurama",
+          "n": "121",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e122",
+          "t": "The Fox's Hard Feelings of Painful Love...",
+          "n": "122",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e123",
+          "t": "Ryunosuke Stunned! My Young Child Loves Rock Mother!!",
+          "n": "123",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e124",
+          "t": "Thriller! Curra~n Collo~n Womens Dorm!!",
+          "n": "124",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e125",
+          "t": "Pool Spooks! Burning with Forbidden Love!!",
+          "n": "125",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e126",
+          "t": "Ran-chan Panic: There is No Tomorrow for Tomobiki Town",
+          "n": "126",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e127",
+          "t": "Where is Love's Room? Kuriko and Chojuro",
+          "n": "127",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e128",
+          "t": "Man or Bird? Gokakenran Ally of Justice!",
+          "n": "128",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e129",
+          "t": "Attack the Seniors! Revenge of the Knowing Three Daughters",
+          "n": "129",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e130",
+          "t": "Blazing Hidden Trick! This Straight Line Road",
+          "n": "130",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e131",
+          "t": "Don't Die! Ryoko's Special Straw Doll!!",
+          "n": "131",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e132",
+          "t": "Matchmaking Hell! Is the Armored Daughter a Beauty? Beast?",
+          "n": "132",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e133",
+          "t": "Love of the Armored Daughter! Maiden Heart is Shaky Wobbling",
+          "n": "133",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e134",
+          "t": "Meeting Even in Death! Pure Fox Returns!!",
+          "n": "134",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e135",
+          "t": "What Do I Care for Talking Flowers!",
+          "n": "135",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e136",
+          "t": "The Birth of Ten-chan's Son!? I Dunno",
+          "n": "136",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e137",
+          "t": "Lum's Courageous Duel! Victory is a Nitpicky Hand",
+          "n": "137",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e138",
+          "t": "Big Employment Aspiration! Return of Missing Ninja Kaede!!",
+          "n": "138",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e139",
+          "t": "Tomobiki Highschool Survival! Who Are the Survivors!",
+          "n": "139",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e140",
+          "t": "The Mysterious Giant Cake! Love's Escape Panic!!",
+          "n": "140",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e141",
+          "t": "Underground Reincarnation! What's Darling Thinking!?",
+          "n": "141",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e142",
+          "t": "Snow Panic! The Mendo Family Hanami Banquet!!",
+          "n": "142",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e143",
+          "t": "Far Spring! Tale of the Lonely Fairy!!",
+          "n": "143",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e144",
+          "t": "To Dream Land! Darling Battle Royal Abduction",
+          "n": "144",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e145",
+          "t": "Three Daughters Again! The Great Mission Tempting Darling!!",
+          "n": "145",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e146",
+          "t": "The Scampering Kotatsu Cat! Anything to Get Warm",
+          "n": "146",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e147",
+          "t": "Ryunosuke's Naïve Father! A Wife is in Vestiges!!",
+          "n": "147",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e148",
+          "t": "Spring Full Bloom!? Frozen by Oyuki's Cold!!",
+          "n": "148",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e149",
+          "t": "Friendship Panic! I Love to Eat Blowfish",
+          "n": "149",
+          "w": 0.4
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Season 4",
+      "sub": "1985–86 · 45 episodes",
+      "links": [
+        {
+          "label": "The episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Urusei_Yatsura_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "uy-e150",
+          "t": "The Armored Girl Returns! Older Brother is Full",
+          "n": "150",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e151",
+          "t": "Boredom Syndrome! Is Tomobiki Town Wasting Away!?",
+          "n": "151",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e152",
+          "t": "Look Out Ran! Kotatsu Neko's First Love Oden!?",
+          "n": "152",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e153",
+          "t": "The Armored Girl Appears Again! The Storm Called Date",
+          "n": "153",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e154",
+          "t": "The Mystery Priest Appears! Luck Bell Battle Royal",
+          "n": "154",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e155",
+          "t": "First Love Again!? A Return to the Past for Lum and Rei!!",
+          "n": "155",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e156",
+          "t": "Youthful Old Man Appears! Shine Great Tearoom of Dreams!!",
+          "n": "156",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e157",
+          "t": "I Love Darling's Kindness...",
+          "n": "157",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e158",
+          "t": "Pure Fox Again! Shinobu-san is Love",
+          "n": "158",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e159",
+          "t": "I Love the Sea~! Prosperity Record's Thriving Hamajaya!?",
+          "n": "159",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e160",
+          "t": "Ryunosuke VS Benten! Great Fruitless Amorousness Duel",
+          "n": "160",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e161",
+          "t": "Small Magic Bin! What's to Become of Me!?",
+          "n": "161",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e162",
+          "t": "Great Devil's Debut! Lum's Dangerous Purchase!?",
+          "n": "162",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e163",
+          "t": "Goodness! Words Aren't Getting to Darling",
+          "n": "163",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e164",
+          "t": "Devil's Summer! Ten-chan's Great Unaju Mission!!",
+          "n": "164",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e165",
+          "t": "Omimai Panic!? I Didn't Mean Any Harm",
+          "n": "165",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e166",
+          "t": "Scary!! There is an Octopus on Shutaro's Head!?",
+          "n": "166",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e167",
+          "t": "Invader From Space! Lum's Dangerous Lips!!",
+          "n": "167",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e168",
+          "t": "Space Survival! They are the Eaters",
+          "n": "168",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e169",
+          "t": "It's Stimulating! Overhead Cooler of Terror!!",
+          "n": "169",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e170",
+          "t": "Love Raid! Romantic has Not Stopped!!",
+          "n": "170",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e171",
+          "t": "Long-Time Appearance! Worries for Firefighter Mother!!",
+          "n": "171",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e172",
+          "t": "Hardsell Happiness! Out of Pint Bluebird!!",
+          "n": "172",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e173",
+          "t": "Great Storm! Ryunosuke's First Time Wearing a Swimsuit!!",
+          "n": "173",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e174",
+          "t": "I Want a Bride!! The Fox's Big Love Adventure!!",
+          "n": "174",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e175",
+          "t": "How Persistent! The Three Daughters' Great Animal Mission!!",
+          "n": "175",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e176",
+          "t": "Fast Money in Fast Fighting! Hamajaya's Forbidden Business",
+          "n": "176",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e177",
+          "t": "Wish Upon a Star! Ataru Family is Desire Panic",
+          "n": "177",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e178",
+          "t": "Kiss Courier! Darling's First Jealousy!",
+          "n": "178",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e179",
+          "t": "Osake is Scary! Sakura's Oharai Big Failure",
+          "n": "179",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e180",
+          "t": "It's Strange! Sakuranbo Yoga School!!",
+          "n": "180",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e181",
+          "t": "Farewell Onsen Sensei!? Tearful Farewell Marathon Tournament",
+          "n": "181",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e182",
+          "t": "Pure Love Sakura! Slippery Soap of Separation!?",
+          "n": "182",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e183",
+          "t": "Asuka VS Big Brother! It's Battle for Certain Love!",
+          "n": "183",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e184",
+          "t": "Darling Great Misfortune! Four Dimension Fortune of Fear!!",
+          "n": "184",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e185",
+          "t": "New Years Panic! Mendo Family Human Sugoroku Tournament",
+          "n": "185",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e186",
+          "t": "Dreaming Ten-chan! Great Adventure at the End of the Rainbow!!",
+          "n": "186",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e187",
+          "t": "Wanting to Date! Ataru's Great Test Mission",
+          "n": "187",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e188",
+          "t": "Darling Said He Loved Me",
+          "n": "188",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e189",
+          "t": "Death-Defying House Call! A Teacher Occupation Desperate too!!",
+          "n": "189",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e190",
+          "t": "Nonsense! Ran-chan's Huge Doll!!",
+          "n": "190",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e191",
+          "t": "Love Ray! Bet Life Honest Fox!!",
+          "n": "191",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e192",
+          "t": "Hurry Come Darling! Lum's Dangerous Marriage Story",
+          "n": "192",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e193",
+          "t": "Not Bearable! Ran's Great Malicious Mission",
+          "n": "193",
+          "w": 0.4
+        },
+        {
+          "id": "uy-e194",
+          "t": "Great All Star Banquet! We are Immortal!!",
+          "n": "194",
+          "w": 0.4
+        }
+      ]
+    },
+    {
+      "id": "films",
+      "title": "The films",
+      "sub": "1983–91 · six theatrical films",
+      "intro": "Four made during the TV run, two after it. Beautiful Dreamer is Mamoru Oshii's — and sits on the Time Loops list as well.",
+      "links": [
+        {
+          "label": "The film series",
+          "url": "https://en.wikipedia.org/wiki/Urusei_Yatsura_(film_series)"
+        }
+      ],
+      "items": [
+        {
+          "id": "uy-film-1983",
+          "t": "Urusei Yatsura: Only You",
+          "n": "1983",
+          "w": 1.68,
+          "note": "101 min"
+        },
+        {
+          "id": "uy-film-1984",
+          "t": "Urusei Yatsura 2: Beautiful Dreamer",
+          "n": "1984",
+          "w": 1.63,
+          "note": "Also on the Time Loops list · 98 min"
+        },
+        {
+          "id": "uy-film-1985",
+          "t": "Urusei Yatsura 3: Remember My Love",
+          "n": "1985",
+          "w": 1.55,
+          "note": "93 min"
+        },
+        {
+          "id": "uy-film-1986",
+          "t": "Urusei Yatsura 4: Lum the Forever",
+          "n": "1986",
+          "w": 1.57,
+          "note": "94 min"
+        },
+        {
+          "id": "uy-film-1988",
+          "t": "Urusei Yatsura: The Final Chapter",
+          "n": "1988",
+          "w": 1.43,
+          "note": "86 min"
+        },
+        {
+          "id": "uy-film-1991",
+          "t": "Urusei Yatsura: Always My Darling",
+          "n": "1991",
+          "w": 1.28,
+          "note": "77 min"
+        }
+      ]
+    },
+    {
+      "id": "ovas",
+      "title": "The OVAs",
+      "sub": "1987–2008 · ten releases",
+      "intro": "Released 1987–91, plus one 2008 special made for the It's a Rumic World exhibition. All ran in cinemas before video.",
+      "items": [
+        {
+          "id": "uy-ova-1",
+          "t": "Inaba the Dreammaker",
+          "n": "1",
+          "w": 0.4,
+          "note": "1987"
+        },
+        {
+          "id": "uy-ova-2",
+          "t": "Raging Sherbet",
+          "n": "2",
+          "w": 0.4,
+          "note": "1988"
+        },
+        {
+          "id": "uy-ova-3",
+          "t": "Nagisa's Fiancé",
+          "n": "3",
+          "w": 0.4,
+          "note": "1988"
+        },
+        {
+          "id": "uy-ova-4",
+          "t": "The Electric Household Guard",
+          "n": "4",
+          "w": 0.4,
+          "note": "1989"
+        },
+        {
+          "id": "uy-ova-5",
+          "t": "I Howl at the Moon",
+          "n": "5",
+          "w": 0.4,
+          "note": "1989"
+        },
+        {
+          "id": "uy-ova-6",
+          "t": "Goat and Cheese",
+          "n": "6",
+          "w": 0.4,
+          "note": "1989"
+        },
+        {
+          "id": "uy-ova-7",
+          "t": "Catch the Heart",
+          "n": "7",
+          "w": 0.4,
+          "note": "1989"
+        },
+        {
+          "id": "uy-ova-8",
+          "t": "Terror of Girly-Eyes Measles",
+          "n": "8",
+          "w": 0.4,
+          "note": "1991"
+        },
+        {
+          "id": "uy-ova-9",
+          "t": "Date with a Spirit",
+          "n": "9",
+          "w": 0.4,
+          "note": "1991"
+        },
+        {
+          "id": "uy-ova-10",
+          "t": "The Obstacle Course Swim Meet",
+          "n": "10",
+          "w": 0.4,
+          "note": "2008"
+        }
+      ]
+    },
+    {
+      "id": "r1",
+      "title": "The remake, season 1",
+      "sub": "2022–23 · 23 broadcasts",
+      "links": [
+        {
+          "label": "The 2022 series",
+          "url": "https://en.wikipedia.org/wiki/Urusei_Yatsura_(2022_TV_series)"
+        }
+      ],
+      "items": [
+        {
+          "id": "uy22-1",
+          "t": "Young Love on the Run / Between a Rock and a Hard Place",
+          "n": "1",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-2",
+          "t": "Present for You / The Yellow Ribbon of Happiness",
+          "n": "2",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-3",
+          "t": "Trouble Rains Down!! / Amazed in a Maze",
+          "n": "3",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-4",
+          "t": "Sealed with a Kiss!!",
+          "n": "4",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-5",
+          "t": "The Glove of Love and Conflict / How I've Waited for You…",
+          "n": "5",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-6",
+          "t": "Good Day for a Departure / Oyuki",
+          "n": "6",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-7",
+          "t": "Home Is Where You Find It / Marine Garbage Disposal",
+          "n": "7",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-8",
+          "t": "Transfer Student Close Call… / Farewell Party Close Call…",
+          "n": "8",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-9",
+          "t": "To Kill With Love / Studying Mayhem",
+          "n": "9",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-10",
+          "t": "Parents' Day Horrors / Since Your Parting",
+          "n": "10",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-11",
+          "t": "Mendo Siblings!! / A Strange New Year at the Mendo Estate",
+          "n": "11",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-12",
+          "t": "Ten is Here / A Date for Just the Two of Us",
+          "n": "12",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-13",
+          "t": "The Great Off-Campus Snack Battle / A Gift from Ten!!",
+          "n": "13",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-14",
+          "t": "That Mizunokoji Boy / Love Letter Trouble",
+          "n": "14",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-15",
+          "t": "Anko Pathos, the Taste of Love?! / Memories and a Close Call…",
+          "n": "15",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-16",
+          "t": "Family Feud!! / Hello, Sailor Suit!!",
+          "n": "16",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-17",
+          "t": "A Chest Full of Longing!! / Wish Upon a Star",
+          "n": "17",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-18",
+          "t": "Indelible Lipstick Magic!! / Lethal Attacks! Yaminabe",
+          "n": "18",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-19",
+          "t": "Magic Realm! Jungle of Terror / Pickled",
+          "n": "19",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-20",
+          "t": "Recovering That Which Was Lost",
+          "n": "20",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-21",
+          "t": "Cosmo Teacher CAO-2 / Ooh, Scary! Voodoo Doll",
+          "n": "21",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-22",
+          "t": "Big Bottle, Little Bottle / When Love Strikes",
+          "n": "22",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-23",
+          "t": "The Tomo-1 Queen Contest",
+          "n": "23",
+          "w": 0.4
+        }
+      ],
+      "intro": "The 2022 remake by David Production, adapting selected chapters afresh."
+    },
+    {
+      "id": "r2",
+      "title": "The remake, season 2",
+      "sub": "2024 · 23 broadcasts",
+      "links": [
+        {
+          "label": "The 2022 series",
+          "url": "https://en.wikipedia.org/wiki/Urusei_Yatsura_(2022_TV_series)"
+        }
+      ],
+      "items": [
+        {
+          "id": "uy22-24",
+          "t": "Fantasy Bubble Gum / Love Knows No Barriers",
+          "n": "24",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-25",
+          "t": "Trickle of Memories?! / Album of Memories",
+          "n": "25",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-26",
+          "t": "Electric Jungle",
+          "n": "26",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-27",
+          "t": "Love Thief / That Mizunokoji Girl",
+          "n": "27",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-28",
+          "t": "The Continuation of: That Mizunokoji Girl",
+          "n": "28",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-29",
+          "t": "Kotatsu Love / Lum Becomes a Cow",
+          "n": "29",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-30",
+          "t": "Eerie Earmuffs / Family Tree",
+          "n": "30",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-31-32a",
+          "t": "Open the Door",
+          "n": "31–32a",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-32b",
+          "t": "The Home Visit Blues: Prohibitive Miyake Edition",
+          "n": "32b",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-33",
+          "t": "Haunted Mendo / Last Date",
+          "n": "33",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-34",
+          "t": "The Case of the Battered Principal / The Secret Garden",
+          "n": "34",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-35",
+          "t": "Lovely Darling in Danger!! / Foxes in the Moonlight",
+          "n": "35",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-36",
+          "t": "Wretched Shutaro!!",
+          "n": "36",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-37a",
+          "t": "Asuka Returns",
+          "n": "37a",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-37b-38",
+          "t": "A Stormy Date",
+          "n": "37b–38",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-39",
+          "t": "Nagisa's Fiance / The Fairy's Parasol",
+          "n": "39",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-40",
+          "t": "One Night's Battle / Deadly Peril in the Classroom",
+          "n": "40",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-41",
+          "t": "Flower Petals of Love and Courage",
+          "n": "41",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-42",
+          "t": "Lum's Wrath / Steal My Heart",
+          "n": "42",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-43",
+          "t": "The Morning of Farewell",
+          "n": "43",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-44",
+          "t": "Are You Really Getting Married?",
+          "n": "44",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-45",
+          "t": "A Crooked Heart",
+          "n": "45",
+          "w": 0.4
+        },
+        {
+          "id": "uy22-46",
+          "t": "I Want You When I Can't Have You",
+          "n": "46",
+          "w": 0.4
+        }
+      ],
+      "intro": "The numbering keeps the tables' own quirk: two broadcasts each span parts of two episodes, so their rows carry both numbers."
+    }
+  ]
+}

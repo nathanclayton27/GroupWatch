@@ -1,0 +1,230 @@
+{
+  "slug": "cowboy-bebop",
+  "title": "Cowboy Bebop",
+  "subtitle": "the 26 sessions and the film",
+  "kind": "anime",
+  "order": 85,
+  "year": "1998–2001",
+  "blurb": "All 26 sessions and Knockin' on Heaven's Door — about 12 hours of bounty hunting, in order.",
+  "unit": {
+    "one": "session",
+    "many": "sessions"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#2B3A67",
+  "accentDark": "#FF5C5C",
+  "tiers": false,
+  "notes": [
+    [
+      "The film sits where it aired.",
+      "Knockin' on Heaven's Door is set between sessions 22 and 23, but it reached cinemas in 2001, after the series — it closes the list rather than interrupting it."
+    ],
+    [
+      "Weights.",
+      "Sessions weigh 0.4 hours each and the film weighs its 115-minute runtime, so the strip stays honest about how long each mark takes."
+    ],
+    [
+      "What is out.",
+      "The \"Mish-Mash Blues\" recap special — a clip-show summary that aired mid-run and adds nothing new — and the 2021 Netflix live-action series, which is a different production."
+    ],
+    "Session numbers and titles machine-read from Wikipedia's List of Cowboy Bebop episodes; the film's year and runtime from its own article."
+  ],
+  "sections": [
+    {
+      "id": "sessions",
+      "title": "The series",
+      "sub": "1998–99 · 26 sessions · about 10 hours",
+      "intro": "Every session, in order. The show files its episodes as sessions, so that is what the counter calls them.",
+      "links": [
+        {
+          "label": "The episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Cowboy_Bebop_episodes"
+        }
+      ],
+      "open": true,
+      "items": [
+        {
+          "id": "bebop-1",
+          "t": "Asteroid Blues",
+          "n": "1",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-2",
+          "t": "Stray Dog Strut",
+          "n": "2",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-3",
+          "t": "Honky Tonk Women",
+          "n": "3",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-4",
+          "t": "Gateway Shuffle",
+          "n": "4",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-5",
+          "t": "Ballad of Fallen Angels",
+          "n": "5",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-6",
+          "t": "Sympathy for the Devil",
+          "n": "6",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-7",
+          "t": "Heavy Metal Queen",
+          "n": "7",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-8",
+          "t": "Waltz for Venus",
+          "n": "8",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-9",
+          "t": "Jamming with Edward",
+          "n": "9",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-10",
+          "t": "Ganymede Elegy",
+          "n": "10",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-11",
+          "t": "Toys in the Attic",
+          "n": "11",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-12",
+          "t": "Jupiter Jazz (Part 1)",
+          "n": "12",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-13",
+          "t": "Jupiter Jazz (Part 2)",
+          "n": "13",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-14",
+          "t": "Bohemian Rhapsody",
+          "n": "14",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-15",
+          "t": "My Funny Valentine",
+          "n": "15",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-16",
+          "t": "Black Dog Serenade",
+          "n": "16",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-17",
+          "t": "Mushroom Samba",
+          "n": "17",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-18",
+          "t": "Speak Like a Child",
+          "n": "18",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-19",
+          "t": "Wild Horses",
+          "n": "19",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-20",
+          "t": "Pierrot le Fou",
+          "n": "20",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-21",
+          "t": "Boogie Woogie Feng Shui",
+          "n": "21",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-22",
+          "t": "Cowboy Funk",
+          "n": "22",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-23",
+          "t": "Brain Scratch",
+          "n": "23",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-24",
+          "t": "Hard Luck Woman",
+          "n": "24",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-25",
+          "t": "The Real Folk Blues (Part 1)",
+          "n": "25",
+          "w": 0.4
+        },
+        {
+          "id": "bebop-26",
+          "t": "The Real Folk Blues (Part 2)",
+          "n": "26",
+          "w": 0.4
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "title": "Knockin' on Heaven's Door",
+      "sub": "2001 · the film, set between sessions 22 and 23",
+      "links": [
+        {
+          "label": "The film",
+          "url": "https://en.wikipedia.org/wiki/Cowboy_Bebop:_The_Movie"
+        }
+      ],
+      "items": [
+        {
+          "id": "bebop-film-2001",
+          "t": "Cowboy Bebop: The Movie (Cowboy Bebop: Knockin' on Heaven's Door)",
+          "n": "2001",
+          "w": 1.92,
+          "note": "115 min"
+        }
+      ]
+    }
+  ]
+}
