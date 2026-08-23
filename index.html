@@ -2686,7 +2686,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '5fa65243c8ee';
+const BUILD = '29ab5ceebdf0';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -3082,6 +3082,84 @@ async function syncTicks(ids, on){
   rowToast(ids[0], 'Also '+(on?'ticked':'unticked')+' on '+slugs.map(titleOf).join(', ')+'.');
 }
 
+// One-time repair: cross-list sync shipped after plenty of ticks already
+// existed, so counterparts from before that day were never carried over.
+// Walk every sync group once per device — and once more per account, whose
+// cloud copy may know ticks this device doesn't — and let any ticked member
+// tick the rest. Progress only, never an event, never an untick: the same
+// contract as live sync. On any cloud error the flag stays unset and the
+// whole pass retries on the next load.
+let bfBusy = false;
+async function backfillSync(){
+  const flag = 'gw:syncback:v1:' + (user ? user.id : 'anon');
+  if(bfBusy || localStorage.getItem(flag)) return;
+  bfBusy = true;
+  try{
+    const d = await ensureIndex();
+    if(!d || !d.sync) return;
+    const local = {};
+    const grab = s=>{
+      if(!(s in local)){
+        try{ local[s] = new Set(JSON.parse(localStorage.getItem('gw:v1:'+s)||'[]')); }
+        catch(e){ local[s] = new Set(); }
+      }
+      return local[s];
+    };
+    let cloud = null;
+    if(user && sb){
+      const { data, error } = await sb.from('progress')
+        .select('property_id,read_ids').eq('user_id', user.id);
+      if(error) return;
+      cloud = {};
+      (data||[]).forEach(r=>{ cloud[r.property_id] = new Set(r.read_ids||[]); });
+    }
+    const has = (s,i)=> grab(s).has(i) || !!(cloud && cloud[s] && cloud[s].has(i));
+    const add = {};
+    for(const k in d.sync){
+      const g = d.sync[k];
+      if(!g.some(p=> has(p[0], p[1]))) continue;
+      g.forEach(p=>{
+        if(!has(p[0], p[1])) (add[p[0]] = add[p[0]] || new Set()).add(p[1]);
+      });
+    }
+    let n = 0, mine = false;
+    for(const s in add){
+      n += add[s].size;
+      if(s === SLUG){
+        // the open list's truth is done, and its cloud write is the full
+        // set, so an in-flight debounced save can't be clobbered
+        add[s].forEach(i=> done.add(i));
+        writeLocal();
+        mine = true;
+        if(cloud){
+          const { error } = await sb.from('progress').upsert(
+            { user_id:user.id, property_id:SLUG, read_ids:[...done],
+              updated_at:new Date().toISOString() },
+            { onConflict:'user_id,property_id' });
+          if(error) return;
+        }
+        continue;
+      }
+      const set = grab(s);
+      add[s].forEach(i=> set.add(i));
+      try{ localStorage.setItem('gw:v1:'+s, JSON.stringify([...set])); }catch(e){}
+      if(cloud){
+        const c = cloud[s] || new Set();
+        add[s].forEach(i=> c.add(i));
+        const { error } = await sb.from('progress').upsert(
+          { user_id:user.id, property_id:s, read_ids:[...c],
+            updated_at:new Date().toISOString() },
+          { onConflict:'user_id,property_id' });
+        if(error) return;
+      }
+    }
+    if(mine) paint();
+    try{ localStorage.setItem(flag,'1'); }catch(e){}
+    if(n) flash('Carried '+n+' earlier tick'+(n===1?'':'s')+' across lists.');
+  }catch(e){ /* non-fatal; retries next load */ }
+  finally{ bfBusy = false; }
+}
+
 function persist(){
   writeLocal();
   if(!user) return;
@@ -3150,6 +3228,9 @@ async function onSession(session){
     gstate(); renderGroupPanel();
   }
   paint();
+  // off the critical path: the first load fetches the index once, every
+  // later load exits on the flag before any network
+  setTimeout(backfillSync, 1200);
 }
 
 /* ------------------------------------------------------------------ groups */
@@ -5499,6 +5580,7 @@ loadProperty().then(()=>{
     state('Saved on this device','');
     renderGroupPanel();
     paint();
+    setTimeout(backfillSync, 1200);
   }
 }).catch(e=>{
   console.error('[tracker] property load failed', e);
