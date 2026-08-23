@@ -1,0 +1,86 @@
+[
+ {
+  "t": "Alien 3",
+  "page": "Alien 3",
+  "year": 1992,
+  "qid": "Q108543",
+  "runtime": 114
+ },
+ {
+  "t": "Seven",
+  "page": "Seven (1995 film)",
+  "year": 1995,
+  "qid": "Q190908",
+  "runtime": 127
+ },
+ {
+  "t": "The Game",
+  "page": "The Game (1997 film)",
+  "year": 1997,
+  "qid": "Q723187",
+  "runtime": 128
+ },
+ {
+  "t": "Fight Club",
+  "page": "Fight Club",
+  "year": 1999,
+  "qid": "Q190050",
+  "runtime": 139
+ },
+ {
+  "t": "Panic Room",
+  "page": "Panic Room",
+  "year": 2002,
+  "qid": "Q741042",
+  "runtime": 112
+ },
+ {
+  "t": "Zodiac",
+  "page": "Zodiac (film)",
+  "year": 2007,
+  "qid": "Q218172",
+  "runtime": 158
+ },
+ {
+  "t": "The Curious Case of Benjamin Button",
+  "page": "The Curious Case of Benjamin Button (film)",
+  "year": 2008,
+  "qid": "Q183239",
+  "runtime": 166
+ },
+ {
+  "t": "The Social Network",
+  "page": "The Social Network",
+  "year": 2010,
+  "qid": "Q185888",
+  "runtime": 121
+ },
+ {
+  "t": "The Girl with the Dragon Tattoo",
+  "page": "The Girl with the Dragon Tattoo (2011 film)",
+  "year": 2011,
+  "qid": "Q474093",
+  "runtime": 158
+ },
+ {
+  "t": "Gone Girl",
+  "page": "Gone Girl (film)",
+  "year": 2014,
+  "qid": "Q14920425",
+  "runtime": 149
+ },
+ {
+  "t": "Mank",
+  "page": "Mank",
+  "year": 2020,
+  "qid": "Q73093591",
+  "runtime": 131
+ },
+ {
+  "t": "The Killer",
+  "page": "The Killer (2023 film)",
+  "year": 2023,
+  "qid": "Q111008873",
+  "runtime": 118
+ }
+]

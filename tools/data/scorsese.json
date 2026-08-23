@@ -1,0 +1,393 @@
+[
+ {
+  "t": "Who's That Knocking at My Door",
+  "page": "Who's That Knocking at My Door",
+  "linked": true,
+  "year": 1967,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q2575227",
+  "runtime": 86
+ },
+ {
+  "t": "Boxcar Bertha",
+  "page": "Boxcar Bertha",
+  "linked": true,
+  "year": 1972,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q1212396",
+  "runtime": 87
+ },
+ {
+  "t": "Mean Streets",
+  "page": "Mean Streets",
+  "linked": true,
+  "year": 1973,
+  "kind": "feature",
+  "tablenote": "Co-written with Mardik Martin; Inducted into the National Film Registry in 1997",
+  "qid": "Q841335",
+  "runtime": 119
+ },
+ {
+  "t": "Alice Doesn't Live Here Anymore",
+  "page": "Alice Doesn't Live Here Anymore",
+  "linked": true,
+  "year": 1974,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q916431",
+  "runtime": 112
+ },
+ {
+  "t": "Taxi Driver",
+  "page": "Taxi Driver",
+  "linked": true,
+  "year": 1976,
+  "kind": "feature",
+  "tablenote": "Inducted into the National Film Registry in 1994",
+  "qid": "Q47221",
+  "runtime": 114
+ },
+ {
+  "t": "New York, New York",
+  "page": "New York, New York (1977 film)",
+  "linked": true,
+  "year": 1977,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q743367",
+  "runtime": 155
+ },
+ {
+  "t": "Raging Bull",
+  "page": "Raging Bull",
+  "linked": true,
+  "year": 1980,
+  "kind": "feature",
+  "tablenote": "Inducted into the National Film Registry in 1990",
+  "qid": "Q220780",
+  "runtime": 129
+ },
+ {
+  "t": "The King of Comedy",
+  "page": "The King of Comedy (film)",
+  "linked": true,
+  "year": 1982,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q1122281",
+  "runtime": 109
+ },
+ {
+  "t": "After Hours",
+  "page": "After Hours (film)",
+  "linked": true,
+  "year": 1985,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q846209",
+  "runtime": 97
+ },
+ {
+  "t": "The Color of Money",
+  "page": "The Color of Money",
+  "linked": true,
+  "year": 1986,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q470916",
+  "runtime": 120
+ },
+ {
+  "t": "The Last Temptation of Christ",
+  "page": "The Last Temptation of Christ (film)",
+  "linked": true,
+  "year": 1988,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q646031",
+  "runtime": 163
+ },
+ {
+  "t": "Goodfellas",
+  "page": "Goodfellas",
+  "linked": true,
+  "year": 1990,
+  "kind": "feature",
+  "tablenote": "Co-written with Nicholas Pileggi; Inducted into the National Film Registry in 2000",
+  "qid": "Q42047",
+  "runtime": 146
+ },
+ {
+  "t": "Cape Fear",
+  "page": "Cape Fear (1991 film)",
+  "linked": true,
+  "year": 1991,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q501995",
+  "runtime": 128
+ },
+ {
+  "t": "The Age of Innocence",
+  "page": "The Age of Innocence (1993 film)",
+  "linked": true,
+  "year": 1993,
+  "kind": "feature",
+  "tablenote": "Co-written with Jay Cocks",
+  "qid": "Q1125442",
+  "runtime": 139
+ },
+ {
+  "t": "Casino",
+  "page": "Casino (1995 film)",
+  "linked": true,
+  "year": 1995,
+  "kind": "feature",
+  "tablenote": "Co-written with Nicholas Pileggi",
+  "qid": "Q220910",
+  "runtime": 178
+ },
+ {
+  "t": "Kundun",
+  "page": "Kundun",
+  "linked": true,
+  "year": 1997,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q944291",
+  "runtime": 134
+ },
+ {
+  "t": "Bringing Out the Dead",
+  "page": "Bringing Out the Dead",
+  "linked": true,
+  "year": 1999,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q599013",
+  "runtime": 121
+ },
+ {
+  "t": "Gangs of New York",
+  "page": "Gangs of New York",
+  "linked": true,
+  "year": 2002,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q154581",
+  "runtime": 168
+ },
+ {
+  "t": "The Aviator",
+  "page": "The Aviator (2004 film)",
+  "linked": true,
+  "year": 2004,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q201924",
+  "runtime": 170
+ },
+ {
+  "t": "The Departed",
+  "page": "The Departed",
+  "linked": true,
+  "year": 2006,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q172975",
+  "runtime": 151
+ },
+ {
+  "t": "Shutter Island",
+  "page": "Shutter Island (film)",
+  "linked": true,
+  "year": 2010,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q210364",
+  "runtime": 139
+ },
+ {
+  "t": "Hugo",
+  "page": "Hugo (film)",
+  "linked": true,
+  "year": 2011,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q206576",
+  "runtime": 126
+ },
+ {
+  "t": "The Wolf of Wall Street",
+  "page": "The Wolf of Wall Street (2013 film)",
+  "linked": true,
+  "year": 2013,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q1392744",
+  "runtime": 180
+ },
+ {
+  "t": "Silence",
+  "page": "Silence (2016 film)",
+  "linked": true,
+  "year": 2016,
+  "kind": "feature",
+  "tablenote": "Co-written with Jay Cocks",
+  "qid": "Q18811634",
+  "runtime": 161
+ },
+ {
+  "t": "The Irishman",
+  "page": "The Irishman",
+  "linked": true,
+  "year": 2019,
+  "kind": "feature",
+  "tablenote": "",
+  "qid": "Q29057443",
+  "runtime": 209
+ },
+ {
+  "t": "Killers of the Flower Moon",
+  "page": "Killers of the Flower Moon",
+  "linked": true,
+  "year": 2023,
+  "kind": "feature",
+  "tablenote": "Co-written with Eric Roth",
+  "qid": "Q66316924",
+  "runtime": 206
+ },
+ {
+  "t": "Italianamerican",
+  "page": "Italianamerican",
+  "linked": true,
+  "year": 1974,
+  "kind": "doc",
+  "tablenote": "",
+  "qid": "Q738533",
+  "runtime": 49
+ },
+ {
+  "t": "The Last Waltz",
+  "page": "The Last Waltz",
+  "linked": true,
+  "year": 1978,
+  "kind": "doc",
+  "tablenote": "Inducted into the National Film Registry in 2019",
+  "qid": "Q847599",
+  "runtime": 117
+ },
+ {
+  "t": "American Boy: A Profile of Steven Prince",
+  "page": "American Boy: A Profile of Steven Prince",
+  "linked": true,
+  "year": 1978,
+  "kind": "doc",
+  "tablenote": "",
+  "qid": "Q3284432",
+  "runtime": 55
+ },
+ {
+  "t": "A Personal Journey with Martin Scorsese Through American Movies",
+  "page": "A Personal Journey with Martin Scorsese Through American Movies",
+  "linked": true,
+  "year": 1995,
+  "kind": "doc",
+  "tablenote": "Co-directed with Michael Henry Wilson",
+  "qid": "Q2354637",
+  "runtime": 225
+ },
+ {
+  "t": "My Voyage to Italy",
+  "page": "My Voyage to Italy",
+  "linked": true,
+  "year": 1999,
+  "kind": "doc",
+  "tablenote": "",
+  "qid": "Q2550265",
+  "runtime": 246
+ },
+ {
+  "t": "No Direction Home: Bob Dylan",
+  "page": "No Direction Home",
+  "linked": true,
+  "year": 2005,
+  "kind": "doc",
+  "tablenote": "",
+  "qid": "Q1760695",
+  "runtime": 205
+ },
+ {
+  "t": "Shine a Light",
+  "page": "Shine a Light (film)",
+  "linked": true,
+  "year": 2008,
+  "kind": "doc",
+  "tablenote": "",
+  "qid": "Q432102",
+  "runtime": 122
+ },
+ {
+  "t": "A Letter to Elia",
+  "page": "A Letter to Elia",
+  "linked": true,
+  "year": 2010,
+  "kind": "doc",
+  "tablenote": "Co-directed with Kent Jones",
+  "qid": "Q2631366",
+  "runtime": 60
+ },
+ {
+  "t": "Public Speaking",
+  "page": "Public Speaking (film)",
+  "linked": true,
+  "year": 2010,
+  "kind": "doc",
+  "tablenote": "",
+  "qid": "Q7257627",
+  "runtime": 84
+ },
+ {
+  "t": "George Harrison: Living in the Material World",
+  "page": "George Harrison: Living in the Material World",
+  "linked": true,
+  "year": 2011,
+  "kind": "doc",
+  "tablenote": "",
+  "qid": "Q1139311",
+  "runtime": 208
+ },
+ {
+  "t": "The 50 Year Argument",
+  "page": "The 50 Year Argument",
+  "linked": true,
+  "year": 2014,
+  "kind": "doc",
+  "tablenote": "Co-directed with David Tedeschi",
+  "qid": "Q17155624",
+  "runtime": 97
+ },
+ {
+  "t": "Rolling Thunder Revue: A Bob Dylan Story by Martin Scorsese",
+  "page": "Rolling Thunder Revue: A Bob Dylan Story by Martin Scorsese",
+  "linked": true,
+  "year": 2019,
+  "kind": "doc",
+  "tablenote": "",
+  "qid": "Q63565898",
+  "runtime": 142
+ },
+ {
+  "t": "Personality Crisis: One Night Only",
+  "page": "Personality Crisis: One Night Only",
+  "linked": false,
+  "year": 2022,
+  "kind": "doc",
+  "tablenote": "Co-directed with David Tedeschi",
+  "qid": "Q115608942",
+  "runtime": null,
+  "wd_label": true
+ }
+]
