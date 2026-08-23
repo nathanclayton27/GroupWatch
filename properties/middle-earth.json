@@ -1,0 +1,158 @@
+{
+  "slug": "middle-earth",
+  "title": "Middle-earth",
+  "subtitle": "Tolkien's books and Jackson's films",
+  "kind": "books & films",
+  "order": 109,
+  "year": "1937–2014",
+  "blurb": "The Hobbit to The Silmarillion with the posthumous volumes optional, and Peter Jackson's six films weighted by runtime — the page and the screen, one list.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "read",
+    "past": "done",
+    "ing": "working through"
+  },
+  "accent": "#4A6B2A",
+  "accentDark": "#E3C060",
+  "tiers": false,
+  "notes": [
+    [
+      "The Lord of the Rings is three rows.",
+      "One per volume, 1954–55, so a winter spent inside The Two Towers still moves the bar. The Hobbit and The Silmarillion are one row each."
+    ],
+    [
+      "The posthumous four are optional.",
+      "Unfinished Tales, The Children of Húrin, Beren and Lúthien and The Fall of Gondolin — all edited by Christopher Tolkien from his father's papers, all opt rows. The History of Middle-earth series is scholarship beyond even that, and is not here."
+    ],
+    [
+      "Films are weighted, books are not.",
+      "Film rows use theatrical runtimes from Wikipedia's own length tables — about 9 hours for The Lord of the Rings plus 8 for The Hobbit — and each row notes its extended edition. Book rows count one each; pages aren't hours."
+    ],
+    [
+      "No Rings of Power.",
+      "This list is Tolkien's page and Jackson's screen. The Amazon series is neither, and is left out on purpose."
+    ],
+    "Books and years from Wikipedia's J. R. R. Tolkien bibliography; film lengths from The Lord of the Rings and The Hobbit film-series articles, cross-checked against Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "books",
+      "title": "The books",
+      "sub": "1937–2018 · Tolkien on the page",
+      "open": true,
+      "intro": "The Hobbit, then The Lord of the Rings volume by volume, then The Silmarillion. The four later volumes Christopher Tolkien assembled from his father's papers are optional rows — deep water, entered knowingly.",
+      "items": [
+        {
+          "id": "me-1937-the-hobbit",
+          "t": "The Hobbit",
+          "n": "1937"
+        },
+        {
+          "id": "me-1954-the-fellowship-of-the-ring",
+          "t": "The Fellowship of the Ring",
+          "n": "1954",
+          "note": "The Lord of the Rings, volume 1"
+        },
+        {
+          "id": "me-1954-the-two-towers",
+          "t": "The Two Towers",
+          "n": "1954",
+          "note": "The Lord of the Rings, volume 2"
+        },
+        {
+          "id": "me-1955-the-return-of-the-king",
+          "t": "The Return of the King",
+          "n": "1955",
+          "note": "The Lord of the Rings, volume 3"
+        },
+        {
+          "id": "me-1977-the-silmarillion",
+          "t": "The Silmarillion",
+          "n": "1977",
+          "note": "edited by Christopher Tolkien"
+        },
+        {
+          "id": "me-1980-unfinished-tales",
+          "t": "Unfinished Tales",
+          "n": "1980",
+          "opt": 1,
+          "note": "edited by Christopher Tolkien"
+        },
+        {
+          "id": "me-2007-the-children-of-hrin",
+          "t": "The Children of Húrin",
+          "n": "2007",
+          "opt": 1,
+          "note": "edited by Christopher Tolkien"
+        },
+        {
+          "id": "me-2017-beren-and-lthien",
+          "t": "Beren and Lúthien",
+          "n": "2017",
+          "opt": 1,
+          "note": "edited by Christopher Tolkien"
+        },
+        {
+          "id": "me-2018-the-fall-of-gondolin",
+          "t": "The Fall of Gondolin",
+          "n": "2018",
+          "opt": 1,
+          "note": "edited by Christopher Tolkien"
+        }
+      ]
+    },
+    {
+      "id": "films",
+      "title": "Jackson's six",
+      "sub": "2001–2014 · about 17 hours theatrical",
+      "intro": "Weighted by theatrical runtime; every row notes its extended edition. Watch either cut — the tick doesn't ask which.",
+      "items": [
+        {
+          "id": "me-f-2001-the-fellowship-of-the-ring",
+          "t": "The Fellowship of the Ring",
+          "n": "2001",
+          "w": 2.97,
+          "note": "178 min · extended edition 208 min"
+        },
+        {
+          "id": "me-f-2002-the-two-towers",
+          "t": "The Two Towers",
+          "n": "2002",
+          "w": 2.98,
+          "note": "179 min · extended edition 223 min"
+        },
+        {
+          "id": "me-f-2003-the-return-of-the-king",
+          "t": "The Return of the King",
+          "n": "2003",
+          "w": 3.33,
+          "note": "200 min · extended edition 251 min"
+        },
+        {
+          "id": "me-f-2012-the-hobbit-an-unexpected-journey",
+          "t": "The Hobbit: An Unexpected Journey",
+          "n": "2012",
+          "w": 2.82,
+          "note": "169 min · extended edition 182 min"
+        },
+        {
+          "id": "me-f-2013-the-hobbit-the-desolation-of-smaug",
+          "t": "The Hobbit: The Desolation of Smaug",
+          "n": "2013",
+          "w": 2.68,
+          "note": "161 min · extended edition 186 min"
+        },
+        {
+          "id": "me-f-2014-the-hobbit-the-battle-of-the-five-armies",
+          "t": "The Hobbit: The Battle of the Five Armies",
+          "n": "2014",
+          "w": 2.4,
+          "note": "144 min · extended edition 164 min"
+        }
+      ]
+    }
+  ]
+}

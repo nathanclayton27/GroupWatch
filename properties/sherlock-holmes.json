@@ -1,0 +1,468 @@
+{
+  "slug": "sherlock-holmes",
+  "title": "Sherlock Holmes",
+  "subtitle": "the complete canon — 60 adventures",
+  "kind": "books",
+  "order": 108,
+  "year": "1887–1927",
+  "blurb": "All four novels and all 56 short stories in publication order, sectioned by collection — A Study in Scarlet to the Case-Book, forty years of Baker Street.",
+  "unit": {
+    "one": "story",
+    "many": "stories"
+  },
+  "verb": {
+    "base": "read",
+    "past": "read",
+    "ing": "reading"
+  },
+  "accent": "#7A5220",
+  "accentDark": "#DFA75E",
+  "tiers": false,
+  "notes": [
+    [
+      "One row per story, one per novel.",
+      "Sixty rows — what Sherlockians call the 60 adventures. The number on each story is its first magazine publication year; sections are the books, in the order the books appeared."
+    ],
+    [
+      "The Cardboard Box moves around.",
+      "It ran in The Strand in 1893 with the Memoirs stories, and Doyle later collected it only in His Last Bow — so many editions have an 11-story Memoirs and an 8-story His Last Bow. It sits in The Memoirs here, where Wikipedia's canon list puts it; tick it wherever your edition keeps it."
+    ],
+    [
+      "Canon only.",
+      "The extracanonical Doyle pieces — The Field Bazaar, How Watson Learned the Trick, the stage plays and essays — are outside the 60 and not rowed."
+    ],
+    [
+      "Nothing is weighted.",
+      "A novel and a twelve-page story each count as one; the counter tracks adventures, not hours."
+    ],
+    "Titles, years and collection boundaries from Wikipedia's Canon of Sherlock Holmes article, verified against its own count of 56 stories and four novels."
+  ],
+  "sections": [
+    {
+      "id": "study",
+      "title": "A Study in Scarlet",
+      "sub": "1887 · the first novel",
+      "links": [
+        {
+          "label": "The novel",
+          "url": "https://en.wikipedia.org/wiki/A_Study_in_Scarlet"
+        }
+      ],
+      "items": [
+        {
+          "id": "sh-1887-a-study-in-scarlet",
+          "t": "A Study in Scarlet",
+          "n": "1887"
+        }
+      ],
+      "intro": "Holmes and Watson meet.",
+      "open": true
+    },
+    {
+      "id": "sign",
+      "title": "The Sign of the Four",
+      "sub": "1890 · the second novel",
+      "links": [
+        {
+          "label": "The novel",
+          "url": "https://en.wikipedia.org/wiki/The_Sign_of_the_Four"
+        }
+      ],
+      "items": [
+        {
+          "id": "sh-1890-the-sign-of-the-four",
+          "t": "The Sign of the Four",
+          "n": "1890"
+        }
+      ]
+    },
+    {
+      "id": "adventures",
+      "title": "The Adventures of Sherlock Holmes (1892)",
+      "sub": "12 stories · The Strand, July 1891 – June 1892",
+      "links": [
+        {
+          "label": "The collection",
+          "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Sherlock_Holmes"
+        }
+      ],
+      "items": [
+        {
+          "id": "sh-1891-a-scandal-in-bohemia",
+          "t": "A Scandal in Bohemia",
+          "n": "1891"
+        },
+        {
+          "id": "sh-1891-the-red-headed-league",
+          "t": "The Red-Headed League",
+          "n": "1891"
+        },
+        {
+          "id": "sh-1891-a-case-of-identity",
+          "t": "A Case of Identity",
+          "n": "1891"
+        },
+        {
+          "id": "sh-1891-the-boscombe-valley-mystery",
+          "t": "The Boscombe Valley Mystery",
+          "n": "1891"
+        },
+        {
+          "id": "sh-1891-the-five-orange-pips",
+          "t": "The Five Orange Pips",
+          "n": "1891"
+        },
+        {
+          "id": "sh-1891-the-man-with-the-twisted-lip",
+          "t": "The Man with the Twisted Lip",
+          "n": "1891"
+        },
+        {
+          "id": "sh-1892-the-adventure-of-the-blue-carbuncle",
+          "t": "The Adventure of the Blue Carbuncle",
+          "n": "1892"
+        },
+        {
+          "id": "sh-1892-the-adventure-of-the-speckled-band",
+          "t": "The Adventure of the Speckled Band",
+          "n": "1892"
+        },
+        {
+          "id": "sh-1892-the-adventure-of-the-engineers-thumb",
+          "t": "The Adventure of the Engineer's Thumb",
+          "n": "1892"
+        },
+        {
+          "id": "sh-1892-the-adventure-of-the-noble-bachelor",
+          "t": "The Adventure of the Noble Bachelor",
+          "n": "1892"
+        },
+        {
+          "id": "sh-1892-the-adventure-of-the-beryl-coronet",
+          "t": "The Adventure of the Beryl Coronet",
+          "n": "1892"
+        },
+        {
+          "id": "sh-1892-the-adventure-of-the-copper-beeches",
+          "t": "The Adventure of the Copper Beeches",
+          "n": "1892"
+        }
+      ],
+      "intro": "The first dozen, with the Paget illustrations that fixed how Holmes looks."
+    },
+    {
+      "id": "memoirs",
+      "title": "The Memoirs of Sherlock Holmes (1894)",
+      "sub": "12 stories · The Strand, December 1892 – December 1893",
+      "links": [
+        {
+          "label": "The collection",
+          "url": "https://en.wikipedia.org/wiki/The_Memoirs_of_Sherlock_Holmes"
+        }
+      ],
+      "items": [
+        {
+          "id": "sh-1892-the-adventure-of-silver-blaze",
+          "t": "The Adventure of Silver Blaze",
+          "n": "1892"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-cardboard-box",
+          "t": "The Adventure of the Cardboard Box",
+          "n": "1893",
+          "note": "Doyle later collected it in His Last Bow instead — many editions follow him"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-yellow-face",
+          "t": "The Adventure of the Yellow Face",
+          "n": "1893"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-stockbrokers-clerk",
+          "t": "The Adventure of the Stockbroker's Clerk",
+          "n": "1893"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-gloria-scott",
+          "t": "The Adventure of the Gloria Scott",
+          "n": "1893"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-musgrave-ritual",
+          "t": "The Adventure of the Musgrave Ritual",
+          "n": "1893"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-reigate-squire",
+          "t": "The Adventure of the Reigate Squire",
+          "n": "1893"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-crooked-man",
+          "t": "The Adventure of the Crooked Man",
+          "n": "1893"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-resident-patient",
+          "t": "The Adventure of the Resident Patient",
+          "n": "1893"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-greek-interpreter",
+          "t": "The Adventure of the Greek Interpreter",
+          "n": "1893"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-naval-treaty",
+          "t": "The Adventure of the Naval Treaty",
+          "n": "1893"
+        },
+        {
+          "id": "sh-1893-the-adventure-of-the-final-problem",
+          "t": "The Adventure of the Final Problem",
+          "n": "1893",
+          "note": "The Reichenbach story"
+        }
+      ]
+    },
+    {
+      "id": "hound",
+      "title": "The Hound of the Baskervilles",
+      "sub": "1901–02 · the third novel, serialized across two years",
+      "links": [
+        {
+          "label": "The novel",
+          "url": "https://en.wikipedia.org/wiki/The_Hound_of_the_Baskervilles"
+        }
+      ],
+      "items": [
+        {
+          "id": "sh-1901-the-hound-of-the-baskervilles",
+          "t": "The Hound of the Baskervilles",
+          "n": "1901–02"
+        }
+      ]
+    },
+    {
+      "id": "return",
+      "title": "The Return of Sherlock Holmes (1905)",
+      "sub": "13 stories · The Strand, October 1903 – December 1904",
+      "links": [
+        {
+          "label": "The collection",
+          "url": "https://en.wikipedia.org/wiki/The_Return_of_Sherlock_Holmes"
+        }
+      ],
+      "items": [
+        {
+          "id": "sh-1903-the-adventure-of-the-empty-house",
+          "t": "The Adventure of the Empty House",
+          "n": "1903",
+          "note": "Holmes returns"
+        },
+        {
+          "id": "sh-1903-the-adventure-of-the-norwood-builder",
+          "t": "The Adventure of the Norwood Builder",
+          "n": "1903"
+        },
+        {
+          "id": "sh-1903-the-adventure-of-the-dancing-men",
+          "t": "The Adventure of the Dancing Men",
+          "n": "1903"
+        },
+        {
+          "id": "sh-1904-the-adventure-of-the-solitary-cyclist",
+          "t": "The Adventure of the Solitary Cyclist",
+          "n": "1904"
+        },
+        {
+          "id": "sh-1904-the-adventure-of-the-priory-school",
+          "t": "The Adventure of the Priory School",
+          "n": "1904"
+        },
+        {
+          "id": "sh-1904-the-adventure-of-black-peter",
+          "t": "The Adventure of Black Peter",
+          "n": "1904"
+        },
+        {
+          "id": "sh-1904-the-adventure-of-charles-augustus-milverton",
+          "t": "The Adventure of Charles Augustus Milverton",
+          "n": "1904"
+        },
+        {
+          "id": "sh-1904-the-adventure-of-the-six-napoleons",
+          "t": "The Adventure of the Six Napoleons",
+          "n": "1904"
+        },
+        {
+          "id": "sh-1904-the-adventure-of-the-three-students",
+          "t": "The Adventure of the Three Students",
+          "n": "1904"
+        },
+        {
+          "id": "sh-1904-the-adventure-of-the-golden-pince-nez",
+          "t": "The Adventure of the Golden Pince-Nez",
+          "n": "1904"
+        },
+        {
+          "id": "sh-1904-the-adventure-of-the-missing-three-quarter",
+          "t": "The Adventure of the Missing Three-Quarter",
+          "n": "1904"
+        },
+        {
+          "id": "sh-1904-the-adventure-of-the-abbey-grange",
+          "t": "The Adventure of the Abbey Grange",
+          "n": "1904"
+        },
+        {
+          "id": "sh-1904-the-adventure-of-the-second-stain",
+          "t": "The Adventure of the Second Stain",
+          "n": "1904"
+        }
+      ]
+    },
+    {
+      "id": "valley",
+      "title": "The Valley of Fear",
+      "sub": "1914–15 · the fourth novel, serialized across two years",
+      "links": [
+        {
+          "label": "The novel",
+          "url": "https://en.wikipedia.org/wiki/The_Valley_of_Fear"
+        }
+      ],
+      "items": [
+        {
+          "id": "sh-1914-the-valley-of-fear",
+          "t": "The Valley of Fear",
+          "n": "1914–15"
+        }
+      ]
+    },
+    {
+      "id": "lastbow",
+      "title": "His Last Bow (1917)",
+      "sub": "7 stories · 1908–1917",
+      "links": [
+        {
+          "label": "The collection",
+          "url": "https://en.wikipedia.org/wiki/His_Last_Bow"
+        }
+      ],
+      "items": [
+        {
+          "id": "sh-1908-the-adventure-of-wisteria-lodge",
+          "t": "The Adventure of Wisteria Lodge",
+          "n": "1908"
+        },
+        {
+          "id": "sh-1911-the-adventure-of-the-red-circle",
+          "t": "The Adventure of the Red Circle",
+          "n": "1911"
+        },
+        {
+          "id": "sh-1908-the-adventure-of-the-bruce-partington-plans",
+          "t": "The Adventure of the Bruce-Partington Plans",
+          "n": "1908"
+        },
+        {
+          "id": "sh-1913-the-adventure-of-the-dying-detective",
+          "t": "The Adventure of the Dying Detective",
+          "n": "1913"
+        },
+        {
+          "id": "sh-1911-the-disappearance-of-lady-frances-carfax",
+          "t": "The Disappearance of Lady Frances Carfax",
+          "n": "1911"
+        },
+        {
+          "id": "sh-1910-the-adventure-of-the-devils-foot",
+          "t": "The Adventure of the Devil's Foot",
+          "n": "1910"
+        },
+        {
+          "id": "sh-1917-his-last-bow",
+          "t": "His Last Bow",
+          "n": "1917",
+          "note": "The title story"
+        }
+      ],
+      "intro": "Many editions carry eight stories here, adding The Cardboard Box from The Memoirs."
+    },
+    {
+      "id": "casebook",
+      "title": "The Case-Book of Sherlock Holmes (1927)",
+      "sub": "12 stories · 1921–1927",
+      "links": [
+        {
+          "label": "The collection",
+          "url": "https://en.wikipedia.org/wiki/The_Case-Book_of_Sherlock_Holmes"
+        }
+      ],
+      "items": [
+        {
+          "id": "sh-1921-the-adventure-of-the-mazarin-stone",
+          "t": "The Adventure of the Mazarin Stone",
+          "n": "1921"
+        },
+        {
+          "id": "sh-1922-the-problem-of-thor-bridge",
+          "t": "The Problem of Thor Bridge",
+          "n": "1922"
+        },
+        {
+          "id": "sh-1923-the-adventure-of-the-creeping-man",
+          "t": "The Adventure of the Creeping Man",
+          "n": "1923"
+        },
+        {
+          "id": "sh-1924-the-adventure-of-the-sussex-vampire",
+          "t": "The Adventure of the Sussex Vampire",
+          "n": "1924"
+        },
+        {
+          "id": "sh-1925-the-adventure-of-the-three-garridebs",
+          "t": "The Adventure of the Three Garridebs",
+          "n": "1925"
+        },
+        {
+          "id": "sh-1925-the-adventure-of-the-illustrious-client",
+          "t": "The Adventure of the Illustrious Client",
+          "n": "1925"
+        },
+        {
+          "id": "sh-1926-the-adventure-of-the-three-gables",
+          "t": "The Adventure of the Three Gables",
+          "n": "1926"
+        },
+        {
+          "id": "sh-1926-the-adventure-of-the-blanched-soldier",
+          "t": "The Adventure of the Blanched Soldier",
+          "n": "1926"
+        },
+        {
+          "id": "sh-1926-the-adventure-of-the-lions-mane",
+          "t": "The Adventure of the Lion's Mane",
+          "n": "1926"
+        },
+        {
+          "id": "sh-1927-the-adventure-of-the-retired-colourman",
+          "t": "The Adventure of the Retired Colourman",
+          "n": "1927"
+        },
+        {
+          "id": "sh-1927-the-adventure-of-the-veiled-lodger",
+          "t": "The Adventure of the Veiled Lodger",
+          "n": "1927"
+        },
+        {
+          "id": "sh-1927-the-adventure-of-shoscombe-old-place",
+          "t": "The Adventure of Shoscombe Old Place",
+          "n": "1927"
+        }
+      ],
+      "intro": "The final collection."
+    }
+  ]
+}

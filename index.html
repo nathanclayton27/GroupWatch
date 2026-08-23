@@ -1730,6 +1730,126 @@ let MANIFEST = [
       "many": "games"
     },
     "total": 24
+  },
+  {
+    "slug": "discworld",
+    "title": "Discworld",
+    "subtitle": "Terry Pratchett — all 41 novels",
+    "kind": "books",
+    "year": "1983–2015",
+    "blurb": "Every Discworld novel in publication order, The Colour of Magic to The Shepherd's Crown, with the reading-order diagram rebuilt as storyline chips — follow one strand or read the whole Disc.",
+    "accent": "#356B58",
+    "accentDark": "#B37DF0",
+    "unit": {
+      "one": "book",
+      "many": "books"
+    },
+    "total": 41
+  },
+  {
+    "slug": "dune",
+    "title": "Dune",
+    "subtitle": "the novels, the continuations, the screen versions",
+    "kind": "books & films",
+    "year": "1965–2024",
+    "blurb": "Frank Herbert's six novels in publication order, the seventeen Brian Herbert & Kevin J. Anderson continuations as optional rows, and every screen Dune from Lynch to Villeneuve, weighted by runtime.",
+    "accent": "#9C6414",
+    "accentDark": "#7FB4E8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 28
+  },
+  {
+    "slug": "wheel-of-time",
+    "title": "The Wheel of Time",
+    "subtitle": "Robert Jordan — 15 books, prequel included",
+    "kind": "books",
+    "year": "1990–2013",
+    "blurb": "All fourteen novels plus New Spring in publication order, The Eye of the World to A Memory of Light — the last three completed by Brandon Sanderson from Jordan's notes.",
+    "accent": "#8C6A2F",
+    "accentDark": "#E8D9A0",
+    "unit": {
+      "one": "book",
+      "many": "books"
+    },
+    "total": 15
+  },
+  {
+    "slug": "cosmere",
+    "title": "Cosmere",
+    "subtitle": "Brandon Sanderson's connected universe",
+    "kind": "books",
+    "year": "2005–",
+    "blurb": "The Cosmere in publication order, one section per world — Elantris, both Mistborn eras, the Stormlight Archive with its novellas in place, and every standalone and Secret Project that belongs to the universe.",
+    "accent": "#3E4A5C",
+    "accentDark": "#9CCDE8",
+    "unit": {
+      "one": "book",
+      "many": "books"
+    },
+    "total": 27
+  },
+  {
+    "slug": "sherlock-holmes",
+    "title": "Sherlock Holmes",
+    "subtitle": "the complete canon — 60 adventures",
+    "kind": "books",
+    "year": "1887–1927",
+    "blurb": "All four novels and all 56 short stories in publication order, sectioned by collection — A Study in Scarlet to the Case-Book, forty years of Baker Street.",
+    "accent": "#7A5220",
+    "accentDark": "#DFA75E",
+    "unit": {
+      "one": "story",
+      "many": "stories"
+    },
+    "total": 60
+  },
+  {
+    "slug": "middle-earth",
+    "title": "Middle-earth",
+    "subtitle": "Tolkien's books and Jackson's films",
+    "kind": "books & films",
+    "year": "1937–2014",
+    "blurb": "The Hobbit to The Silmarillion with the posthumous volumes optional, and Peter Jackson's six films weighted by runtime — the page and the screen, one list.",
+    "accent": "#4A6B2A",
+    "accentDark": "#E3C060",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 15
+  },
+  {
+    "slug": "sandman",
+    "title": "The Sandman",
+    "subtitle": "Neil Gaiman — every issue, plus Death and Overture",
+    "kind": "comics",
+    "year": "1988–2015",
+    "blurb": "All 75 issues and the Special, one row each, sectioned by collected volume — then the two Death miniseries and the Overture prequel. 88 issues of the Dreaming.",
+    "accent": "#1F1D2B",
+    "accentDark": "#C9C9D9",
+    "unit": {
+      "one": "issue",
+      "many": "issues"
+    },
+    "total": 88
+  },
+  {
+    "slug": "hellboy",
+    "title": "Hellboy",
+    "subtitle": "the Mignolaverse in collected volumes",
+    "kind": "comics",
+    "year": "1994–2019",
+    "blurb": "The reading order in trades: Hellboy 1–12, the two B.P.R.D. cycles, Hellboy in Hell and The Devil You Know — 47 volumes of the main line, with the spokes optional.",
+    "accent": "#9C271B",
+    "accentDark": "#66C2BC",
+    "unit": {
+      "one": "volume",
+      "many": "volumes"
+    },
+    "total": 51
   }
 ];
 
@@ -1749,7 +1869,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '2b231aa716e5';
+const BUILD = 'ea2ef8710eb0';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

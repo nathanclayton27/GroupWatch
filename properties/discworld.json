@@ -1,0 +1,425 @@
+{
+  "slug": "discworld",
+  "title": "Discworld",
+  "subtitle": "Terry Pratchett — all 41 novels",
+  "kind": "books",
+  "order": 104,
+  "year": "1983–2015",
+  "blurb": "Every Discworld novel in publication order, The Colour of Magic to The Shepherd's Crown, with the reading-order diagram rebuilt as storyline chips — follow one strand or read the whole Disc.",
+  "unit": {
+    "one": "book",
+    "many": "books"
+  },
+  "verb": {
+    "base": "read",
+    "past": "read",
+    "ing": "reading"
+  },
+  "accent": "#356B58",
+  "accentDark": "#B37DF0",
+  "tiers": false,
+  "filter": {
+    "key": "arc",
+    "label": "Storyline",
+    "mode": "include",
+    "values": [
+      "Rincewind",
+      "Witches",
+      "Death",
+      "Watch",
+      "Moist",
+      "Industrial Revolution",
+      "Standalone",
+      "Tiffany Aching"
+    ]
+  },
+  "notes": [
+    [
+      "Publication order, one strand at a time if you like.",
+      "The rows run 1–41 as published. The chips recreate the famous reading-order diagram: pick a storyline and the list shrinks to that strand."
+    ],
+    [
+      "Where the chips come from.",
+      "The sub-series assignments Wikipedia records: the Discworld Emporium's reading-order guide supplies Witches, Death, the Watch and Industrial Revolution, and its Unseen University strand is the Rincewind chip; Tiffany Aching is Transworld's cover sub-series; Moist marks the three novels the article names as Moist von Lipwig's, inside Industrial Revolution. The four books none of that touches are Standalone."
+    ],
+    [
+      "Novels only.",
+      "The Science of Discworld books, the short stories, the mapps, diaries and the rest of the side matter are not in the article's novels table and are not here."
+    ],
+    [
+      "Nothing is weighted.",
+      "Every novel counts as one; Pratchett kept them close enough in size that pretending to know the hours would be worse."
+    ],
+    "Titles, years and sub-series from Wikipedia's Discworld article — the novels table, verified against the lead's own count of forty-one."
+  ],
+  "sections": [
+    {
+      "id": "d80s",
+      "title": "The '80s",
+      "sub": "1983–1989 · novels 1–8",
+      "items": [
+        {
+          "id": "dw-1-the-colour-of-magic",
+          "t": "The Colour of Magic",
+          "n": "1983",
+          "tags": [
+            "Rincewind"
+          ]
+        },
+        {
+          "id": "dw-2-the-light-fantastic",
+          "t": "The Light Fantastic",
+          "n": "1986",
+          "tags": [
+            "Rincewind"
+          ]
+        },
+        {
+          "id": "dw-3-equal-rites",
+          "t": "Equal Rites",
+          "n": "1987",
+          "tags": [
+            "Witches"
+          ]
+        },
+        {
+          "id": "dw-4-mort",
+          "t": "Mort",
+          "n": "1987",
+          "tags": [
+            "Death"
+          ]
+        },
+        {
+          "id": "dw-5-sourcery",
+          "t": "Sourcery",
+          "n": "1988",
+          "tags": [
+            "Rincewind"
+          ]
+        },
+        {
+          "id": "dw-6-wyrd-sisters",
+          "t": "Wyrd Sisters",
+          "n": "1988",
+          "tags": [
+            "Witches"
+          ]
+        },
+        {
+          "id": "dw-7-pyramids",
+          "t": "Pyramids",
+          "n": "1989",
+          "tags": [
+            "Standalone"
+          ],
+          "note": "The Emporium's Gods strand"
+        },
+        {
+          "id": "dw-8-guards-guards",
+          "t": "Guards! Guards!",
+          "n": "1989",
+          "tags": [
+            "Watch"
+          ]
+        }
+      ],
+      "intro": "Eight novels in seven years — the wizards, the witches, Death and the Watch all get their opening books.",
+      "open": true
+    },
+    {
+      "id": "d90s",
+      "title": "The '90s",
+      "sub": "1990–1999 · novels 9–24",
+      "items": [
+        {
+          "id": "dw-9-eric",
+          "t": "Eric",
+          "n": "1990",
+          "tags": [
+            "Rincewind"
+          ]
+        },
+        {
+          "id": "dw-10-moving-pictures",
+          "t": "Moving Pictures",
+          "n": "1990",
+          "tags": [
+            "Rincewind"
+          ]
+        },
+        {
+          "id": "dw-11-reaper-man",
+          "t": "Reaper Man",
+          "n": "1991",
+          "tags": [
+            "Death"
+          ]
+        },
+        {
+          "id": "dw-12-witches-abroad",
+          "t": "Witches Abroad",
+          "n": "1991",
+          "tags": [
+            "Witches"
+          ]
+        },
+        {
+          "id": "dw-13-small-gods",
+          "t": "Small Gods",
+          "n": "1992",
+          "tags": [
+            "Standalone"
+          ],
+          "note": "The Emporium's Gods strand"
+        },
+        {
+          "id": "dw-14-lords-and-ladies",
+          "t": "Lords and Ladies",
+          "n": "1992",
+          "tags": [
+            "Witches"
+          ]
+        },
+        {
+          "id": "dw-15-men-at-arms",
+          "t": "Men at Arms",
+          "n": "1993",
+          "tags": [
+            "Watch"
+          ]
+        },
+        {
+          "id": "dw-16-soul-music",
+          "t": "Soul Music",
+          "n": "1994",
+          "tags": [
+            "Death"
+          ]
+        },
+        {
+          "id": "dw-17-interesting-times",
+          "t": "Interesting Times",
+          "n": "1994",
+          "tags": [
+            "Rincewind"
+          ]
+        },
+        {
+          "id": "dw-18-maskerade",
+          "t": "Maskerade",
+          "n": "1995",
+          "tags": [
+            "Witches"
+          ]
+        },
+        {
+          "id": "dw-19-feet-of-clay",
+          "t": "Feet of Clay",
+          "n": "1996",
+          "tags": [
+            "Watch"
+          ]
+        },
+        {
+          "id": "dw-20-hogfather",
+          "t": "Hogfather",
+          "n": "1996",
+          "tags": [
+            "Death"
+          ]
+        },
+        {
+          "id": "dw-21-jingo",
+          "t": "Jingo",
+          "n": "1997",
+          "tags": [
+            "Watch"
+          ]
+        },
+        {
+          "id": "dw-22-the-last-continent",
+          "t": "The Last Continent",
+          "n": "1998",
+          "tags": [
+            "Rincewind"
+          ]
+        },
+        {
+          "id": "dw-23-carpe-jugulum",
+          "t": "Carpe Jugulum",
+          "n": "1998",
+          "tags": [
+            "Witches"
+          ]
+        },
+        {
+          "id": "dw-24-the-fifth-elephant",
+          "t": "The Fifth Elephant",
+          "n": "1999",
+          "tags": [
+            "Watch"
+          ]
+        }
+      ],
+      "intro": "The peak run: sixteen novels, every strand advancing at once."
+    },
+    {
+      "id": "d00s",
+      "title": "The 2000s",
+      "sub": "2000–2009 · novels 25–37",
+      "items": [
+        {
+          "id": "dw-25-the-truth",
+          "t": "The Truth",
+          "n": "2000",
+          "tags": [
+            "Industrial Revolution"
+          ]
+        },
+        {
+          "id": "dw-26-thief-of-time",
+          "t": "Thief of Time",
+          "n": "2001",
+          "tags": [
+            "Death"
+          ]
+        },
+        {
+          "id": "dw-27-the-last-hero",
+          "t": "The Last Hero",
+          "n": "2001",
+          "tags": [
+            "Standalone"
+          ],
+          "note": "The one novel the Emporium's reading-order guide leaves unassigned"
+        },
+        {
+          "id": "dw-28-the-amazing-maurice-and-his-educated-rodents",
+          "t": "The Amazing Maurice and His Educated Rodents",
+          "n": "2001",
+          "tags": [
+            "Standalone"
+          ],
+          "note": "The Emporium files it with the younger-readers books"
+        },
+        {
+          "id": "dw-29-night-watch",
+          "t": "Night Watch",
+          "n": "2002",
+          "tags": [
+            "Watch"
+          ]
+        },
+        {
+          "id": "dw-30-the-wee-free-men",
+          "t": "The Wee Free Men",
+          "n": "2003",
+          "tags": [
+            "Tiffany Aching"
+          ]
+        },
+        {
+          "id": "dw-31-monstrous-regiment",
+          "t": "Monstrous Regiment",
+          "n": "2003",
+          "tags": [
+            "Industrial Revolution"
+          ]
+        },
+        {
+          "id": "dw-32-a-hat-full-of-sky",
+          "t": "A Hat Full of Sky",
+          "n": "2004",
+          "tags": [
+            "Tiffany Aching"
+          ]
+        },
+        {
+          "id": "dw-33-going-postal",
+          "t": "Going Postal",
+          "n": "2004",
+          "tags": [
+            "Moist",
+            "Industrial Revolution"
+          ]
+        },
+        {
+          "id": "dw-34-thud",
+          "t": "Thud!",
+          "n": "2005",
+          "tags": [
+            "Watch"
+          ]
+        },
+        {
+          "id": "dw-35-wintersmith",
+          "t": "Wintersmith",
+          "n": "2006",
+          "tags": [
+            "Tiffany Aching"
+          ]
+        },
+        {
+          "id": "dw-36-making-money",
+          "t": "Making Money",
+          "n": "2007",
+          "tags": [
+            "Moist",
+            "Industrial Revolution"
+          ]
+        },
+        {
+          "id": "dw-37-unseen-academicals",
+          "t": "Unseen Academicals",
+          "n": "2009",
+          "tags": [
+            "Rincewind"
+          ]
+        }
+      ],
+      "intro": "The Industrial Revolution books arrive, and Tiffany Aching begins."
+    },
+    {
+      "id": "d10s",
+      "title": "The 2010s",
+      "sub": "2010–2015 · novels 38–41",
+      "items": [
+        {
+          "id": "dw-38-i-shall-wear-midnight",
+          "t": "I Shall Wear Midnight",
+          "n": "2010",
+          "tags": [
+            "Tiffany Aching"
+          ]
+        },
+        {
+          "id": "dw-39-snuff",
+          "t": "Snuff",
+          "n": "2011",
+          "tags": [
+            "Watch"
+          ]
+        },
+        {
+          "id": "dw-40-raising-steam",
+          "t": "Raising Steam",
+          "n": "2013",
+          "tags": [
+            "Moist",
+            "Industrial Revolution"
+          ]
+        },
+        {
+          "id": "dw-41-the-shepherds-crown",
+          "t": "The Shepherd's Crown",
+          "n": "2015",
+          "tags": [
+            "Tiffany Aching"
+          ],
+          "note": "Published posthumously"
+        }
+      ]
+    }
+  ]
+}

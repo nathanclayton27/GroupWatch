@@ -1,0 +1,87 @@
+{
+ "books": [
+  {
+   "title": "The Hobbit",
+   "year": 1937,
+   "christopher": false
+  },
+  {
+   "title": "The Fellowship of the Ring",
+   "year": 1954,
+   "christopher": false
+  },
+  {
+   "title": "The Two Towers",
+   "year": 1954,
+   "christopher": false
+  },
+  {
+   "title": "The Return of the King",
+   "year": 1955,
+   "christopher": false
+  },
+  {
+   "title": "The Silmarillion",
+   "year": 1977,
+   "christopher": true
+  },
+  {
+   "title": "Unfinished Tales",
+   "year": 1980,
+   "christopher": true
+  },
+  {
+   "title": "The Children of Húrin",
+   "year": 2007,
+   "christopher": true
+  },
+  {
+   "title": "Beren and Lúthien",
+   "year": 2017,
+   "christopher": true
+  },
+  {
+   "title": "The Fall of Gondolin",
+   "year": 2018,
+   "christopher": true
+  }
+ ],
+ "films": [
+  {
+   "title": "The Fellowship of the Ring",
+   "year": 2001,
+   "theatrical": 178,
+   "extended": 208
+  },
+  {
+   "title": "The Two Towers",
+   "year": 2002,
+   "theatrical": 179,
+   "extended": 223
+  },
+  {
+   "title": "The Return of the King",
+   "year": 2003,
+   "theatrical": 200,
+   "extended": 251
+  },
+  {
+   "title": "The Hobbit: An Unexpected Journey",
+   "year": 2012,
+   "theatrical": 169,
+   "extended": 182
+  },
+  {
+   "title": "The Hobbit: The Desolation of Smaug",
+   "year": 2013,
+   "theatrical": 161,
+   "extended": 186
+  },
+  {
+   "title": "The Hobbit: The Battle of the Five Armies",
+   "year": 2014,
+   "theatrical": 144,
+   "extended": 164
+  }
+ ]
+}

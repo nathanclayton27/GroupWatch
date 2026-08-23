@@ -1,0 +1,336 @@
+{
+ "novels": [
+  {
+   "title": "A Study in Scarlet",
+   "page": "A Study in Scarlet",
+   "years": "1887"
+  },
+  {
+   "title": "The Sign of the Four",
+   "page": "The Sign of the Four",
+   "years": "1890"
+  },
+  {
+   "title": "The Hound of the Baskervilles",
+   "page": "The Hound of the Baskervilles",
+   "years": "1901–1902"
+  },
+  {
+   "title": "The Valley of Fear",
+   "page": "The Valley of Fear",
+   "years": "1914–1915"
+  }
+ ],
+ "collections": [
+  {
+   "title": "The Adventures of Sherlock Holmes",
+   "year": 1892,
+   "stories": [
+    {
+     "title": "A Scandal in Bohemia",
+     "page": "A Scandal in Bohemia",
+     "year": 1891
+    },
+    {
+     "title": "The Red-Headed League",
+     "page": "The Red-Headed League",
+     "year": 1891
+    },
+    {
+     "title": "A Case of Identity",
+     "page": "A Case of Identity",
+     "year": 1891
+    },
+    {
+     "title": "The Boscombe Valley Mystery",
+     "page": "The Boscombe Valley Mystery",
+     "year": 1891
+    },
+    {
+     "title": "The Five Orange Pips",
+     "page": "The Five Orange Pips",
+     "year": 1891
+    },
+    {
+     "title": "The Man with the Twisted Lip",
+     "page": "The Man with the Twisted Lip",
+     "year": 1891
+    },
+    {
+     "title": "The Adventure of the Blue Carbuncle",
+     "page": "The Adventure of the Blue Carbuncle",
+     "year": 1892
+    },
+    {
+     "title": "The Adventure of the Speckled Band",
+     "page": "The Adventure of the Speckled Band",
+     "year": 1892
+    },
+    {
+     "title": "The Adventure of the Engineer's Thumb",
+     "page": "The Adventure of the Engineer's Thumb",
+     "year": 1892
+    },
+    {
+     "title": "The Adventure of the Noble Bachelor",
+     "page": "The Adventure of the Noble Bachelor",
+     "year": 1892
+    },
+    {
+     "title": "The Adventure of the Beryl Coronet",
+     "page": "The Adventure of the Beryl Coronet",
+     "year": 1892
+    },
+    {
+     "title": "The Adventure of the Copper Beeches",
+     "page": "The Adventure of the Copper Beeches",
+     "year": 1892
+    }
+   ]
+  },
+  {
+   "title": "The Memoirs of Sherlock Holmes",
+   "year": 1894,
+   "stories": [
+    {
+     "title": "The Adventure of Silver Blaze",
+     "page": "The Adventure of Silver Blaze",
+     "year": 1892
+    },
+    {
+     "title": "The Adventure of the Cardboard Box",
+     "page": "The Adventure of the Cardboard Box",
+     "year": 1893
+    },
+    {
+     "title": "The Adventure of the Yellow Face",
+     "page": "The Adventure of the Yellow Face",
+     "year": 1893
+    },
+    {
+     "title": "The Adventure of the Stockbroker's Clerk",
+     "page": "The Adventure of the Stockbroker's Clerk",
+     "year": 1893
+    },
+    {
+     "title": "The Adventure of the Gloria Scott",
+     "page": "The Adventure of the Gloria Scott",
+     "year": 1893
+    },
+    {
+     "title": "The Adventure of the Musgrave Ritual",
+     "page": "The Adventure of the Musgrave Ritual",
+     "year": 1893
+    },
+    {
+     "title": "The Adventure of the Reigate Squire",
+     "page": "The Adventure of the Reigate Squire",
+     "year": 1893
+    },
+    {
+     "title": "The Adventure of the Crooked Man",
+     "page": "The Adventure of the Crooked Man",
+     "year": 1893
+    },
+    {
+     "title": "The Adventure of the Resident Patient",
+     "page": "The Adventure of the Resident Patient",
+     "year": 1893
+    },
+    {
+     "title": "The Adventure of the Greek Interpreter",
+     "page": "The Adventure of the Greek Interpreter",
+     "year": 1893
+    },
+    {
+     "title": "The Adventure of the Naval Treaty",
+     "page": "The Adventure of the Naval Treaty",
+     "year": 1893
+    },
+    {
+     "title": "The Adventure of the Final Problem",
+     "page": "The Adventure of the Final Problem",
+     "year": 1893
+    }
+   ]
+  },
+  {
+   "title": "The Return of Sherlock Holmes",
+   "year": 1905,
+   "stories": [
+    {
+     "title": "The Adventure of the Empty House",
+     "page": "The Adventure of the Empty House",
+     "year": 1903
+    },
+    {
+     "title": "The Adventure of the Norwood Builder",
+     "page": "The Adventure of the Norwood Builder",
+     "year": 1903
+    },
+    {
+     "title": "The Adventure of the Dancing Men",
+     "page": "The Adventure of the Dancing Men",
+     "year": 1903
+    },
+    {
+     "title": "The Adventure of the Solitary Cyclist",
+     "page": "The Adventure of the Solitary Cyclist",
+     "year": 1904
+    },
+    {
+     "title": "The Adventure of the Priory School",
+     "page": "The Adventure of the Priory School",
+     "year": 1904
+    },
+    {
+     "title": "The Adventure of Black Peter",
+     "page": "The Adventure of Black Peter",
+     "year": 1904
+    },
+    {
+     "title": "The Adventure of Charles Augustus Milverton",
+     "page": "The Adventure of Charles Augustus Milverton",
+     "year": 1904
+    },
+    {
+     "title": "The Adventure of the Six Napoleons",
+     "page": "The Adventure of the Six Napoleons",
+     "year": 1904
+    },
+    {
+     "title": "The Adventure of the Three Students",
+     "page": "The Adventure of the Three Students",
+     "year": 1904
+    },
+    {
+     "title": "The Adventure of the Golden Pince-Nez",
+     "page": "The Adventure of the Golden Pince-Nez",
+     "year": 1904
+    },
+    {
+     "title": "The Adventure of the Missing Three-Quarter",
+     "page": "The Adventure of the Missing Three-Quarter",
+     "year": 1904
+    },
+    {
+     "title": "The Adventure of the Abbey Grange",
+     "page": "The Adventure of the Abbey Grange",
+     "year": 1904
+    },
+    {
+     "title": "The Adventure of the Second Stain",
+     "page": "The Adventure of the Second Stain",
+     "year": 1904
+    }
+   ]
+  },
+  {
+   "title": "His Last Bow",
+   "year": 1917,
+   "stories": [
+    {
+     "title": "The Adventure of Wisteria Lodge",
+     "page": "The Adventure of Wisteria Lodge",
+     "year": 1908
+    },
+    {
+     "title": "The Adventure of the Red Circle",
+     "page": "The Adventure of the Red Circle",
+     "year": 1911
+    },
+    {
+     "title": "The Adventure of the Bruce-Partington Plans",
+     "page": "The Adventure of the Bruce-Partington Plans",
+     "year": 1908
+    },
+    {
+     "title": "The Adventure of the Dying Detective",
+     "page": "The Adventure of the Dying Detective",
+     "year": 1913
+    },
+    {
+     "title": "The Disappearance of Lady Frances Carfax",
+     "page": "The Disappearance of Lady Frances Carfax",
+     "year": 1911
+    },
+    {
+     "title": "The Adventure of the Devil's Foot",
+     "page": "The Adventure of the Devil's Foot",
+     "year": 1910
+    },
+    {
+     "title": "His Last Bow. The War Service of Sherlock Holmes",
+     "page": "His Last Bow (story)",
+     "year": 1917
+    }
+   ]
+  },
+  {
+   "title": "The Case-Book of Sherlock Holmes",
+   "year": 1927,
+   "stories": [
+    {
+     "title": "The Adventure of the Mazarin Stone",
+     "page": "The Adventure of the Mazarin Stone",
+     "year": 1921
+    },
+    {
+     "title": "The Problem of Thor Bridge",
+     "page": "The Problem of Thor Bridge",
+     "year": 1922
+    },
+    {
+     "title": "The Adventure of the Creeping Man",
+     "page": "The Adventure of the Creeping Man",
+     "year": 1923
+    },
+    {
+     "title": "The Adventure of the Sussex Vampire",
+     "page": "The Adventure of the Sussex Vampire",
+     "year": 1924
+    },
+    {
+     "title": "The Adventure of the Three Garridebs",
+     "page": "The Adventure of the Three Garridebs",
+     "year": 1925
+    },
+    {
+     "title": "The Adventure of the Illustrious Client",
+     "page": "The Adventure of the Illustrious Client",
+     "year": 1925
+    },
+    {
+     "title": "The Adventure of the Three Gables",
+     "page": "The Adventure of the Three Gables",
+     "year": 1926
+    },
+    {
+     "title": "The Adventure of the Blanched Soldier",
+     "page": "The Adventure of the Blanched Soldier",
+     "year": 1926
+    },
+    {
+     "title": "The Adventure of the Lion's Mane",
+     "page": "The Adventure of the Lion's Mane",
+     "year": 1926
+    },
+    {
+     "title": "The Adventure of the Retired Colourman",
+     "page": "The Adventure of the Retired Colourman",
+     "year": 1927
+    },
+    {
+     "title": "The Adventure of the Veiled Lodger",
+     "page": "The Adventure of the Veiled Lodger",
+     "year": 1927
+    },
+    {
+     "title": "The Adventure of Shoscombe Old Place",
+     "page": "The Adventure of Shoscombe Old Place",
+     "year": 1927
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "standalones": [
+  {
+   "title": "Elantris",
+   "year": 2005,
+   "era": null,
+   "sp": ""
+  },
+  {
+   "title": "Warbreaker",
+   "year": 2009,
+   "era": null,
+   "sp": ""
+  },
+  {
+   "title": "The Sunlit Man",
+   "year": 2023,
+   "era": null,
+   "sp": "Secret Project 4"
+  },
+  {
+   "title": "Isles of the Emberdark",
+   "year": 2025,
+   "era": null,
+   "sp": "Secret Project 5"
+  }
+ ],
+ "mistborn": [
+  {
+   "title": "The Final Empire",
+   "year": 2006,
+   "era": "First Era",
+   "sp": ""
+  },
+  {
+   "title": "The Well of Ascension",
+   "year": 2007,
+   "era": "First Era",
+   "sp": ""
+  },
+  {
+   "title": "The Hero of Ages",
+   "year": 2008,
+   "era": "First Era",
+   "sp": ""
+  },
+  {
+   "title": "The Alloy of Law",
+   "year": 2011,
+   "era": "Second Era",
+   "sp": ""
+  },
+  {
+   "title": "Shadows of Self",
+   "year": 2015,
+   "era": "Second Era",
+   "sp": ""
+  },
+  {
+   "title": "The Bands of Mourning",
+   "year": 2016,
+   "era": "Second Era",
+   "sp": ""
+  },
+  {
+   "title": "The Lost Metal",
+   "year": 2022,
+   "era": "Second Era",
+   "sp": ""
+  }
+ ],
+ "stormlight": [
+  {
+   "title": "The Way of Kings",
+   "year": 2010,
+   "era": "First Arc",
+   "sp": ""
+  },
+  {
+   "title": "Words of Radiance",
+   "year": 2014,
+   "era": "First Arc",
+   "sp": ""
+  },
+  {
+   "title": "Oathbringer",
+   "year": 2017,
+   "era": "First Arc",
+   "sp": ""
+  },
+  {
+   "title": "Rhythm of War",
+   "year": 2020,
+   "era": "First Arc",
+   "sp": ""
+  },
+  {
+   "title": "Wind and Truth",
+   "year": 2024,
+   "era": "First Arc",
+   "sp": ""
+  }
+ ],
+ "hoid": [
+  {
+   "title": "Tress of the Emerald Sea",
+   "year": 2023,
+   "era": null,
+   "sp": "Secret Project 1"
+  },
+  {
+   "title": "Yumi and the Nightmare Painter",
+   "year": 2023,
+   "era": null,
+   "sp": "Secret Project 3"
+  },
+  {
+   "title": "The Fires of December",
+   "year": 2026,
+   "era": null,
+   "sp": "Secret Project 6"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "The Hope of Elantris",
+   "year": 2006,
+   "setting": "Elantris",
+   "format": "Short story",
+   "arcanum": true
+  },
+  {
+   "title": "The Eleventh Metal",
+   "year": 2011,
+   "setting": "Mistborn",
+   "format": "Short story",
+   "arcanum": true
+  },
+  {
+   "title": "The Emperor's Soul",
+   "year": 2012,
+   "setting": "Elantris",
+   "format": "Novella",
+   "arcanum": true
+  },
+  {
+   "title": "Shadows for Silence in the Forests of Hell",
+   "year": 2013,
+   "setting": "Threnody",
+   "format": "Novella",
+   "arcanum": true
+  },
+  {
+   "title": "Sixth of the Dusk",
+   "year": 2014,
+   "setting": "First of the Sun",
+   "format": "Novella",
+   "arcanum": true
+  },
+  {
+   "title": "Allomancer Jak and the Pits of Eltania",
+   "year": 2014,
+   "setting": "Mistborn",
+   "format": "Short story",
+   "arcanum": true
+  },
+  {
+   "title": "Secret History",
+   "year": 2016,
+   "setting": "Mistborn",
+   "format": "Novella",
+   "arcanum": true
+  },
+  {
+   "title": "Arcanum Unbounded: The Cosmere Collection",
+   "year": 2016,
+   "setting": "",
+   "format": "Collection",
+   "arcanum": false
+  },
+  {
+   "title": "Edgedancer",
+   "year": 2016,
+   "setting": "The Stormlight Archive",
+   "format": "Novella",
+   "arcanum": true
+  },
+  {
+   "title": "Dawnshard",
+   "year": 2020,
+   "setting": "The Stormlight Archive",
+   "format": "Novella",
+   "arcanum": false
+  },
+  {
+   "title": "Elsecaller",
+   "year": 2024,
+   "setting": "The Stormlight Archive",
+   "format": "Short story",
+   "arcanum": false
+  },
+  {
+   "title": "King Lopen the First of Alethkar",
+   "year": 2024,
+   "setting": "The Stormlight Archive",
+   "format": "Short story",
+   "arcanum": false
+  }
+ ],
+ "graphic": [
+  {
+   "title": "White Sand I",
+   "year": 2016
+  },
+  {
+   "title": "White Sand II",
+   "year": 2018
+  },
+  {
+   "title": "White Sand III",
+   "year": 2019
+  },
+  {
+   "title": "White Sand Omnibus",
+   "year": 2022
+  }
+ ]
+}

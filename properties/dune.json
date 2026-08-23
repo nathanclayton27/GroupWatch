@@ -1,0 +1,251 @@
+{
+  "slug": "dune",
+  "title": "Dune",
+  "subtitle": "the novels, the continuations, the screen versions",
+  "kind": "books & films",
+  "order": 105,
+  "year": "1965–2024",
+  "blurb": "Frank Herbert's six novels in publication order, the seventeen Brian Herbert & Kevin J. Anderson continuations as optional rows, and every screen Dune from Lynch to Villeneuve, weighted by runtime.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "read",
+    "past": "done",
+    "ing": "working through"
+  },
+  "accent": "#9C6414",
+  "accentDark": "#7FB4E8",
+  "tiers": false,
+  "notes": [
+    [
+      "The six are the spine.",
+      "Frank Herbert's novels, publication order, each counting as one — page counts differ by edition and pretending to know the hours would be worse."
+    ],
+    [
+      "The continuations are optional and unranked.",
+      "Seventeen books by Brian Herbert and Kevin J. Anderson, one row each in publication order. Rows say which series a book belongs to and nothing more; whether to read them is your argument to have, not this page's."
+    ],
+    [
+      "Screen rows are weighted by runtime.",
+      "From Wikidata: Lynch's 137-minute film, the two three-part Sci Fi Channel miniseries at 265 and 266 minutes, and Villeneuve's 155 and 166. Book rows stay unweighted, so the strip shows reading and watching at different scales on purpose."
+    ],
+    [
+      "Not here.",
+      "Dune: Part Three, dated December 2026, gets a row on release. The Dune: Prophecy series, the short stories, the Dune Encyclopedia and the games are outside this list's scope."
+    ],
+    "Novels and years from Wikipedia's Frank Herbert bibliography and Dune prequel series articles; screen list and dates from the Dune franchise article; runtimes from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "herbert",
+      "title": "Frank Herbert's six",
+      "sub": "1965–1985 · the original novels",
+      "open": true,
+      "intro": "Publication order, Dune to Chapterhouse: Dune. Everything else on the page hangs off these.",
+      "items": [
+        {
+          "id": "dune-1965-dune",
+          "t": "Dune",
+          "n": "1965"
+        },
+        {
+          "id": "dune-1969-dune-messiah",
+          "t": "Dune Messiah",
+          "n": "1969"
+        },
+        {
+          "id": "dune-1976-children-of-dune",
+          "t": "Children of Dune",
+          "n": "1976"
+        },
+        {
+          "id": "dune-1981-god-emperor-of-dune",
+          "t": "God Emperor of Dune",
+          "n": "1981"
+        },
+        {
+          "id": "dune-1984-heretics-of-dune",
+          "t": "Heretics of Dune",
+          "n": "1984"
+        },
+        {
+          "id": "dune-1985-chapterhouse-dune",
+          "t": "Chapterhouse: Dune",
+          "n": "1985"
+        }
+      ]
+    },
+    {
+      "id": "continuations",
+      "title": "The continuations",
+      "sub": "1999–2023 · 17 books · Brian Herbert & Kevin J. Anderson · optional",
+      "intro": "One row per book, publication order, each marked with its series. Read none, some, or all — they are optional rows and count toward nothing unless ticked.",
+      "items": [
+        {
+          "id": "dune-c-1999-house-atreides",
+          "t": "House Atreides",
+          "n": "1999",
+          "note": "Prelude to Dune — set before Dune",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2000-house-harkonnen",
+          "t": "House Harkonnen",
+          "n": "2000",
+          "note": "Prelude to Dune — set before Dune",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2001-house-corrino",
+          "t": "House Corrino",
+          "n": "2001",
+          "note": "Prelude to Dune — set before Dune",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2002-the-butlerian-jihad",
+          "t": "The Butlerian Jihad",
+          "n": "2002",
+          "note": "Legends of Dune",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2003-the-machine-crusade",
+          "t": "The Machine Crusade",
+          "n": "2003",
+          "note": "Legends of Dune",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2004-the-battle-of-corrin",
+          "t": "The Battle of Corrin",
+          "n": "2004",
+          "note": "Legends of Dune",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2006-hunters-of-dune",
+          "t": "Hunters of Dune",
+          "n": "2006",
+          "note": "Completes the original series, from Frank Herbert's Dune 7 outline",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2007-sandworms-of-dune",
+          "t": "Sandworms of Dune",
+          "n": "2007",
+          "note": "Completes the original series, from Frank Herbert's Dune 7 outline",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2008-paul-of-dune",
+          "t": "Paul of Dune",
+          "n": "2008",
+          "note": "Heroes of Dune — set between the original novels",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2009-the-winds-of-dune",
+          "t": "The Winds of Dune",
+          "n": "2009",
+          "note": "Heroes of Dune — set between the original novels",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2012-sisterhood-of-dune",
+          "t": "Sisterhood of Dune",
+          "n": "2012",
+          "note": "Great Schools of Dune",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2014-mentats-of-dune",
+          "t": "Mentats of Dune",
+          "n": "2014",
+          "note": "Great Schools of Dune",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2016-navigators-of-dune",
+          "t": "Navigators of Dune",
+          "n": "2016",
+          "note": "Great Schools of Dune",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2020-the-duke-of-caladan",
+          "t": "The Duke of Caladan",
+          "n": "2020",
+          "note": "The Caladan Trilogy",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2021-the-lady-of-caladan",
+          "t": "The Lady of Caladan",
+          "n": "2021",
+          "note": "The Caladan Trilogy",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2022-the-heir-of-caladan",
+          "t": "The Heir of Caladan",
+          "n": "2022",
+          "note": "The Caladan Trilogy",
+          "opt": 1
+        },
+        {
+          "id": "dune-c-2023-princess-of-dune",
+          "t": "Princess of Dune",
+          "n": "2023",
+          "note": "Heroes of Dune — set between the original novels",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "screen",
+      "title": "Dune on screen",
+      "sub": "1984–2024 · 5 adaptations · about 16 hours",
+      "intro": "Weighted by runtime. Villeneuve's Part Three is dated December 2026 and gets a row when it exists.",
+      "items": [
+        {
+          "id": "dune-s-1984-dune",
+          "t": "Dune",
+          "n": "1984",
+          "w": 2.28,
+          "note": "David Lynch's film · 137 min"
+        },
+        {
+          "id": "dune-s-2000-frank-herberts-dune",
+          "t": "Frank Herbert's Dune",
+          "n": "2000",
+          "w": 4.42,
+          "note": "Three-part Sci Fi Channel miniseries · 265 min"
+        },
+        {
+          "id": "dune-s-2003-frank-herberts-children-of-dune",
+          "t": "Frank Herbert's Children of Dune",
+          "n": "2003",
+          "w": 4.43,
+          "note": "Three parts — adapts Dune Messiah and Children of Dune · 266 min"
+        },
+        {
+          "id": "dune-s-2021-dune",
+          "t": "Dune",
+          "n": "2021",
+          "w": 2.58,
+          "note": "Denis Villeneuve — Part One · 155 min"
+        },
+        {
+          "id": "dune-s-2024-dune-part-two",
+          "t": "Dune: Part Two",
+          "n": "2024",
+          "w": 2.77,
+          "note": "Denis Villeneuve · 166 min"
+        }
+      ]
+    }
+  ]
+}

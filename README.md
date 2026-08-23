@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Seventy-eight lists, from a ten-episode anime to a 1,337-spine film
+Eighty-six lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -43,6 +43,15 @@ Attorney* docket, *Fallout* and *The Elder Scrolls* with their story DLC as
 optional rows, *Persona* (431 hours, stated plainly), *Dragon Quest*,
 *Mass Effect*, *Dragon Age*, and a house-picked indie essentials shelf —
 all weighted by HowLongToBeat main-story figures, verified by name.
+
+**Books.** *Discworld* with the famous reading-order diagram rebuilt as
+storyline chips, the *Dune* saga (Herbert's six core, the continuations
+optional, the screen adaptations weighted), *The Wheel of Time*, Sanderson's
+*Cosmere* in publication order, the complete *Sherlock Holmes* canon (60
+adventures), and *Middle-earth* — books plus Jackson's six films. Comics:
+*The Sandman* issue by issue through its ten volumes, Death and Overture
+included, and the *Hellboy / Mignolaverse* trunk with the spoke series as
+optional rows.
 
 **Filmographies.** *Stanley Kubrick* (with A.I.), *Steven Spielberg*,
 *David Lynch* (all of Twin Peaks as one row), *Tom Cruise*, *Akira

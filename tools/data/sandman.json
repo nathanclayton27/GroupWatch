@@ -1,0 +1,408 @@
+{
+ "volumes": [
+  {
+   "key": "sm-preludes",
+   "label": "Preludes and Nocturnes",
+   "page": "The Sandman: Preludes & Nocturnes",
+   "years": "1988–1989",
+   "issues": [
+    {
+     "n": 1,
+     "title": "Sleep of the Just"
+    },
+    {
+     "n": 2,
+     "title": "Imperfect Hosts"
+    },
+    {
+     "n": 3,
+     "title": "Dream a Little Dream of Me"
+    },
+    {
+     "n": 4,
+     "title": "A Hope in Hell"
+    },
+    {
+     "n": 5,
+     "title": "Passengers"
+    },
+    {
+     "n": 6,
+     "title": "24 Hours"
+    },
+    {
+     "n": 7,
+     "title": "Sound and Fury"
+    },
+    {
+     "n": 8,
+     "title": "The Sound of Her Wings"
+    }
+   ]
+  },
+  {
+   "key": "sm-dolls-house",
+   "label": "The Doll's House",
+   "page": "The Sandman: The Doll's House",
+   "years": "1989–1990",
+   "issues": [
+    {
+     "n": 9,
+     "title": "Tales in the Sand"
+    },
+    {
+     "n": 10,
+     "title": "The Doll's House"
+    },
+    {
+     "n": 11,
+     "title": "Moving In"
+    },
+    {
+     "n": 12,
+     "title": "Playing House"
+    },
+    {
+     "n": 13,
+     "title": "Men of Good Fortune"
+    },
+    {
+     "n": 14,
+     "title": "Collectors"
+    },
+    {
+     "n": 15,
+     "title": "Into the Night"
+    },
+    {
+     "n": 16,
+     "title": "Lost Hearts"
+    }
+   ]
+  },
+  {
+   "key": "sm-dream-country",
+   "label": "Dream Country",
+   "page": "The Sandman: Dream Country",
+   "years": "1990",
+   "issues": [
+    {
+     "n": 17,
+     "title": "Calliope"
+    },
+    {
+     "n": 18,
+     "title": "A Dream of a Thousand Cats"
+    },
+    {
+     "n": 19,
+     "title": "A Midsummer Night's Dream"
+    },
+    {
+     "n": 20,
+     "title": "Façade"
+    }
+   ]
+  },
+  {
+   "key": "sm-season-of-mists",
+   "label": "Season of Mists",
+   "page": "The Sandman: Season of Mists",
+   "years": "1990–1991",
+   "issues": [
+    {
+     "n": 21,
+     "title": "Prologue"
+    },
+    {
+     "n": 22,
+     "title": "Chapter 1"
+    },
+    {
+     "n": 23,
+     "title": "Chapter 2"
+    },
+    {
+     "n": 24,
+     "title": "Chapter 3"
+    },
+    {
+     "n": 25,
+     "title": "Chapter 4"
+    },
+    {
+     "n": 26,
+     "title": "Chapter 5"
+    },
+    {
+     "n": 27,
+     "title": "Chapter 6"
+    },
+    {
+     "n": 28,
+     "title": "Epilogue"
+    }
+   ]
+  },
+  {
+   "key": "sm-game-of-you",
+   "label": "A Game of You",
+   "page": "The Sandman: A Game of You",
+   "years": "1991–1992",
+   "issues": [
+    {
+     "n": 32,
+     "title": "Slaughter on Fifth Avenue"
+    },
+    {
+     "n": 33,
+     "title": "Lullabies of Broadway"
+    },
+    {
+     "n": 34,
+     "title": "Bad Moon Rising"
+    },
+    {
+     "n": 35,
+     "title": "Beginning to See the Light"
+    },
+    {
+     "n": 36,
+     "title": "Over the Sea to Sky"
+    },
+    {
+     "n": 37,
+     "title": "I Woke Up and One of Us Was Crying"
+    }
+   ]
+  },
+  {
+   "key": "sm-fables",
+   "label": "Fables and Reflections",
+   "page": "The Sandman: Fables & Reflections",
+   "years": "1991–1993",
+   "issues": [
+    {
+     "n": 31,
+     "title": "Distant Mirrors – Three Septembers and a January"
+    },
+    {
+     "n": 29,
+     "title": "Distant Mirrors – Thermidor"
+    },
+    {
+     "n": 38,
+     "title": "Convergence – The Hunt"
+    },
+    {
+     "n": 30,
+     "title": "Distant Mirrors – August"
+    },
+    {
+     "n": 39,
+     "title": "Convergence – Soft Places"
+    },
+    {
+     "n": "special",
+     "title": "The Song of Orpheus"
+    },
+    {
+     "n": 40,
+     "title": "Convergence – The Parliament of Rooks"
+    },
+    {
+     "n": 50,
+     "title": "Distant Mirrors – Ramadan"
+    }
+   ],
+   "special": true
+  },
+  {
+   "key": "sm-brief-lives",
+   "label": "Brief Lives",
+   "page": "The Sandman: Brief Lives",
+   "years": "1992–1993",
+   "issues": [
+    {
+     "n": 41,
+     "title": "Brief Lives – Chapter 1"
+    },
+    {
+     "n": 42,
+     "title": "Brief Lives – Chapter 2"
+    },
+    {
+     "n": 43,
+     "title": "Brief Lives – Chapter 3"
+    },
+    {
+     "n": 44,
+     "title": "Brief Lives – Chapter 4"
+    },
+    {
+     "n": 45,
+     "title": "Brief Lives – Chapter 5"
+    },
+    {
+     "n": 46,
+     "title": "Brief Lives – Chapter 6"
+    },
+    {
+     "n": 47,
+     "title": "Brief Lives – Chapter 7"
+    },
+    {
+     "n": 48,
+     "title": "Brief Lives – Chapter 8"
+    },
+    {
+     "n": 49,
+     "title": "Brief Lives – Chapter 9"
+    }
+   ]
+  },
+  {
+   "key": "sm-worlds-end",
+   "label": "Worlds' End",
+   "page": "The Sandman: Worlds' End",
+   "years": "1993",
+   "issues": [
+    {
+     "n": 51,
+     "title": "A Tale of Two Cities"
+    },
+    {
+     "n": 52,
+     "title": "Cluracan's Tale"
+    },
+    {
+     "n": 53,
+     "title": "Hob's Leviathan"
+    },
+    {
+     "n": 54,
+     "title": "The Golden Boy"
+    },
+    {
+     "n": 55,
+     "title": "Cerements"
+    },
+    {
+     "n": 56,
+     "title": "Worlds' End"
+    }
+   ]
+  },
+  {
+   "key": "sm-kindly-ones",
+   "label": "The Kindly Ones",
+   "page": "The Sandman: The Kindly Ones",
+   "years": "1993–1995",
+   "issues": [
+    {
+     "n": 57,
+     "title": "The Kindly Ones - 1"
+    },
+    {
+     "n": 58,
+     "title": "The Kindly Ones - 2"
+    },
+    {
+     "n": 59,
+     "title": "The Kindly Ones - 3"
+    },
+    {
+     "n": 60,
+     "title": "The Kindly Ones - 4"
+    },
+    {
+     "n": 61,
+     "title": "The Kindly Ones - 5"
+    },
+    {
+     "n": 62,
+     "title": "The Kindly Ones - 6"
+    },
+    {
+     "n": 63,
+     "title": "The Kindly Ones - 7"
+    },
+    {
+     "n": 64,
+     "title": "The Kindly Ones - 8"
+    },
+    {
+     "n": 65,
+     "title": "The Kindly Ones - 9"
+    },
+    {
+     "n": 66,
+     "title": "The Kindly Ones - 10"
+    },
+    {
+     "n": 67,
+     "title": "The Kindly Ones - 11"
+    },
+    {
+     "n": 68,
+     "title": "The Kindly Ones - 12"
+    },
+    {
+     "n": 69,
+     "title": "The Kindly Ones - 13"
+    }
+   ]
+  },
+  {
+   "key": "sm-wake",
+   "label": "The Wake",
+   "page": "The Sandman: The Wake",
+   "years": "1995–1996",
+   "issues": [
+    {
+     "n": 70,
+     "title": "Chapter 1, Which Occurs in the Wake of What Has Gone Before"
+    },
+    {
+     "n": 71,
+     "title": "Chapter 2, In Which a Wake is Held"
+    },
+    {
+     "n": 72,
+     "title": "Chapter 3, In Which We Wake"
+    },
+    {
+     "n": 73,
+     "title": "An Epilogue, Sunday Mourning"
+    },
+    {
+     "n": 74,
+     "title": "Exiles"
+    },
+    {
+     "n": 75,
+     "title": "The Tempest"
+    }
+   ]
+  }
+ ],
+ "overture": {
+  "issues": 6,
+  "years": "2013–15",
+  "page": "The Sandman: Overture"
+ },
+ "death": [
+  {
+   "title": "Death: The High Cost of Living",
+   "issues": 3,
+   "years": "1993",
+   "page": "Death: The High Cost of Living"
+  },
+  {
+   "title": "Death: The Time of Your Life",
+   "issues": 3,
+   "years": "1996",
+   "page": "Death: The Time of Your Life"
+  }
+ ]
+}

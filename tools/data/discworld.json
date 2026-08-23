@@ -1,0 +1,296 @@
+{
+ "novels": [
+  {
+   "num": 1,
+   "title": "The Colour of Magic",
+   "year": 1983,
+   "transworld": "Wizards",
+   "emporium": "Unseen University"
+  },
+  {
+   "num": 2,
+   "title": "The Light Fantastic",
+   "year": 1986,
+   "transworld": "Wizards",
+   "emporium": "Unseen University"
+  },
+  {
+   "num": 3,
+   "title": "Equal Rites",
+   "year": 1987,
+   "transworld": "Witches",
+   "emporium": "Witches"
+  },
+  {
+   "num": 4,
+   "title": "Mort",
+   "year": 1987,
+   "transworld": "Death",
+   "emporium": "Death"
+  },
+  {
+   "num": 5,
+   "title": "Sourcery",
+   "year": 1988,
+   "transworld": "Wizards",
+   "emporium": "Unseen University"
+  },
+  {
+   "num": 6,
+   "title": "Wyrd Sisters",
+   "year": 1988,
+   "transworld": "Witches",
+   "emporium": "Witches"
+  },
+  {
+   "num": 7,
+   "title": "Pyramids",
+   "year": 1989,
+   "transworld": "",
+   "emporium": "Gods"
+  },
+  {
+   "num": 8,
+   "title": "Guards! Guards!",
+   "year": 1989,
+   "transworld": "City Watch",
+   "emporium": "City Watch"
+  },
+  {
+   "num": 9,
+   "title": "Eric",
+   "year": 1990,
+   "transworld": "",
+   "emporium": "Unseen University"
+  },
+  {
+   "num": 10,
+   "title": "Moving Pictures",
+   "year": 1990,
+   "transworld": "",
+   "emporium": "Unseen University"
+  },
+  {
+   "num": 11,
+   "title": "Reaper Man",
+   "year": 1991,
+   "transworld": "Death",
+   "emporium": "Death"
+  },
+  {
+   "num": 12,
+   "title": "Witches Abroad",
+   "year": 1991,
+   "transworld": "Witches",
+   "emporium": "Witches"
+  },
+  {
+   "num": 13,
+   "title": "Small Gods",
+   "year": 1992,
+   "transworld": "",
+   "emporium": "Gods"
+  },
+  {
+   "num": 14,
+   "title": "Lords and Ladies",
+   "year": 1992,
+   "transworld": "Witches",
+   "emporium": "Witches"
+  },
+  {
+   "num": 15,
+   "title": "Men at Arms",
+   "year": 1993,
+   "transworld": "City Watch",
+   "emporium": "City Watch"
+  },
+  {
+   "num": 16,
+   "title": "Soul Music",
+   "year": 1994,
+   "transworld": "Death",
+   "emporium": "Death"
+  },
+  {
+   "num": 17,
+   "title": "Interesting Times",
+   "year": 1994,
+   "transworld": "Wizards",
+   "emporium": "Unseen University"
+  },
+  {
+   "num": 18,
+   "title": "Maskerade",
+   "year": 1995,
+   "transworld": "Witches",
+   "emporium": "Witches"
+  },
+  {
+   "num": 19,
+   "title": "Feet of Clay",
+   "year": 1996,
+   "transworld": "City Watch",
+   "emporium": "City Watch"
+  },
+  {
+   "num": 20,
+   "title": "Hogfather",
+   "year": 1996,
+   "transworld": "Death",
+   "emporium": "Death"
+  },
+  {
+   "num": 21,
+   "title": "Jingo",
+   "year": 1997,
+   "transworld": "City Watch",
+   "emporium": "City Watch"
+  },
+  {
+   "num": 22,
+   "title": "The Last Continent",
+   "year": 1998,
+   "transworld": "Wizards",
+   "emporium": "Unseen University"
+  },
+  {
+   "num": 23,
+   "title": "Carpe Jugulum",
+   "year": 1998,
+   "transworld": "Witches",
+   "emporium": "Witches"
+  },
+  {
+   "num": 24,
+   "title": "The Fifth Elephant",
+   "year": 1999,
+   "transworld": "City Watch",
+   "emporium": "City Watch"
+  },
+  {
+   "num": 25,
+   "title": "The Truth",
+   "year": 2000,
+   "transworld": "",
+   "emporium": "Industrial revolution"
+  },
+  {
+   "num": 26,
+   "title": "Thief of Time",
+   "year": 2001,
+   "transworld": "Death",
+   "emporium": "Death"
+  },
+  {
+   "num": 27,
+   "title": "The Last Hero",
+   "year": 2001,
+   "transworld": "",
+   "emporium": ""
+  },
+  {
+   "num": 28,
+   "title": "The Amazing Maurice and His Educated Rodents",
+   "year": 2001,
+   "transworld": "",
+   "emporium": "Younger readers"
+  },
+  {
+   "num": 29,
+   "title": "Night Watch",
+   "year": 2002,
+   "transworld": "City Watch",
+   "emporium": "City Watch"
+  },
+  {
+   "num": 30,
+   "title": "The Wee Free Men",
+   "year": 2003,
+   "transworld": "Tiffany Aching",
+   "emporium": "Younger readers"
+  },
+  {
+   "num": 31,
+   "title": "Monstrous Regiment",
+   "year": 2003,
+   "transworld": "",
+   "emporium": "Industrial revolution"
+  },
+  {
+   "num": 32,
+   "title": "A Hat Full of Sky",
+   "year": 2004,
+   "transworld": "Tiffany Aching",
+   "emporium": "Younger readers"
+  },
+  {
+   "num": 33,
+   "title": "Going Postal",
+   "year": 2004,
+   "transworld": "",
+   "emporium": "Industrial revolution"
+  },
+  {
+   "num": 34,
+   "title": "Thud!",
+   "year": 2005,
+   "transworld": "City Watch",
+   "emporium": "City Watch"
+  },
+  {
+   "num": 35,
+   "title": "Wintersmith",
+   "year": 2006,
+   "transworld": "Tiffany Aching",
+   "emporium": "Younger readers"
+  },
+  {
+   "num": 36,
+   "title": "Making Money",
+   "year": 2007,
+   "transworld": "",
+   "emporium": "Industrial revolution"
+  },
+  {
+   "num": 37,
+   "title": "Unseen Academicals",
+   "year": 2009,
+   "transworld": "Wizards",
+   "emporium": "Unseen University"
+  },
+  {
+   "num": 38,
+   "title": "I Shall Wear Midnight",
+   "year": 2010,
+   "transworld": "Tiffany Aching",
+   "emporium": "Younger readers"
+  },
+  {
+   "num": 39,
+   "title": "Snuff",
+   "year": 2011,
+   "transworld": "City Watch",
+   "emporium": "City Watch"
+  },
+  {
+   "num": 40,
+   "title": "Raising Steam",
+   "year": 2013,
+   "transworld": "",
+   "emporium": "Industrial revolution"
+  },
+  {
+   "num": 41,
+   "title": "The Shepherd's Crown",
+   "year": 2015,
+   "transworld": "Tiffany Aching",
+   "emporium": "Younger readers"
+  }
+ ],
+ "moist": [
+  "Going Postal",
+  "Making Money",
+  "Raising Steam"
+ ]
+}

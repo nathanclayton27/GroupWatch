@@ -1,0 +1,153 @@
+{
+ "core": [
+  {
+   "title": "Dune",
+   "year": 1965
+  },
+  {
+   "title": "Dune Messiah",
+   "year": 1969
+  },
+  {
+   "title": "Children of Dune",
+   "year": 1976
+  },
+  {
+   "title": "God Emperor of Dune",
+   "year": 1981
+  },
+  {
+   "title": "Heretics of Dune",
+   "year": 1984
+  },
+  {
+   "title": "Chapterhouse: Dune",
+   "year": 1985
+  }
+ ],
+ "continuations": [
+  {
+   "title": "Dune: House Atreides",
+   "year": 1999,
+   "series": "Prelude to Dune"
+  },
+  {
+   "title": "Dune: House Harkonnen",
+   "year": 2000,
+   "series": "Prelude to Dune"
+  },
+  {
+   "title": "Dune: House Corrino",
+   "year": 2001,
+   "series": "Prelude to Dune"
+  },
+  {
+   "title": "The Butlerian Jihad",
+   "year": 2002,
+   "series": "Legends of Dune"
+  },
+  {
+   "title": "The Machine Crusade",
+   "year": 2003,
+   "series": "Legends of Dune"
+  },
+  {
+   "title": "The Battle of Corrin",
+   "year": 2004,
+   "series": "Legends of Dune"
+  },
+  {
+   "title": "Hunters of Dune",
+   "year": 2006,
+   "series": "Dune 7"
+  },
+  {
+   "title": "Sandworms of Dune",
+   "year": 2007,
+   "series": "Dune 7"
+  },
+  {
+   "title": "Paul of Dune",
+   "year": 2008,
+   "series": "Heroes of Dune"
+  },
+  {
+   "title": "The Winds of Dune",
+   "year": 2009,
+   "series": "Heroes of Dune"
+  },
+  {
+   "title": "Sisterhood of Dune",
+   "year": 2012,
+   "series": "Great Schools of Dune"
+  },
+  {
+   "title": "Mentats of Dune",
+   "year": 2014,
+   "series": "Great Schools of Dune"
+  },
+  {
+   "title": "Navigators of Dune",
+   "year": 2016,
+   "series": "Great Schools of Dune"
+  },
+  {
+   "title": "The Duke of Caladan",
+   "year": 2020,
+   "series": "The Caladan Trilogy"
+  },
+  {
+   "title": "The Lady of Caladan",
+   "year": 2021,
+   "series": "The Caladan Trilogy"
+  },
+  {
+   "title": "The Heir of Caladan",
+   "year": 2022,
+   "series": "The Caladan Trilogy"
+  },
+  {
+   "title": "Princess of Dune",
+   "year": 2023,
+   "series": "Heroes of Dune"
+  }
+ ],
+ "screen": [
+  {
+   "key": "dune-1984",
+   "title": "Dune",
+   "year": 1984,
+   "minutes": 137,
+   "note": "David Lynch's film"
+  },
+  {
+   "key": "dune-2000",
+   "title": "Frank Herbert's Dune",
+   "year": 2000,
+   "minutes": 265,
+   "note": "Three-part Sci Fi Channel miniseries"
+  },
+  {
+   "key": "dune-cod-2003",
+   "title": "Frank Herbert's Children of Dune",
+   "year": 2003,
+   "minutes": 266,
+   "note": "Three parts — adapts Dune Messiah and Children of Dune"
+  },
+  {
+   "key": "dune-2021",
+   "title": "Dune",
+   "year": 2021,
+   "minutes": 155,
+   "note": "Denis Villeneuve — Part One"
+  },
+  {
+   "key": "dune-part-two",
+   "title": "Dune: Part Two",
+   "year": 2024,
+   "minutes": 166,
+   "note": "Denis Villeneuve"
+  }
+ ],
+ "part_three_year": 2026
+}

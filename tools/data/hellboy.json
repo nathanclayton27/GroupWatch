@@ -1,0 +1,320 @@
+{
+ "hellboy": [
+  {
+   "cycle": "Hellboy",
+   "vol": 1,
+   "title": "Seed of Destruction",
+   "year": 1994
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 2,
+   "title": "Wake the Devil",
+   "year": 1997
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 3,
+   "title": "The Chained Coffin and Others",
+   "year": 1998
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 4,
+   "title": "The Right Hand of Doom",
+   "year": 2000
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 5,
+   "title": "Conqueror Worm",
+   "year": 2002
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 6,
+   "title": "Strange Places",
+   "year": 2006
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 7,
+   "title": "The Troll Witch and Others",
+   "year": 2007
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 8,
+   "title": "Darkness Calls",
+   "year": 2008
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 9,
+   "title": "The Wild Hunt",
+   "year": 2010
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 10,
+   "title": "The Crooked Man and Others",
+   "year": 2010
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 11,
+   "title": "The Bride of Hell and Others",
+   "year": 2011
+  },
+  {
+   "cycle": "Hellboy",
+   "vol": 12,
+   "title": "The Storm and the Fury",
+   "year": 2012
+  }
+ ],
+ "in_hell": [
+  {
+   "cycle": "Hellboy in Hell",
+   "vol": 1,
+   "title": "The Descent",
+   "year": 2014
+  },
+  {
+   "cycle": "Hellboy in Hell",
+   "vol": 2,
+   "title": "The Death Card",
+   "year": 2016
+  }
+ ],
+ "plague": [
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 1,
+   "title": "Hollow Earth & Other Stories",
+   "year": 2003
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 2,
+   "title": "The Soul of Venice & Other Stories",
+   "year": 2004
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 3,
+   "title": "Plague of Frogs",
+   "year": 2005
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 4,
+   "title": "The Dead",
+   "year": 2005
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 5,
+   "title": "The Black Flame",
+   "year": 2006
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 6,
+   "title": "The Universal Machine",
+   "year": 2007
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 7,
+   "title": "Garden of Souls",
+   "year": 2008
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 8,
+   "title": "Killing Ground",
+   "year": 2008
+  },
+  {
+   "cycle": "1946–1948",
+   "vol": 9,
+   "title": "1946",
+   "year": 2008
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 10,
+   "title": "The Warning",
+   "year": 2009
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 11,
+   "title": "The Black Goddess",
+   "year": 2009
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 12,
+   "title": "War on Frogs",
+   "year": 2010
+  },
+  {
+   "cycle": "1946–1948",
+   "vol": 13,
+   "title": "1947",
+   "year": 2010
+  },
+  {
+   "cycle": "Plague of Frogs",
+   "vol": 14,
+   "title": "King of Fear",
+   "year": 2010
+  }
+ ],
+ "hell_on_earth": [
+  {
+   "cycle": "Hell on Earth",
+   "vol": 1,
+   "title": "New World",
+   "year": 2011
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 2,
+   "title": "Gods and Monsters",
+   "year": 2012
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 3,
+   "title": "Russia",
+   "year": 2012
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 4,
+   "title": "The Devil's Engine & The Long Death",
+   "year": 2012
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 5,
+   "title": "The Pickens County Horror & Others",
+   "year": 2013
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 6,
+   "title": "The Return of the Master",
+   "year": 2013
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 7,
+   "title": "A Cold Day in Hell",
+   "year": 2014
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 8,
+   "title": "Lake of Fire",
+   "year": 2014
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 9,
+   "title": "The Reign of the Black Flame",
+   "year": 2014
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 10,
+   "title": "The Devil's Wings",
+   "year": 2015
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 11,
+   "title": "Flesh and Stone",
+   "year": 2015
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 12,
+   "title": "Metamorphosis",
+   "year": 2015
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 13,
+   "title": "End of Days",
+   "year": 2016
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 14,
+   "title": "The Exorcist",
+   "year": 2016
+  },
+  {
+   "cycle": "Hell on Earth",
+   "vol": 15,
+   "title": "Cometh the Hour",
+   "year": 2017
+  }
+ ],
+ "devil_you_know": [
+  {
+   "cycle": "The Devil You Know",
+   "vol": 1,
+   "title": "Messiah",
+   "year": 2018
+  },
+  {
+   "cycle": "The Devil You Know",
+   "vol": 2,
+   "title": "Pandemonium",
+   "year": 2019
+  },
+  {
+   "cycle": "The Devil You Know",
+   "vol": 3,
+   "title": "Ragna Rok",
+   "year": 2019
+  }
+ ],
+ "war_1948": {
+  "cycle": "1946–1948",
+  "vol": 0,
+  "title": "1948",
+  "year": 2013
+ },
+ "spokes": {
+  "abe": {
+   "name": "Abe Sapien",
+   "vols": 9,
+   "first": "The Drowning",
+   "last": "Lost Lives and Other Stories"
+  },
+  "lobster": {
+   "name": "Lobster Johnson",
+   "vols": 6,
+   "first": "The Iron Prometheus",
+   "last": "A Chain Forged in Life"
+  },
+  "witchfinder": {
+   "name": "Sir Edward Grey, Witchfinder",
+   "vols": 6,
+   "first": "In the Service of Angels",
+   "last": "The Reign of Darkness"
+  },
+  "hb-bprd": {
+   "name": "Hellboy and the B.P.R.D.",
+   "vols": 9,
+   "first": "1952",
+   "last": "1957"
+  }
+ }
+}
