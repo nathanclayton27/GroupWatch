@@ -1,0 +1,188 @@
+{
+ "loz": {
+  "id": "10025",
+  "name": "The Legend of Zelda",
+  "main_h": 8.02,
+  "year": 1986
+ },
+ "zelda2": {
+  "id": "11533",
+  "name": "Zelda II: The Adventure of Link",
+  "main_h": 10.08,
+  "year": 1987
+ },
+ "alttp": {
+  "id": "10028",
+  "name": "The Legend of Zelda: A Link to the Past",
+  "main_h": 14.95,
+  "year": 1991
+ },
+ "la": {
+  "id": "10032",
+  "name": "The Legend of Zelda: Link's Awakening",
+  "main_h": 14.83,
+  "year": 1993
+ },
+ "oot": {
+  "id": "10035",
+  "name": "The Legend of Zelda: Ocarina of Time",
+  "main_h": 26.75,
+  "year": 1998
+ },
+ "mm": {
+  "id": "10034",
+  "name": "The Legend of Zelda: Majora's Mask",
+  "main_h": 21.41,
+  "year": 2000
+ },
+ "oos": {
+  "id": "10039",
+  "name": "The Legend of Zelda: Oracle of Seasons",
+  "main_h": 15.23,
+  "year": 2001
+ },
+ "ooa": {
+  "id": "10038",
+  "name": "The Legend of Zelda: Oracle of Ages",
+  "main_h": 16.38,
+  "year": 2001
+ },
+ "fsae": {
+  "id": "10031",
+  "name": "The Legend of Zelda: Four Swords Anniversary Edition",
+  "main_h": 3.11,
+  "year": 2011
+ },
+ "ww": {
+  "id": "10045",
+  "name": "The Legend of Zelda: The Wind Waker",
+  "main_h": 28.91,
+  "year": 2002
+ },
+ "fsa": {
+  "id": "10030",
+  "name": "The Legend of Zelda: Four Swords Adventures",
+  "main_h": 15.0,
+  "year": 2004
+ },
+ "mc": {
+  "id": "10044",
+  "name": "The Legend of Zelda: The Minish Cap",
+  "main_h": 15.48,
+  "year": 2004
+ },
+ "tp": {
+  "id": "10046",
+  "name": "The Legend of Zelda: Twilight Princess",
+  "main_h": 37.01,
+  "year": 2006
+ },
+ "ph": {
+  "id": "10041",
+  "name": "The Legend of Zelda: Phantom Hourglass",
+  "main_h": 17.17,
+  "year": 2007
+ },
+ "st": {
+  "id": "10043",
+  "name": "The Legend of Zelda: Spirit Tracks",
+  "main_h": 20.1,
+  "year": 2009
+ },
+ "ss": {
+  "id": "10042",
+  "name": "The Legend of Zelda: Skyward Sword",
+  "main_h": 37.96,
+  "year": 2011
+ },
+ "albw": {
+  "id": "12965",
+  "name": "The Legend of Zelda: A Link Between Worlds",
+  "main_h": 16.04,
+  "year": 2013
+ },
+ "tfh": {
+  "id": "30592",
+  "name": "The Legend of Zelda: Tri Force Heroes",
+  "main_h": 14.33,
+  "year": 2015
+ },
+ "botw": {
+  "id": "38019",
+  "name": "The Legend of Zelda: Breath of the Wild",
+  "main_h": 50.32,
+  "year": 2017
+ },
+ "totk": {
+  "id": "72589",
+  "name": "The Legend of Zelda: Tears of the Kingdom",
+  "main_h": 59.25,
+  "year": 2023
+ },
+ "eow": {
+  "id": "152370",
+  "name": "The Legend of Zelda: Echoes of Wisdom",
+  "main_h": 21.06,
+  "year": 2024
+ },
+ "oot3d": {
+  "id": "10036",
+  "name": "The Legend of Zelda: Ocarina of Time 3D",
+  "main_h": 25.11,
+  "year": 2011
+ },
+ "wwhd": {
+  "id": "13142",
+  "name": "The Legend of Zelda: The Wind Waker HD",
+  "main_h": 25.24,
+  "year": 2013
+ },
+ "mm3d": {
+  "id": "23235",
+  "name": "The Legend of Zelda: Majora's Mask 3D",
+  "main_h": 24.86,
+  "year": 2015
+ },
+ "tphd": {
+  "id": "33835",
+  "name": "The Legend of Zelda: Twilight Princess HD",
+  "main_h": 29.93,
+  "year": 2016
+ },
+ "la2019": {
+  "id": "66255",
+  "name": "The Legend of Zelda: Link's Awakening",
+  "main_h": 14.09,
+  "year": 2019
+ },
+ "sshd": {
+  "id": "88748",
+  "name": "The Legend of Zelda: Skyward Sword HD",
+  "main_h": 30.82,
+  "year": 2021
+ },
+ "hw": {
+  "id": "21021",
+  "name": "Hyrule Warriors",
+  "main_h": 12.77,
+  "year": 2014
+ },
+ "cadence": {
+  "id": "65732",
+  "name": "Cadence of Hyrule",
+  "main_h": 5.94,
+  "year": 2019
+ },
+ "aoc": {
+  "id": "82895",
+  "name": "Hyrule Warriors: Age of Calamity",
+  "main_h": 24.86,
+  "year": 2020
+ },
+ "aoi": {
+  "id": "166254",
+  "name": "Hyrule Warriors: Age of Imprisonment",
+  "main_h": 22.04,
+  "year": 2025
+ }
+}

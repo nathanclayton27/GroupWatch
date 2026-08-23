@@ -1,0 +1,159 @@
+{
+  "slug": "fromsoft",
+  "title": "FromSoftware",
+  "subtitle": "the Souls line and its adjacents, in release order",
+  "kind": "games",
+  "order": 51,
+  "year": "2009–",
+  "blurb": "10 games — about 337 hours of story, 266 of it the Souls line proper.",
+  "unit": {
+    "one": "game",
+    "many": "games"
+  },
+  "verb": {
+    "base": "play",
+    "past": "played",
+    "ing": "playing"
+  },
+  "itemOrder": "number-first",
+  "accent": "#3A3530",
+  "accentDark": "#C9B8A0",
+  "tiers": true,
+  "itemTiers": true,
+  "paceTiers": [
+    1,
+    2
+  ],
+  "paceLabel": "the Armored Core outlier",
+  "notes": [
+    [
+      "Scope.",
+      "The Souls line and what sits beside it, not the whole studio — no King's Field, no older Armored Core, no Déraciné. Armored Core VI is the one marked outlier, included because it is what the studio built between Elden Ring and its expansion; skip it and nothing breaks."
+    ],
+    [
+      "Hours are story only.",
+      "HowLongToBeat main-story figures, as asked — the credits, not completion. These are the games where skill moves the number more than anywhere else on this site, so treat every figure as a median, not a promise."
+    ],
+    [
+      "Tiers, and the rule behind them.",
+      "1 is the Souls line proper: the seven complete games from Demon's Souls to Elden Ring, about 266 hours. 2 is what extends Elden Ring — Shadow of the Erdtree and Nightreign. 3 is the outlier. A finish date covers 1 and 2; the checkbox adds Armored Core."
+    ],
+    [
+      "Erdtree is a row, on purpose.",
+      "Shadow of the Erdtree is DLC, but it is the size of a full game and most of a playthrough long, so it gets its own tracked row rather than a footnote on Elden Ring."
+    ],
+    [
+      "Remaster and remake, noted rather than listed.",
+      "Dark Souls: Remastered (2018) and the Demon's Souls remake (2020) are the same stories in better clothes. Play whichever edition you like and tick the one row — separate rows would double-count the same game."
+    ],
+    "Game list and years from Wikipedia's FromSoftware article; hours from HowLongToBeat, collected from its own pages and verified by name."
+  ],
+  "sections": [
+    {
+      "id": "souls",
+      "title": "The Souls line",
+      "sub": "2009–2016 · 5 games · 175 hours story",
+      "intro": "Five games that invent and refine the shape: ruined kingdoms, bonfire logic, death as the teacher.",
+      "items": [
+        {
+          "id": "fs-demons",
+          "t": "Demon's Souls",
+          "n": "2009",
+          "w": 27.13,
+          "tier": 1,
+          "note": "Where the shape starts. The 2020 PS5 remake is the accessible way in — same story, same hours."
+        },
+        {
+          "id": "fs-ds1",
+          "t": "Dark Souls",
+          "n": "2011",
+          "w": 41.7,
+          "tier": 1,
+          "note": "The one the rest get measured against; the 2018 Remastered is the version to actually buy, and it counts as this row"
+        },
+        {
+          "id": "fs-ds2",
+          "t": "Dark Souls II",
+          "n": "2014",
+          "w": 42.97,
+          "tier": 1,
+          "note": "The odd one out and better than its reputation; Scholar of the First Sin is its current edition"
+        },
+        {
+          "id": "fs-bloodborne",
+          "t": "Bloodborne",
+          "n": "2015",
+          "w": 32.2,
+          "tier": 1,
+          "note": "PlayStation only. Faster, meaner, gothic; The Old Hunters expansion is worth the detour."
+        },
+        {
+          "id": "fs-ds3",
+          "t": "Dark Souls III",
+          "n": "2016",
+          "w": 31.22,
+          "tier": 1,
+          "note": "The send-off; Ashes of Ariandel and The Ringed City close it properly"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "depart",
+      "title": "Sekiro to Elden Ring",
+      "sub": "2019–2022 · 2 games · 90 hours story",
+      "intro": "Two departures — one takes the build away, the other opens the map.",
+      "items": [
+        {
+          "id": "fs-sekiro",
+          "t": "Sekiro: Shadows Die Twice",
+          "n": "2019",
+          "w": 30.26,
+          "tier": 1,
+          "note": "Same house, different verbs — no builds, no summons, just the sword"
+        },
+        {
+          "id": "fs-eldenring",
+          "t": "Elden Ring",
+          "n": "2022",
+          "w": 60.08,
+          "tier": 1,
+          "note": "The open-world one, and the biggest single game here"
+        }
+      ]
+    },
+    {
+      "id": "after",
+      "title": "After Elden Ring",
+      "sub": "2023–2025 · 3 games · 72 hours story",
+      "intro": "The outlier, the expansion, and the co-op spin.",
+      "items": [
+        {
+          "id": "fs-ac6",
+          "t": "Armored Core VI: Fires of Rubicon",
+          "n": "2023",
+          "w": 17.6,
+          "tier": 3,
+          "note": "The marked outlier — not Souls at all, here because it is what the studio built between Elden Ring and its expansion. Mechs and missions; skip it and nothing breaks.",
+          "opt": 1
+        },
+        {
+          "id": "fs-erdtree",
+          "t": "Elden Ring: Shadow of the Erdtree",
+          "n": "2024",
+          "w": 25.69,
+          "tier": 2,
+          "note": "Elden Ring's expansion, the size of a full game — a row so a group can track it. Entered from deep in Elden Ring, so it cannot come first."
+        },
+        {
+          "id": "fs-nightreign",
+          "t": "Elden Ring: Nightreign",
+          "n": "2025",
+          "w": 28.21,
+          "tier": 2,
+          "note": "The standalone co-op spin — runs rather than a quest, and the one row built for playing together"
+        }
+      ]
+    }
+  ]
+}
