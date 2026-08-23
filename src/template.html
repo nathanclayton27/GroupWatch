@@ -2052,11 +2052,16 @@ function showPeek(idx, x, top, grouped){
   peek.style.left = '0px';
   const w = peek.offsetWidth;
   peek.style.width = w + 'px';
-  let shift = -50;
-  if(x + w/2 + pad > innerWidth) shift = -100;   // hang it to the left
-  else if(x - w/2 - pad < 0)     shift = 0;      // hang it to the right
-  peek.style.left = Math.min(Math.max(x, pad), innerWidth - pad)+'px';
-  peek.style.transform = 'translate('+shift+'%,-100%)';
+  // Mirror around the pointer where there is room, but clamp the box's
+  // extent as the last word. Pure mirroring assumed the box is small next
+  // to the viewport; on a phone it can be most of the viewport wide, and
+  // taps in the in-between zones flipped it clean over an edge.
+  let bl = x - w / 2;
+  if(x + w / 2 + pad > innerWidth) bl = x - w;   // hang it to the left
+  else if(x - w / 2 - pad < 0)     bl = x;       // hang it to the right
+  bl = Math.min(Math.max(bl, pad), innerWidth - w - pad);
+  peek.style.left = bl + 'px';
+  peek.style.transform = 'translate(0,-100%)';
   peek.style.top  = Math.max(peek.offsetHeight+pad, top-14)+'px';
 }
 
