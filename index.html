@@ -73,6 +73,7 @@ h1 em{font-style:normal;color:var(--signal)}
 
 /* fisheye */
 .striprow:hover,.stackrow:hover{margin-left:-14px;margin-right:-14px}
+.striprow.dense,.stackrow.dense{gap:0}
 .striprow[data-dim="1"] .tick:not(.peeked),
 .stackrow[data-dim="1"] .tick:not(.peeked){opacity:.62}
 .tick.peeked{background:var(--ink-2)}
@@ -334,7 +335,9 @@ footer a{color:var(--steel)}
    hundreds of pixels down it. `relative` keeps the button in the flow, which
    is what the rule wanted, and restores the anchor. */
 @media (max-width:560px){
-  .switcher{position:relative;padding:12px 14px 0}
+  /* left/top from the desktop fixed rule survive into position:relative and
+     shove the full-width box 14px off the right edge of every phone screen */
+  .switcher{position:relative;top:auto;left:auto;padding:12px 14px 0}
   .switcher .pmenu{left:14px;right:14px;min-width:0;max-width:none}
 }
 
@@ -1431,7 +1434,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'f74e12fd51b8';
+const BUILD = '11c7ce9059ee';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -2750,7 +2753,13 @@ function indexStrip(host){
   // actually there — 7px still wins on a desktop, where there is room.
   const marks = centers.filter(c=> c !== undefined).length;
   if(marks && w){
-    const share = (w - (marks - 1)) / marks;   // 1px gaps between marks
+    let share = (w - (marks - 1)) / marks;   // 1px gaps between marks
+    // Past ~200 marks on a phone the gaps alone outgrow the row: 199 one-pixel
+    // gaps plus 200 one-pixel marks is 399px of irreducible width. When even a
+    // 1px mark cannot fit beside its gap, drop the gaps and share the bare row.
+    const dense = share < 1.05;
+    host.classList.toggle('dense', dense);
+    if(dense) share = w / marks;
     host.style.setProperty('--floor',
       Math.max(1, Math.min(7, share * 0.6)).toFixed(2) + 'px');
   }
