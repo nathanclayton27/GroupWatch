@@ -328,6 +328,13 @@ def main():
                         if e["kind"] == "show"
                         else "Not an MCU film — it just came out during %s" % title)
                 e["note"] = mark + (" · " + e["note"] if e["note"] else "")
+        # the display span comes from the rows, not the phase-boundary dates —
+        # a season that started after a phase closed (Agent Carter S2) or a
+        # non-MCU film in the gap (Deadpool) belongs to the bucket by release
+        # order, and the hand-set spans drifted from what the rows say
+        row_years = sorted(int(str(e["n"])[:4]) for e in got)
+        years = ("%d–" % row_years[0] if years.endswith("–")
+                 else "%d–%d" % (row_years[0], row_years[-1]))
         sec = {
             "id": sid, "tier": 1, "title": title,
             "sub": "%s · %d film%s%s · %.0f hours"

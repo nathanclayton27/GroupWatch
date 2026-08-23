@@ -32,6 +32,14 @@ ERAS = [
 ]
 
 
+# rows that need one honest line beyond director and runtime
+EXTRA_NOTES = {
+    "Cannibal Holocaust":
+        "Group request — fair warning: infamous rather than funny, with "
+        "real animal deaths and a court case",
+}
+
+
 def slug(t):
     t = unicodedata.normalize("NFKD", t)
     t = "".join(c for c in t if not unicodedata.combining(c))
@@ -61,6 +69,8 @@ def main():
             bits.append("%d min" % f["runtime"])
             if f.get("tv"):
                 bits.append("a TV film")
+            if f["t"] in EXTRA_NOTES:
+                bits.append(EXTRA_NOTES[f["t"]])
             items.append({"id": "bmn-%d-%s" % (f["year"], slug(f["t"])),
                           "t": f["t"], "n": str(f["year"]),
                           "note": " · ".join(bits)})

@@ -276,8 +276,8 @@
     "kind": "comics",
     "year": "2000–2015",
     "blurb": "693 issues across 65 series, interleaved the way the line was meant to be read.",
-    "accent": "",
-    "accentDark": "",
+    "accent": "#33415C",
+    "accentDark": "#94A8C9",
     "unit": {
       "one": "issue",
       "many": "issues"
@@ -1055,14 +1055,14 @@
     "subtitle": "so bad they're appointment viewing",
     "kind": "films",
     "year": "1953–2019",
-    "blurb": "33 famously terrible films worth watching with people you like — Plan 9 to Cats, best served loud. Any order.",
+    "blurb": "34 famously terrible films worth watching with people you like — Plan 9 to Cats, best served loud. Any order.",
     "accent": "#8E2A6F",
     "accentDark": "#E06AC0",
     "unit": {
       "one": "film",
       "many": "films"
     },
-    "total": 33
+    "total": 34
   },
   {
     "slug": "body-swap",

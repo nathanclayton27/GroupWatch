@@ -78,7 +78,7 @@ FILM_NOTE = {
 }
 
 ERAS = [
-    ("sat", "Saturday mornings", "1966–1982",
+    ("sat", "Saturday mornings", "1966–1983",
      "Grantray-Lawrence's barely animated Marvel Super Heroes through the "
      "Spider-Friends, plus two Toei TV movies — everything up to the long "
      "gap of the late eighties."),

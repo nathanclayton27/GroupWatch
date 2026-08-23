@@ -53,7 +53,7 @@
       "id": "premcu",
       "tier": 1,
       "title": "Before the MCU",
-      "sub": "1998–2008 · 16 films · 31 hours",
+      "sub": "1998–2007 · 16 films · 31 hours",
       "items": [
         {
           "id": "mv-f-1998-blade",
@@ -270,7 +270,7 @@
       "id": "p2",
       "tier": 1,
       "title": "Phase Two",
-      "sub": "2012–2015 · 11 films and 8 seasons · 118 hours",
+      "sub": "2013–2016 · 11 films and 8 seasons · 118 hours",
       "items": [
         {
           "id": "mv-f-2013-iron-man-3",
@@ -425,7 +425,7 @@
       "id": "p3",
       "tier": 1,
       "title": "Phase Three",
-      "sub": "2015–2019 · 19 films and 19 seasons · 250 hours",
+      "sub": "2016–2021 · 19 films and 19 seasons · 250 hours",
       "items": [
         {
           "id": "mv-f-2016-captain-america-civil-war",
@@ -728,7 +728,7 @@
       "id": "p4",
       "tier": 1,
       "title": "Phase Four",
-      "sub": "2019–2022 · 8 films and 10 seasons · 60 hours",
+      "sub": "2021–2022 · 8 films and 10 seasons · 60 hours",
       "items": [
         {
           "id": "mv-t-2021-wandavision",
@@ -874,7 +874,7 @@
       "id": "p5",
       "tier": 1,
       "title": "Phase Five",
-      "sub": "2022–2025 · 10 films and 9 seasons · 67 hours",
+      "sub": "2023–2025 · 10 films and 9 seasons · 67 hours",
       "items": [
         {
           "id": "mv-f-2023-ant-man-and-the-wasp-quantumania",

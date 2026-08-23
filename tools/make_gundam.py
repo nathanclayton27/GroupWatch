@@ -144,7 +144,7 @@ def main():
         {
             "id": "manga",
             "title": "Manga",
-            "sub": "1994–2025 · %d series · unweighted" % len(manga),
+            "sub": "1994– · %d series · unweighted" % len(manga),
             "intro": "The major ones only. They weigh nothing, so they sit "
                      "outside the hour counts.",
             "links": [

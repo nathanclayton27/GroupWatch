@@ -71,7 +71,7 @@ def main():
          "sub": "2005 · the first Cosmere novel", "open": True,
          "items": [row("Elantris", stand["Elantris"]["year"])]},
         {"id": "mb-era1", "title": "Mistborn: the First Era",
-         "sub": "2006–2008 · the trilogy, plus its novella",
+         "sub": "2006–2016 · the trilogy, plus its 2016 novella",
          "items": [row(x["title"], x["year"]) for x in era1]
                   + [row("Mistborn: Secret History",
                          shorts["Secret History"]["year"],

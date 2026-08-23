@@ -15,6 +15,8 @@
     "past": "read",
     "ing": "reading"
   },
+  "accent": "#33415C",
+  "accentDark": "#94A8C9",
   "tiers": false,
   "notes": [
     [

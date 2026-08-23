@@ -48,7 +48,7 @@ PRESENT = 2026
 SHOW_EPISODE_FIX = {"Static Shock": 52}
 
 ERAS = [
-    ("superfriends", "The Super Friends era", "1966–1991",
+    ("superfriends", "The Super Friends era", "1966–1990",
      "Filmation's Superman through Hanna-Barbera's Super Friends: "
      "Saturday-morning cartoons, made fast and sold by the hour. The "
      "broadcast blocks that only repackaged shows already here are left "

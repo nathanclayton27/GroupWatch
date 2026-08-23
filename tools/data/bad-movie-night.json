@@ -75,6 +75,15 @@
    "released_year": 2003
   },
   {
+   "t": "Cannibal Holocaust",
+   "target": "Cannibal Holocaust",
+   "year": 1980,
+   "runtime": 96,
+   "director": "Ruggero Deodato",
+   "lede_year": 1980,
+   "tv": false
+  },
+  {
    "t": "The Apple",
    "target": "The Apple (1980 film)",
    "year": 1980,

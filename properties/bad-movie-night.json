@@ -5,7 +5,7 @@
   "kind": "films",
   "order": 68,
   "year": "1953–2019",
-  "blurb": "33 famously terrible films worth watching with people you like — Plan 9 to Cats, best served loud. Any order.",
+  "blurb": "34 famously terrible films worth watching with people you like — Plan 9 to Cats, best served loud. Any order.",
   "unit": {
     "one": "film",
     "many": "films"
@@ -85,7 +85,7 @@
     {
       "id": "vhs",
       "title": "The video-store era",
-      "sub": "1977–1991 · 11 films",
+      "sub": "1977–1991 · 12 films",
       "intro": "Too strange to die: rescued by late-night cable, rental shelves and riffing.",
       "items": [
         {
@@ -93,6 +93,12 @@
           "t": "Death Bed: The Bed That Eats",
           "n": "1977",
           "note": "George Barry · 77 min"
+        },
+        {
+          "id": "bmn-1980-cannibal-holocaust",
+          "t": "Cannibal Holocaust",
+          "n": "1980",
+          "note": "Ruggero Deodato · 96 min · Group request — fair warning: infamous rather than funny, with real animal deaths and a court case"
         },
         {
           "id": "bmn-1980-the-apple",

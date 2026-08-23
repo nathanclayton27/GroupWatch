@@ -44,8 +44,11 @@ def slug(t):
 
 
 def note_for(r):
-    bits = [b for b in (r.get("director"), r.get("country"),
-                        str(r["year"]) if r.get("year") else None) if b]
+    # the country field arrives with a trailing space from the source, which
+    # doubled up around the separators on every note — strip each bit
+    bits = [b.strip() for b in (r.get("director"), r.get("country"),
+                                str(r["year"]) if r.get("year") else None)
+            if b and str(b).strip()]
     # An empty list means the read failed, not that Criterion never pressed it.
     # Say so rather than leave a gap that looks like a finished answer.
     bits.append(", ".join(r["formats"]) if r["formats"] else "formats unconfirmed")

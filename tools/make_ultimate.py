@@ -392,6 +392,10 @@ def main():
                  "meant to be read." % (total, len(series)),
         "unit": {"one": "issue", "many": "issues"},
         "verb": {"base": "read", "past": "read", "ing": "reading"},
+        # the one property that shipped with no accent at all — it wore the
+        # engine's fallback grey until the QA pass caught it
+        "accent": "#33415C",
+        "accentDark": "#94A8C9",
         "tiers": False,
         "notes": [
             ["The interleaving is the point.", "Spider-Man, X-Men, the Ultimates "
