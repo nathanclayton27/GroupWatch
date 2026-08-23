@@ -670,7 +670,7 @@ let MANIFEST = [
     "kind": "anime",
     "year": "2022",
     "blurb": "Season one — ten episodes across two weeks, five a week.",
-    "accent": "#A8B820",
+    "accent": "#7E8C15",
     "accentDark": "#D4E338",
     "unit": {
       "one": "episode",
@@ -2255,6 +2255,21 @@ let MANIFEST = [
       "many": "volumes"
     },
     "total": 51
+  },
+  {
+    "slug": "zombie-films",
+    "title": "Zombie Films",
+    "subtitle": "the walking dead on film, era by era",
+    "kind": "films",
+    "year": "1919–",
+    "blurb": "605 zombie features with a Wikipedia page to their name, from the voodoo pictures to the streaming wave. No order — let the picker choose.",
+    "accent": "#5A6B2E",
+    "accentDark": "#A8C46A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 605
   }
 ];
 
@@ -2274,7 +2289,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '93be8a1f3261';
+const BUILD = '04b70152dda1';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -4432,7 +4447,7 @@ function pickRandom(e){
 }
 
 // One all-day VEVENT per schedule window, so club dates live in calendars.
-function icsEscape(t){ return String(t).replace(/([,;\\])/g, '\\$1'); }
+function icsEscape(t){ return String(t).replace(/([,;\\])/g, '\\$1').replace(/\r?\n/g, '\\n'); }
 function downloadICS(){
   const ws = windows();
   if(!ws || !ws.length){ flash('No schedule to export.', 'gmsg2'); return; }

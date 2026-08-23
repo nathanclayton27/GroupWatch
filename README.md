@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and thirteen lists, from a ten-episode anime to a 1,337-spine film
+One hundred and fourteen lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -92,7 +92,7 @@ the *Sight & Sound* 2022 top 100 as the poll ranks it, the classic
 *Universal Monsters* cycle by family, and four group-night lists built for
 the random picker: *Bad Movie Night*, *body-swap films*, *real-time films*
 (the runtime is the plot), *bottle episodes* (each one verified to its
-season and number), and *one-location films*.
+season and number), and *one-location films*. Plus *Zombie Films* — 605 features from 1919 to now, era by era, picker-first.
 
 **Everything at once.** *The Criterion Collection*, all 1,337 spine numbers
 in order with the formats each was released on; *Best Picture*, every nominee

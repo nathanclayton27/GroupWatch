@@ -8,7 +8,7 @@
   "unit": { "one": "episode", "many": "episodes" },
   "verb": { "base": "watch", "past": "watched", "ing": "watching" },
   "itemOrder": "number-first",
-  "accent": "#A8B820",
+  "accent": "#7E8C15",
   "accentDark": "#D4E338",
   "tiers": false,
   "schedule": {

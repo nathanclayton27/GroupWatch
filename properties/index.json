@@ -126,7 +126,7 @@
     "kind": "anime",
     "year": "2022",
     "blurb": "Season one — ten episodes across two weeks, five a week.",
-    "accent": "#A8B820",
+    "accent": "#7E8C15",
     "accentDark": "#D4E338",
     "unit": {
       "one": "episode",
@@ -1711,5 +1711,20 @@
       "many": "volumes"
     },
     "total": 51
+  },
+  {
+    "slug": "zombie-films",
+    "title": "Zombie Films",
+    "subtitle": "the walking dead on film, era by era",
+    "kind": "films",
+    "year": "1919–",
+    "blurb": "605 zombie features with a Wikipedia page to their name, from the voodoo pictures to the streaming wave. No order — let the picker choose.",
+    "accent": "#5A6B2E",
+    "accentDark": "#A8C46A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 605
   }
 ]

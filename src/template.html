@@ -2718,7 +2718,7 @@ function pickRandom(e){
 }
 
 // One all-day VEVENT per schedule window, so club dates live in calendars.
-function icsEscape(t){ return String(t).replace(/([,;\\])/g, '\\$1'); }
+function icsEscape(t){ return String(t).replace(/([,;\\])/g, '\\$1').replace(/\r?\n/g, '\\n'); }
 function downloadICS(){
   const ws = windows();
   if(!ws || !ws.length){ flash('No schedule to export.', 'gmsg2'); return; }
