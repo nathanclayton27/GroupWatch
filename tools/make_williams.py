@@ -13,6 +13,10 @@ Three rows have no resolvable runtime — a 1987 TV film, a 2011 short and a
 """
 import json
 import pathlib
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from gwlib.prop import slug
 
 SLUG = "robin-williams"
 
@@ -29,13 +33,6 @@ ERAS = [
     ("late", "The last films", 2010, 2023,
      "The final decade, the posthumous releases, and one last short."),
 ]
-
-
-def slug(t):
-    keep = "".join(c.lower() if c.isalnum() else "-" for c in t)
-    while "--" in keep:
-        keep = keep.replace("--", "-")
-    return keep.strip("-")
 
 
 def main():

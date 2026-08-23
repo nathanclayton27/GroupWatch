@@ -15,7 +15,10 @@ Data: scratch/zombies/collect.py -> tools/data/zombie-films.json
 """
 import json
 import pathlib
-import unicodedata
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from gwlib.prop import slug
 
 SLUG = "zombie-films"
 
@@ -34,15 +37,6 @@ ERAS = [
      "them found-footage — the boom years."),
     ("modern", "The modern wave", 2013, None, ""),
 ]
-
-
-def slug(t):
-    t = unicodedata.normalize("NFKD", t)
-    t = "".join(c for c in t if not unicodedata.combining(c))
-    keep = "".join(c.lower() if c.isalnum() else "-" for c in t)
-    while "--" in keep:
-        keep = keep.replace("--", "-")
-    return keep.strip("-")
 
 
 def main():

@@ -22,7 +22,10 @@ one chip away.
 """
 import json
 import pathlib
-import unicodedata
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from gwlib.prop import slug, normt
 
 SLUG = "time-loops"
 DATA = pathlib.Path(__file__).resolve().parent / "data"
@@ -113,27 +116,6 @@ DECADES = [
     ("tens", "The 2010s", 2010, 2019, ""),
     ("twenties", "The 2020s", 2020, None, ""),
 ]
-
-
-def slug(t):
-    t = unicodedata.normalize("NFKD", t)
-    t = "".join(c for c in t if not unicodedata.combining(c))
-    keep = "".join(c.lower() if c.isalnum() else "-" for c in t)
-    while "--" in keep:
-        keep = keep.replace("--", "-")
-    return keep.strip("-")
-
-
-def normt(t):
-    t = unicodedata.normalize("NFKD", t)
-    t = "".join(c for c in t if not unicodedata.combining(c)).lower()
-    t = "".join(c if c.isalnum() else " " for c in t)
-    t = " ".join(t.split())
-    for art in ("the ", "a ", "an "):
-        if t.startswith(art):
-            t = t[len(art):]
-            break
-    return t
 
 
 HOUSE = "Added here — shout if it doesn't belong"
