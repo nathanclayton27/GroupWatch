@@ -1276,6 +1276,36 @@ let MANIFEST = [
     "total": 190
   },
   {
+    "slug": "dragon-ball",
+    "title": "Dragon Ball (anime)",
+    "subtitle": "",
+    "kind": "anime",
+    "year": "1986–2025",
+    "blurb": "659 episodes in broadcast order, Dragon Ball through Daima; Kai is one optional row.",
+    "accent": "#C4661F",
+    "accentDark": "#F0A45C",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 660
+  },
+  {
+    "slug": "dragon-ball-manga",
+    "title": "Dragon Ball (manga)",
+    "subtitle": "Akira Toriyama",
+    "kind": "manga",
+    "year": "1984–",
+    "blurb": "The original 519 chapters in 42 volumes, then Dragon Ball Super — 104 so far, still running.",
+    "accent": "#B03A2E",
+    "accentDark": "#EF8A7A",
+    "unit": {
+      "one": "chapter",
+      "many": "chapters"
+    },
+    "total": 623
+  },
+  {
     "slug": "zelda",
     "title": "The Legend of Zelda",
     "subtitle": "mainline in release order, remakes and spin-offs marked",
@@ -1289,6 +1319,21 @@ let MANIFEST = [
       "many": "games"
     },
     "total": 31
+  },
+  {
+    "slug": "yakuza",
+    "title": "Yakuza / Like a Dragon",
+    "subtitle": "the mainline saga in release order, Judgment and the samurai games included",
+    "kind": "games",
+    "year": "2005–",
+    "blurb": "18 games in release order — about 417 hours of story, 275 of it the saga spine.",
+    "accent": "#8A1F3A",
+    "accentDark": "#E86A8F",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 18
   },
   {
     "slug": "fromsoft",
@@ -1319,6 +1364,21 @@ let MANIFEST = [
       "many": "games"
     },
     "total": 21
+  },
+  {
+    "slug": "resident-evil",
+    "title": "Resident Evil",
+    "subtitle": "mainline in release order, Code: Veronica and the remakes included",
+    "kind": "games",
+    "year": "1996–",
+    "blurb": "19 games in release order — about 198 hours of story, 109 of it the mainline spine.",
+    "accent": "#5F1F1F",
+    "accentDark": "#D97A7A",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 19
   },
   {
     "slug": "stephen-king",
@@ -1371,7 +1431,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'ba92b6490276';
+const BUILD = 'f74e12fd51b8';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

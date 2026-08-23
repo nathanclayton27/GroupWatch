@@ -1,0 +1,243 @@
+{
+  "slug": "yakuza",
+  "title": "Yakuza / Like a Dragon",
+  "subtitle": "the mainline saga in release order, Judgment and the samurai games included",
+  "kind": "games",
+  "order": 50,
+  "year": "2005–",
+  "blurb": "18 games in release order — about 417 hours of story, 275 of it the saga spine.",
+  "unit": {
+    "one": "game",
+    "many": "games"
+  },
+  "verb": {
+    "base": "play",
+    "past": "played",
+    "ing": "playing"
+  },
+  "itemOrder": "number-first",
+  "accent": "#8A1F3A",
+  "accentDark": "#E86A8F",
+  "tiers": true,
+  "itemTiers": true,
+  "paceTiers": [
+    1,
+    2
+  ],
+  "paceLabel": "the PS2 originals, samurai games and extras",
+  "notes": [
+    [
+      "The 0-first debate.",
+      "Release order starts at 1; Yakuza 0 is the chronological start and the most common modern entry point. Starting at 0 is the smoothest on-ramp and makes two later games land differently; starting at 1 meets the cast the way 2005 did and saves 0 for when its backstory hits hardest. Both orders are legitimate — this list is release order, with 0 marked."
+    ],
+    [
+      "Kiwami over the PS2 pair.",
+      "The 2005–06 originals never left the PS2, so the Kiwami remakes are how the stories of 1 and 2 are actually played now. The remakes carry the spine tier here; the originals sit in tier 3 for the archaeologists. Tick one version of each, not both."
+    ],
+    [
+      "The Judgment pair.",
+      "A sibling series rather than a chapter — same city, standalone detective stories. Skip it and the saga still reads; play it and Kamurocho gets deeper. A finish date covers tiers 1 and 2, and the checkbox adds the rest."
+    ],
+    [
+      "The samurai games.",
+      "Kenzan! (2008) never left Japan and weighs nothing here. Ishin! reached the west as the 2023 remake — the one on this list; its 2014 original was also Japan-only."
+    ],
+    [
+      "Left off, on purpose.",
+      "Dead Souls (non-canon), the Kurohyō pair (Japan-only PSP), Fist of the North Star: Lost Paradise (a licensed crossover) and the remaster collections and Director's Cuts of games already listed."
+    ],
+    [
+      "Hours are story only.",
+      "HowLongToBeat main-story figures — no substories, no completionist padding. In this series the substories are half the point, so treat every figure as a floor."
+    ],
+    "Hours from HowLongToBeat, matched by name and release year."
+  ],
+  "sections": [
+    {
+      "id": "ps2",
+      "title": "The PS2 originals",
+      "sub": "2005–2006 · 2 games · 33 hours story",
+      "items": [
+        {
+          "id": "yak-y1",
+          "t": "Yakuza",
+          "n": "2005",
+          "w": 13.85,
+          "tier": 3,
+          "note": "The PS2 original. Kiwami retells it — see the note below.",
+          "opt": 1
+        },
+        {
+          "id": "yak-y2",
+          "t": "Yakuza 2",
+          "n": "2006",
+          "w": 18.67,
+          "tier": 3,
+          "note": "The PS2 original; Kiwami 2 retells it.",
+          "opt": 1
+        }
+      ],
+      "intro": "Where it started, and the two games the Kiwami remakes retell. Here for completeness; most groups will tick the remakes instead.",
+      "open": true
+    },
+    {
+      "id": "ps3",
+      "title": "The PS3 era",
+      "sub": "2008–2012 · 4 games · 73 hours story",
+      "items": [
+        {
+          "id": "yak-kenzan",
+          "t": "Ryū ga Gotoku Kenzan!",
+          "n": "2008",
+          "w": 0,
+          "tier": 3,
+          "note": "Samurai spin-off set in 1605 Kyoto. Never localized, so it weighs nothing here.",
+          "opt": 1
+        },
+        {
+          "id": "yak-y3",
+          "t": "Yakuza 3",
+          "n": "2009",
+          "w": 16.8,
+          "tier": 1
+        },
+        {
+          "id": "yak-y4",
+          "t": "Yakuza 4",
+          "n": "2010",
+          "w": 20.56,
+          "tier": 1
+        },
+        {
+          "id": "yak-y5",
+          "t": "Yakuza 5",
+          "n": "2012",
+          "w": 35.95,
+          "tier": 1,
+          "note": "The sprawler — five playable leads, five cities."
+        }
+      ],
+      "intro": "The saga finds its shape — and its habit of sprawling."
+    },
+    {
+      "id": "kiwami-era",
+      "title": "Zero and the Kiwami years",
+      "sub": "2015–2017 · 4 games · 86 hours story",
+      "items": [
+        {
+          "id": "yak-y0",
+          "t": "Yakuza 0",
+          "n": "2015",
+          "w": 31.56,
+          "tier": 1,
+          "note": "The chronological start — 1988, before everything. The famous alternative first game; see the note below."
+        },
+        {
+          "id": "yak-kiwami",
+          "t": "Yakuza Kiwami",
+          "n": "2016",
+          "w": 17.96,
+          "tier": 1,
+          "note": "Remake of the first game, and the way most people now play 1 — it carries the spine tier for that reason."
+        },
+        {
+          "id": "yak-y6",
+          "t": "Yakuza 6: The Song of Life",
+          "n": "2016",
+          "w": 18.23,
+          "tier": 1
+        },
+        {
+          "id": "yak-kiwami2",
+          "t": "Yakuza Kiwami 2",
+          "n": "2017",
+          "w": 18.53,
+          "tier": 1,
+          "note": "Remake of 2 on the Dragon Engine — the way most people now play 2."
+        }
+      ],
+      "intro": "The prequel that became the standard entry point, and the remakes built in its image."
+    },
+    {
+      "id": "handover",
+      "title": "Judgment and the handover",
+      "sub": "2018–2021 · 3 games · 98 hours story",
+      "items": [
+        {
+          "id": "yak-judgment",
+          "t": "Judgment",
+          "n": "2018",
+          "w": 27.66,
+          "tier": 2,
+          "note": "The detective spin-off line begins — same city, standalone story."
+        },
+        {
+          "id": "yak-y7",
+          "t": "Yakuza: Like a Dragon",
+          "n": "2020",
+          "w": 46.12,
+          "tier": 1,
+          "note": "The handover: Ichiban arrives and the series turns RPG."
+        },
+        {
+          "id": "yak-lost-judgment",
+          "t": "Lost Judgment",
+          "n": "2021",
+          "w": 24.32,
+          "tier": 2
+        }
+      ],
+      "intro": "A detective sibling series arrives, and the saga hands the lead from Kiryu to Ichiban."
+    },
+    {
+      "id": "yearly",
+      "title": "The one-a-year era",
+      "sub": "2023–2026 · 5 games · 127 hours story",
+      "items": [
+        {
+          "id": "yak-ishin",
+          "t": "Like a Dragon: Ishin!",
+          "n": "2023",
+          "w": 23.87,
+          "tier": 3,
+          "note": "The samurai spin-off, finally localized — a 2023 remake of the 2014 Japan-only original.",
+          "opt": 1
+        },
+        {
+          "id": "yak-gaiden",
+          "t": "Like a Dragon Gaiden: The Man Who Erased His Name",
+          "n": "2023",
+          "w": 12.57,
+          "tier": 1,
+          "note": "Short Kiryu chapter between 6 and Infinite Wealth — Infinite Wealth assumes you have seen it."
+        },
+        {
+          "id": "yak-y8",
+          "t": "Like a Dragon: Infinite Wealth",
+          "n": "2024",
+          "w": 57.03,
+          "tier": 1
+        },
+        {
+          "id": "yak-pirate",
+          "t": "Like a Dragon: Pirate Yakuza in Hawaii",
+          "n": "2025",
+          "w": 17.36,
+          "tier": 3,
+          "note": "Majima's own gaiden, set after Infinite Wealth.",
+          "opt": 1
+        },
+        {
+          "id": "yak-kiwami3",
+          "t": "Yakuza Kiwami 3 & Dark Ties",
+          "n": "2026",
+          "w": 15.82,
+          "tier": 3,
+          "note": "Remake of 3 plus Dark Ties, a new side story set just before it.",
+          "opt": 1
+        }
+      ],
+      "intro": "RGG Studio at full cadence — a samurai remake, two gaiden, and the biggest game in the series."
+    }
+  ]
+}

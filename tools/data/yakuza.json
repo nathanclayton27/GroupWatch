@@ -1,0 +1,104 @@
+{
+ "y1": {
+  "id": "11421",
+  "name": "Yakuza",
+  "main_h": 13.85,
+  "year": 2005
+ },
+ "y2": {
+  "id": "11422",
+  "name": "Yakuza 2",
+  "main_h": 18.67,
+  "year": 2006
+ },
+ "y3": {
+  "id": "11423",
+  "name": "Yakuza 3",
+  "main_h": 16.8,
+  "year": 2009
+ },
+ "y4": {
+  "id": "11424",
+  "name": "Yakuza 4",
+  "main_h": 20.56,
+  "year": 2010
+ },
+ "y5": {
+  "id": "22940",
+  "name": "Yakuza 5",
+  "main_h": 35.95,
+  "year": 2012
+ },
+ "y0": {
+  "id": "43056",
+  "name": "Yakuza 0",
+  "main_h": 31.56,
+  "year": 2015
+ },
+ "kiwami": {
+  "id": "39484",
+  "name": "Yakuza Kiwami",
+  "main_h": 17.96,
+  "year": 2016
+ },
+ "y6": {
+  "id": "42407",
+  "name": "Yakuza 6: The Song of Life",
+  "main_h": 18.23,
+  "year": 2016
+ },
+ "kiwami2": {
+  "id": "49620",
+  "name": "Yakuza Kiwami 2",
+  "main_h": 18.53,
+  "year": 2017
+ },
+ "judgment": {
+  "id": "60754",
+  "name": "Judgment",
+  "main_h": 27.66,
+  "year": 2018
+ },
+ "y7": {
+  "id": "71931",
+  "name": "Yakuza: Like a Dragon",
+  "main_h": 46.12,
+  "year": 2020
+ },
+ "lost-judgment": {
+  "id": "92446",
+  "name": "Lost Judgment",
+  "main_h": 24.32,
+  "year": 2021
+ },
+ "ishin": {
+  "id": "113549",
+  "name": "Like a Dragon: Ishin!",
+  "main_h": 23.87,
+  "year": 2014
+ },
+ "gaiden": {
+  "id": "113584",
+  "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
+  "main_h": 12.57,
+  "year": 2023
+ },
+ "y8": {
+  "id": "113583",
+  "name": "Like a Dragon: Infinite Wealth",
+  "main_h": 57.03,
+  "year": 2024
+ },
+ "pirate": {
+  "id": "157123",
+  "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+  "main_h": 17.36,
+  "year": 2025
+ },
+ "kiwami3": {
+  "id": "174901",
+  "name": "Yakuza Kiwami 3 & Dark Ties",
+  "main_h": 15.82,
+  "year": 2026
+ }
+}

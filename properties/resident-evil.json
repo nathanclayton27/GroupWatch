@@ -1,0 +1,251 @@
+{
+  "slug": "resident-evil",
+  "title": "Resident Evil",
+  "subtitle": "mainline in release order, Code: Veronica and the remakes included",
+  "kind": "games",
+  "order": 53,
+  "year": "1996–",
+  "blurb": "19 games in release order — about 198 hours of story, 109 of it the mainline spine.",
+  "unit": {
+    "one": "game",
+    "many": "games"
+  },
+  "verb": {
+    "base": "play",
+    "past": "played",
+    "ing": "playing"
+  },
+  "itemOrder": "number-first",
+  "accent": "#5F1F1F",
+  "accentDark": "#D97A7A",
+  "tiers": true,
+  "itemTiers": true,
+  "paceTiers": [
+    1,
+    2
+  ],
+  "paceLabel": "the remakes and spin-offs",
+  "notes": [
+    [
+      "Remake or original.",
+      "The 2019–2023 remakes are rebuilds, not reissues — same events, different shape, with scenes moved, cut or invented. The spine lists the originals and the remakes sit in tier 3, marked; either version counts for following the story, so tick one per game. The exception is 1996: the 2002 remake is widely treated as the definitive first game."
+    ],
+    [
+      "Zero, the odd number.",
+      "Resident Evil 0 is mainline by its number and a prequel by its content — nothing later depends on it. It keeps the spine tier for completeness; skip-and-return is a fine way to play it."
+    ],
+    [
+      "The tier-2 canon.",
+      "Code: Veronica continues the classic story — a mainline sequel in everything but the digit — and the Revelations pair bridges 4–5 and 5–6. A finish date covers tiers 1 and 2, and the checkbox adds the rest. A Code: Veronica remake, Resident Evil Veronica, is due in 2027."
+    ],
+    [
+      "Spin-offs, kept to two.",
+      "The Chronicles rail shooters stay because they retell the classic era and work as recaps. Survivor, Outbreak, Dead Aim, Operation Raccoon City and the multiplayer experiments are left off on purpose."
+    ],
+    [
+      "Hours are story only.",
+      "HowLongToBeat main-story figures — no extra modes, no completionist padding. The classics assume second scenarios and replays; those are not counted."
+    ],
+    "Hours from HowLongToBeat, matched by name and release year."
+  ],
+  "sections": [
+    {
+      "id": "classic",
+      "title": "The classic era",
+      "sub": "1996–2000 · 4 games · 31 hours story",
+      "items": [
+        {
+          "id": "re-re1",
+          "t": "Resident Evil",
+          "n": "1996",
+          "w": 6.67,
+          "tier": 1,
+          "note": "The mansion — the series' whole grammar in one house."
+        },
+        {
+          "id": "re-re2",
+          "t": "Resident Evil 2",
+          "n": "1998",
+          "w": 6.15,
+          "tier": 1
+        },
+        {
+          "id": "re-re3",
+          "t": "Resident Evil 3: Nemesis",
+          "n": "1999",
+          "w": 6.79,
+          "tier": 1,
+          "note": "Runs alongside 2 rather than after it."
+        },
+        {
+          "id": "re-cv",
+          "t": "Resident Evil – Code: Veronica",
+          "n": "2000",
+          "w": 11.81,
+          "tier": 2,
+          "note": "The mainline sequel in everything but a number. Code: Veronica X is the definitive cut; a full remake is due in 2027."
+        }
+      ],
+      "intro": "Fixed cameras, ink ribbons, Raccoon City — the four games that define survival horror.",
+      "open": true
+    },
+    {
+      "id": "gamecube",
+      "title": "The GameCube years",
+      "sub": "2002 · 2 games · 23 hours story",
+      "items": [
+        {
+          "id": "re-re1r",
+          "t": "Resident Evil (2002)",
+          "n": "2002",
+          "w": 11.63,
+          "tier": 3,
+          "note": "The GameCube remake of the first game — widely treated as the definitive way to play it. On modern platforms as the HD Remaster.",
+          "opt": 1
+        },
+        {
+          "id": "re-re0",
+          "t": "Resident Evil 0",
+          "n": "2002",
+          "w": 11.22,
+          "tier": 1,
+          "note": "The prequel — mainline by number, and the one numbered game later entries never lean on."
+        }
+      ],
+      "intro": "Capcom remade the first game and prequeled it in the same year."
+    },
+    {
+      "id": "action",
+      "title": "The action era",
+      "sub": "2005–2012 · 6 games · 72 hours story",
+      "items": [
+        {
+          "id": "re-re4",
+          "t": "Resident Evil 4",
+          "n": "2005",
+          "w": 15.6,
+          "tier": 1,
+          "note": "The reinvention — over-the-shoulder, action-forward, and half the industry followed."
+        },
+        {
+          "id": "re-uc",
+          "t": "Resident Evil: The Umbrella Chronicles",
+          "n": "2007",
+          "w": 7.41,
+          "tier": 3,
+          "note": "Wii rail shooter retelling the early arc — a recap machine more than a chapter.",
+          "opt": 1
+        },
+        {
+          "id": "re-re5",
+          "t": "Resident Evil 5",
+          "n": "2009",
+          "w": 12.05,
+          "tier": 1,
+          "note": "Built for co-op, and the close of the storyline the classics opened."
+        },
+        {
+          "id": "re-dc",
+          "t": "Resident Evil: The Darkside Chronicles",
+          "n": "2009",
+          "w": 8.02,
+          "tier": 3,
+          "note": "The second rail shooter — retells 2 and Code: Veronica.",
+          "opt": 1
+        },
+        {
+          "id": "re-rev",
+          "t": "Resident Evil: Revelations",
+          "n": "2012",
+          "w": 8.32,
+          "tier": 2,
+          "note": "Between 4 and 5, born on 3DS — episodic horror on a ship."
+        },
+        {
+          "id": "re-re6",
+          "t": "Resident Evil 6",
+          "n": "2012",
+          "w": 20.82,
+          "tier": 1,
+          "note": "Four campaigns, every tone at once — the bloated one, and the pivot point."
+        }
+      ],
+      "intro": "4 turns the camera over the shoulder and the series chases action for a decade."
+    },
+    {
+      "id": "return",
+      "title": "The return to horror",
+      "sub": "2015–2017 · 2 games · 19 hours story",
+      "items": [
+        {
+          "id": "re-rev2",
+          "t": "Resident Evil: Revelations 2",
+          "n": "2015",
+          "w": 10.25,
+          "tier": 2,
+          "note": "Between 5 and 6, episodic — Claire's return."
+        },
+        {
+          "id": "re-re7",
+          "t": "Resident Evil 7: Biohazard",
+          "n": "2017",
+          "w": 9.23,
+          "tier": 1,
+          "note": "First person and back to horror — a fresh start that still counts."
+        }
+      ],
+      "intro": "First person, family estates, found footage — the correction."
+    },
+    {
+      "id": "twotracks",
+      "title": "Two tracks at once",
+      "sub": "2019–2026 · 5 games · 52 hours story",
+      "items": [
+        {
+          "id": "re-re2r",
+          "t": "Resident Evil 2 (2019)",
+          "n": "2019",
+          "w": 8.84,
+          "tier": 3,
+          "note": "The remake that started the modern wave — a full rebuild of 1998, not a reissue.",
+          "opt": 1
+        },
+        {
+          "id": "re-re3r",
+          "t": "Resident Evil 3 (2020)",
+          "n": "2020",
+          "w": 6.0,
+          "tier": 3,
+          "note": "Remake of Nemesis — brisk, and trims as much as it rebuilds.",
+          "opt": 1
+        },
+        {
+          "id": "re-village",
+          "t": "Resident Evil Village",
+          "n": "2021",
+          "w": 9.85,
+          "tier": 1,
+          "note": "Direct sequel to 7 — the Winters story's second half."
+        },
+        {
+          "id": "re-re4r",
+          "t": "Resident Evil 4 (2023)",
+          "n": "2023",
+          "w": 16.18,
+          "tier": 3,
+          "note": "Remake of the 2005 game, and the rare remake that stands fully beside its original.",
+          "opt": 1
+        },
+        {
+          "id": "re-requiem",
+          "t": "Resident Evil Requiem",
+          "n": "2026",
+          "w": 11.04,
+          "tier": 1,
+          "note": "The ninth mainline game — a new lead, and a return to Raccoon City."
+        }
+      ],
+      "intro": "Since 2019 the series runs remakes of the classics alongside new mainline entries, one lane feeding the other."
+    }
+  ]
+}
