@@ -1,0 +1,174 @@
+{
+  "slug": "satoshi-kon",
+  "title": "Satoshi Kon",
+  "subtitle": "everything he directed",
+  "kind": "anime",
+  "order": 62,
+  "year": "1997–2008",
+  "blurb": "Four films, thirteen episodes of Paranoia Agent, and a one-minute short — the complete directed work, about 11 hours.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#8B3A85",
+  "accentDark": "#E794DC",
+  "tiers": false,
+  "notes": [
+    [
+      "This is the whole thing.",
+      "Kon died in 2010, at 46, with four features, one series and a short finished. It all fits in a week, and none of it is skippable."
+    ],
+    [
+      "Dreaming Machine has no row.",
+      "His fifth feature was in production at Madhouse when he died and was never completed — by 2013 only 600 of 1,500 shots were animated, and the studio has declined to finish it with another director in his place. There is nothing to watch, so there is nothing to tick."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "Film runtimes from Wikidata; Paranoia Agent episodes weigh a flat 24 minutes; the short weighs its one minute."
+    ],
+    "Filmography and the Good Morning short from Wikipedia's Satoshi Kon article; episode list from List of Paranoia Agent episodes; film runtimes from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "films",
+      "title": "The four films",
+      "sub": "1997–2006 · 4 films · 6 hours",
+      "intro": "Four features in nine years, every one of them about a boundary failing — performer and role, actress and century, dream and machine. All from Madhouse, all complete in themselves.",
+      "items": [
+        {
+          "id": "sk-1997-perfect-blue",
+          "t": "Perfect Blue",
+          "n": "1997",
+          "w": 1.35,
+          "note": "His debut feature"
+        },
+        {
+          "id": "sk-2001-millennium-actress",
+          "t": "Millennium Actress",
+          "n": "2001",
+          "w": 1.45
+        },
+        {
+          "id": "sk-2003-tokyo-godfathers",
+          "t": "Tokyo Godfathers",
+          "n": "2003",
+          "w": 1.55
+        },
+        {
+          "id": "sk-2006-paprika",
+          "t": "Paprika",
+          "n": "2006",
+          "w": 1.5,
+          "note": "His last completed feature"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "paranoia",
+      "title": "Paranoia Agent",
+      "sub": "2004 · 13 episodes · 5 hours",
+      "intro": "The one television series — built from ideas that wouldn't fit in the films, and aired between Tokyo Godfathers and Paprika. Episodes weigh 24 minutes each.",
+      "items": [
+        {
+          "id": "sk-pa-1",
+          "t": "Enter Lil' Slugger",
+          "n": "1",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-2",
+          "t": "The Golden Shoes",
+          "n": "2",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-3",
+          "t": "Double Lips",
+          "n": "3",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-4",
+          "t": "A Man's Path",
+          "n": "4",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-5",
+          "t": "The Holy Warrior",
+          "n": "5",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-6",
+          "t": "Fear of a Direct Hit",
+          "n": "6",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-7",
+          "t": "MHz",
+          "n": "7",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-8",
+          "t": "Happy Family Planning",
+          "n": "8",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-9",
+          "t": "ETC",
+          "n": "9",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-10",
+          "t": "Mellow Maromi",
+          "n": "10",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-11",
+          "t": "No Entry",
+          "n": "11",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-12",
+          "t": "Radar Man",
+          "n": "12",
+          "w": 0.4
+        },
+        {
+          "id": "sk-pa-13",
+          "t": "The Final Episode",
+          "n": "13",
+          "w": 0.4
+        }
+      ]
+    },
+    {
+      "id": "ohayo",
+      "title": "Ohayō",
+      "sub": "2008 · one minute",
+      "intro": "A one-minute short made for the Ani*Kuri15 television anthology — the last thing he finished.",
+      "items": [
+        {
+          "id": "sk-2008-ohayo",
+          "t": "Ohayō (Good Morning)",
+          "n": "2008",
+          "w": 0.02,
+          "note": "1-minute short for the Ani*Kuri15 television anthology"
+        }
+      ]
+    }
+  ]
+}

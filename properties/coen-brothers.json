@@ -1,0 +1,207 @@
+{
+  "slug": "coen-brothers",
+  "title": "The Coen Brothers",
+  "subtitle": "eighteen together, four apart",
+  "kind": "films",
+  "order": 58,
+  "year": "1984–2025",
+  "blurb": "The eighteen features Joel and Ethan made together, plus the four solo films with a note saying whose — about 38 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#6E5533",
+  "accentDark": "#C9A87E",
+  "tiers": false,
+  "notes": [
+    [
+      "Credits were odd for twenty years.",
+      "Until The Ladykillers, Joel alone took the directing credit and Ethan the producing credit, and they edited under the shared pseudonym Roderick Jaynes. The filmography credits them jointly on all eighteen; so does this list."
+    ],
+    [
+      "What isn't here.",
+      "Their segments of the anthology films Paris, je t'aime and Chacun son cinéma, The Naked Man (Ethan co-wrote it, nobody named Coen directed it), the unreleased Jack of Spades, and the scripts and producing jobs for other directors."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata, in hours, for all 22 films."
+    ],
+    "Filmography from Wikipedia's Coen brothers filmography; runtimes from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "indie",
+      "title": "The independents",
+      "sub": "1984–1998 · 7 films · 12 hours",
+      "intro": "Blood Simple through The Big Lebowski: seven films of murders misfiring and kidnappings going wrong, with Fargo the point where the Academy caught up. Ethan went uncredited as co-director until 2004 — they were always both directing.",
+      "items": [
+        {
+          "id": "cb-1984-blood-simple",
+          "t": "Blood Simple",
+          "n": "1984",
+          "w": 1.63
+        },
+        {
+          "id": "cb-1987-raising-arizona",
+          "t": "Raising Arizona",
+          "n": "1987",
+          "w": 1.57
+        },
+        {
+          "id": "cb-1990-miller-s-crossing",
+          "t": "Miller's Crossing",
+          "n": "1990",
+          "w": 1.92
+        },
+        {
+          "id": "cb-1991-barton-fink",
+          "t": "Barton Fink",
+          "n": "1991",
+          "w": 1.93
+        },
+        {
+          "id": "cb-1994-the-hudsucker-proxy",
+          "t": "The Hudsucker Proxy",
+          "n": "1994",
+          "w": 1.85
+        },
+        {
+          "id": "cb-1996-fargo",
+          "t": "Fargo",
+          "n": "1996",
+          "w": 1.63
+        },
+        {
+          "id": "cb-1998-the-big-lebowski",
+          "t": "The Big Lebowski",
+          "n": "1998",
+          "w": 1.95
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "studio",
+      "title": "The studio decade",
+      "sub": "2000–2009 · 7 films · 12 hours",
+      "intro": "O Brother through A Serious Man — three George Clooney pictures, a black-and-white noir, a Ladykillers remake, and No Country for Old Men, which won them Best Picture, Best Director and Best Adapted Screenplay at once.",
+      "items": [
+        {
+          "id": "cb-2000-o-brother-where-art-thou",
+          "t": "O Brother, Where Art Thou?",
+          "n": "2000",
+          "w": 1.72
+        },
+        {
+          "id": "cb-2001-the-man-who-wasn-t-there",
+          "t": "The Man Who Wasn't There",
+          "n": "2001",
+          "w": 1.93
+        },
+        {
+          "id": "cb-2003-intolerable-cruelty",
+          "t": "Intolerable Cruelty",
+          "n": "2003",
+          "w": 1.6
+        },
+        {
+          "id": "cb-2004-the-ladykillers",
+          "t": "The Ladykillers",
+          "n": "2004",
+          "w": 1.73
+        },
+        {
+          "id": "cb-2007-no-country-for-old-men",
+          "t": "No Country for Old Men",
+          "n": "2007",
+          "w": 2.03
+        },
+        {
+          "id": "cb-2008-burn-after-reading",
+          "t": "Burn After Reading",
+          "n": "2008",
+          "w": 1.6
+        },
+        {
+          "id": "cb-2009-a-serious-man",
+          "t": "A Serious Man",
+          "n": "2009",
+          "w": 1.75
+        }
+      ]
+    },
+    {
+      "id": "late",
+      "title": "Late together",
+      "sub": "2010–2018 · 4 films · 8 hours",
+      "intro": "A western from the Portis novel, a folk singer going nowhere, old Hollywood, and an anthology western — the last film they made as a pair.",
+      "items": [
+        {
+          "id": "cb-2010-true-grit",
+          "t": "True Grit",
+          "n": "2010",
+          "w": 1.83
+        },
+        {
+          "id": "cb-2013-inside-llewyn-davis",
+          "t": "Inside Llewyn Davis",
+          "n": "2013",
+          "w": 1.75
+        },
+        {
+          "id": "cb-2016-hail-caesar",
+          "t": "Hail, Caesar!",
+          "n": "2016",
+          "w": 1.77
+        },
+        {
+          "id": "cb-2018-the-ballad-of-buster-scruggs",
+          "t": "The Ballad of Buster Scruggs",
+          "n": "2018",
+          "w": 2.22
+        }
+      ]
+    },
+    {
+      "id": "solo",
+      "title": "Solo",
+      "sub": "2021–2025 · 4 films · 6 hours",
+      "intro": "After Buster Scruggs they worked apart for a stretch — Joel toward Shakespeare, Ethan toward a Jerry Lee Lewis documentary and two lesbian B-movie capers. Each row says whose film it is.",
+      "items": [
+        {
+          "id": "cb-2021-the-tragedy-of-macbeth",
+          "t": "The Tragedy of Macbeth",
+          "n": "2021",
+          "w": 1.75,
+          "note": "Joel, alone"
+        },
+        {
+          "id": "cb-2022-jerry-lee-lewis-trouble-in-mind",
+          "t": "Jerry Lee Lewis: Trouble in Mind",
+          "n": "2022",
+          "w": 1.23,
+          "note": "Ethan, alone · documentary"
+        },
+        {
+          "id": "cb-2024-drive-away-dolls",
+          "t": "Drive-Away Dolls",
+          "n": "2024",
+          "w": 1.4,
+          "note": "Ethan, alone · co-written with Tricia Cooke"
+        },
+        {
+          "id": "cb-2025-honey-don-t",
+          "t": "Honey Don't!",
+          "n": "2025",
+          "w": 1.48,
+          "note": "Ethan, alone · co-written with Tricia Cooke"
+        }
+      ]
+    }
+  ]
+}

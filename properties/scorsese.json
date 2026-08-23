@@ -1,0 +1,338 @@
+{
+  "slug": "scorsese",
+  "title": "Martin Scorsese",
+  "subtitle": "the directed features, plus the documentaries",
+  "kind": "films",
+  "order": 56,
+  "year": "1967–2023",
+  "blurb": "26 features from Who's That Knocking at My Door to Killers of the Flower Moon, with the 13 feature documentaries as optional rows — about 88 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#5E1F38",
+  "accentDark": "#D67F92",
+  "tiers": false,
+  "notes": [
+    [
+      "The documentaries are optional.",
+      "Thirteen features he directed for their own sake — The Last Waltz, No Direction Home, Shine a Light and the rest. They count toward nothing unless you tick them."
+    ],
+    [
+      "What isn't here.",
+      "Obsessions (writer only), the shorts and television episodes, two television one-offs with no runtime on record anywhere, and Street Scenes, where his directing credit is itself uncredited."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata, in hours. Personality Crisis: One Night Only has no runtime on record and weighs nothing rather than a guess."
+    ],
+    "Filmography from Wikipedia's Martin Scorsese filmography; runtimes from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "early",
+      "title": "New York pictures",
+      "sub": "1967–1976 · 5 films · 9 hours",
+      "intro": "A first feature grown out of his NYU student work, an exploitation picture for Roger Corman, and then Mean Streets — the film where the voice arrives. Taxi Driver is where everyone else noticed.",
+      "items": [
+        {
+          "id": "ms-1967-who-s-that-knocking-at-my-door",
+          "t": "Who's That Knocking at My Door",
+          "n": "1967",
+          "w": 1.43
+        },
+        {
+          "id": "ms-1972-boxcar-bertha",
+          "t": "Boxcar Bertha",
+          "n": "1972",
+          "w": 1.45
+        },
+        {
+          "id": "ms-1973-mean-streets",
+          "t": "Mean Streets",
+          "n": "1973",
+          "w": 1.98
+        },
+        {
+          "id": "ms-1974-alice-doesn-t-live-here-anymore",
+          "t": "Alice Doesn't Live Here Anymore",
+          "n": "1974",
+          "w": 1.87
+        },
+        {
+          "id": "ms-1976-taxi-driver",
+          "t": "Taxi Driver",
+          "n": "1976",
+          "w": 1.9
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "bruised",
+      "title": "The bruising years",
+      "sub": "1977–1985 · 4 films · 8 hours",
+      "intro": "A big-studio musical that failed, Raging Bull made out of the wreckage, and two comedies about humiliation — one on a talk-show set, one over a single long night in SoHo.",
+      "items": [
+        {
+          "id": "ms-1977-new-york-new-york",
+          "t": "New York, New York",
+          "n": "1977",
+          "w": 2.58
+        },
+        {
+          "id": "ms-1980-raging-bull",
+          "t": "Raging Bull",
+          "n": "1980",
+          "w": 2.15
+        },
+        {
+          "id": "ms-1982-the-king-of-comedy",
+          "t": "The King of Comedy",
+          "n": "1982",
+          "w": 1.82
+        },
+        {
+          "id": "ms-1985-after-hours",
+          "t": "After Hours",
+          "n": "1985",
+          "w": 1.62
+        }
+      ]
+    },
+    {
+      "id": "imperial",
+      "title": "The imperial stretch",
+      "sub": "1986–1999 · 8 films · 19 hours",
+      "intro": "Eight films: a pool-hall sequel, the most protested picture of the decade, Goodfellas and Casino, a remade thriller, a costume drama, a Dalai Lama film, and a dying paramedic.",
+      "items": [
+        {
+          "id": "ms-1986-the-color-of-money",
+          "t": "The Color of Money",
+          "n": "1986",
+          "w": 2.0
+        },
+        {
+          "id": "ms-1988-the-last-temptation-of-christ",
+          "t": "The Last Temptation of Christ",
+          "n": "1988",
+          "w": 2.72
+        },
+        {
+          "id": "ms-1990-goodfellas",
+          "t": "Goodfellas",
+          "n": "1990",
+          "w": 2.43
+        },
+        {
+          "id": "ms-1991-cape-fear",
+          "t": "Cape Fear",
+          "n": "1991",
+          "w": 2.13
+        },
+        {
+          "id": "ms-1993-the-age-of-innocence",
+          "t": "The Age of Innocence",
+          "n": "1993",
+          "w": 2.32
+        },
+        {
+          "id": "ms-1995-casino",
+          "t": "Casino",
+          "n": "1995",
+          "w": 2.97
+        },
+        {
+          "id": "ms-1997-kundun",
+          "t": "Kundun",
+          "n": "1997",
+          "w": 2.23
+        },
+        {
+          "id": "ms-1999-bringing-out-the-dead",
+          "t": "Bringing Out the Dead",
+          "n": "1999",
+          "w": 2.02
+        }
+      ]
+    },
+    {
+      "id": "dicaprio",
+      "title": "The DiCaprio decade",
+      "sub": "2002–2013 · 6 films · 16 hours",
+      "intro": "Five films with Leonardo DiCaprio, plus Hugo — and the Oscar finally arrived with The Departed.",
+      "items": [
+        {
+          "id": "ms-2002-gangs-of-new-york",
+          "t": "Gangs of New York",
+          "n": "2002",
+          "w": 2.8
+        },
+        {
+          "id": "ms-2004-the-aviator",
+          "t": "The Aviator",
+          "n": "2004",
+          "w": 2.83
+        },
+        {
+          "id": "ms-2006-the-departed",
+          "t": "The Departed",
+          "n": "2006",
+          "w": 2.52
+        },
+        {
+          "id": "ms-2010-shutter-island",
+          "t": "Shutter Island",
+          "n": "2010",
+          "w": 2.32
+        },
+        {
+          "id": "ms-2011-hugo",
+          "t": "Hugo",
+          "n": "2011",
+          "w": 2.1
+        },
+        {
+          "id": "ms-2013-the-wolf-of-wall-street",
+          "t": "The Wolf of Wall Street",
+          "n": "2013",
+          "w": 3.0
+        }
+      ]
+    },
+    {
+      "id": "late",
+      "title": "The late epics",
+      "sub": "2016–2023 · 3 films · 10 hours",
+      "intro": "Three films about faith, regret and complicity, none of them under two and a half hours.",
+      "items": [
+        {
+          "id": "ms-2016-silence",
+          "t": "Silence",
+          "n": "2016",
+          "w": 2.68
+        },
+        {
+          "id": "ms-2019-the-irishman",
+          "t": "The Irishman",
+          "n": "2019",
+          "w": 3.48
+        },
+        {
+          "id": "ms-2023-killers-of-the-flower-moon",
+          "t": "Killers of the Flower Moon",
+          "n": "2023",
+          "w": 3.43
+        }
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "The documentaries",
+      "sub": "1974–2022 · 13 films · 27 hours · optional",
+      "intro": "The feature documentaries — concert films, Dylan and Harrison portraits, and two long essays on film history. All optional rows; watch what pulls you.",
+      "items": [
+        {
+          "id": "ms-1974-italianamerican",
+          "t": "Italianamerican",
+          "n": "1974",
+          "w": 0.82,
+          "opt": 1
+        },
+        {
+          "id": "ms-1978-american-boy-a-profile-of-steven-prince",
+          "t": "American Boy: A Profile of Steven Prince",
+          "n": "1978",
+          "w": 0.92,
+          "opt": 1
+        },
+        {
+          "id": "ms-1978-the-last-waltz",
+          "t": "The Last Waltz",
+          "n": "1978",
+          "w": 1.95,
+          "opt": 1
+        },
+        {
+          "id": "ms-1995-a-personal-journey-with-martin-scorsese-through-american-movies",
+          "t": "A Personal Journey with Martin Scorsese Through American Movies",
+          "n": "1995",
+          "w": 3.75,
+          "opt": 1,
+          "note": "Co-directed with Michael Henry Wilson"
+        },
+        {
+          "id": "ms-1999-my-voyage-to-italy",
+          "t": "My Voyage to Italy",
+          "n": "1999",
+          "w": 4.1,
+          "opt": 1
+        },
+        {
+          "id": "ms-2005-no-direction-home-bob-dylan",
+          "t": "No Direction Home: Bob Dylan",
+          "n": "2005",
+          "w": 3.42,
+          "opt": 1
+        },
+        {
+          "id": "ms-2008-shine-a-light",
+          "t": "Shine a Light",
+          "n": "2008",
+          "w": 2.03,
+          "opt": 1
+        },
+        {
+          "id": "ms-2010-a-letter-to-elia",
+          "t": "A Letter to Elia",
+          "n": "2010",
+          "w": 1.0,
+          "opt": 1,
+          "note": "Co-directed with Kent Jones"
+        },
+        {
+          "id": "ms-2010-public-speaking",
+          "t": "Public Speaking",
+          "n": "2010",
+          "w": 1.4,
+          "opt": 1
+        },
+        {
+          "id": "ms-2011-george-harrison-living-in-the-material-world",
+          "t": "George Harrison: Living in the Material World",
+          "n": "2011",
+          "w": 3.47,
+          "opt": 1
+        },
+        {
+          "id": "ms-2014-the-50-year-argument",
+          "t": "The 50 Year Argument",
+          "n": "2014",
+          "w": 1.62,
+          "opt": 1,
+          "note": "Co-directed with David Tedeschi"
+        },
+        {
+          "id": "ms-2019-rolling-thunder-revue-a-bob-dylan-story-by-martin-scorsese",
+          "t": "Rolling Thunder Revue: A Bob Dylan Story by Martin Scorsese",
+          "n": "2019",
+          "w": 2.37,
+          "opt": 1
+        },
+        {
+          "id": "ms-2022-personality-crisis-one-night-only",
+          "t": "Personality Crisis: One Night Only",
+          "n": "2022",
+          "w": 0.0,
+          "opt": 1,
+          "note": "Co-directed with David Tedeschi · No runtime on record — weighs nothing"
+        }
+      ]
+    }
+  ]
+}
