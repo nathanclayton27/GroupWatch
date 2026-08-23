@@ -1116,17 +1116,17 @@ let MANIFEST = [
   {
     "slug": "time-loops",
     "title": "Time Loops",
-    "subtitle": "the same day, again — films and single episodes",
+    "subtitle": "the same day, again — films, episodes, whole shows",
     "kind": "films & episodes",
-    "year": "1992–",
-    "blurb": "15 films, 11 single episodes and one whole series where the day repeats. Assembled by the group; watch in any order.",
+    "year": "1963–",
+    "blurb": "145 films, 36 single episodes and 8 whole series where the day repeats — the group's picks plus every list the Discord brought in. Watch in any order.",
     "accent": "#6B2E7A",
     "accentDark": "#C08FE0",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 27
+    "total": 189
   },
   {
     "slug": "columbo",
@@ -1449,7 +1449,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '26b62e719df9';
+const BUILD = '12a5f1cea775';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

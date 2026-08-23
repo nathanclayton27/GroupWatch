@@ -28,7 +28,9 @@ MSX games), *Gundam* by continuity, *Godzilla* down to the Fest shorts,
 Wire* and the whole *Breaking Bad* universe episode by episode, *Columbo*
 with real per-movie runtimes, *James Bond* by actor, *Alien & Predator* on
 one timeline, *JoJo's* and *Dragon Ball* (anime and manga as separate
-pages), and *Time Loops* — the group's own Groundhog Day collection.
+pages), and *Time Loops* — the group's own Groundhog Day collection, grown
+to 189 entries via Wikipedia's time-loop film list and two Reddit
+compilations, every episode verified against the episode tables.
 
 **Games with story-only hours.** *Kingdom Hearts*, *Metal Gear*, *Zelda*,
 *Yakuza / Like a Dragon*, the *FromSoftware* Souls line, *Final Fantasy* and
