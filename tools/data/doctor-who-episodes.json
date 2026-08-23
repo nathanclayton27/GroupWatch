@@ -1,0 +1,2873 @@
+{
+ "totals": {
+  "episodes": 892,
+  "stories": 319,
+  "classic_episodes": 695,
+  "classic_serials": 155,
+  "revival_episodes": 196,
+  "missing_episodes": 95,
+  "missing_serials": 10
+ },
+ "classic": [
+  {
+   "season": 1,
+   "years": "1963–1964",
+   "episodes": 42,
+   "stories": 8,
+   "serials": [
+    {
+     "story": 1,
+     "suffix": "",
+     "title": "An Unearthly Child",
+     "parts": 4,
+     "year1": 1963,
+     "year2": 1963
+    },
+    {
+     "story": 2,
+     "suffix": "",
+     "title": "The Daleks",
+     "parts": 7,
+     "year1": 1963,
+     "year2": 1964
+    },
+    {
+     "story": 3,
+     "suffix": "",
+     "title": "The Edge of Destruction",
+     "parts": 2,
+     "year1": 1964,
+     "year2": 1964
+    },
+    {
+     "story": 4,
+     "suffix": "",
+     "title": "Marco Polo",
+     "parts": 7,
+     "year1": 1964,
+     "year2": 1964
+    },
+    {
+     "story": 5,
+     "suffix": "",
+     "title": "The Keys of Marinus",
+     "parts": 6,
+     "year1": 1964,
+     "year2": 1964
+    },
+    {
+     "story": 6,
+     "suffix": "",
+     "title": "The Aztecs",
+     "parts": 4,
+     "year1": 1964,
+     "year2": 1964
+    },
+    {
+     "story": 7,
+     "suffix": "",
+     "title": "The Sensorites",
+     "parts": 6,
+     "year1": 1964,
+     "year2": 1964
+    },
+    {
+     "story": 8,
+     "suffix": "",
+     "title": "The Reign of Terror",
+     "parts": 6,
+     "year1": 1964,
+     "year2": 1964
+    }
+   ]
+  },
+  {
+   "season": 2,
+   "years": "1964–1965",
+   "episodes": 39,
+   "stories": 9,
+   "serials": [
+    {
+     "story": 9,
+     "suffix": "",
+     "title": "Planet of Giants",
+     "parts": 3,
+     "year1": 1964,
+     "year2": 1964
+    },
+    {
+     "story": 10,
+     "suffix": "",
+     "title": "The Dalek Invasion of Earth",
+     "parts": 6,
+     "year1": 1964,
+     "year2": 1964
+    },
+    {
+     "story": 11,
+     "suffix": "",
+     "title": "The Rescue",
+     "parts": 2,
+     "year1": 1965,
+     "year2": 1965
+    },
+    {
+     "story": 12,
+     "suffix": "",
+     "title": "The Romans",
+     "parts": 4,
+     "year1": 1965,
+     "year2": 1965
+    },
+    {
+     "story": 13,
+     "suffix": "",
+     "title": "The Web Planet",
+     "parts": 6,
+     "year1": 1965,
+     "year2": 1965
+    },
+    {
+     "story": 14,
+     "suffix": "",
+     "title": "The Crusade",
+     "parts": 4,
+     "year1": 1965,
+     "year2": 1965
+    },
+    {
+     "story": 15,
+     "suffix": "",
+     "title": "The Space Museum",
+     "parts": 4,
+     "year1": 1965,
+     "year2": 1965
+    },
+    {
+     "story": 16,
+     "suffix": "",
+     "title": "The Chase",
+     "parts": 6,
+     "year1": 1965,
+     "year2": 1965
+    },
+    {
+     "story": 17,
+     "suffix": "",
+     "title": "The Time Meddler",
+     "parts": 4,
+     "year1": 1965,
+     "year2": 1965
+    }
+   ]
+  },
+  {
+   "season": 3,
+   "years": "1965–1966",
+   "episodes": 45,
+   "stories": 10,
+   "serials": [
+    {
+     "story": 18,
+     "suffix": "",
+     "title": "Galaxy 4",
+     "parts": 4,
+     "year1": 1965,
+     "year2": 1965
+    },
+    {
+     "story": 19,
+     "suffix": "",
+     "title": "Mission to the Unknown",
+     "parts": 1,
+     "year1": 1965,
+     "year2": 1965
+    },
+    {
+     "story": 20,
+     "suffix": "",
+     "title": "The Myth Makers",
+     "parts": 4,
+     "year1": 1965,
+     "year2": 1965
+    },
+    {
+     "story": 21,
+     "suffix": "",
+     "title": "The Daleks' Master Plan",
+     "parts": 12,
+     "year1": 1965,
+     "year2": 1966
+    },
+    {
+     "story": 22,
+     "suffix": "",
+     "title": "The Massacre",
+     "parts": 4,
+     "year1": 1966,
+     "year2": 1966
+    },
+    {
+     "story": 23,
+     "suffix": "",
+     "title": "The Ark",
+     "parts": 4,
+     "year1": 1966,
+     "year2": 1966
+    },
+    {
+     "story": 24,
+     "suffix": "",
+     "title": "The Celestial Toymaker",
+     "parts": 4,
+     "year1": 1966,
+     "year2": 1966
+    },
+    {
+     "story": 25,
+     "suffix": "",
+     "title": "The Gunfighters",
+     "parts": 4,
+     "year1": 1966,
+     "year2": 1966
+    },
+    {
+     "story": 26,
+     "suffix": "",
+     "title": "The Savages",
+     "parts": 4,
+     "year1": 1966,
+     "year2": 1966
+    },
+    {
+     "story": 27,
+     "suffix": "",
+     "title": "The War Machines",
+     "parts": 4,
+     "year1": 1966,
+     "year2": 1966
+    }
+   ]
+  },
+  {
+   "season": 4,
+   "years": "1966–1967",
+   "episodes": 43,
+   "stories": 9,
+   "serials": [
+    {
+     "story": 28,
+     "suffix": "",
+     "title": "The Smugglers",
+     "parts": 4,
+     "year1": 1966,
+     "year2": 1966
+    },
+    {
+     "story": 29,
+     "suffix": "",
+     "title": "The Tenth Planet",
+     "parts": 4,
+     "year1": 1966,
+     "year2": 1966
+    },
+    {
+     "story": 30,
+     "suffix": "",
+     "title": "The Power of the Daleks",
+     "parts": 6,
+     "year1": 1966,
+     "year2": 1966
+    },
+    {
+     "story": 31,
+     "suffix": "",
+     "title": "The Highlanders",
+     "parts": 4,
+     "year1": 1966,
+     "year2": 1967
+    },
+    {
+     "story": 32,
+     "suffix": "",
+     "title": "The Underwater Menace",
+     "parts": 4,
+     "year1": 1967,
+     "year2": 1967
+    },
+    {
+     "story": 33,
+     "suffix": "",
+     "title": "The Moonbase",
+     "parts": 4,
+     "year1": 1967,
+     "year2": 1967
+    },
+    {
+     "story": 34,
+     "suffix": "",
+     "title": "The Macra Terror",
+     "parts": 4,
+     "year1": 1967,
+     "year2": 1967
+    },
+    {
+     "story": 35,
+     "suffix": "",
+     "title": "The Faceless Ones",
+     "parts": 6,
+     "year1": 1967,
+     "year2": 1967
+    },
+    {
+     "story": 36,
+     "suffix": "",
+     "title": "The Evil of the Daleks",
+     "parts": 7,
+     "year1": 1967,
+     "year2": 1967
+    }
+   ]
+  },
+  {
+   "season": 5,
+   "years": "1967–1968",
+   "episodes": 40,
+   "stories": 7,
+   "serials": [
+    {
+     "story": 37,
+     "suffix": "",
+     "title": "The Tomb of the Cybermen",
+     "parts": 4,
+     "year1": 1967,
+     "year2": 1967
+    },
+    {
+     "story": 38,
+     "suffix": "",
+     "title": "The Abominable Snowmen",
+     "parts": 6,
+     "year1": 1967,
+     "year2": 1967
+    },
+    {
+     "story": 39,
+     "suffix": "",
+     "title": "The Ice Warriors",
+     "parts": 6,
+     "year1": 1967,
+     "year2": 1967
+    },
+    {
+     "story": 40,
+     "suffix": "",
+     "title": "The Enemy of the World",
+     "parts": 6,
+     "year1": 1967,
+     "year2": 1968
+    },
+    {
+     "story": 41,
+     "suffix": "",
+     "title": "The Web of Fear",
+     "parts": 6,
+     "year1": 1968,
+     "year2": 1968
+    },
+    {
+     "story": 42,
+     "suffix": "",
+     "title": "Fury from the Deep",
+     "parts": 6,
+     "year1": 1968,
+     "year2": 1968
+    },
+    {
+     "story": 43,
+     "suffix": "",
+     "title": "The Wheel in Space",
+     "parts": 6,
+     "year1": 1968,
+     "year2": 1968
+    }
+   ]
+  },
+  {
+   "season": 6,
+   "years": "1968–1969",
+   "episodes": 44,
+   "stories": 7,
+   "serials": [
+    {
+     "story": 44,
+     "suffix": "",
+     "title": "The Dominators",
+     "parts": 5,
+     "year1": 1968,
+     "year2": 1968
+    },
+    {
+     "story": 45,
+     "suffix": "",
+     "title": "The Mind Robber",
+     "parts": 5,
+     "year1": 1968,
+     "year2": 1968
+    },
+    {
+     "story": 46,
+     "suffix": "",
+     "title": "The Invasion",
+     "parts": 8,
+     "year1": 1968,
+     "year2": 1968
+    },
+    {
+     "story": 47,
+     "suffix": "",
+     "title": "The Krotons",
+     "parts": 4,
+     "year1": 1968,
+     "year2": 1969
+    },
+    {
+     "story": 48,
+     "suffix": "",
+     "title": "The Seeds of Death",
+     "parts": 6,
+     "year1": 1969,
+     "year2": 1969
+    },
+    {
+     "story": 49,
+     "suffix": "",
+     "title": "The Space Pirates",
+     "parts": 6,
+     "year1": 1969,
+     "year2": 1969
+    },
+    {
+     "story": 50,
+     "suffix": "",
+     "title": "The War Games",
+     "parts": 10,
+     "year1": 1969,
+     "year2": 1969
+    }
+   ]
+  },
+  {
+   "season": 7,
+   "years": "1970",
+   "episodes": 25,
+   "stories": 4,
+   "serials": [
+    {
+     "story": 51,
+     "suffix": "",
+     "title": "Spearhead from Space",
+     "parts": 4,
+     "year1": 1970,
+     "year2": 1970
+    },
+    {
+     "story": 52,
+     "suffix": "",
+     "title": "Doctor Who and the Silurians",
+     "parts": 7,
+     "year1": 1970,
+     "year2": 1970
+    },
+    {
+     "story": 53,
+     "suffix": "",
+     "title": "The Ambassadors of Death",
+     "parts": 7,
+     "year1": 1970,
+     "year2": 1970
+    },
+    {
+     "story": 54,
+     "suffix": "",
+     "title": "Inferno",
+     "parts": 7,
+     "year1": 1970,
+     "year2": 1970
+    }
+   ]
+  },
+  {
+   "season": 8,
+   "years": "1971",
+   "episodes": 25,
+   "stories": 5,
+   "serials": [
+    {
+     "story": 55,
+     "suffix": "",
+     "title": "Terror of the Autons",
+     "parts": 4,
+     "year1": 1971,
+     "year2": 1971
+    },
+    {
+     "story": 56,
+     "suffix": "",
+     "title": "The Mind of Evil",
+     "parts": 6,
+     "year1": 1971,
+     "year2": 1971
+    },
+    {
+     "story": 57,
+     "suffix": "",
+     "title": "The Claws of Axos",
+     "parts": 4,
+     "year1": 1971,
+     "year2": 1971
+    },
+    {
+     "story": 58,
+     "suffix": "",
+     "title": "Colony in Space",
+     "parts": 6,
+     "year1": 1971,
+     "year2": 1971
+    },
+    {
+     "story": 59,
+     "suffix": "",
+     "title": "The Dæmons",
+     "parts": 5,
+     "year1": 1971,
+     "year2": 1971
+    }
+   ]
+  },
+  {
+   "season": 9,
+   "years": "1972",
+   "episodes": 26,
+   "stories": 5,
+   "serials": [
+    {
+     "story": 60,
+     "suffix": "",
+     "title": "Day of the Daleks",
+     "parts": 4,
+     "year1": 1972,
+     "year2": 1972
+    },
+    {
+     "story": 61,
+     "suffix": "",
+     "title": "The Curse of Peladon",
+     "parts": 4,
+     "year1": 1972,
+     "year2": 1972
+    },
+    {
+     "story": 62,
+     "suffix": "",
+     "title": "The Sea Devils",
+     "parts": 6,
+     "year1": 1972,
+     "year2": 1972
+    },
+    {
+     "story": 63,
+     "suffix": "",
+     "title": "The Mutants",
+     "parts": 6,
+     "year1": 1972,
+     "year2": 1972
+    },
+    {
+     "story": 64,
+     "suffix": "",
+     "title": "The Time Monster",
+     "parts": 6,
+     "year1": 1972,
+     "year2": 1972
+    }
+   ]
+  },
+  {
+   "season": 10,
+   "years": "1972–1973",
+   "episodes": 26,
+   "stories": 5,
+   "serials": [
+    {
+     "story": 65,
+     "suffix": "",
+     "title": "The Three Doctors",
+     "parts": 4,
+     "year1": 1972,
+     "year2": 1973
+    },
+    {
+     "story": 66,
+     "suffix": "",
+     "title": "Carnival of Monsters",
+     "parts": 4,
+     "year1": 1973,
+     "year2": 1973
+    },
+    {
+     "story": 67,
+     "suffix": "",
+     "title": "Frontier in Space",
+     "parts": 6,
+     "year1": 1973,
+     "year2": 1973
+    },
+    {
+     "story": 68,
+     "suffix": "",
+     "title": "Planet of the Daleks",
+     "parts": 6,
+     "year1": 1973,
+     "year2": 1973
+    },
+    {
+     "story": 69,
+     "suffix": "",
+     "title": "The Green Death",
+     "parts": 6,
+     "year1": 1973,
+     "year2": 1973
+    }
+   ]
+  },
+  {
+   "season": 11,
+   "years": "1973–1974",
+   "episodes": 26,
+   "stories": 5,
+   "serials": [
+    {
+     "story": 70,
+     "suffix": "",
+     "title": "The Time Warrior",
+     "parts": 4,
+     "year1": 1973,
+     "year2": 1974
+    },
+    {
+     "story": 71,
+     "suffix": "",
+     "title": "Invasion of the Dinosaurs",
+     "parts": 6,
+     "year1": 1974,
+     "year2": 1974
+    },
+    {
+     "story": 72,
+     "suffix": "",
+     "title": "Death to the Daleks",
+     "parts": 4,
+     "year1": 1974,
+     "year2": 1974
+    },
+    {
+     "story": 73,
+     "suffix": "",
+     "title": "The Monster of Peladon",
+     "parts": 6,
+     "year1": 1974,
+     "year2": 1974
+    },
+    {
+     "story": 74,
+     "suffix": "",
+     "title": "Planet of the Spiders",
+     "parts": 6,
+     "year1": 1974,
+     "year2": 1974
+    }
+   ]
+  },
+  {
+   "season": 12,
+   "years": "1974–1975",
+   "episodes": 20,
+   "stories": 5,
+   "serials": [
+    {
+     "story": 75,
+     "suffix": "",
+     "title": "Robot",
+     "parts": 4,
+     "year1": 1974,
+     "year2": 1975
+    },
+    {
+     "story": 76,
+     "suffix": "",
+     "title": "The Ark in Space",
+     "parts": 4,
+     "year1": 1975,
+     "year2": 1975
+    },
+    {
+     "story": 77,
+     "suffix": "",
+     "title": "The Sontaran Experiment",
+     "parts": 2,
+     "year1": 1975,
+     "year2": 1975
+    },
+    {
+     "story": 78,
+     "suffix": "",
+     "title": "Genesis of the Daleks",
+     "parts": 6,
+     "year1": 1975,
+     "year2": 1975
+    },
+    {
+     "story": 79,
+     "suffix": "",
+     "title": "Revenge of the Cybermen",
+     "parts": 4,
+     "year1": 1975,
+     "year2": 1975
+    }
+   ]
+  },
+  {
+   "season": 13,
+   "years": "1975–1976",
+   "episodes": 26,
+   "stories": 6,
+   "serials": [
+    {
+     "story": 80,
+     "suffix": "",
+     "title": "Terror of the Zygons",
+     "parts": 4,
+     "year1": 1975,
+     "year2": 1975
+    },
+    {
+     "story": 81,
+     "suffix": "",
+     "title": "Planet of Evil",
+     "parts": 4,
+     "year1": 1975,
+     "year2": 1975
+    },
+    {
+     "story": 82,
+     "suffix": "",
+     "title": "Pyramids of Mars",
+     "parts": 4,
+     "year1": 1975,
+     "year2": 1975
+    },
+    {
+     "story": 83,
+     "suffix": "",
+     "title": "The Android Invasion",
+     "parts": 4,
+     "year1": 1975,
+     "year2": 1975
+    },
+    {
+     "story": 84,
+     "suffix": "",
+     "title": "The Brain of Morbius",
+     "parts": 4,
+     "year1": 1976,
+     "year2": 1976
+    },
+    {
+     "story": 85,
+     "suffix": "",
+     "title": "The Seeds of Doom",
+     "parts": 6,
+     "year1": 1976,
+     "year2": 1976
+    }
+   ]
+  },
+  {
+   "season": 14,
+   "years": "1976–1977",
+   "episodes": 26,
+   "stories": 6,
+   "serials": [
+    {
+     "story": 86,
+     "suffix": "",
+     "title": "The Masque of Mandragora",
+     "parts": 4,
+     "year1": 1976,
+     "year2": 1976
+    },
+    {
+     "story": 87,
+     "suffix": "",
+     "title": "The Hand of Fear",
+     "parts": 4,
+     "year1": 1976,
+     "year2": 1976
+    },
+    {
+     "story": 88,
+     "suffix": "",
+     "title": "The Deadly Assassin",
+     "parts": 4,
+     "year1": 1976,
+     "year2": 1976
+    },
+    {
+     "story": 89,
+     "suffix": "",
+     "title": "The Face of Evil",
+     "parts": 4,
+     "year1": 1977,
+     "year2": 1977
+    },
+    {
+     "story": 90,
+     "suffix": "",
+     "title": "The Robots of Death",
+     "parts": 4,
+     "year1": 1977,
+     "year2": 1977
+    },
+    {
+     "story": 91,
+     "suffix": "",
+     "title": "The Talons of Weng-Chiang",
+     "parts": 6,
+     "year1": 1977,
+     "year2": 1977
+    }
+   ]
+  },
+  {
+   "season": 15,
+   "years": "1977–1978",
+   "episodes": 26,
+   "stories": 6,
+   "serials": [
+    {
+     "story": 92,
+     "suffix": "",
+     "title": "Horror of Fang Rock",
+     "parts": 4,
+     "year1": 1977,
+     "year2": 1977
+    },
+    {
+     "story": 93,
+     "suffix": "",
+     "title": "The Invisible Enemy",
+     "parts": 4,
+     "year1": 1977,
+     "year2": 1977
+    },
+    {
+     "story": 94,
+     "suffix": "",
+     "title": "Image of the Fendahl",
+     "parts": 4,
+     "year1": 1977,
+     "year2": 1977
+    },
+    {
+     "story": 95,
+     "suffix": "",
+     "title": "The Sun Makers",
+     "parts": 4,
+     "year1": 1977,
+     "year2": 1977
+    },
+    {
+     "story": 96,
+     "suffix": "",
+     "title": "Underworld",
+     "parts": 4,
+     "year1": 1978,
+     "year2": 1978
+    },
+    {
+     "story": 97,
+     "suffix": "",
+     "title": "The Invasion of Time",
+     "parts": 6,
+     "year1": 1978,
+     "year2": 1978
+    }
+   ]
+  },
+  {
+   "season": 16,
+   "years": "1978–1979",
+   "episodes": 26,
+   "stories": 6,
+   "serials": [
+    {
+     "story": 98,
+     "suffix": "",
+     "title": "The Ribos Operation",
+     "parts": 4,
+     "year1": 1978,
+     "year2": 1978
+    },
+    {
+     "story": 99,
+     "suffix": "",
+     "title": "The Pirate Planet",
+     "parts": 4,
+     "year1": 1978,
+     "year2": 1978
+    },
+    {
+     "story": 100,
+     "suffix": "",
+     "title": "The Stones of Blood",
+     "parts": 4,
+     "year1": 1978,
+     "year2": 1978
+    },
+    {
+     "story": 101,
+     "suffix": "",
+     "title": "The Androids of Tara",
+     "parts": 4,
+     "year1": 1978,
+     "year2": 1978
+    },
+    {
+     "story": 102,
+     "suffix": "",
+     "title": "The Power of Kroll",
+     "parts": 4,
+     "year1": 1978,
+     "year2": 1979
+    },
+    {
+     "story": 103,
+     "suffix": "",
+     "title": "The Armageddon Factor",
+     "parts": 6,
+     "year1": 1979,
+     "year2": 1979
+    }
+   ]
+  },
+  {
+   "season": 17,
+   "years": "1979–1980",
+   "episodes": 20,
+   "stories": 5,
+   "serials": [
+    {
+     "story": 104,
+     "suffix": "",
+     "title": "Destiny of the Daleks",
+     "parts": 4,
+     "year1": 1979,
+     "year2": 1979
+    },
+    {
+     "story": 105,
+     "suffix": "",
+     "title": "City of Death",
+     "parts": 4,
+     "year1": 1979,
+     "year2": 1979
+    },
+    {
+     "story": 106,
+     "suffix": "",
+     "title": "The Creature from the Pit",
+     "parts": 4,
+     "year1": 1979,
+     "year2": 1979
+    },
+    {
+     "story": 107,
+     "suffix": "",
+     "title": "Nightmare of Eden",
+     "parts": 4,
+     "year1": 1979,
+     "year2": 1979
+    },
+    {
+     "story": 108,
+     "suffix": "",
+     "title": "The Horns of Nimon",
+     "parts": 4,
+     "year1": 1979,
+     "year2": 1980
+    }
+   ]
+  },
+  {
+   "season": 18,
+   "years": "1980–1981",
+   "episodes": 28,
+   "stories": 7,
+   "serials": [
+    {
+     "story": 109,
+     "suffix": "",
+     "title": "The Leisure Hive",
+     "parts": 4,
+     "year1": 1980,
+     "year2": 1980
+    },
+    {
+     "story": 110,
+     "suffix": "",
+     "title": "Meglos",
+     "parts": 4,
+     "year1": 1980,
+     "year2": 1980
+    },
+    {
+     "story": 111,
+     "suffix": "",
+     "title": "Full Circle",
+     "parts": 4,
+     "year1": 1980,
+     "year2": 1980
+    },
+    {
+     "story": 112,
+     "suffix": "",
+     "title": "State of Decay",
+     "parts": 4,
+     "year1": 1980,
+     "year2": 1980
+    },
+    {
+     "story": 113,
+     "suffix": "",
+     "title": "Warriors' Gate",
+     "parts": 4,
+     "year1": 1981,
+     "year2": 1981
+    },
+    {
+     "story": 114,
+     "suffix": "",
+     "title": "The Keeper of Traken",
+     "parts": 4,
+     "year1": 1981,
+     "year2": 1981
+    },
+    {
+     "story": 115,
+     "suffix": "",
+     "title": "Logopolis",
+     "parts": 4,
+     "year1": 1981,
+     "year2": 1981
+    }
+   ]
+  },
+  {
+   "season": 19,
+   "years": "1982",
+   "episodes": 26,
+   "stories": 7,
+   "serials": [
+    {
+     "story": 116,
+     "suffix": "",
+     "title": "Castrovalva",
+     "parts": 4,
+     "year1": 1982,
+     "year2": 1982
+    },
+    {
+     "story": 117,
+     "suffix": "",
+     "title": "Four to Doomsday",
+     "parts": 4,
+     "year1": 1982,
+     "year2": 1982
+    },
+    {
+     "story": 118,
+     "suffix": "",
+     "title": "Kinda",
+     "parts": 4,
+     "year1": 1982,
+     "year2": 1982
+    },
+    {
+     "story": 119,
+     "suffix": "",
+     "title": "The Visitation",
+     "parts": 4,
+     "year1": 1982,
+     "year2": 1982
+    },
+    {
+     "story": 120,
+     "suffix": "",
+     "title": "Black Orchid",
+     "parts": 2,
+     "year1": 1982,
+     "year2": 1982
+    },
+    {
+     "story": 121,
+     "suffix": "",
+     "title": "Earthshock",
+     "parts": 4,
+     "year1": 1982,
+     "year2": 1982
+    },
+    {
+     "story": 122,
+     "suffix": "",
+     "title": "Time-Flight",
+     "parts": 4,
+     "year1": 1982,
+     "year2": 1982
+    }
+   ]
+  },
+  {
+   "season": 20,
+   "years": "1983",
+   "episodes": 23,
+   "stories": 7,
+   "serials": [
+    {
+     "story": 123,
+     "suffix": "",
+     "title": "Arc of Infinity",
+     "parts": 4,
+     "year1": 1983,
+     "year2": 1983
+    },
+    {
+     "story": 124,
+     "suffix": "",
+     "title": "Snakedance",
+     "parts": 4,
+     "year1": 1983,
+     "year2": 1983
+    },
+    {
+     "story": 125,
+     "suffix": "",
+     "title": "Mawdryn Undead",
+     "parts": 4,
+     "year1": 1983,
+     "year2": 1983
+    },
+    {
+     "story": 126,
+     "suffix": "",
+     "title": "Terminus",
+     "parts": 4,
+     "year1": 1983,
+     "year2": 1983
+    },
+    {
+     "story": 127,
+     "suffix": "",
+     "title": "Enlightenment",
+     "parts": 4,
+     "year1": 1983,
+     "year2": 1983
+    },
+    {
+     "story": 128,
+     "suffix": "",
+     "title": "The King's Demons",
+     "parts": 2,
+     "year1": 1983,
+     "year2": 1983
+    },
+    {
+     "story": 129,
+     "suffix": "",
+     "title": "The Five Doctors",
+     "parts": 1,
+     "year1": 1983,
+     "year2": 1983
+    }
+   ]
+  },
+  {
+   "season": 21,
+   "years": "1984",
+   "episodes": 24,
+   "stories": 7,
+   "serials": [
+    {
+     "story": 130,
+     "suffix": "",
+     "title": "Warriors of the Deep",
+     "parts": 4,
+     "year1": 1984,
+     "year2": 1984
+    },
+    {
+     "story": 131,
+     "suffix": "",
+     "title": "The Awakening",
+     "parts": 2,
+     "year1": 1984,
+     "year2": 1984
+    },
+    {
+     "story": 132,
+     "suffix": "",
+     "title": "Frontios",
+     "parts": 4,
+     "year1": 1984,
+     "year2": 1984
+    },
+    {
+     "story": 133,
+     "suffix": "",
+     "title": "Resurrection of the Daleks",
+     "parts": 2,
+     "year1": 1984,
+     "year2": 1984
+    },
+    {
+     "story": 134,
+     "suffix": "",
+     "title": "Planet of Fire",
+     "parts": 4,
+     "year1": 1984,
+     "year2": 1984
+    },
+    {
+     "story": 135,
+     "suffix": "",
+     "title": "The Caves of Androzani",
+     "parts": 4,
+     "year1": 1984,
+     "year2": 1984
+    },
+    {
+     "story": 136,
+     "suffix": "",
+     "title": "The Twin Dilemma",
+     "parts": 4,
+     "year1": 1984,
+     "year2": 1984
+    }
+   ]
+  },
+  {
+   "season": 22,
+   "years": "1985",
+   "episodes": 13,
+   "stories": 6,
+   "serials": [
+    {
+     "story": 137,
+     "suffix": "",
+     "title": "Attack of the Cybermen",
+     "parts": 2,
+     "year1": 1985,
+     "year2": 1985
+    },
+    {
+     "story": 138,
+     "suffix": "",
+     "title": "Vengeance on Varos",
+     "parts": 2,
+     "year1": 1985,
+     "year2": 1985
+    },
+    {
+     "story": 139,
+     "suffix": "",
+     "title": "The Mark of the Rani",
+     "parts": 2,
+     "year1": 1985,
+     "year2": 1985
+    },
+    {
+     "story": 140,
+     "suffix": "",
+     "title": "The Two Doctors",
+     "parts": 3,
+     "year1": 1985,
+     "year2": 1985
+    },
+    {
+     "story": 141,
+     "suffix": "",
+     "title": "Timelash",
+     "parts": 2,
+     "year1": 1985,
+     "year2": 1985
+    },
+    {
+     "story": 142,
+     "suffix": "",
+     "title": "Revelation of the Daleks",
+     "parts": 2,
+     "year1": 1985,
+     "year2": 1985
+    }
+   ]
+  },
+  {
+   "season": 23,
+   "years": "1986",
+   "episodes": 14,
+   "stories": 1,
+   "serials": [
+    {
+     "story": 143,
+     "suffix": "a",
+     "title": "The Mysterious Planet",
+     "parts": 4,
+     "year1": 1986,
+     "year2": 1986
+    },
+    {
+     "story": 143,
+     "suffix": "b",
+     "title": "Mindwarp",
+     "parts": 4,
+     "year1": 1986,
+     "year2": 1986
+    },
+    {
+     "story": 143,
+     "suffix": "c",
+     "title": "Terror of the Vervoids",
+     "parts": 4,
+     "year1": 1986,
+     "year2": 1986
+    },
+    {
+     "story": 143,
+     "suffix": "d",
+     "title": "The Ultimate Foe",
+     "parts": 2,
+     "year1": 1986,
+     "year2": 1986
+    }
+   ]
+  },
+  {
+   "season": 24,
+   "years": "1987",
+   "episodes": 14,
+   "stories": 4,
+   "serials": [
+    {
+     "story": 144,
+     "suffix": "",
+     "title": "Time and the Rani",
+     "parts": 4,
+     "year1": 1987,
+     "year2": 1987
+    },
+    {
+     "story": 145,
+     "suffix": "",
+     "title": "Paradise Towers",
+     "parts": 4,
+     "year1": 1987,
+     "year2": 1987
+    },
+    {
+     "story": 146,
+     "suffix": "",
+     "title": "Delta and the Bannermen",
+     "parts": 3,
+     "year1": 1987,
+     "year2": 1987
+    },
+    {
+     "story": 147,
+     "suffix": "",
+     "title": "Dragonfire",
+     "parts": 3,
+     "year1": 1987,
+     "year2": 1987
+    }
+   ]
+  },
+  {
+   "season": 25,
+   "years": "1988–1989",
+   "episodes": 14,
+   "stories": 4,
+   "serials": [
+    {
+     "story": 148,
+     "suffix": "",
+     "title": "Remembrance of the Daleks",
+     "parts": 4,
+     "year1": 1988,
+     "year2": 1988
+    },
+    {
+     "story": 149,
+     "suffix": "",
+     "title": "The Happiness Patrol",
+     "parts": 3,
+     "year1": 1988,
+     "year2": 1988
+    },
+    {
+     "story": 150,
+     "suffix": "",
+     "title": "Silver Nemesis",
+     "parts": 3,
+     "year1": 1988,
+     "year2": 1988
+    },
+    {
+     "story": 151,
+     "suffix": "",
+     "title": "The Greatest Show in the Galaxy",
+     "parts": 4,
+     "year1": 1988,
+     "year2": 1989
+    }
+   ]
+  },
+  {
+   "season": 26,
+   "years": "1989",
+   "episodes": 14,
+   "stories": 4,
+   "serials": [
+    {
+     "story": 152,
+     "suffix": "",
+     "title": "Battlefield",
+     "parts": 4,
+     "year1": 1989,
+     "year2": 1989
+    },
+    {
+     "story": 153,
+     "suffix": "",
+     "title": "Ghost Light",
+     "parts": 3,
+     "year1": 1989,
+     "year2": 1989
+    },
+    {
+     "story": 154,
+     "suffix": "",
+     "title": "The Curse of Fenric",
+     "parts": 4,
+     "year1": 1989,
+     "year2": 1989
+    },
+    {
+     "story": 155,
+     "suffix": "",
+     "title": "Survival",
+     "parts": 3,
+     "year1": 1989,
+     "year2": 1989
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "season": 17,
+   "story": "108.5",
+   "title": "Shada",
+   "why": "unaired; official numbering skips it"
+  }
+ ],
+ "film": {
+  "story": 156,
+  "title": "Doctor Who",
+  "year": 1996
+ },
+ "revival": [
+  {
+   "heading": "Series 1",
+   "years": "2005",
+   "page": "Doctor Who series 1",
+   "episodes": [
+    {
+     "story": "157",
+     "base": 157,
+     "title": "Rose",
+     "year": 2005
+    },
+    {
+     "story": "158",
+     "base": 158,
+     "title": "The End of the World",
+     "year": 2005
+    },
+    {
+     "story": "159",
+     "base": 159,
+     "title": "The Unquiet Dead",
+     "year": 2005
+    },
+    {
+     "story": "160a",
+     "base": 160,
+     "title": "Aliens of London",
+     "year": 2005
+    },
+    {
+     "story": "160b",
+     "base": 160,
+     "title": "World War Three",
+     "year": 2005
+    },
+    {
+     "story": "161",
+     "base": 161,
+     "title": "Dalek",
+     "year": 2005
+    },
+    {
+     "story": "162",
+     "base": 162,
+     "title": "The Long Game",
+     "year": 2005
+    },
+    {
+     "story": "163",
+     "base": 163,
+     "title": "Father's Day",
+     "year": 2005
+    },
+    {
+     "story": "164a",
+     "base": 164,
+     "title": "The Empty Child",
+     "year": 2005
+    },
+    {
+     "story": "164b",
+     "base": 164,
+     "title": "The Doctor Dances",
+     "year": 2005
+    },
+    {
+     "story": "165",
+     "base": 165,
+     "title": "Boom Town",
+     "year": 2005
+    },
+    {
+     "story": "166a",
+     "base": 166,
+     "title": "Bad Wolf",
+     "year": 2005
+    },
+    {
+     "story": "166b",
+     "base": 166,
+     "title": "The Parting of the Ways",
+     "year": 2005
+    }
+   ],
+   "regular": 13,
+   "specials_in_table": 0
+  },
+  {
+   "heading": "Series 2",
+   "years": "2006",
+   "page": "Doctor Who series 2",
+   "episodes": [
+    {
+     "story": "167",
+     "base": 167,
+     "title": "The Christmas Invasion",
+     "year": 2005,
+     "special": "2005 Christmas"
+    },
+    {
+     "story": "168",
+     "base": 168,
+     "title": "New Earth",
+     "year": 2006
+    },
+    {
+     "story": "169",
+     "base": 169,
+     "title": "Tooth and Claw",
+     "year": 2006
+    },
+    {
+     "story": "170",
+     "base": 170,
+     "title": "School Reunion",
+     "year": 2006
+    },
+    {
+     "story": "171",
+     "base": 171,
+     "title": "The Girl in the Fireplace",
+     "year": 2006
+    },
+    {
+     "story": "172a",
+     "base": 172,
+     "title": "Rise of the Cybermen",
+     "year": 2006
+    },
+    {
+     "story": "172b",
+     "base": 172,
+     "title": "The Age of Steel",
+     "year": 2006
+    },
+    {
+     "story": "173",
+     "base": 173,
+     "title": "The Idiot's Lantern",
+     "year": 2006
+    },
+    {
+     "story": "174a",
+     "base": 174,
+     "title": "The Impossible Planet",
+     "year": 2006
+    },
+    {
+     "story": "174b",
+     "base": 174,
+     "title": "The Satan Pit",
+     "year": 2006
+    },
+    {
+     "story": "175",
+     "base": 175,
+     "title": "Love & Monsters",
+     "year": 2006
+    },
+    {
+     "story": "176",
+     "base": 176,
+     "title": "Fear Her",
+     "year": 2006
+    },
+    {
+     "story": "177a",
+     "base": 177,
+     "title": "Army of Ghosts",
+     "year": 2006
+    },
+    {
+     "story": "177b",
+     "base": 177,
+     "title": "Doomsday",
+     "year": 2006
+    }
+   ],
+   "regular": 13,
+   "specials_in_table": 1
+  },
+  {
+   "heading": "Series 3",
+   "years": "2007",
+   "page": "Doctor Who series 3",
+   "episodes": [
+    {
+     "story": "178",
+     "base": 178,
+     "title": "The Runaway Bride",
+     "year": 2006,
+     "special": "2006 Christmas"
+    },
+    {
+     "story": "179",
+     "base": 179,
+     "title": "Smith and Jones",
+     "year": 2007
+    },
+    {
+     "story": "180",
+     "base": 180,
+     "title": "The Shakespeare Code",
+     "year": 2007
+    },
+    {
+     "story": "181",
+     "base": 181,
+     "title": "Gridlock",
+     "year": 2007
+    },
+    {
+     "story": "182a",
+     "base": 182,
+     "title": "Daleks in Manhattan",
+     "year": 2007
+    },
+    {
+     "story": "182b",
+     "base": 182,
+     "title": "Evolution of the Daleks",
+     "year": 2007
+    },
+    {
+     "story": "183",
+     "base": 183,
+     "title": "The Lazarus Experiment",
+     "year": 2007
+    },
+    {
+     "story": "184",
+     "base": 184,
+     "title": "42",
+     "year": 2007
+    },
+    {
+     "story": "185a",
+     "base": 185,
+     "title": "Human Nature",
+     "year": 2007
+    },
+    {
+     "story": "185b",
+     "base": 185,
+     "title": "The Family of Blood",
+     "year": 2007
+    },
+    {
+     "story": "186",
+     "base": 186,
+     "title": "Blink",
+     "year": 2007
+    },
+    {
+     "story": "187a",
+     "base": 187,
+     "title": "Utopia",
+     "year": 2007
+    },
+    {
+     "story": "187b",
+     "base": 187,
+     "title": "The Sound of Drums",
+     "year": 2007
+    },
+    {
+     "story": "187c",
+     "base": 187,
+     "title": "Last of the Time Lords",
+     "year": 2007
+    }
+   ],
+   "regular": 13,
+   "specials_in_table": 1
+  },
+  {
+   "heading": "Series 4",
+   "years": "2008",
+   "page": "Doctor Who series 4",
+   "episodes": [
+    {
+     "story": "188",
+     "base": 188,
+     "title": "Voyage of the Damned",
+     "year": 2007,
+     "special": "2007 Christmas"
+    },
+    {
+     "story": "189",
+     "base": 189,
+     "title": "Partners in Crime",
+     "year": 2008
+    },
+    {
+     "story": "190",
+     "base": 190,
+     "title": "The Fires of Pompeii",
+     "year": 2008
+    },
+    {
+     "story": "191",
+     "base": 191,
+     "title": "Planet of the Ood",
+     "year": 2008
+    },
+    {
+     "story": "192a",
+     "base": 192,
+     "title": "The Sontaran Stratagem",
+     "year": 2008
+    },
+    {
+     "story": "192b",
+     "base": 192,
+     "title": "The Poison Sky",
+     "year": 2008
+    },
+    {
+     "story": "193",
+     "base": 193,
+     "title": "The Doctor's Daughter",
+     "year": 2008
+    },
+    {
+     "story": "194",
+     "base": 194,
+     "title": "The Unicorn and the Wasp",
+     "year": 2008
+    },
+    {
+     "story": "195a",
+     "base": 195,
+     "title": "Silence in the Library",
+     "year": 2008
+    },
+    {
+     "story": "195b",
+     "base": 195,
+     "title": "Forest of the Dead",
+     "year": 2008
+    },
+    {
+     "story": "196",
+     "base": 196,
+     "title": "Midnight",
+     "year": 2008
+    },
+    {
+     "story": "197",
+     "base": 197,
+     "title": "Turn Left",
+     "year": 2008
+    },
+    {
+     "story": "198a",
+     "base": 198,
+     "title": "The Stolen Earth",
+     "year": 2008
+    },
+    {
+     "story": "198b",
+     "base": 198,
+     "title": "Journey's End",
+     "year": 2008
+    }
+   ],
+   "regular": 13,
+   "specials_in_table": 1
+  },
+  {
+   "heading": "Specials",
+   "years": "2008–2010",
+   "page": "Doctor Who specials (2008–2010)",
+   "episodes": [
+    {
+     "story": "199",
+     "base": 199,
+     "title": "The Next Doctor",
+     "year": 2008
+    },
+    {
+     "story": "200",
+     "base": 200,
+     "title": "Planet of the Dead",
+     "year": 2009
+    },
+    {
+     "story": "201",
+     "base": 201,
+     "title": "The Waters of Mars",
+     "year": 2009
+    },
+    {
+     "story": "202a",
+     "base": 202,
+     "title": "The End of Time – Part One",
+     "year": 2009
+    },
+    {
+     "story": "202b",
+     "base": 202,
+     "title": "The End of Time – Part Two",
+     "year": 2010
+    }
+   ],
+   "regular": 0,
+   "specials_in_table": 5
+  },
+  {
+   "heading": "Series 5",
+   "years": "2010",
+   "page": "Doctor Who series 5",
+   "episodes": [
+    {
+     "story": "203",
+     "base": 203,
+     "title": "The Eleventh Hour",
+     "year": 2010
+    },
+    {
+     "story": "204",
+     "base": 204,
+     "title": "The Beast Below",
+     "year": 2010
+    },
+    {
+     "story": "205",
+     "base": 205,
+     "title": "Victory of the Daleks",
+     "year": 2010
+    },
+    {
+     "story": "206a",
+     "base": 206,
+     "title": "The Time of Angels",
+     "year": 2010
+    },
+    {
+     "story": "206b",
+     "base": 206,
+     "title": "Flesh and Stone",
+     "year": 2010
+    },
+    {
+     "story": "207",
+     "base": 207,
+     "title": "The Vampires of Venice",
+     "year": 2010
+    },
+    {
+     "story": "208",
+     "base": 208,
+     "title": "Amy's Choice",
+     "year": 2010
+    },
+    {
+     "story": "209a",
+     "base": 209,
+     "title": "The Hungry Earth",
+     "year": 2010
+    },
+    {
+     "story": "209b",
+     "base": 209,
+     "title": "Cold Blood",
+     "year": 2010
+    },
+    {
+     "story": "210",
+     "base": 210,
+     "title": "Vincent and the Doctor",
+     "year": 2010
+    },
+    {
+     "story": "211",
+     "base": 211,
+     "title": "The Lodger",
+     "year": 2010
+    },
+    {
+     "story": "212a",
+     "base": 212,
+     "title": "The Pandorica Opens",
+     "year": 2010
+    },
+    {
+     "story": "212b",
+     "base": 212,
+     "title": "The Big Bang",
+     "year": 2010
+    }
+   ],
+   "regular": 13,
+   "specials_in_table": 0
+  },
+  {
+   "heading": "Series 6",
+   "years": "2011",
+   "page": "Doctor Who series 6",
+   "episodes": [
+    {
+     "story": "213",
+     "base": 213,
+     "title": "A Christmas Carol",
+     "year": 2010,
+     "special": "2010 Christmas"
+    },
+    {
+     "story": "214a",
+     "base": 214,
+     "title": "The Impossible Astronaut",
+     "year": 2011
+    },
+    {
+     "story": "214b",
+     "base": 214,
+     "title": "Day of the Moon",
+     "year": 2011
+    },
+    {
+     "story": "215",
+     "base": 215,
+     "title": "The Curse of the Black Spot",
+     "year": 2011
+    },
+    {
+     "story": "216",
+     "base": 216,
+     "title": "The Doctor's Wife",
+     "year": 2011
+    },
+    {
+     "story": "217a",
+     "base": 217,
+     "title": "The Rebel Flesh",
+     "year": 2011
+    },
+    {
+     "story": "217b",
+     "base": 217,
+     "title": "The Almost People",
+     "year": 2011
+    },
+    {
+     "story": "218",
+     "base": 218,
+     "title": "A Good Man Goes to War",
+     "year": 2011
+    },
+    {
+     "story": "219",
+     "base": 219,
+     "title": "Let's Kill Hitler",
+     "year": 2011
+    },
+    {
+     "story": "220",
+     "base": 220,
+     "title": "Night Terrors",
+     "year": 2011
+    },
+    {
+     "story": "221",
+     "base": 221,
+     "title": "The Girl Who Waited",
+     "year": 2011
+    },
+    {
+     "story": "222",
+     "base": 222,
+     "title": "The God Complex",
+     "year": 2011
+    },
+    {
+     "story": "223",
+     "base": 223,
+     "title": "Closing Time",
+     "year": 2011
+    },
+    {
+     "story": "224",
+     "base": 224,
+     "title": "The Wedding of River Song",
+     "year": 2011
+    }
+   ],
+   "regular": 13,
+   "specials_in_table": 1
+  },
+  {
+   "heading": "Series 7",
+   "years": "2012–2013",
+   "page": "Doctor Who series 7",
+   "episodes": [
+    {
+     "story": "225",
+     "base": 225,
+     "title": "The Doctor, the Widow and the Wardrobe",
+     "year": 2011,
+     "special": "2011 Christmas"
+    },
+    {
+     "story": "226",
+     "base": 226,
+     "title": "Asylum of the Daleks",
+     "year": 2012
+    },
+    {
+     "story": "227",
+     "base": 227,
+     "title": "Dinosaurs on a Spaceship",
+     "year": 2012
+    },
+    {
+     "story": "228",
+     "base": 228,
+     "title": "A Town Called Mercy",
+     "year": 2012
+    },
+    {
+     "story": "229",
+     "base": 229,
+     "title": "The Power of Three",
+     "year": 2012
+    },
+    {
+     "story": "230",
+     "base": 230,
+     "title": "The Angels Take Manhattan",
+     "year": 2012
+    },
+    {
+     "story": "231",
+     "base": 231,
+     "title": "The Snowmen",
+     "year": 2012,
+     "special": "2012 Christmas"
+    },
+    {
+     "story": "232",
+     "base": 232,
+     "title": "The Bells of Saint John",
+     "year": 2013
+    },
+    {
+     "story": "233",
+     "base": 233,
+     "title": "The Rings of Akhaten",
+     "year": 2013
+    },
+    {
+     "story": "234",
+     "base": 234,
+     "title": "Cold War",
+     "year": 2013
+    },
+    {
+     "story": "235",
+     "base": 235,
+     "title": "Hide",
+     "year": 2013
+    },
+    {
+     "story": "236",
+     "base": 236,
+     "title": "Journey to the Centre of the TARDIS",
+     "year": 2013
+    },
+    {
+     "story": "237",
+     "base": 237,
+     "title": "The Crimson Horror",
+     "year": 2013
+    },
+    {
+     "story": "238",
+     "base": 238,
+     "title": "Nightmare in Silver",
+     "year": 2013
+    },
+    {
+     "story": "239",
+     "base": 239,
+     "title": "The Name of the Doctor",
+     "year": 2013
+    }
+   ],
+   "regular": 13,
+   "specials_in_table": 2
+  },
+  {
+   "heading": "Specials",
+   "years": "2013",
+   "page": "Doctor Who specials (2013)",
+   "episodes": [
+    {
+     "story": "240",
+     "base": 240,
+     "title": "The Day of the Doctor",
+     "year": 2013
+    },
+    {
+     "story": "241",
+     "base": 241,
+     "title": "The Time of the Doctor",
+     "year": 2013
+    }
+   ],
+   "regular": 0,
+   "specials_in_table": 2
+  },
+  {
+   "heading": "Series 8",
+   "years": "2014",
+   "page": "Doctor Who series 8",
+   "episodes": [
+    {
+     "story": "242",
+     "base": 242,
+     "title": "Deep Breath",
+     "year": 2014
+    },
+    {
+     "story": "243",
+     "base": 243,
+     "title": "Into the Dalek",
+     "year": 2014
+    },
+    {
+     "story": "244",
+     "base": 244,
+     "title": "Robot of Sherwood",
+     "year": 2014
+    },
+    {
+     "story": "245",
+     "base": 245,
+     "title": "Listen",
+     "year": 2014
+    },
+    {
+     "story": "246",
+     "base": 246,
+     "title": "Time Heist",
+     "year": 2014
+    },
+    {
+     "story": "247",
+     "base": 247,
+     "title": "The Caretaker",
+     "year": 2014
+    },
+    {
+     "story": "248",
+     "base": 248,
+     "title": "Kill the Moon",
+     "year": 2014
+    },
+    {
+     "story": "249",
+     "base": 249,
+     "title": "Mummy on the Orient Express",
+     "year": 2014
+    },
+    {
+     "story": "250",
+     "base": 250,
+     "title": "Flatline",
+     "year": 2014
+    },
+    {
+     "story": "251",
+     "base": 251,
+     "title": "In the Forest of the Night",
+     "year": 2014
+    },
+    {
+     "story": "252a",
+     "base": 252,
+     "title": "Dark Water",
+     "year": 2014
+    },
+    {
+     "story": "252b",
+     "base": 252,
+     "title": "Death in Heaven",
+     "year": 2014
+    }
+   ],
+   "regular": 12,
+   "specials_in_table": 0
+  },
+  {
+   "heading": "Series 9",
+   "years": "2015",
+   "page": "Doctor Who series 9",
+   "episodes": [
+    {
+     "story": "253",
+     "base": 253,
+     "title": "Last Christmas",
+     "year": 2014,
+     "special": "2014 Christmas"
+    },
+    {
+     "story": "254a",
+     "base": 254,
+     "title": "The Magician's Apprentice",
+     "year": 2015
+    },
+    {
+     "story": "254b",
+     "base": 254,
+     "title": "The Witch's Familiar",
+     "year": 2015
+    },
+    {
+     "story": "255a",
+     "base": 255,
+     "title": "Under the Lake",
+     "year": 2015
+    },
+    {
+     "story": "255b",
+     "base": 255,
+     "title": "Before the Flood",
+     "year": 2015
+    },
+    {
+     "story": "256",
+     "base": 256,
+     "title": "The Girl Who Died",
+     "year": 2015
+    },
+    {
+     "story": "257",
+     "base": 257,
+     "title": "The Woman Who Lived",
+     "year": 2015
+    },
+    {
+     "story": "258a",
+     "base": 258,
+     "title": "The Zygon Invasion",
+     "year": 2015
+    },
+    {
+     "story": "258b",
+     "base": 258,
+     "title": "The Zygon Inversion",
+     "year": 2015
+    },
+    {
+     "story": "259",
+     "base": 259,
+     "title": "Sleep No More",
+     "year": 2015
+    },
+    {
+     "story": "260",
+     "base": 260,
+     "title": "Face the Raven",
+     "year": 2015
+    },
+    {
+     "story": "261",
+     "base": 261,
+     "title": "Heaven Sent",
+     "year": 2015
+    },
+    {
+     "story": "262",
+     "base": 262,
+     "title": "Hell Bent",
+     "year": 2015
+    },
+    {
+     "story": "263",
+     "base": 263,
+     "title": "The Husbands of River Song",
+     "year": 2015,
+     "special": "2015 Christmas"
+    }
+   ],
+   "regular": 12,
+   "specials_in_table": 2
+  },
+  {
+   "heading": "Series 10",
+   "years": "2017",
+   "page": "Doctor Who series 10",
+   "episodes": [
+    {
+     "story": "264",
+     "base": 264,
+     "title": "The Return of Doctor Mysterio",
+     "year": 2016,
+     "special": "2016 Christmas"
+    },
+    {
+     "story": "265",
+     "base": 265,
+     "title": "The Pilot",
+     "year": 2017
+    },
+    {
+     "story": "266",
+     "base": 266,
+     "title": "Smile",
+     "year": 2017
+    },
+    {
+     "story": "267",
+     "base": 267,
+     "title": "Thin Ice",
+     "year": 2017
+    },
+    {
+     "story": "268",
+     "base": 268,
+     "title": "Knock Knock",
+     "year": 2017
+    },
+    {
+     "story": "269",
+     "base": 269,
+     "title": "Oxygen",
+     "year": 2017
+    },
+    {
+     "story": "270",
+     "base": 270,
+     "title": "Extremis",
+     "year": 2017
+    },
+    {
+     "story": "271",
+     "base": 271,
+     "title": "The Pyramid at the End of the World",
+     "year": 2017
+    },
+    {
+     "story": "272",
+     "base": 272,
+     "title": "The Lie of the Land",
+     "year": 2017
+    },
+    {
+     "story": "273",
+     "base": 273,
+     "title": "Empress of Mars",
+     "year": 2017
+    },
+    {
+     "story": "274",
+     "base": 274,
+     "title": "The Eaters of Light",
+     "year": 2017
+    },
+    {
+     "story": "275a",
+     "base": 275,
+     "title": "World Enough and Time",
+     "year": 2017
+    },
+    {
+     "story": "275b",
+     "base": 275,
+     "title": "The Doctor Falls",
+     "year": 2017
+    },
+    {
+     "story": "276",
+     "base": 276,
+     "title": "Twice Upon a Time",
+     "year": 2017,
+     "special": "2017 Christmas"
+    }
+   ],
+   "regular": 12,
+   "specials_in_table": 2
+  },
+  {
+   "heading": "Series 11",
+   "years": "2018",
+   "page": "Doctor Who series 11",
+   "episodes": [
+    {
+     "story": "277",
+     "base": 277,
+     "title": "The Woman Who Fell to Earth",
+     "year": 2018
+    },
+    {
+     "story": "278",
+     "base": 278,
+     "title": "The Ghost Monument",
+     "year": 2018
+    },
+    {
+     "story": "279",
+     "base": 279,
+     "title": "Rosa",
+     "year": 2018
+    },
+    {
+     "story": "280",
+     "base": 280,
+     "title": "Arachnids in the UK",
+     "year": 2018
+    },
+    {
+     "story": "281",
+     "base": 281,
+     "title": "The Tsuranga Conundrum",
+     "year": 2018
+    },
+    {
+     "story": "282",
+     "base": 282,
+     "title": "Demons of the Punjab",
+     "year": 2018
+    },
+    {
+     "story": "283",
+     "base": 283,
+     "title": "Kerblam!",
+     "year": 2018
+    },
+    {
+     "story": "284",
+     "base": 284,
+     "title": "The Witchfinders",
+     "year": 2018
+    },
+    {
+     "story": "285",
+     "base": 285,
+     "title": "It Takes You Away",
+     "year": 2018
+    },
+    {
+     "story": "286",
+     "base": 286,
+     "title": "The Battle of Ranskoor Av Kolos",
+     "year": 2018
+    },
+    {
+     "story": "287",
+     "base": 287,
+     "title": "Resolution",
+     "year": 2019,
+     "special": "2019 New Year"
+    }
+   ],
+   "regular": 10,
+   "specials_in_table": 1
+  },
+  {
+   "heading": "Series 12",
+   "years": "2020",
+   "page": "Doctor Who series 12",
+   "episodes": [
+    {
+     "story": "288a",
+     "base": 288,
+     "title": "Spyfall, Part 1",
+     "year": 2020
+    },
+    {
+     "story": "288b",
+     "base": 288,
+     "title": "Spyfall, Part 2",
+     "year": 2020
+    },
+    {
+     "story": "289",
+     "base": 289,
+     "title": "Orphan 55",
+     "year": 2020
+    },
+    {
+     "story": "290",
+     "base": 290,
+     "title": "Nikola Tesla's Night of Terror",
+     "year": 2020
+    },
+    {
+     "story": "291",
+     "base": 291,
+     "title": "Fugitive of the Judoon",
+     "year": 2020
+    },
+    {
+     "story": "292",
+     "base": 292,
+     "title": "Praxeus",
+     "year": 2020
+    },
+    {
+     "story": "293",
+     "base": 293,
+     "title": "Can You Hear Me?",
+     "year": 2020
+    },
+    {
+     "story": "294",
+     "base": 294,
+     "title": "The Haunting of Villa Diodati",
+     "year": 2020
+    },
+    {
+     "story": "295a",
+     "base": 295,
+     "title": "Ascension of the Cybermen",
+     "year": 2020
+    },
+    {
+     "story": "295b",
+     "base": 295,
+     "title": "The Timeless Children",
+     "year": 2020
+    },
+    {
+     "story": "296",
+     "base": 296,
+     "title": "Revolution of the Daleks",
+     "year": 2021,
+     "special": "2021 New Year"
+    }
+   ],
+   "regular": 10,
+   "specials_in_table": 1
+  },
+  {
+   "heading": "Series 13",
+   "years": "2021",
+   "page": "Doctor Who series 13",
+   "episodes": [
+    {
+     "story": "297a",
+     "base": 297,
+     "title": "The Halloween Apocalypse",
+     "year": 2021
+    },
+    {
+     "story": "297b",
+     "base": 297,
+     "title": "War of the Sontarans",
+     "year": 2021
+    },
+    {
+     "story": "297c",
+     "base": 297,
+     "title": "Once, Upon Time",
+     "year": 2021
+    },
+    {
+     "story": "297d",
+     "base": 297,
+     "title": "Village of the Angels",
+     "year": 2021
+    },
+    {
+     "story": "297e",
+     "base": 297,
+     "title": "Survivors of the Flux",
+     "year": 2021
+    },
+    {
+     "story": "297f",
+     "base": 297,
+     "title": "The Vanquishers",
+     "year": 2021
+    }
+   ],
+   "regular": 6,
+   "specials_in_table": 0
+  },
+  {
+   "heading": "Specials",
+   "years": "2022",
+   "page": "Doctor Who specials (2022)",
+   "episodes": [
+    {
+     "story": "298",
+     "base": 298,
+     "title": "Eve of the Daleks",
+     "year": 2022
+    },
+    {
+     "story": "299",
+     "base": 299,
+     "title": "Legend of the Sea Devils",
+     "year": 2022
+    },
+    {
+     "story": "300",
+     "base": 300,
+     "title": "The Power of the Doctor",
+     "year": 2022
+    }
+   ],
+   "regular": 0,
+   "specials_in_table": 3
+  },
+  {
+   "heading": "Specials",
+   "years": "2023",
+   "page": "Doctor Who specials (2023)",
+   "episodes": [
+    {
+     "story": "301",
+     "base": 301,
+     "title": "The Star Beast",
+     "year": 2023
+    },
+    {
+     "story": "302",
+     "base": 302,
+     "title": "Wild Blue Yonder",
+     "year": 2023
+    },
+    {
+     "story": "303",
+     "base": 303,
+     "title": "The Giggle",
+     "year": 2023
+    }
+   ],
+   "regular": 0,
+   "specials_in_table": 3
+  },
+  {
+   "heading": "Series 14",
+   "years": "2024",
+   "page": "Doctor Who series 14",
+   "episodes": [
+    {
+     "story": "304",
+     "base": 304,
+     "title": "The Church on Ruby Road",
+     "year": 2023,
+     "special": "2023 Christmas"
+    },
+    {
+     "story": "305",
+     "base": 305,
+     "title": "Space Babies",
+     "year": 2024
+    },
+    {
+     "story": "306",
+     "base": 306,
+     "title": "The Devil's Chord",
+     "year": 2024
+    },
+    {
+     "story": "307",
+     "base": 307,
+     "title": "Boom",
+     "year": 2024
+    },
+    {
+     "story": "308",
+     "base": 308,
+     "title": "73 Yards",
+     "year": 2024
+    },
+    {
+     "story": "309",
+     "base": 309,
+     "title": "Dot and Bubble",
+     "year": 2024
+    },
+    {
+     "story": "310",
+     "base": 310,
+     "title": "Rogue",
+     "year": 2024
+    },
+    {
+     "story": "311a",
+     "base": 311,
+     "title": "The Legend of Ruby Sunday",
+     "year": 2024
+    },
+    {
+     "story": "311b",
+     "base": 311,
+     "title": "Empire of Death",
+     "year": 2024
+    }
+   ],
+   "regular": 8,
+   "specials_in_table": 1
+  },
+  {
+   "heading": "Series 15",
+   "years": "2025",
+   "page": "Doctor Who series 15",
+   "episodes": [
+    {
+     "story": "312",
+     "base": 312,
+     "title": "Joy to the World",
+     "year": 2024,
+     "special": "2024 Christmas"
+    },
+    {
+     "story": "313",
+     "base": 313,
+     "title": "The Robot Revolution",
+     "year": 2025
+    },
+    {
+     "story": "314",
+     "base": 314,
+     "title": "Lux",
+     "year": 2025
+    },
+    {
+     "story": "315",
+     "base": 315,
+     "title": "The Well",
+     "year": 2025
+    },
+    {
+     "story": "316",
+     "base": 316,
+     "title": "Lucky Day",
+     "year": 2025
+    },
+    {
+     "story": "317",
+     "base": 317,
+     "title": "The Story & the Engine",
+     "year": 2025
+    },
+    {
+     "story": "318",
+     "base": 318,
+     "title": "The Interstellar Song Contest",
+     "year": 2025
+    },
+    {
+     "story": "319a",
+     "base": 319,
+     "title": "Wish World",
+     "year": 2025
+    },
+    {
+     "story": "319b",
+     "base": 319,
+     "title": "The Reality War",
+     "year": 2025
+    }
+   ],
+   "regular": 8,
+   "specials_in_table": 1
+  }
+ ],
+ "wholly_missing": [
+  4,
+  19,
+  20,
+  22,
+  26,
+  28,
+  30,
+  31,
+  34,
+  42
+ ]
+}

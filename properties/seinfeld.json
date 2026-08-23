@@ -1,0 +1,958 @@
+{
+  "slug": "seinfeld",
+  "title": "Seinfeld",
+  "subtitle": "every episode across nine seasons",
+  "kind": "tv",
+  "order": 75,
+  "year": "1989–1998",
+  "blurb": "All 180 episodes in broadcast order — nine seasons about nothing, from The Seinfeld Chronicles to The Finale.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#B3282D",
+  "accentDark": "#E8B93F",
+  "tiers": false,
+  "notes": [
+    [
+      "171 rows, 180 episodes.",
+      "Nine hour-long entries are numbered as two episodes each by the episode lists and sit here as one row spanning both numbers, exactly as the season articles file them. All but The Trip aired in one sitting."
+    ],
+    "Episode titles and airdates machine-read from the nine Wikipedia season articles; every season's numbering is asserted contiguous and equal to the episode list's own counts before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "1989–90 · 5 episodes",
+      "items": [
+        {
+          "id": "sein-s1-1",
+          "t": "The Seinfeld Chronicles",
+          "n": "S1E1"
+        },
+        {
+          "id": "sein-s1-2",
+          "t": "The Stake Out",
+          "n": "S1E2"
+        },
+        {
+          "id": "sein-s1-3",
+          "t": "The Robbery",
+          "n": "S1E3"
+        },
+        {
+          "id": "sein-s1-4",
+          "t": "Male Unbonding",
+          "n": "S1E4"
+        },
+        {
+          "id": "sein-s1-5",
+          "t": "The Stock Tip",
+          "n": "S1E5"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "1991 · 12 episodes",
+      "items": [
+        {
+          "id": "sein-s2-1",
+          "t": "The Ex-Girlfriend",
+          "n": "S2E1"
+        },
+        {
+          "id": "sein-s2-2",
+          "t": "The Pony Remark",
+          "n": "S2E2"
+        },
+        {
+          "id": "sein-s2-3",
+          "t": "The Jacket",
+          "n": "S2E3"
+        },
+        {
+          "id": "sein-s2-4",
+          "t": "The Phone Message",
+          "n": "S2E4"
+        },
+        {
+          "id": "sein-s2-5",
+          "t": "The Apartment",
+          "n": "S2E5"
+        },
+        {
+          "id": "sein-s2-6",
+          "t": "The Statue",
+          "n": "S2E6"
+        },
+        {
+          "id": "sein-s2-7",
+          "t": "The Revenge",
+          "n": "S2E7"
+        },
+        {
+          "id": "sein-s2-8",
+          "t": "The Heart Attack",
+          "n": "S2E8"
+        },
+        {
+          "id": "sein-s2-9",
+          "t": "The Deal",
+          "n": "S2E9"
+        },
+        {
+          "id": "sein-s2-10",
+          "t": "The Baby Shower",
+          "n": "S2E10"
+        },
+        {
+          "id": "sein-s2-11",
+          "t": "The Chinese Restaurant",
+          "n": "S2E11"
+        },
+        {
+          "id": "sein-s2-12",
+          "t": "The Busboy",
+          "n": "S2E12"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "1991–92 · 23 episodes",
+      "items": [
+        {
+          "id": "sein-s3-1",
+          "t": "The Note",
+          "n": "S3E1"
+        },
+        {
+          "id": "sein-s3-2",
+          "t": "The Truth",
+          "n": "S3E2"
+        },
+        {
+          "id": "sein-s3-3",
+          "t": "The Pen",
+          "n": "S3E3"
+        },
+        {
+          "id": "sein-s3-4",
+          "t": "The Dog",
+          "n": "S3E4"
+        },
+        {
+          "id": "sein-s3-5",
+          "t": "The Library",
+          "n": "S3E5"
+        },
+        {
+          "id": "sein-s3-6",
+          "t": "The Parking Garage",
+          "n": "S3E6"
+        },
+        {
+          "id": "sein-s3-7",
+          "t": "The Café",
+          "n": "S3E7"
+        },
+        {
+          "id": "sein-s3-8",
+          "t": "The Tape",
+          "n": "S3E8"
+        },
+        {
+          "id": "sein-s3-9",
+          "t": "The Nose Job",
+          "n": "S3E9"
+        },
+        {
+          "id": "sein-s3-10",
+          "t": "The Stranded",
+          "n": "S3E10"
+        },
+        {
+          "id": "sein-s3-11",
+          "t": "The Alternate Side",
+          "n": "S3E11"
+        },
+        {
+          "id": "sein-s3-12",
+          "t": "The Red Dot",
+          "n": "S3E12"
+        },
+        {
+          "id": "sein-s3-13",
+          "t": "The Subway",
+          "n": "S3E13"
+        },
+        {
+          "id": "sein-s3-14",
+          "t": "The Pez Dispenser",
+          "n": "S3E14"
+        },
+        {
+          "id": "sein-s3-15",
+          "t": "The Suicide",
+          "n": "S3E15"
+        },
+        {
+          "id": "sein-s3-16",
+          "t": "The Fix-Up",
+          "n": "S3E16"
+        },
+        {
+          "id": "sein-s3-17",
+          "t": "The Boyfriend",
+          "n": "S3E17–18",
+          "note": "Aired as one hour-long episode"
+        },
+        {
+          "id": "sein-s3-19",
+          "t": "The Limo",
+          "n": "S3E19"
+        },
+        {
+          "id": "sein-s3-20",
+          "t": "The Good Samaritan",
+          "n": "S3E20"
+        },
+        {
+          "id": "sein-s3-21",
+          "t": "The Letter",
+          "n": "S3E21"
+        },
+        {
+          "id": "sein-s3-22",
+          "t": "The Parking Space",
+          "n": "S3E22"
+        },
+        {
+          "id": "sein-s3-23",
+          "t": "The Keys",
+          "n": "S3E23"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Season 4",
+      "sub": "1992–93 · 24 episodes",
+      "items": [
+        {
+          "id": "sein-s4-1",
+          "t": "The Trip",
+          "n": "S4E1–2",
+          "note": "Two parts, aired a week apart"
+        },
+        {
+          "id": "sein-s4-3",
+          "t": "The Pitch",
+          "n": "S4E3"
+        },
+        {
+          "id": "sein-s4-4",
+          "t": "The Ticket",
+          "n": "S4E4"
+        },
+        {
+          "id": "sein-s4-5",
+          "t": "The Wallet",
+          "n": "S4E5"
+        },
+        {
+          "id": "sein-s4-6",
+          "t": "The Watch",
+          "n": "S4E6"
+        },
+        {
+          "id": "sein-s4-7",
+          "t": "The Bubble Boy",
+          "n": "S4E7"
+        },
+        {
+          "id": "sein-s4-8",
+          "t": "The Cheever Letters",
+          "n": "S4E8"
+        },
+        {
+          "id": "sein-s4-9",
+          "t": "The Opera",
+          "n": "S4E9"
+        },
+        {
+          "id": "sein-s4-10",
+          "t": "The Virgin",
+          "n": "S4E10"
+        },
+        {
+          "id": "sein-s4-11",
+          "t": "The Contest",
+          "n": "S4E11"
+        },
+        {
+          "id": "sein-s4-12",
+          "t": "The Airport",
+          "n": "S4E12"
+        },
+        {
+          "id": "sein-s4-13",
+          "t": "The Pick",
+          "n": "S4E13"
+        },
+        {
+          "id": "sein-s4-14",
+          "t": "The Movie",
+          "n": "S4E14"
+        },
+        {
+          "id": "sein-s4-15",
+          "t": "The Visa",
+          "n": "S4E15"
+        },
+        {
+          "id": "sein-s4-16",
+          "t": "The Shoes",
+          "n": "S4E16"
+        },
+        {
+          "id": "sein-s4-17",
+          "t": "The Outing",
+          "n": "S4E17"
+        },
+        {
+          "id": "sein-s4-18",
+          "t": "The Old Man",
+          "n": "S4E18"
+        },
+        {
+          "id": "sein-s4-19",
+          "t": "The Implant",
+          "n": "S4E19"
+        },
+        {
+          "id": "sein-s4-20",
+          "t": "The Junior Mint",
+          "n": "S4E20"
+        },
+        {
+          "id": "sein-s4-21",
+          "t": "The Smelly Car",
+          "n": "S4E21"
+        },
+        {
+          "id": "sein-s4-22",
+          "t": "The Handicap Spot",
+          "n": "S4E22"
+        },
+        {
+          "id": "sein-s4-23",
+          "t": "The Pilot",
+          "n": "S4E23–24",
+          "note": "Aired as one hour-long episode"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Season 5",
+      "sub": "1993–94 · 22 episodes",
+      "items": [
+        {
+          "id": "sein-s5-1",
+          "t": "The Mango",
+          "n": "S5E1"
+        },
+        {
+          "id": "sein-s5-2",
+          "t": "The Puffy Shirt",
+          "n": "S5E2"
+        },
+        {
+          "id": "sein-s5-3",
+          "t": "The Glasses",
+          "n": "S5E3"
+        },
+        {
+          "id": "sein-s5-4",
+          "t": "The Sniffing Accountant",
+          "n": "S5E4"
+        },
+        {
+          "id": "sein-s5-5",
+          "t": "The Bris",
+          "n": "S5E5"
+        },
+        {
+          "id": "sein-s5-6",
+          "t": "The Lip Reader",
+          "n": "S5E6"
+        },
+        {
+          "id": "sein-s5-7",
+          "t": "The Non-Fat Yogurt",
+          "n": "S5E7"
+        },
+        {
+          "id": "sein-s5-8",
+          "t": "The Barber",
+          "n": "S5E8"
+        },
+        {
+          "id": "sein-s5-9",
+          "t": "The Masseuse",
+          "n": "S5E9"
+        },
+        {
+          "id": "sein-s5-10",
+          "t": "The Cigar Store Indian",
+          "n": "S5E10"
+        },
+        {
+          "id": "sein-s5-11",
+          "t": "The Conversion",
+          "n": "S5E11"
+        },
+        {
+          "id": "sein-s5-12",
+          "t": "The Stall",
+          "n": "S5E12"
+        },
+        {
+          "id": "sein-s5-13",
+          "t": "The Dinner Party",
+          "n": "S5E13"
+        },
+        {
+          "id": "sein-s5-14",
+          "t": "The Marine Biologist",
+          "n": "S5E14"
+        },
+        {
+          "id": "sein-s5-15",
+          "t": "The Pie",
+          "n": "S5E15"
+        },
+        {
+          "id": "sein-s5-16",
+          "t": "The Stand-In",
+          "n": "S5E16"
+        },
+        {
+          "id": "sein-s5-17",
+          "t": "The Wife",
+          "n": "S5E17"
+        },
+        {
+          "id": "sein-s5-18",
+          "t": "The Raincoats",
+          "n": "S5E18–19",
+          "note": "Aired as one hour-long episode"
+        },
+        {
+          "id": "sein-s5-20",
+          "t": "The Fire",
+          "n": "S5E20"
+        },
+        {
+          "id": "sein-s5-21",
+          "t": "The Hamptons",
+          "n": "S5E21"
+        },
+        {
+          "id": "sein-s5-22",
+          "t": "The Opposite",
+          "n": "S5E22"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Season 6",
+      "sub": "1994–95 · 24 episodes",
+      "items": [
+        {
+          "id": "sein-s6-1",
+          "t": "The Chaperone",
+          "n": "S6E1"
+        },
+        {
+          "id": "sein-s6-2",
+          "t": "The Big Salad",
+          "n": "S6E2"
+        },
+        {
+          "id": "sein-s6-3",
+          "t": "The Pledge Drive",
+          "n": "S6E3"
+        },
+        {
+          "id": "sein-s6-4",
+          "t": "The Chinese Woman",
+          "n": "S6E4"
+        },
+        {
+          "id": "sein-s6-5",
+          "t": "The Couch",
+          "n": "S6E5"
+        },
+        {
+          "id": "sein-s6-6",
+          "t": "The Gymnast",
+          "n": "S6E6"
+        },
+        {
+          "id": "sein-s6-7",
+          "t": "The Soup",
+          "n": "S6E7"
+        },
+        {
+          "id": "sein-s6-8",
+          "t": "The Mom & Pop Store",
+          "n": "S6E8"
+        },
+        {
+          "id": "sein-s6-9",
+          "t": "The Secretary",
+          "n": "S6E9"
+        },
+        {
+          "id": "sein-s6-10",
+          "t": "The Race",
+          "n": "S6E10"
+        },
+        {
+          "id": "sein-s6-11",
+          "t": "The Switch",
+          "n": "S6E11"
+        },
+        {
+          "id": "sein-s6-12",
+          "t": "The Label Maker",
+          "n": "S6E12"
+        },
+        {
+          "id": "sein-s6-13",
+          "t": "The Scofflaw",
+          "n": "S6E13"
+        },
+        {
+          "id": "sein-s6-14",
+          "t": "The Highlights of 100",
+          "n": "S6E14–15",
+          "note": "Aired as one hour-long episode"
+        },
+        {
+          "id": "sein-s6-16",
+          "t": "The Beard",
+          "n": "S6E16"
+        },
+        {
+          "id": "sein-s6-17",
+          "t": "The Kiss Hello",
+          "n": "S6E17"
+        },
+        {
+          "id": "sein-s6-18",
+          "t": "The Doorman",
+          "n": "S6E18"
+        },
+        {
+          "id": "sein-s6-19",
+          "t": "The Jimmy",
+          "n": "S6E19"
+        },
+        {
+          "id": "sein-s6-20",
+          "t": "The Doodle",
+          "n": "S6E20"
+        },
+        {
+          "id": "sein-s6-21",
+          "t": "The Fusilli Jerry",
+          "n": "S6E21"
+        },
+        {
+          "id": "sein-s6-22",
+          "t": "The Diplomat's Club",
+          "n": "S6E22"
+        },
+        {
+          "id": "sein-s6-23",
+          "t": "The Face Painter",
+          "n": "S6E23"
+        },
+        {
+          "id": "sein-s6-24",
+          "t": "The Understudy",
+          "n": "S6E24"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Season 7",
+      "sub": "1995–96 · 24 episodes",
+      "items": [
+        {
+          "id": "sein-s7-1",
+          "t": "The Engagement",
+          "n": "S7E1"
+        },
+        {
+          "id": "sein-s7-2",
+          "t": "The Postponement",
+          "n": "S7E2"
+        },
+        {
+          "id": "sein-s7-3",
+          "t": "The Maestro",
+          "n": "S7E3"
+        },
+        {
+          "id": "sein-s7-4",
+          "t": "The Wink",
+          "n": "S7E4"
+        },
+        {
+          "id": "sein-s7-5",
+          "t": "The Hot Tub",
+          "n": "S7E5"
+        },
+        {
+          "id": "sein-s7-6",
+          "t": "The Soup Nazi",
+          "n": "S7E6"
+        },
+        {
+          "id": "sein-s7-7",
+          "t": "The Secret Code",
+          "n": "S7E7"
+        },
+        {
+          "id": "sein-s7-8",
+          "t": "The Pool Guy",
+          "n": "S7E8"
+        },
+        {
+          "id": "sein-s7-9",
+          "t": "The Sponge",
+          "n": "S7E9"
+        },
+        {
+          "id": "sein-s7-10",
+          "t": "The Gum",
+          "n": "S7E10"
+        },
+        {
+          "id": "sein-s7-11",
+          "t": "The Rye",
+          "n": "S7E11"
+        },
+        {
+          "id": "sein-s7-12",
+          "t": "The Caddy",
+          "n": "S7E12"
+        },
+        {
+          "id": "sein-s7-13",
+          "t": "The Seven",
+          "n": "S7E13"
+        },
+        {
+          "id": "sein-s7-14",
+          "t": "The Cadillac",
+          "n": "S7E14–15",
+          "note": "Aired as one hour-long episode"
+        },
+        {
+          "id": "sein-s7-16",
+          "t": "The Shower Head",
+          "n": "S7E16"
+        },
+        {
+          "id": "sein-s7-17",
+          "t": "The Doll",
+          "n": "S7E17"
+        },
+        {
+          "id": "sein-s7-18",
+          "t": "The Friars Club",
+          "n": "S7E18"
+        },
+        {
+          "id": "sein-s7-19",
+          "t": "The Wig Master",
+          "n": "S7E19"
+        },
+        {
+          "id": "sein-s7-20",
+          "t": "The Calzone",
+          "n": "S7E20"
+        },
+        {
+          "id": "sein-s7-21",
+          "t": "The Bottle Deposit",
+          "n": "S7E21–22",
+          "note": "Aired as one hour-long episode"
+        },
+        {
+          "id": "sein-s7-23",
+          "t": "The Wait Out",
+          "n": "S7E23"
+        },
+        {
+          "id": "sein-s7-24",
+          "t": "The Invitations",
+          "n": "S7E24"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Season 8",
+      "sub": "1996–97 · 22 episodes",
+      "items": [
+        {
+          "id": "sein-s8-1",
+          "t": "The Foundation",
+          "n": "S8E1"
+        },
+        {
+          "id": "sein-s8-2",
+          "t": "The Soul Mate",
+          "n": "S8E2"
+        },
+        {
+          "id": "sein-s8-3",
+          "t": "The Bizarro Jerry",
+          "n": "S8E3"
+        },
+        {
+          "id": "sein-s8-4",
+          "t": "The Little Kicks",
+          "n": "S8E4"
+        },
+        {
+          "id": "sein-s8-5",
+          "t": "The Package",
+          "n": "S8E5"
+        },
+        {
+          "id": "sein-s8-6",
+          "t": "The Fatigues",
+          "n": "S8E6"
+        },
+        {
+          "id": "sein-s8-7",
+          "t": "The Checks",
+          "n": "S8E7"
+        },
+        {
+          "id": "sein-s8-8",
+          "t": "The Chicken Roaster",
+          "n": "S8E8"
+        },
+        {
+          "id": "sein-s8-9",
+          "t": "The Abstinence",
+          "n": "S8E9"
+        },
+        {
+          "id": "sein-s8-10",
+          "t": "The Andrea Doria",
+          "n": "S8E10"
+        },
+        {
+          "id": "sein-s8-11",
+          "t": "The Little Jerry",
+          "n": "S8E11"
+        },
+        {
+          "id": "sein-s8-12",
+          "t": "The Money",
+          "n": "S8E12"
+        },
+        {
+          "id": "sein-s8-13",
+          "t": "The Comeback",
+          "n": "S8E13"
+        },
+        {
+          "id": "sein-s8-14",
+          "t": "The Van Buren Boys",
+          "n": "S8E14"
+        },
+        {
+          "id": "sein-s8-15",
+          "t": "The Susie",
+          "n": "S8E15"
+        },
+        {
+          "id": "sein-s8-16",
+          "t": "The Pothole",
+          "n": "S8E16"
+        },
+        {
+          "id": "sein-s8-17",
+          "t": "The English Patient",
+          "n": "S8E17"
+        },
+        {
+          "id": "sein-s8-18",
+          "t": "The Nap",
+          "n": "S8E18"
+        },
+        {
+          "id": "sein-s8-19",
+          "t": "The Yada Yada",
+          "n": "S8E19"
+        },
+        {
+          "id": "sein-s8-20",
+          "t": "The Millennium",
+          "n": "S8E20"
+        },
+        {
+          "id": "sein-s8-21",
+          "t": "The Muffin Tops",
+          "n": "S8E21"
+        },
+        {
+          "id": "sein-s8-22",
+          "t": "The Summer of George",
+          "n": "S8E22"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Season 9",
+      "sub": "1997–98 · 24 episodes",
+      "items": [
+        {
+          "id": "sein-s9-1",
+          "t": "The Butter Shave",
+          "n": "S9E1"
+        },
+        {
+          "id": "sein-s9-2",
+          "t": "The Voice",
+          "n": "S9E2"
+        },
+        {
+          "id": "sein-s9-3",
+          "t": "The Serenity Now",
+          "n": "S9E3"
+        },
+        {
+          "id": "sein-s9-4",
+          "t": "The Blood",
+          "n": "S9E4"
+        },
+        {
+          "id": "sein-s9-5",
+          "t": "The Junk Mail",
+          "n": "S9E5"
+        },
+        {
+          "id": "sein-s9-6",
+          "t": "The Merv Griffin Show",
+          "n": "S9E6"
+        },
+        {
+          "id": "sein-s9-7",
+          "t": "The Slicer",
+          "n": "S9E7"
+        },
+        {
+          "id": "sein-s9-8",
+          "t": "The Betrayal",
+          "n": "S9E8"
+        },
+        {
+          "id": "sein-s9-9",
+          "t": "The Apology",
+          "n": "S9E9"
+        },
+        {
+          "id": "sein-s9-10",
+          "t": "The Strike",
+          "n": "S9E10"
+        },
+        {
+          "id": "sein-s9-11",
+          "t": "The Dealership",
+          "n": "S9E11"
+        },
+        {
+          "id": "sein-s9-12",
+          "t": "The Reverse Peephole",
+          "n": "S9E12"
+        },
+        {
+          "id": "sein-s9-13",
+          "t": "The Cartoon",
+          "n": "S9E13"
+        },
+        {
+          "id": "sein-s9-14",
+          "t": "The Strongbox",
+          "n": "S9E14"
+        },
+        {
+          "id": "sein-s9-15",
+          "t": "The Wizard",
+          "n": "S9E15"
+        },
+        {
+          "id": "sein-s9-16",
+          "t": "The Burning",
+          "n": "S9E16"
+        },
+        {
+          "id": "sein-s9-17",
+          "t": "The Bookstore",
+          "n": "S9E17"
+        },
+        {
+          "id": "sein-s9-18",
+          "t": "The Frogger",
+          "n": "S9E18"
+        },
+        {
+          "id": "sein-s9-19",
+          "t": "The Maid",
+          "n": "S9E19"
+        },
+        {
+          "id": "sein-s9-20",
+          "t": "The Puerto Rican Day",
+          "n": "S9E20"
+        },
+        {
+          "id": "sein-s9-21",
+          "t": "The Chronicle",
+          "n": "S9E21–22",
+          "note": "Aired as one hour-long episode"
+        },
+        {
+          "id": "sein-s9-23",
+          "t": "The Finale",
+          "n": "S9E23–24",
+          "note": "Aired as one hour-long episode"
+        }
+      ]
+    }
+  ]
+}

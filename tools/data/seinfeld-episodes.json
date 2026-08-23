@@ -1,0 +1,1083 @@
+{
+ "years": {
+  "1": "1989–90",
+  "2": "1991",
+  "3": "1991–92",
+  "4": "1992–93",
+  "5": "1993–94",
+  "6": "1994–95",
+  "7": "1995–96",
+  "8": "1996–97",
+  "9": "1997–98"
+ },
+ "stated": {
+  "lede": 180,
+  "per_season": {
+   "1": 5,
+   "2": 12,
+   "3": 23,
+   "4": 24,
+   "5": 22,
+   "6": 24,
+   "7": 24,
+   "8": 22,
+   "9": 24
+  }
+ },
+ "skipped": [],
+ "seasons": {
+  "1": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "The Seinfeld Chronicles",
+    "y": 1989
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "The Stake Out",
+    "y": 1990
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The Robbery",
+    "y": 1990
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "Male Unbonding",
+    "y": 1990
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Stock Tip",
+    "y": 1990
+   }
+  ],
+  "2": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "The Ex-Girlfriend",
+    "y": 1991
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "The Pony Remark",
+    "y": 1991
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The Jacket",
+    "y": 1991
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "The Phone Message",
+    "y": 1991
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Apartment",
+    "y": 1991
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "The Statue",
+    "y": 1991
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "The Revenge",
+    "y": 1991
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "The Heart Attack",
+    "y": 1991
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "The Deal",
+    "y": 1991
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "The Baby Shower",
+    "y": 1991
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "The Chinese Restaurant",
+    "y": 1991
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "The Busboy",
+    "y": 1991
+   }
+  ],
+  "3": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "The Note",
+    "y": 1991
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "The Truth",
+    "y": 1991
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The Pen",
+    "y": 1991
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "The Dog",
+    "y": 1991
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Library",
+    "y": 1991
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "The Parking Garage",
+    "y": 1991
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "The Café",
+    "y": 1991
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "The Tape",
+    "y": 1991
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "The Nose Job",
+    "y": 1991
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "The Stranded",
+    "y": 1991
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "The Alternate Side",
+    "y": 1991
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "The Red Dot",
+    "y": 1991
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "The Subway",
+    "y": 1992
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "The Pez Dispenser",
+    "y": 1992
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "The Suicide",
+    "y": 1992
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "The Fix-Up",
+    "y": 1992
+   },
+   {
+    "e": 17,
+    "e2": 18,
+    "t": "The Boyfriend",
+    "y": 1992,
+    "oneNight": true
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "The Limo",
+    "y": 1992
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "The Good Samaritan",
+    "y": 1992
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "The Letter",
+    "y": 1992
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "The Parking Space",
+    "y": 1992
+   },
+   {
+    "e": 23,
+    "e2": 23,
+    "t": "The Keys",
+    "y": 1992
+   }
+  ],
+  "4": [
+   {
+    "e": 1,
+    "e2": 2,
+    "t": "The Trip",
+    "y": 1992,
+    "oneNight": false
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The Pitch",
+    "y": 1992
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "The Ticket",
+    "y": 1992
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Wallet",
+    "y": 1992
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "The Watch",
+    "y": 1992
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "The Bubble Boy",
+    "y": 1992
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "The Cheever Letters",
+    "y": 1992
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "The Opera",
+    "y": 1992
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "The Virgin",
+    "y": 1992
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "The Contest",
+    "y": 1992
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "The Airport",
+    "y": 1992
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "The Pick",
+    "y": 1992
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "The Movie",
+    "y": 1993
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "The Visa",
+    "y": 1993
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "The Shoes",
+    "y": 1993
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "The Outing",
+    "y": 1993
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "The Old Man",
+    "y": 1993
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "The Implant",
+    "y": 1993
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "The Junior Mint",
+    "y": 1993
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "The Smelly Car",
+    "y": 1993
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "The Handicap Spot",
+    "y": 1993
+   },
+   {
+    "e": 23,
+    "e2": 24,
+    "t": "The Pilot",
+    "y": 1993,
+    "oneNight": true
+   }
+  ],
+  "5": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "The Mango",
+    "y": 1993
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "The Puffy Shirt",
+    "y": 1993
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The Glasses",
+    "y": 1993
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "The Sniffing Accountant",
+    "y": 1993
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Bris",
+    "y": 1993
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "The Lip Reader",
+    "y": 1993
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "The Non-Fat Yogurt",
+    "y": 1993
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "The Barber",
+    "y": 1993
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "The Masseuse",
+    "y": 1993
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "The Cigar Store Indian",
+    "y": 1993
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "The Conversion",
+    "y": 1993
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "The Stall",
+    "y": 1994
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "The Dinner Party",
+    "y": 1994
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "The Marine Biologist",
+    "y": 1994
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "The Pie",
+    "y": 1994
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "The Stand-In",
+    "y": 1994
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "The Wife",
+    "y": 1994
+   },
+   {
+    "e": 18,
+    "e2": 19,
+    "t": "The Raincoats",
+    "y": 1994,
+    "oneNight": true
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "The Fire",
+    "y": 1994
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "The Hamptons",
+    "y": 1994
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "The Opposite",
+    "y": 1994
+   }
+  ],
+  "6": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "The Chaperone",
+    "y": 1994
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "The Big Salad",
+    "y": 1994
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The Pledge Drive",
+    "y": 1994
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "The Chinese Woman",
+    "y": 1994
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Couch",
+    "y": 1994
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "The Gymnast",
+    "y": 1994
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "The Soup",
+    "y": 1994
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "The Mom & Pop Store",
+    "y": 1994
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "The Secretary",
+    "y": 1994
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "The Race",
+    "y": 1994
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "The Switch",
+    "y": 1995
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "The Label Maker",
+    "y": 1995
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "The Scofflaw",
+    "y": 1995
+   },
+   {
+    "e": 14,
+    "e2": 15,
+    "t": "The Highlights of 100",
+    "y": 1995,
+    "oneNight": true
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "The Beard",
+    "y": 1995
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "The Kiss Hello",
+    "y": 1995
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "The Doorman",
+    "y": 1995
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "The Jimmy",
+    "y": 1995
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "The Doodle",
+    "y": 1995
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "The Fusilli Jerry",
+    "y": 1995
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "The Diplomat's Club",
+    "y": 1995
+   },
+   {
+    "e": 23,
+    "e2": 23,
+    "t": "The Face Painter",
+    "y": 1995
+   },
+   {
+    "e": 24,
+    "e2": 24,
+    "t": "The Understudy",
+    "y": 1995
+   }
+  ],
+  "7": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "The Engagement",
+    "y": 1995
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "The Postponement",
+    "y": 1995
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The Maestro",
+    "y": 1995
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "The Wink",
+    "y": 1995
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Hot Tub",
+    "y": 1995
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "The Soup Nazi",
+    "y": 1995
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "The Secret Code",
+    "y": 1995
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "The Pool Guy",
+    "y": 1995
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "The Sponge",
+    "y": 1995
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "The Gum",
+    "y": 1995
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "The Rye",
+    "y": 1996
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "The Caddy",
+    "y": 1996
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "The Seven",
+    "y": 1996
+   },
+   {
+    "e": 14,
+    "e2": 15,
+    "t": "The Cadillac",
+    "y": 1996,
+    "oneNight": true
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "The Shower Head",
+    "y": 1996
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "The Doll",
+    "y": 1996
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "The Friars Club",
+    "y": 1996
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "The Wig Master",
+    "y": 1996
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "The Calzone",
+    "y": 1996
+   },
+   {
+    "e": 21,
+    "e2": 22,
+    "t": "The Bottle Deposit",
+    "y": 1996,
+    "oneNight": true
+   },
+   {
+    "e": 23,
+    "e2": 23,
+    "t": "The Wait Out",
+    "y": 1996
+   },
+   {
+    "e": 24,
+    "e2": 24,
+    "t": "The Invitations",
+    "y": 1996
+   }
+  ],
+  "8": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "The Foundation",
+    "y": 1996
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "The Soul Mate",
+    "y": 1996
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The Bizarro Jerry",
+    "y": 1996
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "The Little Kicks",
+    "y": 1996
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Package",
+    "y": 1996
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "The Fatigues",
+    "y": 1996
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "The Checks",
+    "y": 1996
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "The Chicken Roaster",
+    "y": 1996
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "The Abstinence",
+    "y": 1996
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "The Andrea Doria",
+    "y": 1996
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "The Little Jerry",
+    "y": 1997
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "The Money",
+    "y": 1997
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "The Comeback",
+    "y": 1997
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "The Van Buren Boys",
+    "y": 1997
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "The Susie",
+    "y": 1997
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "The Pothole",
+    "y": 1997
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "The English Patient",
+    "y": 1997
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "The Nap",
+    "y": 1997
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "The Yada Yada",
+    "y": 1997
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "The Millennium",
+    "y": 1997
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "The Muffin Tops",
+    "y": 1997
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "The Summer of George",
+    "y": 1997
+   }
+  ],
+  "9": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "The Butter Shave",
+    "y": 1997
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "The Voice",
+    "y": 1997
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The Serenity Now",
+    "y": 1997
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "The Blood",
+    "y": 1997
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Junk Mail",
+    "y": 1997
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "The Merv Griffin Show",
+    "y": 1997
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "The Slicer",
+    "y": 1997
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "The Betrayal",
+    "y": 1997
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "The Apology",
+    "y": 1997
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "The Strike",
+    "y": 1997
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "The Dealership",
+    "y": 1998
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "The Reverse Peephole",
+    "y": 1998
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "The Cartoon",
+    "y": 1998
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "The Strongbox",
+    "y": 1998
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "The Wizard",
+    "y": 1998
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "The Burning",
+    "y": 1998
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "The Bookstore",
+    "y": 1998
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "The Frogger",
+    "y": 1998
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "The Maid",
+    "y": 1998
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "The Puerto Rican Day",
+    "y": 1998
+   },
+   {
+    "e": 21,
+    "e2": 22,
+    "t": "The Chronicle",
+    "y": 1998,
+    "oneNight": true
+   },
+   {
+    "e": 23,
+    "e2": 24,
+    "t": "The Finale",
+    "y": 1998,
+    "oneNight": true
+   }
+  ]
+ }
+}

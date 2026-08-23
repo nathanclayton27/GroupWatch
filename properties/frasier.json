@@ -1,0 +1,1404 @@
+{
+  "slug": "frasier",
+  "title": "Frasier",
+  "subtitle": "the original run — eleven seasons, 1993–2004",
+  "kind": "tv",
+  "order": 76,
+  "year": "1993–2004",
+  "blurb": "All 264 episodes of the original run in broadcast order — eleven seasons of tossed salads and scrambled eggs.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#46586B",
+  "accentDark": "#E2D3A8",
+  "tiers": false,
+  "notes": [
+    [
+      "256 rows, 264 episodes.",
+      "Eight hour-long entries are numbered as two episodes each by the episode lists and sit here as one row spanning both numbers, exactly as the season articles file them."
+    ],
+    [
+      "The 2023 revival is not listed.",
+      "This is the original 1993–2004 run. The Paramount+ revival is a different series with its own episode list, and it is deliberately excluded."
+    ],
+    [
+      "Two clip specials are skipped.",
+      "The unnumbered 200th-episode outtakes reel (2001) and the Analyzing the Laughter retrospective (2004) sit outside the run's 264 numbered episodes and are not listed."
+    ],
+    "Episode titles and airdates machine-read from the eleven Wikipedia season articles; every season's numbering is asserted contiguous and equal to the episode list's own counts before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "1993–94 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s1-1",
+          "t": "The Good Son",
+          "n": "S1E1"
+        },
+        {
+          "id": "fra-s1-2",
+          "t": "Space Quest",
+          "n": "S1E2"
+        },
+        {
+          "id": "fra-s1-3",
+          "t": "Dinner at Eight",
+          "n": "S1E3"
+        },
+        {
+          "id": "fra-s1-4",
+          "t": "I Hate Frasier Crane",
+          "n": "S1E4"
+        },
+        {
+          "id": "fra-s1-5",
+          "t": "Here's Looking at You",
+          "n": "S1E5"
+        },
+        {
+          "id": "fra-s1-6",
+          "t": "The Crucible",
+          "n": "S1E6"
+        },
+        {
+          "id": "fra-s1-7",
+          "t": "Call Me Irresponsible",
+          "n": "S1E7"
+        },
+        {
+          "id": "fra-s1-8",
+          "t": "Beloved Infidel",
+          "n": "S1E8"
+        },
+        {
+          "id": "fra-s1-9",
+          "t": "Selling Out",
+          "n": "S1E9"
+        },
+        {
+          "id": "fra-s1-10",
+          "t": "Oops!",
+          "n": "S1E10"
+        },
+        {
+          "id": "fra-s1-11",
+          "t": "Death Becomes Him",
+          "n": "S1E11"
+        },
+        {
+          "id": "fra-s1-12",
+          "t": "Miracle on Third or Fourth Street",
+          "n": "S1E12"
+        },
+        {
+          "id": "fra-s1-13",
+          "t": "Guess Who's Coming to Breakfast?",
+          "n": "S1E13"
+        },
+        {
+          "id": "fra-s1-14",
+          "t": "Can't Buy Me Love",
+          "n": "S1E14"
+        },
+        {
+          "id": "fra-s1-15",
+          "t": "You Can't Tell a Crook by His Cover",
+          "n": "S1E15"
+        },
+        {
+          "id": "fra-s1-16",
+          "t": "The Show Where Lilith Comes Back",
+          "n": "S1E16"
+        },
+        {
+          "id": "fra-s1-17",
+          "t": "A Mid-Winter Night's Dream",
+          "n": "S1E17"
+        },
+        {
+          "id": "fra-s1-18",
+          "t": "And the Whimper Is...",
+          "n": "S1E18"
+        },
+        {
+          "id": "fra-s1-19",
+          "t": "Give Him the Chair!",
+          "n": "S1E19"
+        },
+        {
+          "id": "fra-s1-20",
+          "t": "Fortysomething",
+          "n": "S1E20"
+        },
+        {
+          "id": "fra-s1-21",
+          "t": "Travels with Martin",
+          "n": "S1E21"
+        },
+        {
+          "id": "fra-s1-22",
+          "t": "Author, Author",
+          "n": "S1E22"
+        },
+        {
+          "id": "fra-s1-23",
+          "t": "Frasier Crane's Day Off",
+          "n": "S1E23"
+        },
+        {
+          "id": "fra-s1-24",
+          "t": "My Coffee with Niles",
+          "n": "S1E24"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "1994–95 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s2-1",
+          "t": "Slow Tango in South Seattle",
+          "n": "S2E1"
+        },
+        {
+          "id": "fra-s2-2",
+          "t": "The Unkindest Cut of All",
+          "n": "S2E2"
+        },
+        {
+          "id": "fra-s2-3",
+          "t": "The Matchmaker",
+          "n": "S2E3"
+        },
+        {
+          "id": "fra-s2-4",
+          "t": "Flour Child",
+          "n": "S2E4"
+        },
+        {
+          "id": "fra-s2-5",
+          "t": "Duke's, We Hardly Knew Ye",
+          "n": "S2E5"
+        },
+        {
+          "id": "fra-s2-6",
+          "t": "The Botched Language of Cranes",
+          "n": "S2E6"
+        },
+        {
+          "id": "fra-s2-7",
+          "t": "The Candidate",
+          "n": "S2E7"
+        },
+        {
+          "id": "fra-s2-8",
+          "t": "Adventures in Paradise",
+          "n": "S2E8–9",
+          "note": "Two parts, aired a week apart"
+        },
+        {
+          "id": "fra-s2-10",
+          "t": "Burying a Grudge",
+          "n": "S2E10"
+        },
+        {
+          "id": "fra-s2-11",
+          "t": "Seat of Power",
+          "n": "S2E11"
+        },
+        {
+          "id": "fra-s2-12",
+          "t": "Roz in the Doghouse",
+          "n": "S2E12"
+        },
+        {
+          "id": "fra-s2-13",
+          "t": "Retirement is Murder",
+          "n": "S2E13"
+        },
+        {
+          "id": "fra-s2-14",
+          "t": "Fool Me Once, Shame on You. Fool Me Twice...",
+          "n": "S2E14"
+        },
+        {
+          "id": "fra-s2-15",
+          "t": "You Scratch My Book...",
+          "n": "S2E15"
+        },
+        {
+          "id": "fra-s2-16",
+          "t": "The Show Where Sam Shows Up",
+          "n": "S2E16"
+        },
+        {
+          "id": "fra-s2-17",
+          "t": "Daphne's Room",
+          "n": "S2E17"
+        },
+        {
+          "id": "fra-s2-18",
+          "t": "The Club",
+          "n": "S2E18"
+        },
+        {
+          "id": "fra-s2-19",
+          "t": "Someone to Watch Over Me",
+          "n": "S2E19"
+        },
+        {
+          "id": "fra-s2-20",
+          "t": "Breaking the Ice",
+          "n": "S2E20"
+        },
+        {
+          "id": "fra-s2-21",
+          "t": "An Affair to Forget",
+          "n": "S2E21"
+        },
+        {
+          "id": "fra-s2-22",
+          "t": "Agents in America, Part III",
+          "n": "S2E22"
+        },
+        {
+          "id": "fra-s2-23",
+          "t": "The Innkeepers",
+          "n": "S2E23"
+        },
+        {
+          "id": "fra-s2-24",
+          "t": "Dark Victory",
+          "n": "S2E24"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "1995–96 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s3-1",
+          "t": "She's the Boss",
+          "n": "S3E1"
+        },
+        {
+          "id": "fra-s3-2",
+          "t": "Shrink Rap",
+          "n": "S3E2"
+        },
+        {
+          "id": "fra-s3-3",
+          "t": "Martin Does It His Way",
+          "n": "S3E3"
+        },
+        {
+          "id": "fra-s3-4",
+          "t": "Leapin' Lizards",
+          "n": "S3E4"
+        },
+        {
+          "id": "fra-s3-5",
+          "t": "Kisses Sweeter Than Wine",
+          "n": "S3E5"
+        },
+        {
+          "id": "fra-s3-6",
+          "t": "Sleeping with the Enemy",
+          "n": "S3E6"
+        },
+        {
+          "id": "fra-s3-7",
+          "t": "The Adventures of Bad Boy and Dirty Girl",
+          "n": "S3E7"
+        },
+        {
+          "id": "fra-s3-8",
+          "t": "The Last Time I Saw Maris",
+          "n": "S3E8"
+        },
+        {
+          "id": "fra-s3-9",
+          "t": "Frasier Grinch",
+          "n": "S3E9"
+        },
+        {
+          "id": "fra-s3-10",
+          "t": "It's Hard to Say Goodbye If You Won't Leave",
+          "n": "S3E10"
+        },
+        {
+          "id": "fra-s3-11",
+          "t": "The Friend",
+          "n": "S3E11"
+        },
+        {
+          "id": "fra-s3-12",
+          "t": "Come Lie with Me",
+          "n": "S3E12"
+        },
+        {
+          "id": "fra-s3-13",
+          "t": "Moon Dance",
+          "n": "S3E13"
+        },
+        {
+          "id": "fra-s3-14",
+          "t": "The Show Where Diane Comes Back",
+          "n": "S3E14"
+        },
+        {
+          "id": "fra-s3-15",
+          "t": "A Word to the Wiseguy",
+          "n": "S3E15"
+        },
+        {
+          "id": "fra-s3-16",
+          "t": "Look Before You Leap",
+          "n": "S3E16"
+        },
+        {
+          "id": "fra-s3-17",
+          "t": "High Crane Drifter",
+          "n": "S3E17"
+        },
+        {
+          "id": "fra-s3-18",
+          "t": "Chess Pains",
+          "n": "S3E18"
+        },
+        {
+          "id": "fra-s3-19",
+          "t": "Crane vs. Crane",
+          "n": "S3E19"
+        },
+        {
+          "id": "fra-s3-20",
+          "t": "Police Story",
+          "n": "S3E20"
+        },
+        {
+          "id": "fra-s3-21",
+          "t": "Where There's Smoke, There's Fired",
+          "n": "S3E21"
+        },
+        {
+          "id": "fra-s3-22",
+          "t": "Frasier Loves Roz",
+          "n": "S3E22"
+        },
+        {
+          "id": "fra-s3-23",
+          "t": "The Focus Group",
+          "n": "S3E23"
+        },
+        {
+          "id": "fra-s3-24",
+          "t": "You Can Go Home Again",
+          "n": "S3E24"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Season 4",
+      "sub": "1996–97 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s4-1",
+          "t": "The Two Mrs. Cranes",
+          "n": "S4E1"
+        },
+        {
+          "id": "fra-s4-2",
+          "t": "Love Bites Dog",
+          "n": "S4E2"
+        },
+        {
+          "id": "fra-s4-3",
+          "t": "The Impossible Dream",
+          "n": "S4E3"
+        },
+        {
+          "id": "fra-s4-4",
+          "t": "A Crane's Critique",
+          "n": "S4E4"
+        },
+        {
+          "id": "fra-s4-5",
+          "t": "Head Game",
+          "n": "S4E5"
+        },
+        {
+          "id": "fra-s4-6",
+          "t": "Mixed Doubles",
+          "n": "S4E6"
+        },
+        {
+          "id": "fra-s4-7",
+          "t": "A Lilith Thanksgiving",
+          "n": "S4E7"
+        },
+        {
+          "id": "fra-s4-8",
+          "t": "Our Father Whose Art Ain't Heaven",
+          "n": "S4E8"
+        },
+        {
+          "id": "fra-s4-9",
+          "t": "Dad Loves Sherry, the Boys Just Whine",
+          "n": "S4E9"
+        },
+        {
+          "id": "fra-s4-10",
+          "t": "Liar! Liar!",
+          "n": "S4E10"
+        },
+        {
+          "id": "fra-s4-11",
+          "t": "Three Days of the Condo",
+          "n": "S4E11"
+        },
+        {
+          "id": "fra-s4-12",
+          "t": "Death and the Dog",
+          "n": "S4E12"
+        },
+        {
+          "id": "fra-s4-13",
+          "t": "Four for the Seesaw",
+          "n": "S4E13"
+        },
+        {
+          "id": "fra-s4-14",
+          "t": "To Kill a Talking Bird",
+          "n": "S4E14"
+        },
+        {
+          "id": "fra-s4-15",
+          "t": "Roz's Krantz and Gouldenstein Are Dead",
+          "n": "S4E15"
+        },
+        {
+          "id": "fra-s4-16",
+          "t": "The Unnatural",
+          "n": "S4E16"
+        },
+        {
+          "id": "fra-s4-17",
+          "t": "Roz's Turn",
+          "n": "S4E17"
+        },
+        {
+          "id": "fra-s4-18",
+          "t": "Ham Radio",
+          "n": "S4E18"
+        },
+        {
+          "id": "fra-s4-19",
+          "t": "Three Dates and a Break Up",
+          "n": "S4E19–20",
+          "note": "Aired as one hour-long episode"
+        },
+        {
+          "id": "fra-s4-21",
+          "t": "Daphne Hates Sherry",
+          "n": "S4E21"
+        },
+        {
+          "id": "fra-s4-22",
+          "t": "Are You Being Served?",
+          "n": "S4E22"
+        },
+        {
+          "id": "fra-s4-23",
+          "t": "Ask Me No Questions",
+          "n": "S4E23"
+        },
+        {
+          "id": "fra-s4-24",
+          "t": "Odd Man Out",
+          "n": "S4E24"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Season 5",
+      "sub": "1997–98 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s5-1",
+          "t": "Frasier's Imaginary Friend",
+          "n": "S5E1"
+        },
+        {
+          "id": "fra-s5-2",
+          "t": "The Gift Horse",
+          "n": "S5E2"
+        },
+        {
+          "id": "fra-s5-3",
+          "t": "Halloween (Part 1)",
+          "n": "S5E3"
+        },
+        {
+          "id": "fra-s5-4",
+          "t": "The Kid (Part 2)",
+          "n": "S5E4"
+        },
+        {
+          "id": "fra-s5-5",
+          "t": "The 1000th Show",
+          "n": "S5E5"
+        },
+        {
+          "id": "fra-s5-6",
+          "t": "Voyage of the Damned",
+          "n": "S5E6"
+        },
+        {
+          "id": "fra-s5-7",
+          "t": "My Fair Frasier",
+          "n": "S5E7"
+        },
+        {
+          "id": "fra-s5-8",
+          "t": "Desperately Seeking Closure",
+          "n": "S5E8"
+        },
+        {
+          "id": "fra-s5-9",
+          "t": "Perspectives on Christmas",
+          "n": "S5E9"
+        },
+        {
+          "id": "fra-s5-10",
+          "t": "Where Every Bloke Knows Your Name",
+          "n": "S5E10"
+        },
+        {
+          "id": "fra-s5-11",
+          "t": "Ain't Nobody's Business If I Do",
+          "n": "S5E11"
+        },
+        {
+          "id": "fra-s5-12",
+          "t": "The Zoo Story",
+          "n": "S5E12"
+        },
+        {
+          "id": "fra-s5-13",
+          "t": "The Maris Counselor",
+          "n": "S5E13"
+        },
+        {
+          "id": "fra-s5-14",
+          "t": "The Ski Lodge",
+          "n": "S5E14"
+        },
+        {
+          "id": "fra-s5-15",
+          "t": "Room Service",
+          "n": "S5E15"
+        },
+        {
+          "id": "fra-s5-16",
+          "t": "Beware of Greeks",
+          "n": "S5E16"
+        },
+        {
+          "id": "fra-s5-17",
+          "t": "The Perfect Guy",
+          "n": "S5E17"
+        },
+        {
+          "id": "fra-s5-18",
+          "t": "Bad Dog",
+          "n": "S5E18"
+        },
+        {
+          "id": "fra-s5-19",
+          "t": "Frasier Gotta Have It",
+          "n": "S5E19"
+        },
+        {
+          "id": "fra-s5-20",
+          "t": "First Date",
+          "n": "S5E20"
+        },
+        {
+          "id": "fra-s5-21",
+          "t": "Roz and the Schnoz",
+          "n": "S5E21"
+        },
+        {
+          "id": "fra-s5-22",
+          "t": "The Life of the Party",
+          "n": "S5E22"
+        },
+        {
+          "id": "fra-s5-23",
+          "t": "Party, Party",
+          "n": "S5E23"
+        },
+        {
+          "id": "fra-s5-24",
+          "t": "Sweet Dreams",
+          "n": "S5E24"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Season 6",
+      "sub": "1998–99 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s6-1",
+          "t": "Good Grief",
+          "n": "S6E1"
+        },
+        {
+          "id": "fra-s6-2",
+          "t": "Frasier's Curse",
+          "n": "S6E2"
+        },
+        {
+          "id": "fra-s6-3",
+          "t": "Dial M for Martin",
+          "n": "S6E3"
+        },
+        {
+          "id": "fra-s6-4",
+          "t": "Hot Ticket",
+          "n": "S6E4"
+        },
+        {
+          "id": "fra-s6-5",
+          "t": "First, Do No Harm",
+          "n": "S6E5"
+        },
+        {
+          "id": "fra-s6-6",
+          "t": "Secret Admirer",
+          "n": "S6E6"
+        },
+        {
+          "id": "fra-s6-7",
+          "t": "How to Bury a Millionaire",
+          "n": "S6E7"
+        },
+        {
+          "id": "fra-s6-8",
+          "t": "The Seal Who Came to Dinner",
+          "n": "S6E8"
+        },
+        {
+          "id": "fra-s6-9",
+          "t": "Roz, a Loan",
+          "n": "S6E9"
+        },
+        {
+          "id": "fra-s6-10",
+          "t": "Merry Christmas, Mrs. Moskowitz",
+          "n": "S6E10"
+        },
+        {
+          "id": "fra-s6-11",
+          "t": "Good Samaritan",
+          "n": "S6E11"
+        },
+        {
+          "id": "fra-s6-12",
+          "t": "Our Parents, Ourselves",
+          "n": "S6E12"
+        },
+        {
+          "id": "fra-s6-13",
+          "t": "The Show Where Woody Shows Up",
+          "n": "S6E13"
+        },
+        {
+          "id": "fra-s6-14",
+          "t": "Three Valentines",
+          "n": "S6E14"
+        },
+        {
+          "id": "fra-s6-15",
+          "t": "To Tell the Truth",
+          "n": "S6E15"
+        },
+        {
+          "id": "fra-s6-16",
+          "t": "Decoys",
+          "n": "S6E16"
+        },
+        {
+          "id": "fra-s6-17",
+          "t": "Dinner Party",
+          "n": "S6E17"
+        },
+        {
+          "id": "fra-s6-18",
+          "t": "Taps at the Montana",
+          "n": "S6E18"
+        },
+        {
+          "id": "fra-s6-19",
+          "t": "IQ",
+          "n": "S6E19"
+        },
+        {
+          "id": "fra-s6-20",
+          "t": "Dr. Nora",
+          "n": "S6E20"
+        },
+        {
+          "id": "fra-s6-21",
+          "t": "When a Man Loves Two Women",
+          "n": "S6E21"
+        },
+        {
+          "id": "fra-s6-22",
+          "t": "Visions of Daphne",
+          "n": "S6E22"
+        },
+        {
+          "id": "fra-s6-23",
+          "t": "Shutout in Seattle",
+          "n": "S6E23–24",
+          "note": "Aired as one hour-long episode"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Season 7",
+      "sub": "1999–2000 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s7-1",
+          "t": "Momma Mia",
+          "n": "S7E1"
+        },
+        {
+          "id": "fra-s7-2",
+          "t": "Father of the Bride",
+          "n": "S7E2"
+        },
+        {
+          "id": "fra-s7-3",
+          "t": "Radio Wars",
+          "n": "S7E3"
+        },
+        {
+          "id": "fra-s7-4",
+          "t": "Everyone's a Critic",
+          "n": "S7E4"
+        },
+        {
+          "id": "fra-s7-5",
+          "t": "The Dog That Rocks the Cradle",
+          "n": "S7E5"
+        },
+        {
+          "id": "fra-s7-6",
+          "t": "Rivals",
+          "n": "S7E6"
+        },
+        {
+          "id": "fra-s7-7",
+          "t": "A Tsar Is Born",
+          "n": "S7E7"
+        },
+        {
+          "id": "fra-s7-8",
+          "t": "The Late Dr. Crane",
+          "n": "S7E8"
+        },
+        {
+          "id": "fra-s7-9",
+          "t": "The Apparent Trap",
+          "n": "S7E9"
+        },
+        {
+          "id": "fra-s7-10",
+          "t": "Back Talk",
+          "n": "S7E10"
+        },
+        {
+          "id": "fra-s7-11",
+          "t": "The Fight Before Christmas",
+          "n": "S7E11"
+        },
+        {
+          "id": "fra-s7-12",
+          "t": "RDWRER",
+          "n": "S7E12"
+        },
+        {
+          "id": "fra-s7-13",
+          "t": "They're Playing Our Song",
+          "n": "S7E13"
+        },
+        {
+          "id": "fra-s7-14",
+          "t": "Big Crane on Campus",
+          "n": "S7E14"
+        },
+        {
+          "id": "fra-s7-15",
+          "t": "Out with Dad",
+          "n": "S7E15"
+        },
+        {
+          "id": "fra-s7-16",
+          "t": "Something About Dr. Mary",
+          "n": "S7E16"
+        },
+        {
+          "id": "fra-s7-17",
+          "t": "Whine Club",
+          "n": "S7E17"
+        },
+        {
+          "id": "fra-s7-18",
+          "t": "Hot Pursuit",
+          "n": "S7E18"
+        },
+        {
+          "id": "fra-s7-19",
+          "t": "Morning Becomes Entertainment",
+          "n": "S7E19"
+        },
+        {
+          "id": "fra-s7-20",
+          "t": "To Thine Old Self Be True",
+          "n": "S7E20"
+        },
+        {
+          "id": "fra-s7-21",
+          "t": "The Three Faces of Frasier",
+          "n": "S7E21"
+        },
+        {
+          "id": "fra-s7-22",
+          "t": "Dark Side of the Moon",
+          "n": "S7E22"
+        },
+        {
+          "id": "fra-s7-23",
+          "t": "Something Borrowed, Someone Blue",
+          "n": "S7E23–24",
+          "note": "Aired as one hour-long episode"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Season 8",
+      "sub": "2000–01 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s8-1",
+          "t": "And the Dish Ran Away with the Spoon",
+          "n": "S8E1–2",
+          "note": "Aired as one hour-long episode"
+        },
+        {
+          "id": "fra-s8-3",
+          "t": "The Bad Son",
+          "n": "S8E3"
+        },
+        {
+          "id": "fra-s8-4",
+          "t": "The Great Crane Robbery",
+          "n": "S8E4"
+        },
+        {
+          "id": "fra-s8-5",
+          "t": "Taking Liberties",
+          "n": "S8E5"
+        },
+        {
+          "id": "fra-s8-6",
+          "t": "Legal Tender Love and Care",
+          "n": "S8E6"
+        },
+        {
+          "id": "fra-s8-7",
+          "t": "The New Friend",
+          "n": "S8E7"
+        },
+        {
+          "id": "fra-s8-8",
+          "t": "Mary Christmas",
+          "n": "S8E8"
+        },
+        {
+          "id": "fra-s8-9",
+          "t": "Frasier's Edge",
+          "n": "S8E9"
+        },
+        {
+          "id": "fra-s8-10",
+          "t": "Cranes Unplugged",
+          "n": "S8E10"
+        },
+        {
+          "id": "fra-s8-11",
+          "t": "Motor Skills",
+          "n": "S8E11"
+        },
+        {
+          "id": "fra-s8-12",
+          "t": "The Show Must Go Off",
+          "n": "S8E12"
+        },
+        {
+          "id": "fra-s8-13",
+          "t": "Sliding Frasiers",
+          "n": "S8E13"
+        },
+        {
+          "id": "fra-s8-14",
+          "t": "Hungry Heart",
+          "n": "S8E14"
+        },
+        {
+          "id": "fra-s8-15",
+          "t": "Hooping Cranes",
+          "n": "S8E15"
+        },
+        {
+          "id": "fra-s8-16",
+          "t": "Docu.Drama",
+          "n": "S8E16"
+        },
+        {
+          "id": "fra-s8-17",
+          "t": "It Takes Two to Tangle",
+          "n": "S8E17"
+        },
+        {
+          "id": "fra-s8-18",
+          "t": "Forgotten But Not Gone",
+          "n": "S8E18"
+        },
+        {
+          "id": "fra-s8-19",
+          "t": "Daphne Returns",
+          "n": "S8E19"
+        },
+        {
+          "id": "fra-s8-20",
+          "t": "The Wizard and Roz",
+          "n": "S8E20"
+        },
+        {
+          "id": "fra-s8-21",
+          "t": "Semi-Decent Proposal",
+          "n": "S8E21"
+        },
+        {
+          "id": "fra-s8-22",
+          "t": "A Passing Fancy",
+          "n": "S8E22"
+        },
+        {
+          "id": "fra-s8-23",
+          "t": "A Day in May",
+          "n": "S8E23"
+        },
+        {
+          "id": "fra-s8-24",
+          "t": "Cranes Go Caribbean",
+          "n": "S8E24"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Season 9",
+      "sub": "2001–02 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s9-1",
+          "t": "Don Juan in Hell",
+          "n": "S9E1–2",
+          "note": "Aired as one hour-long episode"
+        },
+        {
+          "id": "fra-s9-3",
+          "t": "The First Temptation of Daphne",
+          "n": "S9E3"
+        },
+        {
+          "id": "fra-s9-4",
+          "t": "The Return of Martin Crane",
+          "n": "S9E4"
+        },
+        {
+          "id": "fra-s9-5",
+          "t": "Love Stinks",
+          "n": "S9E5"
+        },
+        {
+          "id": "fra-s9-6",
+          "t": "Room Full of Heroes",
+          "n": "S9E6"
+        },
+        {
+          "id": "fra-s9-7",
+          "t": "Bla-Z-Boy",
+          "n": "S9E7"
+        },
+        {
+          "id": "fra-s9-8",
+          "t": "The Two Hundredth Episode",
+          "n": "S9E8"
+        },
+        {
+          "id": "fra-s9-9",
+          "t": "Sharing Kirby",
+          "n": "S9E9"
+        },
+        {
+          "id": "fra-s9-10",
+          "t": "Junior Agent",
+          "n": "S9E10"
+        },
+        {
+          "id": "fra-s9-11",
+          "t": "Bully for Martin",
+          "n": "S9E11"
+        },
+        {
+          "id": "fra-s9-12",
+          "t": "Mother Load",
+          "n": "S9E12–13",
+          "note": "Two parts, aired a week apart"
+        },
+        {
+          "id": "fra-s9-14",
+          "t": "Juvenilia",
+          "n": "S9E14"
+        },
+        {
+          "id": "fra-s9-15",
+          "t": "The Proposal",
+          "n": "S9E15"
+        },
+        {
+          "id": "fra-s9-16",
+          "t": "Wheels of Fortune",
+          "n": "S9E16"
+        },
+        {
+          "id": "fra-s9-17",
+          "t": "Three Blind Dates",
+          "n": "S9E17"
+        },
+        {
+          "id": "fra-s9-18",
+          "t": "War of the Words",
+          "n": "S9E18"
+        },
+        {
+          "id": "fra-s9-19",
+          "t": "Deathtrap",
+          "n": "S9E19"
+        },
+        {
+          "id": "fra-s9-20",
+          "t": "The Love You Fake",
+          "n": "S9E20"
+        },
+        {
+          "id": "fra-s9-21",
+          "t": "Cheerful Goodbyes",
+          "n": "S9E21"
+        },
+        {
+          "id": "fra-s9-22",
+          "t": "Frasier Has Spokane",
+          "n": "S9E22"
+        },
+        {
+          "id": "fra-s9-23",
+          "t": "The Guilt Trippers (Part 1)",
+          "n": "S9E23"
+        },
+        {
+          "id": "fra-s9-24",
+          "t": "Moons Over Seattle (Part 2)",
+          "n": "S9E24"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Season 10",
+      "sub": "2002–03 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s10-1",
+          "t": "The Ring Cycle",
+          "n": "S10E1"
+        },
+        {
+          "id": "fra-s10-2",
+          "t": "Enemy at the Gate",
+          "n": "S10E2"
+        },
+        {
+          "id": "fra-s10-3",
+          "t": "Proxy Prexy",
+          "n": "S10E3"
+        },
+        {
+          "id": "fra-s10-4",
+          "t": "Kissing Cousin",
+          "n": "S10E4"
+        },
+        {
+          "id": "fra-s10-5",
+          "t": "Tales from the Crypt",
+          "n": "S10E5"
+        },
+        {
+          "id": "fra-s10-6",
+          "t": "Star Mitzvah",
+          "n": "S10E6"
+        },
+        {
+          "id": "fra-s10-7",
+          "t": "Bristle While You Work",
+          "n": "S10E7"
+        },
+        {
+          "id": "fra-s10-8",
+          "t": "Rooms with a View",
+          "n": "S10E8"
+        },
+        {
+          "id": "fra-s10-9",
+          "t": "Don't Go Breaking My Heart",
+          "n": "S10E9"
+        },
+        {
+          "id": "fra-s10-10",
+          "t": "We Two Kings",
+          "n": "S10E10"
+        },
+        {
+          "id": "fra-s10-11",
+          "t": "Door Jam",
+          "n": "S10E11"
+        },
+        {
+          "id": "fra-s10-12",
+          "t": "The Harassed",
+          "n": "S10E12"
+        },
+        {
+          "id": "fra-s10-13",
+          "t": "Lilith Needs a Favor",
+          "n": "S10E13"
+        },
+        {
+          "id": "fra-s10-14",
+          "t": "Daphne Does Dinner",
+          "n": "S10E14"
+        },
+        {
+          "id": "fra-s10-15",
+          "t": "Trophy Girlfriend",
+          "n": "S10E15"
+        },
+        {
+          "id": "fra-s10-16",
+          "t": "Fraternal Schwinns",
+          "n": "S10E16"
+        },
+        {
+          "id": "fra-s10-17",
+          "t": "Kenny on the Couch",
+          "n": "S10E17"
+        },
+        {
+          "id": "fra-s10-18",
+          "t": "Roe to Perdition",
+          "n": "S10E18"
+        },
+        {
+          "id": "fra-s10-19",
+          "t": "Some Assembly Required",
+          "n": "S10E19"
+        },
+        {
+          "id": "fra-s10-20",
+          "t": "Farewell, Nervosa",
+          "n": "S10E20"
+        },
+        {
+          "id": "fra-s10-21",
+          "t": "The Devil and Dr. Phil",
+          "n": "S10E21"
+        },
+        {
+          "id": "fra-s10-22",
+          "t": "Fathers and Sons",
+          "n": "S10E22"
+        },
+        {
+          "id": "fra-s10-23",
+          "t": "Analyzed Kiss",
+          "n": "S10E23"
+        },
+        {
+          "id": "fra-s10-24",
+          "t": "A New Position for Roz",
+          "n": "S10E24"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Season 11",
+      "sub": "2003–04 · 24 episodes",
+      "items": [
+        {
+          "id": "fra-s11-1",
+          "t": "No Sex Please, We're Skittish",
+          "n": "S11E1"
+        },
+        {
+          "id": "fra-s11-2",
+          "t": "A Man, a Plan and a Gal: Julia",
+          "n": "S11E2"
+        },
+        {
+          "id": "fra-s11-3",
+          "t": "The Doctor Is Out",
+          "n": "S11E3"
+        },
+        {
+          "id": "fra-s11-4",
+          "t": "The Babysitter",
+          "n": "S11E4"
+        },
+        {
+          "id": "fra-s11-5",
+          "t": "The Placeholder",
+          "n": "S11E5"
+        },
+        {
+          "id": "fra-s11-6",
+          "t": "I'm Listening",
+          "n": "S11E6"
+        },
+        {
+          "id": "fra-s11-7",
+          "t": "Maris Returns",
+          "n": "S11E7"
+        },
+        {
+          "id": "fra-s11-8",
+          "t": "Murder Most Maris",
+          "n": "S11E8"
+        },
+        {
+          "id": "fra-s11-9",
+          "t": "Guns N' Neuroses",
+          "n": "S11E9"
+        },
+        {
+          "id": "fra-s11-10",
+          "t": "SeaBee Jeebies",
+          "n": "S11E10"
+        },
+        {
+          "id": "fra-s11-11",
+          "t": "High Holidays",
+          "n": "S11E11"
+        },
+        {
+          "id": "fra-s11-12",
+          "t": "Frasier-Lite",
+          "n": "S11E12"
+        },
+        {
+          "id": "fra-s11-13",
+          "t": "The Ann Who Came to Dinner",
+          "n": "S11E13"
+        },
+        {
+          "id": "fra-s11-14",
+          "t": "Freudian Sleep",
+          "n": "S11E14"
+        },
+        {
+          "id": "fra-s11-15",
+          "t": "Caught in the Act",
+          "n": "S11E15"
+        },
+        {
+          "id": "fra-s11-16",
+          "t": "Boo!",
+          "n": "S11E16"
+        },
+        {
+          "id": "fra-s11-17",
+          "t": "Coots and Ladders",
+          "n": "S11E17"
+        },
+        {
+          "id": "fra-s11-18",
+          "t": "Match Game",
+          "n": "S11E18"
+        },
+        {
+          "id": "fra-s11-19",
+          "t": "Miss Right Now",
+          "n": "S11E19"
+        },
+        {
+          "id": "fra-s11-20",
+          "t": "And Frasier Makes Three",
+          "n": "S11E20"
+        },
+        {
+          "id": "fra-s11-21",
+          "t": "Detour",
+          "n": "S11E21"
+        },
+        {
+          "id": "fra-s11-22",
+          "t": "Crock Tales",
+          "n": "S11E22"
+        },
+        {
+          "id": "fra-s11-23",
+          "t": "Goodnight, Seattle",
+          "n": "S11E23–24",
+          "note": "The series finale, aired as one hour-long episode"
+        }
+      ]
+    }
+  ]
+}
