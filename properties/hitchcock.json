@@ -1,0 +1,410 @@
+{
+  "slug": "hitchcock",
+  "title": "Alfred Hitchcock",
+  "subtitle": "the features he directed, silents through Family Plot",
+  "kind": "films",
+  "order": 39,
+  "year": "1925–1976",
+  "blurb": "Every feature he directed, The Pleasure Garden through Family Plot — 54 films, about 88 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#3A3A45",
+  "accentDark": "#B8B8D0",
+  "tiers": false,
+  "notes": [
+    [
+      "Directed features only.",
+      "The filmography's director table also holds an unfinished first attempt and four shorts, and none of them are here: Number 13 was abandoned mid-shoot and is lost, and An Elastic Affair, The Fighting Generation, Bon Voyage and Aventure Malgache are shorts, not features. Everything from The Pleasure Garden through Family Plot is."
+    ],
+    [
+      "The Mountain Eagle is lost.",
+      "No print is known to survive. It stays on the list as the one film you cannot watch, and it weighs nothing in the totals."
+    ],
+    [
+      "Mary is an alternate version.",
+      "The German-language Murder!, shot in parallel with a German cast — kept as an optional row rather than counted among the films proper."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata, in hours — about 88 in all. The lost film is zeroed no matter what the records say; every other film carries its real Wikidata runtime, and a film without one would weigh nothing and say so on its row."
+    ],
+    "Filmography from Wikipedia's Alfred Hitchcock filmography; runtimes and release dates from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "silents",
+      "title": "British silents",
+      "sub": "1925–1929 · 9 films · 12 hours",
+      "intro": "Nine silent features from the British studios, an art director's apprenticeship turning into a director's career. One of them, The Mountain Eagle, no longer exists.",
+      "items": [
+        {
+          "id": "hit-1925-the-pleasure-garden",
+          "t": "The Pleasure Garden",
+          "n": "1925",
+          "w": 1.37,
+          "note": "His directorial debut"
+        },
+        {
+          "id": "hit-1926-the-mountain-eagle",
+          "t": "The Mountain Eagle",
+          "n": "1926",
+          "w": 0,
+          "note": "Lost — no print is known to survive, so it weighs nothing here"
+        },
+        {
+          "id": "hit-1927-the-lodger-a-story-of-the-london-fog",
+          "t": "The Lodger: A Story of the London Fog",
+          "n": "1927",
+          "w": 1.17,
+          "note": "His first hit, and the first of the cameo appearances"
+        },
+        {
+          "id": "hit-1927-the-ring",
+          "t": "The Ring",
+          "n": "1927",
+          "w": 1.48
+        },
+        {
+          "id": "hit-1927-downhill",
+          "t": "Downhill",
+          "n": "1927",
+          "w": 1.33
+        },
+        {
+          "id": "hit-1928-the-farmer-s-wife",
+          "t": "The Farmer's Wife",
+          "n": "1928",
+          "w": 2.15
+        },
+        {
+          "id": "hit-1928-easy-virtue",
+          "t": "Easy Virtue",
+          "n": "1928",
+          "w": 1.32
+        },
+        {
+          "id": "hit-1928-champagne",
+          "t": "Champagne",
+          "n": "1928",
+          "w": 1.43
+        },
+        {
+          "id": "hit-1929-the-manxman",
+          "t": "The Manxman",
+          "n": "1929",
+          "w": 1.85
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "sound",
+      "title": "British sound",
+      "sub": "1929–1939 · 15 films · 21 hours",
+      "intro": "Blackmail arrives in silent and sound versions at once, and the run that follows — The 39 Steps, Sabotage, The Lady Vanishes — is what gets him invited to Hollywood.",
+      "items": [
+        {
+          "id": "hit-1929-blackmail",
+          "t": "Blackmail",
+          "n": "1929",
+          "w": 1.35,
+          "note": "Released in both silent and sound versions — his first sound film"
+        },
+        {
+          "id": "hit-1930-juno-and-the-paycock",
+          "t": "Juno and the Paycock",
+          "n": "1930",
+          "w": 1.6
+        },
+        {
+          "id": "hit-1930-murder",
+          "t": "Murder!",
+          "n": "1930",
+          "w": 1.73
+        },
+        {
+          "id": "hit-1931-the-skin-game",
+          "t": "The Skin Game",
+          "n": "1931",
+          "w": 1.28
+        },
+        {
+          "id": "hit-1931-mary",
+          "t": "Mary",
+          "n": "1931",
+          "w": 1.3,
+          "opt": 1,
+          "note": "The German-language Murder!, shot in parallel with a German cast — an alternate version, so it is optional here"
+        },
+        {
+          "id": "hit-1931-rich-and-strange",
+          "t": "Rich and Strange",
+          "n": "1931",
+          "w": 1.38
+        },
+        {
+          "id": "hit-1932-number-seventeen",
+          "t": "Number Seventeen",
+          "n": "1932",
+          "w": 1.05
+        },
+        {
+          "id": "hit-1934-waltzes-from-vienna",
+          "t": "Waltzes from Vienna",
+          "n": "1934",
+          "w": 1.33
+        },
+        {
+          "id": "hit-1934-the-man-who-knew-too-much",
+          "t": "The Man Who Knew Too Much",
+          "n": "1934",
+          "w": 1.25
+        },
+        {
+          "id": "hit-1935-the-39-steps",
+          "t": "The 39 Steps",
+          "n": "1935",
+          "w": 1.43
+        },
+        {
+          "id": "hit-1936-secret-agent",
+          "t": "Secret Agent",
+          "n": "1936",
+          "w": 1.43
+        },
+        {
+          "id": "hit-1936-sabotage",
+          "t": "Sabotage",
+          "n": "1936",
+          "w": 1.27
+        },
+        {
+          "id": "hit-1937-young-and-innocent",
+          "t": "Young and Innocent",
+          "n": "1937",
+          "w": 1.33
+        },
+        {
+          "id": "hit-1938-the-lady-vanishes",
+          "t": "The Lady Vanishes",
+          "n": "1938",
+          "w": 1.6
+        },
+        {
+          "id": "hit-1939-jamaica-inn",
+          "t": "Jamaica Inn",
+          "n": "1939",
+          "w": 1.58
+        }
+      ]
+    },
+    {
+      "id": "hollywood",
+      "title": "Hollywood",
+      "sub": "1940–1964 · 26 films · 47 hours",
+      "intro": "Twenty-six films in twenty-five years, Rebecca to Marnie — the Selznick pictures first, then the fifties run where most of the famous ones live.",
+      "items": [
+        {
+          "id": "hit-1940-rebecca",
+          "t": "Rebecca",
+          "n": "1940",
+          "w": 2.1,
+          "note": "His first Hollywood picture, and a Best Picture winner"
+        },
+        {
+          "id": "hit-1940-foreign-correspondent",
+          "t": "Foreign Correspondent",
+          "n": "1940",
+          "w": 1.92
+        },
+        {
+          "id": "hit-1941-mr-mrs-smith",
+          "t": "Mr. & Mrs. Smith",
+          "n": "1941",
+          "w": 1.52
+        },
+        {
+          "id": "hit-1941-suspicion",
+          "t": "Suspicion",
+          "n": "1941",
+          "w": 1.65
+        },
+        {
+          "id": "hit-1942-saboteur",
+          "t": "Saboteur",
+          "n": "1942",
+          "w": 1.8
+        },
+        {
+          "id": "hit-1943-shadow-of-a-doubt",
+          "t": "Shadow of a Doubt",
+          "n": "1943",
+          "w": 1.8
+        },
+        {
+          "id": "hit-1944-lifeboat",
+          "t": "Lifeboat",
+          "n": "1944",
+          "w": 1.6
+        },
+        {
+          "id": "hit-1945-spellbound",
+          "t": "Spellbound",
+          "n": "1945",
+          "w": 1.85
+        },
+        {
+          "id": "hit-1946-notorious",
+          "t": "Notorious",
+          "n": "1946",
+          "w": 1.7
+        },
+        {
+          "id": "hit-1947-the-paradine-case",
+          "t": "The Paradine Case",
+          "n": "1947",
+          "w": 2.08
+        },
+        {
+          "id": "hit-1948-rope",
+          "t": "Rope",
+          "n": "1948",
+          "w": 1.33,
+          "note": "His first film in Technicolor"
+        },
+        {
+          "id": "hit-1949-under-capricorn",
+          "t": "Under Capricorn",
+          "n": "1949",
+          "w": 1.87
+        },
+        {
+          "id": "hit-1950-stage-fright",
+          "t": "Stage Fright",
+          "n": "1950",
+          "w": 1.75
+        },
+        {
+          "id": "hit-1951-strangers-on-a-train",
+          "t": "Strangers on a Train",
+          "n": "1951",
+          "w": 1.68
+        },
+        {
+          "id": "hit-1953-i-confess",
+          "t": "I Confess",
+          "n": "1953",
+          "w": 1.52
+        },
+        {
+          "id": "hit-1954-dial-m-for-murder",
+          "t": "Dial M for Murder",
+          "n": "1954",
+          "w": 1.68,
+          "note": "Filmed in 3D"
+        },
+        {
+          "id": "hit-1954-rear-window",
+          "t": "Rear Window",
+          "n": "1954",
+          "w": 1.87
+        },
+        {
+          "id": "hit-1955-to-catch-a-thief",
+          "t": "To Catch a Thief",
+          "n": "1955",
+          "w": 1.77
+        },
+        {
+          "id": "hit-1955-the-trouble-with-harry",
+          "t": "The Trouble with Harry",
+          "n": "1955",
+          "w": 1.65
+        },
+        {
+          "id": "hit-1956-the-man-who-knew-too-much",
+          "t": "The Man Who Knew Too Much",
+          "n": "1956",
+          "w": 2.0,
+          "note": "A remake of his own 1934 film"
+        },
+        {
+          "id": "hit-1956-the-wrong-man",
+          "t": "The Wrong Man",
+          "n": "1956",
+          "w": 1.68
+        },
+        {
+          "id": "hit-1958-vertigo",
+          "t": "Vertigo",
+          "n": "1958",
+          "w": 2.13
+        },
+        {
+          "id": "hit-1959-north-by-northwest",
+          "t": "North by Northwest",
+          "n": "1959",
+          "w": 2.27
+        },
+        {
+          "id": "hit-1960-psycho",
+          "t": "Psycho",
+          "n": "1960",
+          "w": 1.82
+        },
+        {
+          "id": "hit-1963-the-birds",
+          "t": "The Birds",
+          "n": "1963",
+          "w": 1.98
+        },
+        {
+          "id": "hit-1964-marnie",
+          "t": "Marnie",
+          "n": "1964",
+          "w": 2.07
+        }
+      ]
+    },
+    {
+      "id": "late",
+      "title": "The late run",
+      "sub": "1966–1976 · 4 films · 8 hours",
+      "intro": "Four films to finish: two Cold War thrillers, a return to London, and a last one back in California.",
+      "items": [
+        {
+          "id": "hit-1966-torn-curtain",
+          "t": "Torn Curtain",
+          "n": "1966",
+          "w": 2.03
+        },
+        {
+          "id": "hit-1969-topaz",
+          "t": "Topaz",
+          "n": "1969",
+          "w": 2.0
+        },
+        {
+          "id": "hit-1972-frenzy",
+          "t": "Frenzy",
+          "n": "1972",
+          "w": 1.93
+        },
+        {
+          "id": "hit-1976-family-plot",
+          "t": "Family Plot",
+          "n": "1976",
+          "w": 2.05,
+          "note": "His last film"
+        }
+      ]
+    }
+  ]
+}

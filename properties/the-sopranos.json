@@ -1,0 +1,515 @@
+{
+  "slug": "the-sopranos",
+  "title": "The Sopranos",
+  "subtitle": "every episode across six seasons",
+  "kind": "tv",
+  "order": 41,
+  "year": "1999–2007",
+  "blurb": "All 86 episodes in broadcast order — six seasons, two families, one New Jersey.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#6B1F1F",
+  "accentDark": "#D97070",
+  "tiers": false,
+  "notes": [
+    [
+      "Season six aired in two parts.",
+      "Twelve episodes in 2006 and nine in 2007, numbered 1–21 as one season — listed here the way HBO aired it and the way its season article files it."
+    ],
+    [
+      "Nothing is weighted.",
+      "An episode counts as one — 86 equal marks."
+    ],
+    "Episode titles and airdates machine-read from the six Wikipedia season articles; every season's numbering is asserted complete before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "1999 · 13 episodes",
+      "items": [
+        {
+          "id": "sop-s1e1",
+          "t": "The Sopranos",
+          "n": "1"
+        },
+        {
+          "id": "sop-s1e2",
+          "t": "46 Long",
+          "n": "2"
+        },
+        {
+          "id": "sop-s1e3",
+          "t": "Denial, Anger, Acceptance",
+          "n": "3"
+        },
+        {
+          "id": "sop-s1e4",
+          "t": "Meadowlands",
+          "n": "4"
+        },
+        {
+          "id": "sop-s1e5",
+          "t": "College",
+          "n": "5"
+        },
+        {
+          "id": "sop-s1e6",
+          "t": "Pax Soprana",
+          "n": "6"
+        },
+        {
+          "id": "sop-s1e7",
+          "t": "Down Neck",
+          "n": "7"
+        },
+        {
+          "id": "sop-s1e8",
+          "t": "The Legend of Tennessee Moltisanti",
+          "n": "8"
+        },
+        {
+          "id": "sop-s1e9",
+          "t": "Boca",
+          "n": "9"
+        },
+        {
+          "id": "sop-s1e10",
+          "t": "A Hit Is a Hit",
+          "n": "10"
+        },
+        {
+          "id": "sop-s1e11",
+          "t": "Nobody Knows Anything",
+          "n": "11"
+        },
+        {
+          "id": "sop-s1e12",
+          "t": "Isabella",
+          "n": "12"
+        },
+        {
+          "id": "sop-s1e13",
+          "t": "I Dream of Jeannie Cusamano",
+          "n": "13"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "2000 · 13 episodes",
+      "items": [
+        {
+          "id": "sop-s2e1",
+          "t": "Guy Walks into a Psychiatrist's Office...",
+          "n": "1"
+        },
+        {
+          "id": "sop-s2e2",
+          "t": "Do Not Resuscitate",
+          "n": "2"
+        },
+        {
+          "id": "sop-s2e3",
+          "t": "Toodle-Fucking-Oo",
+          "n": "3"
+        },
+        {
+          "id": "sop-s2e4",
+          "t": "Commendatori",
+          "n": "4"
+        },
+        {
+          "id": "sop-s2e5",
+          "t": "Big Girls Don't Cry",
+          "n": "5"
+        },
+        {
+          "id": "sop-s2e6",
+          "t": "The Happy Wanderer",
+          "n": "6"
+        },
+        {
+          "id": "sop-s2e7",
+          "t": "D-Girl",
+          "n": "7"
+        },
+        {
+          "id": "sop-s2e8",
+          "t": "Full Leather Jacket",
+          "n": "8"
+        },
+        {
+          "id": "sop-s2e9",
+          "t": "From Where to Eternity",
+          "n": "9"
+        },
+        {
+          "id": "sop-s2e10",
+          "t": "Bust Out",
+          "n": "10"
+        },
+        {
+          "id": "sop-s2e11",
+          "t": "House Arrest",
+          "n": "11"
+        },
+        {
+          "id": "sop-s2e12",
+          "t": "The Knight in White Satin Armor",
+          "n": "12"
+        },
+        {
+          "id": "sop-s2e13",
+          "t": "Funhouse",
+          "n": "13"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "2001 · 13 episodes",
+      "items": [
+        {
+          "id": "sop-s3e1",
+          "t": "Mr. Ruggerio's Neighborhood",
+          "n": "1"
+        },
+        {
+          "id": "sop-s3e2",
+          "t": "Proshai, Livushka",
+          "n": "2"
+        },
+        {
+          "id": "sop-s3e3",
+          "t": "Fortunate Son",
+          "n": "3"
+        },
+        {
+          "id": "sop-s3e4",
+          "t": "Employee of the Month",
+          "n": "4"
+        },
+        {
+          "id": "sop-s3e5",
+          "t": "Another Toothpick",
+          "n": "5"
+        },
+        {
+          "id": "sop-s3e6",
+          "t": "University",
+          "n": "6"
+        },
+        {
+          "id": "sop-s3e7",
+          "t": "Second Opinion",
+          "n": "7"
+        },
+        {
+          "id": "sop-s3e8",
+          "t": "He Is Risen",
+          "n": "8"
+        },
+        {
+          "id": "sop-s3e9",
+          "t": "The Telltale Moozadell",
+          "n": "9"
+        },
+        {
+          "id": "sop-s3e10",
+          "t": "...To Save Us All from Satan's Power",
+          "n": "10"
+        },
+        {
+          "id": "sop-s3e11",
+          "t": "Pine Barrens",
+          "n": "11"
+        },
+        {
+          "id": "sop-s3e12",
+          "t": "Amour Fou",
+          "n": "12"
+        },
+        {
+          "id": "sop-s3e13",
+          "t": "Army of One",
+          "n": "13"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Season 4",
+      "sub": "2002 · 13 episodes",
+      "items": [
+        {
+          "id": "sop-s4e1",
+          "t": "For All Debts Public and Private",
+          "n": "1"
+        },
+        {
+          "id": "sop-s4e2",
+          "t": "No Show",
+          "n": "2"
+        },
+        {
+          "id": "sop-s4e3",
+          "t": "Christopher",
+          "n": "3"
+        },
+        {
+          "id": "sop-s4e4",
+          "t": "The Weight",
+          "n": "4"
+        },
+        {
+          "id": "sop-s4e5",
+          "t": "Pie-O-My",
+          "n": "5"
+        },
+        {
+          "id": "sop-s4e6",
+          "t": "Everybody Hurts",
+          "n": "6"
+        },
+        {
+          "id": "sop-s4e7",
+          "t": "Watching Too Much Television",
+          "n": "7"
+        },
+        {
+          "id": "sop-s4e8",
+          "t": "Mergers and Acquisitions",
+          "n": "8"
+        },
+        {
+          "id": "sop-s4e9",
+          "t": "Whoever Did This",
+          "n": "9"
+        },
+        {
+          "id": "sop-s4e10",
+          "t": "The Strong, Silent Type",
+          "n": "10"
+        },
+        {
+          "id": "sop-s4e11",
+          "t": "Calling All Cars",
+          "n": "11"
+        },
+        {
+          "id": "sop-s4e12",
+          "t": "Eloise",
+          "n": "12"
+        },
+        {
+          "id": "sop-s4e13",
+          "t": "Whitecaps",
+          "n": "13"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Season 5",
+      "sub": "2004 · 13 episodes",
+      "items": [
+        {
+          "id": "sop-s5e1",
+          "t": "Two Tonys",
+          "n": "1"
+        },
+        {
+          "id": "sop-s5e2",
+          "t": "Rat Pack",
+          "n": "2"
+        },
+        {
+          "id": "sop-s5e3",
+          "t": "Where's Johnny?",
+          "n": "3"
+        },
+        {
+          "id": "sop-s5e4",
+          "t": "All Happy Families...",
+          "n": "4"
+        },
+        {
+          "id": "sop-s5e5",
+          "t": "Irregular Around the Margins",
+          "n": "5"
+        },
+        {
+          "id": "sop-s5e6",
+          "t": "Sentimental Education",
+          "n": "6"
+        },
+        {
+          "id": "sop-s5e7",
+          "t": "In Camelot",
+          "n": "7"
+        },
+        {
+          "id": "sop-s5e8",
+          "t": "Marco Polo",
+          "n": "8"
+        },
+        {
+          "id": "sop-s5e9",
+          "t": "Unidentified Black Males",
+          "n": "9"
+        },
+        {
+          "id": "sop-s5e10",
+          "t": "Cold Cuts",
+          "n": "10"
+        },
+        {
+          "id": "sop-s5e11",
+          "t": "The Test Dream",
+          "n": "11"
+        },
+        {
+          "id": "sop-s5e12",
+          "t": "Long Term Parking",
+          "n": "12"
+        },
+        {
+          "id": "sop-s5e13",
+          "t": "All Due Respect",
+          "n": "13"
+        }
+      ]
+    },
+    {
+      "id": "s6p1",
+      "title": "Season 6, Part I",
+      "sub": "2006 · 12 episodes",
+      "items": [
+        {
+          "id": "sop-s6e1",
+          "t": "Members Only",
+          "n": "1"
+        },
+        {
+          "id": "sop-s6e2",
+          "t": "Join the Club",
+          "n": "2"
+        },
+        {
+          "id": "sop-s6e3",
+          "t": "Mayham",
+          "n": "3"
+        },
+        {
+          "id": "sop-s6e4",
+          "t": "The Fleshy Part of the Thigh",
+          "n": "4"
+        },
+        {
+          "id": "sop-s6e5",
+          "t": "Mr. & Mrs. John Sacrimoni Request...",
+          "n": "5"
+        },
+        {
+          "id": "sop-s6e6",
+          "t": "Live Free or Die",
+          "n": "6"
+        },
+        {
+          "id": "sop-s6e7",
+          "t": "Luxury Lounge",
+          "n": "7"
+        },
+        {
+          "id": "sop-s6e8",
+          "t": "Johnny Cakes",
+          "n": "8"
+        },
+        {
+          "id": "sop-s6e9",
+          "t": "The Ride",
+          "n": "9"
+        },
+        {
+          "id": "sop-s6e10",
+          "t": "Moe n' Joe",
+          "n": "10"
+        },
+        {
+          "id": "sop-s6e11",
+          "t": "Cold Stones",
+          "n": "11"
+        },
+        {
+          "id": "sop-s6e12",
+          "t": "Kaisha",
+          "n": "12"
+        }
+      ]
+    },
+    {
+      "id": "s6p2",
+      "title": "Season 6, Part II",
+      "sub": "2007 · 9 episodes",
+      "items": [
+        {
+          "id": "sop-s6e13",
+          "t": "Soprano Home Movies",
+          "n": "13"
+        },
+        {
+          "id": "sop-s6e14",
+          "t": "Stage 5",
+          "n": "14"
+        },
+        {
+          "id": "sop-s6e15",
+          "t": "Remember When",
+          "n": "15"
+        },
+        {
+          "id": "sop-s6e16",
+          "t": "Chasing It",
+          "n": "16"
+        },
+        {
+          "id": "sop-s6e17",
+          "t": "Walk Like a Man",
+          "n": "17"
+        },
+        {
+          "id": "sop-s6e18",
+          "t": "Kennedy and Heidi",
+          "n": "18"
+        },
+        {
+          "id": "sop-s6e19",
+          "t": "The Second Coming",
+          "n": "19"
+        },
+        {
+          "id": "sop-s6e20",
+          "t": "The Blue Comet",
+          "n": "20"
+        },
+        {
+          "id": "sop-s6e21",
+          "t": "Made in America",
+          "n": "21"
+        }
+      ]
+    }
+  ]
+}

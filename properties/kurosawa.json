@@ -1,0 +1,249 @@
+{
+  "slug": "kurosawa",
+  "title": "Akira Kurosawa",
+  "subtitle": "the thirty features, in release order",
+  "kind": "films",
+  "order": 38,
+  "year": "1943–1993",
+  "blurb": "Every feature he directed, Sanshiro Sugata through Madadayo — 30 films, about 61 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#5A2E28",
+  "accentDark": "#D08A80",
+  "tiers": false,
+  "notes": [
+    [
+      "Directed features only.",
+      "The filmography's one co-direction — Those Who Make Tomorrow, a 1946 studio project shared with Hideo Sekigawa and Kajiro Yamamoto — is not here: it is not his film the way the other thirty are. Everything from Sanshiro Sugata to Madadayo is."
+    ],
+    [
+      "Many sit on the Criterion list too.",
+      "Rashomon, Ikiru, Seven Samurai, Yojimbo and a dozen more are also on the Criterion Collection list in this tracker; each list keeps its own ticks."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata, in hours — about 61 in all. Every one of the 30 films has a real runtime; the generator refuses to build without them."
+    ],
+    "Filmography from Wikipedia's List of works by Akira Kurosawa; runtimes and release dates from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "wartime",
+      "title": "The wartime start",
+      "sub": "1943–1947 · 6 films · 9 hours",
+      "intro": "Six films made inside the war and just after it: two judo pictures, a home-front film shot for the war effort, and — once the censors changed from Japanese to American — the first films about the country rebuilding.",
+      "items": [
+        {
+          "id": "kur-1943-sanshiro-sugata",
+          "t": "Sanshiro Sugata",
+          "n": "1943",
+          "w": 1.33,
+          "note": "His first feature — what survives is the reissue cut, trimmed by the wartime censors"
+        },
+        {
+          "id": "kur-1944-the-most-beautiful",
+          "t": "The Most Beautiful",
+          "n": "1944",
+          "w": 1.42
+        },
+        {
+          "id": "kur-1945-sanshiro-sugata-part-ii",
+          "t": "Sanshiro Sugata Part II",
+          "n": "1945",
+          "w": 1.38
+        },
+        {
+          "id": "kur-1945-the-men-who-tread-on-the-tiger-s-tail",
+          "t": "The Men Who Tread on the Tiger's Tail",
+          "n": "1945",
+          "w": 0.98,
+          "note": "Held from release by the occupation until 1952"
+        },
+        {
+          "id": "kur-1946-no-regrets-for-our-youth",
+          "t": "No Regrets for Our Youth",
+          "n": "1946",
+          "w": 1.83
+        },
+        {
+          "id": "kur-1947-one-wonderful-sunday",
+          "t": "One Wonderful Sunday",
+          "n": "1947",
+          "w": 1.8
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "mifune",
+      "title": "The Mifune years",
+      "sub": "1948–1965 · 17 films · 36 hours",
+      "intro": "Seventeen films in eighteen years, sixteen of them with Toshiro Mifune — from Drunken Angel, where the partnership starts, to Red Beard, where it ends.",
+      "items": [
+        {
+          "id": "kur-1948-drunken-angel",
+          "t": "Drunken Angel",
+          "n": "1948",
+          "w": 1.63
+        },
+        {
+          "id": "kur-1949-the-quiet-duel",
+          "t": "The Quiet Duel",
+          "n": "1949",
+          "w": 1.58
+        },
+        {
+          "id": "kur-1949-stray-dog",
+          "t": "Stray Dog",
+          "n": "1949",
+          "w": 2.03
+        },
+        {
+          "id": "kur-1950-scandal",
+          "t": "Scandal",
+          "n": "1950",
+          "w": 1.73
+        },
+        {
+          "id": "kur-1950-rashomon",
+          "t": "Rashomon",
+          "n": "1950",
+          "w": 1.47
+        },
+        {
+          "id": "kur-1951-the-idiot",
+          "t": "The Idiot",
+          "n": "1951",
+          "w": 2.77
+        },
+        {
+          "id": "kur-1952-ikiru",
+          "t": "Ikiru",
+          "n": "1952",
+          "w": 2.38
+        },
+        {
+          "id": "kur-1954-seven-samurai",
+          "t": "Seven Samurai",
+          "n": "1954",
+          "w": 3.45
+        },
+        {
+          "id": "kur-1955-i-live-in-fear",
+          "t": "I Live in Fear",
+          "n": "1955",
+          "w": 1.72
+        },
+        {
+          "id": "kur-1957-throne-of-blood",
+          "t": "Throne of Blood",
+          "n": "1957",
+          "w": 1.75
+        },
+        {
+          "id": "kur-1957-the-lower-depths",
+          "t": "The Lower Depths",
+          "n": "1957",
+          "w": 2.17
+        },
+        {
+          "id": "kur-1958-the-hidden-fortress",
+          "t": "The Hidden Fortress",
+          "n": "1958",
+          "w": 2.32
+        },
+        {
+          "id": "kur-1960-the-bad-sleep-well",
+          "t": "The Bad Sleep Well",
+          "n": "1960",
+          "w": 2.52
+        },
+        {
+          "id": "kur-1961-yojimbo",
+          "t": "Yojimbo",
+          "n": "1961",
+          "w": 1.83
+        },
+        {
+          "id": "kur-1962-sanjuro",
+          "t": "Sanjuro",
+          "n": "1962",
+          "w": 1.6
+        },
+        {
+          "id": "kur-1963-high-and-low",
+          "t": "High and Low",
+          "n": "1963",
+          "w": 2.38
+        },
+        {
+          "id": "kur-1965-red-beard",
+          "t": "Red Beard",
+          "n": "1965",
+          "w": 3.08
+        }
+      ]
+    },
+    {
+      "id": "colour",
+      "title": "The colour late period",
+      "sub": "1970–1993 · 7 films · 16 hours",
+      "intro": "Seven films in twenty-three years, all in colour, made the hard way — a Soviet co-production, epics financed from abroad, and three quiet last films.",
+      "items": [
+        {
+          "id": "kur-1970-dodes-ka-den",
+          "t": "Dodes'ka-den",
+          "n": "1970",
+          "w": 2.33,
+          "note": "His first film in colour"
+        },
+        {
+          "id": "kur-1975-dersu-uzala",
+          "t": "Dersu Uzala",
+          "n": "1975",
+          "w": 2.35,
+          "note": "A Soviet co-production in Russian — the only film he made in a language other than Japanese"
+        },
+        {
+          "id": "kur-1980-kagemusha",
+          "t": "Kagemusha",
+          "n": "1980",
+          "w": 2.98
+        },
+        {
+          "id": "kur-1985-ran",
+          "t": "Ran",
+          "n": "1985",
+          "w": 2.67
+        },
+        {
+          "id": "kur-1990-dreams",
+          "t": "Dreams",
+          "n": "1990",
+          "w": 1.98,
+          "note": "Also released as Akira Kurosawa's Dreams"
+        },
+        {
+          "id": "kur-1991-rhapsody-in-august",
+          "t": "Rhapsody in August",
+          "n": "1991",
+          "w": 1.63
+        },
+        {
+          "id": "kur-1993-madadayo",
+          "t": "Madadayo",
+          "n": "1993",
+          "w": 2.23,
+          "note": "His thirtieth and last film"
+        }
+      ]
+    }
+  ]
+}

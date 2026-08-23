@@ -1,0 +1,1564 @@
+{
+  "slug": "a24",
+  "title": "A24",
+  "subtitle": "every film with a release date, in order",
+  "kind": "films",
+  "order": 40,
+  "year": "2013–",
+  "blurb": "Everything A24 has released or dated, A Glimpse Inside the Mind of Charles Swan III through Elden Ring — 211 films, about 331 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#111111",
+  "accentDark": "#E8E8E8",
+  "tiers": false,
+  "notes": [
+    [
+      "Every film with a release date.",
+      "205 released and 6 upcoming films, in release order, from Wikipedia's List of A24 films. The 21 films that have started shooting but carry no date, and the 18 in development, are not listed — they join once A24 dates them. Upcoming rows are marked \"Not out yet\"."
+    ],
+    [
+      "A24 distributes some films and produces others.",
+      "The source list does not separate them into tables; its Notes column does. The early years are almost all acquisitions — rows marked \"U.S. distribution only\" and the like — while \"Also produced by A24\" marks the films it made itself, starting with Moonlight. Each row here keeps the list's annotation, after the director; a row with neither carries no annotation on the list."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata, in hours — about 331 in all. 26 films have no runtime there — all 6 upcoming films plus 20 already released — and weigh nothing, so they cannot drag a group's pace."
+    ],
+    "Catalogue, dates and distribution notes from Wikipedia's List of A24 films; runtimes from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "acquisitions",
+      "title": "The acquisition years",
+      "sub": "2013–2015 · 27 films · 44 hours",
+      "intro": "A24 launched in August 2012 and spent its first three years buying finished films — every entry here is a distribution pickup. Amy won the company its first Academy Award.",
+      "items": [
+        {
+          "id": "a24-2013-a-glimpse-inside-the-mind-of-charles-swan-iii",
+          "t": "A Glimpse Inside the Mind of Charles Swan III",
+          "n": "2013",
+          "w": 1.42,
+          "note": "Roman Coppola · U.S. co-distribution with FilmBuff only"
+        },
+        {
+          "id": "a24-2013-spring-breakers",
+          "t": "Spring Breakers",
+          "n": "2013",
+          "w": 1.57,
+          "note": "Harmony Korine · U.S. co-distribution with Annapurna Pictures only"
+        },
+        {
+          "id": "a24-2013-ginger-and-rosa",
+          "t": "Ginger & Rosa",
+          "n": "2013",
+          "w": 1.5,
+          "note": "Sally Potter · North American distribution only"
+        },
+        {
+          "id": "a24-2013-the-bling-ring",
+          "t": "The Bling Ring",
+          "n": "2013",
+          "w": 1.5,
+          "note": "Sofia Coppola · U.S. distribution only"
+        },
+        {
+          "id": "a24-2013-the-spectacular-now",
+          "t": "The Spectacular Now",
+          "n": "2013",
+          "w": 1.58,
+          "note": "James Ponsoldt · North American distribution only"
+        },
+        {
+          "id": "a24-2014-enemy",
+          "t": "Enemy",
+          "n": "2014",
+          "w": 1.52,
+          "note": "Denis Villeneuve · U.S. distribution only"
+        },
+        {
+          "id": "a24-2014-under-the-skin",
+          "t": "Under the Skin",
+          "n": "2014",
+          "w": 1.78,
+          "note": "Jonathan Glazer · U.S. distribution only"
+        },
+        {
+          "id": "a24-2014-locke",
+          "t": "Locke",
+          "n": "2014",
+          "w": 1.42,
+          "note": "Steven Knight · U.S. distribution only"
+        },
+        {
+          "id": "a24-2014-obvious-child",
+          "t": "Obvious Child",
+          "n": "2014",
+          "w": 1.38,
+          "note": "Gillian Robespierre · North American distribution only"
+        },
+        {
+          "id": "a24-2014-the-rover",
+          "t": "The Rover",
+          "n": "2014",
+          "w": 1.72,
+          "note": "David Michôd · U.S. distribution only"
+        },
+        {
+          "id": "a24-2014-life-after-beth",
+          "t": "Life After Beth",
+          "n": "2014",
+          "w": 1.48,
+          "note": "Jeff Baena · U.S. distribution only"
+        },
+        {
+          "id": "a24-2014-tusk",
+          "t": "Tusk",
+          "n": "2014",
+          "w": 1.7,
+          "note": "Kevin Smith · U.S. distribution only"
+        },
+        {
+          "id": "a24-2014-laggies",
+          "t": "Laggies",
+          "n": "2014",
+          "w": 1.68,
+          "note": "Lynn Shelton · North American distribution only"
+        },
+        {
+          "id": "a24-2014-revenge-of-the-green-dragons",
+          "t": "Revenge of the Green Dragons",
+          "n": "2014",
+          "w": 0.0,
+          "note": "Andrew Lau and Andrew Loo · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2014-the-captive",
+          "t": "The Captive",
+          "n": "2014",
+          "w": 1.87,
+          "note": "Atom Egoyan · U.S. distribution only"
+        },
+        {
+          "id": "a24-2014-a-most-violent-year",
+          "t": "A Most Violent Year",
+          "n": "2014",
+          "w": 2.08,
+          "note": "J. C. Chandor · U.S. distribution only"
+        },
+        {
+          "id": "a24-2015-son-of-a-gun",
+          "t": "Son of a Gun",
+          "n": "2015",
+          "w": 1.88,
+          "note": "Julius Avery · U.S. distribution only"
+        },
+        {
+          "id": "a24-2015-while-we-re-young",
+          "t": "While We're Young",
+          "n": "2015",
+          "w": 1.62,
+          "note": "Noah Baumbach · U.S. distribution only"
+        },
+        {
+          "id": "a24-2015-cut-bank",
+          "t": "Cut Bank",
+          "n": "2015",
+          "w": 1.55,
+          "note": "Matt Shakman · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2015-ex-machina",
+          "t": "Ex Machina",
+          "n": "2015",
+          "w": 1.8,
+          "note": "Alex Garland · U.S. distribution only"
+        },
+        {
+          "id": "a24-2015-slow-west",
+          "t": "Slow West",
+          "n": "2015",
+          "w": 1.4,
+          "note": "John Maclean · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2015-barely-lethal",
+          "t": "Barely Lethal",
+          "n": "2015",
+          "w": 1.63,
+          "note": "Kyle Newman · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2015-amy",
+          "t": "Amy",
+          "n": "2015",
+          "w": 2.13,
+          "note": "Asif Kapadia · U.S. distribution only"
+        },
+        {
+          "id": "a24-2015-the-end-of-the-tour",
+          "t": "The End of the Tour",
+          "n": "2015",
+          "w": 1.77,
+          "note": "James Ponsoldt · U.S. distribution only"
+        },
+        {
+          "id": "a24-2015-dark-places",
+          "t": "Dark Places",
+          "n": "2015",
+          "w": 1.88,
+          "note": "Gilles Paquet-Brenner · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2015-mississippi-grind",
+          "t": "Mississippi Grind",
+          "n": "2015",
+          "w": 1.8,
+          "note": "Anna Boden and Ryan Fleck · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2015-room",
+          "t": "Room",
+          "n": "2015",
+          "w": 1.97,
+          "note": "Lenny Abrahamson · U.S. distribution only"
+        }
+      ]
+    },
+    {
+      "id": "moonlight",
+      "title": "Moonlight and after",
+      "sub": "2016–2017 · 33 films · 55 hours",
+      "intro": "Moonlight — financed with Plan B, the first film A24 produced itself — won Best Picture. From here the list mixes its own productions with the pickups.",
+      "items": [
+        {
+          "id": "a24-2016-mojave",
+          "t": "Mojave",
+          "n": "2016",
+          "w": 1.55,
+          "note": "William Monahan · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2016-the-witch",
+          "t": "The Witch",
+          "n": "2016",
+          "w": 1.55,
+          "note": "Robert Eggers · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2016-remember",
+          "t": "Remember",
+          "n": "2016",
+          "w": 1.57,
+          "note": "Atom Egoyan · U.S. distribution only"
+        },
+        {
+          "id": "a24-2016-krisha",
+          "t": "Krisha",
+          "n": "2016",
+          "w": 1.38,
+          "note": "Trey Edward Shults · U.S. distribution only"
+        },
+        {
+          "id": "a24-2016-green-room",
+          "t": "Green Room",
+          "n": "2016",
+          "w": 1.57,
+          "note": "Jeremy Saulnier · U.S. distribution only"
+        },
+        {
+          "id": "a24-2016-the-adderall-diaries",
+          "t": "The Adderall Diaries",
+          "n": "2016",
+          "w": 1.75,
+          "note": "Pamela Romanowsky · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2016-the-lobster",
+          "t": "The Lobster",
+          "n": "2016",
+          "w": 1.97,
+          "note": "Yorgos Lanthimos · U.S. distribution only"
+        },
+        {
+          "id": "a24-2016-de-palma",
+          "t": "De Palma",
+          "n": "2016",
+          "w": 1.83,
+          "note": "Noah Baumbach and Jake Paltrow"
+        },
+        {
+          "id": "a24-2016-swiss-army-man",
+          "t": "Swiss Army Man",
+          "n": "2016",
+          "w": 1.62,
+          "note": "Dan Kwan and Daniel Scheinert"
+        },
+        {
+          "id": "a24-2016-equals",
+          "t": "Equals",
+          "n": "2016",
+          "w": 1.68,
+          "note": "Drake Doremus · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2016-into-the-forest",
+          "t": "Into the Forest",
+          "n": "2016",
+          "w": 1.68,
+          "note": "Patricia Rozema · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2016-morris-from-america",
+          "t": "Morris from America",
+          "n": "2016",
+          "w": 1.52,
+          "note": "Chad Hartigan · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2016-the-sea-of-trees",
+          "t": "The Sea of Trees",
+          "n": "2016",
+          "w": 1.83,
+          "note": "Gus Van Sant · U.S. distribution only"
+        },
+        {
+          "id": "a24-2016-american-honey",
+          "t": "American Honey",
+          "n": "2016",
+          "w": 2.72,
+          "note": "Andrea Arnold · U.S. distribution only"
+        },
+        {
+          "id": "a24-2016-moonlight",
+          "t": "Moonlight",
+          "n": "2016",
+          "w": 1.85,
+          "note": "Barry Jenkins · Also produced by A24"
+        },
+        {
+          "id": "a24-2016-oasis-supersonic",
+          "t": "Oasis: Supersonic",
+          "n": "2016",
+          "w": 2.03,
+          "note": "Mat Whitecross · U.S. distribution only"
+        },
+        {
+          "id": "a24-2016-the-monster",
+          "t": "The Monster",
+          "n": "2016",
+          "w": 1.52,
+          "note": "Bryan Bertino · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2016-20th-century-women",
+          "t": "20th Century Women",
+          "n": "2016",
+          "w": 1.97,
+          "note": "Mike Mills · U.S. distribution only"
+        },
+        {
+          "id": "a24-2017-trespass-against-us",
+          "t": "Trespass Against Us",
+          "n": "2017",
+          "w": 1.65,
+          "note": "Adam Smith · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2017-the-blackcoat-s-daughter",
+          "t": "The Blackcoat's Daughter",
+          "n": "2017",
+          "w": 1.55,
+          "note": "Oz Perkins · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2017-free-fire",
+          "t": "Free Fire",
+          "n": "2017",
+          "w": 1.52,
+          "note": "Ben Wheatley · U.S. distribution only"
+        },
+        {
+          "id": "a24-2017-the-lovers",
+          "t": "The Lovers",
+          "n": "2017",
+          "w": 1.62,
+          "note": "Azazel Jacobs · Also produced by A24"
+        },
+        {
+          "id": "a24-2017-the-exception",
+          "t": "The Exception",
+          "n": "2017",
+          "w": 1.78,
+          "note": "David Leveaux · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2017-it-comes-at-night",
+          "t": "It Comes at Night",
+          "n": "2017",
+          "w": 1.52,
+          "note": "Trey Edward Shults · Also produced by A24"
+        },
+        {
+          "id": "a24-2017-a-ghost-story",
+          "t": "A Ghost Story",
+          "n": "2017",
+          "w": 1.53,
+          "note": "David Lowery"
+        },
+        {
+          "id": "a24-2017-menashe",
+          "t": "Menashe",
+          "n": "2017",
+          "w": 1.35,
+          "note": "Joshua Z Weinstein · U.S. and Chinese distribution only"
+        },
+        {
+          "id": "a24-2017-good-time",
+          "t": "Good Time",
+          "n": "2017",
+          "w": 1.65,
+          "note": "Safdie brothers · North American, U.K. and Irish distribution only"
+        },
+        {
+          "id": "a24-2017-woodshock",
+          "t": "Woodshock",
+          "n": "2017",
+          "w": 0.0,
+          "note": "Kate and Laura Mulleavy · U.S. distribution only"
+        },
+        {
+          "id": "a24-2017-the-florida-project",
+          "t": "The Florida Project",
+          "n": "2017",
+          "w": 1.92,
+          "note": "Sean Baker · U.S. distribution only"
+        },
+        {
+          "id": "a24-2017-the-killing-of-a-sacred-deer",
+          "t": "The Killing of a Sacred Deer",
+          "n": "2017",
+          "w": 1.82,
+          "note": "Yorgos Lanthimos · North American distribution only"
+        },
+        {
+          "id": "a24-2017-lady-bird",
+          "t": "Lady Bird",
+          "n": "2017",
+          "w": 1.55,
+          "note": "Greta Gerwig"
+        },
+        {
+          "id": "a24-2017-the-disaster-artist",
+          "t": "The Disaster Artist",
+          "n": "2017",
+          "w": 1.75,
+          "note": "James Franco · North American distribution only"
+        },
+        {
+          "id": "a24-2017-the-ballad-of-lefty-brown",
+          "t": "The Ballad of Lefty Brown",
+          "n": "2017",
+          "w": 1.85,
+          "note": "Jared Moshe · U.S. co-distribution with DirecTV only"
+        }
+      ]
+    },
+    {
+      "id": "peak-indie",
+      "title": "The A24 horror years",
+      "sub": "2018–2019 · 36 films · 55 hours",
+      "intro": "Hereditary, Midsommar and The Lighthouse sit in the same stretch as Eighth Grade and Uncut Gems. 2019's twenty-one releases made it the busiest year of the company's first decade.",
+      "items": [
+        {
+          "id": "a24-2018-the-vanishing-of-sidney-hall",
+          "t": "The Vanishing of Sidney Hall",
+          "n": "2018",
+          "w": 1.95,
+          "note": "Shawn Christensen · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2018-the-last-movie-star",
+          "t": "The Last Movie Star",
+          "n": "2018",
+          "w": 0.0,
+          "note": "Adam Rifkin · North American co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2018-lean-on-pete",
+          "t": "Lean on Pete",
+          "n": "2018",
+          "w": 2.02,
+          "note": "Andrew Haigh · North American distribution only"
+        },
+        {
+          "id": "a24-2018-backstabbing-for-beginners",
+          "t": "Backstabbing for Beginners",
+          "n": "2018",
+          "w": 1.5,
+          "note": "Per Fly · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2018-first-reformed",
+          "t": "First Reformed",
+          "n": "2018",
+          "w": 1.8,
+          "note": "Paul Schrader · U.S. distribution only"
+        },
+        {
+          "id": "a24-2018-how-to-talk-to-girls-at-parties",
+          "t": "How to Talk to Girls at Parties",
+          "n": "2018",
+          "w": 1.7,
+          "note": "John Cameron Mitchell · U.S. distribution only"
+        },
+        {
+          "id": "a24-2018-hereditary",
+          "t": "Hereditary",
+          "n": "2018",
+          "w": 2.12,
+          "note": "Ari Aster · Also produced by A24"
+        },
+        {
+          "id": "a24-2018-woman-walks-ahead",
+          "t": "Woman Walks Ahead",
+          "n": "2018",
+          "w": 1.68,
+          "note": "Susanna White · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2018-eighth-grade",
+          "t": "Eighth Grade",
+          "n": "2018",
+          "w": 1.57,
+          "note": "Bo Burnham · Also produced by A24"
+        },
+        {
+          "id": "a24-2018-hot-summer-nights",
+          "t": "Hot Summer Nights",
+          "n": "2018",
+          "w": 2.0,
+          "note": "Elijah Bynum · co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2018-never-goin-back",
+          "t": "Never Goin' Back",
+          "n": "2018",
+          "w": 1.42,
+          "note": "Augustine Frizzell"
+        },
+        {
+          "id": "a24-2018-a-prayer-before-dawn",
+          "t": "A Prayer Before Dawn",
+          "n": "2018",
+          "w": 1.95,
+          "note": "Jean-Stéphane Sauvaire · North American co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2018-slice",
+          "t": "Slice",
+          "n": "2018",
+          "w": 0.0,
+          "note": "Austin Vesely"
+        },
+        {
+          "id": "a24-2018-the-children-act",
+          "t": "The Children Act",
+          "n": "2018",
+          "w": 0.0,
+          "note": "Richard Eyre · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2018-mid90s",
+          "t": "Mid90s",
+          "n": "2018",
+          "w": 1.4,
+          "note": "Jonah Hill · Also produced by A24"
+        },
+        {
+          "id": "a24-2019-outlaws",
+          "t": "Outlaws",
+          "n": "2019",
+          "w": 1.53,
+          "note": "Stephen McCallum · North American co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2019-the-hole-in-the-ground",
+          "t": "The Hole in the Ground",
+          "n": "2019",
+          "w": 1.5,
+          "note": "Lee Cronin · North American co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2019-climax",
+          "t": "Climax",
+          "n": "2019",
+          "w": 1.62,
+          "note": "Gaspar Noé · U.S. distribution only"
+        },
+        {
+          "id": "a24-2019-gloria-bell",
+          "t": "Gloria Bell",
+          "n": "2019",
+          "w": 1.7,
+          "note": "Sebastián Lelio · U.S. distribution only"
+        },
+        {
+          "id": "a24-2019-high-life",
+          "t": "High Life",
+          "n": "2019",
+          "w": 1.83,
+          "note": "Claire Denis · North American distribution only"
+        },
+        {
+          "id": "a24-2019-native-son",
+          "t": "Native Son",
+          "n": "2019",
+          "w": 1.73,
+          "note": "Rashid Johnson · Also produced by A24; distributed by HBO Films"
+        },
+        {
+          "id": "a24-2019-under-the-silver-lake",
+          "t": "Under the Silver Lake",
+          "n": "2019",
+          "w": 2.32,
+          "note": "David Robert Mitchell · North American distribution only"
+        },
+        {
+          "id": "a24-2019-the-souvenir",
+          "t": "The Souvenir",
+          "n": "2019",
+          "w": 1.98,
+          "note": "Joanna Hogg · North American distribution only"
+        },
+        {
+          "id": "a24-2019-the-last-black-man-in-san-francisco",
+          "t": "The Last Black Man in San Francisco",
+          "n": "2019",
+          "w": 2.0,
+          "note": "Joe Talbot"
+        },
+        {
+          "id": "a24-2019-midsommar",
+          "t": "Midsommar",
+          "n": "2019",
+          "w": 2.45,
+          "note": "Ari Aster"
+        },
+        {
+          "id": "a24-2019-the-farewell",
+          "t": "The Farewell",
+          "n": "2019",
+          "w": 1.63,
+          "note": "Lulu Wang"
+        },
+        {
+          "id": "a24-2019-skin",
+          "t": "Skin",
+          "n": "2019",
+          "w": 1.83,
+          "note": "Guy Nattiv · North American co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2019-share",
+          "t": "Share",
+          "n": "2019",
+          "w": 0.0,
+          "note": "Pippa Bianco · Also produced by A24; distributed by HBO Films"
+        },
+        {
+          "id": "a24-2019-the-death-of-dick-long",
+          "t": "The Death of Dick Long",
+          "n": "2019",
+          "w": 1.67,
+          "note": "Daniel Scheinert · Also produced by A24"
+        },
+        {
+          "id": "a24-2019-low-tide",
+          "t": "Low Tide",
+          "n": "2019",
+          "w": 0.0,
+          "note": "Kevin McMullin · U.S. co-distribution with DirecTV only"
+        },
+        {
+          "id": "a24-2019-the-lighthouse",
+          "t": "The Lighthouse",
+          "n": "2019",
+          "w": 1.82,
+          "note": "Robert Eggers · Also produced by A24"
+        },
+        {
+          "id": "a24-2019-the-elephant-queen",
+          "t": "The Elephant Queen",
+          "n": "2019",
+          "w": 0.0,
+          "note": "Victoria Stone and Mark Deeble · Co-distributed with Apple TV+"
+        },
+        {
+          "id": "a24-2019-the-kill-team",
+          "t": "The Kill Team",
+          "n": "2019",
+          "w": 1.45,
+          "note": "Dan Krauss · North American distribution only"
+        },
+        {
+          "id": "a24-2019-waves",
+          "t": "Waves",
+          "n": "2019",
+          "w": 2.25,
+          "note": "Trey Edward Shults · Also produced by A24"
+        },
+        {
+          "id": "a24-2019-in-fabric",
+          "t": "In Fabric",
+          "n": "2019",
+          "w": 1.97,
+          "note": "Peter Strickland · North American distribution only"
+        },
+        {
+          "id": "a24-2019-uncut-gems",
+          "t": "Uncut Gems",
+          "n": "2019",
+          "w": 2.25,
+          "note": "Safdie brothers · Also produced by A24"
+        }
+      ]
+    },
+    {
+      "id": "pandemic",
+      "title": "The pandemic dip and the sweep",
+      "sub": "2020–2022 · 36 films · 53 hours",
+      "intro": "Three releases in all of 2020, then the climb back out — capped by Everything Everywhere All at Once sweeping the major categories at the Oscars.",
+      "items": [
+        {
+          "id": "a24-2020-first-cow",
+          "t": "First Cow",
+          "n": "2020",
+          "w": 2.02,
+          "note": "Kelly Reichardt"
+        },
+        {
+          "id": "a24-2020-boys-state",
+          "t": "Boys State",
+          "n": "2020",
+          "w": 0.0,
+          "note": "Jesse Moss and Amanda McBaine · Co-distributed with Apple TV+"
+        },
+        {
+          "id": "a24-2020-on-the-rocks",
+          "t": "On the Rocks",
+          "n": "2020",
+          "w": 1.6,
+          "note": "Sofia Coppola · Co-distributed with Apple TV+"
+        },
+        {
+          "id": "a24-2021-saint-maud",
+          "t": "Saint Maud",
+          "n": "2021",
+          "w": 1.4,
+          "note": "Rose Glass · North American distribution only"
+        },
+        {
+          "id": "a24-2021-minari",
+          "t": "Minari",
+          "n": "2021",
+          "w": 1.92,
+          "note": "Lee Isaac Chung · Also produced by A24"
+        },
+        {
+          "id": "a24-2021-false-positive",
+          "t": "False Positive",
+          "n": "2021",
+          "w": 0.0,
+          "note": "John Lee · Produced by A24; distributed by Hulu"
+        },
+        {
+          "id": "a24-2021-zola",
+          "t": "Zola",
+          "n": "2021",
+          "w": 0.0,
+          "note": "Janicza Bravo · Also produced by A24"
+        },
+        {
+          "id": "a24-2021-val",
+          "t": "Val",
+          "n": "2021",
+          "w": 1.8,
+          "note": "Leo Scott and Ting Poo · Produced by A24; distributed by Amazon Studios"
+        },
+        {
+          "id": "a24-2021-the-green-knight",
+          "t": "The Green Knight",
+          "n": "2021",
+          "w": 2.17,
+          "note": "David Lowery · Also produced by A24"
+        },
+        {
+          "id": "a24-2021-lamb",
+          "t": "Lamb",
+          "n": "2021",
+          "w": 1.77,
+          "note": "Valdimar Jóhannsson · North American distribution only"
+        },
+        {
+          "id": "a24-2021-the-souvenir-part-ii",
+          "t": "The Souvenir Part II",
+          "n": "2021",
+          "w": 1.8,
+          "note": "Joanna Hogg · North American distribution only"
+        },
+        {
+          "id": "a24-2021-c-mon-c-mon",
+          "t": "C'mon C'mon",
+          "n": "2021",
+          "w": 1.8,
+          "note": "Mike Mills · Also produced by A24"
+        },
+        {
+          "id": "a24-2021-the-humans",
+          "t": "The Humans",
+          "n": "2021",
+          "w": 1.8,
+          "note": "Stephen Karam · Also produced by A24; co-distributed with Showtime"
+        },
+        {
+          "id": "a24-2021-red-rocket",
+          "t": "Red Rocket",
+          "n": "2021",
+          "w": 2.17,
+          "note": "Sean Baker · North American distribution only"
+        },
+        {
+          "id": "a24-2021-the-tragedy-of-macbeth",
+          "t": "The Tragedy of Macbeth",
+          "n": "2021",
+          "w": 1.75,
+          "note": "Joel Coen · Also produced by A24; co-distributed with Apple TV+"
+        },
+        {
+          "id": "a24-2022-the-sky-is-everywhere",
+          "t": "The Sky Is Everywhere",
+          "n": "2022",
+          "w": 0.0,
+          "note": "Josephine Decker · Co-distributed with Apple TV+"
+        },
+        {
+          "id": "a24-2022-after-yang",
+          "t": "After Yang",
+          "n": "2022",
+          "w": 1.6,
+          "note": "Kogonada · Also produced by A24; co-distributed with Showtime"
+        },
+        {
+          "id": "a24-2022-x",
+          "t": "X",
+          "n": "2022",
+          "w": 1.77,
+          "note": "Ti West · Also produced by A24"
+        },
+        {
+          "id": "a24-2022-everything-everywhere-all-at-once",
+          "t": "Everything Everywhere All at Once",
+          "n": "2022",
+          "w": 2.32,
+          "note": "Dan Kwan and Daniel Scheinert · Also produced by A24"
+        },
+        {
+          "id": "a24-2022-men",
+          "t": "Men",
+          "n": "2022",
+          "w": 1.67,
+          "note": "Alex Garland · Also produced by A24"
+        },
+        {
+          "id": "a24-2022-elizabeth-a-portrait-in-parts",
+          "t": "Elizabeth: A Portrait in Parts",
+          "n": "2022",
+          "w": 0.0,
+          "note": "Roger Michell · Distributed by Showtime"
+        },
+        {
+          "id": "a24-2022-marcel-the-shell-with-shoes-on",
+          "t": "Marcel the Shell with Shoes On",
+          "n": "2022",
+          "w": 1.5,
+          "note": "Dean Fleischer Camp · North American distribution only"
+        },
+        {
+          "id": "a24-2022-bodies-bodies-bodies",
+          "t": "Bodies Bodies Bodies",
+          "n": "2022",
+          "w": 1.57,
+          "note": "Halina Reijn · Also produced by A24"
+        },
+        {
+          "id": "a24-2022-funny-pages",
+          "t": "Funny Pages",
+          "n": "2022",
+          "w": 1.43,
+          "note": "Owen Kline · Also produced by A24"
+        },
+        {
+          "id": "a24-2022-pearl",
+          "t": "Pearl",
+          "n": "2022",
+          "w": 1.7,
+          "note": "Ti West · Also produced by A24"
+        },
+        {
+          "id": "a24-2022-instinct",
+          "t": "Instinct",
+          "n": "2022",
+          "w": 1.8,
+          "note": "Halina Reijn"
+        },
+        {
+          "id": "a24-2022-god-s-creatures",
+          "t": "God's Creatures",
+          "n": "2022",
+          "w": 0.0,
+          "note": "Saela Davis and Anna Rose Holmer · Also produced by A24"
+        },
+        {
+          "id": "a24-2022-stars-at-noon",
+          "t": "Stars at Noon",
+          "n": "2022",
+          "w": 2.28,
+          "note": "Claire Denis · North American distribution only"
+        },
+        {
+          "id": "a24-2022-aftersun",
+          "t": "Aftersun",
+          "n": "2022",
+          "w": 1.68,
+          "note": "Charlotte Wells · North American distribution only"
+        },
+        {
+          "id": "a24-2022-causeway",
+          "t": "Causeway",
+          "n": "2022",
+          "w": 1.53,
+          "note": "Lila Neugebauer · Produced by A24; co-distributed with Apple TV+"
+        },
+        {
+          "id": "a24-2022-the-inspection",
+          "t": "The Inspection",
+          "n": "2022",
+          "w": 1.58,
+          "note": "Elegance Bratton · Also produced by A24"
+        },
+        {
+          "id": "a24-2022-white-noise",
+          "t": "White Noise",
+          "n": "2022",
+          "w": 2.27,
+          "note": "Noah Baumbach · Produced by A24; distributed by Netflix"
+        },
+        {
+          "id": "a24-2022-close",
+          "t": "Close",
+          "n": "2022",
+          "w": 1.75,
+          "note": "Lukas Dhont · North American distribution only"
+        },
+        {
+          "id": "a24-2022-the-eternal-daughter",
+          "t": "The Eternal Daughter",
+          "n": "2022",
+          "w": 1.6,
+          "note": "Joanna Hogg"
+        },
+        {
+          "id": "a24-2022-the-whale",
+          "t": "The Whale",
+          "n": "2022",
+          "w": 1.95,
+          "note": "Darren Aronofsky · Also produced by A24"
+        },
+        {
+          "id": "a24-2022-this-place-rules",
+          "t": "This Place Rules",
+          "n": "2022",
+          "w": 1.37,
+          "note": "Andrew Callaghan · Produced by A24; distributed by HBO"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "title": "Scaling up",
+      "sub": "2023–2024 · 43 films · 72 hours",
+      "intro": "Forty-three releases in two years, the widest slate yet.",
+      "items": [
+        {
+          "id": "a24-2023-when-you-finish-saving-the-world",
+          "t": "When You Finish Saving the World",
+          "n": "2023",
+          "w": 1.47,
+          "note": "Jesse Eisenberg · Also produced by A24"
+        },
+        {
+          "id": "a24-2023-sharper",
+          "t": "Sharper",
+          "n": "2023",
+          "w": 0.0,
+          "note": "Benjamin Caron · Also produced by A24; co-distributed with Apple TV+"
+        },
+        {
+          "id": "a24-2023-pi",
+          "t": "Pi",
+          "n": "2023",
+          "w": 1.42,
+          "note": "Darren Aronofsky · 25th anniversary re-release; originally distributed by Artisan Entertainment"
+        },
+        {
+          "id": "a24-2023-showing-up",
+          "t": "Showing Up",
+          "n": "2023",
+          "w": 1.8,
+          "note": "Kelly Reichardt · Also produced by A24"
+        },
+        {
+          "id": "a24-2023-beau-is-afraid",
+          "t": "Beau Is Afraid",
+          "n": "2023",
+          "w": 2.98,
+          "note": "Ari Aster · Also produced by A24"
+        },
+        {
+          "id": "a24-2023-you-hurt-my-feelings",
+          "t": "You Hurt My Feelings",
+          "n": "2023",
+          "w": 1.55,
+          "note": "Nicole Holofcener · U.S. distribution only"
+        },
+        {
+          "id": "a24-2023-past-lives",
+          "t": "Past Lives",
+          "n": "2023",
+          "w": 1.77,
+          "note": "Celine Song · Also produced by A24"
+        },
+        {
+          "id": "a24-2023-earth-mama",
+          "t": "Earth Mama",
+          "n": "2023",
+          "w": 0.0,
+          "note": "Savanah Leaf · Also produced by A24"
+        },
+        {
+          "id": "a24-2023-the-deepest-breath",
+          "t": "The Deepest Breath",
+          "n": "2023",
+          "w": 1.8,
+          "note": "Laura McGann · Produced by A24; distributed by Netflix"
+        },
+        {
+          "id": "a24-2023-stephen-curry-underrated",
+          "t": "Stephen Curry: Underrated",
+          "n": "2023",
+          "w": 0.0,
+          "note": "Peter Nicks · Produced by A24; distributed by Apple TV+"
+        },
+        {
+          "id": "a24-2023-talk-to-me",
+          "t": "Talk to Me",
+          "n": "2023",
+          "w": 1.57,
+          "note": "Danny and Michael Philippou · North American distribution only"
+        },
+        {
+          "id": "a24-2023-medusa-deluxe",
+          "t": "Medusa Deluxe",
+          "n": "2023",
+          "w": 1.68,
+          "note": "Thomas Hardiman · North American distribution only"
+        },
+        {
+          "id": "a24-2023-stop-making-sense",
+          "t": "Stop Making Sense",
+          "n": "2023",
+          "w": 1.47,
+          "note": "Jonathan Demme · Re-release; originally distributed by Cinecom Pictures and Island Alive"
+        },
+        {
+          "id": "a24-2023-dicks-the-musical",
+          "t": "Dicks: The Musical",
+          "n": "2023",
+          "w": 1.43,
+          "note": "Larry Charles · Also produced by A24"
+        },
+        {
+          "id": "a24-2023-priscilla",
+          "t": "Priscilla",
+          "n": "2023",
+          "w": 1.88,
+          "note": "Sofia Coppola · North American distribution only"
+        },
+        {
+          "id": "a24-2023-all-dirt-roads-taste-of-salt",
+          "t": "All Dirt Roads Taste of Salt",
+          "n": "2023",
+          "w": 1.53,
+          "note": "Raven Jackson · Also produced by A24"
+        },
+        {
+          "id": "a24-2023-dream-scenario",
+          "t": "Dream Scenario",
+          "n": "2023",
+          "w": 1.67,
+          "note": "Kristoffer Borgli · Also produced by A24"
+        },
+        {
+          "id": "a24-2023-the-zone-of-interest",
+          "t": "The Zone of Interest",
+          "n": "2023",
+          "w": 1.77,
+          "note": "Jonathan Glazer · Also produced by A24"
+        },
+        {
+          "id": "a24-2023-the-iron-claw",
+          "t": "The Iron Claw",
+          "n": "2023",
+          "w": 2.2,
+          "note": "Sean Durkin · Also produced by A24"
+        },
+        {
+          "id": "a24-2023-occupied-city",
+          "t": "Occupied City",
+          "n": "2023",
+          "w": 4.1,
+          "note": "Steve McQueen · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-my-mercury",
+          "t": "My Mercury",
+          "n": "2024",
+          "w": 1.73,
+          "note": "Joelle Chesselet and Philippa Ehrlich · Produced by A24; distributed by Amazon Prime Video"
+        },
+        {
+          "id": "a24-2024-open-wide",
+          "t": "Open Wide",
+          "n": "2024",
+          "w": 1.8,
+          "note": "Sara Goldblatt · Produced by A24; distributed by Netflix"
+        },
+        {
+          "id": "a24-2024-jerry-lee-lewis-trouble-in-mind",
+          "t": "Jerry Lee Lewis: Trouble in Mind",
+          "n": "2024",
+          "w": 1.23,
+          "note": "Ethan Coen · Produced by A24; distributed by Amazon Prime Video"
+        },
+        {
+          "id": "a24-2024-problemista",
+          "t": "Problemista",
+          "n": "2024",
+          "w": 1.63,
+          "note": "Julio Torres · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-love-lies-bleeding",
+          "t": "Love Lies Bleeding",
+          "n": "2024",
+          "w": 1.73,
+          "note": "Rose Glass · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-steve-martin-a-documentary-in-2-pieces",
+          "t": "Steve! (Martin): A Documentary in 2 Pieces",
+          "n": "2024",
+          "w": 0.0,
+          "note": "Morgan Neville · Produced by A24; distributed by Apple TV+"
+        },
+        {
+          "id": "a24-2024-civil-war",
+          "t": "Civil War",
+          "n": "2024",
+          "w": 1.82,
+          "note": "Alex Garland · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-i-saw-the-tv-glow",
+          "t": "I Saw the TV Glow",
+          "n": "2024",
+          "w": 1.67,
+          "note": "Jane Schoenbrun · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-the-sixth",
+          "t": "The Sixth",
+          "n": "2024",
+          "w": 1.77,
+          "note": "Andrea Nix Fine and Sean Fine · Produced by A24; video on demand release"
+        },
+        {
+          "id": "a24-2024-tuesday",
+          "t": "Tuesday",
+          "n": "2024",
+          "w": 1.85,
+          "note": "Daina O. Pusić · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-janet-planet",
+          "t": "Janet Planet",
+          "n": "2024",
+          "w": 1.88,
+          "note": "Annie Baker · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-maxxxine",
+          "t": "MaXXXine",
+          "n": "2024",
+          "w": 1.72,
+          "note": "Ti West · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-sing-sing",
+          "t": "Sing Sing",
+          "n": "2024",
+          "w": 1.75,
+          "note": "Greg Kwedar · U.S. distribution only"
+        },
+        {
+          "id": "a24-2024-the-front-room",
+          "t": "The Front Room",
+          "n": "2024",
+          "w": 1.57,
+          "note": "The Eggers Brothers · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-look-into-my-eyes",
+          "t": "Look into My Eyes",
+          "n": "2024",
+          "w": 1.8,
+          "note": "Lana Wilson · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-a-different-man",
+          "t": "A Different Man",
+          "n": "2024",
+          "w": 1.87,
+          "note": "Aaron Schimberg · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-the-last-of-the-sea-women",
+          "t": "The Last of the Sea Women",
+          "n": "2024",
+          "w": 1.45,
+          "note": "Sue Kim · Produced by A24; distributed by Apple TV+"
+        },
+        {
+          "id": "a24-2024-we-live-in-time",
+          "t": "We Live in Time",
+          "n": "2024",
+          "w": 1.78,
+          "note": "John Crowley · North American distribution only"
+        },
+        {
+          "id": "a24-2024-heretic",
+          "t": "Heretic",
+          "n": "2024",
+          "w": 1.83,
+          "note": "Scott Beck and Bryan Woods · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-queer",
+          "t": "Queer",
+          "n": "2024",
+          "w": 2.25,
+          "note": "Luca Guadagnino · U.S. distribution only"
+        },
+        {
+          "id": "a24-2024-y2k",
+          "t": "Y2K",
+          "n": "2024",
+          "w": 1.55,
+          "note": "Kyle Mooney · Also produced by A24"
+        },
+        {
+          "id": "a24-2024-the-brutalist",
+          "t": "The Brutalist",
+          "n": "2024",
+          "w": 3.58,
+          "note": "Brady Corbet · U.S. distribution only"
+        },
+        {
+          "id": "a24-2024-babygirl",
+          "t": "Babygirl",
+          "n": "2024",
+          "w": 1.9,
+          "note": "Halina Reijn · Also produced by A24"
+        }
+      ]
+    },
+    {
+      "id": "now",
+      "title": "Now and next",
+      "sub": "2025–2028 · 36 films · 52 hours",
+      "intro": "The current slate, through everything A24 has put a date on. Backrooms became the company's highest-grossing film; the rows marked below are not out yet.",
+      "items": [
+        {
+          "id": "a24-2025-parthenope",
+          "t": "Parthenope",
+          "n": "2025",
+          "w": 2.27,
+          "note": "Paolo Sorrentino · North American distribution only"
+        },
+        {
+          "id": "a24-2025-on-becoming-a-guinea-fowl",
+          "t": "On Becoming a Guinea Fowl",
+          "n": "2025",
+          "w": 1.65,
+          "note": "Rungano Nyoni · Also produced by A24"
+        },
+        {
+          "id": "a24-2025-opus",
+          "t": "Opus",
+          "n": "2025",
+          "w": 1.73,
+          "note": "Mark Anthony Green · Also produced by A24"
+        },
+        {
+          "id": "a24-2025-death-of-a-unicorn",
+          "t": "Death of a Unicorn",
+          "n": "2025",
+          "w": 1.73,
+          "note": "Alex Scharfman · Also produced by A24"
+        },
+        {
+          "id": "a24-2025-warfare",
+          "t": "Warfare",
+          "n": "2025",
+          "w": 1.58,
+          "note": "Ray Mendoza and Alex Garland · Also produced by A24"
+        },
+        {
+          "id": "a24-2025-the-legend-of-ochi",
+          "t": "The Legend of Ochi",
+          "n": "2025",
+          "w": 1.6,
+          "note": "Isaiah Saxon · Also produced by A24"
+        },
+        {
+          "id": "a24-2025-friendship",
+          "t": "Friendship",
+          "n": "2025",
+          "w": 1.67,
+          "note": "Andrew DeYoung · North American distribution only"
+        },
+        {
+          "id": "a24-2025-bring-her-back",
+          "t": "Bring Her Back",
+          "n": "2025",
+          "w": 1.73,
+          "note": "Danny and Michael Philippou"
+        },
+        {
+          "id": "a24-2025-materialists",
+          "t": "Materialists",
+          "n": "2025",
+          "w": 1.93,
+          "note": "Celine Song"
+        },
+        {
+          "id": "a24-2025-sorry-baby",
+          "t": "Sorry, Baby",
+          "n": "2025",
+          "w": 1.72,
+          "note": "Eva Victor"
+        },
+        {
+          "id": "a24-2025-eddington",
+          "t": "Eddington",
+          "n": "2025",
+          "w": 2.47,
+          "note": "Ari Aster · Also produced by A24"
+        },
+        {
+          "id": "a24-2025-architecton",
+          "t": "Architecton",
+          "n": "2025",
+          "w": 1.57,
+          "note": "Victor Kossakovsky · Also produced by A24"
+        },
+        {
+          "id": "a24-2025-highest-2-lowest",
+          "t": "Highest 2 Lowest",
+          "n": "2025",
+          "w": 2.22,
+          "note": "Spike Lee · Produced by A24; distributed by Apple TV+"
+        },
+        {
+          "id": "a24-2025-ne-zha-2",
+          "t": "Ne Zha 2",
+          "n": "2025",
+          "w": 2.4,
+          "note": "Jiaozi · English dubbed version; North American, Australian and New Zealand co-distribution with CMC Pictures only"
+        },
+        {
+          "id": "a24-2025-the-smashing-machine",
+          "t": "The Smashing Machine",
+          "n": "2025",
+          "w": 2.05,
+          "note": "Benny Safdie · Also produced by A24"
+        },
+        {
+          "id": "a24-2025-if-i-had-legs-i-d-kick-you",
+          "t": "If I Had Legs I'd Kick You",
+          "n": "2025",
+          "w": 1.88,
+          "note": "Mary Bronstein · Also produced by A24"
+        },
+        {
+          "id": "a24-2025-eternity",
+          "t": "Eternity",
+          "n": "2025",
+          "w": 1.9,
+          "note": "David Freyne · Also produced by A24"
+        },
+        {
+          "id": "a24-2025-marty-supreme",
+          "t": "Marty Supreme",
+          "n": "2025",
+          "w": 2.5,
+          "note": "Josh Safdie · Also produced by A24"
+        },
+        {
+          "id": "a24-2026-the-moment",
+          "t": "The Moment",
+          "n": "2026",
+          "w": 1.72,
+          "note": "Aidan Zamiri"
+        },
+        {
+          "id": "a24-2026-pillion",
+          "t": "Pillion",
+          "n": "2026",
+          "w": 1.77,
+          "note": "Harry Lighton · U.S. distribution only"
+        },
+        {
+          "id": "a24-2026-how-to-make-a-killing",
+          "t": "How to Make a Killing",
+          "n": "2026",
+          "w": 1.77,
+          "note": "John Patton Ford · U.S. distribution only"
+        },
+        {
+          "id": "a24-2026-andre-is-an-idiot",
+          "t": "André Is an Idiot",
+          "n": "2026",
+          "w": 1.47,
+          "note": "Tony Benna · Produced by A24; distributed by Joint Venture"
+        },
+        {
+          "id": "a24-2026-undertone",
+          "t": "Undertone",
+          "n": "2026",
+          "w": 0.0,
+          "note": "Ian Tuason"
+        },
+        {
+          "id": "a24-2026-marc-by-sofia",
+          "t": "Marc by Sofia",
+          "n": "2026",
+          "w": 1.62,
+          "note": "Sofia Coppola · Also produced by A24"
+        },
+        {
+          "id": "a24-2026-the-drama",
+          "t": "The Drama",
+          "n": "2026",
+          "w": 1.75,
+          "note": "Kristoffer Borgli · Also produced by A24"
+        },
+        {
+          "id": "a24-2026-mother-mary",
+          "t": "Mother Mary",
+          "n": "2026",
+          "w": 0.0,
+          "note": "David Lowery · Also produced by A24"
+        },
+        {
+          "id": "a24-2026-backrooms",
+          "t": "Backrooms",
+          "n": "2026",
+          "w": 1.83,
+          "note": "Kane Parsons"
+        },
+        {
+          "id": "a24-2026-the-death-of-robin-hood",
+          "t": "The Death of Robin Hood",
+          "n": "2026",
+          "w": 2.05,
+          "note": "Michael Sarnoski · North American distribution only"
+        },
+        {
+          "id": "a24-2026-the-invite",
+          "t": "The Invite",
+          "n": "2026",
+          "w": 1.78,
+          "note": "Olivia Wilde · U.S. distribution only"
+        },
+        {
+          "id": "a24-2026-tony",
+          "t": "Tony",
+          "n": "2026",
+          "w": 1.77,
+          "note": "Matt Johnson · Also produced by A24"
+        },
+        {
+          "id": "a24-2026-onslaught",
+          "t": "Onslaught",
+          "n": "2026",
+          "w": 0.0,
+          "note": "Adam Wingard · Also produced by A24 · Not out yet"
+        },
+        {
+          "id": "a24-2026-primetime",
+          "t": "Primetime",
+          "n": "2026",
+          "w": 0.0,
+          "note": "Lance Oppenheim · Also produced by A24 · Not out yet"
+        },
+        {
+          "id": "a24-2026-misty-green",
+          "t": "Misty Green",
+          "n": "2026",
+          "w": 0.0,
+          "note": "Chris Rock · Not out yet"
+        },
+        {
+          "id": "a24-2026-club-kid",
+          "t": "Club Kid",
+          "n": "2026",
+          "w": 0.0,
+          "note": "Jordan Firstman · Not out yet"
+        },
+        {
+          "id": "a24-2026-the-debut",
+          "t": "The Debut",
+          "n": "2026",
+          "w": 0.0,
+          "note": "Jesse Eisenberg · Not out yet"
+        },
+        {
+          "id": "a24-2028-elden-ring",
+          "t": "Elden Ring",
+          "n": "2028",
+          "w": 0.0,
+          "note": "Alex Garland · Also produced by A24 · Not out yet"
+        }
+      ]
+    }
+  ]
+}

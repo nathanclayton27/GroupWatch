@@ -1,0 +1,465 @@
+{
+  "slug": "stephen-king",
+  "title": "Stephen King",
+  "subtitle": "all 69 novels, Bachman included",
+  "kind": "books",
+  "order": 54,
+  "year": "1974–2026",
+  "blurb": "Every novel in publication order, Carrie to Other Worlds Than These — 69 of them, the seven Richard Bachman books included, each counting as one.",
+  "unit": {
+    "one": "novel",
+    "many": "novels"
+  },
+  "verb": {
+    "base": "read",
+    "past": "read",
+    "ing": "reading"
+  },
+  "accent": "#4A1F1F",
+  "accentDark": "#C97070",
+  "tiers": false,
+  "notes": [
+    [
+      "Novels only, as Wikipedia draws the line.",
+      "This is the bibliography's novels table, whole — 69 rows. Story collections, standalone novellas shelved elsewhere, nonfiction, children's books and graphic novels are out. A few short books the table counts as novels — Cycle of the Werewolf, Elevation, the Gwendy books — stay in because the table says so."
+    ],
+    [
+      "The Bachman books are here.",
+      "Seven novels came out under the pen name Richard Bachman; they sit in publication order with everything else, marked “as Richard Bachman”."
+    ],
+    [
+      "The Dark Tower is the spine.",
+      "Eight books, marked “Dark Tower N of 8”, read here in publication order. The eighth, The Wind Through the Keyhole, arrived last but sits between books 4 and 5 in the story."
+    ],
+    [
+      "The Stand appears twice.",
+      "The bibliography lists the 1990 Complete & Uncut Edition as its own row, so it is one here too — marked optional, since it is the 1978 novel restored rather than a new one."
+    ],
+    [
+      "Nothing is weighted.",
+      "An eleven-hundred-page novel and a slim one each count as one. Page counts differ by edition, and pretending to know the hours would be worse."
+    ],
+    "Titles, years and notes from Wikipedia's Stephen King bibliography — the novels table, verified against the article's own count of 69."
+  ],
+  "sections": [
+    {
+      "id": "d70",
+      "title": "The 1970s",
+      "sub": "1974–1979 · 7 novels · 2 as Bachman",
+      "items": [
+        {
+          "id": "king-1974-carrie",
+          "t": "Carrie",
+          "n": "1974"
+        },
+        {
+          "id": "king-1975-salems-lot",
+          "t": "'Salem's Lot",
+          "n": "1975"
+        },
+        {
+          "id": "king-1977-the-shining",
+          "t": "The Shining",
+          "n": "1977"
+        },
+        {
+          "id": "king-1977-rage",
+          "t": "Rage",
+          "n": "1977",
+          "note": "as Richard Bachman · out of print at the author's request"
+        },
+        {
+          "id": "king-1978-the-stand",
+          "t": "The Stand",
+          "n": "1978"
+        },
+        {
+          "id": "king-1979-the-long-walk",
+          "t": "The Long Walk",
+          "n": "1979",
+          "note": "as Richard Bachman"
+        },
+        {
+          "id": "king-1979-the-dead-zone",
+          "t": "The Dead Zone",
+          "n": "1979"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "d80",
+      "title": "The 1980s",
+      "sub": "1980–1989 · 16 novels · 3 as Bachman",
+      "items": [
+        {
+          "id": "king-1980-firestarter",
+          "t": "Firestarter",
+          "n": "1980"
+        },
+        {
+          "id": "king-1981-roadwork",
+          "t": "Roadwork",
+          "n": "1981",
+          "note": "as Richard Bachman"
+        },
+        {
+          "id": "king-1981-cujo",
+          "t": "Cujo",
+          "n": "1981"
+        },
+        {
+          "id": "king-1982-the-running-man",
+          "t": "The Running Man",
+          "n": "1982",
+          "note": "as Richard Bachman"
+        },
+        {
+          "id": "king-1982-the-dark-tower-the-gunslinger",
+          "t": "The Dark Tower: The Gunslinger",
+          "n": "1982",
+          "note": "Dark Tower 1 of 8"
+        },
+        {
+          "id": "king-1983-christine",
+          "t": "Christine",
+          "n": "1983"
+        },
+        {
+          "id": "king-1983-pet-sematary",
+          "t": "Pet Sematary",
+          "n": "1983"
+        },
+        {
+          "id": "king-1983-cycle-of-the-werewolf",
+          "t": "Cycle of the Werewolf",
+          "n": "1983",
+          "note": "Illustrated by Bernie Wrightson"
+        },
+        {
+          "id": "king-1984-the-talisman",
+          "t": "The Talisman",
+          "n": "1984",
+          "note": "Written with Peter Straub"
+        },
+        {
+          "id": "king-1984-the-eyes-of-the-dragon",
+          "t": "The Eyes of the Dragon",
+          "n": "1984",
+          "note": "First published as a limited edition in 1984, then for the mass market in 1987"
+        },
+        {
+          "id": "king-1984-thinner",
+          "t": "Thinner",
+          "n": "1984",
+          "note": "as Richard Bachman"
+        },
+        {
+          "id": "king-1986-it",
+          "t": "It",
+          "n": "1986"
+        },
+        {
+          "id": "king-1987-the-dark-tower-ii-the-drawing-of-the-three",
+          "t": "The Dark Tower II: The Drawing of the Three",
+          "n": "1987",
+          "note": "Dark Tower 2 of 8"
+        },
+        {
+          "id": "king-1987-misery",
+          "t": "Misery",
+          "n": "1987"
+        },
+        {
+          "id": "king-1987-the-tommyknockers",
+          "t": "The Tommyknockers",
+          "n": "1987"
+        },
+        {
+          "id": "king-1989-the-dark-half",
+          "t": "The Dark Half",
+          "n": "1989"
+        }
+      ]
+    },
+    {
+      "id": "d90",
+      "title": "The 1990s",
+      "sub": "1990–1999 · 13 novels · 1 as Bachman",
+      "items": [
+        {
+          "id": "king-1990-the-stand-the-complete-and-uncut-edition",
+          "t": "The Stand: The Complete and Uncut Edition",
+          "n": "1990",
+          "opt": 1,
+          "note": "The 1978 novel complete and uncut — its own row in the bibliography, optional here"
+        },
+        {
+          "id": "king-1991-the-dark-tower-iii-the-waste-lands",
+          "t": "The Dark Tower III: The Waste Lands",
+          "n": "1991",
+          "note": "Dark Tower 3 of 8"
+        },
+        {
+          "id": "king-1991-needful-things",
+          "t": "Needful Things",
+          "n": "1991"
+        },
+        {
+          "id": "king-1992-geralds-game",
+          "t": "Gerald's Game",
+          "n": "1992"
+        },
+        {
+          "id": "king-1992-dolores-claiborne",
+          "t": "Dolores Claiborne",
+          "n": "1992"
+        },
+        {
+          "id": "king-1994-insomnia",
+          "t": "Insomnia",
+          "n": "1994"
+        },
+        {
+          "id": "king-1995-rose-madder",
+          "t": "Rose Madder",
+          "n": "1995"
+        },
+        {
+          "id": "king-1996-the-green-mile",
+          "t": "The Green Mile",
+          "n": "1996"
+        },
+        {
+          "id": "king-1996-desperation",
+          "t": "Desperation",
+          "n": "1996",
+          "note": "Twin novel of The Regulators"
+        },
+        {
+          "id": "king-1996-the-regulators",
+          "t": "The Regulators",
+          "n": "1996",
+          "note": "as Richard Bachman · twin novel of Desperation"
+        },
+        {
+          "id": "king-1997-the-dark-tower-iv-wizard-and-glass",
+          "t": "The Dark Tower IV: Wizard and Glass",
+          "n": "1997",
+          "note": "Dark Tower 4 of 8"
+        },
+        {
+          "id": "king-1998-bag-of-bones",
+          "t": "Bag of Bones",
+          "n": "1998"
+        },
+        {
+          "id": "king-1999-the-girl-who-loved-tom-gordon",
+          "t": "The Girl Who Loved Tom Gordon",
+          "n": "1999"
+        }
+      ]
+    },
+    {
+      "id": "d00",
+      "title": "The 2000s",
+      "sub": "2001–2009 · 12 novels · 1 as Bachman",
+      "items": [
+        {
+          "id": "king-2001-dreamcatcher",
+          "t": "Dreamcatcher",
+          "n": "2001"
+        },
+        {
+          "id": "king-2001-black-house",
+          "t": "Black House",
+          "n": "2001",
+          "note": "Written with Peter Straub · sequel to The Talisman"
+        },
+        {
+          "id": "king-2002-from-a-buick-8",
+          "t": "From a Buick 8",
+          "n": "2002"
+        },
+        {
+          "id": "king-2003-the-dark-tower-v-wolves-of-the-calla",
+          "t": "The Dark Tower V: Wolves of the Calla",
+          "n": "2003",
+          "note": "Dark Tower 5 of 8"
+        },
+        {
+          "id": "king-2004-the-dark-tower-vi-song-of-susannah",
+          "t": "The Dark Tower VI: Song of Susannah",
+          "n": "2004",
+          "note": "Dark Tower 6 of 8"
+        },
+        {
+          "id": "king-2004-the-dark-tower-vii-the-dark-tower",
+          "t": "The Dark Tower VII: The Dark Tower",
+          "n": "2004",
+          "note": "Dark Tower 7 of 8"
+        },
+        {
+          "id": "king-2005-the-colorado-kid",
+          "t": "The Colorado Kid",
+          "n": "2005"
+        },
+        {
+          "id": "king-2006-cell",
+          "t": "Cell",
+          "n": "2006"
+        },
+        {
+          "id": "king-2006-liseys-story",
+          "t": "Lisey's Story",
+          "n": "2006"
+        },
+        {
+          "id": "king-2007-blaze",
+          "t": "Blaze",
+          "n": "2007",
+          "note": "as Richard Bachman"
+        },
+        {
+          "id": "king-2008-duma-key",
+          "t": "Duma Key",
+          "n": "2008"
+        },
+        {
+          "id": "king-2009-under-the-dome",
+          "t": "Under the Dome",
+          "n": "2009"
+        }
+      ]
+    },
+    {
+      "id": "d10",
+      "title": "The 2010s",
+      "sub": "2011–2019 · 13 novels",
+      "items": [
+        {
+          "id": "king-2011-11-22-63",
+          "t": "11/22/63",
+          "n": "2011"
+        },
+        {
+          "id": "king-2012-the-dark-tower-the-wind-through-the-keyhole",
+          "t": "The Dark Tower: The Wind Through the Keyhole",
+          "n": "2012",
+          "note": "Dark Tower 8 of 8 · set between books 4 and 5"
+        },
+        {
+          "id": "king-2013-joyland",
+          "t": "Joyland",
+          "n": "2013"
+        },
+        {
+          "id": "king-2013-doctor-sleep",
+          "t": "Doctor Sleep",
+          "n": "2013",
+          "note": "Sequel to The Shining"
+        },
+        {
+          "id": "king-2014-mr-mercedes",
+          "t": "Mr. Mercedes",
+          "n": "2014",
+          "note": "Bill Hodges 1 of 3"
+        },
+        {
+          "id": "king-2014-revival",
+          "t": "Revival",
+          "n": "2014"
+        },
+        {
+          "id": "king-2015-finders-keepers",
+          "t": "Finders Keepers",
+          "n": "2015",
+          "note": "Bill Hodges 2 of 3"
+        },
+        {
+          "id": "king-2016-end-of-watch",
+          "t": "End of Watch",
+          "n": "2016",
+          "note": "Bill Hodges 3 of 3"
+        },
+        {
+          "id": "king-2017-sleeping-beauties",
+          "t": "Sleeping Beauties",
+          "n": "2017",
+          "note": "Written with Owen King"
+        },
+        {
+          "id": "king-2017-gwendys-button-box",
+          "t": "Gwendy's Button Box",
+          "n": "2017",
+          "note": "Written with Richard Chizmar"
+        },
+        {
+          "id": "king-2018-the-outsider",
+          "t": "The Outsider",
+          "n": "2018"
+        },
+        {
+          "id": "king-2018-elevation",
+          "t": "Elevation",
+          "n": "2018"
+        },
+        {
+          "id": "king-2019-the-institute",
+          "t": "The Institute",
+          "n": "2019"
+        }
+      ]
+    },
+    {
+      "id": "d20",
+      "title": "The 2020s",
+      "sub": "2021–2026 · 8 novels",
+      "items": [
+        {
+          "id": "king-2021-later",
+          "t": "Later",
+          "n": "2021"
+        },
+        {
+          "id": "king-2021-billy-summers",
+          "t": "Billy Summers",
+          "n": "2021"
+        },
+        {
+          "id": "king-2022-gwendys-final-task",
+          "t": "Gwendy's Final Task",
+          "n": "2022",
+          "note": "Written with Richard Chizmar · the third Gwendy book"
+        },
+        {
+          "id": "king-2022-fairy-tale",
+          "t": "Fairy Tale",
+          "n": "2022"
+        },
+        {
+          "id": "king-2023-holly",
+          "t": "Holly",
+          "n": "2023"
+        },
+        {
+          "id": "king-2025-never-flinch",
+          "t": "Never Flinch",
+          "n": "2025"
+        },
+        {
+          "id": "king-2025-the-end-times",
+          "t": "The End Times",
+          "n": "2025–26",
+          "note": "Serialized, written with Benjamin Percy as Claudia Inez Bachman · collected edition due 2027"
+        },
+        {
+          "id": "king-2026-other-worlds-than-these",
+          "t": "Other Worlds Than These",
+          "n": "2026",
+          "note": "Written with Peter Straub · the third Talisman book"
+        }
+      ]
+    }
+  ]
+}

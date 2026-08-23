@@ -1,0 +1,376 @@
+{
+  "slug": "the-wire",
+  "title": "The Wire",
+  "subtitle": "every episode, one institution at a time",
+  "kind": "tv",
+  "order": 42,
+  "year": "2002–2008",
+  "blurb": "All 60 episodes in broadcast order — five seasons of Baltimore, a different institution each year.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#2E4A5F",
+  "accentDark": "#7FA8C9",
+  "tiers": false,
+  "notes": [
+    [
+      "Each season has a beat.",
+      "The street, the port, city hall, the schools, the paper — the section intros name the institution a season turns on and nothing more."
+    ],
+    [
+      "Nothing is weighted.",
+      "An episode counts as one — 60 equal marks."
+    ],
+    "Episode titles and airdates machine-read from the five Wikipedia season articles; every season's numbering is asserted complete before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "2002 · 13 episodes",
+      "intro": "The corners: the drug trade and the detail assigned to it.",
+      "items": [
+        {
+          "id": "wire-s1e1",
+          "t": "The Target",
+          "n": "1"
+        },
+        {
+          "id": "wire-s1e2",
+          "t": "The Detail",
+          "n": "2"
+        },
+        {
+          "id": "wire-s1e3",
+          "t": "The Buys",
+          "n": "3"
+        },
+        {
+          "id": "wire-s1e4",
+          "t": "Old Cases",
+          "n": "4"
+        },
+        {
+          "id": "wire-s1e5",
+          "t": "The Pager",
+          "n": "5"
+        },
+        {
+          "id": "wire-s1e6",
+          "t": "The Wire",
+          "n": "6"
+        },
+        {
+          "id": "wire-s1e7",
+          "t": "One Arrest",
+          "n": "7"
+        },
+        {
+          "id": "wire-s1e8",
+          "t": "Lessons",
+          "n": "8"
+        },
+        {
+          "id": "wire-s1e9",
+          "t": "Game Day",
+          "n": "9"
+        },
+        {
+          "id": "wire-s1e10",
+          "t": "The Cost",
+          "n": "10"
+        },
+        {
+          "id": "wire-s1e11",
+          "t": "The Hunt",
+          "n": "11"
+        },
+        {
+          "id": "wire-s1e12",
+          "t": "Cleaning Up",
+          "n": "12"
+        },
+        {
+          "id": "wire-s1e13",
+          "t": "Sentencing",
+          "n": "13"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "2003 · 12 episodes",
+      "intro": "The port: the docks and the union.",
+      "items": [
+        {
+          "id": "wire-s2e1",
+          "t": "Ebb Tide",
+          "n": "1"
+        },
+        {
+          "id": "wire-s2e2",
+          "t": "Collateral Damage",
+          "n": "2"
+        },
+        {
+          "id": "wire-s2e3",
+          "t": "Hot Shots",
+          "n": "3"
+        },
+        {
+          "id": "wire-s2e4",
+          "t": "Hard Cases",
+          "n": "4"
+        },
+        {
+          "id": "wire-s2e5",
+          "t": "Undertow",
+          "n": "5"
+        },
+        {
+          "id": "wire-s2e6",
+          "t": "All Prologue",
+          "n": "6"
+        },
+        {
+          "id": "wire-s2e7",
+          "t": "Backwash",
+          "n": "7"
+        },
+        {
+          "id": "wire-s2e8",
+          "t": "Duck and Cover",
+          "n": "8"
+        },
+        {
+          "id": "wire-s2e9",
+          "t": "Stray Rounds",
+          "n": "9"
+        },
+        {
+          "id": "wire-s2e10",
+          "t": "Storm Warnings",
+          "n": "10"
+        },
+        {
+          "id": "wire-s2e11",
+          "t": "Bad Dreams",
+          "n": "11"
+        },
+        {
+          "id": "wire-s2e12",
+          "t": "Port in a Storm",
+          "n": "12"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "2004 · 12 episodes",
+      "intro": "City hall: reform and the political machine.",
+      "items": [
+        {
+          "id": "wire-s3e1",
+          "t": "Time After Time",
+          "n": "1"
+        },
+        {
+          "id": "wire-s3e2",
+          "t": "All Due Respect",
+          "n": "2"
+        },
+        {
+          "id": "wire-s3e3",
+          "t": "Dead Soldiers",
+          "n": "3"
+        },
+        {
+          "id": "wire-s3e4",
+          "t": "Hamsterdam",
+          "n": "4"
+        },
+        {
+          "id": "wire-s3e5",
+          "t": "Straight and True",
+          "n": "5"
+        },
+        {
+          "id": "wire-s3e6",
+          "t": "Homecoming",
+          "n": "6"
+        },
+        {
+          "id": "wire-s3e7",
+          "t": "Back Burners",
+          "n": "7"
+        },
+        {
+          "id": "wire-s3e8",
+          "t": "Moral Midgetry",
+          "n": "8"
+        },
+        {
+          "id": "wire-s3e9",
+          "t": "Slapstick",
+          "n": "9"
+        },
+        {
+          "id": "wire-s3e10",
+          "t": "Reformation",
+          "n": "10"
+        },
+        {
+          "id": "wire-s3e11",
+          "t": "Middle Ground",
+          "n": "11"
+        },
+        {
+          "id": "wire-s3e12",
+          "t": "Mission Accomplished",
+          "n": "12"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Season 4",
+      "sub": "2006 · 13 episodes",
+      "intro": "The schools: the classrooms and the kids in them.",
+      "items": [
+        {
+          "id": "wire-s4e1",
+          "t": "Boys of Summer",
+          "n": "1"
+        },
+        {
+          "id": "wire-s4e2",
+          "t": "Soft Eyes",
+          "n": "2"
+        },
+        {
+          "id": "wire-s4e3",
+          "t": "Home Rooms",
+          "n": "3"
+        },
+        {
+          "id": "wire-s4e4",
+          "t": "Refugees",
+          "n": "4"
+        },
+        {
+          "id": "wire-s4e5",
+          "t": "Alliances",
+          "n": "5"
+        },
+        {
+          "id": "wire-s4e6",
+          "t": "Margin of Error",
+          "n": "6"
+        },
+        {
+          "id": "wire-s4e7",
+          "t": "Unto Others",
+          "n": "7"
+        },
+        {
+          "id": "wire-s4e8",
+          "t": "Corner Boys",
+          "n": "8"
+        },
+        {
+          "id": "wire-s4e9",
+          "t": "Know Your Place",
+          "n": "9"
+        },
+        {
+          "id": "wire-s4e10",
+          "t": "Misgivings",
+          "n": "10"
+        },
+        {
+          "id": "wire-s4e11",
+          "t": "A New Day",
+          "n": "11"
+        },
+        {
+          "id": "wire-s4e12",
+          "t": "That's Got His Own",
+          "n": "12"
+        },
+        {
+          "id": "wire-s4e13",
+          "t": "Final Grades",
+          "n": "13"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Season 5",
+      "sub": "2008 · 10 episodes",
+      "intro": "The paper: the newsroom covering all of it.",
+      "items": [
+        {
+          "id": "wire-s5e1",
+          "t": "More with Less",
+          "n": "1"
+        },
+        {
+          "id": "wire-s5e2",
+          "t": "Unconfirmed Reports",
+          "n": "2"
+        },
+        {
+          "id": "wire-s5e3",
+          "t": "Not for Attribution",
+          "n": "3"
+        },
+        {
+          "id": "wire-s5e4",
+          "t": "Transitions",
+          "n": "4"
+        },
+        {
+          "id": "wire-s5e5",
+          "t": "React Quotes",
+          "n": "5"
+        },
+        {
+          "id": "wire-s5e6",
+          "t": "The Dickensian Aspect",
+          "n": "6"
+        },
+        {
+          "id": "wire-s5e7",
+          "t": "Took",
+          "n": "7"
+        },
+        {
+          "id": "wire-s5e8",
+          "t": "Clarifications",
+          "n": "8"
+        },
+        {
+          "id": "wire-s5e9",
+          "t": "Late Editions",
+          "n": "9"
+        },
+        {
+          "id": "wire-s5e10",
+          "t": "-30-",
+          "n": "10"
+        }
+      ]
+    }
+  ]
+}

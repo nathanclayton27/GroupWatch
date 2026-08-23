@@ -1,0 +1,604 @@
+{
+  "slug": "columbo",
+  "title": "Columbo",
+  "subtitle": "every case in broadcast order, pilots included",
+  "kind": "tv movies",
+  "order": 37,
+  "year": "1968–2003",
+  "blurb": "All 69 feature-length cases in broadcast order — two pilots, the NBC seventies, and the ABC revival films.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#8A7B5C",
+  "accentDark": "#D9C9A3",
+  "tiers": false,
+  "notes": [
+    [
+      "The killer is not a spoiler.",
+      "Columbo is an inverted mystery — every episode opens on the murder and the murderer, and the fun is watching the trap close. The source tables lead with the guest star for the same reason, so each row names its murderer."
+    ],
+    [
+      "Weights are real runtimes.",
+      "Every row carries the runtime from Wikipedia's episode tables, read as hours — a 70-minute Mystery Movie entry and a 94-minute pilot earn their width. No row falls back on a slot-length convention."
+    ],
+    [
+      "Grouped as the source groups it.",
+      "Wikipedia arranges the list as the UK DVD release does: the two pilots, seasons 1–7 on NBC, the two ABC Mystery Movie seasons, and the final fourteen specials of 1990–2003 filed as season 10."
+    ],
+    "Titles, airdates, runtimes and murderers machine-read from Wikipedia's List of Columbo episodes and the ten season articles it transcludes; the 69-episode total is asserted against the list's own series overview."
+  ],
+  "sections": [
+    {
+      "id": "pilots",
+      "title": "The pilots",
+      "sub": "1968 & 1971 · 2 episodes",
+      "intro": "Prescription: Murder began as a stage play; Peter Falk played Columbo twice, three years apart, before NBC ordered a series.",
+      "open": true,
+      "items": [
+        {
+          "id": "columbo-1",
+          "t": "Prescription: Murder",
+          "n": "1968",
+          "note": "Murderer: Gene Barry as Ray Flemming",
+          "w": 1.57
+        },
+        {
+          "id": "columbo-2",
+          "t": "Ransom for a Dead Man",
+          "n": "1971",
+          "note": "Murderer: Lee Grant as Leslie Williams",
+          "w": 1.53
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "1971–72 · 7 episodes",
+      "items": [
+        {
+          "id": "columbo-3",
+          "t": "Murder by the Book",
+          "n": "1",
+          "note": "Murderer: Jack Cassidy as Ken Franklin",
+          "w": 1.2
+        },
+        {
+          "id": "columbo-4",
+          "t": "Death Lends a Hand",
+          "n": "2",
+          "note": "Murderer: Robert Culp as Investigator Brimmer",
+          "w": 1.2
+        },
+        {
+          "id": "columbo-5",
+          "t": "Dead Weight",
+          "n": "3",
+          "note": "Murderer: Eddie Albert as Martin Hollister",
+          "w": 1.2
+        },
+        {
+          "id": "columbo-6",
+          "t": "Suitable for Framing",
+          "n": "4",
+          "note": "Murderer: Ross Martin as Dale Kingston and Rosanna Huffman as Tracy O'Connor",
+          "w": 1.2
+        },
+        {
+          "id": "columbo-7",
+          "t": "Lady in Waiting",
+          "n": "5",
+          "note": "Murderer: Susan Clark as Beth Chadwick",
+          "w": 1.2
+        },
+        {
+          "id": "columbo-8",
+          "t": "Short Fuse",
+          "n": "6",
+          "note": "Murderer: Roddy McDowall as Roger Stanford",
+          "w": 1.2
+        },
+        {
+          "id": "columbo-9",
+          "t": "Blueprint for Murder",
+          "n": "7",
+          "note": "Murderer: Patrick O'Neal as Elliot Markham",
+          "w": 1.18
+        }
+      ],
+      "intro": "The series proper: feature-length films in rotation as one element of The NBC Mystery Movie, 1971 to 1978."
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "1972–73 · 8 episodes",
+      "items": [
+        {
+          "id": "columbo-10",
+          "t": "Étude in Black",
+          "n": "1",
+          "note": "Murderer: John Cassavetes as Alex Benedict",
+          "w": 1.52
+        },
+        {
+          "id": "columbo-11",
+          "t": "The Greenhouse Jungle",
+          "n": "2",
+          "note": "Murderer: Ray Milland as Jarvis Goodland",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-12",
+          "t": "The Most Crucial Game",
+          "n": "3",
+          "note": "Murderer: Robert Culp as Paul Hanlon",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-13",
+          "t": "Dagger of the Mind",
+          "n": "4",
+          "note": "Murderer: Richard Basehart as Nicholas Frame and Honor Blackman as Lillian Stanhope",
+          "w": 1.53
+        },
+        {
+          "id": "columbo-14",
+          "t": "Requiem for a Falling Star",
+          "n": "5",
+          "note": "Murderer: Anne Baxter as Nora Chandler",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-15",
+          "t": "A Stitch in Crime",
+          "n": "6",
+          "note": "Murderer: Leonard Nimoy as Barry Mayfield",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-16",
+          "t": "The Most Dangerous Match",
+          "n": "7",
+          "note": "Murderer: Laurence Harvey as Emmett Clayton",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-17",
+          "t": "Double Shock",
+          "n": "8",
+          "note": "Murderer: Martin Landau in a dual role as Dexter Paris and Norman Paris",
+          "w": 1.17
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "1973–74 · 8 episodes",
+      "items": [
+        {
+          "id": "columbo-18",
+          "t": "Lovely but Lethal",
+          "n": "1",
+          "note": "Murderer: Vera Miles as Viveca Scott",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-19",
+          "t": "Any Old Port in a Storm",
+          "n": "2",
+          "note": "Murderer: Donald Pleasence as Adrian Carsini",
+          "w": 1.52
+        },
+        {
+          "id": "columbo-20",
+          "t": "Candidate for Crime",
+          "n": "3",
+          "note": "Murderer: Jackie Cooper as Nelson Hayward",
+          "w": 1.57
+        },
+        {
+          "id": "columbo-21",
+          "t": "Double Exposure",
+          "n": "4",
+          "note": "Murderer: Robert Culp as Bart Keppel",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-22",
+          "t": "Publish or Perish",
+          "n": "5",
+          "note": "Murderer: Jack Cassidy as Riley Greenleaf and John Chandler as Eddie Kane",
+          "w": 1.18
+        },
+        {
+          "id": "columbo-23",
+          "t": "Mind Over Mayhem",
+          "n": "6",
+          "note": "Murderer: José Ferrer as Marshall Cahill",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-24",
+          "t": "Swan Song",
+          "n": "7",
+          "note": "Murderer: Johnny Cash as Tommy Brown",
+          "w": 1.57
+        },
+        {
+          "id": "columbo-25",
+          "t": "A Friend in Deed",
+          "n": "8",
+          "note": "Murderer: Richard Kiley as Mark Halperin and Michael McGuire as Hugh Caldwell",
+          "w": 1.57
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Season 4",
+      "sub": "1974–75 · 6 episodes",
+      "items": [
+        {
+          "id": "columbo-26",
+          "t": "An Exercise in Fatality",
+          "n": "1",
+          "note": "Murderer: Robert Conrad as Milo Janus",
+          "w": 1.57
+        },
+        {
+          "id": "columbo-27",
+          "t": "Negative Reaction",
+          "n": "2",
+          "note": "Murderer: Dick Van Dyke as Paul Galesko",
+          "w": 1.52
+        },
+        {
+          "id": "columbo-28",
+          "t": "By Dawn's Early Light",
+          "n": "3",
+          "note": "Murderer: Patrick McGoohan as Lyle Rumford",
+          "w": 1.57
+        },
+        {
+          "id": "columbo-29",
+          "t": "Troubled Waters",
+          "n": "4",
+          "note": "Murderer: Robert Vaughn as Hayden Danzinger",
+          "w": 1.55
+        },
+        {
+          "id": "columbo-30",
+          "t": "Playback",
+          "n": "5",
+          "note": "Murderer: Oskar Werner as Harold van Wick",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-31",
+          "t": "A Deadly State of Mind",
+          "n": "6",
+          "note": "Murderer: George Hamilton as Mark Collier",
+          "w": 1.17
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Season 5",
+      "sub": "1975–76 · 6 episodes",
+      "items": [
+        {
+          "id": "columbo-32",
+          "t": "Forgotten Lady",
+          "n": "1",
+          "note": "Murderer: Janet Leigh as Grace Wheeler",
+          "w": 1.55
+        },
+        {
+          "id": "columbo-33",
+          "t": "A Case of Immunity",
+          "n": "2",
+          "note": "Murderer: Héctor Elizondo as Hassan Salah and Sal Mineo as Rachman Habib",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-34",
+          "t": "Identity Crisis",
+          "n": "3",
+          "note": "Murderer: Patrick McGoohan as Nelson Brenner",
+          "w": 1.55
+        },
+        {
+          "id": "columbo-35",
+          "t": "A Matter of Honor",
+          "n": "4",
+          "note": "Murderer: Ricardo Montalbán as Luis Montoya",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-36",
+          "t": "Now You See Him...",
+          "n": "5",
+          "note": "Murderer: Jack Cassidy as Stefan Mueller",
+          "w": 1.42
+        },
+        {
+          "id": "columbo-37",
+          "t": "Last Salute to the Commodore",
+          "n": "6",
+          "note": "Murderer: Fred Draper as Swanny Swanson",
+          "w": 1.52
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Season 6",
+      "sub": "1976–77 · 3 episodes",
+      "items": [
+        {
+          "id": "columbo-38",
+          "t": "Fade in to Murder",
+          "n": "1",
+          "note": "Murderer: William Shatner as Ward Fowler",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-39",
+          "t": "Old Fashioned Murder",
+          "n": "2",
+          "note": "Murderer: Joyce Van Patten as Ruth Lytton",
+          "w": 1.2
+        },
+        {
+          "id": "columbo-40",
+          "t": "The Bye-Bye Sky High I.Q. Murder Case",
+          "n": "3",
+          "note": "Murderer: Theodore Bikel as Oliver Brandt",
+          "w": 1.17
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Season 7",
+      "sub": "1977–78 · 5 episodes",
+      "items": [
+        {
+          "id": "columbo-41",
+          "t": "Try and Catch Me",
+          "n": "1",
+          "note": "Murderer: Ruth Gordon as Abigail Mitchell",
+          "w": 1.17
+        },
+        {
+          "id": "columbo-42",
+          "t": "Murder Under Glass",
+          "n": "2",
+          "note": "Murderer: Louis Jourdan as Paul Gerard",
+          "w": 1.22
+        },
+        {
+          "id": "columbo-43",
+          "t": "Make Me a Perfect Murder",
+          "n": "3",
+          "note": "Murderer: Trish Van Devere as Kay Freestone",
+          "w": 1.62
+        },
+        {
+          "id": "columbo-44",
+          "t": "How to Dial a Murder",
+          "n": "4",
+          "note": "Murderer: Nicol Williamson as Eric Mason",
+          "w": 1.22
+        },
+        {
+          "id": "columbo-45",
+          "t": "The Conspirators",
+          "n": "5",
+          "note": "Murderer: Clive Revill as Joe Devlin",
+          "w": 1.55
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Season 8",
+      "sub": "1989 · 4 episodes",
+      "items": [
+        {
+          "id": "columbo-46",
+          "t": "Columbo Goes to the Guillotine",
+          "n": "1",
+          "note": "Murderer: Anthony Andrews as Elliott Blake",
+          "w": 1.47
+        },
+        {
+          "id": "columbo-47",
+          "t": "Murder, Smoke and Shadows",
+          "n": "2",
+          "note": "Murderer: Fisher Stevens as Alex Brady",
+          "w": 1.5
+        },
+        {
+          "id": "columbo-48",
+          "t": "Sex and the Married Detective",
+          "n": "3",
+          "note": "Murderer: Lindsay Crouse as Joan Allenby",
+          "w": 1.5
+        },
+        {
+          "id": "columbo-49",
+          "t": "Grand Deceptions",
+          "n": "4",
+          "note": "Murderer: Robert Foxworth as Frank Brailie",
+          "w": 1.5
+        }
+      ],
+      "intro": "Eleven years after NBC dropped it, ABC brought Falk back as part of The ABC Mystery Movie."
+    },
+    {
+      "id": "s9",
+      "title": "Season 9",
+      "sub": "1989–90 · 6 episodes",
+      "items": [
+        {
+          "id": "columbo-50",
+          "t": "Murder: A Self Portrait",
+          "n": "1",
+          "note": "Murderer: Patrick Bauchau as Max Barsini",
+          "w": 1.47
+        },
+        {
+          "id": "columbo-51",
+          "t": "Columbo Cries Wolf",
+          "n": "2",
+          "note": "Murderer: Ian Buchanan as Sean Brantley",
+          "w": 1.53
+        },
+        {
+          "id": "columbo-52",
+          "t": "Agenda for Murder",
+          "n": "3",
+          "note": "Murderer: Patrick McGoohan as Oscar Finch",
+          "w": 1.53
+        },
+        {
+          "id": "columbo-53",
+          "t": "Rest in Peace, Mrs. Columbo",
+          "n": "4",
+          "note": "Murderer: Helen Shaver as Vivian Dimitri",
+          "w": 1.55
+        },
+        {
+          "id": "columbo-54",
+          "t": "Uneasy Lies the Crown",
+          "n": "5",
+          "note": "Murderer: James Read as Wesley Corman",
+          "w": 1.53
+        },
+        {
+          "id": "columbo-55",
+          "t": "Murder in Malibu",
+          "n": "6",
+          "note": "Murderer: Andrew Stevens as Wayne Jennings",
+          "w": 1.5
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Season 10 and specials",
+      "sub": "1990–2003 · 14 episodes",
+      "items": [
+        {
+          "id": "columbo-56",
+          "t": "Columbo Goes to College",
+          "n": "1",
+          "note": "1990 · Murderer: Stephen Caffrey as Justin Rowe and Gary Hershberger as Cooper Redman",
+          "w": 1.48
+        },
+        {
+          "id": "columbo-57",
+          "t": "Caution: Murder Can Be Hazardous to Your Health",
+          "n": "2",
+          "note": "1991 · Murderer: George Hamilton as Wade Anders",
+          "w": 1.43
+        },
+        {
+          "id": "columbo-58",
+          "t": "Columbo and the Murder of a Rock Star",
+          "n": "3",
+          "note": "1991 · Murderer: Dabney Coleman as Hugh Creighton",
+          "w": 1.52
+        },
+        {
+          "id": "columbo-59",
+          "t": "Death Hits the Jackpot",
+          "n": "4",
+          "note": "1991 · Murderer: Rip Torn as Leon Lamarr and Jamie Rose as Nancy Brower",
+          "w": 1.53
+        },
+        {
+          "id": "columbo-60",
+          "t": "No Time to Die",
+          "n": "5",
+          "note": "1992 · No murderer. Daniel McDonald plays the kidnapper Rudy Strassa.",
+          "w": 1.45
+        },
+        {
+          "id": "columbo-61",
+          "t": "A Bird in the Hand...",
+          "n": "6",
+          "note": "1992 · Murderer: Tyne Daly as Dolores McCain and Greg Evigan as Harold McCain",
+          "w": 1.48
+        },
+        {
+          "id": "columbo-62",
+          "t": "It's All in the Game",
+          "n": "7",
+          "note": "1993 · Murderer: Faye Dunaway as Lauren Staton and Claudia Christian as Lisa Martin",
+          "w": 1.52
+        },
+        {
+          "id": "columbo-63",
+          "t": "Butterfly in Shades of Grey",
+          "n": "8",
+          "note": "1994 · Murderer: William Shatner as Fielding Chase",
+          "w": 1.47
+        },
+        {
+          "id": "columbo-64",
+          "t": "Undercover",
+          "n": "9",
+          "note": "1994 · Murderer: Ed Begley Jr. as Irving Krutch (Jon Beshara and an uncredited actor also portray two characters who kill each other)",
+          "w": 1.48
+        },
+        {
+          "id": "columbo-65",
+          "t": "Strange Bedfellows",
+          "n": "10",
+          "note": "1995 · Murderer: George Wendt as Graham McVeigh",
+          "w": 1.48
+        },
+        {
+          "id": "columbo-66",
+          "t": "A Trace of Murder",
+          "n": "11",
+          "note": "1997 · Murderer: David Rasche as Patrick Kinsley and Shera Danese as Cathleen Calvert",
+          "w": 1.47
+        },
+        {
+          "id": "columbo-67",
+          "t": "Ashes to Ashes",
+          "n": "12",
+          "note": "1998 · Murderer: Patrick McGoohan as Eric Prince",
+          "w": 1.43
+        },
+        {
+          "id": "columbo-68",
+          "t": "Murder with Too Many Notes",
+          "n": "13",
+          "note": "2001 · Murderer: Billy Connolly as Findlay Crawford",
+          "w": 1.42
+        },
+        {
+          "id": "columbo-69",
+          "t": "Columbo Likes the Nightlife",
+          "n": "14",
+          "note": "2003 · Murderer: Matthew Rhys as Justin Price and Jennifer Sky as Vanessa Farrow",
+          "w": 1.4
+        }
+      ],
+      "intro": "The last fourteen aired sporadically across thirteen years. DVD releases file them as a tenth season, and the source list follows suit."
+    }
+  ]
+}

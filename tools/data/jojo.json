@@ -1,0 +1,774 @@
+{
+ "pb": [
+  {
+   "o": 1,
+   "t": "Dio the Invader"
+  },
+  {
+   "o": 2,
+   "t": "A Letter from the Past"
+  },
+  {
+   "o": 3,
+   "t": "Youth with Dio"
+  },
+  {
+   "o": 4,
+   "t": "Overdrive"
+  },
+  {
+   "o": 5,
+   "t": "The Dark Knights"
+  },
+  {
+   "o": 6,
+   "t": "Tomorrow's Courage"
+  },
+  {
+   "o": 7,
+   "t": "Sorrowful Successor"
+  },
+  {
+   "o": 8,
+   "t": "Bloody Battle! JoJo & Dio"
+  },
+  {
+   "o": 9,
+   "t": "The Final Ripple!"
+  }
+ ],
+ "bt": [
+  {
+   "o": 10,
+   "t": "New York's JoJo"
+  },
+  {
+   "o": 11,
+   "t": "The Game Master"
+  },
+  {
+   "o": 12,
+   "t": "The Pillar Man"
+  },
+  {
+   "o": 13,
+   "t": "JoJo vs. the Ultimate Lifeform"
+  },
+  {
+   "o": 14,
+   "t": "Ultimate Warriors from Ancient Times"
+  },
+  {
+   "o": 15,
+   "t": "A Hero's Proof"
+  },
+  {
+   "o": 16,
+   "t": "Lisa Lisa, Hamon Coach"
+  },
+  {
+   "o": 17,
+   "t": "The Deeper Plan"
+  },
+  {
+   "o": 18,
+   "t": "Von Stroheim's Revenge"
+  },
+  {
+   "o": 19,
+   "t": "A Race Toward the Brink"
+  },
+  {
+   "o": 20,
+   "t": "Young Caesar"
+  },
+  {
+   "o": 21,
+   "t": "A Hundred Against Two"
+  },
+  {
+   "o": 22,
+   "t": "A True Warrior"
+  },
+  {
+   "o": 23,
+   "t": "The Warrior of Wind"
+  },
+  {
+   "o": 24,
+   "t": "The Ties That Bind JoJo"
+  },
+  {
+   "o": 25,
+   "t": "The Birth of a Superbeing"
+  },
+  {
+   "o": 26,
+   "t": "The Ascendant One"
+  }
+ ],
+ "sc": [
+  {
+   "o": 27,
+   "t": "The Man Possessed by an Evil Spirit"
+  },
+  {
+   "o": 28,
+   "t": "Who Will Be the Judge!?"
+  },
+  {
+   "o": 29,
+   "t": "The Curse of Dio"
+  },
+  {
+   "o": 30,
+   "t": "Tower of Gray"
+  },
+  {
+   "o": 31,
+   "t": "Silver Chariot"
+  },
+  {
+   "o": 32,
+   "t": "Dark Blue Moon"
+  },
+  {
+   "o": 33,
+   "t": "Strength"
+  },
+  {
+   "o": 34,
+   "t": "The Devil"
+  },
+  {
+   "o": 35,
+   "t": "Yellow Temperance"
+  },
+  {
+   "o": 36,
+   "t": "The Emperor and the Hanged Man, Part 1"
+  },
+  {
+   "o": 37,
+   "t": "The Emperor and the Hanged Man, Part 2"
+  },
+  {
+   "o": 38,
+   "t": "The Empress"
+  },
+  {
+   "o": 39,
+   "t": "Wheel of Fortune"
+  },
+  {
+   "o": 40,
+   "t": "Justice, Part 1"
+  },
+  {
+   "o": 41,
+   "t": "Justice, Part 2"
+  },
+  {
+   "o": 42,
+   "t": "The Lovers, Part 1"
+  },
+  {
+   "o": 43,
+   "t": "The Lovers, Part 2"
+  },
+  {
+   "o": 44,
+   "t": "The Sun"
+  },
+  {
+   "o": 45,
+   "t": "Death 13, Part 1"
+  },
+  {
+   "o": 46,
+   "t": "Death 13, Part 2"
+  },
+  {
+   "o": 47,
+   "t": "Judgement, Part 1"
+  },
+  {
+   "o": 48,
+   "t": "Judgement, Part 2"
+  },
+  {
+   "o": 49,
+   "t": "High Priestess, Part 1"
+  },
+  {
+   "o": 50,
+   "t": "High Priestess, Part 2"
+  },
+  {
+   "o": 51,
+   "t": "Iggy the Fool and Geb's N'Doul, Part 1"
+  },
+  {
+   "o": 52,
+   "t": "Iggy the Fool and Geb's N'Doul, Part 2"
+  },
+  {
+   "o": 53,
+   "t": "Khnum's Oingo and Thoth's Boingo"
+  },
+  {
+   "o": 54,
+   "t": "Anubis, Part 1"
+  },
+  {
+   "o": 55,
+   "t": "Anubis, Part 2"
+  },
+  {
+   "o": 56,
+   "t": "Bastet's Mariah, Part 1"
+  },
+  {
+   "o": 57,
+   "t": "Bastet's Mariah, Part 2"
+  },
+  {
+   "o": 58,
+   "t": "Set's Alessi, Part 1"
+  },
+  {
+   "o": 59,
+   "t": "Set's Alessi, Part 2"
+  },
+  {
+   "o": 60,
+   "t": "D'Arby the Gambler, Part 1"
+  },
+  {
+   "o": 61,
+   "t": "D'Arby the Gambler, Part 2"
+  },
+  {
+   "o": 62,
+   "t": "Hol Horse and Boingo, Part 1"
+  },
+  {
+   "o": 63,
+   "t": "Hol Horse and Boingo, Part 2"
+  },
+  {
+   "o": 64,
+   "t": "The Guardian of Hell, Pet Shop, Part 1"
+  },
+  {
+   "o": 65,
+   "t": "The Guardian of Hell, Pet Shop, Part 2"
+  },
+  {
+   "o": 66,
+   "t": "D'Arby the Player, Part 1"
+  },
+  {
+   "o": 67,
+   "t": "D'Arby the Player, Part 2"
+  },
+  {
+   "o": 68,
+   "t": "The Miasma of the Void, Vanilla Ice, Part 1"
+  },
+  {
+   "o": 69,
+   "t": "The Miasma of the Void, Vanilla Ice, Part 2"
+  },
+  {
+   "o": 70,
+   "t": "The Miasma of the Void, Vanilla Ice, Part 3"
+  },
+  {
+   "o": 71,
+   "t": "Dio's World, Part 1"
+  },
+  {
+   "o": 72,
+   "t": "Dio's World, Part 2"
+  },
+  {
+   "o": 73,
+   "t": "Dio's World, Part 3"
+  },
+  {
+   "o": 74,
+   "t": "Long Journey Farewell, My Friends"
+  }
+ ],
+ "diu": [
+  {
+   "o": 75,
+   "t": "Jotaro Kujo! Meets Josuke Higashikata"
+  },
+  {
+   "o": 76,
+   "t": "Josuke Higashikata! Meets Angelo"
+  },
+  {
+   "o": 77,
+   "t": "The Nijimura Brothers, Part 1"
+  },
+  {
+   "o": 78,
+   "t": "The Nijimura Brothers, Part 2"
+  },
+  {
+   "o": 79,
+   "t": "The Nijimura Brothers, Part 3"
+  },
+  {
+   "o": 80,
+   "t": "Koichi Hirose (Echoes)"
+  },
+  {
+   "o": 81,
+   "t": "Toshikazu Hazamada (Surface)"
+  },
+  {
+   "o": 82,
+   "t": "Yukako Yamagishi Falls in Love, Part 1"
+  },
+  {
+   "o": 83,
+   "t": "Yukako Yamagishi Falls in Love, Part 2"
+  },
+  {
+   "o": 84,
+   "t": "Let's Go Eat Some Italian Food"
+  },
+  {
+   "o": 85,
+   "t": "Red Hot Chili Pepper, Part 1"
+  },
+  {
+   "o": 86,
+   "t": "Red Hot Chili Pepper, Part 2"
+  },
+  {
+   "o": 87,
+   "t": "We Picked Up Something Crazy!"
+  },
+  {
+   "o": 88,
+   "t": "Let's Go to the Manga Artist's House, Part 1"
+  },
+  {
+   "o": 89,
+   "t": "Let's Go to the Manga Artist's House, Part 2"
+  },
+  {
+   "o": 90,
+   "t": "Let's Go Hunting!"
+  },
+  {
+   "o": 91,
+   "t": "Rohan Kishibe's Adventure"
+  },
+  {
+   "o": 92,
+   "t": "Shigechi's Harvest, Part 1"
+  },
+  {
+   "o": 93,
+   "t": "Shigechi's Harvest, Part 2"
+  },
+  {
+   "o": 94,
+   "t": "Yukako Yamagishi Dreams of Cinderella"
+  },
+  {
+   "o": 95,
+   "t": "Yoshikage Kira Just Wants to Live Quietly, Part 1"
+  },
+  {
+   "o": 96,
+   "t": "Yoshikage Kira Just Wants to Live Quietly, Part 2"
+  },
+  {
+   "o": 97,
+   "t": "Sheer Heart Attack, Part 1"
+  },
+  {
+   "o": 98,
+   "t": "Sheer Heart Attack, Part 2"
+  },
+  {
+   "o": 99,
+   "t": "Atom Heart Father"
+  },
+  {
+   "o": 100,
+   "t": "Janken Boy Is Coming!"
+  },
+  {
+   "o": 101,
+   "t": "I'm an Alien"
+  },
+  {
+   "o": 102,
+   "t": "Highway Star, Part 1"
+  },
+  {
+   "o": 103,
+   "t": "Highway Star, Part 2"
+  },
+  {
+   "o": 104,
+   "t": "Cats Love Yoshikage Kira"
+  },
+  {
+   "o": 105,
+   "t": "July 15th (Thursday), Part 1"
+  },
+  {
+   "o": 106,
+   "t": "July 15th (Thursday), Part 2"
+  },
+  {
+   "o": 107,
+   "t": "July 15th (Thursday), Part 3"
+  },
+  {
+   "o": 108,
+   "t": "July 15th (Thursday), Part 4"
+  },
+  {
+   "o": 109,
+   "t": "Another One Bites the Dust, Part 1"
+  },
+  {
+   "o": 110,
+   "t": "Another One Bites the Dust, Part 2"
+  },
+  {
+   "o": 111,
+   "t": "Crazy D (Diamond) is Unbreakable, Part 1"
+  },
+  {
+   "o": 112,
+   "t": "Crazy D (Diamond) is Unbreakable, Part 2"
+  },
+  {
+   "o": 113,
+   "t": "Goodbye, Morioh - The Heart of Gold"
+  }
+ ],
+ "gw": [
+  {
+   "o": 114,
+   "t": "Gold Experience"
+  },
+  {
+   "o": 115,
+   "t": "Bucciarati Is Coming"
+  },
+  {
+   "o": 116,
+   "t": "Meet the Gangster Behind the Wall"
+  },
+  {
+   "o": 117,
+   "t": "Joining the Gang"
+  },
+  {
+   "o": 118,
+   "t": "Find Polpo's Fortune!"
+  },
+  {
+   "o": 119,
+   "t": "Moody Blues' Counterattack"
+  },
+  {
+   "o": 120,
+   "t": "Sex Pistols Appears, Part 1"
+  },
+  {
+   "o": 121,
+   "t": "Sex Pistols Appears, Part 2"
+  },
+  {
+   "o": 122,
+   "t": "The First Mission from the Boss"
+  },
+  {
+   "o": 123,
+   "t": "Hitman Team"
+  },
+  {
+   "o": 124,
+   "t": "Narancia's Aerosmith"
+  },
+  {
+   "o": 125,
+   "t": "The Second Mission from the Boss"
+  },
+  {
+   "o": 126,
+   "t": "Man in the Mirror and Purple Haze"
+  },
+  {
+   "o": 127,
+   "t": "Express Train to Florence"
+  },
+  {
+   "o": 128,
+   "t": "The Grateful Dead, Part 1"
+  },
+  {
+   "o": 129,
+   "t": "The Grateful Dead, Part 2"
+  },
+  {
+   "o": 130,
+   "t": "Baby Face"
+  },
+  {
+   "o": 131,
+   "t": "Head to Venice!"
+  },
+  {
+   "o": 132,
+   "t": "White Album"
+  },
+  {
+   "o": 133,
+   "t": "The Final Mission from the Boss"
+  },
+  {
+   "o": 134,
+   "t": "The Mystery of King Crimson"
+  },
+  {
+   "o": 135,
+   "t": "The 'G' in Guts"
+  },
+  {
+   "o": 136,
+   "t": "Clash and Talking Head"
+  },
+  {
+   "o": 137,
+   "t": "Notorious B.I.G"
+  },
+  {
+   "o": 138,
+   "t": "Spice Girl"
+  },
+  {
+   "o": 139,
+   "t": "A Little Story From The Past ~My Name Is Doppio~"
+  },
+  {
+   "o": 140,
+   "t": "King Crimson vs. Metallica"
+  },
+  {
+   "o": 141,
+   "t": "Beneath a Sky on the Verge of Falling"
+  },
+  {
+   "o": 142,
+   "t": "Get to the Roman Colosseum!"
+  },
+  {
+   "o": 143,
+   "t": "Green Day and Oasis, Part 1"
+  },
+  {
+   "o": 144,
+   "t": "Green Day and Oasis, Part 2"
+  },
+  {
+   "o": 145,
+   "t": "Green Day and Oasis, Part 3"
+  },
+  {
+   "o": 146,
+   "t": "His Name Is Diavolo"
+  },
+  {
+   "o": 147,
+   "t": "The Requiem Quietly Plays, Part 1"
+  },
+  {
+   "o": 148,
+   "t": "The Requiem Quietly Plays, Part 2"
+  },
+  {
+   "o": 149,
+   "t": "Diavolo Surfaces"
+  },
+  {
+   "o": 150,
+   "t": "King of Kings"
+  },
+  {
+   "o": 151,
+   "t": "Gold Experience Requiem"
+  },
+  {
+   "o": 152,
+   "t": "The Sleeping Slave"
+  }
+ ],
+ "so": [
+  {
+   "o": 153,
+   "t": "Stone Ocean"
+  },
+  {
+   "o": 154,
+   "t": "Stone Free"
+  },
+  {
+   "o": 155,
+   "t": "The Visitor (1)"
+  },
+  {
+   "o": 156,
+   "t": "The Visitor (2)"
+  },
+  {
+   "o": 157,
+   "t": "Prisoner of Love"
+  },
+  {
+   "o": 158,
+   "t": "Ermes's Stickers"
+  },
+  {
+   "o": 159,
+   "t": "There's Six of Us!"
+  },
+  {
+   "o": 160,
+   "t": "Foo Fighters"
+  },
+  {
+   "o": 161,
+   "t": "Debt Collector Marilyn Manson"
+  },
+  {
+   "o": 162,
+   "t": "Operation Savage Garden (Head to the Courtyard!) (1)"
+  },
+  {
+   "o": 163,
+   "t": "Operation Savage Garden (Head to the Courtyard!) (2)"
+  },
+  {
+   "o": 164,
+   "t": "Torrential Downpour Warning"
+  },
+  {
+   "o": 165,
+   "t": "Kiss of Love and Revenge (1)"
+  },
+  {
+   "o": 166,
+   "t": "Kiss of Love and Revenge (2)"
+  },
+  {
+   "o": 167,
+   "t": "Ultra Security House Unit"
+  },
+  {
+   "o": 168,
+   "t": "The Secret of Guard Westwood"
+  },
+  {
+   "o": 169,
+   "t": "Enter the Dragon's Dream"
+  },
+  {
+   "o": 170,
+   "t": "Enter the Foo Fighters"
+  },
+  {
+   "o": 171,
+   "t": "Birth of the 'Green'"
+  },
+  {
+   "o": 172,
+   "t": "F.F. – The Witness"
+  },
+  {
+   "o": 173,
+   "t": "Awaken"
+  },
+  {
+   "o": 174,
+   "t": "Time for Heaven! New Moon! New Priest!"
+  },
+  {
+   "o": 175,
+   "t": "Jail House Lock!"
+  },
+  {
+   "o": 176,
+   "t": "Jailbreak..."
+  },
+  {
+   "o": 177,
+   "t": "Bohemian Rhapsody (1)"
+  },
+  {
+   "o": 178,
+   "t": "Bohemian Rhapsody (2)"
+  },
+  {
+   "o": 179,
+   "t": "Sky High"
+  },
+  {
+   "o": 180,
+   "t": "Heaven Is at Hand: Three Days Until the New Moon"
+  },
+  {
+   "o": 181,
+   "t": "Under World"
+  },
+  {
+   "o": 182,
+   "t": "Heavy Weather (1)"
+  },
+  {
+   "o": 183,
+   "t": "Heavy Weather (2)"
+  },
+  {
+   "o": 184,
+   "t": "Heavy Weather (3)"
+  },
+  {
+   "o": 185,
+   "t": "Gravity of the New Moon"
+  },
+  {
+   "o": 186,
+   "t": "C-Moon (1)"
+  },
+  {
+   "o": 187,
+   "t": "C-Moon (2)"
+  },
+  {
+   "o": 188,
+   "t": "Made in Heaven (1)"
+  },
+  {
+   "o": 189,
+   "t": "Made in Heaven (2)"
+  },
+  {
+   "o": 190,
+   "t": "What a Wonderful World"
+  }
+ ]
+}
