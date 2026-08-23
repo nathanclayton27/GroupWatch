@@ -249,6 +249,21 @@ details[open] summary{border-bottom:1px solid var(--rule)}
 ol{list-style:none;margin:0;padding:6px 0}
 li{display:flex;align-items:baseline;gap:12px;padding:5px 18px}
 li:hover{background:rgba(128,128,128,.06)}
+/* the inline toast: feedback opens in the list flow directly beneath the row
+   it belongs to, then collapses slowly on tap-away, scroll-away, or timeout.
+   The bottom-of-page message line caused the same complaint twice (picker,
+   sync); row feedback now lives where the eyes already are. */
+.itoast{overflow:hidden;max-height:0;opacity:0;
+  transition:max-height .28s cubic-bezier(.2,.9,.3,1), opacity .2s linear,
+             margin .28s cubic-bezier(.2,.9,.3,1)}
+.itoast.open{max-height:64px;opacity:1;margin:2px 0 6px}
+.itoast.bye{transition:max-height .6s ease, opacity .5s ease, margin .6s ease}
+.itoast .in{margin:0 18px 0 45px;border:1px solid var(--done);border-left-width:3px;
+  border-radius:6px;background:color-mix(in srgb, var(--done) 10%, transparent);
+  padding:7px 12px;font-size:12.5px}
+.itoast .in b{color:var(--done);font-weight:600}
+@media (prefers-reduced-motion: reduce){.itoast,.itoast.bye{transition:none}}
+
 /* the picked / jumped-to row. Until this existed, .act carried no visual at
    all, so "Pick one for me" scrolled somewhere and highlighted nothing —
    the flash line at the bottom was the only sign anything was chosen. */
@@ -2671,7 +2686,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'd7bb84f09f9c';
+const BUILD = '5fa65243c8ee';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -2916,6 +2931,50 @@ function flash(t,el){
   m.textContent=t;
   setTimeout(()=>{if(m.textContent===t)m.textContent=''},5000);
 }
+
+// Row feedback appears directly beneath the row it belongs to and collapses
+// slowly on tap-away, scroll-away, or ~6s. One toast at a time; falls back
+// to flash() when the row isn't on the page. Text only — callers pass
+// strings, never markup.
+let _toast = null, _toastTimer = null, _toastBorn = 0;
+function rowToastDismiss(slow){
+  if(!_toast) return;
+  const t = _toast; _toast = null;
+  clearTimeout(_toastTimer);
+  if(slow) t.classList.add('bye');
+  t.classList.remove('open');
+  setTimeout(()=> t.remove(), slow ? 650 : 320);
+}
+function rowToast(id, text){
+  const li = document.querySelector('#list li[data-id="' + cssEsc(id) + '"]');
+  if(!li){ flash(text); return; }
+  rowToastDismiss(false);
+  const det = li.closest('details');
+  if(det) det.open = true;
+  const t = document.createElement('div');
+  t.className = 'itoast';
+  const inner = document.createElement('div');
+  inner.className = 'in';
+  inner.textContent = text;
+  t.appendChild(inner);
+  li.after(t);
+  requestAnimationFrame(()=> requestAnimationFrame(()=> t.classList.add('open')));
+  _toast = t;
+  _toastBorn = Date.now();
+  _toastTimer = setTimeout(()=> rowToastDismiss(true), 6000);
+}
+document.addEventListener('click', e=>{
+  if(_toast && !e.target.closest('li') && !_toast.contains(e.target))
+    rowToastDismiss(true);
+});
+addEventListener('scroll', ()=>{
+  if(!_toast) return;
+  // the picker smooth-scrolls TO the row it just toasted — give the toast a
+  // moment to arrive on screen before scroll-away can dismiss it
+  if(Date.now() - _toastBorn < 1200) return;
+  const r = _toast.getBoundingClientRect();
+  if(r.bottom < 0 || r.top > innerHeight) rowToastDismiss(true);
+}, {passive:true});
 function state(text,cls){ $('state').textContent=text; $('dot').className='dot'+(cls?' '+cls:''); }
 
 function clean(arr){
@@ -3020,7 +3079,7 @@ async function syncTicks(ids, on){
       }catch(e){ /* non-fatal; local landed, adopt() unions later */ }
     }
   }
-  flash('Also '+(on?'ticked':'unticked')+' on '+slugs.map(titleOf).join(', ')+'.');
+  rowToast(ids[0], 'Also '+(on?'ticked':'unticked')+' on '+slugs.map(titleOf).join(', ')+'.');
 }
 
 function persist(){
@@ -4986,7 +5045,7 @@ function pickRandom(e){
   if(!open.length){ flash('Everything is ticked — nothing left to pick.'); return; }
   const i = open[Math.floor(Math.random() * open.length)];
   goToItem(ORDER[i]);
-  flash('Tonight: ' + FLAT[i].t + ' ' + FLAT[i].n);
+  rowToast(ORDER[i], 'Tonight: ' + FLAT[i].t + ' ' + FLAT[i].n);
 }
 
 // One all-day VEVENT per schedule window, so club dates live in calendars.
@@ -5154,7 +5213,7 @@ function build(){
       recordEvents(added, 'tick', 'backfill');
       syncTicks(added, true);
       persist(); paint();
-      flash('Marked everything up to '+FLAT[upTo].t+' '+FLAT[upTo].n+'.');
+      rowToast(ORDER[upTo], 'Marked everything up to '+FLAT[upTo].t+' '+FLAT[upTo].n+'.');
       return;
     }
     // With no hover to reveal it, the row's catch-up button arms on a tap of
