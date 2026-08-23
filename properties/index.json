@@ -1,6 +1,9 @@
 [
   {
     "slug": "fma-brotherhood",
+    "media": [
+      "anime"
+    ],
     "title": "Fullmetal Alchemist: Brotherhood",
     "subtitle": "",
     "kind": "anime",
@@ -16,6 +19,9 @@
   },
   {
     "slug": "hickman-secret-wars",
+    "media": [
+      "comics"
+    ],
     "title": "Everything Dies: Secret Wars",
     "subtitle": "Jonathan Hickman's Marvel run",
     "kind": "comics",
@@ -31,6 +37,9 @@
   },
   {
     "slug": "cates-venom",
+    "media": [
+      "comics"
+    ],
     "title": "Venom",
     "subtitle": "Donny Cates & Ryan Stegman",
     "kind": "comics",
@@ -46,6 +55,9 @@
   },
   {
     "slug": "friday-night-lights",
+    "media": [
+      "tv"
+    ],
     "title": "Friday Night Lights",
     "subtitle": "Dillon, Texas",
     "kind": "tv",
@@ -61,6 +73,9 @@
   },
   {
     "slug": "one-piece",
+    "media": [
+      "anime"
+    ],
     "title": "One Piece",
     "subtitle": "",
     "kind": "anime",
@@ -76,6 +91,9 @@
   },
   {
     "slug": "monster",
+    "media": [
+      "anime"
+    ],
     "title": "Monster",
     "subtitle": "Naoki Urasawa",
     "kind": "anime",
@@ -91,6 +109,9 @@
   },
   {
     "slug": "one-pace",
+    "media": [
+      "anime"
+    ],
     "title": "One Pace",
     "subtitle": "One Piece at the manga's pacing",
     "kind": "anime",
@@ -106,6 +127,9 @@
   },
   {
     "slug": "one-piece-manga",
+    "media": [
+      "manga"
+    ],
     "title": "One Piece (manga)",
     "subtitle": "Eiichiro Oda",
     "kind": "manga",
@@ -121,6 +145,9 @@
   },
   {
     "slug": "cyberpunk-edgerunners",
+    "media": [
+      "anime"
+    ],
     "title": "Cyberpunk: Edgerunners",
     "subtitle": "",
     "kind": "anime",
@@ -136,6 +163,9 @@
   },
   {
     "slug": "lanterns",
+    "media": [
+      "tv"
+    ],
     "title": "Lanterns",
     "subtitle": "Hal Jordan and John Stewart",
     "kind": "tv",
@@ -151,6 +181,9 @@
   },
   {
     "slug": "evangelion",
+    "media": [
+      "anime"
+    ],
     "title": "Evangelion",
     "subtitle": "series, endings and Rebuild",
     "kind": "anime",
@@ -166,6 +199,9 @@
   },
   {
     "slug": "kingdom-hearts",
+    "media": [
+      "games"
+    ],
     "title": "Kingdom Hearts",
     "subtitle": "every game, in release order",
     "kind": "games",
@@ -181,6 +217,9 @@
   },
   {
     "slug": "amazing-spider-man",
+    "media": [
+      "comics"
+    ],
     "title": "Amazing Spider-Man",
     "subtitle": "Amazing Fantasy #15 to Civil War",
     "kind": "comics",
@@ -196,6 +235,9 @@
   },
   {
     "slug": "civil-war",
+    "media": [
+      "comics"
+    ],
     "title": "Civil War",
     "subtitle": "the 2006 event, in reading order",
     "kind": "comics",
@@ -211,6 +253,9 @@
   },
   {
     "slug": "metal-gear",
+    "media": [
+      "games"
+    ],
     "title": "Metal Gear",
     "subtitle": "the whole saga in release order, sides and remakes included",
     "kind": "games",
@@ -226,6 +271,9 @@
   },
   {
     "slug": "spider-man-after-civil-war",
+    "media": [
+      "comics"
+    ],
     "title": "Spider-Man After Civil War",
     "subtitle": "Back in Black to now",
     "kind": "comics",
@@ -241,6 +289,9 @@
   },
   {
     "slug": "x-men",
+    "media": [
+      "comics"
+    ],
     "title": "X-Men",
     "subtitle": "the comprehensive reading list — both flagships, complete",
     "kind": "comics",
@@ -256,6 +307,10 @@
   },
   {
     "slug": "mcu-anthology",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "MCU Anthology",
     "subtitle": "every Marvel film in release order, MCU or not",
     "kind": "films & shows",
@@ -271,6 +326,9 @@
   },
   {
     "slug": "ultimate-marvel",
+    "media": [
+      "comics"
+    ],
     "title": "Ultimate Marvel",
     "subtitle": "the whole Ultimate universe, in order",
     "kind": "comics",
@@ -286,6 +344,12 @@
   },
   {
     "slug": "nasuverse",
+    "media": [
+      "anime",
+      "games",
+      "manga",
+      "movies"
+    ],
     "title": "Nasuverse",
     "subtitle": "Type-Moon's shared universe, by media type",
     "kind": "mixed",
@@ -301,6 +365,10 @@
   },
   {
     "slug": "dc-anthology",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "DC Anthology",
     "subtitle": "every live-action DC film and series, in release order",
     "kind": "films & shows",
@@ -316,6 +384,9 @@
   },
   {
     "slug": "ghibli",
+    "media": [
+      "movies"
+    ],
     "title": "Studio Ghibli",
     "subtitle": "every Ghibli film in release order, built around Miyazaki's",
     "kind": "films",
@@ -331,6 +402,9 @@
   },
   {
     "slug": "criterion",
+    "media": [
+      "movies"
+    ],
     "title": "The Criterion Collection",
     "subtitle": "every spine number, in order",
     "kind": "films",
@@ -346,6 +420,10 @@
   },
   {
     "slug": "star-wars",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "Star Wars",
     "subtitle": "every film and television season, in release order",
     "kind": "films & shows",
@@ -361,6 +439,9 @@
   },
   {
     "slug": "star-wars-games",
+    "media": [
+      "games"
+    ],
     "title": "Star Wars Games",
     "subtitle": "the whole catalogue, in release order",
     "kind": "games",
@@ -376,6 +457,9 @@
   },
   {
     "slug": "disney",
+    "media": [
+      "movies"
+    ],
     "title": "Disney",
     "subtitle": "the studio's own films, in release order",
     "kind": "films",
@@ -391,6 +475,9 @@
   },
   {
     "slug": "david-lynch",
+    "media": [
+      "movies"
+    ],
     "title": "David Lynch",
     "subtitle": "the features, in release order",
     "kind": "films",
@@ -406,6 +493,11 @@
   },
   {
     "slug": "twin-peaks",
+    "media": [
+      "books",
+      "movies",
+      "tv"
+    ],
     "title": "Twin Peaks",
     "subtitle": "both seasons, the film, The Return, and the books",
     "kind": "tv, film & books",
@@ -421,6 +513,10 @@
   },
   {
     "slug": "x-files",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "The X-Files",
     "subtitle": "every episode, with the films where they belong",
     "kind": "tv & films",
@@ -436,6 +532,10 @@
   },
   {
     "slug": "gundam",
+    "media": [
+      "anime",
+      "manga"
+    ],
     "title": "Gundam",
     "subtitle": "the Universal Century and every alternate universe",
     "kind": "anime & manga",
@@ -451,6 +551,9 @@
   },
   {
     "slug": "best-picture",
+    "media": [
+      "movies"
+    ],
     "title": "Best Picture",
     "subtitle": "every nominee, winners marked",
     "kind": "films",
@@ -466,6 +569,10 @@
   },
   {
     "slug": "marvel-animation",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "Marvel Animation",
     "subtitle": "every animated Marvel series and film, in release order",
     "kind": "shows & films",
@@ -481,6 +588,10 @@
   },
   {
     "slug": "dc-animation",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "DC Animation",
     "subtitle": "every animated DC film and series, in release order",
     "kind": "shows & films",
@@ -496,6 +607,9 @@
   },
   {
     "slug": "kubrick",
+    "media": [
+      "movies"
+    ],
     "title": "Stanley Kubrick",
     "subtitle": "the thirteen features, plus A.I.",
     "kind": "films",
@@ -511,6 +625,9 @@
   },
   {
     "slug": "tom-cruise",
+    "media": [
+      "movies"
+    ],
     "title": "Tom Cruise",
     "subtitle": "the acting filmography, in release order",
     "kind": "films",
@@ -526,6 +643,9 @@
   },
   {
     "slug": "spielberg",
+    "media": [
+      "movies"
+    ],
     "title": "Steven Spielberg",
     "subtitle": "the films he directed, in release order",
     "kind": "films",
@@ -541,6 +661,9 @@
   },
   {
     "slug": "lego-games",
+    "media": [
+      "games"
+    ],
     "title": "Lego Games",
     "subtitle": "the bricks first, then every licence",
     "kind": "games",
@@ -556,6 +679,9 @@
   },
   {
     "slug": "godzilla",
+    "media": [
+      "movies"
+    ],
     "title": "Godzilla",
     "subtitle": "every film era by era, Godzilla Fest shorts included",
     "kind": "films",
@@ -571,6 +697,10 @@
   },
   {
     "slug": "time-loops",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "Time Loops",
     "subtitle": "the same day, again — films, episodes, whole shows",
     "kind": "films & episodes",
@@ -586,6 +716,10 @@
   },
   {
     "slug": "columbo",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "Columbo",
     "subtitle": "every case in broadcast order, pilots included",
     "kind": "tv movies",
@@ -601,6 +735,9 @@
   },
   {
     "slug": "kurosawa",
+    "media": [
+      "movies"
+    ],
     "title": "Akira Kurosawa",
     "subtitle": "the thirty features, in release order",
     "kind": "films",
@@ -616,6 +753,9 @@
   },
   {
     "slug": "hitchcock",
+    "media": [
+      "movies"
+    ],
     "title": "Alfred Hitchcock",
     "subtitle": "the features he directed, silents through Family Plot",
     "kind": "films",
@@ -631,6 +771,9 @@
   },
   {
     "slug": "a24",
+    "media": [
+      "movies"
+    ],
     "title": "A24",
     "subtitle": "every film with a release date, in order",
     "kind": "films",
@@ -646,6 +789,9 @@
   },
   {
     "slug": "the-sopranos",
+    "media": [
+      "tv"
+    ],
     "title": "The Sopranos",
     "subtitle": "every episode across six seasons",
     "kind": "tv",
@@ -661,6 +807,9 @@
   },
   {
     "slug": "the-wire",
+    "media": [
+      "tv"
+    ],
     "title": "The Wire",
     "subtitle": "every episode, one institution at a time",
     "kind": "tv",
@@ -676,6 +825,10 @@
   },
   {
     "slug": "breaking-bad",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "Breaking Bad",
     "subtitle": "the whole universe in release order — with El Camino and Better Call Saul",
     "kind": "tv & film",
@@ -691,6 +844,9 @@
   },
   {
     "slug": "bond",
+    "media": [
+      "movies"
+    ],
     "title": "James Bond",
     "subtitle": "every Bond film in release order, in sections per actor",
     "kind": "films",
@@ -706,6 +862,9 @@
   },
   {
     "slug": "alien-predator",
+    "media": [
+      "movies"
+    ],
     "title": "Alien & Predator",
     "subtitle": "both franchises in one release-order run",
     "kind": "films",
@@ -721,6 +880,9 @@
   },
   {
     "slug": "jojo",
+    "media": [
+      "anime"
+    ],
     "title": "JoJo's Bizarre Adventure",
     "subtitle": "every episode of the David Production anime",
     "kind": "anime",
@@ -736,6 +898,9 @@
   },
   {
     "slug": "dragon-ball",
+    "media": [
+      "anime"
+    ],
     "title": "Dragon Ball (anime)",
     "subtitle": "",
     "kind": "anime",
@@ -751,6 +916,9 @@
   },
   {
     "slug": "dragon-ball-manga",
+    "media": [
+      "manga"
+    ],
     "title": "Dragon Ball (manga)",
     "subtitle": "Akira Toriyama",
     "kind": "manga",
@@ -766,6 +934,9 @@
   },
   {
     "slug": "zelda",
+    "media": [
+      "games"
+    ],
     "title": "The Legend of Zelda",
     "subtitle": "mainline in release order, remakes and spin-offs marked",
     "kind": "games",
@@ -781,6 +952,9 @@
   },
   {
     "slug": "yakuza",
+    "media": [
+      "games"
+    ],
     "title": "Yakuza / Like a Dragon",
     "subtitle": "the mainline saga in release order, Judgment and the samurai games included",
     "kind": "games",
@@ -796,6 +970,9 @@
   },
   {
     "slug": "fromsoft",
+    "media": [
+      "games"
+    ],
     "title": "FromSoftware",
     "subtitle": "the Souls line and its adjacents, in release order",
     "kind": "games",
@@ -811,6 +988,9 @@
   },
   {
     "slug": "final-fantasy",
+    "media": [
+      "games"
+    ],
     "title": "Final Fantasy",
     "subtitle": "the sixteen numbered games, their sequels, and the VII remake line",
     "kind": "games",
@@ -826,6 +1006,9 @@
   },
   {
     "slug": "resident-evil",
+    "media": [
+      "games"
+    ],
     "title": "Resident Evil",
     "subtitle": "mainline in release order, Code: Veronica and the remakes included",
     "kind": "games",
@@ -841,6 +1024,9 @@
   },
   {
     "slug": "stephen-king",
+    "media": [
+      "books"
+    ],
     "title": "Stephen King",
     "subtitle": "all 69 novels, Bachman included",
     "kind": "books",
@@ -856,6 +1042,9 @@
   },
   {
     "slug": "robin-williams",
+    "media": [
+      "movies"
+    ],
     "title": "Robin Williams",
     "subtitle": "the film roles, in release order",
     "kind": "films",
@@ -871,6 +1060,9 @@
   },
   {
     "slug": "scorsese",
+    "media": [
+      "movies"
+    ],
     "title": "Martin Scorsese",
     "subtitle": "the directed features, plus the documentaries",
     "kind": "films",
@@ -886,6 +1078,9 @@
   },
   {
     "slug": "tarantino",
+    "media": [
+      "movies"
+    ],
     "title": "Quentin Tarantino",
     "subtitle": "the ten features, in release order",
     "kind": "films",
@@ -901,6 +1096,9 @@
   },
   {
     "slug": "coen-brothers",
+    "media": [
+      "movies"
+    ],
     "title": "The Coen Brothers",
     "subtitle": "eighteen together, four apart",
     "kind": "films",
@@ -916,6 +1114,9 @@
   },
   {
     "slug": "fincher",
+    "media": [
+      "movies"
+    ],
     "title": "David Fincher",
     "subtitle": "the directed features",
     "kind": "films",
@@ -931,6 +1132,9 @@
   },
   {
     "slug": "carpenter",
+    "media": [
+      "movies"
+    ],
     "title": "John Carpenter",
     "subtitle": "the directed features",
     "kind": "films",
@@ -946,6 +1150,9 @@
   },
   {
     "slug": "nicolas-cage",
+    "media": [
+      "movies"
+    ],
     "title": "Nicolas Cage",
     "subtitle": "the film roles, in release order",
     "kind": "films",
@@ -961,6 +1168,9 @@
   },
   {
     "slug": "satoshi-kon",
+    "media": [
+      "anime"
+    ],
     "title": "Satoshi Kon",
     "subtitle": "everything he directed",
     "kind": "anime",
@@ -976,6 +1186,9 @@
   },
   {
     "slug": "pixar",
+    "media": [
+      "movies"
+    ],
     "title": "Pixar",
     "subtitle": "every feature, in release order",
     "kind": "films",
@@ -991,6 +1204,10 @@
   },
   {
     "slug": "muppets",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "The Muppets",
     "subtitle": "the films in release order, plus the shows",
     "kind": "films & series",
@@ -1006,6 +1223,9 @@
   },
   {
     "slug": "palme-dor",
+    "media": [
+      "movies"
+    ],
     "title": "Palme d'Or",
     "subtitle": "every top prize at Cannes, 1946 on",
     "kind": "films",
@@ -1021,6 +1241,9 @@
   },
   {
     "slug": "sight-and-sound",
+    "media": [
+      "movies"
+    ],
     "title": "Sight & Sound 100",
     "subtitle": "the 2022 critics' poll, as ranked",
     "kind": "films",
@@ -1036,6 +1259,9 @@
   },
   {
     "slug": "universal-monsters",
+    "media": [
+      "movies"
+    ],
     "title": "Universal Monsters",
     "subtitle": "the classic cycle, by monster",
     "kind": "films",
@@ -1051,6 +1277,9 @@
   },
   {
     "slug": "bad-movie-night",
+    "media": [
+      "movies"
+    ],
     "title": "Bad Movie Night",
     "subtitle": "so bad they're appointment viewing",
     "kind": "films",
@@ -1066,6 +1295,9 @@
   },
   {
     "slug": "body-swap",
+    "media": [
+      "movies"
+    ],
     "title": "Body Swap",
     "subtitle": "who's in whose body, by decade",
     "kind": "films",
@@ -1081,6 +1313,9 @@
   },
   {
     "slug": "real-time-films",
+    "media": [
+      "movies"
+    ],
     "title": "Real Time",
     "subtitle": "films where screen minutes are story minutes",
     "kind": "films",
@@ -1096,6 +1331,9 @@
   },
   {
     "slug": "bottle-episodes",
+    "media": [
+      "tv"
+    ],
     "title": "Bottle Episodes",
     "subtitle": "one set, one cast, forty minutes",
     "kind": "episodes",
@@ -1111,6 +1349,9 @@
   },
   {
     "slug": "one-location-films",
+    "media": [
+      "movies"
+    ],
     "title": "One Location",
     "subtitle": "films that never leave the room",
     "kind": "films",
@@ -1126,6 +1367,9 @@
   },
   {
     "slug": "doctor-who",
+    "media": [
+      "tv"
+    ],
     "title": "Doctor Who",
     "subtitle": "every televised story, 1963–2025",
     "kind": "tv",
@@ -1141,6 +1385,9 @@
   },
   {
     "slug": "mash",
+    "media": [
+      "tv"
+    ],
     "title": "M*A*S*H",
     "subtitle": "all 256 episodes, eleven seasons",
     "kind": "tv",
@@ -1156,6 +1403,9 @@
   },
   {
     "slug": "seinfeld",
+    "media": [
+      "tv"
+    ],
     "title": "Seinfeld",
     "subtitle": "every episode across nine seasons",
     "kind": "tv",
@@ -1171,6 +1421,9 @@
   },
   {
     "slug": "frasier",
+    "media": [
+      "tv"
+    ],
     "title": "Frasier",
     "subtitle": "the original run — eleven seasons, 1993–2004",
     "kind": "tv",
@@ -1186,6 +1439,9 @@
   },
   {
     "slug": "mst3k",
+    "media": [
+      "tv"
+    ],
     "title": "Mystery Science Theater 3000",
     "subtitle": "every experiment, KTMA to the Gizmoplex",
     "kind": "tv",
@@ -1201,6 +1457,9 @@
   },
   {
     "slug": "twilight-zone",
+    "media": [
+      "tv"
+    ],
     "title": "The Twilight Zone",
     "subtitle": "the original series — five seasons, 1959–1964",
     "kind": "tv",
@@ -1216,6 +1475,9 @@
   },
   {
     "slug": "the-simpsons",
+    "media": [
+      "tv"
+    ],
     "title": "The Simpsons",
     "subtitle": "the golden age — seasons 1–8",
     "kind": "tv",
@@ -1231,6 +1493,9 @@
   },
   {
     "slug": "buffy-angel",
+    "media": [
+      "tv"
+    ],
     "title": "Buffy & Angel",
     "subtitle": "two shows woven into one broadcast order",
     "kind": "tv",
@@ -1246,6 +1511,9 @@
   },
   {
     "slug": "lost",
+    "media": [
+      "tv"
+    ],
     "title": "Lost",
     "subtitle": "every numbered episode, six seasons",
     "kind": "tv",
@@ -1261,6 +1529,9 @@
   },
   {
     "slug": "mad-men",
+    "media": [
+      "tv"
+    ],
     "title": "Mad Men",
     "subtitle": "every episode across seven seasons",
     "kind": "tv",
@@ -1276,6 +1547,10 @@
   },
   {
     "slug": "deadwood",
+    "media": [
+      "movies",
+      "tv"
+    ],
     "title": "Deadwood",
     "subtitle": "three seasons and the film that ends it",
     "kind": "tv & film",
@@ -1291,6 +1566,9 @@
   },
   {
     "slug": "ghost-in-the-shell",
+    "media": [
+      "anime"
+    ],
     "title": "Ghost in the Shell",
     "subtitle": "everything animated, by continuity",
     "kind": "anime",
@@ -1306,6 +1584,9 @@
   },
   {
     "slug": "cowboy-bebop",
+    "media": [
+      "anime"
+    ],
     "title": "Cowboy Bebop",
     "subtitle": "the 26 sessions and the film",
     "kind": "anime",
@@ -1321,6 +1602,9 @@
   },
   {
     "slug": "urusei-yatsura",
+    "media": [
+      "anime"
+    ],
     "title": "Urusei Yatsura",
     "subtitle": "the 1981 series, the films, the OVAs, the remake",
     "kind": "anime",
@@ -1336,6 +1620,9 @@
   },
   {
     "slug": "berserk-manga",
+    "media": [
+      "manga"
+    ],
     "title": "Berserk",
     "subtitle": "Kentaro Miura · the manga, by volume",
     "kind": "manga",
@@ -1351,6 +1638,10 @@
   },
   {
     "slug": "junji-ito",
+    "media": [
+      "books",
+      "manga"
+    ],
     "title": "Junji Ito",
     "subtitle": "a reading list of the major works",
     "kind": "manga",
@@ -1366,6 +1657,9 @@
   },
   {
     "slug": "mario",
+    "media": [
+      "games"
+    ],
     "title": "Super Mario",
     "subtitle": "the mainline platformers in release order, 2D and 3D",
     "kind": "games",
@@ -1381,6 +1675,9 @@
   },
   {
     "slug": "metroid",
+    "media": [
+      "games"
+    ],
     "title": "Metroid",
     "subtitle": "the 2D saga and the Prime line, remakes included",
     "kind": "games",
@@ -1396,6 +1693,9 @@
   },
   {
     "slug": "castlevania",
+    "media": [
+      "games"
+    ],
     "title": "Castlevania",
     "subtitle": "the whip canon: classic, Metroidvania, and the reboot",
     "kind": "games",
@@ -1411,6 +1711,9 @@
   },
   {
     "slug": "half-life-portal",
+    "media": [
+      "games"
+    ],
     "title": "Half-Life & Portal",
     "subtitle": "Valve's story canon in release order",
     "kind": "games",
@@ -1426,6 +1729,9 @@
   },
   {
     "slug": "silent-hill",
+    "media": [
+      "games"
+    ],
     "title": "Silent Hill",
     "subtitle": "the mainline series in release order",
     "kind": "games",
@@ -1441,6 +1747,9 @@
   },
   {
     "slug": "halo",
+    "media": [
+      "games"
+    ],
     "title": "Halo",
     "subtitle": "the campaigns in release order, Wars included",
     "kind": "games",
@@ -1456,6 +1765,9 @@
   },
   {
     "slug": "ace-attorney",
+    "media": [
+      "games"
+    ],
     "title": "Ace Attorney",
     "subtitle": "mainline, Investigations, and the Great duology",
     "kind": "games",
@@ -1471,6 +1783,9 @@
   },
   {
     "slug": "fallout",
+    "media": [
+      "games"
+    ],
     "title": "Fallout",
     "subtitle": "the mainline games in release order, story DLC included",
     "kind": "games",
@@ -1486,6 +1801,9 @@
   },
   {
     "slug": "elder-scrolls",
+    "media": [
+      "games"
+    ],
     "title": "The Elder Scrolls",
     "subtitle": "Arena to Skyrim in release order, expansions included",
     "kind": "games",
@@ -1501,6 +1819,9 @@
   },
   {
     "slug": "persona",
+    "media": [
+      "games"
+    ],
     "title": "Persona",
     "subtitle": "the mainline RPGs in release order, spin-offs cut",
     "kind": "games",
@@ -1516,6 +1837,9 @@
   },
   {
     "slug": "secret",
+    "media": [
+      "other"
+    ],
     "title": "Secret",
     "subtitle": "",
     "kind": "",
@@ -1534,6 +1858,9 @@
   },
   {
     "slug": "dragon-quest",
+    "media": [
+      "games"
+    ],
     "title": "Dragon Quest",
     "subtitle": "the mainline eleven in release order",
     "kind": "games",
@@ -1549,6 +1876,9 @@
   },
   {
     "slug": "mass-effect",
+    "media": [
+      "games"
+    ],
     "title": "Mass Effect",
     "subtitle": "the Shepard trilogy and its DLC, then Andromeda",
     "kind": "games",
@@ -1564,6 +1894,9 @@
   },
   {
     "slug": "dragon-age",
+    "media": [
+      "games"
+    ],
     "title": "Dragon Age",
     "subtitle": "all four games in release order, expansions included",
     "kind": "games",
@@ -1579,6 +1912,9 @@
   },
   {
     "slug": "indie-essentials",
+    "media": [
+      "games"
+    ],
     "title": "Indie Essentials",
     "subtitle": "a house canon of the modern indies, Braid to Balatro",
     "kind": "games",
@@ -1594,6 +1930,9 @@
   },
   {
     "slug": "discworld",
+    "media": [
+      "books"
+    ],
     "title": "Discworld",
     "subtitle": "Terry Pratchett — all 41 novels",
     "kind": "books",
@@ -1609,6 +1948,10 @@
   },
   {
     "slug": "dune",
+    "media": [
+      "books",
+      "movies"
+    ],
     "title": "Dune",
     "subtitle": "the novels, the continuations, the screen versions",
     "kind": "books & films",
@@ -1624,6 +1967,9 @@
   },
   {
     "slug": "wheel-of-time",
+    "media": [
+      "books"
+    ],
     "title": "The Wheel of Time",
     "subtitle": "Robert Jordan — 15 books, prequel included",
     "kind": "books",
@@ -1639,6 +1985,9 @@
   },
   {
     "slug": "cosmere",
+    "media": [
+      "books"
+    ],
     "title": "Cosmere",
     "subtitle": "Brandon Sanderson's connected universe",
     "kind": "books",
@@ -1654,6 +2003,9 @@
   },
   {
     "slug": "sherlock-holmes",
+    "media": [
+      "books"
+    ],
     "title": "Sherlock Holmes",
     "subtitle": "the complete canon — 60 adventures",
     "kind": "books",
@@ -1669,6 +2021,10 @@
   },
   {
     "slug": "middle-earth",
+    "media": [
+      "books",
+      "movies"
+    ],
     "title": "Middle-earth",
     "subtitle": "Tolkien's books and Jackson's films",
     "kind": "books & films",
@@ -1684,6 +2040,9 @@
   },
   {
     "slug": "sandman",
+    "media": [
+      "comics"
+    ],
     "title": "The Sandman",
     "subtitle": "Neil Gaiman — every issue, plus Death and Overture",
     "kind": "comics",
@@ -1699,6 +2058,9 @@
   },
   {
     "slug": "hellboy",
+    "media": [
+      "comics"
+    ],
     "title": "Hellboy",
     "subtitle": "the Mignolaverse in collected volumes",
     "kind": "comics",
@@ -1714,6 +2076,9 @@
   },
   {
     "slug": "zombie-films",
+    "media": [
+      "movies"
+    ],
     "title": "Zombie Films",
     "subtitle": "the walking dead on film, era by era",
     "kind": "films",

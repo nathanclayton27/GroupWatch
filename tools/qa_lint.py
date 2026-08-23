@@ -22,7 +22,7 @@ findings = collections.defaultdict(list)
 orders, accents = {}, {}
 
 for f in sorted(PROPS.glob("*.json")):
-    if f.name == "index.json":
+    if f.name in ("index.json", "search.json"):
         continue
     slug = f.stem
     try:
@@ -130,7 +130,8 @@ manifest_file = PROPS / "index.json"
 if manifest_file.exists():
     manifest = {m["slug"] for m in json.loads(
         manifest_file.read_text(encoding="utf-8"))}
-    on_disk = {f.stem for f in PROPS.glob("*.json") if f.name != "index.json"}
+    on_disk = {f.stem for f in PROPS.glob("*.json")
+               if f.name not in ("index.json", "search.json")}
     for miss in sorted(manifest - on_disk):
         findings[miss].append("IN MANIFEST BUT NO FILE — would 404 live")
     for stray in sorted(on_disk - manifest):

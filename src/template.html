@@ -319,6 +319,15 @@ footer a{color:var(--steel)}
 .pm-b{font-size:12px;color:var(--ink-2);margin-top:4px;line-height:1.45}
 .psearch{padding:5px 5px 7px;border-bottom:1px solid var(--rule);margin-bottom:5px}
 .psearch input{width:100%}
+/* medium chips: browse mode; they hide the moment a search is typed */
+#pmedia{display:flex;flex-wrap:wrap;gap:5px;padding:2px 6px 8px;
+  border-bottom:1px solid var(--rule);margin-bottom:5px}
+#pmedia.hide{display:none}
+.mchip{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.05em;
+  border:1px solid var(--rule-2);border-radius:99px;background:transparent;
+  color:var(--ink-2);padding:4px 10px;cursor:pointer;width:auto;text-align:center}
+.mchip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.prow .pm-m{white-space:nowrap}
 .pnone{padding:14px 11px;font-size:12px;color:var(--ink-3)}
 .pgroup{padding:9px 11px 3px;font-family:"IBM Plex Mono",monospace;font-size:10px;
   letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
@@ -862,6 +871,62 @@ async function flushEvents(){
   const { error } = await sb.from('tick_events').insert(rows);
   if(error){ evBroken = true; return; }   // table may not exist yet; retry next load
   try{ localStorage.setItem('gw:evflushed:'+SLUG, String(log.length)); }catch(e){}
+}
+
+// ---- the row index: global search and cross-list sync share one file ----
+// properties/search.json is built with the site: every visible row, plus
+// groups of film rows that are the same work on different lists.
+let GWIX = null, GWIXP = null, SYNCM = null;
+function ensureIndex(){
+  if(GWIXP) return GWIXP;
+  GWIXP = fetch('properties/search.json').then(r=>r.json()).then(d=>{
+    GWIX = d;
+    SYNCM = {};
+    for(const k in d.sync){
+      const g = d.sync[k];
+      g.forEach(p=>{ if(p[0]===SLUG) SYNCM[p[1]] = g.filter(q=>q[0]!==SLUG); });
+    }
+    return d;
+  }).catch(()=>{ GWIXP = null; return null; });
+  return GWIXP;
+}
+function titleOf(slug){
+  const m = MANIFEST.find(x=>x.slug===slug);
+  return m ? m.title : slug;
+}
+// One work, ticked everywhere it appears. Counterpart rows get progress
+// only — never an event — so a watch counts once in every statistic. The
+// cloud write is read-modify-write per property: blindly upserting this
+// device's copy of a list you last touched elsewhere would wipe it.
+async function syncTicks(ids, on){
+  await ensureIndex();
+  if(!SYNCM) return;
+  const bySlug = {};
+  ids.forEach(id=> (SYNCM[id]||[]).forEach(p=>{
+    (bySlug[p[0]] = bySlug[p[0]] || new Set()).add(p[1]);
+  }));
+  const slugs = Object.keys(bySlug);
+  if(!slugs.length) return;
+  for(const s of slugs){
+    let set;
+    try{ set = new Set(JSON.parse(localStorage.getItem('gw:v1:'+s)||'[]')); }
+    catch(e){ set = new Set(); }
+    bySlug[s].forEach(i=> on ? set.add(i) : set.delete(i));
+    try{ localStorage.setItem('gw:v1:'+s, JSON.stringify([...set])); }catch(e){}
+    if(user && sb){
+      try{
+        const { data } = await sb.from('progress').select('read_ids')
+          .eq('user_id', user.id).eq('property_id', s).maybeSingle();
+        const cloud = new Set((data && data.read_ids) || []);
+        bySlug[s].forEach(i=> on ? cloud.add(i) : cloud.delete(i));
+        await sb.from('progress').upsert(
+          { user_id:user.id, property_id:s, read_ids:[...cloud],
+            updated_at:new Date().toISOString() },
+          { onConflict:'user_id,property_id' });
+      }catch(e){ /* non-fatal; local landed, adopt() unions later */ }
+    }
+  }
+  flash('Also '+(on?'ticked':'unticked')+' on '+slugs.map(titleOf).join(', ')+'.');
 }
 
 function persist(){
@@ -2187,14 +2252,47 @@ function renderHeader(){
     : '<p>'+esc(nt)+'</p>').join('');
 }
 
+// medium chips: browse mode for the menu. They filter the property list
+// while the search box is empty and step aside the moment you type —
+// typing searches everything. Multi-select; MCU sits under movies AND tv.
+const MEDIA_LABEL = {movies:'Movies', tv:'TV', anime:'Anime', games:'Games',
+                     comics:'Comics', manga:'Manga', books:'Books', other:'Other'};
+let MEDIAF = new Set();
+function renderMediaChips(){
+  const host = $('pmedia');
+  if(!host) return;
+  const present = [];
+  for(const key of ['movies','tv','anime','games','comics','manga','books'])
+    if(MANIFEST.some(m=> (m.media||[]).indexOf(key) >= 0)) present.push(key);
+  host.innerHTML = present.map(k=>
+    '<button class="mchip'+(MEDIAF.has(k)?' on':'')+'" data-m="'+k+'">'
+    + MEDIA_LABEL[k] + '</button>').join('');
+  host.querySelectorAll('.mchip').forEach(b=>{
+    b.onclick = e=>{
+      // the click re-renders these buttons; without this, the document-level
+      // close handler sees a detached target and shuts the menu (the same
+      // detached-node trap the random picker's highlight hit)
+      e.stopPropagation();
+      MEDIAF.has(b.dataset.m) ? MEDIAF.delete(b.dataset.m) : MEDIAF.add(b.dataset.m);
+      renderMediaChips();
+      filterMenu($('pfind').value);
+    };
+  });
+}
+
 function renderMenu(){
   $('pmenu').innerHTML =
       '<div class="psearch"><input type="text" id="pfind" placeholder="Search"'
     + ' autocomplete="off" spellcheck="false" aria-label="Search what you track"></div>'
+    + '<div id="pmedia"></div>'
     + '<div id="phits"></div>';
+  renderMediaChips();
   filterMenu('');
   const find = $('pfind');
-  find.oninput = ()=> filterMenu(find.value);
+  find.oninput = ()=>{
+    $('pmedia').classList.toggle('hide', !!find.value.trim());
+    filterMenu(find.value);
+  };
   find.onkeydown = e=>{
     if(e.key === 'Escape'){ e.stopPropagation(); find.value=''; filterMenu(''); return; }
     if(e.key === 'Enter'){
@@ -2358,7 +2456,11 @@ function filterMenu(q){
   // the string being compared, so starring something cannot move it out of
   // alphabetical order within its group.
   const list = menuList().sort((a,b)=> a.title.localeCompare(b.title));
-  const hits = !needle ? list : list.filter(m=>
+  // chips only shape browsing; a typed search looks at everything
+  const pool = (!needle && MEDIAF.size)
+    ? list.filter(m=> (m.media||[]).some(k=> MEDIAF.has(k)))
+    : list;
+  const hits = !needle ? pool : pool.filter(m=>
     (m.title+' '+(m.subtitle||'')+' '+(m.kind||'')+' '+(m.year||'')).toLowerCase()
       .indexOf(needle) >= 0);
 
@@ -2398,10 +2500,46 @@ function filterMenu(q){
         + '<div class="pgroup">Everything else</div>' + rest.map(row).join('')
       : fav.concat(rest).map(row).join('');
   }
+  // global row search: three characters in, the whole catalogue's rows join
+  // the results. The index is one lazily fetched file; until it arrives the
+  // list results stand alone and this re-renders when it lands.
+  if(needle.length >= 3){
+    if(!GWIX){
+      ensureIndex().then(()=>{
+        const f = $('pfind');
+        if(f && f.value.trim().toLowerCase() === needle) filterMenu(f.value);
+      });
+    }else{
+      const secretSlugs = new Set(MANIFEST.filter(m=>m.secret).map(m=>m.slug));
+      const rows = [];
+      for(const r of GWIX.rows){
+        if(rows.length >= 12) break;
+        if(secretSlugs.has(r[0])) continue;
+        if(r[2].toLowerCase().indexOf(needle) >= 0) rows.push(r);
+      }
+      if(rows.length){
+        html += '<div class="pgroup">Rows</div>' + rows.map(r=>
+          '<button class="prow" data-jump="'+esc(r[0])+'|'+esc(r[1])+'">'
+          + '<span class="pm-t"><span class="pm-n">'+esc(r[2])
+          + ' <span class="num mono">'+esc(r[3])+'</span></span></span>'
+          + '<span class="pm-m">'+esc(titleOf(r[0]))+'</span>'
+          + '</button>').join('');
+      }
+    }
+  }
   $('phits').innerHTML = html;
 
   $('phits').querySelectorAll('button[data-slug]').forEach(b=>{
     b.onclick = ()=> b.dataset.slug === SLUG ? closeMenu() : go(b.dataset.slug);
+  });
+  $('phits').querySelectorAll('button[data-jump]').forEach(b=>{
+    b.onclick = ()=>{
+      const cut = b.dataset.jump.indexOf('|');
+      const slug = b.dataset.jump.slice(0, cut), id = b.dataset.jump.slice(cut + 1);
+      if(slug === SLUG){ closeMenu(); goToItem(id); return; }
+      try{ sessionStorage.setItem('gw:jump', id); }catch(e){}
+      go(slug);
+    };
   });
 }
 
@@ -2904,6 +3042,7 @@ function build(){
       hit.forEach(x=> full ? done.delete(x.id) : done.add(x.id));
       // nobody watches a section in one click: mark-all is catching up
       recordEvents(hit.map(x=> x.id), full ? 'untick' : 'tick', 'backfill');
+      syncTicks(hit.map(x=> x.id), !full);
       persist(); paint();
       return;
     }
@@ -2919,6 +3058,7 @@ function build(){
       }
       // the button literally says catch up — backfill by definition
       recordEvents(added, 'tick', 'backfill');
+      syncTicks(added, true);
       persist(); paint();
       flash('Marked everything up to '+FLAT[upTo].t+' '+FLAT[upTo].n+'.');
       return;
@@ -2938,6 +3078,7 @@ function build(){
     // single ticks default to live; the activity page reclassifies later,
     // which the timestamped log makes possible
     recordEvents([id], e.target.checked ? 'tick' : 'untick', 'live');
+    syncTicks([id], e.target.checked);
     persist(); paint();
   });
 }
@@ -2964,6 +3105,11 @@ function pickOpenSection(){
 function openInitialSection(){
   if(opened) return;
   opened = true;
+  // arriving from a global-search row hit beats the section heuristics
+  let jump = null;
+  try{ jump = sessionStorage.getItem('gw:jump'); sessionStorage.removeItem('gw:jump'); }
+  catch(e){}
+  if(jump && ORDER.indexOf(jump) >= 0){ goToItem(jump); return; }
   const s = pickOpenSection();
   const el = s && $('d-'+s.id);
   if(el) el.open = true;

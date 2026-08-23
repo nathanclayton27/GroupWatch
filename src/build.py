@@ -115,7 +115,8 @@ def main():
     if not PROPS.is_dir():
         fail("no properties/ directory")
 
-    files = sorted(p for p in PROPS.glob("*.json") if p.name != "index.json")
+    files = sorted(p for p in PROPS.glob("*.json")
+                   if p.name not in ("index.json", "search.json"))
     if not files:
         fail("properties/ has no property files")
 
@@ -129,9 +130,36 @@ def main():
     # visitor gets the splash picker — so this is presentation only.
     props.sort(key=lambda p: (p.get("order", 100), p["title"]))
 
+    # medium tags for the search chips and the card wall — derived from the
+    # kind string plus the unit, so mixed-media pages (MCU: films & shows)
+    # surface under every medium they contain
+    def media_of(p):
+        k = (p.get("kind") or "").lower()
+        u = (p.get("unit") or {}).get("one", "")
+        m = set()
+        if "film" in k or "movie" in k:
+            m.add("movies")
+        if re.search(r"\btv\b|show|series|episode", k):
+            m.add("tv")
+        if "anime" in k:
+            m.add("anime")
+        if "manga" in k or u == "chapter":
+            m.add("manga")
+        if "comic" in k or u == "issue":
+            m.add("comics")
+        if "book" in k or u in ("book", "novel"):
+            m.add("books")
+        if "game" in k:
+            m.add("games")
+        return sorted(m or {"other"})
+
+    MEDIA_FIX = {"nasuverse": ["anime", "games", "manga", "movies"],
+                 "bottle-episodes": ["tv"]}
+
     manifest = [
         {
             "slug": p["slug"],
+            "media": MEDIA_FIX.get(p["slug"], media_of(p)),
             "title": p["title"],
             "subtitle": p.get("subtitle", ""),
             "kind": p.get("kind", ""),
@@ -153,6 +181,40 @@ def main():
 
     with MANIFEST.open("w", encoding="utf-8", newline="\n") as f:
         f.write(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
+
+    # ---- the row index: one file powering global search and cross-list ----
+    # tick sync. rows: [slug, id, title, n] for every visible property.
+    # sync groups: film-kind rows (n = a plain year) that share a normalized
+    # title+year across DIFFERENT lists — Dr. Strangelove on Kubrick,
+    # Criterion and Best Picture is one group. Exact matches only.
+    import unicodedata as _ud
+
+    def _normt(t):
+        t = _ud.normalize("NFKD", t)
+        t = "".join(c for c in t if not _ud.combining(c)).lower()
+        t = re.sub(r"[^a-z0-9]+", " ", t).strip()
+        return re.sub(r"^(the|a|an) ", "", t)
+
+    rows, groups = [], {}
+    for p in props:
+        if p.get("secret"):
+            continue
+        filmish = "film" in (p.get("kind") or "")
+        for s in p.get("sections", []):
+            for x in s.get("items", []):
+                n = str(x.get("n", ""))
+                rows.append([p["slug"], x["id"], x["t"], n])
+                if filmish and re.fullmatch(r"(18|19|20)\d{2}", n):
+                    groups.setdefault(_normt(x["t"]) + "|" + n, []).append(
+                        [p["slug"], x["id"]])
+    sync = {k: v for k, v in groups.items()
+            if len({s for s, _ in v}) > 1}
+    with (PROPS / "search.json").open("w", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps({"rows": rows, "sync": sync},
+                           separators=(",", ":"), ensure_ascii=False) + "\n")
+    print("  search index: %d rows, %d sync groups spanning %d lists"
+          % (len(rows), len(sync),
+             len({s for v in sync.values() for s, _ in v})))
 
     html = TEMPLATE.read_text(encoding="utf-8")
     for ph in ("__MANIFEST__", "__BUILD__"):
