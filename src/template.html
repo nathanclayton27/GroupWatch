@@ -249,6 +249,14 @@ details[open] summary{border-bottom:1px solid var(--rule)}
 ol{list-style:none;margin:0;padding:6px 0}
 li{display:flex;align-items:baseline;gap:12px;padding:5px 18px}
 li:hover{background:rgba(128,128,128,.06)}
+/* the picked / jumped-to row. Until this existed, .act carried no visual at
+   all, so "Pick one for me" scrolled somewhere and highlighted nothing —
+   the flash line at the bottom was the only sign anything was chosen. */
+#list li.act{background:color-mix(in srgb, var(--signal) 14%, transparent);
+  box-shadow:inset 3px 0 0 var(--signal)}
+@keyframes gw-picked{from{background:color-mix(in srgb, var(--signal) 34%, transparent)}}
+#list li.act{animation:gw-picked .9s ease-out}
+@media (prefers-reduced-motion: reduce){#list li.act{animation:none}}
 li input{flex:none;width:15px;height:15px;accent-color:var(--signal);margin:0;position:relative;top:2px;cursor:pointer}
 .ttl{flex:1;min-width:0;font-size:14px}
 .num{color:var(--ink-2);font-size:13px}
