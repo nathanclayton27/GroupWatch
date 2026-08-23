@@ -855,6 +855,21 @@
     "total": 69
   },
   {
+    "slug": "robin-williams",
+    "title": "Robin Williams",
+    "subtitle": "the film roles, in release order",
+    "kind": "films",
+    "year": "1977–2023",
+    "blurb": "74 films across five decades — about 125 hours, from the stand-up years to the posthumous releases.",
+    "accent": "#8A4A2E",
+    "accentDark": "#E89A6F",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 74
+  },
+  {
     "slug": "secret",
     "title": "Secret",
     "subtitle": "",
