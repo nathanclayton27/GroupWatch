@@ -147,7 +147,8 @@
           "id": "rw-1991-shakes-the-clown",
           "t": "Shakes the Clown",
           "n": "1991",
-          "w": 1.45
+          "w": 1.45,
+          "note": "Cameo appearance; Credited as Marty Fromage"
         },
         {
           "id": "rw-1991-the-fisher-king",
@@ -159,13 +160,15 @@
           "id": "rw-1992-aladdin",
           "t": "Aladdin",
           "n": "1992",
-          "w": 1.52
+          "w": 1.52,
+          "note": "Voice role"
         },
         {
           "id": "rw-1992-ferngully-the-last-rainforest",
           "t": "FernGully: The Last Rainforest",
           "n": "1992",
-          "w": 1.27
+          "w": 1.27,
+          "note": "Voice role"
         },
         {
           "id": "rw-1992-toys",
@@ -354,7 +357,8 @@
           "id": "rw-2005-robots",
           "t": "Robots",
           "n": "2005",
-          "w": 1.52
+          "w": 1.52,
+          "note": "Voice role"
         },
         {
           "id": "rw-2005-the-aristocrats",
@@ -481,7 +485,7 @@
           "t": "A Merry Friggin' Christmas",
           "n": "2014",
           "w": 1.47,
-          "note": "rowspan=2| Released posthumously"
+          "note": "Released posthumously"
         },
         {
           "id": "rw-2014-boulevard",
@@ -500,7 +504,8 @@
           "id": "rw-2014-night-at-the-museum-secret-of-the-tomb",
           "t": "Night at the Museum: Secret of the Tomb",
           "n": "2014",
-          "w": 1.63
+          "w": 1.63,
+          "note": "Released posthumously"
         },
         {
           "id": "rw-2014-the-angriest-man-in-brooklyn",
