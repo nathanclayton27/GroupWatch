@@ -585,6 +585,96 @@
     "total": 27
   },
   {
+    "slug": "columbo",
+    "title": "Columbo",
+    "subtitle": "every case in broadcast order, pilots included",
+    "kind": "tv movies",
+    "year": "1968–2003",
+    "blurb": "All 69 feature-length cases in broadcast order — two pilots, the NBC seventies, and the ABC revival films.",
+    "accent": "#8A7B5C",
+    "accentDark": "#D9C9A3",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 69
+  },
+  {
+    "slug": "kurosawa",
+    "title": "Akira Kurosawa",
+    "subtitle": "the thirty features, in release order",
+    "kind": "films",
+    "year": "1943–1993",
+    "blurb": "Every feature he directed, Sanshiro Sugata through Madadayo — 30 films, about 61 hours.",
+    "accent": "#5A2E28",
+    "accentDark": "#D08A80",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 30
+  },
+  {
+    "slug": "hitchcock",
+    "title": "Alfred Hitchcock",
+    "subtitle": "the features he directed, silents through Family Plot",
+    "kind": "films",
+    "year": "1925–1976",
+    "blurb": "Every feature he directed, The Pleasure Garden through Family Plot — 54 films, about 88 hours.",
+    "accent": "#3A3A45",
+    "accentDark": "#B8B8D0",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 54
+  },
+  {
+    "slug": "a24",
+    "title": "A24",
+    "subtitle": "every film with a release date, in order",
+    "kind": "films",
+    "year": "2013–",
+    "blurb": "Everything A24 has released or dated, A Glimpse Inside the Mind of Charles Swan III through Elden Ring — 211 films, about 331 hours.",
+    "accent": "#111111",
+    "accentDark": "#E8E8E8",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 211
+  },
+  {
+    "slug": "the-sopranos",
+    "title": "The Sopranos",
+    "subtitle": "every episode across six seasons",
+    "kind": "tv",
+    "year": "1999–2007",
+    "blurb": "All 86 episodes in broadcast order — six seasons, two families, one New Jersey.",
+    "accent": "#6B1F1F",
+    "accentDark": "#D97070",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 86
+  },
+  {
+    "slug": "the-wire",
+    "title": "The Wire",
+    "subtitle": "every episode, one institution at a time",
+    "kind": "tv",
+    "year": "2002–2008",
+    "blurb": "All 60 episodes in broadcast order — five seasons of Baltimore, a different institution each year.",
+    "accent": "#2E4A5F",
+    "accentDark": "#7FA8C9",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 60
+  },
+  {
     "slug": "breaking-bad",
     "title": "Breaking Bad",
     "subtitle": "the whole universe in release order — with El Camino and Better Call Saul",
@@ -613,6 +703,96 @@
       "many": "films"
     },
     "total": 27
+  },
+  {
+    "slug": "alien-predator",
+    "title": "Alien & Predator",
+    "subtitle": "both franchises in one release-order run",
+    "kind": "films",
+    "year": "1979–",
+    "blurb": "15 films — 7 Alien, 6 Predator, 2 crossovers — and one television season, in the order they came out: about 35 hours.",
+    "accent": "#1E3A2E",
+    "accentDark": "#7FBFA0",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 16
+  },
+  {
+    "slug": "jojo",
+    "title": "JoJo's Bizarre Adventure",
+    "subtitle": "every episode of the David Production anime",
+    "kind": "anime",
+    "year": "2012–2022",
+    "blurb": "All 190 episodes of the David Production anime in order — six parts, six JoJos, one bloodline.",
+    "accent": "#7A2E5F",
+    "accentDark": "#E080BF",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 190
+  },
+  {
+    "slug": "zelda",
+    "title": "The Legend of Zelda",
+    "subtitle": "mainline in release order, remakes and spin-offs marked",
+    "kind": "games",
+    "year": "1986–",
+    "blurb": "31 games — the mainline 21 plus remakes and spin-offs, about 679 hours of story, 463 of it mainline.",
+    "accent": "#2E6B4F",
+    "accentDark": "#7FD0A8",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 31
+  },
+  {
+    "slug": "fromsoft",
+    "title": "FromSoftware",
+    "subtitle": "the Souls line and its adjacents, in release order",
+    "kind": "games",
+    "year": "2009–",
+    "blurb": "10 games — about 337 hours of story, 266 of it the Souls line proper.",
+    "accent": "#3A3530",
+    "accentDark": "#C9B8A0",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 10
+  },
+  {
+    "slug": "final-fantasy",
+    "title": "Final Fantasy",
+    "subtitle": "the sixteen numbered games, their sequels, and the VII remake line",
+    "kind": "games",
+    "year": "1987–",
+    "blurb": "21 games — about 832 hours of story, 661 of it the sixteen numbered ones.",
+    "accent": "#2E3A8A",
+    "accentDark": "#8A96E8",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 21
+  },
+  {
+    "slug": "stephen-king",
+    "title": "Stephen King",
+    "subtitle": "all 69 novels, Bachman included",
+    "kind": "books",
+    "year": "1974–2026",
+    "blurb": "Every novel in publication order, Carrie to Other Worlds Than These — 69 of them, the seven Richard Bachman books included, each counting as one.",
+    "accent": "#4A1F1F",
+    "accentDark": "#C97070",
+    "unit": {
+      "one": "novel",
+      "many": "novels"
+    },
+    "total": 69
   },
   {
     "slug": "secret",

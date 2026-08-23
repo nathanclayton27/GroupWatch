@@ -124,6 +124,7 @@ def main():
         "accent": "#6B2E7A",
         "accentDark": "#C08FE0",
         "tiers": False,
+        "random": True,
         "notes": [
             ["No order.", "Nothing here leads to anything else — pick "
              "whatever tonight feels like. Nothing is weighted either: a "

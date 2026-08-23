@@ -138,6 +138,7 @@ def main():
         "accent": "#1F4FA8",
         "accentDark": "#6F9BE8",
         "tiers": True,
+        "random": True,
         "itemTiers": True,
         "paceTiers": [1],
         "paceLabel": "the TV movies and direct-to-video sequels",

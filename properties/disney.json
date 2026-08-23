@@ -19,6 +19,7 @@
   "accent": "#1F4FA8",
   "accentDark": "#6F9BE8",
   "tiers": true,
+  "random": true,
   "itemTiers": true,
   "paceTiers": [
     1

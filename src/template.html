@@ -153,6 +153,15 @@ h1 em{font-style:normal;color:var(--signal)}
   margin-left:6px}
 .fclear{font-size:12.5px}
 .fsum{font-size:12.5px;color:var(--ink-3);margin-left:auto}
+.uprow{display:flex;gap:14px;align-items:center;margin:6px 0 0;flex-wrap:wrap}
+.upnext{font-size:13px;color:var(--ink-2)}
+.upnext b{font-weight:500;color:var(--ink)}
+.upnext .mono{color:var(--ink-3)}
+.upnext{cursor:pointer}
+.upnext:hover b{text-decoration:underline}
+.gago{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--ink-3);
+  border:1px solid var(--rule);border-radius:var(--radius);padding:0 4px}
+#b-random{font-size:12px}
 .gall{cursor:pointer;font-size:13px;color:var(--ink-2)}
 .gall input{margin:0}
 .exp{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;
@@ -431,6 +440,10 @@ footer a{color:var(--steel)}
   <div class="stack hide" id="stack" role="img" aria-label="Everyone's progress"></div>
   <div class="glegend hide" id="glegend"></div>
   <div class="lbl" id="striplbl"></div>
+  <div class="uprow" id="uprow">
+    <span class="upnext hide" id="upnext"></span>
+    <button class="hide" id="b-random" title="Pick a random unticked entry">Pick one for me</button>
+  </div>
   <div class="win hide" id="winline"></div>
   <label class="pscope hide" id="pscope"><input type="checkbox" id="pscope-cb"><span id="pscope-t"></span></label>
 </header>
@@ -948,11 +961,14 @@ async function loadMembers(){
 
   const ids = [...new Set(roster.map(r=>r.user_id))];
   const { data:rows, error:e2 } = await sb.from('progress')
-    .select('user_id, read_ids').in('user_id', ids).eq('property_id', SLUG);
+    .select('user_id, read_ids, updated_at').in('user_id', ids).eq('property_id', SLUG);
   if(e2) throw e2;
 
-  const byUser = {};
-  (rows||[]).forEach(r=> byUser[r.user_id] = clean(r.read_ids));
+  const byUser = {}, lastSync = {};
+  (rows||[]).forEach(r=>{
+    byUser[r.user_id] = clean(r.read_ids);
+    if(r.updated_at) lastSync[r.user_id] = r.updated_at;
+  });
   const gname = {};
   groups.forEach(g=> gname[g.id] = g.name);
 
@@ -979,7 +995,8 @@ async function loadMembers(){
     seen.set(r.user_id, {
       id: r.user_id, name: r.display_name, ci, gids: [r.group_id],
       from: gname[r.group_id] ? [gname[r.group_id]] : [],
-      read: byUser[r.user_id] || new Set()
+      read: byUser[r.user_id] || new Set(),
+      last: lastSync[r.user_id] || null
     });
   });
   gmembers = [...seen.values()];
@@ -1264,8 +1281,15 @@ function paintStack(){
     // groups, so say which on hover rather than crowding the line
     const from = combined() && m.from && m.from.length
       ? ' title="'+esc(m.from.join(', '))+'"' : '';
+    // last-active is surfaced from the progress row's own updated_at — no new
+    // tracking, and someone who never synced shows nothing, not a fake age
+    const age = ageOf(m.last);
+    const ago = age
+      ? '<span class="gago" title="Last synced '+esc(age.long)+'">'+age.short+'</span>'
+      : '';
     return '<span class="gitem"'+from+'><span class="gsw" style="background:var(--m'+(m.ci+1)+')"></span>'
       +'<span'+(m.id===user.id?' class="gme"':'')+'>'+esc(m.name)+(m.id===user.id?' (you)':'')+'</span>'
+      + ago
       +'<span class="gpct mono">'+shown+'</span>'
       +'<span class="gpct mono">('+n+')</span>'+tag+'</span>';
   }).join('');
@@ -1620,7 +1644,9 @@ function renderGroupPanel(){
     + nameRow()
     + resched()
     + roster()
-    + '<div class="row" style="margin-top:14px"><button id="b-grefresh">Refresh</button><button id="b-gleave">Leave group</button></div>'
+    + '<div class="row" style="margin-top:14px"><button id="b-grefresh">Refresh</button>'
+    + (windows() ? '<button id="b-gics" title="One calendar event per schedule window">Calendar (.ics)</button>' : '')
+    + '<button id="b-gleave">Leave group</button></div>'
     + '<p id="gmsg2" style="margin:12px 0 0;color:var(--signal)"></p>';
 
   $('b-gcopy').onclick = async ()=>{
@@ -1638,6 +1664,8 @@ function renderGroupPanel(){
   wireResched();
   wireRoster();
   $('b-grefresh').onclick = ()=> refreshGroup(true);
+  const gics = $('b-gics');
+  if(gics) gics.onclick = downloadICS;
   $('b-gleave').onclick = async ()=>{
     if(!confirm('Leave '+group.name+'? Your own progress is untouched.')) return;
     const { error } = await sb.from('group_members')
@@ -2618,6 +2646,96 @@ function applyFilter(){
 // ids are author-supplied, so they can carry a quote or a bracket
 function cssEsc(s){ return String(s).replace(/["\\]/g, '\\$&'); }
 
+// "2h" / "3d" / "3w" from an ISO timestamp, with a longer phrasing for the
+// tooltip. Under an hour rounds to minutes; anything past ten weeks is months.
+function ageOf(iso){
+  if(!iso) return null;
+  const ms = Date.now() - new Date(iso).getTime();
+  if(!(ms >= 0)) return null;
+  const m = Math.round(ms / 60000);
+  const steps = [[60, 'm', 'minute'], [24, 'h', 'hour'],
+                 [7, 'd', 'day'], [10, 'w', 'week'], [1e9, 'mo', 'month']];
+  let v = m, unit = 0;
+  const div = [60, 24, 7, 4.35];
+  while(unit < 4 && v >= steps[unit][0]){ v = v / div[unit]; unit++; }
+  const n = Math.max(1, Math.round(v));
+  return {short: n + steps[unit][1],
+          long: n + ' ' + steps[unit][2] + (n === 1 ? '' : 's') + ' ago'};
+}
+
+// Scroll the page to one item: open its section, flag the row, centre it.
+function goToItem(id){
+  const li = document.querySelector('#list li[data-id="' + cssEsc(id) + '"]');
+  if(!li) return;
+  const det = li.closest('details');
+  if(det) det.open = true;
+  document.querySelectorAll('#list li.act').forEach(el=> el.classList.remove('act'));
+  li.classList.add('act');
+  li.scrollIntoView({block: 'center', behavior: 'smooth'});
+}
+
+// The first unticked, unfiltered entry — "where was I" without scrolling.
+function paintUpNext(){
+  const el = $('upnext');
+  if(!el) return;
+  let nxt = -1;
+  for(let i = 0; i < ORDER.length; i++){
+    if(!done.has(ORDER[i]) && visibleAt(i)){ nxt = i; break; }
+  }
+  if(nxt < 0){
+    el.classList.add('hide');
+    el.dataset.id = '';
+  }else{
+    el.classList.remove('hide');
+    el.dataset.id = ORDER[nxt];
+    el.innerHTML = 'Up next: <b>'+esc(FLAT[nxt].t)+'</b> '
+                 + '<span class="mono">'+esc(FLAT[nxt].n)+'</span>';
+  }
+  // the picker only makes sense on a list with no order
+  $('b-random').classList.toggle('hide', !PROP.random);
+}
+
+function pickRandom(e){
+  // the document-level click handler clears row highlights on any outside
+  // click; without this, the same click that picks a row also unmarks it
+  if(e && e.stopPropagation) e.stopPropagation();
+  const open = [];
+  for(let i = 0; i < ORDER.length; i++)
+    if(!done.has(ORDER[i]) && visibleAt(i)) open.push(i);
+  if(!open.length){ flash('Everything is ticked — nothing left to pick.'); return; }
+  const i = open[Math.floor(Math.random() * open.length)];
+  goToItem(ORDER[i]);
+  flash('Tonight: ' + FLAT[i].t + ' ' + FLAT[i].n);
+}
+
+// One all-day VEVENT per schedule window, so club dates live in calendars.
+function icsEscape(t){ return String(t).replace(/([,;\\])/g, '\\$1'); }
+function downloadICS(){
+  const ws = windows();
+  if(!ws || !ws.length){ flash('No schedule to export.', 'gmsg2'); return; }
+  const ymd = iso=> iso.replace(/-/g, '');
+  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//GroupWatch//EN'];
+  ws.forEach((w, k)=>{
+    lines.push('BEGIN:VEVENT',
+      'UID:gw-' + SLUG + '-w' + (k + 1) + '@groupwatch',
+      'DTSTART;VALUE=DATE:' + ymd(w.start),
+      // DTEND is exclusive, so the day after the window's last day
+      'DTEND;VALUE=DATE:' + ymd(shiftISO(w.end, 1)),
+      'SUMMARY:' + icsEscape(PROP.title + ' — ' + (w.label || ('Window ' + (k + 1)))
+                   + (w.through ? ' (through ' + w.through + ')' : '')),
+      'END:VEVENT');
+  });
+  lines.push('END:VCALENDAR');
+  const blob = new Blob([lines.join('\r\n')], {type: 'text/calendar'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = SLUG + '-schedule.ics';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(()=> URL.revokeObjectURL(a.href), 4000);
+}
+
 // The solo strip, separately from build() so a filter toggle can redraw the
 // bar without rebuilding the list. This was the bug: the strip honoured the
 // filter at load and never on click, so the list narrowed and the bar did not.
@@ -2700,6 +2818,12 @@ function build(){
   // the section grouping, and re-adding them would double every click.
   if(build.wired) return;
   build.wired = true;
+
+  $('upnext').onclick = e=>{
+    e.stopPropagation();
+    if($('upnext').dataset.id) goToItem($('upnext').dataset.id);
+  };
+  $('b-random').onclick = pickRandom;
 
   // Bulk controls. The header button fills the section; once the section is
   // complete it turns into a clear, which only appears on hover — the same
@@ -2812,6 +2936,7 @@ function paint(){
     }
   });
   $('s-all').textContent = done.size+' / '+TOTAL;
+  paintUpNext();
   // What is still ahead of you: entries always, and time where the marks have
   // real sizes. On an unweighted list the two are the same number, so the
   // second stat hides rather than repeating it; on lists weighed in issues or

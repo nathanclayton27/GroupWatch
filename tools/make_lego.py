@@ -227,6 +227,7 @@ def main():
         "accent": "#C4372A",
         "accentDark": "#F0837A",
         "tiers": False,
+        "random": True,
         "notes": [
             ["The bricks, then the licences.", "The first section is every "
              "Lego game made without a licence, in release order. From Lego "

@@ -19,6 +19,7 @@
   "accent": "#8A6D2F",
   "accentDark": "#D6B36A",
   "tiers": false,
+  "random": true,
   "filter": {
     "key": "format",
     "label": "Format",

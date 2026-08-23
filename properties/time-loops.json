@@ -18,6 +18,7 @@
   "accent": "#6B2E7A",
   "accentDark": "#C08FE0",
   "tiers": false,
+  "random": true,
   "notes": [
     [
       "No order.",

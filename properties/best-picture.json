@@ -18,6 +18,7 @@
   "accent": "#9A7B1C",
   "accentDark": "#E0C25A",
   "tiers": false,
+  "random": true,
   "filter": {
     "key": "result",
     "label": "Show",

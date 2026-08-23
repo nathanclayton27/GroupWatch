@@ -140,6 +140,7 @@ def main():
         "accent": "#8A6D2F",
         "accentDark": "#D6B36A",
         "tiers": False,
+        "random": True,
         "filter": {
             "key": "format", "label": "Format",
             "values": ["4K", "Blu-ray", "DVD", "LaserDisc"]

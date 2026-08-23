@@ -353,6 +353,7 @@ def main():
         "accent": "#9A7B1C",
         "accentDark": "#E0C25A",
         "tiers": False,
+        "random": True,
         "filter": {
             "key": "result", "label": "Show", "mode": "include",
             "values": ["Winners"]

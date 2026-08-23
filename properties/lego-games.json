@@ -19,6 +19,7 @@
   "accent": "#C4372A",
   "accentDark": "#F0837A",
   "tiers": false,
+  "random": true,
   "notes": [
     [
       "The bricks, then the licences.",
