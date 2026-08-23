@@ -5,7 +5,7 @@
   "kind": "films",
   "order": 45,
   "year": "1979–",
-  "blurb": "15 films — 7 Alien, 6 Predator, 2 crossovers — and one television season, in the order they came out: about 35 hours.",
+  "blurb": "16 films — 7 Alien, 7 Predator, 2 crossovers — and one television season, in the order they came out: about 37 hours.",
   "unit": {
     "one": "film",
     "many": "films"
@@ -43,8 +43,8 @@
       "A film's width in the bar is its length in hours. Alien: Earth is one row for the whole season, 8 episodes counted at the midpoint of the 45–64-minute range its own infobox gives."
     ],
     [
-      "What is not here.",
-      "Predator: Killer of Killers, the animated anthology — this list is the theatrical run, plus Prey and the television series. The two Alien vs. Predator films stay, marked Crossover, because they came out in the middle of it."
+      "The animated one is in.",
+      "Predator: Killer of Killers, the animated anthology, joined at the group's request — it sits in the Disney era with its nature on the row. The two Alien vs. Predator films stay, marked Crossover, because they came out in the middle of everything."
     ],
     "Film dates and runtimes from Wikidata; the title set and the season's shape from Wikipedia's franchise articles."
   ],
@@ -187,7 +187,7 @@
     {
       "id": "disney",
       "title": "The Disney era",
-      "sub": "2022– · 3 films, 1 season · 13 hours",
+      "sub": "2022– · 4 films, 1 season · 14 hours",
       "intro": "A new studio and a lighter touch: stripped-back films that stand alone, and the franchise's first television series.",
       "items": [
         {
@@ -207,6 +207,16 @@
           "w": 1.98,
           "tags": [
             "Alien"
+          ]
+        },
+        {
+          "id": "ap-f-2025-predator-killer-of-killers",
+          "t": "Predator: Killer of Killers",
+          "n": "2025",
+          "w": 1.42,
+          "note": "Animated anthology · Streaming release",
+          "tags": [
+            "Predator"
           ]
         },
         {

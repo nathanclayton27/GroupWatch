@@ -16,8 +16,10 @@ Sources, machine-read rather than typed (see scratch/alien/fetch.py):
     per-episode runtime is not on Wikidata, so it comes from the series
     article's own infobox, as a range, and weighs in at the midpoint
 
-Predator: Killer of Killers is left out: this is the theatrical run plus Prey
-and the television series, and the animated anthology is neither.
+Predator: Killer of Killers (2025, animated, streaming) was originally left
+out as neither theatrical nor live-action; the group asked for it via the
+Discord (2026-08), so it rides in the Disney era with its nature named on
+the row.
 
 Weights are runtime hours throughout. Sections are eras, not decades — the
 shared twentieth century, the two crossovers, the 2010s returns, and the
@@ -76,6 +78,8 @@ def main():
         bits = []
         if f["line"] == "Crossover":
             bits.append("Crossover")
+        if f.get("extra"):
+            bits.append(f["extra"])
         if f["kind"] == "streaming":
             bits.append(STREAMING_NOTE)
         entries.append({
@@ -194,11 +198,12 @@ def main():
             ["Weights are runtimes.",
              "A film's width in the bar is its length in hours. "
              + season_note],
-            ["What is not here.",
-             "Predator: Killer of Killers, the animated anthology — this "
-             "list is the theatrical run, plus Prey and the television "
-             "series. The two Alien vs. Predator films stay, marked "
-             "Crossover, because they came out in the middle of it."],
+            ["The animated one is in.",
+             "Predator: Killer of Killers, the animated anthology, joined "
+             "at the group's request — it sits in the Disney era with its "
+             "nature on the row. The two Alien vs. Predator films stay, "
+             "marked Crossover, because they came out in the middle of "
+             "everything."],
             "Film dates and runtimes from Wikidata; the title set and the "
             "season's shape from Wikipedia's franchise articles.",
         ],

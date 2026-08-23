@@ -710,14 +710,14 @@
     "subtitle": "both franchises in one release-order run",
     "kind": "films",
     "year": "1979–",
-    "blurb": "15 films — 7 Alien, 6 Predator, 2 crossovers — and one television season, in the order they came out: about 35 hours.",
+    "blurb": "16 films — 7 Alien, 7 Predator, 2 crossovers — and one television season, in the order they came out: about 37 hours.",
     "accent": "#1E3A2E",
     "accentDark": "#7FBFA0",
     "unit": {
       "one": "film",
       "many": "films"
     },
-    "total": 16
+    "total": 17
   },
   {
     "slug": "jojo",
@@ -870,109 +870,79 @@
     "total": 74
   },
   {
-    "slug": "scorsese",
-    "title": "Martin Scorsese",
-    "subtitle": "the directed features, plus the documentaries",
-    "kind": "films",
-    "year": "1967–2023",
-    "blurb": "26 features from Who's That Knocking at My Door to Killers of the Flower Moon, with the 13 feature documentaries as optional rows — about 88 hours.",
-    "accent": "#5E1F38",
-    "accentDark": "#D67F92",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 39
-  },
-  {
-    "slug": "tarantino",
-    "title": "Quentin Tarantino",
-    "subtitle": "the ten features, in release order",
-    "kind": "films",
-    "year": "1992–2019",
-    "blurb": "All ten theatrical features — or nine, if you count Kill Bill the way he does. About 24 hours.",
-    "accent": "#2B2612",
-    "accentDark": "#F2C93C",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 10
-  },
-  {
-    "slug": "coen-brothers",
-    "title": "The Coen Brothers",
-    "subtitle": "eighteen together, four apart",
-    "kind": "films",
-    "year": "1984–2025",
-    "blurb": "The eighteen features Joel and Ethan made together, plus the four solo films with a note saying whose — about 38 hours.",
-    "accent": "#6E5533",
-    "accentDark": "#C9A87E",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 22
-  },
-  {
-    "slug": "fincher",
-    "title": "David Fincher",
-    "subtitle": "the directed features",
-    "kind": "films",
-    "year": "1992–2023",
-    "blurb": "Twelve features, Alien 3 to The Killer — about 27 hours of controlled dread.",
-    "accent": "#33484A",
-    "accentDark": "#93B8BA",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 12
-  },
-  {
-    "slug": "carpenter",
-    "title": "John Carpenter",
-    "subtitle": "the directed features",
-    "kind": "films",
-    "year": "1974–2010",
-    "blurb": "Eighteen theatrical features and three optional TV films, Dark Star to The Ward — about 35 hours.",
-    "accent": "#1F6E91",
-    "accentDark": "#72CDEE",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 21
-  },
-  {
-    "slug": "nicolas-cage",
-    "title": "Nicolas Cage",
-    "subtitle": "the film roles, in release order",
-    "kind": "films",
-    "year": "1982–2025",
-    "blurb": "113 films across five decades — about 194 hours, from Nicolas Coppola's bit parts to the renaissance.",
-    "accent": "#B8860B",
-    "accentDark": "#F2B845",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 113
-  },
-  {
-    "slug": "satoshi-kon",
-    "title": "Satoshi Kon",
-    "subtitle": "everything he directed",
-    "kind": "anime",
-    "year": "1997–2008",
-    "blurb": "Four films, thirteen episodes of Paranoia Agent, and a one-minute short — the complete directed work, about 11 hours.",
-    "accent": "#8B3A85",
-    "accentDark": "#E794DC",
+    "slug": "doctor-who",
+    "title": "Doctor Who",
+    "subtitle": "every televised story, 1963–2025",
+    "kind": "tv",
+    "year": "1963–2025",
+    "blurb": "All of it, in broadcast order — 26 seasons of classic serials, the TV movie, and 15 revival series: 355 entries covering 892 episodes.",
+    "accent": "#003B6F",
+    "accentDark": "#6FA8DC",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 18
+    "total": 355
+  },
+  {
+    "slug": "mash",
+    "title": "M*A*S*H",
+    "subtitle": "all 256 episodes, eleven seasons",
+    "kind": "tv",
+    "year": "1972–1983",
+    "blurb": "The 4077th in broadcast order — 256 episodes over eleven seasons, for a war that lasted three years.",
+    "accent": "#4B5320",
+    "accentDark": "#A9B46A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 251
+  },
+  {
+    "slug": "seinfeld",
+    "title": "Seinfeld",
+    "subtitle": "every episode across nine seasons",
+    "kind": "tv",
+    "year": "1989–1998",
+    "blurb": "All 180 episodes in broadcast order — nine seasons about nothing, from The Seinfeld Chronicles to The Finale.",
+    "accent": "#B3282D",
+    "accentDark": "#E8B93F",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 171
+  },
+  {
+    "slug": "frasier",
+    "title": "Frasier",
+    "subtitle": "the original run — eleven seasons, 1993–2004",
+    "kind": "tv",
+    "year": "1993–2004",
+    "blurb": "All 264 episodes of the original run in broadcast order — eleven seasons of tossed salads and scrambled eggs.",
+    "accent": "#46586B",
+    "accentDark": "#E2D3A8",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 256
+  },
+  {
+    "slug": "mst3k",
+    "title": "Mystery Science Theater 3000",
+    "subtitle": "every experiment, KTMA to the Gizmoplex",
+    "kind": "tv",
+    "year": "1988–2022",
+    "blurb": "All 232 experiments in air order — the KTMA year, the cable runs, the movie, and the revivals, each row the film it riffs.",
+    "accent": "#7A6200",
+    "accentDark": "#F2C230",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 232
   },
   {
     "slug": "twilight-zone",
