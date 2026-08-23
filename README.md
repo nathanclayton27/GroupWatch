@@ -11,8 +11,8 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Thirty-eight lists, from a ten-episode anime to a 1,337-spine film
-collection and a 971-entry comics run.
+Fifty-eight lists, from a ten-episode anime to a 1,337-spine film
+collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
 Krakoa), *Amazing Spider-Man* (Amazing Fantasy #15 to Civil War), *Civil
@@ -24,11 +24,22 @@ manga form.
 **Franchises.** *Star Wars* (films and television, with the games on their
 own page), *Metal Gear* (story-only hours, tiers, and a recap link for the
 MSX games), *Gundam* by continuity, *Godzilla* down to the Fest shorts,
-*Twin Peaks* with the books woven in, and *The X-Files* episode by episode.
+*Twin Peaks* with the books woven in, *The X-Files*, *The Sopranos*, *The
+Wire* and the whole *Breaking Bad* universe episode by episode, *Columbo*
+with real per-movie runtimes, *James Bond* by actor, *Alien & Predator* on
+one timeline, *JoJo's* and *Dragon Ball* (anime and manga as separate
+pages), and *Time Loops* — the group's own Groundhog Day collection.
+
+**Games with story-only hours.** *Kingdom Hearts*, *Metal Gear*, *Zelda*,
+*Yakuza / Like a Dragon*, the *FromSoftware* Souls line, *Final Fantasy* and
+*Resident Evil* — all weighted by HowLongToBeat main-story figures, verified
+by name.
 
 **Filmographies.** *Stanley Kubrick* (with A.I.), *Steven Spielberg*,
-*David Lynch* (all of Twin Peaks as one row), *Tom Cruise*, and *Studio
-Ghibli* with Miyazaki as the spine.
+*David Lynch* (all of Twin Peaks as one row), *Tom Cruise*, *Akira
+Kurosawa*, *Alfred Hitchcock*, *Robin Williams*, *A24* front to back, and
+*Studio Ghibli* with Miyazaki as the spine. Plus *Stephen King*, novel by
+novel.
 
 **Animation.** *Marvel Animation* and *DC Animation*, season by season with
 the films slotted in — the DCAU and the direct-to-video lines marked.
