@@ -1,0 +1,475 @@
+{
+  "sources": {
+    "fetched": "2026-08-22",
+    "pages": [
+      "List of Dragon Ball manga volumes (lead: 519 chapters, 42 volumes)",
+      "List of Dragon Ball chapters (series) (volumes 1-16)",
+      "List of Dragon Ball Z chapters (volumes 1-26)",
+      "List of Dragon Ball Super chapters"
+    ],
+    "api": "en.wikipedia action=parse wikitext, cached in scratch/dragonball/",
+    "super_note": "the Super list stops at the last collected volume; chapters serialized since are not in the article and are not invented here"
+  },
+  "original": {
+    "chapters": 519,
+    "volumes": 42,
+    "part1": [
+      {
+        "vol": 1,
+        "title": "The Monkey King",
+        "first": 1,
+        "last": 11
+      },
+      {
+        "vol": 2,
+        "title": "Wish Upon a Dragon",
+        "first": 12,
+        "last": 24
+      },
+      {
+        "vol": 3,
+        "title": "The Training of Kame-sen'nin",
+        "first": 25,
+        "last": 36
+      },
+      {
+        "vol": 4,
+        "title": "Strongest Under the Heavens",
+        "first": 37,
+        "last": 48
+      },
+      {
+        "vol": 5,
+        "title": "The Red Ribbon Army",
+        "first": 49,
+        "last": 60
+      },
+      {
+        "vol": 6,
+        "title": "Bulma Returns!",
+        "first": 61,
+        "last": 72
+      },
+      {
+        "vol": 7,
+        "title": "General Blue and the Pirate Treasure",
+        "first": 73,
+        "last": 84
+      },
+      {
+        "vol": 8,
+        "title": "Taopaipai and Master Karin",
+        "first": 85,
+        "last": 96
+      },
+      {
+        "vol": 9,
+        "title": "Test of the All-Seeing Crone",
+        "first": 97,
+        "last": 108
+      },
+      {
+        "vol": 10,
+        "title": "Return to the Tournament",
+        "first": 109,
+        "last": 120
+      },
+      {
+        "vol": 11,
+        "title": "The Eyes of Tenshinhan",
+        "first": 121,
+        "last": 132
+      },
+      {
+        "vol": 12,
+        "title": "The Demon King Piccolo",
+        "first": 133,
+        "last": 144
+      },
+      {
+        "vol": 13,
+        "title": "Piccolo Conquers the Earth",
+        "first": 145,
+        "last": 156
+      },
+      {
+        "vol": 14,
+        "title": "Heaven and Earth",
+        "first": 157,
+        "last": 168
+      },
+      {
+        "vol": 15,
+        "title": "The Titanic Tournament",
+        "first": 169,
+        "last": 180
+      },
+      {
+        "vol": 16,
+        "title": "Goku vs. Piccolo",
+        "first": 181,
+        "last": 194
+      }
+    ],
+    "part2": [
+      {
+        "vol": 1,
+        "title": "The World's Greatest Team",
+        "first": 195,
+        "last": 204,
+        "z_first": 1,
+        "z_last": 10
+      },
+      {
+        "vol": 2,
+        "title": "The Lord of Worlds",
+        "first": 205,
+        "last": 216,
+        "z_first": 11,
+        "z_last": 22
+      },
+      {
+        "vol": 3,
+        "title": "Earth vs. the Saiyans",
+        "first": 217,
+        "last": 228,
+        "z_first": 23,
+        "z_last": 34
+      },
+      {
+        "vol": 4,
+        "title": "Goku vs. Vegeta",
+        "first": 229,
+        "last": 240,
+        "z_first": 35,
+        "z_last": 46
+      },
+      {
+        "vol": 5,
+        "title": "Dragon Ball in Space",
+        "first": 241,
+        "last": 252,
+        "z_first": 47,
+        "z_last": 58
+      },
+      {
+        "vol": 6,
+        "title": "Battlefield Namek",
+        "first": 253,
+        "last": 264,
+        "z_first": 59,
+        "z_last": 70
+      },
+      {
+        "vol": 7,
+        "title": "The Ginyu Force",
+        "first": 265,
+        "last": 276,
+        "z_first": 71,
+        "z_last": 82
+      },
+      {
+        "vol": 8,
+        "title": "Goku vs. Ginyu",
+        "first": 277,
+        "last": 288,
+        "z_first": 83,
+        "z_last": 94
+      },
+      {
+        "vol": 9,
+        "title": "The Wrath of Freeza",
+        "first": 289,
+        "last": 300,
+        "z_first": 95,
+        "z_last": 106
+      },
+      {
+        "vol": 10,
+        "title": "Goku vs. Freeza",
+        "first": 301,
+        "last": 313,
+        "z_first": 107,
+        "z_last": 119
+      },
+      {
+        "vol": 11,
+        "title": "The Super Saiyan",
+        "first": 314,
+        "last": 325,
+        "z_first": 120,
+        "z_last": 131
+      },
+      {
+        "vol": 12,
+        "title": "Enter Trunks",
+        "first": 326,
+        "last": 337,
+        "z_first": 132,
+        "z_last": 143
+      },
+      {
+        "vol": 13,
+        "title": "The Red Ribbon Androids",
+        "first": 338,
+        "last": 349,
+        "z_first": 144,
+        "z_last": 155
+      },
+      {
+        "vol": 14,
+        "title": "Rise of the Machines",
+        "first": 350,
+        "last": 361,
+        "z_first": 156,
+        "z_last": 167
+      },
+      {
+        "vol": 15,
+        "title": "The Terror of Cell",
+        "first": 362,
+        "last": 373,
+        "z_first": 168,
+        "z_last": 179
+      },
+      {
+        "vol": 16,
+        "title": "The Room of Spirit and Time",
+        "first": 374,
+        "last": 385,
+        "z_first": 180,
+        "z_last": 191
+      },
+      {
+        "vol": 17,
+        "title": "The Cell Game",
+        "first": 386,
+        "last": 396,
+        "z_first": 192,
+        "z_last": 202
+      },
+      {
+        "vol": 18,
+        "title": "Gohan vs. Cell",
+        "first": 397,
+        "last": 408,
+        "z_first": 203,
+        "z_last": 214
+      },
+      {
+        "vol": 19,
+        "title": "Death of a Warrior",
+        "first": 409,
+        "last": 420,
+        "z_first": 215,
+        "z_last": 226
+      },
+      {
+        "vol": 20,
+        "title": "The New Generation",
+        "first": 421,
+        "last": 432,
+        "z_first": 227,
+        "z_last": 238
+      },
+      {
+        "vol": 21,
+        "title": "Tournament of the Heavens",
+        "first": 433,
+        "last": 445,
+        "z_first": 239,
+        "z_last": 251
+      },
+      {
+        "vol": 22,
+        "title": "Mark of the Warlock",
+        "first": 446,
+        "last": 459,
+        "z_first": 252,
+        "z_last": 265
+      },
+      {
+        "vol": 23,
+        "title": "Boo Unleashed!",
+        "first": 460,
+        "last": 472,
+        "z_first": 266,
+        "z_last": 278
+      },
+      {
+        "vol": 24,
+        "title": "Hercule to the Rescue",
+        "first": 473,
+        "last": 485,
+        "z_first": 279,
+        "z_last": 291
+      },
+      {
+        "vol": 25,
+        "title": "Last Hero Standing!",
+        "first": 486,
+        "last": 502,
+        "z_first": 292,
+        "z_last": 308
+      },
+      {
+        "vol": 26,
+        "title": "Goodbye, Dragon World!",
+        "first": 503,
+        "last": 519,
+        "z_first": 309,
+        "z_last": 325
+      }
+    ]
+  },
+  "super": {
+    "chapters": 104,
+    "volumes": 24,
+    "vols": [
+      {
+        "vol": 1,
+        "title": "Warriors from Universe 6!",
+        "first": 1,
+        "last": 9
+      },
+      {
+        "vol": 2,
+        "title": "The Winning Universe Is Decided!",
+        "first": 10,
+        "last": 15
+      },
+      {
+        "vol": 3,
+        "title": "Zero Mortal Project!",
+        "first": 16,
+        "last": 20
+      },
+      {
+        "vol": 4,
+        "title": "Last Chance for Hope",
+        "first": 21,
+        "last": 24
+      },
+      {
+        "vol": 5,
+        "title": "The Decisive Battle! Farewell, Trunks!",
+        "first": 25,
+        "last": 28
+      },
+      {
+        "vol": 6,
+        "title": "The Super Warriors Gather!",
+        "first": 29,
+        "last": 32
+      },
+      {
+        "vol": 7,
+        "title": "Universe Survival! The Tournament of Power Begins!!",
+        "first": 33,
+        "last": 36
+      },
+      {
+        "vol": 8,
+        "title": "Sign of Son Goku's Awakening",
+        "first": 37,
+        "last": 40
+      },
+      {
+        "vol": 9,
+        "title": "Battle's End and Aftermath",
+        "first": 41,
+        "last": 44
+      },
+      {
+        "vol": 10,
+        "title": "Moro's Wish",
+        "first": 45,
+        "last": 48
+      },
+      {
+        "vol": 11,
+        "title": "Great Escape",
+        "first": 49,
+        "last": 52
+      },
+      {
+        "vol": 12,
+        "title": "Merus's True Identity",
+        "first": 53,
+        "last": 56
+      },
+      {
+        "vol": 13,
+        "title": "Battles Abound",
+        "first": 57,
+        "last": 60
+      },
+      {
+        "vol": 14,
+        "title": "Son Goku, Galactic Patrol Officer",
+        "first": 61,
+        "last": 64
+      },
+      {
+        "vol": 15,
+        "title": "Moro, Consumer of Worlds",
+        "first": 65,
+        "last": 68
+      },
+      {
+        "vol": 16,
+        "title": "The Universe's Greatest Warrior",
+        "first": 69,
+        "last": 72
+      },
+      {
+        "vol": 17,
+        "title": "God of Destruction Power",
+        "first": 73,
+        "last": 76
+      },
+      {
+        "vol": 18,
+        "title": "Bardock, Father of Goku",
+        "first": 77,
+        "last": 80
+      },
+      {
+        "vol": 19,
+        "title": "A People's Pride",
+        "first": 81,
+        "last": 84
+      },
+      {
+        "vol": 20,
+        "title": "All-Out Bout",
+        "first": 85,
+        "last": 88
+      },
+      {
+        "vol": 21,
+        "title": "Vs. Dr. Hedo",
+        "first": 89,
+        "last": 92
+      },
+      {
+        "vol": 22,
+        "title": "The Ultimate Teacher and Pupil",
+        "first": 93,
+        "last": 96
+      },
+      {
+        "vol": 23,
+        "title": "Son Gohan's Ultimate Awakening!",
+        "first": 97,
+        "last": 100
+      },
+      {
+        "vol": 24,
+        "title": "A Legacy Toward the Future",
+        "first": 101,
+        "last": 104
+      }
+    ]
+  }
+}
