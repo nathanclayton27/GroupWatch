@@ -94,7 +94,7 @@ def main():
         "title": "Quentin Tarantino",
         "subtitle": "the ten features, in release order",
         "kind": "films",
-        "order": 57,
+        "popularity": 78,
         "year": "1992–2019",
         "blurb": "All ten theatrical features — or nine, if you count Kill "
                  "Bill the way he does. About %d hours." % round(hours),

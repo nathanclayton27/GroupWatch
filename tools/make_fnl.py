@@ -75,7 +75,7 @@ def main():
         "title": "Friday Night Lights",
         "subtitle": "Dillon, Texas",
         "kind": "tv",
-        "order": 4,
+        "popularity": 56,
         "year": "2006–2011",
         "blurb": "76 episodes, 5 seasons, the book and movie are optional.",
         "unit": {"one": "episode", "many": "episodes"},

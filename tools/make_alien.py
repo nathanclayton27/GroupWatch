@@ -167,7 +167,7 @@ def main():
         "title": "Alien & Predator",
         "subtitle": "both franchises in one release-order run",
         "kind": "films",
-        "order": 45,
+        "popularity": 76,
         "year": "1979–",
         "blurb": "%d films — %d Alien, %d Predator, %d crossovers — and one "
                  "television season, in the order they came out: about %d "

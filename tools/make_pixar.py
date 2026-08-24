@@ -101,7 +101,7 @@ def main():
         "title": "Pixar",
         "subtitle": "every feature, in release order",
         "kind": "films",
-        "order": 63,
+        "popularity": 90,
         "year": "1995–2026",
         "blurb": "All %d Pixar features in release order — about %d hours — "
                  "plus the %d classic theatrical shorts as optional extras."

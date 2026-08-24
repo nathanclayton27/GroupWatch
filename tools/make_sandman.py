@@ -140,7 +140,7 @@ def main():
         "title": "The Sandman",
         "subtitle": "Neil Gaiman — every issue, plus Death and Overture",
         "kind": "comics",
-        "order": 110,
+        "popularity": 70,
         "year": "1988–2015",
         "blurb": "All 75 issues and the Special, one row each, sectioned by "
                  "collected volume — then the two Death miniseries and the "

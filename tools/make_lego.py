@@ -217,7 +217,7 @@ def main():
         "title": "Lego Games",
         "subtitle": "the bricks first, then every licence",
         "kind": "games",
-        "order": 34,
+        "popularity": 62,
         "year": "1995–",
         "blurb": "%d games — the unlicensed catalogue in one run, then the "
                  "tie-ins by franchise from Lego Star Wars on." % len(ids),

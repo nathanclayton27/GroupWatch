@@ -71,7 +71,7 @@ def main():
         "title": "Deadwood",
         "subtitle": "three seasons and the film that ends it",
         "kind": "tv & film",
-        "order": 83,
+        "popularity": 53,
         "year": "2004–19",
         "blurb": "All 36 episodes and the 2019 film in broadcast order — "
                  "three seasons of the camp, then the goodbye.",

@@ -134,7 +134,7 @@ def main():
         "title": "Silent Hill",
         "subtitle": "the mainline series in release order",
         "kind": "games",
-        "order": 93,
+        "popularity": 69,
         "year": "1999–",
         "blurb": "%d games — about %d hours of story, %d of it the "
                  "essential path." % (len(ids), round(hours), round(spine)),

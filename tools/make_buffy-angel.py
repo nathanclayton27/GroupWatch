@@ -148,7 +148,7 @@ def main():
         "title": "Buffy & Angel",
         "subtitle": "two shows woven into one broadcast order",
         "kind": "tv",
-        "order": 80,
+        "popularity": 68,
         "year": "1997–2004",
         "blurb": "All 144 Buffy and 110 Angel episodes in one air-order "
                  "list — four overlap years interleaved night by night.",

@@ -265,7 +265,7 @@ def main():
         "title": "One Piece (manga)",
         "subtitle": "Eiichiro Oda",
         "kind": "manga",
-        "order": 7,
+        "popularity": 80,
         "year": "1997–",
         "blurb": "%d chapters across %d volumes, still running." % (total, len(VOLUMES)),
         "unit": {"one": "chapter", "many": "chapters"},

@@ -56,7 +56,7 @@ Drop a JSON file into `properties/` and rebuild. Nothing else.
   "subtitle": "optional, shown under the title",
   "kind": "anime",
   "year": "2019",
-  "order": 4,
+  "popularity": 62,
   "blurb": "One sentence for the picker.",
   "unit":  { "one": "episode", "many": "episodes" },
   "verb":  { "base": "watch", "past": "watched", "ing": "watching" },
@@ -80,7 +80,7 @@ Drop a JSON file into `properties/` and rebuild. Nothing else.
 | `weightUnit` | `{one,many}`; weights read as this instead of hours |
 | `paceTiers` | which tiers the finish date covers, e.g. `[1, 2]` |
 | `paceLabel` | what to call the tiers it leaves out, for the checkbox |
-| `order` | menu and picker position; ties break on title |
+| `popularity` | **required**, 0–100; the catalogue is sorted by it, ties break on title. See [POPULARITY.md](POPULARITY.md) |
 | `rules` | renders a house-rules panel |
 | `notes` | footer prose. `["Heading.", "body"]` pairs, or a bare string |
 | `forGroup` | per-group copy overrides, keyed by join code |

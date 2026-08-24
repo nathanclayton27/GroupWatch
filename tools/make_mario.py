@@ -129,7 +129,7 @@ def main():
         "title": "Super Mario",
         "subtitle": "the mainline platformers in release order, 2D and 3D",
         "kind": "games",
-        "order": 89,
+        "popularity": 94,
         "year": "1985–",
         "blurb": "All %d mainline platformers, Super Mario Bros. to Wonder "
                  "— about %d hours of story." % (len(ids), round(hours)),

@@ -146,7 +146,7 @@ def main():
         "title": "Ghost in the Shell",
         "subtitle": "everything animated, by continuity",
         "kind": "anime",
-        "order": 84,
+        "popularity": 64,
         "year": "1995–2022",
         "blurb": "Three animated continuities — the Oshii films, Stand "
                  "Alone Complex through SAC_2045, and Arise — %d entries, "

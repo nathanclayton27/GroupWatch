@@ -166,7 +166,7 @@ def main():
         "subtitle": "mainline in release order, Code: Veronica and the "
                     "remakes included",
         "kind": "games",
-        "order": 53,
+        "popularity": 80,
         "year": "1996–",
         "blurb": "%d games in release order — about %d hours of story, %d "
                  "of it the mainline spine." % (len(ids), round(hours),

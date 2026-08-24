@@ -227,7 +227,7 @@ def main():
         "title": "Sam Raimi",
         "subtitle": "the directed features, plus Ash vs Evil Dead",
         "kind": "films & tv",
-        "order": 114,
+        "popularity": 58,
         "year": "1978–2026",
         "blurb": "Seventeen directed features, from a Super 8 student film to "
                  "Send Help — about %d hours of them — plus all 30 episodes "

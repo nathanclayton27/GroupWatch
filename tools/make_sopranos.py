@@ -71,7 +71,7 @@ def main():
         "title": "The Sopranos",
         "subtitle": "every episode across six seasons",
         "kind": "tv",
-        "order": 41,
+        "popularity": 81,
         "year": "1999–2007",
         "blurb": "All 86 episodes in broadcast order — six seasons, two "
                  "families, one New Jersey.",

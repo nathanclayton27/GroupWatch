@@ -84,7 +84,7 @@ def main():
         "title": "Berserk",
         "subtitle": "Kentaro Miura · the manga, by volume",
         "kind": "manga",
-        "order": 87,
+        "popularity": 66,
         "year": "1989–",
         "blurb": "All %d collected volumes across the five arcs, from the "
                  "Black Swordsman to Fantasia — ongoing." % total,

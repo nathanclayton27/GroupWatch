@@ -109,7 +109,7 @@ def main():
         "title": "Body Swap",
         "subtitle": "who's in whose body, by decade",
         "kind": "films",
-        "order": 69,
+        "popularity": 34,
         "year": "1936–2026",
         "blurb": "%d body-swap films from Wikipedia's own list — four Freaky "
                  "Fridays included — with who swaps and how on every note. "

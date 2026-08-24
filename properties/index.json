@@ -1,5 +1,24 @@
 [
   {
+    "slug": "hickman-secret-wars",
+    "media": [
+      "comics"
+    ],
+    "title": "Everything Dies: Secret Wars",
+    "subtitle": "Jonathan Hickman's Marvel run",
+    "kind": "comics",
+    "year": "2009–2015",
+    "popularity": 44,
+    "blurb": "250 issues from Fantastic Four #570 through Secret Wars #9, in the order they're meant to be read.",
+    "accent": "#C1352A",
+    "accentDark": "#E4584A",
+    "unit": {
+      "one": "issue",
+      "many": "issues"
+    },
+    "total": 250
+  },
+  {
     "slug": "fma-brotherhood",
     "media": [
       "anime"
@@ -8,6 +27,7 @@
     "subtitle": "",
     "kind": "anime",
     "year": "2009–2010",
+    "popularity": 83,
     "blurb": "64 episodes across six arcs.",
     "accent": "#B0472E",
     "accentDark": "#E8874F",
@@ -19,411 +39,6 @@
     "scheduled": true
   },
   {
-    "slug": "hickman-secret-wars",
-    "media": [
-      "comics"
-    ],
-    "title": "Everything Dies: Secret Wars",
-    "subtitle": "Jonathan Hickman's Marvel run",
-    "kind": "comics",
-    "year": "2009–2015",
-    "blurb": "250 issues from Fantastic Four #570 through Secret Wars #9, in the order they're meant to be read.",
-    "accent": "#C1352A",
-    "accentDark": "#E4584A",
-    "unit": {
-      "one": "issue",
-      "many": "issues"
-    },
-    "total": 250
-  },
-  {
-    "slug": "cates-venom",
-    "media": [
-      "comics"
-    ],
-    "title": "Venom",
-    "subtitle": "Donny Cates & Ryan Stegman",
-    "kind": "comics",
-    "year": "2018–2021",
-    "blurb": "The whole Cates run, with the supplements worth reading and enough backstory to start cold.",
-    "accent": "#7A4FB5",
-    "accentDark": "#9C8AE0",
-    "unit": {
-      "one": "issue",
-      "many": "issues"
-    },
-    "total": 82
-  },
-  {
-    "slug": "friday-night-lights",
-    "media": [
-      "tv"
-    ],
-    "title": "Friday Night Lights",
-    "subtitle": "Dillon, Texas",
-    "kind": "tv",
-    "year": "2006–2011",
-    "blurb": "76 episodes, 5 seasons, the book and movie are optional.",
-    "accent": "#2E5C8A",
-    "accentDark": "#6FAEDC",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 76
-  },
-  {
-    "slug": "one-piece",
-    "media": [
-      "anime"
-    ],
-    "title": "One Piece",
-    "subtitle": "",
-    "kind": "anime",
-    "year": "1999–",
-    "blurb": "1174 episodes, 49 arcs, the filler is optional.",
-    "accent": "#B8531F",
-    "accentDark": "#E8904A",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 1174
-  },
-  {
-    "slug": "monster",
-    "media": [
-      "anime"
-    ],
-    "title": "Monster",
-    "subtitle": "Naoki Urasawa",
-    "kind": "anime",
-    "year": "2004–2005",
-    "blurb": "74 episodes, no filler, watch it in order.",
-    "accent": "#6B6F7A",
-    "accentDark": "#A8ADB8",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 74,
-    "scheduled": true
-  },
-  {
-    "slug": "one-pace",
-    "media": [
-      "anime"
-    ],
-    "title": "One Pace",
-    "subtitle": "One Piece at the manga's pacing",
-    "kind": "anime",
-    "year": "fan recut",
-    "blurb": "435 episodes, 36 arcs, no filler and no padding.",
-    "accent": "#2E7A6B",
-    "accentDark": "#5FBFA8",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 435
-  },
-  {
-    "slug": "one-piece-manga",
-    "media": [
-      "manga"
-    ],
-    "title": "One Piece (manga)",
-    "subtitle": "Eiichiro Oda",
-    "kind": "manga",
-    "year": "1997–",
-    "blurb": "1190 chapters across 106 volumes, still running.",
-    "accent": "#A8721F",
-    "accentDark": "#E0AE55",
-    "unit": {
-      "one": "chapter",
-      "many": "chapters"
-    },
-    "total": 1190
-  },
-  {
-    "slug": "cyberpunk-edgerunners",
-    "media": [
-      "anime"
-    ],
-    "title": "Cyberpunk: Edgerunners",
-    "subtitle": "",
-    "kind": "anime",
-    "year": "2022",
-    "blurb": "Season one — ten episodes across two weeks, five a week.",
-    "accent": "#7E8C15",
-    "accentDark": "#D4E338",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 10,
-    "scheduled": true
-  },
-  {
-    "slug": "lanterns",
-    "media": [
-      "tv"
-    ],
-    "title": "Lanterns",
-    "subtitle": "Hal Jordan and John Stewart",
-    "kind": "tv",
-    "year": "2026",
-    "blurb": "8 episodes, weekly, still airing.",
-    "accent": "#2E7A45",
-    "accentDark": "#5FC47E",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 8,
-    "scheduled": true
-  },
-  {
-    "slug": "evangelion",
-    "media": [
-      "anime"
-    ],
-    "title": "Evangelion",
-    "subtitle": "series, endings and Rebuild",
-    "kind": "anime",
-    "year": "1995–2021",
-    "blurb": "36 pieces in the order they work best, with the recap marked skippable.",
-    "accent": "#6B3FA0",
-    "accentDark": "#A98AE0",
-    "unit": {
-      "one": "part",
-      "many": "parts"
-    },
-    "total": 36
-  },
-  {
-    "slug": "kingdom-hearts",
-    "media": [
-      "games"
-    ],
-    "title": "Kingdom Hearts",
-    "subtitle": "every game, in release order",
-    "kind": "games",
-    "year": "2002–2027",
-    "blurb": "31 entries in release order, about 272 hours if you do the lot. Tiered by what the story actually needs.",
-    "accent": "#3B4CA8",
-    "accentDark": "#8A98E8",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 31
-  },
-  {
-    "slug": "amazing-spider-man",
-    "media": [
-      "comics"
-    ],
-    "title": "Amazing Spider-Man",
-    "subtitle": "Amazing Fantasy #15 to Civil War",
-    "kind": "comics",
-    "year": "1962–2006",
-    "blurb": "The complete run from the origin to the edge of Civil War — 579 issues, nothing filtered out.",
-    "accent": "#B01E32",
-    "accentDark": "#EC6B7B",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 548
-  },
-  {
-    "slug": "civil-war",
-    "media": [
-      "comics"
-    ],
-    "title": "Civil War",
-    "subtitle": "the 2006 event, in reading order",
-    "kind": "comics",
-    "year": "2006–07",
-    "blurb": "Seven issues of main series and forty-odd tie-ins, interleaved in the order they're meant to be read.",
-    "accent": "#4A6B8A",
-    "accentDark": "#8FB6D6",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 105
-  },
-  {
-    "slug": "metal-gear",
-    "media": [
-      "games"
-    ],
-    "title": "Metal Gear",
-    "subtitle": "the whole saga in release order, sides and remakes included",
-    "kind": "games",
-    "year": "1987–",
-    "blurb": "26 games and 4 extras — about 400 hours of story, 134 of it the saga spine.",
-    "accent": "#4A5D23",
-    "accentDark": "#9DBB61",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 30
-  },
-  {
-    "slug": "spider-man-after-civil-war",
-    "media": [
-      "comics"
-    ],
-    "title": "Spider-Man After Civil War",
-    "subtitle": "Back in Black to now",
-    "kind": "comics",
-    "year": "2007–",
-    "blurb": "The end of the classic run, then eighteen years of recommendations — 353 issues, tracked one by one.",
-    "accent": "#7A3B5E",
-    "accentDark": "#D98BB4",
-    "unit": {
-      "one": "issue",
-      "many": "issues"
-    },
-    "total": 353
-  },
-  {
-    "slug": "x-men",
-    "media": [
-      "comics"
-    ],
-    "title": "X-Men",
-    "subtitle": "the comprehensive reading list — both flagships, complete",
-    "kind": "comics",
-    "year": "1963–",
-    "blurb": "Every issue of the two flagship lineages from 1963 to the fall of Krakoa — about 1645 issues — with the crossovers spliced in where you read them.",
-    "accent": "#B08A2E",
-    "accentDark": "#E8C45C",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 971
-  },
-  {
-    "slug": "mcu-anthology",
-    "media": [
-      "movies",
-      "tv"
-    ],
-    "title": "MCU Anthology",
-    "subtitle": "every Marvel film in release order, MCU or not",
-    "kind": "films & shows",
-    "year": "1998–2026",
-    "blurb": "79 films and 53 seasons in the order they came out — about 575 hours, tiered by how much the story needs each one.",
-    "accent": "#B3282D",
-    "accentDark": "#F0666B",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 132
-  },
-  {
-    "slug": "ultimate-marvel",
-    "media": [
-      "comics"
-    ],
-    "title": "Ultimate Marvel",
-    "subtitle": "the whole Ultimate universe, in order",
-    "kind": "comics",
-    "year": "2000–2015",
-    "blurb": "693 issues across 65 series, interleaved the way the line was meant to be read.",
-    "accent": "#33415C",
-    "accentDark": "#94A8C9",
-    "unit": {
-      "one": "issue",
-      "many": "issues"
-    },
-    "total": 693
-  },
-  {
-    "slug": "nasuverse",
-    "media": [
-      "anime",
-      "games",
-      "manga",
-      "movies"
-    ],
-    "title": "Nasuverse",
-    "subtitle": "Type-Moon's shared universe, by media type",
-    "kind": "mixed",
-    "year": "1998–",
-    "blurb": "61 works across six media, in release order within each.",
-    "accent": "#8A2E4A",
-    "accentDark": "#E884A6",
-    "unit": {
-      "one": "work",
-      "many": "works"
-    },
-    "total": 61
-  },
-  {
-    "slug": "dc-anthology",
-    "media": [
-      "movies",
-      "tv"
-    ],
-    "title": "DC Anthology",
-    "subtitle": "every live-action DC film and series, in release order",
-    "kind": "films & shows",
-    "year": "1951–",
-    "blurb": "55 films and 139 seasons of television, about 1754 hours, in the order they came out.",
-    "accent": "#1F5FA8",
-    "accentDark": "#6FA8E8",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 194
-  },
-  {
-    "slug": "ghibli",
-    "media": [
-      "movies"
-    ],
-    "title": "Studio Ghibli",
-    "subtitle": "every Ghibli film in release order, built around Miyazaki's",
-    "kind": "films",
-    "year": "1979–",
-    "blurb": "26 films in release order. The 12 Miyazaki directed are the spine; the rest are marked with who made them.",
-    "accent": "#3F7A55",
-    "accentDark": "#7FC79A",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 26
-  },
-  {
-    "slug": "criterion",
-    "media": [
-      "movies"
-    ],
-    "title": "The Criterion Collection",
-    "subtitle": "every spine number, in order",
-    "kind": "films",
-    "year": "1984–",
-    "blurb": "Spines #1 to #1337 — 1337 releases, about 2313 hours, each with the formats Criterion put it out on.",
-    "accent": "#8A6D2F",
-    "accentDark": "#D6B36A",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 1418,
-    "random": true
-  },
-  {
     "slug": "star-wars",
     "media": [
       "movies",
@@ -433,6 +48,7 @@
     "subtitle": "every film and television season, in release order",
     "kind": "films & shows",
     "year": "1977–",
+    "popularity": 97,
     "blurb": "16 films and 36 television seasons in the order they came out — about 236 hours.",
     "accent": "#8A6D1F",
     "accentDark": "#E8C450",
@@ -443,24 +59,6 @@
     "total": 52
   },
   {
-    "slug": "star-wars-games",
-    "media": [
-      "games"
-    ],
-    "title": "Star Wars Games",
-    "subtitle": "the whole catalogue, in release order",
-    "kind": "games",
-    "year": "1992–",
-    "blurb": "68 games in the order they came out — 43 Legends, 21 canon, 4 Lego.",
-    "accent": "#7A5A1E",
-    "accentDark": "#D9B45C",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 68
-  },
-  {
     "slug": "disney",
     "media": [
       "movies"
@@ -469,6 +67,7 @@
     "subtitle": "the studio's own films, in release order",
     "kind": "films",
     "year": "1937–",
+    "popularity": 96,
     "blurb": "654 films from Snow White on — 465 theatrical, 163 television, 26 direct-to-video — about 911 hours.",
     "accent": "#1F4FA8",
     "accentDark": "#6F9BE8",
@@ -480,80 +79,176 @@
     "random": true
   },
   {
-    "slug": "david-lynch",
+    "slug": "mcu-anthology",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "MCU Anthology",
+    "subtitle": "every Marvel film in release order, MCU or not",
+    "kind": "films & shows",
+    "year": "1998–2026",
+    "popularity": 95,
+    "blurb": "79 films and 53 seasons in the order they came out — about 575 hours, tiered by how much the story needs each one.",
+    "accent": "#B3282D",
+    "accentDark": "#F0666B",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 132
+  },
+  {
+    "slug": "mario",
+    "media": [
+      "games"
+    ],
+    "title": "Super Mario",
+    "subtitle": "the mainline platformers in release order, 2D and 3D",
+    "kind": "games",
+    "year": "1985–",
+    "popularity": 94,
+    "blurb": "All 19 mainline platformers, Super Mario Bros. to Wonder — about 145 hours of story.",
+    "accent": "#C7231E",
+    "accentDark": "#5C94FC",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 19
+  },
+  {
+    "slug": "the-simpsons",
+    "media": [
+      "tv"
+    ],
+    "title": "The Simpsons",
+    "subtitle": "the golden age — seasons 1–8",
+    "kind": "tv",
+    "year": "1989–97",
+    "popularity": 93,
+    "blurb": "Seasons 1 through 8, one row per episode — 178 episodes of the golden age, and nothing after.",
+    "accent": "#C2477E",
+    "accentDark": "#F2C744",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 178
+  },
+  {
+    "slug": "zelda",
+    "media": [
+      "games"
+    ],
+    "title": "The Legend of Zelda",
+    "subtitle": "mainline in release order, remakes and spin-offs marked",
+    "kind": "games",
+    "year": "1986–",
+    "popularity": 92,
+    "blurb": "31 games — the mainline 21 plus remakes and spin-offs, about 679 hours of story, 463 of it mainline.",
+    "accent": "#2E6B4F",
+    "accentDark": "#7FD0A8",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 31
+  },
+  {
+    "slug": "one-piece",
+    "media": [
+      "anime"
+    ],
+    "title": "One Piece",
+    "subtitle": "",
+    "kind": "anime",
+    "year": "1999–",
+    "popularity": 91,
+    "blurb": "1174 episodes, 49 arcs, the filler is optional.",
+    "accent": "#B8531F",
+    "accentDark": "#E8904A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 1174
+  },
+  {
+    "slug": "pixar",
     "media": [
       "movies"
     ],
-    "title": "David Lynch",
-    "subtitle": "the features, in release order",
+    "title": "Pixar",
+    "subtitle": "every feature, in release order",
     "kind": "films",
-    "year": "1977–2006",
-    "blurb": "Nine features and all of Twin Peaks as one row — about 63 hours, most of it one town in Washington.",
-    "accent": "#4A3A6B",
-    "accentDark": "#A38FD9",
+    "year": "1995–2026",
+    "popularity": 90,
+    "blurb": "All 31 Pixar features in release order — about 52 hours — plus the 20 classic theatrical shorts as optional extras.",
+    "accent": "#1E5FA8",
+    "accentDark": "#F0C24B",
     "unit": {
-      "one": "entry",
-      "many": "entries"
+      "one": "film",
+      "many": "films"
     },
-    "total": 10
+    "total": 51
   },
   {
-    "slug": "twin-peaks",
+    "slug": "dragon-ball",
     "media": [
-      "books",
-      "movies",
-      "tv"
+      "anime"
     ],
-    "title": "Twin Peaks",
-    "subtitle": "both seasons, the film, The Return, and the books",
-    "kind": "tv, film & books",
-    "year": "1990–2017",
-    "blurb": "The whole thing: 30 episodes, Fire Walk with Me, the 18 parts of The Return, and the four books woven in where you read them.",
-    "accent": "#7A1E2E",
-    "accentDark": "#E86A7E",
+    "title": "Dragon Ball (anime)",
+    "subtitle": "",
+    "kind": "anime",
+    "year": "1986–2025",
+    "popularity": 89,
+    "blurb": "659 episodes in broadcast order, Dragon Ball through Daima; Kai is one optional row.",
+    "accent": "#C4661F",
+    "accentDark": "#F0A45C",
     "unit": {
-      "one": "entry",
-      "many": "entries"
+      "one": "episode",
+      "many": "episodes"
     },
-    "total": 54
+    "total": 660
   },
   {
-    "slug": "x-files",
+    "slug": "bond",
     "media": [
-      "movies",
-      "tv"
+      "movies"
     ],
-    "title": "The X-Files",
-    "subtitle": "every episode, with the films where they belong",
-    "kind": "tv & films",
-    "year": "1993–2018",
-    "blurb": "All 218 episodes and both films in broadcast order — eleven seasons, two eras, one basement office.",
-    "accent": "#275E6B",
-    "accentDark": "#6FC0D0",
+    "title": "James Bond",
+    "subtitle": "every Bond film in release order, in sections per actor",
+    "kind": "films",
+    "year": "1962–2021",
+    "popularity": 88,
+    "blurb": "All 25 Eon films in release order, grouped by Bond actor, plus the two oddities made outside Eon. The Craig arc is the serialized spine.",
+    "accent": "#1F1F2E",
+    "accentDark": "#C9B458",
     "unit": {
-      "one": "entry",
-      "many": "entries"
+      "one": "film",
+      "many": "films"
     },
-    "total": 219
+    "total": 27
   },
   {
-    "slug": "gundam",
+    "slug": "amazing-spider-man",
     "media": [
-      "anime",
-      "manga"
+      "comics"
     ],
-    "title": "Gundam",
-    "subtitle": "the Universal Century and every alternate universe",
-    "kind": "anime & manga",
-    "year": "1979–",
-    "blurb": "46 entries across every Gundam continuity: the Universal Century in release order, the alternate universes, and the major manga.",
-    "accent": "#3F4E9E",
-    "accentDark": "#8E9BE8",
+    "title": "Amazing Spider-Man",
+    "subtitle": "Amazing Fantasy #15 to Civil War",
+    "kind": "comics",
+    "year": "1962–2006",
+    "popularity": 87,
+    "blurb": "The complete run from the origin to the edge of Civil War — 579 issues, nothing filtered out.",
+    "accent": "#B01E32",
+    "accentDark": "#EC6B7B",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 46
+    "total": 548
   },
   {
     "slug": "best-picture",
@@ -564,6 +259,7 @@
     "subtitle": "every nominee, winners marked",
     "kind": "films",
     "year": "1927–2025",
+    "popularity": 86,
     "blurb": "All 621 Best Picture nominees across 98 ceremonies, about 1302 hours, each year's winner marked.",
     "accent": "#9A7B1C",
     "accentDark": "#E0C25A",
@@ -575,262 +271,43 @@
     "random": true
   },
   {
-    "slug": "marvel-animation",
+    "slug": "x-men",
     "media": [
-      "movies",
-      "tv"
+      "comics"
     ],
-    "title": "Marvel Animation",
-    "subtitle": "every animated Marvel series and film, in release order",
-    "kind": "shows & films",
-    "year": "1966–",
-    "blurb": "18 films and 100 seasons of television, about 670 hours, in the order they came out.",
-    "accent": "#A03035",
-    "accentDark": "#EF7A80",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 118
-  },
-  {
-    "slug": "dc-animation",
-    "media": [
-      "movies",
-      "tv"
-    ],
-    "title": "DC Animation",
-    "subtitle": "every animated DC film and series, in release order",
-    "kind": "shows & films",
-    "year": "1966–",
-    "blurb": "103 films and 108 seasons of television, about 923 hours, in the order they came out.",
-    "accent": "#2A5F9E",
-    "accentDark": "#7FB0E8",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 211
-  },
-  {
-    "slug": "kubrick",
-    "media": [
-      "movies"
-    ],
-    "title": "Stanley Kubrick",
-    "subtitle": "the thirteen features, plus A.I.",
-    "kind": "films",
-    "year": "1953–2001",
-    "blurb": "The thirteen features in release order, the early shorts as optional rows, and Spielberg's A.I. as a coda — about 31 hours.",
-    "accent": "#202830",
-    "accentDark": "#B8C4CE",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 17
-  },
-  {
-    "slug": "tom-cruise",
-    "media": [
-      "movies"
-    ],
-    "title": "Tom Cruise",
-    "subtitle": "the acting filmography, in release order",
-    "kind": "films",
-    "year": "1981–2025",
-    "blurb": "45 films in release order, 1981 to 2025 — about 94 hours, 8 of them as Ethan Hunt.",
-    "accent": "#1F6F63",
-    "accentDark": "#6FD0B8",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 45
-  },
-  {
-    "slug": "spielberg",
-    "media": [
-      "movies"
-    ],
-    "title": "Steven Spielberg",
-    "subtitle": "the films he directed, in release order",
-    "kind": "films",
-    "year": "1971–",
-    "blurb": "Every feature he directed, Duel through Disclosure Day — 35 films, about 78 hours.",
-    "accent": "#7A4A1E",
-    "accentDark": "#E0A265",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 35
-  },
-  {
-    "slug": "lego-games",
-    "media": [
-      "games"
-    ],
-    "title": "Lego Games",
-    "subtitle": "the bricks first, then every licence",
-    "kind": "games",
-    "year": "1995–",
-    "blurb": "119 games — the unlicensed catalogue in one run, then the tie-ins by franchise from Lego Star Wars on.",
-    "accent": "#C4372A",
-    "accentDark": "#F0837A",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 119,
-    "random": true
-  },
-  {
-    "slug": "godzilla",
-    "media": [
-      "movies"
-    ],
-    "title": "Godzilla",
-    "subtitle": "every film era by era, Godzilla Fest shorts included",
-    "kind": "films",
-    "year": "1954–",
-    "blurb": "38 films from 1954 to 2024, the Monarch series, and all 8 Godzilla Fest shorts.",
-    "accent": "#2E6B3F",
-    "accentDark": "#7FD096",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 47
-  },
-  {
-    "slug": "time-loops",
-    "media": [
-      "movies",
-      "tv"
-    ],
-    "title": "Time Loops",
-    "subtitle": "the same day, again — films, episodes, whole shows",
-    "kind": "films & episodes",
+    "title": "X-Men",
+    "subtitle": "the comprehensive reading list — both flagships, complete",
+    "kind": "comics",
     "year": "1963–",
-    "blurb": "145 films, 36 single episodes and 8 whole series where the day repeats — the group's picks plus every list the Discord brought in. Watch in any order.",
-    "accent": "#6B2E7A",
-    "accentDark": "#C08FE0",
+    "popularity": 86,
+    "blurb": "Every issue of the two flagship lineages from 1963 to the fall of Krakoa — about 1645 issues — with the crossovers spliced in where you read them.",
+    "accent": "#B08A2E",
+    "accentDark": "#E8C45C",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 189,
-    "random": true
+    "total": 971
   },
   {
-    "slug": "columbo",
+    "slug": "middle-earth",
     "media": [
-      "movies",
-      "tv"
-    ],
-    "title": "Columbo",
-    "subtitle": "every case in broadcast order, pilots included",
-    "kind": "tv movies",
-    "year": "1968–2003",
-    "blurb": "All 69 feature-length cases in broadcast order — two pilots, the NBC seventies, and the ABC revival films.",
-    "accent": "#8A7B5C",
-    "accentDark": "#D9C9A3",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 69
-  },
-  {
-    "slug": "kurosawa",
-    "media": [
+      "books",
       "movies"
     ],
-    "title": "Akira Kurosawa",
-    "subtitle": "the thirty features, in release order",
-    "kind": "films",
-    "year": "1943–1993",
-    "blurb": "Every feature he directed, Sanshiro Sugata through Madadayo — 30 films, about 61 hours.",
-    "accent": "#5A2E28",
-    "accentDark": "#D08A80",
+    "title": "Middle-earth",
+    "subtitle": "Tolkien's books and Jackson's films",
+    "kind": "books & films",
+    "year": "1937–2014",
+    "popularity": 85,
+    "blurb": "The Hobbit to The Silmarillion with the posthumous volumes optional, and Peter Jackson's six films weighted by runtime — the page and the screen, one list.",
+    "accent": "#4A6B2A",
+    "accentDark": "#E3C060",
     "unit": {
-      "one": "film",
-      "many": "films"
+      "one": "entry",
+      "many": "entries"
     },
-    "total": 30
-  },
-  {
-    "slug": "hitchcock",
-    "media": [
-      "movies"
-    ],
-    "title": "Alfred Hitchcock",
-    "subtitle": "the features he directed, silents through Family Plot",
-    "kind": "films",
-    "year": "1925–1976",
-    "blurb": "Every feature he directed, The Pleasure Garden through Family Plot — 54 films, about 88 hours.",
-    "accent": "#3A3A45",
-    "accentDark": "#B8B8D0",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 54
-  },
-  {
-    "slug": "a24",
-    "media": [
-      "movies"
-    ],
-    "title": "A24",
-    "subtitle": "every film with a release date, in order",
-    "kind": "films",
-    "year": "2013–",
-    "blurb": "Everything A24 has released or dated, A Glimpse Inside the Mind of Charles Swan III through Elden Ring — 211 films, about 331 hours.",
-    "accent": "#111111",
-    "accentDark": "#E8E8E8",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 211
-  },
-  {
-    "slug": "the-sopranos",
-    "media": [
-      "tv"
-    ],
-    "title": "The Sopranos",
-    "subtitle": "every episode across six seasons",
-    "kind": "tv",
-    "year": "1999–2007",
-    "blurb": "All 86 episodes in broadcast order — six seasons, two families, one New Jersey.",
-    "accent": "#6B1F1F",
-    "accentDark": "#D97070",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 86
-  },
-  {
-    "slug": "the-wire",
-    "media": [
-      "tv"
-    ],
-    "title": "The Wire",
-    "subtitle": "every episode, one institution at a time",
-    "kind": "tv",
-    "year": "2002–2008",
-    "blurb": "All 60 episodes in broadcast order — five seasons of Baltimore, a different institution each year.",
-    "accent": "#2E4A5F",
-    "accentDark": "#7FA8C9",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 60
+    "total": 15
   },
   {
     "slug": "breaking-bad",
@@ -842,6 +319,7 @@
     "subtitle": "the whole universe in release order — with El Camino and Better Call Saul",
     "kind": "tv & film",
     "year": "2008–2022",
+    "popularity": 84,
     "blurb": "All 62 episodes, El Camino, and Better Call Saul's 63 — one universe, 126 entries, in the order it arrived.",
     "accent": "#2E5F2E",
     "accentDark": "#7FC97F",
@@ -852,148 +330,43 @@
     "total": 126
   },
   {
-    "slug": "bond",
+    "slug": "spielberg",
     "media": [
       "movies"
     ],
-    "title": "James Bond",
-    "subtitle": "every Bond film in release order, in sections per actor",
+    "title": "Steven Spielberg",
+    "subtitle": "the films he directed, in release order",
     "kind": "films",
-    "year": "1962–2021",
-    "blurb": "All 25 Eon films in release order, grouped by Bond actor, plus the two oddities made outside Eon. The Craig arc is the serialized spine.",
-    "accent": "#1F1F2E",
-    "accentDark": "#C9B458",
+    "year": "1971–",
+    "popularity": 84,
+    "blurb": "Every feature he directed, Duel through Disclosure Day — 35 films, about 78 hours.",
+    "accent": "#7A4A1E",
+    "accentDark": "#E0A265",
     "unit": {
       "one": "film",
       "many": "films"
     },
-    "total": 27
+    "total": 35
   },
   {
-    "slug": "alien-predator",
+    "slug": "dc-anthology",
     "media": [
-      "movies"
+      "movies",
+      "tv"
     ],
-    "title": "Alien & Predator",
-    "subtitle": "both franchises in one release-order run",
-    "kind": "films",
-    "year": "1979–",
-    "blurb": "16 films — 7 Alien, 7 Predator, 2 crossovers — and one television season, in the order they came out: about 37 hours.",
-    "accent": "#1E3A2E",
-    "accentDark": "#7FBFA0",
+    "title": "DC Anthology",
+    "subtitle": "every live-action DC film and series, in release order",
+    "kind": "films & shows",
+    "year": "1951–",
+    "popularity": 82,
+    "blurb": "55 films and 139 seasons of television, about 1754 hours, in the order they came out.",
+    "accent": "#1F5FA8",
+    "accentDark": "#6FA8E8",
     "unit": {
-      "one": "film",
-      "many": "films"
+      "one": "entry",
+      "many": "entries"
     },
-    "total": 17
-  },
-  {
-    "slug": "jojo",
-    "media": [
-      "anime"
-    ],
-    "title": "JoJo's Bizarre Adventure",
-    "subtitle": "every episode of the David Production anime",
-    "kind": "anime",
-    "year": "2012–2022",
-    "blurb": "All 190 episodes of the David Production anime in order — six parts, six JoJos, one bloodline.",
-    "accent": "#7A2E5F",
-    "accentDark": "#E080BF",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 190
-  },
-  {
-    "slug": "dragon-ball",
-    "media": [
-      "anime"
-    ],
-    "title": "Dragon Ball (anime)",
-    "subtitle": "",
-    "kind": "anime",
-    "year": "1986–2025",
-    "blurb": "659 episodes in broadcast order, Dragon Ball through Daima; Kai is one optional row.",
-    "accent": "#C4661F",
-    "accentDark": "#F0A45C",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 660
-  },
-  {
-    "slug": "dragon-ball-manga",
-    "media": [
-      "manga"
-    ],
-    "title": "Dragon Ball (manga)",
-    "subtitle": "Akira Toriyama",
-    "kind": "manga",
-    "year": "1984–",
-    "blurb": "The original 519 chapters in 42 volumes, then Dragon Ball Super — 104 so far, still running.",
-    "accent": "#B03A2E",
-    "accentDark": "#EF8A7A",
-    "unit": {
-      "one": "chapter",
-      "many": "chapters"
-    },
-    "total": 623
-  },
-  {
-    "slug": "zelda",
-    "media": [
-      "games"
-    ],
-    "title": "The Legend of Zelda",
-    "subtitle": "mainline in release order, remakes and spin-offs marked",
-    "kind": "games",
-    "year": "1986–",
-    "blurb": "31 games — the mainline 21 plus remakes and spin-offs, about 679 hours of story, 463 of it mainline.",
-    "accent": "#2E6B4F",
-    "accentDark": "#7FD0A8",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 31
-  },
-  {
-    "slug": "yakuza",
-    "media": [
-      "games"
-    ],
-    "title": "Yakuza / Like a Dragon",
-    "subtitle": "the mainline saga in release order, Judgment and the samurai games included",
-    "kind": "games",
-    "year": "2005–",
-    "blurb": "18 games in release order — about 417 hours of story, 275 of it the saga spine.",
-    "accent": "#8A1F3A",
-    "accentDark": "#E86A8F",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 18
-  },
-  {
-    "slug": "fromsoft",
-    "media": [
-      "games"
-    ],
-    "title": "FromSoftware",
-    "subtitle": "the Souls line and its adjacents, in release order",
-    "kind": "games",
-    "year": "2009–",
-    "blurb": "10 games — about 337 hours of story, 266 of it the Souls line proper.",
-    "accent": "#3A3530",
-    "accentDark": "#C9B8A0",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 10
+    "total": 194
   },
   {
     "slug": "final-fantasy",
@@ -1004,6 +377,7 @@
     "subtitle": "the sixteen numbered games, their sequels, and the VII remake line",
     "kind": "games",
     "year": "1987–",
+    "popularity": 82,
     "blurb": "21 games — about 832 hours of story, 661 of it the sixteen numbered ones.",
     "accent": "#2E3A8A",
     "accentDark": "#8A96E8",
@@ -1014,6 +388,82 @@
     "total": 21
   },
   {
+    "slug": "seinfeld",
+    "media": [
+      "tv"
+    ],
+    "title": "Seinfeld",
+    "subtitle": "every episode across nine seasons",
+    "kind": "tv",
+    "year": "1989–1998",
+    "popularity": 82,
+    "blurb": "All 180 episodes in broadcast order — nine seasons about nothing, from The Seinfeld Chronicles to The Finale.",
+    "accent": "#B3282D",
+    "accentDark": "#E8B93F",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 171
+  },
+  {
+    "slug": "the-sopranos",
+    "media": [
+      "tv"
+    ],
+    "title": "The Sopranos",
+    "subtitle": "every episode across six seasons",
+    "kind": "tv",
+    "year": "1999–2007",
+    "popularity": 81,
+    "blurb": "All 86 episodes in broadcast order — six seasons, two families, one New Jersey.",
+    "accent": "#6B1F1F",
+    "accentDark": "#D97070",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 86
+  },
+  {
+    "slug": "godzilla",
+    "media": [
+      "movies"
+    ],
+    "title": "Godzilla",
+    "subtitle": "every film era by era, Godzilla Fest shorts included",
+    "kind": "films",
+    "year": "1954–",
+    "popularity": 80,
+    "blurb": "38 films from 1954 to 2024, the Monarch series, and all 8 Godzilla Fest shorts.",
+    "accent": "#2E6B3F",
+    "accentDark": "#7FD096",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 47
+  },
+  {
+    "slug": "one-piece-manga",
+    "media": [
+      "manga"
+    ],
+    "title": "One Piece (manga)",
+    "subtitle": "Eiichiro Oda",
+    "kind": "manga",
+    "year": "1997–",
+    "popularity": 80,
+    "blurb": "1190 chapters across 106 volumes, still running.",
+    "accent": "#A8721F",
+    "accentDark": "#E0AE55",
+    "unit": {
+      "one": "chapter",
+      "many": "chapters"
+    },
+    "total": 1190
+  },
+  {
     "slug": "resident-evil",
     "media": [
       "games"
@@ -1022,6 +472,7 @@
     "subtitle": "mainline in release order, Code: Veronica and the remakes included",
     "kind": "games",
     "year": "1996–",
+    "popularity": 80,
     "blurb": "19 games in release order — about 198 hours of story, 109 of it the mainline spine.",
     "accent": "#5F1F1F",
     "accentDark": "#D97A7A",
@@ -1040,6 +491,7 @@
     "subtitle": "all 69 novels, Bachman included",
     "kind": "books",
     "year": "1974–2026",
+    "popularity": 80,
     "blurb": "Every novel in publication order, Carrie to Other Worlds Than These — 69 of them, the seven Richard Bachman books included, each counting as one.",
     "accent": "#4A1F1F",
     "accentDark": "#C97070",
@@ -1050,754 +502,61 @@
     "total": 69
   },
   {
-    "slug": "robin-williams",
+    "slug": "ghibli",
     "media": [
       "movies"
     ],
-    "title": "Robin Williams",
-    "subtitle": "the film roles, in release order",
+    "title": "Studio Ghibli",
+    "subtitle": "every Ghibli film in release order, built around Miyazaki's",
     "kind": "films",
-    "year": "1977–2023",
-    "blurb": "74 films across five decades — about 125 hours, from the stand-up years to the posthumous releases.",
-    "accent": "#8A4A2E",
-    "accentDark": "#E89A6F",
+    "year": "1979–",
+    "popularity": 79,
+    "blurb": "26 films in release order. The 12 Miyazaki directed are the spine; the rest are marked with who made them.",
+    "accent": "#3F7A55",
+    "accentDark": "#7FC79A",
     "unit": {
       "one": "film",
       "many": "films"
     },
-    "total": 74
+    "total": 26
   },
   {
-    "slug": "scorsese",
+    "slug": "tom-cruise",
     "media": [
       "movies"
     ],
-    "title": "Martin Scorsese",
-    "subtitle": "the directed features, plus the documentaries",
+    "title": "Tom Cruise",
+    "subtitle": "the acting filmography, in release order",
     "kind": "films",
-    "year": "1967–2023",
-    "blurb": "26 features from Who's That Knocking at My Door to Killers of the Flower Moon, with the 13 feature documentaries as optional rows — about 88 hours.",
-    "accent": "#5E1F38",
-    "accentDark": "#D67F92",
+    "year": "1981–2025",
+    "popularity": 79,
+    "blurb": "45 films in release order, 1981 to 2025 — about 94 hours, 8 of them as Ethan Hunt.",
+    "accent": "#1F6F63",
+    "accentDark": "#6FD0B8",
     "unit": {
       "one": "film",
       "many": "films"
     },
-    "total": 39
+    "total": 45
   },
   {
-    "slug": "tarantino",
-    "media": [
-      "movies"
-    ],
-    "title": "Quentin Tarantino",
-    "subtitle": "the ten features, in release order",
-    "kind": "films",
-    "year": "1992–2019",
-    "blurb": "All ten theatrical features — or nine, if you count Kill Bill the way he does. About 24 hours.",
-    "accent": "#2B2612",
-    "accentDark": "#F2C93C",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 10
-  },
-  {
-    "slug": "coen-brothers",
-    "media": [
-      "movies"
-    ],
-    "title": "The Coen Brothers",
-    "subtitle": "eighteen together, four apart",
-    "kind": "films",
-    "year": "1984–2025",
-    "blurb": "The eighteen features Joel and Ethan made together, plus the four solo films with a note saying whose — about 38 hours.",
-    "accent": "#6E5533",
-    "accentDark": "#C9A87E",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 22
-  },
-  {
-    "slug": "fincher",
-    "media": [
-      "movies"
-    ],
-    "title": "David Fincher",
-    "subtitle": "the directed features",
-    "kind": "films",
-    "year": "1992–2023",
-    "blurb": "Twelve features, Alien 3 to The Killer — about 27 hours of controlled dread.",
-    "accent": "#33484A",
-    "accentDark": "#93B8BA",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 12
-  },
-  {
-    "slug": "carpenter",
-    "media": [
-      "movies"
-    ],
-    "title": "John Carpenter",
-    "subtitle": "the directed features",
-    "kind": "films",
-    "year": "1974–2010",
-    "blurb": "Eighteen theatrical features and three optional TV films, Dark Star to The Ward — about 35 hours.",
-    "accent": "#1F6E91",
-    "accentDark": "#72CDEE",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 21
-  },
-  {
-    "slug": "nicolas-cage",
-    "media": [
-      "movies"
-    ],
-    "title": "Nicolas Cage",
-    "subtitle": "the film roles, in release order",
-    "kind": "films",
-    "year": "1982–2025",
-    "blurb": "113 films across five decades — about 194 hours, from Nicolas Coppola's bit parts to the renaissance.",
-    "accent": "#B8860B",
-    "accentDark": "#F2B845",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 113
-  },
-  {
-    "slug": "satoshi-kon",
-    "media": [
-      "anime"
-    ],
-    "title": "Satoshi Kon",
-    "subtitle": "everything he directed",
-    "kind": "anime",
-    "year": "1997–2008",
-    "blurb": "Four films, thirteen episodes of Paranoia Agent, and a one-minute short — the complete directed work, about 11 hours.",
-    "accent": "#8B3A85",
-    "accentDark": "#E794DC",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 18
-  },
-  {
-    "slug": "pixar",
-    "media": [
-      "movies"
-    ],
-    "title": "Pixar",
-    "subtitle": "every feature, in release order",
-    "kind": "films",
-    "year": "1995–2026",
-    "blurb": "All 31 Pixar features in release order — about 52 hours — plus the 20 classic theatrical shorts as optional extras.",
-    "accent": "#1E5FA8",
-    "accentDark": "#F0C24B",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 51
-  },
-  {
-    "slug": "muppets",
-    "media": [
-      "movies",
-      "tv"
-    ],
-    "title": "The Muppets",
-    "subtitle": "the films in release order, plus the shows",
-    "kind": "films & series",
-    "year": "1955–2023",
-    "blurb": "All 8 theatrical Muppet films — about 13 hours — plus one row per television series, The Muppet Show included.",
-    "accent": "#3E7A33",
-    "accentDark": "#7FC95E",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 21
-  },
-  {
-    "slug": "palme-dor",
-    "media": [
-      "movies"
-    ],
-    "title": "Palme d'Or",
-    "subtitle": "every top prize at Cannes, 1946 on",
-    "kind": "films",
-    "year": "1946–2026",
-    "blurb": "All 102 films that took the top prize at Cannes — the Grand Prix years included — about 203 hours, one row per winner.",
-    "accent": "#A6252D",
-    "accentDark": "#E9BE4A",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 102,
-    "random": true
-  },
-  {
-    "slug": "sight-and-sound",
-    "media": [
-      "movies"
-    ],
-    "title": "Sight & Sound 100",
-    "subtitle": "the 2022 critics' poll, as ranked",
-    "kind": "films",
-    "year": "1924–2019",
-    "blurb": "The 100 greatest films of all time per Sight and Sound's 2022 critics' poll — about 204 hours, ties and all. Watch in any order; the ranks are the argument.",
-    "accent": "#33383D",
-    "accentDark": "#E2554A",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 100,
-    "random": true
-  },
-  {
-    "slug": "universal-monsters",
-    "media": [
-      "movies"
-    ],
-    "title": "Universal Monsters",
-    "subtitle": "the classic cycle, by monster",
-    "kind": "films",
-    "year": "1923–1956",
-    "blurb": "All 34 films of the classic cycle, grouped by monster — about 44 hours from the Hunchback to the last Creature.",
-    "accent": "#4A6357",
-    "accentDark": "#8FB09E",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 34,
-    "random": true
-  },
-  {
-    "slug": "bad-movie-night",
-    "media": [
-      "movies"
-    ],
-    "title": "Bad Movie Night",
-    "subtitle": "so bad they're appointment viewing",
-    "kind": "films",
-    "year": "1953–2019",
-    "blurb": "34 famously terrible films worth watching with people you like — Plan 9 to Cats, best served loud. Any order.",
-    "accent": "#8E2A6F",
-    "accentDark": "#E06AC0",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 34,
-    "random": true
-  },
-  {
-    "slug": "body-swap",
-    "media": [
-      "movies"
-    ],
-    "title": "Body Swap",
-    "subtitle": "who's in whose body, by decade",
-    "kind": "films",
-    "year": "1936–2026",
-    "blurb": "69 body-swap films from Wikipedia's own list — four Freaky Fridays included — with who swaps and how on every note. Watch in any order.",
-    "accent": "#0F7A78",
-    "accentDark": "#F2913D",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 69,
-    "random": true
-  },
-  {
-    "slug": "real-time-films",
-    "media": [
-      "movies"
-    ],
-    "title": "Real Time",
-    "subtitle": "films where screen minutes are story minutes",
-    "kind": "films",
-    "year": "1928–2026",
-    "blurb": "68 films that unfold in real time, from Wikipedia's own list — the runtime is the plot, so it's on every note. Any order.",
-    "accent": "#B4292F",
-    "accentDark": "#F0E6C8",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 68,
-    "random": true
-  },
-  {
-    "slug": "bottle-episodes",
-    "media": [
-      "tv"
-    ],
-    "title": "Bottle Episodes",
-    "subtitle": "one set, one cast, forty minutes",
-    "kind": "episodes",
-    "year": "1964–2024",
-    "blurb": "43 famous bottle episodes across 32 shows — the stuck-in-a-room hours TV brags about. One row each, any order.",
-    "accent": "#A8681C",
-    "accentDark": "#EBAE4A",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 43,
-    "random": true
-  },
-  {
-    "slug": "one-location-films",
-    "media": [
-      "movies"
-    ],
-    "title": "One Location",
-    "subtitle": "films that never leave the room",
-    "kind": "films",
-    "year": "1944–2021",
-    "blurb": "25 films set (almost) entirely in one place — a jury room, a lifeboat, a coffin, a car. Any order; every note names the room.",
-    "accent": "#46586B",
-    "accentDark": "#D9A94E",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 25,
-    "random": true
-  },
-  {
-    "slug": "doctor-who",
-    "media": [
-      "tv"
-    ],
-    "title": "Doctor Who",
-    "subtitle": "every televised story, 1963–2025",
-    "kind": "tv",
-    "year": "1963–2025",
-    "blurb": "All of it, in broadcast order — 26 seasons of classic serials, the TV movie, and 15 revival series: 355 entries covering 892 episodes.",
-    "accent": "#003B6F",
-    "accentDark": "#6FA8DC",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 355
-  },
-  {
-    "slug": "mash",
-    "media": [
-      "tv"
-    ],
-    "title": "M*A*S*H",
-    "subtitle": "all 256 episodes, eleven seasons",
-    "kind": "tv",
-    "year": "1972–1983",
-    "blurb": "The 4077th in broadcast order — 256 episodes over eleven seasons, for a war that lasted three years.",
-    "accent": "#4B5320",
-    "accentDark": "#A9B46A",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 251
-  },
-  {
-    "slug": "seinfeld",
-    "media": [
-      "tv"
-    ],
-    "title": "Seinfeld",
-    "subtitle": "every episode across nine seasons",
-    "kind": "tv",
-    "year": "1989–1998",
-    "blurb": "All 180 episodes in broadcast order — nine seasons about nothing, from The Seinfeld Chronicles to The Finale.",
-    "accent": "#B3282D",
-    "accentDark": "#E8B93F",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 171
-  },
-  {
-    "slug": "frasier",
-    "media": [
-      "tv"
-    ],
-    "title": "Frasier",
-    "subtitle": "the original run — eleven seasons, 1993–2004",
-    "kind": "tv",
-    "year": "1993–2004",
-    "blurb": "All 264 episodes of the original run in broadcast order — eleven seasons of tossed salads and scrambled eggs.",
-    "accent": "#46586B",
-    "accentDark": "#E2D3A8",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 256
-  },
-  {
-    "slug": "mst3k",
-    "media": [
-      "tv"
-    ],
-    "title": "Mystery Science Theater 3000",
-    "subtitle": "every experiment, KTMA to the Gizmoplex",
-    "kind": "tv",
-    "year": "1988–2022",
-    "blurb": "All 232 experiments in air order — the KTMA year, the cable runs, the movie, and the revivals, each row the film it riffs.",
-    "accent": "#7A6200",
-    "accentDark": "#F2C230",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 232
-  },
-  {
-    "slug": "twilight-zone",
-    "media": [
-      "tv"
-    ],
-    "title": "The Twilight Zone",
-    "subtitle": "the original series — five seasons, 1959–1964",
-    "kind": "tv",
-    "year": "1959–64",
-    "blurb": "All 156 episodes of the 1959 original — standalone doors into the fifth dimension, built for the random picker.",
-    "accent": "#443E63",
-    "accentDark": "#B4ABDE",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 156,
-    "random": true
-  },
-  {
-    "slug": "the-simpsons",
-    "media": [
-      "tv"
-    ],
-    "title": "The Simpsons",
-    "subtitle": "the golden age — seasons 1–8",
-    "kind": "tv",
-    "year": "1989–97",
-    "blurb": "Seasons 1 through 8, one row per episode — 178 episodes of the golden age, and nothing after.",
-    "accent": "#C2477E",
-    "accentDark": "#F2C744",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 178
-  },
-  {
-    "slug": "buffy-angel",
-    "media": [
-      "tv"
-    ],
-    "title": "Buffy & Angel",
-    "subtitle": "two shows woven into one broadcast order",
-    "kind": "tv",
-    "year": "1997–2004",
-    "blurb": "All 144 Buffy and 110 Angel episodes in one air-order list — four overlap years interleaved night by night.",
-    "accent": "#6E4530",
-    "accentDark": "#FF7EB6",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 254
-  },
-  {
-    "slug": "lost",
-    "media": [
-      "tv"
-    ],
-    "title": "Lost",
-    "subtitle": "every numbered episode, six seasons",
-    "kind": "tv",
-    "year": "2004–10",
-    "blurb": "All 121 episodes in broadcast order — six seasons, one island, counted the way the season tables count them.",
-    "accent": "#1B2D20",
-    "accentDark": "#96E8A9",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 121
-  },
-  {
-    "slug": "mad-men",
-    "media": [
-      "tv"
-    ],
-    "title": "Mad Men",
-    "subtitle": "every episode across seven seasons",
-    "kind": "tv",
-    "year": "2007–15",
-    "blurb": "All 92 episodes in broadcast order — seven seasons of Sterling Cooper and what it becomes.",
-    "accent": "#A63A31",
-    "accentDark": "#C98B4B",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 92
-  },
-  {
-    "slug": "deadwood",
-    "media": [
-      "movies",
-      "tv"
-    ],
-    "title": "Deadwood",
-    "subtitle": "three seasons and the film that ends it",
-    "kind": "tv & film",
-    "year": "2004–19",
-    "blurb": "All 36 episodes and the 2019 film in broadcast order — three seasons of the camp, then the goodbye.",
-    "accent": "#4C3B26",
-    "accentDark": "#C9A227",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 37
-  },
-  {
-    "slug": "ghost-in-the-shell",
-    "media": [
-      "anime"
-    ],
-    "title": "Ghost in the Shell",
-    "subtitle": "everything animated, by continuity",
-    "kind": "anime",
-    "year": "1995–2022",
-    "blurb": "Three animated continuities — the Oshii films, Stand Alone Complex through SAC_2045, and Arise — 86 entries, about 41 hours.",
-    "accent": "#186A66",
-    "accentDark": "#F5933E",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 86
-  },
-  {
-    "slug": "cowboy-bebop",
-    "media": [
-      "anime"
-    ],
-    "title": "Cowboy Bebop",
-    "subtitle": "the 26 sessions and the film",
-    "kind": "anime",
-    "year": "1998–2001",
-    "blurb": "All 26 sessions and Knockin' on Heaven's Door — about 12 hours of bounty hunting, in order.",
-    "accent": "#2B3A67",
-    "accentDark": "#FF5C5C",
-    "unit": {
-      "one": "session",
-      "many": "sessions"
-    },
-    "total": 27
-  },
-  {
-    "slug": "urusei-yatsura",
-    "media": [
-      "anime"
-    ],
-    "title": "Urusei Yatsura",
-    "subtitle": "the 1981 series, the films, the OVAs, the remake",
-    "kind": "anime",
-    "year": "1981–2024",
-    "blurb": "All 194 episodes of the original run, six films, ten OVAs and the 2022 remake — about 109 hours of Lum.",
-    "accent": "#4C7A1D",
-    "accentDark": "#FFD447",
-    "unit": {
-      "one": "entry",
-      "many": "entries"
-    },
-    "total": 256
-  },
-  {
-    "slug": "berserk-manga",
+    "slug": "dragon-ball-manga",
     "media": [
       "manga"
     ],
-    "title": "Berserk",
-    "subtitle": "Kentaro Miura · the manga, by volume",
+    "title": "Dragon Ball (manga)",
+    "subtitle": "Akira Toriyama",
     "kind": "manga",
-    "year": "1989–",
-    "blurb": "All 43 collected volumes across the five arcs, from the Black Swordsman to Fantasia — ongoing.",
-    "accent": "#2A1215",
-    "accentDark": "#E03A3A",
+    "year": "1984–",
+    "popularity": 78,
+    "blurb": "The original 519 chapters in 42 volumes, then Dragon Ball Super — 104 so far, still running.",
+    "accent": "#B03A2E",
+    "accentDark": "#EF8A7A",
     "unit": {
-      "one": "volume",
-      "many": "volumes"
+      "one": "chapter",
+      "many": "chapters"
     },
-    "total": 43
-  },
-  {
-    "slug": "junji-ito",
-    "media": [
-      "books",
-      "manga"
-    ],
-    "title": "Junji Ito",
-    "subtitle": "a reading list of the major works",
-    "kind": "manga",
-    "year": "1987–2020",
-    "blurb": "Tomie to The Liminal Zone — 22 books: the long works, the story collections, and two oddities.",
-    "accent": "#1B1B1B",
-    "accentDark": "#E9E4D8",
-    "unit": {
-      "one": "book",
-      "many": "books"
-    },
-    "total": 22
-  },
-  {
-    "slug": "mario",
-    "media": [
-      "games"
-    ],
-    "title": "Super Mario",
-    "subtitle": "the mainline platformers in release order, 2D and 3D",
-    "kind": "games",
-    "year": "1985–",
-    "blurb": "All 19 mainline platformers, Super Mario Bros. to Wonder — about 145 hours of story.",
-    "accent": "#C7231E",
-    "accentDark": "#5C94FC",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 19
-  },
-  {
-    "slug": "metroid",
-    "media": [
-      "games"
-    ],
-    "title": "Metroid",
-    "subtitle": "the 2D saga and the Prime line, remakes included",
-    "kind": "games",
-    "year": "1986–",
-    "blurb": "14 games across two lines — about 133 hours of story, 115 of it mainline.",
-    "accent": "#B34A0C",
-    "accentDark": "#45D6E8",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 14
-  },
-  {
-    "slug": "castlevania",
-    "media": [
-      "games"
-    ],
-    "title": "Castlevania",
-    "subtitle": "the whip canon: classic, Metroidvania, and the reboot",
-    "kind": "games",
-    "year": "1986–",
-    "blurb": "17 games — the classics, Symphony and the handheld six, and Lords of Shadow; about 126 hours of story.",
-    "accent": "#4E3220",
-    "accentDark": "#F2A83B",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 17
-  },
-  {
-    "slug": "half-life-portal",
-    "media": [
-      "games"
-    ],
-    "title": "Half-Life & Portal",
-    "subtitle": "Valve's story canon in release order",
-    "kind": "games",
-    "year": "1998–",
-    "blurb": "9 games in one universe — about 66 hours of story, cliffhanger included.",
-    "accent": "#CC6A00",
-    "accentDark": "#3D9BE8",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 9
-  },
-  {
-    "slug": "silent-hill",
-    "media": [
-      "games"
-    ],
-    "title": "Silent Hill",
-    "subtitle": "the mainline series in release order",
-    "kind": "games",
-    "year": "1999–",
-    "blurb": "10 games — about 80 hours of story, 47 of it the essential path.",
-    "accent": "#6B655E",
-    "accentDark": "#C97455",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 10
-  },
-  {
-    "slug": "halo",
-    "media": [
-      "games"
-    ],
-    "title": "Halo",
-    "subtitle": "the campaigns in release order, Wars included",
-    "kind": "games",
-    "year": "2001–",
-    "blurb": "10 campaigns — about 84 hours of story, 67 of it the shooter line.",
-    "accent": "#4A7040",
-    "accentDark": "#7AC8F5",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 10
-  },
-  {
-    "slug": "ace-attorney",
-    "media": [
-      "games"
-    ],
-    "title": "Ace Attorney",
-    "subtitle": "mainline, Investigations, and the Great duology",
-    "kind": "games",
-    "year": "2001–",
-    "blurb": "10 games of courtroom drama — about 263 hours of story, which is the appeal.",
-    "accent": "#263C6B",
-    "accentDark": "#F4764B",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 10
+    "total": 623
   },
   {
     "slug": "fallout",
@@ -1808,6 +567,7 @@
     "subtitle": "the mainline games in release order, story DLC included",
     "kind": "games",
     "year": "1997–",
+    "popularity": 78,
     "blurb": "5 mainline games, 12 story DLC and 3 asides — about 250 hours of story, 124 of it the mainline.",
     "accent": "#23538F",
     "accentDark": "#D9A045",
@@ -1818,6 +578,63 @@
     "total": 20
   },
   {
+    "slug": "tarantino",
+    "media": [
+      "movies"
+    ],
+    "title": "Quentin Tarantino",
+    "subtitle": "the ten features, in release order",
+    "kind": "films",
+    "year": "1992–2019",
+    "popularity": 78,
+    "blurb": "All ten theatrical features — or nine, if you count Kill Bill the way he does. About 24 hours.",
+    "accent": "#2B2612",
+    "accentDark": "#F2C93C",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 10
+  },
+  {
+    "slug": "hitchcock",
+    "media": [
+      "movies"
+    ],
+    "title": "Alfred Hitchcock",
+    "subtitle": "the features he directed, silents through Family Plot",
+    "kind": "films",
+    "year": "1925–1976",
+    "popularity": 77,
+    "blurb": "Every feature he directed, The Pleasure Garden through Family Plot — 54 films, about 88 hours.",
+    "accent": "#3A3A45",
+    "accentDark": "#B8B8D0",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 54
+  },
+  {
+    "slug": "doctor-who",
+    "media": [
+      "tv"
+    ],
+    "title": "Doctor Who",
+    "subtitle": "every televised story, 1963–2025",
+    "kind": "tv",
+    "year": "1963–2025",
+    "popularity": 77,
+    "blurb": "All of it, in broadcast order — 26 seasons of classic serials, the TV movie, and 15 revival series: 355 entries covering 892 episodes.",
+    "accent": "#003B6F",
+    "accentDark": "#6FA8DC",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 355
+  },
+  {
     "slug": "elder-scrolls",
     "media": [
       "games"
@@ -1826,6 +643,7 @@
     "subtitle": "Arena to Skyrim in release order, expansions included",
     "kind": "games",
     "year": "1994–",
+    "popularity": 77,
     "blurb": "5 mainline games, 5 expansions and 3 asides — about 286 hours of story, 163 of it the mainline.",
     "accent": "#8A6A28",
     "accentDark": "#E3C46B",
@@ -1836,134 +654,175 @@
     "total": 13
   },
   {
-    "slug": "persona",
+    "slug": "alien-predator",
+    "media": [
+      "movies"
+    ],
+    "title": "Alien & Predator",
+    "subtitle": "both franchises in one release-order run",
+    "kind": "films",
+    "year": "1979–",
+    "popularity": 76,
+    "blurb": "16 films — 7 Alien, 7 Predator, 2 crossovers — and one television season, in the order they came out: about 37 hours.",
+    "accent": "#1E3A2E",
+    "accentDark": "#7FBFA0",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 17
+  },
+  {
+    "slug": "halo",
     "media": [
       "games"
     ],
-    "title": "Persona",
-    "subtitle": "the mainline RPGs in release order, spin-offs cut",
+    "title": "Halo",
+    "subtitle": "the campaigns in release order, Wars included",
     "kind": "games",
-    "year": "1996–",
-    "blurb": "7 games and about 431 hours of story — these are 60-to-100-hour RPGs, and that total is not a typo. The modern trilogy alone is 252.",
-    "accent": "#2D3C93",
-    "accentDark": "#EF4B5E",
+    "year": "2001–",
+    "popularity": 76,
+    "blurb": "10 campaigns — about 84 hours of story, 67 of it the shooter line.",
+    "accent": "#4A7040",
+    "accentDark": "#7AC8F5",
     "unit": {
       "one": "game",
       "many": "games"
     },
-    "total": 7
+    "total": 10
   },
   {
-    "slug": "secret",
+    "slug": "sherlock-holmes",
     "media": [
-      "other"
+      "books"
     ],
-    "title": "Secret",
-    "subtitle": "",
-    "kind": "",
-    "year": "",
-    "blurb": "",
-    "accent": "#6C7178",
-    "accentDark": "#8E9298",
+    "title": "Sherlock Holmes",
+    "subtitle": "the complete canon — 60 adventures",
+    "kind": "books",
+    "year": "1887–1927",
+    "popularity": 76,
+    "blurb": "All four novels and all 56 short stories in publication order, sectioned by collection — A Study in Scarlet to the Case-Book, forty years of Baker Street.",
+    "accent": "#7A5220",
+    "accentDark": "#DFA75E",
+    "unit": {
+      "one": "story",
+      "many": "stories"
+    },
+    "total": 60
+  },
+  {
+    "slug": "kubrick",
+    "media": [
+      "movies"
+    ],
+    "title": "Stanley Kubrick",
+    "subtitle": "the thirteen features, plus A.I.",
+    "kind": "films",
+    "year": "1953–2001",
+    "popularity": 76,
+    "blurb": "The thirteen features in release order, the early shorts as optional rows, and Spielberg's A.I. as a coda — about 31 hours.",
+    "accent": "#202830",
+    "accentDark": "#B8C4CE",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 17
+  },
+  {
+    "slug": "evangelion",
+    "media": [
+      "anime"
+    ],
+    "title": "Evangelion",
+    "subtitle": "series, endings and Rebuild",
+    "kind": "anime",
+    "year": "1995–2021",
+    "popularity": 75,
+    "blurb": "36 pieces in the order they work best, with the recap marked skippable.",
+    "accent": "#6B3FA0",
+    "accentDark": "#A98AE0",
+    "unit": {
+      "one": "part",
+      "many": "parts"
+    },
+    "total": 36
+  },
+  {
+    "slug": "scorsese",
+    "media": [
+      "movies"
+    ],
+    "title": "Martin Scorsese",
+    "subtitle": "the directed features, plus the documentaries",
+    "kind": "films",
+    "year": "1967–2023",
+    "popularity": 75,
+    "blurb": "26 features from Who's That Knocking at My Door to Killers of the Flower Moon, with the 13 feature documentaries as optional rows — about 88 hours.",
+    "accent": "#5E1F38",
+    "accentDark": "#D67F92",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 39
+  },
+  {
+    "slug": "metal-gear",
+    "media": [
+      "games"
+    ],
+    "title": "Metal Gear",
+    "subtitle": "the whole saga in release order, sides and remakes included",
+    "kind": "games",
+    "year": "1987–",
+    "popularity": 74,
+    "blurb": "26 games and 4 extras — about 400 hours of story, 134 of it the saga spine.",
+    "accent": "#4A5D23",
+    "accentDark": "#9DBB61",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 0,
-    "secret": {
-      "title": "Secret"
-    }
+    "total": 30
   },
   {
-    "slug": "dragon-quest",
+    "slug": "the-wire",
     "media": [
-      "games"
+      "tv"
     ],
-    "title": "Dragon Quest",
-    "subtitle": "the mainline eleven in release order",
-    "kind": "games",
-    "year": "1986–",
-    "blurb": "Mainline I through XI — about 395 hours of story, from one-evening NES quests to the hundred-hour XI.",
-    "accent": "#1D5FB8",
-    "accentDark": "#F0953F",
+    "title": "The Wire",
+    "subtitle": "every episode, one institution at a time",
+    "kind": "tv",
+    "year": "2002–2008",
+    "popularity": 74,
+    "blurb": "All 60 episodes in broadcast order — five seasons of Baltimore, a different institution each year.",
+    "accent": "#2E4A5F",
+    "accentDark": "#7FA8C9",
     "unit": {
-      "one": "game",
-      "many": "games"
+      "one": "episode",
+      "many": "episodes"
     },
-    "total": 11
+    "total": 60
   },
   {
-    "slug": "mass-effect",
+    "slug": "cowboy-bebop",
     "media": [
-      "games"
+      "anime"
     ],
-    "title": "Mass Effect",
-    "subtitle": "the Shepard trilogy and its DLC, then Andromeda",
-    "kind": "games",
-    "year": "2007–",
-    "blurb": "The trilogy, 7 story DLC and Andromeda — about 101 hours of story, 66 of it the trilogy itself.",
-    "accent": "#B3282E",
-    "accentDark": "#F2A03D",
+    "title": "Cowboy Bebop",
+    "subtitle": "the 26 sessions and the film",
+    "kind": "anime",
+    "year": "1998–2001",
+    "popularity": 73,
+    "blurb": "All 26 sessions and Knockin' on Heaven's Door — about 12 hours of bounty hunting, in order.",
+    "accent": "#2B3A67",
+    "accentDark": "#FF5C5C",
     "unit": {
-      "one": "game",
-      "many": "games"
+      "one": "session",
+      "many": "sessions"
     },
-    "total": 11
-  },
-  {
-    "slug": "dragon-age",
-    "media": [
-      "games"
-    ],
-    "title": "Dragon Age",
-    "subtitle": "all four games in release order, expansions included",
-    "kind": "games",
-    "year": "2009–",
-    "blurb": "4 games and 2 expansions — about 161 hours of story, 142 of it the games themselves.",
-    "accent": "#33567E",
-    "accentDark": "#E15A5A",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 6
-  },
-  {
-    "slug": "indie-essentials",
-    "media": [
-      "games"
-    ],
-    "title": "Indie Essentials",
-    "subtitle": "a house canon of the modern indies, Braid to Balatro",
-    "kind": "games",
-    "year": "2008–",
-    "blurb": "24 essentials in any order — about 197 hours of story where a story clock exists, and three games that never end.",
-    "accent": "#D94F45",
-    "accentDark": "#4FC4AE",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 24,
-    "random": true
-  },
-  {
-    "slug": "discworld",
-    "media": [
-      "books"
-    ],
-    "title": "Discworld",
-    "subtitle": "Terry Pratchett — all 41 novels",
-    "kind": "books",
-    "year": "1983–2015",
-    "blurb": "Every Discworld novel in publication order, The Colour of Magic to The Shepherd's Crown, with the reading-order diagram rebuilt as storyline chips — follow one strand or read the whole Disc.",
-    "accent": "#356B58",
-    "accentDark": "#B37DF0",
-    "unit": {
-      "one": "book",
-      "many": "books"
-    },
-    "total": 41
+    "total": 27
   },
   {
     "slug": "dune",
@@ -1975,6 +834,7 @@
     "subtitle": "the novels, the continuations, the screen versions",
     "kind": "books & films",
     "year": "1965–2024",
+    "popularity": 73,
     "blurb": "Frank Herbert's six novels in publication order, the seventeen Brian Herbert & Kevin J. Anderson continuations as optional rows, and every screen Dune from Lynch to Villeneuve, weighted by runtime.",
     "accent": "#9C6414",
     "accentDark": "#7FB4E8",
@@ -1985,77 +845,158 @@
     "total": 28
   },
   {
-    "slug": "wheel-of-time",
+    "slug": "x-files",
     "media": [
-      "books"
+      "movies",
+      "tv"
     ],
-    "title": "The Wheel of Time",
-    "subtitle": "Robert Jordan — 15 books, prequel included",
-    "kind": "books",
-    "year": "1990–2013",
-    "blurb": "All fourteen novels plus New Spring in publication order, The Eye of the World to A Memory of Light — the last three completed by Brandon Sanderson from Jordan's notes.",
-    "accent": "#8C6A2F",
-    "accentDark": "#E8D9A0",
-    "unit": {
-      "one": "book",
-      "many": "books"
-    },
-    "total": 15
-  },
-  {
-    "slug": "cosmere",
-    "media": [
-      "books"
-    ],
-    "title": "Cosmere",
-    "subtitle": "Brandon Sanderson's connected universe",
-    "kind": "books",
-    "year": "2005–",
-    "blurb": "The Cosmere in publication order, one section per world — Elantris, both Mistborn eras, the Stormlight Archive with its novellas in place, and every standalone and Secret Project that belongs to the universe.",
-    "accent": "#3E4A5C",
-    "accentDark": "#9CCDE8",
-    "unit": {
-      "one": "book",
-      "many": "books"
-    },
-    "total": 27
-  },
-  {
-    "slug": "sherlock-holmes",
-    "media": [
-      "books"
-    ],
-    "title": "Sherlock Holmes",
-    "subtitle": "the complete canon — 60 adventures",
-    "kind": "books",
-    "year": "1887–1927",
-    "blurb": "All four novels and all 56 short stories in publication order, sectioned by collection — A Study in Scarlet to the Case-Book, forty years of Baker Street.",
-    "accent": "#7A5220",
-    "accentDark": "#DFA75E",
-    "unit": {
-      "one": "story",
-      "many": "stories"
-    },
-    "total": 60
-  },
-  {
-    "slug": "middle-earth",
-    "media": [
-      "books",
-      "movies"
-    ],
-    "title": "Middle-earth",
-    "subtitle": "Tolkien's books and Jackson's films",
-    "kind": "books & films",
-    "year": "1937–2014",
-    "blurb": "The Hobbit to The Silmarillion with the posthumous volumes optional, and Peter Jackson's six films weighted by runtime — the page and the screen, one list.",
-    "accent": "#4A6B2A",
-    "accentDark": "#E3C060",
+    "title": "The X-Files",
+    "subtitle": "every episode, with the films where they belong",
+    "kind": "tv & films",
+    "year": "1993–2018",
+    "popularity": 73,
+    "blurb": "All 218 episodes and both films in broadcast order — eleven seasons, two eras, one basement office.",
+    "accent": "#275E6B",
+    "accentDark": "#6FC0D0",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 15
+    "total": 219
+  },
+  {
+    "slug": "fromsoft",
+    "media": [
+      "games"
+    ],
+    "title": "FromSoftware",
+    "subtitle": "the Souls line and its adjacents, in release order",
+    "kind": "games",
+    "year": "2009–",
+    "popularity": 72,
+    "blurb": "10 games — about 337 hours of story, 266 of it the Souls line proper.",
+    "accent": "#3A3530",
+    "accentDark": "#C9B8A0",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 10
+  },
+  {
+    "slug": "twilight-zone",
+    "media": [
+      "tv"
+    ],
+    "title": "The Twilight Zone",
+    "subtitle": "the original series — five seasons, 1959–1964",
+    "kind": "tv",
+    "year": "1959–64",
+    "popularity": 72,
+    "blurb": "All 156 episodes of the 1959 original — standalone doors into the fifth dimension, built for the random picker.",
+    "accent": "#443E63",
+    "accentDark": "#B4ABDE",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 156,
+    "random": true
+  },
+  {
+    "slug": "half-life-portal",
+    "media": [
+      "games"
+    ],
+    "title": "Half-Life & Portal",
+    "subtitle": "Valve's story canon in release order",
+    "kind": "games",
+    "year": "1998–",
+    "popularity": 71,
+    "blurb": "9 games in one universe — about 66 hours of story, cliffhanger included.",
+    "accent": "#CC6A00",
+    "accentDark": "#3D9BE8",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 9
+  },
+  {
+    "slug": "jojo",
+    "media": [
+      "anime"
+    ],
+    "title": "JoJo's Bizarre Adventure",
+    "subtitle": "every episode of the David Production anime",
+    "kind": "anime",
+    "year": "2012–2022",
+    "popularity": 71,
+    "blurb": "All 190 episodes of the David Production anime in order — six parts, six JoJos, one bloodline.",
+    "accent": "#7A2E5F",
+    "accentDark": "#E080BF",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 190
+  },
+  {
+    "slug": "lost",
+    "media": [
+      "tv"
+    ],
+    "title": "Lost",
+    "subtitle": "every numbered episode, six seasons",
+    "kind": "tv",
+    "year": "2004–10",
+    "popularity": 71,
+    "blurb": "All 121 episodes in broadcast order — six seasons, one island, counted the way the season tables count them.",
+    "accent": "#1B2D20",
+    "accentDark": "#96E8A9",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 121
+  },
+  {
+    "slug": "robin-williams",
+    "media": [
+      "movies"
+    ],
+    "title": "Robin Williams",
+    "subtitle": "the film roles, in release order",
+    "kind": "films",
+    "year": "1977–2023",
+    "popularity": 71,
+    "blurb": "74 films across five decades — about 125 hours, from the stand-up years to the posthumous releases.",
+    "accent": "#8A4A2E",
+    "accentDark": "#E89A6F",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 74
+  },
+  {
+    "slug": "metroid",
+    "media": [
+      "games"
+    ],
+    "title": "Metroid",
+    "subtitle": "the 2D saga and the Prime line, remakes included",
+    "kind": "games",
+    "year": "1986–",
+    "popularity": 70,
+    "blurb": "14 games across two lines — about 133 hours of story, 115 of it mainline.",
+    "accent": "#B34A0C",
+    "accentDark": "#45D6E8",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 14
   },
   {
     "slug": "sandman",
@@ -2066,6 +1007,7 @@
     "subtitle": "Neil Gaiman — every issue, plus Death and Overture",
     "kind": "comics",
     "year": "1988–2015",
+    "popularity": 70,
     "blurb": "All 75 issues and the Special, one row each, sectioned by collected volume — then the two Death miniseries and the Overture prequel. 88 issues of the Dreaming.",
     "accent": "#1F1D2B",
     "accentDark": "#C9C9D9",
@@ -2076,41 +1018,81 @@
     "total": 88
   },
   {
-    "slug": "hellboy",
-    "media": [
-      "comics"
-    ],
-    "title": "Hellboy",
-    "subtitle": "the Mignolaverse in collected volumes",
-    "kind": "comics",
-    "year": "1994–2019",
-    "blurb": "The reading order in trades: Hellboy 1–12, the two B.P.R.D. cycles, Hellboy in Hell and The Devil You Know — 47 volumes of the main line, with the spokes optional.",
-    "accent": "#9C271B",
-    "accentDark": "#66C2BC",
-    "unit": {
-      "one": "volume",
-      "many": "volumes"
-    },
-    "total": 51
-  },
-  {
-    "slug": "zombie-films",
+    "slug": "fincher",
     "media": [
       "movies"
     ],
-    "title": "Zombie Films",
-    "subtitle": "the walking dead on film, era by era",
+    "title": "David Fincher",
+    "subtitle": "the directed features",
     "kind": "films",
-    "year": "1919–",
-    "blurb": "605 zombie features with a Wikipedia page to their name, from the voodoo pictures to the streaming wave. No order — let the picker choose.",
-    "accent": "#5A6B2E",
-    "accentDark": "#A8C46A",
+    "year": "1992–2023",
+    "popularity": 69,
+    "blurb": "Twelve features, Alien 3 to The Killer — about 27 hours of controlled dread.",
+    "accent": "#33484A",
+    "accentDark": "#93B8BA",
     "unit": {
       "one": "film",
       "many": "films"
     },
-    "total": 605,
-    "random": true
+    "total": 12
+  },
+  {
+    "slug": "silent-hill",
+    "media": [
+      "games"
+    ],
+    "title": "Silent Hill",
+    "subtitle": "the mainline series in release order",
+    "kind": "games",
+    "year": "1999–",
+    "popularity": 69,
+    "blurb": "10 games — about 80 hours of story, 47 of it the essential path.",
+    "accent": "#6B655E",
+    "accentDark": "#C97455",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 10
+  },
+  {
+    "slug": "muppets",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "The Muppets",
+    "subtitle": "the films in release order, plus the shows",
+    "kind": "films & series",
+    "year": "1955–2023",
+    "popularity": 69,
+    "blurb": "All 8 theatrical Muppet films — about 13 hours — plus one row per television series, The Muppet Show included.",
+    "accent": "#3E7A33",
+    "accentDark": "#7FC95E",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 21
+  },
+  {
+    "slug": "buffy-angel",
+    "media": [
+      "tv"
+    ],
+    "title": "Buffy & Angel",
+    "subtitle": "two shows woven into one broadcast order",
+    "kind": "tv",
+    "year": "1997–2004",
+    "popularity": 68,
+    "blurb": "All 144 Buffy and 110 Angel episodes in one air-order list — four overlap years interleaved night by night.",
+    "accent": "#6E4530",
+    "accentDark": "#FF7EB6",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 254
   },
   {
     "slug": "coppola",
@@ -2121,6 +1103,7 @@
     "subtitle": "the directed features",
     "kind": "films",
     "year": "1963–2024",
+    "popularity": 68,
     "blurb": "Twenty-three features from Dementia 13 to Megalopolis, plus the anthology he directed a segment of — about 49 hours.",
     "accent": "#33231C",
     "accentDark": "#E0B36A",
@@ -2129,6 +1112,662 @@
       "many": "films"
     },
     "total": 24
+  },
+  {
+    "slug": "kingdom-hearts",
+    "media": [
+      "games"
+    ],
+    "title": "Kingdom Hearts",
+    "subtitle": "every game, in release order",
+    "kind": "games",
+    "year": "2002–2027",
+    "popularity": 68,
+    "blurb": "31 entries in release order, about 272 hours if you do the lot. Tiered by what the story actually needs.",
+    "accent": "#3B4CA8",
+    "accentDark": "#8A98E8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 31
+  },
+  {
+    "slug": "mad-men",
+    "media": [
+      "tv"
+    ],
+    "title": "Mad Men",
+    "subtitle": "every episode across seven seasons",
+    "kind": "tv",
+    "year": "2007–15",
+    "popularity": 67,
+    "blurb": "All 92 episodes in broadcast order — seven seasons of Sterling Cooper and what it becomes.",
+    "accent": "#A63A31",
+    "accentDark": "#C98B4B",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 92
+  },
+  {
+    "slug": "mass-effect",
+    "media": [
+      "games"
+    ],
+    "title": "Mass Effect",
+    "subtitle": "the Shepard trilogy and its DLC, then Andromeda",
+    "kind": "games",
+    "year": "2007–",
+    "popularity": 67,
+    "blurb": "The trilogy, 7 story DLC and Andromeda — about 101 hours of story, 66 of it the trilogy itself.",
+    "accent": "#B3282E",
+    "accentDark": "#F2A03D",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 11
+  },
+  {
+    "slug": "coen-brothers",
+    "media": [
+      "movies"
+    ],
+    "title": "The Coen Brothers",
+    "subtitle": "eighteen together, four apart",
+    "kind": "films",
+    "year": "1984–2025",
+    "popularity": 67,
+    "blurb": "The eighteen features Joel and Ethan made together, plus the four solo films with a note saying whose — about 38 hours.",
+    "accent": "#6E5533",
+    "accentDark": "#C9A87E",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 22
+  },
+  {
+    "slug": "a24",
+    "media": [
+      "movies"
+    ],
+    "title": "A24",
+    "subtitle": "every film with a release date, in order",
+    "kind": "films",
+    "year": "2013–",
+    "popularity": 66,
+    "blurb": "Everything A24 has released or dated, A Glimpse Inside the Mind of Charles Swan III through Elden Ring — 211 films, about 331 hours.",
+    "accent": "#111111",
+    "accentDark": "#E8E8E8",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 211
+  },
+  {
+    "slug": "berserk-manga",
+    "media": [
+      "manga"
+    ],
+    "title": "Berserk",
+    "subtitle": "Kentaro Miura · the manga, by volume",
+    "kind": "manga",
+    "year": "1989–",
+    "popularity": 66,
+    "blurb": "All 43 collected volumes across the five arcs, from the Black Swordsman to Fantasia — ongoing.",
+    "accent": "#2A1215",
+    "accentDark": "#E03A3A",
+    "unit": {
+      "one": "volume",
+      "many": "volumes"
+    },
+    "total": 43
+  },
+  {
+    "slug": "frasier",
+    "media": [
+      "tv"
+    ],
+    "title": "Frasier",
+    "subtitle": "the original run — eleven seasons, 1993–2004",
+    "kind": "tv",
+    "year": "1993–2004",
+    "popularity": 66,
+    "blurb": "All 264 episodes of the original run in broadcast order — eleven seasons of tossed salads and scrambled eggs.",
+    "accent": "#46586B",
+    "accentDark": "#E2D3A8",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 256
+  },
+  {
+    "slug": "persona",
+    "media": [
+      "games"
+    ],
+    "title": "Persona",
+    "subtitle": "the mainline RPGs in release order, spin-offs cut",
+    "kind": "games",
+    "year": "1996–",
+    "popularity": 66,
+    "blurb": "7 games and about 431 hours of story — these are 60-to-100-hour RPGs, and that total is not a typo. The modern trilogy alone is 252.",
+    "accent": "#2D3C93",
+    "accentDark": "#EF4B5E",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 7
+  },
+  {
+    "slug": "gilmore-girls",
+    "media": [
+      "tv"
+    ],
+    "title": "Gilmore Girls",
+    "subtitle": "seven seasons, then the four-chapter revival",
+    "kind": "tv",
+    "year": "2000–2016",
+    "popularity": 65,
+    "blurb": "All 153 episodes of the original run in broadcast order, plus the four chapters of A Year in the Life as their own final section.",
+    "accent": "#5C4033",
+    "accentDark": "#E8B87A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 157
+  },
+  {
+    "slug": "gundam",
+    "media": [
+      "anime",
+      "manga"
+    ],
+    "title": "Gundam",
+    "subtitle": "the Universal Century and every alternate universe",
+    "kind": "anime & manga",
+    "year": "1979–",
+    "popularity": 65,
+    "blurb": "46 entries across every Gundam continuity: the Universal Century in release order, the alternate universes, and the major manga.",
+    "accent": "#3F4E9E",
+    "accentDark": "#8E9BE8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 46
+  },
+  {
+    "slug": "nicolas-cage",
+    "media": [
+      "movies"
+    ],
+    "title": "Nicolas Cage",
+    "subtitle": "the film roles, in release order",
+    "kind": "films",
+    "year": "1982–2025",
+    "popularity": 65,
+    "blurb": "113 films across five decades — about 194 hours, from Nicolas Coppola's bit parts to the renaissance.",
+    "accent": "#B8860B",
+    "accentDark": "#F2B845",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 113
+  },
+  {
+    "slug": "david-lynch",
+    "media": [
+      "movies"
+    ],
+    "title": "David Lynch",
+    "subtitle": "the features, in release order",
+    "kind": "films",
+    "year": "1977–2006",
+    "popularity": 64,
+    "blurb": "Nine features and all of Twin Peaks as one row — about 63 hours, most of it one town in Washington.",
+    "accent": "#4A3A6B",
+    "accentDark": "#A38FD9",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 10
+  },
+  {
+    "slug": "ghost-in-the-shell",
+    "media": [
+      "anime"
+    ],
+    "title": "Ghost in the Shell",
+    "subtitle": "everything animated, by continuity",
+    "kind": "anime",
+    "year": "1995–2022",
+    "popularity": 64,
+    "blurb": "Three animated continuities — the Oshii films, Stand Alone Complex through SAC_2045, and Arise — 86 entries, about 41 hours.",
+    "accent": "#186A66",
+    "accentDark": "#F5933E",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 86
+  },
+  {
+    "slug": "mash",
+    "media": [
+      "tv"
+    ],
+    "title": "M*A*S*H",
+    "subtitle": "all 256 episodes, eleven seasons",
+    "kind": "tv",
+    "year": "1972–1983",
+    "popularity": 64,
+    "blurb": "The 4077th in broadcast order — 256 episodes over eleven seasons, for a war that lasted three years.",
+    "accent": "#4B5320",
+    "accentDark": "#A9B46A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 251
+  },
+  {
+    "slug": "star-wars-games",
+    "media": [
+      "games"
+    ],
+    "title": "Star Wars Games",
+    "subtitle": "the whole catalogue, in release order",
+    "kind": "games",
+    "year": "1992–",
+    "popularity": 64,
+    "blurb": "68 games in the order they came out — 43 Legends, 21 canon, 4 Lego.",
+    "accent": "#7A5A1E",
+    "accentDark": "#D9B45C",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 68
+  },
+  {
+    "slug": "mega-man",
+    "media": [
+      "games"
+    ],
+    "title": "Mega Man",
+    "subtitle": "the whole franchise, by sub-series, in release order",
+    "kind": "games",
+    "year": "1987–2023",
+    "popularity": 63,
+    "blurb": "94 games — every one with Mega Man on the box, from the 1987 NES original to the offline X Dive. 59 carry a verified story length, about 307 hours between them.",
+    "accent": "#6868A0",
+    "accentDark": "#B4C4FC",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 94
+  },
+  {
+    "slug": "criterion",
+    "media": [
+      "movies"
+    ],
+    "title": "The Criterion Collection",
+    "subtitle": "every spine number, in order",
+    "kind": "films",
+    "year": "1984–",
+    "popularity": 63,
+    "blurb": "Spines #1 to #1337 — 1337 releases, about 2313 hours, each with the formats Criterion put it out on.",
+    "accent": "#8A6D2F",
+    "accentDark": "#D6B36A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 1418,
+    "random": true
+  },
+  {
+    "slug": "golden-girls",
+    "media": [
+      "tv"
+    ],
+    "title": "The Golden Girls",
+    "subtitle": "all seven seasons on NBC, 1985–1992",
+    "kind": "tv",
+    "year": "1985–1992",
+    "popularity": 63,
+    "blurb": "All 180 episodes in broadcast order — seven seasons in Miami, with the hour-long entries kept whole.",
+    "accent": "#1F7A7A",
+    "accentDark": "#FDDA4C",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 169
+  },
+  {
+    "slug": "kurosawa",
+    "media": [
+      "movies"
+    ],
+    "title": "Akira Kurosawa",
+    "subtitle": "the thirty features, in release order",
+    "kind": "films",
+    "year": "1943–1993",
+    "popularity": 62,
+    "blurb": "Every feature he directed, Sanshiro Sugata through Madadayo — 30 films, about 61 hours.",
+    "accent": "#5A2E28",
+    "accentDark": "#D08A80",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 30
+  },
+  {
+    "slug": "dc-animation",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "DC Animation",
+    "subtitle": "every animated DC film and series, in release order",
+    "kind": "shows & films",
+    "year": "1966–",
+    "popularity": 62,
+    "blurb": "103 films and 108 seasons of television, about 923 hours, in the order they came out.",
+    "accent": "#2A5F9E",
+    "accentDark": "#7FB0E8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 211
+  },
+  {
+    "slug": "discworld",
+    "media": [
+      "books"
+    ],
+    "title": "Discworld",
+    "subtitle": "Terry Pratchett — all 41 novels",
+    "kind": "books",
+    "year": "1983–2015",
+    "popularity": 62,
+    "blurb": "Every Discworld novel in publication order, The Colour of Magic to The Shepherd's Crown, with the reading-order diagram rebuilt as storyline chips — follow one strand or read the whole Disc.",
+    "accent": "#356B58",
+    "accentDark": "#B37DF0",
+    "unit": {
+      "one": "book",
+      "many": "books"
+    },
+    "total": 41
+  },
+  {
+    "slug": "lego-games",
+    "media": [
+      "games"
+    ],
+    "title": "Lego Games",
+    "subtitle": "the bricks first, then every licence",
+    "kind": "games",
+    "year": "1995–",
+    "popularity": 62,
+    "blurb": "119 games — the unlicensed catalogue in one run, then the tie-ins by franchise from Lego Star Wars on.",
+    "accent": "#C4372A",
+    "accentDark": "#F0837A",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 119,
+    "random": true
+  },
+  {
+    "slug": "twin-peaks",
+    "media": [
+      "books",
+      "movies",
+      "tv"
+    ],
+    "title": "Twin Peaks",
+    "subtitle": "both seasons, the film, The Return, and the books",
+    "kind": "tv, film & books",
+    "year": "1990–2017",
+    "popularity": 62,
+    "blurb": "The whole thing: 30 episodes, Fire Walk with Me, the 18 parts of The Return, and the four books woven in where you read them.",
+    "accent": "#7A1E2E",
+    "accentDark": "#E86A7E",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 54
+  },
+  {
+    "slug": "castlevania",
+    "media": [
+      "games"
+    ],
+    "title": "Castlevania",
+    "subtitle": "the whip canon: classic, Metroidvania, and the reboot",
+    "kind": "games",
+    "year": "1986–",
+    "popularity": 61,
+    "blurb": "17 games — the classics, Symphony and the handheld six, and Lords of Shadow; about 126 hours of story.",
+    "accent": "#4E3220",
+    "accentDark": "#F2A83B",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 17
+  },
+  {
+    "slug": "carpenter",
+    "media": [
+      "movies"
+    ],
+    "title": "John Carpenter",
+    "subtitle": "the directed features",
+    "kind": "films",
+    "year": "1974–2010",
+    "popularity": 61,
+    "blurb": "Eighteen theatrical features and three optional TV films, Dark Star to The Ward — about 35 hours.",
+    "accent": "#1F6E91",
+    "accentDark": "#72CDEE",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 21
+  },
+  {
+    "slug": "spawn",
+    "media": [
+      "comics"
+    ],
+    "title": "Spawn",
+    "subtitle": "Blake Whitlow's reading order",
+    "kind": "comics",
+    "year": "1992–",
+    "popularity": 61,
+    "blurb": "829 issues of Spawn and its spin-offs, in the order they are meant to be read rather than the order they came out.",
+    "accent": "#4412A6",
+    "accentDark": "#9B7BEE",
+    "unit": {
+      "one": "issue",
+      "many": "issues"
+    },
+    "total": 829
+  },
+  {
+    "slug": "cyberpunk-edgerunners",
+    "media": [
+      "anime"
+    ],
+    "title": "Cyberpunk: Edgerunners",
+    "subtitle": "",
+    "kind": "anime",
+    "year": "2022",
+    "popularity": 60,
+    "blurb": "Season one — ten episodes across two weeks, five a week.",
+    "accent": "#7E8C15",
+    "accentDark": "#D4E338",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 10,
+    "scheduled": true
+  },
+  {
+    "slug": "marvel-animation",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Marvel Animation",
+    "subtitle": "every animated Marvel series and film, in release order",
+    "kind": "shows & films",
+    "year": "1966–",
+    "popularity": 60,
+    "blurb": "18 films and 100 seasons of television, about 670 hours, in the order they came out.",
+    "accent": "#A03035",
+    "accentDark": "#EF7A80",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 118
+  },
+  {
+    "slug": "yakuza",
+    "media": [
+      "games"
+    ],
+    "title": "Yakuza / Like a Dragon",
+    "subtitle": "the mainline saga in release order, Judgment and the samurai games included",
+    "kind": "games",
+    "year": "2005–",
+    "popularity": 60,
+    "blurb": "18 games in release order — about 417 hours of story, 275 of it the saga spine.",
+    "accent": "#8A1F3A",
+    "accentDark": "#E86A8F",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 18
+  },
+  {
+    "slug": "civil-war",
+    "media": [
+      "comics"
+    ],
+    "title": "Civil War",
+    "subtitle": "the 2006 event, in reading order",
+    "kind": "comics",
+    "year": "2006–07",
+    "popularity": 59,
+    "blurb": "Seven issues of main series and forty-odd tie-ins, interleaved in the order they're meant to be read.",
+    "accent": "#4A6B8A",
+    "accentDark": "#8FB6D6",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 105
+  },
+  {
+    "slug": "columbo",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Columbo",
+    "subtitle": "every case in broadcast order, pilots included",
+    "kind": "tv movies",
+    "year": "1968–2003",
+    "popularity": 59,
+    "blurb": "All 69 feature-length cases in broadcast order — two pilots, the NBC seventies, and the ABC revival films.",
+    "accent": "#8A7B5C",
+    "accentDark": "#D9C9A3",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 69
+  },
+  {
+    "slug": "wheel-of-time",
+    "media": [
+      "books"
+    ],
+    "title": "The Wheel of Time",
+    "subtitle": "Robert Jordan — 15 books, prequel included",
+    "kind": "books",
+    "year": "1990–2013",
+    "popularity": 59,
+    "blurb": "All fourteen novels plus New Spring in publication order, The Eye of the World to A Memory of Light — the last three completed by Brandon Sanderson from Jordan's notes.",
+    "accent": "#8C6A2F",
+    "accentDark": "#E8D9A0",
+    "unit": {
+      "one": "book",
+      "many": "books"
+    },
+    "total": 15
+  },
+  {
+    "slug": "dragon-age",
+    "media": [
+      "games"
+    ],
+    "title": "Dragon Age",
+    "subtitle": "all four games in release order, expansions included",
+    "kind": "games",
+    "year": "2009–",
+    "popularity": 58,
+    "blurb": "4 games and 2 expansions — about 161 hours of story, 142 of it the games themselves.",
+    "accent": "#33567E",
+    "accentDark": "#E15A5A",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 6
+  },
+  {
+    "slug": "monster",
+    "media": [
+      "anime"
+    ],
+    "title": "Monster",
+    "subtitle": "Naoki Urasawa",
+    "kind": "anime",
+    "year": "2004–2005",
+    "popularity": 58,
+    "blurb": "74 episodes, no filler, watch it in order.",
+    "accent": "#6B6F7A",
+    "accentDark": "#A8ADB8",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 74,
+    "scheduled": true
   },
   {
     "slug": "raimi",
@@ -2140,6 +1779,7 @@
     "subtitle": "the directed features, plus Ash vs Evil Dead",
     "kind": "films & tv",
     "year": "1978–2026",
+    "popularity": 58,
     "blurb": "Seventeen directed features, from a Super 8 student film to Send Help — about 30 hours of them — plus all 30 episodes of Ash vs Evil Dead, the series he developed and directed one episode of.",
     "accent": "#460971",
     "accentDark": "#1DED99",
@@ -2150,42 +1790,6 @@
     "total": 47
   },
   {
-    "slug": "bond-games",
-    "media": [
-      "games"
-    ],
-    "title": "James Bond Games",
-    "subtitle": "the licensed games, GoldenEye 007 onward",
-    "kind": "games",
-    "year": "1997–2026",
-    "blurb": "18 games in release order, grouped by who held the licence — Nintendo, EA, Activision, and now IO Interactive. About 96 hours of story across the 14 with a verified figure.",
-    "accent": "#7D5C8A",
-    "accentDark": "#E6BEF4",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 18
-  },
-  {
-    "slug": "mega-man",
-    "media": [
-      "games"
-    ],
-    "title": "Mega Man",
-    "subtitle": "the whole franchise, by sub-series, in release order",
-    "kind": "games",
-    "year": "1987–2023",
-    "blurb": "94 games — every one with Mega Man on the box, from the 1987 NES original to the offline X Dive. 59 carry a verified story length, about 307 hours between them.",
-    "accent": "#6868A0",
-    "accentDark": "#B4C4FC",
-    "unit": {
-      "one": "game",
-      "many": "games"
-    },
-    "total": 94
-  },
-  {
     "slug": "gossip-girl",
     "media": [
       "tv"
@@ -2194,6 +1798,7 @@
     "subtitle": "the original series — six seasons on The CW",
     "kind": "tv",
     "year": "2007–2012",
+    "popularity": 57,
     "blurb": "All 121 episodes of the original CW series in broadcast order, from the pilot to the finale.",
     "accent": "#243B72",
     "accentDark": "#E9A8C6",
@@ -2204,40 +1809,534 @@
     "total": 121
   },
   {
-    "slug": "gilmore-girls",
+    "slug": "hellboy",
     "media": [
-      "tv"
+      "comics"
     ],
-    "title": "Gilmore Girls",
-    "subtitle": "seven seasons, then the four-chapter revival",
-    "kind": "tv",
-    "year": "2000–2016",
-    "blurb": "All 153 episodes of the original run in broadcast order, plus the four chapters of A Year in the Life as their own final section.",
-    "accent": "#5C4033",
-    "accentDark": "#E8B87A",
+    "title": "Hellboy",
+    "subtitle": "the Mignolaverse in collected volumes",
+    "kind": "comics",
+    "year": "1994–2019",
+    "popularity": 57,
+    "blurb": "The reading order in trades: Hellboy 1–12, the two B.P.R.D. cycles, Hellboy in Hell and The Devil You Know — 47 volumes of the main line, with the spokes optional.",
+    "accent": "#9C271B",
+    "accentDark": "#66C2BC",
     "unit": {
-      "one": "episode",
-      "many": "episodes"
+      "one": "volume",
+      "many": "volumes"
     },
-    "total": 157
+    "total": 51
   },
   {
-    "slug": "golden-girls",
+    "slug": "dragon-quest",
+    "media": [
+      "games"
+    ],
+    "title": "Dragon Quest",
+    "subtitle": "the mainline eleven in release order",
+    "kind": "games",
+    "year": "1986–",
+    "popularity": 56,
+    "blurb": "Mainline I through XI — about 395 hours of story, from one-evening NES quests to the hundred-hour XI.",
+    "accent": "#1D5FB8",
+    "accentDark": "#F0953F",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 11
+  },
+  {
+    "slug": "friday-night-lights",
     "media": [
       "tv"
     ],
-    "title": "The Golden Girls",
-    "subtitle": "all seven seasons on NBC, 1985–1992",
+    "title": "Friday Night Lights",
+    "subtitle": "Dillon, Texas",
     "kind": "tv",
-    "year": "1985–1992",
-    "blurb": "All 180 episodes in broadcast order — seven seasons in Miami, with the hour-long entries kept whole.",
-    "accent": "#1F7A7A",
-    "accentDark": "#FDDA4C",
+    "year": "2006–2011",
+    "popularity": 56,
+    "blurb": "76 episodes, 5 seasons, the book and movie are optional.",
+    "accent": "#2E5C8A",
+    "accentDark": "#6FAEDC",
     "unit": {
       "one": "episode",
       "many": "episodes"
     },
-    "total": 169
+    "total": 76
+  },
+  {
+    "slug": "junji-ito",
+    "media": [
+      "books",
+      "manga"
+    ],
+    "title": "Junji Ito",
+    "subtitle": "a reading list of the major works",
+    "kind": "manga",
+    "year": "1987–2020",
+    "popularity": 56,
+    "blurb": "Tomie to The Liminal Zone — 22 books: the long works, the story collections, and two oddities.",
+    "accent": "#1B1B1B",
+    "accentDark": "#E9E4D8",
+    "unit": {
+      "one": "book",
+      "many": "books"
+    },
+    "total": 22
+  },
+  {
+    "slug": "universal-monsters",
+    "media": [
+      "movies"
+    ],
+    "title": "Universal Monsters",
+    "subtitle": "the classic cycle, by monster",
+    "kind": "films",
+    "year": "1923–1956",
+    "popularity": 56,
+    "blurb": "All 34 films of the classic cycle, grouped by monster — about 44 hours from the Hunchback to the last Creature.",
+    "accent": "#4A6357",
+    "accentDark": "#8FB09E",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 34,
+    "random": true
+  },
+  {
+    "slug": "cosmere",
+    "media": [
+      "books"
+    ],
+    "title": "Cosmere",
+    "subtitle": "Brandon Sanderson's connected universe",
+    "kind": "books",
+    "year": "2005–",
+    "popularity": 55,
+    "blurb": "The Cosmere in publication order, one section per world — Elantris, both Mistborn eras, the Stormlight Archive with its novellas in place, and every standalone and Secret Project that belongs to the universe.",
+    "accent": "#3E4A5C",
+    "accentDark": "#9CCDE8",
+    "unit": {
+      "one": "book",
+      "many": "books"
+    },
+    "total": 27
+  },
+  {
+    "slug": "palme-dor",
+    "media": [
+      "movies"
+    ],
+    "title": "Palme d'Or",
+    "subtitle": "every top prize at Cannes, 1946 on",
+    "kind": "films",
+    "year": "1946–2026",
+    "popularity": 54,
+    "blurb": "All 102 films that took the top prize at Cannes — the Grand Prix years included — about 203 hours, one row per winner.",
+    "accent": "#A6252D",
+    "accentDark": "#E9BE4A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 102,
+    "random": true
+  },
+  {
+    "slug": "deadwood",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Deadwood",
+    "subtitle": "three seasons and the film that ends it",
+    "kind": "tv & film",
+    "year": "2004–19",
+    "popularity": 53,
+    "blurb": "All 36 episodes and the 2019 film in broadcast order — three seasons of the camp, then the goodbye.",
+    "accent": "#4C3B26",
+    "accentDark": "#C9A227",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 37
+  },
+  {
+    "slug": "ultimate-marvel",
+    "media": [
+      "comics"
+    ],
+    "title": "Ultimate Marvel",
+    "subtitle": "the whole Ultimate universe, in order",
+    "kind": "comics",
+    "year": "2000–2015",
+    "popularity": 52,
+    "blurb": "693 issues across 65 series, interleaved the way the line was meant to be read.",
+    "accent": "#33415C",
+    "accentDark": "#94A8C9",
+    "unit": {
+      "one": "issue",
+      "many": "issues"
+    },
+    "total": 693
+  },
+  {
+    "slug": "zombie-films",
+    "media": [
+      "movies"
+    ],
+    "title": "Zombie Films",
+    "subtitle": "the walking dead on film, era by era",
+    "kind": "films",
+    "year": "1919–",
+    "popularity": 52,
+    "blurb": "605 zombie features with a Wikipedia page to their name, from the voodoo pictures to the streaming wave. No order — let the picker choose.",
+    "accent": "#5A6B2E",
+    "accentDark": "#A8C46A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 605,
+    "random": true
+  },
+  {
+    "slug": "ace-attorney",
+    "media": [
+      "games"
+    ],
+    "title": "Ace Attorney",
+    "subtitle": "mainline, Investigations, and the Great duology",
+    "kind": "games",
+    "year": "2001–",
+    "popularity": 51,
+    "blurb": "10 games of courtroom drama — about 263 hours of story, which is the appeal.",
+    "accent": "#263C6B",
+    "accentDark": "#F4764B",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 10
+  },
+  {
+    "slug": "sight-and-sound",
+    "media": [
+      "movies"
+    ],
+    "title": "Sight & Sound 100",
+    "subtitle": "the 2022 critics' poll, as ranked",
+    "kind": "films",
+    "year": "1924–2019",
+    "popularity": 50,
+    "blurb": "The 100 greatest films of all time per Sight and Sound's 2022 critics' poll — about 204 hours, ties and all. Watch in any order; the ranks are the argument.",
+    "accent": "#33383D",
+    "accentDark": "#E2554A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 100,
+    "random": true
+  },
+  {
+    "slug": "nasuverse",
+    "media": [
+      "anime",
+      "games",
+      "manga",
+      "movies"
+    ],
+    "title": "Nasuverse",
+    "subtitle": "Type-Moon's shared universe, by media type",
+    "kind": "mixed",
+    "year": "1998–",
+    "popularity": 47,
+    "blurb": "61 works across six media, in release order within each.",
+    "accent": "#8A2E4A",
+    "accentDark": "#E884A6",
+    "unit": {
+      "one": "work",
+      "many": "works"
+    },
+    "total": 61
+  },
+  {
+    "slug": "mst3k",
+    "media": [
+      "tv"
+    ],
+    "title": "Mystery Science Theater 3000",
+    "subtitle": "every experiment, KTMA to the Gizmoplex",
+    "kind": "tv",
+    "year": "1988–2022",
+    "popularity": 46,
+    "blurb": "All 232 experiments in air order — the KTMA year, the cable runs, the movie, and the revivals, each row the film it riffs.",
+    "accent": "#7A6200",
+    "accentDark": "#F2C230",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 232
+  },
+  {
+    "slug": "satoshi-kon",
+    "media": [
+      "anime"
+    ],
+    "title": "Satoshi Kon",
+    "subtitle": "everything he directed",
+    "kind": "anime",
+    "year": "1997–2008",
+    "popularity": 45,
+    "blurb": "Four films, thirteen episodes of Paranoia Agent, and a one-minute short — the complete directed work, about 11 hours.",
+    "accent": "#8B3A85",
+    "accentDark": "#E794DC",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 18
+  },
+  {
+    "slug": "indie-essentials",
+    "media": [
+      "games"
+    ],
+    "title": "Indie Essentials",
+    "subtitle": "a house canon of the modern indies, Braid to Balatro",
+    "kind": "games",
+    "year": "2008–",
+    "popularity": 43,
+    "blurb": "24 essentials in any order — about 197 hours of story where a story clock exists, and three games that never end.",
+    "accent": "#D94F45",
+    "accentDark": "#4FC4AE",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 24,
+    "random": true
+  },
+  {
+    "slug": "cates-venom",
+    "media": [
+      "comics"
+    ],
+    "title": "Venom",
+    "subtitle": "Donny Cates & Ryan Stegman",
+    "kind": "comics",
+    "year": "2018–2021",
+    "popularity": 42,
+    "blurb": "The whole Cates run, with the supplements worth reading and enough backstory to start cold.",
+    "accent": "#7A4FB5",
+    "accentDark": "#9C8AE0",
+    "unit": {
+      "one": "issue",
+      "many": "issues"
+    },
+    "total": 82
+  },
+  {
+    "slug": "bond-games",
+    "media": [
+      "games"
+    ],
+    "title": "James Bond Games",
+    "subtitle": "the licensed games, GoldenEye 007 onward",
+    "kind": "games",
+    "year": "1997–2026",
+    "popularity": 40,
+    "blurb": "18 games in release order, grouped by who held the licence — Nintendo, EA, Activision, and now IO Interactive. About 96 hours of story across the 14 with a verified figure.",
+    "accent": "#7D5C8A",
+    "accentDark": "#E6BEF4",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 18
+  },
+  {
+    "slug": "urusei-yatsura",
+    "media": [
+      "anime"
+    ],
+    "title": "Urusei Yatsura",
+    "subtitle": "the 1981 series, the films, the OVAs, the remake",
+    "kind": "anime",
+    "year": "1981–2024",
+    "popularity": 38,
+    "blurb": "All 194 episodes of the original run, six films, ten OVAs and the 2022 remake — about 109 hours of Lum.",
+    "accent": "#4C7A1D",
+    "accentDark": "#FFD447",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 256
+  },
+  {
+    "slug": "spider-man-after-civil-war",
+    "media": [
+      "comics"
+    ],
+    "title": "Spider-Man After Civil War",
+    "subtitle": "Back in Black to now",
+    "kind": "comics",
+    "year": "2007–",
+    "popularity": 37,
+    "blurb": "The end of the classic run, then eighteen years of recommendations — 353 issues, tracked one by one.",
+    "accent": "#7A3B5E",
+    "accentDark": "#D98BB4",
+    "unit": {
+      "one": "issue",
+      "many": "issues"
+    },
+    "total": 353
+  },
+  {
+    "slug": "time-loops",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Time Loops",
+    "subtitle": "the same day, again — films, episodes, whole shows",
+    "kind": "films & episodes",
+    "year": "1963–",
+    "popularity": 36,
+    "blurb": "145 films, 36 single episodes and 8 whole series where the day repeats — the group's picks plus every list the Discord brought in. Watch in any order.",
+    "accent": "#6B2E7A",
+    "accentDark": "#C08FE0",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 189,
+    "random": true
+  },
+  {
+    "slug": "body-swap",
+    "media": [
+      "movies"
+    ],
+    "title": "Body Swap",
+    "subtitle": "who's in whose body, by decade",
+    "kind": "films",
+    "year": "1936–2026",
+    "popularity": 34,
+    "blurb": "69 body-swap films from Wikipedia's own list — four Freaky Fridays included — with who swaps and how on every note. Watch in any order.",
+    "accent": "#0F7A78",
+    "accentDark": "#F2913D",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 69,
+    "random": true
+  },
+  {
+    "slug": "one-pace",
+    "media": [
+      "anime"
+    ],
+    "title": "One Pace",
+    "subtitle": "One Piece at the manga's pacing",
+    "kind": "anime",
+    "year": "fan recut",
+    "popularity": 33,
+    "blurb": "435 episodes, 36 arcs, no filler and no padding.",
+    "accent": "#2E7A6B",
+    "accentDark": "#5FBFA8",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 435
+  },
+  {
+    "slug": "real-time-films",
+    "media": [
+      "movies"
+    ],
+    "title": "Real Time",
+    "subtitle": "films where screen minutes are story minutes",
+    "kind": "films",
+    "year": "1928–2026",
+    "popularity": 30,
+    "blurb": "68 films that unfold in real time, from Wikipedia's own list — the runtime is the plot, so it's on every note. Any order.",
+    "accent": "#B4292F",
+    "accentDark": "#F0E6C8",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 68,
+    "random": true
+  },
+  {
+    "slug": "lanterns",
+    "media": [
+      "tv"
+    ],
+    "title": "Lanterns",
+    "subtitle": "Hal Jordan and John Stewart",
+    "kind": "tv",
+    "year": "2026",
+    "popularity": 29,
+    "blurb": "8 episodes, weekly, still airing.",
+    "accent": "#2E7A45",
+    "accentDark": "#5FC47E",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 8,
+    "scheduled": true
+  },
+  {
+    "slug": "one-location-films",
+    "media": [
+      "movies"
+    ],
+    "title": "One Location",
+    "subtitle": "films that never leave the room",
+    "kind": "films",
+    "year": "1944–2021",
+    "popularity": 28,
+    "blurb": "25 films set (almost) entirely in one place — a jury room, a lifeboat, a coffin, a car. Any order; every note names the room.",
+    "accent": "#46586B",
+    "accentDark": "#D9A94E",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 25,
+    "random": true
+  },
+  {
+    "slug": "bottle-episodes",
+    "media": [
+      "tv"
+    ],
+    "title": "Bottle Episodes",
+    "subtitle": "one set, one cast, forty minutes",
+    "kind": "episodes",
+    "year": "1964–2024",
+    "popularity": 27,
+    "blurb": "43 famous bottle episodes across 32 shows — the stuck-in-a-room hours TV brags about. One row each, any order.",
+    "accent": "#A8681C",
+    "accentDark": "#EBAE4A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 43,
+    "random": true
   },
   {
     "slug": "president-curtis",
@@ -2248,6 +2347,7 @@
     "subtitle": "Keith David as President Andre Curtis",
     "kind": "tv",
     "year": "2026",
+    "popularity": 26,
     "blurb": "The Rick and Morty spin-off — 10 episodes, weekly, still airing.",
     "accent": "#4F6B14",
     "accentDark": "#A8D93F",
@@ -2259,21 +2359,45 @@
     "scheduled": true
   },
   {
-    "slug": "spawn",
+    "slug": "bad-movie-night",
     "media": [
-      "comics"
+      "movies"
     ],
-    "title": "Spawn",
-    "subtitle": "Blake Whitlow's reading order",
-    "kind": "comics",
-    "year": "1992–",
-    "blurb": "829 issues of Spawn and its spin-offs, in the order they are meant to be read rather than the order they came out.",
-    "accent": "#4412A6",
-    "accentDark": "#9B7BEE",
+    "title": "Bad Movie Night",
+    "subtitle": "so bad they're appointment viewing",
+    "kind": "films",
+    "year": "1953–2019",
+    "popularity": 16,
+    "blurb": "34 famously terrible films worth watching with people you like — Plan 9 to Cats, best served loud. Any order.",
+    "accent": "#8E2A6F",
+    "accentDark": "#E06AC0",
     "unit": {
-      "one": "issue",
-      "many": "issues"
+      "one": "film",
+      "many": "films"
     },
-    "total": 829
+    "total": 34,
+    "random": true
+  },
+  {
+    "slug": "secret",
+    "media": [
+      "other"
+    ],
+    "title": "Secret",
+    "subtitle": "",
+    "kind": "",
+    "year": "",
+    "popularity": 10,
+    "blurb": "",
+    "accent": "#6C7178",
+    "accentDark": "#8E9298",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 0,
+    "secret": {
+      "title": "Secret"
+    }
   }
 ]

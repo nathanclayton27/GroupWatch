@@ -114,7 +114,7 @@ def main():
         "title": "The Coen Brothers",
         "subtitle": "eighteen together, four apart",
         "kind": "films",
-        "order": 58,
+        "popularity": 67,
         "year": "1984–2025",
         "blurb": "The eighteen features Joel and Ethan made together, plus "
                  "the four solo films with a note saying whose — about %d "

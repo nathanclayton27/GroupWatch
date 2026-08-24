@@ -111,7 +111,7 @@ def main():
         # currently-airing weekly show — would read better in the picker but
         # makes a fourth order tie, and qa_lint's known-tie list is not this
         # generator's to edit. One number to change if the lead wants it.
-        "order": 123,
+        "popularity": 26,
         "year": "2026",
         "blurb": "The Rick and Morty spin-off — %d episodes, weekly, "
                  "still airing." % len(eps),

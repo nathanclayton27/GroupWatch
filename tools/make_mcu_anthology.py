@@ -369,7 +369,7 @@ def main():
         # letting the name imply the list is MCU-only
         "subtitle": "every Marvel film in release order, MCU or not",
         "kind": "films & shows",
-        "order": 15,
+        "popularity": 95,
         "year": "1998–2026",
         "blurb": "%d films and %d seasons in the order they came out — about %d "
                  "hours, tiered by how much the story needs each one."

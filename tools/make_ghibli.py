@@ -113,7 +113,7 @@ def main():
         "title": "Studio Ghibli",
         "subtitle": "every Ghibli film in release order, built around Miyazaki's",
         "kind": "films",
-        "order": 19,
+        "popularity": 79,
         "year": "1979–",
         "blurb": "%d films in release order. The %d Miyazaki directed are the "
                  "spine; the rest are marked with who made them."

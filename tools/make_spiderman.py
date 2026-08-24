@@ -220,7 +220,7 @@ def main():
         "title": "Amazing Spider-Man",
         "subtitle": "Amazing Fantasy #15 to Civil War",
         "kind": "comics",
-        "order": 11,
+        "popularity": 87,
         "year": "1962–2006",
         "blurb": "The complete run from the origin to the edge of Civil War — "
                  "%d issues, nothing filtered out." % issues,

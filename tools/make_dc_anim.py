@@ -196,7 +196,7 @@ def main():
         "title": "DC Animation",
         "subtitle": "every animated DC film and series, in release order",
         "kind": "shows & films",
-        "order": 30,
+        "popularity": 62,
         "year": "1966–",
         "blurb": "%d films and %d seasons of television, about %d hours, in "
                  "the order they came out." % (nf, ns, round(hours)),

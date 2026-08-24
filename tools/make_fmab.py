@@ -87,7 +87,7 @@ def main():
         "slug": "fma-brotherhood",
         "title": "Fullmetal Alchemist: Brotherhood",
         "kind": "anime",
-        "order": 1,
+        "popularity": 83,
         "year": "2009–2010",
         "blurb": "64 episodes across six arcs.",
         # Shown only to people in the matching group. This is presentation, not

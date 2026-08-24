@@ -128,7 +128,7 @@ def main():
         "title": "Martin Scorsese",
         "subtitle": "the directed features, plus the documentaries",
         "kind": "films",
-        "order": 56,
+        "popularity": 75,
         "year": "1967–2023",
         "blurb": "26 features from Who's That Knocking at My Door to Killers "
                  "of the Flower Moon, with the 13 feature documentaries as "

@@ -86,7 +86,7 @@ def main():
         "title": "The Wheel of Time",
         "subtitle": "Robert Jordan — 15 books, prequel included",
         "kind": "books",
-        "order": 106,
+        "popularity": 59,
         "year": "1990–2013",
         "blurb": "All fourteen novels plus New Spring in publication order, "
                  "The Eye of the World to A Memory of Light — the last "

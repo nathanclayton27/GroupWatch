@@ -140,7 +140,7 @@ def main():
         "title": "James Bond",
         "subtitle": "every Bond film in release order, in sections per actor",
         "kind": "films",
-        "order": 44,
+        "popularity": 88,
         "year": "%d–%d" % (films[0]["year"], films[-1]["year"]),
         "blurb": "All %d Eon films in release order, grouped by Bond actor, "
                  "plus the two oddities made outside Eon. The Craig arc is "

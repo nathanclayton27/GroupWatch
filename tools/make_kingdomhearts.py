@@ -289,7 +289,7 @@ def main():
         "title": "Kingdom Hearts",
         "subtitle": "every game, in release order",
         "kind": "games",
-        "order": 10,
+        "popularity": 68,
         "year": "2002–2027",
         "blurb": "%d entries in release order, about %d hours if you do the lot. "
                  "Tiered by what the story actually needs." % (total, round(hours)),

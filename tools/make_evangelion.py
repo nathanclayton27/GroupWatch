@@ -105,7 +105,7 @@ def main():
         "title": "Evangelion",
         "subtitle": "series, endings and Rebuild",
         "kind": "anime",
-        "order": 9,
+        "popularity": 75,
         "year": "1995–2021",
         "blurb": "%d pieces in the order they work best, with the recap marked "
                  "skippable." % total,

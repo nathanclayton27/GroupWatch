@@ -94,7 +94,7 @@ def main():
         "title": "The Muppets",
         "subtitle": "the films in release order, plus the shows",
         "kind": "films & series",
-        "order": 64,
+        "popularity": 69,
         "year": "1955–2023",
         "blurb": "All 8 theatrical Muppet films — about %d hours — plus one "
                  "row per television series, The Muppet Show included."

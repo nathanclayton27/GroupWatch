@@ -152,7 +152,7 @@ def main():
         "title": "Dragon Quest",
         "subtitle": "the mainline eleven in release order",
         "kind": "games",
-        "order": 100,
+        "popularity": 56,
         "year": "1986–",
         "blurb": "Mainline I through XI — about %d hours of story, from "
                  "one-evening NES quests to the hundred-hour XI."

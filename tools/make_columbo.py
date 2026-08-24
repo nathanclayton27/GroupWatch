@@ -107,7 +107,7 @@ def main():
         "title": "Columbo",
         "subtitle": "every case in broadcast order, pilots included",
         "kind": "tv movies",
-        "order": 37,
+        "popularity": 59,
         "year": "1968–2003",
         "blurb": "All %d feature-length cases in broadcast order — two "
                  "pilots, the NBC seventies, and the ABC revival films."

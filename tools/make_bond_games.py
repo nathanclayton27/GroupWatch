@@ -243,7 +243,7 @@ def main():
         "title": "James Bond Games",
         "subtitle": "the licensed games, GoldenEye 007 onward",
         "kind": "games",
-        "order": 116,
+        "popularity": 40,
         "year": "%d–%d" % (rows[0]["year"], rows[-1]["year"]),
         "blurb": "%d games in release order, grouped by who held the licence "
                  "— Nintendo, EA, Activision, and now IO Interactive. About "

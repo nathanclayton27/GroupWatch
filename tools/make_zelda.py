@@ -188,7 +188,7 @@ def main():
         "title": "The Legend of Zelda",
         "subtitle": "mainline in release order, remakes and spin-offs marked",
         "kind": "games",
-        "order": 49,
+        "popularity": 92,
         "year": "1986–",
         "blurb": "%d games — the mainline %d plus remakes and spin-offs, "
                  "about %d hours of story, %d of it mainline."

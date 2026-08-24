@@ -152,6 +152,7 @@ Drop a JSON file in `properties/` and rebuild.
   "title": "Some Show",
   "kind": "anime",
   "year": "2019",
+  "popularity": 62,
   "blurb": "One sentence for the picker.",
   "unit": { "one": "episode", "many": "episodes" },
   "accent": "#B0472E",
@@ -164,8 +165,13 @@ Drop a JSON file in `properties/` and rebuild.
 }
 ```
 
+`popularity` is required: a whole number from 0 to 100 that decides where the
+list sits in the catalogue. There is no default — the build fails without it.
+What the number means and how to pick one is in
+[POPULARITY.md](POPULARITY.md).
+
 Optional: `verb` (drives “watching” vs “reading”), `itemOrder`, `schedule`
-(dated windows), `rules`, `notes` (footer prose), `order` (menu position),
+(dated windows), `rules`, `notes` (footer prose),
 `forGroup` (per-group copy), `paceTiers` and `paceLabel` (which tiers the
 finish date covers), `weightUnit`, `itemTiers`; per-section `intro`, `links`
 and `open` (per-section links render inline up to two, then collapse into a

@@ -151,7 +151,7 @@ def main():
         "title": "Alfred Hitchcock",
         "subtitle": "the features he directed, silents through Family Plot",
         "kind": "films",
-        "order": 39,
+        "popularity": 77,
         "year": "1925–1976",
         "blurb": "Every feature he directed, The Pleasure Garden through "
                  "Family Plot — %d films, about %d hours."

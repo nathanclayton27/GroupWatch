@@ -116,7 +116,7 @@ def main():
         "title": "The Golden Girls",
         "subtitle": "all seven seasons on NBC, 1985–1992",
         "kind": "tv",
-        "order": 122,
+        "popularity": 63,
         "year": "1985–1992",
         "blurb": "All 180 episodes in broadcast order — seven seasons in "
                  "Miami, with the hour-long entries kept whole.",

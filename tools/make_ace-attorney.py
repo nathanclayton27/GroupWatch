@@ -130,7 +130,7 @@ def main():
         "title": "Ace Attorney",
         "subtitle": "mainline, Investigations, and the Great duology",
         "kind": "games",
-        "order": 95,
+        "popularity": 51,
         "year": "2001–",
         "blurb": "%d games of courtroom drama — about %d hours of story, "
                  "which is the appeal." % (len(ids), round(hours)),

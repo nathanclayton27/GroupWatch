@@ -115,7 +115,7 @@ def main():
         "title": "Halo",
         "subtitle": "the campaigns in release order, Wars included",
         "kind": "games",
-        "order": 94,
+        "popularity": 76,
         "year": "2001–",
         "blurb": "%d campaigns — about %d hours of story, %d of it the "
                  "shooter line." % (len(ids), round(hours), round(fps)),

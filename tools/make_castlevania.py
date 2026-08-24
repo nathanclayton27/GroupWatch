@@ -151,7 +151,7 @@ def main():
         "title": "Castlevania",
         "subtitle": "the whip canon: classic, Metroidvania, and the reboot",
         "kind": "games",
-        "order": 91,
+        "popularity": 61,
         "year": "1986–",
         "blurb": "%d games — the classics, Symphony and the handheld six, "
                  "and Lords of Shadow; about %d hours of story."

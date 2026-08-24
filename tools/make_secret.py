@@ -59,6 +59,13 @@ def main():
     for field in ("title", "unit"):
         if not plain.get(field):
             raise SystemExit("the plaintext needs a %s" % field)
+    # No default: a list that forgot its popularity would silently land at one
+    # end of the catalogue or the other, and the envelope is the only place a
+    # locked list can declare it. See POPULARITY.md.
+    pop = plain.get("popularity")
+    if not isinstance(pop, int) or isinstance(pop, bool) or not 0 <= pop <= 100:
+        raise SystemExit("the plaintext needs a popularity: a whole number "
+                         "from 0 to 100. See POPULARITY.md")
 
     salt, iv = os.urandom(16), os.urandom(12)
     kdf = PBKDF2HMAC(algorithm=hashes.SHA256(), length=32, salt=salt, iterations=ITER)
@@ -71,7 +78,7 @@ def main():
         "slug": slug,
         "title": "Secret",
         "kind": "",
-        "order": plain.get("order", 99),
+        "popularity": pop,
         "unit": {"one": "entry", "many": "entries"},
         "accent": "#6C7178",
         "accentDark": "#8E9298",

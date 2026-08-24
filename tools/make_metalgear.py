@@ -188,7 +188,7 @@ def main():
         "title": "Metal Gear",
         "subtitle": "the whole saga in release order, sides and remakes included",
         "kind": "games",
-        "order": 12,
+        "popularity": 74,
         "year": "1987–",
         "blurb": "%d games and %d extras — about %d hours of story, %d of it "
                  "the saga spine." % (len(ROSTER), len(EXTRAS), round(hours),

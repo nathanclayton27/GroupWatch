@@ -155,7 +155,7 @@ def main():
         "title": "Indie Essentials",
         "subtitle": "a house canon of the modern indies, Braid to Balatro",
         "kind": "games",
-        "order": 103,
+        "popularity": 43,
         "year": "2008–",
         "blurb": "24 essentials in any order — about %d hours of story "
                  "where a story clock exists, and three games that never "

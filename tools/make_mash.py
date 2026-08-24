@@ -61,7 +61,7 @@ def main():
         "title": "M*A*S*H",
         "subtitle": "all 256 episodes, eleven seasons",
         "kind": "tv",
-        "order": 74,
+        "popularity": 64,
         "year": "1972–1983",
         "blurb": "The 4077th in broadcast order — 256 episodes over eleven "
                  "seasons, for a war that lasted three years.",

@@ -102,7 +102,7 @@ def main():
         "title": "Star Wars Games",
         "subtitle": "the whole catalogue, in release order",
         "kind": "games",
-        "order": 22,
+        "popularity": 64,
         "year": "1992–",
         "blurb": "%d games in the order they came out — %d Legends, %d canon, "
                  "%d Lego." % (len(games), counts.get("Legends", 0),

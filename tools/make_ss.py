@@ -84,7 +84,7 @@ def main():
         "title": "Sight & Sound 100",
         "subtitle": "the 2022 critics' poll, as ranked",
         "kind": "films",
-        "order": 66,
+        "popularity": 50,
         "year": "%d–%d" % (min(f.get("wd_year") or f["year"] for f in films),
                            max(f.get("wd_year") or f["year"] for f in films)),
         "blurb": "The 100 greatest films of all time per Sight and Sound's "

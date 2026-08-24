@@ -143,7 +143,7 @@ def main():
         "title": "Hellboy",
         "subtitle": "the Mignolaverse in collected volumes",
         "kind": "comics",
-        "order": 111,
+        "popularity": 57,
         "year": "1994–2019",
         "blurb": "The reading order in trades: Hellboy 1–12, the two "
                  "B.P.R.D. cycles, Hellboy in Hell and The Devil You Know "

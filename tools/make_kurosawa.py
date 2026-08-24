@@ -111,7 +111,7 @@ def main():
         "title": "Akira Kurosawa",
         "subtitle": "the thirty features, in release order",
         "kind": "films",
-        "order": 38,
+        "popularity": 62,
         "year": "1943–1993",
         "blurb": "Every feature he directed, Sanshiro Sugata through "
                  "Madadayo — %d films, about %d hours."

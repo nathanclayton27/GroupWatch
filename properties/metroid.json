@@ -3,7 +3,7 @@
   "title": "Metroid",
   "subtitle": "the 2D saga and the Prime line, remakes included",
   "kind": "games",
-  "order": 90,
+  "popularity": 70,
   "year": "1986–",
   "blurb": "14 games across two lines — about 133 hours of story, 115 of it mainline.",
   "unit": {

@@ -265,7 +265,7 @@ def main():
         "title": "Time Loops",
         "subtitle": "the same day, again — films, episodes, whole shows",
         "kind": "films & episodes",
-        "order": 36,
+        "popularity": 36,
         "year": "1963–",
         "blurb": "%d films, %d single episodes and %d whole series where the "
                  "day repeats — the group's picks plus every list the Discord "

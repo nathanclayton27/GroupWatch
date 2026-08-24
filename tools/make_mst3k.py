@@ -91,7 +91,7 @@ def main():
         "title": "Mystery Science Theater 3000",
         "subtitle": "every experiment, KTMA to the Gizmoplex",
         "kind": "tv",
-        "order": 77,
+        "popularity": 46,
         "year": "1988–2022",
         "blurb": "All 232 experiments in air order — the KTMA year, the "
                  "cable runs, the movie, and the revivals, each row the film "

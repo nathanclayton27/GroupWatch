@@ -166,7 +166,7 @@ def main():
         "subtitle": "the mainline saga in release order, Judgment and the "
                     "samurai games included",
         "kind": "games",
-        "order": 50,
+        "popularity": 60,
         "year": "2005–",
         "blurb": "%d games in release order — about %d hours of story, %d "
                  "of it the saga spine." % (len(ids), round(hours),

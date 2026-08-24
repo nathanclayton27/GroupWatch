@@ -104,7 +104,7 @@ def main():
         "title": "Dune",
         "subtitle": "the novels, the continuations, the screen versions",
         "kind": "books & films",
-        "order": 105,
+        "popularity": 73,
         "year": "1965–2024",
         "blurb": "Frank Herbert's six novels in publication order, the "
                  "seventeen Brian Herbert & Kevin J. Anderson continuations "

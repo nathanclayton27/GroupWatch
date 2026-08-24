@@ -131,7 +131,7 @@ def main():
         "title": "FromSoftware",
         "subtitle": "the Souls line and its adjacents, in release order",
         "kind": "games",
-        "order": 51,
+        "popularity": 72,
         "year": "2009–",
         "blurb": "%d games — about %d hours of story, %d of it the Souls "
                  "line proper." % (len(ROSTER), round(hours), round(spine)),

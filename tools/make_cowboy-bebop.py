@@ -74,7 +74,7 @@ def main():
         "title": "Cowboy Bebop",
         "subtitle": "the 26 sessions and the film",
         "kind": "anime",
-        "order": 85,
+        "popularity": 73,
         "year": "1998–2001",
         "blurb": "All 26 sessions and Knockin' on Heaven's Door — about %d "
                  "hours of bounty hunting, in order." % round(hours),

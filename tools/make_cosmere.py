@@ -150,7 +150,7 @@ def main():
         "title": "Cosmere",
         "subtitle": "Brandon Sanderson's connected universe",
         "kind": "books",
-        "order": 107,
+        "popularity": 55,
         "year": "2005–",
         "blurb": "The Cosmere in publication order, one section per world — "
                  "Elantris, both Mistborn eras, the Stormlight Archive with "

@@ -158,7 +158,7 @@ def main():
         "slug": SLUG,
         "title": "Dragon Ball (anime)",
         "kind": "anime",
-        "order": 47,
+        "popularity": 89,
         "year": "%d–%d" % (first_year, last_year),
         "blurb": "%d episodes in broadcast order, Dragon Ball through Daima; "
                  "Kai is one optional row." % episodes,

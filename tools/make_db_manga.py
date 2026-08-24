@@ -108,7 +108,7 @@ def main():
         "title": "Dragon Ball (manga)",
         "subtitle": "Akira Toriyama",
         "kind": "manga",
-        "order": 48,
+        "popularity": 78,
         "year": "1984–",
         "blurb": "The original %d chapters in %d volumes, then Dragon Ball "
                  "Super — %d so far, still running."

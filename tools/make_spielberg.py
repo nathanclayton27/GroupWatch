@@ -109,7 +109,7 @@ def main():
         "title": "Steven Spielberg",
         "subtitle": "the films he directed, in release order",
         "kind": "films",
-        "order": 33,
+        "popularity": 84,
         "year": "1971–",
         "blurb": "Every feature he directed, Duel through Disclosure Day — "
                  "%d films, about %d hours." % (len(films), round(hours)),
