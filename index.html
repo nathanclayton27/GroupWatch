@@ -447,9 +447,18 @@ footer a{color:var(--steel)}
 /* the card wall (CLU-48): monotone until touched — hover restores the
    card's own accent and leans it toward the cursor; filters FLIP-animate;
    on touch the scroll position stands in for the cursor */
-.wall .card{filter:grayscale(1);transition:filter .18s,opacity .2s}
-.wall .card:hover,.wall .card.wact{filter:none;position:relative;z-index:2}
-.card .in{display:block;transition:transform .18s cubic-bezier(.2,.7,.25,1)}
+.wall .card{filter:grayscale(1);transition:filter .18s,opacity .2s;
+  background:none;border:0;padding:0}
+.wall .card:hover,.wall .card.wact{filter:none;position:relative;z-index:2;transform:none}
+.card .in{display:block;transition:transform .18s cubic-bezier(.2,.7,.25,1),
+  border-color .15s}
+/* the concept's trick: the button is a bare grid cell, .in IS the visible
+   card — so the lean/scale grows the whole card, border and all */
+.wall .card .in{background:var(--card);border:1px solid var(--rule);
+  border-radius:10px;padding:17px 18px}
+.wall .card:hover .in,.wall .card.wact .in{border-color:var(--pa,var(--rule-2))}
+.wcnt{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;
+  color:var(--ink-3);margin-top:8px}
 .wall .card.dim{opacity:.35}
 .wall .card.shrink .in{transform:scale(.82)}
 .wall .card.bub{opacity:0}
@@ -459,7 +468,7 @@ footer a{color:var(--steel)}
 .wchips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 8px}
 .wchips button{font:inherit;font-size:12px;border:1px solid var(--rule-2);
   background:transparent;color:var(--ink-2);border-radius:99px;padding:4px 12px;cursor:pointer}
-.wchips button.on{border-color:var(--signal);color:var(--signal)}
+.wchips button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .wtally{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;
   color:var(--ink-3);margin:0 0 14px}
 .hsec{display:flex;align-items:baseline;gap:12px}
@@ -2865,7 +2874,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '47b991ce0f4e';
+const BUILD = '0288e991eba9';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -5179,25 +5188,32 @@ function paintStar(){
   b.title = on ? 'Remove from the top of the menu' : 'Keep this at the top of the menu';
 }
 
-function cardHTML(m, why){
+function cardHTML(m, why, compact){
   const TICKS = 46;
   const n = localCount(m.slug);
   const tot = totalOf(m);
   const on = Math.round(TICKS * Math.min(1, tot ? n/tot : 0));
-  const meta = [m.kind, m.year, tot + ' ' + m.unit.many].filter(Boolean);
   let bar = '';
   for(let i=0;i<TICKS;i++)
     bar += '<span'+(i<on?' class="on" style="background:'+esc(accentOf(m))+'"':'')+'></span>';
+  const head = '<h2><span class="pdot" style="background:'+esc(accentOf(m))+'"></span>'
+    + esc(m.title)+'</h2>';
+  // wall cards are the concept's compact shape: title, media · year,
+  // the tick bar, and a plain count — no blurb
+  const body = compact
+    ? head
+      + '<div class="pm-m">'+[(m.media||[]).join(' · '), m.year].filter(Boolean).map(esc).join(' · ')+'</div>'
+      + '<div class="cbar">'+bar+'</div>'
+      + '<div class="wcnt">'+n+' / '+tot+' '+esc(m.unit.many)+'</div>'
+    : head
+      + '<div class="pm-m">'+[m.kind, m.year, tot + ' ' + m.unit.many].filter(Boolean).map(esc).join(' · ')+(n?' · '+n+' done':'')+'</div>'
+      + (m.blurb ? '<div class="pm-b">'+esc(m.blurb)+'</div>' : '')
+      + '<div class="cbar">'+bar+'</div>'
+      + (why ? '<div class="hwhy">'+esc(why)+'</div>' : '');
   return '<button class="card" data-slug="'+esc(m.slug)+'"'
-    + ' data-media="'+esc((m.media||[]).join(' '))+'">'
-    + '<span class="in">'
-    + '<h2><span class="pdot" style="background:'+esc(accentOf(m))+'"></span>'
-    + esc(m.title)+'</h2>'
-    + '<div class="pm-m">'+meta.map(esc).join(' · ')+(n?' · '+n+' done':'')+'</div>'
-    + (m.blurb ? '<div class="pm-b">'+esc(m.blurb)+'</div>' : '')
-    + '<div class="cbar">'+bar+'</div>'
-    + (why ? '<div class="hwhy">'+esc(why)+'</div>' : '')
-    + '</span></button>';
+    + ' data-media="'+esc((m.media||[]).join(' '))+'"'
+    + ' style="--pa:'+esc(accentOf(m))+'">'
+    + '<span class="in">' + body + '</span></button>';
 }
 function wireCards(host){
   host.querySelectorAll('button[data-slug]').forEach(b=>{
@@ -5234,7 +5250,7 @@ function renderWall(host){
     + present.map(k=> '<button data-m="'+k+'">'+MEDIA_LABEL[k]+'</button>').join('')
     + '</div>'
     + '<div class="wtally"></div>'
-    + '<div class="cards wall">' + list.map(m=> cardHTML(m)).join('') + '</div>';
+    + '<div class="cards wall">' + list.map(m=> cardHTML(m, null, true)).join('') + '</div>';
   wireCards(host);
   const wall = host.querySelector('.wall');
   const cards = [...wall.querySelectorAll('.card')];
@@ -5249,7 +5265,8 @@ function renderWall(host){
     b.setAttribute('aria-pressed', on ? 'true' : 'false');
   });
   const count = ()=>{
-    tally.textContent = cards.filter(c=> !hiddenC(c)).length + ' of ' + cards.length;
+    tally.textContent = cards.filter(c=> !hiddenC(c)).length + ' of '
+      + cards.length + ' lists';
   };
   // cursor-weighted lean, mouse only
   if(matchMedia('(hover: hover)').matches){
