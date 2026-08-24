@@ -335,6 +335,8 @@ footer a{color:var(--steel)}
 .mhome{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);
   background:var(--card);border:1px solid var(--rule-2);border-radius:99px;
   padding:6px 13px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+/* on home/splash you're already there — the eye stays, the word goes */
+.athome .mast-t{display:none}
 .mast-t{font-weight:700;font-size:13px;letter-spacing:-.01em}
 .mhome:hover .mast-t{color:var(--signal)}
 .eye{display:grid;grid-template-columns:repeat(14,2px);grid-auto-rows:2px}
@@ -342,14 +344,15 @@ footer a{color:var(--steel)}
 .eye i.k{background:var(--ink)}
 .switcher{position:relative;z-index:80}
 .mastsign{font:inherit;font-size:13px;background:var(--card);color:var(--ink);
-  border:1px solid var(--rule-2);padding:8px 12px;cursor:pointer;
-  box-shadow:0 1px 3px rgba(0,0,0,.12)}
+  border:1px solid var(--rule-2);padding:8px 14px;cursor:pointer;
+  border-radius:99px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
 /* the auth panel, floated under the mast for splash/home sign-in */
 .signfloat{position:fixed;top:64px;left:max(20px, calc(50% - 430px));
   z-index:79;max-width:560px;margin-right:20px;
   box-shadow:0 18px 44px -18px rgba(0,0,0,.5)}
 .switcher > button{display:flex;align-items:center;gap:9px;background:var(--card);
-  border:1px solid var(--rule-2);padding:8px 12px;font-size:13px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+  border:1px solid var(--rule-2);padding:8px 14px;font-size:13px;
+  border-radius:99px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
 .pdot{width:8px;height:8px;border-radius:2px;background:var(--signal);flex:none}
 .chev{color:var(--ink-3);font-size:10px}
 .pmenu{position:absolute;top:calc(100% + 6px);left:0;min-width:290px;max-width:min(92vw,380px);
@@ -2912,7 +2915,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '46de889901a2';
+const BUILD = '30397dc14b77';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -3442,6 +3445,22 @@ async function adopt(){
 }
 async function onSession(session){
   user = session ? session.user : null;
+  // the shelf and splash have no property loaded — the only work here is
+  // the auth affordance and pulling the account's cloud state down so a
+  // fresh device shows the real shelf instead of a stranger's splash
+  if(!SLUG){
+    paintMastAuth();
+    moveBanner();
+    if(user){
+      $('signin').classList.add('hide');
+      await primeShelf();
+      $('homev').classList.add('hide');
+      $('splash').classList.add('hide');
+      showHome();
+    }
+    setTimeout(backfillSync, 1200);
+    return;
+  }
   if(user){
     $('b-signin').classList.add('hide');
     $('b-signout').classList.remove('hide');
@@ -3471,11 +3490,6 @@ async function onSession(session){
   paint();
   moveBanner();
   paintMastAuth();
-  // on the shelf, a fresh sign-in pulls the account's whole cloud state
-  // down and repaints home with it
-  if(!SLUG && user){
-    primeShelf().then(ch=>{ if(ch){ $('homev').classList.add('hide'); showHome(); } });
-  }
   // off the critical path: the first load fetches the index once, every
   // later load exits on the flag before any network
   setTimeout(backfillSync, 1200);
@@ -4898,6 +4912,7 @@ function renderHeader(){
   const bits = [PROP.subtitle || PROP.kind, PROP.year, TOTAL + ' ' + plural(TOTAL)]
     .filter(Boolean);
   $('eyebrow').textContent = bits.join(' · ');
+  $('mast').classList.remove('athome');   // on a list, the word is the way home
   // the eyebrow is the way home — the shelf, the ledger, tonight's pick
   $('eyebrow').style.cursor = 'pointer';
   $('eyebrow').title = 'Back to your shelf';
@@ -5345,6 +5360,7 @@ function wireCards(host){
 function showSplash(){
   $('splash').classList.remove('hide');
   $('switcher').classList.add('hide');
+  $('mast').classList.add('athome');
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
   document.title = BRAND;
   paintMastAuth();
@@ -5673,6 +5689,7 @@ function showHome(){
   if(!shelf.length){ showSplash(); return; }
   $('homev').classList.remove('hide');
   $('switcher').classList.remove('hide');
+  $('mast').classList.add('athome');
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
   document.title = BRAND;
   paintMastAuth();
@@ -6361,7 +6378,17 @@ document.addEventListener('visibilitychange', ()=>{
 // one fetch. A failure here is fatal in a way a sync failure never is.
 checkBuild();
 refreshManifest();
-if(!SLUG){ showHome(); } else {
+if(!SLUG){
+  showHome();
+  // the auth boot must run here too — the shelf is where a fresh sign-in
+  // lands, and without this the session (and the cloud shelf) never arrive
+  if(CLOUD){
+    sb.auth.onAuthStateChange((_e, session)=> onSession(session));
+    sb.auth.getSession()
+      .then(({data})=> onSession(data.session))
+      .catch(e=> console.error('[home] getSession failed', e));
+  }
+} else {
 loadProperty().then(()=>{
   renderHeader();
   renderMenu();
