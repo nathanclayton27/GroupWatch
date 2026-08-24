@@ -242,7 +242,7 @@ def main():
         "title": "Spider-Man After Civil War",
         "subtitle": "Back in Black to now",
         "kind": "comics",
-        "order": 13,
+        "popularity": 37,
         "year": "2007–",
         "blurb": "The end of the classic run, then eighteen years of "
                  "recommendations — %d issues, tracked one by one." % total,

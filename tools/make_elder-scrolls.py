@@ -147,7 +147,7 @@ def main():
         "title": "The Elder Scrolls",
         "subtitle": "Arena to Skyrim in release order, expansions included",
         "kind": "games",
-        "order": 97,
+        "popularity": 77,
         "year": "1994–",
         "blurb": "5 mainline games, 5 expansions and 3 asides — about %d "
                  "hours of story, %d of it the mainline." % (round(hours),

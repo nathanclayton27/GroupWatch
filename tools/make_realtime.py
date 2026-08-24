@@ -89,7 +89,7 @@ def main():
         "title": "Real Time",
         "subtitle": "films where screen minutes are story minutes",
         "kind": "films",
-        "order": 70,
+        "popularity": 30,
         "year": "%d–%d" % (min(f["year"] for f in films),
                            max(f["year"] for f in films)),
         "blurb": "%d films that unfold in real time, from Wikipedia's own "

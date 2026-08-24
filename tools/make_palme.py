@@ -117,7 +117,7 @@ def main():
         "title": "Palme d'Or",
         "subtitle": "every top prize at Cannes, 1946 on",
         "kind": "films",
-        "order": 65,
+        "popularity": 54,
         "year": "1946–2026",
         "blurb": "All %d films that took the top prize at Cannes — the Grand "
                  "Prix years included — about %d hours, one row per winner."

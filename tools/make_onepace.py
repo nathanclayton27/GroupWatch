@@ -120,7 +120,7 @@ def main():
         "title": "One Pace",
         "subtitle": "One Piece at the manga's pacing",
         "kind": "anime",
-        "order": 6,
+        "popularity": 33,
         "year": "fan recut",
         "blurb": "%d episodes, %d arcs, no filler and no padding." % (total, len(ARCS)),
         "unit": {"one": "episode", "many": "episodes"},

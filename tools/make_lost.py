@@ -91,7 +91,7 @@ def main():
         "title": "Lost",
         "subtitle": "every numbered episode, six seasons",
         "kind": "tv",
-        "order": 81,
+        "popularity": 71,
         "year": "2004–10",
         "blurb": "All 121 episodes in broadcast order — six seasons, one "
                  "island, counted the way the season tables count them.",

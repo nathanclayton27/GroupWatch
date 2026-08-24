@@ -3,8 +3,8 @@
 Checks the classes of bug this project has actually shipped: wikitext plumbing
 leaking into display strings, "0 films and" phrasing, ids that break build.py,
 filter values with no tagged rows, paceTiers pointing at tiers nobody uses,
-duplicate orders and accents, weights that are negative or absurd, and empty
-or placeholder text where a reader would see it.
+missing or out-of-range popularity values, duplicate accents, weights that are
+negative or absurd, and empty or placeholder text where a reader would see it.
 """
 import json
 import pathlib
@@ -19,7 +19,12 @@ HEX = re.compile(r"^#[0-9A-Fa-f]{6}$")
 ZERO_PHRASE = re.compile(r"\b0 (films?|seasons?|games?|episodes?|entries|shows?|winners?)\b")
 
 findings = collections.defaultdict(list)
-orders, accents = {}, {}
+accents, pops = {}, {}
+
+# Ahead of whatever popularity says, these two open the catalogue. Kept in step
+# with PINNED in src/build.py; if they diverge, the manifest check below is
+# what catches it. See POPULARITY.md.
+PINNED = ["hickman-secret-wars", "fma-brotherhood"]
 
 for f in sorted(PROPS.glob("*.json")):
     if f.name in ("index.json", "search.json"):
@@ -40,10 +45,23 @@ for f in sorted(PROPS.glob("*.json")):
     if not (u.get("one") and u.get("many")):
         findings[slug].append("unit incomplete")
 
-    o = p.get("order")
-    if o in orders:
-        findings[slug].append("order %s shared with %s" % (o, orders[o]))
-    orders[o] = slug
+    # Catalogue position. A list with no popularity is the drift this field
+    # exists to stop: it would take whatever the sort gave it and nobody would
+    # notice. Refuse it here so the next build fails instead of shipping a
+    # catalogue ordered by accident. Equal values are fine and expected — the
+    # build breaks those on title — so a shared value is not a finding.
+    if "order" in p:
+        findings[slug].append(
+            "carries `order`, replaced by `popularity` — see POPULARITY.md")
+    pop = p.get("popularity")
+    if pop is None:
+        findings[slug].append(
+            "no popularity value — every list needs one, see POPULARITY.md")
+    elif isinstance(pop, bool) or not isinstance(pop, int) or not 0 <= pop <= 100:
+        findings[slug].append(
+            "popularity %r is not a whole number from 0 to 100" % pop)
+    else:
+        pops[slug] = pop
     for k in ("accent", "accentDark"):
         v = p.get(k)
         if v and not HEX.match(v):
@@ -128,8 +146,8 @@ for f in sorted(PROPS.glob("*.json")):
 # offering seven pages whose JSON 404'd on the live site.
 manifest_file = PROPS / "index.json"
 if manifest_file.exists():
-    manifest = {m["slug"] for m in json.loads(
-        manifest_file.read_text(encoding="utf-8"))}
+    entries = json.loads(manifest_file.read_text(encoding="utf-8"))
+    manifest = {m["slug"] for m in entries}
     on_disk = {f.stem for f in PROPS.glob("*.json")
                if f.name not in ("index.json", "search.json")}
     for miss in sorted(manifest - on_disk):
@@ -137,17 +155,41 @@ if manifest_file.exists():
     for stray in sorted(on_disk - manifest):
         findings[stray].append("file not in manifest — rebuild before commit")
 
+    # ---- the shipped catalogue must be the one the data describes. A stale
+    # manifest is the failure mode here: the numbers get edited, nobody
+    # rebuilds, and the live page keeps yesterday's order.
+    for m in entries:
+        want = pops.get(m["slug"])
+        if want is not None and m.get("popularity") != want:
+            findings[m["slug"]].append(
+                "manifest popularity %r but file says %d — rebuild before commit"
+                % (m.get("popularity"), want))
+    seq = [m["slug"] for m in entries]
+    expected = sorted(
+        [m for m in entries if m["slug"] in pops],
+        key=lambda m: (PINNED.index(m["slug"]) if m["slug"] in PINNED
+                       else len(PINNED), -pops[m["slug"]], m["title"]))
+    if [m["slug"] for m in expected] != [s for s in seq if s in pops]:
+        findings["(catalogue)"].append(
+            "manifest order is not popularity order — rebuild before commit")
+    top6 = seq[:6]
+    for s in PINNED:
+        if s not in top6:
+            at = seq.index(s) + 1 if s in seq else "absent"
+            findings[s].append(
+                "pinned to the catalogue top 6 but sits at #%s — check PINNED "
+                "in src/build.py, then rebuild" % at)
+
 total = sum(len(v) for v in findings.values())
 print("properties checked:", len(list(PROPS.glob('*.json'))) - 1)
 print("findings:", total)
-KNOWN = {("lanterns", "order 8"), ("metal-gear", "order 12"), ("one-pace", "order 6")}
-serious = 0
+# There is no allowlist any more. The three standing exceptions here were all
+# duplicate `order` values (lanterns/cyberpunk-edgerunners, metal-gear/civil-war,
+# one-pace/monster); `order` is gone, and popularity ties are legal by design
+# because the build breaks them on title. Nothing is expected to be tolerated.
 for slug in sorted(findings):
     for msg in findings[slug]:
-        known = any(slug == s and msg.startswith(m) for s, m in KNOWN)
-        if not known:
-            serious += 1
-        print("  %-18s %s%s" % (slug, msg, "  (known tie)" if known else ""))
-if serious:
-    print("\n%d finding(s) beyond the known order ties" % serious)
+        print("  %-18s %s" % (slug, msg))
+if total:
+    print("\n%d finding(s)" % total)
     raise SystemExit(1)

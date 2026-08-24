@@ -2,7 +2,7 @@
   "slug": "cyberpunk-edgerunners",
   "title": "Cyberpunk: Edgerunners",
   "kind": "anime",
-  "order": 8,
+  "popularity": 60,
   "year": "2022",
   "blurb": "Season one — ten episodes across two weeks, five a week.",
   "unit": { "one": "episode", "many": "episodes" },

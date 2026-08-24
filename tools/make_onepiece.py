@@ -144,7 +144,7 @@ def main():
         "slug": SLUG,
         "title": "One Piece",
         "kind": "anime",
-        "order": 5,
+        "popularity": 91,
         "year": "1999–",
         "blurb": "%d episodes, %d arcs, the filler is optional." % (total, len(sections)),
         "unit": {"one": "episode", "many": "episodes"},

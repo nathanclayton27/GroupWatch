@@ -83,7 +83,7 @@ def main():
         "title": "Zombie Films",
         "subtitle": "the walking dead on film, era by era",
         "kind": "films",
-        "order": 112,
+        "popularity": 52,
         "year": "%d–" % films[0]["year"],
         "blurb": "%d zombie features with a Wikipedia page to their name, "
                  "from the voodoo pictures to the streaming wave. No order — "

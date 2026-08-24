@@ -3,7 +3,7 @@
   "title": "Studio Ghibli",
   "subtitle": "every Ghibli film in release order, built around Miyazaki's",
   "kind": "films",
-  "order": 19,
+  "popularity": 79,
   "year": "1979–",
   "blurb": "26 films in release order. The 12 Miyazaki directed are the spine; the rest are marked with who made them.",
   "unit": {

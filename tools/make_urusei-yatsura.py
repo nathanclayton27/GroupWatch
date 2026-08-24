@@ -116,7 +116,7 @@ def main():
         "title": "Urusei Yatsura",
         "subtitle": "the 1981 series, the films, the OVAs, the remake",
         "kind": "anime",
-        "order": 86,
+        "popularity": 38,
         "year": "1981–2024",
         "blurb": "All 194 episodes of the original run, six films, ten "
                  "OVAs and the 2022 remake — about %d hours of Lum."

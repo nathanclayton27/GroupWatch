@@ -91,7 +91,7 @@ def main():
         "title": "Bottle Episodes",
         "subtitle": "one set, one cast, forty minutes",
         "kind": "episodes",
-        "order": 71,
+        "popularity": 27,
         "year": "%d–%d" % (min(r["year"] for r in eps),
                            max(r["year"] for r in eps)),
         "blurb": "%d famous bottle episodes across %d shows — the stuck-in-a-"

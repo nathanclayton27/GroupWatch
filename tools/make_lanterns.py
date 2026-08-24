@@ -74,7 +74,7 @@ def main():
         "title": "Lanterns",
         "subtitle": "Hal Jordan and John Stewart",
         "kind": "tv",
-        "order": 8,
+        "popularity": 29,
         "year": "2026",
         "blurb": "8 episodes, weekly, still airing.",
         "unit": {"one": "episode", "many": "episodes"},

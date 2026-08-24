@@ -517,7 +517,7 @@ def main():
         "title": "X-Men",
         "subtitle": "the comprehensive reading list — both flagships, complete",
         "kind": "comics",
-        "order": 14,
+        "popularity": 86,
         "year": "1963–",
         "blurb": "Every issue of the two flagship lineages from 1963 to the "
                  "fall of Krakoa — about %d issues — with the crossovers "

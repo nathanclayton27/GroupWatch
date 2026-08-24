@@ -66,7 +66,7 @@ def main():
         "title": "Frasier",
         "subtitle": "the original run — eleven seasons, 1993–2004",
         "kind": "tv",
-        "order": 76,
+        "popularity": 66,
         "year": "1993–2004",
         "blurb": "All 264 episodes of the original run in broadcast order — "
                  "eleven seasons of tossed salads and scrambled eggs.",

@@ -117,7 +117,7 @@ def main():
         "title": "A24",
         "subtitle": "every film with a release date, in order",
         "kind": "films",
-        "order": 40,
+        "popularity": 66,
         "year": "2013–",
         "blurb": "Everything A24 has released or dated, A Glimpse Inside the "
                  "Mind of Charles Swan III through Elden Ring — %d films, "

@@ -206,7 +206,7 @@ def main():
         "title": "DC Anthology",
         "subtitle": "every live-action DC film and series, in release order",
         "kind": "films & shows",
-        "order": 18,
+        "popularity": 82,
         "year": "1951–",
         "blurb": "%d films and %d seasons of television, about %d hours, in the "
                  "order they came out." % (sum(1 for e in entries if e["kind"] == "film"),

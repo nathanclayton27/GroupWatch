@@ -85,7 +85,7 @@ def main():
         "title": "Ultimate Spider-Man",
         "subtitle": "both runs, outside continuity",
         "kind": "comics",
-        "order": 14,
+        "popularity": 55,
         "year": "2000–2026",
         "blurb": "Two complete runs that restart the character from scratch — "
                  "%d issues, and no homework." % total,

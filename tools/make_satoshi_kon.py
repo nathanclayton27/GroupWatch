@@ -95,7 +95,7 @@ def main():
         "title": "Satoshi Kon",
         "subtitle": "everything he directed",
         "kind": "anime",
-        "order": 62,
+        "popularity": 45,
         "year": "1997–2008",
         "blurb": "Four films, thirteen episodes of Paranoia Agent, and a "
                  "one-minute short — the complete directed work, about %d "

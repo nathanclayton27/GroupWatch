@@ -133,7 +133,7 @@ def main():
         "title": "The Criterion Collection",
         "subtitle": "every spine number, in order",
         "kind": "films",
-        "order": 20,
+        "popularity": 63,
         "year": "1984–",
         "blurb": "Spines #1 to #%d — %d releases, about %d hours, each with the "
                  "formats Criterion put it out on." % (top, len(spined), round(hours)),

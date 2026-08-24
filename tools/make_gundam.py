@@ -167,7 +167,7 @@ def main():
         "title": "Gundam",
         "subtitle": "the Universal Century and every alternate universe",
         "kind": "anime & manga",
-        "order": 27,
+        "popularity": 65,
         "year": "1979–",
         "blurb": "%d entries across every Gundam continuity: the Universal "
                  "Century in release order, the alternate universes, and the "

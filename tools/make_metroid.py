@@ -135,7 +135,7 @@ def main():
         "title": "Metroid",
         "subtitle": "the 2D saga and the Prime line, remakes included",
         "kind": "games",
-        "order": 90,
+        "popularity": 70,
         "year": "1986–",
         "blurb": "%d games across two lines — about %d hours of story, %d "
                  "of it mainline." % (len(ids), round(hours), round(spine)),

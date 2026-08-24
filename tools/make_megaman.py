@@ -452,7 +452,7 @@ def main():
         "title": "Mega Man",
         "subtitle": "the whole franchise, by sub-series, in release order",
         "kind": "games",
-        "order": 119,
+        "popularity": 63,
         "year": "%d–%d" % (years[0], years[-1]),
         "blurb": "%d games — every one with Mega Man on the box, from the 1987 "
                  "NES original to the offline X Dive. %d carry a verified "

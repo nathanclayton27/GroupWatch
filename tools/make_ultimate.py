@@ -386,7 +386,7 @@ def main():
         "title": "Ultimate Marvel",
         "subtitle": "the whole Ultimate universe, in order",
         "kind": "comics",
-        "order": 16,
+        "popularity": 52,
         "year": "2000–2015",
         "blurb": "%d issues across %d series, interleaved the way the line was "
                  "meant to be read." % (total, len(series)),

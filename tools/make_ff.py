@@ -143,7 +143,7 @@ def main():
         "subtitle": "the sixteen numbered games, their sequels, and the VII "
                     "remake line",
         "kind": "games",
-        "order": 52,
+        "popularity": 82,
         "year": "1987–",
         "blurb": "%d games — about %d hours of story, %d of it the sixteen "
                  "numbered ones." % (len(ids), round(hours), round(spine)),

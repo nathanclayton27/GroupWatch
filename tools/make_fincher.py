@@ -75,7 +75,7 @@ def main():
         "title": "David Fincher",
         "subtitle": "the directed features",
         "kind": "films",
-        "order": 59,
+        "popularity": 69,
         "year": "1992–2023",
         "blurb": "Twelve features, Alien 3 to The Killer — about %d hours "
                  "of controlled dread." % round(hours),

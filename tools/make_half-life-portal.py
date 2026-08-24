@@ -116,7 +116,7 @@ def main():
         "title": "Half-Life & Portal",
         "subtitle": "Valve's story canon in release order",
         "kind": "games",
-        "order": 92,
+        "popularity": 71,
         "year": "1998–",
         "blurb": "%d games in one universe — about %d hours of story, "
                  "cliffhanger included." % (len(ids), round(hours)),

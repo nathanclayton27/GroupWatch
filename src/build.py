@@ -26,6 +26,14 @@ BUILDFILE = ROOT / "build.json"
 
 ID_OK = re.compile(r"^[A-Za-z][A-Za-z0-9_-]*$")
 
+# Two lists sit at the head of the catalogue by editorial decision, ahead of
+# whatever their popularity says. This is deliberately a separate rule and not
+# an inflated number: Secret Wars scores 44 and Brotherhood 83 on the honest
+# scale, and both keep those values. Pinning is a statement about this club's
+# front page; the popularity field stays a statement about the work. Order
+# within the tuple is the order they appear. See POPULARITY.md.
+PINNED = ("hickman-secret-wars", "fma-brotherhood")
+
 
 def fail(msg):
     raise SystemExit("build failed: %s" % msg)
@@ -50,6 +58,19 @@ def load_property(path):
             fail("%s has no %s" % (path.name, field))
     if not prop["unit"].get("one") or not prop["unit"].get("many"):
         fail("%s: unit needs both 'one' and 'many'" % path.name)
+
+    # Catalogue position. `order` used to be a hand-assigned menu index that
+    # drifted into ties and thematic clumps; `popularity` replaced it, and the
+    # catalogue is sorted from it. Checked before anything else about the body
+    # so an encrypted or generated list cannot skip it, and refused rather than
+    # defaulted — a missing value would quietly bury or promote a new list.
+    if "order" in prop:
+        fail("%s still carries `order`, which was replaced by `popularity` — "
+             "see POPULARITY.md" % path.name)
+    pop = prop.get("popularity")
+    if isinstance(pop, bool) or not isinstance(pop, int) or not 0 <= pop <= 100:
+        fail("%s: popularity must be a whole number from 0 to 100, got %r — "
+             "see POPULARITY.md for how to pick one" % (path.name, pop))
 
     # A generated property has no sections on disk: the page builds them from
     # the calendar when it loads, so the list grows by itself as days pass and
@@ -126,9 +147,17 @@ def main():
     if len(slugs) != len(set(slugs)):
         fail("two properties share a slug")
 
-    # Menu and splash order. There is no "default property" — a first-time
-    # visitor gets the splash picker — so this is presentation only.
-    props.sort(key=lambda p: (p.get("order", 100), p["title"]))
+    # Catalogue order. There is no "default property" — a first-time visitor
+    # gets the splash picker — so this is presentation only. Three rules, in
+    # this order: the pins first, then popularity descending, then title. The
+    # title tiebreak is what lets two lists honestly share a popularity value
+    # without the catalogue shuffling between builds.
+    missing_pins = [s for s in PINNED if s not in {p["slug"] for p in props}]
+    if missing_pins:
+        fail("pinned list(s) %s have no property file — fix the pin in "
+             "build.py or restore the file" % ", ".join(missing_pins))
+    props.sort(key=lambda p: (PINNED.index(p["slug"]) if p["slug"] in PINNED
+                              else len(PINNED), -p["popularity"], p["title"]))
 
     # medium tags for the search chips and the card wall — derived from the
     # kind string plus the unit, so mixed-media pages (MCU: films & shows)
@@ -164,6 +193,10 @@ def main():
             "subtitle": p.get("subtitle", ""),
             "kind": p.get("kind", ""),
             "year": p.get("year", ""),
+            # carried through so the number that produced this order is
+            # readable in the artifact it produced, and so a future "most
+            # popular first" control needs no second build change
+            "popularity": p["popularity"],
             "blurb": p.get("blurb", ""),
             "accent": p.get("accent", ""),
             "accentDark": p.get("accentDark", ""),
@@ -251,9 +284,12 @@ def main():
 
     print("wrote index.html, properties/index.json and build.json")
     print("  build %s" % build)
-    for p in props:
-        print("  %-22s %4d %-9s %s"
-              % (p["slug"], p["_total"], p["unit"]["many"],
+    print("  catalogue: popularity desc, pinned to the head: %s"
+          % ", ".join(PINNED))
+    for i, p in enumerate(props, 1):
+        print("  %3d. %-22s pop %3d  %4d %-9s %s%s"
+              % (i, p["slug"], p["popularity"], p["_total"], p["unit"]["many"],
+                 "pinned " if p["slug"] in PINNED else "",
                  "scheduled" if p.get("schedule") else ""))
 
 

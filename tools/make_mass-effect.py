@@ -137,7 +137,7 @@ def main():
         "title": "Mass Effect",
         "subtitle": "the Shepard trilogy and its DLC, then Andromeda",
         "kind": "games",
-        "order": 101,
+        "popularity": 67,
         "year": "2007–",
         "blurb": "The trilogy, 7 story DLC and Andromeda — about %d hours "
                  "of story, %d of it the trilogy itself." % (round(hours),

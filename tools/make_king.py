@@ -161,7 +161,7 @@ def main():
         "title": "Stephen King",
         "subtitle": "all %d novels, Bachman included" % len(novels),
         "kind": "books",
-        "order": 54,
+        "popularity": 80,
         "year": "%d–%d" % (first["year"], last["year"]),
         "blurb": "Every novel in publication order, %s to %s — %d of them, "
                  "the seven Richard Bachman books included, each counting "

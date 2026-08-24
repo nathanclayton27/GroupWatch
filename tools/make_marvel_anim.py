@@ -215,7 +215,7 @@ def main():
         "title": "Marvel Animation",
         "subtitle": "every animated Marvel series and film, in release order",
         "kind": "shows & films",
-        "order": 29,
+        "popularity": 60,
         "year": "1966–",
         "blurb": "%d films and %d seasons of television, about %d hours, in "
                  "the order they came out."

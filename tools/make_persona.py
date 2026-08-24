@@ -143,7 +143,7 @@ def main():
         "title": "Persona",
         "subtitle": "the mainline RPGs in release order, spin-offs cut",
         "kind": "games",
-        "order": 98,
+        "popularity": 66,
         "year": "1996–",
         "blurb": "7 games and about %d hours of story — these are 60-to-"
                  "100-hour RPGs, and that total is not a typo. The modern "

@@ -116,7 +116,7 @@ def main():
         "title": "Dragon Age",
         "subtitle": "all four games in release order, expansions included",
         "kind": "games",
-        "order": 102,
+        "popularity": 58,
         "year": "2009–",
         "blurb": "4 games and 2 expansions — about %d hours of story, %d "
                  "of it the games themselves." % (round(hours), round(spine)),

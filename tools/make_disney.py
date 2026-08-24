@@ -126,7 +126,7 @@ def main():
         "title": "Disney",
         "subtitle": "the studio's own films, in release order",
         "kind": "films",
-        "order": 23,
+        "popularity": 96,
         "year": "1937–",
         "blurb": "%d films from Snow White on — %d theatrical, %d television, "
                  "%d direct-to-video — about %d hours."

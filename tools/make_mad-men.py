@@ -87,7 +87,7 @@ def main():
         "title": "Mad Men",
         "subtitle": "every episode across seven seasons",
         "kind": "tv",
-        "order": 82,
+        "popularity": 67,
         "year": "2007–15",
         "blurb": "All 92 episodes in broadcast order — seven seasons of "
                  "Sterling Cooper and what it becomes.",

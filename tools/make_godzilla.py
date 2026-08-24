@@ -128,7 +128,7 @@ def main():
         "title": "Godzilla",
         "subtitle": "every film era by era, Godzilla Fest shorts included",
         "kind": "films",
-        "order": 35,
+        "popularity": 80,
         "year": "1954–",
         "blurb": "%d films from 1954 to 2024, the Monarch series, and all "
                  "%d Godzilla Fest shorts." % (nfilm, nshort),

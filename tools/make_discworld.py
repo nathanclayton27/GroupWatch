@@ -146,7 +146,7 @@ def main():
         "title": "Discworld",
         "subtitle": "Terry Pratchett — all 41 novels",
         "kind": "books",
-        "order": 104,
+        "popularity": 62,
         "year": "1983–2015",
         "blurb": "Every Discworld novel in publication order, The Colour of "
                  "Magic to The Shepherd's Crown, with the reading-order "

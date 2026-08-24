@@ -74,7 +74,7 @@ def main():
         "title": "One Location",
         "subtitle": "films that never leave the room",
         "kind": "films",
-        "order": 72,
+        "popularity": 28,
         "year": "%d–%d" % (min(f["year"] for f in films),
                            max(f["year"] for f in films)),
         "blurb": "%d films set (almost) entirely in one place — a jury room, "

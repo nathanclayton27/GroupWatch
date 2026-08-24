@@ -249,7 +249,7 @@ def main():
         "title": "Nasuverse",
         "subtitle": "Type-Moon's shared universe, by media type",
         "kind": "mixed",
-        "order": 17,
+        "popularity": 47,
         "year": "1998–",
         "blurb": "%d works across six media, in release order within each." % len(WORKS),
         "unit": {"one": "work", "many": "works"},

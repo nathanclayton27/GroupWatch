@@ -205,7 +205,7 @@ def main():
         "title": "Star Wars",
         "subtitle": "every film and television season, in release order",
         "kind": "films & shows",
-        "order": 21,
+        "popularity": 97,
         "year": "1977–",
         "blurb": "%d films and %d television seasons in the order they came out "
                  "— about %d hours." % (nf, ns, round(hours)),

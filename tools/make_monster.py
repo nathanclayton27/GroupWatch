@@ -86,7 +86,7 @@ def main():
         "title": "Monster",
         "subtitle": "Naoki Urasawa",
         "kind": "anime",
-        "order": 6,
+        "popularity": 58,
         "year": "2004–2005",
         "blurb": "74 episodes, no filler, watch it in order.",
         "schedule": {"kind": "windows", "windows": windows},

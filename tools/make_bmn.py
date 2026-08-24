@@ -92,7 +92,7 @@ def main():
         "title": "Bad Movie Night",
         "subtitle": "so bad they're appointment viewing",
         "kind": "films",
-        "order": 68,
+        "popularity": 16,
         "year": "%d–%d" % (min(f["year"] for f in films),
                            max(f["year"] for f in films)),
         "blurb": "%d famously terrible films worth watching with people you "

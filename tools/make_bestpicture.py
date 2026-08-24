@@ -343,7 +343,7 @@ def main():
         "title": "Best Picture",
         "subtitle": "every nominee, winners marked",
         "kind": "films",
-        "order": 28,
+        "popularity": 86,
         "year": "1927–2025",
         "blurb": "All %d Best Picture nominees across %d ceremonies, about %d "
                  "hours, each year's winner marked."

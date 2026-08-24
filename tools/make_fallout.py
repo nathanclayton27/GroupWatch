@@ -166,7 +166,7 @@ def main():
         "title": "Fallout",
         "subtitle": "the mainline games in release order, story DLC included",
         "kind": "games",
-        "order": 96,
+        "popularity": 78,
         "year": "1997–",
         "blurb": "5 mainline games, 12 story DLC and 3 asides — about %d "
                  "hours of story, %d of it the mainline." % (round(hours),

@@ -124,7 +124,7 @@ def main():
         "title": "Universal Monsters",
         "subtitle": "the classic cycle, by monster",
         "kind": "films",
-        "order": 67,
+        "popularity": 56,
         "year": "1923–1956",
         "blurb": "All 34 films of the classic cycle, grouped by monster — "
                  "about %d hours from the Hunchback to the last Creature."

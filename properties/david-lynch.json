@@ -3,7 +3,7 @@
   "title": "David Lynch",
   "subtitle": "the features, in release order",
   "kind": "films",
-  "order": 24,
+  "popularity": 64,
   "year": "1977–2006",
   "blurb": "Nine features and all of Twin Peaks as one row — about 63 hours, most of it one town in Washington.",
   "unit": { "one": "entry", "many": "entries" },

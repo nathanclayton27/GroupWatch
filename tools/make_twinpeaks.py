@@ -103,7 +103,7 @@ def main():
         "title": "Twin Peaks",
         "subtitle": "both seasons, the film, The Return, and the books",
         "kind": "tv, film & books",
-        "order": 25,
+        "popularity": 62,
         "year": "1990–2017",
         "blurb": "The whole thing: 30 episodes, Fire Walk with Me, the 18 parts "
                  "of The Return, and the four books woven in where you read them.",

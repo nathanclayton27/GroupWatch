@@ -49,6 +49,14 @@ def validate(prop):
     assert u.get("one") and u.get("many"), "unit incomplete"
     assert prop.get("accent") and prop.get("accentDark"), \
         "accent pair required (ultimate-marvel shipped grey without one)"
+    # Catalogue position. Caught here so a generator author finds out while
+    # writing the generator, not when the build refuses it. No default: see
+    # POPULARITY.md for the bands and the signals behind them.
+    assert "order" not in prop, \
+        "`order` was replaced by `popularity` — see POPULARITY.md"
+    pop = prop.get("popularity")
+    assert isinstance(pop, int) and not isinstance(pop, bool) and 0 <= pop <= 100, \
+        "popularity must be a whole number from 0 to 100 (POPULARITY.md), got %r" % pop
     ids, comicish = [], u.get("one") in ("issue", "chapter")
     for s in prop.get("sections", []):
         assert s.get("items"), "empty section %r" % s.get("id")

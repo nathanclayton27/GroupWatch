@@ -86,7 +86,7 @@ def main():
         "title": "John Carpenter",
         "subtitle": "the directed features",
         "kind": "films",
-        "order": 60,
+        "popularity": 61,
         "year": "1974–2010",
         "blurb": "Eighteen theatrical features and three optional TV films, "
                  "Dark Star to The Ward — about %d hours." % round(hours),

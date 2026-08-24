@@ -84,7 +84,7 @@ def main():
         "title": "Robin Williams",
         "subtitle": "the film roles, in release order",
         "kind": "films",
-        "order": 55,
+        "popularity": 71,
         "year": "1977–2023",
         "blurb": "%d films across five decades — about %d hours, from the "
                  "stand-up years to the posthumous releases." % (len(films), round(hours)),

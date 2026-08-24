@@ -503,7 +503,7 @@ def main():
         "title": "Spawn",
         "subtitle": "Blake Whitlow's reading order",
         "kind": "comics",
-        "order": 124,
+        "popularity": 61,
         # The source dates its first row itself: "Year is 1992."
         "year": "1992–",
         "blurb": "%d issues of Spawn and its spin-offs, in the order they are "

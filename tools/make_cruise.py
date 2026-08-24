@@ -119,7 +119,7 @@ def main():
         "title": "Tom Cruise",
         "subtitle": "the acting filmography, in release order",
         "kind": "films",
-        "order": 32,
+        "popularity": 79,
         "year": "%d–%d" % (films[0]["year"], films[-1]["year"]),
         "blurb": "%d films in release order, %d to %d — about %d hours, %d of "
                  "them as Ethan Hunt."

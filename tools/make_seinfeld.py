@@ -57,7 +57,7 @@ def main():
         "title": "Seinfeld",
         "subtitle": "every episode across nine seasons",
         "kind": "tv",
-        "order": 75,
+        "popularity": 82,
         "year": "1989–1998",
         "blurb": "All 180 episodes in broadcast order — nine seasons about "
                  "nothing, from The Seinfeld Chronicles to The Finale.",

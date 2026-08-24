@@ -81,7 +81,7 @@ def main():
         "subtitle": "the whole universe in release order — with El Camino "
                     "and Better Call Saul",
         "kind": "tv & film",
-        "order": 43,
+        "popularity": 84,
         "year": "2008–2022",
         "blurb": "All 62 episodes, El Camino, and Better Call Saul's 63 — "
                  "one universe, 126 entries, in the order it arrived.",

@@ -72,7 +72,10 @@ def main():
         "title": "Everything Dies: Secret Wars",
         "subtitle": "Jonathan Hickman's Marvel run",
         "kind": "comics",
-        "order": 2,
+        # Honest: comics readers know this run, nobody else does. It opens the
+        # catalogue because build.py pins it there, not because of this number.
+        # See POPULARITY.md.
+        "popularity": 44,
         "year": "2009–2015",
         "blurb": "250 issues from Fantastic Four #570 through Secret Wars #9, "
                  "in the order they're meant to be read.",

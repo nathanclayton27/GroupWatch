@@ -144,7 +144,7 @@ def main():
         "title": "Doctor Who",
         "subtitle": "every televised story, 1963–2025",
         "kind": "tv",
-        "order": 73,
+        "popularity": 77,
         "year": "1963–2025",
         "blurb": "All of it, in broadcast order — 26 seasons of classic "
                  "serials, the TV movie, and 15 revival series: 355 entries "

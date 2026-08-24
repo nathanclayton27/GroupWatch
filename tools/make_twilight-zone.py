@@ -69,7 +69,7 @@ def main():
         "title": "The Twilight Zone",
         "subtitle": "the original series — five seasons, 1959–1964",
         "kind": "tv",
-        "order": 78,
+        "popularity": 72,
         "year": "1959–64",
         "blurb": "All 156 episodes of the 1959 original — standalone doors "
                  "into the fifth dimension, built for the random picker.",
