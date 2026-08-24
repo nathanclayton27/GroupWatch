@@ -713,20 +713,27 @@ footer a{color:var(--steel)}
 .atog .t b{display:block;font-size:13.5px;font-weight:500}
 .atog .t span{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;
   color:var(--ink-3);line-height:1.6}
-/* the switch, scoped to this page: the list's own checkboxes keep the plain
-   accent-coloured box they have always had */
-.acctp input[type=checkbox]{appearance:none;-webkit-appearance:none;flex:none;
+/* the switch: this page's, and any .atog that borrows it — the friend-privacy
+   toggle on a list page (CLU-118) is the same control and must not look like a
+   second one. The list's own checkboxes keep the plain accent-coloured box
+   they have always had. */
+.acctp input[type=checkbox],.atog input[type=checkbox]{appearance:none;
+  -webkit-appearance:none;flex:none;
   margin:2px 0 0;width:34px;height:19px;border-radius:99px;position:relative;
   background:var(--paper);border:1px solid var(--rule-2);cursor:pointer;
   transition:background .15s}
-.acctp input[type=checkbox]::after{content:"";position:absolute;top:2px;left:2px;
+.acctp input[type=checkbox]::after,.atog input[type=checkbox]::after{content:"";
+  position:absolute;top:2px;left:2px;
   width:13px;height:13px;border-radius:99px;background:var(--ink-3);
   transition:transform .15s,background .15s}
-.acctp input[type=checkbox]:checked{border-color:var(--done);
+.acctp input[type=checkbox]:checked,.atog input[type=checkbox]:checked{
+  border-color:var(--done);
   background:color-mix(in srgb,var(--done) 24%,var(--paper))}
-.acctp input[type=checkbox]:checked::after{transform:translateX(15px);
+.acctp input[type=checkbox]:checked::after,
+.atog input[type=checkbox]:checked::after{transform:translateX(15px);
   background:var(--done)}
-.acctp input[type=checkbox]:disabled{opacity:.45;cursor:default}
+.acctp input[type=checkbox]:disabled,.atog input[type=checkbox]:disabled{
+  opacity:.45;cursor:default}
 /* the destructive corner is one grey line until it is asked for */
 .adanger{margin-top:12px;padding-top:11px;border-top:1px solid var(--rule)}
 .aquiet{font-size:12.5px;color:var(--ink-2);background:none;border:0;
@@ -909,6 +916,32 @@ footer a{color:var(--steel)}
         <button id="b-fadd" type="button">Add</button>
       </div>
       <div class="acap">mutual by construction — you add theirs, they add yours, and only then are you linked</div>
+    </div>
+
+    <!-- friend privacy (CLU-118): friends could read every shelf and there was
+         no way out. The switches belong to the account; the enforcement
+         belongs to the database (migrate-add-friend-privacy.sql). The whole
+         card stays away until that file has run — a control that cannot save
+         is worse than one that was never there. -->
+    <div class="acard hide" id="a-privcard">
+      <div class="ak">what friends see</div>
+      <div class="atog"><input type="checkbox" id="a-share"
+             aria-label="Friends can see my progress">
+        <label class="t" for="a-share"><b>Friends can see my progress</b>
+          <span>your shelves show on the friends page of anyone you are mutual
+            friends with. Off, they see your name and nothing under it — and
+            you stay friends.</span></label></div>
+      <div class="atog"><input type="checkbox" id="a-showticks"
+             aria-label="Show my ticks to friends">
+        <label class="t" for="a-showticks"><b>Show my ticks to friends</b>
+          <span id="a-showticks-h"></span></label></div>
+      <div class="ak" style="margin:15px 0 8px">hidden lists</div>
+      <div id="a-hidden"></div>
+      <div class="acap">a list is hidden from its own page — the switch sits at
+        the bottom, beside the progress code. <b>Clubs are not affected:</b> a
+        club you joined with a code still shows your layer there.</div>
+      <p id="a-privmsg" role="status"
+         style="margin:9px 0 0;font-size:13px;color:var(--signal)"></p>
     </div>
 
     <div class="acard">
@@ -1123,6 +1156,20 @@ footer a{color:var(--steel)}
 
   <div class="fbar hide" id="fbar"></div>
   <main id="list"></main>
+
+  <!-- friend privacy, per list (CLU-118). The decision is made where the
+       context is — on the list itself — and it lands next to the progress
+       code because both are this list's own housekeeping. Hidden until the
+       database can prove it holds the columns. -->
+  <div class="panel hide" id="privpanel">
+    <h3>Friends</h3>
+    <div class="atog"><input type="checkbox" id="p-hide"
+           aria-label="Hide this list from friends">
+      <label class="t" for="p-hide"><b>Hide this list from friends</b>
+        <span id="p-hide-h"></span></label></div>
+    <p id="privmsg" role="status"
+       style="margin:11px 0 0;font-size:13px;color:var(--signal)"></p>
+  </div>
 
   <div class="panel">
     <h3>Move progress by hand</h3>
@@ -1788,6 +1835,7 @@ async function onSession(session){
   moveBanner();
   paintMastAcct();
   renderFriends();   // list pages want the request badge on the pills
+  paintPrivacy();    // and this list's own "hide from friends" switch
   paintFW();
   // off the critical path: the first load fetches the index once, every
   // later load exits on the flag before any network
@@ -2121,6 +2169,169 @@ async function toggleFavFriend(id){
   return on;
 }
 
+/* ------------------------------------------------ friend privacy (CLU-118) */
+// Since CLU-72 friends have been able to read each other's shelves, live, with
+// no way to say no. The no is a database rule rather than a rule this file
+// obeys: the mutual-friends policy on progress now asks the row owner's
+// profile before handing a row over, so there is deliberately NO filter on
+// this side for a browser to be talked out of. What is hidden never arrives.
+//
+// The settings ride three RPCs rather than the profiles columns directly,
+// because what you hid is nobody else's business and those columns are no
+// longer granted to other readers. A missing RPC means
+// migrate-add-friend-privacy.sql has not run yet, and every control here stays
+// away rather than sitting dead — the CLU-72 precedent, where friend names
+// rendered perfectly well before the shelf policy existed.
+let PRIV = null;               // {share, activity, hidden:Set} once it answers
+let PRIVOFF = false;           // the migration has not run: draw nothing
+function takePrivacy(data){
+  const r = data || {};
+  PRIV = { share: r.share_progress !== false,
+           activity: r.share_activity !== false,
+           hidden: new Set(Array.isArray(r.hidden_slugs) ? r.hidden_slugs : []) };
+  return PRIV;
+}
+async function loadPrivacy(){
+  if(!user || !sb || PRIVOFF) return null;
+  if(PRIV) return PRIV;
+  try{
+    const { data, error } = await sb.rpc('privacy_settings');
+    if(error) throw error;
+    return takePrivacy(data);
+  }catch(e){ PRIVOFF = true; PRIV = null; return null; }
+}
+// Both setters answer with the settings the server now holds, so a switch
+// paints from what landed rather than from what was asked for. null means the
+// write did not land at all, and every caller says so out loud: a switch that
+// silently failed to save is worse than a switch that was never there.
+async function savePrivacy(patch){
+  if(!user || !sb || PRIVOFF) return null;
+  try{
+    const { data, error } = await sb.rpc('set_privacy', patch);
+    if(error) throw error;
+    return takePrivacy(data);
+  }catch(e){ console.error('[privacy] write failed', e); return null; }
+}
+async function saveListHidden(slug, hidden){
+  if(!user || !sb || PRIVOFF) return null;
+  try{
+    const { data, error } = await sb.rpc('set_list_hidden',
+      { p_slug: slug, p_hidden: !!hidden });
+    if(error) throw error;
+    return takePrivacy(data);
+  }catch(e){ console.error('[privacy] write failed', e); return null; }
+}
+
+// A list hidden invisibly is a trap, so the account page names every one of
+// them and offers the way back.
+function paintHiddenList(){
+  const host = $('a-hidden');
+  if(!host || !PRIV) return;
+  const slugs = [...PRIV.hidden].sort((a, b)=> titleOf(a).localeCompare(titleOf(b)));
+  host.innerHTML = slugs.length
+    ? slugs.map(s=>
+        '<div class="arow"><span class="aval"><b>' + esc(titleOf(s)) + '</b></span>'
+        + '<button class="aquiet" data-unhide="' + esc(s) + '">show again</button>'
+        + '</div>').join('')
+    : '<div class="arow"><span class="aval" style="color:var(--ink-3)">'
+      + 'nothing hidden — every list you keep shows to friends</span></div>';
+  host.querySelectorAll('button[data-unhide]').forEach(b=>{
+    b.onclick = async ()=>{
+      const slug = b.dataset.unhide;
+      b.disabled = true;
+      const ok = await saveListHidden(slug, false);
+      b.disabled = false;
+      if(!ok){
+        flash('That did not save — ' + titleOf(slug) + ' is still hidden.', 'a-privmsg');
+        return;
+      }
+      paintHiddenList();
+      flash(titleOf(slug) + ' shows to friends again.', 'a-privmsg');
+    };
+  });
+}
+// One painter, both homes: the account card carries every switch and the list
+// of what is hidden; a list page carries the one switch that is about it.
+async function paintPrivacy(){
+  const card = $('a-privcard'), panel = $('privpanel');
+  const p = await loadPrivacy();
+  if(!p){
+    if(card) card.classList.add('hide');
+    if(panel) panel.classList.add('hide');
+    return;
+  }
+  if(card){
+    card.classList.remove('hide');
+    $('a-share').checked = p.share;
+    const act = $('a-showticks');
+    // the master switch outranks it: with progress hidden there are no ticks
+    // to publish, and a switch that cannot matter should say so rather than
+    // sit there looking live
+    act.checked = p.share && p.activity;
+    act.disabled = !p.share;
+    $('a-showticks-h').textContent = p.share
+      ? 'friends’ ticks reach the activity feed with CLU-70. This is your'
+        + ' answer, banked before the feature arrives rather than after it.'
+      : 'nothing to show while friends cannot see your progress at all.';
+    paintHiddenList();
+  }
+  if(panel && SLUG){
+    panel.classList.remove('hide');
+    $('p-hide').checked = p.hidden.has(SLUG);
+    $('p-hide-h').textContent = p.share
+      ? 'friends see this list on their friends page. Hidden, it is gone from'
+        + ' their view and your other lists stay. Your clubs are untouched.'
+      : 'friends cannot see any of your progress right now — the switch on your'
+        + ' account page is off, so this one changes nothing today.';
+  }
+}
+$('a-share').onchange = async e=>{
+  const want = e.target.checked;
+  e.target.disabled = true;
+  const ok = await savePrivacy({ p_share: want });
+  e.target.disabled = false;
+  if(!ok){
+    e.target.checked = !want;   // never paint a setting that did not land
+    flash('That did not save — friends can still see what they could before.',
+          'a-privmsg');
+    return;
+  }
+  paintPrivacy();
+  flash(want ? 'Friends can see your progress again.'
+             : 'Your shelves are hidden from every friend. You stay friends.',
+        'a-privmsg');
+};
+$('a-showticks').onchange = async e=>{
+  const want = e.target.checked;
+  e.target.disabled = true;
+  const ok = await savePrivacy({ p_activity: want });
+  e.target.disabled = false;
+  if(!ok){
+    e.target.checked = !want;
+    flash('That did not save — try again in a moment.', 'a-privmsg');
+    return;
+  }
+  flash(want ? 'Your ticks will show to friends when the feed lands.'
+             : 'Your ticks stay yours when the feed lands.', 'a-privmsg');
+};
+$('p-hide').onchange = async e=>{
+  const want = e.target.checked;
+  e.target.disabled = true;
+  const ok = await saveListHidden(SLUG, want);
+  e.target.disabled = false;
+  if(!ok){
+    e.target.checked = !want;
+    flash('That did not save — this list is still '
+          + (want ? 'visible' : 'hidden') + ' to friends. Try again in a moment.',
+          'privmsg');
+    return;
+  }
+  flash(want
+    ? 'Hidden. ' + titleOf(SLUG) + ' is gone from every friend’s view — your'
+      + ' clubs still show your layer.'
+    : titleOf(SLUG) + ' shows to friends again.', 'privmsg');
+};
+
 // No 0/O and no 1/I: this code gets read down a phone and typed in by hand.
 // 32 symbols divides 256 exactly, so one random byte per character is an
 // unbiased draw.
@@ -2289,6 +2500,7 @@ async function renderAccount(){
   paintAcctData();
   paintAcctPrefs();
   paintMastAcct();
+  paintPrivacy();
   renderFriends();
   ensureFcode().then(c=>{ $('a-fcode').textContent = c; mirrorProfile(); });
   acctUser().then(()=>{
