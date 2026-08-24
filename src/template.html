@@ -444,10 +444,28 @@ footer a{color:var(--steel)}
   background:transparent;color:var(--ink-2);border-radius:var(--radius);
   padding:4px 12px;cursor:pointer}
 .tonight button:hover{border-color:var(--ink-3)}
-.hmore{margin-top:26px}
-.hmore button{font:inherit;font-size:13px;border:1px solid var(--rule-2);
-  background:transparent;color:var(--ink-2);border-radius:var(--radius);
-  padding:7px 16px;cursor:pointer}
+/* the card wall (CLU-48): monotone until touched — hover restores the
+   card's own accent and leans it toward the cursor; filters FLIP-animate;
+   on touch the scroll position stands in for the cursor */
+.wall .card{filter:grayscale(1);transition:filter .18s,opacity .2s}
+.wall .card:hover,.wall .card.wact{filter:none;position:relative;z-index:2}
+.card .in{display:block;transition:transform .18s cubic-bezier(.2,.7,.25,1)}
+.wall .card.dim{opacity:.35}
+.wall .card.shrink .in{transform:scale(.82)}
+.wall .card.bub{opacity:0}
+.wall .card.bub .in{transform:scale(.82)}
+.wall .card.gone{display:none}
+.wall .card.wact .in{transform:scale(1.06)}
+.wchips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 8px}
+.wchips button{font:inherit;font-size:12px;border:1px solid var(--rule-2);
+  background:transparent;color:var(--ink-2);border-radius:99px;padding:4px 12px;cursor:pointer}
+.wchips button.on{border-color:var(--signal);color:var(--signal)}
+.wtally{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;
+  color:var(--ink-3);margin:0 0 14px}
+.hsec{display:flex;align-items:baseline;gap:12px}
+.foldbtn{margin-left:auto;font:inherit;font-size:11px;letter-spacing:normal;
+  text-transform:none;border:1px solid var(--rule-2);background:transparent;
+  color:var(--ink-2);border-radius:99px;padding:2px 10px;cursor:pointer}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 @media (max-width:560px){
   li{padding:6px 14px}.wrap{padding:0 14px 80px}.bar-in{padding:0 14px;gap:16px}
@@ -513,8 +531,9 @@ footer a{color:var(--steel)}
     <div class="hsec">Lately</div>
     <div id="hledger"></div>
     <!-- the Clubbothy Recommends shelf claims this slot when thumbs exist -->
-    <div class="hmore"><button id="b-homeall" type="button"></button></div>
-    <div class="cards hide" id="homecards" style="margin-top:18px"></div>
+    <div class="hsec">The catalogue
+      <button class="foldbtn" id="b-wallfold" type="button">Collapse</button></div>
+    <div id="homewall"></div>
   </div>
 </div>
 
@@ -2999,14 +3018,16 @@ function cardHTML(m, why){
   let bar = '';
   for(let i=0;i<TICKS;i++)
     bar += '<span'+(i<on?' class="on" style="background:'+esc(accentOf(m))+'"':'')+'></span>';
-  return '<button class="card" data-slug="'+esc(m.slug)+'">'
+  return '<button class="card" data-slug="'+esc(m.slug)+'"'
+    + ' data-media="'+esc((m.media||[]).join(' '))+'">'
+    + '<span class="in">'
     + '<h2><span class="pdot" style="background:'+esc(accentOf(m))+'"></span>'
     + esc(m.title)+'</h2>'
     + '<div class="pm-m">'+meta.map(esc).join(' · ')+(n?' · '+n+' done':'')+'</div>'
     + (m.blurb ? '<div class="pm-b">'+esc(m.blurb)+'</div>' : '')
     + '<div class="cbar">'+bar+'</div>'
     + (why ? '<div class="hwhy">'+esc(why)+'</div>' : '')
-    + '</button>';
+    + '</span></button>';
 }
 function wireCards(host){
   host.querySelectorAll('button[data-slug]').forEach(b=>{
@@ -3018,8 +3039,163 @@ function showSplash(){
   $('switcher').classList.add('hide');
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
   document.title = 'GroupWatch';
-  $('cards').innerHTML = splashList().map(m=> cardHTML(m)).join('');
-  wireCards($('cards'));
+  // a new user's home IS the card wall
+  renderWall($('cards'));
+}
+
+/* ------------------------------------------------------------ card wall */
+// Monotone until touched. Hover gives a card back its own accent and
+// leans it toward the cursor — the zoom is cursor-weighted, so a corner
+// hover tips the card that way. Medium chips FLIP-animate the survivors
+// into place. On touch, scroll position stands in for the cursor: the
+// card riding the middle of the screen is the lit one.
+const WALLF = new Set();
+const WGREY = 150, WSHRINK = 190, WSLIDE = 260;
+let wallTurn = 0;
+function wallReduced(){ return matchMedia('(prefers-reduced-motion: reduce)').matches; }
+function renderWall(host){
+  const list = splashList();
+  const present = [];
+  for(const key of ['movies','tv','anime','games','comics','manga','books'])
+    if(list.some(m=> (m.media||[]).indexOf(key) >= 0)) present.push(key);
+  host.innerHTML =
+      '<div class="wchips">'
+    + '<button data-m="all">All</button>'
+    + present.map(k=> '<button data-m="'+k+'">'+MEDIA_LABEL[k]+'</button>').join('')
+    + '</div>'
+    + '<div class="wtally"></div>'
+    + '<div class="cards wall">' + list.map(m=> cardHTML(m)).join('') + '</div>';
+  wireCards(host);
+  const wall = host.querySelector('.wall');
+  const cards = [...wall.querySelectorAll('.card')];
+  const chips = [...host.querySelectorAll('.wchips button')];
+  const tally = host.querySelector('.wtally');
+  const hiddenC = c=> c.classList.contains('gone');
+  const matchC = c=> WALLF.size === 0
+    || c.dataset.media.split(' ').some(m=> WALLF.has(m));
+  const paintChips = ()=> chips.forEach(b=>{
+    const on = b.dataset.m === 'all' ? WALLF.size === 0 : WALLF.has(b.dataset.m);
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+  const count = ()=>{
+    tally.textContent = cards.filter(c=> !hiddenC(c)).length + ' of ' + cards.length;
+  };
+  // cursor-weighted lean, mouse only
+  if(matchMedia('(hover: hover)').matches){
+    cards.forEach(c=>{
+      const inner = c.querySelector('.in');
+      c.addEventListener('pointermove', e=>{
+        if(wallReduced()) return;
+        const b = c.getBoundingClientRect();
+        const mx = Math.max(-1, Math.min(1, (e.clientX - (b.left + b.width/2)) / (b.width/2)));
+        const my = Math.max(-1, Math.min(1, (e.clientY - (b.top + b.height/2)) / (b.height/2)));
+        inner.style.transformOrigin = (50 + mx*24) + '% ' + (50 + my*24) + '%';
+        inner.style.transform = 'perspective(760px) rotateY(' + (mx*4).toFixed(2)
+          + 'deg) rotateX(' + (-my*4).toFixed(2) + 'deg) scale(1.09)';
+      });
+      c.addEventListener('pointerleave', ()=>{
+        inner.style.transform = ''; inner.style.transformOrigin = '';
+      });
+    });
+  }
+  // FLIP helpers
+  const rects = els=>{
+    const m = new Map();
+    els.forEach(e=> m.set(e, e.getBoundingClientRect()));
+    return m;
+  };
+  const slide = (els, first)=> els.forEach(e=>{
+    const a = first.get(e);
+    if(!a) return;
+    const b = e.getBoundingClientRect();
+    const dx = a.left - b.left, dy = a.top - b.top;
+    if(Math.abs(dx) < .5 && Math.abs(dy) < .5) return;
+    e.style.transition = 'none';
+    e.style.transform = 'translate(' + dx + 'px,' + dy + 'px)';
+    void e.offsetWidth;
+    e.style.transition = 'transform ' + WSLIDE + 'ms cubic-bezier(.2,.7,.25,1)';
+    e.style.transform = 'translate(0,0)';
+    setTimeout(()=>{ e.style.transition = ''; e.style.transform = ''; }, WSLIDE + 40);
+  });
+  const settle = ()=> cards.forEach(c=>{
+    c.classList.remove('dim', 'shrink', 'bub');
+    c.style.transition = ''; c.style.transform = '';
+    // a card filtered out mid-hover never gets pointerleave — drop its lean
+    const inner = c.querySelector('.in');
+    inner.style.transform = ''; inner.style.transformOrigin = '';
+  });
+  const wait = ms=> new Promise(r=> setTimeout(r, ms));
+  async function apply(){
+    const mine = ++wallTurn;
+    settle();
+    const leaving = cards.filter(c=> !hiddenC(c) && !matchC(c));
+    const entering = cards.filter(c=> hiddenC(c) && matchC(c));
+    if(wallReduced()){
+      leaving.forEach(c=> c.classList.add('gone'));
+      entering.forEach(c=> c.classList.remove('gone'));
+      count(); return;
+    }
+    if(leaving.length){
+      leaving.forEach(c=> c.classList.add('dim'));
+      await wait(WGREY); if(mine !== wallTurn) return;
+      leaving.forEach(c=> c.classList.add('shrink'));
+      await wait(WSHRINK); if(mine !== wallTurn) return;
+      const stay = cards.filter(c=> !hiddenC(c) && leaving.indexOf(c) < 0);
+      const first = rects(stay);
+      leaving.forEach(c=>{ c.classList.add('gone'); c.classList.remove('dim','shrink'); });
+      count();
+      slide(stay, first);
+      if(entering.length){ await wait(WSLIDE); if(mine !== wallTurn) return; }
+    }
+    if(entering.length){
+      const stay = cards.filter(c=> !hiddenC(c));
+      const first = rects(stay);
+      entering.forEach(c=>{ c.classList.add('bub'); c.classList.remove('gone'); });
+      count();
+      slide(stay, first);
+      requestAnimationFrame(()=> requestAnimationFrame(()=>{
+        if(mine !== wallTurn) return;
+        entering.forEach(c=> c.classList.remove('bub'));
+      }));
+    }
+    count();
+  }
+  chips.forEach(b=> b.addEventListener('click', e=>{
+    e.stopPropagation();
+    const m = b.dataset.m;
+    if(m === 'all') WALLF.clear();
+    else if(WALLF.has(m)) WALLF.delete(m);
+    else WALLF.add(m);
+    paintChips();
+    apply();
+  }));
+  // hidden cards from a previous render keep the current filter honest
+  cards.forEach(c=>{ if(!matchC(c)) c.classList.add('gone'); });
+  paintChips();
+  count();
+  // touch: the card in the middle of the screen is the lit one
+  if(COARSE && !wallReduced()){
+    let raf = null;
+    const mark = ()=>{
+      raf = null;
+      const mid = innerHeight / 2;
+      let best = null, bd = 1e9;
+      for(const c of cards){
+        if(hiddenC(c)) continue;
+        const b = c.getBoundingClientRect();
+        if(b.bottom < 0 || b.top > innerHeight) continue;
+        const d = Math.abs((b.top + b.bottom) / 2 - mid);
+        if(d < bd){ bd = d; best = c; }
+      }
+      cards.forEach(c=> c.classList.toggle('wact', c === best));
+    };
+    addEventListener('scroll', ()=>{
+      if(host.offsetParent === null) return;
+      if(!raf) raf = requestAnimationFrame(mark);
+    }, { passive: true });
+    mark();
+  }
 }
 
 /* ------------------------------------------------------------------ home */
@@ -3166,20 +3342,26 @@ function showHome(){
   renderShelf(shelf);
   renderTonight(shelf);
   renderLedger();
-  const all = $('b-homeall');
-  all.textContent = 'All ' + splashList().length + ' lists →';
-  all.onclick = ()=>{
-    const hc = $('homecards');
-    if(hc.classList.contains('hide')){
-      hc.innerHTML = splashList().map(m=> cardHTML(m)).join('');
-      wireCards(hc);
-      hc.classList.remove('hide');
-      all.textContent = 'Fold the catalogue';
+  // the wall rides the bottom of home, open by default; the collapse
+  // choice is remembered
+  const hw = $('homewall'), fb = $('b-wallfold');
+  const folded = ()=> localStorage.getItem('gw:wallfold') === '1';
+  const paintWall = ()=>{
+    if(folded()){
+      hw.innerHTML = '';
+      hw.classList.add('hide');
+      fb.textContent = 'Show all ' + splashList().length + ' lists';
     }else{
-      hc.classList.add('hide');
-      all.textContent = 'All ' + splashList().length + ' lists →';
+      hw.classList.remove('hide');
+      renderWall(hw);
+      fb.textContent = 'Collapse';
     }
   };
+  fb.onclick = ()=>{
+    try{ localStorage.setItem('gw:wallfold', folded() ? '0' : '1'); }catch(e){}
+    paintWall();
+  };
+  paintWall();
 }
 
 function openMenu(){
