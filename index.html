@@ -727,6 +727,8 @@ footer a{color:var(--steel)}
     <div id="hshelf"></div>
     <div class="hsec">Lately</div>
     <div id="hledger"></div>
+    <div class="hsec hide" id="hfr-h">Friends</div>
+    <div class="hide" id="hfriends"></div>
     <div class="hsec">Tonight</div>
     <div class="trow">
       <div class="tonight" id="htonight"></div>
@@ -762,10 +764,10 @@ footer a{color:var(--steel)}
         kills every link you’ve ever sent.</div>
       <div class="afrow" style="margin-top:13px">
         <input type="text" id="a-fadd" placeholder="Enter a friend’s code"
-               aria-label="Enter a friend’s code" maxlength="8" disabled>
-        <button id="b-fadd" type="button" disabled>Add</button>
+               aria-label="Enter a friend’s code" maxlength="8">
+        <button id="b-fadd" type="button">Add</button>
       </div>
-      <div class="acap">the handshake lands with friends — days away</div>
+      <div class="acap">mutual by construction — you add theirs, they add yours, and only then are you linked</div>
     </div>
 
     <div class="acard">
@@ -3174,7 +3176,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'fd08dee153df';
+const BUILD = 'e71a99045096';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -3233,8 +3235,9 @@ const BRAND = 'clubd';
 function pickSlug(){
   const q = new URLSearchParams(location.search);
   // ?home beats the remembered list — it's the way back to the shelf, and
-  // ?account is the same shell with the account column in place of it
-  if(q.has('home') || q.has('account')) return null;
+  // ?account is the same shell with the account column in place of it.
+  // A friend link lands there too, never inside a remembered list.
+  if(q.has('home') || q.has('account') || q.has('friend')) return null;
   const want = q.get('p');
   if(want && MANIFEST.some(m=>m.slug===want)) return want;
   const last = localStorage.getItem('gw:last');
@@ -3729,9 +3732,11 @@ async function onSession(session){
       $('splash').classList.add('hide');
       if(ACCOUNT) showAccount();
       else showHome();
+      mirrorProfile();
     }else if(ACCOUNT){
       openAccountSignin();
     }
+    settlePendingFriend();
     setTimeout(backfillSync, 1200);
     return;
   }
@@ -4044,6 +4049,9 @@ async function saveMeta(patch){
     await sb.auth.updateUser({ data: patch });
     const a = ACCT || user;
     if(a) a.user_metadata = Object.assign({}, a.user_metadata || {}, patch);
+    // the public mapping follows every metadata write — code and username
+    // must stay findable by the people who hold them
+    mirrorProfile();
     return true;
   }catch(e){ console.error('[account] metadata write failed', e); return false; }
 }
@@ -4216,7 +4224,7 @@ async function renderAccount(){
   paintAcctData();
   paintAcctPrefs();
   paintMastAcct();
-  ensureFcode().then(c=>{ $('a-fcode').textContent = c; });
+  ensureFcode().then(c=>{ $('a-fcode').textContent = c; mirrorProfile(); });
   acctUser().then(()=>{
     paintAcctIdentity();
     paintAcctProviders();
@@ -4251,6 +4259,15 @@ function openAccountSignin(){
   openMastAuth();
 }
 
+$('b-fadd').onclick = async ()=>{
+  const r = await addFriendFlow($('a-fadd').value);
+  if(r.err){ flash(r.err, 'a-msg'); return; }
+  $('a-fadd').value = '';
+  flash(r.mutual ? 'You and ' + r.name + ' are friends now.'
+    : 'Added ' + r.name + ' — when they add your code back, you are linked.',
+    'a-msg');
+};
+$('a-fadd').onkeydown = e=>{ if(e.key === 'Enter') $('b-fadd').click(); };
 $('b-fcopy').onclick = ()=> acctCopy($('a-fcode').textContent, 'Friend code copied.');
 $('b-fshare').onclick = ()=> acctCopy(friendLink(), 'Share link copied.');
 $('b-fnew').onclick = async ()=>{
@@ -4359,6 +4376,137 @@ async function primeShelf(){
     }
   }catch(e){ /* home just renders from whatever local has */ }
   return changed;
+}
+
+/* -------------------------------------------------------------- friends */
+// The handshake (CLU-69): a friendship is two rows, one per direction —
+// mutual by construction, no request inbox. profiles is the public half,
+// mapping a friend code to its owner so a typed or linked code can find
+// them. Both tables arrive with migrate-add-friends.sql; until it runs,
+// everything here fails quiet and the Friends section stays away.
+let FBROKEN = false;
+async function mirrorProfile(){
+  if(!user || !sb || FBROKEN) return;
+  try{
+    const { error } = await sb.from('profiles').upsert(
+      { user_id: user.id, fcode: acctMeta().fcode || null,
+        username: acctName() || null,
+        updated_at: new Date().toISOString() },
+      { onConflict: 'user_id' });
+    if(error) FBROKEN = true;
+  }catch(e){}
+}
+function normFcode(raw){
+  const tail = (raw || '').toUpperCase().replace(/[^A-Z2-9]/g, '').replace(/^CLB/, '');
+  return tail.length === 4 ? 'CLB·' + tail : null;
+}
+async function friendByCode(raw){
+  const code = normFcode(raw);
+  if(!code) return { err: 'Codes look like CLB·XXXX.' };
+  const { data, error } = await sb.from('profiles')
+    .select('user_id,username').eq('fcode', code).maybeSingle();
+  if(error) return { err: 'Friends need one more piece of setup — try again shortly.' };
+  if(!data) return { err: 'No one holds that code.' };
+  if(data.user_id === user.id) return { err: 'That one is yours.' };
+  return { id: data.user_id, name: data.username || 'them' };
+}
+async function addFriend(target){
+  // one direction; adding twice is a quiet success
+  const ins = await sb.from('friendships').insert({ a: user.id, b: target.id });
+  if(ins.error && ins.error.code !== '23505')
+    return { err: 'Could not add — try again.' };
+  const rev = await sb.from('friendships').select('a')
+    .eq('a', target.id).eq('b', user.id).maybeSingle();
+  return { name: target.name, mutual: !!rev.data };
+}
+async function addFriendFlow(raw){
+  const t = await friendByCode(raw);
+  if(t.err) return t;
+  return addFriend(t);
+}
+// a ?friend link survives the sign-in round trip in sessionStorage
+function pendingFriend(){
+  try{
+    const q = new URLSearchParams(location.search).get('friend');
+    if(q){
+      sessionStorage.setItem('gw:pendfriend', q);
+      history.replaceState(null, '', location.pathname);
+    }
+    return sessionStorage.getItem('gw:pendfriend') || '';
+  }catch(e){ return ''; }
+}
+async function settlePendingFriend(){
+  const code = pendingFriend();
+  if(!code) return;
+  if(!user){
+    if(!CLOUD) return;
+    const c = $('signctx');
+    if(c){
+      c.textContent = 'Sign in and this friend link finishes itself.';
+      c.classList.remove('hide');
+    }
+    openMastAuth();
+    return;
+  }
+  try{ sessionStorage.removeItem('gw:pendfriend'); }catch(e){}
+  const r = await addFriendFlow(code);
+  if(r.err){ flash(r.err); return; }
+  flash(r.mutual ? 'You and ' + r.name + ' are friends now.'
+    : 'Added ' + r.name + ' — when they add your code back, you are linked.');
+  renderFriends();
+}
+// the home section: mutual friends, then people waiting on one side
+async function renderFriends(){
+  const h = $('hfr-h'), host = $('hfriends');
+  if(!h || !host) return;
+  const off = ()=>{ h.classList.add('hide'); host.classList.add('hide'); };
+  if(!user || !sb || FBROKEN){ off(); return; }
+  let edges;
+  try{
+    const { data, error } = await sb.from('friendships').select('a,b')
+      .or('a.eq.' + user.id + ',b.eq.' + user.id);
+    if(error){ FBROKEN = true; off(); return; }
+    edges = data || [];
+  }catch(e){ off(); return; }
+  const out = new Set(), inn = new Set();
+  edges.forEach(e=>{ e.a === user.id ? out.add(e.b) : inn.add(e.a); });
+  const ids = [...new Set([...out, ...inn])];
+  h.classList.remove('hide');
+  host.classList.remove('hide');
+  if(!ids.length){
+    host.innerHTML = '<div class="hled" style="cursor:default">'
+      + '<span class="hlt" style="color:var(--ink-3)">Share your friend code'
+      + ' from the account page and they land here.</span></div>';
+    return;
+  }
+  const names = {};
+  try{
+    const { data } = await sb.from('profiles')
+      .select('user_id,username').in('user_id', ids);
+    (data || []).forEach(p=>{ names[p.user_id] = p.username; });
+  }catch(e){}
+  const row = (id, status, act)=>
+    '<div class="hled" style="cursor:default"><span class="hlt"><b>'
+    + esc(names[id] || 'someone') + '</b></span>'
+    + (act ? '<button class="abtn" data-addback="' + esc(id)
+        + '" style="margin-left:10px">Add back</button>' : '')
+    + '<span class="hlw">' + status + '</span></div>';
+  const mut = ids.filter(i=> out.has(i) && inn.has(i));
+  const incoming = ids.filter(i=> !out.has(i) && inn.has(i));
+  const waiting = ids.filter(i=> out.has(i) && !inn.has(i));
+  host.innerHTML =
+      mut.map(i=> row(i, 'friends', false)).join('')
+    + incoming.map(i=> row(i, 'added you', true)).join('')
+    + waiting.map(i=> row(i, 'waiting on them', false)).join('');
+  host.querySelectorAll('button[data-addback]').forEach(b=>{
+    b.onclick = async ()=>{
+      const r = await addFriend({ id: b.dataset.addback,
+        name: names[b.dataset.addback] || 'them' });
+      if(r.err){ flash(r.err); return; }
+      flash('You and ' + r.name + ' are friends now.');
+      renderFriends();
+    };
+  });
 }
 
 // The move warning: localStorage is per-origin, so anonymous ticks stay
@@ -6438,6 +6586,7 @@ function showHome(){
   try{ renderMenu(); }catch(e){ console.error('[home] menu', e); }
   renderShelf(shelf);
   renderLedger();
+  renderFriends();
   // one chip row scopes both the pick and the wall, even while folded
   renderChips($('hchips'), ()=>{
     if(homeWallApply) homeWallApply();
