@@ -536,7 +536,8 @@ footer a{color:var(--steel)}
     <div class="lbl">clubd</div>
     <h1 class="splash-h">What are you tracking?</h1>
     <p class="splash-p">Pick one to start. Whichever you choose is what opens next time — the button in the top left switches between them.</p>
-    <div class="cards" id="cards"></div>
+    <!-- plain host: renderWall builds its own .cards.wall grid inside -->
+    <div id="cards"></div>
   </div>
 </div>
 
@@ -2902,7 +2903,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'da5bd8df9867';
+const BUILD = '1aa86623b7c2';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
