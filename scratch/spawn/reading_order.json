@@ -1,0 +1,5847 @@
+[
+ {
+  "table": 0,
+  "arc": "Questions",
+  "issue": "Spawn #001, Questions, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Questions",
+  "issue": "Spawn #002, Questions, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Questions",
+  "issue": "Spawn #003, Questions, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Questions",
+  "issue": "Spawn #004, Questions, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Kincaid, Part 1",
+  "issue": "Spawn #005, Justice",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Payback",
+  "issue": "Spawn #006, Payback, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Payback",
+  "issue": "Spawn #007, Payback, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Kincaid, Part 2",
+  "issue": "Spawn #008, In Heaven",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Wild Dreams",
+  "issue": "Spawn #009, Angela",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Wild Dreams",
+  "issue": "Spawn #010, Crossing Over",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Wild Dreams",
+  "issue": "Spawn #011, Home",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Flashback",
+  "issue": "Spawn #012, Flashback, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Flashback",
+  "issue": "Spawn #013, Flashback, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Myths",
+  "issue": "Spawn #014, Myths, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Myths",
+  "issue": "Spawn #015, Myths, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Reflections",
+  "issue": "Spawn #016, Reflections, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Reflections",
+  "issue": "Spawn #017, Reflections, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Reflections",
+  "issue": "Spawn #018, Reflections, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Showtime",
+  "issue": "Spawn #019, Showtime, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Showtime",
+  "issue": "Spawn #020, Showtime, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "One-Shot",
+  "issue": "Spawn/Batman (Image) (A.K.A. The Red Scare) (One-Shot)",
+  "note": true,
+  "bg": "#38761d"
+ },
+ {
+  "table": 0,
+  "arc": "Overt-War",
+  "issue": "Curse of the Spawn #23, Overt-Resurrection",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Overt-War",
+  "issue": "Curse of the Spawn #24, Overt-Hell",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "The Hunt",
+  "issue": "Spawn #021, The Hunt, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Hunt",
+  "issue": "Spawn #022, The Hunt, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Hunt",
+  "issue": "Spawn #023, The Hunt, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Hunt",
+  "issue": "Spawn #024, The Hunt, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The World",
+  "issue": "Violator #1, The World, Part 1",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The World",
+  "issue": "Violator #2, The World, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The World",
+  "issue": "Violator #3, The World, Part 3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Nordik, the Norse Spawn",
+  "issue": "Spawn, Fan Edition #1, The Sword of Hell, Blood of the Innocent",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Nordik, the Norse Spawn",
+  "issue": "Spawn, Fan Edition #2, Hell's Bargain",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Nordik, the Norse Spawn",
+  "issue": "Spawn, Fan Edition #3, No Mercy Upon the Wicked",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Tremors, Part 1",
+  "issue": "Spawn #025, Tremors",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Angela Prelude",
+  "issue": "Spawn #026, The Dark",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Death of Chapel",
+  "issue": "Youngblood #08, The Death of Chapel, Part 1",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "The Death of Chapel",
+  "issue": "Youngblood #10, The Death of Chapel, Part 2",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "The Curse",
+  "issue": "Spawn #027, Cursed",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Curse",
+  "issue": "Spawn #028, Protector",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Angela’s Hunt",
+  "issue": "Angela #1",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Angela’s Hunt",
+  "issue": "Angela #2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Angela’s Hunt",
+  "issue": "Angela #3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Spawn Across America",
+  "issue": "Spawn #029, Father",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Spawn Across America",
+  "issue": "Spawn #030, The Clan",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Spawn Across America",
+  "issue": "Spawn #031, The Homecoming",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Spawn Across America",
+  "issue": "Spawn #032, Appearances / Blood Feud: Preludes and Nocturnes",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Blood Feud",
+  "issue": "Spawn: Blood Feud #1",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Blood Feud",
+  "issue": "Spawn: Blood Feud #2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Blood Feud",
+  "issue": "Spawn: Blood Feud #3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Blood Feud",
+  "issue": "Spawn: Blood Feud #4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Violator’s Return",
+  "issue": "Spawn #033, Shadows",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Violator’s Return",
+  "issue": "Spawn #034, Ripples",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Set Up",
+  "issue": "Spawn #035, Set Up, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Set Up",
+  "issue": "Spawn #036, Set Up, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Freak",
+  "issue": "Spawn #037, The Freak",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Mind Games",
+  "issue": "Spawn #038, Mind Games",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Noel",
+  "issue": "Spawn #039, Noel",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Medieval Spawn / Witchblade",
+  "issue": "Medieval Spawn/Witchblade #1",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Medieval Spawn / Witchblade",
+  "issue": "Medieval Spawn/Witchblade #2",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Medieval Spawn / Witchblade",
+  "issue": "Medieval Spawn/Witchblade #3",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Medieval Spawn and Witchblade",
+  "issue": "Medieval Spawn and Witchblade #1",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Medieval Spawn and Witchblade",
+  "issue": "Medieval Spawn and Witchblade #2",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Medieval Spawn and Witchblade",
+  "issue": "Medieval Spawn and Witchblade #3",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Medieval Spawn and Witchblade",
+  "issue": "Medieval Spawn and Witchblade #4",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Devil Day",
+  "issue": "Spawn/WildC.A.T.s #1, Devil Day, Part 1",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Devil Day",
+  "issue": "Spawn/WildC.A.T.s #2, Devil Day, Part 2",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Devil Day",
+  "issue": "Spawn/WildC.A.T.s #3, Devil Day, Part 3",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Devil Day",
+  "issue": "Spawn/WildC.A.T.s #4, Devil Day, Part 4",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Fugitives",
+  "issue": "Spawn #040, Fugitives, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Fugitives",
+  "issue": "Spawn #041, Fugitives, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Necessary Evils",
+  "issue": "Spawn #042, Fanboy",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Necessary Evils",
+  "issue": "Spawn #043, Evil",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Tiffany",
+  "issue": "Spawn #044, Avenger",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Tiffany",
+  "issue": "Spawn #045, Warriors",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Tremors, Part 2",
+  "issue": "Spawn #046, Revenge",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Tremors, Part 2",
+  "issue": "Spawn #047, Twisted",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The System",
+  "issue": "Spawn #048, The System",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "To Hell and Back Again",
+  "issue": "Spawn #049, Helter Skelter",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "To Hell and Back Again",
+  "issue": "Spawn #050, Choices",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "To Hell and Back Again",
+  "issue": "Spawn #051, Freefall",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "To Hell and Back Again",
+  "issue": "Spawn #052, Messiah",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "To Hell and Back Again",
+  "issue": "Spawn #053, The Reckoning",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "To Hell and Back Again",
+  "issue": "Spawn #054, Reconciliation",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Sabotage",
+  "issue": "Spawn #055, Sabotage",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Sabotage",
+  "issue": "Spawn #056, Kahn",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Sabotage",
+  "issue": "Spawn #057, The Beast",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Orphans, Part 1",
+  "issue": "Spawn #058, Orphans",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Abduction",
+  "issue": "Spawn #059, Vanished",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Abduction",
+  "issue": "Spawn #060, Dwarfed",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Sanctuary",
+  "issue": "Spawn #061, Sanctuary",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Jessica Priest",
+  "issue": "Curse of the Spawn #12, Codename: Priest",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Jessica Priest",
+  "issue": "Curse of the Spawn #13, Heart of Darkness",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Jessica Priest",
+  "issue": "Curse of the Spawn #14, Apocalypse When",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Cy-Gor",
+  "issue": "Cy-Gor #1, Fire in Mind, Part 1",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Cy-Gor",
+  "issue": "Cy-Gor #2, Fire in Mind, Part 2",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Cy-Gor",
+  "issue": "Cy-Gor #3, Needles and Pins",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Cy-Gor",
+  "issue": "Cy-Gor #4, Exquisite Corpse",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Cy-Gor",
+  "issue": "Cy-Gor #5, Then One Foggy Christmas Eve",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Cy-Gor",
+  "issue": "Cy-Gor #6, Terra Plane",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Suture, Part 1",
+  "issue": "Curse of the Spawn #05, Suture",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Suture, Part 1",
+  "issue": "Curse of the Spawn #06, Blood and Rain",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Suture, Part 1",
+  "issue": "Curse of the Spawn #07, Tombs",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Suture, Part 1",
+  "issue": "Curse of the Spawn #08, Carnival of Souls",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Angela Returns / Durges Part 1",
+  "issue": "Curse of the Spawn #09, Limbo",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Angela Returns / Durges Part 1",
+  "issue": "Curse of the Spawn #10, A Fall of Doves",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Angela Returns / Durges Part 1",
+  "issue": "Spawn #062, Return",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Angela Returns / Durges Part 1",
+  "issue": "Curse of the Spawn #11, Cataclysm",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Face to Face",
+  "issue": "Spawn #063, Identity",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Face to Face",
+  "issue": "Spawn #064, Checkmate",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Face to Face",
+  "issue": "Spawn #065, The Past",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Face to Face",
+  "issue": "Spawn #066, Demons",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Abdiel",
+  "issue": "Curse of the Spawn #15, Sympathy for an Angel, Part 1",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Abdiel",
+  "issue": "Curse of the Spawn #16, Sympathy for an Angel, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Twist of Fate",
+  "issue": "Curse of the Spawn #17, Twist of Fate",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Twist of Fate",
+  "issue": "Curse of the Spawn #18, Gunshot",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Twist of Fate",
+  "issue": "Curse of the Spawn #19, Curse the Curse",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Future / Durges Part 2",
+  "issue": "Curse of the Spawn #01, Dark Future",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Future / Durges Part 2",
+  "issue": "Curse of the Spawn #02, Blood Lust",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Future / Durges Part 2",
+  "issue": "Curse of the Spawn #03, Corpse Candles",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Future / Durges Part 2",
+  "issue": "Curse of the Spawn #04, Damnation War",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Future / Durges Part 2",
+  "issue": "Spawn: Blood & Salvation (One-Shot)",
+  "note": true,
+  "bg": "#38761d"
+ },
+ {
+  "table": 0,
+  "arc": "The Dead Zone",
+  "issue": "Spawn #067, Homeland",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Dead Zone",
+  "issue": "Spawn #068, Intersection",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Dead Zone",
+  "issue": "Spawn #069, Freaky",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Dead Zone",
+  "issue": "Spawn #070, Darkness",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Wolfram",
+  "issue": "Spawn #071, Apparitions",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Wolfram",
+  "issue": "Spawn #072, Bloodless",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Greenworld",
+  "issue": "Spawn #073, The Heap",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Greenworld",
+  "issue": "Spawn #074, The Void",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Greenworld",
+  "issue": "Spawn #075, Sacred Ground",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Farewell Dance",
+  "issue": "Spawn #076, Farewell Dance",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Deadland",
+  "issue": "Curse of the Spawn #22, Deadland",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Heart of Hell",
+  "issue": "Curse of the Spawn #25, Heart of Hell",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Last Rites",
+  "issue": "Curse of the Spawn #29, Last Rites",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #077, Relics",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #078, Bloodstains",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #079, Exterminator",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #080, The Cleansing",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #081, The Devil Inside, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #082, The Devil Inside, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #083, The Conqueror",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #084, The Waiting",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #085, Endgame",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #086, Abdication",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Devil Inside",
+  "issue": "Spawn #087, Folklore",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Suture, Part 2",
+  "issue": "Curse of the Spawn #26, Brother's Keeper",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Suture, Part 2",
+  "issue": "Curse of the Spawn #27, Ghosts",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Suture, Part 2",
+  "issue": "Curse of the Spawn #28, Bleed",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Udaku",
+  "issue": "Sam and Twitch #01, Udaku, Part 1",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Udaku",
+  "issue": "Sam and Twitch #02, Udaku, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Udaku",
+  "issue": "Sam and Twitch #03, Udaku, Part 3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Udaku",
+  "issue": "Sam and Twitch #04, Udaku, Part 4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Udaku",
+  "issue": "Sam and Twitch #05, Udaku, Part 5",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Udaku",
+  "issue": "Sam and Twitch #06, Udaku, Part 6",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Udaku",
+  "issue": "Sam and Twitch #07, Udaku, Part 7",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Udaku",
+  "issue": "Sam and Twitch #08, Udaku, Part 8",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Undead",
+  "issue": "Spawn, The Undead #1, A Face in the Crowd",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Undead",
+  "issue": "Spawn, The Undead #2, The Door to Nowhere",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Undead",
+  "issue": "Spawn, The Undead #3, My Soul to Keep",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Undead",
+  "issue": "Spawn, The Undead #4, Song Sung Bloo",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Undead",
+  "issue": "Spawn, The Undead #5, The Wind That Shakes the Barley, Part 1",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Undead",
+  "issue": "Spawn, The Undead #6, The Wind That Shakes the Barley, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Undead",
+  "issue": "Spawn, The Undead #7, Up the Down Stairs",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Undead",
+  "issue": "Spawn, The Undead #8, A Day in the Life",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Undead",
+  "issue": "Spawn, The Undead #9, Waiting for Sparky",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "One-Shot",
+  "issue": "Spawn: Blood & Shadows (One-Shot)",
+  "note": true,
+  "bg": "#38761d"
+ },
+ {
+  "table": 0,
+  "arc": "Raenis",
+  "issue": "Curse of the Spawn #20, Dark Myth",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Raenis",
+  "issue": "Curse of the Spawn #21, Chaos Cometh",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Covenant",
+  "issue": "Spawn, The Dark Ages #01, Devil's Knight",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Covenant",
+  "issue": "Spawn, The Dark Ages #02, Forsaken",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Covenant",
+  "issue": "Spawn, The Dark Ages #03, Onward",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Covenant",
+  "issue": "Spawn, The Dark Ages #04, Death and Glory",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Covenant",
+  "issue": "Spawn, The Dark Ages #05, Crimson Shadows",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Covenant",
+  "issue": "Spawn, The Dark Ages #06, Benediction",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Covenant",
+  "issue": "Spawn, The Dark Ages #07, Providence",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Covenant",
+  "issue": "Spawn, The Dark Ages #08, Acts of Contrition",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Seasons of Change",
+  "issue": "Spawn #088, Seasons of Change",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Seasons of Change",
+  "issue": "Spawn #089, The Devil You Know",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Seasons of Change",
+  "issue": "Spawn #090, Three Uses of the Knife",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Seasons of Change",
+  "issue": "Spawn #091, Black Cat Bones, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Seasons of Change",
+  "issue": "Spawn #092, Black Cat Bones, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "One Really Bad Day",
+  "issue": "Sam and Twitch #09, One Really Bad Day",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Witchcraft",
+  "issue": "Sam and Twitch #10, Witchcraft, Part 1",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Witchcraft",
+  "issue": "Sam and Twitch #11, Witchcraft, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Witchcraft",
+  "issue": "Sam and Twitch #12, Witchcraft, Part 3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Witchcraft",
+  "issue": "Sam and Twitch #13, Witchcraft, Part 4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Dumb Laws and Eggs",
+  "issue": "Sam and Twitch #14, Dumb Laws and Eggs",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Cracks in the Foundation",
+  "issue": "Spawn #093, The Devil's Banquet",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Cracks in the Foundation",
+  "issue": "Spawn #094, The Children's Hour",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Cracks in the Foundation",
+  "issue": "Spawn #095, Cracks in the Foundation",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Cracks in the Foundation",
+  "issue": "Spawn #096, Rules of Engagement",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Cracks in the Foundation",
+  "issue": "Spawn #097, Heaven's Folly",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Cracks in the Foundation",
+  "issue": "Spawn #098, The Trouble with Angels",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Cracks in the Foundation",
+  "issue": "Spawn #099, The Edge of Darkness",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Cracks in the Foundation",
+  "issue": "Spawn #100, Milestone",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Cracks in the Foundation",
+  "issue": "Spawn #101, Aftermath",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Bounty Hunter Wars",
+  "issue": "Sam and Twitch #15, Bounty Hunter Wars, Part 1",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Bounty Hunter Wars",
+  "issue": "Sam and Twitch #16, Bounty Hunter Wars, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Bounty Hunter Wars",
+  "issue": "Sam and Twitch #17, Bounty Hunter Wars, Part 3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Bounty Hunter Wars",
+  "issue": "Sam and Twitch #18, Bounty Hunter Wars, Part 4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Bounty Hunter Wars",
+  "issue": "Sam and Twitch #19, Bounty Hunter Wars, Part 5",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Child's Crusade",
+  "issue": "Spawn, The Dark Ages #09, The Child's Crusade, Prologue, A Merry Round of Cheer",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Child's Crusade",
+  "issue": "Spawn, The Dark Ages #10, The Child's Crusade, Part 1, A Questing Tale",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Child's Crusade",
+  "issue": "Spawn, The Dark Ages #11, The Child's Crusade, Part 2, The Ghost on the Hill",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Child's Crusade",
+  "issue": "Spawn, The Dark Ages #12, The Child's Crusade, Part 3, The Faithful",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Child's Crusade",
+  "issue": "Spawn, The Dark Ages #13, The Child's Crusade, Part 4, Sacrifices",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Child's Crusade",
+  "issue": "Spawn, The Dark Ages #14, The Child's Crusade, Part 5, Finale",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Cautionary Tales",
+  "issue": "Spawn: Simony (One-Shot)",
+  "note": true,
+  "bg": "#38761d"
+ },
+ {
+  "table": 0,
+  "arc": "Cautionary Tales",
+  "issue": "Spawn #102, Cautionary Tales, Part 1, The Speed of Night",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Cautionary Tales",
+  "issue": "Spawn #103, Cautionary Tales, Part 2, Remains",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Cautionary Tales",
+  "issue": "Spawn #104, Cautionary Tales, Part 3, A Town Called Malice",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Retribution Overdrive",
+  "issue": "Spawn #105, Retribution Overdrive, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Retribution Overdrive",
+  "issue": "Spawn #106, Retribution Overdrive, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The John Doe Affair",
+  "issue": "Sam and Twitch #20, The John Doe Affair, Part 1",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The John Doe Affair",
+  "issue": "Sam and Twitch #21, The John Doe Affair, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The John Doe Affair",
+  "issue": "Sam and Twitch #22, The John Doe Affair, Part 3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The John Doe Affair",
+  "issue": "Sam and Twitch #23, The John Doe Affair, Part 4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The John Doe Affair",
+  "issue": "Sam and Twitch #24, The John Doe Affair, Part 5",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The John Doe Affair",
+  "issue": "Sam and Twitch #25, The John Doe Affair, Part 6",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The John Doe Affair",
+  "issue": "Sam and Twitch #26, The John Doe Affair, Part 7",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #01, The Clown, Part 1",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #02, The Clown, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #03, Hate Me",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #04, Hate You",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #05, Selling Fear",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #06, The Big Leagues",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #07, Shed",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #08, The Suicide Gate",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #09, Chains",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #10, Clash",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #11, Conflict of Interest",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #12, Call Her Hel",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #13, Hellworld, Part 1",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #14, Hellworld, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #15, Hellworld, Part 3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellspawn",
+  "issue": "Hellspawn #16, Hellworld, Part 4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Turnbold",
+  "issue": "Spawn, The Dark Ages #15, Dark Days Coming",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Turnbold",
+  "issue": "Spawn, The Dark Ages #16, Heart of the Hellspawn",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Turnbold",
+  "issue": "Spawn, The Dark Ages #17, The Circle and the Worm",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Turnbold",
+  "issue": "Spawn, The Dark Ages #18, Crucified",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Turnbold",
+  "issue": "Spawn, The Dark Ages #19, Like Any Other Man",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Turnbold",
+  "issue": "Spawn, The Dark Ages #20, Voices in the Dark",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Turnbold",
+  "issue": "Spawn, The Dark Ages #21, Sins of the Hellspawn",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Turnbold",
+  "issue": "Spawn, The Dark Ages #22, The Seeding",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Kingdom",
+  "issue": "Spawn #107, The Kingdom, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Kingdom",
+  "issue": "Spawn #108, The Kingdom, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Kingdom",
+  "issue": "Spawn #109, The Kingdom, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Kingdom",
+  "issue": "Spawn #110, The Kingdom, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Kingdom",
+  "issue": "Spawn #111, The Kingdom, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Kingdom",
+  "issue": "Spawn #112, The Kingdom, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Kingdom",
+  "issue": "Spawn #113, The Kingdom, Part 7",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Raven",
+  "issue": "Spawn, The Dark Ages #23, The Beast",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Raven",
+  "issue": "Spawn, The Dark Ages #24, Bleed Pagan Bleed",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Raven",
+  "issue": "Spawn, The Dark Ages #25, Plague of Man",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Raven",
+  "issue": "Spawn, The Dark Ages #26, Lesion",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Raven",
+  "issue": "Spawn, The Dark Ages #27, Bubonic Nights",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Raven",
+  "issue": "Spawn, The Dark Ages #28, The End",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Bridge",
+  "issue": "Spawn #114, The Bridge, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Bridge",
+  "issue": "Spawn #115, The Bridge, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Season in Hell",
+  "issue": "Spawn #116, Consequences",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Season in Hell",
+  "issue": "Spawn #117, A Season in Hell, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Season in Hell",
+  "issue": "Spawn #118, A Season in Hell, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Season in Hell",
+  "issue": "Spawn #119, A Season in Hell, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Season in Hell",
+  "issue": "Spawn #120, A Season in Hell, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Salvation Road",
+  "issue": "Spawn #121, Salvation Road, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Salvation Road",
+  "issue": "Spawn #122, Salvation Road, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Salvation Road",
+  "issue": "Spawn #123, Salvation Road, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Salvation Road",
+  "issue": "Spawn #124, Salvation Road, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Wake Up Dreaming",
+  "issue": "Spawn #125, Wake Up Dreaming, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Wake Up Dreaming",
+  "issue": "Spawn #126, Wake Up Dreaming, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Wake Up Dreaming",
+  "issue": "Spawn #127, Wake Up Dreaming, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Wake Up Dreaming",
+  "issue": "Spawn #128, Wake Up Dreaming, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Wake Up Dreaming",
+  "issue": "Spawn #129, Wake Up Dreaming, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Seven and a Half Ghosts",
+  "issue": "Spawn #130, Seven and a Half Ghosts, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Seven and a Half Ghosts",
+  "issue": "Spawn #131, Seven and a Half Ghosts, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "One-Shot",
+  "issue": "Spawn: Architects of Fear (One-Shot)",
+  "note": true,
+  "bg": "#38761d"
+ },
+ {
+  "table": 0,
+  "arc": "A Thousand Clowns",
+  "issue": "Spawn #132, Pratfall",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Thousand Clowns",
+  "issue": "Spawn #133, The Gentleman Caller",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Thousand Clowns",
+  "issue": "Spawn #134, A Thousand Clowns, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Thousand Clowns",
+  "issue": "Spawn #135, A Thousand Clowns, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Thousand Clowns",
+  "issue": "Spawn #136, A Thousand Clowns, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Thousand Clowns",
+  "issue": "Spawn #137, A Thousand Clowns, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Thousand Clowns",
+  "issue": "Spawn #138, A Thousand Clowns, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellbound",
+  "issue": "Spawn #139, Hellbound, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellbound",
+  "issue": "Spawn #140, Hellbound, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hellbound",
+  "issue": "Spawn #141, Hellbound, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Devil To Pay",
+  "issue": "Spawn #142, Devil To Pay, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Devil To Pay",
+  "issue": "Spawn #143, Devil To Pay, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Devil To Pay",
+  "issue": "Spawn #144, Devil To Pay, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Have You Seen Me",
+  "issue": "Case Files, Sam and Twitch #01, Have You Seen Me, Part 1",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Have You Seen Me",
+  "issue": "Case Files, Sam and Twitch #02, Have You Seen Me, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Have You Seen Me",
+  "issue": "Case Files, Sam and Twitch #03, Have You Seen Me, Part 3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Have You Seen Me",
+  "issue": "Case Files, Sam and Twitch #04, Have You Seen Me, Part 4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Have You Seen Me",
+  "issue": "Case Files, Sam and Twitch #05, Have You Seen Me, Part 5",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Have You Seen Me",
+  "issue": "Case Files, Sam and Twitch #06, Have You Seen Me, Part 6",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Skeletons",
+  "issue": "Case Files, Sam and Twitch #07, Skeletons, Part 1",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Skeletons",
+  "issue": "Case Files, Sam and Twitch #08, Skeletons, Part 2",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Skeletons",
+  "issue": "Case Files, Sam and Twitch #09, Skeletons, Part 3",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Skeletons",
+  "issue": "Case Files, Sam and Twitch #10, Skeletons, Part 4",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Skeletons",
+  "issue": "Case Files, Sam and Twitch #11, Skeletons, Part 5",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Skeletons",
+  "issue": "Case Files, Sam and Twitch #12, Skeletons, Part 6",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Cops & Robbers",
+  "issue": "Case Files, Sam and Twitch #13, Cops & Robbers",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Ancient Chinese Secret, Huh?",
+  "issue": "Case Files, Sam and Twitch #14, Ancient Chinese Secret, Huh?, Part 1",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Ancient Chinese Secret, Huh?",
+  "issue": "Case Files, Sam and Twitch #15, Ancient Chinese Secret, Huh?, Part 2",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Ancient Chinese Secret, Huh?",
+  "issue": "Case Files, Sam and Twitch #16, Ancient Chinese Secret, Huh?, Part 3",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Ancient Chinese Secret, Huh?",
+  "issue": "Case Files, Sam and Twitch #17, Ancient Chinese Secret, Huh?, Part 4",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Ancient Chinese Secret, Huh?",
+  "issue": "Case Files, Sam and Twitch #18, Ancient Chinese Secret, Huh?, Part 5",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Ancient Chinese Secret, Huh?",
+  "issue": "Case Files, Sam and Twitch #19, Ancient Chinese Secret, Huh?, Part 6",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Fathers & Daughters",
+  "issue": "Case Files, Sam and Twitch #20, Fathers & Daughters, Part 1",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Fathers & Daughters",
+  "issue": "Case Files, Sam and Twitch #21, Fathers & Daughters, Part 2",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Fathers & Daughters",
+  "issue": "Case Files, Sam and Twitch #22, Fathers & Daughters, Part 3",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Fathers & Daughters",
+  "issue": "Case Files, Sam and Twitch #23, Fathers & Daughters, Part 4",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Fathers & Daughters",
+  "issue": "Case Files, Sam and Twitch #24, Fathers & Daughters, Part 5",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Fathers & Daughters",
+  "issue": "Case Files, Sam and Twitch #25, Fathers & Daughters, Part 6",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "Destination: Anywhere",
+  "issue": "Spawn #145, Destination: Anywhere, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Destination: Anywhere",
+  "issue": "Spawn #146, Destination: Anywhere, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Destination: Anywhere",
+  "issue": "Spawn #147, Howl",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Destination: Anywhere",
+  "issue": "Spawn #148, Random Patterns, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Destination: Anywhere",
+  "issue": "Spawn #149, Random Patterns, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #150, Thamuz, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #151, Thamuz, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #152, Thamuz, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #153, Thamuz, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #154, Armageddon, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #155, Armageddon, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #156, Armageddon, Part 3",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #157, Armageddon, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #158, Armageddon, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #159, Armageddon, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #160, Armageddon, Part 7",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #161, Armageddon, Part 8",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #162, Armageddon, Part 9",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #163, Armageddon, Part 10",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Armageddon",
+  "issue": "Spawn #164, Home Coming",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Mandarin Spawn",
+  "issue": "Spawn #165, Mandarin Spawn",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Voice-Hearers",
+  "issue": "Spawn #166, The Voice-Hearers, Part 1, Skin Deep",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Voice-Hearers",
+  "issue": "Spawn #167, The Voice-Hearers, Part 2, The Peanut Butter Lady",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Voice-Hearers",
+  "issue": "Spawn #168, The Voice-Hearers, Part 3, Laughter in the Dark",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Voodoo Child",
+  "issue": "Spawn #169, Voodoo Child",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Tale of Three Brothers",
+  "issue": "Spawn #170, A Tale of Three Brothers, Part 1, Hellhouse",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Tale of Three Brothers",
+  "issue": "Spawn #171, A Tale of Three Brothers, Part 2, Remembrance",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Tale of Three Brothers",
+  "issue": "Spawn #172, A Tale of Three Brothers, Part 3, Past Sins",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "A Tale of Three Brothers",
+  "issue": "Spawn #173, A Tale of Three Brothers, Part 4, Secrets and Lies",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Gunslinger Spawn",
+  "issue": "Spawn #174, Gunslinger Spawn, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Gunslinger Spawn",
+  "issue": "Spawn #175, Gunslinger Spawn, Part 2",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Monster in the Bubble",
+  "issue": "Spawn #176, The Monster in the Bubble, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Monster in the Bubble",
+  "issue": "Spawn #177, The Monster in the Bubble, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The End",
+  "issue": "Spawn #178, Dead Man Walking",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The End",
+  "issue": "Spawn #179, War Spawn",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The End",
+  "issue": "Spawn #180, (Untitled) (suggested title: Dear Diary)",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The End",
+  "issue": "Spawn #181, The Best of Times",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The End",
+  "issue": "Spawn #182, Bad Blood",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The End",
+  "issue": "Spawn #183, Transformations",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The End",
+  "issue": "Spawn #184, The End",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #185, Endgame, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #186, Endgame, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #187, Endgame, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #188, Endgame, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #189, Endgame, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #190, Endgame, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #191, Endgame, Part 7",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #192, Endgame, Part 8",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #193, Endgame, Part 9",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #194, Endgame, Part 10",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #195, Endgame, Part 11",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Endgame",
+  "issue": "Spawn #196, Endgame, Conclusion",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Writer",
+  "issue": "Sam and Twitch, The Writer #1, Incipit In Medias Res",
+  "note": true,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "The Writer",
+  "issue": "Sam and Twitch, The Writer #2, Blue Snow",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "The Writer",
+  "issue": "Sam and Twitch, The Writer #3, The Secret Inheritance of Francis Merrill",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "The Writer",
+  "issue": "Sam and Twitch, The Writer #4, The Last Chapter",
+  "note": false,
+  "bg": "#666666"
+ },
+ {
+  "table": 0,
+  "arc": "???",
+  "issue": "Spawn #197, (Untitled) (suggested title: The Redeemer's Return)",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "???",
+  "issue": "Spawn #198, (Untitled) (suggested title: Patient 46)",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "???",
+  "issue": "Spawn #199, (Untitled) (suggested title: The Devil's Ghost)",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "???",
+  "issue": "Spawn #200, (Untitled) (suggested title: Alpha and Omega)",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Shillinger's Notes",
+  "issue": "Haunt #01, Shillinger's Notes, Part 1",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Shillinger's Notes",
+  "issue": "Haunt #02, Shillinger's Notes, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Shillinger's Notes",
+  "issue": "Haunt #03, Shillinger's Notes, Part 3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Shillinger's Notes",
+  "issue": "Haunt #04, Shillinger's Notes, Part 4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Shillinger's Notes",
+  "issue": "Haunt #05, Shillinger's Notes, Part 5",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "New Beginnings",
+  "issue": "Spawn #201, New Beginnings, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "New Beginnings",
+  "issue": "Spawn #202, New Beginnings, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "New Beginnings",
+  "issue": "Spawn #203, New Beginnings, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "New Beginnings",
+  "issue": "Spawn #204, New Beginnings, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "New Beginnings",
+  "issue": "Spawn #205, New Beginnings, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "New Beginnings",
+  "issue": "Spawn #206, New Beginnings, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Agent Kilgore",
+  "issue": "Haunt #06, Agent Kilgore, Part 1",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Agent Kilgore",
+  "issue": "Haunt #07, Agent Kilgore, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Agent Kilgore",
+  "issue": "Haunt #08, Agent Kilgore, Part 3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Agent Kilgore",
+  "issue": "Haunt #09, Agent Kilgore, Part 4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Agent Kilgore",
+  "issue": "Haunt #10, Agent Kilgore, Part 5",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Agent Kilgore",
+  "issue": "Haunt #11, Agent Kilgore, Part 6",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Agent Kilgore",
+  "issue": "Haunt #12, Agent Kilgore, Part 7",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Q & A",
+  "issue": "Spawn #207, Q & A, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Q & A",
+  "issue": "Spawn #208, Q & A, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Q & A",
+  "issue": "Spawn #209, Q & A, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Q & A",
+  "issue": "Spawn #210, Q & A, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Violation of Trust",
+  "issue": "Spawn #211, Violation of Trust, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Violation of Trust",
+  "issue": "Spawn #212, Violation of Trust, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Apparition",
+  "issue": "Haunt #13, The Apparition, Part 1",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Apparition",
+  "issue": "Haunt #14, The Apparition, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Apparition",
+  "issue": "Haunt #15, The Apparition, Part 3",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Apparition",
+  "issue": "Haunt #16, The Apparition, Part 4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Apparition",
+  "issue": "Haunt #17, The Apparition, Part 5",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Apparition",
+  "issue": "Haunt #18, The Apparition, Part 6",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Gathering Storm",
+  "issue": "Spawn #213, The Gathering Storm, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Gathering Storm",
+  "issue": "Spawn #214, The Gathering Storm, Part 2",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Gathering Storm",
+  "issue": "Spawn #215, The Gathering Storm, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Gathering Storm",
+  "issue": "Spawn #216, The Gathering Storm, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Gathering Storm",
+  "issue": "Spawn #217, The Gathering Storm, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Gathering Storm",
+  "issue": "Spawn #218, The Gathering Storm, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Gathering Storm",
+  "issue": "Spawn #219, Eye of the Storm",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Second Church",
+  "issue": "Haunt #19, The Second Church, Part 1, Headwires On Fire",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Second Church",
+  "issue": "Haunt #20, The Second Church, Part 2, A Conspiracy",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Second Church",
+  "issue": "Haunt #21, The Second Church, Part 3, The Glorious Orgy",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Second Church",
+  "issue": "Haunt #22, The Second Church, Part 4, Backflash 1979",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Second Church",
+  "issue": "Haunt #23, The Second Church, Part 5, Return Trip",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "The Second Church",
+  "issue": "Haunt #24, The Second Church, Part 6, Kick-Ash!",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Origin of the Species",
+  "issue": "Spawn #220, Origin of the Species, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Origin of the Species",
+  "issue": "Spawn #221, Origin of the Species, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Origin of the Species",
+  "issue": "Spawn #222, Origin of the Species, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Origin of the Species",
+  "issue": "Spawn #223, Origin of the Species, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Origin of the Species",
+  "issue": "Spawn #224, Origin of the Species, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "De-Programmed",
+  "issue": "Spawn #225, De-Programmed, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "De-Programmed",
+  "issue": "Spawn #226, De-Programmed, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "De-Programmed",
+  "issue": "Spawn #227, De-Programmed, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "De-Programmed",
+  "issue": "Spawn #228, Collateral Damage",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Lady Haunt",
+  "issue": "Haunt #25, Lady Haunt, Part 1, Insecticided",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Lady Haunt",
+  "issue": "Haunt #26, Lady Haunt, Part 2, Mind Worms",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Lady Haunt",
+  "issue": "Haunt #27, Lady Haunt, Part 3, Get Happy!",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Lady Haunt",
+  "issue": "Haunt #28, Lady Haunt, Part 4, While You Were Beaten!",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Celebrity Savior",
+  "issue": "Spawn #229, Celebrity Savior, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Celebrity Savior",
+  "issue": "Spawn #230, Celebrity Savior, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Celebrity Savior",
+  "issue": "Spawn #231, Celebrity Savior, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Celebrity Savior",
+  "issue": "Spawn #232, Celebrity Savior, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Celebrity Savior",
+  "issue": "Spawn #233, Celebrity Savior, Part 5 / Spawn Costume Origin, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Celebrity Savior",
+  "issue": "Spawn #234, Celebrity Savior, Part 6 / Spawn Costume Origin, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Celebrity Savior",
+  "issue": "Spawn #235, Bluddlines",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Battle For the Costume",
+  "issue": "Spawn #236, Battle For the Costume, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Battle For the Costume",
+  "issue": "Spawn #237, Battle For the Costume, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Dead Zones",
+  "issue": "Spawn #238, The Dead Zone, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Dead Zones",
+  "issue": "Spawn #239, The Dead Zone, Part 2",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Dead Zones",
+  "issue": "Spawn #240, The Dead Zone, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Dead Zones",
+  "issue": "Spawn #241, The Dead Zone, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Disappearance",
+  "issue": "Spawn #242, Disappearance, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Disappearance",
+  "issue": "Spawn #243, Disappearance, Part 2",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Disappearance",
+  "issue": "Spawn #244, Disappearance, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Disappearance",
+  "issue": "Spawn #245, Disappearance, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Coma",
+  "issue": "Spawn #246, Coma, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Coma",
+  "issue": "Spawn #247, Coma, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Coma",
+  "issue": "Spawn #248, Coma, Part 3",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Coma",
+  "issue": "Spawn #249, Coma, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "???",
+  "issue": "Spawn #250, (Untitled) (suggested title: The King Is Dead, Long Live the King)",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Resurrection",
+  "issue": "Spawn: Resurrection (One-Shot)",
+  "note": true,
+  "bg": "#38761d"
+ },
+ {
+  "table": 0,
+  "arc": "Resurrection",
+  "issue": "Spawn #251, Resurrection, Part 2, A Cold Day in Hell",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Resurrection",
+  "issue": "Spawn #252, Resurrection, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Resurrection",
+  "issue": "Spawn #253, Resurrection, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Resurrection",
+  "issue": "Spawn #254, Resurrection, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Resurrection",
+  "issue": "Spawn #255, Resurrection, Part 6",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Satan Saga Wars",
+  "issue": "Spawn #256, The Satan Saga Wars, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Satan Saga Wars",
+  "issue": "Spawn #257, The Satan Saga Wars, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Satan Saga Wars",
+  "issue": "Spawn #258, The Satan Saga Wars, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Satan Saga Wars",
+  "issue": "Spawn #259, The Satan Saga Wars, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Satan Saga Wars",
+  "issue": "Spawn #260, The Satan Saga Wars, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Satan Saga Wars",
+  "issue": "Spawn #261, The Satan Saga Wars, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Satan Saga Wars",
+  "issue": "Spawn #262, The Satan Saga Wars, Part 7",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Return to Earth",
+  "issue": "Spawn #263, Return to Earth, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Return to Earth",
+  "issue": "Spawn #264, Return to Earth, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Alzayah Stone",
+  "issue": "Ant #01",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Alzayah Stone",
+  "issue": "Ant #02",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Alzayah Stone",
+  "issue": "Spawn #265, Alzayah Stone, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Alzayah Stone",
+  "issue": "Ant #3",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Alzayah Stone",
+  "issue": "Savage Dragon #216, Alzayah Stone, Part 2",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Alzayah Stone",
+  "issue": "Ant #04",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Alzayah Stone",
+  "issue": "Spawn #266, Alzayah Stone, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Alzayah Stone",
+  "issue": "Ant #05",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Alzayah Stone",
+  "issue": "Savage Dragon #217, Alzayah Stone, Part 4",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Alzayah Stone",
+  "issue": "Ant #06",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 0,
+  "arc": "Hell On Earth",
+  "issue": "Spawn #267, Hell On Earth, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hell On Earth",
+  "issue": "Spawn #268, Hell On Earth, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hell On Earth",
+  "issue": "Spawn #269, Hell On Earth, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hell On Earth",
+  "issue": "Spawn #270, Hell On Earth, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hell On Earth",
+  "issue": "Spawn #271, Hell On Earth, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hell On Earth",
+  "issue": "Spawn #272, Hell On Earth, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hell On Earth",
+  "issue": "Spawn #273, Hell On Earth, Part 7",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hell On Earth",
+  "issue": "Spawn #274, Hell On Earth, Part 8",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Hell On Earth",
+  "issue": "Spawn #275, Hell On Earth, Part 9",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Horror",
+  "issue": "Spawn #276, Dark Horror, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Horror",
+  "issue": "Spawn #277, Dark Horror, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Horror",
+  "issue": "Spawn #278, Dark Horror, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Horror",
+  "issue": "Spawn #279, Dark Horror, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Horror",
+  "issue": "Spawn #280, Dark Horror, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Horror",
+  "issue": "Spawn #281, Dark Horror, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Horror",
+  "issue": "Spawn #282, Dark Horror, Part 7",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Dark Horror",
+  "issue": "Spawn #283, Dark Horror, Part 8",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Enemy of the State",
+  "issue": "Spawn #284, Enemy of the State, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Enemy of the State",
+  "issue": "Spawn #285, Enemy of the State, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Enemy of the State",
+  "issue": "Spawn #286, Enemy of the State, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Enemy of the State",
+  "issue": "Spawn #287, Enemy of the State, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Enemy of the State",
+  "issue": "Spawn #288, Enemy of the State, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Enemy of the State",
+  "issue": "Spawn #289, Enemy of the State, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Enemy of the State",
+  "issue": "Spawn #290, Enemy of the State, Part 7",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Vengeance",
+  "issue": "Spawn #291, Vengeance, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Vengeance",
+  "issue": "Spawn #292, Vengeance, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Vengeance",
+  "issue": "Spawn #293, Vengeance, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Vengeance",
+  "issue": "Spawn #294, Vengeance, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Vengeance",
+  "issue": "Spawn #295, Vengeance, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The History of Al Simmons",
+  "issue": "Spawn #296, The History of Al Simmons, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The History of Al Simmons",
+  "issue": "Spawn #297, The History of Al Simmons, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Record-Breaker",
+  "issue": "Spawn #298, The Record-Breaker, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Record-Breaker",
+  "issue": "Spawn #299, The Record-Breaker, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Record-Breaker",
+  "issue": "Spawn #300, The Record-Breaker, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "The Record-Breaker",
+  "issue": "Spawn #301, The Record-Breaker, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Aftermath",
+  "issue": "Spawn #302, Hell Hunt, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Aftermath",
+  "issue": "Spawn #303, Hell Hunt, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Aftermath",
+  "issue": "Spawn #304, Hell Hunt, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Aftermath",
+  "issue": "Spawn #305, Hell Hunt, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Aftermath",
+  "issue": "Spawn #306, Prophecy of Death, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Aftermath",
+  "issue": "Spawn #307, Prophecy of Death, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Spawn #308, Consequence of Sin, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Spawn #309, Consequence of Sin, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Spawn #310, The Storm Begins (The Inferno Fallout)",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Monolith #1",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Monolith #2",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Monolith #3",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Spawn #311, Cult of Omega, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Spawn #312, Cult of Omega, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Spawn #313, Cult of Omega, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Spawn #314, Cult of Omega, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Omega",
+  "issue": "Spawn #315, Cult of Omega, Finale",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Shadows",
+  "issue": "Spawn #316, Shadows, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Shadows",
+  "issue": "Spawn #317, Shadows, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "Shadows",
+  "issue": "Spawn #318, Shadows, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 0,
+  "arc": "One-Shot",
+  "issue": "Spawn's Universe (One-Shot)",
+  "note": false,
+  "bg": "#38761d"
+ },
+ {
+  "table": 1,
+  "arc": "One-Shot",
+  "issue": "Spawn's Universe (One-Shot)",
+  "note": false,
+  "bg": "#38761d"
+ },
+ {
+  "table": 1,
+  "arc": "Shadows (contd.)",
+  "issue": "Spawn #319, Shadows, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Shadows (contd.)",
+  "issue": "Spawn #320, Shadows, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Shadows (contd.)",
+  "issue": "Spawn #321, Shadows, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Shadows (contd.)",
+  "issue": "Spawn #322, Shadows, Part 7",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Shadows (contd.)",
+  "issue": "Spawn #323, Shadows, Part 8",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 1: Lost in the Future",
+  "issue": "Gunslinger Spawn #01, Lost in the Future, Part 1",
+  "note": true,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 1: Lost in the Future",
+  "issue": "Gunslinger Spawn #02, Lost in the Future, Part 2",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 1: Lost in the Future",
+  "issue": "Gunslinger Spawn #03, Lost in the Future, Part 3",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 1: Lost in the Future",
+  "issue": "Gunslinger Spawn #04, Lost in the Future, Part 4",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 1: Lost in the Future",
+  "issue": "Gunslinger Spawn #05, Lost in the Future, Part 5",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 1: Lost in the Future",
+  "issue": "Gunslinger Spawn #06, Lost in the Future, Part 6",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 1: King of Swords",
+  "issue": "King Spawn #01, King of Swords, Part 1",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 1: King of Swords",
+  "issue": "King Spawn #02, King of Swords, Part 2",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 1: King of Swords",
+  "issue": "King Spawn #03, King of Swords, Part 3",
+  "note": true,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 1: King of Swords",
+  "issue": "King Spawn #04, King of Swords, Part 4",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 1: King of Swords",
+  "issue": "King Spawn #05, King of Swords, Part 5",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 1: King of Swords",
+  "issue": "King Spawn #06, King of Swords, Part 6",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 2: The Two Faces of Revenge",
+  "issue": "Gunslinger Spawn #07, The Two Faces of Revenge, Part 1",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 2: The Two Faces of Revenge",
+  "issue": "Gunslinger Spawn #08, The Two Faces of Revenge, Part 2",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 2: The Two Faces of Revenge",
+  "issue": "Gunslinger Spawn #09, The Two Faces of Revenge, Part 3",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 2: The Two Faces of Revenge",
+  "issue": "Gunslinger Spawn #10, The Two Faces of Revenge, Part 4",
+  "note": true,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 1",
+  "issue": "The Scorched #01",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 1",
+  "issue": "The Scorched #02",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 1",
+  "issue": "The Scorched #03",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 1",
+  "issue": "The Scorched #04",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 1",
+  "issue": "The Scorched #05",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 1",
+  "issue": "The Scorched #06",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "Bad Business",
+  "issue": "Spawn #324, Bad Business, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Bad Business",
+  "issue": "Spawn #325, Bad Business, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Bad Business",
+  "issue": "Spawn #326, Bad Business, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Bad Business",
+  "issue": "Spawn #327, Bad Business, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Bad Business",
+  "issue": "Spawn #328, Bad Business, Part 5",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Bad Business",
+  "issue": "Spawn #329, Bad Business, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Bad Business",
+  "issue": "Spawn #330, Bad Business, Part 7",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 2",
+  "issue": "King Spawn #07",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 2",
+  "issue": "King Spawn #08",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 2",
+  "issue": "King Spawn #09",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 2",
+  "issue": "King Spawn #10",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 2",
+  "issue": "King Spawn #11",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 2",
+  "issue": "King Spawn #12",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 2: The Two Faces of Revenge(contd.)",
+  "issue": "Gunslinger Spawn #11, The Two Faces of Revenge, Part 5",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 2: The Two Faces of Revenge(contd.)",
+  "issue": "Gunslinger Spawn #12, The Two Faces of Revenge, Part 6",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 2",
+  "issue": "The Scorched #07",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 2",
+  "issue": "The Scorched #08",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 2",
+  "issue": "The Scorched #09",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 2",
+  "issue": "The Scorched #10",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 2",
+  "issue": "The Scorched #11",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 2",
+  "issue": "The Scorched #12",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "Sinn’s War",
+  "issue": "Spawn #331, Sinn’s War, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Sinn’s War",
+  "issue": "Spawn #332, Sinn’s War, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Sinn’s War",
+  "issue": "Spawn #333, Sinn’s War, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Sinn’s War",
+  "issue": "Spawn #334, Sinn’s War, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Sinn’s War",
+  "issue": "Spawn #335, Sinn’s War, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Sinn’s War",
+  "issue": "Spawn #336, Sinn’s War, Part 6",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "One-Shot",
+  "issue": "Batman Spawn (DC/Image)",
+  "note": false,
+  "bg": "#38761d"
+ },
+ {
+  "table": 1,
+  "arc": "Sinn’s War(contd.)",
+  "issue": "Spawn #337, Sinn’s War, Part 7",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Unwanted Violence",
+  "issue": "Spawn: Unwanted Violence #1",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Unwanted Violence",
+  "issue": "Spawn: Unwanted Violence #2",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 3",
+  "issue": "King Spawn #13",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 3",
+  "issue": "King Spawn #14",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 3",
+  "issue": "King Spawn #15",
+  "note": true,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 3",
+  "issue": "King Spawn #16",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 3",
+  "issue": "King Spawn #17",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 3",
+  "issue": "King Spawn #18",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 3",
+  "issue": "Gunslinger Spawn #13",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 3",
+  "issue": "Gunslinger Spawn #14",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 3",
+  "issue": "Gunslinger Spawn #15",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 3",
+  "issue": "Gunslinger Spawn #16",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 3",
+  "issue": "Gunslinger Spawn #17",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 3",
+  "issue": "Gunslinger Spawn #18",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne I",
+  "issue": "Spawn #338, Battle for the Throne I, Part 1",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne I",
+  "issue": "Spawn #339, Battle for the Throne I, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne I",
+  "issue": "Spawn #340, Battle for the Throne I, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne I",
+  "issue": "Spawn #341, Battle for the Throne I, Part 4",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne I",
+  "issue": "Spawn #342, Battle for the Throne I, Part 5",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne I",
+  "issue": "Spawn #343, Battle for the Throne I, Part 6",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 3",
+  "issue": "The Scorched #13",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 3",
+  "issue": "The Scorched #14",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 3",
+  "issue": "The Scorched #15",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 3",
+  "issue": "The Scorched #16",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 3",
+  "issue": "The Scorched #17",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 3",
+  "issue": "The Scorched #18",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 4",
+  "issue": "King Spawn #19",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 4",
+  "issue": "King Spawn #20",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 4",
+  "issue": "King Spawn #21",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 4",
+  "issue": "King Spawn #22",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 4",
+  "issue": "King Spawn #23",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 4",
+  "issue": "King Spawn #24",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 4",
+  "issue": "Gunslinger Spawn #19",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 4",
+  "issue": "Gunslinger Spawn #20",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 4",
+  "issue": "Gunslinger Spawn #21",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 4",
+  "issue": "Gunslinger Spawn #22",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 4",
+  "issue": "Gunslinger Spawn #23",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 4",
+  "issue": "Gunslinger Spawn #24",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 4",
+  "issue": "The Scorched #19",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 4",
+  "issue": "The Scorched #20",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 4",
+  "issue": "The Scorched #21",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 4",
+  "issue": "The Scorched #22",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 4",
+  "issue": "The Scorched #23",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 4",
+  "issue": "The Scorched #24",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne II",
+  "issue": "Spawn #344, Battle for the Throne II, Part 1",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne II",
+  "issue": "Spawn #345, Battle for the Throne II, Part 2",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne II",
+  "issue": "Spawn #346, Battle for the Throne II, Part 3",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne II",
+  "issue": "Spawn #347, Battle for the Throne II, Part 4",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 5",
+  "issue": "King Spawn #25",
+  "note": true,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 5",
+  "issue": "King Spawn #26",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 5",
+  "issue": "King Spawn #27",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 5",
+  "issue": "King Spawn #28",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 5",
+  "issue": "Gunslinger Spawn #25",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 5",
+  "issue": "Gunslinger Spawn #26",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 5",
+  "issue": "Gunslinger Spawn #27",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 5",
+  "issue": "Gunslinger Spawn #28",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 4(contd.)",
+  "issue": "The Scorched #25",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 4(contd.)",
+  "issue": "The Scorched #26",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 5(cont.)",
+  "issue": "King Spawn #29",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 5(cont.)",
+  "issue": "King Spawn #30",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne II(cont.)",
+  "issue": "Spawn #348, Battle for the Throne II, Part 5",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne II(cont.)",
+  "issue": "Spawn #349, Battle for the Throne II, Part 6",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Battle for the Throne II(cont.)",
+  "issue": "Spawn #350, Battle for the Throne II, Part 7",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 6",
+  "issue": "King Spawn #31",
+  "note": true,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 6",
+  "issue": "King Spawn #32",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 6",
+  "issue": "King Spawn #33",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 6",
+  "issue": "King Spawn #34",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 6",
+  "issue": "King Spawn #35",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 6",
+  "issue": "King Spawn #36",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 5(contd.)",
+  "issue": "Gunslinger Spawn #29",
+  "note": true,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 5(contd.)",
+  "issue": "Gunslinger Spawn #30",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Dead Zones",
+  "issue": "Spawn #351",
+  "note": true,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Dead Zones",
+  "issue": "Spawn #352",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Dead Zones",
+  "issue": "Spawn #353",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Dead Zones",
+  "issue": "Spawn #354",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Dead Zones",
+  "issue": "Spawn #355",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Dead Zones",
+  "issue": "Spawn #356",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Dead Zones",
+  "issue": "Spawn #357",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Dead Zones",
+  "issue": "Spawn #358",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Dead Zones",
+  "issue": "Spawn #359",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Dead Zones",
+  "issue": "Spawn #360",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 5",
+  "issue": "The Scorched #27",
+  "note": true,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 5",
+  "issue": "The Scorched #28",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 5",
+  "issue": "The Scorched #29",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 5",
+  "issue": "The Scorched #30",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 5",
+  "issue": "The Scorched #31",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 5",
+  "issue": "The Scorched #32",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 6",
+  "issue": "Gunslinger Spawn #31",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 6",
+  "issue": "Gunslinger Spawn #32",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 6",
+  "issue": "Gunslinger Spawn #33",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 6",
+  "issue": "Gunslinger Spawn #34",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 6",
+  "issue": "Gunslinger Spawn #35",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 6",
+  "issue": "Gunslinger Spawn #36",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Misery",
+  "issue": "Misery #1",
+  "note": true,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Misery",
+  "issue": "Misery #2",
+  "note": true,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Misery",
+  "issue": "Misery #3",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Misery",
+  "issue": "Misery #4",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 6",
+  "issue": "The Scorched #33",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 6",
+  "issue": "The Scorched #34",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 6",
+  "issue": "The Scorched #35",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 6",
+  "issue": "The Scorched #36",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 6",
+  "issue": "The Scorched #37",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 6",
+  "issue": "The Scorched #38",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 1",
+  "issue": "Sam & Twitch: Case Files #1, No Good Deed Goes Unpunished, Part 1",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 1",
+  "issue": "Sam & Twitch: Case Files #2, No Good Deed Goes Unpunished, Part 2",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 1",
+  "issue": "Sam & Twitch: Case Files #3, No Good Deed Goes Unpunished, Part 3",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 1",
+  "issue": "Sam & Twitch: Case Files #4, No Good Deed Goes Unpunished, Part 4",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 1",
+  "issue": "Sam & Twitch: Case Files #5, No Good Deed Goes Unpunished, Part 5",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 1",
+  "issue": "Sam & Twitch: Case Files #6, No Good Deed Goes Unpunished, Part 6",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 1",
+  "issue": "Sam & Twitch: Case Files #7, No Good Deed Goes Unpunished, Part 7",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 1",
+  "issue": "Sam & Twitch: Case Files #8, No Good Deed Goes Unpunished, Part 8",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 1",
+  "issue": "Rat City #1",
+  "note": true,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 1",
+  "issue": "Rat City #2",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 1",
+  "issue": "Rat City #3",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 1",
+  "issue": "Rat City #4",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 1",
+  "issue": "Rat City #5",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 1",
+  "issue": "Rat City #6",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 7",
+  "issue": "King Spawn #37",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 7",
+  "issue": "King Spawn #38",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 7",
+  "issue": "King Spawn #39",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 7",
+  "issue": "King Spawn #40",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 7",
+  "issue": "King Spawn #41",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 7",
+  "issue": "King Spawn #42",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 7",
+  "issue": "Gunslinger Spawn #37",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 7",
+  "issue": "Gunslinger Spawn #38",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 7",
+  "issue": "Gunslinger Spawn #39",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 7",
+  "issue": "Gunslinger Spawn #40",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 7",
+  "issue": "Gunslinger Spawn #41",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 7",
+  "issue": "Gunslinger Spawn #42",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 7",
+  "issue": "The Scorched #39",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 7",
+  "issue": "The Scorched #40",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 7",
+  "issue": "The Scorched #41",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 7",
+  "issue": "The Scorched #42 (Most Recent Issue)",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 7",
+  "issue": "The Scorched #43",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 7",
+  "issue": "The Scorched #44",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "Violator",
+  "issue": "Violator #1",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Violator",
+  "issue": "Violator #2",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Violator",
+  "issue": "Violator #3",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Violator",
+  "issue": "Violator #4",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Violator",
+  "issue": "Violator #5",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Violator",
+  "issue": "Violator #6",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 2",
+  "issue": "Rat City #7",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 2",
+  "issue": "Rat City #8",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 2",
+  "issue": "Rat City #9",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 2",
+  "issue": "Rat City #10",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 2",
+  "issue": "Rat City #11",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 2",
+  "issue": "Rat City #12",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 2",
+  "issue": "Sam & Twitch: Case Files #9",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 2",
+  "issue": "Sam & Twitch: Case Files #10",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 2",
+  "issue": "Sam & Twitch: Case Files #11",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 2",
+  "issue": "Sam & Twitch: Case Files #12",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 2",
+  "issue": "Sam & Twitch: Case Files #13",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 2",
+  "issue": "Sam & Twitch: Case Files #14",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 2",
+  "issue": "Sam & Twitch: Case Files #15",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Sam & Twitch: Case Files, Vol. 2",
+  "issue": "Sam & Twitch: Case Files #16",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 1",
+  "issue": "Deadly Tales of the Gunslinger #1",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 1",
+  "issue": "Deadly Tales of the Gunslinger #2",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 1",
+  "issue": "Deadly Tales of the Gunslinger #3",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 1",
+  "issue": "Deadly Tales of the Gunslinger #4",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 1",
+  "issue": "Deadly Tales of the Gunslinger #5",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 1",
+  "issue": "Deadly Tales of the Gunslinger #6",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Hell Hath Risen",
+  "issue": "Spawn #361",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Hell Hath Risen",
+  "issue": "Spawn #362",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Hell Hath Risen",
+  "issue": "Spawn #363",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Hell Hath Risen",
+  "issue": "Spawn #364",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Hell Hath Risen",
+  "issue": "Spawn #365 (Most Recent Issue)",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Hell Hath Risen",
+  "issue": "Spawn #366",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Hell Hath Risen",
+  "issue": "Spawn #367",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "Hell Hath Risen",
+  "issue": "Spawn #368",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 8",
+  "issue": "King Spawn #43",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 8",
+  "issue": "King Spawn #44",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 8",
+  "issue": "King Spawn #45",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 8",
+  "issue": "King Spawn #46 (Most Recent Issue)",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 8",
+  "issue": "King Spawn #47",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 8",
+  "issue": "King Spawn #48",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 8",
+  "issue": "Gunslinger Spawn #43 (Most Recent Issue)",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 8",
+  "issue": "Gunslinger Spawn #44",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 8",
+  "issue": "Gunslinger Spawn #45",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 8",
+  "issue": "Gunslinger Spawn #46",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 8",
+  "issue": "Gunslinger Spawn #47",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 8",
+  "issue": "Gunslinger Spawn #48",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 8",
+  "issue": "The Scorched #45",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 8",
+  "issue": "The Scorched #46",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 8",
+  "issue": "The Scorched #47",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 8",
+  "issue": "The Scorched #48",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 8",
+  "issue": "The Scorched #49",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 8",
+  "issue": "The Scorched #50",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 3",
+  "issue": "Rat City #13",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 3",
+  "issue": "Rat City #14",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 3",
+  "issue": "Rat City #15",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 3",
+  "issue": "Rat City #16",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 3",
+  "issue": "Rat City #17",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Rat City, Vol. 3",
+  "issue": "Rat City #18",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 2",
+  "issue": "Deadly Tales of the Gunslinger #7",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 2",
+  "issue": "Deadly Tales of the Gunslinger #8",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 2",
+  "issue": "Deadly Tales of the Gunslinger #9",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 2",
+  "issue": "Deadly Tales of the Gunslinger #10",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 2",
+  "issue": "Deadly Tales of the Gunslinger #11",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Deadly Tales of the Gunslinger, Vol. 2",
+  "issue": "Deadly Tales of the Gunslinger #12",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Medieval Spawn",
+  "issue": "Medieval Spawn #1",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Medieval Spawn",
+  "issue": "Medieval Spawn #2",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Medieval Spawn",
+  "issue": "Medieval Spawn #3",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Medieval Spawn",
+  "issue": "Medieval Spawn #4",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Black Ritual: The Book of Nyx",
+  "issue": "Black Ritual: The Book of Nyx #1",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Black Ritual: The Book of Nyx",
+  "issue": "Black Ritual: The Book of Nyx #2",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Black Ritual: The Book of Nyx",
+  "issue": "Black Ritual: The Book of Nyx #3",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Black Ritual: The Book of Nyx",
+  "issue": "Black Ritual: The Book of Nyx #4",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Black Ritual: The Book of Nyx",
+  "issue": "Black Ritual: The Book of Nyx #5",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Black Ritual: The Book of Nyx",
+  "issue": "Black Ritual: The Book of Nyx #6",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Black Ritual: The Book of Nyx",
+  "issue": "Black Ritual: The Book of Nyx #7",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Bloodletter",
+  "issue": "Bloodletter #1",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Bloodletter",
+  "issue": "Bloodletter #2",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Bloodletter",
+  "issue": "Bloodletter #3",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Bloodletter",
+  "issue": "Bloodletter #4",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Bloodletter",
+  "issue": "Bloodletter #5",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "???(Spawn Vol. 9)",
+  "issue": "Spawn #369",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "???(Spawn Vol. 9)",
+  "issue": "Spawn #370",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "???(Spawn Vol. 9)",
+  "issue": "Spawn #371",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "???(Spawn Vol. 9)",
+  "issue": "Spawn #372",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "???(Spawn Vol. 9)",
+  "issue": "Spawn #373",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "???(Spawn Vol. 9)",
+  "issue": "Spawn #374",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "???(Spawn Vol. 9)",
+  "issue": "Spawn #375",
+  "note": false,
+  "bg": "#000000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 9",
+  "issue": "King Spawn #49",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 9",
+  "issue": "King Spawn #50",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 9",
+  "issue": "King Spawn #51",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 9",
+  "issue": "King Spawn #52",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 9",
+  "issue": "King Spawn #53",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "King Spawn Volume 9",
+  "issue": "King Spawn #54",
+  "note": false,
+  "bg": "#660000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 9",
+  "issue": "Gunslinger Spawn #49",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 9",
+  "issue": "Gunslinger Spawn #50",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 9",
+  "issue": "Gunslinger Spawn #51",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 9",
+  "issue": "Gunslinger Spawn #52",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 9",
+  "issue": "Gunslinger Spawn #53",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "Gunslinger Spawn Volume 9",
+  "issue": "Gunslinger Spawn #54",
+  "note": false,
+  "bg": "#990000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 9",
+  "issue": "The Scorched #51",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 9",
+  "issue": "The Scorched #52",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 9",
+  "issue": "The Scorched #53",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 9",
+  "issue": "The Scorched #54",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 9",
+  "issue": "The Scorched #55",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Scorched Volume 9",
+  "issue": "The Scorched #56",
+  "note": false,
+  "bg": "#cc0000"
+ },
+ {
+  "table": 1,
+  "arc": "The Curse of Sherlee Johnson",
+  "issue": "The Curse of Sherlee Johnson #1-5 (arc 1)",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Spawn: The Dark Ages - The Legend of Erlking Ulegrave",
+  "issue": "Spawn: The Dark Ages #1-6",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "She-Spawn",
+  "issue": "She-Spawn #1-5",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "Spawn 77",
+  "issue": "Spawn 77 #1-3",
+  "note": false,
+  "bg": "#e06666"
+ },
+ {
+  "table": 1,
+  "arc": "The Curse of Sherlee Johnson",
+  "issue": "The Curse of Sherlee Johnson #6-ongoing",
+  "note": false,
+  "bg": "#e06666"
+ }
+]
