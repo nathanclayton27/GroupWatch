@@ -445,7 +445,15 @@ footer a{color:var(--steel)}
 @media (max-width:560px){
   /* left/top from the desktop fixed rule survive into position:relative and
      shove the full-width box 14px off the right edge of every phone screen */
-  .mast{position:relative;top:auto;left:auto;padding:12px 14px 0;flex-wrap:wrap}
+  /* one row, always: the switcher gives way (ellipsis) and the account
+     chip drops to its initial disc, so the mast never stacks (CLU-96) */
+  .mast{position:relative;top:auto;left:auto;padding:12px 14px 0;
+    flex-wrap:nowrap;gap:10px}
+  .switcher{flex:1 1 auto;min-width:0}
+  .switcher > button{max-width:100%}
+  #b-prop-t{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+  #b-mastacct .mnm{display:none}
+  #b-mastauth,#b-mastacct{flex:none}
   /* the dropdown's anchor must be the full-width mast, not the switcher —
      inside the flex row the switcher is only as wide as its button, and a
      menu anchored to it renders as a crushed 150px strip (CLU-94) */
