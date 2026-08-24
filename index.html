@@ -569,6 +569,20 @@ footer a{color:var(--steel)}
   <button id="b-moveok" type="button">Got it</button>
 </div>
 
+<div class="mast" id="mast">
+  <a class="mhome" id="mast-home" href="?home" title="Your shelf" aria-label="Your shelf">
+    <span class="eye" id="clubbothy" aria-hidden="true"></span>
+    <span class="mast-t" id="mast-t">clubd</span>
+  </a>
+  <div class="switcher" id="switcher">
+    <button id="b-prop" aria-haspopup="listbox" aria-expanded="false">
+      <span class="pdot" id="pdot"></span><span id="b-prop-t">clubd</span><span class="chev">▾</span>
+    </button>
+    <div class="pmenu hide" id="pmenu" role="listbox" aria-label="Choose what to track"></div>
+  </div>
+  <button id="b-mastauth" class="mastsign hide" type="button">Sign in</button>
+</div>
+
 <div class="splash hide" id="splash">
   <div class="splash-in">
     <div class="lbl">clubd</div>
@@ -597,19 +611,8 @@ footer a{color:var(--steel)}
   </div>
 </div>
 
-<div class="mast" id="mast">
-  <a class="mhome" id="mast-home" href="?home" title="Your shelf" aria-label="Your shelf">
-    <span class="eye" id="clubbothy" aria-hidden="true"></span>
-    <span class="mast-t" id="mast-t">clubd</span>
-  </a>
-  <div class="switcher" id="switcher">
-    <button id="b-prop" aria-haspopup="listbox" aria-expanded="false">
-      <span class="pdot" id="pdot"></span><span id="b-prop-t">clubd</span><span class="chev">▾</span>
-    </button>
-    <div class="pmenu hide" id="pmenu" role="listbox" aria-label="Choose what to track"></div>
-  </div>
-  <button id="b-mastauth" class="mastsign hide" type="button">Sign in</button>
-</div>
+<!-- (mast markup moved to the top of body — on phones it is in-flow, and
+     down here it rendered below the splash, CLU-93) -->
 
 <div class="gate hide" id="gate">
   <form class="gatebox" id="gateform" autocomplete="off">
@@ -2938,7 +2941,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '94cff05bfc64';
+const BUILD = '1c37b6305de5';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
