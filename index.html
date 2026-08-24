@@ -871,6 +871,36 @@ footer a{color:var(--steel)}
   </div>
 </div>
 
+<!-- ?friends (CLU-72): the friends page — every friend with the top of
+     their shelf, the handshake, and the inbox when one exists -->
+<div class="acctp hide" id="friendsv">
+  <div class="acctp-in">
+    <h1 class="splash-h">Friends</h1>
+    <p class="asub" id="fp-sub"></p>
+
+    <div class="acard hide" id="fp-reqcard">
+      <div class="ak">friend requests</div>
+      <div id="fp-reqs"></div>
+    </div>
+
+    <div class="acard">
+      <div class="ak">your code</div>
+      <div class="afrow">
+        <span class="acode" id="fp-code">·</span>
+        <button id="fp-copy" type="button">Copy</button>
+        <button id="fp-share" type="button">Share link</button>
+      </div>
+      <div class="afrow" style="margin-top:11px">
+        <input type="text" id="fp-fadd" placeholder="Enter a friend’s code"
+               aria-label="Enter a friend’s code" maxlength="8">
+        <button id="fp-add" type="button">Add</button>
+      </div>
+    </div>
+
+    <div id="fp-list"></div>
+  </div>
+</div>
+
 <!-- (mast markup moved to the top of body — on phones it is in-flow, and
      down here it rendered below the splash, CLU-93) -->
 
@@ -3205,7 +3235,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '25c447bd97f6';
+const BUILD = 'd58bb3246097';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -3263,10 +3293,11 @@ const BRAND = 'clubd';
 
 function pickSlug(){
   const q = new URLSearchParams(location.search);
-  // ?home beats the remembered list — it's the way back to the shelf, and
-  // ?account is the same shell with the account column in place of it.
-  // A friend link lands there too, never inside a remembered list.
-  if(q.has('home') || q.has('account') || q.has('friend')) return null;
+  // ?home beats the remembered list — it's the way back to the shelf;
+  // ?account and ?friends are the same shell with other columns in it.
+  // A friend link lands home too, never inside a remembered list.
+  if(q.has('home') || q.has('account') || q.has('friend') || q.has('friends'))
+    return null;
   const want = q.get('p');
   if(want && MANIFEST.some(m=>m.slug===want)) return want;
   const last = localStorage.getItem('gw:last');
@@ -3276,6 +3307,7 @@ function pickSlug(){
 const SLUG = pickSlug();
 // ?account (CLU-57). Read once: the mast chip and the boot both branch on it.
 const ACCOUNT = new URLSearchParams(location.search).has('account');
+const FRIENDSPG = new URLSearchParams(location.search).has('friends');
 
 function localCount(slug){
   try{
@@ -3760,11 +3792,12 @@ async function onSession(session){
       $('homev').classList.add('hide');
       $('splash').classList.add('hide');
       if(ACCOUNT) showAccount();
+      else if(FRIENDSPG) showFriendsPage();
       else showHome();
       // an account ALWAYS has a friend code — minted at sign-in, not on
       // first account-page visit (Nathan's rule: no codeless users)
       ensureFcode().then(()=> mirrorProfile());
-    }else if(ACCOUNT){
+    }else if(ACCOUNT || FRIENDSPG){
       openAccountSignin();
     }
     settlePendingFriend();
@@ -4299,6 +4332,15 @@ $('b-fadd').onclick = async ()=>{
   friendNotify(r, true);
   if(!r.err) $('a-fadd').value = '';
 };
+$('fp-copy').onclick = ()=> acctCopy($('fp-code').textContent, 'Friend code copied.');
+$('fp-share').onclick = ()=> acctCopy(
+  'https://clubd.watch/?friend=' + $('fp-code').textContent, 'Share link copied.');
+$('fp-add').onclick = async ()=>{
+  const r = await addFriendFlow($('fp-fadd').value);
+  friendNotify(r, false);
+  if(!r.err){ $('fp-fadd').value = ''; renderFriends(); renderFriendsPage(); }
+};
+$('fp-fadd').onkeydown = e=>{ if(e.key === 'Enter') $('fp-add').click(); };
 $('a-fadd').onkeydown = e=>{ if(e.key === 'Enter') $('b-fadd').click(); };
 $('b-fcopy').onclick = ()=> acctCopy($('a-fcode').textContent, 'Friend code copied.');
 $('b-fshare').onclick = ()=> acctCopy(friendLink(), 'Share link copied.');
@@ -4582,6 +4624,7 @@ async function renderFriends(){
   const spots = [
     { h: $('hreq-h'), r: $('hreqs'), acct: false },
     { h: $('a-reqcard'), r: $('a-reqs'), acct: true },
+    { h: $('fp-reqcard'), r: $('fp-reqs'), acct: true },
   ];
   const fh = $('hfr-h'), fhost = $('hfriends');
   const offAll = ()=>{
@@ -4665,6 +4708,96 @@ async function renderFriends(){
       renderFriends();
     };
   });
+}
+
+/* -------------------------------------------------------- friends page */
+// ?friends (CLU-72): every mutual friend with the top of their shelf.
+// Shelf reads work through the mutual-friends progress policy; before it
+// runs, names render and shelves stay quietly absent — nothing dead.
+async function friendShelves(ids){
+  if(!ids.length) return {};
+  try{
+    const { data } = await sb.from('progress')
+      .select('user_id,property_id,read_ids').in('user_id', ids);
+    const by = {};
+    (data || []).forEach(r=>{
+      const m = MANIFEST.find(x=> x.slug === r.property_id);
+      if(!m || m.secret) return;      // gated lists are invisible, always
+      const n = (r.read_ids || []).length;
+      if(!n) return;
+      (by[r.user_id] = by[r.user_id] || []).push({ m, n });
+    });
+    for(const k in by)
+      by[k] = by[k].sort((a, b)=> b.n - a.n).slice(0, 4);
+    return by;
+  }catch(e){ return {}; }
+}
+async function renderFriendsPage(){
+  const host = $('fp-list');
+  if(!host) return;
+  if(!user || !sb || FBROKEN){ host.innerHTML = ''; return; }
+  ensureFcode().then(c=>{ $('fp-code').textContent = c; });
+  let E = null;
+  try{ E = await fetchFriendEdges(); }catch(e){}
+  if(!E){ host.innerHTML = ''; return; }
+  const nm = id=> E.names[id] || 'someone';
+  const mut = E.ids.filter(i=> E.out.has(i) && E.inn.has(i));
+  const waiting = E.ids.filter(i=> E.out.has(i) && !E.inn.has(i));
+  const shelves = await friendShelves(mut);
+  const shelfHTML = id=>{
+    const rows = shelves[id] || [];
+    if(!rows.length) return '';
+    return '<div style="margin:2px 0 10px 2px">' + rows.map(e=>
+      '<div class="mline" style="display:flex;gap:9px;align-items:baseline;padding:2px 0;font-size:12.5px">'
+      + '<span class="pdot" style="background:' + esc(accentOf(e.m)) + ';align-self:center"></span>'
+      + '<span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + esc(e.m.title) + '</span>'
+      + '<span class="mono" style="margin-left:auto;font-size:10.5px;color:var(--ink-3);flex:none">'
+      + e.n + ' / ' + totalOf(e.m) + '</span></div>').join('') + '</div>';
+  };
+  const card = (id, status, verb)=>
+    '<div class="acard"><div class="afrow" style="align-items:baseline">'
+    + '<b>' + esc(nm(id)) + '</b>'
+    + '<button class="aquiet" data-unfr="' + esc(id) + '" data-verb="' + verb
+    + '" style="margin-left:12px">' + verb + '</button>'
+    + '<span class="mono" style="margin-left:auto;font-size:10.5px;color:var(--ink-3)">'
+    + status + '</span></div>'
+    + shelfHTML(id) + '</div>';
+  host.innerHTML = (mut.length || waiting.length)
+    ? mut.map(i=> card(i, 'friends', 'remove')).join('')
+      + waiting.map(i=> card(i, 'waiting on them', 'cancel')).join('')
+    : '<div class="acard"><span style="color:var(--ink-3);font-size:13px">'
+      + 'No friends yet — share your code above and they appear here.</span></div>';
+  $('fp-sub').textContent = mut.length
+    ? mut.length + ' friend' + (mut.length === 1 ? '' : 's')
+      + ' · the top of each shelf'
+    : '';
+  host.querySelectorAll('button[data-unfr]').forEach(b=>{
+    b.onclick = async ()=>{
+      const who = nm(b.dataset.unfr);
+      const cancel = b.dataset.verb === 'cancel';
+      if(!confirm(cancel
+        ? 'Cancel your request to ' + who + '?'
+        : 'Remove ' + who + ' as a friend?')) return;
+      const r = await unFriend(b.dataset.unfr, who);
+      if(r.err){ flash(r.err); return; }
+      flash(cancel ? 'Request cancelled.' : 'Removed ' + who + '.');
+      renderFriends();
+      renderFriendsPage();
+    };
+  });
+}
+function showFriendsPage(){
+  $('splash').classList.add('hide');
+  $('homev').classList.add('hide');
+  $('accountv').classList.add('hide');
+  $('friendsv').classList.remove('hide');
+  $('switcher').classList.remove('hide');
+  document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
+  document.title = 'Friends · ' + BRAND;
+  paintMastAcct();
+  try{ renderMenu(); }catch(e){}
+  renderFriends();
+  renderFriendsPage();
 }
 
 // The move warning: localStorage is per-origin, so anonymous ticks stay
@@ -6709,6 +6842,9 @@ function renderLedger(){
   for(const m of splashList()){
     for(const e of evAll(m.slug)){
       if(e.a !== 'tick') continue;
+      // home is LIVE-only for everyone (Nathan, CLU-72) — catch-up noise
+      // belongs to the full activity ledger, not the front page
+      if(e.k === 'backfill') continue;
       const t = Date.parse(e.at) || 0;
       if(now - t > 14 * D) continue;
       const key = new Date(t).toDateString() + '|' + m.slug + '|' + e.k;
@@ -6755,6 +6891,12 @@ function showHome(){
   try{ renderMenu(); }catch(e){ console.error('[home] menu', e); }
   renderShelf(shelf);
   renderLedger();
+  // the Friends header is the door to the friends page
+  const fhh = $('hfr-h');
+  fhh.textContent = 'Friends →';
+  fhh.style.cursor = 'pointer';
+  fhh.title = 'Open the friends page';
+  fhh.onclick = ()=>{ location.href = location.pathname + '?friends'; };
   renderFriends();
   // one chip row scopes both the pick and the wall, even while folded
   renderChips($('hchips'), ()=>{
