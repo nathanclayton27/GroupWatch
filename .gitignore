@@ -4,3 +4,6 @@ __pycache__/
 scratch/
 .claude/settings.local.json
 .claude/settings.json
+# agent worktrees live here; they are checkouts of this same repo and must
+# never be swept into a commit by a broad `git add`
+.claude/worktrees/
