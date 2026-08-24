@@ -400,6 +400,10 @@ footer a{color:var(--steel)}
 #hfriends .hled:hover .aquiet{opacity:1}
 .gitem .gfr{opacity:0;transition:opacity .15s;margin-left:4px}
 .gitem:hover .gfr{opacity:1}
+/* fresh watch: the trophy proves the history is intact — hover layer,
+   per the row spec's state 08 */
+.fw #list li .st-t::after,.fw #list summary .st h2::after{content:""}
+.fw #list li:hover > label::after{content:" 🏆";opacity:.55;font-size:.8em}
 @media (hover:none){#hfriends .aquiet,.gitem .gfr{opacity:.55}}
 @media (max-width:560px){#fnote{top:74px;left:14px;right:14px;max-width:none}}
 #b-baracct:hover{border-color:var(--signal)}
@@ -975,6 +979,7 @@ footer a{color:var(--steel)}
   <div class="uprow" id="uprow">
     <span class="upnext hide" id="upnext"></span>
     <button class="hide" id="b-random" title="Pick a random unticked entry">Pick one for me</button>
+    <button class="foldbtn hide" id="b-fw" type="button" style="margin-left:0"></button>
   </div>
   <div class="win hide" id="winline"></div>
   <label class="pscope hide" id="pscope"><input type="checkbox" id="pscope-cb"><span id="pscope-t"></span></label>
@@ -1164,6 +1169,13 @@ function pickSlug(){
   return null;
 }
 const SLUG = pickSlug();
+// Fresh watch (CLU-46): a finished list can be watched again as its own
+// run. The fresh run lives in a parallel namespace — SLUG#fw for both the
+// local key and the cloud progress row — so the all-time set is untouched
+// by construction, not by promise. Events keep the real slug: a rewatch
+// tick is a real live watch.
+const FW = SLUG ? localStorage.getItem('gw:fwon:' + SLUG) === '1' : false;
+const CKEY = SLUG ? SLUG + (FW ? '#fw' : '') : SLUG;
 // ?account (CLU-57). Read once: the mast chip and the boot both branch on it.
 const ACCOUNT = new URLSearchParams(location.search).has('account');
 const FRIENDSPG = new URLSearchParams(location.search).has('friends');
@@ -1231,7 +1243,7 @@ let user = null;
 let sessionSeen = false;
 let saveTimer = null;
 
-const LKEY = 'gw:v1:' + SLUG;
+const LKEY = 'gw:v1:' + CKEY;
 const PKEY = 'gw:pace:' + SLUG;
 
 // Two old key formats predate the multi-property rewrite, both from when this
@@ -1423,7 +1435,7 @@ function writeLocal(){
 async function pushCloud(){
   if(!user) return;
   const { error } = await sb.from('progress')
-    .upsert({ user_id:user.id, property_id:SLUG, read_ids:[...done],
+    .upsert({ user_id:user.id, property_id:CKEY, read_ids:[...done],
               updated_at:new Date().toISOString() },
             { onConflict:'user_id,property_id' });
   if(error){
@@ -1567,7 +1579,7 @@ async function backfillSync(){
         mine = true;
         if(cloud){
           const { error } = await sb.from('progress').upsert(
-            { user_id:user.id, property_id:SLUG, read_ids:[...done],
+            { user_id:user.id, property_id:CKEY, read_ids:[...done],
               updated_at:new Date().toISOString() },
             { onConflict:'user_id,property_id' });
           if(error) return;
@@ -1611,7 +1623,7 @@ function persist(){
 
 async function adopt(){
   const { data, error } = await sb.from('progress')
-    .select('read_ids').eq('user_id', user.id).eq('property_id', SLUG).maybeSingle();
+    .select('read_ids').eq('user_id', user.id).eq('property_id', CKEY).maybeSingle();
   if(error){
     done = readLocal();
     state('Sync failed — saved on this device','');
@@ -1621,7 +1633,7 @@ async function adopt(){
   }
   const server = clean(data ? data.read_ids : []);
   const local  = readLocal();
-  const flag = 'gw:merged:'+user.id+':'+SLUG;
+  const flag = 'gw:merged:'+user.id+':'+CKEY;
   if(!localStorage.getItem(flag) && local.size){
     done = new Set([...server, ...local]);
     localStorage.setItem(flag,'1');
@@ -1701,6 +1713,7 @@ async function onSession(session){
   moveBanner();
   paintMastAcct();
   renderFriends();   // list pages want the request badge on the pills
+  paintFW();
   // off the critical path: the first load fetches the index once, every
   // later load exits on the flag before any network
   setTimeout(backfillSync, 1200);
@@ -1780,6 +1793,33 @@ async function onSession(session){
     addEventListener('pointercancel', open);
   }
 })();
+
+/* ----------------------------------------------------------- fresh watch */
+// The toggle appears at the dead end — a finished list — and while a
+// fresh run is on. Switching just swaps the namespace and reloads; the
+// all-time run is never written from fresh mode, so there is nothing to
+// lose and nothing to confirm.
+function paintFW(){
+  const b = $('b-fw');
+  if(!b || !SLUG) return;
+  const finished = TOTAL > 0 && done && done.size >= TOTAL;
+  const show = FW || finished;
+  b.classList.toggle('hide', !show);
+  if(!show) return;
+  b.textContent = FW
+    ? '↻ fresh watch on · all-time kept — switch back'
+    : '↻ start a fresh watch';
+  b.title = FW
+    ? 'Return to the all-time view (the fresh run keeps its place)'
+    : 'Watch it again from zero — your finished run stays untouched';
+  b.onclick = ()=>{
+    try{
+      localStorage.setItem('gw:fwon:' + SLUG, FW ? '0' : '1');
+    }catch(e){ return; }
+    location.reload();
+  };
+  document.body.classList.toggle('fw', FW);
+}
 
 /* ------------------------------------------------------------ clubbothy */
 // The masthead eye, per the frozen spec: 14x8 almond, 4x4 iris disc at
@@ -5347,6 +5387,7 @@ function openInitialSection(){
 }
 
 function paint(){
+  paintFW();   // completing the last item mid-session reveals the toggle
   document.querySelectorAll('#list li').forEach(li=>{
     const on = done.has(li.dataset.id);
     li.classList.toggle('done', on);
