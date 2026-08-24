@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — GroupWatch</title>
+<style>
+:root{--paper:#E6E7E2;--card:#F2F2EE;--ink:#15171A;--ink-2:#5C6066;--rule:#C9CAC4;--signal:#C1352A}
+@media (prefers-color-scheme:dark){:root{--paper:#131518;--card:#1B1E22;--ink:#E8E9E4;--ink-2:#9BA0A6;--rule:#2C3035;--signal:#E4584A}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+ font:15px/1.6 "Space Grotesk",system-ui,sans-serif}
+main{max-width:640px;margin:0 auto;padding:56px 20px 90px}
+h1{font-size:28px;letter-spacing:-.02em;margin:0 0 4px}
+h2{font-size:17px;margin:28px 0 8px}
+p{margin:0 0 12px;color:var(--ink-2)}
+p b,li b{color:var(--ink);font-weight:500}
+ul{margin:0 0 12px;padding-left:22px;color:var(--ink-2)}
+li{margin:0 0 6px}
+.small{font-size:12.5px;border-top:1px solid var(--rule);padding-top:14px;margin-top:34px}
+a{color:var(--signal)}
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy</h1>
+<p>GroupWatch (becoming <b>clubd</b> at clubd.watch) is a small group
+media-tracker. This page says exactly what it stores, which is not much.</p>
+
+<h2>What we store</h2>
+<ul>
+<li><b>Your email address</b>, if you sign in — it is your account
+identifier and how sign-in links reach you. Nothing else about your
+identity is collected.</li>
+<li><b>Your progress</b>: which list items you have ticked, when a tick
+happened, and whether it was live or catch-up. This is the product.</li>
+<li><b>Your groups</b>: the groups you create or join, the display name
+you use in them, and any schedule the group sets.</li>
+<li><b>Preferences</b> such as favourites and display settings, stored in
+your browser and, when signed in, alongside your account.</li>
+</ul>
+
+<h2>What we don't do</h2>
+<ul>
+<li>No ads, no trackers, no analytics scripts, no selling or sharing of
+data with anyone.</li>
+<li>No profiling and no data use beyond showing you and your groups your
+own progress.</li>
+<li>Without an account, everything stays in your browser's local storage
+and never leaves your device.</li>
+</ul>
+
+<h2>Where it lives</h2>
+<p>Account data is stored with <b>Supabase</b> (our database and
+authentication provider). Sign-in emails are delivered via <b>Resend</b>.
+If you sign in with Google, Google tells us only your email address —
+we receive no other profile data and no access to your Google account.</p>
+
+<h2>Sharing within the product</h2>
+<p>Members of a group you join can see your display name and your progress
+on that group's list — that is what a group is. Nothing is public.</p>
+
+<h2>Deletion</h2>
+<p>Email <a href="mailto:nathan@clubd.watch">nathan@clubd.watch</a> from
+your account address and every record tied to your account is deleted.
+An in-app delete button is on the roadmap.</p>
+
+<p class="small">Contact: <a href="mailto:nathan@clubd.watch">nathan@clubd.watch</a>
+· Last updated 24 August 2026 · <a href="terms.html">Terms of service</a></p>
+</main>
+</body>
+</html>
