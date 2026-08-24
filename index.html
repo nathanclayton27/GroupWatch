@@ -330,8 +330,12 @@ footer a{color:var(--steel)}
    and 20px otherwise */
 .mast{position:fixed;top:14px;left:max(20px, calc(50% - 430px));z-index:80;
   display:flex;align-items:center;gap:14px}
-.mhome{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
-.mast-t{font-weight:700;font-size:14px;letter-spacing:-.01em}
+/* option B (CLU-74): the home cluster is an opaque pill like the switcher
+   button, so content scrolling behind never collides with the wordmark */
+.mhome{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);
+  background:var(--card);border:1px solid var(--rule-2);border-radius:99px;
+  padding:6px 13px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.mast-t{font-weight:700;font-size:13px;letter-spacing:-.01em}
 .mhome:hover .mast-t{color:var(--signal)}
 .eye{display:grid;grid-template-columns:repeat(14,2px);grid-auto-rows:2px}
 .eye i{display:block}
@@ -555,9 +559,9 @@ footer a{color:var(--steel)}
 </div>
 
 <div class="mast" id="mast">
-  <a class="mhome" id="mast-home" href="?home" title="Your shelf" aria-label="GroupWatch — your shelf">
+  <a class="mhome" id="mast-home" href="?home" title="Your shelf" aria-label="Your shelf">
     <span class="eye" id="clubbothy" aria-hidden="true"></span>
-    <span class="mast-t">GroupWatch</span>
+    <span class="mast-t" id="mast-t">GroupWatch</span>
   </a>
   <div class="switcher" id="switcher">
     <button id="b-prop" aria-haspopup="listbox" aria-expanded="false">
@@ -2898,7 +2902,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'a67e26bf4487';
+const BUILD = 'df8fb50b410a';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -2941,6 +2945,18 @@ function applyReload(){
 
 setInterval(checkBuild, 5 * 60 * 1000);
 document.addEventListener('visibilitychange', ()=>{ if(!document.hidden) checkBuild(); });
+
+// One build serves both origins through the move: the new domain is clubd,
+// the old link stays GroupWatch until it retires. Same code, same storage
+// keys, different name on the door.
+const BRAND = /(^|\.)clubd\.watch$/.test(location.hostname) ? 'clubd' : 'GroupWatch';
+(function(){
+  const t = document.getElementById('mast-t');
+  if(t) t.textContent = BRAND;
+  const b = document.getElementById('b-prop-t');
+  if(b) b.textContent = BRAND;
+  document.querySelectorAll('.splash .lbl').forEach(el=>{ el.textContent = BRAND; });
+})();
 
 function pickSlug(){
   const q = new URLSearchParams(location.search);
@@ -4812,7 +4828,7 @@ function renderHeader(){
   applyOverrides();
   $('b-prop-t').textContent = PROP.title;
   if(PROP.accent) $('pdot').style.background = PROP.accent;
-  document.title = PROP.title + ' — GroupWatch';
+  document.title = PROP.title + ' — ' + BRAND;
   $('s-all-l').textContent = 'Done';
   // a property may use fewer than three tiers — an empty one reads as 0 / 0
   document.querySelectorAll('.tierstat').forEach((el,i)=>
@@ -5128,7 +5144,7 @@ function showGate(){
   $('gate').classList.remove('hide');
   $('gate-t').textContent = sec.title || 'Secret';
   $('gate-h').textContent = sec.hint || 'This one needs a password.';
-  document.title = (sec.title || 'Secret') + ' — GroupWatch';
+  document.title = (sec.title || 'Secret') + ' — ' + BRAND;
   setTimeout(()=> $('gate-in').focus(), 60);
 
   $('gate-back').onclick = ()=>{ location.href = location.pathname; };
@@ -5248,7 +5264,7 @@ function showSplash(){
   $('splash').classList.remove('hide');
   $('switcher').classList.add('hide');
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
-  document.title = 'GroupWatch';
+  document.title = BRAND;
   // a new user's home IS the card wall
   renderWall($('cards'));
 }
@@ -5575,7 +5591,7 @@ function showHome(){
   $('homev').classList.remove('hide');
   $('switcher').classList.remove('hide');
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
-  document.title = 'GroupWatch';
+  document.title = BRAND;
   try{ renderMenu(); }catch(e){ console.error('[home] menu', e); }
   renderShelf(shelf);
   renderLedger();
