@@ -33,6 +33,15 @@ body{margin:0;background:var(--paper);color:var(--ink);
 .wrap{max-width:900px;margin:0 auto;padding:0 20px 100px}
 .lbl{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);font-weight:500}
 .mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+/* the pre-move banner — shows only on the old origin, only signed out;
+   signing in (or moving to clubd.watch) retires it forever */
+#movebar{background:color-mix(in srgb,var(--signal) 9%,var(--card));
+ border-bottom:1px solid var(--rule);padding:9px 20px;font-size:13px;
+ display:flex;gap:12px;align-items:baseline;justify-content:center;flex-wrap:wrap}
+#movebar b{font-weight:600}
+#movebar button{font:inherit;font-size:12px;border:1px solid var(--rule-2);
+ background:transparent;color:var(--ink-2);border-radius:var(--radius);
+ padding:2px 9px;cursor:pointer}
 
 header{padding:56px 0 28px;border-bottom:1px solid var(--rule)}
 h1{font-size:clamp(30px,7vw,52px);line-height:.98;margin:10px 0 6px;font-weight:700;letter-spacing:-.02em}
@@ -463,6 +472,11 @@ footer a{color:var(--steel)}
     <p class="gate-msg" id="gate-msg" role="status"></p>
     <button type="button" class="gate-back" id="gate-back">Back to everything else</button>
   </form>
+</div>
+
+<div id="movebar" class="hide">
+  <span><b>We're moving to clubd.watch.</b> Sign in once and your ticks make the move — this address won't keep them.</span>
+  <button id="b-moveok" type="button">Got it</button>
 </div>
 
 <div class="wrap">
@@ -1134,9 +1148,23 @@ async function onSession(session){
     gstate(); renderGroupPanel();
   }
   paint();
+  moveBanner();
   // off the critical path: the first load fetches the index once, every
   // later load exits on the flag before any network
   setTimeout(backfillSync, 1200);
+}
+
+// The move warning: localStorage is per-origin, so anonymous ticks stay
+// behind when the site moves to clubd.watch — one sign-in is what carries
+// them. Old origin only, signed-out only, dismissable for a week at a time.
+function moveBanner(){
+  const el = $('movebar');
+  if(!el) return;
+  let dism = 0;
+  try{ dism = parseInt(localStorage.getItem('gw:movebanner')||'0',10)||0; }catch(e){}
+  const show = location.hostname === 'nathanclayton27.github.io' && !user &&
+    Date.now() - dism > 7*24*3600*1000;
+  el.classList.toggle('hide', !show);
 }
 
 /* ------------------------------------------------------------------ groups */
@@ -3351,6 +3379,10 @@ $('b-reset').onclick = ()=>{
   if(!confirm('Clear all progress?')) return;
   done = new Set(); persist(); paint(); flash('Progress cleared.');
 };
+$('b-moveok').onclick = ()=>{
+  try{ localStorage.setItem('gw:movebanner', String(Date.now())); }catch(e){}
+  $('movebar').classList.add('hide');
+};
 
 $('b-gcreate').onclick = async ()=>{
   if(!user){ flash('Sign in first — a group needs an account.','gmsg'); return; }
@@ -3486,6 +3518,7 @@ loadProperty().then(()=>{
     state('Saved on this device','');
     renderGroupPanel();
     paint();
+    moveBanner();
     setTimeout(backfillSync, 1200);
   }
 }).catch(e=>{

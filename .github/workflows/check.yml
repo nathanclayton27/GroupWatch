@@ -26,3 +26,16 @@ jobs:
             || { echo "::error::index.html/manifest are stale — run src/build.py and commit the result"; exit 1; }
       - name: Content lint + tree consistency
         run: python tools/qa_lint.py
+
+  # Blocks any commit that carries something shaped like a credential.
+  # Config in .gitleaks.toml: defaults plus an allowlist for the public
+  # Supabase publishable key.
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

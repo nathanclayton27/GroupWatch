@@ -1,0 +1,10 @@
+# Secret gate: gitleaks defaults (which already cover Linear, Supabase,
+# GitHub, and generic API-key shapes) plus an allowlist for the one
+# credential that is public by design — the Supabase publishable key
+# shipped in the page source.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Public-by-design values"
+regexes = ['''sb_publishable_[A-Za-z0-9_-]+''']
