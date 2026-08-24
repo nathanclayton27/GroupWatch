@@ -1,0 +1,66 @@
+{{Short description|2001 action-adventure game}}
+{{Infobox video game
+| title = The World Is Not Enough
+| image = TWINE GBC Box Art.jpg
+| caption = North American box art
+| developer = 2n Productions
+| publisher = [[Electronic Arts]]
+| series = ''[[James Bond in video games|James Bond]]''
+| released = {{vgrelease|NA|September 17, 2001|UK|September 28, 2001}}
+| platforms = [[Game Boy Color]]
+| genre = [[Action-adventure game|Action-adventure]]
+| modes = [[Single-player video game|Single-player]]
+}}
+
+'''''The World Is Not Enough''''' is a 2001 [[action-adventure game|action-adventure]] video game developed by 2n Productions and published by [[Electronic Arts]] for the [[Game Boy Color]]. The game was the final release of the video games based on the 1999 [[James Bond]] film ''[[The World Is Not Enough]]'' starring [[Pierce Brosnan]], following the [[The World Is Not Enough (Nintendo 64 video game)|Nintendo 64]] and [[The World Is Not Enough (PlayStation video game)|PlayStation]] versions of the game. The game was released in North America on September 17, 2001 and in Europe on September 28, 2001.
+
+==Gameplay==
+[[File:TWINE GBC gameplay.jpg|thumb|left|220px|The game is presented from a top-down oblique projection. The player's health and equipped weapon are displayed at the bottom of the screen.]]
+''The World Is Not Enough'' is an [[action-adventure game]] based on the 1999 ''[[James Bond]]'' [[The World Is Not Enough|film of the same name]], where the player must control [[James Bond (literary character)|James Bond]] from a [[Top-down perspective|top-down]] [[oblique projection]] through eight mission-based levels.<ref name="Allgame review"/> The game closely follows the plot of the film and its levels take place in film locations such as London and a Russian submarine.<ref name="GSpot screenshots">{{cite web |url=https://www.gamespot.com/articles/new-media-twine-gbc/1100-2699103/ |title=New media: TWINE GBC |access-date=December 2, 2019 |website=[[GameSpot]] |date=March 20, 2001 |archiveurl=https://web.archive.org/web/20191202162308/https://www.gamespot.com/articles/new-media-twine-gbc/1100-2699103/ |archive-date=December 2, 2019 |url-status=live}}</ref> In each level, the player must complete many objectives and then escape.<ref name="Allgame review"/> Objectives range from collecting keycards to gaining access to restricted areas of a level or using high-tech [[gadget]]s such as remote mines to destroy objects.<ref name="Instruction booklet"/>{{rp|p=15–17}}
+
+Bond has a limited amount of [[Health (game terminology)|health]] which decreases when attacked by enemies, but the player can collect health-recovery items to restore a portion of his health.<ref name="Instruction booklet"/>{{rp|p=14}} The player can also use several weapons to neutralize enemies, ranging from pistols to submachine guns, a grenade launcher, and a [[taser]].<ref name="Instruction booklet"/>{{rp|p=10–12}} If Bond dies, the player must start the level again from the beginning.<ref name="Instruction booklet"/>{{rp|p=8}} [[Password (video games)|Passwords]] must be used to restore the game to a specific level.<ref name="Instruction booklet">{{Cite AV media notes |title=The World Is Not Enough |pages=2–20 |type=Instruction booklet |date=2001 |publisher=[[Electronic Arts]] |location=Redwood City, California |id=CGB-BO7E-USA}}</ref>{{rp|p=17}}
+
+==Development and release==
+''The World Is Not Enough'' was developed by 2n Productions, a video game developer based in [[Redwood City, California]], and published by Electronic Arts for the Game Boy Color handheld console.<ref name="GBC lineup">{{cite web |url=http://edition.cnn.com/2000/TECH/computing/10/16/gameboy.color.idg/index.html |title=EA's Game Boy Color lineup |access-date=December 2, 2019 |website=[[CNN]] |date=October 16, 2000 |archiveurl=https://web.archive.org/web/20031018044021/http://edition.cnn.com/2000/TECH/computing/10/16/gameboy.color.idg/index.html |archive-date=October 18, 2003 |url-status=live}}</ref> The game was released on a 16-[[megabit]] [[ROM cartridge|cartridge]] in North America on September 17, 2001, and in the United Kingdom on September 28.<ref name="NP review"/><ref name="IGN release">{{cite web |url=https://www.ign.com/articles/2001/09/17/the-world-is-not-enough-for-portable-fans |title=The World is Not Enough for Portable Fans |access-date=December 2, 2019 |website=[[IGN]] |last=Harris |first=Craig |date=September 18, 2001 |archiveurl=https://web.archive.org/web/20191202162811/https://www.ign.com/articles/2001/09/17/the-world-is-not-enough-for-portable-fans |archive-date=December 2, 2019 |url-status=live}}</ref><ref>{{Cite web |title=''The World is Not Enough'' |url=http://www.chipsworld.co.uk/detProd.asp?ProductCode=4851 |archive-url=https://web.archive.org/web/20020509105229/http://www.chipsworld.co.uk/detProd.asp?ProductCode=4851 |archive-date=May 9, 2002 |access-date=May 23, 2024 |website=Chipsworld}}</ref> The game was initially announced to be compatible with the [[Transfer Pak]] accessory,<ref name="NP review"/> allowing players to transfer multiplayer character data to [[The World Is Not Enough (Nintendo 64 video game)|its Nintendo 64 counterpart]] depending on how far they reached in the game;<ref name="GSpot screenshots"/><ref name="IGN preview">{{cite web |url=https://www.ign.com/articles/2001/07/16/the-world-is-not-enough-5 |title=The World Is Not Enough |access-date=December 2, 2019 |website=[[IGN]] |last=Harris |first=Craig |date=July 17, 2001 |archiveurl=https://web.archive.org/web/20191202162507/https://www.ign.com/articles/2001/07/16/the-world-is-not-enough-5 |archive-date=December 2, 2019 |url-status=live}}</ref> however, this feature was dropped before release.
+
+==Reception==
+{{Video game reviews
+| Allgame = 3.5/5<ref name="Allgame review"/>
+| NP = 2/5<ref name="NP review"/>
+| rev1 = ''Consoles +''
+| rev1Score = 78%<ref name="Consoles + review"/>
+| rev2 = ''[[Nintendo Acción]]''
+| rev2Score = 77/100<ref name="NA review"/>
+}}
+
+''The World Is Not Enough'' received generally mixed reviews from critics, who unfavorably compared it to the 2000 Game Boy Color game ''[[Metal Gear: Ghost Babel|Metal Gear Solid]]''.<ref name="Allgame review"/><ref name="NA review"/> ''[[AllGame]]'' praised the game for its diverse level designs and soundtrack, but noted the game's difficulty.<ref name="Allgame review">{{cite web |url=http://www.allgame.com/game.php?id=31053&tab=review |access-date=December 7, 2014 |title=The World Is Not Enough - Review |website=[[AllGame]] |last=Thompson |first=Jon |archive-url=https://web.archive.org/web/20141207170159/http://www.allgame.com/game.php?id=31053&tab=review |archive-date=December 7, 2014 |url-status=dead}}</ref> [[Nintendo#Nintendo of America|Nintendo of America]]'s official print magazine, ''[[Nintendo Power]]'', criticized the game's clumsy controls, noting that the player cannot walk and shoot at the same time,<ref name="NP review">{{Cite magazine |title=The World Is Not Enough |url=https://archive.org/details/NintendoPower1988-2004/Nintendo%20Power%20Issue%20150%20%28November%202001%29/page/n79/mode/2up |magazine=[[Nintendo Power]] |issue=150 |date=November 2001 |page=150 |via=[[Archive.org]]}}</ref> while the French video games magazine, ''{{ill|Consoles +|fr}}'', felt that the graphics lacked details.<ref name="Consoles + review">{{Cite magazine |title=James Bond: Le Monde Ne Suffit Pas |magazine=Consoles + |publisher=M.E.R.7 |issue=116 |page=116 |date=September 2001 |language=French}}</ref> The Spanish official Nintendo magazine, ''[[Revista Oficial Nintendo|Nintendo Acción]]'', criticized the game's [[Artificial intelligence in video games|artificial intelligence]], stating that enemies stop following the player if they are only a few steps away, and remarked that, due to the game's lack of graphic details, it is occasionally difficult to determine the objects that can be interacted with.<ref name="NA review">{{Cite magazine |title=007 The World Is Not Enough |magazine=[[Nintendo Acción]] |publisher=Hobby Press |page=45 |date=November 2001 |issue=108 |language=Spanish}}</ref>
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{MobyGames|/game/007-the-world-is-not-enough__|''The World Is Not Enough''}}
+
+{{The World Is Not Enough}}
+{{James Bond video games}}
+
+{{DEFAULTSORT:World is Not Enough (2001 video game), The}}
+[[Category:2001 video games]]
+[[Category:Action-adventure games]]
+[[Category:Biscay in fiction]]
+[[Category:Game Boy Color games]]
+[[Category:Game Boy Color-only games]]
+[[Category:Video games set in Istanbul]]
+[[Category:James Bond video games]]
+[[Category:Single-player video games]]
+[[Category:Tactical shooters]]
+[[Category:The World Is Not Enough]]
+[[Category:Top-down video games]]
+[[Category:Video games developed in the United States]]
+[[Category:Video games set in Azerbaijan]]
+[[Category:Video games set in Kazakhstan]]
+[[Category:Video games set in London]]
+[[Category:Video games set in Spain]]
+[[Category:Video games set in Turkey]]
+[[Category:Video games with oblique graphics]]
+[[Category:2n Productions games]]

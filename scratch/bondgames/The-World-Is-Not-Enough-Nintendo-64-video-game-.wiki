@@ -1,0 +1,177 @@
+{{Short description|Nintendo 64 video game}}
+{{Use mdy dates|date=November 2021}}
+{{Good article}}
+{{Infobox video game
+| title = The World Is Not Enough
+| image = The World Is Not Enough Coverart.png
+| developer = [[Eurocom]]
+| publisher = [[Electronic Arts]]
+| designer = {{Plainlist|
+* Bill Beacham
+* Kev Harvey
+* Aaron Jenkins
+}}
+| programmer = {{Plainlist|
+* Robert Watkins
+* Mark Duffill
+* Simon Mills
+}}
+| composer = Neil Baldwin
+| series = ''[[James Bond in video games|James Bond]]''
+| platforms = [[Nintendo 64]]
+| released = {{Vgrelease|NA|October 17, 2000|EU|December 8, 2000}}
+| genre = [[First-person shooter]]
+| modes = [[Single-player video game|Single-player]], [[Multiplayer video game|multiplayer]]
+}}
+
+'''''The World Is Not Enough''''' is a 2000 [[first-person shooter]] video game developed by [[Eurocom]] and published by [[Electronic Arts]]. It is based on the  [[The World Is Not Enough|1999 film of the same name]]. It was released for the [[Nintendo 64]] in [[North America]] on October 17, 2000 and in [[Europe]] on December 8, 2000. The game was also [[The World Is Not Enough (PlayStation video game)|released]] for the [[PlayStation (console)|PlayStation]] in November. The game features a [[Single-player video game|single-player]] campaign in which players assume the role of secret agent [[James Bond]] as he fights to stop a terrorist from triggering a [[nuclear meltdown]] in the waters of [[Istanbul]]. It includes a [[split screen (video games)|split-screen]] [[multiplayer video game|multiplayer]] mode where up to four players can compete in different types of [[deathmatch (video games)|deathmatch]] and objective-based games.
+
+The game runs on an [[game engine|engine]] that was adapted to take advantage of the Nintendo 64 strengths. Although Eurocom used original production material to recreate the environments of the film, the company added elements to help the game design, including a mission that takes place in the [[London Underground]]. The game supports the Nintendo 64 [[Expansion Pak]], which provides enhanced graphics and visual effects. A [[Controller Pak]] is required to [[Saved game|save]] the player's progress through the game.
+
+''The World Is Not Enough'' received generally positive reviews from critics and was frequently compared to [[Rare (company)|Rare]]'s Nintendo 64 first-person shooters ''[[GoldenEye 007 (1997 video game)|GoldenEye 007]]'' and ''[[Perfect Dark]]''. It was considered superior to its PlayStation counterpart because of its level design and inclusion of a multiplayer mode. Critics generally praised the game's graphics and smooth [[frame rate]] with many critics lauding it as one of the console's most technically impressive titles, but criticized its weak and inconsistent enemy [[Artificial intelligence in video games|artificial intelligence]]. In the United States, the game sold more than one million copies.
+
+==Gameplay==
+[[File:TWINE N64 Combat.png|thumb|left|Combat takes place in real-time and from a [[First-person (video games)|first-person]] perspective. The green and blue bars at the top left corner represent the player's [[Health (gaming)|health]] and armor levels respectively. Ammunition information is displayed at the bottom right corner.]]
+''The World Is Not Enough'' is a [[first-person shooter]] based on [[Metro-Goldwyn-Mayer|MGM]]'s 1999 ''[[James Bond]]'' [[The World Is Not Enough|film of the same name]], where the player assumes the role of [[James Bond (literary character)|James Bond]] through 14 missions with three difficulty settings.<ref name="IGN review"/> The player can run, jump, crouch, swim, and dive underwater for a short period. One mission is played as a [[Shoot 'em up#Types|rail shooter]] in which the player skis down a mountain.<ref name="GamePro review"/> In each mission, the player must complete many objectives while encountering enemies controlled by the game's [[Artificial intelligence in video games|artificial intelligence]]. Objectives range from rescuing hostages to destroying vehicles and collecting items.<ref name="Prima Guide Walkthroughs"/> Some objectives require the player to use numerous high-tech gadgets. For example, the Keypad Decrypter can be used to decode lock systems, while the ID scanner is useful to copy fingerprints.<ref name="Prima Guide Weapons"/>
+
+Mission objectives vary in quantity and length depending on the difficulty setting chosen.<ref name="IGN review"/> Difficulty settings affect enemy accuracy and damage, and the availability of the game's optional automatic aiming assistance.<ref name="Prima Guide Tactics"/> The player can use several weapons, including [[pistol]]s, [[submachine gun]]s, [[assault rifle]]s, a [[shotgun]], a [[sniper rifle]], a [[grenade launcher]], and [[rocket launcher]]s.<ref name="Prima Guide Weapons"/> Weapons must be reloaded after a certain number of shots and have alternate fire modes.<ref name="Prima Guide Tactics"/><ref name="Prima Guide Weapons"/> For example, the Wolfram P2K can be used with or without a [[silencer (firearms)|silencer]].<ref name="Prima Guide Weapons"/> In addition, the player always carries a wristwatch which may be used to stun enemies, fire tranquilizer darts, throw a grappling hook, or emit a [[laser]] beam to open locks.<ref name="Prima Guide Weapons"/> In some missions, the player can use [[night vision]] or [[X-ray vision]] glasses to outsmart enemies.<ref name="IGN review"/> The player has a certain amount of [[Health (gaming)|health]] which decreases when attacked and hit by enemies. There are no health-recovery items, although [[body armor]]s can be acquired to provide a secondary health bar.<ref name="Prima Guide Tactics"/> A [[Nintendo 64]] [[Controller Pak]] is required to [[Saved game|save]] the player's progress through the game.<ref name="N64 Magazine review"/>
+
+In addition to the [[Single-player video game|single-player]] missions, ''The World Is Not Enough'' features a [[Multiplayer video game|multiplayer]] mode where up to four players can compete against each other in different game types, ranging from the traditional [[deathmatch (video games)|deathmatch]] to objective-based games such as [[capture the flag]] or [[King of the Hill (game)|king of the hill]].<ref name="Prima Guide Multiplayer"/> Other game types include Last Agent Standing, where players begin the game with a finite number of lives and must survive until the opposing players exhaust their lives, and Uplink, in which players must find and touch uplink units scattered in key locations of the map to score points.<ref name="Prima Guide Multiplayer"/> Multiplayer games can be played on 14 different maps and can include [[Video game bot|bots]].<ref name="IGN review"/> Bots' appearances and amount of health can be changed to match player preference.<ref name="Manual Multiplayer"/>
+
+==Plot==
+The game's plot closely follows that of the [[The World Is Not Enough|film]]. [[Secret Intelligence Service|MI6]] agent [[James Bond]] is sent to Spain to meet a banker and retrieve money for [[List of James Bond allies|Robert King]], a friend of [[M (James Bond)|M]] who purchased a classified report from the Russian Atomic Energy Department. The report, which was taken from a dead MI6 agent, is believed to contain information about terrorists who have attacked King's oil pipeline in Kazakhstan. Bond asks the banker who killed the MI6 agent, but the banker is killed by an assassin. Bond escapes with the money and takes it to the MI6 headquarters in London. A terrorist group launches an attack on the MI6 headquarters, prompting Bond to pursue the assassin through a [[London Underground]] station. Bond offers her protection, but she ultimately kills herself by exploding a hot air balloon. MI6 traces the recovered money to a [[KGB]] agent-turned-terrorist known as Renard, who previously kidnapped King's daughter, Elektra. M assigns Bond to protect Elektra, who is about to oversee the construction of an oil pipeline in Azerbaijan.
+
+During a tour of the pipeline's proposed route in the mountains, Bond and Elektra are attacked by a hit squad in armed, paraglider-equipped snowmobiles. Bond suspects the attack was caused by Elektra's head of security, Davidov, and decides to kill him before taking his place on a flight to a Russian [[Intercontinental ballistic missile|ICBM]] base in Kazakhstan. There, Bond meets nuclear physicist [[Christmas Jones]] and learns that Renard managed to steal plutonium from a nuclear warhead. To get a lead on where Renard might be hiding, Bond visits a former Russian mafia adversary, Valentin Zukovsky, who reveals that Elektra was in exchange for the use of a submarine being captained by his nephew. Jones realises that if Renard were to insert the stolen plutonium into the submarine's nuclear reactor, the resulting nuclear explosion would destroy Istanbul, sabotaging the Russians' oil pipeline in the [[Bosporus]]. In Istanbul, Bond and Jones are captured by Elektra's henchmen. Jones is taken aboard the submarine, while Bond is taken to the [[Maiden's Tower]]. With the help of Zukovsky, Bond kills Elektra and boards the submarine. Ultimately, Bond finds Renard in the submarine's reactor and kills him before escaping with Jones.
+
+==Development==
+[[File:Nintendo-64-wController-L.jpg|thumb|right|''The World Is Not Enough'' runs on an engine that takes advantage of the [[Nintendo 64]] strengths.]]
+''The World Is Not Enough'' was developed by [[Eurocom]] and published by [[Electronic Arts]], which had formed a partnership with MGM in late 1998 to produce games based on MGM's [[Intellectual property|intellectual properties]].<ref name="EA and MGM"/> At the time, Eurocom had started development on a "very scalable" [[First-person (video games)|first-person]] [[Three-dimensional space|3D]] [[game engine|engine]] intended for [[Sixth generation of video game consoles|sixth generation]] platforms like the [[GameCube]].<ref name="Eurocom on Bond"/><ref name="N64 Magazine preview 2"/> After Electronic Arts acquired the ''[[James Bond in video games|James Bond]]'' game licence, Eurocom showed them their engine and soon both companies started working together to produce the next Bond-licensed game.<ref name="Eurocom on Bond"/> This happened when Eurocom was still working on the Nintendo 64 version of ''[[Mortal Kombat 4]]''.<ref name="Eurocom on Bond"/>
+
+The engine was created and adapted to take advantage of the Nintendo 64 strengths.<ref name="Eurocom on Bond"/> It is capable of delivering a fast and smooth [[frame rate]] while offering particle explosions, dynamic lighting effects, long [[draw distance]]s, and other environmental effects like fog or smoke.<ref name="Answering to Q"/> It also supports the Nintendo 64 [[Expansion Pak]], which provides enhanced graphics and visual effects.<ref name="IGN review"/> Focusing on the game's frame rate and technical aspects was a major priority because developers wanted ''The World Is Not Enough'' to be the fastest first-person game on the Nintendo 64 system. According to Eurocom, "[we] don't think we could push it much more than we have".<ref name="Eurocom on Bond"/><ref name="Answering to Q"/> In addition, with ''The World Is Not Enough'' being Eurocom's last Nintendo 64 game, the company saw it as "a nice swan song to go out on."<ref name="Eurocom on Bond"/>
+
+To help Eurocom authentically recreate the environments of the film, the filmmakers provided Eurocom with original production material, including concept drawings, blueprints, and photographs of the film's sets.<ref name="N64 Magazine preview 1"/> Although the game closely follows the plot of the film, the developers added elements to help the game design. For example, the London Underground level, where the player must rescue several hostages, is not part of the film.<ref name="GSpot hands-On"/> However, the boat chase scene is not playable in the game due to limitations in the Nintendo 64 cartridge size. According to the game's producer Bill Beacham, vehicle-based gameplay would require the creation of a separate engine that would possibly compromise the game's base first-person engine.<ref name="GSpot hands-On"/> The characters' faces were [[Digitizing|digitised]] from the film's actors, but impersonators provided voiced dialogue. One exception was English actor [[John Cleese]], who reprised his role as [[Q (James Bond)#John Cleese: 1999 (as "R"), 2002 (as Q)|R]].<ref name="N64 Magazine preview 1"/>
+
+Electronic Arts secured a "Teen" rating from the [[Entertainment Software Rating Board|ESRB]] to avoid intense portrayals of violence because they felt that fast action and memorable spy moments were what the Bond legacy had always stood for.<ref name="Answering to Q"/> In May 2000, the game was presented at the [[Electronic Entertainment Expo]] in Los Angeles.<ref name="More Bond"/> At the time, development of the game was nearly 75% complete.<ref name="More Bond"/> The game was released on a 32[[Megabyte|MB]] cartridge and includes over 500 lines of speech, which was compressed using [[Factor 5]]'s technology.<ref name="Eurocom on Bond"/> The game was initially intended to be released on November 20, 2000, in North America, but was ultimately released one month earlier on October 17, 2000, because Eurocom managed to finish work on the game quicker than expected.<ref name="Release date"/> In Europe, the game was released on December 8, 2000.<ref name="N64 Magazine review"/> A different game, also titled ''[[The World Is Not Enough (PlayStation video game)|The World Is Not Enough]]'', was released for the [[PlayStation (console)|PlayStation]] in November 2000.<ref name="TWINE PS1 review"/>
+
+==Reception==
+{{Video game reviews
+| MC = 81/100<ref name="Metacritic"/>
+| Allgame = 4.5/5<ref name="AllGame review"/>
+| Edge = 7/10<ref name="Edge review"/>
+| GamePro = 4.5/5<ref name="GamePro review"/>
+| GameRev = B<ref name="GameRev review"/>
+| GSpot = 7.4/10<ref name="GSpot review"/>
+| GameZone = 8/10<ref name="GameZone review"/>
+| IGN = 8.9/10<ref name="IGN review"/>
+| NGen = 3/5<ref name="NGen review"/>
+| NP = 8.1/10<ref name="NP review"/>
+| N64 = 88%<ref name="N64 Magazine review"/>
+}}
+
+''The World Is Not Enough'' received generally positive reviews from critics, who frequently compared it to [[Rare (company)|Rare]]'s critically acclaimed Nintendo 64 games ''[[GoldenEye 007 (1997 video game)|GoldenEye 007]]'' and ''[[Perfect Dark]]''.<ref name="IGN review"/><ref name="N64 Magazine review"/><ref name="Edge review"/> It was also considered superior to its PlayStation counterpart because of its level design and inclusion of a multiplayer mode.<ref name="TCE review"/> Matt Casamassina of [[IGN]] felt that Eurocom did "an amazing job recreating the cinema experience for the Nintendo 64 owner, perhaps more so than any other movie-to-game license to date."<ref name="IGN review"/> In a less positive review, Shane Satterfield of ''[[GameSpot]]'' stated that ''The World Is Not Enough'' "belongs in the upper echelon of Nintendo 64 software", but it lacks the gameplay delicacy of ''GoldenEye 007'' to reach classic status.<ref name="GSpot review"/> ''[[Edge (magazine)|Edge]]'' concluded that, while the game lacks innovative elements, it "still offers plenty of enjoyment for those who have exhausted Rare's masterpieces."<ref name="Edge review"/> ''[[Next Generation (magazine)|Next Generation]]'' agreed, stating that ''The World Is Not Enough'' is far from a bad game.<ref name="NGen review"/>
+
+Its graphics were widely praised for long draw distances and smooth frame rates.<ref name="IGN review"/><ref name="Edge review"/> Critics also noted the game's believable environments, texture quality, animations, and highly detailed explosions and particle effects.<ref name="IGN review"/><ref name="GSpot review"/><ref name="GameRev review"/> The soundtrack and sound effects received similar praise.<ref name="IGN review"/><ref name="GamePro review"/> ''[[GameRevolution]]'' said that the background themes "make for excellent espionage", while ''[[Nintendo Power]]'' observed that the spoken dialogue "adds a cinematic touch" that ''GoldenEye 007'' does not feature.<ref name="GameRev review"/><ref name="NP review"/> ''[[GamePro]]'' stated similar pros, but criticised the plot for being confusing and "too complex for its own good."<ref name="GamePro review"/>
+
+''IGN'' praised the single-player missions for their variety and great enemy placement, noting that each scenario is different in both design and gameplay mechanics. The reviewer especially highlighted the last mission due to its underwater sections, as it requires players to find hidden air pockets so that Bond can breathe and stay alive.<ref name="IGN review"/> In contrast, Mark Green of ''[[N64 Magazine]]'' remarked that the missions were fairly scripted, limiting the player's options and experimentation.<ref name="N64 Magazine review"/> Similarly, ''Edge'' said that the game's "on the fly" mission objectives give the game a fair amount of rigidity. The reviewer explained that, while ''GoldenEye 007'' or ''Perfect Dark'' set their mission objectives at the beginning of each level, thus giving players a chance to tackle the mission as they wish, ''The World Is Not Enough'' "cannonballs" the player "from one objective to the next with little room for invention of improvisation."<ref name="Edge review"/> Nevertheless, he highlighted the Night Watch level for being "fantastically stealth-centric".<ref name="Edge review"/>
+
+The game's weak and inconsistent enemy artificial intelligence was a common subject of criticism.<ref name="GameZone review"/><ref name="GSpot review"/><ref name="IGN review"/><ref name="N64 Magazine review"/> ''GameSpot'' described the behaviour of enemies as "They see, they run, they shoot - and that's about it", while ''N64 Magazine'' noted that they regularly fail to spot the player even when standing next to them.<ref name="N64 Magazine review"/> The gadgetry was seen as a useful gameplay feature, with [[AllGame]] noting that players need to figure out the proper way to use each gadget.<ref name="AllGame review"/><ref name="IGN review"/> Although GameZone highlighted the multiplayer mode for its [[replay value]] and teamplay options, critics agreed that the game felt short in comparison to ''Perfect Dark''.<ref name="GameZone review"/><ref name="IGN review"/><ref name="GameRev review"/> The artificial intelligence of multiplayer bots was also a frequent criticism.<ref name="GSpot review"/><ref name="IGN review"/><ref name="GameZone review"/> According to ''GameSpot'', "they generally amount to nothing more than fragging".<ref name="GSpot review"/> The website would later nominate ''The World Is Not Enough'' for its annual Most Disappointing Game award, calling it "far from the ''GoldenEye 007''/''Perfect Dark'' killer that it was made out to be."<ref name="GSpot most disappointing"/>
+
+As of December 2007, ''The World Is Not Enough'' has sold more than one million copies in the United States.<ref name="Magic Box"/>
+
+==Notes==
+{{Notelist}}
+
+==References==
+{{Reflist|refs=
+
+<!--CITE BOOK-->
+
+<ref name="Manual Multiplayer">{{Cite book |editor=Eurocom |editor-link=Eurocom |title=The World Is Not Enough Instruction Booklet |chapter=Multiplayer |date=2000 |publisher=[[Electronic Arts]] |pages=18–21}}</ref>
+
+<ref name="Prima Guide Tactics">{{Cite book |title=The World Is Not Enough Prima's Official Game guide |chapter=N64 General Tactics |author=Anthony Lynch |date=November 30, 2000 |publisher=[[Prima Games]] |isbn=978-0-7615-2974-3 |pages=3–4}}</ref>
+
+<ref name="Prima Guide Weapons">{{Cite book |title=The World Is Not Enough Prima's Official Game guide |chapter=N64 Weapons & Gadgets |author=Anthony Lynch |date=November 30, 2000 |publisher=[[Prima Games]] |isbn=978-0-7615-2974-3 |pages=5–7}}</ref>
+
+<ref name="Prima Guide Walkthroughs">{{Cite book |title=The World Is Not Enough Prima's Official Game guide |chapter=N64 Mission Walkthroughs |author=Anthony Lynch |date=November 30, 2000 |publisher=[[Prima Games]] |isbn=978-0-7615-2974-3 |pages=8–54}}</ref>
+
+<ref name="Prima Guide Multiplayer">{{Cite book |title=The World Is Not Enough Prima's Official Game guide |chapter=N64 Multiplayer Strategies |author=Anthony Lynch |date=November 30, 2000 |publisher=[[Prima Games]] |isbn=978-0-7615-2974-3 |pages=55–58}}</ref>
+
+<!--CITE MAGAZINE-->
+
+<ref name="N64 Magazine preview 1">{{Cite magazine |title=The World Is Not Enough |magazine=[[N64 Magazine]] |publisher=[[Future Publishing]] |issue=44 |pages=28–33 |date=August 2000}}</ref>
+
+<ref name="N64 Magazine preview 2">{{Cite magazine |title=The World Is Not Enough |magazine=[[N64 Magazine]] |publisher=[[Future Publishing]] |issue=48 |pages=6–9 |date=December 2000}}</ref>
+
+<ref name="N64 Magazine review">{{Cite magazine |title=The World Is Not Enough |magazine=[[N64 Magazine]] |publisher=[[Future Publishing]] |issue=49 |pages=56–60 |author=Mark Green |date=Christmas 2000}}</ref>
+
+<ref name="Edge review">{{Cite magazine |title=The World Is Not Enough |magazine=[[Edge (magazine)|Edge]] |publisher=[[Future Publishing]] |issue=92 |pages=96–97 |date=Christmas 2000}}</ref>
+
+<ref name="NGen review">{{Cite magazine |title=The World Is Not Enough |magazine=[[Next Generation (magazine)|Next Generation]] |publisher=[[Imagine Media]] |issue=72 |page=119 |author=Kevin Rice |date=December 2000}}</ref>
+
+<ref name="NP review">{{Cite magazine |title=The World Is Not Enough |magazine=[[Nintendo Power]] |publisher=[[Nintendo of America]] |issue=139 |page=145 |date=December 2000}}</ref>
+
+<!--CITE WEB-->
+
+<ref name="EA and MGM">{{Cite web |access-date=December 9, 2016 |url=http://uk.ign.com/articles/1998/11/21/ea-and-mgm-bond |title=EA and MGM Bond |website=[[IGN]] |date=November 20, 1998 |archive-url=https://web.archive.org/web/20121026141429/http://www.ign.com/articles/1998/11/21/ea-and-mgm-bond |archive-date=October 26, 2012 |url-status=live}}</ref>
+
+<ref name="Eurocom on Bond">{{Cite web |url=http://www.ign.com/articles/2000/08/05/eurocom-on-bond |title=Eurocom on Bond |website=[[IGN]] |date=August 4, 2000 |access-date=December 6, 2016 |archive-url=https://web.archive.org/web/20161207113103/http://www.ign.com/articles/2000/08/05/eurocom-on-bond |archive-date=December 7, 2016 |url-status=live}}</ref>
+
+<ref name="Answering to Q">{{Cite web |url=http://www.ign.com/articles/2000/04/21/answering-to-q |title=Answering to Q |website=[[IGN]] |date=April 20, 2000 |access-date=December 6, 2016 |archive-url=https://web.archive.org/web/20161207113202/http://www.ign.com/articles/2000/04/21/answering-to-q |archive-date=December 7, 2016 |url-status=live}}</ref>
+
+<ref name="More Bond">{{Cite web |url=http://www.ign.com/articles/2000/05/27/more-bond-for-your-buck |title=More Bond for your Buck |website=[[IGN]] |date=May 26, 2000 |access-date=December 6, 2016 |archive-url=https://web.archive.org/web/20161207113256/http://www.ign.com/articles/2000/05/27/more-bond-for-your-buck |archive-date=December 7, 2016 |url-status=live}}</ref>
+
+<ref name="Release date">{{Cite web|url=http://www.ign.com/articles/2000/10/03/00-17 |title=00-17 |website=[[IGN]] |date=October 2, 2000 |access-date=December 25, 2016 |archive-url=https://web.archive.org/web/20161225102937/http://www.ign.com/articles/2000/10/03/00-17 |archive-date=December 25, 2016 |url-status=live}}</ref>
+
+<ref name="GSpot hands-On">{{Cite web|url=http://www.gamespot.com/articles/the-world-is-not-enough-hands-on/1100-2617411/ |title=The World is not Enough Hands-On |website=[[GameSpot]] |date=August 18, 2000 |access-date=December 19, 2016 |archive-url=https://web.archive.org/web/20170103223450/http://www.gamespot.com/articles/the-world-is-not-enough-hands-on/1100-2617411/ |archive-date=January 3, 2017 |url-status=live}}</ref>
+
+<ref name="TWINE PS1 review">{{Cite web |url=http://www.ign.com/articles/2000/11/09/the-world-is-not-enough |title=The World is Not Enough |website=[[IGN]] |author=Doug Perry |date=November 8, 2000 |access-date=December 8, 2016 |archive-url=https://web.archive.org/web/20140222071216/http://www.ign.com/articles/2000/11/09/the-world-is-not-enough |archive-date=February 22, 2014 |url-status=live}}</ref>
+
+<ref name="IGN review">{{Cite web |url=http://www.ign.com/articles/2000/10/19/the-world-is-not-enough-3 |title=The World is Not Enough |author=Matt Casamassina |author-link=Matt Casamassina |website=[[IGN]] |date=October 18, 2000 |access-date=January 7, 2017 |archive-url=https://web.archive.org/web/20160111235014/http://www.ign.com/articles/2000/10/19/the-world-is-not-enough-3 |archive-date=January 11, 2016 |url-status=live}}</ref>
+
+<ref name="GSpot review">{{Cite web |url=http://www.gamespot.com/reviews/the-world-is-not-enough-review/1900-2646306/ |title=The World is not Enough Review |author=Shane Satterfield |website=[[GameSpot]] |date=October 27, 2000 |access-date=January 7, 2017 |archive-url=https://web.archive.org/web/20170106173558/http://www.gamespot.com/reviews/the-world-is-not-enough-review/1900-2646306/ |archive-date=January 6, 2017 |url-status=live}}</ref>
+
+<ref name="GameRev review">{{Cite web |url=http://www.gamerevolution.com/review/the-world-is-not-enough |title=The World is Not Enough Review |author=Joe |website=[[Game Revolution]] |date=November 1, 2000 |access-date=January 7, 2017 |archive-url=https://web.archive.org/web/20160303235653/http://www.gamerevolution.com/review/the-world-is-not-enough |archive-date=March 3, 2016 |url-status=live}}</ref>
+
+<ref name="GamePro review">{{Cite magazine |url=http://gamepro.com/nintendo/n64/games/reviews/7262.shtml |title=The World Is Not Enough Review |author=Human Tornado |magazine=[[GamePro]]|date=November 3, 2000 |access-date=November 30, 2013 |archive-url=https://web.archive.org/web/20050206234308/http://gamepro.com/nintendo/n64/games/reviews/7262.shtml |archive-date=February 6, 2005 |url-status=dead}}</ref>
+
+<ref name="Metacritic">{{Cite web |url=https://www.metacritic.com/game/007-the-world-is-not-enough/critic-reviews/?platform=nintendo-64 |title=007: The World is Not Enough |website=[[Metacritic]] |access-date=January 7, 2017 |archive-url=https://web.archive.org/web/20160418235346/http://www.metacritic.com/game/nintendo-64/007-the-world-is-not-enough |archive-date=April 18, 2016 |url-status=live}}</ref>
+
+<ref name="AllGame review">{{Cite web |url=http://www.allgame.com/game.php?id=24406&tab=review |title=The World Is Not Enough - Review |author=Tom Carroll |website=[[Allgame]] |access-date=December 7, 2014 |archive-url=https://web.archive.org/web/20141207165840/http://www.allgame.com/game.php?id=24406&tab=review |archive-date=December 7, 2014 |url-status=dead}}</ref>
+
+<ref name="GameZone review">{{Cite web |url=http://n64.gamezone.com/gzreviews/r15308.htm |title=The World Is Not Enough Review - Nintendo 64 |author=Kemuel |website=GameZone |date=February 19, 2001 |access-date=November 30, 2013 |archive-url=https://web.archive.org/web/20080411164834/http://n64.gamezone.com/gzreviews/r15308.htm |archive-date=April 11, 2008 |url-status=dead}}</ref>
+
+<ref name="TCE review">{{Cite web |url=http://www.cincinnati.com/freetime/games/reviews/122000_twine.html |title=Bond video game will thrill spy fans |author=Marc Saltzman |website=[[The Cincinnati Enquirer]] |date=December 20, 2000 |access-date=December 1, 2013 |archive-url=https://web.archive.org/web/20080511203021/http://www.cincinnati.com/freetime/games/reviews/122000_twine.html |archive-date=May 11, 2008 |url-status=dead}}</ref>
+
+<ref name="GSpot most disappointing">{{Cite web |url=http://gamespot.com/gamespot/features/video/bestof_2000/p5_02.html |title=Best and Worst of 2000 |website=[[GameSpot]] |archive-url=https://web.archive.org/web/20010618180423/http://gamespot.com/gamespot/features/video/bestof_2000/p5_02.html |archive-date=June 18, 2001 |url-status=dead}}</ref>
+
+<ref name="Magic Box">{{Cite web |url=http://www.the-magicbox.com/Chart-USPlatinum.shtml |title=US Platinum Videogame Chart |website=The Magic Box |date=December 27, 2007 |access-date=January 10, 2017 |archive-url=https://web.archive.org/web/20160429193605/http://www.the-magicbox.com/Chart-USPlatinum.shtml |archive-date=April 29, 2016 |url-status=live}}</ref>
+
+}}
+
+==External links==
+{{Portal|Video games}}
+* {{moby game|id=/n64/007-the-world-is-not-enough|name=''007: The World Is Not Enough''}}
+
+{{The World Is Not Enough}}
+{{James Bond video games}}
+{{Eurocom}}
+
+{{DEFAULTSORT:World Is Not Enough, The}}
+[[Category:2000 video games]]
+[[Category:Electronic Arts games]]
+[[Category:First-person shooters]]
+[[Category:James Bond video games]]
+[[Category:MGM Interactive games]]
+[[Category:Multiplayer and single-player video games]]
+[[Category:Nintendo 64 games]]
+[[Category:Nintendo 64-only games]]
+[[Category:The World Is Not Enough|Video game]]
+[[Category:Video games developed in the United Kingdom]]
+[[Category:Video games set in Azerbaijan]]
+[[Category:Video games set in Kazakhstan]]
+[[Category:Video games set in London]]
+[[Category:Video games set in Spain]]
+[[Category:Video games set in Turkey]]
+[[Category:Video games set in the United Kingdom]]
+[[Category:Eurocom games]]
+[[Category:Video games set in Istanbul]]
