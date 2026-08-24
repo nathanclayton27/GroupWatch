@@ -133,6 +133,7 @@ h1 em{font-style:normal;color:var(--signal)}
 .stackrow .layer{position:absolute;left:0;right:0;display:flex;gap:1px;
   height:var(--layerH,35px);align-items:flex-end;margin:0}
 .stackrow .tick.on.full{align-self:flex-start;height:var(--fillH)}
+.stackrow .tick.on.dropfill{align-self:flex-start;height:var(--dropH)}
 .stackrow .tick.veil{background:transparent}
 .pacer{position:absolute;top:-5px;bottom:-5px;width:1px;background:var(--ink-3);z-index:60;pointer-events:none}
 .pacer::before{content:"";position:absolute;top:0;left:-2px;width:5px;height:5px;background:var(--ink-3)}
@@ -3009,9 +3010,22 @@ function paintStack(){
         // through the stretched mark of a reader behind it, so drop the nub
         // wherever someone deeper in the stack is still showing.
         const veil = !on && deepest[idx] > i;
+        // When the next ticked layer sits so deep that this band can't
+        // reach it, the band stretches down to that layer's top — no
+        // background ever shows between two ticked bands (Nathan's rule)
+        let drop = 0;
+        if(on && !full){
+          for(let j = i + 1; j < reads.length; j++){
+            if(reads[j].has(ORDER[idx])){
+              if((j - i) * offset > LAYER_H) drop = (j - i) * offset;
+              break;
+            }
+          }
+        }
         const cls = 'tick'+(TIERED&&TIEROF[idx]===1?' t1':'')+(on?' on':'')
-                  + (full?' full':'')+(veil?' veil':'');
+                  + (full?' full':'')+(veil?' veil':'')+(drop?' dropfill':'');
         const sty = (WEIGHTED ? '--w:'+WEIGHT[idx]+';' : '')
+                  + (drop ? '--dropH:'+drop+'px;' : '')
                   + (on ? 'background:'+color : '');
         ticks += '<span class="'+cls+'" data-i="'+idx+'"'
               + (sty?' style="'+sty+'"':'')+'></span>';
