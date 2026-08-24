@@ -3371,6 +3371,24 @@ let MANIFEST = [
     },
     "total": 10,
     "scheduled": true
+  },
+  {
+    "slug": "spawn",
+    "media": [
+      "comics"
+    ],
+    "title": "Spawn",
+    "subtitle": "Blake Whitlow's reading order",
+    "kind": "comics",
+    "year": "1992–",
+    "blurb": "829 issues of Spawn and its spin-offs, in the order they are meant to be read rather than the order they came out.",
+    "accent": "#4412A6",
+    "accentDark": "#9B7BEE",
+    "unit": {
+      "one": "issue",
+      "many": "issues"
+    },
+    "total": 829
   }
 ];
 
@@ -3390,7 +3408,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '803e0631e9db';
+const BUILD = 'df1ed5b46796';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
