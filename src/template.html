@@ -324,10 +324,19 @@ footer a{color:var(--steel)}
 .hide{display:none!important}
 
 /* property switcher, pinned top left */
-/* pinned to the content column's left edge, not the viewport corner:
-   .wrap is 900px centered with 20px side padding, so the column's text
-   starts at (50% - 430px) on wide screens and 20px otherwise */
-.switcher{position:fixed;top:14px;left:max(20px, calc(50% - 430px));z-index:80}
+/* the masthead: Clubbothy + wordmark + switcher, pinned to the content
+   column's left edge, not the viewport corner — .wrap is 900px centered
+   with 20px side padding, so the column starts at (50% - 430px) wide
+   and 20px otherwise */
+.mast{position:fixed;top:14px;left:max(20px, calc(50% - 430px));z-index:80;
+  display:flex;align-items:center;gap:14px}
+.mhome{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+.mast-t{font-weight:700;font-size:14px;letter-spacing:-.01em}
+.mhome:hover .mast-t{color:var(--signal)}
+.eye{display:grid;grid-template-columns:repeat(14,2px);grid-auto-rows:2px}
+.eye i{display:block}
+.eye i.k{background:var(--ink)}
+.switcher{position:relative;z-index:80}
 .switcher > button{display:flex;align-items:center;gap:9px;background:var(--card);
   border:1px solid var(--rule-2);padding:8px 12px;font-size:13px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
 .pdot{width:8px;height:8px;border-radius:2px;background:var(--signal);flex:none}
@@ -381,8 +390,8 @@ footer a{color:var(--steel)}
 @media (max-width:560px){
   /* left/top from the desktop fixed rule survive into position:relative and
      shove the full-width box 14px off the right edge of every phone screen */
-  .switcher{position:relative;top:auto;left:auto;padding:12px 14px 0}
-  .switcher .pmenu{left:14px;right:14px;min-width:0;max-width:none}
+  .mast{position:relative;top:auto;left:auto;padding:12px 14px 0;flex-wrap:wrap}
+  .mast .pmenu{left:14px;right:14px;min-width:0;max-width:none}
 }
 
 /* first-visit picker — shown only when no property is chosen or remembered */
@@ -497,8 +506,7 @@ footer a{color:var(--steel)}
 
 <div class="homep hide" id="homev">
   <div class="homep-in">
-    <div class="lbl">GroupWatch</div>
-    <h1 class="splash-h">Your shelf</h1>
+    <h1 class="splash-h" style="margin-top:34px">Your shelf</h1>
     <div id="hshelf"></div>
     <div class="hsec">Tonight</div>
     <div class="tonight" id="htonight"></div>
@@ -510,11 +518,17 @@ footer a{color:var(--steel)}
   </div>
 </div>
 
-<div class="switcher" id="switcher">
-  <button id="b-prop" aria-haspopup="listbox" aria-expanded="false">
-    <span class="pdot" id="pdot"></span><span id="b-prop-t">GroupWatch</span><span class="chev">▾</span>
-  </button>
-  <div class="pmenu hide" id="pmenu" role="listbox" aria-label="Choose what to track"></div>
+<div class="mast" id="mast">
+  <a class="mhome" id="mast-home" href="?home" title="Your shelf" aria-label="GroupWatch — your shelf">
+    <span class="eye" id="clubbothy" aria-hidden="true"></span>
+    <span class="mast-t">GroupWatch</span>
+  </a>
+  <div class="switcher" id="switcher">
+    <button id="b-prop" aria-haspopup="listbox" aria-expanded="false">
+      <span class="pdot" id="pdot"></span><span id="b-prop-t">GroupWatch</span><span class="chev">▾</span>
+    </button>
+    <div class="pmenu hide" id="pmenu" role="listbox" aria-label="Choose what to track"></div>
+  </div>
 </div>
 
 <div class="gate hide" id="gate">
@@ -1212,6 +1226,113 @@ async function onSession(session){
   // later load exits on the flag before any network
   setTimeout(backfillSync, 1200);
 }
+
+/* ------------------------------------------------------------ clubbothy */
+// The masthead eye, per the frozen spec: 14x8 almond, 4x4 iris disc at
+// 70% signal with its corners knocked, 2x2 ink pupil carrying one pixel
+// of parallax, the lid line riding the top of the iris, blink-anywhere
+// on press-hold, hot tracking with a ~70px looking-at-YOU radius.
+// Reduced motion pins him center and still; touch glances at the last
+// tap, then drifts back. A static Clubbothy is a bug — every instance
+// of him, anywhere, tracks the cursor.
+(function(){
+  const host = $('clubbothy');
+  if(!host) return;
+  const SHAPE = [
+    '00001111110000',
+    '00110000001100',
+    '01000000000010',
+    '10000000000001',
+    '10000000000001',
+    '01000000000010',
+    '00110000001100',
+    '00001111110000'];
+  const PX = 14, BX = [2, 8], BY = [1, 3];
+  for(const r of SHAPE) for(let i = 0; i < PX; i++){
+    const el = document.createElement('i');
+    if(r[i] === '1') el.className = 'k';
+    host.appendChild(el);
+  }
+  const cells = [...host.children];
+  const E = { lx: 0, ly: 0, closed: false, drift: null };
+  function span(r){
+    const a = SHAPE[r].indexOf('1'), b = SHAPE[r].lastIndexOf('1');
+    return a < 0 ? null : [a + 1, b - 1];
+  }
+  function paint(ox, oy, defl){
+    cells.forEach(el=>{ if(!el.classList.contains('k')) el.style.background = ''; });
+    if(E.closed){
+      for(const r of [3, 4]){
+        const sp = span(r);
+        if(!sp) continue;
+        for(let col = sp[0]; col <= sp[1]; col++){
+          const el = cells[r * PX + col];
+          if(el && !el.classList.contains('k'))
+            el.style.background = r === 3 ? 'var(--ink)'
+              : 'color-mix(in srgb, var(--ink) 30%, var(--card))';
+        }
+      }
+      return;
+    }
+    const ix = Math.max(BX[0], Math.min(BX[1], 5 + ox));
+    const iy = Math.max(BY[0], Math.min(BY[1], 2 + oy));
+    for(let r = iy; r < iy + 4; r++) for(let col = ix; col < ix + 4; col++){
+      const dr = r - iy, dc = col - ix;
+      if((dr === 0 || dr === 3) && (dc === 0 || dc === 3)) continue;
+      const el = cells[r * PX + col];
+      if(el && !el.classList.contains('k'))
+        el.style.background = 'color-mix(in srgb, var(--signal) 70%, var(--card))';
+    }
+    const px = ix + 1 + (defl && ox > 0 ? 1 : 0) - (defl && ox < 0 ? 1 : 0);
+    const py = iy + 1 + (defl && oy > 0 ? 1 : 0) - (defl && oy < 0 ? 1 : 0);
+    for(let r = Math.max(iy, py); r < Math.min(iy + 4, py + 2); r++)
+      for(let col = Math.max(ix, px); col < Math.min(ix + 4, px + 2); col++){
+        const el = cells[r * PX + col];
+        if(el && !el.classList.contains('k')) el.style.background = 'var(--ink)';
+      }
+    const lr = iy - 1;
+    if(lr >= 1){
+      const sp = span(lr);
+      if(sp) for(let col = sp[0]; col <= sp[1]; col++){
+        const el = cells[lr * PX + col];
+        if(el && !el.classList.contains('k') && !el.style.background)
+          el.style.background = 'color-mix(in srgb, var(--ink) 45%, var(--card))';
+      }
+    }
+  }
+  paint(0, 0, false);
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    const gaze = (x, y)=>{
+      const b = host.getBoundingClientRect();
+      const dx = x - (b.x + b.width / 2), dy = y - (b.y + b.height / 2);
+      if(Math.hypot(dx, dy) < 70) return [0, 0];
+      return [Math.max(-3, Math.min(3, Math.round(dx / 60))),
+              Math.max(-2, Math.min(2, Math.round(dy / 60)))];
+    };
+    addEventListener('pointerdown', ()=>{ E.closed = true; paint(0, 0, false); });
+    const open = ev=>{
+      if(!E.closed) return;
+      E.closed = false;
+      if(COARSE && ev && ev.clientX != null){
+        const g = gaze(ev.clientX, ev.clientY);
+        E.lx = g[0]; E.ly = g[1];
+        paint(g[0], g[1], !!(g[0] || g[1]));
+        clearTimeout(E.drift);
+        E.drift = setTimeout(()=>{ E.lx = 0; E.ly = 0; paint(0, 0, false); }, 900);
+      }else{
+        paint(E.lx, E.ly, !!(E.lx || E.ly));
+      }
+    };
+    addEventListener('pointerup', open);
+    addEventListener('pointercancel', open);
+    addEventListener('pointermove', ev=>{
+      if(E.closed) return;
+      const g = gaze(ev.clientX, ev.clientY);
+      E.lx = g[0]; E.ly = g[1];
+      paint(g[0], g[1], !!(g[0] || g[1]));
+    }, { passive: true });
+  }
+})();
 
 // The move warning: localStorage is per-origin, so anonymous ticks stay
 // behind when the site moves to clubd.watch — one sign-in is what carries
@@ -2923,7 +3044,8 @@ function homeStats(){
         if(age < 1) today++;
       }
     }
-    return { m, n: localCount(m.slug), score, last, today };
+    return { m, n: localCount(m.slug), score, last, today,
+             st: stars().has(m.slug) };
   });
 }
 function whyOf(s){
@@ -2937,15 +3059,16 @@ function whyOf(s){
   return bits.join(' · ');
 }
 function renderShelf(shelf){
+  const star = '<span style="color:var(--signal)">★</span> ';
   const top = shelf[0];
-  let html = cardHTML(top.m, whyOf(top));
+  let html = cardHTML(top.m, (top.st ? '★ starred' + (whyOf(top) ? ' · ' : '') : '') + whyOf(top));
   const rest = shelf.slice(1, 4);
   if(rest.length){
     html += '<div style="margin-top:14px">' + rest.map(s=>{
       const tot = totalOf(s.m);
       return '<button class="hrow" data-slug="'+esc(s.m.slug)+'">'
         + '<span class="pdot" style="background:'+esc(accentOf(s.m))+'"></span>'
-        + '<span class="hrt">'+esc(s.m.title)+'</span>'
+        + '<span class="hrt">'+(s.st ? star : '')+esc(s.m.title)+'</span>'
         + (whyOf(s) ? '<span class="hrw">'+esc(whyOf(s))+'</span>' : '')
         + '<span class="hrn">'+s.n+' / '+tot+'</span>'
         + '</button>';
@@ -3027,9 +3150,12 @@ function renderLedger(){
 }
 function showHome(){
   const stats = homeStats();
-  const shelf = stats.filter(s=> s.score > 0 || s.n > 0)
+  // starred beats everything — a star is the one explicit "this matters"
+  // signal the user gives; schedule-active and live ticks rank the rest
+  const shelf = stats.filter(s=> s.st || s.score > 0 || s.n > 0)
     .sort((a, b)=>
-      (b.m.scheduled && (b.score || b.n) ? 1 : 0) - (a.m.scheduled && (a.score || a.n) ? 1 : 0)
+      (b.st ? 1 : 0) - (a.st ? 1 : 0)
+      || (b.m.scheduled && (b.score || b.n) ? 1 : 0) - (a.m.scheduled && (a.score || a.n) ? 1 : 0)
       || b.score - a.score || b.last - a.last || b.n - a.n);
   if(!shelf.length){ showSplash(); return; }
   $('homev').classList.remove('hide');
