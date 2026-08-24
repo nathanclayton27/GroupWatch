@@ -3633,7 +3633,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '619a81c6c1dc';
+const BUILD = 'b39aeb5ef766';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -7876,8 +7876,8 @@ let BASESECS = [];
 function altWanted(){
   const alt = PROP && PROP.altSections;
   if(!alt || !Array.isArray(alt.sections) || !FILTER) return false;
-  const want = (alt.when || []).slice().sort().join(" ");
-  return want === [...FILTERON].sort().join(" ");
+  const want = (alt.when || []).slice().sort().join("\u0000");
+  return want === [...FILTERON].sort().join("\u0000");
 }
 
 function adoptSections(secs){

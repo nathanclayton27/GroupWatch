@@ -5474,8 +5474,8 @@ let BASESECS = [];
 function altWanted(){
   const alt = PROP && PROP.altSections;
   if(!alt || !Array.isArray(alt.sections) || !FILTER) return false;
-  const want = (alt.when || []).slice().sort().join(" ");
-  return want === [...FILTERON].sort().join(" ");
+  const want = (alt.when || []).slice().sort().join("\u0000");
+  return want === [...FILTERON].sort().join("\u0000");
 }
 
 function adoptSections(secs){
