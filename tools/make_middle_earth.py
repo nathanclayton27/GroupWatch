@@ -14,6 +14,18 @@ tables, theatrical cuts cross-checked against Wikidata P2047.
 Book rows are unweighted (pages aren't hours). The Rings of Power is not a
 row; the notes say so. Data: tools/data/middle-earth.json, built and
 asserted by scratch/agent-books/parse_middle_earth.py.
+
+WHY 9 OF THE 15 ROWS CARRY NO NUMBER, written down rather than rediscovered.
+All 9 are books — The Hobbit, the three Lord of the Rings volumes, The
+Silmarillion and the four posthumous volumes. No source gives a book an
+honest hour figure: page counts differ by edition and reading speeds differ
+by reader, so every book list in this repo refuses the same way. The six
+films ARE weighted, from theatrical runtimes cross-checked against Wikidata
+P2047, and the third property note says the two scales are deliberate. An
+unweighted row counts as one entry downstream, which is a floor rather than
+a claim that The Silmarillion takes an hour. Dropping the film runtimes so
+the whole list counts one-per-row — the raimi and x-files shape — would
+also be defensible, and is the owner's call, not this file's.
 """
 import json
 import pathlib
@@ -89,7 +101,10 @@ def main():
     assert all(i == slugify(i) and i.isascii() for i in ids)
     opts = [x["t"] for x in book_items if x.get("opt")]
     assert set(opts) == OPT_BOOKS, opts
-    assert not any("w" in x for x in book_items)
+    # books carry no hours, films all do — see the docstring
+    assert not any("w" in x for x in book_items), \
+        "a book row grew an hour figure; there is no source for one"
+    assert all("w" in x for x in film_items), "a film row lost its runtime"
     assert 17.0 < hours < 17.4, hours  # 557 + 474 = 1031 min
 
     prop = {

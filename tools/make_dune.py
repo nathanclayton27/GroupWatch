@@ -16,6 +16,20 @@ Book rows are unweighted — page counts aren't hours. Dune: Part Three
 (dated December 2026 in the article) and the Dune: Prophecy TV series are
 not rows; the notes say so. Data: tools/data/dune.json, built and asserted
 by scratch/agent-books/parse_dune.py.
+
+WHY 23 OF THE 28 ROWS CARRY NO NUMBER, written down so a weight audit does
+not have to re-derive it. All 23 are books: Frank Herbert's six and the
+seventeen continuations. There is no source that gives a book an honest
+hour figure — page counts differ by edition, reading speeds differ by
+reader, and every other book list in this repo (middle-earth, cosmere,
+discworld, stephen-king, wheel-of-time, sherlock-holmes) refuses the same
+way. The five screen rows ARE weighted, from Wikidata P2047, so the strip
+deliberately shows reading and watching at different scales; the third
+property note says so out loud. An unweighted row counts as one entry
+downstream, which is a floor, not a claim about how long Dune takes to
+read. Whether the screen rows should give up their runtimes so the whole
+list counts one-per-row instead — the way raimi and x-files do — is a
+design call for the list's owner, not something to change quietly here.
 """
 import json
 import pathlib
@@ -97,7 +111,11 @@ def main():
     assert all(i == slugify(i) and i.isascii() for i in ids)
     assert 16 < hours < 17, hours  # 989 min of screen Dune
     assert all(x.get("opt") for x in cont_items)
-    assert not any("w" in x for x in core_items + cont_items)
+    # books carry no hours, screen rows all do — see the docstring
+    assert not any("w" in x for x in core_items + cont_items), \
+        "a book row grew an hour figure; there is no source for one"
+    assert all("w" in x for x in screen_items), \
+        "a screen row lost its runtime"
 
     prop = {
         "slug": SLUG,

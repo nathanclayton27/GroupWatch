@@ -5,7 +5,7 @@
   "kind": "mixed",
   "order": 17,
   "year": "1998–",
-  "blurb": "61 works across six media, in release order within each.",
+  "blurb": "61 works across six media, in release order within each. 35 carry a verified length — about 514 hours of games, visual novels, films and anime.",
   "unit": {
     "one": "work",
     "many": "works"
@@ -44,25 +44,31 @@
       "Not here.",
       "The many drama CDs, art books and short stories that exist mostly in Japanese. Grand Order itself is one entry, which undersells it by several hundred hours."
     ],
-    "Additions and corrections in this list came from a pull request by adeadeadeadeade; the dates were confirmed against Wikipedia before being taken."
+    [
+      "Where the hours come from — and where they stop.",
+      "Games and visual novels carry HowLongToBeat main-story figures, verified by name against the work they belong to. Films and anime carry the runtime the work's own Wikipedia article gives, and only where it gives one plain figure. 35 of the 61 rows have one; the other 26 carry a reason instead of a number, and the reason is on the row. An anime whose article says its episodes run 8 to 20 minutes has no single length; a novel has no length at all. Rows without a number count as one entry each, which is a floor, not a claim."
+    ],
+    "Additions and corrections in this list came from a pull request by adeadeadeadeade; the dates were confirmed against Wikipedia before being taken. Lengths from HowLongToBeat and from each work's own Wikipedia article, collected by scratch/nasuverse/collect.py."
   ],
   "sections": [
     {
       "id": "vn",
       "title": "Visual novels",
-      "sub": "2000–2025 · where almost all of it starts · 9 entries",
+      "sub": "2000–2025 · where almost all of it starts · 9 entries · about 184 hours across 6",
       "items": [
         {
           "id": "nasu-vn-tsukihime",
           "t": "Tsukihime",
           "n": "2000",
           "tier": 2,
+          "w": 28.45,
           "note": "The doujin visual novel everything else grew out of. The 2021 remake rewrites and expands it."
         },
         {
           "id": "nasu-vn-kagetsu-tohya",
           "t": "Kagetsu Tohya",
           "n": "2001",
+          "w": 9.32,
           "note": "Tsukihime fan disc"
         },
         {
@@ -70,6 +76,7 @@
           "t": "Fate/stay night",
           "n": "2004",
           "tier": 2,
+          "w": 58.78,
           "note": "Three routes — Fate, Unlimited Blade Works, Heaven's Feel — read in that order. Play the 2024 remaster instead."
         },
         {
@@ -77,37 +84,40 @@
           "t": "Fate/hollow ataraxia",
           "n": "2005",
           "tier": 2,
+          "w": 32.76,
           "note": "Sequel to Fate/stay night. Play the 2025 remaster instead."
         },
         {
           "id": "nasu-vn-witch-on-the-holy-night",
           "t": "Witch on the Holy Night",
           "n": "2012",
+          "w": 23.73,
           "note": "Mahoutsukai no Yoru. Standalone, and needs nothing else read first. English release 2022."
         },
         {
           "id": "nasu-vn-tsukihime-a-piece-of-blue-glass-moon",
           "t": "Tsukihime -A piece of blue glass moon-",
           "n": "2021",
+          "w": 31.41,
           "note": "The remake, retelling the first half of Tsukihime. Worldwide 2024."
         },
         {
           "id": "nasu-vn-fate-stay-night-remastered",
           "t": "Fate/stay night Remastered",
           "n": "2024",
-          "note": "The version to play — and the first official release outside Japan"
+          "note": "The version to play — and the first official release outside Japan · HowLongToBeat times the visual novel once, not each remaster, so this row carries no length"
         },
         {
           "id": "nasu-vn-fate-hollow-ataraxia-remastered",
           "t": "Fate/hollow ataraxia Remastered",
           "n": "2025",
-          "note": "The version to play, released worldwide"
+          "note": "The version to play, released worldwide · HowLongToBeat times the visual novel once, not each remaster, so this row carries no length"
         },
         {
           "id": "nasu-vn-tsukihime-the-other-side-of-red-garden",
           "t": "Tsukihime -The other side of red garden-",
           "n": "TBA",
-          "note": "The second half of the remake. Announced, no release date."
+          "note": "The second half of the remake. Announced, no release date · Not released yet"
         }
       ],
       "intro": "Nasu's own works, and the primary text for everything else. Fate/stay night and Tsukihime are the two entry points; Witch on the Holy Night stands completely alone and needs nothing read first.",
@@ -116,135 +126,142 @@
     {
       "id": "tv",
       "title": "Anime series",
-      "sub": "2003–2023 · 17 entries",
+      "sub": "2003–2023 · 17 entries · about 20 hours across 6",
       "items": [
         {
           "id": "nasu-tv-lunar-legend-tsukihime",
           "t": "Lunar Legend Tsukihime",
           "n": "2003",
-          "note": "J.C.Staff's Tsukihime adaptation"
+          "note": "J.C.Staff's Tsukihime adaptation · No published length for it"
         },
         {
           "id": "nasu-tv-fate-stay-night",
           "t": "Fate/stay night",
           "n": "2006",
+          "w": 9.6,
           "note": "Studio Deen. 24 episodes, following the Fate route."
         },
         {
           "id": "nasu-tv-carnival-phantasm",
           "t": "Carnival Phantasm",
           "n": "2011",
-          "note": "Comedy OVA crossing Fate and Tsukihime, from the Take Moon parody manga"
+          "note": "Comedy OVA crossing Fate and Tsukihime, from the Take Moon parody manga · Episodes run 8 to 20 minutes, so no one length fits the row"
         },
         {
           "id": "nasu-tv-fate-zero",
           "t": "Fate/Zero",
           "n": "2011",
-          "note": "ufotable. 25 episodes across two cours."
+          "note": "ufotable. 25 episodes across two cours · No published length for it"
         },
         {
           "id": "nasu-tv-fate-kaleid-liner-prisma-illya",
           "t": "Fate/kaleid liner Prisma Illya",
           "n": "2013",
-          "note": "Magical-girl spin-off, four seasons from here"
+          "note": "Magical-girl spin-off, four seasons from here · Four seasons under one row, so no one length fits it"
         },
         {
           "id": "nasu-tv-fate-stay-night-unlimited-blade-works",
           "t": "Fate/stay night: Unlimited Blade Works",
           "n": "2014",
-          "note": "ufotable. 26 episodes plus an OVA, adapting the second route."
+          "note": "ufotable. 26 episodes plus an OVA, adapting the second route · Three different episode lengths and an OVA, so no one length fits the row"
         },
         {
           "id": "nasu-tv-fate-grand-order-first-order",
           "t": "Fate/Grand Order: First Order",
           "n": "2016",
+          "w": 1.23,
           "note": "Television special adapting the Grand Order game's prologue"
         },
         {
           "id": "nasu-tv-fate-apocrypha",
           "t": "Fate/Apocrypha",
           "n": "2017",
-          "note": "An alternate continuity, unconnected to Fate/stay night"
+          "note": "An alternate continuity, unconnected to Fate/stay night · No published length for it"
         },
         {
           "id": "nasu-tv-fate-grand-order-moonlight-lostroom",
           "t": "Fate/Grand Order: Moonlight/Lostroom",
           "n": "2017",
+          "w": 0.55,
           "note": "Animation short following First Order, written by Nasu"
         },
         {
           "id": "nasu-tv-fate-extra-last-encore",
           "t": "Fate/Extra Last Encore",
           "n": "2018",
+          "w": 5.2,
           "note": "Shaft's series following the Fate/Extra game"
         },
         {
           "id": "nasu-tv-today-s-menu-for-the-emiya-family",
           "t": "Today's Menu for the Emiya Family",
           "n": "2018",
+          "w": 2.82,
           "note": "Comedy cooking spin-off"
         },
         {
           "id": "nasu-tv-lord-el-melloi-ii-s-case-files-rail-zeppelin-grace-note-a-grave-keeper-a-cat-and-a-mage",
           "t": "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note — A Grave Keeper, a Cat, and a Mage",
           "n": "2018",
-          "note": "Episode 0, aired before the series"
+          "note": "Episode 0, aired before the series · No published length for it"
         },
         {
           "id": "nasu-tv-the-case-files-of-lord-el-melloi-ii",
           "t": "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note",
           "n": "2019",
-          "note": "Troyca's 13 episodes, adapting the Rail Zeppelin case. Set ten years after Fate/Zero."
+          "note": "Troyca's 13 episodes, adapting the Rail Zeppelin case. Set ten years after Fate/Zero · No published length for it"
         },
         {
           "id": "nasu-tv-fate-grand-order-absolute-demonic-front-babylonia",
           "t": "Fate/Grand Order: Absolute Demonic Front Babylonia",
           "n": "2019",
-          "note": "The Babylonia singularity from the Grand Order game, animated by CloverWorks"
+          "note": "The Babylonia singularity from the Grand Order game, animated by CloverWorks · No published length for it"
         },
         {
           "id": "nasu-tv-fate-grand-carnival",
           "t": "Fate/Grand Carnival",
           "n": "2020",
-          "note": "Successor to Carnival Phantasm, using the Grand Order cast"
+          "note": "Successor to Carnival Phantasm, using the Grand Order cast · No published length for it"
         },
         {
           "id": "nasu-tv-lord-el-melloi-ii-s-case-files-rail-zeppelin-grace-note-special-edition",
           "t": "Lord El-Melloi II's Case Files {Rail Zeppelin} Grace note — Special Edition",
           "n": "2021",
-          "note": "New Year's Eve special"
+          "note": "New Year's Eve special · No published length for it"
         },
         {
           "id": "nasu-tv-fate-strange-fake-whispers-of-dawn",
           "t": "Fate/strange Fake: Whispers of Dawn",
           "n": "2023",
-          "note": "One-off special",
-          "w": 0.92
+          "w": 0.92,
+          "note": "One-off special"
         }
       ]
     },
     {
       "id": "film",
       "title": "Films",
-      "sub": "2007–2026 · 14 entries",
+      "sub": "2007–2026 · 14 entries · about 22 hours across 10",
       "items": [
         {
           "id": "nasu-film-the-garden-of-sinners",
           "t": "The Garden of Sinners",
           "n": "2007",
+          "w": 8.38,
           "note": "Seven films, released 2007–2009, adapting the novels out of chronological order"
         },
         {
           "id": "nasu-film-the-garden-of-sinners-a-study-in-murder-part-2",
           "t": "The Garden of Sinners: A Study in Murder, Part 2",
-          "n": "2009"
+          "n": "2009",
+          "note": "The seventh of the seven films above, and counted there"
         },
         {
           "id": "nasu-film-fate-stay-night-unlimited-blade-works",
           "t": "Fate/stay night: Unlimited Blade Works",
           "n": "2010",
-          "note": "Studio Deen's film of the second route",
-          "w": 1.75
+          "w": 1.75,
+          "note": "Studio Deen's film of the second route"
         },
         {
           "id": "nasu-film-the-garden-of-sinners-epilogue",
@@ -256,157 +273,171 @@
           "id": "nasu-film-the-garden-of-sinners-mirai-fukuin",
           "t": "The Garden of Sinners: Mirai Fukuin",
           "n": "2013",
-          "note": "The Garden of Sinners: The Future Gospel",
-          "w": 1.02
+          "w": 1.47,
+          "note": "The Garden of Sinners: The Future Gospel"
         },
         {
           "id": "nasu-film-prisma-illya-vow-in-the-snow",
           "t": "Fate/kaleid liner Prisma Illya: Vow in the Snow",
           "n": "2017",
-          "note": "Follows the Prisma Illya series",
-          "w": 1.03
+          "w": 1.03,
+          "note": "Follows the Prisma Illya series"
         },
         {
           "id": "nasu-film-fate-stay-night-heaven-s-feel-i-presage-flower",
           "t": "Fate/stay night: Heaven's Feel I. presage flower",
           "n": "2017",
-          "note": "ufotable. The third route, over three films — watch after Unlimited Blade Works.",
-          "w": 2.0
+          "w": 2.0,
+          "note": "ufotable. The third route, over three films — watch after Unlimited Blade Works."
         },
         {
           "id": "nasu-film-fate-stay-night-heaven-s-feel-ii-lost-butterfly",
           "t": "Fate/stay night: Heaven's Feel II. lost butterfly",
           "n": "2019",
-          "note": "Second of the three",
-          "w": 1.95
+          "w": 1.95,
+          "note": "Second of the three"
         },
         {
           "id": "nasu-film-prisma-illya-oath-under-snow",
           "t": "Fate/kaleid liner Prisma Illya: Oath Under Snow",
           "n": "2019",
-          "note": "Follows Vow in the Snow",
-          "w": 1.58
+          "w": 1.58,
+          "note": "Follows Vow in the Snow"
         },
         {
           "id": "nasu-film-fate-stay-night-heaven-s-feel-iii-spring-song",
           "t": "Fate/stay night: Heaven's Feel III. spring song",
           "n": "2020",
-          "note": "Last of the three",
-          "w": 2.03
+          "w": 2.03,
+          "note": "Last of the three"
         },
         {
           "id": "nasu-film-fate-grand-order-divine-realm-of-the-round-table-camelot-wandering-agateram",
           "t": "Fate/Grand Order — Divine Realm of the Round Table: Camelot, Wandering; Agateram",
           "n": "2020",
-          "note": "First of two films adapting the Grand Order game's Camelot chapter"
+          "note": "First of two films adapting the Grand Order game's Camelot chapter · No published length for it"
         },
         {
           "id": "nasu-film-fate-grand-order-divine-realm-of-the-round-table-camelot-paladin-agateram",
           "t": "Fate/Grand Order — Divine Realm of the Round Table: Camelot, Paladin; Agateram",
           "n": "2021",
-          "note": "Second of the two"
+          "note": "Second of the two · No published length for it"
         },
         {
           "id": "nasu-film-fate-grand-order-final-singularity-grand-temple-of-time-solomon",
           "t": "Fate/Grand Order: Final Singularity — Grand Temple of Time: Solomon",
           "n": "2021",
+          "w": 1.57,
           "note": "CloverWorks' film of the game's final chapter, following Babylonia"
         },
         {
           "id": "nasu-film-witch-on-the-holy-night",
           "t": "Witch on the Holy Night",
           "n": "2026",
-          "note": "ufotable's film of the visual novel"
+          "note": "ufotable's film of the visual novel · Not released yet"
         }
       ]
     },
     {
       "id": "game",
       "title": "Games",
-      "sub": "2002–2023 · 14 entries",
+      "sub": "2002–2023 · 14 entries · about 287 hours across 13",
       "items": [
         {
           "id": "nasu-game-melty-blood",
           "t": "Melty Blood",
           "n": "2002",
+          "w": 3.99,
           "note": "Fighting game with French-Bread, and a direct Tsukihime sequel in story"
         },
         {
           "id": "nasu-game-melty-blood-re-act",
           "t": "Melty Blood Re-ACT",
           "n": "2004",
+          "w": 0.22,
           "note": "Expanded follow-up to Melty Blood"
         },
         {
           "id": "nasu-game-melty-blood-act-cadenza",
           "t": "Melty Blood: Act Cadenza",
           "n": "2005",
+          "w": 0.69,
           "note": "The arcade version, following Re-ACT"
         },
         {
           "id": "nasu-game-fate-tiger-colosseum",
           "t": "Fate/tiger colosseum",
           "n": "2007",
+          "w": 3.74,
           "note": "PSP fighting game"
         },
         {
           "id": "nasu-game-fate-unlimited-codes",
           "t": "Fate/unlimited codes",
           "n": "2008",
+          "w": 2.42,
           "note": "Arcade, PS2 and PSP fighting game"
         },
         {
           "id": "nasu-game-fate-tiger-colosseum-upper",
           "t": "Fate/tiger colosseum Upper",
           "n": "2008",
-          "note": "Follow-up to Fate/tiger colosseum, with an expanded roster"
+          "note": "Follow-up to Fate/tiger colosseum, with an expanded roster · HowLongToBeat has the game but no main-story figure for it"
         },
         {
           "id": "nasu-game-melty-blood-actress-again",
           "t": "Melty Blood: Actress Again",
           "n": "2008",
+          "w": 0.59,
           "note": "Arcade sequel to Act Cadenza; later revised as Current Code"
         },
         {
           "id": "nasu-game-fate-extra",
           "t": "Fate/Extra",
           "n": "2010",
+          "w": 28.81,
           "note": "PSP dungeon-crawling RPG, and its own branch of the setting — Fate/Extra Last Encore follows from it"
         },
         {
           "id": "nasu-game-fate-extra-ccc",
           "t": "Fate/Extra CCC",
           "n": "2013",
+          "w": 42.64,
           "note": "Side story to Fate/Extra"
         },
         {
           "id": "nasu-game-fate-grand-order",
           "t": "Fate/Grand Order",
           "n": "2015",
+          "w": 138.35,
           "note": "The mobile RPG, still running, and the largest single body of story in the universe"
         },
         {
           "id": "nasu-game-fate-extella-the-umbral-star",
           "t": "Fate/Extella: The Umbral Star",
           "n": "2016",
+          "w": 20.29,
           "note": "Action RPG, an original story"
         },
         {
           "id": "nasu-game-fate-extella-link",
           "t": "Fate/Extella Link",
           "n": "2018",
+          "w": 9.87,
           "note": "Sequel to Fate/Extella: The Umbral Star"
         },
         {
           "id": "nasu-game-melty-blood-type-lumina",
           "t": "Melty Blood: Type Lumina",
           "n": "2021",
+          "w": 4.26,
           "note": "Reboot of the fighting game, following the Tsukihime remake"
         },
         {
           "id": "nasu-game-fate-samurai-remnant",
           "t": "Fate/Samurai Remnant",
           "n": "2023",
+          "w": 31.39,
           "note": "Action RPG set during a Holy Grail War in Edo-period Japan"
         }
       ],
@@ -421,30 +452,31 @@
           "id": "nasu-novel-the-garden-of-sinners",
           "t": "The Garden of Sinners",
           "n": "1998",
-          "note": "Kara no Kyoukai. Nasu's first work, serialised before Type-Moon existed."
+          "note": "Kara no Kyoukai. Nasu's first work, serialised before Type-Moon existed · Pages aren't hours"
         },
         {
           "id": "nasu-novel-fate-zero",
           "t": "Fate/Zero",
           "n": "2006",
-          "note": "Urobuchi's prequel to Fate/stay night, in four volumes"
+          "note": "Urobuchi's prequel to Fate/stay night, in four volumes · Pages aren't hours"
         },
         {
           "id": "nasu-novel-fate-apocrypha",
           "t": "Fate/Apocrypha",
-          "n": "2012"
+          "n": "2012",
+          "note": "Pages aren't hours"
         },
         {
           "id": "nasu-novel-the-case-files-of-lord-el-melloi-ii",
           "t": "The Case Files of Lord El-Melloi II",
           "n": "2014",
-          "note": "Detective stories set between Fate/Zero and Fate/stay night"
+          "note": "Detective stories set between Fate/Zero and Fate/stay night · Pages aren't hours"
         },
         {
           "id": "nasu-novel-fate-strange-fake",
           "t": "Fate/strange Fake",
           "n": "2015",
-          "note": "Ryohgo Narita"
+          "note": "Ryohgo Narita · Pages aren't hours"
         }
       ]
     },
@@ -457,12 +489,13 @@
           "id": "nasu-manga-fate-kaleid-liner-prisma-illya",
           "t": "Fate/kaleid liner Prisma Illya",
           "n": "2007",
-          "note": "Long-running spin-off, and the source of the anime seasons"
+          "note": "Long-running spin-off, and the source of the anime seasons · Pages aren't hours"
         },
         {
           "id": "nasu-manga-today-s-menu-for-the-emiya-family",
           "t": "Today's Menu for the Emiya Family",
-          "n": "2016"
+          "n": "2016",
+          "note": "Pages aren't hours"
         }
       ]
     }

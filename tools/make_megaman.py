@@ -19,7 +19,10 @@ Two things the source does not settle, settled here and said out loud:
     the one crossover in a last section. Inside every section the order is
     the compendium's own: release date, oldest first.
   * It carries no years or lengths. Years come from each game's own Backloggd
-    page (scratch/megaman/collect.py caches all 94). Hours are HowLongToBeat
+    page; the roster those pages produced is distilled into
+    tools/data/megaman-compendium.json, which is what this reads — the raw
+    page cache stays out of the repo, and the generator no longer depends on
+    an untracked scratch directory to run. Hours are HowLongToBeat
     main-story figures behind tools/gwlib/hltb.py's verify-by-name gate,
     collected by scratch/megaman/fetch_hltb.py into tools/data/megaman.json.
 
@@ -372,7 +375,7 @@ ROSTER = [
 
 def main():
     root = pathlib.Path(__file__).resolve().parent.parent
-    src = json.loads((root / "scratch" / "megaman" / "games.json")
+    src = json.loads((root / "tools" / "data" / "megaman-compendium.json")
                      .read_text(encoding="utf-8"))
     hours = json.loads((root / "tools" / "data" / "megaman.json")
                        .read_text(encoding="utf-8"))
