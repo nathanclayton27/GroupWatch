@@ -363,6 +363,30 @@ footer a{color:var(--steel)}
 .mastsign{font:inherit;font-size:13px;background:var(--card);color:var(--ink);
   border:1px solid var(--rule-2);padding:8px 14px;cursor:pointer;
   border-radius:99px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+/* the account chip (CLU-57, candidate E). The mast's right-hand slot is one
+   thing in two states — the Sign in pill signed out, the name pill signed in
+   — so the strip is three items wide either way. margin-left:auto is a no-op
+   on the shrink-wrapped fixed mast and pins both to the right edge of the
+   in-flow phone one, which is the same answer twice. */
+#b-mastauth,#b-mastacct{margin-left:auto}
+#b-mastacct{display:flex;align-items:center;gap:7px;min-width:0;
+  text-decoration:none;color:var(--ink);background:var(--card);
+  border:1px solid var(--rule-2);border-radius:99px;padding:4px 12px 4px 5px;
+  font-size:12.5px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+#b-mastacct:hover{border-color:var(--ink-2)}
+#b-mastacct .ini{width:21px;height:21px;border-radius:99px;flex:none;
+  display:grid;place-items:center;font-family:"IBM Plex Mono",monospace;
+  font-size:11px;font-weight:500;color:var(--signal);
+  background:color-mix(in srgb,var(--signal) 16%,var(--card))}
+#b-mastacct .mnm{max-width:14ch;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap}
+/* on the account page the chip is where you already are — pressed, not a way
+   out */
+#b-mastacct.here{border-color:var(--signal);
+  background:color-mix(in srgb,var(--signal) 8%,var(--card))}
+/* Nathan's scroll rule: the eye and the switcher shrink, the name goes
+   entirely. A name is the one thing in the strip that is never navigation. */
+.mast.mini #b-mastacct{display:none}
 /* the auth panel, floated under the mast for splash/home sign-in */
 .signfloat{position:fixed;top:64px;left:max(20px, calc(50% - 430px));
   z-index:79;max-width:560px;margin-right:20px;
@@ -519,6 +543,89 @@ footer a{color:var(--steel)}
 .foldbtn{margin-left:auto;font:inherit;font-size:11px;letter-spacing:normal;
   text-transform:none;border:1px solid var(--rule-2);background:transparent;
   color:var(--ink-2);border-radius:99px;padding:2px 10px;cursor:pointer}
+
+/* ------------------------------------------------ the account page (CLU-57)
+   Quiet cards in one narrow column, on the same bare shell home uses. The
+   labels are the mono uppercase keys the rest of the site sets its small
+   print in; everything else is a house token. */
+.acctp{min-height:100vh;padding:56px 20px 90px}
+.acctp-in{max-width:640px;margin:0 auto}
+.acctp h1{margin:34px 0 2px}
+.asub{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11.5px;
+  color:var(--ink-3);margin:0}
+.acard{background:var(--card);border:1px solid var(--rule);
+  border-radius:var(--radius);padding:15px 16px;margin:14px 0}
+.ak{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;
+  font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin:0 0 10px}
+.arow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:7px 0;
+  border-top:1px solid var(--rule)}
+.arow:first-of-type{border-top:0;padding-top:0}
+.alb{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;
+  font-weight:500;color:var(--ink-3);flex:none;min-width:78px}
+.aval{flex:1;min-width:0;font-size:13.5px;color:var(--ink-2);
+  overflow-wrap:anywhere}
+.aval b{color:var(--ink);font-weight:500}
+.afrow{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.afrow input[type=text]{flex:1 1 150px;width:auto;min-width:0}
+.acode{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:13px;
+  font-weight:500;letter-spacing:.2em;color:var(--ink);
+  border:1px dashed var(--rule-2);border-radius:var(--radius);padding:6px 12px}
+.acap{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;
+  color:var(--ink-3);margin-top:9px;line-height:1.6}
+.acap b{color:var(--ink-2);font-weight:500}
+.acap .aquiet{font:inherit}
+.atag{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;
+  font-weight:500;color:var(--ink-3);border:1px solid var(--rule-2);
+  border-radius:99px;padding:2px 9px;white-space:nowrap;flex:none}
+.atag.on{color:var(--done);border-color:currentColor}
+.atag.off{border-style:dashed}
+.abtn{font-size:13px;color:var(--ink);background:transparent;
+  border:1px solid var(--rule-2);border-radius:var(--radius);padding:7px 13px;
+  text-decoration:none;white-space:nowrap;flex:none}
+.abtn:hover{border-color:var(--ink-2)}
+.atog{display:flex;gap:12px;align-items:flex-start;padding:9px 0;
+  border-top:1px solid var(--rule)}
+.atog:first-of-type{border-top:0;padding-top:0}
+.atog .t{flex:1;min-width:0;cursor:pointer}
+.atog .t b{display:block;font-size:13.5px;font-weight:500}
+.atog .t span{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;
+  color:var(--ink-3);line-height:1.6}
+/* the switch, scoped to this page: the list's own checkboxes keep the plain
+   accent-coloured box they have always had */
+.acctp input[type=checkbox]{appearance:none;-webkit-appearance:none;flex:none;
+  margin:2px 0 0;width:34px;height:19px;border-radius:99px;position:relative;
+  background:var(--paper);border:1px solid var(--rule-2);cursor:pointer;
+  transition:background .15s}
+.acctp input[type=checkbox]::after{content:"";position:absolute;top:2px;left:2px;
+  width:13px;height:13px;border-radius:99px;background:var(--ink-3);
+  transition:transform .15s,background .15s}
+.acctp input[type=checkbox]:checked{border-color:var(--done);
+  background:color-mix(in srgb,var(--done) 24%,var(--paper))}
+.acctp input[type=checkbox]:checked::after{transform:translateX(15px);
+  background:var(--done)}
+.acctp input[type=checkbox]:disabled{opacity:.45;cursor:default}
+/* the destructive corner is one grey line until it is asked for */
+.adanger{margin-top:12px;padding-top:11px;border-top:1px solid var(--rule)}
+.aquiet{font-size:12.5px;color:var(--ink-2);background:none;border:0;
+  border-bottom:1px dashed var(--rule-2);border-radius:0;padding:0 0 1px;
+  cursor:pointer}
+.aquiet:hover{color:var(--signal);border-color:var(--signal)}
+.aconfirm{border:1px solid var(--signal);border-radius:var(--radius);
+  padding:11px 13px;margin-top:11px;
+  background:color-mix(in srgb,var(--signal) 7%,var(--card))}
+.aconfirm .ak{color:var(--signal)}
+.aconfirm p{margin:0 0 10px;font-size:13px;color:var(--ink-2)}
+.agone{color:var(--signal);border-color:currentColor}
+.agone:hover{border-color:var(--signal)}
+.aout{display:flex;justify-content:flex-end;padding:2px 0 0}
+.anote{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;
+  color:var(--ink-3);margin:14px 2px 0;line-height:1.7}
+@media (max-width:560px){
+  .acctp{padding:26px 14px 70px}
+  /* label above value: 78px of mono key plus a value is more than a phone has */
+  .alb{min-width:100%}
+}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 @media (max-width:560px){
   li{padding:6px 14px}.wrap{padding:0 14px 80px}.bar-in{padding:0 14px;gap:16px}
@@ -584,7 +691,12 @@ footer a{color:var(--steel)}
     </button>
     <div class="pmenu hide" id="pmenu" role="listbox" aria-label="Choose what to track"></div>
   </div>
+  <!-- one slot, two states: Sign in signed out, your name signed in -->
   <button id="b-mastauth" class="mastsign hide" type="button">Sign in</button>
+  <a id="b-mastacct" class="hide" href="?account" title="Your account">
+    <span class="ini" id="mastacct-i" aria-hidden="true"></span>
+    <span class="mnm" id="mastacct-t"></span>
+  </a>
 </div>
 
 <div class="splash hide" id="splash">
@@ -612,6 +724,106 @@ footer a{color:var(--steel)}
     <div class="hsec">The catalogue
       <button class="foldbtn" id="b-wallfold" type="button">Collapse</button></div>
     <div id="homewall"></div>
+  </div>
+</div>
+
+<!-- ?account (CLU-57): everything that belongs to the person rather than to
+     a list, in the order Nathan set — the friend code first, because it is
+     the only thing here you hand to somebody else. -->
+<div class="acctp hide" id="accountv">
+  <div class="acctp-in">
+    <h1 class="splash-h">Account</h1>
+    <p class="asub" id="a-who"></p>
+    <p id="a-msg" style="margin:9px 0 0;min-height:19px;font-size:13px;color:var(--signal)"></p>
+
+    <div class="acard">
+      <div class="ak">friend code</div>
+      <div class="afrow">
+        <span class="acode" id="a-fcode">····</span>
+        <button id="b-fcopy" type="button">Copy</button>
+        <button id="b-fshare" type="button">Share link</button>
+      </div>
+      <div class="acap">both sides enter the other’s code and the friendship
+        exists — <b>mutual by construction</b>, no request inbox.
+        <button class="aquiet" id="b-fnew" type="button">regenerate code</button>
+        kills every link you’ve ever sent.</div>
+      <div class="afrow" style="margin-top:13px">
+        <input type="text" id="a-fadd" placeholder="Enter a friend’s code"
+               aria-label="Enter a friend’s code" maxlength="8" disabled>
+        <button id="b-fadd" type="button" disabled>Add</button>
+      </div>
+      <div class="acap">the handshake lands with friends — days away</div>
+    </div>
+
+    <div class="acard">
+      <div class="ak">identity</div>
+      <div class="arow"><span class="alb">username</span>
+        <span class="aval afrow">
+          <input type="text" id="a-user" maxlength="20" aria-label="Username"
+                 placeholder="not set yet" spellcheck="false"
+                 autocapitalize="none" autocomplete="nickname">
+          <button id="b-uname" type="button">Save</button></span></div>
+      <div class="arow"><span class="alb">email</span>
+        <span class="aval"><b id="a-email"></b></span>
+        <span class="atag" id="a-emailv"></span></div>
+      <div class="acap">the username inits every club you join — rename yourself
+        inside any one club and that override wins there, forever.
+        <b>3–20 chars, letters/digits/dashes.</b></div>
+    </div>
+
+    <div class="acard">
+      <div class="ak">sign in with</div>
+      <div id="a-provs"></div>
+      <div class="acap">same email, same account — sign in with Google tonight
+        and a mailed link next week and you land in the same place.
+        <b>Nothing to merge, nothing to choose.</b></div>
+    </div>
+
+    <div class="acard">
+      <div class="ak">your data</div>
+      <div class="arow">
+        <span class="aval"><b>Progress codes</b><br>
+          <span class="acap" style="margin:0" id="a-xnote"></span></span>
+        <a class="abtn" id="a-xlink" href="?home">Your shelf</a></div>
+      <div class="arow">
+        <span class="aval"><b>Download my data</b><br>
+          <span class="acap" style="margin:0">one JSON: every list, every tick,
+            the log behind Lately, and your favourites</span></span>
+        <button id="b-dl" type="button">Download</button></div>
+      <!-- where writeText is refused, copied text lands here to be selected -->
+      <input type="text" id="a-clip" class="hide" readonly spellcheck="false"
+             aria-label="Copy this by hand" style="width:100%;margin-top:10px">
+      <a id="a-dl" class="hide" download="clubd-data.json" href="#">Download</a>
+      <div class="adanger">
+        <button class="aquiet" id="b-del" type="button">Delete my account</button>
+        <div class="aconfirm hide" id="a-delbox">
+          <div class="ak">this is permanent</div>
+          <p>Ticks, clubs you own, friendships, codes — gone, not archived.
+            Download first if you want any of it.</p>
+          <div class="afrow">
+            <button class="agone" id="b-delgo" type="button">Email the request</button>
+            <button id="b-delno" type="button">Cancel</button></div>
+          <div class="acap">deletion runs by hand while the button is being
+            built — the mail goes to Nathan and the account follows it.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="acard">
+      <div class="ak">preferences</div>
+      <div class="atog"><input type="checkbox" id="a-spoil" aria-label="Spoiler-safe mode">
+        <label class="t" for="a-spoil"><b>Spoiler-safe mode</b>
+          <span>hides episode titles, synopses and notes ahead of where you are.
+            On by default.</span></label></div>
+      <div class="atog"><input type="checkbox" id="a-pace"
+             aria-label="Pace counts optional extras">
+        <label class="t" for="a-pace"><b>Pace counts optional extras</b>
+          <span id="a-pace-h"></span></label></div>
+    </div>
+
+    <div class="aout"><button id="b-acctout" type="button">Sign out</button></div>
+    <p class="anote">every action here already exists somewhere in the app —
+      this page is where they stop being scattered.</p>
   </div>
 </div>
 
@@ -671,6 +883,8 @@ footer a{color:var(--steel)}
 <div class="wrap">
   <div class="panel hide" id="signin">
     <h3>Sign in to sync across devices</h3>
+    <!-- ?account arriving signed out fills this in: the panel is the page -->
+    <p id="signctx" class="hide" style="color:var(--ink)"></p>
     <p>Enter your email and you'll get a sign-in link — no password to make up or remember. Anything you've already ticked on this device gets folded into your account the first time you sign in.</p>
     <div class="row">
       <input type="email" id="email" placeholder="you@example.com" autocomplete="email" style="width:240px">
@@ -817,8 +1031,9 @@ const BRAND = 'clubd';
 
 function pickSlug(){
   const q = new URLSearchParams(location.search);
-  // ?home beats the remembered list — it's the way back to the shelf
-  if(q.has('home')) return null;
+  // ?home beats the remembered list — it's the way back to the shelf, and
+  // ?account is the same shell with the account column in place of it
+  if(q.has('home') || q.has('account')) return null;
   const want = q.get('p');
   if(want && MANIFEST.some(m=>m.slug===want)) return want;
   const last = localStorage.getItem('gw:last');
@@ -826,6 +1041,8 @@ function pickSlug(){
   return null;
 }
 const SLUG = pickSlug();
+// ?account (CLU-57). Read once: the mast chip and the boot both branch on it.
+const ACCOUNT = new URLSearchParams(location.search).has('account');
 
 function localCount(slug){
   try{
@@ -883,6 +1100,11 @@ const sb = CLOUD ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
 
 let done = new Set();
 let user = null;
+// whether auth has answered at all yet. The account page draws one of two
+// halves depending on the session, and before the first answer it must draw
+// neither — a sign-in panel that flashes open and shut is worse than a beat
+// of nothing.
+let sessionSeen = false;
 let saveTimer = null;
 
 const LKEY = 'gw:v1:' + SLUG;
@@ -1289,19 +1511,25 @@ async function adopt(){
 }
 async function onSession(session){
   user = session ? session.user : null;
+  sessionSeen = true;
   // the shelf and splash have no property loaded — the only work here is
   // the auth affordance and pulling the account's cloud state down so a
   // fresh device shows the real shelf instead of a stranger's splash
   if(!SLUG){
-    paintMastAuth();
+    paintMastAcct();
     moveBanner();
     if(user){
       $('signin').classList.add('hide');
+      // the account page wants the primed copy too — Download my data reads
+      // localStorage, and on a fresh device that is empty until this runs
       await primeShelf();
       await syncStars();
       $('homev').classList.add('hide');
       $('splash').classList.add('hide');
-      showHome();
+      if(ACCOUNT) showAccount();
+      else showHome();
+    }else if(ACCOUNT){
+      openAccountSignin();
     }
     setTimeout(backfillSync, 1200);
     return;
@@ -1335,7 +1563,7 @@ async function onSession(session){
   }
   paint();
   moveBanner();
-  paintMastAuth();
+  paintMastAcct();
   // off the critical path: the first load fetches the index once, every
   // later load exits on the flag before any network
   setTimeout(backfillSync, 1200);
@@ -1523,25 +1751,336 @@ async function onSession(session){
   }
 })();
 
-// Sign-in from the shelf: the mast grows a Sign in pill on splash/home
-// (the migration path lands people exactly there), which floats the
-// existing auth panel under the mast. Cancel and a successful session
-// both put it away.
-function paintMastAuth(){
-  const b = $('b-mastauth');
-  if(!b) return;
-  const bare = !$('splash').classList.contains('hide')
+// Sign-in from the shelf: the mast grows a Sign in pill on splash, home and
+// the account page (the migration path lands people exactly there), which
+// floats the existing auth panel under the mast. Cancel and a successful
+// session both put it away. Signed in, the same slot holds the name pill
+// instead — one slot, two states (CLU-57), never both.
+function paintMastAcct(){
+  const b = $('b-mastauth'), a = $('b-mastacct');
+  if(!b || !a) return;
+  // the bare views hide the stats bar, and with it the only other way in.
+  // A list page already carries a Sign in button, so the pill stays off it.
+  const bare = ACCOUNT
+    || !$('splash').classList.contains('hide')
     || !$('homev').classList.contains('hide');
   b.classList.toggle('hide', !(CLOUD && !user && bare));
+  // the name pill rides every view the mast is on: it is navigation, not a
+  // prompt, and the account is reachable from wherever you are
+  a.classList.toggle('hide', !user);
+  if(!user) return;
+  const nm = acctName() || (user.email || 'you').split('@')[0];
+  $('mastacct-t').textContent = nm;
+  $('mastacct-i').textContent = nm.charAt(0).toUpperCase();
+  a.classList.toggle('here', ACCOUNT);
+  if(ACCOUNT) a.setAttribute('aria-current', 'page');
+  else a.removeAttribute('aria-current');
 }
-$('b-mastauth').onclick = ()=>{
+function openMastAuth(){
   const p = $('signin');
-  // the panel lives inside .wrap, which splash/home hide — float it free
+  // the panel lives inside .wrap, which splash/home/account hide — float it free
   if(p.parentElement !== document.body) document.body.appendChild(p);
   p.classList.add('signfloat');
   p.classList.remove('hide');
   const f = $('email');
   if(f && !COARSE) f.focus();
+}
+$('b-mastauth').onclick = openMastAuth;
+
+/* ------------------------------------------------------ the account page */
+// Everything that belongs to the person rather than to a list, on one page
+// (CLU-57). Nothing here is new machinery: the friend code and the username
+// ride auth metadata the way stars already do, the export codes stay on the
+// lists that hand them out, and sign out is the button the stats bar has.
+
+// The session's user object is frozen at sign-in, so a username set on
+// another device never appears in it — the same trap syncStars walks around.
+let ACCT = null;
+async function acctUser(){
+  if(!user || !sb) return null;
+  ACCT = user;
+  try{
+    const { data } = await sb.auth.getUser();
+    if(data && data.user) ACCT = data.user;
+  }catch(e){ /* the session copy is stale, not wrong */ }
+  return ACCT;
+}
+function acctMeta(){
+  const a = ACCT || user;
+  return (a && a.user_metadata) || {};
+}
+// CLU-73: the account username is the default name a club sees. A name set
+// inside a club still wins there — that override is per club, and permanent.
+function acctName(){
+  const v = acctMeta().username;
+  return typeof v === 'string' ? v.slice(0, 24) : '';
+}
+// Writes merge into the metadata already there, so this can carry one key
+// without knowing about the others. The local copy is updated in the same
+// breath or the next repaint reads the old value back.
+async function saveMeta(patch){
+  if(!user || !sb) return false;
+  try{
+    await sb.auth.updateUser({ data: patch });
+    const a = ACCT || user;
+    if(a) a.user_metadata = Object.assign({}, a.user_metadata || {}, patch);
+    return true;
+  }catch(e){ console.error('[account] metadata write failed', e); return false; }
+}
+
+// No 0/O and no 1/I: this code gets read down a phone and typed in by hand.
+// 32 symbols divides 256 exactly, so one random byte per character is an
+// unbiased draw.
+const FCHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+function newFcode(){
+  const n = new Uint8Array(4);
+  if(window.crypto && crypto.getRandomValues) crypto.getRandomValues(n);
+  else for(let i = 0; i < 4; i++) n[i] = Math.floor(Math.random() * 256);
+  let out = '';
+  for(let i = 0; i < 4; i++) out += FCHARS.charAt(n[i] % FCHARS.length);
+  return 'CLB·' + out;
+}
+// Minted on the first visit that finds none — and only once, even if the
+// page repaints while the write is still in the air.
+let _fcode = null;
+function ensureFcode(){
+  if(_fcode) return _fcode;
+  _fcode = (async ()=>{
+    const held = acctMeta().fcode;
+    if(held) return held;
+    const made = newFcode();
+    if(!await saveMeta({ fcode: made }))
+      flash('Your friend code could not be saved — reload and it will try again.','a-msg');
+    return made;
+  })();
+  return _fcode;
+}
+function friendLink(){ return 'https://clubd.watch/?friend=' + $('a-fcode').textContent; }
+// The clipboard with the same fallback the progress code uses: where
+// writeText is refused (http, older Safari), the text goes into a field and
+// gets selected, so Ctrl/Cmd+C still works.
+async function acctCopy(text, note){
+  try{
+    await navigator.clipboard.writeText(text);
+    flash(note, 'a-msg');
+  }catch(e){
+    const f = $('a-clip');
+    f.classList.remove('hide');
+    f.value = text;
+    f.select();
+    flash('Press Ctrl/Cmd+C to copy.', 'a-msg');
+  }
+}
+
+function paintAcctIdentity(){
+  const a = ACCT || user, nm = acctName();
+  $('a-user').value = nm;
+  $('a-email').textContent = (a && a.email) || 'no email on this account';
+  const v = $('a-emailv');
+  // a magic link and an OAuth handshake both confirm the address, so this
+  // reads "verified" almost always — but it is read, never assumed
+  const ok = !!(a && (a.email_confirmed_at || a.confirmed_at));
+  v.textContent = ok ? 'verified' : 'unverified';
+  v.className = 'atag ' + (ok ? 'on' : 'off');
+  const since = a && a.created_at ? new Date(a.created_at) : null;
+  $('a-who').textContent = [
+    nm || ((a && a.email) || '').split('@')[0],
+    since && !isNaN(since.getTime())
+      ? 'here since ' + since.toLocaleDateString(undefined,
+          { month: 'long', year: 'numeric' })
+      : ''
+  ].filter(Boolean).join(' · ');
+}
+
+// Read-only on purpose: Supabase links providers that share a verified email
+// by itself, so "linked" is something to report rather than something to do.
+const APROV = [['google', 'google'], ['github', 'github'], ['email', 'email link']];
+function paintAcctProviders(){
+  const a = ACCT || user;
+  const ids = (a && a.identities) || [];
+  $('a-provs').innerHTML = APROV.map(p=>{
+    const hit = ids.filter(i=> i.provider === p[0])[0];
+    const val = hit
+      ? (p[0] === 'email'
+          ? 'magic link, no password'
+          : ((hit.identity_data && hit.identity_data.email) || (a && a.email) || 'linked'))
+      : 'sign in once with that provider — same email links automatically';
+    return '<div class="arow"><span class="alb">' + esc(p[1]) + '</span>'
+      + '<span class="aval">' + esc(val) + '</span>'
+      + '<span class="atag ' + (hit ? 'on' : 'off') + '">'
+      + (hit ? 'linked' : 'not linked') + '</span></div>';
+  }).join('');
+}
+
+// The per-list progress code stays on the list that hands it out — one code
+// per list is a list's business, and duplicating the panel here would mean
+// two places to keep in step. This points at the one you had open.
+function paintAcctData(){
+  const last = localStorage.getItem('gw:last');
+  const m = last && (MANIFEST || []).filter(x=> x.slug === last)[0];
+  const link = $('a-xlink');
+  if(m){
+    link.href = '?p=' + encodeURIComponent(m.slug);
+    link.textContent = 'Open ' + m.title;
+    $('a-xnote').textContent = 'the code that carries one list to another'
+      + ' browser is handed out at the bottom of that list’s own page';
+  }else{
+    link.href = '?home';
+    link.textContent = 'Your shelf';
+    $('a-xnote').textContent = 'each list hands out its own code, at the'
+      + ' bottom of its own page';
+  }
+}
+// Everything this browser holds for you, in one file. No network: the local
+// copy is the account's copy once the shelf has been primed.
+function acctDump(){
+  const a = ACCT || user;
+  const out = { app: BRAND, build: BUILD, at: new Date().toISOString(),
+                account: (a && a.email) || null, lists: {}, events: {}, stars: [] };
+  for(let i = 0; i < localStorage.length; i++){
+    const k = localStorage.key(i);
+    if(!k) continue;
+    let v;
+    try{ v = JSON.parse(localStorage.getItem(k)); }catch(e){ continue; }
+    if(k.indexOf('gw:v1:') === 0) out.lists[k.slice(6)] = v;
+    else if(k.indexOf('gw:evlog:') === 0) out.events[k.slice(9)] = v;
+    else if(k === STARKEY) out.stars = v;
+  }
+  return out;
+}
+
+// CLU-31 reads this later. On unless it has been turned off: a blur nobody
+// asked for is a smaller problem than a spoiler nobody asked for.
+const SPOILKEY = 'gw:spoilersafe';
+function spoilerSafe(){ return localStorage.getItem(SPOILKEY) !== '0'; }
+// The pace preference belongs to a list rather than to an account — PKEY is
+// per property and this page has none open. It binds to the list you had
+// open last, which is the one the site would reopen on, and says which.
+function acctPaceKey(){
+  const last = localStorage.getItem('gw:last');
+  return last ? 'gw:pace:' + last : '';
+}
+function paintAcctPrefs(){
+  $('a-spoil').checked = spoilerSafe();
+  const key = acctPaceKey(), box = $('a-pace');
+  const m = key && (MANIFEST || []).filter(x=> 'gw:pace:' + x.slug === key)[0];
+  box.disabled = !key;
+  box.checked = !!key && localStorage.getItem(key) === '1';
+  $('a-pace-h').textContent = key
+    ? 'the finish-date line paces you through the main run only. On, it counts'
+      + ' the extras too — set against ' + (m ? m.title : 'the list you had open')
+      + ', which is where it applies.'
+    : 'opens once you have a list on the go — a pace belongs to a list, not'
+      + ' to an account.';
+}
+
+async function renderAccount(){
+  if(!user){
+    // auth has not answered yet; onSession draws whichever half is right
+    if(CLOUD && !sessionSeen) return;
+    openAccountSignin();
+    return;
+  }
+  $('accountv').classList.remove('hide');
+  await acctUser();
+  paintAcctIdentity();
+  paintAcctProviders();
+  paintAcctData();
+  paintAcctPrefs();
+  paintMastAcct();
+  $('a-fcode').textContent = await ensureFcode();
+}
+function showAccount(){
+  $('splash').classList.add('hide');
+  $('homev').classList.add('hide');
+  $('switcher').classList.remove('hide');
+  document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
+  document.title = 'Account · ' + BRAND;
+  paintMastAcct();
+  try{ renderMenu(); }catch(e){ console.error('[account] menu', e); }
+  renderAccount().catch(e=> console.error('[account] render failed', e));
+}
+// Signed out there is no account to draw. Rather than an empty page or a
+// bounce to the shelf, the sign-in panel opens where the account would have
+// been, with one line saying what is behind it.
+function openAccountSignin(){
+  $('accountv').classList.add('hide');
+  const c = $('signctx');
+  if(c){
+    c.textContent = CLOUD
+      ? 'Your friend code, your username and your data live on the account'
+        + ' rather than on this device — sign in and the account page opens'
+        + ' on the other side.'
+      : 'The account page needs the sign-in service, and it did not load here.'
+        + ' Reload, or try again without a content blocker.';
+    c.classList.remove('hide');
+  }
+  openMastAuth();
+}
+
+$('b-fcopy').onclick = ()=> acctCopy($('a-fcode').textContent, 'Friend code copied.');
+$('b-fshare').onclick = ()=> acctCopy(friendLink(), 'Share link copied.');
+$('b-fnew').onclick = async ()=>{
+  if(!confirm('Make a new friend code? Every link you have already sent stops working.')) return;
+  const made = newFcode();
+  if(!await saveMeta({ fcode: made })){
+    flash('Could not change the code — try again in a moment.','a-msg'); return;
+  }
+  _fcode = Promise.resolve(made);
+  $('a-fcode').textContent = made;
+  flash('New code. The links you sent before are dead.','a-msg');
+};
+$('b-uname').onclick = async ()=>{
+  const v = $('a-user').value.trim().toLowerCase();
+  if(!/^[a-z0-9-]{3,20}$/.test(v)){
+    flash('3 to 20 characters — letters, digits and dashes.','a-msg'); return;
+  }
+  if(v === acctName()){ flash('That is already your username.','a-msg'); return; }
+  $('b-uname').disabled = true;
+  const ok = await saveMeta({ username: v });
+  $('b-uname').disabled = false;
+  if(!ok){ flash('Could not save that — try again in a moment.','a-msg'); return; }
+  paintAcctIdentity();
+  paintMastAcct();
+  flash('Every club you join from here sees you as ' + v + '.','a-msg');
+};
+$('b-dl').onclick = ()=>{
+  const a = $('a-dl');
+  // the previous blob is only safe to let go of once its download is long
+  // gone — revoking straight after the click cancels it in some browsers
+  if(a.href.indexOf('blob:') === 0) URL.revokeObjectURL(a.href);
+  a.href = URL.createObjectURL(new Blob(
+    [JSON.stringify(acctDump(), null, 2)], { type: 'application/json' }));
+  a.click();
+  flash('clubd-data.json saved.','a-msg');
+};
+$('b-del').onclick = ()=> $('a-delbox').classList.toggle('hide');
+$('b-delno').onclick = ()=> $('a-delbox').classList.add('hide');
+// CLU-11 builds the real cascade. Until it lands the request is a mail
+// nobody has to compose, addressed and worded for them.
+$('b-delgo').onclick = ()=>{
+  const who = ((ACCT || user || {}).email) || 'this address';
+  location.href = 'mailto:nathan@clubd.watch'
+    + '?subject=' + encodeURIComponent('Delete my clubd account')
+    + '&body=' + encodeURIComponent('Please delete the clubd account for '
+        + who + ', and everything attached to it.');
+};
+$('a-spoil').onchange = e=>{
+  try{ localStorage.setItem(SPOILKEY, e.target.checked ? '1' : '0'); }catch(err){}
+  flash(e.target.checked ? 'Spoiler-safe mode on.' : 'Spoiler-safe mode off.','a-msg');
+};
+$('a-pace').onchange = e=>{
+  const key = acctPaceKey();
+  if(!key) return;
+  PACEALL = e.target.checked;
+  try{ localStorage.setItem(key, PACEALL ? '1' : '0'); }catch(err){}
+  flash(PACEALL ? 'Extras count toward the finish date.'
+                : 'Extras no longer count toward the finish date.','a-msg');
+};
+// the same door the stats bar has, on a page that hides the stats bar
+$('b-acctout').onclick = async ()=>{
+  if(sb) await sb.auth.signOut();
+  location.href = '?home';
 };
 // A fresh device (or the new domain) has an empty localStorage even for a
 // signed-in account — home would show a stranger's splash to someone with
@@ -2245,9 +2784,13 @@ function prepSetup(another){
           + 'stacks onto one strip at the top of the page, and if the group has a finish '
           + 'date you can see who’s keeping up.'
         : 'Follow along with other people.');
+  // CLU-73: the account username is the default a club sees, ahead of the
+  // email prefix that used to stand in for it. A name already set inside a
+  // club still wins there — this only fills the box before you type.
   if(!$('gname').value){
     const mine = gmembers.find(m=> user && m.id === user.id);
     $('gname').value = (mine && mine.name)
+      || acctName()
       || (user.email||'').split('@')[0].slice(0,24);
   }
 }
@@ -3325,7 +3868,7 @@ function showSplash(){
   $('mast').classList.add('athome');
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
   document.title = BRAND;
-  paintMastAuth();
+  paintMastAcct();
   // a new user's home IS the card wall
   renderWall($('cards'));
 }
@@ -3658,7 +4201,7 @@ function showHome(){
   $('mast').classList.add('athome');
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
   document.title = BRAND;
-  paintMastAuth();
+  paintMastAcct();
   try{ renderMenu(); }catch(e){ console.error('[home] menu', e); }
   renderShelf(shelf);
   renderLedger();
@@ -4346,7 +4889,8 @@ document.addEventListener('visibilitychange', ()=>{
 checkBuild();
 refreshManifest();
 if(!SLUG){
-  showHome();
+  if(ACCOUNT) showAccount();
+  else showHome();
   // the banner must not depend on auth resolving: with the supabase script
   // blocked (private windows, blockers) onSession never fires, and the one
   // page migrating users see most went bannerless. Signed-out is the
@@ -4358,7 +4902,14 @@ if(!SLUG){
     sb.auth.onAuthStateChange((_e, session)=> onSession(session));
     sb.auth.getSession()
       .then(({data})=> onSession(data.session))
-      .catch(e=> console.error('[home] getSession failed', e));
+      .catch(e=>{
+        console.error('[home] getSession failed', e);
+        // the shelf still draws from localStorage; the account page has
+        // nothing to draw, so it says so rather than sitting empty
+        if(ACCOUNT) openAccountSignin();
+      });
+  }else if(ACCOUNT){
+    openAccountSignin();
   }
 } else {
 loadProperty().then(()=>{
