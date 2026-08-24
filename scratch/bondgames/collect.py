@@ -21,13 +21,16 @@ whose groups are the publisher eras. So:
 
 Everything fetched is cached next to this file so the run is reproducible.
 
-The howlongtobeatpy package installed here returns None for every query — its
-hard-coded search endpoint (api/s/) 404s against the current site. This script
-talks to HowLongToBeat's live search endpoint directly: GET
-/api/search/site/init for a token, then POST /api/search/site with that token
-in BOTH the headers and the payload (the site's own bundle sets
-payload[hpKey] = hpVal, and the request 404s without it). The verify-by-name
-gate itself is untouched — gwlib.hltb.story_hours still decides what counts.
+The howlongtobeatpy package is dead — its hard-coded search endpoint 404s
+against the current site and it returns None for every query instead of
+raising. The live protocol this script found (GET /api/search/site/init for
+a token, then POST /api/search/site with that token in BOTH the headers and
+the payload — the site's own bundle sets payload[hpKey] = hpVal and the
+request 404s without it) now lives in tools/gwlib/hltb.py, reconciled with
+the Mega Man collector's punctuation-splitting of search terms, and this
+uses it. The verify-by-name gate is still what decides: gwlib.hltb.
+story_hours, which returns nothing rather than a guess, and RAISES rather
+than returning nothing when the endpoint itself is broken.
 """
 import json
 import pathlib
@@ -48,56 +51,22 @@ HLTB = "https://howlongtobeat.com"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")
 
-
-class Row:
-    """The attribute shape gwlib.hltb.story_hours reads off a result."""
-
-    def __init__(self, d):
-        self.game_id = d.get("game_id")
-        self.game_name = d.get("game_name") or ""
-        self.release_world = d.get("release_world")
-        self.comp_main = d.get("comp_main") or 0
+Row = hltb.Result           # the attribute shape story_hours reads
+_HLTB_SESSION = []          # one live session for the whole run
 
 
 def hltb_search(name, session=None, cache=True):
-    """Raw HowLongToBeat search rows for `name`, disk-cached."""
+    """Raw HowLongToBeat search rows for `name`, disk-cached one file per
+    query so the misses stay reviewable next to the wikitext."""
     f = HERE / "hltb" / (re.sub(r"[^A-Za-z0-9]+", "-", name).strip("-") + ".json")
     if cache and f.exists():
         return json.loads(f.read_text(encoding="utf-8"))
-    s = session or requests.Session()
-    s.headers.update({"User-Agent": UA, "Referer": HLTB + "/",
-                      "Origin": HLTB, "accept": "*/*"})
-    auth = s.get(HLTB + "/api/search/site/init?t=%d" % (time.time() * 1000),
-                 timeout=45).json()
-    payload = {
-        "searchType": "games", "searchTerms": name.split(),
-        "searchPage": 1, "size": 20,
-        "searchOptions": {
-            "games": {"userId": 0, "platform": "", "sortCategory": "popular",
-                      "rangeCategory": "main",
-                      "rangeTime": {"min": None, "max": None},
-                      "gameplay": {"perspective": "", "flow": "",
-                                   "genre": "", "difficulty": ""},
-                      "rangeYear": {"max": "", "min": ""}, "modifier": ""},
-            "users": {"sortCategory": "postcount"},
-            "lists": {"sortCategory": "follows"},
-            "filter": "", "sort": 0, "randomizer": 0,
-        },
-        "useCache": True,
-    }
-    payload[auth["hpKey"]] = auth["hpVal"]
-    r = s.post(HLTB + "/api/search/site", json=payload, timeout=45, headers={
-        "Content-Type": "application/json", "x-auth-token": auth["token"],
-        "x-hp-key": auth["hpKey"], "x-hp-val": auth["hpVal"]})
-    r.raise_for_status()
-    rows = [{k: g.get(k) for k in
-             ("game_id", "game_name", "release_world", "comp_main",
-              "comp_plus", "comp_100")}
-            for g in r.json().get("data", [])]
+    if not _HLTB_SESSION:
+        _HLTB_SESSION.append(hltb.Session())
+    rows = _HLTB_SESSION[0].rows(name)
     f.parent.mkdir(parents=True, exist_ok=True)
     f.write_text(json.dumps(rows, indent=1, ensure_ascii=False) + "\n",
-                 encoding="utf-8")
-    time.sleep(1.5)
+                 encoding="utf-8", newline="\n")
     return rows
 
 ARTICLE = "List of James Bond video games"
@@ -171,7 +140,8 @@ def hltb_platforms(game_id, session=None):
            "game_name": name.group(1) if name else None,
            "platforms": plat.group(1).split(", ") if plat else []}
     f.parent.mkdir(parents=True, exist_ok=True)
-    f.write_text(json.dumps(out, indent=1) + "\n", encoding="utf-8")
+    f.write_text(json.dumps(out, indent=1) + "\n", encoding="utf-8",
+                 newline="\n")
     time.sleep(1.5)
     return out
 
@@ -297,12 +267,12 @@ def main():
             rows, err = [], "lookup failed: %s" % e
         else:
             err = None
-        # Two Bond games share a name ("GoldenEye 007", 1997 and 2010), so put
-        # the closest release year first: story_hours returns on its FIRST
-        # name match and would otherwise reject the 2010 game as a year
-        # mismatch against the 1997 one. The gate still checks both.
-        rows = sorted(rows, key=lambda d: abs((d.get("release_world") or 0)
-                                              - g["year"]))
+        # Two Bond games share a name ("GoldenEye 007", 1997 and 2010). The
+        # gate used to return on its FIRST name match and reject the 2010
+        # game as a year mismatch against the 1997 one, so this had to
+        # pre-sort by year distance; that workaround is now inside
+        # gwlib.hltb.story_hours, which considers name matches
+        # nearest-year-first and still checks the year on the one it picks.
         hours, rec, why = hltb.story_hours(name, year=g["year"],
                                            results=[Row(d) for d in rows])
         g["hltb_query"] = name
@@ -327,8 +297,11 @@ def main():
            "series_infobox": series,
            "conflated_hltb_entries": conflated,
            "games": games}
+    # newline="\n" or a Windows re-run rewrites every line with CRLF and the
+    # collector stops being byte-identical on a second pass
     (HERE / "games.json").write_text(
-        json.dumps(out, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+        json.dumps(out, indent=1, ensure_ascii=False) + "\n",
+        encoding="utf-8", newline="\n")
     print("\n%d games, %d weighted" % (len(games),
           sum(1 for g in games if g["hltb_hours"])))
 

@@ -15,6 +15,20 @@ hellboy.json, built and asserted by scratch/agent-books/parse_hellboy.py):
   series-level rows weighted by their volume counts.
 
 Links live on section headers only. Unit is the volume.
+
+ABOUT THE ROWS THAT CARRY NO `w`, because a weight audit will ask. This
+list weighs in VOLUMES, not hours — `weightUnit` says so — and a collected
+trade is exactly one volume. A row with no `w` is worth 1 downstream, which
+is not a fallback here but the correct figure, so the 47 main-line rows are
+fully weighted already and there is no gap to fill. The only rows that need
+a number are the four series-level spokes, which stand in for 9, 6, 5 and
+10 volumes apiece and say so.
+
+What would be wrong is converting to another unit. HowLongToBeat has
+nothing to say about comics, and issue counts are a DIFFERENT unit: putting
+issues on a volume-weighted list would silently change what every number on
+the page means. The count assert below is the guard — it adds the explicit
+spoke weights to the implicit one-per-trade and must equal 47 + 30.
 """
 import json
 import pathlib
@@ -135,6 +149,13 @@ def main():
     assert all(i == slugify(i) and i.isascii() for i in ids)
     assert not any("url" in x for s in sections for x in s["items"])
     assert all(s.get("links") for s in sections)
+    # A bare row is one volume — the unit's own value, not a missing figure.
+    # Only the series-level spokes stand in for more than one.
+    trades = [x for s in sections if s["id"] != "spokes" for x in s["items"]]
+    assert not any("w" in x for x in trades), \
+        "a trade row grew a weight; one trade is one volume by definition"
+    assert all(isinstance(x.get("w"), int) and x["w"] > 1 for x in spokes), \
+        "a spoke row must carry the volume count it stands in for"
     total_vols = sum(x.get("w", 1) for s in sections for x in s["items"])
     assert total_vols == 47 + 30, total_vols
 

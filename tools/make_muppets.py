@@ -10,6 +10,25 @@ Animated series tables — n is the years it ran, the note carries network and
 episode count (read from each series' own article infobox), and nothing is
 weighted, because a series-level row is a commitment, not an hour.
 
+WHY THE THIRTEEN SERIES ROWS CARRY NO NUMBER, written down so nobody has to
+guess later. Two reasons, either one sufficient:
+
+  * The list's own design. A series row is one tick for the whole show,
+    however much of it you watch — the sub and the intro both say so. Hours
+    would turn it into a completion target it was never meant to be, and
+    that is the owner's call to reverse, not this file's.
+  * There is nothing to multiply even if it were. No series here has a
+    per-episode runtime in any source this repo reads, and two of the
+    thirteen have no usable episode count at all: Wikipedia gives Sam and
+    Friends as "400+", which is not a number, and Muppet Moments none. A
+    fill that weighed eleven series and left two bare would be worse than
+    weighing none, because in a weighted list a bare row silently counts as
+    one hour — 120 episodes of The Muppet Show and one unweighted row would
+    then read as the same commitment.
+
+The films' 8 rows and the shows' 13 therefore sit at different scales on
+purpose, which the first note on the property says out loud.
+
 Data: tools/data/muppets.json, built by scratch/agent-canons/collect_muppets.py.
 """
 import json
@@ -88,6 +107,19 @@ def main():
     assert len(ids) == len(set(ids)), \
         "duplicate ids: %s" % sorted({i for i in ids if ids.count(i) > 1})[:6]
     assert len(ids) == len(films) + len(tv_items)
+
+    # Every film weighted, no series weighted — all or nothing per section.
+    # A half-weighted section is the failure mode: an unweighted row in a
+    # weighted list is silently worth one hour downstream.
+    assert all("w" in x for x in film_items), "a film lost its runtime"
+    assert not any("w" in x for x in tv_items), \
+        "a series row grew a weight — see the docstring before allowing it"
+    # and the reason the arithmetic route is closed, checked rather than
+    # remembered: not every series even has a countable episode figure
+    assert any(not str(s.get("episodes") or "").isdigit()
+               for s, _ in tv), \
+        "every series now has a plain episode count — the 'nothing to " \
+        "multiply' half of the docstring needs revisiting"
 
     prop = {
         "slug": SLUG,
