@@ -378,8 +378,20 @@ footer a{color:var(--steel)}
   display:grid;place-items:center;font-family:"IBM Plex Mono",monospace;
   font-size:11px;font-weight:500;color:var(--signal);
   background:color-mix(in srgb,var(--signal) 16%,var(--card))}
-#b-baracct{display:inline-grid;place-items:center;width:30px;height:30px;
+#b-baracct{display:inline-flex;align-items:center;justify-content:center;gap:3px;
+  min-width:30px;height:30px;padding:0 4px;
   border-radius:99px;border:1px solid var(--rule-2);text-decoration:none}
+/* the open-requests badge: someone is waiting behind this pill */
+.reqn{min-width:15px;height:15px;padding:0 4px;border-radius:99px;flex:none;
+  background:var(--signal);color:var(--paper);text-align:center;
+  font:600 9.5px/15px "IBM Plex Mono",monospace}
+.reqn.hide{display:none}
+#fnote{position:fixed;top:64px;left:max(20px, calc(50% - 430px));z-index:79;
+  max-width:min(560px, calc(100vw - 40px));background:var(--card);
+  border:1px solid var(--rule-2);border-radius:8px;padding:10px 15px;
+  font-size:13.5px;box-shadow:0 14px 34px -16px rgba(0,0,0,.4)}
+#fnote.hide{display:none}
+@media (max-width:560px){#fnote{top:74px;left:14px;right:14px;max-width:none}}
 #b-baracct:hover{border-color:var(--signal)}
 #b-baracct.hide{display:none}
 #b-mastacct .mnm{max-width:14ch;overflow:hidden;text-overflow:ellipsis;
@@ -707,9 +719,12 @@ footer a{color:var(--steel)}
   <button id="b-mastauth" class="mastsign hide" type="button">Sign in</button>
   <a id="b-mastacct" class="hide" href="?account" title="Your account">
     <span class="ini" id="mastacct-i" aria-hidden="true"></span>
-    <span class="mnm" id="mastacct-t"></span>
+    <span class="mnm" id="mastacct-t"></span><span class="reqn hide" id="mastacct-n"></span>
   </a>
 </div>
+
+<!-- friend-action notices float here so they exist on EVERY view -->
+<div id="fnote" class="hide" role="status"></div>
 
 <div class="splash hide" id="splash">
   <div class="splash-in">
@@ -727,6 +742,8 @@ footer a{color:var(--steel)}
     <div id="hshelf"></div>
     <div class="hsec">Lately</div>
     <div id="hledger"></div>
+    <div class="hsec hide" id="hreq-h">Friend requests</div>
+    <div class="hide" id="hreqs"></div>
     <div class="hsec hide" id="hfr-h">Friends</div>
     <div class="hled hide" id="hfr-msg" style="cursor:default;border-top:0;font-size:12.5px"></div>
     <div class="hide" id="hfriends"></div>
@@ -751,6 +768,12 @@ footer a{color:var(--steel)}
     <p class="acap hide" id="a-wait">opening your account…</p>
     <p class="asub" id="a-who"></p>
     <p id="a-msg" style="margin:9px 0 0;min-height:19px;font-size:13px;color:var(--signal)"></p>
+
+    <!-- the inbox (CLU-102): zero requests, zero pixels -->
+    <div class="acard hide" id="a-reqcard">
+      <div class="ak">friend requests</div>
+      <div id="a-reqs"></div>
+    </div>
 
     <div class="acard">
       <div class="ak">friend code</div>
@@ -893,7 +916,7 @@ footer a{color:var(--steel)}
       <button id="b-signin" class="hide">Sign in</button>
       <!-- sign out moved to the account page (CLU-98); the bar shows the
            one-character door to it instead -->
-      <a id="b-baracct" class="hide" href="?account" title="Your account"><span class="ini" id="baracct-i"></span></a>
+      <a id="b-baracct" class="hide" href="?account" title="Your account"><span class="ini" id="baracct-i"></span><span class="reqn hide" id="baracct-n"></span></a>
     </div>
   </div>
 </div>
@@ -3177,7 +3200,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '35932b16643f';
+const BUILD = '6aafbe6e8372';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -3772,6 +3795,7 @@ async function onSession(session){
   paint();
   moveBanner();
   paintMastAcct();
+  renderFriends();   // list pages want the request badge on the pills
   // off the critical path: the first load fetches the index once, every
   // later load exits on the flag before any network
   setTimeout(backfillSync, 1200);
@@ -4225,6 +4249,7 @@ async function renderAccount(){
   paintAcctData();
   paintAcctPrefs();
   paintMastAcct();
+  renderFriends();
   ensureFcode().then(c=>{ $('a-fcode').textContent = c; mirrorProfile(); });
   acctUser().then(()=>{
     paintAcctIdentity();
@@ -4388,7 +4413,9 @@ async function mirrorProfile(){
   try{
     const { error } = await sb.from('profiles').upsert(
       { user_id: user.id, fcode: acctMeta().fcode || null,
-        username: acctName() || null,
+        // never mirror a nameless profile — the email prefix stands in
+        // until a username is chosen, so friends see a person, not "someone"
+        username: acctName() || (user.email || '').split('@')[0] || null,
         updated_at: new Date().toISOString() },
       { onConflict: 'user_id' });
     if(error) FBROKEN = true;
@@ -4402,11 +4429,12 @@ async function friendByCode(raw){
   const code = normFcode(raw);
   if(!code) return { err: 'Codes look like CLB·XXXX.' };
   const { data, error } = await sb.from('profiles')
-    .select('user_id,username').eq('fcode', code).maybeSingle();
+    .select('user_id,username,fcode').eq('fcode', code).maybeSingle();
   if(error) return { err: 'Friends need one more piece of setup — try again shortly.' };
   if(!data) return { err: 'No one holds that code.' };
   if(data.user_id === user.id) return { err: 'That one is yours.' };
-  return { id: data.user_id, name: data.username || 'them' };
+  // a nameless profile is still somebody — their code names them
+  return { id: data.user_id, name: data.username || data.fcode || 'them' };
 }
 async function addFriend(target){
   // one direction; a duplicate insert is how "already sent" is detected
@@ -4428,7 +4456,9 @@ function friendMsg(r){
     : 'Friend request sent to ' + r.name
       + ' — when they add your code back, you’re linked.';
 }
-// friend outcomes are good news (or at worst neutral) — never error-red
+// friend outcomes are good news (or at worst neutral) — never error-red,
+// and never invisible: the fixed pill under the mast works on every view,
+// including the splash, where the page's other message homes are hidden
 function friendNotify(r, acct){
   const text = r.err || friendMsg(r);
   if(acct){
@@ -4437,6 +4467,13 @@ function friendNotify(r, acct){
     if(m) m.style.color = r.err ? '' : 'var(--done)';
     return;
   }
+  const f = $('fnote');
+  if(f){
+    f.textContent = text;
+    f.style.color = r.err ? 'var(--ink)' : 'var(--done)';
+    f.classList.remove('hide');
+    setTimeout(()=>{ if(f.textContent === text) f.classList.add('hide'); }, 9000);
+  }
   const n = $('hfr-msg');
   if(n){
     n.textContent = text;
@@ -4444,7 +4481,6 @@ function friendNotify(r, acct){
     n.classList.remove('hide');
     setTimeout(()=>{ if(n.textContent === text) n.classList.add('hide'); }, 12000);
   }
-  flash(text);
 }
 async function addFriendFlow(raw){
   const t = await friendByCode(raw);
@@ -4480,58 +4516,115 @@ async function settlePendingFriend(){
   friendNotify(r, false);
   if(!r.err) renderFriends();
 }
-// the home section: mutual friends, then people waiting on one side
-async function renderFriends(){
-  const h = $('hfr-h'), host = $('hfriends');
-  if(!h || !host) return;
-  const off = ()=>{ h.classList.add('hide'); host.classList.add('hide'); };
-  if(!user || !sb || FBROKEN){ off(); return; }
-  let edges;
-  try{
-    const { data, error } = await sb.from('friendships').select('a,b')
-      .or('a.eq.' + user.id + ',b.eq.' + user.id);
-    if(error){ FBROKEN = true; off(); return; }
-    edges = data || [];
-  }catch(e){ off(); return; }
+// One fetch feeds everything social: the inbox (home + account), the
+// friends list, and the request badges on the pills.
+async function fetchFriendEdges(){
+  const { data, error } = await sb.from('friendships').select('a,b')
+    .or('a.eq.' + user.id + ',b.eq.' + user.id);
+  if(error) return null;
   const out = new Set(), inn = new Set();
-  edges.forEach(e=>{ e.a === user.id ? out.add(e.b) : inn.add(e.a); });
+  (data || []).forEach(e=>{ e.a === user.id ? out.add(e.b) : inn.add(e.a); });
   const ids = [...new Set([...out, ...inn])];
-  h.classList.remove('hide');
-  host.classList.remove('hide');
-  if(!ids.length){
-    host.innerHTML = '<div class="hled" style="cursor:default">'
-      + '<span class="hlt" style="color:var(--ink-3)">Share your friend code'
-      + ' from the account page and they land here.</span></div>';
+  const names = {};
+  if(ids.length){
+    try{
+      const r = await sb.from('profiles')
+        .select('user_id,username,fcode').in('user_id', ids);
+      // a stale profile may be nameless — their code still names them
+      (r.data || []).forEach(p=>{ names[p.user_id] = p.username || p.fcode; });
+    }catch(e){}
+  }
+  return { out, inn, ids, names };
+}
+function updateReqBadge(n){
+  ['mastacct-n', 'baracct-n'].forEach(id=>{
+    const el = $(id);
+    if(!el) return;
+    el.textContent = n > 9 ? '9+' : String(n);
+    el.classList.toggle('hide', !n);
+  });
+}
+// Declining removes THEIR direction — the edge pointing at you. Allowed
+// by the CLU-102 policy; before it runs, this reports honestly.
+async function declineFriend(id, name){
+  const del = await sb.from('friendships').delete()
+    .eq('a', id).eq('b', user.id).select();
+  if(del.error || !(del.data || []).length)
+    return { err: 'Decline needs one more line of setup (CLU-102) — Accept works meanwhile.' };
+  return { name };
+}
+// The inbox rule: zero requests, zero pixels — on home and account alike.
+async function renderFriends(){
+  const spots = [
+    { h: $('hreq-h'), r: $('hreqs'), acct: false },
+    { h: $('a-reqcard'), r: $('a-reqs'), acct: true },
+  ];
+  const fh = $('hfr-h'), fhost = $('hfriends');
+  const offAll = ()=>{
+    spots.forEach(s=>{
+      if(s.h) s.h.classList.add('hide');
+      if(s.r) s.r.classList.add('hide');
+    });
+    if(fh) fh.classList.add('hide');
+    if(fhost) fhost.classList.add('hide');
+    updateReqBadge(0);
+  };
+  if(!user || !sb || FBROKEN){ offAll(); return; }
+  let E = null;
+  try{ E = await fetchFriendEdges(); }catch(e){}
+  if(!E){ FBROKEN = true; offAll(); return; }
+  const nm = id=> E.names[id] || 'someone';
+  const incoming = E.ids.filter(i=> !E.out.has(i) && E.inn.has(i));
+  updateReqBadge(incoming.length);
+  spots.forEach(s=>{
+    if(!s.h || !s.r) return;
+    const on = incoming.length > 0;
+    s.h.classList.toggle('hide', !on);
+    s.r.classList.toggle('hide', !on);
+    if(!on){ s.r.innerHTML = ''; return; }
+    s.r.innerHTML = incoming.map(i=>
+      '<div class="hled" style="cursor:default"><span class="hlt"><b>'
+      + esc(nm(i)) + '</b> wants to be friends</span>'
+      + '<span style="margin-left:auto;display:flex;gap:8px;flex:none">'
+      + '<button class="abtn" data-acc="' + esc(i) + '">Accept</button>'
+      + '<button class="abtn" data-dec="' + esc(i) + '">Decline</button>'
+      + '</span></div>').join('');
+    s.r.querySelectorAll('button[data-acc]').forEach(b=>{
+      b.onclick = async ()=>{
+        const r = await addFriend({ id: b.dataset.acc, name: nm(b.dataset.acc) });
+        friendNotify(r, s.acct);
+        renderFriends();
+      };
+    });
+    s.r.querySelectorAll('button[data-dec]').forEach(b=>{
+      b.onclick = async ()=>{
+        const r = await declineFriend(b.dataset.dec, nm(b.dataset.dec));
+        if(r.err){ friendNotify(r, s.acct); return; }
+        flash('Declined.', s.acct ? 'a-msg' : undefined);
+        renderFriends();
+      };
+    });
+  });
+  // the friends list itself only lives on home
+  if(!fh || !fhost) return;
+  if($('homev').classList.contains('hide')){
+    fh.classList.add('hide');
+    fhost.classList.add('hide');
     return;
   }
-  const names = {};
-  try{
-    const { data } = await sb.from('profiles')
-      .select('user_id,username').in('user_id', ids);
-    (data || []).forEach(p=>{ names[p.user_id] = p.username; });
-  }catch(e){}
-  const row = (id, status, act)=>
+  fh.classList.remove('hide');
+  fhost.classList.remove('hide');
+  const mut = E.ids.filter(i=> E.out.has(i) && E.inn.has(i));
+  const waiting = E.ids.filter(i=> E.out.has(i) && !E.inn.has(i));
+  const row = (id, status)=>
     '<div class="hled" style="cursor:default"><span class="hlt"><b>'
-    + esc(names[id] || 'someone') + '</b></span>'
-    + (act ? '<button class="abtn" data-addback="' + esc(id)
-        + '" style="margin-left:10px">Add back</button>' : '')
-    + '<span class="hlw">' + status + '</span></div>';
-  const mut = ids.filter(i=> out.has(i) && inn.has(i));
-  const incoming = ids.filter(i=> !out.has(i) && inn.has(i));
-  const waiting = ids.filter(i=> out.has(i) && !inn.has(i));
-  host.innerHTML =
-      mut.map(i=> row(i, 'friends', false)).join('')
-    + incoming.map(i=> row(i, 'added you', true)).join('')
-    + waiting.map(i=> row(i, 'waiting on them', false)).join('');
-  host.querySelectorAll('button[data-addback]').forEach(b=>{
-    b.onclick = async ()=>{
-      const r = await addFriend({ id: b.dataset.addback,
-        name: names[b.dataset.addback] || 'them' });
-      if(r.err){ flash(r.err); return; }
-      flash('You and ' + r.name + ' are friends now.');
-      renderFriends();
-    };
-  });
+    + esc(nm(id)) + '</b></span><span class="hlw">' + status + '</span></div>';
+  fhost.innerHTML = (mut.length || waiting.length)
+    ? mut.map(i=> row(i, 'friends')).join('')
+      + waiting.map(i=> row(i, 'waiting on them')).join('')
+    : '<div class="hled" style="cursor:default">'
+      + '<span class="hlt" style="color:var(--ink-3)">Share your friend code'
+      + ' from the account page and they land here.</span></div>';
 }
 
 // The move warning: localStorage is per-origin, so anonymous ticks stay
