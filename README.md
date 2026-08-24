@@ -1,13 +1,13 @@
-# GroupWatch
+# clubd
 
 A group tracker for anything you work through in order — a comic run, an anime,
-a show, a film series.
+a show, a film series. Formerly GroupWatch.
 
 Tick off what you've read or watched. Share a six-character code and everyone's
 progress stacks onto a single strip, a colour per person, so you can see at a
 glance who's ahead and who's fallen behind.
 
-**[Open it →](https://nathanclayton27.github.io/groupwatch/)**
+**[Open it →](https://clubd.watch)**
 
 ## What's in it
 
