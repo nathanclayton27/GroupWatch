@@ -6,5 +6,11 @@
 useDefault = true
 
 [allowlist]
-description = "Public-by-design values"
-regexes = ['''sb_publishable_[A-Za-z0-9_-]+''']
+description = "Public-by-design values and catalog identifiers"
+regexes = [
+  '''sb_publishable_[A-Za-z0-9_-]+''',
+  # lowercase kebab-case slugs and row ids (hickman-secret-wars,
+  # secret-warriors-28) trip the generic rule when a catalog rebuild
+  # rewrites search.json's single line; no credential has this shape
+  '''^[a-z0-9]+(?:[.-][a-z0-9]+)+$''',
+]

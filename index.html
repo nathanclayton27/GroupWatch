@@ -399,6 +399,10 @@ footer a{color:var(--steel)}
 .cbar span{flex:1 1 0;min-width:0;background:var(--rule);height:55%;border-radius:1px}
 .cbar span.on{height:100%}
 /* home — the shelf-and-ledger merge; splash stays for strangers */
+.phome{display:block;width:100%;text-align:left;font:inherit;font-size:13.5px;
+  background:none;border:0;border-bottom:1px solid var(--rule);
+  padding:11px 12px;cursor:pointer;color:var(--ink-2)}
+.phome:hover{color:var(--signal)}
 .homep{min-height:100vh;padding:56px 20px 90px}
 .homep-in{max-width:820px;margin:0 auto}
 .hsec{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);
@@ -2825,7 +2829,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '3ab41b93c50f';
+const BUILD = '5cc3c9608ee3';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -4679,10 +4683,12 @@ function renderMediaChips(){
 
 function renderMenu(){
   $('pmenu').innerHTML =
-      '<div class="psearch"><input type="text" id="pfind" placeholder="Search"'
+      '<button class="phome" id="p-home" type="button">&#8962; Your shelf</button>'
+    + '<div class="psearch"><input type="text" id="pfind" placeholder="Search"'
     + ' autocomplete="off" spellcheck="false" aria-label="Search what you track"></div>'
     + '<div id="pmedia"></div>'
     + '<div id="phits"></div>';
+  $('p-home').onclick = ()=>{ location.href = location.pathname + '?home'; };
   renderMediaChips();
   filterMenu('');
   const find = $('pfind');
