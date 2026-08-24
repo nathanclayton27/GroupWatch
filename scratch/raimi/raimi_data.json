@@ -1,0 +1,528 @@
+{
+ "films": [
+  {
+   "t": "It's Murder!",
+   "page": "It's Murder!",
+   "year": 1978,
+   "tablenote": "Amateur film; also uncredited sound mixer",
+   "wrote": true,
+   "runtime": 70,
+   "qid": "Q3155790",
+   "pubyears": [
+    1977
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "The Evil Dead",
+   "page": "The Evil Dead",
+   "year": 1981,
+   "tablenote": "",
+   "wrote": true,
+   "runtime": 85,
+   "qid": "Q327604",
+   "pubyears": [
+    1981,
+    1984
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Crimewave",
+   "page": "Crimewave",
+   "year": 1985,
+   "tablenote": "",
+   "wrote": true,
+   "runtime": 85,
+   "qid": "Q2633261",
+   "pubyears": [
+    1985
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Evil Dead II",
+   "page": "Evil Dead II",
+   "year": 1987,
+   "tablenote": "",
+   "wrote": true,
+   "runtime": 85,
+   "qid": "Q750028",
+   "pubyears": [
+    1987,
+    1988
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Darkman",
+   "page": "Darkman",
+   "year": 1990,
+   "tablenote": "",
+   "wrote": true,
+   "runtime": 95,
+   "qid": "Q1166264",
+   "pubyears": [
+    1990
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Army of Darkness",
+   "page": "Army of Darkness",
+   "year": 1992,
+   "tablenote": "credited as \"R.O.C. Sandstorm\"",
+   "wrote": true,
+   "runtime": 81,
+   "qid": "Q471992",
+   "pubyears": [
+    1992,
+    1993
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "The Quick and the Dead",
+   "page": "The Quick and the Dead (1995 film)",
+   "year": 1995,
+   "tablenote": "",
+   "wrote": false,
+   "runtime": 103,
+   "qid": "Q756416",
+   "pubyears": [
+    1995
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "A Simple Plan",
+   "page": "A Simple Plan (film)",
+   "year": 1998,
+   "tablenote": "",
+   "wrote": false,
+   "runtime": 121,
+   "qid": "Q564958",
+   "pubyears": [
+    1998,
+    1999
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "For Love of the Game",
+   "page": "For Love of the Game (film)",
+   "year": 1999,
+   "tablenote": "",
+   "wrote": false,
+   "runtime": 138,
+   "qid": "Q777591",
+   "pubyears": [
+    1999,
+    2000
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "The Gift",
+   "page": "The Gift (2000 film)",
+   "year": 2000,
+   "tablenote": "",
+   "wrote": false,
+   "runtime": 111,
+   "qid": "Q246711",
+   "pubyears": [
+    2000,
+    2001
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Spider-Man",
+   "page": "Spider-Man (2002 film)",
+   "year": 2002,
+   "tablenote": "",
+   "wrote": false,
+   "runtime": 121,
+   "qid": "Q484442",
+   "pubyears": [
+    2002
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Spider-Man 2",
+   "page": "Spider-Man 2",
+   "year": 2004,
+   "tablenote": "",
+   "wrote": false,
+   "runtime": 122,
+   "qid": "Q190145",
+   "pubyears": [
+    2004
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Spider-Man 3",
+   "page": "Spider-Man 3",
+   "year": 2007,
+   "tablenote": "",
+   "wrote": true,
+   "runtime": 139,
+   "qid": "Q182212",
+   "pubyears": [
+    2007
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Drag Me to Hell",
+   "page": "Drag Me to Hell",
+   "year": 2009,
+   "tablenote": "",
+   "wrote": true,
+   "runtime": 99,
+   "qid": "Q632737",
+   "pubyears": [
+    2009
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Oz the Great and Powerful",
+   "page": "Oz the Great and Powerful",
+   "year": 2013,
+   "tablenote": "",
+   "wrote": false,
+   "runtime": 127,
+   "qid": "Q590216",
+   "pubyears": [
+    2013
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Doctor Strange in the Multiverse of Madness",
+   "page": "Doctor Strange in the Multiverse of Madness",
+   "year": 2022,
+   "tablenote": "",
+   "wrote": false,
+   "runtime": 127,
+   "qid": "Q64211112",
+   "pubyears": [
+    2021,
+    2022
+   ],
+   "runtime_src": "wikidata"
+  },
+  {
+   "t": "Send Help",
+   "page": "Send Help",
+   "year": 2026,
+   "tablenote": "",
+   "wrote": false,
+   "runtime": 113,
+   "qid": "Q132200341",
+   "pubyears": [
+    2026
+   ],
+   "runtime_src": "wikidata"
+  }
+ ],
+ "episodes": [
+  {
+   "season": 1,
+   "overall": 1,
+   "num": 1,
+   "t": "El Jefe",
+   "year": 2015,
+   "director": "Sam Raimi",
+   "writers": "Sam Raimi & Ivan Raimi and Tom Spezialy"
+  },
+  {
+   "season": 1,
+   "overall": 2,
+   "num": 2,
+   "t": "Bait",
+   "year": 2015,
+   "director": "M. J. Bassett",
+   "writers": "Dominic Dierkes"
+  },
+  {
+   "season": 1,
+   "overall": 3,
+   "num": 3,
+   "t": "Books from Beyond",
+   "year": 2015,
+   "director": "M. J. Bassett",
+   "writers": "Sean Clements"
+  },
+  {
+   "season": 1,
+   "overall": 4,
+   "num": 4,
+   "t": "Brujo",
+   "year": 2015,
+   "director": "David Frazee",
+   "writers": "James E. Eagan"
+  },
+  {
+   "season": 1,
+   "overall": 5,
+   "num": 5,
+   "t": "The Host",
+   "year": 2015,
+   "director": "David Frazee",
+   "writers": "Zoë Green"
+  },
+  {
+   "season": 1,
+   "overall": 6,
+   "num": 6,
+   "t": "The Killer of Killers",
+   "year": 2015,
+   "director": "Michael Hurst",
+   "writers": "Nate Crocker"
+  },
+  {
+   "season": 1,
+   "overall": 7,
+   "num": 7,
+   "t": "Fire in the Hole",
+   "year": 2015,
+   "director": "Michael Hurst",
+   "writers": "Sean Clements, Dominic Dierkes and Ivan Raimi"
+  },
+  {
+   "season": 1,
+   "overall": 8,
+   "num": 8,
+   "t": "Ashes to Ashes",
+   "year": 2015,
+   "director": "Tony Tilse",
+   "writers": "M. J. Bassett"
+  },
+  {
+   "season": 1,
+   "overall": 9,
+   "num": 9,
+   "t": "Bound in Flesh",
+   "year": 2015,
+   "director": "Tony Tilse",
+   "writers": "Rob Wright"
+  },
+  {
+   "season": 1,
+   "overall": 10,
+   "num": 10,
+   "t": "The Dark One",
+   "year": 2016,
+   "director": "Rick Jacobson",
+   "writers": "Craig DiGregorio"
+  },
+  {
+   "season": 2,
+   "overall": 11,
+   "num": 1,
+   "t": "Home",
+   "year": 2016,
+   "director": "Rick Jacobson",
+   "writers": "Craig DiGregorio"
+  },
+  {
+   "season": 2,
+   "overall": 12,
+   "num": 2,
+   "t": "The Morgue",
+   "year": 2016,
+   "director": "Tony Tilse",
+   "writers": "Cameron Welsh"
+  },
+  {
+   "season": 2,
+   "overall": 13,
+   "num": 3,
+   "t": "Last Call",
+   "year": 2016,
+   "director": "Tony Tilse",
+   "writers": "Noelle Valdivia"
+  },
+  {
+   "season": 2,
+   "overall": 14,
+   "num": 4,
+   "t": "DUI",
+   "year": 2016,
+   "director": "M. J. Bassett",
+   "writers": "Ivan Raimi"
+  },
+  {
+   "season": 2,
+   "overall": 15,
+   "num": 5,
+   "t": "Confinement",
+   "year": 2016,
+   "director": "M. J. Bassett",
+   "writers": "William Bromell"
+  },
+  {
+   "season": 2,
+   "overall": 16,
+   "num": 6,
+   "t": "Trapped Inside",
+   "year": 2016,
+   "director": "Mark Beesley",
+   "writers": "James E. Eagan"
+  },
+  {
+   "season": 2,
+   "overall": 17,
+   "num": 7,
+   "t": "Delusion",
+   "year": 2016,
+   "director": "Mark Beesley",
+   "writers": "Hank Chilton"
+  },
+  {
+   "season": 2,
+   "overall": 18,
+   "num": 8,
+   "t": "Ashy Slashy",
+   "year": 2016,
+   "director": "Tony Tilse",
+   "writers": "Suzanne Keilly and Aaron Lam"
+  },
+  {
+   "season": 2,
+   "overall": 19,
+   "num": 9,
+   "t": "Home Again",
+   "year": 2016,
+   "director": "Rick Jacobson",
+   "writers": "Jennifer Ames & Steve Turner"
+  },
+  {
+   "season": 2,
+   "overall": 20,
+   "num": 10,
+   "t": "Second Coming",
+   "year": 2016,
+   "director": "Rick Jacobson",
+   "writers": "Luke Kalteux"
+  },
+  {
+   "season": 3,
+   "overall": 21,
+   "num": 1,
+   "t": "Family",
+   "year": 2018,
+   "director": "Mark Beesley",
+   "writers": "Mark Verheiden"
+  },
+  {
+   "season": 3,
+   "overall": 22,
+   "num": 2,
+   "t": "Booth Three",
+   "year": 2018,
+   "director": "Mark Beesley",
+   "writers": "Rob Fresco"
+  },
+  {
+   "season": 3,
+   "overall": 23,
+   "num": 3,
+   "t": "Apparently Dead",
+   "year": 2018,
+   "director": "Diego & Andres Meza-Valdes",
+   "writers": "Ivan Raimi"
+  },
+  {
+   "season": 3,
+   "overall": 24,
+   "num": 4,
+   "t": "Unfinished Business",
+   "year": 2018,
+   "director": "Daniel Nettheim",
+   "writers": "Nicki Paluga"
+  },
+  {
+   "season": 3,
+   "overall": 25,
+   "num": 5,
+   "t": "Baby Proof",
+   "year": 2018,
+   "director": "Daniel Nettheim",
+   "writers": "Luke Kalteaux"
+  },
+  {
+   "season": 3,
+   "overall": 26,
+   "num": 6,
+   "t": "Tales from the Rift",
+   "year": 2018,
+   "director": "Regan Hall",
+   "writers": "Aaron Lam"
+  },
+  {
+   "season": 3,
+   "overall": 27,
+   "num": 7,
+   "t": "Twist and Shout",
+   "year": 2018,
+   "director": "Mark Beesley",
+   "writers": "Caitlin Meares"
+  },
+  {
+   "season": 3,
+   "overall": 28,
+   "num": 8,
+   "t": "Rifting Apart",
+   "year": 2018,
+   "director": "Mark Beesley",
+   "writers": "Bryan Hill"
+  },
+  {
+   "season": 3,
+   "overall": 29,
+   "num": 9,
+   "t": "Judgement Day",
+   "year": 2018,
+   "director": "Rick Jacobson",
+   "writers": "Rick Jacobson"
+  },
+  {
+   "season": 3,
+   "overall": 30,
+   "num": 10,
+   "t": "The Mettle of Man",
+   "year": 2018,
+   "director": "Rick Jacobson",
+   "writers": "Rick Jacobson"
+  }
+ ],
+ "series": {
+  "runtime_field": "25–37 minutes, 41 minutes (pilot)",
+  "declared_episodes": 30,
+  "declared_seasons": 3,
+  "developer": [
+   "Sam Raimi",
+   "Ivan Raimi",
+   "Tom Spezialy"
+  ],
+  "executive_producer": [
+   "Rob Tapert",
+   "Sam Raimi",
+   "Bruce Campbell",
+   "Craig DiGregorio",
+   "Rob Wright",
+   "Ivan Raimi"
+  ],
+  "channel": "Starz",
+  "overview": {
+   "1": 10,
+   "2": 10,
+   "3": 10
+  }
+ }
+}
