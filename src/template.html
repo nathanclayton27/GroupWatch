@@ -3129,7 +3129,19 @@ function filterMenu(q){
   };
 
   let html;
-  if(!hits.length){
+  if(!needle){
+    // at rest the menu is a shortlist, not a catalogue: the shelf row above,
+    // your favourites here, and one door to the wall. Typing anything opens
+    // the whole collection (Nathan's quiet-menu rule, CLU-56).
+    const fav = list.filter(m=> st.has(m.slug));
+    html = (fav.length
+        ? '<div class="pgroup">Favourites</div>' + fav.map(row).join('')
+        : '<div class="pnone">Star a list and it lives here.</div>')
+      + '<button class="prow" id="p-wall">'
+      + '<span class="pm-t"><span class="pm-n">The catalogue</span></span>'
+      + '<span class="pm-m">all ' + list.length + ' lists, on the wall</span>'
+      + '</button>';
+  }else if(!hits.length){
     html = '<div class="pnone">Nothing matches “'+esc(q.trim())+'”</div>';
   }else{
     const fav = hits.filter(m=> st.has(m.slug));
@@ -3181,6 +3193,8 @@ function filterMenu(q){
       go(slug);
     };
   });
+  const pw = $('p-wall');
+  if(pw) pw.onclick = ()=>{ location.href = location.pathname + '?home'; };
 }
 
 function showGate(){
