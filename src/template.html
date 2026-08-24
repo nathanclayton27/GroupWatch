@@ -345,7 +345,7 @@ footer a{color:var(--steel)}
    has to clear a small fixed lane (CLU-84) */
 .mast.mini .mast-t,.mast.mini #b-prop-t,.mast.mini .chev{display:none}
 @media (min-width:561px){
-  .bar.stuck .bar-in{padding-left:134px}
+  .bar.stuck .bar-in{padding-left:158px}
 }
 /* option B (CLU-74): the home cluster is an opaque pill like the switcher
    button, so content scrolling behind never collides with the wordmark */
@@ -374,10 +374,14 @@ footer a{color:var(--steel)}
   border:1px solid var(--rule-2);border-radius:99px;padding:4px 12px 4px 5px;
   font-size:12.5px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
 #b-mastacct:hover{border-color:var(--ink-2)}
-#b-mastacct .ini{width:21px;height:21px;border-radius:99px;flex:none;
+#b-mastacct .ini,#b-baracct .ini{width:21px;height:21px;border-radius:99px;flex:none;
   display:grid;place-items:center;font-family:"IBM Plex Mono",monospace;
   font-size:11px;font-weight:500;color:var(--signal);
   background:color-mix(in srgb,var(--signal) 16%,var(--card))}
+#b-baracct{display:inline-grid;place-items:center;width:30px;height:30px;
+  border-radius:99px;border:1px solid var(--rule-2);text-decoration:none}
+#b-baracct:hover{border-color:var(--signal)}
+#b-baracct.hide{display:none}
 #b-mastacct .mnm{max-width:14ch;overflow:hidden;text-overflow:ellipsis;
   white-space:nowrap}
 /* on the account page the chip is where you already are — pressed, not a way
@@ -884,7 +888,9 @@ footer a{color:var(--steel)}
       <span class="dot" id="dot"></span>
       <span class="lbl" id="state">Starting up</span>
       <button id="b-signin" class="hide">Sign in</button>
-      <button id="b-signout" class="hide">Sign out</button>
+      <!-- sign out moved to the account page (CLU-98); the bar shows the
+           one-character door to it instead -->
+      <a id="b-baracct" class="hide" href="?account" title="Your account"><span class="ini" id="baracct-i"></span></a>
     </div>
   </div>
 </div>
@@ -1545,7 +1551,8 @@ async function onSession(session){
   }
   if(user){
     $('b-signin').classList.add('hide');
-    $('b-signout').classList.remove('hide');
+    $('b-baracct').classList.remove('hide');
+    $('baracct-i').textContent = (acctName() || (user.email || 'y')).charAt(0).toUpperCase();
     $('signin').classList.add('hide');
     state(user.email || 'Signed in','ok');
     try{ await adopt(); }
@@ -1562,7 +1569,7 @@ async function onSession(session){
     // they were promised should still be waiting for them
     if(PROP && PROP.group) await joinSecretGroup();
   }else{
-    $('b-signout').classList.add('hide');
+    $('b-baracct').classList.add('hide');
     if(CLOUD) $('b-signin').classList.remove('hide');
     done = readLocal();
     state(CLOUD ? 'Not signed in' : 'Saved on this device','');
@@ -4793,7 +4800,7 @@ $('pscope-cb').onchange = e=>{
 };
 $('b-signin').onclick = ()=>{ $('signin').classList.remove('hide'); $('email').focus(); };
 $('b-cancel').onclick = ()=> $('signin').classList.add('hide');
-$('b-signout').onclick = async ()=>{ await sb.auth.signOut(); location.reload(); };
+// sign out lives on the account page now (CLU-98)
 $('b-link').onclick = async ()=>{
   const email = $('email').value.trim();
   if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ flash('Enter a valid email address.','authmsg'); return; }
