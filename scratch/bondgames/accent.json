@@ -1,0 +1,67 @@
+{
+ "accent": "#7D5C8A",
+ "accentDark": "#E6BEF4",
+ "hue": 318,
+ "compared_against": {
+  "light": 118,
+  "dark": 120
+ },
+ "nearest_light": [
+  {
+   "slug": "satoshi-kon",
+   "dE": 10.33
+  },
+  {
+   "slug": "cates-venom",
+   "dE": 11.57
+  },
+  {
+   "slug": "spider-man-after-civil-war",
+   "dE": 12.66
+  },
+  {
+   "slug": "evangelion",
+   "dE": 12.76
+  },
+  {
+   "slug": "time-loops",
+   "dE": 13.55
+  }
+ ],
+ "nearest_dark": [
+  {
+   "slug": "twilight-zone",
+   "dE": 10.38
+  },
+  {
+   "slug": "satoshi-kon",
+   "dE": 10.58
+  },
+  {
+   "slug": "gossip-girl",
+   "dE": 10.84
+  },
+  {
+   "slug": "time-loops",
+   "dE": 12.74
+  },
+  {
+   "slug": "hitchcock",
+   "dE": 13.72
+  }
+ ],
+ "versus": {
+  "bond": {
+   "accent": "#1F1F2E",
+   "accentDark": "#C9B458",
+   "dE_light": 27.27,
+   "dE_dark": 49.27
+  },
+  "star-wars-games": {
+   "accent": "#7A5A1E",
+   "accentDark": "#D9B45C",
+   "dE_light": 40.02,
+   "dE_dark": 46.56
+  }
+ }
+}

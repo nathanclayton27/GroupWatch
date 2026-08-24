@@ -1,0 +1,152 @@
+{{Short description|2000 video game}}
+{{Infobox video game
+| title = The World Is Not Enough
+| image = TWINE PS Box Art.jpg
+| caption = North American box art
+| developer = [[Black Ops Entertainment]]
+| publisher = [[Electronic Arts]]
+| director = Jose Villeta
+| producer = Jose Villeta
+| designer = Daryl Kimoto
+| programmer = {{Plainlist|
+* Kyle Riccio
+* William Botti
+}}
+| writer = {{Plainlist|
+* William Botti
+* Daryl Kimoto
+}}
+| series = ''[[James Bond in video games|James Bond]]''
+| platforms = [[PlayStation (console)|PlayStation]]
+| released = {{vgrelease|NA|November 7, 2000|EU|November 17, 2000}}
+| genre = [[First-person shooter]], [[Stealth game|stealth]]
+| modes = [[Single-player video game|Single-player]]
+}}
+
+'''''The World Is Not Enough''''' is a [[first-person shooter]] video game developed by [[Black Ops Entertainment]] and based on the 1999 [[The World Is Not Enough|''James Bond'' film of the same name]]. It was published by [[Electronic Arts]] and released for the [[PlayStation (console)|PlayStation]] on November 7, 2000, shortly after the release of its [[The World Is Not Enough (Nintendo 64 video game)|Nintendo 64 counterpart]]. ''The World Is Not Enough'' is the successor to Black Ops Entertainment's 1999 title ''[[Tomorrow Never Dies (video game)|Tomorrow Never Dies]]'' and uses an improved version of its [[game engine|engine]]. The game received mixed reviews from critics, who criticised its short length and lack of [[Multiplayer video game|multiplayer]] mode.
+
+==Gameplay==
+[[File:007 PS1 World is not enough combat.png|thumb|left|Unlike its predecessor, ''The World Is Not Enough'' is played from a [[First-person (gaming)|first-person]] perspective. Ammunition information is displayed at the bottom right corner.]]
+''The World Is Not Enough'' is a [[first-person shooter]] based on [[Metro-Goldwyn-Mayer|MGM]]'s 1999 ''[[James Bond]]'' [[The World Is Not Enough|film of the same name]], where the player assumes the role of [[James Bond (literary character)|James Bond]] through 11 different missions.<ref name="Prima Guide Walkthrough"/> In each mission, the player must complete many objectives while defeating enemies controlled by the game's [[Artificial intelligence (video games)|artificial intelligence]]. Objectives range from rescuing hostages to destroying vehicles and collecting items.<ref name="Prima Guide Walkthrough"/> Some objectives require the player to use numerous high-tech gadgets. For example, the Credit Card Lockpick can be used to open locked doors, while the Micro Camera is useful for photographing evidence.<ref name="Prima Guide Weapons"/> There is one mission that does not involve combat, and requires the player to play [[blackjack]] in a casino and win consistently.<ref name="Prima Guide Walkthrough"/>
+
+As a first-person shooter, combat takes place in real-time and from a [[First-person (video games)|first-person]] perspective. The player can use several weapons, including [[submachine gun]]s, [[shotgun]]s, a [[tranquilizer gun]], a [[sniper rifle]], and a [[rocket launcher]].<ref name="Prima Guide Weapons"/> Weapons must be reloaded after a certain number of shots. The player has a certain amount of [[Health (gaming)|health]] which decreases when attacked by enemies. Heavy and Light Armor power-ups that absorb extra damage can be collected throughout the game. These power-ups, however, cannot protect the player from extreme falls or radiation.<ref name="Prima Guide Weapons"/> The game features several lengthy cuts from the film as [[cutscene]]s.<ref name="IGN review"/>
+
+==Development and release==
+''The World Is Not Enough'' was developed by [[Black Ops Entertainment]] and published by [[Electronic Arts]] as a follow-up to the 1999 title ''[[Tomorrow Never Dies (video game)|Tomorrow Never Dies]]''.<ref name="DailyRadar preview"/> The game uses an improved version of the ''Tomorrow Never Dies'' [[game engine|engine]], whose perspective was changed from [[Virtual camera system|third-person]] to first-person.<ref name="IGN never say never"/> Producer Joel Wade explained that the first-person perspective would help immerse the player deeper into the game and make the gameplay experience more intense.<ref name="GSpot preview"/> As a result, new animations, scripted sequences, and sound effects had to be added.<ref name="IGN never say never"/> Black Ops also took creative license to enrich the gameplay experience with new characters during the missions.<ref name="IGN never say never"/>
+
+The developers improved the targeting system and rewrote the rendering engine to improve the [[draw distance]]s without impacting the [[frame rate]].<ref name="GSpot preview"/> Each enemy character was [[Motion capture|motion-captured]] with more than 30 different animations.<ref name="GSpot preview"/> [[Keanu Reeves]]' [[stunt double]] from ''[[The Matrix]]'' was hired to pull off the movements, resulting in the game having more than 300 animations.<ref name="GSpot QnA"/> A [[Multiplayer video game|multiplayer]] mode was originally planned, but the idea was ultimately abandoned because developers felt it would take away valuable production time and therefore reduce the quality of the main game.<ref name="IGN no multiplayer"/> ''The World Is Not Enough'' was released for the [[PlayStation (console)|PlayStation]] video game console on November 7, 2000, shortly after the release of its [[The World Is Not Enough (Nintendo 64 video game)|Nintendo 64 counterpart]].<ref name="NARelease"/> According to the developer, the game was produced over 17 months and sold nearly 1.5 million units worldwide.<ref name="Black Ops about"/> In the UK, the game received a "Gold" sales award from the [[The Association for UK Interactive Entertainment|Entertainment and Leisure Software Publishers Association]],<ref name="Gold ELSPA"/> indicating sales of at least 200,000 units.<ref name="Gamasutra Sales"/>
+
+==Reception==
+{{Video game reviews
+| MC = 61/100<ref name="Metacritic"/>
+| CNG = 5/10<ref name="CNG review"/>
+| EGM = 6.17/10<ref name="EGM review"/>{{efn|Three critics of ''[[Electronic Gaming Monthly]]'' gave the game each a score of 5.5/10, 6/10, and 7/10.}}
+| EPD = 7/10<ref name="EPD review" />
+| GI = 7/10<ref name="GI review"/>
+| GameRev = B<ref name="GameRev review"/>
+| GSpot = 6.7/10<ref name="GSpot review"/>
+| GameZone = 8.5/10<ref name="Zone review"/>
+| IGN = 6.9/10<ref name="IGN review"/>
+| NGen = 3/5<ref name="NGen review"/>
+| OPM = 3/5<ref name="OPM review" />
+| rev1 = ''[[The Cincinnati Enquirer]]''
+| rev1Score = 4/5<ref name="TCE review"/>
+}}
+
+''The World Is Not Enough'' received mixed reviews from critics.<ref name="Metacritic"/> Although the game was seen as an improvement over ''Tomorrow Never Dies'',<ref name="NGen review"/><ref name="GSpot review"/><ref name="DailyRadar review"/> some reviewers felt that it was inferior to its Nintendo 64 counterpart.<ref name="IGN review"/><ref name="TCE review"/> Douglass C. Perry of ''[[IGN]]'' described ''The World Is Not Enough'' as "a short, rudimentary shooter with nothing more than a few good gadgets and a great license backing it up",<ref name="IGN review"/> while Samuel Bass of ''[[Daily Radar]]'' stated that the game "succeeds reasonably well" as "a shallow movie-licensed action experience."<ref name="DailyRadar review"/> Shane Satterfield of ''[[GameSpot]]'' concluded that the game "is not ''[[GoldenEye 007 (1997 video game)|GoldenEye]]'' for the PlayStation, but if you're tired of playing through ''[[Medal of Honor (1999 video game)|Medal of Honor]]'' or ''[[Metal Gear Solid (1998 video game)|Metal Gear Solid]]'', it provides temporary relief for your stealth shooting addiction."<ref name="GSpot review"/>
+
+Writing for ''[[GameRevolution]]'', Shawn Sparks highlighted positively the graphics for their clean textures and character details despite the PlayStation hardware limitations.<ref name="GameRev review"/> He also credited the soundtrack for being "exciting during action and dramatic while stealthing around", but considered the voice acting to be weak.<ref name="GameRev review"/> Crispin Boyer of ''[[Electronic Gaming Monthly]]'' felt that the game overall looked better than ''Tomorrow Never Dies'', but remarked that the player can occasionally get stuck on walls and objects while strafing.<ref name="EGM review"/> ''IGN'' criticized the game's "absolutely horrible" character animations and its overuse of the James Bond theme song,<ref name="IGN review"/> while Michael Lafferty of ''GameZone'' praised its smooth gameplay, vocal characterizations, and interactive environments.<ref name="Zone review"/>
+
+Paul Anderson of ''[[Game Informer]]'' criticized the game's short length and lack of depth, stating that nearly all of the weapons offer the same advantages and disadvantages.<ref name="GI review"/> Similarly, ''Daily Radar'' condemned the game's poor artificial intelligence and shallow stealth gameplay. According to the reviewer, "most espionage segments boil down to little more than scripted sequences and the occasional bout of old-fashioned button pushing."<ref name="DailyRadar review"/> ''[[Next Generation (magazine)|NextGen]]''{{'}}s Bass criticized the simplistic enemy behaviors because they make long levels repetitive and dull,<ref name="NGen review"/> and ''GameSpot'' noted the game's poor [[replay value]] due to the lack of a multiplayer mode, saying that ''The World Is Not Enough'' can be completed in less than a day.<ref name="GSpot review"/> Nevertheless, the game's varied level design and numerous gadgets were highlighted positively, with ''GameRevolution'' stating that "more games should have this much variation and less redundancy."<ref name="GameRev review"/> Extreme Ahab of ''[[GamePro]]'' summed up in his review: "If you're out for more action after ''[[Medal of Honor: Underground]]'', ''The World Is Not Enough'', though a step-down, should satisfy your craving for espionage and firefights; but if you're lusting for a truly great game in which suspense and action make for a perfect union, you may be a bit disappointed."<ref name="GamePro review"/>{{efn|''[[GamePro]]'' gave the game two 4/5 scores for graphics and fun factor, 4.5/5 for sound, and 3.5/5 for control.}}
+
+{{Clear}}
+
+==Notes==
+{{Notelist}}
+
+==References==
+{{Reflist|refs=
+
+<!--CITE BOOK-->
+
+<ref name="Prima Guide Weapons">{{Cite book |title=The World is Not Enough: Prima's Official Strategy Guide |chapter=PSX Weapons & Gadgets |pages=61–63 |author=Anthony Lynch |date=October 2000 |publisher=[[Prima Games]] |isbn=978-0761529743}}</ref>
+
+<ref name="Prima Guide Walkthrough">{{Cite book |title=The World is Not Enough: Prima's Official Strategy Guide |chapter=PSX Mission Walkthroughs |pages=64–97 |author=Anthony Lynch |date=October 2000 |publisher=[[Prima Games]] |isbn=978-0761529743}}</ref>
+
+<!--CITE MAGAZINE-->
+
+<ref name="EGM review">{{Cite magazine |url=https://archive.org/details/Electronic_Gaming_Monthly_138_January_2001_U/page/n203/mode/2up |title=The World Is Not Enough (PS) |author1=Crispin Boyer |author2=John Davison |author3=Kraig Kujawa |magazine=[[Electronic Gaming Monthly]] |publisher=[[Ziff Davis]] |issue=138 |date=January 2001 |page=204 |accessdate=2022-06-01 |archiveurl=https://web.archive.org/web/20010129102400/http://www.zdnet.com/egm/stories/main/0,11589,2658661,00.html |archivedate=2001-01-29 |url-status=live}}</ref>
+
+<ref name="GI review">{{Cite magazine |url=http://gameinformer.com/Games/Review/200012/R03.0807.1225.47551.htm |title=The World Is Not Enough |author=Paul Anderson |magazine=[[Game Informer]] |publisher=[[FuncoLand]] |issue=92 |date=December 2000 |page=108 |access-date=2013-11-30 |archive-url=https://web.archive.org/web/20080915050229/http://gameinformer.com/Games/Review/200012/R03.0807.1225.47551.htm |archive-date=2008-09-15 |url-status=dead}}</ref>
+
+<ref name="GamePro review">{{Cite magazine |url=https://retrocdn.net/images/6/61/GamePro_US_147.pdf |title=The World Is Not Enough |author=Extreme Ahab |magazine=[[GamePro]] |publisher=[[International Data Group|IDG]] |issue=147 |date=December 2000 |page=128 |accessdate=2024-03-30 |archiveurl=https://web.archive.org/web/20230630183607/https://retrocdn.net/images/6/61/GamePro_US_147.pdf |archivedate=2023-06-30 |url-status=dead}}</ref>
+
+<ref name="NGen review">{{Cite magazine |url=https://archive.org/details/NextGen73Jan2001/page/n109/mode/2up |title=The World Is Not Enough (PS) |author=Samuel Bass |magazine=[[Next Generation (magazine)|NextGen]] |publisher=[[Future US|Imagine Media]] |issue=73 |date=January 2001 |page=108 |accessdate=2022-06-01}}</ref>
+
+<ref name="OPM review">{{Cite magazine |url=https://archive.org/details/official-u.-s.-playstation-magazine-issue-40-january-2001/page/138/mode/2up |title=The World is not Enough |author=John Davison |magazine=[[Official U.S. PlayStation Magazine]] |publisher=[[Ziff Davis]] |issue=40 |date=January 2001 |page=138 |accessdate=2024-03-30}}</ref>
+
+<!--CITE WEB-->
+
+<ref name="DailyRadar preview">{{Cite web |url=http://www.dailyradar.com/previews/game_preview_1087.html |title=The World is Not Enough |author=Garrett Kenyon |website=[[Daily Radar]] |publisher=[[Future US|Imagine Media]] |year=2000 |archiveurl=https://web.archive.org/web/20010429011021/http://www.dailyradar.com/previews/game_preview_1087.html |archivedate=2001-04-29 |url-status=dead}}</ref>
+
+<ref name="DailyRadar review">{{Cite web |url=http://www.dailyradar.com/reviews/game_review_1027.html |title=The World is Not Enough |author=Samuel Bass |website=[[Daily Radar]] |publisher=[[Future US|Imagine Media]] |year=2000 |archiveurl=https://web.archive.org/web/20010209042521/http://www.dailyradar.com/reviews/game_review_1027.html |archivedate=2001-02-09 |url-status=dead}}</ref>
+
+<ref name="IGN never say never">{{Cite web |url=https://www.ign.com/articles/2000/02/25/never-say-never-for-playstation |title=Never Say Never for PlayStation |author=IGN staff |website=[[IGN]] |publisher=[[Ziff Davis]] |date=2000-02-24 |accessdate=2016-12-08 |archiveurl=https://web.archive.org/web/20141218201655/https://www.ign.com/articles/2000/02/25/never-say-never-for-playstation |archivedate=2014-12-18 |url-status=live}}</ref>
+
+<ref name="IGN no multiplayer">{{Cite web |url=https://www.ign.com/articles/2000/10/27/the-world-is-not-enough-2 |title=The World Is Not Enough (Preview) |author=IGN staff |website=[[IGN]] |publisher=[[Ziff Davis]] |date=2000-10-26 |accessdate=2016-12-08 |archiveurl=https://web.archive.org/web/20140710055729/https://www.ign.com/articles/2000/10/27/the-world-is-not-enough-2 |archivedate=2014-07-10 |url-status=live}}</ref>
+
+<ref name="GSpot preview">{{Cite web |url=https://www.gamespot.com/articles/the-world-is-not-enough-preview/1100-2557843/ |title=The World is Not Enough Preview |author=Ben Stahl |website=[[GameSpot]] |publisher=[[Fandom (website)|Fandom]] |date=2000-05-18 |accessdate=2024-03-30 |archiveurl=https://web.archive.org/web/20001216131100/http://www.zdnet.com/gamespot/stories/previews/0,10869,2557843,00.html |archivedate=2000-12-16 |url-status=live}}</ref>
+
+<ref name="GSpot QnA">{{Cite web |url=https://www.gamespot.com/articles/the-world-is-not-enough-qanda/1100-2585622/ |title=The World is Not Enough Q&A |author=Ben Stahl |website=[[GameSpot]] |publisher=[[Fandom (website)|Fandom]] |date=2000-06-09 |accessdate=2024-03-30 |archiveurl=https://web.archive.org/web/20010211193143/http://www.zdnet.com/gamespot/stories/previews/0,10869,2585622,00.html |archivedate=2001-02-11 |url-status=live}}</ref>
+
+<ref name="Black Ops about">{{Cite web |url=http://www.blackops.com/about.html |title=James Bond Team |website=[[Black Ops Entertainment]] |accessdate=2016-12-09 |archiveurl=https://web.archive.org/web/20150110022906/http://www.blackops.com/about.html |archivedate=2015-01-10 |url-status=live}}</ref>
+
+<ref name="NARelease">{{Cite web |url=https://www.gamespot.com/articles/golden-twine/1100-2639448/ |title=Golden TWINE |author=GameSpot staff |website=[[GameSpot]] |publisher=[[Fandom (website)|Fandom]] |date=2000-10-11 |accessdate=2024-03-30 |archiveurl=https://web.archive.org/web/20001210075500/http://www.zdnet.com/gamespot/stories/news/0,10870,2639448,00.html |archivedate=2000-12-10 |url-status=live}}</ref>
+
+<ref name="Metacritic">{{Cite web |url=https://www.metacritic.com/game/007-the-world-is-not-enough/critic-reviews/?platform=playstation |title=007: The World is not Enough critic reviews (PS) |website=[[Metacritic]] |publisher=[[Fandom (website)|Fandom]] |accessdate=2023-11-01 |archiveurl=https://web.archive.org/web/20160405202427/https://www.metacritic.com/game/playstation/007-the-world-is-not-enough |archivedate=2016-04-05 |url-status=live}}</ref>
+
+<ref name="CNG review">{{Cite web |url=http://gamecenter.com/Psx/Reviews/Twine/ |title=The World Is Not Enough - PlayStation Review [Incomplete] |author=Tom Ham |website=Gamecenter |publisher=[[CNET]] |date=2000-11-06 |accessdate=2022-06-01 |archiveurl=https://web.archive.org/web/20001205164500/http://gamecenter.com/Psx/Reviews/Twine/ |archivedate=2000-12-05 |url-status=dead}}</ref>
+
+<ref name="EPD review">{{Cite web |url=http://www.elecplay.com/review.html?article=4872&full=1#mr_toppy |title=The World Is Not Enough (PSX) |author=Jeff Nash |website=[[EP Daily|The Electric Playground]] |publisher=Greedy Productions Ltd. |date=2001-01-04 |accessdate=2022-06-01 |archiveurl=https://web.archive.org/web/20030718122534/http://www.elecplay.com/review.html?article=4872&full=1#mr_toppy |archivedate=2003-07-18 |url-status=dead}}</ref>
+
+<ref name="IGN review">{{Cite web |url=https://www.ign.com/articles/2000/11/09/the-world-is-not-enough |title=The World is Not Enough PlayStation Review |author=Douglass C. Perry |website=[[IGN]] |publisher=[[Ziff Davis]] |date=2000-11-08 |accessdate=2016-12-08 |archiveurl=https://web.archive.org/web/20140222071216/https://www.ign.com/articles/2000/11/09/the-world-is-not-enough |archivedate=2014-02-22 |url-status=live}}</ref>
+
+<ref name="GSpot review">{{Cite web |url=https://www.gamespot.com/reviews/the-world-is-not-enough-review/1900-2653220/ |title=The World is Not Enough (PS) |author=Shane Satterfield |website=[[GameSpot]] |publisher=[[Fandom (website)|Fandom]] |date=2000-11-13 |accessdate=2024-03-30 |archiveurl=https://web.archive.org/web/20010110132500/http://www.zdnet.com/gamespot/stories/reviews/0,10867,2653220,00.html |archivedate=2001-01-10 |url-status=live}}</ref>
+
+<ref name="GameRev review">{{Cite web |url=http://www.game-revolution.com/games/sony/action/world_is_not_enough.htm |title=The World is Not Enough - PSX Review |author=Shawn Sparks |website=[[GameRevolution]] |publisher=[[CraveOnline]] |date=November 2000 |accessdate=2022-06-01 |archiveurl=https://web.archive.org/web/20040216040225/http://www.game-revolution.com/games/sony/action/world_is_not_enough.htm |archivedate=2004-02-16 |url-status=dead}}</ref>
+
+<ref name="Zone review">{{Cite web |url=http://psx.gamezone.com/gzreviews/r15308.htm |title=The World Is Not Enough Review on PlayStation |author=Michael Lafferty |website=GameZone |date=2001-01-15 |accessdate=2013-11-30 |archiveurl=https://web.archive.org/web/20060118071814/http://psx.gamezone.com/gzreviews/r15308.htm |archivedate=2006-01-18 |url-status=dead}}</ref>
+
+<ref name="TCE review">{{Cite news |url=http://www.cincinnati.com/freetime/games/reviews/122000_twine.html |title=Bond video game will thrill spy fans |author=Marc Saltzman |newspaper=[[The Cincinnati Enquirer]] |publisher=[[Gannett Company]] |date=2000-12-20 |accessdate=2013-12-01 |archiveurl=https://web.archive.org/web/20080511203021/http://www.cincinnati.com/freetime/games/reviews/122000_twine.html |archivedate=2008-05-11 |url-status=dead}}</ref>
+
+<ref name="Gold ELSPA">{{cite web |url=http://www.elspa.com/?i=3943 |title=ELSPA Sales Awards: Gold |website=[[The Association for UK Interactive Entertainment|Entertainment and Leisure Software Publishers Association]] |archiveurl=https://web.archive.org/web/20090319031650/http://www.elspa.com/?i=3943 |archivedate=2009-03-19 |url-status=dead}}</ref>
+
+<ref name="Gamasutra Sales">{{cite web |url=https://www.gamedeveloper.com/game-platforms/elspa-i-wii-fit-mario-kart-i-reach-diamond-status-in-uk |title=ELSPA: Wii Fit, Mario Kart Reach Diamond Status In UK |author=Eric Caoili |website=[[Game Developer (website)|Game Developer]] |publisher=[[Informa]] |date=2008-11-26 |accessdate=2024-03-30 |archiveurl=https://web.archive.org/web/20170918063107/https://www.gamasutra.com/view/news/112220/ELSPA_Wii_Fit_Mario_Kart_Reach_Diamond_Status_In_UK.php |archivedate=2017-09-18 |url-status=live}}</ref>
+
+}}
+
+==External links==
+* {{Moby game|id=/45707/007-the-world-is-not-enough/|name=''The World Is Not Enough'' (PlayStation)}}
+
+{{The World Is Not Enough}}
+{{James Bond video games}}
+
+{{DEFAULTSORT:World Is Not Enough, The}}
+[[Category:2000 video games]]
+[[Category:Black Ops Entertainment games]]
+[[Category:Electronic Arts games]]
+[[Category:First-person shooters]]
+[[Category:James Bond video games]]
+[[Category:MGM Interactive games]]
+[[Category:PlayStation (console) games]]
+[[Category:PlayStation (console)-only games]]
+[[Category:Single-player video games]]
+[[Category:Stealth video games]]
+[[Category:Video games developed in the United States]]
+[[Category:Video games set in Azerbaijan]]
+[[Category:Video games set in Istanbul]]
+[[Category:Video games set in Kazakhstan]]
+[[Category:Video games set in London]]
+[[Category:Video games set in Spain]]
+[[Category:Video games set in Turkey]]
+[[Category:The World Is Not Enough|Video game]]

@@ -1,0 +1,454 @@
+{
+ "article": "List of James Bond video games",
+ "navbox": "Template:James Bond video games",
+ "eras": [
+  {
+   "name": "Early era",
+   "lo": 1983,
+   "hi": 1994
+  },
+  {
+   "name": "Nintendo era",
+   "lo": 1995,
+   "hi": 1998
+  },
+  {
+   "name": "Electronic Arts era",
+   "lo": 1999,
+   "hi": 2005
+  },
+  {
+   "name": "Activision era",
+   "lo": 2006,
+   "hi": 2013
+  },
+  {
+   "name": "Hiatus",
+   "lo": 2014,
+   "hi": 2019
+  },
+  {
+   "name": "IO Interactive era",
+   "lo": 2020,
+   "hi": 9999
+  }
+ ],
+ "series_infobox": {
+  "publishers": [
+   "Richard Shepherd Software",
+   "Parker Brothers",
+   "Mindscape",
+   "Domark",
+   "Amstrad",
+   "Interplay Entertainment",
+   "THQ",
+   "Nintendo",
+   "Electronic Arts",
+   "Activision",
+   "IO Interactive"
+  ],
+  "first_release_version": "Shaken but Not Stirred",
+  "first_release_date": "1982",
+  "latest_release_version": "007 First Light",
+  "latest_release_date": "2026"
+ },
+ "conflated_hltb_entries": [
+  {
+   "game_id": 10278,
+   "game_name": "007: The World Is Not Enough",
+   "platforms": [
+    "Emulated",
+    "Game Boy Color",
+    "Nintendo 64",
+    "PC",
+    "PlayStation"
+   ]
+  },
+  {
+   "game_id": 4808,
+   "game_name": "James Bond 007: Everything or Nothing",
+   "platforms": [
+    "Game Boy Advance",
+    "Nintendo GameCube",
+    "PlayStation 2",
+    "Xbox"
+   ]
+  }
+ ],
+ "games": [
+  {
+   "group": "Nintendo",
+   "t": "GoldenEye 007",
+   "page": "GoldenEye 007",
+   "qual": "",
+   "year": 1997,
+   "release_raw": "{{vgrelease|JP|23 August 1997|NA|25 August 1997|UK|7 November 1997}}",
+   "developer": "Rare",
+   "genre": "First-person shooter",
+   "platforms": [
+    "Nintendo 64"
+   ],
+   "hltb_query": "GoldenEye 007",
+   "hltb_hours": 7.87,
+   "hltb_why": "ok",
+   "hltb_id": 4003,
+   "hltb_name": "GoldenEye 007",
+   "hltb_year": 1997
+  },
+  {
+   "group": "Nintendo",
+   "t": "James Bond 007",
+   "page": "James Bond 007 (1998 video game)",
+   "qual": "1998",
+   "year": 1998,
+   "release_raw": "{{Video game release|NA|February 9, 1998<ref>{{Cite web |date=1998-02-05 |title=Nintendo: James Bond 007 |url=http://www.nintendo.com/gb/bond/index.html |access-date=2023-05-20 |archive-url=https://we",
+   "developer": "Saffire",
+   "genre": "Action-adventure",
+   "platforms": [
+    "Game Boy"
+   ],
+   "hltb_query": "James Bond 007",
+   "hltb_hours": 3.95,
+   "hltb_why": "ok",
+   "hltb_id": 4805,
+   "hltb_name": "James Bond 007",
+   "hltb_year": 1998
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "Tomorrow Never Dies",
+   "page": "Tomorrow Never Dies (video game)",
+   "qual": "",
+   "year": 1999,
+   "release_raw": "{{Video game release|NA|16 November 1999<ref>{{cite web |last=Kennedy |first=Sam |date=16 November 1999 |title=PS Tomorrow Never Dies Ships |url=https://www.gamespot.com/articles/ps-tomorrow-never-die",
+   "developer": "Black Ops Entertainment",
+   "genre": "Third-person shooter, stealth",
+   "platforms": [
+    "PlayStation"
+   ],
+   "hltb_query": "Tomorrow Never Dies",
+   "hltb_hours": 4.85,
+   "hltb_why": "ok",
+   "hltb_id": 10487,
+   "hltb_name": "Tomorrow Never Dies",
+   "hltb_year": 1999
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "007 Racing",
+   "page": "007 Racing",
+   "qual": "",
+   "year": 2000,
+   "release_raw": "{{Vgrelease|NA|17 November 2000<ref name=\"release\"/>|EU|15 December 2000}}",
+   "developer": "Eutechnyx",
+   "genre": "Racing",
+   "platforms": [
+    "PlayStation"
+   ],
+   "hltb_query": "007 Racing",
+   "hltb_hours": 3.0,
+   "hltb_why": "ok",
+   "hltb_id": 29,
+   "hltb_name": "007 Racing",
+   "hltb_year": 2000
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "The World Is Not Enough",
+   "page": "The World Is Not Enough (Nintendo 64 video game)",
+   "qual": "N64",
+   "year": 2000,
+   "release_raw": "{{Vgrelease|NA|October 17, 2000|EU|December 8, 2000}}",
+   "developer": "Eurocom",
+   "genre": "First-person shooter",
+   "platforms": [
+    "Nintendo 64"
+   ],
+   "hltb_query": null,
+   "hltb_hours": null,
+   "hltb_why": "HowLongToBeat files all three World Is Not Enough games as one entry",
+   "hltb_id": null,
+   "hltb_name": null,
+   "hltb_year": null
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "The World Is Not Enough",
+   "page": "The World Is Not Enough (PlayStation video game)",
+   "qual": "PS",
+   "year": 2000,
+   "release_raw": "{{vgrelease|NA|November 7, 2000|EU|November 17, 2000}}",
+   "developer": "Black Ops Entertainment",
+   "genre": "First-person shooter, stealth",
+   "platforms": [
+    "PlayStation"
+   ],
+   "hltb_query": null,
+   "hltb_hours": null,
+   "hltb_why": "HowLongToBeat files all three World Is Not Enough games as one entry",
+   "hltb_id": null,
+   "hltb_name": null,
+   "hltb_year": null
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "Agent Under Fire",
+   "page": "James Bond 007: Agent Under Fire",
+   "qual": "",
+   "year": 2001,
+   "release_raw": "'''PlayStation 2'''{{Vgrelease|NA|13 November 2001|EU|30 November 2001}}'''GameCube'''{{Vgrelease|NA|12 March 2002|EU|14 June 2002}}'''Xbox'''{{Vgrelease|NA|26 March 2002|EU|14 June 2002}}",
+   "developer": "EA Redwood Shores",
+   "genre": "First-person shooter",
+   "platforms": [
+    "PlayStation 2",
+    "GameCube",
+    "Xbox"
+   ],
+   "hltb_query": "James Bond 007: Agent Under Fire",
+   "hltb_hours": 5.02,
+   "hltb_why": "ok",
+   "hltb_id": 4806,
+   "hltb_name": "James Bond 007: Agent Under Fire",
+   "hltb_year": 2001
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "The World Is Not Enough",
+   "page": "The World Is Not Enough (Game Boy Color video game)",
+   "qual": "GBC",
+   "year": 2001,
+   "release_raw": "{{vgrelease|NA|September 17, 2001|UK|September 28, 2001}}",
+   "developer": "2n Productions",
+   "genre": "Action-adventure",
+   "platforms": [
+    "Game Boy Color"
+   ],
+   "hltb_query": null,
+   "hltb_hours": null,
+   "hltb_why": "HowLongToBeat files all three World Is Not Enough games as one entry",
+   "hltb_id": null,
+   "hltb_name": null,
+   "hltb_year": null
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "Nightfire",
+   "page": "James Bond 007: Nightfire",
+   "qual": "",
+   "year": 2002,
+   "release_raw": "'''GameCube''', '''PlayStation 2''', '''Xbox'''<br>{{Vgrelease|NA|19 November 2002|EU|29 November 2002}}'''Microsoft Windows'''<br>{{Vgrelease|NA|25 November 2002|EU|6 December 2002}}'''Game Boy Advan",
+   "developer": "Eurocom",
+   "genre": "First-person shooter",
+   "platforms": [
+    "GameCube",
+    "PlayStation 2",
+    "Xbox",
+    "Microsoft Windows",
+    "Game Boy Advance",
+    "Mac OS X"
+   ],
+   "hltb_query": "James Bond 007: Nightfire",
+   "hltb_hours": 6.14,
+   "hltb_why": "ok",
+   "hltb_id": 4809,
+   "hltb_name": "James Bond 007: Nightfire",
+   "hltb_year": 2002
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "Everything or Nothing",
+   "page": "James Bond 007: Everything or Nothing (Game Boy Advance video game)",
+   "qual": "GBA",
+   "year": 2003,
+   "release_raw": "{{Video game release|NA|17 November 2003}}",
+   "developer": "Griptonite Games",
+   "genre": "Third-person shooter",
+   "platforms": [
+    "Game Boy Advance"
+   ],
+   "hltb_query": null,
+   "hltb_hours": null,
+   "hltb_why": "HowLongToBeat's only Everything or Nothing entry is the 2004 console game",
+   "hltb_id": null,
+   "hltb_name": null,
+   "hltb_year": null
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "Everything or Nothing",
+   "page": "James Bond 007: Everything or Nothing",
+   "qual": "home consoles",
+   "year": 2004,
+   "release_raw": "{{Vgrelease|NA|February 17, 2004|EU|February 27, 2004}}",
+   "developer": "EA Redwood Shores",
+   "genre": "Action-adventure",
+   "platforms": [
+    "GameCube",
+    "PlayStation 2",
+    "Xbox"
+   ],
+   "hltb_query": "James Bond 007: Everything or Nothing",
+   "hltb_hours": 9.17,
+   "hltb_why": "ok",
+   "hltb_id": 4808,
+   "hltb_name": "James Bond 007: Everything or Nothing",
+   "hltb_year": 2004
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "GoldenEye: Rogue Agent",
+   "page": "GoldenEye: Rogue Agent",
+   "qual": "",
+   "year": 2004,
+   "release_raw": "'''GameCube''', '''PlayStation 2''', '''Xbox'''<br>{{vgrelease|NA|22 November 2004<ref>{{Cite web |last=Adams |first=David |date=2004-11-22 |title=A Rogue Agent Moves Out |url=https://www.ign.com/arti",
+   "developer": "EA Los Angeles",
+   "genre": "First-person shooter, action adventure",
+   "platforms": [
+    "GameCube",
+    "PlayStation 2",
+    "Xbox",
+    "Nintendo DS"
+   ],
+   "hltb_query": "GoldenEye: Rogue Agent",
+   "hltb_hours": 8.02,
+   "hltb_why": "ok",
+   "hltb_id": 4006,
+   "hltb_name": "GoldenEye: Rogue Agent",
+   "hltb_year": 2004
+  },
+  {
+   "group": "Electronic Arts",
+   "t": "From Russia with Love",
+   "page": "From Russia with Love (video game)",
+   "qual": "",
+   "year": 2005,
+   "release_raw": "'''GameCube''', '''PlayStation 2''', '''Xbox'''<br>{{Vgrelease|NA|1 November 2005|NA|15 November 2005<small> (GC)</small>|EU|18 November 2005|AUS|21 November 2005}}'''PlayStation Portable'''<br>{{Vgre",
+   "developer": "EA Redwood Shores",
+   "genre": "Third-person shooter",
+   "platforms": [
+    "GameCube",
+    "PlayStation 2",
+    "Xbox",
+    "PlayStation Portable"
+   ],
+   "hltb_query": "From Russia with Love",
+   "hltb_hours": 6.43,
+   "hltb_why": "ok",
+   "hltb_id": 3722,
+   "hltb_name": "From Russia with Love",
+   "hltb_year": 2005
+  },
+  {
+   "group": "Activision",
+   "t": "Quantum of Solace",
+   "page": "007: Quantum of Solace",
+   "qual": "",
+   "year": 2008,
+   "release_raw": "{{vgrelease|EU|31 October 2008|NA|4 November 2008|AU|19 November 2008}}",
+   "developer": "Treyarch",
+   "genre": "First-person shooter, Third-person shooter (DS/PS2)",
+   "platforms": [
+    "Nintendo DS",
+    "PlayStation 2",
+    "PlayStation 3",
+    "Wii",
+    "Windows",
+    "Xbox 360"
+   ],
+   "hltb_query": "Quantum of Solace",
+   "hltb_hours": 5.72,
+   "hltb_why": "ok",
+   "hltb_id": 7467,
+   "hltb_name": "Quantum of Solace",
+   "hltb_year": 2008
+  },
+  {
+   "group": "Activision",
+   "t": "Blood Stone",
+   "page": "James Bond 007: Blood Stone",
+   "qual": "",
+   "year": 2010,
+   "release_raw": "{{vgrelease|NA|2 November 2010|AUS|3 November 2010|EU|5 November 2010}}",
+   "developer": "Bizarre Creations",
+   "genre": "Third-person shooter",
+   "platforms": [
+    "Microsoft Windows",
+    "Nintendo DS",
+    "PlayStation 3",
+    "Xbox 360"
+   ],
+   "hltb_query": "James Bond 007: Blood Stone",
+   "hltb_hours": 5.89,
+   "hltb_why": "ok",
+   "hltb_id": 4807,
+   "hltb_name": "James Bond 007: Blood Stone",
+   "hltb_year": 2010
+  },
+  {
+   "group": "Activision",
+   "t": "GoldenEye 007",
+   "page": "GoldenEye 007 (2010 video game)",
+   "qual": "",
+   "year": 2010,
+   "release_raw": "'''Original'''<br />{{vgrelease|NA|2 November 2010|AU|3 November 2010|EU|5 November 2010|JP|30 June 2011 {{small|(Wii)}}}}'''''Reloaded'''''<br />{{vgrelease|NA|1 November 2011|EU|4 November 2011|AUS|",
+   "developer": "Eurocom",
+   "genre": "First-person shooter",
+   "platforms": [
+    "Wii",
+    "Nintendo DS",
+    "PlayStation 3",
+    "Xbox 360"
+   ],
+   "hltb_query": "GoldenEye 007",
+   "hltb_hours": 7.56,
+   "hltb_why": "ok",
+   "hltb_id": 4004,
+   "hltb_name": "GoldenEye 007",
+   "hltb_year": 2010
+  },
+  {
+   "group": "Activision",
+   "t": "007 Legends",
+   "page": "007 Legends",
+   "qual": "",
+   "year": 2012,
+   "release_raw": "{{Collapsible list|title={{nobold|16 October 2012}}| '''PlayStation 3''' & '''Xbox 360'''<br />{{vgrelease|NA|16 October 2012|EU|19 October 2012|AUS|31 October 2012}}'''Microsoft Windows'''<br />{{vgr",
+   "developer": "Eurocom",
+   "genre": "First-person shooter",
+   "platforms": [
+    "PlayStation 3",
+    "Xbox 360",
+    "Windows",
+    "Wii U"
+   ],
+   "hltb_query": "007 Legends",
+   "hltb_hours": 6.46,
+   "hltb_why": "ok",
+   "hltb_id": 27,
+   "hltb_name": "007 Legends",
+   "hltb_year": 2012
+  },
+  {
+   "group": "Other",
+   "t": "007 First Light",
+   "page": "007 First Light",
+   "qual": "",
+   "year": 2026,
+   "release_raw": "{{ubl|'''PS5''', '''Win''', '''Xbox Series&nbsp;X/S'''|27 May 2026|'''Nintendo Switch 2'''|Q3 2026}}",
+   "developer": "IO Interactive",
+   "genre": "Action-adventure",
+   "platforms": [
+    "PlayStation 5",
+    "Windows",
+    "Xbox Series X/S",
+    "Nintendo Switch 2"
+   ],
+   "hltb_query": "007 First Light",
+   "hltb_hours": 16.11,
+   "hltb_why": "ok",
+   "hltb_id": 85276,
+   "hltb_name": "007 First Light",
+   "hltb_year": 2026
+  }
+ ]
+}

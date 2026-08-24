@@ -1,0 +1,77 @@
+{{about||the Parker Brothers video game|James Bond 007 (1984 video game)||James Bond (disambiguation)}}
+{{Infobox video game
+| title = James Bond 007
+| image = File:James-bond-007-gameboy-boxart.png
+| caption = North American cover art
+| developer = [[Saffire (company)|Saffire]]
+| publisher = [[Nintendo]]
+| series = ''[[James Bond in video games|James Bond]]''
+| designer = Jeffery Hughes
+| programmer = Jeffery Hughes<br>Kier Knowlton<br>Hal Rushton
+| producer = Hal Rushton<br>Kathy Parke<br>Cindi Adamson
+| artist = Scott Jarrad<br>Dallin Haws
+| composer = Eric Nunamaker<br>Brent Lambert<br>Nathan Davidson
+| released = {{Video game release|NA|February 9, 1998<ref>{{Cite web |date=1998-02-05 |title=Nintendo: James Bond 007 |url=http://www.nintendo.com/gb/bond/index.html |access-date=2023-05-20 |archive-url=https://web.archive.org/web/19980205055307/http://www.nintendo.com/gb/bond/index.html |archive-date=1998-02-05 }}</ref>|EU|February 1998{{Citation needed|date=November 2025}}}}
+| genre = [[Action-adventure game|Action-adventure]]
+| modes = [[Single-player video game|Single-player]]
+| platforms = [[Game Boy]]
+}}
+
+'''''James Bond 007''''' is an [[action-adventure game]] featuring [[James Bond (literary character)|James Bond]]. The game was developed by [[Saffire (company)|Saffire]] and published by [[Nintendo]] for the [[Game Boy]].<ref name=AG>{{cite web|url=http://www.allgame.com/game.php?id=7312|title=James Bond 007 - Overview|work=[[AllGame]]|archive-url=https://web.archive.org/web/20141114111156/http://www.allgame.com/game.php?id=7312|archive-date=2014-11-14|access-date=2016-05-26}}</ref> Released in North America on February 9, 1998, the game features a story that includes characters from multiple James Bond films, such as [[Oddjob]] and [[Jaws (James Bond)|Jaws]].<ref name=Nintendo>{{cite web|url=https://www.nintendo.com/gb/bond/index.html|title=James Bond 007|publisher=Nintendo.com|archive-url=https://web.archive.org/web/19980205055307/http://www.nintendo.com/gb/bond/index.html|archive-date=1998-02-05|access-date=2016-06-17}}</ref>
+
+==Plot==
+The game begins with Bond in a Chinese village,<ref name="Nintendo" /> ruled by a female martial arts warlord called Zhong Mae. After Bond infiltrates her dojo, steals the plans given to her and defeats her, Bond escapes the ninja clan by speedboat and returns to London. M, head of MI6, tells Bond that the plans are for a secret weapons cache somewhere in an unknown part of the world. Bond heads to [[Kurdistan]] to find 008, who is missing in action. Bond manages to rescue 008 after killing Iqbal, who rules the town. 008 instructs Bond to go to [[Marrakesh]] to find one of Bond's old enemies, Oddjob, who is working for someone that is smuggling the weapons.<ref name=NP>{{cite magazine |date=February 1998 |title=James Bond 007 |magazine=Nintendo Power |location=United States |volume=105 |pages=72–77}}</ref>
+
+After a little bickering within the black market, betting at a casino, and meeting the Rat Man, Bond receives a sleeping dart gun which he uses on Oddjob's henchman. After stealing the henchman's room key, Bond is ambushed by Oddjob inside his hotel room and taken to the [[Sahara Desert]]. A traveler gives Bond a canteen, which Bond uses to sustain himself as he goes through the desert, which slowly begins to kill him. Bond makes it to a nearby airport, which has been instructed by M to take him to [[Tibet]], where he must scale a mountain, defeat Sumos and get captured by Oddjob again.<ref name=NP/>
+
+While awaiting torture in the secret weapons base, Zhong Mae arrives and tells Bond that she has changed sides, stating that she was only trying to aid her village financially. With her help, Bond defeats Oddjob and interrogates him on who is behind the plot. Oddjob gives the name: General Golgov, a top general in Russia. Oddjob tells Bond to return to Kurdistan where he finds Golgov's two associates, Saddam and Khatar, while Zhong Mae tells Bond to find her friend, Mustafa. After Bond defeats Khatar and Saddam, Mustafa thanks him for stopping the war that destroyed Iqbal's village and gives him a mirror. With aid from a guide, Bond makes it to the edge of Golgov's base which Bond manages to infiltrate. Inside, Bond kills Jaws and begins to unravel the general's true intentions: a [[nuclear holocaust]] with the general emerging as the ruler of the world. Bond uses a bazooka to destroy the General in his robot and aids Zhong Mae in shutting down the base. Bond and Mae take a boat out to sea where a British sub rescues them and congratulates Bond.<ref name=NP/>
+
+==Gameplay==
+[[File:JamesBond007KarateFight.png|175px|left|thumb|James Bond is doing a karate move against one of his opponents.]]
+The [[gameplay]] of ''James Bond 007'' is presented from a top-down perspective.<ref name=AG/> As James Bond, the player controls an arsenal of weapons and items. Bond must use items at the appropriate place and time to either sneak past impossible odds or to solve a mission. The player can save up to three games and/or delete them. The player can perform fist and [[karate]] moves. The game is played across 11 levels,<ref name=Nintendo/> and incorporates gambling [[minigame]]s, such as [[baccarat]] and [[blackjack]].<ref name=IGN/> The game features [[Super Game Boy]] support, allowing for the addition of color to the otherwise [[monochrome|black and white]] graphics.
+
+==Reception==
+{{Video game reviews
+| GR = 62%<ref>{{cite web|url=http://www.gamerankings.com/gameboy/564307-james-bond-007/index.html|title=James Bond 007|publisher=[[GameRankings]]|archiveurl=https://web.archive.org/web/20191209011404/http://www.gamerankings.com/gameboy/564307-james-bond-007/index.html |archivedate=2019-12-09}}</ref>
+| CVG = 4/5<ref name=CVG>{{cite magazine |last=Huhtala |first=Alex |date=April 1998 |title=James Bond 007 |magazine=Computer and Video Games |location=United Kingdom |issue=197 |page=68}}</ref>
+| EGM = 3/10, 1/10, 3.5/10, 4/10<ref name = EGM/>
+| IGN = 7/10<ref name=IGN/>
+| NLife = 8/10 (2010)<ref name=NL/>
+| NP = 6.2/10<ref name=NP-review>{{cite magazine |date=February 1998 |title=James Bond 007 |magazine=Nintendo Power |location=United States |volume=105 |page=96}}</ref>
+| rev1 = ''Nintendojo''
+| rev1Score = 7/10<ref name=ND>{{cite web |last=Krys |first=Ty |title=James Bond: 007 |url=http://www.nintendojo.com/reviews/GB/view_item.php?962640000 |website=Nintendojo |archive-url=https://web.archive.org/web/20031013200112/http://www.nintendojo.com/reviews/GB/view_item.php?962640000 |archive-date=2003-10-13}}</ref>
+}}
+Critics praised the inclusion of the "[[James Bond Theme]]" and stated that the game adequately captured the spirit of the films.<ref name=CVG/><ref name=IGN/><ref name=NP-review/> Gameplay was compared to ''[[The Legend of Zelda: Link's Awakening]]''.<ref name=CVG/><ref name=NP-review/><ref name=ND/>
+
+Alex Huhtala of ''[[Computer and Video Games]]'' stated that the game "may be simple, and quite easy to complete, but there hasn't been anything like it on the GB for ages", writing that it is "full of brilliant innuendo and humour to bring home that Bond flavour".<ref name=CVG/> Conversely, reviewers for ''[[Electronic Gaming Monthly]]'' opined that it did not feel like a James Bond game, criticizing the mundane tasks like retrieving a hammer and cutting down weeds; reviewer Kraig Kujawa remarked "I'm surprised they don't have [James Bond] wash dishes to pay for business expenses." Kujawa's co-reviewer Dan Hsu gave it a 1.0 out of 10, additionally deriding the overly obvious clues.<ref name = "EGM">{{cite magazine|url=https://archive.org/details/ElectronicGamingMonthly_201902/Electronic%20Gaming%20Monthly%20Issue%20105%20%28April%201998%29/page/n103/mode/2up|date=April 1998 |title=James Bond 007 |magazine=Electronic Gaming Monthly |location=United States |issue=105 |page=102|accessdate=2022-01-10}}</ref>
+
+Monica Wilbur of ''[[IGN]]'' praised the character designs and the musical score used for the game's casino area, but she criticized the sound effects, and the lack of a "decent" map system for the game's maze-like levels. Wilbur concluded that the game felt too short, but stated that the inclusion of card games was a "nice touch."<ref name=IGN>{{cite web|url=http://www.ign.com/articles/1999/06/24/james-bond-007|title=James Bond 007|last=Wilbur|first=Monica|date=1999-06-23|website=[[IGN]]|access-date=2016-05-14|archive-date=2016-06-11|archive-url=https://web.archive.org/web/20160611022348/http://www.ign.com/articles/1999/06/24/james-bond-007|url-status=live}}</ref>
+
+In a later review, Ty Krys of ''Nintendojo'' praised the story and array of classic Bond characters, but was critical of the gameplay: "The RPG elements don't feel rewarding and the action sequences suffer from poor control (for an action game) and a slow pace". Krys also criticized the "James Bond Theme", writing that the composers "tried to add to it with other silly noises that take away from the feel".<ref name=ND/>
+
+Dave Frear, writing for ''[[Nintendo Life]]'' in 2010, offered praise for the inclusion of the "James Bond Theme". He also enjoyed the graphics, stating that, "Despite the simplicity of the look, the action is clearly displayed and the sprites have a lot of personality. There are a few slight problems, such as the way characters won't turn to face you when talking, but generally the visuals have a simple charm that works quite well".<ref name=NL>{{cite web |last=Frear |first=Dave |title=James Bond 007 Review (GB) |url=https://retro.nintendolife.com/reviews/2010/10/james_bond_007_retro |website=Nintendo Life |access-date=2021-09-14 |date=2010-10-30 |archive-date=2011-05-16 |archive-url=https://web.archive.org/web/20110516064307/http://retro.nintendolife.com/reviews/2010/10/james_bond_007_retro |url-status=live }}</ref> ''[[Retro Gamer]]'' also reviewed the game in 2010, criticizing the music while praising the controls. The magazine concluded that the game "has many merits" and "should not be overlooked", writing that it "tries something different with the franchise and remains one of the Gameboy's finest titles".<ref>{{cite web |title=James Bond 007 |url=https://www.retrogamer.net/retro_games90/james-bond-007/ |website=Retro Gamer |access-date=2021-09-14 |date=2010-09-28 |archive-date=2021-09-14 |archive-url=https://web.archive.org/web/20210914165622/https://www.retrogamer.net/retro_games90/james-bond-007/ |url-status=live }}</ref>
+
+Chris Freiberg, writing for ''[[Den of Geek]]'' in 2018, included the game on his list of 25 Underrated Game Boy Games. He praised the music and wrote that in some ways, ''James Bond 007'' is "a better Bond game than more recent games with much higher production values".<ref>{{cite web |last=Freiberg |first=Chris |title=25 Underrated Game Boy Games |url=https://www.denofgeek.com/games/25-underrated-game-boy-games/ |website=Den of Geek |access-date=2021-09-14 |date=2018-08-27 |archive-date=2021-09-16 |archive-url=https://web.archive.org/web/20210916184445/https://www.denofgeek.com/games/25-underrated-game-boy-games/ |url-status=live }}</ref>
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Moby game|id=/james-bond-007|name=''James Bond 007''}}
+
+{{James Bond games}}
+
+[[Category:1998 video games]]
+[[Category:Action-adventure games]]
+[[Category:Game Boy-only games]]
+[[Category:James Bond video games]]
+[[Category:Nintendo games]]
+[[Category:MGM Interactive games]]
+[[Category:Video games developed in the United States]]
+[[Category:Video games set in China]]
+[[Category:Video games set in London]]
+[[Category:Video games set in Morocco]]
+[[Category:Video games set in Russia]]
+[[Category:Game Boy games]]
+[[Category:Saffire games]]
+[[Category:Single-player video games]]

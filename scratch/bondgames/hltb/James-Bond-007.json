@@ -1,0 +1,106 @@
+[
+ {
+  "game_id": 4805,
+  "game_name": "James Bond 007",
+  "release_world": 1998,
+  "comp_main": 14223,
+  "comp_plus": 22308,
+  "comp_100": 29531
+ },
+ {
+  "game_id": 57746,
+  "game_name": "James Bond 007",
+  "release_world": 1983,
+  "comp_main": 3150,
+  "comp_plus": 0,
+  "comp_100": 0
+ },
+ {
+  "game_id": 4808,
+  "game_name": "James Bond 007: Everything or Nothing",
+  "release_world": 2004,
+  "comp_main": 33015,
+  "comp_plus": 45908,
+  "comp_100": 69268
+ },
+ {
+  "game_id": 4809,
+  "game_name": "James Bond 007: Nightfire",
+  "release_world": 2002,
+  "comp_main": 22109,
+  "comp_plus": 35046,
+  "comp_100": 75301
+ },
+ {
+  "game_id": 4806,
+  "game_name": "James Bond 007: Agent Under Fire",
+  "release_world": 2001,
+  "comp_main": 18084,
+  "comp_plus": 24663,
+  "comp_100": 65220
+ },
+ {
+  "game_id": 18122,
+  "game_name": "James Bond 007: The Duel",
+  "release_world": 1993,
+  "comp_main": 6039,
+  "comp_plus": 0,
+  "comp_100": 0
+ },
+ {
+  "game_id": 4807,
+  "game_name": "James Bond 007: Blood Stone",
+  "release_world": 2010,
+  "comp_main": 21215,
+  "comp_plus": 25615,
+  "comp_100": 74774
+ },
+ {
+  "game_id": 16726,
+  "game_name": "Operation Stealth",
+  "release_world": 1990,
+  "comp_main": 18181,
+  "comp_plus": 0,
+  "comp_100": 0
+ },
+ {
+  "game_id": 30,
+  "game_name": "007: Licence to Kill",
+  "release_world": 1989,
+  "comp_main": 2880,
+  "comp_plus": 10800,
+  "comp_100": 0
+ },
+ {
+  "game_id": 37069,
+  "game_name": "007: The Living Daylights",
+  "release_world": 1987,
+  "comp_main": 0,
+  "comp_plus": 0,
+  "comp_100": 0
+ },
+ {
+  "game_id": 39768,
+  "game_name": "James Bond 007: A View to a Kill",
+  "release_world": 1985,
+  "comp_main": 750,
+  "comp_plus": 0,
+  "comp_100": 0
+ },
+ {
+  "game_id": 92441,
+  "game_name": "James Bond 007: Goldfinger",
+  "release_world": 1986,
+  "comp_main": 600,
+  "comp_plus": 0,
+  "comp_100": 0
+ },
+ {
+  "game_id": 147301,
+  "game_name": "Aquablast",
+  "release_world": 1988,
+  "comp_main": 0,
+  "comp_plus": 0,
+  "comp_100": 0
+ }
+]
