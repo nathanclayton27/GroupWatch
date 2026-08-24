@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and eighteen lists, from a ten-episode anime to a 1,337-spine film
+One hundred and nineteen lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -85,7 +85,9 @@ Doomsday* in release order with the shows slotted in — *DC Anthology*, the
 live-action equivalent, tracked season by season, and *Studio Ghibli*, every
 feature in release order with Miyazaki's as the spine. Plus *Fullmetal
 Alchemist: Brotherhood*, *Monster*, *Evangelion*, *One Piece*, *One Pace*,
-*Friday Night Lights* and *Lanterns*.
+*Friday Night Lights*, *Lanterns* and *President Curtis* — the last two
+still airing, each with a real weekly schedule so a club watches at
+broadcast pace.
 
 **Games.** *Kingdom Hearts*, in release order, weighted by how long each
 entry takes, and *Nasuverse* — Fate, Tsukihime, Melty Blood and the rest,
