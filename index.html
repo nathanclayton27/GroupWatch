@@ -2919,7 +2919,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'a850c74785e0';
+const BUILD = 'e55d0d03cd7a';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -5202,7 +5202,14 @@ function toggleStar(slug){
 async function syncStars(){
   if(!user || !sb) return false;
   const local = stars();
-  const meta = new Set((user.user_metadata && user.user_metadata.stars) || []);
+  // the session's user object is frozen at sign-in time — stars pushed
+  // from another origin AFTER that never appear in it. Ask the server.
+  let acct = user;
+  try{
+    const { data } = await sb.auth.getUser();
+    if(data && data.user) acct = data.user;
+  }catch(e){ /* fall back to the session copy */ }
+  const meta = new Set((acct.user_metadata && acct.user_metadata.stars) || []);
   const union = new Set([...local, ...meta]);
   let changedLocal = false;
   if(union.size !== local.size){
@@ -6461,6 +6468,11 @@ checkBuild();
 refreshManifest();
 if(!SLUG){
   showHome();
+  // the banner must not depend on auth resolving: with the supabase script
+  // blocked (private windows, blockers) onSession never fires, and the one
+  // page migrating users see most went bannerless. Signed-out is the
+  // default; a session arriving later re-runs this and hides it.
+  moveBanner();
   // the auth boot must run here too — the shelf is where a fresh sign-in
   // lands, and without this the session (and the cloud shelf) never arrive
   if(CLOUD){
