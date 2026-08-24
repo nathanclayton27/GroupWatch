@@ -247,12 +247,20 @@ li.done .itier{opacity:.45}
 .bulk{opacity:0;pointer-events:none}
 summary:hover .bulk,summary:focus-within .bulk{opacity:1;pointer-events:auto}
 .bulk.clear:hover{border-color:var(--signal);color:var(--signal)}
-.catch{position:absolute;right:16px;top:50%;transform:translateY(-50%);
+/* Catch-up owns the right edge alone, and it does it from INSIDE the row's
+   own flow (row-anatomy, rule 4). It used to float over the row on
+   position:absolute, which was fine while nothing else lived out there —
+   the thumbs do now, and a floated button would have clipped them at every
+   width. In flow it is pushed right by margin, and when the width runs out
+   it wraps to its own line instead of landing on anything. */
+.catch{margin-left:auto;flex:none;display:none;
   font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);
   background:var(--card);border:1px solid var(--rule-2);border-radius:var(--radius);
-  padding:2px 8px;cursor:pointer;opacity:0;transition:opacity .12s}
+  padding:2px 8px;cursor:pointer}
 li{position:relative}
-li:hover .catch,.catch:focus-visible{opacity:1}
+/* focus-within, not :focus-visible on the button itself: a display:none button
+   cannot take focus, so the row has to open the door before Tab reaches it */
+li:hover .catch,li:focus-within .catch{display:inline-block}
 .catch:hover{border-color:var(--signal);color:var(--signal)}
 /* Nothing to hover, so the section button simply stays out — there is one per
    section and it earns the room. The per-row catch-up does not: every row
@@ -260,8 +268,8 @@ li:hover .catch,.catch:focus-visible{opacity:1}
    the row instead, so only ever one is on screen. */
 @media (hover:none){
   .bulk{opacity:1;pointer-events:auto;padding:7px 11px;font-size:11px}
-  .catch{opacity:0;pointer-events:none;padding:6px 10px;font-size:11px}
-  #list li.act .catch{opacity:1;pointer-events:auto}
+  .catch{display:none;padding:6px 10px;font-size:11px}
+  #list li.act .catch{display:inline-block}
   #list li{padding:9px 14px;min-height:44px;align-items:center}
   #list li input{width:20px;height:20px;top:0}
   #list li:hover{background:transparent}
@@ -270,7 +278,9 @@ li:hover .catch,.catch:focus-visible{opacity:1}
 details[open] summary{border-bottom:1px solid var(--rule)}
 
 ol{list-style:none;margin:0;padding:6px 0}
-li{display:flex;align-items:baseline;gap:12px;padding:5px 18px}
+/* wrap is what lets catch-up drop to its own line rather than crush the title
+   or clip the thumbs when a narrow row runs out of room */
+li{display:flex;align-items:baseline;gap:12px;padding:5px 18px;flex-wrap:wrap}
 li:hover{background:rgba(128,128,128,.06)}
 /* the inline toast: feedback opens in the list flow directly beneath the row
    it belongs to, then collapses slowly on tap-away, scroll-away, or timeout.
@@ -296,10 +306,61 @@ li:hover{background:rgba(128,128,128,.06)}
 #list li.act{animation:gw-picked .9s ease-out}
 @media (prefers-reduced-motion: reduce){#list li.act{animation:none}}
 li input{flex:none;width:15px;height:15px;accent-color:var(--signal);margin:0;position:relative;top:2px;cursor:pointer}
-.ttl{flex:1;min-width:0;font-size:14px}
+/* A floor, not min-width:0, now that the row can wrap: at zero the title block
+   counts for nothing when the browser works out what fits on a line, so
+   catch-up would sooner crush the title to a word per line than drop below it.
+   The basis stays 0 on purpose — with a basis of auto a long note's
+   max-content becomes the title's hypothetical size, which threw the whole
+   title block onto its own line under the checkbox at 390px. */
+.ttl{flex:1 1 0;min-width:min(100%,12ch);font-size:14px}
 .num{color:var(--ink-2);font-size:13px}
 .nb{display:block;font-size:12px;color:var(--ink-3);margin-top:1px}
 li.done .ttl,li.done .num{color:var(--ink-3);text-decoration:line-through;text-decoration-thickness:1px}
+
+/* ---- thumbs (CLU-43): two states and silence ---------------------------
+   Not stars, not reviews, and never a stranger's business. The un-pressed
+   pair rides the hover layer with every other control; the moment a side is
+   picked it becomes the only thing left on the row, and it survives at rest
+   forever — a made mark is the one thing beyond the four facts allowed to
+   sit there (row-anatomy, the visibility law and rule 3). The pair fades in
+   on opacity rather than arriving on display, so it holds its lane the whole
+   time and revealing a row can never move its neighbours. */
+.th{display:flex;gap:6px;flex:none;align-items:baseline}
+.thb,.thc{font:inherit;font-size:11px;line-height:1;white-space:nowrap;
+  display:inline-flex;align-items:center;gap:4px;
+  border:1px solid var(--rule-2);border-radius:99px;padding:3px 8px;
+  background:transparent;color:var(--ink-2)}
+.thb{cursor:pointer;filter:grayscale(1);opacity:0;transition:opacity .15s}
+/* :not(.on) throughout: a made mark is already at full strength and pointing
+   at the row must not fade it back down to hover strength */
+#list li:hover .thb:not(.on),#list li.act .thb:not(.on),
+#list li:focus-within .thb:not(.on){opacity:.6}
+.thb:hover,.thb:focus-visible{opacity:1;border-color:var(--ink-2)}
+/* the surviving mark */
+.thb.on{opacity:1;filter:none;border-color:var(--done);
+  background:color-mix(in srgb,var(--done) 16%,transparent)}
+.thb.on:hover{border-color:var(--signal)}
+/* A friends-only count is not one of the four facts, so it rides the hover
+   layer too. Where you are IN the count the button carries it instead, and
+   the whole pill is highlighted — which is what "you are in that list" has
+   to look like at a glance. */
+.thc{opacity:0;transition:opacity .15s;filter:grayscale(1)}
+#list li:hover .thc,#list li.act .thc{opacity:.75}
+.thn{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;
+  font-variant-numeric:tabular-nums;color:var(--ink-3)}
+.thb.on .thn{color:var(--done)}
+/* the whole-list thumb: the title line is the list's own row, so it obeys the
+   list's own version of the same law */
+.lth{display:inline-flex;gap:6px;margin-left:.3em;vertical-align:.3em}
+header:hover .lth .thb:not(.on),
+header:focus-within .lth .thb:not(.on){opacity:.6}
+@media (hover:none){
+  /* nothing to hover: the pair rests faint instead of invisible, like every
+     other control that lives in the hover layer */
+  .thb{opacity:.5;padding:6px 10px}
+  .thb.on{opacity:1}
+  .thc{opacity:.5;padding:6px 10px}
+}
 .star{color:var(--signal);font-size:11px;letter-spacing:-1px}
 .opt{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);border:1px solid var(--rule-2);padding:1px 5px;border-radius:var(--radius)}
 a.iss{color:var(--steel);text-decoration:none;border-bottom:1px solid transparent}
@@ -1037,8 +1098,11 @@ footer a{color:var(--steel)}
 <div class="wrap">
 <header>
   <div class="lbl" id="eyebrow"></div>
+  <!-- the whole-list thumb sits on the title line beside the star: the two
+       list-level opinions together, in the one place a statement about all
+       600 rows can live without repeating itself on any of them -->
   <h1 id="ptitle"><button class="tstar" id="b-star" aria-pressed="false"
-    title="Keep this at the top of the menu">☆</button><span id="ptitle-t"></span></h1>
+    title="Keep this at the top of the menu">☆</button><span id="ptitle-t"></span><span class="lth" id="lthumb"></span></h1>
   <p class="tagline" id="pblurb"></p>
   <div class="strip" id="strip" role="img" aria-label="Your progress"></div>
   <div class="stack hide" id="stack" role="img" aria-label="Everyone's progress"></div>
@@ -1696,6 +1760,206 @@ function persist(){
   }, 700);
 }
 
+/* ------------------------------------------------- thumbs (CLU-43) ------ */
+// Two states and silence: a thumb up, a thumb down, or nothing at all. No
+// stars, no reviews, and nothing a stranger can ever see.
+//
+// LOCAL IS THE TRUTH. The cloud table arrives with migrate-add-thumbs.sql,
+// which is run by hand, so until someone runs it there is no table and every
+// cloud call 404s. That must be invisible: a control that mints something the
+// backend cannot honour is the exact mistake the friend codes made. So every
+// write lands in localStorage first and works immediately; the cloud copy is
+// a mirror whose failures are swallowed, and friends' counts are simply
+// absent rather than broken.
+//
+// Keyed on SLUG, never CKEY: an opinion belongs to the work, not to the run,
+// so a fresh watch keeps whatever you already thought of it.
+const THKEY = SLUG ? 'gw:thumbs:v1:' + SLUG : '';
+const THFACE = { up:'👍', down:'👎' };
+const THNAME = { up:'Thumbs up', down:'Thumbs down' };
+function readThumbs(){
+  try{
+    const r = JSON.parse(localStorage.getItem(THKEY) || '{}') || {};
+    const items = {};
+    // one opinion per thing, and only ever one of two words
+    for(const k in (r.items || {}))
+      if(r.items[k] === 'up' || r.items[k] === 'down') items[k] = r.items[k];
+    return { items, list: (r.list === 'up' || r.list === 'down') ? r.list : null };
+  }catch(e){ return { items:{}, list:null }; }
+}
+let THUMBS = readThumbs();
+let FTH = null;          // friends' thumbs, or null while nobody has told us
+let THBROKEN = false;    // the table is not there yet — stop asking for it
+function writeThumbs(){
+  try{ localStorage.setItem(THKEY, JSON.stringify(THUMBS)); }catch(e){}
+}
+// null item means the whole list
+function thumbOf(item){
+  return item === null ? THUMBS.list : (THUMBS.items[item] || null);
+}
+function thFriends(item, dir){
+  if(!FTH) return [];
+  const bag = item === null ? FTH.list : FTH.items[item];
+  return (bag && bag[dir]) || [];
+}
+
+// The cloud half, all of it best-effort. A missing table, a signed-out
+// reader and a blocked script have to look identical to "nobody has thumbed
+// this", which is silence — never a console-visible break, never a flash().
+// Delete-then-insert rather than upsert: item_id is nullable for the
+// whole-list thumb, so the one-per-thing constraint has to be an expression
+// index over coalesce(item_id,'') — and PostgREST can only aim ON CONFLICT at
+// a plain column list. The database enforces one opinion per thing either way.
+async function pushThumb(item, dir){
+  if(!user || !sb || !SLUG || THBROKEN) return;
+  try{
+    let q = sb.from('thumbs').delete()
+      .eq('user_id', user.id).eq('property_id', SLUG);
+    q = item === null ? q.is('item_id', null) : q.eq('item_id', item);
+    const del = await q;
+    if(del && del.error){ THBROKEN = true; return; }
+    if(!dir) return;
+    const ins = await sb.from('thumbs').insert(
+      { user_id:user.id, property_id:SLUG, item_id:item, direction:dir,
+        updated_at:new Date().toISOString() });
+    if(ins && ins.error) THBROKEN = true;
+  }catch(e){ THBROKEN = true; }
+}
+// Your own rows, folded in so a fresh device shows what you already think.
+// The device in your hand wins any clash — it is the one that just heard
+// from you, exactly as progress decides it.
+async function pullThumbs(){
+  if(!user || !sb || !SLUG || THBROKEN) return;
+  let r = null;
+  try{
+    r = await sb.from('thumbs').select('item_id,direction')
+      .eq('user_id', user.id).eq('property_id', SLUG);
+  }catch(e){ THBROKEN = true; return; }
+  if(!r || r.error){ THBROKEN = true; return; }
+  let moved = false;
+  (r.data || []).forEach(row=>{
+    if(row.direction !== 'up' && row.direction !== 'down') return;
+    if(row.item_id === null || row.item_id === undefined){
+      if(!THUMBS.list){ THUMBS.list = row.direction; moved = true; }
+    }else if(!THUMBS.items[row.item_id]){
+      THUMBS.items[row.item_id] = row.direction; moved = true;
+    }
+  });
+  if(moved){ writeThumbs(); paintThumbs(); }
+}
+// Friends' thumbs. Needs both the table and the mutual-friends read policy,
+// and one migration brings both — so a single silent bail covers the whole
+// pre-migration world.
+async function pullFriendThumbs(){
+  if(!user || !sb || !SLUG || THBROKEN || FBROKEN) return;
+  let E = null;
+  try{ E = await fetchFriendEdges(); }catch(e){}
+  if(!E) return;
+  const mutual = E.ids.filter(i=> E.out.has(i) && E.inn.has(i));
+  if(!mutual.length) return;
+  let r = null;
+  try{
+    r = await sb.from('thumbs').select('user_id,item_id,direction')
+      .eq('property_id', SLUG).in('user_id', mutual);
+  }catch(e){ THBROKEN = true; return; }
+  if(!r || r.error){ THBROKEN = true; return; }
+  const out = { items:{}, list:{ up:[], down:[] } };
+  (r.data || []).forEach(row=>{
+    if(row.direction !== 'up' && row.direction !== 'down') return;
+    const bag = (row.item_id === null || row.item_id === undefined)
+      ? out.list
+      : (out.items[row.item_id] = out.items[row.item_id] || { up:[], down:[] });
+    // a stale profile may be nameless; the count is still true
+    bag[row.direction].push(E.names[row.user_id] || 'someone');
+  });
+  FTH = out;
+  paintThumbs();
+}
+
+// One side of the pair. The count and the names are the friend layer: a side
+// nobody but you picked is a bare mark, because "1" next to your own thumb
+// tells you nothing you did not just do.
+function thBtn(item, dir, mine){
+  const on = mine === dir;
+  const who = thFriends(item, dir);
+  const full = THNAME[dir]
+    + (who.length ? ' — ' + (on ? 'you, ' : '') + who.join(', ')
+                  : (on ? ' — you' : ''));
+  return '<button type="button" class="thb' + (on ? ' on' : '')
+    + '" data-th="' + dir + '"'
+    + (on ? ' aria-pressed="true"' : ' aria-pressed="false"')
+    + ' title="' + esc(full) + '" aria-label="' + esc(full) + '">'
+    + THFACE[dir]
+    + (who.length ? '<span class="thn">' + (who.length + (on ? 1 : 0)) + '</span>' : '')
+    + '</button>';
+}
+// The friends' verdict on the side you did NOT pick: a count, not a button.
+// The pair never renders beside a made mark (row-anatomy, rule 3), so this
+// stays a plain pill you cannot press.
+function thCount(item, dir){
+  const who = thFriends(item, dir);
+  const full = THNAME[dir] + ' — ' + who.join(', ');
+  return '<span class="thc" role="img" title="' + esc(full) + '"'
+    + ' aria-label="' + esc(full) + '">' + THFACE[dir]
+    + '<span class="thn">' + who.length + '</span></span>';
+}
+function thHTML(item){
+  const mine = thumbOf(item);
+  let h = mine ? thBtn(item, mine, mine)
+               : thBtn(item, 'up', mine) + thBtn(item, 'down', mine);
+  if(mine){
+    const other = mine === 'up' ? 'down' : 'up';
+    if(thFriends(item, other).length) h += thCount(item, other);
+  }
+  return h;
+}
+// Signature-gated: paint() runs on every tick and a 600-row list would
+// otherwise rebuild 600 lots of markup to change nothing.
+function thSig(item){
+  return (thumbOf(item) || '-') + '|' + thFriends(item, 'up').join(',')
+       + '|' + thFriends(item, 'down').join(',');
+}
+function paintThumbs(){
+  document.querySelectorAll('#list .th').forEach(el=>{
+    const li = el.closest('li');
+    if(!li) return;
+    const sig = thSig(li.dataset.id);
+    if(el.dataset.sig === sig) return;
+    el.dataset.sig = sig;
+    el.innerHTML = thHTML(li.dataset.id);
+  });
+  const lt = $('lthumb');
+  if(lt && SLUG){
+    const sig = thSig(null);
+    if(lt.dataset.sig !== sig){ lt.dataset.sig = sig; lt.innerHTML = thHTML(null); }
+  }
+}
+// A thumb is a watch (row-anatomy, rule 8): pressing either side of an
+// unticked row ticks it, and it ticks by clicking the row's own checkbox so
+// the event log, the cross-list sync and the cloud write cannot drift from
+// what an ordinary tick does. Clearing a thumb never unticks — taking an
+// opinion back is not saying you did not watch it.
+function setThumb(id, dir, li){
+  if(THUMBS.items[id] === dir) delete THUMBS.items[id];
+  else THUMBS.items[id] = dir;
+  writeThumbs();
+  const now = THUMBS.items[id] || null;
+  if(now && li && !done.has(id)){
+    const box = li.querySelector('input[type=checkbox]');
+    if(box) box.click();
+  }
+  pushThumb(id, now);
+  paintThumbs();
+}
+$('lthumb').addEventListener('click', e=>{
+  const b = e.target.closest('.thb');
+  if(!b) return;
+  THUMBS.list = THUMBS.list === b.dataset.th ? null : b.dataset.th;
+  writeThumbs();
+  pushThumb(null, THUMBS.list);
+  paintThumbs();
+});
+
 async function adopt(){
   const { data, error } = await sb.from('progress')
     .select('read_ids').eq('user_id', user.id).eq('property_id', CKEY).maybeSingle();
@@ -1768,6 +2032,10 @@ async function onSession(session){
       console.error('[tracker] adopt threw', e);
     }
     syncStars().then(ch=>{ if(ch){ paintStar(); renderMenu(); } });
+    // Thumbs ride behind everything else and answer to nobody: with the
+    // table not yet created both of these bail on the first error and the
+    // page never mentions it.
+    pullThumbs().then(pullFriendThumbs).catch(()=>{});
     // list-only users must be findable by code too
     ensureFcode().then(()=> mirrorProfile());
     await refreshGroup(false);
@@ -5466,14 +5734,19 @@ function build(){
       // One" reads right for episodes
       const head = NUMFIRST ? num+' '+t : t+' '+num;
       const tr = x.tier || s.tier || 1;
+      // Lane order is the row spec's: the four facts, then the thumbs, then
+      // catch-up alone on the right edge. The thumbs sit OUTSIDE .ttl on
+      // purpose: the checkbox is aria-labelledby that span, and a button
+      // inside it would read both thumb emoji into the checkbox's own name.
       return '<li data-id="'+x.id+'"><input type="checkbox" aria-labelledby="l'+x.id+'">'
-        +'<button class="catch" data-id="'+x.id+'" title="Mark everything up to and including this">'
-        +'catch up to here</button>'
         +(ITEMTIERS ? '<span class="itier mono'+(tr===1?' a':'')+'">T'+tr+'</span>' : '')
         +'<span class="ttl" id="l'+x.id+'">'+head+' '
         +(x.star?'<span class="star">'+'\u2605'.repeat(x.star)+'</span> ':'')
         +(x.opt?'<span class="opt">optional</span>':'')
-        +(x.note?'<span class="nb">'+esc(x.note)+'</span>':'')+'</span></li>';
+        +(x.note?'<span class="nb">'+esc(x.note)+'</span>':'')+'</span>'
+        +'<span class="th"></span>'
+        +'<button class="catch" data-id="'+x.id+'" title="Mark everything up to and including this">'
+        +'catch up to here</button></li>';
     }).join('');
     const links = s.links || s.series || [];
     const linkHtml = links.length <= LINKS_INLINE
@@ -5543,6 +5816,13 @@ function build(){
       recordEvents(hit.map(x=> x.id), full ? 'untick' : 'tick', 'backfill');
       syncTicks(hit.map(x=> x.id), !full);
       persist(); paint();
+      return;
+    }
+    const thumb = e.target.closest('.thb');
+    if(thumb){
+      e.preventDefault(); e.stopPropagation();
+      const li = thumb.closest('li');
+      if(li) setThumb(li.dataset.id, thumb.dataset.th, li);
       return;
     }
     const catchUp = e.target.closest('.catch');
@@ -5621,6 +5901,7 @@ function paint(){
     li.classList.toggle('done', on);
     li.querySelector('input').checked = on;
   });
+  paintThumbs();
   document.querySelectorAll('.tick[data-t]').forEach(t=> t.classList.toggle('on', done.has(t.dataset.t)));
   const per={1:0,2:0,3:0};
   let flatAt = 0;
