@@ -1,0 +1,179 @@
+{
+  "slug": "president-curtis",
+  "title": "President Curtis",
+  "subtitle": "Keith David as President Andre Curtis",
+  "kind": "tv",
+  "order": 123,
+  "year": "2026",
+  "blurb": "The Rick and Morty spin-off — 10 episodes, weekly, still airing.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#4F6B14",
+  "accentDark": "#A8D93F",
+  "tiers": false,
+  "schedule": {
+    "kind": "windows",
+    "windows": [
+      {
+        "start": "2026-07-26",
+        "end": "2026-08-01",
+        "through": 1,
+        "label": "Episode 1"
+      },
+      {
+        "start": "2026-08-02",
+        "end": "2026-08-08",
+        "through": 2,
+        "label": "Episode 2"
+      },
+      {
+        "start": "2026-08-09",
+        "end": "2026-08-15",
+        "through": 3,
+        "label": "Episode 3"
+      },
+      {
+        "start": "2026-08-16",
+        "end": "2026-08-22",
+        "through": 4,
+        "label": "Episode 4"
+      },
+      {
+        "start": "2026-08-23",
+        "end": "2026-08-29",
+        "through": 5,
+        "label": "Episode 5"
+      },
+      {
+        "start": "2026-08-30",
+        "end": "2026-09-05",
+        "through": 6,
+        "label": "Episode 6"
+      },
+      {
+        "start": "2026-09-06",
+        "end": "2026-09-12",
+        "through": 7,
+        "label": "Episode 7"
+      },
+      {
+        "start": "2026-09-13",
+        "end": "2026-09-19",
+        "through": 8,
+        "label": "Episode 8"
+      },
+      {
+        "start": "2026-09-20",
+        "end": "2026-09-26",
+        "through": 9,
+        "label": "Episode 9"
+      },
+      {
+        "start": "2026-09-27",
+        "end": "2026-10-03",
+        "through": 10,
+        "label": "Episode 10"
+      }
+    ]
+  },
+  "notes": [
+    [
+      "Airing now.",
+      "One window per episode, so the pace line tells you whether you are caught up with the broadcast rather than on track for some distant finish. The last one lands on 27 September 2026."
+    ],
+    [
+      "Where it airs.",
+      "Sundays on Adult Swim — the premiere followed the Rick and Morty ninth-season finale — with episodes reaching HBO Max the day after broadcast."
+    ],
+    [
+      "Already renewed.",
+      "Adult Swim ordered a second season in July 2026, ahead of the premiere."
+    ],
+    [
+      "The whole season is listed.",
+      "All 10 episodes are dated in the source, so the ones that have not aired yet are listed too. The schedule needs them, and an announced row is what an airing show looks like."
+    ],
+    [
+      "Nothing is weighted.",
+      "The source carries no per-episode runtime, so every episode counts one."
+    ],
+    "Titles and air dates machine-read from the Wikipedia article \"President Curtis (TV series)\"; the season length is checked against the article's own count before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "10 episodes · weekly from 26 July 2026",
+      "items": [
+        {
+          "id": "president-curtis-1",
+          "t": "Pilot",
+          "n": "1",
+          "note": "aired 26 July · series premiere"
+        },
+        {
+          "id": "president-curtis-2",
+          "t": "Triangle",
+          "n": "2",
+          "note": "aired 2 August"
+        },
+        {
+          "id": "president-curtis-3",
+          "t": "Ex",
+          "n": "3",
+          "note": "aired 9 August"
+        },
+        {
+          "id": "president-curtis-4",
+          "t": "Purchase",
+          "n": "4",
+          "note": "aired 16 August"
+        },
+        {
+          "id": "president-curtis-5",
+          "t": "David",
+          "n": "5",
+          "note": "aired 23 August"
+        },
+        {
+          "id": "president-curtis-6",
+          "t": "Hollow",
+          "n": "6",
+          "note": "airs 30 August"
+        },
+        {
+          "id": "president-curtis-7",
+          "t": "Ghosts",
+          "n": "7",
+          "note": "airs 6 September"
+        },
+        {
+          "id": "president-curtis-8",
+          "t": "Knox",
+          "n": "8",
+          "note": "airs 13 September"
+        },
+        {
+          "id": "president-curtis-9",
+          "t": "Synths",
+          "n": "9",
+          "note": "airs 20 September"
+        },
+        {
+          "id": "president-curtis-10",
+          "t": "Timber",
+          "n": "10",
+          "note": "airs 27 September · season finale"
+        }
+      ]
+    }
+  ]
+}

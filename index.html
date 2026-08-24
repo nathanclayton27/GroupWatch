@@ -1255,25 +1255,6 @@ let MANIFEST = [
     "scheduled": true
   },
   {
-    "slug": "president-curtis",
-    "media": [
-      "tv"
-    ],
-    "title": "President Curtis",
-    "subtitle": "Keith David as President Andre Curtis",
-    "kind": "tv",
-    "year": "2026",
-    "blurb": "The Rick and Morty spin-off — 10 episodes, weekly, still airing.",
-    "accent": "#4F6B14",
-    "accentDark": "#A8D93F",
-    "unit": {
-      "one": "episode",
-      "many": "episodes"
-    },
-    "total": 10,
-    "scheduled": true
-  },
-  {
     "slug": "evangelion",
     "media": [
       "anime"
@@ -3273,6 +3254,25 @@ let MANIFEST = [
       "many": "episodes"
     },
     "total": 169
+  },
+  {
+    "slug": "president-curtis",
+    "media": [
+      "tv"
+    ],
+    "title": "President Curtis",
+    "subtitle": "Keith David as President Andre Curtis",
+    "kind": "tv",
+    "year": "2026",
+    "blurb": "The Rick and Morty spin-off — 10 episodes, weekly, still airing.",
+    "accent": "#4F6B14",
+    "accentDark": "#A8D93F",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 10,
+    "scheduled": true
   }
 ];
 
@@ -3292,7 +3292,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '49a9cc8aeb69';
+const BUILD = '9865078caea4';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -6967,8 +6967,14 @@ function showHome(){
       || b.score - a.score || b.last - a.last || b.n - a.n);
   // strangers get the splash; a signed-in person gets their home even
   // with nothing tracked yet — friends, requests, and the catalogue are
-  // all still theirs (Nathan's call, 2026-08-24)
-  if(!shelf.length && !user){ showSplash(); return; }
+  // all still theirs (Nathan's call, 2026-08-24). And a device that
+  // REMEMBERS someone (cached name, session still resolving) is not a
+  // stranger: it gets home's skeleton, never a flash of the pitch.
+  let remembered = '';
+  try{
+    remembered = sessionSeen ? '' : (localStorage.getItem('gw:acctname') || '');
+  }catch(e){}
+  if(!shelf.length && !user && !remembered){ showSplash(); return; }
   $('homev').classList.remove('hide');
   $('switcher').classList.remove('hide');
   $('mast').classList.add('athome');

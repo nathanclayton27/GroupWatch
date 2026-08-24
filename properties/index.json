@@ -2183,5 +2183,24 @@
       "many": "episodes"
     },
     "total": 169
+  },
+  {
+    "slug": "president-curtis",
+    "media": [
+      "tv"
+    ],
+    "title": "President Curtis",
+    "subtitle": "Keith David as President Andre Curtis",
+    "kind": "tv",
+    "year": "2026",
+    "blurb": "The Rick and Morty spin-off — 10 episodes, weekly, still airing.",
+    "accent": "#4F6B14",
+    "accentDark": "#A8D93F",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 10,
+    "scheduled": true
   }
 ]

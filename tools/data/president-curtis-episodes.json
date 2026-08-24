@@ -1,0 +1,64 @@
+{
+  "source": "President Curtis (TV series)",
+  "season": 1,
+  "meta": {
+    "network": "Adult Swim",
+    "runtime": "24 minutes",
+    "num_episodes_infobox": "5",
+    "first_aired": "2026-07-26",
+    "voices": "Keith David, Stephanie Beatriz, Jim Rash",
+    "creator": "James Siciliano, Dan Harmon"
+  },
+  "episodes": [
+    {
+      "e": 1,
+      "t": "Pilot",
+      "d": "2026-07-26"
+    },
+    {
+      "e": 2,
+      "t": "Triangle",
+      "d": "2026-08-02"
+    },
+    {
+      "e": 3,
+      "t": "Ex",
+      "d": "2026-08-09"
+    },
+    {
+      "e": 4,
+      "t": "Purchase",
+      "d": "2026-08-16"
+    },
+    {
+      "e": 5,
+      "t": "David",
+      "d": "2026-08-23"
+    },
+    {
+      "e": 6,
+      "t": "Hollow",
+      "d": "2026-08-30"
+    },
+    {
+      "e": 7,
+      "t": "Ghosts",
+      "d": "2026-09-06"
+    },
+    {
+      "e": 8,
+      "t": "Knox",
+      "d": "2026-09-13"
+    },
+    {
+      "e": 9,
+      "t": "Synths",
+      "d": "2026-09-20"
+    },
+    {
+      "e": 10,
+      "t": "Timber",
+      "d": "2026-09-27"
+    }
+  ]
+}
