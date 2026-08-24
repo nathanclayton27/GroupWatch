@@ -1,0 +1,8561 @@
+{
+  "slug": "spawn",
+  "title": "Spawn",
+  "subtitle": "Blake Whitlow's reading order",
+  "kind": "comics",
+  "order": 124,
+  "year": "1992–",
+  "blurb": "829 issues of Spawn and its spin-offs, in the order they are meant to be read rather than the order they came out.",
+  "unit": {
+    "one": "issue",
+    "many": "issues"
+  },
+  "verb": {
+    "base": "read",
+    "past": "read",
+    "ing": "reading"
+  },
+  "accent": "#4412A6",
+  "accentDark": "#9B7BEE",
+  "tiers": true,
+  "paceTiers": [
+    1
+  ],
+  "paceLabel": "the arcs the source marks non-essential",
+  "filter": {
+    "key": "line",
+    "label": "Show",
+    "mode": "exclude",
+    "values": [
+      "Main series",
+      "One-shot",
+      "Optional",
+      "Spin-off"
+    ]
+  },
+  "notes": [
+    [
+      "This is not chronological order.",
+      "The source says so twice in its own preamble, and it matters: the issues that come first chronologically give away the series' biggest turns, and much of the terminology only lands once the main book has introduced it. This is the order that reads best cold, which is a different thing and a much more useful one."
+    ],
+    [
+      "Four kinds of row.",
+      "The source colour-codes every issue and the filter carries that over: the main Spawn book, the spin-off series it treats as essential, the one-shots, and the spin-offs it marks non-essential. Hiding the last of those leaves a spine you can read straight through."
+    ],
+    [
+      "Sections are its arcs, not ours.",
+      "The arc column of the source is reproduced exactly, down to the arcs that are one issue long. Where it interleaves a mini-series into the middle of a main-book arc, so does this."
+    ],
+    [
+      "No spoilers.",
+      "A note says what an issue is and where it sits — which series it crosses over with, how much time has passed, whether the source doubts its placement. Never what happens in it. The source's own annotations are rewritten to that rule rather than copied."
+    ],
+    [
+      "It runs past what is published.",
+      "The source keeps its grid filled in ahead of the solicitations, so the last stretch of each ongoing is issues that do not exist yet. The last published issue of each is marked."
+    ],
+    [
+      "What is left out.",
+      "The source's appendices: the announced series with no issues out yet, the cover-date calendar, and the miscellany of toy comics, parodies and cancelled projects it files outside the order and marks non-canon. The reading order itself is here whole."
+    ],
+    "Order, arc divisions and placement notes from Blake Whitlow's Spawn Reading Order / Chronology, kept updated since 2012; the annotations are rewritten from it rather than copied."
+  ],
+  "sections": [
+    {
+      "id": "arc001-questions",
+      "tier": 1,
+      "title": "Questions",
+      "sub": "Spawn #1–4",
+      "items": [
+        {
+          "id": "spawn-spawn-1",
+          "t": "Spawn",
+          "n": "#1",
+          "note": "In-story year 1992.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-2",
+          "t": "Spawn",
+          "n": "#2",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-3",
+          "t": "Spawn",
+          "n": "#3",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-4",
+          "t": "Spawn",
+          "n": "#4",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc002-kincaid-part-1",
+      "tier": 1,
+      "title": "Kincaid, Part 1",
+      "sub": "Spawn #5",
+      "items": [
+        {
+          "id": "spawn-spawn-5",
+          "t": "Spawn",
+          "n": "#5",
+          "note": "Justice",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc003-payback",
+      "tier": 1,
+      "title": "Payback",
+      "sub": "Spawn #6–7",
+      "items": [
+        {
+          "id": "spawn-spawn-6",
+          "t": "Spawn",
+          "n": "#6",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-7",
+          "t": "Spawn",
+          "n": "#7",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc004-kincaid-part-2",
+      "tier": 1,
+      "title": "Kincaid, Part 2",
+      "sub": "Spawn #8",
+      "items": [
+        {
+          "id": "spawn-spawn-8",
+          "t": "Spawn",
+          "n": "#8",
+          "note": "In Heaven",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc005-wild-dreams",
+      "tier": 1,
+      "title": "Wild Dreams",
+      "sub": "Spawn #9–11",
+      "items": [
+        {
+          "id": "spawn-spawn-9",
+          "t": "Spawn",
+          "n": "#9",
+          "note": "Angela",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-10",
+          "t": "Spawn",
+          "n": "#10",
+          "note": "Crossing Over · Meta commentary on the comic industry.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-11",
+          "t": "Spawn",
+          "n": "#11",
+          "note": "Home",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc006-flashback",
+      "tier": 1,
+      "title": "Flashback",
+      "sub": "Spawn #12–13",
+      "items": [
+        {
+          "id": "spawn-spawn-12",
+          "t": "Spawn",
+          "n": "#12",
+          "note": "Semi-crossover with Youngblood.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-13",
+          "t": "Spawn",
+          "n": "#13",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc007-myths",
+      "tier": 1,
+      "title": "Myths",
+      "sub": "Spawn #14–15",
+      "items": [
+        {
+          "id": "spawn-spawn-14",
+          "t": "Spawn",
+          "n": "#14",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-15",
+          "t": "Spawn",
+          "n": "#15",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc008-reflections",
+      "tier": 1,
+      "title": "Reflections",
+      "sub": "Spawn #16–18",
+      "items": [
+        {
+          "id": "spawn-spawn-16",
+          "t": "Spawn",
+          "n": "#16",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-17",
+          "t": "Spawn",
+          "n": "#17",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-18",
+          "t": "Spawn",
+          "n": "#18",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc009-showtime",
+      "tier": 1,
+      "title": "Showtime",
+      "sub": "Spawn #19–20",
+      "items": [
+        {
+          "id": "spawn-spawn-19",
+          "t": "Spawn",
+          "n": "#19",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-20",
+          "t": "Spawn",
+          "n": "#20",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc010-spawn-batman",
+      "tier": 1,
+      "title": "Spawn/Batman",
+      "sub": "Spawn/Batman",
+      "items": [
+        {
+          "id": "spawn-spawn-batman",
+          "t": "Spawn/Batman",
+          "n": "",
+          "note": "Also published as The Red Scare · Leads straight into Spawn #21.",
+          "tags": [
+            "One-shot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc011-overt-war",
+      "tier": 2,
+      "title": "Overt-War",
+      "sub": "Curse of the Spawn #23–24",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-23",
+          "t": "Curse of the Spawn",
+          "n": "#23",
+          "note": "Overt-Resurrection · Placement uncertain — could also sit between Curse #22 and #25.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-24",
+          "t": "Curse of the Spawn",
+          "n": "#24",
+          "note": "Overt-Hell",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc012-the-hunt",
+      "tier": 1,
+      "title": "The Hunt",
+      "sub": "Spawn #21–24",
+      "items": [
+        {
+          "id": "spawn-spawn-21",
+          "t": "Spawn",
+          "n": "#21",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-22",
+          "t": "Spawn",
+          "n": "#22",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-23",
+          "t": "Spawn",
+          "n": "#23",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-24",
+          "t": "Spawn",
+          "n": "#24",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc013-the-world",
+      "tier": 1,
+      "title": "The World",
+      "sub": "Violator (1994) #1–3",
+      "items": [
+        {
+          "id": "spawn-violator-1994-1",
+          "t": "Violator (1994)",
+          "n": "#1",
+          "note": "Runs concurrently with The Hunt.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-violator-1994-2",
+          "t": "Violator (1994)",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-violator-1994-3",
+          "t": "Violator (1994)",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc014-nordik-the-norse-spawn",
+      "tier": 2,
+      "title": "Nordik, the Norse Spawn",
+      "sub": "Spawn, Fan Edition #1–3",
+      "items": [
+        {
+          "id": "spawn-spawn-fan-edition-1",
+          "t": "Spawn, Fan Edition",
+          "n": "#1",
+          "note": "The Sword of Hell, Blood of the Innocent · Placed after Violator, which introduces its cast.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-spawn-fan-edition-2",
+          "t": "Spawn, Fan Edition",
+          "n": "#2",
+          "note": "Hell's Bargain",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-spawn-fan-edition-3",
+          "t": "Spawn, Fan Edition",
+          "n": "#3",
+          "note": "No Mercy Upon the Wicked",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc015-tremors-part-1",
+      "tier": 1,
+      "title": "Tremors, Part 1",
+      "sub": "Spawn #25",
+      "items": [
+        {
+          "id": "spawn-spawn-25",
+          "t": "Spawn",
+          "n": "#25",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc016-angela-prelude",
+      "tier": 1,
+      "title": "Angela Prelude",
+      "sub": "Spawn #26",
+      "items": [
+        {
+          "id": "spawn-spawn-26",
+          "t": "Spawn",
+          "n": "#26",
+          "note": "The Dark",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc017-the-death-of-chapel",
+      "tier": 2,
+      "title": "The Death of Chapel",
+      "sub": "Youngblood #8, #10",
+      "items": [
+        {
+          "id": "spawn-youngblood-8",
+          "t": "Youngblood",
+          "n": "#8",
+          "note": "Leads straight into Spawn #27. Possibly non-canon.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-youngblood-10",
+          "t": "Youngblood",
+          "n": "#10",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc018-the-curse",
+      "tier": 1,
+      "title": "The Curse",
+      "sub": "Spawn #27–28",
+      "items": [
+        {
+          "id": "spawn-spawn-27",
+          "t": "Spawn",
+          "n": "#27",
+          "note": "Cursed",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-28",
+          "t": "Spawn",
+          "n": "#28",
+          "note": "Protector",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc019-angela-s-hunt",
+      "tier": 1,
+      "title": "Angela’s Hunt",
+      "sub": "Angela #1–3",
+      "items": [
+        {
+          "id": "spawn-angela-1",
+          "t": "Angela",
+          "n": "#1",
+          "note": "Leads straight into Spawn #29.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-angela-2",
+          "t": "Angela",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-angela-3",
+          "t": "Angela",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc020-spawn-across-america",
+      "tier": 1,
+      "title": "Spawn Across America",
+      "sub": "Spawn #29–32",
+      "items": [
+        {
+          "id": "spawn-spawn-29",
+          "t": "Spawn",
+          "n": "#29",
+          "note": "Father",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-30",
+          "t": "Spawn",
+          "n": "#30",
+          "note": "The Clan",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-31",
+          "t": "Spawn",
+          "n": "#31",
+          "note": "The Homecoming",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-32",
+          "t": "Spawn",
+          "n": "#32",
+          "note": "Appearances / Blood Feud: Preludes and Nocturnes · Some editions carried a mini-comic prelude to Blood Feud.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc021-blood-feud",
+      "tier": 1,
+      "title": "Blood Feud",
+      "sub": "Spawn: Blood Feud #1–4",
+      "items": [
+        {
+          "id": "spawn-spawn-blood-feud-1",
+          "t": "Spawn: Blood Feud",
+          "n": "#1",
+          "note": "Leads straight into Spawn #33.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-blood-feud-2",
+          "t": "Spawn: Blood Feud",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-blood-feud-3",
+          "t": "Spawn: Blood Feud",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-blood-feud-4",
+          "t": "Spawn: Blood Feud",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc022-violator-s-return",
+      "tier": 1,
+      "title": "Violator’s Return",
+      "sub": "Spawn #33–34",
+      "items": [
+        {
+          "id": "spawn-spawn-33",
+          "t": "Spawn",
+          "n": "#33",
+          "note": "Shadows",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-34",
+          "t": "Spawn",
+          "n": "#34",
+          "note": "Ripples",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc023-set-up",
+      "tier": 1,
+      "title": "Set Up",
+      "sub": "Spawn #35–36",
+      "items": [
+        {
+          "id": "spawn-spawn-35",
+          "t": "Spawn",
+          "n": "#35",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-36",
+          "t": "Spawn",
+          "n": "#36",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc024-the-freak",
+      "tier": 1,
+      "title": "The Freak",
+      "sub": "Spawn #37",
+      "items": [
+        {
+          "id": "spawn-spawn-37",
+          "t": "Spawn",
+          "n": "#37",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc025-mind-games",
+      "tier": 1,
+      "title": "Mind Games",
+      "sub": "Spawn #38",
+      "items": [
+        {
+          "id": "spawn-spawn-38",
+          "t": "Spawn",
+          "n": "#38",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc026-noel",
+      "tier": 1,
+      "title": "Noel",
+      "sub": "Spawn #39",
+      "items": [
+        {
+          "id": "spawn-spawn-39",
+          "t": "Spawn",
+          "n": "#39",
+          "note": "A Christmas issue.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc027-medieval-spawn-witchblade",
+      "tier": 2,
+      "title": "Medieval Spawn / Witchblade",
+      "sub": "Medieval Spawn/Witchblade #1–3",
+      "items": [
+        {
+          "id": "spawn-medieval-spawn-witchblade-1",
+          "t": "Medieval Spawn/Witchblade",
+          "n": "#1",
+          "note": "Crosses over with Top Cow's Witchblade and Arcanum.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-medieval-spawn-witchblade-2",
+          "t": "Medieval Spawn/Witchblade",
+          "n": "#2",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-medieval-spawn-witchblade-3",
+          "t": "Medieval Spawn/Witchblade",
+          "n": "#3",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc028-medieval-spawn-and-witchblade",
+      "tier": 2,
+      "title": "Medieval Spawn and Witchblade",
+      "sub": "Medieval Spawn and Witchblade #1–4",
+      "items": [
+        {
+          "id": "spawn-medieval-spawn-and-witchblade-1",
+          "t": "Medieval Spawn and Witchblade",
+          "n": "#1",
+          "note": "Kept here so Medieval Spawn's story runs unbroken.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-medieval-spawn-and-witchblade-2",
+          "t": "Medieval Spawn and Witchblade",
+          "n": "#2",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-medieval-spawn-and-witchblade-3",
+          "t": "Medieval Spawn and Witchblade",
+          "n": "#3",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-medieval-spawn-and-witchblade-4",
+          "t": "Medieval Spawn and Witchblade",
+          "n": "#4",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc029-devil-day",
+      "tier": 2,
+      "title": "Devil Day",
+      "sub": "Spawn/WildC.A.T.s #1–4",
+      "items": [
+        {
+          "id": "spawn-spawn-wildc-a-t-s-1",
+          "t": "Spawn/WildC.A.T.s",
+          "n": "#1",
+          "note": "Placement uncertain — this is the best fit. In-story year given as 1996, unconfirmed.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-spawn-wildc-a-t-s-2",
+          "t": "Spawn/WildC.A.T.s",
+          "n": "#2",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-spawn-wildc-a-t-s-3",
+          "t": "Spawn/WildC.A.T.s",
+          "n": "#3",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-spawn-wildc-a-t-s-4",
+          "t": "Spawn/WildC.A.T.s",
+          "n": "#4",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc030-fugitives",
+      "tier": 1,
+      "title": "Fugitives",
+      "sub": "Spawn #40–41",
+      "items": [
+        {
+          "id": "spawn-spawn-40",
+          "t": "Spawn",
+          "n": "#40",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-41",
+          "t": "Spawn",
+          "n": "#41",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc031-necessary-evils",
+      "tier": 1,
+      "title": "Necessary Evils",
+      "sub": "Spawn #42–43",
+      "items": [
+        {
+          "id": "spawn-spawn-42",
+          "t": "Spawn",
+          "n": "#42",
+          "note": "Fanboy",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-43",
+          "t": "Spawn",
+          "n": "#43",
+          "note": "Evil",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc032-tiffany",
+      "tier": 1,
+      "title": "Tiffany",
+      "sub": "Spawn #44–45",
+      "items": [
+        {
+          "id": "spawn-spawn-44",
+          "t": "Spawn",
+          "n": "#44",
+          "note": "Avenger",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-45",
+          "t": "Spawn",
+          "n": "#45",
+          "note": "Warriors",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc033-tremors-part-2",
+      "tier": 1,
+      "title": "Tremors, Part 2",
+      "sub": "Spawn #46–47",
+      "items": [
+        {
+          "id": "spawn-spawn-46",
+          "t": "Spawn",
+          "n": "#46",
+          "note": "Revenge",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-47",
+          "t": "Spawn",
+          "n": "#47",
+          "note": "Twisted",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc034-the-system",
+      "tier": 1,
+      "title": "The System",
+      "sub": "Spawn #48",
+      "items": [
+        {
+          "id": "spawn-spawn-48",
+          "t": "Spawn",
+          "n": "#48",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc035-to-hell-and-back-again",
+      "tier": 1,
+      "title": "To Hell and Back Again",
+      "sub": "Spawn #49–54",
+      "items": [
+        {
+          "id": "spawn-spawn-49",
+          "t": "Spawn",
+          "n": "#49",
+          "note": "Helter Skelter",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-50",
+          "t": "Spawn",
+          "n": "#50",
+          "note": "Choices · Months have passed since Violator.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-51",
+          "t": "Spawn",
+          "n": "#51",
+          "note": "Freefall",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-52",
+          "t": "Spawn",
+          "n": "#52",
+          "note": "Messiah · Crosses over with Savage Dragon, and continues in Savage Dragon #30, which the source calls non-essential.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-53",
+          "t": "Spawn",
+          "n": "#53",
+          "note": "The Reckoning",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-54",
+          "t": "Spawn",
+          "n": "#54",
+          "note": "Reconciliation",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc036-sabotage",
+      "tier": 1,
+      "title": "Sabotage",
+      "sub": "Spawn #55–57",
+      "items": [
+        {
+          "id": "spawn-spawn-55",
+          "t": "Spawn",
+          "n": "#55",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-56",
+          "t": "Spawn",
+          "n": "#56",
+          "note": "Kahn",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-57",
+          "t": "Spawn",
+          "n": "#57",
+          "note": "The Beast",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc037-orphans-part-1",
+      "tier": 1,
+      "title": "Orphans, Part 1",
+      "sub": "Spawn #58",
+      "items": [
+        {
+          "id": "spawn-spawn-58",
+          "t": "Spawn",
+          "n": "#58",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc038-abduction",
+      "tier": 1,
+      "title": "Abduction",
+      "sub": "Spawn #59–60",
+      "items": [
+        {
+          "id": "spawn-spawn-59",
+          "t": "Spawn",
+          "n": "#59",
+          "note": "Vanished",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-60",
+          "t": "Spawn",
+          "n": "#60",
+          "note": "Dwarfed · Cyan is two. Retcons the Youngblood Death of Chapel arc.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc039-sanctuary",
+      "tier": 1,
+      "title": "Sanctuary",
+      "sub": "Spawn #61",
+      "items": [
+        {
+          "id": "spawn-spawn-61",
+          "t": "Spawn",
+          "n": "#61",
+          "note": "A soft reboot — some Spawniverse details are altered here.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc040-jessica-priest",
+      "tier": 1,
+      "title": "Jessica Priest",
+      "sub": "Curse of the Spawn #12–14",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-12",
+          "t": "Curse of the Spawn",
+          "n": "#12",
+          "note": "Codename: Priest · Placed here for what Spawn #61 establishes.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-13",
+          "t": "Curse of the Spawn",
+          "n": "#13",
+          "note": "Heart of Darkness",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-14",
+          "t": "Curse of the Spawn",
+          "n": "#14",
+          "note": "Apocalypse When",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc041-cy-gor",
+      "tier": 2,
+      "title": "Cy-Gor",
+      "sub": "Cy-Gor #1–6",
+      "items": [
+        {
+          "id": "spawn-cy-gor-1",
+          "t": "Cy-Gor",
+          "n": "#1",
+          "note": "Fire in Mind, Part 1",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-cy-gor-2",
+          "t": "Cy-Gor",
+          "n": "#2",
+          "note": "Fire in Mind, Part 2",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-cy-gor-3",
+          "t": "Cy-Gor",
+          "n": "#3",
+          "note": "Needles and Pins",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-cy-gor-4",
+          "t": "Cy-Gor",
+          "n": "#4",
+          "note": "Exquisite Corpse",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-cy-gor-5",
+          "t": "Cy-Gor",
+          "n": "#5",
+          "note": "Then One Foggy Christmas Eve · A Christmas issue, about a year on from Spawn #39.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-cy-gor-6",
+          "t": "Cy-Gor",
+          "n": "#6",
+          "note": "Terra Plane",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc042-suture-part-1",
+      "tier": 1,
+      "title": "Suture, Part 1",
+      "sub": "Curse of the Spawn #5–8",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-5",
+          "t": "Curse of the Spawn",
+          "n": "#5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-6",
+          "t": "Curse of the Spawn",
+          "n": "#6",
+          "note": "Blood and Rain",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-7",
+          "t": "Curse of the Spawn",
+          "n": "#7",
+          "note": "Tombs",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-8",
+          "t": "Curse of the Spawn",
+          "n": "#8",
+          "note": "Carnival of Souls",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc043-angela-returns-durges-part-1",
+      "tier": 1,
+      "title": "Angela Returns / Durges Part 1",
+      "sub": "Curse of the Spawn #9–10 · Spawn #62 · Curse of the Spawn #11",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-9",
+          "t": "Curse of the Spawn",
+          "n": "#9",
+          "note": "Limbo · Leads into and crosses over with Spawn #62.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-10",
+          "t": "Curse of the Spawn",
+          "n": "#10",
+          "note": "A Fall of Doves",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-62",
+          "t": "Spawn",
+          "n": "#62",
+          "note": "Return",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-11",
+          "t": "Curse of the Spawn",
+          "n": "#11",
+          "note": "Cataclysm",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc044-face-to-face",
+      "tier": 1,
+      "title": "Face to Face",
+      "sub": "Spawn #63–66",
+      "items": [
+        {
+          "id": "spawn-spawn-63",
+          "t": "Spawn",
+          "n": "#63",
+          "note": "Identity",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-64",
+          "t": "Spawn",
+          "n": "#64",
+          "note": "Checkmate",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-65",
+          "t": "Spawn",
+          "n": "#65",
+          "note": "The Past · A clean jumping-on point.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-66",
+          "t": "Spawn",
+          "n": "#66",
+          "note": "Demons",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc045-abdiel",
+      "tier": 1,
+      "title": "Abdiel",
+      "sub": "Curse of the Spawn #15–16",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-15",
+          "t": "Curse of the Spawn",
+          "n": "#15",
+          "note": "Sympathy for an Angel, Part 1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-16",
+          "t": "Curse of the Spawn",
+          "n": "#16",
+          "note": "Sympathy for an Angel, Part 2",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc046-twist-of-fate",
+      "tier": 1,
+      "title": "Twist of Fate",
+      "sub": "Curse of the Spawn #17–19",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-17",
+          "t": "Curse of the Spawn",
+          "n": "#17",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-18",
+          "t": "Curse of the Spawn",
+          "n": "#18",
+          "note": "Gunshot",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-19",
+          "t": "Curse of the Spawn",
+          "n": "#19",
+          "note": "Curse the Curse",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc047-dark-future-durges-part-2",
+      "tier": 1,
+      "title": "Dark Future / Durges Part 2",
+      "sub": "Curse of the Spawn #1–4 · Spawn: Blood & Salvation",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-1",
+          "t": "Curse of the Spawn",
+          "n": "#1",
+          "note": "Dark Future · Placed here for its ties to Curse #9–11 and #17–19.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-2",
+          "t": "Curse of the Spawn",
+          "n": "#2",
+          "note": "Blood Lust",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-3",
+          "t": "Curse of the Spawn",
+          "n": "#3",
+          "note": "Corpse Candles",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-4",
+          "t": "Curse of the Spawn",
+          "n": "#4",
+          "note": "Damnation War",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-blood-salvation",
+          "t": "Spawn: Blood & Salvation",
+          "n": "",
+          "note": "Closes out the Dark Future arc.",
+          "tags": [
+            "One-shot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc048-the-dead-zone",
+      "tier": 1,
+      "title": "The Dead Zone",
+      "sub": "Spawn #67–70",
+      "items": [
+        {
+          "id": "spawn-spawn-67",
+          "t": "Spawn",
+          "n": "#67",
+          "note": "Homeland · A few weeks from winter.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-68",
+          "t": "Spawn",
+          "n": "#68",
+          "note": "Intersection · Only months since Spawn took to the alleys.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-69",
+          "t": "Spawn",
+          "n": "#69",
+          "note": "Freaky",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-70",
+          "t": "Spawn",
+          "n": "#70",
+          "note": "Darkness · Cyan is just under three.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc049-wolfram",
+      "tier": 1,
+      "title": "Wolfram",
+      "sub": "Spawn #71–72",
+      "items": [
+        {
+          "id": "spawn-spawn-71",
+          "t": "Spawn",
+          "n": "#71",
+          "note": "Apparitions",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-72",
+          "t": "Spawn",
+          "n": "#72",
+          "note": "Bloodless",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc050-greenworld",
+      "tier": 1,
+      "title": "Greenworld",
+      "sub": "Spawn #73–75",
+      "items": [
+        {
+          "id": "spawn-spawn-73",
+          "t": "Spawn",
+          "n": "#73",
+          "note": "The Heap",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-74",
+          "t": "Spawn",
+          "n": "#74",
+          "note": "The Void",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-75",
+          "t": "Spawn",
+          "n": "#75",
+          "note": "Sacred Ground",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc051-farewell-dance",
+      "tier": 1,
+      "title": "Farewell Dance",
+      "sub": "Spawn #76",
+      "items": [
+        {
+          "id": "spawn-spawn-76",
+          "t": "Spawn",
+          "n": "#76",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc052-deadland",
+      "tier": 2,
+      "title": "Deadland",
+      "sub": "Curse of the Spawn #22",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-22",
+          "t": "Curse of the Spawn",
+          "n": "#22",
+          "note": "Possibly non-canon.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc053-heart-of-hell",
+      "tier": 2,
+      "title": "Heart of Hell",
+      "sub": "Curse of the Spawn #25",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-25",
+          "t": "Curse of the Spawn",
+          "n": "#25",
+          "note": "Possibly non-canon.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc054-last-rites",
+      "tier": 2,
+      "title": "Last Rites",
+      "sub": "Curse of the Spawn #29",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-29",
+          "t": "Curse of the Spawn",
+          "n": "#29",
+          "note": "Possibly non-canon.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc055-the-devil-inside",
+      "tier": 1,
+      "title": "The Devil Inside",
+      "sub": "Spawn #77–87",
+      "items": [
+        {
+          "id": "spawn-spawn-77",
+          "t": "Spawn",
+          "n": "#77",
+          "note": "Relics",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-78",
+          "t": "Spawn",
+          "n": "#78",
+          "note": "Bloodstains",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-79",
+          "t": "Spawn",
+          "n": "#79",
+          "note": "Exterminator",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-80",
+          "t": "Spawn",
+          "n": "#80",
+          "note": "The Cleansing",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-81",
+          "t": "Spawn",
+          "n": "#81",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-82",
+          "t": "Spawn",
+          "n": "#82",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-83",
+          "t": "Spawn",
+          "n": "#83",
+          "note": "The Conqueror",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-84",
+          "t": "Spawn",
+          "n": "#84",
+          "note": "The Waiting",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-85",
+          "t": "Spawn",
+          "n": "#85",
+          "note": "Endgame",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-86",
+          "t": "Spawn",
+          "n": "#86",
+          "note": "Abdication",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-87",
+          "t": "Spawn",
+          "n": "#87",
+          "note": "Folklore · From here the series overlap; they are split into arcs for pacing.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc056-suture-part-2",
+      "tier": 1,
+      "title": "Suture, Part 2",
+      "sub": "Curse of the Spawn #26–28",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-26",
+          "t": "Curse of the Spawn",
+          "n": "#26",
+          "note": "Brother's Keeper · Leads into Sam and Twitch.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-27",
+          "t": "Curse of the Spawn",
+          "n": "#27",
+          "note": "Ghosts",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-28",
+          "t": "Curse of the Spawn",
+          "n": "#28",
+          "note": "Bleed",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc057-udaku",
+      "tier": 1,
+      "title": "Udaku",
+      "sub": "Sam and Twitch #1–8",
+      "items": [
+        {
+          "id": "spawn-sam-and-twitch-1",
+          "t": "Sam and Twitch",
+          "n": "#1",
+          "note": "Shortly after Spawn #87.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-2",
+          "t": "Sam and Twitch",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-3",
+          "t": "Sam and Twitch",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-4",
+          "t": "Sam and Twitch",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-5",
+          "t": "Sam and Twitch",
+          "n": "#5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-6",
+          "t": "Sam and Twitch",
+          "n": "#6",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-7",
+          "t": "Sam and Twitch",
+          "n": "#7",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-8",
+          "t": "Sam and Twitch",
+          "n": "#8",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc058-the-undead",
+      "tier": 1,
+      "title": "The Undead",
+      "sub": "Spawn, The Undead #1–9",
+      "items": [
+        {
+          "id": "spawn-spawn-the-undead-1",
+          "t": "Spawn, The Undead",
+          "n": "#1",
+          "note": "A Face in the Crowd · The Undead sits between Spawn #87 and #88.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-undead-2",
+          "t": "Spawn, The Undead",
+          "n": "#2",
+          "note": "The Door to Nowhere",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-undead-3",
+          "t": "Spawn, The Undead",
+          "n": "#3",
+          "note": "My Soul to Keep",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-undead-4",
+          "t": "Spawn, The Undead",
+          "n": "#4",
+          "note": "Song Sung Bloo",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-undead-5",
+          "t": "Spawn, The Undead",
+          "n": "#5",
+          "note": "The Wind That Shakes the Barley, Part 1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-undead-6",
+          "t": "Spawn, The Undead",
+          "n": "#6",
+          "note": "The Wind That Shakes the Barley, Part 2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-undead-7",
+          "t": "Spawn, The Undead",
+          "n": "#7",
+          "note": "Up the Down Stairs",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-undead-8",
+          "t": "Spawn, The Undead",
+          "n": "#8",
+          "note": "A Day in the Life",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-undead-9",
+          "t": "Spawn, The Undead",
+          "n": "#9",
+          "note": "Waiting for Sparky · Cover art exists for an unmade #10.",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc059-spawn-blood-shadows",
+      "tier": 1,
+      "title": "Spawn: Blood & Shadows",
+      "sub": "Spawn: Blood & Shadows",
+      "items": [
+        {
+          "id": "spawn-spawn-blood-shadows",
+          "t": "Spawn: Blood & Shadows",
+          "n": "",
+          "note": "Possibly non-canon. Placed from context in the main series.",
+          "tags": [
+            "One-shot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc060-raenis",
+      "tier": 2,
+      "title": "Raenis",
+      "sub": "Curse of the Spawn #20–21",
+      "items": [
+        {
+          "id": "spawn-curse-of-the-spawn-20",
+          "t": "Curse of the Spawn",
+          "n": "#20",
+          "note": "Dark Myth · Possibly non-canon. Placed as a prelude to The Dark Ages.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-curse-of-the-spawn-21",
+          "t": "Curse of the Spawn",
+          "n": "#21",
+          "note": "Chaos Cometh",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc061-covenant",
+      "tier": 1,
+      "title": "Covenant",
+      "sub": "Spawn, The Dark Ages #1–8",
+      "items": [
+        {
+          "id": "spawn-spawn-the-dark-ages-1",
+          "t": "Spawn, The Dark Ages",
+          "n": "#1",
+          "note": "Devil's Knight · Placed here for what Spawn #75 establishes, and for pacing.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-2",
+          "t": "Spawn, The Dark Ages",
+          "n": "#2",
+          "note": "Forsaken",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-3",
+          "t": "Spawn, The Dark Ages",
+          "n": "#3",
+          "note": "Onward",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-4",
+          "t": "Spawn, The Dark Ages",
+          "n": "#4",
+          "note": "Death and Glory",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-5",
+          "t": "Spawn, The Dark Ages",
+          "n": "#5",
+          "note": "Crimson Shadows",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-6",
+          "t": "Spawn, The Dark Ages",
+          "n": "#6",
+          "note": "Benediction",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-7",
+          "t": "Spawn, The Dark Ages",
+          "n": "#7",
+          "note": "Providence",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-8",
+          "t": "Spawn, The Dark Ages",
+          "n": "#8",
+          "note": "Acts of Contrition",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc062-seasons-of-change",
+      "tier": 1,
+      "title": "Seasons of Change",
+      "sub": "Spawn #88–92",
+      "items": [
+        {
+          "id": "spawn-spawn-88",
+          "t": "Spawn",
+          "n": "#88",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-89",
+          "t": "Spawn",
+          "n": "#89",
+          "note": "The Devil You Know",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-90",
+          "t": "Spawn",
+          "n": "#90",
+          "note": "Three Uses of the Knife",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-91",
+          "t": "Spawn",
+          "n": "#91",
+          "note": "Black Cat Bones, Part 1",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-92",
+          "t": "Spawn",
+          "n": "#92",
+          "note": "Black Cat Bones, Part 2",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc063-one-really-bad-day",
+      "tier": 1,
+      "title": "One Really Bad Day",
+      "sub": "Sam and Twitch #9",
+      "items": [
+        {
+          "id": "spawn-sam-and-twitch-9",
+          "t": "Sam and Twitch",
+          "n": "#9",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc064-witchcraft",
+      "tier": 1,
+      "title": "Witchcraft",
+      "sub": "Sam and Twitch #10–13",
+      "items": [
+        {
+          "id": "spawn-sam-and-twitch-10",
+          "t": "Sam and Twitch",
+          "n": "#10",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-11",
+          "t": "Sam and Twitch",
+          "n": "#11",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-12",
+          "t": "Sam and Twitch",
+          "n": "#12",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-13",
+          "t": "Sam and Twitch",
+          "n": "#13",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc065-dumb-laws-and-eggs",
+      "tier": 1,
+      "title": "Dumb Laws and Eggs",
+      "sub": "Sam and Twitch #14",
+      "items": [
+        {
+          "id": "spawn-sam-and-twitch-14",
+          "t": "Sam and Twitch",
+          "n": "#14",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc066-cracks-in-the-foundation",
+      "tier": 1,
+      "title": "Cracks in the Foundation",
+      "sub": "Spawn #93–101",
+      "items": [
+        {
+          "id": "spawn-spawn-93",
+          "t": "Spawn",
+          "n": "#93",
+          "note": "The Devil's Banquet",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-94",
+          "t": "Spawn",
+          "n": "#94",
+          "note": "The Children's Hour · In-story year 1998 or later, dated from a background reference.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-95",
+          "t": "Spawn",
+          "n": "#95",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-96",
+          "t": "Spawn",
+          "n": "#96",
+          "note": "Rules of Engagement",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-97",
+          "t": "Spawn",
+          "n": "#97",
+          "note": "Heaven's Folly",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-98",
+          "t": "Spawn",
+          "n": "#98",
+          "note": "The Trouble with Angels",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-99",
+          "t": "Spawn",
+          "n": "#99",
+          "note": "The Edge of Darkness",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-100",
+          "t": "Spawn",
+          "n": "#100",
+          "note": "Milestone",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-101",
+          "t": "Spawn",
+          "n": "#101",
+          "note": "Aftermath",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc067-bounty-hunter-wars",
+      "tier": 1,
+      "title": "Bounty Hunter Wars",
+      "sub": "Sam and Twitch #15–19",
+      "items": [
+        {
+          "id": "spawn-sam-and-twitch-15",
+          "t": "Sam and Twitch",
+          "n": "#15",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-16",
+          "t": "Sam and Twitch",
+          "n": "#16",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-17",
+          "t": "Sam and Twitch",
+          "n": "#17",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-18",
+          "t": "Sam and Twitch",
+          "n": "#18",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-19",
+          "t": "Sam and Twitch",
+          "n": "#19",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc068-the-child-s-crusade",
+      "tier": 1,
+      "title": "The Child's Crusade",
+      "sub": "Spawn, The Dark Ages #9–14",
+      "items": [
+        {
+          "id": "spawn-spawn-the-dark-ages-9",
+          "t": "Spawn, The Dark Ages",
+          "n": "#9",
+          "note": "The Child's Crusade, Prologue, A Merry Round of Cheer",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-10",
+          "t": "Spawn, The Dark Ages",
+          "n": "#10",
+          "note": "The Child's Crusade, Part 1, A Questing Tale",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-11",
+          "t": "Spawn, The Dark Ages",
+          "n": "#11",
+          "note": "The Child's Crusade, Part 2, The Ghost on the Hill",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-12",
+          "t": "Spawn, The Dark Ages",
+          "n": "#12",
+          "note": "The Child's Crusade, Part 3, The Faithful",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-13",
+          "t": "Spawn, The Dark Ages",
+          "n": "#13",
+          "note": "The Child's Crusade, Part 4, Sacrifices",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-14",
+          "t": "Spawn, The Dark Ages",
+          "n": "#14",
+          "note": "The Child's Crusade, Part 5, Finale",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc069-cautionary-tales",
+      "tier": 1,
+      "title": "Cautionary Tales",
+      "sub": "Spawn: Simony · Spawn #102–104",
+      "items": [
+        {
+          "id": "spawn-spawn-simony",
+          "t": "Spawn: Simony",
+          "n": "",
+          "note": "Placed from context in the story.",
+          "tags": [
+            "One-shot"
+          ]
+        },
+        {
+          "id": "spawn-spawn-102",
+          "t": "Spawn",
+          "n": "#102",
+          "note": "Cautionary Tales, Part 1, The Speed of Night",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-103",
+          "t": "Spawn",
+          "n": "#103",
+          "note": "Cautionary Tales, Part 2, Remains",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-104",
+          "t": "Spawn",
+          "n": "#104",
+          "note": "Cautionary Tales, Part 3, A Town Called Malice",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc070-retribution-overdrive",
+      "tier": 1,
+      "title": "Retribution Overdrive",
+      "sub": "Spawn #105–106",
+      "items": [
+        {
+          "id": "spawn-spawn-105",
+          "t": "Spawn",
+          "n": "#105",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-106",
+          "t": "Spawn",
+          "n": "#106",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc071-the-john-doe-affair",
+      "tier": 1,
+      "title": "The John Doe Affair",
+      "sub": "Sam and Twitch #20–26",
+      "items": [
+        {
+          "id": "spawn-sam-and-twitch-20",
+          "t": "Sam and Twitch",
+          "n": "#20",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-21",
+          "t": "Sam and Twitch",
+          "n": "#21",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-22",
+          "t": "Sam and Twitch",
+          "n": "#22",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-23",
+          "t": "Sam and Twitch",
+          "n": "#23",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-24",
+          "t": "Sam and Twitch",
+          "n": "#24",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-25",
+          "t": "Sam and Twitch",
+          "n": "#25",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-and-twitch-26",
+          "t": "Sam and Twitch",
+          "n": "#26",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc072-hellspawn",
+      "tier": 1,
+      "title": "Hellspawn",
+      "sub": "Hellspawn #1–16",
+      "items": [
+        {
+          "id": "spawn-hellspawn-1",
+          "t": "Hellspawn",
+          "n": "#1",
+          "note": "The Clown, Part 1 · After Spawn #106. Contradicts the main series in places, but is largely treated as canon.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-2",
+          "t": "Hellspawn",
+          "n": "#2",
+          "note": "The Clown, Part 2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-3",
+          "t": "Hellspawn",
+          "n": "#3",
+          "note": "Hate Me",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-4",
+          "t": "Hellspawn",
+          "n": "#4",
+          "note": "Hate You",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-5",
+          "t": "Hellspawn",
+          "n": "#5",
+          "note": "Selling Fear",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-6",
+          "t": "Hellspawn",
+          "n": "#6",
+          "note": "The Big Leagues",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-7",
+          "t": "Hellspawn",
+          "n": "#7",
+          "note": "Shed",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-8",
+          "t": "Hellspawn",
+          "n": "#8",
+          "note": "The Suicide Gate",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-9",
+          "t": "Hellspawn",
+          "n": "#9",
+          "note": "Chains",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-10",
+          "t": "Hellspawn",
+          "n": "#10",
+          "note": "Clash",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-11",
+          "t": "Hellspawn",
+          "n": "#11",
+          "note": "Conflict of Interest",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-12",
+          "t": "Hellspawn",
+          "n": "#12",
+          "note": "Call Her Hel",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-13",
+          "t": "Hellspawn",
+          "n": "#13",
+          "note": "Hellworld, Part 1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-14",
+          "t": "Hellspawn",
+          "n": "#14",
+          "note": "Hellworld, Part 2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-15",
+          "t": "Hellspawn",
+          "n": "#15",
+          "note": "Hellworld, Part 3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-hellspawn-16",
+          "t": "Hellspawn",
+          "n": "#16",
+          "note": "Hellworld, Part 4",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc073-turnbold",
+      "tier": 1,
+      "title": "Turnbold",
+      "sub": "Spawn, The Dark Ages #15–22",
+      "items": [
+        {
+          "id": "spawn-spawn-the-dark-ages-15",
+          "t": "Spawn, The Dark Ages",
+          "n": "#15",
+          "note": "Dark Days Coming",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-16",
+          "t": "Spawn, The Dark Ages",
+          "n": "#16",
+          "note": "Heart of the Hellspawn",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-17",
+          "t": "Spawn, The Dark Ages",
+          "n": "#17",
+          "note": "The Circle and the Worm",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-18",
+          "t": "Spawn, The Dark Ages",
+          "n": "#18",
+          "note": "Crucified",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-19",
+          "t": "Spawn, The Dark Ages",
+          "n": "#19",
+          "note": "Like Any Other Man",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-20",
+          "t": "Spawn, The Dark Ages",
+          "n": "#20",
+          "note": "Voices in the Dark",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-21",
+          "t": "Spawn, The Dark Ages",
+          "n": "#21",
+          "note": "Sins of the Hellspawn",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-22",
+          "t": "Spawn, The Dark Ages",
+          "n": "#22",
+          "note": "The Seeding",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc074-the-kingdom",
+      "tier": 1,
+      "title": "The Kingdom",
+      "sub": "Spawn #107–113",
+      "items": [
+        {
+          "id": "spawn-spawn-107",
+          "t": "Spawn",
+          "n": "#107",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-108",
+          "t": "Spawn",
+          "n": "#108",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-109",
+          "t": "Spawn",
+          "n": "#109",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-110",
+          "t": "Spawn",
+          "n": "#110",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-111",
+          "t": "Spawn",
+          "n": "#111",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-112",
+          "t": "Spawn",
+          "n": "#112",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-113",
+          "t": "Spawn",
+          "n": "#113",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc075-raven",
+      "tier": 1,
+      "title": "Raven",
+      "sub": "Spawn, The Dark Ages #23–28",
+      "items": [
+        {
+          "id": "spawn-spawn-the-dark-ages-23",
+          "t": "Spawn, The Dark Ages",
+          "n": "#23",
+          "note": "The Beast",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-24",
+          "t": "Spawn, The Dark Ages",
+          "n": "#24",
+          "note": "Bleed Pagan Bleed",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-25",
+          "t": "Spawn, The Dark Ages",
+          "n": "#25",
+          "note": "Plague of Man",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-26",
+          "t": "Spawn, The Dark Ages",
+          "n": "#26",
+          "note": "Lesion",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-27",
+          "t": "Spawn, The Dark Ages",
+          "n": "#27",
+          "note": "Bubonic Nights",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-the-dark-ages-28",
+          "t": "Spawn, The Dark Ages",
+          "n": "#28",
+          "note": "The End",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc076-the-bridge",
+      "tier": 1,
+      "title": "The Bridge",
+      "sub": "Spawn #114–115",
+      "items": [
+        {
+          "id": "spawn-spawn-114",
+          "t": "Spawn",
+          "n": "#114",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-115",
+          "t": "Spawn",
+          "n": "#115",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc077-a-season-in-hell",
+      "tier": 1,
+      "title": "A Season in Hell",
+      "sub": "Spawn #116–120",
+      "items": [
+        {
+          "id": "spawn-spawn-116",
+          "t": "Spawn",
+          "n": "#116",
+          "note": "Consequences",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-117",
+          "t": "Spawn",
+          "n": "#117",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-118",
+          "t": "Spawn",
+          "n": "#118",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-119",
+          "t": "Spawn",
+          "n": "#119",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-120",
+          "t": "Spawn",
+          "n": "#120",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc078-salvation-road",
+      "tier": 1,
+      "title": "Salvation Road",
+      "sub": "Spawn #121–124",
+      "items": [
+        {
+          "id": "spawn-spawn-121",
+          "t": "Spawn",
+          "n": "#121",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-122",
+          "t": "Spawn",
+          "n": "#122",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-123",
+          "t": "Spawn",
+          "n": "#123",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-124",
+          "t": "Spawn",
+          "n": "#124",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc079-wake-up-dreaming",
+      "tier": 1,
+      "title": "Wake Up Dreaming",
+      "sub": "Spawn #125–129",
+      "items": [
+        {
+          "id": "spawn-spawn-125",
+          "t": "Spawn",
+          "n": "#125",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-126",
+          "t": "Spawn",
+          "n": "#126",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-127",
+          "t": "Spawn",
+          "n": "#127",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-128",
+          "t": "Spawn",
+          "n": "#128",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-129",
+          "t": "Spawn",
+          "n": "#129",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc080-seven-and-a-half-ghosts",
+      "tier": 1,
+      "title": "Seven and a Half Ghosts",
+      "sub": "Spawn #130–131",
+      "items": [
+        {
+          "id": "spawn-spawn-130",
+          "t": "Spawn",
+          "n": "#130",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-131",
+          "t": "Spawn",
+          "n": "#131",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc081-spawn-architects-of-fear",
+      "tier": 1,
+      "title": "Spawn: Architects of Fear",
+      "sub": "Spawn: Architects of Fear",
+      "items": [
+        {
+          "id": "spawn-spawn-architects-of-fear",
+          "t": "Spawn: Architects of Fear",
+          "n": "",
+          "note": "Placed from context in the story.",
+          "tags": [
+            "One-shot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc082-a-thousand-clowns",
+      "tier": 1,
+      "title": "A Thousand Clowns",
+      "sub": "Spawn #132–138",
+      "items": [
+        {
+          "id": "spawn-spawn-132",
+          "t": "Spawn",
+          "n": "#132",
+          "note": "Pratfall",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-133",
+          "t": "Spawn",
+          "n": "#133",
+          "note": "The Gentleman Caller",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-134",
+          "t": "Spawn",
+          "n": "#134",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-135",
+          "t": "Spawn",
+          "n": "#135",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-136",
+          "t": "Spawn",
+          "n": "#136",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-137",
+          "t": "Spawn",
+          "n": "#137",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-138",
+          "t": "Spawn",
+          "n": "#138",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc083-hellbound",
+      "tier": 1,
+      "title": "Hellbound",
+      "sub": "Spawn #139–141",
+      "items": [
+        {
+          "id": "spawn-spawn-139",
+          "t": "Spawn",
+          "n": "#139",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-140",
+          "t": "Spawn",
+          "n": "#140",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-141",
+          "t": "Spawn",
+          "n": "#141",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc084-devil-to-pay",
+      "tier": 1,
+      "title": "Devil To Pay",
+      "sub": "Spawn #142–144",
+      "items": [
+        {
+          "id": "spawn-spawn-142",
+          "t": "Spawn",
+          "n": "#142",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-143",
+          "t": "Spawn",
+          "n": "#143",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-144",
+          "t": "Spawn",
+          "n": "#144",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc085-have-you-seen-me",
+      "tier": 1,
+      "title": "Have You Seen Me",
+      "sub": "Case Files, Sam and Twitch #1–6",
+      "items": [
+        {
+          "id": "spawn-case-files-sam-and-twitch-1",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#1",
+          "note": "The whole Case Files run sits in the gap between Spawn #144 and #145.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-2",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-3",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-4",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-5",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-6",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#6",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc086-skeletons",
+      "tier": 2,
+      "title": "Skeletons",
+      "sub": "Case Files, Sam and Twitch #7–12",
+      "items": [
+        {
+          "id": "spawn-case-files-sam-and-twitch-7",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#7",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-8",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#8",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-9",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#9",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-10",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#10",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-11",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#11",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-12",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#12",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc087-cops-robbers",
+      "tier": 2,
+      "title": "Cops & Robbers",
+      "sub": "Case Files, Sam and Twitch #13",
+      "items": [
+        {
+          "id": "spawn-case-files-sam-and-twitch-13",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#13",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc088-ancient-chinese-secret-huh",
+      "tier": 2,
+      "title": "Ancient Chinese Secret, Huh?",
+      "sub": "Case Files, Sam and Twitch #14–19",
+      "items": [
+        {
+          "id": "spawn-case-files-sam-and-twitch-14",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#14",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-15",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#15",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-16",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#16",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-17",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#17",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-18",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#18",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-19",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#19",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc089-fathers-daughters",
+      "tier": 2,
+      "title": "Fathers & Daughters",
+      "sub": "Case Files, Sam and Twitch #20–25",
+      "items": [
+        {
+          "id": "spawn-case-files-sam-and-twitch-20",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#20",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-21",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#21",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-22",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#22",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-23",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#23",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-24",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#24",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-case-files-sam-and-twitch-25",
+          "t": "Case Files, Sam and Twitch",
+          "n": "#25",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc090-destination-anywhere",
+      "tier": 1,
+      "title": "Destination: Anywhere",
+      "sub": "Spawn #145–149",
+      "items": [
+        {
+          "id": "spawn-spawn-145",
+          "t": "Spawn",
+          "n": "#145",
+          "note": "A large timeskip sits between Spawn #144 and #145 — at least a couple of years.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-146",
+          "t": "Spawn",
+          "n": "#146",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-147",
+          "t": "Spawn",
+          "n": "#147",
+          "note": "Howl",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-148",
+          "t": "Spawn",
+          "n": "#148",
+          "note": "Random Patterns, Part 1",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-149",
+          "t": "Spawn",
+          "n": "#149",
+          "note": "Random Patterns, Part 2",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc091-armageddon",
+      "tier": 1,
+      "title": "Armageddon",
+      "sub": "Spawn #150–164",
+      "items": [
+        {
+          "id": "spawn-spawn-150",
+          "t": "Spawn",
+          "n": "#150",
+          "note": "Thamuz, Part 1",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-151",
+          "t": "Spawn",
+          "n": "#151",
+          "note": "Thamuz, Part 2",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-152",
+          "t": "Spawn",
+          "n": "#152",
+          "note": "Thamuz, Part 3",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-153",
+          "t": "Spawn",
+          "n": "#153",
+          "note": "Thamuz, Part 4",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-154",
+          "t": "Spawn",
+          "n": "#154",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-155",
+          "t": "Spawn",
+          "n": "#155",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-156",
+          "t": "Spawn",
+          "n": "#156",
+          "note": "Eight years on from Spawn #60.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-157",
+          "t": "Spawn",
+          "n": "#157",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-158",
+          "t": "Spawn",
+          "n": "#158",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-159",
+          "t": "Spawn",
+          "n": "#159",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-160",
+          "t": "Spawn",
+          "n": "#160",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-161",
+          "t": "Spawn",
+          "n": "#161",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-162",
+          "t": "Spawn",
+          "n": "#162",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-163",
+          "t": "Spawn",
+          "n": "#163",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-164",
+          "t": "Spawn",
+          "n": "#164",
+          "note": "Home Coming · In-story year 2002 or later.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc092-mandarin-spawn",
+      "tier": 1,
+      "title": "Mandarin Spawn",
+      "sub": "Spawn #165",
+      "items": [
+        {
+          "id": "spawn-spawn-165",
+          "t": "Spawn",
+          "n": "#165",
+          "note": "A standalone set in the 1270s.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc093-the-voice-hearers",
+      "tier": 1,
+      "title": "The Voice-Hearers",
+      "sub": "Spawn #166–168",
+      "items": [
+        {
+          "id": "spawn-spawn-166",
+          "t": "Spawn",
+          "n": "#166",
+          "note": "The Voice-Hearers, Part 1, Skin Deep",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-167",
+          "t": "Spawn",
+          "n": "#167",
+          "note": "The Voice-Hearers, Part 2, The Peanut Butter Lady",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-168",
+          "t": "Spawn",
+          "n": "#168",
+          "note": "The Voice-Hearers, Part 3, Laughter in the Dark",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc094-voodoo-child",
+      "tier": 1,
+      "title": "Voodoo Child",
+      "sub": "Spawn #169",
+      "items": [
+        {
+          "id": "spawn-spawn-169",
+          "t": "Spawn",
+          "n": "#169",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc095-a-tale-of-three-brothers",
+      "tier": 1,
+      "title": "A Tale of Three Brothers",
+      "sub": "Spawn #170–173",
+      "items": [
+        {
+          "id": "spawn-spawn-170",
+          "t": "Spawn",
+          "n": "#170",
+          "note": "A Tale of Three Brothers, Part 1, Hellhouse",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-171",
+          "t": "Spawn",
+          "n": "#171",
+          "note": "A Tale of Three Brothers, Part 2, Remembrance",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-172",
+          "t": "Spawn",
+          "n": "#172",
+          "note": "A Tale of Three Brothers, Part 3, Past Sins",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-173",
+          "t": "Spawn",
+          "n": "#173",
+          "note": "A Tale of Three Brothers, Part 4, Secrets and Lies",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc096-gunslinger-spawn",
+      "tier": 1,
+      "title": "Gunslinger Spawn",
+      "sub": "Spawn #174–175",
+      "items": [
+        {
+          "id": "spawn-spawn-174",
+          "t": "Spawn",
+          "n": "#174",
+          "note": "Set in 1881.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-175",
+          "t": "Spawn",
+          "n": "#175",
+          "note": "Set in 1881.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc097-the-monster-in-the-bubble",
+      "tier": 1,
+      "title": "The Monster in the Bubble",
+      "sub": "Spawn #176–177",
+      "items": [
+        {
+          "id": "spawn-spawn-176",
+          "t": "Spawn",
+          "n": "#176",
+          "note": "In-story year 2007 or later, dated from a background reference.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-177",
+          "t": "Spawn",
+          "n": "#177",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc098-the-end",
+      "tier": 1,
+      "title": "The End",
+      "sub": "Spawn #178–184",
+      "items": [
+        {
+          "id": "spawn-spawn-178",
+          "t": "Spawn",
+          "n": "#178",
+          "note": "Dead Man Walking",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-179",
+          "t": "Spawn",
+          "n": "#179",
+          "note": "War Spawn · Set in 1896 and 1916.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-180",
+          "t": "Spawn",
+          "n": "#180",
+          "note": "(Untitled) (suggested title: Dear Diary)",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-181",
+          "t": "Spawn",
+          "n": "#181",
+          "note": "The Best of Times",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-182",
+          "t": "Spawn",
+          "n": "#182",
+          "note": "Bad Blood",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-183",
+          "t": "Spawn",
+          "n": "#183",
+          "note": "Transformations",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-184",
+          "t": "Spawn",
+          "n": "#184",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc099-endgame",
+      "tier": 1,
+      "title": "Endgame",
+      "sub": "Spawn #185–196",
+      "items": [
+        {
+          "id": "spawn-spawn-185",
+          "t": "Spawn",
+          "n": "#185",
+          "note": "A clean jumping-on point.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-186",
+          "t": "Spawn",
+          "n": "#186",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-187",
+          "t": "Spawn",
+          "n": "#187",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-188",
+          "t": "Spawn",
+          "n": "#188",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-189",
+          "t": "Spawn",
+          "n": "#189",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-190",
+          "t": "Spawn",
+          "n": "#190",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-191",
+          "t": "Spawn",
+          "n": "#191",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-192",
+          "t": "Spawn",
+          "n": "#192",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-193",
+          "t": "Spawn",
+          "n": "#193",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-194",
+          "t": "Spawn",
+          "n": "#194",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-195",
+          "t": "Spawn",
+          "n": "#195",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-196",
+          "t": "Spawn",
+          "n": "#196",
+          "note": "Endgame, Conclusion",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc100-the-writer",
+      "tier": 2,
+      "title": "The Writer",
+      "sub": "Sam and Twitch, The Writer #1–4",
+      "items": [
+        {
+          "id": "spawn-sam-and-twitch-the-writer-1",
+          "t": "Sam and Twitch, The Writer",
+          "n": "#1",
+          "note": "Incipit In Medias Res · Placed from context.",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-sam-and-twitch-the-writer-2",
+          "t": "Sam and Twitch, The Writer",
+          "n": "#2",
+          "note": "Blue Snow",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-sam-and-twitch-the-writer-3",
+          "t": "Sam and Twitch, The Writer",
+          "n": "#3",
+          "note": "The Secret Inheritance of Francis Merrill",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        },
+        {
+          "id": "spawn-sam-and-twitch-the-writer-4",
+          "t": "Sam and Twitch, The Writer",
+          "n": "#4",
+          "note": "The Last Chapter",
+          "tags": [
+            "Optional"
+          ],
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "arc101-untitled-arc",
+      "tier": 1,
+      "title": "Untitled arc",
+      "sub": "Spawn #197–200",
+      "items": [
+        {
+          "id": "spawn-spawn-197",
+          "t": "Spawn",
+          "n": "#197",
+          "note": "(Untitled) (suggested title: The Redeemer's Return)",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-198",
+          "t": "Spawn",
+          "n": "#198",
+          "note": "(Untitled) (suggested title: Patient 46)",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-199",
+          "t": "Spawn",
+          "n": "#199",
+          "note": "(Untitled) (suggested title: The Devil's Ghost)",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-200",
+          "t": "Spawn",
+          "n": "#200",
+          "note": "(Untitled) (suggested title: Alpha and Omega)",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc102-shillinger-s-notes",
+      "tier": 1,
+      "title": "Shillinger's Notes",
+      "sub": "Haunt #1–5",
+      "items": [
+        {
+          "id": "spawn-haunt-1",
+          "t": "Haunt",
+          "n": "#1",
+          "note": "Placed here because it eventually crosses into Spawn; the arcs alternate for pacing.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-2",
+          "t": "Haunt",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-3",
+          "t": "Haunt",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-4",
+          "t": "Haunt",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-5",
+          "t": "Haunt",
+          "n": "#5",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc103-new-beginnings",
+      "tier": 1,
+      "title": "New Beginnings",
+      "sub": "Spawn #201–206",
+      "items": [
+        {
+          "id": "spawn-spawn-201",
+          "t": "Spawn",
+          "n": "#201",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-202",
+          "t": "Spawn",
+          "n": "#202",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-203",
+          "t": "Spawn",
+          "n": "#203",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-204",
+          "t": "Spawn",
+          "n": "#204",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-205",
+          "t": "Spawn",
+          "n": "#205",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-206",
+          "t": "Spawn",
+          "n": "#206",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc104-agent-kilgore",
+      "tier": 1,
+      "title": "Agent Kilgore",
+      "sub": "Haunt #6–12",
+      "items": [
+        {
+          "id": "spawn-haunt-6",
+          "t": "Haunt",
+          "n": "#6",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-7",
+          "t": "Haunt",
+          "n": "#7",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-8",
+          "t": "Haunt",
+          "n": "#8",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-9",
+          "t": "Haunt",
+          "n": "#9",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-10",
+          "t": "Haunt",
+          "n": "#10",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-11",
+          "t": "Haunt",
+          "n": "#11",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-12",
+          "t": "Haunt",
+          "n": "#12",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc105-q-a",
+      "tier": 1,
+      "title": "Q & A",
+      "sub": "Spawn #207–210",
+      "items": [
+        {
+          "id": "spawn-spawn-207",
+          "t": "Spawn",
+          "n": "#207",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-208",
+          "t": "Spawn",
+          "n": "#208",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-209",
+          "t": "Spawn",
+          "n": "#209",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-210",
+          "t": "Spawn",
+          "n": "#210",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc106-violation-of-trust",
+      "tier": 1,
+      "title": "Violation of Trust",
+      "sub": "Spawn #211–212",
+      "items": [
+        {
+          "id": "spawn-spawn-211",
+          "t": "Spawn",
+          "n": "#211",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-212",
+          "t": "Spawn",
+          "n": "#212",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc107-the-apparition",
+      "tier": 1,
+      "title": "The Apparition",
+      "sub": "Haunt #13–18",
+      "items": [
+        {
+          "id": "spawn-haunt-13",
+          "t": "Haunt",
+          "n": "#13",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-14",
+          "t": "Haunt",
+          "n": "#14",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-15",
+          "t": "Haunt",
+          "n": "#15",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-16",
+          "t": "Haunt",
+          "n": "#16",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-17",
+          "t": "Haunt",
+          "n": "#17",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-18",
+          "t": "Haunt",
+          "n": "#18",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc108-the-gathering-storm",
+      "tier": 1,
+      "title": "The Gathering Storm",
+      "sub": "Spawn #213–219",
+      "items": [
+        {
+          "id": "spawn-spawn-213",
+          "t": "Spawn",
+          "n": "#213",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-214",
+          "t": "Spawn",
+          "n": "#214",
+          "note": "Dated December 12th in the issue.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-215",
+          "t": "Spawn",
+          "n": "#215",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-216",
+          "t": "Spawn",
+          "n": "#216",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-217",
+          "t": "Spawn",
+          "n": "#217",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-218",
+          "t": "Spawn",
+          "n": "#218",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-219",
+          "t": "Spawn",
+          "n": "#219",
+          "note": "Eye of the Storm",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc109-the-second-church",
+      "tier": 1,
+      "title": "The Second Church",
+      "sub": "Haunt #19–24",
+      "items": [
+        {
+          "id": "spawn-haunt-19",
+          "t": "Haunt",
+          "n": "#19",
+          "note": "The Second Church, Part 1, Headwires On Fire",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-20",
+          "t": "Haunt",
+          "n": "#20",
+          "note": "The Second Church, Part 2, A Conspiracy",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-21",
+          "t": "Haunt",
+          "n": "#21",
+          "note": "The Second Church, Part 3, The Glorious Orgy",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-22",
+          "t": "Haunt",
+          "n": "#22",
+          "note": "The Second Church, Part 4, Backflash 1979",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-23",
+          "t": "Haunt",
+          "n": "#23",
+          "note": "The Second Church, Part 5, Return Trip",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-24",
+          "t": "Haunt",
+          "n": "#24",
+          "note": "The Second Church, Part 6, Kick-Ash!",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc110-origin-of-the-species",
+      "tier": 1,
+      "title": "Origin of the Species",
+      "sub": "Spawn #220–224",
+      "items": [
+        {
+          "id": "spawn-spawn-220",
+          "t": "Spawn",
+          "n": "#220",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-221",
+          "t": "Spawn",
+          "n": "#221",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-222",
+          "t": "Spawn",
+          "n": "#222",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-223",
+          "t": "Spawn",
+          "n": "#223",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-224",
+          "t": "Spawn",
+          "n": "#224",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc111-de-programmed",
+      "tier": 1,
+      "title": "De-Programmed",
+      "sub": "Spawn #225–228",
+      "items": [
+        {
+          "id": "spawn-spawn-225",
+          "t": "Spawn",
+          "n": "#225",
+          "note": "November, 2008 or 2012 — 17 days after Spawn #219.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-226",
+          "t": "Spawn",
+          "n": "#226",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-227",
+          "t": "Spawn",
+          "n": "#227",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-228",
+          "t": "Spawn",
+          "n": "#228",
+          "note": "Collateral Damage",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc112-lady-haunt",
+      "tier": 1,
+      "title": "Lady Haunt",
+      "sub": "Haunt #25–28",
+      "items": [
+        {
+          "id": "spawn-haunt-25",
+          "t": "Haunt",
+          "n": "#25",
+          "note": "Lady Haunt, Part 1, Insecticided",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-26",
+          "t": "Haunt",
+          "n": "#26",
+          "note": "Lady Haunt, Part 2, Mind Worms",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-27",
+          "t": "Haunt",
+          "n": "#27",
+          "note": "Lady Haunt, Part 3, Get Happy!",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-haunt-28",
+          "t": "Haunt",
+          "n": "#28",
+          "note": "Lady Haunt, Part 4, While You Were Beaten! · Cover art exists for an unmade #29–31.",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc113-celebrity-savior",
+      "tier": 1,
+      "title": "Celebrity Savior",
+      "sub": "Spawn #229–235",
+      "items": [
+        {
+          "id": "spawn-spawn-229",
+          "t": "Spawn",
+          "n": "#229",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-230",
+          "t": "Spawn",
+          "n": "#230",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-231",
+          "t": "Spawn",
+          "n": "#231",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-232",
+          "t": "Spawn",
+          "n": "#232",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-233",
+          "t": "Spawn",
+          "n": "#233",
+          "note": "Celebrity Savior, Part 5 / Spawn Costume Origin, Part 1 · Crosses over with Haunt, Sam and Twitch and Case Files.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-234",
+          "t": "Spawn",
+          "n": "#234",
+          "note": "Celebrity Savior, Part 6 / Spawn Costume Origin, Part 2",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-235",
+          "t": "Spawn",
+          "n": "#235",
+          "note": "Bluddlines",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc114-battle-for-the-costume",
+      "tier": 1,
+      "title": "Battle For the Costume",
+      "sub": "Spawn #236–237",
+      "items": [
+        {
+          "id": "spawn-spawn-236",
+          "t": "Spawn",
+          "n": "#236",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-237",
+          "t": "Spawn",
+          "n": "#237",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc115-the-dead-zones",
+      "tier": 1,
+      "title": "The Dead Zones",
+      "sub": "Spawn #238–241",
+      "items": [
+        {
+          "id": "spawn-spawn-238",
+          "t": "Spawn",
+          "n": "#238",
+          "note": "The Dead Zone, Part 1",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-239",
+          "t": "Spawn",
+          "n": "#239",
+          "note": "The Dead Zone, Part 2 · Crosses over with Haunt.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-240",
+          "t": "Spawn",
+          "n": "#240",
+          "note": "The Dead Zone, Part 3",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-241",
+          "t": "Spawn",
+          "n": "#241",
+          "note": "The Dead Zone, Part 4",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc116-disappearance",
+      "tier": 1,
+      "title": "Disappearance",
+      "sub": "Spawn #242–245",
+      "items": [
+        {
+          "id": "spawn-spawn-242",
+          "t": "Spawn",
+          "n": "#242",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-243",
+          "t": "Spawn",
+          "n": "#243",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-244",
+          "t": "Spawn",
+          "n": "#244",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-245",
+          "t": "Spawn",
+          "n": "#245",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc117-coma",
+      "tier": 1,
+      "title": "Coma",
+      "sub": "Spawn #246–249",
+      "items": [
+        {
+          "id": "spawn-spawn-246",
+          "t": "Spawn",
+          "n": "#246",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-247",
+          "t": "Spawn",
+          "n": "#247",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-248",
+          "t": "Spawn",
+          "n": "#248",
+          "note": "Crosses over with Haunt.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-249",
+          "t": "Spawn",
+          "n": "#249",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc118-untitled-arc",
+      "tier": 1,
+      "title": "Untitled arc",
+      "sub": "Spawn #250",
+      "items": [
+        {
+          "id": "spawn-spawn-250",
+          "t": "Spawn",
+          "n": "#250",
+          "note": "(Untitled) (suggested title: The King Is Dead, Long Live the King)",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc119-resurrection",
+      "tier": 1,
+      "title": "Resurrection",
+      "sub": "Spawn: Resurrection · Spawn #251–255",
+      "items": [
+        {
+          "id": "spawn-spawn-resurrection",
+          "t": "Spawn: Resurrection",
+          "n": "",
+          "note": "A clean jumping-on point.",
+          "tags": [
+            "One-shot"
+          ]
+        },
+        {
+          "id": "spawn-spawn-251",
+          "t": "Spawn",
+          "n": "#251",
+          "note": "Resurrection, Part 2, A Cold Day in Hell",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-252",
+          "t": "Spawn",
+          "n": "#252",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-253",
+          "t": "Spawn",
+          "n": "#253",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-254",
+          "t": "Spawn",
+          "n": "#254",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-255",
+          "t": "Spawn",
+          "n": "#255",
+          "note": "Spawn #185–250 covers an undefined stretch of months, under a year.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc120-the-satan-saga-wars",
+      "tier": 1,
+      "title": "The Satan Saga Wars",
+      "sub": "Spawn #256–262",
+      "items": [
+        {
+          "id": "spawn-spawn-256",
+          "t": "Spawn",
+          "n": "#256",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-257",
+          "t": "Spawn",
+          "n": "#257",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-258",
+          "t": "Spawn",
+          "n": "#258",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-259",
+          "t": "Spawn",
+          "n": "#259",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-260",
+          "t": "Spawn",
+          "n": "#260",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-261",
+          "t": "Spawn",
+          "n": "#261",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-262",
+          "t": "Spawn",
+          "n": "#262",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc121-return-to-earth",
+      "tier": 1,
+      "title": "Return to Earth",
+      "sub": "Spawn #263–264",
+      "items": [
+        {
+          "id": "spawn-spawn-263",
+          "t": "Spawn",
+          "n": "#263",
+          "note": "A one-year timeskip sits between Spawn #262 and #263.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-264",
+          "t": "Spawn",
+          "n": "#264",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc122-alzayah-stone",
+      "tier": 1,
+      "title": "Alzayah Stone",
+      "sub": "Ant #1–2 · Spawn #265 · Ant #3 · Savage Dragon #216 · Ant #4 · Spawn #266 · Ant #5 · Savage Dragon #217 · Ant #6",
+      "items": [
+        {
+          "id": "spawn-ant-1",
+          "t": "Ant",
+          "n": "#1",
+          "note": "A crossover arc with Savage Dragon and Ant.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-ant-2",
+          "t": "Ant",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-265",
+          "t": "Spawn",
+          "n": "#265",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-ant-3",
+          "t": "Ant",
+          "n": "#3",
+          "note": "Retells Spawn #265 from Ant's side.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-savage-dragon-216",
+          "t": "Savage Dragon",
+          "n": "#216",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-ant-4",
+          "t": "Ant",
+          "n": "#4",
+          "note": "Retells Savage Dragon #216 from Ant's side.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-266",
+          "t": "Spawn",
+          "n": "#266",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-ant-5",
+          "t": "Ant",
+          "n": "#5",
+          "note": "Retells Spawn #266 from Ant's side.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-savage-dragon-217",
+          "t": "Savage Dragon",
+          "n": "#217",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-ant-6",
+          "t": "Ant",
+          "n": "#6",
+          "note": "Retells Savage Dragon #217 from Ant's side.",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc123-hell-on-earth",
+      "tier": 1,
+      "title": "Hell On Earth",
+      "sub": "Spawn #267–275",
+      "items": [
+        {
+          "id": "spawn-spawn-267",
+          "t": "Spawn",
+          "n": "#267",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-268",
+          "t": "Spawn",
+          "n": "#268",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-269",
+          "t": "Spawn",
+          "n": "#269",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-270",
+          "t": "Spawn",
+          "n": "#270",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-271",
+          "t": "Spawn",
+          "n": "#271",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-272",
+          "t": "Spawn",
+          "n": "#272",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-273",
+          "t": "Spawn",
+          "n": "#273",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-274",
+          "t": "Spawn",
+          "n": "#274",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-275",
+          "t": "Spawn",
+          "n": "#275",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc124-dark-horror",
+      "tier": 1,
+      "title": "Dark Horror",
+      "sub": "Spawn #276–283",
+      "items": [
+        {
+          "id": "spawn-spawn-276",
+          "t": "Spawn",
+          "n": "#276",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-277",
+          "t": "Spawn",
+          "n": "#277",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-278",
+          "t": "Spawn",
+          "n": "#278",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-279",
+          "t": "Spawn",
+          "n": "#279",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-280",
+          "t": "Spawn",
+          "n": "#280",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-281",
+          "t": "Spawn",
+          "n": "#281",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-282",
+          "t": "Spawn",
+          "n": "#282",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-283",
+          "t": "Spawn",
+          "n": "#283",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc125-enemy-of-the-state",
+      "tier": 1,
+      "title": "Enemy of the State",
+      "sub": "Spawn #284–290",
+      "items": [
+        {
+          "id": "spawn-spawn-284",
+          "t": "Spawn",
+          "n": "#284",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-285",
+          "t": "Spawn",
+          "n": "#285",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-286",
+          "t": "Spawn",
+          "n": "#286",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-287",
+          "t": "Spawn",
+          "n": "#287",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-288",
+          "t": "Spawn",
+          "n": "#288",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-289",
+          "t": "Spawn",
+          "n": "#289",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-290",
+          "t": "Spawn",
+          "n": "#290",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc126-vengeance",
+      "tier": 1,
+      "title": "Vengeance",
+      "sub": "Spawn #291–295",
+      "items": [
+        {
+          "id": "spawn-spawn-291",
+          "t": "Spawn",
+          "n": "#291",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-292",
+          "t": "Spawn",
+          "n": "#292",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-293",
+          "t": "Spawn",
+          "n": "#293",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-294",
+          "t": "Spawn",
+          "n": "#294",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-295",
+          "t": "Spawn",
+          "n": "#295",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc127-the-history-of-al-simmons",
+      "tier": 1,
+      "title": "The History of Al Simmons",
+      "sub": "Spawn #296–297",
+      "items": [
+        {
+          "id": "spawn-spawn-296",
+          "t": "Spawn",
+          "n": "#296",
+          "note": "A clean jumping-on point.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-297",
+          "t": "Spawn",
+          "n": "#297",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc128-the-record-breaker",
+      "tier": 1,
+      "title": "The Record-Breaker",
+      "sub": "Spawn #298–301",
+      "items": [
+        {
+          "id": "spawn-spawn-298",
+          "t": "Spawn",
+          "n": "#298",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-299",
+          "t": "Spawn",
+          "n": "#299",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-300",
+          "t": "Spawn",
+          "n": "#300",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-301",
+          "t": "Spawn",
+          "n": "#301",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc129-aftermath",
+      "tier": 1,
+      "title": "Aftermath",
+      "sub": "Spawn #302–307",
+      "items": [
+        {
+          "id": "spawn-spawn-302",
+          "t": "Spawn",
+          "n": "#302",
+          "note": "Hell Hunt, Part 1",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-303",
+          "t": "Spawn",
+          "n": "#303",
+          "note": "Hell Hunt, Part 2",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-304",
+          "t": "Spawn",
+          "n": "#304",
+          "note": "Hell Hunt, Part 3",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-305",
+          "t": "Spawn",
+          "n": "#305",
+          "note": "Hell Hunt, Part 4",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-306",
+          "t": "Spawn",
+          "n": "#306",
+          "note": "Prophecy of Death, Part 1",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-307",
+          "t": "Spawn",
+          "n": "#307",
+          "note": "Prophecy of Death, Part 2",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc130-omega",
+      "tier": 1,
+      "title": "Omega",
+      "sub": "Spawn #308–310 · Monolith #1–3 · Spawn #311–315",
+      "items": [
+        {
+          "id": "spawn-spawn-308",
+          "t": "Spawn",
+          "n": "#308",
+          "note": "Consequence of Sin, Part 1",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-309",
+          "t": "Spawn",
+          "n": "#309",
+          "note": "Consequence of Sin, Part 2",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-310",
+          "t": "Spawn",
+          "n": "#310",
+          "note": "The Storm Begins (The Inferno Fallout)",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-monolith-1",
+          "t": "Monolith",
+          "n": "#1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-monolith-2",
+          "t": "Monolith",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-monolith-3",
+          "t": "Monolith",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-311",
+          "t": "Spawn",
+          "n": "#311",
+          "note": "Cult of Omega, Part 1",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-312",
+          "t": "Spawn",
+          "n": "#312",
+          "note": "Cult of Omega, Part 2",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-313",
+          "t": "Spawn",
+          "n": "#313",
+          "note": "Cult of Omega, Part 3",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-314",
+          "t": "Spawn",
+          "n": "#314",
+          "note": "Cult of Omega, Part 4",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-315",
+          "t": "Spawn",
+          "n": "#315",
+          "note": "Cult of Omega, Finale",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc131-shadows",
+      "tier": 1,
+      "title": "Shadows",
+      "sub": "Spawn #316–318",
+      "items": [
+        {
+          "id": "spawn-spawn-316",
+          "t": "Spawn",
+          "n": "#316",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-317",
+          "t": "Spawn",
+          "n": "#317",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-318",
+          "t": "Spawn",
+          "n": "#318",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc132-spawn-s-universe",
+      "tier": 1,
+      "title": "Spawn's Universe",
+      "sub": "Spawn's Universe",
+      "items": [
+        {
+          "id": "spawn-spawn-s-universe",
+          "t": "Spawn's Universe",
+          "n": "",
+          "tags": [
+            "One-shot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc133-shadows-contd",
+      "tier": 1,
+      "title": "Shadows (contd.)",
+      "sub": "Spawn #319–323",
+      "items": [
+        {
+          "id": "spawn-spawn-319",
+          "t": "Spawn",
+          "n": "#319",
+          "note": "Shadows, Part 4",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-320",
+          "t": "Spawn",
+          "n": "#320",
+          "note": "Shadows, Part 5",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-321",
+          "t": "Spawn",
+          "n": "#321",
+          "note": "Shadows, Part 6",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-322",
+          "t": "Spawn",
+          "n": "#322",
+          "note": "Shadows, Part 7",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-323",
+          "t": "Spawn",
+          "n": "#323",
+          "note": "Shadows, Part 8",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc134-gunslinger-spawn-volume-1-lost-in-the-future",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 1: Lost in the Future",
+      "sub": "Gunslinger Spawn #1–6",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-1",
+          "t": "Gunslinger Spawn",
+          "n": "#1",
+          "note": "Lost in the Future, Part 1 · Straight after Spawn's Universe.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-2",
+          "t": "Gunslinger Spawn",
+          "n": "#2",
+          "note": "Lost in the Future, Part 2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-3",
+          "t": "Gunslinger Spawn",
+          "n": "#3",
+          "note": "Lost in the Future, Part 3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-4",
+          "t": "Gunslinger Spawn",
+          "n": "#4",
+          "note": "Lost in the Future, Part 4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-5",
+          "t": "Gunslinger Spawn",
+          "n": "#5",
+          "note": "Lost in the Future, Part 5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-6",
+          "t": "Gunslinger Spawn",
+          "n": "#6",
+          "note": "Lost in the Future, Part 6",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc135-king-spawn-volume-1-king-of-swords",
+      "tier": 1,
+      "title": "King Spawn Volume 1: King of Swords",
+      "sub": "King Spawn #1–6",
+      "items": [
+        {
+          "id": "spawn-king-spawn-1",
+          "t": "King Spawn",
+          "n": "#1",
+          "note": "King of Swords, Part 1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-2",
+          "t": "King Spawn",
+          "n": "#2",
+          "note": "King of Swords, Part 2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-3",
+          "t": "King Spawn",
+          "n": "#3",
+          "note": "King of Swords, Part 3 · After Spawn #321.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-4",
+          "t": "King Spawn",
+          "n": "#4",
+          "note": "King of Swords, Part 4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-5",
+          "t": "King Spawn",
+          "n": "#5",
+          "note": "King of Swords, Part 5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-6",
+          "t": "King Spawn",
+          "n": "#6",
+          "note": "King of Swords, Part 6",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc136-gunslinger-spawn-volume-2-the-two-faces-of-revenge",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 2: The Two Faces of Revenge",
+      "sub": "Gunslinger Spawn #7–10",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-7",
+          "t": "Gunslinger Spawn",
+          "n": "#7",
+          "note": "The Two Faces of Revenge, Part 1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-8",
+          "t": "Gunslinger Spawn",
+          "n": "#8",
+          "note": "The Two Faces of Revenge, Part 2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-9",
+          "t": "Gunslinger Spawn",
+          "n": "#9",
+          "note": "The Two Faces of Revenge, Part 3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-10",
+          "t": "Gunslinger Spawn",
+          "n": "#10",
+          "note": "The Two Faces of Revenge, Part 4 · Leads straight into The Scorched #1.",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc137-the-scorched-volume-1",
+      "tier": 1,
+      "title": "The Scorched Volume 1",
+      "sub": "The Scorched #1–6",
+      "items": [
+        {
+          "id": "spawn-the-scorched-1",
+          "t": "The Scorched",
+          "n": "#1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-2",
+          "t": "The Scorched",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-3",
+          "t": "The Scorched",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-4",
+          "t": "The Scorched",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-5",
+          "t": "The Scorched",
+          "n": "#5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-6",
+          "t": "The Scorched",
+          "n": "#6",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc138-bad-business",
+      "tier": 1,
+      "title": "Bad Business",
+      "sub": "Spawn #324–330",
+      "items": [
+        {
+          "id": "spawn-spawn-324",
+          "t": "Spawn",
+          "n": "#324",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-325",
+          "t": "Spawn",
+          "n": "#325",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-326",
+          "t": "Spawn",
+          "n": "#326",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-327",
+          "t": "Spawn",
+          "n": "#327",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-328",
+          "t": "Spawn",
+          "n": "#328",
+          "note": "Two weeks after King Spawn #2.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-329",
+          "t": "Spawn",
+          "n": "#329",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-330",
+          "t": "Spawn",
+          "n": "#330",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc139-king-spawn-volume-2",
+      "tier": 1,
+      "title": "King Spawn Volume 2",
+      "sub": "King Spawn #7–12",
+      "items": [
+        {
+          "id": "spawn-king-spawn-7",
+          "t": "King Spawn",
+          "n": "#7",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-8",
+          "t": "King Spawn",
+          "n": "#8",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-9",
+          "t": "King Spawn",
+          "n": "#9",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-10",
+          "t": "King Spawn",
+          "n": "#10",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-11",
+          "t": "King Spawn",
+          "n": "#11",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-12",
+          "t": "King Spawn",
+          "n": "#12",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc140-gunslinger-spawn-volume-2-the-two-faces-of-revenge-contd",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 2: The Two Faces of Revenge(contd.)",
+      "sub": "Gunslinger Spawn #11–12",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-11",
+          "t": "Gunslinger Spawn",
+          "n": "#11",
+          "note": "The Two Faces of Revenge, Part 5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-12",
+          "t": "Gunslinger Spawn",
+          "n": "#12",
+          "note": "The Two Faces of Revenge, Part 6",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc141-the-scorched-volume-2",
+      "tier": 1,
+      "title": "The Scorched Volume 2",
+      "sub": "The Scorched #7–12",
+      "items": [
+        {
+          "id": "spawn-the-scorched-7",
+          "t": "The Scorched",
+          "n": "#7",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-8",
+          "t": "The Scorched",
+          "n": "#8",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-9",
+          "t": "The Scorched",
+          "n": "#9",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-10",
+          "t": "The Scorched",
+          "n": "#10",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-11",
+          "t": "The Scorched",
+          "n": "#11",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-12",
+          "t": "The Scorched",
+          "n": "#12",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc142-sinn-s-war",
+      "tier": 1,
+      "title": "Sinn’s War",
+      "sub": "Spawn #331–336",
+      "items": [
+        {
+          "id": "spawn-spawn-331",
+          "t": "Spawn",
+          "n": "#331",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-332",
+          "t": "Spawn",
+          "n": "#332",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-333",
+          "t": "Spawn",
+          "n": "#333",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-334",
+          "t": "Spawn",
+          "n": "#334",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-335",
+          "t": "Spawn",
+          "n": "#335",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-336",
+          "t": "Spawn",
+          "n": "#336",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc143-batman-spawn",
+      "tier": 1,
+      "title": "Batman Spawn",
+      "sub": "Batman Spawn",
+      "items": [
+        {
+          "id": "spawn-batman-spawn",
+          "t": "Batman Spawn",
+          "n": "",
+          "tags": [
+            "One-shot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc144-sinn-s-war-contd",
+      "tier": 1,
+      "title": "Sinn’s War(contd.)",
+      "sub": "Spawn #337",
+      "items": [
+        {
+          "id": "spawn-spawn-337",
+          "t": "Spawn",
+          "n": "#337",
+          "note": "Sinn’s War, Part 7 · After Batman Spawn.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc145-unwanted-violence",
+      "tier": 1,
+      "title": "Unwanted Violence",
+      "sub": "Spawn: Unwanted Violence #1–2",
+      "items": [
+        {
+          "id": "spawn-spawn-unwanted-violence-1",
+          "t": "Spawn: Unwanted Violence",
+          "n": "#1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-spawn-unwanted-violence-2",
+          "t": "Spawn: Unwanted Violence",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc146-king-spawn-volume-3",
+      "tier": 1,
+      "title": "King Spawn Volume 3",
+      "sub": "King Spawn #13–18",
+      "items": [
+        {
+          "id": "spawn-king-spawn-13",
+          "t": "King Spawn",
+          "n": "#13",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-14",
+          "t": "King Spawn",
+          "n": "#14",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-15",
+          "t": "King Spawn",
+          "n": "#15",
+          "note": "After Gunslinger Spawn #7–9.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-16",
+          "t": "King Spawn",
+          "n": "#16",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-17",
+          "t": "King Spawn",
+          "n": "#17",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-18",
+          "t": "King Spawn",
+          "n": "#18",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc147-gunslinger-spawn-volume-3",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 3",
+      "sub": "Gunslinger Spawn #13–18",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-13",
+          "t": "Gunslinger Spawn",
+          "n": "#13",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-14",
+          "t": "Gunslinger Spawn",
+          "n": "#14",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-15",
+          "t": "Gunslinger Spawn",
+          "n": "#15",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-16",
+          "t": "Gunslinger Spawn",
+          "n": "#16",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-17",
+          "t": "Gunslinger Spawn",
+          "n": "#17",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-18",
+          "t": "Gunslinger Spawn",
+          "n": "#18",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc148-battle-for-the-throne-i",
+      "tier": 1,
+      "title": "Battle for the Throne I",
+      "sub": "Spawn #338–343",
+      "items": [
+        {
+          "id": "spawn-spawn-338",
+          "t": "Spawn",
+          "n": "#338",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-339",
+          "t": "Spawn",
+          "n": "#339",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-340",
+          "t": "Spawn",
+          "n": "#340",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-341",
+          "t": "Spawn",
+          "n": "#341",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-342",
+          "t": "Spawn",
+          "n": "#342",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-343",
+          "t": "Spawn",
+          "n": "#343",
+          "note": "Before Gunslinger Spawn #21–23.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc149-the-scorched-volume-3",
+      "tier": 1,
+      "title": "The Scorched Volume 3",
+      "sub": "The Scorched #13–18",
+      "items": [
+        {
+          "id": "spawn-the-scorched-13",
+          "t": "The Scorched",
+          "n": "#13",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-14",
+          "t": "The Scorched",
+          "n": "#14",
+          "note": "After Spawn #337.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-15",
+          "t": "The Scorched",
+          "n": "#15",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-16",
+          "t": "The Scorched",
+          "n": "#16",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-17",
+          "t": "The Scorched",
+          "n": "#17",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-18",
+          "t": "The Scorched",
+          "n": "#18",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc150-king-spawn-volume-4",
+      "tier": 1,
+      "title": "King Spawn Volume 4",
+      "sub": "King Spawn #19–24",
+      "items": [
+        {
+          "id": "spawn-king-spawn-19",
+          "t": "King Spawn",
+          "n": "#19",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-20",
+          "t": "King Spawn",
+          "n": "#20",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-21",
+          "t": "King Spawn",
+          "n": "#21",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-22",
+          "t": "King Spawn",
+          "n": "#22",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-23",
+          "t": "King Spawn",
+          "n": "#23",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-24",
+          "t": "King Spawn",
+          "n": "#24",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc151-gunslinger-spawn-volume-4",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 4",
+      "sub": "Gunslinger Spawn #19–24",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-19",
+          "t": "Gunslinger Spawn",
+          "n": "#19",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-20",
+          "t": "Gunslinger Spawn",
+          "n": "#20",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-21",
+          "t": "Gunslinger Spawn",
+          "n": "#21",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-22",
+          "t": "Gunslinger Spawn",
+          "n": "#22",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-23",
+          "t": "Gunslinger Spawn",
+          "n": "#23",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-24",
+          "t": "Gunslinger Spawn",
+          "n": "#24",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc152-the-scorched-volume-4",
+      "tier": 1,
+      "title": "The Scorched Volume 4",
+      "sub": "The Scorched #19–24",
+      "items": [
+        {
+          "id": "spawn-the-scorched-19",
+          "t": "The Scorched",
+          "n": "#19",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-20",
+          "t": "The Scorched",
+          "n": "#20",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-21",
+          "t": "The Scorched",
+          "n": "#21",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-22",
+          "t": "The Scorched",
+          "n": "#22",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-23",
+          "t": "The Scorched",
+          "n": "#23",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-24",
+          "t": "The Scorched",
+          "n": "#24",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc153-battle-for-the-throne-ii",
+      "tier": 1,
+      "title": "Battle for the Throne II",
+      "sub": "Spawn #344–347",
+      "items": [
+        {
+          "id": "spawn-spawn-344",
+          "t": "Spawn",
+          "n": "#344",
+          "note": "After Gunslinger Spawn #21–23.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-345",
+          "t": "Spawn",
+          "n": "#345",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-346",
+          "t": "Spawn",
+          "n": "#346",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-347",
+          "t": "Spawn",
+          "n": "#347",
+          "note": "Leads into King Spawn #27.",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc154-king-spawn-volume-5",
+      "tier": 1,
+      "title": "King Spawn Volume 5",
+      "sub": "King Spawn #25–28",
+      "items": [
+        {
+          "id": "spawn-king-spawn-25",
+          "t": "King Spawn",
+          "n": "#25",
+          "note": "After Spawn #343.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-26",
+          "t": "King Spawn",
+          "n": "#26",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-27",
+          "t": "King Spawn",
+          "n": "#27",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-28",
+          "t": "King Spawn",
+          "n": "#28",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc155-gunslinger-spawn-volume-5",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 5",
+      "sub": "Gunslinger Spawn #25–28",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-25",
+          "t": "Gunslinger Spawn",
+          "n": "#25",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-26",
+          "t": "Gunslinger Spawn",
+          "n": "#26",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-27",
+          "t": "Gunslinger Spawn",
+          "n": "#27",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-28",
+          "t": "Gunslinger Spawn",
+          "n": "#28",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc156-the-scorched-volume-4-contd",
+      "tier": 1,
+      "title": "The Scorched Volume 4(contd.)",
+      "sub": "The Scorched #25–26",
+      "items": [
+        {
+          "id": "spawn-the-scorched-25",
+          "t": "The Scorched",
+          "n": "#25",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-26",
+          "t": "The Scorched",
+          "n": "#26",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc157-king-spawn-volume-5-cont",
+      "tier": 1,
+      "title": "King Spawn Volume 5(cont.)",
+      "sub": "King Spawn #29–30",
+      "items": [
+        {
+          "id": "spawn-king-spawn-29",
+          "t": "King Spawn",
+          "n": "#29",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-30",
+          "t": "King Spawn",
+          "n": "#30",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc158-battle-for-the-throne-ii-cont",
+      "tier": 1,
+      "title": "Battle for the Throne II(cont.)",
+      "sub": "Spawn #348–350",
+      "items": [
+        {
+          "id": "spawn-spawn-348",
+          "t": "Spawn",
+          "n": "#348",
+          "note": "Battle for the Throne II, Part 5 · During King Spawn #30.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-349",
+          "t": "Spawn",
+          "n": "#349",
+          "note": "Battle for the Throne II, Part 6 · After King Spawn #30.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-350",
+          "t": "Spawn",
+          "n": "#350",
+          "note": "Battle for the Throne II, Part 7",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc159-king-spawn-volume-6",
+      "tier": 1,
+      "title": "King Spawn Volume 6",
+      "sub": "King Spawn #31–36",
+      "items": [
+        {
+          "id": "spawn-king-spawn-31",
+          "t": "King Spawn",
+          "n": "#31",
+          "note": "Nearly a month after Spawn #350.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-32",
+          "t": "King Spawn",
+          "n": "#32",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-33",
+          "t": "King Spawn",
+          "n": "#33",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-34",
+          "t": "King Spawn",
+          "n": "#34",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-35",
+          "t": "King Spawn",
+          "n": "#35",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-36",
+          "t": "King Spawn",
+          "n": "#36",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc160-gunslinger-spawn-volume-5-contd",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 5(contd.)",
+      "sub": "Gunslinger Spawn #29–30",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-29",
+          "t": "Gunslinger Spawn",
+          "n": "#29",
+          "note": "Weeks after Spawn #350, and after King Spawn #31.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-30",
+          "t": "Gunslinger Spawn",
+          "n": "#30",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc161-dead-zones",
+      "tier": 1,
+      "title": "Dead Zones",
+      "sub": "Spawn #351–360",
+      "items": [
+        {
+          "id": "spawn-spawn-351",
+          "t": "Spawn",
+          "n": "#351",
+          "note": "Two months after Spawn #350.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-352",
+          "t": "Spawn",
+          "n": "#352",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-353",
+          "t": "Spawn",
+          "n": "#353",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-354",
+          "t": "Spawn",
+          "n": "#354",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-355",
+          "t": "Spawn",
+          "n": "#355",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-356",
+          "t": "Spawn",
+          "n": "#356",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-357",
+          "t": "Spawn",
+          "n": "#357",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-358",
+          "t": "Spawn",
+          "n": "#358",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-359",
+          "t": "Spawn",
+          "n": "#359",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-360",
+          "t": "Spawn",
+          "n": "#360",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc162-the-scorched-volume-5",
+      "tier": 1,
+      "title": "The Scorched Volume 5",
+      "sub": "The Scorched #27–32",
+      "items": [
+        {
+          "id": "spawn-the-scorched-27",
+          "t": "The Scorched",
+          "n": "#27",
+          "note": "A few months after Spawn #350.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-28",
+          "t": "The Scorched",
+          "n": "#28",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-29",
+          "t": "The Scorched",
+          "n": "#29",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-30",
+          "t": "The Scorched",
+          "n": "#30",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-31",
+          "t": "The Scorched",
+          "n": "#31",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-32",
+          "t": "The Scorched",
+          "n": "#32",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc163-gunslinger-spawn-volume-6",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 6",
+      "sub": "Gunslinger Spawn #31–36",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-31",
+          "t": "Gunslinger Spawn",
+          "n": "#31",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-32",
+          "t": "Gunslinger Spawn",
+          "n": "#32",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-33",
+          "t": "Gunslinger Spawn",
+          "n": "#33",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-34",
+          "t": "Gunslinger Spawn",
+          "n": "#34",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-35",
+          "t": "Gunslinger Spawn",
+          "n": "#35",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-36",
+          "t": "Gunslinger Spawn",
+          "n": "#36",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc164-misery",
+      "tier": 1,
+      "title": "Misery",
+      "sub": "Misery #1–4",
+      "items": [
+        {
+          "id": "spawn-misery-1",
+          "t": "Misery",
+          "n": "#1",
+          "note": "After King Spawn #34 and #35.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-misery-2",
+          "t": "Misery",
+          "n": "#2",
+          "note": "After King Spawn #34 and #35.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-misery-3",
+          "t": "Misery",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-misery-4",
+          "t": "Misery",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc165-the-scorched-volume-6",
+      "tier": 1,
+      "title": "The Scorched Volume 6",
+      "sub": "The Scorched #33–38",
+      "items": [
+        {
+          "id": "spawn-the-scorched-33",
+          "t": "The Scorched",
+          "n": "#33",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-34",
+          "t": "The Scorched",
+          "n": "#34",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-35",
+          "t": "The Scorched",
+          "n": "#35",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-36",
+          "t": "The Scorched",
+          "n": "#36",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-37",
+          "t": "The Scorched",
+          "n": "#37",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-38",
+          "t": "The Scorched",
+          "n": "#38",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc166-sam-twitch-case-files-vol-1",
+      "tier": 1,
+      "title": "Sam & Twitch: Case Files, Vol. 1",
+      "sub": "Sam & Twitch: Case Files #1–8",
+      "items": [
+        {
+          "id": "spawn-sam-twitch-case-files-1",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#1",
+          "note": "No Good Deed Goes Unpunished, Part 1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-2",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#2",
+          "note": "No Good Deed Goes Unpunished, Part 2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-3",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#3",
+          "note": "No Good Deed Goes Unpunished, Part 3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-4",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#4",
+          "note": "No Good Deed Goes Unpunished, Part 4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-5",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#5",
+          "note": "No Good Deed Goes Unpunished, Part 5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-6",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#6",
+          "note": "No Good Deed Goes Unpunished, Part 6",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-7",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#7",
+          "note": "No Good Deed Goes Unpunished, Part 7",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-8",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#8",
+          "note": "No Good Deed Goes Unpunished, Part 8",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc167-rat-city-vol-1",
+      "tier": 1,
+      "title": "Rat City, Vol. 1",
+      "sub": "Rat City #1–6",
+      "items": [
+        {
+          "id": "spawn-rat-city-1",
+          "t": "Rat City",
+          "n": "#1",
+          "note": "Opens in 2107, set in 2111. Crosses over after Spawn #301.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-2",
+          "t": "Rat City",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-3",
+          "t": "Rat City",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-4",
+          "t": "Rat City",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-5",
+          "t": "Rat City",
+          "n": "#5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-6",
+          "t": "Rat City",
+          "n": "#6",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc168-king-spawn-volume-7",
+      "tier": 1,
+      "title": "King Spawn Volume 7",
+      "sub": "King Spawn #37–42",
+      "items": [
+        {
+          "id": "spawn-king-spawn-37",
+          "t": "King Spawn",
+          "n": "#37",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-38",
+          "t": "King Spawn",
+          "n": "#38",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-39",
+          "t": "King Spawn",
+          "n": "#39",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-40",
+          "t": "King Spawn",
+          "n": "#40",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-41",
+          "t": "King Spawn",
+          "n": "#41",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-42",
+          "t": "King Spawn",
+          "n": "#42",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc169-gunslinger-spawn-volume-7",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 7",
+      "sub": "Gunslinger Spawn #37–42",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-37",
+          "t": "Gunslinger Spawn",
+          "n": "#37",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-38",
+          "t": "Gunslinger Spawn",
+          "n": "#38",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-39",
+          "t": "Gunslinger Spawn",
+          "n": "#39",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-40",
+          "t": "Gunslinger Spawn",
+          "n": "#40",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-41",
+          "t": "Gunslinger Spawn",
+          "n": "#41",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-42",
+          "t": "Gunslinger Spawn",
+          "n": "#42",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc170-the-scorched-volume-7",
+      "tier": 1,
+      "title": "The Scorched Volume 7",
+      "sub": "The Scorched #39–44",
+      "items": [
+        {
+          "id": "spawn-the-scorched-39",
+          "t": "The Scorched",
+          "n": "#39",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-40",
+          "t": "The Scorched",
+          "n": "#40",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-41",
+          "t": "The Scorched",
+          "n": "#41",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-42",
+          "t": "The Scorched",
+          "n": "#42",
+          "note": "The latest issue published.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-43",
+          "t": "The Scorched",
+          "n": "#43",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-44",
+          "t": "The Scorched",
+          "n": "#44",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc171-violator",
+      "tier": 1,
+      "title": "Violator",
+      "sub": "Violator (2024) #1–6",
+      "items": [
+        {
+          "id": "spawn-violator-2024-1",
+          "t": "Violator (2024)",
+          "n": "#1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-violator-2024-2",
+          "t": "Violator (2024)",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-violator-2024-3",
+          "t": "Violator (2024)",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-violator-2024-4",
+          "t": "Violator (2024)",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-violator-2024-5",
+          "t": "Violator (2024)",
+          "n": "#5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-violator-2024-6",
+          "t": "Violator (2024)",
+          "n": "#6",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc172-rat-city-vol-2",
+      "tier": 1,
+      "title": "Rat City, Vol. 2",
+      "sub": "Rat City #7–12",
+      "items": [
+        {
+          "id": "spawn-rat-city-7",
+          "t": "Rat City",
+          "n": "#7",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-8",
+          "t": "Rat City",
+          "n": "#8",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-9",
+          "t": "Rat City",
+          "n": "#9",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-10",
+          "t": "Rat City",
+          "n": "#10",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-11",
+          "t": "Rat City",
+          "n": "#11",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-12",
+          "t": "Rat City",
+          "n": "#12",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc173-sam-twitch-case-files-vol-2",
+      "tier": 1,
+      "title": "Sam & Twitch: Case Files, Vol. 2",
+      "sub": "Sam & Twitch: Case Files #9–16",
+      "items": [
+        {
+          "id": "spawn-sam-twitch-case-files-9",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#9",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-10",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#10",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-11",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#11",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-12",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#12",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-13",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#13",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-14",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#14",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-15",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#15",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-sam-twitch-case-files-16",
+          "t": "Sam & Twitch: Case Files",
+          "n": "#16",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc174-deadly-tales-of-the-gunslinger-vol-1",
+      "tier": 1,
+      "title": "Deadly Tales of the Gunslinger, Vol. 1",
+      "sub": "Deadly Tales of the Gunslinger #1–6",
+      "items": [
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-1",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-2",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-3",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-4",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-5",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-6",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#6",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc175-hell-hath-risen",
+      "tier": 1,
+      "title": "Hell Hath Risen",
+      "sub": "Spawn #361–368",
+      "items": [
+        {
+          "id": "spawn-spawn-361",
+          "t": "Spawn",
+          "n": "#361",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-362",
+          "t": "Spawn",
+          "n": "#362",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-363",
+          "t": "Spawn",
+          "n": "#363",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-364",
+          "t": "Spawn",
+          "n": "#364",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-365",
+          "t": "Spawn",
+          "n": "#365",
+          "note": "The latest issue published.",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-366",
+          "t": "Spawn",
+          "n": "#366",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-367",
+          "t": "Spawn",
+          "n": "#367",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-368",
+          "t": "Spawn",
+          "n": "#368",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc176-king-spawn-volume-8",
+      "tier": 1,
+      "title": "King Spawn Volume 8",
+      "sub": "King Spawn #43–48",
+      "items": [
+        {
+          "id": "spawn-king-spawn-43",
+          "t": "King Spawn",
+          "n": "#43",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-44",
+          "t": "King Spawn",
+          "n": "#44",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-45",
+          "t": "King Spawn",
+          "n": "#45",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-46",
+          "t": "King Spawn",
+          "n": "#46",
+          "note": "The latest issue published.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-47",
+          "t": "King Spawn",
+          "n": "#47",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-48",
+          "t": "King Spawn",
+          "n": "#48",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc177-gunslinger-spawn-volume-8",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 8",
+      "sub": "Gunslinger Spawn #43–48",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-43",
+          "t": "Gunslinger Spawn",
+          "n": "#43",
+          "note": "The latest issue published.",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-44",
+          "t": "Gunslinger Spawn",
+          "n": "#44",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-45",
+          "t": "Gunslinger Spawn",
+          "n": "#45",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-46",
+          "t": "Gunslinger Spawn",
+          "n": "#46",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-47",
+          "t": "Gunslinger Spawn",
+          "n": "#47",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-48",
+          "t": "Gunslinger Spawn",
+          "n": "#48",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc178-the-scorched-volume-8",
+      "tier": 1,
+      "title": "The Scorched Volume 8",
+      "sub": "The Scorched #45–50",
+      "items": [
+        {
+          "id": "spawn-the-scorched-45",
+          "t": "The Scorched",
+          "n": "#45",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-46",
+          "t": "The Scorched",
+          "n": "#46",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-47",
+          "t": "The Scorched",
+          "n": "#47",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-48",
+          "t": "The Scorched",
+          "n": "#48",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-49",
+          "t": "The Scorched",
+          "n": "#49",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-50",
+          "t": "The Scorched",
+          "n": "#50",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc179-rat-city-vol-3",
+      "tier": 1,
+      "title": "Rat City, Vol. 3",
+      "sub": "Rat City #13–18",
+      "items": [
+        {
+          "id": "spawn-rat-city-13",
+          "t": "Rat City",
+          "n": "#13",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-14",
+          "t": "Rat City",
+          "n": "#14",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-15",
+          "t": "Rat City",
+          "n": "#15",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-16",
+          "t": "Rat City",
+          "n": "#16",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-17",
+          "t": "Rat City",
+          "n": "#17",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-rat-city-18",
+          "t": "Rat City",
+          "n": "#18",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc180-deadly-tales-of-the-gunslinger-vol-2",
+      "tier": 1,
+      "title": "Deadly Tales of the Gunslinger, Vol. 2",
+      "sub": "Deadly Tales of the Gunslinger #7–12",
+      "items": [
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-7",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#7",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-8",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#8",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-9",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#9",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-10",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#10",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-11",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#11",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-deadly-tales-of-the-gunslinger-12",
+          "t": "Deadly Tales of the Gunslinger",
+          "n": "#12",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc181-medieval-spawn",
+      "tier": 1,
+      "title": "Medieval Spawn",
+      "sub": "Medieval Spawn #1–4",
+      "items": [
+        {
+          "id": "spawn-medieval-spawn-1",
+          "t": "Medieval Spawn",
+          "n": "#1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-medieval-spawn-2",
+          "t": "Medieval Spawn",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-medieval-spawn-3",
+          "t": "Medieval Spawn",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-medieval-spawn-4",
+          "t": "Medieval Spawn",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc182-black-ritual-the-book-of-nyx",
+      "tier": 1,
+      "title": "Black Ritual: The Book of Nyx",
+      "sub": "Black Ritual: The Book of Nyx #1–7",
+      "items": [
+        {
+          "id": "spawn-black-ritual-the-book-of-nyx-1",
+          "t": "Black Ritual: The Book of Nyx",
+          "n": "#1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-black-ritual-the-book-of-nyx-2",
+          "t": "Black Ritual: The Book of Nyx",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-black-ritual-the-book-of-nyx-3",
+          "t": "Black Ritual: The Book of Nyx",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-black-ritual-the-book-of-nyx-4",
+          "t": "Black Ritual: The Book of Nyx",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-black-ritual-the-book-of-nyx-5",
+          "t": "Black Ritual: The Book of Nyx",
+          "n": "#5",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-black-ritual-the-book-of-nyx-6",
+          "t": "Black Ritual: The Book of Nyx",
+          "n": "#6",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-black-ritual-the-book-of-nyx-7",
+          "t": "Black Ritual: The Book of Nyx",
+          "n": "#7",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc183-bloodletter",
+      "tier": 1,
+      "title": "Bloodletter",
+      "sub": "Bloodletter #1–5",
+      "items": [
+        {
+          "id": "spawn-bloodletter-1",
+          "t": "Bloodletter",
+          "n": "#1",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-bloodletter-2",
+          "t": "Bloodletter",
+          "n": "#2",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-bloodletter-3",
+          "t": "Bloodletter",
+          "n": "#3",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-bloodletter-4",
+          "t": "Bloodletter",
+          "n": "#4",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-bloodletter-5",
+          "t": "Bloodletter",
+          "n": "#5",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc184-spawn-vol-9",
+      "tier": 1,
+      "title": "Spawn, Vol. 9",
+      "sub": "Spawn #369–375",
+      "items": [
+        {
+          "id": "spawn-spawn-369",
+          "t": "Spawn",
+          "n": "#369",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-370",
+          "t": "Spawn",
+          "n": "#370",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-371",
+          "t": "Spawn",
+          "n": "#371",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-372",
+          "t": "Spawn",
+          "n": "#372",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-373",
+          "t": "Spawn",
+          "n": "#373",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-374",
+          "t": "Spawn",
+          "n": "#374",
+          "tags": [
+            "Main series"
+          ]
+        },
+        {
+          "id": "spawn-spawn-375",
+          "t": "Spawn",
+          "n": "#375",
+          "tags": [
+            "Main series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc185-king-spawn-volume-9",
+      "tier": 1,
+      "title": "King Spawn Volume 9",
+      "sub": "King Spawn #49–54",
+      "items": [
+        {
+          "id": "spawn-king-spawn-49",
+          "t": "King Spawn",
+          "n": "#49",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-50",
+          "t": "King Spawn",
+          "n": "#50",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-51",
+          "t": "King Spawn",
+          "n": "#51",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-52",
+          "t": "King Spawn",
+          "n": "#52",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-53",
+          "t": "King Spawn",
+          "n": "#53",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-king-spawn-54",
+          "t": "King Spawn",
+          "n": "#54",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc186-gunslinger-spawn-volume-9",
+      "tier": 1,
+      "title": "Gunslinger Spawn Volume 9",
+      "sub": "Gunslinger Spawn #49–54",
+      "items": [
+        {
+          "id": "spawn-gunslinger-spawn-49",
+          "t": "Gunslinger Spawn",
+          "n": "#49",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-50",
+          "t": "Gunslinger Spawn",
+          "n": "#50",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-51",
+          "t": "Gunslinger Spawn",
+          "n": "#51",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-52",
+          "t": "Gunslinger Spawn",
+          "n": "#52",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-53",
+          "t": "Gunslinger Spawn",
+          "n": "#53",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-gunslinger-spawn-54",
+          "t": "Gunslinger Spawn",
+          "n": "#54",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc187-the-scorched-volume-9",
+      "tier": 1,
+      "title": "The Scorched Volume 9",
+      "sub": "The Scorched #51–56",
+      "items": [
+        {
+          "id": "spawn-the-scorched-51",
+          "t": "The Scorched",
+          "n": "#51",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-52",
+          "t": "The Scorched",
+          "n": "#52",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-53",
+          "t": "The Scorched",
+          "n": "#53",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-54",
+          "t": "The Scorched",
+          "n": "#54",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-55",
+          "t": "The Scorched",
+          "n": "#55",
+          "tags": [
+            "Spin-off"
+          ]
+        },
+        {
+          "id": "spawn-the-scorched-56",
+          "t": "The Scorched",
+          "n": "#56",
+          "tags": [
+            "Spin-off"
+          ]
+        }
+      ]
+    }
+  ]
+}
