@@ -733,6 +733,7 @@ footer a{color:var(--steel)}
 <div class="acctp hide" id="accountv">
   <div class="acctp-in">
     <h1 class="splash-h">Account</h1>
+    <p class="acap hide" id="a-wait">opening your account…</p>
     <p class="asub" id="a-who"></p>
     <p id="a-msg" style="margin:9px 0 0;min-height:19px;font-size:13px;color:var(--signal)"></p>
 
@@ -1764,12 +1765,30 @@ function paintMastAcct(){
   const bare = ACCOUNT
     || !$('splash').classList.contains('hide')
     || !$('homev').classList.contains('hide');
-  b.classList.toggle('hide', !(CLOUD && !user && bare));
   // the name pill rides every view the mast is on: it is navigation, not a
-  // prompt, and the account is reachable from wherever you are
-  a.classList.toggle('hide', !user);
-  if(!user) return;
+  // prompt, and the account is reachable from wherever you are. A slow or
+  // flaky session fetch must not blank it — the last known name holds the
+  // pill until auth answers, and only a definitive signed-out answer
+  // (sessionSeen) takes it down.
+  if(!user){
+    let cached = '';
+    if(!sessionSeen){
+      try{ cached = localStorage.getItem('gw:acctname') || ''; }catch(e){}
+    }else{
+      try{ localStorage.removeItem('gw:acctname'); }catch(e){}
+    }
+    a.classList.toggle('hide', !cached);
+    if(cached){
+      $('mastacct-t').textContent = cached;
+      $('mastacct-i').textContent = cached.charAt(0).toUpperCase();
+    }
+    b.classList.toggle('hide', !(CLOUD && bare && !cached));
+    return;
+  }
+  b.classList.add('hide');
+  a.classList.remove('hide');
   const nm = acctName() || (user.email || 'you').split('@')[0];
+  try{ localStorage.setItem('gw:acctname', nm); }catch(e){}
   $('mastacct-t').textContent = nm;
   $('mastacct-i').textContent = nm.charAt(0).toUpperCase();
   a.classList.toggle('here', ACCOUNT);
@@ -1976,19 +1995,32 @@ function paintAcctPrefs(){
 
 async function renderAccount(){
   if(!user){
-    // auth has not answered yet; onSession draws whichever half is right
-    if(CLOUD && !sessionSeen) return;
+    if(CLOUD && !sessionSeen){
+      // auth hasn't answered yet — a blank page here read as a hang, so
+      // the frame shows immediately with one honest line of status
+      $('accountv').classList.remove('hide');
+      $('a-wait').classList.remove('hide');
+      return;
+    }
     openAccountSignin();
     return;
   }
   $('accountv').classList.remove('hide');
-  await acctUser();
+  $('a-wait').classList.add('hide');
+  // paint NOW from the session copy — every section renders with zero
+  // round trips — then the server refresh corrects anything stale
+  ACCT = user;
   paintAcctIdentity();
   paintAcctProviders();
   paintAcctData();
   paintAcctPrefs();
   paintMastAcct();
-  $('a-fcode').textContent = await ensureFcode();
+  ensureFcode().then(c=>{ $('a-fcode').textContent = c; });
+  acctUser().then(()=>{
+    paintAcctIdentity();
+    paintAcctProviders();
+    paintMastAcct();
+  });
 }
 function showAccount(){
   $('splash').classList.add('hide');
@@ -4915,6 +4947,8 @@ if(!SLUG){
 loadProperty().then(()=>{
   renderHeader();
   renderMenu();
+  // the pill paints before auth answers, from the cached name if any
+  paintMastAcct();
   migrate();
   // A secret property renders nothing until the password lands. The list is
   // already fetched by this point and always will be — the gate is about not
