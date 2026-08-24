@@ -169,6 +169,8 @@ def main():
             "accentDark": p.get("accentDark", ""),
             "unit": p["unit"],
             "total": p["_total"],
+            # home ranks schedule-active clubs first; the flag is all it needs
+            **({"scheduled": True} if p.get("schedule") else {}),
             # the page needs these before first paint: one to know not to list
             # a locked property, the other to size a generated one
             # the switcher names a locked list by its cover title, not its own

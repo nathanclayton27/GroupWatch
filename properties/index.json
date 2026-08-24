@@ -15,7 +15,8 @@
       "one": "episode",
       "many": "episodes"
     },
-    "total": 64
+    "total": 64,
+    "scheduled": true
   },
   {
     "slug": "hickman-secret-wars",
@@ -105,7 +106,8 @@
       "one": "episode",
       "many": "episodes"
     },
-    "total": 74
+    "total": 74,
+    "scheduled": true
   },
   {
     "slug": "one-pace",
@@ -159,7 +161,8 @@
       "one": "episode",
       "many": "episodes"
     },
-    "total": 10
+    "total": 10,
+    "scheduled": true
   },
   {
     "slug": "lanterns",
@@ -177,7 +180,8 @@
       "one": "episode",
       "many": "episodes"
     },
-    "total": 8
+    "total": 8,
+    "scheduled": true
   },
   {
     "slug": "evangelion",
