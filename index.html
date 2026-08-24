@@ -3282,6 +3282,25 @@ let MANIFEST = [
     "total": 24
   },
   {
+    "slug": "raimi",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Sam Raimi",
+    "subtitle": "the directed features, plus Ash vs Evil Dead",
+    "kind": "films & tv",
+    "year": "1978–2026",
+    "blurb": "Seventeen directed features, from a Super 8 student film to Send Help — about 30 hours of them — plus all 30 episodes of Ash vs Evil Dead, the series he developed and directed one episode of.",
+    "accent": "#460971",
+    "accentDark": "#1DED99",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 47
+  },
+  {
     "slug": "bond-games",
     "media": [
       "games"
@@ -3426,7 +3445,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '433310f885f5';
+const BUILD = 'ff9f8d327757';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
