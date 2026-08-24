@@ -1984,9 +1984,16 @@ async function adopt(){
   }
   writeLocal();
 }
-async function onSession(session){
+// `definitive` says whether this answer settles the question. Supabase fires
+// INITIAL_SESSION with a null session BEFORE it has restored a token from
+// storage, and treating that as "definitely signed out" both cleared the
+// remembered-device guard and skipped the grace beat — which is how the
+// stranger pitch kept flashing at signed-in people (Nathan, three times).
+// A session is always definitive; a null one only when it came from
+// getSession() or an explicit sign-out.
+async function onSession(session, definitive){
   user = session ? session.user : null;
-  sessionSeen = true;
+  if(user || definitive) sessionSeen = true;
   // the shelf and splash have no property loaded — the only work here is
   // the auth affordance and pulling the account's cloud state down so a
   // fresh device shows the real shelf instead of a stranger's splash
@@ -6115,9 +6122,11 @@ if(!SLUG){
   // the auth boot must run here too — the shelf is where a fresh sign-in
   // lands, and without this the session (and the cloud shelf) never arrive
   if(CLOUD){
-    sb.auth.onAuthStateChange((_e, session)=> onSession(session));
+    sb.auth.onAuthStateChange((_e, session)=>
+      // a null INITIAL_SESSION is the one answer that is not final
+      onSession(session, _e !== 'INITIAL_SESSION'));
     sb.auth.getSession()
-      .then(({data})=> onSession(data.session))
+      .then(({data})=> onSession(data.session, true))
       .catch(e=>{
         console.error('[home] getSession failed', e);
         // the shelf still draws from localStorage; the account page has
@@ -6154,9 +6163,11 @@ loadProperty().then(()=>{
   if(CLOUD) $('b-google').classList.remove('hide');
 
   if(CLOUD){
-    sb.auth.onAuthStateChange((_e, session)=> onSession(session));
+    sb.auth.onAuthStateChange((_e, session)=>
+      // a null INITIAL_SESSION is the one answer that is not final
+      onSession(session, _e !== 'INITIAL_SESSION'));
     sb.auth.getSession()
-      .then(({data})=> onSession(data.session))
+      .then(({data})=> onSession(data.session, true))
       .catch(e=>{
         console.error('[tracker] getSession failed', e);
         done = readLocal();
