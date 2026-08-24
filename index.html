@@ -2915,7 +2915,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '30397dc14b77';
+const BUILD = 'd77955107709';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -3454,6 +3454,7 @@ async function onSession(session){
     if(user){
       $('signin').classList.add('hide');
       await primeShelf();
+      await syncStars();
       $('homev').classList.add('hide');
       $('splash').classList.add('hide');
       showHome();
@@ -3473,6 +3474,7 @@ async function onSession(session){
       flash('Sync error: '+(e.message||e)+' (progress is safe on this device)');
       console.error('[tracker] adopt threw', e);
     }
+    syncStars().then(ch=>{ if(ch){ paintStar(); renderMenu(); } });
     await refreshGroup(false);
     startGroupPoll();
     // someone can unlock while signed out and sign in afterwards; the group
@@ -5135,7 +5137,28 @@ function toggleStar(slug){
   const s = stars();
   s.has(slug) ? s.delete(slug) : s.add(slug);
   try{ localStorage.setItem(STARKEY, JSON.stringify([...s])); }catch(e){}
+  // stars follow the account, riding auth metadata — no table needed
+  if(user && sb) sb.auth.updateUser({ data: { stars: [...s] } }).catch(()=>{});
   return s;
+}
+// On sign-in, local and account stars union both ways: the device learns
+// the account's favourites, the account learns the device's. Unstars sync
+// through toggleStar's full replacement, so the union here never resurrects
+// one removed on purpose mid-session.
+async function syncStars(){
+  if(!user || !sb) return false;
+  const local = stars();
+  const meta = new Set((user.user_metadata && user.user_metadata.stars) || []);
+  const union = new Set([...local, ...meta]);
+  let changedLocal = false;
+  if(union.size !== local.size){
+    try{ localStorage.setItem(STARKEY, JSON.stringify([...union])); }catch(e){}
+    changedLocal = true;
+  }
+  if(union.size !== meta.size){
+    try{ await sb.auth.updateUser({ data: { stars: [...union] } }); }catch(e){}
+  }
+  return changedLocal;
 }
 
 // Alphabetical, because the menu is for finding a title you already have in
