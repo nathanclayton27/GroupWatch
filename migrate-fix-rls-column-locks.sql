@@ -253,6 +253,40 @@ create policy "mutual friends read progress" on public.progress
                 where f2.a = progress.user_id and f2.b = auth.uid())
   );
 
+-- ------------------------- 5b. the same scope, for thumbs (CLU-43) --------
+
+-- migrate-add-thumbs.sql copies the friend-shelves policy deliberately
+-- ("the same shape as the friend shelves policy (CLU-72), deliberately copied
+-- rather than reinvented") — which is the right instinct, and it inherits the
+-- missing property scope along with the good parts. A mutual friend can read
+-- your thumbs on a gated list: the item ids come from inside the encrypted
+-- blob, and each carries an up/down beside it. The front end only ever asks
+-- about the open property, but a hostile client asks about any of them.
+--
+-- Guarded on the table existing, because this file must be runnable whether or
+-- not migrate-add-thumbs.sql has gone in yet. If thumbs arrives later, re-run
+-- this file — it is idempotent and this block will pick it up.
+
+do $$ begin
+  if to_regclass('public.thumbs') is null then
+    raise notice 'thumbs does not exist yet — re-run this file after migrate-add-thumbs.sql';
+    return;
+  end if;
+
+  drop policy if exists "mutual friends read thumbs" on public.thumbs;
+  create policy "mutual friends read thumbs" on public.thumbs
+    for select using (
+      not is_private_property(thumbs.property_id)
+      and exists (select 1 from public.friendships f1
+                  where f1.a = auth.uid() and f1.b = thumbs.user_id)
+      and exists (select 1 from public.friendships f2
+                  where f2.a = thumbs.user_id and f2.b = auth.uid())
+    );
+
+  -- same reasoning as §4: nothing writes a thumb while signed out
+  execute 'revoke insert, update, delete on table public.thumbs from anon';
+end $$;
+
 -- ------------------------------------------------- 6. search_path sweep --
 
 -- Every definer function should name pg_temp explicitly. Left off, Postgres
@@ -405,9 +439,11 @@ grant execute on function find_profile_by_code(text) to authenticated;
 -- reachable only by holding their code.
 drop policy if exists "profiles readable when signed in" on public.profiles;
 
+drop policy if exists "read own profile" on public.profiles;
 create policy "read own profile" on public.profiles
   for select using (auth.uid() = user_id);
 
+drop policy if exists "read connected profiles" on public.profiles;
 create policy "read connected profiles" on public.profiles
   for select using (
     exists (select 1 from public.friendships f
