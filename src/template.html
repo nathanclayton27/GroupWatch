@@ -185,7 +185,8 @@ select{font-family:inherit;font-size:13px;background:var(--card);color:var(--ink
   border:1px solid var(--rule-2);border-radius:var(--radius);padding:6px 9px}
 
 .bar{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:26px}
-.bar-in{max-width:900px;margin:0 auto;padding:0 20px;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.bar-in{max-width:900px;margin:0 auto;padding:0 20px;display:flex;gap:22px;
+  align-items:center;flex-wrap:wrap;transition:padding-left .18s ease}
 .stat{display:flex;flex-direction:column;gap:1px}
 .stat b{font-family:"IBM Plex Mono",monospace;font-size:17px;font-weight:500;font-variant-numeric:tabular-nums}
 .spacer{flex:1}
@@ -329,7 +330,13 @@ footer a{color:var(--steel)}
    with 20px side padding, so the column starts at (50% - 430px) wide
    and 20px otherwise */
 .mast{position:fixed;top:14px;left:max(20px, calc(50% - 430px));z-index:80;
-  display:flex;align-items:center;gap:14px}
+  display:flex;align-items:center;gap:14px;transition:top .18s ease}
+/* scrolled: the mast collapses to eye + dot so the stuck stats bar only
+   has to clear a small fixed lane (CLU-84) */
+.mast.mini .mast-t,.mast.mini #b-prop-t,.mast.mini .chev{display:none}
+@media (min-width:561px){
+  .bar.stuck .bar-in{padding-left:134px}
+}
 /* option B (CLU-74): the home cluster is an opaque pill like the switcher
    button, so content scrolling behind never collides with the wordmark */
 .mhome{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);
@@ -545,6 +552,13 @@ footer a{color:var(--steel)}
 <body>
 <div class="peek hide" id="peek"></div>
 
+<!-- FIRST in flow, always: this once sat below the splash in DOM order and
+     rendered 6000px down the page — technically visible, never seen -->
+<div id="movebar" class="hide">
+  <span><b>clubd.watch is live — this GitHub address shuts down August 27.</b> Sign in once and your ticks follow you there; without an account they stay behind.</span>
+  <button id="b-moveok" type="button">Got it</button>
+</div>
+
 <div class="splash hide" id="splash">
   <div class="splash-in">
     <div class="lbl">clubd</div>
@@ -598,11 +612,6 @@ footer a{color:var(--steel)}
     <p class="gate-msg" id="gate-msg" role="status"></p>
     <button type="button" class="gate-back" id="gate-back">Back to everything else</button>
   </form>
-</div>
-
-<div id="movebar" class="hide">
-  <span><b>clubd.watch is live — this GitHub address shuts down August 27.</b> Sign in once and your ticks follow you there; without an account they stay behind.</span>
-  <button id="b-moveok" type="button">Got it</button>
 </div>
 
 <div class="wrap">
@@ -1574,7 +1583,31 @@ function moveBanner(){
   const show = location.hostname === 'nathanclayton27.github.io' && !user &&
     Date.now() - dism > 7*24*3600*1000;
   el.classList.toggle('hide', !show);
+  mastLane();
 }
+// The floating pills must never cover the banner: while it shows, the
+// mast steps down below it (desktop only — on phones the mast is in the
+// flow already, underneath the banner by document order).
+function mastLane(){
+  const m = $('mast'), mb = $('movebar');
+  if(!m || !mb) return;
+  m.style.top = (!mb.classList.contains('hide') && innerWidth > 560)
+    ? (mb.offsetHeight + 10) + 'px' : '';
+}
+addEventListener('resize', mastLane);
+// Scrolled: shrink the mast to eye + dot, and flag the stats bar the
+// moment it sticks so it can reserve that small lane.
+let _mini = false;
+addEventListener('scroll', ()=>{
+  const on = scrollY > 64 && innerWidth > 560;
+  if(on !== _mini){
+    _mini = on;
+    $('mast').classList.toggle('mini', on);
+  }
+  const bar = document.querySelector('.bar');
+  if(bar && !bar.classList.contains('hide'))
+    bar.classList.toggle('stuck', bar.getBoundingClientRect().top < 56);
+}, { passive: true });
 
 /* ------------------------------------------------------------------ groups */
 
@@ -4190,6 +4223,7 @@ $('b-reset').onclick = ()=>{
 $('b-moveok').onclick = ()=>{
   try{ localStorage.setItem('gw:movebanner', String(Date.now())); }catch(e){}
   $('movebar').classList.add('hide');
+  mastLane();
 };
 
 $('b-gcreate').onclick = async ()=>{
