@@ -2912,7 +2912,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '69134a20b17d';
+const BUILD = '46de889901a2';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -6236,8 +6236,15 @@ $('b-link').onclick = async ()=>{
   $('b-link').disabled = false;
   flash(error ? error.message : 'Link sent. Check your email.', 'authmsg');
 };
-$('b-gh').onclick = ()=> sb.auth.signInWithOAuth({ provider:'github', options:{ redirectTo: location.href.split('#')[0] } });
-$('b-google').onclick = ()=> sb.auth.signInWithOAuth({ provider:'google', options:{ redirectTo: location.href.split('#')[0] } });
+// OAuth errors MUST land in the panel — a silent failure reads as a dead
+// button (it did, the night Google wasn't enabled yet)
+async function oauth(provider){
+  const { error } = await sb.auth.signInWithOAuth(
+    { provider, options:{ redirectTo: location.href.split('#')[0] } });
+  if(error) flash(error.message, 'authmsg');
+}
+$('b-gh').onclick = ()=> oauth('github');
+$('b-google').onclick = ()=> oauth('google');
 if(CLOUD) $('b-google').classList.remove('hide');
 $('b-export').onclick = async ()=>{
   try{ await navigator.clipboard.writeText($('code').value); flash('Code copied.'); }
