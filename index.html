@@ -613,7 +613,10 @@ footer a{color:var(--steel)}
    labels are the mono uppercase keys the rest of the site sets its small
    print in; everything else is a house token. */
 .acctp{min-height:100vh;padding:56px 20px 90px}
-.acctp-in{max-width:640px;margin:0 auto}
+/* one column, three pages: account and friends sit on the same 820px the
+   home shelf uses — a page changing width on navigation reads as broken
+   (CLU-99, CLU-115) */
+.acctp-in{max-width:820px;margin:0 auto}
 .acctp h1{margin:34px 0 2px}
 .asub{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11.5px;
   color:var(--ink-3);margin:0}
@@ -3314,7 +3317,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '5ed51c7eaaeb';
+const BUILD = '6d001a54e636';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
