@@ -728,6 +728,7 @@ footer a{color:var(--steel)}
     <div class="hsec">Lately</div>
     <div id="hledger"></div>
     <div class="hsec hide" id="hfr-h">Friends</div>
+    <div class="hled hide" id="hfr-msg" style="cursor:default;border-top:0;font-size:12.5px"></div>
     <div class="hide" id="hfriends"></div>
     <div class="hsec">Tonight</div>
     <div class="trow">
@@ -3176,7 +3177,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'e71a99045096';
+const BUILD = '35932b16643f';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -4261,11 +4262,8 @@ function openAccountSignin(){
 
 $('b-fadd').onclick = async ()=>{
   const r = await addFriendFlow($('a-fadd').value);
-  if(r.err){ flash(r.err, 'a-msg'); return; }
-  $('a-fadd').value = '';
-  flash(r.mutual ? 'You and ' + r.name + ' are friends now.'
-    : 'Added ' + r.name + ' — when they add your code back, you are linked.',
-    'a-msg');
+  friendNotify(r, true);
+  if(!r.err) $('a-fadd').value = '';
 };
 $('a-fadd').onkeydown = e=>{ if(e.key === 'Enter') $('b-fadd').click(); };
 $('b-fcopy').onclick = ()=> acctCopy($('a-fcode').textContent, 'Friend code copied.');
@@ -4411,13 +4409,42 @@ async function friendByCode(raw){
   return { id: data.user_id, name: data.username || 'them' };
 }
 async function addFriend(target){
-  // one direction; adding twice is a quiet success
+  // one direction; a duplicate insert is how "already sent" is detected
   const ins = await sb.from('friendships').insert({ a: user.id, b: target.id });
-  if(ins.error && ins.error.code !== '23505')
+  const already = !!(ins.error && ins.error.code === '23505');
+  if(ins.error && !already)
     return { err: 'Could not add — try again.' };
   const rev = await sb.from('friendships').select('a')
     .eq('a', target.id).eq('b', user.id).maybeSingle();
-  return { name: target.name, mutual: !!rev.data };
+  return { name: target.name, mutual: !!rev.data, already };
+}
+// every add path reports one of four honest states
+function friendMsg(r){
+  if(r.mutual) return r.already
+    ? 'You and ' + r.name + ' are already friends.'
+    : 'You and ' + r.name + ' are friends now.';
+  return r.already
+    ? 'Request already sent — ' + r.name + ' hasn’t added you back yet.'
+    : 'Friend request sent to ' + r.name
+      + ' — when they add your code back, you’re linked.';
+}
+// friend outcomes are good news (or at worst neutral) — never error-red
+function friendNotify(r, acct){
+  const text = r.err || friendMsg(r);
+  if(acct){
+    flash(text, 'a-msg');
+    const m = $('a-msg');
+    if(m) m.style.color = r.err ? '' : 'var(--done)';
+    return;
+  }
+  const n = $('hfr-msg');
+  if(n){
+    n.textContent = text;
+    n.style.color = r.err ? '' : 'var(--done)';
+    n.classList.remove('hide');
+    setTimeout(()=>{ if(n.textContent === text) n.classList.add('hide'); }, 12000);
+  }
+  flash(text);
 }
 async function addFriendFlow(raw){
   const t = await friendByCode(raw);
@@ -4450,10 +4477,8 @@ async function settlePendingFriend(){
   }
   try{ sessionStorage.removeItem('gw:pendfriend'); }catch(e){}
   const r = await addFriendFlow(code);
-  if(r.err){ flash(r.err); return; }
-  flash(r.mutual ? 'You and ' + r.name + ' are friends now.'
-    : 'Added ' + r.name + ' — when they add your code back, you are linked.');
-  renderFriends();
+  friendNotify(r, false);
+  if(!r.err) renderFriends();
 }
 // the home section: mutual friends, then people waiting on one side
 async function renderFriends(){
