@@ -2919,7 +2919,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '275a3f5d3dcc';
+const BUILD = '6071f541e5e2';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -4948,47 +4948,22 @@ function renderHeader(){
     : '<p>'+esc(nt)+'</p>').join('');
 }
 
-// medium chips: browse mode for the menu. They filter the property list
-// while the search box is empty and step aside the moment you type —
-// typing searches everything. Multi-select; MCU sits under movies AND tv.
+// The menu is search + favourites only — the medium categories left it
+// for the wall's chips (Nathan, 2026-08-24), which own browsing now.
 const MEDIA_LABEL = {movies:'Movies', tv:'TV', anime:'Anime', games:'Games',
                      comics:'Comics', manga:'Manga', books:'Books', other:'Other'};
-let MEDIAF = new Set();
-function renderMediaChips(){
-  const host = $('pmedia');
-  if(!host) return;
-  const present = [];
-  for(const key of ['movies','tv','anime','games','comics','manga','books'])
-    if(MANIFEST.some(m=> (m.media||[]).indexOf(key) >= 0)) present.push(key);
-  host.innerHTML = present.map(k=>
-    '<button class="mchip'+(MEDIAF.has(k)?' on':'')+'" data-m="'+k+'">'
-    + MEDIA_LABEL[k] + '</button>').join('');
-  host.querySelectorAll('.mchip').forEach(b=>{
-    b.onclick = e=>{
-      // the click re-renders these buttons; without this, the document-level
-      // close handler sees a detached target and shuts the menu (the same
-      // detached-node trap the random picker's highlight hit)
-      e.stopPropagation();
-      MEDIAF.has(b.dataset.m) ? MEDIAF.delete(b.dataset.m) : MEDIAF.add(b.dataset.m);
-      renderMediaChips();
-      filterMenu($('pfind').value);
-    };
-  });
-}
+let MEDIAF = new Set();   // always empty now; filterMenu keeps its guard
 
 function renderMenu(){
   $('pmenu').innerHTML =
       '<button class="phome" id="p-home" type="button">&#8962; Your shelf</button>'
     + '<div class="psearch"><input type="text" id="pfind" placeholder="Search"'
     + ' autocomplete="off" spellcheck="false" aria-label="Search what you track"></div>'
-    + '<div id="pmedia"></div>'
     + '<div id="phits"></div>';
   $('p-home').onclick = ()=>{ location.href = location.pathname + '?home'; };
-  renderMediaChips();
   filterMenu('');
   const find = $('pfind');
   find.oninput = ()=>{
-    $('pmedia').classList.toggle('hide', !!find.value.trim());
     filterMenu(find.value);
   };
   find.onkeydown = e=>{
