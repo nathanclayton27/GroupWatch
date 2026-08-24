@@ -1570,7 +1570,9 @@ async function onSession(session){
       $('splash').classList.add('hide');
       if(ACCOUNT) showAccount();
       else showHome();
-      mirrorProfile();
+      // an account ALWAYS has a friend code — minted at sign-in, not on
+      // first account-page visit (Nathan's rule: no codeless users)
+      ensureFcode().then(()=> mirrorProfile());
     }else if(ACCOUNT){
       openAccountSignin();
     }
@@ -1592,6 +1594,8 @@ async function onSession(session){
       console.error('[tracker] adopt threw', e);
     }
     syncStars().then(ch=>{ if(ch){ paintStar(); renderMenu(); } });
+    // list-only users must be findable by code too
+    ensureFcode().then(()=> mirrorProfile());
     await refreshGroup(false);
     startGroupPoll();
     // someone can unlock while signed out and sign in afterwards; the group
@@ -2271,29 +2275,35 @@ function friendMsg(r){
       + ' — when they add your code back, you’re linked.';
 }
 // friend outcomes are good news (or at worst neutral) — never error-red,
-// and never invisible: the fixed pill under the mast works on every view,
-// including the splash, where the page's other message homes are hidden
+// and ALWAYS the same voice: the floating pill under the mast fires on
+// every view, account page included, so the feedback is one thing that
+// looks one way wherever the action happened. Timers are token-guarded —
+// a repeat of the identical message must not be hidden by its
+// predecessor's timer.
+let _fnoteTok = 0;
 function friendNotify(r, acct){
   const text = r.err || friendMsg(r);
+  const f = $('fnote');
+  if(f){
+    const tok = ++_fnoteTok;
+    f.textContent = text;
+    f.style.color = r.err ? 'var(--ink)' : 'var(--done)';
+    f.classList.remove('hide');
+    setTimeout(()=>{ if(tok === _fnoteTok) f.classList.add('hide'); }, 9000);
+  }
   if(acct){
     flash(text, 'a-msg');
     const m = $('a-msg');
     if(m) m.style.color = r.err ? '' : 'var(--done)';
     return;
   }
-  const f = $('fnote');
-  if(f){
-    f.textContent = text;
-    f.style.color = r.err ? 'var(--ink)' : 'var(--done)';
-    f.classList.remove('hide');
-    setTimeout(()=>{ if(f.textContent === text) f.classList.add('hide'); }, 9000);
-  }
   const n = $('hfr-msg');
   if(n){
+    const tok = _fnoteTok;
     n.textContent = text;
     n.style.color = r.err ? '' : 'var(--done)';
     n.classList.remove('hide');
-    setTimeout(()=>{ if(n.textContent === text) n.classList.add('hide'); }, 12000);
+    setTimeout(()=>{ if(tok === _fnoteTok) n.classList.add('hide'); }, 12000);
   }
 }
 async function addFriendFlow(raw){
@@ -2357,6 +2367,15 @@ function updateReqBadge(n){
     el.textContent = n > 9 ? '9+' : String(n);
     el.classList.toggle('hide', !n);
   });
+}
+// Removing a friend deletes BOTH directions — yours by the own-direction
+// policy, theirs by the decline policy (an edge pointing at you).
+async function unFriend(id, name){
+  try{
+    await sb.from('friendships').delete().eq('a', user.id).eq('b', id);
+    await sb.from('friendships').delete().eq('a', id).eq('b', user.id);
+  }catch(e){ return { err: 'Could not remove — try again.' }; }
+  return { name };
 }
 // Declining removes THEIR direction — the edge pointing at you. Allowed
 // by the CLU-102 policy; before it runs, this reports honestly.
@@ -2430,15 +2449,31 @@ async function renderFriends(){
   fhost.classList.remove('hide');
   const mut = E.ids.filter(i=> E.out.has(i) && E.inn.has(i));
   const waiting = E.ids.filter(i=> E.out.has(i) && !E.inn.has(i));
-  const row = (id, status)=>
+  const row = (id, status, verb)=>
     '<div class="hled" style="cursor:default"><span class="hlt"><b>'
-    + esc(nm(id)) + '</b></span><span class="hlw">' + status + '</span></div>';
+    + esc(nm(id)) + '</b></span>'
+    + '<button class="aquiet" data-unfr="' + esc(id) + '" data-verb="' + verb
+    + '" style="margin-left:12px">' + verb + '</button>'
+    + '<span class="hlw">' + status + '</span></div>';
   fhost.innerHTML = (mut.length || waiting.length)
-    ? mut.map(i=> row(i, 'friends')).join('')
-      + waiting.map(i=> row(i, 'waiting on them')).join('')
+    ? mut.map(i=> row(i, 'friends', 'remove')).join('')
+      + waiting.map(i=> row(i, 'waiting on them', 'cancel')).join('')
     : '<div class="hled" style="cursor:default">'
       + '<span class="hlt" style="color:var(--ink-3)">Share your friend code'
       + ' from the account page and they land here.</span></div>';
+  fhost.querySelectorAll('button[data-unfr]').forEach(b=>{
+    b.onclick = async ()=>{
+      const who = nm(b.dataset.unfr);
+      const cancel = b.dataset.verb === 'cancel';
+      if(!confirm(cancel
+        ? 'Cancel your request to ' + who + '?'
+        : 'Remove ' + who + ' as a friend?')) return;
+      const r = await unFriend(b.dataset.unfr, who);
+      if(r.err){ flash(r.err); return; }
+      flash(cancel ? 'Request cancelled.' : 'Removed ' + who + '.');
+      renderFriends();
+    };
+  });
 }
 
 // The move warning: localStorage is per-origin, so anonymous ticks stay
@@ -4390,6 +4425,12 @@ function whyOf(s){
   return bits.join(' · ');
 }
 function renderShelf(shelf){
+  if(!shelf.length){
+    $('hshelf').innerHTML = '<div class="hled" style="cursor:default">'
+      + '<span class="hlt" style="color:var(--ink-3)">Nothing on the shelf'
+      + ' yet — tick anything in the catalogue below and it lives here.</span></div>';
+    return;
+  }
   const star = '<span style="color:var(--signal)">★</span> ';
   const top = shelf[0];
   let html = cardHTML(top.m, (top.st ? '★ starred' + (whyOf(top) ? ' · ' : '') : '') + whyOf(top));
@@ -4422,7 +4463,7 @@ async function tonightPick(shelf){
   if(!d || !d.rows) return null;
   const pool = WALLF.size
     ? splashList().filter(m=> (m.media||[]).some(x=> WALLF.has(x)))
-    : shelf.map(s=> s.m);
+    : (shelf.length ? shelf.map(s=> s.m) : splashList());
   const bySlug = new Map(pool.map(m=> [m.slug, m]));
   const rows = {};
   for(const r of d.rows)
@@ -4445,7 +4486,9 @@ function armTonight(shelf){
   const scope = ()=> WALLF.size
     ? 'One thing from ' + [...WALLF].map(k=> MEDIA_LABEL[k].toLowerCase()).join(' + ')
       + ' — next-up for ordered lists.'
-    : 'One thing from your shelf — next-up for ordered lists.';
+    : (shelf.length
+      ? 'One thing from your shelf — next-up for ordered lists.'
+      : 'One thing from the whole catalogue — next-up for ordered lists.');
   const arm = ()=>{
     host.innerHTML = '<span class="tc">'+esc(scope())+'</span>'
       + '<button id="b-tpick" type="button">Pick for me</button>';
@@ -4508,7 +4551,10 @@ function showHome(){
       (b.st ? 1 : 0) - (a.st ? 1 : 0)
       || (b.m.scheduled && (b.score || b.n) ? 1 : 0) - (a.m.scheduled && (a.score || a.n) ? 1 : 0)
       || b.score - a.score || b.last - a.last || b.n - a.n);
-  if(!shelf.length){ showSplash(); return; }
+  // strangers get the splash; a signed-in person gets their home even
+  // with nothing tracked yet — friends, requests, and the catalogue are
+  // all still theirs (Nathan's call, 2026-08-24)
+  if(!shelf.length && !user){ showSplash(); return; }
   $('homev').classList.remove('hide');
   $('switcher').classList.remove('hide');
   $('mast').classList.add('athome');
