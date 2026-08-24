@@ -1315,6 +1315,81 @@ async function onSession(session){
   setTimeout(backfillSync, 1200);
 }
 
+/* -------------------------------------------------- clubbothy, in the tab */
+// The favicon IS Clubbothy (CLU-19, approved): a 16px canvas re-issued as
+// a data URI, tracking the cursor from the tab's vantage — above the
+// viewport, so he mostly peers down at you. Blink-anywhere rides the same
+// press-hold. Chrome/Firefox animate; Safari keeps the first static frame,
+// which is the specced fallback. At 16px the lid is dropped by design.
+(function(){
+  const link = document.createElement('link');
+  link.rel = 'icon';
+  document.head.appendChild(link);
+  const SHAPE = [
+    '00001111110000','00110000001100','01000000000010','10000000000001',
+    '10000000000001','01000000000010','00110000001100','00001111110000'];
+  const PXW = 14, BX = [2, 8], BY = [1, 3];
+  const BG = '#131518', INK = '#E8E9E4', IRIS = '#A8473E', LID = '#777979';
+  const cv = document.createElement('canvas');
+  cv.width = 16; cv.height = 16;
+  const ctx = cv.getContext('2d');
+  let last = null, closed = false;
+  function drawFav(gx, gy){
+    const key = closed ? 'c' : gx + '/' + gy;
+    if(key === last) return;
+    last = key;
+    ctx.clearRect(0, 0, 16, 16);
+    ctx.fillStyle = BG;
+    if(ctx.roundRect){
+      ctx.beginPath(); ctx.roundRect(0, 0, 16, 16, 3); ctx.fill();
+    }else{
+      ctx.fillRect(0, 0, 16, 16);
+    }
+    const cell = (c, r, col)=>{ ctx.fillStyle = col; ctx.fillRect(1 + c, 4 + r, 1, 1); };
+    if(closed){
+      for(const r of [3, 4]){
+        const row = SHAPE[r], a = row.indexOf('1') + 1, b = row.lastIndexOf('1') - 1;
+        for(let c = a; c <= b; c++) cell(c, r, r === 3 ? INK : LID);
+      }
+    }else{
+      const ix = Math.max(BX[0], Math.min(BX[1], 5 + gx));
+      const iy = Math.max(BY[0], Math.min(BY[1], 2 + gy));
+      for(let r = iy; r < iy + 4; r++) for(let c = ix; c < ix + 4; c++){
+        const dr = r - iy, dc = c - ix;
+        if((dr === 0 || dr === 3) && (dc === 0 || dc === 3)) continue;
+        cell(c, r, IRIS);
+      }
+      const px = ix + 1 + (gx > 0 ? 1 : 0) - (gx < 0 ? 1 : 0);
+      const py = iy + 1 + (gy > 0 ? 1 : 0) - (gy < 0 ? 1 : 0);
+      for(let r = Math.max(iy, py); r < Math.min(iy + 4, py + 2); r++)
+        for(let c = Math.max(ix, px); c < Math.min(ix + 4, px + 2); c++)
+          cell(c, r, INK);
+    }
+    for(let r = 0; r < 8; r++) for(let c = 0; c < PXW; c++)
+      if(SHAPE[r][c] === '1') cell(c, r, INK);
+    link.href = cv.toDataURL('image/png');
+  }
+  drawFav(0, 0);
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    let pend = null;
+    addEventListener('pointermove', e=>{
+      if(pend) return;
+      pend = setTimeout(()=>{
+        pend = null;
+        if(closed) return;
+        const dx = e.clientX - innerWidth / 2;
+        const dy = e.clientY + 40;          // the tab lives above the page
+        drawFav(Math.max(-3, Math.min(3, Math.round(dx / (innerWidth / 7)))),
+                Math.max(0, Math.min(2, Math.round(dy / (innerHeight / 2.5)))));
+      }, 125);
+    }, { passive: true });
+    addEventListener('pointerdown', ()=>{ closed = true; drawFav(0, 0); });
+    const open = ()=>{ closed = false; last = null; drawFav(0, 0); };
+    addEventListener('pointerup', open);
+    addEventListener('pointercancel', open);
+  }
+})();
+
 /* ------------------------------------------------------------ clubbothy */
 // The masthead eye, per the frozen spec: 14x8 almond, 4x4 iris disc at
 // 70% signal with its corners knocked, 2x2 ink pupil carrying one pixel
