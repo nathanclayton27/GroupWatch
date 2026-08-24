@@ -3300,6 +3300,24 @@ let MANIFEST = [
     "total": 18
   },
   {
+    "slug": "mega-man",
+    "media": [
+      "games"
+    ],
+    "title": "Mega Man",
+    "subtitle": "the whole franchise, by sub-series, in release order",
+    "kind": "games",
+    "year": "1987–2023",
+    "blurb": "94 games — every one with Mega Man on the box, from the 1987 NES original to the offline X Dive. 59 carry a verified story length, about 307 hours between them.",
+    "accent": "#6868A0",
+    "accentDark": "#B4C4FC",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 94
+  },
+  {
     "slug": "gossip-girl",
     "media": [
       "tv"
@@ -3408,7 +3426,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'df1ed5b46796';
+const BUILD = '433310f885f5';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

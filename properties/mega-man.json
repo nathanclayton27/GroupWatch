@@ -1,0 +1,735 @@
+{
+  "slug": "mega-man",
+  "title": "Mega Man",
+  "subtitle": "the whole franchise, by sub-series, in release order",
+  "kind": "games",
+  "order": 119,
+  "year": "1987–2023",
+  "blurb": "94 games — every one with Mega Man on the box, from the 1987 NES original to the offline X Dive. 59 carry a verified story length, about 307 hours between them.",
+  "unit": {
+    "one": "game",
+    "many": "games"
+  },
+  "verb": {
+    "base": "play",
+    "past": "played",
+    "ing": "playing"
+  },
+  "itemOrder": "number-first",
+  "accent": "#6868A0",
+  "accentDark": "#B4C4FC",
+  "tiers": false,
+  "notes": [
+    [
+      "One source, and it chose the scope.",
+      "This is “the mega man compendium” on Backloggd — one person's list, described by its own author as “every mega man game ever sorted by release date”. That is why the licensed Chinese PC releases and a decade of Japanese feature-phone toys are here: the compendium counts them, so this counts them. Nothing has been added to it and nothing has been dropped."
+    ],
+    [
+      "The sections are not the source's.",
+      "The compendium has none — it is one flat grid of 94, sorted by release date. The sections here read each title's own sub-series off its name, and the order inside every one of them is still the compendium's: release date, oldest first. Read a section top to bottom and you are reading that branch exactly as the compendium has it."
+    ],
+    [
+      "35 of the 94 have no length, and none has been invented.",
+      "Hours are HowLongToBeat main-story figures, and only where a record verifies by name and by release year. 20 rows have no such record at all — the arcade cabinets, the Japanese feature-phone games, the licensed Chinese PC releases — and a plausible-looking guess for any of them would go straight into your finish date. The other 15 are the paired versions below. Every unweighted row says which it is, and counts as an hour apiece: a floor, not a claim."
+    ],
+    [
+      "Paired versions are separate rows, and deliberately unweighted.",
+      "Battle Network 3 through 6 and all three Star Force games shipped in two or three versions apiece, and the compendium lists every one. So does this. But HowLongToBeat times the numbered game rather than each version — there is one Battle Network 3 record, not a Blue and a White — and putting that figure on both rows would bill you twice for a game you play once. Playing one of a pair is the normal thing to do; tick the one you played."
+    ],
+    [
+      "What “release order” means for a 94-game list.",
+      "Everything is dated from its own Backloggd page. Where two games share a year the compendium's order is kept as it stands — the source sorted them, not this file. Three of its entries are called nothing but Mega Man: the 1987 NES game, an American-built DOS game from 1990, and a North American Game Gear release from 1995. The later two carry their platform in brackets here so they can be told apart; that is the only place a title has been changed."
+    ],
+    "Contents and order from “the mega man compendium” by ade on Backloggd; years from each game's Backloggd page; story hours from HowLongToBeat, verified by name and release year."
+  ],
+  "sections": [
+    {
+      "id": "classic",
+      "title": "Classic",
+      "sub": "1987–2018 · 23 games · 70 hours story across 23",
+      "intro": "The blue one, the numbered line, and everything that plays like it: the NES six, the five Game Boy entries, the 16-bit and 32-bit sequels, the two American-built DOS games, the remakes, and the eight-bit throwbacks that restarted the count in 2008.",
+      "items": [
+        {
+          "id": "mm-1714",
+          "t": "Mega Man",
+          "n": "1987",
+          "w": 2.78,
+          "note": "NES. The first one: eight Robot Masters, a stage you pick, and the rule that beating one hands you its weapon."
+        },
+        {
+          "id": "mm-1715",
+          "t": "Mega Man 2",
+          "n": "1989",
+          "w": 2.8,
+          "note": "NES. The one that fixed the formula and sold; still the series' front door."
+        },
+        {
+          "id": "mm-1716",
+          "t": "Mega Man 3",
+          "n": "1990",
+          "w": 3.41,
+          "note": "NES. Adds the slide and Rush, the dog who turns into whatever you need to cross a gap."
+        },
+        {
+          "id": "mm-78132",
+          "t": "Mega Man (DOS)",
+          "n": "1990",
+          "w": 1.33,
+          "note": "DOS. Not a port — an American-built PC game with its own Robot Masters, licensed out and made outside Capcom."
+        },
+        {
+          "id": "mm-1733",
+          "t": "Mega Man: Dr. Wily's Revenge",
+          "n": "1991",
+          "w": 1.8,
+          "note": "Game Boy. The handheld line starts, drawing its bosses from the first two NES games."
+        },
+        {
+          "id": "mm-1717",
+          "t": "Mega Man 4",
+          "n": "1991",
+          "w": 3.12,
+          "note": "NES. Introduces the chargeable Buster, which the series never takes back."
+        },
+        {
+          "id": "mm-1734",
+          "t": "Mega Man II",
+          "n": "1991",
+          "w": 1.13,
+          "note": "Game Boy. The second handheld entry, and the only one made by a different studio from the rest of the Game Boy line."
+        },
+        {
+          "id": "mm-1735",
+          "t": "Mega Man III",
+          "n": "1992",
+          "w": 2.07,
+          "note": "Game Boy. The handheld line back on its usual team, building from NES 3 and 4."
+        },
+        {
+          "id": "mm-1718",
+          "t": "Mega Man 5",
+          "n": "1992",
+          "w": 3.04,
+          "note": "NES. Beat the bird joins the support cast."
+        },
+        {
+          "id": "mm-88384",
+          "t": "Mega Man 3: The Robots are Revolting",
+          "n": "1992",
+          "w": 2.54,
+          "note": "DOS. The second and last of the American-built PC pair, and unrelated to the NES Mega Man 3."
+        },
+        {
+          "id": "mm-1736",
+          "t": "Mega Man IV",
+          "n": "1993",
+          "w": 2.4,
+          "note": "Game Boy. Draws on NES 4 and 5, and adds a shop between stages."
+        },
+        {
+          "id": "mm-1719",
+          "t": "Mega Man 6",
+          "n": "1993",
+          "w": 2.55,
+          "note": "NES. The last NES entry; Rush becomes armour you wear instead of a vehicle you ride."
+        },
+        {
+          "id": "mm-1737",
+          "t": "Mega Man V",
+          "n": "1994",
+          "w": 2.56,
+          "note": "Game Boy. The handheld line's finale, and the only one whose bosses are all original — the Stardroids."
+        },
+        {
+          "id": "mm-1727",
+          "t": "Mega Man: The Wily Wars",
+          "n": "1994",
+          "w": 6.85,
+          "note": "Mega Drive. 16-bit remakes of the first three NES games plus a short original chapter; a cartridge in Japan and Europe, a Sega Channel download in North America."
+        },
+        {
+          "id": "mm-1720",
+          "t": "Mega Man 7",
+          "n": "1995",
+          "w": 4.51,
+          "note": "SNES. The 16-bit Classic entry, with bigger sprites and a hub you shop in."
+        },
+        {
+          "id": "mm-1738",
+          "t": "Mega Man (Game Gear)",
+          "n": "1995",
+          "w": 1.21,
+          "note": "Game Gear. A handheld remix assembled from NES 4 and 5, released only in North America."
+        },
+        {
+          "id": "mm-1721",
+          "t": "Mega Man 8",
+          "n": "1996",
+          "w": 4.36,
+          "note": "PlayStation and Saturn. The first with animated cutscenes and voice acting."
+        },
+        {
+          "id": "mm-1726",
+          "t": "Mega Man & Bass",
+          "n": "1998",
+          "w": 5.51,
+          "note": "Super Famicom, later Game Boy Advance. Two playable characters who move very differently, built on Mega Man 8's engine."
+        },
+        {
+          "id": "mm-1739",
+          "t": "Rockman & Forte: Mirai kara no Chousensha",
+          "n": "1999",
+          "w": 1.81,
+          "note": "WonderSwan, Japan only. A different game from Mega Man & Bass, despite sharing its Japanese name."
+        },
+        {
+          "id": "mm-12937",
+          "t": "Mega Man Powered Up",
+          "n": "2006",
+          "w": 3.49,
+          "note": "PSP. A remake of the 1987 original in a rounded style, with the Robot Masters playable and a stage editor."
+        },
+        {
+          "id": "mm-1722",
+          "t": "Mega Man 9",
+          "n": "2008",
+          "w": 3.57,
+          "note": "Downloadable. A deliberate return to NES limits: eight-bit art, no slide, no charge shot."
+        },
+        {
+          "id": "mm-1723",
+          "t": "Mega Man 10",
+          "n": "2010",
+          "w": 2.25,
+          "note": "Downloadable. The eight-bit follow-up, with an easy mode and extra playable characters."
+        },
+        {
+          "id": "mm-76723",
+          "t": "Mega Man 11",
+          "n": "2018",
+          "w": 4.87,
+          "note": "The modern Classic entry: hand-drawn 2.5D art, and a gear system that will slow time or strengthen your shots at a price."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "x",
+      "title": "X",
+      "sub": "1993–2023 · 14 games · 80 hours story across 13",
+      "intro": "The 1993 spin-off that gave the formula a dash, a wall climb and hidden armour upgrades, plus its handheld condensations, its RPG, its 3D detour and the remake.",
+      "items": [
+        {
+          "id": "mm-1741",
+          "t": "Mega Man X",
+          "n": "1993",
+          "w": 3.53,
+          "note": "SNES. The spin-off that adds a dash, a wall climb and armour upgrades hidden in the stages."
+        },
+        {
+          "id": "mm-1742",
+          "t": "Mega Man X2",
+          "n": "1994",
+          "w": 4.49,
+          "note": "SNES. Uses a cartridge chip for wireframe effects, and adds an air dash."
+        },
+        {
+          "id": "mm-1743",
+          "t": "Mega Man X3",
+          "n": "1995",
+          "w": 4.95,
+          "note": "SNES. Zero becomes playable in a limited way, and the ride armours branch out."
+        },
+        {
+          "id": "mm-1744",
+          "t": "Mega Man X4",
+          "n": "1997",
+          "w": 3.93,
+          "note": "PlayStation and Saturn. Zero becomes a full second campaign with his own moveset."
+        },
+        {
+          "id": "mm-290873",
+          "t": "Rockman X Shùxué Xuànfēng",
+          "n": "1998",
+          "note": "Windows, China only. A licensed educational release wearing the X cast · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-1749",
+          "t": "Mega Man Xtreme",
+          "n": "2000",
+          "w": 1.69,
+          "note": "Game Boy Color. A handheld condensation of stages from X and X2."
+        },
+        {
+          "id": "mm-1745",
+          "t": "Mega Man X5",
+          "n": "2000",
+          "w": 4.07,
+          "note": "PlayStation. Written as the line's ending, with Zero playable throughout."
+        },
+        {
+          "id": "mm-1750",
+          "t": "Mega Man Xtreme 2",
+          "n": "2001",
+          "w": 1.53,
+          "note": "Game Boy Color. The handheld follow-up, with X and Zero as separate campaigns."
+        },
+        {
+          "id": "mm-1746",
+          "t": "Mega Man X6",
+          "n": "2001",
+          "w": 5.05,
+          "note": "PlayStation. Made quickly after X5, and the most contested entry in the line."
+        },
+        {
+          "id": "mm-1747",
+          "t": "Mega Man X7",
+          "n": "2003",
+          "w": 4.17,
+          "note": "PlayStation 2. The move into 3D, and the debut of a third playable character."
+        },
+        {
+          "id": "mm-1751",
+          "t": "Mega Man X: Command Mission",
+          "n": "2004",
+          "w": 20.62,
+          "note": "GameCube and PS2. A turn-based RPG spin-off with a party to build."
+        },
+        {
+          "id": "mm-1748",
+          "t": "Mega Man X8",
+          "n": "2004",
+          "w": 4.63,
+          "note": "PlayStation 2. Back to sidescrolling, with a mid-stage character swap."
+        },
+        {
+          "id": "mm-24275",
+          "t": "Mega Man: Maverick Hunter X",
+          "n": "2005",
+          "w": 3.88,
+          "note": "PSP. A remake of the first X with reworked stages and a second campaign for Vile."
+        },
+        {
+          "id": "mm-252996",
+          "t": "Mega Man X Dive Offline",
+          "n": "2023",
+          "w": 17.6,
+          "note": "The one-purchase offline build of a live-service X action game, made after its servers closed."
+        }
+      ]
+    },
+    {
+      "id": "legends",
+      "title": "Legends",
+      "sub": "1997–2008 · 7 games · 27 hours story across 3",
+      "intro": "Called Dash in Japan: the fully 3D branch with towns, dungeons and a different Mega Man, its one spin-off, and the Japanese and Chinese releases that carried the name afterwards.",
+      "items": [
+        {
+          "id": "mm-1752",
+          "t": "Mega Man Legends",
+          "n": "1997",
+          "w": 7.71,
+          "note": "PlayStation. Fully 3D action-adventure with towns and dungeons, and a different Mega Man entirely."
+        },
+        {
+          "id": "mm-290875",
+          "t": "Rockman Dash Zhěngjiù Dìqiú Dàmàoxiǎn",
+          "n": "1999",
+          "note": "Windows, China only. A licensed PC release carrying the Legends name · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-234973",
+          "t": "Rockman Dash 2: Episode 1 - Roll-chan Kiki Ippatsu! no Maki",
+          "n": "1999",
+          "note": "Japan only. A short standalone chapter put out ahead of Legends 2 · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-1753",
+          "t": "The Misadventures of Tron Bonne",
+          "n": "1999",
+          "w": 7.75,
+          "note": "PlayStation. A Legends spin-off led by Tron Bonne and her Servbots, built out of mission-sized puzzles."
+        },
+        {
+          "id": "mm-1754",
+          "t": "Mega Man Legends 2",
+          "n": "2000",
+          "w": 11.2,
+          "note": "PlayStation. The direct sequel, and where the line stops."
+        },
+        {
+          "id": "mm-290977",
+          "t": "Rockman Dash Golf",
+          "n": "2003",
+          "note": "Japanese feature phones. A Legends-branded golf game on a service that closed years ago · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-229209",
+          "t": "Rockman Dash: 5tsu no Shima no Daibouken!",
+          "n": "2008",
+          "note": "Japanese feature phones. A Legends-branded mobile adventure, same closed service · HowLongToBeat has no story time for it"
+        }
+      ]
+    },
+    {
+      "id": "battle-network",
+      "title": "Battle Network",
+      "sub": "2001–2009 · 20 games · 94 hours story across 7",
+      "intro": "The reboot into a networked world, where fights happen on a 3x3 grid with a deck of Battle Chips. Twelve of these are the main line's paired versions; the rest are the arcade cabinets, handheld oddities and phone episodes the line spun off in Japan.",
+      "items": [
+        {
+          "id": "mm-1755",
+          "t": "Mega Man Battle Network",
+          "n": "2001",
+          "w": 13.32,
+          "note": "GBA. The reboot into a networked world: real-time battles on a grid, fought with a deck of Battle Chips."
+        },
+        {
+          "id": "mm-1756",
+          "t": "Mega Man Battle Network 2",
+          "n": "2001",
+          "w": 19.34,
+          "note": "GBA. Doubles down on chip customisation and adds Style Changes."
+        },
+        {
+          "id": "mm-1758",
+          "t": "Mega Man Battle Network 3 Blue",
+          "n": "2002",
+          "note": "GBA. One half of a paired release — Blue and White differ in chips and bosses, and one is meant to be enough · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1757",
+          "t": "Mega Man Battle Network 3 White",
+          "n": "2002",
+          "note": "GBA. The other half of the third pair · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1768",
+          "t": "Rockman EXE WS",
+          "n": "2003",
+          "w": 0.9,
+          "note": "WonderSwan Color, Japan only. A short side game on Bandai's handheld."
+        },
+        {
+          "id": "mm-1766",
+          "t": "Mega Man Network Transmission",
+          "n": "2003",
+          "w": 7.83,
+          "note": "GameCube. The same world as a 2D action-platformer rather than a grid RPG."
+        },
+        {
+          "id": "mm-1767",
+          "t": "Mega Man Battle Chip Challenge",
+          "n": "2003",
+          "w": 18.83,
+          "note": "GBA. Battles resolve from a deck you build beforehand — the card game without the moving around."
+        },
+        {
+          "id": "mm-37354",
+          "t": "RockMan EXE N1 Battle",
+          "n": "2003",
+          "note": "WonderSwan Color, Japan only. A tournament-shaped battler · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-1759",
+          "t": "Mega Man Battle Network 4: Red Sun",
+          "n": "2003",
+          "note": "GBA. Paired versions again, this time around a tournament · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1760",
+          "t": "Mega Man Battle Network 4: Blue Moon",
+          "n": "2003",
+          "note": "GBA. The other half of the fourth pair · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1769",
+          "t": "Rockman EXE 4.5: Real Operation",
+          "n": "2004",
+          "w": 20.03,
+          "note": "GBA, Japan only. Runs on the cartridge's clock, and has you direct a Navi rather than steer one."
+        },
+        {
+          "id": "mm-1761",
+          "t": "Mega Man Battle Network 5: Team Protoman",
+          "n": "2004",
+          "note": "GBA. The fifth pair splits by which team of Navis comes with you · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-265957",
+          "t": "Rockman EXE Phantom of Network",
+          "n": "2004",
+          "note": "Japanese feature phones. An episode for a service long since closed · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-1762",
+          "t": "Mega Man Battle Network 5: Team Colonel",
+          "n": "2005",
+          "note": "GBA. The other team of the fifth pair · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1771",
+          "t": "Rockman EXE The Medal Operation",
+          "n": "2005",
+          "note": "Arcade, Japan only. A coin-op cabinet built around the EXE cast · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-1772",
+          "t": "Rockman EXE Battle Chip Stadium",
+          "n": "2006",
+          "note": "Arcade, Japan only. A cabinet that dispenses Battle Chips and plays their battles out · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-1764",
+          "t": "Mega Man Battle Network 6: Cybeast Falzar",
+          "n": "2006",
+          "note": "GBA. Half of the last pair, and the end of the main line · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1765",
+          "t": "Mega Man Battle Network 6: Cybeast Gregar",
+          "n": "2006",
+          "note": "GBA. The other half of the last pair · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-265959",
+          "t": "Rockman EXE Legend of Network",
+          "n": "2006",
+          "note": "Japanese feature phones. A mobile RPG on the closed service · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-1774",
+          "t": "Rockman.EXE Operate Shooting Star",
+          "n": "2009",
+          "w": 13.56,
+          "note": "DS, Japan only. A remake of the first Battle Network with a Star Force crossover attached."
+        }
+      ]
+    },
+    {
+      "id": "zero",
+      "title": "Zero",
+      "sub": "2002–2005 · 4 games · 12 hours story across 4",
+      "intro": "Four Game Boy Advance games that hand the lead to Zero and grade every mission you finish.",
+      "items": [
+        {
+          "id": "mm-1775",
+          "t": "Mega Man Zero",
+          "n": "2002",
+          "w": 3.27,
+          "note": "GBA. Zero's own line: faster, harder, and it ranks every mission you finish."
+        },
+        {
+          "id": "mm-1776",
+          "t": "Mega Man Zero 2",
+          "n": "2003",
+          "w": 3.16,
+          "note": "GBA. Adds forms that grow out of how you actually fight."
+        },
+        {
+          "id": "mm-1777",
+          "t": "Mega Man Zero 3",
+          "n": "2004",
+          "w": 2.73,
+          "note": "GBA. Layers a chip-based customisation system over the same shape."
+        },
+        {
+          "id": "mm-1778",
+          "t": "Mega Man Zero 4",
+          "n": "2005",
+          "w": 2.74,
+          "note": "GBA. The line's finale, with weather controls that change how a stage behaves."
+        }
+      ]
+    },
+    {
+      "id": "zx",
+      "title": "ZX",
+      "sub": "2006–2007 · 2 games · 13 hours story across 2",
+      "intro": "The Zero line continued long afterwards on the DS, as one connected map rather than a stage select.",
+      "items": [
+        {
+          "id": "mm-1779",
+          "t": "Mega Man ZX",
+          "n": "2006",
+          "w": 7.07,
+          "note": "DS. The Zero line picked up long afterwards, as one connected map you travel rather than a stage select."
+        },
+        {
+          "id": "mm-1780",
+          "t": "Mega Man ZX Advent",
+          "n": "2007",
+          "w": 6.09,
+          "note": "DS. The follow-up, with two leads and forms taken from the bosses."
+        }
+      ]
+    },
+    {
+      "id": "star-force",
+      "title": "Star Force",
+      "sub": "2006–2008 · 7 games",
+      "intro": "Battle Network's successor on the DS, moving the same grid battles from wired networks to the air — and, like its parent, shipping in paired and tripled versions.",
+      "items": [
+        {
+          "id": "mm-1783",
+          "t": "Mega Man Star Force: Dragon",
+          "n": "2006",
+          "note": "DS. Battle Network's successor, with the grid battles moved off the wires. One of three launch versions · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1782",
+          "t": "Mega Man Star Force: Leo",
+          "n": "2006",
+          "note": "DS. The second of the three; they differ in powers and some bosses · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1781",
+          "t": "Mega Man Star Force: Pegasus",
+          "n": "2006",
+          "note": "DS. The third of the three · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1785",
+          "t": "Mega Man Star Force 2: Zerker x Ninja",
+          "n": "2007",
+          "note": "DS. The sequel narrows to two versions · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1784",
+          "t": "Mega Man Star Force 2: Zerker x Saurian",
+          "n": "2007",
+          "note": "DS. The other half of that pair · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1786",
+          "t": "Mega Man Star Force 3: Black Ace",
+          "n": "2008",
+          "note": "DS. Half of the last pair, and the end of the line · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        },
+        {
+          "id": "mm-1787",
+          "t": "Mega Man Star Force 3: Red Joker",
+          "n": "2008",
+          "note": "DS. The other half of the last pair · HowLongToBeat times the numbered game rather than each version, so this row carries no length"
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "title": "Everything else with Mega Man on the box",
+      "sub": "1993–2012 · 17 games · 11 hours story across 7",
+      "intro": "The Classic universe's odd jobs, which the compendium counts and most franchise summaries do not: two arcade boss-rush cabinets, a board game, football, a kart racer, an animated adventure, licensed Chinese PC releases, a decade of Japanese feature-phone toys, and the one crossover Capcom adopted from its own fans.",
+      "items": [
+        {
+          "id": "mm-1729",
+          "t": "Wily & Right no RockBoard: That's Paradise",
+          "n": "1993",
+          "w": 1.34,
+          "note": "Famicom, Japan only. A property-trading board game with the Classic cast."
+        },
+        {
+          "id": "mm-1730",
+          "t": "Mega Man Soccer",
+          "n": "1994",
+          "w": 2.63,
+          "note": "SNES. Robot Masters play football, special shots and all."
+        },
+        {
+          "id": "mm-1724",
+          "t": "Mega Man: The Power Battle",
+          "n": "1995",
+          "w": 0.54,
+          "note": "Arcade. Boss rush as a fighting-game cabinet: pick a character, skip the stages."
+        },
+        {
+          "id": "mm-1725",
+          "t": "Mega Man 2: The Power Fighters",
+          "n": "1996",
+          "w": 0.65,
+          "note": "Arcade. The bigger sequel cabinet, with four to choose from."
+        },
+        {
+          "id": "mm-1731",
+          "t": "Mega Man Battle & Chase",
+          "n": "1997",
+          "w": 1.42,
+          "note": "PlayStation. A kart racer with parts you bolt on; it skipped North America at the time."
+        },
+        {
+          "id": "mm-1732",
+          "t": "Super Adventure Rockman",
+          "n": "1998",
+          "w": 2.5,
+          "note": "PlayStation and Saturn, Japan only. A branching animated adventure with light shooting sections."
+        },
+        {
+          "id": "mm-66918",
+          "t": "Rockman no Huángjīn Dìguó",
+          "n": "1999",
+          "note": "Windows, China only. A licensed PC release using the Classic cast · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-84307",
+          "t": "Rockman Strategy",
+          "n": "2001",
+          "note": "Windows, China only. A licensed strategy game using the Classic cast · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-281347",
+          "t": "Rockman Panic Fire",
+          "n": "2003",
+          "note": "Japanese feature phones. A falling-block puzzle game; the service is closed · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-290979",
+          "t": "Rockman Bug Sweeper",
+          "n": "2003",
+          "note": "Japanese feature phones. Minesweeper in Classic-series dressing · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-288142",
+          "t": "Rockman Tennis",
+          "n": "2007",
+          "note": "Japanese feature phones. Exactly what the title says · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-290983",
+          "t": "Mega Man Space Rescue",
+          "n": "2009",
+          "note": "Java-era mobile phones. A short arcade-style Capcom mobile game · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-290981",
+          "t": "Mega Man Rush Marine",
+          "n": "2009",
+          "note": "Java-era mobile phones. A short underwater one, from the same run · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-290956",
+          "t": "Rockman The Puzzle Battle",
+          "n": "2011",
+          "note": "Japanese feature phones. A competitive puzzle game on the closed service · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-290964",
+          "t": "Rockman no Dot Art Logic",
+          "n": "2011",
+          "note": "Japanese feature phones. Nonograms that resolve into series sprites · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-64138",
+          "t": "Rockman Xover",
+          "n": "2012",
+          "note": "iOS, Japan only. A tap-controlled social game; its service has closed · HowLongToBeat has no story time for it"
+        },
+        {
+          "id": "mm-45184",
+          "t": "Street Fighter X Mega Man",
+          "n": "2012",
+          "w": 2.19,
+          "note": "Windows. A fan-made crossover Capcom adopted and put out free for the series' 25th anniversary."
+        }
+      ]
+    }
+  ]
+}

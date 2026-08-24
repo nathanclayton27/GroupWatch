@@ -1,0 +1,566 @@
+{
+ "1714": {
+  "t": "Mega Man",
+  "query": "Mega Man",
+  "main_h": 2.78,
+  "year": 1987
+ },
+ "1715": {
+  "t": "Mega Man 2",
+  "query": "Mega Man 2",
+  "main_h": 2.8,
+  "year": 1989
+ },
+ "1716": {
+  "t": "Mega Man 3",
+  "query": "Mega Man 3",
+  "main_h": 3.41,
+  "year": 1990
+ },
+ "78132": {
+  "t": "Mega Man",
+  "query": "Mega Man (PC)",
+  "main_h": 1.33,
+  "year": 1990
+ },
+ "1733": {
+  "t": "Mega Man: Dr. Wily's Revenge",
+  "query": "Mega Man: Dr. Wily's Revenge",
+  "main_h": 1.8,
+  "year": 1991
+ },
+ "1717": {
+  "t": "Mega Man 4",
+  "query": "Mega Man 4",
+  "main_h": 3.12,
+  "year": 1991
+ },
+ "1734": {
+  "t": "Mega Man II",
+  "query": "Mega Man II (Game Boy)",
+  "main_h": 1.13,
+  "year": 1991
+ },
+ "1735": {
+  "t": "Mega Man III",
+  "query": "Mega Man III (Game Boy)",
+  "main_h": 2.07,
+  "year": 1992
+ },
+ "1718": {
+  "t": "Mega Man 5",
+  "query": "Mega Man 5",
+  "main_h": 3.04,
+  "year": 1992
+ },
+ "88384": {
+  "t": "Mega Man 3: The Robots are Revolting",
+  "query": "Mega Man 3: The Robots are Revolting",
+  "main_h": 2.54,
+  "year": 1992
+ },
+ "1729": {
+  "t": "Wily & Right no RockBoard: That's Paradise",
+  "query": "Wily and Light no Rock Board: That's Paradise",
+  "main_h": 1.34,
+  "year": 1993
+ },
+ "1736": {
+  "t": "Mega Man IV",
+  "query": "Mega Man IV (Game Boy)",
+  "main_h": 2.4,
+  "year": 1993
+ },
+ "1719": {
+  "t": "Mega Man 6",
+  "query": "Mega Man 6",
+  "main_h": 2.55,
+  "year": 1993
+ },
+ "1741": {
+  "t": "Mega Man X",
+  "query": "Mega Man X",
+  "main_h": 3.53,
+  "year": 1993
+ },
+ "1730": {
+  "t": "Mega Man Soccer",
+  "query": "Mega Man Soccer",
+  "main_h": 2.63,
+  "year": 1994
+ },
+ "1737": {
+  "t": "Mega Man V",
+  "query": "Mega Man V (Game Boy)",
+  "main_h": 2.56,
+  "year": 1994
+ },
+ "1727": {
+  "t": "Mega Man: The Wily Wars",
+  "query": "Mega Man: The Wily Wars",
+  "main_h": 6.85,
+  "year": 1994
+ },
+ "1742": {
+  "t": "Mega Man X2",
+  "query": "Mega Man X2",
+  "main_h": 4.49,
+  "year": 1994
+ },
+ "1720": {
+  "t": "Mega Man 7",
+  "query": "Mega Man 7",
+  "main_h": 4.51,
+  "year": 1995
+ },
+ "1724": {
+  "t": "Mega Man: The Power Battle",
+  "query": "Mega Man: The Power Battle",
+  "main_h": 0.54,
+  "year": 1995
+ },
+ "1743": {
+  "t": "Mega Man X3",
+  "query": "Mega Man X3",
+  "main_h": 4.95,
+  "year": 1995
+ },
+ "1738": {
+  "t": "Mega Man",
+  "query": "Mega Man (Game Gear)",
+  "main_h": 1.21,
+  "year": 1995
+ },
+ "1725": {
+  "t": "Mega Man 2: The Power Fighters",
+  "query": "Mega Man 2: The Power Fighters",
+  "main_h": 0.65,
+  "year": 1996
+ },
+ "1721": {
+  "t": "Mega Man 8",
+  "query": "Mega Man 8",
+  "main_h": 4.36,
+  "year": 1996
+ },
+ "1731": {
+  "t": "Mega Man Battle & Chase",
+  "query": "Mega Man Battle & Chase",
+  "main_h": 1.42,
+  "year": 1997
+ },
+ "1744": {
+  "t": "Mega Man X4",
+  "query": "Mega Man X4",
+  "main_h": 3.93,
+  "year": 1997
+ },
+ "1752": {
+  "t": "Mega Man Legends",
+  "query": "Mega Man Legends",
+  "main_h": 7.71,
+  "year": 1997
+ },
+ "290873": {
+  "t": "Rockman X Shùxué Xuànfēng",
+  "main_h": null,
+  "why": "no result named 'Rockman X Shùxué Xuànfēng' (had: [])",
+  "year": 1998
+ },
+ "1726": {
+  "t": "Mega Man & Bass",
+  "query": "Mega Man & Bass",
+  "main_h": 5.51,
+  "year": 1998
+ },
+ "1732": {
+  "t": "Super Adventure Rockman",
+  "query": "Super Adventure Rockman",
+  "main_h": 2.5,
+  "year": 1998
+ },
+ "290875": {
+  "t": "Rockman Dash Zhěngjiù Dìqiú Dàmàoxiǎn",
+  "main_h": null,
+  "why": "no result named 'Rockman Dash Zhěngjiù Dìqiú Dàmàoxiǎn' (had: [])",
+  "year": 1999
+ },
+ "234973": {
+  "t": "Rockman Dash 2: Episode 1 - Roll-chan Kiki Ippatsu! no Maki",
+  "main_h": null,
+  "why": "no result named 'Rockman Dash 2: Episode 1 - Roll-chan Kiki Ippatsu! no Maki' (had: [])",
+  "year": 1999
+ },
+ "1753": {
+  "t": "The Misadventures of Tron Bonne",
+  "query": "The Misadventures of Tron Bonne",
+  "main_h": 7.75,
+  "year": 1999
+ },
+ "1739": {
+  "t": "Rockman & Forte: Mirai kara no Chousensha",
+  "query": "Mega Man & Bass: Challenger from the Future",
+  "main_h": 1.81,
+  "year": 1999
+ },
+ "66918": {
+  "t": "Rockman no Huángjīn Dìguó",
+  "main_h": null,
+  "why": "no result named 'Rockman no Huángjīn Dìguó' (had: [])",
+  "year": 1999
+ },
+ "1754": {
+  "t": "Mega Man Legends 2",
+  "query": "Mega Man Legends 2",
+  "main_h": 11.2,
+  "year": 2000
+ },
+ "1749": {
+  "t": "Mega Man Xtreme",
+  "query": "Mega Man Xtreme",
+  "main_h": 1.69,
+  "year": 2000
+ },
+ "1745": {
+  "t": "Mega Man X5",
+  "query": "Mega Man X5",
+  "main_h": 4.07,
+  "year": 2000
+ },
+ "1755": {
+  "t": "Mega Man Battle Network",
+  "query": "Mega Man Battle Network",
+  "main_h": 13.32,
+  "year": 2001
+ },
+ "1750": {
+  "t": "Mega Man Xtreme 2",
+  "query": "Mega Man Xtreme 2",
+  "main_h": 1.53,
+  "year": 2001
+ },
+ "84307": {
+  "t": "Rockman Strategy",
+  "main_h": null,
+  "why": "verified by name but no main-story figure",
+  "year": 2001
+ },
+ "1746": {
+  "t": "Mega Man X6",
+  "query": "Mega Man X6",
+  "main_h": 5.05,
+  "year": 2001
+ },
+ "1756": {
+  "t": "Mega Man Battle Network 2",
+  "query": "Mega Man Battle Network 2",
+  "main_h": 19.34,
+  "year": 2001
+ },
+ "1775": {
+  "t": "Mega Man Zero",
+  "query": "Mega Man Zero",
+  "main_h": 3.27,
+  "year": 2002
+ },
+ "1758": {
+  "t": "Mega Man Battle Network 3 Blue",
+  "main_h": null,
+  "why": "no result named 'Mega Man Battle Network 3 Blue' (had: [])",
+  "year": 2002
+ },
+ "1757": {
+  "t": "Mega Man Battle Network 3 White",
+  "main_h": null,
+  "why": "no result named 'Mega Man Battle Network 3 White' (had: [])",
+  "year": 2002
+ },
+ "1768": {
+  "t": "Rockman EXE WS",
+  "query": "Rockman EXE WS",
+  "main_h": 0.9,
+  "year": 2003
+ },
+ "1766": {
+  "t": "Mega Man Network Transmission",
+  "query": "Mega Man Network Transmission",
+  "main_h": 7.83,
+  "year": 2003
+ },
+ "1776": {
+  "t": "Mega Man Zero 2",
+  "query": "Mega Man Zero 2",
+  "main_h": 3.16,
+  "year": 2003
+ },
+ "281347": {
+  "t": "Rockman Panic Fire",
+  "main_h": null,
+  "why": "no result named 'Rockman Panic Fire' (had: [])",
+  "year": 2003
+ },
+ "1747": {
+  "t": "Mega Man X7",
+  "query": "Mega Man X7",
+  "main_h": 4.17,
+  "year": 2003
+ },
+ "1767": {
+  "t": "Mega Man Battle Chip Challenge",
+  "query": "Mega Man Battle Chip Challenge",
+  "main_h": 18.83,
+  "year": 2003
+ },
+ "37354": {
+  "t": "RockMan EXE N1 Battle",
+  "main_h": null,
+  "why": "no result named 'RockMan EXE N1 Battle' (had: [])",
+  "year": 2003
+ },
+ "1759": {
+  "t": "Mega Man Battle Network 4: Red Sun",
+  "main_h": null,
+  "why": "no result named 'Mega Man Battle Network 4: Red Sun' (had: [])",
+  "year": 2003
+ },
+ "1760": {
+  "t": "Mega Man Battle Network 4: Blue Moon",
+  "main_h": null,
+  "why": "no result named 'Mega Man Battle Network 4: Blue Moon' (had: [])",
+  "year": 2003
+ },
+ "290979": {
+  "t": "Rockman Bug Sweeper",
+  "main_h": null,
+  "why": "no result named 'Rockman Bug Sweeper' (had: [])",
+  "year": 2003
+ },
+ "290977": {
+  "t": "Rockman Dash Golf",
+  "main_h": null,
+  "why": "no result named 'Rockman Dash Golf' (had: [])",
+  "year": 2003
+ },
+ "1777": {
+  "t": "Mega Man Zero 3",
+  "query": "Mega Man Zero 3",
+  "main_h": 2.73,
+  "year": 2004
+ },
+ "1751": {
+  "t": "Mega Man X: Command Mission",
+  "query": "Mega Man X: Command Mission",
+  "main_h": 20.62,
+  "year": 2004
+ },
+ "1769": {
+  "t": "Rockman EXE 4.5: Real Operation",
+  "query": "Rockman EXE 4.5: Real Operation",
+  "main_h": 20.03,
+  "year": 2004
+ },
+ "1748": {
+  "t": "Mega Man X8",
+  "query": "Mega Man X8",
+  "main_h": 4.63,
+  "year": 2004
+ },
+ "1761": {
+  "t": "Mega Man Battle Network 5: Team Protoman",
+  "main_h": null,
+  "why": "no result named 'Mega Man Battle Network 5: Team Protoman' (had: [])",
+  "year": 2004
+ },
+ "265957": {
+  "t": "Rockman EXE Phantom of Network",
+  "main_h": null,
+  "why": "no result named 'Rockman EXE Phantom of Network' (had: [])",
+  "year": 2004
+ },
+ "1762": {
+  "t": "Mega Man Battle Network 5: Team Colonel",
+  "main_h": null,
+  "why": "no result named 'Mega Man Battle Network 5: Team Colonel' (had: [])",
+  "year": 2005
+ },
+ "1778": {
+  "t": "Mega Man Zero 4",
+  "query": "Mega Man Zero 4",
+  "main_h": 2.74,
+  "year": 2005
+ },
+ "24275": {
+  "t": "Mega Man: Maverick Hunter X",
+  "query": "Mega Man: Maverick Hunter X",
+  "main_h": 3.88,
+  "year": 2005
+ },
+ "1771": {
+  "t": "Rockman EXE The Medal Operation",
+  "main_h": null,
+  "why": "no result named 'Rockman EXE The Medal Operation' (had: [])",
+  "year": 2005
+ },
+ "12937": {
+  "t": "Mega Man Powered Up",
+  "query": "Mega Man Powered Up",
+  "main_h": 3.49,
+  "year": 2006
+ },
+ "1772": {
+  "t": "Rockman EXE Battle Chip Stadium",
+  "main_h": null,
+  "why": "no result named 'Rockman EXE Battle Chip Stadium' (had: [])",
+  "year": 2006
+ },
+ "1764": {
+  "t": "Mega Man Battle Network 6: Cybeast Falzar",
+  "main_h": null,
+  "why": "no result named 'Mega Man Battle Network 6: Cybeast Falzar' (had: [])",
+  "year": 2006
+ },
+ "1765": {
+  "t": "Mega Man Battle Network 6: Cybeast Gregar",
+  "main_h": null,
+  "why": "no result named 'Mega Man Battle Network 6: Cybeast Gregar' (had: [])",
+  "year": 2006
+ },
+ "1779": {
+  "t": "Mega Man ZX",
+  "query": "Mega Man ZX",
+  "main_h": 7.07,
+  "year": 2006
+ },
+ "265959": {
+  "t": "Rockman EXE Legend of Network",
+  "main_h": null,
+  "why": "no result named 'Rockman EXE Legend of Network' (had: [])",
+  "year": 2006
+ },
+ "1783": {
+  "t": "Mega Man Star Force: Dragon",
+  "main_h": null,
+  "why": "no result named 'Mega Man Star Force: Dragon' (had: ['Mega Man Star Force'])",
+  "year": 2006
+ },
+ "1782": {
+  "t": "Mega Man Star Force: Leo",
+  "main_h": null,
+  "why": "no result named 'Mega Man Star Force: Leo' (had: ['Mega Man Star Force'])",
+  "year": 2006
+ },
+ "1781": {
+  "t": "Mega Man Star Force: Pegasus",
+  "main_h": null,
+  "why": "no result named 'Mega Man Star Force: Pegasus' (had: ['Mega Man Star Force'])",
+  "year": 2006
+ },
+ "1780": {
+  "t": "Mega Man ZX Advent",
+  "query": "Mega Man ZX Advent",
+  "main_h": 6.09,
+  "year": 2007
+ },
+ "1785": {
+  "t": "Mega Man Star Force 2: Zerker x Ninja",
+  "main_h": null,
+  "why": "no result named 'Mega Man Star Force 2: Zerker x Ninja' (had: [])",
+  "year": 2007
+ },
+ "1784": {
+  "t": "Mega Man Star Force 2: Zerker x Saurian",
+  "main_h": null,
+  "why": "no result named 'Mega Man Star Force 2: Zerker x Saurian' (had: [])",
+  "year": 2007
+ },
+ "288142": {
+  "t": "Rockman Tennis",
+  "main_h": null,
+  "why": "no result named 'Rockman Tennis' (had: [])",
+  "year": 2007
+ },
+ "229209": {
+  "t": "Rockman Dash: 5tsu no Shima no Daibouken!",
+  "main_h": null,
+  "why": "no result named 'Rockman Dash: 5tsu no Shima no Daibouken!' (had: [])",
+  "year": 2008
+ },
+ "1722": {
+  "t": "Mega Man 9",
+  "query": "Mega Man 9",
+  "main_h": 3.57,
+  "year": 2008
+ },
+ "1786": {
+  "t": "Mega Man Star Force 3: Black Ace",
+  "main_h": null,
+  "why": "no result named 'Mega Man Star Force 3: Black Ace' (had: [])",
+  "year": 2008
+ },
+ "1787": {
+  "t": "Mega Man Star Force 3: Red Joker",
+  "main_h": null,
+  "why": "no result named 'Mega Man Star Force 3: Red Joker' (had: [])",
+  "year": 2008
+ },
+ "290983": {
+  "t": "Mega Man Space Rescue",
+  "main_h": null,
+  "why": "no result named 'Mega Man Space Rescue' (had: [])",
+  "year": 2009
+ },
+ "1774": {
+  "t": "Rockman.EXE Operate Shooting Star",
+  "query": "Rockman.EXE Operate Shooting Star",
+  "main_h": 13.56,
+  "year": 2009
+ },
+ "290981": {
+  "t": "Mega Man Rush Marine",
+  "main_h": null,
+  "why": "no result named 'Mega Man Rush Marine' (had: [])",
+  "year": 2009
+ },
+ "1723": {
+  "t": "Mega Man 10",
+  "query": "Mega Man 10",
+  "main_h": 2.25,
+  "year": 2010
+ },
+ "290956": {
+  "t": "Rockman The Puzzle Battle",
+  "main_h": null,
+  "why": "no result named 'Rockman The Puzzle Battle' (had: [])",
+  "year": 2011
+ },
+ "290964": {
+  "t": "Rockman no Dot Art Logic",
+  "main_h": null,
+  "why": "no result named 'Rockman no Dot Art Logic' (had: [])",
+  "year": 2011
+ },
+ "64138": {
+  "t": "Rockman Xover",
+  "main_h": null,
+  "why": "no result named 'Rockman Xover' (had: [])",
+  "year": 2012
+ },
+ "45184": {
+  "t": "Street Fighter X Mega Man",
+  "query": "Street Fighter X Mega Man",
+  "main_h": 2.19,
+  "year": 2012
+ },
+ "76723": {
+  "t": "Mega Man 11",
+  "query": "Mega Man 11",
+  "main_h": 4.87,
+  "year": 2018
+ },
+ "252996": {
+  "t": "Mega Man X Dive Offline",
+  "query": "Mega Man X Dive Offline",
+  "main_h": 17.6,
+  "year": 2023
+ }
+}
