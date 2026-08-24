@@ -533,7 +533,7 @@ footer a{color:var(--steel)}
 
 <div class="splash hide" id="splash">
   <div class="splash-in">
-    <div class="lbl">GroupWatch</div>
+    <div class="lbl">clubd</div>
     <h1 class="splash-h">What are you tracking?</h1>
     <p class="splash-p">Pick one to start. Whichever you choose is what opens next time — the button in the top left switches between them.</p>
     <div class="cards" id="cards"></div>
@@ -561,11 +561,11 @@ footer a{color:var(--steel)}
 <div class="mast" id="mast">
   <a class="mhome" id="mast-home" href="?home" title="Your shelf" aria-label="Your shelf">
     <span class="eye" id="clubbothy" aria-hidden="true"></span>
-    <span class="mast-t" id="mast-t">GroupWatch</span>
+    <span class="mast-t" id="mast-t">clubd</span>
   </a>
   <div class="switcher" id="switcher">
     <button id="b-prop" aria-haspopup="listbox" aria-expanded="false">
-      <span class="pdot" id="pdot"></span><span id="b-prop-t">GroupWatch</span><span class="chev">▾</span>
+      <span class="pdot" id="pdot"></span><span id="b-prop-t">clubd</span><span class="chev">▾</span>
     </button>
     <div class="pmenu hide" id="pmenu" role="listbox" aria-label="Choose what to track"></div>
   </div>
@@ -585,7 +585,7 @@ footer a{color:var(--steel)}
 </div>
 
 <div id="movebar" class="hide">
-  <span><b>We're moving to clubd.watch.</b> Sign in once and your ticks make the move — this address won't keep them.</span>
+  <span><b>clubd.watch is live — this GitHub address shuts down August 27.</b> Sign in once and your ticks follow you there; without an account they stay behind.</span>
   <button id="b-moveok" type="button">Got it</button>
 </div>
 
@@ -760,10 +760,10 @@ function applyReload(){
 setInterval(checkBuild, 5 * 60 * 1000);
 document.addEventListener('visibilitychange', ()=>{ if(!document.hidden) checkBuild(); });
 
-// One build serves both origins through the move: the new domain is clubd,
-// the old link stays GroupWatch until it retires. Same code, same storage
-// keys, different name on the door.
-const BRAND = /(^|\.)clubd\.watch$/.test(location.hostname) ? 'clubd' : 'GroupWatch';
+// Nathan's call (2026-08-24): clubd branding EVERYWHERE, both origins —
+// the old link carries the move banner for its last three days, then
+// redirects. Storage keys never change.
+const BRAND = 'clubd';
 (function(){
   const t = document.getElementById('mast-t');
   if(t) t.textContent = BRAND;
