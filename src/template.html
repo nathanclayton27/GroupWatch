@@ -10,11 +10,13 @@
 <meta property="og:description" content="Track a movie marathon, a TV show, an anime or a comic run alongside other people, with everyone's progress stacked on one strip.">
 <meta property="og:url" content="https://clubd.watch/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://clubd.watch/clubd-512.png">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://clubd.watch/clubd-og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="clubd">
 <meta name="twitter:description" content="Track a movie marathon, a TV show, an anime or a comic run alongside other people, with everyone's progress stacked on one strip.">
-<meta name="twitter:image" content="https://clubd.watch/clubd-512.png">
+<meta name="twitter:image" content="https://clubd.watch/clubd-og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -487,7 +489,22 @@ footer a{color:var(--steel)}
 .splash-in{max-width:820px;width:100%}
 .splash-h{font-size:clamp(28px,6vw,44px);line-height:1.02;margin:10px 0 8px;
   font-weight:700;letter-spacing:-.02em;text-wrap:balance}
-.splash-p{color:var(--ink-2);max-width:56ch;margin:0 0 34px}
+.splash-p{color:var(--ink-2);max-width:56ch;margin:0 0 18px}
+.splash-h em{font-style:normal;color:var(--signal)}
+.pstrip{display:flex;gap:2px;height:26px;max-width:560px}
+.pstrip i{flex:1;border-radius:2px;background:var(--rule)}
+.pstrip-cap{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;
+  color:var(--ink-3);margin:5px 0 18px}
+.pbeats{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  max-width:640px;margin:0 0 18px}
+.pbeat{border:1px solid var(--rule);border-radius:8px;padding:12px 13px;background:var(--card)}
+.pbeat b{display:block;font-size:13.5px;margin-bottom:3px}
+.pbeat span{font-size:12px;color:var(--ink-2);line-height:1.45}
+.pctas{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 8px}
+.pcta{font:inherit;font-size:13.5px;border-radius:99px;padding:8px 18px;cursor:pointer}
+.pcta.p{background:var(--signal);color:var(--paper);border:1px solid var(--signal)}
+.pcta.q{background:transparent;color:var(--ink-2);border:1px solid var(--rule-2)}
+.pcta.q:hover,.pcta.p:hover{filter:brightness(1.08)}
 .cards{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
 .card{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--rule);
   border-radius:var(--radius);padding:20px;cursor:pointer;transition:border-color .15s,transform .15s}
@@ -735,11 +752,29 @@ footer a{color:var(--steel)}
 
 <div class="splash hide" id="splash">
   <div class="splash-in">
+    <!-- the stranger's pitch (CLU-13): eight seconds of context, then the
+         wall sells the rest. Only signed-out strangers ever see this. -->
     <div class="lbl">clubd</div>
-    <h1 class="splash-h">What are you tracking?</h1>
-    <p class="splash-p">Pick one to start. Whichever you choose is what opens next time — the button in the top left switches between them.</p>
+    <h1 class="splash-h">Watch it <em>together</em>.<br>Tick it off together.</h1>
+    <p class="splash-p">clubd turns any show, film run, comic, or game series
+      into a trackable list — for just you, or for a club: share one code and
+      everyone's progress stacks on a single strip.</p>
+    <div class="pstrip" id="pstrip" aria-hidden="true"></div>
+    <div class="pstrip-cap">a club of three, mid-season — each layer is one person</div>
+    <div class="pbeats">
+      <div class="pbeat"><b>Solo or club</b><span>Track alone forever; share
+        six characters when you want company.</span></div>
+      <div class="pbeat"><b>Schedules that pace you</b><span>Weekly shows,
+        finish dates, on-pace and behind at a glance.</span></div>
+      <div class="pbeat"><b>One tick, everywhere</b><span>Finish a film on one
+        list and every list that holds it knows.</span></div>
+    </div>
+    <div class="pctas">
+      <button class="pcta p" id="b-pitchin" type="button">Sign in — it's one email</button>
+      <button class="pcta q" id="b-pitchbrowse" type="button">Just browse the lists ↓</button>
+    </div>
     <!-- plain host: renderWall builds its own .cards.wall grid inside -->
-    <div id="cards"></div>
+    <div id="cards" style="margin-top:30px"></div>
   </div>
 </div>
 
@@ -4357,6 +4392,23 @@ function showSplash(){
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
   document.title = BRAND;
   paintMastAcct();
+  // the pitch strip: a club of three, drawn once
+  const ps = $('pstrip');
+  if(ps && !ps.children.length){
+    const fills = [28, 21, 15];
+    const cols = ['var(--signal)', 'var(--m2)', 'var(--m5)'];
+    for(let i = 0; i < 44; i++){
+      const el = document.createElement('i');
+      let n = 0;
+      for(let p = 0; p < 3; p++) if(i < fills[p]) n++;
+      if(n) el.style.background = cols[3 - n];
+      ps.appendChild(el);
+    }
+  }
+  const pin = $('b-pitchin');
+  if(pin) pin.onclick = openMastAuth;
+  const pbr = $('b-pitchbrowse');
+  if(pbr) pbr.onclick = ()=> $('cards').scrollIntoView({ behavior: 'smooth' });
   // a new user's home IS the card wall
   renderWall($('cards'));
 }
