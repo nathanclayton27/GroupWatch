@@ -171,6 +171,9 @@ def main():
             "total": p["_total"],
             # home ranks schedule-active clubs first; the flag is all it needs
             **({"scheduled": True} if p.get("schedule") else {}),
+            # grab-bag lists welcome a random pick; everything else is
+            # ordered and only ever offers its next unticked item
+            **({"random": True} if p.get("random") else {}),
             # the page needs these before first paint: one to know not to list
             # a locked property, the other to size a generated one
             # the switcher names a locked list by its cover title, not its own

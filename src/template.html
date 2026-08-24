@@ -466,6 +466,11 @@ footer a{color:var(--steel)}
 .wall .card.gone{display:none}
 .wall .card.wact .in{transform:scale(1.06)}
 .wchips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 8px}
+/* tonight + the medium chips share one row: the chips scope BOTH the
+   random pick and the catalogue below */
+.trow{display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap}
+.trow .tonight{flex:1 1 300px}
+.trow .wchips{flex:0 1 auto;margin:0;padding-top:2px}
 .wchips button{font:inherit;font-size:12px;border:1px solid var(--rule-2);
   background:transparent;color:var(--ink-2);border-radius:99px;padding:4px 12px;cursor:pointer}
 .wchips button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
@@ -535,10 +540,13 @@ footer a{color:var(--steel)}
   <div class="homep-in">
     <h1 class="splash-h" style="margin-top:34px">Your shelf</h1>
     <div id="hshelf"></div>
-    <div class="hsec">Tonight</div>
-    <div class="tonight" id="htonight"></div>
     <div class="hsec">Lately</div>
     <div id="hledger"></div>
+    <div class="hsec">Tonight</div>
+    <div class="trow">
+      <div class="tonight" id="htonight"></div>
+      <div class="wchips" id="hchips"></div>
+    </div>
     <!-- the Clubbothy Recommends shelf claims this slot when thumbs exist -->
     <div class="hsec">The catalogue
       <button class="foldbtn" id="b-wallfold" type="button">Collapse</button></div>
@@ -3068,32 +3076,51 @@ function showSplash(){
 const WALLF = new Set();
 const WGREY = 150, WSHRINK = 190, WSLIDE = 260;
 let wallTurn = 0;
+let homeWallApply = null;
 function wallReduced(){ return matchMedia('(prefers-reduced-motion: reduce)').matches; }
-function renderWall(host){
+function chipsHTML(){
   const list = splashList();
   const present = [];
   for(const key of ['movies','tv','anime','games','comics','manga','books'])
     if(list.some(m=> (m.media||[]).indexOf(key) >= 0)) present.push(key);
+  return '<button data-m="all">All</button>'
+    + present.map(k=> '<button data-m="'+k+'">'+MEDIA_LABEL[k]+'</button>').join('');
+}
+function paintWallChips(host){
+  host.querySelectorAll('button').forEach(b=>{
+    const on = b.dataset.m === 'all' ? WALLF.size === 0 : WALLF.has(b.dataset.m);
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+}
+// One chip row can scope several things at once — on home it drives both
+// the tonight pick and the wall below it
+function renderChips(host, onChange){
+  host.innerHTML = chipsHTML();
+  host.querySelectorAll('button').forEach(b=> b.addEventListener('click', e=>{
+    e.stopPropagation();
+    const m = b.dataset.m;
+    if(m === 'all') WALLF.clear();
+    else if(WALLF.has(m)) WALLF.delete(m);
+    else WALLF.add(m);
+    paintWallChips(host);
+    onChange();
+  }));
+  paintWallChips(host);
+}
+function renderWall(host, externalChips){
+  const list = splashList();
   host.innerHTML =
-      '<div class="wchips">'
-    + '<button data-m="all">All</button>'
-    + present.map(k=> '<button data-m="'+k+'">'+MEDIA_LABEL[k]+'</button>').join('')
-    + '</div>'
+      (externalChips ? '' : '<div class="wchips"></div>')
     + '<div class="wtally"></div>'
     + '<div class="cards wall">' + list.map(m=> cardHTML(m, null, true)).join('') + '</div>';
   wireCards(host);
   const wall = host.querySelector('.wall');
   const cards = [...wall.querySelectorAll('.card')];
-  const chips = [...host.querySelectorAll('.wchips button')];
   const tally = host.querySelector('.wtally');
   const hiddenC = c=> c.classList.contains('gone');
   const matchC = c=> WALLF.size === 0
     || c.dataset.media.split(' ').some(m=> WALLF.has(m));
-  const paintChips = ()=> chips.forEach(b=>{
-    const on = b.dataset.m === 'all' ? WALLF.size === 0 : WALLF.has(b.dataset.m);
-    b.classList.toggle('on', on);
-    b.setAttribute('aria-pressed', on ? 'true' : 'false');
-  });
   const count = ()=>{
     tally.textContent = cards.filter(c=> !hiddenC(c)).length + ' of '
       + cards.length + ' lists';
@@ -3178,18 +3205,9 @@ function renderWall(host){
     }
     count();
   }
-  chips.forEach(b=> b.addEventListener('click', e=>{
-    e.stopPropagation();
-    const m = b.dataset.m;
-    if(m === 'all') WALLF.clear();
-    else if(WALLF.has(m)) WALLF.delete(m);
-    else WALLF.add(m);
-    paintChips();
-    apply();
-  }));
+  if(!externalChips) renderChips(host.querySelector('.wchips'), apply);
   // hidden cards from a previous render keep the current filter honest
   cards.forEach(c=>{ if(!matchC(c)) c.classList.add('gone'); });
-  paintChips();
   count();
   // touch: the card in the middle of the screen is the lit one
   if(COARSE && !wallReduced()){
@@ -3213,6 +3231,7 @@ function renderWall(host){
     }, { passive: true });
     mark();
   }
+  return apply;
 }
 
 /* ------------------------------------------------------------------ home */
@@ -3273,33 +3292,49 @@ function renderShelf(shelf){
     b.onclick = ()=> go(b.dataset.slug);
   });
 }
-// Tonight: one unticked row from the shelf's clubs, drawn fresh each press.
-// Open uses the same jump the global search uses, so it lands on the row.
-async function tonightPick(pool){
+// Tonight: one candidate PER CLUB, then a fair draw among clubs — a
+// 600-row list never swamps a 10-episode one. An ordered list only ever
+// offers its next unticked item (no sniping episode 7 of something
+// untouched); a grab-bag (random: true) offers anything unticked. The
+// medium chips scope the pool: no chips = your shelf, chips = every list
+// of that medium. Open lands on the row via the global-search jump.
+async function tonightPick(shelf){
   const d = await ensureIndex();
   if(!d || !d.rows) return null;
-  const slugs = new Set(pool.map(s=> s.m.slug));
-  const ticked = {};
-  pool.forEach(s=>{
-    try{ ticked[s.m.slug] = new Set(JSON.parse(localStorage.getItem('gw:v1:'+s.m.slug)||'[]')); }
-    catch(e){ ticked[s.m.slug] = new Set(); }
-  });
-  const cands = [];
+  const pool = WALLF.size
+    ? splashList().filter(m=> (m.media||[]).some(x=> WALLF.has(x)))
+    : shelf.map(s=> s.m);
+  const bySlug = new Map(pool.map(m=> [m.slug, m]));
+  const rows = {};
   for(const r of d.rows)
-    if(slugs.has(r[0]) && !ticked[r[0]].has(r[1])) cands.push(r);
-  if(!cands.length) return null;
-  return cands[Math.floor(Math.random() * cands.length)];
+    if(bySlug.has(r[0])) (rows[r[0]] = rows[r[0]] || []).push(r);
+  const cands = [];
+  for(const [slug, m] of bySlug){
+    const rs = rows[slug];
+    if(!rs) continue;
+    let t;
+    try{ t = new Set(JSON.parse(localStorage.getItem('gw:v1:'+slug)||'[]')); }
+    catch(e){ t = new Set(); }
+    const un = rs.filter(r=> !t.has(r[1]));
+    if(!un.length) continue;
+    cands.push(m.random ? un[Math.floor(Math.random()*un.length)] : un[0]);
+  }
+  return cands.length ? cands[Math.floor(Math.random()*cands.length)] : null;
 }
-function renderTonight(pool){
+function armTonight(shelf){
   const host = $('htonight');
+  const scope = ()=> WALLF.size
+    ? 'One thing from ' + [...WALLF].map(k=> MEDIA_LABEL[k].toLowerCase()).join(' + ')
+      + ' — next-up for ordered lists.'
+    : 'One thing from your shelf — next-up for ordered lists.';
   const arm = ()=>{
-    host.innerHTML = '<span class="tc">One unticked thing from your shelf.</span>'
+    host.innerHTML = '<span class="tc">'+esc(scope())+'</span>'
       + '<button id="b-tpick" type="button">Pick for me</button>';
     $('b-tpick').onclick = draw;
   };
   const draw = async ()=>{
-    const r = await tonightPick(pool);
-    if(!r){ host.querySelector('.tc').textContent = 'Nothing unticked on the shelf — go wander the catalogue.'; return; }
+    const r = await tonightPick(shelf);
+    if(!r){ host.querySelector('.tc').textContent = 'Nothing unticked in that scope — widen it or wander the catalogue.'; return; }
     host.innerHTML = '<span class="tt">'+esc(r[2])+'</span>'
       + '<span class="tc">'+esc(titleOf(r[0]))+'</span>'
       + '<button id="b-topen" type="button">Open</button>'
@@ -3357,8 +3392,13 @@ function showHome(){
   document.title = 'GroupWatch';
   try{ renderMenu(); }catch(e){ console.error('[home] menu', e); }
   renderShelf(shelf);
-  renderTonight(shelf);
   renderLedger();
+  // one chip row scopes both the pick and the wall, even while folded
+  renderChips($('hchips'), ()=>{
+    if(homeWallApply) homeWallApply();
+    armTonight(shelf);
+  });
+  armTonight(shelf);
   // the wall rides the bottom of home, open by default; the collapse
   // choice is remembered
   const hw = $('homewall'), fb = $('b-wallfold');
@@ -3367,10 +3407,11 @@ function showHome(){
     if(folded()){
       hw.innerHTML = '';
       hw.classList.add('hide');
+      homeWallApply = null;
       fb.textContent = 'Show all ' + splashList().length + ' lists';
     }else{
       hw.classList.remove('hide');
-      renderWall(hw);
+      homeWallApply = renderWall(hw, true);
       fb.textContent = 'Collapse';
     }
   };

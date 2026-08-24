@@ -420,7 +420,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 1418
+    "total": 1418,
+    "random": true
   },
   {
     "slug": "star-wars",
@@ -475,7 +476,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 654
+    "total": 654,
+    "random": true
   },
   {
     "slug": "david-lynch",
@@ -569,7 +571,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 621
+    "total": 621,
+    "random": true
   },
   {
     "slug": "marvel-animation",
@@ -679,7 +682,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 119
+    "total": 119,
+    "random": true
   },
   {
     "slug": "godzilla",
@@ -716,7 +720,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 189
+    "total": 189,
+    "random": true
   },
   {
     "slug": "columbo",
@@ -1241,7 +1246,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 102
+    "total": 102,
+    "random": true
   },
   {
     "slug": "sight-and-sound",
@@ -1259,7 +1265,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 100
+    "total": 100,
+    "random": true
   },
   {
     "slug": "universal-monsters",
@@ -1277,7 +1284,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 34
+    "total": 34,
+    "random": true
   },
   {
     "slug": "bad-movie-night",
@@ -1295,7 +1303,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 34
+    "total": 34,
+    "random": true
   },
   {
     "slug": "body-swap",
@@ -1313,7 +1322,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 69
+    "total": 69,
+    "random": true
   },
   {
     "slug": "real-time-films",
@@ -1331,7 +1341,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 68
+    "total": 68,
+    "random": true
   },
   {
     "slug": "bottle-episodes",
@@ -1349,7 +1360,8 @@
       "one": "episode",
       "many": "episodes"
     },
-    "total": 43
+    "total": 43,
+    "random": true
   },
   {
     "slug": "one-location-films",
@@ -1367,7 +1379,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 25
+    "total": 25,
+    "random": true
   },
   {
     "slug": "doctor-who",
@@ -1475,7 +1488,8 @@
       "one": "episode",
       "many": "episodes"
     },
-    "total": 156
+    "total": 156,
+    "random": true
   },
   {
     "slug": "the-simpsons",
@@ -1930,7 +1944,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 24
+    "total": 24,
+    "random": true
   },
   {
     "slug": "discworld",
@@ -2094,7 +2109,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 605
+    "total": 605,
+    "random": true
   },
   {
     "slug": "coppola",
