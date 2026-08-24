@@ -324,7 +324,10 @@ footer a{color:var(--steel)}
 .hide{display:none!important}
 
 /* property switcher, pinned top left */
-.switcher{position:fixed;top:14px;left:14px;z-index:80}
+/* pinned to the content column's left edge, not the viewport corner:
+   .wrap is 900px centered with 20px side padding, so the column's text
+   starts at (50% - 430px) on wide screens and 20px otherwise */
+.switcher{position:fixed;top:14px;left:max(20px, calc(50% - 430px));z-index:80}
 .switcher > button{display:flex;align-items:center;gap:9px;background:var(--card);
   border:1px solid var(--rule-2);padding:8px 12px;font-size:13px;box-shadow:0 1px 3px rgba(0,0,0,.12)}
 .pdot{width:8px;height:8px;border-radius:2px;background:var(--signal);flex:none}
