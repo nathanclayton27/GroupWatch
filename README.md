@@ -11,15 +11,16 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and nineteen lists, from a ten-episode anime to a 1,337-spine film
+One hundred and twenty-three lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
 Krakoa), *Amazing Spider-Man* (Amazing Fantasy #15 to Civil War), *Civil
 War* (the 2006 event interleaved), *Spider-Man After Civil War*, *Ultimate
 Marvel* (the whole line, 693 issues), *Everything Dies: Secret Wars*
-(Hickman's Marvel run), *Venom* (Cates and Stegman), and *One Piece* in
-manga form.
+(Hickman's Marvel run), *Venom* (Cates and Stegman), *One Piece* in
+manga form, and *Spawn* — 829 issues across 187 arcs, following a curated
+reading order rather than publication date.
 
 **Franchises.** *Star Wars* (films and television, with the games on their
 own page), *Metal Gear* (story-only hours, tiers, and a recap link for the
@@ -47,7 +48,9 @@ compilations, every episode verified against the episode tables.
 chips), *Half-Life & Portal*, *Silent Hill*, *Halo*, the whole *Ace
 Attorney* docket, *Fallout* and *The Elder Scrolls* with their story DLC as
 optional rows, *Persona* (431 hours, stated plainly), *Dragon Quest*,
-*Mass Effect*, *Dragon Age*, and a house-picked indie essentials shelf —
+*Mass Effect*, *Dragon Age*, *Mega Man* (94 games across eight sub-series),
+the *James Bond* games on their own page apart from the films, and a
+house-picked indie essentials shelf —
 all weighted by HowLongToBeat main-story figures, verified by name.
 
 **Books.** *Discworld* with the famous reading-order diagram rebuilt as
@@ -67,7 +70,9 @@ the documentaries optional), *Quentin Tarantino*, *the Coen brothers*
 *Nicolas Cage* (113 films, all eras), *Francis Ford Coppola* (23 features
 from Dementia 13 to Megalopolis, Apocalypse Now weighed at its premiere
 cut), *Satoshi Kon* (films plus Paranoia
-Agent), *A24* front to back, and *Studio Ghibli* with Miyazaki as the
+Agent), *Sam Raimi* (the films plus all thirty episodes of Ash vs Evil
+Dead, with every episode naming the director who actually made it),
+*A24* front to back, and *Studio Ghibli* with Miyazaki as the
 spine. Plus *Stephen King*, novel by novel.
 
 **Animation.** *Marvel Animation* and *DC Animation*, season by season with

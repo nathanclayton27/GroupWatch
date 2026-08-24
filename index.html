@@ -3509,7 +3509,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'd006102c6d63';
+const BUILD = '49208fc3db48';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -7946,9 +7946,13 @@ function downloadICS(){
   const ws = windows();
   if(!ws || !ws.length){ flash('No schedule to export.', 'gmsg2'); return; }
   const ymd = iso=> iso.replace(/-/g, '');
-  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//GroupWatch//EN'];
+  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//clubd//EN'];
   ws.forEach((w, k)=>{
     lines.push('BEGIN:VEVENT',
+      // the domain half stays as it was ON PURPOSE: a UID is an identity key,
+      // and changing it makes a re-import create duplicate events beside the
+      // old ones rather than updating them. Only PRODID, which is display
+      // metadata, was rebranded.
       'UID:gw-' + SLUG + '-w' + (k + 1) + '@groupwatch',
       'DTSTART;VALUE=DATE:' + ymd(w.start),
       // DTEND is exclusive, so the day after the window's last day
