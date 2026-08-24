@@ -572,6 +572,8 @@ footer a{color:var(--steel)}
 .foldbtn{margin-left:auto;font:inherit;font-size:11px;letter-spacing:normal;
   text-transform:none;border:1px solid var(--rule-2);background:transparent;
   color:var(--ink-2);border-radius:99px;padding:2px 10px;cursor:pointer}
+.foldbtn:hover{border-color:var(--signal);color:var(--signal)}
+#hfr-h:hover{color:var(--signal)}
 
 /* ------------------------------------------------ the account page (CLU-57)
    Quiet cards in one narrow column, on the same bare shell home uses. The
@@ -4705,9 +4707,12 @@ function showHome(){
   try{ renderMenu(); }catch(e){ console.error('[home] menu', e); }
   renderShelf(shelf);
   renderLedger();
-  // the Friends header is the door to the friends page
+  // the Friends header is the door to the friends page — and it must
+  // LOOK like one: the chip is the same interactive element the
+  // catalogue's fold button already taught people
   const fhh = $('hfr-h');
-  fhh.textContent = 'Friends →';
+  fhh.innerHTML = 'Friends'
+    + '<button class="foldbtn" id="b-fropen" type="button">open the friends page →</button>';
   fhh.style.cursor = 'pointer';
   fhh.title = 'Open the friends page';
   fhh.onclick = ()=>{ location.href = location.pathname + '?friends'; };
