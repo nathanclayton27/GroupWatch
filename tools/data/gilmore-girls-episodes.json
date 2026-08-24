@@ -1,0 +1,1143 @@
+{
+ "years": {
+  "1": "2000–01",
+  "2": "2001–02",
+  "3": "2002–03",
+  "4": "2003–04",
+  "5": "2004–05",
+  "6": "2005–06",
+  "7": "2006–07"
+ },
+ "stated": {
+  "lede": 153,
+  "per_season": {
+   "1": 21,
+   "2": 22,
+   "3": 22,
+   "4": 22,
+   "5": 22,
+   "6": 22,
+   "7": 22
+  }
+ },
+ "seasons": {
+  "1": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "Pilot",
+    "y": 2000,
+    "d": "2000-10-05"
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "The Lorelais' First Day at Chilton",
+    "y": 2000,
+    "d": "2000-10-12"
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "Kill Me Now",
+    "y": 2000,
+    "d": "2000-10-19"
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "The Deer Hunters",
+    "y": 2000,
+    "d": "2000-10-26"
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "Cinnamon's Wake",
+    "y": 2000,
+    "d": "2000-11-02"
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "Rory's Birthday Parties",
+    "y": 2000,
+    "d": "2000-11-09"
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "Kiss and Tell",
+    "y": 2000,
+    "d": "2000-11-16"
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "Love and War and Snow",
+    "y": 2000,
+    "d": "2000-12-14"
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "Rory's Dance",
+    "y": 2000,
+    "d": "2000-12-20"
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "Forgiveness and Stuff",
+    "y": 2000,
+    "d": "2000-12-21"
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "Paris Is Burning",
+    "y": 2001,
+    "d": "2001-01-11"
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "Double Date",
+    "y": 2001,
+    "d": "2001-01-18"
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "Concert Interruptus",
+    "y": 2001,
+    "d": "2001-02-15"
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "That Damn Donna Reed",
+    "y": 2001,
+    "d": "2001-02-22"
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "Christopher Returns",
+    "y": 2001,
+    "d": "2001-03-01"
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "Star-Crossed Lovers and Other Strangers",
+    "y": 2001,
+    "d": "2001-03-08"
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "The Breakup, Part 2",
+    "y": 2001,
+    "d": "2001-03-15"
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "The Third Lorelai",
+    "y": 2001,
+    "d": "2001-03-22"
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "Emily in Wonderland",
+    "y": 2001,
+    "d": "2001-04-26"
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "P.S. I Lo...",
+    "y": 2001,
+    "d": "2001-05-03"
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "Love, Daisies and Troubadours",
+    "y": 2001,
+    "d": "2001-05-10"
+   }
+  ],
+  "2": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "Sadie, Sadie",
+    "y": 2001,
+    "d": "2001-10-09"
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "Hammers and Veils",
+    "y": 2001,
+    "d": "2001-10-09"
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "Red Light on the Wedding Night",
+    "y": 2001,
+    "d": "2001-10-16"
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "The Road Trip to Harvard",
+    "y": 2001,
+    "d": "2001-10-23"
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "Nick & Nora/Sid & Nancy",
+    "y": 2001,
+    "d": "2001-10-30"
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "Presenting Lorelai Gilmore",
+    "y": 2001,
+    "d": "2001-11-06"
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "Like Mother, Like Daughter",
+    "y": 2001,
+    "d": "2001-11-13"
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "The Ins and Outs of Inns",
+    "y": 2001,
+    "d": "2001-11-20"
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "Run Away, Little Boy",
+    "y": 2001,
+    "d": "2001-11-27"
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "The Bracebridge Dinner",
+    "y": 2001,
+    "d": "2001-12-11"
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "Secrets and Loans",
+    "y": 2002,
+    "d": "2002-01-22"
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "Richard in Stars Hollow",
+    "y": 2002,
+    "d": "2002-01-29"
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "A-Tisket, A-Tasket",
+    "y": 2002,
+    "d": "2002-02-05"
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "It Should've Been Lorelai",
+    "y": 2002,
+    "d": "2002-02-12"
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "Lost and Found",
+    "y": 2002,
+    "d": "2002-02-26"
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "There's the Rub",
+    "y": 2002,
+    "d": "2002-04-09"
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "Dead Uncles and Vegetables",
+    "y": 2002,
+    "d": "2002-04-16"
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "Back in the Saddle Again",
+    "y": 2002,
+    "d": "2002-04-23"
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "Teach Me Tonight",
+    "y": 2002,
+    "d": "2002-04-30"
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "Help Wanted",
+    "y": 2002,
+    "d": "2002-05-07"
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "Lorelai's Graduation Day",
+    "y": 2002,
+    "d": "2002-05-14"
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "I Can't Get Started",
+    "y": 2002,
+    "d": "2002-05-21"
+   }
+  ],
+  "3": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "Those Lazy-Hazy-Crazy Days",
+    "y": 2002,
+    "d": "2002-09-24"
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "Haunted Leg",
+    "y": 2002,
+    "d": "2002-10-01"
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "Application Anxiety",
+    "y": 2002,
+    "d": "2002-10-08"
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "One's Got Class and the Other One Dyes",
+    "y": 2002,
+    "d": "2002-10-15"
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "Eight O'Clock at the Oasis",
+    "y": 2002,
+    "d": "2002-10-22"
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "Take the Deviled Eggs...",
+    "y": 2002,
+    "d": "2002-11-05"
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "They Shoot Gilmores, Don't They?",
+    "y": 2002,
+    "d": "2002-11-12"
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "Let the Games Begin",
+    "y": 2002,
+    "d": "2002-11-19"
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "A Deep-Fried Korean Thanksgiving",
+    "y": 2002,
+    "d": "2002-11-26"
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "That'll Do, Pig",
+    "y": 2003,
+    "d": "2003-01-14"
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "I Solemnly Swear",
+    "y": 2003,
+    "d": "2003-01-21"
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "Lorelai Out of Water",
+    "y": 2003,
+    "d": "2003-01-28"
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "Dear Emily and Richard",
+    "y": 2003,
+    "d": "2003-02-04"
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "Swan Song",
+    "y": 2003,
+    "d": "2003-02-11"
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "Face-Off",
+    "y": 2003,
+    "d": "2003-02-18"
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "The Big One",
+    "y": 2003,
+    "d": "2003-02-25"
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "A Tale of Poes and Fire",
+    "y": 2003,
+    "d": "2003-04-15"
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "Happy Birthday, Baby",
+    "y": 2003,
+    "d": "2003-04-22"
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "Keg! Max!",
+    "y": 2003,
+    "d": "2003-04-29"
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "Say Goodnight, Gracie",
+    "y": 2003,
+    "d": "2003-05-06"
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "Here Comes the Son",
+    "y": 2003,
+    "d": "2003-05-13",
+    "bdpilot": "Windward Circle"
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "Those Are Strings, Pinocchio",
+    "y": 2003,
+    "d": "2003-05-20"
+   }
+  ],
+  "4": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "Ballrooms and Biscotti",
+    "y": 2003,
+    "d": "2003-09-23"
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "The Lorelais' First Day at Yale",
+    "y": 2003,
+    "d": "2003-09-30"
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The Hobbit, the Sofa and Digger Stiles",
+    "y": 2003,
+    "d": "2003-10-07"
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "Chicken or Beef?",
+    "y": 2003,
+    "d": "2003-10-14"
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Fundamental Things Apply",
+    "y": 2003,
+    "d": "2003-10-21"
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "An Affair to Remember",
+    "y": 2003,
+    "d": "2003-10-28"
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "The Festival of Living Art",
+    "y": 2003,
+    "d": "2003-11-04"
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "Die, Jerk",
+    "y": 2003,
+    "d": "2003-11-11"
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "Ted Koppel's Big Night Out",
+    "y": 2003,
+    "d": "2003-11-18"
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "The Nanny and the Professor",
+    "y": 2004,
+    "d": "2004-01-20"
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "In the Clamor and the Clangor",
+    "y": 2004,
+    "d": "2004-01-27"
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "A Family Matter",
+    "y": 2004,
+    "d": "2004-02-03"
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "Nag Hammadi Is Where They Found the Gnostic Gospels",
+    "y": 2004,
+    "d": "2004-02-10"
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "The Incredible Sinking Lorelais",
+    "y": 2004,
+    "d": "2004-02-17"
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "Scene in a Mall",
+    "y": 2004,
+    "d": "2004-02-24"
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "The Reigning Lorelai",
+    "y": 2004,
+    "d": "2004-03-02"
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "Girls in Bikinis, Boys Doin' the Twist",
+    "y": 2004,
+    "d": "2004-04-13"
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "Tick, Tick, Tick, Boom!",
+    "y": 2004,
+    "d": "2004-04-20"
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "Afterboom",
+    "y": 2004,
+    "d": "2004-04-27"
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "Luke Can See Her Face",
+    "y": 2004,
+    "d": "2004-05-04"
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "Last Week Fights, This Week Tights",
+    "y": 2004,
+    "d": "2004-05-11"
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "Raincoats and Recipes",
+    "y": 2004,
+    "d": "2004-05-18"
+   }
+  ],
+  "5": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "Say Goodbye to Daisy Miller",
+    "y": 2004,
+    "d": "2004-09-21"
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "A Messenger, Nothing More",
+    "y": 2004,
+    "d": "2004-09-28"
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "Written in the Stars",
+    "y": 2004,
+    "d": "2004-10-05"
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "Tippecanoe and Taylor, Too",
+    "y": 2004,
+    "d": "2004-10-12"
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "We Got Us a Pippi Virgin",
+    "y": 2004,
+    "d": "2004-10-19"
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "Norman Mailer, I'm Pregnant!",
+    "y": 2004,
+    "d": "2004-10-26"
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "You Jump, I Jump, Jack",
+    "y": 2004,
+    "d": "2004-11-02"
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "The Party's Over",
+    "y": 2004,
+    "d": "2004-11-09"
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "Emily Says Hello",
+    "y": 2004,
+    "d": "2004-11-16"
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "But Not as Cute as Pushkin",
+    "y": 2004,
+    "d": "2004-11-30"
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "Women of Questionable Morals",
+    "y": 2005,
+    "d": "2005-01-25"
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "Come Home",
+    "y": 2005,
+    "d": "2005-02-01"
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "Wedding Bell Blues",
+    "y": 2005,
+    "d": "2005-02-08"
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "Say Something",
+    "y": 2005,
+    "d": "2005-02-15"
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "Jews and Chinese Food",
+    "y": 2005,
+    "d": "2005-02-22"
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "So...Good Talk",
+    "y": 2005,
+    "d": "2005-03-01"
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "Pulp Friction",
+    "y": 2005,
+    "d": "2005-03-08"
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "To Live and Let Diorama",
+    "y": 2005,
+    "d": "2005-04-19"
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "But I'm a Gilmore!",
+    "y": 2005,
+    "d": "2005-04-26"
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "How Many Kropogs to Cape Cod?",
+    "y": 2005,
+    "d": "2005-05-03"
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "Blame Booze and Melville",
+    "y": 2005,
+    "d": "2005-05-10"
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "A House Is Not a Home",
+    "y": 2005,
+    "d": "2005-05-17"
+   }
+  ],
+  "6": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "New and Improved Lorelai",
+    "y": 2005,
+    "d": "2005-09-13"
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "Fight Face",
+    "y": 2005,
+    "d": "2005-09-20"
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "The UnGraduate",
+    "y": 2005,
+    "d": "2005-09-27"
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "Always a Godmother, Never a God",
+    "y": 2005,
+    "d": "2005-10-04"
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "We've Got Magic to Do",
+    "y": 2005,
+    "d": "2005-10-11"
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "Welcome to the Doll House",
+    "y": 2005,
+    "d": "2005-10-18"
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "Twenty-One is the Loneliest Number",
+    "y": 2005,
+    "d": "2005-10-25"
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "Let Me Hear Your Balalaikas Ringing Out",
+    "y": 2005,
+    "d": "2005-11-08"
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "The Prodigal Daughter Returns",
+    "y": 2005,
+    "d": "2005-11-15"
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "He's Slippin' 'Em Bread...Dig?",
+    "y": 2005,
+    "d": "2005-11-22"
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "The Perfect Dress",
+    "y": 2006,
+    "d": "2006-01-10"
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "Just Like Gwen and Gavin",
+    "y": 2006,
+    "d": "2006-01-17"
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "Friday Night's Alright for Fighting",
+    "y": 2006,
+    "d": "2006-01-31"
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "You've Been Gilmored",
+    "y": 2006,
+    "d": "2006-02-07"
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "A Vineyard Valentine",
+    "y": 2006,
+    "d": "2006-02-14"
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "Bridesmaids Revisited",
+    "y": 2006,
+    "d": "2006-02-28"
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "I'm OK, You're OK",
+    "y": 2006,
+    "d": "2006-04-04"
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "The Real Paul Anka",
+    "y": 2006,
+    "d": "2006-04-11"
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "I Get a Sidekick Out of You",
+    "y": 2006,
+    "d": "2006-04-18"
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "Super Cool Party People",
+    "y": 2006,
+    "d": "2006-04-25"
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "Driving Miss Gilmore",
+    "y": 2006,
+    "d": "2006-05-02"
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "Partings",
+    "y": 2006,
+    "d": "2006-05-09"
+   }
+  ],
+  "7": [
+   {
+    "e": 1,
+    "e2": 1,
+    "t": "The Long Morrow",
+    "y": 2006,
+    "d": "2006-09-26"
+   },
+   {
+    "e": 2,
+    "e2": 2,
+    "t": "That's What You Get, Folks, for Makin' Whoopee",
+    "y": 2006,
+    "d": "2006-10-03"
+   },
+   {
+    "e": 3,
+    "e2": 3,
+    "t": "Lorelai's First Cotillion",
+    "y": 2006,
+    "d": "2006-10-10"
+   },
+   {
+    "e": 4,
+    "e2": 4,
+    "t": "'S Wonderful, 'S Marvelous",
+    "y": 2006,
+    "d": "2006-10-17"
+   },
+   {
+    "e": 5,
+    "e2": 5,
+    "t": "The Great Stink",
+    "y": 2006,
+    "d": "2006-10-24"
+   },
+   {
+    "e": 6,
+    "e2": 6,
+    "t": "Go, Bulldogs!",
+    "y": 2006,
+    "d": "2006-11-07"
+   },
+   {
+    "e": 7,
+    "e2": 7,
+    "t": "French Twist",
+    "y": 2006,
+    "d": "2006-11-14"
+   },
+   {
+    "e": 8,
+    "e2": 8,
+    "t": "Introducing Lorelai Planetarium",
+    "y": 2006,
+    "d": "2006-11-21"
+   },
+   {
+    "e": 9,
+    "e2": 9,
+    "t": "Knit, People, Knit!",
+    "y": 2006,
+    "d": "2006-11-28"
+   },
+   {
+    "e": 10,
+    "e2": 10,
+    "t": "Merry Fisticuffs",
+    "y": 2006,
+    "d": "2006-12-05"
+   },
+   {
+    "e": 11,
+    "e2": 11,
+    "t": "Santa's Secret Stuff",
+    "y": 2007,
+    "d": "2007-01-23"
+   },
+   {
+    "e": 12,
+    "e2": 12,
+    "t": "To Whom It May Concern",
+    "y": 2007,
+    "d": "2007-01-30"
+   },
+   {
+    "e": 13,
+    "e2": 13,
+    "t": "I'd Rather Be in Philadelphia",
+    "y": 2007,
+    "d": "2007-02-06"
+   },
+   {
+    "e": 14,
+    "e2": 14,
+    "t": "Farewell, My Pet",
+    "y": 2007,
+    "d": "2007-02-13"
+   },
+   {
+    "e": 15,
+    "e2": 15,
+    "t": "I Am Kayak, Hear Me Roar",
+    "y": 2007,
+    "d": "2007-02-20"
+   },
+   {
+    "e": 16,
+    "e2": 16,
+    "t": "Will You Be My Lorelai Gilmore?",
+    "y": 2007,
+    "d": "2007-02-27"
+   },
+   {
+    "e": 17,
+    "e2": 17,
+    "t": "Gilmore Girls Only",
+    "y": 2007,
+    "d": "2007-03-06"
+   },
+   {
+    "e": 18,
+    "e2": 18,
+    "t": "Hay Bale Maze",
+    "y": 2007,
+    "d": "2007-04-17"
+   },
+   {
+    "e": 19,
+    "e2": 19,
+    "t": "It's Just Like Riding a Bike",
+    "y": 2007,
+    "d": "2007-04-24"
+   },
+   {
+    "e": 20,
+    "e2": 20,
+    "t": "Lorelai? Lorelai?",
+    "y": 2007,
+    "d": "2007-05-01"
+   },
+   {
+    "e": 21,
+    "e2": 21,
+    "t": "Unto the Breach",
+    "y": 2007,
+    "d": "2007-05-08"
+   },
+   {
+    "e": 22,
+    "e2": 22,
+    "t": "Bon Voyage",
+    "y": 2007,
+    "d": "2007-05-15"
+   }
+  ]
+ },
+ "revival": {
+  "chapters": [
+   {
+    "e": 1,
+    "t": "Winter",
+    "date": "2016-11-25"
+   },
+   {
+    "e": 2,
+    "t": "Spring",
+    "date": "2016-11-25"
+   },
+   {
+    "e": 3,
+    "t": "Summer",
+    "date": "2016-11-25"
+   },
+   {
+    "e": 4,
+    "t": "Fall",
+    "date": "2016-11-25"
+   }
+  ],
+  "runtime": "88–102 minutes",
+  "released": "2016-11-25",
+  "num_episodes": 4
+ },
+ "networks": {
+  "1-6": "The WB",
+  "7": "The CW"
+ },
+ "s7_no_palladino": true
+}

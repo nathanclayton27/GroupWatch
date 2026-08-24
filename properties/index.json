@@ -2091,5 +2091,77 @@
       "many": "films"
     },
     "total": 605
+  },
+  {
+    "slug": "coppola",
+    "media": [
+      "movies"
+    ],
+    "title": "Francis Ford Coppola",
+    "subtitle": "the directed features",
+    "kind": "films",
+    "year": "1963–2024",
+    "blurb": "Twenty-three features from Dementia 13 to Megalopolis, plus the anthology he directed a segment of — about 49 hours.",
+    "accent": "#33231C",
+    "accentDark": "#E0B36A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 24
+  },
+  {
+    "slug": "gossip-girl",
+    "media": [
+      "tv"
+    ],
+    "title": "Gossip Girl",
+    "subtitle": "the original series — six seasons on The CW",
+    "kind": "tv",
+    "year": "2007–2012",
+    "blurb": "All 121 episodes of the original CW series in broadcast order, from the pilot to the finale.",
+    "accent": "#243B72",
+    "accentDark": "#E9A8C6",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 121
+  },
+  {
+    "slug": "gilmore-girls",
+    "media": [
+      "tv"
+    ],
+    "title": "Gilmore Girls",
+    "subtitle": "seven seasons, then the four-chapter revival",
+    "kind": "tv",
+    "year": "2000–2016",
+    "blurb": "All 153 episodes of the original run in broadcast order, plus the four chapters of A Year in the Life as their own final section.",
+    "accent": "#5C4033",
+    "accentDark": "#E8B87A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 157
+  },
+  {
+    "slug": "golden-girls",
+    "media": [
+      "tv"
+    ],
+    "title": "The Golden Girls",
+    "subtitle": "all seven seasons on NBC, 1985–1992",
+    "kind": "tv",
+    "year": "1985–1992",
+    "blurb": "All 180 episodes in broadcast order — seven seasons in Miami, with the hour-long entries kept whole.",
+    "accent": "#1F7A7A",
+    "accentDark": "#FDDA4C",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 169
   }
 ]

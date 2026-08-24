@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and fourteen lists, from a ten-episode anime to a 1,337-spine film
+One hundred and eighteen lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -31,6 +31,9 @@ Men*, *Deadwood* (movie included), *Buffy and Angel* woven into one
 air-order list with the crossover nights marked, *Doctor Who* whole —
 355 rows from the 1963 serials (the missing ones marked) through the
 current run — *M\*A\*S\*H*, *Seinfeld*, *Frasier* (the original run),
+*Gossip Girl* (the original series), *Gilmore Girls* (with A Year in the
+Life as its own section), *The Golden Girls* (the seven hour-long
+broadcasts and four two-parters honestly marked),
 *MST3K* down to the KTMA year, *Columbo*
 with real per-movie runtimes, *James Bond* by actor, *Alien & Predator* on
 one timeline, *JoJo's* and *Dragon Ball* (anime and manga as separate
@@ -61,7 +64,9 @@ optional rows.
 Kurosawa*, *Alfred Hitchcock*, *Robin Williams*, *Martin Scorsese* (with
 the documentaries optional), *Quentin Tarantino*, *the Coen brothers*
 (solo work sectioned and credited), *David Fincher*, *John Carpenter*,
-*Nicolas Cage* (113 films, all eras), *Satoshi Kon* (films plus Paranoia
+*Nicolas Cage* (113 films, all eras), *Francis Ford Coppola* (23 features
+from Dementia 13 to Megalopolis, Apocalypse Now weighed at its premiere
+cut), *Satoshi Kon* (films plus Paranoia
 Agent), *A24* front to back, and *Studio Ghibli* with Miyazaki as the
 spine. Plus *Stephen King*, novel by novel.
 
