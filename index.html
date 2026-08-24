@@ -400,11 +400,47 @@ footer a{color:var(--steel)}
 #hfriends .hled:hover .aquiet{opacity:1}
 .gitem .gfr{opacity:0;transition:opacity .15s;margin-left:4px}
 .gitem:hover .gfr{opacity:1}
+/* the favourite star obeys the same law with one exception: once it is ON it
+   stays lit at rest, because then it is state and not a control (CLU-121) */
+#fp-list .fpfav{opacity:0;transition:opacity .15s,color .12s;flex:none;
+  background:none;border:0;padding:0 1px;cursor:pointer;line-height:1;
+  font-size:14px;color:var(--ink-3)}
+#fp-list .acard:hover .fpfav,#fp-list .fpfav:focus-visible{opacity:1}
+#fp-list .fpfav:hover{color:var(--signal)}
+#fp-list .fpfav.on{opacity:1;color:var(--signal)}
+/* The 5.5-row peek (CLU-120/122). --pkh cuts the wrapper through the middle
+   of the sixth row's text, so the edge reads as a cut and not as a short
+   list; both numbers are measured off a real row in pkOn, because the two
+   lists using this have different row heights and both move with the
+   reader's font size. Named pklist, not peek: .peek is the wall's hover
+   card, and taking that name silently unfixed it. */
+.pklist{position:relative}
+.pklist .pkwrap{position:relative}
+.pklist.pk-on .pkwrap{height:var(--pkh,auto);overflow:hidden}
+.pklist.pk-on.pk-open .pkwrap{height:auto;overflow:visible}
+/* the faded band IS the expand control — Nathan wanted the split itself to
+   be the thing you click, so it carries no chrome of its own */
+.pklist .pkmore,.pklist .pkless{display:none}
+.pklist.pk-on .pkmore{display:block;position:absolute;left:0;right:0;bottom:0;
+  height:var(--pkband,1.5em);border:0;border-radius:0;padding:0;cursor:pointer;
+  background:linear-gradient(to bottom,transparent 34%,
+    color-mix(in srgb,var(--card) 88%,transparent))}
+.pklist.pk-on .pkmore:hover{background:linear-gradient(to bottom,transparent 20%,
+  color-mix(in srgb,var(--card) 96%,transparent))}
+.pklist.pk-on.pk-open .pkmore{display:none}
+.pklist.pk-on.pk-open .pkless{display:block;width:100%;margin-top:7px;
+  padding:6px 0 1px;background:none;border:0;border-top:1px solid var(--rule);
+  border-radius:0;cursor:pointer;text-align:center;color:var(--ink-3);
+  font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;
+  font-weight:500;letter-spacing:.14em;text-transform:uppercase}
+.pklist.pk-on.pk-open .pkless:hover{color:var(--signal)}
+/* collapsing scrolls you back to row one; the mast is fixed over that spot */
+.pkwrap > :first-child{scroll-margin-top:78px}
 /* fresh watch: the trophy proves the history is intact — hover layer,
    per the row spec's state 08 */
 .fw #list li .st-t::after,.fw #list summary .st h2::after{content:""}
 .fw #list li:hover > label::after{content:" 🏆";opacity:.55;font-size:.8em}
-@media (hover:none){#hfriends .aquiet,.gitem .gfr{opacity:.55}}
+@media (hover:none){#hfriends .aquiet,.gitem .gfr,#fp-list .fpfav{opacity:.55}}
 @media (max-width:560px){#fnote{top:74px;left:14px;right:14px;max-width:none}}
 #b-baracct:hover{border-color:var(--signal)}
 #b-baracct.hide{display:none}
@@ -3317,7 +3353,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '6d001a54e636';
+const BUILD = '6d0a6e3588ab';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -4254,6 +4290,22 @@ async function saveMeta(patch){
     return true;
   }catch(e){ console.error('[account] metadata write failed', e); return false; }
 }
+// Favourite friends (CLU-121) ride the same metadata rail the property stars
+// do: one array on the account, no table and no migration. Unlike stars there
+// is no local mirror to reconcile — the friends page only exists signed in,
+// so the account is the only copy that could be right.
+function favFriends(){
+  const v = acctMeta().favfriends;
+  return new Set(Array.isArray(v) ? v : []);
+}
+// null on a failed write: a star that did not save must not paint as if it did
+async function toggleFavFriend(id){
+  const s = favFriends();
+  const on = !s.has(id);
+  on ? s.add(id) : s.delete(id);
+  if(!await saveMeta({ favfriends: [...s] })) return null;
+  return on;
+}
 
 // No 0/O and no 1/I: this code gets read down a phone and typed in by hand.
 // 32 symbols divides 256 exactly, so one random byte per character is an
@@ -4843,6 +4895,72 @@ async function renderFriends(){
 }
 
 /* -------------------------------------------------------- friends page */
+// The 5.5-row peek (CLU-120, CLU-122). Six rows or fewer has nothing to
+// hide, so it renders plainly and grows no control; seven or more rests at
+// five rows plus the top half of the sixth. Every list owns its own state,
+// so one friend's shelf opening says nothing about the next.
+const PEEK_KEEP = 5, PEEK_MIN = 7;
+let _pkn = 0;
+function pkHTML(rows, noun){
+  const id = 'pk' + (++_pkn);
+  const wrap = '<div class="pkwrap" id="' + id + '">' + rows.join('') + '</div>';
+  if(rows.length < PEEK_MIN) return '<div class="pklist">' + wrap + '</div>';
+  return '<div class="pklist">' + wrap
+    + '<button type="button" class="pkmore" aria-controls="' + id + '"'
+    + ' aria-expanded="false" aria-label="Show all ' + rows.length + ' '
+    + noun + '"></button>'
+    + '<button type="button" class="pkless" aria-controls="' + id + '"'
+    + ' aria-expanded="false">collapse</button></div>';
+}
+// Measured, not hardcoded: the sixth row's own box says where the cut goes,
+// which survives a different row height, a wrapped title and a zoomed font.
+// pk-on is added only once a real measurement lands, so a list measured while
+// its page is still hidden shows whole rather than collapsing to nothing.
+function pkOn(el){
+  const wrap = el.querySelector('.pkwrap');
+  if(!wrap) return;
+  const cut = wrap.children[PEEK_KEEP];
+  if(!cut || wrap.children.length < PEEK_MIN) return;
+  // rects, not offsetTop: rows land on half pixels and the rounding there
+  // stacked up into a cut several pixels below the middle of the text
+  const wr = wrap.getBoundingClientRect(), cr = cut.getBoundingClientRect();
+  const h = Math.round(cr.top - wr.top + cr.height / 2);
+  if(h < 1) return;
+  el.style.setProperty('--pkh', h + 'px');
+  // The band is exactly the half-row on show, never more: it sits on top of
+  // the rows, and a taller one swallowed the Copy and Open buttons of the
+  // clubs above it. 24px keeps it a real target on the thinner shelf rows.
+  el.style.setProperty('--pkband',
+    Math.max(Math.round(cr.height / 2), 24) + 'px');
+  el.classList.add('pk-on');
+  const more = el.querySelector('.pkmore'), less = el.querySelector('.pkless');
+  if(!more || !less || more.dataset.wired) return;
+  more.dataset.wired = '1';
+  const set = open=>{
+    el.classList.toggle('pk-open', open);
+    more.setAttribute('aria-expanded', open ? 'true' : 'false');
+    less.setAttribute('aria-expanded', open ? 'true' : 'false');
+  };
+  more.onclick = ()=> set(true);
+  less.onclick = ()=>{
+    set(false);
+    // collapsing from the bottom of a long list would strand you mid-page
+    const first = wrap.firstElementChild;
+    if(first) first.scrollIntoView({ block: 'start', behavior:
+      matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+  };
+}
+// A resize rewraps titles, which moves the cut — remeasure rather than let it
+// drift. Open lists stay open: pk-open is untouched here.
+function pkAll(host){
+  const run = ()=> (host || document).querySelectorAll('.pklist').forEach(pkOn);
+  run();
+  // the web fonts land after this paint and take a pixel off every row, which
+  // left the cut sitting below the sixth line instead of through it
+  if(document.fonts && document.fonts.ready) document.fonts.ready.then(run);
+}
+addEventListener('resize', ()=> pkAll());
+
 // ?friends (CLU-72): every mutual friend with the top of their shelf.
 // Shelf reads work through the mutual-friends progress policy; before it
 // runs, names render and shelves stay quietly absent — nothing dead.
@@ -4859,8 +4977,10 @@ async function friendShelves(ids){
       if(!n) return;
       (by[r.user_id] = by[r.user_id] || []).push({ m, n });
     });
+    // 20, not 4: the peek is what hides a long shelf now, and a four-row cap
+    // would leave it permanently below its own seven-row threshold (CLU-122)
     for(const k in by)
-      by[k] = by[k].sort((a, b)=> b.n - a.n).slice(0, 4);
+      by[k] = by[k].sort((a, b)=> b.n - a.n).slice(0, 20);
     return by;
   }catch(e){ return {}; }
 }
@@ -4875,19 +4995,32 @@ async function renderFriendsPage(){
   const nm = id=> E.names[id] || 'someone';
   const mut = E.ids.filter(i=> E.out.has(i) && E.inn.has(i));
   const waiting = E.ids.filter(i=> E.out.has(i) && !E.inn.has(i));
+  // favourites ride account metadata, and the session's copy is frozen at
+  // sign-in — ask the server once so a star set on the phone shows here
+  if(!ACCT) await acctUser();
+  const fav = favFriends();
+  // favourites first, everyone else in the order they already had. Only
+  // mutual friends can be favourited, so waiting requests never re-sort.
+  const ranked = mut.filter(i=> fav.has(i)).concat(mut.filter(i=> !fav.has(i)));
   const shelves = await friendShelves(mut);
   const shelfHTML = id=>{
-    const rows = shelves[id] || [];
-    if(!rows.length) return '';
-    return '<div style="margin:2px 0 10px 2px">' + rows.map(e=>
+    const rows = (shelves[id] || []).map(e=>
       '<div class="mline" style="display:flex;gap:9px;align-items:baseline;padding:2px 0;font-size:12.5px">'
       + '<span class="pdot" style="background:' + esc(accentOf(e.m)) + ';align-self:center"></span>'
       + '<span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + esc(e.m.title) + '</span>'
       + '<span class="mono" style="margin-left:auto;font-size:10.5px;color:var(--ink-3);flex:none">'
-      + e.n + ' / ' + totalOf(e.m) + '</span></div>').join('') + '</div>';
+      + e.n + ' / ' + totalOf(e.m) + '</span></div>');
+    if(!rows.length) return '';
+    return '<div style="margin:2px 0 10px 2px">' + pkHTML(rows, 'lists') + '</div>';
   };
-  const card = (id, status, verb)=>
+  const card = (id, status, verb, star)=>
     '<div class="acard"><div class="afrow" style="align-items:baseline">'
+    + (star
+      ? '<button class="fpfav' + (fav.has(id) ? ' on' : '') + '" data-fav="'
+        + esc(id) + '" aria-pressed="' + (fav.has(id) ? 'true' : 'false')
+        + '" aria-label="' + (fav.has(id) ? 'Unfavourite ' : 'Favourite ')
+        + esc(nm(id)) + '">' + (fav.has(id) ? '★' : '☆') + '</button>'
+      : '')
     + '<b>' + esc(nm(id)) + '</b>'
     + '<button class="aquiet" data-unfr="' + esc(id) + '" data-verb="' + verb
     + '" style="margin-left:12px">' + verb + '</button>'
@@ -4895,14 +5028,23 @@ async function renderFriendsPage(){
     + status + '</span></div>'
     + shelfHTML(id) + '</div>';
   host.innerHTML = (mut.length || waiting.length)
-    ? mut.map(i=> card(i, 'friends', 'remove')).join('')
-      + waiting.map(i=> card(i, 'waiting on them', 'cancel')).join('')
+    ? ranked.map(i=> card(i, 'friends', 'remove', true)).join('')
+      + waiting.map(i=> card(i, 'waiting on them', 'cancel', false)).join('')
     : '<div class="acard"><span style="color:var(--ink-3);font-size:13px">'
       + 'No friends yet — share your code above and they appear here.</span></div>';
   $('fp-sub').textContent = mut.length
     ? mut.length + ' friend' + (mut.length === 1 ? '' : 's')
       + ' · the top of each shelf'
     : '';
+  pkAll(host);
+  host.querySelectorAll('button[data-fav]').forEach(b=>{
+    b.onclick = async ()=>{
+      const on = await toggleFavFriend(b.dataset.fav);
+      if(on === null){ flash('Favourite could not be saved — try again.'); return; }
+      // repaint rather than patch the one card: the whole list re-sorts
+      renderFriendsPage();
+    };
+  });
   host.querySelectorAll('button[data-unfr]').forEach(b=>{
     b.onclick = async ()=>{
       const who = nm(b.dataset.unfr);
@@ -4933,8 +5075,10 @@ async function renderMyClubs(){
       (titleOf(a.property_id) || '').localeCompare(titleOf(b.property_id) || ''));
     if(!rows.length){ card.classList.add('hide'); return; }
     card.classList.remove('hide');
-    host.innerHTML = rows.map(g=>
-      '<div class="afrow" style="align-items:baseline;margin-top:9px">'
+    // padding, not margin-top: the peek measures row boxes off each other and
+    // a collapsing first margin would move the cut by nine pixels
+    host.innerHTML = pkHTML(rows.map(g=>
+      '<div class="afrow" style="align-items:baseline;padding:5px 0">'
       + '<b style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'
       + esc(g.name) + '</b>'
       + '<span class="mono" style="font-size:10.5px;color:var(--ink-3)">'
@@ -4942,7 +5086,8 @@ async function renderMyClubs(){
       + '<span class="acode" style="margin-left:auto">' + esc(g.code) + '</span>'
       + '<button class="abtn" data-ccopy="' + esc(g.code) + '">Copy</button>'
       + '<button class="abtn" data-copen="' + esc(g.property_id) + '">Open</button>'
-      + '</div>').join('');
+      + '</div>'), 'clubs');
+    pkAll(host);
     host.querySelectorAll('button[data-ccopy]').forEach(b=>{
       b.onclick = ()=> acctCopy(b.dataset.ccopy, 'Club code copied — send it to whoever’s joining.');
     });
