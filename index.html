@@ -425,6 +425,10 @@ footer a{color:var(--steel)}
 .cbar span{flex:1 1 0;min-width:0;background:var(--rule);height:55%;border-radius:1px}
 .cbar span.on{height:100%}
 /* home — the shelf-and-ledger merge; splash stays for strangers */
+.sfoot{max-width:900px;margin:0 auto;padding:18px 20px 26px;font-size:11.5px;
+  color:var(--ink-3)}
+.sfoot a{color:inherit}
+.sfoot a:hover{color:var(--signal)}
 .phome{display:block;width:100%;text-align:left;font:inherit;font-size:13.5px;
   background:none;border:0;border-bottom:1px solid var(--rule);
   padding:11px 12px;cursor:pointer;color:var(--ink-2)}
@@ -2915,7 +2919,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'd77955107709';
+const BUILD = '275a3f5d3dcc';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -5659,7 +5663,11 @@ function armTonight(shelf){
   const draw = async ()=>{
     const r = await tonightPick(shelf);
     if(!r){ host.querySelector('.tc').textContent = 'Nothing unticked in that scope — widen it or wander the catalogue.'; return; }
-    host.innerHTML = '<span class="tt">'+esc(r[2])+'</span>'
+    // some rows are all number: a manga row's title is just "Chapter",
+    // the number rides the next field — show both, like search does
+    host.innerHTML = '<span class="tt">'+esc(r[2])
+      + (r[3] ? ' <span class="mono" style="font-size:.8em;color:var(--ink-3)">'+esc(r[3])+'</span>' : '')
+      + '</span>'
       + '<span class="tc">'+esc(titleOf(r[0]))+'</span>'
       + '<button id="b-topen" type="button">Open</button>'
       + '<button id="b-tpick" type="button">Another</button>';
@@ -6471,5 +6479,6 @@ loadProperty().then(()=>{
 });
 }
 </script>
+<footer class="sfoot"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></footer>
 </body>
 </html>
