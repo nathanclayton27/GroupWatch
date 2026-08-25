@@ -368,6 +368,25 @@
     "total": 35
   },
   {
+    "slug": "death-note",
+    "media": [
+      "anime"
+    ],
+    "title": "Death Note",
+    "subtitle": "the anime",
+    "kind": "anime",
+    "year": "2006–2007",
+    "popularity": 83,
+    "blurb": "All 37 episodes in broadcast order. The anime only.",
+    "accent": "#6C0000",
+    "accentDark": "#FF2E3C",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 37
+  },
+  {
     "slug": "dc-anthology",
     "media": [
       "movies",
