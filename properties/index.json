@@ -137,6 +137,26 @@
     "total": 178
   },
   {
+    "slug": "star-trek",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Star Trek",
+    "subtitle": "every episode and all thirteen films, in production order",
+    "kind": "tv & films",
+    "year": "1966–2026",
+    "popularity": 92,
+    "blurb": "Sixty years of it in the order it was made — 951 episodes across eleven series, with the thirteen films sitting beside the crews they belong to.",
+    "accent": "#392B63",
+    "accentDark": "#FFC08A",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 941
+  },
+  {
     "slug": "zelda",
     "media": [
       "games"
@@ -173,6 +193,25 @@
       "many": "episodes"
     },
     "total": 1174
+  },
+  {
+    "slug": "naruto",
+    "media": [
+      "anime"
+    ],
+    "title": "Naruto",
+    "subtitle": "The original series and Shippuden",
+    "kind": "anime",
+    "year": "2002–2017",
+    "popularity": 90,
+    "blurb": "720 episodes, both series in broadcast order, with the filler marked.",
+    "accent": "#155EEF",
+    "accentDark": "#7FA8FF",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 720
   },
   {
     "slug": "pixar",
@@ -329,6 +368,44 @@
     "total": 15
   },
   {
+    "slug": "the-office",
+    "media": [
+      "tv"
+    ],
+    "title": "The Office",
+    "subtitle": "the American series — nine seasons, 2005–2013",
+    "kind": "tv",
+    "year": "2005–2013",
+    "popularity": 85,
+    "blurb": "All 201 episodes in broadcast order — nine seasons at the Scranton branch of Dunder Mifflin, from Pilot to Finale.",
+    "accent": "#2E6F8E",
+    "accentDark": "#E8B27A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 186
+  },
+  {
+    "slug": "attack-on-titan",
+    "media": [
+      "anime"
+    ],
+    "title": "Attack on Titan",
+    "subtitle": "the complete broadcast run",
+    "kind": "anime",
+    "year": "2013–2023",
+    "popularity": 84,
+    "blurb": "All 94 episodes in broadcast order, season 1 through the Final Season's fourth part.",
+    "accent": "#2B5032",
+    "accentDark": "#63AD75",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 97
+  },
+  {
     "slug": "breaking-bad",
     "media": [
       "movies",
@@ -462,6 +539,45 @@
       "many": "episodes"
     },
     "total": 86
+  },
+  {
+    "slug": "nolan",
+    "media": [
+      "movies"
+    ],
+    "title": "Christopher Nolan",
+    "subtitle": "the directed features",
+    "kind": "films",
+    "year": "1998–2026",
+    "popularity": 80,
+    "blurb": "Thirteen features in release order, from a $6,000 debut to The Odyssey — 30 hours and 8 minutes of them, nine of the thirteen running over two hours each.",
+    "accent": "#0985C3",
+    "accentDark": "#2E96B2",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 13
+  },
+  {
+    "slug": "futurama",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Futurama",
+    "subtitle": "every episode, and the four films once each",
+    "kind": "tv & films",
+    "year": "1999–",
+    "popularity": 80,
+    "blurb": "163 rows across four eras — the Fox run, the four direct-to-video films, the Comedy Central revival and the Hulu revival, in the order they were made.",
+    "accent": "#472F8C",
+    "accentDark": "#5FEFB8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 163
   },
   {
     "slug": "godzilla",
@@ -1534,6 +1650,26 @@
     "total": 30
   },
   {
+    "slug": "battlestar-galactica",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Battlestar Galactica",
+    "subtitle": "the 2004 series, in broadcast order",
+    "kind": "tv & film",
+    "year": "2003–2009",
+    "popularity": 62,
+    "blurb": "The 2003 miniseries, all 74 episodes and both television films in the order they were broadcast — 77 entries.",
+    "accent": "#24889E",
+    "accentDark": "#EF5B3C",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 77
+  },
+  {
     "slug": "dc-animation",
     "media": [
       "movies",
@@ -1709,6 +1845,25 @@
       "many": "entries"
     },
     "total": 118
+  },
+  {
+    "slug": "fps-canon",
+    "media": [
+      "games"
+    ],
+    "title": "The FPS Canon",
+    "subtitle": "the genre-defining shooters, in release order",
+    "kind": "games",
+    "year": "1992–2020",
+    "popularity": 60,
+    "blurb": "27 shooters in the order they came out, Wolfenstein 3D to Half-Life: Alyx — about 245 hours of story across the 25 that have one.",
+    "accent": "#10851E",
+    "accentDark": "#4FE863",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 27
   },
   {
     "slug": "yakuza",
