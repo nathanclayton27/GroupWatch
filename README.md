@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and forty-six lists, from a ten-episode anime to a 1,337-spine film
+One hundred and forty-seven lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -108,7 +108,9 @@ on purpose),
 television list with a verified runtime on every row — *Invincible*,
 and the big anime runs: *Naruto* and *Bleach* with their filler
 marked only where two independent sources agree, *Attack on Titan*,
-*Hunter x Hunter*, *Death Note*.
+*Hunter x Hunter*, *Death Note*, and *Demon Slayer* — where Mugen Train
+is counted once rather than twice, because six of its seven television
+episodes are re-cuts of the film and the seventh is not.
 
 **Games.** *Kingdom Hearts*, in release order, weighted by how long each
 entry takes, and *Nasuverse* — Fate, Tsukihime, Melty Blood and the rest,

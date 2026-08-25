@@ -2417,6 +2417,26 @@ let MANIFEST = [
     "totalw": 63.9
   },
   {
+    "slug": "demon-slayer",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "subtitle": "every episode and the films, each story once",
+    "kind": "tv & films",
+    "year": "2019–",
+    "popularity": 74,
+    "blurb": "Ufotable's Taishō-era demon hunt, in story order — the four television arcs and the theatrical films, with Mugen Train counted once rather than twice.",
+    "accent": "#1A3A2A",
+    "accentDark": "#F2789F",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 59
+  },
+  {
     "slug": "metal-gear",
     "media": [
       "games"
@@ -4298,7 +4318,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '39fb43833c31';
+const BUILD = 'a59ec46f3ca6';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
