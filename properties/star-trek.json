@@ -1,0 +1,5189 @@
+{
+  "slug": "star-trek",
+  "title": "Star Trek",
+  "subtitle": "every episode and all thirteen films, in production order",
+  "kind": "tv & films",
+  "popularity": 92,
+  "year": "1966–2026",
+  "blurb": "Sixty years of it in the order it was made — 951 episodes across eleven series, with the thirteen films sitting beside the crews they belong to.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#392B63",
+  "accentDark": "#FFC08A",
+  "tiers": false,
+  "notes": [
+    [
+      "The films sit with the crew they belong to.",
+      "Each block of films follows the series whose cast it continues, at the point those films begin: the six original-cast films after the animated series, the four Next Generation films immediately after that show's finale, and the three Kelvin films in the gap after Enterprise when nothing was being made for television. Six of the thirteen came out while some series was in its run, and the section headings say so."
+    ],
+    [
+      "Series run in the order they premiered.",
+      "Which is why Lower Decks and Prodigy sit ahead of Strange New Worlds — they started first. Eight of the eleven series were on the air at the same time as another one, so no arrangement of whole series is strictly chronological; premiere date is the rule this page keeps to."
+    ],
+    [
+      "Sections are seasons, not series.",
+      "One section per season, running series by series, each headed with the series it belongs to. The alternative was a single 178-row accordion for The Next Generation with no season markers in it."
+    ],
+    [
+      "Twenty-three rows cover two episodes each.",
+      "Wikipedia's episode tables file some two-part stories as one row and this list follows them, carrying both numbers. Seventeen of those went out as a single installment and six a week apart; every one of the rows says which. That is 928 rows covering 951 episodes."
+    ],
+    [
+      "Nothing is weighted.",
+      "The thirteen films' runtimes are known — Wikidata carries all thirteen, about 26 hours, and the film headings add them up. The episodes are not so lucky: of 928 episode rows, 676 carry a runtime on Wikidata and 252 carry nothing, and the gap is not random — the classic shows are nearly covered while Picard, Lower Decks and Prodigy have not one runtime between them. A weighted list counts a row with no weight as one hour, so weighting what is known would push a guessed hour into every finish date 252 times over. An episode and a film each count one."
+    ],
+    [
+      "The Cage rides along, marked optional.",
+      "The 1964 pilot is not one of the 79 original-series episodes and was not broadcast until 1988, so it sits in a section of its own above season one."
+    ],
+    [
+      "What is not on this page.",
+      "Star Trek: Section 31 is a television film rather than one of the thirteen theatrical features, and the Short Treks are not episodes of any of these series. Strange New Worlds' fifth season has been ordered but has no announced titles or dates, so it has no rows yet; its fourth was mid-run on 24 August 2026, and the episodes still to come carry their announced dates."
+    ],
+    "Titles, numbering and broadcast dates machine-read from Wikipedia's per-series episode tables; every season's enumerated rows are asserted against that article's own Series overview count before this builds. Film runtimes and release dates from Wikidata, gated on a matching release year."
+  ],
+  "sections": [
+    {
+      "id": "tos-cage",
+      "title": "The Original Series · The Cage",
+      "sub": "1964 · the original pilot, not broadcast until 1988",
+      "items": [
+        {
+          "id": "st-tos-cage",
+          "t": "The Cage",
+          "n": "1964",
+          "opt": true,
+          "note": "The original pilot, made in 1964 and not broadcast until 1988"
+        }
+      ]
+    },
+    {
+      "id": "tos-s1",
+      "title": "The Original Series · Season 1",
+      "sub": "1966–67 · 29 episodes in 28 entries",
+      "items": [
+        {
+          "id": "st-tos-s1e01",
+          "t": "The Man Trap",
+          "n": "1"
+        },
+        {
+          "id": "st-tos-s1e02",
+          "t": "Charlie X",
+          "n": "2"
+        },
+        {
+          "id": "st-tos-s1e03",
+          "t": "Where No Man Has Gone Before",
+          "n": "3"
+        },
+        {
+          "id": "st-tos-s1e04",
+          "t": "The Naked Time",
+          "n": "4"
+        },
+        {
+          "id": "st-tos-s1e05",
+          "t": "The Enemy Within",
+          "n": "5"
+        },
+        {
+          "id": "st-tos-s1e06",
+          "t": "Mudd's Women",
+          "n": "6"
+        },
+        {
+          "id": "st-tos-s1e07",
+          "t": "What Are Little Girls Made Of?",
+          "n": "7"
+        },
+        {
+          "id": "st-tos-s1e08",
+          "t": "Miri",
+          "n": "8"
+        },
+        {
+          "id": "st-tos-s1e09",
+          "t": "Dagger of the Mind",
+          "n": "9"
+        },
+        {
+          "id": "st-tos-s1e10",
+          "t": "The Corbomite Maneuver",
+          "n": "10"
+        },
+        {
+          "id": "st-tos-s1e11",
+          "t": "The Menagerie",
+          "n": "11–12",
+          "note": "Two parts, a week apart"
+        },
+        {
+          "id": "st-tos-s1e13",
+          "t": "The Conscience of the King",
+          "n": "13"
+        },
+        {
+          "id": "st-tos-s1e14",
+          "t": "Balance of Terror",
+          "n": "14"
+        },
+        {
+          "id": "st-tos-s1e15",
+          "t": "Shore Leave",
+          "n": "15"
+        },
+        {
+          "id": "st-tos-s1e16",
+          "t": "The Galileo Seven",
+          "n": "16"
+        },
+        {
+          "id": "st-tos-s1e17",
+          "t": "The Squire of Gothos",
+          "n": "17"
+        },
+        {
+          "id": "st-tos-s1e18",
+          "t": "Arena",
+          "n": "18"
+        },
+        {
+          "id": "st-tos-s1e19",
+          "t": "Tomorrow Is Yesterday",
+          "n": "19"
+        },
+        {
+          "id": "st-tos-s1e20",
+          "t": "Court Martial",
+          "n": "20"
+        },
+        {
+          "id": "st-tos-s1e21",
+          "t": "The Return of the Archons",
+          "n": "21"
+        },
+        {
+          "id": "st-tos-s1e22",
+          "t": "Space Seed",
+          "n": "22"
+        },
+        {
+          "id": "st-tos-s1e23",
+          "t": "A Taste of Armageddon",
+          "n": "23"
+        },
+        {
+          "id": "st-tos-s1e24",
+          "t": "This Side of Paradise",
+          "n": "24"
+        },
+        {
+          "id": "st-tos-s1e25",
+          "t": "The Devil in the Dark",
+          "n": "25"
+        },
+        {
+          "id": "st-tos-s1e26",
+          "t": "Errand of Mercy",
+          "n": "26"
+        },
+        {
+          "id": "st-tos-s1e27",
+          "t": "The Alternative Factor",
+          "n": "27"
+        },
+        {
+          "id": "st-tos-s1e28",
+          "t": "The City on the Edge of Forever",
+          "n": "28"
+        },
+        {
+          "id": "st-tos-s1e29",
+          "t": "Operation – Annihilate!",
+          "n": "29"
+        }
+      ],
+      "intro": "Gene Roddenberry's original, on NBC for three seasons and 79 episodes. Everything else on this page descends from it.",
+      "open": true
+    },
+    {
+      "id": "tos-s2",
+      "title": "The Original Series · Season 2",
+      "sub": "1967–68 · 26 episodes",
+      "items": [
+        {
+          "id": "st-tos-s2e01",
+          "t": "Amok Time",
+          "n": "1"
+        },
+        {
+          "id": "st-tos-s2e02",
+          "t": "Who Mourns for Adonais?",
+          "n": "2"
+        },
+        {
+          "id": "st-tos-s2e03",
+          "t": "The Changeling",
+          "n": "3"
+        },
+        {
+          "id": "st-tos-s2e04",
+          "t": "Mirror, Mirror",
+          "n": "4"
+        },
+        {
+          "id": "st-tos-s2e05",
+          "t": "The Apple",
+          "n": "5"
+        },
+        {
+          "id": "st-tos-s2e06",
+          "t": "The Doomsday Machine",
+          "n": "6"
+        },
+        {
+          "id": "st-tos-s2e07",
+          "t": "Catspaw",
+          "n": "7"
+        },
+        {
+          "id": "st-tos-s2e08",
+          "t": "I, Mudd",
+          "n": "8"
+        },
+        {
+          "id": "st-tos-s2e09",
+          "t": "Metamorphosis",
+          "n": "9"
+        },
+        {
+          "id": "st-tos-s2e10",
+          "t": "Journey to Babel",
+          "n": "10"
+        },
+        {
+          "id": "st-tos-s2e11",
+          "t": "Friday's Child",
+          "n": "11"
+        },
+        {
+          "id": "st-tos-s2e12",
+          "t": "The Deadly Years",
+          "n": "12"
+        },
+        {
+          "id": "st-tos-s2e13",
+          "t": "Obsession",
+          "n": "13"
+        },
+        {
+          "id": "st-tos-s2e14",
+          "t": "Wolf in the Fold",
+          "n": "14"
+        },
+        {
+          "id": "st-tos-s2e15",
+          "t": "The Trouble with Tribbles",
+          "n": "15"
+        },
+        {
+          "id": "st-tos-s2e16",
+          "t": "The Gamesters of Triskelion",
+          "n": "16"
+        },
+        {
+          "id": "st-tos-s2e17",
+          "t": "A Piece of the Action",
+          "n": "17"
+        },
+        {
+          "id": "st-tos-s2e18",
+          "t": "The Immunity Syndrome",
+          "n": "18"
+        },
+        {
+          "id": "st-tos-s2e19",
+          "t": "A Private Little War",
+          "n": "19"
+        },
+        {
+          "id": "st-tos-s2e20",
+          "t": "Return to Tomorrow",
+          "n": "20"
+        },
+        {
+          "id": "st-tos-s2e21",
+          "t": "Patterns of Force",
+          "n": "21"
+        },
+        {
+          "id": "st-tos-s2e22",
+          "t": "By Any Other Name",
+          "n": "22"
+        },
+        {
+          "id": "st-tos-s2e23",
+          "t": "The Omega Glory",
+          "n": "23"
+        },
+        {
+          "id": "st-tos-s2e24",
+          "t": "The Ultimate Computer",
+          "n": "24"
+        },
+        {
+          "id": "st-tos-s2e25",
+          "t": "Bread and Circuses",
+          "n": "25"
+        },
+        {
+          "id": "st-tos-s2e26",
+          "t": "Assignment: Earth",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "tos-s3",
+      "title": "The Original Series · Season 3",
+      "sub": "1968–69 · 24 episodes",
+      "items": [
+        {
+          "id": "st-tos-s3e01",
+          "t": "Spock's Brain",
+          "n": "1"
+        },
+        {
+          "id": "st-tos-s3e02",
+          "t": "The Enterprise Incident",
+          "n": "2"
+        },
+        {
+          "id": "st-tos-s3e03",
+          "t": "The Paradise Syndrome",
+          "n": "3"
+        },
+        {
+          "id": "st-tos-s3e04",
+          "t": "And the Children Shall Lead",
+          "n": "4"
+        },
+        {
+          "id": "st-tos-s3e05",
+          "t": "Is There in Truth No Beauty?",
+          "n": "5"
+        },
+        {
+          "id": "st-tos-s3e06",
+          "t": "Spectre of the Gun",
+          "n": "6"
+        },
+        {
+          "id": "st-tos-s3e07",
+          "t": "Day of the Dove",
+          "n": "7"
+        },
+        {
+          "id": "st-tos-s3e08",
+          "t": "For the World Is Hollow and I Have Touched the Sky",
+          "n": "8"
+        },
+        {
+          "id": "st-tos-s3e09",
+          "t": "The Tholian Web",
+          "n": "9"
+        },
+        {
+          "id": "st-tos-s3e10",
+          "t": "Plato's Stepchildren",
+          "n": "10"
+        },
+        {
+          "id": "st-tos-s3e11",
+          "t": "Wink of an Eye",
+          "n": "11"
+        },
+        {
+          "id": "st-tos-s3e12",
+          "t": "The Empath",
+          "n": "12"
+        },
+        {
+          "id": "st-tos-s3e13",
+          "t": "Elaan of Troyius",
+          "n": "13"
+        },
+        {
+          "id": "st-tos-s3e14",
+          "t": "Whom Gods Destroy",
+          "n": "14"
+        },
+        {
+          "id": "st-tos-s3e15",
+          "t": "Let That Be Your Last Battlefield",
+          "n": "15"
+        },
+        {
+          "id": "st-tos-s3e16",
+          "t": "The Mark of Gideon",
+          "n": "16"
+        },
+        {
+          "id": "st-tos-s3e17",
+          "t": "That Which Survives",
+          "n": "17"
+        },
+        {
+          "id": "st-tos-s3e18",
+          "t": "The Lights of Zetar",
+          "n": "18"
+        },
+        {
+          "id": "st-tos-s3e19",
+          "t": "Requiem for Methuselah",
+          "n": "19"
+        },
+        {
+          "id": "st-tos-s3e20",
+          "t": "The Way to Eden",
+          "n": "20"
+        },
+        {
+          "id": "st-tos-s3e21",
+          "t": "The Cloud Minders",
+          "n": "21"
+        },
+        {
+          "id": "st-tos-s3e22",
+          "t": "The Savage Curtain",
+          "n": "22"
+        },
+        {
+          "id": "st-tos-s3e23",
+          "t": "All Our Yesterdays",
+          "n": "23"
+        },
+        {
+          "id": "st-tos-s3e24",
+          "t": "Turnabout Intruder",
+          "n": "24"
+        }
+      ]
+    },
+    {
+      "id": "tas-s1",
+      "title": "The Animated Series · Season 1",
+      "sub": "1973–74 · 16 episodes",
+      "items": [
+        {
+          "id": "st-tas-s1e01",
+          "t": "Beyond the Farthest Star",
+          "n": "1"
+        },
+        {
+          "id": "st-tas-s1e02",
+          "t": "Yesteryear",
+          "n": "2"
+        },
+        {
+          "id": "st-tas-s1e03",
+          "t": "One of Our Planets Is Missing",
+          "n": "3"
+        },
+        {
+          "id": "st-tas-s1e04",
+          "t": "The Lorelei Signal",
+          "n": "4"
+        },
+        {
+          "id": "st-tas-s1e05",
+          "t": "More Tribbles, More Troubles",
+          "n": "5"
+        },
+        {
+          "id": "st-tas-s1e06",
+          "t": "The Survivor",
+          "n": "6"
+        },
+        {
+          "id": "st-tas-s1e07",
+          "t": "The Infinite Vulcan",
+          "n": "7"
+        },
+        {
+          "id": "st-tas-s1e08",
+          "t": "The Magicks of Megas-tu",
+          "n": "8"
+        },
+        {
+          "id": "st-tas-s1e09",
+          "t": "Once Upon a Planet",
+          "n": "9"
+        },
+        {
+          "id": "st-tas-s1e10",
+          "t": "Mudd's Passion",
+          "n": "10"
+        },
+        {
+          "id": "st-tas-s1e11",
+          "t": "The Terratin Incident",
+          "n": "11"
+        },
+        {
+          "id": "st-tas-s1e12",
+          "t": "The Time Trap",
+          "n": "12"
+        },
+        {
+          "id": "st-tas-s1e13",
+          "t": "The Ambergris Element",
+          "n": "13"
+        },
+        {
+          "id": "st-tas-s1e14",
+          "t": "The Slaver Weapon",
+          "n": "14"
+        },
+        {
+          "id": "st-tas-s1e15",
+          "t": "The Eye of the Beholder",
+          "n": "15"
+        },
+        {
+          "id": "st-tas-s1e16",
+          "t": "The Jihad",
+          "n": "16"
+        }
+      ],
+      "intro": "The animated continuation, made with most of the original cast voicing their own parts. Twenty-two half-hour episodes."
+    },
+    {
+      "id": "tas-s2",
+      "title": "The Animated Series · Season 2",
+      "sub": "1974 · 6 episodes",
+      "items": [
+        {
+          "id": "st-tas-s2e01",
+          "t": "The Pirates of Orion",
+          "n": "1"
+        },
+        {
+          "id": "st-tas-s2e02",
+          "t": "Bem",
+          "n": "2"
+        },
+        {
+          "id": "st-tas-s2e03",
+          "t": "The Practical Joker",
+          "n": "3"
+        },
+        {
+          "id": "st-tas-s2e04",
+          "t": "Albatross",
+          "n": "4"
+        },
+        {
+          "id": "st-tas-s2e05",
+          "t": "How Sharper Than a Serpent's Tooth",
+          "n": "5"
+        },
+        {
+          "id": "st-tas-s2e06",
+          "t": "The Counter-Clock Incident",
+          "n": "6"
+        }
+      ]
+    },
+    {
+      "id": "films-tos",
+      "title": "The Original Series films",
+      "sub": "1979–91 · 6 films · about 12 hours",
+      "intro": "Six films with the original cast. The first four arrived in the gap after the animated series; The Final Frontier and The Undiscovered Country came out while The Next Generation was already on the air.",
+      "items": [
+        {
+          "id": "st-film-1979",
+          "t": "Star Trek: The Motion Picture",
+          "n": "1979",
+          "note": "Directed by Robert Wise · 132 minutes"
+        },
+        {
+          "id": "st-film-1982",
+          "t": "Star Trek II: The Wrath of Khan",
+          "n": "1982",
+          "note": "Directed by Nicholas Meyer · 113 minutes"
+        },
+        {
+          "id": "st-film-1984",
+          "t": "Star Trek III: The Search for Spock",
+          "n": "1984",
+          "note": "Directed by Leonard Nimoy · 106 minutes"
+        },
+        {
+          "id": "st-film-1986",
+          "t": "Star Trek IV: The Voyage Home",
+          "n": "1986",
+          "note": "Directed by Leonard Nimoy · 119 minutes"
+        },
+        {
+          "id": "st-film-1989",
+          "t": "Star Trek V: The Final Frontier",
+          "n": "1989",
+          "note": "Directed by William Shatner · 107 minutes"
+        },
+        {
+          "id": "st-film-1991",
+          "t": "Star Trek VI: The Undiscovered Country",
+          "n": "1991",
+          "note": "Directed by Nicholas Meyer · 113 minutes"
+        }
+      ]
+    },
+    {
+      "id": "tng-s1",
+      "title": "The Next Generation · Season 1",
+      "sub": "1987–88 · 26 episodes in 25 entries",
+      "items": [
+        {
+          "id": "st-tng-s1e01",
+          "t": "Encounter at Farpoint",
+          "n": "1–2",
+          "note": "Two parts, aired as one double-length episode"
+        },
+        {
+          "id": "st-tng-s1e03",
+          "t": "The Naked Now",
+          "n": "3"
+        },
+        {
+          "id": "st-tng-s1e04",
+          "t": "Code of Honor",
+          "n": "4"
+        },
+        {
+          "id": "st-tng-s1e05",
+          "t": "The Last Outpost",
+          "n": "5"
+        },
+        {
+          "id": "st-tng-s1e06",
+          "t": "Where No One Has Gone Before",
+          "n": "6"
+        },
+        {
+          "id": "st-tng-s1e07",
+          "t": "Lonely Among Us",
+          "n": "7"
+        },
+        {
+          "id": "st-tng-s1e08",
+          "t": "Justice",
+          "n": "8"
+        },
+        {
+          "id": "st-tng-s1e09",
+          "t": "The Battle",
+          "n": "9"
+        },
+        {
+          "id": "st-tng-s1e10",
+          "t": "Hide and Q",
+          "n": "10"
+        },
+        {
+          "id": "st-tng-s1e11",
+          "t": "Haven",
+          "n": "11"
+        },
+        {
+          "id": "st-tng-s1e12",
+          "t": "The Big Goodbye",
+          "n": "12"
+        },
+        {
+          "id": "st-tng-s1e13",
+          "t": "Datalore",
+          "n": "13"
+        },
+        {
+          "id": "st-tng-s1e14",
+          "t": "Angel One",
+          "n": "14"
+        },
+        {
+          "id": "st-tng-s1e15",
+          "t": "11001001",
+          "n": "15"
+        },
+        {
+          "id": "st-tng-s1e16",
+          "t": "Too Short a Season",
+          "n": "16"
+        },
+        {
+          "id": "st-tng-s1e17",
+          "t": "When the Bough Breaks",
+          "n": "17"
+        },
+        {
+          "id": "st-tng-s1e18",
+          "t": "Home Soil",
+          "n": "18"
+        },
+        {
+          "id": "st-tng-s1e19",
+          "t": "Coming of Age",
+          "n": "19"
+        },
+        {
+          "id": "st-tng-s1e20",
+          "t": "Heart of Glory",
+          "n": "20"
+        },
+        {
+          "id": "st-tng-s1e21",
+          "t": "The Arsenal of Freedom",
+          "n": "21"
+        },
+        {
+          "id": "st-tng-s1e22",
+          "t": "Symbiosis",
+          "n": "22"
+        },
+        {
+          "id": "st-tng-s1e23",
+          "t": "Skin of Evil",
+          "n": "23"
+        },
+        {
+          "id": "st-tng-s1e24",
+          "t": "We'll Always Have Paris",
+          "n": "24"
+        },
+        {
+          "id": "st-tng-s1e25",
+          "t": "Conspiracy",
+          "n": "25"
+        },
+        {
+          "id": "st-tng-s1e26",
+          "t": "The Neutral Zone",
+          "n": "26"
+        }
+      ],
+      "intro": "A new ship, a new crew and a new cast, in first-run syndication. Seven seasons and 178 episodes."
+    },
+    {
+      "id": "tng-s2",
+      "title": "The Next Generation · Season 2",
+      "sub": "1988–89 · 22 episodes",
+      "items": [
+        {
+          "id": "st-tng-s2e01",
+          "t": "The Child",
+          "n": "1"
+        },
+        {
+          "id": "st-tng-s2e02",
+          "t": "Where Silence Has Lease",
+          "n": "2"
+        },
+        {
+          "id": "st-tng-s2e03",
+          "t": "Elementary, Dear Data",
+          "n": "3"
+        },
+        {
+          "id": "st-tng-s2e04",
+          "t": "The Outrageous Okona",
+          "n": "4"
+        },
+        {
+          "id": "st-tng-s2e05",
+          "t": "Loud as a Whisper",
+          "n": "5"
+        },
+        {
+          "id": "st-tng-s2e06",
+          "t": "The Schizoid Man",
+          "n": "6"
+        },
+        {
+          "id": "st-tng-s2e07",
+          "t": "Unnatural Selection",
+          "n": "7"
+        },
+        {
+          "id": "st-tng-s2e08",
+          "t": "A Matter of Honor",
+          "n": "8"
+        },
+        {
+          "id": "st-tng-s2e09",
+          "t": "The Measure of a Man",
+          "n": "9"
+        },
+        {
+          "id": "st-tng-s2e10",
+          "t": "The Dauphin",
+          "n": "10"
+        },
+        {
+          "id": "st-tng-s2e11",
+          "t": "Contagion",
+          "n": "11"
+        },
+        {
+          "id": "st-tng-s2e12",
+          "t": "The Royale",
+          "n": "12"
+        },
+        {
+          "id": "st-tng-s2e13",
+          "t": "Time Squared",
+          "n": "13"
+        },
+        {
+          "id": "st-tng-s2e14",
+          "t": "The Icarus Factor",
+          "n": "14"
+        },
+        {
+          "id": "st-tng-s2e15",
+          "t": "Pen Pals",
+          "n": "15"
+        },
+        {
+          "id": "st-tng-s2e16",
+          "t": "Q Who",
+          "n": "16"
+        },
+        {
+          "id": "st-tng-s2e17",
+          "t": "Samaritan Snare",
+          "n": "17"
+        },
+        {
+          "id": "st-tng-s2e18",
+          "t": "Up the Long Ladder",
+          "n": "18"
+        },
+        {
+          "id": "st-tng-s2e19",
+          "t": "Manhunt",
+          "n": "19"
+        },
+        {
+          "id": "st-tng-s2e20",
+          "t": "The Emissary",
+          "n": "20"
+        },
+        {
+          "id": "st-tng-s2e21",
+          "t": "Peak Performance",
+          "n": "21"
+        },
+        {
+          "id": "st-tng-s2e22",
+          "t": "Shades of Gray",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "tng-s3",
+      "title": "The Next Generation · Season 3",
+      "sub": "1989–90 · 26 episodes",
+      "items": [
+        {
+          "id": "st-tng-s3e01",
+          "t": "Evolution",
+          "n": "1"
+        },
+        {
+          "id": "st-tng-s3e02",
+          "t": "The Ensigns of Command",
+          "n": "2"
+        },
+        {
+          "id": "st-tng-s3e03",
+          "t": "The Survivors",
+          "n": "3"
+        },
+        {
+          "id": "st-tng-s3e04",
+          "t": "Who Watches the Watchers",
+          "n": "4"
+        },
+        {
+          "id": "st-tng-s3e05",
+          "t": "The Bonding",
+          "n": "5"
+        },
+        {
+          "id": "st-tng-s3e06",
+          "t": "Booby Trap",
+          "n": "6"
+        },
+        {
+          "id": "st-tng-s3e07",
+          "t": "The Enemy",
+          "n": "7"
+        },
+        {
+          "id": "st-tng-s3e08",
+          "t": "The Price",
+          "n": "8"
+        },
+        {
+          "id": "st-tng-s3e09",
+          "t": "The Vengeance Factor",
+          "n": "9"
+        },
+        {
+          "id": "st-tng-s3e10",
+          "t": "The Defector",
+          "n": "10"
+        },
+        {
+          "id": "st-tng-s3e11",
+          "t": "The Hunted",
+          "n": "11"
+        },
+        {
+          "id": "st-tng-s3e12",
+          "t": "The High Ground",
+          "n": "12"
+        },
+        {
+          "id": "st-tng-s3e13",
+          "t": "Deja Q",
+          "n": "13"
+        },
+        {
+          "id": "st-tng-s3e14",
+          "t": "A Matter of Perspective",
+          "n": "14"
+        },
+        {
+          "id": "st-tng-s3e15",
+          "t": "Yesterday's Enterprise",
+          "n": "15"
+        },
+        {
+          "id": "st-tng-s3e16",
+          "t": "The Offspring",
+          "n": "16"
+        },
+        {
+          "id": "st-tng-s3e17",
+          "t": "Sins of the Father",
+          "n": "17"
+        },
+        {
+          "id": "st-tng-s3e18",
+          "t": "Allegiance",
+          "n": "18"
+        },
+        {
+          "id": "st-tng-s3e19",
+          "t": "Captain's Holiday",
+          "n": "19"
+        },
+        {
+          "id": "st-tng-s3e20",
+          "t": "Tin Man",
+          "n": "20"
+        },
+        {
+          "id": "st-tng-s3e21",
+          "t": "Hollow Pursuits",
+          "n": "21"
+        },
+        {
+          "id": "st-tng-s3e22",
+          "t": "The Most Toys",
+          "n": "22"
+        },
+        {
+          "id": "st-tng-s3e23",
+          "t": "Sarek",
+          "n": "23"
+        },
+        {
+          "id": "st-tng-s3e24",
+          "t": "Ménage à Troi",
+          "n": "24"
+        },
+        {
+          "id": "st-tng-s3e25",
+          "t": "Transfigurations",
+          "n": "25"
+        },
+        {
+          "id": "st-tng-s3e26",
+          "t": "The Best of Both Worlds, Part I",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "tng-s4",
+      "title": "The Next Generation · Season 4",
+      "sub": "1990–91 · 26 episodes",
+      "items": [
+        {
+          "id": "st-tng-s4e01",
+          "t": "The Best of Both Worlds, Part II",
+          "n": "1"
+        },
+        {
+          "id": "st-tng-s4e02",
+          "t": "Family",
+          "n": "2"
+        },
+        {
+          "id": "st-tng-s4e03",
+          "t": "Brothers",
+          "n": "3"
+        },
+        {
+          "id": "st-tng-s4e04",
+          "t": "Suddenly Human",
+          "n": "4"
+        },
+        {
+          "id": "st-tng-s4e05",
+          "t": "Remember Me",
+          "n": "5"
+        },
+        {
+          "id": "st-tng-s4e06",
+          "t": "Legacy",
+          "n": "6"
+        },
+        {
+          "id": "st-tng-s4e07",
+          "t": "Reunion",
+          "n": "7"
+        },
+        {
+          "id": "st-tng-s4e08",
+          "t": "Future Imperfect",
+          "n": "8"
+        },
+        {
+          "id": "st-tng-s4e09",
+          "t": "Final Mission",
+          "n": "9"
+        },
+        {
+          "id": "st-tng-s4e10",
+          "t": "The Loss",
+          "n": "10"
+        },
+        {
+          "id": "st-tng-s4e11",
+          "t": "Data's Day",
+          "n": "11"
+        },
+        {
+          "id": "st-tng-s4e12",
+          "t": "The Wounded",
+          "n": "12"
+        },
+        {
+          "id": "st-tng-s4e13",
+          "t": "Devil's Due",
+          "n": "13"
+        },
+        {
+          "id": "st-tng-s4e14",
+          "t": "Clues",
+          "n": "14"
+        },
+        {
+          "id": "st-tng-s4e15",
+          "t": "First Contact",
+          "n": "15"
+        },
+        {
+          "id": "st-tng-s4e16",
+          "t": "Galaxy's Child",
+          "n": "16"
+        },
+        {
+          "id": "st-tng-s4e17",
+          "t": "Night Terrors",
+          "n": "17"
+        },
+        {
+          "id": "st-tng-s4e18",
+          "t": "Identity Crisis",
+          "n": "18"
+        },
+        {
+          "id": "st-tng-s4e19",
+          "t": "The Nth Degree",
+          "n": "19"
+        },
+        {
+          "id": "st-tng-s4e20",
+          "t": "Qpid",
+          "n": "20"
+        },
+        {
+          "id": "st-tng-s4e21",
+          "t": "The Drumhead",
+          "n": "21"
+        },
+        {
+          "id": "st-tng-s4e22",
+          "t": "Half a Life",
+          "n": "22"
+        },
+        {
+          "id": "st-tng-s4e23",
+          "t": "The Host",
+          "n": "23"
+        },
+        {
+          "id": "st-tng-s4e24",
+          "t": "The Mind's Eye",
+          "n": "24"
+        },
+        {
+          "id": "st-tng-s4e25",
+          "t": "In Theory",
+          "n": "25"
+        },
+        {
+          "id": "st-tng-s4e26",
+          "t": "Redemption, Part I",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "tng-s5",
+      "title": "The Next Generation · Season 5",
+      "sub": "1991–92 · 26 episodes",
+      "items": [
+        {
+          "id": "st-tng-s5e01",
+          "t": "Redemption, Part II",
+          "n": "1"
+        },
+        {
+          "id": "st-tng-s5e02",
+          "t": "Darmok",
+          "n": "2"
+        },
+        {
+          "id": "st-tng-s5e03",
+          "t": "Ensign Ro",
+          "n": "3"
+        },
+        {
+          "id": "st-tng-s5e04",
+          "t": "Silicon Avatar",
+          "n": "4"
+        },
+        {
+          "id": "st-tng-s5e05",
+          "t": "Disaster",
+          "n": "5"
+        },
+        {
+          "id": "st-tng-s5e06",
+          "t": "The Game",
+          "n": "6"
+        },
+        {
+          "id": "st-tng-s5e07",
+          "t": "Unification, Part I",
+          "n": "7"
+        },
+        {
+          "id": "st-tng-s5e08",
+          "t": "Unification, Part II",
+          "n": "8"
+        },
+        {
+          "id": "st-tng-s5e09",
+          "t": "A Matter of Time",
+          "n": "9"
+        },
+        {
+          "id": "st-tng-s5e10",
+          "t": "New Ground",
+          "n": "10"
+        },
+        {
+          "id": "st-tng-s5e11",
+          "t": "Hero Worship",
+          "n": "11"
+        },
+        {
+          "id": "st-tng-s5e12",
+          "t": "Violations",
+          "n": "12"
+        },
+        {
+          "id": "st-tng-s5e13",
+          "t": "The Masterpiece Society",
+          "n": "13"
+        },
+        {
+          "id": "st-tng-s5e14",
+          "t": "Conundrum",
+          "n": "14"
+        },
+        {
+          "id": "st-tng-s5e15",
+          "t": "Power Play",
+          "n": "15"
+        },
+        {
+          "id": "st-tng-s5e16",
+          "t": "Ethics",
+          "n": "16"
+        },
+        {
+          "id": "st-tng-s5e17",
+          "t": "The Outcast",
+          "n": "17"
+        },
+        {
+          "id": "st-tng-s5e18",
+          "t": "Cause and Effect",
+          "n": "18"
+        },
+        {
+          "id": "st-tng-s5e19",
+          "t": "The First Duty",
+          "n": "19"
+        },
+        {
+          "id": "st-tng-s5e20",
+          "t": "Cost of Living",
+          "n": "20"
+        },
+        {
+          "id": "st-tng-s5e21",
+          "t": "The Perfect Mate",
+          "n": "21"
+        },
+        {
+          "id": "st-tng-s5e22",
+          "t": "Imaginary Friend",
+          "n": "22"
+        },
+        {
+          "id": "st-tng-s5e23",
+          "t": "I, Borg",
+          "n": "23"
+        },
+        {
+          "id": "st-tng-s5e24",
+          "t": "The Next Phase",
+          "n": "24"
+        },
+        {
+          "id": "st-tng-s5e25",
+          "t": "The Inner Light",
+          "n": "25"
+        },
+        {
+          "id": "st-tng-s5e26",
+          "t": "Time's Arrow, Part I",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "tng-s6",
+      "title": "The Next Generation · Season 6",
+      "sub": "1992–93 · 26 episodes",
+      "items": [
+        {
+          "id": "st-tng-s6e01",
+          "t": "Time's Arrow, Part II",
+          "n": "1"
+        },
+        {
+          "id": "st-tng-s6e02",
+          "t": "Realm of Fear",
+          "n": "2"
+        },
+        {
+          "id": "st-tng-s6e03",
+          "t": "Man of the People",
+          "n": "3"
+        },
+        {
+          "id": "st-tng-s6e04",
+          "t": "Relics",
+          "n": "4"
+        },
+        {
+          "id": "st-tng-s6e05",
+          "t": "Schisms",
+          "n": "5"
+        },
+        {
+          "id": "st-tng-s6e06",
+          "t": "True Q",
+          "n": "6"
+        },
+        {
+          "id": "st-tng-s6e07",
+          "t": "Rascals",
+          "n": "7"
+        },
+        {
+          "id": "st-tng-s6e08",
+          "t": "A Fistful of Datas",
+          "n": "8"
+        },
+        {
+          "id": "st-tng-s6e09",
+          "t": "The Quality of Life",
+          "n": "9"
+        },
+        {
+          "id": "st-tng-s6e10",
+          "t": "Chain of Command, Part I",
+          "n": "10"
+        },
+        {
+          "id": "st-tng-s6e11",
+          "t": "Chain of Command, Part II",
+          "n": "11"
+        },
+        {
+          "id": "st-tng-s6e12",
+          "t": "Ship in a Bottle",
+          "n": "12"
+        },
+        {
+          "id": "st-tng-s6e13",
+          "t": "Aquiel",
+          "n": "13"
+        },
+        {
+          "id": "st-tng-s6e14",
+          "t": "Face of the Enemy",
+          "n": "14"
+        },
+        {
+          "id": "st-tng-s6e15",
+          "t": "Tapestry",
+          "n": "15"
+        },
+        {
+          "id": "st-tng-s6e16",
+          "t": "Birthright, Part I",
+          "n": "16"
+        },
+        {
+          "id": "st-tng-s6e17",
+          "t": "Birthright, Part II",
+          "n": "17"
+        },
+        {
+          "id": "st-tng-s6e18",
+          "t": "Starship Mine",
+          "n": "18"
+        },
+        {
+          "id": "st-tng-s6e19",
+          "t": "Lessons",
+          "n": "19"
+        },
+        {
+          "id": "st-tng-s6e20",
+          "t": "The Chase",
+          "n": "20"
+        },
+        {
+          "id": "st-tng-s6e21",
+          "t": "Frame of Mind",
+          "n": "21"
+        },
+        {
+          "id": "st-tng-s6e22",
+          "t": "Suspicions",
+          "n": "22"
+        },
+        {
+          "id": "st-tng-s6e23",
+          "t": "Rightful Heir",
+          "n": "23"
+        },
+        {
+          "id": "st-tng-s6e24",
+          "t": "Second Chances",
+          "n": "24"
+        },
+        {
+          "id": "st-tng-s6e25",
+          "t": "Timescape",
+          "n": "25"
+        },
+        {
+          "id": "st-tng-s6e26",
+          "t": "Descent, Part I",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "tng-s7",
+      "title": "The Next Generation · Season 7",
+      "sub": "1993–94 · 26 episodes in 25 entries",
+      "items": [
+        {
+          "id": "st-tng-s7e01",
+          "t": "Descent, Part II",
+          "n": "1"
+        },
+        {
+          "id": "st-tng-s7e02",
+          "t": "Liaisons",
+          "n": "2"
+        },
+        {
+          "id": "st-tng-s7e03",
+          "t": "Interface",
+          "n": "3"
+        },
+        {
+          "id": "st-tng-s7e04",
+          "t": "Gambit, Part I",
+          "n": "4"
+        },
+        {
+          "id": "st-tng-s7e05",
+          "t": "Gambit, Part II",
+          "n": "5"
+        },
+        {
+          "id": "st-tng-s7e06",
+          "t": "Phantasms",
+          "n": "6"
+        },
+        {
+          "id": "st-tng-s7e07",
+          "t": "Dark Page",
+          "n": "7"
+        },
+        {
+          "id": "st-tng-s7e08",
+          "t": "Attached",
+          "n": "8"
+        },
+        {
+          "id": "st-tng-s7e09",
+          "t": "Force of Nature",
+          "n": "9"
+        },
+        {
+          "id": "st-tng-s7e10",
+          "t": "Inheritance",
+          "n": "10"
+        },
+        {
+          "id": "st-tng-s7e11",
+          "t": "Parallels",
+          "n": "11"
+        },
+        {
+          "id": "st-tng-s7e12",
+          "t": "The Pegasus",
+          "n": "12"
+        },
+        {
+          "id": "st-tng-s7e13",
+          "t": "Homeward",
+          "n": "13"
+        },
+        {
+          "id": "st-tng-s7e14",
+          "t": "Sub Rosa",
+          "n": "14"
+        },
+        {
+          "id": "st-tng-s7e15",
+          "t": "Lower Decks",
+          "n": "15"
+        },
+        {
+          "id": "st-tng-s7e16",
+          "t": "Thine Own Self",
+          "n": "16"
+        },
+        {
+          "id": "st-tng-s7e17",
+          "t": "Masks",
+          "n": "17"
+        },
+        {
+          "id": "st-tng-s7e18",
+          "t": "Eye of the Beholder",
+          "n": "18"
+        },
+        {
+          "id": "st-tng-s7e19",
+          "t": "Genesis",
+          "n": "19"
+        },
+        {
+          "id": "st-tng-s7e20",
+          "t": "Journey's End",
+          "n": "20"
+        },
+        {
+          "id": "st-tng-s7e21",
+          "t": "Firstborn",
+          "n": "21"
+        },
+        {
+          "id": "st-tng-s7e22",
+          "t": "Bloodlines",
+          "n": "22"
+        },
+        {
+          "id": "st-tng-s7e23",
+          "t": "Emergence",
+          "n": "23"
+        },
+        {
+          "id": "st-tng-s7e24",
+          "t": "Preemptive Strike",
+          "n": "24"
+        },
+        {
+          "id": "st-tng-s7e25",
+          "t": "All Good Things...",
+          "n": "25–26",
+          "note": "Two parts, aired as one double-length episode"
+        }
+      ]
+    },
+    {
+      "id": "films-tng",
+      "title": "The Next Generation films",
+      "sub": "1994–2002 · 4 films · about 8 hours",
+      "intro": "Four films with the Next Generation cast. Generations arrived six months after the series finale; the other three came out while Deep Space Nine, Voyager and Enterprise were on television.",
+      "items": [
+        {
+          "id": "st-film-1994",
+          "t": "Star Trek Generations",
+          "n": "1994",
+          "note": "Directed by David Carson · 118 minutes"
+        },
+        {
+          "id": "st-film-1996",
+          "t": "Star Trek: First Contact",
+          "n": "1996",
+          "note": "Directed by Jonathan Frakes · 112 minutes"
+        },
+        {
+          "id": "st-film-1998",
+          "t": "Star Trek: Insurrection",
+          "n": "1998",
+          "note": "Directed by Jonathan Frakes · 103 minutes"
+        },
+        {
+          "id": "st-film-2002",
+          "t": "Star Trek: Nemesis",
+          "n": "2002",
+          "note": "Directed by Stuart Baird · 117 minutes"
+        }
+      ]
+    },
+    {
+      "id": "ds9-s1",
+      "title": "Deep Space Nine · Season 1",
+      "sub": "1993 · 20 episodes in 19 entries",
+      "items": [
+        {
+          "id": "st-ds9-s1e01",
+          "t": "Emissary",
+          "n": "1–2",
+          "note": "Two parts, aired as one double-length episode"
+        },
+        {
+          "id": "st-ds9-s1e03",
+          "t": "Past Prologue",
+          "n": "3"
+        },
+        {
+          "id": "st-ds9-s1e04",
+          "t": "A Man Alone",
+          "n": "4"
+        },
+        {
+          "id": "st-ds9-s1e05",
+          "t": "Babel",
+          "n": "5"
+        },
+        {
+          "id": "st-ds9-s1e06",
+          "t": "Captive Pursuit",
+          "n": "6"
+        },
+        {
+          "id": "st-ds9-s1e07",
+          "t": "Q-Less",
+          "n": "7"
+        },
+        {
+          "id": "st-ds9-s1e08",
+          "t": "Dax",
+          "n": "8"
+        },
+        {
+          "id": "st-ds9-s1e09",
+          "t": "The Passenger",
+          "n": "9"
+        },
+        {
+          "id": "st-ds9-s1e10",
+          "t": "Move Along Home",
+          "n": "10"
+        },
+        {
+          "id": "st-ds9-s1e11",
+          "t": "The Nagus",
+          "n": "11"
+        },
+        {
+          "id": "st-ds9-s1e12",
+          "t": "Vortex",
+          "n": "12"
+        },
+        {
+          "id": "st-ds9-s1e13",
+          "t": "Battle Lines",
+          "n": "13"
+        },
+        {
+          "id": "st-ds9-s1e14",
+          "t": "The Storyteller",
+          "n": "14"
+        },
+        {
+          "id": "st-ds9-s1e15",
+          "t": "Progress",
+          "n": "15"
+        },
+        {
+          "id": "st-ds9-s1e16",
+          "t": "If Wishes Were Horses",
+          "n": "16"
+        },
+        {
+          "id": "st-ds9-s1e17",
+          "t": "The Forsaken",
+          "n": "17"
+        },
+        {
+          "id": "st-ds9-s1e18",
+          "t": "Dramatis Personae",
+          "n": "18"
+        },
+        {
+          "id": "st-ds9-s1e19",
+          "t": "Duet",
+          "n": "19"
+        },
+        {
+          "id": "st-ds9-s1e20",
+          "t": "In the Hands of the Prophets",
+          "n": "20"
+        }
+      ],
+      "intro": "A space station rather than a starship. Seven seasons and 176 episodes, overlapping the last season of The Next Generation and most of Voyager."
+    },
+    {
+      "id": "ds9-s2",
+      "title": "Deep Space Nine · Season 2",
+      "sub": "1993–94 · 26 episodes",
+      "items": [
+        {
+          "id": "st-ds9-s2e01",
+          "t": "The Homecoming",
+          "n": "1"
+        },
+        {
+          "id": "st-ds9-s2e02",
+          "t": "The Circle",
+          "n": "2"
+        },
+        {
+          "id": "st-ds9-s2e03",
+          "t": "The Siege",
+          "n": "3"
+        },
+        {
+          "id": "st-ds9-s2e04",
+          "t": "Invasive Procedures",
+          "n": "4"
+        },
+        {
+          "id": "st-ds9-s2e05",
+          "t": "Cardassians",
+          "n": "5"
+        },
+        {
+          "id": "st-ds9-s2e06",
+          "t": "Melora",
+          "n": "6"
+        },
+        {
+          "id": "st-ds9-s2e07",
+          "t": "Rules of Acquisition",
+          "n": "7"
+        },
+        {
+          "id": "st-ds9-s2e08",
+          "t": "Necessary Evil",
+          "n": "8"
+        },
+        {
+          "id": "st-ds9-s2e09",
+          "t": "Second Sight",
+          "n": "9"
+        },
+        {
+          "id": "st-ds9-s2e10",
+          "t": "Sanctuary",
+          "n": "10"
+        },
+        {
+          "id": "st-ds9-s2e11",
+          "t": "Rivals",
+          "n": "11"
+        },
+        {
+          "id": "st-ds9-s2e12",
+          "t": "The Alternate",
+          "n": "12"
+        },
+        {
+          "id": "st-ds9-s2e13",
+          "t": "Armageddon Game",
+          "n": "13"
+        },
+        {
+          "id": "st-ds9-s2e14",
+          "t": "Whispers",
+          "n": "14"
+        },
+        {
+          "id": "st-ds9-s2e15",
+          "t": "Paradise",
+          "n": "15"
+        },
+        {
+          "id": "st-ds9-s2e16",
+          "t": "Shadowplay",
+          "n": "16"
+        },
+        {
+          "id": "st-ds9-s2e17",
+          "t": "Playing God",
+          "n": "17"
+        },
+        {
+          "id": "st-ds9-s2e18",
+          "t": "Profit and Loss",
+          "n": "18"
+        },
+        {
+          "id": "st-ds9-s2e19",
+          "t": "Blood Oath",
+          "n": "19"
+        },
+        {
+          "id": "st-ds9-s2e20",
+          "t": "The Maquis, Part I",
+          "n": "20"
+        },
+        {
+          "id": "st-ds9-s2e21",
+          "t": "The Maquis, Part II",
+          "n": "21"
+        },
+        {
+          "id": "st-ds9-s2e22",
+          "t": "The Wire",
+          "n": "22"
+        },
+        {
+          "id": "st-ds9-s2e23",
+          "t": "Crossover",
+          "n": "23"
+        },
+        {
+          "id": "st-ds9-s2e24",
+          "t": "The Collaborator",
+          "n": "24"
+        },
+        {
+          "id": "st-ds9-s2e25",
+          "t": "Tribunal",
+          "n": "25"
+        },
+        {
+          "id": "st-ds9-s2e26",
+          "t": "The Jem'Hadar",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "ds9-s3",
+      "title": "Deep Space Nine · Season 3",
+      "sub": "1994–95 · 26 episodes",
+      "items": [
+        {
+          "id": "st-ds9-s3e01",
+          "t": "The Search, Part I",
+          "n": "1"
+        },
+        {
+          "id": "st-ds9-s3e02",
+          "t": "The Search, Part II",
+          "n": "2"
+        },
+        {
+          "id": "st-ds9-s3e03",
+          "t": "The House of Quark",
+          "n": "3"
+        },
+        {
+          "id": "st-ds9-s3e04",
+          "t": "Equilibrium",
+          "n": "4"
+        },
+        {
+          "id": "st-ds9-s3e05",
+          "t": "Second Skin",
+          "n": "5"
+        },
+        {
+          "id": "st-ds9-s3e06",
+          "t": "The Abandoned",
+          "n": "6"
+        },
+        {
+          "id": "st-ds9-s3e07",
+          "t": "Civil Defense",
+          "n": "7"
+        },
+        {
+          "id": "st-ds9-s3e08",
+          "t": "Meridian",
+          "n": "8"
+        },
+        {
+          "id": "st-ds9-s3e09",
+          "t": "Defiant",
+          "n": "9"
+        },
+        {
+          "id": "st-ds9-s3e10",
+          "t": "Fascination",
+          "n": "10"
+        },
+        {
+          "id": "st-ds9-s3e11",
+          "t": "Past Tense: Part I",
+          "n": "11"
+        },
+        {
+          "id": "st-ds9-s3e12",
+          "t": "Past Tense: Part II",
+          "n": "12"
+        },
+        {
+          "id": "st-ds9-s3e13",
+          "t": "Life Support",
+          "n": "13"
+        },
+        {
+          "id": "st-ds9-s3e14",
+          "t": "Heart of Stone",
+          "n": "14"
+        },
+        {
+          "id": "st-ds9-s3e15",
+          "t": "Destiny",
+          "n": "15"
+        },
+        {
+          "id": "st-ds9-s3e16",
+          "t": "Prophet Motive",
+          "n": "16"
+        },
+        {
+          "id": "st-ds9-s3e17",
+          "t": "Visionary",
+          "n": "17"
+        },
+        {
+          "id": "st-ds9-s3e18",
+          "t": "Distant Voices",
+          "n": "18"
+        },
+        {
+          "id": "st-ds9-s3e19",
+          "t": "Through the Looking Glass",
+          "n": "19"
+        },
+        {
+          "id": "st-ds9-s3e20",
+          "t": "Improbable Cause",
+          "n": "20"
+        },
+        {
+          "id": "st-ds9-s3e21",
+          "t": "The Die Is Cast",
+          "n": "21"
+        },
+        {
+          "id": "st-ds9-s3e22",
+          "t": "Explorers",
+          "n": "22"
+        },
+        {
+          "id": "st-ds9-s3e23",
+          "t": "Family Business",
+          "n": "23"
+        },
+        {
+          "id": "st-ds9-s3e24",
+          "t": "Shakaar",
+          "n": "24"
+        },
+        {
+          "id": "st-ds9-s3e25",
+          "t": "Facets",
+          "n": "25"
+        },
+        {
+          "id": "st-ds9-s3e26",
+          "t": "The Adversary",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "ds9-s4",
+      "title": "Deep Space Nine · Season 4",
+      "sub": "1995–96 · 26 episodes in 25 entries",
+      "items": [
+        {
+          "id": "st-ds9-s4e01",
+          "t": "The Way of the Warrior",
+          "n": "1–2",
+          "note": "Two parts, aired as one double-length episode"
+        },
+        {
+          "id": "st-ds9-s4e03",
+          "t": "The Visitor",
+          "n": "3"
+        },
+        {
+          "id": "st-ds9-s4e04",
+          "t": "Hippocratic Oath",
+          "n": "4"
+        },
+        {
+          "id": "st-ds9-s4e05",
+          "t": "Indiscretion",
+          "n": "5"
+        },
+        {
+          "id": "st-ds9-s4e06",
+          "t": "Rejoined",
+          "n": "6"
+        },
+        {
+          "id": "st-ds9-s4e07",
+          "t": "Little Green Men",
+          "n": "7"
+        },
+        {
+          "id": "st-ds9-s4e08",
+          "t": "Starship Down",
+          "n": "8"
+        },
+        {
+          "id": "st-ds9-s4e09",
+          "t": "The Sword of Kahless",
+          "n": "9"
+        },
+        {
+          "id": "st-ds9-s4e10",
+          "t": "Our Man Bashir",
+          "n": "10"
+        },
+        {
+          "id": "st-ds9-s4e11",
+          "t": "Homefront",
+          "n": "11"
+        },
+        {
+          "id": "st-ds9-s4e12",
+          "t": "Paradise Lost",
+          "n": "12"
+        },
+        {
+          "id": "st-ds9-s4e13",
+          "t": "Crossfire",
+          "n": "13"
+        },
+        {
+          "id": "st-ds9-s4e14",
+          "t": "Return to Grace",
+          "n": "14"
+        },
+        {
+          "id": "st-ds9-s4e15",
+          "t": "Sons of Mogh",
+          "n": "15"
+        },
+        {
+          "id": "st-ds9-s4e16",
+          "t": "Bar Association",
+          "n": "16"
+        },
+        {
+          "id": "st-ds9-s4e17",
+          "t": "Accession",
+          "n": "17"
+        },
+        {
+          "id": "st-ds9-s4e18",
+          "t": "Rules of Engagement",
+          "n": "18"
+        },
+        {
+          "id": "st-ds9-s4e19",
+          "t": "Hard Time",
+          "n": "19"
+        },
+        {
+          "id": "st-ds9-s4e20",
+          "t": "Shattered Mirror",
+          "n": "20"
+        },
+        {
+          "id": "st-ds9-s4e21",
+          "t": "The Muse",
+          "n": "21"
+        },
+        {
+          "id": "st-ds9-s4e22",
+          "t": "For the Cause",
+          "n": "22"
+        },
+        {
+          "id": "st-ds9-s4e23",
+          "t": "To the Death",
+          "n": "23"
+        },
+        {
+          "id": "st-ds9-s4e24",
+          "t": "The Quickening",
+          "n": "24"
+        },
+        {
+          "id": "st-ds9-s4e25",
+          "t": "Body Parts",
+          "n": "25"
+        },
+        {
+          "id": "st-ds9-s4e26",
+          "t": "Broken Link",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "ds9-s5",
+      "title": "Deep Space Nine · Season 5",
+      "sub": "1996–97 · 26 episodes",
+      "items": [
+        {
+          "id": "st-ds9-s5e01",
+          "t": "Apocalypse Rising",
+          "n": "1"
+        },
+        {
+          "id": "st-ds9-s5e02",
+          "t": "The Ship",
+          "n": "2"
+        },
+        {
+          "id": "st-ds9-s5e03",
+          "t": "Looking for par'Mach in All the Wrong Places",
+          "n": "3"
+        },
+        {
+          "id": "st-ds9-s5e04",
+          "t": "...Nor the Battle to the Strong",
+          "n": "4"
+        },
+        {
+          "id": "st-ds9-s5e05",
+          "t": "The Assignment",
+          "n": "5"
+        },
+        {
+          "id": "st-ds9-s5e06",
+          "t": "Trials and Tribble-ations",
+          "n": "6"
+        },
+        {
+          "id": "st-ds9-s5e07",
+          "t": "Let He Who Is Without Sin...",
+          "n": "7"
+        },
+        {
+          "id": "st-ds9-s5e08",
+          "t": "Things Past",
+          "n": "8"
+        },
+        {
+          "id": "st-ds9-s5e09",
+          "t": "The Ascent",
+          "n": "9"
+        },
+        {
+          "id": "st-ds9-s5e10",
+          "t": "Rapture",
+          "n": "10"
+        },
+        {
+          "id": "st-ds9-s5e11",
+          "t": "The Darkness and the Light",
+          "n": "11"
+        },
+        {
+          "id": "st-ds9-s5e12",
+          "t": "The Begotten",
+          "n": "12"
+        },
+        {
+          "id": "st-ds9-s5e13",
+          "t": "For the Uniform",
+          "n": "13"
+        },
+        {
+          "id": "st-ds9-s5e14",
+          "t": "In Purgatory's Shadow",
+          "n": "14"
+        },
+        {
+          "id": "st-ds9-s5e15",
+          "t": "By Inferno's Light",
+          "n": "15"
+        },
+        {
+          "id": "st-ds9-s5e16",
+          "t": "Doctor Bashir, I Presume?",
+          "n": "16"
+        },
+        {
+          "id": "st-ds9-s5e17",
+          "t": "A Simple Investigation",
+          "n": "17"
+        },
+        {
+          "id": "st-ds9-s5e18",
+          "t": "Business as Usual",
+          "n": "18"
+        },
+        {
+          "id": "st-ds9-s5e19",
+          "t": "Ties of Blood and Water",
+          "n": "19"
+        },
+        {
+          "id": "st-ds9-s5e20",
+          "t": "Ferengi Love Songs",
+          "n": "20"
+        },
+        {
+          "id": "st-ds9-s5e21",
+          "t": "Soldiers of the Empire",
+          "n": "21"
+        },
+        {
+          "id": "st-ds9-s5e22",
+          "t": "Children of Time",
+          "n": "22"
+        },
+        {
+          "id": "st-ds9-s5e23",
+          "t": "Blaze of Glory",
+          "n": "23"
+        },
+        {
+          "id": "st-ds9-s5e24",
+          "t": "Empok Nor",
+          "n": "24"
+        },
+        {
+          "id": "st-ds9-s5e25",
+          "t": "In the Cards",
+          "n": "25"
+        },
+        {
+          "id": "st-ds9-s5e26",
+          "t": "Call to Arms",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "ds9-s6",
+      "title": "Deep Space Nine · Season 6",
+      "sub": "1997–98 · 26 episodes",
+      "items": [
+        {
+          "id": "st-ds9-s6e01",
+          "t": "A Time to Stand",
+          "n": "1"
+        },
+        {
+          "id": "st-ds9-s6e02",
+          "t": "Rocks and Shoals",
+          "n": "2"
+        },
+        {
+          "id": "st-ds9-s6e03",
+          "t": "Sons and Daughters",
+          "n": "3"
+        },
+        {
+          "id": "st-ds9-s6e04",
+          "t": "Behind the Lines",
+          "n": "4"
+        },
+        {
+          "id": "st-ds9-s6e05",
+          "t": "Favor the Bold",
+          "n": "5"
+        },
+        {
+          "id": "st-ds9-s6e06",
+          "t": "Sacrifice of Angels",
+          "n": "6"
+        },
+        {
+          "id": "st-ds9-s6e07",
+          "t": "You Are Cordially Invited",
+          "n": "7"
+        },
+        {
+          "id": "st-ds9-s6e08",
+          "t": "Resurrection",
+          "n": "8"
+        },
+        {
+          "id": "st-ds9-s6e09",
+          "t": "Statistical Probabilities",
+          "n": "9"
+        },
+        {
+          "id": "st-ds9-s6e10",
+          "t": "The Magnificent Ferengi",
+          "n": "10"
+        },
+        {
+          "id": "st-ds9-s6e11",
+          "t": "Waltz",
+          "n": "11"
+        },
+        {
+          "id": "st-ds9-s6e12",
+          "t": "Who Mourns for Morn?",
+          "n": "12"
+        },
+        {
+          "id": "st-ds9-s6e13",
+          "t": "Far Beyond the Stars",
+          "n": "13"
+        },
+        {
+          "id": "st-ds9-s6e14",
+          "t": "One Little Ship",
+          "n": "14"
+        },
+        {
+          "id": "st-ds9-s6e15",
+          "t": "Honor Among Thieves",
+          "n": "15"
+        },
+        {
+          "id": "st-ds9-s6e16",
+          "t": "Change of Heart",
+          "n": "16"
+        },
+        {
+          "id": "st-ds9-s6e17",
+          "t": "Wrongs Darker Than Death or Night",
+          "n": "17"
+        },
+        {
+          "id": "st-ds9-s6e18",
+          "t": "Inquisition",
+          "n": "18"
+        },
+        {
+          "id": "st-ds9-s6e19",
+          "t": "In the Pale Moonlight",
+          "n": "19"
+        },
+        {
+          "id": "st-ds9-s6e20",
+          "t": "His Way",
+          "n": "20"
+        },
+        {
+          "id": "st-ds9-s6e21",
+          "t": "The Reckoning",
+          "n": "21"
+        },
+        {
+          "id": "st-ds9-s6e22",
+          "t": "Valiant",
+          "n": "22"
+        },
+        {
+          "id": "st-ds9-s6e23",
+          "t": "Profit and Lace",
+          "n": "23"
+        },
+        {
+          "id": "st-ds9-s6e24",
+          "t": "Time's Orphan",
+          "n": "24"
+        },
+        {
+          "id": "st-ds9-s6e25",
+          "t": "The Sound of Her Voice",
+          "n": "25"
+        },
+        {
+          "id": "st-ds9-s6e26",
+          "t": "Tears of the Prophets",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "ds9-s7",
+      "title": "Deep Space Nine · Season 7",
+      "sub": "1998–99 · 26 episodes in 25 entries",
+      "items": [
+        {
+          "id": "st-ds9-s7e01",
+          "t": "Image in the Sand",
+          "n": "1"
+        },
+        {
+          "id": "st-ds9-s7e02",
+          "t": "Shadows and Symbols",
+          "n": "2"
+        },
+        {
+          "id": "st-ds9-s7e03",
+          "t": "Afterimage",
+          "n": "3"
+        },
+        {
+          "id": "st-ds9-s7e04",
+          "t": "Take Me Out to the Holosuite",
+          "n": "4"
+        },
+        {
+          "id": "st-ds9-s7e05",
+          "t": "Chrysalis",
+          "n": "5"
+        },
+        {
+          "id": "st-ds9-s7e06",
+          "t": "Treachery, Faith and the Great River",
+          "n": "6"
+        },
+        {
+          "id": "st-ds9-s7e07",
+          "t": "Once More unto the Breach",
+          "n": "7"
+        },
+        {
+          "id": "st-ds9-s7e08",
+          "t": "The Siege of AR-558",
+          "n": "8"
+        },
+        {
+          "id": "st-ds9-s7e09",
+          "t": "Covenant",
+          "n": "9"
+        },
+        {
+          "id": "st-ds9-s7e10",
+          "t": "It's Only a Paper Moon",
+          "n": "10"
+        },
+        {
+          "id": "st-ds9-s7e11",
+          "t": "Prodigal Daughter",
+          "n": "11"
+        },
+        {
+          "id": "st-ds9-s7e12",
+          "t": "The Emperor's New Cloak",
+          "n": "12"
+        },
+        {
+          "id": "st-ds9-s7e13",
+          "t": "Field of Fire",
+          "n": "13"
+        },
+        {
+          "id": "st-ds9-s7e14",
+          "t": "Chimera",
+          "n": "14"
+        },
+        {
+          "id": "st-ds9-s7e15",
+          "t": "Badda-Bing Badda-Bang",
+          "n": "15"
+        },
+        {
+          "id": "st-ds9-s7e16",
+          "t": "Inter Arma Enim Silent Leges",
+          "n": "16"
+        },
+        {
+          "id": "st-ds9-s7e17",
+          "t": "Penumbra",
+          "n": "17"
+        },
+        {
+          "id": "st-ds9-s7e18",
+          "t": "'Til Death Do Us Part",
+          "n": "18"
+        },
+        {
+          "id": "st-ds9-s7e19",
+          "t": "Strange Bedfellows",
+          "n": "19"
+        },
+        {
+          "id": "st-ds9-s7e20",
+          "t": "The Changing Face of Evil",
+          "n": "20"
+        },
+        {
+          "id": "st-ds9-s7e21",
+          "t": "When It Rains...",
+          "n": "21"
+        },
+        {
+          "id": "st-ds9-s7e22",
+          "t": "Tacking into the Wind",
+          "n": "22"
+        },
+        {
+          "id": "st-ds9-s7e23",
+          "t": "Extreme Measures",
+          "n": "23"
+        },
+        {
+          "id": "st-ds9-s7e24",
+          "t": "The Dogs of War",
+          "n": "24"
+        },
+        {
+          "id": "st-ds9-s7e25",
+          "t": "What You Leave Behind",
+          "n": "25–26",
+          "note": "Two parts, aired as one double-length episode"
+        }
+      ]
+    },
+    {
+      "id": "voy-s1",
+      "title": "Voyager · Season 1",
+      "sub": "1995 · 16 episodes in 15 entries",
+      "items": [
+        {
+          "id": "st-voy-s1e01",
+          "t": "Caretaker",
+          "n": "1–2",
+          "note": "Two parts, aired as one double-length episode"
+        },
+        {
+          "id": "st-voy-s1e03",
+          "t": "Parallax",
+          "n": "3"
+        },
+        {
+          "id": "st-voy-s1e04",
+          "t": "Time and Again",
+          "n": "4"
+        },
+        {
+          "id": "st-voy-s1e05",
+          "t": "Phage",
+          "n": "5"
+        },
+        {
+          "id": "st-voy-s1e06",
+          "t": "The Cloud",
+          "n": "6"
+        },
+        {
+          "id": "st-voy-s1e07",
+          "t": "Eye of the Needle",
+          "n": "7"
+        },
+        {
+          "id": "st-voy-s1e08",
+          "t": "Ex Post Facto",
+          "n": "8"
+        },
+        {
+          "id": "st-voy-s1e09",
+          "t": "Emanations",
+          "n": "9"
+        },
+        {
+          "id": "st-voy-s1e10",
+          "t": "Prime Factors",
+          "n": "10"
+        },
+        {
+          "id": "st-voy-s1e11",
+          "t": "State of Flux",
+          "n": "11"
+        },
+        {
+          "id": "st-voy-s1e12",
+          "t": "Heroes and Demons",
+          "n": "12"
+        },
+        {
+          "id": "st-voy-s1e13",
+          "t": "Cathexis",
+          "n": "13"
+        },
+        {
+          "id": "st-voy-s1e14",
+          "t": "Faces",
+          "n": "14"
+        },
+        {
+          "id": "st-voy-s1e15",
+          "t": "Jetrel",
+          "n": "15"
+        },
+        {
+          "id": "st-voy-s1e16",
+          "t": "Learning Curve",
+          "n": "16"
+        }
+      ],
+      "intro": "A ship stranded on the far side of the galaxy and trying to get home. Seven seasons and 172 episodes."
+    },
+    {
+      "id": "voy-s2",
+      "title": "Voyager · Season 2",
+      "sub": "1995–96 · 26 episodes",
+      "items": [
+        {
+          "id": "st-voy-s2e01",
+          "t": "The 37's",
+          "n": "1"
+        },
+        {
+          "id": "st-voy-s2e02",
+          "t": "Initiations",
+          "n": "2"
+        },
+        {
+          "id": "st-voy-s2e03",
+          "t": "Projections",
+          "n": "3"
+        },
+        {
+          "id": "st-voy-s2e04",
+          "t": "Elogium",
+          "n": "4"
+        },
+        {
+          "id": "st-voy-s2e05",
+          "t": "Non Sequitur",
+          "n": "5"
+        },
+        {
+          "id": "st-voy-s2e06",
+          "t": "Twisted",
+          "n": "6"
+        },
+        {
+          "id": "st-voy-s2e07",
+          "t": "Parturition",
+          "n": "7"
+        },
+        {
+          "id": "st-voy-s2e08",
+          "t": "Persistence of Vision",
+          "n": "8"
+        },
+        {
+          "id": "st-voy-s2e09",
+          "t": "Tattoo",
+          "n": "9"
+        },
+        {
+          "id": "st-voy-s2e10",
+          "t": "Cold Fire",
+          "n": "10"
+        },
+        {
+          "id": "st-voy-s2e11",
+          "t": "Maneuvers",
+          "n": "11"
+        },
+        {
+          "id": "st-voy-s2e12",
+          "t": "Resistance",
+          "n": "12"
+        },
+        {
+          "id": "st-voy-s2e13",
+          "t": "Prototype",
+          "n": "13"
+        },
+        {
+          "id": "st-voy-s2e14",
+          "t": "Alliances",
+          "n": "14"
+        },
+        {
+          "id": "st-voy-s2e15",
+          "t": "Threshold",
+          "n": "15"
+        },
+        {
+          "id": "st-voy-s2e16",
+          "t": "Meld",
+          "n": "16"
+        },
+        {
+          "id": "st-voy-s2e17",
+          "t": "Dreadnought",
+          "n": "17"
+        },
+        {
+          "id": "st-voy-s2e18",
+          "t": "Death Wish",
+          "n": "18"
+        },
+        {
+          "id": "st-voy-s2e19",
+          "t": "Lifesigns",
+          "n": "19"
+        },
+        {
+          "id": "st-voy-s2e20",
+          "t": "Investigations",
+          "n": "20"
+        },
+        {
+          "id": "st-voy-s2e21",
+          "t": "Deadlock",
+          "n": "21"
+        },
+        {
+          "id": "st-voy-s2e22",
+          "t": "Innocence",
+          "n": "22"
+        },
+        {
+          "id": "st-voy-s2e23",
+          "t": "The Thaw",
+          "n": "23"
+        },
+        {
+          "id": "st-voy-s2e24",
+          "t": "Tuvix",
+          "n": "24"
+        },
+        {
+          "id": "st-voy-s2e25",
+          "t": "Resolutions",
+          "n": "25"
+        },
+        {
+          "id": "st-voy-s2e26",
+          "t": "Basics, Part I",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "voy-s3",
+      "title": "Voyager · Season 3",
+      "sub": "1996–97 · 26 episodes",
+      "items": [
+        {
+          "id": "st-voy-s3e01",
+          "t": "Basics, Part II",
+          "n": "1"
+        },
+        {
+          "id": "st-voy-s3e02",
+          "t": "Flashback",
+          "n": "2"
+        },
+        {
+          "id": "st-voy-s3e03",
+          "t": "The Chute",
+          "n": "3"
+        },
+        {
+          "id": "st-voy-s3e04",
+          "t": "The Swarm",
+          "n": "4"
+        },
+        {
+          "id": "st-voy-s3e05",
+          "t": "False Profits",
+          "n": "5"
+        },
+        {
+          "id": "st-voy-s3e06",
+          "t": "Remember",
+          "n": "6"
+        },
+        {
+          "id": "st-voy-s3e07",
+          "t": "Sacred Ground",
+          "n": "7"
+        },
+        {
+          "id": "st-voy-s3e08",
+          "t": "Future's End, Part I",
+          "n": "8"
+        },
+        {
+          "id": "st-voy-s3e09",
+          "t": "Future's End, Part II",
+          "n": "9"
+        },
+        {
+          "id": "st-voy-s3e10",
+          "t": "Warlord",
+          "n": "10"
+        },
+        {
+          "id": "st-voy-s3e11",
+          "t": "The Q and the Grey",
+          "n": "11"
+        },
+        {
+          "id": "st-voy-s3e12",
+          "t": "Macrocosm",
+          "n": "12"
+        },
+        {
+          "id": "st-voy-s3e13",
+          "t": "Fair Trade",
+          "n": "13"
+        },
+        {
+          "id": "st-voy-s3e14",
+          "t": "Alter Ego",
+          "n": "14"
+        },
+        {
+          "id": "st-voy-s3e15",
+          "t": "Coda",
+          "n": "15"
+        },
+        {
+          "id": "st-voy-s3e16",
+          "t": "Blood Fever",
+          "n": "16"
+        },
+        {
+          "id": "st-voy-s3e17",
+          "t": "Unity",
+          "n": "17"
+        },
+        {
+          "id": "st-voy-s3e18",
+          "t": "Darkling",
+          "n": "18"
+        },
+        {
+          "id": "st-voy-s3e19",
+          "t": "Rise",
+          "n": "19"
+        },
+        {
+          "id": "st-voy-s3e20",
+          "t": "Favorite Son",
+          "n": "20"
+        },
+        {
+          "id": "st-voy-s3e21",
+          "t": "Before and After",
+          "n": "21"
+        },
+        {
+          "id": "st-voy-s3e22",
+          "t": "Real Life",
+          "n": "22"
+        },
+        {
+          "id": "st-voy-s3e23",
+          "t": "Distant Origin",
+          "n": "23"
+        },
+        {
+          "id": "st-voy-s3e24",
+          "t": "Displaced",
+          "n": "24"
+        },
+        {
+          "id": "st-voy-s3e25",
+          "t": "Worst Case Scenario",
+          "n": "25"
+        },
+        {
+          "id": "st-voy-s3e26",
+          "t": "Scorpion, Part I",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "voy-s4",
+      "title": "Voyager · Season 4",
+      "sub": "1997–98 · 26 episodes in 25 entries",
+      "items": [
+        {
+          "id": "st-voy-s4e01",
+          "t": "Scorpion, Part II",
+          "n": "1"
+        },
+        {
+          "id": "st-voy-s4e02",
+          "t": "The Gift",
+          "n": "2"
+        },
+        {
+          "id": "st-voy-s4e03",
+          "t": "Day of Honor",
+          "n": "3"
+        },
+        {
+          "id": "st-voy-s4e04",
+          "t": "Nemesis",
+          "n": "4"
+        },
+        {
+          "id": "st-voy-s4e05",
+          "t": "Revulsion",
+          "n": "5"
+        },
+        {
+          "id": "st-voy-s4e06",
+          "t": "The Raven",
+          "n": "6"
+        },
+        {
+          "id": "st-voy-s4e07",
+          "t": "Scientific Method",
+          "n": "7"
+        },
+        {
+          "id": "st-voy-s4e08",
+          "t": "Year of Hell: Part I",
+          "n": "8"
+        },
+        {
+          "id": "st-voy-s4e09",
+          "t": "Year of Hell: Part II",
+          "n": "9"
+        },
+        {
+          "id": "st-voy-s4e10",
+          "t": "Random Thoughts",
+          "n": "10"
+        },
+        {
+          "id": "st-voy-s4e11",
+          "t": "Concerning Flight",
+          "n": "11"
+        },
+        {
+          "id": "st-voy-s4e12",
+          "t": "Mortal Coil",
+          "n": "12"
+        },
+        {
+          "id": "st-voy-s4e13",
+          "t": "Waking Moments",
+          "n": "13"
+        },
+        {
+          "id": "st-voy-s4e14",
+          "t": "Message in a Bottle",
+          "n": "14"
+        },
+        {
+          "id": "st-voy-s4e15",
+          "t": "Hunters",
+          "n": "15"
+        },
+        {
+          "id": "st-voy-s4e16",
+          "t": "Prey",
+          "n": "16"
+        },
+        {
+          "id": "st-voy-s4e17",
+          "t": "Retrospect",
+          "n": "17"
+        },
+        {
+          "id": "st-voy-s4e18",
+          "t": "The Killing Game",
+          "n": "18–19",
+          "note": "Two parts, aired as one double-length episode"
+        },
+        {
+          "id": "st-voy-s4e20",
+          "t": "Vis à Vis",
+          "n": "20"
+        },
+        {
+          "id": "st-voy-s4e21",
+          "t": "The Omega Directive",
+          "n": "21"
+        },
+        {
+          "id": "st-voy-s4e22",
+          "t": "Unforgettable",
+          "n": "22"
+        },
+        {
+          "id": "st-voy-s4e23",
+          "t": "Living Witness",
+          "n": "23"
+        },
+        {
+          "id": "st-voy-s4e24",
+          "t": "Demon",
+          "n": "24"
+        },
+        {
+          "id": "st-voy-s4e25",
+          "t": "One",
+          "n": "25"
+        },
+        {
+          "id": "st-voy-s4e26",
+          "t": "Hope and Fear",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "voy-s5",
+      "title": "Voyager · Season 5",
+      "sub": "1998–99 · 26 episodes in 25 entries",
+      "items": [
+        {
+          "id": "st-voy-s5e01",
+          "t": "Night",
+          "n": "1"
+        },
+        {
+          "id": "st-voy-s5e02",
+          "t": "Drone",
+          "n": "2"
+        },
+        {
+          "id": "st-voy-s5e03",
+          "t": "Extreme Risk",
+          "n": "3"
+        },
+        {
+          "id": "st-voy-s5e04",
+          "t": "In the Flesh",
+          "n": "4"
+        },
+        {
+          "id": "st-voy-s5e05",
+          "t": "Once Upon a Time",
+          "n": "5"
+        },
+        {
+          "id": "st-voy-s5e06",
+          "t": "Timeless",
+          "n": "6"
+        },
+        {
+          "id": "st-voy-s5e07",
+          "t": "Infinite Regress",
+          "n": "7"
+        },
+        {
+          "id": "st-voy-s5e08",
+          "t": "Nothing Human",
+          "n": "8"
+        },
+        {
+          "id": "st-voy-s5e09",
+          "t": "Thirty Days",
+          "n": "9"
+        },
+        {
+          "id": "st-voy-s5e10",
+          "t": "Counterpoint",
+          "n": "10"
+        },
+        {
+          "id": "st-voy-s5e11",
+          "t": "Latent Image",
+          "n": "11"
+        },
+        {
+          "id": "st-voy-s5e12",
+          "t": "Bride of Chaotica!",
+          "n": "12"
+        },
+        {
+          "id": "st-voy-s5e13",
+          "t": "Gravity",
+          "n": "13"
+        },
+        {
+          "id": "st-voy-s5e14",
+          "t": "Bliss",
+          "n": "14"
+        },
+        {
+          "id": "st-voy-s5e15",
+          "t": "Dark Frontier",
+          "n": "15–16",
+          "note": "Two parts, aired as one double-length episode"
+        },
+        {
+          "id": "st-voy-s5e17",
+          "t": "The Disease",
+          "n": "17"
+        },
+        {
+          "id": "st-voy-s5e18",
+          "t": "Course: Oblivion",
+          "n": "18"
+        },
+        {
+          "id": "st-voy-s5e19",
+          "t": "The Fight",
+          "n": "19"
+        },
+        {
+          "id": "st-voy-s5e20",
+          "t": "Think Tank",
+          "n": "20"
+        },
+        {
+          "id": "st-voy-s5e21",
+          "t": "Juggernaut",
+          "n": "21"
+        },
+        {
+          "id": "st-voy-s5e22",
+          "t": "Someone to Watch Over Me",
+          "n": "22"
+        },
+        {
+          "id": "st-voy-s5e23",
+          "t": "11:59",
+          "n": "23"
+        },
+        {
+          "id": "st-voy-s5e24",
+          "t": "Relativity",
+          "n": "24"
+        },
+        {
+          "id": "st-voy-s5e25",
+          "t": "Warhead",
+          "n": "25"
+        },
+        {
+          "id": "st-voy-s5e26",
+          "t": "Equinox, Part I",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "voy-s6",
+      "title": "Voyager · Season 6",
+      "sub": "1999–2000 · 26 episodes",
+      "items": [
+        {
+          "id": "st-voy-s6e01",
+          "t": "Equinox: Part II",
+          "n": "1"
+        },
+        {
+          "id": "st-voy-s6e02",
+          "t": "Survival Instinct",
+          "n": "2"
+        },
+        {
+          "id": "st-voy-s6e03",
+          "t": "Barge of the Dead",
+          "n": "3"
+        },
+        {
+          "id": "st-voy-s6e04",
+          "t": "Tinker Tenor Doctor Spy",
+          "n": "4"
+        },
+        {
+          "id": "st-voy-s6e05",
+          "t": "Alice",
+          "n": "5"
+        },
+        {
+          "id": "st-voy-s6e06",
+          "t": "Riddles",
+          "n": "6"
+        },
+        {
+          "id": "st-voy-s6e07",
+          "t": "Dragon's Teeth",
+          "n": "7"
+        },
+        {
+          "id": "st-voy-s6e08",
+          "t": "One Small Step",
+          "n": "8"
+        },
+        {
+          "id": "st-voy-s6e09",
+          "t": "The Voyager Conspiracy",
+          "n": "9"
+        },
+        {
+          "id": "st-voy-s6e10",
+          "t": "Pathfinder",
+          "n": "10"
+        },
+        {
+          "id": "st-voy-s6e11",
+          "t": "Fair Haven",
+          "n": "11"
+        },
+        {
+          "id": "st-voy-s6e12",
+          "t": "Blink of an Eye",
+          "n": "12"
+        },
+        {
+          "id": "st-voy-s6e13",
+          "t": "Virtuoso",
+          "n": "13"
+        },
+        {
+          "id": "st-voy-s6e14",
+          "t": "Memorial",
+          "n": "14"
+        },
+        {
+          "id": "st-voy-s6e15",
+          "t": "Tsunkatse",
+          "n": "15"
+        },
+        {
+          "id": "st-voy-s6e16",
+          "t": "Collective",
+          "n": "16"
+        },
+        {
+          "id": "st-voy-s6e17",
+          "t": "Spirit Folk",
+          "n": "17"
+        },
+        {
+          "id": "st-voy-s6e18",
+          "t": "Ashes to Ashes",
+          "n": "18"
+        },
+        {
+          "id": "st-voy-s6e19",
+          "t": "Child's Play",
+          "n": "19"
+        },
+        {
+          "id": "st-voy-s6e20",
+          "t": "Good Shepherd",
+          "n": "20"
+        },
+        {
+          "id": "st-voy-s6e21",
+          "t": "Live Fast and Prosper",
+          "n": "21"
+        },
+        {
+          "id": "st-voy-s6e22",
+          "t": "Muse",
+          "n": "22"
+        },
+        {
+          "id": "st-voy-s6e23",
+          "t": "Fury",
+          "n": "23"
+        },
+        {
+          "id": "st-voy-s6e24",
+          "t": "Life Line",
+          "n": "24"
+        },
+        {
+          "id": "st-voy-s6e25",
+          "t": "The Haunting of Deck Twelve",
+          "n": "25"
+        },
+        {
+          "id": "st-voy-s6e26",
+          "t": "Unimatrix Zero: Part I",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "voy-s7",
+      "title": "Voyager · Season 7",
+      "sub": "2000–01 · 26 episodes in 24 entries",
+      "items": [
+        {
+          "id": "st-voy-s7e01",
+          "t": "Unimatrix Zero, Part II",
+          "n": "1"
+        },
+        {
+          "id": "st-voy-s7e02",
+          "t": "Imperfection",
+          "n": "2"
+        },
+        {
+          "id": "st-voy-s7e03",
+          "t": "Drive",
+          "n": "3"
+        },
+        {
+          "id": "st-voy-s7e04",
+          "t": "Repression",
+          "n": "4"
+        },
+        {
+          "id": "st-voy-s7e05",
+          "t": "Critical Care",
+          "n": "5"
+        },
+        {
+          "id": "st-voy-s7e06",
+          "t": "Inside Man",
+          "n": "6"
+        },
+        {
+          "id": "st-voy-s7e07",
+          "t": "Body and Soul",
+          "n": "7"
+        },
+        {
+          "id": "st-voy-s7e08",
+          "t": "Nightingale",
+          "n": "8"
+        },
+        {
+          "id": "st-voy-s7e09",
+          "t": "Flesh and Blood",
+          "n": "9–10",
+          "note": "Two parts, aired as one double-length episode"
+        },
+        {
+          "id": "st-voy-s7e11",
+          "t": "Shattered",
+          "n": "11"
+        },
+        {
+          "id": "st-voy-s7e12",
+          "t": "Lineage",
+          "n": "12"
+        },
+        {
+          "id": "st-voy-s7e13",
+          "t": "Repentance",
+          "n": "13"
+        },
+        {
+          "id": "st-voy-s7e14",
+          "t": "Prophecy",
+          "n": "14"
+        },
+        {
+          "id": "st-voy-s7e15",
+          "t": "The Void",
+          "n": "15"
+        },
+        {
+          "id": "st-voy-s7e16",
+          "t": "Workforce, Part I",
+          "n": "16"
+        },
+        {
+          "id": "st-voy-s7e17",
+          "t": "Workforce, Part II",
+          "n": "17"
+        },
+        {
+          "id": "st-voy-s7e18",
+          "t": "Human Error",
+          "n": "18"
+        },
+        {
+          "id": "st-voy-s7e19",
+          "t": "Q2",
+          "n": "19"
+        },
+        {
+          "id": "st-voy-s7e20",
+          "t": "Author, Author",
+          "n": "20"
+        },
+        {
+          "id": "st-voy-s7e21",
+          "t": "Friendship One",
+          "n": "21"
+        },
+        {
+          "id": "st-voy-s7e22",
+          "t": "Natural Law",
+          "n": "22"
+        },
+        {
+          "id": "st-voy-s7e23",
+          "t": "Homestead",
+          "n": "23"
+        },
+        {
+          "id": "st-voy-s7e24",
+          "t": "Renaissance Man",
+          "n": "24"
+        },
+        {
+          "id": "st-voy-s7e25",
+          "t": "Endgame",
+          "n": "25–26",
+          "note": "Two parts, aired as one double-length episode"
+        }
+      ]
+    },
+    {
+      "id": "ent-s1",
+      "title": "Enterprise · Season 1",
+      "sub": "2001–02 · 26 episodes in 25 entries",
+      "items": [
+        {
+          "id": "st-ent-s1e01",
+          "t": "Broken Bow",
+          "n": "1–2",
+          "note": "Two parts, aired as one double-length episode"
+        },
+        {
+          "id": "st-ent-s1e03",
+          "t": "Fight or Flight",
+          "n": "3"
+        },
+        {
+          "id": "st-ent-s1e04",
+          "t": "Strange New World",
+          "n": "4"
+        },
+        {
+          "id": "st-ent-s1e05",
+          "t": "Unexpected",
+          "n": "5"
+        },
+        {
+          "id": "st-ent-s1e06",
+          "t": "Terra Nova",
+          "n": "6"
+        },
+        {
+          "id": "st-ent-s1e07",
+          "t": "The Andorian Incident",
+          "n": "7"
+        },
+        {
+          "id": "st-ent-s1e08",
+          "t": "Breaking the Ice",
+          "n": "8"
+        },
+        {
+          "id": "st-ent-s1e09",
+          "t": "Civilization",
+          "n": "9"
+        },
+        {
+          "id": "st-ent-s1e10",
+          "t": "Fortunate Son",
+          "n": "10"
+        },
+        {
+          "id": "st-ent-s1e11",
+          "t": "Cold Front",
+          "n": "11"
+        },
+        {
+          "id": "st-ent-s1e12",
+          "t": "Silent Enemy",
+          "n": "12"
+        },
+        {
+          "id": "st-ent-s1e13",
+          "t": "Dear Doctor",
+          "n": "13"
+        },
+        {
+          "id": "st-ent-s1e14",
+          "t": "Sleeping Dogs",
+          "n": "14"
+        },
+        {
+          "id": "st-ent-s1e15",
+          "t": "Shadows of P'Jem",
+          "n": "15"
+        },
+        {
+          "id": "st-ent-s1e16",
+          "t": "Shuttlepod One",
+          "n": "16"
+        },
+        {
+          "id": "st-ent-s1e17",
+          "t": "Fusion",
+          "n": "17"
+        },
+        {
+          "id": "st-ent-s1e18",
+          "t": "Rogue Planet",
+          "n": "18"
+        },
+        {
+          "id": "st-ent-s1e19",
+          "t": "Acquisition",
+          "n": "19"
+        },
+        {
+          "id": "st-ent-s1e20",
+          "t": "Oasis",
+          "n": "20"
+        },
+        {
+          "id": "st-ent-s1e21",
+          "t": "Detained",
+          "n": "21"
+        },
+        {
+          "id": "st-ent-s1e22",
+          "t": "Vox Sola",
+          "n": "22"
+        },
+        {
+          "id": "st-ent-s1e23",
+          "t": "Fallen Hero",
+          "n": "23"
+        },
+        {
+          "id": "st-ent-s1e24",
+          "t": "Desert Crossing",
+          "n": "24"
+        },
+        {
+          "id": "st-ent-s1e25",
+          "t": "Two Days and Two Nights",
+          "n": "25"
+        },
+        {
+          "id": "st-ent-s1e26",
+          "t": "Shockwave, Part I",
+          "n": "26"
+        }
+      ],
+      "intro": "A prequel, set a century before the original series. Four seasons and 98 episodes, and then no new Star Trek on television for twelve years."
+    },
+    {
+      "id": "ent-s2",
+      "title": "Enterprise · Season 2",
+      "sub": "2002–03 · 26 episodes",
+      "items": [
+        {
+          "id": "st-ent-s2e01",
+          "t": "Shockwave: Part 2",
+          "n": "1"
+        },
+        {
+          "id": "st-ent-s2e02",
+          "t": "Carbon Creek",
+          "n": "2"
+        },
+        {
+          "id": "st-ent-s2e03",
+          "t": "Minefield",
+          "n": "3"
+        },
+        {
+          "id": "st-ent-s2e04",
+          "t": "Dead Stop",
+          "n": "4"
+        },
+        {
+          "id": "st-ent-s2e05",
+          "t": "A Night in Sickbay",
+          "n": "5"
+        },
+        {
+          "id": "st-ent-s2e06",
+          "t": "Marauders",
+          "n": "6"
+        },
+        {
+          "id": "st-ent-s2e07",
+          "t": "The Seventh",
+          "n": "7"
+        },
+        {
+          "id": "st-ent-s2e08",
+          "t": "The Communicator",
+          "n": "8"
+        },
+        {
+          "id": "st-ent-s2e09",
+          "t": "Singularity",
+          "n": "9"
+        },
+        {
+          "id": "st-ent-s2e10",
+          "t": "Vanishing Point",
+          "n": "10"
+        },
+        {
+          "id": "st-ent-s2e11",
+          "t": "Precious Cargo",
+          "n": "11"
+        },
+        {
+          "id": "st-ent-s2e12",
+          "t": "The Catwalk",
+          "n": "12"
+        },
+        {
+          "id": "st-ent-s2e13",
+          "t": "Dawn",
+          "n": "13"
+        },
+        {
+          "id": "st-ent-s2e14",
+          "t": "Stigma",
+          "n": "14"
+        },
+        {
+          "id": "st-ent-s2e15",
+          "t": "Cease Fire",
+          "n": "15"
+        },
+        {
+          "id": "st-ent-s2e16",
+          "t": "Future Tense",
+          "n": "16"
+        },
+        {
+          "id": "st-ent-s2e17",
+          "t": "Canamar",
+          "n": "17"
+        },
+        {
+          "id": "st-ent-s2e18",
+          "t": "The Crossing",
+          "n": "18"
+        },
+        {
+          "id": "st-ent-s2e19",
+          "t": "Judgment",
+          "n": "19"
+        },
+        {
+          "id": "st-ent-s2e20",
+          "t": "Horizon",
+          "n": "20"
+        },
+        {
+          "id": "st-ent-s2e21",
+          "t": "The Breach",
+          "n": "21"
+        },
+        {
+          "id": "st-ent-s2e22",
+          "t": "Cogenitor",
+          "n": "22"
+        },
+        {
+          "id": "st-ent-s2e23",
+          "t": "Regeneration",
+          "n": "23"
+        },
+        {
+          "id": "st-ent-s2e24",
+          "t": "First Flight",
+          "n": "24"
+        },
+        {
+          "id": "st-ent-s2e25",
+          "t": "Bounty",
+          "n": "25"
+        },
+        {
+          "id": "st-ent-s2e26",
+          "t": "The Expanse",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "ent-s3",
+      "title": "Enterprise · Season 3",
+      "sub": "2003–04 · 24 episodes",
+      "items": [
+        {
+          "id": "st-ent-s3e01",
+          "t": "The Xindi",
+          "n": "1"
+        },
+        {
+          "id": "st-ent-s3e02",
+          "t": "Anomaly",
+          "n": "2"
+        },
+        {
+          "id": "st-ent-s3e03",
+          "t": "Extinction",
+          "n": "3"
+        },
+        {
+          "id": "st-ent-s3e04",
+          "t": "Rajiin",
+          "n": "4"
+        },
+        {
+          "id": "st-ent-s3e05",
+          "t": "Impulse",
+          "n": "5"
+        },
+        {
+          "id": "st-ent-s3e06",
+          "t": "Exile",
+          "n": "6"
+        },
+        {
+          "id": "st-ent-s3e07",
+          "t": "The Shipment",
+          "n": "7"
+        },
+        {
+          "id": "st-ent-s3e08",
+          "t": "Twilight",
+          "n": "8"
+        },
+        {
+          "id": "st-ent-s3e09",
+          "t": "North Star",
+          "n": "9"
+        },
+        {
+          "id": "st-ent-s3e10",
+          "t": "Similitude",
+          "n": "10"
+        },
+        {
+          "id": "st-ent-s3e11",
+          "t": "Carpenter Street",
+          "n": "11"
+        },
+        {
+          "id": "st-ent-s3e12",
+          "t": "Chosen Realm",
+          "n": "12"
+        },
+        {
+          "id": "st-ent-s3e13",
+          "t": "Proving Ground",
+          "n": "13"
+        },
+        {
+          "id": "st-ent-s3e14",
+          "t": "Stratagem",
+          "n": "14"
+        },
+        {
+          "id": "st-ent-s3e15",
+          "t": "Harbinger",
+          "n": "15"
+        },
+        {
+          "id": "st-ent-s3e16",
+          "t": "Doctor's Orders",
+          "n": "16"
+        },
+        {
+          "id": "st-ent-s3e17",
+          "t": "Hatchery",
+          "n": "17"
+        },
+        {
+          "id": "st-ent-s3e18",
+          "t": "Azati Prime",
+          "n": "18"
+        },
+        {
+          "id": "st-ent-s3e19",
+          "t": "Damage",
+          "n": "19"
+        },
+        {
+          "id": "st-ent-s3e20",
+          "t": "The Forgotten",
+          "n": "20"
+        },
+        {
+          "id": "st-ent-s3e21",
+          "t": "E²",
+          "n": "21"
+        },
+        {
+          "id": "st-ent-s3e22",
+          "t": "The Council",
+          "n": "22"
+        },
+        {
+          "id": "st-ent-s3e23",
+          "t": "Countdown",
+          "n": "23"
+        },
+        {
+          "id": "st-ent-s3e24",
+          "t": "Zero Hour",
+          "n": "24"
+        }
+      ]
+    },
+    {
+      "id": "ent-s4",
+      "title": "Enterprise · Season 4",
+      "sub": "2004–05 · 22 episodes",
+      "items": [
+        {
+          "id": "st-ent-s4e01",
+          "t": "Storm Front",
+          "n": "1"
+        },
+        {
+          "id": "st-ent-s4e02",
+          "t": "Storm Front, Part II",
+          "n": "2"
+        },
+        {
+          "id": "st-ent-s4e03",
+          "t": "Home",
+          "n": "3"
+        },
+        {
+          "id": "st-ent-s4e04",
+          "t": "Borderland",
+          "n": "4"
+        },
+        {
+          "id": "st-ent-s4e05",
+          "t": "Cold Station 12",
+          "n": "5"
+        },
+        {
+          "id": "st-ent-s4e06",
+          "t": "The Augments",
+          "n": "6"
+        },
+        {
+          "id": "st-ent-s4e07",
+          "t": "The Forge",
+          "n": "7"
+        },
+        {
+          "id": "st-ent-s4e08",
+          "t": "Awakening",
+          "n": "8"
+        },
+        {
+          "id": "st-ent-s4e09",
+          "t": "Kir'Shara",
+          "n": "9"
+        },
+        {
+          "id": "st-ent-s4e10",
+          "t": "Daedalus",
+          "n": "10"
+        },
+        {
+          "id": "st-ent-s4e11",
+          "t": "Observer Effect",
+          "n": "11"
+        },
+        {
+          "id": "st-ent-s4e12",
+          "t": "Babel One",
+          "n": "12"
+        },
+        {
+          "id": "st-ent-s4e13",
+          "t": "United",
+          "n": "13"
+        },
+        {
+          "id": "st-ent-s4e14",
+          "t": "The Aenar",
+          "n": "14"
+        },
+        {
+          "id": "st-ent-s4e15",
+          "t": "Affliction",
+          "n": "15"
+        },
+        {
+          "id": "st-ent-s4e16",
+          "t": "Divergence",
+          "n": "16"
+        },
+        {
+          "id": "st-ent-s4e17",
+          "t": "Bound",
+          "n": "17"
+        },
+        {
+          "id": "st-ent-s4e18",
+          "t": "In a Mirror, Darkly",
+          "n": "18"
+        },
+        {
+          "id": "st-ent-s4e19",
+          "t": "In a Mirror, Darkly, Part II",
+          "n": "19"
+        },
+        {
+          "id": "st-ent-s4e20",
+          "t": "Demons",
+          "n": "20"
+        },
+        {
+          "id": "st-ent-s4e21",
+          "t": "Terra Prime",
+          "n": "21"
+        },
+        {
+          "id": "st-ent-s4e22",
+          "t": "These Are the Voyages...",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "films-kelvin",
+      "title": "The Kelvin films",
+      "sub": "2009–16 · 3 films · about 7 hours",
+      "intro": "Three films with a recast original crew, released across the twelve years when no Star Trek was being made for television.",
+      "items": [
+        {
+          "id": "st-film-2009",
+          "t": "Star Trek",
+          "n": "2009",
+          "note": "Directed by J. J. Abrams · 127 minutes"
+        },
+        {
+          "id": "st-film-2013",
+          "t": "Star Trek Into Darkness",
+          "n": "2013",
+          "note": "Directed by J. J. Abrams · 145 minutes"
+        },
+        {
+          "id": "st-film-2016",
+          "t": "Star Trek Beyond",
+          "n": "2016",
+          "note": "Directed by Justin Lin · 123 minutes"
+        }
+      ]
+    },
+    {
+      "id": "dis-s1",
+      "title": "Discovery · Season 1",
+      "sub": "2017–18 · 15 episodes",
+      "items": [
+        {
+          "id": "st-dis-s1e01",
+          "t": "The Vulcan Hello",
+          "n": "1"
+        },
+        {
+          "id": "st-dis-s1e02",
+          "t": "Battle at the Binary Stars",
+          "n": "2"
+        },
+        {
+          "id": "st-dis-s1e03",
+          "t": "Context Is for Kings",
+          "n": "3"
+        },
+        {
+          "id": "st-dis-s1e04",
+          "t": "The Butcher's Knife Cares Not for the Lamb's Cry",
+          "n": "4"
+        },
+        {
+          "id": "st-dis-s1e05",
+          "t": "Choose Your Pain",
+          "n": "5"
+        },
+        {
+          "id": "st-dis-s1e06",
+          "t": "Lethe",
+          "n": "6"
+        },
+        {
+          "id": "st-dis-s1e07",
+          "t": "Magic to Make the Sanest Man Go Mad",
+          "n": "7"
+        },
+        {
+          "id": "st-dis-s1e08",
+          "t": "Si Vis Pacem, Para Bellum",
+          "n": "8"
+        },
+        {
+          "id": "st-dis-s1e09",
+          "t": "Into the Forest I Go",
+          "n": "9"
+        },
+        {
+          "id": "st-dis-s1e10",
+          "t": "Despite Yourself",
+          "n": "10"
+        },
+        {
+          "id": "st-dis-s1e11",
+          "t": "The Wolf Inside",
+          "n": "11"
+        },
+        {
+          "id": "st-dis-s1e12",
+          "t": "Vaulting Ambition",
+          "n": "12"
+        },
+        {
+          "id": "st-dis-s1e13",
+          "t": "What's Past Is Prologue",
+          "n": "13"
+        },
+        {
+          "id": "st-dis-s1e14",
+          "t": "The War Without, The War Within",
+          "n": "14"
+        },
+        {
+          "id": "st-dis-s1e15",
+          "t": "Will You Take My Hand?",
+          "n": "15"
+        }
+      ],
+      "intro": "The return to television after that gap, and the first Star Trek made for streaming. Five seasons and 65 episodes."
+    },
+    {
+      "id": "dis-s2",
+      "title": "Discovery · Season 2",
+      "sub": "2019 · 14 episodes in 13 entries",
+      "items": [
+        {
+          "id": "st-dis-s2e01",
+          "t": "Brother",
+          "n": "1"
+        },
+        {
+          "id": "st-dis-s2e02",
+          "t": "New Eden",
+          "n": "2"
+        },
+        {
+          "id": "st-dis-s2e03",
+          "t": "Point of Light",
+          "n": "3"
+        },
+        {
+          "id": "st-dis-s2e04",
+          "t": "An Obol for Charon",
+          "n": "4"
+        },
+        {
+          "id": "st-dis-s2e05",
+          "t": "Saints of Imperfection",
+          "n": "5"
+        },
+        {
+          "id": "st-dis-s2e06",
+          "t": "The Sound of Thunder",
+          "n": "6"
+        },
+        {
+          "id": "st-dis-s2e07",
+          "t": "Light and Shadows",
+          "n": "7"
+        },
+        {
+          "id": "st-dis-s2e08",
+          "t": "If Memory Serves",
+          "n": "8"
+        },
+        {
+          "id": "st-dis-s2e09",
+          "t": "Project Daedalus",
+          "n": "9"
+        },
+        {
+          "id": "st-dis-s2e10",
+          "t": "The Red Angel",
+          "n": "10"
+        },
+        {
+          "id": "st-dis-s2e11",
+          "t": "Perpetual Infinity",
+          "n": "11"
+        },
+        {
+          "id": "st-dis-s2e12",
+          "t": "Through the Valley of Shadows",
+          "n": "12"
+        },
+        {
+          "id": "st-dis-s2e13",
+          "t": "Such Sweet Sorrow",
+          "n": "13–14",
+          "note": "Two parts, a week apart"
+        }
+      ]
+    },
+    {
+      "id": "dis-s3",
+      "title": "Discovery · Season 3",
+      "sub": "2020–21 · 13 episodes in 12 entries",
+      "items": [
+        {
+          "id": "st-dis-s3e01",
+          "t": "That Hope Is You, Part 1",
+          "n": "1"
+        },
+        {
+          "id": "st-dis-s3e02",
+          "t": "Far from Home",
+          "n": "2"
+        },
+        {
+          "id": "st-dis-s3e03",
+          "t": "People of Earth",
+          "n": "3"
+        },
+        {
+          "id": "st-dis-s3e04",
+          "t": "Forget Me Not",
+          "n": "4"
+        },
+        {
+          "id": "st-dis-s3e05",
+          "t": "Die Trying",
+          "n": "5"
+        },
+        {
+          "id": "st-dis-s3e06",
+          "t": "Scavengers",
+          "n": "6"
+        },
+        {
+          "id": "st-dis-s3e07",
+          "t": "Unification III",
+          "n": "7"
+        },
+        {
+          "id": "st-dis-s3e08",
+          "t": "The Sanctuary",
+          "n": "8"
+        },
+        {
+          "id": "st-dis-s3e09",
+          "t": "Terra Firma",
+          "n": "9–10",
+          "note": "Two parts, a week apart"
+        },
+        {
+          "id": "st-dis-s3e11",
+          "t": "Su'Kal",
+          "n": "11"
+        },
+        {
+          "id": "st-dis-s3e12",
+          "t": "There Is a Tide...",
+          "n": "12"
+        },
+        {
+          "id": "st-dis-s3e13",
+          "t": "That Hope Is You, Part 2",
+          "n": "13"
+        }
+      ]
+    },
+    {
+      "id": "dis-s4",
+      "title": "Discovery · Season 4",
+      "sub": "2021–22 · 13 episodes",
+      "items": [
+        {
+          "id": "st-dis-s4e01",
+          "t": "Kobayashi Maru",
+          "n": "1"
+        },
+        {
+          "id": "st-dis-s4e02",
+          "t": "Anomaly",
+          "n": "2"
+        },
+        {
+          "id": "st-dis-s4e03",
+          "t": "Choose to Live",
+          "n": "3"
+        },
+        {
+          "id": "st-dis-s4e04",
+          "t": "All Is Possible",
+          "n": "4"
+        },
+        {
+          "id": "st-dis-s4e05",
+          "t": "The Examples",
+          "n": "5"
+        },
+        {
+          "id": "st-dis-s4e06",
+          "t": "Stormy Weather",
+          "n": "6"
+        },
+        {
+          "id": "st-dis-s4e07",
+          "t": "...But to Connect",
+          "n": "7"
+        },
+        {
+          "id": "st-dis-s4e08",
+          "t": "All In",
+          "n": "8"
+        },
+        {
+          "id": "st-dis-s4e09",
+          "t": "Rubicon",
+          "n": "9"
+        },
+        {
+          "id": "st-dis-s4e10",
+          "t": "The Galactic Barrier",
+          "n": "10"
+        },
+        {
+          "id": "st-dis-s4e11",
+          "t": "Rosetta",
+          "n": "11"
+        },
+        {
+          "id": "st-dis-s4e12",
+          "t": "Species Ten-C",
+          "n": "12"
+        },
+        {
+          "id": "st-dis-s4e13",
+          "t": "Coming Home",
+          "n": "13"
+        }
+      ]
+    },
+    {
+      "id": "dis-s5",
+      "title": "Discovery · Season 5",
+      "sub": "2024 · 10 episodes",
+      "items": [
+        {
+          "id": "st-dis-s5e01",
+          "t": "Red Directive",
+          "n": "1"
+        },
+        {
+          "id": "st-dis-s5e02",
+          "t": "Under the Twin Moons",
+          "n": "2"
+        },
+        {
+          "id": "st-dis-s5e03",
+          "t": "Jinaal",
+          "n": "3"
+        },
+        {
+          "id": "st-dis-s5e04",
+          "t": "Face the Strange",
+          "n": "4"
+        },
+        {
+          "id": "st-dis-s5e05",
+          "t": "Mirrors",
+          "n": "5"
+        },
+        {
+          "id": "st-dis-s5e06",
+          "t": "Whistlespeak",
+          "n": "6"
+        },
+        {
+          "id": "st-dis-s5e07",
+          "t": "Erigah",
+          "n": "7"
+        },
+        {
+          "id": "st-dis-s5e08",
+          "t": "Labyrinths",
+          "n": "8"
+        },
+        {
+          "id": "st-dis-s5e09",
+          "t": "Lagrange Point",
+          "n": "9"
+        },
+        {
+          "id": "st-dis-s5e10",
+          "t": "Life, Itself",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "pic-s1",
+      "title": "Picard · Season 1",
+      "sub": "2020 · 10 episodes in 9 entries",
+      "items": [
+        {
+          "id": "st-pic-s1e01",
+          "t": "Remembrance",
+          "n": "1"
+        },
+        {
+          "id": "st-pic-s1e02",
+          "t": "Maps and Legends",
+          "n": "2"
+        },
+        {
+          "id": "st-pic-s1e03",
+          "t": "The End Is the Beginning",
+          "n": "3"
+        },
+        {
+          "id": "st-pic-s1e04",
+          "t": "Absolute Candor",
+          "n": "4"
+        },
+        {
+          "id": "st-pic-s1e05",
+          "t": "Stardust City Rag",
+          "n": "5"
+        },
+        {
+          "id": "st-pic-s1e06",
+          "t": "The Impossible Box",
+          "n": "6"
+        },
+        {
+          "id": "st-pic-s1e07",
+          "t": "Nepenthe",
+          "n": "7"
+        },
+        {
+          "id": "st-pic-s1e08",
+          "t": "Broken Pieces",
+          "n": "8"
+        },
+        {
+          "id": "st-pic-s1e09",
+          "t": "Et in Arcadia Ego",
+          "n": "9–10",
+          "note": "Two parts, a week apart"
+        }
+      ],
+      "intro": "Patrick Stewart back in the part, eighteen years after Nemesis. Three seasons of ten."
+    },
+    {
+      "id": "pic-s2",
+      "title": "Picard · Season 2",
+      "sub": "2022 · 10 episodes",
+      "items": [
+        {
+          "id": "st-pic-s2e01",
+          "t": "The Star Gazer",
+          "n": "1"
+        },
+        {
+          "id": "st-pic-s2e02",
+          "t": "Penance",
+          "n": "2"
+        },
+        {
+          "id": "st-pic-s2e03",
+          "t": "Assimilation",
+          "n": "3"
+        },
+        {
+          "id": "st-pic-s2e04",
+          "t": "Watcher",
+          "n": "4"
+        },
+        {
+          "id": "st-pic-s2e05",
+          "t": "Fly Me to the Moon",
+          "n": "5"
+        },
+        {
+          "id": "st-pic-s2e06",
+          "t": "Two of One",
+          "n": "6"
+        },
+        {
+          "id": "st-pic-s2e07",
+          "t": "Monsters",
+          "n": "7"
+        },
+        {
+          "id": "st-pic-s2e08",
+          "t": "Mercy",
+          "n": "8"
+        },
+        {
+          "id": "st-pic-s2e09",
+          "t": "Hide and Seek",
+          "n": "9"
+        },
+        {
+          "id": "st-pic-s2e10",
+          "t": "Farewell",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "pic-s3",
+      "title": "Picard · Season 3",
+      "sub": "2023 · 10 episodes",
+      "items": [
+        {
+          "id": "st-pic-s3e01",
+          "t": "The Next Generation",
+          "n": "1"
+        },
+        {
+          "id": "st-pic-s3e02",
+          "t": "Disengage",
+          "n": "2"
+        },
+        {
+          "id": "st-pic-s3e03",
+          "t": "Seventeen Seconds",
+          "n": "3"
+        },
+        {
+          "id": "st-pic-s3e04",
+          "t": "No Win Scenario",
+          "n": "4"
+        },
+        {
+          "id": "st-pic-s3e05",
+          "t": "Imposters",
+          "n": "5"
+        },
+        {
+          "id": "st-pic-s3e06",
+          "t": "The Bounty",
+          "n": "6"
+        },
+        {
+          "id": "st-pic-s3e07",
+          "t": "Dominion",
+          "n": "7"
+        },
+        {
+          "id": "st-pic-s3e08",
+          "t": "Surrender",
+          "n": "8"
+        },
+        {
+          "id": "st-pic-s3e09",
+          "t": "Võx",
+          "n": "9"
+        },
+        {
+          "id": "st-pic-s3e10",
+          "t": "The Last Generation",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "ld-s1",
+      "title": "Lower Decks · Season 1",
+      "sub": "2020 · 10 episodes",
+      "items": [
+        {
+          "id": "st-ld-s1e01",
+          "t": "Second Contact",
+          "n": "1"
+        },
+        {
+          "id": "st-ld-s1e02",
+          "t": "Envoys",
+          "n": "2"
+        },
+        {
+          "id": "st-ld-s1e03",
+          "t": "Temporal Edict",
+          "n": "3"
+        },
+        {
+          "id": "st-ld-s1e04",
+          "t": "Moist Vessel",
+          "n": "4"
+        },
+        {
+          "id": "st-ld-s1e05",
+          "t": "Cupid's Errant Arrow",
+          "n": "5"
+        },
+        {
+          "id": "st-ld-s1e06",
+          "t": "Terminal Provocations",
+          "n": "6"
+        },
+        {
+          "id": "st-ld-s1e07",
+          "t": "Much Ado About Boimler",
+          "n": "7"
+        },
+        {
+          "id": "st-ld-s1e08",
+          "t": "Veritas",
+          "n": "8"
+        },
+        {
+          "id": "st-ld-s1e09",
+          "t": "Crisis Point",
+          "n": "9"
+        },
+        {
+          "id": "st-ld-s1e10",
+          "t": "No Small Parts",
+          "n": "10"
+        }
+      ],
+      "intro": "An animated half-hour comedy about the crew members who are not on the bridge. Five seasons of ten."
+    },
+    {
+      "id": "ld-s2",
+      "title": "Lower Decks · Season 2",
+      "sub": "2021 · 10 episodes",
+      "items": [
+        {
+          "id": "st-ld-s2e01",
+          "t": "Strange Energies",
+          "n": "1"
+        },
+        {
+          "id": "st-ld-s2e02",
+          "t": "Kayshon, His Eyes Open",
+          "n": "2"
+        },
+        {
+          "id": "st-ld-s2e03",
+          "t": "We'll Always Have Tom Paris",
+          "n": "3"
+        },
+        {
+          "id": "st-ld-s2e04",
+          "t": "Mugato, Gumato",
+          "n": "4"
+        },
+        {
+          "id": "st-ld-s2e05",
+          "t": "An Embarrassment of Dooplers",
+          "n": "5"
+        },
+        {
+          "id": "st-ld-s2e06",
+          "t": "The Spy Humongous",
+          "n": "6"
+        },
+        {
+          "id": "st-ld-s2e07",
+          "t": "Where Pleasant Fountains Lie",
+          "n": "7"
+        },
+        {
+          "id": "st-ld-s2e08",
+          "t": "I, Excretus",
+          "n": "8"
+        },
+        {
+          "id": "st-ld-s2e09",
+          "t": "wej Duj",
+          "n": "9"
+        },
+        {
+          "id": "st-ld-s2e10",
+          "t": "First First Contact",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "ld-s3",
+      "title": "Lower Decks · Season 3",
+      "sub": "2022 · 10 episodes",
+      "items": [
+        {
+          "id": "st-ld-s3e01",
+          "t": "Grounded",
+          "n": "1"
+        },
+        {
+          "id": "st-ld-s3e02",
+          "t": "The Least Dangerous Game",
+          "n": "2"
+        },
+        {
+          "id": "st-ld-s3e03",
+          "t": "Mining the Mind's Mines",
+          "n": "3"
+        },
+        {
+          "id": "st-ld-s3e04",
+          "t": "Room for Growth",
+          "n": "4"
+        },
+        {
+          "id": "st-ld-s3e05",
+          "t": "Reflections",
+          "n": "5"
+        },
+        {
+          "id": "st-ld-s3e06",
+          "t": "Hear All, Trust Nothing",
+          "n": "6"
+        },
+        {
+          "id": "st-ld-s3e07",
+          "t": "A Mathematically Perfect Redemption",
+          "n": "7"
+        },
+        {
+          "id": "st-ld-s3e08",
+          "t": "Crisis Point 2: Paradoxus",
+          "n": "8"
+        },
+        {
+          "id": "st-ld-s3e09",
+          "t": "Trusted Sources",
+          "n": "9"
+        },
+        {
+          "id": "st-ld-s3e10",
+          "t": "The Stars at Night",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "ld-s4",
+      "title": "Lower Decks · Season 4",
+      "sub": "2023 · 10 episodes",
+      "items": [
+        {
+          "id": "st-ld-s4e01",
+          "t": "Twovix",
+          "n": "1"
+        },
+        {
+          "id": "st-ld-s4e02",
+          "t": "I Have No Bones Yet I Must Flee",
+          "n": "2"
+        },
+        {
+          "id": "st-ld-s4e03",
+          "t": "In the Cradle of Vexilon",
+          "n": "3"
+        },
+        {
+          "id": "st-ld-s4e04",
+          "t": "Something Borrowed, Something Green",
+          "n": "4"
+        },
+        {
+          "id": "st-ld-s4e05",
+          "t": "Empathological Fallacies",
+          "n": "5"
+        },
+        {
+          "id": "st-ld-s4e06",
+          "t": "Parth Ferengi's Heart Place",
+          "n": "6"
+        },
+        {
+          "id": "st-ld-s4e07",
+          "t": "A Few Badgeys More",
+          "n": "7"
+        },
+        {
+          "id": "st-ld-s4e08",
+          "t": "Caves",
+          "n": "8"
+        },
+        {
+          "id": "st-ld-s4e09",
+          "t": "The Inner Fight",
+          "n": "9"
+        },
+        {
+          "id": "st-ld-s4e10",
+          "t": "Old Friends, New Planets",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "ld-s5",
+      "title": "Lower Decks · Season 5",
+      "sub": "2024 · 10 episodes",
+      "items": [
+        {
+          "id": "st-ld-s5e01",
+          "t": "Dos Cerritos",
+          "n": "1"
+        },
+        {
+          "id": "st-ld-s5e02",
+          "t": "Shades of Green",
+          "n": "2"
+        },
+        {
+          "id": "st-ld-s5e03",
+          "t": "The Best Exotic Nanite Hotel",
+          "n": "3"
+        },
+        {
+          "id": "st-ld-s5e04",
+          "t": "A Farewell To Farms",
+          "n": "4"
+        },
+        {
+          "id": "st-ld-s5e05",
+          "t": "Starbase 80?!",
+          "n": "5"
+        },
+        {
+          "id": "st-ld-s5e06",
+          "t": "Of Gods and Angles",
+          "n": "6"
+        },
+        {
+          "id": "st-ld-s5e07",
+          "t": "Fully Dilated",
+          "n": "7"
+        },
+        {
+          "id": "st-ld-s5e08",
+          "t": "Upper Decks",
+          "n": "8"
+        },
+        {
+          "id": "st-ld-s5e09",
+          "t": "Fissure Quest",
+          "n": "9"
+        },
+        {
+          "id": "st-ld-s5e10",
+          "t": "The New Next Generation",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "pro-s1",
+      "title": "Prodigy · Season 1",
+      "sub": "2021–22 · 20 episodes in 17 entries",
+      "items": [
+        {
+          "id": "st-pro-s1e01",
+          "t": "Lost and Found",
+          "n": "1–2",
+          "note": "Two parts, aired as one double-length episode"
+        },
+        {
+          "id": "st-pro-s1e03",
+          "t": "Starstruck",
+          "n": "3"
+        },
+        {
+          "id": "st-pro-s1e04",
+          "t": "Dream Catcher",
+          "n": "4"
+        },
+        {
+          "id": "st-pro-s1e05",
+          "t": "Terror Firma",
+          "n": "5"
+        },
+        {
+          "id": "st-pro-s1e06",
+          "t": "Kobayashi",
+          "n": "6"
+        },
+        {
+          "id": "st-pro-s1e07",
+          "t": "First Con-tact",
+          "n": "7"
+        },
+        {
+          "id": "st-pro-s1e08",
+          "t": "Time Amok",
+          "n": "8"
+        },
+        {
+          "id": "st-pro-s1e09",
+          "t": "A Moral Star",
+          "n": "9–10",
+          "note": "Two parts, a week apart"
+        },
+        {
+          "id": "st-pro-s1e11",
+          "t": "Asylum",
+          "n": "11"
+        },
+        {
+          "id": "st-pro-s1e12",
+          "t": "Let Sleeping Borg Lie",
+          "n": "12"
+        },
+        {
+          "id": "st-pro-s1e13",
+          "t": "All the World's a Stage",
+          "n": "13"
+        },
+        {
+          "id": "st-pro-s1e14",
+          "t": "Crossroads",
+          "n": "14"
+        },
+        {
+          "id": "st-pro-s1e15",
+          "t": "Masquerade",
+          "n": "15"
+        },
+        {
+          "id": "st-pro-s1e16",
+          "t": "Preludes",
+          "n": "16"
+        },
+        {
+          "id": "st-pro-s1e17",
+          "t": "Ghost in the Machine",
+          "n": "17"
+        },
+        {
+          "id": "st-pro-s1e18",
+          "t": "Mindwalk",
+          "n": "18"
+        },
+        {
+          "id": "st-pro-s1e19",
+          "t": "Supernova",
+          "n": "19–20",
+          "note": "Two parts, a week apart"
+        }
+      ],
+      "intro": "An animated series made for younger viewers. Two seasons of twenty episodes."
+    },
+    {
+      "id": "pro-s2",
+      "title": "Prodigy · Season 2",
+      "sub": "2024 · 20 episodes in 15 entries",
+      "items": [
+        {
+          "id": "st-pro-s2e01",
+          "t": "Into the Breach",
+          "n": "1–2",
+          "note": "Two parts, released together"
+        },
+        {
+          "id": "st-pro-s2e03",
+          "t": "Who Saves the Saviors",
+          "n": "3"
+        },
+        {
+          "id": "st-pro-s2e04",
+          "t": "Temporal Mechanics 101",
+          "n": "4"
+        },
+        {
+          "id": "st-pro-s2e05",
+          "t": "Observer's Paradox",
+          "n": "5"
+        },
+        {
+          "id": "st-pro-s2e06",
+          "t": "Imposter Syndrome",
+          "n": "6"
+        },
+        {
+          "id": "st-pro-s2e07",
+          "t": "The Fast and the Curious",
+          "n": "7"
+        },
+        {
+          "id": "st-pro-s2e08",
+          "t": "Is There in Beauty No Truth?",
+          "n": "8"
+        },
+        {
+          "id": "st-pro-s2e09",
+          "t": "The Devourer of All Things",
+          "n": "9–10",
+          "note": "Two parts, released together"
+        },
+        {
+          "id": "st-pro-s2e11",
+          "t": "Last Flight of the Protostar",
+          "n": "11–12",
+          "note": "Two parts, released together"
+        },
+        {
+          "id": "st-pro-s2e13",
+          "t": "A Tribble Called Quest",
+          "n": "13"
+        },
+        {
+          "id": "st-pro-s2e14",
+          "t": "Cracked Mirror",
+          "n": "14"
+        },
+        {
+          "id": "st-pro-s2e15",
+          "t": "Ascension",
+          "n": "15–16",
+          "note": "Two parts, released together"
+        },
+        {
+          "id": "st-pro-s2e17",
+          "t": "Brink",
+          "n": "17"
+        },
+        {
+          "id": "st-pro-s2e18",
+          "t": "Touch of Grey",
+          "n": "18"
+        },
+        {
+          "id": "st-pro-s2e19",
+          "t": "Ouroboros",
+          "n": "19–20",
+          "note": "Two parts, released together"
+        }
+      ]
+    },
+    {
+      "id": "snw-s1",
+      "title": "Strange New Worlds · Season 1",
+      "sub": "2022 · 10 episodes",
+      "items": [
+        {
+          "id": "st-snw-s1e01",
+          "t": "Strange New Worlds",
+          "n": "1"
+        },
+        {
+          "id": "st-snw-s1e02",
+          "t": "Children of the Comet",
+          "n": "2"
+        },
+        {
+          "id": "st-snw-s1e03",
+          "t": "Ghosts of Illyria",
+          "n": "3"
+        },
+        {
+          "id": "st-snw-s1e04",
+          "t": "Memento Mori",
+          "n": "4"
+        },
+        {
+          "id": "st-snw-s1e05",
+          "t": "Spock Amok",
+          "n": "5"
+        },
+        {
+          "id": "st-snw-s1e06",
+          "t": "Lift Us Where Suffering Cannot Reach",
+          "n": "6"
+        },
+        {
+          "id": "st-snw-s1e07",
+          "t": "The Serene Squall",
+          "n": "7"
+        },
+        {
+          "id": "st-snw-s1e08",
+          "t": "The Elysian Kingdom",
+          "n": "8"
+        },
+        {
+          "id": "st-snw-s1e09",
+          "t": "All Those Who Wander",
+          "n": "9"
+        },
+        {
+          "id": "st-snw-s1e10",
+          "t": "A Quality of Mercy",
+          "n": "10"
+        }
+      ],
+      "intro": "The Enterprise before Kirk, with the crew from the 1964 pilot. Ten-episode seasons."
+    },
+    {
+      "id": "snw-s2",
+      "title": "Strange New Worlds · Season 2",
+      "sub": "2023 · 10 episodes",
+      "items": [
+        {
+          "id": "st-snw-s2e01",
+          "t": "The Broken Circle",
+          "n": "1"
+        },
+        {
+          "id": "st-snw-s2e02",
+          "t": "Ad Astra per Aspera",
+          "n": "2"
+        },
+        {
+          "id": "st-snw-s2e03",
+          "t": "Tomorrow and Tomorrow and Tomorrow",
+          "n": "3"
+        },
+        {
+          "id": "st-snw-s2e04",
+          "t": "Among the Lotus Eaters",
+          "n": "4"
+        },
+        {
+          "id": "st-snw-s2e05",
+          "t": "Charades",
+          "n": "5"
+        },
+        {
+          "id": "st-snw-s2e06",
+          "t": "Lost in Translation",
+          "n": "6"
+        },
+        {
+          "id": "st-snw-s2e07",
+          "t": "Those Old Scientists",
+          "n": "7"
+        },
+        {
+          "id": "st-snw-s2e08",
+          "t": "Under the Cloak of War",
+          "n": "8"
+        },
+        {
+          "id": "st-snw-s2e09",
+          "t": "Subspace Rhapsody",
+          "n": "9"
+        },
+        {
+          "id": "st-snw-s2e10",
+          "t": "Hegemony",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "snw-s3",
+      "title": "Strange New Worlds · Season 3",
+      "sub": "2025 · 10 episodes",
+      "items": [
+        {
+          "id": "st-snw-s3e01",
+          "t": "Hegemony, Part II",
+          "n": "1"
+        },
+        {
+          "id": "st-snw-s3e02",
+          "t": "Wedding Bell Blues",
+          "n": "2"
+        },
+        {
+          "id": "st-snw-s3e03",
+          "t": "Shuttle to Kenfori",
+          "n": "3"
+        },
+        {
+          "id": "st-snw-s3e04",
+          "t": "A Space Adventure Hour",
+          "n": "4"
+        },
+        {
+          "id": "st-snw-s3e05",
+          "t": "Through the Lens of Time",
+          "n": "5"
+        },
+        {
+          "id": "st-snw-s3e06",
+          "t": "The Sehlat Who Ate Its Tail",
+          "n": "6"
+        },
+        {
+          "id": "st-snw-s3e07",
+          "t": "What Is Starfleet?",
+          "n": "7"
+        },
+        {
+          "id": "st-snw-s3e08",
+          "t": "Four-and-a-Half Vulcans",
+          "n": "8"
+        },
+        {
+          "id": "st-snw-s3e09",
+          "t": "Terrarium",
+          "n": "9"
+        },
+        {
+          "id": "st-snw-s3e10",
+          "t": "New Life and New Civilizations",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "snw-s4",
+      "title": "Strange New Worlds · Season 4",
+      "sub": "2026 · 10 episodes · 5 of 10 aired by 24 August 2026",
+      "items": [
+        {
+          "id": "st-snw-s4e01",
+          "t": "Valles Marineris",
+          "n": "1"
+        },
+        {
+          "id": "st-snw-s4e02",
+          "t": "The Griffin Incident",
+          "n": "2"
+        },
+        {
+          "id": "st-snw-s4e03",
+          "t": "Human Best Friend",
+          "n": "3"
+        },
+        {
+          "id": "st-snw-s4e04",
+          "t": "A Case of Chiaroscuro",
+          "n": "4"
+        },
+        {
+          "id": "st-snw-s4e05",
+          "t": "Level Five Transporter Accident",
+          "n": "5"
+        },
+        {
+          "id": "st-snw-s4e06",
+          "t": "Off-Hour",
+          "n": "6",
+          "note": "airs 27 August 2026"
+        },
+        {
+          "id": "st-snw-s4e07",
+          "t": "Like Chronitons Through the Hourglass",
+          "n": "7",
+          "note": "airs 3 September 2026"
+        },
+        {
+          "id": "st-snw-s4e08",
+          "t": "Orders of Magnitude",
+          "n": "8",
+          "note": "airs 10 September 2026"
+        },
+        {
+          "id": "st-snw-s4e09",
+          "t": "Once La'An a Time",
+          "n": "9",
+          "note": "airs 17 September 2026"
+        },
+        {
+          "id": "st-snw-s4e10",
+          "t": "Tomorrow's Enterprise",
+          "n": "10",
+          "note": "airs 24 September 2026"
+        }
+      ]
+    }
+  ]
+}
