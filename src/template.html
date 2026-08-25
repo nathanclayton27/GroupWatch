@@ -355,11 +355,19 @@ li.done .ttl,li.done .num{color:var(--ink-3);text-decoration:line-through;text-d
 header:hover .lth .thb:not(.on),
 header:focus-within .lth .thb:not(.on){opacity:.6}
 @media (hover:none){
-  /* nothing to hover: the pair rests faint instead of invisible, like every
-     other control that lives in the hover layer */
-  .thb{opacity:.5;padding:6px 10px}
-  .thb.on{opacity:1}
-  .thc{opacity:.5;padding:6px 10px}
+  /* On a phone the pair arrives with the TAP, not at rest (Nathan, CLU-176).
+     Resting them faint was the old answer for "nothing to hover", but on a
+     600-row list every row wearing a faint pair is the voting booth the whole
+     design refuses — and it is louder on a phone, where the rows are closer
+     together and there is no pointer to explain what those marks are for.
+     .act is the same row-armed state catch-up already uses, so one tap arms
+     one row and only that row shows its controls. A made mark still survives
+     at rest, because it is a fact rather than a control. */
+  .thb{opacity:0;padding:6px 10px;pointer-events:none}
+  #list li.act .thb,header .lth .thb{opacity:.6;pointer-events:auto}
+  .thb.on{opacity:1;pointer-events:auto}
+  .thc{opacity:0;padding:6px 10px}
+  #list li.act .thc{opacity:.75}
 }
 .star{color:var(--signal);font-size:11px;letter-spacing:-1px}
 .opt{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);border:1px solid var(--rule-2);padding:1px 5px;border-radius:var(--radius)}
