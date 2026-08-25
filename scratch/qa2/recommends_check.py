@@ -98,7 +98,7 @@ LYNCH_DONE = [r[1] for r in LYNCH]
 
 SEED = {
     "gw:acctname": "exx",
-    "gw:syncback:v1:u1": "1",
+    "gw:syncback:off": "1",
     "gw:wallfold": "1",           # the wall folded keeps the page short
     # the reader is twelve films into an ordered run, likes the run as a
     # whole, and has thumbed two of the films inside it

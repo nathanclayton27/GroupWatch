@@ -1,0 +1,482 @@
+{
+  "show": {
+    "seasons": 3,
+    "episodes": 25,
+    "runtime": "20–22 minutes",
+    "first_aired": "2000-10-01",
+    "last_aired": "2001-08-12"
+  },
+  "seasons": [
+    {
+      "n": 1,
+      "count": 8,
+      "start": "2000-10-01",
+      "end": "2000-11-19"
+    },
+    {
+      "n": 2,
+      "count": 8,
+      "start": "2001-02-18",
+      "end": "2001-04-22"
+    },
+    {
+      "n": 3,
+      "count": 9,
+      "start": "2001-06-17",
+      "end": "2001-08-12"
+    }
+  ],
+  "episodes": [
+    {
+      "overall": 1,
+      "n": 1,
+      "t": "Poo Cocktail",
+      "aired": "2000-04-12",
+      "repeat": "2000-10-01",
+      "runtime": null,
+      "season": 1
+    },
+    {
+      "overall": 2,
+      "n": 2,
+      "t": "Blind Driver",
+      "aired": "2000-10-08",
+      "repeat": null,
+      "runtime": null,
+      "season": 1
+    },
+    {
+      "overall": 3,
+      "n": 3,
+      "t": "Bam Kicking His Dad's Ass All Day Today",
+      "aired": "2000-10-15",
+      "repeat": null,
+      "runtime": null,
+      "season": 1
+    },
+    {
+      "overall": 4,
+      "n": 4,
+      "t": "Poo Poo Platter",
+      "aired": "2000-10-22",
+      "repeat": null,
+      "runtime": null,
+      "season": 1
+    },
+    {
+      "overall": 5,
+      "n": 5,
+      "t": "Mianus",
+      "aired": "2000-10-29",
+      "repeat": null,
+      "runtime": null,
+      "season": 1
+    },
+    {
+      "overall": 6,
+      "n": 6,
+      "t": "Poo Joust",
+      "aired": "2000-11-05",
+      "repeat": null,
+      "runtime": null,
+      "season": 1
+    },
+    {
+      "overall": 7,
+      "n": 7,
+      "t": "Casket",
+      "aired": "2000-11-12",
+      "repeat": null,
+      "runtime": null,
+      "season": 1
+    },
+    {
+      "overall": 8,
+      "n": 8,
+      "t": "Santa Colonic",
+      "aired": "2000-11-19",
+      "repeat": null,
+      "runtime": null,
+      "season": 1
+    },
+    {
+      "overall": 9,
+      "n": 1,
+      "t": "Cup Test",
+      "aired": "2001-02-18",
+      "repeat": null,
+      "runtime": null,
+      "season": 2
+    },
+    {
+      "overall": 10,
+      "n": 2,
+      "t": "Jai Alai",
+      "aired": "2001-02-25",
+      "repeat": null,
+      "runtime": null,
+      "season": 2
+    },
+    {
+      "overall": 11,
+      "n": 3,
+      "t": "The Loop",
+      "aired": "2001-03-04",
+      "repeat": null,
+      "runtime": null,
+      "season": 2
+    },
+    {
+      "overall": 12,
+      "n": 4,
+      "t": "Wakeboarding",
+      "aired": "2001-03-11",
+      "repeat": null,
+      "runtime": null,
+      "season": 2
+    },
+    {
+      "overall": 13,
+      "n": 5,
+      "t": "Donut",
+      "aired": "2001-03-18",
+      "repeat": null,
+      "runtime": null,
+      "season": 2
+    },
+    {
+      "overall": 14,
+      "n": 6,
+      "t": "Slingshot",
+      "aired": "2001-04-08",
+      "repeat": null,
+      "runtime": null,
+      "season": 2
+    },
+    {
+      "overall": 15,
+      "n": 7,
+      "t": "Eddie's Auto",
+      "aired": "2001-04-15",
+      "repeat": null,
+      "runtime": null,
+      "season": 2
+    },
+    {
+      "overall": 16,
+      "n": 8,
+      "t": "The Matador",
+      "aired": "2001-04-22",
+      "repeat": null,
+      "runtime": null,
+      "season": 2
+    },
+    {
+      "overall": 17,
+      "n": 1,
+      "t": "Beard of Leeches",
+      "aired": "2001-06-17",
+      "repeat": null,
+      "runtime": null,
+      "season": 3
+    },
+    {
+      "overall": 18,
+      "n": 2,
+      "t": "Spermathon",
+      "aired": "2001-06-24",
+      "repeat": null,
+      "runtime": null,
+      "season": 3
+    },
+    {
+      "overall": 19,
+      "n": 3,
+      "t": "Office Chairs",
+      "aired": "2001-07-01",
+      "repeat": null,
+      "runtime": null,
+      "season": 3
+    },
+    {
+      "overall": 20,
+      "n": 4,
+      "t": "Slip & Slide",
+      "aired": "2001-07-08",
+      "repeat": null,
+      "runtime": null,
+      "season": 3
+    },
+    {
+      "overall": 21,
+      "n": 5,
+      "t": "Bloody Windshield",
+      "aired": "2001-07-15",
+      "repeat": null,
+      "runtime": null,
+      "season": 3
+    },
+    {
+      "overall": 22,
+      "n": 6,
+      "t": "Playgirl Pontius",
+      "aired": "2001-07-22",
+      "repeat": null,
+      "runtime": null,
+      "season": 3
+    },
+    {
+      "overall": 23,
+      "n": 7,
+      "t": "Gumball Rally 3000",
+      "aired": "2001-07-29",
+      "repeat": "2002-02-03",
+      "runtime": null,
+      "season": 3
+    },
+    {
+      "overall": 24,
+      "n": 8,
+      "t": "Bloody Carpet",
+      "aired": "2001-08-05",
+      "repeat": null,
+      "runtime": null,
+      "season": 3
+    },
+    {
+      "overall": 25,
+      "n": 9,
+      "t": "The Bed Wetter",
+      "aired": "2001-08-12",
+      "repeat": null,
+      "runtime": null,
+      "season": 3
+    }
+  ],
+  "releases": [
+    {
+      "t": "Jackass: The Movie",
+      "year": 2002,
+      "year2": null,
+      "article": "Jackass: The Movie",
+      "kind": "film",
+      "redirects_to": null,
+      "own_item": true,
+      "qid": "Q509256",
+      "wd_runtime": 85,
+      "has_article": true,
+      "raw_runtime": "85 minutes",
+      "runtime": 85
+    },
+    {
+      "t": "Jackass Number Two",
+      "year": 2006,
+      "year2": null,
+      "article": "Jackass Number Two",
+      "kind": "film",
+      "redirects_to": null,
+      "own_item": true,
+      "qid": "Q1138620",
+      "wd_runtime": 95,
+      "has_article": true,
+      "raw_runtime": "92 minutes",
+      "runtime": 92
+    },
+    {
+      "t": "Jackass 2.5",
+      "year": 2007,
+      "year2": null,
+      "article": "Jackass 2.5",
+      "kind": "film",
+      "redirects_to": "Jackass Number Two",
+      "own_item": false,
+      "qid": null,
+      "wd_runtime": null,
+      "has_article": false,
+      "raw_runtime": "",
+      "runtime": null
+    },
+    {
+      "t": "Jackass Presents: Mat Hoffman's Tribute to Evel Knievel",
+      "year": 2008,
+      "year2": null,
+      "article": "Jackass Presents: Mat Hoffman's Tribute to Evel Knievel",
+      "kind": "film",
+      "redirects_to": null,
+      "own_item": true,
+      "qid": "Q16158144",
+      "wd_runtime": null,
+      "has_article": true,
+      "raw_runtime": "47 minutes",
+      "runtime": 47
+    },
+    {
+      "t": "Jackass 3D",
+      "year": 2010,
+      "year2": null,
+      "article": "Jackass 3D",
+      "kind": "film",
+      "redirects_to": null,
+      "own_item": true,
+      "qid": "Q1066098",
+      "wd_runtime": 94,
+      "has_article": true,
+      "raw_runtime": "94 minutes",
+      "runtime": 94
+    },
+    {
+      "t": "Jackass 3.5",
+      "year": 2011,
+      "year2": null,
+      "article": "Jackass 3.5",
+      "kind": "film",
+      "redirects_to": "Jackass 3D",
+      "own_item": false,
+      "qid": null,
+      "wd_runtime": null,
+      "has_article": false,
+      "raw_runtime": "",
+      "runtime": null
+    },
+    {
+      "t": "Jackass Presents: Bad Grandpa",
+      "year": 2013,
+      "year2": null,
+      "article": "Jackass Presents: Bad Grandpa",
+      "kind": "film",
+      "redirects_to": null,
+      "own_item": true,
+      "qid": "Q14407638",
+      "wd_runtime": 92,
+      "has_article": true,
+      "raw_runtime": "92 minutes",
+      "runtime": 92
+    },
+    {
+      "t": "Jackass Presents: Bad Grandpa.5",
+      "year": 2014,
+      "year2": null,
+      "article": null,
+      "kind": "film",
+      "redirects_to": null,
+      "own_item": false,
+      "qid": null,
+      "wd_runtime": null,
+      "has_article": false,
+      "raw_runtime": "",
+      "runtime": null
+    },
+    {
+      "t": "Jackass Forever",
+      "year": 2022,
+      "year2": null,
+      "article": "Jackass Forever",
+      "kind": "film",
+      "redirects_to": null,
+      "own_item": true,
+      "qid": "Q104528612",
+      "wd_runtime": 96,
+      "has_article": true,
+      "raw_runtime": "96 minutes",
+      "runtime": 96
+    },
+    {
+      "t": "Jackass 4.5",
+      "year": 2022,
+      "year2": null,
+      "article": "Jackass 4.5",
+      "kind": "film",
+      "redirects_to": "Jackass Forever",
+      "own_item": false,
+      "qid": null,
+      "wd_runtime": null,
+      "has_article": false,
+      "raw_runtime": "",
+      "runtime": null
+    },
+    {
+      "t": "Jackass: Best and Last",
+      "year": 2026,
+      "year2": null,
+      "article": "Jackass: Best and Last",
+      "kind": "film",
+      "redirects_to": null,
+      "own_item": true,
+      "qid": "Q138035676",
+      "wd_runtime": 92,
+      "has_article": true,
+      "raw_runtime": "92 minutes",
+      "runtime": 92
+    },
+    {
+      "t": "Jackass Backyard BBQ",
+      "year": 2002,
+      "year2": null,
+      "article": null,
+      "kind": "special",
+      "redirects_to": null,
+      "own_item": false,
+      "qid": null,
+      "wd_runtime": null,
+      "has_article": false,
+      "raw_runtime": "",
+      "runtime": null
+    },
+    {
+      "t": "Jackassworld.com: 24 Hour Takeover",
+      "year": 2008,
+      "year2": null,
+      "article": "Jackassworld.com: 24 Hour Takeover",
+      "kind": "special",
+      "redirects_to": null,
+      "own_item": true,
+      "qid": "Q6116093",
+      "wd_runtime": null,
+      "has_article": true,
+      "raw_runtime": "24 hours",
+      "runtime": null
+    },
+    {
+      "t": "Steve-O: Demise and Rise",
+      "year": 2009,
+      "year2": null,
+      "article": null,
+      "kind": "special",
+      "redirects_to": null,
+      "own_item": false,
+      "qid": null,
+      "wd_runtime": null,
+      "has_article": false,
+      "raw_runtime": "",
+      "runtime": null
+    },
+    {
+      "t": "A Tribute to Ryan Dunn",
+      "year": 2011,
+      "year2": null,
+      "article": null,
+      "kind": "special",
+      "redirects_to": null,
+      "own_item": false,
+      "qid": null,
+      "wd_runtime": null,
+      "has_article": false,
+      "raw_runtime": "",
+      "runtime": null
+    },
+    {
+      "t": "Jackass Shark Week",
+      "year": 2021,
+      "year2": 2022,
+      "article": null,
+      "kind": "special",
+      "redirects_to": "Jackass (franchise)",
+      "own_item": false,
+      "qid": null,
+      "wd_runtime": null,
+      "has_article": false,
+      "raw_runtime": "",
+      "runtime": null
+    }
+  ]
+}

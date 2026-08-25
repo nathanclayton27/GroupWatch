@@ -329,14 +329,29 @@ def main():
           % (len(rows), len(sync),
              len({s for v in sync.values() for s, _ in v})))
 
+    # The page's one-time cross-list backfill is keyed on this. Deriving it
+    # from the sync map's own content means any build that adds, removes or
+    # rewires a group re-runs that pass for everyone, so a newly added list
+    # inherits ticks people already had on the list it pairs with. The key
+    # used to be a version string bumped by hand, and that broke the first
+    # time it mattered: Mission: Impossible shipped with eight verified groups
+    # against Tom Cruise and no bump, so ticks made before it existed never
+    # travelled (CLU-247). Adding a list is the common case; remembering to
+    # edit a string in a different file was not.
+    syncver = hashlib.sha1(
+        json.dumps(sync, sort_keys=True, separators=(",", ":"),
+                   ensure_ascii=False).encode("utf-8")).hexdigest()[:10]
+
     html = TEMPLATE.read_text(encoding="utf-8")
-    for ph in ("__MANIFEST__", "__BUILD__"):
+    for ph in ("__MANIFEST__", "__BUILD__", "__SYNCVER__"):
         if ph not in html:
             fail("template.html is missing the %s placeholder" % ph)
 
     # the manifest is small and needed before first paint, so it is inlined;
     # the property bodies are not
     html = html.replace("__MANIFEST__", json.dumps(manifest, indent=2, ensure_ascii=False))
+    # before the stamp below, so the page's content hash covers it
+    html = html.replace("__SYNCVER__", syncver)
 
     # A content hash of everything that ends up in the page. GitHub Pages serves
     # index.html with a cache lifetime, so a browser can go on running an old
@@ -348,7 +363,7 @@ def main():
     build = stamp.hexdigest()[:12]
 
     html = html.replace("__BUILD__", build)
-    for ph in ("__MANIFEST__", "__BUILD__"):
+    for ph in ("__MANIFEST__", "__BUILD__", "__SYNCVER__"):
         if ph in html:
             fail("%s was not replaced" % ph)
 

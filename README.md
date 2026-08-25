@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and fifty-seven lists, from a ten-episode anime to a 1,337-spine film
+One hundred and fifty-nine lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -36,7 +36,9 @@ current run — *M\*A\*S\*H*, *Seinfeld*, *Frasier* (the original run),
 Life as its own section), *The Golden Girls* (the seven hour-long
 broadcasts and four two-parters honestly marked),
 *Nathan Fielder* (the three shows he created — Nathan for You, The
-Rehearsal and The Curse — 54 episodes),
+Rehearsal and The Curse — 54 episodes), *Jackass* (the MTV run plus every
+Jackass-branded release, the .5 cuts marked as companion releases rather than
+sequels),
 *MST3K* down to the KTMA year, *Columbo*
 with real per-movie runtimes, *James Bond* by actor, *Mission: Impossible*
 (the eight released films, ticks shared with the Tom Cruise
@@ -82,7 +84,8 @@ published them, with the chronological order as a note rather than a
 second list), and *Middle-earth* — books plus Jackson's six films. Comics:
 *The Sandman* issue by issue through its ten volumes, Death and Overture
 included, the *Vertigo shelf* (Preacher, Transmetropolitan and Y: The Last
-Man, one row per collected volume), and the *Hellboy / Mignolaverse* trunk
+Man, one row per collected volume), *Batman* as 35 finite stories gated on
+Wikipedia's own publication history, and the *Hellboy / Mignolaverse* trunk
 with the spoke series as optional rows.
 
 **Filmographies.** *Stanley Kubrick* (with A.I.), *Steven Spielberg*,

@@ -1408,6 +1408,12 @@ async function refreshManifest(){
 
 const BUILD = '__BUILD__';
 
+// A hash of the sync map itself, from build.py. The cross-list backfill below
+// runs once per device per value of this, so any build that adds, removes or
+// rewires a sync group re-runs it — which is how a newly added list inherits
+// ticks people already had elsewhere. See backfillSync().
+const SYNCVER = '__SYNCVER__';
+
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
 // through a one-off URL so the request cannot be answered from cache — a plain
@@ -1861,18 +1867,18 @@ async function backfillSync(){
   // ticks into the fresh set. The flag stays unset, so the pass simply runs
   // on the next all-time load instead.
   if(FW) return;
-  // v2: the sync map itself changed. Criterion numbers its rows by spine
-  // and Sight & Sound by rank, so neither could ever match a title+year
-  // key — 1,500 film rows were invisible to sync, and ticking Fantastic
-  // Mr. Fox on the Wes Anderson list left the Criterion copy untouched.
-  // The map now finds the year in a row's note when the number lane
-  // isn't one, which added 224 groups. Bumping the version re-runs the
-  // one-time pass so ticks people ALREADY have travel across the
-  // groups that did not exist when they first ran it. v3 adds the same
-  // treatment for games, which sync had never covered at all — FPS canon
-  // overlaps Halo, Half-Life and Bond games, and none of it matched.
-  const flag = 'gw:syncback:v3:' + (user ? user.id : 'anon');
-  if(bfBusy || localStorage.getItem(flag)) return;
+  // The flag is keyed on a hash of the sync map, so this pass re-runs by
+  // itself whenever the groups change. It used to be a hand-bumped version
+  // (v1, v2 for the note-year fallback, v3 for games) and that contract broke
+  // the first time it mattered: Mission: Impossible shipped with eight
+  // verified groups against the Tom Cruise list and nobody bumped it, so
+  // ticks made before the list existed never travelled to it (CLU-247).
+  // Adding a list is the common case; remembering to bump was not.
+  const flag = 'gw:syncback:' + SYNCVER + ':' + (user ? user.id : 'anon');
+  // `gw:syncback:off` is the QA harness's handle. The flag above is a content
+  // hash now, so a test script can no longer seed "already done" by name, and
+  // a pass that quietly adds ticks would move the numbers a test is asserting.
+  if(bfBusy || localStorage.getItem('gw:syncback:off') || localStorage.getItem(flag)) return;
   bfBusy = true;
   try{
     const d = await ensureIndex();
@@ -1934,7 +1940,18 @@ async function backfillSync(){
       }
     }
     if(mine) paint();
-    try{ localStorage.setItem(flag,'1'); }catch(e){}
+    // one flag per sync map, and the map changes on most deploys — so sweep
+    // the older ones out rather than leaving a key behind for every build
+    // this device has ever seen
+    try{
+      const stale = [];
+      for(let i = 0; i < localStorage.length; i++){
+        const k = localStorage.key(i);
+        if(k && k.indexOf('gw:syncback:') === 0 && k !== flag) stale.push(k);
+      }
+      stale.forEach(k=> localStorage.removeItem(k));
+      localStorage.setItem(flag,'1');
+    }catch(e){}
     if(n) flash('Carried '+n+' earlier tick'+(n===1?'':'s')+' across lists.');
   }catch(e){ /* non-fatal; retries next load */ }
   finally{ bfBusy = false; }

@@ -1007,6 +1007,26 @@
     "total": 36
   },
   {
+    "slug": "jackass",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Jackass",
+    "subtitle": "the MTV show, then everything released under the name",
+    "kind": "tv & films",
+    "year": "2000–2026",
+    "popularity": 75,
+    "blurb": "Three short seasons on MTV in air order, then every Jackass-branded release since — the features, the companion cuts and the specials.",
+    "accent": "#A85C00",
+    "accentDark": "#F5A83C",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 38
+  },
+  {
     "slug": "scorsese",
     "media": [
       "movies"
@@ -1164,6 +1184,25 @@
       "many": "entries"
     },
     "total": 219
+  },
+  {
+    "slug": "batman",
+    "media": [
+      "comics"
+    ],
+    "title": "Batman",
+    "subtitle": "a reading order",
+    "kind": "comics",
+    "year": "1986–2021",
+    "popularity": 72,
+    "blurb": "The stories Wikipedia's publication history of Batman stops to name, from The Dark Knight Returns to Fear State — collected stories rather than issues, sectioned by era.",
+    "accent": "#1B2436",
+    "accentDark": "#D8B740",
+    "unit": {
+      "one": "story",
+      "many": "stories"
+    },
+    "total": 35
   },
   {
     "slug": "fromsoft",

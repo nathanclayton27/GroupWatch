@@ -223,7 +223,7 @@ SEED = {
     "gw:last": LIST,
     "gw:v1:" + LIST: json.dumps(MINE),
     "gw:merged:u1:" + LIST: "1",
-    "gw:syncback:v1:u1": "1",
+    "gw:syncback:off": "1",
     "gw:acctname": "exx",
     "gw:group:" + LIST: "g1",
 }
