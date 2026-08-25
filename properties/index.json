@@ -1134,6 +1134,25 @@
     "total": 148
   },
   {
+    "slug": "rick-and-morty",
+    "media": [
+      "tv"
+    ],
+    "title": "Rick and Morty",
+    "subtitle": "every episode, in broadcast order",
+    "kind": "tv",
+    "year": "2013–",
+    "popularity": 72,
+    "blurb": "Adult Swim's multiverse sitcom, one row per episode, every season in the order it aired.",
+    "accent": "#3E7B23",
+    "accentDark": "#97CE4C",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 91
+  },
+  {
     "slug": "twilight-zone",
     "media": [
       "tv"

@@ -2520,6 +2520,25 @@ let MANIFEST = [
     "total": 148
   },
   {
+    "slug": "rick-and-morty",
+    "media": [
+      "tv"
+    ],
+    "title": "Rick and Morty",
+    "subtitle": "every episode, in broadcast order",
+    "kind": "tv",
+    "year": "2013–",
+    "popularity": 72,
+    "blurb": "Adult Swim's multiverse sitcom, one row per episode, every season in the order it aired.",
+    "accent": "#3E7B23",
+    "accentDark": "#97CE4C",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 91
+  },
+  {
     "slug": "twilight-zone",
     "media": [
       "tv"
@@ -4150,7 +4169,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'b1e627f60803';
+const BUILD = 'ddee9bbb4a57';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

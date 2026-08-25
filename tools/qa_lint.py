@@ -181,7 +181,11 @@ if manifest_file.exists():
                 "in src/build.py, then rebuild" % at)
 
 total = sum(len(v) for v in findings.values())
-print("properties checked:", len(list(PROPS.glob('*.json'))) - 1)
+# index.json and search.json are generated, not properties — subtracting one
+# counted search.json as a list and reported one more than the catalogue holds
+print("properties checked:",
+      len([p for p in PROPS.glob('*.json')
+           if p.name not in ('index.json', 'search.json')]))
 print("findings:", total)
 # There is no allowlist any more. The three standing exceptions here were all
 # duplicate `order` values (lanterns/cyberpunk-edgerunners, metal-gear/civil-war,

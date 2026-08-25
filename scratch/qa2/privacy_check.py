@@ -37,6 +37,12 @@ PORT = 8151
 srv = subprocess.Popen([sys.executable, "-m", "http.server", str(PORT)],
                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 time.sleep(1.2)
+if srv.poll() is not None:
+    raise SystemExit(
+        "PORT BUSY: another process already owns this port, so this script "
+        "would have tested WHATEVER IT SERVES — possibly a stale build from "
+        "another directory. Kill it and re-run.")
+
 BASE = "http://localhost:%d/" % PORT
 
 MAN = json.load(open("properties/index.json", encoding="utf-8"))
