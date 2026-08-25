@@ -1,0 +1,367 @@
+{
+  "slug": "black-mirror",
+  "title": "Black Mirror",
+  "subtitle": "every episode, plus Bandersnatch",
+  "kind": "tv",
+  "popularity": 80,
+  "year": "2011–2025",
+  "blurb": "All 33 episodes and Bandersnatch, in broadcast order and weighted by runtime. Nothing connects them — start anywhere.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#101560",
+  "accentDark": "#C6B4FE",
+  "tiers": false,
+  "random": true,
+  "notes": [
+    [
+      "Start anywhere.",
+      "This is an anthology: no character, no world and no arc carries from one episode to the next, so the order is a filing system rather than a route. The Pick one for me button is a perfectly good front door, and a series you fancy is as valid a starting point as the first. The single exception is series 7's finale, which is a sequel to a series 4 episode and shares its name — the only pair in 34 rows that asks to be watched in order."
+    ],
+    [
+      "Weighted by runtime, every row.",
+      "Unusually for television, Black Mirror publishes a length per episode, and they run from 41 minutes to 90 — the strip and the finish date are built on those figures rather than on an episode count. 34 rows, 34h 14m in total. Each figure is the runtime given by that episode's own Wikipedia article."
+    ],
+    [
+      "Bandersnatch, and how it is counted.",
+      "The 2018 interactive film sits where it was released, between series 4 and series 5, in a section of its own because it is not an episode and the source does not number it. It has no fixed runtime; it is weighted at its published 90-minute default path, with 312 minutes of footage in total, and a single viewing is what that number describes. Netflix withdrew it in May 2025 and has not reissued it in a linear form."
+    ],
+    [
+      "No episode notes, on purpose.",
+      "The show is its turns, and a one-line summary hands several of them over. Nothing here describes what happens in an episode. The titles are the official titles, printed as the source has them, including the loaded ones — a title is what an episode is called, not what it does."
+    ],
+    "Titles, air dates and numbering machine-read from Wikipedia's List of Black Mirror episodes; runtimes from each episode's own article. Every section's row count is asserted against the enumerated tables before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Series 1",
+      "sub": "2011 · 3 episodes · 2h 30m",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Black_Mirror_episodes#Series_1_(2011)"
+        }
+      ],
+      "items": [
+        {
+          "id": "bm-1",
+          "t": "The National Anthem",
+          "n": "1",
+          "w": 0.73
+        },
+        {
+          "id": "bm-2",
+          "t": "Fifteen Million Merits",
+          "n": "2",
+          "w": 1.03
+        },
+        {
+          "id": "bm-3",
+          "t": "The Entire History of You",
+          "n": "3",
+          "w": 0.73
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Series 2",
+      "sub": "2013 · 3 episodes · 2h 15m",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Black_Mirror_episodes#Series_2_(2013)"
+        }
+      ],
+      "items": [
+        {
+          "id": "bm-4",
+          "t": "Be Right Back",
+          "n": "4",
+          "w": 0.82
+        },
+        {
+          "id": "bm-5",
+          "t": "White Bear",
+          "n": "5",
+          "w": 0.7
+        },
+        {
+          "id": "bm-6",
+          "t": "The Waldo Moment",
+          "n": "6",
+          "w": 0.73
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "title": "Special",
+      "sub": "16 December 2014 · one episode · 1h 14m",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Black_Mirror_episodes#Special_(2014)"
+        }
+      ],
+      "items": [
+        {
+          "id": "bm-7",
+          "t": "White Christmas",
+          "n": "7",
+          "w": 1.23
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Series 3",
+      "sub": "2016 · 6 episodes · 6h 22m",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Black_Mirror_episodes#Series_3_(2016)"
+        }
+      ],
+      "items": [
+        {
+          "id": "bm-8",
+          "t": "Nosedive",
+          "n": "8",
+          "w": 1.05
+        },
+        {
+          "id": "bm-9",
+          "t": "Playtest",
+          "n": "9",
+          "w": 0.95
+        },
+        {
+          "id": "bm-10",
+          "t": "Shut Up and Dance",
+          "n": "10",
+          "w": 0.87
+        },
+        {
+          "id": "bm-11",
+          "t": "San Junipero",
+          "n": "11",
+          "w": 1.02
+        },
+        {
+          "id": "bm-12",
+          "t": "Men Against Fire",
+          "n": "12",
+          "w": 1.0
+        },
+        {
+          "id": "bm-13",
+          "t": "Hated in the Nation",
+          "n": "13",
+          "w": 1.48
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Series 4",
+      "sub": "2017 · 6 episodes · 5h 48m",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Black_Mirror_episodes#Series_4_(2017)"
+        }
+      ],
+      "items": [
+        {
+          "id": "bm-14",
+          "t": "USS Callister",
+          "n": "14",
+          "w": 1.27
+        },
+        {
+          "id": "bm-15",
+          "t": "Arkangel",
+          "n": "15",
+          "w": 0.87
+        },
+        {
+          "id": "bm-16",
+          "t": "Crocodile",
+          "n": "16",
+          "w": 0.98
+        },
+        {
+          "id": "bm-17",
+          "t": "Hang the DJ",
+          "n": "17",
+          "w": 0.85
+        },
+        {
+          "id": "bm-18",
+          "t": "Metalhead",
+          "n": "18",
+          "w": 0.68
+        },
+        {
+          "id": "bm-19",
+          "t": "Black Museum",
+          "n": "19",
+          "w": 1.15
+        }
+      ]
+    },
+    {
+      "id": "bandersnatch",
+      "title": "Interactive film",
+      "sub": "28 December 2018 · one film · 1h 30m",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Black_Mirror_episodes#Interactive_film_(2018)"
+        }
+      ],
+      "items": [
+        {
+          "id": "bm-bandersnatch",
+          "t": "Bandersnatch",
+          "n": "film",
+          "w": 1.5
+        }
+      ],
+      "intro": "An interactive film rather than an episode, and the only row here with no fixed length: its own article gives the runtime as variable, with a default path of 90 minutes and 312 minutes of footage in total. It is weighted at the 90-minute default. Netflix withdrew it in May 2025 and has not reissued it in a linear form, so it may not be watchable where the rest of the list is."
+    },
+    {
+      "id": "s5",
+      "title": "Series 5",
+      "sub": "2019 · 3 episodes · 3h 18m",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Black_Mirror_episodes#Series_5_(2019)"
+        }
+      ],
+      "items": [
+        {
+          "id": "bm-20",
+          "t": "Striking Vipers",
+          "n": "20",
+          "w": 1.02
+        },
+        {
+          "id": "bm-21",
+          "t": "Smithereens",
+          "n": "21",
+          "w": 1.17
+        },
+        {
+          "id": "bm-22",
+          "t": "Rachel, Jack and Ashley Too",
+          "n": "22",
+          "w": 1.12
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Series 6",
+      "sub": "2023 · 5 episodes · 5h 7m",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Black_Mirror_episodes#Series_6_(2023)"
+        }
+      ],
+      "items": [
+        {
+          "id": "bm-23",
+          "t": "Joan Is Awful",
+          "n": "23",
+          "w": 0.93
+        },
+        {
+          "id": "bm-24",
+          "t": "Loch Henry",
+          "n": "24",
+          "w": 0.9
+        },
+        {
+          "id": "bm-25",
+          "t": "Beyond the Sea",
+          "n": "25",
+          "w": 1.33
+        },
+        {
+          "id": "bm-26",
+          "t": "Mazey Day",
+          "n": "26",
+          "w": 0.72
+        },
+        {
+          "id": "bm-27",
+          "t": "Demon 79",
+          "n": "27",
+          "w": 1.23
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Series 7",
+      "sub": "2025 · 6 episodes · 6h 10m",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Black_Mirror_episodes#Series_7_(2025)"
+        }
+      ],
+      "items": [
+        {
+          "id": "bm-28",
+          "t": "Common People",
+          "n": "28",
+          "w": 0.97
+        },
+        {
+          "id": "bm-29",
+          "t": "Bête Noire",
+          "n": "29",
+          "w": 0.85
+        },
+        {
+          "id": "bm-30",
+          "t": "Hotel Reverie",
+          "n": "30",
+          "w": 1.3
+        },
+        {
+          "id": "bm-31",
+          "t": "Plaything",
+          "n": "31",
+          "w": 0.77
+        },
+        {
+          "id": "bm-32",
+          "t": "Eulogy",
+          "n": "32",
+          "w": 0.78
+        },
+        {
+          "id": "bm-33",
+          "t": "USS Callister: Into Infinity",
+          "n": "33",
+          "w": 1.5
+        }
+      ]
+    }
+  ]
+}
