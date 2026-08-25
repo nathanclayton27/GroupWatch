@@ -1,0 +1,4894 @@
+{
+  "slug": "naruto",
+  "title": "Naruto",
+  "subtitle": "The original series and Shippuden",
+  "kind": "anime",
+  "popularity": 90,
+  "year": "2002–2017",
+  "blurb": "720 episodes, both series in broadcast order, with the filler marked.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#155EEF",
+  "accentDark": "#7FA8FF",
+  "tiers": false,
+  "notes": [
+    [
+      "Filler.",
+      "275 of 720 episodes are marked anime-original and flagged optional: “Filler arc” for a run of three or more, “Anime-original” for a one-off or a pair. A row has to be called filler by animefillerlist.com's published list AND adapt no manga chapter in Narutopedia's episode data before it gets marked. An unmarked row adapts the manga."
+    ],
+    [
+      "Unmarked on purpose.",
+      "18 Shippuden episodes are left unmarked because the two sources disagree about them — the filler list calls them filler, the chapter mapping ties them to a manga chapter: 71, 92, 112, 176, 178–181, 257, 307, 350–351, 360, 388, 417, 427, 429, 450. A wrong filler label costs you real story; leaving one unmarked costs you an episode. Nothing here is guessed."
+    ],
+    [
+      "No runtimes.",
+      "There is no verified per-episode length for 720 episodes, so every row weighs the same and the pace counts episodes rather than minutes. A blanket 23 minutes would read as measured and would be invented."
+    ],
+    [
+      "Arcs.",
+      "Sections are the story arcs Wikipedia's own episode tables mark. Recaps, clip specials and unnamed side stories are folded into the arc they follow, and a two-episode side arc that interrupts a longer one is folded into it and named in that section's intro — a strip cannot show a gap. Rows are numbers, not titles: Naruto's episode titles routinely name the outcome of the episode."
+    ],
+    [
+      "Boruto.",
+      "Boruto: Naruto Next Generations is a separate series with its own episode list and is not folded in here."
+    ],
+    "Both series are finished: 220 episodes of Naruto and 500 of Shippuden, 720 in all."
+  ],
+  "sections": [
+    {
+      "id": "nar-prologue",
+      "title": "Prologue",
+      "sub": "Naruto · episodes 1–5",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-1",
+          "t": "Episode",
+          "n": "1"
+        },
+        {
+          "id": "nar-2",
+          "t": "Episode",
+          "n": "2"
+        },
+        {
+          "id": "nar-3",
+          "t": "Episode",
+          "n": "3"
+        },
+        {
+          "id": "nar-4",
+          "t": "Episode",
+          "n": "4"
+        },
+        {
+          "id": "nar-5",
+          "t": "Episode",
+          "n": "5"
+        }
+      ]
+    },
+    {
+      "id": "nar-land-of-waves-escort",
+      "title": "Land of Waves Escort",
+      "sub": "Naruto · episodes 6–19",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-6",
+          "t": "Episode",
+          "n": "6"
+        },
+        {
+          "id": "nar-7",
+          "t": "Episode",
+          "n": "7"
+        },
+        {
+          "id": "nar-8",
+          "t": "Episode",
+          "n": "8"
+        },
+        {
+          "id": "nar-9",
+          "t": "Episode",
+          "n": "9"
+        },
+        {
+          "id": "nar-10",
+          "t": "Episode",
+          "n": "10"
+        },
+        {
+          "id": "nar-11",
+          "t": "Episode",
+          "n": "11"
+        },
+        {
+          "id": "nar-12",
+          "t": "Episode",
+          "n": "12"
+        },
+        {
+          "id": "nar-13",
+          "t": "Episode",
+          "n": "13"
+        },
+        {
+          "id": "nar-14",
+          "t": "Episode",
+          "n": "14"
+        },
+        {
+          "id": "nar-15",
+          "t": "Episode",
+          "n": "15"
+        },
+        {
+          "id": "nar-16",
+          "t": "Episode",
+          "n": "16"
+        },
+        {
+          "id": "nar-17",
+          "t": "Episode",
+          "n": "17"
+        },
+        {
+          "id": "nar-18",
+          "t": "Episode",
+          "n": "18"
+        },
+        {
+          "id": "nar-19",
+          "t": "Episode",
+          "n": "19"
+        }
+      ]
+    },
+    {
+      "id": "nar-chunin-exams",
+      "title": "Chūnin Exams",
+      "sub": "Naruto · episodes 20–67 · 1 of 48 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-20",
+          "t": "Episode",
+          "n": "20"
+        },
+        {
+          "id": "nar-21",
+          "t": "Episode",
+          "n": "21"
+        },
+        {
+          "id": "nar-22",
+          "t": "Episode",
+          "n": "22"
+        },
+        {
+          "id": "nar-23",
+          "t": "Episode",
+          "n": "23"
+        },
+        {
+          "id": "nar-24",
+          "t": "Episode",
+          "n": "24"
+        },
+        {
+          "id": "nar-25",
+          "t": "Episode",
+          "n": "25"
+        },
+        {
+          "id": "nar-26",
+          "t": "Episode",
+          "n": "26",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "nar-27",
+          "t": "Episode",
+          "n": "27"
+        },
+        {
+          "id": "nar-28",
+          "t": "Episode",
+          "n": "28"
+        },
+        {
+          "id": "nar-29",
+          "t": "Episode",
+          "n": "29"
+        },
+        {
+          "id": "nar-30",
+          "t": "Episode",
+          "n": "30"
+        },
+        {
+          "id": "nar-31",
+          "t": "Episode",
+          "n": "31"
+        },
+        {
+          "id": "nar-32",
+          "t": "Episode",
+          "n": "32"
+        },
+        {
+          "id": "nar-33",
+          "t": "Episode",
+          "n": "33"
+        },
+        {
+          "id": "nar-34",
+          "t": "Episode",
+          "n": "34"
+        },
+        {
+          "id": "nar-35",
+          "t": "Episode",
+          "n": "35"
+        },
+        {
+          "id": "nar-36",
+          "t": "Episode",
+          "n": "36"
+        },
+        {
+          "id": "nar-37",
+          "t": "Episode",
+          "n": "37"
+        },
+        {
+          "id": "nar-38",
+          "t": "Episode",
+          "n": "38"
+        },
+        {
+          "id": "nar-39",
+          "t": "Episode",
+          "n": "39"
+        },
+        {
+          "id": "nar-40",
+          "t": "Episode",
+          "n": "40"
+        },
+        {
+          "id": "nar-41",
+          "t": "Episode",
+          "n": "41"
+        },
+        {
+          "id": "nar-42",
+          "t": "Episode",
+          "n": "42"
+        },
+        {
+          "id": "nar-43",
+          "t": "Episode",
+          "n": "43"
+        },
+        {
+          "id": "nar-44",
+          "t": "Episode",
+          "n": "44"
+        },
+        {
+          "id": "nar-45",
+          "t": "Episode",
+          "n": "45"
+        },
+        {
+          "id": "nar-46",
+          "t": "Episode",
+          "n": "46"
+        },
+        {
+          "id": "nar-47",
+          "t": "Episode",
+          "n": "47"
+        },
+        {
+          "id": "nar-48",
+          "t": "Episode",
+          "n": "48"
+        },
+        {
+          "id": "nar-49",
+          "t": "Episode",
+          "n": "49"
+        },
+        {
+          "id": "nar-50",
+          "t": "Episode",
+          "n": "50"
+        },
+        {
+          "id": "nar-51",
+          "t": "Episode",
+          "n": "51"
+        },
+        {
+          "id": "nar-52",
+          "t": "Episode",
+          "n": "52"
+        },
+        {
+          "id": "nar-53",
+          "t": "Episode",
+          "n": "53"
+        },
+        {
+          "id": "nar-54",
+          "t": "Episode",
+          "n": "54"
+        },
+        {
+          "id": "nar-55",
+          "t": "Episode",
+          "n": "55"
+        },
+        {
+          "id": "nar-56",
+          "t": "Episode",
+          "n": "56"
+        },
+        {
+          "id": "nar-57",
+          "t": "Episode",
+          "n": "57"
+        },
+        {
+          "id": "nar-58",
+          "t": "Episode",
+          "n": "58"
+        },
+        {
+          "id": "nar-59",
+          "t": "Episode",
+          "n": "59"
+        },
+        {
+          "id": "nar-60",
+          "t": "Episode",
+          "n": "60"
+        },
+        {
+          "id": "nar-61",
+          "t": "Episode",
+          "n": "61"
+        },
+        {
+          "id": "nar-62",
+          "t": "Episode",
+          "n": "62"
+        },
+        {
+          "id": "nar-63",
+          "t": "Episode",
+          "n": "63"
+        },
+        {
+          "id": "nar-64",
+          "t": "Episode",
+          "n": "64"
+        },
+        {
+          "id": "nar-65",
+          "t": "Episode",
+          "n": "65"
+        },
+        {
+          "id": "nar-66",
+          "t": "Episode",
+          "n": "66"
+        },
+        {
+          "id": "nar-67",
+          "t": "Episode",
+          "n": "67"
+        }
+      ]
+    },
+    {
+      "id": "nar-destruction-of-leaf",
+      "title": "Destruction of Leaf",
+      "sub": "Naruto · episodes 68–80",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-68",
+          "t": "Episode",
+          "n": "68"
+        },
+        {
+          "id": "nar-69",
+          "t": "Episode",
+          "n": "69"
+        },
+        {
+          "id": "nar-70",
+          "t": "Episode",
+          "n": "70"
+        },
+        {
+          "id": "nar-71",
+          "t": "Episode",
+          "n": "71"
+        },
+        {
+          "id": "nar-72",
+          "t": "Episode",
+          "n": "72"
+        },
+        {
+          "id": "nar-73",
+          "t": "Episode",
+          "n": "73"
+        },
+        {
+          "id": "nar-74",
+          "t": "Episode",
+          "n": "74"
+        },
+        {
+          "id": "nar-75",
+          "t": "Episode",
+          "n": "75"
+        },
+        {
+          "id": "nar-76",
+          "t": "Episode",
+          "n": "76"
+        },
+        {
+          "id": "nar-77",
+          "t": "Episode",
+          "n": "77"
+        },
+        {
+          "id": "nar-78",
+          "t": "Episode",
+          "n": "78"
+        },
+        {
+          "id": "nar-79",
+          "t": "Episode",
+          "n": "79"
+        },
+        {
+          "id": "nar-80",
+          "t": "Episode",
+          "n": "80"
+        }
+      ]
+    },
+    {
+      "id": "nar-search-for-tsunade",
+      "title": "Search for Tsunade",
+      "sub": "Naruto · episodes 81–101 · 2 of 21 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-81",
+          "t": "Episode",
+          "n": "81"
+        },
+        {
+          "id": "nar-82",
+          "t": "Episode",
+          "n": "82"
+        },
+        {
+          "id": "nar-83",
+          "t": "Episode",
+          "n": "83"
+        },
+        {
+          "id": "nar-84",
+          "t": "Episode",
+          "n": "84"
+        },
+        {
+          "id": "nar-85",
+          "t": "Episode",
+          "n": "85"
+        },
+        {
+          "id": "nar-86",
+          "t": "Episode",
+          "n": "86"
+        },
+        {
+          "id": "nar-87",
+          "t": "Episode",
+          "n": "87"
+        },
+        {
+          "id": "nar-88",
+          "t": "Episode",
+          "n": "88"
+        },
+        {
+          "id": "nar-89",
+          "t": "Episode",
+          "n": "89"
+        },
+        {
+          "id": "nar-90",
+          "t": "Episode",
+          "n": "90"
+        },
+        {
+          "id": "nar-91",
+          "t": "Episode",
+          "n": "91"
+        },
+        {
+          "id": "nar-92",
+          "t": "Episode",
+          "n": "92"
+        },
+        {
+          "id": "nar-93",
+          "t": "Episode",
+          "n": "93"
+        },
+        {
+          "id": "nar-94",
+          "t": "Episode",
+          "n": "94"
+        },
+        {
+          "id": "nar-95",
+          "t": "Episode",
+          "n": "95"
+        },
+        {
+          "id": "nar-96",
+          "t": "Episode",
+          "n": "96"
+        },
+        {
+          "id": "nar-97",
+          "t": "Episode",
+          "n": "97",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "nar-98",
+          "t": "Episode",
+          "n": "98"
+        },
+        {
+          "id": "nar-99",
+          "t": "Episode",
+          "n": "99"
+        },
+        {
+          "id": "nar-100",
+          "t": "Episode",
+          "n": "100"
+        },
+        {
+          "id": "nar-101",
+          "t": "Episode",
+          "n": "101",
+          "note": "Anime-original",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side story (101)."
+    },
+    {
+      "id": "nar-land-of-tea-escort",
+      "title": "Land of Tea Escort",
+      "sub": "Naruto · episodes 102–106 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-102",
+          "t": "Episode",
+          "n": "102",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-103",
+          "t": "Episode",
+          "n": "103",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-104",
+          "t": "Episode",
+          "n": "104",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-105",
+          "t": "Episode",
+          "n": "105",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-106",
+          "t": "Episode",
+          "n": "106",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "nar-sasuke-retrieval",
+      "title": "Sasuke Retrieval",
+      "sub": "Naruto · episodes 107–135",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-107",
+          "t": "Episode",
+          "n": "107"
+        },
+        {
+          "id": "nar-108",
+          "t": "Episode",
+          "n": "108"
+        },
+        {
+          "id": "nar-109",
+          "t": "Episode",
+          "n": "109"
+        },
+        {
+          "id": "nar-110",
+          "t": "Episode",
+          "n": "110"
+        },
+        {
+          "id": "nar-111",
+          "t": "Episode",
+          "n": "111"
+        },
+        {
+          "id": "nar-112",
+          "t": "Episode",
+          "n": "112"
+        },
+        {
+          "id": "nar-113",
+          "t": "Episode",
+          "n": "113"
+        },
+        {
+          "id": "nar-114",
+          "t": "Episode",
+          "n": "114"
+        },
+        {
+          "id": "nar-115",
+          "t": "Episode",
+          "n": "115"
+        },
+        {
+          "id": "nar-116",
+          "t": "Episode",
+          "n": "116"
+        },
+        {
+          "id": "nar-117",
+          "t": "Episode",
+          "n": "117"
+        },
+        {
+          "id": "nar-118",
+          "t": "Episode",
+          "n": "118"
+        },
+        {
+          "id": "nar-119",
+          "t": "Episode",
+          "n": "119"
+        },
+        {
+          "id": "nar-120",
+          "t": "Episode",
+          "n": "120"
+        },
+        {
+          "id": "nar-121",
+          "t": "Episode",
+          "n": "121"
+        },
+        {
+          "id": "nar-122",
+          "t": "Episode",
+          "n": "122"
+        },
+        {
+          "id": "nar-123",
+          "t": "Episode",
+          "n": "123"
+        },
+        {
+          "id": "nar-124",
+          "t": "Episode",
+          "n": "124"
+        },
+        {
+          "id": "nar-125",
+          "t": "Episode",
+          "n": "125"
+        },
+        {
+          "id": "nar-126",
+          "t": "Episode",
+          "n": "126"
+        },
+        {
+          "id": "nar-127",
+          "t": "Episode",
+          "n": "127"
+        },
+        {
+          "id": "nar-128",
+          "t": "Episode",
+          "n": "128"
+        },
+        {
+          "id": "nar-129",
+          "t": "Episode",
+          "n": "129"
+        },
+        {
+          "id": "nar-130",
+          "t": "Episode",
+          "n": "130"
+        },
+        {
+          "id": "nar-131",
+          "t": "Episode",
+          "n": "131"
+        },
+        {
+          "id": "nar-132",
+          "t": "Episode",
+          "n": "132"
+        },
+        {
+          "id": "nar-133",
+          "t": "Episode",
+          "n": "133"
+        },
+        {
+          "id": "nar-134",
+          "t": "Episode",
+          "n": "134"
+        },
+        {
+          "id": "nar-135",
+          "t": "Episode",
+          "n": "135"
+        }
+      ]
+    },
+    {
+      "id": "nar-land-of-rice-fields-investigation",
+      "title": "Land of Rice Fields Investigation",
+      "sub": "Naruto · episodes 136–141 · 5 of 6 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-136",
+          "t": "Episode",
+          "n": "136",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-137",
+          "t": "Episode",
+          "n": "137",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-138",
+          "t": "Episode",
+          "n": "138",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-139",
+          "t": "Episode",
+          "n": "139",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-140",
+          "t": "Episode",
+          "n": "140",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-141",
+          "t": "Episode",
+          "n": "141"
+        }
+      ]
+    },
+    {
+      "id": "nar-mizuki-tracking",
+      "title": "Mizuki Tracking",
+      "sub": "Naruto · episodes 142–147 · 5 of 6 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-142",
+          "t": "Episode",
+          "n": "142"
+        },
+        {
+          "id": "nar-143",
+          "t": "Episode",
+          "n": "143",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-144",
+          "t": "Episode",
+          "n": "144",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-145",
+          "t": "Episode",
+          "n": "145",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-146",
+          "t": "Episode",
+          "n": "146",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-147",
+          "t": "Episode",
+          "n": "147",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "nar-bikochu-search",
+      "title": "Bikōchū Search",
+      "sub": "Naruto · episodes 148–151 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-148",
+          "t": "Episode",
+          "n": "148",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-149",
+          "t": "Episode",
+          "n": "149",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-150",
+          "t": "Episode",
+          "n": "150",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-151",
+          "t": "Episode",
+          "n": "151",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "nar-kurosuki-family-removal",
+      "title": "Kurosuki Family Removal",
+      "sub": "Naruto · episodes 152–158 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-152",
+          "t": "Episode",
+          "n": "152",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-153",
+          "t": "Episode",
+          "n": "153",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-154",
+          "t": "Episode",
+          "n": "154",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-155",
+          "t": "Episode",
+          "n": "155",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-156",
+          "t": "Episode",
+          "n": "156",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-157",
+          "t": "Episode",
+          "n": "157",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-158",
+          "t": "Episode",
+          "n": "158",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side story (158)."
+    },
+    {
+      "id": "nar-gosunkugi-capture",
+      "title": "Gosunkugi Capture",
+      "sub": "Naruto · episodes 159–161 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-159",
+          "t": "Episode",
+          "n": "159",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-160",
+          "t": "Episode",
+          "n": "160",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-161",
+          "t": "Episode",
+          "n": "161",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side story (161)."
+    },
+    {
+      "id": "nar-cursed-warrior-extermination",
+      "title": "Cursed Warrior Extermination",
+      "sub": "Naruto · episodes 162–168 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-162",
+          "t": "Episode",
+          "n": "162",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-163",
+          "t": "Episode",
+          "n": "163",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-164",
+          "t": "Episode",
+          "n": "164",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-165",
+          "t": "Episode",
+          "n": "165",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-166",
+          "t": "Episode",
+          "n": "166",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-167",
+          "t": "Episode",
+          "n": "167",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-168",
+          "t": "Episode",
+          "n": "168",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side story (168)."
+    },
+    {
+      "id": "nar-kaima-capture",
+      "title": "Kaima Capture",
+      "sub": "Naruto · episodes 169–174 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-169",
+          "t": "Episode",
+          "n": "169",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-170",
+          "t": "Episode",
+          "n": "170",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-171",
+          "t": "Episode",
+          "n": "171",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-172",
+          "t": "Episode",
+          "n": "172",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-173",
+          "t": "Episode",
+          "n": "173",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-174",
+          "t": "Episode",
+          "n": "174",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side story (174)."
+    },
+    {
+      "id": "nar-buried-gold-excavation",
+      "title": "Buried Gold Excavation",
+      "sub": "Naruto · episodes 175–177 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-175",
+          "t": "Episode",
+          "n": "175",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-176",
+          "t": "Episode",
+          "n": "176",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-177",
+          "t": "Episode",
+          "n": "177",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side story (177)."
+    },
+    {
+      "id": "nar-star-guard",
+      "title": "Star Guard",
+      "sub": "Naruto · episodes 178–186 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-178",
+          "t": "Episode",
+          "n": "178",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-179",
+          "t": "Episode",
+          "n": "179",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-180",
+          "t": "Episode",
+          "n": "180",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-181",
+          "t": "Episode",
+          "n": "181",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-182",
+          "t": "Episode",
+          "n": "182",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-183",
+          "t": "Episode",
+          "n": "183",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-184",
+          "t": "Episode",
+          "n": "184",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-185",
+          "t": "Episode",
+          "n": "185",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-186",
+          "t": "Episode",
+          "n": "186",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side stories (184–186)."
+    },
+    {
+      "id": "nar-peddlers-escort",
+      "title": "Peddlers Escort",
+      "sub": "Naruto · episodes 187–194 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-187",
+          "t": "Episode",
+          "n": "187",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-188",
+          "t": "Episode",
+          "n": "188",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-189",
+          "t": "Episode",
+          "n": "189",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-190",
+          "t": "Episode",
+          "n": "190",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-191",
+          "t": "Episode",
+          "n": "191",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-192",
+          "t": "Episode",
+          "n": "192",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-193",
+          "t": "Episode",
+          "n": "193",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-194",
+          "t": "Episode",
+          "n": "194",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side stories (192–194)."
+    },
+    {
+      "id": "nar-third-super-beast",
+      "title": "Third Super-Beast",
+      "sub": "Naruto · episodes 195–196 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-195",
+          "t": "Episode",
+          "n": "195",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-196",
+          "t": "Episode",
+          "n": "196",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "nar-recapture-plans-of-leaf",
+      "title": "Recapture Plans of Leaf",
+      "sub": "Naruto · episodes 197–202 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-197",
+          "t": "Episode",
+          "n": "197",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-198",
+          "t": "Episode",
+          "n": "198",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-199",
+          "t": "Episode",
+          "n": "199",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-200",
+          "t": "Episode",
+          "n": "200",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-201",
+          "t": "Episode",
+          "n": "201",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-202",
+          "t": "Episode",
+          "n": "202",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Battles recap special (202)."
+    },
+    {
+      "id": "nar-yakumo-rescue",
+      "title": "Yakumo Rescue",
+      "sub": "Naruto · episodes 203–208 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-203",
+          "t": "Episode",
+          "n": "203",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-204",
+          "t": "Episode",
+          "n": "204",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-205",
+          "t": "Episode",
+          "n": "205",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-206",
+          "t": "Episode",
+          "n": "206",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-207",
+          "t": "Episode",
+          "n": "207",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-208",
+          "t": "Episode",
+          "n": "208",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side story (208)."
+    },
+    {
+      "id": "nar-gantetsu-escort",
+      "title": "Gantetsu Escort",
+      "sub": "Naruto · episodes 209–212 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-209",
+          "t": "Episode",
+          "n": "209",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-210",
+          "t": "Episode",
+          "n": "210",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-211",
+          "t": "Episode",
+          "n": "211",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-212",
+          "t": "Episode",
+          "n": "212",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "nar-menma-memory-search",
+      "title": "Menma Memory Search",
+      "sub": "Naruto · episodes 213–215 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-213",
+          "t": "Episode",
+          "n": "213",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-214",
+          "t": "Episode",
+          "n": "214",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-215",
+          "t": "Episode",
+          "n": "215",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "nar-support-of-sand",
+      "title": "Support of Sand",
+      "sub": "Naruto · episodes 216–220 · 4 of 5 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "nar-216",
+          "t": "Episode",
+          "n": "216",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-217",
+          "t": "Episode",
+          "n": "217",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-218",
+          "t": "Episode",
+          "n": "218",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-219",
+          "t": "Episode",
+          "n": "219",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "nar-220",
+          "t": "Episode",
+          "n": "220"
+        }
+      ]
+    },
+    {
+      "id": "shp-kazekage-rescue",
+      "title": "Kazekage Rescue",
+      "sub": "Naruto: Shippuden · episodes 1–32",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-1",
+          "t": "Episode",
+          "n": "1"
+        },
+        {
+          "id": "shp-2",
+          "t": "Episode",
+          "n": "2"
+        },
+        {
+          "id": "shp-3",
+          "t": "Episode",
+          "n": "3"
+        },
+        {
+          "id": "shp-4",
+          "t": "Episode",
+          "n": "4"
+        },
+        {
+          "id": "shp-5",
+          "t": "Episode",
+          "n": "5"
+        },
+        {
+          "id": "shp-6",
+          "t": "Episode",
+          "n": "6"
+        },
+        {
+          "id": "shp-7",
+          "t": "Episode",
+          "n": "7"
+        },
+        {
+          "id": "shp-8",
+          "t": "Episode",
+          "n": "8"
+        },
+        {
+          "id": "shp-9",
+          "t": "Episode",
+          "n": "9"
+        },
+        {
+          "id": "shp-10",
+          "t": "Episode",
+          "n": "10"
+        },
+        {
+          "id": "shp-11",
+          "t": "Episode",
+          "n": "11"
+        },
+        {
+          "id": "shp-12",
+          "t": "Episode",
+          "n": "12"
+        },
+        {
+          "id": "shp-13",
+          "t": "Episode",
+          "n": "13"
+        },
+        {
+          "id": "shp-14",
+          "t": "Episode",
+          "n": "14"
+        },
+        {
+          "id": "shp-15",
+          "t": "Episode",
+          "n": "15"
+        },
+        {
+          "id": "shp-16",
+          "t": "Episode",
+          "n": "16"
+        },
+        {
+          "id": "shp-17",
+          "t": "Episode",
+          "n": "17"
+        },
+        {
+          "id": "shp-18",
+          "t": "Episode",
+          "n": "18"
+        },
+        {
+          "id": "shp-19",
+          "t": "Episode",
+          "n": "19"
+        },
+        {
+          "id": "shp-20",
+          "t": "Episode",
+          "n": "20"
+        },
+        {
+          "id": "shp-21",
+          "t": "Episode",
+          "n": "21"
+        },
+        {
+          "id": "shp-22",
+          "t": "Episode",
+          "n": "22"
+        },
+        {
+          "id": "shp-23",
+          "t": "Episode",
+          "n": "23"
+        },
+        {
+          "id": "shp-24",
+          "t": "Episode",
+          "n": "24"
+        },
+        {
+          "id": "shp-25",
+          "t": "Episode",
+          "n": "25"
+        },
+        {
+          "id": "shp-26",
+          "t": "Episode",
+          "n": "26"
+        },
+        {
+          "id": "shp-27",
+          "t": "Episode",
+          "n": "27"
+        },
+        {
+          "id": "shp-28",
+          "t": "Episode",
+          "n": "28"
+        },
+        {
+          "id": "shp-29",
+          "t": "Episode",
+          "n": "29"
+        },
+        {
+          "id": "shp-30",
+          "t": "Episode",
+          "n": "30"
+        },
+        {
+          "id": "shp-31",
+          "t": "Episode",
+          "n": "31"
+        },
+        {
+          "id": "shp-32",
+          "t": "Episode",
+          "n": "32"
+        }
+      ]
+    },
+    {
+      "id": "shp-long-awaited-reunion",
+      "title": "Long-Awaited Reunion",
+      "sub": "Naruto: Shippuden · episodes 33–53",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-33",
+          "t": "Episode",
+          "n": "33"
+        },
+        {
+          "id": "shp-34",
+          "t": "Episode",
+          "n": "34"
+        },
+        {
+          "id": "shp-35",
+          "t": "Episode",
+          "n": "35"
+        },
+        {
+          "id": "shp-36",
+          "t": "Episode",
+          "n": "36"
+        },
+        {
+          "id": "shp-37",
+          "t": "Episode",
+          "n": "37"
+        },
+        {
+          "id": "shp-38",
+          "t": "Episode",
+          "n": "38"
+        },
+        {
+          "id": "shp-39",
+          "t": "Episode",
+          "n": "39"
+        },
+        {
+          "id": "shp-40",
+          "t": "Episode",
+          "n": "40"
+        },
+        {
+          "id": "shp-41",
+          "t": "Episode",
+          "n": "41"
+        },
+        {
+          "id": "shp-42",
+          "t": "Episode",
+          "n": "42"
+        },
+        {
+          "id": "shp-43",
+          "t": "Episode",
+          "n": "43"
+        },
+        {
+          "id": "shp-44",
+          "t": "Episode",
+          "n": "44"
+        },
+        {
+          "id": "shp-45",
+          "t": "Episode",
+          "n": "45"
+        },
+        {
+          "id": "shp-46",
+          "t": "Episode",
+          "n": "46"
+        },
+        {
+          "id": "shp-47",
+          "t": "Episode",
+          "n": "47"
+        },
+        {
+          "id": "shp-48",
+          "t": "Episode",
+          "n": "48"
+        },
+        {
+          "id": "shp-49",
+          "t": "Episode",
+          "n": "49"
+        },
+        {
+          "id": "shp-50",
+          "t": "Episode",
+          "n": "50"
+        },
+        {
+          "id": "shp-51",
+          "t": "Episode",
+          "n": "51"
+        },
+        {
+          "id": "shp-52",
+          "t": "Episode",
+          "n": "52"
+        },
+        {
+          "id": "shp-53",
+          "t": "Episode",
+          "n": "53"
+        }
+      ]
+    },
+    {
+      "id": "shp-twelve-guardian-ninja",
+      "title": "Twelve Guardian Ninja",
+      "sub": "Naruto: Shippuden · episodes 54–71 · 14 of 18 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-54",
+          "t": "Episode",
+          "n": "54"
+        },
+        {
+          "id": "shp-55",
+          "t": "Episode",
+          "n": "55"
+        },
+        {
+          "id": "shp-56",
+          "t": "Episode",
+          "n": "56"
+        },
+        {
+          "id": "shp-57",
+          "t": "Episode",
+          "n": "57",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-58",
+          "t": "Episode",
+          "n": "58",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-59",
+          "t": "Episode",
+          "n": "59",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-60",
+          "t": "Episode",
+          "n": "60",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-61",
+          "t": "Episode",
+          "n": "61",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-62",
+          "t": "Episode",
+          "n": "62",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-63",
+          "t": "Episode",
+          "n": "63",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-64",
+          "t": "Episode",
+          "n": "64",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-65",
+          "t": "Episode",
+          "n": "65",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-66",
+          "t": "Episode",
+          "n": "66",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-67",
+          "t": "Episode",
+          "n": "67",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-68",
+          "t": "Episode",
+          "n": "68",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-69",
+          "t": "Episode",
+          "n": "69",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-70",
+          "t": "Episode",
+          "n": "70",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-71",
+          "t": "Episode",
+          "n": "71"
+        }
+      ],
+      "intro": "Unmarked here: 71 — the filler list and the chapter mapping disagree."
+    },
+    {
+      "id": "shp-immortal-devastators-hidan-and-kakuzu",
+      "title": "Immortal Devastators — Hidan and Kakuzu",
+      "sub": "Naruto: Shippuden · episodes 72–88",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-72",
+          "t": "Episode",
+          "n": "72"
+        },
+        {
+          "id": "shp-73",
+          "t": "Episode",
+          "n": "73"
+        },
+        {
+          "id": "shp-74",
+          "t": "Episode",
+          "n": "74"
+        },
+        {
+          "id": "shp-75",
+          "t": "Episode",
+          "n": "75"
+        },
+        {
+          "id": "shp-76",
+          "t": "Episode",
+          "n": "76"
+        },
+        {
+          "id": "shp-77",
+          "t": "Episode",
+          "n": "77"
+        },
+        {
+          "id": "shp-78",
+          "t": "Episode",
+          "n": "78"
+        },
+        {
+          "id": "shp-79",
+          "t": "Episode",
+          "n": "79"
+        },
+        {
+          "id": "shp-80",
+          "t": "Episode",
+          "n": "80"
+        },
+        {
+          "id": "shp-81",
+          "t": "Episode",
+          "n": "81"
+        },
+        {
+          "id": "shp-82",
+          "t": "Episode",
+          "n": "82"
+        },
+        {
+          "id": "shp-83",
+          "t": "Episode",
+          "n": "83"
+        },
+        {
+          "id": "shp-84",
+          "t": "Episode",
+          "n": "84"
+        },
+        {
+          "id": "shp-85",
+          "t": "Episode",
+          "n": "85"
+        },
+        {
+          "id": "shp-86",
+          "t": "Episode",
+          "n": "86"
+        },
+        {
+          "id": "shp-87",
+          "t": "Episode",
+          "n": "87"
+        },
+        {
+          "id": "shp-88",
+          "t": "Episode",
+          "n": "88"
+        }
+      ]
+    },
+    {
+      "id": "shp-the-three-tailed-demon-turtle",
+      "title": "The Three-Tailed Demon Turtle",
+      "sub": "Naruto: Shippuden · episodes 89–112 · 20 of 24 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-89",
+          "t": "Episode",
+          "n": "89"
+        },
+        {
+          "id": "shp-90",
+          "t": "Episode",
+          "n": "90"
+        },
+        {
+          "id": "shp-91",
+          "t": "Episode",
+          "n": "91",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-92",
+          "t": "Episode",
+          "n": "92"
+        },
+        {
+          "id": "shp-93",
+          "t": "Episode",
+          "n": "93",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-94",
+          "t": "Episode",
+          "n": "94",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-95",
+          "t": "Episode",
+          "n": "95",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-96",
+          "t": "Episode",
+          "n": "96",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-97",
+          "t": "Episode",
+          "n": "97",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-98",
+          "t": "Episode",
+          "n": "98",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-99",
+          "t": "Episode",
+          "n": "99",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-100",
+          "t": "Episode",
+          "n": "100",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-101",
+          "t": "Episode",
+          "n": "101",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-102",
+          "t": "Episode",
+          "n": "102",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-103",
+          "t": "Episode",
+          "n": "103",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-104",
+          "t": "Episode",
+          "n": "104",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-105",
+          "t": "Episode",
+          "n": "105",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-106",
+          "t": "Episode",
+          "n": "106",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-107",
+          "t": "Episode",
+          "n": "107",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-108",
+          "t": "Episode",
+          "n": "108",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-109",
+          "t": "Episode",
+          "n": "109",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-110",
+          "t": "Episode",
+          "n": "110",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-111",
+          "t": "Episode",
+          "n": "111",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-112",
+          "t": "Episode",
+          "n": "112"
+        }
+      ],
+      "intro": "Unmarked here: 92, 112 — the filler list and the chapter mapping disagree."
+    },
+    {
+      "id": "shp-master-s-prophecy-and-vengeance",
+      "title": "Master's Prophecy and Vengeance",
+      "sub": "Naruto: Shippuden · episodes 113–143",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-113",
+          "t": "Episode",
+          "n": "113"
+        },
+        {
+          "id": "shp-114",
+          "t": "Episode",
+          "n": "114"
+        },
+        {
+          "id": "shp-115",
+          "t": "Episode",
+          "n": "115"
+        },
+        {
+          "id": "shp-116",
+          "t": "Episode",
+          "n": "116"
+        },
+        {
+          "id": "shp-117",
+          "t": "Episode",
+          "n": "117"
+        },
+        {
+          "id": "shp-118",
+          "t": "Episode",
+          "n": "118"
+        },
+        {
+          "id": "shp-119",
+          "t": "Episode",
+          "n": "119"
+        },
+        {
+          "id": "shp-120",
+          "t": "Episode",
+          "n": "120"
+        },
+        {
+          "id": "shp-121",
+          "t": "Episode",
+          "n": "121"
+        },
+        {
+          "id": "shp-122",
+          "t": "Episode",
+          "n": "122"
+        },
+        {
+          "id": "shp-123",
+          "t": "Episode",
+          "n": "123"
+        },
+        {
+          "id": "shp-124",
+          "t": "Episode",
+          "n": "124"
+        },
+        {
+          "id": "shp-125",
+          "t": "Episode",
+          "n": "125"
+        },
+        {
+          "id": "shp-126",
+          "t": "Episode",
+          "n": "126"
+        },
+        {
+          "id": "shp-127",
+          "t": "Episode",
+          "n": "127"
+        },
+        {
+          "id": "shp-128",
+          "t": "Episode",
+          "n": "128"
+        },
+        {
+          "id": "shp-129",
+          "t": "Episode",
+          "n": "129"
+        },
+        {
+          "id": "shp-130",
+          "t": "Episode",
+          "n": "130"
+        },
+        {
+          "id": "shp-131",
+          "t": "Episode",
+          "n": "131"
+        },
+        {
+          "id": "shp-132",
+          "t": "Episode",
+          "n": "132"
+        },
+        {
+          "id": "shp-133",
+          "t": "Episode",
+          "n": "133"
+        },
+        {
+          "id": "shp-134",
+          "t": "Episode",
+          "n": "134"
+        },
+        {
+          "id": "shp-135",
+          "t": "Episode",
+          "n": "135"
+        },
+        {
+          "id": "shp-136",
+          "t": "Episode",
+          "n": "136"
+        },
+        {
+          "id": "shp-137",
+          "t": "Episode",
+          "n": "137"
+        },
+        {
+          "id": "shp-138",
+          "t": "Episode",
+          "n": "138"
+        },
+        {
+          "id": "shp-139",
+          "t": "Episode",
+          "n": "139"
+        },
+        {
+          "id": "shp-140",
+          "t": "Episode",
+          "n": "140"
+        },
+        {
+          "id": "shp-141",
+          "t": "Episode",
+          "n": "141"
+        },
+        {
+          "id": "shp-142",
+          "t": "Episode",
+          "n": "142"
+        },
+        {
+          "id": "shp-143",
+          "t": "Episode",
+          "n": "143"
+        }
+      ],
+      "intro": "Folded in: Kakashi Chronicles: Boys' Life on the Battlefield (119–120), Tales of a Gutsy Ninja ~Jiraiya Ninja Scroll (127–128)."
+    },
+    {
+      "id": "shp-the-six-tailed-demon-slug",
+      "title": "The Six-Tailed Demon Slug",
+      "sub": "Naruto: Shippuden · episodes 144–151 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-144",
+          "t": "Episode",
+          "n": "144",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-145",
+          "t": "Episode",
+          "n": "145",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-146",
+          "t": "Episode",
+          "n": "146",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-147",
+          "t": "Episode",
+          "n": "147",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-148",
+          "t": "Episode",
+          "n": "148",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-149",
+          "t": "Episode",
+          "n": "149",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-150",
+          "t": "Episode",
+          "n": "150",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-151",
+          "t": "Episode",
+          "n": "151",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "shp-two-saviors",
+      "title": "Two Saviors",
+      "sub": "Naruto: Shippuden · episodes 152–175 · 2 of 24 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-152",
+          "t": "Episode",
+          "n": "152"
+        },
+        {
+          "id": "shp-153",
+          "t": "Episode",
+          "n": "153"
+        },
+        {
+          "id": "shp-154",
+          "t": "Episode",
+          "n": "154"
+        },
+        {
+          "id": "shp-155",
+          "t": "Episode",
+          "n": "155"
+        },
+        {
+          "id": "shp-156",
+          "t": "Episode",
+          "n": "156"
+        },
+        {
+          "id": "shp-157",
+          "t": "Episode",
+          "n": "157"
+        },
+        {
+          "id": "shp-158",
+          "t": "Episode",
+          "n": "158"
+        },
+        {
+          "id": "shp-159",
+          "t": "Episode",
+          "n": "159"
+        },
+        {
+          "id": "shp-160",
+          "t": "Episode",
+          "n": "160"
+        },
+        {
+          "id": "shp-161",
+          "t": "Episode",
+          "n": "161"
+        },
+        {
+          "id": "shp-162",
+          "t": "Episode",
+          "n": "162"
+        },
+        {
+          "id": "shp-163",
+          "t": "Episode",
+          "n": "163"
+        },
+        {
+          "id": "shp-164",
+          "t": "Episode",
+          "n": "164"
+        },
+        {
+          "id": "shp-165",
+          "t": "Episode",
+          "n": "165"
+        },
+        {
+          "id": "shp-166",
+          "t": "Episode",
+          "n": "166"
+        },
+        {
+          "id": "shp-167",
+          "t": "Episode",
+          "n": "167"
+        },
+        {
+          "id": "shp-168",
+          "t": "Episode",
+          "n": "168"
+        },
+        {
+          "id": "shp-169",
+          "t": "Episode",
+          "n": "169"
+        },
+        {
+          "id": "shp-170",
+          "t": "Episode",
+          "n": "170",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-171",
+          "t": "Episode",
+          "n": "171",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-172",
+          "t": "Episode",
+          "n": "172"
+        },
+        {
+          "id": "shp-173",
+          "t": "Episode",
+          "n": "173"
+        },
+        {
+          "id": "shp-174",
+          "t": "Episode",
+          "n": "174"
+        },
+        {
+          "id": "shp-175",
+          "t": "Episode",
+          "n": "175"
+        }
+      ],
+      "intro": "Folded in: Big Adventure! The Quest for the Fourth Hokage's Legacy (170–171)."
+    },
+    {
+      "id": "shp-past-arc-the-locus-of-konoha",
+      "title": "Past Arc: The Locus of Konoha",
+      "sub": "Naruto: Shippuden · episodes 176–196 · 16 of 21 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-176",
+          "t": "Episode",
+          "n": "176"
+        },
+        {
+          "id": "shp-177",
+          "t": "Episode",
+          "n": "177",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-178",
+          "t": "Episode",
+          "n": "178"
+        },
+        {
+          "id": "shp-179",
+          "t": "Episode",
+          "n": "179"
+        },
+        {
+          "id": "shp-180",
+          "t": "Episode",
+          "n": "180"
+        },
+        {
+          "id": "shp-181",
+          "t": "Episode",
+          "n": "181"
+        },
+        {
+          "id": "shp-182",
+          "t": "Episode",
+          "n": "182",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-183",
+          "t": "Episode",
+          "n": "183",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-184",
+          "t": "Episode",
+          "n": "184",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-185",
+          "t": "Episode",
+          "n": "185",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-186",
+          "t": "Episode",
+          "n": "186",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-187",
+          "t": "Episode",
+          "n": "187",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-188",
+          "t": "Episode",
+          "n": "188",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-189",
+          "t": "Episode",
+          "n": "189",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-190",
+          "t": "Episode",
+          "n": "190",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-191",
+          "t": "Episode",
+          "n": "191",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-192",
+          "t": "Episode",
+          "n": "192",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-193",
+          "t": "Episode",
+          "n": "193",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-194",
+          "t": "Episode",
+          "n": "194",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-195",
+          "t": "Episode",
+          "n": "195",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-196",
+          "t": "Episode",
+          "n": "196",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Unmarked here: 176, 178–181 — the filler list and the chapter mapping disagree."
+    },
+    {
+      "id": "shp-the-gathering-of-the-five-kage",
+      "title": "The Gathering of the Five Kage",
+      "sub": "Naruto: Shippuden · episodes 197–221",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-197",
+          "t": "Episode",
+          "n": "197"
+        },
+        {
+          "id": "shp-198",
+          "t": "Episode",
+          "n": "198"
+        },
+        {
+          "id": "shp-199",
+          "t": "Episode",
+          "n": "199"
+        },
+        {
+          "id": "shp-200",
+          "t": "Episode",
+          "n": "200"
+        },
+        {
+          "id": "shp-201",
+          "t": "Episode",
+          "n": "201"
+        },
+        {
+          "id": "shp-202",
+          "t": "Episode",
+          "n": "202"
+        },
+        {
+          "id": "shp-203",
+          "t": "Episode",
+          "n": "203"
+        },
+        {
+          "id": "shp-204",
+          "t": "Episode",
+          "n": "204"
+        },
+        {
+          "id": "shp-205",
+          "t": "Episode",
+          "n": "205"
+        },
+        {
+          "id": "shp-206",
+          "t": "Episode",
+          "n": "206"
+        },
+        {
+          "id": "shp-207",
+          "t": "Episode",
+          "n": "207"
+        },
+        {
+          "id": "shp-208",
+          "t": "Episode",
+          "n": "208"
+        },
+        {
+          "id": "shp-209",
+          "t": "Episode",
+          "n": "209"
+        },
+        {
+          "id": "shp-210",
+          "t": "Episode",
+          "n": "210"
+        },
+        {
+          "id": "shp-211",
+          "t": "Episode",
+          "n": "211"
+        },
+        {
+          "id": "shp-212",
+          "t": "Episode",
+          "n": "212"
+        },
+        {
+          "id": "shp-213",
+          "t": "Episode",
+          "n": "213"
+        },
+        {
+          "id": "shp-214",
+          "t": "Episode",
+          "n": "214"
+        },
+        {
+          "id": "shp-215",
+          "t": "Episode",
+          "n": "215"
+        },
+        {
+          "id": "shp-216",
+          "t": "Episode",
+          "n": "216"
+        },
+        {
+          "id": "shp-217",
+          "t": "Episode",
+          "n": "217"
+        },
+        {
+          "id": "shp-218",
+          "t": "Episode",
+          "n": "218"
+        },
+        {
+          "id": "shp-219",
+          "t": "Episode",
+          "n": "219"
+        },
+        {
+          "id": "shp-220",
+          "t": "Episode",
+          "n": "220"
+        },
+        {
+          "id": "shp-221",
+          "t": "Episode",
+          "n": "221"
+        }
+      ]
+    },
+    {
+      "id": "shp-paradise-life-on-a-boat",
+      "title": "Paradise Life on a Boat",
+      "sub": "Naruto: Shippuden · episodes 222–242 · 20 of 21 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-222",
+          "t": "Episode",
+          "n": "222"
+        },
+        {
+          "id": "shp-223",
+          "t": "Episode",
+          "n": "223",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-224",
+          "t": "Episode",
+          "n": "224",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-225",
+          "t": "Episode",
+          "n": "225",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-226",
+          "t": "Episode",
+          "n": "226",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-227",
+          "t": "Episode",
+          "n": "227",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-228",
+          "t": "Episode",
+          "n": "228",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-229",
+          "t": "Episode",
+          "n": "229",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-230",
+          "t": "Episode",
+          "n": "230",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-231",
+          "t": "Episode",
+          "n": "231",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-232",
+          "t": "Episode",
+          "n": "232",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-233",
+          "t": "Episode",
+          "n": "233",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-234",
+          "t": "Episode",
+          "n": "234",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-235",
+          "t": "Episode",
+          "n": "235",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-236",
+          "t": "Episode",
+          "n": "236",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-237",
+          "t": "Episode",
+          "n": "237",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-238",
+          "t": "Episode",
+          "n": "238",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-239",
+          "t": "Episode",
+          "n": "239",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-240",
+          "t": "Episode",
+          "n": "240",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-241",
+          "t": "Episode",
+          "n": "241",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-242",
+          "t": "Episode",
+          "n": "242",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "shp-nine-tails-taming-and-karmic-encounters",
+      "title": "Nine-Tails Taming and Karmic Encounters",
+      "sub": "Naruto: Shippuden · episodes 243–275 · 4 of 33 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-243",
+          "t": "Episode",
+          "n": "243"
+        },
+        {
+          "id": "shp-244",
+          "t": "Episode",
+          "n": "244"
+        },
+        {
+          "id": "shp-245",
+          "t": "Episode",
+          "n": "245"
+        },
+        {
+          "id": "shp-246",
+          "t": "Episode",
+          "n": "246"
+        },
+        {
+          "id": "shp-247",
+          "t": "Episode",
+          "n": "247"
+        },
+        {
+          "id": "shp-248",
+          "t": "Episode",
+          "n": "248"
+        },
+        {
+          "id": "shp-249",
+          "t": "Episode",
+          "n": "249"
+        },
+        {
+          "id": "shp-250",
+          "t": "Episode",
+          "n": "250"
+        },
+        {
+          "id": "shp-251",
+          "t": "Episode",
+          "n": "251"
+        },
+        {
+          "id": "shp-252",
+          "t": "Episode",
+          "n": "252"
+        },
+        {
+          "id": "shp-253",
+          "t": "Episode",
+          "n": "253"
+        },
+        {
+          "id": "shp-254",
+          "t": "Episode",
+          "n": "254"
+        },
+        {
+          "id": "shp-255",
+          "t": "Episode",
+          "n": "255"
+        },
+        {
+          "id": "shp-256",
+          "t": "Episode",
+          "n": "256"
+        },
+        {
+          "id": "shp-257",
+          "t": "Episode",
+          "n": "257"
+        },
+        {
+          "id": "shp-258",
+          "t": "Episode",
+          "n": "258",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-259",
+          "t": "Episode",
+          "n": "259",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-260",
+          "t": "Episode",
+          "n": "260",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-261",
+          "t": "Episode",
+          "n": "261"
+        },
+        {
+          "id": "shp-262",
+          "t": "Episode",
+          "n": "262"
+        },
+        {
+          "id": "shp-263",
+          "t": "Episode",
+          "n": "263"
+        },
+        {
+          "id": "shp-264",
+          "t": "Episode",
+          "n": "264"
+        },
+        {
+          "id": "shp-265",
+          "t": "Episode",
+          "n": "265"
+        },
+        {
+          "id": "shp-266",
+          "t": "Episode",
+          "n": "266"
+        },
+        {
+          "id": "shp-267",
+          "t": "Episode",
+          "n": "267"
+        },
+        {
+          "id": "shp-268",
+          "t": "Episode",
+          "n": "268"
+        },
+        {
+          "id": "shp-269",
+          "t": "Episode",
+          "n": "269"
+        },
+        {
+          "id": "shp-270",
+          "t": "Episode",
+          "n": "270"
+        },
+        {
+          "id": "shp-271",
+          "t": "Episode",
+          "n": "271",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-272",
+          "t": "Episode",
+          "n": "272"
+        },
+        {
+          "id": "shp-273",
+          "t": "Episode",
+          "n": "273"
+        },
+        {
+          "id": "shp-274",
+          "t": "Episode",
+          "n": "274"
+        },
+        {
+          "id": "shp-275",
+          "t": "Episode",
+          "n": "275"
+        }
+      ],
+      "intro": "Folded in: Recap: Two Fates (257–260), Standalone side story (271). Unmarked here: 257 — the filler list and the chapter mapping disagree."
+    },
+    {
+      "id": "shp-the-seven-shinobi-swordsmen",
+      "title": "The Seven Shinobi Swordsmen",
+      "sub": "Naruto: Shippuden · episodes 276–289 · 9 of 14 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-276",
+          "t": "Episode",
+          "n": "276"
+        },
+        {
+          "id": "shp-277",
+          "t": "Episode",
+          "n": "277"
+        },
+        {
+          "id": "shp-278",
+          "t": "Episode",
+          "n": "278"
+        },
+        {
+          "id": "shp-279",
+          "t": "Episode",
+          "n": "279",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-280",
+          "t": "Episode",
+          "n": "280",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-281",
+          "t": "Episode",
+          "n": "281",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-282",
+          "t": "Episode",
+          "n": "282"
+        },
+        {
+          "id": "shp-283",
+          "t": "Episode",
+          "n": "283"
+        },
+        {
+          "id": "shp-284",
+          "t": "Episode",
+          "n": "284",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-285",
+          "t": "Episode",
+          "n": "285",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-286",
+          "t": "Episode",
+          "n": "286",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-287",
+          "t": "Episode",
+          "n": "287",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-288",
+          "t": "Episode",
+          "n": "288",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-289",
+          "t": "Episode",
+          "n": "289",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "shp-power",
+      "title": "Power",
+      "sub": "Naruto: Shippuden · episodes 290–295 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-290",
+          "t": "Episode",
+          "n": "290",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-291",
+          "t": "Episode",
+          "n": "291",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-292",
+          "t": "Episode",
+          "n": "292",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-293",
+          "t": "Episode",
+          "n": "293",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-294",
+          "t": "Episode",
+          "n": "294",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-295",
+          "t": "Episode",
+          "n": "295",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "shp-the-fourth-great-ninja-war-assailants-from-afar",
+      "title": "The Fourth Great Ninja War: Assailants From Afar",
+      "sub": "Naruto: Shippuden · episodes 296–320 · 17 of 25 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-296",
+          "t": "Episode",
+          "n": "296"
+        },
+        {
+          "id": "shp-297",
+          "t": "Episode",
+          "n": "297"
+        },
+        {
+          "id": "shp-298",
+          "t": "Episode",
+          "n": "298"
+        },
+        {
+          "id": "shp-299",
+          "t": "Episode",
+          "n": "299"
+        },
+        {
+          "id": "shp-300",
+          "t": "Episode",
+          "n": "300"
+        },
+        {
+          "id": "shp-301",
+          "t": "Episode",
+          "n": "301"
+        },
+        {
+          "id": "shp-302",
+          "t": "Episode",
+          "n": "302"
+        },
+        {
+          "id": "shp-303",
+          "t": "Episode",
+          "n": "303",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-304",
+          "t": "Episode",
+          "n": "304",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-305",
+          "t": "Episode",
+          "n": "305",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-306",
+          "t": "Episode",
+          "n": "306",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-307",
+          "t": "Episode",
+          "n": "307"
+        },
+        {
+          "id": "shp-308",
+          "t": "Episode",
+          "n": "308",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-309",
+          "t": "Episode",
+          "n": "309",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-310",
+          "t": "Episode",
+          "n": "310",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-311",
+          "t": "Episode",
+          "n": "311",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-312",
+          "t": "Episode",
+          "n": "312",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-313",
+          "t": "Episode",
+          "n": "313",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-314",
+          "t": "Episode",
+          "n": "314",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-315",
+          "t": "Episode",
+          "n": "315",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-316",
+          "t": "Episode",
+          "n": "316",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-317",
+          "t": "Episode",
+          "n": "317",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-318",
+          "t": "Episode",
+          "n": "318",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-319",
+          "t": "Episode",
+          "n": "319",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-320",
+          "t": "Episode",
+          "n": "320",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side story (311). Unmarked here: 307 — the filler list and the chapter mapping disagree."
+    },
+    {
+      "id": "shp-the-fourth-great-ninja-war-sasuke-and-itachi",
+      "title": "The Fourth Great Ninja War: Sasuke and Itachi",
+      "sub": "Naruto: Shippuden · episodes 321–348 · 2 of 28 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-321",
+          "t": "Episode",
+          "n": "321"
+        },
+        {
+          "id": "shp-322",
+          "t": "Episode",
+          "n": "322"
+        },
+        {
+          "id": "shp-323",
+          "t": "Episode",
+          "n": "323"
+        },
+        {
+          "id": "shp-324",
+          "t": "Episode",
+          "n": "324"
+        },
+        {
+          "id": "shp-325",
+          "t": "Episode",
+          "n": "325"
+        },
+        {
+          "id": "shp-326",
+          "t": "Episode",
+          "n": "326"
+        },
+        {
+          "id": "shp-327",
+          "t": "Episode",
+          "n": "327"
+        },
+        {
+          "id": "shp-328",
+          "t": "Episode",
+          "n": "328"
+        },
+        {
+          "id": "shp-329",
+          "t": "Episode",
+          "n": "329"
+        },
+        {
+          "id": "shp-330",
+          "t": "Episode",
+          "n": "330"
+        },
+        {
+          "id": "shp-331",
+          "t": "Episode",
+          "n": "331"
+        },
+        {
+          "id": "shp-332",
+          "t": "Episode",
+          "n": "332"
+        },
+        {
+          "id": "shp-333",
+          "t": "Episode",
+          "n": "333"
+        },
+        {
+          "id": "shp-334",
+          "t": "Episode",
+          "n": "334"
+        },
+        {
+          "id": "shp-335",
+          "t": "Episode",
+          "n": "335"
+        },
+        {
+          "id": "shp-336",
+          "t": "Episode",
+          "n": "336"
+        },
+        {
+          "id": "shp-337",
+          "t": "Episode",
+          "n": "337"
+        },
+        {
+          "id": "shp-338",
+          "t": "Episode",
+          "n": "338"
+        },
+        {
+          "id": "shp-339",
+          "t": "Episode",
+          "n": "339"
+        },
+        {
+          "id": "shp-340",
+          "t": "Episode",
+          "n": "340"
+        },
+        {
+          "id": "shp-341",
+          "t": "Episode",
+          "n": "341"
+        },
+        {
+          "id": "shp-342",
+          "t": "Episode",
+          "n": "342"
+        },
+        {
+          "id": "shp-343",
+          "t": "Episode",
+          "n": "343"
+        },
+        {
+          "id": "shp-344",
+          "t": "Episode",
+          "n": "344"
+        },
+        {
+          "id": "shp-345",
+          "t": "Episode",
+          "n": "345"
+        },
+        {
+          "id": "shp-346",
+          "t": "Episode",
+          "n": "346"
+        },
+        {
+          "id": "shp-347",
+          "t": "Episode",
+          "n": "347",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-348",
+          "t": "Episode",
+          "n": "348",
+          "note": "Anime-original",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "shp-kakashi-shadow-of-the-anbu-black-ops",
+      "title": "Kakashi: Shadow of the ANBU Black Ops",
+      "sub": "Naruto: Shippuden · episodes 349–361 · 10 of 13 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-349",
+          "t": "Episode",
+          "n": "349",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-350",
+          "t": "Episode",
+          "n": "350"
+        },
+        {
+          "id": "shp-351",
+          "t": "Episode",
+          "n": "351"
+        },
+        {
+          "id": "shp-352",
+          "t": "Episode",
+          "n": "352",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-353",
+          "t": "Episode",
+          "n": "353",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-354",
+          "t": "Episode",
+          "n": "354",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-355",
+          "t": "Episode",
+          "n": "355",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-356",
+          "t": "Episode",
+          "n": "356",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-357",
+          "t": "Episode",
+          "n": "357",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-358",
+          "t": "Episode",
+          "n": "358",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-359",
+          "t": "Episode",
+          "n": "359",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-360",
+          "t": "Episode",
+          "n": "360"
+        },
+        {
+          "id": "shp-361",
+          "t": "Episode",
+          "n": "361",
+          "note": "Anime-original",
+          "opt": 1
+        }
+      ],
+      "intro": "Unmarked here: 350–351, 360 — the filler list and the chapter mapping disagree."
+    },
+    {
+      "id": "shp-the-fourth-great-ninja-war-the-return-of-team-7",
+      "title": "The Fourth Great Ninja War: The Return of Team 7",
+      "sub": "Naruto: Shippuden · episodes 362–372",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-362",
+          "t": "Episode",
+          "n": "362"
+        },
+        {
+          "id": "shp-363",
+          "t": "Episode",
+          "n": "363"
+        },
+        {
+          "id": "shp-364",
+          "t": "Episode",
+          "n": "364"
+        },
+        {
+          "id": "shp-365",
+          "t": "Episode",
+          "n": "365"
+        },
+        {
+          "id": "shp-366",
+          "t": "Episode",
+          "n": "366"
+        },
+        {
+          "id": "shp-367",
+          "t": "Episode",
+          "n": "367"
+        },
+        {
+          "id": "shp-368",
+          "t": "Episode",
+          "n": "368"
+        },
+        {
+          "id": "shp-369",
+          "t": "Episode",
+          "n": "369"
+        },
+        {
+          "id": "shp-370",
+          "t": "Episode",
+          "n": "370"
+        },
+        {
+          "id": "shp-371",
+          "t": "Episode",
+          "n": "371"
+        },
+        {
+          "id": "shp-372",
+          "t": "Episode",
+          "n": "372"
+        }
+      ]
+    },
+    {
+      "id": "shp-the-fourth-great-ninja-war-obito-uchiha",
+      "title": "The Fourth Great Ninja War: Obito Uchiha",
+      "sub": "Naruto: Shippuden · episodes 373–393 · 4 of 21 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-373",
+          "t": "Episode",
+          "n": "373"
+        },
+        {
+          "id": "shp-374",
+          "t": "Episode",
+          "n": "374"
+        },
+        {
+          "id": "shp-375",
+          "t": "Episode",
+          "n": "375"
+        },
+        {
+          "id": "shp-376",
+          "t": "Episode",
+          "n": "376",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-377",
+          "t": "Episode",
+          "n": "377",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-378",
+          "t": "Episode",
+          "n": "378"
+        },
+        {
+          "id": "shp-379",
+          "t": "Episode",
+          "n": "379"
+        },
+        {
+          "id": "shp-380",
+          "t": "Episode",
+          "n": "380"
+        },
+        {
+          "id": "shp-381",
+          "t": "Episode",
+          "n": "381"
+        },
+        {
+          "id": "shp-382",
+          "t": "Episode",
+          "n": "382"
+        },
+        {
+          "id": "shp-383",
+          "t": "Episode",
+          "n": "383"
+        },
+        {
+          "id": "shp-384",
+          "t": "Episode",
+          "n": "384"
+        },
+        {
+          "id": "shp-385",
+          "t": "Episode",
+          "n": "385"
+        },
+        {
+          "id": "shp-386",
+          "t": "Episode",
+          "n": "386"
+        },
+        {
+          "id": "shp-387",
+          "t": "Episode",
+          "n": "387"
+        },
+        {
+          "id": "shp-388",
+          "t": "Episode",
+          "n": "388"
+        },
+        {
+          "id": "shp-389",
+          "t": "Episode",
+          "n": "389",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-390",
+          "t": "Episode",
+          "n": "390",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-391",
+          "t": "Episode",
+          "n": "391"
+        },
+        {
+          "id": "shp-392",
+          "t": "Episode",
+          "n": "392"
+        },
+        {
+          "id": "shp-393",
+          "t": "Episode",
+          "n": "393"
+        }
+      ],
+      "intro": "Folded in: Extra edition (376–377), Standalone side story (389–390). Unmarked here: 388 — the filler list and the chapter mapping disagree."
+    },
+    {
+      "id": "shp-in-naruto-s-footsteps-friends-paths",
+      "title": "In Naruto's Footsteps: Friends' Paths",
+      "sub": "Naruto: Shippuden · episodes 394–413 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-394",
+          "t": "Episode",
+          "n": "394",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-395",
+          "t": "Episode",
+          "n": "395",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-396",
+          "t": "Episode",
+          "n": "396",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-397",
+          "t": "Episode",
+          "n": "397",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-398",
+          "t": "Episode",
+          "n": "398",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-399",
+          "t": "Episode",
+          "n": "399",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-400",
+          "t": "Episode",
+          "n": "400",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-401",
+          "t": "Episode",
+          "n": "401",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-402",
+          "t": "Episode",
+          "n": "402",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-403",
+          "t": "Episode",
+          "n": "403",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-404",
+          "t": "Episode",
+          "n": "404",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-405",
+          "t": "Episode",
+          "n": "405",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-406",
+          "t": "Episode",
+          "n": "406",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-407",
+          "t": "Episode",
+          "n": "407",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-408",
+          "t": "Episode",
+          "n": "408",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-409",
+          "t": "Episode",
+          "n": "409",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-410",
+          "t": "Episode",
+          "n": "410",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-411",
+          "t": "Episode",
+          "n": "411",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-412",
+          "t": "Episode",
+          "n": "412",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-413",
+          "t": "Episode",
+          "n": "413",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "shp-infinite-tsukuyomi-the-invocation",
+      "title": "Infinite Tsukuyomi: The Invocation",
+      "sub": "Naruto: Shippuden · episodes 414–431 · 6 of 18 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-414",
+          "t": "Episode",
+          "n": "414"
+        },
+        {
+          "id": "shp-415",
+          "t": "Episode",
+          "n": "415"
+        },
+        {
+          "id": "shp-416",
+          "t": "Episode",
+          "n": "416",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-417",
+          "t": "Episode",
+          "n": "417"
+        },
+        {
+          "id": "shp-418",
+          "t": "Episode",
+          "n": "418"
+        },
+        {
+          "id": "shp-419",
+          "t": "Episode",
+          "n": "419"
+        },
+        {
+          "id": "shp-420",
+          "t": "Episode",
+          "n": "420"
+        },
+        {
+          "id": "shp-421",
+          "t": "Episode",
+          "n": "421"
+        },
+        {
+          "id": "shp-422",
+          "t": "Episode",
+          "n": "422",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-423",
+          "t": "Episode",
+          "n": "423",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-424",
+          "t": "Episode",
+          "n": "424"
+        },
+        {
+          "id": "shp-425",
+          "t": "Episode",
+          "n": "425"
+        },
+        {
+          "id": "shp-426",
+          "t": "Episode",
+          "n": "426"
+        },
+        {
+          "id": "shp-427",
+          "t": "Episode",
+          "n": "427"
+        },
+        {
+          "id": "shp-428",
+          "t": "Episode",
+          "n": "428",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-429",
+          "t": "Episode",
+          "n": "429"
+        },
+        {
+          "id": "shp-430",
+          "t": "Episode",
+          "n": "430",
+          "note": "Anime-original",
+          "opt": 1
+        },
+        {
+          "id": "shp-431",
+          "t": "Episode",
+          "n": "431",
+          "note": "Anime-original",
+          "opt": 1
+        }
+      ],
+      "intro": "Folded in: Standalone side story (422–423). Unmarked here: 417, 427, 429 — the filler list and the chapter mapping disagree."
+    },
+    {
+      "id": "shp-jiraiya-shinobi-handbook-the-tale-of-naruto-the-hero",
+      "title": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+      "sub": "Naruto: Shippuden · episodes 432–450 · 18 of 19 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-432",
+          "t": "Episode",
+          "n": "432",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-433",
+          "t": "Episode",
+          "n": "433",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-434",
+          "t": "Episode",
+          "n": "434",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-435",
+          "t": "Episode",
+          "n": "435",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-436",
+          "t": "Episode",
+          "n": "436",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-437",
+          "t": "Episode",
+          "n": "437",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-438",
+          "t": "Episode",
+          "n": "438",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-439",
+          "t": "Episode",
+          "n": "439",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-440",
+          "t": "Episode",
+          "n": "440",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-441",
+          "t": "Episode",
+          "n": "441",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-442",
+          "t": "Episode",
+          "n": "442",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-443",
+          "t": "Episode",
+          "n": "443",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-444",
+          "t": "Episode",
+          "n": "444",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-445",
+          "t": "Episode",
+          "n": "445",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-446",
+          "t": "Episode",
+          "n": "446",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-447",
+          "t": "Episode",
+          "n": "447",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-448",
+          "t": "Episode",
+          "n": "448",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-449",
+          "t": "Episode",
+          "n": "449",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-450",
+          "t": "Episode",
+          "n": "450"
+        }
+      ],
+      "intro": "Unmarked here: 450 — the filler list and the chapter mapping disagree."
+    },
+    {
+      "id": "shp-itachi-shinden-book-of-light-and-darkness",
+      "title": "Itachi Shinden: Book of Light and Darkness",
+      "sub": "Naruto: Shippuden · episodes 451–458",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-451",
+          "t": "Episode",
+          "n": "451"
+        },
+        {
+          "id": "shp-452",
+          "t": "Episode",
+          "n": "452"
+        },
+        {
+          "id": "shp-453",
+          "t": "Episode",
+          "n": "453"
+        },
+        {
+          "id": "shp-454",
+          "t": "Episode",
+          "n": "454"
+        },
+        {
+          "id": "shp-455",
+          "t": "Episode",
+          "n": "455"
+        },
+        {
+          "id": "shp-456",
+          "t": "Episode",
+          "n": "456"
+        },
+        {
+          "id": "shp-457",
+          "t": "Episode",
+          "n": "457"
+        },
+        {
+          "id": "shp-458",
+          "t": "Episode",
+          "n": "458"
+        }
+      ]
+    },
+    {
+      "id": "shp-the-origins-of-ninshu-the-two-souls-indra-and-ashura",
+      "title": "The Origins of Ninshū: The Two Souls, Indra and Ashura",
+      "sub": "Naruto: Shippuden · episodes 459–469 · 5 of 11 filler",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-459",
+          "t": "Episode",
+          "n": "459"
+        },
+        {
+          "id": "shp-460",
+          "t": "Episode",
+          "n": "460"
+        },
+        {
+          "id": "shp-461",
+          "t": "Episode",
+          "n": "461"
+        },
+        {
+          "id": "shp-462",
+          "t": "Episode",
+          "n": "462"
+        },
+        {
+          "id": "shp-463",
+          "t": "Episode",
+          "n": "463"
+        },
+        {
+          "id": "shp-464",
+          "t": "Episode",
+          "n": "464",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-465",
+          "t": "Episode",
+          "n": "465",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-466",
+          "t": "Episode",
+          "n": "466",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-467",
+          "t": "Episode",
+          "n": "467",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-468",
+          "t": "Episode",
+          "n": "468",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-469",
+          "t": "Episode",
+          "n": "469"
+        }
+      ],
+      "intro": "Folded in: Standalone side story (469)."
+    },
+    {
+      "id": "shp-the-chapter-of-naruto-and-sasuke",
+      "title": "The Chapter of Naruto and Sasuke",
+      "sub": "Naruto: Shippuden · episodes 470–479",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-470",
+          "t": "Episode",
+          "n": "470"
+        },
+        {
+          "id": "shp-471",
+          "t": "Episode",
+          "n": "471"
+        },
+        {
+          "id": "shp-472",
+          "t": "Episode",
+          "n": "472"
+        },
+        {
+          "id": "shp-473",
+          "t": "Episode",
+          "n": "473"
+        },
+        {
+          "id": "shp-474",
+          "t": "Episode",
+          "n": "474"
+        },
+        {
+          "id": "shp-475",
+          "t": "Episode",
+          "n": "475"
+        },
+        {
+          "id": "shp-476",
+          "t": "Episode",
+          "n": "476"
+        },
+        {
+          "id": "shp-477",
+          "t": "Episode",
+          "n": "477"
+        },
+        {
+          "id": "shp-478",
+          "t": "Episode",
+          "n": "478"
+        },
+        {
+          "id": "shp-479",
+          "t": "Episode",
+          "n": "479"
+        }
+      ]
+    },
+    {
+      "id": "shp-nostalgic-days",
+      "title": "Nostalgic Days",
+      "sub": "Naruto: Shippuden · episodes 480–483 · filler arc",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-480",
+          "t": "Episode",
+          "n": "480",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-481",
+          "t": "Episode",
+          "n": "481",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-482",
+          "t": "Episode",
+          "n": "482",
+          "note": "Filler arc",
+          "opt": 1
+        },
+        {
+          "id": "shp-483",
+          "t": "Episode",
+          "n": "483",
+          "note": "Filler arc",
+          "opt": 1
+        }
+      ]
+    },
+    {
+      "id": "shp-sasuke-shinden-book-of-sunrise",
+      "title": "Sasuke Shinden: Book of Sunrise",
+      "sub": "Naruto: Shippuden · episodes 484–488",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-484",
+          "t": "Episode",
+          "n": "484"
+        },
+        {
+          "id": "shp-485",
+          "t": "Episode",
+          "n": "485"
+        },
+        {
+          "id": "shp-486",
+          "t": "Episode",
+          "n": "486"
+        },
+        {
+          "id": "shp-487",
+          "t": "Episode",
+          "n": "487"
+        },
+        {
+          "id": "shp-488",
+          "t": "Episode",
+          "n": "488"
+        }
+      ]
+    },
+    {
+      "id": "shp-shikamaru-hiden-a-cloud-drifting-in-silent-darkness",
+      "title": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness",
+      "sub": "Naruto: Shippuden · episodes 489–493",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-489",
+          "t": "Episode",
+          "n": "489"
+        },
+        {
+          "id": "shp-490",
+          "t": "Episode",
+          "n": "490"
+        },
+        {
+          "id": "shp-491",
+          "t": "Episode",
+          "n": "491"
+        },
+        {
+          "id": "shp-492",
+          "t": "Episode",
+          "n": "492"
+        },
+        {
+          "id": "shp-493",
+          "t": "Episode",
+          "n": "493"
+        }
+      ]
+    },
+    {
+      "id": "shp-konoha-hiden-the-perfect-day-for-a-wedding",
+      "title": "Konoha Hiden: The Perfect Day for a Wedding",
+      "sub": "Naruto: Shippuden · episodes 494–500",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Naruto:_Shippuden_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "shp-494",
+          "t": "Episode",
+          "n": "494"
+        },
+        {
+          "id": "shp-495",
+          "t": "Episode",
+          "n": "495"
+        },
+        {
+          "id": "shp-496",
+          "t": "Episode",
+          "n": "496"
+        },
+        {
+          "id": "shp-497",
+          "t": "Episode",
+          "n": "497"
+        },
+        {
+          "id": "shp-498",
+          "t": "Episode",
+          "n": "498"
+        },
+        {
+          "id": "shp-499",
+          "t": "Episode",
+          "n": "499"
+        },
+        {
+          "id": "shp-500",
+          "t": "Episode",
+          "n": "500"
+        }
+      ]
+    }
+  ]
+}

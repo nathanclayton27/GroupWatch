@@ -1,0 +1,694 @@
+
+{{Infobox television season
+| bgcolour     = #FFFFE6
+| caption      = Season 1 Cover
+| image        = Naruto - Shippuden DVD season 1 volume 1.jpg
+| network      = [[TV Tokyo]]
+| first_aired  = {{Start date|2007|2|15}}
+| last_aired   = {{End date|2007|10|25}}
+| num_episodes = 32
+| episode_list = List of Naruto: Shippuden episodes
+| prev_season  = [[Naruto season 5|''Naruto'' Season 5]]
+}}
+The first season of the ''[[Naruto: Shippuden]]'' [[anime]] series is directed by [[Hayato Date]], and produced by [[Pierrot (company)|Pierrot]] and [[TV Tokyo]]. They are based on [[List of Naruto chapters (Part II)|Part II]] for [[Masashi Kishimoto]]'s manga series.<ref>{{cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/staff/index.html|script-title=ja:スタッフ・キャスト|trans-title=Staff.Cast |publisher=TV Tokyo|language=ja|access-date=October 28, 2011}}</ref> The season is set two and a half years after the finale of ''Naruto'' anime series, with now-teenagers [[Naruto Uzumaki]] and his team rescuing the now-Fifth Kazekage [[Gaara]] from the criminal organization [[List of Naruto characters#Akatsuki|Akatsuki]]. The first season aired from February to October 2007 on [[TV Tokyo]].<ref>{{cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes2007.html|title=Naruto: Shippuden episodes from 2007|language=ja|publisher=[[TV Tokyo]]|access-date=2009-06-22|archive-url=https://web.archive.org/web/20090623022747/http://www.tv-tokyo.co.jp/anime/naruto/episodes2007.html|archive-date=2009-06-23|url-status=dead}}</ref> It was also released on DVD in Japan over eight discs between August 1, 2007, and March 5, 2008, under the name {{nihongo|'''Kazekage Rescue'''|風影奪還|Kazekage Dakkan}}.<ref name="TVTokyoSeason1DVD">{{cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/goods/dvd/dvd05/index.html|title=''Naruto: Shippuden'' Season One DVDs|access-date=2015-05-20|publisher=[[TV Tokyo]]|language=ja}}</ref> There is also a special feature included with the seventh ''Naruto: Shippuden'' compilation DVD based on the second ending of the series called {{nihongo|''Hurricane! "Konoha Academy" Chronicles''|疾風!"木ノ葉学園"伝|Shippū! "Konoha Gakuen" Den}}.<ref name="TVTokyoSeason1DVD"/> 
+
+The first season premiered from October 28, 2009, to April 21, 2010, on [[Disney XD]].<ref>{{cite web|url=http://www.toonzone.net/schedule/displaySeries.php?seriesID=327&networkID=17|title=Naruto Shippuden Disney XD schedule|publisher=toonzone|access-date=December 11, 2009|archive-date=March 19, 2012|archive-url=https://web.archive.org/web/20120319194657/http://www.toonzone.net/schedule/displaySeries.php?seriesID=327&networkID=17|url-status=dead}}</ref> The season ran on [[Adult Swim]]'s [[Toonami]] programming block from January 5 to August 10, 2014.
+
+A series of eight DVDs of the season was released in North America between September 29, 2009, and April 6, 2010. The last volume also contained episodes from the second season.<ref>{{cite web|url=https://www.amazon.com/dp/B001RIZ8WE|title=Naruto Shippuden, Vol. 1 (2009)|publisher=[[Amazon.com]]|access-date=June 18, 2009}}</ref><ref>{{cite web|url=https://www.amazon.com/dp/B0036BDPQ6/|title=Naruto Shippuden, Vol. 8 (2010)|publisher=[[Amazon.com]]|access-date=October 11, 2011}}</ref> Viz also collected the season in three DVD boxes between January 26 and August 3, 2010, also sharing the third volume with the second season.<ref name="Naruto Shippuden Box Set 1" /><ref name="Naruto Shippuden Box Set 3"/> In the United Kingdom, [[Manga Entertainment]] released it in three DVD volumes from June 14 to October 4, 2010,<ref>{{cite web|url=https://www.amazon.co.uk/dp/B0037B2WSC/|title=Naruto Shippuden Box Set 1 DVD|publisher=Amazon.com|access-date=October 11, 2011}}</ref><ref>{{cite web|url=https://www.amazon.co.uk/dp/B003M91TKQ/|title=Naruto Shippuden Box Set 3 DVD|publisher=Amazon.com|access-date=October 11, 2011}}</ref> while a DVD box containing the first 52 episodes was released on March 7, 2011.<ref>{{cite web|url=https://www.amazon.co.uk/dp/B004HARL6K/|title=Naruto Shippuden - Series 1 |publisher=Amazon.com|access-date=October 11, 2011}}</ref>
+
+The series' first season used five musical themes: two openings and three endings. The opening themes are "Hero's Come Back!!" by [[Nobodyknows|Nobodyknows+]] (used for episodes 1 to 29) and "Distance" by [[Long Shot Party]] (used for the remaining episodes). The ending themes are {{nihongo|"Nagareboshi (Shooting Star)"|流れ星 〜Shooting Star〜}} by [[Home Made Kazoku]] (used for episodes 1 to 17), {{nihongo|"Michi (To You All)"|道 〜to you all}} by Alüto (used for episodes 18 to 29), and {{nihongo|"Kimi Monogatari"|キミモノガタリ||"Your Story"}} by [[Little by Little (band)|Little by Little]] (used for the remaining episodes). The first film, ''[[Naruto Shippuden the Movie]]'', based on the ''Naruto: Shippuden'' anime series, was released on August 4, 2007.<ref name="NarutoShippudenMovieOfficialSite">{{cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/movie07/|title=劇場版 NARUTO-ナルト- 疾風伝:テレビ東京|publisher=[[TV Tokyo]]|access-date=2007-09-28|language=ja}}</ref> The broadcast versions of episodes from 24 to 27 included scenes from the film in both the opening and ending themes, while it retained the original music.
+__TOC__
+{{clear}}
+
+== Episodes ==
+{{See also|List of Naruto: Shippuden episodes{{!}}List of ''Naruto: Shippuden'' episodes}}
+<onlyinclude>
+{{#invoke:Episode table|main
+|background=#FFFFE6
+|overall=
+|season=
+|title=
+|director=11
+|writer=11
+|airdate=12
+|altdate=12
+|altdateT=English air date
+|dontclose = y}}
+{{Episode table/part|subtitle=Kazekage Rescue|c=#FFFFE6}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 1
+| EpisodeNumber2  = 1
+| Title           = Homecoming
+| TranslitTitle   = Kikyō
+| NativeTitle     = 帰郷
+| NativeTitleLangCode = ja 
+| DirectedBy      = Masaaki Kumagai
+| WrittenBy       = [[Satoru Nishizono]]
+| OriginalAirDate = {{Start date|2007|2|15}}
+| AltDate         = October 28, 2009{{efn|English air dates for episodes 1–98 of ''Naruto: Shippuden'' refer to its first broadcast on U.S. television on [[Disney XD]].}}<ref name="premier">{{cite web |url=http://www.animenewsnetwork.com/news/2009-10-28/reminder/naruto-shippuden-to-debut-on-disney-xd-tonight|title=Reminder: Naruto Shippūden to Debut on Disney XD Tonight|publisher=[[Anime News Network]] |date=2009-10-18|access-date=2009-11-24}}</ref> <!---Please do not add Adult Swim air dates, this is not a channel air date compilation.--->
+| ShortSummary    = The episode begins with the preview of episode 51 with [[Naruto Uzumaki]] and [[Sakura Haruno]] reuniting with [[Sasuke Uchiha]], who seeks Naruto's power and suppresses the [[List of Naruto characters#Kurama|Nine-Tailed Fox]] within his subconscious. The first episode begins with Naruto returning home after two and a half years of training with [[Jiraiya (Naruto)|Jiraiya]], and seeing Sakura and Konohamaru, many people from the village congratulate him. Konohamaru and his fellows are on a mission and somehow successfully complete it. Jiraiya accompanies Naruto home and meets [[List of Naruto characters#Tsunade|Tsunade Senju]] who assigns Naruto and Sakura on their first mission, but first they must defeat someone to prove their growth and progress in the last two and a half years.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 2
+| EpisodeNumber2  = 2
+| Title           = The Akatsuki Makes Its Move
+| TranslitTitle   = Akatsuki, Shidō
+| NativeTitle     = 暁, 始動
+| NativeTitleLangCode = ja 
+| DirectedBy      = Atsushi Nigorikawa
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|2|15}}
+| AltDate         = October 28, 2009<ref name="premier"/>
+| ShortSummary    = Learning that all of his friends were promoted to Chunin, [[Neji Hyuga]] as Jonin and [[Gaara]] as the Fifth Kazekage, Naruto gives a copy of Jiraiya's new book "Make-Out Tactics" to [[Kakashi Hatake]], who challenges Naruto and Sakura for the bell retrieval test. Jiraiya converses with Kakashi about the [[List of Naruto characters#Akatsuki|Akatsuki]] searching for the Tailed Beasts and Gaara who is in the Hidden Sand Village, before Yura senses [[List of Naruto characters#Sasori|Sasori]] and [[List of Naruto characters#Deidara|Deidara]] arriving there to capture the One-Tailed Raccoon's Jinchuriki Gaara. Meanwhile, in the [[Ninja World#Land of Fire|Hidden Leaf Village]], Sakura and Naruto fight Kakashi with their new skills and strength.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 3
+| EpisodeNumber2  = 3
+| Title           = The Results of Training
+| TranslitTitle   = Shugyō no Seika
+| NativeTitle     = 修業の成果
+| NativeTitleLangCode = ja 
+| DirectedBy      = Yuki Sugihara
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|2|22}}
+| AltDate         = October 28, 2009<ref name="premier"/>
+| ShortSummary    = Naruto attacks Kakashi using shadow clones, using a new strategy which is very different from his previous head on attacks and surprises Kakashi. Sakura also shows her true beastly strength that she gained through the training from Lady Tsunade. Kakashi finds it hard to dodge every attack and relies on his Sharingan. As they fight, Kakashi reminisced about [[List of Naruto characters#Team 7|Team 7]] from two years back and how they were so weak then, understanding that the same old tricks will not work on Sakura and Naruto again. He remarks on how Naruto has grown, and how Sakura has the potential to surpass the Fifth Hokage as an even better Kunoichi. Kakashi engages in Taijutsu, mimicking Rock Lee’s Dancing Leaf Shadow, before Naruto attempts the Secret Finger Jutsu on Kakashi. Meanwhile that night, in the Hidden Sand, Deidara (a member of the Akatsuki) stealthily infiltrates the village from the air, taking out three men who are tasked with watching the sky. However, he is confronted by Gaara, the Fifth Kazekage, who attempts to chase him off.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 4
+| EpisodeNumber2  = 4
+| Title           = The Jinchuriki of the Sand
+| TranslitTitle   = Suna no Jinchūriki
+| NativeTitle     = 砂の人柱力
+| NativeTitleLangCode = ja 
+| DirectedBy      = Kiyomu Fukuda
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|3|1}}
+| AltDate         = October 28, 2009<ref name="premier"/>
+| ShortSummary    = Gaara's sand tries to chase Deidara who seems to flee on his clay bird around the Hidden Sand. Deidara tries a few attacks and blows which Gaara easily evades. Finally, Gaara uses his sand as a complete shield and envelopes himself in it. Deidara wonders how he should capture the Jinchuriki. In the Hidden Leaf, Kakashi uses water (Water Style: Water Dragon Jutsu); fire (Fire Style: Fireball Jutsu); and earth (Earth Style: Headhunter Jutsu) techniques and quickly takes on the offensive, Naruto and Sakura try to defend but understand that they need a new strategy as Kakashi’s hand signs are too fast for them to keep up with. Naruto, knowing about Kakashi's love for the book "Make-Out Tactics" threatens him to tell him a big spoiler. As Kakashi covers his ears, leaving him unable to produce any hand signs for Ninjutsu, Naruto and Sakura retrieve the bells. Meanwhile, Gaara takes on the defensive.
+| LineColor= #FFFFE6
+}} 
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 5
+| EpisodeNumber2  = 5
+| Title           = The Kazekage Stands Tall
+| TranslitTitle   = Kazekage to shite...!
+| NativeTitle     = 風影として...!
+| NativeTitleLangCode = ja 
+| DirectedBy      = Yuki Kinoshita
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|3|15}}
+| AltDate         = November 4, 2009<ref name="Disney_XD_schedule">{{Cite web |url=http://www.toonzone.net/schedule/displaySeries.php?seriesID=327&networkID=17 |title=Naruto Shippuden Disney XD schedule |date=December 11, 2009 |publisher=toonzone.com |archive-url=https://web.archive.org/web/20120319194657/http://www.toonzone.net/schedule/displaySeries.php?seriesID=327&networkID=17 |archive-date=March 19, 2012 |url-status=dead |access-date=July 11, 2013}}</ref>
+| ShortSummary    = Naruto and Sakura rest. Lady Tsunade informs Naruto and Sakura that they, alongside Kakashi, will be known as Team Kakashi, going on missions as Shinobi of the Leaf - equal in status. Meanwhile, Deidara plants a bomb inside Gaara's shield but Gaara prevents it using sand body armour. Later, Gaara brings out Shukaku and attacks Deidara with Shukaku's huge hands, in which he catches Deidara's arm and breaks it using the Sand Coffin Technique. Deidara plants small bombs in the sand which later blow up in Gaara's face, weakening him. Naruto, Sakura, and Kakashi relax following the second Bell Retrieval Test. Jiraiya tells Kakashi that he is entrusting Naruto back to Kakashi, as planned, and will be leaving the Hidden Leaf Village to find out more about the Akatsuki’s movements. The General expresses concern to Kankuro that Gaara could lose control, and the One-Tailed Raccon could take over. However, Kankuro trusts that Gaara will not lose control - he remembers a conversation where Gaara expresses how when he fought Naruto, he was inspired by how Naruto formed bonds despite his suffering, and wants to do the same as Naruto despite the people of his Sand Village fearing him as a weapon. Later Deidara summons a huge puppet, which is an explosive named C3 with great destructive properties, and drops it on the Hidden Sand. Kankuro, the General and the entire village watch this and run. Naruto accompanies Iruka, after failing to go on a date with Sakura.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 6
+| EpisodeNumber2  = 6
+| Title           = Mission Cleared
+| TranslitTitle   = Norumakuriā
+| NativeTitle     = ノルマクリアー
+| NativeTitleLangCode = ja 
+| DirectedBy      = Mitsutaka Noshitani
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|3|29}}
+| AltDate         = November 11, 2009<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Gaara blocks the C3 explosion using a big sand umbrella covering the Hidden Sand. Kankuro recalls the day that Gaara became Kazekage and how he promised he would control his tailed beast and use it faithfully to protect the Hidden Sand and take responsibility. The villagers thank Gaara and acknowledges that he is a true Kazekage. Gaara pulls his sand back outside the village and deposits it there, before Deidara uses exploding clay spiders to knock Gaara unconscious and captures him. Diedara plants explosive spiders in Gaara's armor and defeats him. He carries Gaara's body using the tail of his clay bird and flees out of the Hidden Sand. Meanwhile, Iruka and Naruto discuss Naruto's growth and his ambitions over a bowl of Ramen. Naruto promises Iruka that, like Gaara, he would also achieve his dream of becoming the Hokage.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 7
+| EpisodeNumber2  = 7
+| Title           = Run, Kankuro
+| TranslitTitle   = Hashire Kankurō
+| NativeTitle     = {{ruby-ja|疾走|はし}}れカンクロウ
+| NativeTitleLangCode = ja 
+| DirectedBy      = Hayato Goda
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|3|29}}
+| AltDate         = November 18, 2009<ref name="Disney_XD_schedule"/>
+| ShortSummary    = As Deidara returns with Gaara, Sasori plants traps in the aisle of the entry to the Hidden Sand for the village's ninjas that were chasing after them. Several ninjas die in their hurry to catch Deidara but Kankuro manages to save two of them from the traps and hastily traces the footsteps of Sasori. After Kankuro catches up to them, Sasori orders Deidara to leave with Gaara and while he stops to kill Kankuro. Alone in the desert, Kankuro uses the Puppet Technique on the Crow, Black Ant and Salamander to challenge Sasori the next day. The Hidden Sand delivers a message on the hawk Takamaru for the Hidden Leaf. Naruto takes up in his room and has a few memories. Shikamaru accompanies Temari, as she prepares to leave the Hidden Leaf and returning to the Hidden Sand.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 8
+| EpisodeNumber2  = 8
+| Title           = Team Kakashi, Deployed
+| TranslitTitle   = Shutsugeki, Kakashi-han
+| NativeTitle     = 出撃, カカシ班
+| NativeTitleLangCode = ja 
+| DirectedBy      = Hiroshi Kimura
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|4|12}}
+| AltDate         = December 2, 2009<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Kankuro fails to attack Sasori who uses his stinging tail to destroy Kankuro's puppets and injures Kankuro with the three day poison, before Sasori declares that he created Kankuro's puppets and leaves. Meanwhile, the Hidden Leaf receives the emergency letter from the Hidden Sand. An expert deciphers the letter and reports to Tsunade that Gaara, the Kazekage of the Hidden Sand has been attacked and kidnapped by the Akatsuki. Tsunade, immediately understanding the emergency, assigns Naruto, Sakura and Kakashi to rescue Gaara. Naruto is angered by the bad news and wanting an S-rank mission is prepared to do anything to rescue Gaara.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 9
+| EpisodeNumber2  = 9
+| Title           = The Jinchuriki's Tears
+| TranslitTitle   = Jinchūriki no Namida
+| NativeTitle     = 人柱力の涙
+| NativeTitleLangCode = ja 
+| DirectedBy      = Masaaki Kumagai
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|4|12}}
+| AltDate         = December 9, 2009<ref name="Disney_XD_schedule"/>
+| ShortSummary    = The Hidden Sand repairs the damages around the mountain area and removes the explosives set on the walls. Temari gets the bad news and worries about her younger brother and joins [[List of Naruto characters#Team 7|Team Kakashi]]. Naruto, Sakura, Kakashi and Temari move through the forest and recalls their past about Gaara and how he countered the tailed beast sealed within him, about the Chunin Exams and Sasuke. Naruto regrets that Sasuke's older brother [[Itachi Uchiha]] met Sasuke which led to a division in their previous Team 7. The Hidden Sand's medical ninjas fail to find a cure to Kankuro's poisoning. Baki witnesses Kankuro's suffering in the hospital, and informs [[List of Naruto characters#Chiyo|Chiyo]] and her brother, Ebizo, the two elder Councillors of the village about the Akatsuki. The Hidden Sand's villagers discuss their loss and what they should do and plan the next step.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 10
+| EpisodeNumber2  = 10
+| Title           = Sealing Technique: Phantom Dragons Nine Consuming Seals
+| TranslitTitle   = Fūin Jutsu: Genryū Kyū Fūjin
+| NativeTitle     = 封印術·幻龍九封尽
+| NativeTitleLangCode = ja 
+| DirectedBy      = Eitaro Ano
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|4|19}}
+| AltDate         = December 16, 2009<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Deidara and Sasori follow the tracks to their destination. Chiyo and Ebizo try to use all their knowledge and techniques but cannot understand how to heal Kankuro. Team Kakashi take a short rest for the night. Deidara and Sasori arrive at the hideout cave, where their [[List of Naruto characters#Pain|leader]] gathers with them and the rest of the Akatsuki. Using astral projection, they took three full days to extract and seal Shukaku from Gaara within the Gedo Statue. All the members of the Akatsuki concentrate on the Phantom Dragons Nine Consuming Seals Technique. Seeing that the need is dire and urgent Tsunade assigns Team Guy as backup support for Team Kakashi. The group arrive at the Hidden Sand after withstanding a strong sandstorm, where they meet with Chiyo who attacks Kakashi, mistaking him for his father, Sakumo Hatake.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 11
+| EpisodeNumber2  = 11
+| Title           = The Medical Ninja's Student
+| TranslitTitle   = Iryō Ninja no Deshi
+| NativeTitle     = 医療忍者の弟子
+| NativeTitleLangCode = ja 
+| DirectedBy      = Atsushi Nigorikawa
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|4|26}}
+| AltDate         = December 23, 2009<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Kakashi reasons with Chiyo and Sakura removes the poison from Kankuro to create an antidote taught by Tsunade. Kankuro gives Sasori's torn mask cloth to Pakkun, the Ninja Dog Kakashi summoned, who senses it. Kankuro asks Naruto to save Gaara.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 12
+| EpisodeNumber2  = 12
+| Title           = The Retired Granny's Determination
+| TranslitTitle   = Inkyo Babā no Ketsui
+| NativeTitle     = 隠居ババアの決意
+| NativeTitleLangCode = ja 
+| DirectedBy      = Kiyomu Fukuda
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|5|3}}
+| AltDate         = December 31, 2009<ref name="Disney_XD_schedule"/>
+| ShortSummary    = The process of the extraction of Shukaku from Gaara has begun at the Gedo Statue. The next day Naruto wakes up and notices Pakkun. Kakashi, Naruto, Sakura and Chiyo leave the Hidden Sand to get Gaara back from the Akatsuki. Pakkun joins with them and informs Team Guy about the cave in the Land of Rivers, while Chiyo tells them about the tailed beasts, two of which are sealed inside Gaara and Naruto and there are seven others in the world. She also gives a brief account of their history. Temari is given another mission with a squad, to protect the boundary of the villages, should the weakness of the Hidden Sand be revealed. Team Guy also progresses through the forest to reach the Akastuki's hideout. [[List of Naruto characters#Zetsu|Zetsu]] notices the arrival of both teams and informs his leader to send Itachi and Kisame to attack them and to give them some more time to complete the extraction and sealing of Shukaku from Gaara's body. Kisame confronts Team Guy and traps Lee, Neji and Tenten with the Water Prison Technique while Itachi takes on Team Kakashi, bringing back some memories.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 13
+| EpisodeNumber2  = 13
+| Title           = A Meeting With Destiny
+| TranslitTitle   = Innen Aimamieru
+| NativeTitle     = 因縁あいまみえる
+| NativeTitleLangCode = ja 
+| DirectedBy      = Neko Okuma
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|5|10}}
+| AltDate         = December 31, 2009<ref name="Disney_XD_schedule"/>
+| ShortSummary    = The Akatsuki continues the extraction process. Team Guy fights with Kisame as he builds up a huge flow of water and attacks constantly using his legendary sword, Samehada. He constantly pursues and asks Might Guy whether he recognizes him and have they met somewhere before. Sensing the opponent is a better one, Guy switches to maximum power as Kisame traps his students in Water Prison Technique. Team Kakashi confronts Itachi. Despite Kakashi's warning, Itachi uses his [[Jutsu (Naruto)#Sharingan|Mangekyo Sharingan]] on Naruto into confronting illusions. Naruto doesn't understand what it is and wastes his chakra by attacking crow clones of Itachi. He reveals his new move, Giant Rasengan, which has a bigger attack and damage cover. Itachi states that Naruto has improved but still won't be able to defeat him.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 14
+| EpisodeNumber2  = 14
+| Title           = Naruto's Growth
+| TranslitTitle   = Naruto no Seichō
+| NativeTitle     = ナルトの成長
+| NativeTitleLangCode = ja 
+| DirectedBy      = Mitsutaka Noshitani
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|5|17}}
+| AltDate         = December 31, 2009<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Naruto remembers his Genjutsu breaking training sessions with Jiraiya and uses them to escape Itachi's Illusionary Technique. Guy fails to steal Samehada and hurts his own hands instead. Kisame is angered and tosses Guy deep down into the sea and send five huge chakra sharks which relentlessly attack Guy who is hurt. Guy, out of patience, opens the sixth [[Jutsu (Naruto)#Eight Gates|Inner Gate]] and uses the Morning Peacock Technique to end the fight with Kisame, while Lee, Neji and Tenten breaks free from the Water Prison Technique.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 15
+| EpisodeNumber2  = 15
+| Title           = The Secret Weapon is Called....
+| TranslitTitle   = Kakushidama Nazukete
+| NativeTitle     = 隠し玉 名付けて...!
+| NativeTitleLangCode = ja 
+| DirectedBy      = Hayato Date
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|5|24}}
+| AltDate         = December 31, 2009<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Itachi uses shuriken inside the crows to immobilize Naruto, but Chiyo and Sakura free Naruto from Itachi's Illusionary Technique. Naruto and Kakashi together defeats Itachi who turns out to be Yura (a jonin-level ninja from the Hidden Sand) Chiyo wonders what kind of dark and powerful jutsu is this which allows all the abilities and powers to be transferred to an entirely different person. Furious, Guy opens his sixth Inner Gate and gaining much power ruthlessly attacks and kills Kisame who is later identified as Mukade (yet another jonin-level ninja from the Hidden Sand), stating the same case as Team Kakashi. They learn that Itachi and Kisame used the two ninjas to create clones to distract them.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 16
+| EpisodeNumber2  = 16
+| Title           = The Secret of Jinchuriki
+| TranslitTitle   = Jinchūriki no Himitsu
+| NativeTitle     = 人柱力の秘密
+| NativeTitleLangCode = ja 
+| DirectedBy      = Hiroshi Kimura
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|5|31}}
+| AltDate         = January 6, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Kisame and Itachi report to the Akatsuki that now that the Hidden Leaf's ninjas have been warded off and that they have enough time to focus and complete the extraction and sealing of Shukaku. Chiyo explains that the Jinchuriki (such as Gaara and Naruto) always carry the Tailed Beasts within them and when the beast is extracted from the host, the host dies. The enraged Naruto vows that he will save Gaara at all cost and hurries. Meanwhile, in the Hidden Sand, the advisory council argues about Yura and his loyalty and also about the change in Kazekage position, due to which Kankuro becomes furious and attacks one of the elders. The elders state that if Gaara does not return soon then decisions must be taken. Team Kakashi rests for some moments much to Naruto's unwillingness.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 17
+| EpisodeNumber2  = 17
+| Title           = The Death of Gaara!
+| TranslitTitle   = Gaara Shisu!
+| NativeTitle     = 我愛羅死す!
+| NativeTitleLangCode = ja 
+| DirectedBy      = Masaaki Kumagai
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|6|7}}
+| AltDate         = January 13, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = After reminiscing Sasori and his parents, Chiyo tells the group that she was responsible for sealing the One-Tailed Raccon inside of Gaara before arriving to the cave entrance. Team Kakashi and Team Guy arrive at the Akatsuki's hideout and greet each other discussing the direness of the situation. The Akatsuki finishes the sealing of Shukaku into the Gedo Statue which apparently kills Gaara. Kankuro watches as the photo of Gaara shatters.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 18
+| EpisodeNumber2  = 18
+| Title           = Charge Tactic! Button Hook Entry!!
+| TranslitTitle   = Totsunyū! Botan Fukku Entorī
+| NativeTitle     = 突入!ボタンフックエントリー
+| NativeTitleLangCode = ja 
+| DirectedBy      = Eitaro Ano
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|6|21}}
+| AltDate         = January 20, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Neji uses his Byakugan and observes what's happening inside the caves and sees the Gedo statue and the nine Akatsuki members assembled. Also he observes Gaara's body and tells both the teams what's happening inside. Guy tries to break the big rock covering the cave but is obstructed by a strong Five-Seal Barrier. Kakashi tells them that there are tags attached at five different locations around the area that should be torn off simultaneously to break the barrier. Neji observes the surroundings and pinpoints the locations of the tags. The Akatsuki sends Deidara and Sasori to hold Gaara and attack the group. Team Kakashi and Team Guy sense that the five forbidden tags control the barrier on the cave. Using a wireless radio frequency, both the teams removes the tags simultaneously to disable the barrier, and Sakura destroys the rock before confronting Deidara and Sasori.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 19
+| EpisodeNumber2  = 19
+| Title           = Traps Activate! Team Guy's Enemy
+| TranslitTitle   = Torappu Sadō! Gai-han no Teki
+| NativeTitle     = {{ruby-ja|罠|トラップ}}作動!ガイ班の敵
+| NativeTitleLangCode = ja 
+| DirectedBy      = Atsushi Nigorikawa
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|7|5}}
+| AltDate         = January 27, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = As the barrier tags are removed, the clones of Tenten, Guy, Neji and Lee arises from the ground and attacks them. Team Guy confronts to fight their clones not getting ahead at all. Deidara and Sasori have a strong argument about what is "Art". Deidara angers Naruto by playing with his emotions and challenges him to take back Gaara from him. Naruto angrily demands Deidara to give Gaara back while giving chase with Kakashi. Naruto attacks Deidara who easily dodges it and flings Naruto into a rock. Kakashi, knowing how dangerous his opponent is, relies on his Sharingan. Sakura learns that Sasori is Chiyo's grandson, Chiyo informs Sakura that she may look old but she has a few tricks up her sleeve.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 20
+| EpisodeNumber2  = 20
+| Title           = Hiruko vs. Two Kunoichi!
+| TranslitTitle   = Hiruko vs. Futari no Kunoichi
+| NativeTitle     = ヒルコVS二人の{{ruby-ja|女忍者|くノいち}}
+| NativeTitleLangCode = ja 
+| DirectedBy      = Kiyomu Fukuda
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|7|19}}
+| AltDate         = February 3, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Chiyo tells Sakura that Sasori is the best human puppeteer who betrayed and left the Hidden Sand. Sensing the real Sasori inside his scorpion puppet Hiruko, Chiyo and Sakura have to dodge his stinging attacks in order to demolish Hiruko and force Sasori to emerge. Chiyo and Sakura expertly dodge Sasori's poison needles. As Chiyo paralyzes Hiruko's scorpion tail, Sakura unleashes her brute strength and breaks the puppet releasing the real Sasori. Deidara sees Naruto's Nine-Tails chakra activating.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 21
+| EpisodeNumber2  = 21
+| Title           = Sasori's Real Face
+| TranslitTitle   = Sasori no Sugao
+| NativeTitle     = サソリの素顔
+| NativeTitleLangCode = ja 
+| DirectedBy      = Neko Okuma
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|7|26}}
+| AltDate         = February 10, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Sasori tells Chiyo and Sakura that he left the Hidden Sand over twenty years ago and now has upgraded himself beyond their wildest imagination. After a short battle, Sasori promises Chiyo that he will not spare her now that she's angered him. Meanwhile, while arriving to the Land of Rivers, Ebizo tells the Hidden Sand's villagers about the Third Kazekage. Sasori summons the Third Kazekage, whom he killed and turned him into a human puppet many years ago, and injures Sakura with a hundred hands that he dispatches from the puppet. Chiyo saves herself and Sakura (using the chakra threads to pull her away) from the pins and needles that Sasori continually shoots at them. Later, the angered Sasori tries to finish off Sakura by releasing a very toxic gas which surrounds her. Outside, Naruto continues to chase Deidara.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 22
+| EpisodeNumber2  = 22
+| Title           = Chiyo's Secret Skills
+| TranslitTitle   = Chiyo no Oku no Te
+| NativeTitle     = チヨの奥の手
+| NativeTitleLangCode = ja 
+| DirectedBy      = Mitsutaka Noshitani
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|8|2}}
+| AltDate         = February 17, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Sasori uses strong chakra threads to trap Sakura in the toxic gas but she uses an explosive tag to escape. Chiyo summons the puppet versions of Sasori's late parents that he himself modeled after the real ones when he was a child. Chiyo holds down the Kazekage using "The Mother" with a sword and "The Father" with a shuriken staff but Sasori releases the Kazekage's [[Jutsu (Naruto)#Kekkei genkai|secret technique]]: Iron Sand. Later, Team Guy exhaust themselves fighting their own clones, while Naruto and Kakashi avoid Deidara's clay bombs. Deidara tries to cut off Kakashi to fight alone with Naruto but is unsuccessful and loses his explosive clay.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 23
+| EpisodeNumber2  = 23
+| Title           = Father and Mother
+| TranslitTitle   = "Chichi" to "Haha"
+| NativeTitle     = 「父」と「母」
+| NativeTitleLangCode = ja 
+| DirectedBy      = Masaki Takano
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|8|2}}
+| AltDate         = February 24, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Using Sasori's parents to protect Sakura from the Third Kazekage's Iron Sand (Chiyo makes a chakra shield and says that she also has made a few upgrades on the puppets) as Chiyo reprimands Sasori for creating the puppet versions of his parents to fake love and uses chakra threads on Sakura into dodging and bringing the sand near Sasori. She tells Sakura that the Third Kazekage's body is real unlike her puppets and that Sasori has the upper hand.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 24
+| EpisodeNumber2  = 24
+| Title           = The Third Kazekage
+| TranslitTitle   = Sandaime Kazekage
+| NativeTitle     = 三代目風影
+| NativeTitleLangCode = ja 
+| DirectedBy      = Hiroshi Kimura
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|8|9}}
+| AltDate         = February 24, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Sakura thinks that she must be of at least some use and offers her body as a puppet to be controlled by Chiyo. Enraged, Sasori sends his Iron Pyramid to crush Sakura but she remembers her strong training with Tsunade and with brute strength fends off Sasori's Iron Sand pyramid and prism that destroys the top of the cave. Sasori accepts that this is definitely more than what he thought of the girl. Outside, Team Guy fights their clones and complains that they aren't getting anywhere. Neji looks in the cave and reports. Sasori creates a large make shifting poisonous iron spikes and paralyzes Sakura, who suddenly gets up and punches the Kazekage puppet and smashes it into pieces. Deidara realizes that he is running low on explosives and needs to separate Kakashi and Naruto.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 25
+| EpisodeNumber2  = 25
+| Title           = Three Minutes Between Life and Death
+| TranslitTitle   = Sei to Shi no Sanpunkan
+| NativeTitle     = 生と死の三分間
+| NativeTitleLangCode = ja 
+| DirectedBy      = Masaaki Kumagai
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|8|16}}
+| AltDate         = March 3, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = As Sakura tells Sasori that she created and brought the plant antidote which can convert Sasori's poison into a harmless protein, and that they have three minutes until this antidote's effects wears out. Sasori reveals his own body as a puppet and observes that Sakura also has a good skill as a medical-nin. Sakura goes in for the attack realizing that she has only three minutes of immunity against his poison. Deidara plants small jumping spider explosives between Naruto and Kakashi. Kakashi creates a fake shadow clone and speedily runs away escaping these explosives and reunites with Naruto telling him to calm down and that he has already made a plan. Kakashi reveals that Deidara can only be confronted by a long range attacks. Sasori tells Sakura and Chiyo that he had transformed himself into a human puppet. Deidara and Kakashi prepare to battle.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 26
+| EpisodeNumber2  = 26
+| Title           = Puppet Fight: 10 vs. 100!
+| TranslitTitle   = Jukki vs Hyakki
+| NativeTitle     = 十機vs百機
+| NativeTitleLangCode = ja 
+| DirectedBy      = Atsushi Nigorikawa
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|8|23}}
+| AltDate         = March 10, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Sasori keeps on attacking Sakura using fire moves, later Sakura pulls his wire and smashes him to pieces. Sasori reforms his body and unleashes a hundred elite puppets. Chiyo counterattacks using ten best puppets from her collection, the Chikamatsu. The great battle of puppets begins and they soon nullify each other. Sakura takes a dog-puppet and smashes it into Sasori, paralyzing his body, but he transfers his heart into another puppet's body and drives a poisonous blade through Sakura's side which was meant for Chiyo.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 27
+| EpisodeNumber2  = 27
+| Title           = Impossible Dream
+| TranslitTitle   = Kanawanu Yume
+| NativeTitle     = 叶わぬ夢
+| NativeTitleLangCode = ja 
+| DirectedBy      = Eitaro Ano
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|8|30}}
+| AltDate         = March 17, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Chiyo injects the antidote into the injured Sakura and Sasori's parental puppets stabs him through his heart, apparently killing him. Chiyo informs Sasori that she has her own soul transfer technique (One's Own Life Reincarnation Technique) that can be used to revive a dead person in exchange for the technique user's own life. Before he dies, Sasori praises Sakura and tells her, as a reward, that he has a spy ([[List of Naruto characters#Kabuto Yakushi|Kabuto Yakushi]]) within [[Orochimaru (Naruto)|Orochimaru]]'s ranks, whom he was supposed to meet at the Tenchi Bridge of the Hidden Grass Village ten days later. Kakashi activates his Mangekyo Sharingan and along with Naruto sets the plan against Deidara. Sasori dies while saying that he wouldn't have hesitated killing his own grandmother as he has already killed hundreds and thousands of people.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 28
+| EpisodeNumber2  = 28
+| Title           = Beasts: Alive Again!
+| TranslitTitle   = Yomigaeru Kemono-tachi
+| NativeTitle     = 蘇る獣たち
+| NativeTitleLangCode = ja 
+| DirectedBy      = Kiyomu Fukuda
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|9|13}}
+| AltDate         = March 24, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Might Guy, Neji, Lee and Tenten continue to fight their clones. Neji uses his Byakugan and informs Team Guy that Sasori has been killed and Sakura and Chiyo are alive. Team Guy faces difficulty in defeating their opponents. Guy tells them that they have grown weaker in the battle because they are made of flesh and get exhausted after using chakra but the clones can fight as long as possible. Lee tells everybody that the key to defeat the clones is to be more powerful than they were when they released the scroll. Memorizing the training with Guy, the team innovates new moves which are unknown to their clones and successfully takes their clones out. Elsewhere, Naruto tells Kakashi that if their plans go wrong he will not give up and find another way to defeat Deidara. Sakura, realizing that Chiyo has been poisoned tells her to go back to the Hidden Sand for treatment but Chiyo refuses, instead replying that she has yet to complete the most important task.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 29
+| EpisodeNumber2  = 29
+| Title           = Kakashi Enlightened!
+| TranslitTitle   = Kakashi Kaigan!
+| NativeTitle     = カカシ開眼!
+| NativeTitleLangCode = ja 
+| DirectedBy      = Yuki Kinoshita
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|9|27}}
+| AltDate         = March 31, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Kakashi destroys Deidara's arm with Mangekyo Sharingan: Kamui. After Naruto beheads the clay bird with his Rasengan, he sees the dead and lifeless body of Gaara. This causes Naruto to angrily attack Deidara and accidentally uses his Nine-Tails chakra, causing him to transform into the Two-Tailed Fox form.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 30
+| EpisodeNumber2  = 30
+| Title           = Aesthetics of an Instant
+| TranslitTitle   = Shunkan no Bigaku
+| NativeTitle     = 瞬間の美学
+| NativeTitleLangCode = ja 
+| DirectedBy      = Shigeharu Takahashi
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|9|27}}
+| AltDate         = April 7, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Kakashi suppresses the Nine-Tails chakra inside Naruto with the tag that Jiraiya gave him. Team Guy attacks Deidara who apparently self-detonates by ingesting his own clay. Kakashi counters with Kamui and teleports himself and the others to safety. Naruto and friends seemingly mourns for Gaara. However, Chiyo uses her One's Own Life Reincarnation Technique on Gaara, preparing to sacrifice her own life.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 31
+| EpisodeNumber2  = 31
+| Title           = The Legacy
+| TranslitTitle   = Tsugareyukumono
+| NativeTitle     = 継がれゆくもの
+| NativeTitleLangCode = ja 
+| DirectedBy      = Shinji Satou
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|10|18}}
+| AltDate         = April 14, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = Just before Chiyo dies, she tells Naruto that the Hidden Leaf's and the Hidden Sand's villagers learns from the past and the wisdom of future. A revived Gaara awakens and sees all of the surrounding ninjas rejoicing his revival. Kankuro tells Naruto that Chiyo sacrifice saving Gaara and the Hidden Sand villagers prays for Chiyo.
+| LineColor= #FFFFE6
+}}
+{{#invoke:Episode list|sublist
+| 1               = Naruto: Shippuden season 1
+| EpisodeNumber   = 32
+| EpisodeNumber2  = 32
+| Title           = Return of the Kazekage
+| TranslitTitle   = Kazekage no Kikan
+| NativeTitle     = 風影の帰還
+| NativeTitleLangCode = ja 
+| DirectedBy      = Hiroshi Kimura
+| WrittenBy       = Satoru Nishizono
+| OriginalAirDate = {{Start date|2007|10|25}}
+| AltDate         = April 21, 2010<ref name="Disney_XD_schedule"/>
+| ShortSummary    = The real Deidara survives to recover his arm and meets with Zetsu and the masked man [[List of Naruto characters#Obito Uchiha|Tobi]] who keeps Sasori's ring and joins the Akatsuki. Meanwhile, as the Hidden Sand's villagers pay their final respects to Chiyo, Team Kakashi and Team Guy return home to the Hidden Leaf, where an [[List of Naruto characters#Danzo Shimura|elderly ninja]] asks [[List of Naruto characters#Sai|Sai]] to join up with Team Kakashi.
+| LineColor= #FFFFE6
+}}
+{{End|html=y|Episode table}}</onlyinclude>
+
+==Home media release==
+===Japanese===
+{|class="wikitable" style="text-align:center;"
+|-
+! scope="col" style="width:5em;"  | Volume
+! scope="col" style="width:12em;" | Date
+! scope="col" style="width:4em;"  | Discs
+! scope="col" style="width:10em;" | Episodes
+! scope="col" style="width:3em;"  | Ref.
+|-
+! scope="row" | 1
+| August 1, 2007 || rowspan="8" | 1 || 1–4 || <ref name="naruto01">{{cite web|url=http://www.aniplex.co.jp/naruto/tv/01.html|archive-url=https://web.archive.org/web/20160808214230/http://www.aniplex.co.jp/naruto/tv/01.html|archive-date=August 8, 2016|title=風影奪還の章 - TV DVD - NARUTO-ナルト- 疾風伝 - アニプレックス|publisher=[[Aniplex]]|language=ja}}</ref>
+|-
+! scope="row" | 2
+| September 5, 2007 || 5–8 || <ref name="naruto01"/>
+|-
+! scope="row" | 3
+| October 3, 2007 || 9–12 || <ref name="naruto01"/>
+|-
+! scope="row" | 4
+| November 7, 2007 || 13–16 || <ref name="naruto01"/>
+|-
+! scope="row" | 5
+| December 5, 2007 || 17–20 || <ref name="naruto01"/>
+|-
+! scope="row" | 6
+| January 1, 2008 || 21–24 || <ref name="naruto01"/>
+|-
+! scope="row" | 7
+| February 6, 2008 || 25–28 || <ref name="naruto01"/>
+|-
+! scope="row" | 8
+| March 5, 2008 || 29–32 || <ref name="naruto01"/>
+|}
+
+===English===
+{|class="wikitable" style="text-align:center;"
+|+ Viz Media (North America, Region 1 DVD singles)
+|-
+! scope="col" style="width:5em;"  | Volume
+! scope="col" style="width:12em;" | Date
+! scope="col" style="width:4em;"  | Discs
+! scope="col" style="width:10em;" | Episodes
+! scope="col" style="width:3em;"  | Ref.
+|-
+! scope="row" | 1
+| September 29, 2009 || rowspan="8" | 1 || 1–4 || <ref name="Region1 dvds announced">{{cite web |url=https://www.amazon.com/dp/B001RIZ8WE |archive-url=https://web.archive.org/web/20160307185526/http://www.amazon.com/dp/B001RIZ8WE |archive-date=March 7, 2016 |title=Naruto Shippuden, Vol. 1|publisher=[[Amazon.com]] }}</ref>
+|-
+!scope="row" | 2
+| October 27, 2009 || 5–8 || <ref name="WbShop">{{cite web|url=http://www.wbshop.com/Naruto-Shippuden-Vol.-2/1000104163,default,pd.html?cgid=PRE|archive-url=https://web.archive.org/web/20170227021012/https://www.amazon.com/dp/B002G1WPMM|archive-date=February 27, 2017|title=Naruto Shippuden, Vol. 2|publisher=[[Viz Media]]}}</ref>
+|-
+! scope="row" | 3
+| November 24, 2009 || 9–13 || <ref name="rightstuf">{{cite web|url=http://www.rightstuf.com/1-800-338-6827/catalogmgr/1iHq1mtRMMgx5RzHDN/browse/item/84378/4/0/0|archive-url=https://web.archive.org/web/20090726021446/http://www.rightstuf.com/1-800-338-6827/catalogmgr/1iHq1mtRMMgx5RzHDN/browse/item/84378/4/0/0|archive-date=July 26, 2009|title=Naruto: Shippuden DVD 3 (Hyb) Uncut|publisher=rightstuf.com}}</ref>
+|-
+! scope="row" | 4
+| December 8, 2009 || 14–17 || <ref name="Naruto Shippuden Vol. 4">{{cite web |url=https://www.amazon.com/dp/B002N1AEXM |title=Naruto Shippuden, Vol. 4 (DVD) |publisher=[[Amazon.com]] |archive-url=https://web.archive.org/web/20140905064041/http://www.amazon.com/dp/B002N1AEXM |archive-date=September 5, 2014 }}</ref>
+|-
+! scope="row" | 5
+| January 12, 2010 || 18–21 || <ref name="Naruto Shippuden Vol .5">{{cite web|url=https://www.amazon.com/dp/B002S3Y1K2|archive-url=https://web.archive.org/web/20170227023639/https://www.amazon.com/dp/B002S3Y1K2|archive-date=February 27, 2017|title=Naruto Shippuden, Vol. 5 (DVD)|publisher=[[Amazon.com]]}}</ref>
+|-
+! scope="row" | 6
+| February 9, 2010 || 22–26 || <ref name="Naruto Shippuden Vol. 6">{{cite web|url=https://www.amazon.com/dp/B002UTNJIE|archive-url=https://web.archive.org/web/20141112063510/http://www.amazon.com/dp/B002UTNJIE|archive-date=November 12, 2014|title=Naruto Shippuden, Vol. 6 (DVD)|publisher=[[Amazon.com]]}}</ref>
+|-
+! scope="row" | 7
+| March 9, 2010 || 27–30 || <ref name="Naruto Shippuden Vol. 7">{{cite web|url=https://www.amazon.com/dp/B002ZXZIX4|archive-url=https://web.archive.org/web/20160825215351/https://www.amazon.com/dp/B002ZXZIX4|archive-date=August 25, 2016|title=Naruto Shippuden, Vol. 7 (DVD)|publisher=[[Amazon.com]]}}</ref>
+|-
+! scope="row" | 8
+| April 6, 2010 || 31–34 || <ref name="Naruto Shippuden Vol. 8">{{cite web|url=https://www.amazon.com/dp/B002ZXZIX4|archive-url=https://web.archive.org/web/20160825215351/https://www.amazon.com/dp/B002ZXZIX4|archive-date=August 25, 2016|title=Naruto Shippuden, Vol. 8 (DVD)|publisher=[[Amazon.com]]}}</ref>
+|}
+
+{|class="wikitable" style="text-align:center;"
+|+ Viz Media (North America, Region 1 DVD box sets)
+|-
+! scope="col" style="width:5em;"  | Volume
+! scope="col" style="width:12em;" | Date
+! scope="col" style="width:4em;"  | Discs
+! scope="col" style="width:10em;" | Episodes
+! scope="col" style="width:3em;"  | Ref.
+|-
+! scope="row" | 1
+| January 26, 2010 || rowspan="3" | 3 || 1–13 || <ref name="Naruto Shippuden, Box Set 1 (DVD)">{{cite web|url=https://www.viz.com/watch/tv-series/naruto-shippuden-uncut-video-box-sets-volume-1/8387|archive-url=https://web.archive.org/web/20170227042853/https://www.viz.com/watch/tv-series/naruto-shippuden-uncut-video-box-sets-volume-1/8387|archive-date=February 27, 2017|title=Naruto Shippuden, Box Set 1 (DVD)|publisher=[[Viz Media]]}}</ref>
+|-
+! scope="row" | 2
+| April 20, 2010 || 14–26 || <ref name="Naruto Shippuden Box Set 2">{{cite web|url=https://www.viz.com/watch/tv-series/naruto-shippuden-uncut-video-box-sets-volume-2/8392|archive-url=https://web.archive.org/web/20170227043009/https://www.viz.com/watch/tv-series/naruto-shippuden-uncut-video-box-sets-volume-2/8392|archive-date=February 27, 2017|title=Naruto Shippuden, Box Set 2 (DVD)|publisher=[[Viz Media]]}}</ref>
+|-
+! scope="row" | 3
+| August 3, 2010 || 27–39 || <ref name="Naruto Shippuden Box Set 3">{{cite web|url=http://www.viz.com/products/products.php?product_id=8399|archive-url=https://web.archive.org/web/20160413190414/http://www.viz.com/watch/dvd-box-set/naruto-shippuden-uncut-video-box-sets-volume-3/8399|archive-date=April 13, 2016|title=Naruto Shippuden Uncut, Vol. 3 (DVD Box Set)|publisher=[[Viz Media]]}}</ref>
+|}
+
+{|class="wikitable" style="text-align:center;"
+|+ Viz Media (North America, Region 1 Blu-ray sets)
+|-
+! scope="col" style="width:5em;"  | Volume
+! scope="col" style="width:12em;" | Date
+! scope="col" style="width:4em;"  | Discs
+! scope="col" style="width:10em;" | Episodes
+! scope="col" style="width:3em;"  | Ref.
+|-
+! scope="row" | 1
+| October 17, 2023 || rowspan="3" | 4 || 1–27 || <ref name="Naruto Shippuden Box Set 1">{{cite web|url=https://www.viz.com/watch/tv-series/naruto-uncut-video-box-sets/product/7656/blu-ray|title=Naruto Shippuden, Set 1|publisher=[[Viz Media]]|access-date=September 15, 2023}}</ref>
+|-
+! scope="row"  | 2
+| January 30, 2024 || 28–55 || <ref>{{cite web|title=Naruto Shippuden, Set 2|url=https://x.com/VIZMedia/status/1721981156520772041|publisher=[[Viz Media]]|access-date=November 7, 2023}}</ref>
+|}
+
+{|class="wikitable" style="text-align:center;"
+|+ Manga Entertainment (United Kingdom, Region 2 single volumes)
+|-
+! scope="col" style="width:5em;"  | Volume
+! scope="col" style="width:12em;" | Date
+! scope="col" style="width:4em;"  | Discs
+! scope="col" style="width:10em;" | Episodes
+! scope="col" style="width:3em;"  | Ref.
+|-
+! scope="row" | 1
+| June 14, 2010 || rowspan="3" | 2 || 1–13 || <ref>{{cite web|url=http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-1/xv-movies-games-entertainment/pd/84645|archive-url=https://web.archive.org/web/20170301023359/http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-1/xv-movies-games-entertainment/pd/84645|archive-date=March 1, 2017|title=Naruto - Shippuden: Collection - Volume 1 - DVD|publisher=[[Xtra-vision]]}}</ref>
+|-
+! scope="row" | 2
+| August 9, 2010 || 14–26 || <ref>{{cite web|url=http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-2/xv-movies-games-entertainment/pd/84646?path=dvd|archive-url=https://web.archive.org/web/20170301023351/http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-2/xv-movies-games-entertainment/pd/84646?path=dvd|archive-date=March 1, 2017|title=Naruto - Shippuden: Collection - Volume 2 - DVD|publisher=[[Xtra-vision]]}}</ref>
+|-
+! scope="row" | 3
+| October 10, 2010 || 27–39 || <ref>{{cite web|url=http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-3/xv-movies-games-entertainment/pd/84647?path=dvd|archive-url=https://web.archive.org/web/20170301023346/http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-3/xv-movies-games-entertainment/pd/84647?path=dvd|archive-date=March 1, 2017|title=Naruto - Shippuden: Collection - Volume 3 - DVD|publisher=[[Xtra-vision]]}}</ref>
+|}
+
+{|class="wikitable" style="text-align:center;"
+|+ Manga Entertainment (United Kingdom, Region 2 box sets)
+|-
+! scope="col" style="width:5em;"  | Volume
+! scope="col" style="width:12em;" | Date
+! scope="col" style="width:4em;"  | Discs
+! scope="col" style="width:10em;" | Episodes
+! scope="col" style="width:3em;"  | Ref.
+|-
+! scope="row" | 1
+| March 7, 2011 || 8 || 1–52 || <ref>{{cite web|title=Naruto Shippuden - Series 1 [DVD] [2007]|url=https://www.amazon.co.uk/dp/B004HARL6K|publisher=[[Amazon.com]]}}</ref>
+|}
+
+{|class="wikitable" style="text-align:center;"
+|+ Madman Entertainment (Australia/New Zealand, Region 4)
+|-
+! scope="col" style="width:5em;"  | Collection
+! scope="col" style="width:12em;" | Date
+! scope="col" style="width:4em;"  | Discs
+! scope="col" style="width:10em;" | Episodes
+! scope="col" style="width:3em;"  | Ref.
+|-
+! scope="row" | 1
+| March 17, 2010 || rowspan="3" | 2 || 1–13 || <ref name="Naruto Shippuden Collection (Eps 1-13)">{{cite web|url=http://www.madman.com.au/actions/catalogue.do?releaseId=13096&method=view|archive-url=https://web.archive.org/web/20160119055439/http://www.madman.com.au/actions/catalogue.do?releaseId=13096&method=view|archive-date=January 19, 2016|title=Naruto Shippuden Collection (Eps 1-13)|publisher=[[Madman Entertainment]]}}</ref>
+|-
+! scope="row" | 2
+| June 16, 2010 || 14–26 || <ref name="Naruto Shippuden Collection (Eps 14-26)">{{cite web|url=http://www.madman.com.au/actions/catalogue.do?method=view&releaseId=13097|archive-url=https://web.archive.org/web/20160119055439/http://www.madman.com.au/actions/catalogue.do?method=view&releaseId=13097|archive-date=January 19, 2016|title=Naruto Shippuden Collection (Eps 14-26)|publisher=[[Madman Entertainment]]}}</ref>
+|-
+! scope="row" | 3
+| September 1, 2010 || 27–39 || <ref name="Naruto Shippuden Collection (Eps 27-39)">{{cite web|url=http://www.madman.com.au/catalogue/view/13098/naruto-shippuden-collection-03-eps-2739|archive-url=https://web.archive.org/web/20160119055439/http://www.madman.com.au/catalogue/view/13098/naruto-shippuden-collection-03-eps-2739|archive-date=January 19, 2016|title=Naruto Shippuden Collection (Eps 27-39)|publisher=[[Madman Entertainment]]}}</ref>
+|}
+
+==Notes==
+{{Notelist}}
+
+==References==
+{{Portal|Anime and manga}}
+;General
+*{{cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes2007.html|title=Naruto: Shippuden episodes from 2007|language=ja|publisher=[[TV Tokyo]]|access-date=2009-06-22|archive-url=https://web.archive.org/web/20090623022747/http://www.tv-tokyo.co.jp/anime/naruto/episodes2007.html|archive-date=2009-06-23|url-status=dead}}
+* {{cite web|url=http://naruto.viz.com/|title=List of ''Naruto: Shippuden'' episode titles|access-date=2009-01-09|archive-url=https://web.archive.org/web/20091219143555/http://naruto.viz.com/|archive-date=2009-12-19|url-status=dead}}
+
+;Specific
+<references />
+
+{{Naruto episodes}}
+
+{{DEFAULTSORT:Naruto: Shippuden episodes season 1, List of}}
+[[Category:2007 Japanese television seasons]]
+[[Category:2009 American animated television seasons]]
+[[Category:2010 American animated television seasons]]
+[[Category:Naruto seasons|Shippuden Season 1]]

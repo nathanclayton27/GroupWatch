@@ -1,0 +1,452 @@
+
+{{Infobox television season
+| bgcolour     = #1DD9FC
+| image        = Naruto Shippuden season 19.png
+| caption      = DVD cover for the ''Shippuden'' story arc titled ''In Naruto's Footsteps: Friends' Paths''
+| num_episodes = 20
+| network      = [[TV Tokyo]]
+| first_aired  = {{Start date|2015|1|8}}
+| last_aired   = {{End date|2015|5|21}}
+}}
+
+The nineteenth season of the [[anime]] television series ''[[Naruto: Shippuden]]'' is based on [[List of Naruto chapters (Part II)|Part II]] of [[Masashi Kishimoto]]'s ''[[Naruto]]'' [[manga]] series. The anime original season focuses on the Chūnin Exams that occur after [[List of Naruto chapters (Part I)|Part I]]. The episodes are directed by [[Hayato Date]], and produced by [[Pierrot (company)|Pierrot]] and [[TV Tokyo]].<ref>{{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/staff/index.html|script-title=ja:スタッフ・キャスト|trans-title=Staff.Cast |publisher=TV Tokyo|language=ja|access-date=October 28, 2011}}</ref> The nineteenth season aired from January to May 2015.<ref>{{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes33/index.html|title=Episodes 614-625|publisher=TV Tokyo|language=ja|access-date=July 3, 2015}}</ref>
+
+The season would make its English television debut on [[Adult Swim]]'s [[Toonami]] programming block and aired from June 12 to October 9, 2022.
+
+The season's collection in DVD started on September 2, 2015 under the title of {{Nihongo|'''In Naruto's Footsteps: Friends' Paths'''|ナルトの背中 ～仲間の軌跡～|Naruto no Senaka: Nakama no Kiseki}}.
+
+The season contains four musical themes between two openings and two endings. The opening theme songs are "[[Silhouette (Kana-Boon song)|Silhouette]]" performed by [[Kana-Boon]] (used for episodes 394 to 405) and {{Nihongo|"Kaze"|風||"Wind"}} performed by Yamazaru (used for episodes 406 to 413). The ending theme songs are "Spinning World" performed by [[Diana Garnet]] (used for episodes 394 to 405) and {{Nihongo|"Kotoba no Iranai Yakusoku"|言葉のいらない約束||"A Promise That Needs No Words"}} performed by [[Sana (singer)|Sana]] (used for episodes 406 to 413).
+__TOC__
+{{Clear}}
+
+== Episodes ==
+{{See also|List of Naruto: Shippuden episodes{{!}}List of ''Naruto: Shippuden'' episodes}}
+<onlyinclude>
+{{#invoke:Episode table|main
+| background = #1DD9FC
+| overall    = 5
+| season     = 5
+| title      = 28
+| director   = 15
+| writer     = 10
+| aux2       = 15
+| aux2T      = Animation directed by
+| airdate    = 11
+| altdate    = 11
+| altdateT   = English air date
+| altdateR   = 
+| dontclose  = y
+}}
+{{Episode table/part|subtitle=In Naruto's Footsteps: Friends' Paths|c=#1DD9FC}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 394
+| EpisodeNumber2  = 1
+| Title           = The New Chunin Exams
+| TranslitTitle   = Aratanaru Chūnin Shiken
+| NativeTitle     = 新たなる中忍試験
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Naoki Horiuchi|sb=Yukihiro Matsushita}}
+| WrittenBy       = Junki Takegami
+| Aux2            = Naoki Takahashi & Shinichi Suzuki
+| OriginalAirDate = {{Start date|2015|1|8}}
+| AltDate         = June 12, 2022
+| ShortSummary    = While [[Sakura Haruno]] recovers [[Naruto Uzumaki]], Tsunade recalls one of her memories about her, the new Kazekage Gaara and siblings starting the new Chunin Exams for some ninja students. After explaining that the Akatsuki will interfere the exam, they start the event for any conspirators who tries to start the coup d'état against them. After arranging the exams to first begin at the Leaf Village and end at the Sand, Tsunade sends out the ANBU to deliver invitations to all the Kages, but they refuse to have their villagers take part in the exams.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 395
+| EpisodeNumber2  = 2
+| Title           = The Chunin Exams Begin
+| TranslitTitle   = Chūnin Shiken, Kaishi!
+| NativeTitle     = 中忍試験、開始!
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Taisuke Mamoru|sb=Toshihiko Masuda}}
+| WrittenBy       = Junki Takegami
+| Aux2            = Chiyuki Tanaka & Yoshihiro Maeda
+| OriginalAirDate = {{Start date|2015|1|15}}
+| AltDate         = June 19, 2022
+| ShortSummary    = At the Hidden Rain Village, [[Kakashi Hatake]] gives an invitation scroll to Hanzo. Though they kept secrets about his death, Konan tells Pain that the Leaf and Sand had started the exams, and sends Team Ajisai to attend. Shibuki asks seven-tailed Jinchuriki Fu at The Village Hidden in the Waterfall to conceal her identity. As Tsunade sees Hanzo's unusual reply and tells Shizune to keep tabs, Team Ajisai, Ameno, Fu, Kazami and Sajin arrive to visit the Leaf Village, and begin the first exam.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 396
+| EpisodeNumber2  = 3
+| Title           = The Three Questions
+| TranslitTitle   = Mittsu no Mondai
+| NativeTitle     = 三つの問題
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Kazuya Iwata|sb=Sumio Watabane}}
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Daiki Handa
+| OriginalAirDate = {{Start date|2015|1|22}}
+| AltDate         = June 19, 2022
+| ShortSummary    = While the team wait in line for the first exam, Konohamaru tells Neji that Naruto will not attend the new exams during training, while Ino, Choji, Sakura, Team 8 and Guy did. As hosts, Shikamaru and Temari tell both separated genins in three rooms that anyone who scores over 100 points on the 30 minute writing test will fail. As the genin at each room deduce the test, Sakura and Neji learn that each team can earn 100 points as max limit in order to pass the exam.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 397
+| EpisodeNumber2  = 4
+| Title           = One Worthy as a Leader
+| TranslitTitle   = Rīdā ni Fusawashī Mono
+| NativeTitle     = リーダーに相応しい者
+| NativeTitleLangCode = ja
+| DirectedBy      = Atsushi Nigorikawa
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Kumiko Horikoshi
+| OriginalAirDate = {{Start date|2015|1|29}}
+| AltDate         = June 26, 2022
+| ShortSummary    = Not fighting at the first exam, Neji uses Byakugan on the wall to contact his friends and successfully pass the exam, before it ends. Homura and Koharu converse with Tsuande about Danzō, before Kankuro informs that they will look after Gaara. As the man sends a bird with the letter to the Sand, Shikamaru and Temari send all teams to race all the way there for the second exam.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 398
+| EpisodeNumber2  = 5
+| Title           = The Night Before the Second Exam
+| TranslitTitle   = Niji Shiken, Zen'ya
+| NativeTitle     = 二次試験、前夜
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Tsuneo Tominaga|sb=Shinji Satō}}
+| WrittenBy       = Shin Yoshida
+| Aux2            = Min-Seop Shin & Yūko Ishizaki
+| OriginalAirDate = {{Start date|2015|2|5}}
+| AltDate         = June 26, 2022
+| ShortSummary    = One night, Temari defeats a self-destructing masked figure to save Kankuro. The next day, Gaara asks them to continue the second exam, while Asuma and Yuhi disqualify some Leaf Genin for with Fu attempting to make friends. Kakashi escapes from the Hidden Rain and tells Tsunade that he failed to capture Hanzo. Fu kills a giant scorpion to save Choji, Sakura and Ino. The next morning, the second exam begins with Temari instructing all teams to bring the Earth and Heaven scrolls to the center base.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 399
+| EpisodeNumber2  = 6
+| Title           = Demon Desert Survival
+| TranslitTitle   = Ma no Sabaku no Sabaibaru
+| NativeTitle     = 魔の砂漠のサバイバル
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Tokuji Kaneko|sb=Shinji Satō}}
+| WrittenBy       = Shin Yoshida
+| Aux2            = Shiro Kudaka & Yūri Ichinose
+| OriginalAirDate = {{Start date|2015|2|12}}
+| AltDate         = July 10, 2022
+| ShortSummary    = Shira tells Sen and Yome that he fought with Gaara at the center base. As Asuma and Yuhi watch all genins heading into the Demon Desert. Tsunade assigns Guy to protect Gaara upon after knowing that the assassins will hunt him. Around the desert, Team Guy sets their strategy to counter their opponents, but senses an illusion and brakes free from the genjutsu. They confront and fight with the mysterious leader, Datsuji and Goji, but Team Shira arrives and leave after Team Goji with Team Guy trapped and escape from a quicksand. The united group fight with Team Shira for negotiating last night, before Team Guy arrive to drive off Goji and save Team Shira.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 400
+| EpisodeNumber2  = 7
+| Title           = As a Taijutsu User
+| TranslitTitle   = Taijutsu Tsukai to shite...
+| NativeTitle     = 体術使いとして...
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Kentarou Fujita|sb=Toshihiko Masuda}}
+| WrittenBy       = Shin Yoshida
+| Aux2            = Yumenosuke Tokuda
+| OriginalAirDate = {{Start date|2015|2|19}}
+| AltDate         = July 10, 2022
+| ShortSummary    = While Team Guy and Shira converse each other and like Lee who trains to learn taijutsu hard, Shira abandoned the academy and does the same thing before Sen and Yome befriend him and Gaara trained Shira. Lee shortly leaves and confronts Team Goji before Neji and Tenten arrive to fight them, but Shira intervenes and gives the Earth scroll to Goji in exchange for the Heaven. As Team Goji trusts them and leaves, Lee challenges Shira to fight.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 401
+| EpisodeNumber2  = 8
+| Title           = The Ultimate
+| TranslitTitle   = Kiwameshi mono
+| NativeTitle     = 極めし者
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunori Mizuno
+| WrittenBy       = Shin Yoshida
+| Aux2            = Masaya Onishi, Zenjirou Ukulele<br />& Hiromi Okazaki
+| OriginalAirDate = {{Start date|2015|2|26}}
+| AltDate         = July 17, 2022
+| ShortSummary    = While Lee fights with Shira, Neji learns that they sustain more damage. As Shira sets limit chakra points on Lee to prevent him from using the Inner Gates, Lee breaks the points and uses one of the gates and Shira activates the Seven Heavenly Breaths. Both boys fight until Lee uses the Fifth Gate to defeat Shira who thanks him. That evening as the guards inform that Fu, Kegon and Yoro are jonin, Gaara uses his Third Eye to spy on the team.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 402
+| EpisodeNumber2  = 9
+| Title           = Escape vs. Pursuit
+| TranslitTitle   = Tōsō tai Tsuigeki
+| NativeTitle     = 逃走VS追跡
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Tsuneo Tominaga|sb=Yukihiro Matsushita}}
+| WrittenBy       = Yasuyuki Suzuki
+| Aux2            = Min-Seop Shin & Yūko Ishizaki
+| OriginalAirDate = {{Start date|2015|3|5}}
+| AltDate         = July 17, 2022
+| ShortSummary    = Team 8 is ambushed by the Hidden Grass's Team Kazami, who need the Earth Scroll. Kazami takes on Hinata while his team mates Burami and Muyami deal with Kiba and Shino. Once identifying Kiba as the holder of the Earth Scroll, Team Kazami lead a joint effort to successfully obtain the Earth Scroll with Burami using his unique Smell Sphere jutsu to immobilize them. But Team 8 manages to fight Burami's jutsu through sheer willpower as Muyami summons a giant mole named Moguranmaru that he and his team mates escape on. Shino managed to plant one of his kikaichū on Moguranmaru so he and his team can pursue Team Kazami. After surviving the quicksand trap. Team 8 continues to pursue Kazami with Kiba's sense of smell to track them down.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 403
+| EpisodeNumber2  = 10
+| Title           = Unwavering Gutsiness
+| TranslitTitle   = Akiramenai Dokonjō
+| NativeTitle     = 諦めないド根性
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Masayuki Yamada|sb=Shinji Satō}}
+| WrittenBy       = Yasuyuki Suzuki
+| Aux2            = Kumiko Horikoshi
+| OriginalAirDate = {{Start date|2015|3|12}}
+| AltDate         = July 24, 2022
+| ShortSummary    = As Kazami, Burami and Muyami senses and erases the scent, Team 8 confronts to fight but failed to retrieve the scrolls from them at the middle of the desert. Team Kazami and the giant mole fails to trap Team 8 in the quicksand, after Akamaru pees on the sand to stop it. Team 8 defeats Team Kazami to retrieve both scrolls.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 404
+| EpisodeNumber2  = 11
+| Title           = Tenten's Troubles
+| TranslitTitle   = Tenten no Nayami
+| NativeTitle     = テンテンの悩み
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Akira Shimizu|sb=Toshihiko Masuda}}
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Naoki Takahashi & Shinichi Suzuki
+| OriginalAirDate = {{Start date|2015|3|19}}
+| AltDate         = July 31, 2022
+| ShortSummary    = Team Ajisai flees from Komugi's, while capturing the Jinchuriki to get Intel on others. That night while having dinner with Lee and Neji, Tenten walks off to recall her training memories. The next morning after arriving at the ruined temple and fighting each other, Lee accidentally brakes the giant tiles and the exploding bomb cause Tenten and Ajisai to fall into the underground. As Tenten recalls about her, Guy and Kakashi, she recovers and offers water to Ajisai.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 405
+| EpisodeNumber2  = 12
+| Title           = The Imprisoned Pair
+| TranslitTitle   = Tojikomerareta Futari
+| NativeTitle     = 閉じ込められた二人
+| NativeTitleLangCode = ja
+| DirectedBy      = Atsushi Nigorikawa
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Yūri Ichinose, Shiro Kudaka<br />& Masaya Onishi
+| OriginalAirDate = {{Start date|2015|3|26}}
+| AltDate         = August 7, 2022
+| ShortSummary    = As the rest ceasefire and enter the ruins, Tenten negotiates with Ajisai while returning to the surface. They escape from the giant ant who leads them to the nest. While both teams fight against the ants, Ajisai and her panda fail to break the wall, but Tenten summons a big amount of water to destroy it and drown the ants. Team Guy, Ajisai, Fuyo and Suiren apologize and part ways.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 406
+| EpisodeNumber2  = 13
+| Title           = The Place Where I Belong
+| TranslitTitle   = Jibun no Ibasho
+| NativeTitle     = 自分の居場所
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Fukutarou Hattori<br />& Kazuya Iwata|sb=Sumio Watabane}}
+| WrittenBy       = Masahiro Hikokubo
+| Aux2            = Tetsurō Taira & Masako Miura
+| OriginalAirDate = {{Start date|2015|4|2}}
+| AltDate         = August 14, 2022
+| ShortSummary    = As Sakura punches to kill the giant scorpion, she, Ino and Choji recalls their memory about their lives after the events of Part I. Skipping her father's training, Ino asks Tsunade to learn medical abilities like Sakura. She successfully does after reviving the octopus within three months. Back in the present day, Team Ameno use Hexagram Seal to sense that Sakura's group are moving forward.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 407
+| EpisodeNumber2  = 14
+| Title           = The Yamanaka Clan: Secret Ninjutsu
+| TranslitTitle   = Yamanaka Ichizoku・Hiden Ninjutsu
+| NativeTitle     = 山中一族・秘伝忍術
+| NativeTitleLangCode = ja
+| DirectedBy      = Tokuji Kaneko
+| WrittenBy       = Masahiro Hikokubo
+| Aux2            = Zenjirou Ukulele, Anna Yamaguchi,<br />Masaya Onishi & Kumiko Horikoshi
+| OriginalAirDate = {{Start date|2015|4|9}}
+| AltDate         = August 21, 2022
+| ShortSummary    = As both teams confront to fight each other, Ameno cloaks Kōji and Shishio, but Sakura and Choji counters them. Ino using mind sensing art to allow Sakura and Choji to defeat Team Ameno. At the oasis, Team Ameno heals Sakura, Ino and Choji while they keep two scrolls. Both teams part ways with promises to meet in the next round.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 408
+| EpisodeNumber2  = 15
+| Title           = The Cursed Puppet
+| TranslitTitle   = Noroi no Ningyō
+| NativeTitle     = 呪いの人形
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Tsuneo Tominaga|sb=Shinji Satō}}
+| WrittenBy       = Hideto Tanaka<br />& Yuka Miyata
+| Aux2            = Min-Seop Shin & Yūko Ishizaki
+| OriginalAirDate = {{Start date|2015|4|16}}
+| AltDate         = August 28, 2022
+| ShortSummary    = As the group take an alternate route, Sakura had once used the Strength of a Hundred Seal and they confront to fight with Saya, Mamushi and Sana. At first, Saya uses Puppet Imitation Jutsu to possess Choji into attacking his friends. Ino uses Mind Transferring Jutsu to force Saya out of Choji's mind. As Karin uses Adamantine Attacking Chains to capture Suigetsu who is sent back to Orochimaru's hideout, Sakura recovers her chakra.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 409
+| EpisodeNumber2  = 16
+| Title           = Their Backs
+| TranslitTitle   = Futari no Senaka
+| NativeTitle     = 二人の背中
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Yoshinori Odaka|sb=Shinji Satō}}
+| WrittenBy       = Hideto Tanaka<br />& Yuka Miyata
+| Aux2            = Kumiko Horikoshi
+| OriginalAirDate = {{Start date|2015|4|23}}
+| AltDate         = September 4, 2022
+| ShortSummary    = While Sakura and Ino recovers, Choji resists against Saya and damages her puppet body. The real Saya inside the doll, Mamushi and Sana swear revenge against Sakura, Ino and Choji. Later, Jiraiya watches Gerotora weakening the seal and Naruto resisting the Nine-Tails' chakra. Sana traps Sakura, Ino and Choji with the Sand Storm Jutsu and Mamushi attacks Ino and Choji, before Sakura replenishes her chakra and sends Team Saya off in one punching blow. Sakura removes the poison from Ino and Choji.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 410
+| EpisodeNumber2  = 17
+| Title           = The Hidden Plot Set Into Motion
+| TranslitTitle   = Ugokidashita Inbō
+| NativeTitle     = 動き出した陰謀
+| NativeTitleLangCode = ja
+| DirectedBy      = Kentarō Fujita
+| WrittenBy       = Junki Takegami
+| Aux2            = Yumenosuke Tokuda & Yusuke Adachi
+| OriginalAirDate = {{Start date|2015|4|30}}
+| AltDate         = September 11, 2022
+| ShortSummary    = Gaara's Third Eye observes the event about Team Fu discussing each other and Team Matsuri planning to get the scroll. As Fugi and Hōichi plan to seal Shukaku in a tea kettle from Gaara, Fugi summons the sandstorm to engulf everyone that the siblings and other genin take shelter. As the headquarters notice the storm and the guards find Gaara's sand clone at the office, Matsuri, Yukata and Mikoshi fall into the quicksand. Overhearing and rushing to rescue them, Fu recalls her past friendship with Shibuki and uses Blue Joro Spider to save them before Gaara tells her about Naruto. Fu keeps the earth scroll and leaves before Hōichi confronts Gaara.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 411
+| EpisodeNumber2  = 18
+| Title           = The Targeted Tailed Beast
+| TranslitTitle   = Nerawareta Bijū
+| NativeTitle     = 狙われた尾獣
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Masayuki Yamada|sb=Toshihiko Masuda}}
+| WrittenBy       = Junki Takegami
+| Aux2            = Mifumi Tomita, Tokuyuki Matsutake<br />& Itsuko Takeda
+| OriginalAirDate = {{Start date|2015|5|7}}
+| AltDate         = September 25, 2022
+| ShortSummary    = Asuma, Yuhi and Guy observe the sandstorm and ignore the sand ninjas under jurisdiction. While the sandstorm subsides, the siblings and all genin escape to safety. Hōichi nearly manipulates the shadows of Team Matsuri with the biwa and captures Gaara with the sealing chains to pull Shukaku out from him and Chomei from Fu for arriving. Matsuri informs Team Guy that Hōichi is extracting the tailed beasts from Fu and Gaara.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 412
+| EpisodeNumber2  = 19
+| Title           = Neji's Judgment
+| TranslitTitle   = Neji no Handan
+| NativeTitle     = ネジの判断
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Tsuneo Tominaga|sb=Toshihiko Masuda}}
+| WrittenBy       = Junki Takegami
+| Aux2            = Min-Seop Shin & Yūko Ishizaki
+| OriginalAirDate = {{Start date|2015|5|14}}
+| AltDate         = October 2, 2022
+| ShortSummary    = As Team Matsuri gives two heaven scrolls to Team Guy and work together, Yuhi, Asuma and Guy notice that Gaara and Fu are trapped in Hoichi's chains. As Fu creates the protective cocoon on her and Gaara with chakra threads to suppress absorption, Lee, Matsuri, Yoro and Kegon failed to damage Hōichi's Dharma Barrier: Celestial Pillars. Neji cuts to open the cocoon with Tenten's chakra sword and uses Gentle Fist: Chakra Point Needle to make the chains go haywire and transforming into a black line marks that ties Hōichi. Not before Neji saves Hōichi, Fu thanks and asks them to be friends.
+| LineColor       = 1DD9FC
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 19
+| EpisodeNumber   = 413
+| EpisodeNumber2  = 20
+| Title           = Hopes Entrusted to the Future
+| TranslitTitle   = Mirai ni Takusu Omoi
+| NativeTitle     = 未来に託す思い
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunori Mizuno
+| WrittenBy       = Junki Takegami
+| Aux2            = Masaya Onishi & Yūri Ichinose
+| OriginalAirDate = {{Start date|2015|5|21}}
+| AltDate         = October 9, 2022
+| ShortSummary    = Gaara orders his people to cancel the third part of the Chunin Exams and confronts Fugi who uses [[seppuku]] to pay his mistake. After fighting with Matsuri who keeps the heaven scroll with her team, Shira and Yome left Sen at the Sand Village to join the special forces, Ajisai dies on her final mission and being stored for use as one of the vessels for the Path of Pain, Hidan and Kakuzu captures Fu, and Tsunade promotes the rest of the Leaf Genin to Chunin and Neji as Jonin.
+| LineColor       = 1DD9FC
+}}
+{{End|html=y|Episode table}}</onlyinclude>
+
+== Home media release ==
+=== Japanese ===
+{|class="wikitable" style="text-align: center; width: 60%;"
+|-
+! scope="col" 175px;| Volume
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 1
+| September 2, 2015
+| 1
+| 394–397
+| <ref>{{Cite web|url=http://www.neowing.co.jp/product/ANSB-12801|archive-url=https://web.archive.org/web/20170302190048/http://www.neowing.co.jp/product/ANSB-12801|archive-date=March 2, 2017|title=NARUTO -ナルト- 疾風伝 ナルトの背中～仲間の軌跡～ 1 アニメ DVD|publisher=Neowing|language=ja}}</ref>
+|-
+! scope="row" | 2
+| October 7, 2015
+| 1
+| 398–401
+| <ref>{{Cite web|url=http://www.neowing.co.jp/product/ANSB-12802|archive-url=https://web.archive.org/web/20170302190043/http://www.neowing.co.jp/product/ANSB-12802|archive-date=March 2, 2017|title=NARUTO -ナルト- 疾風伝 ナルトの背中～仲間の軌跡～ 2 アニメ DVD|publisher=Neowing|language=ja}}</ref>
+|-
+! scope="row" | 3
+| November 4, 2015
+| 1
+| 402–405
+| <ref>{{Cite web|url=http://www.neowing.co.jp/product/ANSB-12803|archive-url=https://web.archive.org/web/20170302190051/http://www.neowing.co.jp/product/ANSB-12803|archive-date=March 2, 2017|title=NARUTO -ナルト- 疾風伝 ナルトの背中～仲間の軌跡～ 3 アニメ DVD|publisher=Neowing|language=ja}}</ref>
+|-
+! scope="row" | 4
+|December 2, 2015
+| 1
+| 406–409
+| <ref>{{Cite web|url=http://www.neowing.co.jp/product/ANSB-12804|archive-url=https://web.archive.org/web/20170302190047/http://www.neowing.co.jp/product/ANSB-12804|archive-date=March 2, 2017|title=NARUTO -ナルト- 疾風伝 ナルトの背中～仲間の軌跡～ 4 アニメ DVD|publisher=Neowing|language=ja}}</ref>
+|-
+! scope="row" | 5
+| January 6, 2016
+| 1
+| 410–413
+| <ref>{{Cite web|url=http://www.neowing.co.jp/product/ANSB-12805|archive-url=https://web.archive.org/web/20170302190853/http://www.neowing.co.jp/product/ANSB-12805|archive-date=March 2, 2017|title=NARUTO -ナルト- 疾風伝 ナルトの背中～仲間の軌跡～ 5 アニメ DVD|publisher=Neowing|language=ja}}</ref>
+|}
+
+=== English ===
+{|class="wikitable" style="text-align: center; width: 60%;"
+|+ [[Viz Media]] (North America – Region 1/A)
+|-
+! scope="col" 175px;| Box set
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 31
+| June 27, 2017
+| 2
+| 389–402
+| <ref name="Naruto Shippuden Box Set 31">{{Cite web|url=http://www.viz.com/watch/tv-series/naruto-shippuden-uncut-video-box-sets-vol-31/12217|title=Naruto Shippuden Uncut Set 31 (DVD)|publisher=[[Viz Media]]|url-status=live|archive-url=https://web.archive.org/web/20170601160247/http://www.viz.com/watch/tv-series/naruto-shippuden-uncut-video-box-sets-vol-31/12217|archive-date=June 1, 2017}}</ref>
+|-
+! scope="row" | 32
+| October 10, 2017
+| 2
+| 403–416
+| <ref name="Naruto Shippuden Box Set 32">{{Cite web|url=https://www.viz.com/watch/tv-series/product/naruto-shippuden-uncut-video-box-sets-vol-32/12218|title=Naruto Shippuden Uncut Set 32 (DVD)|publisher=Viz Media|access-date=July 30, 2017}}</ref>
+|}
+
+{|class="wikitable" style="text-align: center; width: 60%;"
+|+ [[Manga Entertainment]] (United Kingdom and Ireland – Region 2/B)
+|-
+! scope="col" 175px;| Volume
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 31
+| February 26, 2018 || 2 || 388–401 || <ref>{{Cite web|url=https://www.amazon.co.uk/Naruto-Shippuden-Box-Episodes-388-401/dp/B077MT96BF|title=Naruto Shippuden Box 31 (Episodes 388–401)|website=[[Amazon (company)|Amazon.co.uk]]|access-date=April 11, 2019}}</ref>
+|-
+! scope="row" | 32
+| May 21, 2018 || 2 || 402–415 || <ref>{{Cite web|url=https://www.amazon.co.uk/Naruto-Shippuden-Box-Episodes-402-415/dp/B079N1S8MP|title=Naruto Shippuden Box 32 (Episodes 402–415)|website=[[Amazon (company)|Amazon.co.uk]]|access-date=April 11, 2019}}</ref>
+|}
+
+{|class="wikitable" style="text-align: center; width: 60%;"
+|+ [[Madman Entertainment]] (Australia and New Zealand – Region 4/B)
+|-
+! scope="col" 175px;| Collection
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 31
+| September 6, 2017 || 2 || 388–401 || <ref>{{Cite web|url=https://www.madman.com.au/catalogue/view/40222/naruto-shippuden-collection-31-eps-388401|title=Naruto Shippuden Collection 31 (Eps 388–401)|publisher=[[Madman Entertainment]]|archive-url=https://web.archive.org/web/20190411161742/https://www.madman.com.au/catalogue/view/40222/naruto-shippuden-collection-31-eps-388401|archive-date=April 11, 2019|access-date=April 11, 2019}}</ref>
+|-
+! scope="row" | 32
+| December 6, 2017 || 2 || 402–415 || <ref>{{Cite web|url=https://www.madman.com.au/catalogue/view/41315/naruto-shippuden-collection-32-eps-402415|title=Naruto Shippuden Collection 32 (Eps 402–415)|publisher=[[Madman Entertainment]]|archive-url=https://web.archive.org/web/20190411162433/https://www.madman.com.au/catalogue/view/41315/naruto-shippuden-collection-32-eps-402415|archive-date=April 11, 2019|access-date=April 11, 2019}}</ref>
+|}
+
+== References ==
+;General
+* {{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes33/index.html|title=Episodes 614–625|publisher=TV Tokyo|language=ja|access-date=January 14, 2015}}
+* {{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes34/index.html|title=Episodes 626–637|publisher=TV Tokyo|language=ja|access-date=April 10, 2015}}
+* {{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/trailer/index.html|title=Trailer|publisher=TV Tokyo|language=ja|access-date=October 24, 2011}}
+
+;Specific
+<References />
+
+{{Naruto episodes}}
+{{DEFAULTSORT:Naruto: Shippuden episodes season 110, List of}}
+[[Category:2015 Japanese television seasons]]
+[[Category:2022 American animated television seasons]]
+[[Category:Naruto seasons|Shippuden Season 19]]

@@ -1,0 +1,322 @@
+
+{{Infobox television season
+| bg_colour    = #000000
+| image        = Naruto Shippuden season 16 DVD.jpg
+| caption      = DVD cover for the ''Shippuden'' story arc titled ''Kakashi: Shadow of the ANBU Black Ops''
+| num_episodes = 13
+| network      = [[TV Tokyo]]
+| first_aired  = {{Start date|2014|2|6}}
+| last_aired   = {{End date|2014|5|8}}
+}}
+
+The sixteenth season of the [[anime]] television series ''[[Naruto: Shippuden]]'' is based on [[List of Naruto chapters (Part II)|Part II]] of [[Masashi Kishimoto]]'s ''[[Naruto]]'' [[manga]] series. The anime original season follows [[Kakashi Hatake]] spending years as a member of the ANBU Black Ops. The season is directed by [[Hayato Date]], and produced by [[Pierrot (company)|Pierrot]] and [[TV Tokyo]].<ref>{{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/staff/index.html|script-title=ja:スタッフ・キャスト|trans-title=Staff.Cast |publisher=TV Tokyo|language=ja|access-date=October 28, 2011}}</ref> The season aired from February to May 2014.<ref>{{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes29/index.html|title=Episodes 564-576|publisher=TV Tokyo|language=ja|access-date=May 10, 2014}}</ref>
+
+The season would make its English television debut on [[Adult Swim]]'s [[Toonami]] programming block and air from July 11 to November 7, 2021.
+
+The DVD collection was released on October 1, 2014, under the title of {{Nihongo|'''Kakashi: Shadow of the ANBU Black Ops'''|カカシ暗部篇 ～闇を生きる忍～|Kakashi Anbu-hen: Yami o Ikiru Shinobi}}.
+
+The opening themes of this season are {{Nihongo|"[[Barrette (song)|Tsuki no Ōkisa]]"|月の大きさ||"The Size of the Moon"}} performed by [[Nogizaka46]] (used for episodes 349 to 356) and {{Nihongo|"Guren"|紅蓮||"Crimson"}} performed by [[Does (band)|Does]] (used for episodes 357 to 361). The ending themes are {{Nihongo|"Niji"|虹||"Rainbow"}} performed by Shinkū Hollow (used for episodes 349 to 356) and "Flame" performed by [[Dish (band)|Dish]] (used for episodes 357 to 361).
+__TOC__
+{{clear}}
+
+== Episodes ==
+{{See also|List of Naruto: Shippuden episodes{{!}}List of ''Naruto: Shippuden'' episodes}}
+<onlyinclude>
+{{#invoke:Episode table|main
+| background = #000000
+| overall    = 5
+| season     = 5
+| title      = 29
+| director   = 16
+| writer     = 10
+| aux2       = 11
+| aux2T      = Animation directed by
+| airdate    = 12
+| altdate    = 12
+| altdateT   = English air date
+| altdateR   = 
+| dontclose  = y
+}}
+{{Episode table/part|subtitle=Kakashi: Shadow of the ANBU Black Ops|c=#000000}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 349
+| EpisodeNumber2  = 1
+| Title           = A Mask That Hides The Heart
+| TranslitTitle   = Kokoro o Kakusu Men
+| NativeTitle     = 心を隠す面
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Naoki Horiuchi|sb=Yukihiro Matsushita}}
+| WrittenBy       = Junki Takegami
+| Aux2            = Naoki Takahashi<br />& Shinichi Suzuki
+| OriginalAirDate = {{Start date|2014|2|6}}
+| AltDate         = July 11, 2021
+| ShortSummary    = Since Rin's death, [[Kakashi Hatake]] suffered nightmares from the ordeal and became withdrawn and sullen. With the end of the Third Great Ninja War, the Ino-Shika-Chō trio are sent on a mission to deliver a treaty to the Hidden Stone. However, the exchange almost turns into an altercation until the Fourth Kazekage intervenes. The treaty is brought before Onoki and his council who discuss the future now that the war is over. Back in [[Ninja World#Land of Fire|Konoha]], Hiruzen discusses the village's future to the Leaf Council and his decision to step down as Hokage so his successor can usher in a new era for their village. Rejecting the nomination of his student Orochimaru issued by Danzo, Hiruzen tells the Lord of the Land of Fire that Minato Namikaze will be the next Hokage for his deeds during the war. As Danzo and Orochimaru plot their next move, Minato ultimately accepts the post and is installed as Fourth Hokage much to his wife Kushina's joy. As his first duty, Minato assigns Kakashi the task of transporting a scroll. However, Kakashi's trauma hinders him when he is attacked by an enemy ninja that Guy quickly dispatched. As he sent Guy to secretly aid Kakashi, Minato visits his student in the hospital and informs him to enlist in the ANBU under his personal control as his right-hand-man. Heading to the equipment stores for his gear, Kakashi dons his ANBU attire along with his mask, thus beginning his tenure as an ANBU operative.
+| LineColor       = 000000
+}} 
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 350
+| EpisodeNumber2  = 2
+| Title           = Minato's Death
+| TranslitTitle   = Minato no Shi
+| NativeTitle     = ミナトの死
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Daisuke Kurose|sb=Toshihiko Masuda}}
+| WrittenBy       = Junki Takegami
+| Aux2            = Seiko Asai
+| OriginalAirDate = {{Start date|2014|2|13}}
+| AltDate         = July 18, 2021
+| ShortSummary    = After killing off enemy ninja posing as Hidden Stone ninja to attack Hidden Leaf ninja posted on the village outskirts, Kakashi learns from Minato that he would like him to assist in guarding Kushina while she in the time of her labor where the seal holding Kurama is at its weakest. Dutifully taking the mission, Kakashi goes to Rin's grave to tell her of the new development. However, Kakashi is unaware that Obito had heard the entire thing, leading to the masked man releasing the Nine-Tails on the village before it was sealed within the newborn [[Naruto Uzumaki]] at the cost of the lives of Minato and Kushina. Promising the dying Kushina that he will protect his successor's son, Hiruzen resumes his duties as Third Hokage until another successor is groomed for the post. Soon after, Kakashi is inveigled by Danzo to join Root while meeting another ANBU member named Kinoe who possesses the Wood Style.
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 351
+| EpisodeNumber2  = 3
+| Title           = Hashirama's Cells
+| TranslitTitle   = Hashirama Saibō
+| NativeTitle     = 柱間細胞
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Kazuya Iwata|sb=Tetsuto Saitou}}
+| WrittenBy       = Junki Takegami
+| Aux2            = Daiki Handa
+| OriginalAirDate = {{Start date|2014|2|20}}
+| AltDate         = July 25, 2021
+| ShortSummary    = Still plagued by his nightmares of Rin's death, Kakashi becomes curious on Kinoe's ability to use the Wood Style and infiltrates the archives office where he reads of Hashirama Senju before finding a top secret note. However, knowing of Kakashi presence, Hiruzen arrives and reveals Kinoe to be the survivor of a failed experiment where Leaf ninjas were injected with Hashirama's cells to harness the First Hokage's Wood Style. The next day, while en route to meet with the Lord of the Land of Fire to make his return as Third Hokage legitimate, Hiruzen is ambushed by Root operatives led by Kinoe on orders from Danzo to quietly assassinate the Third Hokage. However, "Hiruzen" is revealed to be Kakashi in disguise as a decoy to keep Kinoe at bay while the real Third Hokage confronts Danzo. Soon after, as Hiruzen is once more appointed as Third Hokage, Danzo converses with Orochimaru that they should no longer meet for the time being as Kakashi seemingly betrayed him.
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 352
+| EpisodeNumber2  = 4
+| Title           = The Rogue Ninja Orochimaru
+| TranslitTitle   = Nukenin・Orochimaru
+| NativeTitle     = 抜け忍・大蛇丸
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Yoshihiko Iwata|sb=Hisashi Ishii}}
+| WrittenBy       = Yasuyuki Suzuki
+| Aux2            = Min-Seop Shin<br />& Yūko Ishizaki
+| OriginalAirDate = {{Start date|2014|2|27}}
+| AltDate         = August 1, 2021
+| ShortSummary    = While Hiruzen leads a mission along with his ANBU to capture him at one of his many caches, Orochimaru escapes and goes on the run as a Rogue Ninja. On the way to the country's border, Orochimaru gets ambushed by Kakashi, who easily gets defeated. A snake approaches Orochimaru. Unaware of the explosive tag concealed in its mouth, Orochimaru lets the snake slither onto his body. The paperbomb detonates and greatly injures Orochimaru forcing him to retreat and seek the agreed upon second hideout. Sent by Danzō, Kinoe is on his way to a venue to help Orochimaru cross the Land of Fire's border but once at the place where he should wait for Orochimaru, Kinoe meets the very peculiar Iburi clan who have been helped by Orochimaru. One of the clan members, a young girl named Yukimi, is convinced Kinoe is her long-lost brother Tenzo who Orochimaru took with him after saving the clan with his curse mark.
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 353
+| EpisodeNumber2  = 5
+| Title           = Orochimaru's Test Subject
+| TranslitTitle   = Orochimaru no Jikkentai
+| NativeTitle     = 大蛇丸の実験体
+| NativeTitleLangCode = ja
+| DirectedBy      = Masaaki Kumagai
+| WrittenBy       = Yasuyuki Suzuki
+| Aux2            = Hiroyuki Yamashita
+| OriginalAirDate = {{Start date|2014|3|6}}
+| AltDate         = August 15, 2021
+| ShortSummary    = Kakashi stumbles across the hideout for the Iburi clan who immediately attack him on the grounds that he is an enemy of Orochimaru, with Kinoe using his Wood Style to bind Kakashi to save him so he could get intel from him. Eventually, Kinoe reveals to Kakashi that he is also sent after Orochimaru before Yukimi takes the two through a secret passage which leads outside. Leaving Kakashi halfway, Yukimi tells Kinoe of how she dreamt of going outside to find out where the lovely sounds were coming from. She then enters Kinoe's body after turning into smoke and the two make their way to the town nearby and partake in the entertainment here. Meanwhile Kakashi is confronted by an enraged Gotta who demanded to know where Yukimi was before attacking him, the resulting battle not lasting long as an updraft causes Gotta's unstable smoke body to be torn apart. He passes away soon but not before passing on information to Kakashi that caused the young ANBU to immediately seek out the renegade duo. Unveiling his true intentions, Kinoe refuses to sacrifice Yukimi and opts to run away with her rather than return to the hollow tree. Elsewhere, the gravely injured Orochimaru finally makes it to the Iburi hideout.
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 354
+| EpisodeNumber2  = 6
+| Title           = Their Own Paths
+| TranslitTitle   = Sorezore no Michi
+| NativeTitle     = それぞれの道
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Naoki Hishikawa|sb=Hiroki Takagi}}
+| WrittenBy       = Yasuyuki Suzuki
+| Aux2            = Ik-Hyun Eum
+| OriginalAirDate = {{Start date|2014|3|6}}
+| AltDate         = August 22, 2021
+| ShortSummary    = After Kakashi catches up to them, an adamant Kinoe refuses him to surrender Yukimi. But remembering the things that Orochimaru had done for her clan, Yukimi opts to return to her home to stop the fighting between the two ANBU. After returning home, Yukimi finds several of her kinsmen being killed by Orochimaru, who chases and captures her. Shortly after Kakashi and Kinoe arriving at the hideout, the smoke trails lead them to Orochimaru and drive him off. As Yukimi nearly dissipates into smoke, Kinoe manages to save her using his Wood Style to encase it and the smoke trails of the clan members gather around Yukimi, changing the artificial encasement into an actual tree that the real Yukimi emerges from. The three decide to walk their own paths, with Kakashi informing Kinoe that they neither saw Orochimaru nor discovered the Iburi Clan.
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 355
+| EpisodeNumber2  = 7
+| Title           = The Targeted Sharingan
+| TranslitTitle   = Nerawareta Sharingan
+| NativeTitle     = 狙われた写輪眼
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Naoki Horiuchi|sb=Yukihiro Matsushita}}
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Naoki Takahashi &<br />Hiroaki Kawaguchi
+| OriginalAirDate = {{Start date|2014|3|13}}
+| AltDate         = August 29, 2021
+| ShortSummary    = Danzo orders Kinoe and Kinoto to retrieve Kakashi's Sharingan to replace his right eye due to it beginning to fail. At the same time, found by his subordinate Yugao Uzuki at the Leaf Village Cemetery, Kakashi is summoned by Hiruzen with a mission to investigate one of Orochimaru's hideouts. There, Kakashi encounters Kinoe who accompanies him before eventually revealing his actual mission. This turns into a fight with Kakashi reluctant to kill a comrade despite Kinoe ultimately brings up the fact that Kakashi had allegedly killed a friend of his. But pinned by Kakashi to the ground, with the war hero's Chidori primed to deal a fatal blow, his words finally reach Kinoe as he remembers his past and induction into Root while resigning to his fate as he tells Kakashi he can kill him if he wishes. All the while, a menacing creature looms over the two young men from within one of the giant cylinders.
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 356
+| EpisodeNumber2  = 8
+| Title           = A Shinobi of the Leaf
+| TranslitTitle   = Konoha no Shinobi
+| NativeTitle     = 木ノ葉の忍
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunori Mizuno
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Masaya Onishi &<br />Kumiko Horikoshi
+| OriginalAirDate = {{Start date|2014|3|20}}
+| AltDate         = September 5, 2021
+| ShortSummary    = Kakashi leads a tied up Kinoe out of the hideout before they are attacked by a giant white snake that is one of Orochimaru's experiments. During the fight, Kakashi saves Kinoe from being swallowed by the snake before he is subjected to a poisonous fog emitted from the carcass. Luckily, shocked by Kakashi saving him after attempting to kill him, Kinoe takes Kakashi to a safe spot to administer an antidote and decides not to take his Sharingan while revealing his mission. Reporting to Hiruzen of Danzo's scheme, Kakashi is sent alongside Yugao to deliver a summons to the Root Leader. At that time, while Kakashi and Yugao are being kept at bay by Foundation members, Danzo is disgusted by Kinoe's new views and decides to have his subordinate be operated on. Luckily, Kakashi frees Kinoe with Hiruzen convincing Danzo to hand Kinoe over to him. Later reassigned as an ANBU under Kakashi, Kinoe accepts his new team mate's insistence to be called "Tenzo".
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 357
+| EpisodeNumber2  = 9
+| Title           = An Uchiha ANBU
+| TranslitTitle   = Anbu no Uchiha
+| NativeTitle     = 暗部のうちは
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Takuma Suzuki|sb=Tetsuto Saitou}}
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Min-Seop Shin<br />& Yūko Ishizaki
+| OriginalAirDate = {{Start date|2014|4|3}}
+| AltDate         = September 12, 2021
+| ShortSummary    = When they learn that they are to be joined by Itachi Uchiha, the current members of the Anbu decide to test the young man's mettle. Meanwhile, Guy makes a bid to Hiruzen to let him join the Anbu after realizing that Kakashi is becoming withdrawn. However, Guy's request rejected by not only the Third Hokage, but also by Danzo who deems him be lacking the quality of "darkness". Fugaku congratulates Itachi for his enrollment into the Anbu reminding him of his obligation to the Uchiha, Danzo tasking Itachi with keep them informed of the clan's actions. Danzo and Hiruzen orchestrate a two-sided mission against the Hannya Black Ops, who they suspected to have double-crossed them: Guy, Kosuke, and two other ninja sent to exchange scrolls while unaware that Kakashi and Itachi were sent to assassinate. A battle ensues and the Hannya are defeated, Guy watching in horror as Kakashi and Itachi carry out their mission. Returning to the village to be debriefed, fearing for his friend's state of mind, Guy pleads with Hirizen to relieve Kakashi of his duties in the Anbu. Meanwhile, in the Naka Shrine, the Uchiha hold a meeting with Itachi reporting the standing of the village as Shisui watches on. As he sat down, Itachi spots the stone monument behind his father and begins reading it with his Sharingan.
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 358
+| EpisodeNumber2  = 10
+| Title           = Coup d'État
+| TranslitTitle   = Kū d'etā
+| NativeTitle     = クーデター
+| NativeTitleLangCode = ja
+| DirectedBy      = Atsushi Nigorikawa
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Seiko Asai &<br />Yūri Ichinose
+| OriginalAirDate = {{Start date|2014|4|10}}
+| AltDate         = September 19, 2021
+| ShortSummary    = Despite Hiruzen's misgivings, Danzo persuades the Leaf Council to side with his decision to have the Uchiha put under 24-7 surveillance on the grounds that their sharingan makes them the likely cause for the Nine-Tails' attack on Konoha years ago. While Kakashi is not fond of this decision, he learns from Itachi that his clan is already aware that they are under suspicion. Members of the Leaf Military Police Force become more and more belligerent in their duties despite Fugaku's efforts and the complaints from the citizens soon reach the ears of the higher-ups who seem determined to increase pressure on the clan against the Third Hokage's better judgement. Elsewhere, a team of Hidden Mist ninja under Ao are forced to retreat when they realize they are facing Shisui Uchiha. Reporting of his team's success to the council, Shisui requests a private meeting with Hiruzen to gain his permission to act on his own to resolve the suspicion on the Uchiha. Meeting up with Itachi, revealing that their kinsmen had tasked him to keep an eye on Itachi since losing their trust, Shisui tells him of his intent to stop the planned coup d'état by using his Kotoamatsukami on Fugaku in order to dissuade the clan from their actions. However, Danzo is skeptic of the plan and attacks Shisui with the intent to use the Uchiha's eyes in his own way to protect the village. While effortlessly subduing Danzo at first, Shisui is caught off-guard by the older ninja's Izanagi. Escaping with only his left eye, seeing that it is too late to enact his plan, Shisui meets up with Itachi and gives him his eye. After having Itachi promise to protect both their village and their clan's good name, Shisui commits suicide with Itachi's Mangekyo Sharingan manifesting as a result. As things between the village and the Uchiha worsen, Itachi contemplates what course of action to take to honor his friend's last wishes.
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 359
+| EpisodeNumber2  = 11
+| Title           = The Night of the Tragedy
+| TranslitTitle   = Sangeki no Yoru
+| NativeTitle     = 惨劇の夜
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Fukutarou Hattori|sb=Yukihiro Matsushita}}
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Daiki Handa &<br />Eiichi Tokura
+| OriginalAirDate = {{Start date|2014|4|17}}
+| AltDate         = September 26, 2021
+| ShortSummary    = With the increasing number of assignments, against the concerns of Koharu and Homura, Danzo appoints Itachi to the rank of captain with Yugao assigned to take his place in the Anbu. Soon after, Itachi thanked Kakashi for his help for the last two years despite being warned not to involve himself in the higher-ups' political affairs. Later, Kakashi meets with Hiruzen who reveals that someone is entering the village undetected by bypassing the carrier code and requests Kakashi to explore the barrier placements to uncover the intruder's identity. Enlisting Guy's help, Kakashi passes by the Uchiha district where he notices the change of atmosphere around the Uchiha clansmen. Elsewhere, Itachi reports to Danzo that the Uchiha intend on revolting and is given an unofficial order to slaughter his family for the good of the village. That night, Itachi encountered the mysterious masked man who has been sneaking into the village and claims himself to be Madara Uchiha. With the masked man's help, Itachi annihilated their clan with only [[Sasuke Uchiha]] surviving the slaughter. Soon after, as his former friends in the Anbu are tasked with clearing up the mess while he is portrayed as a cold-hearted murderer, Itachi warns Danzo not to make any attempt on Sasuke's life or he will expose the truth of the Uchiha Clan Massacre to every enemy nation. Before leaving, Itachi gets a secret meeting with Hiruzen to convey his intention to continue protecting Konoha from the shadows while hoping his brother would someday restore the Uchiha Clan's honor. Hiruzen decides not to change the barrier code, allowing Itachi to come and go to village as he pleases should he become worried for Sasuke's wellbeing. Later, Kakashi is told that his time as an Anbu operative is over and that he will become a mentor.
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 360
+| EpisodeNumber2  = 12
+| Title           = Jōnin Leader
+| TranslitTitle   = Tantō Jōnin
+| NativeTitle     = 担当上忍
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Daisuke Kurose|sb=Shinji Satō}}
+| WrittenBy       = Masahiro Hikokubo
+| Aux2            = Hiroyuki Yamashita<br />& Masaya Onishi
+| OriginalAirDate = {{Start date|2014|4|24}}
+| AltDate         = October 3, 2021
+| ShortSummary    = After being relieved from his Anbu duties, Hiruzen still seeing him having "darkness" on his heart, Kakashi is reassigned to be an instructor to genin shinobi. Having recalled his past mistakes on his training days under Minato, Kakashi decides to employ his own method in instructing his candidates with the bell test while testing his would-be students' teamwork and ability to think for themselves rather than mindlessly follow the rules. Meanwhile, after Team Guy is established, Guy is worried when he hears Lee, Neji, and Tenten talk about Kakashi having recently failing a trio of brothers. At the dumpling house, with Hiruzen suddenly joining them, Guy talks to Asuma and Kurenai about Kakashi's methods before attempting to talk to his friend. Refusing to talk to Guy about his methods, Kakashi later encounters the three brothers as they thanked him for teaching them a valuable lesson. Sometime after, Kakashi meets with Hiruzen after the Third Hokage handpicked the next set of students he is to test: [[Sakura Haruno]], Sasuke, and Naruto.
+| LineColor       = 000000
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 16
+| EpisodeNumber   = 361
+| EpisodeNumber2  = 13
+| Title           = Team 7
+| TranslitTitle   = Dainanahan
+| NativeTitle     = 第七班
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Masayuki Yamada|sb=Tetsuto Saitou}}
+| WrittenBy       = Masahiro Hikokubo
+| Aux2            = Ik-Hyun Eum
+| OriginalAirDate = {{Start date|2014|5|8}}
+| AltDate         = November 7, 2021
+| ShortSummary    = Though hesitant of being assigned another genin team until learning from Hiruzen that Naruto is the son of his mentor Minato, Kakashi accompanies the Third Hokage to the youth's home and then to where Sasuke lived. After visiting Sakura's home and meeting her parents Kizashi and Mebuki, Hiruzen later explaining his rationale behind formulating the genin teams from the Sannin, Kakashi ultimately accepts his new assigned students. As Naruto, Sasuke and Sakura are waiting for their instructor after the rest of their classmates are assigned to Asuma and Kurenai, Kakashi pays a visit to the Memorial Stone where Tenzo comments on how much his senior has slowly changed. Once at the academy, Kakashi proceeds to make himself appear to his students as a slacker in order to assess their teamwork skills before they passed his test the following day with [[List of Naruto characters#Team 7|Team 7]] officially formed.
+| LineColor       = 000000
+}}
+{{End|html=y|Episode table}}</onlyinclude>
+
+== Home media release ==
+=== Japanese ===
+{|class="wikitable" style="text-align: center; width: 60%;"
+|-
+! scope="col" 175px;| Volume
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 1
+| October 1, 2014
+| 1
+| 349–352
+| <ref name="naruto17">{{Cite web|url=http://www.aniplex.co.jp/naruto/tv/17.html|archive-url=https://web.archive.org/web/20160713214150/http://www.aniplex.co.jp/naruto/tv/17.html|archive-date=July 13, 2016|title=カカシ暗部篇 ～闇を生きる忍～ - TV DVD - NARUTO-ナルト- 疾風伝 - アニプレックス|publisher=[[Aniplex]]|language=ja}}</ref>
+|-
+! scope="row" | 2
+| November 5, 2014
+| 1
+| 353–356
+| <ref name="naruto17"/>
+|-
+! scope="row" | 3
+| December 3, 2014
+| 1
+| 357–361
+| <ref name="naruto17"/>
+|}
+
+=== English ===
+{|class="wikitable" style="text-align: center; width: 60%;"
+|+ [[Viz Media]] (North America – Region 1/A)
+|-
+! scope="col" 175px;| Box set
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 28
+| October 4, 2016
+| 2
+| 349–361
+| <ref name="Naruto Shippuden Box Set 28">{{Cite web|url=https://www.viz.com/watch/tv-series/naruto-shippuden-uncut-video-box-sets-vol-28/12150|archive-url=https://web.archive.org/web/20170227033514/https://www.viz.com/watch/tv-series/naruto-shippuden-uncut-video-box-sets-vol-28/12150|archive-date=February 27, 2017| title=Naruto Shippuden Uncut Set 28 (DVD)| publisher=[[Amazon.com]]}}</ref>
+|}
+
+{|class="wikitable" style="text-align: center; width: 60%;"
+|+ [[Manga Entertainment]] (United Kingdom and Ireland – Region 2/B)
+|-
+! scope="col" 175px;| Volume
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 28
+| May 15, 2017 || 2 || 349–361 || <ref>{{Cite web|url=http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-28/xv-movies-games-entertainment/pd/1080951?path=dvd|archive-url=https://web.archive.org/web/20170301025037/http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-28/xv-movies-games-entertainment/pd/1080951?path=dvd|archive-date=March 1, 2017|title=Naruto - Shippuden: Collection - Volume 28 - DVD|publisher=[[Xtra-vision]]}}</ref>
+|}
+
+{|class="wikitable" style="text-align: center; width: 60%;"
+|+ [[Madman Entertainment]] (Australia and New Zealand – Region 4/B)
+|-
+! scope="col" 175px;| Collection
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 28 
+| December 7, 2016 || 2 || 349–361 || <ref>{{Cite web|url=https://www.madman.com.au/catalogue/view/38061/naruto-shippuden-collection-28-eps-349361|archive-url=https://web.archive.org/web/20170302193053/https://www.madman.com.au/catalogue/view/38061/naruto-shippuden-collection-28-eps-349361|archive-date=March 2, 2017|title=Naruto Shippuden Collection 28 (Eps 349–361) - DVD|publisher=[[Madman Entertainment]]}}</ref>
+|}
+
+== References ==
+;General
+* {{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes29/index.html|title=Episodes 564–576|publisher=TV Tokyo|language=ja|access-date=January 21, 2014}}
+* {{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes30/index.html|title=Episodes 577–586|publisher=TV Tokyo|language=ja|access-date=April 3, 2014}}
+
+;Specific
+<References />
+
+{{Naruto episodes}}
+{{DEFAULTSORT:Naruto: Shippuden episodes season 110, List of}}
+[[Category:2014 Japanese television seasons]]
+[[Category:2021 American animated television seasons]]
+[[Category:Naruto seasons|Shippuden Season 16]]

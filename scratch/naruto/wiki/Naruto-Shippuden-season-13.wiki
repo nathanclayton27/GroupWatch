@@ -1,0 +1,457 @@
+{{Infobox television season
+| bgcolour     = #A79548
+| image        = Shippudenseason13dvd.jpg
+| caption      = DVD cover for the ''Shippuden'' story arc titled ''The Seven Ninja Swordsmen''
+| num_episodes = 20
+| network      = [[TV Tokyo]]
+| first_aired  = {{Start date|2012|8|23}}
+| last_aired   = {{End date|2013|1|10}}
+}}
+
+The episodes from the thirteenth season of the [[anime]] television series ''[[Naruto: Shippuden]]'' is based on [[List of Naruto chapters (Part II)|Part II]] of [[Masashi Kishimoto]]'s ''[[Naruto]]'' [[manga]] series. The season was directed by [[Hayato Date]] and produced by [[Pierrot (company)|Pierrot]] and [[TV Tokyo]].<ref>{{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/staff/index.html|script-title=ja:スタッフ・キャスト|trans-title=Staff.Cast |publisher=TV Tokyo|language=ja|access-date=October 28, 2011}}</ref> The season focuses on the Fourth Great Ninja War between [[Naruto Uzumaki]] and the five Hidden Villages' Ninjas against the forces under the masked ninja [[Obito Uchiha|Tobi]] and Kabuto Yakushi. It also features an unrelated side story arc. The season aired from August 23, 2012, to January 10, 2013.<ref>{{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes23/index.html|title=Episodes 489–501|publisher=TV Tokyo|language=ja|access-date=December 21, 2012}}</ref>
+
+The English dubbed version of this season began on January 10, 2015, on [[Neon Alley]]. The season would make its English television broadcast debut on [[Adult Swim]]'s [[Toonami]] programming block and air from November 24, 2019, to May 10, 2020.
+
+The season's collection in DVD started on April 3, 2013, under the title {{Nihongo|'''The Seven Ninja Swordsmen'''|忍刀七人衆|Shinobi-gatana Shichinin-shū}}. Director's cuts of episodes 290 to 295 were released as two special edition DVDs titled {{Nihongo|'''Power: Black'''|力-Chikara- 黒|Chikara: Kuro}} and {{Nihongo|'''Power: White'''|力-Chikara- 白|Chikara: Shiro}} on July 3, 2013, and August 7, 2013, each containing three episodes from the arc.
+
+This season contains four musical themes: two openings and two endings. The openings theme are {{Nihongo|"Totsugeki Rock"|突撃ロック||"Assault Rock"}} performed by [[The Cro-Magnons]] (used for episodes 276 to 281) and "Moshimo" performed by Daisuke (used for episodes 282 to 295). The ending themes are {{Nihongo|"Kono Koe Karashite"|この声枯らして||"Shout This Voice Dry"}} performed by Aisha [[featuring]] Chehon (used for episodes 276 to 281) and "Mother" performed by [[Mucc]] (used for episodes 282 to 295). The sixth feature film, ''[[Road to Ninja: Naruto the Movie]]'', was released on July 28, 2012. The broadcast versions of the episodes 276 to 277 include scenes from the film in the opening themes, while retaining the music "Totsugeki Rock".
+__TOC__
+{{Clear}}
+
+== Episodes ==
+{{See also|List of Naruto: Shippuden episodes{{!}}List of ''Naruto: Shippuden'' episodes}}
+<onlyinclude>
+{{#invoke:Episode table|main
+| background = #A79548
+| overall    = 5
+| season     = 5
+| title      = 28
+| director   = 16
+| writer     = 9
+| aux2       = 15
+| aux2T      = Animation directed by
+| airdate    = 11
+| altdate    = 11
+| altdateT   = English air date
+| altdateR   = 
+| dontclose  = y
+}}
+{{Episode table/part|subtitle=The Seven Shinobi Swordsmen|c=#A79548}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 276
+| EpisodeNumber2  = 1
+| Title           = Attack of the Gedo Statue
+| TranslitTitle   = Gedō Mazō no Shūrai
+| NativeTitle     = 外道魔像の襲来
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Hideki Takayama|sb=Shinji Satou}}
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Beom-Seok Hong
+| OriginalAirDate = {{Start date|2012|8|23}}
+| AltDate         = January 10, 2015
+| ShortSummary    = Black Zetsu finally locates the Feudal Lords' mansion and commences his attack, only to be halted by the Fifth Mizukage Mei Terumi and her squad while sensing [[Naruto Uzumaki]] and Killer Bee. After Black Zetsu relays this information, Tobi makes his presence known on the coastline as he summons the Gedo Statue to hold off his enemies long enough to acquire the Kohaku no Johei and the Benihisago to obtain Kinkaku and Ginkaku's Nine Tails chakra. As night falls with Kabuto calling back his reanimated ninja army, the shinobi forces recuperate from the first day of the conflict while evaluating their counterattack.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 277
+| EpisodeNumber2  = 2
+| Title           = Unison Sign
+| TranslitTitle   = Wakai no In
+| NativeTitle     = 和解の印
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Masaaki Kumagai|sb=Jun'ya Koshiba}}
+| WrittenBy       = Masahiro Hikokubo
+| Aux2            = Masayuki Kouda
+| OriginalAirDate = {{Start date|2012|8|30}}
+| AltDate         = January 17, 2015
+| ShortSummary    = Making his way to the battlefield with Killer Bee, Naruto is dragged into his subconscious by the Nine Tails, who berates the boy, asking him if he could even bear the hatred the war will bring. The beast then reminds Naruto of [[Sasuke Uchiha]] and the hatred the young Uchiha bore even as a child the day he and Naruto first met. Taking offense to the beast telling him anything he could do to stop hatred is futile, Naruto pins the Nine Tails down while telling him that he will manage to do something about the ensuing war, Sasuke's hatred and possibly even the Nine Tails' own hatred.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 278
+| EpisodeNumber2  = 3
+| Title           = Medic Ninja in Danger
+| TranslitTitle   = Nerawareta Iryō Ninja
+| NativeTitle     = 狙われた医療忍者
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Tsuneo Tominaga|sb=Hisashi Ishii}}
+| WrittenBy       = Yasuyuki Suzuki
+| Aux2            = Hiroki Abe, Min-Seop Shin<br />& Yuuko Ishizaki
+| OriginalAirDate = {{Start date|2012|9|6}}
+| AltDate         = January 24, 2015
+| ShortSummary    = Neji loses his energy while scouting the company's outskirts for enemies, and Kiba advises him to go seek medical treatment. Meanwhile, at the medical encampment, Shizune and [[Sakura Haruno]] are treating numerous injured shinobi, while mysterious killings occur in secret throughout the base. Neji is revealed to be the culprit after slaughtering two more medics, and then goes after Sakura. However, back at the company's base, the real Neji is still resting with Kiba and Akamaru, while Hinata and Shino take over watching the frontlines. Back at the medical center, Sakura tells Neji that Shizune is treating Tonton's sprained leg injury. When Neji comments that it was a good thing Tonton's hands weren't hurt, Sakura discovers the true culprit is him, since the real Neji would know that Tonton does not have hands. She successfully defends herself against his attempted attack; it is revealed that White Zetsu is responsible for the attacks in the medic encampment, by absorbing peoples' chakras and manipulating himself into a perfect clone of everyone he comes in contact with. Sakura quickly relays the information to HQ while Shikaku attempts to come up with a plan to combat the White Zetsu.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 279
+| EpisodeNumber2  = 4
+| Title           = White Zetsu's Trap
+| TranslitTitle   = Shiro Zetsu no Torappu
+| NativeTitle     = 白ゼツの罠
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Yuusuke Onoda|sb=Tetsuto Saitou}}
+| WrittenBy       = Shin Yoshida
+| Aux2            = Mamoru Yokota
+| OriginalAirDate = {{Start date|2012|9|13}}
+| AltDate         = January 31, 2015
+| ShortSummary    = Team 8's Kiba, Shino and Hinata investigate a cave where a barrier that protects them, now had an opening. In the cave, White Zetsus ambush them and they hold off until the Sealing Corps arrive. As the Sealing Corps is about to seal the cave and Team 8 escapes, White Zetsus try to follow and Kiba fights back. The White Zetsu accidentally bumps on an oil lamp and the flame lands on an oil connecting to the Paper bombs triggering an explosion in the process. After the explosion, Team 8 regroups and notices the deaths of the Sealing Corps. Suspicion grows among themselves and decide to play Rock-Paper-Scissors to determine who's the fake among them. Shino somewhat reveals as the "fake" but when Kiba manages to defeat Shino, it was Hinata who is the fake and Shino appears elsewhere. Shino reveals that his Rock-Paper-Scissors is his hand signal and used his insect clone. They defeat the White Zetsu and find Hinata who is safely lying on the ground.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 280
+| EpisodeNumber2  = 5
+| Title           = Aesthetics of an Artist
+| TranslitTitle   = Geijutsuka no Bigaku
+| NativeTitle     = 芸術家の美学
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Shigeki Kawai|sb=Yutaka Kagawa}}
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Masaya Onishi
+| OriginalAirDate = {{Start date|2012|9|20}}
+| AltDate         = February 7, 2015
+| ShortSummary    = Kurotsuchi pays a visit to the Fifth division where Deidara was held prisoner. Earlier, A White Zetsu in a samurai's clothing approaches Deidara and tries to break Deidara's containment. However Kurotsuchi and Okisuke arrive and White Zetsu suddenly stops, leaving the katana on Deidara's containment. As a frustrated Kurotsuchi continues interrogating Deidara, Okisuke asks the samurai guarding Deidara but the samurai cannot answer properly so Okisuke slashes the imposter and a group of White Zetsu appears on them. Deidara breaks free from his confinement and escapes the area, which makes the entire Fifth division chasing him. Deidara tries to fight back and keeps on moving while thinking how to make his Super Ultimate Art a blast. As he stands on a lagoon, Sasuke appears which Deidara becomes enraged. Sasuke leaves and Deidara chases him then arrives on a valley where Sasuke was only a fake, revealing Kurotsuchi. The Fifth division corners Deidara and as he cannot fight back, they capture him again.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 281
+| EpisodeNumber2  = 6
+| Title           = The Allied Mom Force!!
+| TranslitTitle   = Kā-chan Rengōgun!!
+| NativeTitle     = 母ちゃん連合軍!!
+| NativeTitleLangCode = ja
+| DirectedBy      = Kiyomu Fukuda
+| WrittenBy       = Yasuyuki Suzuki
+| Aux2            = Ik-Hyun Eum
+| OriginalAirDate = {{Start date|2012|9|27}}
+| AltDate         = February 14, 2015
+| ShortSummary    = Konohamaru participates in a meeting organized by Ebisu in Konoha of the remaining villagers, mostly including the children and wives. Ebisu attempts to rally everyone's spirits together in the event that rogue ninja should attack the village while their shinobi families are away at war, but the mothers scoff and claim that they will protect the village as they always have while their husbands fought. Suddenly Konohamaru is approached by several children, each claiming to have seen terrifying rogue ninja roaming the east and west forests outside Konoha. He tries to recruit his classmates into hunting them down, but they refuse to believe him. Konohamaru investigates the area alone with Moegi and Udon, only to find a traveling circus troupe in the forest instead of rogue ninja. Heading back, Konohamaru is again alerted that people are attacking the village on the west side, and this time, the rumors are true. A group of rogue Sumo Wrestlers attack the children, but they are saved by the mothers of Konoha, who fight back against the intruders. Konohamaru delivers the final blow with his Rasengan and saves the village.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 282
+| EpisodeNumber2  = 7
+| Title           = The Secret Origin of the Ultimate Tag Team!
+| TranslitTitle   = Hiwa: Saikyō Taggu!!
+| NativeTitle     = 秘話・最強タッグ!!
+| NativeTitleLangCode = ja
+| DirectedBy      = Hisashi Ishii
+| WrittenBy       = Masahiro Hikokubo
+| Aux2            = Min-Seop Shin & Yuuko Ishizaki
+| OriginalAirDate = {{Start date|2012|10|4}}
+| AltDate         = February 21, 2015
+| ShortSummary    = On their way to the battlefield, Naruto and Killer Bee are hindered by Tsunade and Ay. While Tsunade watched, Naruto argues to Ay about his wanting support his friends who are fighting for him. Ay berates Minato Namikaze and Naruto tells that his father is not a failure, attempting to outrun the more faster Raikage. But Ay decides to simply kill Naruto with Bee quickly saving the younger Jinchūriki. Bumping fists soon after, Bee asks Ay why he can't read his soul and recalls their past where Bee became Ay's brother after passing his Double Lariat test. Their bond improves as they go on missions together prior to Ay receiving advice from Bee's cousin prior to his death and Bee becoming the Eight Tails Jinchuriki. Now a fully grown man, Bee and Ay encounter Minato. Ay makes his speedy attack however Minato evades and tries to land an attack on Ay's back but Bee's tentacle quickly saves Ay. As the Leaf group retreats, Minato compliments Bee's ability. Ay berates Minato and charges toward him but Minato teleports to Bee's back pointing at each other with a weapon.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 283
+| EpisodeNumber2  = 8
+| Title           = Two Suns
+| TranslitTitle   = Futatsu no Taiyō!!
+| NativeTitle     = 二つの太陽!!
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Jun Nakagawa|sb=Jun'ya Koshiba}}
+| WrittenBy       = Masahiro Hikokubo
+| Aux2            = Beom-Seok Hong
+| OriginalAirDate = {{Start date|2012|10|11}}
+| AltDate         = February 28, 2015
+| ShortSummary    = As he and Ay exchange blows, Killer Bee laments to Ay out he is overprotecting him after reminding his foster brother that he urged him to develop his Tailed Beast when he became Raikage after his father's death. Ay explains that both Bee and Naruto, as Jinchuriki, are extremely valuable and intends to keep them safe even if it is against their will. But Bee's determination allowed him to make a connecting Lariat on Ay, comparing his mindset to a sun and Naruto's own determination to two suns, referring to his parents Minato and Kushina. While Tsunade allows Naruto to enter the war, an unconvinced Ay makes a final move to take the boy out at lightning speed. But impressed to see Naruto dodge his attack like his father had, Ay lets Naruto and Bee continue on their way as Shikaku learns that Naruto's negative sensing capability can give them the edge against the White Zetsu army. As the sun rises in the forest, Tobi summons his personal Six Paths of Pain: the Jinchuriki that Kabuto reanimated for him.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 284
+| EpisodeNumber2  = 9
+| Title           = The Helmet Splitter: Jinin Akebino!
+| TranslitTitle   = Kabutowari! Akebino Jinin
+| NativeTitle     = 兜割! 通草野餌人
+| NativeTitleLangCode = ja
+| DirectedBy      = Kanryou Kishikawa
+| WrittenBy       = Junki Takegami
+| Aux2            = Kanayo Tomizawa
+| OriginalAirDate = {{Start date|2012|10|18}}
+| AltDate         = March 7, 2015
+| ShortSummary    = During the night, [[Kakashi Hatake]] tells his squad to take a rest but maintain their awareness. Two shinobi arrive from HQ bringing an enormous item to Kakashi and then he hands it over to Sai, with Lee assigned to be his bodyguard, to aid in sealing the reanimated ninja. Sai becomes stressed as he recalls a seal variation of his Super Beast Scroll ability that requires emotional energy that can be harmful if not in a controlled state of mind. At dawn, the reanimated ninja sprawl out and resume killing Allied ninja on the field. Among the enemies is Akebino Jinin who is being confronted and slashed by Kakashi as Ensui binds Jinin's body so Sai could perform the Sealing jutsu. But Gari arrives and Lee defends Sai and Ensui. Thinking of his time with [[List of Naruto characters#Team 7|Team Kakashi]], Sai is able to control his emotions to execute his Sealing Jutsu: Crouched Tiger Bullet to trap Jinin in a scroll.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 285
+| EpisodeNumber2  = 10
+| Title           = User of the Scorch Style: Pakura of the Sand!
+| TranslitTitle   = Shakuton Tsukai! Sunagakure no Pakura
+| NativeTitle     = 灼遁使い! 砂隠れのパクラ
+| NativeTitleLangCode = ja
+| DirectedBy      = Masaaki Kumagai
+| WrittenBy       = Katsuhiko Chiba
+| Aux2            = Kumiko Horikoshi
+| OriginalAirDate = {{Start date|2012|10|25}}
+| AltDate         = March 14, 2015
+| ShortSummary    = In a flashback, the Hidden Sand Village celebrates Pakura for her victory against the Hidden Stone village. Maki, Pakura's student, wants to train with her, despite Pakura being tired from the previous skirmish and Pakura praises Maki for her fighting prowess. After their sparring match, Pakura advises Maki to be strong so she can protect her loved ones and the village. Meanwhile, in a meeting of Hidden Sand officials, they stress about a truce with the Hidden Mist village despite that fact it is against their favor and suggest sacrificing Pakura to solve the issue. However, as Maki was told, Pakura was assassinated by ninjas from the Hidden Stone village. In the present time, Allied ninja struggle to outgun the remaining Ninja Swordsman of the Mist as well as Gari and Pakura. Pakura confronts Maki and reveals that she was actually sent as a sacrificial offering from their village to be killed by the Hidden Mist ninja. Though Ruka intervenes their argument that her village discarded its bloody and vicious reputation under the new leadership of the Fifth Mizukage. Pakura refuses to accept it as Maki pleads with her that Allied Shinobi Force will improve its relations and might change the future, and she begs Pakura to remain a hero. Still skeptic, Pakura attempts to attack but she was stopped by Omoi and Zaji. In their successful coordinated attack, they manage to incapacitate Pakura, but Gari arrives. Gari targets Maki but Pakura corners Gari with her fireballs and tells Maki to flee. After the group flee into the forest, with Maki praying by herself, Gari and Pakura have their minds erased by Kabuto again.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 286
+| EpisodeNumber2  = 11
+| Title           = Things You Can't Get Back
+| TranslitTitle   = Torimodosenai Mono
+| NativeTitle     = 取り戻せないもの
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Mitsutaka Noshitani|sb=Shinji Satou}}
+| WrittenBy       = Junki Takegami
+| Aux2            = Hiroki Abe, Min-Seop Shin<br />& Yuuko Ishizaki
+| OriginalAirDate = {{Start date|2012|11|1}}
+| AltDate         = March 21, 2015
+| ShortSummary    = As she and Ay escort Naruto and Killer Bee to the war, Tsunade questions her faith in Naruto. She remembers a time before she met Naruto when she crossed paths with Ay when he needed her medical talents to save a wounded subordinate. This encounter ultimately led up to Tsunade agreeing to help only if Ay could best her in an arm wrestling match. The Raikage wins using his speed to his advantage. After seeing the state of the patient, Tsunade requires that they tell her what had happened.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 287
+| EpisodeNumber2  = 12
+| Title           = One Worth Betting On
+| TranslitTitle   = Kakeru ni Ataisuru mono
+| NativeTitle     = 賭けるに値する者
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Sumito Sasaki|sb=Shinji Satou}}
+| WrittenBy       = Junki Takegami
+| Aux2            = Mamoru Yokota
+| OriginalAirDate = {{Start date|2012|11|1}}
+| AltDate         = March 28, 2015
+| ShortSummary    = As she listens on to the events of Ay's group being ambushed by a ninja group known as the Nokizaru, Tsunade realizes the nature of the insect as a bomb with another inside the Raikage. After explaining this and having Ay make a promise to her, Tsunade catches and destroys a bug which had been hovering near the Raikage for some time — unbeknownst to them that the Nokizaru had been using it as a method to spy on them. Preparing to operate, Tsunade has Shizune lead the surgery while she oversaw it. Though Ay initially protested, believing that Tsunade should perform the surgery, the Sannin allays his fears somewhat. As Shizune, aided by Amai begins the surgery, blood is splattered on a terrified Tsunade as she excuses herself from the room. Seeking an explanation, Shizune tells the two of Tsunade's two great loves and loss which led up to her current state. Hearing this, the Raikage states that he would not have placed the lives of his subordinates in the hands of someone in that mental state, an indignant Shizune speaks out against his chastisement of her mistress, throwing the extracted exploding bug at his feet. The flashback ends with Naruto and Bee heading towards the battlefield while Raikage and Tsunade return to headquarters.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 288
+| EpisodeNumber2  = 13
+| Title           = Danger: Jinpachi and Kushimaru!
+| TranslitTitle   = Kyōi, Jinpachi - Kushimaru Konbi!!
+| NativeTitle     = 脅威、甚八・串丸コンビ!!
+| NativeTitleLangCode = ja
+| DirectedBy      = Kiyomu Fukuda
+| WrittenBy       = Masahiro Hikokubo
+| Aux2            = Ik-Hyun Eum
+| OriginalAirDate = {{Start date|2012|11|8}}
+| AltDate         = April 4, 2015
+| ShortSummary    = While en route, Kakashi receives word that Sai had managed to seal one of the Seven Ninja Swordsmen of the Mist. He later receives intel from headquarters on the ninja swordsmen before he rushes towards where he hears a commotion. Upon his arrival, he sees Jinpachi Munashi and Kushimaru Kuriarare, who are affronted that Kakashi was wielding the Kubikiribōchō. As they begin to battle, the two reincarnated Kirigakure shinobi begin to mercilessly cut down one another in order to get to Kakashi. Kakashi is not alone for long as Might Guy comes to his side and together the two take on the swordsmen after Kakashi awakens a kunoichi, who had been knocked unconscious on the battlefield. After telling her to flee, the four begin to battle, and it ends up that Kakashi is left momentarily blinded by Jinpachi's explosion. Despite this, the two men press on, remembering a time they went on a mission together along with Rin. The two are eventually able to stave off the Kiri-nin's attack until Ran returns with the Sealing Team who promptly seal away Kushimaru and Jinpachi.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 289
+| EpisodeNumber2  = 14
+| Title           = The Lightning Blade: Ameyuri Ringo!
+| TranslitTitle   = Raitō!! Ringo Ameyuri
+| NativeTitle     = 雷刀!! 林檎雨由利
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Yoshihide Ibata|sb=Hisashi Ishii}}
+| WrittenBy       = Shin Yoshida
+| Aux2            = Hiroki Abe, Min-Seop Shin,<br />Boo-Hee Lee & Yuuko Ishizaki
+| OriginalAirDate = {{Start date|2012|11|15}}
+| AltDate         = April 11, 2015
+| ShortSummary    = As Guy and Kakashi prepare to regroup their forces, they receive word that one of the units were engaged in battle with Ameyuri Ringo and decide to head to that location. Elsewhere, Ameyuri merciless attacks the members of Yurui's unit. With Yurui dead and only a handful of members left, the new leader of the team Nurui decides that they should escape as they were no match for one of the Seven Ninja Swordsmen of the Mist. As they flee, Omoi who believes that they should stand and fight, gets into an argument with Nurui and Kayui tries to quell the argument, but, Omoi unable to take the coward's way out turns and prepares to face Ameyuri. Clashing with the kunoichi, Omoi is soon overpowered until Nurui and Kayui arrive and lure her away as Ameyuri notes that she always saved the best for last. The two shinobi are soon incapacitated by Ameyuri's attack, leaving Omoi to lure her away once again. Using her Lightning Release: Depth Charge once again, Ameyuri is shocked to see the ground beneath her give way as she and Omoi began to sink into quicksand. When the Third Division arrives in time to rescue Omoi, Ameyuri who had seemingly grown to like the young Cloud ninja, gives him the blade Fang as a parting gift, and tells him that she'll be waiting for him in the afterlife.
+| LineColor       = A79548
+}}
+{{Episode table/part|subtitle=Power|c=#A79548}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 290
+| EpisodeNumber2  = 15
+| Title           = Power - Episode 1
+| NativeTitle     = 「力-Chikara-」episode1
+| NativeTitleLangCode = ja
+| DirectedBy      = Toshiyuki Tsuru
+| WrittenBy       = Toshiyuki Tsuru
+| Aux2            = Hirofumi Suzuki
+| OriginalAirDate = {{Start date|2012|11|22}}
+| AltDate         = April 18, 2015
+| ShortSummary    = Taking place in the aftermath of the Kage Summit, Team Kakashi is sent out on a mission by Tsunade to a location known as "The Hole" to investigate an incident where its people were killed. Regretting that she could not assign more people to the mission because of recent incidents elsewhere, the team sets out nonetheless. While there, they split up into two teams, with Yamato and Sai encountering officers from the neighboring Hachō Village where Shiseru and her team, after learning they are from Konoha shinobi, escort them to their village leader Disonasu. Elsewhere, Sakura and Naruto, who are at The Hole's water spring, encounter Kabuto Yakushi who reveals that the ninja he reanimated were behind the killing so he can use The Hole's waters to create a clone of the still living Hidan. As a fight ensues, between the two sides as Yamato and Sai rejoin with their team-mates, a flashback of the destruction of the village shows the reincarnated shinobi as the cause. The flashback ends with two young children, Leo and Miina, being rescued by their teacher Dokku and escaping with a few survivors.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 291
+| EpisodeNumber2  = 16
+| Title           = Power - Episode 2
+| NativeTitle     = 「力-Chikara-」episode2
+| NativeTitleLangCode = ja
+| DirectedBy      = {{StoryTeleplay|tlabel=Directed by|t=Masaaki Kumagai,<br />Chikara Sakurai & Toshiyuki Tsuru|sb=Toshiyuki Tsuru<br />& Tsuneo Kobayashi}}
+| WrittenBy       = Toshiyuki Tsuru
+| Aux2            = Takahiro Chiba, Kumiko Horikoshi,<br />Hirofumi Suzuki & Hiromi Okazaki
+| OriginalAirDate = {{Start date|2012|11|29}}
+| AltDate         = April 25, 2015
+| ShortSummary    = Team Kakashi has their hands full with Kabuto's Hidan clone and the reanimated Hayate Gekou as Naruto gets swallowed by a giant snake, but uses his Shadow Clones to escape while ingesting some of the snakes that were present in the pond. When Naruto surfaced, Kabuto retreats and leaves with his servants, using the reanimated Deidara as diversion, after revealing a village guard corpse in the snake's mouth. Meanwhile, Dokku takes care of the orphans, while Miina, due to trauma, became mute. After the attack, Naruto and Sakura join up with Shiseru, Yamato and Sai going with the rest of the guards. While Yamato and Sai investigate why Kabuto destroyed the village, Sakura and Naruto follow Shiseru to Dokku's house. When Dokku and the orphans see them and seeing Naruto wearing the same forehead protector as the reincarnated shinobi, Leo kicks Naruto and they run until they reach a broken bridge. Leo crosses first and when Dokku and Miina run, they fall down the ravine, but are saved by Naruto. Yamato and Sai ask about information when the nearby village leader showed them a book revealing the origin of The Hole, where Tonika Village resides. Some power resided on the hole many centuries ago. Naruto dreams again, this time inside his subconscious, in front of the Nine-Tails' cage, showing his feet oozing with the snakes he ingested earlier. Naruto and Dokku talk about the latter's failure to save a girl in his prime and all his failures in life, unlike Naruto, who became famous even in the Hachō Village, a rural area. Yamato and Sai discuss what will happen next, including "Saezuri" and an institution that will take care of the orphans. Elsewhere, with Hidan and Deidara nearby, Kabuto converses with some scrolls in a graveyard before putting another talisman in the reanimated Akatsuki member's head.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 292
+| EpisodeNumber2  = 17
+| Title           = Power - Episode 3
+| NativeTitle     = 「力-Chikara-」episode3
+| NativeTitleLangCode = ja
+| DirectedBy      = Yuu Yamashita
+| WrittenBy       = Toshiyuki Tsuru
+| Aux2            = Yasuhiko Kanezuka & Masaya Onishi
+| OriginalAirDate = {{Start date|2012|12|6}}
+| AltDate         = May 2, 2015
+| ShortSummary    = Miina wakes up in the middle of a night after having a nightmare where Naruto is consumed by numerous snakes inside his subconscious while the Nine-Tails looks on and goes to Dokku for consolation. The next morning Naruto wakes up feeling ill but despite this, decides to train the children after being prompted by them. Meanwhile in the wasteland outside of The Hole, the reanimated Deidara and Hidan begin a heated debate after slaughtering some of the village guards. Miina then has another strange dream where the village is attacked by a multiple-eyed creature, however she is saved by Naruto, covered in the golden chakra reminiscent of the Nine-Tails Fox Mode. Back in the wasteland, Deidara and Hidan continue to argue about the flaws of their abilities but are attacked by Yamato and Sai who are accompanied by a squad of village guards. Upon returning to Shiseru's home with Naruto still feeling unwell, Miina has another strange dream where she sees the snakes envelop Naruto's body while being coaxed by an unknown voice. She then rushes to Naruto and begins pounding his stomach. Shiseru then involuntarily hits Miina leaving everyone in shock. Later the village Chief, along with some guards come to the house. He tries to get the location of the remaining pieces of the village treasure entrusted to Dokku, however Miina is able to discern his true nature, revealing him to be a reanimated corpse. Kabuto then reveals himself and summons more reanimated corpses who Naruto and Sakura engage in battle. Although, Naruto is pushed back by the reanimated Hayate Gekou which causes Miina to again run to Naruto and revealed to be shouting at the snakes within him which he regurgitates. The snakes, now enfused with the Nine-Tails' chakra solidify into a miniaturized four-tailed demon fox form. Kabuto then places a talisman into the creature but finds it difficult to control. The creature then goes on a rampage.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 293
+| EpisodeNumber2  = 18
+| Title           = Power - Episode 4
+| NativeTitle     = 「力-Chikara-」episode4
+| NativeTitleLangCode = ja
+| DirectedBy      = Toshiyuki Tsuru
+| WrittenBy       = Toshiyuki Tsuru
+| Aux2            = Toshiyuki Tsuru & Hiroto Tanaka
+| OriginalAirDate = {{Start date|2012|12|13}}
+| AltDate         = May 9, 2015
+| ShortSummary    = The Nine-Tailed Naruto clone tries to attack Dokku and the orphans, when Might Guy and Rock Lee arrive to repel it. While they fight the beast, Kabuto tries to control it, but to no avail. The rest of Konoha 11 arrive. Team Asuma helps Sakura and Kakashi and Team Kurenai helps Naruto. Tenten and Neji arrive, but are cornered by the reincarnated puppets. Kakashi chases Kabuto. The beast grabs Naruto to absorb chakra, which the Nine-Tails gladly shares. Hinata tries to defend Naruto, but is sent flying. After the beast absorbs Naruto's chakra, it grows in size and starts to devastate the Hachō Village, even firing a Tailed Beast Bomb in far away, missing Yamato, Sai, Deidara and Hidan who are fighting outside the village. Dokku tries to save Naruto, who is still unconscious. Moments before the beast tramples them, Kabuto summons a snake to swallow both of them alive and retreats. While inside the underground hall in the Tonika Village, Naruto, unconscious and strangled by snakes, meets the Nine-Tails again in his subconscious. The Konoha-nin investigates Kabuto's intention in the meanwhile. Shiseru remembers an earlier conversation between her and Dokku about the pros and cons of them adopting the kids. While the Nine-Tails tries to control Naruto, Dokku calls him, but gets shouted instead. Dokku asks Naruto what burden a powerful person carries and made Naruto choose the reason why he desires to be powerful, seeing flashbacks of his comrades of Konoha and also Sasuke, leading to the seal inside Naruto to gain strength again. Dokku gives Naruto his forehead protector, stating that he believes in him. Meanwhile, Leo decides to save their teacher by giving the mysterious iron bars which were mentioned earlier by the Tonika Village Head. While inside the hall, Kabuto, along with two reincarnated puppets, approaches with Disonasu, revealing the village leader's betrayal. Disonasu pulls out a scroll, revealing Saezuri, a mysterious light much to Naruto and Dokku's shock.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 294
+| EpisodeNumber2  = 19
+| Title           = Power - Episode 5
+| NativeTitle     = 「力-Chikara-」episode5
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunori Mizuno
+| WrittenBy       = Toshiyuki Tsuru
+| Aux2            = Hirofumi Suzuki & Masayuki Kouda
+| OriginalAirDate = {{Start date|2012|12|20}}
+| AltDate         = May 16, 2015
+| ShortSummary    = While the Saezuri is revealed, learning that Disonasu employed Kabuto Yakushi to wipe out the residents of Tonika Village, Dokku tried to attack Disonasu, but stopped by a reincarnated puppet and restrained by a resurrected Takigakure shinobi. Disonasu also praised Naruto about defeating Pain, the one who scarred him and left him powerless, before kicking the boy repeatedly. Miina and the orphans came to The Hole to give the iron bars, but Kabuto's clone intercepted them. Meanwhile, the rest of Konoha 11, along with Kakashi, Shiseru, Yamato and Sai moved out to the area. Disonasu prepares the summoning of the "power" by putting the remaining iron bars while Naruto enters Sage Mode. Miina hums to the sound as the Saezuri is activated, causing the area Naruto is on, the Ama no Hoko, to rise above ground. Kakashi arrived on the scene, revealing Disonasu's past as a bloodthirsty murderer and former Akatsuki subordinate whose specialty is the field of Summoning Technique, having researched Impure World Reincarnation with Orochimaru. Kabuto summons his puppets, the Nine-Tailed Naruto Clone, Hidan, and Deidara. Naruto faces off with the clone, while Deidara uses Explosive Clay to create a diversion and chase Naruto. Disonasu escapes and Hidan faces Shikamaru. Deidara activates the Explosive Clay on the bodies of the resurrected individuals, as Hidan uses his ritual against Team Asuma, and Sakura got restrained by Hayate and the others. While Naruto relentlessly attacked the clone, he learned there is more than power. As Yamato restrained Disonasu, he activated the Saezuri, opening the area where Naruto faces the clone, draining the lake as an obelisk rises and creates a storm. After Hidan's clone body breaks down due to the shorten life spans of the snakes composing his body, Deidara is controlled by Kabuto to escape Kakashi. A lightning hit the area where the orphans are running, Miina pointing to the obelisk. When the storm expands towards Konoha, Tsunade goes out as the storm engulfs the Land of Fire. Naruto tried to stop Disonasu from ascending the tower, only to face his clone after he absorbed some of the tower's power and transformed a Hydra-tailed fox monster.
+| LineColor       = A79548
+}}
+{{#invoke:Episode list|sublist|Naruto: Shippuden season 13
+| EpisodeNumber   = 295
+| EpisodeNumber2  = 20
+| Title           = Power - Final Episode
+| NativeTitle     = 「力-Chikara-」episode Final
+| NativeTitleLangCode = ja
+| DirectedBy      = Toshiyuki Tsuru
+| WrittenBy       = Toshiyuki Tsuru
+| Aux2            = Hiroyuki Yamashita, Kengo Matsumoto, Hiroto Tanaka<br />& Hirofumi Suzuki
+| OriginalAirDate = {{Start date|2013|1|10}}
+| AltDate         = May 23, 2015
+| ShortSummary    = Absorbing the power within the Ama no Hoko, the Nine-Tailed Naruto Clone mutated into a hydra-tailed version of the Nine-Tails while sending Disonasu to his death. Overpowered, Naruto almost gave in to the Nine-Tails' offer for power when Minato's voice urges the boy to control the tailed beast as Naruto is engulfed in a six-tailed chakra cloak in the Nine-Tails' image. Over time, as he starts to lose against the clone, the Nine-Tails begins to take control over Naruto's body and assumes a seven-tailed jinchūriki state with Yamato trying to restrain it. At the same time, though followed by Kakashi Hatake, Kabuto Yakushi manages to take his leave in midst of the ensuing chaos. Dokku and Shiseru decide to deactivate the Ama no Hoko and say good-bye to the children. On their way there, they confess their love for each other and decide to get married if they survive before portions of the ground start to sink, with Dokku keeping Shiseru from falling. By that time, Miina is able to get through Naruto, regaining control as he assumed a new form to save Shiseru after telling Dokku to go forward and stop the Ama no Hoko. As Dokku recalls the tune Miina hummed to change the sounds in the Saezuri to deactivate the tower, Naruto uses his new power to destroy his clone as the Ama no Hoko recedes into the ground. The children hug Naruto and celebrate with him.
+| LineColor       = A79548
+}}
+{{End|html=y|Episode table}}</onlyinclude>
+
+== Home media release ==
+=== Japanese ===
+{|class="wikitable" style="text-align: center; width: 60%;"
+|-
+! scope="col" 175px;| Volume
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 1
+| April 3, 2013
+| 1
+| 276–280
+| <ref name="naruto13">{{Cite web|url=http://www.aniplex.co.jp/naruto/tv/13.html|archive-url=https://web.archive.org/web/20160713220029/http://www.aniplex.co.jp/naruto/tv/13.html|archive-date=July 13, 2016|title=九尾掌握と因果なる邂逅の章 - TV DVD - NARUTO-ナルト- 疾風伝 - アニプレックス|publisher=[[Aniplex]]|language=ja}}</ref>
+|-
+! scope="row" | 2
+| May 1, 2013
+| 1
+| 281–284
+| <ref name="naruto13"/>
+|-
+! scope="row" | 3
+| June 5, 2013
+| 1
+| 285–289
+| <ref name="naruto13"/>
+|}
+
+{|class="wikitable" style="text-align: center; width: 60%;"
+|+ Special Edition 【Power-Chikara-】
+|-
+! scope="col" 175px;| Volume
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | Black
+| July 3, 2013
+| 1
+| 290–292
+| <ref name="naruto14">{{Cite web|url=http://www.aniplex.co.jp/naruto/tv/14.html|archive-url=https://web.archive.org/web/20160704224020/http://www.aniplex.co.jp/naruto/tv/14.html|archive-date=July 4, 2016|title=スペシャル版 - TV DVD - NARUTO-ナルト- 疾風伝 - アニプレックス|publisher=[[Aniplex]]|language=ja}}</ref>
+|-
+! scope="row" | White
+| August 7, 2013
+| 1
+| 293–295
+| <ref name="naruto14"/>
+|}
+
+=== English ===
+{|class="wikitable" style="text-align: center; width: 60%;"
+|+ [[Viz Media]] (North America – Region 1/A)
+|-
+! scope="col" 175px;| Box set
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 22
+| April 21, 2015
+| 2
+| 271–283
+| <ref name="Naruto Shippuden Box Set 22">{{Cite web|url=http://www.viz.com/watch/dvd-box-set/naruto-shippuden-uncut-video-box-sets-volume-22/11002|archive-url=https://web.archive.org/web/20160701013412/http://www.viz.com/watch/dvd-box-set/naruto-shippuden-uncut-video-box-sets-volume-22/11002|archive-date=July 1, 2016|title=Naruto Shippuden Uncut, Vol 22 (DVD Box Set)|publisher=[[Viz Media]]}}</ref>
+|-
+! scope="row" | 23
+| July 28, 2015
+| 2
+| 284–296
+| <ref name="Naruto Shippuden Box Set 23">{{Cite web|url=http://www.viz.com/watch/dvd-box-set/naruto-shippuden-uncut-video-box-sets-volume-23/11636|archive-url=https://web.archive.org/web/20160701021922/http://www.viz.com/watch/dvd-box-set/naruto-shippuden-uncut-video-box-sets-volume-23/11636|archive-date=July 1, 2016|title=Naruto Shippuden Uncut, Vol 23 (DVD Box Set)|publisher=[[Viz Media]]}}</ref>
+|}
+
+{|class="wikitable" style="text-align: center; width: 60%;"
+|+ [[Manga Entertainment]] (United Kingdom and Ireland – Region 2/B)
+|-
+! scope="col" 175px;| Volume
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 22
+| September 14, 2015 || 2 || 271–283 || <ref>{{Cite web|url=http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-22/xv-movies-games-entertainment/pd/119382?path=dvd|archive-url=https://web.archive.org/web/20170301025026/http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-22/xv-movies-games-entertainment/pd/119382?path=dvd|archive-date=March 1, 2017|title=Naruto - Shippuden: Collection - Volume 22 - DVD|publisher=[[Xtra-vision]]}}</ref>
+|-
+! scope="row" | 23
+| February 8, 2016 || 2 || 284–296 || <ref>{{Cite web|url=http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-23/xv-movies-games-entertainment/pd/128404?path=dvd|archive-url=https://web.archive.org/web/20170301025024/http://www.xtra-vision.co.uk/Naruto-Shippuden-Collection-Volume-23/xv-movies-games-entertainment/pd/128404?path=dvd|archive-date=March 1, 2017|title=Naruto - Shippuden: Collection - Volume 23 - DVD|publisher=[[Xtra-vision]]}}</ref>
+|}
+
+{|class="wikitable" style="text-align: center; width: 60%;"
+|+ [[Madman Entertainment]] (Australia and New Zealand – Region 4/B)
+|-
+! scope="col" 175px;| Collection
+! scope="col" 125px;| Date
+! scope="col" | Discs
+! scope="col" | Episodes
+! scope="col" | Reference
+|-
+! scope="row" | 22 
+| June 10, 2015 || 2 || 271–283 || <ref>{{Cite web|url=https://www.madman.co.nz/catalogue/view/32396/naruto-shippuden-collection-22-eps-271283|archive-url=https://web.archive.org/web/20170302193046/https://www.madman.co.nz/catalogue/view/32396/naruto-shippuden-collection-22-eps-271283|archive-date=March 2, 2017|title=Naruto Shippuden Collection 22 (Eps 271–283) - DVD|publisher=[[Madman Entertainment]]}}</ref>
+|-
+! scope="row" | 23 
+| September 16, 2015 || 2 || 284–296 || <ref>{{Cite web|url=https://www.madman.com.au/catalogue/view/33513/naruto-shippuden-collection-23-eps-284296|archive-url=https://web.archive.org/web/20170102183016/https://www.madman.com.au/catalogue/view/33513/naruto-shippuden-collection-23-eps-284296|archive-date=January 2, 2017|title=Naruto Shippuden Collection 23 (Eps 284–296) - DVD|publisher=[[Madman Entertainment]]}}</ref>
+|}
+
+== References ==
+; General
+* {{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes23/index.html|title=Episodes 489–501|publisher=TV Tokyo|language=ja|access-date=July 21, 2012}}
+* {{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes24/index.html|title=Episodes 502–514|publisher=TV Tokyo|language=ja|access-date=October 13, 2012}}
+* {{Cite web|url=http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes25/index.html|title=Episodes 515–526|publisher=TV Tokyo|language=ja|access-date=January 10, 2013}}
+
+; Specific
+<References/>
+
+{{Naruto episodes}}
+{{DEFAULTSORT:Naruto: Shippuden episodes season 110, List of}}
+[[Category:2012 Japanese television seasons]]
+[[Category:2013 Japanese television seasons|Shippuden Season 13]]
+[[Category:2015 American animated television seasons]]
+[[Category:Naruto seasons|Shippuden Season 13]]
