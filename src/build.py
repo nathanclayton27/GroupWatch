@@ -112,6 +112,8 @@ def load_property(path):
 
     seen = set()
     total = 0
+    totalw = 0.0
+    nweighted = 0
     for s in prop["sections"]:
         if not s.get("id"):
             fail("%s: a section has no id" % path.name)
@@ -127,8 +129,21 @@ def load_property(path):
                 fail("%s: duplicate item id %r" % (path.name, x["id"]))
             seen.add(x["id"])
             total += 1
+            # A weighted list measures itself in hours, so the home bars have
+            # to as well (CLU-207). Summed here rather than in the template
+            # because the template only ever sees the manifest, which has no
+            # per-item anything. Absent `w` contributes nothing: a list is
+            # weighted or it is not, and a half-weighted one is the CLU-131
+            # trap rather than a thing to average over.
+            w = x.get("w")
+            if isinstance(w, (int, float)) and w >= 0:
+                totalw += float(w)
+                nweighted += 1
 
     prop["_total"] = total
+    # only claim a weight total when EVERY row carries one; a partial total
+    # would make the bar confidently wrong rather than honestly coarse
+    prop["_totalw"] = round(totalw, 2) if (total and nweighted == total) else None
     return prop
 
 
@@ -202,6 +217,9 @@ def main():
             "accentDark": p.get("accentDark", ""),
             "unit": p["unit"],
             "total": p["_total"],
+            # present only on a fully weighted list — its absence is what
+            # tells the front end to fall back to counting rows
+            **({"totalw": p["_totalw"]} if p.get("_totalw") else {}),
             # home ranks schedule-active clubs first; the flag is all it needs
             **({"scheduled": True} if p.get("schedule") else {}),
             # grab-bag lists welcome a random pick; everything else is
@@ -289,7 +307,13 @@ def main():
         for s in p.get("sections", []):
             for x in s.get("items", []):
                 n = str(x.get("n", ""))
-                rows.append([p["slug"], x["id"], x["t"], n])
+                row = [p["slug"], x["id"], x["t"], n]
+                # the fifth slot is this row's hours, and it only exists on a
+                # fully weighted list — ~44KB across the catalogue, on a file
+                # home already fetches
+                if p.get("_totalw"):
+                    row.append(x.get("w"))
+                rows.append(row)
                 if syncable:
                     y = _year_of(x, n)
                     if y:

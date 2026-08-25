@@ -56,7 +56,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 52
+    "total": 52,
+    "totalw": 235.77
   },
   {
     "slug": "disney",
@@ -76,6 +77,7 @@
       "many": "films"
     },
     "total": 654,
+    "totalw": 910.58,
     "random": true
   },
   {
@@ -96,7 +98,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 132
+    "total": 132,
+    "totalw": 574.92
   },
   {
     "slug": "mario",
@@ -115,7 +118,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 19
+    "total": 19,
+    "totalw": 144.83
   },
   {
     "slug": "the-simpsons",
@@ -173,7 +177,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 31
+    "total": 31,
+    "totalw": 679.05
   },
   {
     "slug": "one-piece",
@@ -230,7 +235,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 51
+    "total": 51,
+    "totalw": 53.88
   },
   {
     "slug": "dragon-ball",
@@ -268,7 +274,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 27
+    "total": 27,
+    "totalw": 57.78
   },
   {
     "slug": "amazing-spider-man",
@@ -287,7 +294,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 548
+    "total": 548,
+    "totalw": 579.0
   },
   {
     "slug": "best-picture",
@@ -307,6 +315,7 @@
       "many": "films"
     },
     "total": 621,
+    "totalw": 1301.6,
     "random": true
   },
   {
@@ -326,7 +335,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 971
+    "total": 971,
+    "totalw": 1645.0
   },
   {
     "slug": "avatar",
@@ -461,7 +471,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 35
+    "total": 35,
+    "totalw": 78.17
   },
   {
     "slug": "death-note",
@@ -500,7 +511,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 194
+    "total": 194,
+    "totalw": 1753.79
   },
   {
     "slug": "final-fantasy",
@@ -519,7 +531,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 21
+    "total": 21,
+    "totalw": 832.06
   },
   {
     "slug": "seinfeld",
@@ -577,6 +590,7 @@
       "many": "episodes"
     },
     "total": 34,
+    "totalw": 34.23,
     "random": true
   },
   {
@@ -596,7 +610,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 13
+    "total": 13,
+    "totalw": 30.14
   },
   {
     "slug": "futurama",
@@ -635,7 +650,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 47
+    "total": 47,
+    "totalw": 63.21
   },
   {
     "slug": "one-piece-manga",
@@ -673,7 +689,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 19
+    "total": 19,
+    "totalw": 197.88
   },
   {
     "slug": "stephen-king",
@@ -711,7 +728,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 26
+    "total": 26,
+    "totalw": 45.8
   },
   {
     "slug": "tom-cruise",
@@ -730,7 +748,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 45
+    "total": 45,
+    "totalw": 93.95
   },
   {
     "slug": "dragon-ball-manga",
@@ -768,7 +787,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 20
+    "total": 20,
+    "totalw": 250.1
   },
   {
     "slug": "naruto-manga",
@@ -806,7 +826,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 10
+    "total": 10,
+    "totalw": 23.92
   },
   {
     "slug": "hitchcock",
@@ -825,7 +846,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 54
+    "total": 54,
+    "totalw": 88.11
   },
   {
     "slug": "doctor-who",
@@ -863,7 +885,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 13
+    "total": 13,
+    "totalw": 285.9
   },
   {
     "slug": "alien-predator",
@@ -882,7 +905,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 17
+    "total": 17,
+    "totalw": 36.51
   },
   {
     "slug": "halo",
@@ -901,7 +925,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 10
+    "total": 10,
+    "totalw": 84.28
   },
   {
     "slug": "sherlock-holmes",
@@ -939,7 +964,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 17
+    "total": 17,
+    "totalw": 30.72
   },
   {
     "slug": "evangelion",
@@ -977,7 +1003,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 39
+    "total": 39,
+    "totalw": 87.63
   },
   {
     "slug": "ridley-scott",
@@ -996,7 +1023,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 29
+    "total": 29,
+    "totalw": 63.9
   },
   {
     "slug": "metal-gear",
@@ -1015,7 +1043,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 30
+    "total": 30,
+    "totalw": 399.54
   },
   {
     "slug": "the-wire",
@@ -1053,7 +1082,8 @@
       "one": "session",
       "many": "sessions"
     },
-    "total": 27
+    "total": 27,
+    "totalw": 12.32
   },
   {
     "slug": "dune",
@@ -1112,7 +1142,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 10
+    "total": 10,
+    "totalw": 337.06
   },
   {
     "slug": "hunter-x-hunter",
@@ -1189,7 +1220,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 9
+    "total": 9,
+    "totalw": 65.66
   },
   {
     "slug": "jojo",
@@ -1246,7 +1278,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 74
+    "total": 74,
+    "totalw": 124.79
   },
   {
     "slug": "bobs-burgers",
@@ -1303,7 +1336,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 14
+    "total": 14,
+    "totalw": 133.0
   },
   {
     "slug": "sandman",
@@ -1341,7 +1375,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 12
+    "total": 12,
+    "totalw": 27.02
   },
   {
     "slug": "silent-hill",
@@ -1360,7 +1395,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 10
+    "total": 10,
+    "totalw": 80.03
   },
   {
     "slug": "muppets",
@@ -1418,7 +1454,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 24
+    "total": 24,
+    "totalw": 48.67
   },
   {
     "slug": "gears-of-war",
@@ -1437,7 +1474,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 9
+    "total": 9,
+    "totalw": 87.53
   },
   {
     "slug": "kingdom-hearts",
@@ -1456,7 +1494,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 31
+    "total": 31,
+    "totalw": 271.74
   },
   {
     "slug": "wes-anderson",
@@ -1475,7 +1514,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 13
+    "total": 13,
+    "totalw": 21.45
   },
   {
     "slug": "mad-men",
@@ -1513,7 +1553,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 11
+    "total": 11,
+    "totalw": 100.79
   },
   {
     "slug": "coen-brothers",
@@ -1532,7 +1573,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 22
+    "total": 22,
+    "totalw": 38.27
   },
   {
     "slug": "a24",
@@ -1551,7 +1593,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 211
+    "total": 211,
+    "totalw": 330.67
   },
   {
     "slug": "berserk-manga",
@@ -1608,7 +1651,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 10
+    "total": 10,
+    "totalw": 23.31
   },
   {
     "slug": "persona",
@@ -1627,7 +1671,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 7
+    "total": 7,
+    "totalw": 431.23
   },
   {
     "slug": "gilmore-girls",
@@ -1666,7 +1711,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 46
+    "total": 46,
+    "totalw": 358.03
   },
   {
     "slug": "nicolas-cage",
@@ -1685,7 +1731,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 113
+    "total": 113,
+    "totalw": 193.67
   },
   {
     "slug": "archer",
@@ -1723,7 +1770,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 10
+    "total": 10,
+    "totalw": 63.15
   },
   {
     "slug": "ghost-in-the-shell",
@@ -1742,7 +1790,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 86
+    "total": 86,
+    "totalw": 40.97
   },
   {
     "slug": "mash",
@@ -1819,6 +1868,7 @@
       "many": "films"
     },
     "total": 1418,
+    "totalw": 2313.5,
     "random": true
   },
   {
@@ -1857,7 +1907,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 30
+    "total": 30,
+    "totalw": 61.32
   },
   {
     "slug": "battlestar-galactica",
@@ -1897,7 +1948,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 211
+    "total": 211,
+    "totalw": 923.32
   },
   {
     "slug": "discworld",
@@ -1976,7 +2028,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 17
+    "total": 17,
+    "totalw": 126.12
   },
   {
     "slug": "carpenter",
@@ -1995,7 +2048,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 21
+    "total": 21,
+    "totalw": 35.16
   },
   {
     "slug": "spawn",
@@ -2054,7 +2108,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 118
+    "total": 118,
+    "totalw": 669.91
   },
   {
     "slug": "fps-canon",
@@ -2092,7 +2147,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 18
+    "total": 18,
+    "totalw": 416.86
   },
   {
     "slug": "civil-war",
@@ -2111,7 +2167,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 105
+    "total": 105,
+    "totalw": 158.0
   },
   {
     "slug": "columbo",
@@ -2131,7 +2188,8 @@
       "one": "episode",
       "many": "episodes"
     },
-    "total": 69
+    "total": 69,
+    "totalw": 95.36
   },
   {
     "slug": "wheel-of-time",
@@ -2169,7 +2227,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 6
+    "total": 6,
+    "totalw": 160.85
   },
   {
     "slug": "monster",
@@ -2209,7 +2268,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 47
+    "total": 47,
+    "totalw": 31.05
   },
   {
     "slug": "gossip-girl",
@@ -2266,7 +2326,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 11
+    "total": 11,
+    "totalw": 395.0
   },
   {
     "slug": "friday-night-lights",
@@ -2325,6 +2386,7 @@
       "many": "films"
     },
     "total": 34,
+    "totalw": 44.11,
     "random": true
   },
   {
@@ -2364,6 +2426,7 @@
       "many": "films"
     },
     "total": 102,
+    "totalw": 203.48,
     "random": true
   },
   {
@@ -2442,7 +2505,8 @@
       "one": "game",
       "many": "games"
     },
-    "total": 10
+    "total": 10,
+    "totalw": 263.41
   },
   {
     "slug": "sight-and-sound",
@@ -2462,6 +2526,7 @@
       "many": "films"
     },
     "total": 100,
+    "totalw": 204.41,
     "random": true
   },
   {
@@ -2522,7 +2587,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 18
+    "total": 18,
+    "totalw": 11.07
   },
   {
     "slug": "indie-essentials",
@@ -2542,6 +2608,7 @@
       "many": "games"
     },
     "total": 24,
+    "totalw": 196.98,
     "random": true
   },
   {
@@ -2599,7 +2666,8 @@
       "one": "entry",
       "many": "entries"
     },
-    "total": 256
+    "total": 256,
+    "totalw": 109.14
   },
   {
     "slug": "spider-man-after-civil-war",

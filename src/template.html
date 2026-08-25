@@ -1793,11 +1793,15 @@ function ensureIndex(){
   if(GWIXP) return GWIXP;
   GWIXP = fetch('properties/search.json').then(r=>r.json()).then(d=>{
     GWIX = d;
+    WMAP = null;
     SYNCM = {};
     for(const k in d.sync){
       const g = d.sync[k];
       g.forEach(p=>{ if(p[0]===SLUG) SYNCM[p[1]] = g.filter(q=>q[0]!==SLUG); });
     }
+    // bars painted before this arrived were counting rows; now they can
+    // count hours (CLU-207)
+    try{ upgradeBars(); }catch(e){}
     return d;
   }).catch(()=>{ GWIXP = null; return null; });
   return GWIXP;
@@ -5092,6 +5096,58 @@ function splashList(){ return MANIFEST.filter(m=> !m.secret || isUnlocked(m.slug
 // A manifest total is written at build time, which a daily list cannot have —
 // only the reader's own clock knows how many days have passed.
 function totalOf(m){ return m.generate ? generatedTotal(m.generate) : m.total; }
+// How far through a list you are, 0..1. A weighted list measures itself in
+// hours everywhere else, so its bar does too (CLU-207) — a three-hour film and
+// a twenty-minute short should not move it by the same amount. `totalw` is
+// emitted only where EVERY row carries a weight, so its absence means rows are
+// the only honest measure and counting them is the answer rather than a
+// fallback. The bar stays approximate at 46 marks; only the unit changes.
+let WMAP = null;
+function weightsOf(slug){
+  if(!GWIX || !GWIX.rows) return null;
+  if(!WMAP){
+    WMAP = {};
+    for(const r of GWIX.rows){
+      if(r.length < 5 || !(r[4] >= 0)) continue;
+      (WMAP[r[0]] || (WMAP[r[0]] = {}))[r[1]] = r[4];
+    }
+  }
+  return WMAP[slug] || null;
+}
+function fillOf(m){
+  const tot = totalOf(m);
+  const byRows = tot ? Math.min(1, localCount(m.slug) / tot) : 0;
+  if(!m.totalw) return byRows;
+  const w = weightsOf(m.slug);
+  if(!w) return byRows;          // index has not landed yet; refined on arrival
+  let ids = [];
+  try{ ids = JSON.parse(localStorage.getItem('gw:v1:' + m.slug) || '[]'); }catch(e){}
+  if(!Array.isArray(ids)) return byRows;
+  let h = 0;
+  for(const id of ids) if(w[id] >= 0) h += w[id];
+  return Math.min(1, h / m.totalw);
+}
+// The wall and the shelf paint before the index arrives, so their bars start
+// row-based. Refine them in place when it lands — and ONLY where a bar really
+// moves, because a wall that visibly reshuffles on every load would be worse
+// than the inaccuracy this fixes. At 46 marks most lists do not move at all.
+function upgradeBars(){
+  document.querySelectorAll('.card[data-slug]').forEach(card=>{
+    const m = MANIFEST.find(x=> x.slug === card.dataset.slug);
+    if(!m || !m.totalw) return;
+    const marks = card.querySelectorAll('.cbar span');
+    if(!marks.length) return;
+    const want = Math.round(marks.length * fillOf(m));
+    let have = 0;
+    marks.forEach(x=>{ if(x.classList.contains('on')) have++; });
+    if(want === have) return;
+    marks.forEach((x, i)=>{
+      const lit = i < want;
+      x.classList.toggle('on', lit);
+      x.style.background = lit ? accentOf(m) : '';
+    });
+  });
+}
 
 // The gate would be theatre if the list it guards sat in the repository in
 // plain text, so the property body is shipped encrypted and the password is the
@@ -5448,7 +5504,7 @@ function cardHTML(m, why, compact, starred){
   const TICKS = 46;
   const n = localCount(m.slug);
   const tot = totalOf(m);
-  const on = Math.round(TICKS * Math.min(1, tot ? n/tot : 0));
+  const on = Math.round(TICKS * fillOf(m));
   let bar = '';
   for(let i=0;i<TICKS;i++)
     bar += '<span'+(i<on?' class="on" style="background:'+esc(accentOf(m))+'"':'')+'></span>';
@@ -5556,6 +5612,9 @@ function renderWall(host, externalChips){
     + '<div class="wtally"></div>'
     + '<div class="cards wall">' + list.map(m=> cardHTML(m, null, true)).join('') + '</div>';
   wireCards(host);
+  // the index may already be in, in which case these bars can count hours
+  // straight away; if it is not, this is a no-op and ensureIndex does it
+  try{ upgradeBars(); }catch(e){}
   const wall = host.querySelector('.wall');
   const cards = [...wall.querySelectorAll('.card')];
   const tally = host.querySelector('.wtally');
@@ -5729,6 +5788,7 @@ function renderShelf(shelf){
   // the star is on the title now, so the why-line says why it is HERE
   // rather than repeating the mark sitting two pixels above it
   let html = cardHTML(top.m, whyOf(top), false, top.st);
+  setTimeout(()=>{ try{ upgradeBars(); }catch(e){} }, 0);
   const rest = shelf.slice(1, 4);
   if(rest.length){
     html += '<div style="margin-top:14px">' + rest.map(s=>{
@@ -6344,6 +6404,11 @@ function showHome(){
     paintWall();
   };
   paintWall();
+  // The bars can only count hours once the search index is in, and home does
+  // not otherwise fetch it for a signed-out reader. Pay for it only when it
+  // would actually change something: at least one fully weighted list with
+  // ticks on it. No weighted progress, no 1.3MB fetch (CLU-207).
+  if(MANIFEST.some(m=> m.totalw && localCount(m.slug) > 0)) ensureIndex();
 }
 
 function openMenu(){
