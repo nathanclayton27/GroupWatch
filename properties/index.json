@@ -348,6 +348,25 @@
     "total": 113
   },
   {
+    "slug": "bleach",
+    "media": [
+      "anime"
+    ],
+    "title": "Bleach",
+    "subtitle": "The original run and Thousand-Year Blood War",
+    "kind": "anime",
+    "year": "2004–",
+    "popularity": 85,
+    "blurb": "411 episodes in broadcast order, both series, with the filler marked.",
+    "accent": "#E85A0C",
+    "accentDark": "#FF9B5E",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 411
+  },
+  {
     "slug": "middle-earth",
     "media": [
       "books",

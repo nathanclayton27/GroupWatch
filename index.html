@@ -1732,6 +1732,25 @@ let MANIFEST = [
     "total": 113
   },
   {
+    "slug": "bleach",
+    "media": [
+      "anime"
+    ],
+    "title": "Bleach",
+    "subtitle": "The original run and Thousand-Year Blood War",
+    "kind": "anime",
+    "year": "2004–",
+    "popularity": 85,
+    "blurb": "411 episodes in broadcast order, both series, with the filler marked.",
+    "accent": "#E85A0C",
+    "accentDark": "#FF9B5E",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 411
+  },
+  {
     "slug": "middle-earth",
     "media": [
       "books",
@@ -4071,7 +4090,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '2a2c0a447a63';
+const BUILD = '95ed69c3eb99';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
