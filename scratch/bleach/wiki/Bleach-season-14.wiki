@@ -1,0 +1,883 @@
+{{Short description|Season of television series}}
+{{Infobox television season
+| bgcolour     = #701C1C
+| image        = Bleach DVD season 14 volume 1.jpg
+| caption      = Cover of the first DVD compilation released by [[Aniplex]] of the Arrancar: Downfall arc, featuring [[Ichigo Kurosaki]]
+| num_episodes = 51
+| network      = [[TV Tokyo]]
+| first_aired  = {{Start date|2010|4|13}}
+| last_aired   = {{End date|2011|4|5}}
+}}
+The fourteenth season of the ''[[Bleach (TV series)|Bleach]]'' [[anime]] television series is based on [[Tite Kubo]]'s ''[[Bleach (manga)|Bleach]]'' [[manga]] series. It is known as the {{Nihongo|'''Arrancar: Downfall arc'''|破面・滅亡篇|Arankaru・Metsubō-hen}},<ref name="dvd1">{{Cite web|url=https://www.amazon.co.jp/dp/B004EWFWLM/|title = BLEACH 破面・滅亡篇 1|language=ja|access-date=December 6, 2010}}</ref> is directed by [[Noriyuki Abe]], and produced by [[TV Tokyo]], [[Dentsu]], and [[Studio Pierrot]].<ref name="staff">{{Cite web|url=https://pierrot.jp/title/bleach/staff.html|title=ぴえろ BLEACH =ブリーチ= |publisher=[[Studio Pierrot]]|language=ja|access-date=April 8, 2009}}</ref> The season concludes the fight between Soul Reapers and Arrancars, with [[Ichigo Kurosaki]] saving [[Orihime Inoue]] and fighting [[Sousuke Aizen]].
+
+The season aired from April 13, 2010, to April 5, 2011.<ref name="TV Tokyo schedule">{{Cite web|url=http://www.tv-tokyo.co.jp/program/detail/10155_201004131800.html|script-title=ja:ＢＬＥＡＣＨ 第２６６話「一護ＶＳウルキオラ、再開」番組情報 テレビ東京|publisher=[[TV Tokyo]]|language=ja|access-date=April 8, 2010|archive-url=https://web.archive.org/web/20100415054640/http://www.tv-tokyo.co.jp/program/detail/10155_201004131800.html|archive-date=April 15, 2010|url-status=dead}}</ref> Aniplex collected it in eleven DVD volumes between February 23 and December 14, 2011.<ref name="dvd1"/><ref>{{Cite web|url=https://www.amazon.co.jp/dp/B005TL0V4A/|title=BLEACH 破面・滅亡篇 11 |language=ja |access-date=December 27, 2011}}</ref> The English adaptation of the ''Bleach'' anime is licensed by [[Viz Media]], and the season aired on [[Adult Swim]]'s [[Toonami]] programming block from August 12, 2012, to September 29, 2013.<ref>{{Cite web|url=https://www.animenewsnetwork.com/news/2006-03-15/viz-officially-announces-bleach-anime|title=Viz Officially Announces Bleach Anime|date=March 15, 2006|website=[[Anime News Network]]|access-date=April 13, 2009}}</ref>
+
+The episodes uses six pieces of theme music; two opening and four endings. The first opening theme song, "[[Change (Miwa song)|Change]]" performed by [[Miwa (singer)|Miwa]], is used from episode 266 to 291, while the second opening theme song, {{Nihongo|"[[Ranbu no Melody]]"|乱舞のメロディ|"Melody of the Wild Dance"}} performed by [[Sid (band)|Sid]], is used from episode 292 to 316. The first ending theme song, "{{Ill|Stay Beautiful (Diggy-Mo' song)|lt=Stay Beautiful|ja|STAY BEAUTIFUL}}" performed by [[Diggy-Mo']], is used from episode 266 to 278, the second ending theme song, "{{Ill|Echoes (Universe song)|lt=Echoes|ja|echoes (universeの曲)}}" performed by {{Ill|Universe (band)|lt=Universe|ja|universe (バンド)}}, is used from episode 279 to 291, the third ending theme song, "{{Ill|Last Moment|ja|Last Moment}}" performed by [[Spyair]], is used from episode 292 to 303, and the fourth ending theme song "Song for..." performed by [[Rookiez Is Punk'd]] is used from episode 304 to 316.
+__TOC__
+{{Clear}}
+
+== Episodes ==
+{{See also|List of Bleach episodes{{!}}List of ''Bleach'' episodes}}
+<onlyinclude>
+{{Episode table
+| background = #701C1C
+| overall    = 5
+| season     = 5
+| title      = 38
+| director   = 10
+| directorR  = {{efn|name="EP-Staff"|Production staff information is taken from the ending credits of each episode.}}
+| writer     = 10
+| writerR    = {{efn|name="EP-Staff"}}
+| aux2       = 10
+| aux2T      = Storyboarded by
+| aux2R      = {{efn|name="EP-Staff"}}
+| airdate    = 11
+| altdate    = 11
+| altdateT   = English air date
+| dontclose  = y
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 266
+| EpisodeNumber2  = 1
+| Title           = Ichigo vs. Ulquiorra, Resume!
+| TranslitTitle   = Ichigo tai Urukiora, Saikai!
+| NativeTitle     = 一護vsウルキオラ、再開！
+| NativeTitleLangCode = ja
+| DirectedBy      = [[Noriyuki Abe]]{{efn|name=Recap-266|The entirety of episode 266 is a [[recap sequence|recap]] using footage from previous episodes and only credits [[Noriyuki Abe]] as director}}
+| WrittenBy       = {{Small|N/A}}{{efn|name=Recap-266}}
+| Aux2            = {{Small|N/A}}{{efn|name=Recap-266}}
+| OriginalAirDate = {{Start date|2010|4|13}}
+| AltDate         = August 12, 2012
+| ShortSummary    = This episode [[recap sequence|recaps]] the story of the intense war between some of the [[List of Soul Reapers in Bleach#Characteristics|Soul Reaper]] [[List of Soul Reapers in Bleach#captain|captains]] and [[List of Soul Reapers in Bleach#lieutenant|lieutenants]] and the remaining [[List of Hollows in Bleach#Espada|Espadas]] in [[Sousuke Aizen]]'s arrancar army. It concludes with when [[Ichigo Kurosaki]] and [[List of Hollows in Bleach#Ulquiorra Schiffer|Ulquiorra Schiffer]] are about to renew their fight.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 267
+| EpisodeNumber2  = 2
+| Title           = Connected Hearts! The Left Fist of Certain Death!
+| TranslitTitle   = Tsunagaru Kokoro! Kesshi no Saken!
+| NativeTitle     = 繋がる心！決死の左拳！
+| NativeTitleLangCode = ja
+| DirectedBy      = Rokō Ogiwara
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Tetsuhito Saito
+| OriginalAirDate = {{Start date|2010|4|20}}
+| AltDate         = August 19, 2012
+| ShortSummary    = Ichigo and Ulquiorra's final battle properly gets underway with the two of them being more or less evenly matched. Ichigo is able to read his opponent's movements better than he could when they first fought, managing to wound Ulquiorra, if even slightly. Ichigo surmises that it is either he is becoming more like a hollow or his opponent is becoming more human, which angers Ulquiorra. Meanwhile, [[Yasutora Sado|Yasutora "Chad" Sado]] and [[Renji Abarai]] struggle to fight a gigantic hollow in the desert of Hueco Mundo named Battikaroa, eventually claiming victory after discovering its weakness by blasting its head off after cracking its body. Back in a tower of Las Noches, [[Orihime Inoue]] manages to protect Ichigo from a near-lethal attack from Ulquiorra.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 268
+| EpisodeNumber2  = 3
+| Title           = Jealousy and Hatred...Orihime's Dilemma!
+| TranslitTitle   = Shitto to Zōo...Kyūchi no Orihime!
+| NativeTitle     = 嫉妬と憎悪…窮地の織姫！
+| NativeTitleLangCode = ja
+| DirectedBy      = Yasuto Nishikata
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Yasuto Nishikata
+| OriginalAirDate = {{Start date|2010|4|27}}
+| AltDate         = August 26, 2012
+| ShortSummary    = Ichigo and Ulquiorra continue their fierce fight as [[List of Hollows in Bleach#Loly Aivirrne and Menoly Mallia|Loly Aivirrne and Menoly Mallia]] approach Orhime. Although Loly orders Menoly to rip Orihime to shreds, Menoly refuses, telling Loly that Orihime has outstanding power which can heal anything. Loly berates Menoly and begins to torture Orihime by herself as Ichigo tries to reach Orihime despite Ulquiorra blocking him. When [[List of Hollows in Bleach#Yammy Riyalgo|Yammy Riyalgo]] suddenly arrives, he kills Menoly and injures Loly when Ulquiorra refuses to let him fight Ichigo. Orihime heals Loly, who then releases her ''zanpakutō'', Escolopendra, revealing herself with multiple venomous skeletal tentacles. As Loly squares off with Yammy, he punches her through the wall and lets her fall, seemingly to her death. He then aims for Orihime, who tries to defend herself with Santen Kesshun as Ichigo still tries to defeat Ulquiorra. Meanwhile, [[Rukia Kuchiki]] continues to fight [[List of Hollows in Bleach#Rudbornn Chelute|Rudbornn Chelute]] and the Exequias as Chad and Renji slaughter more hollows. [[Uryū Ishida]] bursts through the wall of the tower with Ginrei Kojaku, preparing to aid Ichigo and rescue Orihime.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 269
+| EpisodeNumber2  = 4
+| Title           = Ichigo and Uryū, Bonded Back to Back!
+| TranslitTitle   = Ichigo to Uryū, Senakaawase no Kizuna!
+| NativeTitle     = 一護と雨竜、背中合わせの絆！
+| NativeTitleLangCode = ja
+| DirectedBy      = [[Mitsue Yamazaki]]
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Hideyo Yamamoto
+| OriginalAirDate = {{Start date|2010|5|4}}
+| AltDate         = September 2, 2012
+| ShortSummary    = Uryū fights Yammy separate from the group, using the majority of his Quincy techniques to lure him into a trap. Using mines he had obtained from [[Mayuri Kurotsuchi]] and planting them on every floor of the fifth tower, Uryū succeeds in dropping Yammy all the way to ground level. Meanwhile, Rukia has difficulty in dispatching Rudbornn and the Exequias until Chad and Renji show up to help. Ichigo, still battling Ulquiorra, dons his hollow mask and starts to overwhelm his opponent. Ulquiorra breaks through the [[canopy (building)|canopy]] of Las Noches as he explains there are two things forbidden there: use of Grand Rey Cero and the release of high-ranking Espadas' ''zanpaktõ''. Free from these restrictions, he releases his ''zanpakutō'', Murciélago, giving him large bat-like wings, and nearly decapitates Ichigo with his first attack.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 270
+| EpisodeNumber2  = 5
+| Title           = Beginning of Despair...Ichigo, the Unreachable Blade
+| TranslitTitle   = Zetsubō no Hajimari...Ichigo, Todokanu Yaiba
+| NativeTitle     = 絶望の始まり…一護、届かぬ刃
+| NativeTitleLangCode = ja
+| DirectedBy      = {{Ill|Yoshifumi Sueda|ja|末田宜史}}
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Ogura Shirakawa
+| OriginalAirDate = {{Start date|2010|5|11}}
+| AltDate         = September 9, 2012
+| ShortSummary    = Ichigo tries to fend off Ulquiorra's attacks with mixed results. However, he declares that he will never give up even if this arrancar is stronger than he is. Ulquiorra responds by transforming into his second release, which he claims Aizen himself has not seen. Ichigo attempts to defend himself and get in an attack, but Ulquiorra is too fast and powerful for him. Eventually, when Orihime and Uryū reach the surface, they discover that Ichigo has already been defeated and captured by Ulquiorra, who then tells Orihime to watch how he will extinguish her last hope by killing Ichigo. With that, he punches a hole through Ichigo's chest by firing his Cero Oscuras.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 271
+| EpisodeNumber2  = 6
+| Title           = Ichigo Dies! Orihime, the Cry of Sorrow!
+| TranslitTitle   = Ichigo Shisu! Orihime, Hitsū no Sakebi!
+| NativeTitle     = 一護死す！織姫、悲痛の叫び！
+| NativeTitleLangCode = ja
+| DirectedBy      = Yasuto Nishikata
+| WrittenBy       = Masahiro Okubo
+| Aux2            = [[Yuzuru Tachikawa]]
+| OriginalAirDate = {{Start date|2010|5|18}}
+| AltDate         = September 16, 2012
+| ShortSummary    = A horrified Orihime rushes to Ichigo's lifeless body, only to be blocked by Ulquiorra. Uryū intervenes and attempts a sneak attack yet fails, but he decides to buy Orihime time to heal Ichigo's wounds. Ulquiorra quickly overwhelms him, while a distraught Orihime cries out for Ichigo. Orihime's lament breakdown unexpectedly triggers Ichigo to undergo a fully hollowfication. Ulquiorra, surprised at the transformation, unleashes a Cero Oscuras, but only to have it blocked by Ichigo's own ''cero''. After a quick skirmish, Ichigo manages to sever one of Ulquiorra's arms. Ulquiorra reveals his incredible ability to regenerate non-vital organs instantaneously. He regenerates his severed arm and unveils his most devastating attack, Lanza del Relámpago. The attack proves fruitless as Ichigo dodges it without effort and Ulquiorra is quickly overwhelmed and defeated.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 272
+| EpisodeNumber2  = 7
+| Title           = Ichigo vs. Ulquiorra, Conclusion!
+| TranslitTitle   = Ichigo tai Urukiora, Kecchaku!
+| NativeTitle     = 一護vsウルキオラ、決着！
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunobu Shimizu
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Hiroki Takagi
+| OriginalAirDate = {{Start date|2010|5|25}}
+| AltDate         = September 23, 2012
+| ShortSummary    = As Rudbornn continuously produces more soldiers to defend him, Chad and Renji attack him simultaneously with them breaking his defense while Rukia freezes Rudbornn, who is then finished off by Yammy who abruptly arrives at the scene. Meanwhile, in his new hollow form, Ichigo finishes Ulquiorra point-blank with his ''cero'', but when Uryū stops him, trying to end his merciless attacks, Ichigo stabs Uryū with his ''zanpakutō''. Ulquiorra awakes and interrupts Ichigo from using his ''cero'' on Uryū, causing it to backfire on Ichigo and reverting him back to his normal self. Although Ulquiorra demands to have a rematch with Ichigo, the latter compromises by suggesting an even-leveled fight. Ulquiorra, agreeing to his terms, suddenly realizes his body is expiring due to over-exhaustion of his own power, yet Ichigo refuses to kill him. While his body turns to ash, Ulquiorra remembers his conversations with Orihime and realizes he has grown a heart within himself. Ulquiorra asks Orihime if she is afraid of him, and she replies that she is not. Satisfied with her answer, Ulquiorra dissolves and fades into the winds.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 273
+| EpisodeNumber2  = 8
+| Title           = Fury of the Shark! Halibel's Release
+| TranslitTitle   = Same no Mōi! Hariberu Kaihō
+| NativeTitle     = 鮫の猛威！ハリベル解放
+| NativeTitleLangCode = ja
+| DirectedBy      = Tetsuo Ichimura
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Shigeru Ueda
+| OriginalAirDate = {{Start date|2010|6|1}}
+| AltDate         = September 30, 2012
+| ShortSummary    = Yammy becomes enraged at Ulquiorra's death and releases his ''zanpakutō'', Ira. He grows to a colossal size and his rank increases from 10 to 0, explaining that the Espadas actually rank from 0 to 9. Rukia, Chad and Renji go all out on him, but he successfully blocks all their attacks. Meanwhile, in the fake Karakura Town, [[List of Hollows in Bleach#Tier Halibel|Tier Halibel]] continues her fight with [[Tōshirō Hitsugaya]]. Halibel releases her sword, Tiburón, and slices Hitsugaya's body in two. As she attempts to move toward [[List of Soul Reapers in Bleach#Genryūsai Shigekuni Yamamoto|Genryūsai Shigekuni Yamamoto]] to exact revenge on him for destroying her Fracciónes, the [[List of Hollows in Bleach#Tres Bestias|Tres Bestias]], Hitsugaya reappears and reveals what she sliced was merely an ice illusion.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 274
+| EpisodeNumber2  = 9
+| Title           = Hitsugaya, the Desperate Hyōten Hyakkasō!
+| TranslitTitle   = Hitsugaya, Sutemi no Hyōten Hyakkasō!
+| NativeTitle     = 日番谷、捨て身の氷天百華葬！
+| NativeTitleLangCode = ja
+| DirectedBy      = Hodaka Kuramoto
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Hideyo Yamamoto
+| OriginalAirDate = {{Start date|2010|6|8}}
+| AltDate         = October 7, 2012
+| ShortSummary    = Hitsugaya and Halibel use an array of water and ice attacks. Since Hitsugaya can turn any water into ice, and Halibel can turn any ice into water, both of their attacks neutralize each other out. However, both of them have a plan to turn the battleground into water and finish off the opponent in a single blow. As Hitsugaya tries to keep up with Halibel and protect the injured Soul Reaper lieutenants, he is injured severely from Halibel's Cascada. When Halibel comments on Hitsugaya not being able to fight at full strength, Hitsugaya stands up and extols at Hyōrinmaru being the strongest of all snow and ice ''zanpakutō'', which gives the wielder the control of the heavens. He is then about to unleash his strongest attack, Hyōten Hyakkasō.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 275
+| EpisodeNumber2  = 10
+| Title           = The Approaching Breath of Death...the King Who Rules Over Death!
+| TranslitTitle   = Semaru Shi no Ibuki...Shi o Tsukasadoru Ō!
+| NativeTitle     = 迫る死の息吹…死を司る王！
+| NativeTitleLangCode = ja
+| DirectedBy      = Mitsutaka Noshitani
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Shigeru Ueda
+| OriginalAirDate = {{Start date|2010|6|15}}
+| AltDate         = October 14, 2012
+| ShortSummary    = Hitsugaya releases his Hyōten Hyakkasō, an attack that manipulates the weather then uses it to dramatically increase its power, and successfully freezes Halibel, trapping her in a tower of ice. Meanwhile, [[List of Soul Reapers in Bleach#Suì-Fēng|Suì-Fēng]] and [[List of Soul Reapers in Bleach#Marechiyo Ōmaeda|Marechiyo Ōmaeda]] continue their fight against [[List of Hollows in Bleach#Baraggan Louisenbairn|Baraggan Louisenbairn]]. He slows Suì-Fēng's reaction time, making her unable to land any of her attacks on him, then grabs her left shoulder, aging it to the point that it breaks from frailty. Suì-Fēng and Ōmaeda devise a strategy to attack Baraggan, but Ōmaeda hesitates at the last moment and it fails. Baraggan then releases his ''zanpakutō'', Arrogante, and unleashes his Respira, a dark cloud that decays everything in its path. His Respira chases after Suì-Fēng and manages to reach her left hand, which withers it down to the bone and begins to spread up her arm. Suì-Fēng, realizing that her whole body will decay into nothing unless drastic action is taken, orders Ōmaeda to cut off her left arm before the Respira can spread further.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 276
+| EpisodeNumber2  = 11
+| Title           = One Hit Kill! Suì-Fēng, Bankai!
+| TranslitTitle   = Ichigeki Kessatsu! Soi-Fon, Bankai!
+| NativeTitle     = 一撃決殺！砕蜂、卍解！
+| NativeTitleLangCode = ja
+| DirectedBy      = Rokō Ogiwara
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Masahiko Komino
+| OriginalAirDate = {{Start date|2010|6|22}}
+| AltDate         = October 21, 2012
+| ShortSummary    = Suì-Fēng and Ōmaeda find themselves in a bad situation against Baraggan's Respira. They cannot even counterattack Respira because they cannot get anywhere near it. Then, Suì-Fēng goes off somewhere, leaving Ōmaeda to fight Baraggan alone. Ōmaeda tries to buy time with various ideas but finds himself impotent against Baraggan. Just when Ōmaeda is backed into a corner, Suì-Fēng arrives, having released her ''bankai'', a large golden weapon that covers her entire right arm. She then fires a missile at Baraggan which leads to a massive explosion.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 277
+| EpisodeNumber2  = 12
+| Title           = Climax! Kyōraku vs. Stark!
+| TranslitTitle   = Hakunetsu! Kyōraku tai Sutāku!
+| NativeTitle     = 白熱！京楽vsスターク！
+| NativeTitleLangCode = ja
+| DirectedBy      = Junya Koshiba
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Junya Koshiba
+| OriginalAirDate = {{Start date|2010|6|29}}
+| AltDate         = October 28, 2012
+| ShortSummary    = The massive explosion sends Suì-Fēng flying, but Ōmaeda manages to catch her, protecting her from crashing into a building. [[List of Soul Reapers in Bleach#Shunsui Kyōraku|Shunsui Kyōraku]] and [[List of Hollows in Bleach#Coyote Stark & Lilinette Gingerbuck|Coyote Stark]] continue their fight as Stark pressures Kyōraku to reveal his ''bankai''. Stark then calls for [[List of Hollows in Bleach#Coyote Stark & Lilinette Gingerbuck|Lilinette Gingerbuck]] and he fuses together with her in order to release his ''zanpakutō'', Los Lobos, dressing like a gunslinger. The fight resumes as Stark gains the upper hand, confusing Kyōraku as how his pair of guns function. As Kyōraku is in trouble with Stark's ''cero'', [[List of Soul Reapers in Bleach#Jūshirō Ukitake|Jūshirō Ukitake]] uses his ''shikai'' which leaves Stark questioning if Ukitake just fired a ''cero''.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 278
+| EpisodeNumber2  = 13
+| Title           = The Nightmare Returns...Revival of the Espada
+| TranslitTitle   = Akumu Futatabi...Fukkatsu no Esupāda
+| NativeTitle     = 悪夢再び…復活の十刃
+| NativeTitleLangCode = ja
+| DirectedBy      = Akane Inoue
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Hideyo Yamamoto
+| OriginalAirDate = {{Start date|2010|7|6}}
+| AltDate         = November 4, 2012
+| ShortSummary    = Kyōraku allows Ukitake to join him in fighting Stark, who notices Ukitake's ''shikai'', which absorbs his ''cero'' and shoots it back out again. Just then, a huge Garganta opens up and reveals [[List of Hollows in Bleach#Wonderweiss Mergera|Wonderweiss Mergera]] and another gigantic hollow named Hooleer next to him. Wonderweiss stabs Ukitake in the chest while Stark shoots Kyōraku with a ''cero'', making both Kyōraku and Ukitake faint to the ground. Wonderweiss then screams loudly, shattering the ice that Halibel was trapped in and allowing her to escape unharmed. Wonderweiss then blows out the smoke remaining from the missile out of Baraggan, making him resume his place. Wonderweiss finally has Hooleer blow away the flames surrounding Aizen, [[Gin Ichimaru]] and [[List of Soul Reapers in Bleach#Kaname Tōsen|Kaname Tōsen]]. Just when the Soul Reapers begin to panic, the [[List of Bleach characters#Visoreds|Vizards]] make an unsuspected arrival at the fake Karakura Town right in front of Aizen, Gin and Tōsen.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 279
+| EpisodeNumber2  = 14
+| Title           = Hirako and Aizen...the Reunion of Fate!
+| TranslitTitle   = Hirako to Aizen...Innen no Saikai!
+| NativeTitle     = 平子と藍染…因縁の再会！
+| NativeTitleLangCode = ja
+| DirectedBy      = Yasuto Nishikata
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Masahiko Komino
+| OriginalAirDate = {{Start date|2010|7|13}}
+| AltDate         = November 11, 2012
+| ShortSummary    = One hundred one years ago, it is revealed how Aizen experimented hollowification on a group of Soul Reapers, when they were sent into exile and why they called themselves the Vizards. In the present, [[List of Bleach characters#Shinji Hirako|Shinji Hirako]] explains to Yamamoto that the Vizards are not the allies of the Soul Reapers, but the enemies of Aizen, yet Ichigo is the exception. Wonderweiss commands Hooleer to release a lot of Menos, but the Vizards quickly defeat them. Hirako, later confronting Aizen, is stopped by Tōsen, who is then intervened by [[List of Soul Reapers in Bleach#Sajin Komamura|Sajin Komamura]]. Halibel breaks out of the ice and attacks Hitsugaya, but [[List of Bleach characters#Hiyori Sarugaki|Hiyori Sarugaki]] backs him up and [[List of Bleach characters#Lisa Yadōmaru|Lisa Yadōmaru]] comes to assist her. [[List of Bleach characters#Mashiro Kuna|Mashiro Kuna]] easily defeats Hooleer, while [[List of Bleach characters#Love Aikawa|Love Aikawa]] and [[List of Bleach characters#Rōjūrō "Rose" Otoribashi|Rōjūrō "Rose" Otoribashi]] confront Stark. Komamura and Tōsen are quickly interrupted by [[List of Soul Reapers in Bleach#Shūhei Hisagi|Shūhei Hisagi]], who wants to join Komamura in defeating Tōsen.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 280
+| EpisodeNumber2  = 15
+| Title           = Hisagi and Tōsen...the Moment of Parting!
+| TranslitTitle   = Hisagi to Tōsen...Ketsubetsu no Toki!
+| NativeTitle     = 檜佐木と東仙…訣別の時！
+| NativeTitleLangCode = ja
+| DirectedBy      = Hiroaki Nishimura
+| WrittenBy       = [[Kazuyuki Fudeyasu]]
+| Aux2            = Hideyo Yamamoto
+| OriginalAirDate = {{Start date|2010|7|20}}
+| AltDate         = November 18, 2012
+| ShortSummary    = Hisagi joins Komamura to battle Tōsen in hopes of bringing his former captain back to his senses. Meanwhile, the other Soul Reapers form uneasy alliances with the Vizards: Lisa, Hiyori and Hitsugaya take on Halibel; Love and Rose cover for Kyōraku and Ukitake and face Stark; and [[List of Bleach characters#Hachigen "Hachi" Ushōda|Hachigen "Hachi" Ushōda]], Suì-Fēng and Ōmaeda are up against Baraggan. Hachi creates a barrier around Baraggan, yet he easily dissipate it. Hachi makes an armored wall between the three of them and Baraggan to buy some time. Hachi asks Suì-Fēng to use her ''bankai'' again in exchange for a deal. Baraggan survived the first time she used it because he made the missile age and redirected the explosion away from him. When Hachi boxes Baraggan in with three more armored walls around him, Suì-Fēng fire her ''bankai'' to defeat Baraggan once more, granted that Hachi will seal [[List of Bleach characters#Kisuke Urahara|Kisuke Urahara]] in a barrier for one month. Hirako, though failing to sneak up on Gin, remarks that one more of Aizen's allies have fallen.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 281
+| EpisodeNumber2  = 16
+| Title           = Crown of Lies...Baraggan's Grudge!
+| TranslitTitle   = Itsuwari no Ōkan...Baragan no Enkon!
+| NativeTitle     = 偽りの王冠…バラガンの怨恨！
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunobu Shimizu
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Junya Koshiba
+| OriginalAirDate = {{Start date|2010|7|27}}
+| AltDate         = November 25, 2012
+| ShortSummary    = Baraggan survives Suì-Fēng's ''bankai'', though half his face has been destroyed. In anger, he fires out his Respira attack until he rots away Hachi's right hand. However, Hachi removes his hand using a barrier and transports it inside Baraggan's body, causing him to start deteriorating painfully. In a flashback, it is revealed he was once the ruler of Hueco Mundo until dethroned by Aizen, Gin and Tōsen. In the present, Baraggan, taking his final moments to remember his vow to reclaim his throne someday, tosses his axe at Aizen, but it disintegrates and Baraggan dies. Stark shows distress at his death and vows to avenge him.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 282
+| EpisodeNumber2  = 17
+| Title           = Power of the Soul! Los Lobos, Attack!
+| TranslitTitle   = Tamashii no Chikara! Rosu Robosu, Shūrai!
+| NativeTitle     = 魂の力！群狼、襲来！
+| NativeTitleLangCode = ja
+| DirectedBy      = Junya Koshiba
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Junya Koshiba
+| OriginalAirDate = {{Start date|2010|8|3}}
+| AltDate         = January 27, 2013
+| ShortSummary    = Stark shows no sign of getting serious in his battle against Love and Rose. Running out of patience, Lilinette begins to mindlessly fire at the two Vizards without Stark's permission. But her attacks prove to be ineffective against the two, and she is gradually cornered by the pair's fine team play. Finally, Love hits Stark, throwing him into a sea of flames. Lisa, Hiyori and Hitsugaya are having an argument about their difficulty with coordinating their attacks against Halibel. With Lilinette's motivation, Stark then summons a pack of wolves, made from parts of their souls, which explode on impact. When his victory seems assured, Stark is unexpectedly stabbed in the back.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 283
+| EpisodeNumber2  = 18
+| Title           = Stark, the Lone Battle
+| TranslitTitle   = Sutāku, Tatta Hitori no Tatakai
+| NativeTitle     = スターク、たった独りの戦い
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazuma Satō
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Shigeru Ueda
+| OriginalAirDate = {{Start date|2010|8|10}}
+| AltDate         = February 3, 2013
+| ShortSummary    = It is revealed that Kyōraku was the one who had stabbed Stark in the back. Kyōraku then explains that his ''zanpakutō'' has four techniques in the form of children's games turned into reality. Stark catches on quickly and learns to use Kyōraku's attacks against him. However, Lilinette sacrifices her life for Stark by absorbing a fatal attack from Kyōraku that Stark was unable to block in time. Showing distress at her death, Stark nearly defeats Kyōraku at one point. Instead, Kyōraku finishes Stark off by targeting his hollow hole, dealing a massive amount of damage to Stark. As Stark dies, a flashback reveals Stark's first encounter with Lilinette in Hueco Mundo. Meanwhile, Aizen, growing tired of the battles, decides he no longer needs Halibel and slashes her.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 284
+| EpisodeNumber2  = 19
+| Title           = Chain of Sacrifice...Halibel's Past
+| TranslitTitle   = Gisei no Rensa...Hariberu no Kako
+| NativeTitle     = 犠牲の連鎖…ハリベルの過去
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazuo Nogami
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Tetsuhito Saito
+| OriginalAirDate = {{Start date|2010|8|17}}
+| AltDate         = February 10, 2013
+| ShortSummary    = When Halibel was a [[List of Hollows in Bleach#Vasto Lorde|Vasto Lorde]] long ago, she recruited Emilou Apacci, Franceska Mila Rose and Cyan Sung-Sun to be the Tres Bestias, tasked to grow stronger and to kill ravenous hollows. The quartet later encountered Baraggan when he was king of Hueco Mundo, who offered her to join his side, but she declined, also wounding a shark-like hollow who approached her. After Aizen, Gin and Tōsen arrived in Hueco Mundo to recruit Baraggan, Aizen also took an interest in Halibel. Some time later, Halibel is attacked by the shark-like hollow, which has now turned into an arrancar. Although the Tres Bestias tried to help her, they are eventually defeated. Just when the shark-like arrancar is about to kill Halibel, Aizen suddenly appeared and killed the arrancar, then offering Halibel a place in his arrancar army and telling her that no one would have to be sacrificed in order to grow stronger. In the present, Halibel angrily attacks Aizen, but she is then stabbed in the back of her left shoulder by Aizen, who used an illusion to deceive her, sending her plummeting into the city below. Aizen then challenges the Soul Reapers and Vizards in combat.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 285
+| EpisodeNumber2  = 20
+| Title           = The Hundred-Year Grudge...Hiyori's Revenge!
+| TranslitTitle   = Hyakunen no Enkon...Hiyori no Fukushū!
+| NativeTitle     = 百年の怨恨…ひよ里の復讐！
+| NativeTitleLangCode = ja
+| DirectedBy      = Yasuto Nishikata
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Yoshifumi Sueda
+| OriginalAirDate = {{Start date|2010|8|24}}
+| AltDate         = February 17, 2013
+| ShortSummary    = Wonderweiss battles Mashiro, who takes the upper hand until her hollow mask breaks. Before Wonderwiess can finish her off, [[List of Bleach characters#Kensei Muguruma|Kensei Muguruma]] steps in to save her and takes her place, soon releasing his ''bankai'' at Wonderweiss. Meanwhile, Hiyori explains to Aizen why the Vizards have a score to settle with him, due to their painful experiences they endured one hundred and one years ago. Although Hirako warns the others not to fall for Aizen's taunts, Hiyori gives in and rushes in for an attack at Aizen, only to be stabbed in the back by Gin, badly injuring her. Hirako catches Hiyori, who then apologizes for not being able to hold back. Hirako calls for Ichigo, realizing that Orihime can still heal her. Meanwhile, back in Hueco Mundo, Ichigo has gone to help Rukia, Chad and Renji. The three are still in a battle with Yammy, trying to come up with tricks to defeat him but are ultimately defeated.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 286
+| EpisodeNumber2  = 21
+| Title           = Protect Karakura Town! Ichigo's Return!
+| TranslitTitle   = Karakura-chō o Mamore! Ichigo, Gense e!
+| NativeTitle     = 空座町を護れ！一護、現世へ！
+| NativeTitleLangCode = ja
+| DirectedBy      = Shigeru Ueda
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Hiroki Takagi
+| OriginalAirDate = {{Start date|2010|8|31}}
+| AltDate         = February 24, 2013
+| ShortSummary    = Ichigo manages to reach where Rukia, Chad, and Renji were after Rukia was thrown by Yammy. Ichigo manages to cut Yammy slightly with a point-blank Getsuga Tenshō using a new hollow mask, but is unable to wear it again. Yammy takes advantage of the situation and grabs Ichigo, with an intent of crushing Ichigo with his bare hands. [[Byakuya Kuchiki]] and [[Kenpachi Zaraki]] save Ichigo, having cut one of Yammy's legs off. Mayuri arrives and tells everyone that he has managed to analyze the Garganta and offers to send Ichigo back to Karakura Town through it. Byakuya reminds Ichigo that his duty is supposed to be protecting Karakura Town, not fighting at Hueco Mundo. [[List of Soul Reapers in Bleach#Retsu Unohana|Retsu Unohana]] decides to go along with Ichigo to the world of the living.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 287
+| EpisodeNumber2  = 22
+| Title           = Side Story! Ichigo and the Magic Lamp!
+| TranslitTitle   = Gaiden! Ichigo to Mahō no Ranpu!
+| NativeTitle     = 外伝！一護と魔法のランプ！
+| NativeTitleLangCode = ja
+| DirectedBy      = Junya Koshiba
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Hiroki Takagi &<br />Yasuto Nishikata
+| OriginalAirDate = {{Start date|2010|9|7}}
+| AltDate         = March 3, 2013
+| ShortSummary    = In this special episode, Ichigo and a number of other characters take part in an alternate world that hinges closely on the stories of [[Aladdin and the Magic Lamp]]. Ichigo finds out that this is all a dream and strives to wake up, while the others are intent on finding a hidden treasure called the Snow Crystal. Throughout a series of misadventures, Ichigo and the others encounter a magic lamp in a temple with the power to grant three wishes by a genie, in the form of Rukia, but by breaking the laws of granting wishes to them, she is sentenced to be executed in the "Lamp Society". Ichigo and the others go to rescue her, and by doing so, Ichigo is then granted the third and final wish. Instead of wishing to wake up from the dream he is supposedly having, he opts for the Snow Crystal. However, when it appears as a [[fishcake]], it is revealed that the whole ordeal was dreamed up by [[List of Soul Reapers in Bleach#Isane Kotetsu|Isane Kotetsu]] in the Soul Society.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 288
+| EpisodeNumber2  = 23
+| Title           = The Final Trump Card! Ichigo, Towards the Decisive Battle!
+| TranslitTitle   = Saigo no Kirifuda! Ichigo, Kessen e!
+| NativeTitle     = 最後の切り札！一護、決戦へ！
+| NativeTitleLangCode = ja
+| DirectedBy      = Hiroaki Nishimura
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Hitoyuki Matsui
+| OriginalAirDate = {{Start date|2010|9|14}}
+| AltDate         = March 10, 2013
+| ShortSummary    = The battle between Kenpachi and Yammy continues, as the former seems to have the upper hand. Meanwhile, Ichigo and Unohana head for the world of the living through the Garganta opened by Mayuri, who discusses the after war period with Byakuya. Unohana reveals to Ichigo that he is the only person who can defeat Aizen, since he is the only one that did not witness Aizen's ''shikai'', also informing him that "seeing" Aizen's ''shikai'' is out of the question. Ichigo, realizing his great responsibility, resolves to defeat Aizen. Back in Hueco Mundo, Kenpachi is still dominating Yammy, seemingly defeating him and prompting Byakuya to finish him off, who refuses to do so, as Yammy suddenly fires a ''cero'' at both captains.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 289
+| EpisodeNumber2  = 24
+| Title           = Byakuya vs. Kenpachi?! The Melee Commences!
+| TranslitTitle   = Byakuya tai Kenpachi!? Ransen Kaishi!
+| NativeTitle     = 白哉vs剣八!? 乱戦開始！
+| NativeTitleLangCode = ja
+| DirectedBy      = Yasuto Nishikata
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Yasuto Nishikata
+| OriginalAirDate = {{Start date|2010|9|21}}
+| AltDate         = March 17, 2013
+| ShortSummary    = Kenpachi scolds Byakuya for being useless and not finishing off Yammy earlier. Byakuya gets angry squares off with Kenpachi to see who is stronger. Yammy attempts to attack, but is promptly struck down by both Byakuya and Kenpachi for interrupting their feud. Yammy gets angry and grows into an altered form, revealing that his rage lets him become stronger. Meanwhile, after Gin had injured Hiyori, Hirako then confronts Aizen. When Tōsen decides to use his "true power" against Hisagi and Komamura, he shocks them by donning a hollow mask instead of using his ''bankai''. Hisagi and Komamura are both disheartened to see how far Tōsen has gone to attain more power. Tōsen quickly dispatches Hisagi with a slash across his chest and kicks Komamura to the ground below. Hisagi, who sidestepped the slash, restrains Tōsen, who then stabs him through the chest again. Afterwards, Komamura prepares to release his ''bankai''.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 290
+| EpisodeNumber2  = 25
+| Title           = For the Sake of Justice?! The Man Who Deserted the Shinigami
+| TranslitTitle   = Seigi no Tame ni!? Shinigami o Suteta Otoko
+| NativeTitle     = 正義の為に!? 死神を捨てた男
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunobu Shimizu
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Hideyo Yamamoto
+| OriginalAirDate = {{Start date|2010|9|28}}
+| AltDate         = March 24, 2013
+| ShortSummary    = In the past, it is shown how Komamura and Tōsen met as friends, later revealing that Komamura wanted to repay a debt as his reason for becoming a Soul Reaper. In the present, Komamura activates his ''bankai'' but is blocked continually by Tōsen, who later discovers that he can cause damage to Komamura himself whenever his ''bankai'' is damaged. Komamura learns that Tōsen had lost a beloved female friend to murder by her husband, and he had joined the academy in order to get his revenge for her demise, being the truth behind his relentless search for justice. Tōsen then activates his release form, taking the form of a hairy insect. When he opens his eyes in this new form, Tōsen exults that he can see the world for the first time. Meanwhile, Aizen finally draws his blade against Hirako. Nonetheless, Hirako then tells Aizen that he is sorely mistaken if he believes he is the only one with a ''zanpakutō'' that has power over the senses.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 291
+| EpisodeNumber2  = 26
+| Title           = Desperate Struggle with Aizen! Hirako, Shikai!
+| TranslitTitle   = Aizen to no Shitō! Hirako, Shikai!
+| NativeTitle     = 藍染との死闘！平子、始解！
+| NativeTitleLangCode = ja
+| DirectedBy      = Mitsutaka Noshitani
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Hideyo Yamamoto
+| OriginalAirDate = {{Start date|2010|10|5}}
+| AltDate         = March 31, 2013
+| ShortSummary    = Tōsen does not seem to fight as well in his new form now that he can see, but he still easily defeats Komamura with a ''cero''. As he charges another ''cero'' to finish Komamura, who has given up, Hisagi stabs Tōsen, then claims that if he did not have sight, he could have easily dodged his attack. Hisagi releases his ''zanpakutō'' and slices Tōsen through the neck, dispelling his hollowfied form. Meanwhile, Hirako releases his ''shikai'', having the ability to create great visual illusions, which he calls the inverted world. Hirako seems to have the upper hand and hits Aizen several times. However, Aizen, having messed with Hirako's senses earlier, slices Hirako's back, claiming that his ''zanpakutō'' is more superior. The defeated Tōsen comes to his senses and requests to see Hisagi's face clearly once again, but he dies when an internal impact destroys his body. Hisagi is devastated while Komamura rages at Aizen, who purposely killed Tōsen. At this point, Ichigo appears behind Aizen preparing to attack him.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 292
+| EpisodeNumber2  = 27
+| Title           = All-Out War! Aizen vs. Shinigami!
+| TranslitTitle   = Zenmen Sensō! Aizen tai Shinigami!
+| NativeTitle     = 全面戦争！藍染vs死神！
+| NativeTitleLangCode = ja
+| DirectedBy      = Akane Inoue
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Hitoyuki Matsui
+| OriginalAirDate = {{Start date|2010|10|12}}
+| AltDate         = April 7, 2013
+| ShortSummary    = Ichigo, failing to wound Aizen, is easily overwhelmed yet remains alive. As Aizen starts questioning Ichigo's purpose for fighting him, Komamura calms him and tells him to not fall for his ruse. All of the Soul Reapers and Vizards then join in to protect Ichigo from witnessing Aizen's ''shikai'', to enable him to finish Aizen off. However, after Hitsugaya charges in, Aizen provokes him to attack with all his hatred. Aizen mentions [[List of Soul Reapers in Bleach#Momo Hinamori|Momo Hinamori]] and if the hatred had disappeared because of her, and Hitsugaya furiously attacks him. Hitsugaya releases his ''bankai'' as the other Soul Reapers join him.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 293
+| EpisodeNumber2  = 28
+| Title           = Hitsugaya, Enraged! Blade of Hatred!
+| TranslitTitle   = Hitsugaya, Gekkō! Nikushimi no Yaiba!
+| NativeTitle     = 日番谷、激昂！憎しみの刃！
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazuo Nogami
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Masami Shimoda
+| OriginalAirDate = {{Start date|2010|10|19}}
+| AltDate         = April 14, 2013
+| ShortSummary    = Komamura, Love, Rose and Lisa join Hitsugaya in fighting Aizen, but all four are easily defeated. Suì-Fēng, Kyōraku and Hirako manage to confuse Aizen, allowing Hitsugaya to deal the final blow on him. As the Soul Reapers cheer on Aizen's defeat, a shocked Ichigo yells at them asking them what they are doing. It is revealed that everybody except for Ichigo was under Aizen's ''shikai'' illusion and Hitsugaya had mistakenly stabbed Momo, while Aizen reveals himself to be acting as Momo. Berserk, Hitsugaya charges at Aizen but is cut down, his left limbs cut off. Suì-Fēng, Kyōraku and Hirako attempt to attack Aizen, but all are cut down as well.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 294
+| EpisodeNumber2  = 29
+| Title           = Impossible to Attack?! The Sealed Genryūsai!
+| TranslitTitle   = Kōgeki Funō!? Fūjirareta Genryūsai!
+| NativeTitle     = 攻撃不能!? 封じられた元柳斎！
+| NativeTitleLangCode = ja
+| DirectedBy      = Mitsue Yamazaki
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Tetsuhito Saito
+| OriginalAirDate = {{Start date|2010|10|26}}
+| AltDate         = April 21, 2013
+| ShortSummary    = After defeating his oncoming opponents, Aizen stabs Yamamoto who then creates pillars of flames to trap him, which will kill not only Aizen, but everyone else in the process. However, Wonderweiss appears and extinguishes Yamamoto's flames, revealing himself to have the ability to nullify Ryūjin Jakka. Yamamoto and Wonderweiss engage in unarmed combat, in which the former shatters the latter's body to pieces using hand-to-hand techniques. As Yamamoto stands before Aizen again, Wonderweiss unleashes the flames sealed in his body as he dies. Yamamoto uses his body to minimize the explosion. Aizen prepares to finish off the immobile Yamamoto, but Yamamoto sacrifices his own arm as a catalyst for the forbidden ''kidō'' attack, Ittō Kasō. Aizen manages to get away relatively unscathed, when Ichigo attacks him.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 295
+| EpisodeNumber2  = 30
+| Title           = It's All a Trap...Engineered Bonds!
+| TranslitTitle   = Subete wa Wana...Shikumareta Kizuna!
+| NativeTitle     = 全ては罠…仕組まれた絆！
+| NativeTitleLangCode = ja
+| DirectedBy      = Yasuto Nishikata
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Yoshifumi Sueda
+| OriginalAirDate = {{Start date|2010|11|2}}
+| AltDate         = April 28, 2013
+| ShortSummary    = Ichigo, with his donned hollow mask, uses Getsuga Tenshō to attack Aizen, wounding him in the process. However, it is revealed that Aizen has fused with the Hōgyoku, which heals his wounded chest. It is revealed that all of the battles Ichigo has fought thus far were part of Aizen's plan, as such these battles are recapped. His first encounter with Rukia against a hollow, his first time fighting with Uryū against several hollows, his first fight with Renji and interference from Byakuya, his first training session with Urahara to obtain his ''shikai'', his successful rematch with Renji, his first intense match with Kenpachi and his fierce confrontation with Byakuya using his ''bankai'' and the use of his hollow powers are all shown.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 296
+| EpisodeNumber2  = 31
+| Title           = The Shocking Truth...the Mysterious Power Within Ichigo!
+| TranslitTitle   = Shōgeki no Shinjitsu...Ichigo ni Himerareta Chikara!
+| NativeTitle     = 衝撃の真実…一護に秘められた力！
+| NativeTitleLangCode = ja
+| DirectedBy      = Hiroaki Nishimura
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Hitoyuki Matsui
+| OriginalAirDate = {{Start date|2010|11|9}}
+| AltDate         = May 5, 2013
+| ShortSummary    = The recap ends after Ichigo's invitation by Hirako to join the Vizards, his first battle with Yammy witnessed by Ulquiorra in the world of the living and interruption by Urahara and [[List of Bleach characters#Yoruichi Shihōin|Yoruichi Shihōin]], his training with the Vizards to improve his hollow powers, his first fight with Ulquiorra using his hollow powers, his final match with [[List of Hollows in Bleach#Grimmjow Jaegerjaquez|Grimmjow Jaegerjaquez]] using his mastered hollow powers and his triumph over Ulquiorra in his fully altered hollowfied form are shown. Aizen had been recording all of his battles and had set up the events that occurred up to this point as well. Aizen then reveals that he knew about him since his birth, trying to tell Ichigo he is part human, but his speech is interrupted by Ichigo's father, [[List of Soul Reapers in Bleach#Isshin Kurosaki|Isshin Kurosaki]], in Soul Reaper form. After putting some distance along with Ichigo from Aizen, Isshin tries to tell his son that he will reveal the truth about his actions later, but Ichigo tells him that there is no need for that as he realizes he is indeed half Soul Reaper. Isshin then attacks Aizen, while Ichigo confronts Gin.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 297
+| EpisodeNumber2  = 32
+| Title           = The Extending Blade?! Ichigo vs. Gin!
+| TranslitTitle   = Nobiru Yaiba!? Ichigo tai Gin!
+| NativeTitle     = 伸びる刃!? 一護vsギン！
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunobu Shimizu
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Masami Shimoda
+| OriginalAirDate = {{Start date|2010|11|16}}
+| AltDate         = May 12, 2013
+| ShortSummary    = While fighting Ichigo, Gin activates his ''bankai'', which allows him to extend his blade to great lengths, stating that he will not hold back unlike the last time they fought each other. Although Ichigo blocks his first attack, Gin charges at Ichigo with rapid attacks. Ichigo figures out that Gin's contraction speed is his weakness, but his extension speed is quite the opposite. Elsewhere, as the battle between Aizen and Isshin still rages on, the former reveals that he has reached the limit of his Soul Reaper self. Subsequently, the Hōgyoku begins to reconstruct his soul. In shock, Isshin discovers through Aizen's statements the true power of the Hōgyoku, which is to "manifest" the desires of all the people within its vicinity. As Aizen's transformation intensifies, Urahara arrives to participate in the battle.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 298
+| EpisodeNumber2  = 33
+| Title           = Film! Festival! Shinigami Film Festival!
+| TranslitTitle   = Eiga da! Matsuri da! Shinigami Eiga Matsuri!
+| NativeTitle     = 映画だ！祭だ！死神映画祭！
+| NativeTitleLangCode = ja
+| DirectedBy      = Mitsutaka Noshitani
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Junya Koshiba
+| OriginalAirDate = {{Start date|2010|11|23}}
+| AltDate         = May 19, 2013
+| ShortSummary    = This is a special episode to promote the fourth movie, ''[[Bleach: Hell Verse]]''. In the Soul Society, all Soul Reapers of the Thirteen Court Guard Squads have formed teams in order to make a successful movie. Ichigo, Orihime, Uryū, Chad, Rukia, Renji, Byakuya and [[List of Soul Reapers in Bleach#Rangiku Matsumoto|Rangiku Matsumoto]] team up to make a movie named "Intergalactic Maid Cop versus the Space Invaders of Doom from Another Planet Part I". Renji, as the director of this improvised film, assigns Uryū as the costume designer and cameraman and Byakuya as the [[visual effects supervisor]], and distributes roles to the rest of the crew. Ichigo, as a high school Soul Reaper, must save Rukia, the intergalactic maid cop, being held hostage by Rangiku, the evil criminal alien mastermind, who has Orihime and Chad under her mind control. After a skirmish with the guardians of Sōkyoku Hill, the movie then ends.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 299
+| EpisodeNumber2  = 34
+| Title           = Theatre Opening Commemoration! The Hell Verse: Prologue
+| TranslitTitle   = Gekijō Kōkai Kinen! Jigoku-hen・Joshō
+| NativeTitle     = 劇場公開記念！地獄篇・序章
+| NativeTitleLangCode = ja
+| DirectedBy      = Yasuto Nishikata
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Yasuto Nishikata
+| OriginalAirDate = {{Start date|2010|11|30}}
+| AltDate         = May 26, 2013
+| ShortSummary    = This is a short [[prologue]] from the fourth movie, ''Bleach: Hell Verse''. After returning merchandise to the Urahara Shop, Rukia finds Zennosuke Kurumadani, the Soul Reaper guardian of Karakura Town, who is attacked by a strange monster revealed to be [[List of Hollows in Bleach#Shrieker|Shrieker]], the frog-like hollow that Ichigo defeated and banished to [[Hell]]. Now a Sinner, that being an unforgivable denizen of Hell and forever bound by chains, Shrieker reveals that he can exit Hell at will. Renji arrives to assist Rukia in defeating Shrieker and sending him back to Hell. After learning of the incident, Yamamoto calls for an emergency meeting and decides to send Renji and Rukia to investigate, but he warns them not to involve Ichigo. In Hell, [[List of Hollows in Bleach#Szayelaporro Grantz|Szayelaporro Grantz]] and [[List of Hollows in Bleach#Aaroniero Arruruerie|Aaroniero Arruruerie]], dead after their battles with the Soul Reapers, encounter Shuren, Taikon, Gunjo and Garogai, all of whom are Sinners. Szayelaporro and Aaroniero attack Shuren, but are easily defeated. Disappointed, Shuren turns his attention to Ichigo's hollowfied form as a means of escaping the depths of Hell.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 300
+| EpisodeNumber2  = 35
+| Title           = Urahara Appears! Stop Aizen!
+| TranslitTitle   = Urahara Tōjō! Aizen o Soshi se yo!
+| NativeTitle     = 浦原登場！藍染を阻止せよ！
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazuo Nogami
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Shigeru Ueda
+| OriginalAirDate = {{Start date|2010|12|7}}
+| AltDate         = June 2, 2013
+| ShortSummary    = Urahara arrives to stop Aizen. Urahara has prepared a few tricks up his sleeve for the fight, including some special armor for Yoruichi when she later arrives as well. Urahara, Yoruichi and Isshin all engage Aizen, but with every passing second, he becomes stronger and changes his appearance due to being infused with the Hōgyoku. Meanwhile the battle between Ichigo and Gin continues. The episode ends with Rangiku running towards Gin.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 301
+| EpisodeNumber2  = 36
+| Title           = Ichigo Loses His Fighting Spirit?! Gin's Expectation!
+| TranslitTitle   = Ichigo, Sen'i Sōshitsu!? Gin no Omowaku!
+| NativeTitle     = 一護、戦意喪失!? ギンの思惑！
+| NativeTitleLangCode = ja
+| DirectedBy      = Akane Inoue
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Hitoyuki Matsui
+| OriginalAirDate = {{Start date|2010|12|14}}
+| AltDate         = June 9, 2013
+| ShortSummary    = Ichigo hollowfies and attacks Gin, but Gin slices off Ichigo's hollow mask. While Urahara, Yoruichi and Isshin continue to fight Aizen, Rangiku is seen by [[List of Soul Reapers in Bleach#Izuru Kira|Izuru Kira]] running towards Gin. Uninterested in Ichigo anymore, Gin tells Ichigo to get lost. Just when Gin is about to kill Ichigo, Aizen appears behind Ichigo, revealing to have defeated Urahara, Yoruichi and Isshin. Aizen and Gin leave to go to the real Karakura Town. In the Dangai, they encounter the Kōtotsu. Gin tries to tell Aizen it would be impossible to destroy it, and yet Aizen succeeds with a single blow. Ichigo and Isshin go into the Dangai after them. After realizing Aizen must have destroyed the Kōtotsu, Isshin tells Ichigo he will teach him the Final Getsuga Tenshō.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 302
+| EpisodeNumber2  = 37
+| Title           = The Final Getsuga Tenshō?! Ichigo's Training!
+| TranslitTitle   = Saigo no Getsuga Tenshō!? Ichigo no Shugyō!
+| NativeTitle     = 最後の月牙天衝!? 一護の修行！
+| NativeTitleLangCode = ja
+| DirectedBy      = Junya Koshiba
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Masami Shimoda
+| OriginalAirDate = {{Start date|2010|12|21}}
+| AltDate         = June 16, 2013
+| ShortSummary    = The Dangai reduces time to the point that if one were to stay in that world for 2,000 hours, which is more or less three months, only one hour will have passed in the outside world, making it ideal for training purposes now that the Kōtotsu has been destroyed. Isshin devises a method for Ichigo to learn the Final Getsuga Tenshō in 2,000 hours in that world. To do that, Ichigo must directly contact his ''zanpakutō''. Once entering his inner world, he meets the spirit of his ''bankai'', Tensa Zangetsu, who refuses to cooperate with him and pulls out the "source of his despair", which turns out to be Ichigo's inner hollow. Meanwhile, in the real Karakura Town, [[List of Bleach characters#Keigo Asano|Keigo Asano]] and [[List of Bleach characters#Tatsuki Arisawa|Tatsuki Arisawa]] both wake up and wander through the town, pondering what has happened to them. Aizen finds and confronts Arisawa, paralyzing her with his spiritual pressure, while Gin lets Keigo run away.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 303
+| EpisodeNumber2  = 38
+| Title           = Real World and Shinigami! The New Year Special!
+| TranslitTitle   = Gense mo Shinigami mo! O-Shōgatsu Supesharu!
+| NativeTitle     = 現世も死神も！お正月スペシャル！
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunobu Shimizu
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Hideyo Yamamoto
+| OriginalAirDate = {{Start date|2011|1|4}}
+| AltDate         = June 23, 2013
+| ShortSummary    = The female Soul Reapers of the Soul Society celebrate [[Japanese New Year|New Year]]'s Day by sending out cards to the other divisions. However, some of the male Soul Reapers voice their complaints about the card designs. To settle the matter, the cards are used in a game of [[karuta]]. The game goes out of control when the players start attacking each other for the right card in each round. Meanwhile, in the world of the living, the story lies on Orihime thinking about everyone being with their family. Orihime comes across Rukia and Renji, who were on their way to the local shrine festival. The three stop by at the Urahara Shop to visit Urahara and Yoruichi for the afternoon, but Renji is not enjoying his stay there. Rukia takes Orihime to the local shrine in the evening, and even though the place is empty, Orihime shockingly sees Ichigo, Uryū, Chad and Renji there as well. She prays that they all can share another wonderful year together.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 304
+| EpisodeNumber2  = 39
+| Title           = Another Side Story! This Time the Enemy Is a Monster?!
+| TranslitTitle   = Gaiden Futatabi! Kondo no Teki wa Monsutā!?
+| NativeTitle     = 外伝再び！今度の敵はモンスター!?
+| NativeTitleLangCode = ja
+| DirectedBy      = Rokō Ogiwara
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Hiroki Takagi
+| OriginalAirDate = {{Start date|2011|1|11}}
+| AltDate         = June 30, 2013
+| ShortSummary    = In this dreamlike scenario, Ichigo and his friends appear as various monsters, him being in the form of [[Frankenstein's monster]]. He is summoned to a meeting with them in a castle about protecting the Snow Crystal from the monster hunters, Isshin and [[List of Bleach characters#Ryūken Ishida|Ryūken Ishida]]. When the two monster hunters arrive, the monsters do everything they can to stop their opponents. However, Ichigo just wants the Snow Crystal for himself so he can turn human and wake up from the dream. When the Snow Crystal is found missing, Isshin and Ryūken abruptly leave after Ichigo and Uryū, in form of a [[vampire]], prepare to attack. After it is revealed that Rukia, in the form of a [[succubus]], is the Snow Crystal, Ichigo transforms into a wolf. It is shown that the whole ordeal was dreamed up by Komamura in the Soul Society.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 305
+| EpisodeNumber2  = 40
+| Title           = Delusion Roars! Hisagi, Towards the Hot Springs Inn!
+| TranslitTitle   = Mōsō Bakusō! Hisagi, Onsen Ryokan e!
+| NativeTitle     = 妄想爆走！檜佐木、温泉旅館へ！
+| NativeTitleLangCode = ja
+| DirectedBy      = Mitsutaka Noshitani
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Junya Koshiba
+| OriginalAirDate = {{Start date|2011|1|18}}
+| AltDate         = July 7, 2013
+| ShortSummary    = As Hisagi and Kira finish some paperwork and go to a restaurant to have some drinks, they briefly run into some of the female Soul Reapers, who thank Hisagi for making lunch for their girls night out. Later, Hitsugaya has Hisagi, Rangiku and Isane investigate some mysterious murders in the Rukongai. Hisagi and Rangiku go on ahead through a field when it begins to rain. After waiting a while till the rain lets up, a hot springs inn manager invites the two inside her inn to have them rest and relax. Rangiku has her suspicions with the inn manager, but Hisagi is ever so struggling with his feelings for Rangiku. It becomes even more difficult when Rangiku goes to take a hot bath, which gives Hisagi the urge to take a peek past the door. When Hisagi finally musters up the courage to open the door, Rangiku, who is still in her uniform, attacks past Hisagi and hits the inn manager, who is revealed to be a hollow. After the two defeat the hollow, Rangiku explains that she used Hisagi as bait to lure out the hollow in the first place.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 306
+| EpisodeNumber2  = 41
+| Title           = For the Sake of Protecting! Ichigo vs. Tensa Zangetsu!
+| TranslitTitle   = Mamoru Tame ni! Ichigo tai Tensa Zangetsu!
+| NativeTitle     = 護るために！一護vs天鎖斬月！
+| NativeTitleLangCode = ja
+| DirectedBy      = Junya Koshiba
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Masami Shimoda
+| OriginalAirDate = {{Start date|2011|1|25}}
+| AltDate         = July 14, 2013
+| ShortSummary    = Tensa Zangetsu shows Ichigo his inner hollow, revealing to him it was the form he defeated Ulquiorra in. Tensa Zangetsu then joins with the inner hollow, revealing that they were one to begin with, and resumes his battle with Ichigo. Meanwhile, Don Kanonji arrives between Tatsuki and Aizen and becomes determined to fight against him, that is until Rangiku arrives just in time to stop him from getting killed. She instructs Kanonji to take Tatsuki with him, whilst she and Gin go somewhere. As Tatsuki and Kanonji reunite with Keigo, Gin wounds Rangiku and rejoins Aizen in chasing after them.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 307
+| EpisodeNumber2  = 42
+| Title           = Emergency Situation! Aizen, New Evolution!
+| TranslitTitle   = Kinkyū Jitai! Aizen, Saranaru Shinka!
+| NativeTitle     = 緊急事態！藍染、更なる進化！
+| NativeTitleLangCode = ja
+| DirectedBy      = Akane Inoue
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Hideyo Yamamoto
+| OriginalAirDate = {{Start date|2011|2|1}}
+| AltDate         = July 21, 2013
+| ShortSummary    = Some of Ichigo's classmates, Kanonji and even Kurumadani make various attempts to stop Aizen but they all fail. Then, Gin returns and tells Aizen that he eliminated Rangiku, and Aizen claims he will begin creating the Ōken after he kills Ichigo's friends. Gin then pulls a surprising move by grabbing Aizen's ''zanpakutō'' and then impaling him through the chest. Gin reveals that the true ability of his ''bankai'' turns his ''zanpakutō'' to dust when it contracts and retracts, capable of leaving a lethal poison in one's body that dissolves it at a cellular rate. Aizen begins to perish as Gin escapes with the Hōgyoku in hand. However, the Hōgyoku, still belonging to Aizen whether or not it is inside him, evolves him to an even greater form as a result. Gin has a momentary flashback of when he first saw Aizen with Rangiku unconscious on the ground, which encouraged him to kill the former. In the present, the newly evolved Aizen teleports to Gin's location and brutally slashes him across the middle.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 308
+| EpisodeNumber2  = 43
+| Title           = Goodbye...Rangiku
+| TranslitTitle   = Sayonara...Rangiku
+| NativeTitle     = さよなら…乱菊
+| NativeTitleLangCode = ja
+| DirectedBy      = Junya Koshiba
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Junya Koshiba
+| OriginalAirDate = {{Start date|2011|2|8}}
+| AltDate         = July 28, 2013
+| ShortSummary    = Gin recalls apologizing to Rangiku after slightly wounding her from before and is satisfied with that. Before Aizen tries to kill Rangiku, Ichigo shows up on the scene with his unconscious father over his shoulder. Gin, seeing the changed look in Ichigo's eyes, rests in peace, content with what he had done. Ichigo wishes to change the location of their fight and jumps at Aizen, grabbing his face and pushing him many miles away from the town. Aizen, still believing that he can easily defeat him, surmises that Ichigo has not lost his spiritual pressure, rather he has "discarded" it in turn for physical strength. Each swing in the clash between the two is powerful enough to annihilate large amounts of terrain. Aizen becomes increasingly arrogant and is shocked once again when Ichigo effortlessly stop his blade with his bare hand. Aizen unleashes a complete incantation of the allegedly unstoppable Kurohitsugi ''kidō'' spell upon Ichigo, yet proving to be of no effect.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 309
+| EpisodeNumber2  = 44
+| Title           = Fierce Fighting Conclusion! Release, the Final Getsuga Tenshō!
+| TranslitTitle   = Gekitō Ketchaku! Hanate, Saigo no Getsuga Tenshō!
+| NativeTitle     = 激闘決着！放て、最後の月牙天衝！
+| NativeTitleLangCode = ja
+| DirectedBy      = Yoshifumi Sueda
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Yoshifumi Sueda
+| OriginalAirDate = {{Start date|2011|2|15}}
+| AltDate         = August 4, 2013
+| ShortSummary    = Ichigo wounds Aizen, forcing the Hōgyoku yet another transformation upon Aizen, who becomes a hollow-like creature. Although Aizen renders Ichigo's left arm useless, Ichigo then unleashes the Final Getsuga Tenshō. Through a flashback, it is revealed that while in his inner world, Ichigo could not defeat Tensa Zangetsu until he allowed to be pierced by Tensa Zangetsu, thereby accepting the blade and the consequences of the technique. Unleashing this attack allows Ichigo to actually become the attack itself, which would strip him of his Soul Reaper powers. He unleashes Mugetsu, a torrent of darkness that enshrouds the land and overwhelms Aizen. However, Aizen prepares to finish off a weakened Ichigo thanks to the Hōgyoku, only to be stopped by Urahara, who steps onto the scene. Urahara planted another ''kidō'' inside of the ''kidō'' he shot just before Aizen transformed the first time as a sealing process. Now that his power has been weakened by Ichigo, the seal has begun to work and the Hōgyoku no longer sees him as its master, resulting in him being sealed.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 310
+| EpisodeNumber2  = 45
+| Title           = Ichigo's Resolution! The Price of the Fierce Battle
+| TranslitTitle   = Ichigo no Kakugo! Gekitō no Daishō
+| NativeTitle     = 一護の覚悟！激闘の代償
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunobu Shimizu
+| WrittenBy       = Masahiro Okubo
+| Aux2            = {{Ill|Minoru Murao|ja|ムラオミノル}}
+| OriginalAirDate = {{Start date|2011|2|22}}
+| AltDate         = August 11, 2013
+| ShortSummary    = In the aftermath of the Winter War, all of the Soul Reapers momentarily return to the Soul Society and begin to recuperate. It is shown that Unohara healed all of the Vizards including Hiyori, but ultimately it is up to her own will if she is to survive. Byakuya and Kenpachi have defeated Yammy in Hueco Mundo. Ichigo questions Urahara what Aizen's true motives might have been the whole time. When Ichigo reunites with his friends, he suddenly blacks out. In Central 46, Aizen is sentenced to 20,000 years in the lowest underground level of the prison. Yamamoto, now without a left arm, is maddened that Byakuya, Kenpachi and Kyōraku lost their coats during their battles. Hitsuguaya is seen training with his ''bankai'' inside a cave, looking back at the incident when he accidentally stabbed Momo during his battle. Rangiku is thankful that Gin never left a memento when he separated from her during his defection with Aizen. In Rukia's house, Ichigo wakes up after ten days, and it is revealed that his hair length and body height have returned to normal, having gone through the first couple of stages in losing his powers. It is only a matter of an undetermined time before he permanently loses them. However, Ichigo is mainly glad to see all of his friends alive and well.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 311
+| EpisodeNumber2  = 46
+| Title           = The Soul Detective: Karakuraizer Takes off Again!
+| TranslitTitle   = Konsō Keiji・Karakuraizā Sai Hasshin!
+| NativeTitle     = 魂葬刑事・カラクライザー再発進！
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazuo Nogami
+| WrittenBy       = Mio Imamura
+| Aux2            = Hitoyuki Matsui
+| OriginalAirDate = {{Start date|2011|3|1}}
+| AltDate         = August 18, 2013
+| ShortSummary    = While [[List of Bleach characters#Kon|Kon]] tries to rescues a girl from being attacked by a hollow, a mysterious person named Michel intervenes and defeats it instead, much to Kon's dismay. After going back to the Urahara Shop to meet with the other team members, Kon was not aware that Michel just so happens to be a famous spiritualist. The Konso Cop Karakuraizer is assigned to investigate about a female arrancar they previously defeated that has returned to seek vengeance. After they run into Michel in the streets, a hollow appears. Kon tries to attack it, but to no avail, yet Michel easily defeats the hollow in a single blow. Kon is gradually getting suspicious of Michel, who later publicly announces that he is giving the rest of the team members special capes. After the other members pass out, Arisawa, coming to her senses, is blindsided when Michel reveals that he was sent to invade the town and to place everyone under hypnosis, and the capes were designed to drain their spiritual energies. Kon steps in and fights Michel, knocking out his tooth which was the source of his hypnosis. In retaliation, Michel transforms into a hollow. Kon eventually defeats Michel, which dissolves all the capes.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 312
+| EpisodeNumber2  = 47
+| Title           = Inauguration! The Brand New 2nd Division Captain!
+| TranslitTitle   = Shūnin! Aratanaru Nibantai Taichō!
+| NativeTitle     = 就任！新たなる二番隊隊長！
+| NativeTitleLangCode = ja
+| DirectedBy      = Hiroaki Nishimura
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Hideyo Yamamoto
+| OriginalAirDate = {{Start date|2011|3|8}}
+| AltDate         = August 25, 2013
+| ShortSummary    = Ōmaeda, realizing he overslept from his nap on his way to a meeting with Suì-Fēng, falls off a cliff and lands on a hollow, who was attacking a boy. When the hollow retreats, Ōmaeda, claiming to be the "captain" of the second division, is invited by the boy named Ryuzaburo back to his village, where the villagers serve Ōmaeda food to express their gratitude for saving Ryuzaburo. The next day, Ōmaeda rushes back to the second division barracks and apologizes to Suì-Fēng, who states that his absence was not missed, but she assigned him to clean up the Seireitei grounds alone as punishment. Meanwhile, Ichigo and Yoruichi allow Ryuzaburo and his two friends into the Seireitei to find the "captain" of the second division. When they arrive at the second division barracks, Ōmaeda begs Ichigo and Yoruichi to go along with the story, to which Yoruichi agrees and Ichigo is rather reluctant. While Ōmaeda and the three boys are walking in the streets, they cross paths with [[List of Soul Reapers in Bleach#Ikkaku Madarame|Ikkaku Madarame]] and [[List of Soul Reapers in Bleach#Yumichika Ayasegawa|Yumichika Ayasegawa]], who, through explanation from Ichigo and Yoruichi, play along with the story in order to get some cash from Ōmaeda. Yumichika then tells Rangiku, who brings tea to Ōmaeda to follow as well. In the end, even Suì-Fēng plays along with the story by doing chores for Ōmaeda after being persuaded by Yoruichi. However, at the end of the day, the three boys overhear Ikkaku and Yumichika discussing the fact that Ōmaeda would never become a captain. Ryuzaburo becomes angry at Ōmaeda and runs home, only to be stopped by the hollow from the day before, but Ōmaeda saves him and bids him farewell. The three boys return to their village and Suì-Fēng beats Ōmaeda up for insulting her.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 313
+| EpisodeNumber2  = 48
+| Title           = The Man Who Risks His Life in the 11th Division!
+| TranslitTitle   = Jūichibantai ni Inochi o Kaketa Otoko!
+| NativeTitle     = 十一番隊に命を賭けた男！
+| NativeTitleLangCode = ja
+| DirectedBy      = Mitsutaka Noshitani
+| WrittenBy       = Kento Shimoyama
+| Aux2            = Shigeru Ueda
+| OriginalAirDate = {{Start date|2011|3|15}}
+| AltDate         = September 8, 2013
+| ShortSummary    = While Ichigo is sparring with Renji, a man from the eleventh division named Seizo Harugasaki serves the two of them some tea, but everyone seems to disrespect him while he does his duties. It is later revealed by Yumichika that Seizo was once a strong warrior. However, while Seizo was paired with Ikkaku to kill a hollow, the latter was captured and about to lose his spiritual energy. Seizo took the attack instead and lost almost all his spiritual energy, and as a result no one respected him after that. Ichigo talks to Seizo, and after regaining his confidence in his skills, he defeats a group of hollows alongside Ikkaku. Seizo leaves the Thirteen Court Guard Squads with all of the eleventh division members including Ikkaku bowing down to him in respect.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 314
+| EpisodeNumber2  = 49
+| Title           = Kon Saw It! The Secret of a Beautiful Office Lady
+| TranslitTitle   = Kon wa Mita! Bijin Ōeru no Himitsu
+| NativeTitle     = コンは見た！美人{{Ruby-ja|OL|オーエル}}の秘密
+| NativeTitleLangCode = ja
+| DirectedBy      = Hiroki Takagi
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Hiroki Takagi
+| OriginalAirDate = {{Start date|2011|3|22}}
+| AltDate         = September 15, 2013
+| ShortSummary    = Kon yells out the window about his imprisonment in Ichigo's room. Just then, a pretty lady walks by and asks for directions, which Ichigo gives her. After Ichigo is summoned to take down a hollow, Kon spots the lady from before while taking a stroll on a bridge in Ichigo's body. Seeing as she is about to jump off the bridge, he runs to save her, but ends of falling off instead. Later on, the girl, recognized as Haruko, reveals that she can see spirits, which caused her boyfriend Ken to break up with her. Ichigo finds Rukia, who tells him that there has been an unknown hollow that has been sucking out the souls of humans. When Haruko leaves Kon, she is attacked by a tapeworm hollow using a male human as its host, but Kon arrives just in time to save her. Kon departs after Ken arrives and apologizes to Haruko for what he did. However, the tapeworm hollow actually took over his body without Kon's knowing. Kon runs back to find out that Haruko is now possessed by the tapeworm hollow. Kon fights Haruko and manages to get the tapeworm hollow out of her. Kon is shoved against a tree, and his pill pops out of Ichigo's body, no longer in control of it. Before Kon's pill form is eaten, he is saved by Ichigo, who then kills the tapeworm hollow. Haruko mistakes Ichigo for Kon and decides to take Ichigo as her boyfriend and leave Ken, but Rukia arrives and uses her memory erasing spray on Hakuro and Ken. Haruko and Ken hold hands and resume their relationship, knowing nothing of what happened.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 315
+| EpisodeNumber2  = 50
+| Title           = Yachiru's Friend! The Shinigami of Justice Appears!
+| TranslitTitle   = Yachiru no Tomo! Seigi no Shinigami Tōjō!
+| NativeTitle     = やちるの友！正義の死神登場！
+| NativeTitleLangCode = ja
+| DirectedBy      = Akane Inoue
+| WrittenBy       = Kazuyuki Fudeyasu
+| Aux2            = Hideyo Yamamoto
+| OriginalAirDate = {{Start date|2011|3|29}}
+| AltDate         = September 22, 2013
+| ShortSummary    = [[List of Soul Reapers in Bleach#Yachiru Kusajishi|Yachiru Kusajishi]] encounters an old friend named Masayoshi, who saved a girl named Mayu from a hollow. Masayoshi starts to tell the two about how a hollow killed his wife. Mayu, having had her parents killed by that same hollow, starts to feel a bit close to Masayoshi. Yachiru goes back home to Kenpachi, and she remembers that Masayoshi used to be close to her in the past. She goes to see Masayoshi and Mayu again the next day, and Masayoshi kills another hollow that only he could sense. Masayoshi plans to leave the following day, and Mayu asks if she could travel with him. However, Yachiru, before leaving again, privately warns Mayu not to get too close to Masayoshi. The following day, Masayoshi protects Mayu from a group of hollows, asking her to accompany him in his journey. Yachiru jumps between the two and reveals that Kenpachi told her how a hollow possessed Masayoshi, as proven when his love for sweets and the memory of his wife's name were now gone. Yachiru also says that Masayoshi had killed his wife accidentally and mistook himself for some other hollow. Masayoshi at first does not believe it, but Yachiru insists. He begins to transform into the hollow in his panicked state. Just then, a hollow shows up behind Mayu, and Masayoshi jumps in and kills it, fatally wounding himself in the process. Masayoshi dies happily in Mayu's arms after having some [[konpeitō]] from Yachiru, remarking how good it is.
+| LineColor       = 701C1C
+}}
+{{Episode list/sublist|Bleach season 14
+| EpisodeNumber   = 316
+| EpisodeNumber2  = 51
+| Title           = Toshirō Hitsugaya's Holiday!
+| TranslitTitle   = Hitsugaya Toshirō no Kyūjitsu!
+| NativeTitle     = 日番谷冬獅郎の休日！
+| NativeTitleLangCode = ja
+| DirectedBy      = Kazunobu Shimizu
+| WrittenBy       = Masahiro Okubo
+| Aux2            = Yuzuru Tachikawa
+| OriginalAirDate = {{Start date|2011|4|5}}
+| AltDate         = September 29, 2013
+| ShortSummary    = Hitsugaya takes leave from the Seireitei to visit Haru, a friend of his in the real world. Haru is a lonely old woman who can see spirits because of which people find her strange and do not go near her. Before seeing her, he gets [[List of Bleach characters#Karin Kurosaki|Karin Kurosaki]] involved in his visit. They both go to Haru's house and meet the spirit of a shy child named Yosuke. However, Hitsugaya hesitates from sending Yosuke to the Soul Society after hearing that he and his parents died in an accident on the way to a skiing trip, and that he wishes to see snow for the first time before resting in peace. Afterwards, Toshiro stays at Karin's house, where he is mistaken to be her boyfriend by many people. Later, it is revealed that Haru had been controlling Yosuke's transformation into a hollow with her own spiritual energy, and when she weakened, he went out of control. Haru, who is being held in Yosuke's hand, restrains him with her spiritual energy, giving Hitsugaya enough time to give the finishing blow. When the fight ends, it begins to snow in Karakura Town which allows Yosuke to leave happily. Karin says goodbye to Hitsugaya, who decides to visit his real grandmother in the Rukongai later.
+| LineColor       = 701C1C
+}}
+{{End|html=y|Episode table}}</onlyinclude>
+
+== Home media release ==
+=== Japanese ===
+{| class="wikitable" style="text-align:center;"
+|+ Arrancar: Downfall arc<ref>{{Cite web|script-title=ja:BLEACH DVD [破面・滅亡篇]|url=https://www.aniplex.co.jp/bleach/dvd/dvd14.html|publisher=[[Aniplex]]|access-date=August 26, 2023|language=ja|archive-date=December 27, 2019|archive-url=https://web.archive.org/web/20191227022714/https://www.aniplex.co.jp/bleach/dvd/dvd14.html|url-status=live}}</ref>
+! Volume
+! Release date
+! Episodes
+|-
+| 1
+| February 23, 2011
+| 266–270
+|-
+| 2
+| March 23, 2011
+| 271–274
+|-
+| 3
+| April 27, 2011
+| 275–278
+|-
+| 4
+| May 25, 2011
+| 279–282
+|-
+| 5
+| June 22, 2011
+| 283–286
+|-
+| 6
+| July 16, 2011
+| 287–291
+|-
+| 7
+| August 24, 2011
+| 292–295
+|-
+| 8
+| September 21, 2011
+| 296–299
+|-
+| 9
+| October 26, 2011
+| 300–303
+|-
+| 10
+| November 23, 2011
+| 304–307
+|-
+| 11
+| December 14, 2011
+| 308–311
+|-
+| 12
+| January 25, 2012
+| 312–316
+|}
+
+== Notes ==
+{{Notelist}}
+
+== References ==
+;General
+* {{Cite web|url=http://www.tv-tokyo.co.jp/contents/bleach/episodes/episodes23/|script-title=ja:あにてれ：BLEACH|trans-title=Episodes 265–277|publisher=[[TV Tokyo]]|language=ja|access-date=September 29, 2011|archive-date=June 28, 2019|archive-url=https://web.archive.org/web/20190628221102/https://www.tv-tokyo.co.jp/contents/bleach/episodes/episodes23/|url-status=dead}}
+* {{Cite web|url=http://www.tv-tokyo.co.jp/contents/bleach/episodes/episodes24/|script-title=ja:あにてれ：BLEACH|trans-title=Episodes 278–290|publisher=[[TV Tokyo]]|language=ja|access-date=September 29, 2011|archive-date=December 18, 2019|archive-url=https://web.archive.org/web/20191218075127/https://www.tv-tokyo.co.jp/contents/bleach/episodes/episodes24/|url-status=dead}}
+* {{Cite web|url=http://www.tv-tokyo.co.jp/contents/bleach/episodes/episodes25/|script-title=ja:あにてれ：BLEACH|trans-title=Episodes 291–302|publisher=[[TV Tokyo]]|language=ja|access-date=September 29, 2011|archive-date=December 18, 2019|archive-url=https://web.archive.org/web/20191218075118/https://www.tv-tokyo.co.jp/contents/bleach/episodes/episodes25/|url-status=dead}}
+* {{Cite web|url=http://www.tv-tokyo.co.jp/contents/bleach/episodes/episodes26/|script-title=ja:あにてれ：BLEACH|trans-title=Episodes 303–315|publisher=[[TV Tokyo]]|language=ja|access-date=September 29, 2011|archive-date=December 18, 2019|archive-url=https://web.archive.org/web/20191218075112/https://www.tv-tokyo.co.jp/contents/bleach/episodes/episodes26/|url-status=dead}}
+
+;Specific
+<References />
+
+== External links ==
+* {{IMDb episodes|0434665}}
+
+{{Bleach}}
+
+[[Category:2010 Japanese television seasons]]
+[[Category:2011 Japanese television seasons]]
+[[Category:Bleach (TV series) seasons|Season 14]]

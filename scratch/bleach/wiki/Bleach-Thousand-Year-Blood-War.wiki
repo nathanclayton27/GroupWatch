@@ -1,0 +1,1002 @@
+{{Short description|Season of television series}}
+{{Use American English|date=December 2022}}
+{{Use mdy dates|date=December 2022}}
+{{Infobox television
+| name           = Bleach: Thousand-Year {{Nowrap|Blood War}}
+| image          = Bleach Thousand-Year Blood War Logo.svg
+| alt_name       = {{Collapsible list|
+* ''Bleach: The Blood Warfare'' {{No italics|(Alternate series title)}}
+* ''Bleach: Thousand-Year Blood War – The Separation'' {{No italics|({{Abbr|P2|Part 2}})}}
+* ''Bleach: Thousand-Year Blood War – The Conflict'' {{No italics|({{Abbr|P3|Part 3}})}}
+* ''Bleach: Thousand-Year Blood War – The Calamity'' {{No italics|({{Abbr|P4|Part 4}})}}
+}}
+| native_name    = BLEACH 千年血戦篇<br />Burīchi: Sennen Kessen-hen
+| genre          = {{UBL|[[Adventure fiction|Adventure]]<ref name="VizOfficial"/>|[[Martial arts film|Martial arts]]<ref name="VizOfficial"/>|[[Supernatural fiction|Supernatural]]<ref name="VizOfficial">{{Cite web|url=https://www.viz.com/bleach|title=The Official Website for Bleach|publisher=[[Viz Media]]|access-date=June 18, 2023|archive-date=June 16, 2023|archive-url=https://web.archive.org/web/20230616082645/https://www.viz.com/bleach}}</ref>}}<!-- Use and cite reliable sources to identify genre/s, not personal interpretation. Please don't include more than three genres per MOS:A&M. -->
+| based_on      = {{Based on|''[[Bleach (manga)|Bleach]]''|[[Tite Kubo]]{{efn|name="Chapters-TYBW"|Specifically, chapters 480–686}}}}
+| writer      = {{UBL|[[Tomohisa Taguchi]]|{{Ill|Masaki Hiramatsu|ja|平松正樹}}}}
+| director       = {{UBL|Tomohisa Taguchi{{efn|name="Taguchi"|{{Nihongo|Director|監督}} for Parts 1–2 and {{Nihongo|Chief Director|総監督}} for Parts 3–4}}|Hikaru Murata{{efn|name="Murata"|{{Nihongo|Chief Episode Director|チーフ演出}} for Parts 1–2 and {{Nihongo|Director|監督}} for Parts 3–4}}|Mitsutoshi Satou<br />({{Abbr|P1–2|Parts 1–2}}){{efn|name="CED"|{{Nihongo|Chief Episode Director|チーフ演出}}}}|Chen Dali ({{Abbr|P3|Part 3}}){{efn|name="CED"}}}}
+| voices         = {{Plainlist|
+* [[Masakazu Morita]]
+* [[Noriaki Sugiyama]]
+* [[Yuki Matsuoka]]
+* [[Hiroki Yasumoto]]
+* [[Fumiko Orikasa]]
+* [[Kentarō Itō]]
+* [[Takayuki Sugō]]
+* [[Yūichirō Umehara]]
+}}
+| music          = [[Shirō Sagisu]]
+| country        = Japan
+| language       = Japanese
+| num_episodes   = 45<!-- This parameter should only be incremented when new episodes air or when a reliable source can confirm a specific number of episodes. -->
+| producer       = {{UBL|Makoto Hijikata|Yoshihiko Tominaga|Genki Negishi ({{Abbr|P1–2|Parts 1–2}})|Tasuku Honda<br />({{Abbr|P1–2|Parts 1–2}})|{{Ill|Akari Yanagawa|ja|柳川あかり}} ({{Abbr|P3|Part 3}})|Momoko Asahara ({{Abbr|P3|Part 3}})}}
+| cinematography = {{UBL|Kazuhiro Yamada|Satomi Okuhara ({{Abbr|P4|Part 4}})}}
+| animator       = {{UBL|[[Studio Pierrot]] ({{Abbr|P1–2|Parts 1–2}})|Pierrot Films ({{Abbr|P3–4|Parts 3–4}})}}
+| editor         = Akinori Mishima
+| runtime        = {{UBL|24 minutes|27 minutes (#45)}}
+| company        = {{UBL|[[Shueisha]]|TV Tokyo|[[Dentsu]]|Pierrot}}
+| network        = [[TV Tokyo]]
+| first_aired    = {{Start date|2022|10|11}}
+| last_aired     = present
+| related        = ''[[Bleach (TV series)|Bleach]]'' (2004–2012)
+}}
+
+<!-- Some sources interchangeably refer to the series' cours (or parts) as "seasons". Since a majority of sources (including Viz Media) do not refer to them as such, please refrain from using such terminology on the article. -->
+{{Nihongo|'''''Bleach: Thousand-Year Blood War'''''|BLEACH 千年血戦篇|Burīchi: Sennen Kessen-hen}}, also known as '''''Bleach: The Blood Warfare''''',<!-- This is not just the first part's subtitle, but also the alternative Latin script English title of the series that is featured in Japanese promotional material and eyecatchers. When Viz Media first distributed the manga arc in English-speaking territories, the title was changed to what it is commonly known as today. THIS IS NOT AN ERRONEOUS ADDITION, SO DO NOT REMOVE IT. --> is a Japanese [[anime]] television series based on [[Tite Kubo]]'s [[manga]] series ''[[Bleach (manga)|Bleach]]''{{efn|name="Chapters-TYBW"}} and a direct sequel to the original ''[[Bleach (TV series)|Bleach]]'' anime series. In March 2020, ''[[Weekly Shōnen Jump]]'' and "Bleach 20th Anniversary Project & Tite Kubo New Project Presentation" livestream announced that the manga's final story arc, the "Thousand-Year Blood War", would receive an anime project.<ref>{{#invoke:Cite|web|last=Hodgkins|first=Crystalyn|title=Bleach Manga's "Thousand Year Blood War Arc" Gets Anime|url=https://www.animenewsnetwork.com/news/2020-03-20/bleach-manga-thousand-year-blood-war-arc-gets-anime/.157678|website=[[Anime News Network]]|access-date=March 21, 2020|date=March 20, 2020|archive-date=March 21, 2020|archive-url=https://web.archive.org/web/20200321010141/https://www.animenewsnetwork.com/news/2020-03-20/bleach-manga-thousand-year-blood-war-arc-gets-anime/.157678|url-status=live}}</ref> In November 2020, it was confirmed that the anime project would be a television series adapting the entirety of the arc. The trailer and visual for the series were revealed at the [[Jump Festa]] in December 2021.<ref>{{Cite tweet|user=BLEACHanimation|number=1457513202959327237|script-title=ja:#ジャンプフェスタ 2022スーパーステージEX『BLEACH』配信決定！|trans-title= #JumpFesta 2022 Super Stage EX We're going to distribute "Bleach"!|language=ja|date=November 8, 2021|access-date=December 12, 2021}}</ref><ref>{{#invoke:Cite|web|last=Harding|first=Daryl|title=Bleach Event on December 18 to Present 1st Trailer and Visual for Upcoming New TV Anime Adaptation|url=https://www.crunchyroll.com/anime-news/2021/11/29-1/bleach-event-on-december-18-to-present-1st-trailer-and-visual-for-upcoming-new-tv-anime-adaptation|website=[[Crunchyroll]]|access-date=November 29, 2021|date=November 29, 2021|archive-date=November 29, 2021|archive-url=https://web.archive.org/web/20211129093127/https://www.crunchyroll.com/anime-news/2021/11/29-1/bleach-event-on-december-18-to-present-1st-trailer-and-visual-for-upcoming-new-tv-anime-adaptation|url-status=live}}</ref>
+
+The series is directed by [[Tomohisa Taguchi]]{{efn|name="Taguchi"}} and Hikaru Murata{{efn|name="Murata"}}, written by {{Ill|Masaki Hiramatsu|ja|平松正樹}}, with original manga creator Tite Kubo serving as general supervisor. It premiered on [[TV Tokyo]] and its [[TX Network#List of stations|TXN affiliates]] on October 11, 2022.<ref>{{#invoke:Cite|web|script-title=ja:「BLEACH 千年血戦篇」は来年10月放送！ビジュアル＆PV発表、監督は田口智久|url=https://natalie.mu/comic/news/458312|website=[[Comic Natalie]]|publisher=Natasha, Inc|access-date=December 18, 2021|language=ja|date=December 18, 2021|archive-date=December 19, 2021|archive-url=https://web.archive.org/web/20211219090118/https://natalie.mu/comic/news/458312|url-status=live}}</ref><ref>{{#invoke:cite|web|last1=Pineda|first1=Rafael|last2=Hodgkins|first2=Crystalyn|title=Bleach Thousand Year Blood War Anime's Video Reveals October 2022 TV Premiere|url=https://www.animenewsnetwork.com/news/2021-12-18/bleach-thousand-year-blood-war-anime-video-reveals-october-2022-tv-premiere/.180730|website=[[Anime News Network]]|access-date=December 18, 2021|date=December 18, 2021|archive-date=February 16, 2022|archive-url=https://web.archive.org/web/20220216050131/https://www.animenewsnetwork.com/news/2021-12-18/bleach-thousand-year-blood-war-anime-video-reveals-october-2022-tv-premiere/.180730|url-status=live}}</ref><ref name="Natalie-debut" />{{efn|name=TXN}} The series will run for four [[Television in Japan#Programs|cours]] with off-season breaks in between.<ref name="Natalie-debut" /><ref name=":0">{{#invoke:Cite|web|last=Loo|first=Egan|date=September 11, 2022|title=Bleach: Thousand-Year Blood War Anime Unveils 2nd Video, More Cast, Song Artists, Split 4-Cours Length, October 10 Debut|url=https://www.animenewsnetwork.com/news/2022-09-11/bleach-thousand-year-blood-war-anime-unveils-2nd-video-more-cast-song-artists-split-4-cours-length-/.189566|access-date=September 24, 2022|website=[[Anime News Network]]|archive-date=September 24, 2022|archive-url=https://web.archive.org/web/20220924083447/https://www.animenewsnetwork.com/news/2022-09-11/bleach-thousand-year-blood-war-anime-unveils-2nd-video-more-cast-song-artists-split-4-cours-length-/.189566|url-status=live}}</ref> The first cours, subtitled ''The Blood Warfare'', consists of 13 episodes and ended on December 27 of that same year.<ref>{{#invoke:Cite|web|script-title=ja:「BLEACH 千年血戦篇」森田成一&杉山紀彰が登壇、BD/DVD発売記念リリイベ|url=https://natalie.mu/comic/news/501325|website=[[Comic Natalie]]|publisher=Natasha, Inc|access-date=November 16, 2022|language=ja|date=November 15, 2022|archive-date=November 15, 2022|archive-url=https://web.archive.org/web/20221115125525/https://natalie.mu/comic/news/501325|url-status=live}}</ref><ref name="ANN-TYBW-1st-cour-end"/>{{efn|name="Back-to-Back"}} The second cours, subtitled {{Nihongo|''The Separation''|訣別譚|Ketsubetsu-tan}}, also consists of 13 episodes and was broadcast from July 8 to September 30, 2023.<ref>{{#invoke:Cite|web|title=BLEACH: Thousand-Year Blood War Part 2!|url=https://www.viz.com/blog/posts/bleach-thousand-year-blood-war-part-2|publisher=[[Viz Media]]|access-date=April 12, 2023|date=December 27, 2022|archive-date=April 12, 2023|archive-url=https://web.archive.org/web/20230412212947/https://www.viz.com/blog/posts/bleach-thousand-year-blood-war-part-2|url-status=live}}</ref><ref name="ANN-2023-05-28">{{#invoke:Cite|web|last=Loo|first=Egan|title=Bleach: Thousand-Year Blood War Anime's Video Unveils New Opening Song, More Cast, July 8 Return|url=https://www.animenewsnetwork.com/news/2023-05-28/bleach-thousand-year-blood-war-anime-video-unveils-new-opening-song-more-cast-july-8-return/.198543|website=[[Anime News Network]]|access-date=May 28, 2023|date=May 28, 2023|archive-date=May 28, 2023|archive-url=https://web.archive.org/web/20230528114628/https://www.animenewsnetwork.com/news/2023-05-28/bleach-thousand-year-blood-war-anime-video-unveils-new-opening-song-more-cast-july-8-return/.198543|url-status=live}}</ref>{{efn|name="Back-to-Back-Separation"}} The third cours, subtitled {{Nihongo|''The Conflict''|相剋譚|Sōkoku-tan}}, consisting of 14 episodes, aired from October 5 to December 28, 2024.<ref>{{#invoke:Cite|web|last=Tai|first=Anita|title=Bleach: Thousand-Year Blood War Part 3 – The Conflict's Promo Video Reveals 2024 Release|url=https://www.animenewsnetwork.com/news/2023-09-30/bleach-thousand-year-blood-war-part-3-the-conflict-promo-video-reveals-2024-release/.203015|website=[[Anime News Network]]|access-date=September 30, 2023|archive-url=https://web.archive.org/web/20230930154633/https://www.animenewsnetwork.com/news/2023-09-30/bleach-thousand-year-blood-war-part-3-the-conflict-promo-video-reveals-2024-release/.203015|archive-date=September 30, 2023|date=September 30, 2023|url-status=live}}</ref><ref name="Natalie3rdCours">{{#invoke:Cite|web|script-title=ja:アニメ「BLEACH 千年血戦篇」第3クール 卍解シーン詰められた新PV＆キービジュ|url=https://natalie.mu/comic/news/581189|website=[[Comic Natalie]]|publisher=Natasha, Inc|access-date=July 7, 2024|archive-url=https://web.archive.org/web/20240707012429/https://natalie.mu/comic/news/581189|archive-date=July 7, 2024|language=ja|date=July 7, 2024|url-status=live}}</ref><ref>{{#invoke:Cite|web|last=Tai|first=Anita|title=Bleach: Thousand-Year Blood War Part 3 – The Conflict Anime Reveals October Premiere, Opening, Ending Theme Songs, Key Visual|url=https://www.animenewsnetwork.com/news/2024-07-06/bleach-thousand-year-blood-war-part-3-the-conflict-anime-reveals-october-premiere-opening-ending-/.212925|website=[[Anime News Network]]|access-date=July 7, 2024|archive-url=https://web.archive.org/web/20240707014424/https://www.animenewsnetwork.com/news/2024-07-06/bleach-thousand-year-blood-war-part-3-the-conflict-anime-reveals-october-premiere-opening-ending-/.212925|archive-date=July 7, 2024|date=July 6, 2024|url-status=live}}</ref>{{efn|name="Back-to-Back-Conflict"}} The fourth and final cours, subtitled {{Nihongo|''The Calamity''|禍進譚|Kashin-tan}}, consisting of 10 episodes, premiered on July 25, 2026.<ref>{{#invoke:Cite|web|last=Hodgkins|first=Crystalyn|title=Bleach: Thousand-Year Blood War – The Calamity Anime to Debut in 2026|url=https://www.animenewsnetwork.com/news/2025-07-04/bleach-thousand-year-blood-war-the-calamity-anime-to-debut-in-2026/.226325|website=[[Anime News Network]]|access-date=July 5, 2025|archive-url=https://web.archive.org/web/20250705025658/https://www.animenewsnetwork.com/news/2025-07-04/bleach-thousand-year-blood-war-the-calamity-anime-to-debut-in-2026/.226325|archive-date=July 5, 2025|date=July 4, 2025|url-status=live}}</ref><ref>{{#invoke:Cite|web|script-title=ja:「BLEACH 千年血戦篇」最終クールは来年7月放送、アニメの軌跡を振り返る特別企画も|url=https://natalie.mu/comic/news/653262|website=[[Comic Natalie]]|publisher=Natasha, Inc|access-date=December 21, 2025|language=ja|date=December 21, 2025|archive-url=https://megalodon.jp/2026-0304-1843-20/https://natalie.mu:443/comic/news/653262|archive-date=March 4, 2026|url-status=live}}</ref><ref name="Natalie4thCours">{{#invoke:Cite|web|script-title=ja:「BLEACH 千年血戦篇-禍進譚-」メインビジュアル公開、久保帯人が主題歌にコメント|url=https://natalie.mu/comic/news/677157|website=[[Comic Natalie]]|publisher=Natasha, Inc|access-date=June 21, 2026|language=ja|date=June 21, 2026|archive-date=June 21, 2026|archive-url=https://megalodon.jp/2026-0621-1631-33/https://natalie.mu:443/comic/news/677157|url-status=live}}</ref><ref name="BD&DVD-4th"/>
+
+For ''The Blood Warfare'' cours, the opening theme song is {{Nihongo|"{{Ill|Scar (Tatsuya Kitani song)|lt=Scar|ja|スカー (キタニタツヤのアルバム)}}"|スカー|Sukā}}, performed by [[Tatsuya Kitani]], while the ending theme song is {{Nihongo|"Saihate"|最果て||{{Lit|The Farthest Reaches}}}}, performed by [[SennaRin]];<ref>{{#invoke:Cite|web|script-title=ja:「BLEACH 千年血戦篇」10月10日放送開始！追加キャスト、PV第2弾、主題歌情報公開|url=https://natalie.mu/comic/news/493276|website=[[Comic Natalie]]|publisher=Natasha, Inc|access-date=September 11, 2022|language=ja|date=September 11, 2022|archive-date=September 11, 2022|archive-url=https://web.archive.org/web/20220911152626/https://natalie.mu/comic/news/493276|url-status=live}}</ref> in addition, Kitani also performed the special ending theme song for the first episode, "{{Ill|Rapport (Tatsuya Kitani song)|lt=Rapport|ja|Rapport (曲)}}", which was previously used as the theme song for the series' 20th anniversary exhibition, ''Bleach EX''.<ref>{{#invoke:Cite|web|script-title=ja:『BLEACH』第1話のスペシャルED映像公開 初期の一護...戦いの歴史振り返る内容に|url=https://www.oricon.co.jp/news/2252529/full/|website=[[Oricon News]]|access-date=October 11, 2022|language=ja|date=October 11, 2022|archive-date=October 11, 2022|archive-url=https://web.archive.org/web/20221011021534/https://www.oricon.co.jp/news/2252529/full/|url-status=live}}</ref> For ''The Separation'' cours, the opening theme song is "Stars", performed by {{Ill|w.o.d.|ja|w.o.d.}},<ref name="ANN-2023-05-28"/> while the ending theme song is "{{Ill|Endroll|ja|Endroll}}", performed by [[Yoh Kamiyama]].<ref>{{#invoke:Cite|web|last=Loo|first=Egan|title=Yoh Kamiyama Performs Bleach: Thousand-Year Blood War Anime's New Ending Song|url=https://www.animenewsnetwork.com/news/2023-06-25/yoh-kamiyama-performs-bleach-thousand-year-blood-war-anime-new-ending-song/.199600|website=[[Anime News Network]]|access-date=June 25, 2023|archive-url=https://web.archive.org/web/20230625121053/https://www.animenewsnetwork.com/news/2023-06-25/yoh-kamiyama-performs-bleach-thousand-year-blood-war-anime-new-ending-song/.199600|archive-date=June 25, 2023|date=June 25, 2023|url-status=live}}</ref> For ''The Conflict'' cours, the opening theme song is {{Nihongo|"Kotoba ni Sezu Tomo"|言葉にせずとも||{{Lit|Even Without Saying a Word}}}}, performed by {{Ill|Six Lounge|ja|SIX LOUNGE}}, while the ending theme song is "Monochrome", performed by [[Suisoh]].<ref name="Natalie3rdCours"/> For ''The Calamity'' cours, the opening theme song is "I-Bull", performed by {{Ill|Jo0ji|ja|jo0ji}}, while the ending theme song is {{Nihongo|"Rasen"|螺旋||{{Lit|Spiral}}}}, performed by {{Ill|9Lana|zh|9Lana}}.<ref name="Natalie4thCours"/>
+
+In October 2022, [[Viz Media]] announced that the series would stream on [[Hulu]] in the United States and [[Disney+]] internationally outside of Asia.<ref>{{#invoke:Cite|web|first=Crystalyn|last=Hodgkins|url=https://www.animenewsnetwork.com/news/2022-10-03/bleach-thousand-year-blood-war-anime-streams-on-hulu-in-u.s-disney-internationally/.187306|title=Bleach: Thousand-Year Blood War Anime Streams on Hulu in U.S., Disney+ Internationally|website=[[Anime News Network]]|date=October 3, 2022|access-date=October 3, 2022|archive-date=October 3, 2022|archive-url=https://web.archive.org/web/20221003161524/https://www.animenewsnetwork.com/news/2022-10-03/bleach-thousand-year-blood-war-anime-streams-on-hulu-in-u.s-disney-internationally/.187306|url-status=live}}</ref> The English dub of the series began streaming on Hulu in November of the same year.<ref name="ANN-TYBW-1st-cour-end"/> In April 2025, it was announced that the English dub would make its broadcast television premiere on [[Adult Swim]]'s [[Toonami]] programming block beginning on May 18, 2025.<ref name="Toonami"/> The first three episodes of ''The Calamity'' were screened in US theaters, in Japanese with English subtitles and with the English dub, from June 25–29, 2026, ahead of its July premiere. The episodes were screened alongside an exclusive behind-the-scenes conversation with manga author Tite Kubo, chief series director Tomohisa Taguchi, and series director Hikaru Murata.<ref>{{#invoke:Cite|web|last=Mateo|first=Alex|title=Bleach: Thousand-Year Blood War – The Calamity Anime's 1st 3 Episodes Get Early Screening in U.S. Theaters on June 25–29|url=https://www.animenewsnetwork.com/news/2026-04-13/bleach-thousand-year-blood-war-the-calamity-anime-1st-3-episodes-get-early-screening-in-u.s-/.236352|website=[[Anime News Network]]|access-date=June 26, 2026|archive-url=https://web.archive.org/web/20260414072917/https://www.animenewsnetwork.com/news/2026-04-13/bleach-thousand-year-blood-war-the-calamity-anime-1st-3-episodes-get-early-screening-in-u.s-/.236352|archive-date=April 14, 2026|date=April 13, 2026|url-status=live}}</ref> In Australia, the first three episodes of ''The Calamity'' were screened at theaters through Sugoi Co at a special premiere event on June 22, 2026, prior to a nationwide theatrical release on June 25.<ref>{{#invoke:Cite|web|title=Bleach: Thousand-Year Blood War – The Calamity Comes to Australian Cinemas|url=https://sugoi.co/news/bleach-thousandyear-blood-war--the-calamity-comes-to-australian-cinemas|publisher=Sugoi Co|access-date=June 30, 2026|archive-url=https://web.archive.org/web/20260630174010/https://sugoi.co/news/bleach-thousandyear-blood-war--the-calamity-comes-to-australian-cinemas|archive-date=June 30, 2026|date=May 18, 2026|url-status=live}}</ref>
+__TOC__
+{{Clear}}
+
+== Production ==
+In March 2020, as part of the ''Bleach 20th Anniversary Project'', it was announced that the remainder of [[Tite Kubo]]'s ''[[Bleach (manga)|Bleach]]'' manga, beginning with the "Thousand-Year Blood War" arc, would receive an anime adaptation.<ref>{{cite web|url=https://www.viz.com/blog/posts/bleach-anime-is-coming-back|title=BLEACH ANIME IS COMING BACK!|website=[[Viz Media]]|date=March 20, 2020|access-date=August 23, 2026}}</ref> The first teaser trailer and key visual were unveiled at [[Jump Festa]] in December 2021, alongside the principal staff. [[Tomohisa Taguchi]] was appointed director and series composer, with Masashi Kudo returning as character designer, [[Shirō Sagisu]] returning to compose the music, and [[Studio Pierrot]] producing the animation.<ref>{{cite web|last=Harding|first=Daryl|title=Bleach Thousand-Year Blood War TV Anime Trailer, Key Visual Released for October 2022 Start|url=https://www.crunchyroll.com/news/latest/2021/12/18/first-bleach-thousand-year-blood-war-arc-tv-anime-trailer-key-visual-released-for-october-2022-start|website=[[Crunchyroll]]|date=December 18, 2021|access-date=August 23, 2026}}</ref> Kubo is credited on the series as the creator of the original work and general supervisor.<ref>{{cite web|url=https://bleach-anime.com/en/staffcast/|title=Staff & Cast|website=Bleach: Thousand-Year Blood War Official Website|access-date=August 23, 2026}}</ref>
+
+Series composition writer Masaki Hiramatsu described adapting the manga as a form of "translation", noting that the pacing of a weekly manga differs from that of a television episode. Major changes and material not depicted in the manga were discussed with [[Tite Kubo]], who supervised revised and original scenes and could request changes of his own.<ref name="HiramatsuInterview">{{cite web|script-title=ja:シリーズ構成 平松正樹インタビュー|trans-title=Interview with Series Composition Writer Masaki Hiramatsu|url=https://bleach-anime.com/special/interview/06.html|website=Bleach: Thousand-Year Blood War Official Website|language=ja|access-date=August 23, 2026}}</ref> Hiramatsu cited the sixth episode's meeting between [[Sōsuke Aizen]] and [[Yhwach]] as an example, with Kubo substantially rewriting the dialogue for the expanded anime scene.<ref name="HiramatsuInterview" />
+
+The amount of anime-original material increased as production continued. For the second [[Television in Japan#Programs|cours]], the staff stated that original scenes were first proposed by the animation team and then submitted to Kubo, who sometimes returned rough manga-style storyboards to clarify his ideas. The additions ranged from extra dialogue and explanatory material to scenes not depicted in the manga.<ref name="Part2Production">{{cite web|script-title=ja:シリーズ構成・平松正樹様×チーフ演出・村田光様×プロデューサー・富永禎彦様（studioぴえろ）インタビュー|trans-title=Interview with Masaki Hiramatsu, Hikaru Murata and Yoshihiko Tominaga|url=https://bleach-anime.com/special/interview02/18.html|website=Bleach: Thousand-Year Blood War Official Website|language=ja|access-date=August 23, 2026}}</ref> Kubo said that, for an original battle in the second cours that he had been unable to depict in the manga, he supplied the production staff with approximately five or six pages of illustrations showing the characters' movements, transitions and fighting sequence.<ref>{{cite web|title=Tite Kubo x Masakazu Morita Interview|url=https://www.viz.com/blog/posts/tite-kubo-x-masakazu-morita-interview|website=[[Viz Media]]|date=April 10, 2023|access-date=August 23, 2026}}</ref> By production of the second cours, Kubo was also attending most recording sessions in person and provided direction or clarification to the voice cast when necessary.<ref name="Part2Production" />
+
+For the third cours, ''The Conflict'', Taguchi became chief series director while Hikaru Murata became series director, with animation production credited to Pierrot Films. Taguchi supervised the overall scripts and storyboards, while Murata oversaw individual episode direction and production meetings.<ref>{{cite web|script-title=ja:総監督・田口智久×監督・村田光インタビュー|trans-title=Interview with Chief Series Director Tomohisa Taguchi and Series Director Hikaru Murata|url=https://bleach-anime.com/special/interview03/29.html|website=Bleach: Thousand-Year Blood War Official Website|language=ja|access-date=August 23, 2026}}</ref> Taguchi stated that the staff's working relationship with Kubo had become closer over the first two cours, making it easier to consult him about newly created scenes. Murata said that ''The Conflict'' contained more anime-original material than the preceding cours, with the additional material produced under Kubo's supervision and designed to connect back into the manga's storyline.<ref>{{cite web|script-title=ja:『BLEACH』原作にないシーン増加へ　某作品に匹敵するクオリティ目指し制作「費用は嵩むしスケジュールは長期（笑）」|trans-title=Bleach to Increase Scenes Not in Original Manga; Production Aims for High Quality|url=https://www.oricon.co.jp/news/2352374/full/|website=[[Oricon|Oricon News]]|language=ja|date=November 1, 2024|access-date=August 23, 2026}}</ref> Taguchi and Murata retained their respective positions for the fourth and final cours, ''The Calamity'', with Pierrot Films continuing as the animation studio.<ref>{{cite web|url=https://bleach-anime.com/en/staffcast/|title=Staff & Cast|website=Bleach: Thousand-Year Blood War Official Website|access-date=August 23, 2026}}</ref>
+
+== Episodes ==
+{{See also|List of Bleach episodes{{!}}List of ''Bleach'' episodes}}
+
+=== Part 1: ''The Blood Warfare'' ===
+<onlyinclude>
+{{Episode table
+| background = #AC1E1B
+| overall    = 5
+| overallR   = {{efn|name="Overall"|Episode number continuing from the previous anime series, which is based on the [[Bleach (manga)|same manga]]}}
+| series     = 5
+| seriesR    = {{efn|name="Series"|Episode number within the ''Thousand-Year Blood War'' anime series}}
+| title      = 16
+| titleR     = <ref name="Story">{{#invoke:Cite|web|url=https://bleach-anime.com/story/|title=Sutōrī {{!}} Terebi Anime "Burīchi: Sennen Kessen-hen" Kōshiki Saito|script-title=ja:STORY {{!}} TVアニメ「BLEACH 千年血戦篇」公式サイト|trans-title=Story {{!}} TV Anime "Bleach: Thousand-Year Blood War" Official Site|website=bleach-anime.com|language=ja|archive-url=https://web.archive.org/web/20220911100330/https://bleach-anime.com/story/|archive-date=September 11, 2022|url-status=live|access-date=August 21, 2026}}</ref>
+| director   = 14
+| directorR  = <ref name="Story"/>
+| writer     = 10
+| writerR    = <ref name="Story"/>
+| aux2       = 14
+| aux2T      = Storyboarded by
+| aux2R      = <ref name="Story"/>
+| aux3       = 14
+| aux3T      = Chief animation directed by
+| aux3R      = <ref name="Story"/>
+| airdate    = 11
+| airdateR   = <ref name="OnAir">{{#invoke:Cite|web|script-title=ja:BLEACH 千年血戦篇|url=https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202210/27169_202210102400.html|publisher=[[TV Tokyo]]|access-date=August 26, 2023|archive-url=https://web.archive.org/web/20241228163534/https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202210/27169_202210102400.html|archive-date=December 28, 2024|language=ja|url-status=live}}</ref>
+| altdate    = 11
+| altdateT   = English air date
+| altdateR   = <ref name="AS">{{#invoke:Cite|web|url=https://www.adultswim.com/schedule/|title=Adult Swim Schedule|website=[[Adult Swim]]|archive-url=https://web.archive.org/web/20250518222257/https://www.adultswim.com/schedule|archive-date=May 18, 2025|url-status=live|access-date=February 16, 2026}}</ref>
+| dontclose  = y
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 367
+| EpisodeNumber2  = 1
+| Title           = The Blood Warfare
+| RTitle          = {{efn|name="All-Cap"|Stylized in [[all caps]]}}
+| DirectedBy      = Hikaru Murata
+| WrittenBy       = [[Tomohisa Taguchi]]
+| Aux2            = Tomohisa Taguchi
+| Aux3            = Masashi Kudo
+| OriginalAirDate = {{Start date|2022|10|11}}{{efn|name=TXN|[[TV Tokyo]] listed the first cours as airing on Monday at 24:00, which is effectively Tuesday at midnight [[Japan Standard Time|JST]].<ref name="Natalie-debut">{{#invoke:Cite|web|script-title=ja:「BLEACH 千年血戦篇」森田成一が掲げた黒崎一護のテーマは"任せる"|url=https://natalie.mu/comic/news/493280|website=[[Comic Natalie]]|publisher=Natasha, Inc|access-date=September 11, 2022|language=ja|date=September 11, 2022|archive-date=September 24, 2022|archive-url=https://web.archive.org/web/20220924062431/https://natalie.mu/comic/news/493280|url-status=live}}</ref>}}
+| AltDate         = May 18, 2025<ref name="Toonami">{{#invoke:Cite|web|last=Mateo|first=Alex|date=April 25, 2025|url=https://www.animenewsnetwork.com/news/2025-04-25/toonami-to-air-bleach-thousand-year-blood-war-blue-exorcist-kyoto-saga-anime/.223920|title=Toonami to Air Bleach: Thousand-Year Blood War, Blue Exorcist: Kyoto Saga Anime|website=[[Anime News Network]]|access-date=April 25, 2025|quote=May 17 at 12:30 a.m. EDT (effectively, May 18)}}</ref>
+| ShortSummary    = [[List of Soul Reapers in Bleach|Soul Reapers]] [[List of Soul Reapers in Bleach#Ryūnosuke Yuki|Ryūnosuke Yuki]] and Shino Madarame, arrive and visit Karakura Town, following the mass disappearances of [[List of Hollows in Bleach|Hollows]] from the Human World. They are ambushed by Hollows, but rescued by [[Ichigo Kurosaki]], [[Orihime Inoue]], [[Yasutora Sado]], and [[Uryū Ishida]]. Two days later, Ichigo meets Asguiaro Ebern, a member of the Wandenreich. Ebern attempts to use a Quincy medallion and seal Ichigo's Bankai, but he destroys it and makes him retreat. At the same time, a group of individuals representing the enemy faction called the Wandenreich, the Quincy Empire, infiltrate head captain [[Genryūsai Shigekuni Yamamoto]]'s office in the Soul Society, and deliver the dying lieutenant [[Chōjirō Sasakibe]] as an example for the impending fate of the Soul Reapers. Meanwhile, Squad 11 members [[Ikkaku Madarame]] and [[Yumichika Ayasegawa]], investigate the disappearances of thousands of civilians from the Rukon District. At the Wandenreich's base Silbern, Ebern reports to Yhwach, the Quincy King.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 368
+| EpisodeNumber2  = 2
+| Title           = Foundation Stones
+| DirectedBy      = Mitsutoshi Satō
+| WrittenBy       = Tomohisa Taguchi
+| Aux2            = Tomohisa Taguchi
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2022|10|18}}
+| AltDate         = May 25, 2025
+| ShortSummary    = [[Nelliel Tu Odelschwanck]] and [[List of Hollows in Bleach#Pesche Guatiche|Pesche Guatiche]] go to the Human World, and inform Ichigo that Hueco Mundo has been invaded by the Wandenreich, after its leader [[Tier Halibel]], the former 3rd Espada, was defeated by Yhwach. The Arrancars of Hueco Mundo have either joined the Quincies, been captured, or killed. [[Kisuke Urahara]], Ichigo, Orihime, Chad, Nel, and Pesche, arrive to Hueco Mundo. Meanwhile, the Wandenreich's hunting captain of the First Jagdarmee, Stern Ritter "J" Quilge Opie, tests the Arrancars to see who will join them. Loly and Menoly attempt to take an upper hand, but are dispatched easily. Tres Bestias: Emilou Apacci, Franceska Mila Rose, and Cyan Sung-Sun arrive for support, but are overwhelmed by Quilge.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 369
+| EpisodeNumber2  = 3
+| Title           = March of the StarCross
+| DirectedBy      = Hodaka Kuramoto
+| WrittenBy       = Tomohisa Taguchi
+| Aux2            = Hikaru Yamaguchi
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2022|10|25}}
+| AltDate         = June 1, 2025
+| ShortSummary    = Ichigo confronts Quilge. The Tres Bestias summon Ayon and re-join the fight against Quilge. Uryū learns the truth of the conflict between Soul Reapers and Quincies centuries ago. It is revealed that Squad 12 captain [[Mayuri Kurotsuchi]] ordered the removal of all civilians from the Rukon District, in order to rectify the soul imbalance caused by the Quincies exterminating Hollows in the Living World. It is revealed that Yamamoto fought Yhwach 1,000 years ago. Quilge absorbs Reishi in the area (including from Ayon) and overpowers the Tres Bestias, but clashes with Ichigo once again when he activates his Bankai. When the Quincies begin their invasion of the Soul Society, Stern Ritter "H" Bazz-B seemingly kills Squad 3 Lieutenant [[Izuru Kira]] among several other Soul Reapers.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 370
+| EpisodeNumber2  = 4
+| Title           = Kill the Shadow
+| RTitle          = {{efn|name="Start-Cap"|Stylized in [[start case]]}}
+| DirectedBy      = Hikaru Murata
+| WrittenBy       = Tomohisa Taguchi
+| Aux2            = Hikaru Murata
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2022|11|1}}
+| AltDate         = June 8, 2025
+| ShortSummary    = Over a thousand Soul Reapers die within seven minutes of the Quincy's invasion. Squad 3 captain [[List of Bleach characters#Rōjūrō "Rose" Ōtoribashi|Rōjūrō "Rose" Ōtoribashi]] meets Stern Ritter "U" NaNaNa Najahkoop, Squad 6 captain [[Byakuya Kuchiki]] and lieutenant [[Renji Abarai]] face off against Stern Ritter "F" Äs Nödt and Stern Ritter "S" Mask De Masculine, and Squad 7 captain [[Sajin Komamura]] encounters Stern Ritter "E" Bambietta Basterbine. As the fighting reaches a stalemate, Squad 2 captain Soi-Fon, Byakuya, Komamura, and Squad 10 captain [[Tōshirō Hitsugaya]] release their Bankais, but they are stolen by their opponent Stern Ritters using medallions which absorb them. The captains are shocked by the news that the Stern Ritters' trump card is to steal Bankais, as it is communicated to the rest of the Soul Society. Squad 8 captain, [[Shunsui Kyōraku]] is blinded in his right eye by Stern Ritter "N" Robert Accutrone. While Quilge fights against Ichigo, Urahara observes that the Stern Ritters failed to steal Ichigo's Bankai. Urahara opens the portal for Ichigo to enter and join the ongoing battle. However, Quilge suddenly attacks Urahara, Orihime, and Chad, and uses his Stern Ritter ability, "The Jail", to trap Ichigo in the Garganta and prevent him from reaching the Soul Society.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 371
+| EpisodeNumber2  = 5
+| Title           = Wrath as a Lightning
+| DirectedBy      = Mitsutoshi Satō
+| WrittenBy       = {{Ill|Masaki Hiramatsu|ja|平松正樹}}
+| Aux2            = Mitsutoshi Satō
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2022|11|8}}
+| AltDate         = June 15, 2025
+| ShortSummary    = Ichigo hears the voices of many Soul Reapers, while desperately attempting to escape from Quilge's Jail. Before Quilge can kill Urahrara and the others, he is ambushed and killed by an unseen assailant. Byakuya and Renji engage Äs Nödt in battle. Byakuya is unnerved by Äs, who awakened his fears with Reishi Thorns. Byakuya attempts to overcome his fear, but Äs overwhelms him with his own Bankai. [[Rukia Kuchiki|Rukia]] and Renji are wounded by other Stern Ritters. [[Kenpachi Zaraki]], having killed three of them (Stern Ritter "R" Jerome Guizbatt, Stern Ritter "Q" Berenice Gabrielli, and Stern Ritter "Y" Loyd Lloyd), confronts Yhwach and his right hand man, Jugram Haschwalth. Yamamoto saves Squad 9 lieutenant [[Shūhei Hisagi]] from Stern Ritter "O", Driscoll Berci. He reveals that he killed Sasakibe and stole his Bankai, Kōkō Gonryō Rikyū, with which he attacks Yamamoto. This reminds Yamamoto that he taught Sasakibe 2,000 years ago. The enraged Yamamoto kills Driscoll, saves Kenpachi from Yhwach, and inspires the Soul Reapers to keep fighting.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 372
+| EpisodeNumber2  = 6
+| Title           = The Fire
+| DirectedBy      = Ema Saito
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Tomohisa Taguchi
+| Aux3            = {{Small|N/A}}
+| OriginalAirDate = {{Start date|2022|11|15}}
+| AltDate         = June 22, 2025
+| ShortSummary    = Yamamoto engages Yhwach in battle at the Seireitei. When Yhwach moves away, Yamamoto activates his Bankai, Zanka no Tachi, which causes water to evaporate from the whole area. Squad 4 captain [[Retsu Unohana]] and her lieutenant [[Isane Kotetsu]], are worried that if the battle goes on for too long, Yamamoto could destroy even the Soul Society. Yhwach is powerless against the various abilities of Zanka no Tachi, and Yamamoto boasts that his Bankai is too strong to be stolen. Yamamoto unknowingly defeats a fake replica, and the real Yhwach arrives and identifies him as the second half of the Lloyd twins, Stern Ritter "Y" Royd Lloyd. Yhwach destroys the Squad 1 barracks and kills Royd for his failure. Yhwach reveals he had visited [[Sousuke Aizen]] in his underground prison. Considered by the Wandenreich to be one of the Five Special War Powers, Yhwach tried to convince Aizen to join him, but he refused. Yamamoto attempts to use his Bankai again, but Yhwach steals it, being the only one to take it, and kills Yamamoto.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 373
+| EpisodeNumber2  = 7
+| Title           = Born in the Dark
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Shinichirō Ueda
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = [[Toshiyuki Tsuru]]
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2022|11|22}}
+| AltDate         = June 29, 2025
+| ShortSummary    = A thousand years ago, the original Thirteen Court Guard Squads consisted of ruthless and barbaric killers with selfish purpose, who partook in killing the Wandenreich, and Yamamoto and Sasakibe defeated Yhwach. Afterwards, Yamamoto adopted a peaceful philosophy and formed a unified Court Guard system. Back in the present day, Yhwach destroys Yamamoto's remains. Ichigo breaks free and returns to the Soul Society for help. He trades blows with Yhwach, but is quickly defeated. Yhwach attempts to kill Ichigo, but is countered by him awakening a defensive Quincy technique called Blut Vëne. Yhwach reveals Quilge's Jail can only be broken by a Quincy, but Ichigo does not know the truth about himself or his mother, [[List of Bleach characters#Masaki Kurosaki|Masaki]]. Shadow portals appear to transport the Quincy back to Silbern and Yhwach realizes that Aizen used his Shikai ability on him to lose track of time. Ichigo tries to charge at Yhwach, but his Zanpakutō is destroyed by Haschwalth. Yhwach departs, cryptically referring to the stunned Ichigo as "his son, born in the dark".
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 374
+| EpisodeNumber2  = 8
+| Title           = The Shooting Star Project (Zero Mix)
+| RTitle          = {{efn|name="Style-8"|Stylized as "The Shooting Star Project (ZERO MIX)"}}
+| DirectedBy      = Young-Hoon Jung
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Shinji Itadaki
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2022|11|29}}
+| AltDate         = July 20, 2025
+| ShortSummary    = After the invasion, Rukia, Renji, and Kenpachi are treated by Squad 4, along with the surviving Soul Reapers as Byakuya barely clings to life. Mayuri tells Ichigo that as his Zanpakutō was destroyed while in Bankai state, it cannot be fixed. The captains mourn Yamamoto. Ichigo and the captains meet with Squad 0, consisting of the five most elite former captains, who protect the Soul King in the Royal Palace. Ichigo and the captains, talk to Urahara, Orihime, and Chad, who were saved from Quilge by a concealed [[Grimmjow Jaegerjaquez]]. [[Kūkaku Shiba]] sends Ichigo, Byakuya, Renji, Rukia, and Squad 0 to the Royal Palace above the Seireitei, where Zangetsu could be reforged. Kūkaku, having sent them up to the Royal Palace, joins her brother [[Ganju Shiba|Ganju]], [[List of Bleach characters#Kūgo Ginjō|Kūgo Ginjō]], [[List of Bleach characters#Shūkurō Tsukishima|Shūkurō Tsukishima]], and [[List of Bleach characters#Giriko Kutsuzawa|Giriko Kutsuzawa]], who now reside in the Soul Society, since they were killed with a Zanpakutō, given a proper burial, and did not become Hollows. At the Royal Palace, Ichigo, Rukia, Renji, and Byakuya, are being healed by [[List of Soul Reapers in Bleach#Tenjirō Kirinji|Tenjirō Kirinji]], a member of Squad Zero and the one who taught Unohana healing techniques. The Soul King is seen awakening.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 375
+| EpisodeNumber2  = 9
+| Title           = The Drop
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Kaito Asakura
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Kaito Asakura
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2022|12|6}}
+| AltDate         = July 27, 2025
+| ShortSummary    = Ichigo and Renji are healed completely by Kirinji. They move up to [[List of Soul Reapers in Bleach#Kirio Hikifune|Kirio Hikifune]]'s palace, where she feeds them with ancient Soul Society dishes, containing strong spiritual pressure, before being sent up to [[List of Soul Reapers in Bleach#Ōetsu Nimaiya|Ōetsu Nimaiya]]'s palace, the man responsible for creating all Zanpakutō. Meanwhile, Squad 8 captain Shunsui Kyōraku is appointed to be head captain, his lieutenant [[Nanao Ise]] have joined the Squad 1 and Yamamoto's previous 3rd Seat Genshiro Okikiba, was also promoted to lieutenant. He decrees that Kenpachi is to be taught "zanjutsu", an all-style encompassing swordsmanship by Squad 4 captain Unohana, who reveals herself a criminal for the history of the Soul Society and the founder of the Squad 11 and the "First Kenpachi", her real name being Yachiru Unohana. Unohana and Kenpachi fight at the underground prison, Muken. Kenpachi recalls how he used to admire Unohana, from their first meeting on, when he scarred her chest. Unohana states that he has become far weaker since then and she will push him to the brink of death and revive him repeatedly to unlock his full potential.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 376
+| EpisodeNumber2  = 10
+| Title           = The Battle
+| DirectedBy      = Hikaru Murata
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Hikaru Murata
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2022|12|13}}
+| AltDate         = August 3, 2025
+| ShortSummary    = Hundreds of years ago, Unohana, weary of fighting bandits, sought a true challenge until she encountered the fierce child Kenpachi. Though she was initially overpowered, Kenpachi subconsciously restrained himself, leading to his defeat. In the present, their battle resumes as Unohana repeatedly wounds Kenpachi, each death and revival sharpening his strength. She unleashes her Bankai, Minazuki, transforming her blade into streams of acidic blood-like slashes. Ultimately, Kenpachi grows strong enough to withstand her attacks and strikes the killing blow. As Unohana dies, he mourns her loss but finally awakens his own Zanpakutō, forging the bond he had long lacked. Meanwhile, Ichigo, Renji, and Kon arrive at Nimaiya's palace, Hoohden, where they encounter Zanpakutō spirits and the eccentric creator of the blades himself. Nimaiya explains the origin of Zanpakutō: Soul Reapers are first given a nameless Asauchi, which gradually evolve into their personalized weapon as they imprint their spiritual essence upon it. To prove themselves, Renji and Ichigo are cast into a pit swarming with countless Asauchi and given a three day endurance test. Renji successfully bonds with his weapon. However, Ichigo fails the test and Nimaiya abruptly sends him back to the Human World so he can rediscover his origins.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 377
+| EpisodeNumber2  = 11
+| Title           = Everything But the Rain
+| DirectedBy      = Yusaku Kikuchi
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Mitsutoshi Satō
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2022|12|20}}
+| AltDate         = August 10, 2025
+| ShortSummary    = Nimaiya tells Renji that he forged every Zanpakutō over the past several thousand years, including Kenpachi's, which was taken from a dead Soul Reaper. However, Ichigo's Zanpakutō was not one of his Asauchi, making his training crucial. Ichigo visits [[List of Bleach characters#Ikumi Unagiya|Ikumi Unagiya]], but is taken away by his father, [[List of Bleach characters#Isshin Kurosaki|Isshin]], in Soul Reaper form, leaving his badge behind. Isshin reveals that Ichigo's mother, Masaki, was a Quincy. Nearly 20 years ago, as captain of Squad 10, Isshin investigated Soul Reaper deaths in Naraki City caused by a powerful Hollow named "White", created from multiple dead Soul Reapers' souls. Masaki, an Echt Quincy raised by [[Sōken Ishida]]'s family, sensed the Hollow's presence and intervened despite protests from [[List of Bleach characters#Ryūken Ishida|Ryūken]] and the family maid Kanae Katagiri. While battling the Hollow, Isshin was ambushed and wounded by Aizen, [[Gin Ichimaru]], and [[Kaname Tōsen]], who had created "White". Masaki saved Isshin, defeating the Hollow at the cost of triggering its self-destruction. Isshin protected her and learned she was a Quincy. Fearing rejection, Masaki was relieved when Isshin warmly accepted her. Ryūken and Kanae, seeing she was safe, left her. Back in the present day, Haschwalth meets Uryū.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 378
+| EpisodeNumber2  = 12
+| Title           = Everything But the Rain "June Truth"
+| RTitle          = {{efn|name="Style-12"|Stylized as "EVERYTHING BUT THE RAIN “June Truth”"}}
+| DirectedBy      = Young-Hoon Jung
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Shinji Itadaki & Kentarō Tokiwa
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2022|12|27}}{{efn|name="Back-to-Back"|The first cours' finale aired as a one-hour special, with the 12th and 13th episodes premiering back-to-back.<ref name="ANN-TYBW-1st-cour-end">{{#invoke:Cite|web|last=Hazra|first=Adriana|title=Bleach: Thousand-Year Blood War Anime's 1st Part Ends on December 26 With 1-Hour Special|url=https://www.animenewsnetwork.com/news/2022-12-13/bleach-thousand-year-blood-war-anime-1st-part-ends-on-december-26-with-1-hour-special/.192887|website=[[Anime News Network]]|access-date=December 13, 2022|date=December 13, 2022|archive-date=December 13, 2022|archive-url=https://web.archive.org/web/20221213175307/https://www.animenewsnetwork.com/news/2022-12-13/bleach-thousand-year-blood-war-anime-1st-part-ends-on-december-26-with-1-hour-special/.192887|url-status=live}}</ref>}}
+| AltDate         = August 17, 2025
+| ShortSummary    = Isshin continues telling Ichigo his story. After the mission, he reported to Yamamoto but left out Masaki's involvement. Drawn to her, he continued patrolling the Human World. Meanwhile, Masaki began feeling the effects of the Hollow soul that had merged with her, collapsing as a Hollow hole appeared on her chest. Berated by Ryūken's mother for helping a Soul Reaper, Masaki was taken for help by Ryūken, who blamed Isshin for her condition. Urahara intervened, explaining he discovered a cure during his hundred-year exile while studying the Visoreds. Unlike Soul Reapers, Quincies lack resistance to Hollow souls, so Masaki's powerful Quincy soul needed the presence of a full Soul Reaper's powers to stabilize her for life. Isshin volunteered, and Urahara gave him a special Gigai to seal his powers and make him human. Isshin and Masaki later fell in love, while Ryūken married Kanae. Isshin reveals the reason that Masaki died saving Ichigo from Grand Fisher, and Katagiri died from her illness, was because of Yhwach, who nine years earlier used Auswählen to absorb the powers of Quincies he deemed to be impure. Before leaving, Ichigo retrieves his badge from Ikumi.
+| LineColor       = AC1E1B
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 379
+| EpisodeNumber2  = 13
+| Title           = The Blade Is Me
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Tomohisa Taguchi, Mitsutoshi Satō<br />& Yoshinori Odaka
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Tomohisa Taguchi
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2022|12|27}}{{efn|name="Back-to-Back"}}
+| AltDate         = August 24, 2025
+| ShortSummary    = Ichigo is guided back to the Royal Palace by one of Nimaiya's Zanpakutō bodyguards. There, all the Asauchi kneel before him, and he chooses the correct one: "White", the Hollow that has always resided within him. Meanwhile, in Soul Society, preparations for the next battle intensify. Hitsugaya returns to train in swordsmanship, determined to improve. [[Kensei Muguruma]] assigns unofficial lieutenant [[Mashiro Kuna]] to train under Hisagi, pushing him toward awakening his Bankai. Akon, recovering from injuries, discovers that Mayuri and [[Nemu Kurotsuchi]] have sealed themselves inside the lab, pursuing a mysterious project. Elsewhere, Komamura seeks his clan elder to learn a secret technique, while Soi-Fon sharpens her skills through solitary training in the mountains. Back at the palace, Nimaiya forges Ichigo's Zanpakutō, revealing the truth: "White" is the True Zangetsu, while "Old Man Zangetsu" is the embodiment of his Quincy powers who resembles Yhwach from a thousand years ago. Zangetsu explains that he suppressed Ichigo's true full Soul Reaper strength to protect him and finally releases his control on it, proud of Ichigo's growth. Ichigo embraces both embodiments, manifesting his dual-bladed True Shikai: True Zangetsu. In Silbern, Haschwalth presents Uryū, wearing the Stern Ritter attire, to Yhwach.
+| LineColor       = AC1E1B
+}}
+{{End|html=y|Episode table}}</onlyinclude>
+
+=== Part 2: ''The Separation'' ===
+<onlyinclude>
+{{Episode table
+| background = #1335A9
+| overall    = 5
+| overallR   = {{efn|name="Overall"}}
+| series     = 5
+| seriesR    = {{efn|name="Series"}}
+| title      = 16
+| titleR     = <ref name="Story"/>
+| director   = 14
+| directorR  = <ref name="Story"/>
+| writer     = 10
+| writerR    = <ref name="Story"/>
+| aux2       = 14
+| aux2T      = Storyboarded by
+| aux2R      = <ref name="Story"/>
+| aux3       = 14
+| aux3T      = Chief animation directed by
+| aux3R      = <ref name="Story"/>
+| airdate    = 11
+| airdateR   = <ref name="OnAir"/>
+| altdate    = 11
+| altdateT   = English air date
+| altdateR   = <ref name="AS"/>
+| dontclose  = y
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 380
+| EpisodeNumber2  = 14
+| Title           = The Last 9 Days
+| RTitle          = {{efn|name="Style-14"|Stylized as "THE LAST 9DAYS"}}
+| DirectedBy      = Hikaru Murata
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Tomohisa Taguchi, Hikaru Murata<br />& Yusaku Kikuchi
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2023|7|8}}
+| AltDate         = August 31, 2025
+| ShortSummary    = Ichigo begins his training with [[List of Soul Reapers in Bleach#Ichibe'e Hyōsube|Ichibe Hyōsube]], the captain of Squad 0. Meanwhile, Yhwach gathers the Quincy army to announce that he has chosen Uryū as his successor, causing discord between many of the Stern Ritters who considered Haschwalth more worthy for the post. Askin Nakk Le Vaar stops the ruckus between other ones, specifically Bazz-B and Haschwalth. Orihime and Chad train at Hueco Mundo, while Urahara researches the Quincy Medallion. Ichibe leads Ichigo to a special place in the Royal Palace, which can only be accessed with permission from the Soul King, in order to make him stronger. New Head Captain Shunsui Kyōraku gives Ichigo's human friends a Soul Ticket into the Soul Society in case Ichigo's spiritual pressure becomes too much for the Human World to bear. Rukia and Renji continue their training in the Royal Palace, while Byakuya recovers with Kirinji's help. A dark dome engulfs the Seireitei and the Quincy army returns for the next battle. Yhwach declares that he will retake the world in the next nine days, as per the Quincy Song, the ''Kaiser Gesang''.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 381
+| EpisodeNumber2  = 15
+| Title           = Peace from Shadows
+| DirectedBy      = Yusaku Kikuchi
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Shinji Itadaki
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2023|7|15}}
+| AltDate         = September 7, 2025
+| ShortSummary    = The Wandenreich launch their second invasion of the Seireitei. Haschwalth orders the Stern Ritters who stole Bankai to defeat their respective robbed captains. In Squad 12, Askin confronts its members and explains that the Wandenreich fortress was forged from Quincy powers and exists hidden within the Seireitei's shadows, where the Quincies observed and studied them. Mayuri and Nemu emerge from his personal lab, now lit in constant brightness, where Mayuri crafted countermeasures against Quincy techniques. Irritated by Mayuri's persistence, Askin withdraws. Elsewhere, Haschwalth confronts Shunsui and Nanao, only for Nanao to halt him with a high-level Kido. Across the Seireitei, chaos erupts as Soul Reapers clash with Soldat troops. Squad 10's Toshiro Hitsugaya and Rangiku Matsumoto face Bazz-B. Meanwhile, Squad 2 lieutenant Marechiyo Ōmaeda shields his sister from Stern Ritter "K" BG9 until captain Soi Fon intervenes. Hitsugaya and Rangiku attempt coordinated tactics, but Bazz-B overwhelms them with ease. Before Hitsugaya can recover from Bazz-B's assault, Stern Ritter "I" Cang Du intervenes and prepares to finish Hitsugaya off with his own Bankai. At the same time, BG9 gravely wounds Soi Fon. Just as hope seems lost, Urahara contacts Mayuri, announcing he has discovered a way to reclaim the stolen Bankai.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 382
+| EpisodeNumber2  = 16
+| Title           = The Fundamental Virulence
+| DirectedBy      = Ōri Yasukawa
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = {{Ill|Yōichi Fujita|ja|藤田陽一}}
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2023|7|22}}
+| AltDate         = September 14, 2025
+| ShortSummary    = Cang Du has already defeated Rangiku and moves to finish off Hitsugaya. Urahara informs Mayuri he has created the Shin'eiyaku: a black pill that hollowfies Bankai, rendering them poisonous to Quincies. He discovered this weakness after Quilge's inability to properly control Arrancar Reishi. The pills are distributed to all captains and several lieutenants. Hitsugaya takes the pill, activating his hollowfied Bankai, and freezes Cang Du. BG9 attempts to harvest the unconscious Soi-Fon, but Ōmaeda gives her the pill, enabling her to unleash her Bankai to eliminate BG9. Squad 5 captain [[Shinji Hirako]] activates his Bankai, Sakashima Yokoshima Happō Fusagari, causing enemies and allies alike to get confused and making the Soldats kill each other. Yumichika, Hisagi, and Ikkaku ingest the Shin'eiyaku, and are ambushed by Stern Ritter "S" Mask de Masculine, who easily overwhelms them. Elsewhere, Stern Ritter "E" Bambietta Basterbine seeks captain Komamura. Komamura, clad in full armor, arrives to stop her. Shinji briefly stalls her with his Shikai to allow Komamura to pursue his mission of avenging Yamamoto. All fallen Stern Ritters begin activating their Vollständig. Meanwhile, Ichigo enters a dark corridor in the Soul Palace, facing crushing pressure, pain, and visions that gradually reveal the Soul King.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 383
+| EpisodeNumber2  = 17
+| Title           = Heart of Wolf
+| RTitle          = {{efn|name="Style-17"|Stylized as "HEART of WOLF"}}
+| DirectedBy      = Shinichirō Ueda
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Shinichirō Ueda
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2023|7|29}}
+| AltDate         = September 21, 2025
+| ShortSummary    = Bambietta activates her Vollständig and blows Shinji up, forcing Komamura and Squad 5 lieutenant [[Momo Hinamori]] to intervene. While Momo retreats with Shinji, Komamura shields them. Bambietta reveals her power is not conventional bombs, but the ability to make anything struck by her Reishi projectiles explode. She blasts apart Komamura's helmet, exposing his new human appearance. Komamura explains that he sacrificed his own heart to his clan elder, gaining the secret ''Jinka Technique''. In this temporary form, he is immortal and impervious to harm. Summoning his Bankai, now unarmored and invulnerable, Komamura drives Bambietta back by deflecting her projectiles and defeats her. Komamura immediately rushes toward Yhwach, but his heart fails and he is reduced to a pure wolf form. His lieutenant, [[Tetsuzaemon Iba]], carries him away. A gravely injured Bambietta is discovered by her close Sternritter friends. Meanwhile, Uryū gathers the fallen Cang Du and BG9, while Haschwalth returns to Yhwach's side. Mask de Masculine defeats his opponents with James' support until stopped by Squad 9 captain Kensei Muguruma and Squad 3 captain Rōjūrō "Rose" Ōtoribashi. Elsewhere, Ichigo witnesses the Soul Society's past through the Soul King's powers and passes through the corridor gate, arriving at [[List of Soul Reapers in Bleach#Senjumaru Shutara|Senjumaru Shutara]]'s palace.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 384
+| EpisodeNumber2  = 18
+| Title           = Rages at Ringside
+| DirectedBy      = Itoko Nagai
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Atsushi Wakabayashi
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2023|8|5}}
+| AltDate         = September 28, 2025
+| ShortSummary    = Shunsui orders the remaining Soul Reapers to regroup under Mayuri's advise. Kensei unleashes his Bankai, Tekken Tachikaze, against Mask de Masculine and briefly overwhelms him, but Mask quickly recovers thanks to James' cheers and critically wounds him. Hisagi warns that James is the source of Mask's strength, so Rose slices him in half and activates his Bankai, ''Kinshara Butōdan'', producing illusions through music. Mask counters this by rupturing his eardrums and defeats Rose. As Mask moves to finish Rose off, Renji arrives and blocks his blow. Rukia follows, revealing that both have completed Squad 0's training. She evacuates the injured captains to Kotetsu for healing as Renji battles Mask. James survives his injury and continues empowering Mask, who triggers his Vollständig and fires a massive Reishi blast at Renji that incinerates James. Renji withstands Mask's attack with his True Bankai: Sō-ō Zabimaru, which he can now properly wield after previously being given its false name. He counters with Zāgā Tēppō, turning Mask into ash. Inside Silbern, Yhwach absorbs Mask's Reishi before vanishing into a shadow, leaving Haschwalth behind. Haschwalth tells Uryū that all Quincies are bound to Yhwach, and as his heir, he should be told the truth about him.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 385
+| EpisodeNumber2  = 19
+| Title           = The White Haze
+| DirectedBy      = Dali Chen
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Tomohisa Taguchi & Shinji Itadaki
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2023|8|12}}
+| AltDate         = October 5, 2025
+| ShortSummary    = After completing training with Squad 0, Ichigo begins descending towards the Seireitei and informs Urahara. Uryū witnesses Haschwalth executing BG9 and Cang Du for failing in their battles. Haschwalth reveals that all those who are given a portion of Yhwach's soul have their powers, knowledge, and skills absorbed by Yhwach upon dying. As Rukia scouts around the Seireitei, she confronts Stern Ritter "F" Äs Nödt, who is looking for Byakuya. Since Rukia is now much stronger and has learned about her Zanpakutō's true abilities, particularly its ability to lower the user's temperature and anything they touch to absolute zero, she manages to freeze Äs. Angered by Rukia's suggestion that he is afraid, Äs activates his Vollständig and begins instilling fear via Rukia's [[optic nerves]]. While trapped inside a moment of absolute fear, Byakuya rescues Rukia and recognizes her growth. Äs taunts Byakuya, but he allows Rukia to finish him off by herself. Rukia unleashes her dangerous Bankai, ''Hakka no Togame'', to defeat Äs. Byakuya helps Rukia control her Bankai so that she will not die from it. Elsewhere while tending to Rose and Kensei, Isane and Squad 11 lieutenant [[List of Soul Reapers in Bleach#Yachiru Kusajishi|Yachiru Kusajishi]] are ambushed by a Stern Ritter.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 386
+| EpisodeNumber2  = 20
+| Title           = I Am the Edge
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Yusaku Kikuchi
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Wataru Yamamoto
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2023|8|19}}
+| AltDate         = October 12, 2025
+| ShortSummary    = Stern Ritter "V" Gwenael Lee claims his power allows him to erase himself from an opponent's senses, yet Yachiru instinctively strikes him down every time he reappears. The real "V", Gremmy Thoumeaux, appears and reveals Lee was merely a creation of his imagination before erasing him from existence. Gremmy explains that his true ability is turning imagination into reality and states he has already killed Rose and Kensei. Demonstrating his power, he imagines Yachiru's bones turning into cookies, which incapacitates her. Kenpachi arrives and informs Isane of Unohana's death before challenging Gremmy. Gremmy attempts to drown Kenpachi, but he breaks free and wounds him. Gremmy then imagines heavy artillery and a clone to double his power, but Kenpachi withstands them. Gremmy then imagines a meteor falling into the Seireitei. Kenpachi releases his Zanpakutō, Nozarashi, and slashes the meteor in pieces. Gremmy creates numerous clones, casting Kenpachi into outer space, yet he escapes it and slashes Gremmy again. Desperate, Gremmy imagines his body to be as strong as Kenpachi's, but his perception of Kenpachi as a monster causes his own body to collapse under immense pressure. The dying Gremmy reveals his true form: a brain sustained within an imaginary body.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 387
+| EpisodeNumber2  = 21
+| Title           = The Headless Star
+| DirectedBy      = Mitsutoshi Satō
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Mitsutoshi Satō
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2023|8|26}}
+| AltDate         = October 19, 2025
+| ShortSummary    = A severely injured Kenpachi orders his squad members to search for the missing Yachiru before suddenly being ambushed by the Bambie Stern Ritters Candice Catnipp ("T"), Giselle Gewelle ("Z"), Meninas McAllon ("P"), and Liltotto Lamperd ("G"). Though Kenpachi initially puts up a fight against them, their combined assault eventually overwhelms him. Ichigo suddenly crashes down from the sky, opening a massive hole leading to the Royal Palace, and effortlessly pushes the quartet back. The Bambies activate their Quincy Vollständig forms to fight him. Candice charges an immense lightning bolt to attack Ichigo, but he counters her by merging two ''Getsuga Tenshō'' into one powerful cross-shaped strike, the ''Getsuga Jūjishō'', severing Candice's arm. Giselle regenerates it for her using a dead Soul Reaper's flesh. Before the Bambies can attack Ichigo again, several other Stern Ritters intervene. As Ichigo faces an overwhelming number of Stern Ritters, he notices Yhwach from afar. While Renji and several other Soul Reapers hold the enemy off for him, Ichigo charges toward Yhwach, but Uryū intervenes, warning Ichigo to leave them. Chad and Orihime arrive from Hueco Mundo to assist Ichigo, as Yhwach, Haschwalth, and Uryū ascend to the Royal Palace.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 388
+| EpisodeNumber2  = 22
+| Title           = Marching Out the Zombies
+| RTitle          = {{efn|name="Style-22"|Stylized as "Marching Out the ZOMBIES"}}
+| DirectedBy      = Young-Hoon Jung
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Yōichi Fujita
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2023|9|9}}
+| AltDate         = October 26, 2025
+| ShortSummary    = Yhwach's ascent to the Soul Palace creates a massive shockwave, prompting Shunsui to question why Ichibei would allow this to happen. Orihime and Chad confront Ichigo regarding Uryū, only for Urahara to intervene and escort them to Squad 12's barracks. There, Urahara unveils a one-use replica of the Shiba clan's spiritual cannon to launch them toward the Soul Palace. Since it demands immense spirit energy, [[Yoruichi Shihōin]] and the remaining Visored collected Reishi from distortions in the living world created by the Quincies. Meanwhile, Byakuya battles multiple Stern Ritters while Bazz-B targets Renji and Rukia. Giselle attempts to taunt Ikkaku and Yumichika into cutting her. Enraged when they refuse and Yumichika calls her a man, Giselle summons a zombified Bambietta. Giselle explains that her power requires killing Quincies before zombification, confirming she killed Bambietta herself. As Ikkaku and Yumichika are cornered, Mayuri and Nemu arrive. Mayuri disables the zombified Bambietta with a special device and counters Giselle's army of zombified Squad 11 soldiers with his own undead Arrancar forces from [[List of Hollows in Bleach|Szayelaporro Grantz]]'s lab, including [[List of Hollows in Bleach|Luppi Antenor]], [[List of Hollows in Bleach|Dordoni Alessandro Del Socaccio]], [[List of Hollows in Bleach|Cirucci Sanderwicci]], and [[List of Hollows in Bleach|Charlotte Chuhlhourne]], who quickly overpower Giselle's zombies. Cornered, Giselle reveals her trump card: a zombified Tōshirō Hitsugaya.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 389
+| EpisodeNumber2  = 23
+| Title           = Marching Out the Zombies 2
+| RTitle          = {{efn|name="Style-23"|Stylized as "Marching Out the ZOMBIES 2"}}
+| DirectedBy      = Takahiro Enokida
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Atsushi Wakabayashi
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2023|9|16}}
+| AltDate         = November 2, 2025
+| ShortSummary    = Hitsugaya swiftly defeats Ikkaku, Yumichika, and Charlotte before Mayuri intervenes, who uses specialized drugs to neutralize Giselle's control over him as he slowly reawakens Hitsugaya's consciousness. Giselle retaliates by summoning her strongest remaining Soul Reaper zombies: Kensei, Rose, and Rangiku, but Cirucci, Luppi, and Dordoni join the fray as ordered by Mayuri and even out the playing field. Using a genetically modified blood-like substance, Mayuri seizes full control of Giselle's Soul Reaper zombies and one of them impales her. Elsewhere, Byakuya unleashes his Bankai to defeat Candice, Robert Accutrone, and NaNaNa Najahkoop, while Meninas and Liltotto observe from a distance. Hisagi arrives to assist but suddenly turns on Byakuya, revealing he is being manipulated by PePe Waccabrada, Stern Ritter "L". PePe's power, The Love, enslaves anything with a soul, including Meninas, who goes on to attack Liltotto. PePe even enchants ''Senbonzakura'' to his will, forcing Byakuya's Zanpakutō against him as Hisagi takes it under PePe's influence. Just as Byakuya is cornered, Mayuri and his zombified allies arrive. Kensei incapacitates Hisagi and activates his Bankai to obliterate PePe. Liltotto stumbles upon PePe and devours him as revenge backstabbing her and Meninas. Meanwhile, Yhwach, Haschwalth, and Uryū finally reach the Soul Palace.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 390
+| EpisodeNumber2  = 24
+| Title           = Too Early to Win, Too Late to Know
+| RTitle          = {{efn|name="No-Comma"|Stylized without the [[comma]]}}
+| DirectedBy      = Takahiro Ōtsuka
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Yōichi Fujita
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2023|9|23}}
+| AltDate         = November 9, 2025
+| ShortSummary    = Thousands of years ago, Ichibe offered a young Yhwach a non-aggression pact to end conflict between Soul Reapers and Quincies. Yhwach questioned why the Soul Reapers enslaved the Soul King, his father, and used him to split one eternal realm into the World of the Living, Hueco Mundo, and Soul Society. Though Ichibe offered the Soul King's left arm as a peace token, Yhwach swore to erase his father and reunify the realms to "save" him. In the present, Urahara fires a cannon to send Ichigo, Orihime, Chad, Yoruichi, and Ganju to the Royal Palace. Aware of the invading Quincies, Senjumaru leads the Royal Guard in cutting down the Soldaten and killing Nianzol Weizol "W", the Wind. In response, Yhwach summons his Schutzstaffel: Lille Barro ("X"), Gerard Valkyrie ("M"), Pernida Parnkgjas ("C"), and newly promoted Askin. Lille apparently fires a shot through Senjumaru's head and destroys the Soul Palace. However, Senjumaru reveals this was all a decoy and the Quincies are actually trapped within Kirio's ''Cage of Life''. Joined by Tenjirō and Ōetsu, the Royal Guard counterattacks. Ōetsu unveils ''Sayafushi'', a Zanpakutō so sharp it cannot be sheathed, and annihilates the Schutzstaffel. Yhwach escapes the cage and advances toward Ichibe.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 391
+| EpisodeNumber2  = 25
+| Title           = The Master
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Shinichirō Ueda
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Shinichirō Ueda
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2023|9|30}}{{efn|name="Back-to-Back-Separation"|The second cours' finale aired as a one-hour special, with the 25th and 26th episodes premiering back-to-back.<ref>{{#invoke:Cite|web|last=Loo|first=Egan|title=Bleach: Thousand-Year Blood War Anime Part 2 Ends With 1-Hour Special on September 30|url=https://www.animenewsnetwork.com/news/2023-08-26/bleach-thousand-year-blood-war-anime-part-2-ends-with-1-hour-special-on-september-30/.201661|website=[[Anime News Network]]|access-date=August 26, 2023|archive-url=https://web.archive.org/web/20230826163259/https://www.animenewsnetwork.com/news/2023-08-26/bleach-thousand-year-blood-war-anime-part-2-ends-with-1-hour-special-on-september-30/.201661|archive-date=August 26, 2023|date=August 26, 2023|url-status=live}}</ref>}}
+| AltDate         = November 16, 2025
+| ShortSummary    = At the ruins of Squad 12's barracks, Kisuke assembles the surviving Visoreds alongside Yūshirō Shihōin, Yoruichi's younger brother, to prepare for an ascent to the Royal Palace. Meanwhile, Ichibe clashes with Yhwach, wielding his brush-shaped Zanpakutō that cuts names instead of flesh, halving the power of whatever it strikes. A single blow drastically weakens Yhwach. Tenjirō activates his Shikai to defeat Haschwalth, while Senjumaru manipulates Reishi to overwhelm Uryū's ''Licht Regen'', knocking him unconscious. Ōetsu is stunned when Askin survives his earlier strike. Askin reveals that his Schrift "D", the Deathdealing, allows him to control lethal dosages of substances within his body and others. By ingesting his own blood, he make its dangerously toxic to Ōetsu. Tenjirō intervenes, using his hot springs to purge the poison from Ōetsu's system, allowing him to finally kill Askin. Ichibe's momentum in his fight halts when Yhwach activates ''Auswählen'', absorbing Reishi and Schrift powers from surviving Stern Ritters in the Seireitei to resurrect the Schutzstaffel and Haschwalth, who all ascend into Vollständig. Liltotto, Giselle, and Bazz-B manage to survive this and swear vengeance. Shunsui resigns his command and joins [[Jūshirō Ukitake]], who reveals he used ''Kamikake'' to suppress his illness to fight once again.
+| LineColor       = 1335A9
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 392
+| EpisodeNumber2  = 26
+| Title           = Black
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Hikaru Murata, Dali Chen,<br />Takahiro Enokida & Itoko Nagai
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Hikaru Murata
+| Aux3            = Michio Hasegawa, Kiyoshi Komatsubara & Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2023|9|30}}{{efn|name="Back-to-Back-Separation"}}
+| AltDate         = November 23, 2025
+| ShortSummary    = After being revived by ''Auswählen'', Lille shoots Ōetsu, revealing his Schrift "X", the X-Axis, allows him to fire through any material between his rifle and target, bypassing any defenses. Senjumaru rescues and heals Ōetsu while Kirio transforms the battlefield with overgrown flora, splitting opponents for one-on-one duels. Senjumaru immobilizes Gerard with her threads, Kirio entraps Pernida in Reishi seeds, and Askin dodges Tenjirō's assaults. Ōetsu evades Lille's shots, even standing atop his rifle before countering. Ichibe continues battling Yhwach using high-level Kidō and activates his Shikai, splattering black ink that erases names and, by extension, power. When Yhwach's blade is stained, it becomes useless. Gerard breaks free and defeats Senjumaru, Pernida shreds Kirio's roots, and Askin wounds Tenjirō. Lille overcomes Ōetsu's speed by firing through him directly. Ōetsu reveals that their true powers were sealed to prevent cosmic imbalance as he, Tenjirō, and Kirio sacrifice themselves and channel their lifeforce into Senjumaru. She releases her Bankai: ''Shatatsu Karagara Shigaraminotsuji'', enveloping the Schutzstaffel, Haschwalth, and Uryū in a shifting void where she individually executes them with woven cloths. Meanwhile, Ichibe floods Yhwach with Black Ink, renaming him "Black Ant" with ''Shirafude Ichimonji'' before crushing and hurling him from the Soul Palace.
+| LineColor       = 1335A9
+}}
+{{End|html=y|Episode table}}</onlyinclude>
+
+=== Part 3: ''The Conflict'' ===
+<onlyinclude>
+{{Episode table
+| background = #000000
+| overall    = 5
+| overallR   = {{efn|name="Overall"}}
+| series     = 5
+| seriesR    = {{efn|name="Series"}}
+| title      = 16
+| titleR     = <ref name="Story"/>
+| director   = 14
+| directorR  = <ref name="Story"/>
+| writer     = 10
+| writerR    = <ref name="Story"/>
+| aux2       = 14
+| aux2T      = Storyboarded by
+| aux2R      = <ref name="Story"/>
+| aux3       = 14
+| aux3T      = Chief animation directed by
+| aux3R      = <ref name="Story"/>
+| airdate    = 11
+| airdateR   = <ref name="OnAir"/>
+| altdate    = 11
+| altdateT   = English air date
+| altdateR   = <ref name="AS"/>
+| dontclose  = y
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 393
+| EpisodeNumber2  = 27
+| Title           = A
+| DirectedBy      = Hikaru Murata
+| WrittenBy       = Masaki Hiramatsu &<br />Tomohisa Taguchi
+| Aux2            = Hikaru Murata
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2024|10|5}}
+| AltDate         = November 30, 2025
+| ShortSummary    = While falling, Yhwach finally regains his Schrift as per the ''Kaiser Gesang''. He activates "A", the Almighty, which allows him to ward off Ichibe's power and become all-seeing. Ichibe attempts to trap him, but Yhwach breaks through due to his regained ability and kills him. Having survived, Uryū manages to reflect the effects of Senjumaru's Bankai back onto her with his Schrift, the Antithesis, and after a brief battle, pierces her heart. Following their victory against Squad 0, Uryū, Haschwalth and the Schutzstaffel reunite with Yhwach and kneel before him as he reaches the Soul King and impales him. Ichigo's group arrives at the Soul Palace and calls out Ichibe's name, which raises him back from the dead by using a small portion of Ichigo's spiritual pressure. Currently powerless, Ichibe asks Ichigo to stop Yhwach. Meanwhile, Shunsui approaches Aizen in the Muken.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 394
+| EpisodeNumber2  = 28
+| Title           = Kill the King
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Yoshinori Odaka & Hikaru Murata
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Tomohisa Taguchi
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2024|10|12}}
+| AltDate         = December 7, 2025
+| ShortSummary    = Shinji, Soi-Fon, Hinamori and Ōmaeda head to the R&D Department, where Urahara and Nanao work to launch reinforcements to the Royal Palace. At the same time, Renji and Rukia depart the battlefield as Ukitake tends to Kenpachi's wounds. Meanwhile, Ichigo's group reaches Yhwach, unaware that he has already impaled the Soul King. Ichigo confronts Yhwach, who praises the strength he gained from Ichibe's training but proceeds to declare that he sent Ichigo to him knowing he would still lose. During their battle, Yhwach reveals he has not yet used his eyes and activates the Almighty, granting him the power to foresee every possible attack. Ichigo's strikes are instantly nullified as he is thrown back towards his team. Yhwach presents to the group the Soul King, skewered by his blade, which shocks them. Ichigo dashes towards the Soul King and pulls Yhwach's sword free from his body. After this action however, the sword reacts to Ichigo's Quincy blood and involuntarily forces him to deliver the killing blow, severing his body into two pieces. Yhwach informs the group that only a full hybrid like Ichigo could actually kill the Soul King. His death begins to trigger massive earthquakes across all three worlds.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 395
+| EpisodeNumber2  = 29
+| Title           = The Dark Arm
+| DirectedBy      = Young-Hoon Jung
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Young-Hoon Jung
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2024|10|19}}
+| AltDate         = December 14, 2025
+| ShortSummary    = Born with an incurable lung disease, Ukitake is saved from death after his parents pray to a local deity of the Rukon district, Mimihagi the right arm of the Soul King that crashed down to the Soul Society which fused with Ukitake, thus stopping his sickness from progressing, but not curing him. Ukitake joins the Soul Reaper Academy under the tutelage of Yamamoto, Sasakibe, and Unohana, and becomes close friends with his sparring partner Shunsui, confiding in him about Mimihagi. Later, the two mourn Kaien, and Yamamoto with Unohana, after which Ukitake bids farewell to Unohana. Back in the present day, Ukitake reveals to the others that the Kamikake process he underwent gave all his organs, not just his lungs to Mimihagi and, after handing over Squad 13 to Rukia, uses his life force to hold the Soul King together temporarily. While Ichigo, Yoruichi, Chad, and Ganju try to distract Yhwach, Orihime fails to reverse the Soul King's death, but Mimihagi attaches itself to him, something that not even Yhwach's eyes foresaw. In the Muken, Shunsui partially unseals Aizen and tries to make a deal with him to help save the Soul Society.
+| LineColor       = 000000
+}} 
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 396
+| EpisodeNumber2  = 30
+| Title           = The Betrayer
+| DirectedBy      = Itoko Nagai
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Yōichi Fujita
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2024|10|26}}
+| AltDate         = December 21, 2025
+| ShortSummary    = Yhwach realizes he failed to foresee the Soul King's right arm aiding its body because the arm is part of the Soul King himself. As Yhwach attempts to destroy both, Ichigo grabs his arm to restrain him. Yoruichi erects a stabilizing barrier around the Soul King's remains, buying them time. Yhwach mocks Ichigo for being unable to kill the man responsible for his mother's death and calls him weak. Ichigo prepares to attack Yhwach, but Uryū suddenly shoots Yoruichi, causing her to lose focus over the barrier. Pernida contorts Yoruichi's arm and she is blasted off the Soul Palace by Yhwach. Uryū declares his loyalty to the Quincies, devastating Ichigo as the two begin fighting. Uryū is shocked when Ichigo blocks his arrow using ''Blut Vene'', revealing his Quincy abilities. Meanwhile, Chad, Ganju, and Orihime attempt to fight the Schutzstaffel but are quickly overwhelmed. Uryū activates his Vollständig and attacks Ichigo. Uryū prepares a massive Quincy arrow, which Ichigo counters by using ''Getsuga Jūjishō''. Uryū manages to land a decisive blow, seriously wounding Ichigo and sending him falling. Yhwach completely shatters the Soul King's crystal and absorbs both his body and right arm, which creates multiple eyes across his face.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 397
+| EpisodeNumber2  = 31
+| Title           = Against the Judgement
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Takumi Ichikawa
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Takumi Ichikawa
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2024|11|2}}
+| AltDate         = January 4, 2026
+| ShortSummary    = Yhwach's unstable energy erupts across the Soul Society, manifesting as grotesque infant-like eyed parasites that rain down and overwhelm the Soul Reapers. Aizen arrives bound in Mayuri's restraint chair and effortlessly annihilates the creatures using only his spiritual pressure. Though many Soul Reapers are disgusted by Aizen's release, Shunsui defends the decision in the face of their potential annihilation by the Quincies. Aizen is suddenly immobilized by NaNaNa, who activates his Schrift "U", the Underbelly. However, the other surviving Quincies: Bazz-B, Liltotto, and Giselle, intervene as Bazz-B kills NaNaNa and reveals they intend on betraying Yhwach for abandoning them during ''Auswählen''. Shunsui accepts their assistance. To reach the Soul Palace, Shunsui orders all remaining Soul Reapers to pour their ''Reiryoku'' into a gateway that Urahara can activate. Kenpachi, now recovered from his previous battle, arrives as a quickly recouped Aizen prepares to support their battle from the ground. An assault force of captains, lieutenants, Visoreds, and rogue Quincies prepare to depart for the palace. Meanwhile, Orihime heals Ichigo and Yoruichi as they plan their counterattack. Grimmjow arrives from Hueco Mundo to assist them. From above, Yhwach completes his absorption of the Soul King and begins reshaping the entire Soul Society.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 398
+| EpisodeNumber2  = 32
+| Title           = The Holy Newborn
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Shinichirō Ueda
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Shinichirō Ueda
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2024|11|9}}
+| AltDate         = January 11, 2026
+| ShortSummary    = Grimmjow attempts to pick a fight with Ichigo immediately, but he is stopped by Nelliel, who reveals that Urahara created a bracelet for her, which allows her to transform into her original form at will. From the Garganta, Fullbringers [[List of Bleach characters#Riruka Dokugamine|Riruka Dokugamine]] and [[List of Bleach characters#Yukio Hans Vorarlberna|Yukio Hans Vorarlberna]] emerge as well, as they were also recruited by Urahara to combine their powers, allowing Ichigo's group to swiftly reach the top of the Soul Palace. The Soul Reapers power up the gate as the Seireitei starts to crumble. Due to Yhwach, more cities in the Seireitei begin to break down, the remains of which he raises up to the Soul Palace, completely transforming it into a Quincy city named Wahr Welt, which is shaped like a massive Quincy Zeichen. Ichigo's group and the Soul Reapers arrive at Wahr Welt simultaneously, shocked by the power one could wield to reshape the entire Soul Palace effortlessly. Yukio and Riruka stay behind in the Garganta to act as a potential getaway. Haschwalth reports about the arrival of Ichigo's group and the Soul Reaper troop to Yhwach from inside their newly reconstructed central castle.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 399
+| EpisodeNumber2  = 33
+| Title           = Gate of the Sun
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Dali Chen
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Dali Chen
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2024|11|16}}
+| AltDate         = January 18, 2026
+| ShortSummary    = Yhwach sends Uryū and the Schutzstaffel to eliminate the Soul Reapers. Due to using the bathroom the same time as Kenpachi, [[Hanatarō Yamada]] is taken along by his squad after Mayuri initially stayed behind to change the coordinates he would be sent to. Mayuri and Nemu split off from Kenpachi, Hanatarō, Yumichika, and Ikkaku, as both groups venture towards the central castle. Gerard searches for Soul Reapers to fight. After Bazz-B, Liltotto and Giselle separate from them to confront Haschwalth and Yhwach, the main Soul Reaper group is assaulted by Lille, who succeeds in shooting down Hisagi, Ōmaeda, Kiyone, Sentarō and Isane, thus scattering the pack. Elsewhere, Ichigo's group runs into Askin as Grimmjow runs off to immediately pounce him. After being forced to play on the defensive, Askin turns the tables on Grimmjow and paralyzes him as Ichigo arrives to rescue him. Meanwhile, Uryū begins firing arrows at Renji, who gets separated from the main group. Renji unleashes his true Bankai and effortlessly overpowers Uryū until the latter activates his Vollständig, but Renji counters through it. Backed into a corner, Uryū uses ''Sklave Rei'' to overcharge his Vollständig, after which he overcomes Renji and shoots him through the chest.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 400
+| EpisodeNumber2  = 34
+| Title           = Baby, Hold Your Hand
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Takahiro Ōtsuka
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Atsushi Wakabayashi
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2024|11|23}}
+| AltDate         = January 25, 2026
+| ShortSummary    = Lille observes Uryū defeating Renji from afar as Bazz-B heads to confront Haschwalth, while Giselle and Liltotto pursue Yhwach. Elsewhere, Mayuri, Nemu, Kenpachi, Ikkaku, and Yumichika encounter Pernida Parnkgjas, a grotesque Quincy which is soon revealed to be the left arm of the Soul King. Ignoring Mayuri's warnings, Kenpachi charges forth and strikes Pernida, but it retaliates by manipulating Kenpachi's nerves, grotesquely twisting his right arm until Kenpachi is forced to sever it. When Kenpachi attacks again, Pernida overwhelms him completely, damaging his body until Mayuri stabs Kenpachi from behind to paralyze and stop Pernida's nerve control. Mayuri deduces that Pernida weaponizes its nerves to invade and control both organic and inorganic matter. After acid fails to stop it, Pernida transforms into a much larger, speaking arm form. When Mayuri severs one of its fingers to preserve it as a specimen, Pernida regenerates two new arms from it, revealing its quick regenerative abilities. To counter this, Mayuri unveils his modified Bankai, ''Konjiki Ashisogi Jizō Matai Fukuin Shōtai'', a giant, pregnant ''Ashisogi Jizō'' that gives birth to specialized combat forms. Built with 70,000 layered nerves on the outside to resist Pernida's control, Mayuri's Bankai quickly devours all three of its arms.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 401
+| EpisodeNumber2  = 35
+| Title           = Don't Chase a Shadow
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Ema Saito, Tomohisa Taguchi,<br />Shintaro Matsui & Hikaru Murata
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Ema Saito
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2024|11|30}}
+| AltDate         = February 1, 2026
+| ShortSummary    = Lille continues sniping off the Soul Reapers, forcing Shunsui to use his Shikai consisting of children's games to stall him. Per Shunsui's orders, Nanao instructs the others to continue onwards as she goes to support him. After his rifle is severed by Shunsui, Lille explains that the gun is part of him and created from Reishi, elaborating that he was the first Quincy to receive powers from Yhwach. Lille activates his Vollständig, turning into an angelic, eight-winged being that supposedly cannot be killed by any weapon. Having been gravely injured by Lille's new form, Shunsui is forced to use his Bankai, ''Katen Kyōkotsu Karamatsu Shinju'', which envelops the Wahr Welt. Shunsui initiates a theatrical play composed of several acts, selecting a play composed of four acts with two actors, him and Lille. With the first act Shunsui reflects his injuries onto Lille, with the second act he infects him with an illness, with the third act he plummets both of them into an infinite sea, and with the final act Shunsui uses a thread composed of regret to explosively decapitate Lille. After Lille's body floats down to the ground, Shunsui collapses and is comforted by his Zanpakutō's manifested spirit, Ohana.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 402
+| EpisodeNumber2  = 36
+| Title           = Baby, Hold Your Hand 2 {{Nowrap|[Never Ending My Dream]}}
+| RTitle          = {{efn|name="Style-36"|Stylized as "BABY, HOLD YOUR HAND 2 [Never Ending My Dream]"}}
+| DirectedBy      = Young-Hoon Jung
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Susumu Nishizawa
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2024|12|7}}
+| AltDate         = February 8, 2026
+| ShortSummary    = Pernida destroys ''Ashisogi Jizō'' by firing nerve-laced arrows from its Quincy bow. Nemu saves Mayuri from a fatal strike as both are forced to sever their own arms to stop Pernida's nerves. After regenerating them using drugs, Mayuri orders Nemu to inject a nerve-coagulating agent into one of Pernida's arrows. Though it spreads through Pernida's body, it simply amputates the infected finger, revealing its rapid evolution. Recognizing Pernida's adaptive growth, Nemu exceeds her artificial body's limits and compresses six percent of her soul into a single strike to impale Pernida. Its body explodes but it regenerates quick enough to obliterate her body. A grief-stricken Mayuri recovers Nemu's brain as Pernida advances to eat her remains. Mayuri reveals his final contingency to Pernida: Nemu's pituitary gland housed a synthetic organ that triggers uncontrolled cell division without her brain. Pernida's body grotesquely mutates and self destructs, though a surviving nerve manages to cripple Mayuri's legs. Yumichika and Ikkaku rescue Mayuri and retreat to containment pods holding Rangiku, Hitsugaya, Kensei, and Rose, all of whom Mayuri successfully de-zombified. Rangiku and Hitsugaya are ejected for Mayuri and Kenpachi to recover. Elsewhere, Giselle, Liltotto, and the zombified Bambies battle Yhwach's Soldats as Bazz-B confronts Haschwalth.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 403
+| EpisodeNumber2  = 37
+| Title           = Shadows Gone
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Shinichirō Ueda
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Shinichirō Ueda
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2024|12|14}}
+| AltDate         = February 15, 2026
+| ShortSummary    = As a child, Shunsui often visited his older brother and sister-in-law, the matriarch of the Ise Clan: a priest family cursed so that its male members die young. Their sacred blade, ''Shinken Hakkyōken'', was inherited by female heirs and possessed the power to reflect divine energy back at gods. After her husband's death, the matriarch secretly entrusted the blade to Shunsui to spare her daughter, Nanao, from its curse. Shunsui concealed it within his secondary Zanpakutō spirit, Okyo, which was created by the original spirit, Ohana. The Central 46 later learned that the weapon was lost and had the matriarch executed. Nanao would end up entering the Soul Reaper Academy, excelling in Kidō. She was assigned to Squad 8, unknowingly serving under her uncle, Shunsui, who guided her growth. Back in the present, Shunsui is critically wounded by a revived Lille. Using his Shikai, Shunsui hides himself and the reunited Nanao inside Lille's shadow and returns her inherited blade. Despite getting cut by Lille during her exit out of his shadow, Nanao wields ''Shinken Hakkyōken'' and reflects his blast back towards him, obliterating much of Wahr Welt and bisecting the Quincy. Exhausted, she and Shunsui collapse as the battle ends.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 404
+| EpisodeNumber2  = 38
+| Title           = Friend
+| RTitle          = {{efn|name="Style-38"|Stylized in [[all lowercase]]}}
+| DirectedBy      = Dali Chen
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Toshiyuki Tsuru{{efn|name="TT"|Credited as Yasuaki Kurotsu}}
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2024|12|21}}
+| AltDate         = February 22, 2026
+| ShortSummary    = Around a thousand years ago in Licht Reich, Bazzard "Bazz-B" Black and Jugram Haschwalth grew up in a rural Quincy settlement. Bazz-B was gifted, able to absorb Reishi and form a ''Heilig Bogen'', while Jugram lacked Reishi abilities. Despite this they formed a close bond, with Bazz-B hunting to sharpen his skills and Jugram supporting him, surviving together as friends. Their childhood is destroyed when Yhwach and his army destroy their entire village. Now orphaned, the boys spent five years training in the wilderness. Jugram honed his swordsmanship to compensate for his inability to gather Reishi. When Stern Ritter recruiters arrived, Bazz-B eagerly volunteered, but both were dismissed until Yhwach appeared. His overwhelming spiritual pressure crushed every citizen except Jugram. Yhwach declared Jugram a rare Balance Quincy, one who distributes Reishi rather than absorbing it. Realizing Jugram's true potential, Yhwach claimed him as his other self. When Bazz-B attempted to strike Yhwach down, Jugram blocked his attack. Three years later, Jugram rose to become the Stern Ritter's Grandmaster as Bazz-B served beneath him, still clinging to hopes of overthrowing Yhwach. Back in the present, Bazz-B challenges Jugram with his full power. However, Jugram effortlessly defeats and kills his former friend.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 405
+| EpisodeNumber2  = 39
+| Title           = The Visible Answer
+| DirectedBy      = Itoko Nagai
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Itoko Nagai
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2024|12|28}}{{efn|name="Back-to-Back-Conflict"|The third cours' finale was a one-hour special, with the 39th and 40th episodes premiering back-to-back.<ref>{{#invoke:Cite|web|last=Hodgkins|first=Crystalyn|title=Bleach: Thousand-Year Blood War Anime Reveals More Cast, 1-Hour Final Episode For Show's 3rd Part|url=https://www.animenewsnetwork.com/news/2024-12-16/bleach-thousand-year-blood-war-anime-reveals-more-cast-1-hour-final-episode-for-show-3rd-part/.219140|website=[[Anime News Network]]|access-date=December 16, 2024|archive-url=https://web.archive.org/web/20241216111830/https://www.animenewsnetwork.com/news/2024-12-16/bleach-thousand-year-blood-war-anime-reveals-more-cast-1-hour-final-episode-for-show-3rd-part/.219140|archive-date=December 16, 2024|date=December 16, 2024|url-status=live}}</ref>}}
+| AltDate         = March 1, 2026
+| ShortSummary    = As Yhwach absorbs Mimihagi in his sleep, violent tremors shake all three worlds. During this upheaval, Jugram activates the Almighty and confronts Uryū, questioning his loyalty and hinting at his future betrayal that has already been foreseen. Elsewhere, the Visoreds rescue and heal Renji, who rejoins Urahara, Shinji, Momo, Rukia, Byakuya, and Soi-Fon as they are confronted by Gerard Valkyrie. Though they initially kill Gerard, he resurrects using his Schrift the Miracle, transforming the damage inflicted onto him into size growth, turning into a colossal giant who decimates everyone nearby. As this happens, Askin incapacitates Ichigo, Orihime, and Chad, revealing that Gerard and Pernida were not granted Schrifts by Yhwach, but instead possessed innate powers allegedly as the Soul King's respective heart and left arm. As Askin prepares to kill the trio, Yoruichi intervenes. After Orihime heals the group, Yoruichi commands Ichigo onward to confront Yhwach while she and her brother Yūshirō battle Askin. However, Askin adapts, becoming immune to Yūshirō's spiritual pressure and impaling him. Meanwhile, Haschwalth strikes Uryū down, sending him near Ichigo's team. Back in the World of the Living, Isshin Kurosaki and Ryūken Ishida meet at a graveyard, and prepare to travel to the Soul Society.
+| LineColor       = 000000
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 406
+| EpisodeNumber2  = 40
+| Title           = My Last Words
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Hikaru Murata & Tomohisa Taguchi
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Hikaru Murata
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2024|12|28}}{{efn|name="Back-to-Back-Conflict"}}
+| AltDate         = March 8, 2026
+| ShortSummary    = Haschwalth confronts Uryū, claiming he already foresaw his intentions and orders him to prove his loyalty by killing Ichigo, Orihime and Chad. Meanwhile, Gerard hunts down battered Soul Reaper opponents until the Visoreds gather and activate their Hollow masks to confront him. Yoruichi continues her battle with Askin while also protecting her injured brother. Down in the Seireitei, remains of Lille fall down and begin spawning smaller bird clones, but a recouped Izuru swiftly eliminates one of them. Ichigo's clash with Uryū sends them, Orihime, and Chad falling down to the castle's lower levels. Uryū reveals his true motive: he joined Yhwach not out of loyalty, but to stop him. It is revealed that his grandfather, Sōken Ishida, discovered that Yhwach's revival cost countless Quincy lives. Uryū wants to send the trio back home using his Sun Key, but Haschwalth arrives, revealing he already foresaw this and destroyed the gate. Uryū sends Ichigo's group ahead to confront Yhwach while he stays behind to face down Haschwalth. Elsewhere, Isshin and Ryūken use Sōken's old Sun Key to open a different Gate of the Sun and enter Wahr Welt. Meanwhile, Yhwach kills the surviving Bambies for attempting to interfere with his slumber.
+| LineColor       = 000000
+}}
+{{End|html=y|Episode table}}</onlyinclude>
+
+=== Part 4: ''The Calamity'' ===
+<onlyinclude>
+{{Episode table
+| background = #F6832E
+| overall    = 5
+| overallR   = {{efn|name="Overall"}}
+| series     = 5
+| seriesR    = {{efn|name="Series"}}
+| title      = 16
+| titleR     = <ref name="Story"/>
+| director   = 14
+| directorR  = <ref name="Story"/>
+| writer     = 10
+| writerR    = <ref name="Story"/>
+| aux2       = 14
+| aux2T      = Storyboarded by
+| aux2R      = <ref name="Story"/>
+| aux3       = 14
+| aux3T      = Chief animation directed by
+| aux3R      = <ref name="Story"/>
+| airdate    = 11
+| airdateR   = <ref name="OnAir"/>
+| altdate    = 11
+| altdateT   = English air date
+| altdateR   = <ref name="AS"/>
+| dontclose  = y
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 407
+| EpisodeNumber2  = 41
+| Title           = God of Thunder
+| RTitle          = {{efn|name="All-Cap"}}
+| DirectedBy      = Dali Chen
+| WrittenBy       = Masaki Hiramatsu &<br />Tomohisa Taguchi
+| Aux2            = Dali Chen
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2026|7|25}}
+| AltDate         = 
+| ShortSummary    = Yhwach dreams of possible futures of Ichigo beating him. Giant guardian statues within the palace attempt to hold off Ichigo's search for Yhwach, but Chad and Ganju stay behind to fend them off. Uryū engages Haschwalth in battle, but the Almighty allows him to avoid all of his attacks and immobilizes him. Haschwalth shows Uryū the rifts starting to form in the Three Worlds, which are also observed in the Human world by [[List of Bleach characters#Jinta Hanakari|Jinta Hanakari]], [[List of Bleach characters#Ururu Tsumugiya|Ururu Tsumugiya]] and [[List of Bleach characters#Tessai Tsukabishi|Tessai Tsukabishi]]. Yoruichi and Yūshirō lay badly beaten at Askin's feet, but Kisuke arrives and gives Yoruichi a temporary antidote to Askin's Death-Dealing, before triggering her transformation into a wild, feline-like Thunder God form, called Raiju Senkei Shunryu Kokubyo Senki. Her erratic spiritual pressure and greatly increased speed and power allow her to pummel Askin, before the antidote wears off. Just as Kisuke prepares to finish off Askin, he rises and uses his Vollständig, Hass Hein.
+| LineColor       = F6832E
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 408
+| EpisodeNumber2  = 42
+| Title           = Son of Darkness
+| DirectedBy      = Shintaro Matsui
+| WrittenBy       = Masaki Hiramatsu &<br />Tomohisa Taguchi
+| Aux2            = Shintaro Matsui
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2026|8|1}}
+| AltDate         = 
+| ShortSummary    = Askin reveals that his Vollständig greatly increases the speed of his adaptability, making Yoruichi's transformation inept. He focuses the Death Dealing's ability into a small Gift Ring projectile, using it to burst Kisuke's eyes. Kisuke is forced to unleash his Bankai, ''Kannon-Biraki Benihime Aratame'', which allows him to reconstruct the physical build of anything he touches. Using this, Kisuke rearranges his body to give himself superhuman speed and reflexes, while also deconstructing Askin's body, if in range. During the high-octane fight, Grimmjow successfully launches a surprise attack and rips Askin's heart out from behind and crushes it. Askin reveals that the Gift Ball Deluxe's potency exponentially increases in death, so they are getting poisoned to death within as he dies. Nelliel jumps in from outside to rescue them. Ichigo and Orihime reach Yhwach, and engage him in battle, while Orihime defends Ichigo. Meanwhile, Haschwalth repels all of Uryū's attacks, claiming that they greatly underestimate Yhwach even without the Almighty.
+| LineColor       = F6832E
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 409
+| EpisodeNumber2  = 43
+| Title           = Blood for My Bone
+| DirectedBy      = Shinichirō Ueda
+| WrittenBy       = Masaki Hiramatsu &<br />Tomohisa Taguchi
+| Aux2            = Shinichirō Ueda
+| Aux3            = Michio Hasegawa
+| OriginalAirDate = {{Start date|2026|8|8}}
+| AltDate         = 
+| ShortSummary    = Kenpachi breaks out of Mayuri's pod fully healed. Orihime is rejecting more and more of Yhwach's Soul King power, while both Yhwach and Haschwalth reveal to their respective opponents the true intent of Ichibe. Ichigo was shown the Soul King's memories and was trained by Squad 0 in an effort to groom him to become the next Soul King, since he is the perfect hybrid of the five races. Haschwalth and Yhwach both explain that if somehow the latter were to die, the worlds would still cease to exist, since the position of lynchpin for the Three Worlds as the Soul King was also taken over by Yhwach. Ichigo refuses to back down, because the people he wants to protect would also be destroyed if Yhwach joins all of the worlds together. As Ichigo swipes away at Yhwach's attacks, he begins to awaken his hollow side and turns into a half-hollow form. Meanwhile, Gerard withstands all of the Visoreds' attacks and incapacitates them. Hitsugaya and Byakuya join forces against him, but just when they are about to be crushed, Kenpachi saves them, Shikai in hand and the three team up against the giant.
+| LineColor       = F6832E
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 410
+| EpisodeNumber2  = 44
+| Title           = The Perfect Crimson
+| DirectedBy      = Young-Hoon Jung
+| WrittenBy       = Masaki Hiramatsu
+| Aux2            = Young-Hoon Jung
+| Aux3            = Kumiko Takayanagi
+| OriginalAirDate = {{Start date|2026|8|15}}
+| AltDate         = 
+| ShortSummary    = Kenpachi tries to fight Gerard one-on-one, but is brutally beaten back. Yachiru appears in his subconscious, revealed to be his Zanpakutō spirit Nozarashi's physical manifestation and gives him the power of Bankai. Kenpachi rises with an [[oni]]-like appearance and a broken cleaver, but cannot control himself. He savagely bites Gerard's arm off and pushes him off the Soul Palace. Gerard uses his wings to fly back up just as Kenpachi vertically cuts him in half. However, Gerard's Quincy cross remained intact as the Soul King's heart forms around it and resurrects Gerard in his Vollständig, Aschtonig. Kenpachi tries to fight back, but his body crumbles from the power of his Bankai. Momo heals Renji and Rukia as Byakuya sends them to help Ichigo. Hitsugaya's Bankai reaches its complete form, forcing him to grow into an adult body to support it. With his complete Bankai he easily destroys Gerard's sword and shield and fully freezes him, allowing Byakuya to cut him to pieces. The Miracle still reforms him to an even larger size. As the Three Worlds start to blend, the Soul Reapers left below the palace go to the Human World to exterminate the overflowing Hollows. Meanwhile, Ichigo shows Orihime he controls his Hollow side now and launches a Getsugatenshō combined with a Gran Rey Cero at Yhwach, who draws his blade to finally fight.
+| LineColor       = F6832E
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 411
+| EpisodeNumber2  = 45
+| Title           = Defend You
+| RTitle          = {{efn|name="Style-45"|Stylized in [[all caps]], full title is Life to Defend you at the end of the episode}}
+| DirectedBy      = Tomohisa Taguchi
+| WrittenBy       = Tomohisa Taguchi
+| Aux2            = Tomohisa Taguchi
+| Aux3            = Kiyoshi Komatsubara
+| OriginalAirDate = {{Start date|2026|8|22}}
+| AltDate         = 
+| ShortSummary    = Renji and Rukia reach Chad and Ganju, where Renji stays behind to clean the giant statues up faster, while Rukia goes ahead. Uryū carefully observes Haschwalth's usage of the Almighty and deduces that his future sight ability has a three-second cooldown. Using this, Uryū is able to distract Haschwalth and place the Leiden Hand glove on him to remove the Almighty's power completely. Meanwhile, Ichigo relentlessly dashes at Yhwach, who repeatedly kills him and fatally wounds Orihime, but the latter keeps rejecting it and healing both of them until Rukia finally arrives. With Rukia's help freezing Yhwach, Ichigo unleashes his full-hollow True Bankai, which grows him a second horn as bloody chains emerge from his neck and limbs. He greatly injures Yhwach with an enormous crescent-moon-shaped Getsugatensho, but Yhwach still kills him. Orihime rejects this, and Ichigo and Rukia mount a combined attack, with Rukia unleashing her Bankai. However, they still end up impaled. Devastated by the carnage, Orihime unleashes all of her latent power to reverse time and reject all their injures as she tackles and disappears along with Yhwach, who seemingly regains the Almighty shortly before vanishing.
+| LineColor       = F6832E
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 412
+| EpisodeNumber2  = 46
+| Title           = 
+| RTitle          = 
+| DirectedBy      = 
+| WrittenBy       = 
+| Aux2            = 
+| Aux3            = 
+| OriginalAirDate = {{Start date|2026|8|29}}
+| AltDate         = 
+| ShortSummary    = 
+| LineColor       = F6832E
+}} <!--
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 413
+| EpisodeNumber2  = 47
+| Title           = 
+| RTitle          = 
+| DirectedBy      = 
+| WrittenBy       = 
+| Aux2            = 
+| Aux3            = 
+| OriginalAirDate = {{Start date|2026}}
+| AltDate         = 
+| ShortSummary    = 
+| LineColor       = F6832E
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 414
+| EpisodeNumber2  = 48
+| Title           = 
+| RTitle          = 
+| DirectedBy      = 
+| WrittenBy       = 
+| Aux2            = 
+| Aux3            = 
+| OriginalAirDate = {{Start date|2026}}
+| AltDate         = 
+| ShortSummary    = 
+| LineColor       = F6832E
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 415
+| EpisodeNumber2  = 49
+| Title           = 
+| RTitle          = 
+| DirectedBy      = 
+| WrittenBy       = 
+| Aux2            = 
+| Aux3            = 
+| OriginalAirDate = {{Start date|2026}}
+| AltDate         = 
+| ShortSummary    = 
+| LineColor       = F6832E
+}}
+{{Episode list/sublist|Bleach: Thousand-Year Blood War
+| EpisodeNumber   = 416
+| EpisodeNumber2  = 50
+| Title           = 
+| RTitle          = 
+| DirectedBy      = 
+| WrittenBy       = 
+| Aux2            = 
+| Aux3            = 
+| OriginalAirDate = {{Start date|2026}}
+| AltDate         = 
+| ShortSummary    = 
+| LineColor       = F6832E
+}} -->
+{{End|html=y|Episode table}}</onlyinclude>
+
+== Recap special ==
+{{Episode table
+| background = #AC1E1B
+| overall    = 5
+| series     = 5
+| title      = 
+| titleR     = <ref name="Story"/>
+| airdate    = 12
+| airdateR   = 
+| dontclose  = y
+}}
+{{Episode list
+| EpisodeNumber   = 387.5
+| EpisodeNumber2  = 21.5
+| Title           = The Blood Warfare, Separation (Interlude)
+| OriginalAirDate = {{Start date|2023|9|2}}
+| ShortSummary    = A [[recap sequence|recap]] special covering the first 21 episodes of ''Bleach: Thousand-Year Blood War''<!-- This summary is a sentence fragment and therefore does not need a period. -->
+| TopColor        = E9E9E9
+| LineColor       = AC1E1B
+}}
+{{End|html=y|Episode table}}
+
+== Home media release ==
+=== Japanese ===
+{| class="wikitable" style="text-align: center; width: 70%;"
+|+ [[Aniplex]] (Region A/2, Blu-ray & DVD)
+|-
+! colspan="2"| {{Abbr|Vol.|Volume}}
+! Discs
+! Episodes
+! Release date
+! width="10%"| {{Abbr|Ref.|Reference}}
+|-
+| width="1%" style="background: #AC1E1B;"| 
+| I
+| rowspan="4"| 2
+| 1–13
+| April 26, 2023
+| <ref>{{#invoke:Cite|web|url=https://bleach-anime.com/bddvd/1st.html|title=Burūrei & DVD {{!}} Terebi Anime "Burīchi: Sennen Kessen-hen" Kōshiki Saito|script-title=ja:Blu-ray&DVD {{!}} TVアニメ「BLEACH 千年血戦篇」公式サイト|trans-title=Blu-ray & DVD {{!}} TV Anime "Bleach: Thousand-Year Blood War" Official Site|website=bleach-anime.com|access-date=November 18, 2022|archive-date=June 3, 2023|archive-url=https://web.archive.org/web/20230603013627/https://bleach-anime.com/bddvd/|url-status=live}}</ref>
+|-
+| width="1%" style="background: #1335A9;"| 
+| II
+| 14–26
+| March 27, 2024
+| <ref>{{#invoke:Cite|web|url=https://bleach-anime.com/bddvd/2nd.html|title=Burūrei & DVD {{!}} Terebi Anime "Burīchi: Sennen Kessen-hen" Kōshiki Saito|script-title=ja:Blu-ray&DVD {{!}} TVアニメ「BLEACH 千年血戦篇」公式サイト|trans-title=Blu-ray & DVD {{!}} TV Anime "Bleach: Thousand-Year Blood War" Official Site|website=bleach-anime.com|access-date=July 8, 2023}}</ref>
+|-
+| width="1%" style="background: #000000;"| 
+| III
+| 27–40
+| May 28, 2025
+| <ref>{{#invoke:Cite|web|url=https://bleach-anime.com/bddvd/3rd.html|title=Burūrei & DVD {{!}} Terebi Anime "Burīchi: Sennen Kessen-hen" Kōshiki Saito|script-title=ja:Blu-ray&DVD {{!}} TVアニメ「BLEACH 千年血戦篇」公式サイト|trans-title=Blu-ray & DVD {{!}} TV Anime "Bleach: Thousand-Year Blood War" Official Site|website=bleach-anime.com|access-date=December 21, 2024}}</ref>
+|-
+| width="1%" style="background: #F6832E;"| 
+| IV
+| 41–50
+| February 10, 2027
+| <ref name="BD&DVD-4th">{{#invoke:Cite|web|url=https://bleach-anime.com/bddvd/4th.html|title=Burūrei & DVD {{!}} Terebi Anime "Burīchi: Sennen Kessen-hen" Kōshiki Saito|script-title=ja:Blu-ray&DVD {{!}} TVアニメ「BLEACH 千年血戦篇」公式サイト|trans-title=Blu-ray & DVD {{!}} TV Anime "Bleach: Thousand-Year Blood War" Official Site|website=bleach-anime.com|access-date=July 25, 2026}}</ref>
+|}
+
+=== English ===
+{| class="wikitable" style="text-align: center; width: 70%;"
+|+ [[Viz Media]] (Region A, Blu-ray)
+|-
+! colspan="2"| Part
+! Discs
+! Episodes
+! Release date
+! width="10%"| {{Abbr|Ref.|Reference}}
+|-
+| width="1%" style="background: #AC1E1B;"| 
+| 1
+| rowspan="4"| 2
+| 1–13
+| March 26, 2024
+| <ref>{{#invoke:Cite|web|title=BLEACH: Thousand-Year Blood War – Part 1|url=https://www.viz.com/watch/tv-series/bleach-thousand-year-blood-war-video-season-1/product/7460|publisher=[[Viz Media]]|access-date=January 26, 2024}}</ref><ref>{{#invoke:Cite|web|title=BLEACH: Thousand-Year Blood War – Part 1 (Limited Edition)|url=https://www.viz.com/watch/tv-series/bleach-thousand-year-blood-war-video-season-1/product/7827|publisher=[[Viz Media]]|access-date=January 26, 2024}}</ref>
+|-
+| width="1%" style="background: #1335A9;"| 
+| 2
+| 14–26
+| October 22, 2024
+| <ref>{{#invoke:Cite|web|title=BLEACH: Thousand-Year Blood War – Part 2|url=https://www.viz.com/watch/tv-series/bleach-thousand-year-blood-war-video/product/7753/blu-ray|publisher=[[Viz Media]]|access-date=August 14, 2024}}</ref><ref>{{#invoke:Cite|web|title=BLEACH: Thousand-Year Blood War – Part 2 (Limited Edition)|url=https://www.viz.com/watch/tv-series/bleach-thousand-year-blood-war-video-season-2/product/7753/le-blu-ray|publisher=[[Viz Media]]|access-date=August 14, 2024}}</ref>
+|-
+| width="1%" style="background: #000000;"| 
+| 3
+| 27–40
+| January 13, 2026
+| <ref>{{#invoke:Cite|web|title=BLEACH: Thousand-Year Blood War – Part 3|url=https://www.viz.com/anime/tv-series/bleach-thousand-year-blood-war-video/product/8336|publisher=[[Viz Media]]|access-date=November 12, 2025}}</ref><ref>{{#invoke:Cite|web|title=BLEACH: Thousand-Year Blood War – Part 3 (Limited Edition)|url=https://www.viz.com/anime/tv-series/bleach-thousand-year-blood-war-video-season-3/product/8725/le-blu-ray|publisher=[[Viz Media]]|access-date=November 12, 2025}}</ref>
+|}
+
+{| class="wikitable" style="text-align: center; width: 70%;"
+|+ [[Anime Limited]] (Region B, Blu-ray)
+|-
+! colspan="2"| Part
+! Discs
+! Episodes
+! Release date
+! width="10%"| {{Abbr|Ref.|Reference}}
+|-
+| width="1%" style="background: #AC1E1B;"|
+| 1
+| rowspan="4"| 2
+| 1–13
+| October 28, 2024
+| <ref>{{Cite web|title=BLEACH: Thousand-Year Blood War Part 1 – Blu-ray|url=https://www.alltheanime.com/products/bleach-thousand-year-blood-war-part-1-blu-ray|access-date=November 11, 2024|website=All the Anime}}</ref><ref>{{Cite web|title=BLEACH: Thousand-Year Blood War Part 1 – Blu-ray Collector's Edition|url=https://www.alltheanime.com/products/bleach-thousand-year-blood-war-part-1-collectors-edition|access-date=November 11, 2024|website=All the Anime}}</ref>
+|-
+| width="1%" style="background: #1335A9;"| 
+| 2
+| 14–26
+| March 31, 2025
+| <ref>{{Cite web|title=BLEACH: Thousand-Year Blood War Part 2 – Blu-ray|url=https://www.alltheanime.com/products/bleach-thousand-year-blood-war-part-2-blu-ray|access-date=October 11, 2025|website=All the Anime}}</ref><ref>{{Cite web|title=BLEACH: Thousand-Year Blood War Part 2 – Blu-ray Collector's Edition|url=https://www.alltheanime.com/products/bleach-thousand-year-blood-war-part-2-collectors-edition|access-date=October 11, 2024|website=All the Anime}}</ref>
+|-
+| width="1%" style="background: #000000;"| 
+| 3
+| 27–40
+| July 13, 2026
+| <ref>{{Cite web|title=BLEACH: Thousand-Year Blood War Part 3 – Blu-ray|url=https://www.alltheanime.com/products/bleach-thousand-year-blood-war-part-3-blu-ray|access-date=July 8, 2025|website=All the Anime}}</ref><ref>{{Cite web|title=BLEACH: Thousand-Year Blood War Part 3 – Blu-ray Collector's Edition|url=https://www.alltheanime.com/products/bleach-thousand-year-blood-war-part-3-collectors-edition|access-date=July 8, 2024|website=All the Anime}}</ref>
+|}
+
+== Notes ==
+{{Notelist}}
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* {{Official website|https://bleach-anime.com/|Official website}} {{In lang|ja}}
+* {{IMDb title}}
+* {{Anime News Network|anime|25066}}
+
+{{Bleach}}
+
+[[Category:Bleach (TV series) seasons|Thousand-Year Blood War]]
+[[Category:2022 anime television series debuts]]
+[[Category:2022 Japanese television seasons]]
+[[Category:2023 Japanese television seasons]]
+[[Category:2024 Japanese television seasons]]
+[[Category:2026 Japanese television seasons]]
+[[Category:Split television seasons]]
