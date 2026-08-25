@@ -265,6 +265,25 @@ def main():
         # same title, same year, different works, and syncing them would tick
         # a game you have not played. The medium rides in the group key so the
         # whole class of collision is impossible rather than hand-excluded.
+        #
+        # Two more things deliberately DO NOT sync, ruled by Nathan (CLU-180)
+        # — do not "fix" either of these later:
+        #
+        #   An adaptation is not the work it adapts. `Christine (1983)` is a
+        #   film on the Carpenter list and a novel on the Stephen King list.
+        #   Watching the film must never tick the book. This will recur as the
+        #   catalogue grows — every King adaptation, Dune, Middle-earth — and
+        #   the answer is the same each time.
+        #
+        #   A riff is not the film it riffs. Thirteen MST3K episodes share a
+        #   title and year with the films they play. Watching Manos with a
+        #   robot silhouette in front of it is a different sitting from
+        #   watching Manos, and the two lists count different things.
+        #
+        # Both fall out of the medium key already (books and tv are not
+        # syncable kinds), so nothing enforces them beyond this comment and
+        # the gate below. If sync is ever widened past films and games, these
+        # two cases are the reason to widen it carefully.
         medium = "g" if "game" in kind else "f"
         syncable = "film" in kind or "game" in kind
         for s in p.get("sections", []):
