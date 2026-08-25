@@ -4136,6 +4136,26 @@ let MANIFEST = [
     "totalw": 263.41
   },
   {
+    "slug": "body-horror",
+    "media": [
+      "movies"
+    ],
+    "title": "Body Horror",
+    "subtitle": "the films the genre's canon agrees on, in release order",
+    "kind": "films",
+    "year": "1977–2024",
+    "popularity": 50,
+    "blurb": "Every film here is named by at least three of eleven published best-of-body-horror lists, Eraserhead to The Substance — about 31 hours, in the order they came out.",
+    "accent": "#B2415F",
+    "accentDark": "#F2879C",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 19,
+    "totalw": 31.25
+  },
+  {
     "slug": "sight-and-sound",
     "media": [
       "movies"
@@ -4593,13 +4613,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '34bd1e3a1ea0';
+const BUILD = 'a16164cd15dd';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = '042b7e5002';
+const SYNCVER = '488454e79a';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

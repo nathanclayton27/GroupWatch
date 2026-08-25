@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and sixty-one lists, from a ten-episode anime to a 1,337-spine film
+One hundred and sixty-two lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -150,7 +150,10 @@ organised by medium.
 **Canons and grab bags.** *Pixar* with the theatrical shorts optional,
 *The Muppets*, the *Palme d'Or* year by year back to the Grand Prix era,
 the *Sight & Sound* 2022 top 100 as the poll ranks it, the classic
-*Universal Monsters* cycle by family, and four group-night lists built for
+*Universal Monsters* cycle by family, a *body horror* canon gated on three
+or more of eleven named best-of lists (with the panel's own weaknesses stated
+on the page, including the eleven-film run from 1977 to 1989 and then nothing
+until 2006), and four group-night lists built for
 the random picker: *Bad Movie Night*, *body-swap films*, *real-time films*
 (the runtime is the plot), *bottle episodes* (each one verified to its
 season and number), and *one-location films*. Plus *Zombie Films* — 605 features from 1919 to now, era by era, picker-first.

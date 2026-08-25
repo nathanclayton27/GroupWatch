@@ -1,0 +1,208 @@
+{
+  "slug": "body-horror",
+  "title": "Body Horror",
+  "subtitle": "the films the genre's canon agrees on, in release order",
+  "kind": "films",
+  "popularity": 50,
+  "year": "1977–2024",
+  "blurb": "Every film here is named by at least three of eleven published best-of-body-horror lists, Eraserhead to The Substance — about 31 hours, in the order they came out.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#B2415F",
+  "accentDark": "#F2879C",
+  "tiers": false,
+  "notes": [
+    [
+      "The gate, and the eleven lists behind it.",
+      "A film is here only if at least three of eleven published best-of-body-horror articles name it: Vulture, SyFy Wire, IndieWire, Creepy Catalog, the BFI, Screen Rant, Den of Geek, Mental Floss, No Film School, The Week and Collider. Each was read in full and counted rather than summarised. Every one of the 19 also appears on Wikipedia's “List of body horror media”, which is the separate question of whether a film is body horror at all. The Fly leads with 10 of the eleven, and six rows clear the gate with exactly three — the count sits on every row, so you can argue with it."
+    ],
+    [
+      "The gate is small, and it shows.",
+      "There is no aggregator for this genre the way Wikipedia keeps one for first-person shooters, so the panel was assembled by hand from what is still online: eleven lists, most published since 2020, all in English. That undercounts animation and non-English work — Akira is named by one of the eleven and Tetsuo: The Iron Man by seven, which says more about who writes these lists than about either film. Two of the eleven are also keyed to The Substance (“more disturbing than”, “to watch after”) and so cannot name it; it clears the gate on three of the nine that could."
+    ],
+    [
+      "Six names a reader will miss.",
+      "Akira (1988), Possession (1981) and Alien (1979) are named by one list each; Scanners (1981) and Raw (2016) by two apiece, one short; Annihilation (2018) by none of the eleven. Following the sources when they are inconvenient is the whole point of naming them, and it is also why Cronenberg has four rows here rather than nine — Shivers, Rabid and Dead Ringers do not clear three lists, and the filmography is where the rest of them live."
+    ],
+    [
+      "Seventeen years with nothing in them.",
+      "The gate puts 11 films between 1977 and 1989 and then nothing at all until Slither in 2006. The genre did not stop — Wikipedia's list of body horror media carries 42 titles from the 1990s alone — but not one of them is named by three of these eleven lists. Read top to bottom it makes a claim worth arguing with: that body horror is a practical-effects art form, and that it went quiet for as long as the effects did."
+    ],
+    [
+      "The same film can sit on two lists here, and should.",
+      "The Thing is also on John Carpenter; The Fly, Videodrome, The Brood and Crimes of the Future are also on Cronenberg; Eraserhead is on David Lynch, Altered States on Criterion, Titane on the Palme d'Or, Tusk on A24 and The Substance on Best Picture. A survey of a genre and a filmography answer different questions, so both hold the row — and ticking it in one place ticks it in the other."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "All 19 rows are weighted, and every weight is the runtime printed in that film's own Wikipedia infobox — Tetsuo: The Iron Man at 67 minutes is the shortest, The Substance at 141 the longest, 31 hours in total. No runtime was estimated; a missing one stops the generator."
+    ],
+    "Contents from eleven published best-of-body-horror lists (Vulture, SyFy Wire, IndieWire, Creepy Catalog, BFI, Screen Rant, Den of Geek, Mental Floss, No Film School, The Week, Collider), cross-read against Wikipedia's “List of body horror media”; runtimes from each film's Wikipedia infobox."
+  ],
+  "sections": [
+    {
+      "id": "first",
+      "title": "The first wave",
+      "sub": "1977–1983 · 5 films · 8 hours",
+      "intro": "Before the genre had a name: the term “body horror” reaches print in a 1983 Philip Brophy essay, the year Videodrome came out. Five films that make the body itself the thing that goes wrong.",
+      "items": [
+        {
+          "id": "bh-1977-eraserhead",
+          "t": "Eraserhead",
+          "n": "1977",
+          "w": 1.48,
+          "note": "5 of 11 lists · David Lynch's first feature, cast in 1971 at the AFI Conservatory and not finished until 1977 — black and white, and scored and sound-designed by Lynch himself."
+        },
+        {
+          "id": "bh-1979-the-brood",
+          "t": "The Brood",
+          "n": "1979",
+          "w": 1.53,
+          "note": "3 of 11 lists · Written by Cronenberg after his own divorce: a psychotherapist's clinic, a custody fight, and a treatment that turns what a patient feels into something you can touch."
+        },
+        {
+          "id": "bh-1980-altered-states",
+          "t": "Altered States",
+          "n": "1980",
+          "w": 1.72,
+          "note": "3 of 11 lists · Ken Russell filming Paddy Chayefsky's 1978 novel, drawn from John C. Lilly's isolation-tank research. Chayefsky fell out with Russell and took his name off the credits."
+        },
+        {
+          "id": "bh-1982-the-thing",
+          "t": "The Thing",
+          "n": "1982",
+          "w": 1.82,
+          "note": "7 of 11 lists · John Carpenter at an Antarctic research station. A tenth of the budget went on Rob Bottin's creature effects; the reviews were bad, and the reputation was rebuilt on video."
+        },
+        {
+          "id": "bh-1983-videodrome",
+          "t": "Videodrome",
+          "n": "1983",
+          "w": 1.48,
+          "note": "5 of 11 lists · Cronenberg on television: a cable programmer chases a pirate signal that carries nothing but a room and a beating. Rick Baker did the effects in two months rather than the six he wanted."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "boom",
+      "title": "The effects boom",
+      "sub": "1985–1989 · 6 films · 9 hours",
+      "intro": "Five years in which the effects shop was the budget — latex, prosthetics and stop-motion, from a Lovecraft farce to a Tokyo apartment shot on 16mm. Then the run stops.",
+      "items": [
+        {
+          "id": "bh-1985-re-animator",
+          "t": "Re-Animator",
+          "n": "1985",
+          "w": 1.43,
+          "note": "5 of 11 lists · Stuart Gordon's directorial debut, a Lovecraft story played as farce — a medical student, a glowing serum and a morgue with a night shift."
+        },
+        {
+          "id": "bh-1986-the-fly",
+          "t": "The Fly",
+          "n": "1986",
+          "w": 1.6,
+          "note": "10 of 11 lists · Cronenberg remaking the 1958 picture as an illness rather than an accident. Chris Walas and Stephan Dupuis won the Oscar for the makeup."
+        },
+        {
+          "id": "bh-1987-hellraiser",
+          "t": "Hellraiser",
+          "n": "1987",
+          "w": 1.55,
+          "note": "6 of 11 lists · Clive Barker adapting his own novella — a puzzle box, and the beings it summons. Disappointed by earlier adaptations of his work, he took the directing job himself."
+        },
+        {
+          "id": "bh-1987-street-trash",
+          "t": "Street Trash",
+          "n": "1987",
+          "w": 1.68,
+          "note": "4 of 11 lists · J. Michael Muro's directorial debut: a Brooklyn liquor store finds a crate of 1920s drink in the cellar and sells it cheap to the men living rough nearby."
+        },
+        {
+          "id": "bh-1989-society",
+          "t": "Society",
+          "n": "1989",
+          "w": 1.65,
+          "note": "3 of 11 lists · Brian Yuzna's directorial debut, a Beverly Hills satire with Screaming Mad George as effects designer. It played Cannes in 1989 and had no US release until 1992."
+        },
+        {
+          "id": "bh-1989-tetsuo-the-iron-man",
+          "t": "Tetsuo: The Iron Man",
+          "n": "1989",
+          "w": 1.12,
+          "note": "7 of 11 lists · Shinya Tsukamoto's step up from 8mm shorts to 16mm — black and white, stop-motion, and a score by Chu Ishikawa."
+        }
+      ]
+    },
+    {
+      "id": "after",
+      "title": "After the gap",
+      "sub": "2006–2024 · 8 films · 14 hours",
+      "intro": "Nothing between 1989 and 2006 clears the gate. That is the panel's verdict rather than a filter, and read top to bottom it makes a claim worth arguing with: the genre went quiet, came back as comedy, and from Titane on turned into awards cinema.",
+      "items": [
+        {
+          "id": "bh-2006-slither",
+          "t": "Slither",
+          "n": "2006",
+          "w": 1.58,
+          "note": "6 of 11 lists · James Gunn's directorial debut, a small-town creature picture built to the shape of the 1980s ones it is answering."
+        },
+        {
+          "id": "bh-2007-teeth",
+          "t": "Teeth",
+          "n": "2007",
+          "w": 1.57,
+          "note": "5 of 11 lists · Written and directed by Mitchell Lichtenstein, and named for the vagina dentata folk trope its high-school heroine turns out to have."
+        },
+        {
+          "id": "bh-2012-american-mary",
+          "t": "American Mary",
+          "n": "2012",
+          "w": 1.7,
+          "note": "4 of 11 lists · Jen and Sylvia Soska's film about a surgical student who, broke, starts taking clients from the extreme body-modification scene."
+        },
+        {
+          "id": "bh-2014-tusk",
+          "t": "Tusk",
+          "n": "2014",
+          "w": 1.68,
+          "note": "5 of 11 lists · Kevin Smith filming a premise he had improvised on his own podcast — a podcaster goes to Manitoba to interview a retired sailor."
+        },
+        {
+          "id": "bh-2020-possessor",
+          "t": "Possessor",
+          "n": "2020",
+          "w": 1.73,
+          "note": "4 of 11 lists · Brandon Cronenberg's film about an assassin who carries out her contracts by possessing other people's bodies, and then struggles to get back out of one."
+        },
+        {
+          "id": "bh-2021-titane",
+          "t": "Titane",
+          "n": "2021",
+          "w": 1.8,
+          "note": "3 of 11 lists · Julia Ducournau's second feature and the Palme d'Or of its year — she is the first woman to have won it outright."
+        },
+        {
+          "id": "bh-2022-crimes-of-the-future",
+          "t": "Crimes of the Future",
+          "n": "2022",
+          "w": 1.78,
+          "note": "3 of 11 lists · Cronenberg in a near future where evolution has sped up and surgery is staged for an audience. It reuses the title of his own 1970 film and is not a remake of it."
+        },
+        {
+          "id": "bh-2024-the-substance",
+          "t": "The Substance",
+          "n": "2024",
+          "w": 2.35,
+          "note": "3 of 11 lists · Coralie Fargeat's film about a televised fitness star, dropped at fifty, who takes a black-market drug that grows her a younger double. The first body horror film nominated for Best Picture."
+        }
+      ]
+    }
+  ]
+}
