@@ -3851,7 +3851,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '06dd8264b64c';
+const BUILD = 'b54a88f7833f';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -7793,7 +7793,7 @@ function paintStar(){
   b.title = on ? 'Remove from the top of the menu' : 'Keep this at the top of the menu';
 }
 
-function cardHTML(m, why, compact){
+function cardHTML(m, why, compact, starred){
   const TICKS = 46;
   const n = localCount(m.slug);
   const tot = totalOf(m);
@@ -7801,7 +7801,10 @@ function cardHTML(m, why, compact){
   let bar = '';
   for(let i=0;i<TICKS;i++)
     bar += '<span'+(i<on?' class="on" style="background:'+esc(accentOf(m))+'"':'')+'></span>';
+  // the star rides the title here exactly as it does on the shelf rows
+  // below — the top card was the only place a starred list didn't show it
   const head = '<h2><span class="pdot" style="background:'+esc(accentOf(m))+'"></span>'
+    + (starred ? '<span style="color:var(--signal)">★</span> ' : '')
     + esc(m.title)+'</h2>';
   // wall cards are the concept's compact shape: title, media · year,
   // the tick bar, and a plain count — no blurb
@@ -8066,7 +8069,9 @@ function renderShelf(shelf){
   }
   const star = '<span style="color:var(--signal)">★</span> ';
   const top = shelf[0];
-  let html = cardHTML(top.m, (top.st ? '★ starred' + (whyOf(top) ? ' · ' : '') : '') + whyOf(top));
+  // the star is on the title now, so the why-line says why it is HERE
+  // rather than repeating the mark sitting two pixels above it
+  let html = cardHTML(top.m, whyOf(top), false, top.st);
   const rest = shelf.slice(1, 4);
   if(rest.length){
     html += '<div style="margin-top:14px">' + rest.map(s=>{
