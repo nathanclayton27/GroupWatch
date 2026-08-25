@@ -3036,6 +3036,25 @@ let MANIFEST = [
     "total": 113
   },
   {
+    "slug": "archer",
+    "media": [
+      "tv"
+    ],
+    "title": "Archer",
+    "subtitle": "every episode, in broadcast order",
+    "kind": "tv",
+    "year": "2009–2023",
+    "popularity": 64,
+    "blurb": "Adam Reed's animated espionage comedy, FX then FXX — one row per episode, every season in the order it aired, ending with the three-part finale.",
+    "accent": "#0F4C5C",
+    "accentDark": "#FF6F59",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 145
+  },
+  {
     "slug": "david-lynch",
     "media": [
       "movies"
@@ -4169,7 +4188,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'ddee9bbb4a57';
+const BUILD = '53167edc6e9d';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

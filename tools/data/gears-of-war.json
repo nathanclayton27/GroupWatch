@@ -1,0 +1,110 @@
+{
+ "gow1": {
+  "id": 3862,
+  "name": "Gears of War",
+  "main_h": 9.05,
+  "year": 2006,
+  "query": "Gears of War",
+  "wiki_year": 2006,
+  "why": "ok"
+ },
+ "gow2": {
+  "id": 3863,
+  "name": "Gears of War 2",
+  "main_h": 10.0,
+  "year": 2008,
+  "query": "Gears of War 2",
+  "wiki_year": 2008,
+  "why": "ok"
+ },
+ "gow3": {
+  "id": 3865,
+  "name": "Gears of War 3",
+  "main_h": 9.67,
+  "year": 2011,
+  "query": "Gears of War 3",
+  "wiki_year": 2011,
+  "why": "ok"
+ },
+ "raam": {
+  "id": 3866,
+  "name": "Gears of War 3: RAAM's Shadow DLC",
+  "main_h": 2.79,
+  "year": 2011,
+  "query": "Gears of War 3: RAAM's Shadow",
+  "wiki_year": 2011,
+  "why": "ok"
+ },
+ "judgment": {
+  "id": 3867,
+  "name": "Gears of War: Judgment",
+  "main_h": 7.07,
+  "year": 2013,
+  "query": "Gears of War: Judgment",
+  "wiki_year": 2013,
+  "why": "ok"
+ },
+ "gow4": {
+  "id": 26788,
+  "name": "Gears of War 4",
+  "main_h": 9.07,
+  "year": 2016,
+  "query": "Gears of War 4",
+  "wiki_year": 2016,
+  "why": "ok"
+ },
+ "gears5": {
+  "id": 57422,
+  "name": "Gears 5",
+  "main_h": 11.28,
+  "year": 2019,
+  "query": "Gears 5",
+  "wiki_year": 2019,
+  "why": "ok"
+ },
+ "tactics": {
+  "id": 57740,
+  "name": "Gears Tactics",
+  "main_h": 25.48,
+  "year": 2020,
+  "query": "Gears Tactics",
+  "wiki_year": 2020,
+  "why": "ok"
+ },
+ "hivebusters": {
+  "id": 86191,
+  "name": "Gears 5: Hivebusters",
+  "main_h": 3.12,
+  "year": 2020,
+  "query": "Gears 5: Hivebusters",
+  "wiki_year": 2020,
+  "why": "ok"
+ },
+ "ultimate": {
+  "id": 26794,
+  "name": "Gears of War: Ultimate Edition",
+  "main_h": 8.99,
+  "year": 2015,
+  "query": "Gears of War: Ultimate Edition",
+  "wiki_year": 2015,
+  "why": "ok"
+ },
+ "reloaded": {
+  "id": 167795,
+  "name": "Gears of War: Reloaded",
+  "main_h": 7.17,
+  "year": 2025,
+  "query": "Gears of War: Reloaded",
+  "wiki_year": 2025,
+  "why": "ok"
+ },
+ "eday": {
+  "id": 152017,
+  "name": "Gears of War: E-Day",
+  "main_h": null,
+  "year": 2026,
+  "query": "Gears of War: E-Day",
+  "wiki_year": 2026,
+  "why": "verified by name but no main-story figure"
+ }
+}

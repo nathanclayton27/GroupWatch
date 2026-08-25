@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and forty-three lists, from a ten-episode anime to a 1,337-spine film
+One hundred and forty-four lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -99,8 +99,9 @@ still airing, each with a real weekly schedule so a club watches at
 broadcast pace. Plus *Star Trek* (941 rows, every series and the
 thirteen films in one place), *Avatar* with *Korra*, *The Office*,
 *Futurama*, *Rick and Morty* (all nine seasons, episodes only — the
-anime shorts and the claymation webisodes stay out), *Battlestar
-Galactica*, *Black Mirror* — the rare
+anime shorts and the claymation webisodes stay out), *Archer* (all
+fourteen, the four themed seasons named as the show named them),
+*Battlestar Galactica*, *Black Mirror* — the rare
 television list with a verified runtime on every row — *Invincible*,
 and the big anime runs: *Naruto* and *Bleach* with their filler
 marked only where two independent sources agree, *Attack on Titan*,
