@@ -1,0 +1,184 @@
+{
+  "slug": "scream-childs-play",
+  "title": "Scream & Child's Play",
+  "subtitle": "the two franchises Slashers left out, in release order",
+  "kind": "films",
+  "popularity": 59,
+  "year": "1988–2026",
+  "blurb": "Chucky and Ghostface — 15 films, one clean fork and one unbroken line, in the order they came out. About 25 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#7B1250",
+  "accentDark": "#FF9AD5",
+  "tiers": false,
+  "notes": [
+    [
+      "Release order, and here it costs nothing.",
+      "Neither franchise makes you pick a timeline. Scream's article carries no story chronology and its filmography no continuity blocks: seven films, one line, no remake and no reboot, so release order is story order. Child's Play's filmography does divide, but cleanly — into exactly two labelled blocks, Original series and Reboot, that never intersect and never overlap in time — so each of those rows carries the block the table puts it in instead of being folded into one sequence. Sections run by the year each franchise began: Child's Play 1988, then Scream 1996."
+    ],
+    [
+      "The companion to Slashers.",
+      "That list covers Halloween, Friday the 13th and A Nightmare on Elm Street, and names these two franchises as the ones it left out: Scream because it has no tangle to untangle, Child's Play because it forks rather than tangles. Both reasons are checked against the same articles every time this list is generated, and these 15 films live here instead."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "Every row carries the runtime stated in that film's own Wikipedia infobox, checked against the U.S. release year the franchise table gives — 25 hours in all. Both franchises reuse a title across decades, so the year is what tells Child's Play 1988 from 2019 and Scream 1996 from 2022. A row whose runtime could not be read would fail the build rather than ship as a guess, and there is no half-weighted state: every row carries a runtime or none does."
+    ],
+    [
+      "Neither television series is here.",
+      "Chucky ran for 3 seasons and 24 episodes between 2021 and 2024, and continues the original film line; the Scream series ran for 3 seasons and 30 episodes between 2015 and 2019, as an anthology the franchise article states is not canon to the films. Both are left out for a mechanical reason rather than a critical one: weights here are hours, and a series article publishes a single runtime range for the whole show — 41–54 minutes for Chucky, 39–42 minutes for Scream — rather than a length per episode. Folding either in would trade measured hours on 15 films for guessed ones on one show. Named here so they do not look forgotten."
+    ],
+    [
+      "Not included.",
+      "An untitled eighth Scream film and an untitled Chucky film sit in the two tables with no release date and no runtime, so neither is a row yet; every film the tables date is here. The short films, documentaries, novels, comics, video games and theme-park attractions the franchise articles list are out of scope."
+    ],
+    [
+      "Nothing here ticks anywhere else.",
+      "Ticks sync across clubd wherever two lists carry the same film and year — but none of these 15 films sits on another list today, so every row here is ticked here only. The generator re-checks the whole catalogue each time it runs, so this note cannot quietly go stale."
+    ],
+    "Titles, U.S. release dates and the Original series / Reboot blocks from the Films tables of Wikipedia's Child's Play and Scream franchise articles; runtimes and directors from each film's own article infobox; season counts, episode counts and runtime ranges from the two television series' own articles."
+  ],
+  "sections": [
+    {
+      "id": "childs-play",
+      "title": "Child's Play",
+      "sub": "1988–2019 · 8 films · 12 hours",
+      "intro": "Eight films, and the article's own filmography divides them into exactly two labelled blocks — Original series and Reboot — that never intersect. Seven run from 1988 to 2017, all written or co-written by series creator Don Mancini; the 2019 film is a remake that starts over with new hands. Each row carries the block the table puts it in rather than being folded into one sequence, and the section runs in U.S. release order.",
+      "links": [
+        {
+          "label": "The filmography",
+          "url": "https://en.wikipedia.org/wiki/Child%27s_Play_(franchise)"
+        }
+      ],
+      "items": [
+        {
+          "id": "scp-1988-child-s-play",
+          "t": "Child's Play",
+          "n": "1988",
+          "w": 1.45,
+          "note": "Original series · The first film."
+        },
+        {
+          "id": "scp-1990-child-s-play-2",
+          "t": "Child's Play 2",
+          "n": "1990",
+          "w": 1.4,
+          "note": "Original series"
+        },
+        {
+          "id": "scp-1991-child-s-play-3",
+          "t": "Child's Play 3",
+          "n": "1991",
+          "w": 1.5,
+          "note": "Original series"
+        },
+        {
+          "id": "scp-1998-bride-of-chucky",
+          "t": "Bride of Chucky",
+          "n": "1998",
+          "w": 1.48,
+          "note": "Original series · Seven years on, and the first entry not titled Child's Play."
+        },
+        {
+          "id": "scp-2004-seed-of-chucky",
+          "t": "Seed of Chucky",
+          "n": "2004",
+          "w": 1.43,
+          "note": "Original series · Series creator Don Mancini's first film as director; he directs the rest of this block."
+        },
+        {
+          "id": "scp-2013-curse-of-chucky",
+          "t": "Curse of Chucky",
+          "n": "2013",
+          "w": 1.6,
+          "note": "Original series · Nine years later, and released to video on demand rather than cinemas."
+        },
+        {
+          "id": "scp-2017-cult-of-chucky",
+          "t": "Cult of Chucky",
+          "n": "2017",
+          "w": 1.52,
+          "note": "Original series · Direct-to-video, as with the film before it."
+        },
+        {
+          "id": "scp-2019-child-s-play",
+          "t": "Child's Play",
+          "n": "2019",
+          "w": 1.5,
+          "note": "Reboot · A remake of the 1988 film, and the only entry not written by Don Mancini or featuring Brad Dourif as Chucky."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "scream",
+      "title": "Scream",
+      "sub": "1996–2026 · 7 films · 13 hours",
+      "intro": "Seven films and one unbroken line. The franchise's own article carries no story chronology, and its filmography carries no continuity blocks, because there is nothing to divide: no remake, no reboot, no competing sequel — so release order is story order here. What the series has instead is a method, stated from the first film on: characters who know the conventions of the horror film and use them.",
+      "links": [
+        {
+          "label": "The filmography",
+          "url": "https://en.wikipedia.org/wiki/Scream_(franchise)"
+        }
+      ],
+      "items": [
+        {
+          "id": "scp-1996-scream",
+          "t": "Scream",
+          "n": "1996",
+          "w": 1.85,
+          "note": "Wes Craven's original, with a cast who know the conventions of the horror film and use them — the self-reference the series runs on."
+        },
+        {
+          "id": "scp-1997-scream-2",
+          "t": "Scream 2",
+          "n": "1997",
+          "w": 2.0,
+          "note": "Released less than a year after the first, and turns the same self-reference on the horror sequel."
+        },
+        {
+          "id": "scp-2000-scream-3",
+          "t": "Scream 3",
+          "n": "2000",
+          "w": 1.95,
+          "note": "Written as the concluding chapter; the series resumed eleven years later."
+        },
+        {
+          "id": "scp-2011-scream-4",
+          "t": "Scream 4",
+          "n": "2011",
+          "w": 1.85,
+          "note": "Eleven years on, and the last of the four Wes Craven directed."
+        },
+        {
+          "id": "scp-2022-scream",
+          "t": "Scream",
+          "n": "2022",
+          "w": 1.9,
+          "note": "Shares its title with the 1996 film; the article indexes it as the fifth. The first not directed by Wes Craven."
+        },
+        {
+          "id": "scp-2023-scream-vi",
+          "t": "Scream VI",
+          "n": "2023",
+          "w": 2.03,
+          "note": "The one entry numbered in Roman numerals, from the directors of the 2022 film."
+        },
+        {
+          "id": "scp-2026-scream-7",
+          "t": "Scream 7",
+          "n": "2026",
+          "w": 1.9,
+          "note": "Directed by series creator Kevin Williamson, who wrote the first two films and the fourth."
+        }
+      ]
+    }
+  ]
+}

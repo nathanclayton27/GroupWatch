@@ -3741,6 +3741,26 @@ let MANIFEST = [
     "totalw": 95.36
   },
   {
+    "slug": "scream-childs-play",
+    "media": [
+      "movies"
+    ],
+    "title": "Scream & Child's Play",
+    "subtitle": "the two franchises Slashers left out, in release order",
+    "kind": "films",
+    "year": "1988–2026",
+    "popularity": 59,
+    "blurb": "Chucky and Ghostface — 15 films, one clean fork and one unbroken line, in the order they came out. About 25 hours.",
+    "accent": "#7B1250",
+    "accentDark": "#FF9AD5",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 15,
+    "totalw": 25.36
+  },
+  {
     "slug": "wheel-of-time",
     "media": [
       "books"
@@ -4573,7 +4593,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '6bb237d8cad5';
+const BUILD = '34bd1e3a1ea0';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or

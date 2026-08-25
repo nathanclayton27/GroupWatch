@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and sixty lists, from a ten-episode anime to a 1,337-spine film
+One hundred and sixty-one lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -45,6 +45,8 @@ with real per-movie runtimes, *James Bond* by actor, *Mission: Impossible*
 list), the *slasher franchises* (Halloween, Friday the 13th and Elm Street in
 US release order, with the five mutually exclusive Halloween continuities
 explained rather than imposed, and *Freddy vs. Jason* as one row in both),
+*Scream & Child's Play* as its companion (the two franchises whose
+continuities fork too cleanly to need untangling),
 *Alien & Predator* on
 one timeline, *JoJo's* and *Dragon Ball* (anime and manga as separate
 pages), and *Time Loops* — the group's own Groundhog Day collection, grown
