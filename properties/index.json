@@ -1951,6 +1951,26 @@
     "total": 68
   },
   {
+    "slug": "gilliam",
+    "media": [
+      "movies"
+    ],
+    "title": "Terry Gilliam",
+    "subtitle": "the directed features, in release order",
+    "kind": "films",
+    "year": "1975–2018",
+    "popularity": 64,
+    "blurb": "Thirteen features in release order, Holy Grail to Don Quixote — about 26 hours. Brazil gets one row, and the row says which of its three cuts to watch.",
+    "accent": "#7A7A29",
+    "accentDark": "#A3AB3A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 13,
+    "totalw": 26.09
+  },
+  {
     "slug": "mega-man",
     "media": [
       "games"

@@ -3341,6 +3341,26 @@ let MANIFEST = [
     "total": 68
   },
   {
+    "slug": "gilliam",
+    "media": [
+      "movies"
+    ],
+    "title": "Terry Gilliam",
+    "subtitle": "the directed features, in release order",
+    "kind": "films",
+    "year": "1975–2018",
+    "popularity": 64,
+    "blurb": "Thirteen features in release order, Holy Grail to Don Quixote — about 26 hours. Brazil gets one row, and the row says which of its three cuts to watch.",
+    "accent": "#7A7A29",
+    "accentDark": "#A3AB3A",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 13,
+    "totalw": 26.09
+  },
+  {
     "slug": "mega-man",
     "media": [
       "games"
@@ -4613,13 +4633,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'a16164cd15dd';
+const BUILD = 'cf286cf7d827';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = '488454e79a';
+const SYNCVER = '2cb3ca7d26';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
