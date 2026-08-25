@@ -1172,6 +1172,25 @@
     "total": 74
   },
   {
+    "slug": "invincible",
+    "media": [
+      "tv"
+    ],
+    "title": "Invincible",
+    "subtitle": "the animated series",
+    "kind": "tv",
+    "year": "2021–",
+    "popularity": 70,
+    "blurb": "All 33 episodes across four seasons, in broadcast order. Titles only — the summaries are withheld on purpose.",
+    "accent": "#1238B4",
+    "accentDark": "#FFF209",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 33
+  },
+  {
     "slug": "metroid",
     "media": [
       "games"

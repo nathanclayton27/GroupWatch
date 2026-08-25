@@ -2556,6 +2556,25 @@ let MANIFEST = [
     "total": 74
   },
   {
+    "slug": "invincible",
+    "media": [
+      "tv"
+    ],
+    "title": "Invincible",
+    "subtitle": "the animated series",
+    "kind": "tv",
+    "year": "2021–",
+    "popularity": 70,
+    "blurb": "All 33 episodes across four seasons, in broadcast order. Titles only — the summaries are withheld on purpose.",
+    "accent": "#1238B4",
+    "accentDark": "#FFF209",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 33
+  },
+  {
     "slug": "metroid",
     "media": [
       "games"
@@ -4052,7 +4071,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'f88d14cc940b';
+const BUILD = '2a2c0a447a63';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
