@@ -1061,7 +1061,16 @@ footer a{color:var(--steel)}
 
     <div class="acard">
       <div class="ak">preferences</div>
-      <div class="atog"><input type="checkbox" id="a-spoil" aria-label="Spoiler-safe mode">
+      <!-- Hidden until it does something. This switch shipped promising to
+           hide titles, synopses and notes ahead of your place, and was wired
+           to nothing at all: spoilerSafe() was read only by the code painting
+           this checkbox. A control that makes a SAFETY promise it cannot keep
+           is worse than no control, and this site's flagship list is Columbo.
+           The preference survives in storage, so turning it back on is one
+           class away once CLU-31 ships — which needs the build-time spoiler
+           classification (CLU-59/CLU-123) to tell a reveal from viewing
+           advice, since blurring "watch 4.5 before 5" would actively harm. -->
+      <div class="atog hide"><input type="checkbox" id="a-spoil" aria-label="Spoiler-safe mode">
         <label class="t" for="a-spoil"><b>Spoiler-safe mode</b>
           <span>hides episode titles, synopses and notes ahead of where you are.
             On by default.</span></label></div>
@@ -3680,7 +3689,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'af2a61e3b653';
+const BUILD = '7493cfa26560';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
