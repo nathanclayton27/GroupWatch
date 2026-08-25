@@ -1,0 +1,463 @@
+{
+ "source": "Christopher Nolan filmography",
+ "films": [
+  {
+   "t": "Following",
+   "page": "Following",
+   "year": 1998,
+   "wrote": true,
+   "produced": true,
+   "tableefn": "Also cinematographer and editor",
+   "runtime": 70,
+   "runtime_src": "wikidata",
+   "qid": "Q685817",
+   "pubyears": [
+    1998,
+    1999,
+    2005
+   ],
+   "infobox_runtime": 70,
+   "based_on": {
+    "work": "",
+    "by": []
+   },
+   "studio": "Next Wave Films",
+   "distributor": "Momentum Pictures",
+   "budget": "$6,000",
+   "release_dates": [
+    "1998-04-24"
+   ]
+  },
+  {
+   "t": "Memento",
+   "page": "Memento (film)",
+   "year": 2000,
+   "wrote": true,
+   "produced": false,
+   "tableefn": "",
+   "runtime": 113,
+   "runtime_src": "wikidata",
+   "qid": "Q190525",
+   "pubyears": [
+    2000,
+    2001
+   ],
+   "infobox_runtime": 113,
+   "based_on": {
+    "work": "Memento Mori",
+    "by": [
+     "Jonathan Nolan"
+    ]
+   },
+   "studio": "Summit Entertainment, Team Todd",
+   "distributor": "Newmarket",
+   "budget": "",
+   "release_dates": [
+    "2000-09-05",
+    "2001-03-16"
+   ]
+  },
+  {
+   "t": "Insomnia",
+   "page": "Insomnia (2002 film)",
+   "year": 2002,
+   "wrote": false,
+   "produced": false,
+   "tableefn": "",
+   "runtime": 118,
+   "runtime_src": "wikidata",
+   "qid": "Q429969",
+   "pubyears": [
+    2002
+   ],
+   "infobox_runtime": 118,
+   "based_on": {
+    "work": "Insomnia",
+    "by": [
+     "Nikolaj Frobenius",
+     "Erik Skjoldbjærg"
+    ]
+   },
+   "studio": "",
+   "distributor": "Warner Bros. Pictures",
+   "budget": "$46 million",
+   "release_dates": [
+    "2002-05-03",
+    "2002-05-24"
+   ]
+  },
+  {
+   "t": "Batman Begins",
+   "page": "Batman Begins",
+   "year": 2005,
+   "wrote": true,
+   "produced": false,
+   "tableefn": "",
+   "runtime": 140,
+   "runtime_src": "wikidata",
+   "qid": "Q166262",
+   "pubyears": [
+    2005
+   ],
+   "infobox_runtime": 140,
+   "based_on": {
+    "work": "Characters appearing in comic books published",
+    "by": [
+     "DC Comics"
+    ]
+   },
+   "studio": "",
+   "distributor": "Warner Bros. Pictures",
+   "budget": "$150 million",
+   "release_dates": [
+    "2005-05-31",
+    "2005-06-15",
+    "2005-06-17"
+   ]
+  },
+  {
+   "t": "The Prestige",
+   "page": "The Prestige",
+   "year": 2006,
+   "wrote": true,
+   "produced": true,
+   "tableefn": "",
+   "runtime": 125,
+   "runtime_src": "wikidata",
+   "qid": "Q46551",
+   "pubyears": [
+    2006,
+    2007
+   ],
+   "infobox_runtime": 130,
+   "based_on": {
+    "work": "The Prestige",
+    "by": [
+     "Christopher Priest"
+    ]
+   },
+   "studio": "",
+   "distributor": "Buena Vista Pictures Distribution, (United States and Canada), Warner Bros. Pictures (International)",
+   "budget": "$40 million",
+   "release_dates": [
+    "2006-10-17",
+    "2006-10-20",
+    "2006-11-10"
+   ]
+  },
+  {
+   "t": "The Dark Knight",
+   "page": "The Dark Knight",
+   "year": 2008,
+   "wrote": true,
+   "produced": true,
+   "tableefn": "",
+   "runtime": 153,
+   "runtime_src": "wikidata",
+   "qid": "Q163872",
+   "pubyears": [
+    2008,
+    2022
+   ],
+   "infobox_runtime": 152,
+   "based_on": {
+    "work": "Characters appearing in comic books published",
+    "by": [
+     "DC Comics"
+    ]
+   },
+   "studio": "",
+   "distributor": "Warner Bros. Pictures",
+   "budget": "",
+   "release_dates": [
+    "2008-07-14",
+    "2008-07-18",
+    "2008-07-25"
+   ]
+  },
+  {
+   "t": "Inception",
+   "page": "Inception",
+   "year": 2010,
+   "wrote": true,
+   "produced": true,
+   "tableefn": "",
+   "runtime": 148,
+   "runtime_src": "wikidata",
+   "qid": "Q25188",
+   "pubyears": [
+    2010
+   ],
+   "infobox_runtime": 148,
+   "based_on": {
+    "work": "",
+    "by": []
+   },
+   "studio": "",
+   "distributor": "Warner Bros. Pictures",
+   "budget": "$160 million",
+   "release_dates": [
+    "2010-07-08",
+    "2010-07-16"
+   ]
+  },
+  {
+   "t": "The Dark Knight Rises",
+   "page": "The Dark Knight Rises",
+   "year": 2012,
+   "wrote": true,
+   "produced": true,
+   "tableefn": "",
+   "runtime": 164,
+   "runtime_src": "wikidata",
+   "qid": "Q189330",
+   "pubyears": [
+    2012,
+    2022
+   ],
+   "infobox_runtime": 164,
+   "based_on": {
+    "work": "Characters appearing in comic books published",
+    "by": [
+     "DC Comics"
+    ]
+   },
+   "studio": "",
+   "distributor": "Warner Bros. Pictures",
+   "budget": "",
+   "release_dates": [
+    "2012-07-16",
+    "2012-07-20"
+   ]
+  },
+  {
+   "t": "Interstellar",
+   "page": "Interstellar (film)",
+   "year": 2014,
+   "wrote": true,
+   "produced": true,
+   "tableefn": "",
+   "runtime": 169,
+   "runtime_src": "wikidata",
+   "qid": "Q13417189",
+   "pubyears": [
+    2014,
+    2025
+   ],
+   "infobox_runtime": 169,
+   "based_on": {
+    "work": "",
+    "by": []
+   },
+   "studio": "Paramount Pictures, Warner Bros. Pictures, Legendary Pictures, Syncopy, Lynda Obst Productions",
+   "distributor": "Paramount Pictures (United States), Warner Bros. Pictures (International)",
+   "budget": "$165 million",
+   "release_dates": [
+    "2014-10-26",
+    "2014-11-05",
+    "2014-11-07"
+   ]
+  },
+  {
+   "t": "Dunkirk",
+   "page": "Dunkirk (2017 film)",
+   "year": 2017,
+   "wrote": true,
+   "produced": true,
+   "tableefn": "",
+   "runtime": 106,
+   "runtime_src": "wikidata",
+   "qid": "Q21935651",
+   "pubyears": [
+    2017
+   ],
+   "infobox_runtime": 106,
+   "based_on": {
+    "work": "",
+    "by": []
+   },
+   "studio": "Syncopy, RatPac-Dune Entertainment",
+   "distributor": "Warner Bros. Pictures",
+   "budget": "",
+   "release_dates": [
+    "2017-07-13",
+    "2017-07-21"
+   ]
+  },
+  {
+   "t": "Tenet",
+   "page": "Tenet",
+   "year": 2020,
+   "wrote": true,
+   "produced": true,
+   "tableefn": "",
+   "runtime": 150,
+   "runtime_src": "wikidata",
+   "qid": "Q63985561",
+   "pubyears": [
+    2020
+   ],
+   "infobox_runtime": 150,
+   "based_on": {
+    "work": "",
+    "by": []
+   },
+   "studio": "Syncopy",
+   "distributor": "Warner Bros. Pictures",
+   "budget": "",
+   "release_dates": [
+    "2020-08-26",
+    "2020-09-03"
+   ]
+  },
+  {
+   "t": "Oppenheimer",
+   "page": "Oppenheimer (film)",
+   "year": 2023,
+   "wrote": true,
+   "produced": true,
+   "tableefn": "",
+   "runtime": 180,
+   "runtime_src": "wikidata",
+   "qid": "Q108839994",
+   "pubyears": [
+    2023
+   ],
+   "infobox_runtime": 180,
+   "based_on": {
+    "work": "American Prometheus",
+    "by": [
+     "Kai Bird",
+     "Martin J. Sherwin"
+    ]
+   },
+   "studio": "Universal Pictures, Syncopy, Atlas Entertainment",
+   "distributor": "Universal Pictures",
+   "budget": "$100 million",
+   "release_dates": [
+    "2023-07-11",
+    "2023-07-21"
+   ]
+  },
+  {
+   "t": "The Odyssey",
+   "page": "The Odyssey (2026 film)",
+   "year": 2026,
+   "wrote": true,
+   "produced": true,
+   "tableefn": "",
+   "runtime": 172,
+   "runtime_src": "wikidata",
+   "qid": "Q131547207",
+   "pubyears": [
+    2026
+   ],
+   "infobox_runtime": 173,
+   "based_on": {
+    "work": "Homer's Odyssey",
+    "by": []
+   },
+   "studio": "Universal Pictures, Syncopy",
+   "distributor": "Universal Pictures",
+   "budget": "",
+   "release_dates": [
+    "2026-07-06",
+    "2026-07-17"
+   ]
+  }
+ ],
+ "feature_table_rows": 14,
+ "not_directed": [
+  [
+   2013,
+   "Man of Steel",
+   "no"
+  ]
+ ],
+ "shorts": [
+  {
+   "year": 1989,
+   "t": "Tarantella",
+   "directed": true,
+   "notes": "No official release, Co-directed with Roko Belic"
+  },
+  {
+   "year": 1996,
+   "t": "Larceny",
+   "directed": true,
+   "notes": "No official release"
+  },
+  {
+   "year": 1997,
+   "t": "Doodlebug",
+   "directed": true,
+   "notes": ""
+  },
+  {
+   "year": 2015,
+   "t": "Quay",
+   "directed": true,
+   "notes": "Also composer, Documentary short"
+  },
+  {
+   "year": 2019,
+   "t": "The Doll's Breath",
+   "directed": false,
+   "notes": ""
+  }
+ ],
+ "exec_producer": [
+  {
+   "year": 2014,
+   "t": "Transcendence",
+   "notes": ""
+  },
+  {
+   "year": 2016,
+   "t": "Batman v Superman: Dawn of Justice",
+   "notes": ""
+  },
+  {
+   "year": 2017,
+   "t": "Justice League",
+   "notes": ""
+  },
+  {
+   "year": 2021,
+   "t": "Zack Snyder's Justice League",
+   "notes": "Director's cut of 2017's Justice League"
+  },
+  {
+   "year": 2024,
+   "t": "Sanatorium Under the Sign of the Hourglass",
+   "notes": "\"Presented by\""
+  }
+ ],
+ "documentary_appearances": [
+  {
+   "year": 2011,
+   "t": "These Amazing Shadows"
+  },
+  {
+   "year": 2012,
+   "t": "Side by Side"
+  },
+  {
+   "year": 2016,
+   "t": "Cinema Futures"
+  },
+  {
+   "year": 2018,
+   "t": "James Cameron's Story of Science Fiction"
+  },
+  {
+   "year": 2019,
+   "t": "Making Waves: The Art of Cinematic Sound"
+  },
+  {
+   "year": 2025,
+   "t": "Hans Zimmer & Friends: Diamond in the Desert"
+  }
+ ],
+ "scrapped_feature_note": "Nolan directed a feature, Larry Mahoney, in the mid-1990s, but it was scrapped and never released."
+}
