@@ -1,0 +1,283 @@
+{
+  "slug": "mob-psycho-100",
+  "title": "Mob Psycho 100",
+  "subtitle": "every episode, and the two the source keeps beside them",
+  "kind": "anime",
+  "popularity": 63,
+  "year": "2016–2022",
+  "blurb": "Bones' adaptation of ONE's manga in order — three complete seasons following an introverted 14-year-old boy with immense psychic powers, plus the two OVAs, marked optional.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#1F5E7A",
+  "accentDark": "#6CE1F7",
+  "tiers": false,
+  "notes": [
+    [
+      "The two OVAs are rows, and they are optional.",
+      "They could have been a sentence in these notes instead, and the source is what decided otherwise — twice. Its episode list puts them in their own table under an OVAs heading, after all three season tables, numbered 1 and 2; and the series infobox counts the run as \"37 + 2 OVAs\", adding them to the total while holding them apart from the numbered episodes. So they are listed, at the end, where the source puts them — and flagged optional, which is the same statement the source is making. Slotting them between the seasons by airdate would have been this list's arrangement rather than the source's."
+    ],
+    [
+      "What the first OVA is.",
+      "A 60-minute compilation of the anime series with new scenes focused on Reigen, screened twice on March 18, 2018 and later released on home video. Most of it is footage the seasons already carry, which is why it is optional rather than a stop on the way through; the row note says so plainly so nobody watches it expecting a new episode. The second OVA is an original video animation made after season 2."
+    ],
+    [
+      "A 2026 anime short is not here.",
+      "A short was presented at the series' 10th anniversary event on July 13, 2026 and put on YouTube afterwards. The source gives it no title, does not list it among the episodes, and does not count it in the series total — there is nothing to make a row out of yet. It is named here rather than left out silently, and it joins this list when the source can name it."
+    ],
+    [
+      "The live-action drama is a different thing.",
+      "A 12-episode live-action Mob Psycho 100 ran on television from January 18 to April 5, 2018. It is a separate adaptation with its own cast and crew, not part of Bones' run, and this list is the anime."
+    ],
+    [
+      "Nothing is weighted, and hours are not tracked on this list.",
+      "Wikipedia documents no running time for this series: the series infobox has no runtime field and not one of the 39 entries carries one, both checked before this builds. The only duration in the source anywhere is the first OVA's 60 minutes, and it is in that row's note rather than in the arithmetic. One figure out of 39 cannot weight a list. Weighting only that row would be worse than weighting nothing: a row with no weight silently counts as a full hour, so 37 half-hour episodes would read as 37 hours. Every row counts one."
+    ],
+    [
+      "Where it aired.",
+      "The series infobox lists the broadcasters as Tokyo MX, ytv, BS Fuji, TV Asahi Channel 1. The source names Tokyo MX for the first and third seasons specifically and gives the rest as one series-wide list, so the sections here carry no per-season broadcaster."
+    ],
+    "Titles and airdates machine-read from Wikipedia's List of Mob Psycho 100 episodes and the Mob Psycho 100 article; each season's length is asserted against both the list article's series overview and the franchise article's prose, the overall numbering asserted contiguous 1–37, and every airdate asserted in broadcast order and matched against the series infobox before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "2016 · 12 episodes",
+      "intro": "Where it starts — the whole of Bones' first season, twelve episodes.",
+      "items": [
+        {
+          "id": "mp100-s1e1",
+          "t": "Self-Proclaimed Psychic: Arataka Reigen ~And Mob~",
+          "n": "1"
+        },
+        {
+          "id": "mp100-s1e2",
+          "t": "Doubts about Youth ~The Telepathy Club Appears~",
+          "n": "2"
+        },
+        {
+          "id": "mp100-s1e3",
+          "t": "An Invitation to a Meeting ~Simply Put, I Just Want to be Popular~",
+          "n": "3"
+        },
+        {
+          "id": "mp100-s1e4",
+          "t": "Idiots Only Event ~Kin~",
+          "n": "4"
+        },
+        {
+          "id": "mp100-s1e5",
+          "t": "Ochimusha ~Psychic Powers and Me~",
+          "n": "5"
+        },
+        {
+          "id": "mp100-s1e6",
+          "t": "Discord ~To Become One~",
+          "n": "6"
+        },
+        {
+          "id": "mp100-s1e7",
+          "t": "Exaltation ~I've Obtained Loss~",
+          "n": "7"
+        },
+        {
+          "id": "mp100-s1e8",
+          "t": "The Older Brother Bows ~Destructive Intent~",
+          "n": "8"
+        },
+        {
+          "id": "mp100-s1e9",
+          "t": "Claw ~7th Division~",
+          "n": "9"
+        },
+        {
+          "id": "mp100-s1e10",
+          "t": "The Heinous Aura ~Mastermind~",
+          "n": "10"
+        },
+        {
+          "id": "mp100-s1e11",
+          "t": "Master ~Leader~",
+          "n": "11"
+        },
+        {
+          "id": "mp100-s1e12",
+          "t": "Mob and Reigen ~A Giant Tsuchinoko Appears~",
+          "n": "12"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "2019 · 13 episodes",
+      "intro": "Broadcast as Mob Psycho 100 II. Thirteen episodes, the longest of the three.",
+      "items": [
+        {
+          "id": "mp100-s2e1",
+          "t": "Ripped Apart ~Someone Is Watching~",
+          "n": "1"
+        },
+        {
+          "id": "mp100-s2e2",
+          "t": "Urban Legends ~Encountering Rumors~",
+          "n": "2"
+        },
+        {
+          "id": "mp100-s2e3",
+          "t": "One Danger After Another ~Degeneration~",
+          "n": "3"
+        },
+        {
+          "id": "mp100-s2e4",
+          "t": "Inside ~Evil Spirit~",
+          "n": "4"
+        },
+        {
+          "id": "mp100-s2e5",
+          "t": "Discord ~Choices~",
+          "n": "5"
+        },
+        {
+          "id": "mp100-s2e6",
+          "t": "Poor, Lonely, Whitey",
+          "n": "6"
+        },
+        {
+          "id": "mp100-s2e7",
+          "t": "Cornered ~True Identity~",
+          "n": "7"
+        },
+        {
+          "id": "mp100-s2e8",
+          "t": "Even Then ~Continue Forward~",
+          "n": "8"
+        },
+        {
+          "id": "mp100-s2e9",
+          "t": "Show Me What You've Got ~Band Together~",
+          "n": "9"
+        },
+        {
+          "id": "mp100-s2e10",
+          "t": "Collision ~Power Type~",
+          "n": "10"
+        },
+        {
+          "id": "mp100-s2e11",
+          "t": "Guidance ~Psychic Sensor~",
+          "n": "11"
+        },
+        {
+          "id": "mp100-s2e12",
+          "t": "The Battle for Social Rehabilitation ~Friendship~",
+          "n": "12"
+        },
+        {
+          "id": "mp100-s2e13",
+          "t": "Boss Fight ~The Final Light~",
+          "n": "13"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "2022 · 12 episodes",
+      "intro": "Broadcast as Mob Psycho 100 III, and the last season the series made. The television run closes here.",
+      "items": [
+        {
+          "id": "mp100-s3e1",
+          "t": "Future ~Career Paths~",
+          "n": "1"
+        },
+        {
+          "id": "mp100-s3e2",
+          "t": "Yokai Hunter Amakusa Haruaki Appears! ~The Threat of a Hundred Demons!!~",
+          "n": "2"
+        },
+        {
+          "id": "mp100-s3e3",
+          "t": "Getting Carried Away ~100%~",
+          "n": "3"
+        },
+        {
+          "id": "mp100-s3e4",
+          "t": "Divine Tree 1 ~The Founder Appears~",
+          "n": "4"
+        },
+        {
+          "id": "mp100-s3e5",
+          "t": "Divine Tree 2 ~Peace~",
+          "n": "5"
+        },
+        {
+          "id": "mp100-s3e6",
+          "t": "Divine Tree 3 ~Dimple Is~",
+          "n": "6"
+        },
+        {
+          "id": "mp100-s3e7",
+          "t": "Transmission 1 ~Winter Break~",
+          "n": "7"
+        },
+        {
+          "id": "mp100-s3e8",
+          "t": "Transmission 2 ~Encountering the Unknown~",
+          "n": "8"
+        },
+        {
+          "id": "mp100-s3e9",
+          "t": "Mob 1 ~Moving~",
+          "n": "9"
+        },
+        {
+          "id": "mp100-s3e10",
+          "t": "Mob 2 ~Rival~",
+          "n": "10"
+        },
+        {
+          "id": "mp100-s3e11",
+          "t": "Mob 3 ~Trauma~",
+          "n": "11"
+        },
+        {
+          "id": "mp100-s3e12",
+          "t": "Confession ~The Future~",
+          "n": "12"
+        }
+      ]
+    },
+    {
+      "id": "ovas",
+      "title": "OVAs",
+      "sub": "2018–2019 · 2 entries · optional",
+      "intro": "Two entries the source keeps outside the numbered run and counts separately — its episode list gives them their own table after season 3, and the series infobox reads \"37 + 2 OVAs\". They sit here for the same reason, marked optional: listed where the source lists them, and not needed to follow the seasons.",
+      "items": [
+        {
+          "id": "mp100-ova1",
+          "t": "Reigen ~The Miraculous Unknown Psychic~",
+          "n": "OVA 1",
+          "opt": true,
+          "note": "screened March 18, 2018 · a 60-minute compilation of the anime series with new scenes focused on Reigen · later released on home video"
+        },
+        {
+          "id": "mp100-ova2",
+          "t": "The Spirits and Such Consultation Office's First Company Outing ~A Healing Trip that Warms the Heart~",
+          "n": "OVA 2",
+          "opt": true,
+          "note": "released September 25, 2019 · an original video animation, made after season 2"
+        }
+      ]
+    }
+  ]
+}

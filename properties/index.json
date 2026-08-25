@@ -1225,6 +1225,26 @@
     "total": 35
   },
   {
+    "slug": "chainsaw-man",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Chainsaw Man",
+    "subtitle": "the twelve episodes, and the film that follows them",
+    "kind": "tv & film",
+    "year": "2022–",
+    "popularity": 72,
+    "blurb": "MAPPA's 2022 season in full, then the feature that carries straight on from the finale — thirteen entries in the order they were made.",
+    "accent": "#A71930",
+    "accentDark": "#F04E5E",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 13
+  },
+  {
     "slug": "code-geass",
     "media": [
       "anime",
@@ -2027,6 +2047,25 @@
       "many": "games"
     },
     "total": 94
+  },
+  {
+    "slug": "mob-psycho-100",
+    "media": [
+      "anime"
+    ],
+    "title": "Mob Psycho 100",
+    "subtitle": "every episode, and the two the source keeps beside them",
+    "kind": "anime",
+    "year": "2016–2022",
+    "popularity": 63,
+    "blurb": "Bones' adaptation of ONE's manga in order — three complete seasons following an introverted 14-year-old boy with immense psychic powers, plus the two OVAs, marked optional.",
+    "accent": "#1F5E7A",
+    "accentDark": "#6CE1F7",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 39
   },
   {
     "slug": "criterion",
