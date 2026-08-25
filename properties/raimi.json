@@ -29,13 +29,13 @@
     ],
     [
       "It's Murder! is an optional row.",
-      "The Super 8 feature he made as a student at Michigan State. The filmography's own table lists it with the features and marks it an amateur film, so it rides along, marked the same way."
+      "The Super 8 feature he made as a student at Michigan State. The filmography's own table lists it with the features and marks it an amateur film, so it rides along, marked the same way. It still carries its 70 minutes: optional is a label on a row, not a hole in the total — the 29 episodes carry none for a different reason, which is that nobody publishes one."
     ],
     [
-      "Nothing is weighted.",
-      "The 17 films' runtimes are known and the section headings carry them — about 30 hours in total. The episodes' are not: the series article gives only a range and not one of the 30 Wikidata episode items carries a runtime. Rather than let a guessed half-hour into anyone's finish date, a film and an episode each count one."
+      "The films and the pilot carry the hours.",
+      "All 17 films have verified runtimes, and so does the one episode he directed — El Jefe, 41 minutes — which is where the 31 hours on this list come from. The other 29 episodes are marked optional and carry no hours at all, because no per-episode runtime for them is published anywhere: the series article gives only a range and not one of the 30 Wikidata episode items carries a runtime. They tick like everything else; they just do not move a finish date."
     ],
-    "Filmography and episode directors from Wikipedia's Sam Raimi and Ash vs Evil Dead articles, read from the tables themselves; film runtimes from Wikidata, gated on a matching release year."
+    "Filmography and episode directors from Wikipedia's Sam Raimi and Ash vs Evil Dead articles, read from the tables themselves; film runtimes from Wikidata, gated on a matching release year and read at statement rank; the pilot's from the infobox of its own article."
   ],
   "sections": [
     {
@@ -48,33 +48,39 @@
           "id": "sr-1978-it-s-murder",
           "t": "It's Murder!",
           "n": "1978",
+          "w": 1.17,
           "opt": 1,
           "note": "Amateur Super 8 feature, made while he was a student"
         },
         {
           "id": "sr-1981-the-evil-dead",
           "t": "The Evil Dead",
-          "n": "1981"
+          "n": "1981",
+          "w": 1.42
         },
         {
           "id": "sr-1985-crimewave",
           "t": "Crimewave",
-          "n": "1985"
+          "n": "1985",
+          "w": 1.42
         },
         {
           "id": "sr-1987-evil-dead-ii",
           "t": "Evil Dead II",
-          "n": "1987"
+          "n": "1987",
+          "w": 1.42
         },
         {
           "id": "sr-1990-darkman",
           "t": "Darkman",
-          "n": "1990"
+          "n": "1990",
+          "w": 1.58
         },
         {
           "id": "sr-1992-army-of-darkness",
           "t": "Army of Darkness",
-          "n": "1992"
+          "n": "1992",
+          "w": 1.35
         }
       ],
       "open": true
@@ -88,22 +94,26 @@
         {
           "id": "sr-1995-the-quick-and-the-dead",
           "t": "The Quick and the Dead",
-          "n": "1995"
+          "n": "1995",
+          "w": 1.72
         },
         {
           "id": "sr-1998-a-simple-plan",
           "t": "A Simple Plan",
-          "n": "1998"
+          "n": "1998",
+          "w": 2.02
         },
         {
           "id": "sr-1999-for-love-of-the-game",
           "t": "For Love of the Game",
-          "n": "1999"
+          "n": "1999",
+          "w": 2.3
         },
         {
           "id": "sr-2000-the-gift",
           "t": "The Gift",
-          "n": "2000"
+          "n": "2000",
+          "w": 1.85
         }
       ]
     },
@@ -116,17 +126,20 @@
         {
           "id": "sr-2002-spider-man",
           "t": "Spider-Man",
-          "n": "2002"
+          "n": "2002",
+          "w": 2.02
         },
         {
           "id": "sr-2004-spider-man-2",
           "t": "Spider-Man 2",
-          "n": "2004"
+          "n": "2004",
+          "w": 2.03
         },
         {
           "id": "sr-2007-spider-man-3",
           "t": "Spider-Man 3",
-          "n": "2007"
+          "n": "2007",
+          "w": 2.32
         }
       ]
     },
@@ -139,199 +152,260 @@
         {
           "id": "sr-2009-drag-me-to-hell",
           "t": "Drag Me to Hell",
-          "n": "2009"
+          "n": "2009",
+          "w": 1.65
         },
         {
           "id": "sr-2013-oz-the-great-and-powerful",
           "t": "Oz the Great and Powerful",
-          "n": "2013"
+          "n": "2013",
+          "w": 2.12
         }
       ]
     },
     {
       "id": "ashvsevildead",
       "title": "Ash vs Evil Dead — he directed the pilot",
-      "sub": "2015–2018 · 30 episodes on Starz · developed and executive produced by Raimi, who directed 1 of the 30",
-      "intro": "The one television series on this list, and it is here because it was asked for. Raimi developed Ash vs Evil Dead with Ivan Raimi and Tom Spezialy, executive produced all three seasons, and directed exactly one episode — the pilot, El Jefe, which he also co-wrote. The other 29 were directed by other people, and every row names the director who made it, so nothing here reads as his that was not.",
+      "sub": "2015–2018 · 30 episodes on Starz, 29 of them optional · developed and executive produced by Raimi, who directed 1 of the 30 · 41 minutes",
+      "intro": "The one television series on this list, and it is here because it was asked for. Raimi developed Ash vs Evil Dead with Ivan Raimi and Tom Spezialy, executive produced all three seasons, and directed exactly one episode — the pilot, El Jefe, which he also co-wrote. The other 29 were directed by other people, and every row names the director who made it, so nothing here reads as his that was not. The pilot carries its 41 minutes; the other 29 are marked optional and carry no hours, because no runtime for them is published anywhere. They tick all the same.",
       "items": [
         {
           "id": "sr-aved-s1e01",
           "t": "El Jefe",
           "n": "S1E1",
+          "w": 0.68,
           "note": "Directed by Sam Raimi, who also co-wrote it"
         },
         {
           "id": "sr-aved-s1e02",
           "t": "Bait",
           "n": "S1E2",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by M. J. Bassett"
         },
         {
           "id": "sr-aved-s1e03",
           "t": "Books from Beyond",
           "n": "S1E3",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by M. J. Bassett"
         },
         {
           "id": "sr-aved-s1e04",
           "t": "Brujo",
           "n": "S1E4",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by David Frazee"
         },
         {
           "id": "sr-aved-s1e05",
           "t": "The Host",
           "n": "S1E5",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by David Frazee"
         },
         {
           "id": "sr-aved-s1e06",
           "t": "The Killer of Killers",
           "n": "S1E6",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Michael Hurst"
         },
         {
           "id": "sr-aved-s1e07",
           "t": "Fire in the Hole",
           "n": "S1E7",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Michael Hurst"
         },
         {
           "id": "sr-aved-s1e08",
           "t": "Ashes to Ashes",
           "n": "S1E8",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Tony Tilse"
         },
         {
           "id": "sr-aved-s1e09",
           "t": "Bound in Flesh",
           "n": "S1E9",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Tony Tilse"
         },
         {
           "id": "sr-aved-s1e10",
           "t": "The Dark One",
           "n": "S1E10",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Rick Jacobson"
         },
         {
           "id": "sr-aved-s2e01",
           "t": "Home",
           "n": "S2E1",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Rick Jacobson"
         },
         {
           "id": "sr-aved-s2e02",
           "t": "The Morgue",
           "n": "S2E2",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Tony Tilse"
         },
         {
           "id": "sr-aved-s2e03",
           "t": "Last Call",
           "n": "S2E3",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Tony Tilse"
         },
         {
           "id": "sr-aved-s2e04",
           "t": "DUI",
           "n": "S2E4",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by M. J. Bassett"
         },
         {
           "id": "sr-aved-s2e05",
           "t": "Confinement",
           "n": "S2E5",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by M. J. Bassett"
         },
         {
           "id": "sr-aved-s2e06",
           "t": "Trapped Inside",
           "n": "S2E6",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Mark Beesley"
         },
         {
           "id": "sr-aved-s2e07",
           "t": "Delusion",
           "n": "S2E7",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Mark Beesley"
         },
         {
           "id": "sr-aved-s2e08",
           "t": "Ashy Slashy",
           "n": "S2E8",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Tony Tilse"
         },
         {
           "id": "sr-aved-s2e09",
           "t": "Home Again",
           "n": "S2E9",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Rick Jacobson"
         },
         {
           "id": "sr-aved-s2e10",
           "t": "Second Coming",
           "n": "S2E10",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Rick Jacobson"
         },
         {
           "id": "sr-aved-s3e01",
           "t": "Family",
           "n": "S3E1",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Mark Beesley"
         },
         {
           "id": "sr-aved-s3e02",
           "t": "Booth Three",
           "n": "S3E2",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Mark Beesley"
         },
         {
           "id": "sr-aved-s3e03",
           "t": "Apparently Dead",
           "n": "S3E3",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Diego & Andres Meza-Valdes"
         },
         {
           "id": "sr-aved-s3e04",
           "t": "Unfinished Business",
           "n": "S3E4",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Daniel Nettheim"
         },
         {
           "id": "sr-aved-s3e05",
           "t": "Baby Proof",
           "n": "S3E5",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Daniel Nettheim"
         },
         {
           "id": "sr-aved-s3e06",
           "t": "Tales from the Rift",
           "n": "S3E6",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Regan Hall"
         },
         {
           "id": "sr-aved-s3e07",
           "t": "Twist and Shout",
           "n": "S3E7",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Mark Beesley"
         },
         {
           "id": "sr-aved-s3e08",
           "t": "Rifting Apart",
           "n": "S3E8",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Mark Beesley"
         },
         {
           "id": "sr-aved-s3e09",
           "t": "Judgement Day",
           "n": "S3E9",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Rick Jacobson"
         },
         {
           "id": "sr-aved-s3e10",
           "t": "The Mettle of Man",
           "n": "S3E10",
+          "w": 0,
+          "opt": 1,
           "note": "Directed by Rick Jacobson"
         }
       ]
@@ -345,12 +419,14 @@
         {
           "id": "sr-2022-doctor-strange-in-the-multiverse-of-madness",
           "t": "Doctor Strange in the Multiverse of Madness",
-          "n": "2022"
+          "n": "2022",
+          "w": 2.1
         },
         {
           "id": "sr-2026-send-help",
           "t": "Send Help",
-          "n": "2026"
+          "n": "2026",
+          "w": 1.88
         }
       ]
     }

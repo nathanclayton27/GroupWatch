@@ -7,6 +7,13 @@
    "tablenote": "Amateur film; also uncredited sound mixer",
    "wrote": true,
    "runtime": 70,
+   "p2047_seen": [
+    {
+     "amount": 70.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q3155790",
    "pubyears": [
     1977
@@ -20,6 +27,13 @@
    "tablenote": "",
    "wrote": true,
    "runtime": 85,
+   "p2047_seen": [
+    {
+     "amount": 85.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q327604",
    "pubyears": [
     1981,
@@ -34,6 +48,18 @@
    "tablenote": "",
    "wrote": true,
    "runtime": 85,
+   "p2047_seen": [
+    {
+     "amount": 83.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    },
+    {
+     "amount": 85.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q2633261",
    "pubyears": [
     1985
@@ -47,6 +73,13 @@
    "tablenote": "",
    "wrote": true,
    "runtime": 85,
+   "p2047_seen": [
+    {
+     "amount": 85.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q750028",
    "pubyears": [
     1987,
@@ -61,6 +94,13 @@
    "tablenote": "",
    "wrote": true,
    "runtime": 95,
+   "p2047_seen": [
+    {
+     "amount": 95.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q1166264",
    "pubyears": [
     1990
@@ -74,6 +114,13 @@
    "tablenote": "credited as \"R.O.C. Sandstorm\"",
    "wrote": true,
    "runtime": 81,
+   "p2047_seen": [
+    {
+     "amount": 81.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q471992",
    "pubyears": [
     1992,
@@ -88,6 +135,13 @@
    "tablenote": "",
    "wrote": false,
    "runtime": 103,
+   "p2047_seen": [
+    {
+     "amount": 103.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q756416",
    "pubyears": [
     1995
@@ -101,6 +155,13 @@
    "tablenote": "",
    "wrote": false,
    "runtime": 121,
+   "p2047_seen": [
+    {
+     "amount": 121.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q564958",
    "pubyears": [
     1998,
@@ -115,6 +176,13 @@
    "tablenote": "",
    "wrote": false,
    "runtime": 138,
+   "p2047_seen": [
+    {
+     "amount": 138.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q777591",
    "pubyears": [
     1999,
@@ -129,6 +197,13 @@
    "tablenote": "",
    "wrote": false,
    "runtime": 111,
+   "p2047_seen": [
+    {
+     "amount": 111.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q246711",
    "pubyears": [
     2000,
@@ -143,6 +218,13 @@
    "tablenote": "",
    "wrote": false,
    "runtime": 121,
+   "p2047_seen": [
+    {
+     "amount": 121.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q484442",
    "pubyears": [
     2002
@@ -156,6 +238,13 @@
    "tablenote": "",
    "wrote": false,
    "runtime": 122,
+   "p2047_seen": [
+    {
+     "amount": 122.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q190145",
    "pubyears": [
     2004
@@ -169,6 +258,18 @@
    "tablenote": "",
    "wrote": true,
    "runtime": 139,
+   "p2047_seen": [
+    {
+     "amount": 139.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    },
+    {
+     "amount": 137.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q182212",
    "pubyears": [
     2007
@@ -182,6 +283,13 @@
    "tablenote": "",
    "wrote": true,
    "runtime": 99,
+   "p2047_seen": [
+    {
+     "amount": 99.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q632737",
    "pubyears": [
     2009
@@ -195,6 +303,13 @@
    "tablenote": "",
    "wrote": false,
    "runtime": 127,
+   "p2047_seen": [
+    {
+     "amount": 127.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q590216",
    "pubyears": [
     2013
@@ -207,7 +322,19 @@
    "year": 2022,
    "tablenote": "",
    "wrote": false,
-   "runtime": 127,
+   "runtime": 126,
+   "p2047_seen": [
+    {
+     "amount": 126.0,
+     "unit": "Q7727",
+     "rank": "preferred"
+    },
+    {
+     "amount": 127.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q64211112",
    "pubyears": [
     2021,
@@ -222,6 +349,13 @@
    "tablenote": "",
    "wrote": false,
    "runtime": 113,
+   "p2047_seen": [
+    {
+     "amount": 113.0,
+     "unit": "Q7727",
+     "rank": "normal"
+    }
+   ],
    "qid": "Q132200341",
    "pubyears": [
     2026
@@ -236,8 +370,13 @@
    "num": 1,
    "t": "El Jefe",
    "year": 2015,
+   "page": "El Jefe (Ash vs Evil Dead)",
    "director": "Sam Raimi",
-   "writers": "Sam Raimi & Ivan Raimi and Tom Spezialy"
+   "writers": "Sam Raimi & Ivan Raimi and Tom Spezialy",
+   "qid": "Q117715814",
+   "runtime": 41,
+   "p2047_seen": [],
+   "runtime_src": "El Jefe (Ash vs Evil Dead) infobox length"
   },
   {
    "season": 1,
@@ -245,8 +384,12 @@
    "num": 2,
    "t": "Bait",
    "year": 2015,
+   "page": "Bait (Ash vs Evil Dead)",
    "director": "M. J. Bassett",
-   "writers": "Dominic Dierkes"
+   "writers": "Dominic Dierkes",
+   "qid": "Q117715798",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 1,
@@ -254,8 +397,12 @@
    "num": 3,
    "t": "Books from Beyond",
    "year": 2015,
+   "page": "Books from Beyond",
    "director": "M. J. Bassett",
-   "writers": "Sean Clements"
+   "writers": "Sean Clements",
+   "qid": "Q117715756",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 1,
@@ -263,8 +410,12 @@
    "num": 4,
    "t": "Brujo",
    "year": 2015,
+   "page": "Brujo (Ash vs Evil Dead)",
    "director": "David Frazee",
-   "writers": "James E. Eagan"
+   "writers": "James E. Eagan",
+   "qid": "Q117715738",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 1,
@@ -272,8 +423,12 @@
    "num": 5,
    "t": "The Host",
    "year": 2015,
+   "page": "The Host (Ash vs Evil Dead)",
    "director": "David Frazee",
-   "writers": "Zoë Green"
+   "writers": "Zoë Green",
+   "qid": "Q117715752",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 1,
@@ -281,8 +436,12 @@
    "num": 6,
    "t": "The Killer of Killers",
    "year": 2015,
+   "page": "The Killer of Killers",
    "director": "Michael Hurst",
-   "writers": "Nate Crocker"
+   "writers": "Nate Crocker",
+   "qid": "Q117715785",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 1,
@@ -290,8 +449,12 @@
    "num": 7,
    "t": "Fire in the Hole",
    "year": 2015,
+   "page": "Fire in the Hole (Ash vs Evil Dead)",
    "director": "Michael Hurst",
-   "writers": "Sean Clements, Dominic Dierkes and Ivan Raimi"
+   "writers": "Sean Clements, Dominic Dierkes and Ivan Raimi",
+   "qid": "Q117715777",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 1,
@@ -299,8 +462,12 @@
    "num": 8,
    "t": "Ashes to Ashes",
    "year": 2015,
+   "page": "Ashes to Ashes (Ash vs Evil Dead)",
    "director": "Tony Tilse",
-   "writers": "M. J. Bassett"
+   "writers": "M. J. Bassett",
+   "qid": "Q117715751",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 1,
@@ -308,8 +475,12 @@
    "num": 9,
    "t": "Bound in Flesh",
    "year": 2015,
+   "page": "Bound in Flesh",
    "director": "Tony Tilse",
-   "writers": "Rob Wright"
+   "writers": "Rob Wright",
+   "qid": "Q117715782",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 1,
@@ -317,8 +488,12 @@
    "num": 10,
    "t": "The Dark One",
    "year": 2016,
+   "page": "The Dark One (Ash vs Evil Dead)",
    "director": "Rick Jacobson",
-   "writers": "Craig DiGregorio"
+   "writers": "Craig DiGregorio",
+   "qid": "Q117715780",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 2,
@@ -326,8 +501,12 @@
    "num": 1,
    "t": "Home",
    "year": 2016,
+   "page": "Home (Ash vs Evil Dead)",
    "director": "Rick Jacobson",
-   "writers": "Craig DiGregorio"
+   "writers": "Craig DiGregorio",
+   "qid": "Q117715764",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 2,
@@ -335,8 +514,12 @@
    "num": 2,
    "t": "The Morgue",
    "year": 2016,
+   "page": "The Morgue (Ash vs Evil Dead)",
    "director": "Tony Tilse",
-   "writers": "Cameron Welsh"
+   "writers": "Cameron Welsh",
+   "qid": "Q117715761",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 2,
@@ -344,8 +527,12 @@
    "num": 3,
    "t": "Last Call",
    "year": 2016,
+   "page": "Last Call (Ash vs Evil Dead)",
    "director": "Tony Tilse",
-   "writers": "Noelle Valdivia"
+   "writers": "Noelle Valdivia",
+   "qid": "Q117715729",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 2,
@@ -353,8 +540,12 @@
    "num": 4,
    "t": "DUI",
    "year": 2016,
+   "page": "DUI (Ash vs Evil Dead)",
    "director": "M. J. Bassett",
-   "writers": "Ivan Raimi"
+   "writers": "Ivan Raimi",
+   "qid": "Q117715758",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 2,
@@ -362,8 +553,12 @@
    "num": 5,
    "t": "Confinement",
    "year": 2016,
+   "page": "Confinement (Ash vs Evil Dead)",
    "director": "M. J. Bassett",
-   "writers": "William Bromell"
+   "writers": "William Bromell",
+   "qid": "Q117715770",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 2,
@@ -371,8 +566,12 @@
    "num": 6,
    "t": "Trapped Inside",
    "year": 2016,
+   "page": "Trapped Inside",
    "director": "Mark Beesley",
-   "writers": "James E. Eagan"
+   "writers": "James E. Eagan",
+   "qid": "Q118904888",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 2,
@@ -380,8 +579,12 @@
    "num": 7,
    "t": "Delusion",
    "year": 2016,
+   "page": "Delusion (Ash vs Evil Dead)",
    "director": "Mark Beesley",
-   "writers": "Hank Chilton"
+   "writers": "Hank Chilton",
+   "qid": "Q117743273",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 2,
@@ -389,8 +592,12 @@
    "num": 8,
    "t": "Ashy Slashy",
    "year": 2016,
+   "page": "Ashy Slashy",
    "director": "Tony Tilse",
-   "writers": "Suzanne Keilly and Aaron Lam"
+   "writers": "Suzanne Keilly and Aaron Lam",
+   "qid": "Q117743266",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 2,
@@ -398,8 +605,12 @@
    "num": 9,
    "t": "Home Again",
    "year": 2016,
+   "page": "Home Again (Ash vs Evil Dead)",
    "director": "Rick Jacobson",
-   "writers": "Jennifer Ames & Steve Turner"
+   "writers": "Jennifer Ames & Steve Turner",
+   "qid": "Q117743289",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 2,
@@ -407,8 +618,12 @@
    "num": 10,
    "t": "Second Coming",
    "year": 2016,
+   "page": "Second Coming (Ash vs Evil Dead)",
    "director": "Rick Jacobson",
-   "writers": "Luke Kalteux"
+   "writers": "Luke Kalteux",
+   "qid": "Q117751637",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 3,
@@ -416,8 +631,12 @@
    "num": 1,
    "t": "Family",
    "year": 2018,
+   "page": "Family (Ash vs Evil Dead)",
    "director": "Mark Beesley",
-   "writers": "Mark Verheiden"
+   "writers": "Mark Verheiden",
+   "qid": "Q117751580",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 3,
@@ -425,8 +644,12 @@
    "num": 2,
    "t": "Booth Three",
    "year": 2018,
+   "page": "Booth Three",
    "director": "Mark Beesley",
-   "writers": "Rob Fresco"
+   "writers": "Rob Fresco",
+   "qid": "Q117790854",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 3,
@@ -434,8 +657,12 @@
    "num": 3,
    "t": "Apparently Dead",
    "year": 2018,
+   "page": "Apparently Dead",
    "director": "Diego & Andres Meza-Valdes",
-   "writers": "Ivan Raimi"
+   "writers": "Ivan Raimi",
+   "qid": "Q118904781",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 3,
@@ -443,8 +670,12 @@
    "num": 4,
    "t": "Unfinished Business",
    "year": 2018,
+   "page": "Unfinished Business (Ash vs Evil Dead)",
    "director": "Daniel Nettheim",
-   "writers": "Nicki Paluga"
+   "writers": "Nicki Paluga",
+   "qid": "Q117790862",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 3,
@@ -452,8 +683,12 @@
    "num": 5,
    "t": "Baby Proof",
    "year": 2018,
+   "page": "Baby Proof (Ash vs Evil Dead)",
    "director": "Daniel Nettheim",
-   "writers": "Luke Kalteaux"
+   "writers": "Luke Kalteaux",
+   "qid": "Q117790857",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 3,
@@ -461,8 +696,12 @@
    "num": 6,
    "t": "Tales from the Rift",
    "year": 2018,
+   "page": "Tales from the Rift",
    "director": "Regan Hall",
-   "writers": "Aaron Lam"
+   "writers": "Aaron Lam",
+   "qid": "Q117790859",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 3,
@@ -470,8 +709,12 @@
    "num": 7,
    "t": "Twist and Shout",
    "year": 2018,
+   "page": "Twist and Shout (Ash vs Evil Dead)",
    "director": "Mark Beesley",
-   "writers": "Caitlin Meares"
+   "writers": "Caitlin Meares",
+   "qid": "Q118904877",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 3,
@@ -479,8 +722,12 @@
    "num": 8,
    "t": "Rifting Apart",
    "year": 2018,
+   "page": "Rifting Apart",
    "director": "Mark Beesley",
-   "writers": "Bryan Hill"
+   "writers": "Bryan Hill",
+   "qid": "Q118904657",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 3,
@@ -488,8 +735,12 @@
    "num": 9,
    "t": "Judgement Day",
    "year": 2018,
+   "page": "Judgement Day (Ash vs Evil Dead)",
    "director": "Rick Jacobson",
-   "writers": "Rick Jacobson"
+   "writers": "Rick Jacobson",
+   "qid": "Q118904694",
+   "runtime": null,
+   "p2047_seen": []
   },
   {
    "season": 3,
@@ -497,12 +748,20 @@
    "num": 10,
    "t": "The Mettle of Man",
    "year": 2018,
+   "page": "The Mettle of Man",
    "director": "Rick Jacobson",
-   "writers": "Rick Jacobson"
+   "writers": "Rick Jacobson",
+   "qid": "Q118905484",
+   "runtime": null,
+   "p2047_seen": []
   }
  ],
  "series": {
   "runtime_field": "25–37 minutes, 41 minutes (pilot)",
+  "pilot_runtime": 41,
+  "pilot_runtime_src": "El Jefe (Ash vs Evil Dead) infobox length",
+  "episodes_with_wikidata_item": 30,
+  "episodes_with_wikidata_runtime": 0,
   "declared_episodes": 30,
   "declared_seasons": 3,
   "developer": [
