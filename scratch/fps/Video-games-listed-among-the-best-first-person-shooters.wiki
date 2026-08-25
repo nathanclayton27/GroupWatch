@@ -1,0 +1,971 @@
+{{Short description|Video games notable for positive reception}}
+{{Video games}}
+Publications have listed at least {{table row counter}} [[video game]]s as some of '''the best [[first-person shooter]]s (FPS)''', a subgenre of [[shooter game]]s that mixes together a [[first-person (video game)|first-person]] perspective with a user-friendly shooting interface.<ref name=Paste2016/> The genre's household [[video game franchise|franchise]]s include ''[[Call of Duty]]'', ''[[Doom (franchise)|Doom]]'', and ''[[Halo (franchise)|Halo]]''.<ref name=Complex2017/> FPS evolved from its 1990s origins of [[shareware]] files on a [[bulletin board system]] to become the all-time biggest [[video game genre]].<ref name=Paste2016/><ref name=Shortlist2016/><ref name=DenofGeek2023/> 
+
+As introductory prose of [[video game journalism|editor]]-ran features puts it, FPS is the one genre that has maintained its popularity for every [[console generation]] it has been around,<ref name=DigitalTrends2025/> surviving [[Violence and video games|allegations of causing real-life violence]].<ref name=Complex2017/> Its entries are some of the [[List of best-selling video games|highest-selling video games]] year-after-year, with a [[mass audience]] extending to [[casual gamer]]s,<ref name=Complex2017/> and the [[video games industry]]'s multi-billion-dollar success was attributed by ''[[GameSpot]]'' to them.<ref name=GSpot2026/> 
+
+The reason for the genre's popularity is theorized to be providing players the opportunity to be a "badass" in [[action film]]-esque scenarios.<ref name=Shortlist2016/><ref name=GSpot2026/> As ''[[LaptopMag]]'' explained, "the best first-person shooters offer exhilarating escapism that puts awesomeness at the forefront. Getting caught in intense gunfights, balancing every last piece of ammunition, skillfully running or jumping around the arena as an onslaught of bullets rush towards you, and precisely popping the heads of every demon or monster you're facing off against is the textbook definition of a good time."<ref name=LaptopMag2022/> 
+
+Generally, the methodology of best-of FPS lists measure not only enjoyment but lasting influence, innovation, and historical importance.<ref name=GameSpot2004/><ref name=DenofGeek2023/> ''[[GameSpot]]'' explained the highest-quality FPS contain one or more of the following: "cohesive story", "well-designed campaign", "clever" enemy [[artificial intelligence]], weapons, and a "creative [[multiplayer]] mode".<ref name=GameSpot2004/> 
+
+The genre is a foundation for games that also experiment with elements such as [[worldbuilding]] and [[Storytelling in video games|storytelling]], resulting in variety.<ref name=Paste2016/><ref name=DenofGeek2023/> Some FPS heavily incorporate other aspects that exceed or are as prevalent as the FPS core, such as other genres like [[role-playing video game]]s, an emphasis on choice-making, and political subject matter.<ref name=LaptopMag2022/> While most lists allow for virtually any FPS game, ''GameSpot''{{'}}s 2004 top-ten list was limited to [[action game|action]] titles that were "true first-persons shooters", disqualifying games like ''[[System Shock 2]]'' (1999) or ''[[Deus Ex (video game)|Deus Ex]]'' (2000) that were closer to other genres such as role-playing games.<ref name=GameSpot2004/> 
+
+Multiplayer is also a defining factor in the quality of several FPS considered the best, such as ''[[Goldeneye 007]]'' (1997) and ''[[Overwatch (2016 video game)|Overwatch]]'' (2016).<ref name=Complex2017/> As ''LaptopMag'' put it, "There are also those days when you just want the satisfaction of battling other players in palpitating PvP action."<ref name=LaptopMag2022/> This multiplayer aspect also results in several FPS becoming [[Esports]] staples.<ref name=Complex2017/> ''GameSpot''{{'}}s 2004 list noted how FPS without a multiplayer mode tend to lack longevity.<ref name=GameSpot2004/>
+== List ==
+{{Sticky header}}
+{{Table TOC|start=1992|stop=2025|by=1}}
+{|class="wikitable sortable sticky-header"
+|+{{sronly|FPS listed as the best}} 
+! scope="col"|Year
+! scope="col"|Game
+! scope="col"|Developer
+! scope="col"|Publisher
+! scope="col"|Original platform(s){{efn|"PC" includes Microsoft's line of [[MS-DOS]] and [[Windows]] operating systems}}
+! scope="col" class="unsortable" | {{Refh}}
+|- id=1992
+!scope="row"|[[1992 in video games|1992]]
+|''[[Wolfenstein 3D]]''
+|[[id Software]]
+|[[Apogee Software]]
+|[[Personal computer|PC]]
+|<ref name=Paste2016/><ref name=Complex2017/><ref name=Complex2014/>
+|- id=1993
+!scope="row" rowspan="2"|[[1993 in video games|1993]]
+|''[[Blake Stone: Aliens of Gold]]''
+|[[JAM Productions]]
+|[[Apogee Software]]
+|[[Personal computer|PC]], [[Mac (computer)|Mac]], [[Linux]], [[Amiga]]
+|<ref name=USgamer2014/>
+|-
+|''[[Doom (1993 video game)|Doom]]''
+|colspan="2"|[[id Software]]
+|[[Personal computer|PC]]
+|{{efn-ua|''[[Doom (1993 video game)|Doom]]'' (1993): <ref name=Paste2016/><ref name=Shortlist2016/><ref name=Complex2017/><ref name=DenofGeek2023/><ref name=GameSpot2004/><ref name=Complex2014/><ref name=AVClub2014/><ref name=USgamer2014/><ref name=PCGamer2026/><ref name=IGN2016/><ref name=City2016/>}}
+|- id=1994
+!scope="row" rowspan="5"|[[1994 in video games|1994]]
+|''[[Doom II]]''
+|colspan="2"|[[id Software]]
+|[[Personal computer|PC]]
+|<ref name=Paste2016/><ref name=PCGamer2026/>
+|-
+|''[[Marathon (1994 video game)|Marathon]]''
+|colspan="2"|[[Bungie]]
+|[[Mac (computer)|Mac]]
+|<ref name=Complex2014/>
+|-
+|''[[Rise of the Triad]]''
+|colspan="2"|[[Apogee Software]]
+|[[Personal computer|PC]]
+|<ref name=USgamer2014/>
+|-
+|''[[System Shock]]''
+|[[LookingGlass Technologies]]
+|[[Origin Systems]]
+|[[Personal computer|PC]], [[Mac (computer)|Mac]]
+|<ref name=USgamer2014/>
+|-
+|''[[Virtua Cop]]''
+|colspan="2"|[[Sega]]
+|[[Arcade game|Arcade]], [[Sega Saturn]]
+|<ref name=Complex2014/>
+|- id=1995
+!scope="row" rowspan="3"|[[1995 in video games|1995]]
+|''[[Hexen: Beyond Heretic]]''
+|[[Raven Software]]
+|[[id Software]]
+|[[Personal computer|PC]]
+|<ref name=Paste2016/><ref name=USgamer2014/>
+|-
+|''[[Star Wars: Dark Forces]]''
+|colspan="2"|[[LucasArts]]
+|[[Personal computer|PC]], [[Mac (computer)|Mac]]
+|<ref name=Maxim2011/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/3|title=Star Wars: Dark Forces|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>
+|-
+|''[[Time Crisis (video game)|Time Crisis]]''
+|colspan="2"|[[Namco]]
+|[[Arcade game|Arcade]], [[PlayStation (console)|PlayStation]]
+|<ref name=Complex2014/>
+|- id=1996
+!scope="row" rowspan="3"|[[1996 in video games|1996]]
+|''[[Duke Nukem 3D]]''
+|[[3D Realms]]
+|[[FormGen]]
+|[[Personal computer|PC]]
+|{{efn-ua|''[[Duke Nukem 3D]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=Complex2017/><ref name=GameSpot2004/><ref name=Complex2014/><ref name=City2016/><ref name=Maxim2011/><ref name=USgamer2014/><ref name=VG2472024/>}}
+|-
+|''[[Marathon Infinity]]''
+|colspan="2"|[[Bungie]]
+|[[Mac (computer)|Mac]]
+|<ref name=USgamer2014/>
+|-
+|''[[Quake (video game)|Quake]]''
+|[[id Software]]
+|[[GT Interactive]]
+|[[Personal computer|PC]]
+|{{efn-ua|''[[Quake (video game)|Quake]]'': <ref name=Paste2016/><ref name=Complex2017/><ref name=DenofGeek2023/><ref name=GameSpot2004/><ref name=Complex2014/><ref name=USgamer2014/><ref name=IGN2016/><ref name=VG2472024/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/12|title=Quake|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|- id=1997
+!scope="row" rowspan="4"|[[1997 in video games|1997]]
+|''[[Goldeneye 007]]''
+|[[Rare (company)|Rare]]
+|[[Nintendo]]
+|[[Nintendo 64]]
+|{{efn-ua|''[[Goldeneye 007]]'': <ref name=Paste2016/><ref name=Complex2017/><ref name=DenofGeek2023/><ref name=DigitalTrends2025/><ref name=GameSpot2004/><ref name=Complex2014/><ref name=AVClub2014/><ref name=VG2472024/>}}
+|-
+|''[[Outlaws (1997 video game)|Outlaws]]''
+|colspan="2"|[[LucasArts]]
+|[[Personal computer|PC]]
+|<ref name=Maxim2011/>
+|-
+|''[[Quake II]]''
+|[[id Software]]
+|[[Activision]]
+|[[Personal computer|PC]]
+|<ref name=Shortlist2016/><ref name=City2016/>
+|-
+|''[[Star Wars Jedi Knight: Dark Forces II]]''
+|colspan="2"|[[LucasArts]]
+|[[Personal computer|PC]]
+|<ref name=Paste2016/>
+|- id=1998
+!scope="row" rowspan="4"|[[1998 in video games|1998]]
+|''[[Half-Life (video game)|Half-Life]]''
+|[[Valve Corporation|Valve]]
+|[[Sierra Studios]]
+|[[Personal computer|PC]], [[PlayStation 2]]
+|{{efn-ua|''[[Half-Life (video game)|Half-Life]]'': <ref name=Paste2016/><ref name=DenofGeek2023/><ref name=GameSpot2004/><ref name=Complex2014/><ref name=AVClub2014/><ref name=USgamer2014/><ref name=IGN2016/>}}
+|-
+|''[[Starsiege: Tribes]]''
+|[[Dynamix]]
+|[[Sierra On-Line]]
+|[[Personal computer|PC]]
+|<ref name=Complex2014/>
+|-
+|''[[Tom Clancy's Rainbow Six (video game)|Tom Clancy's Rainbow Six]]''
+|colspan="2"|[[Red Storm Entertainment]]
+|[[Personal computer|PC]]
+|<ref name=GameSpot2004/>
+|-
+|''[[Turok 2: Seeds of Evil]]''
+|colspan="2"|[[Acclaim Entertainment]]
+|[[Nintendo 64]], [[Personal computer|PC]]
+|<ref name=VG2472024/>
+|- id=1999
+!scope="row" rowspan="5"|[[1999 in video games|1999]]
+|''[[Descent 3]]''
+|[[Outrage Entertainment]]
+|[[Interplay Entertainment]]
+|[[Personal computer|PC]], [[Mac (computer)|Mac]], [[Linux]]
+|<ref name=Complex2014/>
+|-
+|''[[Quake III Arena]]''
+|[[id Software]]
+|[[Activision]]
+|[[Personal computer|PC]]
+|{{efn-ua|''[[Quake III Arena]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=City2016/><ref name=USgamer2014/><ref name=DenofGeek2023/>}}
+|-
+|''[[System Shock 2]]''
+|[[Irrational Games]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]]
+|<ref name=GameSpot2004/><ref name=Complex2014/><ref name=Paste2016/>
+|-
+|''[[Team Fortress Classic]]''
+|[[Valve Corporation|Valve]]
+|[[Sierra Studios]]
+|[[Personal computer|PC]]
+|<ref name=Paste2016/>
+|-
+|''[[Unreal Tournament]]'' 
+|[[Epic Games]]
+|[[GT Interactive]]
+|[[Personal computer|PC]]
+|{{efn-ua|''[[Unreal Tournament]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=City2016/><ref name=DenofGeek2023/><ref name=GameSpot2004/><ref name=USgamer2014/><ref name=Complex2014/><ref name=VG2472024/>}}
+|- id=2000
+!scope="row" rowspan="5"|[[2000 in video games|2000]]
+|''[[Counter-Strike (video game)|Counter-Strike]]''
+|[[Valve Corporation|Valve]]
+|[[Sierra Studios]]
+|[[Personal computer|PC]]
+| {{efn-ua|''[[Counter-Strike (video game)|Counter-Strike]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=City2016/><ref name=DenofGeek2023/><ref name=GameSpot2004/><ref name=Complex2014/><ref name=IGN2016/> ''IGN''{{'}}s spot was for version 1.6 specifically.}}
+|-
+|''[[Deus Ex (video game)|Deus Ex]]''
+|[[Ion Storm]]
+|[[Eidos Interactive]]
+|[[Personal computer|PC]], [[PlayStation 2]]
+|{{efn-ua|''[[Deus Ex (video game)|Deus Ex]]'': <ref name=Paste2016/><ref name=GameSpot2004/><ref name=Complex2014/><ref name=AVClub2014/><ref name=Thrillist2016/>}}
+|-
+|''[[The Operative: No One Lives Forever]]''
+|[[Monolith Productions]]
+|[[Fox Interactive]]
+|[[Personal computer|PC]]
+|<ref name=Paste2016/><ref name=DenofGeek2023/><ref name=USgamer2014/>
+|-
+|''[[Perfect Dark (video game)|Perfect Dark]]''
+|colspan="2"|[[Rare (company)|Rare]]
+|[[Nintendo 64]]
+| {{efn-ua|''[[Perfect Dark (video game)|Perfect Dark]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=Complex2017/><ref name=Complex2014/><ref name=VG2472024/><ref name=City2016/>}}
+|-
+|''[[Silent Scope (video game)|Silent Scope]]''
+|colspan="2"|[[Konami]]
+|[[Arcade game|Arcade]], [[PlayStation 2]], [[Dreamcast]]
+|<ref name=Complex2014/>
+|- id=2001
+!scope="row" rowspan="4"|[[2001 in video games|2001]]
+|''[[Halo: Combat Evolved]]''
+|[[Bungie]]
+|[[Microsoft Game Studios]]
+|[[Xbox (console)|Xbox]]
+|{{efn-ua|''[[Halo: Combat Evolved]]'': <ref name=Paste2016/><ref name=Complex2017/><ref name=DenofGeek2023/><ref name=GameSpot2004/><ref name=AVClub2014/><ref name=Complex2014/>}}
+|-
+|''[[Red Faction (video game)|Red Faction]]''
+|[[Volition (company)|Volition]]
+|[[THQ]]
+|[[PlayStation 2]]
+|<ref name=Complex2014/>
+|-
+|''[[Serious Sam: The First Encounter]]''
+|[[Croteam]]
+|[[Gathering of Developers]]
+|[[Personal computer|PC]]
+|<ref name=DenofGeek2023/><ref name=Complex2014/>
+|-
+|''[[Tom Clancy's Ghost Recon (2001 video game)|Tom Clancy's Ghost Recon]]''
+|[[Red Storm Entertainment]]
+|[[Ubi Soft]]
+|[[Personal computer|PC]], [[Mac (computer)|Mac]], [[Xbox (console)|Xbox]], [[PlayStation 2]], [[GameCube]]
+|<ref name=Maxim2011/>
+|- id=2002
+!scope="row" rowspan="5"|[[2002 in video games|2002]]
+|''[[Battlefield 1942]]''
+|[[Digital Illusions CE]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]]
+|<ref name=Paste2016/><ref name=GameSpot2004/><ref name=IGN2016/>
+|-
+|''[[Medal of Honor: Allied Assault]]''
+|[[2015 (company)|2015]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]], [[Mac (computer)|Mac]]
+|<ref name=Complex2014/>
+|-
+|''[[Medal of Honor: Frontline]]''
+|colspan="2"|[[Electronic Arts]]
+|[[PlayStation 2]], [[GameCube]], [[Xbox (console)|Xbox]]
+|<ref name=Paste2016/><ref name=VG2472024/>
+|-
+|''[[Metroid Prime]]''
+|[[Retro Studios]]
+|[[Nintendo]]
+|[[GameCube]]
+|{{efn-ua|''[[Metroid Prime]]'': <ref name=Paste2016/><ref name=Thrillist2016/> ''Remastered'': <ref name=GSpot2026/>}}
+|-
+|''[[TimeSplitters 2]]''
+|[[Free Radical Design]]
+|[[Eidos Interactive]]
+|[[PlayStation 2]], [[Xbox (console)|Xbox]], [[GameCube]]
+| {{efn-ua|''[[TimeSplitters 2]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=City2016/><ref name=Complex2014/><ref name=VG2472024/>}}
+|- id=2003
+!scope="row"|[[2003 in video games|2003]]
+|''[[Call of Duty (video game)|Call of Duty]]''
+|[[Infinity Ward]]
+|[[Activision]]
+|[[Personal computer|PC]]
+|{{efn-ua|''[[Call of Duty (video game)|Call of Duty]]'': <ref name=Paste2016/><ref name=DenofGeek2023/><ref name=Complex2014/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/`3|title=Call of Duty (2003)|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|- id=2004
+!scope="row" rowspan="4"|[[2004 in video games|2004]]
+|''[[The Chronicles of Riddick: Escape From Butcher Bay]]''
+|[[Starbreeze Studios]]
+|[[Vivendi Universal Games]]
+|[[Xbox (console)|Xbox]]
+|<ref name=Paste2016/><ref name=Thrillist2016/>
+|-
+|''[[Far Cry (video game)|Far Cry]]''
+|[[Crytek]]
+|[[Ubisoft]]
+|[[Personal computer|PC]]
+|<ref name=Complex2014/>
+|-
+|''[[Half-Life 2]]''
+|colspan="2"|[[Valve Corporation|Valve]]
+|[[Personal computer|PC]]
+| {{efn-ua|''[[Half-Life 2]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=Complex2017/><ref name=DenofGeek2023/><ref name=DigitalTrends2025/><ref name=Complex2014/><ref name=Thrillist2016/><ref name=City2016/><ref name=Maxim2011/><ref name=VG2472024/><ref name=GamesRadar2026/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/11|title=Half-Life 2|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|-
+|''[[Halo 2]]''
+|[[Bungie]]
+|[[Microsoft Game Studios]]
+|[[Xbox 360]]
+|<ref name=Paste2016/><ref name=Complex2014/><ref name=IGN2016/>
+|- id=2005
+!scope="row" rowspan="8"|[[2005 in video games|2005]]
+|''[[Battlefield 2]]''
+|[[Digital Illusions CE]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]]
+|<ref name=Complex2014/>
+|-
+|''[[Black (video game)|Black]]''
+|[[Criterion Games]]
+|[[Electronic Arts]]
+|[[PlayStation 2]], [[Xbox (console)|Xbox]]
+|<ref name=Complex2014/>
+|-
+|''[[Brothers in Arms: Road to Hill 30]]''
+|[[Gearbox Software]]
+|[[Ubisoft]]
+|[[Personal computer|PC]], [[Xbox (console)|Xbox]], [[PlayStation 2]]
+|<ref name=Complex2014/>
+|-
+|''[[F.E.A.R. (video game)|F.E.A.R.]]''
+|[[Monolith Productions]]
+|[[Vivendi Universal Games]]
+|[[Personal computer|PC]]
+|{{efn-ua|''[[F.E.A.R. (video game)|F.E.A.R.]]'': <ref name=Paste2016/><ref name=DenofGeek2023/><ref name=Thrillist2016/><ref name=VG2472024/><ref name=Complex2014/>}}
+|-
+|''[[Killer7]]''
+|colspan="2"|[[Capcom]]
+|[[GameCube]], [[PlayStation 2]]
+|<ref name=Complex2014/>
+|-
+|''[[Star Wars: Battlefront II (2005 video game)|Star Wars: Battlefront II]]''
+|[[Pandemic Studios]]
+|[[LucasArts]]
+|[[Personal computer|PC]], [[PlayStation 2]], [[PlayStation Portable]], [[Xbox (console)|Xbox]]
+|<ref name=Paste2016/>
+|-
+|''[[SWAT 4]]''
+|[[Irrational Games]]
+|[[Sierra Entertainment]]
+|[[Personal computer|PC]]
+| <ref name=Shortlist2016/><ref name=DenofGeek2023/><ref name=City2016/>
+|-
+|''[[TimeSplitters: Future Perfect]]''
+|[[Free Radical Design]]
+|[[Electronic Arts]]
+|[[GameCube]], [[PlayStation 2]], [[Xbox (console)|Xbox]]
+|<ref name=DenofGeek2023/>
+|- id=2006
+!scope="row" rowspan="3"|[[2006 in video games|2006]]
+|''[[Resistance: Fall of Man]]''
+|[[Insomniac Games]]
+|[[Sony Computer Entertainment]]
+|[[PlayStation 3]]
+|<ref name=Complex2014/>
+|-
+|''[[Tom Clancy's Ghost Recon Advanced Warfighter]]''
+|colspan="2"|[[Ubisoft]]
+|[[Personal computer|PC]], [[Xbox 360]], [[Xbox (console)|Xbox]], [[PlayStation 2]]
+|<ref name=Complex2014/>
+|-
+|''[[Tom Clancy's Rainbow Six: Vegas]]''
+|colspan="2"|[[Ubisoft]]
+|[[Personal computer|PC]], [[Xbox 360]]
+|<ref name=Complex2014/><ref name=Thrillist2016/>
+|- id=2007
+!scope="row" rowspan="8"|[[2007 in video games|2007]]
+|''[[BioShock]]''
+|colspan="2"|[[2K (company)|2K]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+| {{efn-ua|''[[Bioshock]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=City2016/><ref name=DenofGeek2023/><ref name=DigitalTrends2025/><ref name=LaptopMag2022/><ref name=AVClub2014/><ref name=VG2472024/><ref name=Complex2014/><ref name=Thrillist2016/><ref name=IGN2016/>}}
+|-
+|''[[Call of Duty 4: Modern Warfare]]''
+|[[Infinity Ward]]
+|[[Activision]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|{{efn-ua|''[[Call of Duty 4: Modern Warfare]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=City2016/><ref name=DenofGeek2023/><ref name=AVClub2014/><ref name=Complex2014/><ref name=Thrillist2016/><ref name=IGN2016/>}}
+|-
+|''[[Crysis (video game)|Crysis]]''
+|[[Crytek]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]]
+|<ref name=VG2472024/>
+|-
+|''[[The Darkness (video game)|The Darkness]]''
+|[[Starbreeze Studios]]
+|[[2K (company)|2K]]
+|[[Xbox 360]], [[PlayStation 3]]
+|<ref name=Paste2016/>
+|-
+|''[[Halo 3]]'' 
+|[[Bungie]]
+|[[Microsoft Game Studios]]
+|[[Xbox 360]]
+|{{efn-ua|''[[Halo 3]]'': <ref name=Shortlist2016/><ref name=DenofGeek2023/><ref name=LaptopMag2022/><ref name=City2016/>}}
+|-
+|''[[Portal (video game)|Portal]]''
+|colspan="2"|[[Valve Corporation|Valve]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|<ref name=Paste2016/><ref name=Complex2014/><ref name=Thrillist2016/>
+|-
+|''[[S.T.A.L.K.E.R.: Shadow of Chernobyl]]''
+|colspan="2"|[[GSC Game World]]
+|[[Personal computer|PC]]
+|<ref name=Paste2016/>
+|-
+|''[[Team Fortress 2]]''
+|colspan="2"|[[Valve Corporation|Valve]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|{{efn-ua|''[[Team Fortress 2]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=GSpot2026/><ref name=City2016/><ref name=DenofGeek2023/><ref name=DigitalTrends2025/><ref name=Complex2014/><ref name=VG2472024/><ref name=IGN2016/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/9|title=Team Fortress 2|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|- id=2008
+!scope="row" rowspan="5"|[[2008 in video games|2008]]
+|''[[Fallout 3]]''
+|colspan="2"|[[Bethesda Softworks]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|<ref name=Paste2016/>
+|-
+|''[[Far Cry 2]]''
+|colspan="2"|[[Ubisoft]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|<ref name=Paste2016/><ref name=DenofGeek2023/><ref name=AVClub2014/>
+|-
+|''[[Left 4 Dead]]''
+|colspan="2"|[[Valve Corporation|Valve]]
+|[[Personal computer|PC]], [[Xbox 360]]
+|{{efn-ua|''[[Left 4 Dead]]'': <ref name=Complex2014/><ref name=Paste2016/><ref name=Thrillist2016/><ref name=AVClub2014/>}}
+|-
+|''[[Mirror's Edge]]''
+|[[DICE (company)|DICE]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]], [[PlayStation 3]], [[Xbox 360]]
+|<ref name=Complex2014/><ref name=Thrillist2016/>
+|-
+|''[[Tom Clancy's Rainbow Six: Vegas 2]]''
+|colspan="2"|[[Ubisoft]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|<ref name=DenofGeek2023/>
+|- id=2009
+!scope="row" rowspan="4"|[[2009 in video games|2009]]
+|''[[Arma 2]]''
+|colspan="2"|[[Bohemia Interactive]]
+|[[Personal computer|PC]]
+|<ref name=VG2472024/>
+|-
+|''[[Borderlands (video game)|Borderlands]]''
+|[[Gearbox Software]]
+|[[2K (company)|2K]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|<ref name=Complex2014/>
+|-
+|''[[Call of Duty: Modern Warfare 2]]''
+|[[Infinity Ward]]
+|[[Activision]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|<ref name=Complex2017/>
+|-
+|''[[Left 4 Dead 2]]''
+|colspan="2"|[[Valve Corporation|Valve]]
+|[[Personal computer|PC]], [[Xbox 360]]
+|{{efn-ua|''[[Left 4 Dead 2]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=City2016/><ref name=DenofGeek2023/><ref name=DigitalTrends2025/><ref name=VG2472024/><ref name=IGN2016/><ref name=TechRadar2025/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/16|title=Left 4 Dead 2|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|- id=2010
+!scope="row" rowspan="5"|[[2010 in video games|2010]]
+|''[[Battlefield: Bad Company 2]]''
+|[[DICE (company)|DICE]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]], [[PlayStation 3]], [[Xbox 360]], [[iOS]], [[Android (operating system)|Android]], [[Kindle Fire]]
+|<ref name=DenofGeek2023/><ref name=Complex2014/>
+|-
+|''[[Bioshock 2]]''
+|colspan="2"|[[2K (company)|2K]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|<ref name=Paste2016/>
+|-
+|''[[Call of Duty: Black Ops]]''
+|[[Treyarch]]
+|[[Activision]]
+|[[PlayStation 3]], [[Personal computer|PC]], [[Nintendo DS]], [[Wii]], [[Xbox 360]]
+|<ref name=Paste2016/>
+|-
+|''[[MAG (video game)|MAG]]''
+|[[Zipper Interactive]]
+|[[Sony Computer Entertainment]]
+|[[PlayStation 3]]
+|<ref name=Complex2014/>
+|-
+|''[[Metro 2033 (video game)|Metro 2033]]''
+|[[4A Games]]
+|[[THQ]]
+|[[Personal computer|PC]], [[Xbox 360]]
+|{{efn-ua|''[[Metro 2033 (video game)|Metro 2033]]'': <ref name=Paste2016/><ref name=DenofGeek2023/><ref name=Complex2014/><ref name=Thrillist2016/>, ''Redux'': <ref name=VG2472024/>}}
+|- id=2011
+!scope="row" rowspan="4"|[[2011 in video games|2011]]
+|''[[Battlefield 3]]''
+|[[DICE (company)|DICE]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+| <ref name=Paste2016/><ref name=Shortlist2016/><ref name=City2016/>
+|-
+|''[[Bulletstorm]]''
+|[[Epic Games]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|{{efn-ua|<ref name=Complex2014/><ref name=Thrillist2016/><ref name=VG2472024/> ''Full Clip Edition'': <ref name=GamesRadar2026/>}}
+|-
+|''[[Deus Ex: Human Revolution]]''
+|[[Eidos-Montréal]]
+|[[Square Enix]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|<ref name=LaptopMag2022/><ref name=VG2472024/>
+|-
+|''[[Portal 2]]''
+|colspan="2"|[[Valve Corporation|Valve]]
+|[[Personal computer|PC]], [[Mac (computer)|Mac]]
+| <ref name=Paste2016/><ref name=DigitalTrends2025/>
+|- id=2012
+!scope="row" rowspan="7"|[[2012 in video games|2012]]
+|''[[Borderlands 2]]''
+|[[Gearbox Software]]
+|[[2K (company)|2K]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]], [[Mac (computer)|Mac]]
+|{{efn-ua|''[[Borderlands 2]]'': <ref name=Paste2016/><ref name=Shortlist2016/><ref name=Thrillist2016/><ref name=City2016/><ref name=DenofGeek2023/><ref name=DigitalTrends2025/><ref name=VG2472024/><ref name=PCGamer2026/>}}
+|-
+|''[[Counter-Strike: Global Offensive]]''
+|colspan="2"|[[Valve Corporation|Valve]]
+|[[Mac (computer)|Mac]], [[Personal computer|PC]], [[PlayStation 3]], [[Xbox 360]]
+|<ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/5|title=
+Counter-Strike: Global Offensive|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>
+|-
+|''[[Dishonored]]'' 
+|[[Arkane Studios]]
+|[[Bethesda Softworks]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|{{efn-ua|''[[Dishonored]]'': <ref name=Shortlist2016/><ref name=LaptopMag2022/><ref name=Thrillist2016/><ref name=VG2472024/><ref name=City2016/>}}
+|-
+|''[[Far Cry 3]]''
+|colspan="2"|[[Ubisoft]]
+|[[Personal computer|PC]], [[Xbox 360]], [[PlayStation 3]]
+|<ref name=DigitalTrends2025/><ref name=Complex2014/><ref name=Thrillist2016/>
+|-
+|''[[Halo 4]]''
+|[[343 Industries]]
+|[[Microsoft Studios]]
+|[[Xbox 360]]
+|<ref name=Thrillist2016/>
+|-
+|''[[Planetside 2]]''
+|[[Toadman Interactive]]
+|[[Sony Online Entertainment]]
+|[[Personal computer|PC]]
+|<ref name=Shortlist2016/><ref name=Complex2014/><ref name=City2016/>
+|-
+|''[[ZombiU]]''
+|colspan="2"|[[Ubisoft]]
+|[[Wii U]]
+|<ref name=Paste2016/><ref name=Complex2014/>
+|- id=2013
+!scope="row" rowspan="4"|[[2013 in video games|2013]]
+|''[[Bioshock Infinite]]''
+|[[Irrational Games]]
+|[[2K (company)|2K]]
+|[[PlayStation 3]], [[Personal computer|PC]], [[Xbox 360]]
+|<ref name=Paste2016/>
+|-
+|''[[Call of Juarez: Gunslinger]]''
+|[[Techland]]
+|[[Ubisoft]]
+|[[Personal computer|PC]], [[PlayStation 3]], [[Xbox 360]]
+|<ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/2|title=Call of Juarez: Gunslinger|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>
+|-
+|''[[Metro: Last Light]]''
+|[[4A Games]]
+|[[Deep Silver]]
+|[[Personal computer|PC]], [[PlayStation 3]], [[Xbox 360]]
+|{{efn-ua|''[[Metro: Last Light]]'': <ref name=Paste2016/> ''Redux'': <ref name=GSpot2026/>}}
+|-
+|''[[Payday 2]]''
+|[[Overkill Software]]
+|[[505 Games]]
+|[[PlayStation 3]], [[Personal computer|PC]], [[Xbox 360]]
+|<ref name=DigitalTrends2025/><ref name=VG2472024/>
+|- id=2014
+!scope="row" rowspan="8"|[[2014 in video games|2014]]
+|''[[Alien: Isolation]]''
+|[[Creative Assembly]]
+|[[Sega]]
+|[[PlayStation 3]], [[PlayStation 4]], [[Personal computer|PC]], [[Xbox 360]], [[Xbox One]]
+|<ref name=VG2472024/>
+|-
+|''[[Destiny (video game)|Destiny]]''
+|[[Bungie]]
+|[[Activision]]
+|[[PlayStation 3]], [[Personal computer|PC]], [[Xbox 360]]
+|<ref name=Paste2016/>
+|-
+|''[[Far Cry 4]]'' 
+|colspan="2"|[[Ubisoft]]
+|[[Personal computer|PC]], [[PlayStation 3]], [[PlayStation 4]], [[Xbox 360]], [[Xbox One]]
+|<ref name=Shortlist2016/><ref name=City2016/><ref name=GSpot2026/>
+|-
+|''[[Firefall (video game)|Firefall]]''
+|colspan="2"|Red 5 Studios
+|[[Personal computer|PC]]
+|<ref name=Complex2014/>
+|-
+|''[[Halo: The Master Chief Collection]]''
+|[[343 Industries]]
+|[[Xbox Game Studios]]
+|[[Xbox One]]
+|{{efn-ua|''[[Halo: The Master Chief Collection]]'': <ref name=DigitalTrends2025/><ref name=GSpot2026/><ref name=PCGamer2026/><ref name=VG2472024/><ref name=GamesRadar2026/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/17|title=Halo: The Master Chief Collection|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|-
+|''[[Insurgency (video game)|Insurgency]]''
+|colspan="2"|[[New World Interactive]]
+|[[Personal computer|PC]], [[Mac (computer)|Mac]], [[Linux]]
+|<ref name=VG2472024/>
+|-
+|''[[Titanfall (video game)|Titanfall]]''
+|[[Respawn Entertainment]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]], [[Xbox One]]
+|<ref name=Paste2016/><ref name=Complex2014/>
+|-
+|''[[Wolfenstein: The New Order]]''
+|[[MachineGames]]
+|[[Bethesda Softworks]]
+|[[PlayStation 3]], [[PlayStation 4]], [[Personal computer|PC]], [[Xbox 360]], [[Xbox One]]
+|{{efn-ua|''[[Wolfenstein: The New Order]]'': <ref name=Paste2016/><ref name=GSpot2026/><ref name=VG2472024/><ref name=Thrillist2016/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/10|title=Wolfenstein: The New Order|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|- id=2015
+!scope="row" rowspan="2"|[[2015 in video games|2015]]
+|''[[Dying Light]]''
+|[[Techland]]
+|[[Warner Bros. Interactive Entertainment]]
+|[[Personal computer|PC]], [[Linux]], [[PlayStation 4]], [[Xbox One]]
+|<ref name=Thrillist2016/><ref name=VG2472024/>
+|-
+|''[[Tom Clancy's Rainbow Six Siege]]''
+|colspan="2"|[[Ubisoft]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Xbox One]]
+|{{efn-ua|''[[Tom Clancy's Rainbow Six Siege]]'': <ref name=DigitalTrends2025/><ref name=PCGamer2026/><ref name=TechRadar2025/><ref name=GamesRadar2026/>}}
+|- id=2016
+!scope="row" rowspan="6"|[[2016 in video games|2016]]
+|''[[Battlefield 1]]''
+|[[DICE (company)|DICE]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Xbox One]]
+|<ref name=DigitalTrends2025/><ref name=GamesRadar2026/>
+|-
+|''[[Doom (2016 video game)|Doom]]''
+|[[id Software]]
+|[[Bethesda Softworks]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Xbox One]]
+|{{efn-ua|''[[Doom (2016 video game)|Doom]]'' (2016):<ref name=DenofGeek2023/><ref name=DigitalTrends2025/><ref name=Thrillist2016/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/8|title=Doom (2016)|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|-
+|''[[Killing Floor 2]]''
+|colspan="2"|[[Tripwire Interactive]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Xbox One]]
+|<ref name=GSpot2026/><ref name=VG2472024/>
+|-
+|''[[Overwatch (2016 video game)|Overwatch]]''
+|colspan="2"|[[Bizarre Entertainment]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Xbox One]]
+|<ref name=Complex2017/><ref name=LaptopMag2022/>
+|-
+|''[[Superhot]]''
+|colspan="2"|Superhot Team
+|[[Personal computer|PC]], [[Mac (computer)|Mac]], [[Linux]]
+|{{efn-ua|''[[Superhot]]'': <ref name=DenofGeek2023/><ref name=GSpot2026/><ref name=AVClub2014/><ref name=VG2472024/><ref name=TechRadar2025/><ref name=GamesRadar2026/>}}
+|-
+|''[[Titanfall 2]]''
+|[[Respawn Entertainment]]
+|[[Electronic Arts]]
+|[[PlayStation 4]], [[Personal computer|PC]], [[Xbox One]]
+|{{efn-ua|''[[Titanfall 2]]'': <ref name=DenofGeek2023/><ref name=DigitalTrends2025/><ref name=GSpot2026/><ref name=NME2023/><ref name=PCGamer2026/><ref name=VG2472024/><ref name=TechRadar2025/><ref name=GamesRadar2026/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/7|title=Titanfall 2|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|- id=2017
+!scope="row" rowspan="5"|[[2017 in video games|2017]]
+|''[[Destiny 2]]''
+|[[Bungie]]
+|[[Activision]]
+|[[PlayStation 4]], [[Xbox One]], [[Personal computer|PC]]
+|{{efn-ua|''[[Destiny 2]]'': <ref name=DigitalTrends2025/><ref name=GSpot2026/><ref name=PCGamer2026/><ref name=VG2472024/><ref name=TechRadar2025/><ref name=GamesRadar2026/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/4|title=Destiny 2|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|-
+|''[[Escape from Tarkov]]''{{efn|Official version released in 2025, with its beta first released in 2017.}}
+|colspan="2"|Battlestate Games
+|[[Personal computer|PC]]
+|<ref name=NME2023/><ref name=VG2472024/><ref name=TechRadar2025/>
+|-
+|''[[Prey (2017 video game)|Prey]]''
+|[[Arkane Studios]]
+|[[Bethesda Softworks]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Xbox One]]
+|<ref name=DigitalTrends2025/><ref name=Thrillist2016/><ref name=VG2472024/>
+|-
+|''[[PUBG: Battlegrounds]]''
+|[[PUBG Studios]]
+|[[Krafton]]
+|[[Personal computer|PC]]
+|<ref name=VG2472024/><ref name=GamesRadar2026/>
+|-
+|''[[Wolfenstein II: The New Colossus]]''
+|[[MachineGames]]
+|[[Bethesda Softworks]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Xbox One]]
+|{{efn-ua|''[[Wolfenstein II: The New Colossus]]'': <ref name=DenofGeek2023/><ref name=LaptopMag2022/><ref name=TechRadar2025/><ref name=GamesRadar2026/>}}
+|- id=2018
+!scope="row" rowspan="2"|[[2018 in video games|2018]]
+|''[[Deep Rock Galactic]]''{{efn|''Deep Rock Galactic''{{'}}s official release was in 2020, as 2018 was its early access date.}}
+|[[Ghost Ship Games]]
+|[[Coffee Stain Publishing]]
+|[[Personal computer|PC]]
+|<ref name=PCGamer2026/><ref name=VG2472024/>
+|-
+|''[[Dusk (video game)|Dusk]]''
+|[[David Szymanski]]
+|[[New Blood Interactive]]
+|[[Personal computer|PC]]
+|{{efn-ua|''[[Dusk (video game)|Dusk]]'': <ref name=DenofGeek2023/><ref name=VG2472024/><ref name=TechRadar2025/><ref name=GamesRadar2026/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/6|title=Dusk|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|- id=2019
+!scope="row" rowspan="4"|[[2019 in video games|2019]]
+|''[[Apex Legends]]''
+|[[Respawn Entertainment]]
+|[[Electronic Arts]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Xbox One]]
+|{{efn-ua|''[[Apex Legends]]'': <ref name=DigitalTrends2025/><ref name=NME2023/><ref name=VG2472024/><ref name=GamesRadar2026/>}}
+|-
+|''[[Hunt: Showdown 1896]]''
+|colspan="2"|[[Crytek]]
+|[[Personal computer|PC]], [[Xbox One]], [[PlayStation 4]]
+|{{efn-ua|''[[Hunt: Showdown 1896]]'': <ref name=GSpot2026/><ref name=VG2472024/><ref name=PCGamer2026/><ref name=TechRadar2025/>}}
+|-
+|''[[Metro Exodus]]''
+|[[4A Games]]
+|[[Deep Silver]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Xbox One]]
+|{{efn-ua|''[[Metro Exodus]]'': <ref name=DigitalTrends2025/><ref name=GSpot2026/><ref name=VG2472024/><ref name=PCGamer2026/><ref name=GamesRadar2026/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/15|title=Metro Exodus|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|-
+|''[[Splitgate]]''{{efn|2022 was ''Splitgate''{{'}}s official release year, as 2019 was its early access year.}}
+|colspan="2"|1047 Games
+|[[Personal computer|PC]]
+|<ref name=VG2472024/>
+|- id=2020
+!scope="row" rowspan="8"|[[2020 in video games|2020]]
+|''[[Black Mesa (video game)|Black Mesa]]''
+|colspan="2"|Crowbar Interactive
+|[[Personal computer|PC]], [[Linux]]
+|{{efn-ua|''[[Black Mesa (video game)|Black Mesa]]'': <ref name=LaptopMag2022/><ref name=GSpot2026/><ref name=PCGamer2026/><ref name=VG2472024/><ref name=GamesRadar2026/>}}
+|-
+|''[[Call of Duty: Warzone (2020 video game)|Call of Duty: Warzone]]''
+|[[Raven Software]]
+|[[Activision]]
+|[[Personal computer|PC]], [[Xbox One]], [[PlayStation 4]]
+|<ref name=GSpot2026/>
+|-
+|''[[Cyberpunk 2077]]''
+|colspan="2"|[[CD Projekt]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Google Stadia|Stadia]], [[Xbox One]]
+|<ref name=DigitalTrends2025/>
+|-
+|''[[Doom Eternal]]''
+|[[id Software]]
+|[[Bethesda Softworks]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Google Stadia|Stadia]]. [[Xbox One]]
+|{{efn-ua|''[[Doom Eternal]]'': <ref name=LaptopMag2022/><ref name=NME2023/><ref name=GSpot2026/><ref name=VG2472024/><ref name=PCGamer2026/><ref name=TechRadar2025/><ref name=GamesRadar2026/>}}
+|-
+|''[[Ghostrunner]]''
+|One More Level
+|[[505 Games]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[Xbox One]], [[Nintendo Switch]]
+|<ref name=GSpot2026/>
+|-
+|''[[Half-Life: Alyx]]''
+|colspan="2"|[[Valve Corporation|Valve]]
+|[[Personal computer|PC]], [[Linux]]
+|<ref name=GSpot2026/><ref name=TechRadar2025/><ref name=GamesRadar2026/>
+|-
+|''[[Ultrakill]]''
+|Hakita
+|[[New Blood Interactive]]
+|[[Personal computer|PC]]
+|<ref name=GSpot2026/><ref name=VG2472024/><ref name=PCGamer2026/>
+|-
+|''[[Valorant]]''
+|colspan="2"|[[Riot Games]]
+|[[Personal computer|PC]]
+|{{efn-ua|''[[Valorant]]'': <ref name=DigitalTrends2025/><ref name=GSpot2026/><ref name=NME2023/><ref name=VG2472024/><ref name=TechRadar2025/><ref name=GamesRadar2026/>}}
+|- id=2021
+!scope="row" rowspan="5"|[[2021 in video games|2021]]
+|''[[Back 4 Blood]]''
+|[[Turtle Rock Studios]]
+|[[Warner Bros. Games]]
+|[[PlayStation 4]], [[PlayStation 5]], [[Personal computer|PC]], [[Xbox One]], [[Xbox Series X/S]]
+|<ref name=VG2472024/>
+|-
+|''[[Deathloop]]''
+|[[Arkane Lyon]]
+|[[Bethesda Softworks]]
+|[[Personal computer|PC]], [[PlayStation 5]], [[Xbox Series X/S]]
+|{{efn-ua|''[[Deathloop]]'': <ref name=DigitalTrends2025/><ref name=GSpot2026/><ref name=VG2472024/><ref name=TechRadar2025/>}}
+|-
+|''[[Far Cry 6]]''
+|colspan="2"|[[Ubisoft]]
+|[[PlayStation 4]], [[PlayStation 5]], [[Google Stadia|Stadia]], [[Personal computer|PC]], [[Xbox One]], [[Xbox Series X/S]]
+|<ref name=VG2472024/><ref name=GamesRadar2026/>
+|-
+|''[[Halo Infinite]]''
+|[[343 Industries]]
+|[[Xbox Game Studios]]
+|[[Personal computer|PC]], [[Xbox One]], [[Xbox Series X/S]]
+|<ref name=PCGamer2026/><ref name=TechRadar2025/>
+|-
+|''[[Resident Evil Village]]''
+|colspan="2"|[[Capcom]]
+|[[PlayStation 4]], [[PlayStation 5]], [[Google Stadia|Stadia]], [[Personal computer|PC]], [[Xbox One]], [[Xbox Series X/S]]
+|<ref name=DigitalTrends2025/><ref name=VG2472024/>
+|- id=2022
+!scope="row" rowspan="7"|[[2022 in video games|2022]]
+| ''[[Call of Duty: Modern Warfare 2 (2022 video game)|Call of Duty: Modern Warfare 2]]''
+| [[Infinity Ward]]
+| [[Activision]]
+| [[PlayStation 4]], [[PlayStation 5]], [[Personal computer|PC]], [[Xbox One]], [[Xbox Series X/S]]
+| <ref name=NME2023/><ref name=VG2472024/>
+|-
+|''[[Call of Duty: Warzone 2.0]]''
+|[[Infinity Ward]]
+|[[Activision]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[PlayStation 5]], [[Xbox One]], [[Xbox Series X/S]]
+|<ref name=DigitalTrends2025/><ref name=VG2472024/><ref name=GamesRadar2026/>
+|-
+|''[[Metal: Hellsinger]]''
+|The Outsiders
+|[[Funcom]]
+|[[Personal computer|PC]], [[PlayStation 5]], [[Xbox Series X/S]], [[PlayStation 4]], [[Xbox One]]
+|<ref name=DigitalTrends2025/><ref name=NME2023/>
+|-
+|''[[Neon White]]''
+|Angel Matrix
+|[[Annapruna Interactive]]
+|[[Personal computer|PC]], [[Nintendo Switch]], [[PlayStation 4]], [[PlayStation 5]]
+|<ref name=GSpot2026/><ref name=VG2472024/><ref name=PCGamer2026/>
+|-
+|''[[PowerWash Simulator]]''
+|FuturLab
+|[[Square Enix Collective]]
+|[[Personal computer|PC]], [[Xbox One]], [[Xbox Series X/S]]
+|<ref name=GSpot2026/>
+|-
+|''[[Prodeus]]''
+|Bounding Box Software
+|[[Humble Games]]
+|[[Mac (computer)|Mac]], [[Personal computer|PC]], [[Nintendo Switch]], [[PlayStation 4]], [[PlayStation 5]], [[Xbox One]], [[Xbox Series X/S]]
+|<ref name=NME2023/>
+|-
+|''[[Warhammer 40,000: Darktide]]''
+|colspan="2"|[[Fatshark]]
+|[[Personal computer|PC]]
+|<ref name=PCGamer2026/><ref name=GamesRadar2026/>
+|- id=2023
+!scope="row" rowspan="6"|[[2023 in video games|2023]]
+|''[[Counter-Strike 2]]''
+|colspan="2"|[[Valve Corporation|Valve]]
+|[[Personal computer|PC]], [[Linux]]
+|{{efn-ua|''[[Counter Strike 2]]'': <ref name=DigitalTrends2025/><ref name=GSpot2026/><ref name=PCGamer2026/><ref name=VG2472024/><ref name=TechRadar2025/><ref name=GamesRadar2026/>}}
+|-
+|''[[The Finals]]''
+|colspan="2"|[[Embark Studios]]
+|[[Personal computer|PC]], [[Xbox Series X/S]], [[PlayStation 5]]
+|<ref name=PCGamer2026/><ref name=VG2472024/>
+|-
+|''[[Ghostrunner 2]]''
+|One More Level
+|[[505 Games]]
+|[[Personal computer|PC]], [[PlayStation 5]], [[Xbox Series X/S]]
+|<ref name=GSpot2026/>
+|-
+|''[[Overwatch 2]]''
+|colspan="2"|[[Blizzard Entertainment]]
+|[[Nintendo Switch]], [[PlayStation 4]], [[PlayStation 5]], [[Personal computer|PC]], [[Xbox One]], [[Xbox Series X/S]]
+|{{efn-ua|''[[Overwatch 2]]'': <ref name=DigitalTrends2025/><ref name=VG2472024/><ref name=PCGamer2026/><ref>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369/14|title=Overwatch 2|website=[[Kotaku]]|access-date=June 4, 2026}}</ref>}}
+|-
+|''[[System Shock (2023 video game)|System Shock]]''
+|[[Nightdive Studios]]
+|[[Prime Matter]]
+|[[Personal computer|PC]]
+|<ref name=PCGamer2026/>
+|-
+|''Turbo Overkill''
+|Trigger Happy Interactive
+|[[Apogee Entertainment]]
+|[[Personal computer|PC]], [[PlayStation 5]], [[Xbox Series X/S]]
+|<ref name=PCGamer2026/>
+|- id=2024
+!scope="row" rowspan="5"|[[2024 in video games|2024]]
+|''[[Call of Duty: Black Ops 6]]''
+|[[Treyarch]]
+|[[Activision]]
+|[[Personal computer|PC]], [[PlayStation 4]], [[PlayStation 5]], [[Xbox One]], [[Xbox Series X/S]]
+|<ref name=TechRadar2025/><ref name=GamesRadar2026/>
+|-
+|''Echo Point Nova''
+| colspan="2"| Greylock Studio
+|[[Personal computer|PC]]
+|<ref name=GSpot2026/><ref name=PCGamer2026/>
+|-
+|''[[I Am Your Beast]]''
+|colspan="2"|Strange Scaffold
+|[[Personal computer|PC]], [[iOS]]
+|<ref name=GSpot2026/><ref name=GamesRadar2026/>
+|-
+|''[[Straftat]]''
+|colspan="2"|Lemaitre Bros
+|[[Personal computer|PC]], [[Linux]], [[Mac (computer)|Mac]]
+|<ref name=PCGamer2026/>
+|-
+|''[[S.T.A.L.K.E.R. 2: Heart of Chornobyl]]''
+|colspan="2"|[[GSC Game World]]
+|[[Personal computer|PC]], [[Xbox Series X/S]]
+|<ref name=PCGamer2026/>
+|- id=2025
+!scope="row" rowspan="4"|[[2025 in video games|2025]]
+|''[[Battlefield 6]]''
+|Battlefield Studios
+|[[Electronic Arts]]
+|[[Personal computer|PC]], [[PlayStation 5]], [[Xbox Series X/S]]
+|{{efn-ua|''[[Battlefield 6]]'': <ref name=GSpot2026/><ref name=PCGamer2026/><ref name=TechRadar2025/><ref name=GamesRadar2026/>}}
+|-
+|''[[Borderlands 4]]''
+|[[Gearbox Software]]
+|[[2K (company)|2K]]
+|[[Personal computer|PC]], [[PlayStation 5]], [[Xbox Series X/S]]
+|<ref name=TechRadar2025/><ref name=GamesRadar2026/>
+|-
+|''[[Doom: The Dark Ages]]''
+|[[id Software]]
+|[[Bethesda Softworks]]
+|[[Personal computer|PC]], [[PlayStation 5]], [[Xbox Series X/S]]
+|<ref name=GSpot2026/><ref name=TechRadar2025/>
+|-
+|''Mycopunk''
+|Pigeons at Play
+|[[Developer Digital]]
+|[[Personal computer|PC]]
+|<ref name=PCGamer2026/>
+|}
+
+== Publications ==
+For instances of at least four citations, reference numbers in the [[#Notes|notes section]] show which of the following publications list the game.
+{{div col|colwidth=30em}}
+*''[[The A.V. Club]]'' – 2014<ref name=AVClub2014>{{cite web|last=Lindsey|first=Patrick|date=September 22, 2014|url=https://www.avclub.com/10-best-shooters|title=The 10 Best First-Person Shooters|website=[[The A.V. Club]]|access-date=June 4, 2026}}</ref>
+*''City'' – 2018<ref name=City2016>{{cite web|last=Pompe|first=Anže|url=https://citymagazine.si/en/the-best-first-person-shooter-video-games-of-all-time/|title=The best first-person shooter video games of all time|date=April 16, 2016|work=City|access-date=June 3, 2026}}</ref>
+*''[[Complex (website)|Complex]]'' – 2014,<ref name=Complex2014>{{cite magazine|url=http://uk.complex.com/pop-culture/the-50-best-first-person-shooters-of-all-time_563321/ |title=The 50 Best First Person Shooters Of All Time |magazine=[[Complex (magazine)|Complex]] |date=April 8, 2014 |access-date=June 4, 2026 |author1=Hester, Larry |author2=Freedman, Andrew |author3=Rubin, Peter |url-status=dead |archive-url=https://web.archive.org/web/20161019002509/http://uk.complex.com/pop-culture/the-50-best-first-person-shooters-of-all-time_563321/ |archive-date=October 19, 2016}}</ref> 2017<ref name=Complex2017>{{cite web|last=Turner|first=Gus|date=July 29, 2017|url=https://www.complex.com/pop-culture/a/gust/the-best-first-person-shooter-games-of-all-time|title=The Best First-Person Shooter Games of All Time|website=[[Complex (website)|Complex]]|access-date=June 4, 2026}}</ref>
+*''[[Den of Geek]]'' – 2023<ref name=DenofGeek2023>{{cite web|last1=Byrd|first1=Matthew|last2=Greenbaum|first2=Aaron|date=August 10, 2023|url=https://www.denofgeek.com/games/best-fps-games-ever-console-pc/|title=30 Best First-Person Shooter Games Ever Made|website=[[Den of Geek]]|access-date=June 4, 2026}}</ref>
+*''[[Digital Trends]]'' – 2025<ref name=DigitalTrends2025>{{cite web|last=Lennox|first=Jesse|date=February 6, 2025|url=https://www.digitaltrends.com/gaming/the-best-fps-games/|title=The best FPS games of all time|website=[[Digital Trends]]|access-date=June 4, 2026}}</ref>
+*''[[GameSpot]]'' – 2004<ref name=GameSpot2004>{{cite web|url=https://www.gamespot.com/articles/tenspot-top-ten-first-person-shooters/1100-6091340/|title=TenSpot: Top Ten First-Person Shooters|website=[[GameSpot]]|date=July 2, 2004|access-date=June 4, 2026}}</ref> 2026<ref name=GSpot2026>{{cite web|last=Hornshaw|first=Paul|date=January 6, 2026|url=https://www.gamespot.com/gallery/best-fps-games/2900-6265/#3|title=25 Best First-Person Shooters You Can’t Miss In 2026|website=[[GameSpot]]|access-date=June 4, 2026}}</ref>
+*''[[GamesRadar]]'' – 2026<ref name=GamesRadar2026>{{cite web|last=Meikleham|first=David|date=February 18, 2026|url=https://www.gamesradar.com/best-fps-games/|title=The 25 best FPS games to play in 2026|website=[[GamesRadar]]|access-date=June 5, 2026}}</ref>
+*''[[IGN]]'' – 2016<ref name=IGN2016>{{cite web|url=https://www.youtube.com/watch?v=_9rwPGkSmng|title=IGN's Top 10 FPS Games of All Time|work=[[IGN]]|date=June 27, 2016|access-date=June 4, 2026}}</ref>
+*''[[Kotaku]]'' – 2023<ref name=Kotaku2023>{{cite web|last=Walker|first=John|date=January 6, 2023|url=https://kotaku.com/best-shooters-fps-2013-ps5-xbox-pc-switch-free-ios-1849949369|title=The 16 Best First-Person Shooters You Can Play In 2023|website=[[Kotaku]]|access-date=June 3, 2026}}</ref>
+*''[[LaptopMag]]'' – 2022<ref name=LaptopMag2022>{{cite web|last=Tabari|first=Claire|date=June 19, 2022|url=https://www.laptopmag.com/features/the-8-greatest-first-person-shooters-ive-played-throughout-my-gaming-career|title=The 8 greatest first-person shooters I've played throughout my gaming career|work=[[LaptopMag]]|access-date=June 4, 2026}}</ref>
+*''[[Maxim (magazine)|Maxim]]'' – 2011<ref name=Maxim2011>{{cite web|url=https://www.maxim.com/entertainment/best-first-person-shooters/|title=Best First- Person Shooters|work=[[Maxim (magazine)|Maxim]]|date=October 6, 2011|access-date=June 4, 2026}}</ref>
+*''[[NME]]'' – 2023<ref name=NME2023>{{cite web|last=Tucker|first=Jake|date=January 13, 2023|url=https://www.nme.com/features/gaming-features/best-fps-games-2979649|title=Best FPS games: what’s the best shooter you can play in 2023?|work=[[NME]]|access-date=June 4, 2026}}</ref>
+*''[[Paste (magazine)|Paste]]'' – 2016<ref name=Paste2016>{{cite web|url=https://www.avclub.com/the-50-best-first-person-shooters-of-all-time|title=The 50 Best First-Person Shooters of All Time|website=[[Paste (magazine)|Paste]]|date=January 21, 2016|access-date=June 4, 2026}}</ref>
+*''[[PC Gamer]]'' – 2026<ref name=PCGamer2026>{{cite web|last=Park|first=Morgan|date=January 7, 2026|url=https://www.pcgamer.com/best-fps-games/|title=The best FPS games on PC|work=[[PC Gamer]]|access-date=June 4, 2026}}</ref>
+*''[[Shortlist (website)|Shortlist]]'' – 2016<ref name=Shortlist2016>{{cite web|last=Dransfield|first=Ian|date=April 2, 2016|url=https://www.shortlist.com/news/the-20-best-first-person-shooters-ever|title=The 20 best first-person shooters ever|website=[[Shortlist (website)|Shortlist]]|access-date=June 4, 2026}}</ref>
+*''[[TechRadar]]'' – 2025<ref name=TechRadar2025>{{cite web|last=Green|first=Jake|date=December 18, 2025|url=https://www.techradar.com/news/best-fps-games|title=Best FPS games: essential first-person shooters to play right now|website=[[TechRadar]]|access-date=June 5, 2026}}</ref>
+*''[[Thrillist]]'' – 2016<ref name=Thrillist2016>{{cite web|last=Monfette|first=Christopher|date=August 26, 2016|url=https://www.thrillist.com/entertainment/nation/best-first-person-shooter-games-since-goldeneye|title=The 21 Best First-Person Shooters Since N64's 'GoldenEye'|website=[[Thrillist]]|access-date=June 4, 2026}}</ref>
+*''[[USgamer]]'' – 2014<ref name=USgamer2014>{{cite web|url=https://www.vg247.com/the-best-classic-first-person-shooters|title=The Best Classic First-Person Shooters|website=[[USgamer]]|date=March 14, 2014|via=[[VG247]]|access-date=June 4, 2026}}</ref>
+*''[[VG247]]'' – 2024<ref name=VG2472024>{{cite web|last=Raynor|first=Kelsey|date=February 29, 2024|url=https://www.vg247.com/best-fps-games-now|title=The best FPS games to play in 2025|website=[[VG247]]|access-date=June 4, 2026}}</ref>
+{{div col end}}
+
+== Notes ==
+{{notelist}}
+=== Reference bundles ===
+{{notelist-ua}}
+
+== References ==
+{{reflist}}
+[[Category:First-person shooters]]

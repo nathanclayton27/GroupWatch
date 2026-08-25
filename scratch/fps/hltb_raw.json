@@ -1,0 +1,2125 @@
+{
+ "Wolfenstein 3D": [
+  {
+   "game_id": 11250,
+   "game_name": "Wolfenstein 3D",
+   "release_world": 1992,
+   "comp_main": 21902,
+   "comp_plus": 36082,
+   "comp_100": 40880
+  },
+  {
+   "game_id": 11251,
+   "game_name": "Wolfenstein 3D: Spear of Destiny",
+   "release_world": 1992,
+   "comp_main": 14184,
+   "comp_plus": 26970,
+   "comp_100": 30713
+  },
+  {
+   "game_id": 35939,
+   "game_name": "Wolfenstein 3D: Spear of Destiny - Mission 2: Return to Danger",
+   "release_world": 1994,
+   "comp_main": 9362,
+   "comp_plus": 11463,
+   "comp_100": 12581
+  },
+  {
+   "game_id": 35940,
+   "game_name": "Wolfenstein 3D: Spear of Destiny - Mission 3 - Ultimate Challenge",
+   "release_world": 1994,
+   "comp_main": 11603,
+   "comp_plus": 11263,
+   "comp_100": 14262
+  }
+ ],
+ "Doom": [
+  {
+   "game_id": 2708,
+   "game_name": "Doom",
+   "release_world": 2016,
+   "comp_main": 41674,
+   "comp_plus": 59181,
+   "comp_100": 97846
+  },
+  {
+   "game_id": 2701,
+   "game_name": "Doom",
+   "release_world": 1993,
+   "comp_main": 17975,
+   "comp_plus": 27070,
+   "comp_100": 35318
+  },
+  {
+   "game_id": 57506,
+   "game_name": "Doom Eternal",
+   "release_world": 2020,
+   "comp_main": 51899,
+   "comp_plus": 74288,
+   "comp_100": 107005
+  },
+  {
+   "game_id": 151986,
+   "game_name": "Doom: The Dark Ages",
+   "release_world": 2025,
+   "comp_main": 51391,
+   "comp_plus": 69550,
+   "comp_100": 88326
+  },
+  {
+   "game_id": 187186,
+   "game_name": "Doom: The Dark Ages - Revelations",
+   "release_world": 2026,
+   "comp_main": 23918,
+   "comp_plus": 36167,
+   "comp_100": 50550
+  },
+  {
+   "game_id": 2709,
+   "game_name": "Doom 64",
+   "release_world": 1997,
+   "comp_main": 25734,
+   "comp_plus": 33174,
+   "comp_100": 37948
+  },
+  {
+   "game_id": 2704,
+   "game_name": "Doom 3",
+   "release_world": 2004,
+   "comp_main": 39355,
+   "comp_plus": 47015,
+   "comp_100": 60594
+  },
+  {
+   "game_id": 2705,
+   "game_name": "Doom 3: BFG Edition",
+   "release_world": 2012,
+   "comp_main": 34608,
+   "comp_plus": 56838,
+   "comp_100": 136552
+  },
+  {
+   "game_id": 2711,
+   "game_name": "Doom II: Hell on Earth",
+   "release_world": 1994,
+   "comp_main": 25191,
+   "comp_plus": 35316,
+   "comp_100": 50717
+  },
+  {
+   "game_id": 2706,
+   "game_name": "Doom 3: Resurrection of Evil",
+   "release_world": 2005,
+   "comp_main": 14626,
+   "comp_plus": 18104,
+   "comp_100": 20825
+  },
+  {
+   "game_id": 35508,
+   "game_name": "Deponia Doomsday",
+   "release_world": 2016,
+   "comp_main": 39339,
+   "comp_plus": 44152,
+   "comp_100": 49824
+  },
+  {
+   "game_id": 5719,
+   "game_name": "Master Levels for Doom II",
+   "release_world": 1995,
+   "comp_main": 22283,
+   "comp_plus": 27306,
+   "comp_100": 38980
+  },
+  {
+   "game_id": 3478,
+   "game_name": "Final Doom",
+   "release_world": 1996,
+   "comp_main": 46770,
+   "comp_plus": 56392,
+   "comp_100": 65514
+  },
+  {
+   "game_id": 4384,
+   "game_name": "Hector: Badge of Carnage - Episode 3: Beyond Reasonable Doom",
+   "release_world": 2011,
+   "comp_main": 11328,
+   "comp_plus": 11798,
+   "comp_100": 13410
+  },
+  {
+   "game_id": 155106,
+   "game_name": "DOOM + DOOM II",
+   "release_world": 2024,
+   "comp_main": 43138,
+   "comp_plus": 94379,
+   "comp_100": 153569
+  },
+  {
+   "game_id": 101201,
+   "game_name": "DOOMBLADE",
+   "release_world": 2023,
+   "comp_main": 39942,
+   "comp_plus": 48157,
+   "comp_100": 53934
+  },
+  {
+   "game_id": 13900,
+   "game_name": "Deep Dungeons of Doom",
+   "release_world": 2014,
+   "comp_main": 20637,
+   "comp_plus": 38509,
+   "comp_100": 87492
+  },
+  {
+   "game_id": 81632,
+   "game_name": "Doom Eternal: The Ancient Gods - Part One",
+   "release_world": 2020,
+   "comp_main": 17764,
+   "comp_plus": 23348,
+   "comp_100": 26916
+  },
+  {
+   "game_id": 49066,
+   "game_name": "Doom VFR",
+   "release_world": 2017,
+   "comp_main": 11154,
+   "comp_plus": 15465,
+   "comp_100": 15850
+  },
+  {
+   "game_id": 81633,
+   "game_name": "Doom Eternal: The Ancient Gods - Part Two",
+   "release_world": 2021,
+   "comp_main": 14002,
+   "comp_plus": 15139,
+   "comp_100": 18100
+  }
+ ],
+ "Duke Nukem 3D": [
+  {
+   "game_id": 2914,
+   "game_name": "Duke Nukem 3D",
+   "release_world": 1996,
+   "comp_main": 33106,
+   "comp_plus": 41074,
+   "comp_100": 50992
+  },
+  {
+   "game_id": 40470,
+   "game_name": "Duke Nukem 3D: 20th Anniversary World Tour",
+   "release_world": 2016,
+   "comp_main": 26778,
+   "comp_plus": 48445,
+   "comp_100": 48894
+  },
+  {
+   "game_id": 2919,
+   "game_name": "Duke Nukem 3D: Megaton Edition",
+   "release_world": 2013,
+   "comp_main": 38122,
+   "comp_plus": 65582,
+   "comp_100": 76721
+  },
+  {
+   "game_id": 2921,
+   "game_name": "Duke Nukem 3D: Plutonium Pak",
+   "release_world": 1997,
+   "comp_main": 12599,
+   "comp_plus": 13838,
+   "comp_100": 18787
+  },
+  {
+   "game_id": 2915,
+   "game_name": "Duke Nukem 3D: Duke It Out In D.C.",
+   "release_world": 1997,
+   "comp_main": 11295,
+   "comp_plus": 13406,
+   "comp_100": 16198
+  },
+  {
+   "game_id": 42952,
+   "game_name": "Duke Nukem Forever 2013 (Duke 3D)",
+   "release_world": 2013,
+   "comp_main": 10418,
+   "comp_plus": 0,
+   "comp_100": 0
+  }
+ ],
+ "Quake": [
+  {
+   "game_id": 7452,
+   "game_name": "Quake",
+   "release_world": 1996,
+   "comp_main": 19216,
+   "comp_plus": 27845,
+   "comp_100": 66503
+  },
+  {
+   "game_id": 7455,
+   "game_name": "Quake II",
+   "release_world": 1997,
+   "comp_main": 25582,
+   "comp_plus": 34537,
+   "comp_100": 59992
+  },
+  {
+   "game_id": 48576,
+   "game_name": "Quake Champions",
+   "release_world": 2017,
+   "comp_main": 43422,
+   "comp_plus": 144000,
+   "comp_100": 0
+  },
+  {
+   "game_id": 7459,
+   "game_name": "Quake III Arena",
+   "release_world": 1999,
+   "comp_main": 18887,
+   "comp_plus": 32821,
+   "comp_100": 61627
+  },
+  {
+   "game_id": 189512,
+   "game_name": "Quake: Dawn of the Machine",
+   "release_world": 2026,
+   "comp_main": 21732,
+   "comp_plus": 25429,
+   "comp_100": 30626
+  },
+  {
+   "game_id": 7453,
+   "game_name": "Quake 4",
+   "release_world": 2005,
+   "comp_main": 27986,
+   "comp_plus": 36114,
+   "comp_100": 40450
+  },
+  {
+   "game_id": 7461,
+   "game_name": "Quake III: Team Arena",
+   "release_world": 2000,
+   "comp_main": 17246,
+   "comp_plus": 31560,
+   "comp_100": 32400
+  },
+  {
+   "game_id": 7462,
+   "game_name": "Quake Mission Pack 1: Scourge of Armagon",
+   "release_world": 1997,
+   "comp_main": 11131,
+   "comp_plus": 15600,
+   "comp_100": 19412
+  },
+  {
+   "game_id": 7463,
+   "game_name": "Quake Mission Pack 2: Dissolution of Eternity",
+   "release_world": 1997,
+   "comp_main": 13513,
+   "comp_plus": 16608,
+   "comp_100": 18114
+  },
+  {
+   "game_id": 7458,
+   "game_name": "Quake II: The Reckoning",
+   "release_world": 1998,
+   "comp_main": 16174,
+   "comp_plus": 20222,
+   "comp_100": 29379
+  },
+  {
+   "game_id": 21092,
+   "game_name": "Quake Live",
+   "release_world": 2010,
+   "comp_main": 2880,
+   "comp_plus": 13868,
+   "comp_100": 383370
+  },
+  {
+   "game_id": 7457,
+   "game_name": "Quake II: Ground Zero",
+   "release_world": 1998,
+   "comp_main": 17913,
+   "comp_plus": 21100,
+   "comp_100": 30413
+  },
+  {
+   "game_id": 97109,
+   "game_name": "Quake: Dimension of the Machine",
+   "release_world": 2021,
+   "comp_main": 12906,
+   "comp_plus": 18239,
+   "comp_100": 18687
+  },
+  {
+   "game_id": 38458,
+   "game_name": "Quake: Dimension of the Past",
+   "release_world": 2016,
+   "comp_main": 5630,
+   "comp_plus": 7411,
+   "comp_100": 8780
+  },
+  {
+   "game_id": 132791,
+   "game_name": "Quake II: Call of the Machine",
+   "release_world": 2023,
+   "comp_main": 16022,
+   "comp_plus": 22587,
+   "comp_100": 29365
+  },
+  {
+   "game_id": 3121,
+   "game_name": "Enemy Territory: Quake Wars",
+   "release_world": 2007,
+   "comp_main": 32398,
+   "comp_plus": 39550,
+   "comp_100": 48281
+  },
+  {
+   "game_id": 7454,
+   "game_name": "Quake 64",
+   "release_world": 1996,
+   "comp_main": 9360,
+   "comp_plus": 9900,
+   "comp_100": 11026
+  },
+  {
+   "game_id": 40543,
+   "game_name": "Bizarre Earthquake",
+   "release_world": 2016,
+   "comp_main": 7320,
+   "comp_plus": 19750,
+   "comp_100": 64800
+  },
+  {
+   "game_id": 7460,
+   "game_name": "Quake III: Revolution",
+   "release_world": 2001,
+   "comp_main": 17220,
+   "comp_plus": 0,
+   "comp_100": 0
+  },
+  {
+   "game_id": 34629,
+   "game_name": "Quake: Arcane Dimensions",
+   "release_world": 2015,
+   "comp_main": 25087,
+   "comp_plus": 34775,
+   "comp_100": 110880
+  }
+ ],
+ "GoldenEye 007": [
+  {
+   "game_id": 4003,
+   "game_name": "GoldenEye 007",
+   "release_world": 1997,
+   "comp_main": 28344,
+   "comp_plus": 47511,
+   "comp_100": 77604
+  },
+  {
+   "game_id": 4004,
+   "game_name": "GoldenEye 007",
+   "release_world": 2010,
+   "comp_main": 27201,
+   "comp_plus": 61552,
+   "comp_100": 125838
+  },
+  {
+   "game_id": 4005,
+   "game_name": "GoldenEye 007: Reloaded",
+   "release_world": 2011,
+   "comp_main": 23875,
+   "comp_plus": 37046,
+   "comp_100": 58589
+  }
+ ],
+ "Half-Life": [
+  {
+   "game_id": 4248,
+   "game_name": "Half-Life 2",
+   "release_world": 2004,
+   "comp_main": 46365,
+   "comp_plus": 56351,
+   "comp_100": 71618
+  },
+  {
+   "game_id": 4247,
+   "game_name": "Half-Life",
+   "release_world": 1998,
+   "comp_main": 42977,
+   "comp_plus": 50815,
+   "comp_100": 55465
+  },
+  {
+   "game_id": 4249,
+   "game_name": "Half-Life 2: Deathmatch",
+   "release_world": 2004,
+   "comp_main": 9038,
+   "comp_plus": 31179,
+   "comp_100": 66705
+  },
+  {
+   "game_id": 4253,
+   "game_name": "Half-Life Deathmatch: Source",
+   "release_world": 2005,
+   "comp_main": 8425,
+   "comp_plus": 9000,
+   "comp_100": 12001
+  },
+  {
+   "game_id": 4254,
+   "game_name": "Half-Life: Blue Shift",
+   "release_world": 2001,
+   "comp_main": 11001,
+   "comp_plus": 12216,
+   "comp_100": 13147
+  },
+  {
+   "game_id": 4256,
+   "game_name": "Half-Life: Opposing Force",
+   "release_world": 1999,
+   "comp_main": 18792,
+   "comp_plus": 22646,
+   "comp_100": 25806
+  },
+  {
+   "game_id": 4257,
+   "game_name": "Half-Life: Source",
+   "release_world": 2004,
+   "comp_main": 40112,
+   "comp_plus": 47267,
+   "comp_100": 50817
+  },
+  {
+   "game_id": 72067,
+   "game_name": "Half-Life: Alyx",
+   "release_world": 2020,
+   "comp_main": 43950,
+   "comp_plus": 51647,
+   "comp_100": 68302
+  },
+  {
+   "game_id": 4250,
+   "game_name": "Half-Life 2: Episode One",
+   "release_world": 2006,
+   "comp_main": 12972,
+   "comp_plus": 14986,
+   "comp_100": 18905
+  },
+  {
+   "game_id": 4251,
+   "game_name": "Half-Life 2: Episode Two",
+   "release_world": 2007,
+   "comp_main": 18318,
+   "comp_plus": 21821,
+   "comp_100": 31825
+  },
+  {
+   "game_id": 4252,
+   "game_name": "Half-Life 2: Lost Coast",
+   "release_world": 2005,
+   "comp_main": 1347,
+   "comp_plus": 1653,
+   "comp_100": 1742
+  },
+  {
+   "game_id": 126820,
+   "game_name": "Half-Life 2: VR Mod - Episode Two",
+   "release_world": 2023,
+   "comp_main": 17956,
+   "comp_plus": 21018,
+   "comp_100": 26623
+  },
+  {
+   "game_id": 4255,
+   "game_name": "Half-Life: Decay",
+   "release_world": 2001,
+   "comp_main": 12551,
+   "comp_plus": 16353,
+   "comp_100": 18187
+  },
+  {
+   "game_id": 25074,
+   "game_name": "Half-Life 2: Update",
+   "release_world": 2015,
+   "comp_main": 40303,
+   "comp_plus": 52748,
+   "comp_100": 57770
+  },
+  {
+   "game_id": 125749,
+   "game_name": "Half-Life 2: VR Mod - Episode One",
+   "release_world": 2023,
+   "comp_main": 13272,
+   "comp_plus": 13590,
+   "comp_100": 14514
+  },
+  {
+   "game_id": 114213,
+   "game_name": "Half-Life 2: VR Mod",
+   "release_world": 2022,
+   "comp_main": 45395,
+   "comp_plus": 54100,
+   "comp_100": 62897
+  },
+  {
+   "game_id": 4258,
+   "game_name": "Half-Life: Uplink",
+   "release_world": 1999,
+   "comp_main": 1802,
+   "comp_plus": 1959,
+   "comp_100": 2600
+  },
+  {
+   "game_id": 179553,
+   "game_name": "Half-Life Legacy",
+   "release_world": 2025,
+   "comp_main": 0,
+   "comp_plus": 35370,
+   "comp_100": 40479
+  },
+  {
+   "game_id": 165153,
+   "game_name": "Half-Life 2 RTX",
+   "release_world": 2025,
+   "comp_main": 5923,
+   "comp_plus": 6916,
+   "comp_100": 0
+  },
+  {
+   "game_id": 156755,
+   "game_name": "Half-Life: ESCAPE 2.0",
+   "release_world": 2024,
+   "comp_main": 10126,
+   "comp_plus": 11880,
+   "comp_100": 16200
+  }
+ ],
+ "Quake III Arena": [
+  {
+   "game_id": 7459,
+   "game_name": "Quake III Arena",
+   "release_world": 1999,
+   "comp_main": 18887,
+   "comp_plus": 32821,
+   "comp_100": 61627
+  },
+  {
+   "game_id": 7461,
+   "game_name": "Quake III: Team Arena",
+   "release_world": 2000,
+   "comp_main": 17246,
+   "comp_plus": 31560,
+   "comp_100": 32400
+  }
+ ],
+ "Unreal Tournament": [
+  {
+   "game_id": 10830,
+   "game_name": "Unreal Tournament",
+   "release_world": 1999,
+   "comp_main": 37498,
+   "comp_plus": 74161,
+   "comp_100": 85838
+  },
+  {
+   "game_id": 46349,
+   "game_name": "Unreal Tournament",
+   "release_world": 2014,
+   "comp_main": 27300,
+   "comp_plus": 0,
+   "comp_100": 0
+  },
+  {
+   "game_id": 10833,
+   "game_name": "Unreal Tournament 3",
+   "release_world": 2007,
+   "comp_main": 38265,
+   "comp_plus": 55587,
+   "comp_100": 105114
+  },
+  {
+   "game_id": 10832,
+   "game_name": "Unreal Tournament 2004",
+   "release_world": 2004,
+   "comp_main": 52224,
+   "comp_plus": 71744,
+   "comp_100": 101086
+  },
+  {
+   "game_id": 10831,
+   "game_name": "Unreal Tournament 2003",
+   "release_world": 2002,
+   "comp_main": 44873,
+   "comp_plus": 60900,
+   "comp_100": 78442
+  },
+  {
+   "game_id": 39359,
+   "game_name": "Thievery UT",
+   "release_world": 2003,
+   "comp_main": 0,
+   "comp_plus": 0,
+   "comp_100": 0
+  }
+ ],
+ "Counter-Strike": [
+  {
+   "game_id": 1957,
+   "game_name": "Counter-Strike 2",
+   "release_world": 2012,
+   "comp_main": 514437,
+   "comp_plus": 1343033,
+   "comp_100": 2627870
+  },
+  {
+   "game_id": 1958,
+   "game_name": "Counter-Strike: Source",
+   "release_world": 2004,
+   "comp_main": 241063,
+   "comp_plus": 408910,
+   "comp_100": 1379860
+  },
+  {
+   "game_id": 1955,
+   "game_name": "Counter-Strike: Condition Zero",
+   "release_world": 2004,
+   "comp_main": 13946,
+   "comp_plus": 46451,
+   "comp_100": 366315
+  },
+  {
+   "game_id": 1956,
+   "game_name": "Counter-Strike: Condition Zero Deleted Scenes",
+   "release_world": 2004,
+   "comp_main": 22206,
+   "comp_plus": 25864,
+   "comp_100": 29411
+  },
+  {
+   "game_id": 1953,
+   "game_name": "Counter-Strike",
+   "release_world": 2000,
+   "comp_main": 91356,
+   "comp_plus": 328530,
+   "comp_100": 2789169
+  },
+  {
+   "game_id": 17480,
+   "game_name": "CT Special Forces: Fire for Effect",
+   "release_world": 2005,
+   "comp_main": 24703,
+   "comp_plus": 34800,
+   "comp_100": 41820
+  },
+  {
+   "game_id": 21373,
+   "game_name": "Counter-Strike Nexon: Zombies",
+   "release_world": 2014,
+   "comp_main": 0,
+   "comp_plus": 0,
+   "comp_100": 70200
+  },
+  {
+   "game_id": 1838,
+   "game_name": "Command & Conquer: Red Alert - Counterstrike",
+   "release_world": 1997,
+   "comp_main": 18434,
+   "comp_plus": 25758,
+   "comp_100": 29340
+  },
+  {
+   "game_id": 1954,
+   "game_name": "Counter-Strike",
+   "release_world": 2003,
+   "comp_main": 0,
+   "comp_plus": 0,
+   "comp_100": 37800
+  }
+ ],
+ "Perfect Dark": [
+  {
+   "game_id": 6966,
+   "game_name": "Perfect Dark",
+   "release_world": 2000,
+   "comp_main": 28922,
+   "comp_plus": 56562,
+   "comp_100": 109926
+  },
+  {
+   "game_id": 6967,
+   "game_name": "Perfect Dark Zero",
+   "release_world": 2005,
+   "comp_main": 27629,
+   "comp_plus": 37358,
+   "comp_100": 87169
+  }
+ ],
+ "Halo: Combat Evolved": [
+  {
+   "game_id": 4269,
+   "game_name": "Halo: Combat Evolved",
+   "release_world": 2001,
+   "comp_main": 35878,
+   "comp_plus": 41988,
+   "comp_100": 54448
+  },
+  {
+   "game_id": 4270,
+   "game_name": "Halo: Combat Evolved - Anniversary",
+   "release_world": 2011,
+   "comp_main": 35589,
+   "comp_plus": 43572,
+   "comp_100": 86684
+  },
+  {
+   "game_id": 154236,
+   "game_name": "Halo: Combat Devolved",
+   "release_world": 2023,
+   "comp_main": 2641,
+   "comp_plus": 0,
+   "comp_100": 3600
+  }
+ ],
+ "Battlefield 1942": [
+  {
+   "game_id": 931,
+   "game_name": "Battlefield 1942",
+   "release_world": 2002,
+   "comp_main": 27379,
+   "comp_plus": 82495,
+   "comp_100": 87013
+  },
+  {
+   "game_id": 932,
+   "game_name": "Battlefield 1942: Secret Weapons of WWII",
+   "release_world": 2003,
+   "comp_main": 13956,
+   "comp_plus": 35250,
+   "comp_100": 108000
+  },
+  {
+   "game_id": 933,
+   "game_name": "Battlefield 1942: The Road to Rome",
+   "release_world": 2003,
+   "comp_main": 10752,
+   "comp_plus": 12600,
+   "comp_100": 108000
+  }
+ ],
+ "Call of Duty": [
+  {
+   "game_id": 1464,
+   "game_name": "Call of Duty",
+   "release_world": 2003,
+   "comp_main": 24683,
+   "comp_plus": 31589,
+   "comp_100": 35953
+  },
+  {
+   "game_id": 1471,
+   "game_name": "Call of Duty: Black Ops",
+   "release_world": 2010,
+   "comp_main": 25573,
+   "comp_plus": 45925,
+   "comp_100": 65584
+  },
+  {
+   "game_id": 27127,
+   "game_name": "Call of Duty: Black Ops III",
+   "release_world": 2015,
+   "comp_main": 32513,
+   "comp_plus": 53582,
+   "comp_100": 300876
+  },
+  {
+   "game_id": 1477,
+   "game_name": "Call of Duty: Modern Warfare 2",
+   "release_world": 2009,
+   "comp_main": 23741,
+   "comp_plus": 38306,
+   "comp_100": 112221
+  },
+  {
+   "game_id": 1472,
+   "game_name": "Call of Duty: Black Ops II",
+   "release_world": 2012,
+   "comp_main": 25401,
+   "comp_plus": 37871,
+   "comp_100": 110673
+  },
+  {
+   "game_id": 46121,
+   "game_name": "Call of Duty: WWII",
+   "release_world": 2017,
+   "comp_main": 25312,
+   "comp_plus": 34086,
+   "comp_100": 66313
+  },
+  {
+   "game_id": 109060,
+   "game_name": "Call of Duty: Modern Warfare II",
+   "release_world": 2022,
+   "comp_main": 29260,
+   "comp_plus": 41258,
+   "comp_100": 96546
+  },
+  {
+   "game_id": 1468,
+   "game_name": "Call of Duty 4: Modern Warfare",
+   "release_world": 2007,
+   "comp_main": 24809,
+   "comp_plus": 33488,
+   "comp_100": 58670
+  },
+  {
+   "game_id": 63110,
+   "game_name": "Call of Duty: Modern Warfare",
+   "release_world": 2019,
+   "comp_main": 22175,
+   "comp_plus": 32291,
+   "comp_100": 54955
+  },
+  {
+   "game_id": 1483,
+   "game_name": "Call of Duty: World at War",
+   "release_world": 2008,
+   "comp_main": 25226,
+   "comp_plus": 39940,
+   "comp_100": 95123
+  },
+  {
+   "game_id": 1478,
+   "game_name": "Call of Duty: Modern Warfare 3",
+   "release_world": 2011,
+   "comp_main": 22070,
+   "comp_plus": 35838,
+   "comp_100": 138262
+  },
+  {
+   "game_id": 132689,
+   "game_name": "Call of Duty: Modern Warfare III",
+   "release_world": 2023,
+   "comp_main": 19179,
+   "comp_plus": 27357,
+   "comp_100": 67546
+  },
+  {
+   "game_id": 14322,
+   "game_name": "Call of Duty: Ghosts",
+   "release_world": 2013,
+   "comp_main": 21655,
+   "comp_plus": 30345,
+   "comp_100": 47381
+  },
+  {
+   "game_id": 82091,
+   "game_name": "Call of Duty: Black Ops Cold War",
+   "release_world": 2020,
+   "comp_main": 19986,
+   "comp_plus": 25304,
+   "comp_100": 67612
+  },
+  {
+   "game_id": 18220,
+   "game_name": "Call of Duty: Advanced Warfare",
+   "release_world": 2014,
+   "comp_main": 25586,
+   "comp_plus": 38208,
+   "comp_100": 63169
+  },
+  {
+   "game_id": 151245,
+   "game_name": "Call of Duty: Black Ops 6",
+   "release_world": 2024,
+   "comp_main": 30490,
+   "comp_plus": 40550,
+   "comp_100": 142821
+  },
+  {
+   "game_id": 37101,
+   "game_name": "Call of Duty: Infinite Warfare",
+   "release_world": 2016,
+   "comp_main": 26171,
+   "comp_plus": 34530,
+   "comp_100": 58798
+  },
+  {
+   "game_id": 97310,
+   "game_name": "Call of Duty: Vanguard",
+   "release_world": 2021,
+   "comp_main": 22142,
+   "comp_plus": 31201,
+   "comp_100": 98268
+  },
+  {
+   "game_id": 39302,
+   "game_name": "Call of Duty: Modern Warfare - Remastered",
+   "release_world": 2016,
+   "comp_main": 22145,
+   "comp_plus": 30032,
+   "comp_100": 58011
+  },
+  {
+   "game_id": 1465,
+   "game_name": "Call of Duty 2",
+   "release_world": 2005,
+   "comp_main": 28862,
+   "comp_plus": 34354,
+   "comp_100": 40297
+  }
+ ],
+ "Half-Life 2": [
+  {
+   "game_id": 4248,
+   "game_name": "Half-Life 2",
+   "release_world": 2004,
+   "comp_main": 46365,
+   "comp_plus": 56351,
+   "comp_100": 71618
+  },
+  {
+   "game_id": 4249,
+   "game_name": "Half-Life 2: Deathmatch",
+   "release_world": 2004,
+   "comp_main": 9038,
+   "comp_plus": 31179,
+   "comp_100": 66705
+  },
+  {
+   "game_id": 4250,
+   "game_name": "Half-Life 2: Episode One",
+   "release_world": 2006,
+   "comp_main": 12972,
+   "comp_plus": 14986,
+   "comp_100": 18905
+  },
+  {
+   "game_id": 4251,
+   "game_name": "Half-Life 2: Episode Two",
+   "release_world": 2007,
+   "comp_main": 18318,
+   "comp_plus": 21821,
+   "comp_100": 31825
+  },
+  {
+   "game_id": 4252,
+   "game_name": "Half-Life 2: Lost Coast",
+   "release_world": 2005,
+   "comp_main": 1347,
+   "comp_plus": 1653,
+   "comp_100": 1742
+  },
+  {
+   "game_id": 126820,
+   "game_name": "Half-Life 2: VR Mod - Episode Two",
+   "release_world": 2023,
+   "comp_main": 17956,
+   "comp_plus": 21018,
+   "comp_100": 26623
+  },
+  {
+   "game_id": 25074,
+   "game_name": "Half-Life 2: Update",
+   "release_world": 2015,
+   "comp_main": 40303,
+   "comp_plus": 52748,
+   "comp_100": 57770
+  },
+  {
+   "game_id": 125749,
+   "game_name": "Half-Life 2: VR Mod - Episode One",
+   "release_world": 2023,
+   "comp_main": 13272,
+   "comp_plus": 13590,
+   "comp_100": 14514
+  },
+  {
+   "game_id": 114213,
+   "game_name": "Half-Life 2: VR Mod",
+   "release_world": 2022,
+   "comp_main": 45395,
+   "comp_plus": 54100,
+   "comp_100": 62897
+  },
+  {
+   "game_id": 165153,
+   "game_name": "Half-Life 2 RTX",
+   "release_world": 2025,
+   "comp_main": 5923,
+   "comp_plus": 6916,
+   "comp_100": 0
+  },
+  {
+   "game_id": 45280,
+   "game_name": "Half-Life 2: Downfall",
+   "release_world": 2017,
+   "comp_main": 2566,
+   "comp_plus": 2971,
+   "comp_100": 3880
+  },
+  {
+   "game_id": 62642,
+   "game_name": "Half-Life 2: Year Long Alarm",
+   "release_world": 2012,
+   "comp_main": 1994,
+   "comp_plus": 2359,
+   "comp_100": 2724
+  },
+  {
+   "game_id": 156755,
+   "game_name": "Half-Life: ESCAPE 2.0",
+   "release_world": 2024,
+   "comp_main": 10126,
+   "comp_plus": 11880,
+   "comp_100": 16200
+  },
+  {
+   "game_id": 80788,
+   "game_name": "Silent Escape: Induction",
+   "release_world": 0,
+   "comp_main": 0,
+   "comp_plus": 0,
+   "comp_100": 0
+  },
+  {
+   "game_id": 4245,
+   "game_name": "Half Life Alpha v0.52",
+   "release_world": 0,
+   "comp_main": 3600,
+   "comp_plus": 0,
+   "comp_100": 21240
+  },
+  {
+   "game_id": 120679,
+   "game_name": "Half-Life 2: Genry's Great Escape From City 13",
+   "release_world": 2020,
+   "comp_main": 1633,
+   "comp_plus": 0,
+   "comp_100": 3240
+  },
+  {
+   "game_id": 94735,
+   "game_name": "Half-Life 2: Survivor",
+   "release_world": 0,
+   "comp_main": 0,
+   "comp_plus": 0,
+   "comp_100": 0
+  },
+  {
+   "game_id": 42178,
+   "game_name": "Half-Life 2: Rock 24",
+   "release_world": 0,
+   "comp_main": 3813,
+   "comp_plus": 0,
+   "comp_100": 0
+  },
+  {
+   "game_id": 42177,
+   "game_name": "Half-Life 2: Riot Act",
+   "release_world": 0,
+   "comp_main": 2400,
+   "comp_plus": 3231,
+   "comp_100": 0
+  },
+  {
+   "game_id": 16309,
+   "game_name": "Half-Life 2: Calamity",
+   "release_world": 2009,
+   "comp_main": 5400,
+   "comp_plus": 0,
+   "comp_100": 11700
+  }
+ ],
+ "Halo 2": [
+  {
+   "game_id": 4262,
+   "game_name": "Halo 2",
+   "release_world": 2004,
+   "comp_main": 33044,
+   "comp_plus": 41622,
+   "comp_100": 75554
+  },
+  {
+   "game_id": 22622,
+   "game_name": "Halo 2: Anniversary",
+   "release_world": 2014,
+   "comp_main": 29884,
+   "comp_plus": 37654,
+   "comp_100": 57983
+  },
+  {
+   "game_id": 37985,
+   "game_name": "Halo Wars 2",
+   "release_world": 2017,
+   "comp_main": 29165,
+   "comp_plus": 53066,
+   "comp_100": 175162
+  },
+  {
+   "game_id": 59330,
+   "game_name": "Halo Wars 2: Awakening the Nightmare",
+   "release_world": 2017,
+   "comp_main": 14614,
+   "comp_plus": 18104,
+   "comp_100": 22427
+  },
+  {
+   "game_id": 60931,
+   "game_name": "Halo Wars 2 - Operation: Spearbreaker",
+   "release_world": 2017,
+   "comp_main": 7085,
+   "comp_plus": 9932,
+   "comp_100": 0
+  },
+  {
+   "game_id": 30015,
+   "game_name": "Halo 2600",
+   "release_world": 2010,
+   "comp_main": 600,
+   "comp_plus": 2460,
+   "comp_100": 0
+  }
+ ],
+ "F.E.A.R.": [
+  {
+   "game_id": 4064,
+   "game_name": "Grand Theft Auto V",
+   "release_world": 2013,
+   "comp_main": 115361,
+   "comp_plus": 185217,
+   "comp_100": 322113
+  },
+  {
+   "game_id": 185013,
+   "game_name": "Assassin's Creed Black Flag Resynced",
+   "release_world": 2026,
+   "comp_main": 86650,
+   "comp_plus": 150988,
+   "comp_100": 227118
+  },
+  {
+   "game_id": 10469,
+   "game_name": "Tomb Raider",
+   "release_world": 2013,
+   "comp_main": 40759,
+   "comp_plus": 55657,
+   "comp_100": 75316
+  },
+  {
+   "game_id": 70093,
+   "game_name": "Marvel's Spider-Man Remastered",
+   "release_world": 2020,
+   "comp_main": 64573,
+   "comp_plus": 105016,
+   "comp_100": 161312
+  },
+  {
+   "game_id": 57686,
+   "game_name": "Final Fantasy VII Remake",
+   "release_world": 2020,
+   "comp_main": 116106,
+   "comp_plus": 148031,
+   "comp_100": 308408
+  },
+  {
+   "game_id": 38029,
+   "game_name": "NieR: Automata",
+   "release_world": 2017,
+   "comp_main": 76618,
+   "comp_plus": 135266,
+   "comp_100": 220622
+  },
+  {
+   "game_id": 60145,
+   "game_name": "Star Wars Jedi: Fallen Order",
+   "release_world": 2019,
+   "comp_main": 62161,
+   "comp_plus": 80285,
+   "comp_100": 114224
+  },
+  {
+   "game_id": 169407,
+   "game_name": "Beast of Reincarnation",
+   "release_world": 2026,
+   "comp_main": 83343,
+   "comp_plus": 97488,
+   "comp_100": 144582
+  },
+  {
+   "game_id": 19266,
+   "game_name": "Rise of the Tomb Raider",
+   "release_world": 2015,
+   "comp_main": 47889,
+   "comp_plus": 78682,
+   "comp_100": 127485
+  },
+  {
+   "game_id": 18006,
+   "game_name": "Middle-Earth: Shadow of Mordor",
+   "release_world": 2014,
+   "comp_main": 56679,
+   "comp_plus": 86178,
+   "comp_100": 118541
+  },
+  {
+   "game_id": 44022,
+   "game_name": "Middle-Earth: Shadow of War",
+   "release_world": 2017,
+   "comp_main": 75711,
+   "comp_plus": 131419,
+   "comp_100": 205160
+  },
+  {
+   "game_id": 109434,
+   "game_name": "Final Fantasy VII Rebirth",
+   "release_world": 2024,
+   "comp_main": 174504,
+   "comp_plus": 328834,
+   "comp_100": 581610
+  },
+  {
+   "game_id": 51225,
+   "game_name": "Ghost of Tsushima",
+   "release_world": 2020,
+   "comp_main": 90428,
+   "comp_plus": 166552,
+   "comp_100": 224812
+  },
+  {
+   "game_id": 10268,
+   "game_name": "The Witcher 2: Assassins of Kings",
+   "release_world": 2011,
+   "comp_main": 86940,
+   "comp_plus": 124692,
+   "comp_100": 203396
+  },
+  {
+   "game_id": 38019,
+   "game_name": "The Legend of Zelda: Breath of the Wild",
+   "release_world": 2017,
+   "comp_main": 181136,
+   "comp_plus": 354110,
+   "comp_100": 697135
+  },
+  {
+   "game_id": 9782,
+   "game_name": "The Binding of Isaac: Rebirth",
+   "release_world": 2014,
+   "comp_main": 20224,
+   "comp_plus": 357492,
+   "comp_100": 1411284
+  },
+  {
+   "game_id": 4073,
+   "game_name": "Grand Theft Auto: San Andreas",
+   "release_world": 2004,
+   "comp_main": 108476,
+   "comp_plus": 160282,
+   "comp_100": 255723
+  },
+  {
+   "game_id": 84851,
+   "game_name": "Mass Effect Legendary Edition",
+   "release_world": 2021,
+   "comp_main": 220636,
+   "comp_plus": 366072,
+   "comp_100": 496791
+  },
+  {
+   "game_id": 14831,
+   "game_name": "Grand Theft Auto IV: The Complete Edition",
+   "release_world": 2010,
+   "comp_main": 110798,
+   "comp_plus": 186804,
+   "comp_100": 363034
+  },
+  {
+   "game_id": 21702,
+   "game_name": "Life Is Strange",
+   "release_world": 2015,
+   "comp_main": 50925,
+   "comp_plus": 59210,
+   "comp_100": 66661
+  }
+ ],
+ "BioShock": [
+  {
+   "game_id": 1065,
+   "game_name": "BioShock",
+   "release_world": 2007,
+   "comp_main": 43612,
+   "comp_plus": 56292,
+   "comp_100": 83720
+  },
+  {
+   "game_id": 1068,
+   "game_name": "BioShock Infinite",
+   "release_world": 2013,
+   "comp_main": 41536,
+   "comp_plus": 57980,
+   "comp_100": 103597
+  },
+  {
+   "game_id": 1066,
+   "game_name": "BioShock 2",
+   "release_world": 2010,
+   "comp_main": 38093,
+   "comp_plus": 51916,
+   "comp_100": 85611
+  },
+  {
+   "game_id": 42529,
+   "game_name": "BioShock: The Collection",
+   "release_world": 2016,
+   "comp_main": 126243,
+   "comp_plus": 176781,
+   "comp_100": 241239
+  },
+  {
+   "game_id": 16624,
+   "game_name": "BioShock Infinite: Burial at Sea - Episode 2",
+   "release_world": 2014,
+   "comp_main": 12576,
+   "comp_plus": 16644,
+   "comp_100": 22746
+  },
+  {
+   "game_id": 14532,
+   "game_name": "BioShock Infinite: Burial at Sea - Episode 1",
+   "release_world": 2013,
+   "comp_main": 7500,
+   "comp_plus": 10555,
+   "comp_100": 12921
+  },
+  {
+   "game_id": 96523,
+   "game_name": "Bioshock Infinite: The Complete Edition",
+   "release_world": 2014,
+   "comp_main": 42888,
+   "comp_plus": 68569,
+   "comp_100": 129639
+  },
+  {
+   "game_id": 1067,
+   "game_name": "BioShock 2: Minerva's Den",
+   "release_world": 2010,
+   "comp_main": 13490,
+   "comp_plus": 16086,
+   "comp_100": 18688
+  },
+  {
+   "game_id": 12648,
+   "game_name": "BioShock Infinite: Clash in the Cloud",
+   "release_world": 2013,
+   "comp_main": 11387,
+   "comp_plus": 18304,
+   "comp_100": 33804
+  },
+  {
+   "game_id": 17578,
+   "game_name": "BioShock 2: Protector Trials",
+   "release_world": 2010,
+   "comp_main": 6144,
+   "comp_plus": 8997,
+   "comp_100": 11713
+  },
+  {
+   "game_id": 47515,
+   "game_name": "BioShock: Challenge Rooms",
+   "release_world": 2008,
+   "comp_main": 7461,
+   "comp_plus": 10780,
+   "comp_100": 15948
+  }
+ ],
+ "Call of Duty 4: Modern Warfare": [
+  {
+   "game_id": 1468,
+   "game_name": "Call of Duty 4: Modern Warfare",
+   "release_world": 2007,
+   "comp_main": 24809,
+   "comp_plus": 33488,
+   "comp_100": 58670
+  },
+  {
+   "game_id": 39302,
+   "game_name": "Call of Duty: Modern Warfare - Remastered",
+   "release_world": 2016,
+   "comp_main": 22145,
+   "comp_plus": 30032,
+   "comp_100": 58011
+  },
+  {
+   "game_id": 186586,
+   "game_name": "Call of Duty: Modern Warfare 4",
+   "release_world": 2026,
+   "comp_main": 0,
+   "comp_plus": 0,
+   "comp_100": 0
+  }
+ ],
+ "Team Fortress 2": [
+  {
+   "game_id": 9632,
+   "game_name": "Team Fortress 2",
+   "release_world": 2007,
+   "comp_main": 1071570,
+   "comp_plus": 2099287,
+   "comp_100": 8449148
+  },
+  {
+   "game_id": 164330,
+   "game_name": "Team Fortress 2 Classified",
+   "release_world": 2026,
+   "comp_main": 0,
+   "comp_plus": 0,
+   "comp_100": 0
+  }
+ ],
+ "Left 4 Dead": [
+  {
+   "game_id": 5209,
+   "game_name": "Left 4 Dead",
+   "release_world": 2008,
+   "comp_main": 25036,
+   "comp_plus": 67760,
+   "comp_100": 211254
+  },
+  {
+   "game_id": 5212,
+   "game_name": "Left 4 Dead 2",
+   "release_world": 2009,
+   "comp_main": 36948,
+   "comp_plus": 100280,
+   "comp_100": 220368
+  },
+  {
+   "game_id": 5210,
+   "game_name": "Left 4 Dead - Crash Course",
+   "release_world": 2009,
+   "comp_main": 4996,
+   "comp_plus": 15815,
+   "comp_100": 68362
+  },
+  {
+   "game_id": 5211,
+   "game_name": "Left 4 Dead - The Sacrifice",
+   "release_world": 2010,
+   "comp_main": 3755,
+   "comp_plus": 4591,
+   "comp_100": 82723
+  },
+  {
+   "game_id": 20094,
+   "game_name": "Left 4 Dead 2: The Passing",
+   "release_world": 2010,
+   "comp_main": 2923,
+   "comp_plus": 4099,
+   "comp_100": 7384
+  },
+  {
+   "game_id": 84124,
+   "game_name": "Left 4 Dead 2: The Last Stand",
+   "release_world": 2020,
+   "comp_main": 2117,
+   "comp_plus": 2696,
+   "comp_100": 3300
+  },
+  {
+   "game_id": 86784,
+   "game_name": "Left 4 Dead 2: Cold Stream",
+   "release_world": 2012,
+   "comp_main": 2129,
+   "comp_plus": 2325,
+   "comp_100": 3600
+  }
+ ],
+ "Metro 2033": [
+  {
+   "game_id": 5946,
+   "game_name": "Metro 2033",
+   "release_world": 2010,
+   "comp_main": 34301,
+   "comp_plus": 43487,
+   "comp_100": 73219
+  },
+  {
+   "game_id": 20737,
+   "game_name": "Metro 2033 Redux",
+   "release_world": 2014,
+   "comp_main": 32592,
+   "comp_plus": 41561,
+   "comp_100": 85193
+  }
+ ],
+ "Borderlands 2": [
+  {
+   "game_id": 1274,
+   "game_name": "Borderlands 2",
+   "release_world": 2012,
+   "comp_main": 108264,
+   "comp_plus": 197321,
+   "comp_100": 467619
+  },
+  {
+   "game_id": 14089,
+   "game_name": "Borderlands 2: Game of the Year Edition",
+   "release_world": 2013,
+   "comp_main": 109076,
+   "comp_plus": 217833,
+   "comp_100": 468908
+  },
+  {
+   "game_id": 65705,
+   "game_name": "Borderlands 2 VR",
+   "release_world": 2019,
+   "comp_main": 108000,
+   "comp_plus": 0,
+   "comp_100": 353832
+  },
+  {
+   "game_id": 13383,
+   "game_name": "Borderlands 2: Creature Slaughter Dome",
+   "release_world": 2012,
+   "comp_main": 2513,
+   "comp_plus": 3186,
+   "comp_100": 3875
+  },
+  {
+   "game_id": 19612,
+   "game_name": "Borderlands 2: Ultimate Vault Hunter Upgrade Pack 2 - Digistruct Peak Challenge",
+   "release_world": 2013,
+   "comp_main": 2249,
+   "comp_plus": 3845,
+   "comp_100": 4545
+  },
+  {
+   "game_id": 24729,
+   "game_name": "Tales from the Borderlands: Episode 2 - Atlas Mugged",
+   "release_world": 2015,
+   "comp_main": 6717,
+   "comp_plus": 7122,
+   "comp_100": 7138
+  },
+  {
+   "game_id": 16658,
+   "game_name": "Borderlands 2: How Marcus Saved Mercenary Day",
+   "release_world": 2013,
+   "comp_main": 2644,
+   "comp_plus": 3164,
+   "comp_100": 5960
+  },
+  {
+   "game_id": 16659,
+   "game_name": "Borderlands 2: Mad Moxxi and the Wedding Day Massacre",
+   "release_world": 2014,
+   "comp_main": 2679,
+   "comp_plus": 3517,
+   "comp_100": 3576
+  },
+  {
+   "game_id": 17883,
+   "game_name": "Borderlands 2: Sir Hammerlock vs. the Son of Crawmerax",
+   "release_world": 2014,
+   "comp_main": 2614,
+   "comp_plus": 3235,
+   "comp_100": 4104
+  },
+  {
+   "game_id": 1275,
+   "game_name": "Borderlands 2: Captain Scarlett and Her Pirate's Booty",
+   "release_world": 2012,
+   "comp_main": 14288,
+   "comp_plus": 24110,
+   "comp_100": 38370
+  },
+  {
+   "game_id": 68153,
+   "game_name": "Borderlands 2: Commander Lilith & the Fight for Sanctuary",
+   "release_world": 2019,
+   "comp_main": 11928,
+   "comp_plus": 20487,
+   "comp_100": 24588
+  },
+  {
+   "game_id": 11788,
+   "game_name": "Borderlands 2: Tiny Tina's Assault on Dragon Keep",
+   "release_world": 2013,
+   "comp_main": 18149,
+   "comp_plus": 30208,
+   "comp_100": 39349
+  },
+  {
+   "game_id": 183096,
+   "game_name": "Borderlands 4 - Bounty Pack 2: Legend of the Stone Demon",
+   "release_world": 2026,
+   "comp_main": 0,
+   "comp_plus": 0,
+   "comp_100": 0
+  },
+  {
+   "game_id": 16657,
+   "game_name": "Borderlands 2: The Horrible Hunger of the Ravenous Wattle Gobbler",
+   "release_world": 2013,
+   "comp_main": 2747,
+   "comp_plus": 3638,
+   "comp_100": 3724
+  },
+  {
+   "game_id": 14385,
+   "game_name": "Borderlands 2: T.K. Baha's Bloody Harvest",
+   "release_world": 2013,
+   "comp_main": 2564,
+   "comp_plus": 3661,
+   "comp_100": 3845
+  },
+  {
+   "game_id": 1278,
+   "game_name": "Borderlands 2: Sir Hammerlock's Big Game Hunt",
+   "release_world": 2013,
+   "comp_main": 11046,
+   "comp_plus": 23544,
+   "comp_100": 28505
+  },
+  {
+   "game_id": 1277,
+   "game_name": "Borderlands 2: Mr. Torgue's Campaign of Carnage",
+   "release_world": 2012,
+   "comp_main": 10850,
+   "comp_plus": 20520,
+   "comp_100": 27716
+  }
+ ],
+ "Wolfenstein: The New Order": [
+  {
+   "game_id": 16886,
+   "game_name": "Wolfenstein: The New Order",
+   "release_world": 2014,
+   "comp_main": 40910,
+   "comp_plus": 55171,
+   "comp_100": 87815
+  }
+ ],
+ "Titanfall 2": [
+  {
+   "game_id": 38000,
+   "game_name": "Titanfall 2",
+   "release_world": 2016,
+   "comp_main": 21947,
+   "comp_plus": 29927,
+   "comp_100": 57861
+  }
+ ],
+ "Half-Life: Alyx": [
+  {
+   "game_id": 72067,
+   "game_name": "Half-Life: Alyx",
+   "release_world": 2020,
+   "comp_main": 43950,
+   "comp_plus": 51647,
+   "comp_100": 68302
+  },
+  {
+   "game_id": 117633,
+   "game_name": "Half-Life: Alyx - Levitation",
+   "release_world": 2022,
+   "comp_main": 15252,
+   "comp_plus": 17400,
+   "comp_100": 0
+  },
+  {
+   "game_id": 143845,
+   "game_name": "Half-Life: Alyx - From Here To There",
+   "release_world": 2022,
+   "comp_main": 29732,
+   "comp_plus": 0,
+   "comp_100": 0
+  },
+  {
+   "game_id": 125898,
+   "game_name": "Half-Life: Alyx - Return to Rapture",
+   "release_world": 0,
+   "comp_main": 26100,
+   "comp_plus": 0,
+   "comp_100": 0
+  }
+ ],
+ "Doom Eternal": [
+  {
+   "game_id": 57506,
+   "game_name": "Doom Eternal",
+   "release_world": 2020,
+   "comp_main": 51899,
+   "comp_plus": 74288,
+   "comp_100": 107005
+  },
+  {
+   "game_id": 81632,
+   "game_name": "Doom Eternal: The Ancient Gods - Part One",
+   "release_world": 2020,
+   "comp_main": 17764,
+   "comp_plus": 23348,
+   "comp_100": 26916
+  },
+  {
+   "game_id": 81633,
+   "game_name": "Doom Eternal: The Ancient Gods - Part Two",
+   "release_world": 2021,
+   "comp_main": 14002,
+   "comp_plus": 15139,
+   "comp_100": 18100
+  },
+  {
+   "game_id": 21123,
+   "game_name": "Eternal Doom",
+   "release_world": 1996,
+   "comp_main": 44631,
+   "comp_plus": 0,
+   "comp_100": 0
+  },
+  {
+   "game_id": 145919,
+   "game_name": "Brutal Doom Eternal",
+   "release_world": 2022,
+   "comp_main": 0,
+   "comp_plus": 0,
+   "comp_100": 0
+  }
+ ],
+ "FEAR First Encounter Assault Recon": [],
+ "F E A R": [
+  {
+   "game_id": 4064,
+   "game_name": "Grand Theft Auto V",
+   "release_world": 2013,
+   "comp_main": 115361,
+   "comp_plus": 185217,
+   "comp_100": 322113
+  },
+  {
+   "game_id": 185013,
+   "game_name": "Assassin's Creed Black Flag Resynced",
+   "release_world": 2026,
+   "comp_main": 86650,
+   "comp_plus": 150988,
+   "comp_100": 227118
+  },
+  {
+   "game_id": 10469,
+   "game_name": "Tomb Raider",
+   "release_world": 2013,
+   "comp_main": 40759,
+   "comp_plus": 55657,
+   "comp_100": 75316
+  },
+  {
+   "game_id": 70093,
+   "game_name": "Marvel's Spider-Man Remastered",
+   "release_world": 2020,
+   "comp_main": 64573,
+   "comp_plus": 105016,
+   "comp_100": 161312
+  },
+  {
+   "game_id": 57686,
+   "game_name": "Final Fantasy VII Remake",
+   "release_world": 2020,
+   "comp_main": 116106,
+   "comp_plus": 148031,
+   "comp_100": 308408
+  },
+  {
+   "game_id": 38029,
+   "game_name": "NieR: Automata",
+   "release_world": 2017,
+   "comp_main": 76618,
+   "comp_plus": 135266,
+   "comp_100": 220622
+  },
+  {
+   "game_id": 60145,
+   "game_name": "Star Wars Jedi: Fallen Order",
+   "release_world": 2019,
+   "comp_main": 62161,
+   "comp_plus": 80285,
+   "comp_100": 114224
+  },
+  {
+   "game_id": 169407,
+   "game_name": "Beast of Reincarnation",
+   "release_world": 2026,
+   "comp_main": 83343,
+   "comp_plus": 97488,
+   "comp_100": 144582
+  },
+  {
+   "game_id": 19266,
+   "game_name": "Rise of the Tomb Raider",
+   "release_world": 2015,
+   "comp_main": 47889,
+   "comp_plus": 78682,
+   "comp_100": 127485
+  },
+  {
+   "game_id": 18006,
+   "game_name": "Middle-Earth: Shadow of Mordor",
+   "release_world": 2014,
+   "comp_main": 56679,
+   "comp_plus": 86178,
+   "comp_100": 118541
+  },
+  {
+   "game_id": 44022,
+   "game_name": "Middle-Earth: Shadow of War",
+   "release_world": 2017,
+   "comp_main": 75711,
+   "comp_plus": 131419,
+   "comp_100": 205160
+  },
+  {
+   "game_id": 109434,
+   "game_name": "Final Fantasy VII Rebirth",
+   "release_world": 2024,
+   "comp_main": 174504,
+   "comp_plus": 328834,
+   "comp_100": 581610
+  },
+  {
+   "game_id": 51225,
+   "game_name": "Ghost of Tsushima",
+   "release_world": 2020,
+   "comp_main": 90428,
+   "comp_plus": 166552,
+   "comp_100": 224812
+  },
+  {
+   "game_id": 10268,
+   "game_name": "The Witcher 2: Assassins of Kings",
+   "release_world": 2011,
+   "comp_main": 86940,
+   "comp_plus": 124692,
+   "comp_100": 203396
+  },
+  {
+   "game_id": 38019,
+   "game_name": "The Legend of Zelda: Breath of the Wild",
+   "release_world": 2017,
+   "comp_main": 181136,
+   "comp_plus": 354110,
+   "comp_100": 697135
+  },
+  {
+   "game_id": 9782,
+   "game_name": "The Binding of Isaac: Rebirth",
+   "release_world": 2014,
+   "comp_main": 20224,
+   "comp_plus": 357492,
+   "comp_100": 1411284
+  },
+  {
+   "game_id": 4073,
+   "game_name": "Grand Theft Auto: San Andreas",
+   "release_world": 2004,
+   "comp_main": 108476,
+   "comp_plus": 160282,
+   "comp_100": 255723
+  },
+  {
+   "game_id": 84851,
+   "game_name": "Mass Effect Legendary Edition",
+   "release_world": 2021,
+   "comp_main": 220636,
+   "comp_plus": 366072,
+   "comp_100": 496791
+  },
+  {
+   "game_id": 14831,
+   "game_name": "Grand Theft Auto IV: The Complete Edition",
+   "release_world": 2010,
+   "comp_main": 110798,
+   "comp_plus": 186804,
+   "comp_100": 363034
+  },
+  {
+   "game_id": 21702,
+   "game_name": "Life Is Strange",
+   "release_world": 2015,
+   "comp_main": 50925,
+   "comp_plus": 59210,
+   "comp_100": 66661
+  }
+ ],
+ "FEAR": [
+  {
+   "game_id": 3293,
+   "game_name": "F.E.A.R.",
+   "release_world": 2005,
+   "comp_main": 29428,
+   "comp_plus": 36393,
+   "comp_100": 43973
+  },
+  {
+   "game_id": 3294,
+   "game_name": "F.E.A.R. 2: Project Origin",
+   "release_world": 2009,
+   "comp_main": 25579,
+   "comp_plus": 31311,
+   "comp_100": 38667
+  },
+  {
+   "game_id": 3296,
+   "game_name": "F.E.A.R. 3",
+   "release_world": 2011,
+   "comp_main": 20832,
+   "comp_plus": 28442,
+   "comp_100": 62501
+  },
+  {
+   "game_id": 29851,
+   "game_name": "Layers of Fear",
+   "release_world": 2016,
+   "comp_main": 12335,
+   "comp_plus": 16774,
+   "comp_100": 41900
+  },
+  {
+   "game_id": 3297,
+   "game_name": "F.E.A.R. Extraction Point",
+   "release_world": 2006,
+   "comp_main": 15799,
+   "comp_plus": 18668,
+   "comp_100": 21313
+  },
+  {
+   "game_id": 3299,
+   "game_name": "F.E.A.R. Perseus Mandate",
+   "release_world": 2007,
+   "comp_main": 18071,
+   "comp_plus": 22139,
+   "comp_100": 25908
+  },
+  {
+   "game_id": 66148,
+   "game_name": "Fear & Hunger",
+   "release_world": 2018,
+   "comp_main": 39091,
+   "comp_plus": 71364,
+   "comp_100": 214427
+  },
+  {
+   "game_id": 52985,
+   "game_name": "Dandara",
+   "release_world": 2018,
+   "comp_main": 24736,
+   "comp_plus": 33825,
+   "comp_100": 45943
+  },
+  {
+   "game_id": 185395,
+   "game_name": "Overcome Your Fears - Caretaker",
+   "release_world": 2025,
+   "comp_main": 2213,
+   "comp_plus": 3600,
+   "comp_100": 3950
+  },
+  {
+   "game_id": 119400,
+   "game_name": "Fear & Hunger 2: Termina",
+   "release_world": 2022,
+   "comp_main": 71072,
+   "comp_plus": 110444,
+   "comp_100": 275958
+  },
+  {
+   "game_id": 18945,
+   "game_name": "Fearless Fantasy",
+   "release_world": 2014,
+   "comp_main": 12095,
+   "comp_plus": 15011,
+   "comp_100": 17713
+  },
+  {
+   "game_id": 67383,
+   "game_name": "Layers of Fear 2",
+   "release_world": 2019,
+   "comp_main": 18035,
+   "comp_plus": 21786,
+   "comp_100": 38427
+  },
+  {
+   "game_id": 107613,
+   "game_name": "Fear The Spotlight",
+   "release_world": 2024,
+   "comp_main": 12964,
+   "comp_plus": 16387,
+   "comp_100": 22397
+  },
+  {
+   "game_id": 2064,
+   "game_name": "Cry of Fear",
+   "release_world": 2012,
+   "comp_main": 30449,
+   "comp_plus": 43021,
+   "comp_100": 78871
+  },
+  {
+   "game_id": 186856,
+   "game_name": "Fears to Fathom - Scratch Creek",
+   "release_world": 2026,
+   "comp_main": 10660,
+   "comp_plus": 10844,
+   "comp_100": 17690
+  },
+  {
+   "game_id": 102681,
+   "game_name": "Fears to Fathom - Norwood Hitchhike",
+   "release_world": 2022,
+   "comp_main": 3824,
+   "comp_plus": 3842,
+   "comp_100": 4750
+  },
+  {
+   "game_id": 98773,
+   "game_name": "Corpse Party",
+   "release_world": 2021,
+   "comp_main": 35956,
+   "comp_plus": 52580,
+   "comp_100": 68005
+  },
+  {
+   "game_id": 13716,
+   "game_name": "Alien Rage",
+   "release_world": 2013,
+   "comp_main": 23452,
+   "comp_plus": 34269,
+   "comp_100": 61283
+  },
+  {
+   "game_id": 120976,
+   "game_name": "Fears to Fathom - Carson House",
+   "release_world": 2023,
+   "comp_main": 5706,
+   "comp_plus": 5935,
+   "comp_100": 6652
+  },
+  {
+   "game_id": 1795,
+   "game_name": "Cold Fear",
+   "release_world": 2005,
+   "comp_main": 22112,
+   "comp_plus": 25657,
+   "comp_100": 26544
+  }
+ ],
+ "Fear Extraction Point": [
+  {
+   "game_id": 3297,
+   "game_name": "F.E.A.R. Extraction Point",
+   "release_world": 2006,
+   "comp_main": 15799,
+   "comp_plus": 18668,
+   "comp_100": 21313
+  }
+ ]
+}

@@ -1,0 +1,271 @@
+{
+  "slug": "fps-canon",
+  "title": "The FPS Canon",
+  "subtitle": "the genre-defining shooters, in release order",
+  "kind": "games",
+  "popularity": 60,
+  "year": "1992–2020",
+  "blurb": "27 shooters in the order they came out, Wolfenstein 3D to Half-Life: Alyx — about 245 hours of story across the 25 that have one.",
+  "unit": {
+    "one": "game",
+    "many": "games"
+  },
+  "verb": {
+    "base": "play",
+    "past": "played",
+    "ing": "playing"
+  },
+  "itemOrder": "number-first",
+  "accent": "#10851E",
+  "accentDark": "#4FE863",
+  "tiers": false,
+  "notes": [
+    [
+      "A canon is only as good as its sources, so here they are.",
+      "Every game here is named by at least three of the twenty published best-of-FPS features that Wikipedia's “Video games listed among the best first-person shooters” indexes — Paste, Complex, GameSpot, IGN, PC Gamer, USgamer, The A.V. Club, Den of Geek, Digital Trends, GamesRadar, Thrillist, Shortlist, TechRadar, VG247, NME, LaptopMag and Maxim among them.  18 of the 27 also sit in Den of Geek's ranked thirty, read in full as a second check. Nothing was added because it felt right."
+    ],
+    [
+      "Release order, not a ranking.",
+      "This is a lineage: each of these games left something the ones after it kept, and reading it top to bottom is watching the genre argue with itself. The four sections are eras, not tiers. One wrinkle worth naming — Half-Life lands in the arena era by its release date while being the game that starts the cinematic one, and the dates are left honest rather than tidied."
+    ],
+    [
+      "Two rows carry no hours, and no number was invented.",
+      "Counter-Strike and Team Fortress 2 have no campaign and no ending, so HowLongToBeat's figure for them is time played rather than time to finish — Team Fortress 2's is 298 hours, more than every other game on this list put together. They ship unweighted and count as an hour apiece to the bar, which is a floor rather than a claim. Quake III Arena, Unreal Tournament and Battlefield 1942 keep their figures: each shipped a ladder or campaign that ends."
+    ],
+    [
+      "The campaigns are short, and that is the genre.",
+      "The shortest here is Doom at about 5 hours, and it is the one everything after it answers to. Titanfall 2 is 6, Call of Duty 4 is 7. The 25 weighted games come to roughly 245 hours between them — about one long open-world game. Shooters were built to be finished over a weekend and replayed on a harder setting, and the numbers say so."
+    ],
+    [
+      "What is missing, and why.",
+      "Four kinds of thing were cut on purpose. Live-service shooters whose current build is nothing like their historical one — Valorant, Counter-Strike 2, Destiny 2, Apex Legends, Rainbow Six Siege — because there is no version of them to play through. Remakes and compilations of games already here, like Black Mesa and the Master Chief Collection. First-person games that are not shooters: Portal, Dishonored, Metroid Prime. And the immersive sims GameSpot's own 2004 list disqualified by name as closer to role-playing games — System Shock 2, Deus Ex — whose thread reaches this list through BioShock instead."
+    ],
+    [
+      "Three obvious names failed the gate.",
+      "Unreal (1998) is named by none of the twenty; Unreal Tournament carries the Epic line, and an engine's importance is not a game's. Doom II (1994) is named by two, and by neither editorial canon — it is the modding scene's platform and it has the better shotgun, but the canon step is Doom. Medal of Honor: Allied Assault (2002) is named by one; its claim is that the team behind it left to found Infinity Ward, and that team's first game, Call of Duty, is here instead. Following the sources when they are inconvenient is the whole point of naming them."
+    ],
+    "Contents from Wikipedia's “Video games listed among the best first-person shooters” and Den of Geek's “30 Best First-Person Shooter Games Ever Made”, cross-read against Wikipedia's “First-person shooter” history; hours from HowLongToBeat main-story figures, verified by name and release year."
+  ],
+  "sections": [
+    {
+      "id": "dos",
+      "title": "The DOS pioneers",
+      "sub": "1992–1996 · 4 games · 26 hours story",
+      "intro": "Four games from id Software and Apogee that invented the genre on DOS. In four years it goes from a flat maze with a gun in it to fully 3D geometry, mouselook and online deathmatch.",
+      "items": [
+        {
+          "id": "fps-wolf3d",
+          "t": "Wolfenstein 3D",
+          "n": "1992",
+          "note": "id Software on DOS, published by Apogee — the genre's shape in one game: a maze, a gun held in the corner of the screen, and doors.",
+          "w": 6.08
+        },
+        {
+          "id": "fps-doom",
+          "t": "Doom",
+          "n": "1993",
+          "note": "id again, a year later, with height, coloured light, level-editing tools and a multiplayer mode that named itself deathmatch.",
+          "w": 4.99
+        },
+        {
+          "id": "fps-duke3d",
+          "t": "Duke Nukem 3D",
+          "n": "1996",
+          "note": "3D Realms on the Build engine — the first shooter whose levels read as places rather than corridors, and the loudest game of the DOS era.",
+          "w": 9.2
+        },
+        {
+          "id": "fps-quake",
+          "t": "Quake",
+          "n": "1996",
+          "note": "id's move to true 3D geometry and mouselook, and the game that turned online deathmatch and the LAN party into a scene.",
+          "w": 5.34
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "arena",
+      "title": "The arena era",
+      "sub": "1997–2001 · 7 games · 53 hours story across 6",
+      "intro": "Deathmatch becomes the point — first on a LAN, then on a console. Half-Life sits here by date while quietly starting something else, and Halo closes the era by moving the whole genre onto a controller.",
+      "items": [
+        {
+          "id": "fps-goldeneye",
+          "t": "GoldenEye 007",
+          "n": "1997",
+          "note": "Rare on the Nintendo 64. The console shooter arrives: four-way split screen, and objectives that multiply with the difficulty setting.",
+          "w": 7.87
+        },
+        {
+          "id": "fps-halflife",
+          "t": "Half-Life",
+          "n": "1998",
+          "note": "Valve's first game, and the one that moved the story out of the text screens between levels and into the level itself, without cutting away.",
+          "w": 11.94
+        },
+        {
+          "id": "fps-ut",
+          "t": "Unreal Tournament",
+          "n": "1999",
+          "note": "Epic's arena game — a ladder of bots to climb alone, and the multiplayer modes the next twenty years borrowed from.",
+          "w": 10.42
+        },
+        {
+          "id": "fps-quake3",
+          "t": "Quake III Arena",
+          "n": "1999",
+          "note": "id's arena shooter with the campaign scraped off: movement, weapon balance and a bot ladder, and nothing else in the box.",
+          "w": 5.25
+        },
+        {
+          "id": "fps-perfectdark",
+          "t": "Perfect Dark",
+          "n": "2000",
+          "note": "Rare's follow-up to GoldenEye, pushed past what the Nintendo 64 could comfortably hold, with bots and a co-operative mode.",
+          "w": 8.03
+        },
+        {
+          "id": "fps-cs",
+          "t": "Counter-Strike",
+          "n": "2000",
+          "note": "A Half-Life mod turned retail release, and the template for round-based competitive shooters: two teams, one life a round, guns you buy."
+        },
+        {
+          "id": "fps-halo",
+          "t": "Halo: Combat Evolved",
+          "n": "2001",
+          "note": "Bungie's Xbox launch game. Two weapons, recharging shields and a controller layout console shooters still use unchanged.",
+          "w": 9.97
+        }
+      ]
+    },
+    {
+      "id": "cinematic",
+      "title": "The cinematic era",
+      "sub": "2002–2008 · 9 games · 71 hours story across 8",
+      "intro": "The campaign becomes a set piece and multiplayer becomes a career: combined arms, matchmaking, unlock progression, and the first co-op shooter built around a director.",
+      "items": [
+        {
+          "id": "fps-bf1942",
+          "t": "Battlefield 1942",
+          "n": "2002",
+          "note": "DICE's combined-arms shooter: dozens of players, vehicles to crew and a front line that moves — the branch Battlefield has run ever since.",
+          "w": 7.61
+        },
+        {
+          "id": "fps-cod",
+          "t": "Call of Duty",
+          "n": "2003",
+          "note": "Infinity Ward's first game. The war campaign as a scripted set piece, built around a squad rather than one soldier.",
+          "w": 6.86
+        },
+        {
+          "id": "fps-halo2",
+          "t": "Halo 2",
+          "n": "2004",
+          "note": "The Xbox Live one: matchmaking, parties and playlists, which is how console shooters became something you play online by default.",
+          "w": 9.18
+        },
+        {
+          "id": "fps-halflife2",
+          "t": "Half-Life 2",
+          "n": "2004",
+          "note": "Valve on the Source engine, with a physics system the design is built around. The game most of these lists open with.",
+          "w": 12.88
+        },
+        {
+          "id": "fps-fear",
+          "t": "F.E.A.R.",
+          "n": "2005",
+          "note": "Monolith's shooter, and the enemy AI the genre still measures itself against — squads that flank, suppress and call it out loud.",
+          "w": 8.17
+        },
+        {
+          "id": "fps-bioshock",
+          "t": "BioShock",
+          "n": "2007",
+          "note": "Irrational's shooter with a place to read as well as fight through — the immersive sim reaching a mainstream audience.",
+          "w": 12.11
+        },
+        {
+          "id": "fps-tf2",
+          "t": "Team Fortress 2",
+          "n": "2007",
+          "note": "Valve's class-based multiplayer game: nine roles, a cartoon art direction, and the free-to-play economy that followed it."
+        },
+        {
+          "id": "fps-cod4",
+          "t": "Call of Duty 4: Modern Warfare",
+          "n": "2007",
+          "note": "Infinity Ward moves the series to the present day and adds the levelling, unlocks and killstreaks multiplayer copied for a decade.",
+          "w": 6.89
+        },
+        {
+          "id": "fps-l4d",
+          "t": "Left 4 Dead",
+          "n": "2008",
+          "note": "Valve's four-player co-op shooter, paced by an AI Director that rearranges the pressure on every run.",
+          "w": 6.95
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "title": "The modern era",
+      "sub": "2010–2020 · 7 games · 95 hours story",
+      "intro": "Survival economies, loot, virtual reality, and two returns to 1993 — the decade the genre spent facing both directions at once.",
+      "items": [
+        {
+          "id": "fps-metro2033",
+          "t": "Metro 2033",
+          "n": "2010",
+          "note": "4A Games in the Moscow underground — scarce ammunition doubling as currency, and a gas mask on a timer.",
+          "w": 9.53
+        },
+        {
+          "id": "fps-borderlands2",
+          "t": "Borderlands 2",
+          "n": "2012",
+          "note": "Gearbox's looter-shooter at full strength: procedurally generated guns, four classes and drop-in co-op.",
+          "w": 30.07
+        },
+        {
+          "id": "fps-wolftno",
+          "t": "Wolfenstein: The New Order",
+          "n": "2014",
+          "note": "MachineGames revives the big single-player campaign, on the series that started the genre twenty-two years earlier.",
+          "w": 11.36
+        },
+        {
+          "id": "fps-doom2016",
+          "t": "Doom",
+          "n": "2016",
+          "note": "id's reboot, built for speed rather than cover — no regenerating health, and the head of the retro-shooter revival that followed.",
+          "w": 11.58
+        },
+        {
+          "id": "fps-titanfall2",
+          "t": "Titanfall 2",
+          "n": "2016",
+          "note": "Respawn's wall-running shooter with a mech you call down, wrapped around the most inventive campaign of its decade.",
+          "w": 6.1
+        },
+        {
+          "id": "fps-doometernal",
+          "t": "Doom Eternal",
+          "n": "2020",
+          "note": "The follow-up as a resource puzzle: every weapon and every enemy has a job, and standing still is not one of them.",
+          "w": 14.42
+        },
+        {
+          "id": "fps-alyx",
+          "t": "Half-Life: Alyx",
+          "n": "2020",
+          "note": "Valve in virtual reality — the first full-length shooter designed for it rather than ported into it.",
+          "w": 12.21
+        }
+      ]
+    }
+  ]
+}
