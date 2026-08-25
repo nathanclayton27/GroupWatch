@@ -278,6 +278,26 @@
     "totalw": 57.78
   },
   {
+    "slug": "pokemon",
+    "media": [
+      "games"
+    ],
+    "title": "Pokémon",
+    "subtitle": "the mainline generations in release order, remakes marked",
+    "kind": "games",
+    "year": "1996–",
+    "popularity": 88,
+    "blurb": "The mainline start to finish, Red and Blue through Scarlet and Violet — about 319 hours of story. The remakes, the third versions that diverge and the two Legends games add 237 more.",
+    "accent": "#3B4CCA",
+    "accentDark": "#FFCB05",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 18,
+    "totalw": 556.28
+  },
+  {
     "slug": "amazing-spider-man",
     "media": [
       "comics"

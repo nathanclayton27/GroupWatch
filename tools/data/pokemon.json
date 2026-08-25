@@ -1,0 +1,479 @@
+{
+ "rb": {
+  "id": 7169,
+  "name": "Pokémon Red and Blue",
+  "main_h": 25.78,
+  "year": 1996,
+  "query": "Pokemon Red and Blue",
+  "box": "RdGr",
+  "label": "Red & Green",
+  "article": "Pokémon Red and Blue",
+  "gen": 1,
+  "system": "Game Boy",
+  "column": "Main",
+  "wiki_year": 1996,
+  "wiki_years": [
+   1996,
+   1998,
+   1999,
+   2000
+  ],
+  "first_date": "1996-02-27",
+  "hltb_year": 1996,
+  "why": "ok"
+ },
+ "yellow": {
+  "id": 7182,
+  "name": "Pokémon Yellow: Special Pikachu Edition",
+  "main_h": 27.03,
+  "year": 1998,
+  "query": "Pokemon Yellow: Special Pikachu Edition",
+  "box": "Yllw",
+  "label": "Yellow",
+  "article": "Pokémon Yellow",
+  "gen": 1,
+  "system": "Game Boy",
+  "column": "UDLC",
+  "wiki_year": 1998,
+  "wiki_years": [
+   1998,
+   1999,
+   2000
+  ],
+  "first_date": "1998-09-12",
+  "hltb_year": 1998,
+  "why": "ok"
+ },
+ "gs": {
+  "id": 7152,
+  "name": "Pokémon Gold and Silver",
+  "main_h": 29.86,
+  "year": 1999,
+  "query": "Pokemon Gold and Silver",
+  "box": "GlSl",
+  "label": "Gold & Silver",
+  "article": "Pokémon Gold and Silver",
+  "gen": 2,
+  "system": "Game Boy Color",
+  "column": "Main",
+  "wiki_year": 1999,
+  "wiki_years": [
+   1999,
+   2000,
+   2001,
+   2002
+  ],
+  "first_date": "1999-11-21",
+  "hltb_year": 1999,
+  "why": "ok"
+ },
+ "crystal": {
+  "id": 7146,
+  "name": "Pokémon Crystal",
+  "main_h": 28.65,
+  "year": 2000,
+  "query": "Pokemon Crystal",
+  "box": "Crys",
+  "label": "Crystal",
+  "article": "Pokémon Crystal",
+  "gen": 2,
+  "system": "Game Boy Color",
+  "column": "UDLC",
+  "wiki_year": 2000,
+  "wiki_years": [
+   2000,
+   2001
+  ],
+  "first_date": "2000-12-14",
+  "hltb_year": 2000,
+  "why": "ok"
+ },
+ "rs": {
+  "id": 7170,
+  "name": "Pokémon Ruby and Sapphire",
+  "main_h": 35.01,
+  "year": 2002,
+  "query": "Pokemon Ruby and Sapphire",
+  "box": "RbSp",
+  "label": "Ruby & Sapphire",
+  "article": "Pokémon Ruby and Sapphire",
+  "gen": 3,
+  "system": "Game Boy Advance",
+  "column": "Main",
+  "wiki_year": 2002,
+  "wiki_years": [
+   2002,
+   2003
+  ],
+  "first_date": "2002-11-21",
+  "hltb_year": 2002,
+  "why": "ok"
+ },
+ "frlg": {
+  "id": 7151,
+  "name": "Pokémon FireRed and LeafGreen",
+  "main_h": 29.33,
+  "year": 2004,
+  "query": "Pokemon FireRed and LeafGreen",
+  "box": "FRLG",
+  "label": "FireRed & LeafGreen",
+  "article": "Pokémon FireRed and LeafGreen",
+  "gen": 3,
+  "system": "Game Boy Advance",
+  "column": "Remk",
+  "wiki_year": 2004,
+  "wiki_years": [
+   2004,
+   2026
+  ],
+  "first_date": "2004-01-29",
+  "hltb_year": 2004,
+  "why": "ok"
+ },
+ "emerald": {
+  "id": 7150,
+  "name": "Pokémon Emerald Version",
+  "main_h": 31.07,
+  "year": 2004,
+  "query": "Pokemon Emerald Version",
+  "box": "Emrl",
+  "label": "Emerald",
+  "article": "Pokémon Emerald",
+  "gen": 3,
+  "system": "Game Boy Advance",
+  "column": "UDLC",
+  "wiki_year": 2004,
+  "wiki_years": [
+   2004,
+   2005
+  ],
+  "first_date": "2004-09-16",
+  "hltb_year": 2004,
+  "why": "ok"
+ },
+ "dp": {
+  "id": 7148,
+  "name": "Pokémon Diamond and Pearl",
+  "main_h": 40.8,
+  "year": 2006,
+  "query": "Pokemon Diamond and Pearl",
+  "box": "DiPr",
+  "label": "Diamond & Pearl",
+  "article": "Pokémon Diamond and Pearl",
+  "gen": 4,
+  "system": "Nintendo DS",
+  "column": "Main",
+  "wiki_year": 2006,
+  "wiki_years": [
+   2006,
+   2007,
+   2008
+  ],
+  "first_date": "2006-09-28",
+  "hltb_year": 2006,
+  "why": "ok"
+ },
+ "platinum": {
+  "id": 7161,
+  "name": "Pokémon Platinum",
+  "main_h": 35.07,
+  "year": 2008,
+  "query": "Pokemon Platinum",
+  "box": "Plat",
+  "label": "Platinum",
+  "article": "Pokémon Platinum",
+  "gen": 4,
+  "system": "Nintendo DS",
+  "column": "UDLC",
+  "wiki_year": 2008,
+  "wiki_years": [
+   2008,
+   2009
+  ],
+  "first_date": "2008-09-13",
+  "hltb_year": 2008,
+  "why": "ok"
+ },
+ "hgss": {
+  "id": 7153,
+  "name": "Pokémon HeartGold and SoulSilver",
+  "main_h": 36.18,
+  "year": 2009,
+  "query": "Pokemon HeartGold and SoulSilver",
+  "box": "HGSS",
+  "label": "HeartGold & SoulSilver",
+  "article": "Pokémon HeartGold and SoulSilver",
+  "gen": 4,
+  "system": "Nintendo DS",
+  "column": "Remk",
+  "wiki_year": 2009,
+  "wiki_years": [
+   2009,
+   2010
+  ],
+  "first_date": "2009-09-12",
+  "hltb_year": 2009,
+  "why": "ok"
+ },
+ "bw": {
+  "id": 7140,
+  "name": "Pokémon Black and White",
+  "main_h": 31.62,
+  "year": 2010,
+  "query": "Pokemon Black and White",
+  "box": "BlWh",
+  "label": "Black & White",
+  "article": "Pokémon Black and White",
+  "gen": 5,
+  "system": "Nintendo DS",
+  "column": "Main",
+  "wiki_year": 2010,
+  "wiki_years": [
+   2010,
+   2011
+  ],
+  "first_date": "2010-09-18",
+  "hltb_year": 2010,
+  "why": "ok"
+ },
+ "bw2": {
+  "id": 7141,
+  "name": "Pokémon Black and White 2",
+  "main_h": 34.12,
+  "year": 2012,
+  "query": "Pokemon Black and White 2",
+  "box": "B2W2",
+  "label": "Black&nbsp;2 & White&nbsp;2",
+  "article": "Pokémon Black 2 and White 2",
+  "gen": 5,
+  "system": "Nintendo DS",
+  "column": "Main",
+  "wiki_year": 2012,
+  "wiki_years": [
+   2012
+  ],
+  "first_date": "2012-06-23",
+  "hltb_year": 2012,
+  "why": "ok"
+ },
+ "xy": {
+  "id": 13937,
+  "name": "Pokémon X and Y",
+  "main_h": 30.99,
+  "year": 2013,
+  "query": "Pokemon X and Y",
+  "box": "XY",
+  "label": "X & Y",
+  "article": "Pokémon X and Y",
+  "gen": 6,
+  "system": "Nintendo 3DS",
+  "column": "Main",
+  "wiki_year": 2013,
+  "wiki_years": [
+   2013
+  ],
+  "first_date": "2013-10-12",
+  "hltb_year": 2013,
+  "why": "ok"
+ },
+ "oras": {
+  "id": 21324,
+  "name": "Pokémon Omega Ruby and Alpha Sapphire",
+  "main_h": 25.71,
+  "year": 2014,
+  "query": "Pokemon Omega Ruby and Alpha Sapphire",
+  "box": "ORAS",
+  "label": "Omega&nbsp;Ruby & Alpha&nbsp;Sapphire",
+  "article": "Pokémon Omega Ruby and Alpha Sapphire",
+  "gen": 6,
+  "system": "Nintendo 3DS",
+  "column": "Remk",
+  "wiki_year": 2014,
+  "wiki_years": [
+   2014
+  ],
+  "first_date": "2014-11-21",
+  "hltb_year": 2014,
+  "why": "ok"
+ },
+ "sm": {
+  "id": 37220,
+  "name": "Pokémon Sun and Moon",
+  "main_h": 33.36,
+  "year": 2016,
+  "query": "Pokemon Sun and Moon",
+  "box": "SM",
+  "label": "Sun & Moon",
+  "article": "Pokémon Sun and Moon",
+  "gen": 7,
+  "system": "Nintendo 3DS",
+  "column": "Main",
+  "wiki_year": 2016,
+  "wiki_years": [
+   2016
+  ],
+  "first_date": "2016-11-18",
+  "hltb_year": 2016,
+  "why": "ok"
+ },
+ "usum": {
+  "id": 46323,
+  "name": "Pokémon Ultra Sun and Ultra Moon",
+  "main_h": 33.14,
+  "year": 2017,
+  "query": "Pokemon Ultra Sun and Ultra Moon",
+  "box": "USUM",
+  "label": "Ultra Sun & Ultra Moon",
+  "article": "Pokémon Ultra Sun and Ultra Moon",
+  "gen": 7,
+  "system": "Nintendo 3DS",
+  "column": "UDLC",
+  "wiki_year": 2017,
+  "wiki_years": [
+   2017
+  ],
+  "first_date": "2017-11-17",
+  "hltb_year": 2017,
+  "why": "ok"
+ },
+ "lgpe": {
+  "id": 57519,
+  "name": "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!",
+  "main_h": 25.15,
+  "year": 2018,
+  "query": "Pokemon: Let's Go, Pikachu! and Let's Go, Eevee!",
+  "box": "LGPE",
+  "label": "Let's Go, Pikachu! & Let's Go, Eevee!",
+  "article": "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!",
+  "gen": 7,
+  "system": "Nintendo 3DS",
+  "column": "Remk",
+  "wiki_year": 2018,
+  "wiki_years": [
+   2018
+  ],
+  "first_date": "2018-11-16",
+  "hltb_year": 2018,
+  "why": "ok"
+ },
+ "swsh": {
+  "id": 65235,
+  "name": "Pokémon Sword and Shield",
+  "main_h": 25.59,
+  "year": 2019,
+  "query": "Pokemon Sword and Shield",
+  "box": "SwSh",
+  "label": "Sword & Shield",
+  "article": "Pokémon Sword and Shield",
+  "gen": 8,
+  "system": "Nintendo Switch",
+  "column": "Main",
+  "wiki_year": 2019,
+  "wiki_years": [
+   2019
+  ],
+  "first_date": "2019-11-15",
+  "hltb_year": 2019,
+  "why": "ok"
+ },
+ "bdsp": {
+  "id": 89111,
+  "name": "Pokémon Brilliant Diamond and Shining Pearl",
+  "main_h": 26.18,
+  "year": 2021,
+  "query": "Pokemon Brilliant Diamond and Shining Pearl",
+  "box": "BDSP",
+  "label": "Brilliant Diamond & Shining Pearl",
+  "article": "Pokémon Brilliant Diamond and Shining Pearl",
+  "gen": 8,
+  "system": "Nintendo Switch",
+  "column": "Remk",
+  "wiki_year": 2021,
+  "wiki_years": [
+   2021
+  ],
+  "first_date": "2021-11-19",
+  "hltb_year": 2021,
+  "why": "ok"
+ },
+ "la": {
+  "id": 89107,
+  "name": "Pokémon Legends: Arceus",
+  "main_h": 25.7,
+  "year": 2022,
+  "query": "Pokemon Legends: Arceus",
+  "box": "LA",
+  "label": "Legends: Arceus",
+  "article": "Pokémon Legends: Arceus",
+  "gen": 8,
+  "system": "Nintendo Switch",
+  "column": "Lgnd",
+  "wiki_year": 2022,
+  "wiki_years": [
+   2022
+  ],
+  "first_date": "2022-01-28",
+  "hltb_year": 2022,
+  "why": "ok"
+ },
+ "sv": {
+  "id": 104683,
+  "name": "Pokémon Scarlet and Violet",
+  "main_h": 32.03,
+  "year": 2022,
+  "query": "Pokemon Scarlet and Violet",
+  "box": "SV",
+  "label": "Scarlet & Violet",
+  "article": "Pokémon Scarlet and Violet",
+  "gen": 9,
+  "system": "Nintendo Switch",
+  "column": "Main",
+  "wiki_year": 2022,
+  "wiki_years": [
+   2022
+  ],
+  "first_date": "2022-11-18",
+  "hltb_year": 2022,
+  "why": "ok"
+ },
+ "lza": {
+  "id": 146234,
+  "name": "Pokémon Legends: Z-A",
+  "main_h": 27.88,
+  "year": 2025,
+  "query": "Pokemon Legends: Z-A",
+  "box": "LZA",
+  "label": "Legends: Z-A",
+  "article": "Pokémon Legends: Z-A",
+  "gen": 9,
+  "system": "Nintendo Switch",
+  "column": "Lgnd",
+  "wiki_year": 2025,
+  "wiki_years": [
+   2025
+  ],
+  "first_date": "2025-10-16",
+  "hltb_year": 2025,
+  "why": "ok"
+ },
+ "ww": {
+  "id": 182543,
+  "name": "Pokémon Winds and Waves",
+  "main_h": null,
+  "year": 2027,
+  "query": "Pokemon Winds and Waves",
+  "box": "WiWa",
+  "label": "Winds & Waves",
+  "article": "Pokémon Winds and Waves",
+  "gen": 10,
+  "system": "Nintendo Switch 2",
+  "column": "Main",
+  "wiki_year": 2027,
+  "wiki_years": [
+   2027
+  ],
+  "first_date": null,
+  "hltb_year": 2027,
+  "why": "verified by name but no main-story figure"
+ }
+}

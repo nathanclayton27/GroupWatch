@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and fifty-nine lists, from a ten-episode anime to a 1,337-spine film
+One hundred and sixty lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -67,7 +67,9 @@ Attorney* docket, *Fallout* and *The Elder Scrolls* with their story DLC as
 optional rows, *Persona* (the whole franchise, 927 hours, stated plainly), *Dragon Quest*,
 *Mass Effect*, *Dragon Age*, *Mega Man* (94 games across eight sub-series),
 *Grand Theft Auto* (212 hours across the 2D, 3D and HD universes, the
-handhelds and expansions optional),
+handhelds and expansions optional), *Pokémon* (the mainline by generation,
+paired versions as one row, third versions and remakes optional only where
+they add more than three hours over the game they retell),
 the *James Bond* games on their own page apart from the films, an
 *FPS canon* gated on three or more published best-of lists, and a
 house-picked indie essentials shelf —
