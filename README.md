@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and forty-four lists, from a ten-episode anime to a 1,337-spine film
+One hundred and forty-six lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -45,7 +45,8 @@ compilations, every episode verified against the episode tables.
 **Games with story-only hours.** *Kingdom Hearts*, *Metal Gear*, *Zelda*,
 *Yakuza / Like a Dragon*, the *FromSoftware* Souls line, *Final Fantasy*,
 *Resident Evil*, mainline *Mario* and *Metroid*, *Castlevania* (with style
-chips), *Half-Life & Portal*, *Silent Hill*, *Halo*, the whole *Ace
+chips), *Half-Life & Portal*, *Silent Hill*, *Halo*, *Gears of War* (49 hours of
+numbered campaign, the spin-offs optional beside it), the whole *Ace
 Attorney* docket, *Fallout* and *The Elder Scrolls* with their story DLC as
 optional rows, *Persona* (431 hours, stated plainly), *Dragon Quest*,
 *Mass Effect*, *Dragon Age*, *Mega Man* (94 games across eight sub-series),
@@ -101,6 +102,8 @@ thirteen films in one place), *Avatar* with *Korra*, *The Office*,
 *Futurama*, *Rick and Morty* (all nine seasons, episodes only — the
 anime shorts and the claymation webisodes stay out), *Archer* (all
 fourteen, the four themed seasons named as the show named them),
+*Bob's Burgers* (sixteen seasons, the film left off an episode list
+on purpose),
 *Battlestar Galactica*, *Black Mirror* — the rare
 television list with a verified runtime on every row — *Invincible*,
 and the big anime runs: *Naruto* and *Bleach* with their filler

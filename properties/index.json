@@ -1249,6 +1249,25 @@
     "total": 74
   },
   {
+    "slug": "bobs-burgers",
+    "media": [
+      "tv"
+    ],
+    "title": "Bob's Burgers",
+    "subtitle": "every episode, in broadcast order",
+    "kind": "tv",
+    "year": "2011–",
+    "popularity": 70,
+    "blurb": "Fox's Belcher family sitcom, one row per episode, every season in the order it aired.",
+    "accent": "#B4331C",
+    "accentDark": "#F2A65A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 312
+  },
+  {
     "slug": "invincible",
     "media": [
       "tv"
@@ -1400,6 +1419,25 @@
       "many": "films"
     },
     "total": 24
+  },
+  {
+    "slug": "gears-of-war",
+    "media": [
+      "games"
+    ],
+    "title": "Gears of War",
+    "subtitle": "the campaigns in release order, spin-offs marked",
+    "kind": "games",
+    "year": "2006–",
+    "popularity": 68,
+    "blurb": "The Locust war end to end — about 88 hours of campaign, 49 of it the numbered line.",
+    "accent": "#7A2E24",
+    "accentDark": "#C9D46A",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 9
   },
   {
     "slug": "kingdom-hearts",

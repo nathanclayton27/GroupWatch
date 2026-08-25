@@ -1,0 +1,139 @@
+{
+  "slug": "gears-of-war",
+  "title": "Gears of War",
+  "subtitle": "the campaigns in release order, spin-offs marked",
+  "kind": "games",
+  "popularity": 68,
+  "year": "2006–",
+  "blurb": "The Locust war end to end — about 88 hours of campaign, 49 of it the numbered line.",
+  "unit": {
+    "one": "game",
+    "many": "games"
+  },
+  "verb": {
+    "base": "play",
+    "past": "played",
+    "ing": "playing"
+  },
+  "itemOrder": "number-first",
+  "accent": "#7A2E24",
+  "accentDark": "#C9D46A",
+  "tiers": false,
+  "notes": [
+    [
+      "Campaigns, in release order.",
+      "This list is the stories. Horde and multiplayer are their own hobby and keep their own hours. The two downloadable campaigns sit where they came out rather than being tucked under the games they attach to, because release order is how the series actually arrived."
+    ],
+    [
+      "Judgment is a spin-off, so it is optional.",
+      "Wikipedia files it under spin-offs and its release timeline leaves it unbolded, so the source does not call it mainline — but it is the same shooter with the same guns, made by Epic with People Can Fly, and it finishes. It is here because it is a real campaign; it is marked optional because it is Baird's court-martial with a squad the numbered games never mention again, and nothing after it depends on it."
+    ],
+    [
+      "One row for the first game, not three.",
+      "Ultimate Edition (2015) and Reloaded (2025) are remasters of the 2006 campaign, and HowLongToBeat times all three within about an hour or two of each other — the same game with better lighting. The Halo list folds Anniversary into Combat Evolved for the same reason. Worth knowing anyway: Ultimate Edition is the version that restores the five chapters which were PC-only in 2006, and Reloaded is the one that put the first game on PlayStation."
+    ],
+    [
+      "Tactics is optional the way Halo Wars is.",
+      "Turn-based tactics rather than a shooter — a different genre wearing the same war. It is a prequel that opens as the Hammer of Dawn strikes fall, and it follows the man who becomes Kait's father. It is also the longest campaign here by a wide margin, which is exactly why it is not folded into the shooter total. A recap covers it if strategy is not your thing."
+    ],
+    [
+      "The two expansions need their parent game.",
+      "RAAM's Shadow is bought against Gears of War 3 and Hivebusters against Gears 5, which is why both are marked optional. Each is a separate campaign with its own squad rather than a mission pack, and each is a single evening."
+    ],
+    [
+      "What is not here.",
+      "Gears Pop! was a Funko-branded mobile strategy game with no campaign, and Microsoft shut its servers off in April 2021 — there is nothing left to play. E-Day, the prequel set fourteen years before the first game, is announced for 6 October 2026 and is not out; HowLongToBeat has a record for it and no figure, and this list refuses to guess one. It goes on the day there is a real number to put beside it."
+    ],
+    [
+      "Hours are story only.",
+      "HowLongToBeat main-story figures — normal difficulty, no Insane runs, no Horde, no multiplayer. Every row here carries a real one; nothing on this list was estimated."
+    ],
+    "Game list, release order and dates from Wikipedia's Gears of War article and the individual game articles; hours from HowLongToBeat main-story figures, verified by name and exact release year."
+  ],
+  "sections": [
+    {
+      "id": "epic",
+      "title": "The Epic years",
+      "sub": "2006–2013 · 5 campaigns · 39 hours story",
+      "intro": "Epic Games on the Xbox 360, 2006–2013: the Locust war start to finish, plus the two the numbered trilogy spun off.",
+      "items": [
+        {
+          "id": "gow-gow1",
+          "t": "Gears of War",
+          "n": "2006",
+          "w": 9.05,
+          "note": "Delta Squad, the Lightmass offensive, and the chest-high wall the whole decade copied"
+        },
+        {
+          "id": "gow-gow2",
+          "t": "Gears of War 2",
+          "n": "2008",
+          "w": 10.0,
+          "note": "Six months on, and the COG sink their own city to drown the Hollow"
+        },
+        {
+          "id": "gow-gow3",
+          "t": "Gears of War 3",
+          "n": "2011",
+          "w": 9.67,
+          "note": "The trilogy's close — the Lambent, Adam Fenix, and the end of the war"
+        },
+        {
+          "id": "gow-raam",
+          "t": "Gears of War 3: RAAM's Shadow",
+          "n": "2011",
+          "w": 2.79,
+          "note": "Downloadable side campaign for the third game: Zeta-Six at Ilima, and stretches played as General RAAM himself. The shortest sitting here.",
+          "opt": 1
+        },
+        {
+          "id": "gow-judgment",
+          "t": "Gears of War: Judgment",
+          "n": "2013",
+          "w": 7.07,
+          "note": "Spin-off prequel — Baird's court-martial, told as testimony, with a squad the numbered games never come back to",
+          "opt": 1
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "coalition",
+      "title": "The Coalition",
+      "sub": "2016–2020 · 4 campaigns · 49 hours story",
+      "intro": "Microsoft's own studio picks it up, 2016 on — a new Fenix, a new enemy, and the series' first turn-based detour.",
+      "items": [
+        {
+          "id": "gow-gow4",
+          "t": "Gears of War 4",
+          "n": "2016",
+          "w": 9.07,
+          "note": "Twenty-five years after the third game, and a new generation: JD Fenix, Kait, Del, and the Swarm risen from the Locust's remains"
+        },
+        {
+          "id": "gow-gears5",
+          "t": "Gears 5",
+          "n": "2019",
+          "w": 11.28,
+          "note": "Kait's story, and where the Locust actually came from. The longest of the numbered campaigns."
+        },
+        {
+          "id": "gow-tactics",
+          "t": "Gears Tactics",
+          "n": "2020",
+          "w": 25.48,
+          "note": "Turn-based tactics spin-off and a prequel — it opens as the Hammer of Dawn strikes fall, and follows the man who becomes Kait's father. By some distance the longest campaign here.",
+          "opt": 1
+        },
+        {
+          "id": "gow-hivebusters",
+          "t": "Gears 5: Hivebusters",
+          "n": "2020",
+          "w": 3.12,
+          "note": "Downloadable expansion for Gears 5: Scorpio Squad, six chapters in Sera's South Islands, and the series at its most colourful",
+          "opt": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1724 @@
+{
+  "slug": "bobs-burgers",
+  "title": "Bob's Burgers",
+  "subtitle": "every episode, in broadcast order",
+  "kind": "tv",
+  "popularity": 70,
+  "year": "2011–",
+  "blurb": "Fox's Belcher family sitcom, one row per episode, every season in the order it aired.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#B4331C",
+  "accentDark": "#F2A65A",
+  "tiers": false,
+  "notes": [
+    [
+      "Episodes only — the film is not here.",
+      "The Bob's Burgers Movie went out in cinemas in May 2022 and the source article files it under its own heading, with no episode number and no place in the count. A cinema feature dropped among twenty-two-minute episodes would count as one row exactly like them, which misrepresents both, so it is named here instead of listed. The two shorts, My Butt Has a Fever and On the Fort Day of Christmas, are out for the same reason — and the second has no airdate at all."
+    ],
+    [
+      "The Bleakening is one row, not two.",
+      "Season 8's Christmas special aired as a single hour-long block in December 2017. Wikipedia numbers it as episodes 6 and 7 but gives the two halves one title between them, so this list follows its episode table and shows one row labelled 6–7. That is why the total reads one lower than the 313 episodes the series infobox counts; every one of those 313 numbers is accounted for, and the season 8 heading says so."
+    ],
+    [
+      "Broadcast order, which is the only order there is.",
+      "Fox has aired this show out of production order in all sixteen seasons, and the production cycles do not line up with the broadcast seasons either — broadcast season 3 mixes two cycles, and season 14 is mostly the thirteenth. There is no production order any box set or streaming season follows, and Wikipedia's numbering agrees with the airdates end to end, so the rows sit where the numbering puts them."
+    ],
+    [
+      "Nothing is weighted.",
+      "Wikipedia documents one running time for the series — 20 to 23 minutes — and not a single episode in the sixteen season articles carries its own, so there is no verifiable per-row number to weight with and every row counts one. A half-weighted list is worse than an unweighted one: a row with no weight would silently count as a full hour. That holds for the hour-long Bleakening too."
+    ],
+    [
+      "The show is not finished.",
+      "Season 16 ended on May 17, 2026. Fox renewed Bob's Burgers in April 2025 for four more seasons, through a nineteenth; season 17 had not begun airing when this was built, so nothing from it is listed. Its episodes join the list as they go out."
+    ],
+    "Titles and airdates machine-read from Wikipedia's sixteen Bob's Burgers season articles; every season's count is asserted against both the list article's own series overview and that season's own infobox, the overall numbering asserted contiguous, the airdates asserted in order within every season, and the total cross-checked against the series infobox before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "2011 · 13 episodes",
+      "items": [
+        {
+          "id": "bobs-s1e1",
+          "t": "Human Flesh",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s1e2",
+          "t": "Crawl Space",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s1e3",
+          "t": "Sacred Cow",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s1e4",
+          "t": "Sexy Dance Fighting",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s1e5",
+          "t": "Hamburger Dinner Theater",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s1e6",
+          "t": "Sheesh! Cab, Bob?",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s1e7",
+          "t": "Bed & Breakfast",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s1e8",
+          "t": "Art Crawl",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s1e9",
+          "t": "Spaghetti Western and Meatballs",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s1e10",
+          "t": "Burger War",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s1e11",
+          "t": "Weekend at Mort's",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s1e12",
+          "t": "Lobsterfest",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s1e13",
+          "t": "Torpedo",
+          "n": "13"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "2012 · 9 episodes",
+      "items": [
+        {
+          "id": "bobs-s2e1",
+          "t": "The Belchies",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s2e2",
+          "t": "Bob Day Afternoon",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s2e3",
+          "t": "Synchronized Swimming",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s2e4",
+          "t": "Burgerboss",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s2e5",
+          "t": "Food Truckin'",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s2e6",
+          "t": "Dr. Yap",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s2e7",
+          "t": "Moody Foodie",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s2e8",
+          "t": "Bad Tina",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s2e9",
+          "t": "Beefsquatch",
+          "n": "9"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "2012–13 · 23 episodes",
+      "items": [
+        {
+          "id": "bobs-s3e1",
+          "t": "Ear-sy Rider",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s3e2",
+          "t": "Full Bars",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s3e3",
+          "t": "Bob Fires the Kids",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s3e4",
+          "t": "Mutiny on the Windbreaker",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s3e5",
+          "t": "An Indecent Thanksgiving Proposal",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s3e6",
+          "t": "The Deepening",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s3e7",
+          "t": "Tinarannosaurus Wrecks",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s3e8",
+          "t": "The Unbearable Like-Likeness of Gene",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s3e9",
+          "t": "God Rest Ye Merry Gentle-Mannequins",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s3e10",
+          "t": "Mother Daughter Laser Razor",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s3e11",
+          "t": "Nude Beach",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s3e12",
+          "t": "Broadcast Wagstaff School News",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s3e13",
+          "t": "My Fuzzy Valentine",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s3e14",
+          "t": "Lindapendent Woman",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s3e15",
+          "t": "O.T.: The Outside Toilet",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s3e16",
+          "t": "Topsy",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s3e17",
+          "t": "Two for Tina",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s3e18",
+          "t": "It Snakes a Village",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s3e19",
+          "t": "Family Fracas",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s3e20",
+          "t": "The Kids Run the Restaurant",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s3e21",
+          "t": "Boyz 4 Now",
+          "n": "21"
+        },
+        {
+          "id": "bobs-s3e22",
+          "t": "Carpe Museum",
+          "n": "22"
+        },
+        {
+          "id": "bobs-s3e23",
+          "t": "The Unnatural",
+          "n": "23"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Season 4",
+      "sub": "2013–14 · 22 episodes",
+      "items": [
+        {
+          "id": "bobs-s4e1",
+          "t": "A River Runs Through Bob",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s4e2",
+          "t": "Fort Night",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s4e3",
+          "t": "Seaplane!",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s4e4",
+          "t": "My Big Fat Greek Bob",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s4e5",
+          "t": "Turkey in a Can",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s4e6",
+          "t": "Purple Rain-Union",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s4e7",
+          "t": "Bob and Deliver",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s4e8",
+          "t": "Christmas in the Car",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s4e9",
+          "t": "Slumber Party",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s4e10",
+          "t": "Presto Tina-o",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s4e11",
+          "t": "Easy Com-mercial, Easy Go-mercial",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s4e12",
+          "t": "The Frond Files",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s4e13",
+          "t": "Mazel-Tina",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s4e14",
+          "t": "Uncle Teddy",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s4e15",
+          "t": "The Kids Rob a Train",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s4e16",
+          "t": "I Get Psy-chic Out of You",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s4e17",
+          "t": "The Equestranauts",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s4e18",
+          "t": "Ambergris",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s4e19",
+          "t": "The Kids Run Away",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s4e20",
+          "t": "Gene It On",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s4e21",
+          "t": "Wharf Horse (or How Bob Saves/Destroys the Town – Part I)",
+          "n": "21"
+        },
+        {
+          "id": "bobs-s4e22",
+          "t": "World Wharf II: The Wharfening (or How Bob Saves/Destroys the Town – Part II)",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Season 5",
+      "sub": "2014–15 · 21 episodes",
+      "items": [
+        {
+          "id": "bobs-s5e1",
+          "t": "Work Hard or Die Trying, Girl",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s5e2",
+          "t": "Tina and the Real Ghost",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s5e3",
+          "t": "Friends with Burger-fits",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s5e4",
+          "t": "Dawn of the Peck",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s5e5",
+          "t": "Best Burger",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s5e6",
+          "t": "Father of the Bob",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s5e7",
+          "t": "Tina Tailor Soldier Spy",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s5e8",
+          "t": "Midday Run",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s5e9",
+          "t": "Speakeasy Rider",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s5e10",
+          "t": "Late Afternoon in the Garden of Bob and Louise",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s5e11",
+          "t": "Can't Buy Me Math",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s5e12",
+          "t": "The Millie-churian Candidate",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s5e13",
+          "t": "The Gayle Tales",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s5e14",
+          "t": "L'il Hard Dad",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s5e15",
+          "t": "Adventures in Chinchilla-sitting",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s5e16",
+          "t": "The Runway Club",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s5e17",
+          "t": "Itty Bitty Ditty Committee",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s5e18",
+          "t": "Eat, Spray, Linda",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s5e19",
+          "t": "Housetrap",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s5e20",
+          "t": "Hawk & Chick",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s5e21",
+          "t": "The Oeder Games",
+          "n": "21"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Season 6",
+      "sub": "2015–16 · 19 episodes",
+      "items": [
+        {
+          "id": "bobs-s6e1",
+          "t": "Sliding Bobs",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s6e2",
+          "t": "The Land Ship",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s6e3",
+          "t": "The Hauntening",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s6e4",
+          "t": "Gayle Makin' Bob Sled",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s6e5",
+          "t": "Nice-Capades",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s6e6",
+          "t": "The Cook, the Steve, the Gayle, & Her Lover",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s6e7",
+          "t": "The Gene and Courtney Show",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s6e8",
+          "t": "Sexy Dance Healing",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s6e9",
+          "t": "Sacred Couch",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s6e10",
+          "t": "Lice Things Are Lice",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s6e11",
+          "t": "House of 1000 Bounces",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s6e12",
+          "t": "Stand by Gene",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s6e13",
+          "t": "Wag the Hog",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s6e14",
+          "t": "The Hormone-iums",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s6e15",
+          "t": "Pro Tiki/Con Tiki",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s6e16",
+          "t": "Bye Bye Boo Boo",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s6e17",
+          "t": "The Horse Rider-er",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s6e18",
+          "t": "Secret Admiral-irer",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s6e19",
+          "t": "Glued, Where's My Bob?",
+          "n": "19"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Season 7",
+      "sub": "2016–17 · 22 episodes",
+      "items": [
+        {
+          "id": "bobs-s7e1",
+          "t": "Flu-ouise",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s7e2",
+          "t": "Sea Me Now",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s7e3",
+          "t": "Teen-a Witch",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s7e4",
+          "t": "They Serve Horses, Don't They?",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s7e5",
+          "t": "Large Brother, Where Fart Thou?",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s7e6",
+          "t": "The Quirkducers",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s7e7",
+          "t": "The Last Gingerbread House on the Left",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s7e8",
+          "t": "Ex Mach Tina",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s7e9",
+          "t": "Bob Actually",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s7e10",
+          "t": "There's No Business Like Mr. Business Business",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s7e11",
+          "t": "A Few 'Gurt Men",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s7e12",
+          "t": "Like Gene for Chocolate",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s7e13",
+          "t": "The Grand Mama-pest Hotel",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s7e14",
+          "t": "Aquaticism",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s7e15",
+          "t": "Ain't Miss Debatin'",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s7e16",
+          "t": "Eggs for Days",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s7e17",
+          "t": "Zero Larp Thirty",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s7e18",
+          "t": "The Laser-inth",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s7e19",
+          "t": "Thelma & Louise Except Thelma is Linda",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s7e20",
+          "t": "Mom, Lies, and Videotapes",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s7e21",
+          "t": "Paraders of the Lost Float",
+          "n": "21"
+        },
+        {
+          "id": "bobs-s7e22",
+          "t": "Into the Mild",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Season 8",
+      "sub": "2017–18 · 21 episodes in 20 rows",
+      "items": [
+        {
+          "id": "bobs-s8e1",
+          "t": "Brunchsquatch",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s8e2",
+          "t": "The Silence of the Louise",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s8e3",
+          "t": "The Wolf of Wharf Street",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s8e4",
+          "t": "Sit Me Baby One More Time",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s8e5",
+          "t": "Thanks-hoarding",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s8e6-7",
+          "t": "The Bleakening",
+          "n": "6–7",
+          "note": "one hour-long episode · numbered 6 and 7 in the season"
+        },
+        {
+          "id": "bobs-s8e8",
+          "t": "V for Valentine-detta",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s8e9",
+          "t": "Y Tu Ga-Ga Tambien",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s8e10",
+          "t": "The Secret Ceramics Room of Secrets",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s8e11",
+          "t": "Sleeping with the Frenemy",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s8e12",
+          "t": "The Hurt Soccer",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s8e13",
+          "t": "Cheer Up, Sleepy Gene",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s8e14",
+          "t": "The Trouble with Doubles",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s8e15",
+          "t": "Go Tina on the Mountain",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s8e16",
+          "t": "Are You There Bob? It's Me, Birthday",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s8e17",
+          "t": "Boywatch",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s8e18",
+          "t": "As I Walk Through the Alley of the Shadow of Ramps",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s8e19",
+          "t": "Mo Mommy, Mo Problems",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s8e20",
+          "t": "Mission Impos-slug-ble",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s8e21",
+          "t": "Something Old, Something New, Something Bob Caters for You",
+          "n": "21"
+        }
+      ],
+      "intro": "Its Christmas special, \"The Bleakening\", went out as one hour-long block on December 10, 2017. Wikipedia numbers it as episodes 6 and 7 and gives the two halves a single title between them, so it is one row here rather than two rows with an invented Part 1 and Part 2."
+    },
+    {
+      "id": "s9",
+      "title": "Season 9",
+      "sub": "2018–19 · 22 episodes",
+      "items": [
+        {
+          "id": "bobs-s9e1",
+          "t": "Just One of the Boyz 4 Now for Now",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s9e2",
+          "t": "The Taking of Funtime One Two Three",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s9e3",
+          "t": "Tweentrepreneurs",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s9e4",
+          "t": "Nightmare on Ocean Avenue Street",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s9e5",
+          "t": "Live and Let Fly",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s9e6",
+          "t": "Bobby Driver",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s9e7",
+          "t": "I Bob Your Pardon",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s9e8",
+          "t": "Roller? I Hardly Know Her!",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s9e9",
+          "t": "UFO No You Didn't",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s9e10",
+          "t": "Better Off Sled",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s9e11",
+          "t": "Lorenzo's Oil? No, Linda's",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s9e12",
+          "t": "The Helen Hunt",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s9e13",
+          "t": "Bed, Bob & Beyond",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s9e14",
+          "t": "Every Which Way but Goose",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s9e15",
+          "t": "The Fresh Princ-ipal",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s9e16",
+          "t": "Roamin' Bob-iday",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s9e17",
+          "t": "What About Blob?",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s9e18",
+          "t": "If You Love It So Much, Why Don't You Marionette?",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s9e19",
+          "t": "Long Time Listener, First Time Bob",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s9e20",
+          "t": "The Gene Mile",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s9e21",
+          "t": "P.T.A. It Ain't So",
+          "n": "21"
+        },
+        {
+          "id": "bobs-s9e22",
+          "t": "Yes Without My Zeke",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Season 10",
+      "sub": "2019–20 · 22 episodes",
+      "items": [
+        {
+          "id": "bobs-s10e1",
+          "t": "The Ring (But Not Scary)",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s10e2",
+          "t": "Boys Just Wanna Have Fungus",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s10e3",
+          "t": "Motor, She Boat",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s10e4",
+          "t": "Pig Trouble in Little Tina",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s10e5",
+          "t": "Legends of the Mall",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s10e6",
+          "t": "The Hawkening: Look Who's Hawking Now!",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s10e7",
+          "t": "Land of the Loft",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s10e8",
+          "t": "Now We're Not Cooking with Gas",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s10e9",
+          "t": "All That Gene",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s10e10",
+          "t": "Have Yourself a Maily Linda Christmas",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s10e11",
+          "t": "Drumforgiven",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s10e12",
+          "t": "A Fish Called Tina",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s10e13",
+          "t": "Three Girls and a Little Wharfy",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s10e14",
+          "t": "Wag the Song",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s10e15",
+          "t": "Yurty Rotten Scoundrels",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s10e16",
+          "t": "Flat-Top o' the Morning to Ya",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s10e17",
+          "t": "Just the Trip",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s10e18",
+          "t": "Tappy Tappy Tappy Tap Tap Tap",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s10e19",
+          "t": "The Handyman Can",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s10e20",
+          "t": "Poops!... I Didn't Do It Again",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s10e21",
+          "t": "Local She-ro",
+          "n": "21"
+        },
+        {
+          "id": "bobs-s10e22",
+          "t": "Prank You for Being a Friend",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Season 11",
+      "sub": "2020–21 · 22 episodes",
+      "items": [
+        {
+          "id": "bobs-s11e1",
+          "t": "Dream a Little Bob of Bob",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s11e2",
+          "t": "Worms of In-Rear-ment",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s11e3",
+          "t": "Copa-Bob-bana",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s11e4",
+          "t": "Heartbreak Hotel-oween",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s11e5",
+          "t": "Fast Time Capsules at Wagstaff School",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s11e6",
+          "t": "Bob Belcher and the Terrible, Horrible, No Good, Very Bad Kids",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s11e7",
+          "t": "Diarrhea of a Poopy Kid",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s11e8",
+          "t": "The Terminalator II: Terminals of Endearment",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s11e9",
+          "t": "Mommy Boy",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s11e10",
+          "t": "Yachty or Nice",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s11e11",
+          "t": "Romancing the Beef",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s11e12",
+          "t": "Die Card, or Card Trying",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s11e13",
+          "t": "An Incon-Wheelie-ent Truth",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s11e14",
+          "t": "Mr. Lonely Farts",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s11e15",
+          "t": "Sheshank Redumption",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s11e16",
+          "t": "Y Tu Tina También",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s11e17",
+          "t": "Fingers-loose",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s11e18",
+          "t": "Some Kind of Fender Benderful",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s11e19",
+          "t": "Bridge Over Troubled Rudy",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s11e20",
+          "t": "Steal Magazine-olias",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s11e21",
+          "t": "Tell Me Dumb Thing Good",
+          "n": "21"
+        },
+        {
+          "id": "bobs-s11e22",
+          "t": "Vampire Disco Death Dance",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Season 12",
+      "sub": "2021–22 · 22 episodes",
+      "items": [
+        {
+          "id": "bobs-s12e1",
+          "t": "Manic Pixie Crap Show",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s12e2",
+          "t": "Crystal Mess",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s12e3",
+          "t": "The Pumpkinening",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s12e4",
+          "t": "Driving Big Dummy",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s12e5",
+          "t": "Seven-tween Again",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s12e6",
+          "t": "Beach, Please",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s12e7",
+          "t": "Loft in Bedslation",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s12e8",
+          "t": "Stuck in the Kitchen with You",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s12e9",
+          "t": "FOMO You Didn't",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s12e10",
+          "t": "Gene's Christmas Break",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s12e11",
+          "t": "Touch of Eval(uations)",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s12e12",
+          "t": "Ferry on My Wayward Bob and Linda",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s12e13",
+          "t": "Frigate Me Knot",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s12e14",
+          "t": "Video Killed the Gene-io Star",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s12e15",
+          "t": "Ancient Misbehavin",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s12e16",
+          "t": "Interview with a Pop-pop-pire",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s12e17",
+          "t": "The Spider House Rules",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s12e18",
+          "t": "Clear and Present Ginger",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s12e19",
+          "t": "A-Sprout a Boy",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s12e20",
+          "t": "Sauce Side Story",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s12e21",
+          "t": "Some Like It Bot Part 1: Eighth Grade Runner",
+          "n": "21"
+        },
+        {
+          "id": "bobs-s12e22",
+          "t": "Some Like It Bot Part 2: Judge-bot Day",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Season 13",
+      "sub": "2022–23 · 22 episodes",
+      "items": [
+        {
+          "id": "bobs-s13e1",
+          "t": "To Bob, or Not to Bob",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s13e2",
+          "t": "The Reeky Lake Show",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s13e3",
+          "t": "What About Job?",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s13e4",
+          "t": "Comet-y of Errors",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s13e5",
+          "t": "So You Stink You Can Dance",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s13e6",
+          "t": "Apple Gore-chard! (But Not Gory)",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s13e7",
+          "t": "Ready Player Gene",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s13e8",
+          "t": "Putts-giving",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s13e9",
+          "t": "Show Mama from the Grave",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s13e10",
+          "t": "The Plight Before Christmas",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s13e11",
+          "t": "Cheaty Cheaty Bang Bang",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s13e12",
+          "t": "Oh Row You Didn't",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s13e13",
+          "t": "Stop! Or My Mom Will Sleuth!",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s13e14",
+          "t": "These Boots Are Made for Stalking",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s13e15",
+          "t": "The Show (and Tell) Must Go On",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s13e16",
+          "t": "What a (April) Fool Believes",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s13e17",
+          "t": "Crows Encounters of the Bird Kind",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s13e18",
+          "t": "Gift Card or Buy Trying",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s13e19",
+          "t": "Crab-solutely Fabulous",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s13e20",
+          "t": "Radio No You Didn't",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s13e21",
+          "t": "Mother Author Laser Pointer",
+          "n": "21"
+        },
+        {
+          "id": "bobs-s13e22",
+          "t": "Amelia",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "Season 14",
+      "sub": "2023–24 · 16 episodes",
+      "items": [
+        {
+          "id": "bobs-s14e1",
+          "t": "Fight at the Not Okay Chore-ral",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s14e2",
+          "t": "The Amazing Rudy",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s14e3",
+          "t": "The Pickleorette",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s14e4",
+          "t": "Running Down a Gene",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s14e5",
+          "t": "Bully-ieve It or Not",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s14e6",
+          "t": "Escape from Which Island?",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s14e7",
+          "t": "The (Raccoon) King and I",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s14e8",
+          "t": "Wharf, Me Worry?",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s14e9",
+          "t": "Fraud of the Dead: Zombie-docu-pocalypse",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s14e10",
+          "t": "The Nightmare 2 Days Before Christmas",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s14e11",
+          "t": "Mission Impossi-Bob",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s14e12",
+          "t": "Jade in the Shade",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s14e13",
+          "t": "Butt Sweat and Fears",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s14e14",
+          "t": "The Big Stieblitzki",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s14e15",
+          "t": "The Right Tough Stuff",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s14e16",
+          "t": "To Catch a Beef",
+          "n": "16"
+        }
+      ],
+      "intro": "Cut from a planned 22 episodes to 16 by the 2023 Writers Guild of America and SAG-AFTRA strikes, and stretched out until September 2024. Most of it is the thirteenth production cycle."
+    },
+    {
+      "id": "s15",
+      "title": "Season 15",
+      "sub": "2024–25 · 22 episodes",
+      "items": [
+        {
+          "id": "bobs-s15e1",
+          "t": "The Tina Table: The Tables Have Tina-ed",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s15e2",
+          "t": "Saving Favorite Drive-In",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s15e3",
+          "t": "Colon-ly the Dronely",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s15e4",
+          "t": "For Whom the Doll Toes",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s15e5",
+          "t": "Don't Stop Be-cheesin'",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s15e6",
+          "t": "Hope N' Mic Night",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s15e7",
+          "t": "Boogie Days",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s15e8",
+          "t": "They Slug Horses, Don't They?",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s15e9",
+          "t": "Dog Christmas Day After Afternoon",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s15e10",
+          "t": "Advice Things Are Ad-Nice",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s15e11",
+          "t": "Mr. Fischoeder's Opus",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s15e12",
+          "t": "Like a Candle in the Gym",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s15e13",
+          "t": "Snackface",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s15e14",
+          "t": "The Place Beyond the Pinecones",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s15e15",
+          "t": "The Lost City of Atlantic",
+          "n": "15"
+        },
+        {
+          "id": "bobs-s15e16",
+          "t": "The Shell Game",
+          "n": "16"
+        },
+        {
+          "id": "bobs-s15e17",
+          "t": "Wild Steal-ions",
+          "n": "17"
+        },
+        {
+          "id": "bobs-s15e18",
+          "t": "Don't Worry, Be Hoopy",
+          "n": "18"
+        },
+        {
+          "id": "bobs-s15e19",
+          "t": "The Dead Bo-ats Society",
+          "n": "19"
+        },
+        {
+          "id": "bobs-s15e20",
+          "t": "Dad-urday Kite Fever",
+          "n": "20"
+        },
+        {
+          "id": "bobs-s15e21",
+          "t": "Mr. Safebody",
+          "n": "21"
+        },
+        {
+          "id": "bobs-s15e22",
+          "t": "Insomnibob",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Season 16",
+      "sub": "2025–26 · 15 episodes",
+      "items": [
+        {
+          "id": "bobs-s16e1",
+          "t": "Grand Pre-Pre-Pre-Opening",
+          "n": "1"
+        },
+        {
+          "id": "bobs-s16e2",
+          "t": "'Til Death Do Us Art",
+          "n": "2"
+        },
+        {
+          "id": "bobs-s16e3",
+          "t": "The Twinnening",
+          "n": "3"
+        },
+        {
+          "id": "bobs-s16e4",
+          "t": "The Skids in the Hall",
+          "n": "4"
+        },
+        {
+          "id": "bobs-s16e5",
+          "t": "The Secret Guardin'",
+          "n": "5"
+        },
+        {
+          "id": "bobs-s16e6",
+          "t": "Get Her to the Zeke",
+          "n": "6"
+        },
+        {
+          "id": "bobs-s16e7",
+          "t": "Tube for Tina",
+          "n": "7"
+        },
+        {
+          "id": "bobs-s16e8",
+          "t": "Les Lizárdables",
+          "n": "8"
+        },
+        {
+          "id": "bobs-s16e9",
+          "t": "It's a Stunterful Life",
+          "n": "9"
+        },
+        {
+          "id": "bobs-s16e10",
+          "t": "Heist Things Are Heist",
+          "n": "10"
+        },
+        {
+          "id": "bobs-s16e11",
+          "t": "The Keyboard Kid",
+          "n": "11"
+        },
+        {
+          "id": "bobs-s16e12",
+          "t": "Children of the Carn",
+          "n": "12"
+        },
+        {
+          "id": "bobs-s16e13",
+          "t": "Driving Miss Ragey",
+          "n": "13"
+        },
+        {
+          "id": "bobs-s16e14",
+          "t": "Stuck in the Middle with Hu(go)",
+          "n": "14"
+        },
+        {
+          "id": "bobs-s16e15",
+          "t": "Smellbound",
+          "n": "15"
+        }
+      ],
+      "intro": "Fox renewed the show in April 2025 for four more seasons, taking it through a nineteenth. This is the season that carried the 300th episode."
+    }
+  ]
+}

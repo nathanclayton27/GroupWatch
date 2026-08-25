@@ -20,7 +20,7 @@ WHAT IS OUT, AND WHY.
     in the series overview and not in the infobox's 313. Futurama's four films
     are on this site as film rows because that list's unit is mixed by design
     and the films are the form that work was released in. Here the unit is the
-    episode, no row carries a weight, and a 102-minute feature dropped among
+    episode, no row carries a weight, and a cinema feature dropped among
     313 twenty-two-minute episodes would count exactly one, misrepresenting
     both it and them. It is named in the notes instead of being counted.
   * The two shorts, "My Butt Has a Fever" and "On the Fort Day of Christmas".
@@ -148,12 +148,32 @@ def year_span(years):
     return "%d–%02d" % (a, b % 100) if a // 100 == b // 100 else "%d–%d" % (a, b)
 
 
+def template(t, name):
+    """The full source of the first {{name ...}} in t, brace-balanced.
+
+    Rick and Morty's generator could stop at the first `\\n}}`; this article's
+    {{Series overview}} closes on a line that begins with an HTML comment, and
+    the naive pattern silently truncated it to season 1."""
+    start = t.index("{{" + name)
+    depth, i = 0, start
+    while i < len(t) - 1:
+        if t[i:i + 2] == "{{":
+            depth, i = depth + 1, i + 2
+        elif t[i:i + 2] == "}}":
+            depth, i = depth - 1, i + 2
+            if depth == 0:
+                return t[start:i]
+        else:
+            i += 1
+    raise AssertionError("{{%s}} is never closed" % name)
+
+
 def series_overview(list_text):
     """{season number: episode count} from the list article's own table."""
-    seg = re.search(r"\{\{Series overview(.*?)\n?\}\}", list_text, re.S)
+    seg = template(list_text, "Series overview")
     assert seg, "no series overview"
     counts = {int(m.group(1)): int(m.group(2)) for m in
-              re.finditer(r"\|\s*episodes(\d+)\s*=\s*(\d+)", seg.group(1))}
+              re.finditer(r"\|\s*episodes(\d+)\s*=\s*(\d+)", seg)}
     assert counts, "series overview carries no episode counts"
     assert sorted(counts) == SEASONS, \
         "series overview lists seasons %s, expected %s" % (sorted(counts),
@@ -401,7 +421,7 @@ def main():
             ["Episodes only — the film is not here.", "The Bob's Burgers "
              "Movie went out in cinemas in May 2022 and the source article "
              "files it under its own heading, with no episode number and no "
-             "place in the count. A hundred-minute feature dropped among "
+             "place in the count. A cinema feature dropped among "
              "twenty-two-minute episodes would count as one row exactly like "
              "them, which misrepresents both, so it is named here instead of "
              "listed. The two shorts, My Butt Has a Fever and On the Fort Day "
