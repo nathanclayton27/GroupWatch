@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and forty-eight lists, from a ten-episode anime to a 1,337-spine film
+One hundred and forty-nine lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -36,7 +36,9 @@ current run — *M\*A\*S\*H*, *Seinfeld*, *Frasier* (the original run),
 Life as its own section), *The Golden Girls* (the seven hour-long
 broadcasts and four two-parters honestly marked),
 *MST3K* down to the KTMA year, *Columbo*
-with real per-movie runtimes, *James Bond* by actor, *Alien & Predator* on
+with real per-movie runtimes, *James Bond* by actor, *Mission: Impossible*
+(the eight released films, ticks shared with the Tom Cruise
+list), *Alien & Predator* on
 one timeline, *JoJo's* and *Dragon Ball* (anime and manga as separate
 pages), and *Time Loops* — the group's own Groundhog Day collection, grown
 to 189 entries via Wikipedia's time-loop film list and two Reddit

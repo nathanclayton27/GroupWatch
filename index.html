@@ -2750,6 +2750,26 @@ let MANIFEST = [
     "totalw": 133.0
   },
   {
+    "slug": "mission-impossible",
+    "media": [
+      "movies"
+    ],
+    "title": "Mission: Impossible",
+    "subtitle": "the released films, in release order",
+    "kind": "films",
+    "year": "1996–2025",
+    "popularity": 70,
+    "blurb": "Ethan Hunt in the order it happened, 1996 to 2025 — 18 hours and 24 minutes, from a 110-minute first outing to a 170-minute last one.",
+    "accent": "#813403",
+    "accentDark": "#E76E23",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 8,
+    "totalw": 18.4
+  },
+  {
     "slug": "sandman",
     "media": [
       "comics"
@@ -4338,7 +4358,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'b382867f97bb';
+const BUILD = '5fd37ea502ac';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
