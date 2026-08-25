@@ -578,6 +578,25 @@
     "total": 20
   },
   {
+    "slug": "naruto-manga",
+    "media": [
+      "manga"
+    ],
+    "title": "Naruto (manga)",
+    "subtitle": "Masashi Kishimoto",
+    "kind": "manga",
+    "year": "1999–2014",
+    "popularity": 78,
+    "blurb": "All 700 chapters across 72 volumes, in publication order — finished.",
+    "accent": "#00560E",
+    "accentDark": "#5FE06B",
+    "unit": {
+      "one": "chapter",
+      "many": "chapters"
+    },
+    "total": 700
+  },
+  {
     "slug": "tarantino",
     "media": [
       "movies"

@@ -1849,6 +1849,25 @@ let MANIFEST = [
     "total": 20
   },
   {
+    "slug": "naruto-manga",
+    "media": [
+      "manga"
+    ],
+    "title": "Naruto (manga)",
+    "subtitle": "Masashi Kishimoto",
+    "kind": "manga",
+    "year": "1999–2014",
+    "popularity": 78,
+    "blurb": "All 700 chapters across 72 volumes, in publication order — finished.",
+    "accent": "#00560E",
+    "accentDark": "#5FE06B",
+    "unit": {
+      "one": "chapter",
+      "many": "chapters"
+    },
+    "total": 700
+  },
+  {
     "slug": "tarantino",
     "media": [
       "movies"
@@ -3689,7 +3708,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '7493cfa26560';
+const BUILD = '913ed4cb0eb4';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
