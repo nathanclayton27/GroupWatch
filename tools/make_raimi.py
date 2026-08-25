@@ -26,14 +26,22 @@ What stays out, and can be argued back in cheaply:
     directing on The Hudsucker Proxy, the acting, and the shorts — Within the
     Woods and The Black Ghiandola included.
 
-Nothing is weighted. The films' runtimes are known and are printed in the
-section subs, but no per-episode runtime for Ash vs Evil Dead exists to read:
-the series article states a range (25–37 minutes, 41 for the pilot) and all
-thirty Wikidata episode items carry no P2047 at all. Weighting the films and
-leaving the episodes bare would not help either — an item with no `w` in a
-weighted list is silently worth one hour downstream, which is a guessed
-runtime landing in real finish-date maths. So every row counts one, exactly
-as x-files does with its films and episodes.
+What carries hours, and what does not. The seventeen films are weighted from
+Wikidata P2047, read at statement rank — the collector honours preferred and
+drops deprecated, because gwlib's rank-blind reader takes the longest value
+and Doctor Strange in the Multiverse of Madness carries a *preferred* 126
+beside a normal 127. The pilot is weighted too, at the 41 minutes its own
+article's infobox states and the series infobox repeats.
+
+The other twenty-nine episodes carry `w: 0` and `opt: 1`. Zero is deliberate
+and load-bearing: a row with no `w` at all in a weighted list is silently
+worth one hour downstream, so leaving them bare would inject twenty-nine
+invented hours into real finish-date maths. `opt: 1` is only the OPTIONAL
+chip — it does not exclude a row from the total, so it is never used alone
+here. The twenty-nine still tick and still draw their marks; they simply add
+nothing to the clock, because no per-episode runtime for them is published:
+the series infobox gives a range, and the collector re-checks all thirty
+Wikidata episode items and finds P2047 on none of them.
 
 Data: scratch/raimi/collect.py -> scratch/raimi/raimi_data.json
 """
@@ -142,9 +150,19 @@ def main():
         [e["t"] for e in eps if not e["director"]]
     assert not any("Sam Raimi" in e["director"] for e in eps if e is not his[0]), \
         "a second Raimi-directed episode appeared"
-    # no per-episode runtime exists in either source, which is why nothing on
-    # this list is weighted; if one ever does, revisit that decision
+    # The pilot is the only episode with a published runtime. The series
+    # infobox states a range for the rest and the collector, having looked up
+    # all thirty episode items, found P2047 on none of them — which is what
+    # licenses the other twenty-nine to weigh zero. If either ever changes,
+    # this fails and the decision gets revisited.
     assert "–" in series["runtime_field"], series["runtime_field"]
+    assert series["episodes_with_wikidata_item"] == len(eps), series
+    assert series["episodes_with_wikidata_runtime"] == 0, \
+        "an episode grew a Wikidata runtime — reweigh instead of zeroing"
+    pilot_min = series["pilot_runtime"]
+    assert his[0]["runtime"] == pilot_min and 15 <= pilot_min <= 90, series
+    assert all(e["runtime"] is None for e in eps if e is not his[0]), \
+        [e["t"] for e in eps if e is not his[0] and e["runtime"]]
 
     # ---- sections --------------------------------------------------------
     def film_section(key, title, lo, hi, intro):
@@ -153,7 +171,8 @@ def main():
         items = []
         for f in got:
             it = {"id": "sr-%d-%s" % (f["year"], slug(f["t"])),
-                  "t": f["t"], "n": str(f["year"])}
+                  "t": f["t"], "n": str(f["year"]),
+                  "w": round(f["runtime"] / 60.0, 2)}
             # Writing credits live in the era intros, which can say "all six"
             # or "none of them" without repeating one note down every row —
             # and without a per-row note having to guess sole against shared
@@ -175,19 +194,27 @@ def main():
     def ash_section():
         items = []
         for e in eps:
-            note = "Directed by %s" % e["director"]
+            it = {"id": "sr-aved-s%de%02d" % (e["season"], e["num"]),
+                  "t": e["t"],
+                  "n": "S%dE%d" % (e["season"], e["num"])}
             if e is his[0]:
-                note = "Directed by Sam Raimi, who also co-wrote it"
-            items.append({"id": "sr-aved-s%de%02d" % (e["season"], e["num"]),
-                          "t": e["t"],
-                          "n": "S%dE%d" % (e["season"], e["num"]),
-                          "note": note})
+                # the one episode with a runtime anyone published
+                it["w"] = round(pilot_min / 60.0, 2)
+                it["note"] = "Directed by Sam Raimi, who also co-wrote it"
+            else:
+                # w:0 is what keeps these out of the hours — `opt` is only the
+                # chip and would leave each of them silently worth an hour
+                it["w"] = 0
+                it["opt"] = 1
+                it["note"] = "Directed by %s" % e["director"]
+            items.append(it)
         return {
             "id": "ashvsevildead",
             "title": "Ash vs Evil Dead — he directed the pilot",
-            "sub": "2015–2018 · 30 episodes on %s · developed and executive "
-                   "produced by Raimi, who directed 1 of the 30"
-                   % series["channel"],
+            "sub": "2015–2018 · 30 episodes on %s, 29 of them optional · "
+                   "developed and executive produced by Raimi, who directed "
+                   "1 of the 30 · %d minutes"
+                   % (series["channel"], pilot_min),
             "intro": "The one television series on this list, and it is here "
                      "because it was asked for. Raimi developed Ash vs Evil "
                      "Dead with Ivan Raimi and Tom Spezialy, executive "
@@ -195,7 +222,10 @@ def main():
                      "episode — the pilot, El Jefe, which he also co-wrote. "
                      "The other 29 were directed by other people, and every "
                      "row names the director who made it, so nothing here "
-                     "reads as his that was not.",
+                     "reads as his that was not. The pilot carries its %d "
+                     "minutes; the other 29 are marked optional and carry no "
+                     "hours, because no runtime for them is published "
+                     "anywhere. They tick all the same." % pilot_min,
             "items": items,
         }
 
@@ -221,6 +251,25 @@ def main():
     assert order.index("late") < order.index("ashvsevildead") < order.index("recent")
 
     mins = sum(f["runtime"] for f in films)
+
+    # ---- the weighting, checked against what the page will actually total --
+    rows = [x for s in sections for x in s["items"]]
+    assert all("w" in x for x in rows), \
+        [x["id"] for x in rows if "w" not in x]     # a bare row is worth 1h
+    paid = [x for x in rows if x["w"] > 0]
+    free = [x for x in rows if x["w"] == 0]
+    assert len(paid) == len(films) + 1 == 18, len(paid)
+    assert len(free) == len(eps) - 1 == 29, len(free)
+    # the chip never travels without the zero, or those 29 cost an hour each
+    assert all(x.get("opt") == 1 for x in free), \
+        [x["id"] for x in free if x.get("opt") != 1]
+    hours = round(sum(x["w"] for x in rows), 2)
+    want = round(sum(round(f["runtime"] / 60.0, 2) for f in films)
+                 + round(pilot_min / 60.0, 2), 2)
+    assert hours == want, (hours, want)
+    # and the same number the honest way: the films plus the one episode
+    assert abs(hours - (mins + pilot_min) / 60.0) < 0.2, \
+        (hours, (mins + pilot_min) / 60.0)
 
     p = {
         "slug": SLUG,
@@ -255,16 +304,25 @@ def main():
             ["It's Murder! is an optional row.", "The Super 8 feature he made "
              "as a student at Michigan State. The filmography's own table "
              "lists it with the features and marks it an amateur film, so it "
-             "rides along, marked the same way."],
-            ["Nothing is weighted.", "The 17 films' runtimes are known and "
-             "the section headings carry them — about %d hours in total. The "
-             "episodes' are not: the series article gives only a range and "
+             "rides along, marked the same way. It still carries its %d "
+             "minutes: optional is a label on a row, not a hole in the "
+             "total — the 29 episodes carry none for a different reason, "
+             "which is that nobody publishes one."
+             % amateur[0]["runtime"]],
+            ["The films and the pilot carry the hours.", "All 17 films have "
+             "verified runtimes, and so does the one episode he directed — "
+             "El Jefe, %d minutes — which is where the %d hours on this list "
+             "come from. The other 29 episodes are marked optional and carry "
+             "no hours at all, because no per-episode runtime for them is "
+             "published anywhere: the series article gives only a range and "
              "not one of the 30 Wikidata episode items carries a runtime. "
-             "Rather than let a guessed half-hour into anyone's finish date, "
-             "a film and an episode each count one." % round(mins / 60.0)],
+             "They tick like everything else; they just do not move a finish "
+             "date." % (pilot_min, round(hours))],
             "Filmography and episode directors from Wikipedia's Sam Raimi and "
             "Ash vs Evil Dead articles, read from the tables themselves; film "
-            "runtimes from Wikidata, gated on a matching release year.",
+            "runtimes from Wikidata, gated on a matching release year and "
+            "read at statement rank; the pilot's from the infobox of its own "
+            "article.",
         ],
         "sections": sections,
     }
@@ -272,8 +330,10 @@ def main():
     out = prop.write(p)
     ids = [x["id"] for s in sections for x in s["items"]]
     assert len(ids) == 47, len(ids)
-    print("wrote %s — %d rows (%d films + %d episodes), films about %.1f hours"
-          % (out.name, len(ids), len(films), len(eps), mins / 60.0))
+    print("wrote %s — %d rows (%d films + %d episodes); %.2f hours = "
+          "%d films (%d min) + the pilot (%d min); %d weighted, %d at zero"
+          % (out.name, len(ids), len(films), len(eps), hours, len(films),
+             mins, pilot_min, len(paid), len(free)))
     for s in sections:
         print("   %-42s %2d  %s" % (s["title"][:42], len(s["items"]), s["sub"]))
 
