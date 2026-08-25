@@ -724,6 +724,86 @@ footer a{color:var(--steel)}
 .foldbtn:hover{border-color:var(--signal);color:var(--signal)}
 #hfr-h:hover{color:var(--signal)}
 
+/* ---- Clubbothy Recommends (CLU-42) --------------------------------------
+   Three rows, ambient, scrolled past — never a carousel, so the shelf ends
+   where its third row ends and nothing scrolls sideways out of view. A row
+   is a title, a mono meta, and exactly one mono line of why: no line, no
+   row. The whole block hides itself rather than render half-populated. */
+/* the line above the rows: what frames them, and how many there are. The
+   count is always true; the frame is written only when a fresh finish
+   really is what put the top row there. */
+.thinkhead{display:flex;align-items:baseline;gap:11px;margin:0 0 10px}
+.thinkhead b{font-size:15px;font-weight:500;letter-spacing:-.01em}
+.thinkhead .quiet{margin-left:auto;font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:11px;color:var(--ink-3)}
+.rec{display:block;width:100%;text-align:left;font:inherit;color:inherit;
+  border:1px solid var(--rule);border-radius:var(--radius);background:var(--card);
+  padding:11px 13px;margin-bottom:8px;cursor:pointer}
+.rec:last-child{margin-bottom:0}
+.rec .h{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.rec .h b{font-size:14px;font-weight:500;letter-spacing:-.01em;
+  min-width:0;overflow-wrap:anywhere}
+.rec:hover .h b{color:var(--signal)}
+.rec .h .rn{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.8em;
+  color:var(--ink-3)}
+.rec .n{margin-left:auto;font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:11px;color:var(--ink-3);white-space:nowrap}
+.rec .why{margin-top:5px;font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:11px;color:var(--ink-2);line-height:1.6}
+/* the row a hold produces: the same anatomy, a signal border, plainly
+   on-demand — and it never outlives the page */
+.rec.pick{border-color:var(--signal);
+  background:color-mix(in srgb,var(--signal) 7%,var(--card))}
+.rec .kick{display:block;font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:9.5px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--signal);margin:0 0 5px}
+/* the header carrying the hold buys its own clearance: at 1.8x the eye
+   reaches about 11px past its resting edge, and the section gap of 12px
+   would have it grazing the label. Layout pays for it, so the pop never
+   has to shrink to fit. */
+.hsec.holds{gap:22px}
+.rhint{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;
+  letter-spacing:.06em;text-transform:none;color:var(--ink-3)}
+/* the hold target. The wrapper only enlarges the hit area; the eye inside
+   is drawn at exactly the size the mast draws it. */
+.eyehold{position:relative;display:inline-flex;align-items:center;
+  padding:6px 8px;margin:-6px -6px -6px -8px;border-radius:99px;
+  background:none;border:0;color:inherit;font:inherit;cursor:pointer;
+  touch-action:none;-webkit-touch-callout:none;
+  -webkit-user-select:none;user-select:none}
+/* the dashed ring is the only thing on screen that admits a hold exists */
+.ring{position:absolute;inset:0;border-radius:99px;pointer-events:none;
+  border:1px dashed var(--rule-2);
+  transition:transform .2s ease,border-color .2s}
+.eyehold.arm .ring{transform:scale(.86);border-color:var(--signal);
+  border-style:solid;transition:transform .62s linear,border-color .18s}
+.eyehold:focus-visible .ring{border-color:var(--signal);border-style:solid}
+/* with nothing left in the pool there is no door to offer, so the ring and
+   the hint go with it — an affordance that cannot deliver is the friend-code
+   mistake in miniature (CLU-42 note) */
+.nohold .ring,.nohold .rhint{display:none}
+.eyewrap{display:inline-flex;transform-origin:50% 50%}
+/* fast up, slow down (Nathan): 1.8x inside 145ms, a beat wide open, then an
+   unhurried shrink back over about a second. Each keyframe carries its own
+   easing so the return really is the long, visible part of the move. The
+   scale rides this WRAPPER and never the eye's grid: the 2px cells keep
+   their metrics, the wrapper's layout box stays 28x16 whatever the
+   transform does, and a transform cannot reflow — so the label beside it
+   cannot move a pixel. */
+@keyframes eyepop{
+  0%{transform:scale(1);animation-timing-function:cubic-bezier(.2,.9,.3,1)}
+  12%{transform:scale(1.8);animation-timing-function:linear}
+  22%{transform:scale(1.8);animation-timing-function:cubic-bezier(.4,0,.55,1)}
+  100%{transform:scale(1)}
+}
+.eyewrap.pop{animation:eyepop 1.2s both}
+/* the size change survives, the movement does not: the eye steps straight
+   to 1.8x, holds while the pick is read, and is back in one step */
+@media (prefers-reduced-motion:reduce){
+  .eyehold.arm .ring{transform:none}
+  .eyewrap.pop{animation:none;transform:scale(1.8)}
+}
+
 /* ------------------------------------------------ the account page (CLU-57)
    Quiet cards in one narrow column, on the same bare shell home uses. The
    labels are the mono uppercase keys the rest of the site sets its small
@@ -932,12 +1012,29 @@ footer a{color:var(--steel)}
     <div class="hsec hide" id="hfr-h">Friends</div>
     <div class="hled hide" id="hfr-msg" style="cursor:default;border-top:0;font-size:12.5px"></div>
     <div class="hide" id="hfriends"></div>
+    <!-- The Clubbothy Recommends shelf (CLU-42) has claimed the slot the
+         build reserved for it, and Tonight moved DOWN below it on Nathan's
+         call: Tonight, the medium chips and the wall are now one contiguous
+         block, because the chips scope the pick above them and the catalogue
+         below them and standing them next to each other makes that visible.
+         CLU-17 settles the second eye — Clubbothy sits beside this header as
+         well as in the mast, and here he is a real control. -->
+    <div class="hsec holds hide" id="hrec-h">
+      <button class="eyehold" id="rechold" type="button"
+        aria-label="Hold Clubbothy's eye for one recommendation"><span
+        class="eyewrap" id="recwrap"><span class="eye" id="receye"
+        aria-hidden="true"></span></span><span class="ring"></span></button>
+      <span>Clubbothy thinks</span>
+      <span class="rhint" id="hrec-hint">hold the eye</span>
+    </div>
+    <div class="hide" id="hrechead"></div>
+    <div class="hide" id="hrecpick" aria-live="polite"></div>
+    <div class="hide" id="hrec"></div>
     <div class="hsec">Tonight</div>
     <div class="trow">
       <div class="tonight" id="htonight"></div>
       <div class="wchips" id="hchips"></div>
     </div>
-    <!-- the Clubbothy Recommends shelf claims this slot when thumbs exist -->
     <div class="hsec">The catalogue
       <button class="foldbtn" id="b-wallfold" type="button">Collapse</button></div>
     <div id="homewall"></div>
@@ -3680,7 +3777,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'af2a61e3b653';
+const BUILD = '732d3de0fb98';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -4624,16 +4721,26 @@ function paintFW(){
 }
 
 /* ------------------------------------------------------------ clubbothy */
-// The masthead eye, per the frozen spec: 14x8 almond, 4x4 iris disc at
+// The eye, per the frozen spec: 14x8 almond, 4x4 iris disc at
 // 70% signal with its corners knocked, 2x2 ink pupil carrying one pixel
 // of parallax, the lid line riding the top of the iris, blink-anywhere
 // on press-hold, hot tracking with a ~70px looking-at-YOU radius.
 // Reduced motion pins him center and still; touch glances at the last
 // tap, then drifts back. A static Clubbothy is a bug — every instance
 // of him, anywhere, tracks the cursor.
-(function(){
-  const host = $('clubbothy');
-  if(!host) return;
+//
+// This was bound to ONE element by id until CLU-42 put a second Clubbothy
+// beside the home page's "Clubbothy thinks" header — at which point the new
+// eye would have shipped completely static, which the invariant above calls
+// a bug. So the tracking is per-element now and the listeners are not: every
+// .eye on the page is built here and one shared set of pointer handlers
+// drives all of them. Each eye keeps a handle, because the Recommends hold
+// has to shut and open the pair at moments the global press-and-release
+// does not cover.
+const EYES = [];
+function makeEye(host){
+  if(!host) return null;
+  if(host.__eye) return host.__eye;
   const SHAPE = [
     '00001111110000',
     '00110000001100',
@@ -4650,7 +4757,7 @@ function paintFW(){
     host.appendChild(el);
   }
   const cells = [...host.children];
-  const E = { lx: 0, ly: 0, closed: false, drift: null };
+  const E = { lx: 0, ly: 0, closed: false, drift: null, key: null };
   function span(r){
     const a = SHAPE[r].indexOf('1'), b = SHAPE[r].lastIndexOf('1');
     return a < 0 ? null : [a + 1, b - 1];
@@ -4696,39 +4803,68 @@ function paintFW(){
       }
     }
   }
-  paint(0, 0, false);
-  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
-    const gaze = (x, y)=>{
-      const b = host.getBoundingClientRect();
-      const dx = x - (b.x + b.width / 2), dy = y - (b.y + b.height / 2);
-      if(Math.hypot(dx, dy) < 70) return [0, 0];
-      return [Math.max(-3, Math.min(3, Math.round(dx / 60))),
-              Math.max(-2, Math.min(2, Math.round(dy / 60)))];
-    };
-    addEventListener('pointerdown', ()=>{ E.closed = true; paint(0, 0, false); });
-    const open = ev=>{
-      if(!E.closed) return;
-      E.closed = false;
-      if(COARSE && ev && ev.clientX != null){
-        const g = gaze(ev.clientX, ev.clientY);
-        E.lx = g[0]; E.ly = g[1];
-        paint(g[0], g[1], !!(g[0] || g[1]));
-        clearTimeout(E.drift);
-        E.drift = setTimeout(()=>{ E.lx = 0; E.ly = 0; paint(0, 0, false); }, 900);
-      }else{
-        paint(E.lx, E.ly, !!(E.lx || E.ly));
-      }
-    };
-    addEventListener('pointerup', open);
-    addEventListener('pointercancel', open);
-    addEventListener('pointermove', ev=>{
-      if(E.closed) return;
-      const g = gaze(ev.clientX, ev.clientY);
+  // Repaint guard, borrowed from the favicon: one eye is 112 cells, and a
+  // page with several of them would otherwise rewrite every cell of every
+  // one on every pointermove to change nothing. An eye redraws only when
+  // its own pupil actually moves.
+  E.set = function(ox, oy, defl){
+    const k = E.closed ? 'c' : ox + '/' + oy + '/' + (defl ? 1 : 0);
+    if(k === E.key) return;
+    E.key = k;
+    paint(ox, oy, defl);
+  };
+  E.gaze = function(x, y){
+    const b = host.getBoundingClientRect();
+    // an eye on a hidden view has no box to aim from; leave it resting
+    if(!b.width) return null;
+    const dx = x - (b.x + b.width / 2), dy = y - (b.y + b.height / 2);
+    if(Math.hypot(dx, dy) < 70) return [0, 0];
+    return [Math.max(-3, Math.min(3, Math.round(dx / 60))),
+            Math.max(-2, Math.min(2, Math.round(dy / 60)))];
+  };
+  E.shut = function(){ E.closed = true; E.set(0, 0, false); };
+  E.open = function(ev){
+    if(!E.closed) return;
+    E.closed = false;
+    const g = (COARSE && ev && ev.clientX != null) ? E.gaze(ev.clientX, ev.clientY) : null;
+    if(g){
       E.lx = g[0]; E.ly = g[1];
-      paint(g[0], g[1], !!(g[0] || g[1]));
-    }, { passive: true });
-  }
-})();
+      E.set(g[0], g[1], !!(g[0] || g[1]));
+      clearTimeout(E.drift);
+      E.drift = setTimeout(()=>{ E.lx = 0; E.ly = 0; E.set(0, 0, false); }, 900);
+    }else{
+      E.set(E.lx, E.ly, !!(E.lx || E.ly));
+    }
+  };
+  E.set(0, 0, false);
+  E.host = host;
+  host.__eye = E;
+  EYES.push(E);
+  return E;
+}
+// Every Clubbothy on the page, built from the one routine and driven by the
+// one set of listeners — never a pair of handlers per eye. Reduced motion
+// binds nothing at all: he is pinned centre and still. The handles stay
+// live either way, because a deliberate hold shuts and opens him and a
+// closed lid is a state, not a movement.
+document.querySelectorAll('.eye').forEach(makeEye);
+const MASTEYE = makeEye($('clubbothy'));
+const RECEYE = makeEye($('receye'));
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+  addEventListener('pointerdown', ()=>{ EYES.forEach(e=> e.shut()); });
+  const openAll = ev=>{ EYES.forEach(e=> e.open(ev)); };
+  addEventListener('pointerup', openAll);
+  addEventListener('pointercancel', openAll);
+  addEventListener('pointermove', ev=>{
+    for(const e of EYES){
+      if(e.closed) continue;
+      const g = e.gaze(ev.clientX, ev.clientY);
+      if(!g) continue;
+      e.lx = g[0]; e.ly = g[1];
+      e.set(g[0], g[1], !!(g[0] || g[1]));
+    }
+  }, { passive: true });
+}
 
 // Sign-in from the shelf: the mast grows a Sign in pill on splash, home and
 // the account page (the migration path lands people exactly there), which
@@ -7936,6 +8072,422 @@ function armTonight(shelf){
   };
   arm();
 }
+/* ------------------------------------------- Clubbothy Recommends (CLU-42) */
+// Three rows, one mono line of why each, and never a carousel. Everything
+// below answers to two rules Nathan set and one the site already had:
+//
+//   READINESS IS A HARD GATE, NOT A WEIGHT. "I want to recommend anything
+//   that hasn't been checked that doesn't need additional reading/watching
+//   before it." So a row is recommendable when it is unticked AND nothing
+//   stands in front of it. A high-scoring row that cannot be started
+//   tonight does not appear at all — it is not merely ranked down.
+//
+//   MEMBERSHIP IS NOT THE FILTER. A list the reader already keeps is
+//   squarely in; "the one you left unticked — still here" only exists
+//   because tracked lists are eligible.
+//
+//   NEVER INVENT DATA. Every line below is derived from something on this
+//   device or from a mutual friend's thumb. Aggregate sentences the design
+//   sketched ("the next stop for 6 of 9 clubs that finished this", "big
+//   with clubs like yours") need cross-club numbers nothing here can read
+//   honestly today, so they are not written. No line, no row.
+const RECMAX = 3;          // three rows, not four, and never a carousel
+const RECPOOLMAX = 24;     // what one hold can ever draw from
+const RECPERLIST = 4;      // ...and how much of that one list may own
+let RECFTH = null;         // friends' thumbs, catalogue-wide, or null
+let RECPOOL = [];
+let RECLAST = -1;
+let RECTURN = 0;
+
+// THKEY is keyed on the open list's slug, and home has no open list — so
+// home reads the same stores directly, one per property, and applies the
+// same "one of two words or nothing" cleaning readThumbs does.
+function recThumbs(){
+  const out = {};
+  for(const m of splashList()){
+    let r = {};
+    try{ r = JSON.parse(localStorage.getItem('gw:thumbs:v1:' + m.slug) || '{}') || {}; }
+    catch(e){ r = {}; }
+    const items = {};
+    for(const k in (r.items || {}))
+      if(r.items[k] === 'up' || r.items[k] === 'down') items[k] = r.items[k];
+    out[m.slug] = { items: items,
+                    list: (r.list === 'up' || r.list === 'down') ? r.list : null };
+  }
+  return out;
+}
+// Mutual friends' thumbs across the whole catalogue. pullFriendThumbs is
+// scoped to one property because a list page only ever needs one; the shelf
+// needs all of them, so this is the same read without the property filter.
+// Every failure — no table, no policy, no friends, no session — returns null
+// and the shelf carries on from local signals alone. A half-populated shelf
+// is worse than a quieter one.
+async function recFriendThumbs(){
+  if(!user || !sb || THBROKEN || FBROKEN) return null;
+  let E = null;
+  try{ E = await fetchFriendEdges(); }catch(e){}
+  if(!E) return null;
+  const mutual = E.ids.filter(i=> E.out.has(i) && E.inn.has(i));
+  if(!mutual.length) return null;
+  let r = null;
+  try{
+    r = await sb.from('thumbs').select('user_id,property_id,item_id,direction')
+      .in('user_id', mutual);
+  }catch(e){ THBROKEN = true; return null; }
+  if(!r || r.error){ THBROKEN = true; return null; }
+  const out = { items: {}, lists: {} };
+  (r.data || []).forEach(row=>{
+    // a shelf recommends; it never anti-recommends, so a friend's thumbs
+    // down is read as silence rather than as a reason to hide something
+    if(row.direction !== 'up' || !row.property_id) return;
+    const who = E.names[row.user_id] || 'someone';
+    if(row.item_id === null || row.item_id === undefined)
+      (out.lists[row.property_id] = out.lists[row.property_id] || []).push(who);
+    else
+      // item ids are unique within a property, not across the catalogue
+      (out.items[row.property_id + '|' + row.item_id] =
+        out.items[row.property_id + '|' + row.item_id] || []).push(who);
+  });
+  return out;
+}
+function recTicked(slug){
+  try{ return new Set(JSON.parse(localStorage.getItem('gw:v1:' + slug) || '[]')); }
+  catch(e){ return new Set(); }
+}
+// THE READINESS GATE. An ordered run offers its next unticked item and
+// nothing else — never issue #200 when the reader is on #12, because 188
+// issues stand in front of it. An unordered list (random:true, the same
+// flag Tonight reads) gates nothing, so every unticked row is ready. A
+// finished list offers nothing at all: it has no unticked rows left.
+function recReady(d){
+  const rows = {}, out = [];
+  for(const r of d.rows) (rows[r[0]] = rows[r[0]] || []).push(r);
+  for(const m of splashList()){
+    const rs = rows[m.slug];
+    if(!rs) continue;
+    const t = recTicked(m.slug);
+    const un = rs.filter(r=> !t.has(r[1]));
+    if(!un.length) continue;
+    (m.random ? un : [un[0]]).forEach(r=> out.push({ r: r, m: m, n: t.size }));
+  }
+  return out;
+}
+// Lists finished recently, newest first. Completion is the freshest
+// evidence of taste anybody gives us, which is why it is worth naming out
+// loud — and why it expires: what you finished in March is history, not news.
+function recFinished(){
+  const now = Date.now(), out = [];
+  for(const m of splashList()){
+    const tot = totalOf(m);
+    if(!tot || localCount(m.slug) < tot) continue;
+    let last = 0;
+    for(const e of evAll(m.slug)){
+      if(e.a !== 'tick') continue;
+      const t = Date.parse(e.at) || 0;
+      if(t > last) last = t;
+    }
+    if(last && now - last < 21 * 864e5) out.push({ m: m, at: last });
+  }
+  return out.sort((a, b)=> b.at - a.at);
+}
+// The one honest link between a list you finished and a list you have not:
+// they hold some of the same work. The sync map already knows — it is keyed
+// on title|year and lists every place that work appears — so this is a read,
+// not a guess.
+function recKin(d, fin){
+  const kin = {};
+  if(!fin.length) return kin;
+  const byslug = {};
+  fin.forEach(f=>{ byslug[f.m.slug] = f; });
+  for(const k in (d.sync || {})){
+    const g = d.sync[k];
+    let f = null;
+    for(const p of g) if(byslug[p[0]] && (!f || byslug[p[0]].at > f.at)) f = byslug[p[0]];
+    if(!f) continue;
+    for(const p of g){
+      if(p[0] === f.m.slug) continue;
+      if(!kin[p[0]] || kin[p[0]].at < f.at) kin[p[0]] = f;
+    }
+  }
+  return kin;
+}
+const RECTHUP = '👍';
+// the frame above the rows re-reads this off the top row's line, so the two
+// cannot drift into saying different things about the same finish
+const RECFIN = 'because you finished ';
+// The reason lines count in words up to five, the way a person would.
+function recNum(n){
+  return ['no', 'one', 'two', 'three', 'four', 'five'][n] || String(n);
+}
+function recPeople(n){
+  return recNum(n) + (n === 1 ? ' friend' : ' friends');
+}
+//
+// THE RANKING, v1 — deliberately simple and explicable, because a
+// recommendation nobody can explain is one nobody trusts. Six signals, all
+// readable today, each worth a flat number; the row's why-line is whichever
+// single signal contributed most, so the line always names the thing that
+// actually put the row there rather than the prettiest thing that is true.
+//
+//   +6  you thumbed the WHOLE list up ...... a thumb on a list is the
+//                                            broadest taste signal there is,
+//                                            so it outweighs any one row
+//   +5  the list shares a work with one you  completion is the freshest
+//       finished in the last three weeks     evidence of taste we ever get
+//   +4  per mutual friend who thumbed this   capped at 12: three friends
+//       exact row (cap 12)                   agreeing is a fact, twenty is
+//                                            a crowd. How much a friend
+//                                            OUGHT to weigh is CLU-132's
+//                                            job, not this card's — using a
+//                                            friend's thumb as a reason is
+//                                            in scope, tuning it is not
+//   +3  per row of this list you thumbed up  you like the parts, so the
+//       (cap 9)                              next part is a fair guess
+//   +3  per other list you track where the   a work two of your own lists
+//       same work sits unticked (cap 6)      agree on has been asked for twice
+//   +2  per mutual friend who thumbed the    same crowd signal, one level up
+//       whole list (cap 6)
+//   +1  you already track this list ........ the floor, and the only signal
+//                                            behind "still here"
+//
+// Two hard gates sit in front of all of it: recReady drops anything that is
+// not startable tonight, and a total of zero drops anything with no honest
+// line to write. A thumbs-down on the list or on the row is a third — you
+// have already answered, and the shelf does not argue.
+function recScore(d, TH, F, kin){
+  const tickcache = {}, out = [];
+  const tset = s=> (tickcache[s] = tickcache[s] || recTicked(s));
+  const group = {};
+  for(const k in (d.sync || {})){
+    const g = d.sync[k];
+    for(const p of g) group[p[0] + '|' + p[1]] = g;
+  }
+  for(const c of recReady(d)){
+    const slug = c.m.slug, id = c.r[1];
+    const mine = TH[slug] || { items: {}, list: null };
+    if(mine.list === 'down' || mine.items[id] === 'down') continue;
+    let score = 0;
+    const lines = [];
+    if(mine.list === 'up'){
+      score += 6;
+      lines.push([6, 'you ' + RECTHUP + ' this whole list']);
+    }
+    const k = kin[slug];
+    if(k && k.m.slug !== slug){
+      score += 5;
+      lines.push([5, RECFIN + k.m.title]);
+    }
+    const fi = F ? (F.items[slug + '|' + id] || []) : [];
+    if(fi.length){
+      score += Math.min(12, 4 * fi.length);
+      lines.push([Math.min(12, 4 * fi.length), recPeople(fi.length) + ' ' + RECTHUP + ' it']);
+    }
+    let ups = 0;
+    for(const x in mine.items) if(mine.items[x] === 'up') ups++;
+    if(ups){
+      score += Math.min(9, 3 * ups);
+      lines.push([Math.min(9, 3 * ups),
+                  recNum(ups) + ' of your ' + RECTHUP + ' sit on this list']);
+    }
+    const g = group[slug + '|' + id];
+    let also = 0;
+    if(g) for(const p of g){
+      if(p[0] === slug) continue;
+      if(localCount(p[0]) > 0 && !tset(p[0]).has(p[1])) also++;
+    }
+    if(also){
+      score += Math.min(6, 3 * also);
+      lines.push([Math.min(6, 3 * also),
+                  'unticked on ' + recNum(also + 1) + " lists you're in"]);
+    }
+    const fl = F ? (F.lists[slug] || []) : [];
+    if(fl.length){
+      score += Math.min(6, 2 * fl.length);
+      lines.push([Math.min(6, 2 * fl.length),
+                  recPeople(fl.length) + ' ' + RECTHUP + ' this list']);
+    }
+    if(c.n > 0){
+      score += 1;
+      // "still here" has to have been sitting: a list ticked this week has
+      // not left anything behind, it is simply in progress
+      let last = 0;
+      for(const e of evAll(slug)){
+        if(e.a !== 'tick') continue;
+        const t = Date.parse(e.at) || 0;
+        if(t > last) last = t;
+      }
+      lines.push([1, (last && Date.now() - last > 3 * 864e5)
+        ? 'the one you left unticked — still here'
+        : 'still unticked — nothing in front of it']);
+    }
+    if(!score || !lines.length) continue;   // no line, no row
+    lines.sort((a, b)=> b[0] - a[0]);
+    out.push({ r: c.r, m: c.m, score: score, why: lines[0][1] });
+  }
+  // score, then the catalogue's own popularity, then the slug — a stable
+  // order, so the shelf does not reshuffle itself under the reader between
+  // one render and the next
+  out.sort((a, b)=> b.score - a.score
+    || (b.m.popularity || 0) - (a.m.popularity || 0)
+    || (a.m.slug < b.m.slug ? -1 : a.m.slug > b.m.slug ? 1 : 0));
+  return out;
+}
+function recRowHTML(c, kick){
+  return '<button class="rec' + (kick ? ' pick' : '') + '"'
+    + ' data-slug="' + esc(c.m.slug) + '" data-id="' + esc(c.r[1]) + '">'
+    + (kick ? '<span class="kick">' + esc(kick) + '</span>' : '')
+    + '<span class="h"><b>' + esc(c.r[2])
+    + (c.r[3] ? ' <span class="rn">' + esc(c.r[3]) + '</span>' : '')
+    + '</b><span class="n">' + esc(c.m.title) + '</span></span>'
+    + '<span class="why">' + esc(c.why) + '</span></button>';
+}
+function recWire(host){
+  host.querySelectorAll('.rec').forEach(b=>{
+    b.onclick = ()=>{
+      try{ sessionStorage.setItem('gw:jump', b.dataset.id); }catch(e){}
+      go(b.dataset.slug);
+    };
+  });
+}
+// The whole block goes down together, header, frame, pick and rows alike:
+// half a shelf is worse than none, and a stale frame over an empty list is
+// exactly the dead door this feature is not allowed to ship.
+function recOff(){
+  ['hrec-h', 'hrechead', 'hrecpick', 'hrec'].forEach(id=>{
+    const el = $(id);
+    el.classList.add('hide');
+    if(id !== 'hrec-h') el.innerHTML = '';
+  });
+  RECPOOL = [];
+}
+function recPaint(d){
+  const head = $('hrec-h'), host = $('hrec');
+  const fin = recFinished();
+  const ranked = recScore(d, recThumbs(), RECFTH, recKin(d, fin));
+  // one row per list, so three rows are three different lists rather than
+  // three films off whichever list happens to be scoring well today
+  const shown = [], seen = {};
+  for(const c of ranked){
+    if(shown.length >= RECMAX) break;
+    if(seen[c.m.slug]) continue;
+    seen[c.m.slug] = 1;
+    shown.push(c);
+  }
+  if(!shown.length){ recOff(); return; }
+  // The hold's pool is everything ready the three rows did not take, so a
+  // hold never returns a row already on screen. Four per list at most, or
+  // one 600-film catalogue owns every draw; where a list has more than four
+  // to give, the slice moves each load, so the pool is not the same eight
+  // titles forever.
+  const took = {}, pool = [];
+  for(const c of ranked){
+    if(pool.length >= RECPOOLMAX) break;
+    if(shown.indexOf(c) >= 0) continue;
+    const n = took[c.m.slug] = (took[c.m.slug] || 0) + 1;
+    if(n > RECPERLIST) continue;
+    pool.push(c);
+  }
+  RECPOOL = pool;
+  head.classList.remove('hide');
+  head.classList.toggle('nohold', !pool.length);
+  $('rechold').disabled = !pool.length;
+  host.classList.remove('hide');
+  // The frame, from the drawing. "Since you finished X" is written ONLY
+  // when a fresh finish is genuinely what put the top row there — the shelf
+  // does not get to narrate a mood it cannot show its working for. The
+  // count on the right is always true, and it is the readiness rule said
+  // out loud: these are the ones with nothing in front of them.
+  const top = shown[0].why.indexOf(RECFIN) === 0
+    ? shown[0].why.slice(RECFIN.length) : '';
+  $('hrechead').innerHTML = '<div class="thinkhead">'
+    + (top ? '<b>Since you finished ' + esc(top) + '</b>' : '')
+    + '<span class="quiet">' + shown.length
+    + ' you could start tonight</span></div>';
+  $('hrechead').classList.remove('hide');
+  host.innerHTML = shown.map(c=> recRowHTML(c, '')).join('');
+  recWire(host);
+}
+// Local signals paint immediately; friends' thumbs land later or not at all,
+// and only then is anything repainted. RECTURN keeps a slow friends read
+// from a first showHome() overwriting a second one's shelf.
+async function armRecommends(){
+  const turn = ++RECTURN;
+  // the shelf leans entirely on the reader's own history and their friends'
+  // thumbs, so a stranger has nothing to be recommended from
+  if(!user){ recOff(); return; }
+  const d = await ensureIndex();
+  if(turn !== RECTURN) return;
+  if(!d || !d.rows){ recOff(); return; }
+  recPaint(d);
+  const f = await recFriendThumbs();
+  if(turn !== RECTURN || !f) return;
+  RECFTH = f;
+  recPaint(d);
+}
+// The hold (Nathan's ruling): press and hold Clubbothy's eye beside the
+// header, the ring tightens, and at the threshold a random ready
+// recommendation lands while the eye pops open to 1.8x and eases back down
+// over about a second. Fast up, unhurried return. Only THIS eye changes
+// size — a hold on the mast eye stays a plain blink — but both eyes share
+// open and closed, which is what the site already does on any press.
+// Re-rolls are unlimited; RECLAST only promises no immediate repeat.
+(function(){
+  const hold = $('rechold'), wrap = $('recwrap'), host = $('hrecpick');
+  if(!hold) return;
+  let t = null, poptimer = null;
+  function pop(){
+    // removing and re-adding with a forced reflow between restarts the
+    // keyframes, which is what makes a second hold visibly pop again
+    wrap.classList.remove('pop');
+    void wrap.offsetWidth;
+    wrap.classList.add('pop');
+    clearTimeout(poptimer);
+    poptimer = setTimeout(()=>{ wrap.classList.remove('pop'); }, 1300);
+  }
+  function land(){
+    t = null;
+    hold.classList.remove('arm');
+    if(MASTEYE) MASTEYE.open();
+    if(RECEYE) RECEYE.open();
+    if(!RECPOOL.length) return;
+    let i = Math.floor(Math.random() * RECPOOL.length);
+    if(i === RECLAST) i = (i + 1) % RECPOOL.length;
+    RECLAST = i;
+    pop();
+    host.innerHTML = recRowHTML(RECPOOL[i], 'picked just now · nothing in front of it');
+    host.classList.remove('hide');
+    recWire(host);
+  }
+  function start(){
+    if(hold.disabled || hold.classList.contains('arm')) return;
+    if(MASTEYE) MASTEYE.shut();
+    if(RECEYE) RECEYE.shut();
+    hold.classList.add('arm');
+    t = setTimeout(land, 620);
+  }
+  function stop(){
+    if(t){ clearTimeout(t); t = null; }
+    hold.classList.remove('arm');
+    if(MASTEYE) MASTEYE.open();
+    if(RECEYE) RECEYE.open();
+  }
+  hold.addEventListener('pointerdown', start);
+  hold.addEventListener('pointerup', stop);
+  hold.addEventListener('pointerleave', stop);
+  hold.addEventListener('pointercancel', stop);
+  hold.addEventListener('contextmenu', e=>{ e.preventDefault(); });
+  // a hold has to be holdable from the keyboard, or the control is a dead
+  // end for anyone not using a pointer. keydown repeats, so start() guards
+  // on .arm rather than trusting the first event to be the only one
+  hold.addEventListener('keydown', e=>{
+    if(e.key === ' ' || e.key === 'Enter'){ e.preventDefault(); start(); }
+  });
+  hold.addEventListener('keyup', e=>{
+    if(e.key === ' ' || e.key === 'Enter') stop();
+  });
+  hold.addEventListener('blur', stop);
+})();
+
 function renderLedger(){
   const now = Date.now(), D = 864e5, agg = {};
   for(const m of splashList()){
@@ -8019,6 +8571,11 @@ function showHome(){
   fhh.title = 'Open the friends page';
   fhh.onclick = ()=>{ location.href = location.pathname + '?friends'; };
   renderFriends();
+  // the shelf sits above Tonight and is deliberately NOT chip-scoped: the
+  // chips are a browsing filter for the block below them, and a
+  // recommendation that vanished when you narrowed the catalogue would be
+  // a recommendation you could never act on
+  armRecommends();
   // one chip row scopes both the pick and the wall, even while folded
   renderChips($('hchips'), ()=>{
     if(homeWallApply) homeWallApply();
