@@ -1080,8 +1080,9 @@ footer a{color:var(--steel)}
         <button id="b-fcopy" type="button">Copy</button>
         <button id="b-fshare" type="button">Share link</button>
       </div>
-      <div class="acap">both sides enter the other’s code and the friendship
-        exists — <b>mutual by construction</b>, no request inbox.
+      <div class="acap">anyone who enters this code sends you a request, and it
+        waits under Friends until you <b>accept or decline</b> it. Nothing of
+        yours is visible to them before you accept.
         <button class="aquiet" id="b-fnew" type="button">regenerate code</button>
         kills every link you’ve ever sent.</div>
       <div class="afrow" style="margin-top:13px">
@@ -1089,7 +1090,7 @@ footer a{color:var(--steel)}
                aria-label="Enter a friend’s code" maxlength="8">
         <button id="b-fadd" type="button">Add</button>
       </div>
-      <div class="acap">mutual by construction — you add theirs, they add yours, and only then are you linked</div>
+      <div class="acap">this sends them a request — you are linked once they accept it</div>
     </div>
 
     <!-- friend privacy (CLU-118): friends could read every shelf and there was
@@ -1223,6 +1224,7 @@ footer a{color:var(--steel)}
                aria-label="Enter a friend’s code" maxlength="8">
         <button id="fp-add" type="button">Add</button>
       </div>
+      <div class="acap">this sends them a request — you are linked once they accept it</div>
     </div>
 
     <div class="acard hide" id="fp-clubcard">
@@ -3110,8 +3112,9 @@ async function primeShelf(){
 }
 
 /* -------------------------------------------------------------- friends */
-// The handshake (CLU-69): a friendship is two rows, one per direction —
-// mutual by construction, no request inbox. profiles is the public half,
+// The handshake (CLU-69): a friendship is two rows, one per direction. The
+// second row is what Accept inserts, so the inbox and the "waiting on them"
+// list are just this table read from each side. profiles is the public half,
 // mapping a friend code to its owner so a typed or linked code can find
 // them. Both tables arrive with migrate-add-friends.sql; until it runs,
 // everything here fails quiet and the Friends section stays away.
