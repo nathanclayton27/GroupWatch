@@ -1,0 +1,656 @@
+{
+  "slug": "attack-on-titan",
+  "title": "Attack on Titan",
+  "subtitle": "the complete broadcast run",
+  "kind": "anime",
+  "popularity": 84,
+  "year": "2013–2023",
+  "blurb": "All 94 episodes in broadcast order, season 1 through the Final Season's fourth part.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#2B5032",
+  "accentDark": "#63AD75",
+  "tiers": false,
+  "notes": [
+    [
+      "94 episodes, not 89.",
+      "The Final Season's parts 3 and 4 first aired as two feature-length television specials, and most summaries count those as two entries — 87 weekly episodes plus 2 specials. They were later redistributed as the seven numbered episodes 88–94, which is what the episode tables enumerate and what this list uses, so every row is one sitting."
+    ],
+    [
+      "Sections follow the source's own tables.",
+      "One per season, split wherever the season article splits itself: season 3 into two parts, the Final Season into four. Those parts aired years apart and are how the show is talked about."
+    ],
+    [
+      "No weights.",
+      "Neither the episode tables nor the season infoboxes carry per-episode runtimes, so there is nothing here to weigh with. Putting one guessed figure on 94 rows would be an invented number wearing a decimal point; every row counts as one episode instead."
+    ],
+    [
+      "The films are out.",
+      "The compilation films re-cut episodes that are already on this list, so ticking them would count the same watch twice. Season 1's \"Since That Day\" recap special is out for the same reason."
+    ],
+    [
+      "The OADs are optional.",
+      "Three bonus episodes bundled with manga volumes, enumerated in the episode list's own table and marked optional here. That page's prose counts eight OADs in all — the other five belong to the No Regrets and Lost Girls sets, which have their own articles and are not enumerated on it."
+    ],
+    "Episode numbers, titles and part boundaries machine-read from Wikipedia's four season articles and checked against the series overview on List of Attack on Titan episodes."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "2013 · episodes 1–25",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_1"
+        }
+      ],
+      "items": [
+        {
+          "id": "aot-1",
+          "t": "To You, in 2000 Years: The Fall of Shiganshina, Part 1",
+          "n": "1"
+        },
+        {
+          "id": "aot-2",
+          "t": "That Day: The Fall of Shiganshina, Part 2",
+          "n": "2"
+        },
+        {
+          "id": "aot-3",
+          "t": "A Dim Light Amid Despair: Humanity's Comeback, Part 1",
+          "n": "3"
+        },
+        {
+          "id": "aot-4",
+          "t": "The Night of the Closing Ceremony: Humanity's Comeback, Part 2",
+          "n": "4"
+        },
+        {
+          "id": "aot-5",
+          "t": "First Battle: The Struggle for Trost, Part 1",
+          "n": "5"
+        },
+        {
+          "id": "aot-6",
+          "t": "The World the Girl Saw: The Struggle for Trost, Part 2",
+          "n": "6"
+        },
+        {
+          "id": "aot-7",
+          "t": "Small Blade: The Struggle for Trost, Part 3",
+          "n": "7"
+        },
+        {
+          "id": "aot-8",
+          "t": "I Can Hear His Heartbeat: The Struggle for Trost, Part 4",
+          "n": "8"
+        },
+        {
+          "id": "aot-9",
+          "t": "Whereabouts of His Left Arm: The Struggle for Trost, Part 5",
+          "n": "9"
+        },
+        {
+          "id": "aot-10",
+          "t": "Response: The Struggle for Trost, Part 6",
+          "n": "10"
+        },
+        {
+          "id": "aot-11",
+          "t": "Idol: The Struggle for Trost, Part 7",
+          "n": "11"
+        },
+        {
+          "id": "aot-12",
+          "t": "Wound: The Struggle for Trost, Part 8",
+          "n": "12"
+        },
+        {
+          "id": "aot-13",
+          "t": "Primal Desire: The Struggle for Trost, Part 9",
+          "n": "13"
+        },
+        {
+          "id": "aot-14",
+          "t": "Can't Look into His Eyes Yet: Eve of the Counterattack, Part 1",
+          "n": "14"
+        },
+        {
+          "id": "aot-15",
+          "t": "Special Operations Squad: Eve of the Counterattack, Part 2",
+          "n": "15"
+        },
+        {
+          "id": "aot-16",
+          "t": "What Needs to Be Done Now: Eve of the Counterattack, Part 3",
+          "n": "16"
+        },
+        {
+          "id": "aot-17",
+          "t": "Female Titan: The 57th Exterior Scouting Mission, Part 1",
+          "n": "17"
+        },
+        {
+          "id": "aot-18",
+          "t": "Forest of Giant Trees: The 57th Exterior Scouting Mission, Part 2",
+          "n": "18"
+        },
+        {
+          "id": "aot-19",
+          "t": "Bite: The 57th Exterior Scouting Mission, Part 3",
+          "n": "19"
+        },
+        {
+          "id": "aot-20",
+          "t": "Erwin Smith: The 57th Exterior Scouting Mission, Part 4",
+          "n": "20"
+        },
+        {
+          "id": "aot-21",
+          "t": "Crushing Blow: The 57th Exterior Scouting Mission, Part 5",
+          "n": "21"
+        },
+        {
+          "id": "aot-22",
+          "t": "The Defeated: The 57th Exterior Scouting Mission, Part 6",
+          "n": "22"
+        },
+        {
+          "id": "aot-23",
+          "t": "Smile: Assault on Stohess, Part 1",
+          "n": "23"
+        },
+        {
+          "id": "aot-24",
+          "t": "Mercy: Assault on Stohess, Part 2",
+          "n": "24"
+        },
+        {
+          "id": "aot-25",
+          "t": "Wall: Assault on Stohess, Part 3",
+          "n": "25"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "2017 · episodes 26–37",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_2"
+        }
+      ],
+      "items": [
+        {
+          "id": "aot-26",
+          "t": "Beast Titan",
+          "n": "26"
+        },
+        {
+          "id": "aot-27",
+          "t": "I'm Home",
+          "n": "27"
+        },
+        {
+          "id": "aot-28",
+          "t": "Southwestward",
+          "n": "28"
+        },
+        {
+          "id": "aot-29",
+          "t": "Soldier",
+          "n": "29"
+        },
+        {
+          "id": "aot-30",
+          "t": "Historia",
+          "n": "30"
+        },
+        {
+          "id": "aot-31",
+          "t": "Warrior",
+          "n": "31"
+        },
+        {
+          "id": "aot-32",
+          "t": "Close Combat",
+          "n": "32"
+        },
+        {
+          "id": "aot-33",
+          "t": "The Hunters",
+          "n": "33"
+        },
+        {
+          "id": "aot-34",
+          "t": "Opening",
+          "n": "34"
+        },
+        {
+          "id": "aot-35",
+          "t": "Children",
+          "n": "35"
+        },
+        {
+          "id": "aot-36",
+          "t": "Charge",
+          "n": "36"
+        },
+        {
+          "id": "aot-37",
+          "t": "Scream",
+          "n": "37"
+        }
+      ]
+    },
+    {
+      "id": "s3-p1",
+      "title": "Season 3 Part 1",
+      "sub": "2018 · episodes 38–49",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_3"
+        }
+      ],
+      "items": [
+        {
+          "id": "aot-38",
+          "t": "Smoke Signal",
+          "n": "38"
+        },
+        {
+          "id": "aot-39",
+          "t": "Pain",
+          "n": "39"
+        },
+        {
+          "id": "aot-40",
+          "t": "Old Story",
+          "n": "40"
+        },
+        {
+          "id": "aot-41",
+          "t": "Trust",
+          "n": "41"
+        },
+        {
+          "id": "aot-42",
+          "t": "Reply",
+          "n": "42"
+        },
+        {
+          "id": "aot-43",
+          "t": "Sin",
+          "n": "43"
+        },
+        {
+          "id": "aot-44",
+          "t": "Wish",
+          "n": "44"
+        },
+        {
+          "id": "aot-45",
+          "t": "Outside the Walls of Orvud District",
+          "n": "45"
+        },
+        {
+          "id": "aot-46",
+          "t": "Ruler of the Walls",
+          "n": "46"
+        },
+        {
+          "id": "aot-47",
+          "t": "Friends",
+          "n": "47"
+        },
+        {
+          "id": "aot-48",
+          "t": "Bystander",
+          "n": "48"
+        },
+        {
+          "id": "aot-49",
+          "t": "Night of the Battle to Retake the Wall",
+          "n": "49"
+        }
+      ]
+    },
+    {
+      "id": "s3-p2",
+      "title": "Season 3 Part 2",
+      "sub": "2019 · episodes 50–59",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_3"
+        }
+      ],
+      "items": [
+        {
+          "id": "aot-50",
+          "t": "The Town Where Everything Began",
+          "n": "50"
+        },
+        {
+          "id": "aot-51",
+          "t": "Thunder Spears",
+          "n": "51"
+        },
+        {
+          "id": "aot-52",
+          "t": "Descent",
+          "n": "52"
+        },
+        {
+          "id": "aot-53",
+          "t": "Perfect Game",
+          "n": "53"
+        },
+        {
+          "id": "aot-54",
+          "t": "Hero",
+          "n": "54"
+        },
+        {
+          "id": "aot-55",
+          "t": "Midnight Sun",
+          "n": "55"
+        },
+        {
+          "id": "aot-56",
+          "t": "The Basement",
+          "n": "56"
+        },
+        {
+          "id": "aot-57",
+          "t": "That Day",
+          "n": "57"
+        },
+        {
+          "id": "aot-58",
+          "t": "Attack Titan",
+          "n": "58"
+        },
+        {
+          "id": "aot-59",
+          "t": "The Other Side of the Wall",
+          "n": "59"
+        }
+      ]
+    },
+    {
+      "id": "s4-p1",
+      "title": "The Final Season Part 1",
+      "sub": "2020–21 · episodes 60–75",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4"
+        }
+      ],
+      "items": [
+        {
+          "id": "aot-60",
+          "t": "The Other Side of the Sea",
+          "n": "60"
+        },
+        {
+          "id": "aot-61",
+          "t": "Midnight Train",
+          "n": "61"
+        },
+        {
+          "id": "aot-62",
+          "t": "The Door of Hope",
+          "n": "62"
+        },
+        {
+          "id": "aot-63",
+          "t": "From One Hand to Another",
+          "n": "63"
+        },
+        {
+          "id": "aot-64",
+          "t": "Declaration of War",
+          "n": "64"
+        },
+        {
+          "id": "aot-65",
+          "t": "The War Hammer Titan",
+          "n": "65"
+        },
+        {
+          "id": "aot-66",
+          "t": "Assault",
+          "n": "66"
+        },
+        {
+          "id": "aot-67",
+          "t": "Assassin's Bullet",
+          "n": "67"
+        },
+        {
+          "id": "aot-68",
+          "t": "Brave Volunteers",
+          "n": "68"
+        },
+        {
+          "id": "aot-69",
+          "t": "A Sound Argument",
+          "n": "69"
+        },
+        {
+          "id": "aot-70",
+          "t": "Deceiver",
+          "n": "70"
+        },
+        {
+          "id": "aot-71",
+          "t": "Guides",
+          "n": "71"
+        },
+        {
+          "id": "aot-72",
+          "t": "Children of the Forest",
+          "n": "72"
+        },
+        {
+          "id": "aot-73",
+          "t": "Savagery",
+          "n": "73"
+        },
+        {
+          "id": "aot-74",
+          "t": "Sole Salvation",
+          "n": "74"
+        },
+        {
+          "id": "aot-75",
+          "t": "Above and Below",
+          "n": "75"
+        }
+      ]
+    },
+    {
+      "id": "s4-p2",
+      "title": "The Final Season Part 2",
+      "sub": "2022 · episodes 76–87",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4"
+        }
+      ],
+      "items": [
+        {
+          "id": "aot-76",
+          "t": "Judgment",
+          "n": "76"
+        },
+        {
+          "id": "aot-77",
+          "t": "Sneak Attack",
+          "n": "77"
+        },
+        {
+          "id": "aot-78",
+          "t": "Two Brothers",
+          "n": "78"
+        },
+        {
+          "id": "aot-79",
+          "t": "Memories of the Future",
+          "n": "79"
+        },
+        {
+          "id": "aot-80",
+          "t": "From You, 2,000 Years Ago",
+          "n": "80"
+        },
+        {
+          "id": "aot-81",
+          "t": "Thaw",
+          "n": "81"
+        },
+        {
+          "id": "aot-82",
+          "t": "Sunset",
+          "n": "82"
+        },
+        {
+          "id": "aot-83",
+          "t": "Pride",
+          "n": "83"
+        },
+        {
+          "id": "aot-84",
+          "t": "Night of the End",
+          "n": "84"
+        },
+        {
+          "id": "aot-85",
+          "t": "Traitor",
+          "n": "85"
+        },
+        {
+          "id": "aot-86",
+          "t": "Retrospective",
+          "n": "86"
+        },
+        {
+          "id": "aot-87",
+          "t": "The Dawn of Humanity",
+          "n": "87"
+        }
+      ]
+    },
+    {
+      "id": "s4-p3",
+      "title": "The Final Season Part 3",
+      "sub": "2023 · episodes 88–90",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4"
+        }
+      ],
+      "items": [
+        {
+          "id": "aot-88",
+          "t": "The Rumbling",
+          "n": "88"
+        },
+        {
+          "id": "aot-89",
+          "t": "The Wings of Freedom",
+          "n": "89"
+        },
+        {
+          "id": "aot-90",
+          "t": "In the Depths of Despair",
+          "n": "90"
+        }
+      ],
+      "intro": "First aired as a feature-length television special, The Final Chapters (Part 1), in March 2023; later redistributed as these three numbered episodes. Three rows rather than one, because three is what the episode tables enumerate."
+    },
+    {
+      "id": "s4-p4",
+      "title": "The Final Season Part 4",
+      "sub": "2023 · episodes 91–94",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4"
+        }
+      ],
+      "items": [
+        {
+          "id": "aot-91",
+          "t": "The Battle of Heaven and Earth",
+          "n": "91"
+        },
+        {
+          "id": "aot-92",
+          "t": "Dedicate Your Heart",
+          "n": "92"
+        },
+        {
+          "id": "aot-93",
+          "t": "A Long Dream",
+          "n": "93"
+        },
+        {
+          "id": "aot-94",
+          "t": "Toward the Tree on That Hill",
+          "n": "94"
+        }
+      ],
+      "intro": "The same again: one television special, The Final Chapters (Part 2), redistributed as these four numbered episodes."
+    },
+    {
+      "id": "oads",
+      "title": "OADs",
+      "sub": "2013–14 · three bonus episodes · optional",
+      "intro": "Bundled with limited editions of the manga. Optional: they sit outside the broadcast run and nothing in the numbered episodes depends on them.",
+      "links": [
+        {
+          "label": "Episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Attack_on_Titan_episodes"
+        }
+      ],
+      "items": [
+        {
+          "id": "aot-oad-1",
+          "t": "Ilse's Notebook: Memoirs of a Scout Regiment Member",
+          "n": "OAD 1",
+          "opt": 1
+        },
+        {
+          "id": "aot-oad-2",
+          "t": "The Sudden Visitor: The Torturous Curse of Youth",
+          "n": "OAD 2",
+          "opt": 1
+        },
+        {
+          "id": "aot-oad-3",
+          "t": "Distress",
+          "n": "OAD 3",
+          "opt": 1
+        }
+      ]
+    }
+  ]
+}
