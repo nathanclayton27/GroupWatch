@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>clubd</title>
-<meta name="description" content="Track a movie marathon, a TV show, an anime or a comic run alongside other people, with everyone's progress stacked on one strip.">
+<meta name="description" content="Track a movie marathon, a TV show, an anime or a comic run alongside other people, with everyone’s progress stacked on one strip.">
 <meta property="og:site_name" content="clubd">
 <meta property="og:title" content="clubd">
-<meta property="og:description" content="Track a movie marathon, a TV show, an anime or a comic run alongside other people, with everyone's progress stacked on one strip.">
+<meta property="og:description" content="Track a movie marathon, a TV show, an anime or a comic run alongside other people, with everyone’s progress stacked on one strip.">
 <meta property="og:url" content="https://clubd.watch/">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://clubd.watch/clubd-og.png">
@@ -15,7 +15,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="clubd">
-<meta name="twitter:description" content="Track a movie marathon, a TV show, an anime or a comic run alongside other people, with everyone's progress stacked on one strip.">
+<meta name="twitter:description" content="Track a movie marathon, a TV show, an anime or a comic run alongside other people, with everyone’s progress stacked on one strip.">
 <meta name="twitter:image" content="https://clubd.watch/clubd-og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -989,7 +989,7 @@ footer a{color:var(--steel)}
     <h1 class="splash-h">Watch it <em>together</em>.<br>Tick it off together.</h1>
     <p class="splash-p">clubd turns any show, film run, comic, or game series
       into a trackable list — for just you, or for a club: share one code and
-      everyone's progress stacks on a single strip.</p>
+      everyone’s progress stacks on a single strip.</p>
     <div class="pstrip" id="pstrip" aria-hidden="true"></div>
     <div class="pstrip-cap">a club of three, mid-season — each layer is one person</div>
     <div class="pbeats">
@@ -1001,7 +1001,7 @@ footer a{color:var(--steel)}
         and the other lists that agree on its year tick with it.</span></div>
     </div>
     <div class="pctas">
-      <button class="pcta p" id="b-pitchin" type="button">Sign in — it's one email</button>
+      <button class="pcta p" id="b-pitchin" type="button">Sign in — it’s one email</button>
       <button class="pcta q" id="b-pitchbrowse" type="button">Just browse the lists ↓</button>
     </div>
     <!-- plain host: renderWall builds its own .cards.wall grid inside -->
@@ -1037,7 +1037,7 @@ footer a{color:var(--steel)}
     <div class="hsec holds hide" id="hrec-h">
       <button class="eyehold" id="rechold" type="button"
         title="dare to attempt to blind clubbothy?"
-        aria-label="Hold Clubbothy's eye for one recommendation"><span
+        aria-label="Hold Clubbothy’s eye for one recommendation"><span
         class="eyewrap" id="recwrap"><span class="eye" id="receye"
         aria-hidden="true"></span></span><span class="ring"></span></button>
       <span>Clubbothy thinks</span>
@@ -1189,8 +1189,8 @@ footer a{color:var(--steel)}
           <span>hides episode titles, synopses and notes ahead of where you are.
             On by default.</span></label></div>
       <div class="atog"><input type="checkbox" id="a-pace"
-             aria-label="Pace counts optional extras">
-        <label class="t" for="a-pace"><b>Pace counts optional extras</b>
+             aria-label="Count optional extras toward the finish date">
+        <label class="t" for="a-pace"><b>Count optional extras toward the finish date</b>
           <span id="a-pace-h"></span></label></div>
     </div>
 
@@ -1262,7 +1262,7 @@ footer a{color:var(--steel)}
     title="Keep this at the top of the menu">☆</button><span id="ptitle-t"></span><span class="lth" id="lthumb"></span></h1>
   <p class="tagline" id="pblurb"></p>
   <div class="strip" id="strip" role="img" aria-label="Your progress"></div>
-  <div class="stack hide" id="stack" role="img" aria-label="Everyone's progress"></div>
+  <div class="stack hide" id="stack" role="img" aria-label="Everyone’s progress"></div>
   <div class="glegend hide" id="glegend"></div>
   <div class="lbl" id="striplbl"></div>
   <div class="uprow" id="uprow">
@@ -1318,20 +1318,20 @@ footer a{color:var(--steel)}
       <p id="gsetup-p"></p>
       <div class="row">
         <input type="text" id="gname" placeholder="Your name" maxlength="24" autocomplete="nickname">
-        <span class="lbl">shown to the rest of the group</span>
+        <span class="lbl">shown to the rest of the club</span>
       </div>
       <div class="row" style="margin-top:14px">
-        <input type="text" id="gtitle" placeholder="Group name" maxlength="40" style="width:190px">
+        <input type="text" id="gtitle" placeholder="Club name" maxlength="40" style="width:190px">
         <span id="gstart-w"><span class="lbl">Starts</span>
         <input type="date" id="gstart" aria-label="Starts"></span>
         <span class="lbl" id="gdate-l">Finish by</span>
         <input type="date" id="gdate" aria-label="Finish by">
-        <button id="b-gcreate">Create a group</button>
+        <button id="b-gcreate">Start a club</button>
       </div>
       <div class="row" style="margin-top:10px">
         <input type="text" id="gcode" placeholder="Join code" maxlength="6" spellcheck="false"
                style="width:120px;text-transform:uppercase;letter-spacing:.12em">
-        <button id="b-gjoin">Join a group</button>
+        <button id="b-gjoin">Join a club</button>
       </div>
       <p id="gmsg" style="margin:12px 0 0;color:var(--signal)"></p>
     </div>
@@ -1361,7 +1361,7 @@ footer a{color:var(--steel)}
 
   <div class="panel">
     <h3>Move progress by hand</h3>
-    <p>Copy this code to carry progress to another browser without signing in. Loading a code replaces what's currently ticked.</p>
+    <p>Copy this code to carry progress to another browser without signing in. Loading a code replaces what’s currently ticked.</p>
     <textarea id="code" spellcheck="false" aria-label="Progress code"></textarea>
     <div class="row" style="margin-top:10px">
       <button id="b-export">Copy my code</button>
@@ -1670,7 +1670,13 @@ function hrs(h){
   return Math.max(1, Math.round(h*60)) + 'm';
 }
 function cap(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
-function groupNoun(){ return cap(VERB.ing) + ' with other people'; }
+// "Watching / Playing / Reading with other people" reads well; the fourth verb
+// in the catalogue is "working through", which conjugates to "Working through
+// with other people". A two-word verb takes the plain heading instead.
+function groupNoun(){
+  const v = VERB.ing || '';
+  return v && v.indexOf(' ') < 0 ? cap(v) + ' with other people' : 'With other people';
+}
 const $ = id => document.getElementById(id);
 function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function flash(t,el){
@@ -2826,17 +2832,24 @@ function friendLink(){ return 'https://clubd.watch/?friend=' + friendParam($('a-
 // The clipboard with the same fallback the progress code uses: where
 // writeText is refused (http, older Safari), the text goes into a field and
 // gets selected, so Ctrl/Cmd+C still works.
-async function acctCopy(text, note){
+// The message target and the fallback field both have to live on the view the
+// button is ON — the account page's pair sits inside #accountv, which a list
+// page hides, so a club-panel copy cannot borrow them.
+async function copyWithFallback(text, note, msgId, fieldId){
   try{
     await navigator.clipboard.writeText(text);
-    flash(note, 'a-msg');
+    flash(note, msgId);
   }catch(e){
-    const f = $('a-clip');
+    const f = $(fieldId);
+    if(!f){ flash('Could not copy. It is ' + text, msgId); return; }
     f.classList.remove('hide');
     f.value = text;
     f.select();
-    flash('Press Ctrl/Cmd+C to copy.', 'a-msg');
+    flash('Press Ctrl/Cmd+C to copy.', msgId);
   }
+}
+async function acctCopy(text, note){
+  await copyWithFallback(text, note, 'a-msg', 'a-clip');
 }
 
 function paintAcctIdentity(){
@@ -3404,7 +3417,7 @@ async function renderFriends(){
   fhost.querySelectorAll('button[data-fav]').forEach(b=>{
     b.onclick = async ()=>{
       const on = await toggleFavFriend(b.dataset.fav);
-      if(on === null){ flash('Could not save that favourite.'); return; }
+      if(on === null){ friendNotify({ err: 'That did not save — try again in a moment.' }, false); return; }
       renderFriends();
       renderFriendsPage();
     };
@@ -3570,7 +3583,7 @@ async function renderFriendsPage(){
   host.querySelectorAll('button[data-fav]').forEach(b=>{
     b.onclick = async ()=>{
       const on = await toggleFavFriend(b.dataset.fav);
-      if(on === null){ flash('Favourite could not be saved — try again.'); return; }
+      if(on === null){ friendNotify({ err: 'That did not save — try again in a moment.' }, false); return; }
       // repaint rather than patch the one card: the whole list re-sorts
       renderFriendsPage();
     };
@@ -3708,7 +3721,7 @@ function gstate(){
   $('strip').classList.toggle('hide', on);
   $('striplbl').textContent = on
     ? 'Each mark is one '+UNIT.one+' · one layer per person, furthest along on top'
-      + (combined() ? ' · everyone from all '+groups.length+' of your groups' : '')
+      + (combined() ? ' · everyone from all '+groups.length+' of your clubs' : '')
     : 'Each mark is one '+UNIT.one+', in order';
 }
 
@@ -3956,8 +3969,8 @@ function paintWindow(){
     el.classList.remove('hide');
     el.innerHTML = '<span>This has a suggested pace — '
       + (group ? (isOwner() ? 'set a start date below to run it.'
-                            : 'the group owner can start it.')
-               : 'join or create a group to use it.') + '</span>';
+                            : 'the club’s owner can start it.')
+               : 'join or start a club to use it.') + '</span>';
     return;
   }
   const p = paceInfo();
@@ -4229,7 +4242,7 @@ function wireResched(){
     const end = $('g-end').value;
     if(!end){ flash('Pick a date, or use Remove it.','gmsg2'); return; }
     if(end <= group.start_date){
-      flash('That is on or before the group started ('+group.start_date+').','gmsg2');
+      flash('That is on or before the club started ('+group.start_date+').','gmsg2');
       return;
     }
     if(end === group.target_date){ flash('That is already the finish date.','gmsg2'); return; }
@@ -4250,7 +4263,7 @@ function nameRow(){
     + '<span class="lbl">Your name</span>'
     + '<input type="text" id="g-name" maxlength="24" value="'+esc(mine.name)+'">'
     + '<button id="b-gname">Save</button>'
-    + '<span class="lbl">how the group sees you</span></div>';
+    + '<span class="lbl">how the club sees you</span></div>';
 }
 
 function wireName(){
@@ -4269,7 +4282,7 @@ function wireName(){
     if(error){ flash('Could not rename: '+error.message,'gmsg2'); return; }
     if(mine) mine.name = v;
     paintStack(); renderGroupPanel();
-    flash('The group sees you as '+v+' now.','gmsg2');
+    flash('The club sees you as '+v+' now.','gmsg2');
   };
 }
 
@@ -4285,15 +4298,15 @@ function groupSwitcher(){
             +'>'+esc(g.name)+'</option>').join('');
   return '<div class="row" style="margin:0 0 10px">'
     + '<span class="lbl">Showing</span>'
-    + '<select id="g-switch" aria-label="Which group to show"'
+    + '<select id="g-switch" aria-label="Which club to show"'
     + (combined() ? ' disabled' : '') + '>'+opts+'</select>'
     + '<span class="lbl">'
     + (combined() ? 'dates and the roster still follow this one'
-                  : 'one of your '+groups.length+' groups on this list')
+                  : 'one of your '+groups.length+' clubs on this list')
     + '</span></div>'
     + '<label class="row gall" style="margin:0 0 14px">'
     + '<input type="checkbox" id="g-all"'+(allGroups?' checked':'')+'>'
-    + '<span>Stack everyone from all '+groups.length+' groups</span>'
+    + '<span>Stack everyone from all '+groups.length+' clubs</span>'
     + '<span class="exp">Experimental</span></label>';
 }
 
@@ -4302,9 +4315,9 @@ function groupSwitcher(){
 function renameRow(){
   if(!isOwner()) return '';
   return '<div class="row" style="margin:0 0 14px">'
-    + '<span class="lbl">Group name</span>'
+    + '<span class="lbl">Club name</span>'
     + '<input type="text" id="g-gname" maxlength="40" style="width:190px" '
-    + 'aria-label="Group name" value="'+esc(group.name)+'">'
+    + 'aria-label="Club name" value="'+esc(group.name)+'">'
     + '<button id="b-grename">Rename</button></div>';
 }
 
@@ -4313,10 +4326,10 @@ function wireRename(){
   if(!b) return;
   b.onclick = async ()=>{
     const v = $('g-gname').value.trim();
-    if(!v){ flash('A group needs a name.','gmsg2'); return; }
+    if(!v){ flash('Give the club a name.','gmsg2'); return; }
     if(v === group.name){ flash('That is already the name.','gmsg2'); return; }
     b.disabled = true;
-    const ok = await saveGroup({ name: v }, 'Everyone sees this group as ' + v + ' now.');
+    const ok = await saveGroup({ name: v }, 'Everyone sees this club as ' + v + ' now.');
     if(!ok) b.disabled = false;
   };
 }
@@ -4324,17 +4337,26 @@ function wireRename(){
 // The create/join form is shared between "you are in no groups" and "you are in
 // one and want another", so its copy is set in one place.
 function prepSetup(another){
-  $('gstart-w').classList.toggle('hide', !isPaced());
-  $('gdate-l').textContent = isPaced() ? 'or finishes' : 'Finish by';
+  // Only a RELATIVE schedule is anchored by these fields. A property whose
+  // windows carry their own dates ignores both — windows() returns the
+  // property's dates and never reads start_date or target_date — so offering
+  // "Starts … or finishes …" there asks for two dates nothing consults.
+  const rel = isRelative();
+  $('gstart-w').classList.toggle('hide', !rel);
+  $('gdate-l').classList.toggle('hide', isPaced() && !rel);
+  $('gdate').classList.toggle('hide', isPaced() && !rel);
+  $('gdate-l').textContent = rel ? 'or finishes' : 'Finish by';
   $('gdate').disabled = false;
   $('gsetup-p').textContent = another
-    ? 'Start another group for ' + PROP.title + ', or join one with a code. You '
+    ? 'Start another club for ' + PROP.title + ', or join one with a code. You '
       + 'stay in ' + group.name + ' — the switcher above picks which one the '
       + 'strip is showing.'
     : (VERB.base
         ? cap(VERB.base)+' '+PROP.title+' alongside other people. Everyone’s progress '
-          + 'stacks onto one strip at the top of the page, and if the group has a finish '
-          + 'date you can see who’s keeping up.'
+          + 'stacks onto one strip at the top of the page, and '
+          + (isPaced()
+              ? 'the schedule says who’s keeping up.'
+              : 'a finish date shows who’s keeping up.')
         : 'Follow along with other people.');
   // CLU-73: the account username is the default a club sees, ahead of the
   // email prefix that used to stand in for it. A name already set inside a
@@ -4362,7 +4384,7 @@ function roster(){
         + '<span class="mname">'+esc(m.name)+(me?' (you)':'')+'</span>'
         + '<span class="gpct mono">'+readsOf(m).size+'</span>'
         + (me ? '' : '<button class="rm" data-uid="'+esc(m.id)+'" data-name="'+esc(m.name)
-                   + '" title="Remove from group">Remove</button>')
+                   + '" title="Remove from the club">Remove</button>')
         + '</li>';
     }).join('');
   return '<div class="lbl" style="margin:16px 0 6px">Members</div><ul class="mlist">'+rows+'</ul>';
@@ -4418,7 +4440,7 @@ function updateGroupLine(){
   el.textContent = combined()
     ? line + ' ' + who + ' across all ' + groups.length + ' of your groups; the '
       + 'dates come from ' + group.name + '.'
-    : line + ' ' + who + ' in this group.';
+    : line + ' ' + who + ' in this club.';
 }
 
 function renderGroupPanel(){
@@ -4429,15 +4451,15 @@ function renderGroupPanel(){
   if(!user){
     $('ghead').textContent = groupNoun();
     setup.classList.add('hide'); joined.classList.remove('hide');
-    joined.innerHTML = '<p>Groups need an account, so everyone’s progress has somewhere to live. '
-      + 'Sign in above and this turns into a group.</p>';
+    joined.innerHTML = '<p>Clubs need an account, so everyone’s progress has somewhere to live. '
+      + 'Sign in above and this turns into a club.</p>';
     return;
   }
   if(!group){
     $('ghead').textContent = groupNoun();
     if(groupError){
       setup.classList.add('hide'); joined.classList.remove('hide');
-      joined.innerHTML = '<p>Groups aren’t loading: <code>'+esc(groupError)+'</code></p>'
+      joined.innerHTML = '<p>Clubs aren’t loading: <code>'+esc(groupError)+'</code></p>'
         + '<p>If that mentions a column, the database is a migration behind the '
         + 'site — the SQL files in the repo say which.</p>'
         + '<div class="row"><button id="b-gretry">Try again</button></div>';
@@ -4458,11 +4480,11 @@ function renderGroupPanel(){
 
   joined.innerHTML =
     groupSwitcher()
-    + '<div class="gbar"><span class="lbl">Join code</span>'
+    + '<div class="gbar"><span class="lbl">Club code</span>'
     + '<span class="gcode">'+esc(group.code)+'</span>'
     + '<button id="b-gcopy">Copy code</button>'
     + '<button id="b-gadd">'
-    + (addingGroup ? 'Never mind' : 'Join or start another') + '</button>'
+    + (addingGroup ? 'Close' : 'Join or start another') + '</button>'
     + '</div>'
     + renameRow()
     + '<p id="gline"></p>'
@@ -4471,13 +4493,16 @@ function renderGroupPanel(){
     + roster()
     + '<div class="row" style="margin-top:14px"><button id="b-grefresh">Refresh</button>'
     + (windows() ? '<button id="b-gics" title="One calendar event per schedule window">Calendar (.ics)</button>' : '')
-    + '<button id="b-gleave">Leave group</button></div>'
+    + '<button id="b-gleave">Leave the club</button></div>'
+    + '<input type="text" id="g-clip" class="hide" readonly spellcheck="false"'
+    + ' aria-label="Club code, ready to copy">'
     + '<p id="gmsg2" style="margin:12px 0 0;color:var(--signal)"></p>';
 
-  $('b-gcopy').onclick = async ()=>{
-    try{ await navigator.clipboard.writeText(group.code); flash('Code copied — send it to whoever’s joining.','gmsg2'); }
-    catch(e){ flash('Copy failed. The code is '+group.code+'.','gmsg2'); }
-  };
+  // this is the button most likely to be pressed on a phone, where writeText
+  // is refused most often — so it gets a selectable field like the others
+  $('b-gcopy').onclick = ()=> copyWithFallback(
+    group.code, 'Club code copied — send it to whoever’s joining.',
+    'gmsg2', 'g-clip');
   $('b-gadd').onclick = ()=>{
     addingGroup = !addingGroup;
     renderGroupPanel();
@@ -4508,7 +4533,7 @@ function renderGroupPanel(){
     catch(e){ console.error('[tracker] combined view failed', e); }
     paintStack(); renderGroupPanel();
     flash(allGroups
-      ? 'Showing everyone from all '+groups.length+' of your groups. Someone in '
+      ? 'Showing everyone from all '+groups.length+' of your clubs. Someone in '
         + 'two of them appears once. Dates still come from '+group.name+'.'
       : 'Back to '+group.name+' on its own.', 'gmsg2');
   };
@@ -4534,7 +4559,7 @@ async function refreshGroup(loud){
     group = null; gmembers = [];
     groupError = e.message || String(e);
     gstate(); renderGroupPanel();
-    if(loud) flash('Could not reach the group: '+groupError,'gmsg2');
+    if(loud) flash('Could not reach the club: '+groupError,'gmsg2');
   }
 }
 
@@ -5347,7 +5372,8 @@ async function joinSecretGroup(){
     return;
   }
   if(groups.some(x=> x.code === g.code)) return;      // already in it
-  const name = (user.email || '').split('@')[0].slice(0, 24) || 'Reader';
+  const name = acctName() || (user.email || '').split('@')[0].slice(0, 24)
+             || 'Member';
 
   // Try the function every install already has first. join_group resolves a
   // code that exists, which is the case for everyone after the first person
@@ -5380,7 +5406,7 @@ async function joinSecretGroup(){
   }
   console.error('[tracker] could not join the secret group', last);
   flash('Could not join automatically (' + ((last && last.message) || 'unknown')
-        + '). The join code is ' + g.code + ' — the group panel below takes it.',
+        + '). The join code is ' + g.code + ' — the club panel below takes it.',
         'gmsg2');
 }
 
@@ -5989,7 +6015,7 @@ function recScore(d, TH, F, kin){
       // The sibling bonus below is already guarded the same way.
       lines.push([Math.min(6, 3 * also),
                   'unticked on ' + recNum(also + (c.n > 0 ? 1 : 0))
-                  + " lists you're in"]);
+                  + " lists you’re in"]);
     }
     const fl = F ? (F.lists[slug] || []) : [];
     if(fl.length){
@@ -6853,7 +6879,7 @@ $('b-gh').onclick = ()=> oauth('github');
 $('b-google').onclick = ()=> oauth('google');
 if(CLOUD) $('b-google').classList.remove('hide');
 $('b-export').onclick = async ()=>{
-  try{ await navigator.clipboard.writeText($('code').value); flash('Code copied.'); }
+  try{ await navigator.clipboard.writeText($('code').value); flash('Progress code copied.'); }
   catch(e){ $('code').select(); flash('Press Ctrl/Cmd+C to copy.'); }
 };
 $('b-import').onclick = ()=>{
@@ -6881,9 +6907,9 @@ $('b-moveok').onclick = ()=>{
 };
 
 $('b-gcreate').onclick = async ()=>{
-  if(!user){ flash('Sign in first — a group needs an account.','gmsg'); return; }
+  if(!user){ flash('Sign in first — a club needs an account.','gmsg'); return; }
   const title = $('gtitle').value.trim();
-  if(!title){ flash('Give the group a name.','gmsg'); return; }
+  if(!title){ flash('Give the club a name.','gmsg'); return; }
   const start = $('gstart').value, end = $('gdate').value;
   if(start && end && end <= start){
     flash('The finish date has to be after the start.','gmsg'); return;
@@ -6892,12 +6918,12 @@ $('b-gcreate').onclick = async ()=>{
   const { data, error } = await sb.rpc('create_group', {
     p_name: title,
     p_target: end || null,
-    p_display_name: $('gname').value.trim() || 'Reader',
+    p_display_name: $('gname').value.trim() || acctName() || 'Member',
     p_property_id: SLUG
   });
   if(error){
     $('b-gcreate').disabled = false;
-    flash('Could not create the group: '+error.message,'gmsg'); return;
+    flash('Could not start the club: '+error.message,'gmsg'); return;
   }
   const made = Array.isArray(data) ? data[0] : data;
 
@@ -6925,32 +6951,32 @@ $('b-gcreate').onclick = async ()=>{
   $('gtitle').value = ''; $('gcode').value = '';
   await refreshGroup(false);
   startGroupPoll();
-  if(made) flash('Group created. Send the code '+made.code+' to whoever’s joining.','gmsg2');
+  if(made) flash('Club started. Send the code '+made.code+' to whoever’s joining.','gmsg2');
 };
 
 $('b-gjoin').onclick = async ()=>{
-  if(!user){ flash('Sign in first — a group needs an account.','gmsg'); return; }
+  if(!user){ flash('Sign in first — a club needs an account.','gmsg'); return; }
   const code = $('gcode').value.trim().toUpperCase();
   if(code.length !== 6){ flash('A join code is six characters.','gmsg'); return; }
   $('b-gjoin').disabled = true;
   const { data, error } = await sb.rpc('join_group', {
     p_code: code,
-    p_display_name: $('gname').value.trim() || 'Reader'
+    p_display_name: $('gname').value.trim() || acctName() || 'Member'
   });
   $('b-gjoin').disabled = false;
-  if(error){ flash(/no group/i.test(error.message) ? 'No group has that code.' : error.message, 'gmsg'); return; }
+  if(error){ flash(/no group/i.test(error.message) ? 'No club has that code.' : error.message, 'gmsg'); return; }
   const joined = Array.isArray(data) ? data[0] : data;
   // Once rate limiting lands, an unknown code comes back as NULL rather than
   // an error: a function that raises rolls its own transaction back, so a
   // miss it wanted to COUNT would never be recorded. Handle the quiet answer
   // here first, so the front end is ready before the migration runs.
-  if(!joined){ flash('No group has that code.', 'gmsg'); return; }
+  if(!joined){ flash('No club has that code.', 'gmsg'); return; }
 
   // A code is for one property. Joining one for a different list works, but it
   // will not appear here — say which list it is rather than look broken.
   if(joined && joined.property_id !== SLUG){
     const other = (MANIFEST||[]).find(p=> p.slug === joined.property_id);
-    flash('Joined ' + joined.name + ', but that group is for '
+    flash('Joined ' + joined.name + ', but that club is for '
           + (other ? other.title : joined.property_id)
           + '. Switch to it from the menu top left to see them.', 'gmsg');
     return;
@@ -7056,7 +7082,7 @@ loadProperty().then(()=>{
   console.error('[tracker] property load failed', e);
   state('Could not load '+SLUG,'');
   $('ptitle-t').textContent = 'Nothing loaded';
-  $('pblurb').textContent = 'Could not load this tracker: ' + (e.message||e)
+  $('pblurb').textContent = 'Could not load this list: ' + (e.message||e)
     + '. If you opened the file directly, serve it over http instead — fetch is blocked on file:// URLs.';
   renderMenu();
 });
