@@ -1225,6 +1225,26 @@
     "total": 35
   },
   {
+    "slug": "code-geass",
+    "media": [
+      "anime",
+      "movies"
+    ],
+    "title": "Code Geass",
+    "subtitle": "the television story, and the film continuity that forks away from it",
+    "kind": "anime & films",
+    "year": "2006–2024",
+    "popularity": 72,
+    "blurb": "Fifty episodes, eight films and one fork: the film trilogy retells the series with changes, and the sequels follow the films. Every row says which version it belongs to.",
+    "accent": "#4B1D6E",
+    "accentDark": "#B98BE8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 63
+  },
+  {
     "slug": "fromsoft",
     "media": [
       "games"
