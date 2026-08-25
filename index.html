@@ -4415,6 +4415,27 @@ let MANIFEST = [
     "random": true
   },
   {
+    "slug": "best-directors-cuts",
+    "media": [
+      "movies"
+    ],
+    "title": "Best Director's Cuts",
+    "subtitle": "the version that is the film, and the receipts",
+    "kind": "films",
+    "year": "1958–2017",
+    "popularity": 35,
+    "blurb": "19 films where a later cut is the one to watch — about 51 hours, every bar measuring the cut and not the release. A row exists only where Wikipedia says the cut landed better.",
+    "accent": "#8F5A00",
+    "accentDark": "#F0B84A",
+    "unit": {
+      "one": "cut",
+      "many": "cuts"
+    },
+    "total": 19,
+    "totalw": 50.64,
+    "random": true
+  },
+  {
     "slug": "body-swap",
     "media": [
       "movies"
@@ -4472,6 +4493,25 @@ let MANIFEST = [
       "many": "episodes"
     },
     "total": 435
+  },
+  {
+    "slug": "worst-directors-cuts",
+    "media": [
+      "movies"
+    ],
+    "title": "Worst Director's Cuts",
+    "subtitle": "five films, five versions to skip",
+    "kind": "films",
+    "year": "1977–2001",
+    "popularity": 31,
+    "blurb": "5 films whose later cut is the one to avoid, from the Star Wars Special Editions to the Donnie Darko director's cut. A row exists only where Wikipedia says the cut landed worse.",
+    "accent": "#7A2130",
+    "accentDark": "#E8737F",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 5
   },
   {
     "slug": "real-time-films",
@@ -4633,13 +4673,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'cf286cf7d827';
+const BUILD = '60b579d41a34';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = '2cb3ca7d26';
+const SYNCVER = '79041bde0c';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
