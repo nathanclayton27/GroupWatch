@@ -2805,7 +2805,7 @@ function ensureFcode(){
   })();
   return _fcode;
 }
-function friendLink(){ return 'https://clubd.watch/?friend=' + $('a-fcode').textContent; }
+function friendLink(){ return 'https://clubd.watch/?friend=' + friendParam($('a-fcode').textContent); }
 // The clipboard with the same fallback the progress code uses: where
 // writeText is refused (http, older Safari), the text goes into a field and
 // gets selected, so Ctrl/Cmd+C still works.
@@ -2990,7 +2990,8 @@ $('b-fadd').onclick = async ()=>{
 };
 $('fp-copy').onclick = ()=> acctCopy($('fp-code').textContent, 'Friend code copied.');
 $('fp-share').onclick = ()=> acctCopy(
-  'https://clubd.watch/?friend=' + $('fp-code').textContent, 'Share link copied.');
+  'https://clubd.watch/?friend=' + friendParam($('fp-code').textContent),
+  'Share link copied.');
 $('fp-add').onclick = async ()=>{
   const r = await addFriendFlow($('fp-fadd').value);
   friendNotify(r, false);
@@ -3128,9 +3129,23 @@ async function mirrorProfile(){
     if(error) FBROKEN = true;
   }catch(e){}
 }
+// The display form carries a middle dot, which is fine on a page and hostile
+// in a URL: chat clients end an auto-link at the first non-ASCII character, so
+// a shared ?friend=CLB·M3VS arrives as ?friend=CLB and resolves to nobody.
+// Links now carry the bare four-character tail (see friendParam), but old
+// links are already out there, so this accepts every shape they arrive in —
+// including a dot that never got decoded, whose %C2%B7 would otherwise smuggle
+// four junk characters into the tail.
 function normFcode(raw){
-  const tail = (raw || '').toUpperCase().replace(/[^A-Z2-9]/g, '').replace(/^CLB/, '');
+  const tail = (raw || '')
+    .replace(/%C2%B7|%c2%b7/g, '')
+    .toUpperCase().replace(/[^A-Z2-9]/g, '').replace(/^CLB/, '');
   return tail.length === 4 ? 'CLB·' + tail : null;
+}
+// what goes in a URL: ASCII only, no separator to lose
+function friendParam(display){
+  const t = (display || '').toUpperCase().replace(/[^A-Z2-9]/g, '').replace(/^CLB/, '');
+  return t.length === 4 ? t : '';
 }
 async function friendByCode(raw){
   const code = normFcode(raw);
