@@ -304,9 +304,9 @@ try:
         # the friend sections are legitimately between Lately and the shelf
         # when there are friends, so this is the relative order, not equality
         anchors = [x for x in order
-                   if x in ("Lately", "hrec-h", "Tonight", "The catalogue")]
+                   if x in ("hrec-h", "Tonight", "The catalogue")]
         chk("the shelf claims the reserved slot: %s" % order,
-            anchors == ["Lately", "hrec-h", "Tonight", "The catalogue"])
+            anchors == ["hrec-h", "Tonight", "The catalogue"])
         chk("Tonight really is below the shelf in the DOM", pg.evaluate(
             "()=>!!(document.getElementById('hrec').compareDocumentPosition("
             "document.getElementById('htonight')) & Node.DOCUMENT_POSITION_FOLLOWING)"))

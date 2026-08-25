@@ -761,7 +761,7 @@ footer a{color:var(--steel)}
    reaches about 11px past its resting edge, and the section gap of 12px
    would have it grazing the label. Layout pays for it, so the pop never
    has to shrink to fit. */
-.hsec.holds{gap:22px}
+.hsec.holds{gap:11px}
 .rhint{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;
   letter-spacing:.06em;text-transform:none;color:var(--ink-3)}
 /* the hold target. The wrapper only enlarges the hit area; the eye inside
@@ -1005,8 +1005,15 @@ footer a{color:var(--steel)}
   <div class="homep-in">
     <h1 class="splash-h" style="margin-top:34px">Your shelf</h1>
     <div id="hshelf"></div>
-    <div class="hsec">Lately</div>
-    <div id="hledger"></div>
+    <!-- Hidden until it has friends in it (Nathan, CLU-70). As built, Lately
+         only ever showed THIS DEVICE's own ticks with no names on them, which
+         reads as a feed while being a diary — and a thin one, since it cannot
+         see what you did on your phone either. It comes back when friends'
+         live ticks land, which is what makes an activity line worth reading.
+         The renderer is untouched and still fills #hledger, so restoring it
+         is deleting two classes. -->
+    <div class="hsec hide" id="hled-h">Lately</div>
+    <div id="hledger" class="hide"></div>
     <div class="hsec hide" id="hreq-h">Friend requests</div>
     <div class="hide" id="hreqs"></div>
     <div class="hsec hide" id="hfr-h">Friends</div>
@@ -1021,11 +1028,12 @@ footer a{color:var(--steel)}
          well as in the mast, and here he is a real control. -->
     <div class="hsec holds hide" id="hrec-h">
       <button class="eyehold" id="rechold" type="button"
+        title="dare to attempt to blind clubbothy?"
         aria-label="Hold Clubbothy's eye for one recommendation"><span
         class="eyewrap" id="recwrap"><span class="eye" id="receye"
         aria-hidden="true"></span></span><span class="ring"></span></button>
       <span>Clubbothy thinks</span>
-      <span class="rhint" id="hrec-hint">hold the eye</span>
+      <span class="rhint hide" id="hrec-hint">hold the eye</span>
     </div>
     <div class="hide" id="hrechead"></div>
     <div class="hide" id="hrecpick" aria-live="polite"></div>
@@ -3843,7 +3851,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '733de1aeef7e';
+const BUILD = '06dd8264b64c';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
