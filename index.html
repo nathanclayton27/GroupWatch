@@ -4148,7 +4148,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '0aba9e6fc43c';
+const BUILD = 'f0862c8efe78';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -4600,8 +4600,10 @@ async function backfillSync(){
   // The map now finds the year in a row's note when the number lane
   // isn't one, which added 224 groups. Bumping the version re-runs the
   // one-time pass so ticks people ALREADY have travel across the
-  // groups that did not exist when they first ran it.
-  const flag = 'gw:syncback:v2:' + (user ? user.id : 'anon');
+  // groups that did not exist when they first ran it. v3 adds the same
+  // treatment for games, which sync had never covered at all — FPS canon
+  // overlaps Halo, Half-Life and Bond games, and none of it matched.
+  const flag = 'gw:syncback:v3:' + (user ? user.id : 'anon');
   if(bfBusy || localStorage.getItem(flag)) return;
   bfBusy = true;
   try{

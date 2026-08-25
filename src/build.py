@@ -253,15 +253,29 @@ def main():
     for p in props:
         if p.get("secret"):
             continue
-        filmish = "film" in (p.get("kind") or "")
+        # Films AND games. Sync was film-only, so a game on two lists never
+        # matched — FPS canon overlaps Halo, Half-Life and Bond games, and
+        # Lego Star Wars sits on two lists, none of which synced (CLU-179).
+        # A game re-released under the same name in the same year is the
+        # risk here, which films do not have; the shipped overlaps were
+        # checked by hand and are all the same work.
+        kind = p.get("kind") or ""
+        # Films AND games sync, but never with EACH OTHER. Quantum of Solace
+        # is a 2008 film and a 2008 game, Goldeneye is a film and a game —
+        # same title, same year, different works, and syncing them would tick
+        # a game you have not played. The medium rides in the group key so the
+        # whole class of collision is impossible rather than hand-excluded.
+        medium = "g" if "game" in kind else "f"
+        syncable = "film" in kind or "game" in kind
         for s in p.get("sections", []):
             for x in s.get("items", []):
                 n = str(x.get("n", ""))
                 rows.append([p["slug"], x["id"], x["t"], n])
-                if filmish:
+                if syncable:
                     y = _year_of(x, n)
                     if y:
-                        groups.setdefault(_normt(x["t"]) + "|" + y, []).append(
+                        groups.setdefault(
+                            _normt(x["t"]) + "|" + y + "|" + medium, []).append(
                             [p["slug"], x["id"]])
     sync = {k: v for k, v in groups.items()
             if len({s for s, _ in v}) > 1}
