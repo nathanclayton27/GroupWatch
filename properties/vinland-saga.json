@@ -1,0 +1,323 @@
+{
+  "slug": "vinland-saga",
+  "title": "Vinland Saga",
+  "subtitle": "both seasons, two studios",
+  "kind": "anime",
+  "popularity": 60,
+  "year": "2019–2023",
+  "blurb": "Thorfinn's two seasons in broadcast order — 24 episodes from Wit Studio, then 24 from MAPPA.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#1F4E6B",
+  "accentDark": "#93B7BE",
+  "tiers": false,
+  "notes": [
+    [
+      "Two seasons, two studios.",
+      "Wit Studio made the 2019 season and MAPPA made the 2023 one — the source says so in its infobox and again in its prose, and each section here names which. What did not change is the director: Shūhei Yabuta took both."
+    ],
+    [
+      "Twenty-four each, taken from the source rather than assumed.",
+      "The two seasons are documented on separate articles, so the counts are read separately and cross-checked three ways before this builds: each season's parsed rows against that season's own infobox, against the episode list article's series overview, and the total against the series article's own figure of 48. The first and last airdates are checked the same three ways."
+    ],
+    [
+      "The opening night was three episodes.",
+      "The first season began on 8 July 2019 with episodes 1 to 3 in one sitting. They are three rows here because the source lists three episodes, and each of them says so."
+    ],
+    [
+      "Two sets of English titles in the second season.",
+      "Eleven of its episodes carry two official English titles. The source's own footnotes say the first set comes from Netflix and the official Japanese site and the second from Crunchyroll, and that where Crunchyroll has none the first set is used — so the first set is the default and it is what each row carries. The Crunchyroll title sits in the row note rather than being dropped."
+    ],
+    [
+      "The second season's two shorts are not listed.",
+      "Its article files them in a table of their own, numbered 30.5 and 42.5 rather than given episode numbers. They are outside the 24 the source counts, so they are outside this list."
+    ],
+    [
+      "Nothing is weighted, and hours are not tracked on this list.",
+      "Wikipedia documents no running time for this series at all: not on the series article, not on either season article, and not on one of the 48 episode entries — every one of those absences is asserted before this builds. Wikidata holds no duration for the series, either season, or the episode list either. There is no per-episode figure to use and no series-level average to be tempted by, and a part-weighted list would be worse than an unweighted one, because a row with no weight silently counts as a full hour. So every row counts one."
+    ],
+    "Titles and airdates machine-read from Wikipedia's \"Vinland Saga season 1\" and \"Vinland Saga season 2\" articles, with counts and dates cross-checked against \"List of Vinland Saga episodes\" and \"Vinland Saga (TV series)\" before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "2019 · 24 episodes · Wit Studio · NHK General TV",
+      "items": [
+        {
+          "id": "vinland-s1e1",
+          "t": "Somewhere Not Here",
+          "n": "1",
+          "note": "series premiere · episodes 1–3 aired back to back"
+        },
+        {
+          "id": "vinland-s1e2",
+          "t": "Sword",
+          "n": "2",
+          "note": "part of the opening broadcast"
+        },
+        {
+          "id": "vinland-s1e3",
+          "t": "Troll",
+          "n": "3",
+          "note": "part of the opening broadcast"
+        },
+        {
+          "id": "vinland-s1e4",
+          "t": "A True Warrior",
+          "n": "4"
+        },
+        {
+          "id": "vinland-s1e5",
+          "t": "The Troll's Son",
+          "n": "5"
+        },
+        {
+          "id": "vinland-s1e6",
+          "t": "The Journey Begins",
+          "n": "6"
+        },
+        {
+          "id": "vinland-s1e7",
+          "t": "Normanni",
+          "n": "7"
+        },
+        {
+          "id": "vinland-s1e8",
+          "t": "Beyond the Edge of the Sea",
+          "n": "8"
+        },
+        {
+          "id": "vinland-s1e9",
+          "t": "The Battle of London Bridge",
+          "n": "9"
+        },
+        {
+          "id": "vinland-s1e10",
+          "t": "Ragnarok",
+          "n": "10"
+        },
+        {
+          "id": "vinland-s1e11",
+          "t": "A Gamble",
+          "n": "11"
+        },
+        {
+          "id": "vinland-s1e12",
+          "t": "The Land on the Far Bank",
+          "n": "12"
+        },
+        {
+          "id": "vinland-s1e13",
+          "t": "Child of a Hero",
+          "n": "13"
+        },
+        {
+          "id": "vinland-s1e14",
+          "t": "The Light of Dawn",
+          "n": "14"
+        },
+        {
+          "id": "vinland-s1e15",
+          "t": "After Yule",
+          "n": "15"
+        },
+        {
+          "id": "vinland-s1e16",
+          "t": "History of Beasts",
+          "n": "16"
+        },
+        {
+          "id": "vinland-s1e17",
+          "t": "Servant",
+          "n": "17"
+        },
+        {
+          "id": "vinland-s1e18",
+          "t": "Out of the Cradle",
+          "n": "18"
+        },
+        {
+          "id": "vinland-s1e19",
+          "t": "United Front",
+          "n": "19"
+        },
+        {
+          "id": "vinland-s1e20",
+          "t": "Crown",
+          "n": "20"
+        },
+        {
+          "id": "vinland-s1e21",
+          "t": "Reunion",
+          "n": "21"
+        },
+        {
+          "id": "vinland-s1e22",
+          "t": "Lone Wolf",
+          "n": "22"
+        },
+        {
+          "id": "vinland-s1e23",
+          "t": "Miscalculation",
+          "n": "23"
+        },
+        {
+          "id": "vinland-s1e24",
+          "t": "End of the Prologue",
+          "n": "24",
+          "note": "season finale · titled in English only in the original Japanese release"
+        }
+      ],
+      "intro": "Wit Studio's twenty-four, 8 July 2019 to 30 December 2019. The first three went out back to back on the opening night.",
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "2023 · 24 episodes · MAPPA · Tokyo MX",
+      "items": [
+        {
+          "id": "vinland-s2e1",
+          "t": "Slave",
+          "n": "1"
+        },
+        {
+          "id": "vinland-s2e2",
+          "t": "Ketil's Farm",
+          "n": "2"
+        },
+        {
+          "id": "vinland-s2e3",
+          "t": "Snake",
+          "n": "3"
+        },
+        {
+          "id": "vinland-s2e4",
+          "t": "Awakening",
+          "n": "4"
+        },
+        {
+          "id": "vinland-s2e5",
+          "t": "The Path of Blood",
+          "n": "5",
+          "note": "Crunchyroll titles it \"Path of Blood\""
+        },
+        {
+          "id": "vinland-s2e6",
+          "t": "I Want a Horse",
+          "n": "6",
+          "note": "Crunchyroll titles it \"We Need a Horse\""
+        },
+        {
+          "id": "vinland-s2e7",
+          "t": "Iron Fist Ketil",
+          "n": "7"
+        },
+        {
+          "id": "vinland-s2e8",
+          "t": "An Empty Man",
+          "n": "8"
+        },
+        {
+          "id": "vinland-s2e9",
+          "t": "Oath",
+          "n": "9"
+        },
+        {
+          "id": "vinland-s2e10",
+          "t": "Cursed Head",
+          "n": "10",
+          "note": "Crunchyroll titles it \"The Cursed Head\""
+        },
+        {
+          "id": "vinland-s2e11",
+          "t": "The King and the Sword",
+          "n": "11",
+          "note": "Crunchyroll titles it \"Kings and Swords\""
+        },
+        {
+          "id": "vinland-s2e12",
+          "t": "For the Love that Was Lost",
+          "n": "12",
+          "note": "Crunchyroll titles it \"For Lost Love\""
+        },
+        {
+          "id": "vinland-s2e13",
+          "t": "Dark Clouds",
+          "n": "13"
+        },
+        {
+          "id": "vinland-s2e14",
+          "t": "Freedom",
+          "n": "14"
+        },
+        {
+          "id": "vinland-s2e15",
+          "t": "Storm",
+          "n": "15"
+        },
+        {
+          "id": "vinland-s2e16",
+          "t": "Cause",
+          "n": "16",
+          "note": "Crunchyroll titles it \"Great Purpose\""
+        },
+        {
+          "id": "vinland-s2e17",
+          "t": "Way Home",
+          "n": "17",
+          "note": "Crunchyroll titles it \"The Road Home\""
+        },
+        {
+          "id": "vinland-s2e18",
+          "t": "The First Measure",
+          "n": "18",
+          "note": "Crunchyroll titles it \"The First Method\""
+        },
+        {
+          "id": "vinland-s2e19",
+          "t": "War at Ketil's Farm",
+          "n": "19",
+          "note": "Crunchyroll titles it \"The Battle of Ketil's Farm\""
+        },
+        {
+          "id": "vinland-s2e20",
+          "t": "Pain",
+          "n": "20"
+        },
+        {
+          "id": "vinland-s2e21",
+          "t": "Courage",
+          "n": "21"
+        },
+        {
+          "id": "vinland-s2e22",
+          "t": "Emperor of Rebellion",
+          "n": "22",
+          "note": "Crunchyroll titles it \"The King of Rebellion\""
+        },
+        {
+          "id": "vinland-s2e23",
+          "t": "Two Paths",
+          "n": "23"
+        },
+        {
+          "id": "vinland-s2e24",
+          "t": "Hometown",
+          "n": "24",
+          "note": "season finale · Crunchyroll titles it \"Home\""
+        }
+      ],
+      "intro": "A different studio: MAPPA made the second season, 10 January 2023 to 20 June 2023. Shūhei Yabuta directs both, and the count is the same twenty-four."
+    }
+  ]
+}

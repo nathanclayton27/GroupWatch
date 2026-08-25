@@ -3027,6 +3027,25 @@ let MANIFEST = [
     "totalw": 21.45
   },
   {
+    "slug": "frieren",
+    "media": [
+      "anime"
+    ],
+    "title": "Frieren: Beyond Journey's End",
+    "subtitle": "both aired seasons, every episode",
+    "kind": "anime",
+    "year": "2023–",
+    "popularity": 67,
+    "blurb": "Madhouse's elf-mage road story — 28 episodes of the first season and 10 of the second, in broadcast order.",
+    "accent": "#8A6A2F",
+    "accentDark": "#9ECBEA",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 38
+  },
+  {
     "slug": "mad-men",
     "media": [
       "tv"
@@ -3698,6 +3717,25 @@ let MANIFEST = [
       "many": "games"
     },
     "total": 27
+  },
+  {
+    "slug": "vinland-saga",
+    "media": [
+      "anime"
+    ],
+    "title": "Vinland Saga",
+    "subtitle": "both seasons, two studios",
+    "kind": "anime",
+    "year": "2019–2023",
+    "popularity": 60,
+    "blurb": "Thorfinn's two seasons in broadcast order — 24 episodes from Wit Studio, then 24 from MAPPA.",
+    "accent": "#1F4E6B",
+    "accentDark": "#93B7BE",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 48
   },
   {
     "slug": "yakuza",
@@ -4673,7 +4711,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '60b579d41a34';
+const BUILD = '78950ed9df1a';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
