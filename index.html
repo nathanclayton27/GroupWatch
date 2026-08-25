@@ -2441,6 +2441,25 @@ let MANIFEST = [
     "total": 10
   },
   {
+    "slug": "hunter-x-hunter",
+    "media": [
+      "anime"
+    ],
+    "title": "Hunter × Hunter",
+    "subtitle": "the 2011 series",
+    "kind": "anime",
+    "year": "2011–2014",
+    "popularity": 72,
+    "blurb": "All 148 episodes of the 2011 series in broadcast order, split into the six arcs it was broadcast as.",
+    "accent": "#4E8F00",
+    "accentDark": "#8CE83C",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 148
+  },
+  {
     "slug": "twilight-zone",
     "media": [
       "tv"
@@ -4033,7 +4052,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '8d38521d2f1d';
+const BUILD = 'f88d14cc940b';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
