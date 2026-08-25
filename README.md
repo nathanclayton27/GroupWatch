@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and fifty-three lists, from a ten-episode anime to a 1,337-spine film
+One hundred and fifty-seven lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -40,7 +40,10 @@ Rehearsal and The Curse — 54 episodes),
 *MST3K* down to the KTMA year, *Columbo*
 with real per-movie runtimes, *James Bond* by actor, *Mission: Impossible*
 (the eight released films, ticks shared with the Tom Cruise
-list), *Alien & Predator* on
+list), the *slasher franchises* (Halloween, Friday the 13th and Elm Street in
+US release order, with the five mutually exclusive Halloween continuities
+explained rather than imposed, and *Freddy vs. Jason* as one row in both),
+*Alien & Predator* on
 one timeline, *JoJo's* and *Dragon Ball* (anime and manga as separate
 pages), and *Time Loops* — the group's own Groundhog Day collection, grown
 to 189 entries via Wikipedia's time-loop film list and two Reddit
@@ -78,8 +81,9 @@ universe* (Asimov's Foundation, Robot and Empire novels in the order he
 published them, with the chronological order as a note rather than a
 second list), and *Middle-earth* — books plus Jackson's six films. Comics:
 *The Sandman* issue by issue through its ten volumes, Death and Overture
-included, and the *Hellboy / Mignolaverse* trunk with the spoke series as
-optional rows.
+included, the *Vertigo shelf* (Preacher, Transmetropolitan and Y: The Last
+Man, one row per collected volume), and the *Hellboy / Mignolaverse* trunk
+with the spoke series as optional rows.
 
 **Filmographies.** *Stanley Kubrick* (with A.I.), *Steven Spielberg*,
 *David Lynch* (all of Twin Peaks as one row), *Tom Cruise*, *Akira
@@ -92,6 +96,9 @@ cut), *Satoshi Kon* (films plus Paranoia
 Agent), *Sam Raimi* (the films plus all thirty episodes of Ash vs Evil
 Dead, with every episode naming the director who actually made it),
 *Christopher Nolan*, *Wes Anderson*, *Paul Thomas Anderson*,
+*David Cronenberg* (23 features sectioned by the career headings his own
+article uses), *Denis Villeneuve* (the eleven released features, the two
+Dunes ticking with the Dune list),
 *Ridley Scott* (fifty years, one row per film with the alternate cuts
 named rather than double-counted),
 *A24* front to back, and *Studio Ghibli* with Miyazaki as the

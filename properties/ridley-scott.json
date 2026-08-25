@@ -5,7 +5,7 @@
   "kind": "films",
   "popularity": 75,
   "year": "1977–2024",
-  "blurb": "Twenty-nine features in release order, The Duellists to Gladiator II — about 64 hours. The films with famous alternate cuts get one row each, with the cut named on the row.",
+  "blurb": "Twenty-nine features in release order, The Duellists to Gladiator II — about 65 hours. The films with famous alternate cuts get one row each, with the cut named on the row.",
   "unit": {
     "one": "film",
     "many": "films"
@@ -25,7 +25,7 @@
     ],
     [
       "Bar widths are runtimes, and three of them took a decision.",
-      "All 29 come from Wikidata's runtime property, in hours, each gated on a release year within a year of the filmography's. Three items carry more than one value. Kingdom of Heaven labels its two: 144 minutes for the theatrical version and 190 for the director's cut, and a row dated 2005 takes the theatrical one. Blade Runner carries 112 and 116 with nothing to tell them apart, and Legend carries a labelled 114-minute director's cut beside an unlabelled 125 — which is neither of the two lengths it was released at, and which its own article explains as the first cut Scott assembled before the film was trimmed. For those two the film's own article decides, because it states the length of every version that actually came out; the choice is always between numbers Wikidata already carries, and no number is ever typed in from somewhere else."
+      "All 29 come from Wikidata's runtime property, in hours, each gated on a release year within a year of the filmography's. Three items carry more than one value. Kingdom of Heaven labels its two: 144 minutes for the theatrical version and 190 for the director's cut, and this list takes the director's cut. It is the one row here that does not measure what played in cinemas, and that is the point — the long version is the one worth watching, so it is the one the row recommends and the one the bar counts. Blade Runner carries 112 and 116 with nothing to tell them apart, and Legend carries a labelled 114-minute director's cut beside an unlabelled 125 — which is neither of the two lengths it was released at, and which its own article explains as the first cut Scott assembled before the film was trimmed. For those two the film's own article decides, because it states the length of every version that actually came out; the choice is always between numbers Wikidata already carries, and no number is ever typed in from somewhere else."
     ],
     [
       "Four rows where the two sources disagree by a few minutes.",
@@ -146,7 +146,7 @@
     {
       "id": "producer",
       "title": "Producer on every one",
-      "sub": "2001–2010 · 8 films · 18 hours",
+      "sub": "2001–2010 · 8 films · 19 hours",
       "intro": "Eight films in ten years, and from Hannibal onward the Producer column is yes on every single row to the end of the list. Six of the eight are adaptations: Thomas Harris, Mark Bowden, Eric Garcia, Peter Mayle, Mark Jacobson and David Ignatius in turn.",
       "items": [
         {
@@ -171,8 +171,8 @@
           "id": "rs-2005-kingdom-of-heaven",
           "t": "Kingdom of Heaven",
           "n": "2005",
-          "w": 2.4,
-          "note": "The bar is the 144-minute theatrical release; Wikidata labels a 190-minute director's cut beside it"
+          "w": 3.17,
+          "note": "Watch the 190-minute director's cut, not the 144-minute theatrical release — the bar measures the cut"
         },
         {
           "id": "rs-2006-a-good-year",

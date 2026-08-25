@@ -1036,7 +1036,7 @@
     "kind": "films",
     "year": "1977–2024",
     "popularity": 75,
-    "blurb": "Twenty-nine features in release order, The Duellists to Gladiator II — about 64 hours. The films with famous alternate cuts get one row each, with the cut named on the row.",
+    "blurb": "Twenty-nine features in release order, The Duellists to Gladiator II — about 65 hours. The films with famous alternate cuts get one row each, with the cut named on the row.",
     "accent": "#A67159",
     "accentDark": "#F2B8A6",
     "unit": {
@@ -1044,7 +1044,7 @@
       "many": "films"
     },
     "total": 29,
-    "totalw": 63.9
+    "totalw": 64.67
   },
   {
     "slug": "demon-slayer",
@@ -2012,6 +2012,26 @@
     "totalw": 923.32
   },
   {
+    "slug": "villeneuve",
+    "media": [
+      "movies"
+    ],
+    "title": "Denis Villeneuve",
+    "subtitle": "the directed features, in release order",
+    "kind": "films",
+    "year": "1998–2024",
+    "popularity": 62,
+    "blurb": "Quebec dramas in French, thrillers made from other people's scripts, and the science fiction that made his name — every feature he has directed, in release order and weighted by runtime, about 22 hours of it.",
+    "accent": "#704F5C",
+    "accentDark": "#C28AA0",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 11,
+    "totalw": 22.44
+  },
+  {
     "slug": "discworld",
     "media": [
       "books"
@@ -2170,6 +2190,26 @@
     },
     "total": 118,
     "totalw": 669.91
+  },
+  {
+    "slug": "slashers",
+    "media": [
+      "movies"
+    ],
+    "title": "Slashers",
+    "subtitle": "Halloween, Friday the 13th and Elm Street, in release order",
+    "kind": "films",
+    "year": "1978–2022",
+    "popularity": 60,
+    "blurb": "Michael, Jason and Freddy — three franchises whose timelines contradict each other, in the one order nobody disputes. About 52 hours.",
+    "accent": "#5A0F1E",
+    "accentDark": "#FF8C86",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 33,
+    "totalw": 52.14
   },
   {
     "slug": "fps-canon",
@@ -2387,6 +2427,26 @@
       "many": "volumes"
     },
     "total": 51
+  },
+  {
+    "slug": "cronenberg",
+    "media": [
+      "movies"
+    ],
+    "title": "David Cronenberg",
+    "subtitle": "the directed features, in release order",
+    "kind": "films",
+    "year": "1969–2024",
+    "popularity": 56,
+    "blurb": "Every feature he directed, Stereo to The Shrouds — 55 years of flesh, machines and Canadian film money, about 38 hours.",
+    "accent": "#7B2D3A",
+    "accentDark": "#E8929B",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 23,
+    "totalw": 37.51
   },
   {
     "slug": "dragon-quest",
@@ -2626,6 +2686,25 @@
     "total": 100,
     "totalw": 204.41,
     "random": true
+  },
+  {
+    "slug": "vertigo",
+    "media": [
+      "comics"
+    ],
+    "title": "The Vertigo Shelf",
+    "subtitle": "three complete runs, in the volumes they were collected in",
+    "kind": "comics",
+    "year": "1995–2008",
+    "popularity": 48,
+    "blurb": "Preacher, Transmetropolitan and Y: The Last Man — the imprint's great creator-owned runs, tracked by collected volume rather than by issue. The Sandman has its own list.",
+    "accent": "#2E2039",
+    "accentDark": "#B08CD9",
+    "unit": {
+      "one": "volume",
+      "many": "volumes"
+    },
+    "total": 29
   },
   {
     "slug": "nasuverse",

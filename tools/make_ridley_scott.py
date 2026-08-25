@@ -50,11 +50,18 @@ RUNTIMES
 All twenty-nine from Wikidata P2047 and nothing else, each gated on a P577
 publication year within a year of the filmography's year, and each read at
 statement rank — gwlib's reader is rank-blind and takes the longest, which
-here would ship Kingdom of Heaven's director's cut for its theatrical row and
-Legend's never-released first cut for a film that went out at 89 minutes. The
-collector's rule, and every value it saw, are in scratch/ridley/collect.py;
-the asserts below re-check that the three ambiguous items still look the way
-the notes say they do.
+here would ship Legend's never-released first cut for a film that went out at
+89 minutes. The collector's rule, and every value it saw, are in
+scratch/ridley/collect.py; the asserts below re-check that the three ambiguous
+items still look the way the notes say they do.
+
+Kingdom of Heaven is the one deliberate exception, and it is an editorial
+ruling rather than a data one. Nathan, 2026-08-25: the director's cut is the
+version to watch, here and on any other list that ever carries the film, and
+the bar measures it. So the collector still reads the theatrical 144 by its
+own rule and this file overrides it to the 190 Wikidata labels as the
+director's cut — one visible line, a number the source already carries, and
+the only row on the list that does not measure what played in cinemas.
 
 Data:   scratch/ridley/collect.py -> scratch/ridley/ridley_data.json
 Accent: scratch/ridley/accent.py
@@ -270,6 +277,16 @@ def main():
     assert labelled == {144.0: "theatrical version",
                         190.0: "director's cut"}, labelled
     assert koh["runtime"] == 144, koh["runtime"]
+    # Nathan's ruling, 2026-08-25: Kingdom of Heaven means the director's cut,
+    # here and on any future list that carries the film, and the bar measures
+    # that cut rather than the theatrical release. It is the one row on this
+    # list that does not measure what played in cinemas, and that is the point
+    # — the theatrical version is the one nobody recommends. The collector
+    # still picks the theatrical value by its own rule; the override lives
+    # here, in one visible place, and uses a number Wikidata already carries
+    # and labels itself. Nothing is typed in.
+    koh["runtime"] = int(max(labelled))
+    assert koh["runtime"] == 190, koh["runtime"]
 
     # Napoleon carries one Wikidata value but its article states two lengths;
     # that is the fourth film whose row note has to name a cut.
@@ -288,8 +305,13 @@ def main():
     # Four rows where the single Wikidata value and the article's single
     # stated length differ by more than a minute. One source, kept to — but
     # named, so nobody has to discover it.
+    # Kingdom of Heaven sits out of this check on purpose: its article states
+    # one length, the theatrical 144, and the row deliberately measures the
+    # 190-minute cut instead. That is the ruling above, not a source
+    # disagreement, so counting it here would bury a decision among accidents.
     drift = [f for f in films
-             if not any(abs(f["runtime"] - m) <= 1 for m, _ in f["cuts"])]
+             if f is not koh
+             and not any(abs(f["runtime"] - m) <= 1 for m, _ in f["cuts"])]
     assert {f["t"] for f in drift} == \
         {"Someone to Watch Over Me", "1492: Conquest of Paradise",
          "White Squall", "Matchstick Men"}, [f["t"] for f in drift]
@@ -450,9 +472,9 @@ def main():
                         "at %d minutes in America and %d in Europe"
                         % (lg["runtime"], lg["cuts"][0][0], lg["cuts"][1][0]))
         elif f["t"] == "Kingdom of Heaven":
-            bits.append("The bar is the %d-minute theatrical release; "
-                        "Wikidata labels a %d-minute director's cut beside it"
-                        % (koh["runtime"], int(max(labelled))))
+            bits.append("Watch the %d-minute director's cut, not the "
+                        "%d-minute theatrical release — the bar measures the "
+                        "cut" % (koh["runtime"], int(min(labelled))))
         elif f["t"] == "Napoleon":
             bits.append("The bar is the theatrical release; a %d-minute "
                         "director's cut also exists" % nap["cuts"][1][0])
@@ -566,7 +588,11 @@ def main():
              "gated on a release year within a year of the filmography's. "
              "Three items carry more than one value. Kingdom of Heaven labels "
              "its two: 144 minutes for the theatrical version and 190 for the "
-             "director's cut, and a row dated 2005 takes the theatrical one. "
+             "director's cut, and this list takes the director's cut. It is "
+             "the one row here that does not measure what played in cinemas, "
+             "and that is the point — the long version is the one worth "
+             "watching, so it is the one the row recommends and the one the "
+             "bar counts. "
              "Blade Runner carries 112 and 116 with nothing to tell them "
              "apart, and Legend carries a labelled 114-minute director's cut "
              "beside an unlabelled 125 — which is neither of the two lengths "

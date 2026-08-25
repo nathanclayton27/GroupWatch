@@ -1,0 +1,320 @@
+{
+  "slug": "slashers",
+  "title": "Slashers",
+  "subtitle": "Halloween, Friday the 13th and Elm Street, in release order",
+  "kind": "films",
+  "popularity": 60,
+  "year": "1978–2022",
+  "blurb": "Michael, Jason and Freddy — three franchises whose timelines contradict each other, in the one order nobody disputes. About 52 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#5A0F1E",
+  "accentDark": "#FF8C86",
+  "tiers": false,
+  "notes": [
+    [
+      "Release order, and why it had to be.",
+      "Halloween alone carries five mutually exclusive continuities in its own article's story chronology: the 1978 film opens three of them, Halloween 4 and Halloween H20 are each written as the sequel to Halloween II (1981), and Halloween II and the 2018 film are each written as the sequel to 1978. No single timeline holds all thirteen, so this list does not pretend one does. Every section runs in U.S. release order — the one order nobody disputes, and the order audiences met these films in, each sequel made in answer to the one before. The continuities are explained in the section intros and flagged on the rows that start or end one; they are never imposed as sequence."
+    ],
+    [
+      "Why these three franchises.",
+      "The long masked-killer series that built the slasher decade and outlasted it — Michael from 1978 to 2022, Jason from 1980 to 2009, Freddy from 1984 to 2010 — each carrying more than one continuity, and two of them sharing a crossover. Scream is not here: seven films across thirty years, but one unbroken timeline with no remake and no reboot, so the ordering problem this list exists to settle never comes up. Child's Play is not here either: its own filmography splits cleanly into an original run and a 2019 remake that never touch, and the original story then continues in a television series that a films list cannot hold."
+    ],
+    [
+      "Freddy vs. Jason gets its own section.",
+      "It is the eighth Nightmare on Elm Street film and the eleventh Friday the 13th film, and it appears once, so one viewing ticks one row. Filing it inside either franchise would have left it looking missing from the other."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "Every row carries the runtime stated in that film's own Wikipedia infobox, checked against the release year the franchise table gives — 52 hours in all. These franchises reuse their titles across decades, so a year is what tells Halloween 1978 from 2007 and 2018, and a row whose runtime could not be read would fail the build rather than ship as a guess."
+    ],
+    [
+      "Halloween (1978) is shared with other lists.",
+      "It also sits on John Carpenter and The Criterion Collection, and ticking it in any one of those places ticks it in all of them. Nothing else on this list overlaps the catalogue."
+    ],
+    [
+      "Not included.",
+      "The untitled Nightmare on Elm Street film in that franchise's table has no release date and no runtime, so it is not a row yet; every other film the three tables name is here. Neither the television series, the video games, the novels nor the comics are in scope."
+    ],
+    "Titles, U.S. release dates and film order from the Films tables of Wikipedia's Halloween, Friday the 13th and A Nightmare on Elm Street franchise articles; the five Halloween continuities from that article's own story-chronology box; runtimes from each film's own article infobox."
+  ],
+  "sections": [
+    {
+      "id": "halloween",
+      "title": "Halloween",
+      "sub": "1978–2022 · 13 films · 21 hours",
+      "intro": "Thirteen films and five continuities. The article's own story chronology divides them into Original, Anthology, Dimension Films, Remake and Blumhouse — and they overlap: the 1978 film opens three of the five, Halloween II (1981) is followed by Halloween 4 in one continuity and by H20 in another, and 1978 itself is followed by both Halloween II and the 2018 film. Nothing reconciles them, so the rows run in release order and each one says where it picks up.",
+      "links": [
+        {
+          "label": "The filmography",
+          "url": "https://en.wikipedia.org/wiki/Halloween_(franchise)"
+        }
+      ],
+      "items": [
+        {
+          "id": "sl-1978-halloween",
+          "t": "Halloween",
+          "n": "1978",
+          "w": 1.52,
+          "note": "The original. Three of the five continuities start here."
+        },
+        {
+          "id": "sl-1981-halloween-ii",
+          "t": "Halloween II",
+          "n": "1981",
+          "w": 1.53,
+          "note": "Carries straight on from the first film. Two later films are each written as its sequel."
+        },
+        {
+          "id": "sl-1982-halloween-iii-season-of-the-witch",
+          "t": "Halloween III: Season of the Witch",
+          "n": "1982",
+          "w": 1.65,
+          "note": "No Michael Myers — the one attempt to turn the series into an anthology."
+        },
+        {
+          "id": "sl-1988-halloween-4-the-return-of-michael-myers",
+          "t": "Halloween 4: The Return of Michael Myers",
+          "n": "1988",
+          "w": 1.47,
+          "note": "Picks up from Halloween II, setting the anthology film aside."
+        },
+        {
+          "id": "sl-1989-halloween-5-the-revenge-of-michael-myers",
+          "t": "Halloween 5: The Revenge of Michael Myers",
+          "n": "1989",
+          "w": 1.6,
+          "note": "Follows on from Halloween 4."
+        },
+        {
+          "id": "sl-1995-halloween-the-curse-of-michael-myers",
+          "t": "Halloween: The Curse of Michael Myers",
+          "n": "1995",
+          "w": 1.47,
+          "note": "Six years after Halloween 5, and the end of the original continuity."
+        },
+        {
+          "id": "sl-1998-halloween-h20-20-years-later",
+          "t": "Halloween H20: 20 Years Later",
+          "n": "1998",
+          "w": 1.43,
+          "note": "The second film written to follow Halloween II — this one sets 4, 5 and 6 aside instead."
+        },
+        {
+          "id": "sl-2002-halloween-resurrection",
+          "t": "Halloween: Resurrection",
+          "n": "2002",
+          "w": 1.5,
+          "note": "Three years after H20, and the end of that continuity."
+        },
+        {
+          "id": "sl-2007-halloween",
+          "t": "Halloween",
+          "n": "2007",
+          "w": 1.83,
+          "note": "Rob Zombie's remake, and a continuity of its own."
+        },
+        {
+          "id": "sl-2009-halloween-ii",
+          "t": "Halloween II",
+          "n": "2009",
+          "w": 1.75,
+          "note": "Sequel to the 2007 remake."
+        },
+        {
+          "id": "sl-2018-halloween",
+          "t": "Halloween",
+          "n": "2018",
+          "w": 1.77,
+          "note": "The other film written as the sequel to 1978, setting every film in between aside."
+        },
+        {
+          "id": "sl-2021-halloween-kills",
+          "t": "Halloween Kills",
+          "n": "2021",
+          "w": 1.75,
+          "note": "Carries straight on from the 2018 film."
+        },
+        {
+          "id": "sl-2022-halloween-ends",
+          "t": "Halloween Ends",
+          "n": "2022",
+          "w": 1.85,
+          "note": "Four years later, and the end of the Blumhouse continuity."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "friday",
+      "title": "Friday the 13th",
+      "sub": "1980–2009 · 11 films · 17 hours · plus the crossover below",
+      "intro": "Eleven films here, and a twelfth in the crossover section below. Ten of them run as one line from Camp Crystal Lake in 1980 out to a spacecraft in Jason X, a line the films patch as they go — their killer comes back twice without the films explaining how — and then the 2009 film restarts the continuity from scratch.",
+      "links": [
+        {
+          "label": "The filmography",
+          "url": "https://en.wikipedia.org/wiki/Friday_the_13th_(franchise)"
+        }
+      ],
+      "items": [
+        {
+          "id": "sl-1980-friday-the-13th",
+          "t": "Friday the 13th",
+          "n": "1980",
+          "w": 1.58,
+          "note": "The original, at Camp Crystal Lake."
+        },
+        {
+          "id": "sl-1981-friday-the-13th-part-2",
+          "t": "Friday the 13th Part 2",
+          "n": "1981",
+          "w": 1.45
+        },
+        {
+          "id": "sl-1982-friday-the-13th-part-iii",
+          "t": "Friday the 13th Part III",
+          "n": "1982",
+          "w": 1.58
+        },
+        {
+          "id": "sl-1984-friday-the-13th-the-final-chapter",
+          "t": "Friday the 13th: The Final Chapter",
+          "n": "1984",
+          "w": 1.52
+        },
+        {
+          "id": "sl-1985-friday-the-13th-a-new-beginning",
+          "t": "Friday the 13th: A New Beginning",
+          "n": "1985",
+          "w": 1.53
+        },
+        {
+          "id": "sl-1986-friday-the-13th-part-vi-jason-lives",
+          "t": "Friday the 13th Part VI: Jason Lives",
+          "n": "1986",
+          "w": 1.45
+        },
+        {
+          "id": "sl-1988-friday-the-13th-part-vii-the-new-blood",
+          "t": "Friday the 13th Part VII: The New Blood",
+          "n": "1988",
+          "w": 1.47
+        },
+        {
+          "id": "sl-1989-friday-the-13th-part-viii-jason-takes-manhattan",
+          "t": "Friday the 13th Part VIII: Jason Takes Manhattan",
+          "n": "1989",
+          "w": 1.67
+        },
+        {
+          "id": "sl-1993-jason-goes-to-hell-the-final-friday",
+          "t": "Jason Goes to Hell: The Final Friday",
+          "n": "1993",
+          "w": 1.47,
+          "note": "Jason is back, resurrected without explanation."
+        },
+        {
+          "id": "sl-2002-jason-x",
+          "t": "Jason X",
+          "n": "2002",
+          "w": 1.53,
+          "note": "Set in the far future, largely aboard a spacecraft. Widely released in 2002, after a single Spanish showing in November 2001."
+        },
+        {
+          "id": "sl-2009-friday-the-13th",
+          "t": "Friday the 13th",
+          "n": "2009",
+          "w": 1.62,
+          "note": "A reboot: restarts the series' continuity, and connects to none of the films above."
+        }
+      ]
+    },
+    {
+      "id": "elm",
+      "title": "A Nightmare on Elm Street",
+      "sub": "1984–2010 · 8 films · 13 hours · plus the crossover below",
+      "intro": "Eight films here, and a ninth in the crossover section below. Six are a single Freddy continuity, 1984 to 1991. New Nightmare then steps outside the series' own fiction rather than continuing it, and the 2010 film is a remake that starts the story over.",
+      "links": [
+        {
+          "label": "The filmography",
+          "url": "https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_(franchise)"
+        }
+      ],
+      "items": [
+        {
+          "id": "sl-1984-a-nightmare-on-elm-street",
+          "t": "A Nightmare on Elm Street",
+          "n": "1984",
+          "w": 1.52,
+          "note": "Wes Craven's original."
+        },
+        {
+          "id": "sl-1985-a-nightmare-on-elm-street-2-freddy-s-revenge",
+          "t": "A Nightmare on Elm Street 2: Freddy's Revenge",
+          "n": "1985",
+          "w": 1.45
+        },
+        {
+          "id": "sl-1987-a-nightmare-on-elm-street-3-dream-warriors",
+          "t": "A Nightmare on Elm Street 3: Dream Warriors",
+          "n": "1987",
+          "w": 1.6
+        },
+        {
+          "id": "sl-1988-a-nightmare-on-elm-street-4-the-dream-master",
+          "t": "A Nightmare on Elm Street 4: The Dream Master",
+          "n": "1988",
+          "w": 1.55
+        },
+        {
+          "id": "sl-1989-a-nightmare-on-elm-street-5-the-dream-child",
+          "t": "A Nightmare on Elm Street 5: The Dream Child",
+          "n": "1989",
+          "w": 1.48
+        },
+        {
+          "id": "sl-1991-freddy-s-dead-the-final-nightmare",
+          "t": "Freddy's Dead: The Final Nightmare",
+          "n": "1991",
+          "w": 1.48,
+          "note": "The end of the original Freddy continuity."
+        },
+        {
+          "id": "sl-1994-wes-craven-s-new-nightmare",
+          "t": "Wes Craven's New Nightmare",
+          "n": "1994",
+          "w": 1.87,
+          "note": "Steps outside the series' own fiction: Craven, Heather Langenkamp and Robert Englund appear as themselves."
+        },
+        {
+          "id": "sl-2010-a-nightmare-on-elm-street",
+          "t": "A Nightmare on Elm Street",
+          "n": "2010",
+          "w": 1.58,
+          "note": "A remake of the 1984 film, with a new Freddy and a continuity of its own."
+        }
+      ]
+    },
+    {
+      "id": "crossover",
+      "title": "Freddy vs. Jason",
+      "sub": "2003 · one film · 2 hours · counted once, ticks for both",
+      "intro": "One film belonging to two series: it is the eighth Nightmare on Elm Street film and the eleventh Friday the 13th film, and both franchise articles list it in their own filmographies. It sits here rather than inside either section, with one row rather than two, so a single viewing ticks once — and so it never looks missing from the other franchise.",
+      "items": [
+        {
+          "id": "sl-2003-freddy-vs-jason",
+          "t": "Freddy vs. Jason",
+          "n": "2003",
+          "w": 1.62
+        }
+      ]
+    }
+  ]
+}

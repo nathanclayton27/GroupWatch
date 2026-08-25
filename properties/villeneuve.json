@@ -1,0 +1,144 @@
+{
+  "slug": "villeneuve",
+  "title": "Denis Villeneuve",
+  "subtitle": "the directed features, in release order",
+  "kind": "films",
+  "popularity": 62,
+  "year": "1998–2024",
+  "blurb": "Quebec dramas in French, thrillers made from other people's scripts, and the science fiction that made his name — every feature he has directed, in release order and weighted by runtime, about 22 hours of it.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#704F5C",
+  "accentDark": "#C28AA0",
+  "tiers": false,
+  "notes": [
+    [
+      "Directed features only.",
+      "A film is here if the filmography's Director column says yes and the film has come out. Nothing else gates it: he wrote all four Quebec films and none of the four that followed, and he is credited producer on only the two Dune films. Out: the twelve shorts, music videos and commercials the article keeps in its own separate table, Next Floor and the Le Technétium segment of the anthology Cosmos among them. There is no Denis Villeneuve filmography article — this is the Film table inside the biography, cross-checked against the biography's own lead so that a table lagging its lead cannot leave a film off."
+    ],
+    [
+      "Two of the table's films are not here yet.",
+      "The Film table has thirteen rows and this list has eleven. Dune: Part Three is dated 18 December 2026; Bond 26 has no article and no date of its own, and the biography says Amazon MGM expects it in 2028. Both dates are re-read from the sources every time this list is generated and the generator refuses to build once either has passed, so the rows arrive on release rather than whenever somebody remembers."
+    ],
+    [
+      "Both Dune films are on the Dune list too, on purpose.",
+      "Dune (2021) and Dune: Part Two (2024) are rows here and rows on the Dune list, and that is deliberate rather than a duplicate to clean up. The Dune list is a connected run through Frank Herbert's novels and every screen version of them; this one is a director's filmography. They answer different questions, so both keep the films. Nothing is watched twice and no hours are counted twice, because each list totals only its own rows — and film rows are paired across lists by title and year, so ticking either Dune here ticks the same film there, and the other way round."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "Every row carries one, read from the runtime field of that film's own Wikipedia infobox — 22 hours 26 minutes across the eleven of them, from Polytechnique at 77 minutes to Dune: Part Two at 165. There are no unweighted rows and no estimates anywhere: a row missing its runtime would quietly count as one hour and make the total confidently wrong, so the generator stops rather than guess. One number differs from the catalogue's other copy of the same film: the Dune list takes its screen runtimes from Wikidata and has Dune: Part Two at 166 minutes, where the film's own infobox says 165. This list keeps to the infobox for all eleven, because a total half from one source and half from another belongs to neither. The two rows still tick together — films are paired by title and year, never by runtime."
+    ],
+    "Roster, career divisions and the writing and producing credits from the Filmography and Career sections of Wikipedia's Denis Villeneuve, read from the tables and headings themselves; runtimes, release dates, screenwriters and source material from each film's own article."
+  ],
+  "sections": [
+    {
+      "id": "quebec",
+      "title": "The Quebec films",
+      "sub": "1998–2010 · 4 films · 6 hours",
+      "intro": "Twelve years and four features made in Quebec, a long way from any studio — the biography's own lead calls them four French-language dramas. He wrote or co-wrote every one, produced none, and all four are Canadian productions. Incendies closes the run and is the film that carried him out of it: an Academy Award nomination for Best International Feature, and the last feature he has made in French.",
+      "items": [
+        {
+          "id": "dv-1998-august-32nd-on-earth",
+          "t": "August 32nd on Earth",
+          "n": "1998",
+          "w": 1.47,
+          "note": "Un 32 août sur terre — his first feature, and his own screenplay"
+        },
+        {
+          "id": "dv-2000-maelstrom",
+          "t": "Maelström",
+          "n": "2000",
+          "w": 1.47,
+          "note": "An absurdist drama narrated by a talking fish"
+        },
+        {
+          "id": "dv-2009-polytechnique",
+          "t": "Polytechnique",
+          "n": "2009",
+          "w": 1.28,
+          "note": "A re-enactment of the 1989 École Polytechnique massacre in Montreal"
+        },
+        {
+          "id": "dv-2010-incendies",
+          "t": "Incendies",
+          "n": "2010",
+          "w": 2.17,
+          "note": "Adapted from Incendies, a play by Wajdi Mouawad"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "english",
+      "title": "Into English",
+      "sub": "2013–2016 · 4 films · 8 hours",
+      "intro": "Four English-language films in four years, and the only stretch of his career where the Writer column is a bare no on every row — he directed all four from other people's scripts. Prisoners is the first American production here, and Arrival is where the science fiction starts.",
+      "items": [
+        {
+          "id": "dv-2013-prisoners",
+          "t": "Prisoners",
+          "n": "2013",
+          "w": 2.55,
+          "note": "Written by Aaron Guzikowski · His first American production"
+        },
+        {
+          "id": "dv-2013-enemy",
+          "t": "Enemy",
+          "n": "2013",
+          "w": 1.5,
+          "note": "Adapted from The Double, a novel by José Saramago"
+        },
+        {
+          "id": "dv-2015-sicario",
+          "t": "Sicario",
+          "n": "2015",
+          "w": 2.02,
+          "note": "Written by Taylor Sheridan"
+        },
+        {
+          "id": "dv-2016-arrival",
+          "t": "Arrival",
+          "n": "2016",
+          "w": 1.93,
+          "note": "Adapted from Story of Your Life, a short story by Ted Chiang"
+        }
+      ]
+    },
+    {
+      "id": "scifi",
+      "title": "Science fiction at scale",
+      "sub": "2017–2024 · 3 films · 8 hours",
+      "intro": "The Blade Runner sequel, and then the two halves of Dune. These are the three longest features he has made — 483 minutes between them, more than a third of everything on this list — and Dune is the first film he produced as well as directed.",
+      "items": [
+        {
+          "id": "dv-2017-blade-runner-2049",
+          "t": "Blade Runner 2049",
+          "n": "2017",
+          "w": 2.72,
+          "note": "A sequel to Blade Runner, made 35 years after it"
+        },
+        {
+          "id": "dv-2021-dune",
+          "t": "Dune",
+          "n": "2021",
+          "w": 2.58,
+          "note": "Part one of a two-part adaptation of Frank Herbert's novel — also a row on the Dune list here, and the two tick together"
+        },
+        {
+          "id": "dv-2024-dune-part-two",
+          "t": "Dune: Part Two",
+          "n": "2024",
+          "w": 2.75,
+          "note": "Part two, and the last feature he has released — also a row on the Dune list here, and the two tick together"
+        }
+      ]
+    }
+  ]
+}

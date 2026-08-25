@@ -216,6 +216,32 @@ not shrink and dragged the whole page sideways on a phone. `indexStrip()` now
 sets `--floor` per row from the width actually available, capped at 7px and at
 60% of an even share, so there is always room left for the weighting to show.
 
+### Alternate cuts
+
+A film that exists in more than one version still gets **one row**. A second
+row would either double the film's hours — you do not watch it twice — or have
+to carry no weight, which mixes weighted and unweighted rows in a weighted
+list. It would also fail to pair across lists, because rows pair by title and
+year. So the cut lives in the row note, and the note says which version the
+bar is measuring.
+
+Which version that is defaults to the theatrical release, because that is what
+the sources agree on and what "the film, 1982" means to a reader. Two kinds of
+row depart from it, both deliberately:
+
+- **The source only documents the cut.** *Legend*'s row measures the
+  114-minute director's cut because that is the only released length Wikidata
+  records.
+- **The cut is the version worth watching, and we say so.** *Kingdom of
+  Heaven* is the standing example — Nathan's ruling, 2026-08-25: the
+  190-minute director's cut is the film, wherever it appears in this
+  catalogue, and the bar measures it rather than the 144-minute theatrical
+  release. **Any future list that carries this film follows the same rule.**
+
+Either way the row note recommends a version in plain words, the number comes
+from a figure the source already carries, and the override lives in one
+visible place in the generator rather than in the data.
+
 ### Tiers
 
 A tier normally belongs to a section. `itemTiers` moves the badge onto each
