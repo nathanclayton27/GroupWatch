@@ -233,6 +233,22 @@ def main():
         t = re.sub(r"[^a-z0-9]+", " ", t).strip()
         return re.sub(r"^(the|a|an) ", "", t)
 
+    # A film's identity for sync is title+year, but plenty of lists number
+    # their rows by something else: Criterion by spine (#700), Sight & Sound
+    # by rank. Those 1,500-odd rows could never match anything, so ticking
+    # Fantastic Mr. Fox on Wes Anderson left the Criterion copy untouched.
+    # Both carry the year in the note, so fall back to it — but ONLY when the
+    # note names exactly one year. A note with none (a box set) or several is
+    # ambiguous, and a wrong year here would silently tick the wrong film.
+    def _year_of(x, n):
+        if re.fullmatch(r"(18|19|20)\d{2}", n):
+            return n
+        explicit = str(x.get("y", ""))
+        if re.fullmatch(r"(18|19|20)\d{2}", explicit):
+            return explicit
+        found = set(re.findall(r"\b((?:18|19|20)\d{2})\b", x.get("note") or ""))
+        return found.pop() if len(found) == 1 else None
+
     rows, groups = [], {}
     for p in props:
         if p.get("secret"):
@@ -242,9 +258,11 @@ def main():
             for x in s.get("items", []):
                 n = str(x.get("n", ""))
                 rows.append([p["slug"], x["id"], x["t"], n])
-                if filmish and re.fullmatch(r"(18|19|20)\d{2}", n):
-                    groups.setdefault(_normt(x["t"]) + "|" + n, []).append(
-                        [p["slug"], x["id"]])
+                if filmish:
+                    y = _year_of(x, n)
+                    if y:
+                        groups.setdefault(_normt(x["t"]) + "|" + y, []).append(
+                            [p["slug"], x["id"]])
     sync = {k: v for k, v in groups.items()
             if len({s for s, _ in v}) > 1}
     with (PROPS / "search.json").open("w", encoding="utf-8", newline="\n") as f:

@@ -1837,7 +1837,15 @@ async function backfillSync(){
   // ticks into the fresh set. The flag stays unset, so the pass simply runs
   // on the next all-time load instead.
   if(FW) return;
-  const flag = 'gw:syncback:v1:' + (user ? user.id : 'anon');
+  // v2: the sync map itself changed. Criterion numbers its rows by spine
+  // and Sight & Sound by rank, so neither could ever match a title+year
+  // key — 1,500 film rows were invisible to sync, and ticking Fantastic
+  // Mr. Fox on the Wes Anderson list left the Criterion copy untouched.
+  // The map now finds the year in a row's note when the number lane
+  // isn't one, which added 224 groups. Bumping the version re-runs the
+  // one-time pass so ticks people ALREADY have travel across the
+  // groups that did not exist when they first ran it.
+  const flag = 'gw:syncback:v2:' + (user ? user.id : 'anon');
   if(bfBusy || localStorage.getItem(flag)) return;
   bfBusy = true;
   try{
