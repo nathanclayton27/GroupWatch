@@ -1103,9 +1103,9 @@ footer a{color:var(--steel)}
       <div class="atog"><input type="checkbox" id="a-share"
              aria-label="Friends can see my progress">
         <label class="t" for="a-share"><b>Friends can see my progress</b>
-          <span>your progress shows on the friends page of anyone you are mutual
-            friends with. Off, they see your name and no progress under it. Your
-            thumbs and your clubs still show, and you stay friends.</span></label></div>
+          <span>your progress and your thumbs show to anyone you are mutual
+            friends with. Off, they see your name and nothing under it. Clubs
+            you are in still see your progress, and you stay friends.</span></label></div>
       <div class="atog"><input type="checkbox" id="a-showticks"
              aria-label="Show my ticks to friends">
         <label class="t" for="a-showticks"><b>Show my ticks to friends</b>
@@ -2740,9 +2740,9 @@ async function paintPrivacy(){
     panel.classList.remove('hide');
     $('p-hide').checked = p.hidden.has(SLUG);
     $('p-hide-h').textContent = p.share
-      ? 'friends see this list on their friends page. Hidden, your progress on'
-        + ' it is gone from their view and your other lists stay. Your thumbs'
-        + ' and your clubs are untouched.'
+      ? 'friends see this list on their friends page. Hidden, your progress and'
+        + ' your thumbs on it are gone from their view and your other lists'
+        + ' stay. Clubs on this list are untouched.'
       : 'friends cannot see any of your progress right now — the switch on your'
         + ' account page is off, so this one changes nothing today.';
   }
@@ -2788,13 +2788,14 @@ $('p-hide').onchange = async e=>{
           'privmsg');
     return;
   }
-  // "gone from every friend's view" was an overclaim: hidden_slugs is read only
-  // by friend_may_read, and only the progress policy calls it. The thumbs policy
-  // has no privacy term, so a mutual friend still sees your thumbs here, by name.
-  // Say what is actually hidden until the policy catches up (CLU-186).
+  // Both switches now govern thumbs as well as progress: FINAL-1 put
+  // friend_may_read into the thumbs policy (run 2026-08-25), so hiding a list
+  // hides the opinion you left on it too. Clubs are a separate policy on
+  // progress and are genuinely untouched — but note thumbs have NO club
+  // branch at all, so a club-mate never saw those either way.
   flash(want
-    ? 'Hidden. Your progress on ' + titleOf(SLUG) + ' is gone from every'
-      + ' friend’s shelf — your thumbs and your clubs still show.'
+    ? 'Hidden. Your progress and your thumbs on ' + titleOf(SLUG) + ' are gone'
+      + ' from every friend’s shelf — your clubs are untouched.'
     : titleOf(SLUG) + (PRIV && PRIV.share
         ? ' shows to friends again.'
         : ' is unhidden — friends still see nothing while the switch on your'
