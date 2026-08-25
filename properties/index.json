@@ -1499,6 +1499,26 @@
     "totalw": 18.4
   },
   {
+    "slug": "steins-gate",
+    "media": [
+      "anime",
+      "movies"
+    ],
+    "title": "Steins;Gate",
+    "subtitle": "the 2011 series, the film, and Steins;Gate 0",
+    "kind": "anime & films",
+    "year": "2011–2018",
+    "popularity": 70,
+    "blurb": "White Fox's time-travel run in full — both television series, the film between them, and the alternate episode that leads from one into the other.",
+    "accent": "#4A2C6F",
+    "accentDark": "#FF9F1C",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 51
+  },
+  {
     "slug": "sandman",
     "media": [
       "comics"
@@ -2742,6 +2762,26 @@
       "many": "books"
     },
     "total": 27
+  },
+  {
+    "slug": "made-in-abyss",
+    "media": [
+      "anime",
+      "movies"
+    ],
+    "title": "Made in Abyss",
+    "subtitle": "both seasons, and the one film that is not a re-cut",
+    "kind": "anime & films",
+    "year": "2017–2022",
+    "popularity": 55,
+    "blurb": "Kinema Citrus' descent, in the source's own order — twenty five episodes and the sequel film between the seasons, with the two compilation films left off.",
+    "accent": "#1F5E63",
+    "accentDark": "#E8C36A",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 26
   },
   {
     "slug": "palme-dor",

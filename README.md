@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and seventy lists, from a ten-episode anime to a 1,337-spine film
+One hundred and seventy-two lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -116,7 +116,7 @@ spine. Plus *Stephen King*, novel by novel.
 **Animation.** *Marvel Animation* and *DC Animation*, season by season with
 the films slotted in — the DCAU and the direct-to-video lines marked.
 
-**Anime.** *Frieren: Beyond Journey's End* (both seasons, 38 episodes), *Code Geass* (63 rows, with the two incompatible continuities explained rather than merged - the compilation films are their own branch and the sequels follow it), *Vinland Saga* (48 episodes across the Wit and MAPPA seasons), *Mob Psycho 100* (three seasons and the two OVAs the source counts apart), *Chainsaw Man* (the season plus the Reze Arc film), *Ghost in the Shell* by continuity (Oshii, Stand Alone
+**Anime.** *Frieren: Beyond Journey's End* (both seasons, 38 episodes), *Code Geass* (63 rows, with the two incompatible continuities explained rather than merged - the compilation films are their own branch and the sequels follow it), *Vinland Saga* (48 episodes across the Wit and MAPPA seasons), *Mob Psycho 100* (three seasons and the two OVAs the source counts apart), *Chainsaw Man* (the season plus the Reze Arc film), *Made in Abyss* (both seasons with the sequel film in its place between them, and the two compilation films deliberately not rowed), *Steins;Gate* (both series, the film, and episode 23β sitting where it leads), *Ghost in the Shell* by continuity (Oshii, Stand Alone
 Complex, Arise, SAC_2045), *Cowboy Bebop* sessions plus the film, *Urusei
 Yatsura* (1981 run, films, OVAs and the remake — Beautiful Dreamer
 cross-listed with Time Loops), *Berserk* by volume and arc, and a *Junji
