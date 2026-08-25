@@ -1,0 +1,3606 @@
+{
+ "naruto": {
+  "1": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "1",
+   "title": "Enter: Naruto Uzumaki!"
+  },
+  "2": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "2",
+   "title": "My Name is Konohamaru!"
+  },
+  "3": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "3",
+   "title": "Sasuke and Sakura: Friends or Foes?"
+  },
+  "4": {
+   "arc": "Prologue &mdash; Land of Waves",
+   "chapters": "4, 5, 6",
+   "title": "Pass or Fail: Survival Test"
+  },
+  "5": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "6, 7, 8",
+   "title": "You Failed! Kakashi's Final Decision"
+  },
+  "6": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "9, 10, 11",
+   "title": "A Dangerous Mission! Journey to the Land of Waves!"
+  },
+  "7": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "11, 12",
+   "title": "The Assassin of the Mist!"
+  },
+  "8": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "13, 14",
+   "title": "The Oath of Pain"
+  },
+  "9": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "15, 16",
+   "title": "Kakashi: Sharingan Warrior!"
+  },
+  "10": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "17, 18",
+   "title": "The Forest of Chakra"
+  },
+  "11": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "19, 20",
+   "title": "The Land Where a Hero Once Lived"
+  },
+  "12": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "21, 22",
+   "title": "Battle on the Bridge! Zabuza Returns!"
+  },
+  "13": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "23, 24",
+   "title": "Haku's Secret Jutsu: Demonic Mirroring Ice Crystals"
+  },
+  "14": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "25",
+   "title": "The Number One Hyperactive, Knucklehead Ninja Joins the Fight!"
+  },
+  "15": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "25, 26",
+   "title": "Zero Visibility: The Sharingan Shatters"
+  },
+  "16": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "26, 27",
+   "title": "The Broken Seal"
+  },
+  "17": {
+   "arc": "Prologue &mdash; Land of Waves",
+   "chapters": "28, 29, 30",
+   "title": "White Past: Hidden Ambition"
+  },
+  "18": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "31, 32",
+   "title": "The Weapons Known as Shinobi"
+  },
+  "19": {
+   "arc": "Prologue — Land of Waves",
+   "chapters": "32, 33",
+   "title": "The Demon in the Snow"
+  },
+  "20": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "34",
+   "title": "A New Chapter Begins: The Chūnin Exam!"
+  },
+  "21": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "35, 36",
+   "title": "Identify Yourself: Powerful New Rivals"
+  },
+  "22": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "37, 38",
+   "title": "Chūnin Challenge: Rock Lee vs. Sasuke!"
+  },
+  "23": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "38, 39, 40",
+   "title": "Genin Takedown! All Nine Rookies Face Off!"
+  },
+  "24": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "40, 41, 42",
+   "title": "Start Your Engines: The Chūnin Exam Begins!"
+  },
+  "25": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "43, 44",
+   "title": "The Tenth Question: All or Nothing!"
+  },
+  "26": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "",
+   "title": "Special Report: Live from the Forest of Death!"
+  },
+  "27": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "45, 46",
+   "title": "The Chūnin Exam Stage 2: The Forest of Death"
+  },
+  "28": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "46, 47",
+   "title": "Eat or be Eaten: Panic in the Forest"
+  },
+  "29": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "48, 49",
+   "title": "Naruto's Counterattack: Never Give In!"
+  },
+  "30": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "49, 50",
+   "title": "The Sharingan Revived: Dragon-Flame Jutsu!"
+  },
+  "31": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "50, 51, 52",
+   "title": "Bushy Brow's Pledge: Undying Love and Protection!"
+  },
+  "32": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "53, 54",
+   "title": "Sakura Blossoms!"
+  },
+  "33": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "55, 56",
+   "title": "Battle Formation: Ino–Shika–Chō!!"
+  },
+  "34": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "57, 58, 59",
+   "title": "Akamaru Trembles: Gaara's Cruel Strength!"
+  },
+  "35": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "60, 61",
+   "title": "The Scroll's Secret: No Peeking Allowed"
+  },
+  "36": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "62, 63",
+   "title": "Clone vs. Clone: Mine are Better Than Yours!"
+  },
+  "37": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "63, 64, 65",
+   "title": "Surviving the Cut: The Rookie 9 Together Again!"
+  },
+  "38": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "65, 66, 67",
+   "title": "Narrowing the Field: Sudden Death Elimination!"
+  },
+  "39": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "67, 68, 69",
+   "title": "Bushy Brow's Jealousy: Lions Barrage Unleashed!"
+  },
+  "40": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "69, 70",
+   "title": "Kakashi and Orochimaru: Face-to-Face!"
+  },
+  "41": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "70, 71",
+   "title": "Kunoichi Rumble: The Rivals Get Serious!"
+  },
+  "42": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "72, 73",
+   "title": "The Ultimate Battle: Cha!"
+  },
+  "43": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "73, 74",
+   "title": "Killer Kunoichi and a Shaky Shikamaru"
+  },
+  "44": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "75, 76",
+   "title": "Akamaru Unleashed! Who's Top Dog Now?"
+  },
+  "45": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "76, 77",
+   "title": "Surprise Attack! Naruto's Secret Weapon!"
+  },
+  "46": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "78, 79",
+   "title": "Byakugan Battle: Hinata Grows Bold!"
+  },
+  "47": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "79, 80, 81",
+   "title": "A Failure Stands Tall!"
+  },
+  "48": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "81, 82, 83",
+   "title": "Gaara vs. Rock Lee: The Power of Youth Explodes!"
+  },
+  "49": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "83, 84, 85",
+   "title": "Lee's Hidden Strength: Forbidden Secret Jutsu!"
+  },
+  "50": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "85, 86, 87",
+   "title": "The Fifth Gate: A Splendid Ninja is Born"
+  },
+  "51": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "87, 88, 89",
+   "title": "A Shadow in Darkness: Danger Approaches Sasuke"
+  },
+  "52": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "89, 90",
+   "title": "Ebisu Returns: Naruto's Toughest Training Yet!"
+  },
+  "53": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "91, 92",
+   "title": "Long Time No See: Jiraiya Returns!"
+  },
+  "54": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "91, 92",
+   "title": "The Summoning Technique: Wisdom of the Toad Sage!"
+  },
+  "55": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "92, 93",
+   "title": "A Feeling of Yearning, a Flower Full of Hope"
+  },
+  "56": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "94, 95",
+   "title": "Live or Die: Risk it All to Win it All!"
+  },
+  "57": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "95, 96",
+   "title": "He Flies! He Jumps! He Lurks! Chief Toad Appears!"
+  },
+  "58": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "96, 97",
+   "title": "Hospital Besieged: The Evil Hand Revealed!"
+  },
+  "59": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "98",
+   "title": "The Final Rounds: Rush to the Battle Arena!"
+  },
+  "60": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "99, 100",
+   "title": "Byakugan vs. Shadow Clone Technique!"
+  },
+  "61": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "100, 101, 102",
+   "title": "Ultimate Defence: Zero Blind Spot!"
+  },
+  "62": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "103, 104, 105",
+   "title": "A Failure's True Power"
+  },
+  "63": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "105, 106",
+   "title": "Hit it or Quit it: The Final Rounds Get Complicated!"
+  },
+  "64": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "106, 107,108",
+   "title": "Zero Motivation: The Guy with Cloud Envy!"
+  },
+  "65": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "109, 110",
+   "title": "Dancing Leaf, Squirming Sand"
+  },
+  "66": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "111, 112",
+   "title": "Bushy Brow's Jutsu: Sasuke Style!"
+  },
+  "67": {
+   "arc": "Chūnin Exams (Arc)",
+   "chapters": "112, 113, 114",
+   "title": "Late for the Show, but Ready to Go! The Ultimate Secret Technique is Born!"
+  },
+  "68": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "115, 116",
+   "title": "Zero Hour! The Konoha Crush Begins!"
+  },
+  "69": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "117, 118",
+   "title": "Village in Distress: A New A-Ranked Mission!"
+  },
+  "70": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "118, 119",
+   "title": "A Shirker's Call to Action: A Layabout No More!"
+  },
+  "71": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "120, 121",
+   "title": "An Unrivaled Match: Hokage Battle Royale!"
+  },
+  "72": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "121, 122",
+   "title": "A Mistake from the Past: A Face Revealed!"
+  },
+  "73": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "123, 124",
+   "title": "Forbidden Secret Technique: Dead Demon Consuming Seal!"
+  },
+  "74": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "125, 126",
+   "title": "Astonishing Truth! Gaara's Identity Emerges!"
+  },
+  "75": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "127, 128",
+   "title": "Sasuke's Decision: Pushed to the Edge!"
+  },
+  "76": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "129, 130",
+   "title": "Assassin of the Moonlit Night"
+  },
+  "77": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "131, 132",
+   "title": "Light vs. Dark: The Two Faces of Gaara"
+  },
+  "78": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "133, 134, 135",
+   "title": "Naruto's Ninja Handbook"
+  },
+  "79": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "136, 137",
+   "title": "Beyond the Limit of Darkness and Light"
+  },
+  "80": {
+   "arc": "Konoha Crush (Arc)",
+   "chapters": "138, 139",
+   "title": "The Third Hokage, Forever…"
+  },
+  "81": {
+   "arc": "Search for Tsunade",
+   "chapters": "140, 141",
+   "title": "Return of the Morning Mist"
+  },
+  "82": {
+   "arc": "Search for Tsunade",
+   "chapters": "142, 143",
+   "title": "Eye to Eye: Sharingan vs. Sharingan!"
+  },
+  "83": {
+   "arc": "Search for Tsunade",
+   "chapters": "143, 144",
+   "title": "Jiraiya: Naruto's Potential Disaster!"
+  },
+  "84": {
+   "arc": "Search for Tsunade",
+   "chapters": "145, 146",
+   "title": "Roar, Chidori! Brother vs. Brother!"
+  },
+  "85": {
+   "arc": "Search for Tsunade",
+   "chapters": "147, 148",
+   "title": "Hate Among the Uchihas: The Last of the Clan!"
+  },
+  "86": {
+   "arc": "Search for Tsunade",
+   "chapters": "149, 150",
+   "title": "A New Training Begins: I Will Be Strong!"
+  },
+  "87": {
+   "arc": "Search for Tsunade",
+   "chapters": "151",
+   "title": "Keep on Training: Pop Goes the Water Balloon!"
+  },
+  "88": {
+   "arc": "Search for Tsunade",
+   "chapters": "152, 153, 154",
+   "title": "Focal Point: The Mark of the Leaf"
+  },
+  "89": {
+   "arc": "Search for Tsunade",
+   "chapters": "155, 156, 157",
+   "title": "An Impossible Choice: The Pain Within Tsunade's Heart"
+  },
+  "90": {
+   "arc": "Search for Tsunade",
+   "chapters": "157, 158",
+   "title": "Unforgivable! A Total Lack of Respect!"
+  },
+  "91": {
+   "arc": "Search for Tsunade",
+   "chapters": "159, 160",
+   "title": "Inheritance! The Necklace of Death!"
+  },
+  "92": {
+   "arc": "Search for Tsunade",
+   "chapters": "161, 162, 163",
+   "title": "A Dubious Offer! Tsunade's Choice!"
+  },
+  "93": {
+   "arc": "Search for Tsunade",
+   "chapters": "163, 164, 165",
+   "title": "Breakdown! The Deal is Off!"
+  },
+  "94": {
+   "arc": "Search for Tsunade",
+   "chapters": "165, 166, 167",
+   "title": "Attack! Fury of the Rasengan!"
+  },
+  "95": {
+   "arc": "Search for Tsunade",
+   "chapters": "168, 169",
+   "title": "The Fifth Hokage! A Life on the Line!"
+  },
+  "96": {
+   "arc": "Search for Tsunade",
+   "chapters": "170, 171",
+   "title": "Deadlock! Sannin Showdown!"
+  },
+  "97": {
+   "arc": "Search for Tsunade",
+   "chapters": "",
+   "title": "Kidnapped! Naruto's Hot Spring Adventure!"
+  },
+  "98": {
+   "arc": "Search for Tsunade",
+   "chapters": "172, 173",
+   "title": "Tsunade's Warning: Ninja No More!"
+  },
+  "99": {
+   "arc": "Search for Tsunade",
+   "chapters": "177",
+   "title": "The Will of Fire Still Burns!"
+  },
+  "100": {
+   "arc": "Search for Tsunade",
+   "chapters": "179, 180",
+   "title": "Sensei and Student: The Bond of the Shinobi"
+  },
+  "101": {
+   "arc": "",
+   "chapters": "",
+   "title": "Gotta See! Gotta Know! Kakashi-Sensei's True Face!"
+  },
+  "102": {
+   "arc": "Land of Tea Escort Mission",
+   "chapters": "",
+   "title": "Mission: Help an Old Friend in the Land of Tea"
+  },
+  "103": {
+   "arc": "Land of Tea Escort Mission",
+   "chapters": "",
+   "title": "The Race is On! Trouble on the High Seas!"
+  },
+  "104": {
+   "arc": "Land of Tea Escort Mission",
+   "chapters": "",
+   "title": "Run Idate Run! Nagi Island Awaits!"
+  },
+  "105": {
+   "arc": "Land of Tea Escort Mission",
+   "chapters": "",
+   "title": "A Fierce Battle of Rolling Thunder!"
+  },
+  "106": {
+   "arc": "Land of Tea Escort Mission",
+   "chapters": "",
+   "title": "The Last Leg: A Final Act of Desperation"
+  },
+  "107": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "173, 174, 175, 184",
+   "title": "The Battle Begins: Naruto vs. Sasuke"
+  },
+  "108": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "176, 177",
+   "title": "Bitter Rivals and Broken Bonds"
+  },
+  "109": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "178, 179, 181",
+   "title": "Oto's Invitation"
+  },
+  "110": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "182, 183",
+   "title": "Formation! The Sasuke Recovery Team"
+  },
+  "111": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "184, 185, 186",
+   "title": "Sound vs. Leaf"
+  },
+  "112": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "186, 187",
+   "title": "Squad Mutiny: Everything Falls Apart!"
+  },
+  "113": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "188, 189",
+   "title": "Full Throttle Power! Chōji, Ablaze!"
+  },
+  "114": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "189, 190, 191",
+   "title": "Good-bye Old Friend…! I'll Always Believe in You!"
+  },
+  "115": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "191, 192, 193",
+   "title": "Your Opponent is Me!"
+  },
+  "116": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "194, 195",
+   "title": "360 Degrees of Vision: The Byakugan's Blind Spot"
+  },
+  "117": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "196, 197, 198",
+   "title": "Losing is Not an Option!"
+  },
+  "118": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "198, 199, 200",
+   "title": "The Vessel Arrives Too Late"
+  },
+  "119": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "200, 201, 202",
+   "title": "Miscalculation: A New Enemy Appears!"
+  },
+  "120": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "203, 204",
+   "title": "Roar and Howl! The Ultimate Tag-Team!"
+  },
+  "121": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "205, 206",
+   "title": "To Each His Own Battle"
+  },
+  "122": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "207, 208",
+   "title": "Fakeout: Shikamaru's Comeback!"
+  },
+  "123": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "209, 210",
+   "title": "The Leaf's Handsome Devil!"
+  },
+  "124": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "211, 212",
+   "title": "The Beast Within"
+  },
+  "125": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "213, 214, 215",
+   "title": "The Sand Shinobi: Allies of the Leaf"
+  },
+  "126": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "215, 216",
+   "title": "Showdown: Gaara vs. Kimimaro"
+  },
+  "127": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "216, 217",
+   "title": "Vengeful Strike! The Bracken Dance!"
+  },
+  "128": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "218, 219",
+   "title": "A Cry on Deaf Ears"
+  },
+  "129": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "220, 221, 222",
+   "title": "Brothers: Distance Among the Uchiha"
+  },
+  "130": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "223, 224",
+   "title": "Father and Son, the Broken Crest"
+  },
+  "131": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "224, 225",
+   "title": "The Secrets of the Mangekyō Sharingan"
+  },
+  "132": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "226, 227, 228",
+   "title": "For a Friend…"
+  },
+  "133": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "229, 230, 231",
+   "title": "A Plea from a Friend"
+  },
+  "134": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "231, 232, 233, 234, 235",
+   "title": "The End of Tears"
+  },
+  "135": {
+   "arc": "Sasuke Recovery Mission",
+   "chapters": "235, 236, 237, 238",
+   "title": "The Promise That Could Not Be Kept"
+  },
+  "136": {
+   "arc": "Land of Rice Fields Investigation Mission",
+   "chapters": "",
+   "title": "Deep Cover?! A Super S-Ranked Mission!"
+  },
+  "137": {
+   "arc": "Land of Rice Fields Investigation Mission",
+   "chapters": "",
+   "title": "A Town of Outlaws, The Shadow of the Fūma Clan"
+  },
+  "138": {
+   "arc": "Land of Rice Fields Investigation Mission",
+   "chapters": "",
+   "title": "Pure Betrayal and a Fleeting Plea"
+  },
+  "139": {
+   "arc": "Land of Rice Fields Investigation Mission",
+   "chapters": "",
+   "title": "Pure Terror! The House of Orochimaru!"
+  },
+  "140": {
+   "arc": "Land of Rice Fields Investigation Mission",
+   "chapters": "",
+   "title": "Two Heartbeats: Kabuto's Trap"
+  },
+  "141": {
+   "arc": "Land of Rice Fields Investigation Mission",
+   "chapters": "236",
+   "title": "Sakura's Determination!"
+  },
+  "142": {
+   "arc": "Mizuki Tracking Mission",
+   "chapters": "238",
+   "title": "The Three Villains from the Maximum Security Prison"
+  },
+  "143": {
+   "arc": "Mizuki Tracking Mission",
+   "chapters": "",
+   "title": "Tonton! I'm Counting on You!"
+  },
+  "144": {
+   "arc": "Mizuki Tracking Mission",
+   "chapters": "",
+   "title": "A New Squad! Two People and a Dog?!"
+  },
+  "145": {
+   "arc": "Mizuki Tracking Mission",
+   "chapters": "",
+   "title": "A New Formation: Ino–Shika–Chō!"
+  },
+  "146": {
+   "arc": "Mizuki Tracking Mission",
+   "chapters": "",
+   "title": "Remaining Ambition: Orochimaru's Shadow"
+  },
+  "147": {
+   "arc": "Mizuki Tracking Mission",
+   "chapters": "",
+   "title": "A Clash of Fate: You Can't Bring Me Down!"
+  },
+  "148": {
+   "arc": "Bikōchū Search Mission",
+   "chapters": "",
+   "title": "The Search for the Rare Bikōchū Beetle"
+  },
+  "149": {
+   "arc": "Bikōchū Search Mission",
+   "chapters": "",
+   "title": "What's the Difference? Don't All Insects Look Alike?"
+  },
+  "150": {
+   "arc": "Bikōchū Search Mission",
+   "chapters": "",
+   "title": "A Battle of Bugs! The Deceivers and the Deceived!"
+  },
+  "151": {
+   "arc": "Bikōchū Search Mission",
+   "chapters": "",
+   "title": "Blaze Away, Byakugan! This is My Ninja Way!"
+  },
+  "152": {
+   "arc": "Kurosuki Family Removal Mission",
+   "chapters": "",
+   "title": "Funeral March for the Living"
+  },
+  "153": {
+   "arc": "Kurosuki Family Removal Mission",
+   "chapters": "",
+   "title": "A Lesson Learned: The Iron Fist of Love!"
+  },
+  "154": {
+   "arc": "Kurosuki Family Removal Mission",
+   "chapters": "",
+   "title": "The Enemy of the Byakugan"
+  },
+  "155": {
+   "arc": "Kurosuki Family Removal Mission",
+   "chapters": "",
+   "title": "The Dark Creeping Clouds"
+  },
+  "156": {
+   "arc": "Kurosuki Family Removal Mission",
+   "chapters": "",
+   "title": "Raiga's Counterattack"
+  },
+  "157": {
+   "arc": "Kurosuki Family Removal Mission",
+   "chapters": "",
+   "title": "Run! The Curry of Life!"
+  },
+  "158": {
+   "arc": "",
+   "chapters": "",
+   "title": "Follow My Lead! The Great Survival Challenge"
+  },
+  "159": {
+   "arc": "Gosunkugi Capture Mission",
+   "chapters": "",
+   "title": "The Bounty Hunter from the Wilderness"
+  },
+  "160": {
+   "arc": "Gosunkugi Capture Mission",
+   "chapters": "",
+   "title": "Hunt or Be Hunted?! Showdown at the O.K. Temple!"
+  },
+  "161": {
+   "arc": "",
+   "chapters": "",
+   "title": "The Appearance of Strange Visitors"
+  },
+  "162": {
+   "arc": "Cursed Warrior Extermination Mission",
+   "chapters": "",
+   "title": "The Cursed Warrior"
+  },
+  "163": {
+   "arc": "Cursed Warrior Extermination Mission",
+   "chapters": "",
+   "title": "The Tactician's Intent"
+  },
+  "164": {
+   "arc": "Cursed Warrior Extermination Mission",
+   "chapters": "",
+   "title": "Too Late for Help"
+  },
+  "165": {
+   "arc": "Cursed Warrior Extermination Mission",
+   "chapters": "",
+   "title": "The Death of Naruto"
+  },
+  "166": {
+   "arc": "Cursed Warrior Extermination Mission",
+   "chapters": "",
+   "title": "When Time Stands Still"
+  },
+  "167": {
+   "arc": "Cursed Warrior Extermination Mission",
+   "chapters": "",
+   "title": "When Egrets Flap Their Wings"
+  },
+  "168": {
+   "arc": "",
+   "chapters": "",
+   "title": "Mix it, Stretch it, Boil it Up! Burn Copper Pot, Burn!"
+  },
+  "169": {
+   "arc": "Kaima Capture Mission",
+   "chapters": "",
+   "title": "Remembrance: The Lost Page"
+  },
+  "170": {
+   "arc": "Kaima Capture Mission",
+   "chapters": "",
+   "title": "The Closed Door"
+  },
+  "171": {
+   "arc": "Kaima Capture Mission",
+   "chapters": "",
+   "title": "Infiltration: The Set-Up!"
+  },
+  "172": {
+   "arc": "Kaima Capture Mission",
+   "chapters": "",
+   "title": "Despair: A Fractured Heart"
+  },
+  "173": {
+   "arc": "Kaima Capture Mission",
+   "chapters": "",
+   "title": "Battle at Sea: The Power Unleashed!"
+  },
+  "174": {
+   "arc": "",
+   "chapters": "",
+   "title": "Impossible! Celebrity Ninja Art: Money Style Jutsu!"
+  },
+  "175": {
+   "arc": "Buried Gold Excavation Mission",
+   "chapters": "",
+   "title": "The Treasure Hunt is On!"
+  },
+  "176": {
+   "arc": "Buried Gold Excavation Mission",
+   "chapters": "",
+   "title": "Run, Dodge, Zigzag! Chase or Be Chased!"
+  },
+  "177": {
+   "arc": "",
+   "chapters": "",
+   "title": "Please, Mr. Postman!"
+  },
+  "178": {
+   "arc": "Star Guard Mission",
+   "chapters": "",
+   "title": "Encounter! The Boy with a Star's Name"
+  },
+  "179": {
+   "arc": "Star Guard Mission",
+   "chapters": "",
+   "title": "The Remembered Lullaby"
+  },
+  "180": {
+   "arc": "Star Guard Mission",
+   "chapters": "",
+   "title": "Hidden Jutsu! The Price of Ninja Art: Kujaku"
+  },
+  "181": {
+   "arc": "Star Guard Mission",
+   "chapters": "",
+   "title": "Hoshikage: The Buried Truth"
+  },
+  "182": {
+   "arc": "Star Guard Mission",
+   "chapters": "",
+   "title": "Reunion: The Remaining Time"
+  },
+  "183": {
+   "arc": "Star Guard Mission",
+   "chapters": "",
+   "title": "The Star's Radiance"
+  },
+  "184": {
+   "arc": "",
+   "chapters": "",
+   "title": "Kiba's Long Day"
+  },
+  "185": {
+   "arc": "",
+   "chapters": "",
+   "title": "A Legend from the Hidden Leaf: The Onbaa!"
+  },
+  "186": {
+   "arc": "",
+   "chapters": "",
+   "title": "Laughing Shino"
+  },
+  "187": {
+   "arc": "Peddlers Escort Mission",
+   "chapters": "",
+   "title": "Open for Business! The Leaf Moving Service"
+  },
+  "188": {
+   "arc": "Peddlers Escort Mission",
+   "chapters": "",
+   "title": "The Mystery of the Targeted Merchants"
+  },
+  "189": {
+   "arc": "Peddlers Escort Mission",
+   "chapters": "",
+   "title": "A Limitless Supply of Ninja Tools"
+  },
+  "190": {
+   "arc": "Peddlers Escort Mission",
+   "chapters": "",
+   "title": "The Byakugan Sees the Blind Spot!"
+  },
+  "191": {
+   "arc": "Peddlers Escort Mission",
+   "chapters": "",
+   "title": "Forecast: Death! Cloudy with Chance of Sun!"
+  },
+  "192": {
+   "arc": "",
+   "chapters": "",
+   "title": "Ino Screams! Chubby Paradise!"
+  },
+  "193": {
+   "arc": "",
+   "chapters": "",
+   "title": "Viva Dojo Challenge! Youth is All About Passion!"
+  },
+  "194": {
+   "arc": "",
+   "chapters": "",
+   "title": "The Mysterious Curse of the Haunted Castle"
+  },
+  "195": {
+   "arc": "Third Great Beast Arc",
+   "chapters": "",
+   "title": "The Third Super-Beast!"
+  },
+  "196": {
+   "arc": "Third Great Beast Arc",
+   "chapters": "",
+   "title": "Hot-Blooded Confrontation: Student vs. Sensei"
+  },
+  "197": {
+   "arc": "Konoha Plans Recapture Mission",
+   "chapters": "",
+   "title": "Crisis: The Konoha 11 Gather!"
+  },
+  "198": {
+   "arc": "Konoha Plans Recapture Mission",
+   "chapters": "",
+   "title": "The Anbu Gives Up? Naruto's Recollection"
+  },
+  "199": {
+   "arc": "Konoha Plans Recapture Mission",
+   "chapters": "",
+   "title": "The Missed Target"
+  },
+  "200": {
+   "arc": "Konoha Plans Recapture Mission",
+   "chapters": "",
+   "title": "The Powerful Helper"
+  },
+  "201": {
+   "arc": "Konoha Plans Recapture Mission",
+   "chapters": "",
+   "title": "Multiple Traps! Countdown to Destruction"
+  },
+  "202": {
+   "arc": "",
+   "chapters": "",
+   "title": "The Top 5 Ninja Battles!"
+  },
+  "203": {
+   "arc": "Yakumo Kurama Rescue Mission",
+   "chapters": "",
+   "title": "Kurenai's Decision: Team 8 Left Behind"
+  },
+  "204": {
+   "arc": "Yakumo Kurama Rescue Mission",
+   "chapters": "",
+   "title": "Yakumo's Sealed Power"
+  },
+  "205": {
+   "arc": "Yakumo Kurama Rescue Mission",
+   "chapters": "",
+   "title": "Kurenai's Top Secret Mission: The Promise with the Third Hokage"
+  },
+  "206": {
+   "arc": "Yakumo Kurama Rescue Mission",
+   "chapters": "",
+   "title": "Genjutsu or Reality?"
+  },
+  "207": {
+   "arc": "Yakumo Kurama Rescue Mission",
+   "chapters": "",
+   "title": "The Supposed Sealed Ability"
+  },
+  "208": {
+   "arc": "",
+   "chapters": "",
+   "title": "The Weight of the Prized Artefact!"
+  },
+  "209": {
+   "arc": "Gantetsu Escort Mission",
+   "chapters": "",
+   "title": "The Enemy: Ninja Dropouts"
+  },
+  "210": {
+   "arc": "Gantetsu Escort Mission",
+   "chapters": "",
+   "title": "The Bewildering Forest"
+  },
+  "211": {
+   "arc": "Gantetsu Escort Mission",
+   "chapters": "",
+   "title": "Memory of Flames"
+  },
+  "212": {
+   "arc": "Gantetsu Escort Mission",
+   "chapters": "",
+   "title": "To Each His Own Path"
+  },
+  "213": {
+   "arc": "Menma Memory Search Mission",
+   "chapters": "",
+   "title": "Vanished Memories"
+  },
+  "214": {
+   "arc": "Menma Memory Search Mission",
+   "chapters": "",
+   "title": "Bringing Back Reality"
+  },
+  "215": {
+   "arc": "Menma Memory Search Mission",
+   "chapters": "",
+   "title": "A Past to Be Erased"
+  },
+  "216": {
+   "arc": "Sunagakure Support Mission",
+   "chapters": "",
+   "title": "The Targeted Shukaku"
+  },
+  "217": {
+   "arc": "Sunagakure Support Mission",
+   "chapters": "",
+   "title": "Sand Alliance With the Leaf Shinobi"
+  },
+  "218": {
+   "arc": "Sunagakure Support Mission",
+   "chapters": "",
+   "title": "Sealed Sand: The Counterattack!"
+  },
+  "219": {
+   "arc": "Sunagakure Support Mission",
+   "chapters": "",
+   "title": "The Ultimate Weapon Reborn"
+  },
+  "220": {
+   "arc": "Sunagakure Support Mission",
+   "chapters": "238",
+   "title": "Departure (episode)"
+  }
+ },
+ "shippuden": {
+  "1": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "245",
+   "title": "Homecoming (episode)"
+  },
+  "2": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "245, 246, 247",
+   "title": "The Akatsuki Makes Its Move"
+  },
+  "3": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "246, 247, 248",
+   "title": "The Results of Training"
+  },
+  "4": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "248",
+   "title": "The Jinchūriki of the Sand"
+  },
+  "5": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "249",
+   "title": "The Kazekage Stands Tall"
+  },
+  "6": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "248, 249",
+   "title": "Mission Cleared"
+  },
+  "7": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "250, 251",
+   "title": "Run, Kankurō"
+  },
+  "8": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "250",
+   "title": "Team Kakashi, Deployed"
+  },
+  "9": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "251, 252",
+   "title": "The Jinchūriki's Tears"
+  },
+  "10": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "252, 253, 254, 255",
+   "title": "Sealing Technique: Phantom Dragons Nine Consuming Seals (episode)"
+  },
+  "11": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "253, 254, 255",
+   "title": "The Medical Ninja's Student"
+  },
+  "12": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "254, 255, 256",
+   "title": "The Retired Granny's Determination"
+  },
+  "13": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "256, 257",
+   "title": "A Meeting With Destiny"
+  },
+  "14": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "258, 259",
+   "title": "Naruto's Growth"
+  },
+  "15": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "260",
+   "title": "The Secret Weapon is Called…"
+  },
+  "16": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "261",
+   "title": "The Secret of Jinchūriki"
+  },
+  "17": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "261, 262",
+   "title": "The Death of Gaara!"
+  },
+  "18": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "262, 263",
+   "title": "Charge Tactic! Button Hook Entry"
+  },
+  "19": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "263, 264",
+   "title": "Traps Activate! Team Guy's Enemies!"
+  },
+  "20": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "264, 265",
+   "title": "Hiruko vs. Two Kunoichi!"
+  },
+  "21": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "266, 267",
+   "title": "Sasori's Real Face"
+  },
+  "22": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "267, 268",
+   "title": "Chiyo's Secret Skills"
+  },
+  "23": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "268, 269",
+   "title": "Father and Mother (episode)"
+  },
+  "24": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "269, 270",
+   "title": "The Third Kazekage (episode)"
+  },
+  "25": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "270, 271",
+   "title": "Three Minutes Between Life and Death"
+  },
+  "26": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "272, 273",
+   "title": "Puppet Fight: 10 vs 100!"
+  },
+  "27": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "274, 275",
+   "title": "Impossible Dream"
+  },
+  "28": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "",
+   "title": "Beasts! Alive Again!"
+  },
+  "29": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "276, 277",
+   "title": "Kakashi Enlightened!"
+  },
+  "30": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "277, 278",
+   "title": "Aesthetics of an Instant!"
+  },
+  "31": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "279, 280",
+   "title": "The Legacy!"
+  },
+  "32": {
+   "arc": "Kazekage Rescue Mission",
+   "chapters": "280, 281",
+   "title": "Return of the Kazekage"
+  },
+  "33": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "282, 283",
+   "title": "The New Target"
+  },
+  "34": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "283, 284",
+   "title": "Formation! New Team Kakashi!"
+  },
+  "35": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "285, 291",
+   "title": "An Unnecessary Addition"
+  },
+  "36": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "286",
+   "title": "The Fake Smile"
+  },
+  "37": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "287",
+   "title": "Untitled (episode)"
+  },
+  "38": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "288, 289",
+   "title": "Simulation"
+  },
+  "39": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "289, 290, 291",
+   "title": "The Tenchi Bridge (episode)"
+  },
+  "40": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "291",
+   "title": "Nine-Tails Unleashed!"
+  },
+  "41": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "292, 293",
+   "title": "The Top-Secret Mission Begins!"
+  },
+  "42": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "294, 295",
+   "title": "Orochimaru vs. Jinchūriki"
+  },
+  "43": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "296",
+   "title": "Sakura's Tears"
+  },
+  "44": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "297, 298",
+   "title": "The Secret of the Battle"
+  },
+  "45": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "298, 299",
+   "title": "The Consequences of Betrayal"
+  },
+  "46": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "299, 300",
+   "title": "The Unfinished Page"
+  },
+  "47": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "301, 302",
+   "title": "Infiltration: The Den of the Snake!"
+  },
+  "48": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "302, 303",
+   "title": "Bonds"
+  },
+  "49": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "304",
+   "title": "Something Important…"
+  },
+  "50": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "304, 305",
+   "title": "The Picture Book's Story"
+  },
+  "51": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "305, 306, 307",
+   "title": "Reunion (episode)"
+  },
+  "52": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "307, 308, 309",
+   "title": "The Power of the Uchiha"
+  },
+  "53": {
+   "arc": "Tenchi Bridge Reconnaissance Mission",
+   "chapters": "309, 310",
+   "title": "Title (episode)"
+  },
+  "54": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "311, 312",
+   "title": "Nightmare"
+  },
+  "55": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "314, 315, 316",
+   "title": "Wind (episode)"
+  },
+  "56": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "317, 318",
+   "title": "Writhe"
+  },
+  "57": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Robbed of Sleep"
+  },
+  "58": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Loneliness"
+  },
+  "59": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "A New Enemy"
+  },
+  "60": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Impermanence"
+  },
+  "61": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Contact"
+  },
+  "62": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Teammate"
+  },
+  "63": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "The Two Kings"
+  },
+  "64": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "The Jet-Black Signal Fire"
+  },
+  "65": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Lockdown of Darkness"
+  },
+  "66": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Revived Souls"
+  },
+  "67": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Everyone's Struggle to the Death"
+  },
+  "68": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Moment of Awakening"
+  },
+  "69": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Despair"
+  },
+  "70": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "",
+   "title": "Resonance (episode)"
+  },
+  "71": {
+   "arc": "Twelve Guardian Ninja (Arc)",
+   "chapters": "312,316",
+   "title": "My Friend"
+  },
+  "72": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "312, 313, 314",
+   "title": "The Quietly Approaching Threat"
+  },
+  "73": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "314, 318",
+   "title": "Akatsuki's Invasion"
+  },
+  "74": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "318, 319",
+   "title": "Under the Starry Sky"
+  },
+  "75": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "320, 321",
+   "title": "The Old Monk's Prayer"
+  },
+  "76": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "320, 321, 322",
+   "title": "The Next Step"
+  },
+  "77": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "322, 323",
+   "title": "Climbing Silver"
+  },
+  "78": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "323, 324, 325",
+   "title": "The Judgment"
+  },
+  "79": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "325, 326",
+   "title": "Unfulfilled Scream"
+  },
+  "80": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "327, 328",
+   "title": "Last Words"
+  },
+  "81": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "329, 330",
+   "title": "Sad News"
+  },
+  "82": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "330, 331",
+   "title": "Team 10 (episode)"
+  },
+  "83": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "331, 332, 333",
+   "title": "Target: Locked On"
+  },
+  "84": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "333, 334",
+   "title": "Kakuzu's Abilities"
+  },
+  "85": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "335, 336",
+   "title": "Terrifying Secret"
+  },
+  "86": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "336, 337",
+   "title": "Shikamaru's Genius"
+  },
+  "87": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "338, 339",
+   "title": "When You Curse Someone, You Dig Your Own Grave"
+  },
+  "88": {
+   "arc": "Akatsuki Suppression Mission",
+   "chapters": "339, 340, 341, 342",
+   "title": "Wind Release: Rasenshuriken!"
+  },
+  "89": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "342, 346",
+   "title": "The Price of Power"
+  },
+  "90": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "343, 346, 347",
+   "title": "A Shinobi's Determination"
+  },
+  "91": {
+   "arc": "Three-Tails&#039; Appearance",
+   "chapters": "",
+   "title": "Orochimaru's Hideout Discovered"
+  },
+  "92": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "342, 343",
+   "title": "Encounter"
+  },
+  "93": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Connecting Hearts"
+  },
+  "94": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "A Night of Rain"
+  },
+  "95": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "The Two Charms"
+  },
+  "96": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "The Unseeing Enemy"
+  },
+  "97": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "The Labyrinth of Distorted Reflection"
+  },
+  "98": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "The Target Appears"
+  },
+  "99": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Raging Tailed Beast"
+  },
+  "100": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Inside the Mist"
+  },
+  "101": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Everyone's Feelings"
+  },
+  "102": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Regroup!"
+  },
+  "103": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "The Four-Corner Sealing Barrier (episode)"
+  },
+  "104": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Breaking the Crystal Release"
+  },
+  "105": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "The Battle Over the Barrier"
+  },
+  "106": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Red Camellia"
+  },
+  "107": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Strange Bedfellows"
+  },
+  "108": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Guidepost of the Camellia"
+  },
+  "109": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Cursed Seal Counterattack"
+  },
+  "110": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Memory of Guilt"
+  },
+  "111": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "",
+   "title": "Shattered Promise"
+  },
+  "112": {
+   "arc": "Three-Tails' Appearance",
+   "chapters": "317, 318",
+   "title": "A Place to Return To"
+  },
+  "113": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "343,344",
+   "title": "The Serpent's Pupil"
+  },
+  "114": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "344, 345, 346",
+   "title": "Eye of a Hawk"
+  },
+  "115": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "346, 347",
+   "title": "Zabuza's Blade"
+  },
+  "116": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "348",
+   "title": "Guardian of the Iron Wall"
+  },
+  "117": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "349, 350, 351",
+   "title": "Jūgo of the Northern Hideout"
+  },
+  "118": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "351, 352",
+   "title": "Formation!"
+  },
+  "119": {
+   "arc": "Kakashi Gaiden",
+   "chapters": "239, 240, 241",
+   "title": "Kakashi Chronicles ~ Boys' Life on the Battlefield ~ Part 1"
+  },
+  "120": {
+   "arc": "Kakashi Gaiden",
+   "chapters": "242, 243, 244",
+   "title": "Kakashi Chronicles ~ Boys' Life on the Battlefield ~ Part 2"
+  },
+  "121": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "353, 354",
+   "title": "Assemble"
+  },
+  "122": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "355, 356, 357",
+   "title": "The Hunt"
+  },
+  "123": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "356, 357, 358, 359",
+   "title": "Clash!"
+  },
+  "124": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "360, 361, 362",
+   "title": "Art"
+  },
+  "125": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "363, 364",
+   "title": "Disappearance"
+  },
+  "126": {
+   "arc": "Itachi Pursuit Mission",
+   "chapters": "365, 366, 367",
+   "title": "Twilight"
+  },
+  "127": {
+   "arc": "Tale of Jiraiya the Gallant",
+   "chapters": "376, 381",
+   "title": "Tales of a Gutsy Ninja ~Jiraiya Ninja Scroll~ Part 1"
+  },
+  "128": {
+   "arc": "Tale of Jiraiya the Gallant",
+   "chapters": "369, 372, 373, 376, 382",
+   "title": "Tales of a Gutsy Ninja ~Jiraiya Ninja Scroll~ Part 2"
+  },
+  "129": {
+   "arc": "Tale of Jiraiya the Gallant",
+   "chapters": "367, 368, 369",
+   "title": "Infiltrate! The Village Hidden in the Rain"
+  },
+  "130": {
+   "arc": "Tale of Jiraiya the Gallant",
+   "chapters": "370, 371, 372, 373, 374",
+   "title": "The Man Who Became God"
+  },
+  "131": {
+   "arc": "Tale of Jiraiya the Gallant",
+   "chapters": "375, 376",
+   "title": "Honoured Sage Mode!"
+  },
+  "132": {
+   "arc": "Tale of Jiraiya the Gallant",
+   "chapters": "377, 378, 379",
+   "title": "In Attendance, the Six Paths of Pain"
+  },
+  "133": {
+   "arc": "Tale of Jiraiya the Gallant",
+   "chapters": "380, 381, 382, 383",
+   "title": "The Tale of Jiraiya the Gallant (episode)"
+  },
+  "134": {
+   "arc": "Fated Battle Between Brothers",
+   "chapters": "366, 367, 371, 380, 383",
+   "title": "Banquet Invitation"
+  },
+  "135": {
+   "arc": "Fated Battle Between Brothers",
+   "chapters": "383, 384, 385",
+   "title": "The Longest Moment"
+  },
+  "136": {
+   "arc": "Fated Battle Between Brothers",
+   "chapters": "386, 387",
+   "title": "The Light and Dark of the Mangekyō Sharingan"
+  },
+  "137": {
+   "arc": "Fated Battle Between Brothers",
+   "chapters": "388, 389, 390",
+   "title": "Amaterasu!"
+  },
+  "138": {
+   "arc": "Fated Battle Between Brothers",
+   "chapters": "391, 392, 393",
+   "title": "The End"
+  },
+  "139": {
+   "arc": "Fated Battle Between Brothers",
+   "chapters": "394, 395, 396, 397",
+   "title": "The Mystery of Tobi"
+  },
+  "140": {
+   "arc": "Fated Battle Between Brothers",
+   "chapters": "397, 398, 399, 400",
+   "title": "Fate"
+  },
+  "141": {
+   "arc": "Fated Battle Between Brothers",
+   "chapters": "400, 401, 402",
+   "title": "Truth"
+  },
+  "142": {
+   "arc": "Fated Battle Between Brothers",
+   "chapters": "403, 404, 408, 410, 411",
+   "title": "Battle of Valley of Clouds and Lightning"
+  },
+  "143": {
+   "arc": "Fated Battle Between Brothers",
+   "chapters": "411, 412, 413, 414, 415",
+   "title": "The Eight-Tails vs. Sasuke"
+  },
+  "144": {
+   "arc": "Six-Tails Unleashed",
+   "chapters": "",
+   "title": "Wanderer"
+  },
+  "145": {
+   "arc": "Six-Tails Unleashed",
+   "chapters": "",
+   "title": "Successor of the Forbidden Jutsu"
+  },
+  "146": {
+   "arc": "Six-Tails Unleashed",
+   "chapters": "",
+   "title": "The Successor's Wish"
+  },
+  "147": {
+   "arc": "Six-Tails Unleashed",
+   "chapters": "",
+   "title": "Rogue Ninja's Past"
+  },
+  "148": {
+   "arc": "Six-Tails Unleashed",
+   "chapters": "",
+   "title": "Heir to Darkness"
+  },
+  "149": {
+   "arc": "Six-Tails Unleashed",
+   "chapters": "",
+   "title": "Separation"
+  },
+  "150": {
+   "arc": "Six-Tails Unleashed",
+   "chapters": "",
+   "title": "The Forbidden Jutsu Released"
+  },
+  "151": {
+   "arc": "Six-Tails Unleashed",
+   "chapters": "",
+   "title": "Master and Student"
+  },
+  "152": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "403, 404, 405, 416",
+   "title": "Sombre News"
+  },
+  "153": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "405, 406",
+   "title": "Following the Master's Shadow"
+  },
+  "154": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "407, 408, 409",
+   "title": "Decryption"
+  },
+  "155": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "407, 409, 410, 412, 414, 415, 416, 417, 418, 419",
+   "title": "The First Challenge"
+  },
+  "156": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "417, 418, 419, 420",
+   "title": "Surpassing the Master"
+  },
+  "157": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "418, 419, 420, 421",
+   "title": "Assault on the Leaf Village!"
+  },
+  "158": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "420, 421, 422",
+   "title": "Power to Believe"
+  },
+  "159": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "420, 421, 422, 423, 424, 425, 427",
+   "title": "Pain vs. Kakashi"
+  },
+  "160": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "424, 425, 426",
+   "title": "Mystery of Pain"
+  },
+  "161": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "425, 426, 427, 428",
+   "title": "Surname is Sarutobi, Given Name, Konohamaru"
+  },
+  "162": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "427, 428, 429, 430",
+   "title": "Pain to the World"
+  },
+  "163": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "430, 431, 432",
+   "title": "Explode! Sage Mode"
+  },
+  "164": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "432,433,434",
+   "title": "Danger! Sage Mode Limit Reached"
+  },
+  "165": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "434, 435, 436",
+   "title": "Nine-Tails, Captured!"
+  },
+  "166": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "437",
+   "title": "Confession (episode)"
+  },
+  "167": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "437, 438, 439",
+   "title": "Chibaku Tensei (episode)"
+  },
+  "168": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "439, 440, 441, 442",
+   "title": "The Fourth Hokage (episode)"
+  },
+  "169": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "442, 443, 444",
+   "title": "The Two Students"
+  },
+  "170": {
+   "arc": "",
+   "chapters": "",
+   "title": "Big Adventure! The Quest for the Fourth Hokage's Legacy Part 1"
+  },
+  "171": {
+   "arc": "",
+   "chapters": "",
+   "title": "Big Adventure! The Quest for the Fourth Hokage's Legacy Part 2"
+  },
+  "172": {
+   "arc": "Pain&#039;s Assault (Arc)",
+   "chapters": "444, 445, 446,",
+   "title": "Meeting (episode 172)"
+  },
+  "173": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "446, 447,",
+   "title": "Origin of Pain"
+  },
+  "174": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "448, 449",
+   "title": "Tale of Naruto Uzumaki"
+  },
+  "175": {
+   "arc": "Pain's Assault (Arc)",
+   "chapters": "426, 449, 450",
+   "title": "Hero of the Hidden Leaf"
+  },
+  "176": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "450",
+   "title": "Rookie Instructor Iruka"
+  },
+  "177": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Iruka's Ordeal"
+  },
+  "178": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "449, 450",
+   "title": "Iruka's Decision"
+  },
+  "179": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "450",
+   "title": "Kakashi Hatake, the Jōnin in Charge"
+  },
+  "180": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "451",
+   "title": "Inari's Courage Put to the Test"
+  },
+  "181": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "451",
+   "title": "Naruto's School of Revenge"
+  },
+  "182": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Gaara's Bond"
+  },
+  "183": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Naruto: Outbreak"
+  },
+  "184": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Deploy! Team Tenten"
+  },
+  "185": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Animal District"
+  },
+  "186": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Ah, the Medicine of Youth"
+  },
+  "187": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Gutsy Master and Student: The Training"
+  },
+  "188": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Record of the Gutsy Ninja Master and Student"
+  },
+  "189": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Sasuke's Paw Encyclopaedia"
+  },
+  "190": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Naruto and the Old Soldier"
+  },
+  "191": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Kakashi Love Song"
+  },
+  "192": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Neji Chronicles"
+  },
+  "193": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "The Man Who Died Twice"
+  },
+  "194": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "The Worst Three-Legged Race"
+  },
+  "195": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Team 10's Teamwork"
+  },
+  "196": {
+   "arc": "Past Arc: The Locus of Konoha",
+   "chapters": "",
+   "title": "Drive Towards Darkness"
+  },
+  "197": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "451, 452, 453",
+   "title": "The Sixth Hokage Danzō"
+  },
+  "198": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "453, 454, 455",
+   "title": "Five Kage Summit's Eve (episode)"
+  },
+  "199": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "454, 455, 456, 457",
+   "title": "Enter the Five Kage!"
+  },
+  "200": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "457, 458, 459,",
+   "title": "Naruto's Plea"
+  },
+  "201": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "458, 459, 460,",
+   "title": "Painful Decision"
+  },
+  "202": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "460, 461, 462",
+   "title": "Racing Lightning"
+  },
+  "203": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "462,463,464",
+   "title": "Sasuke's Ninja Way"
+  },
+  "204": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "419, 465, 466, 470",
+   "title": "Power of the Five Kage"
+  },
+  "205": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "467, 468",
+   "title": "Declaration of War (Naruto episode)"
+  },
+  "206": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "468, 469, 470",
+   "title": "Sakura's Feelings"
+  },
+  "207": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "471, 472, 473",
+   "title": "The Tailed Beast vs. The Tailless Tailed Beast"
+  },
+  "208": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "473, 474, 475",
+   "title": "As One's Friend"
+  },
+  "209": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "476, 477,",
+   "title": "Danzō's Right Arm"
+  },
+  "210": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "478, 479,",
+   "title": "The Forbidden Visual Jutsu"
+  },
+  "211": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "480, 481",
+   "title": "Danzō Shimura (episode)"
+  },
+  "212": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "481, 482",
+   "title": "Sakura's Resolve"
+  },
+  "213": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "482",
+   "title": "Lost Bonds"
+  },
+  "214": {
+   "arc": "Five Kage Summit (Arc)",
+   "chapters": "483, 484,",
+   "title": "The Burden"
+  },
+  "215": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "485",
+   "title": "Two Fates"
+  },
+  "216": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "482, 486, 487",
+   "title": "High-Level Shinobi"
+  },
+  "217": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "487, 488",
+   "title": "The Infiltrator"
+  },
+  "218": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "488",
+   "title": "The Five Great Nations Mobilise"
+  },
+  "219": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "488",
+   "title": "Kakashi Hatake, the Hokage"
+  },
+  "220": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "488, 489",
+   "title": "Prophecy of the Great Lord Elder"
+  },
+  "221": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "487, 489, 490",
+   "title": "Storage"
+  },
+  "222": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "489, 490, 491",
+   "title": "The Five Kage's Decision"
+  },
+  "223": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "The Young Man and the Sea"
+  },
+  "224": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "The Ninja of Benisu"
+  },
+  "225": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "The Cursed Ghost Ship"
+  },
+  "226": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Battleship Island"
+  },
+  "227": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "The Forgotten Island"
+  },
+  "228": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Fight! Rock Lee!"
+  },
+  "229": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Eat or Die! Mushrooms from Hell"
+  },
+  "230": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Revenge of the Shadow Clones"
+  },
+  "231": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "The Closed Route"
+  },
+  "232": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "The Girls' Get-Together"
+  },
+  "233": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Naruto's Imposter"
+  },
+  "234": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Naruto's Favourite Pupil"
+  },
+  "235": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "The Kunoichi of Nadeshiko Village"
+  },
+  "236": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Friends You Can Count On"
+  },
+  "237": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Ah, My Hero Lady Tsunade!"
+  },
+  "238": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Sai's Day Off"
+  },
+  "239": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "The Legendary Ino–Shika–Chō"
+  },
+  "240": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Kiba's Determination"
+  },
+  "241": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Kakashi, My Eternal Rival!"
+  },
+  "242": {
+   "arc": "Paradise Life on a Boat",
+   "chapters": "",
+   "title": "Naruto's Vow"
+  },
+  "243": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "491, 492, 493",
+   "title": "Land Ahoy! Is this the Island of Paradise?"
+  },
+  "244": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "493, 494",
+   "title": "Killer B and Motoi (episode)"
+  },
+  "245": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "495, 496, 497",
+   "title": "The Next Challenge! Naruto vs. The Nine-Tails!!"
+  },
+  "246": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "497, 498",
+   "title": "The Orange Spark"
+  },
+  "247": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "499, 500",
+   "title": "Target: Nine-Tails"
+  },
+  "248": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "500, 501, 502, 503",
+   "title": "The Fourth Hokage's Death Match"
+  },
+  "249": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "503, 504",
+   "title": "Thank You (episode)"
+  },
+  "250": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "505, 506, 507",
+   "title": "Battle in Paradise! Odd Beast vs. The Monster!"
+  },
+  "251": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "507, 508",
+   "title": "The Man Named Kisame"
+  },
+  "252": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "508, 509",
+   "title": "The Angelic Herald of Death"
+  },
+  "253": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "510, 511",
+   "title": "The Bridge to Peace"
+  },
+  "254": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "512, 513",
+   "title": "The Super Secret S-Rank Mission"
+  },
+  "255": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "513, 514",
+   "title": "The Artist Returns"
+  },
+  "256": {
+   "arc": "Fourth Shinobi World War: Countdown",
+   "chapters": "515",
+   "title": "Assemble! Allied Shinobi Forces!"
+  },
+  "257": {
+   "arc": "",
+   "chapters": "538",
+   "title": "Meeting (episode 257)"
+  },
+  "258": {
+   "arc": "",
+   "chapters": "",
+   "title": "Rivals (episode 258)"
+  },
+  "259": {
+   "arc": "",
+   "chapters": "",
+   "title": "Rift (episode)"
+  },
+  "260": {
+   "arc": "",
+   "chapters": "",
+   "title": "Parting"
+  },
+  "261": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "515 ,516",
+   "title": "For My Friend"
+  },
+  "262": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "517, 518",
+   "title": "War Begins!"
+  },
+  "263": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "518, 519",
+   "title": "Sai and Shin"
+  },
+  "264": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "519, 520, 521",
+   "title": "The Secret of the Impure World Reincarnation (episode)"
+  },
+  "265": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "520, 521, 522",
+   "title": "An Old Nemesis Returns"
+  },
+  "266": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "521, 522, 523, 524",
+   "title": "The First and Last Opponent"
+  },
+  "267": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "525",
+   "title": "The Brilliant Military Advisor of the Hidden Leaf"
+  },
+  "268": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "525, 526",
+   "title": "Battleground!"
+  },
+  "269": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "527, 528",
+   "title": "No-Good Words (episode)"
+  },
+  "270": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "529, 530",
+   "title": "Golden Bonds (episode)"
+  },
+  "271": {
+   "arc": "",
+   "chapters": "",
+   "title": "Road to Sakura"
+  },
+  "272": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "530, 531, 532",
+   "title": "Mifune vs. Hanzō"
+  },
+  "273": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "530, 531, 532, 533",
+   "title": "True Kindness"
+  },
+  "274": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "533, 534",
+   "title": "The Complete Ino-Shika-Chō Formation"
+  },
+  "275": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "534, 535, 536",
+   "title": "A Message from the Heart"
+  },
+  "276": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "536, 537",
+   "title": "Attack of the Gedō Statue"
+  },
+  "277": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "538, 539",
+   "title": "Unison Sign"
+  },
+  "278": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "539, 540",
+   "title": "Medic Ninja in Danger"
+  },
+  "279": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "White Zetsu's Trap"
+  },
+  "280": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "Aesthetics of an Artist"
+  },
+  "281": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Allied Mom Force!!"
+  },
+  "282": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "540, 541, 542, 543",
+   "title": "The Secret Origin of the Ultimate Tag Team!!"
+  },
+  "283": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "543, 544",
+   "title": "Two Suns!! (episode)"
+  },
+  "284": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Helmet Splitter: Jinin Akebino!"
+  },
+  "285": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "User of the Scorch Release: Pakura of the Sand!"
+  },
+  "286": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "Things You Can't Get Back"
+  },
+  "287": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "One Worth Betting On"
+  },
+  "288": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "Danger: Jinpachi and Kushimaru!"
+  },
+  "289": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Lightning Blade: Ameyuri Ringo!"
+  },
+  "290": {
+   "arc": "Power (Arc)",
+   "chapters": "",
+   "title": "Power - Episode 1"
+  },
+  "291": {
+   "arc": "Power (Arc)",
+   "chapters": "",
+   "title": "Power - Episode 2"
+  },
+  "292": {
+   "arc": "Power (Arc)",
+   "chapters": "",
+   "title": "Power - Episode 3"
+  },
+  "293": {
+   "arc": "Power (Arc)",
+   "chapters": "",
+   "title": "Power - Episode 4"
+  },
+  "294": {
+   "arc": "Power (Arc)",
+   "chapters": "",
+   "title": "Power - Episode 5"
+  },
+  "295": {
+   "arc": "Power (Arc)",
+   "chapters": "",
+   "title": "Power - Episode Final"
+  },
+  "296": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "545, 546",
+   "title": "Naruto Enters the Battle!"
+  },
+  "297": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "547, 548",
+   "title": "A Father's Hope, A Mother's Love"
+  },
+  "298": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "548, 549, 550",
+   "title": "Contact! Naruto vs. Itachi"
+  },
+  "299": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "551, 552",
+   "title": "The Acknowledged One"
+  },
+  "300": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "548, 552, 553, 555, 556",
+   "title": "The Mizukage, the Giant Clam, and the Mirage"
+  },
+  "301": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "552, 553, 554, 555",
+   "title": "Paradox"
+  },
+  "302": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "556, 557, 558",
+   "title": "Terror: Steaming Danger Tyranny"
+  },
+  "303": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "Ghosts from the Past"
+  },
+  "304": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Underworld Transfer Jutsu"
+  },
+  "305": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Vengeful"
+  },
+  "306": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Heart's Eye"
+  },
+  "307": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "521",
+   "title": "Fade into the Moonlight"
+  },
+  "308": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "Night of the Crescent Moon"
+  },
+  "309": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "An A-Rank Mission: The Contest"
+  },
+  "310": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Fallen Castle"
+  },
+  "311": {
+   "arc": "",
+   "chapters": "",
+   "title": "Prologue of Road to Ninja"
+  },
+  "312": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Old Master and the Dragon's Eye"
+  },
+  "313": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "Rain Followed by Snow, with Some Lightning"
+  },
+  "314": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Sad Sun Shower"
+  },
+  "315": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "Lingering Snow"
+  },
+  "316": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Reanimated Allied Forces"
+  },
+  "317": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "Shino vs. Torune!"
+  },
+  "318": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "A Hole in the Heart: The Other Jinchūriki"
+  },
+  "319": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "The Soul Living Inside the Puppet"
+  },
+  "320": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "",
+   "title": "Run, Omoi!"
+  },
+  "321": {
+   "arc": "Fourth Shinobi World War: Confrontation",
+   "chapters": "558, 559",
+   "title": "Reinforcements Arrive"
+  },
+  "322": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "560, 561",
+   "title": "Madara Uchiha (episode)"
+  },
+  "323": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "561, 562, 563",
+   "title": "The Five Kage Assemble"
+  },
+  "324": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "564",
+   "title": "The Unbreakable Mask and the Shattered Bubble"
+  },
+  "325": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "565, 566",
+   "title": "Jinchūriki vs. Jinchūriki"
+  },
+  "326": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "553, 567, 568",
+   "title": "Four-Tails, the King of Sage Monkeys"
+  },
+  "327": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "569",
+   "title": "Nine-Tails (episode)"
+  },
+  "328": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "569, 570",
+   "title": "Kurama (episode)"
+  },
+  "329": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "570, 571, 572",
+   "title": "Two-Man Team"
+  },
+  "330": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "573",
+   "title": "The Promise of Victory"
+  },
+  "331": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "574, 575",
+   "title": "Eyes That See in the Dark"
+  },
+  "332": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "575, 576",
+   "title": "A Will of Stone"
+  },
+  "333": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "577, 578",
+   "title": "The Risks of the Impure World Reincarnation"
+  },
+  "334": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "579, 580",
+   "title": "Sibling Tag Team"
+  },
+  "335": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "581, 582",
+   "title": "To Each Their Own Leaf"
+  },
+  "336": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "583, 584",
+   "title": "Kabuto Yakushi (episode)"
+  },
+  "337": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "585, 586",
+   "title": "The Izanami Activated"
+  },
+  "338": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "587, 588",
+   "title": "Izanagi and Izanami"
+  },
+  "339": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "588, 589, 590",
+   "title": "I Will Love You Always"
+  },
+  "340": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "589, 590, 591, 592",
+   "title": "Impure World Reincarnation: Release!"
+  },
+  "341": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "592, 593, 594",
+   "title": "Orochimaru's Return"
+  },
+  "342": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "594, 595, 596, 597",
+   "title": "The Secret of the Space–Time Ninjutsu (episode)"
+  },
+  "343": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "598, 599, 600",
+   "title": "Who Are You?"
+  },
+  "344": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "601, 602",
+   "title": "Obito and Madara (episode)"
+  },
+  "345": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "603, 604, 605",
+   "title": "I'm in Hell"
+  },
+  "346": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "606, 607",
+   "title": "World of Dreams"
+  },
+  "347": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "",
+   "title": "Creeping Shadow"
+  },
+  "348": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "",
+   "title": "The New Akatsuki"
+  },
+  "349": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "",
+   "title": "The Mask that Hides the Heart"
+  },
+  "350": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "607",
+   "title": "Minato's Death"
+  },
+  "351": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "624, 648",
+   "title": "Hashirama's Cells"
+  },
+  "352": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "",
+   "title": "The Rogue Ninja: Orochimaru"
+  },
+  "353": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "",
+   "title": "Orochimaru's Test Subject"
+  },
+  "354": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "",
+   "title": "Their Own Paths"
+  },
+  "355": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "",
+   "title": "The Targeted Sharingan"
+  },
+  "356": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "",
+   "title": "A Shinobi of the Leaf"
+  },
+  "357": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "",
+   "title": "An Uchiha Anbu"
+  },
+  "358": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "",
+   "title": "Coup d'État"
+  },
+  "359": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "",
+   "title": "The Night of the Tragedy"
+  },
+  "360": {
+   "arc": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "607",
+   "title": "Jōnin Leader"
+  },
+  "361": {
+   "arc": "Kakashi&#039;s Anbu Arc: The Shinobi That Lives in the Darkness",
+   "chapters": "",
+   "title": "Team 7 (episode)"
+  },
+  "362": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "607, 608, 609",
+   "title": "Kakashi's Resolve"
+  },
+  "363": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "610, 611, 612",
+   "title": "The Allied Shinobi Forces Technique"
+  },
+  "364": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "613, 614, 615",
+   "title": "The Ties That Bind"
+  },
+  "365": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "616, 617, 618",
+   "title": "The Invisible Dancers (episode)"
+  },
+  "366": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "619, 620, 621",
+   "title": "The All-Knowing"
+  },
+  "367": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "621, 622, 623",
+   "title": "Hashirama and Madara (episode)"
+  },
+  "368": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "623, 624, 625",
+   "title": "Warring States Period (episode)"
+  },
+  "369": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "625, 626, 648",
+   "title": "My True Dream"
+  },
+  "370": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "626, 627",
+   "title": "Sasuke's Answer (episode)"
+  },
+  "371": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "628, 629, 630",
+   "title": "Hole"
+  },
+  "372": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "630,631,632",
+   "title": "Something to Fill the Hole"
+  },
+  "373": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "632, 633",
+   "title": "Team 7, Assemble!"
+  },
+  "374": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "634, 635",
+   "title": "The New Three-Way Deadlock"
+  },
+  "375": {
+   "arc": "Fourth Shinobi World War: Climax",
+   "chapters": "635, 636, 637",
+   "title": "Kakashi vs. Obito"
+  },
+  "376": {
+   "arc": "",
+   "chapters": "",
+   "title": "The Directive to Take the Nine-Tails"
+  },
+  "377": {
+   "arc": "",
+   "chapters": "",
+   "title": "Naruto vs. Mecha-Naruto"
+  },
+  "378": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "638, 639, 640",
+   "title": "The Ten-Tails' Jinchūriki (episode)"
+  },
+  "379": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "641, 642",
+   "title": "An Opening"
+  },
+  "380": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "643, 644",
+   "title": "The Day Naruto Was Born"
+  },
+  "381": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "645, 646",
+   "title": "God Tree (episode)"
+  },
+  "382": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "647, 648",
+   "title": "A Shinobi's Dream"
+  },
+  "383": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "648, 649, 650",
+   "title": "Pursuing Hope"
+  },
+  "384": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "651, 652",
+   "title": "A Heart Filled With Comrades"
+  },
+  "385": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "653",
+   "title": "Obito Uchiha (episode)"
+  },
+  "386": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "653",
+   "title": "I'm Always Watching"
+  },
+  "387": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "654, 655",
+   "title": "The Promise That Was Kept"
+  },
+  "388": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "656",
+   "title": "My First Friend"
+  },
+  "389": {
+   "arc": "",
+   "chapters": "",
+   "title": "The Adored Elder Sister"
+  },
+  "390": {
+   "arc": "",
+   "chapters": "",
+   "title": "Hanabi's Decision"
+  },
+  "391": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "656, 657",
+   "title": "Madara Uchiha Arises"
+  },
+  "392": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "658, 659, 660",
+   "title": "The Hidden Heart (episode)"
+  },
+  "393": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "660, 661, 662",
+   "title": "A True Ending"
+  },
+  "394": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The New Chūnin Exams"
+  },
+  "395": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The Chūnin Exams Begin!"
+  },
+  "396": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The Three Questions"
+  },
+  "397": {
+   "arc": "In Naruto&#039;s Footsteps: The Friends&#039; Paths",
+   "chapters": "",
+   "title": "One Worthy as a Leader"
+  },
+  "398": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The Night Before the Second Exam"
+  },
+  "399": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "Demon Desert Survival"
+  },
+  "400": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "As a Taijutsu User"
+  },
+  "401": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The Ultimate"
+  },
+  "402": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "Escape vs. Pursuit"
+  },
+  "403": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "Unwavering Gutsiness"
+  },
+  "404": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "Tenten's Troubles"
+  },
+  "405": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The Imprisoned Pair"
+  },
+  "406": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The Place Where I Belong"
+  },
+  "407": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The Yamanaka Clan: Secret Ninjutsu"
+  },
+  "408": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The Cursed Puppet"
+  },
+  "409": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "Their Backs"
+  },
+  "410": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The Hidden Plot Set Into Motion"
+  },
+  "411": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "The Targeted Tailed Beast"
+  },
+  "412": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "Neji's Judgment"
+  },
+  "413": {
+   "arc": "In Naruto's Footsteps: The Friends' Paths",
+   "chapters": "",
+   "title": "Hopes Entrusted to the Future"
+  },
+  "414": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "663, 664",
+   "title": "On the Brink of Death"
+  },
+  "415": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "665, 666",
+   "title": "The Two Mangekyō"
+  },
+  "416": {
+   "arc": "Birth of the Ten-Tails&#039; Jinchūriki",
+   "chapters": "",
+   "title": "The Formation of Team Minato"
+  },
+  "417": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "666",
+   "title": "You'll Be My Backup"
+  },
+  "418": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "667, 668",
+   "title": "The Blue Beast vs. Six Paths Madara"
+  },
+  "419": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "668",
+   "title": "Papa's Youth"
+  },
+  "420": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "669, 670",
+   "title": "Eight Gates Released Formation (episode)"
+  },
+  "421": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "671, 672",
+   "title": "The Sage of Six Paths"
+  },
+  "422": {
+   "arc": "",
+   "chapters": "",
+   "title": "The Ones Who Will Inherit"
+  },
+  "423": {
+   "arc": "",
+   "chapters": "",
+   "title": "Naruto's Rival"
+  },
+  "424": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "673, 674",
+   "title": "To Rise Up"
+  },
+  "425": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "675, 676",
+   "title": "The Infinite Dream (episode)"
+  },
+  "426": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "677",
+   "title": "The Infinite Tsukuyomi"
+  },
+  "427": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "677",
+   "title": "To the Dreamworld"
+  },
+  "428": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "",
+   "title": "Where Tenten Belongs"
+  },
+  "429": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "678",
+   "title": "Killer B Rappūden: Part 1"
+  },
+  "430": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "",
+   "title": "Killer B Rappūden: Part 2"
+  },
+  "431": {
+   "arc": "Birth of the Ten-Tails' Jinchūriki",
+   "chapters": "",
+   "title": "To See That Smile, Just One More Time"
+  },
+  "432": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "The Loser Ninja"
+  },
+  "433": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "The Search Mission"
+  },
+  "434": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "Team Jiraiya (episode)"
+  },
+  "435": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "Order of Priority"
+  },
+  "436": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "The Masked Man"
+  },
+  "437": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "The Sealed Power"
+  },
+  "438": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "The Rules or a Comrade"
+  },
+  "439": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "The Child of Prophecy"
+  },
+  "440": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "The Caged Bird"
+  },
+  "441": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "Returning Home"
+  },
+  "442": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "The Mutual Path"
+  },
+  "443": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "The Difference in Power"
+  },
+  "444": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "Leaving the Village"
+  },
+  "445": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "Pursuers (episode)"
+  },
+  "446": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "Collision"
+  },
+  "447": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "Another Moon"
+  },
+  "448": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "Comrade"
+  },
+  "449": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "",
+   "title": "The Shinobi Unite"
+  },
+  "450": {
+   "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+   "chapters": "678",
+   "title": "Rival"
+  },
+  "451": {
+   "arc": "Kaguya Ōtsutsuki Strikes, Itachi Shinden Book: Light and Darkness,",
+   "chapters": "677, 678",
+   "title": "Birth and Death"
+  },
+  "452": {
+   "arc": "Itachi Shinden Book: Light and Darkness",
+   "chapters": "",
+   "title": "The Genius"
+  },
+  "453": {
+   "arc": "Itachi Shinden Book: Light and Darkness",
+   "chapters": "",
+   "title": "The Pain of Living"
+  },
+  "454": {
+   "arc": "Itachi Shinden Book: Light and Darkness",
+   "chapters": "",
+   "title": "Shisui's Request"
+  },
+  "455": {
+   "arc": "Kaguya Ōtsutsuki Strikes, Itachi Shinden Book: Light and Darkness",
+   "chapters": "678",
+   "title": "Moonlit Night"
+  },
+  "456": {
+   "arc": "Itachi Shinden Book: Light and Darkness",
+   "chapters": "",
+   "title": "The Darkness of the Akatsuki"
+  },
+  "457": {
+   "arc": "Itachi Shinden Book: Light and Darkness",
+   "chapters": "",
+   "title": "Partner"
+  },
+  "458": {
+   "arc": "Itachi Shinden Book: Light and Darkness,Kaguya Ōtsutsuki Strikes",
+   "chapters": "678, 679",
+   "title": "Truth (episode 458)"
+  },
+  "459": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "679, 680, 681",
+   "title": "She of the Beginning"
+  },
+  "460": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "681",
+   "title": "Kaguya Ōtsutsuki (episode)"
+  },
+  "461": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "681",
+   "title": "Hagoromo and Hamura"
+  },
+  "462": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "681",
+   "title": "A Fabricated Past"
+  },
+  "463": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "681, 682, 683",
+   "title": "The No. 1 Most Unpredictable Ninja"
+  },
+  "464": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "",
+   "title": "Ninshū: The Ninja Creed"
+  },
+  "465": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "",
+   "title": "Asura and Indra"
+  },
+  "466": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "",
+   "title": "The Tumultuous Journey"
+  },
+  "467": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "",
+   "title": "Asura's Decision"
+  },
+  "468": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "",
+   "title": "The Successor (episode)"
+  },
+  "469": {
+   "arc": "",
+   "chapters": "",
+   "title": "A Special Mission"
+  },
+  "470": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "684, 685",
+   "title": "Connecting Thoughts"
+  },
+  "471": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "686,",
+   "title": "The Two of Them… Always"
+  },
+  "472": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "687,",
+   "title": "You Better…"
+  },
+  "473": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "688, 689,",
+   "title": "The Sharingan Revived"
+  },
+  "474": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "690, 691",
+   "title": "Congratulations (episode)"
+  },
+  "475": {
+   "arc": "Kaguya Ōtsutsuki Strikes",
+   "chapters": "692, 693",
+   "title": "The Valley of the End (episode)"
+  },
+  "476": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "694, 695, 696",
+   "title": "The Final Battle"
+  },
+  "477": {
+   "arc": "Kaguya Ōtsutsuki Strikes,",
+   "chapters": "696, 697, 698",
+   "title": "Naruto and Sasuke"
+  },
+  "478": {
+   "arc": "Kaguya Ōtsutsuki Strikes",
+   "chapters": "698, 699",
+   "title": "The Unison Sign"
+  },
+  "479": {
+   "arc": "Kaguya Ōtsutsuki Strikes",
+   "chapters": "699, 700",
+   "title": "Naruto Uzumaki!! (episode)"
+  },
+  "480": {
+   "arc": "Childhood",
+   "chapters": "",
+   "title": "Naruto and Hinata"
+  },
+  "481": {
+   "arc": "Childhood,",
+   "chapters": "",
+   "title": "Sasuke and Sakura"
+  },
+  "482": {
+   "arc": "Childhood",
+   "chapters": "",
+   "title": "Gaara and Shikamaru"
+  },
+  "483": {
+   "arc": "Childhood,",
+   "chapters": "",
+   "title": "Jiraiya and Kakashi"
+  },
+  "484": {
+   "arc": "Sasuke Shinden: Book of Sunrise (Arc)",
+   "chapters": "",
+   "title": "The Exploding Human"
+  },
+  "485": {
+   "arc": "Sasuke Shinden: Book of Sunrise (Arc)",
+   "chapters": "",
+   "title": "Coliseum (episode)"
+  },
+  "486": {
+   "arc": "Sasuke Shinden: Book of Sunrise (Arc)",
+   "chapters": "",
+   "title": "Fūshin (episode)"
+  },
+  "487": {
+   "arc": "Sasuke Shinden: Book of Sunrise (Arc),",
+   "chapters": "",
+   "title": "The Ketsuryūgan"
+  },
+  "488": {
+   "arc": "Sasuke Shinden: Book of Sunrise (Arc),",
+   "chapters": "",
+   "title": "The Last One"
+  },
+  "489": {
+   "arc": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness (Arc),",
+   "chapters": "",
+   "title": "The State of Affairs"
+  },
+  "490": {
+   "arc": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness (Arc)",
+   "chapters": "",
+   "title": "Dark Clouds"
+  },
+  "491": {
+   "arc": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness (Arc),",
+   "chapters": "",
+   "title": "Recklessness"
+  },
+  "492": {
+   "arc": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness (Arc),",
+   "chapters": "",
+   "title": "Cloud of Suspicion"
+  },
+  "493": {
+   "arc": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness (Arc),",
+   "chapters": "",
+   "title": "Dawn"
+  },
+  "494": {
+   "arc": "Konoha Hiden: The Perfect Day for a Wedding (Arc)",
+   "chapters": "",
+   "title": "Naruto's Wedding"
+  },
+  "495": {
+   "arc": "Konoha Hiden: The Perfect Day for a Wedding (Arc)",
+   "chapters": "",
+   "title": "A Full-Powered Wedding Gift"
+  },
+  "496": {
+   "arc": "Konoha Hiden: The Perfect Day for a Wedding (Arc)",
+   "chapters": "",
+   "title": "Steam and Food Pills"
+  },
+  "497": {
+   "arc": "Konoha Hiden: The Perfect Day for a Wedding (Arc)",
+   "chapters": "",
+   "title": "The Kazekage's Wedding Gift"
+  },
+  "498": {
+   "arc": "Konoha Hiden: The Perfect Day for a Wedding (Arc),",
+   "chapters": "",
+   "title": "The Last Mission"
+  },
+  "499": {
+   "arc": "Konoha Hiden: The Perfect Day for a Wedding (Arc)",
+   "chapters": "",
+   "title": "The Outcome of the Secret Mission"
+  },
+  "500": {
+   "arc": "Konoha Hiden: The Perfect Day for a Wedding (Arc)",
+   "chapters": "",
+   "title": "The Message"
+  }
+ }
+}

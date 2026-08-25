@@ -1,0 +1,1404 @@
+{
+ "naruto": {
+  "filler": {
+   "1": "canon",
+   "2": "canon",
+   "3": "canon",
+   "4": "canon",
+   "5": "canon",
+   "6": "canon",
+   "7": "mixed",
+   "8": "canon",
+   "9": "mixed",
+   "10": "canon",
+   "11": "canon",
+   "12": "canon",
+   "13": "canon",
+   "14": "mixed",
+   "15": "mixed",
+   "16": "mixed",
+   "17": "canon",
+   "18": "mixed",
+   "19": "mixed",
+   "20": "mixed",
+   "21": "mixed",
+   "22": "canon",
+   "23": "mixed",
+   "24": "mixed",
+   "25": "canon",
+   "26": "filler",
+   "27": "mixed",
+   "28": "mixed",
+   "29": "mixed",
+   "30": "mixed",
+   "31": "canon",
+   "32": "canon",
+   "33": "canon",
+   "34": "canon",
+   "35": "canon",
+   "36": "canon",
+   "37": "mixed",
+   "38": "mixed",
+   "39": "mixed",
+   "40": "mixed",
+   "41": "mixed",
+   "42": "canon",
+   "43": "mixed",
+   "44": "mixed",
+   "45": "mixed",
+   "46": "mixed",
+   "47": "mixed",
+   "48": "canon",
+   "49": "mixed",
+   "50": "canon",
+   "51": "canon",
+   "52": "mixed",
+   "53": "mixed",
+   "54": "mixed",
+   "55": "mixed",
+   "56": "mixed",
+   "57": "mixed",
+   "58": "mixed",
+   "59": "mixed",
+   "60": "mixed",
+   "61": "canon",
+   "62": "canon",
+   "63": "mixed",
+   "64": "canon",
+   "65": "canon",
+   "66": "mixed",
+   "67": "canon",
+   "68": "canon",
+   "69": "mixed",
+   "70": "mixed",
+   "71": "mixed",
+   "72": "mixed",
+   "73": "canon",
+   "74": "mixed",
+   "75": "canon",
+   "76": "canon",
+   "77": "canon",
+   "78": "canon",
+   "79": "canon",
+   "80": "canon",
+   "81": "canon",
+   "82": "canon",
+   "83": "mixed",
+   "84": "canon",
+   "85": "canon",
+   "86": "canon",
+   "87": "canon",
+   "88": "canon",
+   "89": "canon",
+   "90": "canon",
+   "91": "canon",
+   "92": "canon",
+   "93": "canon",
+   "94": "canon",
+   "95": "canon",
+   "96": "canon",
+   "97": "filler",
+   "98": "mixed",
+   "99": "mixed",
+   "100": "mixed",
+   "101": "filler",
+   "102": "filler",
+   "103": "filler",
+   "104": "filler",
+   "105": "filler",
+   "106": "filler",
+   "107": "canon",
+   "108": "canon",
+   "109": "canon",
+   "110": "canon",
+   "111": "canon",
+   "112": "mixed",
+   "113": "mixed",
+   "114": "mixed",
+   "115": "canon",
+   "116": "canon",
+   "117": "canon",
+   "118": "canon",
+   "119": "canon",
+   "120": "canon",
+   "121": "canon",
+   "122": "canon",
+   "123": "canon",
+   "124": "canon",
+   "125": "canon",
+   "126": "mixed",
+   "127": "mixed",
+   "128": "canon",
+   "129": "canon",
+   "130": "mixed",
+   "131": "mixed",
+   "132": "canon",
+   "133": "canon",
+   "134": "canon",
+   "135": "canon",
+   "136": "filler",
+   "137": "filler",
+   "138": "filler",
+   "139": "filler",
+   "140": "filler",
+   "141": "mixed",
+   "142": "mixed",
+   "143": "filler",
+   "144": "filler",
+   "145": "filler",
+   "146": "filler",
+   "147": "filler",
+   "148": "filler",
+   "149": "filler",
+   "150": "filler",
+   "151": "filler",
+   "152": "filler",
+   "153": "filler",
+   "154": "filler",
+   "155": "filler",
+   "156": "filler",
+   "157": "filler",
+   "158": "filler",
+   "159": "filler",
+   "160": "filler",
+   "161": "filler",
+   "162": "filler",
+   "163": "filler",
+   "164": "filler",
+   "165": "filler",
+   "166": "filler",
+   "167": "filler",
+   "168": "filler",
+   "169": "filler",
+   "170": "filler",
+   "171": "filler",
+   "172": "filler",
+   "173": "filler",
+   "174": "filler",
+   "175": "filler",
+   "176": "filler",
+   "177": "filler",
+   "178": "filler",
+   "179": "filler",
+   "180": "filler",
+   "181": "filler",
+   "182": "filler",
+   "183": "filler",
+   "184": "filler",
+   "185": "filler",
+   "186": "filler",
+   "187": "filler",
+   "188": "filler",
+   "189": "filler",
+   "190": "filler",
+   "191": "filler",
+   "192": "filler",
+   "193": "filler",
+   "194": "filler",
+   "195": "filler",
+   "196": "filler",
+   "197": "filler",
+   "198": "filler",
+   "199": "filler",
+   "200": "filler",
+   "201": "filler",
+   "202": "filler",
+   "203": "filler",
+   "204": "filler",
+   "205": "filler",
+   "206": "filler",
+   "207": "filler",
+   "208": "filler",
+   "209": "filler",
+   "210": "filler",
+   "211": "filler",
+   "212": "filler",
+   "213": "filler",
+   "214": "filler",
+   "215": "filler",
+   "216": "filler",
+   "217": "filler",
+   "218": "filler",
+   "219": "filler",
+   "220": "mixed"
+  },
+  "seasons": [
+   {
+    "arcs": [
+     {
+      "arc": "Prologue",
+      "first": 1,
+      "last": 5
+     },
+     {
+      "arc": "Land of Waves Escort",
+      "first": 6,
+      "last": 19
+     },
+     {
+      "arc": "Chūnin Exams",
+      "first": 20,
+      "last": 35
+     }
+    ],
+    "episodes": 35,
+    "first": 1,
+    "last": 35,
+    "page": "Naruto season 1",
+    "season": 1
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Chūnin Exams",
+      "first": 36,
+      "last": 67
+     },
+     {
+      "arc": "Destruction of Leaf",
+      "first": 68,
+      "last": 80
+     },
+     {
+      "arc": "Search for Tsunade",
+      "first": 81,
+      "last": 83
+     }
+    ],
+    "episodes": 48,
+    "first": 36,
+    "last": 83,
+    "page": "Naruto season 2",
+    "season": 2
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Search for Tsunade",
+      "first": 84,
+      "last": 100
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 101,
+      "last": 101
+     },
+     {
+      "arc": "Land of Tea Escort",
+      "first": 102,
+      "last": 106
+     },
+     {
+      "arc": "Sasuke Retrieval",
+      "first": 107,
+      "last": 131
+     }
+    ],
+    "episodes": 48,
+    "first": 84,
+    "last": 131,
+    "page": "Naruto season 3",
+    "season": 3
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Sasuke Retrieval",
+      "first": 132,
+      "last": 135
+     },
+     {
+      "arc": "Land of Rice Fields Investigation",
+      "first": 136,
+      "last": 141
+     },
+     {
+      "arc": "Mizuki Tracking",
+      "first": 142,
+      "last": 147
+     },
+     {
+      "arc": "Bikōchū Search",
+      "first": 148,
+      "last": 151
+     },
+     {
+      "arc": "Kurosuki Family Removal",
+      "first": 152,
+      "last": 157
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 158,
+      "last": 158
+     },
+     {
+      "arc": "Gosunkugi Capture",
+      "first": 159,
+      "last": 160
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 161,
+      "last": 161
+     },
+     {
+      "arc": "Cursed Warrior Extermination",
+      "first": 162,
+      "last": 167
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 168,
+      "last": 168
+     },
+     {
+      "arc": "Kaima Capture",
+      "first": 169,
+      "last": 173
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 174,
+      "last": 174
+     },
+     {
+      "arc": "Buried Gold Excavation",
+      "first": 175,
+      "last": 176
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 177,
+      "last": 177
+     },
+     {
+      "arc": "Star Guard",
+      "first": 178,
+      "last": 179
+     }
+    ],
+    "episodes": 48,
+    "first": 132,
+    "last": 179,
+    "page": "Naruto season 4",
+    "season": 4
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Star Guard",
+      "first": 180,
+      "last": 183
+     },
+     {
+      "arc": "Standalone side stories",
+      "first": 184,
+      "last": 186
+     },
+     {
+      "arc": "Peddlers Escort",
+      "first": 187,
+      "last": 191
+     },
+     {
+      "arc": "Standalone side stories",
+      "first": 192,
+      "last": 194
+     },
+     {
+      "arc": "Third Super-Beast",
+      "first": 195,
+      "last": 196
+     },
+     {
+      "arc": "Recapture Plans of Leaf",
+      "first": 197,
+      "last": 201
+     },
+     {
+      "arc": "Battles recap special",
+      "first": 202,
+      "last": 202
+     },
+     {
+      "arc": "Yakumo Rescue",
+      "first": 203,
+      "last": 207
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 208,
+      "last": 208
+     },
+     {
+      "arc": "Gantetsu Escort",
+      "first": 209,
+      "last": 212
+     },
+     {
+      "arc": "Menma Memory Search",
+      "first": 213,
+      "last": 215
+     },
+     {
+      "arc": "Support of Sand",
+      "first": 216,
+      "last": 220
+     }
+    ],
+    "episodes": 41,
+    "first": 180,
+    "last": 220,
+    "page": "Naruto season 5",
+    "season": 5
+   }
+  ],
+  "total": 220
+ },
+ "shippuden": {
+  "filler": {
+   "1": "mixed",
+   "2": "mixed",
+   "3": "mixed",
+   "4": "mixed",
+   "5": "mixed",
+   "6": "mixed",
+   "7": "mixed",
+   "8": "mixed",
+   "9": "mixed",
+   "10": "mixed",
+   "11": "mixed",
+   "12": "mixed",
+   "13": "mixed",
+   "14": "mixed",
+   "15": "mixed",
+   "16": "mixed",
+   "17": "mixed",
+   "18": "mixed",
+   "19": "mixed",
+   "20": "canon",
+   "21": "canon",
+   "22": "canon",
+   "23": "canon",
+   "24": "mixed",
+   "25": "mixed",
+   "26": "canon",
+   "27": "canon",
+   "28": "anime-canon",
+   "29": "canon",
+   "30": "canon",
+   "31": "canon",
+   "32": "canon",
+   "33": "canon",
+   "34": "canon",
+   "35": "canon",
+   "36": "canon",
+   "37": "canon",
+   "38": "canon",
+   "39": "canon",
+   "40": "canon",
+   "41": "canon",
+   "42": "canon",
+   "43": "canon",
+   "44": "canon",
+   "45": "mixed",
+   "46": "canon",
+   "47": "canon",
+   "48": "canon",
+   "49": "mixed",
+   "50": "mixed",
+   "51": "canon",
+   "52": "canon",
+   "53": "canon",
+   "54": "mixed",
+   "55": "canon",
+   "56": "mixed",
+   "57": "filler",
+   "58": "filler",
+   "59": "filler",
+   "60": "filler",
+   "61": "filler",
+   "62": "filler",
+   "63": "filler",
+   "64": "filler",
+   "65": "filler",
+   "66": "filler",
+   "67": "filler",
+   "68": "filler",
+   "69": "filler",
+   "70": "filler",
+   "71": "filler",
+   "72": "canon",
+   "73": "canon",
+   "74": "canon",
+   "75": "canon",
+   "76": "canon",
+   "77": "canon",
+   "78": "canon",
+   "79": "canon",
+   "80": "canon",
+   "81": "canon",
+   "82": "canon",
+   "83": "canon",
+   "84": "canon",
+   "85": "canon",
+   "86": "canon",
+   "87": "canon",
+   "88": "canon",
+   "89": "mixed",
+   "90": "mixed",
+   "91": "filler",
+   "92": "filler",
+   "93": "filler",
+   "94": "filler",
+   "95": "filler",
+   "96": "filler",
+   "97": "filler",
+   "98": "filler",
+   "99": "filler",
+   "100": "filler",
+   "101": "filler",
+   "102": "filler",
+   "103": "filler",
+   "104": "filler",
+   "105": "filler",
+   "106": "filler",
+   "107": "filler",
+   "108": "filler",
+   "109": "filler",
+   "110": "filler",
+   "111": "filler",
+   "112": "filler",
+   "113": "mixed",
+   "114": "canon",
+   "115": "mixed",
+   "116": "canon",
+   "117": "canon",
+   "118": "canon",
+   "119": "canon",
+   "120": "canon",
+   "121": "canon",
+   "122": "canon",
+   "123": "canon",
+   "124": "canon",
+   "125": "canon",
+   "126": "canon",
+   "127": "mixed",
+   "128": "mixed",
+   "129": "canon",
+   "130": "canon",
+   "131": "canon",
+   "132": "canon",
+   "133": "canon",
+   "134": "canon",
+   "135": "canon",
+   "136": "canon",
+   "137": "canon",
+   "138": "canon",
+   "139": "canon",
+   "140": "canon",
+   "141": "canon",
+   "142": "canon",
+   "143": "canon",
+   "144": "filler",
+   "145": "filler",
+   "146": "filler",
+   "147": "filler",
+   "148": "filler",
+   "149": "filler",
+   "150": "filler",
+   "151": "filler",
+   "152": "canon",
+   "153": "canon",
+   "154": "canon",
+   "155": "canon",
+   "156": "canon",
+   "157": "canon",
+   "158": "canon",
+   "159": "canon",
+   "160": "canon",
+   "161": "canon",
+   "162": "canon",
+   "163": "canon",
+   "164": "canon",
+   "165": "canon",
+   "166": "canon",
+   "167": "canon",
+   "168": "canon",
+   "169": "canon",
+   "170": "filler",
+   "171": "filler",
+   "172": "canon",
+   "173": "canon",
+   "174": "canon",
+   "175": "canon",
+   "176": "filler",
+   "177": "filler",
+   "178": "filler",
+   "179": "filler",
+   "180": "filler",
+   "181": "filler",
+   "182": "filler",
+   "183": "filler",
+   "184": "filler",
+   "185": "filler",
+   "186": "filler",
+   "187": "filler",
+   "188": "filler",
+   "189": "filler",
+   "190": "filler",
+   "191": "filler",
+   "192": "filler",
+   "193": "filler",
+   "194": "filler",
+   "195": "filler",
+   "196": "filler",
+   "197": "canon",
+   "198": "canon",
+   "199": "canon",
+   "200": "canon",
+   "201": "canon",
+   "202": "canon",
+   "203": "canon",
+   "204": "canon",
+   "205": "canon",
+   "206": "canon",
+   "207": "canon",
+   "208": "canon",
+   "209": "canon",
+   "210": "canon",
+   "211": "canon",
+   "212": "canon",
+   "213": "mixed",
+   "214": "canon",
+   "215": "canon",
+   "216": "canon",
+   "217": "canon",
+   "218": "canon",
+   "219": "canon",
+   "220": "canon",
+   "221": "canon",
+   "222": "canon",
+   "223": "filler",
+   "224": "filler",
+   "225": "filler",
+   "226": "filler",
+   "227": "filler",
+   "228": "filler",
+   "229": "filler",
+   "230": "filler",
+   "231": "filler",
+   "232": "filler",
+   "233": "filler",
+   "234": "filler",
+   "235": "filler",
+   "236": "filler",
+   "237": "filler",
+   "238": "filler",
+   "239": "filler",
+   "240": "filler",
+   "241": "filler",
+   "242": "filler",
+   "243": "canon",
+   "244": "canon",
+   "245": "canon",
+   "246": "canon",
+   "247": "canon",
+   "248": "canon",
+   "249": "canon",
+   "250": "canon",
+   "251": "canon",
+   "252": "canon",
+   "253": "canon",
+   "254": "mixed",
+   "255": "canon",
+   "256": "canon",
+   "257": "filler",
+   "258": "filler",
+   "259": "filler",
+   "260": "filler",
+   "261": "canon",
+   "262": "canon",
+   "263": "canon",
+   "264": "canon",
+   "265": "canon",
+   "266": "canon",
+   "267": "canon",
+   "268": "canon",
+   "269": "canon",
+   "270": "canon",
+   "271": "filler",
+   "272": "canon",
+   "273": "canon",
+   "274": "canon",
+   "275": "canon",
+   "276": "canon",
+   "277": "canon",
+   "278": "canon",
+   "279": "filler",
+   "280": "filler",
+   "281": "filler",
+   "282": "canon",
+   "283": "canon",
+   "284": "filler",
+   "285": "filler",
+   "286": "filler",
+   "287": "filler",
+   "288": "filler",
+   "289": "filler",
+   "290": "filler",
+   "291": "filler",
+   "292": "filler",
+   "293": "filler",
+   "294": "filler",
+   "295": "filler",
+   "296": "mixed",
+   "297": "canon",
+   "298": "canon",
+   "299": "canon",
+   "300": "canon",
+   "301": "canon",
+   "302": "canon",
+   "303": "filler",
+   "304": "filler",
+   "305": "filler",
+   "306": "filler",
+   "307": "filler",
+   "308": "filler",
+   "309": "filler",
+   "310": "filler",
+   "311": "filler",
+   "312": "filler",
+   "313": "filler",
+   "314": "filler",
+   "315": "filler",
+   "316": "filler",
+   "317": "filler",
+   "318": "filler",
+   "319": "filler",
+   "320": "filler",
+   "321": "canon",
+   "322": "canon",
+   "323": "canon",
+   "324": "mixed",
+   "325": "canon",
+   "326": "canon",
+   "327": "mixed",
+   "328": "mixed",
+   "329": "canon",
+   "330": "mixed",
+   "331": "mixed",
+   "332": "canon",
+   "333": "canon",
+   "334": "canon",
+   "335": "canon",
+   "336": "canon",
+   "337": "canon",
+   "338": "mixed",
+   "339": "canon",
+   "340": "canon",
+   "341": "canon",
+   "342": "canon",
+   "343": "canon",
+   "344": "canon",
+   "345": "canon",
+   "346": "mixed",
+   "347": "filler",
+   "348": "filler",
+   "349": "filler",
+   "350": "filler",
+   "351": "filler",
+   "352": "filler",
+   "353": "filler",
+   "354": "filler",
+   "355": "filler",
+   "356": "filler",
+   "357": "filler",
+   "358": "filler",
+   "359": "filler",
+   "360": "filler",
+   "361": "filler",
+   "362": "mixed",
+   "363": "canon",
+   "364": "canon",
+   "365": "canon",
+   "366": "canon",
+   "367": "canon",
+   "368": "canon",
+   "369": "canon",
+   "370": "canon",
+   "371": "canon",
+   "372": "canon",
+   "373": "canon",
+   "374": "canon",
+   "375": "canon",
+   "376": "filler",
+   "377": "filler",
+   "378": "canon",
+   "379": "canon",
+   "380": "canon",
+   "381": "canon",
+   "382": "canon",
+   "383": "canon",
+   "384": "canon",
+   "385": "mixed",
+   "386": "mixed",
+   "387": "canon",
+   "388": "filler",
+   "389": "filler",
+   "390": "filler",
+   "391": "canon",
+   "392": "canon",
+   "393": "canon",
+   "394": "filler",
+   "395": "filler",
+   "396": "filler",
+   "397": "filler",
+   "398": "filler",
+   "399": "filler",
+   "400": "filler",
+   "401": "filler",
+   "402": "filler",
+   "403": "filler",
+   "404": "filler",
+   "405": "filler",
+   "406": "filler",
+   "407": "filler",
+   "408": "filler",
+   "409": "filler",
+   "410": "filler",
+   "411": "filler",
+   "412": "filler",
+   "413": "filler",
+   "414": "canon",
+   "415": "mixed",
+   "416": "filler",
+   "417": "filler",
+   "418": "canon",
+   "419": "mixed",
+   "420": "canon",
+   "421": "canon",
+   "422": "filler",
+   "423": "filler",
+   "424": "canon",
+   "425": "canon",
+   "426": "mixed",
+   "427": "filler",
+   "428": "filler",
+   "429": "filler",
+   "430": "filler",
+   "431": "filler",
+   "432": "filler",
+   "433": "filler",
+   "434": "filler",
+   "435": "filler",
+   "436": "filler",
+   "437": "filler",
+   "438": "filler",
+   "439": "filler",
+   "440": "filler",
+   "441": "filler",
+   "442": "filler",
+   "443": "filler",
+   "444": "filler",
+   "445": "filler",
+   "446": "filler",
+   "447": "filler",
+   "448": "filler",
+   "449": "filler",
+   "450": "filler",
+   "451": "mixed",
+   "452": "mixed",
+   "453": "mixed",
+   "454": "mixed",
+   "455": "mixed",
+   "456": "mixed",
+   "457": "mixed",
+   "458": "mixed",
+   "459": "canon",
+   "460": "mixed",
+   "461": "mixed",
+   "462": "mixed",
+   "463": "canon",
+   "464": "filler",
+   "465": "filler",
+   "466": "filler",
+   "467": "filler",
+   "468": "filler",
+   "469": "mixed",
+   "470": "canon",
+   "471": "mixed",
+   "472": "mixed",
+   "473": "canon",
+   "474": "canon",
+   "475": "canon",
+   "476": "canon",
+   "477": "canon",
+   "478": "mixed",
+   "479": "mixed",
+   "480": "filler",
+   "481": "filler",
+   "482": "filler",
+   "483": "filler",
+   "484": "canon",
+   "485": "canon",
+   "486": "canon",
+   "487": "canon",
+   "488": "canon",
+   "489": "canon",
+   "490": "canon",
+   "491": "canon",
+   "492": "canon",
+   "493": "canon",
+   "494": "canon",
+   "495": "canon",
+   "496": "canon",
+   "497": "canon",
+   "498": "canon",
+   "499": "canon",
+   "500": "canon"
+  },
+  "seasons": [
+   {
+    "arcs": [
+     {
+      "arc": "Kazekage Rescue",
+      "first": 1,
+      "last": 32
+     }
+    ],
+    "episodes": 32,
+    "first": 1,
+    "last": 32,
+    "page": "Naruto: Shippuden season 1",
+    "season": 1
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Long-Awaited Reunion",
+      "first": 33,
+      "last": 53
+     }
+    ],
+    "episodes": 21,
+    "first": 33,
+    "last": 53,
+    "page": "Naruto: Shippuden season 2",
+    "season": 2
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Twelve Guardian Ninja",
+      "first": 54,
+      "last": 71
+     }
+    ],
+    "episodes": 18,
+    "first": 54,
+    "last": 71,
+    "page": "Naruto: Shippuden season 3",
+    "season": 3
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Immortal Devastators — Hidan and Kakuzu",
+      "first": 72,
+      "last": 88
+     }
+    ],
+    "episodes": 17,
+    "first": 72,
+    "last": 88,
+    "page": "Naruto: Shippuden season 4",
+    "season": 4
+   },
+   {
+    "arcs": [
+     {
+      "arc": "The Three-Tailed Demon Turtle",
+      "first": 89,
+      "last": 112
+     }
+    ],
+    "episodes": 24,
+    "first": 89,
+    "last": 112,
+    "page": "Naruto: Shippuden season 5",
+    "season": 5
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Master's Prophecy and Vengeance",
+      "first": 113,
+      "last": 118
+     },
+     {
+      "arc": "Kakashi Chronicles: Boys' Life on the Battlefield",
+      "first": 119,
+      "last": 120
+     },
+     {
+      "arc": "Master's Prophecy and Vengeance",
+      "first": 121,
+      "last": 126
+     },
+     {
+      "arc": "Tales of a Gutsy Ninja ~Jiraiya Ninja Scroll",
+      "first": 127,
+      "last": 128
+     },
+     {
+      "arc": "Master's Prophecy and Vengeance",
+      "first": 129,
+      "last": 143
+     }
+    ],
+    "episodes": 31,
+    "first": 113,
+    "last": 143,
+    "page": "Naruto: Shippuden season 6",
+    "season": 6
+   },
+   {
+    "arcs": [
+     {
+      "arc": "The Six-Tailed Demon Slug",
+      "first": 144,
+      "last": 151
+     }
+    ],
+    "episodes": 8,
+    "first": 144,
+    "last": 151,
+    "page": "Naruto: Shippuden season 7",
+    "season": 7
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Two Saviors",
+      "first": 152,
+      "last": 169
+     },
+     {
+      "arc": "Big Adventure! The Quest for the Fourth Hokage's Legacy",
+      "first": 170,
+      "last": 171
+     },
+     {
+      "arc": "Two Saviors",
+      "first": 172,
+      "last": 175
+     }
+    ],
+    "episodes": 24,
+    "first": 152,
+    "last": 175,
+    "page": "Naruto: Shippuden season 8",
+    "season": 8
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Past Arc: The Locus of Konoha",
+      "first": 176,
+      "last": 196
+     }
+    ],
+    "episodes": 21,
+    "first": 176,
+    "last": 196,
+    "page": "Naruto: Shippuden season 9",
+    "season": 9
+   },
+   {
+    "arcs": [
+     {
+      "arc": "The Gathering of the Five Kage",
+      "first": 197,
+      "last": 221
+     }
+    ],
+    "episodes": 25,
+    "first": 197,
+    "last": 221,
+    "page": "Naruto: Shippuden season 10",
+    "season": 10
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Paradise Life on a Boat",
+      "first": 222,
+      "last": 242
+     }
+    ],
+    "episodes": 21,
+    "first": 222,
+    "last": 242,
+    "page": "Naruto: Shippuden season 11",
+    "season": 11
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Nine-Tails Taming and Karmic Encounters",
+      "first": 243,
+      "last": 256
+     },
+     {
+      "arc": "Recap: Two Fates",
+      "first": 257,
+      "last": 260
+     },
+     {
+      "arc": "Nine-Tails Taming and Karmic Encounters",
+      "first": 261,
+      "last": 270
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 271,
+      "last": 271
+     },
+     {
+      "arc": "Nine-Tails Taming and Karmic Encounters",
+      "first": 272,
+      "last": 275
+     }
+    ],
+    "episodes": 33,
+    "first": 243,
+    "last": 275,
+    "page": "Naruto: Shippuden season 12",
+    "season": 12
+   },
+   {
+    "arcs": [
+     {
+      "arc": "The Seven Shinobi Swordsmen",
+      "first": 276,
+      "last": 289
+     },
+     {
+      "arc": "Power",
+      "first": 290,
+      "last": 295
+     }
+    ],
+    "episodes": 20,
+    "first": 276,
+    "last": 295,
+    "page": "Naruto: Shippuden season 13",
+    "season": 13
+   },
+   {
+    "arcs": [
+     {
+      "arc": "The Fourth Great Ninja War: Assailants From Afar",
+      "first": 296,
+      "last": 310
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 311,
+      "last": 311
+     },
+     {
+      "arc": "The Fourth Great Ninja War: Assailants From Afar",
+      "first": 312,
+      "last": 320
+     }
+    ],
+    "episodes": 25,
+    "first": 296,
+    "last": 320,
+    "page": "Naruto: Shippuden season 14",
+    "season": 14
+   },
+   {
+    "arcs": [
+     {
+      "arc": "The Fourth Great Ninja War: Sasuke and Itachi",
+      "first": 321,
+      "last": 348
+     }
+    ],
+    "episodes": 28,
+    "first": 321,
+    "last": 348,
+    "page": "Naruto: Shippuden season 15",
+    "season": 15
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Kakashi: Shadow of the ANBU Black Ops",
+      "first": 349,
+      "last": 361
+     }
+    ],
+    "episodes": 13,
+    "first": 349,
+    "last": 361,
+    "page": "Naruto: Shippuden season 16",
+    "season": 16
+   },
+   {
+    "arcs": [
+     {
+      "arc": "The Fourth Great Ninja War: The Return of Team 7",
+      "first": 362,
+      "last": 372
+     }
+    ],
+    "episodes": 11,
+    "first": 362,
+    "last": 372,
+    "page": "Naruto: Shippuden season 17",
+    "season": 17
+   },
+   {
+    "arcs": [
+     {
+      "arc": "The Fourth Great Ninja War: Obito Uchiha",
+      "first": 373,
+      "last": 375
+     },
+     {
+      "arc": "Extra edition",
+      "first": 376,
+      "last": 377
+     },
+     {
+      "arc": "The Fourth Great Ninja War: Obito Uchiha",
+      "first": 378,
+      "last": 388
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 389,
+      "last": 390
+     },
+     {
+      "arc": "The Fourth Great Ninja War: Obito Uchiha",
+      "first": 391,
+      "last": 393
+     }
+    ],
+    "episodes": 21,
+    "first": 373,
+    "last": 393,
+    "page": "Naruto: Shippuden season 18",
+    "season": 18
+   },
+   {
+    "arcs": [
+     {
+      "arc": "In Naruto's Footsteps: Friends' Paths",
+      "first": 394,
+      "last": 413
+     }
+    ],
+    "episodes": 20,
+    "first": 394,
+    "last": 413,
+    "page": "Naruto: Shippuden season 19",
+    "season": 19
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Infinite Tsukuyomi: The Invocation",
+      "first": 414,
+      "last": 421
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 422,
+      "last": 423
+     },
+     {
+      "arc": "Infinite Tsukuyomi: The Invocation",
+      "first": 424,
+      "last": 431
+     },
+     {
+      "arc": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+      "first": 432,
+      "last": 450
+     },
+     {
+      "arc": "Itachi Shinden: Book of Light and Darkness",
+      "first": 451,
+      "last": 458
+     }
+    ],
+    "episodes": 45,
+    "first": 414,
+    "last": 458,
+    "page": "Naruto: Shippuden season 20",
+    "season": 20
+   },
+   {
+    "arcs": [
+     {
+      "arc": "The Origins of Ninshū: The Two Souls, Indra and Ashura",
+      "first": 459,
+      "last": 468
+     },
+     {
+      "arc": "Standalone side story",
+      "first": 469,
+      "last": 469
+     },
+     {
+      "arc": "The Chapter of Naruto and Sasuke",
+      "first": 470,
+      "last": 479
+     }
+    ],
+    "episodes": 21,
+    "first": 459,
+    "last": 479,
+    "page": "Naruto: Shippuden season 21",
+    "season": 21
+   },
+   {
+    "arcs": [
+     {
+      "arc": "Nostalgic Days",
+      "first": 480,
+      "last": 483
+     },
+     {
+      "arc": "Sasuke Shinden: Book of Sunrise",
+      "first": 484,
+      "last": 488
+     },
+     {
+      "arc": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness",
+      "first": 489,
+      "last": 493
+     },
+     {
+      "arc": "Konoha Hiden: The Perfect Day for a Wedding",
+      "first": 494,
+      "last": 500
+     }
+    ],
+    "episodes": 21,
+    "first": 480,
+    "last": 500,
+    "page": "Naruto: Shippuden season 22",
+    "season": 22
+   }
+  ],
+  "total": 500
+ }
+}
