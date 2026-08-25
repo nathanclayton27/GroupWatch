@@ -1944,6 +1944,26 @@ let MANIFEST = [
     "total": 86
   },
   {
+    "slug": "black-mirror",
+    "media": [
+      "tv"
+    ],
+    "title": "Black Mirror",
+    "subtitle": "every episode, plus Bandersnatch",
+    "kind": "tv",
+    "year": "2011–2025",
+    "popularity": 80,
+    "blurb": "All 33 episodes and Bandersnatch, in broadcast order and weighted by runtime. Nothing connects them — start anywhere.",
+    "accent": "#101560",
+    "accentDark": "#C6B4FE",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 34,
+    "random": true
+  },
+  {
     "slug": "nolan",
     "media": [
       "movies"
@@ -4090,7 +4110,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '95ed69c3eb99';
+const BUILD = 'e3dd7eb796ac';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

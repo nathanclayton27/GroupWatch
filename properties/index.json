@@ -560,6 +560,26 @@
     "total": 86
   },
   {
+    "slug": "black-mirror",
+    "media": [
+      "tv"
+    ],
+    "title": "Black Mirror",
+    "subtitle": "every episode, plus Bandersnatch",
+    "kind": "tv",
+    "year": "2011–2025",
+    "popularity": 80,
+    "blurb": "All 33 episodes and Bandersnatch, in broadcast order and weighted by runtime. Nothing connects them — start anywhere.",
+    "accent": "#101560",
+    "accentDark": "#C6B4FE",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 34,
+    "random": true
+  },
+  {
     "slug": "nolan",
     "media": [
       "movies"
