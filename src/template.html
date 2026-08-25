@@ -997,8 +997,8 @@ footer a{color:var(--steel)}
         six characters when you want company.</span></div>
       <div class="pbeat"><b>Schedules that pace you</b><span>Weekly shows,
         finish dates, on-pace and behind at a glance.</span></div>
-      <div class="pbeat"><b>One tick, everywhere</b><span>Finish a film on one
-        list and every list that holds it knows.</span></div>
+      <div class="pbeat"><b>One tick, many lists</b><span>Finish a film or a game
+        and the other lists that agree on its year tick with it.</span></div>
     </div>
     <div class="pctas">
       <button class="pcta p" id="b-pitchin" type="button">Sign in — it's one email</button>
@@ -1081,8 +1081,8 @@ footer a{color:var(--steel)}
         <button id="b-fshare" type="button">Share link</button>
       </div>
       <div class="acap">anyone who enters this code sends you a request, and it
-        waits under Friends until you <b>accept or decline</b> it. Nothing of
-        yours is visible to them before you accept.
+        waits under <b>friend requests</b> above until you accept or decline it.
+        Nothing of yours is visible to them before you accept.
         <button class="aquiet" id="b-fnew" type="button">regenerate code</button>
         kills every link you’ve ever sent.</div>
       <div class="afrow" style="margin-top:13px">
@@ -1090,7 +1090,7 @@ footer a{color:var(--steel)}
                aria-label="Enter a friend’s code" maxlength="8">
         <button id="b-fadd" type="button">Add</button>
       </div>
-      <div class="acap">this sends them a request — you are linked once they accept it</div>
+      <div class="acap">this sends them a request — you are linked once they accept it.</div>
     </div>
 
     <!-- friend privacy (CLU-118): friends could read every shelf and there was
@@ -1103,9 +1103,9 @@ footer a{color:var(--steel)}
       <div class="atog"><input type="checkbox" id="a-share"
              aria-label="Friends can see my progress">
         <label class="t" for="a-share"><b>Friends can see my progress</b>
-          <span>your shelves show on the friends page of anyone you are mutual
-            friends with. Off, they see your name and nothing under it — and
-            you stay friends.</span></label></div>
+          <span>your progress shows on the friends page of anyone you are mutual
+            friends with. Off, they see your name and no progress under it. Your
+            thumbs and your clubs still show, and you stay friends.</span></label></div>
       <div class="atog"><input type="checkbox" id="a-showticks"
              aria-label="Show my ticks to friends">
         <label class="t" for="a-showticks"><b>Show my ticks to friends</b>
@@ -1151,8 +1151,8 @@ footer a{color:var(--steel)}
         <a class="abtn" id="a-xlink" href="?home">Your shelf</a></div>
       <div class="arow">
         <span class="aval"><b>Download my data</b><br>
-          <span class="acap" style="margin:0">one JSON: every list, every tick,
-            the log behind Lately, and your favourites</span></span>
+          <span class="acap" style="margin:0">one JSON from this browser: every
+            list, every tick, your starred lists and the raw tick log.</span></span>
         <button id="b-dl" type="button">Download</button></div>
       <!-- where writeText is refused, copied text lands here to be selected -->
       <input type="text" id="a-clip" class="hide" readonly spellcheck="false"
@@ -1224,7 +1224,7 @@ footer a{color:var(--steel)}
                aria-label="Enter a friend’s code" maxlength="8">
         <button id="fp-add" type="button">Add</button>
       </div>
-      <div class="acap">this sends them a request — you are linked once they accept it</div>
+      <div class="acap">this sends them a request — you are linked once they accept it.</div>
     </div>
 
     <div class="acard hide" id="fp-clubcard">
@@ -1300,7 +1300,7 @@ footer a{color:var(--steel)}
     <h3>Sign in to sync across devices</h3>
     <!-- ?account arriving signed out fills this in: the panel is the page -->
     <p id="signctx" class="hide" style="color:var(--ink)"></p>
-    <p>Enter your email and you'll get a sign-in link — no password to make up or remember. Anything you've already ticked on this device gets folded into your account the first time you sign in.</p>
+    <p>Enter your email and you’ll get a sign-in link — no password to make up or remember. Ticks you’ve already made on this device get folded into your account the next time you open each list.</p>
     <div class="row">
       <input type="email" id="email" placeholder="you@example.com" autocomplete="email" style="width:240px">
       <button id="b-link">Email me a link</button>
@@ -2682,7 +2682,11 @@ function paintHiddenList(){
         + '<button class="aquiet" data-unhide="' + esc(s) + '">show again</button>'
         + '</div>').join('')
     : '<div class="arow"><span class="aval" style="color:var(--ink-3)">'
-      + 'nothing hidden — every list you keep shows to friends</span></div>';
+      + (PRIV.share
+          ? 'nothing hidden — every list you keep shows to friends'
+          : 'nothing hidden — but friends see no progress at all while the'
+            + ' switch above is off')
+      + '</span></div>';
   host.querySelectorAll('button[data-unhide]').forEach(b=>{
     b.onclick = async ()=>{
       const slug = b.dataset.unhide;
@@ -2694,7 +2698,10 @@ function paintHiddenList(){
         return;
       }
       paintHiddenList();
-      flash(titleOf(slug) + ' shows to friends again.', 'a-privmsg');
+      flash(titleOf(slug) + (PRIV && PRIV.share
+        ? ' shows to friends again.'
+        : ' is unhidden — friends still see nothing while the switch above is'
+          + ' off.'), 'a-privmsg');
     };
   });
 }
@@ -2718,7 +2725,7 @@ async function paintPrivacy(){
     act.checked = p.share && p.activity;
     act.disabled = !p.share;
     $('a-showticks-h').textContent = p.share
-      ? 'friends’ ticks reach the activity feed with CLU-70. This is your'
+      ? 'your ticks will show in the activity feed once it lands. This is your'
         + ' answer, banked before the feature arrives rather than after it.'
       : 'nothing to show while friends cannot see your progress at all.';
     paintHiddenList();
@@ -2727,8 +2734,9 @@ async function paintPrivacy(){
     panel.classList.remove('hide');
     $('p-hide').checked = p.hidden.has(SLUG);
     $('p-hide-h').textContent = p.share
-      ? 'friends see this list on their friends page. Hidden, it is gone from'
-        + ' their view and your other lists stay. Your clubs are untouched.'
+      ? 'friends see this list on their friends page. Hidden, your progress on'
+        + ' it is gone from their view and your other lists stay. Your thumbs'
+        + ' and your clubs are untouched.'
       : 'friends cannot see any of your progress right now — the switch on your'
         + ' account page is off, so this one changes nothing today.';
   }
@@ -2774,10 +2782,17 @@ $('p-hide').onchange = async e=>{
           'privmsg');
     return;
   }
+  // "gone from every friend's view" was an overclaim: hidden_slugs is read only
+  // by friend_may_read, and only the progress policy calls it. The thumbs policy
+  // has no privacy term, so a mutual friend still sees your thumbs here, by name.
+  // Say what is actually hidden until the policy catches up (CLU-186).
   flash(want
-    ? 'Hidden. ' + titleOf(SLUG) + ' is gone from every friend’s view — your'
-      + ' clubs still show your layer.'
-    : titleOf(SLUG) + ' shows to friends again.', 'privmsg');
+    ? 'Hidden. Your progress on ' + titleOf(SLUG) + ' is gone from every'
+      + ' friend’s shelf — your thumbs and your clubs still show.'
+    : titleOf(SLUG) + (PRIV && PRIV.share
+        ? ' shows to friends again.'
+        : ' is unhidden — friends still see nothing while the switch on your'
+          + ' account page is off.'), 'privmsg');
 };
 
 // No 0/O and no 1/I: this code gets read down a phone and typed in by hand.
@@ -3289,8 +3304,12 @@ async function unFriend(id, name){
 async function declineFriend(id, name){
   const del = await sb.from('friendships').delete()
     .eq('a', id).eq('b', user.id).select();
+  // Never name the ticket, and never tell someone their way out of a request
+  // they just declined is to accept it. Leaving it sitting IS private —
+  // nothing of theirs is visible to them while it is pending.
   if(del.error || !(del.data || []).length)
-    return { err: 'Decline needs one more line of setup (CLU-102) — Accept works meanwhile.' };
+    return { err: 'Decline is not ready yet — leave the request sitting and'
+                  + ' they still see nothing of yours.' };
   return { name };
 }
 // The inbox rule: zero requests, zero pixels — on home and account alike.
@@ -5215,7 +5234,12 @@ function filterMenu(q){
         : '<div class="pnone">Star a list and it lives here.</div>')
       + '<button class="prow" id="p-wall">'
       + '<span class="pm-t"><span class="pm-n">The catalogue</span></span>'
-      + '<span class="pm-m">all ' + list.length + ' lists, on the wall</span>'
+      // `list` is menuList(), which shows the gated list to anyone signed in —
+      // the wall is splashList(), which needs it actually unlocked. Counting
+      // the menu here made this row say 142 while the wall's own tally and the
+      // fold button both said 141.
+      + '<span class="pm-m">all ' + splashList().length
+      + ' lists in the catalogue</span>'
       + '</button>';
   }else if(!hits.length){
     html = '<div class="pnone">Nothing matches “'+esc(q.trim())+'”</div>';
@@ -5629,7 +5653,13 @@ function homeStats(){
 }
 function whyOf(s){
   const bits = [];
-  if(s.m.scheduled) bits.push('on schedule');
+  // `scheduled` is a build-time flag meaning "this list HAS a schedule" — it
+  // knows nothing about the reader. Calling that "on schedule" borrowed the
+  // site's own pace vocabulary (beside "on pace" / "N behind" / "N overdue")
+  // and erred in the reassuring direction: someone two episodes down saw
+  // "on schedule" here and "2 overdue" on the list itself. Home does not run
+  // the window maths, so it says what it actually knows.
+  if(s.m.scheduled) bits.push('weekly');
   if(s.today) bits.push('ticked '+s.today+' today');
   else if(s.last){
     const d = Math.floor((Date.now() - s.last) / 864e5);
@@ -5953,8 +5983,13 @@ function recScore(d, TH, F, kin){
     }
     if(also){
       score += Math.min(6, 3 * also);
+      // the +1 is the candidate's OWN list, and candidates come from the whole
+      // catalogue rather than only lists you track (MEMBERSHIP IS NOT THE
+      // FILTER, above) — so it only counts when you actually track this one.
+      // The sibling bonus below is already guarded the same way.
       lines.push([Math.min(6, 3 * also),
-                  'unticked on ' + recNum(also + 1) + " lists you're in"]);
+                  'unticked on ' + recNum(also + (c.n > 0 ? 1 : 0))
+                  + " lists you're in"]);
     }
     const fl = F ? (F.lists[slug] || []) : [];
     if(fl.length){
