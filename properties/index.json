@@ -290,6 +290,25 @@
     "total": 971
   },
   {
+    "slug": "avatar",
+    "media": [
+      "tv"
+    ],
+    "title": "Avatar: The Last Airbender",
+    "subtitle": "with The Legend of Korra",
+    "kind": "animated series",
+    "year": "2005–2014",
+    "popularity": 85,
+    "blurb": "All 113 episodes of both series in air order — 61 chapters of The Last Airbender, then Korra's 52.",
+    "accent": "#2B3F73",
+    "accentDark": "#5FD3D9",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 113
+  },
+  {
     "slug": "middle-earth",
     "media": [
       "books",
