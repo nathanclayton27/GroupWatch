@@ -1,0 +1,157 @@
+{
+  "slug": "wes-anderson",
+  "title": "Wes Anderson",
+  "subtitle": "the directed features",
+  "kind": "films",
+  "popularity": 68,
+  "year": "1996–2025",
+  "blurb": "Thirteen features in release order, Bottle Rocket to The Phoenician Scheme — about 21 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#9F6066",
+  "accentDark": "#C69FA3",
+  "tiers": false,
+  "notes": [
+    [
+      "Thirteen features, and one of them is a compilation.",
+      "The Wonderful Story of Henry Sugar and Three More is the four Roald Dahl shorts he made for Netflix in 2023, put out together as one film in 2024. The filmography lists it among the features, so it is here among the features."
+    ],
+    [
+      "No shorts section, and here is the arithmetic.",
+      "Three of the ten shorts in the filmography's own table cannot be weighted from the one runtime source — Do You Like to Read? and Asteroid City: Location Featurette have no Wikidata item, and Castello Cavalcanti's carries no runtime — and an unweighted row in a weighted list is silently counted as an hour. Four of the seven that can be weighted are the Dahl quartet, already here as the 2024 feature, so listing them again would count the same 88 minutes twice. That leaves Hotel Chevalier, the 1993 Bottle Rocket short and Cousin Ben Troop Screening: three of ten, which is a subset rather than the shorts."
+    ],
+    [
+      "Directing only.",
+      "The Squid and the Whale, which he produced, and She's Funny That Way, Escapes and Uncropped, which he executive produced, are other people's films. So are the commercials — American Express, Softbank, Stella Artois, Sony Xperia, Prada, H&M and two for Montblanc — and the one music video."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "From Wikidata's P2047 for all thirteen, in hours, each gated on a release year within a year of the filmography's. The 2024 compilation has no runtime of its own and takes the sum of the four parts its own Wikidata item names. The Phoenician Scheme's item carries a deprecated 120 beside a live 105; deprecated is the source saying the value is wrong, so 105 is what ships."
+    ],
+    "Filmography from Wikipedia's Wes Anderson filmography, read from the table itself; runtimes from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "wilson",
+      "title": "Written with Owen Wilson",
+      "sub": "1996–2001 · 3 films · 5 hours",
+      "intro": "The three features Anderson and Owen Wilson wrote together: a debut for Columbia, expanded from a short of their own, then two for Touchstone. No Anderson screenplay after these carries Wilson's name.",
+      "items": [
+        {
+          "id": "wa-1996-bottle-rocket",
+          "t": "Bottle Rocket",
+          "n": "1996",
+          "w": 1.47,
+          "note": "Expanded from his own short film of the same name"
+        },
+        {
+          "id": "wa-1998-rushmore",
+          "t": "Rushmore",
+          "n": "1998",
+          "w": 1.55
+        },
+        {
+          "id": "wa-2001-the-royal-tenenbaums",
+          "t": "The Royal Tenenbaums",
+          "n": "2001",
+          "w": 1.8
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "cowriters",
+      "title": "New co-writers, and the first puppets",
+      "sub": "2004–2012 · 4 films · 7 hours",
+      "intro": "Four films and three new names on the screenplay: Noah Baumbach on two, Roman Coppola on two, Jason Schwartzman beside Coppola on one of those. Fantastic Mr. Fox is the first of his two stop-motion features and the first of his two Roald Dahl adaptations.",
+      "items": [
+        {
+          "id": "wa-2004-the-life-aquatic-with-steve-zissou",
+          "t": "The Life Aquatic with Steve Zissou",
+          "n": "2004",
+          "w": 1.98
+        },
+        {
+          "id": "wa-2007-the-darjeeling-limited",
+          "t": "The Darjeeling Limited",
+          "n": "2007",
+          "w": 1.52
+        },
+        {
+          "id": "wa-2009-fantastic-mr-fox",
+          "t": "Fantastic Mr. Fox",
+          "n": "2009",
+          "w": 1.45,
+          "note": "Stop-motion animation · from the Roald Dahl novel"
+        },
+        {
+          "id": "wa-2012-moonrise-kingdom",
+          "t": "Moonrise Kingdom",
+          "n": "2012",
+          "w": 1.58
+        }
+      ]
+    },
+    {
+      "id": "searchlight",
+      "title": "Sole screenplay, and Searchlight",
+      "sub": "2014–2021 · 3 films · 5 hours",
+      "intro": "From The Grand Budapest Hotel on, the screenplay credit is his alone over a story credit shared with Hugo Guinness, Roman Coppola, Jason Schwartzman and Kunichi Nomura in turn. All three of these went out through Searchlight, and Isle of Dogs is the second of the two stop-motion features.",
+      "items": [
+        {
+          "id": "wa-2014-the-grand-budapest-hotel",
+          "t": "The Grand Budapest Hotel",
+          "n": "2014",
+          "w": 1.65
+        },
+        {
+          "id": "wa-2018-isle-of-dogs",
+          "t": "Isle of Dogs",
+          "n": "2018",
+          "w": 1.68,
+          "note": "Stop-motion animation"
+        },
+        {
+          "id": "wa-2021-the-french-dispatch",
+          "t": "The French Dispatch",
+          "n": "2021",
+          "w": 1.8
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "title": "Focus, and a Netflix detour",
+      "sub": "2023–2025 · 3 films · 5 hours",
+      "intro": "Asteroid City and The Phoenician Scheme went out through Focus Features. Between them sits the odd one on the filmography: four shorts made for Netflix out of Roald Dahl, released together as a single feature.",
+      "items": [
+        {
+          "id": "wa-2023-asteroid-city",
+          "t": "Asteroid City",
+          "n": "2023",
+          "w": 1.75
+        },
+        {
+          "id": "wa-2024-the-wonderful-story-of-henry-sugar-and-three-more",
+          "t": "The Wonderful Story of Henry Sugar and Three More",
+          "n": "2024",
+          "w": 1.47,
+          "note": "The four 2023 Roald Dahl shorts, released together as one film"
+        },
+        {
+          "id": "wa-2025-the-phoenician-scheme",
+          "t": "The Phoenician Scheme",
+          "n": "2025",
+          "w": 1.75
+        }
+      ]
+    }
+  ]
+}
