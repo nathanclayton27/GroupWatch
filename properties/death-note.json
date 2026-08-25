@@ -1,0 +1,256 @@
+{
+  "slug": "death-note",
+  "title": "Death Note",
+  "subtitle": "the anime",
+  "kind": "anime",
+  "popularity": 83,
+  "year": "2006–2007",
+  "blurb": "All 37 episodes in broadcast order. The anime only.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#6C0000",
+  "accentDark": "#FF2E3C",
+  "tiers": false,
+  "notes": [
+    [
+      "Two parts, because the source has two parts.",
+      "Wikipedia's episode list files the run under Part I and Part II — a narrative division rather than a broadcast one; the show aired as a single continuous run. The sections here are that split and nothing else. The headers carry episode ranges and air dates, and no description."
+    ],
+    [
+      "No episode notes, on purpose.",
+      "This show is its turns, and a one-line summary gives several of them away. Nothing here describes what happens in an episode. The titles are the official titles, printed as the source has them — a title is what an episode is called, not what it does."
+    ],
+    [
+      "Unweighted.",
+      "The episode list carries no runtimes, so there is no per-episode figure anyone could check. Every row is one television episode of the same nominal length, so the strip counts episodes and nothing carries a weight."
+    ],
+    [
+      "What is out.",
+      "The two Relight television specials, from 2007 and 2008, which recut the series into digest form rather than adding to it. Also out: the Japanese live-action films, the 2015 television drama, and the 2017 Netflix film. This list is the anime."
+    ],
+    "Episode numbers and titles machine-read from Wikipedia's List of Death Note episodes; the Part I / Part II split is that page's own."
+  ],
+  "sections": [
+    {
+      "id": "part1",
+      "title": "Part I",
+      "sub": "episodes 1–26 · 4 October 2006 – 11 April 2007",
+      "links": [
+        {
+          "label": "The episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Death_Note_episodes"
+        }
+      ],
+      "open": true,
+      "items": [
+        {
+          "id": "dn-1",
+          "t": "Rebirth",
+          "n": "1"
+        },
+        {
+          "id": "dn-2",
+          "t": "Confrontation",
+          "n": "2"
+        },
+        {
+          "id": "dn-3",
+          "t": "Dealings",
+          "n": "3"
+        },
+        {
+          "id": "dn-4",
+          "t": "Pursuit",
+          "n": "4"
+        },
+        {
+          "id": "dn-5",
+          "t": "Tactics",
+          "n": "5"
+        },
+        {
+          "id": "dn-6",
+          "t": "Unraveling",
+          "n": "6"
+        },
+        {
+          "id": "dn-7",
+          "t": "Overcast",
+          "n": "7"
+        },
+        {
+          "id": "dn-8",
+          "t": "Glare",
+          "n": "8"
+        },
+        {
+          "id": "dn-9",
+          "t": "Encounter",
+          "n": "9"
+        },
+        {
+          "id": "dn-10",
+          "t": "Doubt",
+          "n": "10"
+        },
+        {
+          "id": "dn-11",
+          "t": "Assault",
+          "n": "11"
+        },
+        {
+          "id": "dn-12",
+          "t": "Love",
+          "n": "12"
+        },
+        {
+          "id": "dn-13",
+          "t": "Confession",
+          "n": "13"
+        },
+        {
+          "id": "dn-14",
+          "t": "Friend",
+          "n": "14"
+        },
+        {
+          "id": "dn-15",
+          "t": "Wager",
+          "n": "15"
+        },
+        {
+          "id": "dn-16",
+          "t": "Decision",
+          "n": "16"
+        },
+        {
+          "id": "dn-17",
+          "t": "Execution",
+          "n": "17"
+        },
+        {
+          "id": "dn-18",
+          "t": "Ally",
+          "n": "18"
+        },
+        {
+          "id": "dn-19",
+          "t": "Matsuda",
+          "n": "19"
+        },
+        {
+          "id": "dn-20",
+          "t": "Makeshift",
+          "n": "20"
+        },
+        {
+          "id": "dn-21",
+          "t": "Performance",
+          "n": "21"
+        },
+        {
+          "id": "dn-22",
+          "t": "Guidance",
+          "n": "22"
+        },
+        {
+          "id": "dn-23",
+          "t": "Frenzy",
+          "n": "23"
+        },
+        {
+          "id": "dn-24",
+          "t": "Revival",
+          "n": "24"
+        },
+        {
+          "id": "dn-25",
+          "t": "Silence",
+          "n": "25"
+        },
+        {
+          "id": "dn-26",
+          "t": "Renewal",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "part2",
+      "title": "Part II",
+      "sub": "episodes 27–37 · 18 April 2007 – 27 June 2007",
+      "links": [
+        {
+          "label": "The episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Death_Note_episodes"
+        }
+      ],
+      "open": false,
+      "items": [
+        {
+          "id": "dn-27",
+          "t": "Abduction",
+          "n": "27"
+        },
+        {
+          "id": "dn-28",
+          "t": "Impatience",
+          "n": "28"
+        },
+        {
+          "id": "dn-29",
+          "t": "Father",
+          "n": "29"
+        },
+        {
+          "id": "dn-30",
+          "t": "Justice",
+          "n": "30"
+        },
+        {
+          "id": "dn-31",
+          "t": "Transfer",
+          "n": "31"
+        },
+        {
+          "id": "dn-32",
+          "t": "Selection",
+          "n": "32"
+        },
+        {
+          "id": "dn-33",
+          "t": "Scorn",
+          "n": "33"
+        },
+        {
+          "id": "dn-34",
+          "t": "Vigilance",
+          "n": "34"
+        },
+        {
+          "id": "dn-35",
+          "t": "Malice",
+          "n": "35"
+        },
+        {
+          "id": "dn-36",
+          "t": "1.28",
+          "n": "36"
+        },
+        {
+          "id": "dn-37",
+          "t": "New World",
+          "n": "37"
+        }
+      ]
+    }
+  ]
+}
