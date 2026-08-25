@@ -1,0 +1,944 @@
+{
+  "slug": "futurama",
+  "title": "Futurama",
+  "subtitle": "every episode, and the four films once each",
+  "kind": "tv & films",
+  "popularity": 80,
+  "year": "1999–",
+  "blurb": "163 rows across four eras — the Fox run, the four direct-to-video films, the Comedy Central revival and the Hulu revival, in the order they were made.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#472F8C",
+  "accentDark": "#5FEFB8",
+  "tiers": false,
+  "notes": [
+    [
+      "The four films count once each.",
+      "Comedy Central re-cut the 2007–09 films into sixteen half-hour episodes and aired them as season 5. It is the same footage either way, so listing both would count the same watch twice. The films are the form the work was written and released in, and the source article gives the sixteen parts no titles of their own — so this list carries four film rows, each naming its runtime and the season 5 episodes it was broadcast as. That is 163 rows; the sixteen-part reading would be 175."
+    ],
+    [
+      "Production order, not the order Fox aired it.",
+      "Fox broadcast the first 72 episodes out of the order they were made, so no box set, streaming season or episode list matches a strict airdate sort. This follows the production seasons, like the source article does, with the four eras in the order they reached an audience."
+    ],
+    [
+      "Nothing is weighted.",
+      "Wikipedia documents one running time for the series and none per episode, so there is no verifiable per-row number to weight with; every row counts one. The four film rows are feature length and their notes say so rather than carrying a weight the rest of the list could not match."
+    ],
+    [
+      "Season 11 is still going out.",
+      "Five of its ten episodes had aired when this was built, on August 24, 2026. The rest join the list as they air, and so will the specials ordered for a twelfth season."
+    ],
+    "Titles and airdates machine-read from Wikipedia's List of Futurama episodes, the season articles and the four film articles; every season's count is asserted against the list article's own series overview, and the overall episode numbering asserted contiguous, before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "1999 · 13 episodes · Fox",
+      "items": [
+        {
+          "id": "fut-s1e1",
+          "t": "Space Pilot 3000",
+          "n": "1"
+        },
+        {
+          "id": "fut-s1e2",
+          "t": "The Series Has Landed",
+          "n": "2"
+        },
+        {
+          "id": "fut-s1e3",
+          "t": "I, Roommate",
+          "n": "3"
+        },
+        {
+          "id": "fut-s1e4",
+          "t": "Love's Labours Lost in Space",
+          "n": "4"
+        },
+        {
+          "id": "fut-s1e5",
+          "t": "Fear of a Bot Planet",
+          "n": "5"
+        },
+        {
+          "id": "fut-s1e6",
+          "t": "A Fishful of Dollars",
+          "n": "6"
+        },
+        {
+          "id": "fut-s1e7",
+          "t": "My Three Suns",
+          "n": "7"
+        },
+        {
+          "id": "fut-s1e8",
+          "t": "A Big Piece of Garbage",
+          "n": "8"
+        },
+        {
+          "id": "fut-s1e9",
+          "t": "Hell Is Other Robots",
+          "n": "9"
+        },
+        {
+          "id": "fut-s1e10",
+          "t": "A Flight to Remember",
+          "n": "10"
+        },
+        {
+          "id": "fut-s1e11",
+          "t": "Mars University",
+          "n": "11"
+        },
+        {
+          "id": "fut-s1e12",
+          "t": "When Aliens Attack",
+          "n": "12"
+        },
+        {
+          "id": "fut-s1e13",
+          "t": "Fry and the Slurm Factory",
+          "n": "13"
+        }
+      ],
+      "intro": "The original run, cancelled in 2003. Fox aired these 72 episodes out of the order they were made; the list follows the production seasons, the way the box sets and the streaming seasons do.",
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "1999–2000 · 19 episodes · Fox",
+      "items": [
+        {
+          "id": "fut-s2e1",
+          "t": "I Second That Emotion",
+          "n": "1"
+        },
+        {
+          "id": "fut-s2e2",
+          "t": "Brannigan, Begin Again",
+          "n": "2"
+        },
+        {
+          "id": "fut-s2e3",
+          "t": "A Head in the Polls",
+          "n": "3"
+        },
+        {
+          "id": "fut-s2e4",
+          "t": "Xmas Story",
+          "n": "4"
+        },
+        {
+          "id": "fut-s2e5",
+          "t": "Why Must I Be a Crustacean in Love?",
+          "n": "5"
+        },
+        {
+          "id": "fut-s2e6",
+          "t": "The Lesser of Two Evils",
+          "n": "6"
+        },
+        {
+          "id": "fut-s2e7",
+          "t": "Put Your Head on My Shoulders",
+          "n": "7"
+        },
+        {
+          "id": "fut-s2e8",
+          "t": "Raging Bender",
+          "n": "8"
+        },
+        {
+          "id": "fut-s2e9",
+          "t": "A Bicyclops Built for Two",
+          "n": "9"
+        },
+        {
+          "id": "fut-s2e10",
+          "t": "A Clone of My Own",
+          "n": "10"
+        },
+        {
+          "id": "fut-s2e11",
+          "t": "How Hermes Requisitioned His Groove Back",
+          "n": "11"
+        },
+        {
+          "id": "fut-s2e12",
+          "t": "The Deep South",
+          "n": "12"
+        },
+        {
+          "id": "fut-s2e13",
+          "t": "Bender Gets Made",
+          "n": "13"
+        },
+        {
+          "id": "fut-s2e14",
+          "t": "Mother's Day",
+          "n": "14"
+        },
+        {
+          "id": "fut-s2e15",
+          "t": "The Problem with Popplers",
+          "n": "15"
+        },
+        {
+          "id": "fut-s2e16",
+          "t": "Anthology of Interest I",
+          "n": "16"
+        },
+        {
+          "id": "fut-s2e17",
+          "t": "War Is the H-Word",
+          "n": "17"
+        },
+        {
+          "id": "fut-s2e18",
+          "t": "The Honking",
+          "n": "18"
+        },
+        {
+          "id": "fut-s2e19",
+          "t": "The Cryonic Woman",
+          "n": "19"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "2001–02 · 22 episodes · Fox",
+      "items": [
+        {
+          "id": "fut-s3e1",
+          "t": "Amazon Women in the Mood",
+          "n": "1"
+        },
+        {
+          "id": "fut-s3e2",
+          "t": "Parasites Lost",
+          "n": "2"
+        },
+        {
+          "id": "fut-s3e3",
+          "t": "A Tale of Two Santas",
+          "n": "3"
+        },
+        {
+          "id": "fut-s3e4",
+          "t": "The Luck of the Fryrish",
+          "n": "4"
+        },
+        {
+          "id": "fut-s3e5",
+          "t": "The Birdbot of Ice-Catraz",
+          "n": "5"
+        },
+        {
+          "id": "fut-s3e6",
+          "t": "Bendless Love",
+          "n": "6"
+        },
+        {
+          "id": "fut-s3e7",
+          "t": "The Day the Earth Stood Stupid",
+          "n": "7"
+        },
+        {
+          "id": "fut-s3e8",
+          "t": "That's Lobstertainment!",
+          "n": "8"
+        },
+        {
+          "id": "fut-s3e9",
+          "t": "The Cyber House Rules",
+          "n": "9"
+        },
+        {
+          "id": "fut-s3e10",
+          "t": "Where the Buggalo Roam",
+          "n": "10"
+        },
+        {
+          "id": "fut-s3e11",
+          "t": "Insane in the Mainframe",
+          "n": "11"
+        },
+        {
+          "id": "fut-s3e12",
+          "t": "The Route of All Evil",
+          "n": "12"
+        },
+        {
+          "id": "fut-s3e13",
+          "t": "Bendin' in the Wind",
+          "n": "13"
+        },
+        {
+          "id": "fut-s3e14",
+          "t": "Time Keeps On Slippin'",
+          "n": "14"
+        },
+        {
+          "id": "fut-s3e15",
+          "t": "I Dated a Robot",
+          "n": "15"
+        },
+        {
+          "id": "fut-s3e16",
+          "t": "A Leela of Her Own",
+          "n": "16"
+        },
+        {
+          "id": "fut-s3e17",
+          "t": "A Pharaoh to Remember",
+          "n": "17"
+        },
+        {
+          "id": "fut-s3e18",
+          "t": "Anthology of Interest II",
+          "n": "18"
+        },
+        {
+          "id": "fut-s3e19",
+          "t": "Roswell That Ends Well",
+          "n": "19"
+        },
+        {
+          "id": "fut-s3e20",
+          "t": "Godfellas",
+          "n": "20"
+        },
+        {
+          "id": "fut-s3e21",
+          "t": "Future Stock",
+          "n": "21"
+        },
+        {
+          "id": "fut-s3e22",
+          "t": "The 30% Iron Chef",
+          "n": "22"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Season 4",
+      "sub": "2002–03 · 18 episodes · Fox",
+      "items": [
+        {
+          "id": "fut-s4e1",
+          "t": "Kif Gets Knocked Up a Notch",
+          "n": "1"
+        },
+        {
+          "id": "fut-s4e2",
+          "t": "Leela's Homeworld",
+          "n": "2"
+        },
+        {
+          "id": "fut-s4e3",
+          "t": "Love and Rocket",
+          "n": "3"
+        },
+        {
+          "id": "fut-s4e4",
+          "t": "Less Than Hero",
+          "n": "4"
+        },
+        {
+          "id": "fut-s4e5",
+          "t": "A Taste of Freedom",
+          "n": "5"
+        },
+        {
+          "id": "fut-s4e6",
+          "t": "Bender Should Not Be Allowed on TV",
+          "n": "6"
+        },
+        {
+          "id": "fut-s4e7",
+          "t": "Jurassic Bark",
+          "n": "7"
+        },
+        {
+          "id": "fut-s4e8",
+          "t": "Crimes of the Hot",
+          "n": "8"
+        },
+        {
+          "id": "fut-s4e9",
+          "t": "Teenage Mutant Leela's Hurdles",
+          "n": "9"
+        },
+        {
+          "id": "fut-s4e10",
+          "t": "The Why of Fry",
+          "n": "10"
+        },
+        {
+          "id": "fut-s4e11",
+          "t": "Where No Fan Has Gone Before",
+          "n": "11"
+        },
+        {
+          "id": "fut-s4e12",
+          "t": "The Sting",
+          "n": "12"
+        },
+        {
+          "id": "fut-s4e13",
+          "t": "Bend Her",
+          "n": "13"
+        },
+        {
+          "id": "fut-s4e14",
+          "t": "Obsoletely Fabulous",
+          "n": "14"
+        },
+        {
+          "id": "fut-s4e15",
+          "t": "The Farnsworth Parabox",
+          "n": "15"
+        },
+        {
+          "id": "fut-s4e16",
+          "t": "Three Hundred Big Boys",
+          "n": "16"
+        },
+        {
+          "id": "fut-s4e17",
+          "t": "Spanish Fry",
+          "n": "17"
+        },
+        {
+          "id": "fut-s4e18",
+          "t": "The Devil's Hands Are Idle Playthings",
+          "n": "18"
+        }
+      ]
+    },
+    {
+      "id": "films",
+      "title": "The Films",
+      "sub": "2007–09 · four direct-to-video features · Comedy Central's season 5",
+      "intro": "Written and released as four feature-length films, then re-cut into the sixteen episodes Comedy Central aired as season 5. They are counted here once, as films.",
+      "items": [
+        {
+          "id": "fut-film-benders-big-score",
+          "t": "Bender's Big Score",
+          "n": "2007",
+          "note": "2007 direct-to-video feature · 89 minutes · broadcast as season 5 episodes 1–4"
+        },
+        {
+          "id": "fut-film-the-beast-with-a-billion-backs",
+          "t": "The Beast with a Billion Backs",
+          "n": "2008",
+          "note": "2008 direct-to-video feature · 89 minutes · broadcast as season 5 episodes 5–8"
+        },
+        {
+          "id": "fut-film-benders-game",
+          "t": "Bender's Game",
+          "n": "2008",
+          "note": "2008 direct-to-video feature · 87 minutes · broadcast as season 5 episodes 9–12"
+        },
+        {
+          "id": "fut-film-into-the-wild-green-yonder",
+          "t": "Into the Wild Green Yonder",
+          "n": "2009",
+          "note": "2009 direct-to-video feature · 89 minutes · broadcast as season 5 episodes 13–16"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Season 6",
+      "sub": "2010–11 · 26 episodes · Comedy Central",
+      "items": [
+        {
+          "id": "fut-s6e1",
+          "t": "Rebirth",
+          "n": "1"
+        },
+        {
+          "id": "fut-s6e2",
+          "t": "In-A-Gadda-Da-Leela",
+          "n": "2"
+        },
+        {
+          "id": "fut-s6e3",
+          "t": "Attack of the Killer App",
+          "n": "3"
+        },
+        {
+          "id": "fut-s6e4",
+          "t": "Proposition Infinity",
+          "n": "4"
+        },
+        {
+          "id": "fut-s6e5",
+          "t": "The Duh-Vinci Code",
+          "n": "5"
+        },
+        {
+          "id": "fut-s6e6",
+          "t": "Lethal Inspection",
+          "n": "6"
+        },
+        {
+          "id": "fut-s6e7",
+          "t": "The Late Philip J. Fry",
+          "n": "7"
+        },
+        {
+          "id": "fut-s6e8",
+          "t": "That Darn Katz!",
+          "n": "8"
+        },
+        {
+          "id": "fut-s6e9",
+          "t": "A Clockwork Origin",
+          "n": "9"
+        },
+        {
+          "id": "fut-s6e10",
+          "t": "The Prisoner of Benda",
+          "n": "10"
+        },
+        {
+          "id": "fut-s6e11",
+          "t": "Lrrreconcilable Ndndifferences",
+          "n": "11"
+        },
+        {
+          "id": "fut-s6e12",
+          "t": "The Mutants Are Revolting",
+          "n": "12"
+        },
+        {
+          "id": "fut-s6e13",
+          "t": "The Futurama Holiday Spectacular",
+          "n": "13"
+        },
+        {
+          "id": "fut-s6e14",
+          "t": "The Silence of the Clamps",
+          "n": "14"
+        },
+        {
+          "id": "fut-s6e15",
+          "t": "Möbius Dick",
+          "n": "15"
+        },
+        {
+          "id": "fut-s6e16",
+          "t": "Law and Oracle",
+          "n": "16"
+        },
+        {
+          "id": "fut-s6e17",
+          "t": "Benderama",
+          "n": "17"
+        },
+        {
+          "id": "fut-s6e18",
+          "t": "The Tip of the Zoidberg",
+          "n": "18"
+        },
+        {
+          "id": "fut-s6e19",
+          "t": "Ghost in the Machines",
+          "n": "19"
+        },
+        {
+          "id": "fut-s6e20",
+          "t": "Neutopia",
+          "n": "20"
+        },
+        {
+          "id": "fut-s6e21",
+          "t": "Yo Leela Leela",
+          "n": "21"
+        },
+        {
+          "id": "fut-s6e22",
+          "t": "Fry Am the Egg Man",
+          "n": "22"
+        },
+        {
+          "id": "fut-s6e23",
+          "t": "All the Presidents' Heads",
+          "n": "23"
+        },
+        {
+          "id": "fut-s6e24",
+          "t": "Cold Warriors",
+          "n": "24"
+        },
+        {
+          "id": "fut-s6e25",
+          "t": "Overclockwise",
+          "n": "25"
+        },
+        {
+          "id": "fut-s6e26",
+          "t": "Reincarnation",
+          "n": "26"
+        }
+      ],
+      "intro": "Comedy Central ordered 26 more episodes after the films did well. Each of its two seasons was split in half and aired a year apart."
+    },
+    {
+      "id": "s7",
+      "title": "Season 7",
+      "sub": "2012–13 · 26 episodes · Comedy Central",
+      "items": [
+        {
+          "id": "fut-s7e1",
+          "t": "The Bots and the Bees",
+          "n": "1"
+        },
+        {
+          "id": "fut-s7e2",
+          "t": "A Farewell to Arms",
+          "n": "2"
+        },
+        {
+          "id": "fut-s7e3",
+          "t": "Decision 3012",
+          "n": "3"
+        },
+        {
+          "id": "fut-s7e4",
+          "t": "The Thief of Baghead",
+          "n": "4"
+        },
+        {
+          "id": "fut-s7e5",
+          "t": "Zapp Dingbat",
+          "n": "5"
+        },
+        {
+          "id": "fut-s7e6",
+          "t": "The Butterjunk Effect",
+          "n": "6"
+        },
+        {
+          "id": "fut-s7e7",
+          "t": "The Six Million Dollar Mon",
+          "n": "7"
+        },
+        {
+          "id": "fut-s7e8",
+          "t": "Fun on a Bun",
+          "n": "8"
+        },
+        {
+          "id": "fut-s7e9",
+          "t": "Free Will Hunting",
+          "n": "9"
+        },
+        {
+          "id": "fut-s7e10",
+          "t": "Near-Death Wish",
+          "n": "10"
+        },
+        {
+          "id": "fut-s7e11",
+          "t": "31st Century Fox",
+          "n": "11"
+        },
+        {
+          "id": "fut-s7e12",
+          "t": "Viva Mars Vegas",
+          "n": "12"
+        },
+        {
+          "id": "fut-s7e13",
+          "t": "Naturama",
+          "n": "13"
+        },
+        {
+          "id": "fut-s7e14",
+          "t": "Forty Percent Leadbelly",
+          "n": "14"
+        },
+        {
+          "id": "fut-s7e15",
+          "t": "2-D Blacktop",
+          "n": "15"
+        },
+        {
+          "id": "fut-s7e16",
+          "t": "T.: The Terrestrial",
+          "n": "16"
+        },
+        {
+          "id": "fut-s7e17",
+          "t": "Fry and Leela's Big Fling",
+          "n": "17"
+        },
+        {
+          "id": "fut-s7e18",
+          "t": "The Inhuman Torch",
+          "n": "18"
+        },
+        {
+          "id": "fut-s7e19",
+          "t": "Saturday Morning Fun Pit",
+          "n": "19"
+        },
+        {
+          "id": "fut-s7e20",
+          "t": "Calculon 2.0",
+          "n": "20"
+        },
+        {
+          "id": "fut-s7e21",
+          "t": "Assie Come Home",
+          "n": "21"
+        },
+        {
+          "id": "fut-s7e22",
+          "t": "Leela and the Genestalk",
+          "n": "22"
+        },
+        {
+          "id": "fut-s7e23",
+          "t": "Game of Tones",
+          "n": "23"
+        },
+        {
+          "id": "fut-s7e24",
+          "t": "Murder on the Planet Express",
+          "n": "24"
+        },
+        {
+          "id": "fut-s7e25",
+          "t": "Stench and Stenchibility",
+          "n": "25"
+        },
+        {
+          "id": "fut-s7e26",
+          "t": "Meanwhile",
+          "n": "26"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Season 8",
+      "sub": "2023 · 10 episodes · Hulu",
+      "items": [
+        {
+          "id": "fut-s8e1",
+          "t": "The Impossible Stream",
+          "n": "1"
+        },
+        {
+          "id": "fut-s8e2",
+          "t": "Children of a Lesser Bog",
+          "n": "2"
+        },
+        {
+          "id": "fut-s8e3",
+          "t": "How the West Was 1010001",
+          "n": "3"
+        },
+        {
+          "id": "fut-s8e4",
+          "t": "Parasites Regained",
+          "n": "4"
+        },
+        {
+          "id": "fut-s8e5",
+          "t": "Related to Items You've Viewed",
+          "n": "5"
+        },
+        {
+          "id": "fut-s8e6",
+          "t": "I Know What You Did Next Xmas",
+          "n": "6"
+        },
+        {
+          "id": "fut-s8e7",
+          "t": "Rage Against the Vaccine",
+          "n": "7"
+        },
+        {
+          "id": "fut-s8e8",
+          "t": "Zapp Gets Canceled",
+          "n": "8"
+        },
+        {
+          "id": "fut-s8e9",
+          "t": "The Prince and the Product",
+          "n": "9"
+        },
+        {
+          "id": "fut-s8e10",
+          "t": "All the Way Down",
+          "n": "10"
+        }
+      ],
+      "intro": "The second revival, ordered in 2022 and still running."
+    },
+    {
+      "id": "s9",
+      "title": "Season 9",
+      "sub": "2024 · 10 episodes · Hulu",
+      "items": [
+        {
+          "id": "fut-s9e1",
+          "t": "The One Amigo",
+          "n": "1"
+        },
+        {
+          "id": "fut-s9e2",
+          "t": "Quids Game",
+          "n": "2"
+        },
+        {
+          "id": "fut-s9e3",
+          "t": "The Temp",
+          "n": "3"
+        },
+        {
+          "id": "fut-s9e4",
+          "t": "Beauty and the Bug",
+          "n": "4"
+        },
+        {
+          "id": "fut-s9e5",
+          "t": "One Is Silicon and the Other Gold",
+          "n": "5"
+        },
+        {
+          "id": "fut-s9e6",
+          "t": "Attack of the Clothes",
+          "n": "6"
+        },
+        {
+          "id": "fut-s9e7",
+          "t": "Planet Espresso",
+          "n": "7"
+        },
+        {
+          "id": "fut-s9e8",
+          "t": "Cuteness Overlord",
+          "n": "8"
+        },
+        {
+          "id": "fut-s9e9",
+          "t": "The Futurama Mystery Liberry",
+          "n": "9"
+        },
+        {
+          "id": "fut-s9e10",
+          "t": "Otherwise",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Season 10",
+      "sub": "2025 · 10 episodes · Hulu",
+      "items": [
+        {
+          "id": "fut-s10e1",
+          "t": "Destroy Tall Monsters",
+          "n": "1"
+        },
+        {
+          "id": "fut-s10e2",
+          "t": "The World Is Hot Enough",
+          "n": "2"
+        },
+        {
+          "id": "fut-s10e3",
+          "t": "Fifty Shades of Green",
+          "n": "3"
+        },
+        {
+          "id": "fut-s10e4",
+          "t": "The Numberland Gap",
+          "n": "4"
+        },
+        {
+          "id": "fut-s10e5",
+          "t": "Scared Screenless",
+          "n": "5"
+        },
+        {
+          "id": "fut-s10e6",
+          "t": "Wicked Human",
+          "n": "6"
+        },
+        {
+          "id": "fut-s10e7",
+          "t": "Murderoni",
+          "n": "7"
+        },
+        {
+          "id": "fut-s10e8",
+          "t": "Crab Splatter",
+          "n": "8"
+        },
+        {
+          "id": "fut-s10e9",
+          "t": "The Trouble with Truffles",
+          "n": "9"
+        },
+        {
+          "id": "fut-s10e10",
+          "t": "The White Hole",
+          "n": "10"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Season 11",
+      "sub": "2026 · 5 of 10 episodes aired · Hulu",
+      "items": [
+        {
+          "id": "fut-s11e1",
+          "t": "Beef",
+          "n": "1"
+        },
+        {
+          "id": "fut-s11e2",
+          "t": "Our Flag Means Medical Coverage",
+          "n": "2"
+        },
+        {
+          "id": "fut-s11e3",
+          "t": "Lords of the Ring",
+          "n": "3"
+        },
+        {
+          "id": "fut-s11e4",
+          "t": "The Charm Offensive",
+          "n": "4"
+        },
+        {
+          "id": "fut-s11e5",
+          "t": "Catfish Hunter",
+          "n": "5"
+        }
+      ]
+    }
+  ]
+}
