@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and twenty-three lists, from a ten-episode anime to a 1,337-spine film
+One hundred and forty-one lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -49,7 +49,8 @@ chips), *Half-Life & Portal*, *Silent Hill*, *Halo*, the whole *Ace
 Attorney* docket, *Fallout* and *The Elder Scrolls* with their story DLC as
 optional rows, *Persona* (431 hours, stated plainly), *Dragon Quest*,
 *Mass Effect*, *Dragon Age*, *Mega Man* (94 games across eight sub-series),
-the *James Bond* games on their own page apart from the films, and a
+the *James Bond* games on their own page apart from the films, an
+*FPS canon* gated on three or more published best-of lists, and a
 house-picked indie essentials shelf —
 all weighted by HowLongToBeat main-story figures, verified by name.
 
@@ -72,6 +73,9 @@ from Dementia 13 to Megalopolis, Apocalypse Now weighed at its premiere
 cut), *Satoshi Kon* (films plus Paranoia
 Agent), *Sam Raimi* (the films plus all thirty episodes of Ash vs Evil
 Dead, with every episode naming the director who actually made it),
+*Christopher Nolan*, *Wes Anderson*, *Paul Thomas Anderson*,
+*Ridley Scott* (fifty years, one row per film with the alternate cuts
+named rather than double-counted),
 *A24* front to back, and *Studio Ghibli* with Miyazaki as the
 spine. Plus *Stephen King*, novel by novel.
 
@@ -92,7 +96,13 @@ feature in release order with Miyazaki's as the spine. Plus *Fullmetal
 Alchemist: Brotherhood*, *Monster*, *Evangelion*, *One Piece*, *One Pace*,
 *Friday Night Lights*, *Lanterns* and *President Curtis* — the last two
 still airing, each with a real weekly schedule so a club watches at
-broadcast pace.
+broadcast pace. Plus *Star Trek* (941 rows, every series and the
+thirteen films in one place), *Avatar* with *Korra*, *The Office*,
+*Futurama*, *Battlestar Galactica*, *Black Mirror* — the rare
+television list with a verified runtime on every row — *Invincible*,
+and the big anime runs: *Naruto* and *Bleach* with their filler
+marked only where two independent sources agree, *Attack on Titan*,
+*Hunter x Hunter*, *Death Note*.
 
 **Games.** *Kingdom Hearts*, in release order, weighted by how long each
 entry takes, and *Nasuverse* — Fate, Tsukihime, Melty Blood and the rest,

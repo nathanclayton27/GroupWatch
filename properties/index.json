@@ -980,6 +980,25 @@
     "total": 39
   },
   {
+    "slug": "ridley-scott",
+    "media": [
+      "movies"
+    ],
+    "title": "Ridley Scott",
+    "subtitle": "the directed features, in release order",
+    "kind": "films",
+    "year": "1977–2024",
+    "popularity": 75,
+    "blurb": "Twenty-nine features in release order, The Duellists to Gladiator II — about 64 hours. The films with famous alternate cuts get one row each, with the cut named on the row.",
+    "accent": "#A67159",
+    "accentDark": "#F2B8A6",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 29
+  },
+  {
     "slug": "metal-gear",
     "media": [
       "games"
