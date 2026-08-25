@@ -1,0 +1,268 @@
+{
+  "slug": "invincible",
+  "title": "Invincible",
+  "subtitle": "the animated series",
+  "kind": "tv",
+  "popularity": 70,
+  "year": "2021–",
+  "blurb": "All 33 episodes across four seasons, in broadcast order. Titles only — the summaries are withheld on purpose.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#1238B4",
+  "accentDark": "#FFF209",
+  "tiers": false,
+  "notes": [
+    [
+      "No episode summaries, on purpose.",
+      "Every row here is a number and a title, and nothing else. That is a decision rather than a gap: this show is built on its turns, and a one-sentence summary hands them over. The source carries a summary for every episode; this list reads them and drops them before the file is written, and checks afterwards that none of that text reached the page. Titles ship exactly as the source has them — a title is what an episode is called, not what it does."
+    ],
+    [
+      "The 2023 special is in, at 9.",
+      "Wikipedia's season 2 table opens with \"Invincible: Atom Eve\", released in July 2023 under the table's own Special heading and numbered ninth in the series' overall run. Rows here carry those overall numbers, so it is listed where the source puts it — 8 + 9 + 8 + 8 = 33."
+    ],
+    [
+      "Broadcast order, and only what has aired.",
+      "Four seasons, from March 2021 to April 2026. A fifth and sixth season have been ordered and neither has aired, so neither is here; the build refuses any episode dated past its own frozen cut-off rather than guessing at a schedule."
+    ],
+    [
+      "Unweighted.",
+      "The episode tables declare no runtime column, so there is no per-episode figure anyone could check. Every row is one episode of the same nominal length, so the strip counts episodes and nothing carries a weight."
+    ],
+    [
+      "The comic is not in here.",
+      "Robert Kirkman, Cory Walker and Ryan Ottley's Image series ran 144 issues from 2003 to 2018. It is a different work in a different medium and the show diverges from it; if it is ever worth reading through together it wants its own list, not a wing of this one."
+    ],
+    "Episode numbers, titles and air dates machine-read from the four Wikipedia season articles; each season's count is checked against its own episode table, never against the series overview box."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "episodes 1–8 · 25 March – 29 April 2021",
+      "links": [
+        {
+          "label": "The season's episode table",
+          "url": "https://en.wikipedia.org/wiki/Invincible_season_1"
+        }
+      ],
+      "open": true,
+      "items": [
+        {
+          "id": "inv-1",
+          "t": "It's About Time",
+          "n": "1"
+        },
+        {
+          "id": "inv-2",
+          "t": "Here Goes Nothing",
+          "n": "2"
+        },
+        {
+          "id": "inv-3",
+          "t": "Who You Calling Ugly?",
+          "n": "3"
+        },
+        {
+          "id": "inv-4",
+          "t": "Neil Armstrong, Eat Your Heart Out",
+          "n": "4"
+        },
+        {
+          "id": "inv-5",
+          "t": "That Actually Hurt",
+          "n": "5"
+        },
+        {
+          "id": "inv-6",
+          "t": "You Look Kinda Dead",
+          "n": "6"
+        },
+        {
+          "id": "inv-7",
+          "t": "We Need to Talk",
+          "n": "7"
+        },
+        {
+          "id": "inv-8",
+          "t": "Where I Really Come From",
+          "n": "8"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "episodes 9–17 · 21 July 2023 – 4 April 2024",
+      "links": [
+        {
+          "label": "The season's episode table",
+          "url": "https://en.wikipedia.org/wiki/Invincible_season_2"
+        }
+      ],
+      "open": false,
+      "items": [
+        {
+          "id": "inv-9",
+          "t": "Invincible: Atom Eve",
+          "n": "9"
+        },
+        {
+          "id": "inv-10",
+          "t": "A Lesson for Your Next Life",
+          "n": "10"
+        },
+        {
+          "id": "inv-11",
+          "t": "In About Six Hours, I Lose My Virginity to a Fish",
+          "n": "11"
+        },
+        {
+          "id": "inv-12",
+          "t": "This Missive, This Machination!",
+          "n": "12"
+        },
+        {
+          "id": "inv-13",
+          "t": "It's Been a While",
+          "n": "13"
+        },
+        {
+          "id": "inv-14",
+          "t": "This Must Come as a Shock",
+          "n": "14"
+        },
+        {
+          "id": "inv-15",
+          "t": "It's Not That Simple",
+          "n": "15"
+        },
+        {
+          "id": "inv-16",
+          "t": "I'm Not Going Anywhere",
+          "n": "16"
+        },
+        {
+          "id": "inv-17",
+          "t": "I Thought You Were Stronger",
+          "n": "17"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "episodes 18–25 · 6 February – 13 March 2025",
+      "links": [
+        {
+          "label": "The season's episode table",
+          "url": "https://en.wikipedia.org/wiki/Invincible_season_3"
+        }
+      ],
+      "open": false,
+      "items": [
+        {
+          "id": "inv-18",
+          "t": "You're Not Laughing Now",
+          "n": "18"
+        },
+        {
+          "id": "inv-19",
+          "t": "A Deal with the Devil",
+          "n": "19"
+        },
+        {
+          "id": "inv-20",
+          "t": "You Want a Real Costume, Right?",
+          "n": "20"
+        },
+        {
+          "id": "inv-21",
+          "t": "You Were My Hero",
+          "n": "21"
+        },
+        {
+          "id": "inv-22",
+          "t": "This Was Supposed to Be Easy",
+          "n": "22"
+        },
+        {
+          "id": "inv-23",
+          "t": "All I Can Say Is I'm Sorry",
+          "n": "23"
+        },
+        {
+          "id": "inv-24",
+          "t": "What Have I Done?",
+          "n": "24"
+        },
+        {
+          "id": "inv-25",
+          "t": "I Thought You'd Never Shut Up",
+          "n": "25"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Season 4",
+      "sub": "episodes 26–33 · 18 March – 22 April 2026",
+      "links": [
+        {
+          "label": "The season's episode table",
+          "url": "https://en.wikipedia.org/wiki/Invincible_season_4"
+        }
+      ],
+      "open": false,
+      "items": [
+        {
+          "id": "inv-26",
+          "t": "Making the World a Better Place",
+          "n": "26"
+        },
+        {
+          "id": "inv-27",
+          "t": "I'll Give You the Grand Tour",
+          "n": "27"
+        },
+        {
+          "id": "inv-28",
+          "t": "I Gotta Get Some Air",
+          "n": "28"
+        },
+        {
+          "id": "inv-29",
+          "t": "Hurm",
+          "n": "29"
+        },
+        {
+          "id": "inv-30",
+          "t": "Give Us a Moment",
+          "n": "30"
+        },
+        {
+          "id": "inv-31",
+          "t": "You Look Horrible",
+          "n": "31"
+        },
+        {
+          "id": "inv-32",
+          "t": "Don't Do Anything Rash",
+          "n": "32"
+        },
+        {
+          "id": "inv-33",
+          "t": "Don't Leave Me Hanging Here",
+          "n": "33"
+        }
+      ]
+    }
+  ]
+}
