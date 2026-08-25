@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and forty-nine lists, from a ten-episode anime to a 1,337-spine film
+One hundred and fifty-three lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -35,6 +35,8 @@ current run — *M\*A\*S\*H*, *Seinfeld*, *Frasier* (the original run),
 *Gossip Girl* (the original series), *Gilmore Girls* (with A Year in the
 Life as its own section), *The Golden Girls* (the seven hour-long
 broadcasts and four two-parters honestly marked),
+*Nathan Fielder* (the three shows he created — Nathan for You, The
+Rehearsal and The Curse — 54 episodes),
 *MST3K* down to the KTMA year, *Columbo*
 with real per-movie runtimes, *James Bond* by actor, *Mission: Impossible*
 (the eight released films, ticks shared with the Tom Cruise
@@ -59,6 +61,8 @@ numbered campaign, the spin-offs optional beside it), the whole *Ace
 Attorney* docket, *Fallout* and *The Elder Scrolls* with their story DLC as
 optional rows, *Persona* (the whole franchise, 927 hours, stated plainly), *Dragon Quest*,
 *Mass Effect*, *Dragon Age*, *Mega Man* (94 games across eight sub-series),
+*Grand Theft Auto* (212 hours across the 2D, 3D and HD universes, the
+handhelds and expansions optional),
 the *James Bond* games on their own page apart from the films, an
 *FPS canon* gated on three or more published best-of lists, and a
 house-picked indie essentials shelf —
@@ -68,7 +72,11 @@ all weighted by HowLongToBeat main-story figures, verified by name.
 storyline chips, the *Dune* saga (Herbert's six core, the continuations
 optional, the screen adaptations weighted), *The Wheel of Time*, Sanderson's
 *Cosmere* in publication order, the complete *Sherlock Holmes* canon (60
-adventures), and *Middle-earth* — books plus Jackson's six films. Comics:
+adventures), *Agatha Christie* (all 74 novels split into Poirot, Marple and
+everything else, the short-story collections optional), *the Foundation
+universe* (Asimov's Foundation, Robot and Empire novels in the order he
+published them, with the chronological order as a note rather than a
+second list), and *Middle-earth* — books plus Jackson's six films. Comics:
 *The Sandman* issue by issue through its ten volumes, Death and Overture
 included, and the *Hellboy / Mignolaverse* trunk with the spoke series as
 optional rows.

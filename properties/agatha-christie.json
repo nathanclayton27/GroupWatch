@@ -1,0 +1,583 @@
+{
+  "slug": "agatha-christie",
+  "title": "Agatha Christie",
+  "subtitle": "Poirot, Marple and the standalones",
+  "kind": "books",
+  "popularity": 58,
+  "year": "1921–1976",
+  "blurb": "Every Christie novel in publication order — the Poirot run, the Marple run, and the standalones. The short-story collections ride alongside marked optional, and no row note gives anything away.",
+  "unit": {
+    "one": "book",
+    "many": "books"
+  },
+  "verb": {
+    "base": "read",
+    "past": "read",
+    "ing": "reading"
+  },
+  "accent": "#1F5138",
+  "accentDark": "#D9B65E",
+  "tiers": false,
+  "notes": [
+    [
+      "Two runs, then everything else.",
+      "Poirot and Marple each get their own section in publication order. The third holds every other novel Christie wrote: the standalones, and the shorter runs for Tommy and Tuppence, Superintendent Battle and Colonel Race."
+    ],
+    [
+      "The short-story collections are optional.",
+      "A collection is a genuinely different sitting from a novel — a dozen small puzzles instead of one long one — and someone working through Poirot wants the novels' arc. So the collections sit in the runs where they were published, marked optional, rather than mixed into the count. Several of them hold both detectives; those are rowed once, in the run whose article claims them."
+    ],
+    [
+      "Published order, not written order.",
+      "Christie wrote Curtain and Sleeping Murder in the 1940s and locked them away; they came out last, in 1975 and 1976, and that is where they sit. Publication order is the spine throughout, because it is the order the books were built to be met in. Years are UK first publication, the way the bibliography orders its table; four books reached America a year earlier, The Mysterious Affair at Styles among them."
+    ],
+    [
+      "A few other rows are optional too.",
+      "The six romances Christie published as Mary Westmacott are in the bibliography's novels table, so they are here, marked optional — they are not mysteries. So is The Floating Admiral, written with the Detection Club. And Hercule Poirot and the Greenshore Folly, a 1954 novella first published on its own in 2014, closes the Poirot run: the table carries it, the count of 33 does not."
+    ],
+    [
+      "Nothing is weighted, and hours are not tracked.",
+      "Every book counts as one and the counter counts books, not time. Wikipedia does not publish page counts consistently, and a page count is not an hour anyway — so no row here carries a reading time and none has been estimated."
+    ],
+    [
+      "No row gives anything away.",
+      "The notes are publication history only: alternative titles, pen names, when a book was written against when it came out. Nothing about who, how or why."
+    ],
+    "Titles, years, series and alternative titles machine-read from Wikipedia's Agatha Christie bibliography — the novels table, checked against the article's own count of 74 — with the two runs verified title by title against the Hercule Poirot and Miss Marple articles and their own counts of 33 and 12 novels."
+  ],
+  "sections": [
+    {
+      "id": "poirot",
+      "title": "Hercule Poirot",
+      "sub": "33 novels · 1921–1975 · plus the collections, optional",
+      "intro": "Publication order, The Mysterious Affair at Styles to Curtain. The five short-story collections sit where they were published, marked optional.",
+      "open": true,
+      "links": [
+        {
+          "label": "The Poirot books",
+          "url": "https://en.wikipedia.org/wiki/Hercule_Poirot_in_literature"
+        }
+      ],
+      "items": [
+        {
+          "id": "ac-1921-the-mysterious-affair-at-styles",
+          "t": "The Mysterious Affair at Styles",
+          "n": "1921"
+        },
+        {
+          "id": "ac-1923-the-murder-on-the-links",
+          "t": "The Murder on the Links",
+          "n": "1923"
+        },
+        {
+          "id": "ac-1924-poirot-investigates",
+          "t": "Poirot Investigates",
+          "n": "1924",
+          "opt": 1,
+          "note": "Short stories"
+        },
+        {
+          "id": "ac-1926-the-murder-of-roger-ackroyd",
+          "t": "The Murder of Roger Ackroyd",
+          "n": "1926"
+        },
+        {
+          "id": "ac-1927-the-big-four",
+          "t": "The Big Four",
+          "n": "1927"
+        },
+        {
+          "id": "ac-1928-the-mystery-of-the-blue-train",
+          "t": "The Mystery of the Blue Train",
+          "n": "1928"
+        },
+        {
+          "id": "ac-1932-peril-at-end-house",
+          "t": "Peril at End House",
+          "n": "1932"
+        },
+        {
+          "id": "ac-1933-lord-edgware-dies",
+          "t": "Lord Edgware Dies",
+          "n": "1933",
+          "note": "Also published as Thirteen at Dinner"
+        },
+        {
+          "id": "ac-1934-murder-on-the-orient-express",
+          "t": "Murder on the Orient Express",
+          "n": "1934",
+          "note": "Also published as Murder in the Calais Coach"
+        },
+        {
+          "id": "ac-1935-three-act-tragedy",
+          "t": "Three Act Tragedy",
+          "n": "1935",
+          "note": "Also published as Murder in Three Acts"
+        },
+        {
+          "id": "ac-1935-death-in-the-clouds",
+          "t": "Death in the Clouds",
+          "n": "1935",
+          "note": "Also published as Death in the Air"
+        },
+        {
+          "id": "ac-1936-the-a-b-c-murders",
+          "t": "The A.B.C. Murders",
+          "n": "1936",
+          "note": "Also published as The Alphabet Murders"
+        },
+        {
+          "id": "ac-1936-murder-in-mesopotamia",
+          "t": "Murder in Mesopotamia",
+          "n": "1936"
+        },
+        {
+          "id": "ac-1936-cards-on-the-table",
+          "t": "Cards on the Table",
+          "n": "1936"
+        },
+        {
+          "id": "ac-1937-murder-in-the-mews",
+          "t": "Murder in the Mews",
+          "n": "1937",
+          "opt": 1,
+          "note": "Short stories"
+        },
+        {
+          "id": "ac-1937-dumb-witness",
+          "t": "Dumb Witness",
+          "n": "1937",
+          "note": "Also published as Poirot Loses a Client"
+        },
+        {
+          "id": "ac-1937-death-on-the-nile",
+          "t": "Death on the Nile",
+          "n": "1937",
+          "note": "Also published as Murder on the Nile and Hidden Horizon"
+        },
+        {
+          "id": "ac-1938-appointment-with-death",
+          "t": "Appointment with Death",
+          "n": "1938"
+        },
+        {
+          "id": "ac-1938-hercule-poirot-s-christmas",
+          "t": "Hercule Poirot's Christmas",
+          "n": "1938",
+          "note": "Also published as Murder for Christmas and A Holiday for Murder"
+        },
+        {
+          "id": "ac-1940-sad-cypress",
+          "t": "Sad Cypress",
+          "n": "1940"
+        },
+        {
+          "id": "ac-1940-one-two-buckle-my-shoe",
+          "t": "One, Two, Buckle My Shoe",
+          "n": "1940",
+          "note": "Also published as The Patriotic Murders and An Overdose of Death"
+        },
+        {
+          "id": "ac-1941-evil-under-the-sun",
+          "t": "Evil Under the Sun",
+          "n": "1941"
+        },
+        {
+          "id": "ac-1942-five-little-pigs",
+          "t": "Five Little Pigs",
+          "n": "1942",
+          "note": "Also published as Murder in Retrospect"
+        },
+        {
+          "id": "ac-1946-the-hollow",
+          "t": "The Hollow",
+          "n": "1946",
+          "note": "Also published as Murder after Hours"
+        },
+        {
+          "id": "ac-1947-the-labours-of-hercules",
+          "t": "The Labours of Hercules",
+          "n": "1947",
+          "opt": 1,
+          "note": "Short stories"
+        },
+        {
+          "id": "ac-1948-taken-at-the-flood",
+          "t": "Taken at the Flood",
+          "n": "1948",
+          "note": "Also published as There is a Tide . . ."
+        },
+        {
+          "id": "ac-1951-the-under-dog-and-other-stories",
+          "t": "The Under Dog and Other Stories",
+          "n": "1951",
+          "opt": 1,
+          "note": "Short stories"
+        },
+        {
+          "id": "ac-1952-mrs-mcginty-s-dead",
+          "t": "Mrs McGinty's Dead",
+          "n": "1952",
+          "note": "Also published as Blood Will Tell"
+        },
+        {
+          "id": "ac-1953-after-the-funeral",
+          "t": "After the Funeral",
+          "n": "1953",
+          "note": "Also published as Funerals are Fatal"
+        },
+        {
+          "id": "ac-1955-hickory-dickory-dock",
+          "t": "Hickory Dickory Dock",
+          "n": "1955",
+          "note": "Also published as Hickory Dickory Death"
+        },
+        {
+          "id": "ac-1956-dead-man-s-folly",
+          "t": "Dead Man's Folly",
+          "n": "1956"
+        },
+        {
+          "id": "ac-1959-cat-among-the-pigeons",
+          "t": "Cat Among the Pigeons",
+          "n": "1959"
+        },
+        {
+          "id": "ac-1963-the-clocks",
+          "t": "The Clocks",
+          "n": "1963"
+        },
+        {
+          "id": "ac-1966-third-girl",
+          "t": "Third Girl",
+          "n": "1966"
+        },
+        {
+          "id": "ac-1969-hallowe-en-party",
+          "t": "Hallowe'en Party",
+          "n": "1969",
+          "note": "Also published as A Haunting in Venice · the later film tie-in title"
+        },
+        {
+          "id": "ac-1972-elephants-can-remember",
+          "t": "Elephants Can Remember",
+          "n": "1972"
+        },
+        {
+          "id": "ac-1974-poirot-s-early-cases",
+          "t": "Poirot's Early Cases",
+          "n": "1974",
+          "opt": 1,
+          "note": "Short stories"
+        },
+        {
+          "id": "ac-1975-curtain",
+          "t": "Curtain",
+          "n": "1975",
+          "note": "Written in the 1940s, held back and published last"
+        },
+        {
+          "id": "ac-2014-hercule-poirot-and-the-greenshore-folly",
+          "t": "Hercule Poirot and the Greenshore Folly",
+          "n": "2014",
+          "opt": 1,
+          "note": "A novella written in 1954 to raise money for a church, published on its own in 2014"
+        }
+      ]
+    },
+    {
+      "id": "marple",
+      "title": "Miss Marple",
+      "sub": "12 novels · 1930–1976 · plus the collections, optional",
+      "intro": "Publication order, The Murder at the Vicarage to Sleeping Murder, with the collections optional alongside.",
+      "links": [
+        {
+          "label": "Miss Marple",
+          "url": "https://en.wikipedia.org/wiki/Miss_Marple"
+        }
+      ],
+      "items": [
+        {
+          "id": "ac-1930-the-murder-at-the-vicarage",
+          "t": "The Murder at the Vicarage",
+          "n": "1930"
+        },
+        {
+          "id": "ac-1932-the-thirteen-problems",
+          "t": "The Thirteen Problems",
+          "n": "1932",
+          "opt": 1,
+          "note": "Short stories"
+        },
+        {
+          "id": "ac-1939-the-regatta-mystery",
+          "t": "The Regatta Mystery",
+          "n": "1939",
+          "opt": 1,
+          "note": "Short stories"
+        },
+        {
+          "id": "ac-1942-the-body-in-the-library",
+          "t": "The Body in the Library",
+          "n": "1942"
+        },
+        {
+          "id": "ac-1943-the-moving-finger",
+          "t": "The Moving Finger",
+          "n": "1943"
+        },
+        {
+          "id": "ac-1950-a-murder-is-announced",
+          "t": "A Murder Is Announced",
+          "n": "1950"
+        },
+        {
+          "id": "ac-1950-three-blind-mice-and-other-stories",
+          "t": "Three Blind Mice and Other Stories",
+          "n": "1950",
+          "opt": 1,
+          "note": "Short stories"
+        },
+        {
+          "id": "ac-1952-they-do-it-with-mirrors",
+          "t": "They Do It with Mirrors",
+          "n": "1952",
+          "note": "Also published as Murder with Mirrors"
+        },
+        {
+          "id": "ac-1953-a-pocket-full-of-rye",
+          "t": "A Pocket Full of Rye",
+          "n": "1953"
+        },
+        {
+          "id": "ac-1957-4-50-from-paddington",
+          "t": "4.50 from Paddington",
+          "n": "1957",
+          "note": "Also published as What Mrs. McGillicuddy Saw!"
+        },
+        {
+          "id": "ac-1960-the-adventure-of-the-christmas-pudding",
+          "t": "The Adventure of the Christmas Pudding",
+          "n": "1960",
+          "opt": 1,
+          "note": "Short stories"
+        },
+        {
+          "id": "ac-1961-double-sin-and-other-stories",
+          "t": "Double Sin and Other Stories",
+          "n": "1961",
+          "opt": 1,
+          "note": "Short stories"
+        },
+        {
+          "id": "ac-1962-the-mirror-crack-d-from-side-to-side",
+          "t": "The Mirror Crack'd from Side to Side",
+          "n": "1962",
+          "note": "Also published as The Mirror Crack'd"
+        },
+        {
+          "id": "ac-1964-a-caribbean-mystery",
+          "t": "A Caribbean Mystery",
+          "n": "1964"
+        },
+        {
+          "id": "ac-1965-at-bertram-s-hotel",
+          "t": "At Bertram's Hotel",
+          "n": "1965"
+        },
+        {
+          "id": "ac-1971-nemesis",
+          "t": "Nemesis",
+          "n": "1971"
+        },
+        {
+          "id": "ac-1976-sleeping-murder",
+          "t": "Sleeping Murder",
+          "n": "1976",
+          "note": "Written in the 1940s, held back and published last"
+        },
+        {
+          "id": "ac-1979-miss-marple-s-final-cases-and-two-other-stories",
+          "t": "Miss Marple's Final Cases and Two Other Stories",
+          "n": "1979",
+          "opt": 1,
+          "note": "Short stories"
+        }
+      ]
+    },
+    {
+      "id": "standalones",
+      "title": "The standalones",
+      "sub": "28 novels · 1922–1973",
+      "intro": "Everything outside the two runs: the one-offs — And Then There Were None, Crooked House, Endless Night — and the shorter runs for Tommy and Tuppence, Superintendent Battle and Colonel Race. The Mary Westmacott romances are here too, optional.",
+      "links": [
+        {
+          "label": "The bibliography",
+          "url": "https://en.wikipedia.org/wiki/Agatha_Christie_bibliography"
+        }
+      ],
+      "items": [
+        {
+          "id": "ac-1922-the-secret-adversary",
+          "t": "The Secret Adversary",
+          "n": "1922"
+        },
+        {
+          "id": "ac-1924-the-man-in-the-brown-suit",
+          "t": "The Man in the Brown Suit",
+          "n": "1924"
+        },
+        {
+          "id": "ac-1925-the-secret-of-chimneys",
+          "t": "The Secret of Chimneys",
+          "n": "1925"
+        },
+        {
+          "id": "ac-1929-the-seven-dials-mystery",
+          "t": "The Seven Dials Mystery",
+          "n": "1929"
+        },
+        {
+          "id": "ac-1930-giant-s-bread",
+          "t": "Giant's Bread",
+          "n": "1930",
+          "opt": 1,
+          "note": "As Mary Westmacott — a romance, not a mystery"
+        },
+        {
+          "id": "ac-1931-the-floating-admiral",
+          "t": "The Floating Admiral",
+          "n": "1931",
+          "opt": 1,
+          "note": "Written with members of The Detection Club"
+        },
+        {
+          "id": "ac-1931-the-sittaford-mystery",
+          "t": "The Sittaford Mystery",
+          "n": "1931",
+          "note": "Also published as The Murder at Hazelmoor"
+        },
+        {
+          "id": "ac-1934-unfinished-portrait",
+          "t": "Unfinished Portrait",
+          "n": "1934",
+          "opt": 1,
+          "note": "As Mary Westmacott — a romance, not a mystery"
+        },
+        {
+          "id": "ac-1934-why-didn-t-they-ask-evans",
+          "t": "Why Didn't They Ask Evans?",
+          "n": "1934",
+          "note": "Also published as The Boomerang Clue"
+        },
+        {
+          "id": "ac-1939-murder-is-easy",
+          "t": "Murder Is Easy",
+          "n": "1939",
+          "note": "Also published as Easy to Kill"
+        },
+        {
+          "id": "ac-1939-and-then-there-were-none",
+          "t": "And Then There Were None",
+          "n": "1939",
+          "note": "Also published as Ten Little Indians"
+        },
+        {
+          "id": "ac-1941-n-or-m",
+          "t": "N or M?",
+          "n": "1941"
+        },
+        {
+          "id": "ac-1944-towards-zero",
+          "t": "Towards Zero",
+          "n": "1944"
+        },
+        {
+          "id": "ac-1944-absent-in-the-spring",
+          "t": "Absent in the Spring",
+          "n": "1944",
+          "opt": 1,
+          "note": "As Mary Westmacott — a romance, not a mystery"
+        },
+        {
+          "id": "ac-1945-death-comes-as-the-end",
+          "t": "Death Comes as the End",
+          "n": "1945"
+        },
+        {
+          "id": "ac-1945-sparkling-cyanide",
+          "t": "Sparkling Cyanide",
+          "n": "1945",
+          "note": "Also published as Remembered Death"
+        },
+        {
+          "id": "ac-1948-the-rose-and-the-yew-tree",
+          "t": "The Rose and the Yew Tree",
+          "n": "1948",
+          "opt": 1,
+          "note": "As Mary Westmacott — a romance, not a mystery"
+        },
+        {
+          "id": "ac-1949-crooked-house",
+          "t": "Crooked House",
+          "n": "1949"
+        },
+        {
+          "id": "ac-1951-they-came-to-baghdad",
+          "t": "They Came to Baghdad",
+          "n": "1951"
+        },
+        {
+          "id": "ac-1952-a-daughter-s-a-daughter",
+          "t": "A Daughter's a Daughter",
+          "n": "1952",
+          "opt": 1,
+          "note": "As Mary Westmacott — a romance, not a mystery"
+        },
+        {
+          "id": "ac-1954-destination-unknown",
+          "t": "Destination Unknown",
+          "n": "1954",
+          "note": "Also published as So Many Steps to Death"
+        },
+        {
+          "id": "ac-1956-the-burden",
+          "t": "The Burden",
+          "n": "1956",
+          "opt": 1,
+          "note": "As Mary Westmacott — a romance, not a mystery"
+        },
+        {
+          "id": "ac-1958-ordeal-by-innocence",
+          "t": "Ordeal by Innocence",
+          "n": "1958"
+        },
+        {
+          "id": "ac-1961-the-pale-horse",
+          "t": "The Pale Horse",
+          "n": "1961"
+        },
+        {
+          "id": "ac-1967-endless-night",
+          "t": "Endless Night",
+          "n": "1967"
+        },
+        {
+          "id": "ac-1968-by-the-pricking-of-my-thumbs",
+          "t": "By the Pricking of My Thumbs",
+          "n": "1968"
+        },
+        {
+          "id": "ac-1970-passenger-to-frankfurt",
+          "t": "Passenger to Frankfurt",
+          "n": "1970"
+        },
+        {
+          "id": "ac-1973-postern-of-fate",
+          "t": "Postern of Fate",
+          "n": "1973"
+        }
+      ]
+    }
+  ]
+}

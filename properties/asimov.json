@@ -1,0 +1,199 @@
+{
+  "slug": "asimov",
+  "title": "The Foundation universe",
+  "subtitle": "Isaac Asimov — Foundation, Robot and Empire",
+  "kind": "books",
+  "popularity": 52,
+  "year": "1950–1999",
+  "blurb": "Isaac Asimov's Foundation, Robot and Empire novels as one future history, in the order he published them — which is the order that keeps the later books' surprises intact.",
+  "unit": {
+    "one": "book",
+    "many": "books"
+  },
+  "verb": {
+    "base": "read",
+    "past": "read",
+    "ing": "reading"
+  },
+  "accent": "#3D4C86",
+  "accentDark": "#E3B84C",
+  "tiers": false,
+  "notes": [
+    [
+      "Publication order, not chronology.",
+      "Asimov wrote these as three separate series across forty years and only merged them into a single future history late on. The later books exist to recast the earlier ones, so the internal chronology hands you answers before you have met the questions — most obviously the two Foundation prequels, which were written last and explain things the original trilogy is still busy setting up. Read them as they arrived."
+    ],
+    [
+      "The chronological order, if you want it anyway.",
+      "For the books on this page it runs: I, Robot → The Caves of Steel → The Naked Sun → The Robots of Dawn → Robots and Empire → The Stars, Like Dust → The Currents of Space → Pebble in the Sky → Prelude to Foundation → Forward the Foundation → Foundation → Foundation and Empire → Second Foundation → Foundation's Edge → Foundation and Earth. That is a good second pass and a poor first one. It is offered here as a note rather than a second list — there is one list on this page, and the boxes do not mind what order you tick them in."
+    ],
+    [
+      "The sections are the three series; the order is publication.",
+      "Rows run by year of publication inside every section, which is where the two orders actually part company: the chronology moves the Foundation prequels to the front and reshuffles the Empire trio. The sections themselves are led by Foundation because it is the reason most people are here, and deliberately not by the chronology, which would run Robot, Empire, Foundation."
+    ],
+    [
+      "Four optional rows Asimov did not write alone.",
+      "Wikipedia's Foundation series infobox files Foundation's Fear, Foundation and Chaos and Foundation's Triumph — by Gregory Benford, Greg Bear and David Brin — among the series' books, and the Robot series article files The Positronic Man, which Robert Silverberg expanded from an Asimov novelette. They are here because the source puts them here, marked optional because they are not his. Skip all four and you have missed nothing the rest of the page needs."
+    ],
+    [
+      "Novels only.",
+      "The robot short stories and the collections that hold them are out — I, Robot is here because it is a novel-length fixup and the series' first book, not as a stand-in for the collections. So is the Empire short story Blind Alley, and so are Nemesis and The End of Eternity, which the source treats as adjacent rather than part of the series. The Robot City, Robots and Aliens and Robots in Time novels, Roger MacBride Allen's Caliban trilogy, the Tiedemann robot mysteries and the Reichert I, Robot prequels are all outside what the articles count as these series."
+    ],
+    [
+      "Hours are not tracked.",
+      "Every book counts as one and nothing on this page is weighted. Page counts differ by edition, a page is not an hour, and one weighted row would quietly turn every other row into an hour — so there are none at all."
+    ],
+    "Titles, years, series membership and the chronological ordering read from Wikipedia's Foundation universe, Foundation (novel series), Robot series and Galactic Empire series articles."
+  ],
+  "sections": [
+    {
+      "id": "foundation",
+      "title": "Foundation",
+      "sub": "1951–1993 · seven novels · publication order",
+      "open": true,
+      "intro": "The trilogy, then the two sequels Asimov wrote thirty years later, then the two prequels he finished with. Every one of them was written for a reader who had already read the ones before it.",
+      "items": [
+        {
+          "id": "asi-1951-foundation",
+          "t": "Foundation",
+          "n": "1951",
+          "note": "The original trilogy"
+        },
+        {
+          "id": "asi-1952-foundation-and-empire",
+          "t": "Foundation and Empire",
+          "n": "1952",
+          "note": "The original trilogy"
+        },
+        {
+          "id": "asi-1953-second-foundation",
+          "t": "Second Foundation",
+          "n": "1953",
+          "note": "The original trilogy"
+        },
+        {
+          "id": "asi-1982-foundation-s-edge",
+          "t": "Foundation's Edge",
+          "n": "1982",
+          "note": "Sequel"
+        },
+        {
+          "id": "asi-1986-foundation-and-earth",
+          "t": "Foundation and Earth",
+          "n": "1986",
+          "note": "Sequel"
+        },
+        {
+          "id": "asi-1988-prelude-to-foundation",
+          "t": "Prelude to Foundation",
+          "n": "1988",
+          "note": "Prequel · written last, and it belongs last"
+        },
+        {
+          "id": "asi-1993-forward-the-foundation",
+          "t": "Forward the Foundation",
+          "n": "1993",
+          "note": "Prequel · written last, and it belongs last"
+        }
+      ]
+    },
+    {
+      "id": "robot",
+      "title": "The Robot novels",
+      "sub": "1950–1985 · five books · publication order",
+      "intro": "A fixup of the early robot stories, then four detective novels starring Elijah Baley and R. Daneel Olivaw — the last two written decades after the first two, once Asimov had decided all of this was one history.",
+      "items": [
+        {
+          "id": "asi-1950-i-robot",
+          "t": "I, Robot",
+          "n": "1950",
+          "note": "Fixup novel — nine early robot stories woven together"
+        },
+        {
+          "id": "asi-1954-the-caves-of-steel",
+          "t": "The Caves of Steel",
+          "n": "1954",
+          "note": "Baley and Olivaw, novel 1"
+        },
+        {
+          "id": "asi-1957-the-naked-sun",
+          "t": "The Naked Sun",
+          "n": "1957",
+          "note": "Baley and Olivaw, novel 2"
+        },
+        {
+          "id": "asi-1983-the-robots-of-dawn",
+          "t": "The Robots of Dawn",
+          "n": "1983",
+          "note": "Baley and Olivaw, novel 3"
+        },
+        {
+          "id": "asi-1985-robots-and-empire",
+          "t": "Robots and Empire",
+          "n": "1985",
+          "note": "Baley and Olivaw, novel 4"
+        }
+      ]
+    },
+    {
+      "id": "empire",
+      "title": "The Empire novels",
+      "sub": "1950–1952 · three books · publication order",
+      "intro": "Asimov's earliest novels, and the thinnest connection of the three series: each is a complete story on its own, tied to the rest by setting rather than by plot. They sit last here because they are the least load-bearing, not because they come last.",
+      "items": [
+        {
+          "id": "asi-1950-pebble-in-the-sky",
+          "t": "Pebble in the Sky",
+          "n": "1950",
+          "note": "Asimov's first published novel"
+        },
+        {
+          "id": "asi-1951-the-stars-like-dust",
+          "t": "The Stars, Like Dust",
+          "n": "1951"
+        },
+        {
+          "id": "asi-1952-the-currents-of-space",
+          "t": "The Currents of Space",
+          "n": "1952"
+        }
+      ]
+    },
+    {
+      "id": "continuations",
+      "title": "Not Asimov alone",
+      "sub": "1992–1999 · four books · optional",
+      "intro": "Books the source files with these series but Asimov did not write by himself. Optional rows: tick them or ignore them, nothing here depends on them.",
+      "items": [
+        {
+          "id": "asi-1992-the-positronic-man",
+          "t": "The Positronic Man",
+          "n": "1992",
+          "note": "With Robert Silverberg · expands Asimov's 1976 novelette",
+          "opt": 1
+        },
+        {
+          "id": "asi-1997-foundation-s-fear",
+          "t": "Foundation's Fear",
+          "n": "1997",
+          "note": "Gregory Benford",
+          "opt": 1
+        },
+        {
+          "id": "asi-1998-foundation-and-chaos",
+          "t": "Foundation and Chaos",
+          "n": "1998",
+          "note": "Greg Bear",
+          "opt": 1
+        },
+        {
+          "id": "asi-1999-foundation-s-triumph",
+          "t": "Foundation's Triumph",
+          "n": "1999",
+          "note": "David Brin",
+          "opt": 1
+        }
+      ]
+    }
+  ]
+}

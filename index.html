@@ -1709,6 +1709,26 @@ let MANIFEST = [
     "random": true
   },
   {
+    "slug": "grand-theft-auto",
+    "media": [
+      "games"
+    ],
+    "title": "Grand Theft Auto",
+    "subtitle": "every released game in order, expansions and handhelds marked",
+    "kind": "games",
+    "year": "1997–2013",
+    "popularity": 86,
+    "blurb": "Top-down Liberty City to widescreen Los Santos — about 213 hours of story, 146 of it the mainline.",
+    "accent": "#A3195B",
+    "accentDark": "#FF5FA2",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 15,
+    "totalw": 212.66
+  },
+  {
     "slug": "x-men",
     "media": [
       "comics"
@@ -3641,6 +3661,25 @@ let MANIFEST = [
     "total": 15
   },
   {
+    "slug": "agatha-christie",
+    "media": [
+      "books"
+    ],
+    "title": "Agatha Christie",
+    "subtitle": "Poirot, Marple and the standalones",
+    "kind": "books",
+    "year": "1921–1976",
+    "popularity": 58,
+    "blurb": "Every Christie novel in publication order — the Poirot run, the Marple run, and the standalones. The short-story collections ride alongside marked optional, and no row note gives anything away.",
+    "accent": "#1F5138",
+    "accentDark": "#D9B65E",
+    "unit": {
+      "one": "book",
+      "many": "books"
+    },
+    "total": 85
+  },
+  {
     "slug": "dragon-age",
     "media": [
       "games"
@@ -3880,6 +3919,25 @@ let MANIFEST = [
     "total": 37
   },
   {
+    "slug": "asimov",
+    "media": [
+      "books"
+    ],
+    "title": "The Foundation universe",
+    "subtitle": "Isaac Asimov — Foundation, Robot and Empire",
+    "kind": "books",
+    "year": "1950–1999",
+    "popularity": 52,
+    "blurb": "Isaac Asimov's Foundation, Robot and Empire novels as one future history, in the order he published them — which is the order that keeps the later books' surprises intact.",
+    "accent": "#3D4C86",
+    "accentDark": "#E3B84C",
+    "unit": {
+      "one": "book",
+      "many": "books"
+    },
+    "total": 19
+  },
+  {
     "slug": "ultimate-marvel",
     "media": [
       "comics"
@@ -4019,6 +4077,25 @@ let MANIFEST = [
     },
     "total": 18,
     "totalw": 11.07
+  },
+  {
+    "slug": "nathan-fielder",
+    "media": [
+      "tv"
+    ],
+    "title": "Nathan Fielder",
+    "subtitle": "everything he created, in order",
+    "kind": "tv",
+    "year": "2013–2025",
+    "popularity": 44,
+    "blurb": "Deadpan business advice on basic cable, life-size rehearsals of conversations nobody wants to have, and a marriage inside a home-renovation show — everything Nathan Fielder created, in the order it aired.",
+    "accent": "#3F6B62",
+    "accentDark": "#9EDCC9",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 54
   },
   {
     "slug": "indie-essentials",
@@ -4358,7 +4435,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '5fd37ea502ac';
+const BUILD = '7bd8750568b6';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
