@@ -482,6 +482,10 @@ footer a{color:var(--steel)}
 #fp-list .fpfav:focus-visible,#hfriends .fpfav:focus-visible{opacity:1}
 #fp-list .fpfav:hover,#hfriends .fpfav:hover{color:var(--signal)}
 #fp-list .fpfav.on,#hfriends .fpfav.on{opacity:1;color:var(--signal)}
+/* A row you cannot favourite still needs the star's WIDTH, or the name
+   jumps left of every row above it — which is what a pending request
+   looked like. Same element, same class, no ink and no target. */
+.fpfav.ghost{visibility:hidden;pointer-events:none}
 /* The 5.5-row peek (CLU-120/122). --pkh cuts the wrapper through the middle
    of the sixth row's text, so the edge reads as a cut and not as a short
    list; both numbers are measured off a real row in pkOn, because the two
@@ -3402,7 +3406,7 @@ async function renderFriends(){
         + esc(id) + '" aria-pressed="' + (fav.has(id) ? 'true' : 'false')
         + '" aria-label="' + (fav.has(id) ? 'Unfavourite ' : 'Favourite ')
         + esc(nm(id)) + '">' + (fav.has(id) ? '★' : '☆') + '</button>'
-      : '')
+      : '<button class="fpfav ghost" tabindex="-1" aria-hidden="true">☆</button>')
     + '<span class="hlt"><b>' + esc(nm(id)) + '</b></span>'
     + '<button class="aquiet" data-unfr="' + esc(id) + '" data-verb="' + verb
     + '" style="margin-left:12px">' + verb + '</button>'
@@ -3410,7 +3414,7 @@ async function renderFriends(){
   fhost.innerHTML = (mut.length || waiting.length)
     ? pkHTML(ranked.map(i=> row(i, 'friends', 'remove', true))
         .concat(waiting.map(i=> row(i, 'waiting on them', 'cancel', false))),
-        'friends')
+        'friends', 'home-friends')
     : '<div class="hled" style="cursor:default">'
       + '<span class="hlt" style="color:var(--ink-3)">Share your friend code'
       + ' from the account page and they land here.</span></div>';
@@ -3445,11 +3449,22 @@ async function renderFriends(){
 // so one friend's shelf opening says nothing about the next.
 const PEEK_KEEP = 5, PEEK_MIN = 7;
 let _pkn = 0;
-function pkHTML(rows, noun){
+// Which peeks the reader has opened, keyed by a stable name rather than by
+// the element id, which changes on every render. Survives re-renders; not
+// persisted across loads, which matches how a peek is meant to feel.
+const PKOPEN = new Set();
+// `key` is a STABLE identity for this peek, and it is what keeps an open list
+// open. The element id cannot do that job — it is a fresh counter every
+// render, so any repaint produced a brand-new collapsed list. Favouriting a
+// friend was the visible case: you expand the list to reach someone below the
+// fold, press the star, and the re-render that re-sorts favourites to the top
+// threw the open state away with the old DOM.
+function pkHTML(rows, noun, key){
   const id = 'pk' + (++_pkn);
+  const k = key ? ' data-pk="' + esc(key) + '"' : '';
   const wrap = '<div class="pkwrap" id="' + id + '">' + rows.join('') + '</div>';
-  if(rows.length < PEEK_MIN) return '<div class="pklist">' + wrap + '</div>';
-  return '<div class="pklist">' + wrap
+  if(rows.length < PEEK_MIN) return '<div class="pklist"' + k + '>' + wrap + '</div>';
+  return '<div class="pklist"' + k + '>' + wrap
     + '<button type="button" class="pkmore" aria-controls="' + id + '"'
     + ' aria-expanded="false" aria-label="Click to expand — show all '
     + rows.length + ' ' + noun + '">click to expand</button>'
@@ -3485,9 +3500,17 @@ function pkOn(el){
     more.setAttribute('aria-expanded', open ? 'true' : 'false');
     less.setAttribute('aria-expanded', open ? 'true' : 'false');
   };
-  more.onclick = ()=> set(true);
+  // remember the choice against the stable key, then re-apply it: this same
+  // call runs after every re-render, so a list you opened comes back open
+  const key = el.dataset.pk;
+  if(key && PKOPEN.has(key)) set(true);
+  more.onclick = ()=>{
+    set(true);
+    if(key) PKOPEN.add(key);
+  };
   less.onclick = ()=>{
     set(false);
+    if(key) PKOPEN.delete(key);
     // collapsing from the bottom of a long list would strand you mid-page
     const first = wrap.firstElementChild;
     if(first) first.scrollIntoView({ block: 'start', behavior:
@@ -3555,7 +3578,7 @@ async function renderFriendsPage(){
       + '<span class="mono" style="margin-left:auto;font-size:10.5px;color:var(--ink-3);flex:none">'
       + e.n + ' / ' + totalOf(e.m) + '</span></div>');
     if(!rows.length) return '';
-    return '<div style="margin:2px 0 10px 2px">' + pkHTML(rows, 'lists') + '</div>';
+    return '<div style="margin:2px 0 10px 2px">' + pkHTML(rows, 'lists', 'shelf:' + id) + '</div>';
   };
   const card = (id, status, verb, star)=>
     '<div class="acard"><div class="afrow" style="align-items:baseline">'
@@ -3564,7 +3587,7 @@ async function renderFriendsPage(){
         + esc(id) + '" aria-pressed="' + (fav.has(id) ? 'true' : 'false')
         + '" aria-label="' + (fav.has(id) ? 'Unfavourite ' : 'Favourite ')
         + esc(nm(id)) + '">' + (fav.has(id) ? '★' : '☆') + '</button>'
-      : '')
+      : '<button class="fpfav ghost" tabindex="-1" aria-hidden="true">☆</button>')
     + '<b>' + esc(nm(id)) + '</b>'
     + '<button class="aquiet" data-unfr="' + esc(id) + '" data-verb="' + verb
     + '" style="margin-left:12px">' + verb + '</button>'
@@ -3630,7 +3653,7 @@ async function renderMyClubs(){
       + '<span class="acode" style="margin-left:auto">' + esc(g.code) + '</span>'
       + '<button class="abtn" data-ccopy="' + esc(g.code) + '">Copy</button>'
       + '<button class="abtn" data-copen="' + esc(g.property_id) + '">Open</button>'
-      + '</div>'), 'clubs');
+      + '</div>'), 'clubs', 'fp-clubs');
     pkAll(host);
     host.querySelectorAll('button[data-ccopy]').forEach(b=>{
       b.onclick = ()=> acctCopy(b.dataset.ccopy, 'Club code copied — send it to whoever’s joining.');
