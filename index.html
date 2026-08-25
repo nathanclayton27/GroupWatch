@@ -3070,19 +3070,19 @@ let MANIFEST = [
       "games"
     ],
     "title": "Persona",
-    "subtitle": "the mainline RPGs in release order, spin-offs cut",
+    "subtitle": "the whole series in release order, spin-offs marked",
     "kind": "games",
     "year": "1996–",
     "popularity": 66,
-    "blurb": "7 games and about 431 hours of story — these are 60-to-100-hour RPGs, and that total is not a typo. The modern trilogy alone is 252.",
+    "blurb": "Six mainline RPGs, about 366 hours of story — the modern trilogy alone averages 84 hours each, and that is not a typo. The editions, the remake and the spin-offs add 560 more.",
     "accent": "#2D3C93",
     "accentDark": "#EF4B5E",
     "unit": {
       "one": "game",
       "many": "games"
     },
-    "total": 7,
-    "totalw": 431.23
+    "total": 20,
+    "totalw": 926.66
   },
   {
     "slug": "gilmore-girls",
@@ -4140,6 +4140,26 @@ let MANIFEST = [
     "random": true
   },
   {
+    "slug": "matt-johnson",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Matt Johnson",
+    "subtitle": "everything he has directed",
+    "kind": "films & tv",
+    "year": "2007–2026",
+    "popularity": 34,
+    "blurb": "Docufiction pranks, the phone that ate the world and a young Anthony Bourdain — the features he directed, and every episode of the shows he made around them.",
+    "accent": "#5C4B8C",
+    "accentDark": "#B9A6F0",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 35
+  },
+  {
     "slug": "one-pace",
     "media": [
       "anime"
@@ -4318,7 +4338,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'a59ec46f3ca6';
+const BUILD = 'b382867f97bb';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

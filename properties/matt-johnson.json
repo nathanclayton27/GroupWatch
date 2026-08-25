@@ -1,0 +1,268 @@
+{
+  "slug": "matt-johnson",
+  "title": "Matt Johnson",
+  "subtitle": "everything he has directed",
+  "kind": "films & tv",
+  "popularity": 34,
+  "year": "2007–2026",
+  "blurb": "Docufiction pranks, the phone that ate the world and a young Anthony Bourdain — the features he directed, and every episode of the shows he made around them.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#5C4B8C",
+  "accentDark": "#B9A6F0",
+  "tiers": false,
+  "notes": [
+    [
+      "Everything he has directed.",
+      "The rule for this list is simple: if his filmography marks him director, it is here — features, television, the web series and the cartoon alike, whether or not he created or wrote them. The one thing kept out on those grounds is Crash Land (2026), where the Director column says no and he is credited executive producer. Executive producing is not directing. His acting roles in other people's films and the Alvvays video are not here either, and neither is the third season of the Viceland show, which was partly produced and never aired."
+    ],
+    [
+      "Hours are not tracked on this list.",
+      "No row carries a runtime, and that is deliberate rather than unfinished. Fourteen of the 35 rows have no published per-episode runtime anywhere: the web series' infobox gives a range for the whole series, 10 to 20 minutes, and nothing per episode, and Matt & Bird Break Loose has no Wikipedia article at all — no runtime, not even episode titles. Weighting only the rows that can be weighted would be worse than weighting none, because an unweighted row silently counts as a full hour and the total would come out confidently wrong. So the list counts entries, not time. The figures that do exist are ready for the day the rest turn up: all five features publish runtimes, 83 minutes for The Dirties up to 121 for BlackBerry, and the Viceland episodes run a flat 22."
+    ],
+    [
+      "Two shows, not one show twice.",
+      "Nirvana the Band the Show, one n, is the independent web series he and Jay McCarrol produced and put online themselves — eleven episodes, and the top section here. Nirvanna the Band the Show, two n's, is the sixteen-episode Viceland series a decade later. The second is a television adaptation of the first: same two men, same Rivoli, remade for a network, with the spelling changed on a lawyer's advice. It is not a later run of the web series, not a revival and not a second season of it. They sit apart on this list because they are separate works, and each is watchable without the other."
+    ],
+    [
+      "The movie does not work cold.",
+      "Nirvanna the Band the Show the Movie is a feature and sits with the features, which is where his filmography files it. It is also a direct continuation of the Viceland show, with the same two men and the same joke running underneath it, so those sixteen episodes come first."
+    ],
+    [
+      "Uncle Stav is not out yet.",
+      "He directed Stavros Halkias' stand-up special, and directing it is enough to earn it a place here. It is missing only because it has not been released: it premieres on Netflix on 8 September 2026, and this catalogue does not list work nobody can watch yet. The generator adds it by itself on the day."
+    ],
+    "Filmography, credits and episode lists from Wikipedia's Matt Johnson (director), Nirvana the Band the Show and Nirvanna the Band the Show articles, read from the tables themselves; release dates from each film's own article."
+  ],
+  "sections": [
+    {
+      "id": "web",
+      "title": "Nirvana the Band the Show",
+      "sub": "2007–2010 · 11 episodes online · one n",
+      "intro": "Where all of it starts. He and Jay McCarrol filmed themselves in Toronto as a band trying to get booked at the Rivoli, put it online themselves, and directed and co-wrote all 11 episodes. Ten in the run to 2009, plus one bonus in 2010. This is the web series with one n — the Viceland show further down is the adaptation of it, made a decade later, and a separate work.",
+      "items": [
+        {
+          "id": "mj-ntbs-e01",
+          "t": "The Beginning",
+          "n": "E1"
+        },
+        {
+          "id": "mj-ntbs-e02",
+          "t": "The Buzz",
+          "n": "E2"
+        },
+        {
+          "id": "mj-ntbs-e03",
+          "t": "The Break-In",
+          "n": "E3"
+        },
+        {
+          "id": "mj-ntbs-e04",
+          "t": "The Basement",
+          "n": "E4"
+        },
+        {
+          "id": "mj-ntbs-e05",
+          "t": "The Banned",
+          "n": "E5"
+        },
+        {
+          "id": "mj-ntbs-e06",
+          "t": "The B-Day",
+          "n": "E6"
+        },
+        {
+          "id": "mj-ntbs-e07",
+          "t": "The Battle of the Bands",
+          "n": "E7"
+        },
+        {
+          "id": "mj-ntbs-e08",
+          "t": "The Burn",
+          "n": "E8"
+        },
+        {
+          "id": "mj-ntbs-e09",
+          "t": "The Band",
+          "n": "E9"
+        },
+        {
+          "id": "mj-ntbs-e10",
+          "t": "The Rivoli",
+          "n": "E10"
+        },
+        {
+          "id": "mj-ntbs-e11",
+          "t": "The Buena Vista Social Club",
+          "n": "Bonus",
+          "note": "Bonus episode, posted in 2010 after the run ended — Matt goes to Cuba"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "early",
+      "title": "The found-footage features",
+      "sub": "2013–2016 · 2 features",
+      "intro": "Two cheap films shot as though a documentary crew were really in the room and losing control of it. He wrote, directed and starred in both. Zapruder Films, the company he set up with Matthew Miller after the first, made the second.",
+      "items": [
+        {
+          "id": "mj-2013-the-dirties",
+          "t": "The Dirties",
+          "n": "2013",
+          "note": "His directorial debut: two high-school students shoot a film about taking revenge on their bullies, and one of them stops pretending"
+        },
+        {
+          "id": "mj-2016-operation-avalanche",
+          "t": "Operation Avalanche",
+          "n": "2016",
+          "note": "Two CIA agents infiltrate NASA hunting a KGB mole, and end up inside a plan to fake the Apollo 11 landing"
+        }
+      ]
+    },
+    {
+      "id": "nirvanna",
+      "title": "Nirvanna the Band the Show",
+      "sub": "2017–2018 · 16 episodes on Viceland · two n's",
+      "intro": "Two Toronto men spend two seasons on elaborate plans to get their band booked at the Rivoli, a band that has never written a song. Scripted scenes, improvisation and candid footage of bystanders who never agreed to be in it. He created it with Jay McCarrol and directed and co-wrote all 16 episodes. A third season was partly produced and remains unaired. This is the television adaptation of the web series at the top of the list, not a later run of it — the spelling gained an n on a lawyer's advice.",
+      "items": [
+        {
+          "id": "mj-ntbts-s1e01",
+          "t": "The Banner",
+          "n": "S1E1"
+        },
+        {
+          "id": "mj-ntbts-s1e02",
+          "t": "The Booking",
+          "n": "S1E2"
+        },
+        {
+          "id": "mj-ntbts-s1e03",
+          "t": "The Bean",
+          "n": "S1E3"
+        },
+        {
+          "id": "mj-ntbts-s1e04",
+          "t": "The Blindside",
+          "n": "S1E4"
+        },
+        {
+          "id": "mj-ntbts-s1e05",
+          "t": "The Big Time",
+          "n": "S1E5"
+        },
+        {
+          "id": "mj-ntbts-s1e06",
+          "t": "The Boy",
+          "n": "S1E6"
+        },
+        {
+          "id": "mj-ntbts-s1e07",
+          "t": "The Buffet",
+          "n": "S1E7"
+        },
+        {
+          "id": "mj-ntbts-s1e08",
+          "t": "The Bank",
+          "n": "S1E8"
+        },
+        {
+          "id": "mj-ntbts-s2e01",
+          "t": "The Burger",
+          "n": "S2E1"
+        },
+        {
+          "id": "mj-ntbts-s2e02",
+          "t": "The Boost",
+          "n": "S2E2"
+        },
+        {
+          "id": "mj-ntbts-s2e03",
+          "t": "The Buddy",
+          "n": "S2E3"
+        },
+        {
+          "id": "mj-ntbts-s2e04",
+          "t": "The Book",
+          "n": "S2E4"
+        },
+        {
+          "id": "mj-ntbts-s2e05",
+          "t": "The B-Day",
+          "n": "S2E5"
+        },
+        {
+          "id": "mj-ntbts-s2e06",
+          "t": "The Banned",
+          "n": "S2E6"
+        },
+        {
+          "id": "mj-ntbts-s2e07",
+          "t": "The Band List",
+          "n": "S2E7"
+        },
+        {
+          "id": "mj-ntbts-s2e08",
+          "t": "The Banned List 2",
+          "n": "S2E8"
+        }
+      ]
+    },
+    {
+      "id": "mattbird",
+      "title": "Matt & Bird Break Loose",
+      "sub": "2021 · 3 episodes on Amazon Kids+",
+      "intro": "An animated children's show he and Jay McCarrol co-created and starred in, described by his own article as a spiritual successor to Nirvanna the Band the Show. He co-directed and co-wrote all 3 episodes. Wikipedia has no article on it and does not publish the episode titles, so the rows are numbered rather than named.",
+      "items": [
+        {
+          "id": "mj-mbbl-e1",
+          "t": "Episode 1",
+          "n": "E1"
+        },
+        {
+          "id": "mj-mbbl-e2",
+          "t": "Episode 2",
+          "n": "E2"
+        },
+        {
+          "id": "mj-mbbl-e3",
+          "t": "Episode 3",
+          "n": "E3"
+        }
+      ]
+    },
+    {
+      "id": "expansion",
+      "title": "After BlackBerry",
+      "sub": "2023–2026 · 3 features",
+      "intro": "The phone picture turned him into a director other people fund. What he did with that was finally make the Nirvanna film he and Jay McCarrol had been workshopping since 2009, and then a Bourdain biopic in the United States.",
+      "items": [
+        {
+          "id": "mj-2023-blackberry",
+          "t": "BlackBerry",
+          "n": "2023",
+          "note": "The dramatised rise and spectacular fall of the Canadian phone — he plays co-founder Doug Fregin, opposite Jay Baruchel and Glenn Howerton"
+        },
+        {
+          "id": "mj-2025-nirvanna-the-band-the-show-the-movie",
+          "t": "Nirvanna the Band the Show the Movie",
+          "n": "2025",
+          "note": "Continues the show and does not work cold — watch the sixteen episodes first"
+        },
+        {
+          "id": "mj-2026-tony",
+          "t": "Tony",
+          "n": "2026",
+          "note": "Anthony Bourdain's first years cooking in Provincetown, out of Kitchen Confidential — his first American film, with Dominic Sessa as Bourdain"
+        }
+      ]
+    }
+  ]
+}

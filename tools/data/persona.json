@@ -1,44 +1,455 @@
 {
  "p1": {
-  "id": "7773",
+  "id": 7773,
   "name": "Revelations: Persona",
   "main_h": 31.66,
-  "year": 1996
+  "year": 1996,
+  "query": "Revelations: Persona",
+  "hltb_year": 1996,
+  "wiki_year": 1996,
+  "wiki_years": [
+   1996,
+   1999,
+   2009,
+   2010
+  ],
+  "slot": "1996",
+  "main_series": true,
+  "article": "Revelations: Persona",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
  },
  "p2is": {
-  "id": "6972",
+  "id": 6972,
   "name": "Persona 2: Innocent Sin",
   "main_h": 35.76,
-  "year": 1999
+  "year": 1999,
+  "query": "Persona 2: Innocent Sin",
+  "hltb_year": 1999,
+  "wiki_year": 1999,
+  "wiki_years": [
+   1999,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2026
+  ],
+  "slot": "1999",
+  "main_series": true,
+  "article": "Persona 2: Innocent Sin",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
  },
  "p2ep": {
-  "id": "6971",
+  "id": 6971,
   "name": "Persona 2: Eternal Punishment",
   "main_h": 46.87,
-  "year": 2000
+  "year": 2000,
+  "query": "Persona 2: Eternal Punishment",
+  "hltb_year": 2000,
+  "wiki_year": 2000,
+  "wiki_years": [
+   2000,
+   2012,
+   2026
+  ],
+  "slot": "2000",
+  "main_series": true,
+  "article": "Persona 2: Eternal Punishment",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
  },
  "p3": {
-  "id": "8440",
+  "id": 8440,
   "name": "Shin Megami Tensei: Persona 3",
   "main_h": 82.05,
-  "year": 2006
+  "year": 2006,
+  "query": "Shin Megami Tensei: Persona 3",
+  "hltb_year": 2006,
+  "wiki_year": 2006,
+  "wiki_years": [
+   2006,
+   2007,
+   2008
+  ],
+  "slot": "2006",
+  "main_series": true,
+  "article": "Persona 3",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
  },
  "p4": {
-  "id": "8443",
+  "id": 8443,
   "name": "Shin Megami Tensei: Persona 4",
   "main_h": 72.55,
-  "year": 2008
+  "year": 2008,
+  "query": "Shin Megami Tensei: Persona 4",
+  "hltb_year": 2008,
+  "wiki_year": 2008,
+  "wiki_years": [
+   2008,
+   2009
+  ],
+  "slot": "2008",
+  "main_series": true,
+  "article": "Persona 4",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
  },
  "p5": {
-  "id": "15221",
+  "id": 15221,
   "name": "Persona 5",
   "main_h": 97.55,
-  "year": 2016
+  "year": 2016,
+  "query": "Persona 5",
+  "hltb_year": 2016,
+  "wiki_year": 2016,
+  "wiki_years": [
+   2016,
+   2017
+  ],
+  "slot": "2016",
+  "main_series": true,
+  "article": "Persona 5",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
  },
  "p3r": {
-  "id": "129805",
+  "id": 129805,
   "name": "Persona 3 Reload",
   "main_h": 64.79,
-  "year": 2024
+  "year": 2024,
+  "query": "Persona 3 Reload",
+  "hltb_year": 2024,
+  "wiki_year": 2024,
+  "wiki_years": [
+   2024,
+   2025
+  ],
+  "slot": "2024",
+  "main_series": false,
+  "article": "Persona 3 Reload",
+  "why": "ok",
+  "refetched_h": 64.81,
+  "frozen": "shipped figure kept; today's fetch says 64.81"
+ },
+ "p3p": {
+  "id": 8442,
+  "name": "Shin Megami Tensei: Persona 3 Portable",
+  "main_h": 64.49,
+  "year": 2009,
+  "query": "Shin Megami Tensei: Persona 3 Portable",
+  "hltb_year": 2009,
+  "wiki_year": 2009,
+  "wiki_years": [
+   2009,
+   2010,
+   2011,
+   2023
+  ],
+  "slot": "2009b",
+  "main_series": false,
+  "article": "Persona 3 Portable",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p4g": {
+  "id": 6974,
+  "name": "Persona 4 Golden",
+  "main_h": 66.94,
+  "year": 2012,
+  "query": "Persona 4 Golden",
+  "hltb_year": 2012,
+  "wiki_year": 2012,
+  "wiki_years": [
+   2012,
+   2013,
+   2020,
+   2023
+  ],
+  "slot": "2012c",
+  "main_series": false,
+  "article": "Persona 4 Golden",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p5r": {
+  "id": 66630,
+  "name": "Persona 5 Royal",
+  "main_h": 101.34,
+  "year": 2019,
+  "query": "Persona 5 Royal",
+  "hltb_year": 2019,
+  "wiki_year": 2019,
+  "wiki_years": [
+   2019,
+   2020,
+   2022
+  ],
+  "slot": "2019",
+  "main_series": false,
+  "article": "Persona 5 Royal",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p4a": {
+  "id": 6973,
+  "name": "Persona 4 Arena",
+  "main_h": 9.89,
+  "year": 2012,
+  "query": "Persona 4 Arena",
+  "hltb_year": 2012,
+  "wiki_year": 2012,
+  "wiki_years": [
+   2012,
+   2013
+  ],
+  "slot": "2012a",
+  "main_series": false,
+  "article": "Persona 4 Arena",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p4au": {
+  "id": 21257,
+  "name": "Persona 4 Arena Ultimax",
+  "main_h": 10.49,
+  "year": 2014,
+  "query": "Persona 4 Arena Ultimax",
+  "hltb_year": 2014,
+  "wiki_year": 2013,
+  "wiki_years": [
+   2013,
+   2014,
+   2022
+  ],
+  "slot": "2013",
+  "main_series": false,
+  "article": "Persona 4 Arena Ultimax",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "pq": {
+  "id": 18709,
+  "name": "Persona Q: Shadow of the Labyrinth",
+  "main_h": 60.4,
+  "year": 2014,
+  "query": "Persona Q: Shadow of the Labyrinth",
+  "hltb_year": 2014,
+  "wiki_year": 2014,
+  "wiki_years": [
+   2014
+  ],
+  "slot": "2014",
+  "main_series": false,
+  "article": "Persona Q: Shadow of the Labyrinth",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p4d": {
+  "id": 27669,
+  "name": "Persona 4: Dancing All Night",
+  "main_h": 8.98,
+  "year": 2015,
+  "query": "Persona 4: Dancing All Night",
+  "hltb_year": 2015,
+  "wiki_year": 2015,
+  "wiki_years": [
+   2015,
+   2018
+  ],
+  "slot": "2015",
+  "main_series": false,
+  "article": "Persona 4: Dancing All Night",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p3d": {
+  "id": 47901,
+  "name": "Persona 3: Dancing in Moonlight",
+  "main_h": 6.96,
+  "year": 2018,
+  "query": "Persona 3: Dancing in Moonlight",
+  "hltb_year": 2018,
+  "wiki_year": 2018,
+  "wiki_years": [
+   2018
+  ],
+  "slot": "2018a",
+  "main_series": false,
+  "article": "Persona 3: Dancing in Moonlight",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p5d": {
+  "id": 47902,
+  "name": "Persona 5: Dancing in Starlight",
+  "main_h": 7.58,
+  "year": 2018,
+  "query": "Persona 5: Dancing in Starlight",
+  "hltb_year": 2018,
+  "wiki_year": 2018,
+  "wiki_years": [
+   2018
+  ],
+  "slot": "2018b",
+  "main_series": false,
+  "article": "Persona 5: Dancing in Starlight",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "pq2": {
+  "id": 62414,
+  "name": "Persona Q2: New Cinema Labyrinth",
+  "main_h": 48.17,
+  "year": 2018,
+  "query": "Persona Q2: New Cinema Labyrinth",
+  "hltb_year": 2018,
+  "wiki_year": 2018,
+  "wiki_years": [
+   2018,
+   2019
+  ],
+  "slot": "2018c",
+  "main_series": false,
+  "article": "Persona Q2: New Cinema Labyrinth",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p5s": {
+  "id": 72069,
+  "name": "Persona 5 Strikers",
+  "main_h": 35.18,
+  "year": 2020,
+  "query": "Persona 5 Strikers",
+  "hltb_year": 2020,
+  "wiki_year": 2020,
+  "wiki_years": [
+   2020,
+   2021
+  ],
+  "slot": "2020",
+  "main_series": false,
+  "article": "Persona 5 Strikers",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p5t": {
+  "id": 129806,
+  "name": "Persona 5 Tactica",
+  "main_h": 24.09,
+  "year": 2023,
+  "query": "Persona 5 Tactica",
+  "hltb_year": 2023,
+  "wiki_year": 2023,
+  "wiki_years": [
+   2023
+  ],
+  "slot": "2023",
+  "main_series": false,
+  "article": "Persona 5 Tactica",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p5x": {
+  "id": 130122,
+  "name": "Persona 5: The Phantom X",
+  "main_h": 50.92,
+  "year": 2025,
+  "query": "Persona 5: The Phantom X",
+  "hltb_year": 2025,
+  "wiki_year": 2025,
+  "wiki_years": [
+   2025
+  ],
+  "slot": "2025",
+  "main_series": false,
+  "article": "Persona 5: The Phantom X",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p3fes": {
+  "id": 8441,
+  "name": "Shin Megami Tensei: Persona 3 FES",
+  "main_h": 80.12,
+  "year": 2007,
+  "query": "Shin Megami Tensei: Persona 3 FES",
+  "hltb_year": 2007,
+  "wiki_year": 2007,
+  "wiki_years": [
+   2007,
+   2008
+  ],
+  "slot": "2007",
+  "main_series": false,
+  "article": "Persona 3 FES",
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p3answer": {
+  "id": 45481,
+  "name": "Shin Megami Tensei: Persona 3 - The Answer",
+  "main_h": 28.5,
+  "year": 2007,
+  "query": "Shin Megami Tensei: Persona 3 - The Answer",
+  "hltb_year": 2007,
+  "wiki_year": 2007,
+  "wiki_years": [
+   2007
+  ],
+  "slot": null,
+  "main_series": false,
+  "article": null,
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p3r_aigis": {
+  "id": 146689,
+  "name": "Persona 3 Reload - Episode Aigis: The Answer",
+  "main_h": 18.94,
+  "year": 2024,
+  "query": "Persona 3 Reload - Episode Aigis: The Answer",
+  "hltb_year": 2024,
+  "wiki_year": 2024,
+  "wiki_years": [
+   2024
+  ],
+  "slot": null,
+  "main_series": false,
+  "article": null,
+  "why": "ok",
+  "frozen": "shipped figure, unchanged today"
+ },
+ "p4rev": {
+  "id": 169416,
+  "name": "Persona 4 Revival",
+  "main_h": null,
+  "year": 2027,
+  "query": "Persona 4 Revival",
+  "hltb_year": 2027,
+  "wiki_year": 2027,
+  "wiki_years": [
+   2027
+  ],
+  "slot": "2027",
+  "main_series": false,
+  "article": "Persona 4 Revival",
+  "why": "verified by name but no main-story figure"
+ },
+ "p6": {
+  "id": 149790,
+  "name": "Persona 6",
+  "main_h": null,
+  "year": null,
+  "query": "Persona 6",
+  "hltb_year": null,
+  "wiki_year": null,
+  "wiki_years": [],
+  "slot": "TBAb",
+  "main_series": true,
+  "article": "Persona 6",
+  "why": "verified by name but no main-story figure"
  }
 }

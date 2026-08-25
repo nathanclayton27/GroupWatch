@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and forty-seven lists, from a ten-episode anime to a 1,337-spine film
+One hundred and forty-eight lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -42,13 +42,20 @@ pages), and *Time Loops* — the group's own Groundhog Day collection, grown
 to 189 entries via Wikipedia's time-loop film list and two Reddit
 compilations, every episode verified against the episode tables.
 
+**Directors and actors.** Kubrick, Spielberg, Kurosawa, Hitchcock, Scorsese,
+Tarantino, the Coens, Fincher, Carpenter, Coppola, Satoshi Kon, Raimi, Lynch,
+Nolan, both Andersons, Ridley Scott — and *Matt Johnson* — everything he
+has directed, from the eleven web episodes of *Nirvana the Band the Show*
+through *BlackBerry* to the Bourdain biopic, with the Viceland remake and
+a children's cartoon in between.
+
 **Games with story-only hours.** *Kingdom Hearts*, *Metal Gear*, *Zelda*,
 *Yakuza / Like a Dragon*, the *FromSoftware* Souls line, *Final Fantasy*,
 *Resident Evil*, mainline *Mario* and *Metroid*, *Castlevania* (with style
 chips), *Half-Life & Portal*, *Silent Hill*, *Halo*, *Gears of War* (49 hours of
 numbered campaign, the spin-offs optional beside it), the whole *Ace
 Attorney* docket, *Fallout* and *The Elder Scrolls* with their story DLC as
-optional rows, *Persona* (431 hours, stated plainly), *Dragon Quest*,
+optional rows, *Persona* (the whole franchise, 927 hours, stated plainly), *Dragon Quest*,
 *Mass Effect*, *Dragon Age*, *Mega Man* (94 games across eight sub-series),
 the *James Bond* games on their own page apart from the films, an
 *FPS canon* gated on three or more published best-of lists, and a
