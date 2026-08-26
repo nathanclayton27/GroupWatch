@@ -1320,7 +1320,7 @@ footer a{color:var(--steel)}
        list-level opinions together, in the one place a statement about all
        600 rows can live without repeating itself on any of them -->
   <h1 id="ptitle"><button class="tstar" id="b-star" aria-pressed="false"
-    title="Keep this at the top of the menu">☆</button><span id="ptitle-t"></span><span class="lth" id="lthumb"></span></h1>
+    title="Put this on the mantle">☆</button><span id="ptitle-t"></span><span class="lth" id="lthumb"></span></h1>
   <p class="tagline" id="pblurb"></p>
   <div class="strip" id="strip" role="img" aria-label="Your progress"></div>
   <div class="stack hide" id="stack" role="img" aria-label="Everyone’s progress"></div>
@@ -5547,7 +5547,7 @@ function filterMenu(q){
       // markers lead the title. Every row in a group carries the same ones, so
       // the titles still line up: a trailing star drifted to the right-hand
       // edge whenever a title wrapped, which looked like a different control.
-      + (st.has(m.slug) ? '<span class="mstar" aria-label="Favourite">★</span>' : '')
+      + (st.has(m.slug) ? '<span class="mstar" aria-label="On the mantle">★</span>' : '')
       + (locked ? '<span class="msec">Secret</span>' : '')
       + '<span class="pm-n">'+esc(locked ? (m.secret.title || 'Secret') : m.title)+'</span>'
       + '</span>'
@@ -5562,8 +5562,8 @@ function filterMenu(q){
     // the whole collection (Nathan's quiet-menu rule, CLU-56).
     const fav = list.filter(m=> st.has(m.slug));
     html = (fav.length
-        ? '<div class="pgroup">Favourites</div>' + fav.map(row).join('')
-        : '<div class="pnone">Star a list and it lives here.</div>')
+        ? '<div class="pgroup">On the mantle</div>' + fav.map(row).join('')
+        : '<div class="pnone">Put a list on the mantle and it waits here.</div>')
       + '<button class="prow" id="p-wall">'
       + '<span class="pm-t"><span class="pm-n">The catalogue</span></span>'
       // `list` is menuList(), which shows the gated list to anyone signed in —
@@ -5580,7 +5580,7 @@ function filterMenu(q){
     const rest = hits.filter(m=> !st.has(m.slug));
     // a heading is only worth its space once the split actually splits
     html = (fav.length && rest.length)
-      ? '<div class="pgroup">Favourites</div>' + fav.map(row).join('')
+      ? '<div class="pgroup">On the mantle</div>' + fav.map(row).join('')
         + '<div class="pgroup">Everything else</div>' + rest.map(row).join('')
       : fav.concat(rest).map(row).join('');
   }
@@ -5724,7 +5724,9 @@ function paintStar(){
   b.classList.toggle('on', on);
   b.textContent = on ? '★' : '☆';
   b.setAttribute('aria-pressed', on);
-  b.title = on ? 'Remove from the top of the menu' : 'Keep this at the top of the menu';
+  // "the mantle" rather than "favourites" (CLU-378): a star reads as a
+  // rating, and the job is a location — this one is ready to pick up.
+  b.title = on ? 'Take this off the mantle' : 'Put this on the mantle';
 }
 
 function cardHTML(m, why, compact, starred){
