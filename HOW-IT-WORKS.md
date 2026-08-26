@@ -268,7 +268,25 @@ rather than the browser: `groups` (code, name, property, dates, shift) and
 `group_members` (`group_id` + `user_id`, display name, colour index).
 
 `localStorage` holds `gw:group:<slug>` — which of your groups is on screen,
-per property — and `gw:groupall:<slug>`, the experimental combined view.
+per property — `gw:groupall:<slug>`, the experimental combined view, and
+`gw:clubtile:<slug>`, whether the club tile is shut here.
+
+### The club tile
+
+The panel is one bar that opens. Shut, it says which club is drawing the strip,
+how many people are in it and their colours; open, it holds the switcher, the
+roster, the code you send people, and — behind three icons — the rename, the
+schedule, and everything that is done once (your name, refresh, calendar,
+leave, and the owner's member list). It is a `<details>`, the same element the
+list's own sections fold with, so the keyboard and screen-reader behaviour is
+the browser's rather than ours. Open is the default and shut is remembered per
+property: the tile is where the club lives, so someone who only wants the list
+closes it once.
+
+The member legend moved into it. It used to sit under the stack as a wrapped
+line; inside the tile it is the roster, one row per person, and it is still
+`#glegend` painted by `paintStack()` — which is why it is a fixed slot in the
+markup rather than a string `renderGroupPanel()` builds.
 
 ### More than one group per property
 
@@ -276,12 +294,16 @@ Nothing in the schema ever limited you to one: `group_members` is keyed on
 (group, user) with no per-property constraint, and `groups.property_id` scopes
 what `loadGroups()` returns. What was missing was a way in — the create/join
 form was hidden the moment you were in a group, so a second one was
-unreachable. `addingGroup` reopens it from inside a group, and a `Showing`
-select picks which group the strip draws.
+unreachable. `addingGroup` reopens it from the tile's foot, and the switcher
+picks which group the strip draws. Its options carry a heading — the clubs for
+this list sit under one `<optgroup>` — because universal groups are coming and
+they need a second one beside it; a group and a watch club can then share a
+name harmlessly, since they are never in the same section.
 
 Renaming needs no new policy either. "creator updates group" already covers
-`name`, the same policy that lets an owner move the schedule, so the rename row
-is owner-only for the same reason the date controls are.
+`name`, the same policy that lets an owner move the schedule, so the rename
+drawer is owner-only for the same reason the date controls are — and a member
+is given no pencil at all rather than one that answers a press with a refusal.
 
 A join code belongs to one property. Joining one from the wrong page succeeds
 in the database and then shows nothing, because the panel only loads groups

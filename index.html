@@ -149,8 +149,17 @@ h1 em{font-style:normal;color:var(--signal)}
 .stackrow .tick.veil{background:transparent}
 .pacer{position:absolute;top:-5px;bottom:-5px;width:1px;background:var(--ink-3);z-index:60;pointer-events:none}
 .pacer::before{content:"";position:absolute;top:0;left:-2px;width:5px;height:5px;background:var(--ink-3)}
-.glegend{display:flex;gap:7px 18px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+/* The legend is the roster now (CLU-52). It used to be a wrapped line under
+   the stack that most people skimmed; inside the club tile it is the main
+   thing the tile has to show, so it runs down a column and the last-active,
+   the count and the pace tag line up under each other rather than drifting
+   with the length of the name beside them. */
+.glegend{display:flex;flex-direction:column;gap:5px;margin:0}
 .gitem{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--ink-2)}
+/* the name is the only part that can give, so it ellipses rather than
+   pushing the numbers off the row */
+.gitem>span:nth-of-type(2){min-width:0;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
 .gsw{width:9px;height:9px;border-radius:1px;flex:none}
 .gme{color:var(--ink);font-weight:500}
 .gpct{color:var(--ink-3)}
@@ -158,7 +167,6 @@ h1 em{font-style:normal;color:var(--signal)}
   border:1px solid var(--rule-2);border-radius:var(--radius);color:var(--ink-3)}
 .pace.ok{color:var(--done);border-color:var(--done)}
 .pace.behind{color:var(--signal);border-color:var(--signal)}
-.gbar{display:flex;gap:10px 16px;flex-wrap:wrap;align-items:baseline;margin:0 0 14px}
 .gate{position:fixed;inset:0;z-index:60;background:var(--paper);
   display:flex;align-items:center;justify-content:center;padding:24px}
 .gatebox{display:flex;flex-direction:column;align-items:center;gap:12px;
@@ -204,6 +212,55 @@ h1 em{font-style:normal;color:var(--signal)}
   border-radius:var(--radius);padding:1px 5px}
 .gcode{font-family:"IBM Plex Mono",monospace;font-size:15px;letter-spacing:.16em;
   border:1px solid var(--rule-2);border-radius:var(--radius);padding:3px 9px;background:var(--paper)}
+
+/* ------------------------------------------------------------- club tile */
+/* CLU-52. The club panel was eleven controls stacked down a column and most
+   people never touched one. It is one bar now: shut, it says which club is
+   drawing the strip and who is in it; open, it holds the switcher, the
+   roster, the code and — behind three icons — the owner's rename, the
+   schedule and everything destructive. <details> because the list's own
+   sections already fold that way, so the keyboard and the screen reader get
+   the behaviour for free rather than from a class we maintain. */
+/* the tag beats .panel's own padding, which is defined further down */
+details.ctile{padding:0}
+.ctbar{align-items:center;gap:10px;padding:13px 18px}
+/* the phone rule below forces every summary onto two lines for the section
+   header's sake; this bar is one line at every width by design */
+.ctbar::after{content:none}
+.ctbar .lbl{flex:none}
+.cnm{font-weight:500;font-size:14px;letter-spacing:-.01em;min-width:0;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cpl{font-size:11.5px;color:var(--ink-3);flex:none}
+/* who is in it, in stack order, capped at four — past four they stop being
+   countable and the +N beside the name is the number that answers it */
+.cdots{display:flex;gap:3px;margin-left:auto;flex:none}
+.cdots i{width:8px;height:8px;border-radius:1px;display:block}
+.cchev{width:7px;height:7px;flex:none;border-right:1.5px solid var(--ink-3);
+  border-bottom:1.5px solid var(--ink-3);transform:rotate(45deg);
+  position:relative;top:-3px;transition:transform .2s ease,top .2s ease}
+.ctile[open] .cchev{transform:rotate(-135deg);top:1px}
+.cin{padding:14px 18px 18px}
+.chead{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:0 0 11px}
+/* the switcher and the stack-all box are one block under the header, the way
+   a menu hangs off the name it belongs to — and the block is where the second
+   half of the switcher lands when universal groups arrive (CLU-114) */
+.cmenu{display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;margin:0 0 13px}
+.cin .gall{margin:0}
+.cname{font-size:14px;font-weight:500;letter-spacing:-.01em}
+.cico{display:flex;gap:4px;margin-left:auto;flex:none}
+.cicon{width:28px;height:28px;display:grid;place-items:center;font-size:13px;
+  padding:0;border-color:transparent;color:var(--ink-3)}
+.cicon:hover,.cicon[aria-expanded="true"]{border-color:var(--rule-2);color:var(--ink)}
+/* one drawer at a time, opened by its icon, so the tile never grows three
+   forms tall while you are reading the roster */
+.cdrawer{margin:0 0 14px;padding:13px 0 0;border-top:1px solid var(--rule)}
+.cfoot{display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  margin:14px 0 0;padding:12px 0 0;border-top:1px solid var(--rule)}
+/* the code is the chip, not a label beside a Copy button: one target, and it
+   is the thing you are actually sending someone */
+.ccode{font-size:13px;padding:4px 10px;margin-left:auto;cursor:pointer;
+  color:var(--ink-2)}
+.ccode:hover{border-color:var(--ink-3);color:var(--ink)}
 input[type=date]{font-family:inherit;font-size:13px;background:var(--card);color:var(--ink);
   border:1px solid var(--rule-2);border-radius:var(--radius);padding:6px 9px}
 select{font-family:inherit;font-size:13px;background:var(--card);color:var(--ink);
@@ -537,7 +594,9 @@ footer a{color:var(--steel)}
    otherwise remove/cancel shout at rest on one page and whisper on the other */
 #fp-list .aquiet{opacity:0;transition:opacity .15s}
 #fp-list .acard:hover .aquiet{opacity:1}
-.gitem .gfr{opacity:0;transition:opacity .15s;margin-left:4px}
+/* the one thing on a roster row that is an action rather than a fact about
+   the person, so it rides the right edge away from the numbers */
+.gitem .gfr{opacity:0;transition:opacity .15s;margin-left:auto}
 .gitem:hover .gfr{opacity:1}
 /* the favourite star obeys the same law with one exception: once it is ON it
    stays lit at rest, because then it is state and not a control (CLU-121) */
@@ -1362,7 +1421,9 @@ footer a{color:var(--steel)}
   <p class="tagline" id="pblurb"></p>
   <div class="strip" id="strip" role="img" aria-label="Your progress"></div>
   <div class="stack hide" id="stack" role="img" aria-label="Everyone’s progress"></div>
-  <div class="glegend hide" id="glegend"></div>
+  <!-- the legend used to sit here, under the stack. It is the club tile's
+       roster now (CLU-52) — the same element, moved, so paintStack still
+       owns what goes in it -->
   <div class="lbl" id="striplbl"></div>
   <div class="uprow" id="uprow">
     <span class="upnext unext hide" id="upnext"></span>
@@ -1410,31 +1471,53 @@ footer a{color:var(--steel)}
     <p id="authmsg" style="margin:12px 0 0;color:var(--signal)"></p>
   </div>
 
-  <div class="panel hide" id="gpanel">
-    <h3 id="ghead">With other people</h3>
-    <div id="gjoined" class="hide"></div>
-    <div id="gsetup">
-      <p id="gsetup-p"></p>
-      <div class="row">
-        <input type="text" id="gname" placeholder="Your name" maxlength="24" autocomplete="nickname">
-        <span class="lbl">shown to the rest of the club</span>
+  <!-- The club tile (CLU-52). Four regions, and only the first and third are
+       re-rendered by renderGroupPanel: #glegend belongs to paintStack, which
+       is why it is a fixed slot here rather than a string the panel builds.
+       The second heading the switcher grows for universal groups (CLU-114)
+       is an <optgroup> in groupSwitcher() — the markup is laid out for that
+       half so it can be added without rebuilding this. -->
+  <details class="panel ctile hide" id="gpanel" open>
+    <summary class="ctbar">
+      <span class="lbl">clubs</span>
+      <span class="cnm" id="ghead">With other people</span>
+      <span class="cpl mono hide" id="c-pl"></span>
+      <span class="cdots" id="c-dots" aria-hidden="true"></span>
+      <span class="cchev" aria-hidden="true"></span>
+    </summary>
+    <div class="cin">
+      <div id="gjoined" class="hide"></div>
+      <div class="glegend hide" id="glegend"></div>
+      <div class="cfoot hide" id="gfoot"></div>
+      <!-- the message line and the copy field are static because both outlive
+           a render: a flash written into a node renderGroupPanel then replaces
+           would clear itself against a node nobody can see -->
+      <input type="text" id="g-clip" class="hide" readonly spellcheck="false"
+             aria-label="Club code, ready to copy">
+      <p id="gmsg2" style="margin:11px 0 0;color:var(--signal)"></p>
+      <div id="gsetup">
+        <p id="gsetup-p"></p>
+        <div class="row">
+          <input type="text" id="gname" placeholder="Your name" maxlength="24" autocomplete="nickname">
+          <span class="lbl">shown to the rest of the club</span>
+        </div>
+        <div class="row" style="margin-top:14px">
+          <input type="text" id="gtitle" placeholder="Club name" maxlength="40" style="width:190px">
+          <span id="gstart-w"><span class="lbl">Starts</span>
+          <input type="date" id="gstart" aria-label="Starts"></span>
+          <span class="lbl" id="gdate-l">Finish by</span>
+          <input type="date" id="gdate" aria-label="Finish by">
+          <button id="b-gcreate">Start a club</button>
+        </div>
+        <div class="row" style="margin-top:10px">
+          <input type="text" id="gcode" placeholder="Join code" maxlength="6" spellcheck="false"
+                 style="width:120px;text-transform:uppercase;letter-spacing:.12em">
+          <button id="b-gjoin">Join a club</button>
+        </div>
+        <p id="gmsg" style="margin:12px 0 0;color:var(--signal)"></p>
       </div>
-      <div class="row" style="margin-top:14px">
-        <input type="text" id="gtitle" placeholder="Club name" maxlength="40" style="width:190px">
-        <span id="gstart-w"><span class="lbl">Starts</span>
-        <input type="date" id="gstart" aria-label="Starts"></span>
-        <span class="lbl" id="gdate-l">Finish by</span>
-        <input type="date" id="gdate" aria-label="Finish by">
-        <button id="b-gcreate">Start a club</button>
-      </div>
-      <div class="row" style="margin-top:10px">
-        <input type="text" id="gcode" placeholder="Join code" maxlength="6" spellcheck="false"
-               style="width:120px;text-transform:uppercase;letter-spacing:.12em">
-        <button id="b-gjoin">Join a club</button>
-      </div>
-      <p id="gmsg" style="margin:12px 0 0;color:var(--signal)"></p>
     </div>
-  </div>
+  </details>
 
   <div class="panel hide" id="rules">
     <h3 id="ruleshead">House rules</h3>
@@ -5651,7 +5734,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'a26c2abf5cce';
+const BUILD = '4d4a4d3930cf';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -7960,7 +8043,13 @@ async function renderMyClubs(){
     const ids = (mine || []).map(r=> r.group_id);
     if(!ids.length){ card.classList.add('hide'); return; }
     const { data: gs } = await sb.from('groups').select('*').in('id', ids);
-    const rows = (gs || []).sort((a, b)=>
+    // A universal group has no property and no code — both columns are null by
+    // design, so every cell below would print "null" and Open would navigate to
+    // ?p=null. This query has no property filter, so it is the one place a
+    // universal row reaches a renderer that predates them. Skipped rather than
+    // special-cased: groups get their own home on the account page, and until
+    // that ships showing nothing is honest where showing "null" is not.
+    const rows = (gs || []).filter(g=> !g.universal).sort((a, b)=>
       (titleOf(a.property_id) || '').localeCompare(titleOf(b.property_id) || ''));
     if(!rows.length){ card.classList.add('hide'); return; }
     card.classList.remove('hide');
@@ -8060,6 +8149,13 @@ let groupError = '';
 // a time, chosen by the switcher; this opens the create/join form while you are
 // already in one, which is otherwise the only way in and is hidden by then.
 let addingGroup = false;
+// Which of the tile's three drawers is open — 'rename', 'sched', 'more', or
+// nothing. One at a time: the point of folding the panel was that its controls
+// stopped being a column, and three drawers open at once rebuilds the column.
+let gdrawer = '';
+// Shut or open, per property. The tile opens by default because it is the
+// club — someone who only wants the list shuts it once and it stays shut here.
+const TKEY = 'gw:clubtile:' + SLUG;
 // Experimental: stack everyone from every group you are in on this list, rather
 // than one group at a time. Deduplicated by person, so someone in two of your
 // groups is one layer, not two.
@@ -8719,6 +8815,17 @@ function wireName(){
 
 function isOwner(){ return !!(user && group && group.created_by === user.id); }
 
+// "Reading this together" / "Watching this together" — the heading over the
+// clubs that belong to THIS list. It exists to be one of two: universal groups
+// (CLU-114) get "Your groups" beside it, and a heading each is what lets a
+// group and a watch club share a name harmlessly, since they can never be in
+// the same section. A two-word verb ("working through") takes the plain form,
+// the same carve-out groupNoun() makes.
+function togetherLabel(){
+  const v = VERB.ing || '';
+  return v && v.indexOf(' ') < 0 ? cap(v) + ' this together' : 'On this list';
+}
+
 // Which of your groups the strip is drawing. Only worth a control once there
 // is more than one; below that the header already says which group you are in.
 function groupSwitcher(){
@@ -8726,31 +8833,43 @@ function groupSwitcher(){
   // exactly one club has no way to see their own progress on its own, and
   // the switcher never rendered at all below two (CLU-114).
   if(!groups.length) return '';
+  // Just me sits OUTSIDE the group, above it, because it is not a club of
+  // either kind and it has to sort to the top whatever the sections hold.
+  //
+  // The <optgroup> is the switcher's second half arriving early: universal
+  // groups get their own headed section beside this one when CLU-114 lands,
+  // and adding it is one more optgroup rather than a new control. Nothing
+  // below is per-list-only by accident — a group's rows would simply carry
+  // their own heading here.
   const opts = '<option value="'+JUSTME+'"'+(group?'':' selected')
              + '>Just me</option>'
+    + '<optgroup label="'+esc(togetherLabel())+'">'
     + groups.slice()
     .sort((a,b)=> a.name.localeCompare(b.name))
     .map(g=>'<option value="'+esc(g.id)+'"'
             +(group && g.id===group.id?' selected':'')
-            +'>'+esc(g.name)+'</option>').join('');
-  return '<div class="row" style="margin:0 0 10px">'
-    + '<span class="lbl">Showing</span>'
-    + '<select id="g-switch" aria-label="Which club to show"'
-    + (combined() ? ' disabled' : '') + '>'+opts+'</select>'
-    + '<span class="lbl">'
-    + (!group ? 'your own progress, as usual'
-       : combined() ? 'dates and the roster still follow this one'
-       : groups.length > 1 ? 'one of your '+groups.length+' clubs on this list'
-       : 'or just your own')
-    + '</span></div>'
-    // stacking "everyone from all your clubs" needs more than one club, and
-    // needs a club selected at all
-    + (group && groups.length > 1
-       ? '<label class="row gall" style="margin:0 0 14px">'
-         + '<input type="checkbox" id="g-all"'+(allGroups?' checked':'')+'>'
-         + '<span>Stack everyone from all '+groups.length+' clubs</span>'
-         + '<span class="exp">Experimental</span></label>'
-       : '');
+            +'>'+esc(g.name)+'</option>').join('')
+    + '</optgroup>';
+  return '<select id="g-switch" aria-label="Which club to show"'
+    + (combined() ? ' disabled' : '')
+    + ' title="'
+    + (!group ? 'Showing your own progress'
+       : combined() ? 'Dates and the roster still follow this one'
+       : 'Which club the strip is drawing')
+    + '">'+opts+'</select>';
+}
+
+// Stacking "everyone from all your clubs" needs more than one club and a club
+// selected at all. It sits directly under the switcher because it is the same
+// question — who is on the strip — and because that is where it will inherit
+// the rule that universal groups are never stacked in (CLU-114). Its own
+// function only so the switcher can be one control inside the header row.
+function groupStackAll(){
+  if(!(group && groups.length > 1)) return '';
+  return '<label class="row gall">'
+    + '<input type="checkbox" id="g-all"'+(allGroups?' checked':'')+'>'
+    + '<span>Stack everyone from all '+groups.length+' clubs</span>'
+    + '<span class="exp">Experimental</span></label>';
 }
 
 // Renaming is the owner's alone — the same policy that lets them move the
@@ -8886,22 +9005,125 @@ function updateGroupLine(){
     : line + ' ' + who + ' in this club.';
 }
 
+// The bar is the entire tile once it is shut, so it has to answer "who is this
+// list drawing" on its own: the name, how many people, and their colours in
+// the order the stack puts them. Nothing here is a control — the summary is
+// the control, and it is one target across its whole width.
+function paintClubBar(label){
+  $('ghead').textContent = label;
+  const pl = $('c-pl'), dots = $('c-dots');
+  const n = group ? gmembers.length : 0;
+  pl.textContent = n > 1 ? '+' + (n - 1) : '';
+  pl.classList.toggle('hide', n < 2);
+  dots.innerHTML = !group ? '' : gmembers.slice()
+    .sort((a,b)=> readsOf(b).size - readsOf(a).size || a.name.localeCompare(b.name))
+    .slice(0, 4)
+    .map(m=> '<i style="background:var(--m'+(m.ci+1)+')"></i>').join('');
+}
+
+// Shut is remembered, open is the default — the tile is where the club lives,
+// so it starts visible and someone who only wants the list closes it once.
+function wireTile(){
+  const t = $('gpanel');
+  t.open = localStorage.getItem(TKEY) !== '0';
+  // a property, not addEventListener: renderGroupPanel runs on every poll and
+  // a listener added each time would stack up
+  t.ontoggle = ()=> localStorage.setItem(TKEY, t.open ? '1' : '0');
+}
+
+// The three doors that used to be rows down the panel. Rename and the schedule
+// are the owner's alone — the same policy the server enforces — so a member is
+// given neither rather than a control that answers a press with a refusal.
+function clubIcons(){
+  const ico = (id, key, label, glyph)=>
+      '<button class="cicon" type="button" id="'+id+'"'
+    + ' aria-expanded="'+(gdrawer === key ? 'true' : 'false')+'"'
+    + ' aria-controls="cdrawer"'
+    + ' title="'+esc(label)+'" aria-label="'+esc(label)+'">'+glyph+'</button>';
+  return '<span class="cico">'
+    + (isOwner() ? ico('b-cren', 'rename', 'Rename the club', '&#9998;') : '')
+    + (isOwner() ? ico('b-csched', 'sched', 'Schedule', '&#9636;') : '')
+    + ico('b-cmore', 'more', 'Your name, refresh, calendar, leave', '&#8943;')
+    + '</span>';
+}
+
+// Whichever drawer is open, and nothing when none is. Leave, calendar and
+// refresh share the overflow with your own name: none of them is a thing you
+// do twice, and all of them used to be a permanent row.
+function clubDrawer(){
+  // one id, because only one drawer is ever on the page — the icons point
+  // aria-controls at it and whichever is pressed owns it
+  if(gdrawer === 'rename') return '<div class="cdrawer" id="cdrawer">'+renameRow()+'</div>';
+  if(gdrawer === 'sched')  return '<div class="cdrawer" id="cdrawer">'+resched()+'</div>';
+  if(gdrawer !== 'more')   return '';
+  return '<div class="cdrawer" id="cdrawer">'
+    + nameRow()
+    + '<div class="row"><button id="b-grefresh">Refresh</button>'
+    + (windows() ? '<button id="b-gics" title="One calendar event per schedule window">Calendar (.ics)</button>' : '')
+    + '<button id="b-gleave">Leave the club</button></div>'
+    + roster()
+    + '</div>';
+}
+
+function wireClubIcons(){
+  [['b-cren','rename'], ['b-csched','sched'], ['b-cmore','more']].forEach(([id, key])=>{
+    const b = $(id);
+    if(!b) return;
+    b.onclick = ()=>{ gdrawer = gdrawer === key ? '' : key; renderGroupPanel(); };
+  });
+}
+
+// The foot carries the two things that are not about the club on screen: the
+// way to another one, and the code you send someone so they can be in this
+// one. The code IS the chip — one target rather than a label beside a Copy
+// button — and it gets a selectable field like the other copy controls,
+// because this is the button most likely to be pressed on a phone, where
+// writeText is refused most often.
+//
+// CLU-114 gives this chip a second shape: a universal group is joined by link
+// and is not typeable at all, so the chip becomes a link and rotate joins the
+// overflow beside it. Nothing here assumes there is only one shape.
+function clubFoot(){
+  return '<button class="aquiet" id="b-gadd">'
+    + (addingGroup ? 'Close' : '+ new / join another') + '</button>'
+    + (group
+        ? '<button class="gcode ccode" id="b-gcopy" title="Tap to copy — the code you send people">'
+          + esc(group.code) + '</button>'
+        : '');
+}
+
+function wireClubFoot(){
+  const copy = $('b-gcopy');
+  if(copy) copy.onclick = ()=> copyWithFallback(
+    group.code, 'Club code copied — send it to whoever’s joining.',
+    'gmsg2', 'g-clip');
+  const add = $('b-gadd');
+  if(add) add.onclick = ()=>{
+    addingGroup = !addingGroup;
+    renderGroupPanel();
+    if(addingGroup) $('gsetup').scrollIntoView({block:'nearest', behavior:'smooth'});
+  };
+}
+
 function renderGroupPanel(){
-  const setup = $('gsetup'), joined = $('gjoined');
+  const setup = $('gsetup'), joined = $('gjoined'), foot = $('gfoot');
   if(!CLOUD){ $('gpanel').classList.add('hide'); return; }
   $('gpanel').classList.remove('hide');
+  wireTile();
 
   if(!user){
-    $('ghead').textContent = groupNoun();
+    paintClubBar(groupNoun());
     setup.classList.add('hide'); joined.classList.remove('hide');
+    foot.classList.add('hide');
     joined.innerHTML = '<p>Clubs need an account, so everyone’s progress has somewhere to live. '
       + 'Sign in above and this turns into a club.</p>';
     return;
   }
   if(!group){
-    $('ghead').textContent = groupNoun();
     if(groupError){
+      paintClubBar(groupNoun());
       setup.classList.add('hide'); joined.classList.remove('hide');
+      foot.classList.add('hide');
       joined.innerHTML = '<p>Clubs aren’t loading: <code>'+esc(groupError)+'</code></p>'
         + '<p>If that mentions a column, the database is a migration behind the '
         + 'site — the SQL files in the repo say which.</p>'
@@ -8914,21 +9136,25 @@ function renderGroupPanel(){
     // form with no way back to the club you just turned off. It renders in
     // the branch below otherwise, which is why this is easy to miss.
     if(groups.length){
+      // the bar says Just me because that is what was chosen — not the
+      // invitation copy, which would read as though no club existed
+      paintClubBar('Just me');
       setup.classList.toggle('hide', !addingGroup);
       joined.classList.remove('hide');
+      foot.classList.remove('hide');
       if(addingGroup) prepSetup(true);
-      joined.innerHTML = groupSwitcher()
-        + '<div class="gbar"><button id="b-gadd">'
-        + (addingGroup ? 'Close' : 'Join or start another') + '</button></div>'
+      joined.innerHTML = '<div class="cmenu">' + groupSwitcher() + '</div>'
         + '<p class="lbl">The strip is showing your own progress. '
         + 'Pick a club above to draw everyone.</p>';
+      foot.innerHTML = clubFoot();
       wireSwitcher();
-      const add = $('b-gadd');
-      if(add) add.onclick = ()=>{ addingGroup = !addingGroup; renderGroupPanel(); };
+      wireClubFoot();
       return;
     }
     // paced properties take either end; unpaced ones only have a finish
-    joined.classList.add('hide'); setup.classList.remove('hide');
+    paintClubBar(groupNoun());
+    joined.classList.add('hide'); foot.classList.add('hide');
+    setup.classList.remove('hide');
     prepSetup(false);
     return;
   }
@@ -8936,54 +9162,48 @@ function renderGroupPanel(){
   // the form stays reachable from inside a group, so you can be in more than one
   setup.classList.toggle('hide', !addingGroup);
   joined.classList.remove('hide');
+  foot.classList.remove('hide');
   if(addingGroup) prepSetup(true);
-  $('ghead').textContent = group.name;
+  paintClubBar(group.name);
 
+  // Your own colour leads the header, because it is the one fact about this
+  // club you carry into the strip above. The kind badge the design puts beside
+  // the name — "watch club" against "group" — waits for CLU-114: with a single
+  // kind of club it would label everything the same.
+  const mine = gmembers.find(m=> user && m.id === user.id);
   joined.innerHTML =
-    groupSwitcher()
-    + '<div class="gbar"><span class="lbl">Club code</span>'
-    + '<span class="gcode">'+esc(group.code)+'</span>'
-    + '<button id="b-gcopy">Copy code</button>'
-    + '<button id="b-gadd">'
-    + (addingGroup ? 'Close' : 'Join or start another') + '</button>'
+    '<div class="chead">'
+    + (mine ? '<span class="gsw" style="background:var(--m'+(mine.ci+1)+')"'
+              + ' title="Your colour in this club"></span>' : '')
+    + '<b class="cname">'+esc(group.name)+'</b>'
+    + clubIcons()
     + '</div>'
-    + renameRow()
-    + '<p id="gline"></p>'
-    + nameRow()
-    + resched()
-    + roster()
-    + '<div class="row" style="margin-top:14px"><button id="b-grefresh">Refresh</button>'
-    + (windows() ? '<button id="b-gics" title="One calendar event per schedule window">Calendar (.ics)</button>' : '')
-    + '<button id="b-gleave">Leave the club</button></div>'
-    + '<input type="text" id="g-clip" class="hide" readonly spellcheck="false"'
-    + ' aria-label="Club code, ready to copy">'
-    + '<p id="gmsg2" style="margin:12px 0 0;color:var(--signal)"></p>';
+    + '<div class="cmenu">' + groupSwitcher() + groupStackAll() + '</div>'
+    + clubDrawer()
+    + '<p id="gline"></p>';
+  foot.innerHTML = clubFoot();
 
-  // this is the button most likely to be pressed on a phone, where writeText
-  // is refused most often — so it gets a selectable field like the others
-  $('b-gcopy').onclick = ()=> copyWithFallback(
-    group.code, 'Club code copied — send it to whoever’s joining.',
-    'gmsg2', 'g-clip');
-  $('b-gadd').onclick = ()=>{
-    addingGroup = !addingGroup;
-    renderGroupPanel();
-    if(addingGroup) $('gsetup').scrollIntoView({block:'nearest', behavior:'smooth'});
-  };
   updateGroupLine();
+  wireClubIcons();
+  wireClubFoot();
   wireName();
   wireRename();
   wireResched();
   wireRoster();
-  $('b-grefresh').onclick = ()=> refreshGroup(true);
+  const refresh = $('b-grefresh');
+  if(refresh) refresh.onclick = ()=> refreshGroup(true);
   const gics = $('b-gics');
   if(gics) gics.onclick = downloadICS;
-  $('b-gleave').onclick = async ()=>{
+  const leave = $('b-gleave');
+  if(leave) leave.onclick = async ()=>{
     if(!confirm('Leave '+group.name+'? Your own progress is untouched.')) return;
     const { error } = await sb.from('group_members')
       .delete().eq('group_id', group.id).eq('user_id', user.id);
     if(error){ flash('Could not leave: '+error.message,'gmsg2'); return; }
     localStorage.removeItem(GKEY);
     addingGroup = false;
+    // the club whose drawer this was is gone, so the drawer goes with it
+    gdrawer = '';
     await refreshGroup(false);
   };
   const all = $('g-all');
@@ -9009,6 +9229,9 @@ function wireSwitcher(){
   if(!sw) return;
   sw.onchange = async ()=>{
     localStorage.setItem(GKEY, sw.value);
+    // a drawer belongs to the club it was opened on — a rename box still
+    // holding the last club's name would be pointed at the new one
+    gdrawer = '';
     if(sw.value === JUSTME){
       // deliberately not `|| group`: choosing yourself must be able to
       // clear the selection, which is the whole point of the option
