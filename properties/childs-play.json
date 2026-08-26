@@ -1,0 +1,286 @@
+{
+  "slug": "childs-play",
+  "title": "Child's Play",
+  "subtitle": "eight films in two lines, and the series that continues the first",
+  "kind": "films & tv",
+  "popularity": 62,
+  "year": "1988–2024",
+  "blurb": "Chucky in full — seven films and the 24-episode series that continues them, plus the 2019 reboot that starts the story over. 32 entries.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#24417A",
+  "accentDark": "#F0788A",
+  "tiers": false,
+  "notes": [
+    [
+      "Two lines, and the article draws them.",
+      "The franchise's own filmography splits its rows into exactly two labelled blocks — Original series and Reboot — that never intersect and never overlap in time. So there is no timeline to rule on here, only a fork: seven films from 1988 to 2017 in one line, and a 2019 remake that starts over in the other. The sections are those blocks, in the order the article prints them, and both facts are re-read from the table every time this list is generated."
+    ],
+    [
+      "The television series continues the first line, so it sits in it.",
+      "The franchise article's own words: the show \"shares continuity with the original film series, and is a continuation of that story\". The series' article names the film it follows — a sequel to Cult of Chucky, the seventh installment — so the three seasons sit directly under the films they continue rather than at the end of the page, and the Reboot sits last, alone, connected to nothing. 24 episodes across 3 seasons, 2021 to 2024, cancelled after the third."
+    ],
+    [
+      "Nothing is weighted, and this is what was checked.",
+      "Bars here count entries, not hours. The eight films' runtimes are known — 713 minutes between them, from each film's own infobox — but not one of the 24 episodes has a length anywhere in the sources this repo reads, and weights are all-or-nothing: a row with no weight on a weighted list would silently count as an hour, so the films give theirs up too. Four places were searched. Each episode's own article: none of the 24 has one — 96 candidate titles were probed and the 29 that exist are either redirects into a season page or the unrelated film the episode title borrows. Wikidata: no episode items exist for this series at all, the three season items carry no runtime, and none of the 17 items linking to them is an episode. The season articles: no runtime in any infobox, no minutes in any prose. The episode tables: no runtime column and no RunTime field in any of the 24 rows. All that exists is one range for the whole show, 41–54 minutes, and a range spread across 24 episodes is a number nobody measured. The build re-checks all four and fails if any of them starts answering, so this list gets weighted the day the sources can support it."
+    ],
+    [
+      "Not included.",
+      "An untitled Chucky film sits in the Original series block with no release date and no runtime, so it is not a row yet; every film the table dates is here. The novels, comics, video games and theme-park attractions the franchise article lists are out of scope, and so is the 2019 film's own unmade sequel."
+    ],
+    [
+      "Nothing here ticks anywhere else.",
+      "Ticks sync across clubd wherever two lists carry the same film and year, and the two Child's Plays — 1988 and 2019 — are separate rows that would pair separately. As it stands none of these 8 films sits on another list, and the episodes cannot pair at all, so every row here is ticked here only. The generator re-checks the whole catalogue each time it runs, so this note cannot quietly go stale."
+    ],
+    "Titles, U.S. release dates and the Original series / Reboot blocks from the Films table of Wikipedia's Child's Play franchise article; runtimes and directors from each film's own article infobox; the continuity statement from that article's Television section; episode numbers, titles and airdates from the three Chucky season articles, checked against the series article's own Series overview."
+  ],
+  "sections": [
+    {
+      "id": "original",
+      "title": "Original series",
+      "sub": "1988–2017 · 7 films",
+      "intro": "The block the franchise article's own filmography prints first, and seven of its eight released rows. All seven are written or co-written by series creator Don Mancini, and the line does not end with them: the television series in the next three sections continues this story, and the article says so in as many words. U.S. release order.",
+      "links": [
+        {
+          "label": "The filmography",
+          "url": "https://en.wikipedia.org/wiki/Child%27s_Play_(franchise)"
+        }
+      ],
+      "items": [
+        {
+          "id": "cp-1988-child-s-play",
+          "t": "Child's Play",
+          "n": "1988",
+          "note": "The first film."
+        },
+        {
+          "id": "cp-1990-child-s-play-2",
+          "t": "Child's Play 2",
+          "n": "1990"
+        },
+        {
+          "id": "cp-1991-child-s-play-3",
+          "t": "Child's Play 3",
+          "n": "1991"
+        },
+        {
+          "id": "cp-1998-bride-of-chucky",
+          "t": "Bride of Chucky",
+          "n": "1998",
+          "note": "Seven years on, and the first entry not titled Child's Play."
+        },
+        {
+          "id": "cp-2004-seed-of-chucky",
+          "t": "Seed of Chucky",
+          "n": "2004",
+          "note": "Series creator Don Mancini's first film as director; he directs the rest of this section."
+        },
+        {
+          "id": "cp-2013-curse-of-chucky",
+          "t": "Curse of Chucky",
+          "n": "2013",
+          "note": "Nine years later, and released to video on demand rather than cinemas."
+        },
+        {
+          "id": "cp-2017-cult-of-chucky",
+          "t": "Cult of Chucky",
+          "n": "2017",
+          "note": "Direct-to-video, as with the film before it, and the last of this line on film — the television series picks the story up from here."
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s1",
+      "title": "Chucky season 1",
+      "sub": "2021 · 8 episodes",
+      "intro": "Four years after Cult of Chucky, and a continuation of it rather than a fresh start: the franchise article says the show shares continuity with the original film series and is a continuation of that story, and the series' own article calls it a sequel to that seventh film. Same creator, and the same voice in the doll.",
+      "links": [
+        {
+          "label": "The season",
+          "url": "https://en.wikipedia.org/wiki/Chucky_season_1"
+        }
+      ],
+      "items": [
+        {
+          "id": "cp-s1e1",
+          "t": "Death by Misadventure",
+          "n": "1",
+          "note": "The series starts here, a sequel to Cult of Chucky."
+        },
+        {
+          "id": "cp-s1e2",
+          "t": "Give Me Something Good to Eat",
+          "n": "2"
+        },
+        {
+          "id": "cp-s1e3",
+          "t": "I Like to Be Hugged",
+          "n": "3"
+        },
+        {
+          "id": "cp-s1e4",
+          "t": "Just Let Go",
+          "n": "4"
+        },
+        {
+          "id": "cp-s1e5",
+          "t": "Little Little Lies",
+          "n": "5"
+        },
+        {
+          "id": "cp-s1e6",
+          "t": "Cape Queer",
+          "n": "6"
+        },
+        {
+          "id": "cp-s1e7",
+          "t": "Twice the Grieving, Double the Loss",
+          "n": "7"
+        },
+        {
+          "id": "cp-s1e8",
+          "t": "An Affair to Dismember",
+          "n": "8"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Chucky season 2",
+      "sub": "2022 · 8 episodes",
+      "links": [
+        {
+          "label": "The season",
+          "url": "https://en.wikipedia.org/wiki/Chucky_season_2"
+        }
+      ],
+      "items": [
+        {
+          "id": "cp-s2e1",
+          "t": "Halloween II",
+          "n": "1"
+        },
+        {
+          "id": "cp-s2e2",
+          "t": "The Sinners Are Much More Fun",
+          "n": "2"
+        },
+        {
+          "id": "cp-s2e3",
+          "t": "Hail Mary!",
+          "n": "3"
+        },
+        {
+          "id": "cp-s2e4",
+          "t": "Death on Denial",
+          "n": "4"
+        },
+        {
+          "id": "cp-s2e5",
+          "t": "Doll on Doll",
+          "n": "5"
+        },
+        {
+          "id": "cp-s2e6",
+          "t": "He Is Risen Indeed",
+          "n": "6"
+        },
+        {
+          "id": "cp-s2e7",
+          "t": "Goin' to the Chapel",
+          "n": "7"
+        },
+        {
+          "id": "cp-s2e8",
+          "t": "Chucky Actually",
+          "n": "8"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Chucky season 3",
+      "sub": "2023–24 · 8 episodes in two halves",
+      "intro": "The last season, and the only one broadcast in halves — four episodes in October, four more the following April. The show was cancelled after it.",
+      "links": [
+        {
+          "label": "The season",
+          "url": "https://en.wikipedia.org/wiki/Chucky_season_3"
+        }
+      ],
+      "items": [
+        {
+          "id": "cp-s3e1",
+          "t": "Murder at 1600",
+          "n": "1"
+        },
+        {
+          "id": "cp-s3e2",
+          "t": "Let the Right One In",
+          "n": "2"
+        },
+        {
+          "id": "cp-s3e3",
+          "t": "Jennifer's Body",
+          "n": "3"
+        },
+        {
+          "id": "cp-s3e4",
+          "t": "Dressed to Kill",
+          "n": "4"
+        },
+        {
+          "id": "cp-s3e5",
+          "t": "Death Becomes Her",
+          "n": "5",
+          "note": "The season's second half; the first four aired the previous October."
+        },
+        {
+          "id": "cp-s3e6",
+          "t": "Panic Room",
+          "n": "6"
+        },
+        {
+          "id": "cp-s3e7",
+          "t": "There Will Be Blood",
+          "n": "7"
+        },
+        {
+          "id": "cp-s3e8",
+          "t": "Final Destination",
+          "n": "8",
+          "note": "Series finale; the show was cancelled after three seasons."
+        }
+      ]
+    },
+    {
+      "id": "reboot",
+      "title": "Reboot",
+      "sub": "2019 · 1 film",
+      "intro": "The other block the same table prints, and the only film in it. It remakes the 1988 film rather than following anything, connects to nothing else on this list, and is the one entry made without the series creator. It sits last because that is where the article's own table puts it — after the whole original block — and because putting it in the middle by year would imply it leads somewhere. It does not.",
+      "links": [
+        {
+          "label": "The film",
+          "url": "https://en.wikipedia.org/wiki/Child%27s_Play_(2019_film)"
+        }
+      ],
+      "items": [
+        {
+          "id": "cp-2019-child-s-play",
+          "t": "Child's Play",
+          "n": "2019",
+          "note": "A remake of the 1988 film, and the only entry not written by Don Mancini or featuring Brad Dourif as Chucky."
+        }
+      ]
+    }
+  ]
+}

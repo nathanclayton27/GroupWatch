@@ -1,0 +1,113 @@
+{
+  "slug": "scream",
+  "title": "Scream",
+  "subtitle": "the whole run, 1996 to 2026, in release order",
+  "kind": "films",
+  "popularity": 68,
+  "year": "1996–2026",
+  "blurb": "Ghostface — 7 films, one unbroken line, in the order they came out. About 13 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#A31432",
+  "accentDark": "#FF9DAF",
+  "tiers": false,
+  "notes": [
+    [
+      "Release order, and here it costs nothing.",
+      "Nothing on this list makes you pick a timeline. The franchise article carries no story chronology and its filmography carries no continuity blocks: 7 films, one line, no remake and no reboot, so release order is story order. Six of the seven articles number themselves in the series — second through seventh — and those numbers run in the same order the films were released, which is why this list needs one section and no arguing."
+    ],
+    [
+      "Two of them are called Scream.",
+      "The 1996 film and the 2022 one share a title, so they are two rows with two ids, each dated and each note naming the other. The 2022 film is not described here as a remake, because its own article does not describe it as one: it calls it a sequel to Scream 4 and the fifth installment in the series, and the franchise article files it under a Scream 5 anchor."
+    ],
+    [
+      "Bar widths are runtimes.",
+      "Every row carries the runtime stated in that film's own Wikipedia infobox, checked against the U.S. release year the franchise table gives — 13 hours in all — and every one is confirmed against a second source, Wikidata's runtime property, identity-gated on publication date so the reused Scream title cannot fetch the wrong film. Six of the seven agree exactly. Scream VI is the one that does not: Wikipedia says 122 minutes citing the BBFC certificate, Wikidata says 118, and the bar uses the cited figure. A row whose runtime could not be read would fail the build rather than ship as a guess, and there is no half-weighted state: every row carries a runtime or none does."
+    ],
+    [
+      "The television series is not here, and here is what was checked.",
+      "Scream ran for 3 seasons and 30 episodes — on MTV in 2015 and 2016, then on VH1 in 2019 — and it is left out for the reason the franchise article itself gives: it is an anthology that “is not canon to the films”. It could not have been weighted either, and that was established rather than assumed. All four places a per-episode runtime could live are empty. One of the 30 episodes has its own article, the pilot, which states 44 minutes; the other 29 have no article at all. Wikidata holds an item for all 30 and not one carries a runtime. There are no season articles: “Scream (season 1)” and “Scream: Resurrection” do not exist, “Scream (season 2)” redirects to the episode list and “Scream (season 3)” back to the series page. And none of the 5 episode tables on the episode list declares a runtime column, so none of the 30 entries states a length. The series article publishes one range for the whole show, 39–42 minutes, and a range is not a runtime."
+    ],
+    [
+      "Not included.",
+      "An untitled eighth film sits in the Films table with no release date and no runtime, so it is not a row yet; every film the table dates is here. The short films, video games, comics and the aftershow the franchise article lists are out of scope."
+    ],
+    [
+      "Nothing here ticks anywhere else.",
+      "Ticks sync across clubd wherever two lists carry the same film and year — but none of these 7 films sits on another list today, so every row here is ticked here only. The generator re-checks the whole catalogue each time it runs, so this note cannot quietly go stale."
+    ],
+    "Titles and U.S. release dates from the Films table of Wikipedia's Scream (franchise) article; runtimes, directors and each film's own place in the series from that film's article infobox and lead, cross-checked against Wikidata; the television series' shape, and every runtime source checked for it, from the series article, its episode list and Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "films",
+      "title": "The films",
+      "sub": "1996–2026 · 7 films · 13 hours",
+      "intro": "Seven films and one unbroken line. The franchise's own article carries no story chronology, and its filmography carries no continuity blocks, because there is nothing to divide: no remake, no reboot, no competing timeline — so release order is story order, and six of the seven articles number themselves in exactly the order the films came out. What the series has instead of a tangle is a method, stated from the first film on: characters who know the conventions of the horror film and use them.",
+      "links": [
+        {
+          "label": "The filmography",
+          "url": "https://en.wikipedia.org/wiki/Scream_(franchise)"
+        }
+      ],
+      "items": [
+        {
+          "id": "scr-1996-scream",
+          "t": "Scream",
+          "n": "1996",
+          "w": 1.85,
+          "note": "Wes Craven's original, with a cast who know the conventions of the horror film and use them. The 2022 film reuses this title."
+        },
+        {
+          "id": "scr-1997-scream-2",
+          "t": "Scream 2",
+          "n": "1997",
+          "w": 2.0,
+          "note": "Released less than a year after the first, and turns the same self-reference on the horror sequel."
+        },
+        {
+          "id": "scr-2000-scream-3",
+          "t": "Scream 3",
+          "n": "2000",
+          "w": 1.95,
+          "note": "Written as the concluding chapter; the series resumed eleven years later."
+        },
+        {
+          "id": "scr-2011-scream-4",
+          "t": "Scream 4",
+          "n": "2011",
+          "w": 1.85,
+          "note": "Eleven years on, and the last of the four Wes Craven directed."
+        },
+        {
+          "id": "scr-2022-scream",
+          "t": "Scream",
+          "n": "2022",
+          "w": 1.9,
+          "note": "A sequel to Scream 4 that takes the 1996 title back — its article numbers it the fifth film. The first not directed by Wes Craven, who died in 2015."
+        },
+        {
+          "id": "scr-2023-scream-vi",
+          "t": "Scream VI",
+          "n": "2023",
+          "w": 2.03,
+          "note": "The sixth, and the one entry numbered in Roman numerals, from the directors of the 2022 film."
+        },
+        {
+          "id": "scr-2026-scream-7",
+          "t": "Scream 7",
+          "n": "2026",
+          "w": 1.9,
+          "note": "Directed by series creator Kevin Williamson, who wrote the first two films and the fourth."
+        }
+      ]
+    }
+  ]
+}

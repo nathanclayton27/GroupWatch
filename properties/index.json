@@ -1716,6 +1716,26 @@
     "totalw": 271.74
   },
   {
+    "slug": "scream",
+    "media": [
+      "movies"
+    ],
+    "title": "Scream",
+    "subtitle": "the whole run, 1996 to 2026, in release order",
+    "kind": "films",
+    "year": "1996–2026",
+    "popularity": 68,
+    "blurb": "Ghostface — 7 films, one unbroken line, in the order they came out. About 13 hours.",
+    "accent": "#A31432",
+    "accentDark": "#FF9DAF",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 7,
+    "totalw": 13.48
+  },
+  {
     "slug": "wes-anderson",
     "media": [
       "movies"
@@ -2207,6 +2227,26 @@
     "total": 77
   },
   {
+    "slug": "childs-play",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Child's Play",
+    "subtitle": "eight films in two lines, and the series that continues the first",
+    "kind": "films & tv",
+    "year": "1988–2024",
+    "popularity": 62,
+    "blurb": "Chucky in full — seven films and the 24-episode series that continues them, plus the 2019 reboot that starts the story over. 32 entries.",
+    "accent": "#24417A",
+    "accentDark": "#F0788A",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 32
+  },
+  {
     "slug": "dc-animation",
     "media": [
       "movies",
@@ -2545,26 +2585,6 @@
     },
     "total": 69,
     "totalw": 95.36
-  },
-  {
-    "slug": "scream-childs-play",
-    "media": [
-      "movies"
-    ],
-    "title": "Scream & Child's Play",
-    "subtitle": "the two franchises Slashers left out, in release order",
-    "kind": "films",
-    "year": "1988–2026",
-    "popularity": 59,
-    "blurb": "Chucky and Ghostface — 15 films, one clean fork and one unbroken line, in the order they came out. About 25 hours.",
-    "accent": "#7B1250",
-    "accentDark": "#FF9AD5",
-    "unit": {
-      "one": "film",
-      "many": "films"
-    },
-    "total": 15,
-    "totalw": 25.36
   },
   {
     "slug": "wheel-of-time",
