@@ -28,6 +28,16 @@
   --radius:2px;
   --m1:#C1352A; --m2:#2E6B8A; --m3:#B08A2E; --m4:#5B4A9E;
   --m5:#3F7A55; --m6:#C4632A; --m7:#8A4A70; --m8:#4A5F6B;
+  /* 9–16 (CLU-136). The first eight were picked by hand; these were measured
+     in CIELAB by scratch/mcolors.py, which greedily takes the colour whose
+     nearest neighbour is farthest away, constrained to the lightness and
+     chroma band the first eight occupy so a ninth member does not read as a
+     different kind of thing. All sixteen keep the original worst-case
+     separation — 14.7 light, 17.0 dark — so the new eight are never the
+     closest pair. Each is hue-matched to its dark twin: a member who is the
+     pink one stays the pink one when the theme flips. */
+  --m9:#62A824; --m10:#F5478D; --m11:#D864D4; --m12:#0D96F2;
+  --m13:#B88B7A; --m14:#605224; --m15:#9A8EC2; --m16:#0EA5AA;
 }
 @media (prefers-color-scheme:dark){
   :root{
@@ -36,6 +46,8 @@
     --signal:#E4584A; --steel:#7BA3D0; --done:#7FA986;
     --m1:#E4584A; --m2:#6FB3D9; --m3:#D9AE4E; --m4:#9C8AE0;
     --m5:#6FB585; --m6:#E8874F; --m7:#D07BAE; --m8:#8FA6B5;
+    --m9:#60960D; --m10:#F94E87; --m11:#F185F4; --m12:#1D9FF7;
+    --m13:#EAAEA4; --m14:#927E4F; --m15:#C5B4E4; --m16:#0FD2D2;
   }
 }
 *{box-sizing:border-box}
@@ -3741,7 +3753,9 @@ addEventListener('scroll', ()=>{
 // one layer's own height, and how far each layer behind peeks out below it
 const LAYER_H = 35, LAYER_OFFSET = 16;
 
-const MCOLORS = 8;
+// Sixteen since CLU-136. Past sixteen a repeat is unavoidable and needs a
+// second distinguishing mark rather than more hues — see the card.
+const MCOLORS = 16;
 const GKEY = 'gw:group:' + SLUG;   // which group is on screen, per property
 let groups   = [];    // every group this user belongs to, for this property
 let group    = null;  // the one being shown
@@ -3828,9 +3842,16 @@ async function loadMembers(){
         had.from.push(gname[r.group_id]);
       return;
     }
+    // The free-colour walk used to run only for members of OTHER clubs, so a
+    // member of the club on screen took `color_index % MCOLORS` raw. The
+    // server hands out color_index as the member count at join time, so the
+    // ninth person to join gets 8 — and 8 % 8 was 0, the first member's
+    // colour exactly (CLU-136). It bites below nine too: someone leaves, the
+    // count drops, and the next joiner collides with whoever holds that index.
+    // Walking for everyone makes a collision impossible up to MCOLORS members
+    // rather than merely unlikely.
     let ci = ((r.color_index % MCOLORS) + MCOLORS) % MCOLORS;
-    if(r.group_id !== group.id)
-      for(let n = 0; n < MCOLORS && used.has(ci); n++) ci = (ci + 1) % MCOLORS;
+    for(let n = 0; n < MCOLORS && used.has(ci); n++) ci = (ci + 1) % MCOLORS;
     used.add(ci);
     seen.set(r.user_id, {
       id: r.user_id, name: r.display_name, ci, gids: [r.group_id],
