@@ -27,9 +27,27 @@ an item's.
 
 Spine 88 is the only number covering two films, Ivan the Terrible Parts I and
 II, and is the one place the list shows two entries under one number.
+
+Rows also carry `q`, a Wikidata id, wherever one could be PROVED (CLU-191). It
+is what lets a film pair across lists that date it differently: Casablanca is
+1942 here, the year it opened, and 1943 on Best Picture, the year it was
+honoured, and neither list is wrong. Best Picture resolves its ids from the
+wikilinks its own source article gives; criterion.com has no wikilinks at all,
+so this list cannot follow that rule literally and instead earns each id —
+every candidate article is checked against the year AND the director
+criterion.com already gave, and anything that fails, or is ambiguous, or lands
+on a disambiguation page gets no id. A row without one behaves exactly as it
+did before; a row with a WRONG one would tick a film somebody has not seen.
+The resolution is done by scratch/agent-crit-qid/resolve.py and frozen into
+tools/data/criterion_qids.json, so this generator stays offline.
 """
 import json
 import pathlib
+import re
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from gwlib import prop as gwprop
 
 SLUG = "criterion"
 
@@ -61,9 +79,27 @@ def band_title(lo, hi):
     return "#%d–%d" % (lo, hi)
 
 
+def qid_of(qids, iid):
+    """The canonical work id for a row, or nothing.
+
+    The cache is keyed by the row's own shipped item id, which carries the
+    spine number, so a resolution can be read straight against the property
+    file. A key that is absent, or present with q null, means the gate refused
+    it and the row ships exactly as it did before.
+    """
+    q = (qids.get(iid) or {}).get("q")
+    return {"q": q} if q else {}
+
+
 def main():
-    data = pathlib.Path(__file__).resolve().parent / "data" / "criterion.json"
-    d = json.loads(data.read_text(encoding="utf-8"))
+    here = pathlib.Path(__file__).resolve().parent
+    d = json.loads((here / "data" / "criterion.json").read_text(encoding="utf-8"))
+    qids = json.loads((here / "data" / "criterion_qids.json")
+                      .read_text(encoding="utf-8"))["films"]
+    # Every id this list has ever shipped. Renaming one silently destroys the
+    # tick of everyone who had it, so the write below refuses to lose any.
+    legacy = json.loads((here / "data" / "criterion_ids.json")
+                        .read_text(encoding="utf-8"))["ids"]
     spined, laser = d["spined"], d["laserdisc"]
 
     assert spined, "no spine-numbered releases"
@@ -82,6 +118,7 @@ def main():
             "id": "crit-%d-%s" % (r["spine"], slug(r["t"])),
             "t": r["t"], "n": "#%d" % r["spine"],
             "w": round((r["runtime"] or 0) / 60.0, 2),
+            **qid_of(qids, "crit-%d-%s" % (r["spine"], slug(r["t"]))),
             **({"tags": r["formats"]} if r["formats"] else {}),
             **({"note": note_for(r)} if note_for(r) else {}),
         } for r in got]
@@ -106,7 +143,9 @@ def main():
                  "under the bar.",
         "items": [{
             "id": "crit-ld-%d-%s" % (r["spine"], slug(r["t"])),
-            "t": r["t"], "n": "LD #%d" % r["spine"], "w": 0, "tags": ["LaserDisc"],
+            "t": r["t"], "n": "LD #%d" % r["spine"], "w": 0,
+            **qid_of(qids, "crit-ld-%d-%s" % (r["spine"], slug(r["t"]))),
+            "tags": ["LaserDisc"],
             **({"note": note_for(r)} if note_for(r) else {}),
         } for r in laser],
     })
@@ -118,6 +157,19 @@ def main():
     for s in sections[:-1]:
         nums = [int(x["n"][1:]) for x in s["items"]]
         assert nums == sorted(nums), "%s is out of spine order" % s["title"]
+
+    # Two rows sharing a work id would tie two separate spines to each other in
+    # the sync map — tick one and the other ticks too, inside this same list.
+    # The resolver refuses those pairs; this is the belt to its braces.
+    qs = [x["q"] for s in sections for x in s["items"] if x.get("q")]
+    assert len(qs) == len(set(qs)), \
+        "two rows share a work id: %s" % sorted({q for q in qs if qs.count(q) > 1})[:6]
+    assert all(re.fullmatch(r"Q[1-9]\d*", q) for q in qs), "malformed work id"
+    # A resolution for a row that no longer exists means the cache has drifted
+    # from the catalogue and its keys can no longer be trusted.
+    stray = sorted(set(qids) - set(ids))
+    assert not stray, "criterion_qids.json has %d rows this list does not: %s" \
+                      % (len(stray), stray[:5])
 
     hours = sum(r["runtime"] or 0 for r in spined) / 60.0
     by_fmt = {}
@@ -189,14 +241,20 @@ def main():
         "sections": sections,
     }
 
-    out = pathlib.Path(__file__).resolve().parent.parent / "properties" / ("%s.json" % SLUG)
-    with out.open("w", encoding="utf-8", newline="\n") as f:
-        f.write(json.dumps(prop, indent=2, ensure_ascii=False) + "\n")
+    gwprop.write(prop, legacy_ids=legacy)
 
     print("wrote %s.json" % SLUG)
     print("  %d sections, %d entries (%d spined + %d LaserDisc), %d hours"
           % (len(sections), len(ids), len(spined), len(laser), round(hours)))
     print("  formats: %s" % ", ".join("%s %d" % kv for kv in sorted(by_fmt.items())))
+    print("  work ids: %d of %d rows carry one, %d refused"
+          % (len(qs), len(ids), len(ids) - len(qs)))
+    why = {}
+    for iid in ids:
+        st = (qids.get(iid) or {}).get("status", "not-in-cache")
+        why[st] = why.get(st, 0) + 1
+    for k in sorted(why, key=lambda k: -why[k]):
+        print("    %-30s %4d" % (k, why[k]))
     for s in sections:
         print("   %-16s %4d  %s" % (s["title"], len(s["items"]), s["sub"][:46]))
 

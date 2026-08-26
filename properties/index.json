@@ -754,6 +754,26 @@
     "totalw": 197.88
   },
   {
+    "slug": "sailor-moon",
+    "media": [
+      "anime",
+      "movies"
+    ],
+    "title": "Sailor Moon",
+    "subtitle": "the 1990s anime, with the films and specials where they went out",
+    "kind": "anime & films",
+    "year": "1992–1997",
+    "popularity": 80,
+    "blurb": "All 200 episodes of the original run — five seasons and five years — with the three films, the two theatrical shorts and the three specials each sitting on the date it went out.",
+    "accent": "#A81E5E",
+    "accentDark": "#F79FD4",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 208
+  },
+  {
     "slug": "stephen-king",
     "media": [
       "books"

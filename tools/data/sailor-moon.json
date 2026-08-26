@@ -1,0 +1,2633 @@
+{
+  "total_episodes": 200,
+  "overview_counts": {
+    "1": 46,
+    "2": 43,
+    "3": 38,
+    "4": 39,
+    "5": 34
+  },
+  "season_titles": {
+    "1": "Sailor Moon",
+    "2": "Sailor Moon R",
+    "3": "Sailor Moon S",
+    "4": "Sailor Moon SuperS",
+    "5": "Sailor Stars"
+  },
+  "season_spans": {
+    "1": "1992–93",
+    "2": "1993–94",
+    "3": "1994–95",
+    "4": "1995–96",
+    "5": "1996–97"
+  },
+  "seasons": {
+    "1": [
+      {
+        "o": 1,
+        "e": 1,
+        "t": "A Moon Star is Born",
+        "dic": "1",
+        "d": [
+          1992,
+          3,
+          7
+        ]
+      },
+      {
+        "o": 2,
+        "e": 2,
+        "t": "Punishment Awaits! The House of Fortune is the Monster Mansion",
+        "dic": "—",
+        "d": [
+          1992,
+          3,
+          14
+        ]
+      },
+      {
+        "o": 3,
+        "e": 3,
+        "t": "Talk Radio",
+        "dic": "2",
+        "d": [
+          1992,
+          3,
+          21
+        ]
+      },
+      {
+        "o": 4,
+        "e": 4,
+        "t": "Slim City",
+        "dic": "3",
+        "d": [
+          1992,
+          3,
+          28
+        ]
+      },
+      {
+        "o": 5,
+        "e": 5,
+        "t": "Scent of a Monster! Chanela Will Steal Your Love",
+        "dic": "—",
+        "d": [
+          1992,
+          4,
+          11
+        ]
+      },
+      {
+        "o": 6,
+        "e": 6,
+        "t": "Protect the Melody of Love: Usagi Plays Cupid",
+        "dic": "—",
+        "d": [
+          1992,
+          4,
+          18
+        ]
+      },
+      {
+        "o": 7,
+        "e": 7,
+        "t": "So You Want to Be a Superstar",
+        "dic": "4",
+        "d": [
+          1992,
+          4,
+          25
+        ]
+      },
+      {
+        "o": 8,
+        "e": 8,
+        "t": "Computer School Blues",
+        "dic": "5",
+        "d": [
+          1992,
+          5,
+          2
+        ]
+      },
+      {
+        "o": 9,
+        "e": 9,
+        "t": "Time Bomb",
+        "dic": "6",
+        "d": [
+          1992,
+          5,
+          9
+        ]
+      },
+      {
+        "o": 10,
+        "e": 10,
+        "t": "An Uncharmed Life",
+        "dic": "7",
+        "d": [
+          1992,
+          5,
+          16
+        ]
+      },
+      {
+        "o": 11,
+        "e": 11,
+        "t": "Nightmare in Dreamland",
+        "dic": "8",
+        "d": [
+          1992,
+          5,
+          23
+        ]
+      },
+      {
+        "o": 12,
+        "e": 12,
+        "t": "Cruise Blues",
+        "dic": "9",
+        "d": [
+          1992,
+          5,
+          30
+        ]
+      },
+      {
+        "o": 13,
+        "e": 13,
+        "t": "Fight to the Finish",
+        "dic": "10",
+        "d": [
+          1992,
+          6,
+          6
+        ]
+      },
+      {
+        "o": 14,
+        "e": 14,
+        "t": "Match Point for Sailor Moon",
+        "dic": "11",
+        "d": [
+          1992,
+          6,
+          13
+        ]
+      },
+      {
+        "o": 15,
+        "e": 15,
+        "t": "An Unnatural Phenomena",
+        "dic": "12",
+        "d": [
+          1992,
+          6,
+          20
+        ]
+      },
+      {
+        "o": 16,
+        "e": 16,
+        "t": "Wedding Day Blues",
+        "dic": "13",
+        "d": [
+          1992,
+          6,
+          27
+        ]
+      },
+      {
+        "o": 17,
+        "e": 17,
+        "t": "Shutter Bugged",
+        "dic": "14",
+        "d": [
+          1992,
+          7,
+          4
+        ]
+      },
+      {
+        "o": 18,
+        "e": 18,
+        "t": "Dangerous Dollies",
+        "dic": "15",
+        "d": [
+          1992,
+          7,
+          11
+        ]
+      },
+      {
+        "o": 19,
+        "e": 19,
+        "t": "Who is That Masked Man?",
+        "dic": "16",
+        "d": [
+          1992,
+          7,
+          25
+        ]
+      },
+      {
+        "o": 20,
+        "e": 20,
+        "t": "The Summer, the Beach, Youth and Ghosts",
+        "dic": "—",
+        "d": [
+          1992,
+          8,
+          1
+        ]
+      },
+      {
+        "o": 21,
+        "e": 21,
+        "t": "An Animated Mess",
+        "dic": "17",
+        "d": [
+          1992,
+          8,
+          8
+        ]
+      },
+      {
+        "o": 22,
+        "e": 22,
+        "t": "Worth a Princess' Ransom",
+        "dic": "18",
+        "d": [
+          1992,
+          8,
+          15
+        ]
+      },
+      {
+        "o": 23,
+        "e": 23,
+        "t": "Molly's Folly",
+        "dic": "19",
+        "d": [
+          1992,
+          8,
+          22
+        ]
+      },
+      {
+        "o": 24,
+        "e": 24,
+        "t": "A Friend in Wolf's Clothing",
+        "dic": "20",
+        "d": [
+          1992,
+          8,
+          29
+        ]
+      },
+      {
+        "o": 25,
+        "e": 25,
+        "t": "Jupiter Comes Thundering In",
+        "dic": "21",
+        "d": [
+          1992,
+          9,
+          5
+        ]
+      },
+      {
+        "o": 26,
+        "e": 26,
+        "t": "The Power of Friendship",
+        "dic": "22",
+        "d": [
+          1992,
+          9,
+          12
+        ]
+      },
+      {
+        "o": 27,
+        "e": 27,
+        "t": "Mercury's Mental Match",
+        "dic": "23",
+        "d": [
+          1992,
+          10,
+          10
+        ]
+      },
+      {
+        "o": 28,
+        "e": 28,
+        "t": "An Artful Attack",
+        "dic": "24",
+        "d": [
+          1992,
+          10,
+          17
+        ]
+      },
+      {
+        "o": 29,
+        "e": 29,
+        "t": "Too Many Girlfriends",
+        "dic": "25",
+        "d": [
+          1992,
+          10,
+          24
+        ]
+      },
+      {
+        "o": 30,
+        "e": 30,
+        "t": "Grandpa's Follies",
+        "dic": "26",
+        "d": [
+          1992,
+          10,
+          31
+        ]
+      },
+      {
+        "o": 31,
+        "e": 31,
+        "t": "Kitty Chaos",
+        "dic": "27",
+        "d": [
+          1992,
+          11,
+          7
+        ]
+      },
+      {
+        "o": 32,
+        "e": 32,
+        "t": "Tuxedo Melvin",
+        "dic": "28",
+        "d": [
+          1992,
+          11,
+          14
+        ]
+      },
+      {
+        "o": 33,
+        "e": 33,
+        "t": "Sailor Venus Makes the Scene",
+        "dic": "29",
+        "d": [
+          1992,
+          11,
+          21
+        ]
+      },
+      {
+        "o": 34,
+        "e": 34,
+        "t": "A Crystal Clear Destiny",
+        "dic": "30",
+        "d": [
+          1992,
+          11,
+          28
+        ]
+      },
+      {
+        "o": 35,
+        "e": 35,
+        "t": "A Reluctant Princess",
+        "dic": "31",
+        "d": [
+          1992,
+          12,
+          5
+        ]
+      },
+      {
+        "o": 36,
+        "e": 36,
+        "t": "Bad Hair Day",
+        "dic": "32",
+        "d": [
+          1992,
+          12,
+          12
+        ]
+      },
+      {
+        "o": 37,
+        "e": 37,
+        "t": "Little Miss Manners",
+        "dic": "33",
+        "d": [
+          1992,
+          12,
+          19
+        ]
+      },
+      {
+        "o": 38,
+        "e": 38,
+        "t": "Ski Bunny Blues",
+        "dic": "34",
+        "d": [
+          1992,
+          12,
+          26
+        ]
+      },
+      {
+        "o": 39,
+        "e": 39,
+        "t": "The Ice Princess",
+        "dic": "35",
+        "d": [
+          1993,
+          1,
+          9
+        ]
+      },
+      {
+        "o": 40,
+        "e": 40,
+        "t": "The Last Resort",
+        "dic": "36",
+        "d": [
+          1993,
+          1,
+          16
+        ]
+      },
+      {
+        "o": 41,
+        "e": 41,
+        "t": "Tuxedo Unmask",
+        "dic": "37",
+        "d": [
+          1993,
+          1,
+          23
+        ]
+      },
+      {
+        "o": 42,
+        "e": 42,
+        "t": "Sailor Venus' Past: Minako's Tragic Love",
+        "dic": "—",
+        "d": [
+          1993,
+          1,
+          30
+        ]
+      },
+      {
+        "o": 43,
+        "e": 43,
+        "t": "Fractious Friends",
+        "dic": "38",
+        "d": [
+          1993,
+          2,
+          6
+        ]
+      },
+      {
+        "o": 44,
+        "e": 44,
+        "t": "The Past Returns",
+        "dic": "39",
+        "d": [
+          1993,
+          2,
+          13
+        ]
+      },
+      {
+        "o": 45,
+        "e": 45,
+        "t": "The Day of Destiny",
+        "dic": "40a",
+        "d": [
+          1993,
+          2,
+          20
+        ]
+      },
+      {
+        "o": 46,
+        "e": 46,
+        "t": "Brand New Life",
+        "dic": "40b",
+        "d": [
+          1993,
+          2,
+          27
+        ]
+      }
+    ],
+    "2": [
+      {
+        "o": 47,
+        "e": 1,
+        "t": "The Return of Sailor Moon",
+        "dic": "41",
+        "d": [
+          1993,
+          3,
+          6
+        ]
+      },
+      {
+        "o": 48,
+        "e": 2,
+        "t": "So You Want to Be in Pictures",
+        "dic": "42",
+        "d": [
+          1993,
+          3,
+          13
+        ]
+      },
+      {
+        "o": 49,
+        "e": 3,
+        "t": "A Knight to Remember",
+        "dic": "43",
+        "d": [
+          1993,
+          3,
+          20
+        ]
+      },
+      {
+        "o": 50,
+        "e": 4,
+        "t": "VR Madness",
+        "dic": "44",
+        "d": [
+          1993,
+          4,
+          10
+        ]
+      },
+      {
+        "o": 51,
+        "e": 5,
+        "t": "Cherry Blossom Time",
+        "dic": "45",
+        "d": [
+          1993,
+          4,
+          17
+        ]
+      },
+      {
+        "o": 52,
+        "e": 6,
+        "t": "Kindergarten Chaos",
+        "dic": "46",
+        "d": [
+          1993,
+          4,
+          24
+        ]
+      },
+      {
+        "o": 53,
+        "e": 7,
+        "t": "Much Ado About Babysitting",
+        "dic": "47",
+        "d": [
+          1993,
+          5,
+          1
+        ]
+      },
+      {
+        "o": 54,
+        "e": 8,
+        "t": "Raye's Day in the Spotlight",
+        "dic": "48",
+        "d": [
+          1993,
+          5,
+          8
+        ]
+      },
+      {
+        "o": 55,
+        "e": 9,
+        "t": "Food Fetish",
+        "dic": "49",
+        "d": [
+          1993,
+          5,
+          22
+        ]
+      },
+      {
+        "o": 56,
+        "e": 10,
+        "t": "Mirror, Mirror on the Wall",
+        "dic": "50",
+        "d": [
+          1993,
+          5,
+          29
+        ]
+      },
+      {
+        "o": 57,
+        "e": 11,
+        "t": "Detention Doldrums",
+        "dic": "51",
+        "d": [
+          1993,
+          6,
+          5
+        ]
+      },
+      {
+        "o": 58,
+        "e": 12,
+        "t": "Secret Garden (Part 1 of 2)",
+        "dic": "52",
+        "d": [
+          1993,
+          6,
+          12
+        ]
+      },
+      {
+        "o": 59,
+        "e": 13,
+        "t": "Treed (Part 2 of 2)",
+        "dic": "53",
+        "d": [
+          1993,
+          6,
+          19
+        ]
+      },
+      {
+        "o": 60,
+        "e": 14,
+        "t": "Serena Times Two",
+        "dic": "54",
+        "d": [
+          1993,
+          6,
+          26
+        ]
+      },
+      {
+        "o": 61,
+        "e": 15,
+        "t": "The Cosmetic Caper",
+        "dic": "55",
+        "d": [
+          1993,
+          7,
+          3
+        ]
+      },
+      {
+        "o": 62,
+        "e": 16,
+        "t": "Sailor Mercury Moving On?",
+        "dic": "56",
+        "d": [
+          1993,
+          7,
+          10
+        ]
+      },
+      {
+        "o": 63,
+        "e": 17,
+        "t": "Gramps in a Pickle",
+        "dic": "57",
+        "d": [
+          1993,
+          7,
+          24
+        ]
+      },
+      {
+        "o": 64,
+        "e": 18,
+        "t": "Trouble Comes Thundering Down",
+        "dic": "58",
+        "d": [
+          1993,
+          7,
+          31
+        ]
+      },
+      {
+        "o": 65,
+        "e": 19,
+        "t": "A Charmed Life",
+        "dic": "59",
+        "d": [
+          1993,
+          8,
+          14
+        ]
+      },
+      {
+        "o": 66,
+        "e": 20,
+        "t": "A Curried Favor",
+        "dic": "60",
+        "d": [
+          1993,
+          8,
+          21
+        ]
+      },
+      {
+        "o": 67,
+        "e": 21,
+        "t": "The Beach, the Island and a Vacation: The Guardians' Break",
+        "dic": "—",
+        "d": [
+          1993,
+          8,
+          28
+        ]
+      },
+      {
+        "o": 68,
+        "e": 22,
+        "t": "Naughty 'N' Nice",
+        "dic": "61",
+        "d": [
+          1993,
+          9,
+          11
+        ]
+      },
+      {
+        "o": 69,
+        "e": 23,
+        "t": "Prediction of Doom",
+        "dic": "62",
+        "d": [
+          1993,
+          9,
+          25
+        ]
+      },
+      {
+        "o": 70,
+        "e": 24,
+        "t": "Enemies No More",
+        "dic": "63",
+        "d": [
+          1993,
+          10,
+          2
+        ]
+      },
+      {
+        "o": 71,
+        "e": 25,
+        "t": "Checkmate",
+        "dic": "64",
+        "d": [
+          1993,
+          10,
+          16
+        ]
+      },
+      {
+        "o": 72,
+        "e": 26,
+        "t": "Sibling Rivalry",
+        "dic": "65",
+        "d": [
+          1993,
+          10,
+          30
+        ]
+      },
+      {
+        "o": 73,
+        "e": 27,
+        "t": "Rubeus Evens the Score (Part 1 of 2)",
+        "dic": "66",
+        "d": [
+          1993,
+          11,
+          6
+        ]
+      },
+      {
+        "o": 74,
+        "e": 28,
+        "t": "Rubeus Strikes Back (Part 2 of 2)",
+        "dic": "67",
+        "d": [
+          1993,
+          11,
+          13
+        ]
+      },
+      {
+        "o": 75,
+        "e": 29,
+        "t": "The Secret of the Luna Sphere",
+        "dic": "68",
+        "d": [
+          1993,
+          11,
+          20
+        ]
+      },
+      {
+        "o": 76,
+        "e": 30,
+        "t": "Emerald Takes Over",
+        "dic": "69",
+        "d": [
+          1993,
+          12,
+          4
+        ]
+      },
+      {
+        "o": 77,
+        "e": 31,
+        "t": "Promises Fulfilled",
+        "dic": "70",
+        "d": [
+          1993,
+          12,
+          11
+        ]
+      },
+      {
+        "o": 78,
+        "e": 32,
+        "t": "No Thanks, Nurse Venus!",
+        "dic": "71",
+        "d": [
+          1993,
+          12,
+          18
+        ]
+      },
+      {
+        "o": 79,
+        "e": 33,
+        "t": "Dog Day for Artemis",
+        "dic": "72",
+        "d": [
+          1993,
+          12,
+          25
+        ]
+      },
+      {
+        "o": 80,
+        "e": 34,
+        "t": "Smart Payoff",
+        "dic": "73",
+        "d": [
+          1994,
+          1,
+          8
+        ]
+      },
+      {
+        "o": 81,
+        "e": 35,
+        "t": "Child's Play",
+        "dic": "74",
+        "d": [
+          1994,
+          1,
+          15
+        ]
+      },
+      {
+        "o": 82,
+        "e": 36,
+        "t": "Future Shocked",
+        "dic": "75",
+        "d": [
+          1994,
+          1,
+          22
+        ]
+      },
+      {
+        "o": 83,
+        "e": 37,
+        "t": "The Legend of Black Moon",
+        "dic": "76",
+        "d": [
+          1994,
+          1,
+          29
+        ]
+      },
+      {
+        "o": 84,
+        "e": 38,
+        "t": "Jealousy's Just Reward",
+        "dic": "77",
+        "d": [
+          1994,
+          2,
+          5
+        ]
+      },
+      {
+        "o": 85,
+        "e": 39,
+        "t": "The Birth of Wicked Lady",
+        "dic": "78",
+        "d": [
+          1994,
+          2,
+          12
+        ]
+      },
+      {
+        "o": 86,
+        "e": 40,
+        "t": "Brotherly Love",
+        "dic": "79",
+        "d": [
+          1994,
+          2,
+          19
+        ]
+      },
+      {
+        "o": 87,
+        "e": 41,
+        "t": "Diamond in the Rough",
+        "dic": "80",
+        "d": [
+          1994,
+          2,
+          26
+        ]
+      },
+      {
+        "o": 88,
+        "e": 42,
+        "t": "The Final Battle",
+        "dic": "81",
+        "d": [
+          1994,
+          3,
+          5
+        ]
+      },
+      {
+        "o": 89,
+        "e": 43,
+        "t": "Follow the Leader",
+        "dic": "82",
+        "d": [
+          1994,
+          3,
+          12
+        ]
+      }
+    ],
+    "3": [
+      {
+        "o": 90,
+        "e": 1,
+        "t": "Star Struck, Bad Luck",
+        "dic": null,
+        "d": [
+          1994,
+          3,
+          19
+        ]
+      },
+      {
+        "o": 91,
+        "e": 2,
+        "t": "Crystal Clear Again",
+        "dic": null,
+        "d": [
+          1994,
+          3,
+          26
+        ]
+      },
+      {
+        "o": 92,
+        "e": 3,
+        "t": "Driving Dangerously",
+        "dic": null,
+        "d": [
+          1994,
+          4,
+          16
+        ]
+      },
+      {
+        "o": 93,
+        "e": 4,
+        "t": "Bad Harmony",
+        "dic": null,
+        "d": [
+          1994,
+          4,
+          23
+        ]
+      },
+      {
+        "o": 94,
+        "e": 5,
+        "t": "Swept Off Her Feet",
+        "dic": null,
+        "d": [
+          1994,
+          4,
+          30
+        ]
+      },
+      {
+        "o": 95,
+        "e": 6,
+        "t": "Blinded By Love's Light",
+        "dic": null,
+        "d": [
+          1994,
+          5,
+          7
+        ]
+      },
+      {
+        "o": 96,
+        "e": 7,
+        "t": "Lita Borrows Trouble",
+        "dic": null,
+        "d": [
+          1994,
+          5,
+          14
+        ]
+      },
+      {
+        "o": 97,
+        "e": 8,
+        "t": "Damp Spirits",
+        "dic": null,
+        "d": [
+          1994,
+          5,
+          21
+        ]
+      },
+      {
+        "o": 98,
+        "e": 9,
+        "t": "Friendly Foes",
+        "dic": null,
+        "d": [
+          1994,
+          5,
+          28
+        ]
+      },
+      {
+        "o": 99,
+        "e": 10,
+        "t": "Mixed Emotions",
+        "dic": null,
+        "d": [
+          1994,
+          6,
+          18
+        ]
+      },
+      {
+        "o": 100,
+        "e": 11,
+        "t": "Individual Happiness",
+        "dic": null,
+        "d": [
+          1994,
+          6,
+          25
+        ]
+      },
+      {
+        "o": 101,
+        "e": 12,
+        "t": "Birthday Blues, Part 1",
+        "dic": null,
+        "d": [
+          1994,
+          7,
+          2
+        ]
+      },
+      {
+        "o": 102,
+        "e": 13,
+        "t": "Birthday Blues, Part 2",
+        "dic": null,
+        "d": [
+          1994,
+          7,
+          16
+        ]
+      },
+      {
+        "o": 103,
+        "e": 14,
+        "t": "Hello, Sailor Mini Moon",
+        "dic": null,
+        "d": [
+          1994,
+          8,
+          6
+        ]
+      },
+      {
+        "o": 104,
+        "e": 15,
+        "t": "Tainted Tea Party",
+        "dic": null,
+        "d": [
+          1994,
+          8,
+          20
+        ]
+      },
+      {
+        "o": 105,
+        "e": 16,
+        "t": "People Who Need People",
+        "dic": null,
+        "d": [
+          1994,
+          8,
+          27
+        ]
+      },
+      {
+        "o": 106,
+        "e": 17,
+        "t": "Related By Destiny",
+        "dic": null,
+        "d": [
+          1994,
+          9,
+          3
+        ]
+      },
+      {
+        "o": 107,
+        "e": 18,
+        "t": "Art Appreciation",
+        "dic": null,
+        "d": [
+          1994,
+          9,
+          10
+        ]
+      },
+      {
+        "o": 108,
+        "e": 19,
+        "t": "Everything's Coming Up Rosey",
+        "dic": null,
+        "d": [
+          1994,
+          9,
+          17
+        ]
+      },
+      {
+        "o": 109,
+        "e": 20,
+        "t": "No Turning Back",
+        "dic": null,
+        "d": [
+          1994,
+          9,
+          24
+        ]
+      },
+      {
+        "o": 110,
+        "e": 21,
+        "t": "Destiny's Arrival",
+        "dic": null,
+        "d": [
+          1994,
+          10,
+          15
+        ]
+      },
+      {
+        "o": 111,
+        "e": 22,
+        "t": "The Purity Chalice",
+        "dic": null,
+        "d": [
+          1994,
+          10,
+          22
+        ]
+      },
+      {
+        "o": 112,
+        "e": 23,
+        "t": "Show Stoppers",
+        "dic": null,
+        "d": [
+          1994,
+          11,
+          5
+        ]
+      },
+      {
+        "o": 113,
+        "e": 24,
+        "t": "Rini's Risky Friendship",
+        "dic": null,
+        "d": [
+          1994,
+          11,
+          12
+        ]
+      },
+      {
+        "o": 114,
+        "e": 25,
+        "t": "Mimet's Mess",
+        "dic": null,
+        "d": [
+          1994,
+          11,
+          19
+        ]
+      },
+      {
+        "o": 115,
+        "e": 26,
+        "t": "The Shadow of Silence",
+        "dic": null,
+        "d": [
+          1994,
+          11,
+          26
+        ]
+      },
+      {
+        "o": 116,
+        "e": 27,
+        "t": "Thorny Weather",
+        "dic": null,
+        "d": [
+          1994,
+          12,
+          3
+        ]
+      },
+      {
+        "o": 117,
+        "e": 28,
+        "t": "Heightened Hazard",
+        "dic": null,
+        "d": [
+          1994,
+          12,
+          10
+        ]
+      },
+      {
+        "o": 118,
+        "e": 29,
+        "t": "It's in the Cards",
+        "dic": null,
+        "d": [
+          1994,
+          12,
+          17
+        ]
+      },
+      {
+        "o": 119,
+        "e": 30,
+        "t": "Goodness Eclipsed",
+        "dic": null,
+        "d": [
+          1994,
+          12,
+          24
+        ]
+      },
+      {
+        "o": 120,
+        "e": 31,
+        "t": "Next in Line",
+        "dic": null,
+        "d": [
+          1995,
+          1,
+          7
+        ]
+      },
+      {
+        "o": 121,
+        "e": 32,
+        "t": "Fiendish Ferns",
+        "dic": null,
+        "d": [
+          1995,
+          1,
+          14
+        ]
+      },
+      {
+        "o": 122,
+        "e": 33,
+        "t": "The Science of Love",
+        "dic": null,
+        "d": [
+          1995,
+          1,
+          21
+        ]
+      },
+      {
+        "o": 123,
+        "e": 34,
+        "t": "Wake Up Call",
+        "dic": null,
+        "d": [
+          1995,
+          1,
+          28
+        ]
+      },
+      {
+        "o": 124,
+        "e": 35,
+        "t": "Who's Really Who?",
+        "dic": null,
+        "d": [
+          1995,
+          2,
+          4
+        ]
+      },
+      {
+        "o": 125,
+        "e": 36,
+        "t": "Darkness, My Old Friend",
+        "dic": null,
+        "d": [
+          1995,
+          2,
+          11
+        ]
+      },
+      {
+        "o": 126,
+        "e": 37,
+        "t": "Second Chance",
+        "dic": null,
+        "d": [
+          1995,
+          2,
+          18
+        ]
+      },
+      {
+        "o": 127,
+        "e": 38,
+        "t": "Tough Kindness",
+        "dic": null,
+        "d": [
+          1995,
+          2,
+          25
+        ]
+      }
+    ],
+    "4": [
+      {
+        "o": 128,
+        "e": 1,
+        "t": "Dreams Take Flight",
+        "dic": null,
+        "d": [
+          1995,
+          3,
+          4
+        ]
+      },
+      {
+        "o": 129,
+        "e": 2,
+        "t": "No Ordinary Horsepower",
+        "dic": null,
+        "d": [
+          1995,
+          3,
+          11
+        ]
+      },
+      {
+        "o": 130,
+        "e": 3,
+        "t": "Sweet Dreams",
+        "dic": null,
+        "d": [
+          1995,
+          3,
+          18
+        ]
+      },
+      {
+        "o": 131,
+        "e": 4,
+        "t": "Baiting the Trap",
+        "dic": null,
+        "d": [
+          1995,
+          3,
+          25
+        ]
+      },
+      {
+        "o": 132,
+        "e": 5,
+        "t": "Perfect Couple",
+        "dic": null,
+        "d": [
+          1995,
+          4,
+          15
+        ]
+      },
+      {
+        "o": 133,
+        "e": 6,
+        "t": "Much Ado About Kitten",
+        "dic": null,
+        "d": [
+          1995,
+          4,
+          29
+        ]
+      },
+      {
+        "o": 134,
+        "e": 7,
+        "t": "A Pegasus Page Turner",
+        "dic": null,
+        "d": [
+          1995,
+          5,
+          13
+        ]
+      },
+      {
+        "o": 135,
+        "e": 8,
+        "t": "A Teacher's Lesson",
+        "dic": null,
+        "d": [
+          1995,
+          5,
+          20
+        ]
+      },
+      {
+        "o": 136,
+        "e": 9,
+        "t": "The Trouble with Love",
+        "dic": null,
+        "d": [
+          1995,
+          5,
+          27
+        ]
+      },
+      {
+        "o": 137,
+        "e": 10,
+        "t": "Phony Fairy",
+        "dic": null,
+        "d": [
+          1995,
+          6,
+          3
+        ]
+      },
+      {
+        "o": 138,
+        "e": 11,
+        "t": "Driven Dreamer",
+        "dic": null,
+        "d": [
+          1995,
+          6,
+          10
+        ]
+      },
+      {
+        "o": 139,
+        "e": 12,
+        "t": "Cutting it Close",
+        "dic": null,
+        "d": [
+          1995,
+          6,
+          17
+        ]
+      },
+      {
+        "o": 140,
+        "e": 13,
+        "t": "Clothes Call",
+        "dic": null,
+        "d": [
+          1995,
+          7,
+          1
+        ]
+      },
+      {
+        "o": 141,
+        "e": 14,
+        "t": "Double Trouble",
+        "dic": null,
+        "d": [
+          1995,
+          7,
+          8
+        ]
+      },
+      {
+        "o": 142,
+        "e": 15,
+        "t": "Recipe for Danger",
+        "dic": null,
+        "d": [
+          1995,
+          7,
+          15
+        ]
+      },
+      {
+        "o": 143,
+        "e": 16,
+        "t": "Kicking into High Gear",
+        "dic": null,
+        "d": [
+          1995,
+          7,
+          22
+        ]
+      },
+      {
+        "o": 144,
+        "e": 17,
+        "t": "Beach Blanket Bungle",
+        "dic": null,
+        "d": [
+          1995,
+          8,
+          12
+        ]
+      },
+      {
+        "o": 145,
+        "e": 18,
+        "t": "Tutu Treachery",
+        "dic": null,
+        "d": [
+          1995,
+          8,
+          19
+        ]
+      },
+      {
+        "o": 146,
+        "e": 19,
+        "t": "The Duchess' Day Off",
+        "dic": null,
+        "d": [
+          1995,
+          8,
+          26
+        ]
+      },
+      {
+        "o": 147,
+        "e": 20,
+        "t": "No Prince Charming",
+        "dic": null,
+        "d": [
+          1995,
+          9,
+          2
+        ]
+      },
+      {
+        "o": 148,
+        "e": 21,
+        "t": "A True Reflection",
+        "dic": null,
+        "d": [
+          1995,
+          9,
+          23
+        ]
+      },
+      {
+        "o": 149,
+        "e": 22,
+        "t": "Eternal Dreams",
+        "dic": null,
+        "d": [
+          1995,
+          10,
+          21
+        ]
+      },
+      {
+        "o": 150,
+        "e": 23,
+        "t": "A New Nightmare",
+        "dic": null,
+        "d": [
+          1995,
+          10,
+          28
+        ]
+      },
+      {
+        "o": 151,
+        "e": 24,
+        "t": "Heartfelt Melody",
+        "dic": null,
+        "d": [
+          1995,
+          11,
+          4
+        ]
+      },
+      {
+        "o": 152,
+        "e": 25,
+        "t": "Dreams of Her Own",
+        "dic": null,
+        "d": [
+          1995,
+          11,
+          11
+        ]
+      },
+      {
+        "o": 153,
+        "e": 26,
+        "t": "Dental Dilemma",
+        "dic": null,
+        "d": [
+          1995,
+          11,
+          18
+        ]
+      },
+      {
+        "o": 154,
+        "e": 27,
+        "t": "Nightmare Garden",
+        "dic": null,
+        "d": [
+          1995,
+          11,
+          25
+        ]
+      },
+      {
+        "o": 155,
+        "e": 28,
+        "t": "Vaulting to Victory",
+        "dic": null,
+        "d": [
+          1995,
+          12,
+          2
+        ]
+      },
+      {
+        "o": 156,
+        "e": 29,
+        "t": "Reflections of Reality",
+        "dic": null,
+        "d": [
+          1995,
+          12,
+          9
+        ]
+      },
+      {
+        "o": 157,
+        "e": 30,
+        "t": "Dream Believer",
+        "dic": null,
+        "d": [
+          1995,
+          12,
+          16
+        ]
+      },
+      {
+        "o": 158,
+        "e": 31,
+        "t": "Pegasus Revealed",
+        "dic": null,
+        "d": [
+          1995,
+          12,
+          23
+        ]
+      },
+      {
+        "o": 159,
+        "e": 32,
+        "t": "Rini's Lovely Rhapsody",
+        "dic": null,
+        "d": [
+          1996,
+          1,
+          13
+        ]
+      },
+      {
+        "o": 160,
+        "e": 33,
+        "t": "Tomorrow's Big Dreams",
+        "dic": null,
+        "d": [
+          1996,
+          1,
+          20
+        ]
+      },
+      {
+        "o": 161,
+        "e": 34,
+        "t": "Day of Night",
+        "dic": null,
+        "d": [
+          1996,
+          1,
+          27
+        ]
+      },
+      {
+        "o": 162,
+        "e": 35,
+        "t": "Show Time Showdown",
+        "dic": null,
+        "d": [
+          1996,
+          2,
+          3
+        ]
+      },
+      {
+        "o": 163,
+        "e": 36,
+        "t": "The Dark Legend",
+        "dic": null,
+        "d": [
+          1996,
+          2,
+          10
+        ]
+      },
+      {
+        "o": 164,
+        "e": 37,
+        "t": "One in the Hand",
+        "dic": null,
+        "d": [
+          1996,
+          2,
+          17
+        ]
+      },
+      {
+        "o": 165,
+        "e": 38,
+        "t": "Golden Revival",
+        "dic": null,
+        "d": [
+          1996,
+          2,
+          24
+        ]
+      },
+      {
+        "o": 166,
+        "e": 39,
+        "t": "The Sweetest Dream",
+        "dic": null,
+        "d": [
+          1996,
+          3,
+          2
+        ]
+      }
+    ],
+    "5": [
+      {
+        "o": 167,
+        "e": 1,
+        "t": "The Flower of Nightmares Scatters! The Queen of Darkness Returns",
+        "dic": null,
+        "d": [
+          1996,
+          3,
+          9
+        ]
+      },
+      {
+        "o": 168,
+        "e": 2,
+        "t": "Saturn Awakens! The Ten Sailor Guardians Unite",
+        "dic": null,
+        "d": [
+          1996,
+          3,
+          23
+        ]
+      },
+      {
+        "o": 169,
+        "e": 3,
+        "t": "The Cursed Mirror! Mamoru Caught in a Nightmare",
+        "dic": null,
+        "d": [
+          1996,
+          4,
+          13
+        ]
+      },
+      {
+        "o": 170,
+        "e": 4,
+        "t": "Night of Destiny! The Sailor Guardians' Ordeals",
+        "dic": null,
+        "d": [
+          1996,
+          4,
+          20
+        ]
+      },
+      {
+        "o": 171,
+        "e": 5,
+        "t": "For Love! The Endless Battle in the Dark World",
+        "dic": null,
+        "d": [
+          1996,
+          4,
+          27
+        ]
+      },
+      {
+        "o": 172,
+        "e": 6,
+        "t": "Moon Power of Love! The Nightmare Ends",
+        "dic": null,
+        "d": [
+          1996,
+          5,
+          4
+        ]
+      },
+      {
+        "o": 173,
+        "e": 7,
+        "t": "Farewells and Encounters! The Transitioning Stars of Destiny",
+        "dic": null,
+        "d": [
+          1996,
+          5,
+          11
+        ]
+      },
+      {
+        "o": 174,
+        "e": 8,
+        "t": "A School Storm! The Transfer Students Are Idols",
+        "dic": null,
+        "d": [
+          1996,
+          5,
+          18
+        ]
+      },
+      {
+        "o": 175,
+        "e": 9,
+        "t": "Becoming an Idol! Minako's Ambition",
+        "dic": null,
+        "d": [
+          1996,
+          5,
+          25
+        ]
+      },
+      {
+        "o": 176,
+        "e": 10,
+        "t": "Fighter's Secret Identity! The Shocking Super Transformation",
+        "dic": null,
+        "d": [
+          1996,
+          6,
+          8
+        ]
+      },
+      {
+        "o": 177,
+        "e": 11,
+        "t": "A Star of Dreams and Wishes! Taiki's Transformation",
+        "dic": null,
+        "d": [
+          1996,
+          6,
+          15
+        ]
+      },
+      {
+        "o": 178,
+        "e": 12,
+        "t": "Luna's Discovery: The Real Face of Yaten",
+        "dic": null,
+        "d": [
+          1996,
+          6,
+          22
+        ]
+      },
+      {
+        "o": 179,
+        "e": 13,
+        "t": "Friend or Foe? Star Lights and the Sailor Guardians",
+        "dic": null,
+        "d": [
+          1996,
+          6,
+          29
+        ]
+      },
+      {
+        "o": 180,
+        "e": 14,
+        "t": "Calling of the Shining Stars: Enter Haruka and Michiru",
+        "dic": null,
+        "d": [
+          1996,
+          7,
+          13
+        ]
+      },
+      {
+        "o": 181,
+        "e": 15,
+        "t": "Seiya and Usagi's Heart-Pounding Date",
+        "dic": null,
+        "d": [
+          1996,
+          7,
+          20
+        ]
+      },
+      {
+        "o": 182,
+        "e": 16,
+        "t": "Invaders from Outer Space: The Coming of Siren",
+        "dic": null,
+        "d": [
+          1996,
+          8,
+          3
+        ]
+      },
+      {
+        "o": 183,
+        "e": 17,
+        "t": "The Screaming Dead: Terror of the Camp Monster",
+        "dic": null,
+        "d": [
+          1996,
+          8,
+          10
+        ]
+      },
+      {
+        "o": 184,
+        "e": 18,
+        "t": "A Night Alone Together: Usagi in Danger",
+        "dic": null,
+        "d": [
+          1996,
+          8,
+          17
+        ]
+      },
+      {
+        "o": 185,
+        "e": 19,
+        "t": "Taiki's Song Filled with Passion and Faith",
+        "dic": null,
+        "d": [
+          1996,
+          8,
+          31
+        ]
+      },
+      {
+        "o": 186,
+        "e": 20,
+        "t": "Chibi-Chibi's Mystery: The Big Noisy Chase",
+        "dic": null,
+        "d": [
+          1996,
+          9,
+          7
+        ]
+      },
+      {
+        "o": 187,
+        "e": 21,
+        "t": "The Shining Power of a Star: Chibi-Chibi's Transformation",
+        "dic": null,
+        "d": [
+          1996,
+          9,
+          14
+        ]
+      },
+      {
+        "o": 188,
+        "e": 22,
+        "t": "Invitation to Terror: Usagi's Night Flight",
+        "dic": null,
+        "d": [
+          1996,
+          10,
+          12
+        ]
+      },
+      {
+        "o": 189,
+        "e": 23,
+        "t": "Duty or Friendship: Conflict Between the Sailor Guardians",
+        "dic": null,
+        "d": [
+          1996,
+          10,
+          19
+        ]
+      },
+      {
+        "o": 190,
+        "e": 24,
+        "t": "Truth Revealed! The Star Lights' Past",
+        "dic": null,
+        "d": [
+          1996,
+          10,
+          26
+        ]
+      },
+      {
+        "o": 191,
+        "e": 25,
+        "t": "Butterflies of Light: A New Chapter on the Horizon",
+        "dic": null,
+        "d": [
+          1996,
+          11,
+          9
+        ]
+      },
+      {
+        "o": 192,
+        "e": 26,
+        "t": "Go for your Dream! Minako Becomes an Idol?!",
+        "dic": null,
+        "d": [
+          1996,
+          11,
+          16
+        ]
+      },
+      {
+        "o": 193,
+        "e": 27,
+        "t": "The Stolen Silver Crystal: Princess Kakyu Appears",
+        "dic": null,
+        "d": [
+          1996,
+          11,
+          30
+        ]
+      },
+      {
+        "o": 194,
+        "e": 28,
+        "t": "Crusade for the Galaxy: Legend of the Sailor Wars",
+        "dic": null,
+        "d": [
+          1996,
+          12,
+          7
+        ]
+      },
+      {
+        "o": 195,
+        "e": 29,
+        "t": "Princess Kakyu Perishes: Advent of Galaxia",
+        "dic": null,
+        "d": [
+          1996,
+          12,
+          14
+        ]
+      },
+      {
+        "o": 196,
+        "e": 30,
+        "t": "Countdown to Destruction: The Sailor Guardians' Last Battle",
+        "dic": null,
+        "d": [
+          1997,
+          1,
+          11
+        ]
+      },
+      {
+        "o": 197,
+        "e": 31,
+        "t": "Ruler of the Galaxy: The Menace of Galaxia",
+        "dic": null,
+        "d": [
+          1997,
+          1,
+          18
+        ]
+      },
+      {
+        "o": 198,
+        "e": 32,
+        "t": "Dying Stars: Uranus and Neptune's Last Stand",
+        "dic": null,
+        "d": [
+          1997,
+          1,
+          25
+        ]
+      },
+      {
+        "o": 199,
+        "e": 33,
+        "t": "The Light of Hope: The Final Battle for the Galaxy",
+        "dic": null,
+        "d": [
+          1997,
+          2,
+          1
+        ]
+      },
+      {
+        "o": 200,
+        "e": 34,
+        "t": "Usagi's Love: The Moonlight Illuminates the Galaxy",
+        "dic": null,
+        "d": [
+          1997,
+          2,
+          8
+        ]
+      }
+    ]
+  },
+  "season_meta": {
+    "1": {
+      "episodes": 46,
+      "first": [
+        1992,
+        3,
+        7
+      ],
+      "last": [
+        1993,
+        2,
+        27
+      ]
+    },
+    "2": {
+      "episodes": 43,
+      "first": [
+        1993,
+        3,
+        6
+      ],
+      "last": [
+        1994,
+        3,
+        12
+      ]
+    },
+    "3": {
+      "episodes": 38,
+      "first": [
+        1994,
+        3,
+        19
+      ],
+      "last": [
+        1995,
+        2,
+        25
+      ]
+    },
+    "4": {
+      "episodes": 39,
+      "first": [
+        1995,
+        3,
+        4
+      ],
+      "last": [
+        1996,
+        3,
+        2
+      ]
+    },
+    "5": {
+      "episodes": 34,
+      "first": [
+        1996,
+        3,
+        9
+      ],
+      "last": [
+        1997,
+        2,
+        8
+      ]
+    }
+  },
+  "series": {
+    "num_episodes": "200 + 3 TV specials",
+    "num_seasons": "5",
+    "runtime": "",
+    "first": [
+      1992,
+      3,
+      7
+    ],
+    "last": [
+      1997,
+      2,
+      8
+    ]
+  },
+  "films": [
+    {
+      "t": "Sailor Moon R: The Movie",
+      "article": "Sailor Moon R: The Movie",
+      "d": [
+        1993,
+        12,
+        5
+      ],
+      "runtime": 61,
+      "wd_runtime": 62,
+      "q": "Q636444"
+    },
+    {
+      "t": "Sailor Moon S: The Movie",
+      "article": "Sailor Moon S: The Movie",
+      "d": [
+        1994,
+        12,
+        4
+      ],
+      "runtime": 61,
+      "wd_runtime": 60,
+      "q": "Q1066446"
+    },
+    {
+      "t": "Sailor Moon SuperS: The Movie",
+      "article": "Sailor Moon SuperS: The Movie",
+      "d": [
+        1995,
+        12,
+        23
+      ],
+      "runtime": 62,
+      "wd_runtime": 60,
+      "q": "Q566098"
+    }
+  ],
+  "shorts": [
+    {
+      "t": "Make Up! Sailor Senshi",
+      "d": [
+        1993,
+        12,
+        5
+      ],
+      "with": "Sailor Moon R",
+      "film": "Sailor Moon R: The Movie"
+    },
+    {
+      "t": "Ami's First Love",
+      "d": [
+        1995,
+        12,
+        23
+      ],
+      "with": "SuperS",
+      "film": "Sailor Moon SuperS: The Movie"
+    }
+  ],
+  "specials": [
+    {
+      "n": 1,
+      "t": "An Elegant Metamorphosis? Crybaby Usagi's Growth Diary",
+      "d": [
+        1995,
+        4,
+        8
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Haruka and Michiru, Again! The Ghostly Puppet Show",
+      "d": [
+        1995,
+        4,
+        8
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Chibiusa's Adventure! The Dreaded Vampire Castle",
+      "d": [
+        1995,
+        4,
+        8
+      ]
+    }
+  ],
+  "short_films_total": 5,
+  "dub": {
+    "japanese_through": 89,
+    "dub_through": 82,
+    "lost": 7,
+    "unused_range": [
+      83,
+      89
+    ],
+    "season1_dub_episodes": 40,
+    "cut": [
+      2,
+      5,
+      6,
+      20,
+      42,
+      67
+    ],
+    "merged": [
+      45,
+      46
+    ],
+    "merged_dub_number": "40"
+  },
+  "crystal": {
+    "crystal_quote": "Crystal serves as a reboot by faithfully adapting the original manga by omitting much of the original materials from the first anime series.",
+    "series_quote": "A new animated adaptation, Sailor Moon Crystal, which is a reboot series that more closely follows the manga, began airing worldwide in July 2014.",
+    "separate_episode_lists": true
+  },
+  "arcs": {
+    "1": {
+      "chapters": 13,
+      "episodes": 46
+    },
+    "2": {
+      "arcs": [
+        "Makai Tree",
+        "Black Moon Clan"
+      ],
+      "volumes": [
+        "fourth",
+        "seventh"
+      ]
+    },
+    "3": {
+      "arc": "Infinity"
+    },
+    "4": {
+      "arc": "Dream"
+    },
+    "5": {
+      "split": [
+        6,
+        28
+      ],
+      "arc": "Stars",
+      "part_names": [
+        "Resurrection of Nehelenia Arc",
+        "Sailor Galaxia Arc"
+      ]
+    }
+  },
+  "headings": {
+    "1": {
+      "heading": "Season 1",
+      "span": "1992–93"
+    },
+    "2": {
+      "heading": "Season 2: R",
+      "span": "1993–94"
+    },
+    "3": {
+      "heading": "Season 3: S",
+      "span": "1994–95"
+    },
+    "4": {
+      "heading": "Season 4: SuperS",
+      "span": "1995–96"
+    },
+    "5": {
+      "heading": "Season 5: Sailor Stars",
+      "span": "1996–97"
+    }
+  },
+  "title_columns": {
+    "1": "DiC title",
+    "2": "DiC title",
+    "3": "Cloverway title",
+    "4": "Cloverway title",
+    "5": ""
+  },
+  "dub_coverage": "The first four seasons were originally dubbed in English and released in North America by DIC Entertainment and Cloverway.",
+  "siblings": [
+    {
+      "what": "the 1994 television pilot",
+      "article": "Sailor Moon (1994 TV pilot)"
+    },
+    {
+      "what": "the 2003 television series",
+      "article": "Pretty Guardian Sailor Moon (2003 TV series)"
+    },
+    {
+      "what": "the 2014 web and television series",
+      "article": "Sailor Moon Crystal"
+    }
+  ],
+  "toonami": "On June 1, 1998, reruns of the series began airing on Cartoon Network's weekday afternoon programming block, Toonami.",
+  "census": {
+    "episode_rows": 200,
+    "special_rows": 3,
+    "wikilinked_titles": 0,
+    "article_census": {
+      "own-unrelated": 17,
+      "redirect": 36,
+      "missing": 143,
+      "own": 4
+    },
+    "titles_with_own_sailor_moon_article": [
+      "Child's Play",
+      "Double Trouble",
+      "So You Want to Be in Pictures",
+      "Talk Radio"
+    ],
+    "redirect_targets": {
+      "List of Sailor Moon episodes": 24,
+      "Charmed season 4": 1,
+      "Brotherly love": 1,
+      "Full House season 2": 1,
+      "Diamonds in the Rough": 1,
+      "Follow the leader": 1,
+      "Kirby's Adventure": 1,
+      "People (Barbra Streisand song)": 1,
+      "Showstopper": 1,
+      "Sibling rivalry": 1,
+      "Ice Princess (disambiguation)": 1,
+      "Last Resort": 1,
+      "Time bomb (disambiguation)": 1
+    },
+    "titles_with_wikidata_item": 57,
+    "titles_with_p2047": {
+      "So You Want to Be in Pictures": [
+        "Q7549690",
+        11,
+        "own"
+      ]
+    },
+    "wikidata_series_members": {
+      "P179=Q704353": 87,
+      "P1441=Q704353": 48,
+      "P4908=Q17563016": 43
+    },
+    "wikidata_series_members_with_p2047": {
+      "Q106563559": 24,
+      "Q106563696": 25,
+      "Q106595654": 24,
+      "Q107357279": 24,
+      "Q107358499": 24,
+      "Q107358503": 24,
+      "Q107358528": 24,
+      "Q107358546": 24,
+      "Q107363849": 24,
+      "Q107363942": 24
+    },
+    "films": {
+      "Sailor Moon R: The Movie": {
+        "runtime_field": "61 minutes<ref name = \"Gross\">{{cite web|title=Sailor Moon: The Movie (2017) |url=http://www.boxofficemojo.com/movies/?id=sailormoonrthemovie.htm |website=[[Box Office Mojo]] |access-date=2 August 2017 |archive-url=https://web.archive.org/web/20170802211021/http://www.boxofficemojo.com/movies/?id=sailormoonrthemovie.htm |archive-date=2 August 2017 |url-status=live}}</ref>",
+        "released": "{{film date|1993|12|5}}"
+      },
+      "Sailor Moon S: The Movie": {
+        "runtime_field": "61 minutes",
+        "released": "{{Film date|1994|12|4}}"
+      },
+      "Sailor Moon SuperS: The Movie": {
+        "runtime_field": "62 minutes",
+        "released": "{{Film date|1995|12|23}}"
+      }
+    },
+    "film_wikidata_runtime": {
+      "Sailor Moon R: The Movie": 62,
+      "Sailor Moon S: The Movie": 60,
+      "Sailor Moon SuperS: The Movie": 60
+    },
+    "distinct_series_members": 135,
+    "members_with_p2047": {
+      "Q106563559": [
+        "The Crybaby Usagi's Beautiful Transformation",
+        24
+      ],
+      "Q106563696": [
+        "The Mysterious Sleeping Sickness, Protect the Girls in Love",
+        25
+      ],
+      "Q106595654": [
+        "A New Enemy Appears: Nephrite`s Evil Crest",
+        24
+      ],
+      "Q107357279": [
+        "In Search of the Silver Crystal: Chibi-Usa`s Secret",
+        24
+      ],
+      "Q107358499": [
+        "Dispute over Love: Minako and Makoto`s Conflict",
+        24
+      ],
+      "Q107358503": [
+        "Usagi’s Parental Love: The Curry Romance Triangle",
+        24
+      ],
+      "Q107358528": [
+        "The Beach, the Island and a Vacation: The Guardians' Break",
+        24
+      ],
+      "Q107358546": [
+        "Protect Chibi-Usa: Clash of the Ten Warriors",
+        24
+      ],
+      "Q107363849": [
+        "Awaken the Sleeping Beauty: Mamoru’s Distress",
+        24
+      ],
+      "Q107363942": [
+        "Battle of the Flames of Love! Mars vs. Koan",
+        24
+      ]
+    }
+  }
+}

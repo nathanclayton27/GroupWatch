@@ -2156,6 +2156,26 @@ let MANIFEST = [
     "totalw": 197.88
   },
   {
+    "slug": "sailor-moon",
+    "media": [
+      "anime",
+      "movies"
+    ],
+    "title": "Sailor Moon",
+    "subtitle": "the 1990s anime, with the films and specials where they went out",
+    "kind": "anime & films",
+    "year": "1992–1997",
+    "popularity": 80,
+    "blurb": "All 200 episodes of the original run — five seasons and five years — with the three films, the two theatrical shorts and the three specials each sitting on the date it went out.",
+    "accent": "#A81E5E",
+    "accentDark": "#F79FD4",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 208
+  },
+  {
     "slug": "stephen-king",
     "media": [
       "books"
@@ -5269,13 +5289,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '9c42cb7e5e3f';
+const BUILD = 'f6ecd085146c';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = '21da64e77c';
+const SYNCVER = 'c5d5ce237c';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
@@ -5928,7 +5948,7 @@ async function pullThumbs(){
 async function pullFriendThumbs(){
   if(!user || !sb || !SLUG || THBROKEN || FBROKEN) return;
   let E = null;
-  try{ E = await fetchFriendEdges(); }catch(e){}
+  try{ E = await friendEdges(); }catch(e){}
   if(!E) return;
   const mutual = E.ids.filter(i=> E.out.has(i) && E.inn.has(i));
   if(!mutual.length) return;
@@ -7195,6 +7215,31 @@ async function fetchFriendEdges(){
   }
   return { out, inn, ids, names };
 }
+// One friendship fetch per page load, shared by the thumbs pull and the
+// group legend. Page changes are real navigations here, so the cache lives
+// exactly as long as it is true — but the two mutations that can outdate it
+// within a load (add, unfriend) both keep it honest below.
+let FREDGES = null, _fredgesP = null;
+function friendEdges(){
+  if(FREDGES) return Promise.resolve(FREDGES);
+  if(!_fredgesP) _fredgesP = fetchFriendEdges()
+    .then(e=>{ FREDGES = e; _fredgesP = null; return e; })
+    .catch(()=>{ _fredgesP = null; return null; });
+  return _fredgesP;
+}
+// Four states, and only two of them are worth a button:
+//   self     you
+//   mine     you already added them — friends, or sent and waiting
+//   back     they added you and you have not added back
+//   new      no edge either way
+// "unknown" is the honest answer before the graph lands; it renders the
+// button as before rather than guessing, and paintLegendFriends corrects it.
+function legendFriendState(id){
+  if(!user || id === user.id) return 'self';
+  if(!FREDGES) return 'unknown';
+  if(FREDGES.out.has(id)) return 'mine';
+  return FREDGES.inn.has(id) ? 'back' : 'new';
+}
 function updateReqBadge(n){
   ['mastfr-n', 'baracct-n'].forEach(id=>{
     const el = $(id);
@@ -7209,6 +7254,7 @@ async function unFriend(id, name){
   try{
     await sb.from('friendships').delete().eq('a', user.id).eq('b', id);
     await sb.from('friendships').delete().eq('a', id).eq('b', user.id);
+    if(FREDGES){ FREDGES.out.delete(id); FREDGES.inn.delete(id); }
   }catch(e){ return { err: 'Could not remove — try again.' }; }
   return { name };
 }
@@ -8035,13 +8081,16 @@ function paintStack(){
     const ago = age
       ? '<span class="gago" title="Last synced '+esc(age.long)+'">'+age.short+'</span>'
       : '';
-    // clubs are where friends come from: everyone who isn't you carries a
-    // hover-layer add — the flow reports the four honest states itself,
-    // so pressing it on an existing friend is a no-op with words
-    const fr = m.id !== user.id
-      ? '<button class="aquiet gfr" data-fradd="'+esc(m.id)
-        + '" data-frname="'+esc(m.name)+'">add friend</button>'
-      : '';
+    // Clubs are where friends come from, so everyone here carries a
+    // hover-layer add — EXCEPT the people an add could not change: yourself,
+    // and anyone you have already added. Before this the button showed on
+    // all of them and answered a press with a sentence saying it had done
+    // nothing (CLU-345).
+    const fst = legendFriendState(m.id);
+    const fr = (fst === 'self' || fst === 'mine') ? ''
+      : '<button class="aquiet gfr" data-fradd="'+esc(m.id)
+        + '" data-frname="'+esc(m.name)+'">'
+        + (fst === 'back' ? 'add back' : 'add friend') + '</button>';
     return '<span class="gitem"'+from+'><span class="gsw" style="background:var(--m'+(m.ci+1)+')"></span>'
       +'<span'+(m.id===user.id?' class="gme"':'')+'>'+esc(m.name)+(m.id===user.id?' (you)':'')+'</span>'
       + ago
@@ -8053,7 +8102,27 @@ function paintStack(){
       if(!user){ flash('Sign in to add friends.'); return; }
       const r = await addFriend({ id: b.dataset.fradd, name: b.dataset.frname });
       friendNotify(r, false);
+      // the edge exists now either way, so the button has nothing left to do
+      if(!r.err){
+        if(FREDGES) FREDGES.out.add(b.dataset.fradd);
+        b.remove();
+      }
     };
+  });
+  paintLegendFriends();
+}
+// The legend paints before the graph arrives, so it starts in the unknown
+// state and is corrected once — no spinner, no blocked render, and no button
+// that lies for longer than one round trip.
+async function paintLegendFriends(){
+  const host = $('glegend');
+  if(!user || !sb || !host || !host.querySelector('button[data-fradd]')) return;
+  await friendEdges();
+  if(!FREDGES) return;
+  host.querySelectorAll('button[data-fradd]').forEach(b=>{
+    const st = legendFriendState(b.dataset.fradd);
+    if(st === 'self' || st === 'mine') b.remove();
+    else b.textContent = st === 'back' ? 'add back' : 'add friend';
   });
 }
 
