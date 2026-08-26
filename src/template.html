@@ -355,11 +355,23 @@ li.done .ttl,li.done .num{color:var(--ink-3);text-decoration:line-through;text-d
   display:inline-flex;align-items:center;gap:4px;
   border:1px solid var(--rule-2);border-radius:99px;padding:3px 8px;
   background:transparent;color:var(--ink-2)}
-.thb{cursor:pointer;filter:grayscale(1);opacity:0;transition:opacity .15s}
+/* Leaving is INSTANT and entering takes .15s, and the split is what kills
+   the trail: an element returning to its base state animates with the base
+   rule's transition, so the slow half lives on the hover rules below. A
+   fast sweep used to leave every row it crossed fading for .15s, which put
+   a dozen half-lit pills on screen at once (Nathan, CLU-370). */
+.thb{cursor:pointer;filter:grayscale(1);opacity:0;transition:opacity 0s}
 /* :not(.on) throughout: a made mark is already at full strength and pointing
    at the row must not fade it back down to hover strength */
 #list li:hover .thb:not(.on):not(.sec),#list li.act .thb:not(.on):not(.sec),
 #list li:focus-within .thb:not(.on):not(.sec){opacity:.6}
+/* the slow half — only while the row is actually under the cursor, so
+   moving between pills inside one row stays smooth. `:not(.sec)` is not
+   decoration: these selectors carry an #id and so outrank `.thpair:hover
+   .thb.sec` below, and without it they would overwrite the sliding pill's
+   own transition and flatten its slide. */
+#list li:hover .thb:not(.sec),#list li.act .thb:not(.sec),
+#list li:focus-within .thb:not(.sec){transition:opacity .15s}
 .thb:hover,.thb:focus-visible{opacity:1;border-color:var(--ink-2)}
 /* CLU-356: one pill per row, the opposite waiting UNDER it.
    Anchored on `right`, not a transform: the two pills are not always the
@@ -371,9 +383,10 @@ li.done .ttl,li.done .num{color:var(--ink-3);text-decoration:line-through;text-d
 .thpair{position:relative;display:inline-flex;align-items:center}
 .thpair .thb.pri{position:relative;z-index:1}
 .thpair .thb.sec{position:absolute;right:0;top:0;z-index:0;opacity:0;
-  transition:right .2s cubic-bezier(.2,.85,.3,1),opacity .16s linear}
+  transition:right 0s,opacity 0s}
 .thpair:hover .thb.sec,.thpair:focus-within .thb.sec{
-  opacity:1;right:calc(100% + 6px)}
+  opacity:1;right:calc(100% + 6px);
+  transition:right .2s cubic-bezier(.2,.85,.3,1),opacity .16s linear}
 /* the surviving mark */
 .thb.on{opacity:1;filter:none;border-color:var(--done);
   background:color-mix(in srgb,var(--done) 16%,transparent)}
@@ -382,8 +395,8 @@ li.done .ttl,li.done .num{color:var(--ink-3);text-decoration:line-through;text-d
    layer too. Where you are IN the count the button carries it instead, and
    the whole pill is highlighted — which is what "you are in that list" has
    to look like at a glance. */
-.thc{opacity:0;transition:opacity .15s;filter:grayscale(1)}
-#list li:hover .thc,#list li.act .thc{opacity:.75}
+.thc{opacity:0;transition:opacity 0s;filter:grayscale(1)}
+#list li:hover .thc,#list li.act .thc{opacity:.75;transition:opacity .15s}
 .thn{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;
   font-variant-numeric:tabular-nums;color:var(--ink-3)}
 .thb.on .thn{color:var(--done)}
