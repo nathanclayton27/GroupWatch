@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Two hundred and one lists, from a ten-episode anime to a 1,418-row film
+Two hundred and six lists, from a ten-episode anime to a 1,418-row film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -75,6 +75,17 @@ prints a database identifier for every entry, the whole list resolves to
 Wikidata ids from the source's own numbering rather than by matching titles.
 Films released after that selection closed need two of Korea's eight film
 juries instead. *Parasite* now ties five lists together.
+
+**The martial artists.** *Bruce Lee* (the five leading roles, and the twenty
+films he made as a child actor in Hong Kong, which the source keeps in the same
+table), *Jackie Chan* (155 films, the roster drawn from the filmography's own
+"credited as actor" column so bit parts stay and stunt-only credits do not),
+*Jet Li* (in four of the six *Once Upon a Time in China* films, and the page
+says which two he is not in), *Donnie Yen*, and *Jean-Claude Van Damme*, whose
+rows say whether a film played in cinemas or went straight to video. They pair
+with each other across 22 sync groups — including one, *The Twins Effect* and
+*Vampire Effect*, that is the same film under two names and could only ever
+have been matched by its Wikidata id.
 
 **Lists that pass a stated gate rather than a verdict.** *Cult Classics* is the
 clearest example: "cult classic" is an opinion, so the list does not offer one.

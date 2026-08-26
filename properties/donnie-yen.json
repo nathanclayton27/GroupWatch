@@ -1,0 +1,627 @@
+{
+  "slug": "donnie-yen",
+  "title": "Donnie Yen",
+  "subtitle": "the films, year by year",
+  "kind": "films",
+  "popularity": 64,
+  "year": "1983–2024",
+  "blurb": "78 films across five decades — the Hong Kong action years, four Ip Man films, and the run out through Rogue One and John Wick. He directed seven of them and is credited with the action on twenty-seven.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#0B8E6F",
+  "accentDark": "#0AB286",
+  "tiers": false,
+  "notes": [
+    [
+      "Every row says what the credit was.",
+      "Yen is an action director, a director and a producer as well as a star, and the filmography records all four in one table — so each row here names his credit rather than leaving you to assume he is in it. He is credited with the action on twenty-seven of these 78 films, he directed seven of them, and on seven the source gives him no role at all: Shaolin Drunkard is a stuntman credit, Moonlight Express, The Princess Blade and Stormbreaker are action direction, The Twins Effect and Protégé de la Rose Noire he co-directed, and Master Z: Ip Man Legacy he produced."
+    ],
+    [
+      "The four Ip Man films, and the spin-off he is not in.",
+      "Ip Man (2008), Ip Man 2, Ip Man 3 and Ip Man 4: The Finale are his, and each row says which entry it is. Master Z: Ip Man Legacy (2018) is here too, because the filmography lists it — but he co-produced it and is not in the cast, and its row says so. The other spin-offs are not his and are not here; taking the roster from the filmography table rather than from the series article is what keeps them out."
+    ],
+    [
+      "78 of the 80 films the filmography lists.",
+      "Two are dropped, both on the source's own flag. Gong Shou Dao (2017) is marked Short film in the notes column; its own article opens \"a 2017 Chinese kung fu short film\" and its infobox says twenty minutes. And Caine, the John Wick film he is directing and starring in, has TBA where its year should be and Filming in the notes; its article has an empty release field, no release section, and no year of release anywhere in it. Announced work joins a list here the moment a source dates it — a year is enough — and until then it stays off. Television and video games are out too, and the source drew that line as well: it keeps its eight television credits and its two game credits in sections of their own."
+    ],
+    [
+      "The sections are the article's own.",
+      "Not four invented eras: the four career subheadings on the Donnie Yen article, with their titles as written. They divide the work about where you would want it divided — the Hong Kong apprenticeship and the years he became an action director, the decade Hollywood hired him to choreograph and that ends with Ip Man, the Ip Man decade, and the international run. Within a year the order is the table's own, not a release-date sort, because six of these films have no article to date."
+    ],
+    [
+      "No bar widths on this list, and that is deliberate.",
+      "Six titles in the source's table carry no wikilink and no article exists under any other name for them — Holy Virgin vs. the Evil Dead, Asian Cop: High Voltage, City of Darkness, Together, Iceman: The Time Traveller and Come Back Home — so there is no infobox, no Wikidata item and no runtime to be had at any price. All's Well, Ends Well 2009 has an article that leaves its runtime field empty. Weighting is all-or-nothing here: a row with no weight on a weighted list silently counts as one hour, which would have priced seven films at an hour each and made every other number wrong. So no row carries a weight, and the counters are film counts. The other 71 rows do have a runtime in their own infobox if this is ever revisited."
+    ],
+    [
+      "Alternate titles are the source's, not ours.",
+      "Hong Kong films routinely go out under several English names and this filmography records them, so the row title is the one the table's own link uses and every a.k.a. it gives is in the note. In the Line of Duty 4: Witness carries three; Satan Returns, Heroes Among Heroes and The Founding of a Republic carry two each."
+    ],
+    [
+      "Nine of these films are on another list here.",
+      "Shanghai Knights, The Twins Effect, The Twins Effect II and The Founding of a Republic on Jackie Chan; Once Upon a Time in China II, Hero, The Founding of a Republic and Mulan on Jet Li; Blade II on MCU Anthology; Rogue One on Star Wars. Ticking one ticks the other: rows pair across lists by title and year, and by the film's Wikidata id where a list carries one, so a film watched here is watched there. Nothing is duplicated, because every list counts only its own rows."
+    ],
+    "Roster, roles, credits and alternate titles from Wikipedia's Donnie Yen filmography, read from the film table itself; the sections and the facts on the rows from the Donnie Yen article; the runtimes and release details behind the weighting decision from each film's own article; the cross-list ids from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "early",
+      "title": "Beginnings to the 1990s",
+      "sub": "1983–1999 · 26 films",
+      "intro": "Twenty-six films in seventeen years, and the first is a stuntman credit. The article's own first career heading covers the apprenticeship and the years he became an action director — he is credited with the action on nine of these — and the three films he directed himself, all between 1997 and 1998.",
+      "items": [
+        {
+          "id": "dy-1983-shaolin-drunkard",
+          "t": "Shaolin Drunkard",
+          "n": "1983",
+          "note": "A stuntman credit; the source gives him no role · Also known as Miracle Fighters 2 · The earliest credit the filmography lists",
+          "q": "Q7489169"
+        },
+        {
+          "id": "dy-1984-drunken-tai-chi",
+          "t": "Drunken Tai Chi",
+          "n": "1984",
+          "note": "As Ching Do · Also known as Drunken Tai Chi Master · His first starring role",
+          "q": "Q5309353"
+        },
+        {
+          "id": "dy-1985-mismatched-couples",
+          "t": "Mismatched Couples",
+          "n": "1985",
+          "note": "As Eddie · Also known as The Mismatched Couple",
+          "q": "Q4353765"
+        },
+        {
+          "id": "dy-1988-tiger-cage",
+          "t": "Tiger Cage",
+          "n": "1988",
+          "note": "As Terry · He was the action director too",
+          "q": "Q3528290"
+        },
+        {
+          "id": "dy-1989-in-the-line-of-duty-4-witness",
+          "t": "In the Line of Duty 4: Witness",
+          "n": "1989",
+          "note": "As Captain Donnie Yan · Also known as In the Line of Duty, In the Line of Duty IV: Witness and Yes, Madam 4",
+          "q": "Q3149732"
+        },
+        {
+          "id": "dy-1990-tiger-cage-2",
+          "t": "Tiger Cage 2",
+          "n": "1990",
+          "note": "As Dragon Yau · He was the action director too",
+          "q": "Q3528294"
+        },
+        {
+          "id": "dy-1991-holy-virgin-vs-the-evil-dead",
+          "t": "Holy Virgin vs. the Evil Dead",
+          "n": "1991",
+          "note": "As Shiang Chin-fei"
+        },
+        {
+          "id": "dy-1991-crystal-hunt",
+          "t": "Crystal Hunt",
+          "n": "1991",
+          "note": "As Leung / Brett Chan",
+          "q": "Q11323062"
+        },
+        {
+          "id": "dy-1992-cheetah-on-fire",
+          "t": "Cheetah on Fire",
+          "n": "1992",
+          "note": "As Ronald / Ronnie / Roano · Also known as Fight to Survive in the Philippines",
+          "q": "Q102036299"
+        },
+        {
+          "id": "dy-1992-once-upon-a-time-in-china-ii",
+          "t": "Once Upon a Time in China II",
+          "n": "1992",
+          "note": "As Commander Lan · His breakthrough, and his first film opposite Jet Li",
+          "q": "Q747034"
+        },
+        {
+          "id": "dy-1992-new-dragon-gate-inn",
+          "t": "New Dragon Gate Inn",
+          "n": "1992",
+          "note": "As Eunuch Tsao · Also known as Dragon Inn",
+          "q": "Q1315888"
+        },
+        {
+          "id": "dy-1993-iron-monkey",
+          "t": "Iron Monkey",
+          "n": "1993",
+          "note": "As Wong Kei-ying · Also known as Iron Monkey: The Young Wong Fei Hung",
+          "q": "Q2138296"
+        },
+        {
+          "id": "dy-1993-butterfly-and-sword",
+          "t": "Butterfly and Sword",
+          "n": "1993",
+          "note": "As Yip Cheung · Also known as Comet, Butterfly, and Sword",
+          "q": "Q2928987"
+        },
+        {
+          "id": "dy-1993-heroes-among-heroes",
+          "t": "Heroes Among Heroes",
+          "n": "1993",
+          "note": "As Beggar So Chan · Also known as The Red Dragon and Beggar So",
+          "q": "Q5484678"
+        },
+        {
+          "id": "dy-1994-wing-chun",
+          "t": "Wing Chun",
+          "n": "1994",
+          "note": "As Leung Pok-to · He was the action director too · Also known as The Beautiful Secret Agent",
+          "q": "Q2657432"
+        },
+        {
+          "id": "dy-1994-circus-kid",
+          "t": "Circus Kid",
+          "n": "1994",
+          "note": "As Danton Lee · Also known as Circus Kids",
+          "q": "Q5121821"
+        },
+        {
+          "id": "dy-1995-the-saint-of-gamblers",
+          "t": "The Saint of Gamblers",
+          "n": "1995",
+          "note": "As Lone Seven · A cameo",
+          "q": "Q16078804"
+        },
+        {
+          "id": "dy-1995-asian-cop-high-voltage",
+          "t": "Asian Cop: High Voltage",
+          "n": "1995",
+          "note": "As Chiang Ho-wa · He was the action director too · Also known as Asian Cops: High Voltage"
+        },
+        {
+          "id": "dy-1996-iron-monkey-2",
+          "t": "Iron Monkey 2",
+          "n": "1996",
+          "note": "As The Iron Monkey",
+          "q": "Q2382030"
+        },
+        {
+          "id": "dy-1996-satan-returns",
+          "t": "Satan Returns",
+          "n": "1996",
+          "note": "As Nam · He was the action director too · Also known as Satan's Return and Shaolin vs. The Devil's Omen",
+          "q": "Q18171845"
+        },
+        {
+          "id": "dy-1997-legend-of-the-wolf",
+          "t": "Legend of the Wolf",
+          "n": "1997",
+          "note": "As Fung Man-hin · He directed, produced and co-wrote it, and was the action director · Also known as The New Big Boss · His directing debut",
+          "q": "Q4352275"
+        },
+        {
+          "id": "dy-1997-black-rose-ii",
+          "t": "Black Rose II",
+          "n": "1997",
+          "note": "As Boxing School Owner · Also known as The Black Rose and 97 Legendary La Rose Noire",
+          "q": "Q11179300"
+        },
+        {
+          "id": "dy-1998-ballistic-kiss",
+          "t": "Ballistic Kiss",
+          "n": "1998",
+          "note": "As Cat · He directed and produced it, and was the action director · Also known as Kill a Little, Dance a Little",
+          "q": "Q16950129"
+        },
+        {
+          "id": "dy-1998-shanghai-affairs",
+          "t": "Shanghai Affairs",
+          "n": "1998",
+          "note": "As Tong Shan · He directed it and was the action director",
+          "q": "Q3212493"
+        },
+        {
+          "id": "dy-1999-city-of-darkness",
+          "t": "City of Darkness",
+          "n": "1999",
+          "note": "As Ozone · Also known as Black City"
+        },
+        {
+          "id": "dy-1999-moonlight-express",
+          "t": "Moonlight Express",
+          "n": "1999",
+          "note": "Action director; the source gives him no role",
+          "q": "Q6907840"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "d2000",
+      "title": "2000s: Breakthrough success",
+      "sub": "2000–2009 · 20 films",
+      "intro": "The decade the article calls his breakthrough. It opens with Hollywood hiring him to choreograph rather than to act — four of these 20 rows are crew credits with no role at all — and it ends in 2008 with Ip Man.",
+      "items": [
+        {
+          "id": "dy-2000-highlander-endgame",
+          "t": "Highlander: Endgame",
+          "n": "2000",
+          "note": "As Jin Ke · He was the martial arts choreographer too · Hollywood hired him to choreograph the fights and then put him on screen · His American debut",
+          "q": "Q1617964"
+        },
+        {
+          "id": "dy-2001-the-princess-blade",
+          "t": "The Princess Blade",
+          "n": "2001",
+          "note": "Action choreographer; the source gives him no role · Also known as Shurayuki Hime",
+          "q": "Q8911381"
+        },
+        {
+          "id": "dy-2002-blade-ii",
+          "t": "Blade II",
+          "n": "2002",
+          "note": "As Snowman · He was the action choreographer too · Hollywood hired him to choreograph the fights and then put him on screen",
+          "q": "Q159638"
+        },
+        {
+          "id": "dy-2002-hero",
+          "t": "Hero",
+          "n": "2002",
+          "note": "As Long Sky · His second film opposite Jet Li, ten years after the first · One row for the film: the infobox gives 99 minutes theatrical and 110 for the Director's Cut",
+          "q": "Q260379"
+        },
+        {
+          "id": "dy-2003-shanghai-knights",
+          "t": "Shanghai Knights",
+          "n": "2003",
+          "note": "As Wu Chow",
+          "q": "Q595595"
+        },
+        {
+          "id": "dy-2003-the-twins-effect",
+          "t": "The Twins Effect",
+          "n": "2003",
+          "note": "He co-directed it and was the action director; the source gives him no role · Also known as Vampire Effect",
+          "q": "Q687068"
+        },
+        {
+          "id": "dy-2004-the-twins-effect-ii",
+          "t": "The Twins Effect II",
+          "n": "2004",
+          "note": "As General Lone · Also known as Huadu Chronicles: The Blade of the Rose",
+          "q": "Q3234902"
+        },
+        {
+          "id": "dy-2004-protege-de-la-rose-noire",
+          "t": "Protégé de la Rose Noire",
+          "n": "2004",
+          "note": "He co-directed it and was the action director; the source gives him no role · Also known as Black Rose Academy",
+          "q": "Q11318690"
+        },
+        {
+          "id": "dy-2004-love-on-the-rocks",
+          "t": "Love on the Rocks",
+          "n": "2004",
+          "note": "As Victor Tsui",
+          "q": "Q6691988"
+        },
+        {
+          "id": "dy-2005-spl-sha-po-lang",
+          "t": "SPL: Sha Po Lang",
+          "n": "2005",
+          "note": "As Inspector Ma Kwan · He was the action director too · Also known as Kill Zone (US)",
+          "q": "Q656966"
+        },
+        {
+          "id": "dy-2005-seven-swords",
+          "t": "Seven Swords",
+          "n": "2005",
+          "note": "As Chu Zhaonan",
+          "q": "Q781053"
+        },
+        {
+          "id": "dy-2005-dragon-tiger-gate",
+          "t": "Dragon Tiger Gate",
+          "n": "2005",
+          "note": "As Wong Siu-lung, a.k.a. \"Dragon Wong\" · He was the action director and an executive producer too",
+          "q": "Q3038781"
+        },
+        {
+          "id": "dy-2006-stormbreaker",
+          "t": "Stormbreaker",
+          "n": "2006",
+          "note": "Action director; the source gives him no role",
+          "q": "Q169996"
+        },
+        {
+          "id": "dy-2007-flash-point",
+          "t": "Flash Point",
+          "n": "2007",
+          "note": "As Inspector Ma Jun · He was the action director and a producer too · Also known as Flashpoint and City Without Mercy",
+          "q": "Q544642"
+        },
+        {
+          "id": "dy-2008-an-empress-and-the-warriors",
+          "t": "An Empress and the Warriors",
+          "n": "2008",
+          "note": "As Murong Xuehu · Also known as The Kingdom and a Beauty",
+          "q": "Q2700358"
+        },
+        {
+          "id": "dy-2008-painted-skin",
+          "t": "Painted Skin",
+          "n": "2008",
+          "note": "As Pang Yong",
+          "q": "Q51750"
+        },
+        {
+          "id": "dy-2008-ip-man",
+          "t": "Ip Man",
+          "n": "2008",
+          "note": "As Ip Man · The first of the four Ip Man films · Ip Man taught Bruce Lee",
+          "q": "Q573743"
+        },
+        {
+          "id": "dy-2009-all-s-well-ends-well-2009",
+          "t": "All's Well, Ends Well 2009",
+          "n": "2009",
+          "note": "As Wedding Guest · A cameo",
+          "q": "Q4184258"
+        },
+        {
+          "id": "dy-2009-the-founding-of-a-republic",
+          "t": "The Founding of a Republic",
+          "n": "2009",
+          "note": "As Tian Han · Also known as Jian Guo Da Ye (lit. The Great Cause of China's Foundation), Founding of a Nation and Lofty Ambitions of Nation Building",
+          "q": "Q2900799"
+        },
+        {
+          "id": "dy-2009-bodyguards-and-assassins",
+          "t": "Bodyguards and Assassins",
+          "n": "2009",
+          "note": "As Shen Chongyang · He was the action director too",
+          "q": "Q2131160"
+        }
+      ]
+    },
+    {
+      "id": "d2010",
+      "title": "2010s",
+      "sub": "2010–2019 · 23 films",
+      "intro": "Twenty-three films, three of them Ip Man sequels and one of them the spin-off he produced but is not in. Rogue One in 2016 is where the list stops being a Hong Kong filmography.",
+      "items": [
+        {
+          "id": "dy-2010-14-blades",
+          "t": "14 Blades",
+          "n": "2010",
+          "note": "As Qinglong",
+          "q": "Q3084243"
+        },
+        {
+          "id": "dy-2010-ip-man-2",
+          "t": "Ip Man 2",
+          "n": "2010",
+          "note": "As Ip Man · The second Ip Man film",
+          "q": "Q1193433"
+        },
+        {
+          "id": "dy-2010-legend-of-the-fist-the-return-of-chen-zhen",
+          "t": "Legend of the Fist: The Return of Chen Zhen",
+          "n": "2010",
+          "note": "As Chen Zhen · He was the action director too",
+          "q": "Q2087602"
+        },
+        {
+          "id": "dy-2011-all-s-well-ends-well-2011",
+          "t": "All's Well, Ends Well 2011",
+          "n": "2011",
+          "note": "As Arnold Cheng",
+          "q": "Q4727755"
+        },
+        {
+          "id": "dy-2011-the-lost-bladesman",
+          "t": "The Lost Bladesman",
+          "n": "2011",
+          "note": "As Guan Yu · He was the action director too",
+          "q": "Q1314107"
+        },
+        {
+          "id": "dy-2011-dragon",
+          "t": "Dragon",
+          "n": "2011",
+          "note": "As Liu Jinxi / Tang Long · He was the action director too · Also known as Wu Xia",
+          "q": "Q213138"
+        },
+        {
+          "id": "dy-2012-all-s-well-ends-well-2012",
+          "t": "All's Well, Ends Well 2012",
+          "n": "2012",
+          "note": "As Carl Tam · Also known as Eight Happiness 2012",
+          "q": "Q4727756"
+        },
+        {
+          "id": "dy-2013-together",
+          "t": "Together",
+          "n": "2013",
+          "note": "As Mr. Cool"
+        },
+        {
+          "id": "dy-2013-special-id",
+          "t": "Special ID",
+          "n": "2013",
+          "note": "As Dragon Chan · He was the action director too",
+          "q": "Q14948588"
+        },
+        {
+          "id": "dy-2014-golden-chicken-3",
+          "t": "Golden Chicken 3",
+          "n": "2014",
+          "note": "As Master Yip",
+          "q": "Q15642649"
+        },
+        {
+          "id": "dy-2014-the-monkey-king",
+          "t": "The Monkey King",
+          "n": "2014",
+          "note": "As Sun Wukong · He was the action director too",
+          "q": "Q7752052"
+        },
+        {
+          "id": "dy-2014-iceman",
+          "t": "Iceman",
+          "n": "2014",
+          "note": "As Ho Ying · He was the action director too · One row for the film: the infobox gives 104 minutes in Hong Kong and 91 in China",
+          "q": "Q14948568"
+        },
+        {
+          "id": "dy-2014-kung-fu-jungle",
+          "t": "Kung Fu Jungle",
+          "n": "2014",
+          "note": "As Ha Hou-mou · He was the action director too",
+          "q": "Q16071048"
+        },
+        {
+          "id": "dy-2015-an-inspector-calls",
+          "t": "An Inspector Calls",
+          "n": "2015",
+          "note": "As Pop Quadruplet · A cameo",
+          "q": "Q18759070"
+        },
+        {
+          "id": "dy-2015-ip-man-3",
+          "t": "Ip Man 3",
+          "n": "2015",
+          "note": "As Ip Man · The third Ip Man film",
+          "q": "Q19757672"
+        },
+        {
+          "id": "dy-2016-crouching-tiger-hidden-dragon-sword-of-destiny",
+          "t": "Crouching Tiger, Hidden Dragon: Sword of Destiny",
+          "n": "2016",
+          "note": "As Silent Wolf",
+          "q": "Q18206289"
+        },
+        {
+          "id": "dy-2016-rogue-one",
+          "t": "Rogue One",
+          "n": "2016",
+          "note": "As Chirrut Îmwe",
+          "q": "Q19590955"
+        },
+        {
+          "id": "dy-2017-xxx-return-of-xander-cage",
+          "t": "XXX: Return of Xander Cage",
+          "n": "2017",
+          "note": "As Xiang",
+          "q": "Q22075020"
+        },
+        {
+          "id": "dy-2017-chasing-the-dragon",
+          "t": "Chasing the Dragon",
+          "n": "2017",
+          "note": "As Crippled Ho",
+          "q": "Q19572469"
+        },
+        {
+          "id": "dy-2018-big-brother",
+          "t": "Big Brother",
+          "n": "2018",
+          "note": "As Henry Chen Xia / Chan Hak",
+          "q": "Q56272751"
+        },
+        {
+          "id": "dy-2018-iceman-the-time-traveller",
+          "t": "Iceman: The Time Traveller",
+          "n": "2018",
+          "note": "As Ho Ying · He was the action director too · The second half of Iceman, released four years later"
+        },
+        {
+          "id": "dy-2018-master-z-ip-man-legacy",
+          "t": "Master Z: Ip Man Legacy",
+          "n": "2018",
+          "note": "Producer; the source gives him no role · The Ip Man spin-off; he co-produced it and is not in the cast",
+          "q": "Q57905222"
+        },
+        {
+          "id": "dy-2019-ip-man-4-the-finale",
+          "t": "Ip Man 4: The Finale",
+          "n": "2019",
+          "note": "As Ip Man · The fourth and last Ip Man film",
+          "q": "Q54958357"
+        }
+      ]
+    },
+    {
+      "id": "d2020",
+      "title": "2020s",
+      "sub": "2020–2024 · 9 films",
+      "intro": "Nine films so far. Mulan, John Wick: Chapter 4 and two more he directed himself — the international run and the Hong Kong one at the same time.",
+      "items": [
+        {
+          "id": "dy-2020-enter-the-fat-dragon",
+          "t": "Enter the Fat Dragon",
+          "n": "2020",
+          "note": "As Fallon Zhu · He produced it too",
+          "q": "Q55610927"
+        },
+        {
+          "id": "dy-2020-mulan",
+          "t": "Mulan",
+          "n": "2020",
+          "note": "As Commander Tung",
+          "q": "Q24284283"
+        },
+        {
+          "id": "dy-2021-raging-fire",
+          "t": "Raging Fire",
+          "n": "2021",
+          "note": "As Cheung Sung-bong",
+          "q": "Q99964772"
+        },
+        {
+          "id": "dy-2022-new-kung-fu-cult-master-1",
+          "t": "New Kung Fu Cult Master 1",
+          "n": "2022",
+          "note": "As Cheung Sam-fung",
+          "q": "Q97352241"
+        },
+        {
+          "id": "dy-2022-new-kung-fu-cult-master-2",
+          "t": "New Kung Fu Cult Master 2",
+          "n": "2022",
+          "note": "As Cheung Sam-fung",
+          "q": "Q110916388"
+        },
+        {
+          "id": "dy-2022-come-back-home",
+          "t": "Come Back Home",
+          "n": "2022",
+          "note": "As De"
+        },
+        {
+          "id": "dy-2023-sakra",
+          "t": "Sakra",
+          "n": "2023",
+          "note": "As Qiao Feng · He directed and co-produced it",
+          "q": "Q115599751"
+        },
+        {
+          "id": "dy-2023-john-wick-chapter-4",
+          "t": "John Wick: Chapter 4",
+          "n": "2023",
+          "note": "As Caine",
+          "q": "Q80322358"
+        },
+        {
+          "id": "dy-2024-the-prosecutor",
+          "t": "The Prosecutor",
+          "n": "2024",
+          "note": "As Fok Chi-ho · He directed and co-produced it",
+          "q": "Q130272144"
+        }
+      ]
+    }
+  ]
+}

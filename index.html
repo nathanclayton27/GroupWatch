@@ -2109,6 +2109,25 @@ let MANIFEST = [
     "random": true
   },
   {
+    "slug": "bruce-lee",
+    "media": [
+      "movies"
+    ],
+    "title": "Bruce Lee",
+    "subtitle": "everything he was credited on, child roles and all",
+    "kind": "films",
+    "year": "1941–1981",
+    "popularity": 80,
+    "blurb": "Thirty-five films, and only five of them the ones you are thinking of. The other thirty include a whole childhood career in Hong Kong cinema and four films he never appears in.",
+    "accent": "#50400B",
+    "accentDark": "#A68930",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 35
+  },
+  {
     "slug": "nolan",
     "media": [
       "movies"
@@ -2265,6 +2284,25 @@ let MANIFEST = [
     },
     "total": 69,
     "totalw": 137.41
+  },
+  {
+    "slug": "jackie-chan",
+    "media": [
+      "movies"
+    ],
+    "title": "Jackie Chan",
+    "subtitle": "every acting credit, in year order",
+    "kind": "films",
+    "year": "1962–2026",
+    "popularity": 79,
+    "blurb": "A hundred and fifty-five films over sixty-four years, from uncredited extra to Hollywood and back. Every credit the filmography marks him an actor in.",
+    "accent": "#4B3B06",
+    "accentDark": "#A68930",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 155
   },
   {
     "slug": "ghibli",
@@ -3091,6 +3129,26 @@ let MANIFEST = [
     "total": 33
   },
   {
+    "slug": "jet-li",
+    "media": [
+      "movies"
+    ],
+    "title": "Jet Li",
+    "subtitle": "the films, in the order they came out",
+    "kind": "films",
+    "year": "1982–2026",
+    "popularity": 70,
+    "blurb": "Forty-eight films across five decades — about 83 hours. The wushu champion who became Wong Fei-hung, then Hollywood's villain.",
+    "accent": "#4B3A02",
+    "accentDark": "#A48932",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 48,
+    "totalw": 82.58
+  },
+  {
     "slug": "jojo-manga",
     "media": [
       "manga"
@@ -3465,6 +3523,26 @@ let MANIFEST = [
     "total": 38
   },
   {
+    "slug": "van-damme",
+    "media": [
+      "movies"
+    ],
+    "title": "Jean-Claude Van Damme",
+    "subtitle": "the films in release order, and how each one came out",
+    "kind": "films",
+    "year": "1979–2025",
+    "popularity": 67,
+    "blurb": "Sixty-five films across six decades — about 105 hours. Fourteen went straight to video, fourteen more got a limited release, and every row says which.",
+    "accent": "#0B1985",
+    "accentDark": "#6879F7",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 65,
+    "totalw": 105.05
+  },
+  {
     "slug": "mad-men",
     "media": [
       "tv"
@@ -3758,6 +3836,25 @@ let MANIFEST = [
     },
     "total": 10,
     "totalw": 63.15
+  },
+  {
+    "slug": "donnie-yen",
+    "media": [
+      "movies"
+    ],
+    "title": "Donnie Yen",
+    "subtitle": "the films, year by year",
+    "kind": "films",
+    "year": "1983–2024",
+    "popularity": 64,
+    "blurb": "78 films across five decades — the Hong Kong action years, four Ip Man films, and the run out through Rogue One and John Wick. He directed seven of them and is credited with the action on twenty-seven.",
+    "accent": "#0B8E6F",
+    "accentDark": "#0AB286",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 78
   },
   {
     "slug": "ghost-in-the-shell",
@@ -5444,13 +5541,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '4179e4f38d24';
+const BUILD = 'b7b51ab6a50d';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = '5b35235da1';
+const SYNCVER = 'f055200974';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

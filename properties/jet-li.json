@@ -1,0 +1,475 @@
+{
+  "slug": "jet-li",
+  "title": "Jet Li",
+  "subtitle": "the films, in the order they came out",
+  "kind": "films",
+  "popularity": 70,
+  "year": "1982–2026",
+  "blurb": "Forty-eight films across five decades — about 83 hours. The wushu champion who became Wong Fei-hung, then Hollywood's villain.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#4B3A02",
+  "accentDark": "#A48932",
+  "tiers": false,
+  "notes": [
+    [
+      "Films only, and the source drew that line.",
+      "The filmography keeps everything else in its own sections of the same article, so that is where they stay: six documentaries, the first three of them filed under a Biographic role; the Aaliyah video for Try Again; and one video game, Jet Li: Rise to Honor, under a column headed Voice role. This is the rule the Kevin Bacon and Clint Eastwood lists here follow."
+    ],
+    [
+      "All 48 films the filmography lists, and nothing else.",
+      "A film is a row when the source's own Film table lists him in it, and the row says what the credit was — the character, plus any producing or directing credit the table's notes record. Nothing is dropped, because unlike other filmographies here the table flags nothing: no row is marked a short film, none says his footage was cut, and none is repeated in another table. Two things the article's prose mentions are still not rows, because the table does not list them: a 2012 film called Tai Chi that he starred in and co-produced, which appears nowhere in the table under any year, and XXX: Return of Xander Cage, which he was announced for and Donnie Yen replaced him on. Gong Shou Dao (2017) is a row and its own article calls it a short film; the table does not, so it stays, and the row says it runs twenty minutes."
+    ],
+    [
+      "Once Upon a Time in China: four of the six.",
+      "He is not in two of them, and this is the kind of gap a list gets quietly wrong. The Film table lists the 1991 original, II, III and Once Upon a Time in China and America, and does not list IV or V. The series article says the same in its own infobox — Jet Li (I-III, VI), Vincent Zhao (IV-V) — and so does each absent film: IV's article opens by saying it is the first not to star him, and V's has Zhao reprising the part he took over. One trap survives in the source and this list does not repeat it: the table's notes call the 1997 film an alias of Once Upon a Time in China IV, but a separate 1993 film carries that title and he is not in it, so that row names the confusion instead of printing the alias."
+    ],
+    [
+      "Fist of Legend is not Fist of Fury.",
+      "The 1994 film is a remake of Bruce Lee's 1972 one — both articles say so, and this list's own source says so — and they are two different films twenty-two years apart. They pair with nothing of each other's: different titles, different years, and different Wikidata items, all three checked when this file is built. A list here that carries Fist of Fury gets its own row for it, and ticking one has no effect on the other."
+    ],
+    [
+      "The sections are the article's career headings, split once and extended once.",
+      "The Acting career section has exactly two subheadings, Asia and International career. Asia is split in two on a line the article itself draws — the career began in mainland China and continued into Hong Kong — and the films agree without being asked: the three Shaolin Temple films name China alongside Hong Kong in their own infoboxes, and the twenty-one that follow name Hong Kong alone. International career starts exactly where the article starts it, at Lethal Weapon 4 in 1998. The fourth heading is this list's own: the article's account stops with the two 2008 films and resumes at The Expendables, calling 2009 a one-year hiatus."
+    ],
+    [
+      "Bar widths are runtimes, from each film's own infobox.",
+      "One source for all 48, so there is nothing to adjudicate, and no row weighs nothing. Wikidata's runtime property was the alternative and lost badly on a filmography this heavily re-cut for export: it disagrees with the film's own article by six minutes or more on six films — Black Mask at 83 minutes against an infobox 99, The Sorcerer and the White Snake at 120 against 102, Kung Fu Cult Master at 107 against 95 — and carries no figure at all for two others."
+    ],
+    [
+      "Six films have a second version. Each still gets one row.",
+      "Which is what a career spent being re-cut for Western release looks like. Four state it in the infobox itself: Born to Defence at 92 minutes in Hong Kong and 91 in the US, Swordsman II at 107 in Hong Kong, 99 in the US and 112 in a Mandarin-dubbed Taiwanese version, Dr. Wai at 90 against an 87-minute international cut, and Hero at 99 theatrical against a 110-minute director's cut. Two more say it in prose: Fearless, whose director's cut runs 140 minutes, and The Expendables, whose extended cut adds roughly 11. Every bar measures the first figure the infobox states, which is the film's own home market in all four — the Hong Kong cut of a Hong Kong film, the theatrical cut of Hero — and every row names the other version. A second row would either double the film's hours, which you do not watch twice, or carry no weight in a list where everything else has some."
+    ],
+    [
+      "Six of these films are already on another list here.",
+      "Once Upon a Time in China II, Hero, The Founding of a Republic and Mulan on Donnie Yen; The Forbidden Kingdom and The Founding of a Republic on Jackie Chan; The Expendables 2 on Jean-Claude Van Damme. Ticking one ticks the other: rows pair across lists by title and year, and by the film's Wikidata id where a list carries one, so a film watched here is watched there. Nothing is duplicated and no hours are counted twice, because every list totals only its own rows."
+    ],
+    "Roster, roles, alternate titles and the scope decisions from Wikipedia's Jet Li filmography, read from the film, documentary, music video and video game tables themselves; the sections and the career facts from the Jet Li article; runtimes, release dates, countries and the alternate-cut lengths from each film's own article; the Once Upon a Time in China casting from the series article and from the two films he is not in; the cross-list ids from Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "shaolin",
+      "title": "Shaolin Temple",
+      "sub": "1982–1986 · 3 films · 5 hours",
+      "intro": "Three films shot in mainland China, and the source keeps them together — the career section calls them the Shaolin Temple series and credits them with the rebirth of the real temple, and the lead dates the run: a debut in 1982 and two sequels, in 1984 and 1986. All three name China alongside Hong Kong in their own infoboxes. Nothing else on this page does until 2002.",
+      "items": [
+        {
+          "id": "jl-1982-shaolin-temple",
+          "t": "Shaolin Temple",
+          "n": "1982",
+          "w": 1.58,
+          "note": "As Jueh Yuan · His film debut",
+          "q": "Q600709"
+        },
+        {
+          "id": "jl-1984-kids-from-shaolin",
+          "t": "Kids From Shaolin",
+          "n": "1984",
+          "w": 1.65,
+          "note": "As San Lung · The first of its two sequels",
+          "q": "Q536124"
+        },
+        {
+          "id": "jl-1986-martial-arts-of-shaolin",
+          "t": "Martial Arts of Shaolin",
+          "n": "1986",
+          "w": 1.57,
+          "note": "As Zhi-ming · Also known as Shaolin Temple 3: Martial Arts of Shaolin · The second sequel, and the last of the three",
+          "q": "Q1039395"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "hk",
+      "title": "Hong Kong",
+      "sub": "1988–1998 · 21 films · 35 hours",
+      "intro": "Eleven years the career is built on, and it is Hong Kong and nothing else: every one of these twenty-one films names Hong Kong alone as its country, and no film outside this section does. He plays Wong Fei-hung five times here, Fong Sai-yuk twice, and Chen Zhen once.",
+      "items": [
+        {
+          "id": "jl-1988-born-to-defence",
+          "t": "Born to Defence",
+          "n": "1988",
+          "w": 1.53,
+          "note": "As Jet · His directorial debut · Also known as Born to Defend (Australia) and Born to Defense (U.S.) · The bar is the 92-minute Hong Kong cut; the US cut runs 91 minutes",
+          "q": "Q464071"
+        },
+        {
+          "id": "jl-1989-dragon-fight",
+          "t": "Dragon Fight",
+          "n": "1989",
+          "w": 1.6,
+          "note": "As Jimmy Lee · Also known as Defector",
+          "q": "Q753159"
+        },
+        {
+          "id": "jl-1991-once-upon-a-time-in-china",
+          "t": "Once Upon a Time in China",
+          "n": "1991",
+          "w": 2.23,
+          "note": "As Wong Fei-hung · The first of the series' six films",
+          "q": "Q947446"
+        },
+        {
+          "id": "jl-1992-swordsman-ii",
+          "t": "Swordsman II",
+          "n": "1992",
+          "w": 1.78,
+          "note": "As Ling-wu Chung · Also known as The Legend of the Swordsman (U.S.) · The bar is the 107-minute Hong Kong cut; a US cut runs 99 and a Mandarin-dubbed Taiwanese version runs 112",
+          "q": "Q280276"
+        },
+        {
+          "id": "jl-1992-once-upon-a-time-in-china-ii",
+          "t": "Once Upon a Time in China II",
+          "n": "1992",
+          "w": 1.88,
+          "note": "As Wong Fei-hung · The second of the series' six films",
+          "q": "Q747034"
+        },
+        {
+          "id": "jl-1992-the-master",
+          "t": "The Master",
+          "n": "1992",
+          "w": 1.53,
+          "note": "As Jet · Shot in 1989 and held back three years · Also known as Dragon Fighter II",
+          "q": "Q28312"
+        },
+        {
+          "id": "jl-1993-once-upon-a-time-in-china-iii",
+          "t": "Once Upon a Time in China III",
+          "n": "1993",
+          "w": 1.75,
+          "note": "As Wong Fei-hung · Also known as The Invincible Shaolin · The third of the series' six films · The last before the role was recast",
+          "q": "Q259332"
+        },
+        {
+          "id": "jl-1993-fong-sai-yuk",
+          "t": "Fong Sai-yuk",
+          "n": "1993",
+          "w": 1.77,
+          "note": "As Fong Sai-yuk · He produced it too · Also known as The Legend",
+          "q": "Q429444"
+        },
+        {
+          "id": "jl-1993-last-hero-in-china",
+          "t": "Last Hero in China",
+          "n": "1993",
+          "w": 1.8,
+          "note": "As Wong Fei-hung · He produced it too · Also known as Claws of Steel and Deadly China Hero · Wong Fei-hung again, outside the series",
+          "q": "Q752051"
+        },
+        {
+          "id": "jl-1993-fong-sai-yuk-ii",
+          "t": "Fong Sai-yuk II",
+          "n": "1993",
+          "w": 1.6,
+          "note": "As Fong Sai-yuk · He produced it too · Also known as The Legend II",
+          "q": "Q909602"
+        },
+        {
+          "id": "jl-1993-tai-chi-master",
+          "t": "Tai Chi Master",
+          "n": "1993",
+          "w": 1.6,
+          "note": "As Zhang Sanfeng · He produced it too · Also known as Twin Warriors (U.S.)",
+          "q": "Q471919"
+        },
+        {
+          "id": "jl-1993-kung-fu-cult-master",
+          "t": "Kung Fu Cult Master",
+          "n": "1993",
+          "w": 1.58,
+          "note": "As Cheung Mo-kei · He produced it too · Also known as The Evil Cult (U.S.), Lord of the Wu Tang and Kung Fu Master",
+          "q": "Q844679"
+        },
+        {
+          "id": "jl-1994-the-new-legend-of-shaolin",
+          "t": "The New Legend of Shaolin",
+          "n": "1994",
+          "w": 1.57,
+          "note": "As Hung Hei-kwun · He produced it too · Also known as Legend of the Red Dragon",
+          "q": "Q339566"
+        },
+        {
+          "id": "jl-1994-the-bodyguard-from-beijing",
+          "t": "The Bodyguard from Beijing",
+          "n": "1994",
+          "w": 1.55,
+          "note": "As Allan Hui Ching-yeung / John Chang · He produced it too · Also known as The Defender and Zhong Nan Hai bao biao",
+          "q": "Q468146"
+        },
+        {
+          "id": "jl-1994-fist-of-legend",
+          "t": "Fist of Legend",
+          "n": "1994",
+          "w": 1.72,
+          "note": "As Chen Zhen · He produced it too · A remake of Bruce Lee's Fist of Fury from 1972 — a different film, and a separate row on any list here that carries it",
+          "q": "Q1001759"
+        },
+        {
+          "id": "jl-1995-my-father-is-a-hero",
+          "t": "My Father Is a Hero",
+          "n": "1995",
+          "w": 1.73,
+          "note": "As Kung Wei · Also known as The Enforcer and Letter to Daddy",
+          "q": "Q914994"
+        },
+        {
+          "id": "jl-1995-high-risk",
+          "t": "High Risk",
+          "n": "1995",
+          "w": 1.68,
+          "note": "As Kit Li · Also known as Meltdown",
+          "q": "Q844382"
+        },
+        {
+          "id": "jl-1996-dr-wai-in-the-scripture-with-no-words",
+          "t": "Dr. Wai in \"The Scripture with No Words\"",
+          "n": "1996",
+          "w": 1.5,
+          "note": "As Chow Si-Kit · Also known as Adventure King and The Scripture With No Words · The bar is the 90-minute Hong Kong cut; the international cut runs 87",
+          "q": "Q516076"
+        },
+        {
+          "id": "jl-1996-black-mask",
+          "t": "Black Mask",
+          "n": "1996",
+          "w": 1.65,
+          "note": "As Michael / Simon / Tsui Chik / Black Mask · The US release came three years later",
+          "q": "Q880396"
+        },
+        {
+          "id": "jl-1997-once-upon-a-time-in-china-and-america",
+          "t": "Once Upon a Time in China and America",
+          "n": "1997",
+          "w": 1.63,
+          "note": "As Wong Fei-hung · The sixth and last of the series, and his return to it after two films he is not in · The source's notes column calls it Once Upon a Time in China IV; a separate 1993 film carries that title and Vincent Zhao plays the part in it",
+          "q": "Q691478"
+        },
+        {
+          "id": "jl-1998-hitman",
+          "t": "Hitman",
+          "n": "1998",
+          "w": 1.75,
+          "note": "As Fu · Also known as The Hitman and The Contract Killer",
+          "q": "Q281449"
+        }
+      ]
+    },
+    {
+      "id": "intl",
+      "title": "International career",
+      "sub": "1998–2008 · 12 films · 21 hours",
+      "intro": "The article's own second career heading, starting where the article starts it: his international debut in Lethal Weapon 4, which was also the first villain he played. Twelve films, about 21 hours, and three of them made back in Asia between the Hollywood ones.",
+      "items": [
+        {
+          "id": "jl-1998-lethal-weapon-4",
+          "t": "Lethal Weapon 4",
+          "n": "1998",
+          "w": 2.12,
+          "note": "As Wah Sing-ku · His Hollywood debut, and the first villain he played",
+          "q": "Q429397"
+        },
+        {
+          "id": "jl-2000-romeo-must-die",
+          "t": "Romeo Must Die",
+          "n": "2000",
+          "w": 1.92,
+          "note": "As Han Sing",
+          "q": "Q748080"
+        },
+        {
+          "id": "jl-2001-kiss-of-the-dragon",
+          "t": "Kiss of the Dragon",
+          "n": "2001",
+          "w": 1.63,
+          "note": "As Inspector Liu 'Johnny' Jian · He was an associate producer too",
+          "q": "Q471913"
+        },
+        {
+          "id": "jl-2001-the-one",
+          "t": "The One",
+          "n": "2001",
+          "w": 1.45,
+          "note": "As Gabe Law / Gabriel Yulaw / Lawless",
+          "q": "Q785098"
+        },
+        {
+          "id": "jl-2002-hero",
+          "t": "Hero",
+          "n": "2002",
+          "w": 1.65,
+          "note": "As Nameless · The US release came two years later · The bar is the 99-minute theatrical version; a director's cut runs 110",
+          "q": "Q260379"
+        },
+        {
+          "id": "jl-2003-cradle-2-the-grave",
+          "t": "Cradle 2 the Grave",
+          "n": "2003",
+          "w": 1.68,
+          "note": "As Duncan Su",
+          "q": "Q837536"
+        },
+        {
+          "id": "jl-2005-unleashed",
+          "t": "Unleashed",
+          "n": "2005",
+          "w": 1.7,
+          "note": "As Danny · He produced it too · Also known as Danny the Dog",
+          "q": "Q470507"
+        },
+        {
+          "id": "jl-2006-fearless",
+          "t": "Fearless",
+          "n": "2006",
+          "w": 1.75,
+          "note": "As Huo Yuanjia · He produced and presented it too · Also known as Legend of a Fighter (Hong Kong) · The bar is the 105-minute theatrical version; a director's cut runs 140",
+          "q": "Q633571"
+        },
+        {
+          "id": "jl-2007-war",
+          "t": "War",
+          "n": "2007",
+          "w": 1.72,
+          "note": "As Rogue / Victor Shaw / Tom Lone · Also known as Rogue Assassin and Rogue",
+          "q": "Q375512"
+        },
+        {
+          "id": "jl-2007-the-warlords",
+          "t": "The Warlords",
+          "n": "2007",
+          "w": 2.12,
+          "note": "As Pang Qingyun",
+          "q": "Q699559"
+        },
+        {
+          "id": "jl-2008-the-forbidden-kingdom",
+          "t": "The Forbidden Kingdom",
+          "n": "2008",
+          "w": 1.73,
+          "note": "As Sun Wukong / Silent Monk · The first time he and Jackie Chan appeared on screen together",
+          "q": "Q176568"
+        },
+        {
+          "id": "jl-2008-the-mummy-tomb-of-the-dragon-emperor",
+          "t": "The Mummy: Tomb of the Dragon Emperor",
+          "n": "2008",
+          "w": 1.87,
+          "note": "As Emperor Han",
+          "q": "Q240713"
+        }
+      ]
+    },
+    {
+      "id": "later",
+      "title": "The later career",
+      "sub": "2009–2026 · 12 films · 21 hours",
+      "intro": "The only heading here the article does not supply. Its account stops with the two 2008 films and picks up again at The Expendables, calling 2009 a one-year hiatus — so this section starts at the first row past that account. Twelve films: three Expendables, a Disney remake, and eight made in China or Hong Kong.",
+      "items": [
+        {
+          "id": "jl-2009-the-founding-of-a-republic",
+          "t": "The Founding of a Republic",
+          "n": "2009",
+          "w": 2.3,
+          "note": "As Chen Shaokuan · Also known as Jian Guo Da Ye, Founding of the Nation and Lofty Ambitions of Nation Building",
+          "q": "Q2900799"
+        },
+        {
+          "id": "jl-2010-ocean-heaven",
+          "t": "Ocean Heaven",
+          "n": "2010",
+          "w": 1.6,
+          "note": "As Sam Wong",
+          "q": "Q908628"
+        },
+        {
+          "id": "jl-2010-the-expendables",
+          "t": "The Expendables",
+          "n": "2010",
+          "w": 1.72,
+          "note": "As Yin Yang · The bar is the 103-minute theatrical version; an extended cut adds about eleven minutes",
+          "q": "Q206374"
+        },
+        {
+          "id": "jl-2011-the-sorcerer-and-the-white-snake",
+          "t": "The Sorcerer and the White Snake",
+          "n": "2011",
+          "w": 1.7,
+          "note": "As Reverend Fahai",
+          "q": "Q542532"
+        },
+        {
+          "id": "jl-2011-flying-swords-of-dragon-gate",
+          "t": "Flying Swords of Dragon Gate",
+          "n": "2011",
+          "w": 2.08,
+          "note": "As Chow Wai-on",
+          "q": "Q1090566"
+        },
+        {
+          "id": "jl-2012-the-expendables-2",
+          "t": "The Expendables 2",
+          "n": "2012",
+          "w": 1.72,
+          "note": "As Yin Yang",
+          "q": "Q210812"
+        },
+        {
+          "id": "jl-2013-badges-of-fury",
+          "t": "Badges of Fury",
+          "n": "2013",
+          "w": 1.62,
+          "note": "As Huang Feihong",
+          "q": "Q10868811"
+        },
+        {
+          "id": "jl-2014-the-expendables-3",
+          "t": "The Expendables 3",
+          "n": "2014",
+          "w": 2.1,
+          "note": "As Yin Yang",
+          "q": "Q14370516"
+        },
+        {
+          "id": "jl-2016-league-of-gods",
+          "t": "League of Gods",
+          "n": "2016",
+          "w": 1.82,
+          "note": "As Jiang Ziya",
+          "q": "Q20058718"
+        },
+        {
+          "id": "jl-2017-gong-shou-dao",
+          "t": "Gong Shou Dao",
+          "n": "2017",
+          "w": 0.33,
+          "note": "As Old Servant · He produced it too · Twenty minutes long; its own article calls it a short film, though the source's table does not",
+          "q": "Q42956187"
+        },
+        {
+          "id": "jl-2020-mulan",
+          "t": "Mulan",
+          "n": "2020",
+          "w": 1.92,
+          "note": "As The Emperor of China",
+          "q": "Q24284283"
+        },
+        {
+          "id": "jl-2026-blades-of-the-guardians",
+          "t": "Blades of the Guardians",
+          "n": "2026",
+          "w": 2.1,
+          "note": "As Chang · Released in February 2026, the newest film here",
+          "q": "Q130301952"
+        }
+      ]
+    }
+  ]
+}
