@@ -3332,6 +3332,25 @@ let MANIFEST = [
     "totalw": 100.79
   },
   {
+    "slug": "samurai-jack",
+    "media": [
+      "tv"
+    ],
+    "title": "Samurai Jack",
+    "subtitle": "all five seasons, in the source's episode order",
+    "kind": "animated series",
+    "year": "2001–2017",
+    "popularity": 67,
+    "blurb": "Every episode of Genndy Tartakovsky's series — four seasons on Cartoon Network, then ten more in 2017.",
+    "accent": "#9E2B25",
+    "accentDark": "#E8A33D",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 62
+  },
+  {
     "slug": "coen-brothers",
     "media": [
       "movies"
@@ -5132,7 +5151,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '79fc9da77c8c';
+const BUILD = '35c3c44e1fdf';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
