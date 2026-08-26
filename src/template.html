@@ -287,6 +287,13 @@ li:hover .catch,li:focus-within .catch{display:inline-block}
   #list li:hover{background:transparent}
   .ttl{padding-right:6px}
 }
+/* Catch-up only where it would DO something. Every row above the first
+   unticked one is already caught up, so a button there offers to do what it
+   has already done. `.nocatch` is set in paint(), so it follows your ticks
+   live. The second selector is not redundant: it outranks the tap-armed
+   `#list li.act .catch` above, which has equal specificity and comes first,
+   so without it the button would come back on a phone. (Nathan, CLU-357) */
+#list li.nocatch .catch,#list li.nocatch.act .catch{display:none}
 details[open] summary{border-bottom:1px solid var(--rule)}
 
 ol{list-style:none;margin:0;padding:6px 0}
@@ -7057,10 +7064,17 @@ function openInitialSection(){
 
 function paint(){
   paintFW();   // completing the last item mid-session reveals the toggle
+  // The end of the contiguous ticked run at the top of the list. Every row
+  // at or above it is already caught up, so its catch-up button is a no-op
+  // (Nathan, CLU-357). findIndex returns -1 when NOTHING is unticked, which
+  // is the finished list — and then every row is caught up, not none.
+  const gap = ORDER.findIndex(id=> !done.has(id));
+  const caught = new Set(gap < 0 ? ORDER : ORDER.slice(0, gap));
   document.querySelectorAll('#list li').forEach(li=>{
     const on = done.has(li.dataset.id);
     li.classList.toggle('done', on);
     li.querySelector('input').checked = on;
+    li.classList.toggle('nocatch', caught.has(li.dataset.id));
   });
   paintThumbs();
   document.querySelectorAll('.tick[data-t]').forEach(t=> t.classList.toggle('on', done.has(t.dataset.t)));
