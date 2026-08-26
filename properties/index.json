@@ -2483,6 +2483,25 @@
     "total": 41
   },
   {
+    "slug": "flcl",
+    "media": [
+      "anime"
+    ],
+    "title": "FLCL",
+    "subtitle": "all five series, in release order",
+    "kind": "anime",
+    "year": "2000–2023",
+    "popularity": 62,
+    "blurb": "Gainax's six-episode OVA and the four runs Production I.G and Adult Swim made after it — 24 episodes, one list.",
+    "accent": "#B30427",
+    "accentDark": "#F2718C",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 24
+  },
+  {
     "slug": "lego-games",
     "media": [
       "games"

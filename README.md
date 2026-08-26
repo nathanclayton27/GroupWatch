@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and ninety-two lists, from a ten-episode anime to a 1,337-spine film
+One hundred and ninety-three lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -137,7 +137,9 @@ in the section sub because that is why it exists), *Fullmetal Alchemist* (2003) 
 behind, with where it happens named and what changes deliberately not —
 *Samurai Champloo*, *Outlaw Star*, *Yu Yu Hakusho* (116 rows, both films
 placed inside the run by their air dates), *Rurouni Kenshin* (101 rows, with the
-thirty-three anime-original episodes marked because the source marks them), *Ghost in the Shell* by continuity (Oshii, Stand Alone
+thirty-three anime-original episodes marked because the source marks them), *FLCL* (all five series, 24
+episodes, the later ones' studios and broadcaster named as production facts
+rather than a verdict), *Ghost in the Shell* by continuity (Oshii, Stand Alone
 Complex, Arise, SAC_2045), *Cowboy Bebop* sessions plus the film, *Urusei
 Yatsura* (1981 run, films, OVAs and the remake — Beautiful Dreamer
 cross-listed with Time Loops), *Berserk* by volume and arc, and a *Junji

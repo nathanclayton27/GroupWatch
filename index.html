@@ -3885,6 +3885,25 @@ let MANIFEST = [
     "total": 41
   },
   {
+    "slug": "flcl",
+    "media": [
+      "anime"
+    ],
+    "title": "FLCL",
+    "subtitle": "all five series, in release order",
+    "kind": "anime",
+    "year": "2000–2023",
+    "popularity": 62,
+    "blurb": "Gainax's six-episode OVA and the four runs Production I.G and Adult Swim made after it — 24 episodes, one list.",
+    "accent": "#B30427",
+    "accentDark": "#F2718C",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 24
+  },
+  {
     "slug": "lego-games",
     "media": [
       "games"
@@ -5211,7 +5230,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '96c7c8747e9c';
+const BUILD = '57a70890d085';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or

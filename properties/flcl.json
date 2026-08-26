@@ -1,0 +1,226 @@
+{
+  "slug": "flcl",
+  "title": "FLCL",
+  "subtitle": "all five series, in release order",
+  "kind": "anime",
+  "popularity": 62,
+  "year": "2000–2023",
+  "blurb": "Gainax's six-episode OVA and the four runs Production I.G and Adult Swim made after it — 24 episodes, one list.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#B30427",
+  "accentDark": "#F2718C",
+  "tiers": false,
+  "notes": [
+    [
+      "Five series, one list.",
+      "The source files them as seasons 1 to 5 of one show and numbers the episodes 1 to 24 straight through, but each was made as its own production, so the sections here are the five series in release order and each row carries its number inside its own series. The overall numbering is still checked for gaps before this builds."
+    ],
+    [
+      "The four later series are a different production, and the source says so.",
+      "The original is an original video animation: six episodes released straight to video in Japan between April 2000 and March 2001, created and directed by Kazuya Tsurumaki for a committee the article names as Gainax and Production I.G. The rest were made after the rights moved. Anime News Network reported in August 2015 that Production I.G had acquired the rights to FLCL from Gainax, and in March 2016 Adult Swim announced it would produce twelve new episodes in cooperation with Production I.G; those became Progressive and Alternative, co-produced with Toho and Adult Swim's production arm Williams Street and broadcast on Toonami in 2018. Adult Swim ordered two more in March 2022 — Grunge, animated by MontBlanc Pictures, and Shoegaze, animated by NUT — and both ran in 2023. Different studios, a different decade, a different broadcaster. It is not a clean break either: the same source records that Tsurumaki supervised the 2018 pair and that the original character designer came back for them. All of that is here as a fact about how the things were made. Whether to go past the original is your call, and this list takes no view."
+    ],
+    [
+      "Not six each.",
+      "The original, Progressive and Alternative are six episodes apiece; Grunge and Shoegaze are three apiece. Twenty-four between them, and every one of those five counts is checked three ways before this builds — the series overview on the episode-list article, the num_episodes field in each season article's own infobox, and the episodes field in the matching infobox on the FLCL article — with the overall numbering asserted contiguous 1 to 24 on top."
+    ],
+    [
+      "Nothing is weighted, and hours are not tracked on this list.",
+      "Not for want of looking: four sources were checked and all four came up empty. (1) Per-episode articles: none exist. All 24 titles were probed bare and in both disambiguated forms; the pages that answer are redirects into the season articles, disambiguation pages, or unrelated subjects that share a title — a Taylor Swift single, a K-pop group, a mall in New Zealand. No Title field in any of the five episode tables is a wikilink. (2) Per-episode Wikidata: no episode items exist at all. The series item's five has-parts are the five season items and nothing else, none of the six carries a runtime, and label searches for the distinctive titles return nothing. (3) The season and series articles: not one of the five season infoboxes has a runtime parameter, and the FLCL article gives only \"23–31 minutes\" for the original — a range across its six episodes, which cannot say which episode is which — and the two compilation films' lengths, which are not rows here. (4) The episode tables' own RunTime fields: not one of the 24 blocks has one. It has to be every row or none, because a row with no weight silently counts as a full hour; weighting nothing keeps 24 half-hours from reading as 24 hours."
+    ],
+    [
+      "The two compilation films are not here.",
+      "Toho gave Progressive and Alternative theatrical screenings in Japan in September 2018, as FLCL Progressive: The Movie and FLCL Alternative: The Movie. The episode-list article files them away from the episodes and says they are exclusive to Japan; they are re-cuts of twelve episodes that are already rows, so listing them would count the same twelve twice. Everything else in the franchise is another medium — Hajime Ueda's two-volume manga, the three-volume novel series, the Pillows soundtracks — and the 2003 Adult Swim broadcast is the original six with an English dub rather than more of them."
+    ],
+    [
+      "One episode is dated twice, on purpose.",
+      "Alternative's first episode went out unannounced at midnight on April Fools' Day, in Japanese with English subtitles, five months before the season's proper first run in September. The episode table carries both dates and the season's infobox footnotes which one counts. This list follows the infobox for the season's span and names the stunt in that row's note."
+    ],
+    "Titles, numbering and airdates machine-read from Wikipedia's five FLCL season articles; counts, spans and the compilation films cross-checked against \"List of FLCL episodes\" and the \"FLCL\" article's own infoboxes; the runtime hunt run against Wikidata items Q92572, Q111954103, Q111953383, Q111953468, Q122422436 and Q122790739 and the English Wikipedia article index."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "FLCL",
+      "sub": "2000–2001 · 6 episodes · Gainax and Production I.G · released direct to video in Japan",
+      "intro": "Six episodes released straight to video in Japan, April 26, 2000 to March 16, 2001, created and directed by Kazuya Tsurumaki for a production committee the source names as Gainax and Production I.G. Adult Swim ran the English dub over six nights in August 2003.",
+      "items": [
+        {
+          "id": "flcl-s1e1",
+          "t": "Fooly Cooly",
+          "n": "1",
+          "note": "series premiere"
+        },
+        {
+          "id": "flcl-s1e2",
+          "t": "Fire Starter",
+          "n": "2"
+        },
+        {
+          "id": "flcl-s1e3",
+          "t": "Marquis de Carabas",
+          "n": "3"
+        },
+        {
+          "id": "flcl-s1e4",
+          "t": "Full Swing",
+          "n": "4"
+        },
+        {
+          "id": "flcl-s1e5",
+          "t": "Brittle Bullet",
+          "n": "5"
+        },
+        {
+          "id": "flcl-s1e6",
+          "t": "FLCLimax",
+          "n": "6",
+          "note": "the original's last episode"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "FLCL Progressive",
+      "sub": "2018 · 6 episodes · Production I.G, Toho and Williams Street · Adult Swim (Toonami)",
+      "intro": "Eighteen years later, and made by different people: Anime News Network reported in 2015 that Production I.G had acquired the rights from Gainax, and in March 2016 Adult Swim announced twelve new episodes in cooperation with Production I.G. Tsurumaki supervised and the original character designer returned. It ran on Adult Swim's Toonami block, June 3, 2018 to July 7, 2018, with the six episodes split between 3 animation studios — each row names its own.",
+      "items": [
+        {
+          "id": "flcl-s2e1",
+          "t": "Re:Start",
+          "n": "1",
+          "note": "animated by Production I.G"
+        },
+        {
+          "id": "flcl-s2e2",
+          "t": "Freebie Honey",
+          "n": "2",
+          "note": "animated by Production GoodBook"
+        },
+        {
+          "id": "flcl-s2e3",
+          "t": "Stone Skipping",
+          "n": "3",
+          "note": "animated by Production I.G"
+        },
+        {
+          "id": "flcl-s2e4",
+          "t": "LooPQR",
+          "n": "4",
+          "note": "animated by Production I.G"
+        },
+        {
+          "id": "flcl-s2e5",
+          "t": "Fool on the Planet",
+          "n": "5",
+          "note": "animated by Signal.MD"
+        },
+        {
+          "id": "flcl-s2e6",
+          "t": "Our Running",
+          "n": "6",
+          "note": "animated by Production I.G"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "FLCL Alternative",
+      "sub": "2018 · 6 episodes · Production I.G, Toho and Williams Street · Adult Swim (Toonami)",
+      "intro": "The other half of that 2016 order, two months after Progressive, September 8, 2018 to October 13, 2018, with the same producers and the six episodes again split between 2 studios. Its first episode had already gone out unannounced on April Fools' Day, in Japanese with English subtitles, at midnight on Toonami.",
+      "items": [
+        {
+          "id": "flcl-s3e1",
+          "t": "Flying Memory",
+          "n": "1",
+          "note": "animated by NUT · first aired unannounced on April Fools' Day, in Japanese with English subtitles"
+        },
+        {
+          "id": "flcl-s3e2",
+          "t": "Grown-Up Wannabe",
+          "n": "2",
+          "note": "animated by Revoroot"
+        },
+        {
+          "id": "flcl-s3e3",
+          "t": "Freestyle Collection",
+          "n": "3",
+          "note": "animated by Revoroot"
+        },
+        {
+          "id": "flcl-s3e4",
+          "t": "Pit-a-Pat",
+          "n": "4",
+          "note": "animated by NUT"
+        },
+        {
+          "id": "flcl-s3e5",
+          "t": "Shake It Off",
+          "n": "5",
+          "note": "animated by Revoroot"
+        },
+        {
+          "id": "flcl-s3e6",
+          "t": "Full Flat",
+          "n": "6",
+          "note": "animated by NUT"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "FLCL: Grunge",
+      "sub": "2023 · 3 episodes · MontBlanc Pictures for Production I.G and Williams Street · Adult Swim (Toonami)",
+      "intro": "Adult Swim ordered two more seasons in March 2022, announced on Toonami's 25th anniversary. Grunge is three episodes rather than six, animated by MontBlanc Pictures with Hitoshi Takekiyo directing, September 10, 2023 to September 24, 2023. The source calls it a prequel to the original.",
+      "items": [
+        {
+          "id": "flcl-s4e1",
+          "t": "Shinpachi",
+          "n": "1"
+        },
+        {
+          "id": "flcl-s4e2",
+          "t": "Shonari",
+          "n": "2"
+        },
+        {
+          "id": "flcl-s4e3",
+          "t": "Orinoko",
+          "n": "3"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "FLCL: Shoegaze",
+      "sub": "2023 · 3 episodes · NUT for Production I.G and Williams Street · Adult Swim (Toonami)",
+      "intro": "The other half of the 2022 order, three episodes again, animated by NUT with Yutaka Uemura directing, October 1, 2023 to October 15, 2023. The source places it ten years after Alternative, and it is the newest of the five — its article is the only one of the five that names no season after it.",
+      "items": [
+        {
+          "id": "flcl-s5e1",
+          "t": "Furu-Bari (Full Barricade)",
+          "n": "1"
+        },
+        {
+          "id": "flcl-s5e2",
+          "t": "Gene-Bato (Generational Battle)",
+          "n": "2"
+        },
+        {
+          "id": "flcl-s5e3",
+          "t": "Far-Fre (Far Friend)",
+          "n": "3"
+        }
+      ]
+    }
+  ]
+}
