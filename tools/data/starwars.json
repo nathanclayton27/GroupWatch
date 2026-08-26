@@ -141,6 +141,31 @@
    "season_eps": {}
   },
   {
+   "t": "Clone Wars",
+   "page": "Star Wars: Clone Wars",
+   "kind": "animated",
+   "start": "2003-11-07",
+   "end": "2005-03-25",
+   "seasons": 3,
+   "episodes": 25,
+   "overview_from": "Star Wars: Clone Wars",
+   "season_dates": {
+    "1": "2003-11-07",
+    "2": "2004-03-26",
+    "3": "2005-03-21"
+   },
+   "season_eps": {
+    "1": 10,
+    "2": 10,
+    "3": 5
+   },
+   "ep_minutes": 3,
+   "season_ep_minutes": {
+    "3": 12
+   },
+   "note": "Genndy Tartakovsky's Cartoon Network microseries"
+  },
+  {
    "t": "The Clone Wars",
    "page": "Star Wars: The Clone Wars",
    "kind": "animated",

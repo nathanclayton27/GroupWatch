@@ -25,11 +25,14 @@ Weights are runtimes throughout.
 """
 import json
 import pathlib
+import re
 
 SLUG = "star-wars"
 
 # minutes per episode by kind — the two are far enough apart that one number
-# for both would misstate every animated season in the list
+# for both would misstate every animated season in the list. It is a FALLBACK:
+# a show that states its own length in the data file overrides it, per season
+# where its seasons differ. See ep_minutes() for why that had to exist.
 EP_MINUTES = {"animated": 22, "live": 42}
 
 ERAS = [
@@ -92,6 +95,29 @@ def era_of(year):
     return "plus"
 
 
+def ep_minutes(show, k):
+    """Minutes per episode for season k of a show.
+
+    A blanket 22-or-42 is right for a network or streaming season and a lie
+    for anything else, and it fails silently — the number lands in `w` and
+    nothing checks it. Tartakovsky's Clone Wars is the case that forced this:
+    its chapters run three minutes each for the first twenty and twelve for
+    the last five, so the animated default would bill 25 chapters at nine
+    hours on a show the source says is two. On a weighted list that is a
+    seven-hour error in the bar.
+
+    So a show may state `ep_minutes`, and `season_ep_minutes` overrides it
+    per season where the seasons differ. Both come from the source; the
+    blanket table stays the fallback for every show that says nothing.
+    """
+    per = show.get("season_ep_minutes") or {}
+    if str(k) in per:
+        return per[str(k)]
+    if show.get("ep_minutes"):
+        return show["ep_minutes"]
+    return EP_MINUTES[show["kind"]]
+
+
 def spread(start_year, end_year, n, k):
     """Season k of n, placed between the years the show ran."""
     if n == 1 or end_year is None or end_year <= start_year:
@@ -125,6 +151,24 @@ def main():
     for s in d["shows"]:
         if s["t"] in FOR_PRESCHOOL:
             continue
+        # This list's kind says "films", so build.py treats its rows as sync
+        # candidates and _year_of() decides which film a row is. Row numbers
+        # here are plain years, so _year_of returns before it ever reaches the
+        # note — but a free-text show note is the one place a stray year could
+        # be typed, and a wrong year on a syncable list ticks somebody else's
+        # film. Checked rather than reasoned about. (\b is not equivalent to
+        # this and would miss "1990s".)
+        assert not re.search(r"(?<!\d)(19|20)\d{2}(?!\d)", s.get("note") or ""), \
+            "%s: show note names a bare year" % s["t"]
+        # a season-by-season episode count that disagrees with the series
+        # total is a silent weight error, so it only passes when it adds up
+        if len(s.get("season_eps") or {}) == s["seasons"]:
+            got = sum(s["season_eps"].values())
+            assert got == s["episodes"], \
+                "%s: seasons sum to %d, series total says %d" % (s["t"], got, s["episodes"])
+        for key in (s.get("season_ep_minutes") or {}):
+            assert 1 <= int(key) <= s["seasons"], \
+                "%s: runtime override names season %s of %d" % (s["t"], key, s["seasons"])
         start = int(s["start"][:4])
         end = int(s["end"][:4]) if s["end"] else None
         n, eps = s["seasons"], s["episodes"]
@@ -145,13 +189,17 @@ def main():
                 bits.append("%s · %d season%s, %d episodes"
                             % (span, n, "" if n == 1 else "s", eps))
                 bits.append("Animated" if s["kind"] == "animated" else "Live action")
+            # a show may say what it IS, on every season — two things in this
+            # list are called Clone Wars and only the note tells them apart
+            if s.get("note"):
+                bits.append(s["note"])
             if mine and n > 1:
                 bits.append("%d episode%s" % (round(mine), "" if round(mine) == 1 else "s"))
             entries.append({
                 "id": "sw-t-%d-%s-s%d" % (start, slug(s["t"]), k),
                 "t": "%s season %d" % (s["t"], k) if n > 1 else s["t"],
                 "n": str(sy),
-                "w": round(mine * EP_MINUTES[s["kind"]] / 60.0, 2),
+                "w": round(mine * ep_minutes(s, k) / 60.0, 2),
                 "note": " · ".join(bits),
                 # a season with a real premiere sorts on it; The Clone Wars film
                 # came out in August 2008 and the series that October
@@ -230,16 +278,34 @@ def main():
              "each other. 2 is the rest of the main line: the "
              "other theatrical films and the series carrying real plot. 3 is "
              "everything you can take or leave without changing what 1 means — "
-             "the Holiday Special, the Ewok films, the eighties cartoons and "
-             "the anthologies. A finish date covers 1 and 2; the checkbox "
+             "the Holiday Special, the Ewok films, the eighties cartoons, the "
+             "Tartakovsky microseries and the anthologies. A finish date "
+             "covers 1 and 2; the checkbox "
              "under the bar adds the rest."],
             ["Release order, not chronological.", "This is the order it came out, "
              "which is the order it was written to be met in. Every in-universe "
              "ordering spoils the one reveal the films are built around."],
+            ["Two different things are called Clone Wars.", "Clone Wars, in the "
+             "prequels, is Genndy Tartakovsky's Cartoon Network microseries — "
+             "twenty-five chapters that aired between Attack of the Clones and "
+             "Revenge of the Sith, and run straight into the opening of that "
+             "film. The "
+             "Clone Wars is the 2008 film and the seven-season series after it, "
+             "and has an era of its own further down. Lucasfilm ruled the later "
+             "series canon and the earlier one not, once Disney had bought the "
+             "company; that is not what decides anything here. This is every film "
+             "and television season, and it already carries the Holiday Special, "
+             "the Ewok films and both eighties cartoons."],
             ["Television is tracked season by season.", "A season's length is the "
              "series' episode count split evenly across its seasons, at %d minutes "
              "an episode for animation and %d for live action — one number for both "
-             "would misstate every animated season here. Seasons are spread across "
+             "would misstate every animated season here. Those two are the default "
+             "rather than the rule: a show whose episodes are a different length "
+             "carries its own figure, per season where its seasons differ. "
+             "Tartakovsky's Clone Wars is why. Its chapters run three minutes each "
+             "for the first twenty and twelve for the last five, so the default "
+             "would have billed twenty-five of them at nine hours on a show that "
+             "is two. Seasons are spread across "
              "the years the show ran rather than parked at its first, so The Clone "
              "Wars sits across the decade it actually occupied."
              % (EP_MINUTES["animated"], EP_MINUTES["live"])],
@@ -255,10 +321,15 @@ def main():
              "which is a Disney Junior preschool show rather than something anyone "
              "else is working through. Droids and Ewoks stay: they are Saturday "
              "morning cartoons for children, which is not the same thing, and they "
-             "are the only Star Wars television there was for twenty years."],
+             "are the only Star Wars television there was for twenty years. The "
+             "Star Wars Kids shorts are out too — Forces of Destiny, Galaxy of "
+             "Adventures, Roll Out and the rest are minutes-long web videos rather "
+             "than television seasons, and Tartakovsky's Clone Wars is the one "
+             "thing filed beside them that is a series with seasons."],
             "Film runtimes and dates from Wikidata; season and episode counts from "
-            "each show's own infobox; the games from Wikipedia's list of Star Wars "
-            "video games.",
+            "each show's own infobox, and per-episode runtimes from the same "
+            "article where a show states its own; the games from Wikipedia's list "
+            "of Star Wars video games.",
         ],
         "sections": sections,
     }

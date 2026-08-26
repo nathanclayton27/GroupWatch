@@ -1451,15 +1451,15 @@ let MANIFEST = [
     "kind": "films & shows",
     "year": "1977–",
     "popularity": 97,
-    "blurb": "16 films and 36 television seasons in the order they came out — about 236 hours.",
+    "blurb": "16 films and 39 television seasons in the order they came out — about 238 hours.",
     "accent": "#8A6D1F",
     "accentDark": "#E8C450",
     "unit": {
       "one": "entry",
       "many": "entries"
     },
-    "total": 52,
-    "totalw": 235.77
+    "total": 55,
+    "totalw": 237.77
   },
   {
     "slug": "disney",
@@ -2842,6 +2842,26 @@ let MANIFEST = [
       "many": "films"
     },
     "total": 173
+  },
+  {
+    "slug": "kevin-bacon",
+    "media": [
+      "movies"
+    ],
+    "title": "Kevin Bacon",
+    "subtitle": "the films, in release order",
+    "kind": "films",
+    "year": "1978–2027",
+    "popularity": 72,
+    "blurb": "Seventy-two films across six decades — about 125 hours. The actor the six-degrees game is named after, in the order the films came out.",
+    "accent": "#507C86",
+    "accentDark": "#229CA0",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 72,
+    "totalw": 125.0
   },
   {
     "slug": "rick-and-morty",
@@ -5330,13 +5350,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '7c920d62f9dc';
+const BUILD = 'cc36cb518a0d';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = 'd498a04bcb';
+const SYNCVER = 'cafc2a412e';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

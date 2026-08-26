@@ -5,7 +5,7 @@
   "kind": "films & shows",
   "popularity": 97,
   "year": "1977–",
-  "blurb": "16 films and 36 television seasons in the order they came out — about 236 hours.",
+  "blurb": "16 films and 39 television seasons in the order they came out — about 238 hours.",
   "unit": {
     "one": "entry",
     "many": "entries"
@@ -37,15 +37,19 @@
   "notes": [
     [
       "Tiers are on each row, not each section.",
-      "These sections are eras, and an era holds all three at once. 1 is the spine — the nine numbered films, plus Rogue One and Andor, which run into the opening of the first film and into each other. 2 is the rest of the main line: the other theatrical films and the series carrying real plot. 3 is everything you can take or leave without changing what 1 means — the Holiday Special, the Ewok films, the eighties cartoons and the anthologies. A finish date covers 1 and 2; the checkbox under the bar adds the rest."
+      "These sections are eras, and an era holds all three at once. 1 is the spine — the nine numbered films, plus Rogue One and Andor, which run into the opening of the first film and into each other. 2 is the rest of the main line: the other theatrical films and the series carrying real plot. 3 is everything you can take or leave without changing what 1 means — the Holiday Special, the Ewok films, the eighties cartoons, the Tartakovsky microseries and the anthologies. A finish date covers 1 and 2; the checkbox under the bar adds the rest."
     ],
     [
       "Release order, not chronological.",
       "This is the order it came out, which is the order it was written to be met in. Every in-universe ordering spoils the one reveal the films are built around."
     ],
     [
+      "Two different things are called Clone Wars.",
+      "Clone Wars, in the prequels, is Genndy Tartakovsky's Cartoon Network microseries — twenty-five chapters that aired between Attack of the Clones and Revenge of the Sith, and run straight into the opening of that film. The Clone Wars is the 2008 film and the seven-season series after it, and has an era of its own further down. Lucasfilm ruled the later series canon and the earlier one not, once Disney had bought the company; that is not what decides anything here. This is every film and television season, and it already carries the Holiday Special, the Ewok films and both eighties cartoons."
+    ],
+    [
       "Television is tracked season by season.",
-      "A season's length is the series' episode count split evenly across its seasons, at 22 minutes an episode for animation and 42 for live action — one number for both would misstate every animated season here. Seasons are spread across the years the show ran rather than parked at its first, so The Clone Wars sits across the decade it actually occupied."
+      "A season's length is the series' episode count split evenly across its seasons, at 22 minutes an episode for animation and 42 for live action — one number for both would misstate every animated season here. Those two are the default rather than the rule: a show whose episodes are a different length carries its own figure, per season where its seasons differ. Tartakovsky's Clone Wars is why. Its chapters run three minutes each for the first twenty and twelve for the last five, so the default would have billed twenty-five of them at nine hours on a show that is two. Seasons are spread across the years the show ran rather than parked at its first, so The Clone Wars sits across the decade it actually occupied."
     ],
     [
       "Turning parts of it off.",
@@ -53,9 +57,9 @@
     ],
     [
       "What is not here.",
-      "The games, which are their own page — sixty-eight of them buried whatever they sat beside, and they are a parallel thing rather than a step in the same sequence. Star Wars Games is in the switcher, with its own Legends and canon filters. And Young Jedi Adventures, which is a Disney Junior preschool show rather than something anyone else is working through. Droids and Ewoks stay: they are Saturday morning cartoons for children, which is not the same thing, and they are the only Star Wars television there was for twenty years."
+      "The games, which are their own page — sixty-eight of them buried whatever they sat beside, and they are a parallel thing rather than a step in the same sequence. Star Wars Games is in the switcher, with its own Legends and canon filters. And Young Jedi Adventures, which is a Disney Junior preschool show rather than something anyone else is working through. Droids and Ewoks stay: they are Saturday morning cartoons for children, which is not the same thing, and they are the only Star Wars television there was for twenty years. The Star Wars Kids shorts are out too — Forces of Destiny, Galaxy of Adventures, Roll Out and the rest are minutes-long web videos rather than television seasons, and Tartakovsky's Clone Wars is the one thing filed beside them that is a series with seasons."
     ],
-    "Film runtimes and dates from Wikidata; season and episode counts from each show's own infobox; the games from Wikipedia's list of Star Wars video games."
+    "Film runtimes and dates from Wikidata; season and episode counts from each show's own infobox, and per-episode runtimes from the same article where a show states its own; the games from Wikipedia's list of Star Wars video games."
   ],
   "sections": [
     {
@@ -166,7 +170,7 @@
     {
       "id": "prequels",
       "title": "The prequels",
-      "sub": "1999–2005 · 3 films · 7 hours",
+      "sub": "1999–2005 · 3 films, 3 seasons · 9 hours",
       "intro": "Sixteen years later, and a different kind of film — political, digital, and building the war the cartoons would spend a decade fighting.",
       "items": [
         {
@@ -187,6 +191,39 @@
           "tier": 1,
           "tags": [
             "Films"
+          ]
+        },
+        {
+          "id": "sw-t-2003-clone-wars-s1",
+          "t": "Clone Wars season 1",
+          "n": "2003",
+          "w": 0.5,
+          "note": "2003–2005 · 3 seasons, 25 episodes · Animated · Genndy Tartakovsky's Cartoon Network microseries · 10 episodes",
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
+        },
+        {
+          "id": "sw-t-2003-clone-wars-s2",
+          "t": "Clone Wars season 2",
+          "n": "2004",
+          "w": 0.5,
+          "note": "Genndy Tartakovsky's Cartoon Network microseries · 10 episodes",
+          "tier": 3,
+          "tags": [
+            "Television"
+          ]
+        },
+        {
+          "id": "sw-t-2003-clone-wars-s3",
+          "t": "Clone Wars season 3",
+          "n": "2005",
+          "w": 1.0,
+          "note": "Genndy Tartakovsky's Cartoon Network microseries · 5 episodes",
+          "tier": 3,
+          "tags": [
+            "Television"
           ]
         },
         {
