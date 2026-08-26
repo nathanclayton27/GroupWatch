@@ -1,0 +1,1881 @@
+{
+ "games": [
+  {
+   "target": "Street Fighter (video game)",
+   "t": "Street Fighter",
+   "first": [
+    1987,
+    8,
+    30,
+    3
+   ],
+   "all_dates": [
+    [
+     1987,
+     8,
+     30,
+     3
+    ],
+    [
+     1987,
+     8,
+     1,
+     2
+    ],
+    [
+     1987,
+     12,
+     1,
+     2
+    ],
+    [
+     1987,
+     1,
+     1,
+     1
+    ],
+    [
+     1988,
+     12,
+     4,
+     3
+    ],
+    [
+     1988,
+     4,
+     1,
+     2
+    ]
+   ],
+   "timeline": [
+    "1987"
+   ],
+   "lead": "is a 1987 fighting game developed and published by Capcom for arcades. It is the first competitive fighting game produced by the company and the first installment in the Street Fighter series. It was a commercial success in arcades and introduced special attacks and some of the conventions made standard in later fighting games, such as the six-button controls and the use of command-based special moves.",
+   "developer": "Capcom",
+   "platforms": "Arcade, ZX Spectrum, Amiga, Amstrad CPC, Atari ST, Commodore 64, TurboGrafx-CD, MS-DOS",
+   "qid": "Q1503511",
+   "p31": [
+    "video game"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1987 arcade video game",
+   "pubyears": [
+    1987
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter",
+    "main_h": 0.99,
+    "why": "ok",
+    "name": "Street Fighter",
+    "year": 1987
+   }
+  },
+  {
+   "target": "Street Fighter II",
+   "t": "Street Fighter II: The World Warrior",
+   "first": [
+    1991,
+    3,
+    7,
+    3
+   ],
+   "all_dates": [
+    [
+     1991,
+     3,
+     7,
+     3
+    ],
+    [
+     1991,
+     2,
+     1,
+     2
+    ],
+    [
+     1991,
+     3,
+     1,
+     2
+    ],
+    [
+     1991,
+     1,
+     1,
+     1
+    ],
+    [
+     1992,
+     6,
+     10,
+     3
+    ],
+    [
+     1992,
+     7,
+     15,
+     3
+    ]
+   ],
+   "timeline": [
+    "1991"
+   ],
+   "lead": "is a 1991 fighting game developed and published by Capcom for arcades. It is the second installment in the Street Fighter series, and the sequel to 1987's Street Fighter. Designed by Yoshiki Okamoto and Akira Yasuda, who had previously worked on the game Final Fight, it is the fourteenth game to use Capcom's CP System arcade system board. Street Fighter II vastly improved many of the concepts introduced in the first game, including the use of special command-based moves, a combo system, a six-button configuration, and a wider selection of playable characters, each with a unique fighting style.",
+   "developer": "Capcom",
+   "platforms": "collapsible list|title=Arcade|Super NES, MS-DOS, Commodore 64, Amiga, ZX Spectrum, Atari ST, CPS Changer, Game Boy, Java ME",
+   "qid": "Q1133204",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1991 video game developed by Capcom",
+   "pubyears": [
+    1991,
+    1992,
+    2006,
+    2007
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter II",
+    "main_h": 1.33,
+    "why": "ok",
+    "name": "Street Fighter II",
+    "year": 1991
+   }
+  },
+  {
+   "target": "Street Fighter II: Champion Edition",
+   "t": "Street Fighter II: Champion Edition",
+   "first": [
+    1992,
+    4,
+    17,
+    3
+   ],
+   "all_dates": [
+    [
+     1992,
+     4,
+     17,
+     3
+    ],
+    [
+     1992,
+     5,
+     13,
+     3
+    ],
+    [
+     1992,
+     3,
+     1,
+     2
+    ],
+    [
+     1992,
+     1,
+     1,
+     1
+    ],
+    [
+     1993,
+     6,
+     12,
+     3
+    ],
+    [
+     1993,
+     9,
+     28,
+     3
+    ]
+   ],
+   "timeline": [
+    "1992a"
+   ],
+   "lead": "'Street Fighter II: Champion Edition', released as (stylized as 'Street Fighter ' with a prime symbol) in Japan, is a 1992 fighting game developed and published by Capcom for arcades. It is the first of several updated versions of Street Fighter II: The World Warrior (1991), and part of the Street Fighter series. The main changes are the addition of the four grand masters (the final four computer-controlled opponents in the single-player mode) as playable characters and mirror matches. The fighting techniques of the eight main characters from the original game were further balanced for competitive play.",
+   "developer": "Capcom",
+   "platforms": "Arcade, PC Engine, Genesis/Mega Drive, X68000, CPS Changer",
+   "qid": "Q5575485",
+   "p31": [
+    "video game"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1992 arcade game",
+   "pubyears": [
+    1992
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter II: Champion Edition",
+    "main_h": 1.12,
+    "why": "ok",
+    "name": "Street Fighter II: Champion Edition",
+    "year": 1992
+   }
+  },
+  {
+   "target": "Street Fighter II: Hyper Fighting",
+   "t": "Street Fighter II Turbo: Hyper Fighting",
+   "first": [
+    1992,
+    12,
+    17,
+    3
+   ],
+   "all_dates": [
+    [
+     1992,
+     12,
+     17,
+     3
+    ],
+    [
+     1992,
+     12,
+     21,
+     3
+    ],
+    [
+     1992,
+     1,
+     1,
+     1
+    ],
+    [
+     1993,
+     7,
+     10,
+     3
+    ],
+    [
+     1993,
+     8,
+     1,
+     3
+    ],
+    [
+     1993,
+     11,
+     5,
+     3
+    ]
+   ],
+   "timeline": [
+    "1992b"
+   ],
+   "lead": "'Street Fighter II Turbo: Hyper Fighting', released as in Japan, is a 1992 fighting game developed and published by Capcom for arcades. It is the third arcade version of Street Fighter II, part of the Street Fighter franchise, following Street Fighter II: Champion Edition, and was initially released as an enhancement kit for that game. Released less than a year after the previous installment, Hyper Fighting introduced a faster playing speed and new special moves for certain characters, as well as further refinement to the character balance.",
+   "developer": "Capcom",
+   "platforms": "Arcade, Super NES",
+   "qid": "Q196255",
+   "p31": [
+    "video game"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1992 arcade video game",
+   "pubyears": [
+    1992,
+    1993
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter II Turbo: Hyper Fighting",
+    "main_h": 1.13,
+    "why": "ok",
+    "name": "Street Fighter II Turbo: Hyper Fighting",
+    "year": 1992
+   }
+  },
+  {
+   "target": "Super Street Fighter II",
+   "t": "Super Street Fighter II: The New Challengers",
+   "first": [
+    1993,
+    9,
+    14,
+    3
+   ],
+   "all_dates": [
+    [
+     1993,
+     9,
+     14,
+     3
+    ],
+    [
+     1993,
+     10,
+     1,
+     2
+    ],
+    [
+     1993,
+     1,
+     1,
+     1
+    ],
+    [
+     1994,
+     6,
+     25,
+     3
+    ],
+    [
+     1994,
+     8,
+     17,
+     3
+    ],
+    [
+     1994,
+     9,
+     30,
+     3
+    ]
+   ],
+   "timeline": [
+    "1993"
+   ],
+   "lead": "is a 1993 fighting game developed and published by Capcom for arcades. It is the fourth game in the Street Fighter II sub-series of Street Fighter games, following Street Fighter II Turbo (1992). It refines and balances the existing character roster from the previous versions, and introduces four new characters, including Fei Long, Cammy, T. Hawk, and Dee Jay. It is the first game on Capcoms CP System II hardware, with more sophisticated graphics and audio over the original CP System hardware used in previous versions of Street Fighter II.",
+   "developer": "Capcom",
+   "platforms": "Arcade, Mega Drive/Genesis, Super NES, X68000, FM Towns, Amiga, MS-DOS",
+   "qid": "Q2913706",
+   "p31": [
+    "video game"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1993 arcade video game",
+   "pubyears": [
+    1993,
+    1994
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Super Street Fighter II",
+    "main_h": 1.07,
+    "why": "ok",
+    "name": "Super Street Fighter II",
+    "year": 1993
+   }
+  },
+  {
+   "target": "Super Street Fighter II Turbo",
+   "t": "Super Street Fighter II Turbo",
+   "first": [
+    1994,
+    2,
+    23,
+    3
+   ],
+   "all_dates": [
+    [
+     1994,
+     2,
+     23,
+     3
+    ],
+    [
+     1994,
+     3,
+     23,
+     3
+    ],
+    [
+     1994,
+     11,
+     7,
+     3
+    ],
+    [
+     1994,
+     11,
+     18,
+     3
+    ],
+    [
+     1994,
+     11,
+     21,
+     3
+    ],
+    [
+     1994,
+     11,
+     23,
+     3
+    ]
+   ],
+   "timeline": [
+    "1994",
+    "2001"
+   ],
+   "lead": "'Super Street Fighter II Turbo', released in Japan as is a 1994 fighting game developed and published by Capcom for arcades. It is the fifth installment in the Street Fighter&nbsp;II sub-series of Street Fighter games, following Super Street Fighter II (1993). Like its predecessor, it ran on the CP System II hardware.",
+   "developer": "Capcom",
+   "platforms": "Arcade, 3DO, MS-DOS, Amiga, CD32, Dreamcast, Game Boy Advance",
+   "qid": "Q1909895",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1994 arcade video game developed by Capcom",
+   "pubyears": [
+    1994
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Super Street Fighter II Turbo",
+    "main_h": 1.66,
+    "why": "ok",
+    "name": "Super Street Fighter II Turbo",
+    "year": 1994
+   }
+  },
+  {
+   "target": "Street Fighter Alpha",
+   "t": "Street Fighter Alpha: Warriors' Dreams",
+   "first": [
+    1995,
+    6,
+    22,
+    3
+   ],
+   "all_dates": [
+    [
+     1995,
+     6,
+     22,
+     3
+    ],
+    [
+     1995,
+     12,
+     22,
+     3
+    ],
+    [
+     1995,
+     10,
+     1,
+     2
+    ],
+    [
+     1995,
+     1,
+     1,
+     1
+    ],
+    [
+     1996,
+     1,
+     26,
+     3
+    ],
+    [
+     1996,
+     2,
+     8,
+     3
+    ]
+   ],
+   "timeline": [
+    "1995a"
+   ],
+   "lead": "'Street Fighter Alpha: Warriors' Dreams', known as in Japan, Asia, South America, and Oceania, is a 1995 fighting game developed and published by Capcom for arcades. It was the first all-new Street Fighter game produced by Capcom since 1991's Street Fighter II. Plotwise, it serves as a prequel to Street Fighter II and thus features younger versions of established characters, as well as characters from the original Street Fighter and Final Fight.",
+   "developer": "Capcom",
+   "platforms": "Arcade, CPS Changer, PlayStation, Sega Saturn, Windows, Game Boy Color, Java ME",
+   "qid": "Q2081133",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1995 arcade video game",
+   "pubyears": [
+    1995
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter Alpha: Warriors' Dreams",
+    "main_h": 0.68,
+    "why": "ok",
+    "name": "Street Fighter Alpha: Warriors' Dreams",
+    "year": 1995
+   }
+  },
+  {
+   "target": "Street Fighter Alpha 2",
+   "t": "Street Fighter Alpha 2",
+   "first": [
+    1996,
+    3,
+    25,
+    3
+   ],
+   "all_dates": [
+    [
+     1996,
+     3,
+     25,
+     3
+    ],
+    [
+     1996,
+     8,
+     9,
+     3
+    ],
+    [
+     1996,
+     9,
+     14,
+     3
+    ],
+    [
+     1996,
+     10,
+     18,
+     3
+    ],
+    [
+     1996,
+     10,
+     28,
+     3
+    ],
+    [
+     1996,
+     11,
+     1,
+     3
+    ]
+   ],
+   "timeline": [
+    "1996a"
+   ],
+   "lead": "'Street Fighter Alpha 2', known as in Japan, Asia, South America, and Oceania, is a 1996 fighting game developed and published by Capcom for arcades. The game is the sequel to the previous year's Street Fighter Alpha: Warriors' Dreams and features a number of improvements, such as new attacks, stages, endings, and gameplay features. It was ported to the PlayStation, Sega Saturn and Super Nintendo home consoles globally in 1996, and later a Windows port. It was followed by Street Fighter Alpha 3 in 1998.",
+   "developer": "Capcom",
+   "platforms": "Arcade, PlayStation, Sega Saturn, SNES, Windows",
+   "qid": "Q2422795",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1996 arcade video game",
+   "pubyears": [
+    1996
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter Alpha 2",
+    "main_h": 0.77,
+    "why": "ok",
+    "name": "Street Fighter Alpha 2",
+    "year": 1996
+   }
+  },
+  {
+   "target": "Street Fighter III",
+   "t": "Street Fighter III: New Generation",
+   "first": [
+    1997,
+    2,
+    28,
+    3
+   ],
+   "all_dates": [
+    [
+     1997,
+     2,
+     28,
+     3
+    ],
+    [
+     1997,
+     3,
+     5,
+     3
+    ],
+    [
+     1997,
+     2,
+     1,
+     2
+    ],
+    [
+     1997,
+     1,
+     1,
+     1
+    ],
+    [
+     1999,
+     12,
+     16,
+     3
+    ],
+    [
+     1999,
+     1,
+     1,
+     1
+    ]
+   ],
+   "timeline": [
+    "1997a"
+   ],
+   "lead": "is a 1997 fighting game in Capcom's Street Fighter series, originally released as a coin-operated arcade game. The sequel to Street Fighter II (1991), it initially discarded every previous character except for Ryu and Ken (hence the New Generation subtitle), introducing an all-new roster led by Alex. Likewise, a new antagonist named Gill took over M. Bison's role from the previous games as the new boss character.",
+   "developer": "Capcom",
+   "platforms": "Arcade, Dreamcast",
+   "qid": "Q2467423",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": false,
+   "gate_desc": true,
+   "desc": "1997 arcade video game",
+   "pubyears": [
+    1999
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter III: New Generation",
+    "main_h": 0.69,
+    "why": "ok",
+    "name": "Street Fighter III: New Generation",
+    "year": 1997
+   }
+  },
+  {
+   "target": "Street Fighter III: 2nd Impact",
+   "t": "Street Fighter III: 2nd Impact",
+   "first": [
+    1997,
+    9,
+    30,
+    3
+   ],
+   "all_dates": [
+    [
+     1997,
+     9,
+     30,
+     3
+    ],
+    [
+     1997,
+     10,
+     18,
+     3
+    ],
+    [
+     1997,
+     1,
+     1,
+     1
+    ],
+    [
+     1999,
+     12,
+     16,
+     3
+    ],
+    [
+     1999,
+     1,
+     1,
+     1
+    ],
+    [
+     2000,
+     6,
+     20,
+     3
+    ]
+   ],
+   "timeline": [
+    "1997d"
+   ],
+   "lead": "is a 1997 fighting game developed and published by Capcom for arcades. It is an update of Street Fighter III: New Generation; like its predecessor, it runs on the CP System III hardware. 2nd Impact introduced new gameplay mechanics, new characters, and new special moves. The game also brings back bonus rounds, not seen in the series since Super Street Fighter II. It is also the only CPS-3 title to have a widescreen feature.",
+   "developer": "Capcom",
+   "platforms": "Arcade, Dreamcast",
+   "qid": "Q3500246",
+   "p31": [
+    "video game"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1997 arcade video game",
+   "pubyears": [
+    1997,
+    1998
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter III: 2nd Impact - Giant Attack",
+    "main_h": 0.98,
+    "why": "ok",
+    "name": "Street Fighter III: 2nd Impact - Giant Attack",
+    "year": 1997
+   }
+  },
+  {
+   "target": "Street Fighter Alpha 3",
+   "t": "Street Fighter Alpha 3",
+   "first": [
+    1998,
+    7,
+    15,
+    3
+   ],
+   "all_dates": [
+    [
+     1998,
+     7,
+     15,
+     3
+    ],
+    [
+     1998,
+     12,
+     23,
+     3
+    ],
+    [
+     1998,
+     7,
+     1,
+     2
+    ],
+    [
+     1998,
+     1,
+     1,
+     1
+    ],
+    [
+     1999,
+     5,
+     5,
+     3
+    ],
+    [
+     1999,
+     6,
+     18,
+     3
+    ]
+   ],
+   "timeline": [
+    "1998b"
+   ],
+   "lead": "'Street Fighter Alpha 3', released as in Japan, Asia, South America, and Oceania, is a 1998 fighting game developed and published by Capcom for arcades. It is the third and final installment in the Street Fighter Alpha series, and runs on the same CP System II hardware as previous Alpha games. Alpha 3 further expanded the playable fighter roster from Street Fighter Alpha 2 and added new features such as selectable fighting styles called \"isms\".",
+   "developer": "Capcom",
+   "platforms": "Arcade, PlayStation, Dreamcast, Sega Saturn, Game Boy Advance, PlayStation Portable",
+   "qid": "Q2633628",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1998 arcade video game",
+   "pubyears": [
+    1998,
+    1999,
+    2000
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter Alpha 3",
+    "main_h": 1.19,
+    "why": "ok",
+    "name": "Street Fighter Alpha 3",
+    "year": 1998
+   }
+  },
+  {
+   "target": "Street Fighter III: 3rd Strike",
+   "t": "Street Fighter III: 3rd Strike",
+   "first": [
+    1999,
+    5,
+    12,
+    3
+   ],
+   "all_dates": [
+    [
+     1999,
+     5,
+     12,
+     3
+    ],
+    [
+     1999,
+     6,
+     8,
+     3
+    ],
+    [
+     1999,
+     1,
+     1,
+     1
+    ],
+    [
+     2000,
+     6,
+     29,
+     3
+    ],
+    [
+     2000,
+     10,
+     4,
+     3
+    ],
+    [
+     2000,
+     12,
+     15,
+     3
+    ]
+   ],
+   "timeline": [
+    "1999"
+   ],
+   "lead": "is a 1999 fighting game developed and published by Capcom for arcades. It is the second and final updated version of Street Fighter III, following Street Fighter III: 2nd Impact. Like its predecessors, it runs on the CP System III hardware.",
+   "developer": "Capcom, Iron Galaxy Studios (Online Edition)",
+   "platforms": "Arcade, Dreamcast, PlayStation 3, Xbox 360",
+   "qid": "Q5230754",
+   "p31": [
+    "video game"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1999 arcade video game",
+   "pubyears": [
+    1999
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter III: Third Strike - Fight for the Future",
+    "main_h": 1.2,
+    "why": "ok",
+    "name": "Street Fighter III: Third Strike - Fight for the Future",
+    "year": 1999
+   }
+  },
+  {
+   "target": "Hyper Street Fighter II",
+   "t": "Hyper Street Fighter II: The Anniversary Edition",
+   "first": [
+    2003,
+    12,
+    18,
+    3
+   ],
+   "all_dates": [
+    [
+     2003,
+     12,
+     18,
+     3
+    ],
+    [
+     2003,
+     1,
+     1,
+     1
+    ],
+    [
+     2004,
+     1,
+     28,
+     3
+    ],
+    [
+     2004,
+     5,
+     28,
+     3
+    ],
+    [
+     2004,
+     1,
+     1,
+     1
+    ]
+   ],
+   "timeline": [
+    "2003"
+   ],
+   "lead": "is a 2003 fighting game developed and published by Capcom for the PlayStation 2. Created to commemorate the 15th anniversary of the Street Fighter series, it is a modified port of Super Street Fighter II Turbo (1994) in which players can control any versions of the main characters from the five Street Fighter II games previously released for the arcades.",
+   "developer": "Capcom",
+   "platforms": "PlayStation 2, Arcade",
+   "qid": "Q3144100",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "2003 arcade video game",
+   "pubyears": [
+    2003
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Hyper Street Fighter II: The Anniversary Edition",
+    "main_h": 2.23,
+    "why": "ok",
+    "name": "Hyper Street Fighter II: The Anniversary Edition",
+    "year": 2003
+   }
+  },
+  {
+   "target": "Street Fighter IV",
+   "t": "Street Fighter IV",
+   "first": [
+    2008,
+    7,
+    18,
+    3
+   ],
+   "all_dates": [
+    [
+     2008,
+     7,
+     18,
+     3
+    ],
+    [
+     2008,
+     8,
+     12,
+     3
+    ],
+    [
+     2008,
+     1,
+     1,
+     1
+    ],
+    [
+     2009,
+     2,
+     12,
+     3
+    ],
+    [
+     2009,
+     2,
+     17,
+     3
+    ],
+    [
+     2009,
+     2,
+     20,
+     3
+    ]
+   ],
+   "timeline": [
+    "2008a",
+    "2014"
+   ],
+   "lead": "is a 2008 fighting game developed by Capcom and Dimps and published by Capcom. It was the first original main entry in the Street Fighter series since Street Fighter III in 1997, a hiatus of eleven years. Designed for the Taito Type X2 arcade hardware, it was ported with additional features in 2009 to PlayStation 3, Xbox 360 and Windows, along with mobile versions later on.",
+   "developer": "Dimps, Capcom",
+   "platforms": "Arcade, PlayStation 3, Xbox 360, Windows, iOS, Android, PlayStation 4",
+   "qid": "Q914286",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "2008 video game",
+   "pubyears": [
+    2008
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter IV",
+    "main_h": 2.52,
+    "why": "ok",
+    "name": "Street Fighter IV",
+    "year": 2009
+   }
+  },
+  {
+   "target": "Super Street Fighter II Turbo HD Remix",
+   "t": "Super Street Fighter II Turbo HD Remix",
+   "first": [
+    2008,
+    11,
+    25,
+    3
+   ],
+   "all_dates": [
+    [
+     2008,
+     11,
+     25,
+     3
+    ],
+    [
+     2008,
+     11,
+     26,
+     3
+    ],
+    [
+     2008,
+     1,
+     1,
+     1
+    ],
+    [
+     2009,
+     2,
+     19,
+     3
+    ],
+    [
+     2009,
+     1,
+     1,
+     1
+    ]
+   ],
+   "timeline": [
+    "2008b"
+   ],
+   "lead": "'Super Street Fighter II Turbo HD Remix' is a 2008 fighting game initially released on the PlayStation Store and Xbox Live Arcade services. A physical copy of the game was later released as part of Capcom Digital Collection. It is a remake of 1994's Super Street Fighter II Turbo (the fifth arcade iteration of the Street Fighter II series) featuring the original game and a high definition version using graphics drawn by UDON Entertainment, and arranged music by OverClocked ReMix members. The game was designed by Backbone Entertainment's David Sirlin to be the sixth definitive version of Street Fighter II, although it is in fact the seventh, being released after 2003's Hyper Street Fighter II.",
+   "developer": "Backbone Entertainment",
+   "platforms": "PlayStation 3, Xbox 360",
+   "qid": "Q3179278",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "2008 video game",
+   "pubyears": [
+    2008
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Super Street Fighter II Turbo HD Remix",
+    "main_h": 1.09,
+    "why": "ok",
+    "name": "Super Street Fighter II Turbo HD Remix",
+    "year": 2008
+   }
+  },
+  {
+   "target": "Super Street Fighter IV",
+   "t": "Super Street Fighter IV",
+   "first": [
+    2010,
+    4,
+    27,
+    3
+   ],
+   "all_dates": [
+    [
+     2010,
+     4,
+     27,
+     3
+    ],
+    [
+     2010,
+     4,
+     28,
+     3
+    ],
+    [
+     2010,
+     4,
+     30,
+     3
+    ],
+    [
+     2010,
+     1,
+     1,
+     1
+    ],
+    [
+     2011,
+     2,
+     26,
+     3
+    ],
+    [
+     2011,
+     3,
+     25,
+     3
+    ]
+   ],
+   "timeline": [
+    "2010a"
+   ],
+   "lead": "is a 2010 fighting game developed and published by Capcom. It is an updated version of Street Fighter IV and has been said to mark the definitive end of the Street Fighter IV series. Having been deemed too large an update to be deployed as DLC, the game was made into a standalone title but given a lower price than that of a full retail game. It was released in April 2010 for the PlayStation 3 and Xbox 360. A port to the Nintendo 3DS with stereoscopic 3D functionality, 'Super Street Fighter IV: 3D Edition' was released as one of the launch titles for the console in 2011. The game sold 1.9 million units worldwide, while the 3D Edition for the 3DS sold an additional 1.1 million units worldwide.",
+   "developer": "Dimps, Capcom",
+   "platforms": "PlayStation 3, Xbox 360, Nintendo 3DS",
+   "qid": "Q1302248",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "2010 video game",
+   "pubyears": [
+    2010
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Super Street Fighter IV",
+    "main_h": 2.05,
+    "why": "ok",
+    "name": "Super Street Fighter IV",
+    "year": 2010
+   }
+  },
+  {
+   "target": "Super Street Fighter IV: Arcade Edition",
+   "t": "Super Street Fighter IV: Arcade Edition",
+   "first": [
+    2010,
+    12,
+    16,
+    3
+   ],
+   "all_dates": [
+    [
+     2010,
+     12,
+     16,
+     3
+    ],
+    [
+     2010,
+     1,
+     1,
+     1
+    ],
+    [
+     2011,
+     1,
+     25,
+     3
+    ],
+    [
+     2011,
+     6,
+     7,
+     3
+    ],
+    [
+     2011,
+     6,
+     24,
+     3
+    ],
+    [
+     2011,
+     6,
+     28,
+     3
+    ]
+   ],
+   "timeline": [
+    "2010b"
+   ],
+   "lead": "'Super Street Fighter IV: Arcade Edition' is an update to Super Street Fighter IV, originally released in 2010 for the arcades. It has been ported in 2011 for Microsoft Windows, PlayStation 3, and Xbox 360.",
+   "developer": "Capcom, Dimps",
+   "platforms": "Arcade, PlayStation 3, Xbox 360, Microsoft Windows",
+   "qid": "Q16259342",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "2010 arcade video game",
+   "pubyears": [
+    2010
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Super Street Fighter IV: Arcade Edition",
+    "main_h": 2.63,
+    "why": "ok",
+    "name": "Super Street Fighter IV: Arcade Edition",
+    "year": 2010
+   }
+  },
+  {
+   "target": "Street Fighter V",
+   "t": "Street Fighter V",
+   "first": [
+    2016,
+    2,
+    16,
+    3
+   ],
+   "all_dates": [
+    [
+     2016,
+     2,
+     16,
+     3
+    ],
+    [
+     2016,
+     1,
+     1,
+     1
+    ],
+    [
+     2018,
+     1,
+     16,
+     3
+    ],
+    [
+     2018,
+     1,
+     1,
+     1
+    ],
+    [
+     2019,
+     3,
+     14,
+     3
+    ],
+    [
+     2019,
+     1,
+     1,
+     1
+    ]
+   ],
+   "timeline": [
+    "2016",
+    "2018a",
+    "2020"
+   ],
+   "lead": "'Street Fighter V' is a 2016 fighting game developed primarily by Capcom, with assistance from Dimps, and published by Capcom for PlayStation 4 and Windows. The major follow-up to Street Fighter IV (2008 arcade release) as part of Capcom's Street Fighter series, it was developed using Unreal Engine 4 and was released as a console exclusive for PlayStation 4 alongside a Windows version. Similar to previous games in the series, Street Fighter V features a 2D fighting gameplay system, and introduces the \"V-Gauge\" mechanic. The game featured 16 characters at launch, with four of them being new to the series; a main story mode and 30 additional characters were added through updates and downloadable content.",
+   "developer": "Capcom|Dimps|Taito (Arcade)",
+   "platforms": "",
+   "qid": "Q18608589",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "2016 fighting game",
+   "pubyears": [
+    2016
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter V",
+    "main_h": 3.37,
+    "why": "ok",
+    "name": "Street Fighter V",
+    "year": 2016
+   }
+  },
+  {
+   "target": "Ultra Street Fighter II: The Final Challengers",
+   "t": "Ultra Street Fighter II: The Final Challengers",
+   "first": [
+    2017,
+    5,
+    26,
+    3
+   ],
+   "all_dates": [
+    [
+     2017,
+     5,
+     26,
+     3
+    ],
+    [
+     2017,
+     1,
+     1,
+     1
+    ]
+   ],
+   "timeline": [
+    "2017"
+   ],
+   "lead": "'Ultra Street Fighter II: The Final Challengers' is a 2017 fighting game developed and published by Capcom for the Nintendo Switch. Released to celebrate the Street Fighter series' 30th anniversary, it is an updated version of Super Street Fighter II Turbo (1994), itself an update of Street Fighter II (1991), being the eighth definitive version of the game. The game features two graphical styles: classic pixel art and updated high-definition art. New gameplay mechanics and modes were also introduced, with minor changes being made to the game's balance. The game garnered mixed-to-positive reviews from critics, who praised its updated visuals, but criticized its price, the Way of the Hado mode, and control problems with the Switch's included Joy-Con controllers.",
+   "developer": "Capcom",
+   "platforms": "Nintendo Switch",
+   "qid": "Q28325024",
+   "p31": [
+    "video game"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "2017 fighting video game by Capcom",
+   "pubyears": [
+    2017
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Ultra Street Fighter II: The Final Challengers",
+    "main_h": 1.16,
+    "why": "ok",
+    "name": "Ultra Street Fighter II: The Final Challengers",
+    "year": 2017
+   }
+  },
+  {
+   "target": "Street Fighter 6",
+   "t": "Street Fighter 6",
+   "first": [
+    2023,
+    6,
+    2,
+    3
+   ],
+   "all_dates": [
+    [
+     2023,
+     6,
+     2,
+     3
+    ],
+    [
+     2023,
+     12,
+     14,
+     3
+    ],
+    [
+     2023,
+     1,
+     1,
+     1
+    ],
+    [
+     2025,
+     6,
+     5,
+     3
+    ],
+    [
+     2025,
+     1,
+     1,
+     1
+    ]
+   ],
+   "timeline": [
+    "2023"
+   ],
+   "lead": "'Street Fighter 6' is a 2023 fighting game developed and published by Capcom. It is the seventh main entry in the Street Fighter franchise, following Street Fighter V (2016), and was released worldwide on June 2, 2023, for PlayStation 4, PlayStation 5, Windows and Xbox Series X/S, while an arcade version, named 'Street Fighter 6 Type Arcade', was published by Taito for Japanese arcade cabinets in December. An updated version with post-launch content, 'Street Fighter 6 Years 1-2 Fighters Edition', was released on June 5, 2025, alongside a Nintendo Switch 2 version as a launch title and corresponding Amiibo for the game.",
+   "developer": "Capcom",
+   "platforms": "PlayStation 4|PlayStation 5|Windows|Xbox Series X/S|Arcade|Nintendo Switch 2",
+   "qid": "Q110999026",
+   "p31": [
+    "video game",
+    "esports discipline"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "2023 fighting game developed by Capcom",
+   "pubyears": [
+    2023,
+    2025
+   ],
+   "p2047": null,
+   "hltb": {
+    "query": "Street Fighter 6",
+    "main_h": 17.34,
+    "why": "ok",
+    "name": "Street Fighter 6",
+    "year": 2023
+   }
+  }
+ ],
+ "films": [
+  {
+   "target": "Street Fighter II: The Animated Movie",
+   "t": "Street Fighter II: The Animated Movie",
+   "first": [
+    1994,
+    8,
+    6,
+    3
+   ],
+   "all_dates": [
+    [
+     1994,
+     8,
+     6,
+     3
+    ],
+    [
+     1994,
+     1,
+     1,
+     1
+    ]
+   ],
+   "runtime": 102,
+   "director": "Gisaburō Sugii",
+   "lead": "'Street Fighter II: The Animated Movie', known as in Japan, is a 1994 adult anime film adaptation of the 1991 video game Street Fighter II, directed by Gisaburō Sugii, written by Kenichi Imai and animated by Group TAC and featuring character designs by Shuko Murase.",
+   "qid": "Q929998",
+   "p31": [
+    "film"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1994 anime film",
+   "pubyears": [
+    1994
+   ],
+   "p2047": 98
+  },
+  {
+   "target": "Street Fighter (1994 film)",
+   "t": "Street Fighter",
+   "first": [
+    1994,
+    12,
+    23,
+    3
+   ],
+   "all_dates": [
+    [
+     1994,
+     12,
+     23,
+     3
+    ],
+    [
+     1994,
+     1,
+     1,
+     1
+    ],
+    [
+     1995,
+     5,
+     6,
+     3
+    ],
+    [
+     1995,
+     1,
+     1,
+     1
+    ]
+   ],
+   "runtime": 102,
+   "director": "Steven E. de Souza",
+   "lead": "'Street Fighter' is a 1994 martial arts action film based on the video game series developed and published by Capcom. It was one of two films released in 1994 specifically adapting Street Fighter II, following Street Fighter II: The Animated Movie. Written and directed by Steven E. de Souza, the film stars Jean-Claude Van Damme and Raul Julia (in his final theatrical film role), with supporting Byron Mann, Damian Chapa, Kylie Minogue, Ming-Na Wen and Wes Studi in supporting roles.",
+   "qid": "Q1138659",
+   "p31": [
+    "film"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "1994 film directed by Steven E. de Souza",
+   "pubyears": [
+    1994,
+    1995
+   ],
+   "p2047": 100
+  },
+  {
+   "target": "Street Fighter Alpha: The Animation",
+   "t": "Street Fighter Alpha: The Animation",
+   "first": [
+    2000,
+    8,
+    31,
+    3
+   ],
+   "all_dates": [
+    [
+     2000,
+     8,
+     31,
+     3
+    ],
+    [
+     2000,
+     1,
+     1,
+     1
+    ]
+   ],
+   "runtime": 93,
+   "director": "Shigeyasu Yamauchi",
+   "lead": "'Street Fighter Alpha: The Animation', released in Japan as , and also known as 'Street Fighter Zero: The Movie', is a 2000 OVA based on the fighting game Street Fighter Alpha 2 by Capcom, directed by Shigeyasu Yamauchi. An English dub version was later produced by Manga Entertainment and released in 2001 on the 10th anniversary of the video game Street Fighter II: The World Warrior.",
+   "qid": "Q3082893",
+   "p31": [
+    "film"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": false,
+   "desc": "1999 film by Shigeyasu Yamauchi",
+   "pubyears": [
+    2000
+   ],
+   "p2047": 93
+  },
+  {
+   "target": "Street Fighter Alpha: Generations",
+   "t": "Street Fighter Alpha: Generations",
+   "first": [
+    2005,
+    10,
+    25,
+    3
+   ],
+   "all_dates": [
+    [
+     2005,
+     10,
+     25,
+     3
+    ],
+    [
+     2005,
+     1,
+     1,
+     1
+    ]
+   ],
+   "runtime": 45,
+   "director": "Ikuo Kuwana",
+   "lead": "'Street Fighter Alpha: Generations' is a 2005 Japanese anime film produced by A.P.P.P. and released by Manga Entertainment based on the 1996 video game Street Fighter Alpha 2 by Capcom. The film was produced specifically for the English-language market and was not officially released in Japan until its inclusion as a bonus feature in the Japanese DVD and Blu-ray release of the live-action film Street Fighter: The Legend of Chun-Li (2009).",
+   "qid": "Q1779112",
+   "p31": [
+    "film"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "2005 film",
+   "pubyears": [
+    2005
+   ],
+   "p2047": 45
+  },
+  {
+   "target": "Street Fighter: The Legend of Chun-Li",
+   "t": "Street Fighter: The Legend of Chun-Li",
+   "first": [
+    2009,
+    2,
+    27,
+    3
+   ],
+   "all_dates": [
+    [
+     2009,
+     2,
+     27,
+     3
+    ],
+    [
+     2009,
+     1,
+     1,
+     1
+    ]
+   ],
+   "runtime": 96,
+   "director": "Andrzej Bartkowiak",
+   "lead": "'Street Fighter: The Legend of Chun-Li' is a 2009 American martial arts action film loosely based upon the Street Fighter video game series produced by Capcom. Directed by Andrzej Bartkowiak from a screenplay written by Justin Marks, the film serves as a non-canonical spin-off and theatrical tie-in to Street Fighter IV (2008). The story follows the quest of Street Fighter character Chun-Li, played by Kristin Kreuk, before the events of the original Street Fighter. The film co-stars Neal McDonough as M. Bison, Chris Klein as Charlie Nash, Michael Clarke Duncan as Balrog, and Black Eyed Peas member Taboo as Vega.",
+   "qid": "Q663645",
+   "p31": [
+    "film"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": true,
+   "desc": "2009 film directed by Andrzej Bartkowiak",
+   "pubyears": [
+    2009
+   ],
+   "p2047": 96
+  },
+  {
+   "target": "Street Fighter (2026 film)",
+   "t": "Street Fighter",
+   "first": [
+    2026,
+    10,
+    16,
+    3
+   ],
+   "all_dates": [
+    [
+     2026,
+     10,
+     16,
+     3
+    ],
+    [
+     2026,
+     1,
+     1,
+     1
+    ]
+   ],
+   "runtime": null,
+   "director": "Kitao Sakurai",
+   "lead": "'Street Fighter' is an upcoming American action comedy film directed by Kitao Sakurai and written by Sakurai and T. J. Fixman. It is the third live-action feature-length film based on the Street Fighter video game series by Capcom. It features an ensemble cast including Noah Centineo, Andrew Koji, Callina Liang, Joe \"Roman Reigns\" Anoa'i, David Dastmalchian, Cody Rhodes, Eric André, Andrew Schulz, Vidyut Jammwal, Curtis \"50 Cent\" Jackson, and Jason Momoa. In the film, Chun-Li recruits the fighters Ryu and Ken Masters to join in a martial arts tournament and confront M. Bison.",
+   "qid": "Q130345436",
+   "p31": [
+    "film project"
+   ],
+   "p31_ok": true,
+   "gate_p577": true,
+   "gate_desc": false,
+   "desc": "upcoming film directed by Kitao Sakurai",
+   "pubyears": [
+    2026
+   ],
+   "p2047": null
+  }
+ ],
+ "tv": [
+  {
+   "target": "Street Fighter II V",
+   "infobox_tv": false,
+   "infobox_film": false,
+   "lead": "is an anime series produced by Group TAC, loosely based on the 1994 fighting game Super Street Fighter II Turbo. The series is directed by Gisaburo Sugii, who also directed Street Fighter II: The Animated Movie, and aired in Japan from 10 April to 27 November 1995 on YTV."
+  },
+  {
+   "target": "Street Fighter (TV series)",
+   "infobox_tv": true,
+   "infobox_film": false,
+   "lead": "'Street Fighter' is an animated television series based on the Street Fighter video game franchise by Capcom. The series aired as part of the USA Network's Cartoon Express and Action Extreme Team lineups. The show is closely based on the Street Fighter II series, but also borrows plot elements and characters from the live-action Street Fighter film and the first two Street Fighter Alpha games. It "
+  },
+  {
+   "target": "Street Fighter: Assassin's Fist",
+   "infobox_tv": true,
+   "infobox_film": false,
+   "lead": "'Street Fighter: Assassin's Fist' is a British martial arts web series developed by Joey Ansah and Christian Howard. Based on Capcom's Street Fighter video game series, it is the third live-action adaptation of the game franchise. The story focuses on Ryu and Ken as they uncover the past of their master, Gouken, and learn the secrets of their dark art, Ansatsuken."
+  },
+  {
+   "target": "Street Fighter: Resurrection",
+   "infobox_tv": true,
+   "infobox_film": false,
+   "lead": "'Street Fighter: Resurrection' is a British martial arts web series developed by Joey Ansah. The series is based on Capcom's Street Fighter video game series, its release coinciding with that of Street Fighter V to serve as a promotion. Resurrection is set ten years after Street Fighter: Assassin's Fist web series."
+  }
+ ],
+ "not_a_row": {
+  "Street Fighter Collection": "compilation",
+  "Street Fighter Anniversary Collection": "compilation",
+  "Street Fighter Alpha Anthology": "compilation",
+  "Street Fighter 30th Anniversary Collection": "compilation",
+  "Capcom Classics Collection": "compilation",
+  "Super Street Fighter IV: 3D Edition": "port, no article of its own"
+ },
+ "not_a_film": {
+  "Street Fighter IV#Anime": "a section of the Street Fighter IV article",
+  "Street Fighter: Round One: Fight!": "no article — a red link",
+  "Street Fighter: Assassin's Fist": "Infobox television — a web series"
+ },
+ "main_series_links": [
+  "Street Fighter (video game)",
+  "TurboGrafx-16",
+  "ZX Spectrum",
+  "Amstrad CPC",
+  "Commodore 64",
+  "Atari ST",
+  "Amiga",
+  "MS-DOS",
+  "PlayStation Portable",
+  "PlayStation 2",
+  "Xbox (console)",
+  "Street Fighter II",
+  "Super Nintendo Entertainment System",
+  "Game Boy",
+  "PlayStation (console)",
+  "Capcom Classics Collection",
+  "Sega Saturn",
+  "Wii",
+  "Street Fighter II: Champion Edition",
+  "Sega Genesis",
+  "Master System",
+  "Street Fighter II: Hyper Fighting",
+  "Xbox 360",
+  "Super Street Fighter II",
+  "Super Street Fighter II Turbo",
+  "3DO Interactive Multiplayer",
+  "Amiga CD32",
+  "Dreamcast",
+  "Japan",
+  "XBAND",
+  "Game Boy Advance",
+  "Super Street Fighter II Turbo HD Remix",
+  "PlayStation 3",
+  "Hyper Street Fighter II",
+  "Street Fighter Anniversary Collection",
+  "Ultra Street Fighter II: The Final Challengers",
+  "pinball",
+  "Gottlieb",
+  "Beyblade (manga)",
+  "Street Fighter Alpha",
+  "Game Boy Color",
+  "Street Fighter Alpha 2",
+  "video arcade",
+  "Street Fighter Alpha 3",
+  "Street Fighter Alpha Anthology",
+  "Street Fighter III",
+  "Street Fighter III: 2nd Impact",
+  "Street Fighter III: 3rd Strike",
+  "Street Fighter IV",
+  "Personal computer",
+  "iOS",
+  "Android (operating system)",
+  "Super Street Fighter IV",
+  "Super Street Fighter IV: 3D Edition",
+  "Nintendo 3DS",
+  "Super Street Fighter IV: Arcade Edition",
+  "PlayStation 4",
+  "Street Fighter V",
+  "Street Fighter 6",
+  "PlayStation 5",
+  "Xbox Series X and Series S",
+  "Nintendo Switch 2",
+  "Street Fighter Collection",
+  "Street Fighter 30th Anniversary Collection",
+  "Xbox One",
+  "Nintendo Switch",
+  "Microsoft Windows"
+ ],
+ "media_list_sections": [
+  "Video games",
+  "Main numbered series",
+  "Sequels and remakes",
+  "Spin-offs and crossovers",
+  "''Alpha'' series",
+  "''EX'' series",
+  "Compilations",
+  "Other media",
+  "Films",
+  "Television series",
+  "Printed",
+  "Music albums",
+  "References"
+ ],
+ "claims": {
+  "Street Fighter|six_main": "The first game in the series was released in 1987, followed by the other six main games in the series, various spin-offs and crossovers, and numerous appearances in other media.",
+  "Street Fighter|final_fight_brand": "Street Fighter II was released in 1991 following an unsuccessful attempt to brand the 1989 beat 'em up game Final Fight as the Street Fighter sequel.",
+  "Street Fighter|ex_arika": "In 1996, Capcom co-produced a 3D fighting game Street Fighter EX with Arika, a company founded by Street Fighter II planner Akira Nishitani.",
+  "Street Fighter|sf2026": "An American-produced live-action film, also titled Street Fighter, is scheduled to be released by Paramount Pictures on October 16, 2026, in IMAX.",
+  "List of Street Fighter video games|other_games": "These games are not part of the mainline Street Fighter series, but involve Street Fighter characters.",
+  "List of Street Fighter video games|final_fight_sequel": "The Final Fight series, which first release was for Arcades in 1989 and was originally intended as direct sequel to the original Street Fighter, has many connections to the Street Fighter series including multiple characters from the series making playable appearances in the Final Fight series.",
+  "Street Fighter II: Champion Edition|first_update": "It is the first of several updated versions of Street Fighter II: The World Warrior (1991), and part of the Street Fighter series.",
+  "Street Fighter II: Hyper Fighting|third": "It is the third arcade version of Street Fighter II, part of the Street Fighter franchise, following Street Fighter II: Champion Edition, and was initially released as an enhancement kit for that game.",
+  "Super Street Fighter II|fourth": "It is the fourth game in the Street Fighter II sub-series of Street Fighter games, following Street Fighter II Turbo (1992).",
+  "Super Street Fighter II Turbo|fifth": "It is the fifth installment in the Street Fighter&nbsp;II sub-series of Street Fighter games, following Super Street Fighter II (1993).",
+  "Hyper Street Fighter II|five_games": "Created to commemorate the 15th anniversary of the Street Fighter series, it is a modified port of Super Street Fighter II Turbo (1994) in which players can control any versions of the main characters from the five Street Fighter II games previously released for the arcades.",
+  "Super Street Fighter II Turbo HD Remix|seventh": "The game was designed by Backbone Entertainment's David Sirlin to be the sixth definitive version of Street Fighter II, although it is in fact the seventh, being released after 2003's Hyper Street Fighter II.",
+  "Ultra Street Fighter II: The Final Challengers|eighth": "Released to celebrate the Street Fighter series' 30th anniversary, it is an updated version of Super Street Fighter II Turbo (1994), itself an update of Street Fighter II (1991), being the eighth definitive version of the game.",
+  "Street Fighter (2026 film)|release": "Street Fighter is scheduled to be released in the United States by Paramount Pictures on October 16, 2026 in IMAX.",
+  "Street Fighter (2026 film)|third_live_action": "It is the third live-action feature-length film based on the Street Fighter video game series by Capcom.",
+  "Street Fighter (1994 film)|two_films": "It was one of two films released in 1994 specifically adapting Street Fighter II, following Street Fighter II: The Animated Movie.",
+  "Street Fighter IV|hiatus": "It was the first original main entry in the Street Fighter series since Street Fighter III in 1997, a hiatus of eleven years.",
+  "Super Street Fighter IV|definitive_end": "It is an updated version of Street Fighter IV and has been said to mark the definitive end of the Street Fighter IV series.",
+  "Super Street Fighter IV: Arcade Edition|update": "'Super Street Fighter IV: Arcade Edition' is an update to Super Street Fighter IV, originally released in 2010 for the arcades.",
+  "Street Fighter Alpha|prequel": "Plotwise, it serves as a prequel to Street Fighter II and thus features younger versions of established characters, as well as characters from the original Street Fighter and Final Fight.",
+  "Street Fighter III|discarded": "The sequel to Street Fighter II (1991), it initially discarded every previous character except for Ryu and Ken (hence the New Generation subtitle), introducing an all-new roster led by Alex.",
+  "Street Fighter III: 3rd Strike|second_final": "It is the second and final updated version of Street Fighter III, following Street Fighter III: 2nd Impact.",
+  "Street Fighter 6|seventh_main": "It is the seventh main entry in the Street Fighter franchise, following Street Fighter V (2016), and was released worldwide on June 2, 2023, for PlayStation 4, PlayStation 5, Windows and Xbox Series X/S, while an arcade version, named 'Street Fighter 6 Type Arcade', was published by Taito for Japanese arcade cabinets in December.",
+  "Street Fighter Alpha: The Animation|ova": "'Street Fighter Alpha: The Animation', released in Japan as , and also known as 'Street Fighter Zero: The Movie', is a 2000 OVA based on the fighting game Street Fighter Alpha 2 by Capcom, directed by Shigeyasu Yamauchi.",
+  "Street Fighter (video game)|first_competitive": "It is the first competitive fighting game produced by the company and the first installment in the Street Fighter series.",
+  "Street Fighter|choice_of_characters": "Street Fighter II: The World Warrior is the first one-on-one fighting game to give players a choice from a variety of player characters with different moves, allowing for more varied matches.",
+  "Street Fighter|alpha_look": "It uses the same character designs Capcom previously employed in Darkstalkers and X-Men: Children of the Atom, with settings and character designs heavily influenced by Street Fighter II: The Animated Movie.",
+  "Street Fighter|super_combos": "The fifth arcade installment, Super Street Fighter II Turbo, Super Street Fighter II X in Japan, brings back the faster gameplay of Hyper Fighting, a new type of special techniques known as \"Super Combos\" and a hidden character, Akuma.",
+  "Street Fighter|hyper_final_arcade": "As the final arcade installment, the game is a hybrid version of Super Turbo, which allows players to select between versions of characters from all five previous Street Fighter II games.",
+  "Street Fighter|champion_first_update": "The first official update to the series was Street Fighter II: Champion Edition, pronounced Street Fighter II Dash in Japan, as noted by the prime notation on the logo.",
+  "Hyper Street Fighter II|moma": "Hyper Street Fighter II: The Anniversary Edition is part of the Museum of Modern Art's permanent collection of video games, used to represent the game at large.",
+  "Street Fighter 6|world_tour": "World Tour is a single-player story mode featuring a customizable player avatar exploring 3D environments, such as Final Fights Metro City and the small, fictional Central Asian nation of Nayshall, with action-adventure gameplay.",
+  "Street Fighter II: Hyper Fighting|upgrade_kit": "It is the third arcade version of Street Fighter II, part of the Street Fighter franchise, following Street Fighter II: Champion Edition, and was initially released as an enhancement kit for that game.",
+  "Super Street Fighter II|cps2": "It is the first game on Capcoms CP System II hardware, with more sophisticated graphics and audio over the original CP System hardware used in previous versions of Street Fighter II.",
+  "Street Fighter III: 2nd Impact|update": "It is an update of Street Fighter III: New Generation; like its predecessor, it runs on the CP System III hardware. 2nd Impact introduced new gameplay mechanics, new characters, and new special moves.",
+  "Street Fighter Alpha 3|third_final": "It is the third and final installment in the Street Fighter Alpha series, and runs on the same CP System II hardware as previous Alpha games.",
+  "Street Fighter|custom_combos": "It also discards the Chain Combo system in favor of Custom Combos, which requires a portion of the Super Combo meter to be used.",
+  "Street Fighter V|post_launch": "The game featured 16 characters at launch, with four of them being new to the series; a main story mode and 30 additional characters were added through updates and downloadable content.",
+  "Street Fighter Alpha: Generations|english_market": "The film was produced specifically for the English-language market and was not officially released in Japan until its inclusion as a bonus feature in the Japanese DVD and Blu-ray release of the live-action film Street Fighter: The Legend of Chun-Li (2009).",
+  "Street Fighter: The Legend of Chun-Li|spinoff": "Directed by Andrzej Bartkowiak from a screenplay written by Justin Marks, the film serves as a non-canonical spin-off and theatrical tie-in to Street Fighter IV (2008).",
+  "Street Fighter II: The Animated Movie|anime_film": "'Street Fighter II: The Animated Movie', known as in Japan, is a 1994 adult anime film adaptation of the 1991 video game Street Fighter II, directed by Gisaburō Sugii, written by Kenichi Imai and animated by Group TAC and featuring character designs by Shuko Murase.",
+  "Street Fighter (1994 film)|cast": "Written and directed by Steven E. de Souza, the film stars Jean-Claude Van Damme and Raul Julia (in his final theatrical film role), with supporting Byron Mann, Damian Chapa, Kylie Minogue, Ming-Na Wen and Wes Studi in supporting roles.",
+  "Ultra Street Fighter II: The Final Challengers|switch": "'Ultra Street Fighter II: The Final Challengers' is a 2017 fighting game developed and published by Capcom for the Nintendo Switch.",
+  "Super Street Fighter II Turbo HD Remix|udon": "It is a remake of 1994's Super Street Fighter II Turbo (the fifth arcade iteration of the Street Fighter II series) featuring the original game and a high definition version using graphics drawn by UDON Entertainment, and arranged music by OverClocked ReMix members.",
+  "Street Fighter|sixty_million": "Street Fighter is one of the highest-grossing video game franchises of all time and one of Capcom's flagship series, with total sales of 60 million units worldwide .",
+  "Street Fighter (video game)|six_button": "It was a commercial success in arcades and introduced special attacks and some of the conventions made standard in later fighting games, such as the six-button controls and the use of command-based special moves.",
+  "Street Fighter|ce_bosses": "The four computer-controlled boss characters are human-playable and two players can choose the same character, leaving one character with an alternate color pattern.",
+  "Super Street Fighter II|four_new": "It refines and balances the existing character roster from the previous versions, and introduces four new characters, including Fei Long, Cammy, T.",
+  "Street Fighter|alpha_zero": "Street Fighter Alpha: Warriors' Dreams (Street Fighter Zero in Asia and Mexico), was released in 1995.",
+  "Street Fighter|alpha2_five": "Alpha 2 retains all 13 characters from the original and adds five new characters to the roster along with hidden versions of returning characters.",
+  "Street Fighter|alpha3_28": "Alpha 3 introduces three selectable fighting styles and further expands the playable roster to 28 characters.",
+  "Street Fighter III: 2nd Impact|bonus_rounds": "The game also brings back bonus rounds, not seen in the series since Super Street Fighter II.",
+  "Street Fighter III: 3rd Strike|five_new": "3rd Strike increased the character roster by adding five new characters, notably including Chun-Li.",
+  "Street Fighter III: 3rd Strike|parry": "It also added further refinements to the previous game's play mechanics and rules, including improvements to the parry system.",
+  "Super Street Fighter II Turbo HD Remix|balance": "Acting as design director, Sirlin's role included balance changes to gameplay and correcting differences between the original arcade version of the game and the HD Classic Arcade mode.",
+  "Street Fighter|super4_ten": "Super Street Fighter IV includes ten additional characters including two characters new to the franchise: Juri and Hakan.",
+  "Super Street Fighter IV: Arcade Edition|ported": "It has been ported in 2011 for Microsoft Windows, PlayStation 3, and Xbox 360.",
+  "Street Fighter|vandamme": "The first live-action film, Street Fighter, was released in 1994, starring Jean-Claude Van Damme as Guile, opposite Raúl Juliá as General M.",
+  "Street Fighter|longest_running": "It is also one of the highest-grossing media franchises and is the longest-running fighting game franchise."
+ }
+}

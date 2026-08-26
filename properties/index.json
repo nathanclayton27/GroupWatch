@@ -437,6 +437,26 @@
     "total": 15
   },
   {
+    "slug": "street-fighter",
+    "media": [
+      "games",
+      "movies"
+    ],
+    "title": "Street Fighter",
+    "subtitle": "the games and the films, in the order they arrived",
+    "kind": "films & games",
+    "year": "1987–2026",
+    "popularity": 85,
+    "blurb": "Twenty games and six films in release order — every arcade version the source counts as its own, from the 1987 cabinet to the film opening in October 2026.",
+    "accent": "#990000",
+    "accentDark": "#FF7700",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 26
+  },
+  {
     "slug": "the-office",
     "media": [
       "tv"
