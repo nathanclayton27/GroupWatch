@@ -69,15 +69,15 @@
     "kind": "films",
     "year": "1937–",
     "popularity": 96,
-    "blurb": "654 films from Snow White on — 465 theatrical, 163 television, 26 direct-to-video — about 911 hours.",
+    "blurb": "628 films from Snow White on — 439 theatrical, 163 television, 26 direct-to-video — about 877 hours.",
     "accent": "#1F4FA8",
     "accentDark": "#6F9BE8",
     "unit": {
       "one": "film",
       "many": "films"
     },
-    "total": 654,
-    "totalw": 910.58,
+    "total": 628,
+    "totalw": 877.15,
     "random": true
   },
   {

@@ -1459,15 +1459,15 @@ let MANIFEST = [
     "kind": "films",
     "year": "1937–",
     "popularity": 96,
-    "blurb": "654 films from Snow White on — 465 theatrical, 163 television, 26 direct-to-video — about 911 hours.",
+    "blurb": "628 films from Snow White on — 439 theatrical, 163 television, 26 direct-to-video — about 877 hours.",
     "accent": "#1F4FA8",
     "accentDark": "#6F9BE8",
     "unit": {
       "one": "film",
       "many": "films"
     },
-    "total": 654,
-    "totalw": 910.58,
+    "total": 628,
+    "totalw": 877.15,
     "random": true
   },
   {
@@ -4966,13 +4966,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '859f630c7343';
+const BUILD = 'ec238f039d12';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = 'b1709dc313';
+const SYNCVER = 'e424a38809';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

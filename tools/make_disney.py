@@ -8,7 +8,7 @@ Every Disney film in release order — theatrical, television and direct-to-vide
 20th Century, no Muppets. Walt Disney Pictures, Disney Channel and Disneytoon
 are the studio's own output, and that is what "a Disney movie" means here.
 
-Sources, machine-read by scratch/disney/parse.py:
+Sources, machine-read into tools/data/disney.json:
   - List of Walt Disney Pictures films          theatrical
   - List of Disney Channel original films       television
   - List of Disneytoon Studios productions      direct-to-video
@@ -17,6 +17,18 @@ Disneytoon's word wins on how it was released — the Walt Disney Pictures list
 files Bambi II as theatrical because it had a cinema release outside North
 America, and the studio that made it is the better authority.
 
+**Distributed is not made.** The Walt Disney Pictures list carries a Notes
+column, and it says so when Disney only handled distribution — Ponyo's reads
+"North American distribution only; produced by Studio Ghibli". Twenty-three
+rows carry that marker in one wording or another and none of them belong on a
+list of what Disney made; a reader found two Studio Ghibli films here and was
+right. DISTONLY below reads the column the parse used to ignore. It does NOT
+replace the acquired-properties blocklist: of the 43 titles that blocklist
+removes, the marker catches exactly one (Toy Story, which Disney did only
+distribute). The other 42 are co-productions — the source calls them
+"co-production with Pixar Animation Studios" — so the marker is silent on them
+and the blocklist stays.
+
 Tiers are release channels, not rankings:
   1 theatrical   2 television   3 direct-to-video
 A finish date paces you through the theatrical line; the checkbox adds the
@@ -24,8 +36,34 @@ rest. The channels are also filter chips, so "no TV movies" is one click.
 """
 import json
 import pathlib
+import re
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from gwlib import prop as gwprop  # noqa: E402
 
 SLUG = "disney"
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+
+# The source's own marker for a film Disney released but did not make. Every
+# wording in the article ends the same way — "distribution only" — after a
+# territory that varies: "North American", "international", "Benelux",
+# "U.S., Scandinavian, Australian and New Zealand", or nothing at all.
+DISTONLY = re.compile(r"distribution only", re.I)
+
+# Rows the old parse invented and shipped, kept here by name so that dropping
+# them cannot be mistaken for an id rename. Each is a production company or a
+# streaming service read out of a Notes cell: the row was one cell short — the
+# "In development" table has no date column, and elsewhere the date is carried
+# by a rowspan — so the parse read the title cell as the date and the notes
+# cell as the title. scratch/agent-disney/parse.py now rejects a row whose
+# first cell is not a real date.
+PHANTOM = {
+    "dis-1997-agbo": "notes of the in-development Hercules remake",
+    "dis-2007-centro-digital-pictures-limited":
+        "notes of The Secret of the Magic Gourd",
+    "dis-2019-disney": "notes of Noelle — the Disney+ row",
+}
 
 KIND = {
     "theatrical": (1, "Theatrical", []),
@@ -54,22 +92,40 @@ ERAS = [
 
 
 def slug(t):
+    """Deliberately NOT gwlib.prop.slug. That one ASCII-folds, which would
+    rewrite `dis-2004-the-lion-king-1½` and `dis-2008-high-school-musical-el-
+    desafío` — two live ids whose ticks would vanish with them."""
     keep = "".join(c.lower() if c.isalnum() else "-" for c in t)
     while "--" in keep:
         keep = keep.replace("--", "-")
     return keep.strip("-")
 
 
-def era_of(year):
-    for key, _, lo, hi, _ in ERAS:
-        if lo <= year <= hi:
-            return key
-    return "plus"
+def item_id(f):
+    return "dis-%s-%s" % (f["date"][:4], slug(f["t"]))
+
+
+def shipped_ids():
+    """Item ids in the property as it stands on disk, so the write can prove it
+    renamed none of them. Empty on a first build."""
+    p = ROOT / "properties" / ("%s.json" % SLUG)
+    if not p.exists():
+        return set()
+    old = json.loads(p.read_text(encoding="utf-8"))
+    return {x["id"] for s in old.get("sections", []) for x in s["items"]}
 
 
 def main():
-    data = pathlib.Path(__file__).resolve().parent / "data" / "disney.json"
-    films = json.loads(data.read_text(encoding="utf-8"))
+    data = ROOT / "tools" / "data" / ("%s.json" % SLUG)
+    allfilms = json.loads(data.read_text(encoding="utf-8"))
+
+    # Nathan's ruling on CLU-274: keep the list's stated rule and drop the rows
+    # that break it. The source marks them; we used to ignore the column.
+    dropped = [f for f in allfilms if DISTONLY.search(f.get("note") or "")]
+    films = [f for f in allfilms if f not in dropped]
+    assert dropped, "no distribution-only markers found — did the notes column "\
+                    "stop being parsed?"
+
     films.sort(key=lambda f: (f["date"], f["t"]))
 
     sections = []
@@ -84,7 +140,7 @@ def main():
             if not f.get("runtime") and int(f["date"][:4]) > 2025:
                 bits.append("Not out yet")
             items.append({
-                "id": "dis-%s-%s" % (f["date"][:4], slug(f["t"])),
+                "id": item_id(f),
                 "t": f["t"], "n": f["date"][:4],
                 "w": round((f.get("runtime") or 0) / 60.0, 2),
                 "tier": tier,
@@ -111,9 +167,11 @@ def main():
         sections.append(sec)
 
     ids = [x["id"] for s in sections for x in s["items"]]
-    dupes = sorted({i for i in ids if ids.count(i) > 1})
-    assert not dupes, "duplicate ids: %s" % dupes[:6]
     assert len(ids) == len(films), (len(ids), len(films))
+
+    # Every id the property carries today must survive, except the ones this
+    # build removes on purpose. prop.write() raises on any other loss.
+    legacy = shipped_ids() - {item_id(f) for f in dropped} - set(PHANTOM)
 
     n = {}
     for f in films:
@@ -121,7 +179,7 @@ def main():
     hours = sum(f.get("runtime") or 0 for f in films) / 60.0
     nort = sum(1 for f in films if not f.get("runtime"))
 
-    prop = {
+    p = {
         "slug": SLUG,
         "title": "Disney",
         "subtitle": "the studio's own films, in release order",
@@ -147,15 +205,22 @@ def main():
             "values": ["Theatrical", "Television", "Direct-to-video"],
         },
         "notes": [
+            # First, because it is the question a reader asks first — someone
+            # went looking for Toy Story, did not find it, and had to reach
+            # the second note to learn why.
+            ["This is what Disney itself made.", "No acquired properties: no "
+             "Star Wars, no Marvel, no Pixar, no 20th Century, no Muppets. "
+             "Those are their own studios, and several have their own lists "
+             "here. Nor anything Disney only released for somebody else — the "
+             "source marks those in its notes column and %d films drop out on "
+             "it, Ponyo and The Secret World of Arrietty among them. What is "
+             "left is Walt Disney Pictures, Disney Channel and Disneytoon."
+             % len(dropped)],
             ["Tiers are release channels, not rankings.", "1 is theatrical, 2 is "
              "television, 3 is direct-to-video. A finish date paces you through "
              "the theatrical line — %d films — and the checkbox under the bar "
              "adds the other two. The chips at the top hide a channel entirely."
              % n["theatrical"]],
-            ["No acquired properties.", "No Star Wars, no Marvel, no Pixar, no "
-             "20th Century, no Muppets. Those are their own lists or their own "
-             "studios; this is what Disney itself made — Walt Disney Pictures, "
-             "Disney Channel and Disneytoon."],
             ["Where a film sits on two lists, the studio that made it wins.",
              "Several direct-to-video sequels had cinema releases outside North "
              "America and appear on the theatrical list because of it. Bambi II "
@@ -170,14 +235,17 @@ def main():
         "sections": sections,
     }
 
-    out = pathlib.Path(__file__).resolve().parent.parent / "properties" / ("%s.json" % SLUG)
-    with out.open("w", encoding="utf-8", newline="\n") as f:
-        f.write(json.dumps(prop, indent=2, ensure_ascii=False) + "\n")
+    out = gwprop.write(p, legacy_ids=sorted(legacy))
 
     print("wrote %s.json" % SLUG)
     print("  %d sections, %d films, %d hours" % (len(sections), len(ids), round(hours)))
     for s in sections:
         print("   %-20s %4d  %s" % (s["title"], len(s["items"]), s["sub"][:56]))
+    print("  dropped %d distribution-only rows:" % len(dropped))
+    for f in dropped:
+        print("   %-44s %s  %s" % (f["t"][:44], f["date"][:4], f["note"][:58]))
+    print("  legacy ids checked: %d" % len(legacy))
+    print("  -> %s" % out)
 
 
 if __name__ == "__main__":

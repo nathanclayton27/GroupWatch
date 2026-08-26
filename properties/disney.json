@@ -5,7 +5,7 @@
   "kind": "films",
   "popularity": 96,
   "year": "1937–",
-  "blurb": "654 films from Snow White on — 465 theatrical, 163 television, 26 direct-to-video — about 911 hours.",
+  "blurb": "628 films from Snow White on — 439 theatrical, 163 television, 26 direct-to-video — about 877 hours.",
   "unit": {
     "one": "film",
     "many": "films"
@@ -37,12 +37,12 @@
   },
   "notes": [
     [
-      "Tiers are release channels, not rankings.",
-      "1 is theatrical, 2 is television, 3 is direct-to-video. A finish date paces you through the theatrical line — 465 films — and the checkbox under the bar adds the other two. The chips at the top hide a channel entirely."
+      "This is what Disney itself made.",
+      "No acquired properties: no Star Wars, no Marvel, no Pixar, no 20th Century, no Muppets. Those are their own studios, and several have their own lists here. Nor anything Disney only released for somebody else — the source marks those in its notes column and 23 films drop out on it, Ponyo and The Secret World of Arrietty among them. What is left is Walt Disney Pictures, Disney Channel and Disneytoon."
     ],
     [
-      "No acquired properties.",
-      "No Star Wars, no Marvel, no Pixar, no 20th Century, no Muppets. Those are their own lists or their own studios; this is what Disney itself made — Walt Disney Pictures, Disney Channel and Disneytoon."
+      "Tiers are release channels, not rankings.",
+      "1 is theatrical, 2 is television, 3 is direct-to-video. A finish date paces you through the theatrical line — 439 films — and the checkbox under the bar adds the other two. The chips at the top hide a channel entirely."
     ],
     [
       "Where a film sits on two lists, the studio that made it wins.",
@@ -50,7 +50,7 @@
     ],
     [
       "Bar widths are runtimes.",
-      "From Wikidata, for 578 of the 654. The 76 without one — mostly sixties and seventies live-action — weigh nothing rather than a guess."
+      "From Wikidata, for 557 of the 628. The 71 without one — mostly sixties and seventies live-action — weigh nothing rather than a guess."
     ],
     "Film lists from Wikipedia: Walt Disney Pictures films, Disney Channel original films, and Disneytoon Studios productions."
   ],
@@ -877,7 +877,7 @@
     {
       "id": "after",
       "title": "After Walt",
-      "sub": "1967–1988 · 81 theatrical, 20 TV · 138 hours",
+      "sub": "1967–1988 · 78 theatrical, 20 TV · 133 hours",
       "intro": "The studio wobbles for twenty years: live-action comedies, the scruffy seventies animation, and the beginnings of the Disney Channel.",
       "items": [
         {
@@ -1481,16 +1481,6 @@
           ]
         },
         {
-          "id": "dis-1980-popeye",
-          "t": "Popeye",
-          "n": "1980",
-          "w": 1.9,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-1981-the-devil-and-max-devlin",
           "t": "The Devil and Max Devlin",
           "n": "1981",
@@ -1505,16 +1495,6 @@
           "t": "Amy",
           "n": "1981",
           "w": 1.65,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
-          "id": "dis-1981-dragonslayer",
-          "t": "Dragonslayer",
-          "n": "1981",
-          "w": 1.8,
           "tier": 1,
           "tags": [
             "Theatrical"
@@ -1739,16 +1719,6 @@
           "note": "TV movie"
         },
         {
-          "id": "dis-1986-flight-of-the-navigator",
-          "t": "Flight of the Navigator",
-          "n": "1986",
-          "w": 1.5,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-1986-spot-marks-the-x",
           "t": "Spot Marks the X",
           "n": "1986",
@@ -1915,7 +1885,7 @@
     {
       "id": "renaissance",
       "title": "The Renaissance",
-      "sub": "1989–1999 · 67 theatrical, 36 TV, 7 direct-to-video · 144 hours",
+      "sub": "1989–1999 · 62 theatrical, 36 TV, 7 direct-to-video · 139 hours",
       "intro": "The Little Mermaid through Tarzan, and alongside it the first wave of direct-to-video sequels and Disney Channel movies.",
       "items": [
         {
@@ -2457,16 +2427,6 @@
           ]
         },
         {
-          "id": "dis-1995-a-kid-in-king-arthur-s-court",
-          "t": "A Kid in King Arthur's Court",
-          "n": "1995",
-          "w": 1.48,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-1995-the-four-diamonds",
           "t": "The Four Diamonds",
           "n": "1995",
@@ -2674,30 +2634,10 @@
           ]
         },
         {
-          "id": "dis-1997-agbo",
-          "t": "AGBO",
-          "n": "1997",
-          "w": 0.0,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-1997-george-of-the-jungle",
           "t": "George of the Jungle",
           "n": "1997",
           "w": 1.53,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
-          "id": "dis-1997-air-bud",
-          "t": "Air Bud",
-          "n": "1997",
-          "w": 1.63,
           "tier": 1,
           "tags": [
             "Theatrical"
@@ -2835,16 +2775,6 @@
           "t": "The Jungle Book: Mowgli's Story",
           "n": "1998",
           "w": 1.28,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
-          "id": "dis-1998-serengeti-symphony",
-          "t": "Serengeti Symphony",
-          "n": "1998",
-          "w": 0.0,
           "tier": 1,
           "tags": [
             "Theatrical"
@@ -3020,16 +2950,6 @@
           "note": "TV movie"
         },
         {
-          "id": "dis-1999-the-straight-story",
-          "t": "The Straight Story",
-          "n": "1999",
-          "w": 1.8,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-1999-seasons-of-giving",
           "t": "Seasons of Giving",
           "n": "1999",
@@ -3066,7 +2986,7 @@
     {
       "id": "aughts",
       "title": "The two thousands",
-      "sub": "2000–2009 · 101 theatrical, 63 TV, 18 direct-to-video · 258 hours",
+      "sub": "2000–2009 · 89 theatrical, 63 TV, 18 direct-to-video · 240 hours",
       "intro": "The sequel factory at full tilt, the DCOM golden age, and the slow slide of hand-drawn animation.",
       "items": [
         {
@@ -3694,16 +3614,6 @@
           "note": "TV movie"
         },
         {
-          "id": "dis-2003-ghosts-of-the-abyss",
-          "t": "Ghosts of the Abyss",
-          "n": "2003",
-          "w": 1.52,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-2003-holes",
           "t": "Holes",
           "n": "2003",
@@ -3954,16 +3864,6 @@
           "note": "TV movie"
         },
         {
-          "id": "dis-2004-around-the-world-in-80-days",
-          "t": "Around the World in 80 Days",
-          "n": "2004",
-          "w": 2.0,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-2004-stuck-in-the-suburbs",
           "t": "Stuck in the Suburbs",
           "n": "2004",
@@ -4183,16 +4083,6 @@
             "Television"
           ],
           "note": "TV movie"
-        },
-        {
-          "id": "dis-2005-valiant",
-          "t": "Valiant",
-          "n": "2005",
-          "w": 1.27,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
         },
         {
           "id": "dis-2005-lilo-stitch-2-stitch-has-a-glitch",
@@ -4479,16 +4369,6 @@
           "note": "Direct-to-video"
         },
         {
-          "id": "dis-2007-bridge-to-terabithia",
-          "t": "Bridge to Terabithia",
-          "n": "2007",
-          "w": 1.58,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-2007-meet-the-robinsons",
           "t": "Meet the Robinsons",
           "n": "2007",
@@ -4518,16 +4398,6 @@
             "Television"
           ],
           "note": "TV movie"
-        },
-        {
-          "id": "dis-2007-centro-digital-pictures-limited",
-          "t": "Centro Digital Pictures Limited",
-          "n": "2007",
-          "w": 0.0,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
         },
         {
           "id": "dis-2007-underdog",
@@ -4618,16 +4488,6 @@
           "t": "Hannah Montana and Miley Cyrus: Best of Both Worlds Concert",
           "n": "2008",
           "w": 1.28,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
-          "id": "dis-2008-snow-buddies",
-          "t": "Snow Buddies",
-          "n": "2008",
-          "w": 1.45,
           "tier": 1,
           "tags": [
             "Theatrical"
@@ -4757,16 +4617,6 @@
           ]
         },
         {
-          "id": "dis-2009-space-buddies",
-          "t": "Space Buddies",
-          "n": "2009",
-          "w": 1.4,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-2009-dadnapped",
           "t": "Dadnapped",
           "n": "2009",
@@ -4808,16 +4658,6 @@
           ]
         },
         {
-          "id": "dis-2009-earth",
-          "t": "Earth",
-          "n": "2009",
-          "w": 1.65,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-2009-hatching-pete",
           "t": "Hatching Pete",
           "n": "2009",
@@ -4849,16 +4689,6 @@
           ]
         },
         {
-          "id": "dis-2009-lilly-the-witch-the-dragon-and-the-magic-book",
-          "t": "Lilly the Witch: The Dragon and the Magic Book",
-          "n": "2009",
-          "w": 1.48,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-2009-princess-protection-program",
           "t": "Princess Protection Program",
           "n": "2009",
@@ -4880,16 +4710,6 @@
           ]
         },
         {
-          "id": "dis-2009-ponyo",
-          "t": "Ponyo",
-          "n": "2009",
-          "w": 1.68,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-2009-wizards-of-waverly-place-the-movie",
           "t": "Wizards of Waverly Place: The Movie",
           "n": "2009",
@@ -4899,16 +4719,6 @@
             "Television"
           ],
           "note": "TV movie"
-        },
-        {
-          "id": "dis-2009-spangas-op-survival",
-          "t": "SpangaS op Survival",
-          "n": "2009",
-          "w": 1.58,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
         },
         {
           "id": "dis-2009-tinker-bell-and-the-lost-treasure",
@@ -4941,16 +4751,6 @@
           ]
         },
         {
-          "id": "dis-2009-santa-buddies",
-          "t": "Santa Buddies",
-          "n": "2009",
-          "w": 1.47,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-2009-old-dogs",
           "t": "Old Dogs",
           "n": "2009",
@@ -4975,7 +4775,7 @@
     {
       "id": "revival",
       "title": "The Revival",
-      "sub": "2010–2019 · 73 theatrical, 29 TV, 1 direct-to-video · 165 hours",
+      "sub": "2010–2019 · 68 theatrical, 29 TV, 1 direct-to-video · 158 hours",
       "intro": "Tangled, Frozen, Moana — and the live-action remakes begin.",
       "items": [
         {
@@ -4998,16 +4798,6 @@
             "Television"
           ],
           "note": "TV movie"
-        },
-        {
-          "id": "dis-2010-oceans",
-          "t": "Oceans",
-          "n": "2010",
-          "w": 1.65,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
         },
         {
           "id": "dis-2010-prince-of-persia-the-sands-of-time",
@@ -5072,16 +4862,6 @@
           ]
         },
         {
-          "id": "dis-2010-fuchsia-the-mini-witch",
-          "t": "Fuchsia the Mini-Witch",
-          "n": "2010",
-          "w": 1.42,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-2010-secretariat",
           "t": "Secretariat",
           "n": "2010",
@@ -5101,16 +4881,6 @@
             "Television"
           ],
           "note": "TV movie"
-        },
-        {
-          "id": "dis-2010-the-search-for-santa-paws",
-          "t": "The Search for Santa Paws",
-          "n": "2010",
-          "w": 1.6,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
         },
         {
           "id": "dis-2010-tangled",
@@ -5309,16 +5079,6 @@
             "Television"
           ],
           "note": "TV movie"
-        },
-        {
-          "id": "dis-2012-the-secret-world-of-arrietty",
-          "t": "The Secret World of Arrietty",
-          "n": "2012",
-          "w": 1.57,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
         },
         {
           "id": "dis-2012-john-carter",
@@ -5988,16 +5748,6 @@
           ]
         },
         {
-          "id": "dis-2019-disney",
-          "t": "Disney+",
-          "n": "2019",
-          "w": 0.0,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ]
-        },
-        {
           "id": "dis-2019-descendants-3",
           "t": "Descendants 3",
           "n": "2019",
@@ -6043,7 +5793,7 @@
     {
       "id": "plus",
       "title": "The Disney+ era",
-      "sub": "2020–2028 · 62 theatrical, 15 TV · 86 hours",
+      "sub": "2020–2028 · 61 theatrical, 15 TV · 86 hours",
       "intro": "Streaming first, cinemas second, and the remakes keep coming.",
       "items": [
         {
@@ -6783,17 +6533,6 @@
             "Television"
           ],
           "note": "TV movie · Not out yet"
-        },
-        {
-          "id": "dis-2027-the-bluey-movie",
-          "t": "The Bluey Movie",
-          "n": "2027",
-          "w": 0.0,
-          "tier": 1,
-          "tags": [
-            "Theatrical"
-          ],
-          "note": "Not out yet"
         },
         {
           "id": "dis-2027-frozen-3",
