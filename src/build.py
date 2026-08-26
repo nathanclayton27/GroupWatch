@@ -416,15 +416,22 @@ def main():
         for r in reg.get("runs", []):
             steps = []
             for step in r["run"]:
-                if re.fullmatch(r"Q[1-9]\d*", step):
-                    rws = sorted(byq.get(step, ()))
-                else:
-                    # A literal row. Fail loudly: a typo here would silently
-                    # gate nothing, which is invisible and permanent.
-                    if step not in have:
-                        fail("sequences.json: run %r names %r, which is not a "
-                             "row in the catalogue" % (r.get("name"), step))
-                    rws = [step]
+                # A step may be one entry or several: several because the same
+                # work sits on several lists and any copy counts as watched.
+                rws = []
+                for one in (step if isinstance(step, list) else [step]):
+                    if re.fullmatch(r"Q[1-9]\d*", one):
+                        rws += sorted(byq.get(one, ()))
+                    else:
+                        # A literal row. Fail loudly: a typo here would
+                        # silently gate nothing, which is invisible and
+                        # permanent.
+                        if one not in have:
+                            fail("sequences.json: run %r names %r, which is "
+                                 "not a row in the catalogue"
+                                 % (r.get("name"), one))
+                        rws.append(one)
+                rws = sorted(set(rws))
                 if rws:
                     steps.append(rws)
             # a run of one step gates nothing; drop it rather than ship it

@@ -380,6 +380,11 @@ def main():
         # name thins out quickly beyond that. Sits under the Coen Brothers (67)
         # and Wes Anderson (68), over David Lynch (64) and Akira Kurosawa (62).
         "popularity": 66,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1996–2025",
         "blurb": "Ten features in release order, Hard Eight to One Battle "
                  "After Another — about %d hours." % round(hours),

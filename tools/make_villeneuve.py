@@ -727,6 +727,11 @@ def main():
         # filmographies above it. Comfortably above Raimi's 58. See
         # POPULARITY.md.
         "popularity": 62,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "%d–%d" % (films[0]["year"], films[-1]["year"]),
         "blurb": "Quebec dramas in French, thrillers made from other people's "
                  "scripts, and the science fiction that made his name — every "

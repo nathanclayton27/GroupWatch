@@ -139,6 +139,11 @@ def main():
         "subtitle": "the thirteen features, plus A.I.",
         "kind": "films",
         "popularity": 76,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1953–2001",
         "blurb": "The thirteen features in release order, the early shorts as "
                  "optional rows, and Spielberg's A.I. as a coda — about %d "

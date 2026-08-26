@@ -76,6 +76,11 @@ def main():
         "subtitle": "the directed features",
         "kind": "films",
         "popularity": 69,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1992–2023",
         "blurb": "Twelve features, Alien 3 to The Killer — about %d hours "
                  "of controlled dread." % round(hours),

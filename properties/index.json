@@ -1124,7 +1124,8 @@
       "many": "films"
     },
     "total": 17,
-    "totalw": 30.72
+    "totalw": 30.72,
+    "random": true
   },
   {
     "slug": "evangelion",
@@ -1850,7 +1851,8 @@
       "many": "films"
     },
     "total": 12,
-    "totalw": 27.02
+    "totalw": 27.02,
+    "random": true
   },
   {
     "slug": "gurren-lagann",
@@ -2047,7 +2049,8 @@
       "many": "films"
     },
     "total": 13,
-    "totalw": 21.45
+    "totalw": 21.45,
+    "random": true
   },
   {
     "slug": "yuyu-hakusho",
@@ -2184,7 +2187,8 @@
       "many": "films"
     },
     "total": 22,
-    "totalw": 38.27
+    "totalw": 38.27,
+    "random": true
   },
   {
     "slug": "a24",
@@ -2262,7 +2266,8 @@
       "many": "films"
     },
     "total": 10,
-    "totalw": 23.31
+    "totalw": 23.31,
+    "random": true
   },
   {
     "slug": "persona",
@@ -2677,7 +2682,8 @@
       "many": "films"
     },
     "total": 11,
-    "totalw": 22.44
+    "totalw": 22.44,
+    "random": true
   },
   {
     "slug": "discworld",
@@ -2875,7 +2881,8 @@
       "many": "films"
     },
     "total": 37,
-    "totalw": 64.27
+    "totalw": 64.27,
+    "random": true
   },
   {
     "slug": "marvel-animation",
@@ -3411,7 +3418,8 @@
       "one": "film",
       "many": "films"
     },
-    "total": 46
+    "total": 46,
+    "random": true
   },
   {
     "slug": "dnd-novels",

@@ -309,6 +309,11 @@ def main():
         "subtitle": "the directed features",
         "kind": "films",
         "popularity": 68,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1996–2025",
         "blurb": "Thirteen features in release order, Bottle Rocket to The "
                  "Phoenician Scheme — about %d hours." % round(hours),

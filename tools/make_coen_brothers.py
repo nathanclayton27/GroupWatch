@@ -115,6 +115,11 @@ def main():
         "subtitle": "eighteen together, four apart",
         "kind": "films",
         "popularity": 67,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1984–2025",
         "blurb": "The eighteen features Joel and Ethan made together, plus "
                  "the four solo films with a note saying whose — about %d "

@@ -903,6 +903,11 @@ def main():
         # household: a point under Cronenberg, level with Palme d'Or, well
         # under Hitchcock's 77. See POPULARITY.md.
         "popularity": 55,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "%d–%d" % (films[0]["year"], films[-1]["year"]),
         "blurb": "Every feature he directed, from the Universal westerns of "
                  "%d to his last film in %d — %d of them. %s were nominated "
