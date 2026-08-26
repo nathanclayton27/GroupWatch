@@ -3837,6 +3837,26 @@ let MANIFEST = [
     "scheduled": true
   },
   {
+    "slug": "hawks",
+    "media": [
+      "movies"
+    ],
+    "title": "Howard Hawks",
+    "subtitle": "the directed features, in release order",
+    "kind": "films",
+    "year": "1926–1970",
+    "popularity": 60,
+    "blurb": "Every feature he directed, Fig Leaves to Rio Lobo — gangsters, screwball, noir and Westerns from one man across 44 years, about 64 hours.",
+    "accent": "#5F6142",
+    "accentDark": "#A69A5E",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 37,
+    "totalw": 64.27
+  },
+  {
     "slug": "marvel-animation",
     "media": [
       "movies",
@@ -4270,6 +4290,25 @@ let MANIFEST = [
       "many": "entries"
     },
     "total": 26
+  },
+  {
+    "slug": "wyler",
+    "media": [
+      "movies"
+    ],
+    "title": "William Wyler",
+    "subtitle": "the directed features, in release order",
+    "kind": "films",
+    "year": "1926–1970",
+    "popularity": 55,
+    "blurb": "Every feature he directed, from the Universal westerns of 1926 to his last film in 1970 — 46 of them. Thirteen were nominated for Best Picture and three won.",
+    "accent": "#B56940",
+    "accentDark": "#B4815F",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 46
   },
   {
     "slug": "dnd-novels",
@@ -4927,13 +4966,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'f4fae58b446e';
+const BUILD = '859f630c7343';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = '2ea6eac2b8';
+const SYNCVER = 'b1709dc313';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

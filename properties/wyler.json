@@ -1,0 +1,363 @@
+{
+  "slug": "wyler",
+  "title": "William Wyler",
+  "subtitle": "the directed features, in release order",
+  "kind": "films",
+  "popularity": 55,
+  "year": "1926–1970",
+  "blurb": "Every feature he directed, from the Universal westerns of 1926 to his last film in 1970 — 46 of them. Thirteen were nominated for Best Picture and three won.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#B56940",
+  "accentDark": "#B4815F",
+  "tiers": false,
+  "notes": [
+    [
+      "The two-reelers are not here, and that is the whole scope question.",
+      "The filmography's silent table has 32 rows and this list takes 11 of them. The other 21 are Universal's Mustang Series, which the article's own footnote describes as two-reel films 24 minutes long — shorts, and this is a list of features, the same line the Hitchcock and Cronenberg lists drew about their directors' shorts. The source corroborates it exactly: those 21 titles are the only red links in the whole filmography, and every other row has an article of its own. What stays is the six five-reelers of the Blue Streak Series, two more Universal westerns of the same length that the table files under neither series, and the two part-talkies of 1929. A five-reel picture in 1927 is a feature."
+    ],
+    [
+      "One of these you cannot watch.",
+      "Anybody Here Seen Kelly? (1928) was his first film that is not a western, and no print of it survives in any archive. It keeps its row anyway. A list that quietly drops the one lost film would be telling you the career had a shape it did not have."
+    ],
+    [
+      "The bars are not runtimes, and here is why not.",
+      "Most film lists in this catalogue weigh their rows by runtime. This one cannot, because neither source that would supply the numbers covers all 46 rows: Wikidata publishes no runtime at all for nine of them, every one a 1920s Universal picture, and the films' own articles publish no single figure for four — one gives a reel count, two give nothing at all, and one gives a range. Blending the two sources would make the bar widths a mixture of two different measurements, and inventing a number for \"5 reels\" would be a guess. So no row is weighted and every mark is the same width. Ben-Hur shows what that saves: its own article says 212 minutes excluding the overture, intermission and entr'acte, and Wikidata says 222, and with no bar to draw the list never has to pick one."
+    ],
+    [
+      "One row per film, cuts included.",
+      "The Shakedown (1929) is the only film here that went out in more than one version — a part-talkie for English-speaking audiences and a synchronised-score version for everywhere else — and the print that survives is the second, reissued silent. It gets one row, with the versions named on it. Ben-Hur and Funny Girl were roadshow releases whose two published lengths differ only by an overture and an intermission; that is a measurement difference rather than a different cut, and both are noted on their rows."
+    ],
+    [
+      "The four sections are Wikipedia's, not ours.",
+      "His biography splits its Career section four ways — early work and silent films, career acclaim and stardom, established director, later work and final films — and this list takes those year ranges as its era boundaries rather than inventing its own. The generator reads the headings and fails if they change."
+    ],
+    [
+      "The filmography misses one Best Picture nomination.",
+      "Its Notes column marks 12 of these films as Best Picture nominees or winners and leaves The Heiress (1949) blank, but The Heiress was nominated, and this catalogue's own Best Picture list carries it. The rows follow the Best Picture list, so 13 films here carry a Best Picture note and three of those won. The Best Director record is separate and comes from his awards article: three wins and nine further nominations, twelve in all, which is still the record."
+    ],
+    [
+      "15 of these films are on other lists here.",
+      "Dodsworth, Dead End, Jezebel, Wuthering Heights, The Letter, The Little Foxes, Mrs. Miniver, The Best Years of Our Lives, The Heiress, Roman Holiday, Friendly Persuasion, Ben-Hur and Funny Girl on Best Picture; The Heiress and Funny Girl on The Criterion Collection; Come and Get It on Howard Hawks; Detective Story on Real Time. Ticking one ticks the other: film rows are paired across lists by title and year, so a film watched here is watched there. Friendly Persuasion is the one that does not pair — Palme d'Or dates it 1957, the year it won at Cannes, and this list dates it 1956, the year it came out."
+    ],
+    "Filmography from Wikipedia's William Wyler filmography, read from its own three tables; era boundaries from the career headings on the William Wyler article; release dates, credits and adaptation sources from each film's own article; the Best Director record from List of awards and nominations received by William Wyler; the Best Picture ticks from this catalogue's own Best Picture list."
+  ],
+  "sections": [
+    {
+      "id": "silents",
+      "title": "The Universal westerns, and the first sound",
+      "sub": "1926–1929 · 12 films",
+      "intro": "The youngest director on the Universal lot, turning out five-reel westerns for the studio's Blue Streak series — the two-reelers he made alongside them are not rows here, and the notes say why. The run closes on his first picture that is not a western, then the two part-talkies, then the first film he shot with sound throughout.",
+      "items": [
+        {
+          "id": "wyl-1926-lazy-lightning",
+          "t": "Lazy Lightning",
+          "n": "1926",
+          "note": "A five-reeler from Universal's Blue Streak series, with Fay Wray in an early role"
+        },
+        {
+          "id": "wyl-1926-the-stolen-ranch",
+          "t": "The Stolen Ranch",
+          "n": "1926",
+          "note": "Blue Streak series; Janet Gaynor appears in it as an extra, before she was anybody"
+        },
+        {
+          "id": "wyl-1927-blazing-days",
+          "t": "Blazing Days",
+          "n": "1927",
+          "note": "Blue Streak series; prints are held by the Library of Congress and the UCLA Film and Television Archive"
+        },
+        {
+          "id": "wyl-1927-straight-shootin",
+          "t": "Straight Shootin'",
+          "n": "1927",
+          "note": "Blue Streak series, and the one row on this list whose length no source gives at all"
+        },
+        {
+          "id": "wyl-1927-hard-fists",
+          "t": "Hard Fists",
+          "n": "1927",
+          "note": "Blue Streak series, and the second of two with Art Acord"
+        },
+        {
+          "id": "wyl-1927-the-border-cavalier",
+          "t": "The Border Cavalier",
+          "n": "1927",
+          "note": "Blue Streak series, and the second of two with Fred Humes"
+        },
+        {
+          "id": "wyl-1927-desert-dust",
+          "t": "Desert Dust",
+          "n": "1927",
+          "note": "A Universal five-reeler the filmography files under neither of the two series"
+        },
+        {
+          "id": "wyl-1928-thunder-riders",
+          "t": "Thunder Riders",
+          "n": "1928",
+          "note": "The last of the silent westerns; a print is listed in the collection of the Cineteca del Friuli"
+        },
+        {
+          "id": "wyl-1928-anybody-here-seen-kelly",
+          "t": "Anybody Here Seen Kelly?",
+          "n": "1928",
+          "note": "His first film that is not a western, and the one film here nobody can watch: no print survives in any archive"
+        },
+        {
+          "id": "wyl-1929-the-shakedown",
+          "t": "The Shakedown",
+          "n": "1929",
+          "note": "His first part-talkie, released in two versions — a part-talking one for English-speaking audiences and a synchronised-score one for everywhere else. The version that survives is the second, reissued silent"
+        },
+        {
+          "id": "wyl-1929-the-love-trap",
+          "t": "The Love Trap",
+          "n": "1929",
+          "note": "The second part-talkie, with a synchronised score, sound effects and English intertitles"
+        },
+        {
+          "id": "wyl-1929-hell-s-heroes",
+          "t": "Hell's Heroes",
+          "n": "1929",
+          "note": "His first all-talking film, and Universal's first sound production shot entirely on location; from a Peter B. Kyne short story"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "acclaim",
+      "title": "Universal to Goldwyn, and the war",
+      "sub": "1930–1949 · 22 films",
+      "intro": "Twenty years and the making of the reputation. He finishes the Universal contract, moves to Samuel Goldwyn and Warner Bros., and collects the first of his record twelve Best Director nominations. Halfway through he goes to the war himself and comes back with two documentaries shot in the air.",
+      "items": [
+        {
+          "id": "wyl-1930-the-storm",
+          "t": "The Storm",
+          "n": "1930",
+          "note": "From a Langdon McCormick play, with John Huston among the writers years before he directed"
+        },
+        {
+          "id": "wyl-1931-a-house-divided",
+          "t": "A House Divided",
+          "n": "1931",
+          "note": "From an Olive Edens story, and the first of two with Walter Huston"
+        },
+        {
+          "id": "wyl-1932-tom-brown-of-culver",
+          "t": "Tom Brown of Culver",
+          "n": "1932",
+          "note": "A pre-Code picture set at Culver Military Academy; its copyright was renewed in 1960, so it stays out of the public domain until 2028"
+        },
+        {
+          "id": "wyl-1933-her-first-mate",
+          "t": "Her First Mate",
+          "n": "1933",
+          "note": "A pre-Code comedy out of a Frank Craven and John Golden play"
+        },
+        {
+          "id": "wyl-1933-counsellor-at-law",
+          "t": "Counsellor at Law",
+          "n": "1933",
+          "note": "Elmer Rice adapting his own 1931 Broadway play, with John Barrymore"
+        },
+        {
+          "id": "wyl-1934-glamour",
+          "t": "Glamour",
+          "n": "1934",
+          "note": "A pre-Code drama, and one of the last of the Universal contract pictures"
+        },
+        {
+          "id": "wyl-1935-the-good-fairy",
+          "t": "The Good Fairy",
+          "n": "1935",
+          "note": "From a Ferenc Molnár play, screenplay by Preston Sturges — the last film he made at Universal"
+        },
+        {
+          "id": "wyl-1935-the-gay-deception",
+          "t": "The Gay Deception",
+          "n": "1935",
+          "note": "His first film away from Universal, for 20th Century-Fox"
+        },
+        {
+          "id": "wyl-1936-these-three",
+          "t": "These Three",
+          "n": "1936",
+          "note": "Lillian Hellman adapting her own play The Children's Hour, and his first for Samuel Goldwyn; he filmed the play again in 1961"
+        },
+        {
+          "id": "wyl-1936-dodsworth",
+          "t": "Dodsworth",
+          "n": "1936",
+          "note": "From Sidney Howard's stage version of the Sinclair Lewis novel, and the second with Walter Huston · Nominated for Best Picture and Best Director"
+        },
+        {
+          "id": "wyl-1936-come-and-get-it",
+          "t": "Come and Get It",
+          "n": "1936",
+          "note": "From the Edna Ferber novel; he took the picture over from Howard Hawks after 42 days and both men are credited"
+        },
+        {
+          "id": "wyl-1937-dead-end",
+          "t": "Dead End",
+          "n": "1937",
+          "note": "From Sidney Kingsley's 1935 Broadway play · Nominated for Best Picture"
+        },
+        {
+          "id": "wyl-1938-jezebel",
+          "t": "Jezebel",
+          "n": "1938",
+          "note": "From an Owen Davis play, his first for Warner Bros. and the first of three with Bette Davis · Nominated for Best Picture"
+        },
+        {
+          "id": "wyl-1939-wuthering-heights",
+          "t": "Wuthering Heights",
+          "n": "1939",
+          "note": "From Emily Brontë's 1847 novel, of which it films 16 of the 34 chapters and none of the second generation · Nominated for Best Picture and Best Director"
+        },
+        {
+          "id": "wyl-1940-the-westerner",
+          "t": "The Westerner",
+          "n": "1940",
+          "note": "A western with Gary Cooper; Walter Brennan won a record third Supporting Actor Oscar for it"
+        },
+        {
+          "id": "wyl-1940-the-letter",
+          "t": "The Letter",
+          "n": "1940",
+          "note": "From W. Somerset Maugham's 1927 play, and the second with Bette Davis · Nominated for Best Picture and Best Director"
+        },
+        {
+          "id": "wyl-1941-the-little-foxes",
+          "t": "The Little Foxes",
+          "n": "1941",
+          "note": "Lillian Hellman adapting her own 1939 play, and the third with Bette Davis · Nominated for Best Picture and Best Director"
+        },
+        {
+          "id": "wyl-1942-mrs-miniver",
+          "t": "Mrs. Miniver",
+          "n": "1942",
+          "note": "From Jan Struther's book about an English family in the war. MGM meant to shoot it in England and moved it to California instead · Won Best Picture, and Wyler's first Best Director Oscar"
+        },
+        {
+          "id": "wyl-1944-the-memphis-belle-a-story-of-a-flying-fortress",
+          "t": "The Memphis Belle: A Story of a Flying Fortress",
+          "n": "1944",
+          "note": "A wartime documentary in colour, shot over Europe by an Army Air Forces camera crew; one of its cinematographers was killed during the filming"
+        },
+        {
+          "id": "wyl-1946-the-best-years-of-our-lives",
+          "t": "The Best Years of Our Lives",
+          "n": "1946",
+          "note": "From MacKinlay Kantor's verse novella Glory for Me, written for Samuel Goldwyn after Wyler came home from the war · Won Best Picture, and Wyler's second Best Director Oscar"
+        },
+        {
+          "id": "wyl-1947-thunderbolt",
+          "t": "Thunderbolt",
+          "n": "1947",
+          "note": "A second wartime documentary, co-directed with John Sturges, on the fighter squadrons flying out of Corsica"
+        },
+        {
+          "id": "wyl-1949-the-heiress",
+          "t": "The Heiress",
+          "n": "1949",
+          "note": "From Ruth and Augustus Goetz's 1947 play, itself out of Henry James's novel Washington Square · Nominated for Best Picture and Best Director"
+        }
+      ]
+    },
+    {
+      "id": "established",
+      "title": "The established director",
+      "sub": "1951–1959 · 7 films",
+      "intro": "Seven films, six of them produced as well as directed, ending on the largest production of his life — the one he did not produce. Three of the seven were nominated for Best Picture and one of those took a record eleven Academy Awards.",
+      "items": [
+        {
+          "id": "wyl-1951-detective-story",
+          "t": "Detective Story",
+          "n": "1951",
+          "note": "From Sidney Kingsley's 1949 play, and one day inside a police squad room · Nominated for Best Director"
+        },
+        {
+          "id": "wyl-1952-carrie",
+          "t": "Carrie",
+          "n": "1952",
+          "note": "From Theodore Dreiser's novel Sister Carrie, and nothing to do with the Stephen King one"
+        },
+        {
+          "id": "wyl-1953-roman-holiday",
+          "t": "Roman Holiday",
+          "n": "1953",
+          "note": "Shot in Rome, and Audrey Hepburn's first major film role; the script is Dalton Trumbo's, credited for years to somebody else because he was on the blacklist · Nominated for Best Picture and Best Director"
+        },
+        {
+          "id": "wyl-1955-the-desperate-hours",
+          "t": "The Desperate Hours",
+          "n": "1955",
+          "note": "From Joseph Hayes's novel and his own stage version of it"
+        },
+        {
+          "id": "wyl-1956-friendly-persuasion",
+          "t": "Friendly Persuasion",
+          "n": "1956",
+          "note": "From Jessamyn West's book about a Quaker family in the Civil War; it took the Palme d'Or at Cannes the following year · Nominated for Best Picture and Best Director"
+        },
+        {
+          "id": "wyl-1958-the-big-country",
+          "t": "The Big Country",
+          "n": "1958",
+          "note": "A widescreen western from a Donald Hamilton novel, produced by Wyler and Gregory Peck together"
+        },
+        {
+          "id": "wyl-1959-ben-hur",
+          "t": "Ben-Hur",
+          "n": "1959",
+          "note": "From the Lew Wallace novel, and a remake of the 1925 silent on which Wyler had been one of thirty assistant directors. A record eleven Academy Awards; the runtime sources differ by the length of the overture and intermission · Won Best Picture, and Wyler's third Best Director Oscar"
+        }
+      ]
+    },
+    {
+      "id": "later",
+      "title": "The last five",
+      "sub": "1961–1970 · 5 films",
+      "intro": "He films Lillian Hellman's The Children's Hour a second time, this time under its own title; makes two more with Audrey Hepburn; and finishes with a musical and a courtroom picture. Then he stops, on a career his own article puts at forty-five years.",
+      "items": [
+        {
+          "id": "wyl-1961-the-children-s-hour",
+          "t": "The Children's Hour",
+          "n": "1961",
+          "note": "Lillian Hellman's play a second time, under its own title now — he had filmed it in 1936 as These Three"
+        },
+        {
+          "id": "wyl-1965-the-collector",
+          "t": "The Collector",
+          "n": "1965",
+          "note": "From John Fowles's 1963 novel; both its leads took acting prizes at Cannes · Nominated for Best Director"
+        },
+        {
+          "id": "wyl-1966-how-to-steal-a-million",
+          "t": "How to Steal a Million",
+          "n": "1966",
+          "note": "A heist comedy shot in Paris, from a George Bradshaw story, and his third with Audrey Hepburn"
+        },
+        {
+          "id": "wyl-1968-funny-girl",
+          "t": "Funny Girl",
+          "n": "1968",
+          "note": "From the 1964 stage musical, and Barbra Streisand's first film; a roadshow release, so the runtime sources differ by its overture · Nominated for Best Picture"
+        },
+        {
+          "id": "wyl-1970-the-liberation-of-l-b-jones",
+          "t": "The Liberation of L.B. Jones",
+          "n": "1970",
+          "note": "From a Jesse Hill Ford novel, and his last film: its article calls it the end of a career spanning forty-five years"
+        }
+      ]
+    }
+  ]
+}

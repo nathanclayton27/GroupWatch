@@ -1,0 +1,338 @@
+{
+  "slug": "hawks",
+  "title": "Howard Hawks",
+  "subtitle": "the directed features, in release order",
+  "kind": "films",
+  "popularity": 60,
+  "year": "1926–1970",
+  "blurb": "Every feature he directed, Fig Leaves to Rio Lobo — gangsters, screwball, noir and Westerns from one man across 44 years, about 64 hours.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#5F6142",
+  "accentDark": "#A69A5E",
+  "tiers": false,
+  "notes": [
+    [
+      "The features he directed — 37 of the 41 rows on the table.",
+      "The roster is Wikipedia's Films directed table, read from the table itself. Four rows are not on this card. Ransom of Red Chief is a segment of the five-director anthology O. Henry's Full House rather than a film of his — the only row on that table not set as a film title, which is why the article's own lead counts 40 films across 41 rows. The other three are here in words instead of rows, below."
+    ],
+    [
+      "Three films are missing because nobody can watch them.",
+      "The table's Notes column marks exactly three films by survival, and all three come off. The Road to Glory (1926), his first film, and The Air Circus (1928), the part-talkie he refused to shoot dialogue for, are lost — the biography names them together as his two lost films. Cradle Snatchers (1927) survives only as an incomplete print at the Library of Congress, missing part of reel 3 and all of reel 4. A row is something to watch and tick, and none of those three can be finished. They are named here so their absence is a decision rather than a gap."
+    ],
+    [
+      "Co-directed films are here. The ones he walked away from are not.",
+      "He attracts attribution arguments, and every one of them is settled the same way: by what the filmography's tables say. Scarface and Today We Live are marked co-directed with Richard Rosson and Come and Get It with William Wyler, so all three are rows — a shared credit is still a credit. The Thing from Another World is not, even though the filmography's own footnote quotes John Carpenter calling it verifiably directed by Howard Hawks: the table files it under films produced only, crediting Christian Nyby. Nor are the four unfinished projects — he resigned from The Prizefighter and the Lady, Viva Villa! and The Outlaw and was replaced each time, and The Outlaw's own article says none of his footage survives in the finished film. Red River's second-unit director is not co-direction and changes nothing."
+    ],
+    [
+      "One row per film, cuts and all.",
+      "Five of these exist in more than one version according to the sources — Scarface, The Big Sleep, Red River, The Big Sky and Land of the Pharaohs — and none gets a second row. A row is something to watch and tick, and the 1945 Big Sleep is not a second film to get through: a second row would either double that film's hours or have to carry no weight, and this list has no unweighted rows in it. So the version is named on the row instead, and the note says which one the bar is measuring. Four of the five measure the theatrical release; The Big Sky measures the general release, the only figure its article gives, and names the longer first cut."
+    ],
+    [
+      "Bar widths are runtimes, from one source.",
+      "All 37 come from the runtime published in that film's own Wikipedia infobox, in hours — never estimated, never blended with a second source. Wikidata was the alternative and was checked for every row before being turned down: several of its figures are PAL running times taken off European discs, which would have shipped 136 minutes for the 141-minute Rio Bravo and 121 for the 126-minute El Dorado. The shortest here is Trent's Last Case (1929) at 66 minutes and the longest Hatari! (1962) at 157."
+    ],
+    [
+      "The three sections are Wikipedia's, not ours.",
+      "His biography splits its Career section four ways — entering films, silent films, early sound films, later sound films — and this list takes those year ranges as its era boundaries rather than inventing its own. The first holds no film he directed, so there are three sections and not four, and the last one is enormous because that is where the article puts the line. The generator reads the headings and fails if they change. Sorting him by genre instead would have hidden the only thing this filmography is really about, which is that one man made all of these."
+    ],
+    [
+      "11 of these films are on other lists here.",
+      "Red River, Rio Bravo, Hatari!, El Dorado and Rio Lobo on John Wayne; Scarface, Bringing Up Baby, Only Angels Have Wings, His Girl Friday and Red River on The Criterion Collection; Sergeant York on Best Picture; Come and Get It on William Wyler. Ticking one ticks the other: film rows are paired across lists by title and year, so a film watched here is watched there — Red River sits on three lists at once. Criterion numbers its rows by spine rather than by year, so its five pair through the year written in the spine's note instead. Nothing is duplicated and no hours are counted twice, because every list totals only its own rows."
+    ],
+    "Roster from Wikipedia's Howard Hawks filmography, read from the Films directed table itself; era boundaries from the career headings on the Howard Hawks article; genres, runtimes, release dates and alternate-version lengths from each film's own article."
+  ],
+  "sections": [
+    {
+      "id": "silent",
+      "title": "The Fox silents",
+      "sub": "1926–1929 · 5 films · 6 hours",
+      "intro": "Fox hired him in 1925 on the promise of letting him direct, and he made eight films there in three years — comedies mostly, one of them from a story of his own, and one shot in the manner of the German pictures he had been watching. Three of the eight are not on this card: two are lost and one survives only as an incomplete print. His contract ended in May 1929 and he never signed a long-term one with a major studio again.",
+      "items": [
+        {
+          "id": "hh-1926-fig-leaves",
+          "t": "Fig Leaves",
+          "n": "1926",
+          "w": 1.17,
+          "note": "Silent comedy · His first comedy, and until 1935 his only one; the fashion-show sequence was shot in two-strip Technicolor"
+        },
+        {
+          "id": "hh-1927-paid-to-love",
+          "t": "Paid to Love",
+          "n": "1927",
+          "w": 1.27,
+          "note": "Silent comedy · The experimental one — tracking shots and expressionist lighting out of German cinema, which he said afterwards was not his sort of thing"
+        },
+        {
+          "id": "hh-1928-a-girl-in-every-port",
+          "t": "A Girl in Every Port",
+          "n": "1928",
+          "w": 1.3,
+          "note": "Silent comedy · From his own story, and the first of his films about two men whose friendship outranks everything else"
+        },
+        {
+          "id": "hh-1928-fazil",
+          "t": "Fazil",
+          "n": "1928",
+          "w": 1.47,
+          "note": "Synchronized-sound drama · From Pierre Frondaie's play L'Insoumise; it ran over schedule and began the rift with Fox that ended his contract"
+        },
+        {
+          "id": "hh-1929-trent-s-last-case",
+          "t": "Trent's Last Case",
+          "n": "1929",
+          "w": 1.1,
+          "note": "Synchronized-sound Pre-Code detective film · From E. C. Bentley's 1913 detective novel. He meant it to be his first talkie and Fox made him deliver a silent with a score"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "earlysound",
+      "title": "Proving it again in sound",
+      "sub": "1930–1934 · 7 films · 11 hours",
+      "intro": "Fourteen years in the business and the talkies made him start over — studios were hiring stage directors and he had left Fox on bad terms. Seven films in five years, every one of them pre-Code: the gangster picture that had to grow a second ending for the censors, two about men who fly or drive fast, and at the end of it the first of the seven screwball comedies on this list.",
+      "items": [
+        {
+          "id": "hh-1930-the-dawn-patrol",
+          "t": "The Dawn Patrol",
+          "n": "1930",
+          "w": 1.8,
+          "note": "Pre-Code World War I film · His first all-sound film, from John Monk Saunders' story The Flight Commander"
+        },
+        {
+          "id": "hh-1931-the-criminal-code",
+          "t": "The Criminal Code",
+          "n": "1931",
+          "w": 1.6,
+          "note": "Pre-Code romantic crime drama · From Martin Flavin's 1929 play"
+        },
+        {
+          "id": "hh-1932-scarface",
+          "t": "Scarface",
+          "n": "1932",
+          "w": 1.55,
+          "note": "Pre-Code gangster film · From Armitage Trail's novel, co-directed with Richard Rosson · The bar is the 93-minute version; the censors forced a second ending, and that one runs 95"
+        },
+        {
+          "id": "hh-1932-the-crowd-roars",
+          "t": "The Crowd Roars",
+          "n": "1932",
+          "w": 1.42,
+          "note": "Pre-Code drama · From his own story. Warner Bros made a French-language version alongside it, La foule hurle, out of his footage and somebody else's direction"
+        },
+        {
+          "id": "hh-1932-tiger-shark",
+          "t": "Tiger Shark",
+          "n": "1932",
+          "w": 1.28,
+          "note": "Pre-Code romantic melodrama · From a Houston Branch story, and the third of the three films he released in 1932"
+        },
+        {
+          "id": "hh-1933-today-we-live",
+          "t": "Today We Live",
+          "n": "1933",
+          "w": 1.88,
+          "note": "Pre-Code romance drama · Co-directed with Richard Rosson, from William Faulkner's story Turn About — Faulkner wrote the dialogue too"
+        },
+        {
+          "id": "hh-1934-twentieth-century",
+          "t": "Twentieth Century",
+          "n": "1934",
+          "w": 1.52,
+          "note": "Pre-Code screwball comedy · From Charles Bruce Millholland's play Napoleon of Broadway, adapted by Ben Hecht and Charles MacArthur"
+        }
+      ]
+    },
+    {
+      "id": "latersound",
+      "title": "Thirty-five years, no two alike",
+      "sub": "1935–1970 · 25 films · 47 hours",
+      "intro": "The long stretch, and the reason this is worth having as one list: screwball comedies, a war biography that got him his only Best Director nomination, film noir, a Marilyn Monroe musical, an Egyptian epic, and the Westerns he kept returning to — including one idea he made three times in eleven years. He produced most of them himself and worked with John Wayne five times.",
+      "items": [
+        {
+          "id": "hh-1935-barbary-coast",
+          "t": "Barbary Coast",
+          "n": "1935",
+          "w": 1.5,
+          "note": "Historical Western · Written by Hecht and MacArthur again, this time for Samuel Goldwyn"
+        },
+        {
+          "id": "hh-1936-ceiling-zero",
+          "t": "Ceiling Zero",
+          "n": "1936",
+          "w": 1.58,
+          "note": "Adventure drama · From Frank Wead's play, and the second of his two films with James Cagney"
+        },
+        {
+          "id": "hh-1936-the-road-to-glory",
+          "t": "The Road to Glory",
+          "n": "1936",
+          "w": 1.72,
+          "note": "War drama · Trench warfare in France, and the second film of his to carry this title — the 1926 one is lost"
+        },
+        {
+          "id": "hh-1936-come-and-get-it",
+          "t": "Come and Get It",
+          "n": "1936",
+          "w": 1.65,
+          "note": "Lumberjack drama · From Edna Ferber's 1935 novel, co-directed with William Wyler"
+        },
+        {
+          "id": "hh-1938-bringing-up-baby",
+          "t": "Bringing Up Baby",
+          "n": "1938",
+          "w": 1.7,
+          "note": "Screwball comedy · From a Hagar Wilde short story in Collier's"
+        },
+        {
+          "id": "hh-1939-only-angels-have-wings",
+          "t": "Only Angels Have Wings",
+          "n": "1939",
+          "w": 2.02,
+          "note": "Adventure romantic drama · From his own story"
+        },
+        {
+          "id": "hh-1940-his-girl-friday",
+          "t": "His Girl Friday",
+          "n": "1940",
+          "w": 1.53,
+          "note": "Screwball comedy · From The Front Page, the Hecht and MacArthur play, with the star reporter rewritten as a woman"
+        },
+        {
+          "id": "hh-1941-sergeant-york",
+          "t": "Sergeant York",
+          "n": "1941",
+          "w": 2.23,
+          "note": "Biographical film · From Alvin York's own diary. His only Best Director nomination; the only Oscar he ever took home was the honorary one in 1974"
+        },
+        {
+          "id": "hh-1941-ball-of-fire",
+          "t": "Ball of Fire",
+          "n": "1941",
+          "w": 1.85,
+          "note": "Screwball comedy · From a Billy Wilder and Thomas Monroe story called From A to Z"
+        },
+        {
+          "id": "hh-1943-air-force",
+          "t": "Air Force",
+          "n": "1943",
+          "w": 2.07,
+          "note": "World War II aviation film"
+        },
+        {
+          "id": "hh-1944-to-have-and-have-not",
+          "t": "To Have and Have Not",
+          "n": "1944",
+          "w": 1.67,
+          "note": "Romantic war adventure · Loosely from Hemingway's 1937 novel, with William Faulkner on the screenplay"
+        },
+        {
+          "id": "hh-1946-the-big-sleep",
+          "t": "The Big Sleep",
+          "n": "1946",
+          "w": 1.9,
+          "note": "Film noir · From Raymond Chandler's 1939 novel · The bar is the 114-minute 1946 release; the 116-minute 1945 cut, sent to servicemen overseas before the studio reshot the film, came out publicly in 1997"
+        },
+        {
+          "id": "hh-1948-red-river",
+          "t": "Red River",
+          "n": "1948",
+          "w": 2.12,
+          "note": "Western · From Borden Chase's Saturday Evening Post serial The Chisholm Trail · The bar is the 127-minute theatrical cut, which replaced the 133-minute pre-release version's book-page transitions with spoken narration; Criterion's 2014 release carries both"
+        },
+        {
+          "id": "hh-1948-a-song-is-born",
+          "t": "A Song Is Born",
+          "n": "1948",
+          "w": 1.88,
+          "note": "Musical romantic comedy · A musical remake of his own Ball of Fire, seven years on, and the first film of his in Technicolor"
+        },
+        {
+          "id": "hh-1949-i-was-a-male-war-bride",
+          "t": "I Was a Male War Bride",
+          "n": "1949",
+          "w": 1.75,
+          "note": "Screwball comedy · From a newspaper account by Henri Rochard of his own marriage"
+        },
+        {
+          "id": "hh-1952-the-big-sky",
+          "t": "The Big Sky",
+          "n": "1952",
+          "w": 2.03,
+          "note": "Western · From A. B. Guthrie Jr.'s novel · The bar is the 122-minute general release; it first went out at 140 minutes and was cut"
+        },
+        {
+          "id": "hh-1952-monkey-business",
+          "t": "Monkey Business",
+          "n": "1952",
+          "w": 1.62,
+          "note": "Screwball comedy · The last of his five films with Cary Grant"
+        },
+        {
+          "id": "hh-1953-gentlemen-prefer-blondes",
+          "t": "Gentlemen Prefer Blondes",
+          "n": "1953",
+          "w": 1.52,
+          "note": "Musical comedy · From the 1949 stage musical, itself from Anita Loos' 1925 novel"
+        },
+        {
+          "id": "hh-1955-land-of-the-pharaohs",
+          "t": "Land of the Pharaohs",
+          "n": "1955",
+          "w": 1.77,
+          "note": "Epic historical drama · In CinemaScope and WarnerColor, co-written by William Faulkner · The bar is the 106-minute American version; Britain got 103"
+        },
+        {
+          "id": "hh-1959-rio-bravo",
+          "t": "Rio Bravo",
+          "n": "1959",
+          "w": 2.35,
+          "note": "Western · From a B. H. McCampbell story, and the first of the three films the filmography calls the same idea"
+        },
+        {
+          "id": "hh-1962-hatari",
+          "t": "Hatari!",
+          "n": "1962",
+          "w": 2.62,
+          "note": "Adventure romantic comedy · Shot on location in northern Tanganyika, now Tanzania"
+        },
+        {
+          "id": "hh-1964-man-s-favorite-sport",
+          "t": "Man's Favorite Sport?",
+          "n": "1964",
+          "w": 2.0,
+          "note": "Screwball comedy · From a Pat Frank story in Cosmopolitan"
+        },
+        {
+          "id": "hh-1965-red-line-7000",
+          "t": "Red Line 7000",
+          "n": "1965",
+          "w": 1.83,
+          "note": "Action sports film · He wrote the story himself as well as producing it"
+        },
+        {
+          "id": "hh-1966-el-dorado",
+          "t": "El Dorado",
+          "n": "1966",
+          "w": 2.1,
+          "note": "Western · From Harry Brown's 1960 novel The Stars in Their Courses, and the filmography's own notes call it the same idea as Rio Bravo"
+        },
+        {
+          "id": "hh-1970-rio-lobo",
+          "t": "Rio Lobo",
+          "n": "1970",
+          "w": 1.9,
+          "note": "Western · His last film, and the third worked from the Rio Bravo idea"
+        }
+      ]
+    }
+  ]
+}

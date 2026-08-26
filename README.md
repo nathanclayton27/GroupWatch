@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and seventy-eight lists, from a ten-episode anime to a 1,337-spine film
+One hundred and eighty lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -108,7 +108,10 @@ Dead, with every episode naming the director who actually made it),
 article uses), *Clint Eastwood* (69 films, directing and acting on one
 row each so a tick never means half a thing), *John Wayne* (173 films, the
 Poverty Row years and the uncredited bit parts included, four lost films
-marked as such), *Terry Gilliam* (13 features from Holy Grail to Don
+marked as such), *William Wyler* (46 films — the 21 Mustang two-reelers
+excluded on the filmography's own footnote, not on taste), *Howard Hawks*
+(37, each row's note naming the genre so a filmography that changes register
+every film reads as one), *Terry Gilliam* (13 features from Holy Grail to Don
 Quixote, with Brazil measured at the 142-minute final cut the row tells
 you to watch), *Denis Villeneuve* (the eleven released features, the two
 Dunes ticking with the Dune list),
