@@ -35,27 +35,49 @@ SLUG = "dc-anthology"
 EP_MINUTES = 43
 
 # Which run something belongs to, where it belongs to one at all.
+# Which run a FILM belongs to, where it belongs to one at all.
+#
+# Keyed by title AND year, for the same reason SHOW_RUN below is: DC reuses
+# titles. Keyed by title alone, this map labelled Donner's 1978 "Superman"
+# and the 1984 "Supergirl" as DCU — Gunn's continuity, which began in 2025
+# and which neither film could possibly belong to.
+#
+# The 1978-87 Superman films and the 1984 Supergirl ARE one continuity, and
+# they still carry no label, because nothing on this list before 1989 does:
+# the label exists to tell apart continuities that run ALONGSIDE each other,
+# and there was only ever one of these at a time until Burton.
+#
+# Television series are not in here at all. RUN is consumed only for film
+# rows, so the Arrowverse entries that used to sit here were dead — and worse
+# than dead, since a Batwoman film would have inherited "Arrowverse".
 RUN = {
-    "Batman Begins": "The Dark Knight trilogy",
-    "The Dark Knight": "The Dark Knight trilogy",
-    "The Dark Knight Rises": "The Dark Knight trilogy",
-    "Man of Steel": "DCEU", "Batman v Superman: Dawn of Justice": "DCEU",
-    "Suicide Squad": "DCEU", "Wonder Woman": "DCEU", "Justice League": "DCEU",
-    "Aquaman": "DCEU", "Shazam!": "DCEU", "Birds of Prey": "DCEU",
-    "Wonder Woman 1984": "DCEU", "The Suicide Squad": "DCEU",
-    "Black Adam": "DCEU", "Shazam! Fury of the Gods": "DCEU",
-    "The Flash": "DCEU", "Blue Beetle": "DCEU",
-    "Aquaman and the Lost Kingdom": "DCEU",
-    "Superman": "DCU", "Supergirl": "DCU", "Clayface": "DCU",
-    "Man of Tomorrow": "DCU", "Peacemaker": "DCU",
-    "The Batman": "Matt Reeves' continuity",
-    "The Batman: Part II": "Matt Reeves' continuity",
-    "The Penguin": "Matt Reeves' continuity",
-    "Joker": "Standalone", "Joker: Folie à Deux": "Standalone",
-    "Arrow": "Arrowverse", "Legends of Tomorrow": "Arrowverse",
-    "Batwoman": "Arrowverse", "Black Lightning": "Arrowverse",
-}
-# Keyed by title *and* start year: DC reuses titles, so "The Flash" is both a
+    ("Batman Begins", 2005): "The Dark Knight trilogy",
+    ("The Dark Knight", 2008): "The Dark Knight trilogy",
+    ("The Dark Knight Rises", 2012): "The Dark Knight trilogy",
+    ("Man of Steel", 2013): "DCEU",
+    ("Batman v Superman: Dawn of Justice", 2016): "DCEU",
+    ("Suicide Squad", 2016): "DCEU",
+    ("Wonder Woman", 2017): "DCEU",
+    ("Justice League", 2017): "DCEU",
+    ("Aquaman", 2018): "DCEU",
+    ("Shazam!", 2019): "DCEU",
+    ("Birds of Prey", 2020): "DCEU",
+    ("Wonder Woman 1984", 2020): "DCEU",
+    ("The Suicide Squad", 2021): "DCEU",
+    ("Black Adam", 2022): "DCEU",
+    ("Shazam! Fury of the Gods", 2023): "DCEU",
+    ("The Flash", 2023): "DCEU",
+    ("Blue Beetle", 2023): "DCEU",
+    ("Aquaman and the Lost Kingdom", 2023): "DCEU",
+    ("Superman", 2025): "DCU",
+    ("Supergirl", 2026): "DCU",
+    ("Clayface", 2026): "DCU",
+    ("Man of Tomorrow", 2027): "DCU",
+    ("The Batman", 2022): "Matt Reeves' continuity",
+    ("The Batman: Part II", 2028): "Matt Reeves' continuity",
+    ("Joker", 2019): "Standalone",
+    ("Joker: Folie à Deux", 2024): "Standalone",
+}# Keyed by title *and* start year: DC reuses titles, so "The Flash" is both a
 # 1990 series and a 2014 Arrowverse one, and "Birds of Prey" is both a 2002
 # series and a 2020 DCEU film. Shows never fall back to the film table.
 SHOW_RUN = {
@@ -119,8 +141,8 @@ def main():
         bits = []
         if f["imprint"]:
             bits.append("A DC imprint, not the main line")
-        if f["title"] in RUN:
-            bits.append(RUN[f["title"]])
+        if (f["title"], f["year"]) in RUN:
+            bits.append(RUN[(f["title"], f["year"])])
         if not mins and f["year"] >= 2025:
             bits.append("Not out yet")
         if f["title"] == "Batgirl":

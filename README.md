@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and ninety-five lists, from a ten-episode anime to a 1,337-spine film
+One hundred and ninety-nine lists, from a ten-episode anime to a 1,418-row film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -61,10 +61,20 @@ compilations, every episode verified against the episode tables.
 
 **Directors and actors.** Kubrick, Spielberg, Kurosawa, Hitchcock, Scorsese,
 Tarantino, the Coens, Fincher, Carpenter, Coppola, Satoshi Kon, Raimi, Lynch,
-Nolan, both Andersons, Ridley Scott — and *Matt Johnson* — everything he
+Nolan, both Andersons, Ridley Scott, *the Wachowskis* (eleven films, each row
+saying whether they wrote it, directed it or both), *Kevin Bacon* (seventy-two
+films across five decades) — and *Matt Johnson* — everything he
 has directed, from the eleven web episodes of *Nirvana the Band the Show*
 through *BlackBerry* to the Bourdain biopic, with the Viceland remake and
 a children's cartoon in between.
+
+**Lists that pass a stated gate rather than a verdict.** *Cult Classics* is the
+clearest example: "cult classic" is an opinion, so the list does not offer one.
+A film is a row only if at least three of the twenty-three published reference
+works that Wikipedia's *List of cult films* cites name it as a cult film, every
+row prints its own count, and the page names all twenty-three books and says
+plainly what the rule excludes — nothing after 2008 survives it, because the
+sources are books. *Body Horror* and *FPS Canon* are built the same way.
 
 **Games with story-only hours.** *Kingdom Hearts*, *Metal Gear*, *Zelda*,
 *Yakuza / Like a Dragon*, the *FromSoftware* Souls line, *Final Fantasy*,
