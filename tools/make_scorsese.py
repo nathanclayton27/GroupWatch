@@ -129,6 +129,11 @@ def main():
         "subtitle": "the directed features, plus the documentaries",
         "kind": "films",
         "popularity": 75,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1967–2023",
         "blurb": "26 features from Who's That Knocking at My Door to Killers "
                  "of the Flower Moon, with the 13 feature documentaries as "

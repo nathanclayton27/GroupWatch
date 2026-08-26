@@ -108,6 +108,11 @@ def main():
         "subtitle": "every case in broadcast order, pilots included",
         "kind": "tv movies",
         "popularity": 59,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1968–2003",
         "blurb": "All %d feature-length cases in broadcast order — two "
                  "pilots, the NBC seventies, and the ABC revival films."

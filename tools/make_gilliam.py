@@ -552,13 +552,19 @@ def main():
     # ---- the films this list shares with other lists here ------------------
     keys = {normt(f["t"]) + "|" + str(f["year"]): f["t"] for f in films}
     shared = overlaps(keys)
+    # Cult Classics landed on 2026-08-26 and picked up two films that were
+    # already shared, so the KEY count is unchanged and only the list of
+    # sharers grew. That is exactly why both are asserted separately: a
+    # count alone would not have noticed a new sibling at all.
     assert len(shared) == 7, sorted(shared)
     by_list = {}
     for k, titles in shared.items():
         for t in titles:
             by_list.setdefault(t, []).append(keys[k])
-    assert sorted(by_list) == ["Robin Williams", "The Criterion Collection"], \
-        sorted(by_list)
+    assert sorted(by_list) == ["Cult Classics", "Robin Williams",
+                               "The Criterion Collection"], sorted(by_list)
+    assert sorted(by_list["Cult Classics"]) == \
+        ["Brazil", "Monty Python and the Holy Grail"], by_list["Cult Classics"]
     assert len(by_list["The Criterion Collection"]) == 7, \
         by_list["The Criterion Collection"]
     assert sorted(by_list["Robin Williams"]) == \
@@ -592,6 +598,11 @@ def main():
         # (69) or the Coens (67) — level with David Lynch, a notch over
         # Villeneuve and Kurosawa. See POPULARITY.md.
         "popularity": 64,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1975–2018",
         "blurb": "Thirteen features in release order, Holy Grail to Don "
                  "Quixote — about %d hours. Brazil gets one row, and the row "

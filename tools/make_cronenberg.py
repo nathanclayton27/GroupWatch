@@ -494,6 +494,11 @@ def main():
         "subtitle": "the directed features, in release order",
         "kind": "films",
         "popularity": 56,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "%d–%d" % (films[0]["year"], films[-1]["year"]),
         "blurb": "Every feature he directed, Stereo to The Shrouds — %d years "
                  "of flesh, machines and Canadian film money, about %d hours."

@@ -92,6 +92,11 @@ def main():
         "subtitle": "every experiment, KTMA to the Gizmoplex",
         "kind": "tv",
         "popularity": 46,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1988–2022",
         "blurb": "All 232 experiments in air order — the KTMA year, the "
                  "cable runs, the movie, and the revivals, each row the film "

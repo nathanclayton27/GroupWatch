@@ -70,6 +70,45 @@
     {
       "name": "Dune (Villeneuve)",
       "run": [["villeneuve|dv-2021-dune"], ["villeneuve|dv-2024-dune-part-two"]]
+    },
+
+    {
+      "_why": "Bond is 27 largely standalone films, but the Craig era is one",
+      "_why2": "continuous story - Quantum of Solace opens an hour after Casino",
+      "_why3": "Royale ends. The other 22 need nothing and stay free.",
+      "name": "James Bond (Craig)",
+      "run": [["bond|bond-2006-casino-royale"], ["bond|bond-2008-quantum-of-solace"],
+              ["bond|bond-2012-skyfall"], ["bond|bond-2015-spectre"],
+              ["bond|bond-2021-no-time-to-die"]]
+    },
+    {
+      "name": "Sanshiro Sugata",
+      "run": [["kurosawa|kur-1943-sanshiro-sugata"],
+              ["kurosawa|kur-1945-sanshiro-sugata-part-ii"]]
+    },
+    {
+      "_why": "Sanjuro follows Yojimbo with the same character; the source",
+      "_why2": "calls it a sequel. Kurosawa's other 28 films need nothing.",
+      "name": "Yojimbo",
+      "run": [["kurosawa|kur-1961-yojimbo"], ["kurosawa|kur-1962-sanjuro"]]
+    },
+    {
+      "_why": "CROSS-LIST. The Color of Money is a sequel to The Hustler, which",
+      "_why2": "is not on Scorsese's filmography at all - it is on best-picture.",
+      "name": "The Hustler",
+      "run": [["best-picture|bp-1961-the-hustler"],
+              ["scorsese|ms-1986-the-color-of-money"]]
+    },
+    {
+      "_why": "A 13-episode story sitting inside a director's filmography. The",
+      "_why2": "list is not a sequence, but this run inside it very much is, and",
+      "_why3": "unordered it would happily offer The Final Episode first.",
+      "name": "Paranoia Agent",
+      "run": [["satoshi-kon|sk-pa-1"], ["satoshi-kon|sk-pa-2"], ["satoshi-kon|sk-pa-3"],
+              ["satoshi-kon|sk-pa-4"], ["satoshi-kon|sk-pa-5"], ["satoshi-kon|sk-pa-6"],
+              ["satoshi-kon|sk-pa-7"], ["satoshi-kon|sk-pa-8"], ["satoshi-kon|sk-pa-9"],
+              ["satoshi-kon|sk-pa-10"], ["satoshi-kon|sk-pa-11"],
+              ["satoshi-kon|sk-pa-12"], ["satoshi-kon|sk-pa-13"]]
     }
   ],
   "_notrun": [

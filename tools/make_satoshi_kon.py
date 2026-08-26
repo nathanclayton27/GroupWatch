@@ -96,6 +96,11 @@ def main():
         "subtitle": "everything he directed",
         "kind": "anime",
         "popularity": 45,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1997–2008",
         "blurb": "Four films, thirteen episodes of Paranoia Agent, and a "
                  "one-minute short — the complete directed work, about %d "

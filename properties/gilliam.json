@@ -4,6 +4,7 @@
   "subtitle": "the directed features, in release order",
   "kind": "films",
   "popularity": 64,
+  "random": true,
   "year": "1975–2018",
   "blurb": "Thirteen features in release order, Holy Grail to Don Quixote — about 26 hours. Brazil gets one row, and the row says which of its three cuts to watch.",
   "unit": {
@@ -41,7 +42,7 @@
     ],
     [
       "Seven of these films are on other lists here.",
-      "Monty Python and the Holy Grail, Jabberwocky, Time Bandits, Brazil, The Adventures of Baron Munchausen, The Fisher King and Fear and Loathing in Las Vegas on The Criterion Collection; The Adventures of Baron Munchausen and The Fisher King on Robin Williams. Ticking one ticks the other: film rows pair across lists by title and year, so a film watched here is watched there. Criterion numbers its rows by spine rather than year — Brazil is #51 — so all seven of those pairs are made through the year in Criterion's own note. Nothing is duplicated and no hours are counted twice, because every list totals only its own rows."
+      "Monty Python and the Holy Grail, Jabberwocky, Time Bandits, Brazil, The Adventures of Baron Munchausen, The Fisher King and Fear and Loathing in Las Vegas on The Criterion Collection; Monty Python and the Holy Grail and Brazil on Cult Classics; The Adventures of Baron Munchausen and The Fisher King on Robin Williams. Ticking one ticks the other: film rows pair across lists by title and year, so a film watched here is watched there. Criterion numbers its rows by spine rather than year — Brazil is #51 — so all seven of those pairs are made through the year in Criterion's own note. Nothing is duplicated and no hours are counted twice, because every list totals only its own rows."
     ],
     "Filmography from Wikipedia's Terry Gilliam filmography, read from the table itself and cross-checked against the works his biography's lead names; runtimes and cut lengths from each film's own article, with Wikidata's runtime property kept as a check; Brazil's release history from that film's article."
   ],

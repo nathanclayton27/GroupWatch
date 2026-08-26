@@ -112,6 +112,11 @@ def main():
         "subtitle": "the thirty features, in release order",
         "kind": "films",
         "popularity": 62,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1943–1993",
         "blurb": "Every feature he directed, Sanshiro Sugata through "
                  "Madadayo — %d films, about %d hours."

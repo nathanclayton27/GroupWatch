@@ -141,6 +141,11 @@ def main():
         "subtitle": "every Bond film in release order, in sections per actor",
         "kind": "films",
         "popularity": 88,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "%d–%d" % (films[0]["year"], films[-1]["year"]),
         "blurb": "All %d Eon films in release order, grouped by Bond actor, "
                  "plus the two oddities made outside Eon. The Craig arc is "

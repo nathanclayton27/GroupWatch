@@ -152,6 +152,11 @@ def main():
         "subtitle": "the features he directed, silents through Family Plot",
         "kind": "films",
         "popularity": 77,
+        # Not a story, so not a sequence: the order these came out in
+        # is a fact about the maker, not an instruction to the viewer
+        # (Nathan, CLU-372). Prerequisites, where any exist, live in
+        # tools/data/sequences.json and are enforced separately.
+        "random": True,
         "year": "1925–1976",
         "blurb": "Every feature he directed, The Pleasure Garden through "
                  "Family Plot — %d films, about %d hours."
