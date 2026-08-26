@@ -322,6 +322,21 @@ li:hover{background:rgba(128,128,128,.06)}
 .itoast .in b{color:var(--done);font-weight:600}
 @media (prefers-reduced-motion: reduce){.itoast,.itoast.bye{transition:none}}
 
+/* CLU-307: for the OWNER the status pill is also the way out. Hover, focus
+   or (on touch) an armed tap turns it red and it reads "don't pace?" — the
+   affordance to stop lives on the thing that reports your status, rather
+   than adding a fifth control to the block. A member never gets the second
+   state, because removing a pace is the owner's action and offering it to
+   anyone else is a control the app would refuse (CLU-345, CLU-371). */
+button.pace{font:inherit;font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  padding:1px 6px;border-radius:99px;cursor:pointer;background:transparent}
+button.pace .off{display:none}
+button.pace:hover,button.pace:focus-visible,button.pace.armed{
+  border-color:var(--signal);color:var(--signal);
+  background:color-mix(in srgb,var(--signal) 12%,transparent)}
+button.pace:hover .on,button.pace:focus-visible .on,button.pace.armed .on{display:none}
+button.pace:hover .off,button.pace:focus-visible .off,
+button.pace.armed .off{display:inline}
 /* the picked / jumped-to row. Until this existed, .act carried no visual at
    all, so "Pick one for me" scrolled somewhere and highlighted nothing —
    the flash line at the bottom was the only sign anything was chosen. */
@@ -639,6 +654,29 @@ footer a{color:var(--steel)}
 .pnone{padding:14px 11px;font-size:12px;color:var(--ink-3)}
 .pgroup{padding:9px 11px 3px;font-family:"IBM Plex Mono",monospace;font-size:10px;
   letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+/* Option C (CLU-307): the next thing gets a container and a verb, and the
+   schedule line leads with the pill so the glanceable half is on the left
+   where reading starts. Under 430px it collapses to option B — one
+   sentence, no tile — because a bordered box that spans the viewport is
+   just a paragraph with a border. */
+.unext{display:inline-flex;align-items:baseline;gap:9px;margin:8px 0 0;
+  padding:7px 11px;border:1px solid var(--rule-2);border-radius:var(--radius);
+  background:var(--card);cursor:pointer;max-width:100%}
+.unext .ul{font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);flex:none}
+.unext .ut{font-size:14px;color:var(--ink);min-width:0;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.unext .un{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;
+  color:var(--ink-3);flex:none}
+.unext .ug{font-size:11.5px;color:var(--steel);flex:none;margin-left:2px}
+.unext:hover{border-color:var(--ink-3)}
+.unext:hover .ug{text-decoration:underline}
+@media (max-width:430px){
+  .unext{display:inline;border:0;background:none;padding:0;margin:6px 0 0}
+  .unext .ul{display:none}
+  .unext .ut{font-size:13px;white-space:normal}
+  .unext .ug{display:none}
+}
 .win{display:flex;gap:8px 14px;flex-wrap:wrap;align-items:baseline;margin:0 0 10px;font-size:13px;color:var(--ink-2)}
 .pscope{display:inline-flex;align-items:center;gap:7px;margin:6px 0 0;
   font-size:12px;color:var(--ink-3);cursor:pointer;user-select:none}
@@ -1327,7 +1365,7 @@ footer a{color:var(--steel)}
   <div class="glegend hide" id="glegend"></div>
   <div class="lbl" id="striplbl"></div>
   <div class="uprow" id="uprow">
-    <span class="upnext hide" id="upnext"></span>
+    <span class="upnext unext hide" id="upnext"></span>
     <button class="hide" id="b-random" title="Pick a random unticked entry">Pick one for me</button>
     <button class="foldbtn hide" id="b-fw" type="button" style="margin-left:0"></button>
   </div>
@@ -4134,6 +4172,12 @@ function niceDate(iso){
 function paintPaceToggle(){
   const box = $('pscope');
   if(!PACETIERS){ box.classList.add('hide'); return; }
+  // Nathan, CLU-307, answer (a): while an arc schedule is running the
+  // windows already dictate what you watch each week, so a control that
+  // scopes a finish date has nothing to bite on. It comes back for a plain
+  // finish date, which is the only case it was built for.
+  const p = paceInfo();
+  if(p && p.kind === 'windows'){ box.classList.add('hide'); return; }
   box.classList.remove('hide');
   $('pscope-cb').checked = PACEALL;
   $('pscope-t').textContent = 'Count ' + PACELABEL + ' toward the finish date';
@@ -4154,12 +4198,51 @@ function paintWindow(){
   const n = done.size;
   const short = new Date(p.endIso+'T00:00:00')
     .toLocaleDateString(undefined,{month:'long',day:'numeric'});
-  el.innerHTML = '<span><b>'+esc(p.label)+'</b></span>'
+  // option C: the pill leads. It is the one thing here readable at arm's
+  // length and it used to sit at the end of the longest line in the block.
+  const behind = n < p.due;
+  const status = behind ? (p.due-n)+' overdue' : 'up to date';
+  const cls = 'pace ' + (behind ? 'behind' : 'ok');
+  // and for the owner it is also the exit
+  const pill = isOwner()
+    ? '<button type="button" class="'+cls+'" id="b-unpace" '
+      + 'title="Stop pacing this — the club keeps its roster">'
+      + '<span class="on">'+status+'</span>'
+      + '<span class="off">don\u2019t pace?</span></button>'
+    : '<span class="'+cls+'">'+status+'</span>';
+  el.innerHTML = pill
+    + '<span><b>'+esc(p.label)+'</b></span>'
     + (p.before ? '' : '<span>through '+UNIT.one+' '+p.target+' by '+esc(short)
-        +' · '+p.daysLeft+' day'+(p.daysLeft===1?'':'s')+' left</span>')
-    + (n < p.due
-        ? '<span class="pace behind">'+(p.due-n)+' overdue</span>'
-        : '<span class="pace ok">up to date</span>');
+        +' · '+p.daysLeft+' day'+(p.daysLeft===1?'':'s')+' left</span>');
+  wireUnpace(p);
+}
+
+// The pill's second state. Two paths in, because there is no hover on a
+// phone: an armed tap shows "don't pace?" and a second tap does it, which
+// is the same two-step CLU-176 established for the thumbs. A member never
+// reaches this — the button is only rendered for the owner.
+function wireUnpace(p){
+  const b = $('b-unpace');
+  if(!b) return;
+  let armed = false;
+  const fire = async ()=>{
+    // a windowed run stops; a plain finish date is removed. Both already
+    // exist as owner controls further down the panel — this is a shortcut
+    // to them, not a new way to change the schedule.
+    if(p.kind === 'windows')
+      await saveGroup({ schedule_start: null, schedule_shift_days: 0 },
+        'Schedule stopped — nobody is behind now.');
+    else
+      await saveGroup({ target_date: null }, 'Finish date removed.');
+  };
+  b.onclick = (e)=>{
+    e.preventDefault(); e.stopPropagation();
+    // pointer or keyboard: the alternate state is already visible, so act
+    if(!matchMedia('(hover:none)').matches){ fire(); return; }
+    if(!armed){ armed = true; b.classList.add('armed'); return; }
+    fire();
+  };
+  b.onblur = ()=>{ armed = false; b.classList.remove('armed'); };
 }
 
 function paintStack(){
@@ -6955,8 +7038,12 @@ function paintUpNext(){
   }else{
     el.classList.remove('hide');
     el.dataset.id = ORDER[nxt];
-    el.innerHTML = 'Up next: <b>'+esc(FLAT[nxt].t)+'</b> '
-                 + '<span class="mono">'+esc(FLAT[nxt].n)+'</span>';
+    // option C: a container and a verb. The whole tile is the target, so
+    // "Jump to it" is a label rather than a second thing to hit.
+    el.innerHTML = '<span class="ul">Up next</span>'
+                 + '<span class="ut">'+esc(FLAT[nxt].t)+'</span>'
+                 + '<span class="un">'+esc(FLAT[nxt].n)+'</span>'
+                 + '<span class="ug">Jump to it</span>';
   }
   // the picker only makes sense on a list with no order
   $('b-random').classList.toggle('hide', !PROP.random);
