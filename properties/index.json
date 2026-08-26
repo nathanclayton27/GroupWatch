@@ -1481,6 +1481,26 @@
     "totalw": 65.66
   },
   {
+    "slug": "inuyasha",
+    "media": [
+      "anime",
+      "movies"
+    ],
+    "title": "Inuyasha",
+    "subtitle": "every episode, the films where they opened, and the ending",
+    "kind": "anime & films",
+    "year": "2000–2010",
+    "popularity": 71,
+    "blurb": "All 193 episodes in broadcast order — the 2000 run, all four films at the point each one opened, and The Final Act, which is where the story actually ends.",
+    "accent": "#A62639",
+    "accentDark": "#FF8A93",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 197
+  },
+  {
     "slug": "jojo",
     "media": [
       "anime"

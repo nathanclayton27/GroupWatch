@@ -2883,6 +2883,26 @@ let MANIFEST = [
     "totalw": 65.66
   },
   {
+    "slug": "inuyasha",
+    "media": [
+      "anime",
+      "movies"
+    ],
+    "title": "Inuyasha",
+    "subtitle": "every episode, the films where they opened, and the ending",
+    "kind": "anime & films",
+    "year": "2000–2010",
+    "popularity": 71,
+    "blurb": "All 193 episodes in broadcast order — the 2000 run, all four films at the point each one opened, and The Final Act, which is where the story actually ends.",
+    "accent": "#A62639",
+    "accentDark": "#FF8A93",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 197
+  },
+  {
     "slug": "jojo",
     "media": [
       "anime"
@@ -5230,7 +5250,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '57a70890d085';
+const BUILD = '78780f7edb69';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
