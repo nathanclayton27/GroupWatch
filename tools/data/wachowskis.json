@@ -1,0 +1,1072 @@
+{
+ "films_table": [
+  {
+   "year_raw": "1995",
+   "year": 1995,
+   "t": "Assassins",
+   "target": "Assassins (1995 film)",
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "producers": [
+    "no",
+    ""
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "1996",
+   "year": 1996,
+   "t": "Bound",
+   "target": "Bound (1996 film)",
+   "directors": [
+    "yes",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "producers": [
+    "partial",
+    "Executive"
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "1999",
+   "year": 1999,
+   "t": "The Matrix",
+   "target": "The Matrix",
+   "directors": [
+    "yes",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "producers": [
+    "partial",
+    "Executive"
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2001",
+   "year": 2001,
+   "t": "The Matrix Revisited",
+   "target": "The Matrix Revisited",
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "no",
+    ""
+   ],
+   "producers": [
+    "partial",
+    "Executive"
+   ],
+   "notes": "Documentary"
+  },
+  {
+   "year_raw": "2003",
+   "year": 2003,
+   "t": "The Animatrix",
+   "target": "The Animatrix",
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "producers": [
+    "yes",
+    ""
+   ],
+   "notes": "Direct-to-video, Wrote: \"Final Flight of the Osiris\", Story by: \"The Second Renaissance Part I & II\" and \"Kid's Story\""
+  },
+  {
+   "year_raw": "2003",
+   "year": 2003,
+   "t": "The Matrix Reloaded",
+   "target": "The Matrix Reloaded",
+   "directors": [
+    "yes",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "producers": [
+    "partial",
+    "Executive"
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2003",
+   "year": 2003,
+   "t": "The Matrix Revolutions",
+   "target": "The Matrix Revolutions",
+   "directors": [
+    "yes",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "producers": [
+    "partial",
+    "Executive"
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2005",
+   "year": 2005,
+   "t": "V for Vendetta",
+   "target": "V for Vendetta (film)",
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "producers": [
+    "yes",
+    ""
+   ],
+   "notes": "Second unit directors (uncredited)"
+  },
+  {
+   "year_raw": "2007",
+   "year": 2007,
+   "t": "The Invasion",
+   "target": "The Invasion (film)",
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "partial",
+    "Uncredited"
+   ],
+   "producers": [
+    "no",
+    ""
+   ],
+   "notes": "Rewrites"
+  },
+  {
+   "year_raw": "2008",
+   "year": 2008,
+   "t": "Speed Racer",
+   "target": "Speed Racer (film)",
+   "directors": [
+    "yes",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "producers": [
+    "yes",
+    ""
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2009",
+   "year": 2009,
+   "t": "Ninja Assassin",
+   "target": "Ninja Assassin",
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "no",
+    ""
+   ],
+   "producers": [
+    "yes",
+    ""
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2012",
+   "year": 2012,
+   "t": "Cloud Atlas",
+   "target": "Cloud Atlas (film)",
+   "directors": [
+    "yes",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "producers": [
+    "yes",
+    ""
+   ],
+   "notes": "Co-directed with Tom Tykwer"
+  },
+  {
+   "year_raw": "2014",
+   "year": 2014,
+   "t": "Google Me Love",
+   "target": null,
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "no",
+    ""
+   ],
+   "producers": [
+    "partial",
+    "Executive"
+   ],
+   "notes": "Short film"
+  },
+  {
+   "year_raw": "2015",
+   "year": 2015,
+   "t": "Jupiter Ascending",
+   "target": "Jupiter Ascending",
+   "directors": [
+    "yes",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "producers": [
+    "yes",
+    ""
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2021",
+   "year": 2021,
+   "t": "The Matrix Resurrections",
+   "target": "The Matrix Resurrections",
+   "directors": [
+    "yes",
+    "Lana"
+   ],
+   "writers": [
+    "yes",
+    "Lana"
+   ],
+   "producers": [
+    "yes",
+    "Lana"
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2025",
+   "year": 2025,
+   "t": "Castration Movie Anthology ii. The Best of Both Worlds",
+   "target": "Castration Movie",
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "no",
+    ""
+   ],
+   "producers": [
+    "partial",
+    "Executive, Lilly"
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2025",
+   "year": 2025,
+   "t": "Dolls",
+   "target": null,
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "no",
+    ""
+   ],
+   "producers": [
+    "partial",
+    "Executive, Lilly"
+   ],
+   "notes": "Short film"
+  },
+  {
+   "year_raw": "2026",
+   "year": 2026,
+   "t": "Again Again",
+   "target": "Again Again (film)",
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "no",
+    ""
+   ],
+   "producers": [
+    "partial",
+    "Executive, Lilly"
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "tba",
+   "year": null,
+   "t": "Trash Mountain",
+   "target": "Trash Mountain",
+   "directors": [
+    "no",
+    ""
+   ],
+   "writers": [
+    "no",
+    ""
+   ],
+   "producers": [
+    "partial",
+    "Executive, Lilly"
+   ],
+   "notes": ""
+  }
+ ],
+ "tv_table": [
+  {
+   "year_raw": "2015–2018",
+   "t": "Sense8",
+   "target": "Sense8",
+   "creators": [
+    "yes",
+    ""
+   ],
+   "showrunners": [
+    "prose",
+    "Season 1: The Wachowskis, Season 2: Lana only"
+   ],
+   "writers": [
+    "prose",
+    "Season 1: The Wachowskis, Season 2: Lana only"
+   ],
+   "directors": [
+    "prose",
+    "Season 1: The Wachowskis, Season 2: Lana only"
+   ],
+   "notes": "Co-created with J. Michael Straczynski"
+  },
+  {
+   "year_raw": "2019–2021",
+   "t": "Work in Progress",
+   "target": "Work in Progress (TV series)",
+   "creators": [
+    "no",
+    ""
+   ],
+   "showrunners": [
+    "yes",
+    "Lilly"
+   ],
+   "writers": [
+    "yes",
+    "Lilly"
+   ],
+   "directors": [
+    "yes",
+    "Lilly"
+   ],
+   "notes": "Episodes: \"Oh Say Can You See\" and \"I Release You\""
+  }
+ ],
+ "games_table": [
+  {
+   "year_raw": "2003",
+   "t": "Enter the Matrix",
+   "target": "Enter the Matrix",
+   "directors": [
+    "yes",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2005",
+   "t": "The Matrix Online",
+   "target": "The Matrix Online",
+   "directors": [
+    "yes",
+    ""
+   ],
+   "writers": [
+    "no",
+    ""
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2005",
+   "t": "The Matrix: Path of Neo",
+   "target": "The Matrix: Path of Neo",
+   "directors": [
+    "yes",
+    ""
+   ],
+   "writers": [
+    "yes",
+    ""
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2021",
+   "t": "The Matrix Awakens",
+   "target": "The Matrix Awakens",
+   "directors": [
+    "yes",
+    "Lana"
+   ],
+   "writers": [
+    "yes",
+    "Lana"
+   ],
+   "notes": ""
+  }
+ ],
+ "comics_table": [
+  {
+   "year_raw": "1989–1994",
+   "t": "Clive Barker's Hellraiser",
+   "target": "Hellraiser (comics)",
+   "writers": [
+    "prose",
+    "Lana only"
+   ],
+   "publishers": [
+    "prose",
+    ""
+   ],
+   "notes": "Issues: 8–9, 12–13 and Hellraiser: Spring Slaughter&nbsp;– Razing Hell"
+  },
+  {
+   "year_raw": "1992",
+   "t": "Clive Barker's Nightbreed",
+   "target": "Nightbreed (comics)",
+   "writers": [
+    "prose",
+    "Lana only"
+   ],
+   "publishers": [
+    "prose",
+    ""
+   ],
+   "notes": "Issue: 17"
+  },
+  {
+   "year_raw": "1993",
+   "t": "Clive Barker's Book of the Damned",
+   "target": "Hellraiser (comics)",
+   "writers": [
+    "prose",
+    "Lana only"
+   ],
+   "publishers": [
+    "prose",
+    ""
+   ],
+   "notes": "Volumes: 1–2 and 4."
+  },
+  {
+   "year_raw": "1993–1994",
+   "t": "Ectokid",
+   "target": "Ectokid",
+   "writers": [
+    "prose",
+    "Lana only"
+   ],
+   "publishers": [
+    "prose",
+    ""
+   ],
+   "notes": "Issues: 3–9"
+  },
+  {
+   "year_raw": "1999–2004",
+   "t": "The Matrix Comics",
+   "target": "The Matrix Comics",
+   "writers": [
+    "yes",
+    ""
+   ],
+   "publishers": [
+    "yes",
+    ""
+   ],
+   "notes": "Written \"Bits and Pieces of Information\""
+  },
+  {
+   "year_raw": "2004–2007, 2019",
+   "t": "Doc Frankenstein",
+   "target": "Doc Frankenstein",
+   "writers": [
+    "yes",
+    ""
+   ],
+   "publishers": [
+    "yes",
+    ""
+   ],
+   "notes": ""
+  },
+  {
+   "year_raw": "2004–2007",
+   "t": "Shaolin Cowboy",
+   "target": "Shaolin Cowboy",
+   "writers": [
+    "prose",
+    "Recap only"
+   ],
+   "publishers": [
+    "yes",
+    ""
+   ],
+   "notes": ""
+  }
+ ],
+ "music_videos": [
+  {
+   "year_raw": "2009",
+   "t": "Epilepsy Is Dancing",
+   "artist": "Antony and the Johnsons"
+  }
+ ],
+ "lead_text": "'Lana Wachowski' (i;<!--Please do not remove or change their names without discussing on the talk page. There are reasons that their birth names (\"deadnames\") are included in the lead.--> formerly 'Larry Wachowski', born June 21, 1965) and 'Lilly Wachowski' (formerly 'Andy Wachowski', born December 29, 1967) are American film and television directors, writers and producers. Together known as 'the Wachowskis', the sisters are both trans women and have worked as a writing and directing team throughout most of their careers. They made their directing debut with Bound (1996), and achieved fame with The Matrix (1999), a major box-office success for which they won the Saturn Award for Best Director. They wrote and directed two sequels, The Matrix Reloaded and The Matrix Revolutions (both in 2003), and were involved in the writing and production of other works in the Matrix franchise. Following the commercial success of the Matrix series, the Wachowskis wrote and produced the 2005 film V for Vendetta, an adaptation of the graphic novel by Alan Moore and David Lloyd, and in 2008 released Speed Racer, a live-action adaptation of the Japanese anime series. Their next film, Cloud Atlas, based on the novel by David Mitchell and co-written and co-directed by Tom Tykwer, was released in 2012. Their film Jupiter Ascending and the Netflix series Sense8, the latter of which they co-created with J. Michael Straczynski, debuted in 2015; the second season of Sense8 ended the series in 2018 and was Lana's first major project without Lilly. Since the series finale of Sense8, the Wachowskis have been working separately on different projects: Lilly directed, wrote, and executive-produced several episodes of Showtime's Work in Progress (2019) with creators Abby McEnany and Tim Mason, while Lana filmed The Matrix Resurrections, written with Mitchell and Aleksandar Hemon, which was released in December 2021.",
+ "lead_links": [
+  [
+   "Bound (1996 film)",
+   "Bound"
+  ],
+  [
+   "The Matrix",
+   "The Matrix"
+  ],
+  [
+   "The Matrix Reloaded",
+   "The Matrix Reloaded"
+  ],
+  [
+   "The Matrix Revolutions",
+   "The Matrix Revolutions"
+  ],
+  [
+   "V for Vendetta (film)",
+   "V for Vendetta"
+  ],
+  [
+   "Speed Racer (film)",
+   "Speed Racer"
+  ],
+  [
+   "Cloud Atlas (film)",
+   "Cloud Atlas"
+  ],
+  [
+   "Jupiter Ascending",
+   "Jupiter Ascending"
+  ],
+  [
+   "Sense8",
+   "Sense8"
+  ],
+  [
+   "Work in Progress (TV series)",
+   "Work in Progress"
+  ],
+  [
+   "The Matrix Resurrections",
+   "The Matrix Resurrections"
+  ]
+ ],
+ "notable_works": [
+  [
+   "Bound (1996 film)",
+   "Bound"
+  ],
+  [
+   "V for Vendetta (film)",
+   "V for Vendetta"
+  ],
+  [
+   "Speed Racer (film)",
+   "Speed Racer"
+  ],
+  [
+   "Cloud Atlas (film)",
+   "Cloud Atlas"
+  ],
+  [
+   "Jupiter Ascending",
+   "Jupiter Ascending"
+  ],
+  [
+   "Sense8",
+   "Sense8"
+  ]
+ ],
+ "career_subs": [
+  {
+   "title": "Early film projects",
+   "raw_title": "Early film projects",
+   "links": [
+    "Assassins (1995 film)",
+    "Bound (1996 film)",
+    "The Matrix"
+   ]
+  },
+  {
+   "title": "The Matrix franchise",
+   "raw_title": "''The Matrix'' franchise",
+   "links": [
+    "The Matrix Reloaded",
+    "The Matrix Revolutions",
+    "Deadpool (film)"
+   ]
+  },
+  {
+   "title": "Later collaborations",
+   "raw_title": "Later collaborations",
+   "links": [
+    "V for Vendetta (film)",
+    "The Invasion (film)",
+    "The Body Snatchers",
+    "Speed Racer (film)",
+    "Ninja Assassin",
+    "Cloud Atlas (film)",
+    "Jupiter Ascending",
+    "Deadline Hollywood",
+    "Sense8"
+   ]
+  },
+  {
+   "title": "Solo projects",
+   "raw_title": "Solo projects",
+   "links": [
+    "Work in Progress (TV series)",
+    "The Matrix Resurrections",
+    "Autostraddle",
+    "Manhunt (novel)",
+    "Confessions of the Fox",
+    "The Stepford Wives"
+   ]
+  }
+ ],
+ "claims": {
+  "assassins_donner": {
+   "probe": "which was directed by Richard Donner and released in 1995",
+   "text": "ve Barker's Hellraiser and Clive Barker's Nightbreed for Marvel's Epic Comics imprint. == Film and television careers == === Early film projects === In the mid-1990s, they went into film writing, including the script for Assassins in 1994, which was directed by Richard Donner and released in 1995. Warner Bros. bought the script and included two more pictures in the contract. Donner had their script \"totally rewritten\" by Brian Helgeland and the Wachowskis tried unsuccessfully to remove their names from the film. They say the experi"
+  },
+  "bound_debut": {
+   "probe": "for which they wrote the script and made their debut as directors",
+   "text": "fully to remove their names from the film. They say the experience gave them the perspective that they should become directors or \"[they will] never survive as writers in this town\". Their next project was the 1996 neo-noir thriller Bound, for which they wrote the script and made their debut as directors. The film was well received for its style and craft, and was noted as one of the first mainstream films to feature a same-sex relationship without it being central to the plot. Taking advantage of the positive buzz, the Wachowskis asked to"
+  },
+  "registry": {
+   "probe": "the film was selected for preservation in the National Film Registry",
+   "text": "four Academy Awards, including for \"Best Visual Effects\" for popularizing the bullet time visual effect. The Matrix came to be a major influence for action movies and has appeared in several \"greatest science fiction films\" lists. In 2012, the film was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally, historically, and aesthetically significant\". thumb|The Wachowskis at the 2004 San Diego ComicCon After its success, the Wachowskis directed two sequels back-to-back, The Matrix Reloaded an"
+  },
+  "sequels_btb": {
+   "probe": "the Wachowskis directed two sequels back-to-back",
+   "text": "12, the film was selected for preservation in the National Film Registry by the Library of Congress for being \"culturally, historically, and aesthetically significant\". thumb|The Wachowskis at the 2004 San Diego ComicCon After its success, the Wachowskis directed two sequels back-to-back, The Matrix Reloaded and The Matrix Revolutions, both released in 2003. The Matrix Reloaded received positive critical reception, although not on the level of the original. It became a major box office hit, retaining the spot of the highes"
+  },
+  "vfv_mcteigue": {
+   "probe": "The Wachowskis offered the film to James McTeigue, the first assistant director of The Matrix trilogy, as his directorial debut",
+   "text": "f Alan Moore and David Lloyd's graphic novel of the same name, starring Natalie Portman and Hugo Weaving. They wrote and produced the film with Matrix producer Joel Silver, who had previously purchased the film rights to the graphic novel. The Wachowskis offered the film to James McTeigue, the first assistant director of The Matrix trilogy, as his directorial debut. Moore did not participate in the production, as he was disappointed by previous Hollywood adaptations of his work, and disagreed with differences between his graphic novel and the screenplay. Following a statement to the press by Silver t"
+  },
+  "vfv_wrote": {
+   "probe": "They wrote and produced the film with Matrix producer Joel Silver",
+   "text": "rmation are apparent in The Matrix. === Later collaborations === The Wachowskis' next feature film was V for Vendetta, an adaptation of Alan Moore and David Lloyd's graphic novel of the same name, starring Natalie Portman and Hugo Weaving. They wrote and produced the film with Matrix producer Joel Silver, who had previously purchased the film rights to the graphic novel. The Wachowskis offered the film to James McTeigue, the first assistant director of The Matrix trilogy, as his directorial debut. Moore did not participate in the productio"
+  },
+  "vfv_mask": {
+   "probe": "The film popularized the image of the Guy Fawkes mask",
+   "text": "m's controversial storyline and themes have been both criticized and praised by sociopolitical groups. It was released in 2005 and was well received critically; it was a box office success but did not rank on the scale of The Matrix films. The film popularized the image of the Guy Fawkes mask, as the version designed by David Lloyd for the graphic novel and used in the movie was adopted as a symbol by the online hacktivist group Anonymous two years later. In 2006, Silver had the Wachowskis and McTeigue hired to revamp The Invas"
+  },
+  "invasion_uncredited": {
+   "probe": "The Wachowskis and McTeigue are not credited on the film",
+   "text": "hired the Wachowskis to rewrite a portion of the script and add new action scenes, which McTeigue directed. The film, the fourth adaptation of the novel The Body Snatchers, was released in 2007 and was not a critical or box office success. The Wachowskis and McTeigue are not credited on the film. The Wachowskis returned to directing with Speed Racer (2008) which starred Emile Hirsch. The film, which was again produced by Silver, was an adaptation of a 1960s Japanese manga series originally called Mach GoGoGo, which had previously "
+  },
+  "invasion_rewrite": {
+   "probe": "hired the Wachowskis to rewrite a portion of the script and add new action scenes, which McTeigue directed",
+   "text": "nline hacktivist group Anonymous two years later. In 2006, Silver had the Wachowskis and McTeigue hired to revamp The Invasion for Warner Bros. The studio was disappointed in the original cut of the film by director Oliver Hirschbiegel and hired the Wachowskis to rewrite a portion of the script and add new action scenes, which McTeigue directed. The film, the fourth adaptation of the novel The Body Snatchers, was released in 2007 and was not a critical or box office success. The Wachowskis and McTeigue are not credited on the film. The Wachowskis returned to directing with Speed "
+  },
+  "speed_racer_anime": {
+   "probe": "the series was the first anime they had watched",
+   "text": "h was again produced by Silver, was an adaptation of a 1960s Japanese manga series originally called Mach GoGoGo, which had previously been adapted as an anime television series in 1967. The Wachowskis were attracted to the project because the series was the first anime they had watched, and they wanted to make a family-friendly film for their nieces and nephews to enjoy. In an effort to simulate the look of anime in live action, the Wachowskis had cinematographer David Tattersall shoot the movie digitally on a digital ba"
+  },
+  "speed_racer_manga": {
+   "probe": "an adaptation of a 1960s Japanese manga series originally called Mach GoGoGo",
+   "text": " was not a critical or box office success. The Wachowskis and McTeigue are not credited on the film. The Wachowskis returned to directing with Speed Racer (2008) which starred Emile Hirsch. The film, which was again produced by Silver, was an adaptation of a 1960s Japanese manga series originally called Mach GoGoGo, which had previously been adapted as an anime television series in 1967. The Wachowskis were attracted to the project because the series was the first anime they had watched, and they wanted to make a family-friendly film for their nieces"
+  },
+  "ninja_produced": {
+   "probe": "It was produced by the Wachowskis in their last involvement with Silver, and directed by McTeigue",
+   "text": "iodically have put the film on lists of underrated or cult films. The Wachowskis' next film project was Ninja Assassin, a martial arts film starring Rain, which was released in 2009. It was inspired by Rain's fighting scene in Speed Racer. It was produced by the Wachowskis in their last involvement with Silver, and directed by McTeigue. The screenplay was written by Matthew Sand and J. Michael Straczynski, whom the Wachowskis called six weeks before filming to ask him for a total rewrite completed within a week, because they were dissatisfied with the earlier drafts and "
+  },
+  "cloud_atlas_tykwer": {
+   "probe": "written and directed in collaboration with German filmmaker Tom Tykwer",
+   "text": "a Wachowski at Fantastic Fest in 2012 Their next directorial outing was Cloud Atlas, which was adapted from David Mitchell's 2004 novel of the same name and starred an ensemble cast which included Tom Hanks and Halle Berry. Cloud Atlas was written and directed in collaboration with German filmmaker Tom Tykwer, to whom the Wachowskis had introduced the novel several years earlier. The filmmakers failed to secure funding from a studio (save for $20&nbsp;million by Warner Bros.) and the film was produced independently after much trouble. With a bu"
+  },
+  "cloud_atlas_proud": {
+   "probe": "the one they are the most proud of",
+   "text": " won two. David Mitchell liked the script of Cloud Atlas, spent some time on the set (including filming a cameo), and had a positive impression about the result. According to the Wachowskis the movie was the hardest of their films to make, the one they are the most proud of, and the one they have been told has touched people's lives the most. They believe Cloud Atlas will be the film for which they will be remembered. thumb|upright=0.75|Lana at 2012 Toronto International Film Festival The Wachowskis subsequen"
+  },
+  "cloud_atlas_indep": {
+   "probe": "the most expensive independent movie to that date",
+   "text": "el several years earlier. The filmmakers failed to secure funding from a studio (save for $20&nbsp;million by Warner Bros.) and the film was produced independently after much trouble. With a budget of over $100&nbsp;million it was noted as the most expensive independent movie to that date and the first attempt at a German blockbuster. The movie opened at the 37th annual Toronto International Film Festival in September 2012 to acclaim and received a loud and lengthy standing ovation. In its general release a month later, it "
+  },
+  "jupiter_original": {
+   "probe": "The Wachowskis subsequently produced and directed Jupiter Ascending, an original space opera screenplay they wrote",
+   "text": "ey are the most proud of, and the one they have been told has touched people's lives the most. They believe Cloud Atlas will be the film for which they will be remembered. thumb|upright=0.75|Lana at 2012 Toronto International Film Festival The Wachowskis subsequently produced and directed Jupiter Ascending, an original space opera screenplay they wrote. The film was released in 2015. It stars Channing Tatum and Mila Kunis, and features the Wachowskis' regular collaborators John Gaeta on visual effects and Kym Barrett on costumes. According to Deadline, the financial and critical failure "
+  },
+  "resurrections_solo": {
+   "probe": "it marks the first film made by only one of the Wachowskis",
+   "text": "uld continue to be involved. In August 2019, it was announced that Lana would be returning to write, direct and produce The Matrix Resurrections, the fourth installment of the Matrix series, with Reeves and Moss also reprising their roles; it marks the first film made by only one of the Wachowskis. Lana wrote the script with David Mitchell and Aleksandar Hemon. The film was released in December 2021. In February 2024, Collider announced that Lilly would direct Trash Mountain, a film about a young gay man returning from Chicago to ru"
+  },
+  "sense8_created": {
+   "probe": "created and written with J. Michael Straczynski",
+   "text": "e, the financial and critical failure of Jupiter Ascending caused their business relationship with Warner Bros, that began with The Matrix franchise, to be terminated. Their next project was the Netflix science fiction drama series Sense8, created and written with J. Michael Straczynski. Sense8 features an international ensemble cast and was shot in multiple cities around the world. The Wachowskis directed most of the episodes of the first season, with the rest being handled by McTeigue, Tykwer, and their go-to visual eff"
+  },
+  "sense8_finale": {
+   "probe": "Sense8 concluded with a two-hour finale which aired in June 2018",
+   "text": "illy took a break from production for the remainder of the series. A Christmas special was released on December 23, 2016, with the remainder of the show's second season released in May 2017. Subsequently, the third season was canceled, and Sense8 concluded with a two-hour finale which aired in June 2018. In June 2016, the Academy of Motion Picture Arts and Sciences invited the Wachowskis to join its ranks. However, in April 2025, Lilly Wachowski said \"I'm not in the Academy. I'm not going to join the Academy\" during an interview. === Solo"
+  },
+  "lilly_break": {
+   "probe": "After the first season, Lilly took a break from production for the remainder of the series",
+   "text": " the production and the presentation of diverse and LGBT characters and themes, winning the GLAAD Media Award for Outstanding Drama Series. It also received a Primetime Emmy Award nomination for Outstanding Original Main Title Theme Music. After the first season, Lilly took a break from production for the remainder of the series. A Christmas special was released on December 23, 2016, with the remainder of the show's second season released in May 2017. Subsequently, the third season was canceled, and Sense8 concluded with a two-hour finale which aired in June 2018."
+  },
+  "wip_lilly": {
+   "probe": "Lilly would co-write, and co-showrun the eight-episode first season",
+   "text": "ts and Sciences invited the Wachowskis to join its ranks. However, in April 2025, Lilly Wachowski said \"I'm not in the Academy. I'm not going to join the Academy\" during an interview. === Solo projects === In May 2019, it was reported that Lilly would co-write, and co-showrun the eight-episode first season of the drama-comedy series Work in Progress, created by Abby McEnany and Tim Mason for Showtime. The series premiered in December 2019. In January 2020, the series was renewed for a 10-episode second season, with which Lilly would continue"
+  },
+  "trash_mountain_direct": {
+   "probe": "Lilly would direct Trash Mountain",
+   "text": " Moss also reprising their roles; it marks the first film made by only one of the Wachowskis. Lana wrote the script with David Mitchell and Aleksandar Hemon. The film was released in December 2021. In February 2024, Collider announced that Lilly would direct Trash Mountain, a film about a young gay man returning from Chicago to rural Missouri to deal with the aftermath of his hoarder father's death. The film, Lilly's first directorial effort since Jupiter Ascending, will star Caleb Hearon, be written by Hear"
+  },
+  "goddard_matrix": {
+   "probe": "developing a new Matrix installment with Drew Goddard attached to write and direct, for which Lana will serve as an executive producer",
+   "text": " first directorial effort since Jupiter Ascending, will star Caleb Hearon, be written by Hearon and Ruby Caster and will be produced by Colin Trevorrow, Eddie Vaisman and Julia Lebedev. In April 2024, it was announced that Warner Bros. was developing a new Matrix installment with Drew Goddard attached to write and direct, for which Lana will serve as an executive producer. In October 2024, Lilly revealed to Autostraddle that she and her partner Mickey Ray Mahoney had written a queer/trans script titled The Hunt. She also announced her plans to make adaptations of novels authored by trans authors, specifical"
+  },
+  "matrix_comics": {
+   "probe": "The Wachowskis themselves contributed",
+   "text": "of the film, which were published free of charge on the website. These and a few short stories were released in three series from 1999 to 2003, with several of them (along with new material) collected in two print volumes in 2003 and 2004. The Wachowskis themselves contributed \"Bits and Pieces\", a prequel to the movie that explains the origins of the Matrix, featuring illustrations by Geof Darrow, the movie's conceptual designer. Other writers and artists that contributed to the series include Neil Gaiman, Dave "
+  },
+  "bound_noir": {
+   "probe": "Their next project was the 1996 neo-noir thriller Bound",
+   "text": "en\" by Brian Helgeland and the Wachowskis tried unsuccessfully to remove their names from the film. They say the experience gave them the perspective that they should become directors or \"[they will] never survive as writers in this town\". Their next project was the 1996 neo-noir thriller Bound, for which they wrote the script and made their debut as directors. The film was well received for its style and craft, and was noted as one of the first mainstream films to feature a same-sex relationship without it being central to the p"
+  }
+ },
+ "claims_missing": [],
+ "sense8": {
+  "seasons": 2,
+  "episodes": 24,
+  "runtime_raw": "46–151 minutes",
+  "overview": {
+   "episodes1": "12",
+   "episodes2": "12",
+   "episodes2A": "1",
+   "episodes2B": "10",
+   "episodes2C": "1"
+  }
+ },
+ "film_facts": {
+  "Assassins (1995 film)": {
+   "runtime_raw": "133 minutes",
+   "runtime_mins": [
+    133
+   ],
+   "director_raw": "Richard Donner",
+   "writer_raw": "The Wachowskis, Brian Helgeland",
+   "release_dates": [
+    "1995-10-06"
+   ],
+   "lead200": "'Assassins' is a 1995 American action thriller film directed by Richard Donner. It stars Sylvester Stallone, Antonio Banderas, and Julianne Moore. The screenplay was written by The Wachowskis and Brian Helgeland. The Wachowskis stated that their script was completely rewritten by Helgeland and that they tried to remove their names from the film but failed. Assassins was released by Warner Bros. on October 6, 1995. The film received negative reviews from critics and grossed $83.3 million against a $50 million budget. ==Plot== Assassin Robert Rath plans to retire, haunted by the memory of murdering hi"
+  },
+  "Bound (1996 film)": {
+   "runtime_raw": "108 minutes",
+   "runtime_mins": [
+    108
+   ],
+   "director_raw": "The Wachowskis",
+   "writer_raw": "The Wachowskis",
+   "release_dates": [
+    "1996-08-31"
+   ],
+   "lead200": "'Bound' is a 1996 American neo-noir erotic crime thriller film written and directed by the Wachowskis in their feature film directorial debut. It stars Jennifer Tilly, Gina Gershon, and Joe Pantoliano. The film centers on Violet (Tilly), a gun moll who longs to escape her relationship with her mobster boyfriend Caesar (Pantoliano), as she enters into a clandestine affair with alluring ex-convict Corky (Gershon). The two women hatch a scheme to steal $2 million of Mafia money. The film was John P. Ryan's final appearance before he died in 2007. Bound was the first film directed by the Wachowskis, an"
+  },
+  "The Matrix": {
+   "runtime_raw": "136 minutes",
+   "runtime_mins": [
+    136
+   ],
+   "director_raw": "The Wachowskis",
+   "writer_raw": "The Wachowskis",
+   "release_dates": [
+    "1999-03-24"
+   ],
+   "lead200": "'The Matrix' is a 1999 science fiction action film<!--This is the film's genre according to AFI, Box Office Mojo, AllMovie, and other leading sources.--> written and directed by the Wachowskis.<!--Do not change without consensus. See Talk:The Matrix (franchise)#Request for Comment – Crediting The Wachowskis. --> The first installment in the Matrix film series, it stars Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, and Joe Pantoliano. It depicts a dystopian future in which humanity is unknowingly trapped inside the Matrix, a simulated reality created by intelligent machines. The plot follows the computer hacker Neo, who is recruited by Morpheus into a rebellion against the"
+  },
+  "The Animatrix": {
+   "runtime_raw": "102 minutes",
+   "runtime_mins": [
+    102
+   ],
+   "director_raw": "Andy Jones, Mahiro Maeda, Shinichirō Watanabe, Yoshiaki Kawajiri, Takeshi Koike, Kōji Morimoto, Peter Chung",
+   "writer_raw": "The Wachowskis, Mahiro Maeda, Shinichirō Watanabe, Yoshiaki Kawajiri, Kōji Morimoto, Peter Chung",
+   "release_dates": [
+    "2003-06-03"
+   ],
+   "lead200": "'The Animatrix'|アニマトリックス|Animatorikkusu|lead=yes is a 2003 adult animated science fiction anthology film produced by the Wachowskis. It includes nine animated short films, some of which provide backstory for The Matrix film series, while others present side stories. The Animatrix was released by Warner Home Video on June 3, 2003. == Plot == === Final Flight of the Osiris === Captain Thadeus and Jue engage in a blindfolded sword fight in a virtual reality dojo. They do not harm each other, only damage clothing. At some point, they are interrupted by an alarm, and the simulation ends. In the next scene, the hovercraft Osiris heads for Junction 21 when operator Robbie discovers an army of Senti"
+  },
+  "The Matrix Reloaded": {
+   "runtime_raw": "138 minutes",
+   "runtime_mins": [
+    138
+   ],
+   "director_raw": "The Wachowskis",
+   "writer_raw": "The Wachowskis",
+   "release_dates": [
+    "2003-05-07"
+   ],
+   "lead200": "'The Matrix Reloaded' is a 2003 American science fiction action film written and directed by the Wachowskis.<!--Do not change without consensus. See Talk:The Matrix (franchise)#Request for Comment - Crediting The Wachowskis. --> It is the sequel to The Matrix (1999) and the second installment in the Matrix film series. The film stars Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, and Gloria Foster who reprise their roles from the previous film, with Jada Pinkett Smith joining the cast. In the film, Neo, Morpheus, and Trinity attempt to reach the Source of the Matrix to end the war as Zion prepares for an invasion from the machines. The film premiered on May 7, 2003, in Wes"
+  },
+  "The Matrix Revolutions": {
+   "runtime_raw": "129 minutes",
+   "runtime_mins": [
+    129
+   ],
+   "director_raw": "The Wachowskis",
+   "writer_raw": "The Wachowskis",
+   "release_dates": [
+    "2003-11-05"
+   ],
+   "lead200": "'The Matrix Revolutions' is a 2003 American science fiction action film written and directed by the Wachowskis.<!--Do not change without consensus. See Talk:The Matrix (franchise)#Request for Comment - Crediting The Wachowskis. --> It is the third film in The Matrix film series, shot back-to-back with The Matrix Reloaded (2003). It stars Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving and Jada Pinkett Smith. The film follows Neo and his allies as they fight to end the war between humanity and the machines permanently while opposing the rogue Agent Smith. The Matrix Revolutions was released worldwide on November 5, 2003, by Warner Bros. Pictures, and was the first live-action"
+  },
+  "V for Vendetta (film)": {
+   "runtime_raw": "133 minutes",
+   "runtime_mins": [
+    133
+   ],
+   "director_raw": "James McTeigue",
+   "writer_raw": "The Wachowskis",
+   "release_dates": [
+    "2005-12-11"
+   ],
+   "lead200": "'V for Vendetta' is a 2005 dystopian thriller film directed by James McTeigue from a screenplay by the Wachowskis. It was McTeigue's directorial debut. It is <!--Do not change without consensus. See Talk:The Matrix (franchise)#Request for Comment – Crediting The Wachowskis. -->based on the 1988–89 DC Vertigo Comics limited series graphic novel V for Vendetta by Alan Moore, David Lloyd, and Tony Weare. The cast includes Natalie Portman, Hugo Weaving, Stephen Rea and John Hurt. The film, which is set in a future where a fascist totalitarian regime has subjugated the United Kingdom, centres on V (Weaving), a masked vigilante who attempts to ignite a revolution, and Evey Hammond (Portman), a you"
+  },
+  "Speed Racer (film)": {
+   "runtime_raw": "135 minutes",
+   "runtime_mins": [
+    135
+   ],
+   "director_raw": "The Wachowskis",
+   "writer_raw": "The Wachowskis",
+   "release_dates": [
+    "2008-04-26"
+   ],
+   "lead200": "'Speed Racer' is a 2008 American sports action comedy film written and directed by the Wachowskis,<!--Do not change without consensus. See Talk:The Matrix (franchise)#Request for Comment - Crediting The Wachowskis. --> based on the 1966 manga series by Tatsuo Yoshida. The film stars Emile Hirsch, Christina Ricci, John Goodman, Susan Sarandon, Matthew Fox, Roger Allam, Benno Fürmann, Hiroyuki Sanada, Rain, and Richard Roundtree. The plot revolves around Speed Racer, an 18-year-old automobile racer who follows his apparently deceased older brother's career, choosing to remain loyal to his family and their company, Racer Motors, which causes difficulties after he refuses a contract that E.P. Ar"
+  },
+  "Cloud Atlas (film)": {
+   "runtime_raw": "172 minutes",
+   "runtime_mins": [
+    172
+   ],
+   "director_raw": "Lana Wachowski, Tom Tykwer, Lilly Wachowski",
+   "writer_raw": "Lana Wachowski, Tom Tykwer, Lilly Wachowski",
+   "release_dates": [
+    "2012-09-08"
+   ],
+   "lead200": "'Cloud Atlas' is a 2012 epic science fiction film written and directed by the Wachowskis and Tom Tykwer. Based on the 2004 novel by David Mitchell, it has multiple plots occurring during six eras and features an ensemble cast who perform multiple roles across these time periods. The film was produced by Grant Hill and Stefan Arndt, in addition to the Wachowskis and Tykwer. During its four years of development, the producers had difficulties securing financial support. It was eventually produced with a budget between US$100 million and US$146.7 million provided by independent sources, making it one of the most expensive independent films ever produced. Filming for Cloud Atlas began in Septemb"
+  },
+  "Jupiter Ascending": {
+   "runtime_raw": "127 minutes",
+   "runtime_mins": [
+    127
+   ],
+   "director_raw": "The Wachowskis",
+   "writer_raw": "The Wachowskis",
+   "release_dates": [
+    "2015-01-27"
+   ],
+   "lead200": "'Jupiter Ascending' is a 2015 space opera film written, directed and co-produced by the Wachowskis. Starring Channing Tatum and Mila Kunis with Sean Bean, Eddie Redmayne and Douglas Booth in supporting roles, the film centers on Jupiter Jones (Kunis), an ordinary cleaning woman, and Caine Wise (Tatum), an interplanetary warrior who informs Jones that her destiny extends beyond Earth. Supporting cast member Douglas Booth has described the film's fictional universe as a cross between The Matrix and Star Wars,<ref>cite magazine|first=Broo"
+  },
+  "The Matrix Resurrections": {
+   "runtime_raw": "148 minutes",
+   "runtime_mins": [
+    148
+   ],
+   "director_raw": "Lana Wachowski",
+   "writer_raw": "Lana Wachowski, David Mitchell, Aleksandar Hemon",
+   "release_dates": [
+    "2021-12-18"
+   ],
+   "lead200": "'The Matrix Resurrections' is a 2021 American science fiction action film co-produced and directed by Lana Wachowski, who co-wrote the screenplay with David Mitchell and Aleksandar Hemon. It is the sequel to The Matrix Revolutions (2003) and the fourth installment in The Matrix film series. The film stars an ensemble cast including Keanu Reeves, Carrie-Anne Moss, Yahya Abdul-Mateen II, Jessica Henwick, Jonathan Groff, Neil Patrick Harris, Priyanka Chopra Jonas, Lambert Wilson, Christina Ricci, Freema Agyeman, and Jada Pinkett Smith. Set sixty years after Revolutions, the film follows Neo, who lives a seemingly ordinary life as a video game developer having trouble with distinguishing fantasy"
+  }
+ },
+ "film_claims": {
+  "The Animatrix": {
+   "probe": "It includes nine animated short films",
+   "text": ":50--> | country =, United States, South Korea, Japan | language =, English, Japanese | budget = | gross = lead=yes is a 2003 adult animated science fiction anthology film produced by the Wachowskis. It includes nine animated short films, some of which provide backstory for The Matrix film series, while others present side stories. The Animatrix was released by Warner Home Video on June 3, 2003. == Plot == === Final Flight of the Osi"
+  },
+  "V for Vendetta (film)": {
+   "probe": "is a 2005 dystopian thriller film directed by James McTeigue from a screenplay by the Wachowskis. It was McTeigue's directorial debut.",
+   "text": "m | runtime = 133 minutes<!--Theatrical runtime: 133:23--> | country =, United States, United Kingdom, Germany | language = English | budget = $50–54 million | gross = $134.7 million 'V for Vendetta' is a 2005 dystopian thriller film directed by James McTeigue from a screenplay by the Wachowskis. It was McTeigue's directorial debut. It is <!--Do not change without consensus. See Talk:The Matrix (franchise)#Request for Comment – Crediting The Wachowskis. -->based on the 1988–89 DC Vertigo Comics limited series graphic novel V for"
+  },
+  "Cloud Atlas (film)": {
+   "probe": "is a 2012 epic science fiction film written and directed by the Wachowskis and Tom Tykwer. Based on the 2004 novel by David Mitchell,",
+   "text": " United States | language = English | budget = $100–146.7 million | gross = $130.5 million | production_companies =, Cloud Atlas Productions, X Filme Creative Pool, Anarchos Productions 'Cloud Atlas' is a 2012 epic science fiction film written and directed by the Wachowskis and Tom Tykwer. Based on the 2004 novel by David Mitchell, it has multiple plots occurring during six eras and features an ensemble cast who perform multiple roles across these time periods. The film was produced by Grant Hill and Stefan Arndt, in addition t"
+  }
+ },
+ "animatrix_segments": [
+  "Final Flight of the Osiris",
+  "The Second Renaissance, Part I",
+  "The Second Renaissance, Part II",
+  "Kid's Story",
+  "Program",
+  "World Record",
+  "Beyond",
+  "A Detective Story",
+  "Matriculated"
+ ],
+ "qids": {
+  "Assassins (1995 film)": {
+   "q": "Q739498",
+   "gate": true,
+   "pub_years": [
+    1995
+   ],
+   "year": 1995,
+   "p2047": 132
+  },
+  "Bound (1996 film)": {
+   "q": "Q864930",
+   "gate": true,
+   "pub_years": [
+    1996
+   ],
+   "year": 1996,
+   "p2047": 108
+  },
+  "The Matrix": {
+   "q": "Q83495",
+   "gate": true,
+   "pub_years": [
+    1999
+   ],
+   "year": 1999,
+   "p2047": 136
+  },
+  "The Animatrix": {
+   "q": "Q335340",
+   "gate": true,
+   "pub_years": [
+    2003
+   ],
+   "year": 2003,
+   "p2047": 97
+  },
+  "The Matrix Reloaded": {
+   "q": "Q189600",
+   "gate": true,
+   "pub_years": [
+    2003
+   ],
+   "year": 2003,
+   "p2047": 138
+  },
+  "The Matrix Revolutions": {
+   "q": "Q207536",
+   "gate": true,
+   "pub_years": [
+    2003
+   ],
+   "year": 2003,
+   "p2047": 129
+  },
+  "V for Vendetta (film)": {
+   "q": "Q5890",
+   "gate": true,
+   "pub_years": [
+    2005,
+    2006
+   ],
+   "year": 2005,
+   "p2047": 132
+  },
+  "Speed Racer (film)": {
+   "q": "Q312078",
+   "gate": true,
+   "pub_years": [
+    2008
+   ],
+   "year": 2008,
+   "p2047": 129
+  },
+  "Cloud Atlas (film)": {
+   "q": "Q28936",
+   "gate": true,
+   "pub_years": [
+    2012
+   ],
+   "year": 2012,
+   "p2047": 172
+  },
+  "Jupiter Ascending": {
+   "q": "Q12125299",
+   "gate": true,
+   "pub_years": [
+    2015
+   ],
+   "year": 2015,
+   "p2047": 127
+  },
+  "The Matrix Resurrections": {
+   "q": "Q80322391",
+   "gate": true,
+   "pub_years": [
+    2021
+   ],
+   "year": 2021,
+   "p2047": 148
+  }
+ }
+}

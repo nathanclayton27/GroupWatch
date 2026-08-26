@@ -304,7 +304,15 @@ def main():
         # syncable kinds), so nothing enforces them beyond this comment and
         # the gate below. If sync is ever widened past films and games, these
         # two cases are the reason to widen it carefully.
-        medium = "g" if "game" in kind else "f"
+        # A list can be honestly BOTH mediums — the-matrix is films and
+        # games — and then the property kind cannot answer for a single
+        # row. Deriving one letter from it filed that list's four films
+        # in the game lane, where no film list could ever reach them, and
+        # five exact title+year matches with the Wachowskis list silently
+        # failed to pair. So a row may declare its own medium as "m", and
+        # the kind is only the fallback — it stays untouched because it is
+        # also the copy printed on the card wall and in search.
+        prop_medium = "g" if "game" in kind else "f"
         syncable = "film" in kind or "game" in kind
         for s in p.get("sections", []):
             for x in s.get("items", []):
@@ -317,6 +325,11 @@ def main():
                     row.append(x.get("w"))
                 rows.append(row)
                 if syncable:
+                    rm = x.get("m")
+                    assert rm is None or rm in ("f", "g"), (
+                        "%s item %s: medium %r must be 'f' or 'g'"
+                        % (p["slug"], x["id"], rm))
+                    medium = rm or prop_medium
                     keys = []
                     y = _year_of(x, n)
                     if y:

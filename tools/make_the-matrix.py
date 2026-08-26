@@ -97,17 +97,17 @@ will say so.
 
 A NOTE FOR WHOEVER TOUCHES THE SYNC KEYS
 ----------------------------------------
-build.py derives a row's sync medium from the PROPERTY's kind string —
-`medium = "g" if "game" in kind else "f"` — so a list that is honestly both
-mediums can only be one of them. This list's kind names games, which is true
-and is what puts it under the games chip on the card wall, and the consequence
-is that its FILM rows ride the game lane. Nothing is broken by that today:
-no other list in the catalogue carries any Matrix film or any Matrix game, so
-no cross-list group forms either way. It would matter the day a canon film
-list picked up The Matrix, so `sync_report()` below raises then instead of
-letting the pairing fail in silence. The fix at that point is one line in
-build.py's MEDIA_FIX (the hatch nasuverse already uses) plus kind "films" —
-not a rename of any id here.
+This list is honestly BOTH mediums, and build.py used to derive one sync
+medium from the property kind string — so all seven rows, films included,
+rode the game lane. That went unnoticed only while no other list carried a
+Matrix film. The Wachowskis list then landed with FIVE exact title+year
+matches (the four films and The Animatrix) and none of them paired.
+
+Fixed by making the medium a per-row fact: each row here carries "m" ("f"
+or "g"), and build.py falls back to the kind string only for the lists that
+are honestly one thing. The kind string is deliberately NOT changed to
+"films" — it is also the copy printed on the card wall and in search, and a
+card that stops mentioning the games trades one bug for another.
 
 Data:   scratch/agent-matrix/fetch.py -> scratch/agent-matrix/wiki/
         scratch/agent-matrix/collect.py -> tools/data/matrix.json
@@ -179,40 +179,43 @@ def catalogue_rows():
         kind = p.get("kind") or ""
         if not ("film" in kind or "game" in kind):
             continue
-        medium = "g" if "game" in kind else "f"
+        prop_medium = "g" if "game" in kind else "f"
         for s in p.get("sections", []):
             for x in s.get("items", []):
                 y = year_of(x, str(x.get("n", "")))
                 if y:
-                    out.append((p["slug"], medium, normt(x["t"]), y, x["t"]))
+                    out.append((p["slug"], x.get("m") or prop_medium,
+                                normt(x["t"]), y, x["t"]))
     return out
 
 
-def sync_report(mine, medium):
+def sync_report(mine, _medium=None):
     """Groups this list would join, and the one that must never appear.
 
-    `mine` is [(normalized title, year, medium of the work)]. The list ships
-    under one property medium (see the module docstring), so the groups that
-    actually form are the ones matching THAT letter. A film sibling on a
-    film-kind list is the case the medium choice would silently break, so it
-    raises instead.
+    `mine` is [(normalized title, year, medium of the work)]. Each row now
+    carries its own medium letter, so a film pairs with film lists and a
+    game with game lists — the thing this list could not do while one
+    property-wide letter spoke for all seven rows.
+
+    The assertion is kept and inverted: nothing should now land in
+    `would_have`, because there is no longer a lane a row can be stranded
+    in. If one does, the per-row medium has regressed.
     """
     shipped = catalogue_rows()
     forms, would_have = {}, {}
     for title, year, own in mine:
+        mymedium = "f" if own == "film" else "g"
         for oslug, omedium, otitle, oyear, odisp in shipped:
             if (otitle, oyear) != (title, year):
                 continue
             key = "%s|%s|%s" % (title, year, omedium)
-            (forms if omedium == medium else would_have).setdefault(
+            (forms if omedium == mymedium else would_have).setdefault(
                 key, []).append((oslug, odisp, own))
-    assert not [k for k, v in would_have.items()
-                if any(own == "film" for _s, _d, own in v)], (
-        "a Matrix FILM now appears on a film-kind list (%s) while this list "
-        "rides the '%s' medium, so the two would not pair. Move this list to "
-        "kind 'films' and add {\"the-matrix\": [\"movies\", \"games\"]} to "
-        "MEDIA_FIX in src/build.py — do not rename any id here."
-        % (sorted(would_have), medium))
+    assert not would_have, (
+        "a Matrix row matches a shipped row on title and year but sits in "
+        "the other medium lane (%s). Rows carry their own 'm' now, so this "
+        "means the per-row medium regressed in src/build.py or here — it is "
+        "NOT fixed by renaming an id." % sorted(would_have))
     return forms, would_have
 
 
@@ -375,8 +378,10 @@ def main():
             w = round(films[title]["runtime"] / 60.0, 2)
         else:
             w = games[title]["main_h"]
+        # the row says which lane it belongs in; the list is both
         x = {"id": "mtx-%d-%s" % (year, slug(title)), "t": title,
-             "n": str(year), "w": w}
+             "n": str(year), "w": w,
+             "m": "f" if medium == "film" else "g"}
         note = join_bits(NOTES[title])
         if note:
             x["note"] = note
@@ -440,9 +445,11 @@ def main():
 
     # ---- what this list shares with the rest of the catalogue ---------------
     KIND = "films & games"
-    medium = "g" if "game" in KIND else "f"
     mine = [(normt(x["t"]), x["n"], m) for x, m, _y in rows]
-    forms, would_have = sync_report(mine, medium)
+    forms, would_have = sync_report(mine)
+    # the whole point of the per-row medium: the four films and The
+    # Animatrix must reach the Wachowskis list, which is kind "films"
+    assert not would_have, sorted(would_have)
 
     p = {
         "slug": SLUG,

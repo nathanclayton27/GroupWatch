@@ -53,6 +53,7 @@
           "t": "The Matrix",
           "n": "1999",
           "w": 2.27,
+          "m": "f",
           "note": "Four Academy Awards, and in the National Film Registry since 2012"
         }
       ],
@@ -69,6 +70,7 @@
           "t": "The Animatrix",
           "n": "2003",
           "w": 1.62,
+          "m": "f",
           "note": "Nine animated shorts by seven directors, counted as one film. It leads 2003 because its stories do — one is set in the gap between the first two films, and Final Flight of the Osiris sets up the next row's prologue"
         },
         {
@@ -76,6 +78,7 @@
           "t": "Enter the Matrix",
           "n": "2003",
           "w": 7.41,
+          "m": "g",
           "note": "Shot with the cast during the same production as the two 2003 films — over an hour of original footage written and directed by the Wachowskis. Its story runs concurrent with Reloaded"
         },
         {
@@ -83,6 +86,7 @@
           "t": "The Matrix Reloaded",
           "n": "2003",
           "w": 2.3,
+          "m": "f",
           "note": "First of two halves filmed simultaneously in one shoot, codenamed The Burly Man, and released in two parts in 2003"
         },
         {
@@ -90,6 +94,7 @@
           "t": "The Matrix Revolutions",
           "n": "2003",
           "w": 2.15,
+          "m": "f",
           "note": "The other half, out under six months later; the two were shot back-to-back"
         }
       ]
@@ -105,6 +110,7 @@
           "t": "The Matrix: Path of Neo",
           "n": "2005",
           "w": 9.37,
+          "m": "g",
           "note": "A game that replays the trilogy's own scenes with Neo under your control; the Wachowskis wrote and co-directed it"
         },
         {
@@ -112,6 +118,7 @@
           "t": "The Matrix Resurrections",
           "n": "2021",
           "w": 2.47,
+          "m": "f",
           "note": "Eighteen years after Revolutions, and directed by Lana Wachowski alone"
         }
       ]

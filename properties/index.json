@@ -2227,6 +2227,26 @@
     "totalw": 193.67
   },
   {
+    "slug": "wachowskis",
+    "media": [
+      "movies"
+    ],
+    "title": "The Wachowskis",
+    "subtitle": "wrote it or directed it, one row per film",
+    "kind": "films",
+    "year": "1995–2021",
+    "popularity": 65,
+    "blurb": "Eleven films in release order — about 24 hours. Eight they directed and three they only wrote, and every row says which.",
+    "accent": "#9542B9",
+    "accentDark": "#E5A3FF",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 11,
+    "totalw": 24.37
+  },
+  {
     "slug": "archer",
     "media": [
       "tv"
