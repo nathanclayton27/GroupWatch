@@ -3137,6 +3137,25 @@ let MANIFEST = [
     "totalw": 27.02
   },
   {
+    "slug": "gurren-lagann",
+    "media": [
+      "anime"
+    ],
+    "title": "Gurren Lagann",
+    "subtitle": "the whole 2007 run — and neither film",
+    "kind": "anime",
+    "year": "2007",
+    "popularity": 69,
+    "blurb": "Gainax's twenty-seven-episode mecha series in broadcast order, plus the bonus episode that came with the game. Both films re-cut the series, so neither is listed.",
+    "accent": "#A62020",
+    "accentDark": "#FF7A7A",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 28
+  },
+  {
     "slug": "silent-hill",
     "media": [
       "games"
@@ -5250,7 +5269,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '78780f7edb69';
+const BUILD = '9c42cb7e5e3f';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
