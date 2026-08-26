@@ -2142,6 +2142,26 @@ let MANIFEST = [
     "total": 69
   },
   {
+    "slug": "eastwood",
+    "media": [
+      "movies"
+    ],
+    "title": "Clint Eastwood",
+    "subtitle": "directed or starred in, one row per film",
+    "kind": "films",
+    "year": "1955–2024",
+    "popularity": 79,
+    "blurb": "Sixty-nine films in release order — about 137 hours. One row per film whether he directed it, starred in it or did both, because 24 of them are both.",
+    "accent": "#70825E",
+    "accentDark": "#9CB183",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 69,
+    "totalw": 137.41
+  },
+  {
     "slug": "ghibli",
     "media": [
       "movies"
@@ -2692,6 +2712,25 @@ let MANIFEST = [
       "many": "episodes"
     },
     "total": 148
+  },
+  {
+    "slug": "john-wayne",
+    "media": [
+      "movies"
+    ],
+    "title": "John Wayne",
+    "subtitle": "the film roles, in release order",
+    "kind": "films",
+    "year": "1926–1977",
+    "popularity": 72,
+    "blurb": "173 films across fifty years — every uncredited walk-on, Poverty Row western and Mascot serial the filmography lists, from prop man to The Shootist.",
+    "accent": "#A83E2C",
+    "accentDark": "#F09070",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 173
   },
   {
     "slug": "rick-and-morty",
@@ -4868,13 +4907,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '1a8c37cb4866';
+const BUILD = 'ef7f76880715';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = '79041bde0c';
+const SYNCVER = '2ea6eac2b8';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

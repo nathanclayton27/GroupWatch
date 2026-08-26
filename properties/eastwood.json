@@ -1,0 +1,578 @@
+{
+  "slug": "eastwood",
+  "title": "Clint Eastwood",
+  "subtitle": "directed or starred in, one row per film",
+  "kind": "films",
+  "popularity": 79,
+  "year": "1955–2024",
+  "blurb": "Sixty-nine films in release order — about 137 hours. One row per film whether he directed it, starred in it or did both, because 24 of them are both.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#70825E",
+  "accentDark": "#9CB183",
+  "tiers": false,
+  "notes": [
+    [
+      "One list, not two, and every row says which job he did.",
+      "Splitting the directing from the acting is the obvious move and it is the wrong one: 24 of these 69 films are films he directed AND starred in, so Unforgiven and Gran Torino would land on two pages and a tick on either would mean half a thing. So there is one row per film, in release order, and the note names the role — directed, starred, or both. 16 he directed without appearing; 29 he acted in for other directors."
+    ],
+    [
+      "Directed or credited on screen — 69 of the 82 films the filmography lists.",
+      "The thirteen it leaves out. Eight uncredited appearances: the 1955–57 contract-player walk-ons — Lady Godiva of Coventry, Revenge of the Creature, Tarantula, Away All Boats, Never Say Goodbye, Star in the Dust and Escapade in Japan — and his cameo as himself in Casper. The source lists all of them and marks every one uncredited in its own notes column, which is the source drawing the line rather than this list; an unbilled jet-squadron leader is not a role. Breezy and American Sniper keep their rows despite being the same kind of cameo, because he directed both, and the row says so. Also out: four appearances as himself in documentaries about other people, and one producer-only credit, The Stars Fell on Henrietta — producing is not one of the two jobs this list tracks, which is also why Tightrope and Trouble with the Curve ARE here: he produced without directing, but he stars in both."
+    ],
+    [
+      "No television.",
+      "The source keeps it in a separate section from the films, and that is the line this list takes: eleven acting credits including the eight seasons of Rawhide, and two directing credits — an Amazing Stories episode and an instalment of The Blues. The four documentaries he executive produced are out for the same reason the producing is."
+    ],
+    [
+      "The five sections are the article's own.",
+      "Not five invented decades: they are the five career headings on the Clint Eastwood article, with their year ranges and their titles as written. The first one names Rawhide, which is television and therefore not a row on the page it heads."
+    ],
+    [
+      "Bar widths are runtimes, from each film's own infobox.",
+      "One source for all 69, and every one of them has a figure, so no row goes unweighted. Wikidata's runtime property was the alternative and lost: it carries two or three competing values on twelve of these films with nothing on the statements to separate them, and the longest-wins reading would have shipped The Good, the Bad and the Ugly at its 177-minute Italian premiere length and The Enforcer at 112 minutes for a film its own article says runs 96."
+    ],
+    [
+      "One film here has a second version, and it still gets one row.",
+      "A sweep of all 81 film articles for a sentence stating a running time beside a word meaning a particular version turns up exactly one: The Good, the Bad and the Ugly, which premiered in Italy at 177 minutes, played Italian cinemas at 174 after Leone cut a scene, and reached America at 161. The bar measures the 174, which is what its infobox states, and the row note names the others. A second row would either double that film's hours — you do not watch it twice — or carry no weight in a list where every other row has some, and it would pair with nothing anywhere, because rows pair across lists by title and year."
+    ],
+    [
+      "Five of these films are on another list here.",
+      "Unforgiven, Mystic River, Million Dollar Baby, Letters from Iwo Jima and American Sniper are on Best Picture as well. Ticking one ticks the other: film rows pair across lists by title and year, so a film watched here is watched there. Nothing is duplicated and no hours are counted twice, because every list totals only its own rows."
+    ],
+    "Roster and roles from Wikipedia's Clint Eastwood filmography, read from the acting and directing tables themselves; the five sections and the facts on the rows from the Clint Eastwood article; runtimes and the alternate-cut lengths from each film's own article."
+  ],
+  "sections": [
+    {
+      "id": "contract",
+      "title": "Acting debut and Rawhide",
+      "sub": "1955–1958 · 4 films · 6 hours",
+      "intro": "The contract-player years: four credited film roles across four years, none of them large. Seven more parts from the same stretch went out uncredited and are not rows here. The heading is the article's own, and the Rawhide in it is the television series that made him famous while these were happening — television is not on this list.",
+      "items": [
+        {
+          "id": "ce-1955-francis-in-the-navy",
+          "t": "Francis in the Navy",
+          "n": "1955",
+          "w": 1.33,
+          "note": "Starred as Jonesy"
+        },
+        {
+          "id": "ce-1956-the-first-traveling-saleslady",
+          "t": "The First Traveling Saleslady",
+          "n": "1956",
+          "w": 1.53,
+          "note": "Starred as Lieutenant Jack Rice"
+        },
+        {
+          "id": "ce-1958-ambush-at-cimarron-pass",
+          "t": "Ambush at Cimarron Pass",
+          "n": "1958",
+          "w": 1.22,
+          "note": "Starred as Keith Williams"
+        },
+        {
+          "id": "ce-1958-lafayette-escadrille",
+          "t": "Lafayette Escadrille",
+          "n": "1958",
+          "w": 1.55,
+          "note": "Starred as George Moseley"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "leone",
+      "title": "Spaghetti Westerns and stardom",
+      "sub": "1964–1969 · 8 films · 17 hours",
+      "intro": "Three films for Sergio Leone turn a television cowboy into a star, and the five that follow are what that stardom bought. He directs none of these; the whole section is acting. The years on the trilogy rows are the Italian releases — America did not see any of the three until 1967.",
+      "items": [
+        {
+          "id": "ce-1964-a-fistful-of-dollars",
+          "t": "A Fistful of Dollars",
+          "n": "1964",
+          "w": 1.65,
+          "note": "Starred as Joe · The first of Sergio Leone's Dollars Trilogy"
+        },
+        {
+          "id": "ce-1965-for-a-few-dollars-more",
+          "t": "For a Few Dollars More",
+          "n": "1965",
+          "w": 2.2,
+          "note": "Starred as Manco · The second of Sergio Leone's Dollars Trilogy"
+        },
+        {
+          "id": "ce-1966-the-good-the-bad-and-the-ugly",
+          "t": "The Good, the Bad and the Ugly",
+          "n": "1966",
+          "w": 2.9,
+          "note": "Starred as Blondie · The third of Sergio Leone's Dollars Trilogy · The bar is the 174-minute version Italian cinemas showed; the premiere ran 177 minutes and most American prints 161"
+        },
+        {
+          "id": "ce-1967-the-witches",
+          "t": "The Witches",
+          "n": "1967",
+          "w": 1.83,
+          "note": "Starred as Carlo · A portmanteau film; his part is the segment An Evening Like the Others"
+        },
+        {
+          "id": "ce-1968-hang-em-high",
+          "t": "Hang 'Em High",
+          "n": "1968",
+          "w": 1.9,
+          "note": "Starred as Jed Cooper"
+        },
+        {
+          "id": "ce-1968-coogan-s-bluff",
+          "t": "Coogan's Bluff",
+          "n": "1968",
+          "w": 1.57,
+          "note": "Starred as Walt Coogan"
+        },
+        {
+          "id": "ce-1968-where-eagles-dare",
+          "t": "Where Eagles Dare",
+          "n": "1968",
+          "w": 2.58,
+          "note": "Starred as Lieutenant Schaffer"
+        },
+        {
+          "id": "ce-1969-paint-your-wagon",
+          "t": "Paint Your Wagon",
+          "n": "1969",
+          "w": 2.57,
+          "note": "Starred as Pardner"
+        }
+      ]
+    },
+    {
+      "id": "harry",
+      "title": "Directorial debut and Dirty Harry",
+      "sub": "1970–1989 · 28 films · 54 hours",
+      "intro": "The biggest stretch of the career and the one where the two jobs start running together: 28 films in twenty years, thirteen of them directed. Play Misty for Me is his first as director and Dirty Harry followed it into cinemas nine weeks later. Eleven of these he both directed and starred in.",
+      "items": [
+        {
+          "id": "ce-1970-two-mules-for-sister-sara",
+          "t": "Two Mules for Sister Sara",
+          "n": "1970",
+          "w": 1.9,
+          "note": "Starred as Hogan"
+        },
+        {
+          "id": "ce-1970-kelly-s-heroes",
+          "t": "Kelly's Heroes",
+          "n": "1970",
+          "w": 2.43,
+          "note": "Starred as Private Kelly"
+        },
+        {
+          "id": "ce-1971-the-beguiled",
+          "t": "The Beguiled",
+          "n": "1971",
+          "w": 1.75,
+          "note": "Starred as John McBurney"
+        },
+        {
+          "id": "ce-1971-play-misty-for-me",
+          "t": "Play Misty for Me",
+          "n": "1971",
+          "w": 1.7,
+          "note": "Directed and starred as David Garver · His first film as director"
+        },
+        {
+          "id": "ce-1971-dirty-harry",
+          "t": "Dirty Harry",
+          "n": "1971",
+          "w": 1.7,
+          "note": "Starred as Harry Callahan · The first of five Dirty Harry films"
+        },
+        {
+          "id": "ce-1972-joe-kidd",
+          "t": "Joe Kidd",
+          "n": "1972",
+          "w": 1.47,
+          "note": "Starred as Joe Kidd"
+        },
+        {
+          "id": "ce-1973-high-plains-drifter",
+          "t": "High Plains Drifter",
+          "n": "1973",
+          "w": 1.75,
+          "note": "Directed and starred as The Stranger"
+        },
+        {
+          "id": "ce-1973-breezy",
+          "t": "Breezy",
+          "n": "1973",
+          "w": 1.77,
+          "note": "Directed · He appears in it too, uncredited"
+        },
+        {
+          "id": "ce-1973-magnum-force",
+          "t": "Magnum Force",
+          "n": "1973",
+          "w": 2.05,
+          "note": "Starred as Harry Callahan · The second of five Dirty Harry films"
+        },
+        {
+          "id": "ce-1974-thunderbolt-and-lightfoot",
+          "t": "Thunderbolt and Lightfoot",
+          "n": "1974",
+          "w": 1.92,
+          "note": "Starred as John 'Thunderbolt' Doherty"
+        },
+        {
+          "id": "ce-1975-the-eiger-sanction",
+          "t": "The Eiger Sanction",
+          "n": "1975",
+          "w": 2.15,
+          "note": "Directed and starred as Jonathan Hemlock"
+        },
+        {
+          "id": "ce-1976-the-outlaw-josey-wales",
+          "t": "The Outlaw Josey Wales",
+          "n": "1976",
+          "w": 2.25,
+          "note": "Directed and starred as Josey Wales"
+        },
+        {
+          "id": "ce-1976-the-enforcer",
+          "t": "The Enforcer",
+          "n": "1976",
+          "w": 1.6,
+          "note": "Starred as Harry Callahan · The third of five Dirty Harry films"
+        },
+        {
+          "id": "ce-1977-the-gauntlet",
+          "t": "The Gauntlet",
+          "n": "1977",
+          "w": 1.82,
+          "note": "Directed and starred as Ben Shockley"
+        },
+        {
+          "id": "ce-1978-every-which-way-but-loose",
+          "t": "Every Which Way but Loose",
+          "n": "1978",
+          "w": 1.9,
+          "note": "Starred as Philo Beddoe · An action comedy played opposite an orangutan"
+        },
+        {
+          "id": "ce-1979-escape-from-alcatraz",
+          "t": "Escape from Alcatraz",
+          "n": "1979",
+          "w": 1.87,
+          "note": "Starred as Frank Morris"
+        },
+        {
+          "id": "ce-1980-bronco-billy",
+          "t": "Bronco Billy",
+          "n": "1980",
+          "w": 1.93,
+          "note": "Directed and starred as Bronco Billy McCoy"
+        },
+        {
+          "id": "ce-1980-any-which-way-you-can",
+          "t": "Any Which Way You Can",
+          "n": "1980",
+          "w": 1.93,
+          "note": "Starred as Philo Beddoe · Sequel to Every Which Way but Loose"
+        },
+        {
+          "id": "ce-1982-firefox",
+          "t": "Firefox",
+          "n": "1982",
+          "w": 2.27,
+          "note": "Directed and starred as Mitchell Gant"
+        },
+        {
+          "id": "ce-1982-honkytonk-man",
+          "t": "Honkytonk Man",
+          "n": "1982",
+          "w": 2.05,
+          "note": "Directed and starred as Red Stovall"
+        },
+        {
+          "id": "ce-1983-sudden-impact",
+          "t": "Sudden Impact",
+          "n": "1983",
+          "w": 1.95,
+          "note": "Directed and starred as Harry Callahan · The fourth of five Dirty Harry films"
+        },
+        {
+          "id": "ce-1984-tightrope",
+          "t": "Tightrope",
+          "n": "1984",
+          "w": 1.9,
+          "note": "Starred as Wes Block"
+        },
+        {
+          "id": "ce-1984-city-heat",
+          "t": "City Heat",
+          "n": "1984",
+          "w": 1.62,
+          "note": "Starred as Lieutenant Speer"
+        },
+        {
+          "id": "ce-1985-pale-rider",
+          "t": "Pale Rider",
+          "n": "1985",
+          "w": 1.93,
+          "note": "Directed and starred as Preacher · The highest-grossing western of the 1980s"
+        },
+        {
+          "id": "ce-1986-heartbreak-ridge",
+          "t": "Heartbreak Ridge",
+          "n": "1986",
+          "w": 2.17,
+          "note": "Directed and starred as Gunnery Sergeant Thomas 'Gunny' Highway"
+        },
+        {
+          "id": "ce-1988-bird",
+          "t": "Bird",
+          "n": "1988",
+          "w": 2.68,
+          "note": "Directed"
+        },
+        {
+          "id": "ce-1988-the-dead-pool",
+          "t": "The Dead Pool",
+          "n": "1988",
+          "w": 1.52,
+          "note": "Starred as Harry Callahan · The fifth of five Dirty Harry films"
+        },
+        {
+          "id": "ce-1989-pink-cadillac",
+          "t": "Pink Cadillac",
+          "n": "1989",
+          "w": 2.03,
+          "note": "Starred as Tommy Nowak"
+        }
+      ]
+    },
+    {
+      "id": "acclaim",
+      "title": "Critical acclaim and awards success",
+      "sub": "1990–2009 · 18 films · 39 hours",
+      "intro": "Two Best Picture wins sit in this section — Unforgiven near the start of it and Million Dollar Baby in the middle — and it is where he begins making films he is not in: six of these 18 he directed without appearing, against two in the twenty years before.",
+      "items": [
+        {
+          "id": "ce-1990-white-hunter-black-heart",
+          "t": "White Hunter Black Heart",
+          "n": "1990",
+          "w": 1.87,
+          "note": "Directed and starred as John Wilson"
+        },
+        {
+          "id": "ce-1990-the-rookie",
+          "t": "The Rookie",
+          "n": "1990",
+          "w": 2.0,
+          "note": "Directed and starred as Detective Nick Pulovski"
+        },
+        {
+          "id": "ce-1992-unforgiven",
+          "t": "Unforgiven",
+          "n": "1992",
+          "w": 2.17,
+          "note": "Directed and starred as William 'Will' Munny · Won Best Picture and Best Director"
+        },
+        {
+          "id": "ce-1993-in-the-line-of-fire",
+          "t": "In the Line of Fire",
+          "n": "1993",
+          "w": 2.13,
+          "note": "Starred as Secret Service Agent Frank Horrigan"
+        },
+        {
+          "id": "ce-1993-a-perfect-world",
+          "t": "A Perfect World",
+          "n": "1993",
+          "w": 2.3,
+          "note": "Directed and starred as Texas Ranger Red Garnett"
+        },
+        {
+          "id": "ce-1995-the-bridges-of-madison-county",
+          "t": "The Bridges of Madison County",
+          "n": "1995",
+          "w": 2.23,
+          "note": "Directed and starred as Robert Kincaid"
+        },
+        {
+          "id": "ce-1997-absolute-power",
+          "t": "Absolute Power",
+          "n": "1997",
+          "w": 2.02,
+          "note": "Directed and starred as Luther Whitney"
+        },
+        {
+          "id": "ce-1997-midnight-in-the-garden-of-good-and-evil",
+          "t": "Midnight in the Garden of Good and Evil",
+          "n": "1997",
+          "w": 2.58,
+          "note": "Directed"
+        },
+        {
+          "id": "ce-1999-true-crime",
+          "t": "True Crime",
+          "n": "1999",
+          "w": 2.12,
+          "note": "Directed and starred as Steve Everett"
+        },
+        {
+          "id": "ce-2000-space-cowboys",
+          "t": "Space Cowboys",
+          "n": "2000",
+          "w": 2.17,
+          "note": "Directed and starred as Frank Corvin"
+        },
+        {
+          "id": "ce-2002-blood-work",
+          "t": "Blood Work",
+          "n": "2002",
+          "w": 1.83,
+          "note": "Directed and starred as Terry McCaleb"
+        },
+        {
+          "id": "ce-2003-mystic-river",
+          "t": "Mystic River",
+          "n": "2003",
+          "w": 2.28,
+          "note": "Directed · The first film since Ben-Hur to take both Best Actor and Best Supporting Actor"
+        },
+        {
+          "id": "ce-2004-million-dollar-baby",
+          "t": "Million Dollar Baby",
+          "n": "2004",
+          "w": 2.2,
+          "note": "Directed and starred as Frankie Dunn · Won Best Picture and Best Director"
+        },
+        {
+          "id": "ce-2006-flags-of-our-fathers",
+          "t": "Flags of Our Fathers",
+          "n": "2006",
+          "w": 2.2,
+          "note": "Directed · Companion film to Letters from Iwo Jima — the same battle from the American side"
+        },
+        {
+          "id": "ce-2006-letters-from-iwo-jima",
+          "t": "Letters from Iwo Jima",
+          "n": "2006",
+          "w": 2.33,
+          "note": "Directed · Companion film to Flags of Our Fathers — the same battle from the Japanese side"
+        },
+        {
+          "id": "ce-2008-changeling",
+          "t": "Changeling",
+          "n": "2008",
+          "w": 2.37,
+          "note": "Directed"
+        },
+        {
+          "id": "ce-2008-gran-torino",
+          "t": "Gran Torino",
+          "n": "2008",
+          "w": 1.93,
+          "note": "Directed and starred as Walt Kowalski"
+        },
+        {
+          "id": "ce-2009-invictus",
+          "t": "Invictus",
+          "n": "2009",
+          "w": 2.22,
+          "note": "Directed"
+        }
+      ]
+    },
+    {
+      "id": "late",
+      "title": "Directorial focus, later roles, and retirement",
+      "sub": "2010–2024 · 11 films · 22 hours",
+      "intro": "The retirement years, and almost entirely directing: eight of these eleven he directed without appearing. Cry Macho is his last acting role and Juror #2, out in the year he turned 94, his last film so far.",
+      "items": [
+        {
+          "id": "ce-2010-hereafter",
+          "t": "Hereafter",
+          "n": "2010",
+          "w": 2.15,
+          "note": "Directed"
+        },
+        {
+          "id": "ce-2011-j-edgar",
+          "t": "J. Edgar",
+          "n": "2011",
+          "w": 2.28,
+          "note": "Directed"
+        },
+        {
+          "id": "ce-2012-trouble-with-the-curve",
+          "t": "Trouble with the Curve",
+          "n": "2012",
+          "w": 1.85,
+          "note": "Starred as Gus Lobel"
+        },
+        {
+          "id": "ce-2014-jersey-boys",
+          "t": "Jersey Boys",
+          "n": "2014",
+          "w": 2.23,
+          "note": "Directed"
+        },
+        {
+          "id": "ce-2014-american-sniper",
+          "t": "American Sniper",
+          "n": "2014",
+          "w": 2.2,
+          "note": "Directed · He appears in it too, uncredited"
+        },
+        {
+          "id": "ce-2016-sully",
+          "t": "Sully",
+          "n": "2016",
+          "w": 1.6,
+          "note": "Directed"
+        },
+        {
+          "id": "ce-2018-the-15-17-to-paris",
+          "t": "The 15:17 to Paris",
+          "n": "2018",
+          "w": 1.57,
+          "note": "Directed"
+        },
+        {
+          "id": "ce-2018-the-mule",
+          "t": "The Mule",
+          "n": "2018",
+          "w": 1.93,
+          "note": "Directed and starred as Earl Stone"
+        },
+        {
+          "id": "ce-2019-richard-jewell",
+          "t": "Richard Jewell",
+          "n": "2019",
+          "w": 2.18,
+          "note": "Directed"
+        },
+        {
+          "id": "ce-2021-cry-macho",
+          "t": "Cry Macho",
+          "n": "2021",
+          "w": 1.73,
+          "note": "Directed and starred as Mike Milo · His last acting role"
+        },
+        {
+          "id": "ce-2024-juror-2",
+          "t": "Juror #2",
+          "n": "2024",
+          "w": 1.9,
+          "note": "Directed · His last film so far"
+        }
+      ]
+    }
+  ]
+}

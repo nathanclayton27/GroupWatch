@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and seventy-five lists, from a ten-episode anime to a 1,337-spine film
+One hundred and seventy-seven lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -104,7 +104,10 @@ Agent), *Sam Raimi* (the films plus all thirty episodes of Ash vs Evil
 Dead, with every episode naming the director who actually made it),
 *Christopher Nolan*, *Wes Anderson*, *Paul Thomas Anderson*,
 *David Cronenberg* (23 features sectioned by the career headings his own
-article uses), *Terry Gilliam* (13 features from Holy Grail to Don
+article uses), *Clint Eastwood* (69 films, directing and acting on one
+row each so a tick never means half a thing), *John Wayne* (173 films, the
+Poverty Row years and the uncredited bit parts included, four lost films
+marked as such), *Terry Gilliam* (13 features from Holy Grail to Don
 Quixote, with Brazil measured at the 142-minute final cut the row tells
 you to watch), *Denis Villeneuve* (the eleven released features, the two
 Dunes ticking with the Dune list),

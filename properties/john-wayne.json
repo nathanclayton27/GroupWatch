@@ -1,0 +1,1041 @@
+{
+  "slug": "john-wayne",
+  "title": "John Wayne",
+  "subtitle": "the film roles, in release order",
+  "kind": "films",
+  "popularity": 72,
+  "year": "1926–1977",
+  "blurb": "173 films across fifty years — every uncredited walk-on, Poverty Row western and Mascot serial the filmography lists, from prop man to The Shootist.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#A83E2C",
+  "accentDark": "#F09070",
+  "tiers": false,
+  "notes": [
+    [
+      "Everything the table lists.",
+      "All 173 rows of Wikipedia's \"As actor\" filmography, including the uncredited walk-ons of the Fox years, the two-reel shorts, the Poverty Row westerns and the three Mascot serials. Nothing is thinned out for being obscure. Three entries are left out and they are the only three: the rows the table itself marks as episodes of a television series. The separate \"as himself\" and \"producer only\" tables are not roles and are not here."
+    ],
+    [
+      "Four films cannot be watched.",
+      "Their own articles file them as lost — no print is known to survive. They keep their row and are marked optional, because a viewer should be able to see that the film existed and that this is why it is missing."
+    ],
+    [
+      "The bars are all one width.",
+      "Runtimes were attempted for every row from Wikidata and 164 of the 173 have one. The nine without are the three twelve-chapter serials, a two-reel short and five entries with no article of their own — so rather than guess a number or drop a film, this list carries no weights at all."
+    ],
+    [
+      "Release order, inside the year too.",
+      "Rows follow the filmography table's own order rather than being re-sorted alphabetically, so a film that came out in February sits above one that came out in June."
+    ],
+    [
+      "Other titles ride in the note.",
+      "Dozens of these went out abroad or on reissue under a second name. Where the table records one it is in the row's note; it never gets a row of its own."
+    ],
+    "Filmography from Wikipedia's John Wayne filmography; runtimes from Wikidata; lost-film and serial status from each film's own article categories."
+  ],
+  "sections": [
+    {
+      "id": "props",
+      "title": "Prop man and extra",
+      "sub": "1926–1929 · 17 films",
+      "intro": "He was a Fox prop man who got put in front of the camera when a body was needed — a Yale football player, a flood extra, a 42nd Highlander. Almost every row here is uncredited, one is billed as Duke Morrison, and three of them no longer exist.",
+      "items": [
+        {
+          "id": "jw-1926-brown-of-harvard",
+          "t": "Brown of Harvard",
+          "n": "1926",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1926-bardelys-the-magnificent",
+          "t": "Bardelys the Magnificent",
+          "n": "1926",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1926-the-great-k-a-train-robbery",
+          "t": "The Great K & A Train Robbery",
+          "n": "1926",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1927-annie-laurie",
+          "t": "Annie Laurie",
+          "n": "1927",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1927-the-draw-back",
+          "t": "The Draw-Back",
+          "n": "1927",
+          "note": "Short film · Uncredited"
+        },
+        {
+          "id": "jw-1927-the-drop-kick",
+          "t": "The Drop Kick",
+          "n": "1927",
+          "note": "Uncredited · Also released as Glitter (UK title)"
+        },
+        {
+          "id": "jw-1927-seeing-stars",
+          "t": "Seeing Stars",
+          "n": "1927",
+          "note": "Short film · Uncredited"
+        },
+        {
+          "id": "jw-1928-mother-machree",
+          "t": "Mother Machree",
+          "n": "1928",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1928-four-sons",
+          "t": "Four Sons",
+          "n": "1928",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1928-hangman-s-house",
+          "t": "Hangman's House",
+          "n": "1928",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1928-a-home-made-man",
+          "t": "A Home-Made Man",
+          "n": "1928",
+          "note": "Short film · Uncredited"
+        },
+        {
+          "id": "jw-1928-noah-s-ark",
+          "t": "Noah's Ark",
+          "n": "1928",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1929-speakeasy",
+          "t": "Speakeasy",
+          "n": "1929",
+          "note": "Uncredited · Lost film — no print is known to survive",
+          "opt": true
+        },
+        {
+          "id": "jw-1929-the-black-watch",
+          "t": "The Black Watch",
+          "n": "1929",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1929-words-and-music",
+          "t": "Words and Music",
+          "n": "1929",
+          "note": "Credited as Duke Morrison · Lost film — no print is known to survive",
+          "opt": true
+        },
+        {
+          "id": "jw-1929-salute",
+          "t": "Salute",
+          "n": "1929"
+        },
+        {
+          "id": "jw-1929-the-forward-pass",
+          "t": "The Forward Pass",
+          "n": "1929",
+          "note": "Uncredited · Lost film — no print is known to survive",
+          "opt": true
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "bigtrail",
+      "title": "The Big Trail and the fall",
+      "sub": "1930–1932 · 20 films",
+      "intro": "Raoul Walsh handed him the lead in a widescreen epic and Fox dropped him three leads later. What follows is Columbia bit parts, two Mascot serials and a run of Warner Bros. westerns — the fastest fall in the list, and the reason for the next five years.",
+      "items": [
+        {
+          "id": "jw-1930-men-without-women",
+          "t": "Men Without Women",
+          "n": "1930",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1930-born-reckless",
+          "t": "Born Reckless",
+          "n": "1930",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1930-rough-romance",
+          "t": "Rough Romance",
+          "n": "1930",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1930-cheer-up-and-smile",
+          "t": "Cheer Up and Smile",
+          "n": "1930",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1930-the-big-trail",
+          "t": "The Big Trail",
+          "n": "1930",
+          "note": "Wayne's first starring role"
+        },
+        {
+          "id": "jw-1931-girls-demand-excitement",
+          "t": "Girls Demand Excitement",
+          "n": "1931"
+        },
+        {
+          "id": "jw-1931-three-girls-lost",
+          "t": "Three Girls Lost",
+          "n": "1931"
+        },
+        {
+          "id": "jw-1931-arizona",
+          "t": "Arizona",
+          "n": "1931",
+          "note": "Also released as Men Are Like That and The Virtuous Wife (UK title)"
+        },
+        {
+          "id": "jw-1931-the-deceiver",
+          "t": "The Deceiver",
+          "n": "1931"
+        },
+        {
+          "id": "jw-1931-the-range-feud",
+          "t": "The Range Feud",
+          "n": "1931"
+        },
+        {
+          "id": "jw-1931-maker-of-men",
+          "t": "Maker of Men",
+          "n": "1931"
+        },
+        {
+          "id": "jw-1932-the-shadow-of-the-eagle",
+          "t": "The Shadow of the Eagle",
+          "n": "1932",
+          "note": "Serial in 12 chapters"
+        },
+        {
+          "id": "jw-1932-texas-cyclone",
+          "t": "Texas Cyclone",
+          "n": "1932"
+        },
+        {
+          "id": "jw-1932-two-fisted-law",
+          "t": "Two-Fisted Law",
+          "n": "1932"
+        },
+        {
+          "id": "jw-1932-lady-and-gent",
+          "t": "Lady and Gent",
+          "n": "1932"
+        },
+        {
+          "id": "jw-1932-the-hurricane-express",
+          "t": "The Hurricane Express",
+          "n": "1932",
+          "note": "Serial in 12 chapters"
+        },
+        {
+          "id": "jw-1932-ride-him-cowboy",
+          "t": "Ride Him, Cowboy",
+          "n": "1932",
+          "note": "Also released as The Hawk (UK title)"
+        },
+        {
+          "id": "jw-1932-that-s-my-boy",
+          "t": "That's My Boy",
+          "n": "1932",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1932-the-big-stampede",
+          "t": "The Big Stampede",
+          "n": "1932"
+        },
+        {
+          "id": "jw-1932-haunted-gold",
+          "t": "Haunted Gold",
+          "n": "1932"
+        }
+      ]
+    },
+    {
+      "id": "povertyrow",
+      "title": "Poverty Row",
+      "sub": "1933–1935 · 28 films",
+      "intro": "Monogram and Lone Star, with a handful of Warner Bros. quickies mixed in and Republic taking over the last three: eight to eleven pictures a year, nearly all of them westerns. The densest stretch of the career by a distance.",
+      "items": [
+        {
+          "id": "jw-1933-the-telegraph-trail",
+          "t": "The Telegraph Trail",
+          "n": "1933"
+        },
+        {
+          "id": "jw-1933-the-three-musketeers",
+          "t": "The Three Musketeers",
+          "n": "1933",
+          "note": "Serial in 12 chapters"
+        },
+        {
+          "id": "jw-1933-central-airport",
+          "t": "Central Airport",
+          "n": "1933",
+          "note": "Uncredited"
+        },
+        {
+          "id": "jw-1933-somewhere-in-sonora",
+          "t": "Somewhere in Sonora",
+          "n": "1933"
+        },
+        {
+          "id": "jw-1933-his-private-secretary",
+          "t": "His Private Secretary",
+          "n": "1933"
+        },
+        {
+          "id": "jw-1933-the-life-of-jimmy-dolan",
+          "t": "The Life of Jimmy Dolan",
+          "n": "1933",
+          "note": "Also released as The Kid's Last Fight (UK title)"
+        },
+        {
+          "id": "jw-1933-baby-face",
+          "t": "Baby Face",
+          "n": "1933"
+        },
+        {
+          "id": "jw-1933-the-man-from-monterey",
+          "t": "The Man from Monterey",
+          "n": "1933"
+        },
+        {
+          "id": "jw-1933-riders-of-destiny",
+          "t": "Riders of Destiny",
+          "n": "1933"
+        },
+        {
+          "id": "jw-1933-college-coach",
+          "t": "College Coach",
+          "n": "1933",
+          "note": "Uncredited · Also released as Football Coach (UK title)"
+        },
+        {
+          "id": "jw-1933-sagebrush-trail",
+          "t": "Sagebrush Trail",
+          "n": "1933",
+          "note": "Also released as An Innocent Man (UK title)"
+        },
+        {
+          "id": "jw-1934-the-lucky-texan",
+          "t": "The Lucky Texan",
+          "n": "1934",
+          "note": "Also released as Gold Strike River"
+        },
+        {
+          "id": "jw-1934-west-of-the-divide",
+          "t": "West of the Divide",
+          "n": "1934"
+        },
+        {
+          "id": "jw-1934-blue-steel",
+          "t": "Blue Steel",
+          "n": "1934",
+          "note": "Also released as Stolen Goods (UK title)"
+        },
+        {
+          "id": "jw-1934-the-man-from-utah",
+          "t": "The Man from Utah",
+          "n": "1934"
+        },
+        {
+          "id": "jw-1934-randy-rides-alone",
+          "t": "Randy Rides Alone",
+          "n": "1934"
+        },
+        {
+          "id": "jw-1934-the-star-packer",
+          "t": "The Star Packer",
+          "n": "1934"
+        },
+        {
+          "id": "jw-1934-the-trail-beyond",
+          "t": "The Trail Beyond",
+          "n": "1934"
+        },
+        {
+          "id": "jw-1934-the-lawless-frontier",
+          "t": "The Lawless Frontier",
+          "n": "1934"
+        },
+        {
+          "id": "jw-1934-neath-the-arizona-skies",
+          "t": "'Neath the Arizona Skies",
+          "n": "1934"
+        },
+        {
+          "id": "jw-1935-texas-terror",
+          "t": "Texas Terror",
+          "n": "1935"
+        },
+        {
+          "id": "jw-1935-rainbow-valley",
+          "t": "Rainbow Valley",
+          "n": "1935"
+        },
+        {
+          "id": "jw-1935-the-desert-trail",
+          "t": "The Desert Trail",
+          "n": "1935"
+        },
+        {
+          "id": "jw-1935-the-dawn-rider",
+          "t": "The Dawn Rider",
+          "n": "1935",
+          "note": "Also released as Cold Vengeance"
+        },
+        {
+          "id": "jw-1935-paradise-canyon",
+          "t": "Paradise Canyon",
+          "n": "1935",
+          "note": "Also released as Guns Along The Trail"
+        },
+        {
+          "id": "jw-1935-westward-ho",
+          "t": "Westward Ho",
+          "n": "1935"
+        },
+        {
+          "id": "jw-1935-the-new-frontier",
+          "t": "The New Frontier",
+          "n": "1935"
+        },
+        {
+          "id": "jw-1935-lawless-range",
+          "t": "Lawless Range",
+          "n": "1935"
+        }
+      ]
+    },
+    {
+      "id": "republic",
+      "title": "Republic and Universal",
+      "sub": "1936–1938 · 16 films",
+      "intro": "Republic westerns, then six pictures for Universal that took him off the horse — one about truck drivers, one about an ice hockey player — then back to Republic for the Three Mesquiteers series, which runs on into the next section.",
+      "items": [
+        {
+          "id": "jw-1936-the-oregon-trail",
+          "t": "The Oregon Trail",
+          "n": "1936",
+          "note": "A lost film · 40 stills were discovered in 2013",
+          "opt": true
+        },
+        {
+          "id": "jw-1936-the-lawless-nineties",
+          "t": "The Lawless Nineties",
+          "n": "1936"
+        },
+        {
+          "id": "jw-1936-king-of-the-pecos",
+          "t": "King of the Pecos",
+          "n": "1936"
+        },
+        {
+          "id": "jw-1936-the-lonely-trail",
+          "t": "The Lonely Trail",
+          "n": "1936"
+        },
+        {
+          "id": "jw-1936-winds-of-the-wasteland",
+          "t": "Winds of the Wasteland",
+          "n": "1936",
+          "note": "Also released as Stagecoach Run"
+        },
+        {
+          "id": "jw-1936-sea-spoilers",
+          "t": "Sea Spoilers",
+          "n": "1936"
+        },
+        {
+          "id": "jw-1936-conflict",
+          "t": "Conflict",
+          "n": "1936"
+        },
+        {
+          "id": "jw-1937-california-straight-ahead",
+          "t": "California Straight Ahead!",
+          "n": "1937"
+        },
+        {
+          "id": "jw-1937-i-cover-the-war",
+          "t": "I Cover the War",
+          "n": "1937"
+        },
+        {
+          "id": "jw-1937-idol-of-the-crowds",
+          "t": "Idol of the Crowds",
+          "n": "1937"
+        },
+        {
+          "id": "jw-1937-adventure-s-end",
+          "t": "Adventure's End",
+          "n": "1937"
+        },
+        {
+          "id": "jw-1937-born-to-the-west",
+          "t": "Born to the West",
+          "n": "1937",
+          "note": "Also released as Hell Town (reissue title)"
+        },
+        {
+          "id": "jw-1938-pals-of-the-saddle",
+          "t": "Pals of the Saddle",
+          "n": "1938",
+          "note": "The first of eight films in the \"Three Mesquiteers\" series"
+        },
+        {
+          "id": "jw-1938-overland-stage-raiders",
+          "t": "Overland Stage Raiders",
+          "n": "1938"
+        },
+        {
+          "id": "jw-1938-santa-fe-stampede",
+          "t": "Santa Fe Stampede",
+          "n": "1938"
+        },
+        {
+          "id": "jw-1938-red-river-range",
+          "t": "Red River Range",
+          "n": "1938"
+        }
+      ]
+    },
+    {
+      "id": "stagecoach",
+      "title": "Stagecoach and the war years",
+      "sub": "1939–1945 · 28 films",
+      "intro": "John Ford finally gave him a lead in February 1939 and everything changed — though he still owed Republic four more Mesquiteers pictures that year, which is why they sit right underneath it. Then the war films: Flying Tigers, The Fighting Seabees, They Were Expendable.",
+      "items": [
+        {
+          "id": "jw-1939-stagecoach",
+          "t": "Stagecoach",
+          "n": "1939"
+        },
+        {
+          "id": "jw-1939-the-night-riders",
+          "t": "The Night Riders",
+          "n": "1939"
+        },
+        {
+          "id": "jw-1939-three-texas-steers",
+          "t": "Three Texas Steers",
+          "n": "1939",
+          "note": "Also released as Danger Rides the Range (UK title)"
+        },
+        {
+          "id": "jw-1939-wyoming-outlaw",
+          "t": "Wyoming Outlaw",
+          "n": "1939"
+        },
+        {
+          "id": "jw-1939-new-frontier",
+          "t": "New Frontier",
+          "n": "1939",
+          "note": "Also released as Frontier Horizon"
+        },
+        {
+          "id": "jw-1939-allegheny-uprising",
+          "t": "Allegheny Uprising",
+          "n": "1939",
+          "note": "Also released as The First Rebel (UK title)"
+        },
+        {
+          "id": "jw-1940-dark-command",
+          "t": "Dark Command",
+          "n": "1940"
+        },
+        {
+          "id": "jw-1940-three-faces-west",
+          "t": "Three Faces West",
+          "n": "1940"
+        },
+        {
+          "id": "jw-1940-the-long-voyage-home",
+          "t": "The Long Voyage Home",
+          "n": "1940"
+        },
+        {
+          "id": "jw-1940-seven-sinners",
+          "t": "Seven Sinners",
+          "n": "1940",
+          "note": "Also released as Cafe of the Seven Sinners (UK re-issue title)"
+        },
+        {
+          "id": "jw-1941-a-man-betrayed",
+          "t": "A Man Betrayed",
+          "n": "1941",
+          "note": "Also released as Citadel of Crime (UK title) and Wheel of Fortune (TV title)"
+        },
+        {
+          "id": "jw-1941-lady-from-louisiana",
+          "t": "Lady from Louisiana",
+          "n": "1941"
+        },
+        {
+          "id": "jw-1941-the-shepherd-of-the-hills",
+          "t": "The Shepherd of the Hills",
+          "n": "1941"
+        },
+        {
+          "id": "jw-1942-lady-for-a-night",
+          "t": "Lady for a Night",
+          "n": "1942"
+        },
+        {
+          "id": "jw-1942-reap-the-wild-wind",
+          "t": "Reap the Wild Wind",
+          "n": "1942"
+        },
+        {
+          "id": "jw-1942-the-spoilers",
+          "t": "The Spoilers",
+          "n": "1942"
+        },
+        {
+          "id": "jw-1942-in-old-california",
+          "t": "In Old California",
+          "n": "1942"
+        },
+        {
+          "id": "jw-1942-flying-tigers",
+          "t": "Flying Tigers",
+          "n": "1942"
+        },
+        {
+          "id": "jw-1942-reunion-in-france",
+          "t": "Reunion in France",
+          "n": "1942",
+          "note": "Also released as Mademoiselle France (UK title)"
+        },
+        {
+          "id": "jw-1942-pittsburgh",
+          "t": "Pittsburgh",
+          "n": "1942"
+        },
+        {
+          "id": "jw-1943-a-lady-takes-a-chance",
+          "t": "A Lady Takes a Chance",
+          "n": "1943"
+        },
+        {
+          "id": "jw-1943-in-old-oklahoma",
+          "t": "In Old Oklahoma",
+          "n": "1943",
+          "note": "Also released as War of the Wildcats (re-issue title)"
+        },
+        {
+          "id": "jw-1944-the-fighting-seabees",
+          "t": "The Fighting Seabees",
+          "n": "1944"
+        },
+        {
+          "id": "jw-1944-tall-in-the-saddle",
+          "t": "Tall in the Saddle",
+          "n": "1944"
+        },
+        {
+          "id": "jw-1944-flame-of-barbary-coast",
+          "t": "Flame of Barbary Coast",
+          "n": "1944"
+        },
+        {
+          "id": "jw-1945-back-to-bataan",
+          "t": "Back to Bataan",
+          "n": "1945"
+        },
+        {
+          "id": "jw-1945-they-were-expendable",
+          "t": "They Were Expendable",
+          "n": "1945"
+        },
+        {
+          "id": "jw-1945-dakota",
+          "t": "Dakota",
+          "n": "1945"
+        }
+      ]
+    },
+    {
+      "id": "batjac",
+      "title": "Red River and The Quiet Man",
+      "sub": "1946–1955 · 21 films",
+      "intro": "Howard Hawks, Ford's cavalry trilogy, an Academy Award nomination for Sands of Iwo Jima, and Ireland. He starts producing in here too, and the company he builds is Batjac.",
+      "items": [
+        {
+          "id": "jw-1946-without-reservations",
+          "t": "Without Reservations",
+          "n": "1946"
+        },
+        {
+          "id": "jw-1947-angel-and-the-badman",
+          "t": "Angel and the Badman",
+          "n": "1947",
+          "note": "Also producer"
+        },
+        {
+          "id": "jw-1947-tycoon",
+          "t": "Tycoon",
+          "n": "1947"
+        },
+        {
+          "id": "jw-1948-red-river",
+          "t": "Red River",
+          "n": "1948"
+        },
+        {
+          "id": "jw-1948-fort-apache",
+          "t": "Fort Apache",
+          "n": "1948"
+        },
+        {
+          "id": "jw-1948-3-godfathers",
+          "t": "3 Godfathers",
+          "n": "1948"
+        },
+        {
+          "id": "jw-1948-wake-of-the-red-witch",
+          "t": "Wake of the Red Witch",
+          "n": "1948"
+        },
+        {
+          "id": "jw-1949-the-fighting-kentuckian",
+          "t": "The Fighting Kentuckian",
+          "n": "1949"
+        },
+        {
+          "id": "jw-1949-she-wore-a-yellow-ribbon",
+          "t": "She Wore a Yellow Ribbon",
+          "n": "1949"
+        },
+        {
+          "id": "jw-1949-sands-of-iwo-jima",
+          "t": "Sands of Iwo Jima",
+          "n": "1949"
+        },
+        {
+          "id": "jw-1950-rio-grande",
+          "t": "Rio Grande",
+          "n": "1950"
+        },
+        {
+          "id": "jw-1951-operation-pacific",
+          "t": "Operation Pacific",
+          "n": "1951"
+        },
+        {
+          "id": "jw-1951-flying-leathernecks",
+          "t": "Flying Leathernecks",
+          "n": "1951"
+        },
+        {
+          "id": "jw-1952-the-quiet-man",
+          "t": "The Quiet Man",
+          "n": "1952",
+          "note": "Also second unit director (uncredited)"
+        },
+        {
+          "id": "jw-1952-big-jim-mclain",
+          "t": "Big Jim McLain",
+          "n": "1952",
+          "note": "Also producer"
+        },
+        {
+          "id": "jw-1953-trouble-along-the-way",
+          "t": "Trouble Along the Way",
+          "n": "1953"
+        },
+        {
+          "id": "jw-1953-island-in-the-sky",
+          "t": "Island in the Sky",
+          "n": "1953",
+          "note": "Also producer"
+        },
+        {
+          "id": "jw-1953-hondo",
+          "t": "Hondo",
+          "n": "1953",
+          "note": "Also producer"
+        },
+        {
+          "id": "jw-1954-the-high-and-the-mighty",
+          "t": "The High and the Mighty",
+          "n": "1954"
+        },
+        {
+          "id": "jw-1955-the-sea-chase",
+          "t": "The Sea Chase",
+          "n": "1955"
+        },
+        {
+          "id": "jw-1955-blood-alley",
+          "t": "Blood Alley",
+          "n": "1955",
+          "note": "Also producer"
+        }
+      ]
+    },
+    {
+      "id": "searchers",
+      "title": "The Searchers to Katie Elder",
+      "sub": "1956–1965 · 21 films",
+      "intro": "Ten years that open with The Searchers and hold Rio Bravo, Liberty Valance and two war epics — plus The Alamo, which he directed and produced as well as starred in.",
+      "items": [
+        {
+          "id": "jw-1956-the-conqueror",
+          "t": "The Conqueror",
+          "n": "1956"
+        },
+        {
+          "id": "jw-1956-the-searchers",
+          "t": "The Searchers",
+          "n": "1956"
+        },
+        {
+          "id": "jw-1957-the-wings-of-eagles",
+          "t": "The Wings of Eagles",
+          "n": "1957"
+        },
+        {
+          "id": "jw-1957-jet-pilot",
+          "t": "Jet Pilot",
+          "n": "1957"
+        },
+        {
+          "id": "jw-1957-legend-of-the-lost",
+          "t": "Legend of the Lost",
+          "n": "1957"
+        },
+        {
+          "id": "jw-1958-the-barbarian-and-the-geisha",
+          "t": "The Barbarian and the Geisha",
+          "n": "1958"
+        },
+        {
+          "id": "jw-1959-rio-bravo",
+          "t": "Rio Bravo",
+          "n": "1959"
+        },
+        {
+          "id": "jw-1959-the-horse-soldiers",
+          "t": "The Horse Soldiers",
+          "n": "1959"
+        },
+        {
+          "id": "jw-1960-the-alamo",
+          "t": "The Alamo",
+          "n": "1960",
+          "note": "Also director and producer"
+        },
+        {
+          "id": "jw-1960-north-to-alaska",
+          "t": "North to Alaska",
+          "n": "1960"
+        },
+        {
+          "id": "jw-1961-the-comancheros",
+          "t": "The Comancheros",
+          "n": "1961"
+        },
+        {
+          "id": "jw-1962-the-man-who-shot-liberty-valance",
+          "t": "The Man Who Shot Liberty Valance",
+          "n": "1962"
+        },
+        {
+          "id": "jw-1962-hatari",
+          "t": "Hatari!",
+          "n": "1962"
+        },
+        {
+          "id": "jw-1962-the-longest-day",
+          "t": "The Longest Day",
+          "n": "1962"
+        },
+        {
+          "id": "jw-1962-how-the-west-was-won",
+          "t": "How the West Was Won",
+          "n": "1962"
+        },
+        {
+          "id": "jw-1963-donovan-s-reef",
+          "t": "Donovan's Reef",
+          "n": "1963"
+        },
+        {
+          "id": "jw-1963-mclintock",
+          "t": "McLintock!",
+          "n": "1963"
+        },
+        {
+          "id": "jw-1964-circus-world",
+          "t": "Circus World",
+          "n": "1964",
+          "note": "Also released as The Magnificent Showman (UK title)"
+        },
+        {
+          "id": "jw-1965-the-greatest-story-ever-told",
+          "t": "The Greatest Story Ever Told",
+          "n": "1965"
+        },
+        {
+          "id": "jw-1965-in-harm-s-way",
+          "t": "In Harm's Way",
+          "n": "1965"
+        },
+        {
+          "id": "jw-1965-the-sons-of-katie-elder",
+          "t": "The Sons of Katie Elder",
+          "n": "1965"
+        }
+      ]
+    },
+    {
+      "id": "shootist",
+      "title": "Rooster Cogburn and out",
+      "sub": "1966–1977 · 22 films",
+      "intro": "El Dorado, the Oscar for True Grit, the late run of westerns and cop pictures, and The Shootist to finish. The last row is a 1977 credit he did not act in.",
+      "items": [
+        {
+          "id": "jw-1966-cast-a-giant-shadow",
+          "t": "Cast a Giant Shadow",
+          "n": "1966",
+          "note": "Also co-executive producer (uncredited)"
+        },
+        {
+          "id": "jw-1966-el-dorado",
+          "t": "El Dorado",
+          "n": "1966"
+        },
+        {
+          "id": "jw-1967-the-war-wagon",
+          "t": "The War Wagon",
+          "n": "1967"
+        },
+        {
+          "id": "jw-1968-the-green-berets",
+          "t": "The Green Berets",
+          "n": "1968"
+        },
+        {
+          "id": "jw-1968-hellfighters",
+          "t": "Hellfighters",
+          "n": "1968"
+        },
+        {
+          "id": "jw-1969-true-grit",
+          "t": "True Grit",
+          "n": "1969"
+        },
+        {
+          "id": "jw-1969-the-undefeated",
+          "t": "The Undefeated",
+          "n": "1969"
+        },
+        {
+          "id": "jw-1970-no-substitute-for-victory",
+          "t": "No Substitute for Victory",
+          "n": "1970"
+        },
+        {
+          "id": "jw-1970-chisum",
+          "t": "Chisum",
+          "n": "1970"
+        },
+        {
+          "id": "jw-1970-rio-lobo",
+          "t": "Rio Lobo",
+          "n": "1970"
+        },
+        {
+          "id": "jw-1970-swing-out-sweet-land",
+          "t": "Swing Out, Sweet Land",
+          "n": "1970"
+        },
+        {
+          "id": "jw-1970-harry-jackson-a-man-and-his-art",
+          "t": "Harry Jackson: A Man and His Art",
+          "n": "1970",
+          "note": "Short documentary"
+        },
+        {
+          "id": "jw-1971-big-jake",
+          "t": "Big Jake",
+          "n": "1971",
+          "note": "Also uncredited executive producer"
+        },
+        {
+          "id": "jw-1972-the-cowboys",
+          "t": "The Cowboys",
+          "n": "1972"
+        },
+        {
+          "id": "jw-1972-cancel-my-reservation",
+          "t": "Cancel My Reservation",
+          "n": "1972"
+        },
+        {
+          "id": "jw-1973-the-train-robbers",
+          "t": "The Train Robbers",
+          "n": "1973",
+          "note": "Also executive producer (uncredited)"
+        },
+        {
+          "id": "jw-1973-cahill-u-s-marshal",
+          "t": "Cahill U.S. Marshal",
+          "n": "1973",
+          "note": "Also released as Cahill (UK title) · Also executive producer (uncredited)"
+        },
+        {
+          "id": "jw-1974-mcq",
+          "t": "McQ",
+          "n": "1974"
+        },
+        {
+          "id": "jw-1975-brannigan",
+          "t": "Brannigan",
+          "n": "1975"
+        },
+        {
+          "id": "jw-1975-rooster-cogburn",
+          "t": "Rooster Cogburn",
+          "n": "1975"
+        },
+        {
+          "id": "jw-1976-the-shootist",
+          "t": "The Shootist",
+          "n": "1976",
+          "note": "His last film"
+        },
+        {
+          "id": "jw-1977-star-wars",
+          "t": "Star Wars",
+          "n": "1977",
+          "note": "Stock audio only · Uncredited"
+        }
+      ]
+    }
+  ]
+}
