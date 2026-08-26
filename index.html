@@ -4540,6 +4540,25 @@ let MANIFEST = [
     "random": true
   },
   {
+    "slug": "the-big-o",
+    "media": [
+      "anime"
+    ],
+    "title": "The Big O",
+    "subtitle": "both seasons, all 26 episodes",
+    "kind": "anime",
+    "year": "1999–2003",
+    "popularity": 48,
+    "blurb": "Sunrise's film-noir mecha series in broadcast order — thirteen episodes in 1999, thirteen more in 2003, and none after that.",
+    "accent": "#2C2F3A",
+    "accentDark": "#F2C14E",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 26
+  },
+  {
     "slug": "vertigo",
     "media": [
       "comics"
@@ -5016,7 +5035,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '04e622af0813';
+const BUILD = '1b2ed14bfae4';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
