@@ -715,6 +715,12 @@ footer a{color:var(--steel)}
 .wall .card{filter:grayscale(1);transition:filter .18s,opacity .2s;
   background:none;border:0;padding:0}
 .wall .card:hover,.wall .card.wact{filter:none;position:relative;z-index:2;transform:none}
+/* A list you have FINISHED keeps its accent for good. The wall's monotone is
+   a "not yet" state, so a finished list wearing it says the wrong thing about
+   your own shelf. Colour only — the scale below belongs to the cursor and
+   stays there, so a finished card never looks like the one you are pointing
+   at (Nathan, CLU-355). */
+.wall .card.wdone{filter:none}
 .card .in{display:block;transition:transform .18s cubic-bezier(.2,.7,.25,1),
   border-color .15s}
 /* the concept's trick: the button is a bare grid cell, .in IS the visible
@@ -5667,6 +5673,10 @@ function cardHTML(m, why, compact, starred){
   const TICKS = 46;
   const n = localCount(m.slug);
   const tot = totalOf(m);
+  // A list you have finished keeps its colour on the wall. n and tot are the
+  // same two numbers the card prints as "46 / 46", so this is exactly what
+  // the card already claims about itself — no second notion of "done".
+  const fin = tot > 0 && n >= tot;
   const on = Math.round(TICKS * fillOf(m));
   let bar = '';
   for(let i=0;i<TICKS;i++)
@@ -5688,7 +5698,7 @@ function cardHTML(m, why, compact, starred){
       + (m.blurb ? '<div class="pm-b">'+esc(m.blurb)+'</div>' : '')
       + '<div class="cbar">'+bar+'</div>'
       + (why ? '<div class="hwhy">'+esc(why)+'</div>' : '');
-  return '<button class="card" data-slug="'+esc(m.slug)+'"'
+  return '<button class="card'+(fin ? ' wdone' : '')+'" data-slug="'+esc(m.slug)+'"'
     + ' data-media="'+esc((m.media||[]).join(' '))+'"'
     + ' style="--pa:'+esc(accentOf(m))+'">'
     + '<span class="in">' + body + '</span></button>';
