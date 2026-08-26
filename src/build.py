@@ -387,8 +387,55 @@ def main():
             # what the one-time backfill hashes.
             ks = sorted(m["keys"])
             sync[next((k for k in ks if k[0] == "Q"), ks[0])] = rws
+    # ---- watch prerequisites (CLU-373) --------------------------------
+    # A run is an ordered list of STEPS; a row is offerable when every step
+    # before its own has a ticked row. Steps rather than rows because one
+    # work can sit on several lists and sync ties their ticks together.
+    #
+    # Resolved HERE because only the build sees the whole catalogue: a
+    # Wikidata step expands to every list carrying that work, so a run
+    # written once covers all of them — which is the only way the
+    # cross-list case can work.
+    have = {}
+    for p_ in props:
+        if p_.get("secret"):
+            continue
+        for s_ in p_.get("sections", []):
+            for x in s_.get("items", []):
+                have[p_["slug"] + "|" + x["id"]] = True
+    byq = {}
+    for k, v in groups.items():
+        if k[0] == "Q":
+            for sl, i in v:
+                byq.setdefault(k.split("|")[0], set()).add(sl + "|" + i)
+
+    seq = []
+    seqf = ROOT / "tools" / "data" / "sequences.json"
+    if seqf.exists():
+        reg = json.loads(seqf.read_text(encoding="utf-8"))
+        for r in reg.get("runs", []):
+            steps = []
+            for step in r["run"]:
+                if re.fullmatch(r"Q[1-9]\d*", step):
+                    rws = sorted(byq.get(step, ()))
+                else:
+                    # A literal row. Fail loudly: a typo here would silently
+                    # gate nothing, which is invisible and permanent.
+                    if step not in have:
+                        fail("sequences.json: run %r names %r, which is not a "
+                             "row in the catalogue" % (r.get("name"), step))
+                    rws = [step]
+                if rws:
+                    steps.append(rws)
+            # a run of one step gates nothing; drop it rather than ship it
+            if len(steps) > 1:
+                seq.append(steps)
+        print("  prerequisites: %d run(s) over %d step(s), %d row(s) gated"
+              % (len(seq), sum(len(r) for r in seq),
+                 sum(len(st) for r in seq for st in r[1:])))
+
     with (PROPS / "search.json").open("w", encoding="utf-8", newline="\n") as f:
-        f.write(json.dumps({"rows": rows, "sync": sync},
+        f.write(json.dumps({"rows": rows, "sync": sync, "seq": seq},
                            separators=(",", ":"), ensure_ascii=False) + "\n")
     print("  search index: %d rows, %d sync groups spanning %d lists"
           % (len(rows), len(sync),

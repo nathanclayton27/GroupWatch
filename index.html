@@ -5596,7 +5596,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'fdcabeae9f25';
+const BUILD = '8711570d8e76';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -10177,6 +10177,44 @@ function renderShelf(shelf){
 // untouched); a grab-bag (random: true) offers anything unticked. The
 // medium chips scope the pool: no chips = your shelf, chips = every list
 // of that medium. Open lands on the row via the global-search jump.
+// Watch prerequisites (CLU-373). search.json carries `seq`: runs of STEPS,
+// each step a list of "slug|id" rows that are the same work on different
+// lists. A row is offerable when every step BEFORE its own has at least one
+// ticked row — so Toy Story 2 waits for Toy Story, while WALL-E is offerable
+// from the first visit.
+//
+// Steps rather than rows because sync ties copies together: ticking Toy Story
+// on Pixar ticks it wherever else it lives, so any copy counts as done.
+//
+// Rebuilt per call rather than cached: it reads live tick state, and a cached
+// gate would keep recommending against ticks you just made.
+function seqGate(d){
+  const at = new Map();
+  (d.seq || []).forEach(run=>{
+    run.forEach((step, i)=> step.forEach(k=> at.set(k, [run, i])));
+  });
+  if(!at.size) return ()=> true;
+  const seen = new Map();
+  const ticks = slug=>{
+    if(!seen.has(slug)){
+      let t;
+      try{ t = new Set(JSON.parse(localStorage.getItem('gw:v1:'+slug) || '[]')); }
+      catch(e){ t = new Set(); }
+      seen.set(slug, t);
+    }
+    return seen.get(slug);
+  };
+  const done = k=>{
+    const i = k.indexOf('|');
+    return ticks(k.slice(0, i)).has(k.slice(i + 1));
+  };
+  return (slug, id)=>{
+    const hit = at.get(slug + '|' + id);
+    if(!hit) return true;
+    for(let k = 0; k < hit[1]; k++) if(!hit[0][k].some(done)) return false;
+    return true;
+  };
+}
 async function tonightPick(shelf){
   const d = await ensureIndex();
   if(!d || !d.rows) return null;
@@ -10188,13 +10226,15 @@ async function tonightPick(shelf){
   for(const r of d.rows)
     if(bySlug.has(r[0])) (rows[r[0]] = rows[r[0]] || []).push(r);
   const cands = [];
+  const gate = seqGate(d);
   for(const [slug, m] of bySlug){
     const rs = rows[slug];
     if(!rs) continue;
     let t;
     try{ t = new Set(JSON.parse(localStorage.getItem('gw:v1:'+slug)||'[]')); }
     catch(e){ t = new Set(); }
-    const un = rs.filter(r=> !t.has(r[1]));
+    // a row whose prerequisite is unwatched is not tonight's film
+    const un = rs.filter(r=> !t.has(r[1]) && gate(slug, r[1]));
     if(!un.length) continue;
     cands.push(m.random ? un[Math.floor(Math.random()*un.length)] : un[0]);
   }
@@ -10321,12 +10361,13 @@ function recTicked(slug){
 // finished list offers nothing at all: it has no unticked rows left.
 function recReady(d){
   const rows = {}, out = [];
+  const gate = seqGate(d);
   for(const r of d.rows) (rows[r[0]] = rows[r[0]] || []).push(r);
   for(const m of splashList()){
     const rs = rows[m.slug];
     if(!rs) continue;
     const t = recTicked(m.slug);
-    const un = rs.filter(r=> !t.has(r[1]));
+    const un = rs.filter(r=> !t.has(r[1]) && gate(m.slug, r[1]));
     if(!un.length) continue;
     (m.random ? un : [un[0]]).forEach(r=> out.push({ r: r, m: m, n: t.size }));
   }
