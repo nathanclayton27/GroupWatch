@@ -3195,6 +3195,27 @@
     "total": 27
   },
   {
+    "slug": "cult-classics",
+    "media": [
+      "movies"
+    ],
+    "title": "Cult Classics",
+    "subtitle": "the films the cult-film books agree on, era by era",
+    "kind": "films",
+    "year": "1919–2008",
+    "popularity": 55,
+    "blurb": "326 films that at least 3 of 23 published cult-film reference works call a cult film, era by era from 1919 to 2008 — about 548 hours. No order; let the picker choose.",
+    "accent": "#7D2483",
+    "accentDark": "#DE86E8",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 326,
+    "totalw": 547.99,
+    "random": true
+  },
+  {
     "slug": "made-in-abyss",
     "media": [
       "anime",

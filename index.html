@@ -4597,6 +4597,27 @@ let MANIFEST = [
     "total": 27
   },
   {
+    "slug": "cult-classics",
+    "media": [
+      "movies"
+    ],
+    "title": "Cult Classics",
+    "subtitle": "the films the cult-film books agree on, era by era",
+    "kind": "films",
+    "year": "1919–2008",
+    "popularity": 55,
+    "blurb": "326 films that at least 3 of 23 published cult-film reference works call a cult film, era by era from 1919 to 2008 — about 548 hours. No order; let the picker choose.",
+    "accent": "#7D2483",
+    "accentDark": "#DE86E8",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 326,
+    "totalw": 547.99,
+    "random": true
+  },
+  {
     "slug": "made-in-abyss",
     "media": [
       "anime",
@@ -5350,13 +5371,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'cc36cb518a0d';
+const BUILD = '91df8e91f720';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = 'cafc2a412e';
+const SYNCVER = '704c662f51';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads
