@@ -1,0 +1,733 @@
+{
+  "source": {
+    "page": "List of Fullmetal Alchemist chapters",
+    "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters",
+    "api": "en.wikipedia action=query&prop=revisions, cached in scratch/agent-fmamanga/cache/",
+    "lead": "serialized in Monthly Shonen Gangan, 2001-2010 issues, 108 chapters, 27 tankobon volumes"
+  },
+  "chapters": 108,
+  "volumes": 27,
+  "serialized": [
+    2001,
+    2010
+  ],
+  "vols": [
+    {
+      "n": 1,
+      "first": 1,
+      "last": 4,
+      "chapters": [
+        {
+          "n": 1,
+          "title": "The Two Alchemists"
+        },
+        {
+          "n": 2,
+          "title": "The Price of Life"
+        },
+        {
+          "n": 3,
+          "title": "The Mining Town"
+        },
+        {
+          "n": 4,
+          "title": "Battle on the Train"
+        }
+      ],
+      "jp": 2002,
+      "en": 2005
+    },
+    {
+      "n": 2,
+      "first": 5,
+      "last": 8,
+      "chapters": [
+        {
+          "n": 5,
+          "title": "The Alchemist's Suffering"
+        },
+        {
+          "n": 6,
+          "title": "The Right Hand of Destruction"
+        },
+        {
+          "n": 7,
+          "title": "After the Rain"
+        },
+        {
+          "n": 8,
+          "title": "The Road of Hope"
+        }
+      ],
+      "jp": 2002,
+      "en": 2005
+    },
+    {
+      "n": 3,
+      "first": 9,
+      "last": 12,
+      "chapters": [
+        {
+          "n": 9,
+          "title": "A Home with a Family Waiting"
+        },
+        {
+          "n": 10,
+          "title": "The Philosopher's Stone"
+        },
+        {
+          "n": 11,
+          "title": "The Two Guardians"
+        },
+        {
+          "n": 12,
+          "title": "The Definition of Human"
+        }
+      ],
+      "jp": 2002,
+      "en": 2005
+    },
+    {
+      "n": 4,
+      "first": 13,
+      "last": 16,
+      "chapters": [
+        {
+          "n": 13,
+          "title": "Fullmetal Body"
+        },
+        {
+          "n": 14,
+          "title": "An Only Child's Feelings"
+        },
+        {
+          "n": 15,
+          "title": "Fullmetal Heart"
+        },
+        {
+          "n": 16,
+          "title": "Separate Paths"
+        }
+      ],
+      "jp": 2003,
+      "en": 2005
+    },
+    {
+      "n": 5,
+      "first": 17,
+      "last": 21,
+      "chapters": [
+        {
+          "n": 17,
+          "title": "The Boomtown of the Broken Down"
+        },
+        {
+          "n": 18,
+          "title": "The Value of Sincerity"
+        },
+        {
+          "n": 19,
+          "title": "I'll Do It for You Guys!"
+        },
+        {
+          "n": 20,
+          "title": "The Terror of the Teacher"
+        },
+        {
+          "n": 21,
+          "title": "The Brothers' Secret"
+        }
+      ],
+      "jp": 2003,
+      "en": 2006
+    },
+    {
+      "n": 6,
+      "first": 22,
+      "last": 25,
+      "chapters": [
+        {
+          "n": 22,
+          "title": "The Masked Man"
+        },
+        {
+          "n": 23,
+          "title": "Knocking on Heaven's Door"
+        },
+        {
+          "n": 24,
+          "title": "Fullmetal Alchemist"
+        },
+        {
+          "n": 25,
+          "title": "Master and Apprentice"
+        }
+      ],
+      "jp": 2003,
+      "en": 2006
+    },
+    {
+      "n": 7,
+      "first": 26,
+      "last": 29,
+      "chapters": [
+        {
+          "n": 26,
+          "title": "To Meet the Master"
+        },
+        {
+          "n": 27,
+          "title": "The Beasts of Dublith"
+        },
+        {
+          "n": 28,
+          "title": "A Fool's Courage"
+        },
+        {
+          "n": 29,
+          "title": "The Eye of the King"
+        }
+      ],
+      "jp": 2004,
+      "en": 2006
+    },
+    {
+      "n": 8,
+      "first": 30,
+      "last": 33,
+      "chapters": [
+        {
+          "n": 30,
+          "title": "The Truth Inside the Armor"
+        },
+        {
+          "n": 31,
+          "title": "The Snake That Eats Its Own Tail"
+        },
+        {
+          "n": 32,
+          "title": "Emissary From the East"
+        },
+        {
+          "n": 33,
+          "title": "Showdown in Rush Valley"
+        }
+      ],
+      "jp": 2004,
+      "en": 2006
+    },
+    {
+      "n": 9,
+      "first": 34,
+      "last": 37,
+      "chapters": [
+        {
+          "n": 34,
+          "title": "The Footsteps of a War Comrade"
+        },
+        {
+          "n": 35,
+          "title": "The Sacrificial Lamb"
+        },
+        {
+          "n": 36,
+          "title": "Alchemist in Distress"
+        },
+        {
+          "n": 37,
+          "title": "The Body of a Criminal"
+        }
+      ],
+      "jp": 2004,
+      "en": 2006
+    },
+    {
+      "n": 10,
+      "first": 38,
+      "last": 41,
+      "chapters": [
+        {
+          "n": 38,
+          "title": "Signal to Strike"
+        },
+        {
+          "n": 39,
+          "title": "Complications at Central"
+        },
+        {
+          "n": 40,
+          "title": "Philosopher from the West"
+        },
+        {
+          "n": 41,
+          "title": "On the Palm of an Arrogant Human Being"
+        }
+      ],
+      "jp": 2005,
+      "en": 2006
+    },
+    {
+      "n": 11,
+      "first": 42,
+      "last": 45,
+      "chapters": [
+        {
+          "n": 42,
+          "title": "The Father Standing Before a Grave"
+        },
+        {
+          "n": 43,
+          "title": "River of Mud"
+        },
+        {
+          "n": 44,
+          "title": "The Unnamed Grave"
+        },
+        {
+          "n": 45,
+          "title": "Scar's Return"
+        }
+      ],
+      "jp": 2005,
+      "en": 2007
+    },
+    {
+      "n": 12,
+      "first": 46,
+      "last": 49,
+      "chapters": [
+        {
+          "n": 46,
+          "title": "The Distant Image of Their Backs"
+        },
+        {
+          "n": 47,
+          "title": "A Girl in the Grip of Battles Past and Present"
+        },
+        {
+          "n": 48,
+          "title": "A Promise Made by Those Who Wait"
+        },
+        {
+          "n": 49,
+          "title": "A Monster Among Men"
+        }
+      ],
+      "jp": 2005,
+      "en": 2007
+    },
+    {
+      "n": 13,
+      "first": 50,
+      "last": 53,
+      "chapters": [
+        {
+          "n": 50,
+          "title": "In the Belly of the Beast"
+        },
+        {
+          "n": 51,
+          "title": "A Portal in the Darkness"
+        },
+        {
+          "n": 52,
+          "title": "Lord of the Demon's Lair"
+        },
+        {
+          "n": 53,
+          "title": "Signpost of the Soul"
+        }
+      ],
+      "jp": 2006,
+      "en": 2007
+    },
+    {
+      "n": 14,
+      "first": 54,
+      "last": 57,
+      "chapters": [
+        {
+          "n": 54,
+          "title": "The Fool's Struggle"
+        },
+        {
+          "n": 55,
+          "title": "The Avarice of Two"
+        },
+        {
+          "n": 56,
+          "title": "The Lion of the Round Table"
+        },
+        {
+          "n": 57,
+          "title": "Scars of Ishbal"
+        }
+      ],
+      "jp": 2006,
+      "en": 2007
+    },
+    {
+      "n": 15,
+      "first": 58,
+      "last": 61,
+      "chapters": [
+        {
+          "n": 58,
+          "title": "The Footsteps of Ruin"
+        },
+        {
+          "n": 59,
+          "title": "The Immoral Alchemist"
+        },
+        {
+          "n": 60,
+          "title": "In the Absence of God"
+        },
+        {
+          "n": 61,
+          "title": "The Hero of Ishbal"
+        }
+      ],
+      "jp": 2006,
+      "en": 2007
+    },
+    {
+      "n": 16,
+      "first": 62,
+      "last": 65,
+      "chapters": [
+        {
+          "n": 62,
+          "title": "Beyond the Dream"
+        },
+        {
+          "n": 63,
+          "title": "The Promise Made for 520 Cenz"
+        },
+        {
+          "n": 64,
+          "title": "The Northern Wall of Briggs"
+        },
+        {
+          "n": 65,
+          "title": "The Ironclad Rule"
+        }
+      ],
+      "jp": 2007,
+      "en": 2008
+    },
+    {
+      "n": 17,
+      "first": 66,
+      "last": 69,
+      "chapters": [
+        {
+          "n": 66,
+          "title": "The Snow Queen"
+        },
+        {
+          "n": 67,
+          "title": "Burgeoning Borders"
+        },
+        {
+          "n": 68,
+          "title": "Portrait of a Family"
+        },
+        {
+          "n": 69,
+          "title": "The Foundation of Briggs"
+        }
+      ],
+      "jp": 2007,
+      "en": 2008
+    },
+    {
+      "n": 18,
+      "first": 70,
+      "last": 73,
+      "chapters": [
+        {
+          "n": 70,
+          "title": "The First Homunculus"
+        },
+        {
+          "n": 71,
+          "title": "In the Grip of the Red Lotus"
+        },
+        {
+          "n": 72,
+          "title": "A Chain of Negativity, a Pebble of Goodness"
+        },
+        {
+          "n": 73,
+          "title": "A Daydream"
+        }
+      ],
+      "jp": 2007,
+      "en": 2009
+    },
+    {
+      "n": 19,
+      "first": 74,
+      "last": 78,
+      "chapters": [
+        {
+          "n": 74,
+          "title": "The Dwarf in the Flask"
+        },
+        {
+          "n": 75,
+          "title": "The Last Days of Xerxes"
+        },
+        {
+          "n": 76,
+          "title": "Shape of a Person, Shape of a Stone"
+        },
+        {
+          "n": 77,
+          "title": "The Tables Are Turned; A New Transmutation Circle"
+        },
+        {
+          "n": 78,
+          "title": "The Seven Deadly Sins"
+        }
+      ],
+      "jp": 2008,
+      "en": 2009
+    },
+    {
+      "n": 20,
+      "first": 79,
+      "last": 83,
+      "chapters": [
+        {
+          "n": 79,
+          "title": "Bite Of The Ant"
+        },
+        {
+          "n": 80,
+          "title": "The Prodigal Father Returns"
+        },
+        {
+          "n": 81,
+          "title": "A Full Recovery"
+        },
+        {
+          "n": 82,
+          "title": "Family By Spirit"
+        },
+        {
+          "n": 83,
+          "title": "The Promised Day"
+        }
+      ],
+      "jp": 2008,
+      "en": 2009
+    },
+    {
+      "n": 21,
+      "first": 84,
+      "last": 87,
+      "chapters": [
+        {
+          "n": 84,
+          "title": "Shadow of the Pursuer"
+        },
+        {
+          "n": 85,
+          "title": "The Empty Box"
+        },
+        {
+          "n": 86,
+          "title": "Servant of Darkness"
+        },
+        {
+          "n": 87,
+          "title": "An Oath Made in the Underground"
+        }
+      ],
+      "jp": 2008,
+      "en": 2009
+    },
+    {
+      "n": 22,
+      "first": 88,
+      "last": 91,
+      "chapters": [
+        {
+          "n": 88,
+          "title": "The Understanding Between Father and Son"
+        },
+        {
+          "n": 89,
+          "title": "Soldier's Return"
+        },
+        {
+          "n": 90,
+          "title": "Army of Immortals"
+        },
+        {
+          "n": 91,
+          "title": "A Reunion of Alchemists"
+        }
+      ],
+      "jp": 2009,
+      "en": 2010
+    },
+    {
+      "n": 23,
+      "first": 92,
+      "last": 95,
+      "chapters": [
+        {
+          "n": 92,
+          "title": "With Everyone's Strength"
+        },
+        {
+          "n": 93,
+          "title": "Archenemy"
+        },
+        {
+          "n": 94,
+          "title": "The Flames of Vengeance"
+        },
+        {
+          "n": 95,
+          "title": "Beyond the Inferno"
+        }
+      ],
+      "jp": 2009,
+      "en": 2010
+    },
+    {
+      "n": 24,
+      "first": 96,
+      "last": 99,
+      "chapters": [
+        {
+          "n": 96,
+          "title": "The Two Heroines"
+        },
+        {
+          "n": 97,
+          "title": "The Two Philosophers"
+        },
+        {
+          "n": 98,
+          "title": "Infinite Greed"
+        },
+        {
+          "n": 99,
+          "title": "Eternal Rest"
+        }
+      ],
+      "jp": 2009,
+      "en": 2011
+    },
+    {
+      "n": 25,
+      "first": 100,
+      "last": 103,
+      "chapters": [
+        {
+          "n": 100,
+          "title": "The Forbidden Door"
+        },
+        {
+          "n": 101,
+          "title": "The Fifth Human Sacrifice"
+        },
+        {
+          "n": 102,
+          "title": "Before the Door"
+        },
+        {
+          "n": 103,
+          "title": "For Whose Sake"
+        }
+      ],
+      "jp": 2010,
+      "en": 2011
+    },
+    {
+      "n": 26,
+      "first": 104,
+      "last": 106,
+      "chapters": [
+        {
+          "n": 104,
+          "title": "The Center of the World"
+        },
+        {
+          "n": 105,
+          "title": "The Throne of God"
+        },
+        {
+          "n": 106,
+          "title": "The Abyss of Pride"
+        }
+      ],
+      "jp": 2010,
+      "en": 2011
+    },
+    {
+      "n": 27,
+      "first": 107,
+      "last": 108,
+      "chapters": [
+        {
+          "n": 107,
+          "title": "The Final Battle"
+        },
+        {
+          "n": 108,
+          "title": "The Journey's End"
+        }
+      ],
+      "jp": 2010,
+      "en": 2011
+    }
+  ],
+  "extras": [
+    {
+      "vol": 3,
+      "label": "Gaiden",
+      "title": "The Military Festival"
+    },
+    {
+      "vol": 4,
+      "label": "Gaiden",
+      "title": "Dog of the Military?"
+    },
+    {
+      "vol": 7,
+      "label": "Gaiden",
+      "title": "The Second Lieutenant Goes to Battle!"
+    },
+    {
+      "vol": 8,
+      "label": "Gaiden",
+      "title": "Fullmetal Alchemist and the Broken Angel"
+    },
+    {
+      "vol": 14,
+      "label": "Gaiden",
+      "title": "Short Story"
+    },
+    {
+      "vol": 23,
+      "label": "Special Episode",
+      "title": "Fullmetal Alchemist, Wii: Prince of Dawn, Prologue"
+    },
+    {
+      "vol": 24,
+      "label": "Gaiden",
+      "title": "Daughter of the Dusk—Prologue"
+    },
+    {
+      "vol": 27,
+      "label": "Gaiden",
+      "title": "Another Journey's End"
+    }
+  ]
+}

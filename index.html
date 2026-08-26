@@ -2707,6 +2707,25 @@ let MANIFEST = [
     "totalw": 337.06
   },
   {
+    "slug": "fullmetal-alchemist-manga",
+    "media": [
+      "manga"
+    ],
+    "title": "Fullmetal Alchemist (manga)",
+    "subtitle": "Hiromu Arakawa",
+    "kind": "manga",
+    "year": "2001–2010",
+    "popularity": 72,
+    "blurb": "All 108 chapters across 27 volumes — the complete manga both Fullmetal Alchemist anime adapt.",
+    "accent": "#3F5C6B",
+    "accentDark": "#7FB3C8",
+    "unit": {
+      "one": "chapter",
+      "many": "chapters"
+    },
+    "total": 108
+  },
+  {
     "slug": "hunter-x-hunter",
     "media": [
       "anime"
@@ -2898,6 +2917,25 @@ let MANIFEST = [
       "many": "episodes"
     },
     "total": 33
+  },
+  {
+    "slug": "jojo-manga",
+    "media": [
+      "manga"
+    ],
+    "title": "JoJo's Bizarre Adventure (manga)",
+    "subtitle": "Hirohiko Araki",
+    "kind": "manga",
+    "year": "1987–",
+    "popularity": 70,
+    "blurb": "All 989 chapters in 139 volumes — nine parts, nine JoJos, one bloodline, still running.",
+    "accent": "#5B3A8C",
+    "accentDark": "#B79BE8",
+    "unit": {
+      "one": "chapter",
+      "many": "chapters"
+    },
+    "total": 989
   },
   {
     "slug": "metroid",
@@ -4978,7 +5016,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '29bcabd1eeb7';
+const BUILD = '04e622af0813';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or

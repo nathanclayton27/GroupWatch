@@ -1,0 +1,937 @@
+{
+  "slug": "fullmetal-alchemist-manga",
+  "title": "Fullmetal Alchemist (manga)",
+  "subtitle": "Hiromu Arakawa",
+  "kind": "manga",
+  "popularity": 72,
+  "year": "2001–2010",
+  "blurb": "All 108 chapters across 27 volumes — the complete manga both Fullmetal Alchemist anime adapt.",
+  "unit": {
+    "one": "chapter",
+    "many": "chapters"
+  },
+  "verb": {
+    "base": "read",
+    "past": "read",
+    "ing": "reading"
+  },
+  "accent": "#3F5C6B",
+  "accentDark": "#7FB3C8",
+  "tiers": false,
+  "notes": [
+    [
+      "The source.",
+      "This is the manga both Fullmetal Alchemist anime adapt — the 2003 television series and Brotherhood are each an adaptation of it, and this is what they work from. Hiromu Arakawa serialized it in Monthly Shōnen Gangan from 2001 to 2010."
+    ],
+    [
+      "Complete.",
+      "It ended in 2010 at chapter 108, collected in 27 volumes. Nothing here is waiting on a new release."
+    ],
+    [
+      "Volumes.",
+      "Sections are the collected tankōbon, each with its chapter range, its Japanese release year and the year Viz published it in English. Boundaries are parsed from Wikipedia's chapter list and checked to tile chapters 1–108 with no gap or overlap."
+    ],
+    [
+      "No arcs named.",
+      "Neither the chapter list nor the main article names an arc for this series, and the volumes carry no titles, so the subs give chapter ranges and years and nothing invented."
+    ],
+    [
+      "Side stories.",
+      "Eight extras sit in the source's volume lists with no chapter number and are not rows here: gaiden in volumes 3, 4, 7, 8, 14, 24 and 27, and a \"Special Episode\" prologue for a Wii game in volume 23. They fall outside the 108-chapter serialization the counts are checked against."
+    ],
+    "Chapters, volumes and release years machine-read from Wikipedia's List of Fullmetal Alchemist chapters, with the totals asserted against the article's own lead."
+  ],
+  "sections": [
+    {
+      "id": "v-1",
+      "title": "Volume 1",
+      "sub": "chapters 1–4 · 2002 · Viz 2005",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-1",
+          "t": "Chapter",
+          "n": "1"
+        },
+        {
+          "id": "fmam-2",
+          "t": "Chapter",
+          "n": "2"
+        },
+        {
+          "id": "fmam-3",
+          "t": "Chapter",
+          "n": "3"
+        },
+        {
+          "id": "fmam-4",
+          "t": "Chapter",
+          "n": "4"
+        }
+      ]
+    },
+    {
+      "id": "v-2",
+      "title": "Volume 2",
+      "sub": "chapters 5–8 · 2002 · Viz 2005",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-5",
+          "t": "Chapter",
+          "n": "5"
+        },
+        {
+          "id": "fmam-6",
+          "t": "Chapter",
+          "n": "6"
+        },
+        {
+          "id": "fmam-7",
+          "t": "Chapter",
+          "n": "7"
+        },
+        {
+          "id": "fmam-8",
+          "t": "Chapter",
+          "n": "8"
+        }
+      ]
+    },
+    {
+      "id": "v-3",
+      "title": "Volume 3",
+      "sub": "chapters 9–12 · 2002 · Viz 2005",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-9",
+          "t": "Chapter",
+          "n": "9"
+        },
+        {
+          "id": "fmam-10",
+          "t": "Chapter",
+          "n": "10"
+        },
+        {
+          "id": "fmam-11",
+          "t": "Chapter",
+          "n": "11"
+        },
+        {
+          "id": "fmam-12",
+          "t": "Chapter",
+          "n": "12"
+        }
+      ]
+    },
+    {
+      "id": "v-4",
+      "title": "Volume 4",
+      "sub": "chapters 13–16 · 2003 · Viz 2005",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-13",
+          "t": "Chapter",
+          "n": "13"
+        },
+        {
+          "id": "fmam-14",
+          "t": "Chapter",
+          "n": "14"
+        },
+        {
+          "id": "fmam-15",
+          "t": "Chapter",
+          "n": "15"
+        },
+        {
+          "id": "fmam-16",
+          "t": "Chapter",
+          "n": "16"
+        }
+      ]
+    },
+    {
+      "id": "v-5",
+      "title": "Volume 5",
+      "sub": "chapters 17–21 · 2003 · Viz 2006",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-17",
+          "t": "Chapter",
+          "n": "17"
+        },
+        {
+          "id": "fmam-18",
+          "t": "Chapter",
+          "n": "18"
+        },
+        {
+          "id": "fmam-19",
+          "t": "Chapter",
+          "n": "19"
+        },
+        {
+          "id": "fmam-20",
+          "t": "Chapter",
+          "n": "20"
+        },
+        {
+          "id": "fmam-21",
+          "t": "Chapter",
+          "n": "21"
+        }
+      ]
+    },
+    {
+      "id": "v-6",
+      "title": "Volume 6",
+      "sub": "chapters 22–25 · 2003 · Viz 2006",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-22",
+          "t": "Chapter",
+          "n": "22"
+        },
+        {
+          "id": "fmam-23",
+          "t": "Chapter",
+          "n": "23"
+        },
+        {
+          "id": "fmam-24",
+          "t": "Chapter",
+          "n": "24"
+        },
+        {
+          "id": "fmam-25",
+          "t": "Chapter",
+          "n": "25"
+        }
+      ]
+    },
+    {
+      "id": "v-7",
+      "title": "Volume 7",
+      "sub": "chapters 26–29 · 2004 · Viz 2006",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-26",
+          "t": "Chapter",
+          "n": "26"
+        },
+        {
+          "id": "fmam-27",
+          "t": "Chapter",
+          "n": "27"
+        },
+        {
+          "id": "fmam-28",
+          "t": "Chapter",
+          "n": "28"
+        },
+        {
+          "id": "fmam-29",
+          "t": "Chapter",
+          "n": "29"
+        }
+      ]
+    },
+    {
+      "id": "v-8",
+      "title": "Volume 8",
+      "sub": "chapters 30–33 · 2004 · Viz 2006",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-30",
+          "t": "Chapter",
+          "n": "30"
+        },
+        {
+          "id": "fmam-31",
+          "t": "Chapter",
+          "n": "31"
+        },
+        {
+          "id": "fmam-32",
+          "t": "Chapter",
+          "n": "32"
+        },
+        {
+          "id": "fmam-33",
+          "t": "Chapter",
+          "n": "33"
+        }
+      ]
+    },
+    {
+      "id": "v-9",
+      "title": "Volume 9",
+      "sub": "chapters 34–37 · 2004 · Viz 2006",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-34",
+          "t": "Chapter",
+          "n": "34"
+        },
+        {
+          "id": "fmam-35",
+          "t": "Chapter",
+          "n": "35"
+        },
+        {
+          "id": "fmam-36",
+          "t": "Chapter",
+          "n": "36"
+        },
+        {
+          "id": "fmam-37",
+          "t": "Chapter",
+          "n": "37"
+        }
+      ]
+    },
+    {
+      "id": "v-10",
+      "title": "Volume 10",
+      "sub": "chapters 38–41 · 2005 · Viz 2006",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-38",
+          "t": "Chapter",
+          "n": "38"
+        },
+        {
+          "id": "fmam-39",
+          "t": "Chapter",
+          "n": "39"
+        },
+        {
+          "id": "fmam-40",
+          "t": "Chapter",
+          "n": "40"
+        },
+        {
+          "id": "fmam-41",
+          "t": "Chapter",
+          "n": "41"
+        }
+      ]
+    },
+    {
+      "id": "v-11",
+      "title": "Volume 11",
+      "sub": "chapters 42–45 · 2005 · Viz 2007",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-42",
+          "t": "Chapter",
+          "n": "42"
+        },
+        {
+          "id": "fmam-43",
+          "t": "Chapter",
+          "n": "43"
+        },
+        {
+          "id": "fmam-44",
+          "t": "Chapter",
+          "n": "44"
+        },
+        {
+          "id": "fmam-45",
+          "t": "Chapter",
+          "n": "45"
+        }
+      ]
+    },
+    {
+      "id": "v-12",
+      "title": "Volume 12",
+      "sub": "chapters 46–49 · 2005 · Viz 2007",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-46",
+          "t": "Chapter",
+          "n": "46"
+        },
+        {
+          "id": "fmam-47",
+          "t": "Chapter",
+          "n": "47"
+        },
+        {
+          "id": "fmam-48",
+          "t": "Chapter",
+          "n": "48"
+        },
+        {
+          "id": "fmam-49",
+          "t": "Chapter",
+          "n": "49"
+        }
+      ]
+    },
+    {
+      "id": "v-13",
+      "title": "Volume 13",
+      "sub": "chapters 50–53 · 2006 · Viz 2007",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-50",
+          "t": "Chapter",
+          "n": "50"
+        },
+        {
+          "id": "fmam-51",
+          "t": "Chapter",
+          "n": "51"
+        },
+        {
+          "id": "fmam-52",
+          "t": "Chapter",
+          "n": "52"
+        },
+        {
+          "id": "fmam-53",
+          "t": "Chapter",
+          "n": "53"
+        }
+      ]
+    },
+    {
+      "id": "v-14",
+      "title": "Volume 14",
+      "sub": "chapters 54–57 · 2006 · Viz 2007",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-54",
+          "t": "Chapter",
+          "n": "54"
+        },
+        {
+          "id": "fmam-55",
+          "t": "Chapter",
+          "n": "55"
+        },
+        {
+          "id": "fmam-56",
+          "t": "Chapter",
+          "n": "56"
+        },
+        {
+          "id": "fmam-57",
+          "t": "Chapter",
+          "n": "57"
+        }
+      ]
+    },
+    {
+      "id": "v-15",
+      "title": "Volume 15",
+      "sub": "chapters 58–61 · 2006 · Viz 2007",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-58",
+          "t": "Chapter",
+          "n": "58"
+        },
+        {
+          "id": "fmam-59",
+          "t": "Chapter",
+          "n": "59"
+        },
+        {
+          "id": "fmam-60",
+          "t": "Chapter",
+          "n": "60"
+        },
+        {
+          "id": "fmam-61",
+          "t": "Chapter",
+          "n": "61"
+        }
+      ]
+    },
+    {
+      "id": "v-16",
+      "title": "Volume 16",
+      "sub": "chapters 62–65 · 2007 · Viz 2008",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-62",
+          "t": "Chapter",
+          "n": "62"
+        },
+        {
+          "id": "fmam-63",
+          "t": "Chapter",
+          "n": "63"
+        },
+        {
+          "id": "fmam-64",
+          "t": "Chapter",
+          "n": "64"
+        },
+        {
+          "id": "fmam-65",
+          "t": "Chapter",
+          "n": "65"
+        }
+      ]
+    },
+    {
+      "id": "v-17",
+      "title": "Volume 17",
+      "sub": "chapters 66–69 · 2007 · Viz 2008",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-66",
+          "t": "Chapter",
+          "n": "66"
+        },
+        {
+          "id": "fmam-67",
+          "t": "Chapter",
+          "n": "67"
+        },
+        {
+          "id": "fmam-68",
+          "t": "Chapter",
+          "n": "68"
+        },
+        {
+          "id": "fmam-69",
+          "t": "Chapter",
+          "n": "69"
+        }
+      ]
+    },
+    {
+      "id": "v-18",
+      "title": "Volume 18",
+      "sub": "chapters 70–73 · 2007 · Viz 2009",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-70",
+          "t": "Chapter",
+          "n": "70"
+        },
+        {
+          "id": "fmam-71",
+          "t": "Chapter",
+          "n": "71"
+        },
+        {
+          "id": "fmam-72",
+          "t": "Chapter",
+          "n": "72"
+        },
+        {
+          "id": "fmam-73",
+          "t": "Chapter",
+          "n": "73"
+        }
+      ]
+    },
+    {
+      "id": "v-19",
+      "title": "Volume 19",
+      "sub": "chapters 74–78 · 2008 · Viz 2009",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-74",
+          "t": "Chapter",
+          "n": "74"
+        },
+        {
+          "id": "fmam-75",
+          "t": "Chapter",
+          "n": "75"
+        },
+        {
+          "id": "fmam-76",
+          "t": "Chapter",
+          "n": "76"
+        },
+        {
+          "id": "fmam-77",
+          "t": "Chapter",
+          "n": "77"
+        },
+        {
+          "id": "fmam-78",
+          "t": "Chapter",
+          "n": "78"
+        }
+      ]
+    },
+    {
+      "id": "v-20",
+      "title": "Volume 20",
+      "sub": "chapters 79–83 · 2008 · Viz 2009",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-79",
+          "t": "Chapter",
+          "n": "79"
+        },
+        {
+          "id": "fmam-80",
+          "t": "Chapter",
+          "n": "80"
+        },
+        {
+          "id": "fmam-81",
+          "t": "Chapter",
+          "n": "81"
+        },
+        {
+          "id": "fmam-82",
+          "t": "Chapter",
+          "n": "82"
+        },
+        {
+          "id": "fmam-83",
+          "t": "Chapter",
+          "n": "83"
+        }
+      ]
+    },
+    {
+      "id": "v-21",
+      "title": "Volume 21",
+      "sub": "chapters 84–87 · 2008 · Viz 2009",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-84",
+          "t": "Chapter",
+          "n": "84"
+        },
+        {
+          "id": "fmam-85",
+          "t": "Chapter",
+          "n": "85"
+        },
+        {
+          "id": "fmam-86",
+          "t": "Chapter",
+          "n": "86"
+        },
+        {
+          "id": "fmam-87",
+          "t": "Chapter",
+          "n": "87"
+        }
+      ]
+    },
+    {
+      "id": "v-22",
+      "title": "Volume 22",
+      "sub": "chapters 88–91 · 2009 · Viz 2010",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-88",
+          "t": "Chapter",
+          "n": "88"
+        },
+        {
+          "id": "fmam-89",
+          "t": "Chapter",
+          "n": "89"
+        },
+        {
+          "id": "fmam-90",
+          "t": "Chapter",
+          "n": "90"
+        },
+        {
+          "id": "fmam-91",
+          "t": "Chapter",
+          "n": "91"
+        }
+      ]
+    },
+    {
+      "id": "v-23",
+      "title": "Volume 23",
+      "sub": "chapters 92–95 · 2009 · Viz 2010",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-92",
+          "t": "Chapter",
+          "n": "92"
+        },
+        {
+          "id": "fmam-93",
+          "t": "Chapter",
+          "n": "93"
+        },
+        {
+          "id": "fmam-94",
+          "t": "Chapter",
+          "n": "94"
+        },
+        {
+          "id": "fmam-95",
+          "t": "Chapter",
+          "n": "95"
+        }
+      ]
+    },
+    {
+      "id": "v-24",
+      "title": "Volume 24",
+      "sub": "chapters 96–99 · 2009 · Viz 2011",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-96",
+          "t": "Chapter",
+          "n": "96"
+        },
+        {
+          "id": "fmam-97",
+          "t": "Chapter",
+          "n": "97"
+        },
+        {
+          "id": "fmam-98",
+          "t": "Chapter",
+          "n": "98"
+        },
+        {
+          "id": "fmam-99",
+          "t": "Chapter",
+          "n": "99"
+        }
+      ]
+    },
+    {
+      "id": "v-25",
+      "title": "Volume 25",
+      "sub": "chapters 100–103 · 2010 · Viz 2011",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-100",
+          "t": "Chapter",
+          "n": "100"
+        },
+        {
+          "id": "fmam-101",
+          "t": "Chapter",
+          "n": "101"
+        },
+        {
+          "id": "fmam-102",
+          "t": "Chapter",
+          "n": "102"
+        },
+        {
+          "id": "fmam-103",
+          "t": "Chapter",
+          "n": "103"
+        }
+      ]
+    },
+    {
+      "id": "v-26",
+      "title": "Volume 26",
+      "sub": "chapters 104–106 · 2010 · Viz 2011",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-104",
+          "t": "Chapter",
+          "n": "104"
+        },
+        {
+          "id": "fmam-105",
+          "t": "Chapter",
+          "n": "105"
+        },
+        {
+          "id": "fmam-106",
+          "t": "Chapter",
+          "n": "106"
+        }
+      ]
+    },
+    {
+      "id": "v-27",
+      "title": "Volume 27",
+      "sub": "chapters 107–108 · 2010 · Viz 2011",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Fullmetal_Alchemist_chapters"
+        }
+      ],
+      "items": [
+        {
+          "id": "fmam-107",
+          "t": "Chapter",
+          "n": "107"
+        },
+        {
+          "id": "fmam-108",
+          "t": "Chapter",
+          "n": "108"
+        }
+      ]
+    }
+  ]
+}
