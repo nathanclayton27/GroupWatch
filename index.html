@@ -5596,7 +5596,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'ed71cb11db85';
+const BUILD = 'fdcabeae9f25';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -11097,8 +11097,17 @@ function build(){
         +(x.opt?'<span class="opt">optional</span>':'')
         +(x.note?'<span class="nb">'+esc(x.note)+'</span>':'')+'</span>'
         +'<span class="th"></span>'
-        +'<button class="catch" data-id="'+x.id+'" title="Mark everything up to and including this">'
-        +'catch up to here</button></li>';
+        // Not on a grab-bag. "Everything up to here" is only a sentence if
+        // the rows are a sequence; on an unordered list it offers to mark
+        // films you have not seen because they happen to be printed above
+        // one you have (Nathan, CLU-371). Not rendered rather than hidden,
+        // so it stays out of the tab order too. The section-level "mark
+        // all" is untouched — marking a whole section is a real thing to
+        // want here; marking a prefix of one is not.
+        +(PROP.random ? '' :
+          '<button class="catch" data-id="'+x.id+'" title="Mark everything up to and including this">'
+          +'catch up to here</button>')
+        +'</li>';
     }).join('');
     const links = s.links || s.series || [];
     const linkHtml = links.length <= LINKS_INLINE
