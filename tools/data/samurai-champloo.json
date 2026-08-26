@@ -1,0 +1,254 @@
+{
+  "_source": "English Wikipedia, machine-read by scratch/agent-champloo/harvest.py",
+  "pages": [
+    "List of Samurai Champloo episodes",
+    "Samurai Champloo"
+  ],
+  "total": 26,
+  "infobox": {
+    "episodes": 26,
+    "first": "May 20, 2004",
+    "last": "March 19, 2005",
+    "network": "Fuji TV",
+    "studio": "Manglobe",
+    "director": "Shinichirō Watanabe"
+  },
+  "broadcast": {
+    "run1_episodes": 17,
+    "run1_network": "Fuji TV",
+    "run1_first": "2004-05-20",
+    "run1_last": "2004-09-23",
+    "run2_first": "2005-01-22",
+    "run2_last": "2005-03-19",
+    "second_season_phrase": "referred to as a second season",
+    "conflicts": [
+      "The episode-list article's lead dates the cancellation to September 9, 2004. That is when episode 15 aired; both the series article and the table's own dates put episode 17 on September 23, 2004, and this list follows them.",
+      "The two articles name different channels for the second run — the series article says Fuji Network System, the episode-list lead says BS Fuji. This list names neither."
+    ]
+  },
+  "bebop": {
+    "concept_year": 1999,
+    "three_episode_finale": true
+  },
+  "runtime_hunt": {
+    "episode_table": {
+      "runtime_column_declared": false,
+      "blocks_with_runtime": 0,
+      "blocks": 26
+    },
+    "season_articles": {
+      "checked": [
+        "Samurai Champloo season 1",
+        "Samurai Champloo season 2",
+        "Samurai Champloo (season 1)",
+        "Samurai Champloo (season 2)"
+      ],
+      "existing": []
+    },
+    "episode_articles": {
+      "candidates": 52,
+      "resolved": [
+        "Baseball Blues",
+        "Tempestuous Temperaments (Samurai Champloo)",
+        "War of the Words"
+      ],
+      "own_article": []
+    },
+    "wikidata": {
+      "series_qid": "Q143276",
+      "series_runtime_minutes": 23,
+      "series_runtime_reference_properties": [
+        [
+          "P143"
+        ]
+      ],
+      "series_runtime_imported_from": "German Wikipedia (Q48183)",
+      "episode_items": 26,
+      "episode_items_with_runtime": []
+    }
+  },
+  "episodes": [
+    {
+      "n": 1,
+      "t": "Tempestuous Temperaments",
+      "air": "2004-05-20",
+      "alt": "May 14, 2005",
+      "translit": "Storm and Stress / Shippū Dotō"
+    },
+    {
+      "n": 2,
+      "t": "Redeye Reprisal",
+      "air": "2004-06-03",
+      "alt": "May 21, 2005",
+      "translit": "Veritable Pandemonium / Hyakkiyakō"
+    },
+    {
+      "n": 3,
+      "t": "Hellhounds for Hire (Part 1)",
+      "air": "2004-06-10",
+      "alt": "May 28, 2005",
+      "translit": "Tacit Understanding 1 / Ishindenshin sono ichi"
+    },
+    {
+      "n": 4,
+      "t": "Hellhounds for Hire (Part 2)",
+      "air": "2004-06-17",
+      "alt": "June 4, 2005",
+      "translit": "Tacit Understanding 2 / Ishindenshin sono ni"
+    },
+    {
+      "n": 5,
+      "t": "Artistic Anarchy",
+      "air": "2004-06-24",
+      "alt": "June 11, 2005",
+      "translit": "Utter Indifference / Bajitōfū"
+    },
+    {
+      "n": 6,
+      "t": "Stranger Searching",
+      "air": "2004-07-01",
+      "alt": "June 19, 2005",
+      "translit": "Redheaded Foreigner / Akage Ijin"
+    },
+    {
+      "n": 7,
+      "t": "A Risky Racket",
+      "air": "2004-07-08",
+      "alt": "June 25, 2005",
+      "translit": "Surrounded on All Sides / Shimensoka"
+    },
+    {
+      "n": 8,
+      "t": "The Art of Altercation",
+      "air": "2004-07-15",
+      "alt": "July 2, 2005",
+      "translit": "Self-Conceit / Yuigadokuson"
+    },
+    {
+      "n": 9,
+      "t": "Beatbox Bandits",
+      "air": "2004-07-22",
+      "alt": "July 9, 2005",
+      "translit": "Evil Spirits of Mountain and Stream / Chimimōryō"
+    },
+    {
+      "n": 10,
+      "t": "Lethal Lunacy",
+      "air": "2004-07-29",
+      "alt": "July 16, 2005",
+      "translit": "Fighting Fire with Fire / Idoku Seidoku"
+    },
+    {
+      "n": 11,
+      "t": "Gamblers and Gallantry",
+      "air": "2004-08-05",
+      "alt": "July 23, 2005",
+      "translit": "Fallen Angel / Daraku Tenshi"
+    },
+    {
+      "n": 12,
+      "t": "The Disorder Diaries",
+      "air": "2004-08-12",
+      "alt": "July 30, 2005",
+      "translit": "Learning from the Past / Onkochishin"
+    },
+    {
+      "n": 13,
+      "t": "Misguided Miscreants (Part 1)",
+      "air": "2004-08-26",
+      "alt": "November 19, 2005",
+      "translit": "Dark Night's Road 1 / An'ya Kōro sono ichi"
+    },
+    {
+      "n": 14,
+      "t": "Misguided Miscreants (Part 2)",
+      "air": "2004-09-02",
+      "alt": "November 26, 2005",
+      "translit": "Dark Night's Road 2 / An'ya Kōro sono ni"
+    },
+    {
+      "n": 15,
+      "t": "Bogus Booty",
+      "air": "2004-09-09",
+      "alt": "December 3, 2005",
+      "translit": "Through and Through / Tettō Tetsubi"
+    },
+    {
+      "n": 16,
+      "t": "Lullabies of the Lost (Verse 1)",
+      "air": "2004-09-16",
+      "alt": "December 10, 2005",
+      "translit": "Idling One's Life Away, first verse / Suiseimushi hito yume"
+    },
+    {
+      "n": 17,
+      "t": "Lullabies of the Lost (Verse 2)",
+      "air": "2004-09-23",
+      "alt": "December 17, 2005",
+      "translit": "Idling One's Life Away, second verse / Suiseimushi futa yume"
+    },
+    {
+      "n": 18,
+      "t": "War of the Words",
+      "air": "2005-01-22",
+      "alt": "January 12, 2006",
+      "translit": "Pen in One Hand, Sword in the Other / Bunburyōdō"
+    },
+    {
+      "n": 19,
+      "t": "Unholy Union",
+      "air": "2005-01-29",
+      "alt": "January 19, 2006",
+      "translit": "Karma and Retribution / Ingaōhō"
+    },
+    {
+      "n": 20,
+      "t": "Elegy of Entrapment (Verse 1)",
+      "air": "2005-02-05",
+      "alt": "January 26, 2006",
+      "translit": "Generous Elegy 1 / Hikakōgai sono ichi"
+    },
+    {
+      "n": 21,
+      "t": "Elegy of Entrapment (Verse 2)",
+      "air": "2005-02-12",
+      "alt": "February 2, 2006",
+      "translit": "Generous Elegy 2 / Hikakōgai sono ni"
+    },
+    {
+      "n": 22,
+      "t": "Cosmic Collisions",
+      "air": "2005-02-19",
+      "alt": "February 9, 2006",
+      "translit": "Anger Shot Toward Heaven / Dohatsu Shōten"
+    },
+    {
+      "n": 23,
+      "t": "Baseball Blues",
+      "air": "2005-02-26",
+      "alt": "February 16, 2006",
+      "translit": "Heart and Soul Into the Ball / Ikkyū Nyūkon"
+    },
+    {
+      "n": 24,
+      "t": "Evanescent Encounter (Part 1)",
+      "air": "2005-03-05",
+      "alt": "February 23, 2006",
+      "translit": "Circle of Transmigration 1 / Shōji Ruten sono ichi"
+    },
+    {
+      "n": 25,
+      "t": "Evanescent Encounter (Part 2)",
+      "air": "2005-03-12",
+      "alt": "March 2, 2006",
+      "translit": "Circle of Transmigration 2 / Shōji Ruten sono ni"
+    },
+    {
+      "n": 26,
+      "t": "Evanescent Encounter (Part 3)",
+      "air": "2005-03-19",
+      "alt": "March 9, 2006",
+      "translit": "Circle of Transmigration 3 / Shōji Ruten sono san"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "slug": "fullmetal-alchemist",
+  "title": "Fullmetal Alchemist (2003)",
+  "subtitle": "the first anime adaptation, and the film that ends it",
+  "kind": "anime & film",
+  "popularity": 73,
+  "year": "2003–2005",
+  "blurb": "The manga's first anime adaptation — 51 episodes and the sequel film that closes them.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#8A4500",
+  "accentDark": "#D9903F",
+  "tiers": false,
+  "notes": [
+    [
+      "Two anime, one manga.",
+      "This is the 2003 series, the first adaptation of Hiromu Arakawa's manga. Fullmetal Alchemist: Brotherhood (2009) is the second and has its own page at ?p=fma-brotherhood. Wikipedia calls Brotherhood an independent second adaptation that directly follows the events of the manga and ignores the original anime's continuity. Which of the two to watch is not a question this list answers."
+    ],
+    [
+      "Where they part.",
+      "The manga was still being published while this series was in production and Arakawa asked for an ending of its own, which Wikipedia says led to the anime deviating into an entirely original story direction around the first dozen episodes. That is the where. The what is a spoiler, so no note on this page names it."
+    ],
+    [
+      "The film belongs to this continuity.",
+      "Conqueror of Shamballa is a direct sequel to this series and the conclusion of its story, which is why it is here. The Sacred Star of Milos (2011) is not: its own article records it as a film set during the second anime's storyline, which is Brotherhood's."
+    ],
+    [
+      "What else is out.",
+      "The recap special Reflections and the four Premium Collection OVAs, which the episode list files outside the 1–51 numbering and describes as side stories that do not expand on the plot. The live-action films (2017, and two sequels in 2022) adapt the manga directly in another medium. The manga itself is not tracked here."
+    ],
+    [
+      "Nothing is weighted.",
+      "No per-episode runtime for this series is published anywhere machine-readable. The episode table carries no RunTime fields; no episode has an article of its own (40 of the 51 titles are redirects into the episode list); Wikipedia files the series as one season, so there are no season articles; and Wikidata has an item for one episode out of 51. The film's 105 minutes is sourced and confirmed, but a single weighted row beside 51 unweighted ones would have the strip claim an episode takes an hour — so every row counts one, and the film's runtime sits in its note instead."
+    ],
+    [
+      "Sections are the broadcast runs.",
+      "The series has no arc names of its own, so the four sections are the opening-theme runs the episode list documents — 1–13, 14–25, 26–41 and 42–51. Episodes 41 and 42 share an air date; that is what the source records."
+    ],
+    "Episode titles and air dates machine-read from Wikipedia's List of Fullmetal Alchemist episodes; the film's date and runtime from its own article and Wikidata; the 1–51 numbering asserted complete before this builds."
+  ],
+  "sections": [
+    {
+      "id": "part1",
+      "title": "Episodes 1–13",
+      "sub": "October–December 2003 · 13 episodes",
+      "items": [
+        {
+          "id": "fma03-1",
+          "t": "Those Who Challenge the Sun",
+          "n": "1",
+          "note": "Series premiere"
+        },
+        {
+          "id": "fma03-2",
+          "t": "Body of the Sanctioned",
+          "n": "2"
+        },
+        {
+          "id": "fma03-3",
+          "t": "Mother",
+          "n": "3"
+        },
+        {
+          "id": "fma03-4",
+          "t": "A Forger's Love",
+          "n": "4"
+        },
+        {
+          "id": "fma03-5",
+          "t": "The Man with the Mechanical Arm",
+          "n": "5"
+        },
+        {
+          "id": "fma03-6",
+          "t": "The Alchemy Exam",
+          "n": "6"
+        },
+        {
+          "id": "fma03-7",
+          "t": "Night of the Chimera's Cry",
+          "n": "7"
+        },
+        {
+          "id": "fma03-8",
+          "t": "The Philosopher's Stone",
+          "n": "8"
+        },
+        {
+          "id": "fma03-9",
+          "t": "Be Thou for the People",
+          "n": "9"
+        },
+        {
+          "id": "fma03-10",
+          "t": "The Phantom Thief",
+          "n": "10"
+        },
+        {
+          "id": "fma03-11",
+          "t": "The Other Brothers Elric: Part 1",
+          "n": "11"
+        },
+        {
+          "id": "fma03-12",
+          "t": "The Other Brothers Elric: Part 2",
+          "n": "12"
+        },
+        {
+          "id": "fma03-13",
+          "t": "Fullmetal vs. Flame",
+          "n": "13"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "part2",
+      "title": "Episodes 14–25",
+      "sub": "January–March 2004 · 12 episodes",
+      "items": [
+        {
+          "id": "fma03-14",
+          "t": "Destruction's Right Hand",
+          "n": "14"
+        },
+        {
+          "id": "fma03-15",
+          "t": "The Ishbal Massacre",
+          "n": "15"
+        },
+        {
+          "id": "fma03-16",
+          "t": "That Which Is Lost",
+          "n": "16"
+        },
+        {
+          "id": "fma03-17",
+          "t": "House of the Waiting Family",
+          "n": "17"
+        },
+        {
+          "id": "fma03-18",
+          "t": "Marcoh's Notes",
+          "n": "18"
+        },
+        {
+          "id": "fma03-19",
+          "t": "The Truth Behind Truths",
+          "n": "19"
+        },
+        {
+          "id": "fma03-20",
+          "t": "Soul of the Guardian",
+          "n": "20"
+        },
+        {
+          "id": "fma03-21",
+          "t": "The Red Glow",
+          "n": "21"
+        },
+        {
+          "id": "fma03-22",
+          "t": "Created Human",
+          "n": "22"
+        },
+        {
+          "id": "fma03-23",
+          "t": "Fullmetal Heart",
+          "n": "23"
+        },
+        {
+          "id": "fma03-24",
+          "t": "Bonding Memories",
+          "n": "24"
+        },
+        {
+          "id": "fma03-25",
+          "t": "Words of Farewell",
+          "n": "25"
+        }
+      ],
+      "intro": "Around here the adaptation leaves the manga behind. Wikipedia dates this series' move into an original story direction to around the first dozen episodes; from roughly this point on, it and Brotherhood are not telling the same story. What changes is not on this page."
+    },
+    {
+      "id": "part3",
+      "title": "Episodes 26–41",
+      "sub": "April–July 2004 · 16 episodes",
+      "items": [
+        {
+          "id": "fma03-26",
+          "t": "Her Reason",
+          "n": "26"
+        },
+        {
+          "id": "fma03-27",
+          "t": "Teacher",
+          "n": "27"
+        },
+        {
+          "id": "fma03-28",
+          "t": "All is One, One is All",
+          "n": "28"
+        },
+        {
+          "id": "fma03-29",
+          "t": "The Untainted Child",
+          "n": "29"
+        },
+        {
+          "id": "fma03-30",
+          "t": "Assault on South Headquarters",
+          "n": "30"
+        },
+        {
+          "id": "fma03-31",
+          "t": "Sin",
+          "n": "31"
+        },
+        {
+          "id": "fma03-32",
+          "t": "Dante of the Deep Forest",
+          "n": "32"
+        },
+        {
+          "id": "fma03-33",
+          "t": "Al, Captured",
+          "n": "33"
+        },
+        {
+          "id": "fma03-34",
+          "t": "Theory of Avarice",
+          "n": "34"
+        },
+        {
+          "id": "fma03-35",
+          "t": "Reunion of the Fallen",
+          "n": "35"
+        },
+        {
+          "id": "fma03-36",
+          "t": "The Sinner Within",
+          "n": "36"
+        },
+        {
+          "id": "fma03-37",
+          "t": "The Flame Alchemist, The Bachelor Lieutenant & The Mystery of Warehouse 13",
+          "n": "37"
+        },
+        {
+          "id": "fma03-38",
+          "t": "With the River's Flow",
+          "n": "38"
+        },
+        {
+          "id": "fma03-39",
+          "t": "Secret of Ishbal",
+          "n": "39"
+        },
+        {
+          "id": "fma03-40",
+          "t": "The Scar",
+          "n": "40"
+        },
+        {
+          "id": "fma03-41",
+          "t": "Holy Mother",
+          "n": "41"
+        }
+      ]
+    },
+    {
+      "id": "part4",
+      "title": "Episodes 42–51",
+      "sub": "July–October 2004 · 10 episodes",
+      "items": [
+        {
+          "id": "fma03-42",
+          "t": "His Name is Unknown",
+          "n": "42",
+          "note": "Aired the same day as episode 41"
+        },
+        {
+          "id": "fma03-43",
+          "t": "The Stray Dog",
+          "n": "43"
+        },
+        {
+          "id": "fma03-44",
+          "t": "Hohenheim of Light",
+          "n": "44"
+        },
+        {
+          "id": "fma03-45",
+          "t": "A Rotted Heart",
+          "n": "45"
+        },
+        {
+          "id": "fma03-46",
+          "t": "Human Transmutation",
+          "n": "46"
+        },
+        {
+          "id": "fma03-47",
+          "t": "Sealing the Homunculus",
+          "n": "47"
+        },
+        {
+          "id": "fma03-48",
+          "t": "Goodbye",
+          "n": "48"
+        },
+        {
+          "id": "fma03-49",
+          "t": "The Other Side of the Gate",
+          "n": "49"
+        },
+        {
+          "id": "fma03-50",
+          "t": "Death",
+          "n": "50"
+        },
+        {
+          "id": "fma03-51",
+          "t": "Laws and Promises",
+          "n": "51",
+          "note": "Series finale — the film picks up from here"
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "title": "Conqueror of Shamballa",
+      "sub": "2005 · the sequel film, and the end of this continuity",
+      "items": [
+        {
+          "id": "fma03-film-2005",
+          "t": "Fullmetal Alchemist the Movie: Conqueror of Shamballa",
+          "n": "2005",
+          "note": "105 min · a direct sequel to the series"
+        }
+      ]
+    }
+  ]
+}

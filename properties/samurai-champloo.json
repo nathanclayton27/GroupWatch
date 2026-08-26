@@ -1,0 +1,212 @@
+{
+  "slug": "samurai-champloo",
+  "title": "Samurai Champloo",
+  "subtitle": "all 26 episodes, in broadcast order",
+  "kind": "anime",
+  "popularity": 68,
+  "year": "2004–05",
+  "blurb": "Every episode of Shinichirō Watanabe's Edo-period road story, in broadcast order across the two runs it aired in.",
+  "unit": {
+    "one": "episode",
+    "many": "episodes"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#264B7A",
+  "accentDark": "#EFC050",
+  "tiers": false,
+  "notes": [
+    [
+      "Two seasons, one twenty-six episode series.",
+      "Fuji TV aired seventeen episodes from May 20 to September 23, 2004 and then cancelled the broadcast. The remaining nine aired from January 22 to March 19, 2005, and the source refers to them as a second season. The split is a broadcast fact rather than a break in the story, and the sections here follow it because it is the only division the source documents."
+    ],
+    [
+      "The source disagrees with itself about one date.",
+      "The episode-list article's lead dates the cancellation to September 9, 2004 — which is the day its own table gives episode 15. The series article says September 23, the day the table gives episode 17, the last of the first run. This list follows the series article and the table. The two also name different channels for the second run, so this list names neither."
+    ],
+    [
+      "No arcs, because the source names none.",
+      "The episode list is one flat table of 26 with no arc headings and no part markers, so nothing here is grouped by story. The multi-part episodes announce themselves in their own titles — Hellhounds for Hire, Misguided Miscreants, Lullabies of the Lost, Elegy of Entrapment, and Evanescent Encounter, which runs three."
+    ],
+    [
+      "Nothing is weighted, and here is everywhere that was checked.",
+      "The episode table declares no runtime column and not one of its 26 entries carries a running time. There is no season article to hold one. No episode has an article of its own — all 26 titles were looked up bare and disambiguated, and the only one that resolves as this show is a redirect back to the episode list. And of the 26 Wikidata items the series lists as its parts, not one records a duration. The single running time anywhere is 23 minutes on the series' own Wikidata item, whose only reference is an import from another Wikipedia rather than a citation. Weighting is all or nothing: a row with no weight silently counts as a full hour, so weighting a handful would make the other rows read as hours apiece. Every row counts one, and this list does not track hours."
+    ],
+    [
+      "Watanabe made this after Cowboy Bebop, which is also here.",
+      "The source dates the concept to 1999, when he was known for Cowboy Bebop, and says work was delayed by Cowboy Bebop: The Movie and his segments of The Animatrix. That is the whole of the connection as far as this list is concerned — two lists by the same director, in whichever order you like."
+    ],
+    [
+      "What is out.",
+      "The 2004 manga, whose author wrote an original story rather than a retelling; the Roman Album art book; the PlayStation 2 game Samurai Champloo: Sidetracked, which its publisher describes as a separate storyline; a mobile card game; and the live-action adaptation announced in March 2026, which has no episodes. This list is the animated television series."
+    ],
+    "Titles and airdates machine-read from Wikipedia's List of Samurai Champloo episodes; the broadcast split, the cancellation and the production facts from the Samurai Champloo article. The numbering is asserted contiguous 1–26, the airdates asserted in broadcast order, the total cross-checked against the series infobox, and both ends of each run matched to the episode that aired that day before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "2004 · 17 episodes · Fuji TV",
+      "intro": "The first seventeen, weekly from May to September 2004. The network cancelled the broadcast here, seventeen episodes into a twenty-six episode series.",
+      "links": [
+        {
+          "label": "The episode list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Samurai_Champloo_episodes"
+        }
+      ],
+      "open": true,
+      "items": [
+        {
+          "id": "champloo-1",
+          "t": "Tempestuous Temperaments",
+          "n": "1",
+          "note": "The premiere"
+        },
+        {
+          "id": "champloo-2",
+          "t": "Redeye Reprisal",
+          "n": "2"
+        },
+        {
+          "id": "champloo-3",
+          "t": "Hellhounds for Hire (Part 1)",
+          "n": "3"
+        },
+        {
+          "id": "champloo-4",
+          "t": "Hellhounds for Hire (Part 2)",
+          "n": "4"
+        },
+        {
+          "id": "champloo-5",
+          "t": "Artistic Anarchy",
+          "n": "5"
+        },
+        {
+          "id": "champloo-6",
+          "t": "Stranger Searching",
+          "n": "6"
+        },
+        {
+          "id": "champloo-7",
+          "t": "A Risky Racket",
+          "n": "7"
+        },
+        {
+          "id": "champloo-8",
+          "t": "The Art of Altercation",
+          "n": "8"
+        },
+        {
+          "id": "champloo-9",
+          "t": "Beatbox Bandits",
+          "n": "9"
+        },
+        {
+          "id": "champloo-10",
+          "t": "Lethal Lunacy",
+          "n": "10"
+        },
+        {
+          "id": "champloo-11",
+          "t": "Gamblers and Gallantry",
+          "n": "11"
+        },
+        {
+          "id": "champloo-12",
+          "t": "The Disorder Diaries",
+          "n": "12"
+        },
+        {
+          "id": "champloo-13",
+          "t": "Misguided Miscreants (Part 1)",
+          "n": "13"
+        },
+        {
+          "id": "champloo-14",
+          "t": "Misguided Miscreants (Part 2)",
+          "n": "14"
+        },
+        {
+          "id": "champloo-15",
+          "t": "Bogus Booty",
+          "n": "15"
+        },
+        {
+          "id": "champloo-16",
+          "t": "Lullabies of the Lost (Verse 1)",
+          "n": "16"
+        },
+        {
+          "id": "champloo-17",
+          "t": "Lullabies of the Lost (Verse 2)",
+          "n": "17"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "2005 · 9 episodes",
+      "intro": "The remaining nine, four months later, in a midnight slot. The source calls them a second season; they are episodes 18 to 26 of one twenty-six episode production, and they keep those numbers here. The last three are a single story, which the source says was not planned in advance.",
+      "links": [
+        {
+          "label": "The series",
+          "url": "https://en.wikipedia.org/wiki/Samurai_Champloo"
+        }
+      ],
+      "items": [
+        {
+          "id": "champloo-18",
+          "t": "War of the Words",
+          "n": "18"
+        },
+        {
+          "id": "champloo-19",
+          "t": "Unholy Union",
+          "n": "19"
+        },
+        {
+          "id": "champloo-20",
+          "t": "Elegy of Entrapment (Verse 1)",
+          "n": "20"
+        },
+        {
+          "id": "champloo-21",
+          "t": "Elegy of Entrapment (Verse 2)",
+          "n": "21"
+        },
+        {
+          "id": "champloo-22",
+          "t": "Cosmic Collisions",
+          "n": "22"
+        },
+        {
+          "id": "champloo-23",
+          "t": "Baseball Blues",
+          "n": "23"
+        },
+        {
+          "id": "champloo-24",
+          "t": "Evanescent Encounter (Part 1)",
+          "n": "24"
+        },
+        {
+          "id": "champloo-25",
+          "t": "Evanescent Encounter (Part 2)",
+          "n": "25"
+        },
+        {
+          "id": "champloo-26",
+          "t": "Evanescent Encounter (Part 3)",
+          "n": "26",
+          "note": "The finale, and the last of three parts"
+        }
+      ]
+    }
+  ]
+}

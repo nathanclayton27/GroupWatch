@@ -1,0 +1,1208 @@
+{
+ "seasons": {
+  "1": [
+   {
+    "o": 1,
+    "t": "Surprised to be Dead",
+    "d": [
+     1992,
+     10,
+     10
+    ]
+   },
+   {
+    "o": 2,
+    "t": "Koenma Appears",
+    "d": [
+     1992,
+     10,
+     17
+    ]
+   },
+   {
+    "o": 3,
+    "t": "Kuwabara: A Promise Between Men",
+    "d": [
+     1992,
+     10,
+     24
+    ]
+   },
+   {
+    "o": 4,
+    "t": "Requirements for Lovers",
+    "d": [
+     1992,
+     10,
+     31
+    ]
+   },
+   {
+    "o": 5,
+    "t": "Yusuke's Back",
+    "d": [
+     1992,
+     11,
+     7
+    ]
+   },
+   {
+    "o": 6,
+    "t": "Three Monsters",
+    "d": [
+     1992,
+     11,
+     14
+    ]
+   },
+   {
+    "o": 7,
+    "t": "Gouki and Kurama",
+    "d": [
+     1992,
+     11,
+     21
+    ]
+   },
+   {
+    "o": 8,
+    "t": "The Three Eyes of Hiei",
+    "d": [
+     1992,
+     11,
+     28
+    ]
+   },
+   {
+    "o": 9,
+    "t": "The Search Begins",
+    "d": [
+     1992,
+     12,
+     5
+    ]
+   },
+   {
+    "o": 10,
+    "t": "Kuwabara's Spirit Sword",
+    "d": [
+     1992,
+     12,
+     12
+    ]
+   },
+   {
+    "o": 11,
+    "t": "Hard Fights for Yusuke",
+    "d": [
+     1992,
+     12,
+     19
+    ]
+   },
+   {
+    "o": 12,
+    "t": "Rando Rises, Kuwabara Falls",
+    "d": [
+     1992,
+     12,
+     26
+    ]
+   },
+   {
+    "o": 13,
+    "t": "Yusuke vs. Rando: 99 Attacks",
+    "d": [
+     1993,
+     1,
+     9
+    ]
+   },
+   {
+    "o": 14,
+    "t": "The Beasts of Maze Castle",
+    "d": [
+     1993,
+     1,
+     16
+    ]
+   },
+   {
+    "o": 15,
+    "t": "Genbu, the Stone Beast",
+    "d": [
+     1993,
+     1,
+     23
+    ]
+   },
+   {
+    "o": 16,
+    "t": "Byakko, the White Tiger",
+    "d": [
+     1993,
+     1,
+     30
+    ]
+   },
+   {
+    "o": 17,
+    "t": "Byakko's Lair",
+    "d": [
+     1993,
+     2,
+     6
+    ]
+   },
+   {
+    "o": 18,
+    "t": "Seiryu, the Blue Dragon",
+    "d": [
+     1993,
+     2,
+     13
+    ]
+   },
+   {
+    "o": 19,
+    "t": "Suzaku, Leader of the Beasts",
+    "d": [
+     1993,
+     2,
+     20
+    ]
+   },
+   {
+    "o": 20,
+    "t": "Seven Ways to Die",
+    "d": [
+     1993,
+     2,
+     27
+    ]
+   },
+   {
+    "o": 21,
+    "t": "Yusuke's Sacrifice",
+    "d": [
+     1993,
+     3,
+     6
+    ]
+   },
+   {
+    "o": 22,
+    "t": "Lamenting Beauty",
+    "d": [
+     1993,
+     3,
+     13
+    ]
+   },
+   {
+    "o": 23,
+    "t": "The Toguro Brothers Gang",
+    "d": [
+     1993,
+     3,
+     20
+    ]
+   },
+   {
+    "o": 24,
+    "t": "The Deadly Triad",
+    "d": [
+     1993,
+     3,
+     27
+    ]
+   },
+   {
+    "o": 25,
+    "t": "Kuwabara's Fight of Love",
+    "d": [
+     1993,
+     4,
+     10
+    ]
+   }
+  ],
+  "2": [
+   {
+    "o": 26,
+    "t": "Toguro Returns",
+    "d": [
+     1993,
+     4,
+     17
+    ]
+   },
+   {
+    "o": 27,
+    "t": "The Dark Tournament Begins",
+    "d": [
+     1993,
+     4,
+     24
+    ]
+   },
+   {
+    "o": 28,
+    "t": "First Fight",
+    "d": [
+     1993,
+     5,
+     1
+    ]
+   },
+   {
+    "o": 29,
+    "t": "Flowers of Blood",
+    "d": [
+     1993,
+     5,
+     8
+    ]
+   },
+   {
+    "o": 30,
+    "t": "Dragon of the Darkness Flame",
+    "d": [
+     1993,
+     5,
+     15
+    ]
+   },
+   {
+    "o": 31,
+    "t": "Stumbling Warrior",
+    "d": [
+     1993,
+     5,
+     22
+    ]
+   },
+   {
+    "o": 32,
+    "t": "Knife Edge Death-Match",
+    "d": [
+     1993,
+     5,
+     29
+    ]
+   },
+   {
+    "o": 33,
+    "t": "A Day in Waiting",
+    "d": [
+     1993,
+     6,
+     5
+    ]
+   },
+   {
+    "o": 34,
+    "t": "Percentage of Victory",
+    "d": [
+     1993,
+     6,
+     12
+    ]
+   },
+   {
+    "o": 35,
+    "t": "Glimpse Beneath the Mask",
+    "d": [
+     1993,
+     6,
+     19
+    ]
+   },
+   {
+    "o": 36,
+    "t": "Ambition Destroyed: A Trial by Light",
+    "d": [
+     1993,
+     6,
+     26
+    ]
+   },
+   {
+    "o": 37,
+    "t": "Master of Disguise",
+    "d": [
+     1993,
+     7,
+     3
+    ]
+   },
+   {
+    "o": 38,
+    "t": "Kurama's Stand",
+    "d": [
+     1993,
+     7,
+     10
+    ]
+   },
+   {
+    "o": 39,
+    "t": "Crushing Revenge",
+    "d": [
+     1993,
+     7,
+     17
+    ]
+   },
+   {
+    "o": 40,
+    "t": "Jin, the Wind Master",
+    "d": [
+     1993,
+     7,
+     24
+    ]
+   },
+   {
+    "o": 41,
+    "t": "Reverse Decisions",
+    "d": [
+     1993,
+     7,
+     31
+    ]
+   },
+   {
+    "o": 42,
+    "t": "A Matter of Love and Death",
+    "d": [
+     1993,
+     8,
+     7
+    ]
+   },
+   {
+    "o": 43,
+    "t": "The Masked Fighter Revealed",
+    "d": [
+     1993,
+     8,
+     14
+    ]
+   },
+   {
+    "o": 44,
+    "t": "Yusuke's Final Test",
+    "d": [
+     1993,
+     8,
+     21
+    ]
+   },
+   {
+    "o": 45,
+    "t": "Hiei Battles On",
+    "d": [
+     1993,
+     8,
+     28
+    ]
+   },
+   {
+    "o": 46,
+    "t": "Many Faces, Many Forms",
+    "d": [
+     1993,
+     9,
+     4
+    ]
+   },
+   {
+    "o": 47,
+    "t": "Legendary Bandit: Yoko Kurama",
+    "d": [
+     1993,
+     9,
+     11
+    ]
+   },
+   {
+    "o": 48,
+    "t": "The Cape of No Return",
+    "d": [
+     1993,
+     9,
+     18
+    ]
+   },
+   {
+    "o": 49,
+    "t": "Genkai's Strength",
+    "d": [
+     1993,
+     9,
+     25
+    ]
+   },
+   {
+    "o": 50,
+    "t": "Suzuka's Challenge",
+    "d": [
+     1993,
+     10,
+     2
+    ]
+   },
+   {
+    "o": 51,
+    "t": "Arch-Rivals",
+    "d": [
+     1993,
+     10,
+     9
+    ]
+   },
+   {
+    "o": 52,
+    "t": "The Death of Genkai",
+    "d": [
+     1993,
+     10,
+     16
+    ]
+   },
+   {
+    "o": 53,
+    "t": "Overcoming Grief",
+    "d": [
+     1993,
+     10,
+     23
+    ]
+   },
+   {
+    "o": 54,
+    "t": "The Beginning of the End",
+    "d": [
+     1993,
+     10,
+     30
+    ]
+   },
+   {
+    "o": 55,
+    "t": "The Beast Within",
+    "d": [
+     1993,
+     11,
+     6
+    ]
+   },
+   {
+    "o": 56,
+    "t": "Yoko's Magic",
+    "d": [
+     1993,
+     11,
+     13
+    ]
+   },
+   {
+    "o": 57,
+    "t": "Beneath Bui's Armor",
+    "d": [
+     1993,
+     11,
+     20
+    ]
+   },
+   {
+    "o": 58,
+    "t": "Wielder of the Dragon",
+    "d": [
+     1993,
+     11,
+     27
+    ]
+   },
+   {
+    "o": 59,
+    "t": "The Shadow of Elder Toguro",
+    "d": [
+     1993,
+     12,
+     4
+    ]
+   },
+   {
+    "o": 60,
+    "t": "Sakyo's Proposal",
+    "d": [
+     1993,
+     12,
+     11
+    ]
+   },
+   {
+    "o": 61,
+    "t": "Yusuke vs. Toguro",
+    "d": [
+     1993,
+     12,
+     18
+    ]
+   },
+   {
+    "o": 62,
+    "t": "Toguro's Full Power",
+    "d": [
+     1994,
+     1,
+     8
+    ]
+   },
+   {
+    "o": 63,
+    "t": "Yusuke's Despair",
+    "d": [
+     1994,
+     1,
+     15
+    ]
+   },
+   {
+    "o": 64,
+    "t": "Toguro's Desire",
+    "d": [
+     1994,
+     1,
+     22
+    ]
+   },
+   {
+    "o": 65,
+    "t": "Out With a Bang",
+    "d": [
+     1994,
+     1,
+     29
+    ]
+   },
+   {
+    "o": 66,
+    "t": "Toguro's Wish",
+    "d": [
+     1994,
+     2,
+     5
+    ]
+   }
+  ],
+  "3": [
+   {
+    "o": 67,
+    "t": "Return to Living World",
+    "d": [
+     1994,
+     2,
+     12
+    ]
+   },
+   {
+    "o": 68,
+    "t": "Setting the Trap",
+    "d": [
+     1994,
+     2,
+     19
+    ]
+   },
+   {
+    "o": 69,
+    "t": "The Power of Taboo",
+    "d": [
+     1994,
+     2,
+     26
+    ]
+   },
+   {
+    "o": 70,
+    "t": "Genkai's Ruse",
+    "d": [
+     1994,
+     3,
+     5
+    ]
+   },
+   {
+    "o": 71,
+    "t": "The Tunnel",
+    "d": [
+     1994,
+     3,
+     12
+    ]
+   },
+   {
+    "o": 72,
+    "t": "The Reader",
+    "d": [
+     1994,
+     3,
+     19
+    ]
+   },
+   {
+    "o": 73,
+    "t": "The Doctor's Disease",
+    "d": [
+     1994,
+     3,
+     26
+    ]
+   },
+   {
+    "o": 74,
+    "t": "Sleep, Doctor, Sleep",
+    "d": [
+     1994,
+     4,
+     2
+    ]
+   },
+   {
+    "o": 75,
+    "t": "Caught in the Rain",
+    "d": [
+     1994,
+     4,
+     9
+    ]
+   },
+   {
+    "o": 76,
+    "t": "Kuwabara: Awakening",
+    "d": [
+     1994,
+     4,
+     16
+    ]
+   },
+   {
+    "o": 77,
+    "t": "Sensui's Fall",
+    "d": [
+     1994,
+     4,
+     23
+    ]
+   },
+   {
+    "o": 78,
+    "t": "Divide and Conquer",
+    "d": [
+     1994,
+     4,
+     30
+    ]
+   },
+   {
+    "o": 79,
+    "t": "The Human Race",
+    "d": [
+     1994,
+     5,
+     7
+    ]
+   },
+   {
+    "o": 80,
+    "t": "Moving Target",
+    "d": [
+     1994,
+     5,
+     14
+    ]
+   },
+   {
+    "o": 81,
+    "t": "Let the Games Begin",
+    "d": [
+     1994,
+     5,
+     21
+    ]
+   },
+   {
+    "o": 82,
+    "t": "If You Could Play Forever",
+    "d": [
+     1994,
+     5,
+     28
+    ]
+   },
+   {
+    "o": 83,
+    "t": "Game Over",
+    "d": [
+     1994,
+     6,
+     4
+    ]
+   },
+   {
+    "o": 84,
+    "t": "Kurama's Anger, Gourmet's Guest",
+    "d": [
+     1994,
+     6,
+     11
+    ]
+   },
+   {
+    "o": 85,
+    "t": "Spirit Detective Showdown",
+    "d": [
+     1994,
+     6,
+     18
+    ]
+   },
+   {
+    "o": 86,
+    "t": "The Difference Maker",
+    "d": [
+     1994,
+     6,
+     25
+    ]
+   },
+   {
+    "o": 87,
+    "t": "Power Between the Teeth",
+    "d": [
+     1994,
+     7,
+     2
+    ]
+   },
+   {
+    "o": 88,
+    "t": "The True Face of Sensui",
+    "d": [
+     1994,
+     7,
+     9
+    ]
+   },
+   {
+    "o": 89,
+    "t": "Death of a Spirit Detective",
+    "d": [
+     1994,
+     7,
+     16
+    ]
+   },
+   {
+    "o": 90,
+    "t": "Attempting Revenge",
+    "d": [
+     1994,
+     7,
+     23
+    ]
+   },
+   {
+    "o": 91,
+    "t": "Waking the Lost",
+    "d": [
+     1994,
+     7,
+     30
+    ]
+   },
+   {
+    "o": 92,
+    "t": "The Proof",
+    "d": [
+     1994,
+     8,
+     6
+    ]
+   },
+   {
+    "o": 93,
+    "t": "Sensui's End",
+    "d": [
+     1994,
+     8,
+     13
+    ]
+   },
+   {
+    "o": 94,
+    "t": "Topside",
+    "d": [
+     1994,
+     8,
+     20
+    ]
+   }
+  ],
+  "4": [
+   {
+    "o": 95,
+    "t": "Yusuke's Destiny",
+    "d": [
+     1994,
+     8,
+     27
+    ]
+   },
+   {
+    "o": 96,
+    "t": "Three Strangers, Three Kings",
+    "d": [
+     1994,
+     9,
+     3
+    ]
+   },
+   {
+    "o": 97,
+    "t": "Departing Living World",
+    "d": [
+     1994,
+     9,
+     10
+    ]
+   },
+   {
+    "o": 98,
+    "t": "Return to Demon World",
+    "d": [
+     1994,
+     9,
+     17
+    ]
+   },
+   {
+    "o": 99,
+    "t": "Haunted by the Past",
+    "d": [
+     1994,
+     9,
+     24
+    ]
+   },
+   {
+    "o": 100,
+    "t": "The Secret of the Jagan",
+    "d": [
+     1994,
+     10,
+     1
+    ]
+   },
+   {
+    "o": 101,
+    "t": "Reunion of the Bandits",
+    "d": [
+     1994,
+     10,
+     15
+    ]
+   },
+   {
+    "o": 102,
+    "t": "Torn Between Identities",
+    "d": [
+     1994,
+     10,
+     22
+    ]
+   },
+   {
+    "o": 103,
+    "t": "Inheritance",
+    "d": [
+     1994,
+     10,
+     29
+    ]
+   },
+   {
+    "o": 104,
+    "t": "Every Demon for Himself",
+    "d": [
+     1994,
+     11,
+     5
+    ]
+   },
+   {
+    "o": 105,
+    "t": "The Preliminaries",
+    "d": [
+     1994,
+     11,
+     12
+    ]
+   },
+   {
+    "o": 106,
+    "t": "The Battle of Father and Son",
+    "d": [
+     1994,
+     11,
+     19
+    ]
+   },
+   {
+    "o": 107,
+    "t": "The Demon World Tournament Begins",
+    "d": [
+     1994,
+     11,
+     26
+    ]
+   },
+   {
+    "o": 108,
+    "t": "Farewell, Kurama",
+    "d": [
+     1994,
+     12,
+     3
+    ]
+   },
+   {
+    "o": 109,
+    "t": "Love and War",
+    "d": [
+     1994,
+     12,
+     10
+    ]
+   },
+   {
+    "o": 110,
+    "t": "A Reason to Fight",
+    "d": [
+     1994,
+     12,
+     17
+    ]
+   },
+   {
+    "o": 111,
+    "t": "Closure",
+    "d": [
+     1994,
+     12,
+     24
+    ]
+   },
+   {
+    "o": 112,
+    "t": "To the Future",
+    "d": [
+     1995,
+     1,
+     7
+    ]
+   }
+  ]
+ },
+ "season_meta": {
+  "1": {
+   "first": [
+    1992,
+    10,
+    10
+   ],
+   "last": [
+    1993,
+    4,
+    10
+   ],
+   "network": "Fuji Television"
+  },
+  "2": {
+   "first": [
+    1993,
+    4,
+    17
+   ],
+   "last": [
+    1994,
+    2,
+    5
+   ],
+   "network": "Fuji Television"
+  },
+  "3": {
+   "first": [
+    1994,
+    2,
+    12
+   ],
+   "last": [
+    1994,
+    8,
+    20
+   ],
+   "network": "Fuji Television"
+  },
+  "4": {
+   "first": [
+    1994,
+    8,
+    27
+   ],
+   "last": [
+    1995,
+    1,
+    7
+   ],
+   "network": "Fuji Television"
+  }
+ },
+ "headings": {
+  "1": [
+   "Spirit Detective Saga",
+   "1992–93"
+  ],
+  "2": [
+   "Dark Tournament Saga",
+   "1993–94"
+  ],
+  "3": [
+   "Chapter Black Saga",
+   "1994"
+  ],
+  "4": [
+   "Three Kings Saga",
+   "1994–95"
+  ]
+ },
+ "us_broadcast_seasons": [
+  [
+   1,
+   21
+  ],
+  [
+   22,
+   53
+  ],
+  [
+   54,
+   89
+  ],
+  [
+   90,
+   112
+  ]
+ ],
+ "series": {
+  "first": [
+   1992,
+   10,
+   10
+  ],
+  "last": [
+   1995,
+   1,
+   7
+  ],
+  "num_episodes": 112,
+  "eizou": {
+   "title": "Yu Yu Hakusho: Eizou Hakusho",
+   "episodes": 6,
+   "runtime": "25 minutes",
+   "first": "September 21, 1994",
+   "last": "February 7, 1996",
+   "released": ""
+  },
+  "sequel": {
+   "title": "Yu Yu Hakusho: Two Shot & All or Nothing",
+   "episodes": 2,
+   "runtime": "15 minutes",
+   "first": "",
+   "last": "",
+   "released": "October 26, 2018"
+  }
+ },
+ "films": [
+  {
+   "key": "1993",
+   "t": "Yu Yu Hakusho: The Movie",
+   "d": [
+    1993,
+    7,
+    10
+   ],
+   "runtime": 30,
+   "page": "Yu Yu Hakusho: The Movie",
+   "alt": "The Golden Seal",
+   "festival": true
+  },
+  {
+   "key": "1994",
+   "t": "Yu Yu Hakusho the Movie: Poltergeist Report",
+   "d": [
+    1994,
+    4,
+    9
+   ],
+   "runtime": 95,
+   "page": "Yu Yu Hakusho the Movie: Poltergeist Report",
+   "alt": "",
+   "festival": false
+  }
+ ],
+ "ova_2018": {
+  "titles": [
+   "Two Shot",
+   "All or Nothing"
+  ],
+  "released": [
+   2018,
+   10,
+   26
+  ],
+  "runtime": "15 minutes",
+  "episodes": 2
+ },
+ "eizou": {
+  "title": "Yu Yu Hakusho: Eizou Hakusho",
+  "episodes": 6,
+  "runtime": "25 minutes",
+  "first": "September 21, 1994",
+  "last": "February 7, 1996",
+  "years": [
+   1994,
+   1996
+  ]
+ },
+ "census": {
+  "episodes": 112,
+  "episodes_with_article": 0,
+  "episode_wikidata_items": 0,
+  "series_parts_on_wikidata": 4,
+  "series_parts_with_runtime": 0,
+  "named_items": {
+   "YuYu Hakusho (1992 TV series)": null,
+   "List of Yu Yu Hakusho episodes": null,
+   "Yu Yu Hakusho season 1": null,
+   "Yu Yu Hakusho season 2": null,
+   "Yu Yu Hakusho season 3": null,
+   "Yu Yu Hakusho season 4": null,
+   "Yu Yu Hakusho: The Movie": 30,
+   "Yu Yu Hakusho the Movie: Poltergeist Report": 95
+  }
+ }
+}

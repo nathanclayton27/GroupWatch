@@ -58,5 +58,58 @@
   "name": "Silent Hill: The Short Message",
   "main_h": 2.04,
   "year": 2024
+ },
+ "f": {
+  "id": "114901",
+  "name": "Silent Hill f",
+  "main_h": 10.78,
+  "year": 2025
+ },
+ "ascension": {
+  "id": "114902",
+  "name": "Silent Hill: Ascension",
+  "main_h": 10.21,
+  "year": 2023
+ },
+ "_source": {
+  "read": "2026-08-25",
+  "articles": [
+   "Silent Hill",
+   "Silent Hill f",
+   "Silent Hill: Townfall"
+  ],
+  "spinoff_sections": [
+   "Silent Hill: The Arcade (2007)",
+   "Silent Hill: Orphan (2007)",
+   "Silent Hill: The Escape (2007)",
+   "Silent Hill: Orphan 2 (2008)",
+   "Silent Hill: Orphan 3 (2010)",
+   "Silent Hill: Book of Memories (2012)",
+   "P.T. and Silent Hills (2014) (cancelled)",
+   "Silent Hill: The Short Message (2024)",
+   "Silent Hill f (2025)",
+   "Silent Hill: Townfall (2026)",
+   "Future"
+  ],
+  "f": {
+   "released": "2025-09-25",
+   "short_description": "2025 video game",
+   "lead_spinoff": true
+  },
+  "townfall": {
+   "released": "2026-09-24",
+   "short_description": "Upcoming 2026 video game",
+   "lead_upcoming": true
+  },
+  "sh1_remake": {
+   "timeline_slot": "TBA",
+   "heading_date": "TBA",
+   "prose_date": null
+  },
+  "ascension": {
+   "filed_under": "Television",
+   "first": "2023-10-31",
+   "last": "2024-04-24"
+  }
  }
 }

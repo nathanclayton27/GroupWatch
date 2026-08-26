@@ -1,11 +1,11 @@
 {
   "slug": "silent-hill",
   "title": "Silent Hill",
-  "subtitle": "the mainline series in release order",
+  "subtitle": "the games you sit down and play, in release order",
   "kind": "games",
   "popularity": 69,
   "year": "1999–",
-  "blurb": "10 games — about 80 hours of story, 47 of it the essential path.",
+  "blurb": "13 games — about 101 hours of story, 57 of it the essential path, with Townfall still to come.",
   "unit": {
     "one": "game",
     "many": "games"
@@ -23,29 +23,33 @@
   "paceTiers": [
     1
   ],
-  "paceLabel": "the later games and the free side story",
+  "paceLabel": "the later games and the side entries",
   "notes": [
     [
       "Tiers.",
-      "1 is the essential path — Silent Hill 1 through 4 plus the 2024 remake, about 47 hours; 2 is the post-Team Silent years and the free Short Message. A finish date covers tier 1 and the checkbox adds the rest."
+      "1 is the essential path — Silent Hill 1 through 4, the 2024 remake and Silent Hill f, about 57 hours; 2 is the post-Team Silent years and the side entries. A finish date covers tier 1 and the checkbox adds the rest."
+    ],
+    [
+      "Scope.",
+      "The test is whether a thing is a Silent Hill you sit down and play — a standalone release with its own story — not which heading Wikipedia files it under. Its spin-offs section holds The Short Message, Silent Hill f and Townfall next to an arcade cabinet and four phone games, so that heading sorts nothing here. Left out on the rule: Silent Hill: The Arcade, the phone games (Orphan 1–3, The Escape, and the 2006 mobile Silent Hill), the Play Novel visual novel, Book of Memories (a co-op dungeon crawler), P.T. (a delisted teaser for a cancelled game) and the two compilations, which re-release games already here. Ascension is the one deliberate exception — it is not a game at all, and its row says so."
     ],
     [
       "Mostly standalone.",
-      "Only Silent Hill 3 is a direct sequel (to the first game); everything else is its own story in the same town. Release order is the natural order all the same."
+      "Only Silent Hill 3 is a direct sequel (to the first game); everything else is its own story in the same town, and Silent Hill f leaves the town entirely for 1960s Japan. Release order is the natural order all the same."
+    ],
+    [
+      "Not out yet.",
+      "Townfall has a date — 24 September 2026 — so it gets a row with an empty bar, and its hours arrive when HowLongToBeat does. Bloober Team's remake of the first game is announced with no date at all, so it is not a row yet."
     ],
     [
       "Getting the old games, honestly.",
       "Konami has delisted or never re-released most of the pre-2024 catalogue — the Team Silent games have no modern storefront release apart from Silent Hill 4 on GOG, and Origins, Shattered Memories and Downpour remain on their original platforms. Budget for original hardware or the remake."
     ],
     [
-      "Scope.",
-      "Mainline only. Wikipedia classes Silent Hill f (2025) as a spin-off — its producer's word — and the arcade, mobile and Book of Memories side games sit outside this list with it."
-    ],
-    [
       "Hours are story only.",
-      "HowLongToBeat main-story figures — one ending, no UFO runs."
+      "HowLongToBeat main-story figures — one ending, no UFO runs. A row with no figure yet weighs nothing rather than guessing."
     ],
-    "Game list and years from Wikipedia's Silent Hill article; hours from HowLongToBeat main-story figures, verified by name."
+    "Game list, years and release dates from Wikipedia's Silent Hill, Silent Hill f and Silent Hill: Townfall articles; hours from HowLongToBeat main-story figures, verified by name."
   ],
   "sections": [
     {
@@ -132,9 +136,18 @@
     {
       "id": "revival",
       "title": "The revival",
-      "sub": "2024 · 2 games · 18 hours story",
-      "intro": "Konami returns to the town in 2024.",
+      "sub": "2023–2026 · 5 games · 39 hours story · 1 not out yet",
+      "intro": "Konami restarts the series from 2023: an interactive series, a free short story, a remake, and the first all-new games in over a decade.",
       "items": [
+        {
+          "id": "sh-ascension",
+          "t": "Silent Hill: Ascension",
+          "n": "2023",
+          "w": 10.21,
+          "tier": 2,
+          "note": "Not a game — a CGI series broadcast nightly from October 2023 to April 2024, with the audience voting on where the story went. Wikipedia files it under television; it is here because it is part of the revival.",
+          "opt": 1
+        },
         {
           "id": "sh-short-message",
           "t": "Silent Hill: The Short Message",
@@ -151,6 +164,22 @@
           "w": 16.06,
           "tier": 1,
           "note": "Bloober Team's remake — the modern door into the story; ticking either version counts"
+        },
+        {
+          "id": "sh-f",
+          "t": "Silent Hill f",
+          "n": "2025",
+          "w": 10.78,
+          "tier": 1,
+          "note": "1960s rural Japan rather than the town — the first all-new full-size entry since Downpour, and its own story. Wikipedia files it as a spin-off; it plays like the main event."
+        },
+        {
+          "id": "sh-townfall",
+          "t": "Silent Hill: Townfall",
+          "n": "2026",
+          "w": 0,
+          "tier": 2,
+          "note": "Not out yet — due 24 September 2026, and the bar stays empty until HowLongToBeat has hours for it. First-person, and set in 1996 in the Scottish town of St. Amelia — the second Silent Hill to leave America, after f."
         }
       ]
     }

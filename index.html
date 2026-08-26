@@ -2627,6 +2627,26 @@ let MANIFEST = [
     "total": 28
   },
   {
+    "slug": "fullmetal-alchemist",
+    "media": [
+      "anime",
+      "movies"
+    ],
+    "title": "Fullmetal Alchemist (2003)",
+    "subtitle": "the first anime adaptation, and the film that ends it",
+    "kind": "anime & film",
+    "year": "2003–2005",
+    "popularity": 73,
+    "blurb": "The manga's first anime adaptation — 51 episodes and the sequel film that closes them.",
+    "accent": "#8A4500",
+    "accentDark": "#D9903F",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 52
+  },
+  {
     "slug": "x-files",
     "media": [
       "movies",
@@ -3061,19 +3081,19 @@ let MANIFEST = [
       "games"
     ],
     "title": "Silent Hill",
-    "subtitle": "the mainline series in release order",
+    "subtitle": "the games you sit down and play, in release order",
     "kind": "games",
     "year": "1999–",
     "popularity": 69,
-    "blurb": "10 games — about 80 hours of story, 47 of it the essential path.",
+    "blurb": "13 games — about 101 hours of story, 57 of it the essential path, with Townfall still to come.",
     "accent": "#6B655E",
     "accentDark": "#C97455",
     "unit": {
       "one": "game",
       "many": "games"
     },
-    "total": 10,
-    "totalw": 80.03
+    "total": 13,
+    "totalw": 101.02
   },
   {
     "slug": "muppets",
@@ -3175,6 +3195,25 @@ let MANIFEST = [
     "totalw": 271.74
   },
   {
+    "slug": "samurai-champloo",
+    "media": [
+      "anime"
+    ],
+    "title": "Samurai Champloo",
+    "subtitle": "all 26 episodes, in broadcast order",
+    "kind": "anime",
+    "year": "2004–05",
+    "popularity": 68,
+    "blurb": "Every episode of Shinichirō Watanabe's Edo-period road story, in broadcast order across the two runs it aired in.",
+    "accent": "#264B7A",
+    "accentDark": "#EFC050",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 26
+  },
+  {
     "slug": "scream",
     "media": [
       "movies"
@@ -3213,6 +3252,26 @@ let MANIFEST = [
     },
     "total": 13,
     "totalw": 21.45
+  },
+  {
+    "slug": "yuyu-hakusho",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Yu Yu Hakusho",
+    "subtitle": "every episode, with both films where they opened",
+    "kind": "tv & films",
+    "year": "1992–2018",
+    "popularity": 68,
+    "blurb": "All 112 episodes of Togashi's Spirit Detective run in broadcast order, with both films at the point they opened and the anniversary OVA at the end.",
+    "accent": "#1C5B4A",
+    "accentDark": "#6FE3C4",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 116
   },
   {
     "slug": "frieren",
@@ -3945,6 +4004,25 @@ let MANIFEST = [
     },
     "total": 118,
     "totalw": 669.91
+  },
+  {
+    "slug": "outlaw-star",
+    "media": [
+      "anime"
+    ],
+    "title": "Outlaw Star",
+    "subtitle": "the complete 26-episode run",
+    "kind": "anime",
+    "year": "1998",
+    "popularity": 60,
+    "blurb": "Sunrise's 1998 space western in full — 26 episodes, one season, in broadcast order, with nothing left over.",
+    "accent": "#8C2340",
+    "accentDark": "#FFB35C",
+    "unit": {
+      "one": "episode",
+      "many": "episodes"
+    },
+    "total": 26
   },
   {
     "slug": "slashers",
@@ -5054,7 +5132,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'c377c2db846d';
+const BUILD = '79fc9da77c8c';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
