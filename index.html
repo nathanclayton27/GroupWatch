@@ -5191,7 +5191,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '457180feb4e4';
+const BUILD = '5c3cb84c3ada';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -6049,9 +6049,20 @@ async function onSession(session, definitive){
     if(PROP && PROP.group) await joinSecretGroup();
   }else{
     $('b-baracct').classList.add('hide');
-    if(CLOUD) $('b-signin').classList.remove('hide');
+    // CLU-339. Supabase fires INITIAL_SESSION with a null session BEFORE it
+    // has restored the token from storage, so this branch runs once on every
+    // reload for someone who IS signed in. Revealing the Sign in button and
+    // saying "Not signed in" here is what made a reload flash a logged-out
+    // page for a beat before flipping back.
+    //
+    // The masthead pill already knew this — it holds its cached name until
+    // `sessionSeen`. The rest of the auth affordance now waits the same way:
+    // on a non-definitive null, change nothing and let the real answer do it.
+    // getSession() follows within milliseconds, or the grace beat expires.
+    if(CLOUD && definitive) $('b-signin').classList.remove('hide');
     done = readLocal();
-    state(CLOUD ? 'Not signed in' : 'Saved on this device','');
+    if(!CLOUD || definitive)
+      state(CLOUD ? 'Not signed in' : 'Saved on this device','');
     clearInterval(gPoll);
     groups = []; group = null; gmembers = [];
     gstate(); renderGroupPanel();
