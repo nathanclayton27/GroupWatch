@@ -1,0 +1,1033 @@
+{
+  "slug": "korean-cinema",
+  "title": "Korean Cinema",
+  "subtitle": "the national archive's hundred, and what came after",
+  "kind": "films",
+  "popularity": 56,
+  "year": "1934–2025",
+  "blurb": "119 films Korea's own national film archive and its film juries picked out, 1934 to 2025 — about 220 hours. No order; let the picker choose.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#1D5C7A",
+  "accentDark": "#79C2DD",
+  "tiers": false,
+  "random": true,
+  "notes": [
+    [
+      "“The best of Korean cinema” is a verdict, so this list does not pass one.",
+      "The spine is somebody else's: the 100 films the Korean Film Archive — the country's national archive, a government body — selected as its 100 Korean Films. That is the closest thing Korean cinema has to a native canon, and it is one considered survey of the whole history rather than a prize for one year. The archive prints twelve of them separately and in order, headed by The Housemaid, and lists the other eighty-eight by date; every row here says which of the two it is. Nothing was added because it felt right."
+    ],
+    [
+      "That selection was made in 2014, and stops at Pietà.",
+      "So Parasite could not have been on it, and neither could Burning. The 19 films released since are here on a second rule, stated so you can argue with it: at least 2 of Korea's eight juries must have named the film. Seven of the eight award a Best Film — the Blue Dragon, the Grand Bell, the Baeksang, the Buil, the Chunsa, the Korean Film Awards and the Korean Association of Film Critics — and the eighth is the committee that picks the country's Academy Award entry. Parasite leads with 6 of them; 11 of these rows clear on exactly 2. This is a coarser instrument than a canon and the last section should be read as provisional."
+    ],
+    [
+      "What that costs, said plainly.",
+      "The Handmaiden and Train to Busan are not here. Neither took a Best Film prize from any of the eight and neither was Korea's Academy entry, so no honest count reaches them; The Wailing, House of Hummingbird and Hill of Freedom stop at one jury apiece. A prize is a poor proxy for a canon and this is where it shows. The other direction costs too: a jury names one film a year whatever the year was like, so the last section carries some very large commercial pictures beside the rest."
+    ],
+    [
+      "The eras are the archive's own, not ours.",
+      "It publishes its hundred under four tabs — 1930s–1950s, 1960s–1970s, 1980s–1990s and 2000s — and those are the first four sections here, boundaries and all. The generator proves they are decade-aligned before filing the twelve top-ranked films back into them by date. The fifth section is not the archive's and does not pretend to be. Era descriptions come from Wikipedia's “Cinema of South Korea”, which splits the same history into a golden age, censorship, recovery and renaissance."
+    ],
+    [
+      "Bar widths are runtimes, and none was invented.",
+      "All 119 rows are weighted, 220 hours in total. 83 figures are the film's own English Wikipedia infobox; the other 36 have no English article at all and take the running time from the archive's own database, KMDb, matched to the release the archive dated. Wikidata's runtime is carried only as a cross-check and disagrees with the infobox on 6 rows, which is why it is not the source. The range runs from Sweet Dream at 47 minutes to The Last Witness at 158."
+    ],
+    [
+      "Titles are the source's, and so is every id.",
+      "The archive translates some of its own selections its own way — Good Windy Day, Declaration of Idiot, A Peppermint Candy — and that is the title that ships, with the more familiar English name in the note where they differ. Korean titles come from the archive's database or from the award tables' own original-title column; nothing here was romanised by us. 104 of the 119 rows carry a Wikidata id, each resolved from an identifier the source printed itself — the archive's KMDb number, or the award article's wikilink — and never from a title. 14 of the remaining 15 are archive selections Wikidata holds no KMDb number for, and looking those up by name returned a 1960 film for The Wedding Day and a 1928 one for Rainy Days, so they ship without an id instead. Spinning the Tales of Cruelty Towards Women had one and lost it: the archive dates it 1982 and its own Wikidata item dates it 1984, and a gap that wide is not something to tick a film on."
+    ],
+    [
+      "The same film on two lists here is the point.",
+      "6 of these films are already somewhere else in the catalogue — across best-picture, criterion, cult-classics, palme-dor, sight-and-sound — and ticking one ticks the other. Parasite is on 4 other lists, more than anything else here. The overlap is small because the rest of the catalogue is thin on Korean cinema, which is most of the reason this list exists; two that ought to pair, Train to Busan and The Wailing on Zombie Films, do not, because the gate does not admit them."
+    ],
+    "Selection from the Korean Film Archive's “100 Korean Films” (2014) and, for films released after it, the Blue Dragon, Grand Bell, Baeksang, Buil, Chunsa, Korean Film Awards and Korean Association of Film Critics Best Film records on Wikipedia plus Korea's Academy Award submissions; era framing from Wikipedia's “Cinema of South Korea”; running times from each film's Wikipedia infobox or its KMDb record; ids from KMDb via Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "early",
+      "title": "1930s – 1950s",
+      "sub": "1934–1958 · 12 films · 16 hours",
+      "intro": "Colonial rule, liberation, and a war. The oldest thing the archive selected is from 1934 and only 6 of its hundred predate 1950 at all; the run at the end of this section is the industry restarting, from fifteen features made in 1954 to a hundred and eleven in 1959.",
+      "items": [
+        {
+          "id": "kc-1934-turning-point-of-the-youngsters",
+          "t": "Turning point of the youngsters",
+          "n": "1934",
+          "w": 0.92,
+          "note": "Korean Film Archive 100 · Ahn Jong-hwa · 청춘의 십자로 · 55 min",
+          "q": "Q85985996"
+        },
+        {
+          "id": "kc-1936-sweet-dream",
+          "t": "Sweet Dream",
+          "n": "1936",
+          "w": 0.78,
+          "note": "Korean Film Archive 100 · Yang Ju-nam · 미몽 · 47 min"
+        },
+        {
+          "id": "kc-1941-angeles-on-the-streets",
+          "t": "Angeles on the Streets",
+          "n": "1941",
+          "w": 1.22,
+          "note": "Korean Film Archive 100 · Choi In-gyu · 집없는 천사 · 73 min"
+        },
+        {
+          "id": "kc-1941-spring-of-korean-peninsula",
+          "t": "Spring of Korean Peninsula",
+          "n": "1941",
+          "w": 1.4,
+          "note": "Korean Film Archive 100 · Lee Byung-il · 반도의 봄 · 84 min",
+          "q": "Q12597394"
+        },
+        {
+          "id": "kc-1946-hurrah-for-freedom",
+          "t": "Hurrah for Freedom",
+          "n": "1946",
+          "w": 0.88,
+          "note": "Korean Film Archive 100 · Choi In-gyu · 자유만세 · 53 min · also Viva Freedom!",
+          "q": "Q5237315"
+        },
+        {
+          "id": "kc-1949-a-hometown-in-heart",
+          "t": "A Hometown in Heart",
+          "n": "1949",
+          "w": 1.27,
+          "note": "Korean Film Archive 100 · Yun Yong-gyu · 마음의 고향 · 76 min",
+          "q": "Q133904537"
+        },
+        {
+          "id": "kc-1954-the-hand-of-destiny",
+          "t": "The Hand of Destiny",
+          "n": "1954",
+          "w": 1.42,
+          "note": "Korean Film Archive 100 · Han Hyeong-mo · 운명의 손 · 85 min"
+        },
+        {
+          "id": "kc-1955-piagol",
+          "t": "Piagol",
+          "n": "1955",
+          "w": 1.83,
+          "note": "Korean Film Archive 100 · Lee Kang-cheon · 피아골 · 110 min",
+          "q": "Q492270"
+        },
+        {
+          "id": "kc-1956-madame-freedom",
+          "t": "Madame Freedom",
+          "n": "1956",
+          "w": 2.08,
+          "note": "Korean Film Archive 100, no. 4 · Han Hyeong-mo · 자유부인 · 125 min",
+          "q": "Q6726295"
+        },
+        {
+          "id": "kc-1956-the-wedding-day",
+          "t": "The Wedding Day",
+          "n": "1956",
+          "w": 1.17,
+          "note": "Korean Film Archive 100 · Lee Byung-il · 시집가는 날 · 70 min"
+        },
+        {
+          "id": "kc-1958-the-flower-in-hell",
+          "t": "The Flower in Hell",
+          "n": "1958",
+          "w": 1.43,
+          "note": "Korean Film Archive 100 · Shin Sang-ok · 지옥화 · 86 min",
+          "q": "Q4656814"
+        },
+        {
+          "id": "kc-1958-the-money",
+          "t": "The Money",
+          "n": "1958",
+          "w": 2.05,
+          "note": "Korean Film Archive 100 · Kim So-dong · 돈 · 123 min"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "goldenage",
+      "title": "1960s – 1970s",
+      "sub": "1960–1979 · 33 films · 56 hours",
+      "intro": "The golden age, and then the clampdown. The Motion Picture Law of 1962 capped imports under a quota and cut the number of production companies from seventy-one to sixteen inside a year, and censorship targeted obscenity, communism and unpatriotic themes. A third of the archive's hundred comes from these twenty years anyway — 33 films.",
+      "items": [
+        {
+          "id": "kc-1960-the-housemaid",
+          "t": "The Housemaid",
+          "n": "1960",
+          "w": 1.8,
+          "note": "Korean Film Archive 100, no. 1 · Kim Ki-young · 하녀 · 108 min",
+          "q": "Q49729"
+        },
+        {
+          "id": "kc-1960-mr-park",
+          "t": "Mr. Park",
+          "n": "1960",
+          "w": 2.3,
+          "note": "Korean Film Archive 100 · Kang Dae-jin · 박서방 · 138 min",
+          "q": "Q16174535"
+        },
+        {
+          "id": "kc-1960-a-romantic-papa",
+          "t": "A Romantic Papa",
+          "n": "1960",
+          "w": 2.18,
+          "note": "Korean Film Archive 100 · Shin Sang-ok · 로맨스빠빠 · 131 min",
+          "q": "Q12594125"
+        },
+        {
+          "id": "kc-1961-aimless-bullet",
+          "t": "Aimless Bullet",
+          "n": "1961",
+          "w": 1.83,
+          "note": "Korean Film Archive 100, no. 2 · Yu Hyun-mok · 오발탄 · 110 min · also Obaltan",
+          "q": "Q498548"
+        },
+        {
+          "id": "kc-1961-a-coachman",
+          "t": "A Coachman",
+          "n": "1961",
+          "w": 1.62,
+          "note": "Korean Film Archive 100, no. 5 · Kang Dae-jin · 마부 · 97 min",
+          "q": "Q695179"
+        },
+        {
+          "id": "kc-1961-mother-and-a-guest",
+          "t": "Mother and a Guest",
+          "n": "1961",
+          "w": 1.72,
+          "note": "Korean Film Archive 100, no. 9 · 2 of 8 juries · Shin Sang-ok · 사랑방 손님과 어머니 · 103 min · also The Houseguest and My Mother",
+          "q": "Q7740722"
+        },
+        {
+          "id": "kc-1961-a-petty-middle-manager",
+          "t": "A Petty Middle Manager",
+          "n": "1961",
+          "w": 1.75,
+          "note": "Korean Film Archive 100 · Lee Bong-rae · 삼등과장 · 105 min"
+        },
+        {
+          "id": "kc-1961-seong-chun-hyang",
+          "t": "Seong Chun-hyang",
+          "n": "1961",
+          "w": 2.4,
+          "note": "Korean Film Archive 100 · Shin Sang-ok · 성춘향 · 144 min"
+        },
+        {
+          "id": "kc-1961-under-the-sky-of-seoul",
+          "t": "Under the Sky of Seoul",
+          "n": "1961",
+          "w": 2.05,
+          "note": "Korean Film Archive 100 · Lee Hyung-pyo · 서울의 지붕밑 · 123 min",
+          "q": "Q16724962"
+        },
+        {
+          "id": "kc-1963-the-daughters-of-kim-s-pharmacy",
+          "t": "The Daughters of Kim's Pharmacy",
+          "n": "1963",
+          "w": 1.62,
+          "note": "Korean Film Archive 100 · Yu Hyun-mok · 김약국의 딸들 · 97 min · also Daughters of Pharmacist Kim",
+          "q": "Q5227951"
+        },
+        {
+          "id": "kc-1963-goryeojang",
+          "t": "Goryeojang",
+          "n": "1963",
+          "w": 1.5,
+          "note": "Korean Film Archive 100 · 1 of 8 juries · Kim Ki-young · 고려장 · 90 min",
+          "q": "Q5586993"
+        },
+        {
+          "id": "kc-1963-kinship",
+          "t": "Kinship",
+          "n": "1963",
+          "w": 1.35,
+          "note": "Korean Film Archive 100 · 2 of 8 juries · Kim Soo-yong · 혈맥 · 81 min · also Bloodline",
+          "q": "Q4927683"
+        },
+        {
+          "id": "kc-1963-marines-are-gone",
+          "t": "Marines Are Gone",
+          "n": "1963",
+          "w": 1.83,
+          "note": "Korean Film Archive 100 · Lee Man-hee · 돌아오지 않는 해병 · 110 min · also The Marines Who Never Returned",
+          "q": "Q625605"
+        },
+        {
+          "id": "kc-1964-the-barefooted-young",
+          "t": "The Barefooted Young",
+          "n": "1964",
+          "w": 1.93,
+          "note": "Korean Film Archive 100 · Kim Kee-duk · 맨발의 청춘 · 116 min · also Barefooted Youth",
+          "q": "Q4860371"
+        },
+        {
+          "id": "kc-1964-black-hair",
+          "t": "Black Hair",
+          "n": "1964",
+          "w": 1.75,
+          "note": "Korean Film Archive 100 · Lee Man-hee · 검은 머리 · 105 min"
+        },
+        {
+          "id": "kc-1965-the-dmz",
+          "t": "The DMZ",
+          "n": "1965",
+          "w": 1.53,
+          "note": "Korean Film Archive 100 · Park Sang-ho · 비무장지대 · 92 min",
+          "q": "Q12599409"
+        },
+        {
+          "id": "kc-1965-the-seaside-village",
+          "t": "The Seaside Village",
+          "n": "1965",
+          "w": 1.58,
+          "note": "Korean Film Archive 100 · 3 of 8 juries · Kim Soo-yong · 갯마을 · 95 min · also The Sea Village",
+          "q": "Q7762779"
+        },
+        {
+          "id": "kc-1966-early-rain",
+          "t": "Early Rain",
+          "n": "1966",
+          "w": 1.67,
+          "note": "Korean Film Archive 100 · Jung Jin-woo · 초우 · 100 min"
+        },
+        {
+          "id": "kc-1967-flame-in-the-valley",
+          "t": "Flame in the Valley",
+          "n": "1967",
+          "w": 1.33,
+          "note": "Korean Film Archive 100 · 2 of 8 juries · Kim Soo-yong · 산불 · 80 min",
+          "q": "Q5457162"
+        },
+        {
+          "id": "kc-1967-homebound",
+          "t": "Homebound",
+          "n": "1967",
+          "w": 1.5,
+          "note": "Korean Film Archive 100 · 1 of 8 juries · Lee Man-hee · 귀로 · 90 min · also Coming Back",
+          "q": "Q5151907"
+        },
+        {
+          "id": "kc-1967-mist",
+          "t": "Mist",
+          "n": "1967",
+          "w": 1.32,
+          "note": "Korean Film Archive 100 · Kim Soo-yong · 안개 · 79 min",
+          "q": "Q12605533"
+        },
+        {
+          "id": "kc-1968-a-day-off",
+          "t": "A Day Off",
+          "n": "1968",
+          "w": 1.22,
+          "note": "Korean Film Archive 100 · Lee Man-hee · 휴일 · 73 min",
+          "q": "Q16725510"
+        },
+        {
+          "id": "kc-1968-the-general-s-mustache",
+          "t": "The General's Mustache",
+          "n": "1968",
+          "w": 1.72,
+          "note": "Korean Film Archive 100 · 1 of 8 juries · Lee Seong-gu · 장군의 수염 · 103 min"
+        },
+        {
+          "id": "kc-1968-love-me-once-again",
+          "t": "Love Me Once Again",
+          "n": "1968",
+          "w": 1.55,
+          "note": "Korean Film Archive 100 · Jung So-young · 미워도 다시한번 · 93 min",
+          "q": "Q12596121"
+        },
+        {
+          "id": "kc-1971-woman-of-fire",
+          "t": "Woman of Fire",
+          "n": "1971",
+          "w": 1.67,
+          "note": "Korean Film Archive 100 · Kim Ki-young · 화녀 · 100 min",
+          "q": "Q497326"
+        },
+        {
+          "id": "kc-1972-the-pollen-of-flowers",
+          "t": "The Pollen of Flowers",
+          "n": "1972",
+          "w": 1.42,
+          "note": "Korean Film Archive 100 · Ha Gil-jong · 화분 · 85 min"
+        },
+        {
+          "id": "kc-1974-heavenly-homecoming-to-stars",
+          "t": "Heavenly Homecoming to Stars",
+          "n": "1974",
+          "w": 1.75,
+          "note": "Korean Film Archive 100, no. 6 · Lee Jang-ho · 별들의 고향 · 105 min",
+          "q": "Q16261596"
+        },
+        {
+          "id": "kc-1975-the-march-of-fools",
+          "t": "The March of Fools",
+          "n": "1975",
+          "w": 1.75,
+          "note": "Korean Film Archive 100, no. 3 · Ha Gil-jong · 바보들의 행진 · 105 min",
+          "q": "Q12596429"
+        },
+        {
+          "id": "kc-1975-a-road-to-sampo",
+          "t": "A Road to Sampo",
+          "n": "1975",
+          "w": 1.58,
+          "note": "Korean Film Archive 100 · Lee Man-hee · 삼포가는 길 · 95 min",
+          "q": "Q12600369"
+        },
+        {
+          "id": "kc-1975-yeong-ja-s-heydays",
+          "t": "Yeong-Ja's Heydays",
+          "n": "1975",
+          "w": 1.72,
+          "note": "Korean Film Archive 100, no. 10 · Kim Ho-sun · 영자의 전성시대 · 103 min",
+          "q": "Q18815636"
+        },
+        {
+          "id": "kc-1977-ieoh-island",
+          "t": "Ieoh Island",
+          "n": "1977",
+          "w": 1.83,
+          "note": "Korean Film Archive 100 · Kim Ki-young · 이어도 · 110 min · also Iodo",
+          "q": "Q6062263"
+        },
+        {
+          "id": "kc-1977-winter-woman",
+          "t": "Winter Woman",
+          "n": "1977",
+          "w": 1.67,
+          "note": "Korean Film Archive 100 · Kim Ho-sun · 겨울여자 · 100 min",
+          "q": "Q8026359"
+        },
+        {
+          "id": "kc-1979-rainy-days",
+          "t": "Rainy Days",
+          "n": "1979",
+          "w": 1.9,
+          "note": "Korean Film Archive 100 · Yu Hyun-mok · 장마 · 114 min"
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "title": "1980s – 1990s",
+      "sub": "1980–1999 · 38 films · 71 hours",
+      "intro": "Censorship relaxes. The Motion Picture Law of 1984 lets independent film-makers produce at all, and in 1992 the film this list carries as The Marriage Life becomes the first Korean release from a chaebol, which is how Samsung and the rest end up financing an industry. The biggest section here, and the stretch the archive drew most heavily from.",
+      "items": [
+        {
+          "id": "kc-1980-good-windy-day",
+          "t": "Good Windy Day",
+          "n": "1980",
+          "w": 1.88,
+          "note": "Korean Film Archive 100, no. 7 · 1 of 8 juries · Lee Jang-ho · 바람불어 좋은날 · 113 min · also A Fine, Windy Day",
+          "q": "Q4656754"
+        },
+        {
+          "id": "kc-1980-the-hut",
+          "t": "The Hut",
+          "n": "1980",
+          "w": 1.55,
+          "note": "Korean Film Archive 100 · Lee Doo-yong · 피막 · 93 min"
+        },
+        {
+          "id": "kc-1980-the-last-witness",
+          "t": "The Last Witness",
+          "n": "1980",
+          "w": 2.63,
+          "note": "Korean Film Archive 100 · Lee Doo-yong · 최후의 증인 · 158 min",
+          "q": "Q7746194"
+        },
+        {
+          "id": "kc-1980-mismatched-nose",
+          "t": "Mismatched Nose",
+          "n": "1980",
+          "w": 1.83,
+          "note": "Korean Film Archive 100 · Im Kwon-taek · 짝코 · 110 min",
+          "q": "Q31179477"
+        },
+        {
+          "id": "kc-1981-the-ball-shot-by-a-midget",
+          "t": "The Ball Shot by a Midget",
+          "n": "1981",
+          "w": 1.67,
+          "note": "Korean Film Archive 100 · Lee Won-se · 난장이가 쏘아올린 작은공 · 100 min · also A Small Ball Shot by a Midget",
+          "q": "Q4659597"
+        },
+        {
+          "id": "kc-1981-mandara",
+          "t": "Mandara",
+          "n": "1981",
+          "w": 1.95,
+          "note": "Korean Film Archive 100 · Im Kwon-taek · 만다라 · 117 min · also Mandala",
+          "q": "Q6747733"
+        },
+        {
+          "id": "kc-1982-people-of-ko-bang-neighborhood",
+          "t": "People of Ko-bang Neighborhood",
+          "n": "1982",
+          "w": 1.8,
+          "note": "Korean Film Archive 100 · Bae Chang-ho · 꼬방동네 사람들 · 108 min"
+        },
+        {
+          "id": "kc-1982-spinning-the-tales-of-cruelty-towards-women",
+          "t": "Spinning the Tales of Cruelty Towards Women",
+          "n": "1982",
+          "w": 1.67,
+          "note": "Korean Film Archive 100 · 2 of 8 juries · Lee Doo-yong · 여인잔혹사 물레야 물레야 · 100 min"
+        },
+        {
+          "id": "kc-1983-declaration-of-idiot",
+          "t": "Declaration of Idiot",
+          "n": "1983",
+          "w": 1.62,
+          "note": "Korean Film Archive 100, no. 11 · Lee Jang-ho · 바보선언 · 97 min",
+          "q": "Q16173111"
+        },
+        {
+          "id": "kc-1984-whale-hunting",
+          "t": "Whale Hunting",
+          "n": "1984",
+          "w": 1.87,
+          "note": "Korean Film Archive 100 · 2 of 8 juries · Bae Chang-ho · 고래사냥 · 112 min",
+          "q": "Q65235524"
+        },
+        {
+          "id": "kc-1985-deep-blue-night",
+          "t": "Deep Blue Night",
+          "n": "1985",
+          "w": 1.83,
+          "note": "Korean Film Archive 100 · 2 of 8 juries · Bae Chang-ho · 깊고 푸른 밤 · 110 min",
+          "q": "Q16182244"
+        },
+        {
+          "id": "kc-1985-kilsodeum",
+          "t": "Kilsodeum",
+          "n": "1985",
+          "w": 1.75,
+          "note": "Korean Film Archive 100 · 1 of 8 juries · Im Kwon-taek · 길소뜸 · 105 min · also Gilsotteum",
+          "q": "Q5562600"
+        },
+        {
+          "id": "kc-1986-surrogate-mother",
+          "t": "Surrogate Mother",
+          "n": "1986",
+          "w": 1.67,
+          "note": "Korean Film Archive 100 · Im Kwon-taek · 씨받이 · 100 min · also The Surrogate Woman",
+          "q": "Q491666"
+        },
+        {
+          "id": "kc-1986-ticket",
+          "t": "Ticket",
+          "n": "1986",
+          "w": 1.67,
+          "note": "Korean Film Archive 100 · 1 of 8 juries · Im Kwon-taek · 티켓 · 100 min",
+          "q": "Q7800649"
+        },
+        {
+          "id": "kc-1987-the-man-with-three-coffins",
+          "t": "The Man with Three Coffins",
+          "n": "1987",
+          "w": 1.95,
+          "note": "Korean Film Archive 100 · Lee Jang-ho · 나그네는 길에서도 쉬지 않는다 · 117 min",
+          "q": "Q7750131"
+        },
+        {
+          "id": "kc-1988-chil-su-and-man-su",
+          "t": "Chil-su and Man-su",
+          "n": "1988",
+          "w": 1.8,
+          "note": "Korean Film Archive 100 · Park Kwang-su · 칠수와 만수 · 108 min · also Chilsu and Mansu",
+          "q": "Q5099196"
+        },
+        {
+          "id": "kc-1988-gagman",
+          "t": "Gagman",
+          "n": "1988",
+          "w": 2.12,
+          "note": "Korean Film Archive 100 · Lee Myung-sae · 개그맨 · 127 min",
+          "q": "Q19483551"
+        },
+        {
+          "id": "kc-1989-why-has-bodhi-dharma-left-for-the-east",
+          "t": "Why Has Bodhi-Dharma Left for the East?",
+          "n": "1989",
+          "w": 2.42,
+          "note": "Korean Film Archive 100 · Bae Yong-kyoon · 달마가 동쪽으로 간 까닭은? · 145 min",
+          "q": "Q562534"
+        },
+        {
+          "id": "kc-1990-black-republic",
+          "t": "Black Republic",
+          "n": "1990",
+          "w": 1.67,
+          "note": "Korean Film Archive 100 · 3 of 8 juries · Park Kwang-su · 그들도 우리처럼 · 100 min",
+          "q": "Q4921581"
+        },
+        {
+          "id": "kc-1990-my-bride-my-love",
+          "t": "My Bride My Love",
+          "n": "1990",
+          "w": 1.85,
+          "note": "Korean Film Archive 100 · Lee Myung-se · 나의 사랑 나의 신부 · 111 min · also My Love, My Bride",
+          "q": "Q6945937"
+        },
+        {
+          "id": "kc-1990-the-night-before-strike",
+          "t": "The Night Before Strike",
+          "n": "1990",
+          "w": 1.88,
+          "note": "Korean Film Archive 100 · Lee Eun, Lee Jae-gu, Chang Yoon-hyun, Chang Dong-hong · 파업전야 · 113 min",
+          "q": "Q12621484"
+        },
+        {
+          "id": "kc-1990-north-korean-partisan-in-south-korea",
+          "t": "North Korean Partisan in South Korea",
+          "n": "1990",
+          "w": 2.63,
+          "note": "Korean Film Archive 100 · Chung Ji-young · 남부군 · 158 min · also Nambugun",
+          "q": "Q624616"
+        },
+        {
+          "id": "kc-1990-a-short-love-affair",
+          "t": "A Short Love Affair",
+          "n": "1990",
+          "w": 1.9,
+          "note": "Korean Film Archive 100 · 1 of 8 juries · Jang Sun-woo · 우묵배미의 사랑 · 114 min · also The Lovers of Woomook-baemi",
+          "q": "Q7749063"
+        },
+        {
+          "id": "kc-1991-the-road-to-race-track",
+          "t": "The Road to Race Track",
+          "n": "1991",
+          "w": 2.3,
+          "note": "Korean Film Archive 100 · Jang Sun-woo · 경마장 가는 길 · 138 min",
+          "q": "Q12583623"
+        },
+        {
+          "id": "kc-1992-the-marriage-life",
+          "t": "The Marriage Life",
+          "n": "1992",
+          "w": 1.58,
+          "note": "Korean Film Archive 100 · Kim Eui-suk · 결혼이야기 · 95 min · also Marriage Story",
+          "q": "Q6772851"
+        },
+        {
+          "id": "kc-1992-our-twisted-hero",
+          "t": "Our Twisted Hero",
+          "n": "1992",
+          "w": 1.98,
+          "note": "Korean Film Archive 100 · 3 of 8 juries · Park Jong-won · 우리들의 일그러진 영웅 · 119 min",
+          "q": "Q7111219"
+        },
+        {
+          "id": "kc-1992-white-badge",
+          "t": "White Badge",
+          "n": "1992",
+          "w": 2.07,
+          "note": "Korean Film Archive 100 · Chung Ji-young · 하얀전쟁 · 124 min",
+          "q": "Q625401"
+        },
+        {
+          "id": "kc-1993-sopyonje",
+          "t": "Sopyonje",
+          "n": "1993",
+          "w": 1.87,
+          "note": "Korean Film Archive 100, no. 12 · 5 of 8 juries · Im Kwon-taek · 서편제 · 112 min · also Seopyeonje",
+          "q": "Q384906"
+        },
+        {
+          "id": "kc-1995-live-a-woman-in-asia",
+          "t": "Live A Woman In Asia",
+          "n": "1995",
+          "w": 1.55,
+          "note": "Korean Film Archive 100 · Byun Young-joo · 낮은 목소리 - 아시아에서 여성으로 산다는 것 · 93 min",
+          "q": "Q65240090"
+        },
+        {
+          "id": "kc-1995-a-single-spark",
+          "t": "A Single Spark",
+          "n": "1995",
+          "w": 1.6,
+          "note": "Korean Film Archive 100 · 2 of 8 juries · Park Kwang-su · 아름다운 청년 전태일 · 96 min",
+          "q": "Q269575"
+        },
+        {
+          "id": "kc-1996-the-day-a-pig-fell-into-a-well",
+          "t": "The Day a Pig Fell into a Well",
+          "n": "1996",
+          "w": 1.92,
+          "note": "Korean Film Archive 100 · Hong Sang-soo · 돼지가 우물에 빠진 날 · 115 min · also The Day a Pig Fell into the Well",
+          "q": "Q625136"
+        },
+        {
+          "id": "kc-1996-a-petal",
+          "t": "A Petal",
+          "n": "1996",
+          "w": 1.68,
+          "note": "Korean Film Archive 100 · Jang Sun-woo · 꽃잎 · 101 min",
+          "q": "Q626856"
+        },
+        {
+          "id": "kc-1997-no-3",
+          "t": "NO.3",
+          "n": "1997",
+          "w": 1.8,
+          "note": "Korean Film Archive 100 · Song Neung-han · 넘버 3 · 108 min",
+          "q": "Q7043349"
+        },
+        {
+          "id": "kc-1998-christmas-in-august",
+          "t": "Christmas in August",
+          "n": "1998",
+          "w": 1.62,
+          "note": "Korean Film Archive 100 · 3 of 8 juries · Hur Jin-ho · 8월의 크리스마스 · 97 min",
+          "q": "Q494789"
+        },
+        {
+          "id": "kc-1998-the-power-of-kangwon-province",
+          "t": "The Power of Kangwon Province",
+          "n": "1998",
+          "w": 1.8,
+          "note": "Korean Film Archive 100 · Hong Sang-soo · 강원도의 힘 · 108 min",
+          "q": "Q493193"
+        },
+        {
+          "id": "kc-1999-nowhere-to-hide",
+          "t": "Nowhere To Hide",
+          "n": "1999",
+          "w": 1.87,
+          "note": "Korean Film Archive 100 · 1 of 8 juries · Lee Myung-se · 인정사정 볼것 없다 · 112 min",
+          "q": "Q626803"
+        },
+        {
+          "id": "kc-1999-a-peppermint-candy",
+          "t": "A Peppermint Candy",
+          "n": "1999",
+          "w": 2.17,
+          "note": "Korean Film Archive 100 · 2 of 8 juries · Lee Chang-dong · 박하사탕 · 130 min",
+          "q": "Q448464"
+        },
+        {
+          "id": "kc-1999-swiri",
+          "t": "Swiri",
+          "n": "1999",
+          "w": 2.08,
+          "note": "Korean Film Archive 100 · 1 of 8 juries · Kang Je-kyu · 쉬리 · 125 min · also Shiri",
+          "q": "Q391544"
+        }
+      ]
+    },
+    {
+      "id": "newwave",
+      "title": "2000s",
+      "sub": "2000–2012 · 17 films · 34 hours",
+      "intro": "The industry's revival with the Korean New Wave, and the point at which the rest of the world starts paying. The archive's selection stops at Pietà in 2012, so this section thins after 2010 for a reason that is about the list rather than about the films.",
+      "items": [
+        {
+          "id": "kc-2000-chunhyang",
+          "t": "Chunhyang",
+          "n": "2000",
+          "w": 2.22,
+          "note": "Korean Film Archive 100 · 1 of 8 juries · Im Kwon-taek · 춘향뎐 · 133 min",
+          "q": "Q482728"
+        },
+        {
+          "id": "kc-2000-die-bad",
+          "t": "Die Bad",
+          "n": "2000",
+          "w": 1.63,
+          "note": "Korean Film Archive 100 · Ryoo Seung-wan · 죽거나 혹은 나쁘거나 · 98 min",
+          "q": "Q5274320"
+        },
+        {
+          "id": "kc-2000-joint-security-area",
+          "t": "Joint Security Area",
+          "n": "2000",
+          "w": 1.83,
+          "note": "Korean Film Archive 100 · 3 of 8 juries · Park Chan-wook · 공동경비구역 J.S.A · 110 min",
+          "q": "Q202681"
+        },
+        {
+          "id": "kc-2001-sorum",
+          "t": "Sorum",
+          "n": "2001",
+          "w": 1.87,
+          "note": "Korean Film Archive 100 · Yoon Jong-chan · 소름 · 112 min",
+          "q": "Q7563796"
+        },
+        {
+          "id": "kc-2002-sympathy-for-mr-vengeance",
+          "t": "Sympathy for Mr. Vengeance",
+          "n": "2002",
+          "w": 2.15,
+          "note": "Korean Film Archive 100 · Park Chan-wook · 복수는 나의 것 · 129 min",
+          "q": "Q483849"
+        },
+        {
+          "id": "kc-2003-a-good-lawyer-s-wife",
+          "t": "A Good Lawyer's Wife",
+          "n": "2003",
+          "w": 1.73,
+          "note": "Korean Film Archive 100 · Im Sang-soo · 바람난 가족 · 104 min",
+          "q": "Q3549462"
+        },
+        {
+          "id": "kc-2003-memories-of-murder",
+          "t": "Memories of Murder",
+          "n": "2003",
+          "w": 2.18,
+          "note": "Korean Film Archive 100, no. 8 · 4 of 8 juries · Bong Joon-ho · 살인의 추억 · 131 min",
+          "q": "Q488169"
+        },
+        {
+          "id": "kc-2003-old-boy",
+          "t": "Old Boy",
+          "n": "2003",
+          "w": 2.0,
+          "note": "Korean Film Archive 100 · 2 of 8 juries · Park Chan-wook · 올드보이 · 120 min · also Oldboy",
+          "q": "Q475693"
+        },
+        {
+          "id": "kc-2003-repatriation",
+          "t": "Repatriation",
+          "n": "2003",
+          "w": 2.47,
+          "note": "Korean Film Archive 100 · Kim Dong-won · 송환 · 148 min",
+          "q": "Q3419360"
+        },
+        {
+          "id": "kc-2003-save-the-green-planet",
+          "t": "Save the Green Planet",
+          "n": "2003",
+          "w": 1.97,
+          "note": "Korean Film Archive 100 · Jang Joon-hwan · 지구를 지켜라! · 118 min",
+          "q": "Q482944"
+        },
+        {
+          "id": "kc-2004-3-iron",
+          "t": "3-Iron",
+          "n": "2004",
+          "w": 1.47,
+          "note": "Korean Film Archive 100 · Kim Ki-duk · 빈집 · 88 min",
+          "q": "Q489818"
+        },
+        {
+          "id": "kc-2006-family-ties",
+          "t": "Family Ties",
+          "n": "2006",
+          "w": 1.88,
+          "note": "Korean Film Archive 100 · 2 of 8 juries · Kim Tae-yong · 가족의 탄생 · 113 min",
+          "q": "Q5433273"
+        },
+        {
+          "id": "kc-2006-the-host",
+          "t": "The Host",
+          "n": "2006",
+          "w": 1.98,
+          "note": "Korean Film Archive 100 · 3 of 8 juries · Bong Joon-ho · 괴물 · 119 min",
+          "q": "Q488222"
+        },
+        {
+          "id": "kc-2007-secret-sunshine",
+          "t": "Secret Sunshine",
+          "n": "2007",
+          "w": 2.37,
+          "note": "Korean Film Archive 100 · 2 of 8 juries · Lee Chang-dong · 밀양 · 142 min",
+          "q": "Q496752"
+        },
+        {
+          "id": "kc-2009-mother",
+          "t": "Mother",
+          "n": "2009",
+          "w": 2.13,
+          "note": "Korean Film Archive 100 · 4 of 8 juries · Bong Joon-ho · 마더 · 128 min",
+          "q": "Q483761"
+        },
+        {
+          "id": "kc-2010-poetry",
+          "t": "Poetry",
+          "n": "2010",
+          "w": 2.32,
+          "note": "Korean Film Archive 100 · 4 of 8 juries · Lee Chang-dong · 시 · 139 min",
+          "q": "Q486803"
+        },
+        {
+          "id": "kc-2012-pieta",
+          "t": "Pieta",
+          "n": "2012",
+          "w": 1.73,
+          "note": "Korean Film Archive 100 · 3 of 8 juries · Kim Ki-duk · 피에타 · 104 min",
+          "q": "Q483197"
+        }
+      ]
+    },
+    {
+      "id": "since",
+      "title": "After the archive's list",
+      "sub": "2013–2025 · 19 films · 42 hours",
+      "intro": "Everything after the archive's selection closed. These rows are not the archive's picks — it has not made a new selection — so each one is here because at least 2 of Korea's eight juries named it, and the note says how many. It is a coarser instrument than a considered canon and this section should be read as provisional.",
+      "items": [
+        {
+          "id": "kc-2013-the-attorney",
+          "t": "The Attorney",
+          "n": "2013",
+          "w": 2.12,
+          "note": "2 of 8 juries · Yang Woo-suk · 변호인 · 127 min",
+          "q": "Q15283831"
+        },
+        {
+          "id": "kc-2013-snowpiercer",
+          "t": "Snowpiercer",
+          "n": "2013",
+          "w": 2.1,
+          "note": "2 of 8 juries · Bong Joon-ho · 설국열차 · 126 min",
+          "q": "Q492908"
+        },
+        {
+          "id": "kc-2014-the-admiral-roaring-currents",
+          "t": "The Admiral: Roaring Currents",
+          "n": "2014",
+          "w": 2.12,
+          "note": "2 of 8 juries · Kim Han-min · 명량 · 127 min",
+          "q": "Q16930989"
+        },
+        {
+          "id": "kc-2015-assassination",
+          "t": "Assassination",
+          "n": "2015",
+          "w": 2.33,
+          "note": "2 of 8 juries · Choi Dong-hoon · 암살 · 140 min",
+          "q": "Q19801741"
+        },
+        {
+          "id": "kc-2015-inside-men",
+          "t": "Inside Men",
+          "n": "2015",
+          "w": 2.17,
+          "note": "2 of 8 juries · Woo Min-ho · 내부자들 · 130 min",
+          "q": "Q20780511"
+        },
+        {
+          "id": "kc-2015-the-throne",
+          "t": "The Throne",
+          "n": "2015",
+          "w": 2.08,
+          "note": "2 of 8 juries · Lee Joon-ik · 사도 · 125 min",
+          "q": "Q18180905"
+        },
+        {
+          "id": "kc-2016-the-age-of-shadows",
+          "t": "The Age of Shadows",
+          "n": "2016",
+          "w": 2.33,
+          "note": "2 of 8 juries · Kim Jee-woon · 밀정 · 140 min",
+          "q": "Q22973831"
+        },
+        {
+          "id": "kc-2017-1987-when-the-day-comes",
+          "t": "1987: When the Day Comes",
+          "n": "2017",
+          "w": 2.15,
+          "note": "2 of 8 juries · Jang Joon-hwan · 1987 · 129 min",
+          "q": "Q30115075"
+        },
+        {
+          "id": "kc-2017-the-fortress",
+          "t": "The Fortress",
+          "n": "2017",
+          "w": 2.32,
+          "note": "2 of 8 juries · Hwang Dong-hyuk · 남한산성 · 139 min",
+          "q": "Q29641342"
+        },
+        {
+          "id": "kc-2017-a-taxi-driver",
+          "t": "A Taxi Driver",
+          "n": "2017",
+          "w": 2.28,
+          "note": "4 of 8 juries · Jang Hoon · 택시 운전사 · 137 min",
+          "q": "Q28698824"
+        },
+        {
+          "id": "kc-2018-burning",
+          "t": "Burning",
+          "n": "2018",
+          "w": 2.47,
+          "note": "2 of 8 juries · Lee Chang-dong · 버닝 · 148 min",
+          "q": "Q27964354"
+        },
+        {
+          "id": "kc-2018-the-spy-gone-north",
+          "t": "The Spy Gone North",
+          "n": "2018",
+          "w": 2.28,
+          "note": "2 of 8 juries · Yoon Jong-bin · 공작 · 137 min",
+          "q": "Q30607228"
+        },
+        {
+          "id": "kc-2019-parasite",
+          "t": "Parasite",
+          "n": "2019",
+          "w": 2.2,
+          "note": "6 of 8 juries · Bong Joon-ho · 기생충 · 132 min",
+          "q": "Q61448040"
+        },
+        {
+          "id": "kc-2020-the-man-standing-next",
+          "t": "The Man Standing Next",
+          "n": "2020",
+          "w": 1.9,
+          "note": "3 of 8 juries · Woo Min-ho · 남산의 부장들 · 114 min",
+          "q": "Q78730189"
+        },
+        {
+          "id": "kc-2021-escape-from-mogadishu",
+          "t": "Escape from Mogadishu",
+          "n": "2021",
+          "w": 2.02,
+          "note": "4 of 8 juries · Ryoo Seung-wan · 모가디슈 · 121 min",
+          "q": "Q107208538"
+        },
+        {
+          "id": "kc-2022-decision-to-leave",
+          "t": "Decision to Leave",
+          "n": "2022",
+          "w": 2.32,
+          "note": "5 of 8 juries · Park Chan-wook · 헤어질 결심 · 139 min",
+          "q": "Q100889636"
+        },
+        {
+          "id": "kc-2023-12-12-the-day",
+          "t": "12.12: The Day",
+          "n": "2023",
+          "w": 2.35,
+          "note": "3 of 8 juries · Kim Sung-su · 서울의 봄 · 141 min",
+          "q": "Q115858816"
+        },
+        {
+          "id": "kc-2023-concrete-utopia",
+          "t": "Concrete Utopia",
+          "n": "2023",
+          "w": 2.17,
+          "note": "3 of 8 juries · Um Tae-hwa · 콘크리트 유토피아 · 130 min",
+          "q": "Q106514501"
+        },
+        {
+          "id": "kc-2025-no-other-choice",
+          "t": "No Other Choice",
+          "n": "2025",
+          "w": 2.32,
+          "note": "3 of 8 juries · Park Chan-wook · 어쩔수가없다 · 139 min",
+          "q": "Q129906152"
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and ninety-nine lists, from a ten-episode anime to a 1,418-row film
+Two hundred and one lists, from a ten-episode anime to a 1,418-row film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -67,6 +67,14 @@ films across five decades) — and *Matt Johnson* — everything he
 has directed, from the eleven web episodes of *Nirvana the Band the Show*
 through *BlackBerry* to the Bourdain biopic, with the Viceland remake and
 a children's cartoon in between.
+
+**Korean cinema** takes the same approach with a spine worth naming: the
+**Korean Film Archive's own selection of 100 Korean Films**, a national
+archive rather than an anglophone best-of list — and because the archive
+prints a database identifier for every entry, the whole list resolves to
+Wikidata ids from the source's own numbering rather than by matching titles.
+Films released after that selection closed need two of Korea's eight film
+juries instead. *Parasite* now ties five lists together.
 
 **Lists that pass a stated gate rather than a verdict.** *Cult Classics* is the
 clearest example: "cult classic" is an opinion, so the list does not offer one.

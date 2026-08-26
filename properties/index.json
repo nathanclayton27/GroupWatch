@@ -3175,6 +3175,27 @@
     "total": 22
   },
   {
+    "slug": "korean-cinema",
+    "media": [
+      "movies"
+    ],
+    "title": "Korean Cinema",
+    "subtitle": "the national archive's hundred, and what came after",
+    "kind": "films",
+    "year": "1934–2025",
+    "popularity": 56,
+    "blurb": "119 films Korea's own national film archive and its film juries picked out, 1934 to 2025 — about 220 hours. No order; let the picker choose.",
+    "accent": "#1D5C7A",
+    "accentDark": "#79C2DD",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 119,
+    "totalw": 220.25,
+    "random": true
+  },
+  {
     "slug": "universal-monsters",
     "media": [
       "movies"
