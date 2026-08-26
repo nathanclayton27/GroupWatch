@@ -3273,6 +3273,27 @@
     "total": 19
   },
   {
+    "slug": "tremors",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Tremors",
+    "subtitle": "seven films and a television series, in release order",
+    "kind": "films & tv",
+    "year": "1990–2020",
+    "popularity": 52,
+    "blurb": "One cinema release in 1990, six direct-to-video sequels after it, and a thirteen-episode series in between. About 21 hours.",
+    "accent": "#8A4B12",
+    "accentDark": "#E0A257",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 20,
+    "totalw": 20.57
+  },
+  {
     "slug": "ultimate-marvel",
     "media": [
       "comics"
