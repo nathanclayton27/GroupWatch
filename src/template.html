@@ -3858,6 +3858,10 @@ const LAYER_H = 35, LAYER_OFFSET = 16;
 // second distinguishing mark rather than more hues — see the card.
 const MCOLORS = 16;
 const GKEY = 'gw:group:' + SLUG;   // which group is on screen, per property
+// The null selection. A real stored value rather than an absent one: absent
+// means "never chose" and defaults into a club, which is not the same thing
+// as having chosen to be on your own.
+const JUSTME = '-';
 let groups   = [];    // every group this user belongs to, for this property
 let group    = null;  // the one being shown
 let gmembers = [];    // [{id, name, ci, read:Set}]
@@ -3900,8 +3904,12 @@ async function loadGroups(){
   if(e2) throw e2;
 
   groups = gs || [];
+  // "-" is the null selection: you, on your own, with a club available.
+  // It has to survive a reload, so it is a real stored value rather than
+  // the absence of one — absence means "never chose", which defaults in.
   const saved = localStorage.getItem(GKEY);
-  group = groups.find(g=>g.id===saved) || groups[0] || null;
+  group = saved === JUSTME ? null
+        : (groups.find(g=>g.id===saved) || groups[0] || null);
   await loadMembers();
 }
 
@@ -4481,23 +4489,35 @@ function isOwner(){ return !!(user && group && group.created_by === user.id); }
 // Which of your groups the strip is drawing. Only worth a control once there
 // is more than one; below that the header already says which group you are in.
 function groupSwitcher(){
-  if(groups.length < 2) return '';
-  const opts = groups.slice()
+  // One club is enough to need this now: without a null option, a member of
+  // exactly one club has no way to see their own progress on its own, and
+  // the switcher never rendered at all below two (CLU-114).
+  if(!groups.length) return '';
+  const opts = '<option value="'+JUSTME+'"'+(group?'':' selected')
+             + '>Just me</option>'
+    + groups.slice()
     .sort((a,b)=> a.name.localeCompare(b.name))
-    .map(g=>'<option value="'+esc(g.id)+'"'+(g.id===group.id?' selected':'')
+    .map(g=>'<option value="'+esc(g.id)+'"'
+            +(group && g.id===group.id?' selected':'')
             +'>'+esc(g.name)+'</option>').join('');
   return '<div class="row" style="margin:0 0 10px">'
     + '<span class="lbl">Showing</span>'
     + '<select id="g-switch" aria-label="Which club to show"'
     + (combined() ? ' disabled' : '') + '>'+opts+'</select>'
     + '<span class="lbl">'
-    + (combined() ? 'dates and the roster still follow this one'
-                  : 'one of your '+groups.length+' clubs on this list')
+    + (!group ? 'your own progress, as usual'
+       : combined() ? 'dates and the roster still follow this one'
+       : groups.length > 1 ? 'one of your '+groups.length+' clubs on this list'
+       : 'or just your own')
     + '</span></div>'
-    + '<label class="row gall" style="margin:0 0 14px">'
-    + '<input type="checkbox" id="g-all"'+(allGroups?' checked':'')+'>'
-    + '<span>Stack everyone from all '+groups.length+' clubs</span>'
-    + '<span class="exp">Experimental</span></label>';
+    // stacking "everyone from all your clubs" needs more than one club, and
+    // needs a club selected at all
+    + (group && groups.length > 1
+       ? '<label class="row gall" style="margin:0 0 14px">'
+         + '<input type="checkbox" id="g-all"'+(allGroups?' checked':'')+'>'
+         + '<span>Stack everyone from all '+groups.length+' clubs</span>'
+         + '<span class="exp">Experimental</span></label>'
+       : '');
 }
 
 // Renaming is the owner's alone — the same policy that lets them move the
@@ -4656,6 +4676,24 @@ function renderGroupPanel(){
       $('b-gretry').onclick = ()=> refreshGroup(true);
       return;
     }
+    // Chosen to be on your own WITH clubs available: the switcher has to
+    // render here too, or picking "Just me" strands you on the create-a-club
+    // form with no way back to the club you just turned off. It renders in
+    // the branch below otherwise, which is why this is easy to miss.
+    if(groups.length){
+      setup.classList.toggle('hide', !addingGroup);
+      joined.classList.remove('hide');
+      if(addingGroup) prepSetup(true);
+      joined.innerHTML = groupSwitcher()
+        + '<div class="gbar"><button id="b-gadd">'
+        + (addingGroup ? 'Close' : 'Join or start another') + '</button></div>'
+        + '<p class="lbl">The strip is showing your own progress. '
+        + 'Pick a club above to draw everyone.</p>';
+      wireSwitcher();
+      const add = $('b-gadd');
+      if(add) add.onclick = ()=>{ addingGroup = !addingGroup; renderGroupPanel(); };
+      return;
+    }
     // paced properties take either end; unpaced ones only have a finish
     joined.classList.add('hide'); setup.classList.remove('hide');
     prepSetup(false);
@@ -4727,9 +4765,25 @@ function renderGroupPanel(){
         + 'two of them appears once. Dates still come from '+group.name+'.'
       : 'Back to '+group.name+' on its own.', 'gmsg2');
   };
+  wireSwitcher();
+}
+
+// Its own function because the switcher now renders in TWO branches of
+// renderGroupPanel: the one where a club is selected, and the one where you
+// have chosen to be on your own but still have clubs to go back to.
+function wireSwitcher(){
   const sw = $('g-switch');
-  if(sw) sw.onchange = async ()=>{
+  if(!sw) return;
+  sw.onchange = async ()=>{
     localStorage.setItem(GKEY, sw.value);
+    if(sw.value === JUSTME){
+      // deliberately not `|| group`: choosing yourself must be able to
+      // clear the selection, which is the whole point of the option
+      group = null; gmembers = [];
+      allGroups = false;
+      paintStack(); renderGroupPanel();
+      return;
+    }
     group = groups.find(g=>g.id===sw.value) || group;
     try{ await loadMembers(); }catch(e){ console.error('[tracker] group switch failed', e); }
     paintStack(); renderGroupPanel();
@@ -4742,6 +4796,7 @@ async function refreshGroup(loud){
   try{
     await loadGroups();
     if(group) localStorage.setItem(GKEY, group.id);
+    else if(groups.length) localStorage.setItem(GKEY, JUSTME);
     paintStack(); renderGroupPanel();
     if(loud) flash('Up to date.','gmsg2');
   }catch(e){
