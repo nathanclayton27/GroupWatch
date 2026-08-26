@@ -2509,6 +2509,25 @@ let MANIFEST = [
     "totalw": 64.67
   },
   {
+    "slug": "bleach-manga",
+    "media": [
+      "manga"
+    ],
+    "title": "Bleach (manga)",
+    "subtitle": "Tite Kubo",
+    "kind": "manga",
+    "year": "2001–2016",
+    "popularity": 74,
+    "blurb": "All 698 chapters across 74 volumes, in publication order, plus 10 optional extras — finished.",
+    "accent": "#1F3557",
+    "accentDark": "#89B9F0",
+    "unit": {
+      "one": "chapter",
+      "many": "chapters"
+    },
+    "total": 708
+  },
+  {
     "slug": "demon-slayer",
     "media": [
       "movies",
@@ -5035,7 +5054,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '1b2ed14bfae4';
+const BUILD = '578b08049f16';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or

@@ -1,0 +1,3393 @@
+{
+ "sources": {
+  "api": "en.wikipedia action=query&prop=revisions, cached in scratch/agent-bleachmanga/wiki",
+  "pages": [
+   "List of Bleach chapters (1–187)",
+   "List of Bleach chapters (188–423)",
+   "List of Bleach chapters (424–686)",
+   "List of Bleach volumes"
+  ],
+  "counts_stated": "List of Bleach volumes: '698 individual chapters … comprising 686 listed chapters and 12 chapters which were listed as -108 to -97 … collected … in a series of 74 tankōbon volumes'",
+  "arcs_stated": "each chapter list's lead names its arcs and the volumes each one runs through; ARCS in parse.py is transcribed from those sentences and asserted against them"
+ },
+ "volumes": 74,
+ "chapters": 698,
+ "numbered": 686,
+ "side_story": 12,
+ "extras": 9,
+ "arcs": [
+  {
+   "name": "Agent of the Shinigami",
+   "first_vol": 1,
+   "last_vol": 8
+  },
+  {
+   "name": "Soul Society",
+   "first_vol": 9,
+   "last_vol": 21
+  },
+  {
+   "name": "Arrancar",
+   "first_vol": 22,
+   "last_vol": 48
+  },
+  {
+   "name": "Lost Agent",
+   "first_vol": 49,
+   "last_vol": 54
+  },
+  {
+   "name": "Thousand-Year Blood War",
+   "first_vol": 55,
+   "last_vol": 74
+  }
+ ],
+ "vols": [
+  {
+   "vol": 1,
+   "title": "The Death and the Strawberry",
+   "date": "January 5, 2002",
+   "chapters": [
+    {
+     "n": 1,
+     "t": "DEATH & STRAWBERRY"
+    },
+    {
+     "n": 2,
+     "t": "STARTER"
+    },
+    {
+     "n": 3,
+     "t": "Head-Hittin'"
+    },
+    {
+     "n": 4,
+     "t": "WHY DO YOU EAT IT?"
+    },
+    {
+     "n": 5,
+     "t": "BINDA BLINDA"
+    },
+    {
+     "n": 6,
+     "t": "Microcrack."
+    },
+    {
+     "n": 7,
+     "t": "THE PINK CHEEKED PARAKEET"
+    }
+   ]
+  },
+  {
+   "vol": 2,
+   "title": "Goodbye Parakeet, Good Night My Sister",
+   "date": "March 4, 2002",
+   "chapters": [
+    {
+     "n": 8,
+     "t": "Chasing Chad"
+    },
+    {
+     "n": 9,
+     "t": "Monster Vs. New Girl (Smack Down)"
+    },
+    {
+     "n": 10,
+     "t": "Monster Vs. New Girl, Part 2 (The Substitute)"
+    },
+    {
+     "n": 11,
+     "t": "LEECH-BOMBS AND MOM"
+    },
+    {
+     "n": 12,
+     "t": "The Gate of the End"
+    },
+    {
+     "n": 13,
+     "t": "BAD STANDARD"
+    },
+    {
+     "n": 14,
+     "t": "School Daze!!!"
+    },
+    {
+     "n": 15,
+     "t": "Jumpin' Jack, Jolted"
+    },
+    {
+     "n": 16,
+     "t": "Wasted but Wanted"
+    }
+   ]
+  },
+  {
+   "vol": 3,
+   "title": "memories in the rain",
+   "date": "June 4, 2002",
+   "chapters": [
+    {
+     "n": 17,
+     "t": "6/17"
+    },
+    {
+     "n": 18,
+     "t": "6/17 op. 2 Doesn't Smile Much Anymore"
+    },
+    {
+     "n": 19,
+     "t": "6/17 op. 3 memories in the rain"
+    },
+    {
+     "n": 20,
+     "t": "6/17 op. 4 A Face From the Past"
+    },
+    {
+     "n": 21,
+     "t": "6/17 op. 5 A Fighting Boy"
+    },
+    {
+     "n": 22,
+     "t": "6/17 op. 6 Battle in the Graveyard"
+    },
+    {
+     "n": 23,
+     "t": "6/17 op. 7 Sharp Will, Dull Blade"
+    },
+    {
+     "n": 24,
+     "t": "6/17 op. 8 One-Sided Sympathy"
+    },
+    {
+     "n": 25,
+     "t": "6/17 op. 9 A Fighting Boy 2\" (The Cigarette Blues Mix)"
+    }
+   ]
+  },
+  {
+   "vol": 4,
+   "title": "Quincy Archer Hates You",
+   "date": "September 4, 2002",
+   "chapters": [
+    {
+     "n": 26,
+     "t": "Paradise is Nowhere"
+    },
+    {
+     "n": 27,
+     "t": "Spirits AREN'T Always With Us"
+    },
+    {
+     "n": 28,
+     "t": "Symptom of Synesthesia"
+    },
+    {
+     "n": 29,
+     "t": "Stop That, Stupid!!"
+    },
+    {
+     "n": 30,
+     "t": "Second Contact (it was beyond the scope of our understanding)"
+    },
+    {
+     "n": 31,
+     "t": "HEROES CAN SAVE YOU"
+    },
+    {
+     "n": 32,
+     "t": "A Hero is Always With Me?"
+    },
+    {
+     "n": 33,
+     "t": "ROCKIN' FUTURE 7"
+    },
+    {
+     "n": 34,
+     "t": "Quincy Archer Hates You"
+    }
+   ]
+  },
+  {
+   "vol": 5,
+   "title": "Right Arm of the Giant",
+   "date": "November 1, 2002",
+   "chapters": [
+    {
+     "n": 35,
+     "t": "Will You Be My Enemy?"
+    },
+    {
+     "n": 36,
+     "t": "They Died for Vengeance"
+    },
+    {
+     "n": 37,
+     "t": "Crossing the Rubicon"
+    },
+    {
+     "n": 38,
+     "t": "BENT"
+    },
+    {
+     "n": 39,
+     "t": "Right Arm of the Giant"
+    },
+    {
+     "n": 40,
+     "t": "Grow?"
+    },
+    {
+     "n": 41,
+     "t": "Princess & Dragon"
+    },
+    {
+     "n": 42,
+     "t": "Princess & Dragon Part 2: The Majestic"
+    },
+    {
+     "n": 43,
+     "t": "Princess & Dragon Part 3: Six Flowers"
+    }
+   ]
+  },
+  {
+   "vol": 6,
+   "title": "The Death Trilogy Overture",
+   "date": "December 20, 2002",
+   "chapters": [
+    {
+     "n": 44,
+     "t": "Awaking to the Threat"
+    },
+    {
+     "n": 45,
+     "t": "Point of Purpose"
+    },
+    {
+     "n": 46,
+     "t": "Karneades ~ Back-to-Back"
+    },
+    {
+     "n": 47,
+     "t": "Back-to-Back ~ Tearing Sky"
+    },
+    {
+     "n": 48,
+     "t": "Menos Grande"
+    },
+    {
+     "n": 49,
+     "t": "unchained."
+    },
+    {
+     "n": 50,
+     "t": "Quincy Archer Hates You Part 2 (Blind but Bleed Mix)"
+    },
+    {
+     "n": 51,
+     "t": "DEATH 3"
+    },
+    {
+     "n": 52,
+     "t": "Needless Emotions"
+    }
+   ]
+  },
+  {
+   "vol": 7,
+   "title": "The Broken Coda",
+   "date": "March 4, 2003",
+   "chapters": [
+    {
+     "n": 53,
+     "t": "Nice to meet you. (I will beat you.)"
+    },
+    {
+     "n": 54,
+     "t": "The Nameless Boy"
+    },
+    {
+     "n": 55,
+     "t": "SHUT"
+    },
+    {
+     "n": 56,
+     "t": "broken coda"
+    },
+    {
+     "n": 57,
+     "t": "July Rain, Interrupted"
+    },
+    {
+     "n": 58,
+     "t": "blank"
+    },
+    {
+     "n": 59,
+     "t": "Lesson 1: One Strike! + Jailed at Home"
+    },
+    {
+     "n": 60,
+     "t": "Lesson 1-2: DOWN!!"
+    },
+    {
+     "n": 61,
+     "t": "Lesson 2: Shattered Shaft"
+    }
+   ]
+  },
+  {
+   "vol": 8,
+   "title": "The Blade and Me",
+   "date": "June 4, 2003",
+   "chapters": [
+    {
+     "n": 62,
+     "t": "Lesson 2-2: Bad Ending in the Shaft"
+    },
+    {
+     "n": 63,
+     "t": "Lesson 2-3: Inner Circle Breakdown"
+    },
+    {
+     "n": 64,
+     "t": "BACK IN BLACK"
+    },
+    {
+     "n": 65,
+     "t": "Collisions"
+    },
+    {
+     "n": 66,
+     "t": "THE BLADE AND ME"
+    },
+    {
+     "n": 67,
+     "t": "End of Lessons"
+    },
+    {
+     "n": 68,
+     "t": "The Last Summer Vacation"
+    },
+    {
+     "n": 69,
+     "t": "25:00 gathering"
+    },
+    {
+     "n": 70,
+     "t": "Where Hollows Fear To Tread"
+    }
+   ]
+  },
+  {
+   "vol": 9,
+   "title": "Fourteen Days for Conspiracy",
+   "date": "August 4, 2003",
+   "chapters": [
+    {
+     "n": 71,
+     "t": "INTRUDERZ"
+    },
+    {
+     "n": 72,
+     "t": "The Superchunk"
+    },
+    {
+     "n": 73,
+     "t": "Drizzly Axes"
+    },
+    {
+     "n": 74,
+     "t": "Armlost, Armlost"
+    },
+    {
+     "n": 75,
+     "t": "Crimson Rain"
+    },
+    {
+     "n": 76,
+     "t": "Boarrider Comin'"
+    },
+    {
+     "n": 77,
+     "t": "My Name Is Ganju"
+    },
+    {
+     "n": 78,
+     "t": "meeT 'Em iN tHE basemenT"
+    },
+    {
+     "n": 79,
+     "t": "FOURTEEN DAYS FOR CONSPIRACY"
+    }
+   ]
+  },
+  {
+   "vol": 10,
+   "title": "Tattoo on the Sky",
+   "date": "November 4, 2003",
+   "chapters": [
+    {
+     "n": 80,
+     "t": "The Shooting Star Project"
+    },
+    {
+     "n": 81,
+     "t": "Twelve-Tone Rendezvous"
+    },
+    {
+     "n": 82,
+     "t": "Conflictable Composition"
+    },
+    {
+     "n": 83,
+     "t": "COME WITH ME"
+    },
+    {
+     "n": 84,
+     "t": "The Shooting Star Project 2 (Tattoo on the Sky)"
+    },
+    {
+     "n": 85,
+     "t": "INTRUDERZ 2 (Breakthrough the Roof Mix)"
+    },
+    {
+     "n": 86,
+     "t": "Making Good Relations, OK?"
+    },
+    {
+     "n": 87,
+     "t": "Dancing with Spears"
+    },
+    {
+     "n": 88,
+     "t": "SO UNLUCKY WE ARE"
+    },
+    {
+     "n": 88.5,
+     "t": "KARAKURA SUPERHEROES"
+    }
+   ]
+  },
+  {
+   "vol": 11,
+   "title": "A Star and a Stray Dog",
+   "date": "December 19, 2003",
+   "chapters": [
+    {
+     "n": 89,
+     "t": "Masterly! And Farewell!"
+    },
+    {
+     "n": 90,
+     "t": "See You Under the Fireworks"
+    },
+    {
+     "n": 91,
+     "t": "DER FREISCHÜTZ King\" (\"KING OF FREISCHÜTZ\")"
+    },
+    {
+     "n": 92,
+     "t": "Masterly! And Farewell! (Reprise)"
+    },
+    {
+     "n": 93,
+     "t": "Steer For The Star"
+    },
+    {
+     "n": 94,
+     "t": "A Jail Called Remorse\" (\"Gaol Named Remorse\")"
+    },
+    {
+     "n": 95,
+     "t": "CRUSH"
+    },
+    {
+     "n": 96,
+     "t": "BLOODRED CONFLICT"
+    },
+    {
+     "n": 97,
+     "t": "Talk About Your Fear"
+    },
+    {
+     "n": 98,
+     "t": "A Star And A Stray Dog"
+    }
+   ]
+  },
+  {
+   "vol": 12,
+   "title": "Flower on the Precipice",
+   "date": "March 4, 2004",
+   "chapters": [
+    {
+     "n": 99,
+     "t": "Dead Black War Cloud"
+    },
+    {
+     "n": 100,
+     "t": "Flower on the Precipice"
+    },
+    {
+     "n": 101,
+     "t": "Split Under the Red Stalk"
+    },
+    {
+     "n": 102,
+     "t": "Nobody Beats"
+    },
+    {
+     "n": 103,
+     "t": "Dominion"
+    },
+    {
+     "n": 104,
+     "t": "The Undead"
+    },
+    {
+     "n": 105,
+     "t": "Spring, Spring, Meets the Tiger"
+    },
+    {
+     "n": 106,
+     "t": "Cause to Confront"
+    },
+    {
+     "n": 107,
+     "t": "Heat in Trust"
+    },
+    {
+     "n": 0.8,
+     "t": "a wonderful error"
+    }
+   ]
+  },
+  {
+   "vol": 13,
+   "title": "The Undead",
+   "date": "June 4, 2004",
+   "chapters": [
+    {
+     "n": 108,
+     "t": "A Time to Scare\" (\"Time For Scare\")"
+    },
+    {
+     "n": 109,
+     "t": "Like a Tiger Trying Not to Crush the Flowers"
+    },
+    {
+     "n": 110,
+     "t": "The Dark Side of the Universe\" (\"Dark Side of Universe\")"
+    },
+    {
+     "n": 111,
+     "t": "Black & White"
+    },
+    {
+     "n": 112,
+     "t": "The Undead 2 (Rise & Rage)\" (\"The Undead 2 (Rise & Craze)\")"
+    },
+    {
+     "n": 113,
+     "t": "The Undead 3 (Closing Frantica)"
+    },
+    {
+     "n": 114,
+     "t": "Everything Relating to the Crumbling World"
+    },
+    {
+     "n": 115,
+     "t": "Remnant"
+    }
+   ]
+  },
+  {
+   "vol": 14,
+   "title": "White Tower Rocks",
+   "date": "September 3, 2004",
+   "chapters": [
+    {
+     "n": 116,
+     "t": "White Tower Rocks"
+    },
+    {
+     "n": 117,
+     "t": "Remnant 2 (Deny the Shadow)"
+    },
+    {
+     "n": 118,
+     "t": "Supernal Tag"
+    },
+    {
+     "n": 119,
+     "t": "Secret of the Moon"
+    },
+    {
+     "n": 120,
+     "t": "Shake Hands with Grenades"
+    },
+    {
+     "n": 121,
+     "t": "In Sane We Trust"
+    },
+    {
+     "n": 122,
+     "t": "Don't Lose Your Grip"
+    },
+    {
+     "n": 123,
+     "t": "Pledge My Pride\" (\"Pledge My Pride To\")"
+    }
+   ]
+  },
+  {
+   "vol": 15,
+   "title": "Beginning of the Death of Tomorrow",
+   "date": "December 3, 2004",
+   "chapters": [
+    {
+     "n": 124,
+     "t": "Crying Little People"
+    },
+    {
+     "n": 125,
+     "t": "Insanity & Genius"
+    },
+    {
+     "n": 126,
+     "t": "The Last of a Void War"
+    },
+    {
+     "n": 127,
+     "t": "Beginning of the Death of Tomorrow"
+    },
+    {
+     "n": 128,
+     "t": "The Great Joint-Struggle Union"
+    },
+    {
+     "n": 129,
+     "t": "Suspicion (of Assassination)"
+    },
+    {
+     "n": 130,
+     "t": "Suspicion 2 (of Tears)"
+    },
+    {
+     "n": -17,
+     "t": "Prelude for the Straying Stars"
+    }
+   ]
+  },
+  {
+   "vol": 16,
+   "title": "Night of Wijnruit",
+   "date": "March 4, 2005",
+   "chapters": [
+    {
+     "n": 131,
+     "t": "The True Will"
+    },
+    {
+     "n": 132,
+     "t": "Creeping Limit"
+    },
+    {
+     "n": 133,
+     "t": "Memories in the Rain 2: Nocturne\" (\"Memories in the Rain 2: The Nocturne\")"
+    },
+    {
+     "n": 134,
+     "t": "Memories in the Rain 2, op.2: Longing for Sanctuary"
+    },
+    {
+     "n": 135,
+     "t": "Memories in the Rain 2, op.3: Affected by the Night"
+    },
+    {
+     "n": 136,
+     "t": "Memories in the Rain 2, op.4: Night of Wijnruit"
+    },
+    {
+     "n": 137,
+     "t": "Surrounding Clutch"
+    },
+    {
+     "n": 138,
+     "t": "Private Thoughts\" (\"Individual Thoughts\")"
+    },
+    {
+     "n": 139,
+     "t": "Drowsy, Bloody, Crazy"
+    }
+   ]
+  },
+  {
+   "vol": 17,
+   "title": "Rosa Rubicundior, Lilio Candidior",
+   "date": "June 3, 2005",
+   "chapters": [
+    {
+     "n": 140,
+     "t": "Bite at the Moon"
+    },
+    {
+     "n": 141,
+     "t": "Kneel to the Baboon King"
+    },
+    {
+     "n": 142,
+     "t": "To Those Capturing the Moon"
+    },
+    {
+     "n": 143,
+     "t": "Blazing Souls"
+    },
+    {
+     "n": 144,
+     "t": "Rosa Rubicundior, Lilio Candidior"
+    },
+    {
+     "n": 145,
+     "t": "Shaken"
+    },
+    {
+     "n": 146,
+     "t": "Demon Loves the Dark"
+    },
+    {
+     "n": 147,
+     "t": "Countdown to the End: 3 (Blind Light, Deaf Beat)"
+    },
+    {
+     "n": 148,
+     "t": "Countdown to the End: 2 (Lady Lennon~Frankenstein)"
+    },
+    {
+     "n": 149,
+     "t": "Countdown to the End: 1 (Only Mercifully)"
+    }
+   ]
+  },
+  {
+   "vol": 18,
+   "title": "The Deathberry Returns",
+   "date": "August 4, 2005",
+   "chapters": [
+    {
+     "n": 150,
+     "t": "Countdown to the End: 0"
+    },
+    {
+     "n": 151,
+     "t": "The Deathberry Returns\" (\"Deathberry Returns\")"
+    },
+    {
+     "n": 152,
+     "t": "The Speed Phantom"
+    },
+    {
+     "n": 153,
+     "t": "Empty Dialogue"
+    },
+    {
+     "n": 154,
+     "t": "'Flash Master'\" (\"God of Flash\")"
+    },
+    {
+     "n": 155,
+     "t": "Redoundable Deeds/Redoubtable Babies"
+    },
+    {
+     "n": 156,
+     "t": "Welcome to Purgatory"
+    },
+    {
+     "n": 157,
+     "t": "Cat and Hornet"
+    },
+    {
+     "n": 158,
+     "t": "Sky Leopardess"
+    }
+   ]
+  },
+  {
+   "vol": 19,
+   "title": "The Black Moon Rising",
+   "date": "October 4, 2005",
+   "chapters": [
+    {
+     "n": 159,
+     "t": "LONG WAY TO SAY GOODBYE"
+    },
+    {
+     "n": 160,
+     "t": "Battle on Guillotine Hill"
+    },
+    {
+     "n": 161,
+     "t": "Scratch the Sky"
+    },
+    {
+     "n": 162,
+     "t": "Black Moon Rising"
+    },
+    {
+     "n": 163,
+     "t": "THE Speed Phantom 2 (Denial by Pride, Contradiction by Power)"
+    },
+    {
+     "n": 164,
+     "t": "The One Who Changed the World"
+    },
+    {
+     "n": 165,
+     "t": "The Dark Side of the Universe 2\" (\"Dark Side of Universe 2\")"
+    },
+    {
+     "n": 166,
+     "t": "Black & White 2"
+    },
+    {
+     "n": 167,
+     "t": "Death Chamber"
+    },
+    {
+     "n": 168,
+     "t": "Behind Me, Behind You"
+    }
+   ]
+  },
+  {
+   "vol": 20,
+   "title": "End of Hypnosis",
+   "date": "December 2, 2005",
+   "chapters": [
+    {
+     "n": -12.5,
+     "t": "Blooming Under a Cold Moon"
+    },
+    {
+     "n": 169,
+     "t": "end of hypnosis"
+    },
+    {
+     "n": 170,
+     "t": "end of hypnosis2 (the Galvanizer)"
+    },
+    {
+     "n": 171,
+     "t": "end of hypnosis3 (the Blue Fog)"
+    },
+    {
+     "n": 172,
+     "t": "end of hypnosis4 (Prisoners in Paradise)"
+    },
+    {
+     "n": 173,
+     "t": "end of hypnosis5 (Standing to Defend You)"
+    },
+    {
+     "n": 174,
+     "t": "end of hypnosis6 (The United Front)"
+    },
+    {
+     "n": 175,
+     "t": "end of hypnosis7 (Truth Under My Strings)"
+    },
+    {
+     "n": 176,
+     "t": "end of hypnosis8 (the Transfixion)"
+    },
+    {
+     "n": 177,
+     "t": "end of hypnosis9 (Encompassed)"
+    },
+    {
+     "n": 178,
+     "t": "end of hypnosis10 (No One Stands On the Sky)"
+    }
+   ]
+  },
+  {
+   "vol": 21,
+   "title": "Be My Family or Not",
+   "date": "March 3, 2006",
+   "chapters": [
+    {
+     "n": 179,
+     "t": "Confession in the Twilight"
+    },
+    {
+     "n": 180,
+     "t": "Something in the Aftermath"
+    },
+    {
+     "n": 181,
+     "t": "AND THE RAIN LEFT OFF"
+    },
+    {
+     "n": 182,
+     "t": "GET BACK FROM THE STORM (TRIGGER FOR A NEW CONCERTO)"
+    },
+    {
+     "n": 183,
+     "t": "eyes of the unknown"
+    },
+    {
+     "n": 184,
+     "t": "HUSH"
+    },
+    {
+     "n": 185,
+     "t": "Be My Family or Not"
+    },
+    {
+     "n": 186,
+     "t": "Tell Your Children the Truth"
+    },
+    {
+     "n": 187,
+     "t": "THE CIGAR BLUES, PART TWO"
+    }
+   ]
+  },
+  {
+   "vol": 22,
+   "title": "Conquistadores",
+   "date": "May 2, 2006",
+   "chapters": [
+    {
+     "n": 188,
+     "t": "CRUSH THE WORLD DOWN"
+    },
+    {
+     "n": 189,
+     "t": "RESOLVE"
+    },
+    {
+     "n": 190,
+     "t": "Conquistadores"
+    },
+    {
+     "n": 191,
+     "t": "Conquistadores 2 (Screaming Symphony)"
+    },
+    {
+     "n": 192,
+     "t": "Conquistadores 3 (Hounded Priestess)"
+    },
+    {
+     "n": 193,
+     "t": "Conquistadores 4 (Ebony & Ivory)"
+    },
+    {
+     "n": 194,
+     "t": "Conquistadores 5 (La Basura)"
+    },
+    {
+     "n": 195,
+     "t": "Death & Strawberry (Reprise)"
+    },
+    {
+     "n": 196,
+     "t": "PUNCH DOWN THE STONE CIRCLE"
+    },
+    {
+     "n": 197,
+     "t": "The Approaching Danger"
+    }
+   ]
+  },
+  {
+   "vol": 23,
+   "title": "¡Mala Suerte!",
+   "date": "August 4, 2006",
+   "chapters": [
+    {
+     "n": 198,
+     "t": "The Icecold Discord"
+    },
+    {
+     "n": 199,
+     "t": "Ugly"
+    },
+    {
+     "n": 200,
+     "t": "Night of Sledgehammer"
+    },
+    {
+     "n": 201,
+     "t": "Wind & Snowbound"
+    },
+    {
+     "n": 202,
+     "t": "¡Mala Suerte!"
+    },
+    {
+     "n": 203,
+     "t": "¡Mala Suerte! 2 (El Monstruo)"
+    },
+    {
+     "n": 204,
+     "t": "¡Mala Suerte! 3 (Monstruo Sangrienta)"
+    },
+    {
+     "n": 205,
+     "t": "¡Mala Suerte! 4 (Tempestad de La Lucha)"
+    },
+    {
+     "n": 0,
+     "t": "side-A the sand"
+    },
+    {
+     "n": 0,
+     "t": "side-B the rotator"
+    }
+   ]
+  },
+  {
+   "vol": 24,
+   "title": "Immanent God Blues",
+   "date": "October 4, 2006",
+   "chapters": [
+    {
+     "n": 206,
+     "t": "¡Mala Suerte! 5 [LUCKY]"
+    },
+    {
+     "n": 207,
+     "t": "Mode: Genocide"
+    },
+    {
+     "n": 208,
+     "t": "The Scissors"
+    },
+    {
+     "n": 209,
+     "t": "Lift the Limit"
+    },
+    {
+     "n": 210,
+     "t": "Turn the True Power On"
+    },
+    {
+     "n": 211,
+     "t": "Stroke of Sanity"
+    },
+    {
+     "n": 212,
+     "t": "You Don't Hear My Name Anymore"
+    },
+    {
+     "n": 213,
+     "t": "trifle"
+    },
+    {
+     "n": 214,
+     "t": "Immanent God Blues"
+    }
+   ]
+  },
+  {
+   "vol": 25,
+   "title": "No Shaking Throne",
+   "date": "December 4, 2006",
+   "chapters": [
+    {
+     "n": 215,
+     "t": "Tug Your God Out"
+    },
+    {
+     "n": 216,
+     "t": "The Suppression of Darkness"
+    },
+    {
+     "n": 217,
+     "t": "Hole in My Heart"
+    },
+    {
+     "n": 218,
+     "t": "Dark Side of Universe 3"
+    },
+    {
+     "n": 219,
+     "t": "Black & White 3"
+    },
+    {
+     "n": 220,
+     "t": "King & His Horse"
+    },
+    {
+     "n": 221,
+     "t": "Let Eat the World's End"
+    },
+    {
+     "n": 222,
+     "t": "NO SHAKING THRONE"
+    },
+    {
+     "n": 223,
+     "t": "The Scarlet Creation"
+    }
+   ]
+  },
+  {
+   "vol": 26,
+   "title": "The Mascaron Drive",
+   "date": "February 2, 2007",
+   "chapters": [
+    {
+     "n": 224,
+     "t": "Imitated Gaiety"
+    },
+    {
+     "n": 225,
+     "t": "Slip into My Barrier"
+    },
+    {
+     "n": 226,
+     "t": "Right of My Heart"
+    },
+    {
+     "n": 227,
+     "t": "The Swordless Soldier"
+    },
+    {
+     "n": 228,
+     "t": "Don't Look Back"
+    },
+    {
+     "n": 229,
+     "t": "The Howling Tempest"
+    },
+    {
+     "n": 230,
+     "t": "Dead White Invasion"
+    },
+    {
+     "n": 231,
+     "t": "The Mascaron Drive"
+    },
+    {
+     "n": 232,
+     "t": "The Mascaron Drive 2"
+    },
+    {
+     "n": 233,
+     "t": "El Violador"
+    }
+   ]
+  },
+  {
+   "vol": 27,
+   "title": "Goodbye, Halcyon Days",
+   "date": "April 4, 2007",
+   "chapters": [
+    {
+     "n": 234,
+     "t": "Not Negotiation"
+    },
+    {
+     "n": 235,
+     "t": "The Frozen Clutch"
+    },
+    {
+     "n": 236,
+     "t": "The Sun Already Gone Down"
+    },
+    {
+     "n": 237,
+     "t": "goodbye, halcyon days."
+    },
+    {
+     "n": 238,
+     "t": "Eagle Without Wings"
+    },
+    {
+     "n": 239,
+     "t": "WINGED EAGLES"
+    },
+    {
+     "n": 240,
+     "t": "regeneration."
+    },
+    {
+     "n": 241,
+     "t": "Silverflame."
+    },
+    {
+     "n": 242,
+     "t": "TWO MEN ARE BURNING"
+    }
+   ]
+  },
+  {
+   "vol": 28,
+   "title": "Baron's Lecture Full-Course",
+   "date": "June 4, 2007",
+   "chapters": [
+    {
+     "n": 243,
+     "t": "The Knuckle & The Arrow"
+    },
+    {
+     "n": 244,
+     "t": "Born From The Fear"
+    },
+    {
+     "n": 245,
+     "t": "THE WAY WITHOUT ENEMIES"
+    },
+    {
+     "n": 246,
+     "t": "The Great Desert Bros."
+    },
+    {
+     "n": 247,
+     "t": "United On The Desert"
+    },
+    {
+     "n": 248,
+     "t": "Alive and Back Here Once Again"
+    },
+    {
+     "n": 249,
+     "t": "Back to the Innocence"
+    },
+    {
+     "n": 250,
+     "t": "Five Ways To Three Figures"
+    },
+    {
+     "n": 251,
+     "t": "Baron's Lecture 1st Period"
+    }
+   ]
+  },
+  {
+   "vol": 29,
+   "title": "The Slashing Opera",
+   "date": "August 3, 2007",
+   "chapters": [
+    {
+     "n": 252,
+     "t": "REBUT TO THE BARON'S LECTURE"
+    },
+    {
+     "n": 253,
+     "t": "Don't Call Me Niño"
+    },
+    {
+     "n": 254,
+     "t": "Leave the Chocolate Here\" (\"Deja Chocolate Aquí\")"
+    },
+    {
+     "n": 255,
+     "t": "DON'T BREATHE IN THE BUSH"
+    },
+    {
+     "n": 256,
+     "t": "Infinite Slick"
+    },
+    {
+     "n": 257,
+     "t": "The Slashing Opera"
+    },
+    {
+     "n": 258,
+     "t": "Seeleschneider"
+    },
+    {
+     "n": 259,
+     "t": "Flicker Flames"
+    },
+    {
+     "n": 260,
+     "t": "RIGHTARM OF THE GIANT2"
+    },
+    {
+     "n": null,
+     "t": "Bleach on the Beach"
+    }
+   ]
+  },
+  {
+   "vol": 30,
+   "title": "There Is No Heart Without You",
+   "date": "October 4, 2007",
+   "chapters": [
+    {
+     "n": 261,
+     "t": "LEFT ARM OF THE DEMON (\"Left Arm of The Devil\")"
+    },
+    {
+     "n": 262,
+     "t": "Unblendable"
+    },
+    {
+     "n": 263,
+     "t": "Unexpected"
+    },
+    {
+     "n": 264,
+     "t": "Don't Say That Name Again"
+    },
+    {
+     "n": 265,
+     "t": "Bang the Bore"
+    },
+    {
+     "n": 266,
+     "t": "Hide Away From the Sun"
+    },
+    {
+     "n": 267,
+     "t": "Legions of the Regrets\" (\"Legions of The Reglets\")"
+    },
+    {
+     "n": 268,
+     "t": "You Are Forbidden to Die"
+    },
+    {
+     "n": 269,
+     "t": "The End Is Near"
+    }
+   ]
+  },
+  {
+   "vol": 31,
+   "title": "Don't Kill My Volupture",
+   "date": "December 4, 2007",
+   "chapters": [
+    {
+     "n": 270,
+     "t": "WARning"
+    },
+    {
+     "n": 271,
+     "t": "If You Rise From the Ashes"
+    },
+    {
+     "n": 272,
+     "t": "Don't Kill My Volupture"
+    },
+    {
+     "n": 273,
+     "t": "DOG eat DOG"
+    },
+    {
+     "n": 274,
+     "t": "The Monster"
+    },
+    {
+     "n": 275,
+     "t": "The United Front 2 (Red & White)"
+    },
+    {
+     "n": 276,
+     "t": "Blockin' Beast"
+    },
+    {
+     "n": 277,
+     "t": "Corrosion of Conformity"
+    },
+    {
+     "n": 278,
+     "t": "Heal for The Crash"
+    }
+   ]
+  },
+  {
+   "vol": 32,
+   "title": "Howling",
+   "date": "February 4, 2008",
+   "chapters": [
+    {
+     "n": 279,
+     "t": "Jugulators"
+    },
+    {
+     "n": 280,
+     "t": "Jugulators 2"
+    },
+    {
+     "n": 281,
+     "t": "THE VULGARIAN NOISE"
+    },
+    {
+     "n": 282,
+     "t": "THE PRIMAL FEAR"
+    },
+    {
+     "n": 283,
+     "t": "You don't hurt anymore"
+    },
+    {
+     "n": 284,
+     "t": "Historia del Pantera y sus Sombras"
+    },
+    {
+     "n": 285,
+     "t": "Devour the Flesh, Alone"
+    },
+    {
+     "n": 286,
+     "t": "Guillotine You Standing"
+    },
+    {
+     "n": -16,
+     "t": "Death on the Ice Field"
+    }
+   ]
+  },
+  {
+   "vol": 33,
+   "title": "The Bad Joke",
+   "date": "April 4, 2008",
+   "chapters": [
+    {
+     "n": 287,
+     "t": "Don't Forget Till You Die"
+    },
+    {
+     "n": 288,
+     "t": "The Bad Joke"
+    },
+    {
+     "n": 289,
+     "t": "The Scarmask"
+    },
+    {
+     "n": 290,
+     "t": "Unleash The Beast"
+    },
+    {
+     "n": 291,
+     "t": "Thank You For Defending Me\" (\"Thank You For Defend Me\")"
+    },
+    {
+     "n": 292,
+     "t": "Rupture My Replica"
+    },
+    {
+     "n": 293,
+     "t": "Urge to Unite\" (\"Urge for Unite\")"
+    },
+    {
+     "n": 294,
+     "t": "If You Call Me a Beast, I'll Kill You Like a Tempest\" (\"If You Call Me Beast, Kill You Like Tempest\")"
+    },
+    {
+     "n": 295,
+     "t": "The Last Mission"
+    }
+   ]
+  },
+  {
+   "vol": 34,
+   "title": "King of The Kill",
+   "date": "July 4, 2008",
+   "chapters": [
+    {
+     "n": 296,
+     "t": "Changed Again And Again"
+    },
+    {
+     "n": 297,
+     "t": "King of the Kill"
+    },
+    {
+     "n": 298,
+     "t": "INTRUDERZ 3"
+    },
+    {
+     "n": 299,
+     "t": "The Verbal Warfare"
+    },
+    {
+     "n": 300,
+     "t": "Curse Named Love"
+    },
+    {
+     "n": 301,
+     "t": "Nothing Like Equal"
+    },
+    {
+     "n": 302,
+     "t": "Pride on the Blade"
+    },
+    {
+     "n": 303,
+     "t": "Dumdum-Dummy-Dumbstruck"
+    },
+    {
+     "n": 304,
+     "t": "Battle of Barbarians"
+    },
+    {
+     "n": 305,
+     "t": "The Rising Phoenix"
+    }
+   ]
+  },
+  {
+   "vol": 35,
+   "title": "Higher Than The Moon",
+   "date": "October 3, 2008",
+   "chapters": [
+    {
+     "n": 306,
+     "t": "Not Perfect is GOoD"
+    },
+    {
+     "n": 307,
+     "t": "Bite it, Slash it"
+    },
+    {
+     "n": 308,
+     "t": "SATAN FROM ORBIT"
+    },
+    {
+     "n": 309,
+     "t": "Pray For the Mantis"
+    },
+    {
+     "n": 310,
+     "t": "FOUR ARMS TO KILLING YOU"
+    },
+    {
+     "n": 311,
+     "t": "The Undead 4"
+    },
+    {
+     "n": 312,
+     "t": "Higher Than The Moon"
+    },
+    {
+     "n": 313,
+     "t": "TO CLOSE YOUR WORLD"
+    },
+    {
+     "n": 314,
+     "t": "Night Side of Abduction"
+    },
+    {
+     "n": 315,
+     "t": "MARCH OF THE DEATH"
+    }
+   ]
+  },
+  {
+   "vol": 36,
+   "title": "Turn Back The Pendulum",
+   "date": "December 4, 2008",
+   "chapters": [
+    {
+     "n": -108,
+     "t": "Turn Back the Pendulum"
+    },
+    {
+     "n": -107,
+     "t": "Turn Back the Pendulum 2"
+    },
+    {
+     "n": -106,
+     "t": "Turn Back the Pendulum 3"
+    },
+    {
+     "n": -105,
+     "t": "Turn Back the Pendulum 4"
+    },
+    {
+     "n": -104,
+     "t": "Turn Back the Pendulum 5"
+    },
+    {
+     "n": -103,
+     "t": "Turn Back the Pendulum 6"
+    },
+    {
+     "n": -102,
+     "t": "Turn Back the Pendulum 7"
+    },
+    {
+     "n": -101,
+     "t": "Turn Back the Pendulum 8"
+    },
+    {
+     "n": -100,
+     "t": "Turn Back the Pendulum 9"
+    }
+   ]
+  },
+  {
+   "vol": 37,
+   "title": "Beauty Is So Solitary",
+   "date": "February 4, 2009",
+   "chapters": [
+    {
+     "n": -99,
+     "t": "Turn Back the Pendulum 10"
+    },
+    {
+     "n": -98,
+     "t": "Turn Back the Pendulum 11"
+    },
+    {
+     "n": -97,
+     "t": "Let Stop the Pendulum"
+    },
+    {
+     "n": 316,
+     "t": "Swang the Edge Down"
+    },
+    {
+     "n": 317,
+     "t": "Six Hearts Will Beat As One"
+    },
+    {
+     "n": 318,
+     "t": "Five Towers/Four Pillars"
+    },
+    {
+     "n": 319,
+     "t": "Ants And Dragons"
+    },
+    {
+     "n": 320,
+     "t": "Beauty is So Solitary"
+    },
+    {
+     "n": 321,
+     "t": "Black Briers and Brambles"
+    },
+    {
+     "n": 322,
+     "t": "Oath Under the Rose"
+    }
+   ]
+  },
+  {
+   "vol": 38,
+   "title": "Fear for Fight",
+   "date": "April 3, 2009",
+   "chapters": [
+    {
+     "n": 323,
+     "t": "Gloomy, Ghastly and Full of Despair"
+    },
+    {
+     "n": 324,
+     "t": "The Reaper"
+    },
+    {
+     "n": 325,
+     "t": "Fear For Fight"
+    },
+    {
+     "n": 326,
+     "t": "Knockdown Monster"
+    },
+    {
+     "n": 327,
+     "t": "Knockdown Monsters"
+    },
+    {
+     "n": 328,
+     "t": "The Knuckle Debate"
+    },
+    {
+     "n": 329,
+     "t": "RAGING RAMPAGE"
+    },
+    {
+     "n": 330,
+     "t": "CROSSING SWORDS"
+    },
+    {
+     "n": 331,
+     "t": "Don't Believe the Hide"
+    }
+   ]
+  },
+  {
+   "vol": 39,
+   "title": "El Verdugo",
+   "date": "June 4, 2009",
+   "chapters": [
+    {
+     "n": 332,
+     "t": "Stingy Stinger"
+    },
+    {
+     "n": 333,
+     "t": "Ash & Salamander"
+    },
+    {
+     "n": 334,
+     "t": "Dregs of Hypnosis"
+    },
+    {
+     "n": 335,
+     "t": "chimaera chord"
+    },
+    {
+     "n": 336,
+     "t": "El Verdugo"
+    },
+    {
+     "n": 337,
+     "t": "Hall in Your Inferno"
+    },
+    {
+     "n": 338,
+     "t": "Fall into My Inferno"
+    },
+    {
+     "n": 339,
+     "t": "The Deathbringer Numbers"
+    },
+    {
+     "n": 340,
+     "t": "The Antagonizer"
+    }
+   ]
+  },
+  {
+   "vol": 40,
+   "title": "The Lust",
+   "date": "August 4, 2009",
+   "chapters": [
+    {
+     "n": 341,
+     "t": "The Envy"
+    },
+    {
+     "n": 342,
+     "t": "The Gluttony"
+    },
+    {
+     "n": 343,
+     "t": "The Greed"
+    },
+    {
+     "n": 344,
+     "t": "The Pride"
+    },
+    {
+     "n": 345,
+     "t": "The Sloth"
+    },
+    {
+     "n": 346,
+     "t": "The Wrath"
+    },
+    {
+     "n": 347,
+     "t": "The Lust"
+    },
+    {
+     "n": 348,
+     "t": "The Lust 2"
+    },
+    {
+     "n": 349,
+     "t": "The Lust 3"
+    }
+   ]
+  },
+  {
+   "vol": 41,
+   "title": "Heart",
+   "date": "October 2, 2009",
+   "chapters": [
+    {
+     "n": 350,
+     "t": "The Lust 4"
+    },
+    {
+     "n": 351,
+     "t": "The Lust 5"
+    },
+    {
+     "n": 352,
+     "t": "The Lust 6"
+    },
+    {
+     "n": 353,
+     "t": "The Ash"
+    },
+    {
+     "n": 354,
+     "t": "heart"
+    },
+    {
+     "n": 355,
+     "t": "Azul-Blood Splash"
+    },
+    {
+     "n": 356,
+     "t": "Tyrant of Skulls"
+    },
+    {
+     "n": 357,
+     "t": "The Colossus of Fear"
+    },
+    {
+     "n": 358,
+     "t": "King of the Clouds"
+    }
+   ]
+  },
+  {
+   "vol": 42,
+   "title": "Shock of the Queen",
+   "date": "December 4, 2009",
+   "chapters": [
+    {
+     "n": 359,
+     "t": "The Frozen Obelisk"
+    },
+    {
+     "n": 360,
+     "t": "Shock of the Queen"
+    },
+    {
+     "n": 361,
+     "t": "I Hate Loneliness, But It Loves Me"
+    },
+    {
+     "n": 362,
+     "t": "Howling Wolves"
+    },
+    {
+     "n": 363,
+     "t": "Superchunky from Hell"
+    },
+    {
+     "n": 364,
+     "t": "Grinning Revengers"
+    },
+    {
+     "n": 365,
+     "t": "Whose Side Are We On"
+    },
+    {
+     "n": 366,
+     "t": "The Revenger's High"
+    },
+    {
+     "n": 367,
+     "t": "YOUR ENEMY IS MY ENEMY"
+    }
+   ]
+  },
+  {
+   "vol": 43,
+   "title": "Kingdom of Hollows",
+   "date": "February 4, 2010",
+   "chapters": [
+    {
+     "n": 368,
+     "t": "The Fearless Child"
+    },
+    {
+     "n": 369,
+     "t": "Spit on Your Own God"
+    },
+    {
+     "n": 370,
+     "t": "Discussing Life from God's Perspective"
+    },
+    {
+     "n": 371,
+     "t": "Kingdom of Hollows"
+    },
+    {
+     "n": 372,
+     "t": "The Metal Cudgel Flinger"
+    },
+    {
+     "n": 373,
+     "t": "Wolves Ain't Howl Alone"
+    },
+    {
+     "n": 374,
+     "t": "Gray Wolf, Red Blood, Black Cloth, White Bone"
+    },
+    {
+     "n": 375,
+     "t": "EXecution, EXtinction"
+    },
+    {
+     "n": 376,
+     "t": "EXecution, EXtinction 2"
+    },
+    {
+     "n": 377,
+     "t": "Shout at the Dark"
+    }
+   ]
+  },
+  {
+   "vol": 44,
+   "title": "Vice It",
+   "date": "April 2, 2010",
+   "chapters": [
+    {
+     "n": 378,
+     "t": "Eyes of the Victor"
+    },
+    {
+     "n": 379,
+     "t": "Falta de Armonía"
+    },
+    {
+     "n": 380,
+     "t": "Devil, Devil, Devil, Devil"
+    },
+    {
+     "n": 381,
+     "t": "Words Just Don't Like You"
+    },
+    {
+     "n": 382,
+     "t": "The United Front (Discordeque Mix)"
+    },
+    {
+     "n": 383,
+     "t": "TOO EARLY TO TRUST"
+    },
+    {
+     "n": 384,
+     "t": "Can't Fear Your Own Sword"
+    },
+    {
+     "n": 385,
+     "t": "Vice It"
+    },
+    {
+     "n": 386,
+     "t": "Bells Are Blue"
+    }
+   ]
+  },
+  {
+   "vol": 45,
+   "title": "The Burnout Inferno",
+   "date": "June 4, 2010",
+   "chapters": [
+    {
+     "n": 387,
+     "t": "Ignited"
+    },
+    {
+     "n": 388,
+     "t": "Eagle Without Wings 2 (EXTREME BATTLEMASTERS MIX)"
+    },
+    {
+     "n": 389,
+     "t": "WINGED EAGLES 2"
+    },
+    {
+     "n": 390,
+     "t": "BEYOND THE DEATH UNDERSTANDING"
+    },
+    {
+     "n": 391,
+     "t": "The Blazing Glaciers"
+    },
+    {
+     "n": 392,
+     "t": "The Breaking Glaciers"
+    },
+    {
+     "n": 393,
+     "t": "The Burnout Inferno"
+    },
+    {
+     "n": 394,
+     "t": "The Burnout Inferno 2"
+    },
+    {
+     "n": 395,
+     "t": "The Burnout Inferno 3"
+    }
+   ]
+  },
+  {
+   "vol": 46,
+   "title": "Back From Blind",
+   "date": "August 4, 2010",
+   "chapters": [
+    {
+     "n": 396,
+     "t": "THE BITE"
+    },
+    {
+     "n": 397,
+     "t": "Edge of the Silence"
+    },
+    {
+     "n": 398,
+     "t": "BACK FROM BLIND"
+    },
+    {
+     "n": 399,
+     "t": "DEICIDE"
+    },
+    {
+     "n": 400,
+     "t": "DEICIDE 2"
+    },
+    {
+     "n": 401,
+     "t": "DEICIDE 3"
+    },
+    {
+     "n": 402,
+     "t": "DEICIDE 4"
+    },
+    {
+     "n": 403,
+     "t": "DEICIDE 5"
+    },
+    {
+     "n": 404,
+     "t": "DEICIDE 6"
+    }
+   ]
+  },
+  {
+   "vol": 47,
+   "title": "End of the Chrysalis Age",
+   "date": "October 4, 2010",
+   "chapters": [
+    {
+     "n": 405,
+     "t": "DEICIDE 7"
+    },
+    {
+     "n": 406,
+     "t": "DEICIDE 8 end of the Chrysalis Age"
+    },
+    {
+     "n": 407,
+     "t": "DEICIDE 9"
+    },
+    {
+     "n": 408,
+     "t": "DEICIDE 10"
+    },
+    {
+     "n": 409,
+     "t": "DEICIDE 11"
+    },
+    {
+     "n": 410,
+     "t": "DEICIDE 12"
+    },
+    {
+     "n": 411,
+     "t": "DEICIDE 13"
+    },
+    {
+     "n": 412,
+     "t": "DEICIDE 14"
+    },
+    {
+     "n": 413,
+     "t": "DEICIDE 15"
+    }
+   ]
+  },
+  {
+   "vol": 48,
+   "title": "God Is Dead",
+   "date": "December 3, 2010",
+   "chapters": [
+    {
+     "n": 414,
+     "t": "DEICIDE 16"
+    },
+    {
+     "n": 415,
+     "t": "DEICIDE 17"
+    },
+    {
+     "n": 416,
+     "t": "DEICIDE 18 (THE END)"
+    },
+    {
+     "n": 417,
+     "t": "DEICIDE 19"
+    },
+    {
+     "n": 418,
+     "t": "DEICIDE 20"
+    },
+    {
+     "n": 419,
+     "t": "DEICIDE 21 (Transcendent God Rock)"
+    },
+    {
+     "n": 420,
+     "t": "DEICIDE 22"
+    },
+    {
+     "n": 421,
+     "t": "DEICIDE 23"
+    },
+    {
+     "n": 422,
+     "t": "the silent victory"
+    },
+    {
+     "n": 423,
+     "t": "Bleach My Soul"
+    }
+   ]
+  },
+  {
+   "vol": 49,
+   "title": "The Lost Agent",
+   "date": "April 21, 2011",
+   "chapters": [
+    {
+     "n": 424,
+     "t": "The Lost Agent"
+    },
+    {
+     "n": 425,
+     "t": "A Day Without Melodies"
+    },
+    {
+     "n": 426,
+     "t": "The Starter 2"
+    },
+    {
+     "n": 427,
+     "t": "A Delicious Dissonance"
+    },
+    {
+     "n": 428,
+     "t": "The Known"
+    },
+    {
+     "n": 429,
+     "t": "Welcome to our Execution"
+    },
+    {
+     "n": 430,
+     "t": "Welcome to our Execution 2"
+    },
+    {
+     "n": 431,
+     "t": "Welcome to our Execution 3"
+    },
+    {
+     "n": 432,
+     "t": "The Soul Pantheism"
+    }
+   ]
+  },
+  {
+   "vol": 50,
+   "title": "The Six Fullbringers",
+   "date": "June 3, 2011",
+   "chapters": [
+    {
+     "n": 433,
+     "t": "The Six Fullbringers"
+    },
+    {
+     "n": 434,
+     "t": "Berry in the Box"
+    },
+    {
+     "n": 435,
+     "t": "Panic at the Dollhouse"
+    },
+    {
+     "n": 436,
+     "t": "The Time Discipline"
+    },
+    {
+     "n": 437,
+     "t": "Manji Break"
+    },
+    {
+     "n": 438,
+     "t": "Knuckle Down"
+    },
+    {
+     "n": 439,
+     "t": "Keen Marker"
+    },
+    {
+     "n": 440,
+     "t": "Mute Friendship"
+    },
+    {
+     "n": 441,
+     "t": "Spotlight Brocken"
+    }
+   ]
+  },
+  {
+   "vol": 51,
+   "title": "Love Me Bitterly Loth Me Sweetly",
+   "date": "August 4, 2011",
+   "chapters": [
+    {
+     "n": 442,
+     "t": "Battlefield Shallows, Otherfield Abyss"
+    },
+    {
+     "n": 443,
+     "t": "Dirty Boots Dangers"
+    },
+    {
+     "n": 444,
+     "t": "The Rising"
+    },
+    {
+     "n": 445,
+     "t": "The Dark Beat"
+    },
+    {
+     "n": 446,
+     "t": "The Dark Beat 2"
+    },
+    {
+     "n": 447,
+     "t": "Load"
+    },
+    {
+     "n": 448,
+     "t": "Loading To Lie"
+    },
+    {
+     "n": 449,
+     "t": "Not Be a Drug"
+    },
+    {
+     "n": 450,
+     "t": "Blind Solitude"
+    }
+   ]
+  },
+  {
+   "vol": 52,
+   "title": "End of Bond",
+   "date": "October 4, 2011",
+   "chapters": [
+    {
+     "n": 451,
+     "t": "Welcome to Our Execution 4"
+    },
+    {
+     "n": 452,
+     "t": "Erosion/Implosion"
+    },
+    {
+     "n": 453,
+     "t": "Mute Your Breathe Friendship"
+    },
+    {
+     "n": 454,
+     "t": "Sheathebreaker"
+    },
+    {
+     "n": 455,
+     "t": "End of the Bond 1"
+    },
+    {
+     "n": 456,
+     "t": "End of the Bond 2"
+    },
+    {
+     "n": 457,
+     "t": "End of the Bond 3"
+    },
+    {
+     "n": 458,
+     "t": "End of All Bonds"
+    },
+    {
+     "n": 459,
+     "t": "Death & Strawberry 2"
+    }
+   ]
+  },
+  {
+   "vol": 53,
+   "title": "The Deathberry Returns 2",
+   "date": "December 2, 2011",
+   "chapters": [
+    {
+     "n": 460,
+     "t": "Deathberry Returns 2"
+    },
+    {
+     "n": 461,
+     "t": "Come Around Our Turn"
+    },
+    {
+     "n": 462,
+     "t": "Why Me Sad"
+    },
+    {
+     "n": 463,
+     "t": "Extreme Divider"
+    },
+    {
+     "n": 464,
+     "t": "Quiet Chamber, Noisy Heart"
+    },
+    {
+     "n": 465,
+     "t": "Bad Blood Exhaust"
+    },
+    {
+     "n": 466,
+     "t": "Screaming Invader"
+    },
+    {
+     "n": 467,
+     "t": "Lucky Men"
+    },
+    {
+     "n": 468,
+     "t": "Raid as a Blade"
+    },
+    {
+     "n": 469,
+     "t": "Rag Lag Rumble"
+    }
+   ]
+  },
+  {
+   "vol": 54,
+   "title": "Goodbye to Our Xcution",
+   "date": "March 2, 2012",
+   "chapters": [
+    {
+     "n": 470,
+     "t": "Pray for Predators"
+    },
+    {
+     "n": 471,
+     "t": "Pray for Predators 2"
+    },
+    {
+     "n": 472,
+     "t": "Razoredge Requiem"
+    },
+    {
+     "n": 473,
+     "t": "Enemies in the Dark"
+    },
+    {
+     "n": 474,
+     "t": "BeLIEve"
+    },
+    {
+     "n": 475,
+     "t": "Shades of the Bond"
+    },
+    {
+     "n": 476,
+     "t": "The Lost"
+    },
+    {
+     "n": 477,
+     "t": "The Lost 2"
+    },
+    {
+     "n": 478,
+     "t": "The Lost 3"
+    },
+    {
+     "n": 479,
+     "t": "Goodbye to Our Xcution"
+    }
+   ]
+  },
+  {
+   "vol": 55,
+   "title": "The Blood Warfare",
+   "date": "June 4, 2012",
+   "chapters": [
+    {
+     "n": 480,
+     "t": "The Blood Warfare"
+    },
+    {
+     "n": 481,
+     "t": "The Tearing"
+    },
+    {
+     "n": 482,
+     "t": "Bad Recognition"
+    },
+    {
+     "n": 483,
+     "t": "KriegsErklärung"
+    },
+    {
+     "n": 484,
+     "t": "The Buckbeard"
+    },
+    {
+     "n": 485,
+     "t": "Foundation Stones"
+    },
+    {
+     "n": 486,
+     "t": "The Crimson Cremation"
+    },
+    {
+     "n": 487,
+     "t": "Breathe But Blind"
+    },
+    {
+     "n": 488,
+     "t": "Bond Behind Blast"
+    },
+    {
+     "n": 489,
+     "t": "March of the StarCross"
+    }
+   ]
+  },
+  {
+   "vol": 56,
+   "title": "March of the StarCross",
+   "date": "September 4, 2012",
+   "chapters": [
+    {
+     "n": 490,
+     "t": "March of the StarCross 2"
+    },
+    {
+     "n": 491,
+     "t": "Toden Engel"
+    },
+    {
+     "n": 492,
+     "t": "Balancer's Justice"
+    },
+    {
+     "n": 493,
+     "t": "Light of Happiness"
+    },
+    {
+     "n": 494,
+     "t": "The Closing Chapter Part One"
+    },
+    {
+     "n": 495,
+     "t": "Bleeding Guitar Blues"
+    },
+    {
+     "n": 496,
+     "t": "Kill The Shadow"
+    },
+    {
+     "n": 497,
+     "t": "Kill The Shadow 2"
+    },
+    {
+     "n": 498,
+     "t": "The Dark Rescuer"
+    },
+    {
+     "n": 499,
+     "t": "Rescuer in the Dark"
+    }
+   ]
+  },
+  {
+   "vol": 57,
+   "title": "Out of Bloom",
+   "date": "December 4, 2012",
+   "chapters": [
+    {
+     "n": 500,
+     "t": "Rescuer in the Deep Dark"
+    },
+    {
+     "n": 501,
+     "t": "Hear. Fear. Here"
+    },
+    {
+     "n": 502,
+     "t": "Falling Sakura"
+    },
+    {
+     "n": 503,
+     "t": "Wrath as a Lightning"
+    },
+    {
+     "n": 504,
+     "t": "Beyond the Thunder"
+    },
+    {
+     "n": 505,
+     "t": "The Fire"
+    },
+    {
+     "n": 506,
+     "t": "The Fire 2"
+    },
+    {
+     "n": 507,
+     "t": "The Fire 3"
+    },
+    {
+     "n": 508,
+     "t": "Like a Raging Fire"
+    },
+    {
+     "n": 509,
+     "t": "Tenchi Kaijin"
+    }
+   ]
+  },
+  {
+   "vol": 58,
+   "title": "The Fire",
+   "date": "March 4, 2013",
+   "chapters": [
+    {
+     "n": 510,
+     "t": "The Extinction"
+    },
+    {
+     "n": 511,
+     "t": "Die Standing"
+    },
+    {
+     "n": 512,
+     "t": "The Stand Ablaze"
+    },
+    {
+     "n": 513,
+     "t": "The Dark Moon Stroke"
+    },
+    {
+     "n": 514,
+     "t": "Born in the Dark"
+    },
+    {
+     "n": 515,
+     "t": "Relics"
+    },
+    {
+     "n": 516,
+     "t": "The Squad Zero"
+    },
+    {
+     "n": 517,
+     "t": "The Stairway to Heaven"
+    },
+    {
+     "n": 518,
+     "t": "The Shooting Star Project (Zero Mix)"
+    },
+    {
+     "n": 519,
+     "t": "Hot, Hot, Heat"
+    },
+    {
+     "n": 520,
+     "t": "Killers Not Dead"
+    }
+   ]
+  },
+  {
+   "vol": 59,
+   "title": "The Battle",
+   "date": "June 4, 2013",
+   "chapters": [
+    {
+     "n": 521,
+     "t": "A Piggy Party"
+    },
+    {
+     "n": 522,
+     "t": "Love It"
+    },
+    {
+     "n": 523,
+     "t": "Swords of Origin"
+    },
+    {
+     "n": 524,
+     "t": "The Drop"
+    },
+    {
+     "n": 525,
+     "t": "Edges"
+    },
+    {
+     "n": 526,
+     "t": "The Battle"
+    },
+    {
+     "n": 527,
+     "t": "Eliminate From Heaven"
+    },
+    {
+     "n": 528,
+     "t": "Everything But the Rain"
+    },
+    {
+     "n": 529,
+     "t": "Everything But the Rain Op.2. The Rudiments"
+    },
+    {
+     "n": 530,
+     "t": "Everything But the Rain Op.3. Dark of the Moon"
+    }
+   ]
+  },
+  {
+   "vol": 60,
+   "title": "Everything But The Rain",
+   "date": "August 2, 2013",
+   "chapters": [
+    {
+     "n": 531,
+     "t": "Everything But the Rain Op.4. Dark of the Bleeding Moon"
+    },
+    {
+     "n": 532,
+     "t": "Everything But the Rain Op.5. The White Noise"
+    },
+    {
+     "n": 533,
+     "t": "Everything But the Rain Op.6. The Gravitation"
+    },
+    {
+     "n": 534,
+     "t": "Everything But the Rain Op.7. Hole of Reproach"
+    },
+    {
+     "n": 535,
+     "t": "Everything But the Rain Op.8. Defenders"
+    },
+    {
+     "n": 536,
+     "t": "Everything But the Rain Op.9. June Truth"
+    },
+    {
+     "n": 537,
+     "t": "Everything But the Rain Op.10. Prinz von Licht"
+    },
+    {
+     "n": 538,
+     "t": "Standing On the Edge"
+    },
+    {
+     "n": 539,
+     "t": "Prob-less, Progress"
+    },
+    {
+     "n": 540,
+     "t": "The Sword Five"
+    }
+   ]
+  },
+  {
+   "vol": 61,
+   "title": "The Last 9 Days",
+   "date": "December 4, 2013",
+   "chapters": [
+    {
+     "n": 541,
+     "t": "The Blade and Me 2"
+    },
+    {
+     "n": 542,
+     "t": "The Blade is Me"
+    },
+    {
+     "n": 543,
+     "t": "Letters"
+    },
+    {
+     "n": 544,
+     "t": "Walking With Watchers"
+    },
+    {
+     "n": 545,
+     "t": "Blue Stripes"
+    },
+    {
+     "n": 546,
+     "t": "The Last 9 Days"
+    },
+    {
+     "n": 547,
+     "t": "Peace From Shadows"
+    },
+    {
+     "n": 548,
+     "t": "The Thin Ice"
+    },
+    {
+     "n": 549,
+     "t": "The StormBringer"
+    },
+    {
+     "n": 550,
+     "t": "Blazing Bullets"
+    }
+   ]
+  },
+  {
+   "vol": 62,
+   "title": "Heart Of Wolf",
+   "date": "March 4, 2014",
+   "chapters": [
+    {
+     "n": 551,
+     "t": "The Burnt Offerings"
+    },
+    {
+     "n": 552,
+     "t": "The Fundamental Virulence"
+    },
+    {
+     "n": 553,
+     "t": "Frozen Cross"
+    },
+    {
+     "n": 554,
+     "t": "Desperate Lights"
+    },
+    {
+     "n": 555,
+     "t": "The Hero"
+    },
+    {
+     "n": 556,
+     "t": "The Wolfsbane"
+    },
+    {
+     "n": 557,
+     "t": "I Already Threw Away My Life"
+    },
+    {
+     "n": 558,
+     "t": "The Heart of the Wolf"
+    },
+    {
+     "n": 559,
+     "t": "The Night Right"
+    },
+    {
+     "n": 560,
+     "t": "Rages at Ringside"
+    }
+   ]
+  },
+  {
+   "vol": 63,
+   "title": "Hear, Fear, Here",
+   "date": "May 2, 2014",
+   "chapters": [
+    {
+     "n": 561,
+     "t": "The Villain"
+    },
+    {
+     "n": 562,
+     "t": "The Villain 2"
+    },
+    {
+     "n": 563,
+     "t": "Superstar Never Die"
+    },
+    {
+     "n": 564,
+     "t": "Red Bristled Kings"
+    },
+    {
+     "n": 565,
+     "t": "God Like You"
+    },
+    {
+     "n": 566,
+     "t": "What is Your Fear?"
+    },
+    {
+     "n": 567,
+     "t": "Dance With Snowwhite"
+    },
+    {
+     "n": 568,
+     "t": "Hear. Fear. Here 2"
+    },
+    {
+     "n": 569,
+     "t": "The White Haze"
+    },
+    {
+     "n": 570,
+     "t": "Closer, Closer"
+    }
+   ]
+  },
+  {
+   "vol": 64,
+   "title": "Death in Vision",
+   "date": "September 4, 2014",
+   "chapters": [
+    {
+     "n": 571,
+     "t": "a Devilish Perspective"
+    },
+    {
+     "n": 572,
+     "t": "The Blaster"
+    },
+    {
+     "n": 573,
+     "t": "I Am The Edge"
+    },
+    {
+     "n": 574,
+     "t": "Death in Vision"
+    },
+    {
+     "n": 575,
+     "t": "The Killers High"
+    },
+    {
+     "n": 576,
+     "t": "The Killers High 2"
+    },
+    {
+     "n": 577,
+     "t": "Blade"
+    },
+    {
+     "n": 578,
+     "t": "The Undead 5"
+    },
+    {
+     "n": 579,
+     "t": "The Undead 6"
+    },
+    {
+     "n": 580,
+     "t": "The Light"
+    }
+   ]
+  },
+  {
+   "vol": 65,
+   "title": "Marching Out the Zombies",
+   "date": "October 3, 2014",
+   "chapters": [
+    {
+     "n": 581,
+     "t": "The Hero 2"
+    },
+    {
+     "n": 582,
+     "t": "The Headless Star"
+    },
+    {
+     "n": 583,
+     "t": "The Headless Star 2"
+    },
+    {
+     "n": 584,
+     "t": "The Headless Star 3"
+    },
+    {
+     "n": 585,
+     "t": "The Headless Star 4"
+    },
+    {
+     "n": 586,
+     "t": "The Headless Star 5"
+    },
+    {
+     "n": 587,
+     "t": "The Headless Star 6"
+    },
+    {
+     "n": 588,
+     "t": "The Headless Star 7"
+    },
+    {
+     "n": 589,
+     "t": "The Shooting Star Project (The Old and New Trust)"
+    },
+    {
+     "n": 590,
+     "t": "Marching Out the ZOMBIES"
+    },
+    {
+     "n": 591,
+     "t": "Marching Out the ZOMBIES 2"
+    }
+   ]
+  },
+  {
+   "vol": 66,
+   "title": "Sorry I Am Strong",
+   "date": "January 5, 2015",
+   "chapters": [
+    {
+     "n": 592,
+     "t": "Marching Out the ZOMBIES 3"
+    },
+    {
+     "n": 593,
+     "t": "Marching Out the ZOMBIES 4"
+    },
+    {
+     "n": 594,
+     "t": "Rubb-Dolls"
+    },
+    {
+     "n": 595,
+     "t": "Rubb-Dolls 2"
+    },
+    {
+     "n": 596,
+     "t": "Rubb-Dolls 3"
+    },
+    {
+     "n": 597,
+     "t": "Winded By The Shadow"
+    },
+    {
+     "n": 598,
+     "t": "The Shooting Star Project (We Only have to Beat You Mix)"
+    },
+    {
+     "n": 599,
+     "t": "Too Early To Win, Too Late To Know"
+    },
+    {
+     "n": 600,
+     "t": "Snipe"
+    },
+    {
+     "n": 601,
+     "t": "Verge On Vermillion"
+    }
+   ]
+  },
+  {
+   "vol": 67,
+   "title": "Black",
+   "date": "April 3, 2015",
+   "chapters": [
+    {
+     "n": 602,
+     "t": "Bane Licking Good"
+    },
+    {
+     "n": 603,
+     "t": "What The Hell"
+    },
+    {
+     "n": 604,
+     "t": "Revitalize"
+    },
+    {
+     "n": 605,
+     "t": "Don't Call My Name"
+    },
+    {
+     "n": 606,
+     "t": "Divine Division"
+    },
+    {
+     "n": 607,
+     "t": "The Master"
+    },
+    {
+     "n": 608,
+     "t": "Blacker than Black"
+    },
+    {
+     "n": 609,
+     "t": "A"
+    },
+    {
+     "n": 610,
+     "t": "Mausoleum of Skulls"
+    },
+    {
+     "n": 611,
+     "t": "Reio's Death"
+    }
+   ]
+  },
+  {
+   "vol": 68,
+   "title": "The Ordinary Peace",
+   "date": "July 3, 2015",
+   "chapters": [
+    {
+     "n": 612,
+     "t": "Dirty"
+    },
+    {
+     "n": 613,
+     "t": "The Ordinary Peace"
+    },
+    {
+     "n": 614,
+     "t": "Kill The King"
+    },
+    {
+     "n": 615,
+     "t": "All is Lost"
+    },
+    {
+     "n": 616,
+     "t": "Mimihagi-sama"
+    },
+    {
+     "n": 617,
+     "t": "Return of the God"
+    },
+    {
+     "n": 618,
+     "t": "The Dark Arm"
+    },
+    {
+     "n": 619,
+     "t": "The Betrayer"
+    },
+    {
+     "n": 620,
+     "t": "Where Do You Stand"
+    },
+    {
+     "n": 621,
+     "t": "The Dark Curtain"
+    },
+    {
+     "n": 622,
+     "t": "The Agony"
+    }
+   ]
+  },
+  {
+   "vol": 69,
+   "title": "Against the Judgement",
+   "date": "August 4, 2015",
+   "chapters": [
+    {
+     "n": 623,
+     "t": "Against the Judgement"
+    },
+    {
+     "n": 624,
+     "t": "The Fang"
+    },
+    {
+     "n": 625,
+     "t": "Living Jaguar"
+    },
+    {
+     "n": 626,
+     "t": "The Holy Newborn"
+    },
+    {
+     "n": 627,
+     "t": "The Creation"
+    },
+    {
+     "n": 628,
+     "t": "New World Orders"
+    },
+    {
+     "n": 629,
+     "t": "Gate of the Sun"
+    },
+    {
+     "n": 630,
+     "t": "The Twinned Twilight"
+    },
+    {
+     "n": 631,
+     "t": "Friend"
+    },
+    {
+     "n": 632,
+     "t": "Friend 2"
+    }
+   ]
+  },
+  {
+   "vol": 70,
+   "title": "Friend",
+   "date": "November 4, 2015",
+   "chapters": [
+    {
+     "n": 633,
+     "t": "Friend 3"
+    },
+    {
+     "n": 634,
+     "t": "Friend 4"
+    },
+    {
+     "n": 635,
+     "t": "Hooded Enigma"
+    },
+    {
+     "n": 636,
+     "t": "Sensitive Monster"
+    },
+    {
+     "n": 637,
+     "t": "Baby, Hold Your Hand"
+    },
+    {
+     "n": 638,
+     "t": "Seething Malice Is The Height of Comedy"
+    },
+    {
+     "n": 639,
+     "t": "Baby, Hold Your Hand 2"
+    },
+    {
+     "n": 640,
+     "t": "Baby, Hold Your Hand 3 (Mad Lullaby no.7)"
+    },
+    {
+     "n": 641,
+     "t": "Baby, Hold Your Hand 4 (When I Am Sleeping)"
+    },
+    {
+     "n": 642,
+     "t": "Baby, Hold Your Hand 5 (Eyes Are Open)"
+    },
+    {
+     "n": 520.5,
+     "t": "walk under two letters"
+    }
+   ]
+  },
+  {
+   "vol": 71,
+   "title": "Baby, Hold Your Hand",
+   "date": "March 4, 2016",
+   "chapters": [
+    {
+     "n": 643,
+     "t": "Baby, Hold Your Hand 6 (Waiting For Love)"
+    },
+    {
+     "n": 644,
+     "t": "Baby, Hold Your Hand 7 (Never Ending My Dream)"
+    },
+    {
+     "n": 645,
+     "t": "Don't Chase a Shadow"
+    },
+    {
+     "n": 646,
+     "t": "The Second Eye"
+    },
+    {
+     "n": 647,
+     "t": "The Theatre Suicide"
+    },
+    {
+     "n": 648,
+     "t": "The Theatre Suicide Scene 2"
+    },
+    {
+     "n": 649,
+     "t": "The Theatre Suicide Scene 3"
+    },
+    {
+     "n": 650,
+     "t": "The Theatre Suicide Scene 4"
+    },
+    {
+     "n": 651,
+     "t": "The Theatre Suicide Scene 5"
+    },
+    {
+     "n": 652,
+     "t": "The Theatre Suicide Scene 6"
+    }
+   ]
+  },
+  {
+   "vol": 72,
+   "title": "My Last Words",
+   "date": "May 2, 2016",
+   "chapters": [
+    {
+     "n": 653,
+     "t": "The Theatre Suicide Scene 7"
+    },
+    {
+     "n": 654,
+     "t": "Deadman Standing"
+    },
+    {
+     "n": 655,
+     "t": "The Miracle"
+    },
+    {
+     "n": 656,
+     "t": "God of Thunder"
+    },
+    {
+     "n": 657,
+     "t": "God of Thunder 2"
+    },
+    {
+     "n": 658,
+     "t": "Fatal Matters Are Cold"
+    },
+    {
+     "n": 659,
+     "t": "There Will Be Frost"
+    },
+    {
+     "n": 660,
+     "t": "The Visible Answer"
+    },
+    {
+     "n": 661,
+     "t": "My Last Words"
+    },
+    {
+     "n": 662,
+     "t": "God of Thunder 3"
+    },
+    {
+     "n": 663,
+     "t": "God of Thunder 4"
+    }
+   ]
+  },
+  {
+   "vol": 73,
+   "title": "Battle Field Burning",
+   "date": "July 4, 2016",
+   "chapters": [
+    {
+     "n": 664,
+     "t": "The Gift"
+    },
+    {
+     "n": 665,
+     "t": "The Princess Dissection"
+    },
+    {
+     "n": 666,
+     "t": "Empty, Puppet, Hollow"
+    },
+    {
+     "n": 667,
+     "t": "Bigger, Louder, Stronger"
+    },
+    {
+     "n": 668,
+     "t": "Bigger, Faster, Stronger"
+    },
+    {
+     "n": 669,
+     "t": "Blade II"
+    },
+    {
+     "n": 670,
+     "t": "The Perfect Crimson"
+    },
+    {
+     "n": 671,
+     "t": "The Perfect Crimson 2"
+    },
+    {
+     "n": 672,
+     "t": "Son of Darkness"
+    },
+    {
+     "n": 673,
+     "t": "Father"
+    },
+    {
+     "n": 674,
+     "t": "Father 2"
+    }
+   ]
+  },
+  {
+   "vol": 74,
+   "title": "The Death and the Strawberry",
+   "date": "November 4, 2016",
+   "chapters": [
+    {
+     "n": 675,
+     "t": "Blood for My Bone"
+    },
+    {
+     "n": 676,
+     "t": "Horn of Salvation"
+    },
+    {
+     "n": 677,
+     "t": "Horn of Salvation 2"
+    },
+    {
+     "n": 678,
+     "t": "The Future Black"
+    },
+    {
+     "n": 679,
+     "t": "The End"
+    },
+    {
+     "n": 680,
+     "t": "The End 2"
+    },
+    {
+     "n": 681,
+     "t": "The End Two World"
+    },
+    {
+     "n": 682,
+     "t": "The Two Sided World End"
+    },
+    {
+     "n": 683,
+     "t": "The Dark Side of Two World Ends"
+    },
+    {
+     "n": 684,
+     "t": "The Blade"
+    },
+    {
+     "n": 685,
+     "t": "A Perfect End"
+    },
+    {
+     "n": 686,
+     "t": "Death & Strawberry"
+    }
+   ]
+  }
+ ]
+}

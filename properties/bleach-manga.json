@@ -1,0 +1,4885 @@
+{
+  "slug": "bleach-manga",
+  "title": "Bleach (manga)",
+  "subtitle": "Tite Kubo",
+  "kind": "manga",
+  "popularity": 74,
+  "year": "2001–2016",
+  "blurb": "All 698 chapters across 74 volumes, in publication order, plus 10 optional extras — finished.",
+  "unit": {
+    "one": "chapter",
+    "many": "chapters"
+  },
+  "verb": {
+    "base": "read",
+    "past": "read",
+    "ing": "reading"
+  },
+  "accent": "#1F3557",
+  "accentDark": "#89B9F0",
+  "tiers": false,
+  "notes": [
+    [
+      "Volumes, and the arcs on them.",
+      "Sections are the 74 collected tankōbon; each one names its own title and the arc it belongs to. Unusually, the arcs come from the source: each of Wikipedia's three Bleach chapter lists opens by naming the arcs it covers and the volumes each runs through, and the generator checks those sentences are still there before it builds."
+    ],
+    [
+      "Chapters that count backwards.",
+      "Twelve chapters are numbered −108 to −97 — a side story set before the main plot, collected in volumes 36 and 37 between chapters 315 and 316. The source counts them among the 698, so they are rows like any other."
+    ],
+    [
+      "Nine extras, marked optional.",
+      "Nine more entries sit in the volume tables and outside that count: two chapters numbered 0, one each numbered 0.8, 88.5, 520.5, −12.5, −16 and −17, and one with no number at all. Each sits in the volume that collected it, marked optional and carrying its title — which is the only way to tell two chapter 0s apart."
+    ],
+    [
+      "Numbers, not titles.",
+      "Every other row is a chapter number and nothing else, the same choice the Bleach episode list here makes. Only the optional rows carry a title, because a number alone cannot tell two chapter 0s apart."
+    ],
+    [
+      "Finished.",
+      "August 2001 to August 2016. One chapter came after — the 20th-anniversary one-shot in the last section — and it is in none of the volumes."
+    ],
+    "Volumes, chapter numbers and arc boundaries machine-read from Wikipedia's List of Bleach volumes and its three chapter lists; the one-shot from the Bleach (manga) article. Every count here is asserted against the totals those articles state for themselves."
+  ],
+  "sections": [
+    {
+      "id": "v-1",
+      "title": "Volume 1",
+      "sub": "chapters 1–7 · The Death and the Strawberry · Agent of the Shinigami",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-1",
+          "t": "Chapter",
+          "n": "1"
+        },
+        {
+          "id": "blm-2",
+          "t": "Chapter",
+          "n": "2"
+        },
+        {
+          "id": "blm-3",
+          "t": "Chapter",
+          "n": "3"
+        },
+        {
+          "id": "blm-4",
+          "t": "Chapter",
+          "n": "4"
+        },
+        {
+          "id": "blm-5",
+          "t": "Chapter",
+          "n": "5"
+        },
+        {
+          "id": "blm-6",
+          "t": "Chapter",
+          "n": "6"
+        },
+        {
+          "id": "blm-7",
+          "t": "Chapter",
+          "n": "7"
+        }
+      ],
+      "intro": "Agent of the Shinigami arc — volumes 1–8, chapters 1–70.",
+      "open": true
+    },
+    {
+      "id": "v-2",
+      "title": "Volume 2",
+      "sub": "chapters 8–16 · Goodbye Parakeet, Good Night My Sister · Agent of the Shinigami",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-8",
+          "t": "Chapter",
+          "n": "8"
+        },
+        {
+          "id": "blm-9",
+          "t": "Chapter",
+          "n": "9"
+        },
+        {
+          "id": "blm-10",
+          "t": "Chapter",
+          "n": "10"
+        },
+        {
+          "id": "blm-11",
+          "t": "Chapter",
+          "n": "11"
+        },
+        {
+          "id": "blm-12",
+          "t": "Chapter",
+          "n": "12"
+        },
+        {
+          "id": "blm-13",
+          "t": "Chapter",
+          "n": "13"
+        },
+        {
+          "id": "blm-14",
+          "t": "Chapter",
+          "n": "14"
+        },
+        {
+          "id": "blm-15",
+          "t": "Chapter",
+          "n": "15"
+        },
+        {
+          "id": "blm-16",
+          "t": "Chapter",
+          "n": "16"
+        }
+      ]
+    },
+    {
+      "id": "v-3",
+      "title": "Volume 3",
+      "sub": "chapters 17–25 · memories in the rain · Agent of the Shinigami",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-17",
+          "t": "Chapter",
+          "n": "17"
+        },
+        {
+          "id": "blm-18",
+          "t": "Chapter",
+          "n": "18"
+        },
+        {
+          "id": "blm-19",
+          "t": "Chapter",
+          "n": "19"
+        },
+        {
+          "id": "blm-20",
+          "t": "Chapter",
+          "n": "20"
+        },
+        {
+          "id": "blm-21",
+          "t": "Chapter",
+          "n": "21"
+        },
+        {
+          "id": "blm-22",
+          "t": "Chapter",
+          "n": "22"
+        },
+        {
+          "id": "blm-23",
+          "t": "Chapter",
+          "n": "23"
+        },
+        {
+          "id": "blm-24",
+          "t": "Chapter",
+          "n": "24"
+        },
+        {
+          "id": "blm-25",
+          "t": "Chapter",
+          "n": "25"
+        }
+      ]
+    },
+    {
+      "id": "v-4",
+      "title": "Volume 4",
+      "sub": "chapters 26–34 · Quincy Archer Hates You · Agent of the Shinigami",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-26",
+          "t": "Chapter",
+          "n": "26"
+        },
+        {
+          "id": "blm-27",
+          "t": "Chapter",
+          "n": "27"
+        },
+        {
+          "id": "blm-28",
+          "t": "Chapter",
+          "n": "28"
+        },
+        {
+          "id": "blm-29",
+          "t": "Chapter",
+          "n": "29"
+        },
+        {
+          "id": "blm-30",
+          "t": "Chapter",
+          "n": "30"
+        },
+        {
+          "id": "blm-31",
+          "t": "Chapter",
+          "n": "31"
+        },
+        {
+          "id": "blm-32",
+          "t": "Chapter",
+          "n": "32"
+        },
+        {
+          "id": "blm-33",
+          "t": "Chapter",
+          "n": "33"
+        },
+        {
+          "id": "blm-34",
+          "t": "Chapter",
+          "n": "34"
+        }
+      ]
+    },
+    {
+      "id": "v-5",
+      "title": "Volume 5",
+      "sub": "chapters 35–43 · Right Arm of the Giant · Agent of the Shinigami",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-35",
+          "t": "Chapter",
+          "n": "35"
+        },
+        {
+          "id": "blm-36",
+          "t": "Chapter",
+          "n": "36"
+        },
+        {
+          "id": "blm-37",
+          "t": "Chapter",
+          "n": "37"
+        },
+        {
+          "id": "blm-38",
+          "t": "Chapter",
+          "n": "38"
+        },
+        {
+          "id": "blm-39",
+          "t": "Chapter",
+          "n": "39"
+        },
+        {
+          "id": "blm-40",
+          "t": "Chapter",
+          "n": "40"
+        },
+        {
+          "id": "blm-41",
+          "t": "Chapter",
+          "n": "41"
+        },
+        {
+          "id": "blm-42",
+          "t": "Chapter",
+          "n": "42"
+        },
+        {
+          "id": "blm-43",
+          "t": "Chapter",
+          "n": "43"
+        }
+      ]
+    },
+    {
+      "id": "v-6",
+      "title": "Volume 6",
+      "sub": "chapters 44–52 · The Death Trilogy Overture · Agent of the Shinigami",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-44",
+          "t": "Chapter",
+          "n": "44"
+        },
+        {
+          "id": "blm-45",
+          "t": "Chapter",
+          "n": "45"
+        },
+        {
+          "id": "blm-46",
+          "t": "Chapter",
+          "n": "46"
+        },
+        {
+          "id": "blm-47",
+          "t": "Chapter",
+          "n": "47"
+        },
+        {
+          "id": "blm-48",
+          "t": "Chapter",
+          "n": "48"
+        },
+        {
+          "id": "blm-49",
+          "t": "Chapter",
+          "n": "49"
+        },
+        {
+          "id": "blm-50",
+          "t": "Chapter",
+          "n": "50"
+        },
+        {
+          "id": "blm-51",
+          "t": "Chapter",
+          "n": "51"
+        },
+        {
+          "id": "blm-52",
+          "t": "Chapter",
+          "n": "52"
+        }
+      ]
+    },
+    {
+      "id": "v-7",
+      "title": "Volume 7",
+      "sub": "chapters 53–61 · The Broken Coda · Agent of the Shinigami",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-53",
+          "t": "Chapter",
+          "n": "53"
+        },
+        {
+          "id": "blm-54",
+          "t": "Chapter",
+          "n": "54"
+        },
+        {
+          "id": "blm-55",
+          "t": "Chapter",
+          "n": "55"
+        },
+        {
+          "id": "blm-56",
+          "t": "Chapter",
+          "n": "56"
+        },
+        {
+          "id": "blm-57",
+          "t": "Chapter",
+          "n": "57"
+        },
+        {
+          "id": "blm-58",
+          "t": "Chapter",
+          "n": "58"
+        },
+        {
+          "id": "blm-59",
+          "t": "Chapter",
+          "n": "59"
+        },
+        {
+          "id": "blm-60",
+          "t": "Chapter",
+          "n": "60"
+        },
+        {
+          "id": "blm-61",
+          "t": "Chapter",
+          "n": "61"
+        }
+      ]
+    },
+    {
+      "id": "v-8",
+      "title": "Volume 8",
+      "sub": "chapters 62–70 · The Blade and Me · Agent of the Shinigami",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-62",
+          "t": "Chapter",
+          "n": "62"
+        },
+        {
+          "id": "blm-63",
+          "t": "Chapter",
+          "n": "63"
+        },
+        {
+          "id": "blm-64",
+          "t": "Chapter",
+          "n": "64"
+        },
+        {
+          "id": "blm-65",
+          "t": "Chapter",
+          "n": "65"
+        },
+        {
+          "id": "blm-66",
+          "t": "Chapter",
+          "n": "66"
+        },
+        {
+          "id": "blm-67",
+          "t": "Chapter",
+          "n": "67"
+        },
+        {
+          "id": "blm-68",
+          "t": "Chapter",
+          "n": "68"
+        },
+        {
+          "id": "blm-69",
+          "t": "Chapter",
+          "n": "69"
+        },
+        {
+          "id": "blm-70",
+          "t": "Chapter",
+          "n": "70"
+        }
+      ]
+    },
+    {
+      "id": "v-9",
+      "title": "Volume 9",
+      "sub": "chapters 71–79 · Fourteen Days for Conspiracy · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-71",
+          "t": "Chapter",
+          "n": "71"
+        },
+        {
+          "id": "blm-72",
+          "t": "Chapter",
+          "n": "72"
+        },
+        {
+          "id": "blm-73",
+          "t": "Chapter",
+          "n": "73"
+        },
+        {
+          "id": "blm-74",
+          "t": "Chapter",
+          "n": "74"
+        },
+        {
+          "id": "blm-75",
+          "t": "Chapter",
+          "n": "75"
+        },
+        {
+          "id": "blm-76",
+          "t": "Chapter",
+          "n": "76"
+        },
+        {
+          "id": "blm-77",
+          "t": "Chapter",
+          "n": "77"
+        },
+        {
+          "id": "blm-78",
+          "t": "Chapter",
+          "n": "78"
+        },
+        {
+          "id": "blm-79",
+          "t": "Chapter",
+          "n": "79"
+        }
+      ],
+      "intro": "Soul Society arc — volumes 9–21, chapters 71–187."
+    },
+    {
+      "id": "v-10",
+      "title": "Volume 10",
+      "sub": "chapters 80–88 · Tattoo on the Sky · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-80",
+          "t": "Chapter",
+          "n": "80"
+        },
+        {
+          "id": "blm-81",
+          "t": "Chapter",
+          "n": "81"
+        },
+        {
+          "id": "blm-82",
+          "t": "Chapter",
+          "n": "82"
+        },
+        {
+          "id": "blm-83",
+          "t": "Chapter",
+          "n": "83"
+        },
+        {
+          "id": "blm-84",
+          "t": "Chapter",
+          "n": "84"
+        },
+        {
+          "id": "blm-85",
+          "t": "Chapter",
+          "n": "85"
+        },
+        {
+          "id": "blm-86",
+          "t": "Chapter",
+          "n": "86"
+        },
+        {
+          "id": "blm-87",
+          "t": "Chapter",
+          "n": "87"
+        },
+        {
+          "id": "blm-88",
+          "t": "Chapter",
+          "n": "88"
+        },
+        {
+          "id": "blm-x88-5-karakura-superheroes",
+          "t": "Chapter",
+          "n": "88.5",
+          "note": "KARAKURA SUPERHEROES",
+          "opt": true
+        }
+      ]
+    },
+    {
+      "id": "v-11",
+      "title": "Volume 11",
+      "sub": "chapters 89–98 · A Star and a Stray Dog · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-89",
+          "t": "Chapter",
+          "n": "89"
+        },
+        {
+          "id": "blm-90",
+          "t": "Chapter",
+          "n": "90"
+        },
+        {
+          "id": "blm-91",
+          "t": "Chapter",
+          "n": "91"
+        },
+        {
+          "id": "blm-92",
+          "t": "Chapter",
+          "n": "92"
+        },
+        {
+          "id": "blm-93",
+          "t": "Chapter",
+          "n": "93"
+        },
+        {
+          "id": "blm-94",
+          "t": "Chapter",
+          "n": "94"
+        },
+        {
+          "id": "blm-95",
+          "t": "Chapter",
+          "n": "95"
+        },
+        {
+          "id": "blm-96",
+          "t": "Chapter",
+          "n": "96"
+        },
+        {
+          "id": "blm-97",
+          "t": "Chapter",
+          "n": "97"
+        },
+        {
+          "id": "blm-98",
+          "t": "Chapter",
+          "n": "98"
+        }
+      ]
+    },
+    {
+      "id": "v-12",
+      "title": "Volume 12",
+      "sub": "chapters 99–107 · Flower on the Precipice · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-99",
+          "t": "Chapter",
+          "n": "99"
+        },
+        {
+          "id": "blm-100",
+          "t": "Chapter",
+          "n": "100"
+        },
+        {
+          "id": "blm-101",
+          "t": "Chapter",
+          "n": "101"
+        },
+        {
+          "id": "blm-102",
+          "t": "Chapter",
+          "n": "102"
+        },
+        {
+          "id": "blm-103",
+          "t": "Chapter",
+          "n": "103"
+        },
+        {
+          "id": "blm-104",
+          "t": "Chapter",
+          "n": "104"
+        },
+        {
+          "id": "blm-105",
+          "t": "Chapter",
+          "n": "105"
+        },
+        {
+          "id": "blm-106",
+          "t": "Chapter",
+          "n": "106"
+        },
+        {
+          "id": "blm-107",
+          "t": "Chapter",
+          "n": "107"
+        },
+        {
+          "id": "blm-x0-8-a-wonderful-error",
+          "t": "Chapter",
+          "n": "0.8",
+          "note": "a wonderful error",
+          "opt": true
+        }
+      ]
+    },
+    {
+      "id": "v-13",
+      "title": "Volume 13",
+      "sub": "chapters 108–115 · The Undead · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-108",
+          "t": "Chapter",
+          "n": "108"
+        },
+        {
+          "id": "blm-109",
+          "t": "Chapter",
+          "n": "109"
+        },
+        {
+          "id": "blm-110",
+          "t": "Chapter",
+          "n": "110"
+        },
+        {
+          "id": "blm-111",
+          "t": "Chapter",
+          "n": "111"
+        },
+        {
+          "id": "blm-112",
+          "t": "Chapter",
+          "n": "112"
+        },
+        {
+          "id": "blm-113",
+          "t": "Chapter",
+          "n": "113"
+        },
+        {
+          "id": "blm-114",
+          "t": "Chapter",
+          "n": "114"
+        },
+        {
+          "id": "blm-115",
+          "t": "Chapter",
+          "n": "115"
+        }
+      ]
+    },
+    {
+      "id": "v-14",
+      "title": "Volume 14",
+      "sub": "chapters 116–123 · White Tower Rocks · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-116",
+          "t": "Chapter",
+          "n": "116"
+        },
+        {
+          "id": "blm-117",
+          "t": "Chapter",
+          "n": "117"
+        },
+        {
+          "id": "blm-118",
+          "t": "Chapter",
+          "n": "118"
+        },
+        {
+          "id": "blm-119",
+          "t": "Chapter",
+          "n": "119"
+        },
+        {
+          "id": "blm-120",
+          "t": "Chapter",
+          "n": "120"
+        },
+        {
+          "id": "blm-121",
+          "t": "Chapter",
+          "n": "121"
+        },
+        {
+          "id": "blm-122",
+          "t": "Chapter",
+          "n": "122"
+        },
+        {
+          "id": "blm-123",
+          "t": "Chapter",
+          "n": "123"
+        }
+      ]
+    },
+    {
+      "id": "v-15",
+      "title": "Volume 15",
+      "sub": "chapters 124–130 · Beginning of the Death of Tomorrow · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-124",
+          "t": "Chapter",
+          "n": "124"
+        },
+        {
+          "id": "blm-125",
+          "t": "Chapter",
+          "n": "125"
+        },
+        {
+          "id": "blm-126",
+          "t": "Chapter",
+          "n": "126"
+        },
+        {
+          "id": "blm-127",
+          "t": "Chapter",
+          "n": "127"
+        },
+        {
+          "id": "blm-128",
+          "t": "Chapter",
+          "n": "128"
+        },
+        {
+          "id": "blm-129",
+          "t": "Chapter",
+          "n": "129"
+        },
+        {
+          "id": "blm-130",
+          "t": "Chapter",
+          "n": "130"
+        },
+        {
+          "id": "blm-xm17-prelude-for-the-straying-stars",
+          "t": "Chapter",
+          "n": "−17",
+          "note": "Prelude for the Straying Stars",
+          "opt": true
+        }
+      ]
+    },
+    {
+      "id": "v-16",
+      "title": "Volume 16",
+      "sub": "chapters 131–139 · Night of Wijnruit · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-131",
+          "t": "Chapter",
+          "n": "131"
+        },
+        {
+          "id": "blm-132",
+          "t": "Chapter",
+          "n": "132"
+        },
+        {
+          "id": "blm-133",
+          "t": "Chapter",
+          "n": "133"
+        },
+        {
+          "id": "blm-134",
+          "t": "Chapter",
+          "n": "134"
+        },
+        {
+          "id": "blm-135",
+          "t": "Chapter",
+          "n": "135"
+        },
+        {
+          "id": "blm-136",
+          "t": "Chapter",
+          "n": "136"
+        },
+        {
+          "id": "blm-137",
+          "t": "Chapter",
+          "n": "137"
+        },
+        {
+          "id": "blm-138",
+          "t": "Chapter",
+          "n": "138"
+        },
+        {
+          "id": "blm-139",
+          "t": "Chapter",
+          "n": "139"
+        }
+      ]
+    },
+    {
+      "id": "v-17",
+      "title": "Volume 17",
+      "sub": "chapters 140–149 · Rosa Rubicundior, Lilio Candidior · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-140",
+          "t": "Chapter",
+          "n": "140"
+        },
+        {
+          "id": "blm-141",
+          "t": "Chapter",
+          "n": "141"
+        },
+        {
+          "id": "blm-142",
+          "t": "Chapter",
+          "n": "142"
+        },
+        {
+          "id": "blm-143",
+          "t": "Chapter",
+          "n": "143"
+        },
+        {
+          "id": "blm-144",
+          "t": "Chapter",
+          "n": "144"
+        },
+        {
+          "id": "blm-145",
+          "t": "Chapter",
+          "n": "145"
+        },
+        {
+          "id": "blm-146",
+          "t": "Chapter",
+          "n": "146"
+        },
+        {
+          "id": "blm-147",
+          "t": "Chapter",
+          "n": "147"
+        },
+        {
+          "id": "blm-148",
+          "t": "Chapter",
+          "n": "148"
+        },
+        {
+          "id": "blm-149",
+          "t": "Chapter",
+          "n": "149"
+        }
+      ]
+    },
+    {
+      "id": "v-18",
+      "title": "Volume 18",
+      "sub": "chapters 150–158 · The Deathberry Returns · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-150",
+          "t": "Chapter",
+          "n": "150"
+        },
+        {
+          "id": "blm-151",
+          "t": "Chapter",
+          "n": "151"
+        },
+        {
+          "id": "blm-152",
+          "t": "Chapter",
+          "n": "152"
+        },
+        {
+          "id": "blm-153",
+          "t": "Chapter",
+          "n": "153"
+        },
+        {
+          "id": "blm-154",
+          "t": "Chapter",
+          "n": "154"
+        },
+        {
+          "id": "blm-155",
+          "t": "Chapter",
+          "n": "155"
+        },
+        {
+          "id": "blm-156",
+          "t": "Chapter",
+          "n": "156"
+        },
+        {
+          "id": "blm-157",
+          "t": "Chapter",
+          "n": "157"
+        },
+        {
+          "id": "blm-158",
+          "t": "Chapter",
+          "n": "158"
+        }
+      ]
+    },
+    {
+      "id": "v-19",
+      "title": "Volume 19",
+      "sub": "chapters 159–168 · The Black Moon Rising · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-159",
+          "t": "Chapter",
+          "n": "159"
+        },
+        {
+          "id": "blm-160",
+          "t": "Chapter",
+          "n": "160"
+        },
+        {
+          "id": "blm-161",
+          "t": "Chapter",
+          "n": "161"
+        },
+        {
+          "id": "blm-162",
+          "t": "Chapter",
+          "n": "162"
+        },
+        {
+          "id": "blm-163",
+          "t": "Chapter",
+          "n": "163"
+        },
+        {
+          "id": "blm-164",
+          "t": "Chapter",
+          "n": "164"
+        },
+        {
+          "id": "blm-165",
+          "t": "Chapter",
+          "n": "165"
+        },
+        {
+          "id": "blm-166",
+          "t": "Chapter",
+          "n": "166"
+        },
+        {
+          "id": "blm-167",
+          "t": "Chapter",
+          "n": "167"
+        },
+        {
+          "id": "blm-168",
+          "t": "Chapter",
+          "n": "168"
+        }
+      ]
+    },
+    {
+      "id": "v-20",
+      "title": "Volume 20",
+      "sub": "chapters 169–178 · End of Hypnosis · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-xm12-5-blooming-under-a-cold-moon",
+          "t": "Chapter",
+          "n": "−12.5",
+          "note": "Blooming Under a Cold Moon",
+          "opt": true
+        },
+        {
+          "id": "blm-169",
+          "t": "Chapter",
+          "n": "169"
+        },
+        {
+          "id": "blm-170",
+          "t": "Chapter",
+          "n": "170"
+        },
+        {
+          "id": "blm-171",
+          "t": "Chapter",
+          "n": "171"
+        },
+        {
+          "id": "blm-172",
+          "t": "Chapter",
+          "n": "172"
+        },
+        {
+          "id": "blm-173",
+          "t": "Chapter",
+          "n": "173"
+        },
+        {
+          "id": "blm-174",
+          "t": "Chapter",
+          "n": "174"
+        },
+        {
+          "id": "blm-175",
+          "t": "Chapter",
+          "n": "175"
+        },
+        {
+          "id": "blm-176",
+          "t": "Chapter",
+          "n": "176"
+        },
+        {
+          "id": "blm-177",
+          "t": "Chapter",
+          "n": "177"
+        },
+        {
+          "id": "blm-178",
+          "t": "Chapter",
+          "n": "178"
+        }
+      ]
+    },
+    {
+      "id": "v-21",
+      "title": "Volume 21",
+      "sub": "chapters 179–187 · Be My Family or Not · Soul Society",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(1%E2%80%93187)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-179",
+          "t": "Chapter",
+          "n": "179"
+        },
+        {
+          "id": "blm-180",
+          "t": "Chapter",
+          "n": "180"
+        },
+        {
+          "id": "blm-181",
+          "t": "Chapter",
+          "n": "181"
+        },
+        {
+          "id": "blm-182",
+          "t": "Chapter",
+          "n": "182"
+        },
+        {
+          "id": "blm-183",
+          "t": "Chapter",
+          "n": "183"
+        },
+        {
+          "id": "blm-184",
+          "t": "Chapter",
+          "n": "184"
+        },
+        {
+          "id": "blm-185",
+          "t": "Chapter",
+          "n": "185"
+        },
+        {
+          "id": "blm-186",
+          "t": "Chapter",
+          "n": "186"
+        },
+        {
+          "id": "blm-187",
+          "t": "Chapter",
+          "n": "187"
+        }
+      ]
+    },
+    {
+      "id": "v-22",
+      "title": "Volume 22",
+      "sub": "chapters 188–197 · Conquistadores · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-188",
+          "t": "Chapter",
+          "n": "188"
+        },
+        {
+          "id": "blm-189",
+          "t": "Chapter",
+          "n": "189"
+        },
+        {
+          "id": "blm-190",
+          "t": "Chapter",
+          "n": "190"
+        },
+        {
+          "id": "blm-191",
+          "t": "Chapter",
+          "n": "191"
+        },
+        {
+          "id": "blm-192",
+          "t": "Chapter",
+          "n": "192"
+        },
+        {
+          "id": "blm-193",
+          "t": "Chapter",
+          "n": "193"
+        },
+        {
+          "id": "blm-194",
+          "t": "Chapter",
+          "n": "194"
+        },
+        {
+          "id": "blm-195",
+          "t": "Chapter",
+          "n": "195"
+        },
+        {
+          "id": "blm-196",
+          "t": "Chapter",
+          "n": "196"
+        },
+        {
+          "id": "blm-197",
+          "t": "Chapter",
+          "n": "197"
+        }
+      ],
+      "intro": "Arrancar arc — volumes 22–48, chapters 188–423."
+    },
+    {
+      "id": "v-23",
+      "title": "Volume 23",
+      "sub": "chapters 198–205 · ¡Mala Suerte! · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-198",
+          "t": "Chapter",
+          "n": "198"
+        },
+        {
+          "id": "blm-199",
+          "t": "Chapter",
+          "n": "199"
+        },
+        {
+          "id": "blm-200",
+          "t": "Chapter",
+          "n": "200"
+        },
+        {
+          "id": "blm-201",
+          "t": "Chapter",
+          "n": "201"
+        },
+        {
+          "id": "blm-202",
+          "t": "Chapter",
+          "n": "202"
+        },
+        {
+          "id": "blm-203",
+          "t": "Chapter",
+          "n": "203"
+        },
+        {
+          "id": "blm-204",
+          "t": "Chapter",
+          "n": "204"
+        },
+        {
+          "id": "blm-205",
+          "t": "Chapter",
+          "n": "205"
+        },
+        {
+          "id": "blm-x0-side-a-the-sand",
+          "t": "Chapter",
+          "n": "0",
+          "note": "side-A the sand",
+          "opt": true
+        },
+        {
+          "id": "blm-x0-side-b-the-rotator",
+          "t": "Chapter",
+          "n": "0",
+          "note": "side-B the rotator",
+          "opt": true
+        }
+      ]
+    },
+    {
+      "id": "v-24",
+      "title": "Volume 24",
+      "sub": "chapters 206–214 · Immanent God Blues · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-206",
+          "t": "Chapter",
+          "n": "206"
+        },
+        {
+          "id": "blm-207",
+          "t": "Chapter",
+          "n": "207"
+        },
+        {
+          "id": "blm-208",
+          "t": "Chapter",
+          "n": "208"
+        },
+        {
+          "id": "blm-209",
+          "t": "Chapter",
+          "n": "209"
+        },
+        {
+          "id": "blm-210",
+          "t": "Chapter",
+          "n": "210"
+        },
+        {
+          "id": "blm-211",
+          "t": "Chapter",
+          "n": "211"
+        },
+        {
+          "id": "blm-212",
+          "t": "Chapter",
+          "n": "212"
+        },
+        {
+          "id": "blm-213",
+          "t": "Chapter",
+          "n": "213"
+        },
+        {
+          "id": "blm-214",
+          "t": "Chapter",
+          "n": "214"
+        }
+      ]
+    },
+    {
+      "id": "v-25",
+      "title": "Volume 25",
+      "sub": "chapters 215–223 · No Shaking Throne · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-215",
+          "t": "Chapter",
+          "n": "215"
+        },
+        {
+          "id": "blm-216",
+          "t": "Chapter",
+          "n": "216"
+        },
+        {
+          "id": "blm-217",
+          "t": "Chapter",
+          "n": "217"
+        },
+        {
+          "id": "blm-218",
+          "t": "Chapter",
+          "n": "218"
+        },
+        {
+          "id": "blm-219",
+          "t": "Chapter",
+          "n": "219"
+        },
+        {
+          "id": "blm-220",
+          "t": "Chapter",
+          "n": "220"
+        },
+        {
+          "id": "blm-221",
+          "t": "Chapter",
+          "n": "221"
+        },
+        {
+          "id": "blm-222",
+          "t": "Chapter",
+          "n": "222"
+        },
+        {
+          "id": "blm-223",
+          "t": "Chapter",
+          "n": "223"
+        }
+      ]
+    },
+    {
+      "id": "v-26",
+      "title": "Volume 26",
+      "sub": "chapters 224–233 · The Mascaron Drive · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-224",
+          "t": "Chapter",
+          "n": "224"
+        },
+        {
+          "id": "blm-225",
+          "t": "Chapter",
+          "n": "225"
+        },
+        {
+          "id": "blm-226",
+          "t": "Chapter",
+          "n": "226"
+        },
+        {
+          "id": "blm-227",
+          "t": "Chapter",
+          "n": "227"
+        },
+        {
+          "id": "blm-228",
+          "t": "Chapter",
+          "n": "228"
+        },
+        {
+          "id": "blm-229",
+          "t": "Chapter",
+          "n": "229"
+        },
+        {
+          "id": "blm-230",
+          "t": "Chapter",
+          "n": "230"
+        },
+        {
+          "id": "blm-231",
+          "t": "Chapter",
+          "n": "231"
+        },
+        {
+          "id": "blm-232",
+          "t": "Chapter",
+          "n": "232"
+        },
+        {
+          "id": "blm-233",
+          "t": "Chapter",
+          "n": "233"
+        }
+      ]
+    },
+    {
+      "id": "v-27",
+      "title": "Volume 27",
+      "sub": "chapters 234–242 · Goodbye, Halcyon Days · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-234",
+          "t": "Chapter",
+          "n": "234"
+        },
+        {
+          "id": "blm-235",
+          "t": "Chapter",
+          "n": "235"
+        },
+        {
+          "id": "blm-236",
+          "t": "Chapter",
+          "n": "236"
+        },
+        {
+          "id": "blm-237",
+          "t": "Chapter",
+          "n": "237"
+        },
+        {
+          "id": "blm-238",
+          "t": "Chapter",
+          "n": "238"
+        },
+        {
+          "id": "blm-239",
+          "t": "Chapter",
+          "n": "239"
+        },
+        {
+          "id": "blm-240",
+          "t": "Chapter",
+          "n": "240"
+        },
+        {
+          "id": "blm-241",
+          "t": "Chapter",
+          "n": "241"
+        },
+        {
+          "id": "blm-242",
+          "t": "Chapter",
+          "n": "242"
+        }
+      ]
+    },
+    {
+      "id": "v-28",
+      "title": "Volume 28",
+      "sub": "chapters 243–251 · Baron's Lecture Full-Course · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-243",
+          "t": "Chapter",
+          "n": "243"
+        },
+        {
+          "id": "blm-244",
+          "t": "Chapter",
+          "n": "244"
+        },
+        {
+          "id": "blm-245",
+          "t": "Chapter",
+          "n": "245"
+        },
+        {
+          "id": "blm-246",
+          "t": "Chapter",
+          "n": "246"
+        },
+        {
+          "id": "blm-247",
+          "t": "Chapter",
+          "n": "247"
+        },
+        {
+          "id": "blm-248",
+          "t": "Chapter",
+          "n": "248"
+        },
+        {
+          "id": "blm-249",
+          "t": "Chapter",
+          "n": "249"
+        },
+        {
+          "id": "blm-250",
+          "t": "Chapter",
+          "n": "250"
+        },
+        {
+          "id": "blm-251",
+          "t": "Chapter",
+          "n": "251"
+        }
+      ]
+    },
+    {
+      "id": "v-29",
+      "title": "Volume 29",
+      "sub": "chapters 252–260 · The Slashing Opera · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-252",
+          "t": "Chapter",
+          "n": "252"
+        },
+        {
+          "id": "blm-253",
+          "t": "Chapter",
+          "n": "253"
+        },
+        {
+          "id": "blm-254",
+          "t": "Chapter",
+          "n": "254"
+        },
+        {
+          "id": "blm-255",
+          "t": "Chapter",
+          "n": "255"
+        },
+        {
+          "id": "blm-256",
+          "t": "Chapter",
+          "n": "256"
+        },
+        {
+          "id": "blm-257",
+          "t": "Chapter",
+          "n": "257"
+        },
+        {
+          "id": "blm-258",
+          "t": "Chapter",
+          "n": "258"
+        },
+        {
+          "id": "blm-259",
+          "t": "Chapter",
+          "n": "259"
+        },
+        {
+          "id": "blm-260",
+          "t": "Chapter",
+          "n": "260"
+        },
+        {
+          "id": "blm-xbleach-on-the-beach",
+          "t": "Special",
+          "n": "",
+          "note": "Bleach on the Beach",
+          "opt": true
+        }
+      ]
+    },
+    {
+      "id": "v-30",
+      "title": "Volume 30",
+      "sub": "chapters 261–269 · There Is No Heart Without You · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-261",
+          "t": "Chapter",
+          "n": "261"
+        },
+        {
+          "id": "blm-262",
+          "t": "Chapter",
+          "n": "262"
+        },
+        {
+          "id": "blm-263",
+          "t": "Chapter",
+          "n": "263"
+        },
+        {
+          "id": "blm-264",
+          "t": "Chapter",
+          "n": "264"
+        },
+        {
+          "id": "blm-265",
+          "t": "Chapter",
+          "n": "265"
+        },
+        {
+          "id": "blm-266",
+          "t": "Chapter",
+          "n": "266"
+        },
+        {
+          "id": "blm-267",
+          "t": "Chapter",
+          "n": "267"
+        },
+        {
+          "id": "blm-268",
+          "t": "Chapter",
+          "n": "268"
+        },
+        {
+          "id": "blm-269",
+          "t": "Chapter",
+          "n": "269"
+        }
+      ]
+    },
+    {
+      "id": "v-31",
+      "title": "Volume 31",
+      "sub": "chapters 270–278 · Don't Kill My Volupture · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-270",
+          "t": "Chapter",
+          "n": "270"
+        },
+        {
+          "id": "blm-271",
+          "t": "Chapter",
+          "n": "271"
+        },
+        {
+          "id": "blm-272",
+          "t": "Chapter",
+          "n": "272"
+        },
+        {
+          "id": "blm-273",
+          "t": "Chapter",
+          "n": "273"
+        },
+        {
+          "id": "blm-274",
+          "t": "Chapter",
+          "n": "274"
+        },
+        {
+          "id": "blm-275",
+          "t": "Chapter",
+          "n": "275"
+        },
+        {
+          "id": "blm-276",
+          "t": "Chapter",
+          "n": "276"
+        },
+        {
+          "id": "blm-277",
+          "t": "Chapter",
+          "n": "277"
+        },
+        {
+          "id": "blm-278",
+          "t": "Chapter",
+          "n": "278"
+        }
+      ]
+    },
+    {
+      "id": "v-32",
+      "title": "Volume 32",
+      "sub": "chapters 279–286 · Howling · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-279",
+          "t": "Chapter",
+          "n": "279"
+        },
+        {
+          "id": "blm-280",
+          "t": "Chapter",
+          "n": "280"
+        },
+        {
+          "id": "blm-281",
+          "t": "Chapter",
+          "n": "281"
+        },
+        {
+          "id": "blm-282",
+          "t": "Chapter",
+          "n": "282"
+        },
+        {
+          "id": "blm-283",
+          "t": "Chapter",
+          "n": "283"
+        },
+        {
+          "id": "blm-284",
+          "t": "Chapter",
+          "n": "284"
+        },
+        {
+          "id": "blm-285",
+          "t": "Chapter",
+          "n": "285"
+        },
+        {
+          "id": "blm-286",
+          "t": "Chapter",
+          "n": "286"
+        },
+        {
+          "id": "blm-xm16-death-on-the-ice-field",
+          "t": "Chapter",
+          "n": "−16",
+          "note": "Death on the Ice Field",
+          "opt": true
+        }
+      ]
+    },
+    {
+      "id": "v-33",
+      "title": "Volume 33",
+      "sub": "chapters 287–295 · The Bad Joke · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-287",
+          "t": "Chapter",
+          "n": "287"
+        },
+        {
+          "id": "blm-288",
+          "t": "Chapter",
+          "n": "288"
+        },
+        {
+          "id": "blm-289",
+          "t": "Chapter",
+          "n": "289"
+        },
+        {
+          "id": "blm-290",
+          "t": "Chapter",
+          "n": "290"
+        },
+        {
+          "id": "blm-291",
+          "t": "Chapter",
+          "n": "291"
+        },
+        {
+          "id": "blm-292",
+          "t": "Chapter",
+          "n": "292"
+        },
+        {
+          "id": "blm-293",
+          "t": "Chapter",
+          "n": "293"
+        },
+        {
+          "id": "blm-294",
+          "t": "Chapter",
+          "n": "294"
+        },
+        {
+          "id": "blm-295",
+          "t": "Chapter",
+          "n": "295"
+        }
+      ]
+    },
+    {
+      "id": "v-34",
+      "title": "Volume 34",
+      "sub": "chapters 296–305 · King of The Kill · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-296",
+          "t": "Chapter",
+          "n": "296"
+        },
+        {
+          "id": "blm-297",
+          "t": "Chapter",
+          "n": "297"
+        },
+        {
+          "id": "blm-298",
+          "t": "Chapter",
+          "n": "298"
+        },
+        {
+          "id": "blm-299",
+          "t": "Chapter",
+          "n": "299"
+        },
+        {
+          "id": "blm-300",
+          "t": "Chapter",
+          "n": "300"
+        },
+        {
+          "id": "blm-301",
+          "t": "Chapter",
+          "n": "301"
+        },
+        {
+          "id": "blm-302",
+          "t": "Chapter",
+          "n": "302"
+        },
+        {
+          "id": "blm-303",
+          "t": "Chapter",
+          "n": "303"
+        },
+        {
+          "id": "blm-304",
+          "t": "Chapter",
+          "n": "304"
+        },
+        {
+          "id": "blm-305",
+          "t": "Chapter",
+          "n": "305"
+        }
+      ]
+    },
+    {
+      "id": "v-35",
+      "title": "Volume 35",
+      "sub": "chapters 306–315 · Higher Than The Moon · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-306",
+          "t": "Chapter",
+          "n": "306"
+        },
+        {
+          "id": "blm-307",
+          "t": "Chapter",
+          "n": "307"
+        },
+        {
+          "id": "blm-308",
+          "t": "Chapter",
+          "n": "308"
+        },
+        {
+          "id": "blm-309",
+          "t": "Chapter",
+          "n": "309"
+        },
+        {
+          "id": "blm-310",
+          "t": "Chapter",
+          "n": "310"
+        },
+        {
+          "id": "blm-311",
+          "t": "Chapter",
+          "n": "311"
+        },
+        {
+          "id": "blm-312",
+          "t": "Chapter",
+          "n": "312"
+        },
+        {
+          "id": "blm-313",
+          "t": "Chapter",
+          "n": "313"
+        },
+        {
+          "id": "blm-314",
+          "t": "Chapter",
+          "n": "314"
+        },
+        {
+          "id": "blm-315",
+          "t": "Chapter",
+          "n": "315"
+        }
+      ]
+    },
+    {
+      "id": "v-36",
+      "title": "Volume 36",
+      "sub": "chapters −108 to −100 · Turn Back The Pendulum · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-m108",
+          "t": "Chapter",
+          "n": "−108"
+        },
+        {
+          "id": "blm-m107",
+          "t": "Chapter",
+          "n": "−107"
+        },
+        {
+          "id": "blm-m106",
+          "t": "Chapter",
+          "n": "−106"
+        },
+        {
+          "id": "blm-m105",
+          "t": "Chapter",
+          "n": "−105"
+        },
+        {
+          "id": "blm-m104",
+          "t": "Chapter",
+          "n": "−104"
+        },
+        {
+          "id": "blm-m103",
+          "t": "Chapter",
+          "n": "−103"
+        },
+        {
+          "id": "blm-m102",
+          "t": "Chapter",
+          "n": "−102"
+        },
+        {
+          "id": "blm-m101",
+          "t": "Chapter",
+          "n": "−101"
+        },
+        {
+          "id": "blm-m100",
+          "t": "Chapter",
+          "n": "−100"
+        }
+      ],
+      "intro": "The twelve chapters numbered −108 to −97 are a side story, set before the main plot. Wikipedia counts them among the 698, so they are rows like any other; they run through this volume and into the next, between chapters 315 and 316, which is where the volumes put them."
+    },
+    {
+      "id": "v-37",
+      "title": "Volume 37",
+      "sub": "chapters −99 to −97, 316–322 · Beauty Is So Solitary · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-m99",
+          "t": "Chapter",
+          "n": "−99"
+        },
+        {
+          "id": "blm-m98",
+          "t": "Chapter",
+          "n": "−98"
+        },
+        {
+          "id": "blm-m97",
+          "t": "Chapter",
+          "n": "−97"
+        },
+        {
+          "id": "blm-316",
+          "t": "Chapter",
+          "n": "316"
+        },
+        {
+          "id": "blm-317",
+          "t": "Chapter",
+          "n": "317"
+        },
+        {
+          "id": "blm-318",
+          "t": "Chapter",
+          "n": "318"
+        },
+        {
+          "id": "blm-319",
+          "t": "Chapter",
+          "n": "319"
+        },
+        {
+          "id": "blm-320",
+          "t": "Chapter",
+          "n": "320"
+        },
+        {
+          "id": "blm-321",
+          "t": "Chapter",
+          "n": "321"
+        },
+        {
+          "id": "blm-322",
+          "t": "Chapter",
+          "n": "322"
+        }
+      ]
+    },
+    {
+      "id": "v-38",
+      "title": "Volume 38",
+      "sub": "chapters 323–331 · Fear for Fight · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-323",
+          "t": "Chapter",
+          "n": "323"
+        },
+        {
+          "id": "blm-324",
+          "t": "Chapter",
+          "n": "324"
+        },
+        {
+          "id": "blm-325",
+          "t": "Chapter",
+          "n": "325"
+        },
+        {
+          "id": "blm-326",
+          "t": "Chapter",
+          "n": "326"
+        },
+        {
+          "id": "blm-327",
+          "t": "Chapter",
+          "n": "327"
+        },
+        {
+          "id": "blm-328",
+          "t": "Chapter",
+          "n": "328"
+        },
+        {
+          "id": "blm-329",
+          "t": "Chapter",
+          "n": "329"
+        },
+        {
+          "id": "blm-330",
+          "t": "Chapter",
+          "n": "330"
+        },
+        {
+          "id": "blm-331",
+          "t": "Chapter",
+          "n": "331"
+        }
+      ]
+    },
+    {
+      "id": "v-39",
+      "title": "Volume 39",
+      "sub": "chapters 332–340 · El Verdugo · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-332",
+          "t": "Chapter",
+          "n": "332"
+        },
+        {
+          "id": "blm-333",
+          "t": "Chapter",
+          "n": "333"
+        },
+        {
+          "id": "blm-334",
+          "t": "Chapter",
+          "n": "334"
+        },
+        {
+          "id": "blm-335",
+          "t": "Chapter",
+          "n": "335"
+        },
+        {
+          "id": "blm-336",
+          "t": "Chapter",
+          "n": "336"
+        },
+        {
+          "id": "blm-337",
+          "t": "Chapter",
+          "n": "337"
+        },
+        {
+          "id": "blm-338",
+          "t": "Chapter",
+          "n": "338"
+        },
+        {
+          "id": "blm-339",
+          "t": "Chapter",
+          "n": "339"
+        },
+        {
+          "id": "blm-340",
+          "t": "Chapter",
+          "n": "340"
+        }
+      ]
+    },
+    {
+      "id": "v-40",
+      "title": "Volume 40",
+      "sub": "chapters 341–349 · The Lust · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-341",
+          "t": "Chapter",
+          "n": "341"
+        },
+        {
+          "id": "blm-342",
+          "t": "Chapter",
+          "n": "342"
+        },
+        {
+          "id": "blm-343",
+          "t": "Chapter",
+          "n": "343"
+        },
+        {
+          "id": "blm-344",
+          "t": "Chapter",
+          "n": "344"
+        },
+        {
+          "id": "blm-345",
+          "t": "Chapter",
+          "n": "345"
+        },
+        {
+          "id": "blm-346",
+          "t": "Chapter",
+          "n": "346"
+        },
+        {
+          "id": "blm-347",
+          "t": "Chapter",
+          "n": "347"
+        },
+        {
+          "id": "blm-348",
+          "t": "Chapter",
+          "n": "348"
+        },
+        {
+          "id": "blm-349",
+          "t": "Chapter",
+          "n": "349"
+        }
+      ]
+    },
+    {
+      "id": "v-41",
+      "title": "Volume 41",
+      "sub": "chapters 350–358 · Heart · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-350",
+          "t": "Chapter",
+          "n": "350"
+        },
+        {
+          "id": "blm-351",
+          "t": "Chapter",
+          "n": "351"
+        },
+        {
+          "id": "blm-352",
+          "t": "Chapter",
+          "n": "352"
+        },
+        {
+          "id": "blm-353",
+          "t": "Chapter",
+          "n": "353"
+        },
+        {
+          "id": "blm-354",
+          "t": "Chapter",
+          "n": "354"
+        },
+        {
+          "id": "blm-355",
+          "t": "Chapter",
+          "n": "355"
+        },
+        {
+          "id": "blm-356",
+          "t": "Chapter",
+          "n": "356"
+        },
+        {
+          "id": "blm-357",
+          "t": "Chapter",
+          "n": "357"
+        },
+        {
+          "id": "blm-358",
+          "t": "Chapter",
+          "n": "358"
+        }
+      ]
+    },
+    {
+      "id": "v-42",
+      "title": "Volume 42",
+      "sub": "chapters 359–367 · Shock of the Queen · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-359",
+          "t": "Chapter",
+          "n": "359"
+        },
+        {
+          "id": "blm-360",
+          "t": "Chapter",
+          "n": "360"
+        },
+        {
+          "id": "blm-361",
+          "t": "Chapter",
+          "n": "361"
+        },
+        {
+          "id": "blm-362",
+          "t": "Chapter",
+          "n": "362"
+        },
+        {
+          "id": "blm-363",
+          "t": "Chapter",
+          "n": "363"
+        },
+        {
+          "id": "blm-364",
+          "t": "Chapter",
+          "n": "364"
+        },
+        {
+          "id": "blm-365",
+          "t": "Chapter",
+          "n": "365"
+        },
+        {
+          "id": "blm-366",
+          "t": "Chapter",
+          "n": "366"
+        },
+        {
+          "id": "blm-367",
+          "t": "Chapter",
+          "n": "367"
+        }
+      ]
+    },
+    {
+      "id": "v-43",
+      "title": "Volume 43",
+      "sub": "chapters 368–377 · Kingdom of Hollows · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-368",
+          "t": "Chapter",
+          "n": "368"
+        },
+        {
+          "id": "blm-369",
+          "t": "Chapter",
+          "n": "369"
+        },
+        {
+          "id": "blm-370",
+          "t": "Chapter",
+          "n": "370"
+        },
+        {
+          "id": "blm-371",
+          "t": "Chapter",
+          "n": "371"
+        },
+        {
+          "id": "blm-372",
+          "t": "Chapter",
+          "n": "372"
+        },
+        {
+          "id": "blm-373",
+          "t": "Chapter",
+          "n": "373"
+        },
+        {
+          "id": "blm-374",
+          "t": "Chapter",
+          "n": "374"
+        },
+        {
+          "id": "blm-375",
+          "t": "Chapter",
+          "n": "375"
+        },
+        {
+          "id": "blm-376",
+          "t": "Chapter",
+          "n": "376"
+        },
+        {
+          "id": "blm-377",
+          "t": "Chapter",
+          "n": "377"
+        }
+      ]
+    },
+    {
+      "id": "v-44",
+      "title": "Volume 44",
+      "sub": "chapters 378–386 · Vice It · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-378",
+          "t": "Chapter",
+          "n": "378"
+        },
+        {
+          "id": "blm-379",
+          "t": "Chapter",
+          "n": "379"
+        },
+        {
+          "id": "blm-380",
+          "t": "Chapter",
+          "n": "380"
+        },
+        {
+          "id": "blm-381",
+          "t": "Chapter",
+          "n": "381"
+        },
+        {
+          "id": "blm-382",
+          "t": "Chapter",
+          "n": "382"
+        },
+        {
+          "id": "blm-383",
+          "t": "Chapter",
+          "n": "383"
+        },
+        {
+          "id": "blm-384",
+          "t": "Chapter",
+          "n": "384"
+        },
+        {
+          "id": "blm-385",
+          "t": "Chapter",
+          "n": "385"
+        },
+        {
+          "id": "blm-386",
+          "t": "Chapter",
+          "n": "386"
+        }
+      ]
+    },
+    {
+      "id": "v-45",
+      "title": "Volume 45",
+      "sub": "chapters 387–395 · The Burnout Inferno · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-387",
+          "t": "Chapter",
+          "n": "387"
+        },
+        {
+          "id": "blm-388",
+          "t": "Chapter",
+          "n": "388"
+        },
+        {
+          "id": "blm-389",
+          "t": "Chapter",
+          "n": "389"
+        },
+        {
+          "id": "blm-390",
+          "t": "Chapter",
+          "n": "390"
+        },
+        {
+          "id": "blm-391",
+          "t": "Chapter",
+          "n": "391"
+        },
+        {
+          "id": "blm-392",
+          "t": "Chapter",
+          "n": "392"
+        },
+        {
+          "id": "blm-393",
+          "t": "Chapter",
+          "n": "393"
+        },
+        {
+          "id": "blm-394",
+          "t": "Chapter",
+          "n": "394"
+        },
+        {
+          "id": "blm-395",
+          "t": "Chapter",
+          "n": "395"
+        }
+      ]
+    },
+    {
+      "id": "v-46",
+      "title": "Volume 46",
+      "sub": "chapters 396–404 · Back From Blind · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-396",
+          "t": "Chapter",
+          "n": "396"
+        },
+        {
+          "id": "blm-397",
+          "t": "Chapter",
+          "n": "397"
+        },
+        {
+          "id": "blm-398",
+          "t": "Chapter",
+          "n": "398"
+        },
+        {
+          "id": "blm-399",
+          "t": "Chapter",
+          "n": "399"
+        },
+        {
+          "id": "blm-400",
+          "t": "Chapter",
+          "n": "400"
+        },
+        {
+          "id": "blm-401",
+          "t": "Chapter",
+          "n": "401"
+        },
+        {
+          "id": "blm-402",
+          "t": "Chapter",
+          "n": "402"
+        },
+        {
+          "id": "blm-403",
+          "t": "Chapter",
+          "n": "403"
+        },
+        {
+          "id": "blm-404",
+          "t": "Chapter",
+          "n": "404"
+        }
+      ]
+    },
+    {
+      "id": "v-47",
+      "title": "Volume 47",
+      "sub": "chapters 405–413 · End of the Chrysalis Age · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-405",
+          "t": "Chapter",
+          "n": "405"
+        },
+        {
+          "id": "blm-406",
+          "t": "Chapter",
+          "n": "406"
+        },
+        {
+          "id": "blm-407",
+          "t": "Chapter",
+          "n": "407"
+        },
+        {
+          "id": "blm-408",
+          "t": "Chapter",
+          "n": "408"
+        },
+        {
+          "id": "blm-409",
+          "t": "Chapter",
+          "n": "409"
+        },
+        {
+          "id": "blm-410",
+          "t": "Chapter",
+          "n": "410"
+        },
+        {
+          "id": "blm-411",
+          "t": "Chapter",
+          "n": "411"
+        },
+        {
+          "id": "blm-412",
+          "t": "Chapter",
+          "n": "412"
+        },
+        {
+          "id": "blm-413",
+          "t": "Chapter",
+          "n": "413"
+        }
+      ]
+    },
+    {
+      "id": "v-48",
+      "title": "Volume 48",
+      "sub": "chapters 414–423 · God Is Dead · Arrancar",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(188%E2%80%93423)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-414",
+          "t": "Chapter",
+          "n": "414"
+        },
+        {
+          "id": "blm-415",
+          "t": "Chapter",
+          "n": "415"
+        },
+        {
+          "id": "blm-416",
+          "t": "Chapter",
+          "n": "416"
+        },
+        {
+          "id": "blm-417",
+          "t": "Chapter",
+          "n": "417"
+        },
+        {
+          "id": "blm-418",
+          "t": "Chapter",
+          "n": "418"
+        },
+        {
+          "id": "blm-419",
+          "t": "Chapter",
+          "n": "419"
+        },
+        {
+          "id": "blm-420",
+          "t": "Chapter",
+          "n": "420"
+        },
+        {
+          "id": "blm-421",
+          "t": "Chapter",
+          "n": "421"
+        },
+        {
+          "id": "blm-422",
+          "t": "Chapter",
+          "n": "422"
+        },
+        {
+          "id": "blm-423",
+          "t": "Chapter",
+          "n": "423"
+        }
+      ]
+    },
+    {
+      "id": "v-49",
+      "title": "Volume 49",
+      "sub": "chapters 424–432 · The Lost Agent · Lost Agent",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-424",
+          "t": "Chapter",
+          "n": "424"
+        },
+        {
+          "id": "blm-425",
+          "t": "Chapter",
+          "n": "425"
+        },
+        {
+          "id": "blm-426",
+          "t": "Chapter",
+          "n": "426"
+        },
+        {
+          "id": "blm-427",
+          "t": "Chapter",
+          "n": "427"
+        },
+        {
+          "id": "blm-428",
+          "t": "Chapter",
+          "n": "428"
+        },
+        {
+          "id": "blm-429",
+          "t": "Chapter",
+          "n": "429"
+        },
+        {
+          "id": "blm-430",
+          "t": "Chapter",
+          "n": "430"
+        },
+        {
+          "id": "blm-431",
+          "t": "Chapter",
+          "n": "431"
+        },
+        {
+          "id": "blm-432",
+          "t": "Chapter",
+          "n": "432"
+        }
+      ],
+      "intro": "Lost Agent arc — volumes 49–54, chapters 424–479."
+    },
+    {
+      "id": "v-50",
+      "title": "Volume 50",
+      "sub": "chapters 433–441 · The Six Fullbringers · Lost Agent",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-433",
+          "t": "Chapter",
+          "n": "433"
+        },
+        {
+          "id": "blm-434",
+          "t": "Chapter",
+          "n": "434"
+        },
+        {
+          "id": "blm-435",
+          "t": "Chapter",
+          "n": "435"
+        },
+        {
+          "id": "blm-436",
+          "t": "Chapter",
+          "n": "436"
+        },
+        {
+          "id": "blm-437",
+          "t": "Chapter",
+          "n": "437"
+        },
+        {
+          "id": "blm-438",
+          "t": "Chapter",
+          "n": "438"
+        },
+        {
+          "id": "blm-439",
+          "t": "Chapter",
+          "n": "439"
+        },
+        {
+          "id": "blm-440",
+          "t": "Chapter",
+          "n": "440"
+        },
+        {
+          "id": "blm-441",
+          "t": "Chapter",
+          "n": "441"
+        }
+      ]
+    },
+    {
+      "id": "v-51",
+      "title": "Volume 51",
+      "sub": "chapters 442–450 · Love Me Bitterly Loth Me Sweetly · Lost Agent",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-442",
+          "t": "Chapter",
+          "n": "442"
+        },
+        {
+          "id": "blm-443",
+          "t": "Chapter",
+          "n": "443"
+        },
+        {
+          "id": "blm-444",
+          "t": "Chapter",
+          "n": "444"
+        },
+        {
+          "id": "blm-445",
+          "t": "Chapter",
+          "n": "445"
+        },
+        {
+          "id": "blm-446",
+          "t": "Chapter",
+          "n": "446"
+        },
+        {
+          "id": "blm-447",
+          "t": "Chapter",
+          "n": "447"
+        },
+        {
+          "id": "blm-448",
+          "t": "Chapter",
+          "n": "448"
+        },
+        {
+          "id": "blm-449",
+          "t": "Chapter",
+          "n": "449"
+        },
+        {
+          "id": "blm-450",
+          "t": "Chapter",
+          "n": "450"
+        }
+      ]
+    },
+    {
+      "id": "v-52",
+      "title": "Volume 52",
+      "sub": "chapters 451–459 · End of Bond · Lost Agent",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-451",
+          "t": "Chapter",
+          "n": "451"
+        },
+        {
+          "id": "blm-452",
+          "t": "Chapter",
+          "n": "452"
+        },
+        {
+          "id": "blm-453",
+          "t": "Chapter",
+          "n": "453"
+        },
+        {
+          "id": "blm-454",
+          "t": "Chapter",
+          "n": "454"
+        },
+        {
+          "id": "blm-455",
+          "t": "Chapter",
+          "n": "455"
+        },
+        {
+          "id": "blm-456",
+          "t": "Chapter",
+          "n": "456"
+        },
+        {
+          "id": "blm-457",
+          "t": "Chapter",
+          "n": "457"
+        },
+        {
+          "id": "blm-458",
+          "t": "Chapter",
+          "n": "458"
+        },
+        {
+          "id": "blm-459",
+          "t": "Chapter",
+          "n": "459"
+        }
+      ]
+    },
+    {
+      "id": "v-53",
+      "title": "Volume 53",
+      "sub": "chapters 460–469 · The Deathberry Returns 2 · Lost Agent",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-460",
+          "t": "Chapter",
+          "n": "460"
+        },
+        {
+          "id": "blm-461",
+          "t": "Chapter",
+          "n": "461"
+        },
+        {
+          "id": "blm-462",
+          "t": "Chapter",
+          "n": "462"
+        },
+        {
+          "id": "blm-463",
+          "t": "Chapter",
+          "n": "463"
+        },
+        {
+          "id": "blm-464",
+          "t": "Chapter",
+          "n": "464"
+        },
+        {
+          "id": "blm-465",
+          "t": "Chapter",
+          "n": "465"
+        },
+        {
+          "id": "blm-466",
+          "t": "Chapter",
+          "n": "466"
+        },
+        {
+          "id": "blm-467",
+          "t": "Chapter",
+          "n": "467"
+        },
+        {
+          "id": "blm-468",
+          "t": "Chapter",
+          "n": "468"
+        },
+        {
+          "id": "blm-469",
+          "t": "Chapter",
+          "n": "469"
+        }
+      ]
+    },
+    {
+      "id": "v-54",
+      "title": "Volume 54",
+      "sub": "chapters 470–479 · Goodbye to Our Xcution · Lost Agent",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-470",
+          "t": "Chapter",
+          "n": "470"
+        },
+        {
+          "id": "blm-471",
+          "t": "Chapter",
+          "n": "471"
+        },
+        {
+          "id": "blm-472",
+          "t": "Chapter",
+          "n": "472"
+        },
+        {
+          "id": "blm-473",
+          "t": "Chapter",
+          "n": "473"
+        },
+        {
+          "id": "blm-474",
+          "t": "Chapter",
+          "n": "474"
+        },
+        {
+          "id": "blm-475",
+          "t": "Chapter",
+          "n": "475"
+        },
+        {
+          "id": "blm-476",
+          "t": "Chapter",
+          "n": "476"
+        },
+        {
+          "id": "blm-477",
+          "t": "Chapter",
+          "n": "477"
+        },
+        {
+          "id": "blm-478",
+          "t": "Chapter",
+          "n": "478"
+        },
+        {
+          "id": "blm-479",
+          "t": "Chapter",
+          "n": "479"
+        }
+      ]
+    },
+    {
+      "id": "v-55",
+      "title": "Volume 55",
+      "sub": "chapters 480–489 · The Blood Warfare · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-480",
+          "t": "Chapter",
+          "n": "480"
+        },
+        {
+          "id": "blm-481",
+          "t": "Chapter",
+          "n": "481"
+        },
+        {
+          "id": "blm-482",
+          "t": "Chapter",
+          "n": "482"
+        },
+        {
+          "id": "blm-483",
+          "t": "Chapter",
+          "n": "483"
+        },
+        {
+          "id": "blm-484",
+          "t": "Chapter",
+          "n": "484"
+        },
+        {
+          "id": "blm-485",
+          "t": "Chapter",
+          "n": "485"
+        },
+        {
+          "id": "blm-486",
+          "t": "Chapter",
+          "n": "486"
+        },
+        {
+          "id": "blm-487",
+          "t": "Chapter",
+          "n": "487"
+        },
+        {
+          "id": "blm-488",
+          "t": "Chapter",
+          "n": "488"
+        },
+        {
+          "id": "blm-489",
+          "t": "Chapter",
+          "n": "489"
+        }
+      ],
+      "intro": "Thousand-Year Blood War arc — volumes 55–74, chapters 480–686."
+    },
+    {
+      "id": "v-56",
+      "title": "Volume 56",
+      "sub": "chapters 490–499 · March of the StarCross · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-490",
+          "t": "Chapter",
+          "n": "490"
+        },
+        {
+          "id": "blm-491",
+          "t": "Chapter",
+          "n": "491"
+        },
+        {
+          "id": "blm-492",
+          "t": "Chapter",
+          "n": "492"
+        },
+        {
+          "id": "blm-493",
+          "t": "Chapter",
+          "n": "493"
+        },
+        {
+          "id": "blm-494",
+          "t": "Chapter",
+          "n": "494"
+        },
+        {
+          "id": "blm-495",
+          "t": "Chapter",
+          "n": "495"
+        },
+        {
+          "id": "blm-496",
+          "t": "Chapter",
+          "n": "496"
+        },
+        {
+          "id": "blm-497",
+          "t": "Chapter",
+          "n": "497"
+        },
+        {
+          "id": "blm-498",
+          "t": "Chapter",
+          "n": "498"
+        },
+        {
+          "id": "blm-499",
+          "t": "Chapter",
+          "n": "499"
+        }
+      ]
+    },
+    {
+      "id": "v-57",
+      "title": "Volume 57",
+      "sub": "chapters 500–509 · Out of Bloom · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-500",
+          "t": "Chapter",
+          "n": "500"
+        },
+        {
+          "id": "blm-501",
+          "t": "Chapter",
+          "n": "501"
+        },
+        {
+          "id": "blm-502",
+          "t": "Chapter",
+          "n": "502"
+        },
+        {
+          "id": "blm-503",
+          "t": "Chapter",
+          "n": "503"
+        },
+        {
+          "id": "blm-504",
+          "t": "Chapter",
+          "n": "504"
+        },
+        {
+          "id": "blm-505",
+          "t": "Chapter",
+          "n": "505"
+        },
+        {
+          "id": "blm-506",
+          "t": "Chapter",
+          "n": "506"
+        },
+        {
+          "id": "blm-507",
+          "t": "Chapter",
+          "n": "507"
+        },
+        {
+          "id": "blm-508",
+          "t": "Chapter",
+          "n": "508"
+        },
+        {
+          "id": "blm-509",
+          "t": "Chapter",
+          "n": "509"
+        }
+      ]
+    },
+    {
+      "id": "v-58",
+      "title": "Volume 58",
+      "sub": "chapters 510–520 · The Fire · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-510",
+          "t": "Chapter",
+          "n": "510"
+        },
+        {
+          "id": "blm-511",
+          "t": "Chapter",
+          "n": "511"
+        },
+        {
+          "id": "blm-512",
+          "t": "Chapter",
+          "n": "512"
+        },
+        {
+          "id": "blm-513",
+          "t": "Chapter",
+          "n": "513"
+        },
+        {
+          "id": "blm-514",
+          "t": "Chapter",
+          "n": "514"
+        },
+        {
+          "id": "blm-515",
+          "t": "Chapter",
+          "n": "515"
+        },
+        {
+          "id": "blm-516",
+          "t": "Chapter",
+          "n": "516"
+        },
+        {
+          "id": "blm-517",
+          "t": "Chapter",
+          "n": "517"
+        },
+        {
+          "id": "blm-518",
+          "t": "Chapter",
+          "n": "518"
+        },
+        {
+          "id": "blm-519",
+          "t": "Chapter",
+          "n": "519"
+        },
+        {
+          "id": "blm-520",
+          "t": "Chapter",
+          "n": "520"
+        }
+      ]
+    },
+    {
+      "id": "v-59",
+      "title": "Volume 59",
+      "sub": "chapters 521–530 · The Battle · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-521",
+          "t": "Chapter",
+          "n": "521"
+        },
+        {
+          "id": "blm-522",
+          "t": "Chapter",
+          "n": "522"
+        },
+        {
+          "id": "blm-523",
+          "t": "Chapter",
+          "n": "523"
+        },
+        {
+          "id": "blm-524",
+          "t": "Chapter",
+          "n": "524"
+        },
+        {
+          "id": "blm-525",
+          "t": "Chapter",
+          "n": "525"
+        },
+        {
+          "id": "blm-526",
+          "t": "Chapter",
+          "n": "526"
+        },
+        {
+          "id": "blm-527",
+          "t": "Chapter",
+          "n": "527"
+        },
+        {
+          "id": "blm-528",
+          "t": "Chapter",
+          "n": "528"
+        },
+        {
+          "id": "blm-529",
+          "t": "Chapter",
+          "n": "529"
+        },
+        {
+          "id": "blm-530",
+          "t": "Chapter",
+          "n": "530"
+        }
+      ]
+    },
+    {
+      "id": "v-60",
+      "title": "Volume 60",
+      "sub": "chapters 531–540 · Everything But The Rain · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-531",
+          "t": "Chapter",
+          "n": "531"
+        },
+        {
+          "id": "blm-532",
+          "t": "Chapter",
+          "n": "532"
+        },
+        {
+          "id": "blm-533",
+          "t": "Chapter",
+          "n": "533"
+        },
+        {
+          "id": "blm-534",
+          "t": "Chapter",
+          "n": "534"
+        },
+        {
+          "id": "blm-535",
+          "t": "Chapter",
+          "n": "535"
+        },
+        {
+          "id": "blm-536",
+          "t": "Chapter",
+          "n": "536"
+        },
+        {
+          "id": "blm-537",
+          "t": "Chapter",
+          "n": "537"
+        },
+        {
+          "id": "blm-538",
+          "t": "Chapter",
+          "n": "538"
+        },
+        {
+          "id": "blm-539",
+          "t": "Chapter",
+          "n": "539"
+        },
+        {
+          "id": "blm-540",
+          "t": "Chapter",
+          "n": "540"
+        }
+      ]
+    },
+    {
+      "id": "v-61",
+      "title": "Volume 61",
+      "sub": "chapters 541–550 · The Last 9 Days · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-541",
+          "t": "Chapter",
+          "n": "541"
+        },
+        {
+          "id": "blm-542",
+          "t": "Chapter",
+          "n": "542"
+        },
+        {
+          "id": "blm-543",
+          "t": "Chapter",
+          "n": "543"
+        },
+        {
+          "id": "blm-544",
+          "t": "Chapter",
+          "n": "544"
+        },
+        {
+          "id": "blm-545",
+          "t": "Chapter",
+          "n": "545"
+        },
+        {
+          "id": "blm-546",
+          "t": "Chapter",
+          "n": "546"
+        },
+        {
+          "id": "blm-547",
+          "t": "Chapter",
+          "n": "547"
+        },
+        {
+          "id": "blm-548",
+          "t": "Chapter",
+          "n": "548"
+        },
+        {
+          "id": "blm-549",
+          "t": "Chapter",
+          "n": "549"
+        },
+        {
+          "id": "blm-550",
+          "t": "Chapter",
+          "n": "550"
+        }
+      ]
+    },
+    {
+      "id": "v-62",
+      "title": "Volume 62",
+      "sub": "chapters 551–560 · Heart Of Wolf · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-551",
+          "t": "Chapter",
+          "n": "551"
+        },
+        {
+          "id": "blm-552",
+          "t": "Chapter",
+          "n": "552"
+        },
+        {
+          "id": "blm-553",
+          "t": "Chapter",
+          "n": "553"
+        },
+        {
+          "id": "blm-554",
+          "t": "Chapter",
+          "n": "554"
+        },
+        {
+          "id": "blm-555",
+          "t": "Chapter",
+          "n": "555"
+        },
+        {
+          "id": "blm-556",
+          "t": "Chapter",
+          "n": "556"
+        },
+        {
+          "id": "blm-557",
+          "t": "Chapter",
+          "n": "557"
+        },
+        {
+          "id": "blm-558",
+          "t": "Chapter",
+          "n": "558"
+        },
+        {
+          "id": "blm-559",
+          "t": "Chapter",
+          "n": "559"
+        },
+        {
+          "id": "blm-560",
+          "t": "Chapter",
+          "n": "560"
+        }
+      ]
+    },
+    {
+      "id": "v-63",
+      "title": "Volume 63",
+      "sub": "chapters 561–570 · Hear, Fear, Here · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-561",
+          "t": "Chapter",
+          "n": "561"
+        },
+        {
+          "id": "blm-562",
+          "t": "Chapter",
+          "n": "562"
+        },
+        {
+          "id": "blm-563",
+          "t": "Chapter",
+          "n": "563"
+        },
+        {
+          "id": "blm-564",
+          "t": "Chapter",
+          "n": "564"
+        },
+        {
+          "id": "blm-565",
+          "t": "Chapter",
+          "n": "565"
+        },
+        {
+          "id": "blm-566",
+          "t": "Chapter",
+          "n": "566"
+        },
+        {
+          "id": "blm-567",
+          "t": "Chapter",
+          "n": "567"
+        },
+        {
+          "id": "blm-568",
+          "t": "Chapter",
+          "n": "568"
+        },
+        {
+          "id": "blm-569",
+          "t": "Chapter",
+          "n": "569"
+        },
+        {
+          "id": "blm-570",
+          "t": "Chapter",
+          "n": "570"
+        }
+      ]
+    },
+    {
+      "id": "v-64",
+      "title": "Volume 64",
+      "sub": "chapters 571–580 · Death in Vision · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-571",
+          "t": "Chapter",
+          "n": "571"
+        },
+        {
+          "id": "blm-572",
+          "t": "Chapter",
+          "n": "572"
+        },
+        {
+          "id": "blm-573",
+          "t": "Chapter",
+          "n": "573"
+        },
+        {
+          "id": "blm-574",
+          "t": "Chapter",
+          "n": "574"
+        },
+        {
+          "id": "blm-575",
+          "t": "Chapter",
+          "n": "575"
+        },
+        {
+          "id": "blm-576",
+          "t": "Chapter",
+          "n": "576"
+        },
+        {
+          "id": "blm-577",
+          "t": "Chapter",
+          "n": "577"
+        },
+        {
+          "id": "blm-578",
+          "t": "Chapter",
+          "n": "578"
+        },
+        {
+          "id": "blm-579",
+          "t": "Chapter",
+          "n": "579"
+        },
+        {
+          "id": "blm-580",
+          "t": "Chapter",
+          "n": "580"
+        }
+      ]
+    },
+    {
+      "id": "v-65",
+      "title": "Volume 65",
+      "sub": "chapters 581–591 · Marching Out the Zombies · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-581",
+          "t": "Chapter",
+          "n": "581"
+        },
+        {
+          "id": "blm-582",
+          "t": "Chapter",
+          "n": "582"
+        },
+        {
+          "id": "blm-583",
+          "t": "Chapter",
+          "n": "583"
+        },
+        {
+          "id": "blm-584",
+          "t": "Chapter",
+          "n": "584"
+        },
+        {
+          "id": "blm-585",
+          "t": "Chapter",
+          "n": "585"
+        },
+        {
+          "id": "blm-586",
+          "t": "Chapter",
+          "n": "586"
+        },
+        {
+          "id": "blm-587",
+          "t": "Chapter",
+          "n": "587"
+        },
+        {
+          "id": "blm-588",
+          "t": "Chapter",
+          "n": "588"
+        },
+        {
+          "id": "blm-589",
+          "t": "Chapter",
+          "n": "589"
+        },
+        {
+          "id": "blm-590",
+          "t": "Chapter",
+          "n": "590"
+        },
+        {
+          "id": "blm-591",
+          "t": "Chapter",
+          "n": "591"
+        }
+      ]
+    },
+    {
+      "id": "v-66",
+      "title": "Volume 66",
+      "sub": "chapters 592–601 · Sorry I Am Strong · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-592",
+          "t": "Chapter",
+          "n": "592"
+        },
+        {
+          "id": "blm-593",
+          "t": "Chapter",
+          "n": "593"
+        },
+        {
+          "id": "blm-594",
+          "t": "Chapter",
+          "n": "594"
+        },
+        {
+          "id": "blm-595",
+          "t": "Chapter",
+          "n": "595"
+        },
+        {
+          "id": "blm-596",
+          "t": "Chapter",
+          "n": "596"
+        },
+        {
+          "id": "blm-597",
+          "t": "Chapter",
+          "n": "597"
+        },
+        {
+          "id": "blm-598",
+          "t": "Chapter",
+          "n": "598"
+        },
+        {
+          "id": "blm-599",
+          "t": "Chapter",
+          "n": "599"
+        },
+        {
+          "id": "blm-600",
+          "t": "Chapter",
+          "n": "600"
+        },
+        {
+          "id": "blm-601",
+          "t": "Chapter",
+          "n": "601"
+        }
+      ]
+    },
+    {
+      "id": "v-67",
+      "title": "Volume 67",
+      "sub": "chapters 602–611 · Black · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-602",
+          "t": "Chapter",
+          "n": "602"
+        },
+        {
+          "id": "blm-603",
+          "t": "Chapter",
+          "n": "603"
+        },
+        {
+          "id": "blm-604",
+          "t": "Chapter",
+          "n": "604"
+        },
+        {
+          "id": "blm-605",
+          "t": "Chapter",
+          "n": "605"
+        },
+        {
+          "id": "blm-606",
+          "t": "Chapter",
+          "n": "606"
+        },
+        {
+          "id": "blm-607",
+          "t": "Chapter",
+          "n": "607"
+        },
+        {
+          "id": "blm-608",
+          "t": "Chapter",
+          "n": "608"
+        },
+        {
+          "id": "blm-609",
+          "t": "Chapter",
+          "n": "609"
+        },
+        {
+          "id": "blm-610",
+          "t": "Chapter",
+          "n": "610"
+        },
+        {
+          "id": "blm-611",
+          "t": "Chapter",
+          "n": "611"
+        }
+      ]
+    },
+    {
+      "id": "v-68",
+      "title": "Volume 68",
+      "sub": "chapters 612–622 · The Ordinary Peace · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-612",
+          "t": "Chapter",
+          "n": "612"
+        },
+        {
+          "id": "blm-613",
+          "t": "Chapter",
+          "n": "613"
+        },
+        {
+          "id": "blm-614",
+          "t": "Chapter",
+          "n": "614"
+        },
+        {
+          "id": "blm-615",
+          "t": "Chapter",
+          "n": "615"
+        },
+        {
+          "id": "blm-616",
+          "t": "Chapter",
+          "n": "616"
+        },
+        {
+          "id": "blm-617",
+          "t": "Chapter",
+          "n": "617"
+        },
+        {
+          "id": "blm-618",
+          "t": "Chapter",
+          "n": "618"
+        },
+        {
+          "id": "blm-619",
+          "t": "Chapter",
+          "n": "619"
+        },
+        {
+          "id": "blm-620",
+          "t": "Chapter",
+          "n": "620"
+        },
+        {
+          "id": "blm-621",
+          "t": "Chapter",
+          "n": "621"
+        },
+        {
+          "id": "blm-622",
+          "t": "Chapter",
+          "n": "622"
+        }
+      ]
+    },
+    {
+      "id": "v-69",
+      "title": "Volume 69",
+      "sub": "chapters 623–632 · Against the Judgement · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-623",
+          "t": "Chapter",
+          "n": "623"
+        },
+        {
+          "id": "blm-624",
+          "t": "Chapter",
+          "n": "624"
+        },
+        {
+          "id": "blm-625",
+          "t": "Chapter",
+          "n": "625"
+        },
+        {
+          "id": "blm-626",
+          "t": "Chapter",
+          "n": "626"
+        },
+        {
+          "id": "blm-627",
+          "t": "Chapter",
+          "n": "627"
+        },
+        {
+          "id": "blm-628",
+          "t": "Chapter",
+          "n": "628"
+        },
+        {
+          "id": "blm-629",
+          "t": "Chapter",
+          "n": "629"
+        },
+        {
+          "id": "blm-630",
+          "t": "Chapter",
+          "n": "630"
+        },
+        {
+          "id": "blm-631",
+          "t": "Chapter",
+          "n": "631"
+        },
+        {
+          "id": "blm-632",
+          "t": "Chapter",
+          "n": "632"
+        }
+      ]
+    },
+    {
+      "id": "v-70",
+      "title": "Volume 70",
+      "sub": "chapters 633–642 · Friend · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-633",
+          "t": "Chapter",
+          "n": "633"
+        },
+        {
+          "id": "blm-634",
+          "t": "Chapter",
+          "n": "634"
+        },
+        {
+          "id": "blm-635",
+          "t": "Chapter",
+          "n": "635"
+        },
+        {
+          "id": "blm-636",
+          "t": "Chapter",
+          "n": "636"
+        },
+        {
+          "id": "blm-637",
+          "t": "Chapter",
+          "n": "637"
+        },
+        {
+          "id": "blm-638",
+          "t": "Chapter",
+          "n": "638"
+        },
+        {
+          "id": "blm-639",
+          "t": "Chapter",
+          "n": "639"
+        },
+        {
+          "id": "blm-640",
+          "t": "Chapter",
+          "n": "640"
+        },
+        {
+          "id": "blm-641",
+          "t": "Chapter",
+          "n": "641"
+        },
+        {
+          "id": "blm-642",
+          "t": "Chapter",
+          "n": "642"
+        },
+        {
+          "id": "blm-x520-5-walk-under-two-letters",
+          "t": "Chapter",
+          "n": "520.5",
+          "note": "walk under two letters",
+          "opt": true
+        }
+      ]
+    },
+    {
+      "id": "v-71",
+      "title": "Volume 71",
+      "sub": "chapters 643–652 · Baby, Hold Your Hand · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-643",
+          "t": "Chapter",
+          "n": "643"
+        },
+        {
+          "id": "blm-644",
+          "t": "Chapter",
+          "n": "644"
+        },
+        {
+          "id": "blm-645",
+          "t": "Chapter",
+          "n": "645"
+        },
+        {
+          "id": "blm-646",
+          "t": "Chapter",
+          "n": "646"
+        },
+        {
+          "id": "blm-647",
+          "t": "Chapter",
+          "n": "647"
+        },
+        {
+          "id": "blm-648",
+          "t": "Chapter",
+          "n": "648"
+        },
+        {
+          "id": "blm-649",
+          "t": "Chapter",
+          "n": "649"
+        },
+        {
+          "id": "blm-650",
+          "t": "Chapter",
+          "n": "650"
+        },
+        {
+          "id": "blm-651",
+          "t": "Chapter",
+          "n": "651"
+        },
+        {
+          "id": "blm-652",
+          "t": "Chapter",
+          "n": "652"
+        }
+      ]
+    },
+    {
+      "id": "v-72",
+      "title": "Volume 72",
+      "sub": "chapters 653–663 · My Last Words · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-653",
+          "t": "Chapter",
+          "n": "653"
+        },
+        {
+          "id": "blm-654",
+          "t": "Chapter",
+          "n": "654"
+        },
+        {
+          "id": "blm-655",
+          "t": "Chapter",
+          "n": "655"
+        },
+        {
+          "id": "blm-656",
+          "t": "Chapter",
+          "n": "656"
+        },
+        {
+          "id": "blm-657",
+          "t": "Chapter",
+          "n": "657"
+        },
+        {
+          "id": "blm-658",
+          "t": "Chapter",
+          "n": "658"
+        },
+        {
+          "id": "blm-659",
+          "t": "Chapter",
+          "n": "659"
+        },
+        {
+          "id": "blm-660",
+          "t": "Chapter",
+          "n": "660"
+        },
+        {
+          "id": "blm-661",
+          "t": "Chapter",
+          "n": "661"
+        },
+        {
+          "id": "blm-662",
+          "t": "Chapter",
+          "n": "662"
+        },
+        {
+          "id": "blm-663",
+          "t": "Chapter",
+          "n": "663"
+        }
+      ]
+    },
+    {
+      "id": "v-73",
+      "title": "Volume 73",
+      "sub": "chapters 664–674 · Battle Field Burning · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-664",
+          "t": "Chapter",
+          "n": "664"
+        },
+        {
+          "id": "blm-665",
+          "t": "Chapter",
+          "n": "665"
+        },
+        {
+          "id": "blm-666",
+          "t": "Chapter",
+          "n": "666"
+        },
+        {
+          "id": "blm-667",
+          "t": "Chapter",
+          "n": "667"
+        },
+        {
+          "id": "blm-668",
+          "t": "Chapter",
+          "n": "668"
+        },
+        {
+          "id": "blm-669",
+          "t": "Chapter",
+          "n": "669"
+        },
+        {
+          "id": "blm-670",
+          "t": "Chapter",
+          "n": "670"
+        },
+        {
+          "id": "blm-671",
+          "t": "Chapter",
+          "n": "671"
+        },
+        {
+          "id": "blm-672",
+          "t": "Chapter",
+          "n": "672"
+        },
+        {
+          "id": "blm-673",
+          "t": "Chapter",
+          "n": "673"
+        },
+        {
+          "id": "blm-674",
+          "t": "Chapter",
+          "n": "674"
+        }
+      ]
+    },
+    {
+      "id": "v-74",
+      "title": "Volume 74",
+      "sub": "chapters 675–686 · The Death and the Strawberry · Thousand-Year Blood War",
+      "links": [
+        {
+          "label": "The chapter list",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bleach_chapters_(424%E2%80%93686)"
+        },
+        {
+          "label": "Read on Viz",
+          "url": "https://www.viz.com/shonenjump/chapters/bleach"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-675",
+          "t": "Chapter",
+          "n": "675"
+        },
+        {
+          "id": "blm-676",
+          "t": "Chapter",
+          "n": "676"
+        },
+        {
+          "id": "blm-677",
+          "t": "Chapter",
+          "n": "677"
+        },
+        {
+          "id": "blm-678",
+          "t": "Chapter",
+          "n": "678"
+        },
+        {
+          "id": "blm-679",
+          "t": "Chapter",
+          "n": "679"
+        },
+        {
+          "id": "blm-680",
+          "t": "Chapter",
+          "n": "680"
+        },
+        {
+          "id": "blm-681",
+          "t": "Chapter",
+          "n": "681"
+        },
+        {
+          "id": "blm-682",
+          "t": "Chapter",
+          "n": "682"
+        },
+        {
+          "id": "blm-683",
+          "t": "Chapter",
+          "n": "683"
+        },
+        {
+          "id": "blm-684",
+          "t": "Chapter",
+          "n": "684"
+        },
+        {
+          "id": "blm-685",
+          "t": "Chapter",
+          "n": "685"
+        },
+        {
+          "id": "blm-686",
+          "t": "Chapter",
+          "n": "686"
+        }
+      ]
+    },
+    {
+      "id": "after",
+      "title": "After the run",
+      "sub": "one chapter · New Breathes From Hell · in no volume",
+      "intro": "A 73-page chapter published in Weekly Shōnen Jump for the manga's 20th anniversary, five years after the last volume, and later released on its own. The article files it as a one-shot rather than as one of the 698, so it is optional here. Burn the Witch, Kubo's other series set in the same world, is a separate series and is not on this list.",
+      "links": [
+        {
+          "label": "The article",
+          "url": "https://en.wikipedia.org/wiki/Bleach_(manga)"
+        }
+      ],
+      "items": [
+        {
+          "id": "blm-oneshot-new-breathes-from-hell",
+          "t": "New Breathes From Hell",
+          "n": "",
+          "note": "20th-anniversary one-shot",
+          "opt": true
+        }
+      ]
+    }
+  ]
+}

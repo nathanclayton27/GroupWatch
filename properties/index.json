@@ -1107,6 +1107,25 @@
     "totalw": 64.67
   },
   {
+    "slug": "bleach-manga",
+    "media": [
+      "manga"
+    ],
+    "title": "Bleach (manga)",
+    "subtitle": "Tite Kubo",
+    "kind": "manga",
+    "year": "2001–2016",
+    "popularity": 74,
+    "blurb": "All 698 chapters across 74 volumes, in publication order, plus 10 optional extras — finished.",
+    "accent": "#1F3557",
+    "accentDark": "#89B9F0",
+    "unit": {
+      "one": "chapter",
+      "many": "chapters"
+    },
+    "total": 708
+  },
+  {
     "slug": "demon-slayer",
     "media": [
       "movies",
