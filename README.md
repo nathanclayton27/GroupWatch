@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and seventy-two lists, from a ten-episode anime to a 1,337-spine film
+One hundred and seventy-three lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -25,7 +25,7 @@ reading order rather than publication date.
 **Franchises.** *Star Wars* (films and television, with the games on their
 own page), *Metal Gear* (story-only hours, tiers, and a recap link for the
 MSX games), *Gundam* by continuity, *Godzilla* down to the Fest shorts,
-*Twin Peaks* with the books woven in, *The X-Files*, *The Sopranos*, *The
+*Twin Peaks* with the books woven in, *The X-Files*, *Farscape* (four seasons plus The Peacekeeper Wars, which is where the story actually ends), *The Sopranos*, *The
 Wire* and the whole *Breaking Bad* universe episode by episode, *The
 Twilight Zone* (1959, picker-ready), the Simpsons golden age, *Lost*, *Mad
 Men*, *Deadwood* (movie included), *Buffy and Angel* woven into one

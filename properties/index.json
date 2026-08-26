@@ -2685,6 +2685,25 @@
     "totalw": 395.0
   },
   {
+    "slug": "farscape",
+    "media": [
+      "tv"
+    ],
+    "title": "Farscape",
+    "subtitle": "four seasons and the miniseries that finishes them",
+    "kind": "tv",
+    "year": "1999–2004",
+    "popularity": 56,
+    "blurb": "All 88 episodes across four seasons, then both nights of The Peacekeeper Wars — because season four does not end the story.",
+    "accent": "#2B3A8F",
+    "accentDark": "#8B9BF0",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 90
+  },
+  {
     "slug": "friday-night-lights",
     "media": [
       "tv"

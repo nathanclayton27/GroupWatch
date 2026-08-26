@@ -4075,6 +4075,25 @@ let MANIFEST = [
     "totalw": 395.0
   },
   {
+    "slug": "farscape",
+    "media": [
+      "tv"
+    ],
+    "title": "Farscape",
+    "subtitle": "four seasons and the miniseries that finishes them",
+    "kind": "tv",
+    "year": "1999–2004",
+    "popularity": 56,
+    "blurb": "All 88 episodes across four seasons, then both nights of The Peacekeeper Wars — because season four does not end the story.",
+    "accent": "#2B3A8F",
+    "accentDark": "#8B9BF0",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 90
+  },
+  {
     "slug": "friday-night-lights",
     "media": [
       "tv"
@@ -4810,7 +4829,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '8257a129a08a';
+const BUILD = 'ecc48d6e0bd1';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or

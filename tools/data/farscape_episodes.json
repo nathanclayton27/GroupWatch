@@ -1,0 +1,669 @@
+{
+ "s1": {
+  "span": "1999–2000",
+  "eps": [
+   {
+    "o": 1,
+    "e": 1,
+    "t": "Premiere",
+    "y": 1999,
+    "air": "1999-03-19"
+   },
+   {
+    "o": 2,
+    "e": 2,
+    "t": "I, E.T.",
+    "y": 1999,
+    "air": "1999-04-30"
+   },
+   {
+    "o": 3,
+    "e": 3,
+    "t": "Exodus from Genesis",
+    "y": 1999,
+    "air": "1999-05-14"
+   },
+   {
+    "o": 4,
+    "e": 4,
+    "t": "Throne for a Loss",
+    "y": 1999,
+    "air": "1999-04-09"
+   },
+   {
+    "o": 5,
+    "e": 5,
+    "t": "Back and Back and Back to the Future",
+    "y": 1999,
+    "air": "1999-03-26"
+   },
+   {
+    "o": 6,
+    "e": 6,
+    "t": "Thank God It's Friday, Again",
+    "y": 1999,
+    "air": "1999-04-23"
+   },
+   {
+    "o": 7,
+    "e": 7,
+    "t": "PK Tech Girl",
+    "y": 1999,
+    "air": "1999-04-16"
+   },
+   {
+    "o": 8,
+    "e": 8,
+    "t": "That Old Black Magic",
+    "y": 1999,
+    "air": "1999-06-11"
+   },
+   {
+    "o": 9,
+    "e": 9,
+    "t": "DNA Mad Scientist",
+    "y": 1999,
+    "air": "1999-06-18"
+   },
+   {
+    "o": 10,
+    "e": 10,
+    "t": "They've Got a Secret",
+    "y": 1999,
+    "air": "1999-06-25"
+   },
+   {
+    "o": 11,
+    "e": 11,
+    "t": "Till the Blood Runs Clear",
+    "y": 1999,
+    "air": "1999-07-09"
+   },
+   {
+    "o": 12,
+    "e": 12,
+    "t": "Rhapsody in Blue",
+    "y": 1999,
+    "air": "1999-07-23"
+   },
+   {
+    "o": 13,
+    "e": 13,
+    "t": "The Flax",
+    "y": 1999,
+    "air": "1999-07-16"
+   },
+   {
+    "o": 14,
+    "e": 14,
+    "t": "Jeremiah Crichton",
+    "y": 1999,
+    "air": "1999-07-30"
+   },
+   {
+    "o": 15,
+    "e": 15,
+    "t": "Durka Returns",
+    "y": 1999,
+    "air": "1999-08-13"
+   },
+   {
+    "o": 16,
+    "e": 16,
+    "t": "A Human Reaction",
+    "y": 1999,
+    "air": "1999-08-20"
+   },
+   {
+    "o": 17,
+    "e": 17,
+    "t": "Through the Looking Glass",
+    "y": 1999,
+    "air": "1999-09-10"
+   },
+   {
+    "o": 18,
+    "e": 18,
+    "t": "A Bug's Life",
+    "y": 1999,
+    "air": "1999-09-17"
+   },
+   {
+    "o": 19,
+    "e": 19,
+    "t": "Nerve",
+    "y": 2000,
+    "air": "2000-01-07",
+    "part": 1
+   },
+   {
+    "o": 20,
+    "e": 20,
+    "t": "The Hidden Memory",
+    "y": 2000,
+    "air": "2000-01-14",
+    "part": 2
+   },
+   {
+    "o": 21,
+    "e": 21,
+    "t": "Bone to Be Wild",
+    "y": 2000,
+    "air": "2000-01-21"
+   },
+   {
+    "o": 22,
+    "e": 22,
+    "t": "Family Ties",
+    "y": 2000,
+    "air": "2000-01-28",
+    "part": 1
+   }
+  ]
+ },
+ "s2": {
+  "span": "2000–01",
+  "eps": [
+   {
+    "o": 23,
+    "e": 1,
+    "t": "Mind the Baby",
+    "y": 2000,
+    "air": "2000-03-17",
+    "part": 2
+   },
+   {
+    "o": 24,
+    "e": 2,
+    "t": "Vitas Mortis",
+    "y": 2000,
+    "air": "2000-03-24"
+   },
+   {
+    "o": 25,
+    "e": 3,
+    "t": "Taking the Stone",
+    "y": 2000,
+    "air": "2000-03-31"
+   },
+   {
+    "o": 26,
+    "e": 4,
+    "t": "Crackers Don't Matter",
+    "y": 2000,
+    "air": "2000-04-07"
+   },
+   {
+    "o": 27,
+    "e": 5,
+    "t": "The Way We Weren't",
+    "y": 2000,
+    "air": "2000-04-14"
+   },
+   {
+    "o": 28,
+    "e": 6,
+    "t": "Picture if You Will",
+    "y": 2000,
+    "air": "2000-04-21"
+   },
+   {
+    "o": 29,
+    "e": 7,
+    "t": "Home on the Remains",
+    "y": 2000,
+    "air": "2000-06-16"
+   },
+   {
+    "o": 30,
+    "e": 8,
+    "t": "Dream a Little Dream",
+    "y": 2000,
+    "air": "2000-06-23",
+    "alt": "Re:Union"
+   },
+   {
+    "o": 31,
+    "e": 9,
+    "t": "Out of Their Minds",
+    "y": 2000,
+    "air": "2000-07-07"
+   },
+   {
+    "o": 32,
+    "e": 10,
+    "t": "My Three Crichtons",
+    "y": 2000,
+    "air": "2000-07-14"
+   },
+   {
+    "o": 33,
+    "e": 11,
+    "t": "Look at the Princess (Part 1): A Kiss Is But a Kiss",
+    "y": 2000,
+    "air": "2000-07-21"
+   },
+   {
+    "o": 34,
+    "e": 12,
+    "t": "Look at the Princess (Part 2): I Do, I Think",
+    "y": 2000,
+    "air": "2000-07-28"
+   },
+   {
+    "o": 35,
+    "e": 13,
+    "t": "Look at the Princess (Part 3): The Maltese Crichton",
+    "y": 2000,
+    "air": "2000-08-04"
+   },
+   {
+    "o": 36,
+    "e": 14,
+    "t": "Beware of Dog",
+    "y": 2000,
+    "air": "2000-08-11"
+   },
+   {
+    "o": 37,
+    "e": 15,
+    "t": "Won't Get Fooled Again",
+    "y": 2000,
+    "air": "2000-08-18"
+   },
+   {
+    "o": 38,
+    "e": 16,
+    "t": "The Locket",
+    "y": 2000,
+    "air": "2000-08-25"
+   },
+   {
+    "o": 39,
+    "e": 17,
+    "t": "The Ugly Truth",
+    "y": 2000,
+    "air": "2000-09-08"
+   },
+   {
+    "o": 40,
+    "e": 18,
+    "t": "A Clockwork Nebari",
+    "y": 2000,
+    "air": "2000-09-15"
+   },
+   {
+    "o": 41,
+    "e": 19,
+    "t": "Liars, Guns and Money (Part 1): A Not So Simple Plan",
+    "y": 2000,
+    "air": "2000-12-04"
+   },
+   {
+    "o": 42,
+    "e": 20,
+    "t": "Liars, Guns and Money (Part 2): With Friends Like These",
+    "y": 2000,
+    "air": "2000-12-11"
+   },
+   {
+    "o": 43,
+    "e": 21,
+    "t": "Liars, Guns and Money (Part 3): Plan B",
+    "y": 2000,
+    "air": "2000-12-18"
+   },
+   {
+    "o": 44,
+    "e": 22,
+    "t": "Die Me, Dichotomy",
+    "y": 2000,
+    "air": "2000-12-19",
+    "part": 1
+   }
+  ]
+ },
+ "s3": {
+  "span": "2001–02",
+  "eps": [
+   {
+    "o": 45,
+    "e": 1,
+    "t": "Season of Death",
+    "y": 2001,
+    "air": "2001-03-16",
+    "part": 2
+   },
+   {
+    "o": 46,
+    "e": 2,
+    "t": "Suns and Lovers",
+    "y": 2001,
+    "air": "2001-03-23"
+   },
+   {
+    "o": 47,
+    "e": 3,
+    "t": "Self-Inflicted Wounds (Part 1): Could'a, Would'a, Should'a",
+    "y": 2001,
+    "air": "2001-03-30"
+   },
+   {
+    "o": 48,
+    "e": 4,
+    "t": "Self-Inflicted Wounds (Part 2): Wait for the Wheel",
+    "y": 2001,
+    "air": "2001-04-06"
+   },
+   {
+    "o": 49,
+    "e": 5,
+    "t": "…Different Destinations",
+    "y": 2001,
+    "air": "2001-04-13"
+   },
+   {
+    "o": 50,
+    "e": 6,
+    "t": "Eat Me",
+    "y": 2001,
+    "air": "2001-04-20"
+   },
+   {
+    "o": 51,
+    "e": 7,
+    "t": "Thanks for Sharing",
+    "y": 2001,
+    "air": "2001-06-15"
+   },
+   {
+    "o": 52,
+    "e": 8,
+    "t": "Green Eyed Monster",
+    "y": 2001,
+    "air": "2001-06-22"
+   },
+   {
+    "o": 53,
+    "e": 9,
+    "t": "Losing Time",
+    "y": 2001,
+    "air": "2001-06-29"
+   },
+   {
+    "o": 54,
+    "e": 10,
+    "t": "Relativity",
+    "y": 2001,
+    "air": "2001-07-06"
+   },
+   {
+    "o": 55,
+    "e": 11,
+    "t": "Incubator",
+    "y": 2001,
+    "air": "2001-07-13"
+   },
+   {
+    "o": 56,
+    "e": 12,
+    "t": "Meltdown",
+    "y": 2001,
+    "air": "2001-07-14"
+   },
+   {
+    "o": 57,
+    "e": 13,
+    "t": "Scratch 'n Sniff",
+    "y": 2001,
+    "air": "2001-07-20"
+   },
+   {
+    "o": 58,
+    "e": 14,
+    "t": "Infinite Possibilities (Part 1): Daedalus Demands",
+    "y": 2001,
+    "air": "2001-07-27"
+   },
+   {
+    "o": 59,
+    "e": 15,
+    "t": "Infinite Possibilities (Part 2): Icarus Abides",
+    "y": 2001,
+    "air": "2001-08-03"
+   },
+   {
+    "o": 60,
+    "e": 16,
+    "t": "Revenging Angel",
+    "y": 2001,
+    "air": "2001-08-10"
+   },
+   {
+    "o": 61,
+    "e": 17,
+    "t": "The Choice",
+    "y": 2001,
+    "air": "2001-08-17"
+   },
+   {
+    "o": 62,
+    "e": 18,
+    "t": "Fractures",
+    "y": 2001,
+    "air": "2001-08-24"
+   },
+   {
+    "o": 63,
+    "e": 19,
+    "t": "I-Yensch, You-Yensch",
+    "y": 2002,
+    "air": "2002-01-21"
+   },
+   {
+    "o": 64,
+    "e": 20,
+    "t": "Into the Lion's Den (Part 1): Lambs to the Slaughter",
+    "y": 2002,
+    "air": "2002-01-24"
+   },
+   {
+    "o": 65,
+    "e": 21,
+    "t": "Into the Lion's Den (Part 2): Wolf in Sheep's Clothing",
+    "y": 2002,
+    "air": "2002-01-28"
+   },
+   {
+    "o": 66,
+    "e": 22,
+    "t": "Dog With Two Bones",
+    "y": 2002,
+    "air": "2002-01-31",
+    "part": 1
+   }
+  ]
+ },
+ "s4": {
+  "span": "2002–03",
+  "eps": [
+   {
+    "o": 67,
+    "e": 1,
+    "t": "Crichton Kicks",
+    "y": 2002,
+    "air": "2002-06-07",
+    "part": 2
+   },
+   {
+    "o": 68,
+    "e": 2,
+    "t": "What Was Lost (Part 1): Sacrifice",
+    "y": 2002,
+    "air": "2002-06-14"
+   },
+   {
+    "o": 69,
+    "e": 3,
+    "t": "What Was Lost (Part 2): Resurrection",
+    "y": 2002,
+    "air": "2002-06-21"
+   },
+   {
+    "o": 70,
+    "e": 4,
+    "t": "Lava's a Many Splendored Thing",
+    "y": 2002,
+    "air": "2002-06-28"
+   },
+   {
+    "o": 71,
+    "e": 5,
+    "t": "Promises",
+    "y": 2002,
+    "air": "2002-07-12"
+   },
+   {
+    "o": 72,
+    "e": 6,
+    "t": "Natural Election",
+    "y": 2002,
+    "air": "2002-07-19"
+   },
+   {
+    "o": 73,
+    "e": 7,
+    "t": "John Quixote",
+    "y": 2002,
+    "air": "2002-07-26"
+   },
+   {
+    "o": 74,
+    "e": 8,
+    "t": "I Shrink Therefore I Am",
+    "y": 2002,
+    "air": "2002-08-02"
+   },
+   {
+    "o": 75,
+    "e": 9,
+    "t": "A Prefect Murder",
+    "y": 2002,
+    "air": "2002-08-09"
+   },
+   {
+    "o": 76,
+    "e": 10,
+    "t": "Coup By Clam",
+    "y": 2002,
+    "air": "2002-08-16"
+   },
+   {
+    "o": 77,
+    "e": 11,
+    "t": "Unrealized Reality",
+    "y": 2002,
+    "air": "2002-08-23",
+    "part": 1
+   },
+   {
+    "o": 78,
+    "e": 12,
+    "t": "Kansas",
+    "y": 2002,
+    "air": "2002-12-30",
+    "part": 2
+   },
+   {
+    "o": 79,
+    "e": 13,
+    "t": "Terra Firma",
+    "y": 2003,
+    "air": "2003-01-06",
+    "part": 3
+   },
+   {
+    "o": 80,
+    "e": 14,
+    "t": "Twice Shy",
+    "y": 2003,
+    "air": "2003-01-13"
+   },
+   {
+    "o": 81,
+    "e": 15,
+    "t": "Mental as Anything",
+    "y": 2003,
+    "air": "2003-01-20"
+   },
+   {
+    "o": 82,
+    "e": 16,
+    "t": "Bringing Home the Beacon",
+    "y": 2003,
+    "air": "2003-01-27"
+   },
+   {
+    "o": 83,
+    "e": 17,
+    "t": "A Constellation of Doubt",
+    "y": 2003,
+    "air": "2003-02-10"
+   },
+   {
+    "o": 84,
+    "e": 18,
+    "t": "Prayer",
+    "y": 2003,
+    "air": "2003-02-17"
+   },
+   {
+    "o": 85,
+    "e": 19,
+    "t": "We're So Screwed (Part 1): Fetal Attraction",
+    "y": 2003,
+    "air": "2003-02-24"
+   },
+   {
+    "o": 86,
+    "e": 20,
+    "t": "We're So Screwed (Part 2): Hot to Katratzi",
+    "y": 2003,
+    "air": "2003-02-25"
+   },
+   {
+    "o": 87,
+    "e": 21,
+    "t": "We're So Screwed (Part 3): La Bomba",
+    "y": 2003,
+    "air": "2003-03-03"
+   },
+   {
+    "o": 88,
+    "e": 22,
+    "t": "Bad Timing",
+    "y": 2003,
+    "air": "2003-03-10"
+   }
+  ]
+ },
+ "pkw": {
+  "span": "",
+  "eps": [
+   {
+    "o": 89,
+    "e": null,
+    "t": "The Peacekeeper Wars: Part 1",
+    "y": 2004,
+    "air": "2004-10-17"
+   },
+   {
+    "o": 90,
+    "e": null,
+    "t": "The Peacekeeper Wars: Part 2",
+    "y": 2004,
+    "air": "2004-10-18"
+   }
+  ]
+ }
+}

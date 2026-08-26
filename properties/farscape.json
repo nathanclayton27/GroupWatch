@@ -1,0 +1,547 @@
+{
+  "slug": "farscape",
+  "title": "Farscape",
+  "subtitle": "four seasons and the miniseries that finishes them",
+  "kind": "tv",
+  "popularity": 56,
+  "year": "1999–2004",
+  "blurb": "All 88 episodes across four seasons, then both nights of The Peacekeeper Wars — because season four does not end the story.",
+  "unit": {
+    "one": "entry",
+    "many": "entries"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "itemOrder": "number-first",
+  "accent": "#2B3A8F",
+  "accentDark": "#8B9BF0",
+  "tiers": false,
+  "notes": [
+    [
+      "The Peacekeeper Wars is not optional.",
+      "Sci-Fi withdrew funding for a fifth season in September 2002, with eleven episodes of season four still unaired, and season four ends mid-story. The two-night miniseries that followed in 2004 was made to finish it, and the episode list numbers its parts 89 and 90 of the same run. It gets a section rather than a footnote for that reason: stopping at 88 is stopping early."
+    ],
+    [
+      "The source marks its own parts.",
+      "Seven named arcs carry the marker inside the title — Look at the Princess (Part 1), We're So Screwed (Part 3) — and seventeen rows are theirs. Four more pairs and one trio are marked outside the title, and those became row notes so nothing was lost. Three of the four seasons end on a part one that the next season's premiere concludes; season four ends on no such marker, and the miniseries is what follows it."
+    ],
+    [
+      "Season one is in production order.",
+      "The list follows the order the official Farscape site published rather than the order Sci-Fi aired them, and several early season one episodes differ between the two. Sci-Fi's scheduling was erratic throughout — season one's last four went out nearly four months after the one before them — and the other three seasons are in airdate order either way."
+    ],
+    [
+      "Nothing is weighted.",
+      "No per-episode runtimes are published: the source gives one blanket 44-to-50 minutes for the whole run, which is a figure for the series and not for any episode in it. The miniseries does publish 182 minutes, and weighting those two rows while the other 88 stayed bare would quietly count each of them as exactly one hour. So no row carries a weight and every entry counts as one."
+    ],
+    "Titles, numbering, part markers and airdates machine-read from Wikipedia's List of Farscape episodes and Farscape: The Peacekeeper Wars; the page's own series overview counts and an unbroken 1–90 numbering are asserted before this builds."
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Season 1",
+      "sub": "1999–2000 · 22 episodes",
+      "items": [
+        {
+          "id": "fs-s1e1",
+          "t": "Premiere",
+          "n": "1"
+        },
+        {
+          "id": "fs-s1e2",
+          "t": "I, E.T.",
+          "n": "2"
+        },
+        {
+          "id": "fs-s1e3",
+          "t": "Exodus from Genesis",
+          "n": "3"
+        },
+        {
+          "id": "fs-s1e4",
+          "t": "Throne for a Loss",
+          "n": "4"
+        },
+        {
+          "id": "fs-s1e5",
+          "t": "Back and Back and Back to the Future",
+          "n": "5"
+        },
+        {
+          "id": "fs-s1e6",
+          "t": "Thank God It's Friday, Again",
+          "n": "6"
+        },
+        {
+          "id": "fs-s1e7",
+          "t": "PK Tech Girl",
+          "n": "7"
+        },
+        {
+          "id": "fs-s1e8",
+          "t": "That Old Black Magic",
+          "n": "8"
+        },
+        {
+          "id": "fs-s1e9",
+          "t": "DNA Mad Scientist",
+          "n": "9"
+        },
+        {
+          "id": "fs-s1e10",
+          "t": "They've Got a Secret",
+          "n": "10"
+        },
+        {
+          "id": "fs-s1e11",
+          "t": "Till the Blood Runs Clear",
+          "n": "11"
+        },
+        {
+          "id": "fs-s1e12",
+          "t": "Rhapsody in Blue",
+          "n": "12"
+        },
+        {
+          "id": "fs-s1e13",
+          "t": "The Flax",
+          "n": "13"
+        },
+        {
+          "id": "fs-s1e14",
+          "t": "Jeremiah Crichton",
+          "n": "14"
+        },
+        {
+          "id": "fs-s1e15",
+          "t": "Durka Returns",
+          "n": "15"
+        },
+        {
+          "id": "fs-s1e16",
+          "t": "A Human Reaction",
+          "n": "16"
+        },
+        {
+          "id": "fs-s1e17",
+          "t": "Through the Looking Glass",
+          "n": "17"
+        },
+        {
+          "id": "fs-s1e18",
+          "t": "A Bug's Life",
+          "n": "18"
+        },
+        {
+          "id": "fs-s1e19",
+          "t": "Nerve",
+          "n": "19",
+          "note": "Part 1 of two"
+        },
+        {
+          "id": "fs-s1e20",
+          "t": "The Hidden Memory",
+          "n": "20",
+          "note": "Part 2 of two"
+        },
+        {
+          "id": "fs-s1e21",
+          "t": "Bone to Be Wild",
+          "n": "21"
+        },
+        {
+          "id": "fs-s1e22",
+          "t": "Family Ties",
+          "n": "22",
+          "note": "Season finale · Part 1 of two, concluded in season 2"
+        }
+      ],
+      "intro": "In the order the official Farscape site published — production order — which is not the order Sci-Fi aired several of these.",
+      "open": true
+    },
+    {
+      "id": "s2",
+      "title": "Season 2",
+      "sub": "2000–01 · 22 episodes",
+      "items": [
+        {
+          "id": "fs-s2e1",
+          "t": "Mind the Baby",
+          "n": "1",
+          "note": "Season premiere · Part 2 of two, begun in season 1"
+        },
+        {
+          "id": "fs-s2e2",
+          "t": "Vitas Mortis",
+          "n": "2"
+        },
+        {
+          "id": "fs-s2e3",
+          "t": "Taking the Stone",
+          "n": "3"
+        },
+        {
+          "id": "fs-s2e4",
+          "t": "Crackers Don't Matter",
+          "n": "4"
+        },
+        {
+          "id": "fs-s2e5",
+          "t": "The Way We Weren't",
+          "n": "5"
+        },
+        {
+          "id": "fs-s2e6",
+          "t": "Picture if You Will",
+          "n": "6"
+        },
+        {
+          "id": "fs-s2e7",
+          "t": "Home on the Remains",
+          "n": "7"
+        },
+        {
+          "id": "fs-s2e8",
+          "t": "Dream a Little Dream",
+          "n": "8",
+          "note": "Also known as Re:Union"
+        },
+        {
+          "id": "fs-s2e9",
+          "t": "Out of Their Minds",
+          "n": "9"
+        },
+        {
+          "id": "fs-s2e10",
+          "t": "My Three Crichtons",
+          "n": "10"
+        },
+        {
+          "id": "fs-s2e11",
+          "t": "Look at the Princess (Part 1): A Kiss Is But a Kiss",
+          "n": "11"
+        },
+        {
+          "id": "fs-s2e12",
+          "t": "Look at the Princess (Part 2): I Do, I Think",
+          "n": "12"
+        },
+        {
+          "id": "fs-s2e13",
+          "t": "Look at the Princess (Part 3): The Maltese Crichton",
+          "n": "13"
+        },
+        {
+          "id": "fs-s2e14",
+          "t": "Beware of Dog",
+          "n": "14"
+        },
+        {
+          "id": "fs-s2e15",
+          "t": "Won't Get Fooled Again",
+          "n": "15"
+        },
+        {
+          "id": "fs-s2e16",
+          "t": "The Locket",
+          "n": "16"
+        },
+        {
+          "id": "fs-s2e17",
+          "t": "The Ugly Truth",
+          "n": "17"
+        },
+        {
+          "id": "fs-s2e18",
+          "t": "A Clockwork Nebari",
+          "n": "18"
+        },
+        {
+          "id": "fs-s2e19",
+          "t": "Liars, Guns and Money (Part 1): A Not So Simple Plan",
+          "n": "19"
+        },
+        {
+          "id": "fs-s2e20",
+          "t": "Liars, Guns and Money (Part 2): With Friends Like These",
+          "n": "20"
+        },
+        {
+          "id": "fs-s2e21",
+          "t": "Liars, Guns and Money (Part 3): Plan B",
+          "n": "21"
+        },
+        {
+          "id": "fs-s2e22",
+          "t": "Die Me, Dichotomy",
+          "n": "22",
+          "note": "Season finale · Part 1 of two, concluded in season 3"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Season 3",
+      "sub": "2001–02 · 22 episodes",
+      "items": [
+        {
+          "id": "fs-s3e1",
+          "t": "Season of Death",
+          "n": "1",
+          "note": "Season premiere · Part 2 of two, begun in season 2"
+        },
+        {
+          "id": "fs-s3e2",
+          "t": "Suns and Lovers",
+          "n": "2"
+        },
+        {
+          "id": "fs-s3e3",
+          "t": "Self-Inflicted Wounds (Part 1): Could'a, Would'a, Should'a",
+          "n": "3"
+        },
+        {
+          "id": "fs-s3e4",
+          "t": "Self-Inflicted Wounds (Part 2): Wait for the Wheel",
+          "n": "4"
+        },
+        {
+          "id": "fs-s3e5",
+          "t": "…Different Destinations",
+          "n": "5"
+        },
+        {
+          "id": "fs-s3e6",
+          "t": "Eat Me",
+          "n": "6"
+        },
+        {
+          "id": "fs-s3e7",
+          "t": "Thanks for Sharing",
+          "n": "7"
+        },
+        {
+          "id": "fs-s3e8",
+          "t": "Green Eyed Monster",
+          "n": "8"
+        },
+        {
+          "id": "fs-s3e9",
+          "t": "Losing Time",
+          "n": "9"
+        },
+        {
+          "id": "fs-s3e10",
+          "t": "Relativity",
+          "n": "10"
+        },
+        {
+          "id": "fs-s3e11",
+          "t": "Incubator",
+          "n": "11"
+        },
+        {
+          "id": "fs-s3e12",
+          "t": "Meltdown",
+          "n": "12"
+        },
+        {
+          "id": "fs-s3e13",
+          "t": "Scratch 'n Sniff",
+          "n": "13"
+        },
+        {
+          "id": "fs-s3e14",
+          "t": "Infinite Possibilities (Part 1): Daedalus Demands",
+          "n": "14"
+        },
+        {
+          "id": "fs-s3e15",
+          "t": "Infinite Possibilities (Part 2): Icarus Abides",
+          "n": "15"
+        },
+        {
+          "id": "fs-s3e16",
+          "t": "Revenging Angel",
+          "n": "16"
+        },
+        {
+          "id": "fs-s3e17",
+          "t": "The Choice",
+          "n": "17"
+        },
+        {
+          "id": "fs-s3e18",
+          "t": "Fractures",
+          "n": "18"
+        },
+        {
+          "id": "fs-s3e19",
+          "t": "I-Yensch, You-Yensch",
+          "n": "19"
+        },
+        {
+          "id": "fs-s3e20",
+          "t": "Into the Lion's Den (Part 1): Lambs to the Slaughter",
+          "n": "20"
+        },
+        {
+          "id": "fs-s3e21",
+          "t": "Into the Lion's Den (Part 2): Wolf in Sheep's Clothing",
+          "n": "21"
+        },
+        {
+          "id": "fs-s3e22",
+          "t": "Dog With Two Bones",
+          "n": "22",
+          "note": "Season finale · Part 1 of two, concluded in season 4"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Season 4",
+      "sub": "2002–03 · 22 episodes · not the end of the story",
+      "items": [
+        {
+          "id": "fs-s4e1",
+          "t": "Crichton Kicks",
+          "n": "1",
+          "note": "Season premiere · Part 2 of two, begun in season 3"
+        },
+        {
+          "id": "fs-s4e2",
+          "t": "What Was Lost (Part 1): Sacrifice",
+          "n": "2"
+        },
+        {
+          "id": "fs-s4e3",
+          "t": "What Was Lost (Part 2): Resurrection",
+          "n": "3"
+        },
+        {
+          "id": "fs-s4e4",
+          "t": "Lava's a Many Splendored Thing",
+          "n": "4"
+        },
+        {
+          "id": "fs-s4e5",
+          "t": "Promises",
+          "n": "5"
+        },
+        {
+          "id": "fs-s4e6",
+          "t": "Natural Election",
+          "n": "6"
+        },
+        {
+          "id": "fs-s4e7",
+          "t": "John Quixote",
+          "n": "7"
+        },
+        {
+          "id": "fs-s4e8",
+          "t": "I Shrink Therefore I Am",
+          "n": "8"
+        },
+        {
+          "id": "fs-s4e9",
+          "t": "A Prefect Murder",
+          "n": "9"
+        },
+        {
+          "id": "fs-s4e10",
+          "t": "Coup By Clam",
+          "n": "10"
+        },
+        {
+          "id": "fs-s4e11",
+          "t": "Unrealized Reality",
+          "n": "11",
+          "note": "Part 1 of three"
+        },
+        {
+          "id": "fs-s4e12",
+          "t": "Kansas",
+          "n": "12",
+          "note": "Part 2 of three"
+        },
+        {
+          "id": "fs-s4e13",
+          "t": "Terra Firma",
+          "n": "13",
+          "note": "Part 3 of three"
+        },
+        {
+          "id": "fs-s4e14",
+          "t": "Twice Shy",
+          "n": "14"
+        },
+        {
+          "id": "fs-s4e15",
+          "t": "Mental as Anything",
+          "n": "15"
+        },
+        {
+          "id": "fs-s4e16",
+          "t": "Bringing Home the Beacon",
+          "n": "16"
+        },
+        {
+          "id": "fs-s4e17",
+          "t": "A Constellation of Doubt",
+          "n": "17"
+        },
+        {
+          "id": "fs-s4e18",
+          "t": "Prayer",
+          "n": "18"
+        },
+        {
+          "id": "fs-s4e19",
+          "t": "We're So Screwed (Part 1): Fetal Attraction",
+          "n": "19"
+        },
+        {
+          "id": "fs-s4e20",
+          "t": "We're So Screwed (Part 2): Hot to Katratzi",
+          "n": "20"
+        },
+        {
+          "id": "fs-s4e21",
+          "t": "We're So Screwed (Part 3): La Bomba",
+          "n": "21"
+        },
+        {
+          "id": "fs-s4e22",
+          "t": "Bad Timing",
+          "n": "22",
+          "note": "Season finale · the story continues in The Peacekeeper Wars"
+        }
+      ],
+      "intro": "Sci-Fi withdrew funding for a fifth season in September 2002, with eleven of these episodes still unaired. This season does not end the story."
+    },
+    {
+      "id": "pkw",
+      "title": "The Peacekeeper Wars",
+      "sub": "2004 · two nights · the ending",
+      "intro": "Not optional. The miniseries was made after the cancellation to finish what season four leaves open, and the same source that numbers the seasons numbers its two parts 89 and 90 of the run. Four seasons and stop is an unfinished watch.",
+      "items": [
+        {
+          "id": "fs-pkw-1",
+          "t": "The Peacekeeper Wars: Part 1",
+          "n": "1",
+          "note": "First night · 17 October 2004"
+        },
+        {
+          "id": "fs-pkw-2",
+          "t": "The Peacekeeper Wars: Part 2",
+          "n": "2",
+          "note": "Second night · 18 October 2004"
+        }
+      ]
+    }
+  ]
+}
