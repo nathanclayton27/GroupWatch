@@ -4846,6 +4846,27 @@ let MANIFEST = [
     "total": 57
   },
   {
+    "slug": "martial-arts",
+    "media": [
+      "movies"
+    ],
+    "title": "Martial Arts",
+    "subtitle": "the classics of Chinese kung fu and wuxia cinema",
+    "kind": "films",
+    "year": "1960–2024",
+    "popularity": 54,
+    "blurb": "122 Chinese martial arts films the genre's own canon, histories and award juries picked out, 1960 to 2024 — about 220 hours. No order; let the picker choose.",
+    "accent": "#96341C",
+    "accentDark": "#E8825E",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 122,
+    "totalw": 220.28,
+    "random": true
+  },
+  {
     "slug": "palme-dor",
     "media": [
       "movies"
@@ -5541,13 +5562,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'b7b51ab6a50d';
+const BUILD = '86ca9c1705e2';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = 'f055200974';
+const SYNCVER = 'fd1ca386d3';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

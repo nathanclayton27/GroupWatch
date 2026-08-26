@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-Two hundred and six lists, from a ten-episode anime to a 1,418-row film
+Two hundred and seven lists, from a ten-episode anime to a 1,418-row film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -75,6 +75,14 @@ prints a database identifier for every entry, the whole list resolves to
 Wikidata ids from the source's own numbering rather than by matching titles.
 Films released after that selection closed need two of Korea's eight film
 juries instead. *Parasite* now ties five lists together.
+
+**Martial Arts** is the gated companion to those five, and its gate had to be
+built around a fact about the genre: *every award that honours it postdates its
+founding decade*. The Hong Kong Film Awards began in 1982, its action-choreography
+prize in 1983 — so a gate made of canon and awards alone would have excluded
+*Enter the Dragon*, *The 36th Chamber of Shaolin* and *Come Drink with Me*. Five
+written histories sit on the panel for exactly that reason, and the page says
+they are tertiary sources.
 
 **The martial artists.** *Bruce Lee* (the five leading roles, and the twenty
 films he made as a child actor in Hong Kong, which the source keeps in the same

@@ -3412,6 +3412,27 @@
     "total": 57
   },
   {
+    "slug": "martial-arts",
+    "media": [
+      "movies"
+    ],
+    "title": "Martial Arts",
+    "subtitle": "the classics of Chinese kung fu and wuxia cinema",
+    "kind": "films",
+    "year": "1960–2024",
+    "popularity": 54,
+    "blurb": "122 Chinese martial arts films the genre's own canon, histories and award juries picked out, 1960 to 2024 — about 220 hours. No order; let the picker choose.",
+    "accent": "#96341C",
+    "accentDark": "#E8825E",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 122,
+    "totalw": 220.28,
+    "random": true
+  },
+  {
     "slug": "palme-dor",
     "media": [
       "movies"
