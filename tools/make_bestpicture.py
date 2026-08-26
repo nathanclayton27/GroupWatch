@@ -279,6 +279,19 @@ def main():
             it = {"id": "bp-%d-%s" % (g["year"], slug(f["t"])),
                   "t": f["t"], "n": g["label"],
                   "w": round(r / 60.0, 2) if r else 0}
+            # The canonical work id, CLU-191. This list dates rows by the
+            # Academy's award year, which for most films IS the release year
+            # but diverges when a film premieres in one year and opens in the
+            # next — Casablanca is 1943 here and 1942 on Criterion, and both
+            # are citing a real release. An id pairs them without either list
+            # having to change the year it prints.
+            #
+            # It is safe to emit here for one reason only: it was resolved
+            # from the wikilink THIS article gives, not guessed from a title.
+            # A guess lands on the wrong film — resolving "Friendly Persuasion
+            # (film)" by name reaches a different entity entirely.
+            if runt[f["target"]].get("qid"):
+                it["q"] = runt[f["target"]]["qid"]
             # tags feed the Winners/Nominees toggle; the strip follows the
             # filter, so "just the winners" narrows the bar to 98 marks too
             # only winners carry a tag: the single Winners chip is the whole
@@ -310,6 +323,8 @@ def main():
                "t": w["t"], "n": g["label"],
                "w": round(r / 60.0, 2) if r else 0,
                "note": "Won Best Picture", "star": 2, "tags": ["Winners"]}
+        if runt[w["target"]].get("qid"):
+            row["q"] = runt[w["target"]]["qid"]
         dec = (g["year"] // 10) * 10
         decades.setdefault(dec, []).append(row)
     alt = []

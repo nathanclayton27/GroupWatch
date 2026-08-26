@@ -1,0 +1,283 @@
+{
+  "animatrix": {
+    "per_segment_runtimes": false,
+    "plot_segments": [
+      "Final Flight of the Osiris",
+      "The Second Renaissance, Part I",
+      "The Second Renaissance, Part II",
+      "Kid's Story",
+      "Program",
+      "World Record",
+      "Beyond",
+      "A Detective Story",
+      "Matriculated"
+    ],
+    "staff_rows": [
+      {
+        "director": "Andy Jones",
+        "segment": "Final Flight of the Osiris"
+      },
+      {
+        "director": "Mahiro Maeda",
+        "segment": "The Second Renaissance"
+      },
+      {
+        "director": "Shinichirō Watanabe",
+        "segment": "Kid's Story"
+      },
+      {
+        "director": "Yoshiaki Kawajiri",
+        "segment": "Program"
+      },
+      {
+        "director": "Takeshi Koike",
+        "segment": "World Record"
+      },
+      {
+        "director": "Kōji Morimoto",
+        "segment": "Beyond"
+      },
+      {
+        "director": "Shinichirō Watanabe",
+        "segment": "A Detective Story"
+      },
+      {
+        "director": "Peter Chung",
+        "segment": "Matriculated"
+      }
+    ]
+  },
+  "claims": {
+    "Dreamcatcher (2003 film)": {
+      "released": "released = 21 | runtime = 134 minutes | country = United States | language = English | budget = $68 million | gross = $75.7 million 'Dreamcatcher' is a 2003 American science fiction horror film based on Stephen King's 2001 novel of the same name."
+    },
+    "Enter the Matrix": {
+      "lead": "The first game based on The Matrix film series, its story is concurrent with that of the film The Matrix Reloaded and features over an hour of original footage, written and directed by the Wachowskis and starring the cast of the films, produced for the game. Released on May 15, 2003, around the same period as The Matrix Reloaded, Enter the Matrix was simultaneously produced with The Matrix Reloaded and The Matrix Revolutions.",
+      "simultaneous": "Released on May 15, 2003, around the same period as The Matrix Reloaded, Enter the Matrix was simultaneously produced with The Matrix Reloaded and The Matrix Revolutions."
+    },
+    "The Animatrix": {
+      "dvd_release": "The other films were first released on the VHS and DVD editions of The Animatrix on June 3, 2003.",
+      "kids_gap": "Kid's Story takes place during the six-month gap between The Matrix and The Matrix Reloaded, during which Neo has joined the crew of the Nebuchadnezzar and is helping the rebels free other humans from the Matrix.",
+      "lead": "It includes nine animated short films, some of which provide backstory for The Matrix film series, while others present side stories.",
+      "osiris_sets_up": "Entering the Matrix, Jue eventually reaches a mailbox where she drops off a package; this sets up the prologue for the video game Enter the Matrix.",
+      "osiris_theaters": "Final Flight of the Osiris was shown in theaters with the film Dreamcatcher."
+    },
+    "The Matrix": {
+      "oscars": "The Matrix received Academy Awards for Best Visual Effects, Best Film Editing, Best Sound and Best Sound Effects Editing.",
+      "registry": "In 2012, it was selected for preservation in the United States National Film Registry by the Library of Congress for being \"culturally, historically, and aesthetically significant\"."
+    },
+    "The Matrix (franchise)": {
+      "animatrix_debut": "Four of the films were originally released on the series' official website, one was shown in cinemas with Dreamcatcher, one was shown on MTV, MTV2, MTV3, MTV4, and Syfi, and the others first appeared with the DVD release of all nine shorts shortly after the release of The Matrix Reloaded. ===Video games=== On May&nbsp;15, 2003, the game Enter the Matrix was released in North America concurrently with The Matrix Reloaded.",
+      "animatrix_is": "This is a collection of nine animated short films intended to further flesh out the concepts, history, characters, and setting of the series.",
+      "animatrix_when": "In acknowledgment of the strong influence of Japanese Anime on the Matrix series, The Animatrix was produced in 2003 to coincide with the release of The Matrix Reloaded.",
+      "awakens_is": "An interactive technology demonstration, titled The Matrix Awakens, was released on December&nbsp;9, 2021. ===Comic books=== The Matrix Comics The Matrix Comics is a set of comics and short stories based on the series and written and illustrated by figures from the comics industry; one of the comics was written by the Wachowskis and illustrated by the films' concept artist Geof Darrow.",
+      "burly_man": "The sequels, The Matrix Reloaded and The Matrix Revolutions, were filmed simultaneously during one shoot (under the project codename \"The Burly Man\"), and released in two parts in 2003.",
+      "enter_shot": "The first of three video games related to the films, it told a story running parallel to The Matrix Reloaded and featured scenes that were shot during the filming of The Matrix Reloaded and The Matrix Revolutions. Two more The Matrix video games were released in 2005.",
+      "enter_when": "On May&nbsp;15, 2003, the game Enter the Matrix was released in North America concurrently with The Matrix Reloaded.",
+      "fifth_film": "A fifth film is currently in development with Drew Goddard set to write and direct with Lana Wachowski executive producing. ==Setting== date=October 2020 The series depicts a future in which Earth is dominated by a race of self-aware machines that was spawned from the creation of artificial intelligence early in the 21st century.",
+      "neo_is": "The MMORPG The Matrix Online continued the story beyond The Matrix Revolutions, while The Matrix: Path of Neo allowed players to control Neo in scenes from the film trilogy.",
+      "online_continued": "The MMORPG The Matrix Online continued the story beyond The Matrix Revolutions, while The Matrix: Path of Neo allowed players to control Neo in scenes from the film trilogy.",
+      "online_shut": "The Matrix Online was shut down in 2009. The Matrix official website also provided several original Adobe Flash-based browser games. An interactive technology demonstration, titled The Matrix Awakens, was released on December&nbsp;9, 2021. ===Comic books=== The Matrix Comics The Matrix Comics is a set of comics and short stories based on the series and written and illustrated by figures from the comics industry; one of the comics was written by the Wachowskis and illustrated by the films' concept artist Geof Darrow.",
+      "trilogy_backed": "The film's mainstream success had backed up the initial idea of making a trilogy."
+    },
+    "The Matrix Awakens": {
+      "delisted": "The game was later delisted on July 9, 2022. ==Background== The demo was written and directed by Resurrections director Lana Wachowski, with many members of the team that worked on the first three Matrix films participating in the project, including John Gaeta, James McTeigue, Kym Barrett, and Kim Libreri, the chief technology officer of Epic Games. ==Reception== Eurogamer commented that the game looked a \"suitable 4K\" on PS5 and Xbox Series X by using temporal super resolution TSR technology for sub-native rendering.",
+      "tech_demo": "'The Matrix Awakens' is a 2021 action-adventure game and technology demonstration developed by Epic Games using Unreal Engine 5 in partnership with [[Warner Bros."
+    },
+    "The Matrix Comics": {
+      "free_web": "The comics and stories were originally presented for free on the Matrix series' website between 1999 and 2003.",
+      "lead": "'The Matrix Comics' is a set of comics and short stories based on The Matrix film series and written and illustrated by figures from the comics industry."
+    },
+    "The Matrix Online": {
+      "discontinued": "'The Matrix Online' (abbreviated as 'MxO') is a discontinued massively multiplayer online role-playing game (MMORPG) initially developed by Monolith Productions and later, a few months after launch, by Sony Online Entertainment.",
+      "shutdown": "Sony Online Entertainment shut down operation of the game on July 31, 2009. Ubisoft backed out of an agreement to co-publish the game, not long after canceling plans for another MMORPG."
+    },
+    "The Matrix Reloaded": {
+      "filming": "Filming began on March 1, 2001, and ended on August 21, 2002, concurrently with the filming of the second sequel, Revolutions and the live-action footage for the Enter the Matrix video game."
+    },
+    "The Matrix Revisited": {
+      "documentary": "'The Matrix Revisited' is a 2001 American documentary film about the production of the 1999 film The Matrix."
+    },
+    "The Matrix Revolutions": {
+      "back_to_back": "'The Matrix Revolutions' is a 2003 American science fiction action film written and directed by the Wachowskis. It is the third film in The Matrix film series, shot back-to-back with The Matrix Reloaded (2003).",
+      "online_closed": "Although The Matrix Revolutions was the final installment in the original trilogy of the series, the storyline of the films was continued in the now-closed video game The Matrix Online (2005). A fourth film, The Matrix Resurrections, was released in 2021. ==Plot== Having been rescued by the crew of the Mjolnir in the real world, Neo's body lies in the ship's medical bay.",
+      "supported": "Like its predecessor, the video game Enter the Matrix and The Animatrix, a collection of short animations, supported and expanded the film's story."
+    },
+    "The Matrix: Path of Neo": {
+      "gameplay": "Players assume the role of Neo, with the objective of guiding the character through the events of The Matrix trilogy, supported by montages of edited cutscenes sourced from the films.",
+      "lead": "Players control the character Neo, participating in scenes from the films. The game received mixed reviews from critics. == Gameplay == thumb|left|Players, as Neo (The Matrix)|Neo, use a variety of combat styles and weapons to defeat enemies. Players assume the role of Neo, with the objective of guiding the character through the events of The Matrix trilogy, supported by montages of edited cutscenes sourced from the films."
+    }
+  },
+  "films": [
+    {
+      "p2047_seen": [
+        {
+          "amount": 136.0,
+          "quals": [],
+          "rank": "normal",
+          "unit": "Q7727"
+        }
+      ],
+      "page": "The Matrix",
+      "pubyears": [
+        1999,
+        1999,
+        1999
+      ],
+      "qid": "Q83495",
+      "release_dates": [
+        "1999-03-24",
+        "1999-03-31",
+        "1999-04-08"
+      ],
+      "released_raw": "{{Film date|1999|03|24|[[Mann Village Theater]]|1999|03|31|United States|1999|04|08|Australia}}",
+      "runtime": 136,
+      "stated_runtime": 136,
+      "t": "The Matrix",
+      "year": 1999,
+      "year_gate": true
+    },
+    {
+      "p2047_seen": [
+        {
+          "amount": 138.0,
+          "quals": [],
+          "rank": "normal",
+          "unit": "Q7727"
+        }
+      ],
+      "page": "The Matrix Reloaded",
+      "pubyears": [
+        2003,
+        2003,
+        2003,
+        2003,
+        2003
+      ],
+      "qid": "Q189600",
+      "release_dates": [
+        "2003-05-07",
+        "2003-05-15"
+      ],
+      "released_raw": "{{Film date|2003|05|07|[[Mann Village Theatre, Westwood|Mann Village Theatre]]|2003|05|15|United States}}",
+      "runtime": 138,
+      "stated_runtime": 138,
+      "t": "The Matrix Reloaded",
+      "year": 2003,
+      "year_gate": true
+    },
+    {
+      "p2047_seen": [
+        {
+          "amount": 129.0,
+          "quals": [],
+          "rank": "normal",
+          "unit": "Q7727"
+        }
+      ],
+      "page": "The Matrix Revolutions",
+      "pubyears": [
+        2003,
+        2003,
+        2003,
+        2003
+      ],
+      "qid": "Q207536",
+      "release_dates": [
+        "2003-11-05"
+      ],
+      "released_raw": "{{Film date|2003|11|05|}}",
+      "runtime": 129,
+      "stated_runtime": 129,
+      "t": "The Matrix Revolutions",
+      "year": 2003,
+      "year_gate": true
+    },
+    {
+      "p2047_seen": [
+        {
+          "amount": 97.0,
+          "quals": [],
+          "rank": "normal",
+          "unit": "Q7727"
+        }
+      ],
+      "page": "The Animatrix",
+      "pubyears": [
+        2003,
+        2003
+      ],
+      "qid": "Q335340",
+      "release_dates": [
+        "2003-06-03"
+      ],
+      "released_raw": "{{Film date|2003|06|03}}",
+      "runtime": 97,
+      "stated_runtime": 102,
+      "t": "The Animatrix",
+      "year": 2003,
+      "year_gate": true
+    },
+    {
+      "p2047_seen": [
+        {
+          "amount": 148.0,
+          "quals": [],
+          "rank": "normal",
+          "unit": "Q7727"
+        }
+      ],
+      "page": "The Matrix Resurrections",
+      "pubyears": [
+        2021,
+        2021,
+        2021,
+        2021,
+        2021
+      ],
+      "qid": "Q80322391",
+      "release_dates": [
+        "2021-12-18",
+        "2021-12-22"
+      ],
+      "released_raw": "{{Film date|2021|12|18|[[Castro Theater]]|2021|12|22|United States}}",
+      "runtime": 148,
+      "stated_runtime": 148,
+      "t": "The Matrix Resurrections",
+      "year": 2021,
+      "year_gate": true
+    }
+  ],
+  "games": [
+    {
+      "hltb_id": 3128,
+      "hltb_name": "Enter the Matrix",
+      "hltb_year": 2003,
+      "main_h": 7.41,
+      "query": "Enter the Matrix",
+      "t": "Enter the Matrix",
+      "why": "ok",
+      "year": 2003
+    },
+    {
+      "hltb_id": 10090,
+      "hltb_name": "The Matrix: Path of Neo",
+      "hltb_year": 2005,
+      "main_h": 9.37,
+      "query": "The Matrix: Path of Neo",
+      "t": "The Matrix: Path of Neo",
+      "why": "ok",
+      "year": 2005
+    },
+    {
+      "hltb_id": 47671,
+      "hltb_name": "The Matrix Online",
+      "hltb_year": 2005,
+      "main_h": null,
+      "query": "The Matrix Online",
+      "t": "The Matrix Online",
+      "why": "verified by name but no main-story figure",
+      "year": 2005
+    }
+  ]
+}

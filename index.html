@@ -1936,6 +1936,27 @@ let MANIFEST = [
     "total": 37
   },
   {
+    "slug": "the-matrix",
+    "media": [
+      "games",
+      "movies"
+    ],
+    "title": "The Matrix",
+    "subtitle": "four films, nine shorts and the games worth playing",
+    "kind": "films & games",
+    "year": "1999–2021",
+    "popularity": 83,
+    "blurb": "Four films, The Animatrix and the two games still worth playing — seven entries, about 28 hours, each sitting where the story puts it.",
+    "accent": "#0C3B0C",
+    "accentDark": "#26AE38",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 7,
+    "totalw": 27.59
+  },
+  {
     "slug": "dc-anthology",
     "media": [
       "movies",
@@ -4735,6 +4756,25 @@ let MANIFEST = [
     "total": 232
   },
   {
+    "slug": "suda51",
+    "media": [
+      "games"
+    ],
+    "title": "Suda51",
+    "subtitle": "the games of Goichi Suda, with the credit on each row",
+    "kind": "games",
+    "year": "1993–2026",
+    "popularity": 46,
+    "blurb": "33 games with Goichi Suda's name on them, Super Famicom wrestling to Romeo Is a Dead Man — every one his own credit list gives him, and every row says what the credit was.",
+    "accent": "#8A2C96",
+    "accentDark": "#E479EC",
+    "unit": {
+      "one": "game",
+      "many": "games"
+    },
+    "total": 33
+  },
+  {
     "slug": "satoshi-kon",
     "media": [
       "anime"
@@ -5151,13 +5191,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '35c3c44e1fdf';
+const BUILD = '457180feb4e4';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = 'e424a38809';
+const SYNCVER = '21da64e77c';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

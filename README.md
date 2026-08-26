@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and eighty-nine lists, from a ten-episode anime to a 1,337-spine film
+One hundred and ninety-one lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -44,7 +44,8 @@ Rehearsal and The Curse — 54 episodes), *Jackass* (the MTV run plus every
 Jackass-branded release, the .5 cuts marked as companion releases rather than
 sequels),
 *MST3K* down to the KTMA year, *Columbo*
-with real per-movie runtimes, *James Bond* by actor, *Mission: Impossible*
+with real per-movie runtimes, *The Matrix* (the films and the games that are still playable, in story
+order rather than films-then-games), *James Bond* by actor, *Mission: Impossible*
 (the eight released films, ticks shared with the Tom Cruise
 list), the *slasher franchises* (Halloween, Friday the 13th and Elm Street in
 US release order, with the five mutually exclusive Halloween continuities
@@ -77,6 +78,8 @@ optional rows, *Persona* (the whole franchise, 927 hours, stated plainly), *Drag
 handhelds and expansions optional), *Pokémon* (the mainline by generation,
 paired versions as one row, third versions and remakes optional only where
 they add more than three hours over the game they retell),
+*Suda51* (33 games, the credit rule stated on the page because
+"everything Grasshopper made" and "only what he directed" are both wrong),
 the *James Bond* games on their own page apart from the films, an
 *FPS canon* gated on three or more published best-of lists, and a
 house-picked indie essentials shelf —

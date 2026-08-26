@@ -267,7 +267,9 @@ def main():
         found = set(re.findall(r"\b((?:18|19|20)\d{2})\b", x.get("note") or ""))
         return found.pop() if len(found) == 1 else None
 
-    rows, groups = [], {}
+    # `alias` collects key-pairs a single row proves are the same work — see
+    # the merge below the loop.
+    rows, groups, alias = [], {}, []
     for p in props:
         if p.get("secret"):
             continue
@@ -315,13 +317,63 @@ def main():
                     row.append(x.get("w"))
                 rows.append(row)
                 if syncable:
+                    keys = []
                     y = _year_of(x, n)
                     if y:
-                        groups.setdefault(
-                            _normt(x["t"]) + "|" + y + "|" + medium, []).append(
-                            [p["slug"], x["id"]])
-    sync = {k: v for k, v in groups.items()
-            if len({s for s, _ in v}) > 1}
+                        keys.append(_normt(x["t"]) + "|" + y + "|" + medium)
+                    # A canonical work id, where the generator could resolve
+                    # one from its OWN source's link (CLU-191). It pairs rows
+                    # title+year cannot: Casablanca is 1943 on Best Picture and
+                    # 1942 on Criterion, and neither list is wrong — one cites
+                    # the premiere, the other the general release. A rule of
+                    # the form "subtract a year" fixes none of it, because
+                    # different pairs disagree in different directions.
+                    q = x.get("q")
+                    if isinstance(q, str) and re.fullmatch(r"Q[1-9]\d*", q):
+                        keys.append(q + "|" + medium)
+                    for k in keys:
+                        groups.setdefault(k, []).append([p["slug"], x["id"]])
+                    if len(keys) > 1:
+                        alias.append(keys)
+
+    # A row carrying both kinds of key proves those keys name one work, so the
+    # keys merge. That is what lets a list that HAS ids pair with a list that
+    # does not — they meet through the row they share — and it is why this can
+    # roll out one generator at a time instead of all at once.
+    parent = {}
+
+    def find(k):
+        parent.setdefault(k, k)
+        while parent[k] != k:
+            parent[k] = parent[parent[k]]
+            k = parent[k]
+        return k
+
+    for ks in alias:
+        for k in ks[1:]:
+            a, b = find(ks[0]), find(k)
+            if a != b:
+                parent[a] = b
+
+    merged = {}
+    for k, v in groups.items():
+        m = merged.setdefault(find(k), {"keys": [], "rows": []})
+        m["keys"].append(k)
+        m["rows"] += v
+
+    sync = {}
+    for m in merged.values():
+        seen, rws = set(), []
+        for s, i in m["rows"]:
+            if (s, i) not in seen:
+                seen.add((s, i))
+                rws.append([s, i])
+        if len({s for s, _ in rws}) > 1:
+            # Name the group by its id when it has one: a title+year key stops
+            # being true the day either list re-dates the film, and the key is
+            # what the one-time backfill hashes.
+            ks = sorted(m["keys"])
+            sync[next((k for k in ks if k[0] == "Q"), ks[0])] = rws
     with (PROPS / "search.json").open("w", encoding="utf-8", newline="\n") as f:
         f.write(json.dumps({"rows": rows, "sync": sync},
                            separators=(",", ":"), ensure_ascii=False) + "\n")
