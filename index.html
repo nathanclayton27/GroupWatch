@@ -5054,7 +5054,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '578b08049f16';
+const BUILD = 'c377c2db846d';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -8925,39 +8925,104 @@ function stars(){
     return new Set(Array.isArray(v) ? v : []);
   }catch(e){ return new Set(); }
 }
+// A device that has merged with this account once must never merge again —
+// see syncStars. One key per account, because two accounts on one browser are
+// two different questions.
+const starSeenKey = ()=> 'gw:stars:merged:' + (user ? user.id : 'anon');
+// Set when a push fails, so the next sync re-pushes this device's intent
+// instead of adopting an account copy that never heard about it.
+const STARDIRTY = 'gw:stars:dirty';
+
 function toggleStar(slug){
   const s = stars();
   s.has(slug) ? s.delete(slug) : s.add(slug);
   try{ localStorage.setItem(STARKEY, JSON.stringify([...s])); }catch(e){}
   // stars follow the account, riding auth metadata — no table needed
-  if(user && sb) sb.auth.updateUser({ data: { stars: [...s] } }).catch(()=>{});
+  if(user && sb){
+    sb.auth.updateUser({ data: { stars: [...s] } })
+      .then(()=>{ try{ localStorage.removeItem(STARDIRTY); }catch(e){} })
+      .catch(()=>{ try{ localStorage.setItem(STARDIRTY, '1'); }catch(e){} });
+  }
   return s;
 }
-// On sign-in, local and account stars union both ways: the device learns
-// the account's favourites, the account learns the device's. Unstars sync
-// through toggleStar's full replacement, so the union here never resurrects
-// one removed on purpose mid-session.
-async function syncStars(){
-  if(!user || !sb) return false;
+// CLU-324. This used to union local and account stars every time, and a union
+// CANNOT REPRESENT A DELETION. Unstar something on one device and any other
+// device still holding it in localStorage pushed it straight back up on its
+// next load — so the show reappeared, favourited, at a moment that had nothing
+// to do with what you were doing. Falling back to the session's frozen user
+// object made it happen on a single device too, since that copy predates
+// anything unstarred since sign-in.
+//
+// So the merge happens ONCE per device per account — that is the case it was
+// written for, carrying an existing device's stars up to a new account — and
+// after that the account is the truth. Same shape as the syncback flag that
+// fixed CLU-247: a per-device marker deciding whether a one-time merge is done.
+// Boot calls this twice — once in the signed-in branch and once after adopt.
+// Running the logic twice is not idempotent: the first pass can push a union
+// and the second pass then adopts a server copy that has not caught up yet,
+// undoing it. Memoise per page load so the second caller gets the first
+// result. A failed pass memoises too, and retries on the next load, which is
+// what the account-unreadable branch already promises.
+let starSyncRun = null;
+function syncStars(){
+  if(!user || !sb) return Promise.resolve(false);
+  if(!starSyncRun) starSyncRun = syncStarsOnce();
+  return starSyncRun;
+}
+
+async function syncStarsOnce(){
   const local = stars();
-  // the session's user object is frozen at sign-in time — stars pushed
-  // from another origin AFTER that never appear in it. Ask the server.
-  let acct = user;
+
+  // The session's user object is frozen at sign-in, so it is not the account's
+  // truth — adopting it would resurrect anything unstarred since. If the
+  // server cannot be reached, do nothing at all and try again next load.
+  let acct = null;
   try{
     const { data } = await sb.auth.getUser();
     if(data && data.user) acct = data.user;
-  }catch(e){ /* fall back to the session copy */ }
+  }catch(e){ /* leave acct null */ }
+  if(!acct) return false;
+
   const meta = new Set((acct.user_metadata && acct.user_metadata.stars) || []);
-  const union = new Set([...local, ...meta]);
-  let changedLocal = false;
-  if(union.size !== local.size){
-    try{ localStorage.setItem(STARKEY, JSON.stringify([...union])); }catch(e){}
-    changedLocal = true;
+  const merged = !!localStorage.getItem(starSeenKey());
+  const dirty = !!localStorage.getItem(STARDIRTY);
+
+  const same = (a, b)=> a.size === b.size && [...a].every(x=> b.has(x));
+
+  // A push failed while offline, so this device holds an intent the account
+  // never heard. Its intent wins — including an unstar — and gets re-pushed.
+  if(dirty){
+    if(!same(local, meta)){
+      try{
+        await sb.auth.updateUser({ data: { stars: [...local] } });
+        localStorage.removeItem(STARDIRTY);
+      }catch(e){ return false; }
+    }else{
+      try{ localStorage.removeItem(STARDIRTY); }catch(e){}
+    }
+    try{ localStorage.setItem(starSeenKey(), '1'); }catch(e){}
+    return false;
   }
-  if(union.size !== meta.size){
-    try{ await sb.auth.updateUser({ data: { stars: [...union] } }); }catch(e){}
+
+  // First contact between this device and this account: union, once, so a
+  // device that starred things before signing in does not lose them.
+  if(!merged){
+    const union = new Set([...local, ...meta]);
+    try{ localStorage.setItem(starSeenKey(), '1'); }catch(e){}
+    if(!same(union, meta)){
+      try{ await sb.auth.updateUser({ data: { stars: [...union] } }); }catch(e){}
+    }
+    if(!same(union, local)){
+      try{ localStorage.setItem(STARKEY, JSON.stringify([...union])); }catch(e){}
+      return true;
+    }
+    return false;
   }
-  return changedLocal;
+
+  // Merged before: the account decides, so a removal made anywhere sticks.
+  if(same(local, meta)) return false;
+  try{ localStorage.setItem(STARKEY, JSON.stringify([...meta])); }catch(e){}
+  return true;
 }
 
 // Alphabetical, because the menu is for finding a title you already have in
