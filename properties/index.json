@@ -1636,6 +1636,26 @@
     "totalw": 18.4
   },
   {
+    "slug": "rurouni-kenshin",
+    "media": [
+      "anime",
+      "movies"
+    ],
+    "title": "Rurouni Kenshin",
+    "subtitle": "the 1996 anime, the film, and the OVAs",
+    "kind": "anime & film",
+    "year": "1996–2002",
+    "popularity": 70,
+    "blurb": "All 95 episodes of the Meiji-era wanderer in broadcast order, the original-story film where the source puts it, and the two OVAs that add something the series does not.",
+    "accent": "#8C2A46",
+    "accentDark": "#F27E93",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 101
+  },
+  {
     "slug": "steins-gate",
     "media": [
       "anime",
