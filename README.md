@@ -11,7 +11,7 @@ glance who's ahead and who's fallen behind.
 
 ## What's in it
 
-One hundred and seventy-three lists, from a ten-episode anime to a 1,337-spine film
+One hundred and seventy-five lists, from a ten-episode anime to a 1,337-spine film
 collection, a 971-entry comics run, and 659 episodes of Dragon Ball.
 
 **Comics.** *X-Men* (both flagship lineages complete, 1963 to the fall of
@@ -25,7 +25,7 @@ reading order rather than publication date.
 **Franchises.** *Star Wars* (films and television, with the games on their
 own page), *Metal Gear* (story-only hours, tiers, and a recap link for the
 MSX games), *Gundam* by continuity, *Godzilla* down to the Fest shorts,
-*Twin Peaks* with the books woven in, *The X-Files*, *Farscape* (four seasons plus The Peacekeeper Wars, which is where the story actually ends), *The Sopranos*, *The
+*Twin Peaks* with the books woven in, *The X-Files*, *Farscape* (four seasons plus The Peacekeeper Wars, which is where the story actually ends), *Babylon 5* whole — 110 episodes and eight television films, each film placed by its airdate rather than bolted on at the end — *The Sopranos*, *The
 Wire* and the whole *Breaking Bad* universe episode by episode, *The
 Twilight Zone* (1959, picker-ready), the Simpsons golden age, *Lost*, *Mad
 Men*, *Deadwood* (movie included), *Buffy and Angel* woven into one
@@ -82,7 +82,7 @@ storyline chips, the *Dune* saga (Herbert's six core, the continuations
 optional, the screen adaptations weighted), *The Wheel of Time*, Sanderson's
 *Cosmere* in publication order, the complete *Sherlock Holmes* canon (60
 adventures), *Agatha Christie* (all 74 novels split into Poirot, Marple and
-everything else, the short-story collections optional), *the Foundation
+everything else, the short-story collections optional), the *D&D novels* (Dragonlance and the Legend of Drizzt, gated on Wikipedia's own history of the fiction rather than on taste), *the Foundation
 universe* (Asimov's Foundation, Robot and Empire novels in the order he
 published them, with the chronological order as a note rather than a
 second list), and *Middle-earth* — books plus Jackson's six films. Comics:

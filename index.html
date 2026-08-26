@@ -3718,6 +3718,26 @@ let MANIFEST = [
     "total": 829
   },
   {
+    "slug": "babylon-5",
+    "media": [
+      "movies",
+      "tv"
+    ],
+    "title": "Babylon 5",
+    "subtitle": "every episode, with the films where they aired",
+    "kind": "tv & films",
+    "year": "1993–2023",
+    "popularity": 60,
+    "blurb": "All 110 episodes and all eight films in broadcast order — five seasons on one station, written as one long story.",
+    "accent": "#39417F",
+    "accentDark": "#8E97E8",
+    "unit": {
+      "one": "entry",
+      "many": "entries"
+    },
+    "total": 118
+  },
+  {
     "slug": "cyberpunk-edgerunners",
     "media": [
       "anime"
@@ -4191,6 +4211,25 @@ let MANIFEST = [
       "many": "entries"
     },
     "total": 26
+  },
+  {
+    "slug": "dnd-novels",
+    "media": [
+      "books"
+    ],
+    "title": "Dungeons & Dragons novels",
+    "subtitle": "Dragonlance and the Legend of Drizzt",
+    "kind": "books",
+    "year": "1984–2023",
+    "popularity": 54,
+    "blurb": "The two Dungeons & Dragons novel lines one authorship wrote start to finish — Weis and Hickman's Dragonlance, and Salvatore's Drizzt. Everything else in a very large shelf is deliberately left off, and the notes say what.",
+    "accent": "#8C2F2A",
+    "accentDark": "#E0A94F",
+    "unit": {
+      "one": "book",
+      "many": "books"
+    },
+    "total": 57
   },
   {
     "slug": "palme-dor",
@@ -4829,7 +4868,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = 'ecc48d6e0bd1';
+const BUILD = '1a8c37cb4866';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or

@@ -1,0 +1,1357 @@
+{
+ "seasons": {
+  "1": [
+   {
+    "e": 1,
+    "o": 1,
+    "t": "Midnight on the Firing Line",
+    "article": "Midnight on the Firing Line",
+    "d": [
+     1994,
+     1,
+     26
+    ]
+   },
+   {
+    "e": 2,
+    "o": 2,
+    "t": "Soul Hunter",
+    "article": "Soul Hunter (Babylon 5)",
+    "d": [
+     1994,
+     2,
+     2
+    ]
+   },
+   {
+    "e": 3,
+    "o": 3,
+    "t": "Born to the Purple",
+    "article": "Born to the Purple",
+    "d": [
+     1994,
+     2,
+     9
+    ]
+   },
+   {
+    "e": 4,
+    "o": 4,
+    "t": "Infection",
+    "article": "Infection (Babylon 5)",
+    "d": [
+     1994,
+     2,
+     16
+    ]
+   },
+   {
+    "e": 5,
+    "o": 5,
+    "t": "The Parliament of Dreams",
+    "article": "The Parliament of Dreams",
+    "d": [
+     1994,
+     2,
+     23
+    ]
+   },
+   {
+    "e": 6,
+    "o": 6,
+    "t": "Mind War",
+    "article": "Mind War",
+    "d": [
+     1994,
+     3,
+     2
+    ]
+   },
+   {
+    "e": 7,
+    "o": 7,
+    "t": "The War Prayer",
+    "article": "The War Prayer (Babylon 5)",
+    "d": [
+     1994,
+     3,
+     9
+    ]
+   },
+   {
+    "e": 8,
+    "o": 8,
+    "t": "And the Sky Full of Stars",
+    "article": "And the Sky Full of Stars",
+    "d": [
+     1994,
+     3,
+     16
+    ]
+   },
+   {
+    "e": 9,
+    "o": 9,
+    "t": "Deathwalker",
+    "article": "Deathwalker",
+    "d": [
+     1994,
+     4,
+     20
+    ]
+   },
+   {
+    "e": 10,
+    "o": 10,
+    "t": "Believers",
+    "article": "Believers (Babylon 5)",
+    "d": [
+     1994,
+     4,
+     27
+    ]
+   },
+   {
+    "e": 11,
+    "o": 11,
+    "t": "Survivors",
+    "article": "Survivors (Babylon 5)",
+    "d": [
+     1994,
+     5,
+     4
+    ]
+   },
+   {
+    "e": 12,
+    "o": 12,
+    "t": "By Any Means Necessary",
+    "article": "By Any Means Necessary (Babylon 5)",
+    "d": [
+     1994,
+     5,
+     11
+    ]
+   },
+   {
+    "e": 13,
+    "o": 13,
+    "t": "Signs and Portents",
+    "article": null,
+    "d": [
+     1994,
+     5,
+     18
+    ]
+   },
+   {
+    "e": 14,
+    "o": 14,
+    "t": "TKO",
+    "article": null,
+    "d": [
+     1994,
+     5,
+     25
+    ]
+   },
+   {
+    "e": 15,
+    "o": 15,
+    "t": "Grail",
+    "article": null,
+    "d": [
+     1994,
+     7,
+     6
+    ]
+   },
+   {
+    "e": 16,
+    "o": 16,
+    "t": "Eyes",
+    "article": null,
+    "d": [
+     1994,
+     7,
+     13
+    ]
+   },
+   {
+    "e": 17,
+    "o": 17,
+    "t": "Legacies",
+    "article": null,
+    "d": [
+     1994,
+     7,
+     20
+    ]
+   },
+   {
+    "e": 18,
+    "o": 18,
+    "t": "A Voice in the Wilderness (Part 1)",
+    "article": null,
+    "d": [
+     1994,
+     7,
+     27
+    ]
+   },
+   {
+    "e": 19,
+    "o": 19,
+    "t": "A Voice in the Wilderness (Part 2)",
+    "article": null,
+    "d": [
+     1994,
+     8,
+     3
+    ]
+   },
+   {
+    "e": 20,
+    "o": 20,
+    "t": "Babylon Squared",
+    "article": null,
+    "d": [
+     1994,
+     8,
+     10
+    ]
+   },
+   {
+    "e": 21,
+    "o": 21,
+    "t": "The Quality of Mercy",
+    "article": null,
+    "d": [
+     1994,
+     8,
+     17
+    ]
+   },
+   {
+    "e": 22,
+    "o": 22,
+    "t": "Chrysalis",
+    "article": null,
+    "d": [
+     1994,
+     10,
+     3
+    ]
+   }
+  ],
+  "2": [
+   {
+    "e": 1,
+    "o": 23,
+    "t": "Points of Departure",
+    "article": null,
+    "d": [
+     1994,
+     11,
+     2
+    ]
+   },
+   {
+    "e": 2,
+    "o": 24,
+    "t": "Revelations",
+    "article": null,
+    "d": [
+     1994,
+     11,
+     9
+    ]
+   },
+   {
+    "e": 3,
+    "o": 25,
+    "t": "The Geometry of Shadows",
+    "article": null,
+    "d": [
+     1994,
+     11,
+     16
+    ]
+   },
+   {
+    "e": 4,
+    "o": 26,
+    "t": "A Distant Star",
+    "article": null,
+    "d": [
+     1994,
+     11,
+     23
+    ]
+   },
+   {
+    "e": 5,
+    "o": 27,
+    "t": "The Long Dark",
+    "article": null,
+    "d": [
+     1994,
+     11,
+     30
+    ]
+   },
+   {
+    "e": 6,
+    "o": 28,
+    "t": "Spider in the Web",
+    "article": null,
+    "d": [
+     1994,
+     12,
+     7
+    ]
+   },
+   {
+    "e": 7,
+    "o": 29,
+    "t": "Soul Mates",
+    "article": null,
+    "d": [
+     1994,
+     12,
+     14
+    ]
+   },
+   {
+    "e": 8,
+    "o": 30,
+    "t": "A Race Through Dark Places",
+    "article": null,
+    "d": [
+     1995,
+     1,
+     25
+    ]
+   },
+   {
+    "e": 9,
+    "o": 31,
+    "t": "The Coming of Shadows",
+    "article": "The Coming of Shadows",
+    "d": [
+     1995,
+     2,
+     1
+    ]
+   },
+   {
+    "e": 10,
+    "o": 32,
+    "t": "GROPOS",
+    "article": null,
+    "d": [
+     1995,
+     2,
+     8
+    ]
+   },
+   {
+    "e": 11,
+    "o": 33,
+    "t": "All Alone in the Night",
+    "article": null,
+    "d": [
+     1995,
+     2,
+     15
+    ]
+   },
+   {
+    "e": 12,
+    "o": 34,
+    "t": "Acts of Sacrifice",
+    "article": null,
+    "d": [
+     1995,
+     2,
+     22
+    ]
+   },
+   {
+    "e": 13,
+    "o": 35,
+    "t": "Hunter, Prey",
+    "article": null,
+    "d": [
+     1995,
+     3,
+     1
+    ]
+   },
+   {
+    "e": 14,
+    "o": 36,
+    "t": "There All the Honor Lies",
+    "article": null,
+    "d": [
+     1995,
+     4,
+     26
+    ]
+   },
+   {
+    "e": 15,
+    "o": 37,
+    "t": "And Now for a Word",
+    "article": null,
+    "d": [
+     1995,
+     5,
+     3
+    ]
+   },
+   {
+    "e": 16,
+    "o": 38,
+    "t": "In the Shadow of Z'ha'dum",
+    "article": null,
+    "d": [
+     1995,
+     5,
+     10
+    ]
+   },
+   {
+    "e": 17,
+    "o": 39,
+    "t": "Knives",
+    "article": null,
+    "d": [
+     1995,
+     5,
+     17
+    ]
+   },
+   {
+    "e": 18,
+    "o": 40,
+    "t": "Confessions and Lamentations",
+    "article": null,
+    "d": [
+     1995,
+     5,
+     24
+    ]
+   },
+   {
+    "e": 19,
+    "o": 41,
+    "t": "Divided Loyalties",
+    "article": null,
+    "d": [
+     1995,
+     7,
+     25
+    ]
+   },
+   {
+    "e": 20,
+    "o": 42,
+    "t": "The Long, Twilight Struggle",
+    "article": null,
+    "d": [
+     1995,
+     8,
+     1
+    ]
+   },
+   {
+    "e": 21,
+    "o": 43,
+    "t": "Comes the Inquisitor",
+    "article": null,
+    "d": [
+     1995,
+     8,
+     8
+    ]
+   },
+   {
+    "e": 22,
+    "o": 44,
+    "t": "The Fall of Night",
+    "article": null,
+    "d": [
+     1995,
+     8,
+     15
+    ]
+   }
+  ],
+  "3": [
+   {
+    "e": 1,
+    "o": 45,
+    "t": "Matters of Honor",
+    "article": null,
+    "d": [
+     1995,
+     11,
+     6
+    ]
+   },
+   {
+    "e": 2,
+    "o": 46,
+    "t": "Convictions",
+    "article": null,
+    "d": [
+     1995,
+     11,
+     13
+    ]
+   },
+   {
+    "e": 3,
+    "o": 47,
+    "t": "A Day in the Strife",
+    "article": null,
+    "d": [
+     1995,
+     11,
+     20
+    ]
+   },
+   {
+    "e": 4,
+    "o": 48,
+    "t": "Passing Through Gethsemane",
+    "article": null,
+    "d": [
+     1995,
+     11,
+     27
+    ]
+   },
+   {
+    "e": 5,
+    "o": 49,
+    "t": "Voices of Authority",
+    "article": null,
+    "d": [
+     1996,
+     1,
+     29
+    ]
+   },
+   {
+    "e": 6,
+    "o": 50,
+    "t": "Dust to Dust",
+    "article": null,
+    "d": [
+     1996,
+     2,
+     5
+    ]
+   },
+   {
+    "e": 7,
+    "o": 51,
+    "t": "Exogenesis",
+    "article": null,
+    "d": [
+     1996,
+     2,
+     12
+    ]
+   },
+   {
+    "e": 8,
+    "o": 52,
+    "t": "Messages from Earth",
+    "article": null,
+    "d": [
+     1996,
+     2,
+     19
+    ]
+   },
+   {
+    "e": 9,
+    "o": 53,
+    "t": "Point of No Return",
+    "article": null,
+    "d": [
+     1996,
+     2,
+     26
+    ]
+   },
+   {
+    "e": 10,
+    "o": 54,
+    "t": "Severed Dreams",
+    "article": "Severed Dreams",
+    "d": [
+     1996,
+     4,
+     1
+    ]
+   },
+   {
+    "e": 11,
+    "o": 55,
+    "t": "Ceremonies of Light and Dark",
+    "article": null,
+    "d": [
+     1996,
+     4,
+     8
+    ]
+   },
+   {
+    "e": 12,
+    "o": 56,
+    "t": "Sic Transit Vir",
+    "article": null,
+    "d": [
+     1996,
+     4,
+     15
+    ]
+   },
+   {
+    "e": 13,
+    "o": 57,
+    "t": "A Late Delivery from Avalon",
+    "article": null,
+    "d": [
+     1996,
+     4,
+     22
+    ]
+   },
+   {
+    "e": 14,
+    "o": 58,
+    "t": "Ship of Tears",
+    "article": null,
+    "d": [
+     1996,
+     4,
+     29
+    ]
+   },
+   {
+    "e": 15,
+    "o": 59,
+    "t": "Interludes and Examinations",
+    "article": null,
+    "d": [
+     1996,
+     5,
+     6
+    ]
+   },
+   {
+    "e": 16,
+    "o": 60,
+    "t": "War Without End (Part 1)",
+    "article": null,
+    "d": [
+     1996,
+     5,
+     13
+    ]
+   },
+   {
+    "e": 17,
+    "o": 61,
+    "t": "War Without End (Part 2)",
+    "article": null,
+    "d": [
+     1996,
+     5,
+     20
+    ]
+   },
+   {
+    "e": 18,
+    "o": 62,
+    "t": "Walkabout",
+    "article": null,
+    "d": [
+     1996,
+     8,
+     18
+    ]
+   },
+   {
+    "e": 19,
+    "o": 63,
+    "t": "Grey 17 Is Missing",
+    "article": null,
+    "d": [
+     1996,
+     9,
+     1
+    ]
+   },
+   {
+    "e": 20,
+    "o": 64,
+    "t": "And the Rock Cried Out, No Hiding Place",
+    "article": null,
+    "d": [
+     1996,
+     9,
+     8
+    ]
+   },
+   {
+    "e": 21,
+    "o": 65,
+    "t": "Shadow Dancing",
+    "article": null,
+    "d": [
+     1996,
+     9,
+     15
+    ]
+   },
+   {
+    "e": 22,
+    "o": 66,
+    "t": "Z'ha'dum",
+    "article": null,
+    "d": [
+     1996,
+     9,
+     22
+    ]
+   }
+  ],
+  "4": [
+   {
+    "e": 1,
+    "o": 67,
+    "t": "The Hour of the Wolf",
+    "article": null,
+    "d": [
+     1996,
+     11,
+     4
+    ]
+   },
+   {
+    "e": 2,
+    "o": 68,
+    "t": "Whatever Happened to Mr. Garibaldi?",
+    "article": null,
+    "d": [
+     1996,
+     11,
+     11
+    ]
+   },
+   {
+    "e": 3,
+    "o": 69,
+    "t": "The Summoning",
+    "article": null,
+    "d": [
+     1996,
+     11,
+     18
+    ]
+   },
+   {
+    "e": 4,
+    "o": 70,
+    "t": "Falling Toward Apotheosis",
+    "article": null,
+    "d": [
+     1996,
+     11,
+     25
+    ]
+   },
+   {
+    "e": 5,
+    "o": 71,
+    "t": "The Long Night",
+    "article": null,
+    "d": [
+     1997,
+     1,
+     27
+    ]
+   },
+   {
+    "e": 6,
+    "o": 72,
+    "t": "Into the Fire",
+    "article": null,
+    "d": [
+     1997,
+     2,
+     3
+    ]
+   },
+   {
+    "e": 7,
+    "o": 73,
+    "t": "Epiphanies",
+    "article": null,
+    "d": [
+     1997,
+     2,
+     10
+    ]
+   },
+   {
+    "e": 8,
+    "o": 74,
+    "t": "The Illusion of Truth",
+    "article": null,
+    "d": [
+     1997,
+     2,
+     17
+    ]
+   },
+   {
+    "e": 9,
+    "o": 75,
+    "t": "Atonement",
+    "article": null,
+    "d": [
+     1997,
+     2,
+     24
+    ]
+   },
+   {
+    "e": 10,
+    "o": 76,
+    "t": "Racing Mars",
+    "article": null,
+    "d": [
+     1997,
+     4,
+     21
+    ]
+   },
+   {
+    "e": 11,
+    "o": 77,
+    "t": "Lines of Communication",
+    "article": null,
+    "d": [
+     1997,
+     4,
+     28
+    ]
+   },
+   {
+    "e": 12,
+    "o": 78,
+    "t": "Conflicts of Interest",
+    "article": null,
+    "d": [
+     1997,
+     5,
+     5
+    ]
+   },
+   {
+    "e": 13,
+    "o": 79,
+    "t": "Rumors, Bargains and Lies",
+    "article": null,
+    "d": [
+     1997,
+     5,
+     12
+    ]
+   },
+   {
+    "e": 14,
+    "o": 80,
+    "t": "Moments of Transition",
+    "article": null,
+    "d": [
+     1997,
+     5,
+     19
+    ]
+   },
+   {
+    "e": 15,
+    "o": 81,
+    "t": "No Surrender, No Retreat",
+    "article": null,
+    "d": [
+     1997,
+     5,
+     26
+    ]
+   },
+   {
+    "e": 16,
+    "o": 82,
+    "t": "Exercise of Vital Powers",
+    "article": null,
+    "d": [
+     1997,
+     6,
+     2
+    ]
+   },
+   {
+    "e": 17,
+    "o": 83,
+    "t": "The Face of the Enemy",
+    "article": null,
+    "d": [
+     1997,
+     6,
+     9
+    ]
+   },
+   {
+    "e": 18,
+    "o": 84,
+    "t": "Intersections in Real Time",
+    "article": null,
+    "d": [
+     1997,
+     6,
+     16
+    ]
+   },
+   {
+    "e": 19,
+    "o": 85,
+    "t": "Between the Darkness and the Light",
+    "article": null,
+    "d": [
+     1997,
+     10,
+     6
+    ]
+   },
+   {
+    "e": 20,
+    "o": 86,
+    "t": "Endgame",
+    "article": null,
+    "d": [
+     1997,
+     10,
+     13
+    ]
+   },
+   {
+    "e": 21,
+    "o": 87,
+    "t": "Rising Star",
+    "article": null,
+    "d": [
+     1997,
+     10,
+     20
+    ]
+   },
+   {
+    "e": 22,
+    "o": 88,
+    "t": "The Deconstruction of Falling Stars",
+    "article": null,
+    "d": [
+     1997,
+     10,
+     27
+    ]
+   }
+  ],
+  "5": [
+   {
+    "e": 1,
+    "o": 89,
+    "t": "No Compromises",
+    "article": null,
+    "d": [
+     1998,
+     1,
+     21
+    ]
+   },
+   {
+    "e": 2,
+    "o": 90,
+    "t": "The Very Long Night of Londo Mollari",
+    "article": null,
+    "d": [
+     1998,
+     1,
+     28
+    ]
+   },
+   {
+    "e": 3,
+    "o": 91,
+    "t": "The Paragon of Animals",
+    "article": null,
+    "d": [
+     1998,
+     2,
+     4
+    ]
+   },
+   {
+    "e": 4,
+    "o": 92,
+    "t": "A View from the Gallery",
+    "article": null,
+    "d": [
+     1998,
+     2,
+     11
+    ]
+   },
+   {
+    "e": 5,
+    "o": 93,
+    "t": "Learning Curve",
+    "article": null,
+    "d": [
+     1998,
+     2,
+     18
+    ]
+   },
+   {
+    "e": 6,
+    "o": 94,
+    "t": "Strange Relations",
+    "article": null,
+    "d": [
+     1998,
+     2,
+     25
+    ]
+   },
+   {
+    "e": 7,
+    "o": 95,
+    "t": "Secrets of the Soul",
+    "article": null,
+    "d": [
+     1998,
+     3,
+     4
+    ]
+   },
+   {
+    "e": 8,
+    "o": 96,
+    "t": "Day of the Dead",
+    "article": null,
+    "d": [
+     1998,
+     3,
+     11
+    ]
+   },
+   {
+    "e": 9,
+    "o": 97,
+    "t": "In the Kingdom of the Blind",
+    "article": null,
+    "d": [
+     1998,
+     3,
+     18
+    ]
+   },
+   {
+    "e": 10,
+    "o": 98,
+    "t": "A Tragedy of Telepaths",
+    "article": null,
+    "d": [
+     1998,
+     3,
+     25
+    ]
+   },
+   {
+    "e": 11,
+    "o": 99,
+    "t": "Phoenix Rising",
+    "article": null,
+    "d": [
+     1998,
+     4,
+     1
+    ]
+   },
+   {
+    "e": 12,
+    "o": 100,
+    "t": "The Ragged Edge",
+    "article": null,
+    "d": [
+     1998,
+     4,
+     8
+    ]
+   },
+   {
+    "e": 13,
+    "o": 101,
+    "t": "The Corps Is Mother, The Corps Is Father",
+    "article": null,
+    "d": [
+     1998,
+     4,
+     15
+    ]
+   },
+   {
+    "e": 14,
+    "o": 102,
+    "t": "Meditations on the Abyss",
+    "article": null,
+    "d": [
+     1998,
+     5,
+     27
+    ]
+   },
+   {
+    "e": 15,
+    "o": 103,
+    "t": "Darkness Ascending",
+    "article": null,
+    "d": [
+     1998,
+     6,
+     3
+    ]
+   },
+   {
+    "e": 16,
+    "o": 104,
+    "t": "And All My Dreams, Torn Asunder",
+    "article": null,
+    "d": [
+     1998,
+     6,
+     10
+    ]
+   },
+   {
+    "e": 17,
+    "o": 105,
+    "t": "Movements of Fire and Shadow",
+    "article": null,
+    "d": [
+     1998,
+     6,
+     17
+    ]
+   },
+   {
+    "e": 18,
+    "o": 106,
+    "t": "The Fall of Centauri Prime",
+    "article": null,
+    "d": [
+     1998,
+     10,
+     28
+    ]
+   },
+   {
+    "e": 19,
+    "o": 107,
+    "t": "The Wheel of Fire",
+    "article": null,
+    "d": [
+     1998,
+     11,
+     4
+    ]
+   },
+   {
+    "e": 20,
+    "o": 108,
+    "t": "Objects in Motion",
+    "article": null,
+    "d": [
+     1998,
+     11,
+     11
+    ]
+   },
+   {
+    "e": 21,
+    "o": 109,
+    "t": "Objects at Rest",
+    "article": null,
+    "d": [
+     1998,
+     11,
+     18
+    ]
+   },
+   {
+    "e": 22,
+    "o": 110,
+    "t": "Sleeping in Light",
+    "article": null,
+    "d": [
+     1998,
+     11,
+     25
+    ]
+   }
+  ]
+ },
+ "season_names": {
+  "1": "Signs and Portents",
+  "2": "The Coming of Shadows",
+  "3": "Point of No Return",
+  "4": "No Surrender, No Retreat",
+  "5": "The Wheel of Fire"
+ },
+ "films": [
+  {
+   "t": "Babylon 5: The Gathering",
+   "article": "Babylon 5: The Gathering",
+   "d": [
+    1993,
+    2,
+    22
+   ],
+   "key": "gathering",
+   "short": "Babylon 5: The Gathering",
+   "runtime": 89
+  },
+  {
+   "t": "Babylon 5: In the Beginning",
+   "article": "Babylon 5: In the Beginning",
+   "d": [
+    1998,
+    1,
+    4
+   ],
+   "key": "beginning",
+   "short": "Babylon 5: In the Beginning",
+   "runtime": 94
+  },
+  {
+   "t": "Babylon 5: Thirdspace",
+   "article": "Babylon 5: Thirdspace",
+   "d": [
+    1998,
+    7,
+    19
+   ],
+   "key": "thirdspace",
+   "short": "Babylon 5: Thirdspace",
+   "runtime": 94
+  },
+  {
+   "t": "Babylon 5: The River of Souls",
+   "article": "Babylon 5: The River of Souls",
+   "d": [
+    1998,
+    11,
+    8
+   ],
+   "key": "river",
+   "short": "Babylon 5: The River of Souls",
+   "runtime": 94
+  },
+  {
+   "t": "Babylon 5: A Call to Arms",
+   "article": "Babylon 5: A Call to Arms",
+   "d": [
+    1999,
+    1,
+    3
+   ],
+   "key": "calltoarms",
+   "short": "Babylon 5: A Call to Arms",
+   "runtime": 94
+  },
+  {
+   "t": "Babylon 5: The Legend of the Rangers: To Live and Die in Starlight",
+   "article": "Babylon 5: The Legend of the Rangers: To Live and Die in Starlight",
+   "d": [
+    2002,
+    1,
+    19
+   ],
+   "key": "rangers",
+   "short": "Babylon 5: The Legend of the Rangers",
+   "runtime": 90
+  },
+  {
+   "t": "Babylon 5: The Lost Tales: Voices in the Dark",
+   "article": "Babylon 5: The Lost Tales",
+   "d": [
+    2007,
+    7,
+    31
+   ],
+   "key": "losttales",
+   "short": "Babylon 5: The Lost Tales: Voices in the Dark",
+   "runtime": 72
+  },
+  {
+   "t": "Babylon 5: The Road Home",
+   "article": "Babylon 5: The Road Home",
+   "d": [
+    2023,
+    8,
+    14
+   ],
+   "key": "roadhome",
+   "short": "Babylon 5: The Road Home",
+   "runtime": 79
+  }
+ ],
+ "thirdspace_between": [
+  "Movements of Fire and Shadow",
+  "The Fall of Centauri Prime"
+ ],
+ "intended_order": [
+  [
+   "A Race Through Dark Places",
+   "Soul Mates"
+  ],
+  [
+   "Knives",
+   "In the Shadow of Z'ha'dum"
+  ]
+ ],
+ "census": {
+  "episodes": 110,
+  "with_article": 14,
+  "with_runtime": 0,
+  "without_runtime": 110
+ },
+ "overview_counts": {
+  "0": 1,
+  "1": 22,
+  "2": 22,
+  "3": 22,
+  "4": 22,
+  "5": 22
+ }
+}

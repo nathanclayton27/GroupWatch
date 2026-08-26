@@ -1,0 +1,469 @@
+{
+  "slug": "dnd-novels",
+  "title": "Dungeons & Dragons novels",
+  "subtitle": "Dragonlance and the Legend of Drizzt",
+  "kind": "books",
+  "popularity": 54,
+  "year": "1984–2023",
+  "blurb": "The two Dungeons & Dragons novel lines one authorship wrote start to finish — Weis and Hickman's Dragonlance, and Salvatore's Drizzt. Everything else in a very large shelf is deliberately left off, and the notes say what.",
+  "unit": {
+    "one": "book",
+    "many": "books"
+  },
+  "verb": {
+    "base": "read",
+    "past": "read",
+    "ing": "reading"
+  },
+  "accent": "#8C2F2A",
+  "accentDark": "#E0A94F",
+  "tiers": false,
+  "notes": [
+    [
+      "Two lines, and a gate rather than a roster.",
+      "Wikipedia's list of D&D fiction runs to more than twelve hundred entries across eleven settings. All of it at once is not a reading list, and choosing favourites is not something this catalogue does — so a line is here only if one authorship wrote it from first book to last, Wikipedia documents the whole sequence in an article of its own, and Wikipedia's own history of D&D fiction names that authorship as a reason the novel line succeeded. Exactly two clear it: Margaret Weis and Tracy Hickman on Dragonlance, and R. A. Salvatore on Drizzt. That last test is a sentence in a source, not an opinion held here; if it ever names a third partnership, a third line appears."
+    ],
+    [
+      "Where to start.",
+      "Either section. Chronicles and Drizzt were written for people who had read neither, and they share nothing but a publisher — different world, different author, no crossover. Chronicles is three books and finishes; Drizzt is a long haul."
+    ],
+    [
+      "The Drizzt rows are not in publication order.",
+      "The Legend of Drizzt article publishes its own numbered sequence and says plainly that it runs by Drizzt's life rather than by publication date. A documented reading order beats publication order here, so the rows follow the source: the three books numbered first came out after the three numbered next, and the years on the rows show it. Every other section on this page is publication order."
+    ],
+    [
+      "The optional section is the same authors, later.",
+      "Weis and Hickman returned to Krynn repeatedly — The Second Generation, The War of Souls, The Lost Chronicles, Destinies — and Salvatore published a Realms novel in 2025 that his bibliography files with the Drizzt books but outside the numbered run. They are marked optional because the two lines above are complete without them."
+    ],
+    [
+      "What is not here, and why.",
+      "Every other setting: Greyhawk, Ravenloft, Dark Sun, Eberron, Mystara, Planescape, Spelljammer, Birthright and Kara-Tur all have novels and none has a line clearing the gate. So does most of the Forgotten Realms — The Harpers, Sembia, the Avatar books, War of the Spider Queen and The Sundering are all shared-world lines with a different author on each volume, which is the first test failing. Salvatore wrote one of The Sundering's six books and it is here, because the Drizzt sequence claims it; the other five are not. So are most of Dragonlance's own runs: Preludes, Heroes, the Meetings Sextet, Elven Nations, Dwarven Nations, Villains, Lost Histories and The Warriors. Single-author lines miss later in the gate rather than at that first test — Salvatore's own Cleric Quintet and Stone of Tymora, Ed Greenwood's Elminster books and Shandril's Saga, Paul S. Kemp's Erevis Cale trilogy, Erin M. Evans' Brimstone Angels, Troy Denning's Prism Pentad on Dark Sun, Gary Gygax's Gord the Rogue on Greyhawk. And Krynn books Margaret Weis wrote without Tracy Hickman — The Raistlin Chronicles, Dark Disciple, the Kang's Regiment books with Don Perrin — are out because the gate names the partnership, not either half of it. None of this is a verdict on any of them."
+    ],
+    [
+      "Novels only.",
+      "The master list's own Type column decides what counts, which keeps out the short stories, the novellas, the anthologies (including The Second Generation, which is a collection), the Endless Quest and Adventure gamebooks, the middle-grade and young-adult books, the graphic novels, the film tie-ins, and the omnibus, annotated and special editions that repackage books already on this page."
+    ],
+    [
+      "Hours are not tracked.",
+      "Every book counts as one and nothing here is weighted. Page counts differ by edition, a page is not an hour, and one weighted row would quietly turn every other row into an hour — so there are none at all."
+    ],
+    [
+      "No row gives anything away.",
+      "The notes are publication facts only: which trilogy a book belongs to, where it sits in one, which was an author's first. Nothing about what happens in any of them."
+    ],
+    "Titles, years, series membership and the Drizzt reading order machine-read from Wikipedia's Dungeons & Dragons novels, Dragonlance Chronicles, Dragonlance Legends, The Legend of Drizzt, R. A. Salvatore bibliography, List of Dragonlance novels and List of Dungeons & Dragons fiction articles."
+  ],
+  "sections": [
+    {
+      "id": "chronicles",
+      "title": "Dragonlance Chronicles",
+      "sub": "3 novels · 1984–1985 · Weis and Hickman",
+      "open": true,
+      "intro": "Where D&D fiction starts. Three novels written to carry a campaign setting, which turned into the thing the setting is remembered for. Publication order, which is also the order they were written in.",
+      "links": [
+        {
+          "label": "Dragonlance Chronicles",
+          "url": "https://en.wikipedia.org/wiki/Dragonlance_Chronicles"
+        }
+      ],
+      "items": [
+        {
+          "id": "dnd-1984-dragons-of-autumn-twilight",
+          "t": "Dragons of Autumn Twilight",
+          "n": "1984",
+          "note": "The first Dragonlance novel"
+        },
+        {
+          "id": "dnd-1985-dragons-of-winter-night",
+          "t": "Dragons of Winter Night",
+          "n": "1985"
+        },
+        {
+          "id": "dnd-1985-dragons-of-spring-dawning",
+          "t": "Dragons of Spring Dawning",
+          "n": "1985"
+        }
+      ]
+    },
+    {
+      "id": "legends",
+      "title": "Dragonlance Legends",
+      "sub": "3 novels · 1986 · the sequel trilogy",
+      "intro": "The same two authors, straight on from Chronicles, all three published inside a single year. Read Chronicles first — Legends is built for someone who has.",
+      "links": [
+        {
+          "label": "Dragonlance Legends",
+          "url": "https://en.wikipedia.org/wiki/Dragonlance_Legends"
+        }
+      ],
+      "items": [
+        {
+          "id": "dnd-1986-time-of-the-twins",
+          "t": "Time of the Twins",
+          "n": "1986",
+          "note": "The first of the sequel trilogy"
+        },
+        {
+          "id": "dnd-1986-war-of-the-twins",
+          "t": "War of the Twins",
+          "n": "1986"
+        },
+        {
+          "id": "dnd-1986-test-of-the-twins",
+          "t": "Test of the Twins",
+          "n": "1986"
+        }
+      ]
+    },
+    {
+      "id": "drizzt",
+      "title": "The Legend of Drizzt",
+      "sub": "39 novels · 1988–2023 · the numbered order, not publication order",
+      "intro": "Thirty-nine novels by one author, in the order Wikipedia's own article numbers them — which is not the order they came out in. The three opening books were written after the three that follow them here, and the source puts them first anyway. Each row names the trilogy or set it belongs to.",
+      "links": [
+        {
+          "label": "The Legend of Drizzt",
+          "url": "https://en.wikipedia.org/wiki/The_Legend_of_Drizzt"
+        }
+      ],
+      "items": [
+        {
+          "id": "dnd-1990-homeland",
+          "t": "Homeland",
+          "n": "1990",
+          "note": "The Dark Elf Trilogy, 1 of 3"
+        },
+        {
+          "id": "dnd-1990-exile",
+          "t": "Exile",
+          "n": "1990",
+          "note": "The Dark Elf Trilogy, 2 of 3"
+        },
+        {
+          "id": "dnd-1991-sojourn",
+          "t": "Sojourn",
+          "n": "1991",
+          "note": "The Dark Elf Trilogy, 3 of 3"
+        },
+        {
+          "id": "dnd-1988-the-crystal-shard",
+          "t": "The Crystal Shard",
+          "n": "1988",
+          "note": "The Icewind Dale Trilogy, 1 of 3 · The second Forgotten Realms novel published, and the first of them by Salvatore"
+        },
+        {
+          "id": "dnd-1989-streams-of-silver",
+          "t": "Streams of Silver",
+          "n": "1989",
+          "note": "The Icewind Dale Trilogy, 2 of 3"
+        },
+        {
+          "id": "dnd-1990-the-halfling-s-gem",
+          "t": "The Halfling's Gem",
+          "n": "1990",
+          "note": "The Icewind Dale Trilogy, 3 of 3"
+        },
+        {
+          "id": "dnd-1992-the-legacy",
+          "t": "The Legacy",
+          "n": "1992",
+          "note": "Legacy of the Drow, 1 of 4 · The first Forgotten Realms novel in hardcover"
+        },
+        {
+          "id": "dnd-1993-starless-night",
+          "t": "Starless Night",
+          "n": "1993",
+          "note": "Legacy of the Drow, 2 of 4"
+        },
+        {
+          "id": "dnd-1994-siege-of-darkness",
+          "t": "Siege of Darkness",
+          "n": "1994",
+          "note": "Legacy of the Drow, 3 of 4"
+        },
+        {
+          "id": "dnd-1996-passage-to-dawn",
+          "t": "Passage to Dawn",
+          "n": "1996",
+          "note": "Legacy of the Drow, 4 of 4"
+        },
+        {
+          "id": "dnd-1998-the-silent-blade",
+          "t": "The Silent Blade",
+          "n": "1998",
+          "note": "Paths of Darkness, 1 of 3"
+        },
+        {
+          "id": "dnd-1999-the-spine-of-the-world",
+          "t": "The Spine of the World",
+          "n": "1999",
+          "note": "Paths of Darkness, 2 of 3"
+        },
+        {
+          "id": "dnd-2001-sea-of-swords",
+          "t": "Sea of Swords",
+          "n": "2001",
+          "note": "Paths of Darkness, 3 of 3"
+        },
+        {
+          "id": "dnd-2000-servant-of-the-shard",
+          "t": "Servant of the Shard",
+          "n": "2000",
+          "note": "The Sellswords, 1 of 3"
+        },
+        {
+          "id": "dnd-2005-promise-of-the-witch-king",
+          "t": "Promise of the Witch-King",
+          "n": "2005",
+          "note": "The Sellswords, 2 of 3"
+        },
+        {
+          "id": "dnd-2006-road-of-the-patriarch",
+          "t": "Road of the Patriarch",
+          "n": "2006",
+          "note": "The Sellswords, 3 of 3"
+        },
+        {
+          "id": "dnd-2002-the-thousand-orcs",
+          "t": "The Thousand Orcs",
+          "n": "2002",
+          "note": "The Hunter's Blades Trilogy, 1 of 3"
+        },
+        {
+          "id": "dnd-2003-the-lone-drow",
+          "t": "The Lone Drow",
+          "n": "2003",
+          "note": "The Hunter's Blades Trilogy, 2 of 3"
+        },
+        {
+          "id": "dnd-2004-the-two-swords",
+          "t": "The Two Swords",
+          "n": "2004",
+          "note": "The Hunter's Blades Trilogy, 3 of 3"
+        },
+        {
+          "id": "dnd-2007-the-orc-king",
+          "t": "The Orc King",
+          "n": "2007",
+          "note": "Transitions, 1 of 3"
+        },
+        {
+          "id": "dnd-2008-the-pirate-king",
+          "t": "The Pirate King",
+          "n": "2008",
+          "note": "Transitions, 2 of 3"
+        },
+        {
+          "id": "dnd-2009-the-ghost-king",
+          "t": "The Ghost King",
+          "n": "2009",
+          "note": "Transitions, 3 of 3"
+        },
+        {
+          "id": "dnd-2010-gauntlgrym",
+          "t": "Gauntlgrym",
+          "n": "2010",
+          "note": "Neverwinter Saga, 1 of 4"
+        },
+        {
+          "id": "dnd-2011-neverwinter",
+          "t": "Neverwinter",
+          "n": "2011",
+          "note": "Neverwinter Saga, 2 of 4"
+        },
+        {
+          "id": "dnd-2012-charon-s-claw",
+          "t": "Charon's Claw",
+          "n": "2012",
+          "note": "Neverwinter Saga, 3 of 4"
+        },
+        {
+          "id": "dnd-2013-the-last-threshold",
+          "t": "The Last Threshold",
+          "n": "2013",
+          "note": "Neverwinter Saga, 4 of 4"
+        },
+        {
+          "id": "dnd-2013-the-companions",
+          "t": "The Companions",
+          "n": "2013",
+          "note": "The Sundering · Salvatore's volume of a six-book crossover, one book each by six authors"
+        },
+        {
+          "id": "dnd-2014-night-of-the-hunter",
+          "t": "Night of the Hunter",
+          "n": "2014",
+          "note": "Companions Codex, 1 of 3"
+        },
+        {
+          "id": "dnd-2014-rise-of-the-king",
+          "t": "Rise of the King",
+          "n": "2014",
+          "note": "Companions Codex, 2 of 3"
+        },
+        {
+          "id": "dnd-2015-vengeance-of-the-iron-dwarf",
+          "t": "Vengeance of the Iron Dwarf",
+          "n": "2015",
+          "note": "Companions Codex, 3 of 3"
+        },
+        {
+          "id": "dnd-2015-archmage",
+          "t": "Archmage",
+          "n": "2015",
+          "note": "Homecoming, 1 of 3"
+        },
+        {
+          "id": "dnd-2016-maestro",
+          "t": "Maestro",
+          "n": "2016",
+          "note": "Homecoming, 2 of 3"
+        },
+        {
+          "id": "dnd-2016-hero",
+          "t": "Hero",
+          "n": "2016",
+          "note": "Homecoming, 3 of 3"
+        },
+        {
+          "id": "dnd-2018-timeless",
+          "t": "Timeless",
+          "n": "2018",
+          "note": "Generations, 1 of 3"
+        },
+        {
+          "id": "dnd-2019-boundless",
+          "t": "Boundless",
+          "n": "2019",
+          "note": "Generations, 2 of 3"
+        },
+        {
+          "id": "dnd-2020-relentless",
+          "t": "Relentless",
+          "n": "2020",
+          "note": "Generations, 3 of 3"
+        },
+        {
+          "id": "dnd-2021-starlight-enclave",
+          "t": "Starlight Enclave",
+          "n": "2021",
+          "note": "The Way of the Drow, 1 of 3"
+        },
+        {
+          "id": "dnd-2022-glacier-s-edge",
+          "t": "Glacier's Edge",
+          "n": "2022",
+          "note": "The Way of the Drow, 2 of 3"
+        },
+        {
+          "id": "dnd-2023-lolth-s-warrior",
+          "t": "Lolth's Warrior",
+          "n": "2023",
+          "note": "The Way of the Drow, 3 of 3"
+        }
+      ]
+    },
+    {
+      "id": "after",
+      "title": "What the same hands wrote next",
+      "sub": "12 novels · 1995–2026 · optional",
+      "intro": "The two lines above are finished stories. These are the books the same authors went back and wrote afterwards, in publication order. Optional rows: tick them or ignore them, nothing above depends on them.",
+      "links": [
+        {
+          "label": "Dragonlance novels",
+          "url": "https://en.wikipedia.org/wiki/List_of_Dragonlance_novels"
+        },
+        {
+          "label": "Salvatore bibliography",
+          "url": "https://en.wikipedia.org/wiki/R._A._Salvatore_bibliography"
+        }
+      ],
+      "items": [
+        {
+          "id": "dnd-1995-dragons-of-summer-flame",
+          "t": "Dragons of Summer Flame",
+          "n": "1995",
+          "note": "Dragonlance · The Second Generation",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2000-dragons-of-a-fallen-sun",
+          "t": "Dragons of a Fallen Sun",
+          "n": "2000",
+          "note": "Dragonlance · The War of Souls",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2001-dragons-of-a-lost-star",
+          "t": "Dragons of a Lost Star",
+          "n": "2001",
+          "note": "Dragonlance · The War of Souls",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2002-dragons-of-a-vanished-moon",
+          "t": "Dragons of a Vanished Moon",
+          "n": "2002",
+          "note": "Dragonlance · The War of Souls",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2006-dragons-of-the-dwarven-depths",
+          "t": "Dragons of the Dwarven Depths",
+          "n": "2006",
+          "note": "Dragonlance · The Lost Chronicles",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2007-dragons-of-the-highlord-skies",
+          "t": "Dragons of the Highlord Skies",
+          "n": "2007",
+          "note": "Dragonlance · The Lost Chronicles",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2009-dragons-of-the-hourglass-mage",
+          "t": "Dragons of the Hourglass Mage",
+          "n": "2009",
+          "note": "Dragonlance · The Lost Chronicles",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2022-dragons-of-deceit",
+          "t": "Dragons of Deceit",
+          "n": "2022",
+          "note": "Dragonlance · Destinies",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2023-dragons-of-fate",
+          "t": "Dragons of Fate",
+          "n": "2023",
+          "note": "Dragonlance · Destinies",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2024-dragons-of-eternity",
+          "t": "Dragons of Eternity",
+          "n": "2024",
+          "note": "Dragonlance · Destinies",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2025-the-finest-edge-of-twilight",
+          "t": "The Finest Edge of Twilight",
+          "n": "2025",
+          "note": "Forgotten Realms · filed with the Drizzt books, outside the numbered sequence",
+          "opt": 1
+        },
+        {
+          "id": "dnd-2026-war-wizard",
+          "t": "War Wizard",
+          "n": "2026",
+          "note": "Dragonlance",
+          "opt": 1
+        }
+      ]
+    }
+  ]
+}
