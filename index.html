@@ -4529,6 +4529,27 @@ let MANIFEST = [
     "totalw": 160.85
   },
   {
+    "slug": "japanese-cinema",
+    "media": [
+      "movies"
+    ],
+    "title": "Japanese Cinema",
+    "subtitle": "Kinema Junpo's all-time ranking, and what came after",
+    "kind": "films",
+    "year": "1932–2025",
+    "popularity": 58,
+    "blurb": "223 films Japan's own film magazine and its film juries picked out, 1932 to 2025 — about 437 hours. No order; let the picker choose.",
+    "accent": "#7C3A2D",
+    "accentDark": "#EFB6A2",
+    "unit": {
+      "one": "film",
+      "many": "films"
+    },
+    "total": 223,
+    "totalw": 437.03,
+    "random": true
+  },
+  {
     "slug": "monster",
     "media": [
       "anime"
@@ -5562,13 +5583,13 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '86ca9c1705e2';
+const BUILD = '95de163f43f9';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
 // rewires a sync group re-runs it — which is how a newly added list inherits
 // ticks people already had elsewhere. See backfillSync().
-const SYNCVER = 'fd1ca386d3';
+const SYNCVER = '537174f9bd';
 
 // A tab that is already open never re-runs its own boot, so checking once was
 // only ever going to help people who reloaded anyway. This polls, and reloads

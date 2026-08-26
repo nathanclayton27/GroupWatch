@@ -1,0 +1,1883 @@
+{
+  "slug": "japanese-cinema",
+  "title": "Japanese Cinema",
+  "subtitle": "Kinema Junpo's all-time ranking, and what came after",
+  "kind": "films",
+  "popularity": 58,
+  "year": "1932–2025",
+  "blurb": "223 films Japan's own film magazine and its film juries picked out, 1932 to 2025 — about 437 hours. No order; let the picker choose.",
+  "unit": {
+    "one": "film",
+    "many": "films"
+  },
+  "verb": {
+    "base": "watch",
+    "past": "watched",
+    "ing": "watching"
+  },
+  "accent": "#7C3A2D",
+  "accentDark": "#EFB6A2",
+  "tiers": false,
+  "random": true,
+  "notes": [
+    [
+      "“The best of Japanese cinema” is a verdict, so this list does not pass one.",
+      "The spine is somebody else's: 193 of the Japanese films Kinema Junpo ranked in its ninetieth-anniversary poll. Japan's oldest film magazine, founded in 1919, asked 114 critics, film-makers and writers for the ten Japanese films that stayed with them, then printed the whole tally top to bottom — Tokyo Story heads it, and 89 of these rows share the 106th place it ends on. Every row says where it placed. Nothing was added because it felt right."
+    ],
+    [
+      "That poll was taken in 2009, and stops at 2008.",
+      "So Drive My Car could not have been on it, and neither could Shoplifters. The 30 films released since are here on a second rule, stated so you can argue with it: at least 2 of Japan's eight juries must have named the film Best Film. Seven of the eight are prizes — Kinema Junpo's own Best One, the Mainichi Film Award, the Blue Ribbon, the Japan Academy Film Prize, the Hochi Film Award, the Nikkan Sports Film Award and the Yokohama Film Festival — and the eighth is the committee that picks Japan's Academy Award entry. The magazine that made the poll is the first of them, because its annual Best Ten has run since 1924. Kokuho leads with 6; 14 of these rows clear on exactly 2. This is a coarser instrument than a survey and the last section should be read as provisional."
+    ],
+    [
+      "Why the juries do not govern the years the poll covers.",
+      "Because the data says not to. 44 films from before 2009 took at least 2 of these prizes and the poll did not rank them, and the loudest is Sumo Do, Sumo Don't, which took seven of the eight juries in 1992 and does not appear in the magazine's all-time ranking at all. A jury names one film a year whatever the year was like. A survey of the whole history does not, and the two are not the same kind of evidence."
+    ],
+    [
+      "What that costs, said plainly.",
+      "Spirited Away is not here. Four of the eight juries named it, the poll's 114 voters did not rank it, and it came out in 2001, so the second rule cannot reach it either. Princess Mononoke and Hana-bi go the same way at three juries each, and A Taxing Woman at five; Kwaidan, Fires on the Plain, The Burmese Harp and Gate of Hell have one apiece and no place in the ranking. That is the honest cost of letting somebody else choose, and it is worth arguing with."
+    ],
+    [
+      "Animation is in, and the source is what decided it.",
+      "Kinema Junpo polled animation separately in the same survey, which could have been read as putting it outside the Japanese-film ranking. It did not — Nausicaä of the Valley of the Wind at 17th, My Neighbor Totoro at 36th, The Castle of Cagliostro at 59th and Castle in the Sky at 59th are all ranked inside that ranking. All four are on the Studio Ghibli list here as well, and ticking one ticks the other. Spirited Away is not, and the reason is above rather than a wish to avoid the overlap."
+    ],
+    [
+      "The eras come from a history, not from us.",
+      "The poll is a flat ranking and divides nothing, so the six sections take their boundaries from Wikipedia's “Cinema of Japan” and the articles it leads to, and each boundary is a sentence one of them states: the 1950s as the Golden Age; Shochiku launching the New Wave from inside the studio system in 1960; 1971, the year television had done enough damage that Nikkatsu stopped making anything but Roman Porno; and the Heisei era beginning in 1989. The build checks each of those sentences is still in the articles before it will run."
+    ],
+    [
+      "Bar widths are running times, and none was invented.",
+      "All 223 rows are weighted, 437 hours in total. 184 figures are the film's own English Wikipedia infobox; 37 have no English article at all and take the running time from Kinema Junpo's own database record for the film; 2 have neither and take it from the Japanese Wikipedia article. Wikidata's runtime is carried only as a cross-check and disagrees with the infobox on 17 rows, which is why it is not the source. The range runs from Go, Go, Second Time Virgin at 65 minutes to The Human Condition at 579. Two of the poll's entries are not here at all because no source we could reach gives a running time for them, and a list with weights cannot carry a row without one."
+    ],
+    [
+      "Titles are English Wikipedia's, and no id came from a title this file trusted on its own.",
+      "The poll prints Japanese titles and nothing else, so the English name on a row is the film's English Wikipedia title, reached through the KINENOTE database number the poll linked and never by looking a title up — 188 rows that way, and 23 more from the Wikidata item's English name where there is no article to take one from. The magazine's own English field exists and is not usable: it calls Nausicaä of the Valley of the Wind “Warriors of the Wind”, after the butchered American cut, and Castle in the Sky “Laputa”. The remaining 12 rows have no English name anywhere and keep their Japanese one, because nothing here was romanised by us. 210 of the 223 rows carry a Wikidata id: 155 from the poll's own numbering, 22 recovered a row at a time — by exact Japanese page title, by the exact release date the magazine's database prints, then by search — under a gate that refuses anything that is not a film, dated to the right year, carrying no other database number and named like the row, and that refuses outright when two candidates survive; the rest come from the award articles' own wikilinks."
+    ],
+    [
+      "The same film on two lists here is the point.",
+      "59 of these films are already somewhere else in the catalogue — across best-picture, body-horror, body-swap, criterion, cult-classics, ghibli, godzilla, kurosawa, palme-dor, sight-and-sound, time-loops — and ticking one ticks the other. Seven Samurai is on 3 other lists, more than anything else here."
+    ],
+    "Ranking from Kinema Junpo's “オールタイム・ベスト 映画遺産200” (2009), read from the magazine's own site via the Internet Archive; for films released after it, the Kinema Junpo, Mainichi, Blue Ribbon, Japan Academy, Hochi, Nikkan Sports and Yokohama Best Film records on Wikipedia plus Japan's Academy Award submissions; era framing from Wikipedia's “Cinema of Japan”, “Japanese New Wave”, “Nikkatsu” and “Pink film”; running times from each film's English Wikipedia infobox, its archived KINENOTE record or its Japanese Wikipedia infobox; ids from KINENOTE via Wikidata."
+  ],
+  "sections": [
+    {
+      "id": "prewar",
+      "title": "Before the Golden Age",
+      "sub": "1932–1949 · 14 films · 22 hours",
+      "intro": "Silent film, the benshi who narrated it, and a war. Only 14 of the poll's 193 entries predate 1950 at all, and that is mostly a fact about survival rather than about the films: pre-war and wartime films were reviewed after the surrender, over five hundred were condemned and half of those were burned, with Toho and Daiei destroying prints of their own before anyone asked.",
+      "items": [
+        {
+          "id": "jc-1932-i-was-born-but",
+          "t": "I Was Born, But...",
+          "n": "1932",
+          "w": 1.5,
+          "note": "Kinema Junpo all-time, no. 59 · 1 of 8 juries · Yasujirō Ozu · 大人の見る絵本 生れてはみたけれど · 90 min",
+          "q": "Q2461978"
+        },
+        {
+          "id": "jc-1935-the-million-ryo-pot",
+          "t": "The Million Ryo Pot",
+          "n": "1935",
+          "w": 1.53,
+          "note": "Kinema Junpo all-time, no. 7 · Sadao Yamanaka · 丹下左膳餘話 百萬兩の壺 · 92 min",
+          "q": "Q7751481"
+        },
+        {
+          "id": "jc-1936-akanishi-kakita",
+          "t": "Akanishi Kakita",
+          "n": "1936",
+          "w": 1.42,
+          "note": "Kinema Junpo all-time, no. 106 · Mansaku Itami · 赤西蠣太 · 85 min",
+          "q": "Q11635976"
+        },
+        {
+          "id": "jc-1936-sisters-of-the-gion",
+          "t": "Sisters of the Gion",
+          "n": "1936",
+          "w": 1.58,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Kenji Mizoguchi · 祇園の姉妹 · 95 min",
+          "q": "Q762077"
+        },
+        {
+          "id": "jc-1937-humanity-and-paper-balloons",
+          "t": "Humanity and Paper Balloons",
+          "n": "1937",
+          "w": 1.43,
+          "note": "Kinema Junpo all-time, no. 23 · Sadao Yamanaka · 人情紙風船 · 86 min",
+          "q": "Q3372891"
+        },
+        {
+          "id": "jc-1937-what-did-the-lady-forget",
+          "t": "What Did the Lady Forget?",
+          "n": "1937",
+          "w": 1.25,
+          "note": "Kinema Junpo all-time, no. 59 · Yasujirō Ozu · 淑女は何を忘れたか · 75 min",
+          "q": "Q3276982"
+        },
+        {
+          "id": "jc-1939-singing-lovebirds",
+          "t": "Singing Lovebirds",
+          "n": "1939",
+          "w": 1.15,
+          "note": "Kinema Junpo all-time, no. 59 · Masahiro Makino · 鴛鴦歌合戦 · 69 min",
+          "q": "Q7523568"
+        },
+        {
+          "id": "jc-1939-the-story-of-the-last-chrysanthemums",
+          "t": "The Story of the Last Chrysanthemums",
+          "n": "1939",
+          "w": 2.38,
+          "note": "Kinema Junpo all-time, no. 106 · Kenji Mizoguchi · 残菊物語 · 143 min",
+          "q": "Q2339899"
+        },
+        {
+          "id": "jc-1943-the-rickshaw-man",
+          "t": "The Rickshaw Man",
+          "n": "1943",
+          "w": 1.65,
+          "note": "Kinema Junpo all-time, no. 59 · Hiroshi Inagaki · 無法松の一生 · 99 min",
+          "q": "Q22127337"
+        },
+        {
+          "id": "jc-1943-sanshiro-sugata",
+          "t": "Sanshiro Sugata",
+          "n": "1943",
+          "w": 1.62,
+          "note": "Kinema Junpo all-time, no. 106 · Akira Kurosawa · 姿三四郎 · 97 min",
+          "q": "Q1077915"
+        },
+        {
+          "id": "jc-1947-the-ball-at-the-anjo-house",
+          "t": "The Ball at the Anjo House",
+          "n": "1947",
+          "w": 1.48,
+          "note": "Kinema Junpo all-time, no. 36 · 1 of 8 juries · Kōzaburō Yoshimura · 安城家の舞踏會 · 89 min",
+          "q": "Q11450475"
+        },
+        {
+          "id": "jc-1949-here-s-to-the-young-lady",
+          "t": "Here's to the Young Lady!",
+          "n": "1949",
+          "w": 1.48,
+          "note": "Kinema Junpo all-time, no. 36 · Keisuke Kinoshita · お嬢さん乾杯！ · 89 min",
+          "q": "Q11263044"
+        },
+        {
+          "id": "jc-1949-late-spring",
+          "t": "Late Spring",
+          "n": "1949",
+          "w": 1.8,
+          "note": "Kinema Junpo all-time, no. 36 · 2 of 8 juries · Yasujirō Ozu · 晩春 · 108 min",
+          "q": "Q743203"
+        },
+        {
+          "id": "jc-1949-stray-dog",
+          "t": "Stray Dog",
+          "n": "1949",
+          "w": 2.03,
+          "note": "Kinema Junpo all-time, no. 10 · Akira Kurosawa · 野良犬 · 122 min",
+          "q": "Q678972"
+        }
+      ]
+    },
+    {
+      "id": "golden",
+      "title": "The Golden Age",
+      "sub": "1950–1959 · 36 films · 75 hours",
+      "intro": "The Golden Age — the decade Wikipedia's history of Japanese cinema calls that outright, and the one that put Rashomon, Tokyo Story and Seven Samurai in front of the rest of the world. 36 films, and 6 of the poll's top ten are among them.",
+      "items": [
+        {
+          "id": "jc-1950-kj28640",
+          "t": "われ幻の魚を見たり",
+          "n": "1950",
+          "w": 1.77,
+          "note": "Kinema Junpo all-time, no. 106 · 106 min"
+        },
+        {
+          "id": "jc-1950-rashomon",
+          "t": "Rashomon",
+          "n": "1950",
+          "w": 1.47,
+          "note": "Kinema Junpo all-time, no. 7 · 1 of 8 juries · Akira Kurosawa · 羅生門 · 88 min",
+          "q": "Q135465"
+        },
+        {
+          "id": "jc-1950-until-we-meet-again",
+          "t": "Until We Meet Again",
+          "n": "1950",
+          "w": 1.85,
+          "note": "Kinema Junpo all-time, no. 36 · 3 of 8 juries · Tadashi Imai · また逢う日まで · 111 min",
+          "q": "Q7897667"
+        },
+        {
+          "id": "jc-1951-carmen-comes-home",
+          "t": "Carmen Comes Home",
+          "n": "1951",
+          "w": 1.43,
+          "note": "Kinema Junpo all-time, no. 59 · Keisuke Kinoshita, Masaki Kobayashi, Zenzo Matsuyama · カルメン故郷に帰る · 86 min",
+          "q": "Q2939646"
+        },
+        {
+          "id": "jc-1951-early-summer",
+          "t": "Early Summer",
+          "n": "1951",
+          "w": 2.08,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Yasujirō Ozu · 麦秋 · 125 min",
+          "q": "Q1761192"
+        },
+        {
+          "id": "jc-1952-ikiru",
+          "t": "Ikiru",
+          "n": "1952",
+          "w": 2.38,
+          "note": "Kinema Junpo all-time, no. 13 · 2 of 8 juries · Akira Kurosawa · 生きる · 143 min",
+          "q": "Q152105"
+        },
+        {
+          "id": "jc-1952-the-life-of-oharu",
+          "t": "The Life of Oharu",
+          "n": "1952",
+          "w": 2.27,
+          "note": "Kinema Junpo all-time, no. 36 · Kenji Mizoguchi · 西鶴一代女 · 136 min",
+          "q": "Q2537602"
+        },
+        {
+          "id": "jc-1952-lightning",
+          "t": "Lightning",
+          "n": "1952",
+          "w": 1.45,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Mikio Naruse · 稲妻 · 87 min",
+          "q": "Q3205166"
+        },
+        {
+          "id": "jc-1952-mother",
+          "t": "Mother",
+          "n": "1952",
+          "w": 1.63,
+          "note": "Kinema Junpo all-time, no. 106 · Mikio Naruse · おかあさん · 98 min",
+          "q": "Q3005765"
+        },
+        {
+          "id": "jc-1953-tokyo-story",
+          "t": "Tokyo Story",
+          "n": "1953",
+          "w": 2.27,
+          "note": "Kinema Junpo all-time, no. 1 · Yasujirō Ozu · 東京物語 · 136 min",
+          "q": "Q26060"
+        },
+        {
+          "id": "jc-1953-ugetsu",
+          "t": "Ugetsu",
+          "n": "1953",
+          "w": 1.6,
+          "note": "Kinema Junpo all-time, no. 23 · Kenji Mizoguchi · 雨月物語 · 96 min",
+          "q": "Q1076605"
+        },
+        {
+          "id": "jc-1954-the-crucified-lovers",
+          "t": "The Crucified Lovers",
+          "n": "1954",
+          "w": 1.7,
+          "note": "Kinema Junpo all-time, no. 23 · Kenji Mizoguchi · 近松物語 · 102 min",
+          "q": "Q1214343"
+        },
+        {
+          "id": "jc-1954-godzilla",
+          "t": "Godzilla",
+          "n": "1954",
+          "w": 1.6,
+          "note": "Kinema Junpo all-time, no. 106 · Ishirō Honda · ゴジラ · 96 min",
+          "q": "Q860461"
+        },
+        {
+          "id": "jc-1954-seven-samurai",
+          "t": "Seven Samurai",
+          "n": "1954",
+          "w": 3.45,
+          "note": "Kinema Junpo all-time, no. 2 · Akira Kurosawa · 七人の侍 · 207 min",
+          "q": "Q189540"
+        },
+        {
+          "id": "jc-1954-twenty-four-eyes",
+          "t": "Twenty-Four Eyes",
+          "n": "1954",
+          "w": 2.57,
+          "note": "Kinema Junpo all-time, no. 6 · 3 of 8 juries · Keisuke Kinoshita · 二十四の瞳 · 154 min",
+          "q": "Q2084565"
+        },
+        {
+          "id": "jc-1955-bloody-spear-at-mount-fuji",
+          "t": "Bloody Spear at Mount Fuji",
+          "n": "1955",
+          "w": 1.57,
+          "note": "Kinema Junpo all-time, no. 36 · Tomu Uchida · 血槍富士 · 94 min",
+          "q": "Q3224766"
+        },
+        {
+          "id": "jc-1955-floating-clouds",
+          "t": "Floating Clouds",
+          "n": "1955",
+          "w": 2.05,
+          "note": "Kinema Junpo all-time, no. 3 · 3 of 8 juries · Mikio Naruse · 浮雲 · 123 min",
+          "q": "Q3346017"
+        },
+        {
+          "id": "jc-1955-she-was-like-a-wild-chrysanthemum",
+          "t": "She Was Like a Wild Chrysanthemum",
+          "n": "1955",
+          "w": 1.53,
+          "note": "Kinema Junpo all-time, no. 23 · Keisuke Kinoshita · 野菊の如き君なりき · 92 min",
+          "q": "Q17215134"
+        },
+        {
+          "id": "jc-1956-crazed-fruit",
+          "t": "Crazed Fruit",
+          "n": "1956",
+          "w": 1.43,
+          "note": "Kinema Junpo all-time, no. 106 · Kō Nakahira · 狂った果実 · 86 min",
+          "q": "Q3368394"
+        },
+        {
+          "id": "jc-1956-flowing",
+          "t": "Flowing",
+          "n": "1956",
+          "w": 1.93,
+          "note": "Kinema Junpo all-time, no. 23 · Mikio Naruse · 流れる · 116 min",
+          "q": "Q2870396"
+        },
+        {
+          "id": "jc-1956-street-of-shame",
+          "t": "Street of Shame",
+          "n": "1956",
+          "w": 1.43,
+          "note": "Kinema Junpo all-time, no. 106 · Kenji Mizoguchi, Yasuzō Masumura · 赤線地帯 · 86 min",
+          "q": "Q2529456"
+        },
+        {
+          "id": "jc-1956-suzaki-paradise-red-light",
+          "t": "Suzaki Paradise: Red Light",
+          "n": "1956",
+          "w": 1.35,
+          "note": "Kinema Junpo all-time, no. 13 · Yuzo Kawashima · 洲崎パラダイス 赤信号 · 81 min",
+          "q": "Q2276054"
+        },
+        {
+          "id": "jc-1957-the-lower-depths",
+          "t": "The Lower Depths",
+          "n": "1957",
+          "w": 2.07,
+          "note": "Kinema Junpo all-time, no. 36 · Akira Kurosawa · どん底 · 124 min",
+          "q": "Q1475995"
+        },
+        {
+          "id": "jc-1957-sun-in-the-last-days-of-the-shogunate",
+          "t": "Sun in the Last Days of the Shogunate",
+          "n": "1957",
+          "w": 1.83,
+          "note": "Kinema Junpo all-time, no. 4 · Yuzo Kawashima · 幕末太陽傳 · 110 min",
+          "q": "Q2966775"
+        },
+        {
+          "id": "jc-1957-throne-of-blood",
+          "t": "Throne of Blood",
+          "n": "1957",
+          "w": 1.83,
+          "note": "Kinema Junpo all-time, no. 106 · Akira Kurosawa · 蜘蛛巣城 · 110 min",
+          "q": "Q257818"
+        },
+        {
+          "id": "jc-1957-tokyo-twilight",
+          "t": "Tokyo Twilight",
+          "n": "1957",
+          "w": 2.33,
+          "note": "Kinema Junpo all-time, no. 106 · Yasujirō Ozu · 東京暮色 · 140 min",
+          "q": "Q2426670"
+        },
+        {
+          "id": "jc-1957-washi-to-taka",
+          "t": "Washi to Taka",
+          "n": "1957",
+          "w": 1.92,
+          "note": "Kinema Junpo all-time, no. 106 · Umetsugu Inoue · 鷲と鷹 · 115 min",
+          "q": "Q7971495"
+        },
+        {
+          "id": "jc-1958-conflagration",
+          "t": "Conflagration",
+          "n": "1958",
+          "w": 1.65,
+          "note": "Kinema Junpo all-time, no. 106 · Kon Ichikawa · 炎上 · 99 min",
+          "q": "Q3065021"
+        },
+        {
+          "id": "jc-1958-the-hidden-fortress",
+          "t": "The Hidden Fortress",
+          "n": "1958",
+          "w": 2.32,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Akira Kurosawa · 隠し砦の三悪人 · 139 min",
+          "q": "Q39946"
+        },
+        {
+          "id": "jc-1958-stakeout",
+          "t": "Stakeout",
+          "n": "1958",
+          "w": 1.93,
+          "note": "Kinema Junpo all-time, no. 36 · Yoshitarō Nomura · 張込み · 116 min",
+          "q": "Q11487700"
+        },
+        {
+          "id": "jc-1959-desperado-outpost",
+          "t": "Desperado Outpost",
+          "n": "1959",
+          "w": 1.8,
+          "note": "Kinema Junpo all-time, no. 36 · Kihachi Okamoto · 独立愚連隊 · 108 min",
+          "q": "Q11571547"
+        },
+        {
+          "id": "jc-1959-floating-weeds",
+          "t": "Floating Weeds",
+          "n": "1959",
+          "w": 1.98,
+          "note": "Kinema Junpo all-time, no. 36 · Yasujirō Ozu · 浮草 · 119 min",
+          "q": "Q425719"
+        },
+        {
+          "id": "jc-1959-the-ghost-of-yotsuya",
+          "t": "The Ghost of Yotsuya",
+          "n": "1959",
+          "w": 1.27,
+          "note": "Kinema Junpo all-time, no. 106 · Nobuo Nakagawa · 東海道四谷怪談 · 76 min",
+          "q": "Q11527969"
+        },
+        {
+          "id": "jc-1959-good-morning",
+          "t": "Good Morning",
+          "n": "1959",
+          "w": 1.57,
+          "note": "Kinema Junpo all-time, no. 36 · Yasujirō Ozu · お早よう · 94 min",
+          "q": "Q618118"
+        },
+        {
+          "id": "jc-1959-the-human-condition",
+          "t": "The Human Condition",
+          "n": "1959",
+          "w": 9.65,
+          "note": "Kinema Junpo all-time, no. 59 · 人間の條件 · 579 min · the three-part film, 1959–61"
+        },
+        {
+          "id": "jc-1959-samurai-vendetta",
+          "t": "Samurai Vendetta",
+          "n": "1959",
+          "w": 1.82,
+          "note": "Kinema Junpo all-time, no. 23 · Kazuo Mori · 薄桜記 · 109 min",
+          "q": "Q7413113"
+        }
+      ],
+      "open": true
+    },
+    {
+      "id": "newwave",
+      "title": "The New Wave",
+      "sub": "1960–1971 · 51 films · 94 hours",
+      "intro": "The New Wave, which unlike the French one started inside the studios: Shochiku put out Cruel Story of Youth and Night and Fog in Japan in 1960 and Nikkatsu answered with Pigs and Battleships. This section ends in 1971, the year television had done enough damage that Nikkatsu stopped making anything else and switched to Roman Porno.",
+      "items": [
+        {
+          "id": "jc-1960-cruel-story-of-youth",
+          "t": "Cruel Story of Youth",
+          "n": "1960",
+          "w": 1.6,
+          "note": "Kinema Junpo all-time, no. 36 · Nagisa Ōshima · 青春残酷物語 · 96 min",
+          "q": "Q1572852"
+        },
+        {
+          "id": "jc-1960-her-brother",
+          "t": "Her Brother",
+          "n": "1960",
+          "w": 1.62,
+          "note": "Kinema Junpo all-time, no. 36 · 3 of 8 juries · Kon Ichikawa · おとうと · 97 min",
+          "q": "Q3794027"
+        },
+        {
+          "id": "jc-1960-hito-mo-arukeba",
+          "t": "Hito Mo Arukeba",
+          "n": "1960",
+          "w": 1.65,
+          "note": "Kinema Junpo all-time, no. 106 · Yuzo Kawashima · 人も歩けば · 99 min",
+          "q": "Q65248521"
+        },
+        {
+          "id": "jc-1960-the-human-vapor",
+          "t": "The Human Vapor",
+          "n": "1960",
+          "w": 1.52,
+          "note": "Kinema Junpo all-time, no. 59 · Ishirō Honda · ガス人間第１号 · 91 min",
+          "q": "Q1094136"
+        },
+        {
+          "id": "jc-1960-late-autumn",
+          "t": "Late Autumn",
+          "n": "1960",
+          "w": 2.13,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Yasujirō Ozu · 秋日和 · 128 min",
+          "q": "Q2739665"
+        },
+        {
+          "id": "jc-1960-when-a-woman-ascends-the-stairs",
+          "t": "When a Woman Ascends the Stairs",
+          "n": "1960",
+          "w": 1.85,
+          "note": "Kinema Junpo all-time, no. 106 · Mikio Naruse · 女が階段を上る時 · 111 min",
+          "q": "Q2714058"
+        },
+        {
+          "id": "jc-1961-the-last-war",
+          "t": "The Last War",
+          "n": "1961",
+          "w": 1.82,
+          "note": "Kinema Junpo all-time, no. 106 · Shūe Matsubayashi · 世界大戦争 · 109 min",
+          "q": "Q2421586"
+        },
+        {
+          "id": "jc-1961-ten-dark-women",
+          "t": "Ten Dark Women",
+          "n": "1961",
+          "w": 1.75,
+          "note": "Kinema Junpo all-time, no. 106 · Kon Ichikawa · 黒い十人の女 · 105 min",
+          "q": "Q3032566"
+        },
+        {
+          "id": "jc-1961-a-wife-confesses",
+          "t": "A Wife Confesses",
+          "n": "1961",
+          "w": 1.52,
+          "note": "Kinema Junpo all-time, no. 106 · Yasuzō Masumura · 妻は告白する · 91 min",
+          "q": "Q24898220"
+        },
+        {
+          "id": "jc-1961-yojimbo",
+          "t": "Yojimbo",
+          "n": "1961",
+          "w": 1.83,
+          "note": "Kinema Junpo all-time, no. 23 · Akira Kurosawa · 用心棒 · 110 min",
+          "q": "Q20475"
+        },
+        {
+          "id": "jc-1962-destiny-s-son",
+          "t": "Destiny's Son",
+          "n": "1962",
+          "w": 1.18,
+          "note": "Kinema Junpo all-time, no. 106 · Kenji Misumi · 斬る · 71 min",
+          "q": "Q5265230"
+        },
+        {
+          "id": "jc-1962-foundry-town",
+          "t": "Foundry Town",
+          "n": "1962",
+          "w": 1.65,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Kirio Urayama · キューポラのある街 · 99 min",
+          "q": "Q5474657"
+        },
+        {
+          "id": "jc-1962-the-graceful-brute",
+          "t": "The Graceful Brute",
+          "n": "1962",
+          "w": 1.6,
+          "note": "Kinema Junpo all-time, no. 36 · Yuzo Kawashima · しとやかな獣 · 96 min",
+          "q": "Q11268909"
+        },
+        {
+          "id": "jc-1962-harakiri",
+          "t": "Harakiri",
+          "n": "1962",
+          "w": 2.22,
+          "note": "Kinema Junpo all-time, no. 17 · 1 of 8 juries · Masaki Kobayashi · 切腹 · 133 min",
+          "q": "Q1584406"
+        },
+        {
+          "id": "jc-1962-the-outcast",
+          "t": "The Outcast",
+          "n": "1962",
+          "w": 1.97,
+          "note": "Kinema Junpo all-time, no. 106 · Kon Ichikawa · 破戒 · 118 min",
+          "q": "Q22342908"
+        },
+        {
+          "id": "jc-1962-sanjuro",
+          "t": "Sanjuro",
+          "n": "1962",
+          "w": 1.58,
+          "note": "Kinema Junpo all-time, no. 59 · Akira Kurosawa · 椿三十郎 · 95 min",
+          "q": "Q575014"
+        },
+        {
+          "id": "jc-1963-13-assassins",
+          "t": "13 Assassins",
+          "n": "1963",
+          "w": 2.08,
+          "note": "Kinema Junpo all-time, no. 106 · Eiichi Kudo · 十三人の刺客 · 125 min",
+          "q": "Q3230304"
+        },
+        {
+          "id": "jc-1963-the-elegant-life-of-mr-everyman",
+          "t": "The Elegant Life of Mr. Everyman",
+          "n": "1963",
+          "w": 1.7,
+          "note": "Kinema Junpo all-time, no. 106 · Kihachi Okamoto · 江分利満氏の優雅な生活 · 102 min",
+          "q": "Q11550627"
+        },
+        {
+          "id": "jc-1963-high-and-low",
+          "t": "High and Low",
+          "n": "1963",
+          "w": 2.38,
+          "note": "Kinema Junpo all-time, no. 13 · 1 of 8 juries · Akira Kurosawa · 天国と地獄 · 143 min",
+          "q": "Q244878"
+        },
+        {
+          "id": "jc-1963-the-insect-woman",
+          "t": "The Insect Woman",
+          "n": "1963",
+          "w": 2.05,
+          "note": "Kinema Junpo all-time, no. 59 · 2 of 8 juries · Shohei Imamura · にっぽん昆虫記 · 123 min",
+          "q": "Q2706861"
+        },
+        {
+          "id": "jc-1964-pale-flower",
+          "t": "Pale Flower",
+          "n": "1964",
+          "w": 1.6,
+          "note": "Kinema Junpo all-time, no. 59 · Masahiro Shinoda · 乾いた花 · 96 min",
+          "q": "Q7127065"
+        },
+        {
+          "id": "jc-1964-unholy-desire",
+          "t": "Unholy Desire",
+          "n": "1964",
+          "w": 2.5,
+          "note": "Kinema Junpo all-time, no. 17 · Shohei Imamura · 赤い殺意 · 150 min",
+          "q": "Q376721"
+        },
+        {
+          "id": "jc-1964-woman-in-the-dunes",
+          "t": "Woman in the Dunes",
+          "n": "1964",
+          "w": 2.43,
+          "note": "Kinema Junpo all-time, no. 106 · 4 of 8 juries · Hiroshi Teshigahara · 砂の女 · 146 min",
+          "q": "Q1207936"
+        },
+        {
+          "id": "jc-1964-yearning",
+          "t": "Yearning",
+          "n": "1964",
+          "w": 1.63,
+          "note": "Kinema Junpo all-time, no. 59 · Mikio Naruse · 乱れる · 98 min",
+          "q": "Q586668"
+        },
+        {
+          "id": "jc-1965-a-fugitive-from-the-past",
+          "t": "A Fugitive from the Past",
+          "n": "1965",
+          "w": 3.05,
+          "note": "Kinema Junpo all-time, no. 13 · Tomu Uchida · 飢餓海峡 · 183 min",
+          "q": "Q3007792"
+        },
+        {
+          "id": "jc-1965-red-beard",
+          "t": "Red Beard",
+          "n": "1965",
+          "w": 3.08,
+          "note": "Kinema Junpo all-time, no. 106 · 3 of 8 juries · Akira Kurosawa · 赤ひげ · 185 min",
+          "q": "Q847709"
+        },
+        {
+          "id": "jc-1965-seisaku-s-wife",
+          "t": "Seisaku's Wife",
+          "n": "1965",
+          "w": 1.55,
+          "note": "Kinema Junpo all-time, no. 106 · Yasuzō Masumura · 清作の妻 · 93 min",
+          "q": "Q56301613"
+        },
+        {
+          "id": "jc-1965-story-of-a-prostitute",
+          "t": "Story of a Prostitute",
+          "n": "1965",
+          "w": 1.6,
+          "note": "Kinema Junpo all-time, no. 106 · Seijun Suzuki · 春婦伝 · 96 min",
+          "q": "Q3136642"
+        },
+        {
+          "id": "jc-1965-tokyo-olympiad",
+          "t": "Tokyo Olympiad",
+          "n": "1965",
+          "w": 2.82,
+          "note": "Kinema Junpo all-time, no. 17 · Kon Ichikawa · 東京オリンピック · 169 min",
+          "q": "Q427799"
+        },
+        {
+          "id": "jc-1966-fighting-elegy",
+          "t": "Fighting Elegy",
+          "n": "1966",
+          "w": 1.43,
+          "note": "Kinema Junpo all-time, no. 23 · Seijun Suzuki · けんかえれじい · 86 min",
+          "q": "Q5447889"
+        },
+        {
+          "id": "jc-1966-tokyo-drifter",
+          "t": "Tokyo Drifter",
+          "n": "1966",
+          "w": 1.38,
+          "note": "Kinema Junpo all-time, no. 59 · Seijun Suzuki · 東京流れ者 · 83 min",
+          "q": "Q128320"
+        },
+        {
+          "id": "jc-1967-branded-to-kill",
+          "t": "Branded to Kill",
+          "n": "1967",
+          "w": 1.52,
+          "note": "Kinema Junpo all-time, no. 23 · Seijun Suzuki · 殺しの烙印 · 91 min",
+          "q": "Q729671"
+        },
+        {
+          "id": "jc-1967-a-certain-killer",
+          "t": "A Certain Killer",
+          "n": "1967",
+          "w": 1.47,
+          "note": "Kinema Junpo all-time, no. 106 · Kazuo Mori · ある殺し屋 · 88 min",
+          "q": "Q11258743"
+        },
+        {
+          "id": "jc-1967-a-colt-is-my-passport",
+          "t": "A Colt Is My Passport",
+          "n": "1967",
+          "w": 1.4,
+          "note": "Kinema Junpo all-time, no. 106 · Takashi Nomura · 拳銃（コルト）は俺のパスポート · 84 min",
+          "q": "Q4656027"
+        },
+        {
+          "id": "jc-1967-japan-s-longest-day",
+          "t": "Japan's Longest Day",
+          "n": "1967",
+          "w": 2.78,
+          "note": "Kinema Junpo all-time, no. 59 · Kihachi Okamoto · 日本のいちばん長い日 · 167 min",
+          "q": "Q5367677"
+        },
+        {
+          "id": "jc-1967-velvet-hustler",
+          "t": "Velvet Hustler",
+          "n": "1967",
+          "w": 1.62,
+          "note": "Kinema Junpo all-time, no. 106 · Toshio Masuda · 紅の流れ星 · 97 min",
+          "q": "Q120335046"
+        },
+        {
+          "id": "jc-1968-the-great-casino",
+          "t": "The Great Casino",
+          "n": "1968",
+          "w": 1.57,
+          "note": "Kinema Junpo all-time, no. 59 · Kōsaku Yamashita · 博奕打ち 総長賭博 · 94 min",
+          "q": "Q11408986"
+        },
+        {
+          "id": "jc-1968-the-human-bullet",
+          "t": "The Human Bullet",
+          "n": "1968",
+          "w": 1.93,
+          "note": "Kinema Junpo all-time, no. 59 · Kihachi Okamoto · 肉弾 · 116 min",
+          "q": "Q11611437"
+        },
+        {
+          "id": "jc-1968-i-the-executioner",
+          "t": "I, the Executioner",
+          "n": "1968",
+          "w": 1.52,
+          "note": "Kinema Junpo all-time, no. 59 · Tai Katō · みな殺しの霊歌 · 91 min",
+          "q": "Q11279193"
+        },
+        {
+          "id": "jc-1968-profound-desires-of-the-gods",
+          "t": "Profound Desires of the Gods",
+          "n": "1968",
+          "w": 2.87,
+          "note": "Kinema Junpo all-time, no. 59 · 3 of 8 juries · Shohei Imamura · 神々の深き欲望 · 172 min",
+          "q": "Q2273780"
+        },
+        {
+          "id": "jc-1969-boy",
+          "t": "Boy",
+          "n": "1969",
+          "w": 1.62,
+          "note": "Kinema Junpo all-time, no. 59 · Nagisa Ōshima · 少年 · 97 min",
+          "q": "Q283172"
+        },
+        {
+          "id": "jc-1969-double-suicide",
+          "t": "Double Suicide",
+          "n": "1969",
+          "w": 1.75,
+          "note": "Kinema Junpo all-time, no. 59 · 2 of 8 juries · Masahiro Shinoda · 心中天綱島 · 105 min",
+          "q": "Q976982"
+        },
+        {
+          "id": "jc-1969-go-go-second-time-virgin",
+          "t": "Go, Go, Second Time Virgin",
+          "n": "1969",
+          "w": 1.08,
+          "note": "Kinema Junpo all-time, no. 106 · Kōji Wakamatsu · ゆけゆけ二度目の処女 · 65 min",
+          "q": "Q232068"
+        },
+        {
+          "id": "jc-1969-it-s-tough-being-a-man",
+          "t": "It's Tough Being a Man",
+          "n": "1969",
+          "w": 1.52,
+          "note": "Kinema Junpo all-time, no. 106 · Yōji Yamada · 男はつらいよ · 91 min",
+          "q": "Q5964767"
+        },
+        {
+          "id": "jc-1970-kj19205",
+          "t": "白昼の襲撃",
+          "n": "1970",
+          "w": 1.48,
+          "note": "Kinema Junpo all-time, no. 106 · 89 min"
+        },
+        {
+          "id": "jc-1970-dodes-ka-den",
+          "t": "Dodes'ka-den",
+          "n": "1970",
+          "w": 2.33,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Akira Kurosawa · どですかでん · 140 min",
+          "q": "Q1634355"
+        },
+        {
+          "id": "jc-1970-red-peony-gambler-oryu-s-return",
+          "t": "Red Peony Gambler: Oryu's Return",
+          "n": "1970",
+          "w": 1.65,
+          "note": "Kinema Junpo all-time, no. 59 · Tai Katō · 緋牡丹博徒 お竜参上 · 99 min",
+          "q": "Q120640842"
+        },
+        {
+          "id": "jc-1970-take-care-red-riding-hood",
+          "t": "Take Care, Red Riding Hood",
+          "n": "1970",
+          "w": 1.48,
+          "note": "Kinema Junpo all-time, no. 59 · Shirō Moritani · 赤頭巾ちゃん気をつけて · 89 min",
+          "q": "Q119952637"
+        },
+        {
+          "id": "jc-1971-kj19578",
+          "t": "八月の濡れた砂",
+          "n": "1971",
+          "w": 1.52,
+          "note": "Kinema Junpo all-time, no. 59 · 91 min"
+        },
+        {
+          "id": "jc-1971-kaoyaku",
+          "t": "Kaoyaku",
+          "n": "1971",
+          "w": 1.63,
+          "note": "Kinema Junpo all-time, no. 59 · Shintarō Katsu · 顔役 · 98 min",
+          "q": "Q24867172"
+        },
+        {
+          "id": "jc-1971-minamata-the-victims-and-their-world",
+          "t": "Minamata: The Victims and Their World",
+          "n": "1971",
+          "w": 2.78,
+          "note": "Kinema Junpo all-time, no. 106 · Noriaki Tsuchimoto · 水俣 患者さんとその世界 · 167 min",
+          "q": "Q15052455"
+        }
+      ]
+    },
+    {
+      "id": "afterstudios",
+      "title": "After the studios",
+      "sub": "1972–1988 · 58 films · 110 hours",
+      "intro": "The studio system stops making the films it used to. The biggest section here, and the strangest: Japanese critics kept ranking one or two Roman Pornos among the ten best films of the year from 1971 on, and the poll's long final tie carries several of them beside Ozu and Kurosawa. Nothing has been quietly dropped.",
+      "items": [
+        {
+          "id": "jc-1972-kj19803",
+          "t": "午前中の時間割り",
+          "n": "1972",
+          "w": 1.68,
+          "note": "Kinema Junpo all-time, no. 106 · 101 min"
+        },
+        {
+          "id": "jc-1972-kj19736",
+          "t": "牝猫たちの夜",
+          "n": "1972",
+          "w": 1.13,
+          "note": "Kinema Junpo all-time, no. 106 · 68 min"
+        },
+        {
+          "id": "jc-1972-outlaw-killers-three-mad-dog-brothers",
+          "t": "Outlaw Killers: Three Mad Dog Brothers",
+          "n": "1972",
+          "w": 1.43,
+          "note": "Kinema Junpo all-time, no. 59 · Kinji Fukasaku · 人斬り与太 狂犬三兄弟 · 86 min",
+          "q": "Q24874907"
+        },
+        {
+          "id": "jc-1973-kj19865",
+          "t": "赤い鳥逃げた？",
+          "n": "1973",
+          "w": 1.63,
+          "note": "Kinema Junpo all-time, no. 106 · Toshiya Fujita · 98 min",
+          "q": "Q11635238"
+        },
+        {
+          "id": "jc-1973-kj28887",
+          "t": "三里塚 辺田部落",
+          "n": "1973",
+          "w": 2.43,
+          "note": "Kinema Junpo all-time, no. 106 · 146 min"
+        },
+        {
+          "id": "jc-1973-battles-without-honor-and-humanity",
+          "t": "Battles Without Honor and Humanity",
+          "n": "1973",
+          "w": 1.65,
+          "note": "Kinema Junpo all-time, no. 5 · Kinji Fukasaku · 仁義なき戦い · 99 min",
+          "q": "Q2517358"
+        },
+        {
+          "id": "jc-1973-battles-without-honor-and-humanity-proxy-war",
+          "t": "Battles Without Honor and Humanity: Proxy War",
+          "n": "1973",
+          "w": 1.7,
+          "note": "Kinema Junpo all-time, no. 36 · Kinji Fukasaku · 仁義なき戦い 代理戦争 · 102 min",
+          "q": "Q4873190"
+        },
+        {
+          "id": "jc-1973-tora-san-s-forget-me-not",
+          "t": "Tora-san's Forget Me Not",
+          "n": "1973",
+          "w": 1.65,
+          "note": "Kinema Junpo all-time, no. 106 · Yōji Yamada · 男はつらいよ 寅次郎忘れな草 · 99 min",
+          "q": "Q7825297"
+        },
+        {
+          "id": "jc-1973-the-wanderers",
+          "t": "The Wanderers",
+          "n": "1973",
+          "w": 1.67,
+          "note": "Kinema Junpo all-time, no. 36 · Kon Ichikawa · 股旅 · 100 min",
+          "q": "Q16946634"
+        },
+        {
+          "id": "jc-1974-kj28577",
+          "t": "（秘）色情めす市場",
+          "n": "1974",
+          "w": 1.38,
+          "note": "Kinema Junpo all-time, no. 59 · 83 min"
+        },
+        {
+          "id": "jc-1974-kj28576",
+          "t": "赤線玉の井 ぬけられます",
+          "n": "1974",
+          "w": 1.3,
+          "note": "Kinema Junpo all-time, no. 106 · 78 min"
+        },
+        {
+          "id": "jc-1974-bitterness-of-youth",
+          "t": "Bitterness of Youth",
+          "n": "1974",
+          "w": 1.42,
+          "note": "Kinema Junpo all-time, no. 17 · Tatsumi Kumashiro · 青春の蹉跌 · 85 min",
+          "q": "Q11661499"
+        },
+        {
+          "id": "jc-1974-castle-of-sand",
+          "t": "Castle of Sand",
+          "n": "1974",
+          "w": 2.38,
+          "note": "Kinema Junpo all-time, no. 17 · 1 of 8 juries · Yoshitarō Nomura · 砂の器 · 143 min",
+          "q": "Q1060124"
+        },
+        {
+          "id": "jc-1975-graveyard-of-honor",
+          "t": "Graveyard of Honor",
+          "n": "1975",
+          "w": 1.57,
+          "note": "Kinema Junpo all-time, no. 106 · Kinji Fukasaku · 仁義の墓場 · 94 min",
+          "q": "Q850383"
+        },
+        {
+          "id": "jc-1975-preparation-for-the-festival",
+          "t": "Preparation for the Festival",
+          "n": "1975",
+          "w": 1.95,
+          "note": "Kinema Junpo all-time, no. 106 · Kazuo Kuroki · 祭りの準備 · 117 min",
+          "q": "Q11239529"
+        },
+        {
+          "id": "jc-1975-the-shiranui-sea",
+          "t": "The Shiranui Sea",
+          "n": "1975",
+          "w": 2.55,
+          "note": "Kinema Junpo all-time, no. 106 · Noriaki Tsuchimoto · 不知火海 · 153 min",
+          "q": "Q17028323"
+        },
+        {
+          "id": "jc-1976-kj18530",
+          "t": "大地の子守歌",
+          "n": "1976",
+          "w": 1.85,
+          "note": "Kinema Junpo all-time, no. 106 · Yasuzō Masumura · 111 min",
+          "q": "Q85878744"
+        },
+        {
+          "id": "jc-1976-in-the-realm-of-the-senses",
+          "t": "In the Realm of the Senses",
+          "n": "1976",
+          "w": 1.8,
+          "note": "Kinema Junpo all-time, no. 106 · Nagisa Ōshima · 愛のコリーダ · 108 min",
+          "q": "Q510181"
+        },
+        {
+          "id": "jc-1976-the-youth-killer",
+          "t": "The Youth Killer",
+          "n": "1976",
+          "w": 2.2,
+          "note": "Kinema Junpo all-time, no. 36 · 1 of 8 juries · Kazuhiko Hasegawa · 青春の殺人者 · 132 min",
+          "q": "Q11661494"
+        },
+        {
+          "id": "jc-1977-kj18746",
+          "t": "新宿乱れ街 いくまで待って",
+          "n": "1977",
+          "w": 1.37,
+          "note": "Kinema Junpo all-time, no. 106 · 82 min"
+        },
+        {
+          "id": "jc-1977-the-devil-s-ballad",
+          "t": "The Devil's Ballad",
+          "n": "1977",
+          "w": 2.4,
+          "note": "Kinema Junpo all-time, no. 106 · Kon Ichikawa · 悪魔の手毬唄 · 144 min",
+          "q": "Q11492631"
+        },
+        {
+          "id": "jc-1977-house",
+          "t": "House",
+          "n": "1977",
+          "w": 1.47,
+          "note": "Kinema Junpo all-time, no. 106 · Nobuhiko Obayashi · ＨＯＵＳＥ ハウス · 88 min",
+          "q": "Q1132905"
+        },
+        {
+          "id": "jc-1977-mount-hakkoda",
+          "t": "Mount Hakkoda",
+          "n": "1977",
+          "w": 2.82,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Shirō Moritani · 八甲田山 · 169 min",
+          "q": "Q740703"
+        },
+        {
+          "id": "jc-1977-rape-13th-hour",
+          "t": "Rape! 13th Hour",
+          "n": "1977",
+          "w": 1.22,
+          "note": "Kinema Junpo all-time, no. 106 · Yasuharu Hasebe · レイプ25時 暴姦 · 73 min",
+          "q": "Q7293869"
+        },
+        {
+          "id": "jc-1978-third-base",
+          "t": "Third Base",
+          "n": "1978",
+          "w": 1.7,
+          "note": "Kinema Junpo all-time, no. 106 · 3 of 8 juries · Yōichi Higashi · サード · 102 min",
+          "q": "Q7784776"
+        },
+        {
+          "id": "jc-1979-the-castle-of-cagliostro",
+          "t": "The Castle of Cagliostro",
+          "n": "1979",
+          "w": 1.67,
+          "note": "Kinema Junpo all-time, no. 59 · Hayao Miyazaki · ルパン三世 カリオストロの城 · 100 min",
+          "q": "Q608079"
+        },
+        {
+          "id": "jc-1979-the-man-who-stole-the-sun",
+          "t": "The Man Who Stole the Sun",
+          "n": "1979",
+          "w": 2.45,
+          "note": "Kinema Junpo all-time, no. 7 · 2 of 8 juries · Kazuhiko Hasegawa · 太陽を盗んだ男 · 147 min",
+          "q": "Q7676670"
+        },
+        {
+          "id": "jc-1979-vengeance-is-mine",
+          "t": "Vengeance Is Mine",
+          "n": "1979",
+          "w": 2.33,
+          "note": "Kinema Junpo all-time, no. 23 · 3 of 8 juries · Shohei Imamura · 復讐するは我にあり · 140 min",
+          "q": "Q2456608"
+        },
+        {
+          "id": "jc-1980-crazy-thunder-road",
+          "t": "Crazy Thunder Road",
+          "n": "1980",
+          "w": 1.63,
+          "note": "Kinema Junpo all-time, no. 59 · Gakuryū Ishii · 狂い咲きサンダーロード · 98 min",
+          "q": "Q5183258"
+        },
+        {
+          "id": "jc-1980-kagemusha",
+          "t": "Kagemusha",
+          "n": "1980",
+          "w": 3.0,
+          "note": "Kinema Junpo all-time, no. 59 · 4 of 8 juries · Akira Kurosawa · 影武者 · 180 min",
+          "q": "Q854990"
+        },
+        {
+          "id": "jc-1980-path-of-the-beast",
+          "t": "Path of the Beast",
+          "n": "1980",
+          "w": 1.18,
+          "note": "Kinema Junpo all-time, no. 106 · Tatsumi Kumashiro · 少女娼婦 けものみち · 71 min",
+          "q": "Q125704862"
+        },
+        {
+          "id": "jc-1980-zigeunerweisen",
+          "t": "Zigeunerweisen",
+          "n": "1980",
+          "w": 2.42,
+          "note": "Kinema Junpo all-time, no. 23 · 3 of 8 juries · Seijun Suzuki · ツィゴイネルワイゼン · 145 min",
+          "q": "Q4184126"
+        },
+        {
+          "id": "jc-1981-angel-guts-red-porno",
+          "t": "Angel Guts: Red Porno",
+          "n": "1981",
+          "w": 1.12,
+          "note": "Kinema Junpo all-time, no. 106 · Toshiharu Ikeda · 天使のはらわた 赤い淫画 · 67 min",
+          "q": "Q17219173"
+        },
+        {
+          "id": "jc-1981-crazy-fruit",
+          "t": "Crazy Fruit",
+          "n": "1981",
+          "w": 1.42,
+          "note": "Kinema Junpo all-time, no. 59 · Kichitarō Negishi · 狂った果実 · 85 min",
+          "q": "Q5183153"
+        },
+        {
+          "id": "jc-1981-imperial-navy",
+          "t": "Imperial Navy",
+          "n": "1981",
+          "w": 2.42,
+          "note": "Kinema Junpo all-time, no. 106 · Shūe Matsubayashi · 連合艦隊 · 145 min",
+          "q": "Q11639863"
+        },
+        {
+          "id": "jc-1981-muddy-river",
+          "t": "Muddy River",
+          "n": "1981",
+          "w": 1.75,
+          "note": "Kinema Junpo all-time, no. 36 · 4 of 8 juries · Kōhei Oguri · 泥の河 · 105 min",
+          "q": "Q1445696"
+        },
+        {
+          "id": "jc-1981-something-like-it",
+          "t": "Something Like It",
+          "n": "1981",
+          "w": 1.72,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Yoshimitsu Morita · の・ようなもの · 103 min",
+          "q": "Q7560126"
+        },
+        {
+          "id": "jc-1981-station",
+          "t": "Station",
+          "n": "1981",
+          "w": 2.2,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Yasuo Furuhata · 駅 ＳＴＡＴＩＯＮ · 132 min",
+          "q": "Q4183833"
+        },
+        {
+          "id": "jc-1982-kj29148",
+          "t": "ニッポン国・古屋敷村",
+          "n": "1982",
+          "w": 3.5,
+          "note": "Kinema Junpo all-time, no. 59 · 210 min"
+        },
+        {
+          "id": "jc-1982-burst-city",
+          "t": "Burst City",
+          "n": "1982",
+          "w": 1.92,
+          "note": "Kinema Junpo all-time, no. 106 · Gakuryū Ishii · 爆裂都市 バースト・シティ · 115 min",
+          "q": "Q5000635"
+        },
+        {
+          "id": "jc-1982-fall-guy",
+          "t": "Fall Guy",
+          "n": "1982",
+          "w": 1.82,
+          "note": "Kinema Junpo all-time, no. 23 · 5 of 8 juries · Kinji Fukasaku · 蒲田行進曲 · 109 min",
+          "q": "Q5432046"
+        },
+        {
+          "id": "jc-1982-i-are-you-you-am-me",
+          "t": "I Are You, You Am Me",
+          "n": "1982",
+          "w": 1.87,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Nobuhiko Obayashi · 転校生 · 112 min",
+          "q": "Q871582"
+        },
+        {
+          "id": "jc-1983-the-family-game",
+          "t": "The Family Game",
+          "n": "1983",
+          "w": 1.78,
+          "note": "Kinema Junpo all-time, no. 10 · 3 of 8 juries · Yoshimitsu Morita · 家族ゲーム · 107 min",
+          "q": "Q603839"
+        },
+        {
+          "id": "jc-1983-the-girl-who-leapt-through-time",
+          "t": "The Girl Who Leapt Through Time",
+          "n": "1983",
+          "w": 1.73,
+          "note": "Kinema Junpo all-time, no. 59 · Nobuhiko Obayashi · 時をかける少女 · 104 min",
+          "q": "Q4981366"
+        },
+        {
+          "id": "jc-1983-the-makioka-sisters",
+          "t": "The Makioka Sisters",
+          "n": "1983",
+          "w": 2.33,
+          "note": "Kinema Junpo all-time, no. 106 · Kon Ichikawa · 細雪 · 140 min",
+          "q": "Q7749735"
+        },
+        {
+          "id": "jc-1983-merry-christmas-mr-lawrence",
+          "t": "Merry Christmas, Mr. Lawrence",
+          "n": "1983",
+          "w": 2.05,
+          "note": "Kinema Junpo all-time, no. 59 · 1 of 8 juries · Nagisa Ōshima · 戦場のメリークリスマス · 123 min",
+          "q": "Q696855"
+        },
+        {
+          "id": "jc-1983-p-p-rider",
+          "t": "P.P. Rider",
+          "n": "1983",
+          "w": 1.97,
+          "note": "Kinema Junpo all-time, no. 59 · Shinji Sōmai · ションベン・ライダー · 118 min",
+          "q": "Q500254"
+        },
+        {
+          "id": "jc-1984-the-funeral",
+          "t": "The Funeral",
+          "n": "1984",
+          "w": 2.07,
+          "note": "Kinema Junpo all-time, no. 36 · 3 of 8 juries · Jūzō Itami · お葬式 · 124 min",
+          "q": "Q7735458"
+        },
+        {
+          "id": "jc-1984-nausicaa-of-the-valley-of-the-wind",
+          "t": "Nausicaä of the Valley of the Wind",
+          "n": "1984",
+          "w": 1.95,
+          "note": "Kinema Junpo all-time, no. 17 · Hayao Miyazaki · 風の谷のナウシカ · 117 min",
+          "q": "Q8885676"
+        },
+        {
+          "id": "jc-1985-fire-festival",
+          "t": "Fire Festival",
+          "n": "1985",
+          "w": 2.08,
+          "note": "Kinema Junpo all-time, no. 36 · Mitsuo Yanagimachi · 火まつり · 125 min",
+          "q": "Q5451356"
+        },
+        {
+          "id": "jc-1985-love-hotel",
+          "t": "Love Hotel",
+          "n": "1985",
+          "w": 1.47,
+          "note": "Kinema Junpo all-time, no. 59 · 1 of 8 juries · Shinji Sōmai · ラブホテル · 88 min",
+          "q": "Q500916"
+        },
+        {
+          "id": "jc-1985-ran",
+          "t": "Ran",
+          "n": "1985",
+          "w": 2.7,
+          "note": "Kinema Junpo all-time, no. 59 · 2 of 8 juries · Akira Kurosawa · 乱 · 162 min",
+          "q": "Q565231"
+        },
+        {
+          "id": "jc-1985-typhoon-club",
+          "t": "Typhoon Club",
+          "n": "1985",
+          "w": 1.92,
+          "note": "Kinema Junpo all-time, no. 10 · Shinji Sōmai · 台風クラブ · 115 min",
+          "q": "Q74437"
+        },
+        {
+          "id": "jc-1986-castle-in-the-sky",
+          "t": "Castle in the Sky",
+          "n": "1986",
+          "w": 2.07,
+          "note": "Kinema Junpo all-time, no. 59 · Hayao Miyazaki · 天空の城ラピュタ · 124 min",
+          "q": "Q498577"
+        },
+        {
+          "id": "jc-1986-comic-magazine",
+          "t": "Comic Magazine",
+          "n": "1986",
+          "w": 2.07,
+          "note": "Kinema Junpo all-time, no. 59 · 1 of 8 juries · Yōjirō Takita · コミック雑誌なんかいらない！ · 124 min",
+          "q": "Q5151761"
+        },
+        {
+          "id": "jc-1986-inuji-ni-seshi-mono",
+          "t": "Inuji ni Seshi Mono",
+          "n": "1986",
+          "w": 1.72,
+          "note": "Kinema Junpo all-time, no. 106 · Kazuyuki Izutsu · 犬死にせしもの · 103 min",
+          "q": "Q6059255"
+        },
+        {
+          "id": "jc-1986-the-sea-and-poison",
+          "t": "The Sea and Poison",
+          "n": "1986",
+          "w": 2.05,
+          "note": "Kinema Junpo all-time, no. 106 · 2 of 8 juries · Kei Kumai · 海と毒薬 · 123 min",
+          "q": "Q2059827"
+        },
+        {
+          "id": "jc-1988-my-neighbor-totoro",
+          "t": "My Neighbor Totoro",
+          "n": "1988",
+          "w": 1.43,
+          "note": "Kinema Junpo all-time, no. 36 · 2 of 8 juries · Hayao Miyazaki · となりのトトロ · 86 min",
+          "q": "Q39571"
+        }
+      ]
+    },
+    {
+      "id": "heisei",
+      "title": "Heisei",
+      "sub": "1989–2008 · 34 films · 66 hours",
+      "intro": "The Heisei era, which Wikipedia's history of Japanese cinema heads together with Reiwa — the Reiwa years are in the last section here, because the poll could not reach them. Cinema numbers had been falling since the 1960s, under 2,000 screens in 1993 against more than 7,000 in 1960, and the 1990s reverse it with the multiplex while the mini-theatres carry the rest. 34 films, and the poll stops in 2008.",
+      "items": [
+        {
+          "id": "jc-1989-tetsuo-the-iron-man",
+          "t": "Tetsuo: The Iron Man",
+          "n": "1989",
+          "w": 1.12,
+          "note": "Kinema Junpo all-time, no. 59 · Shinya Tsukamoto · 鉄男 TETSUO · 67 min",
+          "q": "Q185884"
+        },
+        {
+          "id": "jc-1989-violent-cop",
+          "t": "Violent Cop",
+          "n": "1989",
+          "w": 1.72,
+          "note": "Kinema Junpo all-time, no. 106 · Takeshi Kitano · その男、凶暴につき · 103 min",
+          "q": "Q1156893"
+        },
+        {
+          "id": "jc-1990-boiling-point",
+          "t": "Boiling Point",
+          "n": "1990",
+          "w": 1.62,
+          "note": "Kinema Junpo all-time, no. 23 · Takeshi Kitano · ３－４ⅹ10月 · 97 min",
+          "q": "Q301823"
+        },
+        {
+          "id": "jc-1990-the-sting-of-death",
+          "t": "The Sting of Death",
+          "n": "1990",
+          "w": 1.92,
+          "note": "Kinema Junpo all-time, no. 106 · 1 of 8 juries · Kōhei Oguri · 死の棘 · 115 min",
+          "q": "Q1402643"
+        },
+        {
+          "id": "jc-1991-a-scene-at-the-sea",
+          "t": "A Scene at the Sea",
+          "n": "1991",
+          "w": 1.68,
+          "note": "Kinema Junpo all-time, no. 106 · 2 of 8 juries · Takeshi Kitano · あの夏、いちばん静かな海。 · 101 min",
+          "q": "Q1157019"
+        },
+        {
+          "id": "jc-1992-the-rocking-horsemen",
+          "t": "The Rocking Horsemen",
+          "n": "1992",
+          "w": 2.25,
+          "note": "Kinema Junpo all-time, no. 106 · Nobuhiko Obayashi · 青春デンデケデケデケ · 135 min",
+          "q": "Q11661528"
+        },
+        {
+          "id": "jc-1992-tetsuo-ii-body-hammer",
+          "t": "Tetsuo II: Body Hammer",
+          "n": "1992",
+          "w": 1.37,
+          "note": "Kinema Junpo all-time, no. 106 · Shinya Tsukamoto · 鉄男Ⅱ／BODY HAMMER · 82 min",
+          "q": "Q2057161"
+        },
+        {
+          "id": "jc-1993-all-under-the-moon",
+          "t": "All Under the Moon",
+          "n": "1993",
+          "w": 1.82,
+          "note": "Kinema Junpo all-time, no. 106 · 5 of 8 juries · Yoichi Sai · 月はどっちに出ている · 109 min",
+          "q": "Q4729852"
+        },
+        {
+          "id": "jc-1993-moving",
+          "t": "Moving",
+          "n": "1993",
+          "w": 2.07,
+          "note": "Kinema Junpo all-time, no. 59 · Shinji Sōmai · お引越し · 124 min",
+          "q": "Q82327"
+        },
+        {
+          "id": "jc-1993-sonatine",
+          "t": "Sonatine",
+          "n": "1993",
+          "w": 1.57,
+          "note": "Kinema Junpo all-time, no. 59 · Takeshi Kitano · ソナチネ · 94 min",
+          "q": "Q1339178"
+        },
+        {
+          "id": "jc-1996-kids-return",
+          "t": "Kids Return",
+          "n": "1996",
+          "w": 1.72,
+          "note": "Kinema Junpo all-time, no. 59 · 1 of 8 juries · Takeshi Kitano · キッズ・リターン · 103 min",
+          "q": "Q670964"
+        },
+        {
+          "id": "jc-1996-shall-we-dance",
+          "t": "Shall We Dance?",
+          "n": "1996",
+          "w": 2.27,
+          "note": "Kinema Junpo all-time, no. 106 · 5 of 8 juries · Masayuki Suo · Shall we ダンス？ · 136 min",
+          "q": "Q1199128"
+        },
+        {
+          "id": "jc-1996-tokiwa-so-no-seishun",
+          "t": "Tokiwa-so no seishun",
+          "n": "1996",
+          "w": 1.83,
+          "note": "Kinema Junpo all-time, no. 106 · Jun Ichikawa · トキワ荘の青春 · 110 min",
+          "q": "Q11321165"
+        },
+        {
+          "id": "jc-1997-cure",
+          "t": "Cure",
+          "n": "1997",
+          "w": 1.87,
+          "note": "Kinema Junpo all-time, no. 36 · 1 of 8 juries · Kiyoshi Kurosawa · CURE キュア · 112 min",
+          "q": "Q1144476"
+        },
+        {
+          "id": "jc-1998-gakko-iii",
+          "t": "Gakko III",
+          "n": "1998",
+          "w": 2.22,
+          "note": "Kinema Junpo all-time, no. 106 · 学校III · 133 min",
+          "q": "Q128107096"
+        },
+        {
+          "id": "jc-2000-face",
+          "t": "Face",
+          "n": "2000",
+          "w": 2.05,
+          "note": "Kinema Junpo all-time, no. 106 · 4 of 8 juries · Junji Sakamoto · 顔 · 123 min",
+          "q": "Q5428310"
+        },
+        {
+          "id": "jc-2001-crayon-shin-chan-the-storm-called-the-adult-empire-strikes-back",
+          "t": "Crayon Shin-chan: The Storm Called: The Adult Empire Strikes Back",
+          "n": "2001",
+          "w": 1.5,
+          "note": "Kinema Junpo all-time, no. 59 · Keiichi Hara · クレヨンしんちゃん 嵐を呼ぶ モーレツ！ オトナ帝国の逆襲 · 90 min",
+          "q": "Q1186464"
+        },
+        {
+          "id": "jc-2001-kaza-hana",
+          "t": "Kaza-hana",
+          "n": "2001",
+          "w": 1.93,
+          "note": "Kinema Junpo all-time, no. 106 · Shinji Sōmai · 風花 · 116 min",
+          "q": "Q500934"
+        },
+        {
+          "id": "jc-2002-the-twilight-samurai",
+          "t": "The Twilight Samurai",
+          "n": "2002",
+          "w": 2.15,
+          "note": "Kinema Junpo all-time, no. 59 · 7 of 8 juries · Yōji Yamada · たそがれ清兵衛 · 129 min",
+          "q": "Q94033"
+        },
+        {
+          "id": "jc-2003-bright-future",
+          "t": "Bright Future",
+          "n": "2003",
+          "w": 1.92,
+          "note": "Kinema Junpo all-time, no. 59 · Kiyoshi Kurosawa · アカルイミライ · 115 min",
+          "q": "Q3107331"
+        },
+        {
+          "id": "jc-2004-nobody-knows",
+          "t": "Nobody Knows",
+          "n": "2004",
+          "w": 2.35,
+          "note": "Kinema Junpo all-time, no. 106 · 4 of 8 juries · Hirokazu Koreeda · 誰も知らない · 141 min",
+          "q": "Q612298"
+        },
+        {
+          "id": "jc-2004-ramblers",
+          "t": "Ramblers",
+          "n": "2004",
+          "w": 1.38,
+          "note": "Kinema Junpo all-time, no. 59 · Nobuhiro Yamashita · リアリズムの宿 · 83 min",
+          "q": "Q112441569"
+        },
+        {
+          "id": "jc-2004-the-reason",
+          "t": "The Reason",
+          "n": "2004",
+          "w": 2.67,
+          "note": "Kinema Junpo all-time, no. 106 · Nobuhiko Obayashi · 理由 · 160 min",
+          "q": "Q57306380"
+        },
+        {
+          "id": "jc-2004-swing-girls",
+          "t": "Swing Girls",
+          "n": "2004",
+          "w": 1.75,
+          "note": "Kinema Junpo all-time, no. 106 · Shinobu Yaguchi · スウィングガールズ · 105 min",
+          "q": "Q1185528"
+        },
+        {
+          "id": "jc-2005-break-through",
+          "t": "Break Through!",
+          "n": "2005",
+          "w": 1.97,
+          "note": "Kinema Junpo all-time, no. 106 · 5 of 8 juries · Kazuyuki Izutsu · パッチギ！ · 118 min",
+          "q": "Q1070030"
+        },
+        {
+          "id": "jc-2006-hula-girls",
+          "t": "Hula Girls",
+          "n": "2006",
+          "w": 2.0,
+          "note": "Kinema Junpo all-time, no. 106 · 6 of 8 juries · Sang-il Lee · フラガール · 120 min",
+          "q": "Q907207"
+        },
+        {
+          "id": "jc-2006-memories-of-matsuko",
+          "t": "Memories of Matsuko",
+          "n": "2006",
+          "w": 2.17,
+          "note": "Kinema Junpo all-time, no. 106 · Tetsuya Nakashima · 嫌われ松子の一生 · 130 min",
+          "q": "Q953722"
+        },
+        {
+          "id": "jc-2006-noriko-s-dinner-table",
+          "t": "Noriko's Dinner Table",
+          "n": "2006",
+          "w": 2.65,
+          "note": "Kinema Junpo all-time, no. 36 · Sion Sono · 紀子の食卓 · 159 min",
+          "q": "Q1057774"
+        },
+        {
+          "id": "jc-2006-what-the-snow-brings",
+          "t": "What the Snow Brings",
+          "n": "2006",
+          "w": 1.87,
+          "note": "Kinema Junpo all-time, no. 106 · Kichitarō Negishi · 雪に願うこと · 112 min",
+          "q": "Q6181710"
+        },
+        {
+          "id": "jc-2006-who-s-camus-anyway",
+          "t": "Who'S Camus Anyway?",
+          "n": "2006",
+          "w": 1.92,
+          "note": "Kinema Junpo all-time, no. 106 · Mitsuo Yanagimachi · カミュなんて知らない · 115 min",
+          "q": "Q11294750"
+        },
+        {
+          "id": "jc-2007-summer-days-with-coo",
+          "t": "Summer Days with Coo",
+          "n": "2007",
+          "w": 2.3,
+          "note": "Kinema Junpo all-time, no. 59 · Keiichi Hara · 河童のクゥと夏休み · 138 min",
+          "q": "Q1305179"
+        },
+        {
+          "id": "jc-2008-all-around-us",
+          "t": "All Around Us",
+          "n": "2008",
+          "w": 2.33,
+          "note": "Kinema Junpo all-time, no. 106 · Ryōsuke Hashiguchi · ぐるりのこと。 · 140 min",
+          "q": "Q11265850"
+        },
+        {
+          "id": "jc-2008-children-of-the-dark",
+          "t": "Children of the Dark",
+          "n": "2008",
+          "w": 2.3,
+          "note": "Kinema Junpo all-time, no. 106 · Junji Sakamoto · 闇の子供たち · 138 min",
+          "q": "Q11258911"
+        },
+        {
+          "id": "jc-2008-departures",
+          "t": "Departures",
+          "n": "2008",
+          "w": 2.17,
+          "note": "Kinema Junpo all-time, no. 106 · 7 of 8 juries · Yōjirō Takita · おくりびと · 130 min",
+          "q": "Q1044598"
+        }
+      ]
+    },
+    {
+      "id": "since",
+      "title": "Since the poll",
+      "sub": "2009–2025 · 30 films · 69 hours",
+      "intro": "Everything after the poll closed. These rows are not Kinema Junpo's ranking — there has been no new one — so each is here because at least 2 of Japan's eight juries named it Best Film, and the note says how many. It is a coarser instrument than a considered survey and this section should be read as provisional.",
+      "items": [
+        {
+          "id": "jc-2009-dear-doctor",
+          "t": "Dear Doctor",
+          "n": "2009",
+          "w": 2.12,
+          "note": "3 of 8 juries · Miwa Nishikawa · ディア・ドクター · 127 min",
+          "q": "Q5230375"
+        },
+        {
+          "id": "jc-2009-shizumanu-taiyo",
+          "t": "Shizumanu Taiyō",
+          "n": "2009",
+          "w": 3.37,
+          "note": "3 of 8 juries · Setsurō Wakamatsu · 沈まぬ太陽 · 202 min",
+          "q": "Q872689"
+        },
+        {
+          "id": "jc-2010-confessions",
+          "t": "Confessions",
+          "n": "2010",
+          "w": 1.77,
+          "note": "3 of 8 juries · Tetsuya Nakashima · 告白 · 106 min",
+          "q": "Q1364843"
+        },
+        {
+          "id": "jc-2010-postcard",
+          "t": "Postcard",
+          "n": "2010",
+          "w": 1.9,
+          "note": "4 of 8 juries · Kaneto Shindō · 一枚のハガキ · 114 min",
+          "q": "Q4391725"
+        },
+        {
+          "id": "jc-2010-villain",
+          "t": "Villain",
+          "n": "2010",
+          "w": 2.32,
+          "note": "4 of 8 juries · Sang-il Lee · 悪人 · 139 min",
+          "q": "Q1053770"
+        },
+        {
+          "id": "jc-2011-rebirth",
+          "t": "Rebirth",
+          "n": "2011",
+          "w": 2.45,
+          "note": "2 of 8 juries · Izuru Narushima · 八日目の蝉 · 147 min",
+          "q": "Q5359057"
+        },
+        {
+          "id": "jc-2012-the-kirishima-thing",
+          "t": "The Kirishima Thing",
+          "n": "2012",
+          "w": 1.7,
+          "note": "2 of 8 juries · Daihachi Yoshida · 桐島、部活やめるってよ · 102 min",
+          "q": "Q6420525"
+        },
+        {
+          "id": "jc-2012-our-homeland",
+          "t": "Our Homeland",
+          "n": "2012",
+          "w": 1.65,
+          "note": "3 of 8 juries · Yang Yong-hi · かぞくのくに · 99 min",
+          "q": "Q374865"
+        },
+        {
+          "id": "jc-2012-a-terminal-trust",
+          "t": "A Terminal Trust",
+          "n": "2012",
+          "w": 2.4,
+          "note": "2 of 8 juries · Masayuki Suo · 終の信託 · 144 min",
+          "q": "Q93790"
+        },
+        {
+          "id": "jc-2013-the-eternal-zero",
+          "t": "The Eternal Zero",
+          "n": "2013",
+          "w": 2.4,
+          "note": "2 of 8 juries · Takashi Yamazaki · 永遠の0 · 144 min",
+          "q": "Q11550375"
+        },
+        {
+          "id": "jc-2013-the-great-passage",
+          "t": "The Great Passage",
+          "n": "2013",
+          "w": 2.22,
+          "note": "5 of 8 juries · Yuya Ishii · 舟を編む · 133 min",
+          "q": "Q11613749"
+        },
+        {
+          "id": "jc-2014-the-light-shines-only-there",
+          "t": "The Light Shines Only There",
+          "n": "2014",
+          "w": 1.5,
+          "note": "3 of 8 juries · Mipo O · そこのみにて光輝く · 90 min",
+          "q": "Q17995688"
+        },
+        {
+          "id": "jc-2015-our-little-sister",
+          "t": "Our Little Sister",
+          "n": "2015",
+          "w": 2.1,
+          "note": "2 of 8 juries · Hirokazu Koreeda · 海街diary · 126 min",
+          "q": "Q19806501"
+        },
+        {
+          "id": "jc-2015-solomon-s-perjury",
+          "t": "Solomon's Perjury",
+          "n": "2015",
+          "w": 4.45,
+          "note": "2 of 8 juries · 267 min · both parts"
+        },
+        {
+          "id": "jc-2015-three-stories-of-love",
+          "t": "Three Stories of Love",
+          "n": "2015",
+          "w": 2.33,
+          "note": "2 of 8 juries · Ryōsuke Hashiguchi · 恋人たち · 140 min",
+          "q": "Q21665842"
+        },
+        {
+          "id": "jc-2016-her-love-boils-bathwater",
+          "t": "Her Love Boils Bathwater",
+          "n": "2016",
+          "w": 2.08,
+          "note": "2 of 8 juries · Ryōta Nakano · 湯を沸かすほどの熱い愛 · 125 min",
+          "q": "Q28685625"
+        },
+        {
+          "id": "jc-2016-in-this-corner-of-the-world",
+          "t": "In This Corner of the World",
+          "n": "2016",
+          "w": 2.15,
+          "note": "2 of 8 juries · Sunao Katabuchi · この世界の片隅に · 129 min",
+          "q": "Q18125913"
+        },
+        {
+          "id": "jc-2016-shin-godzilla",
+          "t": "Shin Godzilla",
+          "n": "2016",
+          "w": 2.0,
+          "note": "3 of 8 juries · Hideaki Anno · シン・ゴジラ · 120 min",
+          "q": "Q20899737"
+        },
+        {
+          "id": "jc-2017-the-tokyo-night-sky-is-always-the-densest-shade-of-blue",
+          "t": "The Tokyo Night Sky Is Always the Densest Shade of Blue",
+          "n": "2017",
+          "w": 1.8,
+          "note": "2 of 8 juries · Yuya Ishii · 夜空はいつでも最高密度の青色だ · 108 min",
+          "q": "Q29526443"
+        },
+        {
+          "id": "jc-2017-wilderness",
+          "t": "Wilderness",
+          "n": "2017",
+          "w": 5.07,
+          "note": "3 of 8 juries · あゝ、荒野 · 304 min · both parts",
+          "q": "Q61864389"
+        },
+        {
+          "id": "jc-2018-shoplifters",
+          "t": "Shoplifters",
+          "n": "2018",
+          "w": 2.02,
+          "note": "5 of 8 juries · Hirokazu Koreeda · 万引き家族 · 121 min",
+          "q": "Q48765577"
+        },
+        {
+          "id": "jc-2019-the-journalist",
+          "t": "The Journalist",
+          "n": "2019",
+          "w": 1.88,
+          "note": "2 of 8 juries · Michihito Fujii · 新聞記者 · 113 min",
+          "q": "Q65269837"
+        },
+        {
+          "id": "jc-2020-it-feels-so-good",
+          "t": "It Feels So Good",
+          "n": "2020",
+          "w": 1.75,
+          "note": "2 of 8 juries · Haruhiko Arai · 火口のふたり · 105 min",
+          "q": "Q133875356"
+        },
+        {
+          "id": "jc-2021-drive-my-car",
+          "t": "Drive My Car",
+          "n": "2021",
+          "w": 2.98,
+          "note": "5 of 8 juries · Ryusuke Hamaguchi · ドライブ・マイ・カー · 179 min",
+          "q": "Q107107865"
+        },
+        {
+          "id": "jc-2022-a-man",
+          "t": "A Man",
+          "n": "2022",
+          "w": 2.02,
+          "note": "3 of 8 juries · Kei Ishikawa · ある男 · 121 min",
+          "q": "Q109595555"
+        },
+        {
+          "id": "jc-2023-godzilla-minus-one",
+          "t": "Godzilla Minus One",
+          "n": "2023",
+          "w": 2.08,
+          "note": "2 of 8 juries · Takashi Yamazaki · ゴジラ-1.0 · 125 min",
+          "q": "Q115053037"
+        },
+        {
+          "id": "jc-2023-okiku-and-the-world",
+          "t": "Okiku and the World",
+          "n": "2023",
+          "w": 1.48,
+          "note": "2 of 8 juries · Junji Sakamoto · せかいのおきく · 89 min",
+          "q": "Q120333125"
+        },
+        {
+          "id": "jc-2024-all-the-long-nights",
+          "t": "All the Long Nights",
+          "n": "2024",
+          "w": 1.98,
+          "note": "3 of 8 juries · 119 min"
+        },
+        {
+          "id": "jc-2024-a-samurai-in-time",
+          "t": "A Samurai in Time",
+          "n": "2024",
+          "w": 2.18,
+          "note": "3 of 8 juries · Jun'ichi Yasuda · 侍タイムスリッパー · 131 min",
+          "q": "Q130513869"
+        },
+        {
+          "id": "jc-2025-kokuho",
+          "t": "Kokuho",
+          "n": "2025",
+          "w": 2.92,
+          "note": "6 of 8 juries · Sang-il Lee · 国宝 · 175 min",
+          "q": "Q134906322"
+        }
+      ]
+    }
+  ]
+}
