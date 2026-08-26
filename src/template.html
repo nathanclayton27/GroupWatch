@@ -282,6 +282,12 @@ li:hover .catch,li:focus-within .catch{display:inline-block}
   .bulk{opacity:1;pointer-events:auto;padding:7px 11px;font-size:11px}
   .catch{display:none;padding:6px 10px;font-size:11px}
   #list li.act .catch{display:inline-block}
+  /* No hover here, and the pills only appear once you tap the row at all —
+     so the clutter the slide removes is not on screen in the first place.
+     An armed row opens the pair outright, which keeps voting either way at
+     one tap rather than spending a second one (Nathan approved a double tap
+     on CLU-356; this does not need to spend it). */
+  #list li.act .thpair .thb.sec{opacity:.6;right:calc(100% + 6px)}
   #list li{padding:9px 14px;min-height:44px;align-items:center}
   #list li input{width:20px;height:20px;top:0}
   #list li:hover{background:transparent}
@@ -352,9 +358,22 @@ li.done .ttl,li.done .num{color:var(--ink-3);text-decoration:line-through;text-d
 .thb{cursor:pointer;filter:grayscale(1);opacity:0;transition:opacity .15s}
 /* :not(.on) throughout: a made mark is already at full strength and pointing
    at the row must not fade it back down to hover strength */
-#list li:hover .thb:not(.on),#list li.act .thb:not(.on),
-#list li:focus-within .thb:not(.on){opacity:.6}
+#list li:hover .thb:not(.on):not(.sec),#list li.act .thb:not(.on):not(.sec),
+#list li:focus-within .thb:not(.on):not(.sec){opacity:.6}
 .thb:hover,.thb:focus-visible{opacity:1;border-color:var(--ink-2)}
+/* CLU-356: one pill per row, the opposite waiting UNDER it.
+   Anchored on `right`, not a transform: the two pills are not always the
+   same width — a pill carrying a friends count is wider — and `right:100%`
+   is measured against the PAIR, so the opposite lands exactly one primary
+   width to the left whatever either one is carrying.
+   Leftward is the whole point: the cluster's right edge stays pinned to
+   catch-up, so opening it never moves the thing you are aiming at. */
+.thpair{position:relative;display:inline-flex;align-items:center}
+.thpair .thb.pri{position:relative;z-index:1}
+.thpair .thb.sec{position:absolute;right:0;top:0;z-index:0;opacity:0;
+  transition:right .2s cubic-bezier(.2,.85,.3,1),opacity .16s linear}
+.thpair:hover .thb.sec,.thpair:focus-within .thb.sec{
+  opacity:1;right:calc(100% + 6px)}
 /* the surviving mark */
 .thb.on{opacity:1;filter:none;border-color:var(--done);
   background:color-mix(in srgb,var(--done) 16%,transparent)}
@@ -2116,13 +2135,14 @@ async function pullFriendThumbs(){
 // One side of the pair. The count and the names are the friend layer: a side
 // nobody but you picked is a bare mark, because "1" next to your own thumb
 // tells you nothing you did not just do.
-function thBtn(item, dir, mine){
+function thBtn(item, dir, mine, extra){
   const on = mine === dir;
   const who = thFriends(item, dir);
   const full = THNAME[dir]
     + (who.length ? ' — ' + (on ? 'you, ' : '') + who.join(', ')
                   : (on ? ' — you' : ''));
   return '<button type="button" class="thb' + (on ? ' on' : '')
+    + (extra ? ' ' + extra : '')
     + '" data-th="' + dir + '"'
     + (on ? ' aria-pressed="true"' : ' aria-pressed="false"')
     + ' title="' + esc(full) + '" aria-label="' + esc(full) + '">'
@@ -2140,10 +2160,28 @@ function thCount(item, dir){
     + ' aria-label="' + esc(full) + '">' + THFACE[dir]
     + '<span class="thn">' + who.length + '</span></span>';
 }
-function thHTML(item){
+// `slide` is the ROW treatment (CLU-356): one pill at rest with the opposite
+// waiting behind it. Note the un-slid branch below already collapsed to a
+// single pill once you had voted — this extends that to the un-voted row,
+// where the default pill is the thumbs up, and it also gives a voted row its
+// opposite back, so changing your mind no longer means clearing the mark
+// first to make the pair reappear.
+//
+// The list's own thumb in the header does NOT slide: it is pressed once per
+// list rather than once per row, so there is no clutter to remove and no
+// second thing to learn.
+function thHTML(item, slide){
   const mine = thumbOf(item);
-  let h = mine ? thBtn(item, mine, mine)
-               : thBtn(item, 'up', mine) + thBtn(item, 'down', mine);
+  let h;
+  if(slide){
+    const pri = mine || 'up';
+    const sec = pri === 'up' ? 'down' : 'up';
+    h = '<span class="thpair">' + thBtn(item, pri, mine, 'pri')
+      + thBtn(item, sec, mine, 'sec') + '</span>';
+  }else{
+    h = mine ? thBtn(item, mine, mine)
+             : thBtn(item, 'up', mine) + thBtn(item, 'down', mine);
+  }
   if(mine){
     const other = mine === 'up' ? 'down' : 'up';
     if(thFriends(item, other).length) h += thCount(item, other);
@@ -2163,7 +2201,7 @@ function paintThumbs(){
     const sig = thSig(li.dataset.id);
     if(el.dataset.sig === sig) return;
     el.dataset.sig = sig;
-    el.innerHTML = thHTML(li.dataset.id);
+    el.innerHTML = thHTML(li.dataset.id, true);
   });
   const lt = $('lthumb');
   if(lt && SLUG){
