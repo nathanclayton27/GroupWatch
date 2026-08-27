@@ -33,15 +33,50 @@ import time
 
 from playwright.sync_api import sync_playwright
 
-PORT = 8151
-srv = subprocess.Popen([sys.executable, "-m", "http.server", str(PORT)],
-                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-time.sleep(1.2)
-if srv.poll() is not None:
+# --- serving the site under test -------------------------------------------
+# `srv.poll()` CANNOT detect a busy port here: http.server sets
+# allow_reuse_address and Windows SO_REUSEADDR lets a second process bind a
+# port another is already serving, so the child comes up healthy and the check
+# silently tests whatever the OTHER server is pointed at. That happened — a
+# mutation harness on the same port fed a different build to a check for forty
+# assertions. Ask TCP instead, then make the server prove it is ours.
+def _answering(port):
+    import socket
+    try:
+        with socket.create_connection(("127.0.0.1", port), 0.35):
+            return True
+    except OSError:
+        return False
+
+
+def _serve(root, start, tries=12):
+    import pathlib as _pl, subprocess as _sp, sys as _sys, time as _t
+    import urllib.request as _u
+    want = (_pl.Path(root) / "index.html").read_bytes()
+    for port in range(start, start + tries):
+        if _answering(port):
+            continue
+        proc = _sp.Popen([_sys.executable, "-m", "http.server", str(port)],
+                         cwd=root, stdout=_sp.DEVNULL, stderr=_sp.DEVNULL)
+        _t.sleep(1.2)
+        try:
+            got = _u.urlopen("http://localhost:%d/index.html" % port,
+                             timeout=5).read()
+        except Exception:
+            got = None
+        if got == want:
+            if port != start:
+                print("note: port %d was busy, serving on %d" % (start, port))
+            return proc, port
+        proc.terminate()          # someone else is serving a DIFFERENT build
     raise SystemExit(
-        "PORT BUSY: another process already owns this port, so this script "
-        "would have tested WHATEVER IT SERVES — possibly a stale build from "
-        "another directory. Kill it and re-run.")
+        "PORT BUSY: %d..%d are taken or serving another build. This check "
+        "would have tested a page nobody meant to test."
+        % (start, start + tries - 1))
+
+
+PORT = 8151
+srv, PORT = _serve(".", PORT)   # this check served from cwd
 
 BASE = "http://localhost:%d/" % PORT
 
