@@ -196,6 +196,20 @@ h1 em{font-style:normal;color:var(--signal)}
   margin-left:6px}
 .fclear{font-size:12.5px}
 .fsum{font-size:12.5px;color:var(--ink-3);margin-left:auto}
+/* Which session a tick lands in (CLU-389). Sticky under the stats bar rather
+   than a line at the top of the list: ticking into the wrong session is the
+   one failure this feature creates, and because the all-time write is a union
+   it is NOT undone by unticking — so the answer has to be on screen for as
+   long as there are checkboxes on screen, not only while the club tile is.
+   Static on a phone, where a second sticky band under the bar would eat a
+   third of the viewport. */
+.tinto{position:sticky;top:var(--barh,67px);z-index:15;display:flex;gap:9px;
+  align-items:baseline;flex-wrap:wrap;margin:0 0 14px;padding:9px 14px;
+  border:1px solid var(--rule);border-radius:var(--radius);
+  background:var(--card);font-size:12.5px;color:var(--ink-2)}
+.tinto b{font-weight:500;color:var(--ink)}
+.tinto .tw{font-size:11.5px;color:var(--ink-3)}
+@media(max-width:560px){.tinto{position:static}}
 .uprow{display:flex;gap:14px;align-items:center;margin:6px 0 0;flex-wrap:wrap}
 .upnext{font-size:13px;color:var(--ink-2)}
 .upnext b{font-weight:500;color:var(--ink)}
@@ -1666,6 +1680,10 @@ footer a{color:var(--steel)}
   </div>
 
   <div class="fbar hide" id="fbar"></div>
+  <!-- CLU-389. Empty and hidden unless a club session is what the checkboxes
+       are writing into; with no club_progress in the database that is never,
+       and the list looks exactly as it does today. -->
+  <p class="tinto hide" id="tinto" role="status"></p>
   <main id="list"></main>
 
   <!-- friend privacy, per list (CLU-118). The decision is made where the
@@ -1880,21 +1898,68 @@ let user = null;
 let sessionSeen = false;
 let saveTimer = null;
 
-const LKEY = 'gw:v1:' + CKEY;
+/* --------------------------------------------- per-club sessions (CLU-389) */
+// Today one row per person per list holds everything you have ever watched.
+// A watch club can now have its OWN run inside that: a club tick lands in the
+// club's session and the same statement unions it INTO your all-time row —
+// furthest wins, so joining a club can never lower a number you already had.
+// `progress` is not altered by any of this, which is why the seven reads that
+// ask "what have you ever watched" needed no change at all.
+//
+// THE DATABASE HALF IS NOT HERE YET, and this file has to behave EXACTLY as
+// it did before it arrives: same reads, same writes, same rendering, nothing
+// in the console. So there is deliberately no flag to flip and no build
+// constant to remember — the capability is DISCOVERED, once per page load,
+// by the one read that would need it. A club becomes a session only when
+// club_progress answers for it; until then a club is what it is today, a
+// roster drawn against everyone's all-time rows. The moment the table and
+// the function appear, the next page load starts using them.
+let SESSION  = null;   // the club whose session `done` currently IS, or null
+let SESSNAME = '';     // its name, for the copy that has to say which
+let CPGONE   = false;  // club_progress is not in this database (this load)
+let SAVEGONE = false;  // save_progress is not in this database (this load)
+// The all-time set as the cloud last told us, captured by adopt() before any
+// session is entered. flushEvents() needs it: catching a club up through
+// things you watched last year must not log them as live ticks dated today.
+let UNIVSEEN = null;
+// "There is no such table / no such function" in the four shapes PostgREST
+// says it, and NOTHING else. A 401, a 42501 or a dropped connection is a
+// FAILURE, not an absence, and latching on one of those is how the three
+// existing latches in this file (THBROKEN, evBroken, FBROKEN) get themselves
+// permanently switched off by a single write on a lapsed JWT.
+function missingThing(e){
+  const c = e && e.code;
+  return c === '42P01' || c === 'PGRST205'      // no such table
+      || c === '42883' || c === 'PGRST202';     // no such function
+}
+// The local key for whatever session is on screen. Built in ONE place and
+// never reconstructed anywhere else.
+//
+// The club prefix is `gw:club:v1:` and NOT `gw:v1:club:` on purpose:
+// acctDump() sweeps every `gw:v1:` key into out.lists, so the second form
+// would turn up in someone's downloaded data as a list that does not exist.
+// acctDump gained a `clubs` bucket in the same edit, or the export would have
+// silently omitted a whole category of their ticks.
+function sessionKey(){ return SESSION ? 'gw:club:v1:' + SESSION : 'gw:v1:' + CKEY; }
+
 const PKEY = 'gw:pace:' + SLUG;
 
 // Two old key formats predate the multi-property rewrite, both from when this
 // was a single Secret Wars tracker. Walk them forward rather than stranding
 // anyone's ticks: positional ints -> slug ids -> per-property key.
 function migrate(){
-  if(SLUG !== 'hickman-secret-wars' || localStorage.getItem(LKEY)) return;
+  // sessionKey() rather than a captured constant, but the answer is always the
+  // all-time key here: this runs at boot, long before loadGroups() can resolve
+  // a club, and these two formats predate clubs entirely.
+  const k = sessionKey();
+  if(SLUG !== 'hickman-secret-wars' || localStorage.getItem(k)) return;
   try{
     const v2 = localStorage.getItem('hsw:v2:local');
-    if(v2){ localStorage.setItem(LKEY, v2); return; }
+    if(v2){ localStorage.setItem(k, v2); return; }
     const v1 = JSON.parse(localStorage.getItem('hsw:v1:local') || 'null');
     if(!Array.isArray(v1)) return;
     const keys = v1.filter(n=>Number.isInteger(n) && n>=0 && n<ORDER.length).map(n=>ORDER[n]);
-    localStorage.setItem(LKEY, JSON.stringify(keys));
+    localStorage.setItem(k, JSON.stringify(keys));
   }catch(e){}
 }
 
@@ -2077,13 +2142,62 @@ function clean(arr){
   return new Set((Array.isArray(arr)?arr:[]).filter(k=>VALID.has(k)));
 }
 function readLocal(){
-  try{ return clean(JSON.parse(localStorage.getItem(LKEY)||'[]')); }catch(e){ return new Set(); }
+  try{ return clean(JSON.parse(localStorage.getItem(sessionKey())||'[]')); }catch(e){ return new Set(); }
 }
 function writeLocal(){
-  try{ localStorage.setItem(LKEY, JSON.stringify([...done])); }catch(e){}
+  try{ localStorage.setItem(sessionKey(), JSON.stringify([...done])); }catch(e){}
+}
+// The all-time row, straight from the cloud. Re-read rather than reconstructed
+// from this device whenever we come back to it: the union means the row can
+// hold ticks this browser has never seen, and `done` is about to be written
+// back over it. Returns null when the read failed, which is not the same
+// answer as an empty row.
+async function readUniversal(){
+  if(!(user && sb)) return null;
+  try{
+    const { data, error } = await sb.from('progress')
+      .select('read_ids').eq('user_id', user.id).eq('property_id', CKEY).maybeSingle();
+    if(error) return null;
+    return clean(data ? data.read_ids : []);
+  }catch(e){ return null; }
 }
 async function pushCloud(){
   if(!user) return;
+  // A club tick goes through ONE statement, because the session write and the
+  // all-time union have to be one transaction: two round trips can be cut in
+  // half by a lapsed JWT, and a session left holding ticks the all-time row
+  // does not have is the one state the whole design exists to make impossible.
+  //
+  // THE EARLY RETURN IS THE SAFETY, and it is not an `else` a later edit can
+  // invert. The upsert below is a REPLACE: reaching it with a club session in
+  // `done` would swap a thirty-item all-time row for the club's four,
+  // silently, on exactly the people this feature was built for. On any failure
+  // here the fallback is local-only — never that upsert.
+  if(SESSION){
+    const ids = [...done];
+    const { error } = await sb.rpc('save_progress',
+      { p_property: SLUG, p_club: SESSION, p_ids: ids });
+    if(!error){
+      // furthest wins: the same statement just unioned these into the all-time
+      // row, so the event log must stop treating them as things never watched
+      if(UNIVSEEN) ids.forEach(i=> UNIVSEEN.add(i));
+      state('Synced','ok');
+      return;
+    }
+    console.error('[tracker] club save failed', error);
+    if(missingThing(error)){
+      // The table answered but the function is not there — a partly-arrived
+      // migration, or PostgREST's schema cache mid-reload. Sitting in a
+      // session nothing can write is the worst of the three options, so fold
+      // it back into the all-time row instead. See foldSessionBack().
+      SAVEGONE = true;
+      await foldSessionBack();
+      return;
+    }
+    state('Sync failed — saved on this device','');
+    flash('Supabase: '+(error.message||'unknown error')+' (progress is safe on this device)');
+    return;
+  }
   const { error } = await sb.from('progress')
     .upsert({ user_id:user.id, property_id:CKEY, read_ids:[...done],
               updated_at:new Date().toISOString() },
@@ -2093,6 +2207,7 @@ async function pushCloud(){
     flash('Supabase: '+(error.message||'unknown error')+' (progress is safe on this device)');
     console.error('[tracker] write failed', error);
   }else{
+    if(UNIVSEEN) done.forEach(i=> UNIVSEEN.add(i));
     state('Synced','ok');
   }
 }
@@ -2115,7 +2230,23 @@ async function flushEvents(){
   const from = parseInt(localStorage.getItem('gw:evflushed:'+SLUG) || '0', 10) || 0;
   const batch = log.slice(from);
   if(!batch.length) return;
-  const rows = batch.map(e=> ({user_id: user.id, property_id: SLUG,
+  // Catching a new club up through things you watched last year is not news
+  // (CLU-389). Without this, joining a club and ticking the first thirty
+  // episodes you have already seen writes thirty fresh live ticks dated
+  // today — inflating streaks, the heatmap and Lately, with no clean way to
+  // un-write them. It is the rule syncTicks already states above, applied to
+  // the log: a tick your all-time row already holds records nothing.
+  const fresh = (SESSION && UNIVSEEN)
+    ? batch.filter(e=> e.a !== 'tick' || !UNIVSEEN.has(e.i))
+    : batch;
+  if(!fresh.length){
+    // the cursor still advances. These events are deliberately not going, and
+    // leaving them behind would re-offer the same batch on every save for the
+    // rest of the page's life.
+    try{ localStorage.setItem('gw:evflushed:'+SLUG, String(log.length)); }catch(e){}
+    return;
+  }
+  const rows = fresh.map(e=> ({user_id: user.id, property_id: SLUG,
     item_id: e.i, action: e.a, kind: e.k, at: e.at}));
   const { error } = await sb.from('tick_events').insert(rows);
   if(error){ evBroken = true; return; }   // table may not exist yet; retry next load
@@ -2155,6 +2286,12 @@ async function syncTicks(ids, on){
   // a fresh watch is a sealed namespace: its ticks (and unticks!) must never
   // reach counterpart lists' all-time sets — sync resumes on the real run
   if(FW) return;
+  // A club session travels the other half of that rule (CLU-389). A watch is
+  // a watch, so a club TICK still reaches counterpart lists. An untick must
+  // not: inside a club it lowers the session only — your all-time row keeps
+  // the tick, because the union is one-way — so carrying it across would
+  // lower counterpart lists below a record that never agreed to move.
+  if(SESSION && !on) return;
   await ensureIndex();
   if(!SYNCM) return;
   const bySlug = {};
@@ -2197,7 +2334,15 @@ async function backfillSync(){
   // never under a fresh watch: the SLUG branch below would pour counterpart
   // ticks into the fresh set. The flag stays unset, so the pass simply runs
   // on the next all-time load instead.
-  if(FW) return;
+  //
+  // And never under a club session, for the identical reason and one worse
+  // one (CLU-389): that same branch adds into `done` — which is the session —
+  // and then upserts the result to CKEY, so it would both refill a club that
+  // is supposed to start empty AND write a club's set over the all-time row.
+  // This pass re-arms itself whenever the sync map changes, i.e. on most
+  // deploys, so it fires for real users days after launch rather than at
+  // cutover. Every place `if(FW) return;` appears is a place this belongs.
+  if(FW || SESSION) return;
   // The flag is keyed on a hash of the sync map, so this pass re-runs by
   // itself whenever the groups change. It used to be a hand-bumped version
   // (v1, v2 for the note-year fallback, v3 for games) and that contract broke
@@ -2526,6 +2671,7 @@ async function adopt(){
   const { data, error } = await sb.from('progress')
     .select('read_ids').eq('user_id', user.id).eq('property_id', CKEY).maybeSingle();
   if(error){
+    if(SESSION) return;               // see the guard below
     done = readLocal();
     state('Sync failed — saved on this device','');
     flash('Supabase: '+(error.message||'unknown error')+' (progress is safe on this device)');
@@ -2533,6 +2679,19 @@ async function adopt(){
     return;
   }
   const server = clean(data ? data.read_ids : []);
+  // A club session has been entered since this read was ISSUED, so the club's
+  // run is what the checkboxes are showing and this all-time answer must not
+  // be painted over it (CLU-389). This is not hypothetical: onSession() runs
+  // twice on nearly every load — once for INITIAL_SESSION and once for
+  // getSession() — and the two are concurrent, so the second adopt() lands
+  // after the first has already resolved the club and replaced `done`. The
+  // all-time set is still worth keeping: flushEvents() needs it to tell a
+  // first watch from a catch-up.
+  if(SESSION){
+    UNIVSEEN = new Set(server);
+    state('Synced','ok');
+    return;
+  }
   const local  = readLocal();
   const flag = 'gw:merged:'+user.id+':'+CKEY;
   if(!localStorage.getItem(flag) && local.size){
@@ -2545,6 +2704,13 @@ async function adopt(){
     state('Synced','ok');
   }
   writeLocal();
+  // CLU-389. adopt() always runs BEFORE loadGroups() can name a club — a club
+  // costs two or three serial round trips to resolve and `done` is needed long
+  // before that — so this is the one moment the all-time set is in hand for
+  // free, whichever session the page ends up in. flushEvents() reads it to
+  // tell a first watch from a catch-up, and the first-sign-in fold above is
+  // therefore always the all-time fold it has always been, never a club's.
+  UNIVSEEN = new Set(done);
 }
 // `definitive` says whether this answer settles the question. Supabase fires
 // INITIAL_SESSION with a null session BEFORE it has restored a token from
@@ -2626,6 +2792,11 @@ async function onSession(session, definitive){
     // on a non-definitive null, change nothing and let the real answer do it.
     // getSession() follows within milliseconds, or the grace beat expires.
     if(CLOUD && definitive) $('b-signin').classList.remove('hide');
+    // BEFORE readLocal(), not after: a club session is a signed-in thing, and
+    // with SESSION still standing readLocal() would hand back the club's
+    // cached run under the name of your own all-time progress (CLU-389).
+    SESSION = null; SESSNAME = ''; UNIVSEEN = null;
+    paintTickInto();
     done = readLocal();
     if(!CLOUD || definitive)
       state(CLOUD ? 'Not signed in' : 'Saved on this device','');
@@ -2730,7 +2901,13 @@ function paintFW(){
   // originally the 100% dead end only — Nathan went looking for it at
   // 55/64, and he's right: anything you've started can be started over
   const begun = done && done.size > 0;
-  const show = FW || begun;
+  // Not while a club session is on screen (CLU-389). A fresh watch is a
+  // personal sealed run and a club session is a shared one; offering to start
+  // the first from inside the second is a control whose answer is "not that,
+  // then" — and switchSession() refuses to enter a session while FW is on, so
+  // the two can never both be true. Pick a club, and the way back to a fresh
+  // run is Just me.
+  const show = (FW || begun) && !SESSION;
   b.classList.toggle('hide', !show);
   if(!show) return;
   b.textContent = FW
@@ -3395,14 +3572,21 @@ function paintAcctData(){
 // copy is the account's copy once the shelf has been primed.
 function acctDump(){
   const a = ACCT || user;
+  // `clubs` is its own bucket rather than more entries in `lists` (CLU-389):
+  // a club session is keyed by a club id, not a slug, and dropping one into
+  // out.lists would present it as a list that does not exist. Its absence
+  // would be worse still — a whole category of somebody's ticks quietly
+  // missing from the file that claims to be everything this browser holds.
   const out = { app: BRAND, build: BUILD, at: new Date().toISOString(),
-                account: (a && a.email) || null, lists: {}, events: {}, stars: [] };
+                account: (a && a.email) || null, lists: {}, clubs: {},
+                events: {}, stars: [] };
   for(let i = 0; i < localStorage.length; i++){
     const k = localStorage.key(i);
     if(!k) continue;
     let v;
     try{ v = JSON.parse(localStorage.getItem(k)); }catch(e){ continue; }
-    if(k.indexOf('gw:v1:') === 0) out.lists[k.slice(6)] = v;
+    if(k.indexOf('gw:club:v1:') === 0) out.clubs[k.slice(11)] = v;
+    else if(k.indexOf('gw:v1:') === 0) out.lists[k.slice(6)] = v;
     else if(k.indexOf('gw:evlog:') === 0) out.events[k.slice(9)] = v;
     else if(k === STARKEY) out.stars = v;
   }
@@ -4672,7 +4856,141 @@ async function loadGroups(){
 let ugroups = [];
 let useats = {};
 function isUgroup(g){ return !!(g && g.universal); }
-function combined(){ return allGroups && groups.length > 1; }
+// Not while a club session is selected (CLU-389). readsOf() hands back `done`
+// for any layer that is you, so in a stacked view your band in club A and
+// club B would both draw the SELECTED session's numbers — the same person, the
+// same colour, two different runs, one of them a lie. Collapsing a person
+// across clubs into one entry with one colour from a 16-slot budget is the
+// whole point of the code below; a session is the thing that does not collapse.
+function combined(){ return allGroups && groups.length > 1 && !SESSION; }
+
+/* ------------------------------------------------ switching sessions ------ */
+
+// Whether this club should be a session at all, asked of a club object.
+// Everything here is a fact the page already holds — no round trip — except
+// the one thing that cannot be known without asking, which is whether the
+// database has club_progress in it. That answer arrives as CPGONE/SAVEGONE,
+// latched by the calls below, once per page load.
+function splitClub(g){
+  return !!(user && sb && g && !g.universal && g.property_id === SLUG
+            && !FW && !CPGONE && !SAVEGONE);
+}
+
+// The ONLY thing that moves `done` from one session to another, and it
+// REPLACES rather than unions. A union here would merge two of the same
+// person's sessions inside localStorage, silently, and the next save would
+// carry that merge to the cloud through furthest-wins, where nothing can take
+// it apart again.
+//
+// Every caller reaches this through loadMembers(), which is on the end of
+// every path that can change which club is on screen: boot, the switcher,
+// create, join, leave, the poll and the visibility handler. The poll pays
+// nothing for it — an unchanged answer returns on the first line.
+async function switchSession(g){
+  const want = splitClub(g) ? g.id : null;
+  if(want === SESSION){
+    if(SESSION && g) SESSNAME = g.name || SESSNAME;
+    paintTickInto();
+    return;
+  }
+  if(want){
+    // The read that discovers the capability. club_progress answering AT ALL
+    // is the entire gate: with the table absent this errors, CPGONE latches,
+    // and the page stays on the all-time row — which is byte-for-byte what it
+    // does today. There is never a half-entered session.
+    let data = null;
+    try{
+      const r = await sb.from('club_progress')
+        .select('read_ids').eq('group_id', want).eq('user_id', user.id).maybeSingle();
+      if(r.error) throw r.error;
+      data = r.data;
+    }catch(e){
+      if(missingThing(e)) CPGONE = true;
+      else console.error('[tracker] club session read failed', e);
+      if(SESSION) await switchSession(null);
+      else paintTickInto();
+      return;
+    }
+    SESSION = want;
+    SESSNAME = g.name || 'this club';
+    // A club starts EMPTY and stays fresh — no carry-over, no offer of one.
+    // A missing row IS an empty session, not a reason to fall back to the
+    // all-time set: falling back is precisely the carry-over that was ruled out.
+    done = clean(data ? data.read_ids : []);
+  }else{
+    SESSION = null;
+    SESSNAME = '';
+    const server = await readUniversal();
+    // readLocal() only after SESSION is null, or it would read the club's key
+    done = server || readLocal();
+    if(server) UNIVSEEN = new Set(server);
+  }
+  writeLocal();
+  paintTickInto();
+  // The function that reassigns `done` is the function that owes the repaint.
+  // Its callers all repaint the STACK afterwards, but only some of them
+  // repainted the list and the bar — which is how choosing Just me out of a
+  // club left the checkboxes showing the club's run under the words "Just me".
+  try{ paint(); }catch(e){}
+}
+
+// save_progress is not in this database, but club_progress was — a migration
+// half-arrived, or PostgREST's schema cache mid-reload. Sitting in a session
+// nothing can write is the worst of the three ways out, so fold what the
+// session holds INTO the all-time row and go back to it: that is what
+// furthest-wins would have done with these ticks anyway, so nothing is lost
+// and the page lands in the state it would have been in had the feature never
+// shipped. The write is a UNION against a row read a moment ago — never this
+// device's copy of it, and never the replace pushCloud() guards so carefully.
+async function foldSessionBack(){
+  const held = new Set(done);
+  SESSION = null;
+  SESSNAME = '';
+  const server = await readUniversal();
+  done = new Set([...(server || readLocal()), ...held]);
+  UNIVSEEN = new Set(done);
+  writeLocal();
+  const { error } = await sb.from('progress')
+    .upsert({ user_id:user.id, property_id:CKEY, read_ids:[...done],
+              updated_at:new Date().toISOString() },
+            { onConflict:'user_id,property_id' });
+  if(error){
+    state('Sync failed — saved on this device','');
+    console.error('[tracker] fold back failed', error);
+  }else{
+    state('Synced','ok');
+  }
+  paintTickInto();
+  try{ paint(); }catch(e){}
+  try{ paintStack(); renderGroupPanel(); }catch(e){}
+}
+
+// Which session the checkboxes are writing into, said where the checkboxes
+// are. Empty and hidden unless there IS a session, so with no club_progress
+// in the database this element never appears and the page is unchanged.
+// The chip parks under the sticky stats bar, whose height moves with the
+// viewport and wraps to two lines on a tiered list in a narrow window. So the
+// offset is measured rather than guessed — and only ever while there is a chip
+// to place, which today is never.
+function tintoLane(){
+  if(!SESSION) return;
+  const bar = document.querySelector('.bar');
+  const h = bar && !bar.classList.contains('hide') ? bar.offsetHeight : 0;
+  if(h > 0) document.documentElement.style.setProperty('--barh', h + 'px');
+}
+addEventListener('resize', tintoLane);
+function paintTickInto(){
+  const el = $('tinto');
+  if(!el) return;
+  const on = !!(SESSION && SLUG);
+  el.classList.toggle('hide', !on);
+  if(!on){ el.textContent = ''; return; }
+  tintoLane();
+  el.innerHTML = 'Ticking into <b>' + esc(SESSNAME) + '</b>'
+    + '<span class="tw">this club started empty · what you tick here is added'
+    + ' to your all-time record for ' + esc(PROP && PROP.title ? PROP.title : 'this list')
+    + ' and unticking here does not take it back</span>';
+}
 
 // The picked comparison, loaded the way a club is: the same progress query,
 // the same free-colour walk, so a picked person arrives with the same shape a
@@ -4722,6 +5040,13 @@ async function loadPicked(){
 }
 
 async function loadMembers(){
+  // Every path that can change which club is on screen ends here, so this is
+  // where the session follows it (CLU-389). It is a no-op — no round trip, no
+  // assignment — whenever the answer has not changed, which is every poll and
+  // every visibility change. It must never throw: refreshGroup()'s catch turns
+  // anything thrown out of here into "clubs aren't loading".
+  try{ await switchSession(group); }
+  catch(e){ console.error('[tracker] session switch failed', e); }
   if(!group){
     gmembers = picked.length ? await loadPicked() : [];
     return;
@@ -4732,8 +5057,29 @@ async function loadMembers(){
   if(error) throw error;
 
   const ids = [...new Set(roster.map(r=>r.user_id))];
-  const { data:rows, error:e2 } = await sb.from('progress')
-    .select('user_id, read_ids, updated_at').in('user_id', ids).eq('property_id', SLUG);
+  // With a session on screen the club's own strip reads the club's own runs.
+  // Cheaper than the all-time query it replaces — a primary-key prefix scan
+  // that needs no user-id list at all — and it is the only read in the file
+  // that moves. A universal group keeps the all-time query verbatim, because a
+  // group is never a session: it only ever reports progress you already have.
+  let rows = null, e2 = null;
+  if(SESSION){
+    const r = await sb.from('club_progress')
+      .select('user_id, read_ids, updated_at').in('group_id', gids);
+    rows = r.data; e2 = r.error;
+    if(e2 && missingThing(e2)){
+      // the table went away underneath us mid-load: drop the session and let
+      // the all-time query below answer, exactly as it does today
+      CPGONE = true;
+      await switchSession(null);
+      rows = null; e2 = null;
+    }
+  }
+  if(!SESSION){
+    const r = await sb.from('progress')
+      .select('user_id, read_ids, updated_at').in('user_id', ids).eq('property_id', SLUG);
+    rows = r.data; e2 = r.error;
+  }
   if(e2) throw e2;
 
   const byUser = {}, lastSync = {};
@@ -5516,6 +5862,15 @@ function groupSwitcher(){
 // function only so the switcher can be one control inside the header row.
 function groupStackAll(){
   if(!(group && groups.length > 1)) return '';
+  // Held down, and saying why, rather than absent (CLU-389): a control that
+  // vanishes the moment you pick a club reads as a bug, and the reason is
+  // worth one sentence. Each club now keeps its own run, so there is no one
+  // set of numbers your layer could carry across a stack of them.
+  if(SESSION)
+    return '<label class="row gall">'
+      + '<input type="checkbox" id="g-all" disabled>'
+      + '<span>Stack everyone from all '+groups.length+' clubs</span>'
+      + '<span class="exp">not while a club has its own run</span></label>';
   return '<label class="row gall">'
     + '<input type="checkbox" id="g-all"'+(allGroups?' checked':'')+'>'
     + '<span>Stack everyone from all '+groups.length+' clubs</span>'
@@ -5549,6 +5904,18 @@ function wireRename(){
 // The create/join form is shared between "you are in no groups" and "you are in
 // one and want another", so its copy is set in one place.
 function prepSetup(another){
+  // `another` means "you are already in a club on this list, and this form
+  // makes a SECOND one" — the copy below says "you stay in <name>". Callers
+  // pass `addingGroup`, which is only about whether the form is open, and
+  // those two came apart the moment the form started rendering for somebody
+  // with mutual friends and NO club (the branch at renderGroupPanel's
+  // `groups.length || picked.length || mutualFriends().length`).
+  //
+  // In that state `group` is null and `group.name` threw, aborting the rest
+  // of this function — so the form drew but was left half-configured, with
+  // no error a user could see. Found by rendering the exact scenario for a
+  // screenshot, not by a test.
+  another = !!(another && group);
   // Only a RELATIVE schedule is anchored by these fields. A property whose
   // windows carry their own dates ignores both — windows() returns the
   // property's dates and never reads start_date or target_date — so offering
@@ -5874,10 +6241,21 @@ function renderGroupPanel(){
   if(gics) gics.onclick = downloadICS;
   const leave = $('b-gleave');
   if(leave) leave.onclick = async ()=>{
-    if(!confirm('Leave '+group.name+'? Your own progress is untouched.')) return;
+    // Leaving deletes YOUR session for this club and nobody else's — the
+    // owner's ruling (CLU-389). The all-time record is genuinely untouched,
+    // because everything the club ticked was unioned into it as it happened,
+    // so what goes is the club's own run and not a single watch.
+    const gone = SESSION === group.id;
+    if(!confirm(gone
+        ? 'Leave ' + group.name + '?\n\nThis club’s own run goes with it. Your'
+          + ' all-time record for this list keeps everything it already banked.'
+        : 'Leave '+group.name+'? Your own progress is untouched.')) return;
     const { error } = await sb.from('group_members')
       .delete().eq('group_id', group.id).eq('user_id', user.id);
     if(error){ flash('Could not leave: '+error.message,'gmsg2'); return; }
+    // the cached copy of the session goes at the same moment, or a rejoin
+    // would find this device holding a run the server has thrown away
+    if(gone) try{ localStorage.removeItem('gw:club:v1:' + group.id); }catch(e){}
     localStorage.removeItem(GKEY);
     addingGroup = false;
     // the club whose drawer this was is gone, so the drawer goes with it
@@ -5969,8 +6347,14 @@ function wireSwitcher(){
     if(v === JUSTME){
       // deliberately not `|| group`: choosing yourself must be able to
       // clear the selection, which is the whole point of the option
-      group = null; gmembers = [];
+      group = null;
       allGroups = false;
+      // loadMembers() rather than `gmembers = []`, because it is the one path
+      // that takes the session back to your all-time row (CLU-389). With no
+      // club and no pick it does exactly what the bare assignment did — an
+      // empty roster — and `picked` was cleared by setPicked([]) above.
+      try{ await loadMembers(); }
+      catch(e){ gmembers = []; console.error('[tracker] just-me switch failed', e); }
       paintStack(); renderGroupPanel();
       return;
     }
@@ -8615,6 +8999,9 @@ function paint(){
   // froze your own layer until the 45s poll caught up. updateGroupLine
   // self-guards on `group`, so a pick correctly gets no pace line.
   if(drawingPeople()){ paintStack(); updateGroupLine(); }
+  // cheap, and paint() is the one call every path that could have changed the
+  // session eventually makes — so the line above the checkboxes cannot go stale
+  paintTickInto();
   openInitialSection();
 }
 
@@ -8650,6 +9037,15 @@ $('b-export').onclick = async ()=>{
   catch(e){ $('code').select(); flash('Press Ctrl/Cmd+C to copy.'); }
 };
 $('b-import').onclick = ()=>{
+  // Refused under a club session (CLU-389). A code is somebody's whole
+  // all-time set for this list; loading one into a club would dump it into a
+  // run that is supposed to start empty, and the union would then carry every
+  // one of those ticks onto your own all-time record permanently.
+  if(SESSION){
+    flash('Switch to Just me first — a code carries a whole all-time run, and '
+          + SESSNAME + ' started empty on purpose.');
+    return;
+  }
   const v = $('code').value.trim();
   if(!v){ flash('Paste a code into the box first.'); return; }
   try{
@@ -8664,6 +9060,19 @@ $('b-import').onclick = ()=>{
   }catch(e){ flash('That code isn\u2019t valid.'); }
 };
 $('b-reset').onclick = ()=>{
+  // Under a club session this clears the SESSION and nothing else (CLU-389).
+  // The all-time row keeps every tick the club already banked into it, and
+  // that is not a bug to be fixed by clearing both: a button that emptied your
+  // all-time record because you tidied up one club would be the data loss this
+  // whole design exists to avoid. So it says which, out loud, before it runs.
+  if(SESSION){
+    if(!confirm('Clear your progress in ' + SESSNAME + '?\n\nYour all-time record'
+                + ' for this list is not touched — a club tick is added to it and'
+                + ' cannot be taken back from here.')) return;
+    done = new Set(); persist(); paint();
+    flash('Cleared in ' + SESSNAME + '. Your all-time record is untouched.');
+    return;
+  }
   if(!confirm('Clear all progress?')) return;
   done = new Set(); persist(); paint(); flash('Progress cleared.');
 };

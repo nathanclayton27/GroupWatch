@@ -155,7 +155,25 @@ window.supabase = { createClient: () => {
     user_metadata: Object.assign(
       { username: 'exx', fcode: 'CLB\\u00b7AAAA' }, readMeta())
   });
+  // Per-club sessions (CLU-389) read `club_progress`, and today's database
+  // does not have it. A stub that answers every table name it is handed would
+  // put the page into a club session the live site cannot enter, and this file
+  // would be asserting against a database that does not exist. Say what
+  // Postgres says. Declaring a club_progress key in DB models the other side.
+  const NOCLUBTABLE = () => {
+    const gone = {
+      select(){ return gone; }, eq(){ return gone; }, in(){ return gone; },
+      order(){ return gone; }, limit(){ return gone; },
+      maybeSingle(){ return gone; }, single(){ return gone; },
+      then(res, rej){ return Promise.resolve({ data: null, error: {
+        code: '42P01',
+        message: 'relation "public.club_progress" does not exist' } })
+        .then(res, rej); }
+    };
+    return gone;
+  };
   const from = (t) => {
+    if(t === 'club_progress' && !DB[t]) return NOCLUBTABLE();
     let rows = (DB[t] || []).map(r => Object.assign({}, r));
     let single = false;
     const api = {

@@ -444,6 +444,32 @@ copy.
 `migrate()` walks two older key formats forward for the Hickman property:
 positional integers → slug IDs → the per-property key.
 
+### Per-club sessions (CLU-389)
+
+A watch club can hold its own run rather than sharing your all-time one. When
+one does, `done` is that club's session: it is cached locally under
+`gw:club:v1:<club-id>` — deliberately **not** a `gw:v1:` key, which
+`acctDump()` sweeps into `lists` — and it is written through a single
+`save_progress(p_property, p_club, p_ids)` RPC that writes the session as an
+exact set and **unions** it into your all-time `progress` row in the same
+transaction. Furthest wins: a club tick can never lower a number you already
+had, and unticking inside a club does not take it back off your all-time
+record. A club starts empty, and nothing carries over into it.
+
+`progress` is untouched by any of this, so every read that asks "what have you
+ever watched" still answers byte-for-byte.
+
+The front end detects the capability rather than being told about it: the one
+`club_progress` read it needs either answers or comes back `42P01`, latched for
+that page load. With the table and the function absent the site behaves exactly
+as it did before the feature — same reads, same writes, same rendering — and
+starts using them by itself once they exist. `scratch/qa2/clubprog_check.py`
+executes both sides.
+
+Groups are never sessions: a group spans every list and only ever reports
+progress you already have. Neither is a fresh watch, which is a sealed personal
+run, so the two are mutually exclusive by construction.
+
 ---
 
 ## What the security actually is
