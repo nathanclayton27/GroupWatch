@@ -6176,10 +6176,16 @@ function renderGroupPanel(){
       // the bar says what was chosen — not the invitation copy, which would
       // read as though no club existed
       paintClubBar(picked.length ? switchLabel() : 'Just me');
-      setup.classList.toggle('hide', !addingGroup);
+      // Folded only when you already have a club on this list — there the
+      // form makes a SECOND one and "+ new / join another" describes it
+      // honestly. With no club here it is the primary call to action, and a
+      // call to action behind a disclosure is one most people never open.
+      // (CLU-393; the tidy-up is CLU-394.)
+      const noClubHere = !groups.length;
+      setup.classList.toggle('hide', !(addingGroup || noClubHere));
       joined.classList.remove('hide');
       foot.classList.remove('hide');
-      if(addingGroup) prepSetup(true);
+      if(addingGroup || noClubHere) prepSetup(addingGroup && !!group);
       // No paragraph under the switcher. The trigger already says what is
       // showing, and the menu's own headings say what else there is — so a
       // sentence repeating it was narration set in the loudest type on the
