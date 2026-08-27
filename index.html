@@ -5901,7 +5901,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '15310b65ff90';
+const BUILD = '54b990533f97';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -7406,6 +7406,14 @@ async function saveListHiddenGroups(slug, hidden){
 let INGROUPS = false;
 async function checkInGroups(){
   if(!user || !sb) return;
+  // On a list page loadGroups() has already fetched exactly this and split it
+  // into `groups` and `ugroups`, so asking again is two round trips before
+  // anything renders, for a question already answered in memory. Only the
+  // friends page — which never runs loadGroups — has to go and look.
+  if(typeof ugroups !== 'undefined' && Array.isArray(ugroups) && SLUG){
+    INGROUPS = ugroups.length > 0;
+    return;
+  }
   try{
     const { data: mine } = await sb.from('group_members')
       .select('group_id').eq('user_id', user.id);
