@@ -1,3 +1,40 @@
+-- ###########################################################################
+-- ##  THIS FILE IS A MIGRATION BEHIND THE LIVE DATABASE.  READ THIS FIRST.  ##
+-- ###########################################################################
+--
+-- Last reconciled against production: NEVER. It describes a FRESH project.
+--
+-- The tables below are still broadly accurate. THE FUNCTIONS AND POLICIES ARE
+-- NOT. Many have been replaced by later migrations, and this file does not
+-- mention `private_properties`, `is_private_property()`, `club_progress`, the
+-- rate limiter, or the five privacy settings at all.
+--
+-- WHAT THIS HAS ALREADY COST, so nobody treats it as pedantry:
+--
+--   * A migration replaced `join_group()` with the body FROM THIS FILE. The
+--     live one is the rate-limited version in migrate-add-rate-limits.sql, so
+--     that replace would have silently deleted the entire brute-force
+--     protection on club codes — from a migration whose stated purpose was
+--     adding a boolean. An auditor caught it; the file did not warn anyone.
+--   * A decision document quoted this file to argue the database "has never
+--     known that list is special", and recommended building a table that
+--     already existed.
+--
+-- Both are the same mistake: reading a RECORDED state as if it were the live
+-- one, from a file that never said it was stale. It says so now.
+--
+-- BEFORE YOU COPY ANY FUNCTION OR POLICY OUT OF HERE:
+--
+--     python scratch/security/whereis.py <name>
+--
+-- It reports every .sql file that defines that object, newest applied first.
+-- 23 of 73 objects in this repo are defined in more than one file. Whichever
+-- file runs last wins, no error is raised, and whatever the loser carried
+-- disappears without a trace.
+--
+-- It reads files, not the database — it tells you what to read, not what ran.
+-- ###########################################################################
+
 -- GroupWatch — database schema, for a FRESH project
 --
 -- If this project already runs the single-property Secret Wars tracker, do NOT
