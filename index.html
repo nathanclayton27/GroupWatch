@@ -848,6 +848,10 @@ footer a{color:var(--steel)}
 .unext .un{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;
   color:var(--ink-3);flex:none}
 .unext .ug{font-size:11.5px;color:var(--steel);flex:none;margin-left:2px}
+/* the waypoint is a fact, not a control — quieter than the item it follows,
+   and it never wraps the tile onto a second line on a narrow screen */
+.unext .uw{font-size:11px;color:var(--ink-3);flex:none;white-space:nowrap}
+@media (max-width:560px){.unext .uw{display:none}}
 .unext:hover{border-color:var(--ink-3)}
 .unext:hover .ug{text-decoration:underline}
 @media (max-width:430px){
@@ -5905,7 +5909,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '4d2be266cac9';
+const BUILD = '5d52696ea0ef';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -7443,18 +7447,42 @@ async function saveListHidden(slug, hidden){
 function paintHiddenList(){
   const host = $('a-hidden');
   if(!host || !PRIV) return;
-  const slugs = [...PRIV.hidden].sort((a, b)=> titleOf(a).localeCompare(titleOf(b)));
+  // BOTH kinds of hidden, or the page lies by omission. A list hidden from
+  // groups was named nowhere at all: you could hide it and then find no
+  // screen that admitted it existed, which is the trap the friends half of
+  // this card exists to avoid.
+  const gh = (PRIV.ghidden instanceof Set) ? PRIV.ghidden : new Set();
+  const all = new Set([...PRIV.hidden, ...gh]);
+  const slugs = [...all].sort((a, b)=> titleOf(a).localeCompare(titleOf(b)));
   host.innerHTML = slugs.length
-    ? slugs.map(s=>
-        '<div class="arow"><span class="aval"><b>' + esc(titleOf(s)) + '</b></span>'
-        + '<button class="aquiet" data-unhide="' + esc(s) + '">show again</button>'
-        + '</div>').join('')
+    ? slugs.map(s=>{
+        const f = PRIV.hidden.has(s), g = gh.has(s);
+        // say WHICH, because "hidden" now has two meanings and the ratchet
+        // means they are often not the same answer
+        const who = f && g ? 'friends and groups' : f ? 'friends' : 'groups';
+        return '<div class="arow"><span class="aval"><b>' + esc(titleOf(s))
+        + '</b> <span class="mono" style="font-size:10.5px;color:var(--ink-3)">'
+        + who + '</span></span>'
+        + (f ? '<button class="aquiet" data-unhide="' + esc(s) + '">show again</button>'
+             : '<button class="aquiet" data-gunhide="' + esc(s) + '">show again</button>')
+        + '</div>';
+      }).join('')
     : '<div class="arow"><span class="aval" style="color:var(--ink-3)">'
       + (PRIV.share
           ? 'nothing hidden — every list you keep shows to friends'
           : 'nothing hidden — but friends see no progress at all while the'
             + ' switch above is off')
       + '</span></div>';
+  host.querySelectorAll('button[data-gunhide]').forEach(b=>{
+    b.onclick = async ()=>{
+      const slug = b.dataset.gunhide;
+      b.disabled = true;
+      const ok = await saveListHiddenGroups(slug, false);
+      b.disabled = false;
+      if(!ok){ flash('That did not save.', 'a-privmsg'); return; }
+      paintPrivacy();
+    };
+  });
   host.querySelectorAll('button[data-unhide]').forEach(b=>{
     b.onclick = async ()=>{
       const slug = b.dataset.unhide;
@@ -7615,6 +7643,11 @@ $('p-hide').onchange = async e=>{
   // hides the opinion you left on it too. Clubs are a separate policy on
   // progress and are genuinely untouched — but note thumbs have NO club
   // branch at all, so a club-mate never saw those either way.
+  // The ratchet ticks the groups box in the DATABASE, and the returned
+  // settings say so — but nothing repainted, so the box below and its hint
+  // kept showing the state from before the write. A control that disagrees
+  // with what it just did is worse than one that does nothing.
+  paintPrivacy();
   flash(want
     ? 'Hidden. Your progress and your thumbs on ' + titleOf(SLUG) + ' are gone'
       + ' from every friend’s shelf — your clubs are untouched.'
@@ -8733,6 +8766,11 @@ async function renderMyGroups(){
         + esc(g.name) + '">leave</button>'
         + (g.created_by === user.id
            ? '<button class="abtn" data-ginv="' + esc(g.id) + '">Invite link</button>'
+             // rotate_join_token() shipped with the migration and nothing
+             // called it, so a link once sent could never be revoked. Owner
+             // only, and it says what it costs before it does it.
+             + '<button class="aquiet lv" data-grot="' + esc(g.id)
+             + '" data-grn="' + esc(g.name) + '">new link</button>'
            : '')
         + '</div>'
         + '<div class="gros">' + pkHTML((roster[g.id] || []).map(m=>{
@@ -8778,6 +8816,23 @@ async function renderMyGroups(){
         + '</span></label></div>';
     }), 'groups', 'fp-groups');
     pkAll(host);
+    host.querySelectorAll('button[data-grot]').forEach(b=>{
+      b.onclick = async ()=>{
+        if(!confirm('Make a new invite link for ' + b.dataset.grn
+                    + '? The old one stops working immediately, for '
+                    + 'everyone you have already sent it to.')) return;
+        b.disabled = true;
+        const { data, error } = await sb.rpc('rotate_join_token',
+                                             { p_group: b.dataset.grot });
+        b.disabled = false;
+        if(error || !data){
+          gnote('Could not make a new link' + (error ? ': ' + error.message : '.'), true);
+          return;
+        }
+        acctCopy('https://clubd.watch/?g=' + encodeURIComponent(data),
+                 'New link copied. The old one is dead.');
+      };
+    });
     host.querySelectorAll('button[data-ginv]').forEach(b=>{
       b.onclick = async ()=>{
         // the token never rides in the groups row — it lives in its own
@@ -8871,6 +8926,12 @@ function showFriendsPage(){
   $('switcher').classList.remove('hide');
   document.querySelectorAll('.wrap, .bar').forEach(el=> el.classList.add('hide'));
   document.title = 'Friends · ' + BRAND;
+  // The groups card greys its per-group mutes under the global switch, and it
+  // reads PRIV to know. Nothing here ever loaded PRIV, so it was null, so the
+  // switch was always "on" and the mutes never went dead — the state was
+  // built, the copy was written, and the condition could not occur.
+  if(typeof loadPrivacy === 'function')
+    loadPrivacy().then(()=>{ dropMyGroups(); renderMyGroups(); }).catch(()=>{});
   paintMastAcct();
   try{ renderMenu(); }catch(e){}
   renderFriends();
@@ -12851,6 +12912,44 @@ function goToItem(id){
   li.scrollIntoView({block: 'center', behavior: 'smooth'});
 }
 
+// WHERE THE CLUB SHOULD BE BY ITS NEXT WEEKLY BOUNDARY. CLU-391.
+//
+// Only for a club with a plain finish date. A windowed schedule already names
+// its own target in its own words, and no club means no plan to measure
+// against — inventing a deadline there would be worse than saying nothing.
+// A universal group can never have one: it spans every list.
+function waypoint(){
+  if(!group || (typeof isUgroup === 'function' && isUgroup(group))) return null;
+  if(!group.target_date || !group.start_date) return null;
+  if(windows()) return null;
+  const p = paceInfo();
+  if(!p || p.kind !== 'linear') return null;
+
+  const start = new Date(group.start_date + 'T00:00:00');
+  const end   = new Date(group.target_date + 'T00:00:00');
+  if(!(end - start > 0)) return null;
+
+  // the next occurrence of the weekday the club started on — so a Thursday
+  // club gets Thursdays, rather than everyone sharing a calendar Monday that
+  // means nothing to any of them
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  do { d.setDate(d.getDate() + 1); } while(d.getDay() !== start.getDay());
+  // past the finish there is no next week to pace toward
+  if(d.getTime() > end.getTime()) return null;
+
+  const frac = Math.min(1, Math.max(0, (d - start) / (end - start)));
+  // the SAME conversion paceInfo() uses, so the waypoint and the pace tag can
+  // never disagree about what a share of the calendar is worth in items
+  const nth = (WEIGHTED || PACETIERS) ? itemsAtWeight(PTOTAL * frac)
+                                      : Math.round(TOTAL * frac);
+  if(!(nth > 0)) return null;
+  const iso = d.getFullYear() + '-'
+            + String(d.getMonth() + 1).padStart(2, '0') + '-'
+            + String(d.getDate()).padStart(2, '0');
+  return { nth, iso };
+}
+
 // The first unticked, unfiltered entry — "where was I" without scrolling.
 function paintUpNext(){
   const el = $('upnext');
@@ -12867,9 +12966,16 @@ function paintUpNext(){
     el.dataset.id = ORDER[nxt];
     // option C: a container and a verb. The whole tile is the target, so
     // "Jump to it" is a label rather than a second thing to hit.
+    // The waypoint sits after the item, before the verb: it is a fact about
+    // the plan, and the tile still reads left to right as "up next, this one,
+    // and here is where the club should be".
+    const wp = waypoint();
     el.innerHTML = '<span class="ul">Up next</span>'
                  + '<span class="ut">'+esc(FLAT[nxt].t)+'</span>'
                  + '<span class="un">'+esc(FLAT[nxt].n)+'</span>'
+                 + (wp ? '<span class="uw mono">be on '+esc(UNIT.one)+' '
+                         + wp.nth + ' by ' + esc(niceDate(wp.iso)) + '</span>'
+                       : '')
                  + '<span class="ug">Jump to it</span>';
   }
   // the picker only makes sense on a list with no order
