@@ -172,8 +172,30 @@ window.supabase = { createClient: () => {
     };
     return gone;
   };
+  const ABSENT = (t) => {
+    const gone = {
+      select(){ return gone; }, eq(){ return gone; }, in(){ return gone; },
+      order(){ return gone; }, limit(){ return gone; }, gte(){ return gone; },
+      lte(){ return gone; }, gt(){ return gone; }, not(){ return gone; },
+      or(){ return gone; }, neq(){ return gone; }, filter(){ return gone; },
+      upsert(){ return gone; }, insert(){ return gone; },
+      update(){ return gone; }, delete(){ return gone; },
+      maybeSingle(){ return gone; }, single(){ return gone; },
+      then(res, rej){ return Promise.resolve({ data: null, error: {
+        code: '42P01',
+        message: 'relation "public.' + t + '" does not exist' } })
+        .then(res, rej); }
+    };
+    return gone;
+  };
   const from = (t) => {
     if(t === 'club_progress' && !DB[t]) return NOCLUBTABLE();
+    // A stub answers ONLY the tables its fixture defines. Anything else is
+    // 42P01 — what a real database says about a table that is not there.
+    // Returning [] instead made "absent" look like "present and empty", and
+    // an entire absence path was once verified against a database nobody
+    // has. A typo'd table name now fails loudly too.
+    if(!(t in DB)) return ABSENT(t);
     let rows = (DB[t] || []).map(r => Object.assign({}, r));
     let single = false;
     const api = {
