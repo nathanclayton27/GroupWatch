@@ -1613,7 +1613,10 @@ footer a{color:var(--steel)}
        rebuilding any of this. -->
   <details class="panel ctile hide" id="gpanel" open>
     <summary class="ctbar">
-      <span class="lbl">clubs</span>
+      <!-- "clubs" was true when the menu held clubs. It now holds watch
+           clubs, groups, picks and Just me, so the label names the tile's
+           subject instead of one of its four kinds. -->
+      <span class="lbl">people</span>
       <span class="cnm" id="ghead">With other people</span>
       <span class="cpl mono hide" id="c-pl"></span>
       <span class="cdots" id="c-dots" aria-hidden="true"></span>
@@ -5876,7 +5879,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '5fa45ed6c52b';
+const BUILD = '854ed73b4c0d';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -9807,7 +9810,13 @@ function updateGroupLine(){
 // the order the stack puts them. Nothing here is a control — the summary is
 // the control, and it is one target across its whole width.
 function paintClubBar(label){
-  $('ghead').textContent = label;
+  // Open, the trigger two lines down says the same name and can be clicked,
+  // which makes it the better of the two. Shut, the bar is the only thing
+  // left — so it carries the name exactly when nothing else can.
+  const tile = $('gpanel');
+  const shut = !(tile && tile.open);
+  $('ghead').textContent = shut ? label : '';
+  $('ghead').classList.toggle('hide', !shut);
   const pl = $('c-pl'), dots = $('c-dots');
   const n = drawingPeople() ? gmembers.length : 0;
   pl.textContent = n > 1 ? '+' + (n - 1) : '';
@@ -9825,7 +9834,12 @@ function wireTile(){
   t.open = localStorage.getItem(TKEY) !== '0';
   // a property, not addEventListener: renderGroupPanel runs on every poll and
   // a listener added each time would stack up
-  t.ontoggle = ()=> localStorage.setItem(TKEY, t.open ? '1' : '0');
+  t.ontoggle = ()=>{
+    localStorage.setItem(TKEY, t.open ? '1' : '0');
+    // the bar's name appears and disappears with the fold, so it has to be
+    // repainted on the toggle rather than only on a re-render
+    paintClubBar(switchLabel());
+  };
 }
 
 // The three doors that used to be rows down the panel. Rename and the schedule
@@ -9981,14 +9995,18 @@ function renderGroupPanel(){
   // the name — "watch club" against "group" — waits for CLU-114: with a single
   // kind of club it would label everything the same.
   const mine = gmembers.find(m=> user && m.id === user.id);
+  // One row, not two. The old .chead held a colour swatch, the club's name
+  // and the owner icons; the name was the third statement of the same fact
+  // (bar when shut, trigger when open), and the swatch said "your colour in
+  // this club" — which the legend below already says by drawing your row in
+  // that colour, beside your name, with "(you)" after it.
+  //
+  // The icons ride the trigger's line instead. .cico keeps margin-left:auto,
+  // so they stay at the right edge, and the menu panel below is flex:1 1 100%
+  // so it still takes its own full-width row underneath.
   joined.innerHTML =
-    '<div class="chead">'
-    + (mine ? '<span class="gsw" style="background:var(--m'+(mine.ci+1)+')"'
-              + ' title="Your colour in this club"></span>' : '')
-    + '<b class="cname">'+esc(group.name)+'</b>'
-    + clubIcons()
+    '<div class="cmenu">' + groupSwitcher() + groupStackAll() + clubIcons()
     + '</div>'
-    + '<div class="cmenu">' + groupSwitcher() + groupStackAll() + '</div>'
     + clubDrawer()
     + '<p id="gline"></p>';
   foot.innerHTML = clubFoot();
