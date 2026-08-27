@@ -697,6 +697,15 @@ footer a{color:var(--steel)}
    their moment. Touch has no hover, so there they rest faint instead */
 #hfriends .aquiet{opacity:0;transition:opacity .15s}
 #hfriends .hled:hover .aquiet{opacity:1}
+/* Leave earns its moment the same way remove and cancel do. It is the one
+   control on these rows you use once and never again, so at rest it should
+   not compete with Invite link and Open. margin-left:auto here rather than on
+   the buttons that stay, so those form a fixed cluster the fade cannot
+   shuffle. */
+.gros .lv,#fp-groups .lv,#fp-clubs .lv{opacity:0;transition:opacity .15s;
+  margin-left:auto}
+#fp-groups .afrow:hover .lv,#fp-clubs .afrow:hover .lv{opacity:1}
+#fp-groups .lv:focus-visible,#fp-clubs .lv:focus-visible{opacity:1}
 /* the friends page carries the same controls, so it obeys the same law —
    otherwise remove/cancel shout at rest on one page and whisper on the other */
 #fp-list .aquiet{opacity:0;transition:opacity .15s}
@@ -764,7 +773,7 @@ footer a{color:var(--steel)}
 .fw #list li .st-t::after,.fw #list summary .st h2::after{content:""}
 .fw #list li:hover > label::after{content:" 🏆";opacity:.55;font-size:.8em}
 @media (hover:none){#hfriends .aquiet,.gitem .gfr,#fp-list .fpfav,
-  #hfriends .fpfav{opacity:.55}}
+  #hfriends .fpfav,#fp-groups .lv,#fp-clubs .lv{opacity:.55}}
 @media (max-width:560px){#fnote{top:74px;left:14px;right:14px;max-width:none}}
 #b-baracct:hover{border-color:var(--signal)}
 #b-baracct.hide{display:none}
@@ -1528,6 +1537,7 @@ footer a{color:var(--steel)}
     <div class="acard hide" id="fp-clubcard">
       <div class="ak">your clubs</div>
       <div id="fp-clubs"></div>
+      <p class="asub hide" id="fp-cnote"></p>
     </div>
 
     <div id="fp-list"></div>
@@ -4429,6 +4439,9 @@ async function renderMyClubs(){
       + '<span class="mono" style="font-size:10.5px;color:var(--ink-3)">'
       + esc(titleOf(g.property_id)) + '</span>'
       + '<span class="acode" style="margin-left:auto">' + esc(g.code) + '</span>'
+
+      + '<button class="aquiet lv" data-cleave="' + esc(g.id) + '" data-cln="'
+      + esc(g.name) + '" data-clp="' + esc(g.property_id) + '">leave</button>'
       + '<button class="abtn" data-ccopy="' + esc(g.code) + '">Copy</button>'
       + '<button class="abtn" data-copen="' + esc(g.property_id) + '">Open</button>'
       + '</div>'), 'clubs', 'fp-clubs');
@@ -4438,6 +4451,33 @@ async function renderMyClubs(){
     });
     host.querySelectorAll('button[data-copen]').forEach(b=>{
       b.onclick = ()=> go(b.dataset.copen);
+    });
+    host.querySelectorAll('button[data-cleave]').forEach(b=>{
+      b.onclick = async ()=>{
+        // the club panel's own words, so one action does not describe itself
+        // two ways depending on which screen you did it from
+        if(!confirm('Leave ' + b.dataset.cln
+                    + '? Your own progress is untouched.')) return;
+        b.disabled = true;
+        const { error } = await sb.from('group_members').delete()
+          .eq('group_id', b.dataset.cleave).eq('user_id', user.id);
+        b.disabled = false;
+        if(error){
+          cnote('Could not leave: ' + error.message, true);
+          return;
+        }
+        // The stored selection for that property may name the club you just
+        // left. loadGroups already falls back when the id is gone, so this is
+        // tidiness — but a pointer to something you deliberately left is the
+        // sort of thing that reads as a bug months later.
+        try{ localStorage.removeItem('gw:group:' + b.dataset.clp); }catch(e){}
+        // And the local copy of that club's own run (CLU-389). Nathan's
+        // ruling is that leaving deletes your session, so the cache goes with
+        // it rather than waiting to be re-adopted on a rejoin.
+        try{ localStorage.removeItem('gw:club:v1:' + b.dataset.cleave); }catch(e){}
+        cnote('Left ' + b.dataset.cln + '.', false);
+        renderMyClubs();
+      };
     });
   }catch(e){ card.classList.add('hide'); }
 }
@@ -4498,12 +4538,14 @@ async function renderMyGroups(){
         + esc(g.name) + '</b>'
         + '<span class="mono" style="font-size:10.5px;color:var(--ink-3)">'
         + k + ' ' + (k === 1 ? 'person' : 'people') + '</span>'
-        + (g.created_by === user.id
-           ? '<button class="abtn" style="margin-left:auto" data-ginv="'
-             + esc(g.id) + '">Invite link</button>'
-           : '<span style="margin-left:auto"></span>')
-        + '<button class="aquiet" data-gleave="' + esc(g.id) + '" data-gname="'
+        // leave takes the free space so the buttons that STAY are a fixed
+        // cluster at the edge — otherwise Invite link slides sideways every
+        // time leave fades in
+        + '<button class="aquiet lv" data-gleave="' + esc(g.id) + '" data-gname="'
         + esc(g.name) + '">leave</button>'
+        + (g.created_by === user.id
+           ? '<button class="abtn" data-ginv="' + esc(g.id) + '">Invite link</button>'
+           : '')
         + '</div>'
         + '<div class="gros">' + pkHTML((roster[g.id] || []).map(m=>{
             const me = m.user_id === user.id;
@@ -4624,8 +4666,9 @@ async function renderMyGroups(){
 // The groups card keeps its own note line. friendNotify's belongs to the
 // request flow above it, and a group message appearing up there would read as
 // being about a friend.
-function gnote(text, bad){
-  const f = $('fp-gnote');
+function cnote(text, bad){ return gnote(text, bad, 'fp-cnote'); }
+function gnote(text, bad, where){
+  const f = $(where || 'fp-gnote');
   if(!f){ flash(text); return; }
   f.textContent = text;
   f.style.color = bad ? 'var(--ink)' : 'var(--done)';
