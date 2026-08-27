@@ -702,8 +702,12 @@ footer a{color:var(--steel)}
    not compete with Invite link and Open. margin-left:auto here rather than on
    the buttons that stay, so those form a fixed cluster the fade cannot
    shuffle. */
-.gros .lv,#fp-groups .lv,#fp-clubs .lv{opacity:0;transition:opacity .15s;
-  margin-left:auto}
+#fp-groups .lv,#fp-clubs .lv{opacity:0;transition:opacity .15s}
+/* Only the groups card: its row has nothing else pushing right, so leave
+   takes the free space. The clubs card already has the code chip doing that
+   job — a second auto margin there SPLITS the space between them, which is
+   what knocked every chip to a different position. */
+#fp-groups .lv,#fp-clubs .lv{margin-left:auto}
 #fp-groups .afrow:hover .lv,#fp-clubs .afrow:hover .lv{opacity:1}
 #fp-groups .lv:focus-visible,#fp-clubs .lv:focus-visible{opacity:1}
 /* the friends page carries the same controls, so it obeys the same law —
@@ -748,11 +752,11 @@ footer a{color:var(--steel)}
   color:var(--ink-3);font-family:"IBM Plex Mono",ui-monospace,monospace;
   font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;
   height:var(--pkband,1.5em);border:0;border-radius:0;padding:0;cursor:pointer;
-  background:linear-gradient(to bottom,transparent 34%,
-    color-mix(in srgb,var(--pkground,var(--card)) 88%,transparent))}
+  background:linear-gradient(to bottom,transparent 0%,
+    var(--pkground,var(--card)) 72%)}
 .pklist.pk-on .pkmore:hover{color:var(--signal);
-  background:linear-gradient(to bottom,transparent 20%,
-  color-mix(in srgb,var(--pkground,var(--card)) 96%,transparent))}
+  background:linear-gradient(to bottom,transparent 0%,
+  var(--pkground,var(--card)) 55%)}
 /* the label needs a floor to sit on; a band shorter than this would clip it */
 .pklist.pk-on .pkmore{min-height:19px}
 /* the friends-page lists sit inside cards, home's list sits on the page —
@@ -3706,7 +3710,7 @@ $('fp-gnew').onclick = async ()=>{
   $('fp-gname').value = '';
   gnote('Made ' + (data && data.name ? data.name : name)
         + ' \u2014 use Invite link to bring people in.', false);
-  renderMyGroups();
+  dropMyGroups(); renderMyGroups();
 };
 $('fp-gjoinb').onclick = async ()=>{
   const raw = ($('fp-gjoin').value || '').trim();
@@ -3726,7 +3730,7 @@ $('fp-gjoinb').onclick = async ()=>{
   if(!data){ gnote('That link is not valid any more.', true); return; }
   $('fp-gjoin').value = '';
   gnote('Joined ' + (data.name || 'the group') + '.', false);
-  renderMyGroups();
+  dropMyGroups(); renderMyGroups();
 };
 $('fp-share').onclick = ()=> acctCopy(
   'https://clubd.watch/?friend=' + friendParam($('fp-code').textContent),
@@ -4417,24 +4421,55 @@ async function renderFriendsPage(){
     };
   });
 }
+// THE FRIENDS PAGE ASKS ONCE. Three renderers used to run the same
+// group_members -> groups pair independently and in series, so six round
+// trips formed a queue and the cards painted one at a time as each finished.
+// Cached for the page, dropped by anything that changes a roster.
+let MYG = null;
+function dropMyGroups(){ MYG = null; }
+async function myGroups(){
+  if(MYG) return MYG;
+  if(!user || !sb){ return { clubs: [], ugroups: [], seats: {}, roster: {} }; }
+  const out = { clubs: [], ugroups: [], seats: {}, roster: {} };
+  try{
+    const { data: mine } = await sb.from('group_members')
+      .select('group_id').eq('user_id', user.id);
+    const ids = (mine || []).map(r=> r.group_id);
+    if(!ids.length){ MYG = out; return out; }
+    const { data: gs } = await sb.from('groups').select('*').in('id', ids);
+    out.clubs   = (gs || []).filter(g=> !g.universal);
+    out.ugroups = (gs || []).filter(g=>  g.universal);
+    // the rosters, for the groups card. One query for every group rather
+    // than one per group, and the clubs card needs none of it.
+    if(out.ugroups.length){
+      const { data: ms } = await sb.from('group_members')
+        .select('group_id, user_id, display_name')
+        .in('group_id', out.ugroups.map(g=> g.id));
+      (ms || []).forEach(m=>{
+        out.seats[m.group_id] = (out.seats[m.group_id] || 0) + 1;
+        (out.roster[m.group_id] = out.roster[m.group_id] || []).push(m);
+      });
+      Object.keys(out.roster).forEach(k=> out.roster[k].sort((a, b)=>
+        (a.user_id === user.id ? 0 : 1) - (b.user_id === user.id ? 0 : 1)
+        || (a.display_name || '').localeCompare(b.display_name || '')));
+    }
+  }catch(e){ console.error('[groups] roster fetch failed', e); }
+  MYG = out;
+  return out;
+}
 // every club you're in, with its join code — the friends page is where
 // codes of all kinds live (Nathan, 2026-08-24)
 async function renderMyClubs(){
   const card = $('fp-clubcard'), host = $('fp-clubs');
   if(!card || !host || !user || !sb) return;
   try{
-    const { data: mine } = await sb.from('group_members')
-      .select('group_id').eq('user_id', user.id);
-    const ids = (mine || []).map(r=> r.group_id);
-    if(!ids.length){ card.classList.add('hide'); return; }
-    const { data: gs } = await sb.from('groups').select('*').in('id', ids);
-    // A universal group has no property and no code — both columns are null by
-    // design, so every cell below would print "null" and Open would navigate to
-    // ?p=null. This query has no property filter, so it is the one place a
-    // universal row reaches a renderer that predates them. Skipped rather than
-    // special-cased: groups get their own home on the account page, and until
-    // that ships showing nothing is honest where showing "null" is not.
-    const rows = (gs || []).filter(g=> !g.universal).sort((a, b)=>
+    // the shared fetch: this used to run its own group_members -> groups
+    // pair, in series behind two other renderers asking the same thing
+    const MY = await myGroups();
+    // A universal group has no property and no code — both null by design, so
+    // every cell below would print "null" and Open would navigate to ?p=null.
+    // myGroups() has already separated them; this card is the clubs half.
+    const rows = MY.clubs.slice().sort((a, b)=>
       (titleOf(a.property_id) || '').localeCompare(titleOf(b.property_id) || ''));
     if(!rows.length){ card.classList.add('hide'); return; }
     card.classList.remove('hide');
@@ -4446,10 +4481,9 @@ async function renderMyClubs(){
       + esc(g.name) + '</b>'
       + '<span class="mono" style="font-size:10.5px;color:var(--ink-3)">'
       + esc(titleOf(g.property_id)) + '</span>'
-      + '<span class="acode" style="margin-left:auto">' + esc(g.code) + '</span>'
-
       + '<button class="aquiet lv" data-cleave="' + esc(g.id) + '" data-cln="'
       + esc(g.name) + '" data-clp="' + esc(g.property_id) + '">leave</button>'
+      + '<span class="acode">' + esc(g.code) + '</span>'
       + '<button class="abtn" data-ccopy="' + esc(g.code) + '">Copy</button>'
       + '<button class="abtn" data-copen="' + esc(g.property_id) + '">Open</button>'
       + '</div>'), 'clubs', 'fp-clubs');
@@ -4484,7 +4518,7 @@ async function renderMyClubs(){
         // it rather than waiting to be re-adopted on a rejoin.
         try{ localStorage.removeItem('gw:club:v1:' + b.dataset.cleave); }catch(e){}
         cnote('Left ' + b.dataset.cln + '.', false);
-        renderMyClubs();
+        dropMyGroups(); renderMyClubs();
       };
     });
   }catch(e){ card.classList.add('hide'); }
@@ -4501,38 +4535,21 @@ async function renderMyGroups(){
   // is drawn disabled rather than drawn live and quietly meaningless
   const globalOff = !!(PRIV && (!PRIV.share || !PRIV.groups));
   try{
-    const { data: mine } = await sb.from('group_members')
-      .select('group_id').eq('user_id', user.id);
-    const ids = (mine || []).map(r=> r.group_id);
-    let rows = [];
-    if(ids.length){
-      const { data: gs } = await sb.from('groups').select('*').in('id', ids);
-      rows = (gs || []).filter(g=> g.universal)
-        .sort((a, b)=> (a.name || '').localeCompare(b.name || ''));
-    }
-    // your own mute per group. Not readable off the row — see CLU-392 — so it
-    // comes back through a definer function scoped to auth.uid().
+    // the shared fetch carries the groups AND their rosters; the mutes are
+    // the one thing only this card reads, so they ride alongside it rather
+    // than after it — two requests in flight instead of four in a queue
+    const [MY, mres] = await Promise.all([
+      myGroups(),
+      // your own mute per group. Not readable off the row — see CLU-392 — so
+      // it comes back through a definer function scoped to auth.uid().
+      sb.rpc('my_group_shares').then(r=> r, ()=> ({ data: null }))
+    ]);
+    const rows = MY.ugroups.slice()
+      .sort((a, b)=> (a.name || '').localeCompare(b.name || ''));
+    const seats = MY.seats, roster = MY.roster;
     const mute = {};
-    try{
-      const { data: ms } = await sb.rpc('my_group_shares');
-      (ms || []).forEach(r=> mute[r.group_id] = r.share_with_group !== false);
-    }catch(e){ /* pre-migration: leave every group unmuted */ }
-    // one query for every roster rather than one per group
-    const seats = {}, roster = {};
-    if(rows.length){
-      const { data: ms } = await sb.from('group_members')
-        .select('group_id, user_id, display_name')
-        .in('group_id', rows.map(g=> g.id));
-      (ms || []).forEach(m=>{
-        seats[m.group_id] = (seats[m.group_id] || 0) + 1;
-        (roster[m.group_id] = roster[m.group_id] || []).push(m);
-      });
-      // you first, then everyone else by name — the same order the group
-      // panel uses, so the two never disagree about who is at the top
-      Object.keys(roster).forEach(k=> roster[k].sort((a, b)=>
-        (a.user_id === user.id ? 0 : 1) - (b.user_id === user.id ? 0 : 1)
-        || (a.display_name || '').localeCompare(b.display_name || '')));
-    }
+    (((mres && mres.data) || [])).forEach(
+      r=> mute[r.group_id] = r.share_with_group !== false);
     if(!rows.length){
       host.innerHTML = '<div style="color:var(--ink-3);font-size:13px;padding:2px 0">'
         + 'No groups yet \u2014 name one below and send the link to whoever '
@@ -4634,7 +4651,7 @@ async function renderMyGroups(){
         b.disabled = false;
         if(error){ gnote('Could not remove them: ' + error.message, true); return; }
         gnote('Removed ' + b.dataset.gkn + '.', false);
-        renderMyGroups();
+        dropMyGroups(); renderMyGroups();
       };
     });
     host.querySelectorAll('input[data-gmute]').forEach(b=>{
@@ -4664,7 +4681,7 @@ async function renderMyGroups(){
           .delete().eq('group_id', b.dataset.gleave).eq('user_id', user.id);
         if(error){ gnote('Could not leave: ' + error.message, true); return; }
         gnote('Left ' + b.dataset.gname + '.', false);
-        renderMyGroups();
+        dropMyGroups(); renderMyGroups();
       };
     });
   }catch(e){
@@ -4695,8 +4712,14 @@ function showFriendsPage(){
   try{ renderMenu(); }catch(e){}
   renderFriends();
   renderFriendsPage();
-  renderMyClubs();
-  renderMyGroups();
+  // One shared fetch, both cards painted off it, neither waiting on the
+  // other. This pair used to run in series behind their own duplicate
+  // group_members -> groups queries, which is why the page arrived a block at
+  // a time: each card was queueing for an answer the one before it already
+  // had. dropMyGroups() first because showing this page is a fresh look at
+  // rosters that may have changed on another screen.
+  dropMyGroups();
+  Promise.all([renderMyClubs(), renderMyGroups()]);
 }
 
 // The move warning: localStorage is per-origin, so anonymous ticks stay
