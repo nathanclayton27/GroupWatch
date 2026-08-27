@@ -1782,7 +1782,8 @@ function pickSlug(){
   // ?home beats the remembered list — it's the way back to the shelf;
   // ?account and ?friends are the same shell with other columns in it.
   // A friend link lands home too, never inside a remembered list.
-  if(q.has('home') || q.has('account') || q.has('friend') || q.has('friends'))
+  if(q.has('home') || q.has('account') || q.has('friend') || q.has('friends')
+     || q.has('g'))
     return null;
   const want = q.get('p');
   if(want && MANIFEST.some(m=>m.slug===want)) return want;
@@ -2569,6 +2570,7 @@ async function onSession(session, definitive){
       showHome();
     }
     settlePendingFriend();
+    settlePendingGroup();
     setTimeout(backfillSync, 1200);
     return;
   }
@@ -3771,6 +3773,61 @@ async function settlePendingFriend(){
   const r = await addFriendFlow(code);
   friendNotify(r, false);
   if(!r.err) renderFriends();
+}
+// A ?g= invite link survives the sign-in round trip the same way a ?friend
+// link does. Taken out of the URL on sight: it is a credential — anyone who
+// has it can join — so it should not sit in the address bar to be reloaded,
+// bookmarked or caught in a screenshot.
+function pendingGroup(){
+  try{
+    const q = new URLSearchParams(location.search).get('g');
+    if(q){
+      sessionStorage.setItem('gw:pendgroup', q);
+      history.replaceState(null, '', location.pathname);
+    }
+    return sessionStorage.getItem('gw:pendgroup') || '';
+  }catch(e){ return ''; }
+}
+async function settlePendingGroup(){
+  const tok = pendingGroup();
+  if(!tok) return;
+  if(!user){
+    if(!CLOUD) return;
+    const c = $('signctx');
+    if(c){
+      c.textContent = 'Sign in and this group invite finishes itself.';
+      c.classList.remove('hide');
+    }
+    openMastAuth();
+    return;
+  }
+  // clear first: a token that fails is spent either way, and leaving it set
+  // would retry it on every load
+  try{ sessionStorage.removeItem('gw:pendgroup'); }catch(e){}
+  try{
+    const { data, error } = await sb.rpc('join_group_by_token', {
+      p_token: tok,
+      p_display_name: acctName() || (user.email || 'you').split('@')[0]
+    });
+    // Land on the friends page either way. That is where groups live, so it
+    // is the one view where the outcome — joined, or a dead link — is legible
+    // instead of a message flashed over a shelf that says nothing about
+    // groups at all.
+    if(typeof showFriendsPage === 'function') showFriendsPage();
+    const say = (t, bad)=> (typeof gnote === 'function') ? gnote(t, bad) : flash(t);
+    if(error){ say('Could not join that group: ' + error.message, true); return; }
+    // NULL rather than an error is a miss — join_group_by_token returns null so
+    // the rate limiter can count the attempt without rolling itself back. So a
+    // null here means the link is wrong, not that the call failed.
+    if(!data){ say('That invite link is not valid any more.', true); return; }
+    say('Joined ' + (data.name || 'the group') + '.', false);
+    if(typeof renderMyGroups === 'function') renderMyGroups();
+    if(typeof renderFriendsPage === 'function') renderFriendsPage();
+    if(typeof checkInGroups === 'function') checkInGroups();
+  }catch(e){
+    console.error('[groups] invite link failed', e);
+    flash('Could not join that group.');
+  }
 }
 // One fetch feeds everything social: the inbox (home + account), the
 // friends list, and the request badges on the pills.
@@ -5293,7 +5350,7 @@ function groupSwitcher(){
       // plain <div> is not something role=menu may own — taking it out of the
       // tree hands the checkboxes straight back to the group they belong to.
       + '<div class="gfpick" role="none">'
-      + mut.map(id=>{
+      + pkHTML(mut.map(id=>{
           const on = picked.indexOf(id) >= 0;
           const nm = (FREDGES.names || {})[id] || 'someone';
           return '<button type="button" class="gmc"'
@@ -5301,9 +5358,8 @@ function groupSwitcher(){
             + ' tabindex="-1" data-p="'+esc(id)+'">'
             + '<span class="gbox" aria-hidden="true"></span>'
             + '<span class="gmn">'+esc(nm)+'</span></button>';
-        }).join('')
-      + '<button type="button" class="gmgo" id="g-pickgo" role="menuitem"'
-      + ' tabindex="-1">compare these</button></div></div>';
+        }), 'friends', 'g-pick')
+      + '</div></div>';
 
   // No aria-label on the trigger. It would replace the visible "showing
   // <club>" with a sentence that never changes — so a reader could not learn
@@ -5620,17 +5676,15 @@ function renderGroupPanel(){
       joined.classList.remove('hide');
       foot.classList.remove('hide');
       if(addingGroup) prepSetup(true);
-      joined.innerHTML = '<div class="cmenu">' + groupSwitcher() + '</div>'
-        + '<p class="lbl">' + (picked.length
-            ? 'The strip is comparing you with ' + esc(pickNames()) + '. '
-              + 'Not a club: nothing was created, there is no code, and they '
-              + 'are not told.'
-            : 'The strip is showing your own progress. '
-              + (groups.length ? 'Pick a club above to draw everyone.'
-                               : 'Pick people above to compare with them.'))
-        + '</p>';
+      // No paragraph under the switcher. The trigger already says what is
+      // showing, and the menu's own headings say what else there is — so a
+      // sentence repeating it was narration set in the loudest type on the
+      // page. The "not a club, nothing was created" reassurance went with it:
+      // it answered a question nobody had asked yet, every single render.
+      joined.innerHTML = '<div class="cmenu">' + groupSwitcher() + '</div>';
       foot.innerHTML = clubFoot();
       wireSwitcher();
+      pkAll(joined);
       wireClubFoot();
       return;
     }
@@ -5784,7 +5838,12 @@ function wireSwitcher(){
     paintStack(); renderGroupPanel();
   }
 
-  async function applyPicks(){
+  // keepOpen is the live path: a tick redraws the strip while the menu stays
+  // up. renderGroupPanel() rebuilds the entire tile including this menu, so
+  // calling it per tick would destroy the control being used and throw focus
+  // away — the two things a multiple choice must not do.
+  async function applyPicks(opts){
+    const keepOpen = !!(opts && opts.keepOpen);
     const ids = items().filter(el=> el.dataset.p && el.getAttribute('aria-checked') === 'true')
                        .map(el=> el.dataset.p);
     gmenuFocus = true;
@@ -5797,11 +5856,27 @@ function wireSwitcher(){
     if(!ids.length){ try{ localStorage.setItem(GKEY, JUSTME); }catch(e){} }
     try{ await loadMembers(); }
     catch(e){ console.error('[tracker] picked load failed', e); }
-    paintStack(); renderGroupPanel();
-    flash(ids.length
-      ? 'Comparing you with ' + pickNames() + ' on this list. Not a club — '
-        + 'nothing was created, and they are not told.'
-      : 'Back to just you.', 'gmsg2');
+    paintStack();
+    if(keepOpen){
+      // everything that changed outside the menu, and nothing that would
+      // replace the menu itself
+      const nm = document.querySelector('#g-switch .gswn');
+      if(nm) nm.textContent = switchLabel();
+      paintClubBar(ids.length ? switchLabel() : 'Just me');
+      // The foot holds the club's code chip. Not repainting it left the last
+      // club's code sitting under a strip that is drawing a pick — a code for
+      // something you are not looking at, which is exactly the "nothing was
+      // created, there is no code" promise broken in the one place it shows.
+      const ft = $('gfoot');
+      if(ft){ ft.innerHTML = clubFoot(); wireClubFoot(); }
+    }else{
+      renderGroupPanel();
+    }
+    // Short, because it fires on every tick now. The old sentence explained
+    // that a pick is not a club and nobody is told — true, and worth saying
+    // once, but not five times while somebody ticks five friends.
+    flash(ids.length ? 'Comparing with ' + pickNames() + '.' : 'Back to just you.',
+          'gmsg2');
   }
 
   // Character search, the last thing the <select> supplied that this had not
@@ -5862,12 +5937,14 @@ function wireSwitcher(){
     const box = e.target.closest('[data-p]');
     if(box){
       // a ticked box does NOT close the menu: picking people is a multiple
-      // choice, and shutting after each one makes three friends three trips
+      // choice, and shutting after each one makes three friends three trips.
+      // It DOES draw immediately — the strip redraws underneath while the
+      // menu stays open, so the answer arrives as you build the question.
       const on = box.getAttribute('aria-checked') !== 'true';
       box.setAttribute('aria-checked', on ? 'true' : 'false');
+      applyPicks({ keepOpen: true });
       return;
     }
-    if(e.target.closest('#g-pickgo')){ applyPicks(); return; }
     const row = e.target.closest('[data-v]');
     if(row) choose(row.dataset.v);
   };
