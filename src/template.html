@@ -219,11 +219,6 @@ h1 em{font-style:normal;color:var(--signal)}
 .gago{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--ink-3);
   border:1px solid var(--rule);border-radius:var(--radius);padding:0 4px}
 #b-random{font-size:12px}
-.gall{cursor:pointer;font-size:13px;color:var(--ink-2)}
-.gall input{margin:0}
-.exp{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;
-  text-transform:uppercase;color:var(--m3);border:1px solid var(--m3);
-  border-radius:var(--radius);padding:1px 5px}
 .gcode{font-family:"IBM Plex Mono",monospace;font-size:15px;letter-spacing:.16em;
   border:1px solid var(--rule-2);border-radius:var(--radius);padding:3px 9px;background:var(--paper)}
 
@@ -259,7 +254,6 @@ details.ctile{padding:0}
    a menu hangs off the name it belongs to — and the block is where the second
    half of the switcher lands when universal groups arrive (CLU-114) */
 .cmenu{display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;margin:0 0 13px}
-.cin .gall{margin:0}
 /* The switcher, rebuilt out of a native <select>. Two reasons it had to stop
    being one: an OS popup drawn over a dark tile in the OS's own colours reads
    as though the page has broken, and a <select> cannot carry the per-row hint
@@ -4724,8 +4718,10 @@ const TKEY = 'gw:clubtile:' + SLUG;
 // Experimental: stack everyone from every group you are in on this list, rather
 // than one group at a time. Deduplicated by person, so someone in two of your
 // groups is one layer, not two.
-const AKEY = 'gw:groupall:' + SLUG;
-let allGroups = localStorage.getItem(AKEY) === '1';
+// gw:groupall: is retired with the stack-all checkbox. Old values are left
+// where they are: reading nothing is already the correct behaviour, and a
+// migration to delete a key nobody consults is more risk than the tidiness
+// is worth.
 // The ad-hoc comparison — the design's "or pick people". A handful of mutual
 // friends drawn on the strip INSTEAD of a club, and deliberately not a club:
 // no name, no code, no roster, nobody told. That is why it lives in
@@ -4780,7 +4776,7 @@ function gstate(){
   $('strip').classList.toggle('hide', on);
   $('striplbl').textContent = on
     ? 'Each mark is one '+UNIT.one+' · one layer per person, furthest along on top'
-      + (combined() ? ' · everyone from all '+groups.length+' of your clubs' : '')
+
     : 'Each mark is one '+UNIT.one+', in order';
 }
 
@@ -4850,9 +4846,6 @@ async function loadGroups(){
 }
 
 // Universal groups, kept in their own list rather than mixed into `groups`.
-// combined() — "stack everyone from all N clubs" — reads `groups`, and a group
-// is not per-list, so mixing them would silently stack a roster that has
-// nothing to do with this list into a count that says "clubs".
 let ugroups = [];
 let useats = {};
 function isUgroup(g){ return !!(g && g.universal); }
@@ -4862,7 +4855,7 @@ function isUgroup(g){ return !!(g && g.universal); }
 // same colour, two different runs, one of them a lie. Collapsing a person
 // across clubs into one entry with one colour from a 16-slot budget is the
 // whole point of the code below; a session is the thing that does not collapse.
-function combined(){ return allGroups && groups.length > 1 && !SESSION; }
+
 
 /* ------------------------------------------------ switching sessions ------ */
 
@@ -5051,7 +5044,7 @@ async function loadMembers(){
     gmembers = picked.length ? await loadPicked() : [];
     return;
   }
-  const gids = combined() ? groups.map(g=>g.id) : [group.id];
+  const gids = [group.id];
   const { data:roster, error } = await sb.from('group_members')
     .select('group_id, user_id, display_name, color_index').in('group_id', gids);
   if(error) throw error;
@@ -5494,7 +5487,7 @@ function paintStack(){
     }
     // in the combined view the legend can hold people from three different
     // groups, so say which on hover rather than crowding the line
-    const from = combined() && m.from && m.from.length
+    const from = false && m.from && m.from.length
       ? ' title="'+esc(m.from.join(', '))+'"' : '';
     // last-active is surfaced from the progress row's own updated_at — no new
     // tracking, and someone who never synced shows nothing, not a fake age
@@ -5843,10 +5836,9 @@ function groupSwitcher(){
     // that sentence lives on a title no keyboard can reach. Focusable and
     // declining out loud is the honest version — wireSwitcher does the
     // declining, since aria-disabled is advisory and the click still fires.
-    + (combined() ? ' aria-disabled="true"' : '')
+
     + ' title="'
-    + esc(combined() ? 'Dates and the roster still follow this one'
-          : !group && !picked.length ? 'Showing your own progress'
+    + esc(!group && !picked.length ? 'Showing your own progress'
           : 'Which club the strip is drawing')
     + '"><span class="gswl">showing</span>'
     + '<span class="gswn">'+esc(switchLabel())+'</span>'
@@ -5860,23 +5852,6 @@ function groupSwitcher(){
 // question — who is on the strip — and because that is where it will inherit
 // the rule that universal groups are never stacked in (CLU-114). Its own
 // function only so the switcher can be one control inside the header row.
-function groupStackAll(){
-  if(!(group && groups.length > 1)) return '';
-  // Held down, and saying why, rather than absent (CLU-389): a control that
-  // vanishes the moment you pick a club reads as a bug, and the reason is
-  // worth one sentence. Each club now keeps its own run, so there is no one
-  // set of numbers your layer could carry across a stack of them.
-  if(SESSION)
-    return '<label class="row gall">'
-      + '<input type="checkbox" id="g-all" disabled>'
-      + '<span>Stack everyone from all '+groups.length+' clubs</span>'
-      + '<span class="exp">not while a club has its own run</span></label>';
-  return '<label class="row gall">'
-    + '<input type="checkbox" id="g-all"'+(allGroups?' checked':'')+'>'
-    + '<span>Stack everyone from all '+groups.length+' clubs</span>'
-    + '<span class="exp">Experimental</span></label>';
-}
-
 // Renaming is the owner's alone — the same policy that lets them move the
 // schedule. Everyone else sees the name and nothing to edit.
 function renameRow(){
@@ -6016,10 +5991,7 @@ function updateGroupLine(){
     line = 'No finish date set, so nobody is behind.';
   }
   const who = gmembers.length + (gmembers.length === 1 ? ' person' : ' people');
-  el.textContent = combined()
-    ? line + ' ' + who + ' across all ' + groups.length + ' of your groups; the '
-      + 'dates come from ' + group.name + '.'
-    : line + ' ' + who + ' in this club.';
+  el.textContent = line + ' ' + who + ' in this club.';
 }
 
 // The bar is the entire tile once it is shut, so it has to answer "who is this
@@ -6228,7 +6200,7 @@ function renderGroupPanel(){
   // so they stay at the right edge, and the menu panel below is flex:1 1 100%
   // so it still takes its own full-width row underneath.
   joined.innerHTML =
-    '<div class="cmenu">' + groupSwitcher() + groupStackAll() + clubIcons()
+    '<div class="cmenu">' + groupSwitcher() + clubIcons()
     + '</div>'
     + clubDrawer()
     + '<p id="gline"></p>';
@@ -6267,18 +6239,6 @@ function renderGroupPanel(){
     // the club whose drawer this was is gone, so the drawer goes with it
     gdrawer = '';
     await refreshGroup(false);
-  };
-  const all = $('g-all');
-  if(all) all.onchange = async ()=>{
-    allGroups = all.checked;
-    localStorage.setItem(AKEY, allGroups ? '1' : '0');
-    try{ await loadMembers(); }
-    catch(e){ console.error('[tracker] combined view failed', e); }
-    paintStack(); renderGroupPanel();
-    flash(allGroups
-      ? 'Showing everyone from all '+groups.length+' of your clubs. Someone in '
-        + 'two of them appears once. Dates still come from '+group.name+'.'
-      : 'Back to '+group.name+' on its own.', 'gmsg2');
   };
   wireSwitcher();
 }
@@ -6354,7 +6314,6 @@ function wireSwitcher(){
       // deliberately not `|| group`: choosing yourself must be able to
       // clear the selection, which is the whole point of the option
       group = null;
-      allGroups = false;
       // loadMembers() rather than `gmembers = []`, because it is the one path
       // that takes the session back to your all-time row (CLU-389). With no
       // club and no pick it does exactly what the bare assignment did — an
@@ -6379,7 +6338,6 @@ function wireSwitcher(){
                        .map(el=> el.dataset.p);
     gmenuFocus = true;
     gdrawer = '';
-    allGroups = false;
     group = null;
     setPicked(ids);
     // nothing ticked is exactly Just me, and landing there is better than
