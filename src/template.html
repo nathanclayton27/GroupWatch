@@ -4710,6 +4710,7 @@ async function loadMembers(){
   });
   const gname = {};
   groups.forEach(g=> gname[g.id] = g.name);
+  ugroups.forEach(g=> gname[g.id] = g.name);
 
   // Colour is stored per group, so two people in different groups can hold the
   // same index. The group on screen keeps the colours it already has and
@@ -5925,7 +5926,7 @@ function wireSwitcher(){
       paintStack(); renderGroupPanel();
       return;
     }
-    group = groups.find(g=>g.id===v) || group;
+    group = groups.find(g=>g.id===v) || ugroups.find(g=>g.id===v) || group;
     try{ await loadMembers(); }catch(e){ console.error('[tracker] group switch failed', e); }
     paintStack(); renderGroupPanel();
   }
