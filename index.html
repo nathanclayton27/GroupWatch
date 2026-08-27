@@ -752,11 +752,11 @@ footer a{color:var(--steel)}
   color:var(--ink-3);font-family:"IBM Plex Mono",ui-monospace,monospace;
   font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;
   height:var(--pkband,1.5em);border:0;border-radius:0;padding:0;cursor:pointer;
-  background:linear-gradient(to bottom,transparent 0%,
-    var(--pkground,var(--card)) 72%)}
+  background:linear-gradient(to bottom,transparent 40%,
+    var(--pkground,var(--card)) 88%)}
 .pklist.pk-on .pkmore:hover{color:var(--signal);
-  background:linear-gradient(to bottom,transparent 0%,
-  var(--pkground,var(--card)) 55%)}
+  background:linear-gradient(to bottom,transparent 28%,
+  var(--pkground,var(--card)) 82%)}
 /* the label needs a floor to sit on; a band shorter than this would clip it */
 .pklist.pk-on .pkmore{min-height:19px}
 /* the friends-page lists sit inside cards, home's list sits on the page —
@@ -5905,7 +5905,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '739fcfb48fcc';
+const BUILD = '4d2be266cac9';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -8495,7 +8495,18 @@ async function friendShelves(ids){
     return by;
   }catch(e){ return {}; }
 }
+// Coalesced. onSession fires twice on every load — once from
+// onAuthStateChange, once from getSession — and each one repaints this page.
+// Overlapping calls used to run the whole fan-out twice over: friendships,
+// every friend's shelves, the lot. The second caller now joins the first.
+let _fpP = null;
 async function renderFriendsPage(){
+  if(_fpP) return _fpP;
+  _fpP = (async ()=>{ try{ return await _renderFriendsPage(); }
+                      finally{ _fpP = null; } })();
+  return _fpP;
+}
+async function _renderFriendsPage(){
   const host = $('fp-list');
   if(!host) return;
   if(!user || !sb || FBROKEN){ host.innerHTML = ''; return; }
@@ -8575,11 +8586,12 @@ async function renderFriendsPage(){
 // group_members -> groups pair independently and in series, so six round
 // trips formed a queue and the cards painted one at a time as each finished.
 // Cached for the page, dropped by anything that changes a roster.
-let MYG = null;
+let MYG = null;                       // the PROMISE, not the answer
 function dropMyGroups(){ MYG = null; }
 async function myGroups(){
   if(MYG) return MYG;
   if(!user || !sb){ return { clubs: [], ugroups: [], seats: {}, roster: {} }; }
+  MYG = (async ()=>{
   const out = { clubs: [], ugroups: [], seats: {}, roster: {} };
   try{
     const { data: mine } = await sb.from('group_members')
@@ -8604,8 +8616,9 @@ async function myGroups(){
         || (a.display_name || '').localeCompare(b.display_name || '')));
     }
   }catch(e){ console.error('[groups] roster fetch failed', e); }
-  MYG = out;
   return out;
+  })();
+  return MYG;
 }
 // every club you're in, with its join code — the friends page is where
 // codes of all kinds live (Nathan, 2026-08-24)
