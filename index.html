@@ -1105,6 +1105,11 @@ footer a{color:var(--steel)}
 .gros{margin:2px 0 6px 10px;padding-left:9px;border-left:1px solid var(--rule);
   font-size:12.5px;color:var(--ink-2)}
 .gros .aquiet{font-size:11px}
+/* add-friend takes the free space so it and remove sit together at the right
+   edge, in that order: the thing you are most likely to want is nearer the
+   name than the destructive one is. */
+.gros .gfr2{margin-left:auto}
+.gros .gfr2 + .aquiet{margin-left:8px}
 .acap{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;
   color:var(--ink-3);margin-top:9px;line-height:1.6}
 .acap b{color:var(--ink-2);font-weight:500}
@@ -5871,7 +5876,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '00c519b79892';
+const BUILD = '5fa45ed6c52b';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -8476,10 +8481,23 @@ async function renderMyGroups(){
             return '<div class="afrow" style="align-items:baseline;padding:3px 0">'
               + '<span style="min-width:0;overflow:hidden;'
               + 'text-overflow:ellipsis;white-space:nowrap">' + esc(nm) + '</span>'
+              // A group is often people you are NOT friends with — a coworkers
+              // roster is the whole motivating case — so this is the one place
+              // you reliably meet somebody worth adding. Same rules as the club
+              // legend: nothing for yourself, nothing for someone you have
+              // already added, "add back" for a request pointing at you.
+              + (function(){
+                  const st = legendFriendState(m.user_id);
+                  if(st === 'self' || st === 'mine' || st === 'unknown') return '';
+                  return '<button class="aquiet gfr2" data-fradd="'
+                    + esc(m.user_id) + '" data-frname="'
+                    + esc(m.display_name || 'them') + '">'
+                    + (st === 'back' ? 'add back' : 'add friend') + '</button>';
+                })()
               // Owner-only, and never against yourself: Leave is the control
               // for that and it is one row up, saying your progress is safe.
               + (g.created_by === user.id && !me
-                 ? '<button class="aquiet" style="margin-left:auto" data-gkick="'
+                 ? '<button class="aquiet" data-gkick="'
                    + esc(m.user_id) + '" data-gkg="' + esc(g.id) + '" data-gkn="'
                    + esc(m.display_name || 'them') + '">remove</button>'
                  : '')
@@ -8511,6 +8529,18 @@ async function renderMyGroups(){
         }
         acctCopy('https://clubd.watch/?g=' + encodeURIComponent(data),
                  'Invite link copied \u2014 anyone with it can join this group.');
+      };
+    });
+    host.querySelectorAll('button[data-fradd]').forEach(b=>{
+      b.onclick = async ()=>{
+        if(!user){ gnote('Sign in to add friends.', true); return; }
+        const r = await addFriend({ id: b.dataset.fradd, name: b.dataset.frname });
+        gnote(r.err || friendMsg(r), !!r.err);
+        // the edge exists now either way, so the button has nothing left to do
+        if(!r.err){
+          if(FREDGES) FREDGES.out.add(b.dataset.fradd);
+          b.remove();
+        }
       };
     });
     host.querySelectorAll('button[data-gkick]').forEach(b=>{
