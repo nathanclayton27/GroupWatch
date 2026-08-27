@@ -246,6 +246,105 @@ details.ctile{padding:0}
    half of the switcher lands when universal groups arrive (CLU-114) */
 .cmenu{display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;margin:0 0 13px}
 .cin .gall{margin:0}
+/* The switcher, rebuilt out of a native <select>. Two reasons it had to stop
+   being one: an OS popup drawn over a dark tile in the OS's own colours reads
+   as though the page has broken, and a <select> cannot carry the per-row hint
+   that says which club has a date and which does not — the one fact that
+   tells two club names apart.
+   The panel is IN FLOW and full width rather than floated over the tile, so
+   there is no positioning to get wrong, nothing for the tile's own overflow
+   to clip, and it can grow the friend picker without becoming a dialog.
+   The trigger is the design's .pick chip: a pill in the mono face, muted until
+   you point at it, so it reads as chrome beside the club name rather than as a
+   second button competing with it. It keeps the name the design leaves out,
+   because this same control is the ONLY thing on screen in the Just-me and
+   picked states, where there is no header above it to read the answer off. */
+.gswb{display:flex;align-items:center;gap:6px;min-width:0;max-width:100%;
+  border-radius:99px;padding:3px 10px;color:var(--ink-2);
+  font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11.5px;
+  letter-spacing:.03em}
+.gswb:hover{border-color:var(--ink-3);color:var(--ink)}
+/* aria-disabled, not disabled, so it keeps its focus ring and can say why —
+   see the markup. The look has to be borrowed from button:disabled by hand. */
+.gswb[aria-disabled="true"]{opacity:.5;cursor:default}
+.gswb[aria-disabled="true"]:hover{border-color:var(--rule-2);color:var(--ink-2)}
+.gswb .gswl{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);flex:none}
+.gswb .gswn{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gswb .gswc{width:6px;height:6px;flex:none;border-right:1.5px solid var(--ink-3);
+  border-bottom:1.5px solid var(--ink-3);transform:rotate(45deg);
+  position:relative;top:-2px;transition:transform .2s ease,top .2s ease}
+.gswb[aria-expanded="true"] .gswc{transform:rotate(-135deg);top:1px}
+/* order:2 drops the panel onto its own full-width line under the trigger
+   without either the trigger or the stack-all box leaving the flex row */
+.gmenu{order:2;flex:1 1 100%;min-width:0;margin:2px 0 0;
+  border:1px solid var(--rule-2);border-radius:6px;overflow:hidden}
+.gmenu[hidden]{display:none}
+.gmi{display:flex;align-items:center;gap:8px;width:100%;text-align:left;
+  padding:7px 10px;font-size:12.5px;border:0;border-bottom:1px solid var(--rule);
+  border-radius:0;background:transparent}
+/* the panel draws its own outer border, so whatever ends up last must not
+   add a second line on top of it. The picker block below carries no border of
+   its own, so it needs no case here even when it is what ends up last. */
+.gmenu>.gmi:last-child,.gmenu>[role=group]:last-child>.gmi:last-child{border-bottom:0}
+/* the border-color is NOT redundant: `border:0` above leaves the bottom rule
+   as the only border, and button:hover further down would repaint it --ink-2 */
+.gmi:hover{border-color:var(--rule);background:color-mix(in srgb,var(--ink) 4%,transparent)}
+.gmi.on{font-weight:600}
+/* the ring is drawn inside the row: the panel clips its own overflow, so an
+   offset outline on the first or last row would be sliced in half */
+.gmi:focus-visible,.gmc:focus-visible,.gmgo:focus-visible{outline:2px solid var(--signal);outline-offset:-2px}
+.gtick{width:12px;flex:none;font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:11px;color:var(--signal)}
+.gmn{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gwhy{margin-left:auto;flex:none;font-size:10px;color:var(--ink-3);padding-left:10px}
+/* The hint never shrinks (flex:none), so on a phone it is the club NAME that
+   gets ellipsed to make room for it. The wording stays long — "ep 64" needs a
+   per-unit abbreviation and there are 209 units — so the hint gives the name
+   back a few characters instead. */
+@media (max-width:430px){.gwhy{font-size:9.5px;padding-left:6px}}
+/* the section headings: "Reading this together" over the clubs, "Or pick
+   people" over the friends. A heading each is what lets a club and a group
+   share a name harmlessly, because they can never be in the same section. */
+/* .gmenu in the selector on purpose: `.panel p` further down is (0,1,1) and
+   would otherwise win the margin, the size, the colour AND the 66ch measure
+   that stops a heading band halfway across the panel */
+/* The band is a tint of the ink rather than --paper: --paper is darker than
+   the tile in BOTH themes, so on dark it punched the headings out as holes
+   between the groups instead of raising them as labels on top of them. A
+   percentage of --ink lightens on dark and darkens on light, which is the one
+   thing that makes a label strip read the same way in either. */
+.gmenu .gmh{margin:0;padding:8px 10px 5px;max-width:none;font-size:9.5px;
+  font-family:"IBM Plex Mono",ui-monospace,monospace;font-weight:500;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);
+  border-bottom:1px solid var(--rule);
+  background:color-mix(in srgb,var(--ink) 3%,transparent)}
+/* The friends are the design's quiet indented block, not four more menu rows:
+   at a club row's weight and with a rule under each they read as a third list
+   of clubs, which is the one thing the two headings exist to prevent. They stay
+   buttons under it — see .gbox — so only the look is borrowed, not the markup.
+   A ticked friend is deliberately NOT bolded the way the current club is: bold
+   here says "this is what the strip is drawing", and a tick is only a proposal
+   until "compare these" is pressed. */
+.gfpick{padding:7px 10px 9px}
+.gmc{display:flex;align-items:center;gap:8px;width:100%;text-align:left;
+  padding:3px 0;font-size:12.5px;color:var(--ink-2);border:0;border-radius:0;
+  background:transparent}
+.gmc:hover{color:var(--ink)}
+/* drawn, not an <input>: a checkbox is not a legal child of role=menu, and
+   role=menuitemcheckbox on a button is what gets the arrow keys and the
+   screen-reader announcement the native control was giving away for free */
+.gbox{width:13px;height:13px;flex:none;border:1px solid var(--rule-2);
+  border-radius:2px;display:grid;place-items:center;font-size:9px;
+  line-height:1;color:var(--paper)}
+.gmc[aria-checked="true"] .gbox{background:var(--signal);border-color:var(--signal)}
+.gmc[aria-checked="true"] .gbox::after{content:"\2713"}
+/* mono and tracked, so it reads as one of the tile's chips — the code chip,
+   the pace tags — rather than as a generic small button borrowed from a form */
+.gmgo{display:block;margin:7px 0 0;font-size:11px;padding:3px 10px;
+  font-family:"IBM Plex Mono",ui-monospace,monospace;letter-spacing:.04em;
+  border-radius:99px;color:var(--ink-2)}
+.gmgo:hover{border-color:var(--signal);color:var(--signal)}
 .cname{font-size:14px;font-weight:500;letter-spacing:-.01em}
 .cico{display:flex;gap:4px;margin-left:auto;flex:none}
 .cicon{width:28px;height:28px;display:grid;place-items:center;font-size:13px;
@@ -1268,6 +1367,10 @@ footer a{color:var(--steel)}
              aria-label="Show my ticks to friends">
         <label class="t" for="a-showticks"><b>Show my ticks to friends</b>
           <span id="a-showticks-h"></span></label></div>
+      <div class="atog"><input type="checkbox" id="a-showgroups"
+             aria-label="Show my ticks to people in my groups">
+        <label class="t" for="a-showgroups"><b>Show my ticks to people in my groups</b>
+          <span id="a-showgroups-h"></span></label></div>
       <div class="ak" style="margin:15px 0 8px">hidden lists</div>
       <div id="a-hidden"></div>
       <div class="acap">a list is hidden from its own page — the switch sits at
@@ -1385,6 +1488,24 @@ footer a{color:var(--steel)}
       <div class="acap">this sends them a request — you are linked once they accept it.</div>
     </div>
 
+    <div class="acard" id="fp-gcard">
+      <div class="ak">your groups</div>
+      <div id="fp-groups"></div>
+      <div class="afrow" style="margin-top:11px">
+        <input type="text" id="fp-gname" placeholder="Name a new group"
+               aria-label="Name a new group" maxlength="40">
+        <button id="fp-gnew" type="button">Create</button>
+      </div>
+      <div class="afrow" style="margin-top:11px">
+        <input type="text" id="fp-gjoin" placeholder="Paste an invite link"
+               aria-label="Paste an invite link">
+        <button id="fp-gjoinb" type="button">Join</button>
+      </div>
+      <p class="asub hide" id="fp-gnote"></p>
+      <div class="acap">a group is the same people on every list — it shares
+        what you have watched. A club is one list, watched together.</div>
+    </div>
+
     <div class="acard hide" id="fp-clubcard">
       <div class="ak">your clubs</div>
       <div id="fp-clubs"></div>
@@ -1474,9 +1595,11 @@ footer a{color:var(--steel)}
   <!-- The club tile (CLU-52). Four regions, and only the first and third are
        re-rendered by renderGroupPanel: #glegend belongs to paintStack, which
        is why it is a fixed slot here rather than a string the panel builds.
-       The second heading the switcher grows for universal groups (CLU-114)
-       is an <optgroup> in groupSwitcher() — the markup is laid out for that
-       half so it can be added without rebuilding this. -->
+       The switcher inside it is a hand-built menu rather than a <select>: an
+       OS popup over this tile reads as a rendering fault and cannot carry the
+       per-row hint. The heading it grows for universal groups (CLU-114) is
+       one more role="group" in groupSwitcher(), so it lands without
+       rebuilding any of this. -->
   <details class="panel ctile hide" id="gpanel" open>
     <summary class="ctbar">
       <span class="lbl">clubs</span>
@@ -1494,7 +1617,11 @@ footer a{color:var(--steel)}
            would clear itself against a node nobody can see -->
       <input type="text" id="g-clip" class="hide" readonly spellcheck="false"
              aria-label="Club code, ready to copy">
-      <p id="gmsg2" style="margin:11px 0 0;color:var(--signal)"></p>
+      <!-- role=status like every other flash target: since the switcher stopped
+           being a <select>, this is the ONLY channel that reports a keyboard
+           commit — the trigger's name is the club, and choose() flashes nothing
+           at all — so without it Enter on "compare these" is silent -->
+      <p id="gmsg2" role="status" style="margin:11px 0 0;color:var(--signal)"></p>
       <div id="gsetup">
         <p id="gsetup-p"></p>
         <div class="row">
@@ -1537,6 +1664,10 @@ footer a{color:var(--steel)}
            aria-label="Hide this list from friends">
       <label class="t" for="p-hide"><b>Hide this list from friends</b>
         <span id="p-hide-h"></span></label></div>
+    <div class="atog hide" id="p-ghide-row"><input type="checkbox" id="p-ghide"
+           aria-label="Hide this list from groups">
+      <label class="t" for="p-ghide"><b>Hide this list from groups</b>
+        <span id="p-ghide-h"></span></label></div>
     <p id="privmsg" role="status"
        style="margin:11px 0 0;font-size:13px;color:var(--signal)"></p>
   </div>
@@ -5734,7 +5865,7 @@ async function refreshManifest(){
   }catch(e){ console.error('[tracker] manifest refresh failed', e); }
 }
 
-const BUILD = '4d4a4d3930cf';
+const BUILD = 'e5db62a67acb';
 
 // A hash of the sync map itself, from build.py. The cross-list backfill below
 // runs once per device per value of this, so any build that adds, removes or
@@ -5945,8 +6076,15 @@ async function loadProperty(){
   // because the gate also hid the switcher there was no way back out: every
   // visit landed on a password box with no navigation. Both halves of that are
   // fixed — this line, and the switcher staying put in showGate().
-  if(!(PROP.secret && PROP.secret.blob && !PROP.generate && !PROP.sections))
-    localStorage.setItem('gw:last', SLUG);
+  // guarded like every other write in this file, and found while proving the
+  // switcher's own storage fix: a browser that refuses writes (a private
+  // window, a full quota) threw HERE, which aborted the rest of this function
+  // and every boot step after it — the whole property page died over a
+  // convenience that only decides which list reopens next time
+  try{
+    if(!(PROP.secret && PROP.secret.blob && !PROP.generate && !PROP.sections))
+      localStorage.setItem('gw:last', SLUG);
+  }catch(e){}
   applyAccent();
 }
 
@@ -7025,11 +7163,19 @@ function takePrivacy(data){
   const r = data || {};
   PRIV = { share: r.share_progress !== false,
            activity: r.share_activity !== false,
-           hidden: new Set(Array.isArray(r.hidden_slugs) ? r.hidden_slugs : []) };
+           // absent means "never touched", and untouched settings are the
+           // defaults — the same coalesce the database does, so the switch on
+           // the page and the rule behind it cannot disagree
+           groups: r.share_with_groups !== false,
+           hidden: new Set(Array.isArray(r.hidden_slugs) ? r.hidden_slugs : []),
+           ghidden: new Set(Array.isArray(r.hidden_from_groups)
+                            ? r.hidden_from_groups : []) };
   return PRIV;
 }
 async function loadPrivacy(){
   if(!user || !sb || PRIVOFF) return null;
+  // cheap, once, and only ever decides whether a control is worth drawing
+  if(!INGROUPS) checkInGroups();
   if(PRIV) return PRIV;
   try{
     const { data, error } = await sb.rpc('privacy_settings');
@@ -7048,6 +7194,30 @@ async function savePrivacy(patch){
     if(error) throw error;
     return takePrivacy(data);
   }catch(e){ console.error('[privacy] write failed', e); return null; }
+}
+async function saveListHiddenGroups(slug, hidden){
+  if(!user || !sb || PRIVOFF) return null;
+  try{
+    const { data, error } = await sb.rpc('set_list_hidden_groups',
+      { p_slug: slug, p_hidden: !!hidden });
+    if(error) throw error;
+    return takePrivacy(data);
+  }catch(e){ console.error('[privacy] group list write failed', e); return null; }
+}
+// Are you in any group at all? Only decides whether a control is worth
+// drawing, so one answer per session is plenty and a failure means "no".
+let INGROUPS = false;
+async function checkInGroups(){
+  if(!user || !sb) return;
+  try{
+    const { data: mine } = await sb.from('group_members')
+      .select('group_id').eq('user_id', user.id);
+    const ids = (mine || []).map(r=> r.group_id);
+    if(!ids.length){ INGROUPS = false; return; }
+    const { data: gs } = await sb.from('groups')
+      .select('id, universal').in('id', ids);
+    INGROUPS = (gs || []).some(g=> g.universal);
+  }catch(e){ INGROUPS = false; }
 }
 async function saveListHidden(slug, hidden){
   if(!user || !sb || PRIVOFF) return null;
@@ -7117,6 +7287,20 @@ async function paintPrivacy(){
       ? 'your ticks will show in the activity feed once it lands. This is your'
         + ' answer, banked before the feature arrives rather than after it.'
       : 'nothing to show while friends cannot see your progress at all.';
+    const grp = $('a-showgroups');
+    if(grp){
+      // The ratchet: hiding from friends hides from groups too, and the
+      // database enforces it. This only reports it — the box shows off and
+      // says why rather than sitting there looking changeable.
+      grp.checked = p.share && p.groups;
+      grp.disabled = !p.share;
+      $('a-showgroups-h').textContent = p.share
+        ? 'a group is the same people on every list, so this covers all of'
+          + ' them at once. Clubs are untouched — being in one is how you say'
+          + ' yes to that list.'
+        : 'already covered: with friends switched off, groups cannot see your'
+          + ' progress either.';
+    }
     paintHiddenList();
   }
   if(panel && SLUG){
@@ -7128,8 +7312,40 @@ async function paintPrivacy(){
         + ' stay. Clubs on this list are untouched.'
       : 'friends cannot see any of your progress right now — the switch on your'
         + ' account page is off, so this one changes nothing today.';
+    const gh = $('p-ghide'), ghr = $('p-ghide-row');
+    if(gh && ghr){
+      // Nothing to offer someone who is in no groups, so it is not drawn at
+      // all rather than drawn and greyed.
+      ghr.classList.toggle('hide', !INGROUPS);
+      gh.checked = p.ghidden.has(SLUG);
+      gh.disabled = !p.share || !p.groups;
+      $('p-ghide-h').textContent = !p.share
+        ? 'nothing to hide — your progress is not visible to anyone but clubs'
+          + ' right now.'
+        : !p.groups
+        ? 'already covered: your groups cannot see any of your lists.'
+        : p.hidden.has(SLUG)
+        ? 'on, because this list is hidden from friends — and anything hidden'
+          + ' from friends is hidden from groups too. Turning the friends one'
+          + ' back off leaves this one on until you say otherwise.'
+        : 'your groups stop seeing this one list. Friends still see it, and a'
+          + ' club on this list is untouched.';
+    }
   }
 }
+$('a-showgroups').onchange = async e=>{
+  const want = e.target.checked;
+  e.target.disabled = true;
+  const ok = await savePrivacy({ p_groups: want });
+  e.target.disabled = false;
+  if(!ok){
+    e.target.checked = !want;   // never paint a setting that did not land
+    flash('That did not save — your groups see exactly what they did before.',
+          'a-privmsg');
+    return;
+  }
+  paintPrivacy();
+};
 $('a-share').onchange = async e=>{
   const want = e.target.checked;
   e.target.disabled = true;
@@ -7158,6 +7374,20 @@ $('a-showticks').onchange = async e=>{
   }
   flash(want ? 'Your ticks will show to friends when the feed lands.'
              : 'Your ticks stay yours when the feed lands.', 'a-privmsg');
+};
+$('p-ghide').onchange = async e=>{
+  const want = e.target.checked;
+  e.target.disabled = true;
+  const ok = await saveListHiddenGroups(SLUG, want);
+  e.target.disabled = false;
+  if(!ok){
+    e.target.checked = !want;
+    flash('That did not save — your groups still '
+          + (want ? 'see' : 'cannot see') + ' this list. Try again in a moment.',
+          'privmsg');
+    return;
+  }
+  paintPrivacy();
 };
 $('p-hide').onchange = async e=>{
   const want = e.target.checked;
@@ -7403,6 +7633,39 @@ $('b-fadd').onclick = async ()=>{
   if(!r.err) $('a-fadd').value = '';
 };
 $('fp-copy').onclick = ()=> acctCopy($('fp-code').textContent, 'Friend code copied.');
+$('fp-gnew').onclick = async ()=>{
+  const name = ($('fp-gname').value || '').trim();
+  if(!name){ gnote('Give the group a name first.', true); return; }
+  const { data, error } = await sb.rpc('create_universal_group', {
+    p_name: name,
+    p_display_name: acctName() || (user.email || 'you').split('@')[0]
+  });
+  if(error){ gnote('Could not create that group: ' + error.message, true); return; }
+  $('fp-gname').value = '';
+  gnote('Made ' + (data && data.name ? data.name : name)
+        + ' \u2014 use Invite link to bring people in.', false);
+  renderMyGroups();
+};
+$('fp-gjoinb').onclick = async ()=>{
+  const raw = ($('fp-gjoin').value || '').trim();
+  if(!raw){ gnote('Paste the invite link you were sent.', true); return; }
+  // accept the whole link or just the token, because people paste both
+  let tok = raw;
+  const m = raw.match(/[?&]g=([^&#\s]+)/);
+  if(m) tok = decodeURIComponent(m[1]);
+  const { data, error } = await sb.rpc('join_group_by_token', {
+    p_token: tok,
+    p_display_name: acctName() || (user.email || 'you').split('@')[0]
+  });
+  if(error){ gnote('Could not join: ' + error.message, true); return; }
+  // join_group_by_token returns NULL rather than raising on a miss, so the
+  // rate limiter can count the attempt — see migrate-add-rate-limits.sql.
+  // A null here means the link is wrong, not that the call failed.
+  if(!data){ gnote('That link is not valid any more.', true); return; }
+  $('fp-gjoin').value = '';
+  gnote('Joined ' + (data.name || 'the group') + '.', false);
+  renderMyGroups();
+};
 $('fp-share').onclick = ()=> acctCopy(
   'https://clubd.watch/?friend=' + friendParam($('fp-code').textContent),
   'Share link copied.');
@@ -7719,6 +7982,11 @@ async function unFriend(id, name){
     await sb.from('friendships').delete().eq('a', user.id).eq('b', id);
     await sb.from('friendships').delete().eq('a', id).eq('b', user.id);
     if(FREDGES){ FREDGES.out.delete(id); FREDGES.inn.delete(id); }
+    // A pick naming someone you just unfriended has no readable progress
+    // behind it, so its row would be a name with nothing under it — and the
+    // switcher would call them "someone" until the next navigation reran
+    // loadGroups and pruned them there.
+    if(picked.indexOf(id) >= 0) setPicked(picked.filter(x=> x !== id));
   }catch(e){ return { err: 'Could not remove — try again.' }; }
   return { name };
 }
@@ -8074,6 +8342,134 @@ async function renderMyClubs(){
     });
   }catch(e){ card.classList.add('hide'); }
 }
+// Every group you are in. A group has no code by design — the database
+// enforces code IS NULL on a universal row, so the code door cannot reach one
+// — and it is joined by a long link instead. Only the owner can see that
+// link, which is why the button is drawn for them alone rather than drawn for
+// everyone and refused on click.
+async function renderMyGroups(){
+  const card = $('fp-gcard'), host = $('fp-groups');
+  if(!card || !host || !user || !sb) return;
+  // the account-page switch outranks every per-group one, so a mute below it
+  // is drawn disabled rather than drawn live and quietly meaningless
+  const globalOff = !!(PRIV && (!PRIV.share || !PRIV.groups));
+  try{
+    const { data: mine } = await sb.from('group_members')
+      .select('group_id').eq('user_id', user.id);
+    const ids = (mine || []).map(r=> r.group_id);
+    let rows = [];
+    if(ids.length){
+      const { data: gs } = await sb.from('groups').select('*').in('id', ids);
+      rows = (gs || []).filter(g=> g.universal)
+        .sort((a, b)=> (a.name || '').localeCompare(b.name || ''));
+    }
+    // your own mute per group. Not readable off the row — see CLU-392 — so it
+    // comes back through a definer function scoped to auth.uid().
+    const mute = {};
+    try{
+      const { data: ms } = await sb.rpc('my_group_shares');
+      (ms || []).forEach(r=> mute[r.group_id] = r.share_with_group !== false);
+    }catch(e){ /* pre-migration: leave every group unmuted */ }
+    // one query for every roster rather than one per group
+    const seats = {};
+    if(rows.length){
+      const { data: ms } = await sb.from('group_members')
+        .select('group_id, user_id').in('group_id', rows.map(g=> g.id));
+      (ms || []).forEach(m=> seats[m.group_id] = (seats[m.group_id] || 0) + 1);
+    }
+    if(!rows.length){
+      host.innerHTML = '<div style="color:var(--ink-3);font-size:13px;padding:2px 0">'
+        + 'No groups yet \u2014 name one below and send the link to whoever '
+        + 'should be in it.</div>';
+      return;
+    }
+    host.innerHTML = pkHTML(rows.map(g=>{
+      const k = seats[g.id] || 1;
+      return '<div class="afrow" style="align-items:baseline;padding:5px 0">'
+        + '<b style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'
+        + esc(g.name) + '</b>'
+        + '<span class="mono" style="font-size:10.5px;color:var(--ink-3)">'
+        + k + ' ' + (k === 1 ? 'person' : 'people') + '</span>'
+        + (g.created_by === user.id
+           ? '<button class="abtn" style="margin-left:auto" data-ginv="'
+             + esc(g.id) + '">Invite link</button>'
+           : '<span style="margin-left:auto"></span>')
+        + '<button class="aquiet" data-gleave="' + esc(g.id) + '" data-gname="'
+        + esc(g.name) + '">leave</button>'
+        + '</div>'
+        + '<div class="atog" style="margin:0 0 4px 2px">'
+        + '<input type="checkbox" id="gm-' + esc(g.id) + '" data-gmute="'
+        + esc(g.id) + '"' + (mute[g.id] === false ? ' checked' : '')
+        + (globalOff ? ' disabled' : '')
+        + ' aria-label="Hide my progress from ' + esc(g.name) + '">'
+        + '<label class="t" for="gm-' + esc(g.id) + '">'
+        + 'hide my progress from this group<span> '
+        + (globalOff
+           ? 'already covered — your groups cannot see any of your lists.'
+           : 'they keep their own roster and their own progress; yours stops '
+             + 'showing to them alone.')
+        + '</span></label></div>';
+    }), 'groups', 'fp-groups');
+    pkAll(host);
+    host.querySelectorAll('button[data-ginv]').forEach(b=>{
+      b.onclick = async ()=>{
+        // the token never rides in the groups row — it lives in its own
+        // owner-only table, so it is fetched at the moment it is asked for
+        const { data, error } = await sb.rpc('group_join_link',
+                                             { p_group: b.dataset.ginv });
+        if(error || !data){
+          gnote('Could not fetch that link' + (error ? ': ' + error.message : '.'), true);
+          return;
+        }
+        acctCopy('https://clubd.watch/?g=' + encodeURIComponent(data),
+                 'Invite link copied \u2014 anyone with it can join this group.');
+      };
+    });
+    host.querySelectorAll('input[data-gmute]').forEach(b=>{
+      b.onchange = async ()=>{
+        // checked means HIDE, so the value written is its opposite
+        const want = !b.checked;
+        b.disabled = true;
+        const { error } = await sb.rpc('set_group_share',
+          { p_group: b.dataset.gmute, p_share: want });
+        b.disabled = false;
+        if(error){
+          b.checked = !b.checked;   // never paint a setting that did not land
+          gnote('That did not save — this group sees exactly what it did '
+                + 'before.', true);
+          return;
+        }
+        gnote(want ? 'This group can see your progress again.'
+                   : 'Hidden from this group. Your other groups are unchanged.',
+              false);
+      };
+    });
+    host.querySelectorAll('button[data-gleave]').forEach(b=>{
+      b.onclick = async ()=>{
+        if(!confirm('Leave ' + b.dataset.gname
+                    + '? Your own progress is untouched.')) return;
+        const { error } = await sb.from('group_members')
+          .delete().eq('group_id', b.dataset.gleave).eq('user_id', user.id);
+        if(error){ gnote('Could not leave: ' + error.message, true); return; }
+        gnote('Left ' + b.dataset.gname + '.', false);
+        renderMyGroups();
+      };
+    });
+  }catch(e){
+    console.error('[tracker] groups failed', e);
+  }
+}
+// The groups card keeps its own note line. friendNotify's belongs to the
+// request flow above it, and a group message appearing up there would read as
+// being about a friend.
+function gnote(text, bad){
+  const f = $('fp-gnote');
+  if(!f){ flash(text); return; }
+  f.textContent = text;
+  f.style.color = bad ? 'var(--ink)' : 'var(--done)';
+  f.classList.remove('hide');
+  setTimeout(()=>{ if(f.textContent === text) f.classList.add('hide'); }, 9000);
+}
 function showFriendsPage(){
   $('splash').classList.add('hide');
   $('homev').classList.add('hide');
@@ -8087,6 +8483,7 @@ function showFriendsPage(){
   renderFriends();
   renderFriendsPage();
   renderMyClubs();
+  renderMyGroups();
 }
 
 // The move warning: localStorage is per-origin, so anonymous ticks stay
@@ -8161,9 +8558,55 @@ const TKEY = 'gw:clubtile:' + SLUG;
 // groups is one layer, not two.
 const AKEY = 'gw:groupall:' + SLUG;
 let allGroups = localStorage.getItem(AKEY) === '1';
+// The ad-hoc comparison — the design's "or pick people". A handful of mutual
+// friends drawn on the strip INSTEAD of a club, and deliberately not a club:
+// no name, no code, no roster, nobody told. That is why it lives in
+// localStorage beside the club choice rather than in a table — there is
+// nothing here worth a row, and the moment you keep picking the same four a
+// real club is the better answer.
+const PICKKEY = 'gw:picked:' + SLUG;
+function readPicked(){
+  try{
+    const v = JSON.parse(localStorage.getItem(PICKKEY) || '[]');
+    return Array.isArray(v) ? v.filter(x=> typeof x === 'string') : [];
+  }catch(e){ return []; }
+}
+let picked = readPicked();
+function setPicked(ids){
+  picked = ids;
+  // Guarded the way writeLocal is, and for the same reason: a private window
+  // or a full quota makes every write throw while reads still work, so the
+  // page boots and then the FIRST choice explodes halfway through. Its callers
+  // clear the club before this and load members after it, so an uncaught throw
+  // left a club with no club — its members still drawn under a trigger naming
+  // it, the menu still open, and no copy line. Forgetting the pick on reload
+  // is a far smaller failure than that, so the write is allowed to fail.
+  try{
+    if(!ids.length) localStorage.removeItem(PICKKEY);
+    else{
+      localStorage.setItem(PICKKEY, JSON.stringify(ids));
+      // A pick and a club fill the same slot, so a pick means no club — and
+      // that has to survive a reload the way Just me does, as a stored value
+      // rather than an absent one.
+      localStorage.setItem(GKEY, JUSTME);
+    }
+  }catch(e){}
+}
+// The picker's pool. MUTUAL only: a request you sent and they never answered
+// is not someone who agreed to be compared with, and the progress read the
+// comparison needs is only permitted for a mutual pair anyway.
+function mutualFriends(){
+  if(!FREDGES) return [];
+  const nm = FREDGES.names || {};
+  return FREDGES.ids.filter(i=> FREDGES.out.has(i) && FREDGES.inn.has(i))
+    .sort((a,b)=> String(nm[a]||'').localeCompare(String(nm[b]||'')));
+}
+// The strip draws other people for a club and now also for a pick. Both of
+// these used to test `group` alone, which is what made a pick invisible.
+function drawingPeople(){ return !!(group || picked.length); }
 
 function gstate(){
-  const on = !!(group && gmembers.length);
+  const on = !!(drawingPeople() && gmembers.length);
   $('stack').classList.toggle('hide', !on);
   $('glegend').classList.toggle('hide', !on);
   $('strip').classList.toggle('hide', on);
@@ -8174,33 +8617,107 @@ function gstate(){
 }
 
 async function loadGroups(){
+  // `picked` is deliberately NOT cleared here: signing out is not a decision
+  // about who you compare with, and blanking it would lose the choice on a
+  // sign-in later in the same page life. Nothing draws it while gmembers is
+  // empty, which it is.
   if(!user){ groups=[]; group=null; gmembers=[]; return; }
+  // Warm the friend graph before the panel decides what to draw. The switcher
+  // offers the picker only when there is somebody in it, so the answer has to
+  // be known by render time — and this is the same cached fetch the thumbs
+  // pull and the legend already share, so it costs a round trip at most once.
+  try{ await friendEdges(); }catch(e){}
   const { data:mine, error } = await sb.from('group_members')
     .select('group_id').eq('user_id', user.id);
   if(error) throw error;
-  if(!mine.length){ groups=[]; group=null; gmembers=[]; return; }
 
-  // groups belong to one property; only show the ones for what's on screen
-  const { data:gs, error:e2 } = await sb.from('groups')
-    .select('*')
-    .in('id', mine.map(r=>r.group_id))
-    .eq('property_id', SLUG);
-  if(e2) throw e2;
+  if(mine.length){
+    // groups belong to one property; only show the ones for what's on screen
+    const { data:gs, error:e2 } = await sb.from('groups')
+      .select('*')
+      .in('id', mine.map(r=>r.group_id))
+      .eq('property_id', SLUG);
+    if(e2) throw e2;
+    groups = gs || [];
+  }else{
+    groups = [];
+  }
 
-  groups = gs || [];
   // "-" is the null selection: you, on your own, with a club available.
   // It has to survive a reload, so it is a real stored value rather than
   // the absence of one — absence means "never chose", which defaults in.
   const saved = localStorage.getItem(GKEY);
   group = saved === JUSTME ? null
         : (groups.find(g=>g.id===saved) || groups[0] || null);
+  // One slot, one answer. A club winning here means the stored picks are
+  // stale; and a pick naming someone you have since unfriended has to go,
+  // because their progress is no longer readable and the row would be a name
+  // with nothing behind it.
+  // FREDGES in the test on purpose: a friend fetch that merely FAILED would
+  // report nobody as mutual, and pruning against that answer would delete the
+  // picks off this device for good over one bad round trip.
+  if(group) setPicked([]);
+  else if(picked.length && FREDGES){
+    const mut = mutualFriends();
+    setPicked(picked.filter(id=> mut.indexOf(id) >= 0));
+  }
   await loadMembers();
 }
 
 function combined(){ return allGroups && groups.length > 1; }
 
+// The picked comparison, loaded the way a club is: the same progress query,
+// the same free-colour walk, so a picked person arrives with the same shape a
+// club member has and every consumer downstream — the stack, the legend, the
+// pace tag, the add-friend button — needs no special case at all.
+async function loadPicked(){
+  if(!user) return [];
+  const mut = mutualFriends();
+  const ids = picked.filter(id=> mut.indexOf(id) >= 0);
+  // You are always in it, and first. The comparison IS your progress against
+  // theirs, so a pick with you left out compares nothing — and first even at
+  // zero, because "I have not started and they are at 40" is the answer the
+  // strip exists to give.
+  const all = [user.id, ...ids];
+  const byUser = {}, lastSync = {};
+  try{
+    const { data:rows, error } = await sb.from('progress')
+      .select('user_id, read_ids, updated_at').in('user_id', all).eq('property_id', SLUG);
+    if(error) throw error;
+    (rows||[]).forEach(r=>{
+      byUser[r.user_id] = clean(r.read_ids);
+      if(r.updated_at) lastSync[r.user_id] = r.updated_at;
+    });
+  }catch(e){
+    // the mutual-friends progress policy is what makes this readable at all;
+    // before it runs, names still draw and the bands are simply empty
+    console.error('[tracker] picked progress failed', e);
+  }
+  const nm = (FREDGES && FREDGES.names) || {};
+  const used = new Set();
+  return all.map((id, i)=>{
+    // color_index is a column on club membership and a pick has no club, so
+    // position stands in for it — then the SAME walk the club colours take,
+    // which is what makes a collision impossible up to MCOLORS people.
+    let ci = i % MCOLORS;
+    for(let n = 0; n < MCOLORS && used.has(ci); n++) ci = (ci + 1) % MCOLORS;
+    used.add(ci);
+    return {
+      id, ci, gids: [], from: [],
+      name: id === user.id
+        ? (acctName() || (user.email||'').split('@')[0].slice(0,24) || 'you')
+        : (nm[id] || 'someone'),
+      read: byUser[id] || new Set(),
+      last: lastSync[id] || null
+    };
+  });
+}
+
 async function loadMembers(){
-  if(!group){ gmembers=[]; return; }
+  if(!group){
+    gmembers = picked.length ? await loadPicked() : [];
+    return;
+  }
   const gids = combined() ? groups.map(g=>g.id) : [group.id];
   const { data:roster, error } = await sb.from('group_members')
     .select('group_id, user_id, display_name, color_index').in('group_id', gids);
@@ -8303,11 +8820,16 @@ function shiftISO(iso, days){
 // Relative windows carry only offsets: "20 episodes in week one". They describe
 // a pace, not a calendar, so they mean nothing until a group says when it
 // started. Until then there is no schedule and nobody is behind.
-function windows(){
+//
+// Parameterised by club because the switcher needs every club's dates at once,
+// not just the one on screen: schedule_shift_days moves one club's windows
+// without moving another's, so two clubs on the same property can genuinely be
+// asking for different things by different dates.
+function windowsFor(g){
   const sched = PROP && PROP.schedule;
   if(!sched || sched.kind !== 'windows' || !(sched.windows||[]).length) return null;
   const ws = sched.windows;
-  const shift = (group && group.schedule_shift_days) || 0;
+  const shift = (g && g.schedule_shift_days) || 0;
 
   if(ws[0].start !== undefined){
     return shift
@@ -8315,7 +8837,7 @@ function windows(){
       : ws;
   }
 
-  const anchor = group && group.schedule_start;
+  const anchor = g && g.schedule_start;
   if(!anchor) return null;
   return ws.map(w=>({
     label: w.label,
@@ -8324,6 +8846,7 @@ function windows(){
     end:   shiftISO(anchor, w.offset + w.days - 1 + shift)
   }));
 }
+function windows(){ return windowsFor(group); }
 
 // true when the property has a pace to offer but the group has not started it
 function isPaced(){
@@ -8494,7 +9017,7 @@ function wireUnpace(p){
 function paintStack(){
   gstate();
   applyOverrides();
-  if(!group || !gmembers.length) return;
+  if(!drawingPeople() || !gmembers.length) return;
 
   const list = gmembers.slice()
     .sort((a,b)=> readsOf(b).size - readsOf(a).size || a.name.localeCompare(b.name));
@@ -8826,37 +9349,136 @@ function togetherLabel(){
   return v && v.indexOf(' ') < 0 ? cap(v) + ' this together' : 'On this list';
 }
 
-// Which of your groups the strip is drawing. Only worth a control once there
-// is more than one; below that the header already says which group you are in.
+// What the trigger says it is drawing. The tile's header carries the club name
+// when there is a club — but a pick has no club and therefore no header, so
+// the trigger is the only place that answer can live for all four states.
+function switchLabel(){
+  if(group) return group.name;
+  if(!picked.length) return 'Just me';
+  const nm = (FREDGES && FREDGES.names) || {};
+  return picked.length === 1 ? (nm[picked[0]] || 'someone')
+                             : picked.length + ' friends';
+}
+function pickNames(){
+  const nm = (FREDGES && FREDGES.names) || {};
+  return picked.map(id=> nm[id] || 'someone').join(', ');
+}
+
+// The hint on a club's row, and the reason the switcher stopped being a
+// <select>: it answers the one thing a club NAME cannot, which is whether this
+// club has a date and what it is asking of you next. On a windowed property
+// that is the current window's cumulative target rather than the whole run —
+// and it is genuinely per-club, because a shifted schedule puts two clubs in
+// different windows on the same day.
+function clubHint(g){
+  const ws = windowsFor(g);
+  if(ws){
+    const today = todayISO();
+    const w = ws.find(x=> today <= x.end) || ws[ws.length-1];
+    return w.through + ' ' + plural(w.through) + ' by ' + niceDate(w.end);
+  }
+  // A paced property whose windows are not anchored yet has no dates at all,
+  // which is the same answer as a club that never set one — saying "not
+  // started" here would imply a date exists and is merely pending.
+  if(isPaced() || !g.target_date) return 'no date';
+  return TOTAL + ' ' + plural(TOTAL) + ' by ' + niceDate(g.target_date);
+}
+
+// Which of your clubs the strip is drawing — and, since the picker landed,
+// whether it is drawing a club at all.
+//
+// This is a menu built by hand rather than a <select>. The OS popup a select
+// opens is drawn in the OS's colours over a dark tile, which reads as a
+// rendering fault, and it has nowhere to put the per-row hint above. What it
+// WAS giving away for free is keyboard and screen-reader behaviour, so
+// wireSwitcher() below owes all of that by hand.
 function groupSwitcher(){
-  // One club is enough to need this now: without a null option, a member of
-  // exactly one club has no way to see their own progress on its own, and
-  // the switcher never rendered at all below two (CLU-114).
-  if(!groups.length) return '';
-  // Just me sits OUTSIDE the group, above it, because it is not a club of
-  // either kind and it has to sort to the top whatever the sections hold.
+  const mut = mutualFriends();
+  // Nothing to choose between: no club to turn off and nobody to compare
+  // against. A control whose menu holds only the state you are already in is
+  // a dead affordance, and the create-a-club form below is the real answer.
   //
-  // The <optgroup> is the switcher's second half arriving early: universal
-  // groups get their own headed section beside this one when CLU-114 lands,
-  // and adding it is one more optgroup rather than a new control. Nothing
-  // below is per-list-only by accident — a group's rows would simply carry
-  // their own heading here.
-  const opts = '<option value="'+JUSTME+'"'+(group?'':' selected')
-             + '>Just me</option>'
-    + '<optgroup label="'+esc(togetherLabel())+'">'
-    + groups.slice()
-    .sort((a,b)=> a.name.localeCompare(b.name))
-    .map(g=>'<option value="'+esc(g.id)+'"'
-            +(group && g.id===group.id?' selected':'')
-            +'>'+esc(g.name)+'</option>').join('')
-    + '</optgroup>';
-  return '<select id="g-switch" aria-label="Which club to show"'
-    + (combined() ? ' disabled' : '')
+  // A live pick counts as something to choose between even when both of those
+  // are empty, and that is not a hypothetical: fetchFriendEdges() returns null
+  // on a query error, so mutualFriends() reports nobody after one bad round
+  // trip. Without picked.length here the panel renders "the strip is comparing
+  // you with someone, someone" and no control that can end it.
+  if(!groups.length && !mut.length && !picked.length) return '';
+
+  const row = (v, label, hint, on)=>
+      '<button type="button" class="gmi'+(on?' on':'')+'" role="menuitemradio"'
+    + ' aria-checked="'+(on?'true':'false')+'" tabindex="-1" data-v="'+esc(v)+'">'
+    + '<span class="gtick" aria-hidden="true">'+(on?'&#10003;':'')+'</span>'
+    + '<span class="gmn">'+esc(label)+'</span>'
+    + (hint ? '<span class="gwhy mono">'+esc(hint)+'</span>' : '')
+    + '</button>';
+
+  // Just me sits OUTSIDE both sections, above them, because it is not a club
+  // of either kind and it has to sort to the top whatever the sections hold.
+  let html = row(JUSTME, 'Just me', 'no comparison', !group && !picked.length);
+
+  if(groups.length)
+    html += '<div role="group" aria-label="'+esc(togetherLabel())+'">'
+      + '<p class="gmh" aria-hidden="true">'+esc(togetherLabel())+'</p>'
+      + groups.slice().sort((a,b)=> a.name.localeCompare(b.name))
+          .map(g=> row(g.id, g.name, clubHint(g), !!(group && g.id === group.id)))
+          .join('')
+      + '</div>';
+
+  // The universal groups (CLU-114) go HERE, between the clubs and the picker:
+  // a third role="group" headed "Your groups", rows hinted with a member count
+  // rather than a date, since a finish date across every list means nothing.
+  // "Groups above clubs" is a rule about the FRIENDS page, not this menu —
+  // here the per-list thing you are in right now leads, and the standing
+  // roster sits under it.
+  // The rows are not drawn yet — universal groups exist in the database but
+  // have no creation UI on a list page, so the section would be permanently
+  // empty and the heading would be a promise. Nothing else in this function
+  // changes when it arrives; it is one more block of the same shape.
+
+  if(mut.length)
+    html += '<div role="group" aria-label="Or pick people">'
+      + '<p class="gmh" aria-hidden="true">Or pick people</p>'
+      // role=none on the wrapper: it exists to indent and pad the block, and a
+      // plain <div> is not something role=menu may own — taking it out of the
+      // tree hands the checkboxes straight back to the group they belong to.
+      + '<div class="gfpick" role="none">'
+      + mut.map(id=>{
+          const on = picked.indexOf(id) >= 0;
+          const nm = (FREDGES.names || {})[id] || 'someone';
+          return '<button type="button" class="gmc"'
+            + ' role="menuitemcheckbox" aria-checked="'+(on?'true':'false')+'"'
+            + ' tabindex="-1" data-p="'+esc(id)+'">'
+            + '<span class="gbox" aria-hidden="true"></span>'
+            + '<span class="gmn">'+esc(nm)+'</span></button>';
+        }).join('')
+      + '<button type="button" class="gmgo" id="g-pickgo" role="menuitem"'
+      + ' tabindex="-1">compare these</button></div></div>';
+
+  // No aria-label on the trigger. It would replace the visible "showing
+  // <club>" with a sentence that never changes — so a reader could not learn
+  // which club is drawing without opening the menu and hunting for the ticked
+  // row, which is exactly what the <select> gave away for free by exposing its
+  // selected option. It is also a Label-in-Name failure, so voice control
+  // could not address the control by the words on it. The contents name it;
+  // the descriptive sentence stays on the menu, where it is not a duplicate.
+  return '<button type="button" class="gswb" id="g-switch" aria-haspopup="true"'
+    + ' aria-expanded="false" aria-controls="g-menu"'
+    // aria-disabled rather than disabled: `disabled` drops the control out of
+    // the tab order and takes the one sentence explaining why with it, because
+    // that sentence lives on a title no keyboard can reach. Focusable and
+    // declining out loud is the honest version — wireSwitcher does the
+    // declining, since aria-disabled is advisory and the click still fires.
+    + (combined() ? ' aria-disabled="true"' : '')
     + ' title="'
-    + (!group ? 'Showing your own progress'
-       : combined() ? 'Dates and the roster still follow this one'
-       : 'Which club the strip is drawing')
-    + '">'+opts+'</select>';
+    + esc(combined() ? 'Dates and the roster still follow this one'
+          : !group && !picked.length ? 'Showing your own progress'
+          : 'Which club the strip is drawing')
+    + '"><span class="gswl">showing</span>'
+    + '<span class="gswn">'+esc(switchLabel())+'</span>'
+    + '<span class="gswc" aria-hidden="true"></span></button>'
+    + '<div class="gmenu" id="g-menu" role="menu" hidden'
+    + ' aria-label="Which club the strip is drawing">'+html+'</div>';
 }
 
 // Stacking "everyone from all your clubs" needs more than one club and a club
@@ -9012,10 +9634,10 @@ function updateGroupLine(){
 function paintClubBar(label){
   $('ghead').textContent = label;
   const pl = $('c-pl'), dots = $('c-dots');
-  const n = group ? gmembers.length : 0;
+  const n = drawingPeople() ? gmembers.length : 0;
   pl.textContent = n > 1 ? '+' + (n - 1) : '';
   pl.classList.toggle('hide', n < 2);
-  dots.innerHTML = !group ? '' : gmembers.slice()
+  dots.innerHTML = !n ? '' : gmembers.slice()
     .sort((a,b)=> readsOf(b).size - readsOf(a).size || a.name.localeCompare(b.name))
     .slice(0, 4)
     .map(m=> '<i style="background:var(--m'+(m.ci+1)+')"></i>').join('');
@@ -9135,17 +9757,28 @@ function renderGroupPanel(){
     // render here too, or picking "Just me" strands you on the create-a-club
     // form with no way back to the club you just turned off. It renders in
     // the branch below otherwise, which is why this is easy to miss.
-    if(groups.length){
-      // the bar says Just me because that is what was chosen — not the
-      // invitation copy, which would read as though no club existed
-      paintClubBar('Just me');
+    //
+    // Friends count as somewhere to go now: with no club on this list but
+    // people to compare against, the picker is the whole control, and gating
+    // it on groups.length would have hidden it from exactly the person it was
+    // built for.
+    if(groups.length || picked.length || mutualFriends().length){
+      // the bar says what was chosen — not the invitation copy, which would
+      // read as though no club existed
+      paintClubBar(picked.length ? switchLabel() : 'Just me');
       setup.classList.toggle('hide', !addingGroup);
       joined.classList.remove('hide');
       foot.classList.remove('hide');
       if(addingGroup) prepSetup(true);
       joined.innerHTML = '<div class="cmenu">' + groupSwitcher() + '</div>'
-        + '<p class="lbl">The strip is showing your own progress. '
-        + 'Pick a club above to draw everyone.</p>';
+        + '<p class="lbl">' + (picked.length
+            ? 'The strip is comparing you with ' + esc(pickNames()) + '. '
+              + 'Not a club: nothing was created, there is no code, and they '
+              + 'are not told.'
+            : 'The strip is showing your own progress. '
+              + (groups.length ? 'Pick a club above to draw everyone.'
+                               : 'Pick people above to compare with them.'))
+        + '</p>';
       foot.innerHTML = clubFoot();
       wireSwitcher();
       wireClubFoot();
@@ -9221,18 +9854,74 @@ function renderGroupPanel(){
   wireSwitcher();
 }
 
+// Choosing anything rebuilds the whole panel, so the trigger focus should
+// return to is gone by the time it would be restored. This carries it across:
+// set by a menu action, consumed by the next wireSwitcher.
+let gmenuFocus = false;
+// One document listener for the page's life rather than one per render —
+// renderGroupPanel runs on every poll, and addEventListener here would stack
+// up exactly the way wireTile's ontoggle exists to avoid.
+let gmenuDocWired = false;
+
 // Its own function because the switcher now renders in TWO branches of
 // renderGroupPanel: the one where a club is selected, and the one where you
-// have chosen to be on your own but still have clubs to go back to.
+// have chosen to be on your own but still have clubs (or friends) to go to.
+//
+// Everything below the click handler is what the native <select> was giving
+// away for free and this control now owes: a roving tabindex so the menu is
+// one tab stop, arrows and Home/End to move inside it, Enter or Space to
+// choose (native, because every row is a real <button>), Escape to shut it,
+// and focus handed back to the trigger whichever way it closes.
 function wireSwitcher(){
-  const sw = $('g-switch');
-  if(!sw) return;
-  sw.onchange = async ()=>{
-    localStorage.setItem(GKEY, sw.value);
+  const sw = $('g-switch'), menu = $('g-menu');
+  // Consumed BEFORE the early return, not after it. A render with no trigger
+  // to hand focus back to would otherwise leave the flag standing, and the
+  // next render that did draw one would yank focus off whatever the reader had
+  // moved to in between.
+  const refocus = gmenuFocus; gmenuFocus = false;
+  if(!sw || !menu) return;
+  const items = ()=> [].slice.call(menu.querySelectorAll('[role^=menuitem]'));
+  // aria-disabled is advisory — the browser still fires the click and the
+  // keydown — so the control declines them itself, and says why. That sentence
+  // is the whole reason it stayed focusable instead of being `disabled`.
+  const inert = ()=> sw.getAttribute('aria-disabled') === 'true';
+
+  function focusAt(i){
+    const list = items();
+    if(!list.length) return;
+    const n = ((i % list.length) + list.length) % list.length;
+    list.forEach(el=>{ el.tabIndex = -1; });
+    list[n].tabIndex = 0;
+    list[n].focus();
+  }
+  function openMenu(where){
+    menu.hidden = false;
+    sw.setAttribute('aria-expanded', 'true');
+    const list = items();
+    const at = list.findIndex(el=> el.getAttribute('aria-checked') === 'true');
+    // opening lands on what is already chosen, so the first arrow press moves
+    // away from your own selection rather than towards it
+    focusAt(where === 'end' ? list.length - 1
+          : where === 'start' ? 0
+          : (at < 0 ? 0 : at));
+  }
+  function closeMenu(back){
+    menu.hidden = true;
+    sw.setAttribute('aria-expanded', 'false');
+    if(back) sw.focus();
+  }
+
+  async function choose(v){
+    gmenuFocus = true;
+    // a pick and a club are the same slot, so choosing either clears the other
+    setPicked([]);
+    // same guard as setPicked's: a refused write must not abort the switch
+    // half-done, leaving the old club drawn under the new name
+    try{ localStorage.setItem(GKEY, v); }catch(e){}
     // a drawer belongs to the club it was opened on — a rename box still
     // holding the last club's name would be pointed at the new one
     gdrawer = '';
-    if(sw.value === JUSTME){
+    if(v === JUSTME){
       // deliberately not `|| group`: choosing yourself must be able to
       // clear the selection, which is the whole point of the option
       group = null; gmembers = [];
@@ -9240,10 +9929,113 @@ function wireSwitcher(){
       paintStack(); renderGroupPanel();
       return;
     }
-    group = groups.find(g=>g.id===sw.value) || group;
+    group = groups.find(g=>g.id===v) || group;
     try{ await loadMembers(); }catch(e){ console.error('[tracker] group switch failed', e); }
     paintStack(); renderGroupPanel();
+  }
+
+  async function applyPicks(){
+    const ids = items().filter(el=> el.dataset.p && el.getAttribute('aria-checked') === 'true')
+                       .map(el=> el.dataset.p);
+    gmenuFocus = true;
+    gdrawer = '';
+    allGroups = false;
+    group = null;
+    setPicked(ids);
+    // nothing ticked is exactly Just me, and landing there is better than
+    // leaving an empty comparison selected
+    if(!ids.length){ try{ localStorage.setItem(GKEY, JUSTME); }catch(e){} }
+    try{ await loadMembers(); }
+    catch(e){ console.error('[tracker] picked load failed', e); }
+    paintStack(); renderGroupPanel();
+    flash(ids.length
+      ? 'Comparing you with ' + pickNames() + ' on this list. Not a club — '
+        + 'nothing was created, and they are not told.'
+      : 'Back to just you.', 'gmsg2');
+  }
+
+  // Character search, the last thing the <select> supplied that this had not
+  // rebuilt by hand. It is worth having because the menu grows: six clubs and
+  // four friends is nine arrow presses to the bottom, or one letter.
+  let typed = '', typedAt = 0;
+  function searchTo(ch){
+    const now = Date.now();
+    typed = (now - typedAt < 900 ? typed : '') + ch.toLowerCase();
+    typedAt = now;
+    // the same letter pressed again walks the matches rather than looking for
+    // a name starting "ss" — a <select> does this and people rely on it
+    const same = /^(.)\1*$/.test(typed);
+    const q = same ? typed[0] : typed;
+    const list = items(), at = list.indexOf(document.activeElement);
+    for(let i = 0; i < list.length; i++){
+      const el = list[(at + (same ? 1 : 0) + i + list.length) % list.length];
+      const nm = ((el.querySelector('.gmn') || el).textContent || '').trim().toLowerCase();
+      if(nm.indexOf(q) === 0){ focusAt(list.indexOf(el)); return; }
+    }
+  }
+
+  sw.onclick = ()=>{
+    if(inert()){
+      flash('Dates and the roster still follow ' + (group ? group.name : 'this club')
+        + '. Untick “stack everyone” to switch clubs again.', 'gmsg2');
+      return;
+    }
+    if(menu.hidden) openMenu(); else closeMenu(true);
   };
+  // Enter and Space are the button's own; only the arrows need claiming, and
+  // only while the menu is shut, because once it is open focus is inside it
+  sw.onkeydown = e=>{
+    if(inert()) return;
+    if(menu.hidden && e.key === 'ArrowDown'){ e.preventDefault(); openMenu('start'); }
+    else if(menu.hidden && e.key === 'ArrowUp'){ e.preventDefault(); openMenu('end'); }
+  };
+
+  menu.onkeydown = e=>{
+    const list = items(), at = list.indexOf(document.activeElement);
+    if(e.key === 'ArrowDown'){ e.preventDefault(); focusAt(at + 1); }
+    else if(e.key === 'ArrowUp'){ e.preventDefault(); focusAt(at - 1); }
+    else if(e.key === 'Home'){ e.preventDefault(); focusAt(0); }
+    else if(e.key === 'End'){ e.preventDefault(); focusAt(list.length - 1); }
+    else if(e.key === 'Escape'){ e.preventDefault(); closeMenu(true); }
+    // tabbing out is a way of dismissing it, but the focus it moves to is the
+    // one the reader asked for — so close without taking it back
+    else if(e.key === 'Tab'){ closeMenu(false); }
+    // Space belongs to the row under the cursor, which is how a checkbox gets
+    // ticked without the mouse; every other single character is a search
+    else if(e.key.length === 1 && e.key !== ' '
+            && !e.ctrlKey && !e.metaKey && !e.altKey){
+      e.preventDefault(); searchTo(e.key);
+    }
+  };
+
+  menu.onclick = e=>{
+    const box = e.target.closest('[data-p]');
+    if(box){
+      // a ticked box does NOT close the menu: picking people is a multiple
+      // choice, and shutting after each one makes three friends three trips
+      const on = box.getAttribute('aria-checked') !== 'true';
+      box.setAttribute('aria-checked', on ? 'true' : 'false');
+      return;
+    }
+    if(e.target.closest('#g-pickgo')){ applyPicks(); return; }
+    const row = e.target.closest('[data-v]');
+    if(row) choose(row.dataset.v);
+  };
+
+  if(!gmenuDocWired){
+    gmenuDocWired = true;
+    document.addEventListener('click', e=>{
+      const m = $('g-menu'), t = $('g-switch');
+      if(!m || m.hidden) return;
+      if(m.contains(e.target) || (t && t.contains(e.target))) return;
+      // dismissed by pointing somewhere else, so focus stays where the
+      // reader put it rather than snapping back to the trigger
+      m.hidden = true;
+      if(t) t.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  if(refocus) sw.focus();
 }
 
 async function refreshGroup(loud){
@@ -9251,8 +10043,13 @@ async function refreshGroup(loud){
   groupError = '';
   try{
     await loadGroups();
-    if(group) localStorage.setItem(GKEY, group.id);
-    else if(groups.length) localStorage.setItem(GKEY, JUSTME);
+    // remembering the choice is not worth reporting the club as unreachable:
+    // a refused write here used to land in the catch below and tell someone
+    // their clubs were down when the only thing that failed was localStorage
+    try{
+      if(group) localStorage.setItem(GKEY, group.id);
+      else if(groups.length || picked.length) localStorage.setItem(GKEY, JUSTME);
+    }catch(e){}
     paintStack(); renderGroupPanel();
     if(loud) flash('Up to date.','gmsg2');
   }catch(e){
@@ -9268,12 +10065,16 @@ function startGroupPoll(){
   clearInterval(gPoll);
   // no realtime channel; a slow poll is enough to watch other people read
   gPoll = setInterval(()=>{
-    if(document.hidden || !group) return;
+    if(document.hidden || !user || !drawingPeople()) return;
     // re-rendering the panel replaces its inputs, so a poll landing mid-edit
-    // would wipe what someone had half-typed into the rename or name box
+    // would wipe what someone had half-typed into the rename or name box —
+    // and, since the switcher stopped being a <select>, would rebuild an open
+    // menu out from under whoever was choosing in it
     const typing = document.activeElement;
-    const inPanel = typing && $('gpanel') && $('gpanel').contains(typing)
-                    && /^(INPUT|SELECT)$/.test(typing.tagName);
+    const menu = $('g-menu');
+    const inPanel = (typing && $('gpanel') && $('gpanel').contains(typing)
+                     && /^(INPUT|SELECT)$/.test(typing.tagName))
+                    || !!(menu && !menu.hidden);
     loadMembers().then(()=>{ paintStack(); if(!inPanel) renderGroupPanel(); })
                  .catch(e=> console.error('[tracker] group poll failed', e));
   }, 45000);
@@ -11741,7 +12542,11 @@ function paint(){
   $('code').value = btoa(JSON.stringify([...done]));
   paintWindow();
   paintPaceToggle();
-  if(group){ paintStack(); updateGroupLine(); }
+  // drawingPeople, not `group`: every tick handler lands here, and with a pick
+  // on screen this is the only thing that redraws YOUR band — testing `group`
+  // froze your own layer until the 45s poll caught up. updateGroupLine
+  // self-guards on `group`, so a pick correctly gets no pace line.
+  if(drawingPeople()){ paintStack(); updateGroupLine(); }
   openInitialSection();
 }
 
@@ -11882,9 +12687,11 @@ $('b-gjoin').onclick = async ()=>{
   startGroupPoll();
 };
 
-// coming back to the tab is the most likely moment for someone else to have read something
+// coming back to the tab is the most likely moment for someone else to have
+// read something — and that is as true of a picked friend as of a club, which
+// is why this takes the same guard as the poll rather than testing `group`
 document.addEventListener('visibilitychange', ()=>{
-  if(document.hidden || !group) return;
+  if(document.hidden || !user || !drawingPeople()) return;
   loadMembers().then(()=>{ paintStack(); renderGroupPanel(); })
                .catch(e=> console.error('[tracker] group refresh failed', e));
 });
